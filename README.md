@@ -1,0 +1,1 @@
+These files come from [Reta Vortaro](http://www.reta-vortaro.de/revo/). License: GPL
