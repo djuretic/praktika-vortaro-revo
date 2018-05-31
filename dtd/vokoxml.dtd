@@ -87,7 +87,7 @@ Aliaj elementoj klarigo kaj tildo kaj sencreferenco same povas esti
 multloke, do ankaŭ ili estas listigitaj tie ĉi. -->
 
 <!-- tekst-stiloj -->
-<!ENTITY % tekst-stiloj "tld|sncref|klr|em|sup|sub|ctl|frm">
+<!ENTITY % tekst-stiloj "tld|sncref|klr|em|sup|sub|ctl|frm|nom|nac|esc">
 
 <!-- [art] Unuopa artikolo de la vortaro. Ĝi povas okazi en
 <dfn>vortaro</dfn> (se ne ekzistas precipa-parto),
@@ -106,6 +106,9 @@ se la signifoj de vorto (ofte ĉe prepozicioj kaj afiksoj) estas
 tre diversaj. -->
 
 <!ELEMENT subart (drv|snc|%priskribaj-elementoj;)*>
+<!ATTLIST subart
+	mrk ID #IMPLIED
+>
 
 <!-- [drv] Derivaĵo ene de artikolo. Unu artikolo povas priskribi plurajn
 derivaĵojn de la kapvorto. Derivaĵo komenciĝas ja kapvorto kaj
@@ -131,6 +134,9 @@ rezulti en pli klara strukturo de la artikolo. La subdividaĵoj
 estas nombrataj per A), B), ... -->
 
 <!ELEMENT subdrv (snc|%priskribaj-elementoj;)*>
+<!ATTLIST subdrv
+	mrk ID #IMPLIED
+>
 
 <!-- [snc] Senco de unuopa vorto en artikolo. Komparu la latinajn ciferojn en
 la artikoloj de PIV. Per mrk oni povas referenci sencon de alie. Per ref oni
@@ -278,13 +284,13 @@ ekz. "3" che la monato marto.
 
 <!-- [tez] NE PLU UZU! Tezaŭra nodo. Ĝi permesas referenci al tio, same kiel
  al kap kaj mem povas referenci al alia nodo.
--->
 <!ELEMENT tez (#PCDATA|tld|klr|ref|refgrp)*>
 <!ATTLIST tez
         mrk CDATA #REQUIRED
         tip (super|malprt|listo) #IMPLIED
 	cel CDATA #REQUIRED
 >
+-->
 
 <!-- [lstref] Referenco al vortlisto el artikolo.
 -->
@@ -421,7 +427,15 @@ Per "kod" vi povas indiki devenon de la mallongigo, ekz. ISO-3166 ĉe landokodoj
 <!ATTLIST mlg
           kod CDATA #IMPLIED>
 
+<!-- [nom] nomo ne esperantigita, tiuj estas ignorataj dum vortkontrolo  -->
+<!ELEMENT nom (#PCDATA)>
 
+<!-- [nac] nacilingva vorto aŭ esprimo, tiuj estas ignorataj dum vortkontrolo  -->
+<!ELEMENT nac (#PCDATA)>
+
+<!-- [esc] escepte formita (laŭ vidpunkto de vortanalizila gramatiko) 
+esperanta vorto aŭ esprimo, tiuj estas ignorataj dum vortkontrolo  -->
+<!ELEMENT esc (#PCDATA)>
 
 
 <!-- *************************************************
