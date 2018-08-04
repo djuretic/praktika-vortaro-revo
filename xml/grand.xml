@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd"> 
 
 <vortaro> 
-<art mrk="$Id: grand.xml,v 1.52 2018/05/16 19:10:16 revo Exp $"> 
+<art mrk="$Id: grand.xml,v 1.54 2018/07/13 22:10:16 revo Exp $"> 
 <kap> 
   <ofc>*</ofc> 
   <rad>grand</rad>/a <fnt><bib>PV</bib></fnt> 
@@ -100,6 +100,7 @@
     <trd>zna&ccaron;n&yacute;</trd>
   </trdgrp>
   <trd lng="de">gro&szlig;</trd>
+  <trd lng="el">&my;&epsilon;&gamma;&alfa_ton;&lambda;&omikron;</trd>
   <trdgrp lng="en"> 
     <trd>big</trd>, 
     <trd>large</trd> 
@@ -107,6 +108,7 @@
   <trd lng="es">grande</trd>
   <trd lng="fr">grand</trd>
   <trd lng="he">&gimel;&dalet;&vav;&lamed;</trd>
+  <trd lng="hu">nagy</trd>
   <trdgrp lng="id">
     <trd>agung</trd>,
     <trd>besar</trd>
@@ -117,6 +119,7 @@
     <trd>gewre</trd>,
     <trd>mezin</trd>
   </trdgrp>
+  <trd lng="lat">magnus</trd>
   <trd lng="nl">groot</trd>
   <trd lng="pt">grande</trd>
   <trd lng="ro">mare</trd> 
@@ -124,6 +127,7 @@
     <trd>&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j;</trd>, 
     <trd>&c_v;&c_je;&c_l;&c_i;&c_k;&c_i;&c_j;</trd> 
   </trdgrp>
+  <trd lng="sl">velik</trd> 
   <trdgrp lng="sk">
     <trd>ve&lcaron;k&yacute;</trd>,
     <trd>v&yacute;znamn&yacute;</trd>,
@@ -340,6 +344,7 @@
   </trdgrp>
   <trd lng="cs">mal&yacute;</trd>
   <trd lng="de">klein</trd>
+  <trd lng="el">&my;&jota;&kappa;&rho;&omikron_ton;</trd>
   <trdgrp lng="en"> 
     <trd>little</trd>, 
     <trd>small</trd> 
@@ -351,14 +356,17 @@
     <trd>chica</trd> 
   </trdgrp>
   <trd lng="fr">petit</trd>
+  <trd lng="hu">kicsi</trd>
   <trd lng="ja">&#23567;&#12373;&#12356; [ 
   <ind>&#12385;&#12356;&#12373;&#12356;</ind>]</trd>
+  <trd lng="lat">parvus</trd>
   <trd lng="nl">klein</trd>
   <trd lng="pl">ma&lstroke;y</trd>
   <trdgrp lng="ru"> 
     <trd>&c_m;&c_a;&c_l;&c_y;&c_j;</trd>, 
     <trd>&c_m;&c_a;&c_l;&c_je;&c_n;&c_mol;&c_k;&c_i;&c_j;</trd> 
   </trdgrp>
+  <trd lng="sl">majhen</trd>
   <trd lng="sk">mal&yacute;</trd>
   <trd lng="sv">liten</trd>
   <trd lng="tp">lili</trd>
@@ -419,10 +427,10 @@
       <ekz> 
         lia patro posedis mez<tld/>an ferfabrikon 
         <fnt> 
-          <aut>Kurisu K.</aut>, 
-          <vrk>Debuti</vrk>, 
-          <bib>Monato</bib>, 
-          <lok>jaro 2002a, numero 2a</lok> 
+          <aut>Kurisu K.</aut>
+          <vrk>Debuti</vrk>
+          <bib>Monato</bib>
+          <lok>2002:2</lok> 
         </fnt>. 
       </ekz> 
     </dif> 
@@ -454,11 +462,9 @@
   <snc mrk="grand.po0e.EKON"> 
     <uzo tip="fak">EKON</uzo> 
     <dif> 
-      La&ubreve; granda kvanto. 
+      La&ubreve; granda kvanto,
+      <ref tip="sin" cel="detal.mal0e.EKON">maldetale</ref>. 
     </dif> 
-    <refgrp tip="sin"> 
-      <ref cel="detal.mal0e.EKON">maldetale</ref> 
-    </refgrp> 
   </snc>
   <trdgrp lng="be"> 
     <trd>&c_g;&c_u;&c_r;&c_t;&c_o;&c_m;</trd>, 
@@ -595,6 +601,13 @@
 </art> 
 <!-- 
 $Log: grand.xml,v $
+Revision 1.54  2018/07/13 22:10:16  revo
+Jeromo Vasxe: - 2 trd la: ~a k mal~a ne estas eroj de scienca nomsistemo
+
+Revision 1.53  2018/07/07 22:10:21  revo
+Peter Garami: greka, hungara, latina/scianca, malnovlatina kaj slovena
+tradukoj aldonitaj
+
 Revision 1.52  2018/05/16 19:10:16  revo
 Benoit Soubeyran: +he
 
@@ -610,12 +623,5 @@ mez~a
 
 Revision 1.48  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
-
-Revision 1.47  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.46  2015/05/22 13:10:16  revo
-Damien Brucker: +tro~igi
-
 --> 
 </vortaro>
