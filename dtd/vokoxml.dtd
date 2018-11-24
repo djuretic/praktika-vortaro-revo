@@ -342,6 +342,8 @@ referencas al ekstera dosiero, kiu entenas la bildon.
 Per <dfn>alt</dfn> kaj <dfn>lrg</dfn> vi povas doni fiksan formaton.
 Per <dfn>tip</dfn> vi donas tipon de la bildo, t.e. <dfn>img</dfn>
 por JPEG, GIF, PNG-bildo, <dfn>svg</dfn> por SVG-vektorgrafiko.
+Per <dfn>aut</dfn> vi donas aŭtoron kaj <dfn>prm</dfn> la permesilon
+laŭ kiu la bildo rajtas esti uzata (vd ĉe Wikimedia Commons).
 -->
 <!ELEMENT bld (#PCDATA|tld|klr|fnt|ind|trd|trdgrp)*>
 <!ATTLIST bld
@@ -350,6 +352,7 @@ por JPEG, GIF, PNG-bildo, <dfn>svg</dfn> por SVG-vektorgrafiko.
 	tip (img|svg) "img"
 	alt CDATA #IMPLIED 
 	lrg CDATA #IMPLIED
+        prm CDATA #IMPLIED
 >
 
 <!-- [adm] Administraj informoj estu por redaktado. Ili povus

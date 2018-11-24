@@ -162,7 +162,7 @@ A.redakto:visited {text-decoration: underline; color: black}
 A.redakto:active {text-decoration: underline; color: gray}
 
 .flago {  border-color: #cccccc; border-width: 1px;  border-style: outset}
-IMG.bld { border-color: #cccccc; border-width: 2px; border-style: outset} 
+IMG.bld { border-color: #cccccc; border-width: 1px; background: #E0E0A0; border-style: solid; padding: 2px; margin: 0.5em} 
 IMG.fak { height: 1.5em; vertical-align: bottom; }
 
 IMG.tez { height: 1.2em; padding: 1px; vertical-align: bottom;
@@ -193,4 +193,11 @@ A IMG.viki:active {background-color:  #a0a070; border: 2px inset gray}
 
 /* formuloj */
 .frm { font-style: normal }
+
+.bld_atrib { font-size: 80%; color: gray }
+.bld_atrib:link { font-size: 80%; color: gray }
+.bld_atrib:visited { font-size: 80%; color: gray }
+.bld_atrib:focus { font-size: 80%; color: gray }
+.bld_atrib:hover { font-size: 80%; color: gray }
+.bld_atrib:active { font-size: 80%; color: gray }
 

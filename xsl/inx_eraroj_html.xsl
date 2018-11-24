@@ -43,11 +43,18 @@
               kun <a target="_new" href="http://h1838790.stratoserver.net/revokontrolo/klarigoj.html">klarigoj</a>
               pri enhava analizo de la vortaro.
             </p>
+            <xsl:variable name="n-sen-ekz"><xsl:value-of select="count(//art/ero[@tip='dos-sen-ekz'])"/></xsl:variable>
+            <xsl:if test="$n-sen-ekz &gt; 300">
+                <p>
+                    Estas entute <xsl:value-of select="$n-sen-ekz"/> artikoloj sen ekzemplo.
+                    Pro koncizeco nur la lastaj 300 estas listigitaj.
+                </p>
+            </xsl:if>
             <xsl:choose>
               <xsl:when test="//art[ero]">
                 <dl>
                   <xsl:apply-templates select="//art[ero]">
-                    <xsl:sort select="@dos"/>
+                    <xsl:sort select="@dat" order="descending"/>
                   </xsl:apply-templates>
                 </dl>
               </xsl:when>
@@ -63,12 +70,14 @@
 </xsl:template>
 
 <xsl:template match="art">
-  <dt>
-    <a href="{concat('../art/',@dos,'.html')}" target="precipa"><b><xsl:value-of select="@dos"/></b></a>
-  </dt>
-  <dd>
-    <xsl:apply-templates select="ero"/>
-  </dd>
+    <xsl:if test="ero[not(@tip='dos-sen-ekz')] or position() &lt; 201">
+      <dt>
+        <a href="{concat('../art/',@dos,'.html')}" target="precipa"><b><xsl:value-of select="@dos"/></b></a>
+      </dt>
+      <dd>      
+        <xsl:apply-templates select="ero"/>
+      </dd>
+    </xsl:if>
 </xsl:template>
 
 <xsl:template match="ero">
@@ -94,6 +103,10 @@
       </xsl:when>
       <xsl:when test="@tip='mrk-nul'">
         Dua parto de la atributo "mrk" ne enhavas la signon "0".
+      </xsl:when>
+        
+      <xsl:when test="@tip='dos-sen-ekz'">
+        Mankas ekzemplo en la artikolo. Ĉiu vorto bezonas almenaŭ unu ne-vortaran fonton (citaĵon) por montri ĝian uzon.
       </xsl:when>
 
       <xsl:when test="@tip='uzo-fak'">
@@ -128,7 +141,9 @@
         Referenco donas liston "<xsl:value-of select="@arg"/>", kiu ne
 	ekzistas.
       </xsl:when>
-
+      <xsl:when test="@tip='drv-sen-var'">
+        Variaĵo en art/kap/var ne indeksiĝas, necesas aldoni ĝin kiel drv/kap/var.
+      </xsl:when>
       <xsl:otherwise>
         Nekonata eraro de la tipo "<xsl:value-of select="@tip"/>".
       </xsl:otherwise>

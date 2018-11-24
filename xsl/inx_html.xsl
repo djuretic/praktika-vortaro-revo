@@ -640,7 +640,17 @@ select="concat($agordo-pado,'/klasoj.xml')"/></xsl:variable>
 
               <h2>kapvortoj k.a.</h2>
               <table>
-                <xsl:for-each select="ero">
+                <xsl:for-each select="ero[@s='kap']">
+                  <tr>
+                    <td><xsl:value-of select="@t"/><xsl:text>: </xsl:text></td>
+                    <td align="right"><xsl:value-of select="@n"/></td>
+                  </tr>
+                </xsl:for-each>
+              </table>
+
+              <h2>oficialaj radikoj</h2>
+              <table>
+                <xsl:for-each select="ero[@s='rad']">
                   <tr>
                     <td><xsl:value-of select="@t"/><xsl:text>: </xsl:text></td>
                     <td align="right"><xsl:value-of select="@n"/></td>

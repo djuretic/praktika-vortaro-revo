@@ -76,12 +76,12 @@ aperas "c _x_" anstata "c_x_" -->
       <title><xsl:value-of select="@nomo"/></title>
       <link title="artikolo-stilo" type="text/css" 
             rel="stylesheet" href="stl/artikolo.css"/>
-
+      <script type="text/javascript" src="jsc/kuketoj.js"></script>
       <xsl:if test="bonveno/sercho">
         <xsl:call-template name="script-literoj"/>
       </xsl:if>
     </head>
-    <body>
+    <body onload="checkCookieConsent()">
       <xsl:if test="bonveno/sercho">
         <xsl:attribute name="onLoad">
   	  <xsl:text>document.f.sercxata.focus();</xsl:text>
@@ -107,6 +107,16 @@ aperas "c _x_" anstata "c_x_" -->
 	<a class="redakto" title="Superserĉo per ViVo" target="_new"
            href="http://kono.be/vivo">ViVo</a>
       </p>
+      
+      <div class="kuketoaverto" id="kuketoaverto">
+        <p>
+	  Ni uzas kuketojn (retumilajn memoretojn).
+	  Uzante nian servon vi konsentas al konservado de informoj en kuketoj.
+	  Eksciu pli pri la uzado de personaj datumoj en la
+	  <a href="dok/datumprotekto.html">datumprotekta deklaro</a>.<br/>
+          <button name="konfirmo" onClick="setCookieConsent()">Mi konfirmas</button>
+	</p>
+      </div>
       
     </body>
   </html>
@@ -203,7 +213,7 @@ aperas "c _x_" anstata "c_x_" -->
         <p>
 	Ser&#265;o en ReVo:
 	<input type='text' id='sercxata' name='sercxata' size="31" maxlength="255" 
-	onKeyUp="xAlUtf8(this.value,'sercxata')"/>
+	  onKeyUp="xAlUtf8(this.value,'sercxata')" placeholder="Ĵokeroj: % (pluraj) kaj _ (unu)"/>
 	<input type='submit' value='trovu'/>
 	</p>
         <p>

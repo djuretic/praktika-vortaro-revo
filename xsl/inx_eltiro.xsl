@@ -83,16 +83,20 @@
   </xsl:copy>
 </xsl:template>
 
-<xsl:template match="kap/ofc|kap/fnt|ekz/uzo|trd/ofc
+<xsl:template match="kap/fnt|ekz/uzo|trd/ofc
   |klr[not(@tip='ind' or @tip='amb')]"/>
 
 <xsl:template match="ekz/ind[mll]">
   <xsl:copy><xsl:apply-templates select="mll"/></xsl:copy>
 </xsl:template>
 
-<xsl:template match="kap|rad|var|@mrk|@lng|uzo[@tip='fak']|bld|mlg
+<xsl:template match="kap|rad|ofc|var|@mrk|@lng|uzo[@tip='fak']|mlg
   |ind|klr[@tip='ind' or @tip='amb']">
   <xsl:copy><xsl:apply-templates/></xsl:copy>
+</xsl:template>
+
+<xsl:template match="bld">
+  <xsl:copy><xsl:apply-templates select="text()|ind|klr|tld"/></xsl:copy>
 </xsl:template>
 
 <xsl:template match="uzo[@tip='stl']">
