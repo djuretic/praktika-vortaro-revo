@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: raci.xml,v 1.20 2018/11/16 19:10:19 revo Exp $">
+<art mrk="$Id: raci.xml,v 1.24 2020/01/12 00:10:52 revo Exp $">
 <kap>
   <ofc>1</ofc> <rad>raci</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -29,7 +29,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_o;&c_z;&c_u;&c_m;</trd>
-  <trd lng="cs">st&aacute;l&yacute; rozd&iacute;l nebo pod&iacute;l v &rcaron;ad&ecaron;</trd>
+  <trd lng="cs">rozum</trd>
   <trdgrp lng="de">
     <trd>Vernunft</trd>,
     <trd>Verstand</trd>,
@@ -42,7 +42,12 @@
     <trd>rationality</trd>,
     <trd>judgment</trd>
   </trdgrp>
-  <trd lng="es">raz&oacute;n</trd>
+  <trdgrp lng="es">
+    <trd>raz&oacute;n<klr> (capacidad de razonar)</klr></trd>,
+    <trd>facultad de razocinio</trd>,
+    <trd>racionalidad</trd>,
+    <trd>juicio</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>raison<klr> (capacit&eacute; de raisonner)</klr></trd>
   </trdgrp>
@@ -61,7 +66,7 @@
     <trd>&c_r;&c_a;&c_s;&c_s;&c_u;&c_d;&c_o;&c_k;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_u;&c_m;</trd>
   </trdgrp>
-  <trd lng="sk">st&aacute;ly rozdiel alebo podiel v rade</trd>
+  <trd lng="sk">rozum</trd>
   <trd lng="sv">f&ouml;rnuft</trd>
 </drv>
 
@@ -135,12 +140,16 @@
     <trd>rational</trd>,
     <trd>reasonable</trd>
   </trdgrp>
-  <trd lng="es">racional</trd>
+  <trdgrp lng="es">
+    <trd>racional</trd>,
+    <trd>sensato</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>raisonnable</trd>,
     <trd>rationnel</trd>
   </trdgrp>
   <trd lng="nl">redelijk</trd>
+  <trd lng="pt">racional</trd>
   <trdgrp lng="sk">
     <trd>racion&aacute;lny</trd>,
     <trd>&uacute;&ccaron;eln&yacute;</trd>
@@ -167,7 +176,10 @@
     <trd>rationality</trd>,
     <trd>reasonableness</trd>
   </trdgrp>
-  <trd lng="es">razonable</trd>
+  <trdgrp lng="es">
+    <trd>racionalidad</trd>,
+    <trd>razonabilidad</trd>
+  </trdgrp>
   <trd lng="fr">rationalit&eacute;</trd>
   <trdgrp lng="hu">
     <trd>&eacute;szszer&udblac;s&eacute;g</trd>,
@@ -189,6 +201,7 @@
       Igi konforma al la <tld/>o.
     </dif>
     <trd lng="de">vern&uuml;nftig gestalten</trd>
+    <trd lng="es">razonar</trd>
   </snc>
   <snc mrk="raci.0igi.TEK">
     <dif>
@@ -199,6 +212,7 @@
       </ekz>
     </dif>
     <trd lng="de">rationalisieren</trd>
+    <trd lng="es">racionalizar</trd>
     <trd lng="nl">rationaliseren</trd>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -207,7 +221,6 @@
     <trd>zracionalizovat</trd>
   </trdgrp>
   <trd lng="en">rationalize</trd>
-  <trd lng="es">razonar</trd>
   <trd lng="fr">rationaliser</trd>
   <trdgrp lng="hu">
     <trd>&eacute;szszer&udblac;s&iacute;t</trd>,
@@ -224,18 +237,25 @@
     <dif>
       <ref tip="dif" cel="racion2.0o">Racionalismo</ref>:
       <ekz>
-        en 1959 aperis lia <klr>(Hundertwasser)</klr> &leftquot;Mal&scirc;imiga Manifesto&rightquot; kontra&ubreve; la <tld/>ismo en la arkitekturo
+        en 1959 aperis lia <klr>(Hundertwasser)</klr> &leftquot;Mal&scirc;imiga
+        Manifesto&rightquot; kontra&ubreve; la <tld/>ismo en la arkitekturo
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006938.html">Arkitekturo: Friedensreich Hundertwasser 1928 - 2000</url></vrk>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006938.html">Arkitekturo:
+          Friedensreich Hundertwasser 1928 - 2000</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        la zamenhofaj paroloj &scirc;ajnis al la francoj de la 19a jarcento, enradiki&gcirc;intaj en la tradicio de senkompromisa <tld/>ismo, dan&gcirc;ere emociaj
+        la zamenhofaj paroloj &scirc;ajnis al la francoj de la 19a jarcento,
+        enradiki&gcirc;intaj en la tradicio de senkompromisa <tld/>ismo,
+        dan&gcirc;ere emociaj
         <fnt>
           <bib>Monato</bib>
           <aut>Reinaldo Marcelo Ferreira</aut>
-          <vrk><url ref="http://www.monato.net/2007/009078.php">Interlingvistiko por &ccirc;iuj</url></vrk>
+          <vrk><url
+          ref="&Monato;/2007/009078.php">Interlingvistiko
+          por &ccirc;iuj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -245,6 +265,7 @@
   <trd lng="cs">racionalismus</trd>
   <trd lng="de">Rationalismus</trd>
   <trd lng="en">rationalism</trd>
+  <trd lng="es">racionalismo</trd>
   <trd lng="fr">rationalisme</trd>
   <trd lng="hu">racionalizmus</trd>
   <trd lng="nl">rationalisme</trd>
@@ -269,11 +290,24 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">antiracionalismo</trd>
   <trd lng="fr">antirationalisme</trd>
 </drv>
 </art>
 <!--
 $Log: raci.xml,v $
+Revision 1.24  2020/01/12 00:10:52  revo
+Evandro Avellar: trd+ pt
+
+Revision 1.23  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.22  2019/06/24 17:10:14  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.21  2019/02/18 15:10:17  revo
+Petr Diblik: korektita trd cs,sk
+
 Revision 1.20  2018/11/16 19:10:19  revo
 Wolfram Diestel: ~iismo: +ekz-oj, kor. ref-cel
 
@@ -284,17 +318,5 @@ Revision 1.18  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.17  2013/03/12 14:10:08  revo
-Jeromo Vasxe: + kontraux~ismo
-
-Revision 1.16  2010/06/17 16:30:59  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.15  2009/06/09 16:31:57  revo
-Russ Williams: +trd en
-
-Revision 1.14  2006/02/07 17:32:32  revo
-Tulio Flores: +trd pt
-
-Revision 1.13  2006/01/03 17:31:09  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: form.xml,v 1.56 2018/07/02 16:10:13 revo Exp $">
+<art mrk="$Id: form.xml,v 1.58 2020/02/14 11:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>form</rad>/o <fnt><bib>PV</bib></fnt>
@@ -244,7 +244,7 @@ eldono, junio 1907</lok></fnt>;
 <drv mrk="form.x0a">
   <kap>-<tld/>a</kap>
   <uzo tip="klr">(en kunmeta&jcirc;o)</uzo>
-  <snc>
+  <snc mrk="form.x0a.KOMUNE">
     <dif>
       En <tld/>o de, en <tld/>o ...a, havanta <tld/>on de ...o,
       a&ubreve; <tld/>on ...an:
@@ -893,11 +893,11 @@ eldono, junio 1907</lok></fnt>;
       kontraste al konservismo unuflanke, al
       revoluciismo aliflanke:
       <ekz>
-        Lenin <klr>...</klr> Trocki: tiuj homoj certe ne cedos al bur&gcirc;a 
-        re<tld/>ismo
+        <nom>Lenin</nom> <klr>...</klr> <nom>Trocki</nom>: tiuj homoj
+        certe ne cedos al bur&gcirc;a re<tld/>ismo
         <fnt>
-          <aut>J. Francis</aut>,
-          <vrk>La Granda Kaldrono</vrk>,
+          <aut>J. Francis</aut>
+          <vrk>La Granda Kaldrono</vrk>
           <lok>1978</lok>
         </fnt>.
       </ekz>
@@ -928,6 +928,27 @@ eldono, junio 1907</lok></fnt>;
     </dif>
   </snc>
   <trd lng="fr">r&eacute;formiste</trd>
+</drv>
+
+<drv mrk="form.sam0igxi">
+  <kap>sam<tld/>i&gcirc;i</kap>
+  <snc mrk="form.sam0igxi.KOMUNE">
+    <dif>
+      Ricevi saman <tld/>on, kiel alia:
+      <ekz>
+        <klr>[iliaj]</klr> figuroj, viza&gcirc;oj preska&ubreve;
+        sam<tld/>i&gcirc;is kun la tempopaso
+        <fnt>
+          <aut>K. Miksz&aacute;th, trad. J. Horvath</aut>
+          <vrk><url
+          ref="http://www.vortaro.hu/mindenesszotar/jozohor/Fraulino%20el%20oro.pdf">
+          Fra&ubreve;lino el oro</url></vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se <ind>calquer</ind> sur</trd>
 </drv>
 
 <drv mrk="form.trans0o">
@@ -1138,9 +1159,9 @@ eldono, junio 1907</lok></fnt>;
 
 <drv mrk="form.diferenciala0o">
   <kap>diferenciala <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV2</bib></fnt>
-  <snc>
+  <snc mrk="form.diferenciala0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(super <ref cel="topolo.0a.modulo">topologia</ref>
         <ref cel="spac.vektora0o">vektora spaco</ref>, kun skalaraj
@@ -1152,10 +1173,12 @@ eldono, junio 1907</lok></fnt>;
         <ref cel="difere2.0o.bildigo">diferencialo</ref> de bildigo
         de vektora spaco <frm><g>E</g></frm> al &gcirc;ia baza korpo
         <frm><g>K</g></frm> estas diferenciala <tld/>o;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la diferencialan <tld/>on
-        <frm><k>f</k>(<k>x</k>,<k>y</k>).d<k>x</k>+<k>g</k>
-        (<k>x</k>,<k>y</k>).d<k>y</k></frm>
+        <frm am="f(x,y)*dx+g(x,y)*dy"
+        ><k>f</k>(<k>x</k>,<k>y</k>)&middot;d<k>x</k>+<k>g</k>
+        (<k>x</k>,<k>y</k>)&middot;d<k>y</k></frm>
         oni nomas ekzakta, se &gcirc;i estas diferencialo de iu
         duvariabla reela funkcio.
       </ekz>
@@ -1163,7 +1186,7 @@ eldono, junio 1907</lok></fnt>;
     <rim>
       La &ccirc;i-supra difino limi&gcirc;as al unuagradaj
       diferencialaj formoj kun skalaraj valoroj. Ekzistas pli
-      &gcirc;enerala difino por <frm><k>p</k></frm>-gradaj
+      &gcirc;enerala difino por <frm am="p"><k>p</k></frm>-gradaj
       diferencialaj formoj kun vektoraj valoroj.
     </rim>
   </snc>
@@ -1179,24 +1202,23 @@ eldono, junio 1907</lok></fnt>;
   <trd lng="hu">differenci&aacute;lforma</trd>
   <trd lng="id"><ind>bentuk</ind> diferensial</trd>
   <trd lng="pl">forma r&oacute;&zdot;niczkowa</trd>
-  <trd
-  lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
-  <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
+  <trd lng="ru">&c_d;&c_i;&c_f;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="form.hermita0o">
   <kap>hermita <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="form.hermita0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       <klr>(super kompleksa <ref cel="spac.vektora0o">vektora spaco
       </ref>
         <frm><g>E</g></frm>)</klr>
       Tia <ref cel="seskvi.0a">seskvilineara</ref>
       <ref tip="super" cel="form.0o.bildigo"><tld/>o</ref>
-      <frm>&phi;</frm>, ke <frm>&phi;(<k>x</k>,<k>y</k>) =
+      <frm am="phi">&phi;</frm>, ke <frm am="phi(x,y)=kappa(phi(y,x))"
+      >&phi;(<k>x</k>,<k>y</k>) =
       &kappa;(&phi;(<k>y</k>,<k>x</k>))</frm>,
-      kie <frm>&kappa;</frm> signas la operacion
+      kie <frm am="kappa">&kappa;</frm> signas la operacion
       <ref cel="konjug.0o">konjugo</ref>.
     </dif>
     <ref tip="vid" cel="hermit.0o">Hermito.</ref>
@@ -1209,14 +1231,19 @@ eldono, junio 1907</lok></fnt>;
   <trd lng="fr">forme hermitienne</trd>
   <trd lng="hu">hermetikus forma</trd>
   <trd lng="pl">forma hermitowska</trd>
-  <trd lng="ru">&c_e;&c_r;&c_m;&c_i;&c_t;&c_o;&c_v;&c_a;
-  <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
+  <trd lng="ru">&c_e;&c_r;&c_m;&c_i;&c_t;&c_o;&c_v;&c_a; <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
   <trd lng="sk">hermitovsk&yacute; tvar</trd>
   <trd lng="cs">hermitovsk&yacute; tvar</trd>
 </drv>
 </art>
 <!--
 $Log: form.xml,v $
+Revision 1.58  2020/02/14 11:10:18  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.57  2019/04/08 20:10:15  revo
+Jeromo Vasxe: + sam~igxi
+
 Revision 1.56  2018/07/02 16:10:13  revo
 Jeromo Vasxe: ~o: + snc formilo, preciz. kk dif, + 1 ref (etiketo)
 
@@ -1233,11 +1260,5 @@ Revision 1.52  2016/10/25 10:10:22  revo
 Damien Brucker: +ekz
 
 Revision 1.51  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.50  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.49  2015/01/23 09:10:21  revo
 -->
 </vortaro>

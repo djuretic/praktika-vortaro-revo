@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ver.xml,v 1.33 2017/06/19 08:10:18 revo Exp $">
+<art mrk="$Id: ver.xml,v 1.35 2020/02/16 11:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ver</rad>/a <fnt><bib>PV</bib></fnt>
@@ -95,6 +95,7 @@
     <trd>prav&yacute;</trd>,
     <trd>pravdiv&yacute;</trd>
   </trdgrp>
+  <trd lng="tp">lon</trd>
   <trd lng="tr">ger&ccedil;ek</trd>
 </drv>
 
@@ -220,6 +221,10 @@
     <trd>&c_p;&c_r;&c_a;&c_v;&c_d;&c_a;</trd>
   </trdgrp>
   <trd lng="sk">pravda</trd>
+  <trdgrp lng="tp">
+    <trd>lon</trd>,
+    <trd>ijo lon</trd>
+  </trdgrp>
   <trd lng="tr">ger&ccedil;ek<klr>(bir ger&ccedil;ek)</klr></trd>
 </drv>
 
@@ -261,6 +266,7 @@
     <trd>pravdivos&tcaron;</trd>,
     <trd>pravdivos&tcaron; <klr>(vlastnos&tcaron;)</klr></trd>
   </trdgrp>
+  <trd lng="tp">lon</trd>
   <trd lng="tr">ger&ccedil;eklik</trd>
 </drv>
 
@@ -331,13 +337,15 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib>, <lok>p. 16</lok></fnt>
     <dif>
-      <klr>(p.p. matematika objekto <frm><k>a</k></frm>, rilate
-      <ref cel="predik1.0o.MAT">predikaton</ref> <frm>P</frm>)</klr>
-      Esti tia, ke <frm>P(<k>a</k>)</frm> estas vera:
+      <klr>(p.p. matematika objekto <frm am="a"><k>a</k></frm>, rilate
+      <ref cel="predik1.0o.MAT">predikaton</ref> <frm
+      am="P">P</frm>)</klr>
+      Esti tia, ke <frm am="P(a)">P(<k>a</k>)</frm> estas vera:
       <ekz>
         trovu la nombrojn, kiuj verigas la ekvacion
-        <frm><k>f</k>(<k>x</k>) = 2</frm> <klr>(kiuj <tld/>igas la
-        predikaton <ctl><frm><k>f</k>(<k>x</k>) = 2</frm></ctl>)</klr>.
+        <frm am="f(x)=2"><k>f</k>(<k>x</k>) = 2</frm> 
+        <klr> (kiuj <tld/>igas la predikaton <ctl><frm am="f(x)=2"
+        ><k>f</k>(<k>x</k>) = 2</frm></ctl>)</klr>.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -525,6 +533,12 @@
 </art>
 <!--
 $Log: ver.xml,v $
+Revision 1.35  2020/02/16 11:10:18  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.34  2019/08/28 02:10:42  revo
+Sam Penter: +trd tp
+
 Revision 1.33  2017/06/19 08:10:18  revo
 Jeromo Vasxe: + ~emo
 
@@ -541,11 +555,5 @@ Revision 1.29  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.28  2015/01/25 14:10:16  revo
-Jeromo Vasxe: + ~ismo
-
-Revision 1.27  2012/09/13 12:10:08  revo
-Jeromo Vasxe: + en~e + ~~e
-
-Revision 1.26  2010/06/30 16:30:27  revo
 -->
 </vortaro>

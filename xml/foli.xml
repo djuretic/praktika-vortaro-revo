@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: foli.xml,v 1.51 2018/10/07 19:10:24 revo Exp $">
+<art mrk="$Id: foli.xml,v 1.54 2020/02/22 18:10:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>foli</rad>/o
@@ -147,8 +148,7 @@
   <trd lng="cs">vyh&aacute;n&ecaron;t listy</trd>
   <trd lng="fr">feuiller</trd>
   <trd lng="hu">levelet hajt</trd>
-  <trd
-  lng="ru">&c_p;&c_o;&c_k;&c_r;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;
+  <trd lng="ru">&c_p;&c_o;&c_k;&c_r;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;
   &c_l;&c_i;&c_s;&c_t;&c_mol;&c_ja;&c_m;&c_i;</trd>
   <trd lng="sk">vyh&aacute;&ncaron;a&tcaron; listy</trd>
 </drv>
@@ -181,7 +181,7 @@
   <snc mrk="foli.0ero.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      &Ccirc;iu el la <tld/>isimilaj partoj konsistigantaj kunmetitan
+      &Ccirc;iu el la <tld/>similaj partoj konsistigantaj kunmetitan
       <ref tip="malprt" cel="foli.0o.BOT"><tld/>on</ref>.
     </dif>
   </snc>
@@ -225,8 +225,7 @@
     <trd lng="bg">&c_r;&c_a;&c_z;&c_g;&c_l;&c_je;&c_zh;&c_d;&c_a;&c_m;</trd>
     <trd lng="hu">b&ouml;ng&eacute;szik<klr tip="ind"> (pl. a
     vil&aacute;gh&aacute;l&oacute;n)</klr></trd>
-    <trd
-    lng="ru">&c_p;&c_r;&c_o;&c_s;&c_m;&c_a;&c_t;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_m;&c_a;&c_t;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>listovat</trd>,
@@ -378,26 +377,48 @@
 
 <drv mrk="foli.kontraux0o">
   <kap>kontra&ubreve;<tld/>o</kap>
-  <uzo tip="fak">EKON</uzo>
   <fnt>
-    <aut>M. C. Butler</aut>, <vrk>Step by Step in Esperanto</vrk>,
+    <aut>M. C. Butler</aut> <vrk>Step by Step in Esperanto</vrk>
     <lok>&para;440</lok>
   </fnt>
-  <snc>
+  <snc mrk="foli.kontraux0o.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Tiu responda, komplementa parto de &ccirc;eko, kvitanco, atestfolio
       ks, kiu restas &ccirc;e la registro, kajero, libreto ks, post
       apartigo de la transdonita parto kaj surhavas ordinare la samajn
-      informojn.
+      informojn;
+      <ref tip="sin" cel="talon.0o.EKON">talono<sncref/></ref>.
     </dif>
   </snc>
-  <ref tip="sin" cel="talon.0o.EKON">talono<sncref/></ref>
   <trd lng="en">counterfoil</trd>
+  <trd lng="fr">talon</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_r;&c_je;&c_sh;&c_o;&c_k;<klr> (&c_k;&c_v;&c_i;&c_t;&c_a;&c_n;&c_c;&c_i;&c_o;&c_n;&c_n;&c_o;&c_j;, &c_ch;&c_je;&c_k;&c_o;&c_v;&c_o;&c_j; &c_i; &c_t;.&c_d;.
     &c_k;&c_n;&c_i;&c_zh;&c_k;&c_i;)</klr></trd>,
     <trd>&c_t;&c_a;&c_l;&c_o;&c_n;<klr> (&c_b;&c_i;&c_l;&c_je;&c_t;&c_a;)</klr></trd>
   </trdgrp>
+</drv>
+
+<drv mrk="foli.sen0igi">
+  <kap>sen<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="foli.sen0igi.KOMUNE">
+    <dif>
+      Senigi je <tld/>oj:
+      <ekz>
+        a&ubreve;tuno sen<tld/>igis la grandajn kverkojn
+        <fnt>
+          <aut>E. Boirac</aut>
+          <vrk><url
+          ref="https://arkivo.esperanto-france.org/divers/boirac/sorchist.htm">
+          Perdita kaj Retrovita</url></vrk>
+          <lok>1904</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">effeuiller</trd>
 </drv>
 
 <drv mrk="foli.tri0o">
@@ -407,18 +428,19 @@
     <dif>
       <ref tip="lst" cel="genr.0o.BIO"
       lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
-      tip="malprt"
-      cel="fabac.0oj">fabacoj</ref>
+      tip="malprt" cel="fabac.0oj">fabacoj</ref>
       (<trd lng="la">Trifolium</trd>), kun tripartaj <tld/>oj:
       <ekz>
-        &ccirc;arma kaj dol&ccirc;a estis la aromo, kiu blovetis de la luksa kampo de tri<tld/>oj, kie la abeloj zumadis
+        &ccirc;arma kaj dol&ccirc;a estis la aromo, kiu blovetis de la luksa kampo
+        de tri<tld/>oj, kie la abeloj zumadis
         <fnt>
           <bib>Fab3</bib>
           <lok>Historio de la jaro</lok>
         </fnt>;
       </ekz>
       <ekz>
-        unuj verdis: la lino, tritiko, tri<tld/>o, la aliaj estis oraj de la maturi&gcirc;anta hordeo
+        unuj verdis: la lino, tritiko, tri<tld/>o, la aliaj estis oraj
+        de la maturi&gcirc;anta hordeo
         <fnt>
           <bib>Far1</bib>
           <lok>&Ccirc;apitro I</lok>
@@ -434,13 +456,13 @@
     </dif>
   </snc>
   <bld
-     lok="&WCU;/thumb/9/9d/Trifolium_pratense_-_Keila.jpg/480px-Trifolium_pratense_-_Keila.jpg"
-     prm="CC BY-SA 4.0"
-     ><ind>herbeja <tld/>o</ind> (Trifolium pratense), Keila, Estonujo
+  lok="&WCU;/thumb/9/9d/Trifolium_pratense_-_Keila.jpg/480px-Trifolium_pratense_-_Keila.jpg"
+  prm="CC BY-SA 4.0"><ind>herbeja tri<tld/>o</ind> (Trifolium pratense),
+  Keila, Estonujo
        <fnt>
          <aut>Ivar Leidus, propra verko</aut>
-         <lok><url ref="&WCW;/File:Trifolium_pratense_-_Keila.jpg"
-             >&WCW;/File:Trifolium_pratense_-_Keila.jpg</url></lok>
+         <lok><url
+         ref="&WCW;/File:Trifolium_pratense_-_Keila.jpg">&WCW;/File:Trifolium_pratense_-_Keila.jpg</url></lok>
        </fnt>
     <trd lng="la">Trifolium pratense</trd>
   </bld>
@@ -465,20 +487,20 @@
 
 <drv mrk="foli.kartezia0o">
   <kap>kartezia <tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
-  <snc>
+  <snc mrk="foli.kartezia0o.MAT">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       Speco de triagrada ebena
       <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>:
       <ekz>
         la kartezia ekvacio de kartezia <tld/>o estas de la tipo
-        <frm><k>x</k><sup>3</sup>+<k>y</k><sup>3</sup> =
-        3<k>axy</k></frm>.
+        <frm am="x^3+y^3=3axy"
+        ><k>x</k><sup>3</sup>+<k>y</k><sup>3</sup> = 3<k>axy</k></frm>.
       </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/k_folio.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/k_folio.svg" tip="svg" alt="400" lrg="400">
     kartezia <tld/>o
   </bld>
   <trd lng="bg">&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v; &c_l;&c_i;&c_s;&c_t;</trd>
@@ -500,6 +522,15 @@
 </art>
 <!--
 $Log: foli.xml,v $
+Revision 1.54  2020/02/22 18:10:29  revo
+Wolfram Diestel: svg anst. gif
+
+Revision 1.53  2020/02/15 09:10:21  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.52  2019/04/03 14:10:15  revo
+Jeromo Vasxe: + sen~igi
+
 Revision 1.51  2018/10/07 19:10:24  revo
 Wolfram Diestel: tri~o: ekz-oj kaj pli bona foto
 
@@ -513,14 +544,5 @@ Revision 1.48  2017/03/07 09:10:15  revo
 Lyubomir Vasilev: +trd bg
 
 Revision 1.47  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.46  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.45  2015/06/24 08:10:16  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.44  2014/09/27 15:10:10  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: long.xml,v 1.57 2018/03/19 15:10:14 revo Exp $">
+<art mrk="$Id: long.xml,v 1.62 2020/02/16 11:10:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>long</rad>/a <fnt><bib>PV</bib></fnt>
@@ -93,8 +93,7 @@
       <ref cel="akcent.0a">akcenta</ref>:
       <ekz>
         en la vorto &leftquot;me-lan-ko-li-o&rightquot; la <tld/>aj silaboj
-        estas &leftquot;lan&rightquot; kaj
-        &leftquot;li&rightquot;.
+        estas &leftquot;lan&rightquot; kaj &leftquot;li&rightquot;.
       </ekz>
     </dif>
     <rim mrk="long.0a.silabo_rim">
@@ -303,7 +302,8 @@
       esprimanta la distancojn inter du punktoj:
       <ekz>
         la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>o estas
-        <frm>M<sup>0</sup>L<sup>1</sup>T<sup>0</sup></frm>;
+        <frm
+        am="M^0L^1T^0">M<sup>0</sup>L<sup>1</sup>T<sup>0</sup></frm>;
       </ekz>
       <ekz>
         la derivita grando areo (respektive volumeno) estas kvadrato
@@ -355,7 +355,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Saul tuj falis la&ubreve; sia tuta <tld/>eco sur la teron
+        <nom>Saul</nom> tuj falis la&ubreve; sia tuta <tld/>eco sur la teron
         <fnt>
           <bib>MT</bib>
           <lok>I. Samuel 28:20</lok>
@@ -410,7 +410,7 @@
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
           <vrk><url
-          ref="http://www.esperanto.be/fel/2004/008266.html">Romantika 
+          ref="https://www.monato.be/2004/008266.html">Romantika 
            itinero por spertaj biciklantoj</url></vrk>
         </fnt>.
       </ekz>
@@ -579,7 +579,7 @@
           <bib>Monato</bib>
           <aut>Karlo Juh&aacute;sz</aut>
           <vrk><url
-          ref="http://www.esperanto.be/fel/2003/007718.html">&Ccirc;u komerco
+          ref="https://www.monato.be/2003/007718.html">&Ccirc;u komerco
           helpas?</url></vrk>
         </fnt>.
       </ekz>
@@ -685,7 +685,8 @@
 </drv>
 
 <drv mrk="long.laux0ede">
-  <kap>la&ubreve;<tld/>e de</kap>
+  <kap>la&ubreve;<tld/>e de,
+  <var><kap>la&ubreve;<tld/>e ...-n</kap></var></kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
   <snc mrk="long.laux0ede.space">
     <dif>
@@ -694,6 +695,16 @@
       <ekz>
         &scirc;i nun iris la&ubreve;<tld/>e de la marbordo
         <fnt><bib>Fab4</bib>, <lok>Anneto</lok></fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;ipo malrapide kaj gracie na&gcirc;is la&ubreve;<tld/>e la riveron
+        <fnt>
+          <aut>J. Merchant</aut>
+          <vrk><url
+          ref="http://www.autodidactproject.org/other/merchant_klem.html">
+          Kompatinda Klem</url></vrk>
+          <lok>1931</lok>
+        </fnt>;
       </ekz>
       <ekz>
         la&ubreve;<tld/>e de strato <klr>[...]</klr> eblas vidi la antikvajn
@@ -797,7 +808,7 @@
       <ref cel="akcent.sen0a">senakcenta</ref>.
     </dif>
     <rim>
-      Vd <ref cel="long.0a.silabo_rim">rimarkon</ref>
+      Vidu <ref cel="long.0a.silabo_rim">rimarkon</ref>
       sub <tld/>a <sncref ref="long.0a.silabo"/>.
       Por lingvoj kun klara distingo inter <tld/>aj kaj mal<tld/>aj
       vokaloj, la difino estu prefereble:
@@ -919,7 +930,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Judit Felszeghy</aut>
-          <vrk><url ref="http://www.monato.net/2008/009409.php">Ne nur
+          <vrk><url ref="&Monato;/2008/009409.php">Ne nur
           sporto, anka&ubreve; vivoformo</url></vrk>
         </fnt>.
       </ekz>
@@ -1062,6 +1073,25 @@
   <trd lng="ru">&c_v;&c_s;&c_k;&c_o;&c_r;&c_je;</trd>
 </drv>
 
+<drv mrk="long.tag0e">
+  <kap>tag<tld/>e</kap>
+  <snc mrk="long.tag0e.KOMUNE">
+    <dif>
+      Dum la da&ubreve;ro de la tago, kiel precipa okupo, tre longe:
+      <ekz>
+        kial vi tamen sidadas &ccirc;i tie tag<tld/>e,
+        kaj nur vespere vi hejmeniras al via popolo en la arbaro?
+        <fnt>
+          <aut>J. Dorosmai, trad. J. Dorosmai jun. kaj J. Horvath</aut>
+          <vrk>Fabloj kaj Aforismoj</vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&agrave; longueur de temps</trd>
+</drv>
+
 <drv mrk="long.0oforma">
   <kap><tld/>oforma</kap>
   <snc mrk="long.0oforma.space">
@@ -1093,27 +1123,27 @@
 </art>
 <!--
 $Log: long.xml,v $
+Revision 1.62  2020/02/16 11:10:30  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.61  2020/02/01 20:10:19  revo
+Jeromo Vasxe: + laux~e ...n
+
+Revision 1.60  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.59  2019/06/30 07:42:48  revo
+adaptis URL de Monato
+
+Revision 1.58  2019/03/25 20:10:16  revo
+Jeromo Vasxe: + tag~e
+
 Revision 1.57  2018/03/19 15:10:14  revo
-Michel Cantigneaux: longo, antaux nelonge, antaux nelonga tempo = fundamentaj de la Ekzercaro
+Michel Cantigneaux: longo, antaux nelonge, antaux nelonga tempo =
+fundamentaj de la Ekzercaro
 
 Revision 1.56  2018/01/04 21:10:14  revo
 Vito Redsky: +trd pl +trd ro
-
-Revision 1.55  2017/12/20 00:11:03  revo
-Michel Cantigneaux: "laux/long/e" fundamenta kunmetajxo el la U.V.
-
-Revision 1.54  2017/12/06 19:10:28  revo
-Wolfram Diestel: prilaboris ekz-ojn, +germ trd, anstatauis gramatikan
-rimarkon per referenco al PMEG
-
-Revision 1.53  2017/09/25 16:10:13  revo
-Jeromo Vasxe: + de~a
-
-Revision 1.52  2017/08/13 19:10:44  revo
-Vito Redsky: +trd ro
-
-Revision 1.51  2017/07/04 22:10:17  revo
-Vito Redsky: +trd ro
 
 -->
 </vortaro>

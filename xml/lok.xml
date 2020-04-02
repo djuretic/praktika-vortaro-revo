@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lok.xml,v 1.52 2018/06/05 16:10:16 revo Exp $">
+<art mrk="$Id: lok.xml,v 1.54 2020/02/16 10:10:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lok</rad>/o <fnt><bib>PV</bib></fnt>
@@ -315,7 +315,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Michael Lennartz</aut>
-          <vrk><url ref="http://www.monato.net/2009/009737.php">&Ccirc;u
+          <vrk><url ref="&Monato;/2009/009737.php">&Ccirc;u
           demokratio a&ubreve; ne?</url></vrk>
         </fnt>;
       </ekz>
@@ -324,7 +324,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>John Gobourne</aut>
-          <vrk><url ref="http://www.monato.net/2014/011339.php">Dialekto
+          <vrk><url ref="&Monato;/2014/011339.php">Dialekto
           flegata</url></vrk>
         </fnt>;
       </ekz>
@@ -344,7 +344,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Robert Leleu</aut>
-          <vrk><url ref="http://www.monato.net/2009/009898.php">Kiuj
+          <vrk><url ref="&Monato;/2009/009898.php">Kiuj
           vo&ccirc;donis por EDE?</url></vrk>
         </fnt>.
       </ekz>
@@ -787,7 +787,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Julia Sigmond kaj Sen Rodin</aut>
-          <vrk><url ref="http://www.monato.net/2010/009988.php">La
+          <vrk><url ref="&Monato;/2010/009988.php">La
           mal&jcirc;aluzo de Klorinda</url></vrk>
         </fnt>;
       </ekz>
@@ -798,7 +798,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lenio Marobin</aut>
-          <vrk><url ref="http://www.monato.net/2014/011272.php">Klimata
+          <vrk><url ref="&Monato;/2014/011272.php">Klimata
             &scirc;an&gcirc;i&gcirc;o kaj konfliktoj: kia interrilato?</url></vrk>
         </fnt>;
       </ekz>
@@ -941,7 +941,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Julius Hauser</aut>
-          <vrk><url ref="http://www.monato.net/2012/010830.php">Tom&aacute;&scaron; 
+          <vrk><url ref="&Monato;/2012/010830.php">Tom&aacute;&scaron; 
            Ba&tcaron;a, re&gcirc;o de la &scirc;uistoj</url></vrk>
         </fnt>.
       </ekz>
@@ -1020,7 +1020,8 @@
       <ekz>
         ofte temas pri operacioj kaj rilatoj du<tld/>aj 
         kaj unu<tld/>aj, en la programlingvo C la kondi&ccirc;a 
-        esprimo <frm>x&nbsp;?&nbsp;y&nbsp;:&nbsp;z</frm> formas operacion tri<tld/>an
+        esprimo <frm am="x?y:z">x&nbsp;?&nbsp;y&nbsp;:&nbsp;z</frm> formas operacion
+        tri<tld/>an
         <fnt>
           <bib>Viki</bib>
           <lok><url
@@ -1470,8 +1471,9 @@
         <ctl>pozitiva</ctl> estas unu<tld/>a predikato;
       </ekz>
       <ekz>
-        aro <frm>S</frm> kun unu<tld/>a operacio, kio estas funkcio
-        <frm>S &#8594; S</frm>
+        aro <frm am="S">S</frm> kun unu<tld/>a operacio, kio estas
+        funkcio
+        <frm am="S to S">S &#8594; S</frm>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=104304">Algebra
@@ -1580,6 +1582,12 @@
 </art>
 <!--
 $Log: lok.xml,v $
+Revision 1.54  2020/02/16 10:10:31  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.53  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
 Revision 1.52  2018/06/05 16:10:16  revo
 Wolfram Diestel: kor. mrk
 
@@ -1596,11 +1604,5 @@ Revision 1.48  2015/07/05 04:10:14  revo
 Erik Pedersen: aldonis anglajn vortojn
 
 Revision 1.47  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.46  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.45  2014/08/29 12:10:09  revo
 -->
 </vortaro>

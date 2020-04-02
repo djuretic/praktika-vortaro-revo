@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaj.xml,v 1.43 2018/09/05 22:10:21 revo Exp $">
+<art mrk="$Id: kaj.xml,v 1.45 2020/02/15 09:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kaj</rad> <fnt><bib>PV</bib></fnt>
@@ -122,12 +122,12 @@
       respondaj al la gramatika konjukcio <tld/>:
       <ekz>
         en matematiko kaj en ALGOL-60 la Bulean <tld/>on
-        simbolas la &leftquot;logika <tld/>signo&rightquot; <frm>&#8743;</frm>
+        simbolas la &leftquot;logika <tld/>signo&rightquot; <frm am="^^">&#8743;</frm>
         <fnt><bib>KompLeks</bib></fnt>;
       </ekz>
       <ekz>
         <uzo tip="fak">KOMP</uzo>
-        en la programlingvo C &amp;&amp; estas simbolo de
+        en la programlingvo C <frm am="&amp;&amp;">&amp;&amp;</frm> estas simbolo de
         <ind>sorbema <tld/>o</ind>
         <fnt><bib>KompLeks</bib></fnt>;
         <trdgrp lng="en">
@@ -333,7 +333,7 @@
     <trd>&eacute;s-jel</trd>,
     <trd>kereskedelmi "<ind>&eacute;s</ind>"</trd>
   </trdgrp>
-  <trd lng="ja">&#12450;&#12531;&#12497;&#12469;&#12531;&#12489;</trd>
+  <trd lng="ja">&#12450;&#12531;&#12497;&#12469;&#12531;&#12489; [<ind>&#12354;&#12435;&#12401;&#12373;&#12435;&#12393;</ind>]</trd>
   <trdgrp lng="nl">
     <trd>ampersand</trd>,
     <trd>en-teken</trd>,
@@ -354,6 +354,12 @@
 </art>
 <!--
 $Log: kaj.xml,v $
+Revision 1.45  2020/02/15 09:10:15  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.44  2019/08/27 20:10:27  revo
+Sam Penter: kor. trd ja
+
 Revision 1.43  2018/09/05 22:10:21  revo
 Sam Penter: +trd ja nl
 
@@ -370,11 +376,5 @@ Revision 1.39  2017/01/29 14:10:14  revo
 Adam Eng: +trd ms
 
 Revision 1.38  2016/11/23 13:10:21  revo
-Robin van der Vliet: +trd
-
-Revision 1.37  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.36  2015/06/29 16:33:16  revo
 -->
 </vortaro>
