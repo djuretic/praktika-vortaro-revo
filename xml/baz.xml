@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: baz.xml,v 1.58 2020/02/13 19:10:17 revo Exp $">
+<art mrk="$Id: baz.xml,v 1.105 2021/06/18 20:41:24 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>baz</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -90,8 +90,7 @@
        <trd>l&uacute;g</trd>
      </trdgrp>
      <trd lng="pl">zasada</trd>
-     <trd
-     lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;
+     <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;
      <klr>(&c_h;&c_i;&c_m;.)</klr></trd>
    </snc>
    <snc mrk="baz.0o.MAT">
@@ -100,8 +99,7 @@
        <uzo tip="fak">KOMP</uzo>
        <fnt><bib>PIV1</bib></fnt>
        <dif>
-         <klr>(de pozicia <ref
-         cel="nombr.0osistemo">nombrosistemo</ref>)</klr>
+         <klr>(de pozicia <ref cel="nombr.0osistemo">nombrosistemo</ref>)</klr>
          Nombro de eblaj valoroj por &ccirc;iu
          <ref cel="cifer.0o">cifero</ref>, uzata en prezentado de
          nombro:
@@ -126,8 +124,7 @@
        <trd lng="pl">podstawa<klr tip="ind"> (systemu
        liczbowego)</klr></trd>
        <trd lng="ro">baz&abreve;</trd>
-       <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr
-tip="ind"> (&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_y;
+       <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> (&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_y;
        &c_s;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
      </subsnc>
      <subsnc mrk="baz.0o.logaritmo">
@@ -159,8 +156,7 @@ tip="ind"> (&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_y;
        <trd lng="hu">alap<klr tip="ind"> (logaritmus&eacute;)</klr></trd>
        <trd lng="pl">podstawa<klr tip="ind"> (logarytmu lub
        pot&eogonek;gi)</klr></trd>
-       <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr
-tip="ind"> 
+       <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> 
 (&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;)</klr></trd>
      </subsnc>
      <subsnc mrk="baz.0o.figuro">
@@ -198,8 +194,7 @@ facoj)</klr>;
        <trd lng="fr">base<klr tip="ind"> (d'un polygone)</klr></trd>
        <trd lng="hu">alap<klr tip="ind"> (soksz&ouml;g&eacute;)</klr></trd>
        <trd lng="pl">podstawa<klr tip="ind"> (wielok&aogonek;ta)</klr></trd>
-       <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr
-tip="ind"> 
+       <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> 
 (&c_m;&c_n;&c_o;&c_g;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;&c_a;)
 </klr></trd>
      </subsnc>
@@ -216,8 +211,7 @@ tip="ind">
          </ekz>
          <ekz>
            se naskanta subaro <frm am="bb N"><g>N</g></frm> de vektora
-           spaco inkluzivas liberan subaron <frm am="bb
-           L"><g>L</g></frm>,
+           spaco inkluzivas liberan subaron <frm am="bb            L"><g>L</g></frm>,
            ekzistas <tld/>o inkluzivanta <frm am="bb L"><g>L</g></frm>
            kaj inkluzivata de <frm am="bb N"><g>N</g></frm>;
          </ekz>
@@ -237,13 +231,13 @@ tip="ind">
          </ekz>
        </dif>
        <rim>
-         Kelkaj a&ubreve;toroj preferas difini <tld/>on kiel <ref
-         cel="famili.0o.bildigo">familion</ref>. Tio fontas el la fakto,
+         Kelkaj a&ubreve;toroj preferas difini <tld/>on kiel <ref cel="famili.0o.bildigo">familion</ref>.
+         Tio fontas el la fakto,
          ke
          por
          kelkaj aplikoj estas oportune uzi indican skriba&jcirc;on de la
-         tipo <frm am="sum alpha_i*e_i">&#8721;
-         &alfa;<sub><k>i</k></sub>&#8729;<g>e</g><sub><k>i</k></sub></frm>
+         tipo <frm am="sum alpha_i*e_i">&#x2211;
+         &alfa;<sub><k>i</k></sub>&#x2219;<g>e</g><sub><k>i</k></sub></frm>
          kaj tio ebligas ordigi la <tld/>vektorojn.
        </rim>
        <refgrp tip="vid">
@@ -283,19 +277,61 @@ tip="ind">
        </adm>
      </subsnc>
    </snc>
+  <trd lng="af">basis</trd>
+  <trd lng="am">&#x1218;&#x1220;&#x1228;&#x1275;</trd>
+  <trd lng="ar">&#x642;&#x627;&#x639;&#x62F;&#x629;</trd>
+  <trd lng="az">baza</trd>
+  <trd lng="bn">&#x998;&#x9BE;&#x981;&#x99F;&#x9BF;</trd>
+  <trd lng="bo">&#xF62;&#xFA8;&#xF44;&#xF0B;&#xF42;&#xF5E;&#xF72;&#xF0B;</trd>
+  <trd lng="bs">baza</trd>
+  <trd lng="co">suttastratu</trd>
   <trdgrp lng="cs">
     <trd>b&aacute;ze</trd>,
     <trd>op&ecaron;rn&yacute; bod</trd>,
     <trd>panel</trd>,
     <trd>z&aacute;kladna</trd>
   </trdgrp>
+  <trd lng="da">basen</trd>
   <trd lng="en">base</trd>
   <trd lng="es">base</trd>
+  <trd lng="et">alus</trd>
   <trd lng="fr">base</trd>
+  <trd lng="fy">basis</trd>
+  <trd lng="gu">&#xA86;&#xAA7;&#xABE;&#xAB0;</trd>
+  <trd lng="ha">tushe</trd>
+  <trd lng="he">&#x5D1;&#x5E1;&#x5D9;&#x5E1;</trd>
+  <trd lng="hi">&#x906;&#x927;&#x93E;&#x930;</trd>
+  <trd lng="hr">baza</trd>
+  <trd lng="hy">&#x562;&#x561;&#x566;&#x561;</trd>
+  <trd lng="is">st&#xF6;&#xF0;</trd>
+  <trd lng="ja">&#x30D9;&#x30FC;&#x30B9;</trd>
+  <trd lng="jw">dasar</trd>
+  <trd lng="ka">&#x10D1;&#x10D0;&#x10D6;&#x10D0;</trd>
+  <trd lng="km">&#x1798;&#x17BC;&#x179B;&#x178A;&#x17D2;&#x178B;&#x17B6;&#x1793;</trd>
+  <trd lng="ko">&#xAE30;&#xBCF8;</trd>
+  <trd lng="lo">&#xE96;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD05;&#xD1F;&#xD3F;&#xD24;&#xD4D;&#xD24;&#xD31;</trd>
+  <trd lng="mr">&#x92C;&#x947;&#x938;</trd>
+  <trd lng="my">&#x1021;&#x1001;&#x103C;&#x1031;&#x1005;&#x102D;&#x102F;&#x1000;&#x103A;&#x1005;&#x1001;&#x1014;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x906;&#x927;&#x93E;&#x930;</trd>
+  <trd lng="ny">m&#x2019;munsi</trd>
+  <trd lng="pa">&#xA05;&#xA27;&#xA3E;&#xA30;</trd>
+  <trd lng="ps">&#x627;&#x689;&#x647;</trd>
+  <trd lng="sd">&#x628;&#x646;&#x64A;&#x627;&#x62F;&#x64A; &#x637;&#x648;&#x631;</trd>
+  <trd lng="si">&#xDB4;&#xDAF;&#xDB1;&#xDB8;</trd>
   <trdgrp lng="sk">
     <trd>podklad</trd>,
     <trd>z&aacute;klad</trd>
   </trdgrp>
+  <trd lng="sq">baz&#xEB;</trd>
+  <trd lng="st">botlaaseng</trd>
+  <trd lng="ta">&#xB85;&#xB9F;&#xBBF;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBC8;</trd>
+  <trd lng="te">&#xC2C;&#xC47;&#xC38;&#xC4D;</trd>
+  <trd lng="th">&#xE10;&#xE32;&#xE19;</trd>
+  <trd lng="ur">&#x628;&#x646;&#x6CC;&#x627;&#x62F;</trd>
+  <trd lng="vi">c&#x1A1; s&#x1EDF;</trd>
+  <trd lng="yi">&#x5D1;&#x5D0;&#x5B7;&#x5D6;&#x5E2;</trd>
+  <trd lng="zu">isiza</trd>
 </drv>
 
 <drv mrk="baz.0a">
@@ -307,8 +343,7 @@ tip="ind">
         la baza tavolo de epidermo
         <fnt>
           <aut>Vikipedio</aut>,
-          <vrk><url
-          ref="http://eo.wikipedia.org/wiki/Efelido">Efelido</url></vrk>
+          <vrk><url ref="http://eo.wikipedia.org/wiki/Efelido">Efelido</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -322,16 +357,27 @@ tip="ind">
         la bazaj principoj de la lingvo
         <fnt>
           <aut>Ivo Lapenna</aut>,
-          <vrk><url
-          ref="http://www.angelfire.com/ny2/ts/lapenna.html">Por pli
+          <vrk><url ref="http://www.angelfire.com/ny2/ts/lapenna.html">Por pli
           efika informado</url></vrk>,
-          <bib></bib>,
-          <lok></lok>
+          <bib/>,
+          <lok/>
         </fnt>.
       </ekz>
     </dif>
   <trd lng="fr">basique</trd>
   </snc>
+  <trd lng="af">basiese</trd>
+  <trd lng="am">&#x1218;&#x1230;&#x1228;&#x1273;&#x12CA;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x623;&#x633;&#x627;&#x633;&#x64A;&#x629;</trd>
+  <trd lng="az">&#x259;sas</trd>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_a;&c_z;&c_a;&c_v;&c_y;</trd>,
+    <trd>&c_a;&c_s;&c_n;&c_o;&c_w;&c_n;&c_y;</trd>,
+    <trd>&c_k;&c_l;&c_ju;&c_ch;&c_o;&c_v;&c_y;</trd>
+  </trdgrp>
+  <trd lng="bn">&#x9AE;&#x9CC;&#x9B2;&#x9BF;&#x995;</trd>
+  <trd lng="bs">osnovni</trd>
+  <trd lng="co">funnamintali</trd>
   <trdgrp lng="cs">
     <trd>baz&aacute;ln&iacute;</trd>,
     <trd>b&aacute;zov&yacute;</trd>,
@@ -340,17 +386,53 @@ tip="ind">
     <trd>kmenov&yacute;</trd>,
     <trd>z&aacute;kladn&iacute;</trd>
   </trdgrp>
+  <trd lng="da">grundl&#xE6;ggende</trd>
+  <trd lng="et">p&#xF5;hi</trd>
+  <trd lng="eu">oinarrizko</trd>
   <trd lng="fr">de <ind>base</ind></trd>
+  <trd lng="gl">b&#xE1;sico</trd>
+  <trd lng="gu">&#xAAE;&#xAC2;&#xAB3;&#xAAD;&#xAC2;&#xAA4;</trd>
+  <trd lng="ha">na asali</trd>
+  <trd lng="he">&#x5D1;&#x5E1;&#x5D9;&#x5E1;&#x5D9;</trd>
+  <trd lng="hi">&#x92C;&#x941;&#x928;&#x93F;&#x92F;&#x93E;&#x926;&#x940;</trd>
+  <trd lng="hr">osnovna</trd>
+  <trd lng="hy">&#x570;&#x56B;&#x574;&#x576;&#x561;&#x56F;&#x561;&#x576;</trd>
+  <trd lng="is">undirst&#xF6;&#xF0;u</trd>
+  <trd lng="ja">&#x57FA;&#x672C;</trd>
+  <trd lng="jw">dhasar</trd>
+  <trd lng="ka">&#x10EB;&#x10D8;&#x10E0;&#x10D8;&#x10D7;&#x10D0;&#x10D3;&#x10D8;</trd>
+  <trd lng="km">&#x1798;&#x17BC;&#x179B;&#x178A;&#x17D2;&#x178B;&#x17B6;&#x1793;</trd>
+  <trd lng="ko">&#xAE30;&#xBCF8;</trd>
+  <trd lng="lo">&#xE82;&#xEB1;&#xEC9;&#xE99;&#xE9E;&#xEB7;&#xEC9;&#xE99;&#xE96;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD05;&#xD1F;&#xD3F;&#xD38;&#xD4D;&#xD25;&#xD3E;&#xD28;&#xD2A;&#xD30;&#xD2E;&#xD3E;&#xD2F;</trd>
+  <trd lng="mr">&#x92E;&#x942;&#x932;&#x92D;&#x942;&#x924;</trd>
+  <trd lng="my">&#x1021;&#x1001;&#x103C;&#x1031;&#x1001;&#x1036;&#x1015;&#x100A;&#x102C;</trd>
+  <trd lng="ne">&#x906;&#x927;&#x93E;&#x930;&#x92D;&#x942;&#x924;</trd>
+  <trd lng="ny">zoyambirira</trd>
+  <trd lng="pa">&#xA2C;&#xA41;&#xA28;&#xA3F;&#xA06;&#xA26;&#xA40;</trd>
   <trdgrp lng="pl">
     <trd>bazowy</trd>,
     <trd>elementarny</trd>,
     <trd>kluczowy</trd>,
   </trdgrp>
+  <trd lng="ps">&#x62F; &#x627;&#x633;&#x627;&#x633;&#x64A;</trd>
   <trd lng="ro">cheie</trd>
+  <trd lng="sd">&#x628;&#x646;&#x64A;&#x627;&#x62F;&#x64A;</trd>
+  <trd lng="si">&#xDB8;&#xDD6;&#xDBD;&#xDD2;&#xD9A;</trd>
   <trdgrp lng="sk">
     <trd>k&lcaron;&uacute;&ccaron;ov&yacute;</trd>,
     <trd>z&aacute;kladn&yacute;</trd>
   </trdgrp>
+  <trd lng="sq">themelore</trd>
+  <trd lng="st">tsa motheo tsa</trd>
+  <trd lng="ta">&#xB85;&#xB9F;&#xBBF;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBC8;</trd>
+  <trd lng="te">&#xC2A;&#xC4D;&#xC30;&#xC3E;&#xC25;&#xC2E;&#xC3F;&#xC15;</trd>
+  <trd lng="th">&#xE02;&#xE31;&#xE49;&#xE19;&#xE1E;&#xE37;&#xE49;&#xE19;&#xE10;&#xE32;&#xE19;</trd>
+  <trd lng="tl">pangunahing</trd>
+  <trd lng="ur">&#x628;&#x646;&#x6CC;&#x627;&#x62F;&#x6CC;</trd>
+  <trd lng="vi">c&#x1A1; b&#x1EA3;n</trd>
+  <trd lng="yi">&#x5D9;&#x5E7;&#x5E2;&#x5E8;&#x5D3;&#x5D9;&#x5E7;</trd>
+  <trd lng="zu">eziyisisekelo</trd>
 </drv>
 
 <drv mrk="baz.0i">
@@ -377,6 +459,11 @@ tip="ind">
        </ekz>
      </dif>
    </snc>
+   <trdgrp lng="be">
+     <trd>&c_a;&c_s;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+     <trd>&c_b;&c_a;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+     <trd>&c_g;&c_r;&c_u;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+   </trdgrp>
   <trdgrp lng="cs">
     <trd>nechat zalo&zcaron;it</trd>,
     <trd>podlo&zcaron;it</trd>,
@@ -388,6 +475,7 @@ tip="ind">
    </trdgrp>
   <trd lng="en">base</trd>
   <trd lng="fr">baser</trd>
+  <trd lng="he">&#x5DC;&#x5D1;&#x5E1;&#x5E1;</trd>
   <trd lng="hu">alapoz</trd>
   <trdgrp lng="pl">
      <trd>bazowa&cacute;<klr> (na czym&sacute;)</klr></trd>,
@@ -395,8 +483,7 @@ tip="ind">
      <trd>bra&cacute;<klr> (za podstaw&eogonek;)</klr></trd>
    </trdgrp>
    <trd lng="ro">baza</trd>
-  <trdgrp
-     lng="ru">
+  <trdgrp lng="ru">
      <trd>&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
      <trd>&c_o;&c_s;&c_n;&c_o;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
      <trd>&c_b;&c_a;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -424,22 +511,24 @@ tip="ind">
        </ekz>
      </dif>
    </snc>
+   <trdgrp lng="be">
+     <trd>&c_a;&c_s;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+     <trd>&c_b;&c_a;&c_z;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+     <trd>&c_g;&c_r;&c_u;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+   </trdgrp>
    <trd lng="de">sich <ind>gr&uuml;nden</ind> (auf)</trd>
    <trd lng="en">be <ind>based</ind> (upon)</trd>
    <trd lng="fr">se <ind>baser</ind></trd>
-   <trd lng="hu">alapul</trd>
+   <trd lng="he">&#x5DC;&#x5D4;&#x5EA;&#x5D1;&#x5E1;&#x5E1;</trd>
+  <trd lng="hu">alapul</trd>
    <trdgrp lng="pl">
      <trd>bazowa&cacute;<klr> (na czym&sacute;)</klr></trd>,
-     <trd>opiera&cacute;<klr> si&eogonek; (co&sacute; na
-czym&sacute;)</klr></trd>
+     <trd>opiera&cacute;<klr> si&eogonek; (co&sacute; na czym&sacute;)</klr></trd>
    </trdgrp>
-   <trdgrp
-     lng="ru">
+   <trdgrp lng="ru">
      <trd>&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
- 
-<trd>&c_o;&c_s;&c_n;&c_o;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
- 
-<trd>&c_b;&c_a;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+     <trd>&c_o;&c_s;&c_n;&c_o;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+     <trd>&c_b;&c_a;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
    </trdgrp>
    <trd lng="sk">zaklada&tcaron; sa</trd>
 </drv>
@@ -460,6 +549,7 @@ czym&sacute;)</klr></trd>
        <ref cel="serioz">neserioza</ref>
      </refgrp>
    </snc>
+   <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_n;&c_y;</trd>
   <trdgrp lng="cs">
     <trd>bez podkladu <klr>(b&yacute;t)</klr></trd>,
     <trd>bezd&uring;vodn&yacute;</trd>,
@@ -475,9 +565,7 @@ czym&sacute;)</klr></trd>
    </trdgrp>
   <trd lng="hu">alaptalan</trd>
   <trd lng="pl">bezpodstawny</trd>
-  <trd lng="ru">
-   &c_b;&c_je;&c_z;&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;
-   &c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_b;&c_je;&c_z;&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>neopodstatnen&yacute;</trd>,
     <trd>nepodlo&zcaron;en&yacute;</trd>
@@ -508,6 +596,10 @@ czym&sacute;)</klr></trd>
        </ekz>
      </dif>
    </snc>
+   <trdgrp lng="be">
+     <trd>&c_n;&c_a; <ind>&c_b;&c_a;&c_z;&c_je;</ind></trd>,
+     <trd>&c_n;&c_a; <ind>&c_a;&c_s;&c_n;&c_o;&c_v;&c_je;</ind></trd>
+   </trdgrp>
   <trd lng="cs">na z&aacute;klad&ecaron; <klr>(&ccaron;eho)</klr></trd>
   <trdgrp lng="fr">
      <trd>&agrave; partir de<klr> (en prenant pour base)</klr></trd>,
@@ -526,11 +618,9 @@ czym&sacute;)</klr></trd>
        <frm><g>E</g></frm>)</klr>
        Tia <ref cel="baz.0o.vektoraspaco"><tld/>o <sncref/></ref>
        <frm am="(e^i)">(<g>e</g><sup><k>i</k></sup>)</frm> de la
-       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb
-       E"><g>E</g></frm>, ke <frm am="bb e^i(bb e_j)"
-       ><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
-       egalas al <frm>1</frm>, se <frm am="i=j"
-       ><k>i</k> = <k>j</k></frm>, kaj al <frm>0</frm> aliokaze.
+       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb        e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
+       egalas al <frm>1</frm>, se <frm am="i=j"><k>i</k> = <k>j</k></frm>, kaj al <frm>0</frm>
+       aliokaze.
      </dif>
    </snc>
    <adm>
@@ -541,13 +631,9 @@ czym&sacute;)</klr></trd>
    <trd lng="fr">base duale</trd>
    <trd lng="pl">baza dualna</trd>
    <trdgrp lng="ru">
-     <trd>&c_d;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; 
-     <ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>,
-     <trd>&c_d;&c_v;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j; 
-     <ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>,
-     <trd>&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_jo;&c_n;&c_n;&c_y;&c_j; 
-     [&c_v;&c_z;&c_a;&c_i;&c_m;&c_n;&c_y;&c_j;] 
-<ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>
+     <trd>&c_d;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>,
+     <trd>&c_d;&c_v;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j; <ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>,
+     <trd>&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_jo;&c_n;&c_n;&c_y;&c_j; [&c_v;&c_z;&c_a;&c_i;&c_m;&c_n;&c_y;&c_j;] <ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>
    </trdgrp>
 </drv>
 
@@ -580,13 +666,15 @@ czym&sacute;)</klr></trd>
      <trd>baza naturalna</trd>,
      <trd>baza kanoniczna</trd>
    </trdgrp>
-<trd lng="ru">&c_k;&c_a;&c_n;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
-<ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>
+<trd lng="ru">&c_k;&c_a;&c_n;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; <ind>&c_b;&c_a;&c_z;&c_i;&c_s;</ind></trd>
 </drv>
 </art>
 <!--
-$Log: baz.xml,v $
-Revision 1.58  2020/02/13 19:10:17  revo
+$Log$
+versio 1.60 2021/05/15 09:58:21
+Dmitri Gabinski: + trd be
+
+versio 1.58 2020/02/13 20:10:18
 Wolfram Diestel: formuloj per am
 
 Revision 1.57  2017/12/20 23:10:20  revo
@@ -605,8 +693,5 @@ Revision 1.53  2015/02/10 14:10:15  revo
 Sergio Pokrovskij: malfermitaj globoj
 
 Revision 1.52  2015/02/01 18:10:15  revo
-Alain Gerard: tajperaro
-
-Revision 1.51  2015/02/01 15:10:15  revo
 -->
 </vortaro>

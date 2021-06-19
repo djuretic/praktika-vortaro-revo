@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: bord.xml,v 1.30 2019/01/16 15:10:13 revo Exp $">
+<art mrk="$Id: bord.xml,v 1.79 2021/06/18 20:41:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bord</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,44 +12,171 @@
   <snc mrk="bord.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      Strio da tero tu&scirc;anta etenda&jcirc;on da akvo:
+      <ref tip="super" cel="stri.0o.streko">Strio</ref> da tero tu&scirc;anta etenda&jcirc;on da <ref cel="akv.0o">akvo</ref>:
       <ekz>
         sur la <tld/>o de la maro staris amaso da homoj
         <fnt><bib>F</bib>, <lok>&FE; 32</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>o de rivero<fnt>Z</fnt>;
+        jen supre sur la <tld/>o de la haveno en la lasta
+        minuto rapide alkuras ankora&ubreve; kelkaj kale&scirc;oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sablo sur la <tld/>o de la maro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 22:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen mi staras sur la <tld/>o de la rivero
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 41:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ordonis transiri al la alia <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 8:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> transiris Jordanon <klr>[&#x2026;]</klr>, kiam &gcirc;i inundis siajn amba&ubreve;
+        <tld/>ojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 12:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Jordan</nom> estis plena &ccirc;e &ccirc;iuj siaj <tld/>oj dum la tuta tempo de rikoltado
+        <fnt>
+          <bib>MT</bib>
+          <lok>Josuo 3:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en vintro tie ne pasas &scirc;ipoj, tiam la tuta Sundo &gcirc;is la Sveda <tld/>o estas
+        kovrita de glacio
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dano Holger</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malsupre &ccirc;e la <tld/>o ruli&gcirc;adis rosmaroj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kelkaj mizeraj lignaj budoj <klr>[&#x2026;]</klr> staris sur la transa <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Rejno &scirc;a&ubreve;me saltas &gcirc;is super sia <tld/>o
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>Sibilla Orakolas</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akvo silenta subfosas la <tld/>on
+        <klr>(ne subtaksu kio &scirc;ajnas kvieta)</klr>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[insuletoj,]</klr> kies <ind>&ccirc;irka&ubreve;<tld/>o</ind> longas
+        je proksimume unu duonle&ubreve;go
+        <fnt><bib>Revadoj</bib>, <lok>kvina promenado</lok></fnt>;
+        <trd lng="fr">rive<klr tip="ind"> (circulaire)</klr></trd>
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
+        &ccirc;e la <tld/>o de la scenejo <klr>[staris]</klr> tri sinjorinoj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="eskarp.0o">eskarpo</ref>,
+      <ref cel="kaj1.0o.MAR">kajo<sncref/></ref>,
+      <ref cel="klif.0o">klifo</ref>,
+      <ref cel="plagx.0o">pla&gcirc;o</ref>,
+      <ref cel="strand.0o">strando</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="dig.0o">digo</ref>,
+      <ref cel="plauxd.0ejo">pla&ubreve;dejo</ref>,
+      <ref cel="rand.0o">rando</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="bord.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Proksimo de <ref cel="ir.trans0i">transir</ref>o al alia stato:
+      <ekz>
         la registaro trovi&gcirc;is &ccirc;e la <tld/>o de l'
         senfunda&jcirc;o
         <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 16</lok></fnt>
         <klr>(esti preska&ubreve; ruinigita)</klr>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        sur la <tld/>o <klr>(tute proksime de,
-        <ref tip="sin" cel="sojl.0o">sojle</ref> de)</klr>
-        de la morto vi donas savon al la fremdulo<fnt>Z</fnt>;
+        la kolero el&jcirc;etas la homon sur la <tld/>ojn de la maljusteco
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
+        Vi estas nova fonto de feli&ccirc;o / Kaj donas sur la <tld/>o de 
+        <klr>(tute proksime de, <ref tip="sin" cel="sojl.0o">sojle</ref> de)</klr>
+        la morto / Al la fremdulo savon kaj revenon
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         malri&ccirc;a en sen<tld/>an <klr>(senliman,
-        senhelpan)</klr> solecon &jcirc;etita virino<fnt>Z</fnt>.
+        senhelpan)</klr> solecon &jcirc;etita virino
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="plauxd.0ejo">pla&ubreve;dejo</ref>,
-      <ref cel="rand.0o">rando</ref>
+       <ref cel="abism.0o">abismo</ref>,
+       <ref cel="lim.0o.FIG">limo<sncref/></ref>,
+       <ref cel="rand.0o.KOMUNE">rando<sncref/></ref>
     </refgrp>
   </snc>
+  <trd lng="af">strand</trd>
+  <trd lng="am">&#x12F3;&#x122D;&#x127B;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x634;&#x627;&#x637;&#x626;</trd>
   <trd lng="be">&c_b;&c_je;&c_r;&c_a;&c_g;</trd>
   <trd lng="bg">&c_b;&c_r;&c_ja;&c_g;</trd>
+  <trd lng="bn">&#x9A4;&#x9C0;&#x9B0;&#x9C7;</trd>
+  <trd lng="bo">&#xF58;&#xF5A;&#xF7C;&#xF0B;&#xF60;&#xF42;&#xFB2;&#xF58;&#xF0B;</trd>
+  <trd lng="co">riva</trd>
   <trdgrp lng="cs">
     <trd>b&rcaron;eh</trd>,
     <trd>pob&rcaron;e&zcaron;&iacute;</trd>
   </trdgrp>
+  <trd lng="da">kysten</trd>
   <trdgrp lng="de">
     <trd>Ufer</trd>, <trd>Rand</trd>
   </trdgrp>
@@ -64,15 +190,39 @@
     <trd>rivage</trd>,
     <trd>rive</trd>
   </trdgrp>
+  <trd lng="fy">w&#xE2;l</trd>
+  <trd lng="gl">costa</trd>
+  <trd lng="gu">&#xA95;&#xABF;&#xAA8;&#xABE;&#xAB0;&#xABE;</trd>
+  <trd lng="ha">tudu</trd>
+  <trdgrp lng="he">
+    <trd>&het;&vav;&fpe;</trd>,
+    <trd>&gimel;&dalet;&he;</trd>
+  </trdgrp>
+  <trd lng="hi">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x947;</trd>
+  <trd lng="hr">prikljucak</trd>
+  <trd lng="hy">&#x561;&#x583;&#x568;</trd>
+  <trd lng="is">fjaran</trd>
+  <trd lng="ja">&#x6D77;&#x5CB8;</trd>
+  <trd lng="ka">&#x10DC;&#x10D0;&#x10DE;&#x10D8;&#x10E0;&#x10D6;&#x10D4;</trd>
+  <trd lng="km">&#x1785;&#x17D2;&#x179A;&#x17B6;&#x17C6;&#x1784;</trd>
+  <trd lng="ko">&#xD574;&#xC548;</trd>
+  <trd lng="lo">&#xEC1;&#xE84;&#xEA1;&#xE9D;&#xEB1;&#xEC8;&#xE87;</trd>
+  <trd lng="ml">&#xD24;&#xD40;&#xD30;&#xD02;</trd>
+  <trd lng="mr">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x93E;</trd>
+  <trd lng="my">&#x1000;&#x1019;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x92E;&#x93E;</trd>
   <trdgrp lng="nl">
     <trd>oever</trd>,
     <trd>waterkant</trd>
   </trdgrp>
+  <trd lng="ny">gombe</trd>
+  <trd lng="pa">&#xA15;&#xA70;&#xA22;&#xA47;</trd>
   <trdgrp lng="pl">
     <trd>brzeg</trd>,
     <trd>wybrze&zdot;e</trd>,
     <trd>nadbrze&zdot;e</trd>
   </trdgrp>
+  <trd lng="ps">&#x67E;&#x647; &#x63A;&#x627;&#x693;&#x647;</trd>
   <trdgrp lng="pt">
     <trd>costa</trd>,
     <trd>margem</trd>,
@@ -82,10 +232,22 @@
     <trd>&c_b;&c_je;&c_r;&c_je;&c_g;</trd>,
     <trd>&c_k;&c_r;&c_a;&c_j; <klr tip="amb">(f)</klr></trd>
   </trdgrp>
+  <trd lng="sd">&#x627;&#x687;&#x644;&#x64A;&#x648;&#x633;&#x648;&#x646;</trd>
+  <trd lng="si">&#xDC0;&#xDD9;&#xDBB;&#xDC5;</trd>
   <trdgrp lng="sk">
     <trd>breh</trd>,
     <trd>pobre&zcaron;ie</trd>
   </trdgrp>
+  <trd lng="sq">breg</trd>
+  <trd lng="st">lebopong la leoatle</trd>
+  <trd lng="ta">&#xB95;&#xBB0;&#xBC8;&#xBAF;&#xBBF;&#xBB2;&#xBCD;</trd>
+  <trd lng="te">&#xC24;&#xC40;&#xC30;&#xC02;</trd>
+  <trd lng="th">&#xE1D;&#xE31;&#xE48;&#xE07;</trd>
+  <trd lng="tl">baybayin</trd>
+  <trd lng="ur">&#x6A9;&#x646;&#x627;&#x631;&#x6D2;</trd>
+  <trd lng="vi">b&#x1EDD;</trd>
+  <trd lng="yi">&#x5D1;&#x5E8;&#x5E2;&#x5D2;</trd>
+  <trd lng="zu">isisekelo</trd>
 </drv>
 
 <drv mrk="bord.0ede">
@@ -95,22 +257,68 @@
     <dif>
       La&ubreve; la <tld/>o de, sur la <tld/>o de...:
       <ekz>
-        sinjoro Claude Monet konduku nin al Giverny <tld/>e de Sejno
+        sinjoro <nom>Claude Monet</nom> konduku nin al <nom>Giverny</nom> <tld/>e de Sejno
         <fnt>
           <aut>M. Proust, trad. P. Combot</aut>,
           <vrk>Pri la legado</vrk>,
           <lok>1993</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi facile trovos en normala atlaso, kie situas Bervalo <klr>[&#x2026;]</klr> jes, tie,
+        <tld/>e de la blua Mediteraneo
+        <fnt>
+          <bib>KrB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nokte en diversaj lokoj <tld/>e de la lago brulis altaj fajroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Claude Piron</aut>
+          <vrk><url ref="https://www.monato.be/2003/008141.html">Francio invitas, Svislando suferas</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili estas sur<tld/>e de la maro &ccirc;e Helesponto
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e<tld/>e de Sudameriko
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vico da restoracioj la&ubreve;<tld/>e de l&#x2019; rivero
+        <fnt>
+          <bib>ChR</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amba&ubreve;<tld/>e de la rivero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Louis Madzella/pg</aut>
+          <vrk><url ref="https://www.monato.be/2006/009016.php">Plezuro elsakigita</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        najbaro <klr>[&#x2026;]</klr> ali<tld/>e de la rivero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>AMik</aut>
+          <vrk><url ref="https://www.monato.be/2011/010441.php">Rio-granda stimulado</url></vrk>
+          <lok>2011</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <adm>
-     La nuntempa difino de &ccirc;i tiu vorto ne kongruas kun &ccirc;iuj
-     ekzemploj
-     donitaj, nek kun la deriva&jcirc;o bord.super0igxi. Estas inde
-     pliprecizigi &gcirc;iajn subsencojn.
-     <aut>HJ</aut>
-  </adm>
+  <trd lng="de">am <ind>Ufer</ind> von</trd>
   <trd lng="fr">sur la rive de</trd>
 </drv>
 
@@ -122,15 +330,35 @@
     <dif>
       Atingi <tld/>on, na&gcirc;ante a&ubreve; &scirc;ipante:
       <ekz>
+        tuj la &scirc;ipo al<tld/>i&gcirc;is tien, kien ili veturis
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 6:21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         al<tld/>i&gcirc;inte &ccirc;e Sirakuso, ni restis tie tri tagojn
-        <fnt><bib>NT</bib>, <lok>&Ago; 28:12</lok></fnt>.
+        <fnt><bib>NT</bib>, <lok>&Ago; 28:12</lok></fnt>;
+      </ekz>
+      <ekz>
+        la lumigita &scirc;ipeto de la kronprinco al<tld/>i&gcirc;is inter krioj kaj kantoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fi&scirc;kaptistojn &ccirc;e ilia al<tld/>i&gcirc;o ili akceptas kun varma biero
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_ch;&c_a;&c_l;&c_ib;&c_c;&c_mol;</trd>,
-    <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_c;&c_mol; <klr
-    tip="amb">(&c_d;&c_a; &c_b;&c_je;&c_r;&c_a;&c_g;&c_a;)</klr></trd>
+    <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_d;&c_a; &c_b;&c_je;&c_r;&c_a;&c_g;&c_a;)</klr></trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>anlegen</trd>, <trd>landen</trd>
@@ -143,6 +371,7 @@
     <trd>accoster<klr tip="ind"> (intr.)</klr></trd>,
     <trd>aborder<klr tip="ind"> (intr.)</klr></trd>
   </trdgrp>
+  <trd lng="he">&lamed;&ayin;&gimel;&vav;&fnun;</trd>
   <trdgrp lng="nl">
     <trd>aan land gaan</trd>,
     <trd>landen</trd>,
@@ -171,19 +400,40 @@
   <snc mrk="bord.al0igxejo.MAR">
     <uzo tip="fak">MAR</uzo>
     <dif>
-      Loko aran&gcirc;ita a&ubreve; ta&ubreve;ga por la
+      <ref tip="super" cel="lok.0o.spaca">Loko</ref> aran&gcirc;ita a&ubreve; ta&ubreve;ga por la
       al<tld/>i&gcirc;o de &scirc;ipoj:
       <ekz>
-        Zebulun lo&gcirc;os &ccirc;e la bordo de maro, &ccirc;e
+        <nom>Zebulun</nom> lo&gcirc;os &ccirc;e la bordo de maro, &ccirc;e
         al<tld/>i&gcirc;ejo de &scirc;ipoj
-        <fnt><bib>MT</bib>, <lok>&Gen; 49:13</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Gen; 49:13</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>Alice</nom> atendis lin apud ponteto de l&#x2019; boatal<tld/>i&gcirc;ejo
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la tiea al<tld/>i&gcirc;ejo ni trovis kelkajn boatojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Venezuelo &dash; Inter maro kaj arbarego</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="sxip.el0ejo">el&scirc;ipejo</ref>
+    <refgrp tip="vid">
+      <ref cel="ankr.0ejo">ankrejo</ref>,
+      <ref cel="sxip.el0ejo">el&scirc;ipejo</ref>,
+      <ref cel="kaj1.0o.MAR">kajo<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_ch;&c_a;&c_l;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_n;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Landestelle</trd>,
+    <trd>Anleger</trd>
   </trdgrp>
   <trd lng="es">atracadero</trd>
   <trdgrp lng="fr">
@@ -210,21 +460,6 @@
   <trd lng="sk">pr&iacute;stav</trd>
 </drv>
 
-<drv mrk="bord.cxirkaux0o">
-  <kap>&ccirc;irka&ubreve;<tld/>o</kap>
-  <uzo tip="stl">RAR</uzo>
-  <snc>
-    <dif>
-      <tld lit="B"/>o, kiu &ccirc;irka&ubreve;as lokon:
-      <ekz>
-        <klr>[insuletoj,]</klr> kies &ccirc;irka&ubreve;<tld/>o longas
-        je proksimume unu duonle&ubreve;go
-        <fnt><bib>Revadoj</bib>, <lok>kvina promenado</lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="fr">rive<klr tip="ind"> (circulaire)</klr></trd>
-</drv>
 
 <drv mrk="bord.de0igxi">
   <kap>de<tld/>i&gcirc;i</kap>
@@ -236,14 +471,22 @@
       na&gcirc;ante a&ubreve; &scirc;ipante:
       <ekz>
         la vapor&scirc;ipo malrapide de<tld/>i&gcirc;as
-        <fnt><bib>Metrop</bib>, <lok>&ccirc;apitro 10a</lok></fnt>.
+        <fnt><bib>Metrop</bib>, <lok>&ccirc;apitro 10a</lok></fnt>;
+      </ekz>
+      <ekz>
+        jam malheli&gcirc;is, kiam ni de<tld/>i&gcirc;is
+        <fnt>
+          <aut>Jurij German</aut>
+          <vrk><url ref="https://yury-finkel.livejournal.com/387357.html">&leftquot;Kara mia homo&rightquot;,</url></vrk>
+          <lok>&ccirc;apitro 2.4</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_p;&c_l;&c_y;&c_c;&c_mol; &c_a;&c_d;
-  <ind>&c_b;&c_je;&c_r;&c_a;&c_g;&c_a;</ind> <klr
-  tip="amb">(&c_p;&c_r;&c_a; 
+  <ind>&c_b;&c_je;&c_r;&c_a;&c_g;&c_a;</ind> <klr tip="amb">(&c_p;&c_r;&c_a; 
   &c_k;&c_a;&c_r;&c_a;&c_b;&c_je;&c_l;&c_mol;)</klr></trd>
+  <trd lng="de">ablegen</trd>
   <trdgrp lng="fr">
     <trd>appareiller<klr tip="ind"> (quitter le mouillage)</klr></trd>,
     <trd>s'<ind>&eacute;loigner</ind><klr tip="amb"> (de la
@@ -261,7 +504,7 @@
     <trd>&c_o;&c_t;&c_ch;&c_a;&c_l;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_p;&c_l;&c_y;&c_t;&c_mol; &c_o;&c_t;
     &c_b;&c_je;&c_r;&c_je;&c_g;&c_a;<klr tip="amb"> (&c_o;
-    &c_k;&c_o;&c_r;&c_a;&c_b;&c_l;&c_je;)</klr></trd>
+    &c_k;&c_o;&c_r;&c_a;&c_b;&c_l;&c_je;)&gt;</klr></trd>
   </trdgrp>
 </drv>
 
@@ -273,24 +516,88 @@
       <tld lit="B"/>o, kiu randas maron:
       <ekz>
         &ccirc;e la tagi&gcirc;o Jesuo staris sur la mar<tld/>o
-        <fnt><bib>NT</bib>, <lok>&Joh; 21:4</lok></fnt>.
+        <fnt><bib>NT</bib>, <lok>&Joh; 21:4</lok></fnt>;
+      </ekz>
+      <ekz>
+        bela soleca vojo la&ubreve;longe de la mar<tld/>o
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Peco da perlovico</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Irlanda mar<tld/>o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Post jarmiloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la malgrandan urbon de la franca mar<tld/>o kunvenis homoj el la plej
+        diversaj landoj kaj nacioj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="marsk.0o">marsko</ref>
   </snc>
+  <trd lng="af">kus</trd>
+  <trd lng="am">&#x12F3;&#x122D;&#x127B;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x633;&#x627;&#x62D;&#x644;</trd>
+  <trd lng="az">sahil</trd>
   <trd lng="bg">&c_k;&c_r;&c_a;&c_j;&c_b;&c_r;&c_je;&c_zh;&c_i;&c_je;</trd>
+  <trd lng="bn">&#x989;&#x9AA;&#x995;&#x9C2;&#x9B2;</trd>
+  <trd lng="bs">obale</trd>
+  <trd lng="co">aggrottu</trd>
   <trd lng="cs">mo&rcaron;sk&eacute; pob&rcaron;e&zcaron;&iacute;</trd>
+  <trd lng="da">kyst</trd>
   <trd lng="de">K&uuml;ste</trd>
   <trd lng="en">coast</trd>
   <trd lng="es">costa</trd>
+  <trd lng="et">rannikul</trd>
+  <trd lng="eu">kostaldean</trd>
   <trd lng="fr">c&ocirc;te<klr tip="amb"> (marine)</klr></trd>
+  <trd lng="fy">kust</trd>
+  <trd lng="gl">costa</trd>
+  <trd lng="gu">&#xA95;&#xABF;&#xAA8;&#xABE;&#xAB0;&#xAC7;</trd>
+  <trd lng="hi">&#x924;&#x91F;</trd>
+  <trd lng="hr">obala</trd>
+  <trd lng="hy">&#x561;&#x583;</trd>
+  <trd lng="is">str&#xF6;ndin</trd>
+  <trd lng="ja">&#x6D77;&#x5CB8;</trd>
+  <trd lng="jw">pesisir</trd>
+  <trd lng="ka">&#x10E1;&#x10D0;&#x10DC;&#x10D0;&#x10DE;&#x10D8;&#x10E0;&#x10DD;&#x10D6;&#x10D4;</trd>
+  <trd lng="km">&#x1786;&#x17D2;&#x1793;&#x17C1;&#x179A;</trd>
+  <trd lng="ko">&#xD574;&#xC548;</trd>
+  <trd lng="lo">&#xEC1;&#xE84;&#xEA1;&#xE9D;&#xEB1;&#xEC8;&#xE87;&#xE97;&#xEB0;&#xEC0;&#xEA5;</trd>
+  <trd lng="ml">&#xD24;&#xD40;&#xD30;&#xD02;</trd>
+  <trd lng="mr">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x92A;&#x91F;&#x94D;&#x91F;&#x940;</trd>
+  <trd lng="my">&#x1015;&#x1004;&#x103A;&#x101C;&#x101A;&#x103A;&#x1000;&#x1019;&#x103A;&#x1038;</trd>
   <trd lng="nl">kust</trd>
+  <trd lng="ny">gombe</trd>
+  <trd lng="pa">&#xA24;&#xA1F;</trd>
   <trdgrp lng="pl">
     <trd>brzeg morski</trd>,
     <trd>brzeg morza</trd>
   </trdgrp>
+  <trd lng="ps">&#x633;&#x627;&#x62D;&#x644;</trd>
   <trd lng="ru">&c_m;&c_o;&c_r;&c_s;&c_k;&c_o;&c_j;
   <ind>&c_b;&c_je;&c_r;&c_je;&c_g;</ind></trd>
+  <trd lng="sd">&#x633;&#x627;&#x645;&#x648;&#x646;&#x68A;&#x64A; &#x6AA;&#x646;&#x627;&#x631;&#x64A;</trd>
+  <trd lng="si">&#xDC0;&#xDD9;&#xDBB;&#xDC5;</trd>
   <trd lng="sk">morsk&eacute; pobre&zcaron;ie</trd>
+  <trd lng="sq">bregdeti</trd>
+  <trd lng="st">lebopong la leoatle</trd>
+  <trd lng="ta">&#xB95;&#xB9F;&#xBB1;&#xBCD;&#xB95;&#xBB0;&#xBC8;&#xBAF;&#xBBF;&#xBB2;&#xBCD;</trd>
+  <trd lng="te">&#xC24;&#xC40;&#xC30;&#xC02;</trd>
+  <trd lng="th">&#xE0A;&#xE32;&#xE22;&#xE1D;&#xE31;&#xE48;&#xE07;</trd>
+  <trd lng="tl">baybayin</trd>
+  <trd lng="ur">&#x6A9;&#x648;&#x633;&#x679;</trd>
+  <trd lng="vi">b&#x1EDD; bi&#x1EC3;n</trd>
+  <trd lng="yi">&#x5D1;&#x5E8;&#x5E2;&#x5D2;</trd>
+  <trd lng="zu">ugu</trd>
 </drv>
 
 <drv mrk="bord.super0igxi">
@@ -301,26 +608,46 @@
     <dif>
       Elver&scirc;i&gcirc;i super la <tld/>o, superakvi la <tld/>on:
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        super<tld/>i&gcirc;is en ilia koro la intencoj
-        <fnt><bib>MT</bib>, <lok>&Psa; 73:7</lok></fnt>;
-      </ekz>
-      <ekz>
         la impeto de la pluvotorento kun&scirc;iris la ponton
         kaj la akvo trans<tld/>i&gcirc;is
         <fnt>
           <aut>M. J&oacute;kai, trad. J. Horvath</aut>
           <vrk>La du salikoj de Nagyenyed</vrk>
           <lok>2002</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rivero <klr>[&#x2026;]</klr> sporade trans<tld/>i&gcirc;is kaj inundis la &ccirc;irka&ubreve;a&jcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018">Argentino</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        super<tld/>i&gcirc;is en ilia koro la intencoj
+        <fnt><bib>MT</bib>, <lok>&Psa; 73:7</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la situacio en Tibeto povas super<tld/>i&gcirc;i al la aliaj regionoj <klr>[&#x2026;]</klr>
+        tiuj de la ujguroj en &Scirc;in&gcirc;jiango, de la mongoloj en Interna Mongolio
+        <fnt>
+          <bib>MD08</bib>
+          <vrk>Pekino en la kaptilo inter Tibeto kaj la &leftquot;internacia komunumo&rightquot;</vrk>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="inund.0i">inundi</ref>
+      <ref cel="inund.0i">inundi</ref>,
+      <ref cel="akv.super0i">superakvi</ref>,
+      <ref cel="flu.super0a">superflua</ref>,
+      <ref cel="salt.trans0i">transsalti</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_j;&c_s;&c_mol;&c_c;&c_ib; &c_z;&c_mol;
   <ind>&c_b;&c_je;&c_r;&c_a;&c_g;&c_o;&c_w;</ind></trd>
+  <trd lng="de">&uuml;ber das <ind>Ufer</ind> treten</trd>
   <trd lng="fr">d&eacute;border <klr tip="ind">(en p. d'une
   rivi&egrave;re)</klr></trd>
   <trd lng="es">desbordarse</trd>
@@ -341,12 +668,29 @@
       Ekiri sur <tld/>on, ekzemple el&scirc;ipi&gcirc;inte:
       <ekz>
         kiam li sur<tld/>i&gcirc;is, renkontis lin el la urbo viro,
-        havanta
-        demonojn
-        <fnt><bib>NT</bib>, <lok>&Luk; 8:27</lok></fnt>.
+        havanta demonojn
+        <fnt><bib>NT</bib>, <lok>&Luk; 8:27</lok></fnt>;
+      </ekz>
+      <ekz>
+        homoj, armitaj per &scirc;ildoj kaj mallongaj lancoj, sur<tld/>i&gcirc;is kaj stari&gcirc;is en du
+        vicojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li kriis al ni en sia sensignifa lingva&ccirc;o, kaj indikis per gestoj, ke venis la
+        momento por sur<tld/>i&gcirc;i
+        <fnt>
+          <aut>Anna L&ouml;wenstein</aut>
+          <vrk>La &scirc;tona urbo</vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="ter.al0igxi.MAR">alteri&gcirc;i<sncref/></ref>
   </snc>
+  <trd lng="de">von <ind>Bord</ind> gehen</trd>
   <trd lng="fr">toucher terre</trd>
   <trdgrp lng="pl">
     <trd>schodzi&cacute; na <ind>brzeg</ind></trd>,
@@ -361,9 +705,18 @@
 </drv>
 </art>
 <!--
-$Log: bord.xml,v $
-Revision 1.30  2019/01/16 15:10:13  revo
-Jeromo Vasxe: + trans~igxi
+$Log$
+versio 1.35 2021/05/08 13:06:39
+Wolfram Diestel: de~ighi..sur~ighi: ekz-oj
+
+versio 1.34 2021/05/08 10:52:31
+Wolfram Diestel: ~e de .. al~ighejo: ekz-oj
+
+versio 1.33 2021/05/08 07:02:55
+Wolfram Diestel: +ref
+
+versio 1.32 2021/05/05 19:46:16
+Wolfram Diestel: ~o: apartigis snc FIG, ekz-oj, ref-oj
 
 Revision 1.29  2016/02/28 19:10:26  revo
 Wolfram Diestel: riparo: adm forighis per skripto de Laer pro
@@ -374,15 +727,5 @@ aldono de trd cs per skripto de M. von Laer
 
 Revision 1.27  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.26  2015/05/15 19:10:17  revo
-Jeromo Vasxe: + ~e de
-
-Revision 1.25  2014/10/09 11:10:35  revo
-Carlos Garcia: +trd es -igx -igxej de-igx
-
-Revision 1.24  2014/09/14 12:10:13  revo
-Norbert Luckhardt: kor tra ES
-
 -->
 </vortaro>

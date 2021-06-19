@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vic.xml,v 1.61 2020/02/15 17:10:20 revo Exp $">
+<art mrk="$Id: vic.xml,v 1.106 2021/06/18 18:20:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vic</rad>/o <fnt><bib>PV</bib></fnt>
@@ -169,7 +169,7 @@
       <ref cel="progre1.0o">progresio</ref>,
       <ref cel="seri.0o.MAT">serio</ref>,
       <ref cel="vic.finia0o">finia <tld/>o</ref>,
-      <ref cel="vic.0o.de_funkcioj"><tld/>o de funkcioj</ref>,
+      <ref cel="vic.0o_de_funkcioj"><tld/>o de funkcioj</ref>,
       <ref cel="vic.sub0o">sub<tld/>o</ref>;
     </refgrp>
     <refgrp tip="sub">
@@ -200,12 +200,10 @@
     <rim>
       La nocio <tld/>o servas por formale paroli pri sinsekvoj da
       elementoj el <frm am="bb E"><g>E</g></frm>, ekz-e la sinsekvo
-      <frm am="(1//n)_(n gt 0)"
-      >(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm> de &ccirc;iuj
+      <frm am="(1//n)_(n gt 0)">(1/<k>n</k>)<sub><k>n</k> &gt; 0</sub></frm> de &ccirc;iuj
       inversoj de pozitivaj entjeroj. Anstata&ubreve; uzi funkciecan
       skriba&jcirc;on por signi <tld/>on, oni kutime preferas skribi
-      <frm am="(u_i)_(i in bb I)"
-      >(<k>u</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>.
+      <frm am="(u_i)_(i in bb I)">(<k>u</k><sub><k>i</k></sub>)<sub><k>i</k>&#x2208;<g>I</g></sub></frm>.
       La bildon de <frm am="n"><k>n</k></frm> per 
       <frm am="u"><k>u</k></frm> oni nomas
       la <frm am="n"><k>n</k></frm>-a termo de la <tld/>o kaj oni signas
@@ -224,17 +222,28 @@
     <trd lng="pt">seq&uuml;&ecirc;ncia</trd>
     <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
+  <trd lng="af">ry</trd>
+  <trd lng="am">&#x1228;&#x12F5;&#x134D;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x635;&#x641;</trd>
+  <trd lng="az">s&#x131;ra</trd>
   <trdgrp lng="be">
     <trd>&c_sh;&c_e;&c_r;&c_a;&c_g;</trd>,
     <trd>&c_ch;&c_a;&c_r;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_r;&c_a;&c_d;</trd>
   </trdgrp>
+  <trd lng="bn">&#x9B8;&#x9BE;&#x9B0;&#x9BF;</trd>
+  <trd lng="bo">&#xF42;&#xFB2;&#xF63;&#xF0B;</trd>
+  <trd lng="bs">red</trd>
+  <trd lng="co">n&#x2019;angulu</trd>
   <trdgrp lng="cs">
     <trd>fronta</trd>,
     <trd>po&rcaron;ad&iacute;</trd>,
     <trd>z&aacute;stup</trd>,
     <trd>&rcaron;ada</trd>
   </trdgrp>
+  <trd lng="da">r&#xE6;kke</trd>
+  <trd lng="et">rida</trd>
+  <trd lng="eu">ilara</trd>
   <trdgrp lng="fr">
     <trd>rang</trd>,
     <trd>rang&eacute;e</trd>,
@@ -244,14 +253,45 @@
     <trd>succession</trd>,
     <trd>tour<klr tip="ind"> (rang)</klr></trd>
   </trdgrp>
+  <trd lng="fy">rigel</trd>
+  <trd lng="gl">li&#xF1;a</trd>
+  <trd lng="gu">&#xAAA;&#xA82;&#xA95;&#xACD;&#xAA4;&#xABF;</trd>
+  <trd lng="ha">jere</trd>
+  <trd lng="hi">&#x92A;&#x902;&#x915;&#x94D;&#x924;&#x93F;</trd>
+  <trd lng="hr">red</trd>
   <trdgrp lng="hu">
     <trd>sor</trd>,
     <trd>sorozat</trd>
   </trdgrp>
+  <trd lng="hy">&#x56F;&#x561;&#x580;&#x563;</trd>
+  <trd lng="is">r&#xF3;&#xF0;ur</trd>
+  <trd lng="ja">&#x884C;</trd>
+  <trd lng="jw">saurutan</trd>
+  <trd lng="ka">&#x10E0;&#x10D8;&#x10D2;&#x10D8;&#x10E1;</trd>
+  <trd lng="km">&#x1787;&#x17BD;&#x179A;&#x178A;&#x17C1;&#x1780;</trd>
+  <trd lng="ko">&#xD589;</trd>
+  <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xE95;&#xEB4;&#xE94;&#xE95;&#xECD;&#xEC8;&#xE81;&#xEB1;&#xE99;</trd>
+  <trd lng="ml">&#xD28;&#xD3F;&#xD30;</trd>
+  <trd lng="mr">&#x92A;&#x902;&#x915;&#x94D;&#x924;&#x940;</trd>
+  <trd lng="my">&#x1021;&#x1010;&#x1014;&#x103A;&#x1038;</trd>
+  <trd lng="ny">mzere</trd>
+  <trd lng="pa">&#xA15;&#xA24;&#xA3E;&#xA30;</trd>
+  <trd lng="ps">&#x642;&#x637;&#x627;&#x631;</trd>
+  <trd lng="sd">&#x642;&#x637;&#x627;&#x631;</trd>
+  <trd lng="si">&#xDB4;&#xDDA;&#xDC5;&#xDD2;</trd>
   <trdgrp lng="sk">
     <trd>poradie</trd>,
     <trd>rad</trd>
   </trdgrp>
+  <trd lng="sq">rresht</trd>
+  <trd lng="ta">&#xBB5;&#xBB0;&#xBBF;&#xB9A;&#xBC8;&#xBAF;&#xBBF;&#xBB2;&#xBCD;</trd>
+  <trd lng="te">&#xC35;&#xC30;&#xC41;&#xC38;&#xC17;&#xC3E;</trd>
+  <trd lng="th">&#xE41;&#xE16;&#xE27;</trd>
+  <trd lng="tl">hilera</trd>
+  <trd lng="ur">&#x642;&#x637;&#x627;&#x631;</trd>
+  <trd lng="vi">h&#xE0;ng</trd>
+  <trd lng="yi">&#x5E8;&#x5D5;&#x5D3;&#x5E2;&#x5E8;&#x5DF;</trd>
+  <trd lng="zu">irowu</trd>
 </drv>
 
 <drv mrk="vic.0">
@@ -491,7 +531,7 @@
       <trd>prendre la <ind>suite</ind> de</trd>,
       <trd>se mettre dans la <ind>file</ind></trd>
     </trdgrp>
-    <trd lng="fr"></trd>
+    <trd lng="fr"/>
     <trd lng="hu">hozz&aacute;sorol&oacute;dik</trd>
     <trd lng="nl">erbij komen</trd>
     <trd lng="ru">&c_v;&c_s;&c_t;&c_a;&c_t;&c_mol; &c_v; &c_s;&c_t;&c_r;&c_o;&c_j;, &c_v; &c_r;&c_ja;&c_d;</trd>
@@ -502,16 +542,14 @@
   <kap>anser<tld/>e</kap>
   <snc mrk="vic.anser0e.KOMUNE">
     <dif>
-      Irante unu malanta&ubreve; la alia, kiel kutime pa&scirc;as <ref tip="vid" 
-      cel="anser.0o.genro">anseroj</ref>:
+      Irante unu malanta&ubreve; la alia, kiel kutime pa&scirc;as <ref tip="vid" cel="anser.0o.genro">anseroj</ref>:
       <ekz>
         la vojeto pli kaj pli mallar&gcirc;i&gcirc;as proksime al la pinto, tiel
         ke 
         sur la fina parto oni devas grimpi anser<tld/>e
         <fnt>
           <aut>-</aut>,
-          <vrk><url
-          ref="http://www.china.org.cn/world/shi-lvyou/vidindaj_lokoj/25.htm">
+          <vrk><url ref="http://www.china.org.cn/world/shi-lvyou/vidindaj_lokoj/25.htm">
           La Monto Huangshan</url></vrk>,
           <lok>2003</lok>
         </fnt>;
@@ -944,8 +982,7 @@
       <frm am="u"><k>u</k></frm>)</klr>
       Tia <tld/>o <frm am="v"><k>v</k></frm>, ke &gcirc;ia
       <ref cel="ar.fonto0o">fonto-aro</ref> estas subaro de la fonto-aro
-      de <frm am="u"><k>u</k></frm>, kaj ke &ccirc;iu termo de <frm
-      am="v"><k>v</k></frm>
+      de <frm am="u"><k>u</k></frm>, kaj ke &ccirc;iu termo de <frm am="v"><k>v</k></frm>
       estas termo anka&ubreve; de <frm am="u"><k>u</k></frm> por la sama
       indico:
       <ekz>
@@ -967,12 +1004,11 @@
     <trd>ci&aogonek;g cz&eogonek;&sacute;ciowy</trd>
   </trdgrp>
   <trd lng="pt">sub-seq&uuml;&ecirc;ncia</trd>
-  <trd
-  lng="ru">&c_p;&c_o;&c_d;&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">podradenie</trd>
 </drv>
 
-<drv mrk="vic.0o.de_funkcioj">
+<drv mrk="vic.0o_de_funkcioj">
   <kap><tld/>o de funkcioj<fnt><bib>MatStokTerm</bib><lok>p.
   28</lok></fnt>, <var><kap>funkci<tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
@@ -984,7 +1020,7 @@
     <refgrp tip="vid">
       <ref cel="konver.simple0a">simple konver&gcirc;a</ref>,
       <ref cel="konver.unuforme0a">unuforme konver&gcirc;a</ref>,
-      <ref cel="konver.0a.en_mezuro">konver&gcirc;a en mezuro</ref>.
+      <ref cel="konver.0a_en_mezuro">konver&gcirc;a en mezuro</ref>.
     </refgrp>
     <rim>
       En <fnt><bib>MatVort</bib></fnt> troveblas <ctl>funkciala
@@ -1019,8 +1055,17 @@
 </drv>
 </art>
 <!--
-$Log: vic.xml,v $
-Revision 1.61  2020/02/15 17:10:20  revo
+$Log$
+versio 1.64 2021/05/11 14:52:26
+Wolfram Diestel: +kor. ref-cel
+
+versio 1.63 2021/05/10 19:06:43
+Wolfram Diestel: kor. drv@mrk
+
+versio 1.62 2021/05/10 05:53:30
+Wolfram Diestel: kor. ref-cel
+
+versio 1.61 2020/02/15 18:10:21
 Wolfram Diestel: formuloj per am
 
 Revision 1.60  2019/03/30 08:10:15  revo
@@ -1033,14 +1078,5 @@ Revision 1.58  2016/07/25 15:10:23  revo
 Guillermo Molleda Jimena: trd es ~o
 
 Revision 1.57  2016/03/18 19:10:41  revo
-Jeromo Vasxe: prepoziciaJxo -> jx
-
-Revision 1.56  2015/10/01 22:10:19  revo
-Jeromo Vasxe: + par~igxi
-
-Revision 1.55  2015/09/25 22:10:20  revo
-Jeromo Vasxe: + ~e de
-
-Revision 1.54  2015/07/04 08:37:45  revo
 -->
 </vortaro>

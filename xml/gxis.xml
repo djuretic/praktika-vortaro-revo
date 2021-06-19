@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gxis.xml,v 1.32 2020/01/20 10:10:31 revo Exp $">
+<art mrk="$Id: gxis.xml,v 1.78 2021/06/18 20:41:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&gcirc;is</rad> <fnt><bib>PV</bib></fnt>
@@ -139,7 +138,9 @@
       <snc mrk="gxis.0.konj">
         <dif>
           <tld lit="&Gcirc;"/> la momento, en kiu...,
-          <ref tip="sin" cel="kiam.gxis_0_KOMUNE"><tld/> kiam</ref>...:
+          <ref tip="sin" cel="kiam.gxis_0.KOMUNE"><tld/>
+          kiam<sncref/></ref>...,
+          <ref cel="gxis.0ke.KOMUNE"><tld/> ke</ref>...:
         </dif>
         <ekz>
           longe &ccirc;erpas la kru&ccirc;o, <tld/> &gcirc;i fine
@@ -212,12 +213,55 @@ kiam" en art. kiam
         </rim>
 -->
     </subdrv>
+  <trd lng="af">totdat</trd>
+  <trd lng="am">&#x12A5;&#x1235;&#x12A8;</trd>
+  <trd lng="ar">&#x62D;&#x62A;&#x649;</trd>
+  <trd lng="az">q&#x259;d&#x259;r</trd>
+  <trd lng="bn">&#x9AA;&#x9B0;&#x9CD;&#x9AF;&#x9A8;&#x9CD;&#x9A4;</trd>
+  <trd lng="bo">&#xF56;&#xF62;&#xF0B;&#xF51;&#xF74;&#xF0B;</trd>
+  <trd lng="bs">do</trd>
+  <trd lng="da">indtil</trd>
+  <trd lng="et">kuni</trd>
+  <trd lng="eu">arte</trd>
+  <trd lng="fy">oant</trd>
+  <trd lng="gl">ata</trd>
+  <trd lng="gu">&#xAA4;&#xACD;&#xAAF;&#xABE;&#xA82; &#xAB8;&#xAC1;&#xAA7;&#xAC0;</trd>
+  <trd lng="ha">har sai</trd>
+  <trd lng="hi">&#x91C;&#x92C; &#x924;&#x915;</trd>
+  <trd lng="hr">do</trd>
+  <trd lng="hy">&#x574;&#x56B;&#x576;&#x579;&#x565;&#x582;</trd>
+  <trd lng="is">&#xFE;ar</trd>
   <trdgrp lng="it">
     <trd>a</trd>,
     <trd><ind>fino</ind> a</trd>, 
     <trd>finch&egrave;</trd>, 
   </trdgrp>
-  </drv>
+    <trd lng="ja">&#x307E;&#x3067;&#x3001;</trd>
+  <trd lng="jw">nganti</trd>
+  <trd lng="ka">&#x10E1;&#x10D0;&#x10DC;&#x10D0;&#x10DB;</trd>
+  <trd lng="km">&#x179A;&#x17A0;&#x17BC;&#x178F;&#x178A;&#x179B;&#x17CB;</trd>
+  <trd lng="ko">&#xAE4C;&#xC9C0;</trd>
+  <trd lng="lo">&#xE88;&#xEBB;&#xE99;&#xE81;&#xEC8;&#xEA7;&#xEB2;</trd>
+  <trd lng="ml">&#xD35;&#xD30;&#xD46;</trd>
+  <trd lng="mr">&#x92A;&#x930;&#x94D;&#x92F;&#x902;&#x924;</trd>
+  <trd lng="my">&#x101E;&#x100A;&#x103A;&#x1021;&#x1011;&#x102D;</trd>
+  <trd lng="ne">&#x938;&#x92E;&#x94D;&#x92E;</trd>
+  <trd lng="ny">kufikira</trd>
+  <trd lng="pa">&#xA1C;&#xA26; &#xA24;&#xA71;&#xA15;</trd>
+  <trd lng="ps">&#x62A;&#x631;</trd>
+  <trd lng="sd">&#x627;&#x64A;&#x62A;&#x631;&#x64A; &#x642;&#x62F;&#x631;</trd>
+  <trd lng="si">&#xDAF;&#xD9A;&#xDCA;&#xDC0;&#xDCF;</trd>
+  <trd lng="sq">deri</trd>
+  <trd lng="st">ho fihlela</trd>
+  <trd lng="ta">&#xBB5;&#xBB0;&#xBC8;</trd>
+  <trd lng="te">&#xC35;&#xC30;&#xC15;&#xC41;</trd>
+  <trd lng="th">&#xE08;&#xE19;&#xE01;&#xE23;&#xE30;&#xE17;&#xE31;&#xE48;&#xE07;</trd>
+  <trd lng="tl">hanggang sa</trd>
+  <trd lng="ur">&#x62C;&#x628; &#x62A;&#x6A9;</trd>
+  <trd lng="vi">cho &#x111;&#x1EBF;n khi</trd>
+  <trd lng="yi">&#x5D1;&#x5D9;&#x5D6;</trd>
+  <trd lng="zu">kuze</trd>
+</drv>
 </subart>
 
 <subart>
@@ -266,8 +310,7 @@ kiam" en art. kiam
     <gra><vspec>x</vspec></gra>
     <snc mrk="gxis.0i.gxisrevidi">
       <dif>
-        <ref tip="dif" cel="vid.gxisre0i.KOMUNE"><tld
-        lit="&Gcirc;"/>revidi</ref>,
+        <ref tip="dif" cel="vid.gxisre0i.KOMUNE"><tld lit="&Gcirc;"/>revidi</ref>,
         <ref tip="vid" cel="adiaux.0i.KOMUNE">adia&ubreve;i<sncref/></ref>
         dirante &leftquot;<tld/>&rightquot;:
         <ekz>
@@ -301,10 +344,51 @@ kiam" en art. kiam
       </trdgrp>
     </snc>
   </drv>
+
+  <drv mrk="gxis.0ke">
+  <kap><tld/> ke</kap>
+  <gra><vspec>konjunkcio</vspec></gra>
+  <snc mrk="gxis.0ke.KOMUNE">
+    <dif>
+      <ref tip="dif" cel="gxis.0.konj"><tld lit="&Gcirc;"/><sncref/></ref>,
+      <ref tip="sin" cel="kiam.gxis_0.KOMUNE"><tld/> kiam<sncref/></ref>:
+      <ekz>
+        mi batalos por vi <tld/> ke mi mortos
+        <fnt>
+          <aut>L. May Alcott, trad. E. Grobe</aut>
+          <vrk><url ref="https://eo.wikisource.org/wiki/Mia_Kontrabandulo">
+          Mia Kontrabandulo</url></vrk>
+          <lok>1998</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim mrk="gxis.0ke.RIM_GRAM">
+    Same kiel <ref tip="vid" cel="dum.0ke">dum ke</ref>
+    <em>&gcirc;is ke</em> estas rigardata de pluraj gramatikistoj
+    erara, &ccirc;ar tradicie <em>&gcirc;is</em> havas
+    amba&ubreve; funkciojn de dependiga konjunkcio kaj de prepozicio.
+    Sistema uzo de <em>&gcirc;is ke</em> en la dependiga funkcio
+    la&ubreve; la modelo <em>anstata&ubreve; ke</em>, <em>sen ke</em> ktp.
+    implicas ke oni agnoskas &gcirc;in nur prepozicio.
+    <aut>&jcirc;v</aut>
+  </rim>
+  <trd lng="fr">jusqu'au moment o&ugrave;</trd>
+  </drv>
+
 </subart>
 </art>
 <!--
-$Log: gxis.xml,v $
+$Log$
+versio 1.35 2020/07/29 10:10:31
+Damien Brucker: -eraro cxe cel en ref
+
+versio 1.34 2020/07/27 22:32:17
+Jeromo Vasxe: + ~ ke
+
+versio 1.33 2020/04/17 08:10:17
+Damien Brucker: -eraro cxe cel en ref
+
 Revision 1.32  2020/01/20 10:10:31  revo
 Damien Brucker: -eraro cxe cel en ref
 
@@ -318,14 +402,5 @@ Revision 1.29  2013/06/29 20:10:22  revo
 Benito Subejrano: + trd ca oc
 
 Revision 1.28  2010/04/24 17:06:49  revo
-Sebastian Cyprych: +trd pl +ekz
-
-Revision 1.27  2009/11/30 17:30:42  revo
-Jeromo Vasxe: + ~i
-
-Revision 1.26  2009/03/28 17:30:35  revo
-Antonio Codazzi: +trd it
-
-Revision 1.25  2006/02/27 17:35:46  revo
 -->
 </vortaro>

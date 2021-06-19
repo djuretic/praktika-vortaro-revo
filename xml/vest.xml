@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: vest.xml,v 1.40 2019/08/10 12:10:13 revo Exp $">
+<art mrk="$Id: vest.xml,v 1.82 2021/06/18 18:20:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vest</rad>/i
@@ -14,7 +13,8 @@
   <snc mrk="vest.0i.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      <ref tip="super" cel="kovr.0i.surmeti">Kovri</ref> per &scirc;tofoj a&ubreve; peltoj pli malpli al&gcirc;ustigitaj al la korpo 
+      <ref tip="super" cel="kovr.0i.surmeti">Kovri</ref> per &scirc;tofoj a&ubreve; peltoj pli malpli
+      al&gcirc;ustigitaj al la korpo 
       por &scirc;irmi kontra&ubreve; malvarmo, suno a&ubreve; ka&scirc;i nudecon:
       <ekz>
         simple, sed pure <tld/>ita;
@@ -24,7 +24,7 @@
         <fnt><bib>Fab1</bib>, <lok>la virineto de maro</lok></fnt>;
       </ekz>
       <ekz>
-        mi estis <klr>[&#8230;]</klr> nuda, kaj vi <tld/>is min
+        mi estis <klr>[&#x2026;]</klr> nuda, kaj vi <tld/>is min
         <fnt><bib>NT</bib>, <lok>&Mat; 25:35-36</lok></fnt>.
       </ekz>
       <ekz>
@@ -122,6 +122,12 @@
       <trd>&c_o;&c_b;&c_l;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <trd lng="af">beklee</trd>
+  <trd lng="am">&#x120D;&#x1265;&#x1235; &#x1218;&#x120D;&#x1260;&#x1235;</trd>
+  <trd lng="ar">&#x643;&#x633;&#x627;</trd>
+  <trd lng="az">geyindirin</trd>
+  <trd lng="bn">&#x986;&#x9AC;&#x9C3;&#x9A4; &#x995;&#x9B0;&#x9BE;</trd>
+  <trd lng="bs">odijevanje</trd>
   <trdgrp lng="cs">
     <trd>obl&eacute;ci</trd>,
     <trd>obl&eacute;kat</trd>,
@@ -130,29 +136,62 @@
     <trd>strojit</trd>,
     <trd>ustrojit</trd>
   </trdgrp>
+  <trd lng="da">ikl&#xE6;de</trd>
   <trd lng="de">kleiden</trd>
   <trd lng="el">&ny;&tau;&ypsilon_ton;&ny;&omega;</trd>
   <trd lng="en">clothe</trd>
   <trd lng="es">vestir</trd>
+  <trd lng="et">riietama</trd>
   <trdgrp lng="fr">
     <trd>habiller</trd>,
     <trd>v&ecirc;tir</trd>
   </trdgrp>
+  <trd lng="fy">bekleden</trd>
+  <trd lng="gl">levar</trd>
+  <trd lng="gu">&#xAB5;&#xAB8;&#xACD;&#xAA4;&#xACD;&#xAB0;&#xAA8;&#xAC0;</trd>
+  <trd lng="ha">sa</trd>
+  <trd lng="hi">&#x915;&#x92A;&#x921;&#x93C;&#x947;</trd>
+  <trd lng="hr">odijevate</trd>
   <trdgrp lng="hu">
     <trd>(fel)<ind>&ouml;lt&ouml;ztet</ind></trd>,
     <trd>felad <klr tip="ind">(ruh&aacute;t)</klr></trd>,
     <trd>felvesz <klr tip="ind">(ruh&aacute;t)</klr></trd>
   </trdgrp>
+  <trd lng="hy">&#x570;&#x561;&#x563;&#x581;&#x576;&#x565;&#x56C;</trd>
+  <trd lng="is">kl&#xE6;&#xF0;a</trd>
+  <trd lng="ja">&#x8863;&#x670D;&#x3092;&#x7740;&#x305B;&#x308B;</trd>
+  <trd lng="jw">nglambeni</trd>
+  <trd lng="ka">&#x10E8;&#x10D4;&#x10D9;&#x10D4;&#x10E0;&#x10D8;&#x10DA;</trd>
+  <trd lng="km">&#x1791;&#x17C6;&#x1793;&#x17BB;&#x1780;&#x1794;&#x17C6;&#x179A;&#x17BB;&#x1784;</trd>
+  <trd lng="ko">&#xC758;&#xBCF5;&#xC744; &#xAC78;&#xCE58;&#xB2E4;</trd>
+  <trd lng="lo">&#xEC0;&#xE84;&#xEB7;&#xEC8;&#xEAD;&#xE87;&#xE99;&#xEB8;&#xEC8;&#xE87;&#xEAB;&#xEBB;&#xEC8;&#xEA1;</trd>
+  <trd lng="ml">&#xD27;&#xD30;&#xD3F;&#xD2A;&#xD4D;&#xD2A;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD02;</trd>
+  <trd lng="mr">&#x915;&#x92A;&#x921;&#x947; &#x91A;&#x922;&#x935;&#x923;&#x947;</trd>
+  <trd lng="my">&#x1021;&#x101D;&#x1010;&#x103A;&#x1014;&#x103E;&#x1004;&#x1037;&#x103A;&#x1016;&#x102F;&#x1036;&#x1038;&#x101C;&#x103D;&#x103E;&#x1019;&#x103A;&#x1038;</trd>
   <trd lng="nl">aankleden</trd>
+  <trd lng="ny">kuveka</trd>
+  <trd lng="pa">&#xA38;&#xA1C;&#xA3E;&#xA35;&#xA47;&#xA17;&#xA3E;</trd>
+  <trd lng="ps">&#x62C;&#x627;&#x645;&#x647;</trd>
   <trd lng="pt">vestir</trd>
+  <trd lng="sd">&#x645;&#x644;&#x627;&#x626;&#x64A;&#x646;&#x62F;&#x627;</trd>
+  <trd lng="si">&#xD87;&#xDAF;&#xDD4;&#xDB8;&#xDCA;</trd>
   <trdgrp lng="sk">
     <trd>obliec&tcaron;</trd>,
     <trd>&scaron;ati&tcaron;</trd>
   </trdgrp>
+  <trd lng="sq">vesh</trd>
+  <trd lng="ta">&#xB89;&#xB9F;&#xBC8;</trd>
+  <trd lng="te">&#xC26;&#xC41;&#xC38;&#xC4D;&#xC24;&#xC41;&#xC32;&#xC41; &#xC27;&#xC30;&#xC3F;&#xC02;&#xC2A;&#xC1C;&#xC47;&#xC2F;&#xC41;</trd>
+  <trd lng="th">&#xE15;&#xE01;&#xE41;&#xE15;&#xE48;&#xE07;</trd>
+  <trd lng="tl">damitan</trd>
   <trdgrp lng="tr">
     <trd>giymek</trd>,
     <trd>giyinmek</trd>
   </trdgrp>
+  <trd lng="ur">&#x6A9;&#x67E;&#x691;&#x6D2;</trd>
+  <trd lng="vi">m&#x1EB7;c</trd>
+  <trd lng="yi">&#x5D0;&#x5B8;&#x5E0;&#x5D8;&#x5D0;&#x5B8;&#x5DF;</trd>
+  <trd lng="zu">wembathise</trd>
 </drv>
 
 <drv mrk="vest.0o">
@@ -285,6 +324,7 @@
     <trd>&c_o;&c_b;&c_l;&c_je;&c_k;&c_l;&c_o;</trd>,
     <trd>&c_d;&c_r;&c_je;&c_h;&c_i;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF51;&#xF74;&#xF42;&#xF0B;&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>&scaron;aty</trd>,
     <trd>oblek</trd>,
@@ -304,6 +344,7 @@
     <trd>&ouml;lt&ouml;zet</trd>,
     <trd>&ouml;lt&ouml;z&eacute;k</trd>
   </trdgrp>
+  <trd lng="ne">&#x932;&#x941;&#x917;&#x93E; &#x932;&#x917;&#x93E;&#x909;&#x928;&#x941;</trd>
   <trdgrp lng="nl">
     <trd>kleding</trd>,
     <trd>kleren</trd>,
@@ -339,7 +380,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        sinjoro en <klr>[&#8230;]</klr> <tld/>a&jcirc;o de rajdo
+        sinjoro en <klr>[&#x2026;]</klr> <tld/>a&jcirc;o de rajdo
         <fnt>
           <bib>BdV</bib>
         </fnt>;
@@ -352,7 +393,8 @@
           <lok>la bovinoj de la paro&hcirc;estro</lok></fnt>.
       </ekz>
     </dif>
-  </snc>
+    <lstref lst="voko:vestajxoj"><tld/>a&jcirc;oj</lstref>
+  </snc>  
   <trd lng="bg">&c_d;&c_r;&c_je;&c_h;&c_a;</trd>
   <trdgrp lng="de">
     <trd>Kleidungsst&uuml;ck</trd>
@@ -484,8 +526,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="https://www.monato.net/2010/010189.php"
-              >Du mil dek</url></vrk>
+          <vrk><url ref="https://www.monato.net/2010/010189.php">Du mil dek</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -493,8 +534,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.net/2008/009474.php"
-              >&Scirc;oforo-angoro</url></vrk>
+          <vrk><url ref="https://www.monato.net/2008/009474.php">&Scirc;oforo-angoro</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -547,8 +587,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>S. Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html"
-              >La&ubreve; ritmo de la rizejoj</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html">La&ubreve; ritmo de la rizejoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -584,8 +623,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Julia Sigmond kaj Sen Rodin</aut>
-          <vrk><url ref="https://www.monato.net/2010/009988.php"
-              >La mal&jcirc;aluzo de Klorinda</url></vrk>
+          <vrk><url ref="https://www.monato.net/2010/009988.php">La mal&jcirc;aluzo de Klorinda</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -644,12 +682,11 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj</aut>
-          <vrk><url ref="https://www.monato.net/2010/010023.php"
-              >Varmbotelo</url></vrk>
+          <vrk><url ref="https://www.monato.net/2010/010023.php">Varmbotelo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        &scirc;i <klr>[&#8230;]</klr> subite staris apud li en sia maldikega 
+        &scirc;i <klr>[&#x2026;]</klr> subite staris apud li en sia maldikega 
         nokto<tld/>o
         <fnt>
           <aut>J. H. Rosbach</aut>,
@@ -752,7 +789,7 @@
     <dif>
       Seni&gcirc;i je <tld/>oj:
       <ekz>
-        la dormeman servistinon <klr>[&#8230;]</klr> &scirc;i rapide
+        la dormeman servistinon <klr>[&#x2026;]</klr> &scirc;i rapide
         forpermesis, dirinte ke &scirc;i mem sen<tld/>i&gcirc;os
         <fnt>
           <aut>A. Pu&scirc;kin, trad. A. Kor&jcirc;enkov</aut>,
@@ -762,7 +799,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &scirc;i sen<tld/>i&gcirc;is kaj <klr>[&#8230;]</klr> tuj malaperis
+        &scirc;i sen<tld/>i&gcirc;is kaj <klr>[&#x2026;]</klr> tuj malaperis
         <fnt>
           <bib>FK</bib>
         </fnt>.
@@ -797,8 +834,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Albisturo Kvinke</aut>
-          <vrk><url ref="https://www.monato.net/2006/008827.php"
-              >Pri kutimoj kaj kalsonoj</url></vrk>
+          <vrk><url ref="https://www.monato.net/2006/008827.php">Pri kutimoj kaj kalsonoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -918,9 +954,9 @@
 </drv>
 </art>
 <!--
-$Log: vest.xml,v $
-Revision 1.40  2019/08/10 12:10:13  revo
-Wolfram Diestel: ekz-oj kun fnt-oj, +maten~o
+$Log$
+versio 1.41 2021/04/15 13:54:08
+Wolfram Diestel: +lstref vestajxoj
 
 Revision 1.39  2017/12/20 15:10:24  revo
 Michel Cantigneaux: "vest/o" fundamenta kunmetajxo el la U.V. + mencio "ekz" por supervesto

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: plan.xml,v 1.26 2018/07/25 18:10:13 revo Exp $">
+<art mrk="$Id: plan.xml,v 1.66 2021/06/19 06:38:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>plan</rad>/o <fnt><bib>PV</bib></fnt>
@@ -83,7 +82,13 @@
     <trd lng="es">plano</trd> 
     <trd lng="hu">pl&aacute;n</trd>
   </snc>
+  <trd lng="af">plan</trd>
+  <trd lng="am">&#x12D5;&#x1245;&#x12F5;</trd>
+  <trd lng="ar">&#x62E;&#x637;&#x629;</trd>
   <trd lng="be">&c_p;&c_l;&c_ja;&c_n;</trd>
+  <trd lng="bn">&#x9AA;&#x9B0;&#x9BF;&#x995;&#x9B2;&#x9CD;&#x9AA;&#x9A8;&#x9BE;</trd>
+  <trd lng="bo">&#xF46;&#xF62;&#xF0B;&#xF42;&#xF5E;&#xF72;&#xF0B;</trd>
+  <trd lng="co">pianu</trd>
   <trdgrp lng="cs">
     <trd>n&aacute;kres</trd>,
     <trd>n&aacute;vrh</trd>,
@@ -92,11 +97,38 @@
     <trd>rozvrh</trd>,
     <trd>z&aacute;m&ecaron;r</trd>
   </trdgrp>
+  <trd lng="da">plan</trd>
   <trd lng="en">plan</trd>
+  <trd lng="et">kava</trd>
   <trd lng="fr">plan</trd>
+  <trd lng="gu">&#xAAF;&#xACB;&#xA9C;&#xAA8;&#xABE;</trd>
+  <trd lng="ha">shirin</trd>
+  <trd lng="hi">&#x92F;&#x94B;&#x91C;&#x928;&#x93E;</trd>
+  <trd lng="hr">plan</trd>
+  <trd lng="hy">&#x57A;&#x56C;&#x561;&#x576;</trd>
+  <trdgrp lng="id">
+    <trd>rencana</trd>,
+    <trd>plan</trd>
+  </trdgrp>
+  <trd lng="is">&#xE1;&#xE6;tlun</trd>
+  <trd lng="ja">&#x8A08;&#x753B;</trd>
+  <trd lng="jw">rencana</trd>
+  <trd lng="ka">&#x10D2;&#x10D4;&#x10D2;&#x10DB;&#x10D0;</trd>
+  <trd lng="km">&#x1795;&#x17C2;&#x1793;&#x1780;&#x17B6;&#x179A;</trd>
+  <trd lng="ko">&#xACC4;&#xD68D;</trd>
+  <trd lng="lo">&#xEC1;&#xE9C;&#xE99;&#xE81;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD2A;&#xD26;&#xD4D;&#xD27;&#xD24;&#xD3F;</trd>
+  <trd lng="mr">&#x92F;&#x94B;&#x91C;&#x928;&#x93E;</trd>
+  <trd lng="my">&#x1005;&#x102E;&#x1019;&#x1036;&#x1000;&#x102D;&#x1014;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x92F;&#x94B;&#x91C;&#x928;&#x93E;</trd>
   <trd lng="nl">plan</trd>
+  <trd lng="ny">ndondomeko</trd>
+  <trd lng="pa">&#xA2F;&#xA4B;&#xA1C;&#xA28;&#xA3E; &#xA28;&#xA42;&#xA70;</trd>
+  <trd lng="ps">&#x67E;&#x644;&#x627;&#x646;</trd>
   <trd lng="pt">plano</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_n;</trd>
+  <trd lng="sd">&#x631;&#x67F;</trd>
+  <trd lng="si">&#xDC3;&#xDD0;&#xDBD;&#xDD0;&#xDC3;&#xDCA;&#xDB8;</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;kres</trd>,
     <trd>n&aacute;vrh</trd>,
@@ -104,6 +136,16 @@
     <trd>rozvrh</trd>,
     <trd>z&aacute;mer</trd>
   </trdgrp>
+  <trd lng="sq">plani</trd>
+  <trd lng="st">moralo</trd>
+  <trd lng="ta">&#xBA4;&#xBBF;&#xB9F;&#xBCD;&#xB9F;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC2A;&#xC4D;&#xC30;&#xC23;&#xC3E;&#xC33;&#xC3F;&#xC15;</trd>
+  <trd lng="th">&#xE41;&#xE1C;&#xE19;</trd>
+  <trd lng="tl">plano</trd>
+  <trd lng="ur">&#x645;&#x646;&#x635;&#x648;&#x628;&#x6C1; &#x628;&#x646;&#x62F;&#x6CC;</trd>
+  <trd lng="vi">k&#x1EBF; ho&#x1EA1;ch</trd>
+  <trd lng="yi">&#x5E4;&#x5BC;&#x5DC;&#x5D0;&#x5B7;&#x5DF;</trd>
+  <trd lng="zu">hlela</trd>
 </drv>
 
 <drv mrk="plan.0i">
@@ -140,6 +182,10 @@
     <trd>avoir l'<ind>intention</ind> de</trd>
   </trdgrp>
   <trd lng="hu">tervez</trd>
+  <trdgrp lng="id">
+    <trd>be<ind>rencana</ind></trd>,
+    <trd>me<ind>rencana</ind>kan</trd>
+  </trdgrp>
   <trd lng="nl">ontwerpen</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
@@ -172,9 +218,7 @@
           la vojo<tld/>ilo revenos al vi kun listo da nomoj,
           el kiuj vi povas fari specifan elekton
           <fnt>
-          <lok><url
-          ref="http://www.xs4all.nl/~pilger/retoklubo/routenle.html"
-          >Shell-vojoplanilo</url></lok>
+          <lok><url ref="http://www.xs4all.nl/~pilger/retoklubo/routenle.html">Shell-vojoplanilo</url></lok>
           </fnt>
         </ekz>
       </dif>
@@ -204,6 +248,7 @@
     <trd>d&eacute;cousu</trd>,
     <trd>sans queue ni t&ecirc;te</trd>
   </trdgrp>
+  <trd lng="id">impromptu</trd>
   <trd lng="sk">nepl&aacute;novan&yacute;</trd>
 </drv>
 
@@ -220,8 +265,7 @@
         &ccirc;iujare flegi &gcirc;in
         <fnt>
           <aut>J. Pleadin</aut>,
-          <vrk><url
-          ref="http://www.liberafolio.org/2010/josip-pleadin-unua-el-postrestintoj">
+          <vrk><url ref="http://www.liberafolio.org/2010/josip-pleadin-unua-el-postrestintoj">
           Josip Pleadin unua el postrestintoj</url></vrk>,
           <lok>libera folio, 2010-04-14</lok>
         </fnt>.
@@ -236,13 +280,14 @@
     <trd>feuille de route</trd>,
     <trd>plan strat&eacute;gique</trd>
   </trdgrp>
+  <trd lng="id"><ind>rencana</ind> kerja</trd>
   <trd lng="sk">pracovn&yacute; pl&aacute;n</trd>
 </drv>
 </art>
 <!--
-$Log: plan.xml,v $
-Revision 1.26  2018/07/25 18:10:13  revo
-Alain Gerard: +trd fr
+$Log$
+versio 1.27 2020/05/08 10:10:17
+Eko Nur Syah Hidayat: +trd id
 
 Revision 1.25  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer

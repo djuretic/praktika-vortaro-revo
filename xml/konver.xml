@@ -2,10 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konver.xml,v 1.46 2020/02/15 15:10:16 revo Exp $">
+<art mrk="$Id: konver.xml,v 1.49 2021/05/11 14:52:31 revo Exp $">
 <kap>
   <rad>konver&gcirc;</rad>/i <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="konver.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
@@ -365,12 +366,12 @@
   <ind>&c_s;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;</ind></trd>
 </drv>
 
-<drv mrk="konver.0a.en_distribuo">
+<drv mrk="konver.0a_en_distribuo">
   <kap><tld/>a en distribuo</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico</ref>
+      <klr>(p.p. <ref cel="vic.0o_de_funkcioj">vico</ref>
       de <ref cel="variab.hazarda0o">hazardaj variabloj</ref>,
       al limeso <frm am="X">X</frm>)</klr>
       Tia, ke la vico de iliaj
@@ -396,13 +397,13 @@
   (&c_p;&c_o;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_y;&c_h; &c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_h;)</klr></trd>
 </drv>
 
-<drv mrk="konver.0a.en_mezuro">
+<drv mrk="konver.0a_en_mezuro">
   <kap><tld/>a en mezuro</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatStokTerm</bib><lok>p. 28, sub verba formo</lok></fnt>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
+      <klr>(p.p. <ref cel="vic.0o_de_funkcioj">vico de funkcioj</ref>
       <frm am="(f_n)">(<k>f</k><sub><k>n</k></sub>)</frm> de
       <ref cel="spac.mezurhava0o">mezurhava spaco</ref>
       al <ref cel="spac.metrika0o">metrika spaco</ref>,
@@ -432,16 +433,16 @@
   &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_j;)</klr></trd>
 </drv>
 
-<drv mrk="konver.0a.en_probablo">
+<drv mrk="konver.0a_en_probablo">
   <kap><tld/>a en probablo</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>EKV</bib><lok>&para;230</lok></fnt>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico</ref>
+      <klr>(p.p. <ref cel="vic.0o_de_funkcioj">vico</ref>
       de <ref cel="variab.hazarda0o">hazardaj variabloj</ref>,
       al limeso <frm am="X">X</frm>) </klr>
-      <ref tip="sin" cel="konver.0a.en_mezuro"><tld lit="K"/>a en
+      <ref tip="sin" cel="konver.0a_en_mezuro"><tld lit="K"/>a en
       mezuro</ref> al <frm am="X">X</frm> rilate al la
       <ref cel="probab.0o.mezuro">probablo</ref>.
     </dif>
@@ -517,7 +518,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico</ref>
+      <klr>(p.p. <ref cel="vic.0o_de_funkcioj">vico</ref>
       de <ref cel="variab.hazarda0o">hazardaj variabloj</ref>
       <frm am="(X_n)">(X<sub><k>n</k></sub>)</frm>, al limeso
       <frm am="X">X</frm>)</klr>
@@ -573,7 +574,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
+      <klr>(p.p. <ref cel="vic.0o_de_funkcioj">vico de funkcioj</ref>
       <frm am="(f_n)">(<k>f</k><sub><k>n</k></sub>)</frm>)</klr>
       Tia, ke por ajna <frm am="x"><k>x</k></frm> la vico
       <frm am="(f_n(x))">(<k>f</k><sub><k>n</k></sub>(<k>x</k>))</frm>
@@ -583,7 +584,7 @@
         simple <tld/>i <klr>(esti simple <tld/>a)</klr>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="topolo.0o.de_simpla_konvergxo">topologio de
+    <ref tip="vid" cel="topolo.0o_de_simpla_konvergxo">topologio de
     simpla <tld/>o.</ref>
   </snc>
   <trdgrp lng="de">
@@ -623,7 +624,7 @@
   <fnt><bib>MatTerm</bib><lok>p. 19, p.p. serio</lok></fnt>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="vic.0o.de_funkcioj">vico de funkcioj</ref>
+      <klr>(p.p. <ref cel="vic.0o_de_funkcioj">vico de funkcioj</ref>
       <frm am="(f_n)">(<k>f</k><sub><k>n</k></sub>)</frm> al
       <ref cel="spac.metrika0o">metrika spaco</ref>)</klr>
       Tia, ke por iu funkcio <frm am="f"><k>f</k></frm> <klr> (&gcirc;ia
@@ -641,7 +642,7 @@
         vico de partaj sumoj unuforme <tld/>as)</klr>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="topolo.0o.de_unuforma_konvergxo">topologio de
+    <ref tip="vid" cel="topolo.0o_de_unuforma_konvergxo">topologio de
     unuforma <tld/>o.</ref>
     <rim>
       En <fnt><bib>EKV</bib><lok>&para;231</lok></fnt> troveblas
@@ -663,8 +664,17 @@
 </drv>
 </art>
 <!--
-$Log: konver.xml,v $
-Revision 1.46  2020/02/15 15:10:16  revo
+$Log$
+versio 1.49 2021/05/11 14:52:31
+Wolfram Diestel: +kor. ref-cel
+
+versio 1.48 2021/05/10 05:53:23
+Wolfram Diestel: kor. ref-cel
+
+versio 1.47 2021/05/09 17:25:32
+Wolfram Diestel: kor. derv@mrk
+
+versio 1.46 2020/02/15 16:10:17
 Wolfram Diestel: formuloj per am
 
 Revision 1.45  2018/11/20 10:10:14  revo
@@ -677,14 +687,5 @@ Revision 1.43  2018/02/13 17:10:14  revo
 Jeromo Vasxe: + ~o
 
 Revision 1.42  2013/04/08 12:10:29  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.41  2012/10/23 00:12:26  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.40  2009/07/01 17:21:17  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.39  2006/11/18 17:30:28  revo
 -->
 </vortaro>

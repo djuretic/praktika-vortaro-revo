@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gxener.xml,v 1.27 2018/08/05 08:10:14 revo Exp $">
+<art mrk="$Id: gxener.xml,v 1.69 2021/06/18 20:41:41 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>&gcirc;eneral</rad>/a <fnt><bib>PV</bib></fnt>
@@ -13,24 +12,76 @@
   <snc mrk="gxener.0a.KOMUNE">
     <dif>
       Rilatanta senescepte al tuto a&ubreve; al la plej granda parto el 
-      personoj a&ubreve; objektoj; neaparta, neindividua,
+      personoj a&ubreve; objektoj; ne<ref tip="ant" cel="apart.0a.speciala">aparta<sncref/></ref>, 
+      ne<ref tip="ant" cel="indivi.0a">individua</ref>,
       mal<ref tip="ant" cel="specia.0a">speciala</ref>:
       <ekz>
-        <tld/>a kunveno, regulo, opinio;
+        <tld/>a kunveno
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 12:23</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>aj ideoj;
+        precizaj kalkuloj estas en la ar&hcirc;ivoj, mi memoras nur la <tld/>ajn nombrojn
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a malarmado;
+        oni apla&ubreve;du, kraku kaj bruu, por elesprimi la <tld/>an &gcirc;ojon
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;parmonujo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mi sendas al vi mian <tld/>an prezaron;
+        eksonis <tld/>a alvoko kontra&ubreve; la malamikojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Juda knabino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a pardono.
+        sur tiu kampo staris alligita la kokino <klr>[&#x2026;]</klr>, por ke &gcirc;i ne forkuru en
+        la <tld/>a konfuzo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Kion la patro faras, estas &ccirc;iam &gcirc;usta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a milita komisario
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kora sufero</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tre interesas min la <tld/>a opinio pri li
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni volas nur &gcirc;ustigi kelkajn punktojn <tld/>ajn
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Nefermita letero al s-ro de Beaufront.</vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="univer1.0a">universala</ref>
+    <refgrp tip="ant">
+       <ref cel="konkre.0a">konkreta</ref>,
+       <ref cel="preciz.0a">preciza</ref>,
+       <ref cel="specif.0a.aparta">specifa<sncref/></ref>
+    </refgrp>
+    <refgrp tip="vid">
+       <ref tip="vid" cel="publik.0a.nefermita">publika<sncref/></ref>,
+       <ref cel="mond.tut0a">tutmonda</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_je;&c_n;&c_e;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
@@ -42,10 +93,7 @@
     <trd>&c_g;&c_l;&c_a;&c_v;&c_je;&c_n;</trd>
   </trdgrp>
   <trd lng="cs">v&scaron;eobecn&yacute;</trd>
-  <trdgrp lng="de">
-    <trd>allgemein</trd>,
-    <trd>generell</trd>
-  </trdgrp>
+  
   <trd lng="el">&gamma;&epsilon;&ny;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trd lng="en">general</trd>
   <trdgrp lng="es">
@@ -89,14 +137,58 @@
   <kap><tld/>e</kap>
   <snc mrk="gxener.0e.KOMUNE">
     <dif>
-      En maniero <tld/>a, ne speciala.
+      En maniero <tld/>a, ne speciala:
+      <ekz>
+        tiuj servistinoj <klr>[&#x2026;]</klr> <tld/>e havas multe da laboro
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estis <tld/>e bona homo, sed li havis la strangan malfortecon, ke li ne povis
+        toleri la aspekton de sakristiano
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rakontoj de fratoj <nom>Grimm</nom>, kiel <tld/>e &ccirc;iuj fabeloj, plej multe pla&ccirc;as al
+        infanaj legantoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>e ne amas tiajn parolojn, sed precipe nun, en la nuna jaro, tia
+        senkolora oficiala parolo estus granda peko
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="af">algemene</trd>
+  <trd lng="am">&#x12A0;&#x1320;&#x1243;&#x120B;&#x12ED;</trd>
+  <trd lng="ar">&#x639;&#x627;&#x645;</trd>
+  <trd lng="az">&#xFC;mumi</trd>
   <trdgrp lng="bg">
     <trd>&c_o;&c_b;&c_shch;&c_o;</trd>,
     <trd>&c_i;&c_z;&c_o;&c_b;&c_shch;&c_o;</trd>,
     <trd>&c_v;&c_malmol;&c_o;&c_b;&c_shch;&c_je;</trd>
   </trdgrp>
+  <trd lng="bn">&#x9B8;&#x9BE;&#x9A7;&#x9BE;&#x9B0;&#x9A3;</trd>
+  <trd lng="bo">&#xF58;&#xF44;&#xF0B;&#xF46;&#xF7A;&#xF0B;</trd>
+  <trd lng="da">generelt</trd>
+  <trdgrp lng="de">
+    <trd>allgemein</trd>,
+    <trd>generell</trd>
+  </trdgrp>
+  <trd lng="et">&#xFC;ldiselt</trd>
+  <trd lng="eu">oro</trd>
   <trdgrp lng="fr">
     <trd>g&eacute;n&eacute;ralement</trd>,
     <trd>commun&eacute;ment</trd>,
@@ -109,10 +201,29 @@
     <trd>gen&eacute;ricamente</trd>,
     <trd>en general</trd>
   </trdgrp>
+  <trd lng="fy">algemien</trd>
+  <trd lng="gl">xeral</trd>
+  <trd lng="gu">&#xAB8;&#xABE;&#xAAE;&#xABE;&#xAA8;&#xACD;&#xAAF;</trd>
+  <trd lng="hi">&#x938;&#x93E;&#x92E;&#x93E;&#x928;&#x94D;&#x92F;</trd>
+  <trd lng="hr">op&#x107;i</trd>
+  <trd lng="hy">&#x563;&#x56C;&#x56D;&#x561;&#x57E;&#x578;&#x580;</trd>
+  <trd lng="is">almennt</trd>
   <trdgrp lng="it">
     <trd>generalmente</trd>,
     <trd>in generale</trd>
   </trdgrp>
+  <trd lng="ja">&#x4E00;&#x822C;</trd>
+  <trd lng="jw">umum</trd>
+  <trd lng="ka">&#x10D6;&#x10DD;&#x10D2;&#x10D0;&#x10D3;&#x10D8;</trd>
+  <trd lng="km">&#x1791;&#x17BC;&#x1791;&#x17C5;</trd>
+  <trd lng="ko">&#xC77C;&#xBC18;</trd>
+  <trd lng="lo">&#xEC2;&#xE94;&#xE8D;&#xE97;&#xEBB;&#xEC8;&#xEA7;&#xEC4;&#xE9B;</trd>
+  <trd lng="ml">&#xD2A;&#xD4A;&#xD24;&#xD41;&#xD35;&#xD3E;&#xD2F;</trd>
+  <trd lng="mr">&#x938;&#x93E;&#x92E;&#x93E;&#x928;&#x94D;&#x92F;</trd>
+  <trd lng="my">&#x101A;&#x1031;&#x1018;&#x102F;&#x101A;&#x103B;</trd>
+  <trd lng="ne">&#x938;&#x93E;&#x92E;&#x93E;&#x928;&#x94D;&#x92F;</trd>
+  <trd lng="ny">ambiri</trd>
+  <trd lng="pa">&#xA06;&#xA2E; &#xA24;&#xA4C;&#xA30; &#x2018;&#xA24;&#xA47;</trd>
   <trdgrp lng="pl">
     <trd>w og&oacute;le</trd>,
     <trd>generalnie</trd>,
@@ -120,6 +231,7 @@
     <trd>og&oacute;lnikowo</trd>,
     <trd>gremialnie</trd>
   </trdgrp>
+  <trd lng="ps">&#x639;&#x645;&#x648;&#x645;&#x64A;</trd>
   <trdgrp lng="pt">
    <trd>geralmente</trd>, 
    <trd>em <ind>geral</ind><klr tip="ind"> (adv.)</klr></trd> 
@@ -131,6 +243,18 @@
     <trd>&c_v; <ind>&c_c;&c_je;&c_l;&c_o;&c_m;</ind></trd>,
     <trd>&c_v; <ind>&c_o;&c_b;&c_shch;&c_je;&c_m;</ind></trd>
   </trdgrp>
+  <trd lng="sd">&#x639;&#x627;&#x645;</trd>
+  <trd lng="si">&#xDB4;&#xDDC;&#xDAF;&#xDD4;</trd>
+  <trd lng="sq">p&#xEB;rgjithshme</trd>
+  <trd lng="st">kakaretso</trd>
+  <trd lng="ta">&#xBAA;&#xBCA;&#xBA4;&#xBC1;</trd>
+  <trd lng="te">&#xC38;&#xC3E;&#xC27;&#xC3E;&#xC30;&#xC23;</trd>
+  <trd lng="th">&#xE17;&#xE31;&#xE48;&#xE27;&#xE44;&#xE1B;</trd>
+  <trd lng="tl">pangkalahatan</trd>
+  <trd lng="ur">&#x62C;&#x646;&#x631;&#x644;</trd>
+  <trd lng="vi">chung</trd>
+  <trd lng="yi">&#x5D0;&#x5B7;&#x5DC;&#x5D2;&#x5E2;&#x5DE;&#x5D9;&#x5D9;&#x5E0;&#x5E2;</trd>
+  <trd lng="zu">jikelele</trd>
 </drv>
 
 <drv mrk="gxener.0o">
@@ -140,8 +264,8 @@
       <tld lit="&Gcirc;"/>a ideo, diro...:
       <ekz>
         decidinte, ke la diversaj frazoj donitaj al <tld/>o jam 
-        ampleksas &scirc;in en la societon <klr>...</klr> &scirc;i ekdemandis 
-        <klr>...</klr>
+        ampleksas &scirc;in en la societon <klr>[&#x2026;]</klr> &scirc;i ekdemandis 
+        <klr>[&#x2026;]</klr>
         <fnt>
           <aut>J. Francis</aut>,
           <vrk>La Granda Kaldrono</vrk>,
@@ -149,7 +273,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="publik.0o">publiko</ref>
   </snc>
+  <rim>
+    Ne konfuzu kun <ref tip="hom" cel="genera1.0o">generalo</ref>.
+  </rim>
+  <trd lng="de">Verallgemeinerung</trd>
   <trd lng="es">generalidad</trd>
   <trd lng="fr">g&eacute;n&eacute;ralit&eacute;</trd>
 </drv>
@@ -161,10 +290,66 @@
     <dif>
       Fari, ke io havu <tld/>an amplekson:
       <ekz>
-        <tld/>igi regulon, doktrinon,
-        le&gcirc;on, kutimon.
+        &scirc;i ne <tld/>igis siajn pensojn kaj sentojn, &scirc;i ne konsciis precize la tre
+        komplikitan fenomenon, kiu regis &scirc;ian sorton
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li iom tro <tld/>igas mian aserton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2005/008539.php">Malvarma milito kaj la orienta bloko</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvankam sendube ekzistas granda simileco inter multaj tjurkaj lingvoj,
+        <klr>[&#x2026;]</klr> ne eblas tion <tld/>igi al &ccirc;iuj membroj de tiu familio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>H&egrave;ctor Al&ograve;s i Font</aut>
+          <vrk><url ref="https://www.monato.be/2013/011015.php">La turka: pli granda, pli diversa familio</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        hodia&ubreve; la situacio estas multe pli favora al la <tld/>igo de la angla ol tiam
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2003/008022.html">Tridek jaroj da sa&gcirc;o</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun rolon <klr>[&#x2026;]</klr> transprenis kaj <tld/>igis E&ubreve;ropa Unio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2007/009338.php">Separismo ne, egalrajteco jes</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>igado de pli regula kalendaro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. M. A. De Smet</aut>
+          <vrk><url ref="https://www.monato.be/2004/008418.html">Edward Croegaert, la forgesita lingvokreanto</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+       <ref cel="abstrah.0i">abstrahi</ref>       
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="aplik.0i">apliki</ref>,
+      <ref cel="vast.dis0igi">disvastigi</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_b;&c_a;&c_g;&c_u;&c_l;&c_mol;&c_n;&c_ja;&c_c;&c_mol;</trd>,
@@ -191,9 +376,9 @@
 </drv>
 </art>
 <!--
-$Log: gxener.xml,v $
-Revision 1.27  2018/08/05 08:10:14  revo
-Guillermo Molleda Jimena: trd es
+$Log$
+versio 1.28 2021/04/14 19:01:10
+Wolfram Diestel: +ekz-oj, ref-oj
 
 Revision 1.26  2018/07/10 10:10:16  revo
 Jeromo Vasxe: + ~o

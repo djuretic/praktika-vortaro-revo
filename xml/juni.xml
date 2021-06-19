@@ -1,36 +1,35 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: juni.xml,v 1.31 2019/06/30 18:21:02 revo Exp $">
+<art mrk="$Id: juni.xml,v 1.33 2021/05/29 14:32:38 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>juni</rad>/o
+  <ofc>*</ofc> <rad>Juni</rad>/o,
+  <var><kap><rad var="j">juni</rad>/o</kap></var>
 </kap>
 <drv mrk="juni.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <kap><ofc>*</ofc> <tld/>o,
+    <var><kap><tld var="j"/>o</kap></var>
+  </kap>
+  <snc mrk="juni.0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
-      Sesa <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj"
-      val="6">monato</ref> de la <ref tip="malprt"
-      cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter majo
-      kaj julio:
+      Sesa <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj" val="6">monato</ref> de la <ref tip="malprt" cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter <ref cel="maj.0o">Majo</ref>
+      kaj <ref cel="juli.0o">Julio</ref>:
       <ekz>
         la dek du monatoj de l' kristana jaro estas: Januaro, Februaro,
-        Marto, Aprilo, Majo, Junio, Julio, <klr>[&#8230;]</klr>
+        Marto, Aprilo, Majo, <tld/>o, Julio, <klr>[&#x2026;]</klr>
         <fnt>
           <bib>DL</bib>
         </fnt>;
       </ekz>
       <ekz>
-        la kontrakto fini&gcirc;is la 30-an de <tld lit="J"/>o
+        la kontrakto fini&gcirc;is la 30-an de <tld/>o
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        de la komenco de <tld/>o &gcirc;is la fino de septembro, Nilo levi&gcirc;as
+        de la komenco de <tld var="j"/>o &gcirc;is la fino de septembro, Nilo levi&gcirc;as
         kaj superver&scirc;as preska&ubreve; la tutan Egipton
         <fnt>
           <bib>Far1</bib>
@@ -39,10 +38,11 @@
       </ekz>
     </dif>
   </snc>
-  <ref tip="vid" cel="januar.0o.RIM">januaro, Rim.</ref>
+  <ref tip="vid" cel="januar.0o.RIM">Januaro, Rim.</ref>
   <trd lng="af">Junie</trd>
   <trd lng="be">&c_ch;&c_e;&c_r;&c_v;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_ju;&c_n;&c_i;</trd>
+  <trd lng="bo">&#xF5F;&#xFB3;&#xF0B;&#xF56;&#xF0B;&#xF51;&#xFB2;&#xF74;&#xF42;&#xF0B;&#xF54;&#xF0B;</trd>
   <trdgrp lng="br">
     <trd>Mezheven</trd>,
     <trd>Even</trd>
@@ -60,7 +60,7 @@
   <trd lng="id">Juni</trd>
   <trd lng="io">junio</trd>
   <trd lng="it">giugno</trd>
-  <trd lng="ja">&#20845;&#26376; [<ind>&#12429;&#12367;&#12364;&#12388;</ind>]</trd>
+  <trd lng="ja">&#x516D;&#x6708; [<ind>&#x308D;&#x304F;&#x304C;&#x3064;</ind>]</trd>
   <trdgrp lng="jbo">
     <trd>xavma'i</trd>,
     <trd>matsi'uma'i</trd>
@@ -78,33 +78,31 @@
 </drv>
 
 <drv mrk="juni.0a">
-  <kap><tld/>a</kap>
+  <kap><tld lit="j"/>a</kap>
   <snc>
     <dif>
       Okazanta en <tld/>o, rilata al <tld/>o:
       <ekz>
-        subita <tld/>a pluvo
+        subita <tld lit="j"/>a pluvo
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/007854.html">&Ccirc;u &gcirc;oja
+          <vrk><url ref="https://www.monato.be/2003/007854.html">&Ccirc;u &gcirc;oja
           plorpluvo?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        hoteloj en <tld/>o malaltigas siajn prezojn kaj varbas per la
-        romantika nocio &leftquot;<tld/>a <esc>novedzino</esc>&#8221;
+        hoteloj en <tld lit="j"/>o malaltigas siajn prezojn kaj varbas per la
+        romantika nocio &leftquot;<tld lit="j"/>a <esc>novedzino</esc>&rightquot;
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/007854.html">&Ccirc;u &gcirc;oja
+          <vrk><url ref="https://www.monato.be/2003/007854.html">&Ccirc;u &gcirc;oja
           plorpluvo?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>a referenduma malvenko
+        <tld lit="j"/>a referenduma malvenko
         <fnt>
           <bib>Monato</bib>
           <aut>Armando Zecchin</aut>
@@ -113,27 +111,26 @@
         </fnt>;
       </ekz>
       <ekz>
-        la <tld/>a numero, kiu atingis min je la fino de la eldonmonato,
+        la <tld lit="j"/>a numero, kiu atingis min je la fino de la eldonmonato,
         estas tre interesa
         <fnt>
           <bib>Monato</bib>
           <aut>Katoo Ivao</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008176.html">La junia
+          <vrk><url ref="https://www.monato.be/2003/008176.html">La junia
           numero</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="io">juniala</trd>
-  <trd lng="ja">&#20845;&#26376;&#12398; [<ind>&#12429;&#12367;&#12364;&#12388;&#12398;</ind>]</trd>
+  <trd lng="ja">&#x516D;&#x6708;&#x306E; [<ind>&#x308D;&#x304F;&#x304C;&#x3064;&#x306E;</ind>]</trd>
   <trd lng="vo">yunulik</trd>
 </drv>
 </art>
 <!--
-$Log: juni.xml,v $
-Revision 1.31  2019/06/30 18:21:02  revo
-adaptis URL de Monato
+$Log$
+versio 1.32 2021/03/23 17:22:37
+Wolfram Diestel: ambau maj* kaj min kiel var
 
 Revision 1.30  2019/06/30 07:42:48  revo
 adaptis URL de Monato
@@ -154,11 +151,5 @@ Revision 1.25  2013/09/06 18:10:17  revo
 Wolfram Diestel: ref-oj, lst monatoj, pers nomoj
 
 Revision 1.24  2013/03/27 16:10:20  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.23  2011/10/01 14:10:17  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.22  2008/09/20 16:30:24  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: latitu.xml,v 1.22 2020/02/15 16:10:30 revo Exp $">
+<art mrk="$Id: latitu.xml,v 1.24 2020/06/18 20:10:32 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>latitud</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,10 +14,45 @@
     <uzo tip="fak">AST</uzo>
     <dif>
       Distanco de iu loko al la ekvatoro, mezurata per la meridiano
-      trapasanta tiun lokon.
+      trapasanta tiun lokon:
+      <ekz>
+        la eldonejo de Monato trovi&gcirc;as je <frm>51&deg;12'48"</frm> norda <tld/>o kaj <frm>4&deg;24'34"</frm> orienta
+        <ref cel="longit.0o.GEOG">longitudo</ref>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2010/010061.php"
+              >Europeana: de Rejno al Danubo</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        stabila malvarma alt-premo en la nordo &scirc;ovelas sekan arktan malvarman aeron en
+        mezajn <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2010/010105.php"
+              >Varmo kaj frosto</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trovi&gcirc;as maso da likva akvo <klr>[&#8230;]</klr> profunda 8 kilometrojn kaj etendi&gcirc;as
+        de la suda poluso de Encelado almena&ubreve; &gcirc;is la <tld/>o de 50 gradoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011292.php"
+              >Oceano, kaj eble vivo, sur saturna satelito</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Breite</trd>
-    <trd lng="hu">f&ouml;ldrajzi <ind>sz&eacute;less&eacute;g</ind></trd>    
+    <trd lng="hu">f&ouml;ldrajzi <ind>sz&eacute;less&eacute;g</ind></trd>
+    <trd lng="pl">szeroko&sacute;&cacute; geograficzna</trd>     
+    <trd lng="ro">latitudine</trd>    
   </snc>
   <snc mrk="latitu.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -47,6 +82,7 @@
     (g&ouml;mbkoordin&aacute;ta)</klr></trd>    
     <trd lng="pl">szeroko&sacute;&cacute;<klr tip="ind">
     (wsp&oacute;&lstroke;rz&eogonek;dna)</klr></trd>
+    <trd lng="ro">latimea coordonatelor</trd>
     <trd lng="ru">&c_sh;&c_i;&c_r;&c_o;&c_t;&c_a;
     <klr tip="ind"> (&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;)</klr></trd>
     <adm>
@@ -93,6 +129,8 @@
   </adm>
   <trd lng="de">geografische Breite</trd>
   <trd lng="hu">f&ouml;ldrajzi <ind>sz&eacute;less&eacute;g</ind></trd>
+  <trd lng="pl">szeroko&sacute;&cacute; geograficzna</trd>     
+  <trd lng="ro">latitudine</trd>  
 </drv>
 
 <drv mrk="latitu.geodezia0o">
@@ -110,7 +148,9 @@
     <aut>MB</aut>
   </adm>
   <trd lng="de">geod&auml;tische Breite</trd>
-  <trd lng="hu">geod&eacute;ziai <ind>sz&eacute;less&eacute;g</ind></trd>  
+  <trd lng="hu">geod&eacute;ziai <ind>sz&eacute;less&eacute;g</ind></trd>
+    <trd lng="pl">szeroko&sacute;&cacute; geodezyjna</trd>     
+    <trd lng="ro">l&abreve;&#539;imea geodezic&abreve;</trd>    
 </drv>
 
 <drv mrk="latitu.tercentra0o">
@@ -123,7 +163,9 @@
       lokon.
     </dif>
   </snc>
-  <trd lng="hu">geocentrikus <ind>sz&eacute;less&eacute;g</ind></trd>  
+  <trd lng="hu">geocentrikus <ind>sz&eacute;less&eacute;g</ind></trd> 
+  <trd lng="pl">szeroko&sacute;&cacute; geocentryczna</trd>     
+  <trd lng="ro">latitudinea geocentric&abreve;</trd>   
   <adm>
     Kia diferenco kun ~o 1 ??
     <aut>MB</aut>
@@ -148,12 +190,20 @@
   <trd lng="de">Breitenkreis</trd>
   <trd lng="fr">parall&egrave;le<klr tip="ind"> (subst., g&eacute;og.)</klr></trd>
   <trd lng="hu">sz&eacute;less&eacute;gi k&ouml;r</trd>
+  <trd lng="pl">r&oacute;wnole&zdot;nik </trd>     
+  <trd lng="ro">paralel</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_l;&c_l;&c_je;&c_l;&c_mol;</trd>
   <trd lng="sk">rovnobe&zcaron;ka zemepisn&aacute;</trd>
 </drv>
 </art>
 <!--
-$Log: latitu.xml,v $
+$Log$
+versio 1.24 2020/06/18 20:10:32
+Wolfram Diestel: ~o 1: +ekz-oj
+
+versio 1.23 2020/06/18 19:31:00
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.22  2020/02/15 16:10:30  revo
 Wolfram Diestel: formuloj per am
 
@@ -170,11 +220,5 @@ Revision 1.18  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.17  2009/08/24 16:31:39  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.16  2004/05/22 16:32:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2003/05/02 16:30:52  revo
 -->
 </vortaro>

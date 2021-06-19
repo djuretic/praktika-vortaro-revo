@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: egal.xml,v 1.55 2020/02/14 13:10:26 revo Exp $">
+<art mrk="$Id: egal.xml,v 1.104 2021/06/18 20:41:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>egal</rad>/a <fnt><bib>PV</bib></fnt>
@@ -44,9 +43,25 @@
           <tld/>a animo;
         </ekz>
         <ekz>
-          <tld/>a humoro, pa&scirc;o, pulso, vo&ccirc;o.
+          <tld/>a humoro, pulso, vo&ccirc;o;
+        </ekz>
+        <ekz>
+          ta&ccirc;mentoj, kies <tld/>aj pa&scirc;oj similis frapojn de pezaj marteloj
+          <fnt>
+            <bib>Far1</bib>
+            <lok>&Ccirc;apitro I</lok>
+          </fnt>.
         </ekz>
       </dif>
+      <refgrp tip="vid">
+         <ref cel="konsta.0a">konstanta</ref>,
+         <ref cel="indife.0a">indiferenta</ref>,
+         <ref cel="monoto.0a.unutona">monotona<sncref/></ref>
+      </refgrp>
+      <trdgrp lng="de">
+        <trd>gleichm&auml;&szlig;ig</trd>,
+        <trd>gleichf&ouml;rmig</trd>
+      </trdgrp>
       <trdgrp lng="pl">
         <trd>taki sam</trd>,
         <trd>r&oacute;wny</trd>
@@ -60,21 +75,25 @@
         <trd>&c_r;&c_o;&c_v;&c_n;&c_y;&c_j;</trd>
       </trdgrp>
     </subsnc>
-    <subsnc mrk="egal.0a.indiferenta">
+    <subsnc mrk="egal.0a.senprefera">
       <dif>
         Prezentanta samajn kvalitojn, do nenian motivon por esti
         preferata, t.e. indiferenta:
         <ekz>
           <ind><tld/>e</ind> &ccirc;u vi estas ri&ccirc;a a&ubreve;
-          senhava<fnt>Z</fnt>;
+          senhava
+          <fnt><bib>PV</bib></fnt>;
           <trd lng="ca">igualment</trd>
         </ekz>
         <ekz>
           <tld/>e kiam li venos, kien li iros;
         </ekz>
         <ekz>
-          tute <tld/>e &ccirc;u ia prepozicio starus a&ubreve;
-          ne<fnt>Z</fnt>.
+          tute <tld/>e &ccirc;u ia prepozicio starus a&ubreve; ne
+          <fnt>
+            <bib>F</bib>
+            <lok>&FE; 28</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="pl">
@@ -89,15 +108,24 @@
       Simila, sama:
       <ekz>
         nomo <tld/>a sed esenco mala <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        la senco de tiu prepozicio estas &ccirc;iam <tld/>a<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        nominativon ni uzas nur post tiuj prepozicioj, kies senco estas &ccirc;iam <tld/>a
+        <fnt>
+          <bib>LR</bib>
+          <lok>5. Kazosintakso</lok>
+        </fnt>;
       </ekz>
       <ekz>
         &ccirc;iu litero estas elparolata &ccirc;iam
-        <tld/>e<fnt>Z</fnt>.
+        <tld/>e
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>.
       </ekz>
-      <trd lng="ca">semblant</trd>
     </dif>
+    <trd lng="ca">semblant</trd>
   </snc>
   <snc mrk="egal.0a.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -119,8 +147,8 @@
         <frm am="a"><k>a</k></frm>
         kaj <frm am="b"><k>b</k></frm> oni signas per 
         <frm am="a=b"><k>a</k> = <k>b</k></frm>
-        <klr> (a egalas al bo, a&ubreve;: a egalas bo-on,
-          a&ubreve;: a egal bo)</klr>.
+        <klr> (<nom>a</nom> egalas al <nom>bo</nom>, a&ubreve;: <nom>a</nom> egalas <nom>bo</nom>-on,
+          a&ubreve;: <nom>a</nom> <esc>egal</esc> <nom>bo</nom>)</klr>.
       </rim>
       <trd lng="pl">r&oacute;wny</trd>
     </subsnc>
@@ -153,48 +181,92 @@
     </subsnc>
     <trd lng="fr">&eacute;gal</trd>
   </snc>
+  <trd lng="af">gelyke</trd>
+  <trd lng="am">&#x12A5;&#x12A9;&#x120D;</trd>
+  <trd lng="ar">&#x645;&#x62A;&#x633;&#x627;&#x648;</trd>
+  <trd lng="az">b&#x259;rab&#x259;r</trd>
   <trdgrp lng="be">
     <trd>&c_r;&c_o;&c_w;&c_n;&c_y;</trd>,
     <trd>&c_a;&c_d;&c_n;&c_o;&c_l;&c_mol;&c_k;&c_a;&c_v;&c_y;</trd>,
     <trd>&c_t;&c_a;&c_k;&c_ib; &c_zh; &c_s;&c_a;&c_m;&c_y;</trd>,
     <trd>&c_a;&c_d;&c_n;&c_a;&c_s;&c_t;&c_a;&c_j;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="bn">&#x9B8;&#x9AE;&#x9BE;&#x9A8;</trd>
+  <trd lng="bo">&#xF60;&#xF51;&#xFB2;&#xF0B;&#xF58;&#xF49;&#xF58;&#xF0B;</trd>
+  <trd lng="bs">jednake</trd>
   <trdgrp lng="ca">
     <trd>igual</trd>,
     <trd>id&egrave;ntic</trd>,
     <trd>parell</trd>
   </trdgrp>
+  <trd lng="co">paru</trd>
   <trdgrp lng="cs">
     <trd>rovnaj&iacute;c&iacute; se <klr>(geometrick&yacute; &uacute;tvar)</klr></trd>,
     <trd>stejn&yacute;</trd>,
     <trd>toto&zcaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="da">lige</trd>
   <trdgrp lng="de">
     <trd>gleich</trd>,
     <trd>egal</trd>
   </trdgrp>
   <trd lng="en">equal</trd>
   <trd lng="es">igual</trd>
+  <trd lng="et">v&#xF5;rdne</trd>
+  <trd lng="eu">berdina</trd>
   <trdgrp lng="fr">
     <trd>&eacute;gal</trd>,
     <trd>pareil</trd>
   </trdgrp>
+  <trd lng="fy">lyk</trd>
+  <trd lng="gl">igual</trd>
+  <trd lng="gu">&#xAB8;&#xAAE;&#xABE;&#xAA8;</trd>
+  <trd lng="ha">daidai</trd>
+  <trd lng="hi">&#x92C;&#x930;&#x93E;&#x92C;&#x930;</trd>
+  <trd lng="hr">jednaka</trd>
   <trdgrp lng="hu">
     <trd>egyenl&odblac;</trd>,
     <trd>v&aacute;ltozatlan</trd>,
     <trd>k&ouml;z&ouml;mb&ouml;s</trd>
   </trdgrp>
+  <trd lng="hy">&#x570;&#x561;&#x57E;&#x561;&#x57D;&#x561;&#x580;</trd>
+  <trd lng="is">jafnt</trd>
+  <trd lng="ja">&#x7B49;&#x3057;&#x3044;</trd>
+  <trd lng="jw">witjaksono</trd>
+  <trd lng="ka">&#x10D7;&#x10D0;&#x10DC;&#x10D0;&#x10D1;&#x10D0;&#x10E0;&#x10D8;</trd>
+  <trd lng="km">&#x179F;&#x17D2;&#x1798;&#x17BE;</trd>
+  <trd lng="ko">&#xB3D9;&#xC77C;</trd>
+  <trd lng="lo">&#xEC0;&#xE97;&#xEBB;&#xEC8;&#xEB2;&#xE97;&#xEBD;&#xEA1;&#xE81;&#xEB1;&#xE99;</trd>
+  <trd lng="ml">&#xD1A;&#xD3F;&#xD39;&#xD4D;&#xD28;&#xD02;</trd>
+  <trd lng="mr">&#x938;&#x92E;&#x93E;&#x928;</trd>
+  <trd lng="my">&#x1010;&#x1030;&#x100A;&#x102E;&#x101E;&#x1031;&#x102C;</trd>
+  <trd lng="ne">&#x92C;&#x930;&#x93E;&#x92C;&#x930;</trd>
   <trd lng="nl">gelijk</trd>
+  <trd lng="ny">ofanana</trd>
+  <trd lng="pa">&#xA2C;&#xA30;&#xA3E;&#xA2C;&#xA30;</trd>
+  <trd lng="ps">&#x645;&#x633;&#x627;&#x648;&#x64A;</trd>
   <trd lng="ro">egal</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_v;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_d;&c_i;&c_n;&c_a;&c_k;&c_o;&c_v;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sd">&#x628;&#x631;&#x627;&#x628;&#x631;</trd>
+  <trd lng="si">&#xDC3;&#xDB8;&#xDCF;&#xDB1;</trd>
   <trdgrp lng="sk">
     <trd>rovnaj&uacute;ci sa</trd>,
     <trd>toto&zcaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="sq">barabart&#xEB;</trd>
+  <trd lng="st">lekana</trd>
+  <trd lng="ta">&#xB9A;&#xBAE;</trd>
+  <trd lng="te">&#xC38;&#xC2E;&#xC3E;&#xC28;</trd>
+  <trd lng="th">&#xE40;&#xE17;&#xE48;&#xE32;&#xE01;&#xE31;&#xE19;</trd>
+  <trd lng="tl">kapantay</trd>
+  <trd lng="ur">&#x628;&#x631;&#x627;&#x628;&#x631;</trd>
+  <trd lng="vi">nh&#x1B0; nhau</trd>
   <trd lng="vo">leigik</trd>
+  <trd lng="yi">&#x5D2;&#x5DC;&#x5D9;&#x5D9;&#x5B7;&#x5DA;</trd>
+  <trd lng="zu">alinganayo</trd>
 </drv>
 
 <drv mrk="egal.0i">
@@ -204,10 +276,24 @@
     <dif>
       Esti <tld/>a al:
       <ekz>
+        lia merito ne <tld/>as al liaj pretendoj;
+      </ekz>
+      <ekz>
         suspekto pruvon ne <tld/>as<fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        lia merito ne <tld/>as al liaj pretendoj.
+        kiam nokto vualas, &ccirc;iuj koloroj <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu el ili povus vin <tld/>i &dash; vi havas korpon kiel la statuo de Izido,
+        skulptita en eburo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&ccirc;apitro 14a</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="ca">
@@ -253,9 +339,34 @@
 
 <drv mrk="egal.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <uzo tip="fak">MAT</uzo>
-  <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
-  <snc>
+  <snc mrk="egal.0ajxo.io">
+    <dif>
+      Io <tld/>a:
+      <ekz>
+        donu al viaj sklavoj justa&jcirc;on kaj <tld/>a&jcirc;on
+        <fnt>
+          <bib>NT</bib>
+          <lok>Koloseanoj 4:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la turetoj kaj balkonoj estis faritaj el ar&gcirc;entofiligrano de tiel mirinda speco,
+        ke en tuta Fantaziujo ne ekzistis <tld/>a&jcirc;o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Ar&gcirc;enta Urbo Amarganto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Gleiches</trd>,
+      <trd>Vergleichbares</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="egal.0ajxo.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
     <dif>
       Skriba&jcirc;o, kiu asertas <tld/>econ de du matematikaj objektoj:
       <ekz>
@@ -278,6 +389,7 @@
   <trd lng="es">igualdad</trd>
   <trd lng="de">Gleichung</trd>
   <trd lng="fr">&eacute;galit&eacute;<klr tip="ind"> (math.)</klr></trd>
+  <trd lng="he">&#x5E9;&#x5D5;&#x5D5;&#x5D9;&#x5D5;&#x5DF;</trd>
   <trd lng="hu">egyenl&odblac;s&eacute;g</trd>
   <trd lng="nl">gelijkheid<klr tip="ind"> (wisk.)</klr></trd>
   <trdgrp lng="pl">
@@ -291,19 +403,16 @@
   <kap>ne<tld/>a&jcirc;o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
-  <snc>
+  <snc mrk="egal.ne0ajxo.MAT">
     <dif>
       Skriba&jcirc;o, kiu asertas ne<tld/>econ de du matematikaj
       objektoj, a&ubreve; montras ordo-rilaton inter ili:
       <ekz>
-        <frm am="u^2+1 gt u"
-        ><k>u</k><sup>2</sup>+1 &gt; <k>u</k></frm>;
+        <frm am="u^2+1 gt u"><k>u</k><sup>2</sup>+1 &gt; <k>u</k></frm>;
       </ekz>
       <ekz>
-        la ne<tld/>a&jcirc;o <frm am="u^2 ge u"
-        ><k>u</k><sup>2</sup> &#8805; <k>u</k></frm>
-        estas malvera por &ccirc;iu reelo en intervalo <frm am="(0,1)"
-        >]0,1[</frm>;
+        la ne<tld/>a&jcirc;o <frm am="u^2 ge u"><k>u</k><sup>2</sup> &#x2265; <k>u</k></frm>
+        estas malvera por &ccirc;iu reelo en intervalo <frm am="(0,1)">]0,1[</frm>;
       </ekz>
       <ekz>
         se multipliki amba&ubreve; <ref cel="flank.0o.ekvacio">flankojn</ref>
@@ -323,6 +432,7 @@
   <trd lng="de">Ungleichung</trd>
   <trd lng="fr">in&eacute;galit&eacute;<klr tip="ind">
       (math.)</klr></trd>
+  <trd lng="he">&#x5D0;&#x5D9; &#x5E9;&#x5D9;&#x5D5;&#x5D5;&#x5D9;&#x5D5;&#x5DF;</trd>
   <trd lng="hu">egyenl&odblac;tlens&eacute;g</trd>
   <trd lng="nl">ongelijkheid<klr tip="ind"> (wisk.)</klr></trd>
   <trd lng="pl">nier&oacute;wno&sacute;&cacute;</trd>
@@ -336,18 +446,45 @@
     <dif>
       Igi <tld/>a:
       <ekz>
-        koncerne tiun virinon, kiu <klr>...</klr> perdis la estimon al
+        koncerne tiun virinon, kiu <klr>[&#x2026;]</klr> perdis la estimon al
         si mem, sin mem <tld/>igis al senta&ubreve;ga polvo
-        <fnt><bib>Marta</bib></fnt>.
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        la forto de la beleco pli facile faros el la virto mal&ccirc;aston, ol la forto de la
+        virto <tld/>igos al si la belecon
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li tenas la pistolon anta&ubreve; la viza&gcirc;o, <tld/>igas la sa&gcirc;ulon al la malsa&gcirc;ulo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kio <tld/>igas lin al la dioj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>akto tria</lok>
+        </fnt>?
       </ekz>
     </dif>
   </snc>
-  <trd
-    lng="be">&c_u;&c_r;&c_a;&c_w;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="af">gelyk</trd>
+  <trd lng="am">&#x12A5;&#x12A9;&#x120D;&#x1290;&#x1275;</trd>
+  <trd lng="ar">&#x645;&#x633;&#x627;&#x648;&#x627;&#x629;</trd>
+  <trd lng="az">eynil&#x259;&#x15F;dirm&#x259;k</trd>
+  <trd lng="be">&c_u;&c_r;&c_a;&c_w;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bn">&#x9B8;&#x9AE;&#x9C0;&#x995;&#x9B0;&#x9A3;</trd>
+  <trd lng="bs">izjedna&#x10D;avaju</trd>
   <trdgrp lng="ca">
     <trd>igualar</trd>,
     <trd>fer igual</trd>
   </trdgrp>
+  <trd lng="co">equate</trd>
   <trdgrp lng="cs">
     <trd>egalizovat</trd>,
     <trd>porovn&aacute;vat</trd>,
@@ -355,28 +492,63 @@
     <trd>urovnat</trd>,
     <trd>vyrovnat</trd>
   </trdgrp>
+  <trd lng="da">sidestille</trd>
   <trdgrp lng="de">
     <trd>angleichen</trd>,
     <trd>ausgleichen</trd>
   </trdgrp>
   <trd lng="es">igualar</trd>
+  <trd lng="et">v&#xF5;rdsustama</trd>
+  <trd lng="eu">equate</trd>
   <trd lng="fr">&eacute;galiser</trd>
+  <trd lng="fy">definiearje</trd>
+  <trd lng="gl">equiparar</trd>
+  <trd lng="gu">&#xAB8;&#xAAE;&#xAC0;&#xA95;&#xAB0;&#xAA3;</trd>
+  <trd lng="ha">danganta</trd>
+  <trd lng="he">&#x5DC;&#x5D4;&#x5E9;&#x5D5;&#x5D5;&#x5EA;</trd>
+  <trd lng="hi">&#x938;&#x92E;&#x93E;&#x928;&#x924;&#x93E;</trd>
+  <trd lng="hr">izjedna&#x10D;iti</trd>
   <trdgrp lng="hu">
     <trd>egyenl&odblac;v&eacute; tesz</trd>,
     <trd>kiegyenl&iacute;t</trd>,
     <trd>egaliz&aacute;l</trd>
   </trdgrp>
+  <trd lng="hy">&#x570;&#x561;&#x57E;&#x561;&#x57D;&#x561;&#x580;&#x565;&#x581;&#x576;&#x565;&#x56C;</trd>
+  <trd lng="is">jafngilda</trd>
+  <trd lng="ja">&#x4E00;&#x81F4;&#x3059;&#x308B;</trd>
+  <trd lng="ka">&#x10D0;&#x10D8;&#x10D2;&#x10D8;&#x10D5;&#x10D4;&#x10D1;&#x10E1;</trd>
+  <trd lng="km">&#x179F;&#x17D2;&#x1798;&#x17BE;</trd>
+  <trd lng="ko">&#xB3D9;&#xC77C;&#xC2DC;</trd>
+  <trd lng="lo">&#xEC0;&#xEA7;&#xEB1;&#xE99;&#xEAD;&#xEAD;&#xE81;</trd>
+  <trd lng="ml">&#xD06;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD2E;&#xD4B;</trd>
+  <trd lng="mr">&#x92C;&#x930;&#x94B;&#x92C;&#x930; &#x906;&#x939;&#x947; &#x905;&#x938;&#x947; &#x926;&#x93E;&#x916;&#x935;&#x923;&#x947;</trd>
+  <trd lng="my">&#x1010;&#x1030;&#x100A;&#x102E;&#x1014;&#x1031;&#x101E;&#x100A;&#x103A;</trd>
+  <trd lng="ne">&#x938;&#x92E;&#x93E;&#x928; &#x92E;&#x928;&#x93E;&#x928;&#x93E;</trd>
   <trdgrp lng="nl">
     <trd>gelijkmaken</trd>,
     <trd>egaliseren</trd>
   </trdgrp>
+  <trd lng="ny">amaganiza kuti kukhala</trd>
+  <trd lng="pa">&#xA1C;&#xA3C;&#xA3F;&#xA71;&#xA32;&#xA24;</trd>
   <trdgrp lng="pl">
     <trd>r&oacute;wna&cacute;</trd>,
     <trd>zr&oacute;wnywa&cacute;</trd>,
     <trd>wyr&oacute;wnywa&cacute;</trd>
   </trdgrp>
+  <trd lng="ps">&#x628;&#x644;&#x644;&#x627;&#x6CC; &#x634;&#x64A;</trd>
   <trd lng="ru">&c_u;&c_r;&c_a;&c_v;&c_n;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="sd">&#x645;&#x627;&#x626;&#x631;</trd>
+  <trd lng="si">&#xDC3;&#xDB8;&#xDCF;&#xDB1;</trd>
   <trd lng="sk">vyrovna&tcaron; sa</trd>
+  <trd lng="sq">barazojn&#xEB;</trd>
+  <trd lng="ta">&#xB9A;&#xBAE;&#xBA9;&#xBCD;</trd>
+  <trd lng="te">&#xC2A;&#xC4B;&#xC32;&#xC4D;&#xC1A;&#xC41;&#xC24;&#xC3E;&#xC30;&#xC41;</trd>
+  <trd lng="th">&#xE16;&#xE37;&#xE2D;&#xE40;&#xE2D;&#xE32;</trd>
+  <trd lng="tl">tutumbas</trd>
+  <trd lng="ur">&#x628;&#x631;&#x627;&#x628;&#x631;</trd>
+  <trd lng="vi">&#x111;&#xE1;nh &#x111;&#x1ED3;ng</trd>
+  <trd lng="yi">&#x5D9;&#x5E7;&#x5D5;&#x5D5;&#x5D9;&#x5D9;&#x5D8;</trd>
+  <trd lng="zu">bathi</trd>
 </drv>
 
 <drv mrk="egal.0ismo">
@@ -391,8 +563,7 @@
         <fnt>
           <aut>&Ccirc;ina Radio Internacia</aut>,
           <vrk>
-            <url
-            ref="http://es.chinabroadcast.cn/1/2005/03/10/1@21983.htm">
+            <url ref="http://es.chinabroadcast.cn/1/2005/03/10/1@21983.htm">
               Reprezentantoj de TPK...</url></vrk>,
           <lok>2005-03-10</lok>
         </fnt>;
@@ -408,11 +579,37 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Egalismus</trd>
   </snc>
   <trd lng="ca">igualitarisme</trd>
   <trd lng="fr">&eacute;galitarisme</trd>
   <trd lng="nl">egalitarisme</trd>
   <trd lng="pl">egalitaryzm</trd>
+</drv>
+
+<drv mrk="egal.0ulo">
+  <kap>
+    <tld/>ulo
+  </kap>
+  <snc mrk="egal.0ulo.KOMUNE">
+    <dif>
+      Kiu estas <tld/>a al alia ulo, samranga, same grava:
+      <ekz>
+        neniam estis miaj vortoj, nek tiuj de miaj <tld/>uloj,
+        serioze atentitaj en la monda historio
+        <fnt>
+          <aut>H. Laxness, trad. B. Ragnarsson</aut>
+          <vrk>Sendependaj homoj</vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="klas.sam0ano">samklasano</ref>,
+    <ref cel="sort.sam0ulo">samsortulo</ref>
+  </refgrp>
+  <trd lng="fr">&eacute;gal<klr> (subst.)</klr></trd>
 </drv>
 
 <drv mrk="egal.fek0a">
@@ -425,11 +622,10 @@
       <ekz>
         farindas pli gravaj aferoj ol diskuti &ccirc;u la 
         damnitaj supersignoj skribi&gcirc;u per h, x a&ubreve; unikode 
-        <klr>...</klr> tio estas fek<tld/>a
+        <klr>[&#x2026;]</klr> tio estas fek<tld/>a
         <fnt>
           <aut>P. Oberndorfer</aut>,
-          <vrk><url
-          ref="https://groups.google.com/group/soc.culture.esperanto/browse_thread/thread/41d0b343e1b05b17/a437eba963ee8027?hl=eo">
+          <vrk><url ref="https://groups.google.com/group/soc.culture.esperanto/browse_thread/thread/41d0b343e1b05b17/a437eba963ee8027?hl=eo">
           Grava propono</url></vrk>,
           <lok>sce, 2000-03-19</lok>
         </fnt>.
@@ -439,6 +635,7 @@
       <trd>completament indiferent</trd>,
       <trd>de tant se me'n fot</trd>
     </trdgrp>
+    <trd lng="de">schei&szlig; <ind>egal</ind></trd>
     <trd lng="fr">compl&egrave;tement &eacute;gal</trd>
   </snc>
 </drv>
@@ -447,7 +644,7 @@
   <kap>kontra&ubreve;<tld/>a</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib>, <lok>p. 7</lok></fnt>
-  <snc>
+  <snc mrk="egal.kontraux0a.MAT">
     <dif>
       <klr>(p.p. du elementoj de <ref cel="grup.0o.MAT">grupo</ref> kun
         adicie signata operacio)</klr>
@@ -455,8 +652,7 @@
       <ref cel="neuxtr.0iganto.MAT">ne&ubreve;triganto</ref> de la alia.
     </dif>
   </snc>
-  <trd
-    lng="be">&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_mol;&c_l;&c_je;&c_g;&c_l;&c_y;</trd>
+  <trd lng="be">&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_mol;&c_l;&c_je;&c_g;&c_l;&c_y;</trd>
   <trd lng="ca">oposat<klr> (adj.)</klr></trd>
   <trd lng="en">opposite</trd>
   <trdgrp lng="de">
@@ -465,6 +661,7 @@
     <trd>gegengleich</trd>
   </trdgrp>
   <trd lng="fr">oppos&eacute;<klr tip="ind"> (math., adj.)</klr></trd>
+  <trd lng="he">&#x5DC;&#x5D0; &#x5E9;&#x5D5;&#x5D5;&#x5D9;&#x5D5;&#x5E0;&#x5D9;</trd>
   <trd lng="hu">ellentett</trd>
   <trd lng="nl">tegengesteld<klr tip="ind"> (wisk.)</klr></trd>
   <trd lng="pl">przeciwny</trd>
@@ -474,7 +671,7 @@
 <drv mrk="egal.kontraux0o">
   <kap>kontra&ubreve;<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="egal.kontraux0o.MAT">
     <dif>
       <ref cel="neuxtr.0iganto.MAT">Ne&ubreve;triganto</ref> rilate
       al adicie signata <ref cel="operac.0o.MAT">operacio</ref>:
@@ -505,6 +702,7 @@
     <trd>additive <ind>inverse</ind></trd>
   </trdgrp>
   <trd lng="fr">oppos&eacute;<klr tip="ind"> (math., subst.)</klr></trd>
+  <trd lng="he">&#x5DC;&#x5D0; &#x5E9;&#x5D5;&#x5D5;&#x5D9;&#x5D5;&#x5E0;&#x5D9;</trd>
   <trd lng="hu">ellentett</trd>
   <trd lng="pl">element przeciwny</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j; <ind>&c_e;&c_l;&c_je;&c_m;&c_je;&c_n;&c_t;</ind></trd>
@@ -513,7 +711,7 @@
 <drv mrk="egal.kontraux0igebla">
   <kap>kontra&ubreve;<tld/>igebla</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="egal.kontraux0igebla.MAT">
     <dif>
       <klr>(p.p. elemento en adicie signata
         <ref cel="monoid.0o">monoido</ref>)</klr>
@@ -534,11 +732,36 @@
 
 <drv mrk="egal.sen0a">
   <kap>sen<tld/>a</kap>
-  <snc>
+  <snc mrk="egal.sen0a.unika">
     <dif>
-      Unika, nekomparebla.
-    </dif>
+      Unika, nekomparebla:
+      <ekz>
+        sen<tld/>a tradicia hospitalo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmond Lamalrev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009644.php">&Jcirc;urnalistoj ne timigu</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu el la plej rimarkindaj kaj vere sen<tld/>aj skoloj de verkistoj en la mondo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="https://www.monato.be/2007/009255.php">Insulo de verkistoj</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>    
+    <trdgrp lng="de">
+      <trd>unvergleichlich</trd>,
+      <trd>ohnesgleichen</trd>
+    </trdgrp>
   </snc>
+  <rim>
+    Ne konfuzu kun <ref tip="hom" cel="egal.sen0a">senegala</ref>, t.e. rilata al la lando Senegalo.
+  </rim>
   <trd lng="be">&c_n;&c_je;&c_p;&c_a;&c_r;&c_a;&c_w;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trdgrp lng="ca">
     <trd>sense parell</trd>,
@@ -552,6 +775,7 @@
     <trd>incomparable</trd>,
     <trd>sans <ind>&eacute;gal</ind></trd>
   </trdgrp>
+  <trd lng="he">&#x5DC;&#x5D0; &#x5E9;&#x5D5;&#x5D5;&#x5D4;</trd>
   <trd lng="hu">p&eacute;ld&aacute;tlan</trd>
   <trd lng="nl">zonder <ind>gelijke</ind></trd>
   <trdgrp lng="pl">
@@ -577,6 +801,10 @@
       </ekz>
     </dif>
     <trd lng="ca">sense importar</trd>
+    <trdgrp lng="de">
+      <trd>ganz <ind>egal</ind></trd>,
+      <trd>ganz <ind>gleich</ind></trd>
+    </trdgrp>
     <trd lng="en">no matter</trd>
   </snc>
   <snc mrk="egal.tut0e.malgrauxe">
@@ -595,7 +823,7 @@
       <ekz>
         kvankam poste estis malkovrite, ke en multaj virusoj
         genetika informo povas esti kodita en RNA (ribonukleata
-        acido), tut<tld/>e la esenco de la malkovro de Avery ne
+        acido), tut<tld/>e la esenco de la malkovro de <nom>Avery</nom> ne
         &scirc;an&gcirc;i&gcirc;is 
         <fnt>
           <aut>V. Lemelev</aut>, <vrk>Eltrovo de prionoj</vrk>.
@@ -607,8 +835,10 @@
       <trd>igualment</trd>,
       <trd>no obstant</trd>
     </trdgrp>
+    <trd lng="de">dessen <ind>ungeachtet</ind></trd>
     <trd lng="en">all the same</trd>
   </snc>
+  <trd lng="he">&#x5E9;&#x5D5;&#x5D5;&#x5D4; &#x5DC;&#x5D7;&#x5DC;&#x5D5;&#x5D8;&#x5D9;&#x5DF;</trd>
   <trd lng="ru">&c_v;&c_s;&c_jo; &c_r;&c_a;&c_v;&c_n;&c_o;</trd>
 </drv>
 
@@ -617,13 +847,15 @@
   <snc mrk="egal.tagnokt0eco.AST">
     <uzo tip="fak">AST</uzo>
     <uzo tip="fak">KAL</uzo>
-    <ref tip="dif" cel="ekvino.0o">ekvinokso</ref>
-    <ekz>
-      en la tago de la somera tagnokt<tld/>eco, &ccirc;irka&ubreve; la na&ubreve;a
-      horo vespere, <klr>...</klr> anta&ubreve; la pordego de l' templo
-      haltis du voja&gcirc;antaj pastroj
-      <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="ekvino.0o">Ekvinokso</ref>:
+      <ekz>
+        en la tago de la somera tagnokt<tld/>eco, &ccirc;irka&ubreve; la na&ubreve;a
+        horo vespere, <klr>[&#x2026;]</klr> anta&ubreve; la pordego de l' templo
+        haltis du voja&gcirc;antaj pastroj
+        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_w;&c_n;&c_a;&c_d;&c_z;&c_je;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>
   <trd lng="ca">equinocci</trd>
@@ -635,6 +867,7 @@
   <trd lng="en">equinox</trd>
   <trd lng="es">equinoccio</trd>
   <trd lng="fr">&eacute;quinoxe</trd>
+  <trd lng="he">&#x5E9;&#x5D5;&#x5D5;&#x5D9;&#x5D5;&#x5DF; &#x5D9;&#x5D5;&#x5DD;-&#x5DC;&#x5D9;&#x5DC;&#x5D4;</trd>
   <trd lng="hu">nap&eacute;jegyenl&odblac;s&eacute;g</trd>
   <trd lng="it">equinozio</trd>
   <trd lng="nl">dag-en-nachtevening</trd>
@@ -653,7 +886,16 @@
 </drv>
 </art>
 <!--
-$Log: egal.xml,v $
+$Log$
+versio 1.58 2020/12/10 20:36:27
+Jeromo Vasxe: + ~ulo
+
+versio 1.57 2020/05/18 20:35:26
+Wolfram Diestel: ekz-oj, snc-mrk, germ trd
+
+versio 1.56 2020/05/11 18:10:56
+Wolfram Diestel: ~a: fnt-oj, ekz-oj, ref-oj, germ trd
+
 Revision 1.55  2020/02/14 13:10:26  revo
 Wolfram Diestel: formuloj per am
 
@@ -667,14 +909,5 @@ Revision 1.52  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.51  2015/01/17 14:10:18  revo
-Jeromo Vasxe: + ~i psi
-
-Revision 1.50  2012/09/05 07:10:13  revo
-Marc Rausell: + trd ca
-
-Revision 1.49  2011/05/11 12:10:10  revo
-Jeromo Vasxe: + fek~a
-
-Revision 1.48  2010/05/05 16:30:30  revo
 -->
 </vortaro>

@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: bas.xml,v 1.19 2015/07/04 08:37:31 revo Exp $">
+<art mrk="$Id: bas.xml,v 1.21 2021/03/04 19:18:49 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>bas</rad>/o
 </kap>
 <drv mrk="bas.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o<fnt><bib>VdE</bib></fnt></kap>
   <uzo tip="fak">MUZ</uzo>
   <snc mrk="bas.0o.registro">
     <dif>
@@ -36,11 +35,12 @@
   <trd lng="be">&c_b;&c_a;&c_s;</trd>
   <trdgrp lng="cs">
     <trd>bas</trd>,
-    <trd>basový hlas</trd>
+    <trd>basov&yacute; hlas</trd>
   </trdgrp>
   <trd lng="de">Bass</trd>
   <trd lng="en">bass</trd>
   <trd lng="es">bajo</trd>
+  <trd lng="he">&#x5D1;&#x5E1;</trd>
   <trd lng="hu">basszus</trd>
   <trd lng="it">basso<klr> (mus.)</klr></trd>
   <trd lng="ru">&c_b;&c_a;&c_s;<klr tip="amb">
@@ -77,12 +77,13 @@
     </trdgrp>
   </snc>
   <trdgrp lng="cs">
-    <trd>dolní</trd>,
-    <trd>nízký <klr>(zeď, hlas)</klr></trd>
+    <trd>doln&iacute;</trd>,
+    <trd>n&iacute;zk&yacute; <klr>(ze&dcaron;, hlas)</klr></trd>
   </trdgrp>
+  <trd lng="he">&#x5E0;&#x5DE;&#x5D5;&#x5DA;</trd>
   <trdgrp lng="sk">
-    <trd>dolný</trd>,
-    <trd>nízky</trd>
+    <trd>doln&yacute;</trd>,
+    <trd>n&iacute;zky</trd>
   </trdgrp>
 </drv>
 
@@ -118,11 +119,21 @@
   <uzo tip="fak">MUZ</uzo>
   <snc>
     <dif>
-      Basvo&ccirc;a <ref tip="super"
-      cel="kant.0isto.profesio">kantisto</ref>.
+      Basvo&ccirc;a homo, precipe basvo&ccirc;a <ref tip="super" cel="kant.0isto.profesio">kantisto</ref>:
+      <ekz>
+        la kantoro, kies kantado instrumentosimile estis akompanata de
+        la vo&ccirc;oj de liaj du helpantoj, la <tld/>ulo kaj la sopranulo
+        <fnt><aut>H.Heine, tr. &Z;</aut>:
+           <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk></fnt>;
+      </ekz><ekz>
+        la kapitano, kiu ronkadis kiel <tld/>ulo
+        <fnt>
+          <aut>Henri Vallienne</aut>: <vrk>Kastelo de Prelongo</vrk>.
+          <lok>1907</lok>.
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="be">&c_b;&c_a;&c_s; <klr
-    tip="amb">(&c_s;&c_mol;&c_p;&c_ja;&c_v;&c_a;&c_k;)</klr></trd>
+    <trd lng="be">&c_b;&c_a;&c_s; <klr tip="amb">(&c_s;&c_mol;&c_p;&c_ja;&c_v;&c_a;&c_k;)</klr></trd>
     <trd lng="de">Bass<klr> [Person]</klr></trd>
     <trd lng="en">bass (singer)</trd>
     <trd lng="es">bajo</trd>
@@ -133,17 +144,17 @@
     </trdgrp>
     <trd lng="it">basso<klr> (mus.)</klr></trd>
     <trd lng="pl">bas<klr> (&sacute;piewak)</klr></trd>
-    <trd lng="ru">&c_b;&c_a;&c_s;<klr  tip="amb">
+    <trd lng="ru">&c_b;&c_a;&c_s;<klr tip="amb">
     (&c_p;&c_je;&c_v;&c_je;&c_c;)</klr></trd>
   </snc>
-  <trd lng="cs">basista <klr>(zpěvák)</klr></trd>
+  <trd lng="cs">basista <klr>(zp&ecaron;v&aacute;k)</klr></trd>
   <trd lng="sk">basista</trd>
 </drv>
 </art>
 <!--
-$Log: bas.xml,v $
-Revision 1.19  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.20 2020/09/05 13:11:03
+Sergio Pokrovskij: +ekz
 
 Revision 1.18  2015/06/29 16:29:35  revo
 aldono de trd sk per skripto de M. von Laer
@@ -164,11 +175,5 @@ Revision 1.13  2003/09/09 16:32:04  revo
 Yury Finkel: +trd ru, kor trd ru
 
 Revision 1.12 2003/04/06 16:31:17 revo
-Ulrich Fellmann: + 7 trd=de
-
-Revision 1.11 2003/01/13 17:35:48 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10 2002/11/10 11:40:36 revo
 -->
 </vortaro>

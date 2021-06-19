@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: cxirka.xml,v 1.47 2019/11/10 15:10:16 revo Exp $">
+<art mrk="$Id: cxirka.xml,v 1.51 2021/05/29 10:56:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;irka&ubreve;</rad>
@@ -681,7 +680,8 @@
       <em><tld/>ejo</em>, sed la Fundamenta senco
       &ccirc;i tion ne allasas.
     </rim>
-    <trd lng="it">perimetro<klr> (contorno)</klr></trd>
+    <trd lng="he">&#x5E1;&#x5D1;&#x5D9;&#x5D1;&#x5D4;</trd>
+  <trd lng="it">perimetro<klr> (contorno)</klr></trd>
   </drv>
 
   <drv mrk="cxirka.0ajxo">
@@ -771,7 +771,8 @@
       &c_o;&c_k;&c_r;&c_je;&c_s;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;
       <klr tip="ind"> (&c_t;&c_o;&c_ch;&c_k;&c_i;)</klr></trd>
     </snc>
-    <trd lng="de">Umgebung</trd>
+    <trd lng="bo">&#xF41;&#xF7C;&#xF62;&#xF0B;&#xF61;&#xF74;&#xF42;&#xF0B;</trd>
+  <trd lng="de">Umgebung</trd>
     <trd lng="he">&samekh;&bet;&yod;&bet;&he;</trd>
     <trdgrp lng="it">
         <trd>circondario</trd>,
@@ -794,7 +795,8 @@
         </ekz>
       </dif>
     </snc>
-    <trd lng="it">circondario</trd>
+    <trd lng="he">&#x5E1;&#x5D1;&#x5D9;&#x5D1;&#x5D4;</trd>
+  <trd lng="it">circondario</trd>
     <trd lng="pl">otoczenie</trd>
   </drv>
 
@@ -837,7 +839,8 @@
       <trd>entourer<klr tip="ind"> (mettre autour)</klr></trd>,
       <trd>ceindre<klr tip="ind"> (entourer)</klr></trd>
     </trdgrp>
-    <trd lng="hu">k&ouml;rbevesz</trd>
+    <trd lng="he">&#x5DC;&#x5D4;&#x5E7;&#x5D9;&#x5E3;</trd>
+  <trd lng="hu">k&ouml;rbevesz</trd>
     <trdgrp lng="it">
         <trd>attorniare<klr> (mettere attorno)</klr></trd>,
         <trd>circondare<klr> (mettere attorno)</klr></trd>,
@@ -923,7 +926,7 @@
       <dif>
         <ref tip="dif" cel="mezur.cxirkaux0o"><tld lit="&Ccirc;"/>mezuro</ref>:
         <ekz>
-          io tre granda kun <tld/>umo de 63&#8239;m kaj pezo de 50-60 tunoj
+          io tre granda kun <tld/>umo de 63&#x202F;m kaj pezo de 50-60 tunoj
           <fnt>
             <vrk><url ref="http://folk.ntnu.no/ullestad/Esperanto/nifo.html">La
             NIFO-ringo de Espev&aelig;r - folk.ntnu.no</url></vrk>
@@ -1017,7 +1020,6 @@
             <ref cel="rongx.cxirkaux0i"><tld/>ron&gcirc;i</ref>,
             <ref cel="skrap.cxirkaux0i"><tld/>skrapi</ref>,
             <ref cel="skrib.cxirkaux0i"><tld/>skribi</ref>,
-            <ref cel="strek.cxirkaux0i"><tld/>streki</ref>,
             <ref cel="sxmir.cxirkaux0i"><tld/>&scirc;miri</ref>,
             <ref cel="ten.cxirkaux0i"><tld/>teni</ref>,
             <ref cel="tond.cxirkaux0i"><tld/>tondi</ref>,
@@ -1077,7 +1079,6 @@
         Io <tld/>anta:
         <ekz>
           <refgrp tip="vid">
-            <ref cel="bord.cxirkaux0o"><tld/>bordo</ref>,
             <ref cel="mezur.cxirkaux0o"><tld/>mezuro</ref>,
             <ref cel="mur.cxirkaux0o"><tld/>muro</ref>,
             <ref cel="urb.cxirkaux0o"><tld/>urbo</ref>...
@@ -1092,7 +1093,7 @@
       <ekz>
         sed &gcirc;i <tld/>veturis elegante la rifojn, &ccirc;ar mi ne vidis &gcirc;in
         reveni
-        <fnt><bib>Mortul&Scirc;ip</bib>, <lok>&ccirc;apitro 3ª</lok></fnt>;
+        <fnt><bib>Mortul&Scirc;ip</bib>, <lok>&ccirc;apitro 3&#xAA;</lok></fnt>;
       </ekz><ekz>
         &gcirc;in <klr>[baregon]</klr> trairi, ne, sed &gcirc;in
         <ref cel="ir.cxirkaux0i.eviti"><tld/>iri<sncref/></ref>
@@ -1111,9 +1112,12 @@
 </subart>
 </art>
 <!--
-$Log: cxirka.xml,v $
-Revision 1.47  2019/11/10 15:10:16  revo
-Wolfram Diestel: sintakso
+$Log$
+versio 1.50 2021/05/15 16:02:27
+Wolfram Diestel: -ref
+
+versio 1.48 2021/02/08 07:11:22
+Wolfram Diestel: -ref
 
 Revision 1.46  2018/05/06 13:10:14  revo
 Sergio Pokrovskij: +ref
@@ -1131,40 +1135,5 @@ Revision 1.42  2017/03/04 20:10:13  revo
 Wolfram Diestel: ekz-oj kund fontoj, stila adapto de subart prefikso
 
 Revision 1.41  2013/06/30 18:10:09  revo
-Benito Subejrano: + trd ca oc
-
-Revision 1.40  2012/10/22 01:10:13  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.39  2011/12/23 20:10:12  revo
-Jeromo Vasxe: kor. 1 ref
-
-Revision 1.38  2010/06/09 16:30:41  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.37  2010/01/06 17:30:19  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.36  2009/04/17 19:50:09  revo
-Antonio Codazzi: +trd it
-
-Revision 1.35  2009/02/11 19:43:10  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
-
-Revision 1.34  2008/01/28 17:30:50  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.33  2005/12/12 17:31:16  revo
-Sergio Pokrovskij: +~umi
-
-Revision 1.32  2005/08/25 16:33:51  revo
-Wieland Pusch: +trd de
-
-Revision 1.31  2004/09/08 16:31:48  revo
-Marc Bavant: IIId: kor dif kaj rim
-
-Revision 1.30  2004/08/29 16:32:33  revo
-Marc Bavant: III: reverkis
-
-  -->
+-->
 </vortaro>

@@ -2,28 +2,31 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: bastian.xml,v 1.1 2019/09/04 19:10:21 revo Exp $">
+  <art mrk="$Id: bastian.xml,v 1.3 2020/09/09 18:10:38 revo Exp $">
     <kap>
       <rad>Bastian</rad>/o,
-      <var><kap><rad>Bastjan</rad>/o</kap></var>
+      <var><kap><rad var="j">Bastjan</rad>/o</kap></var>
     </kap>
 
 <drv mrk="bastian.0o">
-  <kap><tld/>o, <var><kap>Bastjano</kap></var></kap>
-  <uzo tip="fak">NOM</uzo>
+  <kap><tld/>o, <var><kap><tld var="j"/>o</kap></var></kap>
   <snc>
-    <dif>
-      Vira <ref tip="lst" lst="voko:personaj_nomoj" cel="nom.persona0o.GEN">persona nomo</ref>,
-      mallonga formo de <ref tip="sin" cel="sebastian.0o">Sebastiano</ref>:
+  <uzo tip="fak">NOM</uzo>
+  <dif>
+      Vira <ref tip="lst" lst="voko:personaj_nomoj"
+      cel="nom.persona0o.GEN">persona nomo</ref>,
+      mallonga formo de <ref tip="sin"
+      cel="sebastian.0o">Sebastiano</ref>:
       <ekz>
-        Georgo! Konrado! <tld/>o! Marteno! Donu ja almena&ubreve; signon de vivo!
+        Georgo! Konrado! <tld/>o! Marteno! Donu ja almena&ubreve; signon de
+        vivo!
         <fnt>
           <bib>Rabistoj</bib>
           <lok>Akto Kvina</lok>
         </fnt>;
       </ekz>
       <ekz>
-        mi estas Bastjano, la knabo diris, Bastjano Baltazaro Buks'
+        mi estas <tld var="j"/>o, la knabo diris, <tld var="j"/>o Baltazaro Buks'
         <fnt>
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
@@ -32,15 +35,18 @@
       </ekz>
     </dif>
     <trd lng="de">Bastian</trd>
+    <trd lng="fr">Bastien</trd>
   </snc>
 </drv>
 
   </art>
 
 <!--
-$Log: bastian.xml,v $
-Revision 1.1  2019/09/04 19:10:21  revo
-Wolfram Diestel: nova artikolo
+$Log$
+versio 1.3 2020/09/09 18:10:38
+Wolfram Diestel: +tld-var
 
+versio 1.2 2020/05/14 12:11:58
+Damien Brucker: +trd fr
 -->
 </vortaro>

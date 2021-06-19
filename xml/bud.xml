@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: bud.xml,v 1.24 2018/02/07 13:10:15 revo Exp $">
+<art mrk="$Id: bud.xml,v 1.26 2021/03/05 18:27:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bud</rad>/o
@@ -75,6 +74,10 @@
     <trd>resserre</trd>,
     <trd>stand <klr tip="ind">(dans une exposition)</klr></trd>
   </trdgrp>
+  <trdgrp lng="he">
+    <trd>&#x5E1;&#x5D5;&#x5DB;&#x5D4;</trd>,
+    <trd>&#x5D3;&#x5D5;&#x5DB;&#x5DF;</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>b&oacute;d&eacute;</trd>,
     <trd>f&uuml;lke</trd>
@@ -112,13 +115,36 @@
       <ekz>
         La balotbudo estis adoptita en 1872 de Unui&gcirc;inta re&gcirc;lando, en
         1877 de Belgio kaj en 1903 de Germanio.
-        <fnt><bib>Viki</bib>, <lok><url 
-    ref="http://eo.wikipedia.org/wiki/Balotbudo">balotbudo</url></lok></fnt>
+        <fnt><bib>Viki</bib>, <lok><url ref="http://eo.wikipedia.org/wiki/Balotbudo">balotbudo</url></lok></fnt>
       </ekz>
     </dif>
   </snc>
   <trd lng="en">voting booth</trd>
   <trd lng="fr">isoloir</trd>
+</drv>
+
+<drv mrk="bud.muzik0o">
+  <kap>
+    muzik<tld/>o
+  </kap>
+  <snc mrk="bud.muzik0o.ARKI">
+    <uzo tip="fak">ARKI</uzo>
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <tld lit="B"/>o kun podio kaj tegmento, ordinare en&gcirc;ardena a&ubreve; surplaca, en kiu oni
+      muzikas por la &ccirc;irka&ubreve;a publiko;
+      <ref tip="sin" cel="kiosk.muzik0o.ARKI">muzikkiosko</ref>:
+      <ekz>
+        <nom>Winston</nom> posedas la muzik<tld/>on en la Ponta Strato
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="https://epo.wikitrans.net/List_of_EastEnders_characters_(1986)">Listo de EastEnders-karakteroj (1986)</url></vrk>
+          <lok>Wikitrans, 2017-09-10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">kiosque &agrave; musique</trd>
 </drv>
 
 <drv mrk="bud.prov0o">
@@ -129,16 +155,13 @@
       <tld lit="B"/>o en vestvendejo, en kiu oni povas lasi la vestojn 
       kaj surmeti aliajn por provo:
       <ekz>
-        &leftquot;mi volus provmeti tiun mamzonon en la
-        montrofenestro.&rightquot;
+        &leftquot;mi volus provmeti tiun mamzonon en la montrofenestro.&rightquot;
         &leftquot;Nu vidu, sinjorino&rightquot; respondas la vendistino,
-        &leftquot;prefere vi faru 
-        tion en la prov<tld/>o...&rightquot;
+        &leftquot;prefere vi faru tion en la prov<tld/>o...&rightquot;
         <fnt>
-          <aut>R. Cash</aut>,
-          <vrk><url
-          ref="http://groups.yahoo.com/group/esperanto-anekdotoj">
-          esperanto-anekdotoj</url></vrk>,
+          <aut>R. Cash</aut>
+          <vrk><url ref="http://groups.yahoo.com/group/esperanto-anekdotoj">
+          esperanto-anekdotoj</url></vrk>
           <lok>[vidita en 2007-03]</lok>
         </fnt>.
       </ekz>
@@ -164,13 +187,11 @@
       <tld lit="B"/>o en publika loko, en kiu oni povas uzi telefonon:
       <ekz>
         la instruistoj subite a&ubreve;das la vo&ccirc;on de Susano ene
-        de la 
-        telefon<tld/>o
+        de la telefon<tld/>o
         <fnt>
-          <aut>A. &Ubreve;esto</aut>,
-          <vrk><url
-          ref="http://www.dysmey.org/eo/eseoj/doktorokiu.html">
-          Doktoro Kiu</url></vrk>,
+          <aut>A. &Ubreve;esto</aut>
+          <vrk><url ref="http://www.dysmey.org/eo/eseoj/doktorokiu.html">
+          Doktoro Kiu</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
@@ -194,12 +215,11 @@
   </trdgrp>
   <trd lng="sk">telef&oacute;nna b&uacute;dka</trd>
 </drv>
-
 </art>
 <!--
-$Log: bud.xml,v $
-Revision 1.24  2018/02/07 13:10:15  revo
-Michel Cantigneaux: aldono de balotbudo + trd-fr-en
+$Log$
+versio 1.25 2020/08/18 22:32:27
+Jeromo Vasxe: + muzik~o
 
 Revision 1.23  2015/10/06 12:10:18  revo
 Evandro Avellar: +trd pt

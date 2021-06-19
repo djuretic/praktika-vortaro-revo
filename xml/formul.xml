@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: formul.xml,v 1.26 2020/02/14 17:10:21 revo Exp $">
+<art mrk="$Id: formul.xml,v 1.68 2021/06/18 20:41:37 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>formul</rad>/o
@@ -21,11 +20,24 @@
         <ekz>
           por kalkuli la volumenon de la piramido &scirc;i uzis la 
           <tld/>on
-          <frm am="v=qh//3"
-          ><k>v</k> = <k>q</k><k>h</k>/3</frm>;
+          <frm am="v=qh//3"><k>v</k> = <k>q</k><k>h</k>/3</frm>;
         </ekz>
         <ekz>
-          lia <tld/>o donas tre bonan aproksimon de la vera valoro.
+          lia <tld/>o donas tre bonan aproksimon de la vera valoro;
+        </ekz>
+        <ekz>
+          oni vidos facile la eblon konstrui &gcirc;uste tian sunhorlo&gcirc;on, se oni ser&ccirc;os la
+          <tld/>ojn liverantajn x, y kaj &delta;
+          <fnt>
+            <bib>FK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la <tld/>oj montras, videble, ke M estas la projekcio horizonta de la punkto m,
+          kiu respondas al la horo h sur la rondo tagnoktegaliga, farita per la radio C
+          <fnt>
+            <bib>FK</bib>
+          </fnt>.
         </ekz>
       </dif>
       <ref tip="super" cel="esprim.0o.KOMP">esprimo</ref>
@@ -69,8 +81,14 @@
            <tld/>o de juro<fnt>B</fnt>,
          </ekz>
          <ekz>
-           de &gcirc;entileco.
+           de &gcirc;entileco;
          </ekz>
+          <ekz>
+            la formulo edziga
+            <fnt>
+              <bib>BdV</bib>
+            </fnt>.
+          </ekz>
        </dif>
        <trd lng="de">Redeformel</trd>
        <trd lng="hu">formula</trd>
@@ -141,65 +159,133 @@
       <trd>formularium</trd>
     </trdgrp>
   </snc>
-  <snc mrk="formul.0aro.radika">
+  <snc mrk="formul.0aro.POL">
+    <uzo tip="fak">POL</uzo><uzo tip="fak">KOMP</uzo>
+    <fnt><bib>FK</bib></fnt>
     <dif>
-      Papero sur kiu estas presita &scirc;ablono de dokumento, en kiu
-      estas lasita spaco kiun koncernuloj plenigas per okazaj
-      informoj (nomoj, datoj, monsumoj ktp):
+      <ref tip="super" cel="sxablo.0a.TEK">&Scirc;ablona</ref>
+      <ref tip="super" cel="dokume.0o">dokumento</ref>, en kiu estas lasita spaco kiun 
+      koncernuloj plenigas per okazaj informoj (nomoj, datoj, monsumoj ktp):
       <ekz>
-        la diversaj pozicioj en la <tld/>aroj estas komparataj,
-        oni kvitancas ... <fnt><aut>&Z;</aut> <lok>la&ubreve; PIV.</lok>
+        &scirc;ranketoj por konservado de <tld/>aroj, stampiloj, koloriga&jcirc;o, fadenoj, &scirc;nuretoj,
+        sigelvakso
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la diversaj pozicioj en la <tld/>aroj estas komparataj, oni kvitancas, rapidaj
+        manoj portas trans la havena ponto la po&scirc;tajn sakojn el la &scirc;ipo sur la bordon
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homarana <tld/>aro proponas ja modelon tre praktikan por estontaj demandaroj
+        oficialaj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oficialaj <tld/>aroj por akiri pasporton a&ubreve; permesilon por konduki a&ubreve;tomobilon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="https://www.monato.be/2005/008422.php">Disleksio</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en Estonio 90&#x202F;% de la civitanoj plenigas sian imposto<tld/>aron interrete
+        <fnt>
+          <bib>Monato</bib>
+          <aut>pp</aut>
+          <vrk><url ref="https://www.monato.be/2011/010386.php">Estonio instruas Belgion</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        britoj plenigis siajn plurpa&gcirc;ajn censo-<tld/>arojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2013/010948.php">Kredu je la nekredantoj!</url></vrk>
+          <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="al.0igxilo">ali&gcirc;ilo</ref>,
+      <ref cel="abon.0ilo">abonilo</ref>,
+    </refgrp>
+    <ref tip="malprt" cel="dialog.0o.KOMP">dialogo<sncref/></ref>
     <rim>
-      Fakte tiu senco ne estas derivebla el <tld/>o, kaj devus
-      esti registrita kiel aparta radiko; oni anka&ubreve; proponis
-      malkonfuzi per la vorto <ctl>formulario</ctl>. En la
-      praktiko tamen pli ofte estas uzataj pli precizaj vortoj
-      formitaj per -ilo:
-      <refgrp tip="sub">
-        <ref cel="al.0igxilo">ali&gcirc;ilo</ref>,
-        <ref cel="abon.0ilo">abonilo</ref>,
-      </refgrp>
-      demandilo ktp.
+      Estas disputeble &ccirc;u oni konsideru tiun &ccirc;i sencon kiel 
+      deriva&jcirc;o de <ref cel="formul.0o.vorta">formulo<sncref/></ref> a&ubreve; de
+      aparta radiko &leftquot;formular/&rightquot;.
     </rim>
     <trd lng="de">Formular</trd>
-    <trdgrp lng="en">
-      <trd>form</trd>, <trd>blank</trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>&udblac;rlap</trd>,
-      <trd>blanketta</trd>
-    </trdgrp>
-    <trd lng="nl">formulier</trd>
-    <trdgrp lng="pl">
-      <trd>formularz</trd>,
-      <trd>blankiet</trd>
-    </trdgrp> 
-    <trdgrp lng="ru">
-      <trd>&c_f;&c_o;&c_r;&c_m;&c_u;&c_l;&c_ja;&c_r;</trd>,
-      <trd>&c_b;&c_l;&c_a;&c_n;&c_k;</trd>
-    </trdgrp>
+    <trd lng="en">form</trd>
   </snc>
+  <trd lng="af">vorm</trd>
+  <trd lng="am">&#x1245;&#x133D;</trd>
+  <trd lng="ar">&#x634;&#x643;&#x644;</trd>
   <trd lng="be">&c_f;&c_a;&c_r;&c_m;&c_u;&c_l;&c_ja;&c_r;</trd>
+  <trd lng="bn">&#x9AB;&#x9B0;&#x9CD;&#x9AE;</trd>
+  <trd lng="bs">oblik</trd>
+  <trd lng="co">furmulariu</trd>
   <trdgrp lng="cs">
     <trd>kniha vzorc&uring;</trd>,
     <trd>sb&iacute;rka vzorc&uring;</trd>
   </trdgrp>
+  <trd lng="da">formular</trd>
   <trd lng="es">formulario</trd>
+  <trd lng="et">vorm</trd>
+  <trd lng="eu">formulario</trd>
   <trdgrp lng="fr">
     <trd>formulaire</trd>,
     <trd>formule<klr tip="ind"> (imprim&eacute; standard)</klr></trd>,
     <trd>bordereau</trd>
   </trdgrp>
+  <trd lng="fy">foarm</trd>
+  <trd lng="gl">forma</trd>
+  <trd lng="gu">&#xAAB;&#xACB;&#xAB0;&#xACD;&#xAAE;</trd>
+  <trd lng="hi">&#x92B;&#x93E;&#x930;&#x94D;&#x92E;</trd>
+  <trd lng="hr">obrazac</trd>
+  <trd lng="hy">&#x571;&#x565;&#x582;&#x568;</trd>
+  <trd lng="is">mynd</trd>
+  <trd lng="ja">&#x30D5;&#x30A9;&#x30FC;&#x30E0;</trd>
+  <trd lng="jw">wangun</trd>
+  <trd lng="ka">&#x10E4;&#x10DD;&#x10E0;&#x10DB;&#x10D0;</trd>
+  <trd lng="km">&#x179F;&#x17C6;&#x178E;&#x17BB;&#x17C6;&#x1794;&#x17C2;&#x1794;&#x1794;&#x1791;</trd>
+  <trd lng="ko">&#xC591;&#xC2DD;</trd>
+  <trd lng="lo">&#xEAE;&#xEB9;&#xE9A;&#xEC1;&#xE9A;&#xE9A;</trd>
+  <trd lng="ml">&#xD30;&#xD42;&#xD2A;&#xD02;</trd>
+  <trd lng="mr">&#x92B;&#x949;&#x930;&#x94D;&#x92E;</trd>
+  <trd lng="my">&#x1015;&#x102F;&#x1036;&#x101E;&#x100F;&#x1039;&#x100C;&#x102C;&#x1014;&#x103A;</trd>
+  <trd lng="ny">mawonekedwe</trd>
+  <trd lng="pa">&#xA2B;&#xA3E;&#xA30;&#xA2E; &#xA28;&#xA42;&#xA70;</trd>
+  <trd lng="ps">&#x641;&#x648;&#x631;&#x645;&#x647;</trd>
+  <trd lng="sd">&#x641;&#x627;&#x631;&#x645;</trd>
+  <trd lng="si">&#xD86;&#xD9A;&#xDD8;&#xDAD;&#xDD2; &#xDB4;&#xDAD;&#xDCA;&#xDBB;&#xDBA;</trd>
   <trd lng="sk">kniha vzorcov</trd>
+  <trd lng="sq">form&#xEB;</trd>
+  <trd lng="st">foromo</trd>
+  <trd lng="ta">&#xBB5;&#xB9F;&#xBBF;&#xBB5;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC30;&#xC42;&#xC2A;&#xC02;</trd>
+  <trd lng="th">&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A;</trd>
+  <trd lng="tl">paraan</trd>
+  <trd lng="ur">&#x641;&#x627;&#x631;&#x645;</trd>
+  <trd lng="vi">h&#xEC;nh th&#x1EE9;c</trd>
+  <trd lng="yi">&#x5E4;&#x5D0;&#x5B8;&#x5E8;&#x5E2;&#x5DD;</trd>
+  <trd lng="zu">ifomu</trd>
 </drv>
 
 <drv mrk="formul.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="formul.0i.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
       Esprimi per <tld/>oj:
@@ -268,7 +354,13 @@
 </drv>
 </art>
 <!--
-$Log: formul.xml,v $
+$Log$
+versio 1.28 2020/06/22 09:33:07
+Wolfram Diestel: kor. tld
+
+versio 1.27 2020/06/22 06:32:59
+Wolfram Diestel: ~o/~aro 2: ekz-oj; aktualigis dif/rim ~aro 2
+
 Revision 1.26  2020/02/14 17:10:21  revo
 Wolfram Diestel: formuloj per am
 
@@ -284,12 +376,5 @@ aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2014/07/30 06:10:12  revo
 Guillermo Molleda Jimena: Hispana tradukado
-
-Revision 1.21  2007/12/07 17:30:21  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.20  2007/06/05 16:31:11  revo
-Tulio Flores: +tr pt
-
 -->
 </vortaro>

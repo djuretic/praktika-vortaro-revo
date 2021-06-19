@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: bril.xml,v 1.27 2017/08/26 22:10:16 revo Exp $">
+<art mrk="$Id: bril.xml,v 1.77 2021/06/18 20:41:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bril</rad>/i <fnt><bib>PV</bib></fnt>
@@ -14,10 +13,74 @@
     <dif>
       Eligi a&ubreve; resendi helan lumon:
       <ekz>
-        <tld/>as suno, oro, spegulo, polurita metalo, blanka ne&gcirc;o;
+        la luno <tld/>is tra la fenestro sur la mezon de la planko
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        liaj okuloj <tld/>is pro plezuro;
+        frue matene <klr>[&#x2026;]</klr> la suno ek<tld/>is super la akvo
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 3:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la akvo <klr>[&#x2026;]</klr> <tld/>is kiel oro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        altaj bluaj montoj, sur kies suproj <tld/>is la blanka ne&gcirc;o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ek<tld/>is fulmoj unu post alia
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        liaj okuloj <tld/>is <klr>[&#x2026;]</klr>, li havis belegajn longajn harojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plandoj de iliaj piedoj <klr>[&#x2026;]</klr> <tld/>is kiel hela pura kupro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 1:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        floroj <klr>[&#x2026;]</klr>, ru&gcirc;aj kaj bluaj, <tld/>is &ccirc;e la muroj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la plafono <tld/>is lampiroj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> <tld/>is kiel diamantoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>ne &ccirc;io <tld/>anta estas diamanto</ind>
@@ -29,17 +92,20 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="or.0o">oro</ref>.
-    </refgrp>
-    <refgrp tip="vid">
+      <ref cel="blink.0i">blinki</ref>,
       <ref cel="fajr.0i">fajri</ref>,
       <ref cel="flagr.0i">flagri</ref>,
       <ref cel="flam.0i">flami</ref>,
       <ref cel="fulm.0i">fulmi</ref>,
       <ref cel="glim">glimi</ref>,
       <ref cel="hel">heli</ref>,
-      <ref cel="lum.0i">lumi</ref>.
+      <ref cel="lum.0i">lumi</ref>,
+      <ref cel="radi.0i">radii</ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>scheinen</trd>,
+      <trd>glitzern</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>b&lstroke;yszcze&cacute;</trd>,
       <trd>l&sacute;ni&cacute;</trd>,
@@ -50,16 +116,23 @@
   <snc mrk="bril.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Altiri la atenton per sia prospereco, eleganteco, lukso:
+      Altiri la atenton per sia prospereco, eleganteco, lukso, spriteco:
       <ekz>
-        <tld/>anta sukceso, festo, societo, stato, sano.
+        la sukceso estis <tld/>anta, preska&ubreve; &ccirc;iuj pagis
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ruinigita nobelo <klr>[&#x2026;]</klr> revis pli <tld/>antan sorton
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="flor.0i">flori</ref>
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="juvel.0o">juvelo</ref>
+      <ref cel="flor.0i.prosperi">flori<sncref/></ref>,
+      <ref cel="juvel.0o.FIG">juvelo<sncref/></ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -86,7 +159,6 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>gl&auml;nzen</trd>,
-    <trd>scheinen</trd>
   </trdgrp>
   <trd lng="en">to shine</trd>
   <trd lng="es">brillar</trd>
@@ -94,7 +166,9 @@
     <trd>briller</trd>,
     <trd>luire</trd>
   </trdgrp>
+  <trd lng="he">&lamed;&zayin;&he;&vav;&resh;</trd>
   <trd lng="hu">ragyog</trd>
+  <trd lng="ne">&#x918;&#x93E;&#x92E; &#x932;&#x93E;&#x917;&#x94B;&#x938;&#x94D;</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_l;&c_je;&c_s;&c_t;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_b;&c_l;&c_i;&c_s;&c_t;&c_a;&c_t;&c_mol;</trd>,
@@ -114,17 +188,93 @@
     <dif>
       Hellumo sendata de io:
       <ekz>
-        <tld/>o de fajro, de kvarco;
+        la <tld/>o de la luno
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 60:19</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        &ccirc;e la <tld/>o de la luno;
+        mi vidis kvaza&ubreve; helegan <tld/>on, kvaza&ubreve; fajron interne kaj &ccirc;irka&ubreve;e
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 1:27</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        ni ne lasu nin trompi per la <tld/>o de la vortoj.
+        la lampo lumas al vi per sia <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 11:36</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tutan tagon ni havis sun<tld/>on
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rigardu &ccirc;i tie la <tld/>on de la &ccirc;ielarko
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Lasta perlo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la suno <klr>[&#x2026;]</klr> mallevi&gcirc;is kaj la roza <tld/>o estingi&gcirc;is sur la maro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la norda <tld/>o <klr>(vd <ref cel="lum.nord0o">nordlumo</ref>)</klr> 
+        flamis super la glacimontoj de la nordo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni eniris en pre&gcirc;ejon, kiu kun siaj pentra&jcirc;oj sur ora grundo radiis en plena
+        <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de la kandeloj ili lumis kiel folioj de tulipoj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kia <tld/>o kaj kia beleco estis en la salonoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        juna knabino kun lumantaj okuloj, kun la <tld/>o de saneco sur la vangoj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kvin en unu silikvo</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="radi.0o.energielsendo">radio<sncref/></ref>
+    </refgrp>
   </snc>
+  <trd lng="af">skyn</trd>
+  <trd lng="am">&#x12A0;&#x1265;&#x122B;</trd>
+  <trd lng="ar">&#x62A;&#x623;&#x644;&#x642;</trd>
+  <trd lng="az">parlaq</trd>
   <trdgrp lng="be">
     <trd>&c_b;&c_l;&c_ja;&c_s;&c_k;</trd>,
     <trd>&c_z;&c_mol;&c_z;&c_ja;&c_n;&c_mol;&c_n;&c_je;</trd>,
@@ -134,11 +284,15 @@
     <trd>&c_b;&c_l;&c_ja;&c_s;&c_malmol;&c_k;</trd>,
     <trd>&c_s;&c_i;&c_ja;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="bn">&#x989;&#x99C;&#x9CD;&#x99C;&#x9CD;&#x9AC;&#x9B2;</trd>
+  <trd lng="bs">sjaj</trd>
+  <trd lng="co">beddhu</trd>
   <trdgrp lng="cs">
     <trd>lesk</trd>,
     <trd>z&aacute;&rcaron;</trd>,
     <trd>z&aacute;&rcaron;e</trd>
   </trdgrp>
+  <trd lng="da">skinne</trd>
   <trdgrp lng="de">
     <trd>Glanz</trd>,
     <trd>Schein</trd>
@@ -151,21 +305,59 @@
     <trd>brillo</trd>,
     <trd>resplandor</trd>
   </trdgrp>
+  <trd lng="et">s&#xE4;ra</trd>
+  <trd lng="eu">distira</trd>
   <trd lng="fr">&eacute;clat <klr tip="ind">(lueur)</klr></trd>
+  <trd lng="fy">glans</trd>
+  <trd lng="gl">brillo</trd>
+  <trd lng="gu">&#xA9A;&#xAAE;&#xA95;&#xAB5;&#xABE;</trd>
+  <trd lng="ha">haske</trd>
+  <trdgrp lng="he">
+    <trd>&zayin;&vav;&he;&resh;</trd>,
+    <trd>&bet;&resh;&qof;</trd>
+  </trdgrp>
+  <trd lng="hi">&#x91A;&#x92E;&#x915;</trd>
+  <trd lng="hr">sjaj</trd>
   <trd lng="hu">ragyog&aacute;s</trd>
+  <trd lng="hy">&#x583;&#x561;&#x575;&#x56C;</trd>
+  <trd lng="is">sk&#xED;na</trd>
+  <trd lng="ja">&#x8F1D;&#x304D;</trd>
+  <trd lng="jw">jenenge sing kawentar</trd>
+  <trd lng="ka">&#x10E8;&#x10D0;&#x10D8;&#x10DC;&#x10D8;</trd>
+  <trd lng="km">&#x1785;&#x17C2;&#x1784;&#x1785;&#x17B6;&#x17C6;&#x1784;</trd>
+  <trd lng="ko">&#xAD11;&#xD0DD;</trd>
+  <trd lng="lo">&#xE82;&#xEAD;&#xE87;</trd>
+  <trd lng="ml">&#xD24;&#xD3F;&#xD33;&#xD15;&#xD4D;&#xD15;&#xD02;</trd>
+  <trd lng="mr">&#x92A;&#x94D;&#x930;&#x915;&#x93E;&#x936;&#x923;&#x947;</trd>
+  <trd lng="my">&#x1010;&#x1031;&#x102C;&#x1000;&#x103A;&#x1015;</trd>
+  <trd lng="ny">kwanu</trd>
+  <trd lng="pa">&#xA1A;&#xA3E;&#xA28;&#xA23;</trd>
   <trdgrp lng="pl">
     <trd>blask</trd>,
     <trd>l&sacute;nienie</trd>
   </trdgrp>
+  <trd lng="ps">&#x647;&#x631;&#x685;&#x646;&#x6AB;&#x647;</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_l;&c_je;&c_s;&c_k;</trd>,
     <trd>&c_s;&c_i;&c_ja;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="sd">&#x631;&#x648;&#x634;&#x646;</trd>
+  <trd lng="si">&#xD94;&#xDB4; &#xDAF;&#xDB8;&#xDB1;</trd>
   <trdgrp lng="sk">
     <trd>&zcaron;iara</trd>,
     <trd>lesk</trd>,
     <trd>ligot</trd>
   </trdgrp>
+  <trd lng="sq">shndrit</trd>
+  <trd lng="st">le khanye ka</trd>
+  <trd lng="ta">&#xBAA;&#xBBF;&#xBB0;&#xB95;&#xBBE;&#xB9A;&#xBBF;</trd>
+  <trd lng="te">&#xC2C;&#xC3E;&#xC17;&#xC3E; &#xC1A;&#xC47;&#xC2F;&#xC41;</trd>
+  <trd lng="th">&#xE40;&#xE07;&#xE32;&#xE07;&#xE32;&#xE21;</trd>
+  <trd lng="tl">kinang</trd>
+  <trd lng="ur">&#x686;&#x645;&#x6A9;</trd>
+  <trd lng="vi">t&#x1ECF;a s&#xE1;ng</trd>
+  <trd lng="yi">&#x5E9;&#x5D9;&#x5D9;&#x5B7;&#x5E0;&#x5E2;&#x5DF;</trd>
+  <trd lng="zu">inkazimulo</trd>
 </drv>
 
 <drv mrk="bril.0a">
@@ -174,10 +366,38 @@
     <dif>
       <tld lit="B"/>anta:
       <ekz>
-        <tld/>a festo, kura&gcirc;a&jcirc;o, venko, stilo;
+        jen apud ili staris du viroj en <tld/>aj vestoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 24:4</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>e glorigi iun<fnt>B</fnt>.
+        neniam vidi la <tld/>an sunon
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi trovi&gcirc;as en la plej <tld/>a situacio
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La ombro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la adia&ubreve;o <klr>[li]</klr> donis al ili <tld/>an tran&ccirc;ilon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i estis forportonta la <tld/>an akvon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fidela Johano</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -208,6 +428,7 @@
     <trd>&c_s;&c_v;&c_je;&c_t;&c_je;&c_shch;</trd>,
     <trd>&c_s;&c_i;&c_ja;&c_je;&c_shch;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF60;&#xF7C;&#xF51;&#xF0B;&#xF42;&#xF66;&#xF63;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>jiskrn&yacute;</trd>,
     <trd>n&aacute;dhern&yacute;</trd>,
@@ -215,10 +436,12 @@
     <trd>skv&ecaron;l&yacute;</trd>,
     <trd>z&aacute;&rcaron;iv&yacute;</trd>
   </trdgrp>
-   <trdgrp lng="en">
+   <trd lng="de">gl&auml;nzend</trd>
+  <trdgrp lng="en">
       <trd>bright</trd>,
       <trd>shiny</trd>, <trd>shining</trd>, <trd>brilliant</trd>
     </trdgrp>
+  <trd lng="he">&zayin;&vav;&he;&resh;</trd>
   <trdgrp lng="sk">
     <trd>&zcaron;iariv&yacute;</trd>,
     <trd>leskl&yacute;</trd>,
@@ -233,17 +456,49 @@
     <dif>
       Malgranda, malforta <tld/>o:
       <ekz>
+        en la oriento montri&gcirc;is <tld/>eto de lumo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        super &ccirc;io estis ia blua <tld/>eto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i gardis tiun flamon, kvaza&ubreve; lum<tld/>eton de lampo sankta
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
-        <tld/>eto de kontenteco &scirc;teliris trans lia viza&gcirc;o.
+        &scirc;iaj okuloj <klr>[&#x2026;]</klr> ser&ccirc;is sur la viza&gcirc;o de la nejuna virino tiun
+        <tld/>eton de kortu&scirc;iteco kaj bondezireco
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="alud.0i">aludo</ref>,
+      <ref cel="lum.ek0igi">eklumigi</ref>,
+      <ref cel="glim.0o">glimo</ref>,
+      <ref cel="nuanc.0o">nuanco</ref>,
+      <ref cel="radi.0o.brila">radio<sncref/></ref>
+    </refgrp>    
   </snc>
+  <trd lng="de">Schimmer</trd>
   <trd lng="fr">lueur</trd>
 </drv>
 
 <drv mrk="bril.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc mrk="bril.ma0a.lume">
+  <snc mrk="bril.mal0a.lume">
     <dif>
       Kiu ne a&ubreve; malmulte <tld/>as:
       <ekz>
@@ -253,14 +508,24 @@
           <aut>D. Galad&iacute;-Enr&iacute;quez, A. Wandel</aut>,
           <vrk>La Kosmo kaj Ni</vrk>,
           <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lumvazoj brulis pli kaj pli mal<tld/>aj kaj ilia lumo ekpulsis
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Goabo, la dezerto de la Koloroj</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de"><ind>matt</ind> gl&auml;nzend</trd>
   </snc>
-  <snc mrk="bril.ma0a.FIG">
+  <snc mrk="bril.mal0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Maleminenta, senefekta, sobra:
+      <ref cel="eminen1.mal0a">Maleminenta</ref>, senefekta, 
+      <ref cel="sobr.0a.FIG">sobra</ref>:
       <ekz>
         mi &ccirc;iam konsideris lin mal<tld/>a homo:
         lerta malanta&ubreve; la kuliso, sed ne aparte rimarkinda
@@ -268,10 +533,29 @@
           <aut>A. L&ouml;wenstein</aut>,
           <vrk>Morto de Artisto</vrk>,
           <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        orienta E&ubreve;ropo ne funkciis <tld/>e <klr>[&#x2026;]</klr>, same mal<tld/>e laboris suda
+        E&ubreve;ropo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2003/008156.html">Statistiko</url></vrk>
+          <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>blass <klr>(unscheinbar)</klr></trd>,
+      <trd>unscheinbar</trd>
+    </trdgrp>
   </snc>
+  <refgrp tip="vid">
+     <ref cel="obtuz.0a.sente">obtuza<sncref/></ref>,
+     <ref cel="pal.0a.nebrila">pala<sncref/></ref>,
+     <ref cel="sprit.sen0a">sensprita</ref>
+  </refgrp>
   <trdgrp lng="fr">
     <trd>falot</trd>,
     <trd>terne</trd>
@@ -284,9 +568,43 @@
     <dif>
       Lume speguli&gcirc;i:
       <ekz>
-        la steloj re<tld/>is en la lago.
+        la suno re<tld/>as en la klara akvo de la rivero
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 42</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        luma re<tld/>o en la klara trankvila maro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter la <klr>[&#x2026;]</klr> kolonoj brulis la lampoj, kaj ilia lumo malforte
+        re<tld/>is de la bronzaj genuoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> flamo re<tld/>is sur iliaj viza&gcirc;oj
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[jen]</klr> re<tld/>o de tiu fajro de malesperaj pensoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="reflek.0i">reflekti</ref>
+    <trd lng="de">sich <ind>widerspiegeln</ind></trd>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_d;&c_a;&c_c;&c_mol; <ind>
   &c_v;&c_o;&c_d;&c_b;&c_l;&c_je;&c_s;&c_k;</ind></trd>
@@ -316,15 +634,37 @@
     <dif>
       Intermite &jcirc;eti lumbriletojn:
       <ekz>
-        la sunlumo trem<tld/>is en la <klr>...</klr> kupoloj de la 
-        pre&gcirc;ejoj <fnt><bib>Voja&gcirc;Imp</bib>, 
-        <lok>&ccirc;e Lev Tolstoj en Jasnaja
-        Poljana</lok></fnt>;
+        la sunlumo trem<tld/>is en la <klr>[&#x2026;]</klr> kupoloj de la 
+        pre&gcirc;ejoj 
+        <fnt><bib>Voja&gcirc;Imp</bib>, 
+          <lok>&ccirc;e Lev Tolstoj en Jasnaja
+          Poljana</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la steloj trem<tld/>is en la silenta nokto.
+        <klr>[li]</klr> direktis la okulojn al la malhela fenestro, sur kiu trem<tld/>is
+        respeguli&gcirc;o de lia kandelo
+        <fnt>
+          <bib>LOdE</bib>
+          <aut>Anton &Ccirc;e&hcirc;ov, trad. Valentin Melnikov</aut>
+          <vrk>Iva&ccirc;jo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;ambron de la malsanulo inundadis timiga trem<tld/>a lumo
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        senfina trem<tld/>a strio de &scirc;tofo pufi&gcirc;is kiel ondo
+        <fnt>
+          <aut>Anna L&ouml;wenstein</aut>
+          <vrk>La &scirc;tona urbo</vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="flagr.0i">flagri</ref>    
   </snc>
   <trdgrp lng="be">
     <trd>&c_m;&c_ib;&c_g;&c_c;&c_je;&c_c;&c_mol;</trd>,
@@ -339,7 +679,8 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>flimmern</trd>,
-    <trd>glitzern</trd>
+    <trd>glitzern</trd>,
+    <trd>flackern</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>to sparkle</trd>,
@@ -366,9 +707,21 @@
 </drv>
 </art>
 <!--
-$Log: bril.xml,v $
-Revision 1.27  2017/08/26 22:10:16  revo
-Vito Redsky: +trd ro
+$Log$
+versio 1.33 2021/05/13 09:59:15
+Wolfram Diestel: kor. snc@mrk
+
+versio 1.32 2021/03/21 06:55:14
+Wolfram Diestel: +ref-oj
+
+versio 1.31 2021/03/20 19:43:35
+Wolfram Diestel: mal~a..trem~i: ekz-oj, trd de
+
+versio 1.30 2021/03/20 18:02:15
+Wolfram Diestel: ~o, ~a, ~eto: ekz-oj, ref-oj, trd de
+
+versio 1.29 2021/03/20 13:52:59
+Wolfram Diestel: ~i: ekz-oj
 
 Revision 1.26  2017/03/07 09:10:21  revo
 Lyubomir Vasilev: +trd bg
@@ -377,17 +730,5 @@ Revision 1.25  2016/06/03 20:10:25  revo
 Jeromo Vasxe: + ~eto mal~a
 
 Revision 1.24  2015/11/11 09:10:16  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.23  2015/10/07 15:10:16  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.22  2015/10/06 11:10:18  revo
-Evandro Avellar: +trd pt
-
-Revision 1.21  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.20  2015/06/29 16:29:36  revo
 -->
 </vortaro>

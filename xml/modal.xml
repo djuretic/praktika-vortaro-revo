@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: modal.xml,v 1.21 2020/02/15 18:10:19 revo Exp $">
+  <art mrk="$Id: modal.xml,v 1.24 2021/05/27 18:19:22 revo Exp $">
     <kap>
       <rad>modal</rad>/o
     </kap>
@@ -64,7 +64,8 @@
 	  Tiel uzas la vorton <ctl><tld/>o</ctl> PAG kaj PIV.
     </rim>
     <trd lng="be">&c_f;&c_o;&c_r;&c_m;&c_a; &c_d;&c_z;&c_je;&c_ja;&c_s;&c_l;&c_o;&c_v;&c_a;</trd>
-    <trd lng="hu">igealak</trd>	
+    <trd lng="hu">igealak</trd>
+    <trd lng="pl">modus</trd>	
     <trd lng="ru">&c_f;&c_o;&c_r;&c_m;&c_a; &c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;</trd>
   </snc>
   <snc mrk="modal.0o.MUZ">
@@ -90,7 +91,15 @@
 
   <trd lng="cs">modalita</trd>
   <trd lng="nl">modaliteit</trd>
+  <trdgrp lng="pl">
+    <trd>modus</trd>
+    <trd>posta&cacute; czasownika</trd>
+  </trdgrp>
   <trd lng="pt">modal</trd>
+  <trdgrp lng="ro">
+    <trd>modus</trd>
+    <trd>forma verbului</trd>
+  </trdgrp>
   <trd lng="sk">modalita</trd>
 </drv>
 
@@ -133,6 +142,8 @@
     <trd>mod&aacute;ln&iacute;</trd>,
     <trd>podm&iacute;n&ecaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="pl">modalny</trd>
+  <trd lng="ro">modal</trd>
   <trdgrp lng="sk">
     <trd>mod&aacute;lny</trd>,
     <trd>podmienen&yacute;</trd>
@@ -168,15 +179,16 @@
     </trdgrp>
     <trd lng="hu">mod&aacute;lis logika</trd>	
     <trd lng="en">modal logic</trd>
-    <trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
-&c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</trd>
   </snc>
 <trd lng="de">Modallogik</trd>
+<trd lng="pl">logika modalna</trd>
+<trd lng="ro">logica modal</trd>
 </drv>
 
-    <drv mrk="modal.verba0o">
-      <kap>verba <tld/>o</kap>
-      <snc>
+<drv mrk="modal.verba0o">
+  <kap>verba <tld/>o</kap>
+  <snc>
 	<uzo tip="fak">GRA</uzo>
 	<dif>
 	  <ref cel="modal.0o.GRA_modo"><tld lit="M"/>o<sncref/></ref>
@@ -210,54 +222,63 @@
 	  <trd>verbal <ind>modality</ind></trd>,
 	  <trd>mood</trd>
 	</trdgrp>
-    <trd lng="hu">igem&oacute;d</trd>	
+    <trd lng="hu">igem&oacute;d</trd>
 	<trdgrp lng="ru">
-	  <trd>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja;
-<ind>&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
-,
+	  <trd>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>,
 	  <trd>&c_n;&c_a;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je;<klr tip="amb"> (&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
 	</trdgrp>
-      </snc>
-        <trd lng="de">Modalverb</trd>
-    </drv>
-    <rim num="1">
-      PV kaj PIV markas &ccirc;i tiun radikon kiel Zamenhofan, sed Zamenhofa
-      ekzemplo mankas, kaj estas neklare, en kiu senco (kaj en kiu
-      formo) Zamenhof uzis tiun vorton.
-    </rim>
-    <rim num="2" mrk="modal.0.paronimoj">
-      La vortoj <tld/>o, <ref cel="mod1.0o">modo</ref>,
-      <ref cel="modus.0o">moduso</ref> estas etimologie parencaj,
-      devenante el Latina radiko kies sencoj estis <ctl>mezuro</ctl>,
-      <ctl>maniero</ctl>, <ctl>regulo</ctl>; la plej gravaj nocioj
-      devenas el la senco <ctl>maniero</ctl> tamen ili estas tre
-      malproksimaj kaj diversaj lingvoj malsame distribuas inter ili.
-      
-      La moderna internacia tendenco (a&ubreve; modo) &scirc;ajnas preferi
-la vorton
-      <ctl>modalo</ctl> por la <em>subjektiva</em> senco
-      <ctl>maniero pensi</ctl> (konforme al
-      <tld/>o<sncref ref="modal.0o.FIL"/>). Tiu &gcirc;enerala koncepto
-      nature kovras anka&ubreve; la sencon de verbaj <tld/>oj, kiujn la
-      esperanta gramatika tradicio beda&ubreve;rinde preferas misnomi
-      <ctl>modoj</ctl>.
-      
-      La tradicio filozofia uzas formon similan al
-      <ctl>moduso</ctl> por la <em>objektiva</em> senco
-      <ctl>maniero esti, aperi</ctl>
-      (<ref cel="modus.0o.FIL">moduso<sncref/></ref>).  La lingvoj
-      latinidaj uzas por la abstraktaj sencoj (kaj la objektivaj,
-      kaj la subjektivaj) virgenran <em>mode, modo</em>.  Esperanto
-      ne uzas gramatikan genron por sencodistingo, sed la uzo de
-      <ctl>moduso</ctl> ebligas lasi al la komunuza <ctl>modo</ctl>
-      nur la kutiman sencon de socia-personaj preferoj vestadaj kaj
-      kondutaj.
+  </snc>
+    <trd lng="de">Modalverb</trd>
+    <trd lng="pl">czasownik modalny</trd>
+    <trd lng="ro">verbe modale</trd>
+</drv>
 
-      <aut>Sergio Pokrovskij</aut>
-    </rim>
+  <rim num="1">
+    PV kaj PIV markas &ccirc;i tiun radikon kiel Zamenhofan, sed Zamenhofa
+    ekzemplo mankas, kaj estas neklare, en kiu senco (kaj en kiu
+    formo) Zamenhof uzis tiun vorton.
+  </rim>
+  <rim num="2">
+    La vortoj <tld/>o, <ref cel="mod1.0o">modo</ref>,
+    <ref cel="modus.0o">moduso</ref> estas etimologie parencaj,
+    devenante el Latina radiko kies sencoj estis <ctl>mezuro</ctl>,
+    <ctl>maniero</ctl>, <ctl>regulo</ctl>; la plej gravaj nocioj
+    devenas el la senco <ctl>maniero</ctl> tamen ili estas tre
+    malproksimaj kaj diversaj lingvoj malsame distribuas inter ili.
+    
+    La moderna internacia tendenco (a&ubreve; modo) &scirc;ajnas preferi
+    la vorton <ctl>modalo</ctl> por la <em>subjektiva</em> senco
+    <ctl>maniero pensi</ctl> (konforme al
+    <tld/>o<sncref ref="modal.0o.FIL"/>). Tiu &gcirc;enerala koncepto
+    nature kovras anka&ubreve; la sencon de verbaj <tld/>oj, kiujn la
+    esperanta gramatika tradicio beda&ubreve;rinde preferas misnomi
+    <ctl>modoj</ctl>.
+    
+    La tradicio filozofia uzas formon similan al
+    <ctl>moduso</ctl> por la <em>objektiva</em> senco
+    <ctl>maniero esti, aperi</ctl>
+    (<ref cel="modus.0o.FIL">moduso<sncref/></ref>).  La lingvoj
+    latinidaj uzas por la abstraktaj sencoj (kaj la objektivaj,
+    kaj la subjektivaj) virgenran <em>mode, modo</em>.  Esperanto
+    ne uzas gramatikan genron por sencodistingo, sed la uzo de
+    <ctl>moduso</ctl> ebligas lasi al la komunuza <ctl>modo</ctl>
+    nur la kutiman sencon de socia-personaj preferoj vestadaj kaj
+    kondutaj.
+
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
   </art>
   <!--
-  $Log: modal.xml,v $
+  $Log$
+versio 1.24 2021/05/27 18:19:22
+Wolfram Diestel: -rim@mrk
+
+versio 1.23 2021/05/13 14:51:51
+Wolfram Diestel: kor. rim@mrk
+
+versio 1.22 2021/01/24 18:10:31
+Vito Redsky: +trd pl +trd ro
+
   Revision 1.21  2020/02/15 18:10:19  revo
   Wolfram Diestel: formuloj per am
 
@@ -271,55 +292,5 @@ la vorton
   Wolfram Diestel: kor. mrk
 
   Revision 1.17  2017/12/24 00:10:33  revo
-  Wolfram Diestel: kor. mrk
-
-  Revision 1.16  2017/12/23 10:10:13  revo
-  Wolfram Diestel: +germ trd
-
-  Revision 1.15  2017/12/22 23:10:26  revo
-  Wolfram Diestel: kor. mrk, ekz-o por ~a logiko
-
-  Revision 1.14  2015/07/04 08:37:39  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.13  2015/06/29 16:33:20  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.12  2006/08/07 16:32:05  revo
-  Tulio Flores: +tr pt
-
-  Revision 1.11  2005/01/12 18:21:37  revo
-  Dmitri Gabinski: +trd be
-
-  Revision 1.10  2004/06/15 21:33:33  revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.9  2003/06/14 20:47:59  revo
-  Sergio Pokrovskij: +ekz
-
-  Revision 1.8  2003/06/13 16:30:53  revo
-  Sergio Pokrovskij: TEZ
-
-  Revision 1.7  2003/05/28 16:31:31  revo
-  Sergio Pokrovskij: poluro
-
-  Revision 1.6  2003/05/27 16:30:37  revo
-  Sergio Pokrovskij: poluro
-
-  Revision 1.5  2002/07/09 17:32:03  revo
-  Wolfram Diestel: kor. ref-cel
-
-  Revision 1.4  2002/07/07 17:31:39  revo
-  Wolfram Diestel: kor. snc-mrk-ojn
-
-  Revision 1.3  2001/10/23 18:33:06  revo
-  Paul Peeraerts: aldonis nl trd
-
-  Revision 1.2  2000/12/17 19:23:14  revo
-  kor. cirilan fakindikon
-
-  Revision 1.1  2000/12/17 18:55:06  revo
-  Sergio Pokrovskij: nova artikolo
-
-  -->
+-->
 </vortaro>

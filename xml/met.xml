@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: met.xml,v 1.48 2019/11/21 21:10:21 revo Exp $">
+<art mrk="$Id: met.xml,v 1.92 2021/06/19 06:38:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>met</rad>/i <fnt><bib>PV</bib></fnt>
@@ -81,7 +80,7 @@
           <tld/>i iun sur la tronon;
         </ekz>
         <ekz>
-          <tld/>i <klr>(prezenti)</klr> malgrandan <klr>[&#8230;]</klr>
+          <tld/>i <klr>(prezenti)</klr> malgrandan <klr>[&#x2026;]</klr>
           demandon
           <fnt>
             <bib>EE</bib>
@@ -214,6 +213,7 @@
     <trd>&c_p;&c_a;&c_k;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>,
     <trd>&c_z;&c_mol;&c_m;&c_ja;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF60;&#xF47;&#xF7C;&#xF42;&#xF0B;</trd>
   <trd lng="br">lakaat</trd>
   <trdgrp lng="cs">
     <trd>d&aacute;vat <klr>(n&ecaron;co n&ecaron;kam)</klr></trd>,
@@ -236,17 +236,29 @@
     <trd>tesz</trd>,
     <trd>helyez</trd>
   </trdgrp>
+  <trd lng="ne">&#x938;&#x947;&#x91F;</trd>
   <trdgrp lng="nl">
     <trd>zetten</trd>,
     <trd>plaatsen</trd>,
     <trd>leggen</trd>
   </trdgrp>
-  <trd lng="pl">k&lstroke;a&sacute;&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>k&lstroke;a&sacute;&cacute;</trd>,
+    <trd>na&lstroke;o&zdot;y&cacute;</trd>,
+    <trd>po&lstroke;o&zdot;y&cacute;</trd>,
+    <trd>stawia&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>p&ocirc;r</trd>,
     <trd>meter</trd>,
     <trd>colocar</trd>,
     <trd>botar</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>pune</trd>,
+    <trd>jos</trd>,
+    <trd>impune</trd>,
+    <trd>a&scedil;eza</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>da&tcaron;</trd>,
@@ -275,8 +287,7 @@
       </ekz>
       <ekz>
         li prenis kaj <tld/>is la ateston en la keston, kaj al<tld/>is
-        la 
-        stangojn al la kesto kaj sur<tld/>is la fermoplaton sur la
+        la stangojn al la kesto kaj sur<tld/>is la fermoplaton sur la
         keston supre
         <fnt>
           <bib>MT</bib>
@@ -314,38 +325,91 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">sit</trd>
+  <trd lng="am">&#x12A0;&#x1291;&#x122D;</trd>
+  <trd lng="ar">&#x648;&#x636;&#x639;</trd>
+  <trd lng="az">qoymaq</trd>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_k;&c_l;&c_a;&c_d;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bn">&#x995;&#x9B0;&#x9BE;</trd>
   <trdgrp lng="br">
     <trd>lakaat ouzhpenn</trd>,
     <trd>ouzhpenna&ntilde;</trd>
   </trdgrp>
+  <trd lng="co">mintiri</trd>
   <trdgrp lng="cs">
     <trd>doplnit</trd>,
     <trd>nastavit</trd>,
     <trd>p&rcaron;ilo&zcaron;it</trd>,
     <trd>p&rcaron;ipojit</trd>
   </trdgrp>
+  <trd lng="da">s&#xE6;tte</trd>
   <trdgrp lng="de">
     <trd>hinzuf&uuml;gen</trd>,
     <trd>anlegen</trd>,
     <trd><ind>legen</ind> an</trd>
   </trdgrp>
+  <trd lng="et">pane</trd>
+  <trd lng="eu">jarri</trd>
   <trd lng="fr">ajouter</trd>
+  <trd lng="fy">sette</trd>
+  <trd lng="gl">po&#xF1;er</trd>
+  <trd lng="gu">&#xAAE;&#xAC2;&#xA95;&#xAC0;</trd>
+  <trd lng="ha">sa</trd>
+  <trd lng="hi">&#x921;&#x93E;&#x932;</trd>
+  <trd lng="hr">staviti</trd>
   <trdgrp lng="hu">
     <trd>odatesz</trd>,
     <trd>odahelyez</trd>,
     <trd>hozz&aacute;tesz</trd>
   </trdgrp>
+  <trd lng="hy">&#x56B;</trd>
+  <trd lng="is">setja</trd>
+  <trd lng="ja">&#x7F6E;&#x304F;</trd>
+  <trd lng="jw">sijine</trd>
+  <trd lng="ka">&#x10DB;&#x10D0;</trd>
+  <trd lng="km">&#x178A;&#x17B6;&#x1780;&#x17CB;</trd>
+  <trd lng="ko">&#xB123;&#xC5B4;</trd>
+  <trd lng="lo">&#xEC0;&#xEAD;&#xEBB;&#xEB2;&#xEC3;&#xE88;&#xEC3;&#xEAA;&#xEC8;</trd>
+  <trd lng="ml">&#xD07;&#xD1F;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x920;&#x947;&#x935;&#x932;&#x947;</trd>
+  <trd lng="my">&#x1011;&#x102C;&#x1038;</trd>
+  <trd lng="ne">&#x921;&#x93E;&#x932;</trd>
   <trd lng="nl">toevoegen</trd>
-  <trd lng="pl">do&lstroke;o&zdot;y&cacute;</trd>
+  <trd lng="ny">kuika</trd>
+  <trd lng="pa">&#xA2A;&#xA3E;</trd>
+  <trd lng="pl"/>
+  <trdgrp lng="pl">
+    <trd>do&lstroke;o&zdot;y&cacute;</trd>,
+    <trd>do&lstroke;&aogonek;cza&cacute;</trd>,
+    <trd>za&lstroke;&aogonek;cza&cacute;</trd>,
+    <trd>przyk&lstroke;ada&cacute;</trd>,
+    <trd>przy&lstroke;o&zdot;y&cacute;</trd>
+  </trdgrp>
+  <trd lng="ps">&#x6A9;&#x693;&#x64A;</trd>
+  <trdgrp lng="ro">
+    <trd>ad&abreve;uga</trd>,
+    <trd>ata&#x219;are</trd>,
+    <trd>aplica</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sd">&#x648;&#x62C;&#x647;&#x64A;</trd>
   <trd lng="sk">prilo&zcaron;i&tcaron;</trd>
+  <trd lng="sq">vendos</trd>
+  <trd lng="st">beha</trd>
+  <trd lng="ta">&#xBB5;&#xBC8;&#xBA4;&#xBCD;&#xBA4;&#xBC1;</trd>
+  <trd lng="te">&#xC1A;&#xC3E;&#xC32;&#xC41;</trd>
+  <trd lng="th">&#xE43;&#xE2A;&#xE48;</trd>
+  <trd lng="tl">ilagay</trd>
+  <trd lng="ur">&#x688;&#x627;&#x644;</trd>
+  <trd lng="vi">&#x111;&#x1EB7;t</trd>
+  <trd lng="yi">&#x5E9;&#x5D8;&#x5E2;&#x5DC;&#x5DF;</trd>
+  <trd lng="zu">abeke</trd>
 </drv>
 
 <drv mrk="met.antaux0i">
@@ -405,7 +469,16 @@
     <trd>bemutat</trd>,
     <trd>el&odblac;ad</trd>
   </trdgrp>
-  <trd lng="pl">przedk&lstroke;ada&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>przedk&lstroke;ada&cacute;</trd>,
+    <trd>us&lstroke;ugiwa&cacute;</trd>,
+    <trd>nadstawia&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>prezenta</trd>,
+    <trd>servi</trd>,
+    <trd>&icirc;mbrac&abreve;-te</trd>
+  </trdgrp>
   <trd lng="sv">l&auml;gga fram</trd>
 </drv>
 
@@ -450,7 +523,16 @@
     <trd>umgeben</trd>
   </trdgrp>
   <trd lng="fr">entourer</trd>
-  <trd lng="pl">ob&lstroke;o&zdot;y&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>ob&lstroke;o&zdot;y&cacute;</trd>,
+    <trd>ok&lstroke;ada&cacute;</trd>,
+    <trd>obstawia&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>acoperi</trd>,
+    <trd>pumn</trd>,
+    <trd>pariu</trd>
+  </trdgrp>
   <trd lng="sv">omg&auml;rda med</trd>
 </drv>
 
@@ -562,7 +644,22 @@
     <trd>afdoen</trd>,
     <trd>uittrekken</trd>
   </trdgrp>
-  <trd lng="pl">zdj&aogonek;&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>zdj&aogonek;&cacute;</trd>,
+    <trd>odinstalowa&cacute;</trd>,
+    <trd>zdejmowa&cacute;</trd>,
+    <trd>osadza&cacute;</trd>,
+    <trd>zrzuca&cacute;</trd>,
+    <trd>odk&lstroke;ada&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>scoate&#x21B;i</trd>,
+    <trd>dezinstala&#x21B;i</trd>,
+    <trd>elimina&#x21B;i</trd>,
+    <trd>&icirc;ncorpora&#x21B;i</trd>,
+    <trd>l&abreve;sa&#x21B;i</trd>,
+    <trd>pune&#x21B;i deoparte</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>
@@ -579,8 +676,7 @@
 
 <drv mrk="met.el0i">
   <kap><ofc>*</ofc>el<tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5108">el'met'</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5108">el'met'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="met.el0i.prezenti">
     <dif>
@@ -683,7 +779,22 @@
     <trd>kitesz</trd>,
     <trd>kirak</trd>
   </trdgrp>
-  <trd lng="pl">wyk&lstroke;ada&cacute;</trd>
+  <trd lng="pl"/>
+  <trdgrp lng="pl">
+    <trd>wyk&lstroke;ada&cacute;</trd>,
+    <trd>eksponowa&cacute;</trd>,
+    <trd>wystawia&cacute;</trd>,
+    <trd>wytkn&aogonek;&cacute;</trd>,
+    <trd>podda&cacute;</trd>,
+    <trd>wyda&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>a-&#x219;i propune</trd>,
+    <trd>afi&#x219;a</trd>,
+    <trd>cheltui</trd>,
+    <trd>ar&abreve;ta</trd>,
+    <trd>expune</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>
@@ -701,8 +812,7 @@
         for<tld/>u tiun anta&ubreve;ju&gcirc;on
         <fnt>
           <aut>L. L. Zamenhof</aut>
-          <vrk><url
-          ref="https://eo.wikisource.org/wiki/Fundamenta_Krestomatio/El_la_unua_libro_de_la_lingvo_Esperanto">Fundamenta
+          <vrk><url ref="https://eo.wikisource.org/wiki/Fundamenta_Krestomatio/El_la_unua_libro_de_la_lingvo_Esperanto">Fundamenta
           Krestomatio</url></vrk>
         </fnt>;
       </ekz>
@@ -808,7 +918,18 @@
     <trd>f&eacute;lretesz</trd>,
     <trd>f&eacute;lrerak</trd>
   </trdgrp>
-  <trd lng="pl">odstawia&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>odstawia&cacute;</trd>,
+    <trd>zarzuca&cacute;</trd>,
+    <trd>zapodzia&cacute;</trd>,
+    <trd>pozby&cacute; si&eogonek;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>repro&#x219;a</trd>,
+    <trd>induce &icirc;n eroare</trd>,
+    <trd>scap&abreve;</trd>,
+    <trd>r&abreve;t&abreve;ci</trd>
+  </trdgrp>
   <trd lng="sk">odlo&zcaron;i&tcaron;</trd>
 </drv>
 
@@ -824,8 +945,7 @@
         surskribon: <ctl>for<tld/>ejo</ctl>
         <fnt>
           <aut>M. Aym&eacute;, trad. L. Beaucaire</aut>,
-          <vrk><url
-          ref="http://cindymckee.com/librejo/AYME_Marcel-La%20Murtrapasulo.pdf">
+          <vrk><url ref="http://cindymckee.com/librejo/AYME_Marcel-La%20Murtrapasulo.pdf">
           La murtrapasulo</url></vrk>,
           <lok>Nica Literatura Revuo, 1958-07 &gcirc;is 08 (3/6)</lok>
         </fnt>
@@ -838,6 +958,8 @@
     <trd>Abstellkammer</trd>
   </trdgrp>
   <trd lng="es">trastero</trd>
+  <trd lng="pl">sk&lstroke;ad rzeczy nieu&zdot;ywanych</trd>
+  <trd lng="ro">depozitarea articolelor neutilizate</trd>
   <trd lng="sk">smetisko</trd>
 </drv>
 
@@ -852,8 +974,7 @@
         tian trairadon
         <fnt>
           <aut>I. Ferreiro</aut>,
-          <vrk><url
-          ref="http://www.freeweb.hu/eventoj/steb/ingxenierado/konstruado/ladomo39/fasado.htm">
+          <vrk><url ref="http://www.freeweb.hu/eventoj/steb/ingxenierado/konstruado/ladomo39/fasado.htm">
           Fasadoj</url></vrk>,
           <lok>La Domo, 39</lok>
         </fnt>.
@@ -894,6 +1015,16 @@
     <trd>vmeze&rcaron;it</trd>,
     <trd>vsouvat</trd>,
     <trd>vsunout</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wtr&aogonek;ca&cacute;</trd>,
+    <trd>przek&lstroke;ada&cacute;</trd>,
+    <trd>zak&lstroke;ada&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>aresta</trd>,
+    <trd>&icirc;mbr&abreve;ca&#x21B;i</trd>,
+    <trd>&icirc;ntemeia</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>vklada&tcaron;</trd>,
@@ -963,7 +1094,21 @@
     <trd>&ouml;ssze&aacute;ll&iacute;t</trd>
   </trdgrp>
   <trd lng="nl">samenstellen</trd>
-  <trd lng="pl">sk&lstroke;ada&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>sk&lstroke;ada&cacute;</trd>,
+    <trd>gromadzi&cacute;</trd>,
+    <trd>z&lstroke;o&zdot;y&cacute;</trd>,
+    <trd>montowa&cacute;</trd>,
+    <trd>zbiera&cacute;</trd>,
+    <trd>zestawia&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>asambla</trd>,
+    <trd>colecta</trd>,
+    <trd>pune laolalta</trd>,
+    <trd>depune</trd>,
+    <trd>monta</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
@@ -1018,6 +1163,14 @@
     <trd>megrak</trd>,
     <trd>el&odblac;k&eacute;sz&iacute;t</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>uk&lstroke;ada&cacute;</trd>,
+    <trd>poda&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>aranja</trd>,
+    <trd>trece</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_je;&c_r;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
@@ -1043,8 +1196,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url
-          ref="&Monato;/2008/009298.php">Orient-azia
+          <vrk><url ref="&Monato;/2008/009298.php">Orient-azia
           itinero</url></vrk>
         </fnt>.
       </ekz>
@@ -1069,6 +1221,7 @@
     <trd><ind>placer</ind> apr&egrave;s</trd>
   </trdgrp>
   <trd lng="pl">po&lstroke;o&zdot;y&cacute; z ty&lstroke;u</trd>
+  <trd lng="ro">pus pe spate</trd>
   <trd lng="sv">st&auml;lla bakom</trd>
 </drv>
 
@@ -1141,6 +1294,16 @@
   <trdgrp lng="pl">
     <trd>podk&lstroke;ada&cacute;</trd>,
     <trd>podstawia&cacute;</trd>,
+    <trd>podda&cacute;</trd>,
+    <trd>podporz&aogonek;dkowa&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>pune &icirc;n loc</trd>,
+    <trd>&icirc;nlocui</trd>,
+    <trd>supune</trd>,
+    <trd>subordonat</trd>,
+    <trd>preda</trd>,
+    <trd>subjuga</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_d;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
@@ -1184,6 +1347,16 @@
   <trd lng="de">sich <ind>unterwerfen</ind></trd>
   <trd lng="es">someterse</trd>
   <trd lng="fr">se <ind>soumettre</ind></trd>
+  <trdgrp lng="pl">
+    <trd>podda&cacute; si&eogonek;</trd>,
+    <trd>ulec</trd>,
+    <trd>podlega&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>capitula</trd>,
+    <trd>ceda</trd>,
+    <trd>fii supus</trd>
+  </trdgrp>
   <trd lng="sv">underkasta sig</trd>
 </drv>
 
@@ -1207,6 +1380,14 @@
     </dif>
   </snc>
   <trd lng="fr">soumis</trd>
+  <trdgrp lng="pl">
+    <trd>poddany</trd>,
+    <trd>uleg&lstroke;y</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>supus</trd>,
+    <trd>serv</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="met.sur0i">
@@ -1234,8 +1415,7 @@
         jen li vidas sur pordego kranion sur<tld/>itan sur stango
         <fnt>
           <aut>B. N&ecaron;mcov&aacute;, trad. J. Patera</aut>,
-          <vrk><url
-          ref="http://www.literatura.bucek.name/nemcova/zlatnik.html">
+          <vrk><url ref="http://www.literatura.bucek.name/nemcova/zlatnik.html">
           Sa&gcirc;a ora&jcirc;isto</url></vrk>,
           <lok>[2009?]</lok>
         </fnt>.
@@ -1306,9 +1486,18 @@
     <trd>r&aacute;rak</trd>,
     <trd>felvesz <klr tip="amb">(ruh&aacute;t)</klr></trd>
   </trdgrp>
+  <trd lng="ne">&#x932;&#x917;&#x93E;&#x909;&#x901;&#x91B;&#x928;&#x94D;</trd>
   <trdgrp lng="pl">
     <trd>nak&lstroke;ada&cacute;</trd>,
     <trd>wk&lstroke;ada&cacute;</trd>,
+    <trd>instalowa&cacute;</trd>,
+    <trd>montowa&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>impune</trd>,
+    <trd>instala</trd>,
+    <trd>asambla</trd>,
+    <trd>monta</trd>
   </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_d;&c_je;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
@@ -1361,14 +1550,18 @@
   <trd lng="fr">mets</trd>
   <trd lng="hu">fog&aacute;s</trd>
   <trd lng="pl">potrawa</trd>
+  <trd lng="ro">aliment</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_a;
   &c_b;&c_l;&c_ju;&c_d;</trd>
 </drv>
 </art>
 <!--
-$Log: met.xml,v $
-Revision 1.48  2019/11/21 21:10:21  revo
-Jeromo Vasxe: + sub~igxema
+$Log$
+versio 1.50 2021/04/08 15:11:14
+Aleks Andre: +trd bo
+
+versio 1.49 2021/02/25 19:11:22
+Vito Redsky: +trd pl +trd ro
 
 Revision 1.47  2019/08/14 07:10:15  revo
 Damien Brucker: -eraro cxe cel en ref
@@ -1386,8 +1579,5 @@ Revision 1.43  2017/12/17 17:10:13  revo
 Wolfram Diestel: 1b: ekz-oj
 
 Revision 1.42  2017/12/17 14:10:15  revo
-Wolfram Diestel: 1a: prilaboris ekz-ojn, forigis fakindikon TEKS
-
-Revision 1.41  2017/09/29 18:10:19  revo
 -->
 </vortaro>

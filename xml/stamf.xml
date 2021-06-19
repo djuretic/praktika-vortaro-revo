@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: stamf.xml,v 1.9 2019/04/14 08:10:21 revo Exp $">
+<art mrk="$Id: stamf.xml,v 1.11 2021/04/22 13:09:57 revo Exp $">
 <kap>
    <rad>stamf</rad>/i <fnt><bib>PIV1</bib></fnt>,
-   <var><kap><rad>stampf</rad>/i <fnt><bib>PV</bib></fnt></kap></var>
+   <var><kap><rad var="p">stampf</rad>/i <fnt><bib>PV</bib></fnt></kap></var>
 </kap>
 <drv mrk="stamf.0i">
    <kap><tld/>i,
-   <var><kap>stampfi</kap></var>
+   <var><kap><tld var="p"/>i</kap></var>
    </kap>
    <gra><vspec>ntr</vspec></gra>
   <snc>
@@ -22,7 +22,7 @@
          222a</lok></fnt>;
       </ekz>
       <ekz>
-        li vipis la &ccirc;evalon, ke &gcirc;i levis sin kaj stamp&#64257;s
+        li vipis la &ccirc;evalon, ke &gcirc;i levis sin kaj <tld var="p"/>is
         <fnt>
           <aut>Selma Lagerl&ouml;f, trad. Stellan Engholm</aut>
           <vrk><url ref="https://epdf.tips/la-mono-de-sinjoro-arne.html"
@@ -30,16 +30,18 @@
         </fnt>;
       </ekz>
       <ekz>
-        la fremdulo komencis stampfi tien-reen
+        la fremdulo komencis <tld var="p"/>i tien-reen
         <fnt>
           <aut>John Collier, trad. Reto Rossetti</aut>
-          <vrk><url ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Revuoj/np/np5703/mono.html"
+          <vrk><url
+          ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Revuoj/np/np5703/mono.html"
               >Sor&ccirc;ita mono</url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-       <ref cel="tret.0i">treti</ref>
+      <ref cel="tang.0i">tangi</ref>,
+      <ref cel="tret.0i">treti</ref>
     </refgrp>
   </snc>
    <trd lng="be">&c_b;&c_ib;&c_c;&c_mol;
@@ -102,9 +104,12 @@
 </art>
 
 <!--
-$Log: stamf.xml,v $
-Revision 1.9  2019/04/14 08:10:21  revo
-Wolfram Diestel: +var, +ekz-oj
+$Log$
+versio 1.11 2021/04/22 13:09:57
+Wolfram Diestel: +ref
+
+versio 1.10 2020/09/07 06:10:48
+Wolfram Diestel: +tld-var
 
 Revision 1.8  2015/12/07 14:10:14  revo
 Cindy Moon McKee: +trd en
@@ -122,8 +127,5 @@ Revision 1.4  2005/04/12 16:32:22  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.3  2005/01/28 17:31:48  revo
-Wieland Pusch: +trd de
-
-Revision 1.2  2004/10/28 16:31:57  revo
 -->
 </vortaro>

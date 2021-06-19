@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kaj.xml,v 1.45 2020/02/15 09:10:15 revo Exp $">
+<art mrk="$Id: kaj.xml,v 1.88 2021/06/19 05:58:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kaj</rad> <fnt><bib>PV</bib></fnt>
@@ -50,16 +49,41 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">en</trd>
+  <trd lng="am">&#x12A5;&#x1293;</trd>
+  <trd lng="ar">&#x648;</trd>
+  <trd lng="az">v&#x259;</trd>
   <trd lng="be">&c_ib;</trd>
+  <trd lng="bn">&#x98F;&#x9AC;&#x982;</trd>
+  <trd lng="bo">&#xF51;&#xF44;&#xF0B;</trd>
   <trd lng="br">ha<klr tip="ind"> (stl. kenur.)</klr></trd>
+  <trd lng="bs">i</trd>
   <trd lng="ca">i</trd>
+  <trd lng="co">e</trd>
   <trdgrp lng="cs">
     <trd>a</trd>,
     <trd>logick&yacute; sou&ccaron;in</trd>
   </trdgrp>
+  <trd lng="da">og</trd>
   <trd lng="de">und</trd>
   <trd lng="en">and</trd>
   <trd lng="es">y</trd>
+  <trd lng="et">ja</trd>
+  <trd lng="eu">eta</trd>
+  <trd lng="gl">e</trd>
+  <trd lng="gu">&#xA85;&#xAA8;&#xAC7;</trd>
+  <trd lng="ha">da kuma</trd>
+  <trd lng="hi">&#x914;&#x930;</trd>
+  <trd lng="hr">i</trd>
+  <trd lng="hy">&#x56B;&#x57D;&#x56F;</trd>
+  <trd lng="is">og</trd>
+  <trd lng="jw">lan</trd>
+  <trd lng="ka">&#x10D3;&#x10D0;</trd>
+  <trd lng="km">&#x1793;&#x17B7;&#x1784;</trd>
+  <trd lng="ko">&#xACFC;</trd>
+  <trd lng="lo">&#xEC1;&#xEA5;&#xEB0;</trd>
+  <trd lng="ml">&#xD12;&#xD2A;&#xD4D;&#xD2A;&#xD02;</trd>
+  <trd lng="mr">&#x906;&#x923;&#x93F;</trd>
   <trd lng="ms">dan</trd>
   <trdgrp lng="fi">
     <trd>ja</trd>,
@@ -83,29 +107,51 @@
     <trd>ed</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#65374;<ind>&#12392;</ind>&#65374;</trd>,
-    <trd>&#65374;<ind>&#12420;</ind>&#65374;</trd>,
-    <trd>&#12381;&#12375;&#12390;</trd>
+    <trd>&#xFF5E;<ind>&#x3068;</ind>&#xFF5E;</trd>,
+    <trd>&#xFF5E;<ind>&#x3084;</ind>&#xFF5E;</trd>,
+    <trd>&#x305D;&#x3057;&#x3066;</trd>
   </trdgrp>
+  <trd lng="my">&#x1014;&#x103E;&#x1004;&#x1037;&#x103A;</trd>
+  <trd lng="ne">&#x930;</trd>
   <trd lng="nl">en</trd>
+  <trd lng="ny">ndipo</trd>
+  <trd lng="pa">&#xA39;&#xA48; &#xA05;&#xA24;&#xA47;</trd>
   <trdgrp lng="pl">
     <trd>i</trd>,
     <trd>oraz</trd>
   </trdgrp>
+  <trd lng="ps">&#x627;&#x648;</trd>
   <trd lng="pt">e <klr tip="amb">(conj.)</klr></trd>
   <trd lng="ru">&c_i;</trd>
+  <trd lng="sd">&#x6FD;</trd>
+  <trd lng="si">&#xDC4;&#xDCF;</trd>
   <trdgrp lng="sk">
     <trd>a</trd>,
     <trd>aj</trd>,
     <trd>logick&yacute; s&uacute;&ccaron;in</trd>
   </trdgrp>
+  <trdgrp lng="sl">
+    <trd>in</trd>,
+    <trd>pa</trd>,
+    <trd>ter</trd>
+  </trdgrp>
+  <trd lng="sq">dhe</trd>
+  <trd lng="st">le</trd>
   <trd lng="sv">och</trd>
+  <trd lng="ta">&#xBAE;&#xBB1;&#xBCD;&#xBB1;&#xBC1;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC2E;&#xC30;&#xC3F;&#xC2F;&#xC41;</trd>
+  <trd lng="th">&#xE41;&#xE25;&#xE30;</trd>
+  <trd lng="tl">at</trd>
   <trd lng="tp">en</trd>
   <trd lng="tr">ve</trd>
+  <trd lng="ur">&#x627;&#x648;&#x631;</trd>
+  <trd lng="vi">v&#xE0;</trd>
   <trdgrp lng="vo">
     <trd>e</trd>,
     <trd>ed</trd>
   </trdgrp>
+  <trd lng="yi">&#x5D0;&#x5D5;&#x5DF;</trd>
+  <trd lng="zu">futhi</trd>
 </drv>
 
 <drv mrk="kaj.0o">
@@ -122,7 +168,7 @@
       respondaj al la gramatika konjukcio <tld/>:
       <ekz>
         en matematiko kaj en ALGOL-60 la Bulean <tld/>on
-        simbolas la &leftquot;logika <tld/>signo&rightquot; <frm am="^^">&#8743;</frm>
+        simbolas la &leftquot;logika <tld/>signo&rightquot; <frm am="^^">&#x2227;</frm>
         <fnt><bib>KompLeks</bib></fnt>;
       </ekz>
       <ekz>
@@ -158,8 +204,7 @@
         <fnt>
           <bib>Viki</bib>
           <vrk><url>https://eo.wikipedia.org/?curid=38093</url></vrk>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=38093'>Konjunkcio
+          <lok><url ref="https://eo.wikipedia.org/?curid=38093">Konjunkcio
           (logiko)</url></lok>
         </fnt>.
       </ekz>
@@ -170,8 +215,8 @@
     fervoja <ref tip="hom" cel="kaj1.0o">kajo</ref>.
     Tamen la ekzisto de la fundamenta konjunkcio &leftquot;<tld/>&rightquot;
     a&ubreve;tomate neprigas la eblon derivi la substantivon
-    <tld/>o, sammaniere kiel en la okazoj pri <em>plus&#8208;pluso,
-    jes&#8208;jeso, kontra&ubreve;&#8208;kontra&ubreve;o</em>
+    <tld/>o, sammaniere kiel en la okazoj pri <em>plus&#x2010;pluso,
+    jes&#x2010;jeso, kontra&ubreve;&#x2010;kontra&ubreve;o</em>
     ktp. Do, el la du vortoj &gcirc;uste la fervoja &leftquot;kajo&rightquot; estas
     ripro&ccirc;inda.
     Due, la konfuzo inter tiuj homonimoj estas praktike
@@ -301,8 +346,7 @@
         <fnt>
           <bib>Viki</bib>
           <vrk><url>https://eo.wikipedia.org/?curid=29201</url></vrk>   
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=29201'>Kaj-signo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=29201">Kaj-signo</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -312,8 +356,7 @@
         <fnt>
           <bib>Viki</bib>
           <vrk><url>https://eo.wikipedia.org/?curid=29201</url></vrk>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=29201'>Kaj-signo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=29201">Kaj-signo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -333,7 +376,8 @@
     <trd>&eacute;s-jel</trd>,
     <trd>kereskedelmi "<ind>&eacute;s</ind>"</trd>
   </trdgrp>
-  <trd lng="ja">&#12450;&#12531;&#12497;&#12469;&#12531;&#12489; [<ind>&#12354;&#12435;&#12401;&#12373;&#12435;&#12393;</ind>]</trd>
+  <trd lng="ja">&#x30A2;&#x30F3;&#x30D1;&#x30B5;&#x30F3;&#x30C9;
+  [<ind>&#x3042;&#x3093;&#x3071;&#x3055;&#x3093;&#x3069;</ind>]</trd>
   <trdgrp lng="nl">
     <trd>ampersand</trd>,
     <trd>en-teken</trd>,
@@ -353,7 +397,13 @@
 
 </art>
 <!--
-$Log: kaj.xml,v $
+$Log$
+versio 1.47 2020/12/29 07:11:18
+Aleks Andre: bo
+
+versio 1.46 2020/04/13 18:10:58
+Peter Garami: aldono de slovenaj tradokajhoj
+
 Revision 1.45  2020/02/15 09:10:15  revo
 Wolfram Diestel: formuloj per am
 
@@ -370,11 +420,5 @@ Revision 1.41  2017/08/21 20:10:15  revo
 Wolfram Diestel: kor. mrk, ekz-oj
 
 Revision 1.40  2017/02/15 11:10:14  revo
-Jeromo Vasxe: ankaux -> ankaux (u hoka), ~: rearangxo de dif kaj ekz
-
-Revision 1.39  2017/01/29 14:10:14  revo
-Adam Eng: +trd ms
-
-Revision 1.38  2016/11/23 13:10:21  revo
 -->
 </vortaro>

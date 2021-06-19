@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fetor.xml,v 1.25 2017/03/30 11:10:15 revo Exp $">
+<art mrk="$Id: fetor.xml,v 1.28 2021/02/23 18:31:25 revo Exp $">
 <kap>
   <rad>fetor</rad>/o
   <fnt>Z</fnt>
@@ -11,9 +11,20 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Malagrablega, na&ubreve;za odoro.
+      Malagrablega, na&ubreve;za <ref cel="odor.0o">odoro</ref>:
+      <ekz>
+        en nia &scirc;tuparejo &scirc;vebas neeltenebla fetoro&#8230; &scirc;ajne mortinta kato a&ubreve; rato putras ie
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lena Karpunina</aut>
+          <vrk><url ref="https://www.monato.be/2008/009339.php"
+              >En granda urbo</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="odor.malbon0o">malbonodoro</ref>,
       <ref cel="haladz.0o">haladzo</ref>,
       <ref cel="miasm.0o">miasmo</ref>.
     </refgrp>
@@ -105,6 +116,10 @@
     <trd>f&eacute;tido</trd>,
     <trd>f&eacute;tida</trd>
   </trdgrp>
+  <trdgrp lng="fa">
+    <trd>&a_m;&a_t;&a_ayn;&a_f;&a_n;</trd>,
+    <trd>&a_b;&a_d;&a_b;&a_w;</trd>
+  </trdgrp>
   <trd lng="fr">f&eacute;tide</trd>
   <trdgrp lng="pl">
     <trd>&sacute;mierdz&aogonek;cy</trd>,
@@ -179,9 +194,15 @@
 </drv>
 </art>
 <!--
-$Log: fetor.xml,v $
-Revision 1.25  2017/03/30 11:10:15  revo
-Lyubomir Vasilev: +trd bg
+$Log$
+versio 1.28 2021/02/23 18:31:25
+Wolfram Diestel: +ekz
+
+versio 1.27 2021/02/18 19:10:32
+Behnam Tabatabai: +trd fa
+
+versio 1.26 2020/12/17 01:10:35
+Sam Penter: +ref
 
 Revision 1.24  2016/10/20 17:10:14  revo
 Carlos Garcia: +trd es -o -e -i
@@ -196,11 +217,5 @@ Revision 1.21  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.20  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.19  2015/01/24 07:10:14  revo
-Alain Gerard: +fnt +trd (fr)
-
-Revision 1.18  2015/01/14 14:10:19  revo
 -->
 </vortaro>

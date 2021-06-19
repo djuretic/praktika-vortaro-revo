@@ -1,334 +1,501 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: per.xml,v 1.37 2020/03/01 15:34:50 revo Exp $">
+<art mrk="$Id: per.xml,v 1.89 2021/06/19 06:38:32 revo Exp $">
 <kap>
-  <ofc>*</ofc><rad>per</rad> 
+<ofc>*</ofc><rad>per</rad> 
 </kap>
 <subart>
-  <drv mrk="per.0">
-    <kap><ofc>*</ofc><tld/></kap>
+
+<drv mrk="per.0">
+  <kap><ofc>*</ofc><tld/></kap>
+  <dif>
+    <ref tip="super" cel="prepoz.0o">Prepozicio</ref> montranta:
+  </dif>
+  <snc mrk="per.0.ilo">
     <dif>
-      Prepozicio montranta:
+      Instrumenton, materion a&ubreve; objekton, kiun oni uzas por plenumi
+      agon a&ubreve; atingi celon:
+      <ekz>
+        ili <klr>[&#x2026;]</klr> batis lin <tld/> bastonoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne <tld/> la pano sole vivas homo
+        <fnt><bib>MT</bib>, <lok>&Rea; 8:3</lok></fnt>;
+      </ekz>
+      <ekz>
+        sin nutri <tld/> la grajnoj de lotuso
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plenigu la akvokuvojn <tld/> akvo
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 2:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aspergu <tld/> la sango la altaron
+        <fnt><bib>MT</bib>, <lok>&Eli; 29:20</lok></fnt>;
+      </ekz>
+      <ekz>
+        li kovris sian viza&gcirc;on <tld/> sia mantelo
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 19:13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trafi du celojn <tld/> unu &scirc;tono
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        kovri la tablon <tld/> blanka tuko
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili svingas <tld/> paperoj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne &ccirc;iam <tld/> a&gcirc;o mezuri&gcirc;as la sa&gcirc;o
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
-    <snc mrk="per.0.ilo">
-      <dif>
-        Instrumenton, materion a&ubreve; objekton, kiun oni uzas por plenumi
-        agon
-        a&ubreve; atingi celon:
-        <ekz>
-          bati iun <tld/> bastono;
-        </ekz>
-        <ekz>
-          ne <tld/> la pano sole vivas homo
-          <fnt><bib>MT</bib>, <lok>&Rea; 8:3</lok></fnt>;
-        </ekz>
-        <ekz>
-          sin nutri <tld/> legomoj;
-        </ekz>
-        <ekz>
-          plenigi botelon <tld/> akvo;
-        </ekz>
-        <ekz>
-          aspergu <tld/> la sango la altaron
-          <fnt><bib>MT</bib>, <lok>&Eli; 29:20</lok></fnt>;
-        </ekz>
-        <ekz>
-          vi&scirc;i la bu&scirc;on <tld/> tuko;
-        </ekz>
-        <ekz>
-          trafi du celojn <tld/> unu &scirc;tono
-          <fnt><bib>PrV</bib></fnt>;
-        </ekz>
-        <ekz>
-          kovri tablon <tld/> tapi&scirc;o;
-        </ekz>
-        <ekz>
-          svingi <tld/> paperoj;
-        </ekz>
-        <ekz>
-          ne &ccirc;iam <tld/> a&gcirc;o mezuri&gcirc;as la sa&gcirc;o
-          <fnt><bib>PrV</bib></fnt>.
-        </ekz>
-      </dif>
-    </snc>
-    <snc mrk="per.0.organo">
-      <dif>
-        Organon a&ubreve; membron, kiun oni uzas por fari ion:
-        <ekz>
-          ni vidas <tld/> la okuloj kaj a&ubreve;das per la oreloj
-          <fnt><bib>F</bib>, <lok>&FE; 9</lok></fnt>;
-        </ekz>
-        <ekz>
-          minaci iun <tld/> pugno<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          li prenos iom el la sango de la bovido kaj aspergos <tld/> sia
-          fingro la anta&ubreve;an parton de la fermoplato
-          <fnt><bib>MT</bib>, <lok>&Lev; 16:14</lok></fnt>;
-        </ekz>
-        <ekz>
-          grinci <tld/> la dentoj kaj tremi <tld/> la tuta korpo;
-        </ekz>
-        <ekz>
-          la birdoj batas la aeron <tld/> siaj flugiloj;
-        </ekz>
-        <ekz>
-          stari <tld/> unu piedo en la tombo
-          <fnt><bib>PrV</bib></fnt>;
-        </ekz>
-        <ekz>
-          teni iun &ccirc;e la nuko <tld/> sia mano.
-        </ekz>
-      </dif>
-      <rim>
-        Oni anka&ubreve; uzas <em>per</em> por montri, kiun parton de ies
-        korpo oni tenas:
-        <ekz>
-          teni la lupon <tld/> la oreloj, infanon <tld/> la
-          mano;
-        </ekz>
-        <ekz>
-          konduki iun <tld/> la nazo<fnt>B</fnt>
-          <klr>(la&ubreve; sia arbitro)</klr>.
-        </ekz>
-      </rim>
-    </snc>
-    <snc mrk="per.0.iu">
-      <dif>
-        Personon, pro kies interhelpo oni povas plenumi ian agon:
-        <ekz>
-          sendi leteron <tld/> servisto;
-        </ekz>
-        <ekz>
-          parencaj <tld/> Adamo<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          la funebra ceremonio estis honorigata <tld/> delegitaro de la
-          urbestraro;
-        </ekz>
-        <ekz>
-          la registaro estis oficiale reprezentata <tld/> unu ministro;
-        </ekz>
-        <ekz>
-          de la infaneco li &ccirc;irka&ubreve;is sin <tld/> militistoj
-          <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>;
-        </ekz>
-        <ekz>
-          kontroli ion <tld/> si mem;
-        </ekz>
-        <ekz>
-          <uzo tip="stl">FIG</uzo>
-          Esperanto memorigas <tld/> si <klr>(sen helpo de alio)</klr>
-          la lingvon italan<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          <uzo tip="stl">FIG</uzo>
-          &ccirc;iuj prepozicioj <tld/> si mem (sen ia alia motivo)
-          postulas <klr>[...]</klr> la nominativon
-          <fnt><bib>F</bib>, <lok>&FE; 28</lok></fnt>;
-        </ekz>
-        <ekz>
-          <uzo tip="stl">FIG</uzo>
-          el tio jam <tld/> si mem elfluas la konkludo, ke<fnt>Z</fnt>.
-        </ekz>
-      </dif>
-      <rim>
-        Z atentigas, ke "la prepozicion <em><tld/></em> post pasivo ni
-        uzas nur en tia okazo, se &gcirc;i trovi&gcirc;as anta&ubreve; vorto, kiu esprimas
-        ne la aganton mem, sed rimedon, uzitan de iu alia aganto;
-        ekzemple: <ekz>la letero estas skribita <em><tld/></em> blua
-        inko</ekz>
-        (ne
-        <ekz> blua inko skribis la leteron</ekz>, sed <ekz> iu persono
-        skribis la leteron, uzante por tio bluan inkon kiel
-        rimedon</ekz>)<fnt><bib>LR</bib>, <lok>Respondo 41b, La Revuo,
-        1908, Majo</lok></fnt>".
-        Vidu &ccirc;e <ref tip="vid" cel="de.0.aganto">de</ref>.
-      </rim>
-    </snc>
-    <snc mrk="per.0.rimedo">
-      <dif>
-        Rimedon, per kiu estas atingata ia rezultato:
-        <ekz>
-          mi estis kortu&scirc;ata <tld/> tiu doloro;
-        </ekz>
-        <ekz>
-          penetri en domon <tld/> forto, <tld/>forte;
-        </ekz>
-        <ekz>
-          trafi <tld/> la parolo rekte en la viza&gcirc;on de iu<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          mortigi iun <tld/> unu pu&scirc;o de ponardo;
-        </ekz>
-        <ekz>
-          <tld/> helpo de vortaro <klr>[...]</klr> mi <klr>[...]</klr>
-          komprenis iom vian leteron
-          <fnt><bib>F</bib>, <lok>&FE; 34</lok></fnt>;
-        </ekz>
-        <ekz>
-          kviti&gcirc;as servo <tld/> reservo
-          <fnt><bib>PrV</bib></fnt>;
-        </ekz>
-        <ekz>
-          ni povas <tld/> kurba vojo al rekta celo veni<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          li eldevigis la permeson mian <tld/> ne&ccirc;esanta
-          ripetado<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          li turmentas min <tld/> malsato tutajn tagojn
-          <fnt><bib>Revizoro</bib>, <lok>akto 2a, sceno 8a</lok></fnt>;
-        </ekz>
-        <ekz>
-          lia filo, kura&gcirc;igita <tld/> la morto de nia
-          re&gcirc;o<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          li tiris <tld/> &ccirc;iuj fortoj;
-        </ekz>
-        <ekz>
-          liaj okuloj pleni&gcirc;is <tld/> larmoj<fnt>B</fnt>;
-        </ekz>
-        <ekz>
-          la pupiloj ne malseki&gcirc;is <tld/> larmo<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          la vangoj <klr>[...]</klr> kovri&gcirc;is <tld/> malsaneca flavo
-          <fnt><bib>Marta</bib></fnt>;
-        </ekz>
-        <ekz>
-          ilia viza&gcirc;o ne kovri&gcirc;os <tld/> honto
-          <fnt><bib>MT</bib>, <lok>&Psa; 34:5</lok></fnt>;
-        </ekz>
-        <ekz>
-          eksvarmos la rivero <tld/> ranoj
-          <fnt><bib>MT</bib>, <lok>&Eli; 8:3</lok></fnt>;
-        </ekz>
-        <ekz>
-          &jcirc;uru, ke neniam vi parolos e&ccirc; <tld/> unu vorto
-          pri tio<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          mi timis la koleron kaj furiozon, <tld/> kiuj la Eternulo
-          ekkoleris
-          kontra&ubreve; vi
-          <fnt><bib>MT</bib>, <lok>&Rea; 9:19</lok></fnt>.
-        </ekz>
-      </dif>
-      <refgrp tip="vid">
-        <ref cel="pro.0.kial">pro <sncref/></ref>
-      </refgrp>
-      <rim>
-        En kelkaj okazoj <em>per</em> havas sencon de mezuro:
-        <ekz>
-          &ccirc;iu malbona sciigo alproksimigas min <tld/> unu pa&scirc;o al la
-          tombo<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          oni povas esperi, ke la memoro de granda homo <tld/>
-          duonjaro supervivos lian morton<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          vi <tld/> alteco de unu kalkanumo fari&gcirc;is pli
-          proksima al la &ccirc;ielo<fnt>Z</fnt>.
-        </ekz>
-      </rim>
-    </snc>
-    <snc mrk="per.0.maniero">
-      <dif>
-        Manieron, kiel efektivi&gcirc;as la ago:
-        <ekz>
-          la fumo flugis supren <tld/> nigra kolono, <tld/> blankaj
-          volutoj;
-        </ekz>
-        <ekz>
-          <tld/> roza a&ubreve; blua koloro brilis ia rubandeto
-          <fnt><bib>Marta</bib></fnt>;
-        </ekz>
-        <ekz>
-          la trupoj anta&ubreve;enkuris <tld/> grandaj masoj;
-        </ekz>
-        <ekz>
-          mia onklo ne mortis <tld/> natura morto
-          <fnt><bib>F</bib>, <lok>&FE; 39</lok></fnt>;
-        </ekz>
-        <ekz>
-          simila al la patro <tld/> la karaktero;
-        </ekz>
-        <ekz>
-          filo, tute fremda <tld/> la koro<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          ver&scirc;i larmojn kvaza&ubreve; <tld/> riveroj<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          &scirc;i estis bela <tld/> beleco de an&gcirc;elo<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          ripozi <tld/> trankvila dormo<fnt>K</fnt>;
-        </ekz>
-        <ekz>
-          vivi <tld/> mizera, kompatinda vivo<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          sin preter&scirc;ovi <tld/> pa&scirc;o majesta<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          ni ne povas atingi &ccirc;iujn celojn <tld/> unu fojo;
-        </ekz>
-        <ekz>
-          ekkrii <tld/> terura vo&ccirc;o<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          mar&scirc;i <tld/> piedoj nudaj<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          ili vivos <tld/> unu animo en du korpoj;
-        </ekz>
-        <ekz>
-          komenci sian paroladon <tld/> gratulo;
-        </ekz>
-        <ekz>
-          la substantivoj fini&gcirc;as <tld/> &leftquot;o&rightquot;.
-        </ekz>
-      </dif>
-    </snc>
-    <snc mrk="per.0.atesto">
-      <dif>
-        Potencon a&ubreve; influon, kiun oni alvokas por persvadi iun:
-        <ekz>
-          mi vin petegas <tld/> &ccirc;ielo<fnt>Z</fnt>,
-        </ekz>
-        <ekz>
-          <tld/> la rajtoj de nia amikeco de lernejo<fnt>Z</fnt>.
-        </ekz>
-      </dif>
-    </snc>
+  </snc>
+  <snc mrk="per.0.organo">
+    <dif>
+      Organon a&ubreve; membron, kiun oni uzas por fari ion:
+      <ekz>
+        ni vidas <tld/> la okuloj kaj a&ubreve;das per la oreloj
+        <fnt><bib>F</bib>, <lok>&FE; 9</lok></fnt>;
+      </ekz>
+      <ekz>
+        minaci <tld/> pugno en la po&scirc;o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li prenos iom el la sango de la bovido kaj aspergos <tld/> sia
+        fingro la anta&ubreve;an parton de la fermoplato
+        <fnt><bib>MT</bib>, <lok>&Lev; 16:14</lok></fnt>;
+      </ekz>
+      <ekz>
+        tremi <tld/> la tuta korpo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        klakante <tld/> la dentoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        maraj birdoj frapadis <tld/> siaj flugiloj la spegulon de la akvo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        stari <tld/> unu piedo en la tombo
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Oni anka&ubreve; uzas <em>per</em> por montri, kiun parton de ies
+      korpo oni tenas:
+      <ekz>
+        teni la lupon <tld/> la oreloj, infanon <tld/> la
+        mano;
+      </ekz>
+      <ekz>
+        konduki iun <tld/> la nazo<fnt>B</fnt>
+        <klr>(la&ubreve; sia arbitro)</klr>.
+      </ekz>
+    </rim>
+  </snc>
+  <snc mrk="per.0.iu">
+    <dif>
+      Personon, pro kies interhelpo oni povas plenumi ian agon:
+      <ekz>
+        mi sendos <klr>[&#x2026;]</klr> la leteron <tld/> &ccirc;i tiea servanto
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        parenco <tld/> Adamo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la registaro <klr>[&#x2026;]</klr> en sia propra nomo <tld/> siaj ambasadoroj oficiale
+        invitis
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvina Kongreso Esperantista en Barcelona en la 6a de septembro
+          1909</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de la infaneco li &ccirc;irka&ubreve;is sin <tld/> militistoj
+        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>;
+      </ekz>
+      <ekz>
+        la filo ne povas <tld/> si mem fari ion
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 5:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Esperanto <klr>[&#x2026;]</klr> memorigas <tld/> si <klr>(sen helpo de alio)</klr>
+        la lingvon italan
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        &ccirc;iuj prepozicioj <tld/> si mem (sen ia alia motivo)
+        postulas <klr>[&#x2026;]</klr> la nominativon
+        <fnt><bib>F</bib>, <lok>&FE; 28</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        el <klr>[tio]</klr> jam <tld/> si mem elfluas la konkludo, ke
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      &Z; atentigas, ke &leftquot;la prepozicion <em><tld/></em> post pasivo ni
+      uzas nur en tia okazo, se &gcirc;i trovi&gcirc;as anta&ubreve; vorto, kiu esprimas
+      ne la aganton mem, sed rimedon, uzitan de iu alia aganto;
+      ekzemple: <ekz>la letero estas skribita <em><tld/></em> blua
+      inko</ekz>
+      (ne
+      <ekz> blua inko skribis la leteron</ekz>, sed <ekz> iu persono
+      skribis la leteron, uzante por tio bluan inkon kiel
+      rimedon</ekz>)<fnt><bib>LR</bib>, <lok>Respondo 41b, La Revuo,
+      1908, Majo</lok></fnt>&rightquot;.
+      Vd &ccirc;e <ref tip="vid" cel="de.0.aganto">de</ref>.
+    </rim>
+  </snc>
+  <snc mrk="per.0.rimedo">
+    <dif>
+      Rimedon, per kiu estas atingata ia rezultato:
+      <ekz>
+        Klaro fermis al li la bu&scirc;on <tld/> kiso
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se ne venas <tld/> bona vorto, oni prenas <tld/> forto
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kion Dio ne donis, <tld/>forte ne postulu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        morto <tld/> malsato
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trafi <tld/> la parolo rekte en la viza&gcirc;on
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mortigi iun <tld/> unu pu&scirc;o de ponardo;
+      </ekz>
+      <ekz>
+        <tld/> helpo de vortaro <klr>[...]</klr> mi <klr>[...]</klr>
+        komprenis iom vian leteron
+        <fnt><bib>F</bib>, <lok>&FE; 34</lok></fnt>;
+      </ekz>
+      <ekz>
+        kviti&gcirc;as servo <tld/> reservo
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <tld/> kurba voj&#x2019; al rekta celo veni
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li eldevigis la permeson mian <tld/> ne &ccirc;esanta
+        ripetado
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li turmentas min <tld/> malsato tutajn tagojn
+        <fnt><bib>Revizoro</bib>, <lok>akto 2a, sceno 8a</lok></fnt>;
+      </ekz>
+      <ekz>
+        la infanoj penis <tld/> &ccirc;iuj fortoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino kaj Rozulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la okuloj de la faraono pleni&gcirc;is <tld/> larmoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> pupiloj de la maljunulino ne malseki&gcirc;is <tld/> larmo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vangoj <klr>[...]</klr> kovri&gcirc;is <tld/> malsaneca flavo
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        ilia viza&gcirc;o ne kovri&gcirc;os <tld/> honto
+        <fnt><bib>MT</bib>, <lok>&Psa; 34:5</lok></fnt>;
+      </ekz>
+      <ekz>
+        eksvarmos la rivero <tld/> ranoj
+        <fnt><bib>MT</bib>, <lok>&Eli; 8:3</lok></fnt>;
+      </ekz>
+      <ekz>
+        tiel vantaj, por <klr>[&#x2026;]</klr> ne aludi e&ccirc; <tld/> unu vorto tiun, kiu staras
+        tiel modeste en la angulo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi timis la koleron kaj furiozon, <tld/> kiuj la Eternulo
+        ekkoleris kontra&ubreve; vi
+        <fnt><bib>MT</bib>, <lok>&Rea; 9:19</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="pro.0.kial">pro <sncref/></ref>
+    </refgrp>
+    <rim>
+      En kelkaj okazoj <em>per</em> havas sencon de mezuro:
+      <ekz>
+        &ccirc;iu sciigo <klr>[malbona]</klr> alproksimigas min <tld/> unu pa&scirc;o al la tombo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni povas esperi, ke la memoro de granda homo <tld/>
+        duonjaro supervivos lian morton
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi <tld/> alteco de unu kalkanumo fari&gcirc;is pli
+        proksima al la &ccirc;ielo
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>.
+      </ekz>
+    </rim>
+  </snc>
+  <snc mrk="per.0.maniero">
+    <dif>
+      Manieron, kiel efektivi&gcirc;as la ago:
+      <ekz>
+        la fumo flugis supren <tld/> nigra kolono, <tld/> blankaj
+        volutoj;
+      </ekz>
+      <ekz>
+        <tld/> roza a&ubreve; blua koloro brilis ia rubandeto
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        la trupoj anta&ubreve;enkuris <tld/> grandaj masoj;
+      </ekz>
+      <ekz>
+        mia onklo ne mortis <tld/> natura morto
+        <fnt><bib>F</bib>, <lok>&FE; 39</lok></fnt>;
+      </ekz>
+      <ekz>
+        simila al la patro <tld/> la karaktero;
+      </ekz>
+      <ekz>
+        filo <klr>[&#x2026;]</klr> tute fremda <tld/> la koro
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ver&scirc;ante larmojn kvaza&ubreve; <tld/> riveroj
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bela <tld/> beleco de an&gcirc;elo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ripozi <tld/> trankvila dormo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi vivas <klr>[&#x2026;]</klr> <tld/> mizera, kompatinda vivo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> pa&scirc;o serioza kaj majesta, / Ne rapidante, &gcirc;i sin preter&scirc;ovas
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni ne povas atingi &ccirc;iujn celojn <tld/> unu fojo;
+      </ekz>
+      <ekz>
+        li ekkriis <tld/> terura vo&ccirc;o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i batis &ccirc;iun urtikon <tld/> siaj nudaj piedoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili vivos <tld/> unu animo en du korpoj;
+      </ekz>
+      <ekz>
+        komenci sian paroladon <tld/> gratulo;
+      </ekz>
+      <ekz>
+        la substantivoj fini&gcirc;as <tld/> &leftquot;o&rightquot;.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="per.0.atesto">
+    <dif>
+      Potencon a&ubreve; influon, kiun oni alvokas por persvadi iun:
+      <ekz>
+        mi vin petegas <tld/> &ccirc;ielo
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> la rajtoj de nia amikeco de lernejo
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="af">deur</trd>
+  <trd lng="am">&#x1260;</trd>
+  <trd lng="ar">&#x628;&#x648;&#x627;&#x633;&#x637;&#x629;</trd>
+  <trd lng="az">t&#x259;r&#x259;find&#x259;n</trd>
   <trdgrp lng="be">
-      <trd>&c_p;&c_r;&c_a;&c_z;</trd>,
-      <trd>&c_p;&c_r;&c_y; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_z;&c_je;</trd>,
-      <trd>&c_z; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_g;&c_a;&c_j;</trd>
-    </trdgrp>
+    <trd>&c_p;&c_r;&c_a;&c_z;</trd>,
+    <trd>&c_p;&c_r;&c_y; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_z;&c_je;</trd>,
+    <trd>&c_z; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_g;&c_a;&c_j;</trd>
+  </trdgrp>
+  <trd lng="bn">&#x9A6;&#x9CD;&#x9AC;&#x9BE;&#x9B0;&#x9BE;</trd>
+  <trd lng="bs">po</trd>
+  <trd lng="co">par</trd>
   <trdgrp lng="cs">
     <trd>lomeno</trd>,
     <trd>na</trd>
   </trdgrp>
+  <trd lng="da">ved</trd>
+  <trdgrp lng="de">
+    <trd>mit <klr>(mittels)</klr></trd>,
+    <trd>mittels</trd>
+  </trdgrp>
   <trdgrp lng="en"><trd>by</trd>, <trd>with</trd>,
   <trd>through</trd>, <trd>via</trd></trdgrp>
   <trd lng="es">por<klr tip="ind"> (medio)</klr></trd>
+  <trd lng="et">poolt</trd>
+  <trd lng="eu">arabera</trd>
   <trd lng="fr">par<klr tip="ind"> (moyen)</klr></trd>
+  <trd lng="fy">hyt</trd>
+  <trd lng="gl">por</trd>
+  <trd lng="gu">&#xAA6;&#xACD;&#xAB5;&#xABE;&#xAB0;&#xABE;</trd>
+  <trd lng="hi">&#x926;&#x94D;&#x935;&#x93E;&#x930;&#x93E;</trd>
+  <trd lng="hr">od strane</trd>
   <trdgrp lng="hu">
-      <trd>-<ind>val</ind><klr
-      tip="amb">(eszk&ouml;zhat&aacute;roz&oacute;)</klr></trd>,
-      <trd>-<ind>vel</ind><klr
-      tip="amb">(eszk&ouml;zhat&aacute;roz&oacute;)</klr></trd>,
-      <trd>r&eacute;v&eacute;n</trd>,
-      <trd>seg&iacute;ts&eacute;g&eacute;vel</trd>
-    </trdgrp>
+    <trd>-<ind>val</ind><klr tip="amb">(eszk&ouml;zhat&aacute;roz&oacute;)</klr></trd>,
+    <trd>-<ind>vel</ind><klr tip="amb">(eszk&ouml;zhat&aacute;roz&oacute;)</klr></trd>,
+    <trd>r&eacute;v&eacute;n</trd>,
+    <trd>seg&iacute;ts&eacute;g&eacute;vel</trd>
+  </trdgrp>
+  <trd lng="hy">&#x56B;</trd>
+  <trd lng="is">me&#xF0;</trd>
+  <trd lng="ja">&#x30D0;&#x30A4;</trd>
+  <trd lng="jw">dening</trd>
+  <trd lng="ka">&#x10DB;&#x10D8;&#x10D4;&#x10E0;</trd>
+  <trd lng="km">&#x178A;&#x17C4;&#x1799;</trd>
+  <trd lng="ko">&#xC5D0; &#xC758;&#xD574;</trd>
+  <trd lng="lo">&#xEC2;&#xE94;&#xE8D;</trd>
+  <trd lng="ml">&#xD15;&#xD4A;&#xD23;&#xD4D;&#xD1F;&#xD4D;</trd>
+  <trd lng="mr">&#x926;&#x94D;&#x935;&#x93E;&#x930;&#x947;</trd>
+  <trd lng="my">&#x1021;&#x102C;&#x1038;&#x1016;&#x103C;&#x1004;&#x1037;&#x103A;</trd>
+  <trd lng="ne">&#x926;&#x94D;&#x935;&#x93E;&#x930;&#x93E;</trd>
+  <trd lng="ny">ndi</trd>
+  <trd lng="pa">&#xA15;&#xA47;</trd>
   <trdgrp lng="pl">
     <trd>przez</trd>,
     <trd>poprzez</trd>,
@@ -336,12 +503,24 @@
     <trd>za pomoc&aogonek;</trd>,
     <trd>dzi&eogonek;ki <klr>(komu&sacute;/czemu&sacute;)</klr></trd>
   </trdgrp>
+  <trd lng="ps">&#x644;&#x647; &#x62E;&#x648;&#x627;</trd>
   <trdgrp lng="ru">
-      <trd>&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;&c_m;</trd>,
-      <trd>&c_p;&c_r;&c_i; &c_p;&c_o;&c_m;&c_o;&c_shch;&c_i;</trd>
-    </trdgrp>
+    <trd>&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;&c_m;</trd>,
+    <trd>&c_p;&c_r;&c_i; &c_p;&c_o;&c_m;&c_o;&c_shch;&c_i;</trd>
+  </trdgrp>
+  <trd lng="sd">&#x62C;&#x64A;</trd>
+  <trd lng="si">&#xDC0;&#xDD2;&#xDC3;&#xDD2;&#xDB1;&#xDCA;</trd>
   <trd lng="sk">pred 7.p&aacute;dom: ne sole per la pano</trd>
+  <trd lng="sq">nga</trd>
+  <trd lng="st">ka</trd>
+  <trd lng="ta">&#xBAE;&#xBC2;&#xBB2;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC26;&#xC4D;&#xC35;&#xC3E;&#xC30;&#xC3E;</trd>
+  <trd lng="th">&#xE42;&#xE14;&#xE22;</trd>
+  <trd lng="tl">sa pamamagitan ng</trd>
   <trd lng="tp">kepeken</trd>
+  <trd lng="ur">&#x6A9;&#x6CC; &#x637;&#x631;&#x641; &#x633;&#x6D2;</trd>
+  <trd lng="vi">b&#x1EDF;i</trd>
+  <trd lng="yi">&#x5D3;&#x5D5;&#x5E8;&#x5DA;</trd>
 </drv>
 </subart>
 
@@ -350,15 +529,40 @@
   Vortero samsignifa:
 </dif>
 <drv mrk="per.0a">
-  <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5150">per'a</url></lok></fnt></kap>
+  <kap><ofc>*</ofc><tld/>a</kap>
   <snc mrk="per.0a.helpata">
     <dif>
-      Ne efikanta nur per si mem; ne rekte trafanta; bezonanta interan
+      Ne efikanta nur per si mem; ne rekte trafanta; bezonanta <ref cel="inter.0">inter</ref>an
       rimedon por atingi celon:
       <ekz>
-        <tld/>a agento.
+        nia proksimi&gcirc;o al <klr>[esperanto]</klr> estas tro pria, ne sufi&ccirc;e <tld/>a
+        <fnt>
+          <bib>BonaLingvo</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estis prezentataj perloj de la &ccirc;e&hcirc;a kulturo ne <tld/>e de la hungara lingvo
+        <klr>[&#x2026;]</klr>, sed &ccirc;i-foje Esperanto funkciis en la rolo de <tld/>a lingvo
+        <fnt>
+          <bib>LOdE</bib>
+          <aut>Oszk&aacute;r Princz</aut>
+          <vrk>&Ccirc;e&hcirc;a kulturo per Esperanto</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi devos kontra&ubreve;e skribi al li ofte <klr>[&#x2026;]</klr>, pro tio la duko estos
+        devigata paroli pri tiuj <klr>[&#x2026;]</klr> nova&jcirc;oj kaj, dank&#x2019; al tiu <tld/>a
+        rimedo, mi &ccirc;iam scios tion, kion vi faras
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i demandis, pri kio temas mia afero, mi hezitis, &ccirc;ar <tld/>a interrilato ne
+        sukcesus, do mi demandis, &ccirc;u &scirc;i volus porti skriban komunikon de mi al li
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="hu">
@@ -369,6 +573,10 @@
   <trdgrp lng="cs">
     <trd>nep&rcaron;&iacute;m&yacute;</trd>,
     <trd>zprost&rcaron;edkovan&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>vermittelnd</trd>,
+    <trd>indirekt</trd>,
   </trdgrp>
   <trdgrp lng="en">
     <trd>indirect</trd>,
@@ -391,119 +599,109 @@
   </trdgrp>
 </drv>
 
-  <drv mrk="per.0ede">
-    <kap><tld/>e de</kap>
-    <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-    <snc mrk="per.0ede.helpe_de">
+
+<drv mrk="per.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <snc mrk="per.0i.KOMUNE">
+    <dif>
+      <ref tip="super" cel="help.0i">Helpi</ref> al iu atingo.
+    </dif>
+    <subsnc>
+      <gra><vspec>ntr</vspec></gra>
       <dif>
-        Per la helpo de, per la intera agado de:
+        Interhelpi por efektivigi ion:
         <ekz>
-          interparoli <tld/>e de interpretisto;
+          Esperanto celas <tld/>i komunikadon interkulture
+          <fnt>
+            <bib>BonaLingvo</bib>
+          </fnt>;
         </ekz>
         <ekz>
-          oni evoluigas la sistemon <nom>DLT</nom> por ma&scirc;intradukado <tld/>e de
-          la uzo de Esperanto kiel interlingvo
+          persono, kiu akceptis principe la Internacian Lingvon, devas konscii, ke &gcirc;ia
+          rolo ne estas nur <tld/>i mendon de glaso da biero en restoracio, sed servi
+          kiel rimedo de pensado kaj de komunikado sur &ccirc;iuj kampoj de la homa aktiveco
           <fnt>
-            <aut>J. Wells</aut>,
-            <vrk>ni vivas en historia momento</vrk>,
-            <bib>Esperanto</bib>,
-            <lok>1988:9 (993), p. 143a</lok>
+            <bib>Ret</bib>
           </fnt>.
         </ekz>
       </dif>
-    </snc>
-  <trdgrp lng="cs">
-    <trd>n&ecaron;&ccaron;&iacute;m</trd>,
-    <trd>prost&rcaron;ednictv&iacute;m n&ecaron;&ccaron;eho</trd>
-  </trdgrp>
-  <trd lng="en">by means of</trd>
-  <trdgrp lng="es">
-      <trd>mediante</trd>,
-      <trd>por medio de</trd>,
-      <trd>a trav&eacute;s de</trd>
-    </trdgrp>
-  <trdgrp lng="fr">
-      <trd>au moyen de</trd>,
-      <trd>par l'interm&eacute;diaire de</trd>
-    </trdgrp>
-  <trdgrp lng="hu">
-      <trd>&aacute;ltal</trd>,
-      <trd>r&eacute;v&eacute;n</trd>,
-      <trd>k&ouml;zvet&iacute;t&eacute;s&eacute;vel</trd>
-    </trdgrp>
-  <trd lng="sk">prostredn&iacute;ctvom</trd>
-</drv>
-
-  <drv mrk="per.0i">
-    <kap><ofc>*</ofc><tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
-    <url
-    ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5151">per'i</url></lok></fnt></kap>
-    <snc mrk="per.0i.KOMUNE">
+      <trdgrp lng="en">
+        <trd>to mediate</trd>,
+        <trd>act as agent</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>mediar</trd>,
+        <trd>actuar como agente</trd>
+      </trdgrp>
+      <trd lng="hu">k&ouml;zvet&iacute;t</trd>
+    </subsnc>
+    <subsnc>
+      <gra><vspec>tr</vspec></gra>
       <dif>
-        <ref tip="vid" cel="help.0i">Helpi</ref> al iu atingo.
+        <ref tip="super" cel="hav.0igi">Havigi</ref> ion al iu per 
+        sia helpo, klopodo, efiko:
+        <ekz>
+          mi <klr>[&#x2026;]</klr> volonte <tld/>os liajn pensojn al &scirc;i
+          <fnt>
+            <bib>LGA</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ili korespondas tre malmulte, la sciigojn <tld/>as plejofte la telefono
+          <fnt>
+            <bib>VaK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &jcirc;urnalistoj <klr>[&#x2026;]</klr> emas aldoni al nia proponita teksto sian propran,
+          ofte por Esperanto malpli favoran, opinion, a&ubreve; forstreki parton, kio <tld/>as
+          al la publiko malkorektan impreson
+          <fnt>
+            <bib>EfI</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la tolerema islamo de <nom>Al-Andalus</nom> <klr>[&#x2026;]</klr> <tld/>is la helenan idearon al
+          E&ubreve;ropo
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Stumbliga
+            vojo</url></vrk>
+          </fnt>.
+        </ekz>
       </dif>
-      <subsnc>
-        <gra><vspec>ntr</vspec></gra>
-        <dif>
-          Interhelpi por efektivigi ion:
-          <ekz>
-            li <tld/>is por akordigi ilin.
-          </ekz>
-        </dif>
-        <trdgrp lng="en">
-          <trd>to mediate</trd>,
-          <trd>act as agent</trd>
-        </trdgrp>
-        <trd lng="hu">k&ouml;zvet&iacute;t</trd>
-      </subsnc>
-      <subsnc>
-        <gra><vspec>tr</vspec></gra>
-        <dif>
-          Havigi ion al iu per sia helpo, klopodo, efiko:
-          <ekz>
-            <tld/>i al iu oficon<fnt>Z</fnt>;
-          </ekz>
-          <ekz>
-            <tld/>i informon;
-          </ekz>
-          <ekz>
-            ni <tld/>as &ccirc;iujn librojn kontra&ubreve; anta&ubreve;pago;
-          </ekz>
-          <ekz>
-            teatraj prezentadoj <tld/>as plej agrablan distri&gcirc;on;
-          </ekz>
-          <ekz>
-            ofta vo&ccirc;a legado estas bona rimedo por <tld/>i al la
-            lernanto ri&ccirc;an provizon da vortoj.
-          </ekz>
-        </dif>
-        <trdgrp lng="en">
-          <trd>to procure</trd>,
-          <trd>provide</trd>, <trd>supply</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>k&ouml;zvet&iacute;t</trd>,
-          <trd>szolg&aacute;ltat</trd>
-        </trdgrp>
-      </subsnc>
-    </snc>
+      <trdgrp lng="en">
+        <trd>to procure</trd>,
+        <trd>provide</trd>, <trd>supply</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>procurar</trd>,
+        <trd>proveer</trd>, <trd>suministrar</trd>
+      </trdgrp>
+      <trdgrp lng="hu">
+        <trd>k&ouml;zvet&iacute;t</trd>,
+        <trd>szolg&aacute;ltat</trd>
+      </trdgrp>
+    </subsnc>
+  </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>dohodit</trd>,
     <trd>prost&rcaron;edkovat</trd>,
     <trd>zprost&rcaron;edkovat</trd>
   </trdgrp>
+  <trd lng="de">vermitteln</trd>
   <trdgrp lng="es">
-      <trd>intermediar</trd>,
-      <trd>proporcionar</trd>,
-      <trd>procurar</trd>
-    </trdgrp>
+    <trd>intermediar</trd>,
+    <trd>proporcionar</trd>,
+    <trd>procurar</trd>
+  </trdgrp>
   <trdgrp lng="fr">
-      <trd>s'<ind>entremettre</ind></trd>,
-      <trd>faire avoir</trd>,
-      <trd>fournir</trd>,
-      <trd>procurer</trd>
-    </trdgrp>
+    <trd>s'<ind>entremettre</ind></trd>,
+    <trd>faire avoir</trd>,
+    <trd>fournir</trd>,
+    <trd>procurer</trd>
+  </trdgrp>
   <trd lng="nl">bemidddelen</trd>
   <trd lng="pl">po&sacute;redniczy&cacute;</trd>
   <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
@@ -512,21 +710,36 @@
     <trd>tlmo&ccaron;i&tcaron;</trd>
   </trdgrp>
 </drv>
-  <drv mrk="per.0ado">
-    <kap><tld/>ado</kap>
-    <snc mrk="per.0ado.faro">
-      <dif>
-        Faro de <tld/>anto:
-        <ekz>
-          ni atingis tiun sukceson <tld/> la <tld/>ado de nia
-          prezidanto;
-        </ekz>
-        <ekz>
-          pac<tld/>ado
-          <klr>(paciga interveno)</klr>.
-        </ekz>
-      </dif>
-    </snc>
+
+<drv mrk="per.0ado">
+  <kap><tld/>ado</kap>
+  <snc mrk="per.0ado.faro">
+    <dif>
+      Ago <tld/>i:
+      <ekz>
+        foje &ccirc;iuj popoloj povus interkompreni&gcirc;i senpere, sen la falsa <tld/>ado de
+        malicaj interpretistoj
+        <fnt>
+          <bib>MPe</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>ado kaj kontrolado de korespondo inter sovetaj kaj alilandaj proletoj
+        <klr>[&#x2026;]</klr>, estis la &ccirc;efa aktiveco, per kiu SEU vivtenis sin
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la enkonduko mi konscias ke la <tld/>ado ne sukcesos <klr>[&#x2026;]</klr>, samaj
+        aferoj simple ne estas egale divideblaj inter du homoj
+        <fnt>
+          <aut>Spomenka &Scaron;timec</aut>
+          <vrk>Ombro sur interna pejza&gcirc;o</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_c;&c_t;&c_v;&c_a;</trd>
   <trd lng="cs">zprost&rcaron;edkov&aacute;n&iacute;</trd>
   <trd lng="de">Vermittlung</trd>
@@ -549,26 +762,27 @@
     <kap><tld/>anto</kap>
     <snc mrk="per.0anto.homo">
       <dif>
-        Homo, per kies helpo oni traktas aferojn kun aliaj personoj:
+        <ref tip="super" cel="help.0anto">Helpanto</ref>, per kies subteno
+        oni traktas aferojn kun aliaj personoj:
         <ekz>
           mi zorgas pri la bonaj rilatoj kun la <tld/>antoj de la
           magazino
           kaj enkasigas &ccirc;iujn kotizojn
           <fnt>
-          <aut>-</aut>,
-          <vrk>Gerd Jacques</vrk>,
-          <bib>Monato</bib>,
-          <lok>2003:1, p. 6a</lok>
+            <aut>-</aut>,
+            <vrk>Gerd Jacques</vrk>,
+            <bib>Monato</bib>,
+            <lok>2003:1, p. 6a</lok>
           </fnt>;
         </ekz>
         <ekz>
           se temas pri fidinda Interret-<tld/>anto, oni certe esploros
           vian plendon
           <fnt><aut>P. Peeraerts</aut>,
-          <vrk><url ref="&Monato;/005984.html">trudata reklamo: &ccirc;u
-          haltigebla?</url></vrk>,
-          <bib>Monato</bib>,
-          <lok>1998:4</lok>
+            <vrk><url ref="&Monato;/005984.html">trudata reklamo: &ccirc;u
+            haltigebla?</url></vrk>,
+            <bib>Monato</bib>,
+            <lok>1998:4</lok>
           </fnt>.
         </ekz>
       </dif>
@@ -587,7 +801,10 @@
     <trd>prost&rcaron;edn&iacute;k</trd>,
     <trd>z&aacute;stupce</trd>
   </trdgrp>
-  <trd lng="de">Vermittler</trd>
+  <trdgrp lng="de">
+      <trd>Vermittler</trd>,
+      <trd>Mittler</trd>
+    </trdgrp>
   <trdgrp lng="en">
   <trd>agent</trd>, 
     <trd>intermediary</trd>,
@@ -607,64 +824,127 @@
     <trd>z&aacute;stupca</trd>
   </trdgrp>
 </drv>
-  <drv mrk="per.0ilo">
-    <kap><tld/>ilo</kap>
-    <snc mrk="per.0ilo.rimedo">
-      <dif>
-        Rimedo.
-      </dif>
-    </snc>
-    <trd lng="be">&c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</trd>
-    <trdgrp lng="en">
-      <trd>agency</trd>,
-      <trd>agent</trd>, <trd>means</trd>, <trd>instrument</trd>,
-      <trd>medium</trd>
-    </trdgrp>
-    <trd lng="hu">k&ouml;zvet&iacute;t&odblac;eszk&ouml;z</trd>
-  </drv>
-  <drv mrk="per.cxi0e">
-    <kap>&ccirc;i-<tld/>e</kap>
-    <snc mrk="per.cx0e.KOMUNE">
-      <dif>
-        Per &ccirc;i tiu diro, dokumento, deklaro:
-        <ekz>
-          la Akademio &ccirc;i-<tld/>e nuligas tiun licencan interpreton
-          <fnt>
-            <aut>Akademio de Esperanto</aut>,
-            <vrk><url
-            ref="http://www.akademio-de-esperanto.org/oficialaj_informoj/oficialaj_informoj_22_2013.html">
-            Rekomendo de la Akademio pri la uzo de propraj
-            nomoj</url></vrk>,
-            <lok>2013-10-10</lok>
-          </fnt>.
-        </ekz>
-      </dif>
-    </snc>
-    <trdgrp lng="en">
-      <trd>by this means</trd>,
-      <trd>by this agency</trd>
-    </trdgrp>
-    <trd lng="fr">par les pr&eacute;sentes</trd>
-  </drv>
-  <drv mrk="per.sen0a">
-    <kap>sen<tld/>a</kap>
-    <snc mrk="per.sen0a.aganta">
-      <dif>
-        Aganta per si mem sen perado de aliaj:
-        <ekz>
-          mi devas malobservi la oficialan vojon kaj fari sen<tld/>an
-          raporton
-          <fnt><bib>SatirRak</bib>, <lok>la barbaro</lok></fnt>;
-        </ekz>
-        <ekz>
-          sen<tld/>a ka&ubreve;zo.
-        </ekz>
-      </dif>
-    </snc>
+
+<drv mrk="per.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="per.0ilo.rimedo">
+    <dif>
+      <ref tip="super" cel="rimed.0o">Rimedo</ref>:
+      <ekz>
+        Universala Esperanto-Asocio, sidanta en &Gcirc;enevo, &jcirc;us informis siajn delegitojn
+        <klr>[&#x2026;]</klr>, ke &gcirc;i volonte servos kiel <tld/>ilo por la inter&scirc;an&gcirc;ado de
+        privataj koresponda&jcirc;oj inter la malamikaj landoj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &jcirc;urnalo estas evidente la <tld/>ilo per kiu drogo-kompanioj entuziasmigas
+        certajn sekciojn de la merkato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>David Curtis</aut>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Koratako</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        algoritmoj fari&gcirc;is preska&ubreve; rutinaj <tld/>iloj kiam oni skribas enrete
+        <fnt>
+          <bib>MD14</bib>
+          <vrk>Google kaj lingva imperiismo</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</trd>
+  <trdgrp lng="de">
+    <trd>Mittel</trd>,
+    <trd>Vermittlung</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>agency</trd>,
+    <trd>agent</trd>, <trd>means</trd>, <trd>instrument</trd>,
+    <trd>medium</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>agencia</trd>,
+    <trd>agente</trd>, <trd>instrumento</trd>,
+    <trd>medio</trd>
+  </trdgrp>
+  <trd lng="hu">k&ouml;zvet&iacute;t&odblac;eszk&ouml;z</trd>
+</drv>
+
+
+<drv mrk="per.cxi0e">
+  <kap>&ccirc;i-<tld/>e</kap>
+  <snc mrk="per.cxi0e.KOMUNE">
+    <dif>
+      Per &ccirc;i tiu diro, dokumento, deklaro:
+      <ekz>
+        la Akademio &ccirc;i-<tld/>e nuligas tiun licencan interpreton
+        <fnt>
+          <aut>Akademio de Esperanto</aut>,
+          <vrk><url ref="http://www.akademio-de-esperanto.org/oficialaj_informoj/oficialaj_informoj_22_2013.html">
+          Rekomendo de la Akademio pri la uzo de propraj
+          nomoj</url></vrk>,
+          <lok>2013-10-10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="jen.0e">jene</ref>
+  </snc>
+  <trd lng="de">hiermit</trd>
+  <trdgrp lng="en">
+    <trd>by this means</trd>,
+    <trd>by this agency</trd>
+  </trdgrp>
+  <trd lng="es">por la presente</trd>
+  <trd lng="fr">par les pr&eacute;sentes</trd>
+</drv>
+
+
+<drv mrk="per.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="per.sen0a.aganta">
+    <dif>
+      Aganta per si mem sen <tld/>ado de aliaj:
+      <ekz>
+        sen<tld/>a organizanto de la kongreso en lia propra urbo
+        <fnt>
+          <aut>L. L. &Z;</aut>
+          <vrk><url ref="https://tekstaro.com/t?nomo=paroladoj-de-zamenhof">Parolado super la Tombo de Karlo Bourlet, 1913</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ambicio de la junulo estis nur la sen<tld/>a sekvo de ridegindaj revadoj de
+        l&#x2019; infano
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Suzano starigis inter tiuj du fari&gcirc;oj sen<tld/>an rilaton
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi devas malobservi la oficialan vojon kaj fari sen<tld/>an
+        raporton
+        <fnt><bib>SatirRak</bib>, <lok>la barbaro</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="apud.cxi0a">&ccirc;i-apuda</ref>,
+      <ref cel="rekt.0a.senpera">rekta<sncref/></ref>,
+      <ref cel="kondic1.sen0a">senkondi&ccirc;a</ref>
+    </refgrp>
+  </snc>
   <trdgrp lng="be">
-      <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_r;&c_e;&c_d;&c_n;&c_y;</trd>,
-      <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;</trd>
-    </trdgrp>
+    <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_r;&c_e;&c_d;&c_n;&c_y;</trd>,
+    <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;</trd>
+  </trdgrp>
+  <trd lng="bo">&#xF51;&#xF7A;&#xF0B;&#xF58;&#xF0B;&#xF50;&#xF42;&#xF0B;&#xF4F;&#xF74;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>bezprost&rcaron;edn&iacute;</trd>,
     <trd>p&rcaron;&iacute;m&yacute;</trd>
@@ -679,13 +959,13 @@
   <trd lng="fr">direct<klr tip="ind"> (sans
     interm&eacute;diaire)</klr></trd>
   <trdgrp lng="hu">
-      <trd>k&ouml;zvetlen</trd>,
-      <trd>direkt</trd>
-    </trdgrp>
+    <trd>k&ouml;zvetlen</trd>,
+    <trd>direkt</trd>
+  </trdgrp>
   <trdgrp lng="nl">
-      <trd>rechtstreeks</trd>,
-      <trd>direct</trd>
-    </trdgrp>
+    <trd>rechtstreeks</trd>,
+    <trd>direct</trd>
+  </trdgrp>
   <trd lng="pl">bezpo&sacute;redni</trd>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
@@ -693,6 +973,7 @@
     <trd>priamy</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="per.sen0e">
   <kap>sen<tld/>e</kap>
   <snc mrk="per.sen0e.rekte">
@@ -703,17 +984,30 @@
         <fnt><bib>Fab2</bib>, <lok>La najtingalo</lok></fnt>;
       </ekz>
       <ekz>
-        sen<tld/>e &ccirc;e la maro<fnt>Z</fnt>;
+        &ccirc;u li vere &gcirc;in sen<tld/>e fordonacis, kiel senvaloran objekton
+        <fnt>
+          <bib>FK</bib>
+          <vrk>La Porcio da Glacia&jcirc;o</vrk>
+        </fnt>?
       </ekz>
       <ekz>
-        sen<tld/>e averti la estron.
+        la malgranda Ernestino, sen<tld/>e vekita, eligis akrajn kriadojn kaj en sia
+        lulilo
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="hezit.sen0e">senhezite</ref>,
+      <ref cel="tuj.0">tuj</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_r;&c_e;&c_d;&c_n;&c_a;</trd>,
     <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_je;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF41;&#xF0B;&#xF50;&#xF74;&#xF42;&#xF0B;&#xF63;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>bezprost&rcaron;edn&ecaron;</trd>,
     <trd>p&rcaron;&iacute;mo</trd>
@@ -748,12 +1042,77 @@
     <trd>rovno</trd>
   </trdgrp>
 </drv>
+
+
+<drv mrk="per.0ede">
+  <kap><tld/>e de</kap>
+  <gra><vspec>prepozicia&jcirc;o</vspec></gra>
+  <snc mrk="per.0ede.helpe_de">
+    <dif>
+      Per la helpo de, per la intera agado de:
+      <ekz>
+        la profetoj <klr>[&#x2026;]</klr> <tld/>e de fido venkis regnojn, plenumis justecon,
+        atingis promesojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 11:33</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nevidebla an&gcirc;elozorganto sendis al li porcion <tld/>e de maljuna kuiristino
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej granda komerco okazas <tld/>e de malgrandaj vendejoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Straznickas</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006830.html">Litovio &dash; Britio:
+          Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni evoluigas la sistemon <nom>DLT</nom> por ma&scirc;intradukado <tld/>e de
+        la uzo de Esperanto kiel interlingvo
+        <fnt>
+          <aut>J. Wells</aut>,
+          <vrk>ni vivas en historia momento</vrk>,
+          <bib>Esperanto</bib>,
+          <lok>1988:9 (993), p. 143a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>n&ecaron;&ccaron;&iacute;m</trd>,
+    <trd>prost&rcaron;ednictv&iacute;m n&ecaron;&ccaron;eho</trd>
+  </trdgrp>
+  <trd lng="en">by means of</trd>
+  <trdgrp lng="es">
+    <trd>mediante</trd>,
+    <trd>por medio de</trd>,
+    <trd>a trav&eacute;s de</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>au moyen de</trd>,
+    <trd>par l'interm&eacute;diaire de</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>&aacute;ltal</trd>,
+    <trd>r&eacute;v&eacute;n</trd>,
+    <trd>k&ouml;zvet&iacute;t&eacute;s&eacute;vel</trd>
+  </trdgrp>
+  <trd lng="sk">prostredn&iacute;ctvom</trd>
+</drv>
+
 </subart>
 
 <subart>
 <drv mrk="per.0_">
   <kap><tld/>-</kap>
-  <snc mrk="per.0o.prefikso">
+  <snc mrk="per.0_.prefikso">
     <dif>
       Prefikso signifanta, ke la ago esprimata de la radiko i&gcirc;as
       rimedo por atingi iun celon:
@@ -779,34 +1138,39 @@
     <trd>mittels</trd>,
     <trd>mit</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>por medio de</trd>,
+    <trd>con</trd>,
+    <trd>por</trd>
+  </trdgrp>
   <trd lng="vo">dub</trd>
   <trd lng="ms">wakil</trd>
 </drv>
 </subart>
 </art>
 <!--
-$Log: per.xml,v $
-Revision 1.37  2020/03/01 15:34:50  revo
-Wolfram Diestel: ghustigis strukturon drv por prefikso, mrk-oj
+$Log$
+versio 1.46 2021/05/13 13:13:15
+Wolfram Diestel: kor. snc@mrk
 
-Revision 1.36  2017/12/20 10:10:16  revo
+versio 1.45 2021/04/17 19:00:53
+Wolfram Diestel: ~ 1..4: fnt-oj / ekz-oj kun fnt
 
-Revision 1.35  2017/01/26 09:10:22  revo
-Adam Eng: trd ms
+versio 1.44 2021/04/16 14:49:58
+Wolfram Diestel: chi~e..sen~e: ekz-oj, ref-oj, trd de
 
-Revision 1.34  2016/10/04 06:10:26  revo
-Sebastian Cyprych: +trd pl
+versio 1.43 2021/04/15 18:09:46
+Wolfram Diestel: ~ado, ~ilo: ekz-oj, trd de
 
-Revision 1.33  2015/12/03 17:10:14  revo
-Cindy Moon McKee: +trd en
+versio 1.42 2021/04/15 17:31:06
+Wolfram Diestel: ~i: ekz-oj, trd de
 
-Revision 1.32  2015/07/04 08:37:41  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.41 2021/04/02 08:57:49
+Wolfram Diestel: ~e de: ekz-oj
 
-Revision 1.31  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.40 2021/03/23 17:22:37
+Wolfram Diestel: ~a: ekz-oj
 
-Revision 1.30  2015/03/23 23:10:15  revo
-Jeromo Vasxe: + cxi~e
+versio 1.39 2021/03/21 20:48:36
 -->
 </vortaro>

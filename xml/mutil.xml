@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mutil.xml,v 1.6 2018/10/04 14:10:18 revo Exp $">
+<art mrk="$Id: mutil.xml,v 1.9 2021/04/19 05:52:56 revo Exp $">
 <kap>
   <rad>mutil</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,14 +11,25 @@
   <uzo tip="fak">MED</uzo>
   <snc mrk="mutil.0i.MED">
     <dif>
-      Difekti la tutecon de iu per forpreno de membro a&ubreve; de ekstera
-      parto de ties korpo:
+      <ref cel="difekt.0i">Difekti</ref> la tutecon de iu per
+      forpreno de membro a&ubreve; de ekstera parto de ties korpo:
       <ekz>
-        &ccirc;u vi ne povas same adori Dion, sen <tld/>i viajn korpojn?
+        &ccirc;u vi ne povas same adori Dion, sen <tld/>i viajn korpojn
         <fnt>
           <aut>A. L&ouml;wenstein</aut>,
           <vrk>La &scirc;tona urbo</vrk>, 
           <lok>1999</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        tia vagina <tld/>o okazas precipe inter homoj devenaj el Somalio kaj apudaj
+        regionoj en Afriko, kaj plej ofte en islama medio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2006/008882.php"
+              >Malpaciga pacpremio</url></vrk>
+          <lok>2006</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -28,22 +39,51 @@
           <vrk><url ref="http://esperanto-ondo.ru/Tl-hisp4.htm">La viro
           &ccirc;e la sojlo</url></vrk>,
           <lok>en: La sekreta miraklo, 2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[en]</klr> la paketa radiofonio, <klr>[&#8230;]</klr> la ricevilo povas 
+        baze de la kunsenditaj paketnumeroj reordigi la tuton a&ubreve; la&ubreve;necese peti 
+        pri la resendo de &ccirc;io, kio iel survoje perdi&gcirc;is a&ubreve; <tld/>i&gcirc;is
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007219.html"
+              >Prefere pakete</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="amput.0i">amputi</ref>,
+       <ref cel="cirkum.0i">cirkumcidi</ref>,
+       <ref cel="kripl.0igi">kripligi</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>zmrza&ccaron;it</trd>,
     <trd>znetvo&rcaron;it</trd>
   </trdgrp>
-  <trd lng="de">beschneiden</trd>
+  <trdgrp lng="de">
+    <trd>verst&uuml;mmeln</trd>,
+    <trd>beschneiden</trd>
+  </trdgrp>
   <trd lng="en">mutilate</trd>
   <trd lng="es">mutilar</trd>
   <trd lng="fa">&a_m;&a_th;&a_l;&a_h; &f_k;&a_r;&a_d;&a_n;</trd>
   <trd lng="fr">mutiler</trd>
   <trd lng="gl">mutilar</trd>
   <trd lng="nl">verminken</trd>
+  <trdgrp lng="pl">
+    <trd>uszkodzi&cacute;</trd>,
+    <trd>okaleczy&cacute;</trd>,
+    <trd>zepsu&cacute;</trd>
+  </trdgrp>
   <trd lng="pt">mutilar</trd>
+  <trdgrp lng="ro">
+    <trd>strica</trd>,
+    <trd>mutila</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>zmrza&ccaron;i&tcaron;</trd>,
     <trd>znetvori&tcaron;</trd>
@@ -52,9 +92,15 @@
 </art>
 
 <!--
-$Log: mutil.xml,v $
-Revision 1.6  2018/10/04 14:10:18  revo
-Behnam Tabatabai: +trd fa
+$Log$
+versio 1.9 2021/04/19 05:52:56
+Wolfram Diestel: +ekz, ref-oj
+
+versio 1.8 2021/04/04 11:50:51
+Wolfram Diestel: +trd de
+
+versio 1.7 2020/11/28 22:10:31
+Vito Redsky: +trd pl +trd ro
 
 Revision 1.5  2018/05/27 12:10:13  revo
 Wolfram Diestel: +trd de
@@ -69,7 +115,5 @@ Revision 1.2  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.1  2014/09/03 01:10:23  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

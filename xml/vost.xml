@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: vost.xml,v 1.35 2015/07/04 08:37:46 revo Exp $">
+<art mrk="$Id: vost.xml,v 1.80 2021/06/18 18:20:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>vost</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>vost</rad>/o <fnt><bib>MT</bib></fnt>
 </kap>
 
 <drv mrk="vost.0o">
@@ -20,9 +19,22 @@
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
+        okazon kaptu &ccirc;e l' kapo, &ccirc;ar la <tld/>o estas glita
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        prenu de la vir&scirc;afo la sebon kaj la <tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 29:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         subpremi, subtiri la <tld/>on
-        <klr>(pp frapita hundo; f. pp trompito.
-        <ref tip="vid" cel="naz.0o">nazo</ref>)</klr>.
+        <klr>(pp frapita hundo; f. pp trompito;
+        vd <ref tip="vid" cel="naz.0o">nazo</ref>)</klr>.
       </ekz>
     </dif>
     <trd lng="de">Schwanz</trd>
@@ -45,7 +57,14 @@
       Posta parto de la korpo de birdoj a&ubreve; serpentoj:
       <ekz>
         korniko vundita propran <tld/>on timas
-        <fnt><bib>PrV</bib></fnt>.
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        kolorri&ccirc;a kiel <tld/>o de pavo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Malbona princo (Legendo)</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Schwanz</trd>
@@ -69,7 +88,22 @@
         <tld/>o <klr>(baskoj)</klr> de frako;
       </ekz>
       <ekz>
-        tiu senutila deklaro faras impreson de alkudrita <tld/>o.
+        movi&gcirc;is okcidenten luma fenomeno, kiu i&gcirc;is ardanta pilko kun longa <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2013/010926.php">Spaco por a&jcirc;oj el la spaco</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>on de la unua aviadilo ornamas la blazono de la litova duko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="https://www.monato.be/2013/011092.php">Litovio denove kun flugiloj</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Ende</trd>
@@ -78,6 +112,7 @@
     <trd lng="nl">sleep</trd>
     <trd lng="sv">sl&auml;p</trd>
   </snc>
+<!-- mi ne trovis pruvon de tia uzo...:
   <snc mrk="vost.0o.vico">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -93,24 +128,67 @@
     </trdgrp>
     <trd lng="sv">k&ouml;</trd>
   </snc>
+-->
+  <trd lng="af">stert</trd>
+  <trd lng="am">&#x1305;&#x122B;&#x1275;</trd>
+  <trd lng="ar">&#x630;&#x64A;&#x644;</trd>
+  <trd lng="az">quyruq</trd>
   <trd lng="be">&c_h;&c_v;&c_o;&c_s;&c_t;</trd>
+  <trd lng="bn">&#x9B2;&#x9C7;&#x999;&#x9CD;&#x997;&#x9C1;&#x9A1;&#x9BC;</trd>
   <trd lng="br">lost</trd>
+  <trd lng="bs">rep</trd>
   <trd lng="ca">cua</trd>
+  <trd lng="co">cuda</trd>
   <trdgrp lng="cs">
     <trd>chvost</trd>,
     <trd>ocas</trd>,
     <trd>ohon</trd>
   </trdgrp>
+  <trd lng="da">hale</trd>
   <trd lng="el">&omikron;&ypsilon;&rho;&alfa_ton;</trd>
   <trd lng="en">tail</trd>
+  <trd lng="et">saba</trd>
+  <trd lng="eu">buztana</trd>
   <trd lng="fr">queue</trd>
+  <trd lng="fy">sturt</trd>
+  <trd lng="gl">cola</trd>
+  <trd lng="gu">&#xAAA;&#xAC2;&#xA82;&#xA9B;&#xAA1;&#xAC0;</trd>
+  <trd lng="ha">wutsiya</trd>
+  <trd lng="hi">&#x92A;&#x942;&#x902;&#x91B;</trd>
+  <trd lng="hr">rep</trd>
+  <trd lng="hy">&#x57A;&#x578;&#x579;</trd>
+  <trd lng="is">hala</trd>
   <trd lng="it">coda</trd>
+  <trd lng="ja">&#x30C6;&#x30FC;&#x30EB;</trd>
+  <trd lng="jw">buntut</trd>
+  <trd lng="ka">&#x10D9;&#x10E3;&#x10D3;&#x10D8;</trd>
+  <trd lng="km">&#x1780;&#x1793;&#x17D2;&#x1791;&#x17BB;&#x1799;</trd>
+  <trd lng="ko">&#xAF2C;&#xB9AC;</trd>
+  <trd lng="lo">&#xEAB;&#xEB2;&#xE87;</trd>
+  <trd lng="ml">&#xD35;&#xD3E;&#xD32;&#xD4D;</trd>
+  <trd lng="mr">&#x936;&#x947;&#x92A;&#x942;&#x91F;</trd>
+  <trd lng="my">&#x1021;&#x1019;&#x103C;&#x102E;&#x1038;</trd>
+  <trd lng="ne">&#x92A;&#x941;&#x91A;&#x94D;&#x91B;&#x930;</trd>
+  <trd lng="ny">mchira</trd>
+  <trd lng="pa">&#xA2A;&#xA42;&#xA1B;</trd>
+  <trd lng="ps">&#x644;&#x6A9;&#x6CD;</trd>
   <trdgrp lng="pt">
    <trd>cauda</trd>,
    <trd>rabo</trd>
    </trdgrp>
   <trd lng="ru">&c_h;&c_v;&c_o;&c_s;&c_t;</trd>
-  <trd lng="sk">zakončenie</trd>
+  <trd lng="sd">&#x67E;&#x687;</trd>
+  <trd lng="si">&#xDC0;&#xDBD;&#xDD2;&#xD9C;&#xDBA;</trd>
+  <trd lng="sk">zakon&ccaron;enie</trd>
+  <trd lng="sq">bisht</trd>
+  <trd lng="ta">&#xBB5;&#xBBE;&#xBB2;&#xBCD;</trd>
+  <trd lng="te">&#xC24;&#xC4B;&#xC15;</trd>
+  <trd lng="th">&#xE2B;&#xE32;&#xE07;</trd>
+  <trd lng="tl">buntot</trd>
+  <trd lng="ur">&#x62F;&#x645;</trd>
+  <trd lng="vi">&#x111;u&#xF4;i</trd>
+  <trd lng="yi">&#x5E2;&#x5E7;</trd>
+  <trd lng="zu">umsila</trd>
 </drv>
 
 <drv mrk="vost.har0o">
@@ -119,12 +197,21 @@
     <dif>
       Fasko da haroj libere pendantaj el kuntena la&ccirc;o a&ubreve; banto:
       <ekz>
-        Marley kun sia har<tld/>o, kutima ve&scirc;to, pantalono, kaj botoj
+        <nom>Marley</nom> kun sia har<tld/>o, kutima ve&scirc;to, pantalono, kaj botoj
         <fnt>
           <aut>C. Dickens, trad. M. Westcott</aut>,
           <vrk><url ref="http://esperanto.luin.nu/eLibrejo/pdf/071-6">
           Kristnaska kanto</url></vrk>,
           <lok>1905</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        distinga maldika viro, kiu portis junaspektan har<tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj'</aut>
+          <vrk><url ref="https://www.monato.be/2014/011373.php">Geraldo Mattos kaj Sutte All&aacute;</url></vrk>
+          <lok>2014</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -133,7 +220,7 @@
     <trd>cua de cavall</trd>,
     <trd>cua <klr>(cabellera)</klr></trd>
   </trdgrp>
-  <trd lng="cs">koňský ohon <klr>(účes)</klr></trd>
+  <trd lng="cs">ko&ncaron;sk&yacute; ohon <klr>(&uacute;&ccaron;es)</klr></trd>
   <trd lng="de">Pferdeschwanz<klr> (Frisur)</klr></trd>
   <trd lng="fr">queue de cheval</trd>
   <trdgrp lng="id">
@@ -145,8 +232,60 @@
     <trd>fr&eogonek;dzel</trd>,
     <trd>chwost</trd>
   </trdgrp>
-  <trd lng="sk">konský chvost <klr>(účes)</klr></trd>
+  <trd lng="sk">konsk&yacute; chvost <klr>(&uacute;&ccaron;es)</klr></trd>
   <trd lng="sv">h&auml;stsvans<klr> (frisyr)</klr></trd>
+</drv>
+
+<drv mrk="vost.rugx0ulo">
+  <kap>
+    ru&gcirc;<tld/>ulo
+  </kap>
+  <snc mrk="vost.rugx0ulo.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Iu el <ref tip="lst" lst="voko:zoologiaj_genroj" cel="genr.0o.BIO">genro</ref>
+      de &ccirc;. 11 <ref tip="lst" lst="voko:birdoj" cel="bird.0o.ZOO">birdo</ref>-specioj 
+      el familio mu&scirc;kaptuledoj, kun rustkoloraj a&ubreve; ru&gcirc;brunaj vostoj,
+        (<trd lng="la">Phoenicurus</trd>):
+      <ekz>
+        <ind>&Gcirc;ardenru&gcirc;<tld/>ulo</ind>
+        <fnt>
+          <vrk><url ref="http://aztekium.pl/word.py?lang=tr&amp;xlang=eo&amp;online=fenikuro">Wiki Kelime fenikuro</url></vrk>
+        </fnt>;
+        <trd lng="de">Gartenrotschwanz</trd>
+        <trd lng="fr">rouge-queue &agrave; front blanc</trd>
+        <trd lng="la">Phoenicurus phoenicurus</trd>
+      </ekz>
+      <ekz>
+        <ind>Orientazia ru&gcirc;<tld/>ulo</ind>
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Orientazia_ru%C4%9Dvostulo">Orientazia ru&gcirc;vostulo</url></vrk>
+        </fnt>;
+        <trd lng="de">Spiegelrotschwanz</trd>
+        <trd lng="fr">rouge-queue aurore</trd>
+        <trd lng="la">Phoenicurus auroreus</trd>
+      </ekz>
+      <ekz>
+        <ind>Nigra ru&gcirc;<tld/>ulo</ind>
+        <fnt>
+          <vrk><url ref="https://www.naturephoto-cz.com/nigra-ru%C4%9Dvostulo-picture_eo-1493.html">Nigra ru&gcirc;vostulo Fotoj, Bildoj</url></vrk>
+        </fnt>.
+        <trd lng="de">Hausrotschwanz</trd>
+        <trd lng="fr">rouge-queue noir</trd>
+        <trd lng="la">Phoenicurus ochruros</trd>
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="fenikur.0o.genro">fenikuro</ref>
+    <bld lok="&WCU;/thumb/4/40/Gartenrotschwanz_1.jpg/480px-Gartenrotschwanz_1.jpg" prm="CC BY-SA 3.0">&Gcirc;ardenru&gcirc;<tld/>ulo
+        <fnt>
+          <aut>Aconcagua, propra verko</aut>
+          <lok><url ref="&WCW;/File:Gartenrotschwanz_1.jpg">https://commons.wikimedia.org/wiki/File:Gartenrotschwanz_1.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trd lng="de">Rotschwanz</trd>
+  <trd lng="en">Phoenicurus</trd>
+  <trd lng="fr">rouge-queue</trd>
 </drv>
 
 <drv mrk="vost.sen0uloj">
@@ -154,10 +293,9 @@
   <snc mrk="vost.sen0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="lst" cel="ord.0o.BIO"
-      lst="voko:zoologiaj_ordoj">Ordo</ref> 
+      <ref tip="lst" cel="ord.0o.BIO" lst="voko:zoologiaj_ordoj">Ordo</ref> 
       de <ref tip="super" cel="amfibi.0oj">amfibioj</ref>,
-      kies lasta evoluformo ne havas voston;
+      kies lasta evoluformo ne havas voston
       (<trd lng="la">Anura</trd>).
     </dif>
     <ref tip="sin" cel="anur.0oj.ZOO">anuroj</ref>
@@ -178,16 +316,21 @@
   <trd lng="nl">staartlozen</trd>
   <trd lng="pl">p&lstroke;azy <ind>bezogonowe</ind></trd>
   <trd lng="pt">anuros</trd>
-  <trd lng="ru">&c_b;&c_je;&c_s;&c_h;&c_v;&c_o;&c_s;&c_t;&c_y;&c_je; &c_z;&c_je;&c_m;&c_n;&c_o;&c_v;&c_o;&c_d;&c_n;&c_y;&c_je; <klr
-  tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
-  <trd lng="sk">bezchvostové živočíchy</trd>
+  <trd lng="ru">&c_b;&c_je;&c_s;&c_h;&c_v;&c_o;&c_s;&c_t;&c_y;&c_je; &c_z;&c_je;&c_m;&c_n;&c_o;&c_v;&c_o;&c_d;&c_n;&c_y;&c_je; <klr tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
+  <trd lng="sk">bezchvostov&eacute; &zcaron;ivo&ccaron;&iacute;chy</trd>
   <trd lng="sv">stj&auml;rtl&ouml;sa groddjur</trd>
 </drv>
 </art>
 <!--
-$Log: vost.xml,v $
-Revision 1.35  2015/07/04 08:37:46  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.38 2020/11/22 01:06:02
+Jeromo Vasxe: + trd fr
+
+versio 1.37 2020/11/15 14:32:19
+Wolfram Diestel: +ekz-oj, -snc "vico"
+
+versio 1.36 2020/11/15 12:33:48
+Wolfram Diestel: +rugx~ulo
 
 Revision 1.34  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
@@ -202,17 +345,5 @@ Revision 1.31  2013/09/01 12:10:12  revo
 Wolfram Diestel: sen~uloj: referenco al listo zoo ordoj
 
 Revision 1.30  2013/04/19 06:10:11  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.29  2013/04/18 12:10:09  revo
-Jeromo Vasxe: + ref anuroj
-
-Revision 1.28  2011/12/04 23:10:40  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.27  2009/09/01 04:53:34  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.26  2007/05/23 16:30:35  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: regul.xml,v 1.41 2020/02/22 19:10:31 revo Exp $">
+<art mrk="$Id: regul.xml,v 1.84 2021/06/18 18:20:06 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>regul</rad>/o <fnt><bib>PV</bib></fnt>
@@ -26,24 +25,67 @@
        <ref cel="princi.0o">principo</ref>
      </refgrp>
    </snc>
+  <trd lng="af">re&#xEB;l</trd>
+  <trd lng="am">&#x12F0;&#x1295;&#x1265;</trd>
+  <trd lng="ar">&#x62D;&#x643;&#x645;</trd>
+  <trd lng="az">qayda</trd>
   <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_a;</trd>
+  <trd lng="bn">&#x9A8;&#x9BF;&#x9AF;&#x9BC;&#x9AE;</trd>
+  <trd lng="bo">&#xF51;&#xF56;&#xF44;&#xF0B;&#xF66;&#xF92;&#xFB1;&#xF74;&#xF62;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bs">pravilo</trd>
   <trd lng="ca">regla</trd>
+  <trd lng="co">r&#xE8;gula</trd>
   <trdgrp lng="cs">
     <trd>pravidlo</trd>,
     <trd>p&rcaron;edpis</trd>
   </trdgrp>
+  <trd lng="da">regel</trd>
   <trd lng="de">Regel</trd>
   <trd lng="en">rule</trd>
   <trd lng="es">regla</trd>
+  <trd lng="et">reegel</trd>
+  <trd lng="eu">arau</trd>
   <trd lng="fr">r&egrave;gle</trd>
+  <trd lng="fy">regel</trd>
+  <trd lng="gl">regra</trd>
+  <trd lng="gu">&#xAA8;&#xABF;&#xAAF;&#xAAE;</trd>
+  <trd lng="ha">mulkin</trd>
+  <trd lng="hi">&#x928;&#x93F;&#x92F;&#x92E;</trd>
+  <trd lng="hr">pravilo</trd>
   <trd lng="hu">szab&aacute;ly</trd>
+  <trd lng="hy">&#x56F;&#x561;&#x576;&#x578;&#x576;</trd>
+  <trd lng="is">regla</trd>
+  <trd lng="ja">&#x30EB;&#x30FC;&#x30EB;</trd>
+  <trd lng="jw">aturan</trd>
+  <trd lng="ka">&#x10EC;&#x10D4;&#x10E1;&#x10D8;</trd>
+  <trd lng="km">&#x1785;&#x17D2;&#x1794;&#x17B6;&#x1794;&#x17CB;</trd>
+  <trd lng="ko">&#xADDC;&#xCE59;</trd>
+  <trd lng="lo">&#xE81;&#xEBB;&#xE94;&#xEA5;&#xEB0;&#xE9A;&#xEBD;&#xE9A;</trd>
+  <trd lng="ml">&#xD1A;&#xD1F;&#xD4D;&#xD1F;&#xD02;</trd>
+  <trd lng="mr">&#x928;&#x93F;&#x92F;&#x92E;</trd>
+  <trd lng="my">&#x1021;&#x102F;&#x1015;&#x103A;&#x1001;&#x103B;&#x102F;&#x1015;&#x103A;</trd>
+  <trd lng="ne">&#x928;&#x93F;&#x92F;&#x92E;</trd>
   <trd lng="nl">regel</trd>
+  <trd lng="ny">ulamuliro</trd>
+  <trd lng="pa">&#xA28;&#xA3F;&#xA2F;&#xA2E; &#xA26;&#xA47;</trd>
   <trd lng="pl">regu&lstroke;a</trd>
+  <trd lng="ps">&#x62D;&#x627;&#x6A9;&#x645;&#x6CC;&#x62A;</trd>
   <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_i;&c_l;&c_o;</trd>
+  <trd lng="sd">&#x631;&#x627;&#x684;</trd>
+  <trd lng="si">&#xDB4;&#xDCF;&#xDBD;&#xDB1;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>pravidlo</trd>,
     <trd>predpis</trd>
   </trdgrp>
+  <trd lng="sq">rregull</trd>
+  <trd lng="ta">&#xB86;&#xB9F;&#xBCD;&#xB9A;&#xBBF;</trd>
+  <trd lng="te">&#xC2A;&#xC3E;&#xC32;&#xC28;</trd>
+  <trd lng="th">&#xE01;&#xE0E;</trd>
+  <trd lng="tl">panuntunan</trd>
+  <trd lng="ur">&#x627;&#x635;&#x648;&#x644;</trd>
+  <trd lng="vi">quy t&#x1EAF;c</trd>
+  <trd lng="yi">&#x5D4;&#x5E2;&#x5E8;&#x5E9;&#x5DF;</trd>
+  <trd lng="zu">ukubusa</trd>
 </drv>
 
 <drv mrk="regul.0a">
@@ -164,7 +206,7 @@
          <frm am="T">T</frm>)</klr>
          Tia, ke la bildo per &gcirc;i de &ccirc;iu testa funkcio
          <frm am="phi">&phi;</frm> estas esprimebla per
-         <frm am="int_(-oo)^(oo)h(x)phi(x)dx">&#8747;<sub>]-&#8734;,+&#8734;[</sub>
+         <frm am="int_(-oo)^(oo)h(x)phi(x)dx">&#x222B;<sub>]-&#x221E;,+&#x221E;[</sub>
          <k>h</k>(<k>x</k>)&phi;(<k>x</k>)d<k>x</k></frm>
          por iu funkcio <frm am="h"><k>h</k></frm>
          <klr> (funkcio asociita al la distribucio)</klr>:
@@ -176,8 +218,7 @@
          Oni ofte identigas <tld/>an distribucion kun &gcirc;ia asociita
          funkcio. E&ccirc; por distribucioj, kiuj ne estas <tld/>aj, oni
          tradicie uzas funkciecajn skriba&jcirc;ojn, ekz-e de la tipo
-         <frm  am="int delta(x-a)phi(x)dx"
-         >&#8747;&delta;(<k>x</k>-<k>a</k>)&phi;(<k>x</k>)d<k>x</k></frm>
+         <frm am="int delta(x-a)phi(x)dx">&#x222B;&delta;(<k>x</k>-<k>a</k>)&phi;(<k>x</k>)d<k>x</k></frm>
          anstata&ubreve; <frm am="delta_a(phi)">&delta;<sub><k>a</k></sub>(&phi;)</frm>.
        </rim>
        <adm>
@@ -386,8 +427,7 @@ Distribution)</klr></trd>
         novaj viv<tld/>oj
         <fnt>
           <aut>N. Cescotti Covelli</aut>,
-          <vrk><url
-          ref="http://www.ueci.it/kongresoj/kng_2007/Prelego_1.htm">
+          <vrk><url ref="http://www.ueci.it/kongresoj/kng_2007/Prelego_1.htm">
           La virino en la islama mondo</url></vrk>,
           <lok>[21a kongreso de UECI], 2007</lok>
         </fnt>.
@@ -429,7 +469,7 @@ Distribution)</klr></trd>
 </art>
 <!--
 $Log: regul.xml,v $
-Revision 1.41  2020/02/22 19:10:31  revo
+versio 1.41 2020/02/22 20:10:32
 Wolfram Diestel: svg anst. gif
 
 Revision 1.40  2020/02/15 23:10:47  revo

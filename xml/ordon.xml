@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ordon.xml,v 1.23 2019/10/06 11:10:18 revo Exp $">
+<art mrk="$Id: ordon.xml,v 1.27 2021/05/29 14:33:00 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>ordon</rad>/i
@@ -32,7 +31,7 @@
           <lok>Tablo , la orazeno kaj bastono el sako</lok>
         </fnt>;
       </ekz><ekz>
-         li <klr>[&#8230;]</klr> <tld/>is siajn akompanantojn atendi ekstere
+         li <klr>[&#x2026;]</klr> <tld/>is siajn akompanantojn atendi ekstere
         <fnt>
           <bib>ElektFab</bib>
           <lok>La kura&gcirc;a tajloreto</lok>
@@ -86,6 +85,7 @@
      </refgrp>
    </snc>
   <trd lng="be">&c_z;&c_a;&c_g;&c_a;&c_d;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bo">&#xF56;&#xF40;&#xF7C;&#xF51;&#xF0B;&#xF54;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>na&rcaron;izov&aacute;n&iacute;m poru&ccaron;it</trd>,
     <trd>na&rcaron;&iacute;dit</trd>,
@@ -131,7 +131,8 @@
  <kap><tld/>o</kap>
  <snc mrk="ordon.0o.volo">
    <dif>
-     Esprimo de ies estra volo:
+     <ref tip="lst" lst="voko:komunikoj" cel="esprim.0o.ado">Esprimo</ref>
+     de ies estra <ref cel="vol.0o">volo</ref>:
      <ekz>
        bezono estas plej forta <tld/>o
        <fnt><bib>PrV</bib></fnt>;
@@ -160,7 +161,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        observi kaj plenumi &ccirc;iujn <klr>[&#8230;]</klr> <tld/>ojn
+        observi kaj plenumi &ccirc;iujn <klr>[&#x2026;]</klr> <tld/>ojn
         <fnt>
           <bib>MT</bib>
           <lok>Readmono 15:5</lok>
@@ -228,26 +229,30 @@
         estas du metodoj agordi la amplekson de indicoj por tabeloj deklaritaj per la
         <tld/>o <frm>Dim</frm>
         <fnt>
-          <vrk><url ref="https://helponline.libreoffice.org/5.4/eo/text/sbasic/shared/03102101.html">Ordono ReDim [Rultempa] - helponline.libreoffice.org</url></vrk>
+          <vrk><url ref="https://helponline.libreoffice.org/5.4/eo/text/sbasic/shared/03102101.html">Ordono
+          ReDim [Rultempa] - helponline.libreoffice.org</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la komputilo simple plenumas tiujn <tld/>ojn en la donita sinsekvo
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Programlingvo">Programlingvo - Vikipedio</url></vrk>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Programlingvo">Programlingvo -
+          Vikipedio</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la parto de la proces-unuo, kie &ccirc;iu <tld/>o el la programo estas &leftquot;legata&rightquot;,
         interpretata kaj direktata
         <fnt>
-          <vrk><url ref="http://www.ilei.info/dok/INVERSA%20VORTARO%20HILAND.pdf">Inversa Vortaro</url></vrk>
+          <vrk><url ref="http://www.ilei.info/dok/INVERSA%20VORTARO%20HILAND.pdf">Inversa
+          Vortaro</url></vrk>
           <lok>ilei.info</lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="deklar.0o.KOMP">deklaro</ref>
     <ref tip="sub" cel="komand.0o.KOMP">komando</ref>
+    <trd lng="be">&c_a;&c_p;&c_e;&c_r;&c_a;&c_t;&c_a;&c_r; <klr>(&c_u; &c_k;&c_a;&c_m;&c_p;&c_u;&c_t;&c_a;&c_r;&c_n;&c_a;&c_j; &c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_je;)</klr></trd>
     <trd lng="de">Instruktion</trd>
     <trd lng="en"><klr>(executable)</klr>
      <ind>statement</ind></trd>
@@ -263,6 +268,7 @@
     </trdgrp>
     <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
   </snc>
+  <trd lng="bo">&#xF56;&#xF40;&#xF60;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>na&rcaron;&iacute;zen&iacute;</trd>,
     <trd>p&rcaron;&iacute;kaz</trd>
@@ -361,7 +367,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Petro Desmet'</aut>
-          <vrk><url ref="https://www.monato.be/2006/008993.php">La unua Zamenhof-monumento de la 21a jarcento: dika Pomego!</url></vrk>
+          <vrk><url ref="https://www.monato.be/2006/008993.php">La unua Zamenhof-monumento de la 21a
+          jarcento: dika Pomego!</url></vrk>
           <lok>2006</lok>
         </fnt>;
       </ekz>
@@ -410,9 +417,12 @@
 </drv>
 </art>
 <!--
-$Log: ordon.xml,v $
-Revision 1.23  2019/10/06 11:10:18  revo
-Wolfram Diestel: ekz-oj/fnt-oj, snc-mrk
+$Log$
+versio 1.25 2021/05/13 08:59:14
+Dmitri Gabinski: + trd be
+
+versio 1.24 2020/10/14 06:36:59
+Wolfram Diestel: +2 ref-oj
 
 Revision 1.22  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
@@ -430,8 +440,5 @@ Revision 1.18  2006/05/18 16:31:13  revo
 Tulio Flores: +tr pt
 
 Revision 1.17  2004/07/13 16:31:27  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16  2004/01/31 17:32:40  revo
 -->
 </vortaro>

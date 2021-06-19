@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: sum.xml,v 1.38 2020/02/15 23:10:34 revo Exp $">
+<art mrk="$Id: sum.xml,v 1.80 2021/06/18 04:36:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sum</rad>/o <fnt><bib>PV</bib></fnt>
@@ -20,17 +19,14 @@
           kaj <frm>2</frm>;
         </ekz>
         <ekz>
-          la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm
-          am="b"><k>b</k></frm> 
+          la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm am="b"><k>b</k></frm> 
           oni signas per <frm am="a+b"><k>a</k>+<k>b</k></frm>,
         </ekz>
         <ekz>
           kaj la <tld/>on de &ccirc;iuj termoj en 
           <ref cel="famili.0o.bildigo">familio</ref>
-          <frm am="(a_i)_(i in bb I)"
-          >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
-          per <frm am="sum_(i in bb I)a_i"
-          >&Sigma;<sub><k>i</k>&#8712;<g>I</g></sub>
+          <frm am="(a_i)_(i in bb I)">(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#x2208;<g>I</g></sub></frm>
+          per <frm am="sum_(i in bb I)a_i">&Sigma;<sub><k>i</k>&#x2208;<g>I</g></sub>
           <k>a</k><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
@@ -66,11 +62,9 @@
       <rim>
         <tld lit="S"/>o de serio estas konceptebla kiel sumo de senfina
         nombro da termoj. Oni &gcirc;in ofte signas per
-       <frm am="u_0+u_1+u_2,..."
-       ><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>
+       <frm am="u_0+u_1+u_2,..."><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>
              
-       a&ubreve; <frm am="sum_(n in NN)u_n"
-       >&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
+       a&ubreve; <frm am="sum_(n in NN)u_n">&Sigma;<sub><k>n</k>&#x2208;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
       </rim>
       <trd lng="de">Summe<klr tip="ind"> (von einer Reihe)</klr></trd>
       <trd lng="en">sum<klr tip="ind"> (of a series)</klr></trd>
@@ -91,8 +85,7 @@
           subspacoj
           <frm am="(bb U_i)">(<g>U</g><sub><k>i</k></sub>)</frm>
           esprimi&gcirc;as kiel <tld/>o de finia nombro de vektoroj
-          <frm am="x_i in bb U_i"
-          ><k>x</k><sub><k>i</k></sub>&#8712;<g>U</g><sub><k>i</k></sub></frm>;
+          <frm am="x_i in bb U_i"><k>x</k><sub><k>i</k></sub>&#x2208;<g>U</g><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
           la <tld/>o de du neegalaj 
@@ -125,6 +118,13 @@
     </dif>
     <trd lng="hu">p&eacute;nz&ouml;sszeg</trd>    
   </snc>
+  <trd lng="af">totale</trd>
+  <trd lng="am">&#x1320;&#x1245;&#x120B;&#x120B;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x643;&#x644;</trd>
+  <trd lng="az">&#xFC;mumi</trd>
+  <trd lng="bn">&#x9AE;&#x9CB;&#x99F;</trd>
+  <trd lng="bs">ukupno</trd>
+  <trd lng="co">tutali</trd>
   <trdgrp lng="cs">
     <trd>obnos</trd>,
     <trd>sou&ccaron;et</trd>,
@@ -132,18 +132,52 @@
     <trd>&uacute;hrn</trd>,
     <trd>&ccaron;&aacute;stka</trd>
   </trdgrp>
+  <trd lng="da">samlede</trd>
   <trd lng="de">Summe</trd>
   <trd lng="en">sum</trd>
   <trd lng="es">suma</trd>
+  <trd lng="et">kokku</trd>
+  <trd lng="eu">guztira</trd>
   <trd lng="fr">somme</trd>
+  <trd lng="fy">https://googleads.g.doubleclick.net/</trd>
+  <trd lng="gl">total de</trd>
+  <trd lng="gu">&#xA95;&#xAC1;&#xAB2;</trd>
+  <trd lng="hi">&#x938;&#x902;&#x92A;&#x942;&#x930;&#x94D;&#x923;</trd>
+  <trd lng="hr">ukupan</trd>
+  <trd lng="hy">&#x568;&#x576;&#x564;&#x570;&#x561;&#x576;&#x578;&#x582;&#x580;</trd>
+  <trd lng="is">alls</trd>
+  <trd lng="ja">&#x5408;&#x8A08;</trd>
+  <trd lng="jw">gunggung</trd>
+  <trd lng="ka">&#x10E1;&#x10E3;&#x10DA;</trd>
+  <trd lng="km">&#x1785;&#x17C6;&#x1793;&#x17BD;&#x1793;&#x179F;&#x179A;&#x17BB;&#x1794;</trd>
+  <trd lng="ko">&#xCD1D;</trd>
+  <trd lng="lo">&#xE88;&#xECD;&#xEB2;&#xE99;&#xEA7;&#xE99;&#xE97;&#xEB1;&#xE87;&#xEAB;&#xEA1;&#xEBB;&#xE94;</trd>
+  <trd lng="ml">&#xD2E;&#xD4A;&#xD24;&#xD4D;&#xD24;&#xD02;</trd>
+  <trd lng="mr">&#x90F;&#x915;&#x942;&#x923;</trd>
+  <trd lng="my">&#x1005;&#x102F;&#x1005;&#x102F;&#x1015;&#x1031;&#x102B;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x915;&#x941;&#x932;</trd>
   <trd lng="nl">som</trd>
+  <trd lng="ny">okwana</trd>
+  <trd lng="pa">&#xA15;&#xA41;&#xA71;&#xA32;</trd>
+  <trd lng="ps">&#x67C;&#x648;&#x644;</trd>
   <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;</trd>
+  <trd lng="sd">&#x6AA;&#x644;</trd>
+  <trd lng="si">&#xDB8;&#xDD4;&#xDC5;&#xDD4;</trd>
   <trdgrp lng="sk">
     <trd>suma</trd>,
     <trd>s&uacute;hrn</trd>,
     <trd>s&uacute;&ccaron;et</trd>,
     <trd>&uacute;hrn</trd>
   </trdgrp>
+  <trd lng="sq">totale</trd>
+  <trd lng="ta">&#xBAE;&#xBCA;&#xBA4;&#xBCD;&#xBA4;</trd>
+  <trd lng="te">&#xC2E;&#xC4A;&#xC24;&#xC4D;&#xC24;&#xC02;</trd>
+  <trd lng="th">&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;</trd>
+  <trd lng="tl">kabuuan</trd>
+  <trd lng="ur">&#x6A9;&#x644;</trd>
+  <trd lng="vi">t&#x1ED5;ng s&#x1ED1;</trd>
+  <trd lng="yi">&#x5D2;&#x5D0;&#x5B7;&#x5E0;&#x5E5;</trd>
+  <trd lng="zu">inani</trd>
 </drv>
 
 <drv mrk="sum.0e">
@@ -261,8 +295,7 @@
         mon<tld/>oj fordonitaj al E&ubreve;lalia
         <fnt>
           <aut>M. Proust, trad. &Jcirc; Va&scirc;e</aut>
-          <vrk><url
-          ref="http://jxvasxe.free.fr/tradukoj/la-vojo-de-svan-eo.htm">
+          <vrk><url ref="http://jxvasxe.free.fr/tradukoj/la-vojo-de-svan-eo.htm">
           Sur la Vojo de Svan</url></vrk>
           <lok>2015-2017</lok>
         </fnt>.
@@ -321,8 +354,7 @@
 
 <drv mrk="sum.re0i">
   <kap><ofc>*</ofc>re<tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5210">re'sum'</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5210">re'sum'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
@@ -333,7 +365,7 @@
       <ref cel="redukt.0i">redukti</ref>.
     </refgrp>
   <rim>
-   Vidu la rimarkon &ccirc;e <ref cel="re.0rim">re-</ref>.
+   Vidu la rimarkon &ccirc;e <ref cel="re.0.rim">re-</ref>.
    </rim>
    </snc>
   <trd lng="cs">konspektovat</trd>
@@ -394,11 +426,9 @@
   <fnt><bib>EKV</bib><lok>&para;390</lok></fnt>
   <snc>
     <dif>
-      <klr>(de <ref cel="seri.0o.MAT">serio</ref> <frm
-      am="u"><k>u</k></frm>,
+      <klr>(de <ref cel="seri.0o.MAT">serio</ref> <frm am="u"><k>u</k></frm>,
       je ordo <frm am="n"><k>n</k></frm>)</klr>
-      La sumo <frm am="u_0+u_1+...+u_n"
-      ><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+... 
+      La sumo <frm am="u_0+u_1+...+u_n"><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+... 
       +<k>u</k><sub><k>n</k></sub></frm>.
     </dif>
   </snc>
@@ -414,8 +444,11 @@
 </drv>
 </art>
 <!--
-$Log: sum.xml,v $
-Revision 1.38  2020/02/15 23:10:34  revo
+$Log$
+versio 1.39 2021/05/15 16:02:35
+Wolfram Diestel: kor. ref-cel
+
+versio 1.38 2020/02/16 00:10:35
 Wolfram Diestel: formuloj per am
 
 Revision 1.37  2019/02/09 23:11:28  revo
@@ -433,9 +466,5 @@ aldono de trd cs per skripto de M. von Laer
 
 Revision 1.33  2015/06/29 16:33:24  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.32  2015/04/24 10:10:16  revo
-Carlos Garcia: +trd es ~e 2 ~ero ~igi re~o re~i re~e parta ~o
-
 -->
 </vortaro>

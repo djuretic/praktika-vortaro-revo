@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: lini.xml,v 1.35 2016/02/28 14:10:18 revo Exp $">
+<art mrk="$Id: lini.xml,v 1.75 2021/06/19 05:58:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lini</rad>/o <fnt><bib>PV</bib></fnt>
@@ -69,7 +68,7 @@
   </snc>
   <snc mrk="lini.0o.KOMUNE">
     <dif>
-      Strio, vico de sinsekvaj a&jcirc;oj.
+      Strio, <ref tip="super" cel="vic.0o.spaca">vico</ref> de sinsekvaj a&jcirc;oj.
     </dif>
     <subsnc mrk="lini.0o.vico">
       <dif>
@@ -129,14 +128,31 @@
       <dif>
         Vico da skribosignoj metitaj la&ubreve; la ordinara legodirekto:
         <ekz>
-          super<tld/>a signeto<fnt>Z</fnt>;
+          signetoj super<tld/>aj kaj sub<tld/>aj
+          <fnt>
+            <bib>LR</bib>
+            <lok>1. Alfabeto</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>o <klr>(<ref tip="sub" cel="horizo1.0o.linio">horizontalo<sncref/></ref>)</klr> de tabelo;
         </ekz>
         <ekz>
           iom pensinte, &scirc;i skribis la sekvantajn <tld/>ojn
           <fnt><bib>FK</bib>, <lok>4, rakontoj, la porcio da
           glacia&jcirc;o</lok></fnt>...
         </ekz>
+        <ekz>
+          la lasta <tld/>o de la vespera kanto Dormu
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Wolfram Rohloff</aut>
+            <vrk><url ref="https://www.monato.be/2004/008428.html">Kantaro kun fluaj tekstoj</url></vrk>
+            <lok>2004</lok>
+          </fnt>.
+        </ekz>
       </dif>
+      <ref tip="vid" cel="kolumn.0o.TIP">kolumno<sncref/></ref>
     </subsnc>
     <subsnc mrk="lini.0o.GEN">
       <uzo tip="fak">GEN</uzo>
@@ -155,7 +171,13 @@
       <trd lng="fr">lign&eacute;e</trd>
     </subsnc>    
   </snc>
+  <trd lng="af">lyn</trd>
+  <trd lng="am">&#x1218;&#x1235;&#x1218;&#x122D;</trd>
+  <trd lng="ar">&#x62E;&#x637;</trd>
   <trd lng="be">&c_l;&c_ib;&c_n;&c_ib;&c_ja;</trd>
+  <trd lng="bn">&#x9B2;&#x9BE;&#x987;&#x9A8;</trd>
+  <trd lng="bo">&#xF50;&#xF72;&#xF42;&#xF0B;</trd>
+  <trd lng="co">linia</trd>
   <trdgrp lng="cs">
     <trd>hrana</trd>,
     <trd>lajna</trd>,
@@ -166,22 +188,55 @@
     <trd>&ccaron;&aacute;ra</trd>,
     <trd>&rcaron;&aacute;dek</trd>
   </trdgrp>
+  <trd lng="da">linje</trd>
   <trd lng="en">line</trd>
   <trd lng="es">l&iacute;nea</trd>
+  <trd lng="et">line</trd>
   <trd lng="fr">ligne</trd>
+  <trd lng="fy">rigel</trd>
+  <trd lng="gl">li&#xF1;a</trd>
+  <trd lng="gu">&#xAB0;&#xAC7;&#xA96;&#xABE;</trd>
+  <trd lng="hi">&#x930;&#x947;&#x916;&#x93E;</trd>
+  <trd lng="hr">linija</trd>
   <trdgrp lng="hu">
     <trd>vonal</trd>,
     <trd>sor</trd>
   </trdgrp>
+  <trd lng="hy">&#x563;&#x56B;&#x56E;</trd>
+  <trd lng="is">l&#xED;na</trd>
+  <trd lng="ja">&#x30E9;&#x30A4;&#x30F3;</trd>
+  <trd lng="jw">baris</trd>
+  <trd lng="ka">&#x10DD;&#x10DC;&#x10DA;&#x10D0;&#x10D8;&#x10DC;</trd>
+  <trd lng="km">&#x1794;&#x1793;&#x17D2;&#x1791;&#x17B6;&#x178F;&#x17CB;</trd>
+  <trd lng="ko">&#xC628;&#xB77C;&#xC778;</trd>
+  <trd lng="lo">&#xEC0;&#xEAA;&#xEB1;&#xEC9;&#xE99;</trd>
+  <trd lng="ml">&#xD35;&#xD30;</trd>
+  <trd lng="mr">&#x913;&#x933;</trd>
+  <trd lng="my">&#x101C;&#x102D;&#x102F;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x928;&#x92F;&#x93E;&#x901;</trd>
   <trd lng="nl">lijn</trd>
+  <trd lng="ny">mzere</trd>
+  <trd lng="pa">&#xA32;&#xA3E;&#xA08;&#xA28;</trd>
+  <trd lng="ps">&#x62E;&#x637;</trd>
   <trd lng="pt">linha</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_i;&c_ja;</trd>
+  <trd lng="sd">&#x644;&#x64A;&#x6AA;</trd>
+  <trd lng="si">&#xDB8;&#xDCF;&#xDBB;&#xDCA;&#xD9C;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>linka</trd>,
     <trd>l&iacute;nia</trd>,
     <trd>riadok</trd>,
     <trd>&ccaron;iara</trd>
   </trdgrp>
+  <trd lng="sq">linj&#xEB;</trd>
+  <trd lng="st">line line</trd>
+  <trd lng="ta">&#xBB5;&#xBB0;&#xBBF;</trd>
+  <trd lng="te">&#xC32;&#xC48;&#xC28;&#xC4D;</trd>
+  <trd lng="th">&#xE2A;&#xE32;&#xE22;</trd>
+  <trd lng="tl">linya</trd>
+  <trd lng="ur">&#x644;&#x627;&#x626;&#x646;</trd>
+  <trd lng="vi">d&#xF2;ng</trd>
+  <trd lng="yi">&#x5E9;&#x5D5;&#x5E8;&#x5D4;</trd>
 </drv>
 
 <drv mrk="lini.0a">
@@ -295,7 +350,7 @@
     <dif>
       Ilo por streki <tld/>ojn:
       <ekz>
-        kion tiuj homoj farus <klr>...</klr> se ne plu estus krajonoj?
+        kion tiuj homoj farus <klr>[&#x2026;]</klr> se ne plu estus krajonoj?
         Sed
         tiukaze certe estus <tld/>ilo a&ubreve; inksorbilo
         <fnt><bib>Mortul&Scirc;ip</bib>, <lok>unua libro, &ccirc;apitro
@@ -304,6 +359,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_n;&c_je;&c_j;&c_k;&c_a;</trd>
+  <trd lng="bo">&#xF50;&#xF72;&#xF42;&#xF0B;&#xF64;&#xF72;&#xF44;&#xF0B;</trd>
   <trd lng="cs">prav&iacute;tko</trd>
   <trd lng="fr">r&egrave;gle<klr tip="ind"> (pour tracer des
   traits)</klr></trd>
@@ -414,8 +470,7 @@
   <snc mrk="lini.gvid0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      &Gcirc;enerala <ref tip="super"
-      cel="instru1.0o.KOMUNE">instrukcio</ref>
+      &Gcirc;enerala <ref tip="super" cel="instru1.0o.KOMUNE">instrukcio</ref>
       entenanta &ccirc;efajn, ne detalajn kaj ne tute devigajn regulojn:
       <ekz>
         Politikaj Gvid<tld/>oj de la E&ubreve;ropa Federacio de Verdaj Partioj
@@ -452,13 +507,12 @@
         <fnt><bib>Fab4</bib>, <lok>Turgardisto Ole</lok></fnt>;
       </ekz>
       <ekz>
-        la kvar lim<tld/>oj nomi&gcirc;as &leftquot;la unua linio&rightquot; <klr>...</klr>
+        la kvar lim<tld/>oj nomi&gcirc;as &leftquot;la unua linio&rightquot; <klr>[&#x2026;]</klr>
         la 
         dua linio, la tria linio ktp
         <fnt>
           <aut>Tigro</aut>,
-          <vrk><url
-          ref="http://www.espero.com.cn/06s/06s-4/socio4-1.htm">
+          <vrk><url ref="http://www.espero.com.cn/06s/06s-4/socio4-1.htm">
           Aboco de vej&ccirc;i-ludo</url></vrk>,
           <lok>[2004-11]</lok>
         </fnt>.
@@ -490,8 +544,7 @@
   <snc>
     <dif>
       <ref tip="super" cel="lini.0o.MAT"><tld lit="L"/>o</ref>,
-      konsistanta el kontinua sinsekvo de <ref
-      cel="strek.0o.elementa">strekoj</ref>:
+      konsistanta el kontinua sinsekvo de <ref cel="strek.0o.elementa">strekoj</ref>:
       <ekz>
         la <ref cel="rand.0o.figuro">rando</ref> de
         <ref cel="later.plur0o">plurlatero</ref> estas fermita rompita
@@ -512,9 +565,9 @@
 </drv>
 </art>
 <!--
-$Log: lini.xml,v $
-Revision 1.35  2016/02/28 14:10:18  revo
-Wolfram Diestel: snc lina 2 forighis de skript de Laer pro mislokita hungara traduko
+$Log$
+versio 1.36 2021/04/11 09:55:23
+Wolfram Diestel: ~o 2d: +ekz, ref
 
 Revision 1.34  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sorb.xml,v 1.20 2018/04/21 17:10:13 revo Exp $">
+<art mrk="$Id: sorb.xml,v 1.23 2021/05/19 16:02:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sorb</rad>/i <fnt><bib>PV</bib></fnt>
@@ -113,6 +113,12 @@
      Ne konfuzu kun:
      <ref cel="absorb.0i">absorbi</ref>.
    </refgrp>
+   <trdgrp lng="be">
+     <trd>&c_u;&c_p;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
+     <trd>&c_p;&c_a;&c_g;&c_l;&c_y;&c_n;&c_a;&c_c;&c_mol;</trd>,
+     <trd>&c_u;&c_s;&c_m;&c_o;&c_k;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>,
+     <trd>&c_u;&c_c;&c_ja;&c_g;&c_v;&c_a;&c_c;&c_mol;</trd>
+   </trdgrp>
   <trdgrp lng="cs">
     <trd>nas&aacute;t</trd>,
     <trd>p&iacute;t</trd>,
@@ -149,6 +155,7 @@
     <trd>pohlcuj&iacute;c&iacute;</trd>,
     <trd>sorbuj&iacute;c&iacute;</trd>
   </trdgrp>
+  <trd lng="en">absorbent</trd>
   <trd lng="es">absorbente</trd>
   <trd lng="fr">absorbant</trd>
   <trdgrp lng="sk">
@@ -294,7 +301,7 @@
 </drv>
 
 <drv mrk="sorb.tra0igxi">
-  <kap>tra<tld/>i&gcirc;i<var><kap>el<tld/>i&gcirc;i</kap></var>
+  <kap>tra<tld/>i&gcirc;i, <var><kap>el<tld/>i&gcirc;i</kap></var>, 
   <var><kap>mal<tld/>i&gcirc;i</kap></var></kap>
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="sorb.tra0igxi.KOMUNE">
@@ -323,9 +330,15 @@
 </drv>
 </art>
 <!--
-$Log: sorb.xml,v $
-Revision 1.20  2018/04/21 17:10:13  revo
-Guillermo Molleda Jimena: trd es
+$Log$
+versio 1.23 2021/05/19 16:02:26
+Dmitri Gabinski: + trd be
+
+versio 1.22 2020/05/19 00:35:35
+Robin Hill: sorba +trd en
+
+versio 1.21 2020/05/17 20:35:42
+Robin Hill: Korektis XML-eraron in variajxoj de trasorbigxi
 
 Revision 1.19  2016/02/28 19:10:54  revo
 Wolfram Diestel: riparo: ref  forighis per skripto de M.Laer pro
@@ -339,12 +352,5 @@ aldono de trd sk per skripto de M. von Laer
 
 Revision 1.16  2014/03/16 02:10:15  revo
 Jeromo Vasxe: + ~a ~igi
-
-Revision 1.15  2013/04/03 12:10:13  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.14  2013/04/01 14:10:10  revo
-Jeromo Vasxe: memstar. en~i, kor 1 mrk, + trd fr
-
 -->
 </vortaro>

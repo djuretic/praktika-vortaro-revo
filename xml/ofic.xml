@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ofic.xml,v 1.31 2017/12/20 01:10:22 revo Exp $">
+<art mrk="$Id: ofic.xml,v 1.76 2021/06/19 06:38:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ofic</rad>/o <fnt><bib>PV</bib></fnt>
@@ -104,7 +103,16 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="ofic.0i.POL">
     <dif>
-      Plenumi <tld/>on.
+      Plenumi <tld/>on:
+      <ekz>
+        informi&gcirc;i pri iu en tia domo estis treege malfacile, precipe, se &ccirc;e la pordego
+        ne <tld/>is pordisto
+        <fnt>
+          <aut>H. Sienkiewicz, trad Lidia Zamenhof</aut>
+          <vrk>Quo Vadis?</vrk>
+          <lok>1933</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -140,25 +148,41 @@
 
 <drv mrk="ofic.0ejo">
   <kap><ofc>*</ofc><tld/>ejo <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5129">ofic'ej'</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5129">ofic'ej'</url></lok></fnt></kap>
   <snc mrk="ofic.0ejo.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Loko, kie oni plenumas <tld/>on.
+      Loko, kie oni plenumas <tld/>on:
+      <ekz>
+        la <tld/>ejo de la sinjoroj <nom>Snitchey</nom> kaj <nom>Craggs</nom> ku&scirc;is tre oportune sur
+        la foirejo
+        <fnt>
+          <aut>C. Dickens, trad L. L. Zamenhof</aut>
+          <vrk>La batalo de l' vivo</vrk>
+          <lok>1891</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="af">kantoor</trd>
+  <trd lng="am">&#x1262;&#x122E;</trd>
+  <trd lng="ar">&#x645;&#x643;&#x62A;&#x628;</trd>
   <trdgrp lng="be">
     <trd>&c_m;&c_je;&c_s;&c_c;&c_a; &c_s;&c_l;&c_u;&c_zh;&c_b;&c_y;</trd>,
     <trd>&c_o;&c_f;&c_ib;&c_s;</trd>,
     <trd>&c_b;&c_ju;&c_r;&c_o;</trd>,
     <trd>&c_k;&c_a;&c_n;&c_t;&c_o;&c_r;&c_a;</trd>
   </trdgrp>
+  <trd lng="bn">&#x985;&#x9AB;&#x9BF;&#x9B8;</trd>
+  <trd lng="bo">&#xF63;&#xF66;&#xF0B;&#xF41;&#xF74;&#xF44;&#xF66;&#xF0B;</trd>
+  <trd lng="bs">ured</trd>
+  <trd lng="co">ufficiu</trd>
   <trdgrp lng="cs">
     <trd>kancel&aacute;&rcaron;</trd>,
     <trd>&uacute;&rcaron;adovna</trd>,
     <trd>&uacute;&rcaron;edn&iacute; m&iacute;stnost</trd>
   </trdgrp>
+  <trd lng="da">kontor</trd>
   <trdgrp lng="de">
     <trd>Amt</trd>,
     <trd>B&uuml;ro</trd>
@@ -168,15 +192,37 @@
     <trd>office space</trd>
   </trdgrp>
   <trd lng="es">oficina</trd>
+  <trd lng="et">kontor</trd>
+  <trd lng="eu">bulegoa</trd>
   <trdgrp lng="fr">
     <trd>bureau<klr> (pi&egrave;ce)</klr></trd>,
     <trd>officine</trd>
   </trdgrp>
+  <trd lng="fy">kantoar</trd>
+  <trd lng="gl">oficina</trd>
+  <trd lng="gu">&#xA93;&#xAAB;&#xABF;&#xAB8;</trd>
+  <trd lng="hi">&#x915;&#x93E;&#x930;&#x94D;&#x92F;&#x93E;&#x932;&#x92F;</trd>
+  <trd lng="hr">ured</trd>
   <trd lng="hu">hivatal</trd>
+  <trd lng="hy">&#x563;&#x580;&#x561;&#x57D;&#x565;&#x576;&#x575;&#x561;&#x56F;</trd>
+  <trd lng="is">skrifstofa</trd>
+  <trd lng="ja">&#x30AA;&#x30D5;&#x30A3;&#x30B9;</trd>
+  <trd lng="jw">kantor</trd>
+  <trd lng="ka">&#x10DD;&#x10E4;&#x10D8;&#x10E1;&#x10D8;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x17B7;&#x1799;&#x17B6;&#x179B;&#x17D0;</trd>
+  <trd lng="ko">&#xC0AC;&#xBB34;&#xC2E4;</trd>
+  <trd lng="lo">&#xEAB;&#xEC9;&#xEAD;&#xE87;&#xE81;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD13;&#xD2B;&#xD40;&#xD38;&#xD4D;</trd>
+  <trd lng="mr">&#x915;&#x93E;&#x930;&#x94D;&#x92F;&#x93E;&#x932;&#x92F;</trd>
+  <trd lng="my">&#x101B;&#x102F;&#x1036;&#x1038;</trd>
+  <trd lng="ne">&#x915;&#x93E;&#x930;&#x94D;&#x92F;&#x93E;&#x932;&#x92F;&#x915;&#x94B;</trd>
   <trdgrp lng="nl">
     <trd>kantoor</trd>,
     <trd>bureau</trd>
   </trdgrp>
+  <trd lng="ny">ofesi</trd>
+  <trd lng="pa">&#xA26;&#xA47; &#xA26;&#xA2B;&#xA3C;&#xA24;&#xA30;</trd>
+  <trd lng="ps">&#x62F;&#x641;&#x62A;&#x631;</trd>
   <trdgrp lng="pt">
     <trd>oficina</trd>,
     <trd>escrit&oacute;rio</trd>
@@ -187,17 +233,28 @@
     <trd>&c_k;&c_o;&c_n;&c_t;&c_o;&c_r;&c_a;</trd>,
     <trd>&c_o;&c_f;&c_i;&c_s;</trd>
   </trdgrp>
+  <trd lng="sd">&#x622;&#x641;&#x64A;&#x633;</trd>
+  <trd lng="si">&#xD9A;&#xDCF;&#xDBB;&#xDCA;&#xDBA;&#xDCF;&#xDBD;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>kancel&aacute;ria</trd>,
     <trd>&uacute;radov&ncaron;a</trd>
   </trdgrp>
+  <trd lng="sq">zyr&#xEB;</trd>
+  <trd lng="st">ofisi</trd>
   <trd lng="sv">kontor</trd>
+  <trd lng="ta">&#xB85;&#xBB2;&#xBC1;&#xBB5;&#xBB2;&#xB95;&#xBA4;&#xBCD;&#xBA4;&#xBBF;&#xBB2;&#xBCD;</trd>
+  <trd lng="te">&#xC15;&#xC3E;&#xC30;&#xC4D;&#xC2F;&#xC3E;&#xC32;&#xC2F;&#xC02;</trd>
+  <trd lng="th">&#xE2A;&#xE33;&#xE19;&#xE31;&#xE01;&#xE07;&#xE32;&#xE19;</trd>
+  <trd lng="tl">opisina</trd>
+  <trd lng="ur">&#x62F;&#x641;&#x62A;&#x631;</trd>
+  <trd lng="vi">v&#x103;n ph&#xF2;ng</trd>
+  <trd lng="yi">&#x5D0;&#x5B8;&#x5E4;&#x5D9;&#x5E1;</trd>
+  <trd lng="zu">ihhovisi</trd>
 </drv>
 
 <drv mrk="ofic.0isto">
   <kap><ofc>*</ofc><tld/>isto <fnt><bib>F</bib>, <lok>Universala
-  Vortaro, <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5128">ofic'ist'</url></lok></fnt></kap>
+  Vortaro, <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5128">ofic'ist'</url></lok></fnt></kap>
   <snc mrk="ofic.0isto.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
@@ -207,7 +264,7 @@
         <tld/>isto.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="funkci.0ulo">funkciulo</ref>.
     </refgrp>
   </snc>
@@ -216,6 +273,7 @@
     <trd>&c_k;&c_a;&c_n;&c_t;&c_o;&c_r;&c_ch;&c_sh;&c_y;&c_k;</trd>,
     <trd>&c_k;&c_l;&c_je;&c_r;&c_k;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF63;&#xF66;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;&#xF54;&#xF0B;</trd>
   <trd lng="cs">&uacute;&rcaron;edn&iacute;k</trd>
   <trd lng="de">Beamter</trd>
   <trd lng="en">officer</trd>
@@ -250,17 +308,8 @@
         <fnt>
         <aut>trad. G. Berveling</aut>,
         <vrk>Letero de Jeremia</vrk>,
-        <lok><url ref="http://www.esperanto.gr/esp/grek/els/let.htm"
-        >La Biblio (duakanonaj libroj)</url></lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la 15an de decembro en Makedonio en<tld/>i&gcirc;is nova
-        prezidento
-        <fnt>
-        <aut>E. Georgiev</aut>,
-        <vrk>Nova &scirc;anco por &ccirc;iuj etnoj</vrk>,
-        <bib>Monato</bib>
+        <lok>en: <url ref="http://www.esperanto.gr/esp/grek/els/let.htm">La Biblio (duakanonaj
+        libroj)</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -284,7 +333,7 @@
     <trd><klr>ein </klr>Amt <ind>geben</ind></trd>
   </trdgrp>
   <trd lng="es">tomar posesi&oacute;n de un cargo</trd>
-  <trd lng="fr">entrer en fonction</trd>
+  <trd lng="fr">installer dans ses <ind>fonctions</ind></trd>
   <trdgrp lng="hu">
     <trd>beiktat</trd>,
     <trd>hivatalba helyez</trd>,
@@ -297,22 +346,55 @@
   <trd lng="cs">uv&eacute;st do &uacute;&rcaron;adu</trd>
 </drv>
 
+<drv mrk="ofic.en0igxi">
+  <kap>
+    en<tld/>i&gcirc;i
+  </kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="ofic.en0igxi.POL">
+    <dif>
+      Ricevinte <tld/>on ekagi en la respondaj taskoj:
+      <ekz>
+        la 15an de decembro en Makedonio en<tld/>i&gcirc;is nova
+        prezidento
+        <fnt>
+        <aut>E. Georgiev</aut>,
+        <vrk>Nova &scirc;anco por &ccirc;iuj etnoj</vrk>,
+        <bib>Monato</bib>
+        </fnt>.
+      </ekz>
+    </dif>      
+  </snc>
+  <trd lng="fr">prendre ses <ind>fonctions</ind></trd>
+</drv>
+
 <drv mrk="ofic.sen0igi">
-  <kap>sen<tld/>igi</kap>
-  <fnt><bib>PV</bib><lok>eksigi</lok></fnt>
+  <kap>sen<tld/>igi<fnt><bib>PV</bib><lok>eksigi</lok></fnt></kap>
+  <gra><vspec>tr</vspec></gra>
   <snc mrk="ofic.sen0igi.POL">
     <dif>
       <ref tip="super" cel="eks.0igi.iun">Eksigi<sncref/></ref>,
-      senigante je la <tld/>o.
+      senigante je la <tld/>o:
+      <ekz>
+        la hispana &ccirc;efministro <nom>Rajoy</nom> dissolvas la Parlamenton, sen<tld/>igas la tutan
+        katalunan registaron, prenas rektan regadon de la kataluna administrado pere
+        de la respondaj hispanaj ministerioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>&Agrave;. Humet</aut>
+          <vrk>Mankas &scirc;tat-politikistoj</vrk>
+          <lok>2017, p. 5a</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="es">privar de sus funciones</trd>
-  <trd lng="fr">priver de ses fonctions</trd>
+  <trd lng="fr">priver de ses <ind>fonctions</ind></trd>
 </drv>
 
 <drv mrk="ofic.sxtat0isto">
   <kap>&scirc;tat<tld/>isto</kap>
-  <snc mrk="ofic.sxtat0ito.POL">
+  <snc mrk="ofic.sxtat0isto.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
       <tld lit="O"/>isto laboranta por &scirc;tata a&ubreve; &scirc;tat-dependa
@@ -322,8 +404,7 @@
         ne donis al li multan varion
         <fnt>
           <aut>B. Ragnarsson</aut>,
-          <vrk><url
-          ref="http://www.liberafolio.org/2005/aperis/tarkony-la-fondinto-de-serioza-literatura-kritiko-en-esperanto">
+          <vrk><url ref="http://www.liberafolio.org/2005/aperis/tarkony-la-fondinto-de-serioza-literatura-kritiko-en-esperanto">
           T&aacute;rkony - la fondinto de literatura kritiko en
           Esperanto</url></vrk>,
           <lok>libera folio, 2010</lok>
@@ -331,13 +412,19 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">funcionario</trd>
+  <trd lng="es">funcionario</trd>
+  <trd lng="fr">fonctionnaire</trd>
 </drv>
 </art>
 <!--
-$Log: ofic.xml,v $
+$Log$
+versio 1.33 2021/05/13 14:51:56
+Wolfram Diestel: kor. snc@mrk
+
+versio 1.32 2020/03/28 21:10:25
+Jeromo Vasxe: apartig. en~igxi, + kk ekz, + kk trd fr
+
 Revision 1.31  2017/12/20 01:10:22  revo
-Michel Cantigneaux: "ofic/ist/o" & "ofic/ej/o" fundamentaj kunmetajxoj el la U.V.
 
 Revision 1.30  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
@@ -353,10 +440,5 @@ Jeromo Vasxe: + sxtat~isto, + trd fr
 
 Revision 1.26  2013/02/05 13:10:08  revo
 Norbert Luckhardt: ofico: +trd(de), kor. trd(es); ofici: kor. trd(de);
-oficejo: +trd(es)
-
-Revision 1.25  2010/07/04 16:30:28  revo
-Agustin Garcia Lopez: +trd es
-
 -->
 </vortaro>

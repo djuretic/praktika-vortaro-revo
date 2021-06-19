@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: imit.xml,v 1.25 2015/07/04 08:37:36 revo Exp $">
+<art mrk="$Id: imit.xml,v 1.28 2021/05/28 12:52:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>imit</rad>/i <fnt><bib>PV</bib></fnt>
@@ -13,20 +12,61 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="imit.0i.agi">
     <dif>
-      Agi same, kiel alia persono, ordinare rigardata kiel modelo:
+      Agi <ref cel="sam.0a">same</ref>, kiel alia persono, 
+      ordinare rigardata kiel modelo:
       <ekz>
-        simie <tld/>i iun;
+        ploranton ni evitas, ridanton ni <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i la patron, aktoron;
+        <tld/>ante lin en la mal&ccirc;astado
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 20:5</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>u lian ekzemplon;
+        la infano <klr>[&#x2026;]</klr> <tld/>e balbutas la simplajn vortojn, ne komprenante
+        ilin
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i Vergilion, Ciceronon <klr>(iliajn verkojn)</klr>.
+        se mi efektive estus bela, aliaj penus min <tld/>i
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        moke <tld/>krii
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <klr>[&#x2026;]</klr> surmetadis okulvitrojn kaj <tld/>adis &scirc;ian vo&ccirc;on
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="gurd.0i.FIG">gurdi<sncref/></ref>,
+      <ref cel="mim.0i">mimi</ref>,
+      <ref cel="simi.0i">simii</ref>,
+      <ref cel="simul.0i">simuli</ref>,
+      <ref cel="sozi.0o">sozio</ref>,
+      <ref cel="sxajn.0igi">&scirc;ajnigi</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>gleichtun</trd>,
+    </trdgrp>
     <trd lng="es">imitar</trd>
     <trdgrp lng="pl">
       <trd>imitowa&cacute;</trd>,
@@ -36,20 +76,45 @@
   </snc>
   <snc mrk="imit.0i.fari">
     <dif>
-      Fari objekton tute similan al alia objekto,
-      rigardata kiel modelo;
-      <ref tip="sin" cel="kopi.0i">kopii</ref>:
+      Fari objekton a&ubreve; impreson tute <ref cel="simil.0a">simila</ref>n al alia,
+      rigardata kiel <ref cel="model.0o">modelo</ref>; <ref tip="sin" cel="kopi.0i">kopii</ref>:
       <ekz>
-        <tld/>i statueton, romanon, ies subskribon, diamanton, malnovan
-        modon;
+        du karbopecoj perfekte <tld/>is homan rigardon
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>Tro Homa Sorto de iu Ne&gcirc;homo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tiu dramo estas <tld/>ita de multaj fremdaj verkistoj;
+        la rozokolora kamena rebrilo <klr>[&#x2026;]</klr> <tld/>as delikatan vangru&gcirc;on
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        rakonto <tld/>ita la&ubreve;, el malnova legendo.
+        la nordan brilon <klr>[&#x2026;]</klr> neniu povus <tld/>i
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili per mirinde aran&gcirc;ita modulado <tld/>is molan susuradon de ondi&gcirc;antaj &scirc;tofoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="epigon.0o.kopiulo">epigono<sncref/></ref>,
+      <ref cel="klon.0i">kloni</ref>,
+      <ref cel="produk.re0i.TEK">reprodukti<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>nachbilden</trd>,
+      <trd>kopieren</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>reproducir<klr tip="ind"> (imitar)</klr></trd>,
       <trd>hacer una <ind> reproducci&oacute;n</ind></trd>
@@ -66,9 +131,9 @@
   </trdgrp>
   <trd lng="cs">napodobit</trd>
   <trdgrp lng="de">
+    <trd>nachahmen</trd>,
     <trd>imitieren</trd>,
-    <trd>nach&auml;ffen</trd>,
-    <trd>nachmachen</trd>
+    <trd>nachmachen</trd>,
   </trdgrp>
   <trd lng="en">imitate</trd>
   <trdgrp lng="fr">
@@ -93,7 +158,7 @@
     <trd>&c_p;&c_o;&c_d;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_m;&c_i;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">napodobňovať</trd>
+  <trd lng="sk">napodob&ncaron;ova&tcaron;</trd>
 </drv>
 
 <drv mrk="imit.0o">
@@ -107,7 +172,34 @@
         <fnt><bib>Marta</bib></fnt>;
       </ekz>
       <ekz>
-        bona <tld/>ado de aktoro al lia modelo.
+        la neuzado de &leftquot;ci&rightquot; tute ne estas senkonscia <tld/>ado de la ekzistantaj lingvoj
+        <fnt>
+          <bib>LR</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ilia tuta vivo estas nur sensenca <tld/>ado de tiu de la gepatroj
+        <fnt>
+          <bib>Tor</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        papaga <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="https://www.monato.be/2005/008691.php">Familia nomo</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plumpaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2009/009902.php">Sango kaj honoro</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -118,10 +210,11 @@
       <klr tip="amb">(&c_d;&c_z;&c_je;&c_ja;&c_n;&c_mol;&c_n;&c_je;)
       </klr></trd>
   </trdgrp>
+  <trd lng="bo">&#xF63;&#xF51;&#xF0B;&#xF5F;&#xFB3;&#xF7C;&#xF66;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>imitace</trd>,
-    <trd>imitování</trd>,
-    <trd>napodobování</trd>
+    <trd>imitov&aacute;n&iacute;</trd>,
+    <trd>napodobov&aacute;n&iacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Imitieren</trd>,
@@ -148,7 +241,7 @@
       <klr>(&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;)</klr></trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>imitácia</trd>,
+    <trd>imit&aacute;cia</trd>,
     <trd>napodobovanie</trd>
   </trdgrp>
 </drv>
@@ -157,15 +250,61 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="imit.0ajxo.KOMUNE">
     <dif>
-      Objekto a&ubreve; verko <tld/>anta alian:
+      <ref tip="super" cel="objekt.0o">Objekto</ref> a&ubreve; 
+      <ref tip="super" cel="verk.0o">verko</ref> <tld/>anta alian:
       <ekz>
-        <tld/>a&jcirc;o de konata verko, de juvelo, de oro.
+        elpensi, kiamaniere oni povas fari <tld/>a&jcirc;on de la flugiloj de birdoj kaj poste
+        havi la eblon flugi
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pecojn da glacio <klr>[&#x2026;]</klr> li kunmetadis en plej diversaj manieroj, por
+        formi <tld/>a&jcirc;on de donita modelo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili volas vidi a&ubreve;tentika&jcirc;ojn, ne <tld/>a&jcirc;ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="https://www.monato.be/2003/008059.html">Fermi&gcirc;as la arbaro-domo</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li fiere portis la kornvalan kilton &ndash; <tld/>a&jcirc;o de la skota nacia vira vesta&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.be/2008/009528.php">La kornvala ne mortinta!</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        esperantaj verboj ja ne povas esti sklavaj <tld/>a&jcirc;oj de francaj verboj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007057.html">&Gcirc;uiga enhavo, ne&gcirc;uiga traduko</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
+      <ref cel="bild.0o.simili">bildo<sncref/></ref>,
       <ref cel="faksim.0o">faksimilo</ref>,
       <ref cel="fals">falsa&jcirc;o</ref>,
+      <ref cel="pastic.0o">pasti&ccirc;o</ref>,
+      <ref cel="plagia.0o">plagiato</ref>,
       <ref cel="suroga.0o">surogato</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="klisx.0o">kli&scirc;o</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -207,7 +346,7 @@
     <dif>
       Kiu inklinas al <tld/>o, agas prefere la&ubreve; modelo:
       <ekz>
-        homoj ja estas ege <tld/>emaj; ili bezonas modelojn 
+        homoj ja estas ege <tld/>emaj, ili bezonas modelojn 
         <fnt>
           <bib>BonaLingvo</bib>
         </fnt>.
@@ -225,6 +364,13 @@
   <snc mrk="imit.0emo.PSI">
     <dif>
       Kapablo, inklino por <tld/>i:
+      <ekz>
+        tiuj verkoj <klr>[&#x2026;]</klr> estas belstilaj ekzemploj <klr>[kaj]</klr> vekis
+        <tld/>emon kaj &scirc;aton por la klasika stilo
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         &ccirc;iuj estas infektitaj de <tld/>emo, &ccirc;iu simias kaj 
         papagas sian estron
@@ -247,15 +393,41 @@
     <dif>
       Programo, kiu igas komputilon <tld/>i la konduton de
       alispeca komputilo, ebligante ruli la programojn por la
-      <tld/>ata komputilo per la <tld/>anta.
+      <tld/>ata komputilo per la <tld/>anta:
+      <ekz>
+        tiuj ludoj ne plu estas disvastigataj komerce sed <klr>[&#x2026;]</klr> necesas
+        <tld/>ilo kiu permesas funkciigi <nom>DOS</nom>-bazitajn programojn
+        <fnt>
+          <aut>Aleks Baudry</aut>
+          <vrk><url ref="https://tekstaro.com/t?nomo=kontakto-2011-2019">Videoludoj</url></vrk>
+          <lok>Kontakto 2011-2019</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;<nom>Wine</nom>&rightquot; aperis kiel mallongigo de la angla esprimo &leftquot;<nac>Windows Emulator</nac>&rightquot; kaj &gcirc;i jes
+        estas <tld/>ilo, tamen &gcirc;i <tld/>as nur la interfacon
+        <fnt>
+          <bib>Viki</bib>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Wine">Wine</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi povis el&scirc;uti unikodajn tiparojn kaj unikodan terminal<tld/>ilon el la reto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006801.html">Interreto: Uniksulo ekspertas Unikodon</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="super" cel="interp2.0ilo">interpretilo</ref>
+    <trd lng="de">Emulator</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_ib;&c_m;&c_ib;&c_t;&c_a;&c_t;&c_a;&c_r;</trd>,
     <trd>&c_e;&c_m;&c_u;&c_l;&c_ja;&c_t;&c_a;&c_r;</trd>
   </trdgrp>
-  <trd lng="cs">emulátor</trd>
+  <trd lng="cs">emul&aacute;tor</trd>
   <trd lng="en">emulator</trd>
   <trd lng="fr">&eacute;mulateur</trd>
   <trd lng="hu">emul&aacute;tor</trd>
@@ -266,7 +438,7 @@
     <trd>&c_i;&c_m;&c_i;&c_t;&c_a;&c_t;&c_o;&c_r;</trd>,
     <trd>&c_e;&c_m;&c_u;&c_l;&c_ja;&c_t;&c_o;&c_r;</trd>
   </trdgrp>
-  <trd lng="sk">emulátor</trd>
+  <trd lng="sk">emul&aacute;tor</trd>
 </drv>
 
 <drv mrk="imit.mok0i">
@@ -287,6 +459,7 @@
       <ref cel="parodi.0i">parodii</ref>
     </refgrp>
   </snc>
+  <trd lng="de">nach&auml;ffen</trd>
   <trd lng="fr">contrefaire<klr tip="amb"> (par moquerie)</klr></trd>
   <trd lng="pl">przedrze&zacute;nia&cacute;</trd>
   <trdgrp lng="pt">
@@ -311,17 +484,27 @@
         </fnt>;
       </ekz>
       <ekz>
-        la son<tld/>oj <ctl>k&ubreve;aks, brekekekeks</ctl> aludas blekon
+        &gcirc;ene estas, ke por la angla &leftquot;<nac>larks</nac>&rightquot; oni prenas, 
+        eble pro son<tld/>o, la vorton &leftquot;<esc>lariksoj</esc>&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2015/011504.php">Tre bonvena verko, sed ...</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la son<tld/>oj &leftquot;k&ubreve;aks, <esc>brekekekeks</esc>&rightquot; aludas blekon
         de bufo.
       </ekz>
     </dif>
     <ref tip="super" cel="interj.0o">interjekcio</ref>
   </snc>
-  <trd lng="cs">zvukomalebné slovo</trd>
+  <trd lng="cs">zvukomalebn&eacute; slovo</trd>
   <trdgrp lng="de">
     <trd>Onomatopoetikon</trd>,
-    <trd>lautnachahmendes Wort</trd>,
-    <trd>schallnachahmendes Wort</trd>
+    <trd>lautnachahmendes <ind>Wort</ind></trd>,
+    <trd>schallnachahmendes <ind>Wort</ind></trd>
   </trdgrp>
   <trd lng="es">onomatopeya</trd>
   <trd lng="fr">onomatop&eacute;e</trd>
@@ -336,13 +519,16 @@
     <trd>&c_z;&c_v;&c_u;&c_k;&c_o;&c_p;&c_o;&c_d;&c_r;&c_a;&c_zh;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_z;&c_v;&c_u;&c_k;&c_o;&c_p;&c_o;&c_d;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je; &c_s;&c_l;&c_o;&c_v;&c_o;</trd>
   </trdgrp>
-  <trd lng="sk">zvukomalebné slovo</trd>
+  <trd lng="sk">zvukomalebn&eacute; slovo</trd>
 </drv>
 </art>
 <!--
-$Log: imit.xml,v $
-Revision 1.25  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.27 2021/03/28 09:56:47
+Wolfram Diestel: ~ajxo..son~o: ekz-oj
+
+versio 1.26 2021/03/28 07:51:03
+Wolfram Diestel: ref-oj; ~i: ekz-oj, trd de
 
 Revision 1.24  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
@@ -360,14 +546,5 @@ Revision 1.20  2009/09/01 16:30:28  revo
 Jeromo Vasxe: + son~o
 
 Revision 1.19  2008/05/06 16:37:44  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2005/10/26 16:31:27  revo
-Luiz Portella: +trd pt
-
-Revision 1.17  2005/03/17 17:32:38  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.16  2004/12/16 17:31:57  revo
 -->
 </vortaro>

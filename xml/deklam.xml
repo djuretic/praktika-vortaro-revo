@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: deklam.xml,v 1.19 2015/07/04 08:37:32 revo Exp $">
+<art mrk="$Id: deklam.xml,v 1.25 2021/05/09 07:00:12 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>deklam</rad>/i
@@ -13,28 +13,58 @@
     <uzo tip="fak">POE</uzo>
     <gra><vspec>tr</vspec></gra>
     <dif>
-      La&ubreve;te vo&ccirc;legi a&ubreve; reciti, kun artisme
-      ta&ubreve;ga tono:
+      La&ubreve;te <ref cel="leg.vocx0i">vo&ccirc;legi</ref> a&ubreve; <ref tip="sin" cel="cit.re0i">reciti</ref>, kun
+      artisme ta&ubreve;ga tono:
       <ekz>
-        <tld/>i versojn;
+        li travagadis tiujn <klr>[&#8230;]</klr> urbojn, <tld/>ante siajn versojn, por akiri
+        vivrimedojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Dorna vojo de la honoro</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        Nolan siavice transprenis la libron kaj <tld/>is al la ceteraj,
+        la versa&jcirc;o estis bonege <tld/>ita, kaj la <tld/>into ricevis grandan apla&ubreve;don
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rigardante en la profundon de &scirc;iaj okuloj, li <tld/>is malrapide kanton de <nom>Heine</nom>
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi unu fojon <tld/>is parolon, &mdash; sed <klr>[&#8230;]</klr> kiom mi memoras, la peco ne
+        pla&ccirc;is al la amaso, &gcirc;i estis tro alta por la popolo
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Nolan</nom> siavice transprenis la libron kaj <tld/>is al la ceteraj,
         kaj li tre bone povis <tld/>i
         <fnt>
-        <aut>Edward Everett Hale, trad. E. L. Robinson, trad. Don
-        Harlow</aut>,
-        <vrk><url
-        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/La_Viro_Senpatria.html">La
-        viro senpatria</url></vrk>,
-        <lok>1907 kaj 1994</lok>
+          <aut>Edward Everett Hale, trad. E. L. Robinson, trad. Don
+          Harlow</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/La_Viro_Senpatria.html">La
+          viro senpatria</url></vrk>,
+          <lok>1907 kaj 1994</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="interp2.0i.BELA">interpreti<sncref/></ref>,
+       <ref cel="prezen1.0i.bildigi">prezenti<sncref/></ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>deklamieren</trd>,
       <trd>vortragen</trd>,
-      <trd>aufsagen</trd>
+      <trd>aufsagen</trd>,
+      <trd>rezitieren</trd>
     </trdgrp>
     <trdgrp lng="pl">
       <trd>deklamowa&cacute;</trd>,
@@ -46,9 +76,26 @@
     <dif>
       Paroli per pasie emfaza tono:
       <ekz>
-        oni multe <tld/>is pri sendependeco<fnt>Z</fnt>.
+        Herodo <klr>[&#8230;]</klr> sidis sur tribunala se&gcirc;o kaj <tld/>is al ili
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 12:21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni trenas veturilon kiel bovoj kaj &ccirc;e tio ni multe <tld/>as pri sendependeco
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="agit.0i.POL">agiti<sncref/></ref>,
+      <ref cel="orator.0i">oratori</ref>,
+      <ref cel="reklam.0i">reklami</ref>,
+      <ref cel="verv.0a">verva</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>beschw&ouml;ren</trd>,
       <trd>gro&szlig;e Worte machen</trd>
@@ -62,12 +109,11 @@
       <ind>zdaniami</ind></trd>
     </trdgrp>
   </snc>
-  <trd
-  lng="be">&c_d;&c_e;&c_k;&c_l;&c_ja;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_d;&c_e;&c_k;&c_l;&c_ja;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="ca">declamar</trd>
   <trdgrp lng="cs">
     <trd>deklamovat</trd>,
-    <trd>přednášet</trd>,
+    <trd>p&rcaron;edn&aacute;&scaron;et</trd>,
     <trd>recitovat</trd>,
     <trd>skandovat</trd>
   </trdgrp>
@@ -77,18 +123,103 @@
   </trdgrp>
   <trd lng="es">declamar</trd>
   <trd lng="fr">d&eacute;clamer</trd>
+  <trd lng="he">&lamed;&#1456;&dalet;&#1463;&qof;&lamed;&#1461;&fmem;</trd>
   <trd lng="hu">szaval</trd>
   <trdgrp lng="pt">
     <trd>declamar</trd>,
     <trd>recitar</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_d;&c_je;&c_k;&c_l;&c_a;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_d;&c_je;&c_k;&c_l;&c_a;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>prednášať</trd>,
-    <trd>recitovať</trd>
+    <trd>predn&aacute;&scaron;a&tcaron;</trd>,
+    <trd>recitova&tcaron;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="deklam.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+      Verko destinita por <tld/>ado; peco <tld/>ata:
+      <ekz>
+        inter la <tld/>a&jcirc;oj trovi&gcirc;is anka&ubreve; nova versa&jcirc;o, sub la titolo Okulvitroj de la
+        onklino
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ekvidis en Libroservo de Universala Kongreso diskon kun <tld/>a&jcirc;oj de <nom>Nikolaj
+        Rytjkov</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007241.html">Aktoro
+          malliberigita</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="recital.0o">recitalo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Deklamation</trd>,
+    <trd>Vortrag <klr>(Text, Verse)</klr></trd>
+  </trdgrp>
+</drv>
+
+
+<drv mrk="deklam.0isto">
+  <kap>
+    <tld/>isto
+  </kap>
+  <snc mrk="deklam.0isto.POE">
+    <uzo tip="fak">POE</uzo>
+    <dif>
+      Iu, kiu profesie, regule <tld/>as:
+      <ekz>
+        li estas <tld/>isto, planante &ccirc;iun geston, &ccirc;iun toneton de la vo&ccirc;o, li samtempe
+        ludas per sia viza&gcirc;o, per sulkoj &ccirc;irka&ubreve; sia bu&scirc;o, per sia rigardo
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fine li vidas tragedion, similan al tiu, kiun li priskribis, la versfaristo
+        sentis sin feli&ccirc;a, la <tld/>isto sentis sin inspirita
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se <tld/>isto, anstata&ubreve; &leftquot;Ho mia kor&#8217;&rightquot;, diras &leftquot;Ho, kia mor&#8217;&rightquot;, li ridigas la
+        publikon
+        <fnt>
+          <bib>KrB</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="aed.0o">aedo</ref>,
+      <ref cel="rapsod.0o">rapsodo</ref>
+    </refgrp>
+    <refgrp tip="vid">
+       <ref cel="orator.0o">oratoro</ref>,
+       <ref cel="retor.0o">retoro</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>De­kla­ma­tor</trd>,
+    <trd>Vorleser</trd>,
+    <trd>Rezitator</trd>,
+    <trd>Lektor</trd>,
+  </trdgrp>
+</drv>
+
 
 <drv mrk="deklam.ekspon0i">
   <kap>ekspon<tld/>i</kap>
@@ -96,8 +227,30 @@
   <snc>
     <dif>
       &Ccirc;e foiro, bazaro ks, provi allogi la pasantojn, <tld/>ante
-      pri la bonaj ecoj de la vendota&jcirc;o.
+      pri la bonaj ecoj de la vendota&jcirc;o:
+      <ekz>
+        &scirc;i estis superbona vendistino, kvankam &scirc;i ne sciis ekspon<tld/>i
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ekspon<tld/>o estas malkohera kaj gurdata kun aplombo, &ccirc;ar &gcirc;i scias precize
+        kien &gcirc;i celas.
+        <fnt>
+          <bib>MD05</bib>
+          <vrk>Por faciligi obeemon</vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="glor.0i">glori</ref>,
+      <ref cel="lauxd.0i">la&ubreve;di</ref>,
+      <ref cel="preten.0i.parole">pretendi<sncref/></ref>,
+      <ref cel="propag.0i">propagandi</ref>,
+      <ref cel="reklam.0i.EKON">reklami<sncref/></ref>,
+      <ref cel="varb.0i.EKON">varbi<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="ca">fer bombo<klr> (al mercat)</klr></trd>
   <trd lng="de">anpreisen</trd>
@@ -114,11 +267,24 @@
   <trd lng="ru">&c_z;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;
   &c_p;&c_o;&c_k;&c_u;&c_p;&c_a;&c_t;&c_je;&c_l;&c_ja;</trd>
 </drv>
+
 </art>
 <!--
-$Log: deklam.xml,v $
-Revision 1.19  2015/07/04 08:37:32  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.25 2021/05/09 07:00:12
+Wolfram Diestel: +ref
+
+versio 1.24 2021/05/06 14:50:35
+Wolfram Diestel: kor. ref-cel
+
+versio 1.23 2021/04/08 07:01:42
+Wolfram Diestel: +ref
+
+versio 1.22 2021/04/08 05:55:26
+Wolfram Diestel: +~ajxo; +ekz-oj, ref-oj
+
+versio 1.21 2021/04/07 14:50:49
+Wolfram Diestel: +~isto
 
 Revision 1.18  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
@@ -127,23 +293,5 @@ Revision 1.17  2012/09/04 08:10:27  revo
 Marc Rausell: + trd ca
 
 Revision 1.16  2009/10/24 16:33:03  revo
-Russ Williams: +trd en
-
-Revision 1.15  2009/04/30 16:30:58  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.14  2007/07/19 16:31:14  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2006/01/06 17:32:03  revo
-Jeromo Vasxe: + 1 ekz
-
-Revision 1.12 2005/03/30 16:31:49 revo
-Yury Finkel: +trd ru
-
-Revision 1.11 2003/12/10 17:32:00 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2003/04/08 16:32:35 revo
 -->
 </vortaro>

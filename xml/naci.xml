@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: naci.xml,v 1.42 2019/06/30 18:21:48 revo Exp $">
+<art mrk="$Id: naci.xml,v 1.88 2021/06/19 06:38:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>naci</rad>/o <fnt><bib>PV</bib></fnt>
@@ -29,7 +28,7 @@
         <tld/>o dividita inter pluraj regnoj;
       </ekz>
       <ekz>
-        lernolibroj kaj vortaroj, <klr>[&#8230;]</klr> eldonitaj de niaj plej
+        lernolibroj kaj vortaroj, <klr>[&#x2026;]</klr> eldonitaj de niaj plej
         kompetentaj amikoj por &ccirc;iu <tld/>o aparte
         <fnt>
           <bib>F</bib>
@@ -98,7 +97,16 @@
     <ref tip="vid" cel="gent.0o">gento</ref>
     <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;</trd>
     <trd lng="de">Nation</trd>
-    <trd lng="pl">nar&oacute;d</trd>
+    <trdgrp lng="pl">
+      <trd>nar&oacute;d</trd>,
+      <trd>nacja</trd>,
+      <trd>pa&nacute;stwo</trd>
+    </trdgrp>          
+    <trdgrp lng="ro">
+      <trd>na&#x21B;iune</trd>,
+      <trd>stat</trd>,
+      <trd>&#x21B;ar&abreve;</trd>
+    </trdgrp>          
     <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_ja;</trd>
   </snc>
   <snc mrk="naci.0o.suvereno">
@@ -113,8 +121,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006811.html">Reago:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006811.html">Reago:
           Nekredeblaj malveroj</url></vrk>
         </fnt>;
       </ekz>
@@ -124,8 +131,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006823.html">Opinio:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006823.html">Opinio:
           Tro Senkosta Pentemo</url></vrk>
         </fnt>;
       </ekz>
@@ -134,8 +140,7 @@
         incito al rasismo
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006853.html">&Ccirc;e&hcirc;io:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006853.html">&Ccirc;e&hcirc;io:
           Mur-muras Rasismo</url></vrk>
         </fnt>;
       </ekz>
@@ -144,8 +149,7 @@
         povus jare prizorgi 100&nbsp;000 turistojn
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006859.html">Seborgo:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006859.html">Seborgo:
           Urbeto a&ubreve; sendependa lando?</url></vrk>
         </fnt>;
       </ekz>
@@ -155,9 +159,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/007031.html">Katolikismo:
-          Johano Hus &#8208; &ccirc;u ne plu herezulo?</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007031.html">Katolikismo:
+          Johano Hus &#x2010; &ccirc;u ne plu herezulo?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -199,32 +202,74 @@
       <trd>&c_k;&c_r;&c_a;&c_ib;&c_n;&c_a;</trd>
     </trdgrp>
     <trd lng="de">Staatsvolk</trd>
-    <trd
-    lng="ru">&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
+    <trd lng="ru">&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
   </snc>
   <refgrp tip="vid">
     <ref cel="land.0o">lando</ref>,
     <ref cel="patr.0ujo">patrujo</ref>.
   </refgrp>     
+  <trd lng="af">nasie</trd>
+  <trd lng="am">&#x1200;&#x1308;&#x122D;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x623;&#x645;&#x629;</trd>
+  <trd lng="az">mill&#x259;t</trd>
   <trd lng="bg">&c_n;&c_a;&c_c;&c_i;&c_ja;</trd>          
+  <trd lng="bn">&#x99C;&#x9BE;&#x9A4;&#x9BF;</trd>
   <trd lng="br">broad</trd>
+  <trd lng="bs">nacije</trd>
   <trd lng="ca">naci&oacute;</trd>
+  <trd lng="co">a nazione</trd>
   <trd lng="cs">n&aacute;rod</trd>
+  <trd lng="da">nation</trd>
   <trd lng="en">nation</trd>
   <trd lng="es">naci&oacute;n</trd>
+  <trd lng="et">rahvas</trd>
+  <trd lng="eu">nazioa</trd>
   <trd lng="fr">nation</trd>
+  <trd lng="fy">naasje</trd>
+  <trd lng="gl">naci&#xF3;n</trd>
+  <trd lng="gu">&#xAB0;&#xABE;&#xAB7;&#xACD;&#xA9F;&#xACD;&#xAB0;</trd>
+  <trd lng="ha">jama&#x2019;a</trd>
+  <trd lng="hi">&#x930;&#x93E;&#x937;&#x94D;&#x91F;&#x94D;&#x930;</trd>
+  <trd lng="hr">nacija</trd>
   <trd lng="hu">nemzet</trd>
+  <trd lng="hy">&#x561;&#x566;&#x563;</trd>
+  <trd lng="is">&#xFE;j&#xF3;&#xF0;</trd>
   <trdgrp lng="it">
     <trd>nazione</trd>
     <trd>popolo</trd>
   </trdgrp>
+  <trd lng="ja">&#x56FD;&#x5BB6;</trd>
+  <trd lng="jw">bangsa</trd>
+  <trd lng="ka">&#x10D4;&#x10E0;&#x10D8;&#x10E1;</trd>
+  <trd lng="km">&#x1794;&#x17D2;&#x179A;&#x1791;&#x17C1;&#x179F;</trd>
+  <trd lng="ko">&#xAD6D;&#xBBFC;</trd>
+  <trd lng="lo">&#xE9B;&#xEB0;&#xEC0;&#xE97;&#xE94;&#xE8A;&#xEB2;&#xE94;</trd>
+  <trd lng="ml">&#xD1C;&#xD3E;&#xD24;&#xD3F;</trd>
+  <trd lng="mr">&#x930;&#x93E;&#x937;&#x94D;&#x91F;&#x94D;&#x930;</trd>
+  <trd lng="my">&#x101C;&#x1030;&#x1019;&#x103B;&#x102D;&#x102F;&#x1038;&#x101E;&#x100A;&#x103A;</trd>
+  <trd lng="ne">&#x930;&#x93E;&#x937;&#x94D;&#x91F;&#x94D;&#x930;</trd>
   <trdgrp lng="nl">
     <trd>natie</trd>,
     <trd>volk</trd>
   </trdgrp>
+  <trd lng="ny">mtundu</trd>
+  <trd lng="pa">&#xA15;&#xA4C;&#xA2E; &#xA28;&#xA42;&#xA70;</trd>
+  <trd lng="ps">&#x645;&#x644;&#x62A;</trd>
   <trd lng="pt">na&ccedil;&atilde;o</trd>
+  <trd lng="sd">&#x642;&#x648;&#x645;</trd>
+  <trd lng="si">&#xDA2;&#xDCF;&#xDAD;&#xDD2;&#xDBA;</trd>
+  <trd lng="sq">komb</trd>
+  <trd lng="st">sechaba</trd>
+  <trd lng="ta">&#xBA4;&#xBC7;&#xB9A;&#xBBF;&#xBAF;</trd>
+  <trd lng="te">&#xC26;&#xC47;&#xC36;&#xC02;</trd>
+  <trd lng="th">&#xE1B;&#xE23;&#xE30;&#xE40;&#xE17;&#xE28;&#xE0A;&#xE32;&#xE15;&#xE34;</trd>
+  <trd lng="tl">bansa</trd>
   <trd lng="tr">ulus</trd>
   <trd lng="sk">n&aacute;rod</trd>
+  <trd lng="ur">&#x642;&#x648;&#x645;</trd>
+  <trd lng="vi">qu&#x1ED1;c gia</trd>
+  <trd lng="yi">&#x5E4;&#x5D0;&#x5B8;&#x5DC;&#x5E7;</trd>
+  <trd lng="zu">isizwe</trd>
 </drv>
 
 <drv mrk="naci.0a">
@@ -242,27 +287,23 @@
         <ind><tld/>a standardo</ind>
         <klr>(i.a., tradicia standardo de popolo kiu malhavas
         sian <tld/>an &scirc;taton)</klr>;
-        <trd
-        lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;
+        <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;
         &c_s;&c_mol;&c_c;&c_ja;&c_g;</trd>
-        <trd
-        lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;
+        <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;
         &c_f;&c_l;&c_a;&c_g;</trd>
       </ekz>
       <ekz>
         <ind><tld/>a &scirc;tato</ind>
         <klr>(&scirc;tato formita la&ubreve; <tld/>a principo, kontraste al
         imperio ktp)</klr>;
-        <trd
-        lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
+        <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         &c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_v;&c_a;</trd>
-        <trd
-        lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
+        <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
         &c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
       </ekz>
       <ekz>
         la <tld/>a karaktero kaj maniero de la vivado de la orientaj
-        popoloj estas la ka&ubreve;zo <klr>[&#8230;]</klr>, ke ankora&ubreve; hodia&ubreve; la 
+        popoloj estas la ka&ubreve;zo <klr>[&#x2026;]</klr>, ke ankora&ubreve; hodia&ubreve; la 
         verkado de fabeloj estas tie tre alte &scirc;atata
         <fnt>
           <bib>ElektFab</bib>
@@ -310,12 +351,11 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd
-    lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+    <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
     <trd lng="de">national</trd>
     <trd lng="pl">narodowy</trd>
-    <trd
-    lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    <trd lng="ro">na&#x21B;ional</trd>
+    <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="naci.0a.sxtata">
     <uzo tip="stl">EVI</uzo>
@@ -326,8 +366,7 @@
         <klr>(oficiala standardo de koncerna regno)</klr>.
         <trd lng="be">&c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_w;&c_n;&c_y;
         &c_s;&c_mol;&c_c;&c_ja;&c_g;</trd>
-        <trd
-        lng="ru">&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;
+        <trd lng="ru">&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;
         &c_f;&c_l;&c_a;&c_g;</trd>
       </ekz>
     </dif>
@@ -356,7 +395,9 @@
   </trdgrp>
   <trd lng="it">nazionale</trd>
   <trd lng="nl">nationaal</trd>
+  <trd lng="pl">narodowy</trd>
   <trd lng="pt">nacional</trd>
+  <trd lng="ro">na&#x21B;ional</trd>
   <trd lng="sk">n&aacute;rodn&yacute;</trd>
   <trd lng="tr">ulusal</trd>
 </drv>
@@ -388,11 +429,16 @@
   </trdgrp>
   <trd lng="hu">nemzeti <ind>saj&aacute;toss&aacute;g</ind></trd>
   <trd lng="nl">iets eigen aan het <ind>volk</ind></trd>
-  <trd
-  lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
-  &c_o;&c_s;&c_o;&c_b;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="pl">
+    <trd>w&lstroke;asno&sacute;&cacute; publiczna</trd>,
+    <trd>w&lstroke;asno&sacute;&cacute; narodowa</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>domeniu public</trd>,
+    <trd>proprietate na&#x21B;ional&abreve;</trd>
+  </trdgrp>
+  <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_o;&c_s;&c_o;&c_b;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
 </drv>
-
 
 <drv mrk="naci.0ano">
   <kap><tld/>ano</kap>
@@ -411,7 +457,7 @@
         </fnt>.
       </ekz>
       <ekz>
-        en la tiama Jugoslavio albanoj <klr>[&#8230;]</klr>
+        en la tiama Jugoslavio albanoj <klr>[&#x2026;]</klr>
         okupis la&ubreve;nombre la trian lokon &ndash; post serboj kaj kroatoj 
         &ndash; sed ne posedis sian &scirc;taton-respublikon, aliaj <tld/>anoj &ndash; 
         makedonoj, montenegranoj, bosnianoj kaj slovenoj &ndash; jam havis
@@ -424,8 +470,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd
-    lng="be">&c_p;&c_r;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_n;&c_ib;&c_k;
+    <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_n;&c_ib;&c_k;
     &c_n;&c_a;&c_c;&c_y;&c_ib;</trd>  
   <trdgrp lng="br">
     <trd>broad<klr tip="ind"> (den)</klr></trd>,
@@ -442,7 +487,7 @@
         forlasi la landon <fnt><bib>PIV1</bib></fnt>;
       </ekz>
       <ekz>
-        en la bur&gcirc;<tld/>a periodo <klr>[&#8230;]</klr> la &scirc;taton oni difinas: 
+        en la bur&gcirc;<tld/>a periodo <klr>[&#x2026;]</klr> la &scirc;taton oni difinas: 
         <tld/>o estas &scirc;tato, do &ccirc;iuj, kiuj lo&gcirc;as sur teritorio de iu
         &scirc;tato, estas <tld/>anoj de tiu &scirc;tato
         <fnt>
@@ -453,8 +498,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd
-    lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_d;&c_z;&c_ja;&c_n;&c_ib;&c_n;</trd>
+    <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_d;&c_z;&c_ja;&c_n;&c_ib;&c_n;</trd>
     <trd lng="de">Staatsangeh&ouml;riger</trd>
   </snc>
   <snc mrk="naci.0ano.BIB">
@@ -502,6 +546,8 @@
     <trd>national<klr> (subst.)</klr></trd>,
     <trd>ressortissant</trd>
   </trdgrp>
+  <trd lng="pl">obywatel </trd>
+  <trd lng="ro">cet&abreve;&#x21B;ean</trd>
   <trd lng="sk">pr&iacute;slu&scaron;n&iacute;k n&aacute;roda</trd>
 </drv>
 
@@ -511,11 +557,9 @@
     <dif>
       <ref tip="super" cel="asimil.0i.POL">Asimili</ref> al <tld/>o.
     </dif>
-    <trd
-    lng="be">&c_a;&c_s;&c_ib;&c_m;&c_ib;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="be">&c_a;&c_s;&c_ib;&c_m;&c_ib;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trd lng="de">naturalisieren</trd>
-    <trd
-    lng="ru">&c_a;&c_s;&c_s;&c_i;&c_m;&c_i;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_a;&c_s;&c_s;&c_i;&c_m;&c_i;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="naci.0anigi.JUR_POL">
     <uzo tip="fak">JUR</uzo>
@@ -523,11 +567,9 @@
     <dif>
       <ref tip="dif" cel="civit.0anigi">Civitanigi</ref>.
     </dif>
-    <trd
-    lng="be">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="be">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trd lng="de">einb&uuml;rgern</trd>
-    <trd
-    lng="ru">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trd lng="ca">nacionalitzar</trd>
   <trd lng="cs">naturalizovat</trd>
@@ -535,6 +577,14 @@
   <trd lng="es">nacionalizar</trd>
   <trd lng="it">naturalizzare</trd>
   <trd lng="nl">inburgeren</trd>
+  <trdgrp lng="pl">
+    <trd>naturalizowa&cacute;</trd>,
+    <trd>nadawa&cacute; obywatelstwo</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>naturaliza</trd>,
+    <trd>pentru a conferi cet&abreve;&#x21B;enia</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>naturalizova&tcaron;</trd>,
     <trd>udeli&tcaron; &scaron;t&aacute;tne ob&ccaron;ianstvo</trd>
@@ -572,13 +622,12 @@
       </ekz>
       <ekz>
         en Belgio kaj aliaj &scirc;tatoj taksiistoj rifuzis transporti 
-        a&ubreve;striajn civitanojn &#8208; pura diskriminacio, &ccirc;ar la &scirc;oforoj ne
+        a&ubreve;striajn civitanojn &#x2010; pura diskriminacio, &ccirc;ar la &scirc;oforoj ne
         demandis pri agoj a&ubreve; pensoj, sed anta&ubreve;ju&gcirc;is surbaze de <tld/>eco
         <fnt>
           <bib>Monato</bib>
           <aut>PGubbins</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006952.html">Reago:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006952.html">Reago:
           A&ubreve;strio kaj la ceteraj</url></vrk>
         </fnt>.
       </ekz>
@@ -593,8 +642,7 @@
       Malnova vorto por <ref tip="dif" cel="etn.0o">etno</ref>.
     </dif>
   </snc>
-  <trd
-  lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="br">broadelezh</trd>
   <trd lng="ca">nacionalitat</trd>
   <trd lng="cs">n&aacute;rodnost</trd>
@@ -604,8 +652,8 @@
   <trd lng="hu">nemzetis&eacute;g</trd>
   <trd lng="it">nazionalit&agrave;</trd>
   <trd lng="pl">narodowo&sacute;&cacute;</trd>
-  <trd
-  lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="ro">na&tcedil;ionalitate</trd>
+  <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">n&aacute;rodnos&tcaron;</trd>
   <trdgrp lng="tr">
     <trd>uyrukluk</trd>,
@@ -653,8 +701,7 @@
       al <ref tip="vid" cel="sxovin.0o">&scirc;ovinismo</ref>
       kaj <tld/>a egoismo.
     </rim>
-    <trd
-    lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
+    <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
     <trd lng="br">broadelouriezh</trd>
     <trd lng="ca">nacionalisme</trd>
     <trd lng="de">Nationalismus</trd>
@@ -662,8 +709,8 @@
     <trd lng="hu">nacionalizmus</trd>
     <trd lng="it">nazionalismo</trd>
     <trd lng="pl">nacjonalizm</trd>
-    <trd
-    lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
+    <trd lng="ro">na&#x21B;ionalism</trd>
+    <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
     <trdgrp lng="tr">
       <trd>milliyet&ccedil;ilik</trd>,
       <trd>ulus&ccedil;uluk</trd>
@@ -708,8 +755,7 @@
         anta&ubreve;naziaj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006909.html">Japanio:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006909.html">Japanio:
           Takasugi Sinsaku: Novjara kla&ccirc;o super konjako</url></vrk>
         </fnt>;
       </ekz>
@@ -718,8 +764,7 @@
         estas finite. Ni revenos!&rightquot;
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006947.html">Reago: 
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html">Reago: 
             Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
         </fnt>;
       </ekz>
@@ -731,8 +776,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_s;&c_t;</trd>
+  <trd lng="be">&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_s;&c_t;</trd>
   <trd lng="br">broadelour</trd>
   <trd lng="ca">nacionalista</trd>
   <trd lng="cs">n&aacute;rodovec</trd>
@@ -743,10 +787,10 @@
   <trd lng="hu">nacionalista</trd>
   <trd lng="it">nazionalista<klr> (sostantivo)</klr></trd>
   <trd lng="nl">nationalist</trd>
-  <trd lng="pl">nacjonalizm</trd>
+  <trd lng="pl">nacjonalista</trd>
   <trd lng="pt">nacionalista</trd>
-  <trd
-  lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_i;&c_s;&c_t;</trd>
+  <trd lng="ro">na&#x21B;ionalist</trd>
+  <trd lng="ru">&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_i;&c_s;&c_t;</trd>
   <trd lng="sk">n&aacute;rodovec</trd>
   <trdgrp lng="tr">
     <trd>milliyet&ccedil;i</trd>,
@@ -771,7 +815,7 @@
       </ekz>
       <ekz>
         ni, membroj de la plej malsamaj popoloj staras unu apud
-        alia <klr>[&#8230;]</klr> kiel fratoj, kiuj <klr>[&#8230;]</klr> premas 
+        alia <klr>[&#x2026;]</klr> kiel fratoj, kiuj <klr>[&#x2026;]</klr> premas 
         al si reciproke la manojn ne hipokrite, kiel ali<tld/>ano 
         al ali<tld/>ano, sed sincere, kiel homo al homo
         <fnt>
@@ -786,18 +830,23 @@
         por minoritatoj lo&gcirc;antaj en <klr>[malamika]</klr> lando
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato1/monato-9308-naciaj-radikoj.txt">&Ccirc;u
-          
-           reiri al naciaj radikoj?</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9308-naciaj-radikoj.txt">&Ccirc;u
+          reiri al naciaj radikoj?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">Angeh&ouml;riger eines anderen <ind>Volkes</ind></trd>
   <trd lng="es">extranjero</trd>
+  <trdgrp lng="pl">
+    <trd>cudzoziemiec</trd>,
+    <trd>obcokrajowiec</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>str&abreve;in</trd>,
+    <trd>alien</trd>
+  </trdgrp>
 </drv>
-
 
 
 <drv mrk="naci.inter0a">
@@ -856,8 +905,7 @@
         eksterlanda kaj inter<tld/>a politiko
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato1/monato-9308-alarmsignalo.txt">El
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9308-alarmsignalo.txt">El
           mia vidpunkto</url></vrk>
         </fnt>;
       </ekz>
@@ -865,8 +913,7 @@
         inter<tld/>a merkatsistemo
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato1/monato-9405-komerco.txt">Komercismo</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9405-komerco.txt">Komercismo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -875,8 +922,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006821.html">E&ubreve;ropa
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006821.html">E&ubreve;ropa
           Unio: E&ubreve;ro unujara</url></vrk>
         </fnt>;
       </ekz>
@@ -884,8 +930,7 @@
         <ind>Inter<tld/>a Ru&gcirc;a Kruco</ind>
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato1/monato-9312-bosnio.txt">Bosnio</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9312-bosnio.txt">Bosnio</url></vrk>
         </fnt>;
         <trd lng="de">Internationales Rotes Kreuz</trd>
       </ekz>
@@ -894,9 +939,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Zanandu Ntomono Zola</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006802.html">Afriko:
-          Soldatoj &#8208; sed neniaj solvoj</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006802.html">Afriko:
+          Soldatoj &#x2010; sed neniaj solvoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -910,6 +954,7 @@
     <trd>&c_m;&c_ib;&c_zh;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;</trd>,
     <trd>&c_ib;&c_n;&c_t;&c_e;&c_r;&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="bo">&t_ra;&t_gata;&t_yata;&t_la;&t_tsheg;&t_sa;&t_pata;&t_yata;&t_gigu;</trd>
   <trd lng="br">etrebroadel</trd>
   <trd lng="ca">internacional</trd>
   <trd lng="cs">mezin&aacute;rodn&iacute;</trd>
@@ -921,8 +966,8 @@
   <trd lng="nl">internationaal</trd>
   <trd lng="pl">mi&eogonek;dzynarodowy</trd>
   <trd lng="pt">internacional</trd>
-  <trd
-  lng="ru">&c_m;&c_je;&c_zh;&c_d;&c_u;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ro">interna&tcedil;ional</trd>
+  <trd lng="ru">&c_m;&c_je;&c_zh;&c_d;&c_u;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">medzin&aacute;rodn&yacute;</trd>
   <trd lng="tr">uluslararas&inodot;</trd>
 </drv>
@@ -934,12 +979,11 @@
     <dif>
       <ref tip="dif" cel="kosmop.0ismo.POL">Kosmopolitismo</ref>:
       <ekz>
-        humaneca inter<tld/>ismo <klr>[&#8230;]</klr> estas la spirito de
+        humaneca inter<tld/>ismo <klr>[&#x2026;]</klr> estas la spirito de
         Esperanto
         <fnt>
           <aut>I. Gast&oacute;n Burillo</aut>,
-          <vrk><url
-          ref="https://sites.google.com/site/zaragozafrateco/-nekrologoj/ines-gaston">
+          <vrk><url ref="https://sites.google.com/site/zaragozafrateco/-nekrologoj/ines-gaston">
           Tago de Zamenhof</url></vrk>,
           <lok>1976</lok>
         </fnt>;
@@ -950,8 +994,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008022.html">Tridek
+          <vrk><url ref="https://www.monato.be/2003/008022.html">Tridek
           jaroj da sa&gcirc;o</url></vrk>
         </fnt>;
       </ekz>
@@ -962,8 +1005,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Zlatko Ti&scaron;ljar</aut>
-          <vrk><url
-          ref="https://www.monato.be/2004/008291.html">Kial 
+          <vrk><url ref="https://www.monato.be/2004/008291.html">Kial 
            fieri pri iu patrujo kaj ne pri alia?</url></vrk>
         </fnt>.
       </ekz>
@@ -982,9 +1024,7 @@
       garantius pacajn rilatojn inter &ccirc;iuj <tld/>oj, zorgante, ke
       &ccirc;iu el ili konservu siajn lingvon kaj kulturajn aparta&jcirc;ojn.
     </dif>
-    <trd
-    lng="be">&c_ib;&c_n;&c_t;&c_e;&c_r;&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
-       
+    <trd lng="be">&c_ib;&c_n;&c_t;&c_e;&c_r;&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>    
     <trd lng="br">etrebroadelouriezh</trd>
     <trd lng="ca">internacionalisme</trd>
     <trd lng="de">Internationalismus</trd>
@@ -998,6 +1038,7 @@
     <trd lng="it">internazionalismo</trd>
     <trd lng="nl">internationalisme</trd>
     <trd lng="pl">internacjonalizm</trd>
+    <trd lng="ro">interna&#x21B;ionalism</trd>
     <trdgrp lng="tr">
       <trd>uluslararas&inodot; birlik d&uuml;&scedil;&uuml;ncesi </trd>,
       <trd>uluslararas&inodot; durum</trd>
@@ -1015,8 +1056,7 @@
         la &ccirc;efaj nocioj en la interlingvistiko
         <fnt>
           <aut>B. Kolker</aut>,
-          <vrk><url
-          ref="http://esperanto.china.org.cn/esperantujo/2010-01/19/content_19269002.htm">
+          <vrk><url ref="http://esperanto.china.org.cn/esperantujo/2010-01/19/content_19269002.htm">
           &Ccirc;efaj strukturaj principoj de Esperanto</url></vrk>,
           <lok>en: La Arto Labori Kune, 2010</lok>
         </fnt>.
@@ -1026,9 +1066,10 @@
       <ref cel="naci.0ismo.LIN"><tld/>ismo<sncref/></ref>
     </refgrp>
     <refgrp tip="vid">
-      <ref cel="pauxs.0o.LIN">pa&ubreve;so<sncref/></ref>
+      <ref cel="pauxs.0ajxo.LIN">pa&ubreve;sa&jcirc;o<sncref/></ref>
     </refgrp>
     <trd lng="ca">expressi&oacute; internacional</trd>
+    <trd lng="pl">internacjonalizm</trd>
   </snc>
 </drv>
 
@@ -1059,8 +1100,7 @@
         <klr>...</klr> el la turka sklaveco
         <fnt>
           <aut>R. Klaji&ccirc;</aut>,
-          <vrk><url
-          ref="http://arkivo.esperanto-france.org/divers/vekigho/balkan.htm">
+          <vrk><url ref="http://arkivo.esperanto-france.org/divers/vekigho/balkan.htm">
           Letero el Serbujo</url></vrk>,
           <lok>Veki&gcirc;o !, 1913:04 (7)</lok>
         </fnt>.
@@ -1076,6 +1116,11 @@
     <trd>paisano</trd>
   </trdgrp>
   <trd lng="fr">compatriote<klr> (de m&ecirc;me nation)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>krajan</trd>,
+    <trd>rodak</trd>
+  </trdgrp>
+  <trd lng="ro">compatriot</trd>
   <trd lng="sk">s&uacute;kme&ncaron;ovec</trd>
 </drv>
 
@@ -1095,8 +1140,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Pavel Mo&jcirc;aev Kaj Jefim Zajdman</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008072.html">Gvidlibro
+          <vrk><url ref="https://www.monato.be/2003/008072.html">Gvidlibro
           tra Esperantujo: &ccirc;io unulibre!</url></vrk>
         </fnt>;
       </ekz>
@@ -1115,8 +1159,7 @@
       <ref cel="naci.inter0ismo.POL">inter<tld/>ismo<sncref/></ref>
     </refgrp>
   </snc>
-  <trd
-  lng="be">&c_k;&c_a;&c_s;&c_m;&c_a;&c_p;&c_a;&c_l;&c_ib;&c_t;&c_y;&c_z;&c_m;</trd>
+  <trd lng="be">&c_k;&c_a;&c_s;&c_m;&c_a;&c_p;&c_a;&c_l;&c_ib;&c_t;&c_y;&c_z;&c_m;</trd>
   <trd lng="ca">cosmopolitisme</trd>
   <trd lng="cs">kosmopolitizmus</trd>
   <trdgrp lng="de">
@@ -1134,7 +1177,15 @@
     <trd>cosmopolitismo<klr> (in politica)</klr></trd>
   </trdgrp>
   <trd lng="nl">volkenloosheid</trd>
-  <trd lng="pl">kosmopolityzm</trd>
+  <trd lng="pl"/>
+  <trdgrp lng="pl">
+    <trd>kosmopolityzm</trd>,
+    <trd>anacjonalizm</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>cosmopolitism</trd>,
+    <trd>anationalism</trd>
+  </trdgrp>
   <trd lng="sk">kozmopolitizmus</trd>
 </drv>
 
@@ -1145,15 +1196,13 @@
   <snc mrk="naci.Unuigxintaj_0oj.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Grava internacia monda <ref tip="lst"
-      cel="organi2.0ajxo" lst="voko:organiza&jcirc;oj">organiza&jcirc;o</ref>,
+      Grava internacia monda <ref tip="lst" cel="organi2.0ajxo" lst="voko:organiza&jcirc;oj">organiza&jcirc;o</ref>,
       fondita post la 2a
       mondmilito,
       kiu celas solvi inter&scirc;tatajn konfliktojn:
       <ekz>
         nun tamen Tuvalo ver&scirc;ajne i&gcirc;os ege populara, ne nur &ccirc;ar la
-        gnoma &scirc;tato &jcirc;us fari&gcirc;is 189a membro de Unui&gcirc;intaj <tld
-        lit="N"/>oj
+        gnoma &scirc;tato &jcirc;us fari&gcirc;is 189a membro de Unui&gcirc;intaj <tld lit="N"/>oj
         (UN), sed precipe pro &gcirc;ia nacia simbolo en Interreto, mallongigo
         &leftquot;tv&rightquot;.
         <fnt>
@@ -1219,6 +1268,7 @@
     <trd>VN</trd>
   </trdgrp>
   <trd lng="pl">Organizacja Narod&oacute;w Zjednoczonych</trd>
+  <trd lng="ro">Organiza&#x21B;ia Na&#x21B;iunilor Unite</trd>
   <trdgrp lng="ru">
     <trd>&c_O;&c_b;&c_malmol;&c_je;&c_d;&c_i;&c_n;&c_jo;&c_n;&c_n;&c_y;&c_je;
     &c_N;&c_a;&c_c;&c_i;&c_i;</trd>,
@@ -1238,9 +1288,15 @@
 </drv>
 </art>
 <!--
-$Log: naci.xml,v $
-Revision 1.42  2019/06/30 18:21:48  revo
-adaptis URL de Monato
+$Log$
+versio 1.45 2021/05/16 13:56:04
+Wolfram Diestel: +trd bo
+
+versio 1.44 2021/05/14 14:06:17
+Wolfram Diestel: kor. ref-cel
+
+versio 1.43 2021/05/04 20:50:09
+Vito Redsky: +trd pl +trd ro
 
 Revision 1.41  2019/06/30 07:42:49  revo
 adaptis URL de Monato
@@ -1255,17 +1311,5 @@ Revision 1.38  2018/01/08 18:10:14  revo
 Wolfram Diestel: +ali~ano, var ~anismo, ~anisto, ekz-oj
 
 Revision 1.37  2018/01/07 23:10:15  revo
-Wolfram Diestel: ~o: ekz-oj
-
-Revision 1.36  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.35  2015/06/29 16:33:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.34  2014/10/24 03:10:16  revo
-Jeromo Vasxe: + sam~ano
-
-Revision 1.33  2014/07/01 11:10:14  revo
 -->
 </vortaro>

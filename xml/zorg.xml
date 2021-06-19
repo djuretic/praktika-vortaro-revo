@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: zorg.xml,v 1.44 2016/01/16 14:10:18 revo Exp $">
+<art mrk="$Id: zorg.xml,v 1.93 2021/06/18 18:20:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>zorg</rad>/i
@@ -10,7 +9,7 @@
 <drv mrk="zorg.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>x</vspec></gra>
-  <snc>
+  <snc mrk="zorg.0i.pri_ies_bono">
     <dif>
       Serioze direkti sian atenton kaj aktivecon al ies bono:
       <ekz>
@@ -24,7 +23,7 @@
       </ekz>
       <ekz>
         <ind><tld/>u pri vi kaj nenion pli</ind>
-        (<ref tip="vid" cel="naz.0o">nazo</ref>)
+        <klr>(vd <ref tip="vid" cel="naz.0o">nazo</ref>)</klr>
         <fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">t&ouml;r&odblac;dj a magad dolg&aacute;val</trd>
       </ekz>
@@ -59,7 +58,7 @@
       <trd>&c_o;&c_p;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="zorg.0i.pri_io_bone">
     <dif>
       Apliki sian atenton al io, por certigi ties bonan staton a&ubreve;
       funkciadon:
@@ -90,13 +89,24 @@ sz&oacute;rakoz&aacute;s</trd>
         lingvo<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        <tld/>u, ke la re&gcirc;o ricevu la leterojn<fnt>Z</fnt>;
+        <tld/>u, ke la re&gcirc;o ricevu la leterojn
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i, ke la elektitoj estu homoj prudentaj<fnt>Z</fnt>;
+        <tld/>i, ke la elektitoj estu homoj prudentaj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto
+          1910</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        estis malavare <tld/>ita pri &ccirc;iu societa bezono<fnt>Z</fnt>.
+        estis ri&ccirc;e <tld/>ita pri &ccirc;iu societa bezono
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -129,23 +139,29 @@ sz&oacute;rakoz&aacute;s</trd>
 &c_v;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="zorg.0i.fokusigxi">
     <dif>
       Maltrankvili&gcirc;i pro necerteco a&ubreve; dubeco de io, kion oni
-      konsideras
-      grava:
+      konsideras grava:
       <ekz>
-        la malsato, pri kiu vi <tld/>as, persekutos vin<fnt>Z</fnt>;
+        la malsato, pri kiu vi <tld/>as, persekutos vin
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 42:16</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ind>ri&ccirc;a <tld/>as pri &ccirc;ampano, malri&ccirc;a pri pano
-</ind>
+        <ind>ri&ccirc;a <tld/>as pri &ccirc;ampano, malri&ccirc;a pri pano</ind>
         <fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">gazdag akkor eszik, mikor akarja, szeg&eacute;ny, mikor
         kaphatja</trd>
       </ekz>
       <ekz>
-        lingvo natura tute ne bezonas <tld/>i pri facileco<fnt>Z</fnt>.
+        lingvoj naturaj <klr>[&#x2026;]</klr> tute ne bezonis <tld/>i pri facileco
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -168,6 +184,14 @@ sz&oacute;rakoz&aacute;s</trd>
       <trd>&c_z;&c_a;&c_b;&c_o;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <trd lng="af">sorg</trd>
+  <trd lng="am">&#x12A5;&#x1295;&#x12AD;&#x1265;&#x12AB;&#x1264;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x631;&#x639;&#x627;&#x64A;&#x629;</trd>
+  <trd lng="az">qay&#x11F;&#x131;</trd>
+  <trd lng="bn">&#x9AF;&#x9A4;&#x9CD;&#x9A8;</trd>
+  <trd lng="bo">&#xF66;&#xF7A;&#xF58;&#xF66;&#xF0B;&#xF41;&#xFB2;&#xF63;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bs">njegu</trd>
+  <trd lng="co">skin</trd>
   <trdgrp lng="cs">
     <trd>db&aacute;t o n&ecaron;&ccaron;&iacute; dobro <klr>(o n&ecaron;koho)</klr></trd>,
     <trd>h&aacute;jit</trd>,
@@ -175,66 +199,86 @@ sz&oacute;rakoz&aacute;s</trd>
     <trd>pe&ccaron;ovat</trd>,
     <trd>starat se</trd>
   </trdgrp>
+  <trd lng="da">pleje</trd>
   <trdgrp lng="de">
     <trd><klr>sich </klr>sorgen</trd>,
     <trd><klr>sich </klr>k&uuml;mmern</trd>
   </trdgrp>
   <trd lng="en">care</trd>
   <trd lng="es">preocuparse</trd>
+  <trd lng="et">hooldus</trd>
+  <trd lng="eu">zainketa</trd>
   <trdgrp lng="fr">
     <trd>s'occuper de</trd>
   </trdgrp>
+  <trd lng="fy">soarch</trd>
+  <trd lng="gl">coidados</trd>
+  <trd lng="gu">&#xAB8;&#xA82;&#xAAD;&#xABE;&#xAB3;</trd>
+  <trd lng="ha">kula</trd>
   <trd lng="he">&lamed;&dalet;&alef;&vav;&gimel;</trd>
+  <trd lng="hi">&#x926;&#x947;&#x916;&#x92D;&#x93E;&#x932;</trd>
+  <trd lng="hr">briga</trd>
+  <trd lng="hy">&#x56D;&#x576;&#x561;&#x574;&#x584;</trd>
+  <trd lng="is">um&#xF6;nnun</trd>
   <trdgrp lng="it">
       <trd>badare</trd>,
       <trd>occuparsi</trd>,
       <trd>curare<klr> (aver cura)</klr></trd>,
       <trd>preoccuparsi</trd>
     </trdgrp>
+  <trd lng="ja">&#x4ECB;&#x8B77;</trd>
+  <trd lng="ka">&#x10F0;&#x10D8;&#x10D2;&#x10D8;&#x10D4;&#x10DC;&#x10D8;&#x10E1;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x1790;&#x17C2;&#x179A;&#x1780;&#x17D2;&#x179F;&#x17B6;</trd>
+  <trd lng="ko">&#xC8FC;&#xC758;</trd>
+  <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xE94;&#xEB9;&#xEC1;&#xEA5;</trd>
+  <trd lng="ml">&#xD38;&#xD02;&#xD30;&#xD15;&#xD4D;&#xD37;&#xD23;&#xD02;</trd>
+  <trd lng="mr">&#x915;&#x93E;&#x933;&#x91C;&#x940;</trd>
+  <trd lng="my">&#x1015;&#x103C;&#x102F;&#x1005;&#x102F;&#x1005;&#x1031;&#x102C;&#x1004;&#x1037;&#x103A;&#x101B;&#x103E;&#x1031;&#x102C;&#x1000;&#x103A;&#x1019;&#x103E;&#x102F;</trd>
+  <trd lng="ne">&#x939;&#x947;&#x930;&#x91A;&#x93E;&#x939;</trd>
   <trdgrp lng="nl">
     <trd>zorgen</trd>,
     <trd>zich <ind>bekommeren</ind></trd>,
     <trd>bezorgd zijn</trd>
   </trdgrp>
+  <trd lng="ny">kusamalira</trd>
+  <trd lng="pa">&#xA26;&#xA40; &#xA26;&#xA47;&#xA16;&#xA2D;&#xA3E;&#xA32;</trd>
+  <trd lng="ps">&#x62F; &#x67E;&#x627;&#x645;&#x644;&#x631;&#x646;&#x6D0;</trd>
+  <trd lng="sd">&#x62E;&#x64A;&#x627;&#x644;</trd>
+  <trd lng="si">&#xDC3;&#xDAD;&#xDCA;&#xD9A;&#xDCF;&#xDBB;</trd>
   <trd lng="sk">stara&tcaron; sa</trd>
+  <trd lng="sq">kujdes</trd>
+  <trd lng="ta">&#xBAA;&#xBBE;&#xBA4;&#xBC1;&#xB95;&#xBBE;&#xBAA;&#xBCD;&#xBAA;&#xBC1;</trd>
+  <trd lng="te">&#xC38;&#xC02;&#xC30;&#xC15;&#xC4D;&#xC37;&#xC23;</trd>
+  <trd lng="th">&#xE01;&#xE32;&#xE23;&#xE14;&#xE39;&#xE41;&#xE25;</trd>
+  <trd lng="tl">pag-aalaga</trd>
+  <trd lng="ur">&#x62F;&#x6CC;&#x6A9;&#x6BE; &#x628;&#x6BE;&#x627;&#x644;</trd>
+  <trd lng="vi">ch&#x103;m s&#xF3;c</trd>
+  <trd lng="yi">&#x5D6;&#x5D0;&#x5B8;&#x5E8;&#x5D2;&#x5DF;</trd>
+  <trd lng="zu">ukunakekelwa</trd>
 </drv>
 
-<drv mrk="zorg.0ede">
-  <kap><tld/>e de</kap>
-  <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-  <snc>
-    <dif>
-      <ref tip="super" cel="de.0.aganto">De</ref>, kun la helpo de,
-      plenumate de:
-      <ekz>
-        oni surscenigas <klr>...</klr> altnivelajn spektaklojn, <tld/>e
-        de
-        la Torina Manifestacia Instanco
-        <fnt><aut>Turisma skabenejo de la urbo Torino</aut>,
-        <vrk>Torino,
-        1984</vrk></fnt>
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_d;&c_z;&c_ja;&c_k;&c_u;&c_ju;&c_ch;&c_y; <klr>(&c_ch;&c_y;&c_m;&c_s;&c_mol;&c_c;&c_ib; &c_v;&c_y;&c_s;&c_ib;&c_l;&c_k;&c_a;&c_m;, &c_k;&c_l;&c_o;&c_p;&c_a;&c_t;&c_u;)</klr></trd>
-  <trd lng="fr">par les soins de</trd>
-  <trd lng="hu">gondoz&aacute;s&aacute;ban</trd>
-  <trd lng="it">a cura di</trd>
-  <trd lng="pl">pod opiek&aogonek;</trd>
-  <trd lng="ru">&c_b;&c_l;&c_a;&c_g;&c_o;&c_d;&c_a;&c_r;&c_ja; 
-&c_u;&c_s;&c_i;&c_l;&c_i;&c_ja;&c_m;</trd>
-</drv>
 
 <drv mrk="zorg.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="zorg.0o.peno">
     <dif>
-      Atenta penado certigi ies bonon a&ubreve; feli&ccirc;on:
+      Atenta penado certigi ies bonon a&ubreve; feli&ccirc;on
+      (vd <ref cel="zorg.pri0i">pri<tld/>i</ref>):
       <ekz>
-        nenio povas anstata&ubreve;i la patrinajn <tld/>ojn<fnt>B</fnt>;
+        al ili tre kontente li transdonis la tutan <tld/>on kaj a&ubreve;toritaton pri la lingvo
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        akcepti infanon sub sian <tld/>on<fnt>B</fnt>.
+        neniu romanisto en la irlanda lingvo hodia&ubreve; verkas kun kompareblaj <tld/>o,
+        precizeco kaj klareco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="https://www.monato.be/2006/008854.php">Lingva Davido kontra&ubreve; Goljato</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -274,11 +318,14 @@ sz&oacute;rakoz&aacute;s</trd>
       <trd>premura<klr> (attenzioni)</klr></trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="zorg.0o.premsento">
     <dif>
-      Malagrabla&jcirc;oj:
+      Premsento pro <ref cel="respon.0eco">respondeco</ref> kaj rilataj malagrabla&jcirc;oj:
       <ekz>
-        de <tld/>oj, ne de faroj blanki&gcirc;as la haroj<fnt>Z</fnt>;
+        de <tld/>oj, ne de jaroj blanki&gcirc;as la haroj
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>rusto man&gcirc;as la feron kaj <tld/>o la homon</ind>
@@ -291,7 +338,10 @@ sz&oacute;rakoz&aacute;s</trd>
         <trd lng="hu">minden napnak megvan a maga baja</trd>
       </ekz>
       <ekz>
-        la pezaj <tld/>oj premas mian bruston<fnt>Z</fnt>;
+        pezaj <tld/>oj premas mian bruston
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>malpli da havo, malpli da <tld/>oj</ind>
@@ -300,20 +350,18 @@ sz&oacute;rakoz&aacute;s</trd>
       </ekz>
       <ekz>
         man&gcirc;u vian panon kun tremo, kaj trinku vian akvon kun 
-&ccirc;agreno
-        kaj
-        <tld/>oj
+        &ccirc;agreno kaj <tld/>oj
         <fnt><bib>MT</bib>, <lok>&Jeh; 12:18</lok></fnt>;
       </ekz>
       <ekz>
         se oni ne havas <tld/>ojn pro pano, oni tiam faras al si
-        <tld/>ojn
-        de amo.
+        <tld/>ojn de amo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="klopod.0o">klopodo 2</ref>.
-    </refgrp>
+    <ref tip="sin" cel="klopod.0o.zorgo">klopodo<sncref/></ref>
     <trdgrp lng="be">
       <trd>&c_t;&c_u;&c_r;&c_b;&c_o;&c_t;&c_a;</trd>,
       <trd>&c_m;&c_a;&c_r;&c_k;&c_o;&c_t;&c_a;</trd>,
@@ -352,19 +400,51 @@ sz&oacute;rakoz&aacute;s</trd>
   <kap><tld/>a</kap>
   <snc mrk="zorg.0a.PSI">
     <dif>
-      Kiu atentas, <tld/>as por bone kaj akurate agi:
+      Kun <tld/>o, plena de <tld/>o:
       <ekz>
         sub la <tld/>a okulo de l' pastroj
         <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 8a</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>a esploro<fnt>B</fnt>;
+        blanka rajdmantelo <klr>[&#x2026;]</klr> enkovris liajn graciajn membrojn
+        <klr>[kaj&#x2026;]</klr> montris plej <tld/>an drapiradon
+        <fnt>
+          <bib>RBa</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>e korekti la preserarojn.
+        li i&gcirc;is ege nerva, fumas trioble pli, havas <tld/>an mienon
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj pensoj de la patrino
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Aleksandro faris fundamente <tld/>ajn banojn por sia korpo
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fari plej <tld/>an nekropsian ekzamenon de lia korpo
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia frunto elmontris <tld/>an pripensadon
+        <fnt>
+          <bib>ChR</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="asidu.0a">asidua</ref>,
       <ref cel="konsci1.0a">konscienca</ref>,
       <ref cel="skrupu.0a.PSI">skrupula</ref>
     </refgrp>
@@ -374,13 +454,15 @@ sz&oacute;rakoz&aacute;s</trd>
     <trd>&c_u;&c_v;&c_a;&c_zh;&c_l;&c_ib;&c_v;&c_y;</trd>,
     <trd>&c_b;&c_je;&c_r;&c_a;&c_zh;&c_l;&c_ib;&c_v;&c_y;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF42;&#xF5F;&#xF56;&#xF0B;&#xF42;&#xF5F;&#xF56;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>pe&ccaron;liv&yacute;</trd>,
     <trd>starostliv&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>sorgf&auml;ltig</trd>,
-    <trd>sorgsam</trd>
+    <trd>sorgsam</trd>,
+    <trd>sorgenvoll</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>careful</trd>
@@ -421,6 +503,27 @@ sz&oacute;rakoz&aacute;s</trd>
     <dif>
       Da&ubreve;re <tld/>anta, akuratema, eventuale maltrankvila pri estonta
       stato de aferoj:
+      <ekz>
+        &ccirc;io estis pura kaj bonorda kaj sur &ccirc;io estis vidata la mano de bona kaj
+        <tld/>ema mastrino
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e multe da sa&gcirc;eco estas multe da <tld/>emeco
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 1:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la anta&ubreve;<tld/>emo malkovros al vi la malsanon kaj la sperto montrus la rimedon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         sur &ccirc;io estis vidata la mano de bona kaj <tld/>ema mastrino
         <fnt><bib>FK</bib>, <lok>4, rakontoj, la forgesita pipo, rakonto
@@ -492,13 +595,23 @@ sz&oacute;rakoz&aacute;s</trd>
     <dif>
       Persono pri kiu oni <tld/>as, precipe neplena&gcirc;a infano:
       <ekz>
-        Ijob estis irinta al Padar, por bonvenigi la malnovan amikon kaj
+        mi estas la <tld/>anto de tiu &ccirc;i infano, kaj &gcirc;i estas mia <tld/>ato
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Ijob</nom> estis irinta al <nom>Padar</nom>, por bonvenigi la malnovan amikon kaj
         liajn <tld/>atojn, alvenontajn per la granda karavano
         <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 23a, paca
         Betra&hcirc;</lok></fnt>;
       </ekz>
       <ekz>
-        la <tld/>ataro de paro&hcirc;estro.
+        <klr>[la doktoro]</klr> ne povis sin deteni montri tian grandan intereson je la
+        reveno de sia malnova lernanto kaj <tld/>ato
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -510,7 +623,8 @@ sz&oacute;rakoz&aacute;s</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Pflegeperson</trd>,
-    <trd>Pflegling</trd>
+    <trd>Pflegling</trd>,
+    <trd>Z&ouml;gling</trd>
   </trdgrp>
   <trd lng="en">ward</trd>
   <trdgrp lng="fr">
@@ -538,15 +652,32 @@ sz&oacute;rakoz&aacute;s</trd>
 </drv>
 
 <drv mrk="zorg.0anto">
-  <kap><ofc>*</ofc><tld/>anto</kap>
+  <kap><ofc>*</ofc><tld/>anto,
+    <var><kap>pri<tld/>anto</kap></var>
+  </kap>
   <snc>
     <dif>
       Persono, kiu <tld/>as pri iu, precipe pri neplena&gcirc;a orfo:
       <ekz>
+        li estis pri<tld/>anto de <klr>[&#x2026;]</klr> filino de lia onklo, &ccirc;ar &scirc;i ne havis
+        patron nek patrinon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ester 2:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la juna re&gcirc;o venigis sian patron kaj <tld/>anton kaj
         super&scirc;utis
         ilin per trezoroj
-        <fnt><bib>ElektFab</bib>, <lok>du fratoj</lok></fnt>.
+        <fnt><bib>ElektFab</bib>, <lok>du fratoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        nevidebla <ind>an&gcirc;elo<tld/>anto</ind> sendis al li porcion pere de maljuna kuiristino
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+        <trd lng="de">Schutzengel</trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -591,6 +722,19 @@ sz&oacute;rakoz&aacute;s</trd>
     <dif>
       Fari, ke iu <tld/>u:
       <ekz>
+        trankvila estas &ccirc;iu, kiun nenio ekscitas, indignigas a&ubreve; <tld/>igas
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. Vortuzo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiuj estas la viroj, kiuj tiom vin <tld/>igas
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
         tiom da adicii&gcirc;antaj bon&scirc;ancoj iomete <tld/>igis min
         <fnt>
           <aut>A. Fournier, trad. R. Bernard</aut>,
@@ -610,21 +754,49 @@ sz&oacute;rakoz&aacute;s</trd>
     <dif>
       <tld lit="Z"/>i pri io, kio ankora&ubreve; ne estas,
       ankora&ubreve; ne okazis, precipe por eviti a&ubreve; malhelpi iun 
-malbonon:
+      malbonon:
       <ekz>
-        por anta&ubreve;<tld/>i oni devas anta&ubreve;vidi;
+        se oni ne anta&ubreve;<tld/>os, la ruini&gcirc;o de la energia sistemo certe okazos
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2008/009632.php">Temperaturlevi&gcirc;o en Tirolo</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        vi devas esti <ind>anta&ubreve;<tld/>a</ind> kaj asekuri vin.
+        okaze de malsani&gcirc;o a&ubreve; bezono de <ind>anta&ubreve;<tld/>a</ind> helpo ili ofte ne kontaktas
+        kuracistojn, timante ekstradicion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Betty Chatterjee</aut>
+          <vrk><url ref="https://www.monato.be/2011/010482.php">Senrajtulaj sanrajtoj</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+        <trdgrp lng="de">
+          <trd>vorsorglich</trd>,
+          <trd>pr&auml;ventiv</trd>
+        </trdgrp>
         <trdgrp lng="fr">
           <trd>pr&eacute;voyant</trd>
         </trdgrp>
         <trd lng="hu">el&odblac;rel&aacute;t&oacute;</trd>
       </ekz>
+      <ekz>
+        en tiu &ccirc;i vintro ni devis kelkfoje salumi la &scirc;tuparon pro vizitantoj, po&scirc;tistoj
+        kaj propra anta&ubreve;<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2010/010074.php">&Scirc;tupoj al malplenaj po&scirc;oj</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="tim.antaux0i">anta&ubreve;timi</ref>,
-      <ref cel="put.0o">puto</ref>
+      <ref cel="vid.antaux0ema">anta&ubreve;videma</ref>,
+      <ref cel="preven.0i">preventi</ref>
     </refgrp>
   </snc>
   <trd lng="be">
@@ -661,10 +833,36 @@ malbonon:
     <dif>
       Malatenti ion a&ubreve; iun, kiun oni devas <tld/>i:
       <ekz>
-        mal<tld/>i sian sanon, profesion, devon, siajn aferojn, amikojn;
+        mi scias <klr>[&#x2026;]</klr>, kiuj oficiroj drinkas a&ubreve; mal<tld/>as la servadon, kaj
+        kiuj honeste plenumas sian devon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mi ne mal<tld/>os atente ekzameni tiun proponon;
+        li <klr>[&#x2026;]</klr> &gcirc;oje ekmigris en la mondon mal<tld/>ante nenion, kio dikigas
+        la homon kaj maldikigas la monujon <klr>(t.e. <ref cel="dibocx.0i">dibo&ccirc;is</ref>)</klr>
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ursa Felo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        gento de mensoguloj! ekkriis la tajloro, unu same sendia kaj mal<tld/>a, kiel
+        alia
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Tablo, la orazeno kaj bastono el sako</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> opinias, ke la tradicioj rapide malaperas kaj ke la mal<tld/>o,
+        kun kiu oni komunikas ilin, malhelpas longan da&ubreve;radon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         la partiaj k<klr>aj</klr> sindikataj gvidantoj mal<tld/>as la
@@ -728,9 +926,41 @@ malbonon:
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Flegi:
+      <tld lit="Z"/>i pri:
       <ekz>
-        pri<tld/>i &gcirc;ardenon;
+        mi pri<tld/>is miajn aferojn en la urbo kaj mi ne povis veni
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i kisis la manojn de sia adoptinta patrino, benis &scirc;in pro &scirc;ia tuta pri<tld/>ado
+        kaj amo, kiun &ccirc;i tiu havigis al &scirc;i en la tagoj de la mizero
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen vi pri<tld/>is por ni &ccirc;ion &ccirc;i tion; kion mi povas fari por vi
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 4:13</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        Li rigardu kaj pri<tld/>u mian proceson kaj defendu min
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 24:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi povus ricevi lin kiel edzon, tiam vi estus bone pri<tld/>ita
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         viro mortis, kaj post lia morto neniu pri<tld/>is lian nigran
@@ -740,6 +970,7 @@ malbonon:
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bo">&#xF56;&#xF51;&#xF42;&#xF0B;&#xF42;&#xF49;&#xF72;&#xF62;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;&#xF54;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>db&aacute;t o n&ecaron;&ccaron;&iacute; dobro <klr>(o n&ecaron;koho)</klr></trd>,
     <trd>h&aacute;jit</trd>,
@@ -800,7 +1031,31 @@ malbonon:
     <dif>
       Ne maltrankvila pro <tld/>oj:
       <ekz>
-        sen<tld/>a vivo, ofico;
+        Johano povis dormi tute sen<tld/>e, kaj tion li efektive faris
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jaroj de <klr>[&#x2026;]</klr> sen<tld/>a kaj feli&ccirc;a vivo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas ja tiel bele, se oni en la maljuneco povas vivi sen<tld/>e
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li metis la manojn en la po&scirc;ojn, apogis sin sen<tld/>ece al angulo de muro kaj
+        kun rideto sur la lipoj <klr>[&#x2026;]</klr>
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
         li deziregis denove foriri en la drinkejon, por dibo&ccirc;i kun siaj
@@ -819,6 +1074,7 @@ malbonon:
     <trd>&c_b;&c_je;&c_s;&c_k;&c_l;&c_a;&c_p;&c_o;&c_t;&c_n;&c_y;</trd>,
     <trd>&c_b;&c_je;&c_s;&c_t;&c_u;&c_r;&c_b;&c_o;&c_t;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF66;&#xF7A;&#xF58;&#xF66;&#xF0B;&#xF42;&#xF74;&#xF0B;&#xF61;&#xF44;&#xF66;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trd lng="cs">bezstarostn&yacute;</trd>
   <trdgrp lng="de">
     <trd>sorglos</trd>,
@@ -848,30 +1104,80 @@ malbonon:
   <trd lng="ru">&c_b;&c_je;&c_z;&c_z;&c_a;&c_b;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">bezstarostn&yacute;</trd>
 </drv>
+
+
+<drv mrk="zorg.0ede">
+  <kap><tld/>e de</kap>
+  <gra><vspec>prepozicia&jcirc;o</vspec></gra>
+  <snc>
+    <dif>
+      <ref tip="super" cel="de.0.aganto">De</ref>, kun la helpo de,
+      plenumate de:
+      <ekz>
+        oni surscenigas <klr>[&#x2026;]</klr> altnivelajn spektaklojn, <tld/>e
+        de la Torina Manifestacia Instanco
+        <fnt><aut>Turisma skabenejo de la urbo Torino</aut>,
+        <vrk>Torino,
+        1984</vrk></fnt>;
+      </ekz>
+      <ekz>
+        oni intencas balda&ubreve; <klr>[la tekston]</klr> publikigi, kune kun centoj da aliaj
+        tiaj tekstoj, en papera kaj cifereca versioj, <tld/>e de la eldonejo <nom>Edistudio</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011330.php">Nuntempo sciencfikcia</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="dank.0e_al">danke al</ref>,
+      <ref cel="far.0ede">fare de</ref>,
+      <ref cel="flank.0ede">flanke de</ref>,
+      <ref cel="egid.0o.protekto">egido</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_d;&c_z;&c_ja;&c_k;&c_u;&c_ju;&c_ch;&c_y; <klr>(&c_ch;&c_y;&c_m;&c_s;&c_mol;&c_c;&c_ib; &c_v;&c_y;&c_s;&c_ib;&c_l;&c_k;&c_a;&c_m;, &c_k;&c_l;&c_o;&c_p;&c_a;&c_t;&c_u;)</klr></trd>
+  <trdgrp lng="de">
+    <trd>unter <ind>Leitung</ind> von</trd>,
+    <trd>unter <ind>Aufsicht</ind> von</trd>,
+    <trd><ind>betreut</ind> von</trd>,
+    <trd>durch</trd>
+  </trdgrp>
+  <trd lng="en">in the <ind>care</ind> of</trd>
+  <trd lng="fr">par les soins de</trd>
+  <trd lng="hu">gondoz&aacute;s&aacute;ban</trd>
+  <trd lng="it">a cura di</trd>
+  <trd lng="pl">pod opiek&aogonek;</trd>
+  <trd lng="ru">&c_b;&c_l;&c_a;&c_g;&c_o;&c_d;&c_a;&c_r;&c_ja; 
+&c_u;&c_s;&c_i;&c_l;&c_i;&c_ja;&c_m;</trd>
+</drv>
+
 </art>
 <!--
-$Log: zorg.xml,v $
-Revision 1.44  2016/01/16 14:10:18  revo
-Alain Gerard: + ~igi
+$Log$
+versio 1.50 2021/03/18 07:00:56
+Wolfram Diestel: ~ema..sen~a: ekz-oj
+
+versio 1.49 2021/03/17 18:02:45
+Wolfram Diestel: ~a: revortigo de dif, ekz-oj
+
+versio 1.48 2021/03/17 07:46:50
+Wolfram Diestel: ~o: du ekz-oj, vortumo de snc 2; +ref-oj
+
+versio 1.47 2021/03/16 09:03:58
+Wolfram Diestel: +ref
+
+versio 1.46 2021/03/16 06:54:26
+Wolfram Diestel: ~e de: ekz, ref-oj, trd de, en
+
+versio 1.45 2021/03/15 18:55:24
+Wolfram Diestel: fnt-oj
 
 Revision 1.43  2015/07/04 08:37:46  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.42  2015/06/28 10:33:41  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.41  2013/04/25 20:10:08  revo
-Norbert Luckhardt: kor trd(es)
-
-Revision 1.40  2013/04/12 09:10:14  revo
-Dmitri Gabinski: redakto: +trd be
-
-Revision 1.39  2011/02/02 17:10:08  revo
-Agustin Garcia Lopez: +trd es (-o)
-
-Revision 1.38  2009/03/09 17:31:28  revo
-Antonio Codazzi: +trd it
-
-Revision 1.37  2009/03/03 17:30:34  revo
 -->
 </vortaro>

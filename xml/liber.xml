@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: liber.xml,v 1.47 2019/09/21 19:10:15 revo Exp $">
+<art mrk="$Id: liber.xml,v 1.52 2021/05/29 14:32:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>liber</rad>/a <fnt><bib>PV</bib></fnt>
@@ -234,12 +233,14 @@
     </trdgrp>
     <trd lng="de">linear <ind>unabh&auml;ngig</ind></trd>
     <trd lng="en">linearly <ind>independent</ind></trd>
+    <trd lng="es">linealmente <ind>independiente</ind></trd>
     <trdgrp lng="fr">
       <trd>lin&eacute;airement <ind>ind&eacute;pendant</ind></trd>,
       <trd>libre<klr tip="ind"> (lin&eacute;airement ind&eacute;pendant)</klr></trd>
     </trdgrp>
     <trd lng="pl">liniowo <ind>niezale&zdot;ny</ind></trd>
     <trd lng="pt">linearmente independente</trd>
+    <trd lng="ro">liniar <ind>independent</ind></trd>
     <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o; <ind>&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_y;&c_j;</ind></trd>
     <adm>
       Mi ne trovis a&ubreve;toritatan fonton por tiu termino.
@@ -251,6 +252,7 @@
     <trd>&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_n;&c_y;</trd>,
     <trd>&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF66;&#xF9F;&#xF7C;&#xF44;&#xF0B;&#xF54;&#xF0B;</trd>
   <trd lng="ca">lliure</trd>
   <trdgrp lng="cs">
     <trd>neobsazen&yacute;</trd>,
@@ -268,8 +270,14 @@
   </trdgrp>
   <trd lng="it">libero</trd>
   <trd lng="ku">azad</trd>
+  <trd lng="ne">&#x928;&#x93F;&#x903;&#x936;&#x941;&#x932;&#x94D;&#x915;</trd>
   <trd lng="nl">vrij</trd>
+  <trdgrp lng="pl">
+    <trd>wolny</trd>,
+    <trd>swobodny</trd>
+  </trdgrp>
   <trd lng="pt">livre</trd>
+  <trd lng="ro">liber&abreve;</trd>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>slobodn&yacute;</trd>,
@@ -342,7 +350,19 @@
   <trd lng="hu">szabadon</trd>
   <trd lng="it">liberamente</trd>
   <trd lng="nl">vrijuit</trd>
+  <trdgrp lng="pl">
+    <trd>wolno</trd>,
+    <trd>nieskr&eogonek;powanie</trd>,
+    <trd>swobodnie</trd>
+  </trdgrp>
   <trd lng="pt">livremente</trd>
+  <trdgrp lng="ro">
+    <trd>lent</trd>,
+    <trd>&icirc;ncet</trd>,
+    <trd>libertate</trd>,
+    <trd>gratuit</trd>,
+    <trd>&icirc;n mod liber</trd>
+  </trdgrp>   
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_o;</trd>
   <trd lng="sk">slobodne</trd>
   <trd lng="vo">libiko</trd>
@@ -359,7 +379,7 @@
           <fnt><bib>FK</bib>, <lok>3, anekdotoj</lok></fnt>.
         </ekz>
         <ekz>
-          prefere tuj mortigu min <klr>[&#8230;]</klr> se mi devas perdi la <tld/>on
+          prefere tuj mortigu min <klr>[&#x2026;]</klr> se mi devas perdi la <tld/>on
           <fnt>
             <bib>Far2</bib>
             <lok>&Ccirc;apitro XIX</lok>
@@ -377,6 +397,7 @@
       <trd>&c_v;&c_o;&c_l;&c_ja;</trd>
     </trdgrp>
     <trd lng="ca">llibertat</trd>
+    <trd lng="cs">svoboda</trd>
     <trd lng="de">Freiheit</trd>
     <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon;&theta;&epsilon;&rho;&jota_ton;&alfa;</trd>
     <trdgrp lng="en">
@@ -388,7 +409,12 @@
     <trd lng="hu">szabads&aacute;g</trd>
     <trd lng="it">libert&agrave;</trd>
     <trd lng="nl">vrijheid</trd>
+    <trdgrp lng="pl">
+      <trd>wolno&sacute;&cacute;</trd>,
+      <trd>swoboda</trd>
+    </trdgrp>
     <trd lng="pt">liberdade</trd>
+    <trd lng="ro">libertate <klr>(filozofie)</klr></trd>
     <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_a;</trd>
     <trd lng="vo">lib</trd>
     <trd lng="ku">azad&icirc;</trd>
@@ -396,7 +422,7 @@
       <trd>sloboda</trd>,
       <trd>vo&lcaron;nos&tcaron;</trd>
     </trdgrp>
-    <trd lng="cs">svoboda</trd>
+    
   </snc>
 </drv>
 
@@ -472,8 +498,13 @@
   <trd lng="fr">libert&eacute;</trd>
   <trd lng="hu">szabads&aacute;g</trd>
   <trd lng="it">libert&agrave;</trd>
-  <trd lng="nl">vrijheid</trd>
+  <trd lng="nl">vrijheid</trd>    
+  <trdgrp lng="pl">
+    <trd>wolno&sacute;&cacute;</trd>,
+    <trd>swoboda</trd>
+  </trdgrp>
   <trd lng="pt">liberdade</trd>
+  <trd lng="ro">libertate <klr>(filozofie)</klr></trd>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_a;</trd>
   <trdgrp lng="sk">
     <trd>sloboda</trd>,
@@ -594,7 +625,17 @@
   </trdgrp>
   <trd lng="it">liberare</trd>
   <trd lng="nl">bevrijden</trd>
+  <trdgrp lng="pl">
+    <trd>oswobodzi&cacute;</trd>,
+    <trd>uwolni&cacute;</trd>,
+    <trd>wyzwoli&cacute;</trd>
+  </trdgrp> 
   <trd lng="pt">libertar</trd>
+  <trdgrp lng="ro">
+    <trd>elibera</trd>,
+    <trd>declan&scedil;a</trd>,
+    <trd>dezl&abreve;n&#x21B;ui</trd>
+  </trdgrp>
   <trd lng="ru">&c_o;&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>oslobodi&tcaron;</trd>,
@@ -624,6 +665,11 @@
   </trdgrp>
   <trd lng="de">befreien</trd>
   <trd lng="en">get free</trd>
+  <trdgrp lng="es">
+    <trd><ind>liberar</ind>se</trd>,
+    <trd>emanciparse</trd>,
+    <trd>soltarse</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>se <ind>d&eacute;livrer</ind></trd>,
     <trd>se <ind>lib&eacute;rer</ind></trd>
@@ -639,6 +685,17 @@
     obligation)</klr></trd>
   </trdgrp>
   <trd lng="it">liberarsi</trd>
+  <trdgrp lng="pl">
+    <trd>uwolni&cacute; si&eogonek;</trd>,
+    <trd>wyrwa&cacute; si&eogonek;</trd>,
+    <trd>upora&cacute; si&eogonek;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>desc&abreve;rca</trd>,
+    <trd>evada</trd>,
+    <trd>iesi din</trd>,
+    <trd>&icirc;nvinge</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="liber.for0igi">
@@ -674,6 +731,10 @@
   </trdgrp>
   <trd lng="cs">osvobodit vy&rcaron;azen&iacute;m</trd>
   <trd lng="de">entlassen</trd>
+  <trdgrp lng="es">
+    <trd>libertar</trd>,
+    <trd>emancipar</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>laisser <ind>partir</ind></trd>
     <trd>affranchir<klr tip="ind"> (un esclave)</klr></trd>
@@ -683,6 +744,14 @@
   <trdgrp lng="it">
     <trd>affrancare<klr tip="ind"> (uno schiavo)</klr></trd>
     <trd>congedare<klr tip="ind"> (da un'occupazione)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>puszcza&cacute;</trd>,
+    <trd>pu&sacute;ci&cacute; <ind>wolno</ind></trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>l&abreve;sa</trd>,
+    <trd>sa mergem</trd>
   </trdgrp>
   <trd lng="sk">oslobodi&tcaron;</trd>
 </drv>
@@ -703,7 +772,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
-          <vrk><url ref="&Monato;/2008/009299.php">Fabeloj tradiciaj kaj moderne verkitaj</url></vrk>
+          <vrk><url ref="&Monato;/2008/009299.php">Fabeloj tradiciaj kaj moderne
+          verkitaj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -742,6 +812,11 @@
     <trd>unfrei</trd>,
     <trd>gefangen</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>prisionero (adj.)</trd>,
+    <trd>cautivo</trd>,
+    <trd>privado de <ind>libertad</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>prisonnier (adj.)</trd>,
     <trd>captif</trd>,
@@ -751,6 +826,16 @@
   <trd lng="it">prigioniero<klr> (aggettivo)</klr></trd>
   <trd lng="ku">darazxwar</trd>
   <trd lng="nl">gevangen</trd>
+  <trdgrp lng="pl">
+    <trd>niewolny</trd>,
+    <trd>zachowawczy</trd>,
+    <trd>uwi&eogonek;ziony</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>obliga&#x21B;iune</trd>,
+    <trd>conservator</trd>,
+    <trd>prizonier</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>uv&auml;znen&yacute;</trd>,
@@ -770,7 +855,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Arturon arestis la polico <klr>[&#8230;]</klr> li estis du a&ubreve; tri 
+        Arturon arestis la polico <klr>[&#x2026;]</klr> li estis du a&ubreve; tri 
         semajnojn en la mal<tld/>ejo, el kiu li lerte forkuris kaj malaperis, oni ne scias kien
         <fnt>
           <bib>FK</bib>
@@ -792,6 +877,7 @@
     <trd>&c_t;&c_u;&c_r;&c_m;&c_a;</trd>,
     <trd>&c_v;&c_ja;&c_z;&c_mol;&c_n;&c_ib;&c_c;&c_a;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF56;&#xF59;&#xF7C;&#xF53;&#xF0B;&#xF41;&#xF44;&#xF0B;</trd>
   <trdgrp lng="ca">
     <trd>c&agrave;rcer</trd>,
     <trd>pres&oacute;</trd>
@@ -827,6 +913,11 @@
     <trd>prigione</trd>
   </trdgrp>
   <trd lng="nl">gevangenis</trd>
+  <trdgrp lng="pl">
+    <trd>zak&lstroke;ad karny</trd>,
+    <trd>wi&eogonek;zienie</trd>
+  </trdgrp>
+  <trd lng="ro">&icirc;nchisoare</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_je;&c_s;&c_t;&c_o; &c_l;&c_i;&c_sh;&c_je;&c_n;&c_i;&c_ja; &c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_y;</trd>,
     <trd>&c_t;&c_ju;&c_r;&c_mol;&c_m;&c_a;</trd>,
@@ -859,7 +950,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        en tiaj okazoj, kie kelka <tld/>eco alportas al ni nenian malutilon, kial ni devus senbezone nin mal<tld/>igi?
+        en tiaj okazoj, kie kelka <tld/>eco alportas al ni nenian malutilon, kial ni devus senbezone
+        nin mal<tld/>igi?
         <fnt>
           <bib>LR</bib>
           <vrk>Respondo 38, La Revuo, 1908, Majo</vrk>
@@ -879,6 +971,10 @@
     <trd>festsetzen</trd>
   </trdgrp>
   <trd lng="en">imprison</trd>
+  <trdgrp lng="es">
+    <trd>encarcelar</trd>,
+    <trd>recluir</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>emprisonner</trd>,
     <trd>incarc&eacute;rer</trd>
@@ -888,6 +984,8 @@
     <trd>incarcerare</trd>
     <trd>rinchiudere<klr> (in carcere)</klr></trd>
   </trdgrp>
+  <trd lng="pl">wi&eogonek;zi&cacute;</trd>     
+  <trd lng="ro">re&#x21B;ine</trd>
   <trdgrp lng="sk">
     <trd>uv&auml;zni&tcaron;</trd>,
     <trd>zatkn&uacute;&tcaron;</trd>
@@ -922,6 +1020,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="bo">&#xF56;&#xF59;&#xF7C;&#xF53;&#xF0B;&#xF54;&#xF0B;</trd>
   <trd lng="ca">presoner</trd>
   <trdgrp lng="cs">
     <trd>trestanec</trd>,
@@ -930,8 +1029,20 @@
   </trdgrp>
   <trd lng="de">Gefangener</trd>
   <trd lng="en">prisoner</trd>
+  <trdgrp lng="es">
+    <trd>preso</trd>,
+    <trd>prisionero</trd>
+  </trdgrp>   
   <trd lng="fr">prisonnier</trd>
   <trd lng="it">prigioniero<ind> (sostantivo)</ind></trd>
+  <trdgrp lng="pl">
+    <trd>niewolnik</trd>,
+    <trd>wi&eogonek;zie&nacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>sclav</trd>,
+    <trd>de&#x21B;inu&#x21B;i</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>trestanec</trd>,
     <trd>v&auml;ze&ncaron;</trd>,
@@ -958,13 +1069,19 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">libertad de expresi&oacute;n</trd>
   <trd lng="fr">libert&eacute; d'expression</trd>
+  <trd lng="pl">wolno&sacute;&cacute; s&lstroke;owa</trd>     
+  <trd lng="ro">libertatea de exprimare</trd>
 </drv>
 </art>
 <!--
-$Log: liber.xml,v $
-Revision 1.47  2019/09/21 19:10:15  revo
-Wolfram Diestel: snc-mrk
+$Log$
+versio 1.49 2021/04/29 07:02:38
+Guillermo Molleda Jimena: +trd es
+
+versio 1.48 2020/07/13 21:10:42
+Vito Redsky: +trd pl +trd ro
 
 Revision 1.46  2019/06/30 18:21:03  revo
 adaptis URL de Monato
@@ -982,8 +1099,5 @@ Revision 1.42  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.41  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.40  2015/01/18 03:10:15  revo
 -->
 </vortaro>

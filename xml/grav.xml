@@ -1,8 +1,7 @@
-<?xml version="1.0"?> 
-<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd"> 
-
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro> 
-<art mrk="$Id: grav.xml,v 1.36 2019/08/28 01:10:22 revo Exp $"> 
+<art mrk="$Id: grav.xml,v 1.42 2021/05/28 12:52:50 revo Exp $"> 
 <kap> 
   <ofc>*</ofc> 
   <rad>grav</rad>/a 
@@ -13,27 +12,81 @@
   <snc mrk="grav.0a.KOMUNE"> 
     <dif> 
       Atentinda pro sia granda influo a&ubreve; siaj grandaj sekvoj: 
-      <ekz> 
-        <tld/>a persono, oficisto, okazo, kunveno<fnt>Z</fnt>, 
-        motivo<fnt>Z</fnt>, decido, malsano, helpo, dokumento; 
-      </ekz> 
-      <ekz> 
-        tiu &ccirc;i <tld/>a tago restos por mi &ccirc;iam memorinda 
-        <fnt><bib>F</bib>, <lok>Ekzercaro, &para; 41</lok></fnt>; 
-      </ekz> 
-      <ekz> 
-        unueco estas la plej <tld/>a bazo de lingvo internacia 
-        <fnt>B</fnt>; 
-      </ekz> 
+      <ekz>
+        ili foriris de li, lasinte lin en <tld/>a malsano
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 24:25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej <tld/>aj pleja&gcirc;uloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 29:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> staris &ccirc;irka&ubreve;e, akuzante lin pri <klr>[&#x2026;]</klr> <tld/>aj kulpoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 25:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej <tld/>aj krimuloj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Bildo el kastelremparo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la homo estis tre ri&ccirc;e vestita, li estis videble <tld/>a persono
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La ombro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li dancas belege, <klr>[&#x2026;]</klr> sed egale <tld/>a demando estas, &ccirc;u li estas
+        sufi&ccirc;e instruita
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La ombro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a festotago
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Lekanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estis konfirmado <klr>[&#x2026;]</klr>, tio estis ja <tld/>a tago por ili, el infanoj ili subite
+        fari&gcirc;is plenkreskaj
+        homoj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
       <ekz> 
         a&ubreve;skultu, &ccirc;ar mi parolos <ind><tld/>a&jcirc;o</ind>n 
-        <fnt><bib>MT</bib>, <lok>&Sen; 8:6</lok></fnt>. 
+        <fnt><bib>MT</bib>, <lok>&Sen; 8:6</lok></fnt>; 
         <trd lng="fr">chose <ind>importante</ind></trd> 
         <trd lng="hu">fontos dolog</trd> 
         <trd lng="nl">iets <ind>belangrijks</ind></trd> 
       </ekz> 
+      <ekz>
+        ofte de ka&ubreve;zo senenhava venas efiko plej <tld/>a
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
     </dif> 
     <refgrp tip="vid"> 
+      <ref cel="pez.0a.multe0a">peza<sncref/></ref>,
       <ref cel="serioz.0a">serioza</ref>, 
       <ref cel="signif.0a.FIG">signifa</ref> 
     </refgrp> 
@@ -49,6 +102,7 @@
     <trd>&c_v;&c_a;&c_zh;&c_je;&c_n;</trd>, 
     <trd>&c_s;&c_malmol;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;</trd> 
   </trdgrp>
+  <trd lng="bo">&#xF42;&#xF63;&#xF0B;&#xF46;&#xF7A;&#xF53;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>d&uring;le&zcaron;it&yacute;</trd>,
     <trd>d&uring;le&zcaron;it&yacute;</trd>,
@@ -116,14 +170,48 @@
   <snc mrk="grav.0e.KOMUNE"> 
     <dif> 
       La&ubreve; grava maniero: 
-      <ekz> 
-        <tld/>e vundita 
-        <fnt><bib>MT</bib>, <lok>&Kr2; 35:23</lok></fnt>; 
-      </ekz> 
-      <ekz> 
-        ne <klr>(estas)</klr> <tld/>e!<fnt>Z</fnt>. 
-      </ekz> 
+      <ekz>
+        mi estas <tld/>e vundita
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 35:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se mi jam tiel longe ku&scirc;is, ne estas ja <tld/>e ku&scirc;i ankora&ubreve; iom pli
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        por li estis <tld/>e havi la lastan vorton
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e maloportuna
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto
+          1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne <tld/>e, ne <tld/>e, diris <nom>Mefres</nom>
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>.
+      </ekz>
     </dif> 
+    <refgrp tip="vid">
+      <ref cel="fort.0e.multe">forte<sncref/></ref>,
+      <ref cel="mult.0e">multe</ref>,
+      <ref cel="tre.0">tre</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be"> 
     <trd>&c_v;&c_a;&c_zh;&c_n;&c_a;</trd>, 
@@ -136,9 +224,10 @@
     <trd>t&ecaron;&zcaron;ce</trd>,
     <trd>v&aacute;&zcaron;n&ecaron;</trd>
   </trdgrp>
-  <trdgrp lng="de"> 
-    <trd>wichtig</trd>, 
-    <trd>bedeutend</trd> 
+  <trdgrp lng="de">
+    <trd>wichtig</trd>,
+    <trd>bedeutend</trd>,
+    <trd>gravierend</trd>
   </trdgrp>
   <trd lng="fr">gravement</trd>
   <trdgrp lng="hu"> 
@@ -186,10 +275,37 @@
         <ind>egy&aacute;ltal&aacute;n nem 
         fontos</ind></mll></trd> 
         <trd lng="nl">maar <mll tip="fin">dat is niet erg</mll></trd> 
-      </ekz> 
-      <ekz> 
-        <tld/>as, ke vi mem iru saluti la urbestron. 
-      </ekz> 
+      </ekz>
+      <ekz>
+        ne <tld/>as, ne <tld/>as, respondis la etulo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio &ccirc;i neniel <tld/>as
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>&Scirc;arado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sumeto ne tre <tld/>as
+        <fnt>
+          <bib>Tor</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por tiuj, kiuj suferis la militon, <tld/>as haltigi &gcirc;in
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006811.html">Reago: Nekredeblaj
+          malveroj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif> 
   </snc>
   <trdgrp lng="be"> 
@@ -201,6 +317,7 @@
     <trd>wichtig sein</trd>, 
     <trd>bedeutend sein</trd> 
   </trdgrp>
+  <trd lng="en">matter</trd>
   <trd lng="es">importar</trd>
   <trdgrp lng="fr"> 
     <trd>importer</trd>, 
@@ -245,13 +362,36 @@
   <kap><tld/>eco</kap> 
   <snc mrk="grav.0eco.KOMUNE"> 
     <dif> 
-      Eco de io <tld/>a: 
-      <ekz> 
-        oni ne povas malgrandigi la <tld/>econ de tiu demando; 
-      </ekz> 
-      <ekz> 
-        vi vidas nun la <tld/>econ de tiu le&gcirc;oprojekto. 
-      </ekz> 
+      Eco de io <tld/>a:
+      <ekz>
+        al li tiuj figuroj &scirc;ajnis <klr>[&#x2026;]</klr> havantaj la plej altan <tld/>econ
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pompa parolado pri la <tld/>eco de l' sciencoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tute specialan <tld/>econ li atribuis al la historio
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu titolo donis al li <tld/>econ, kiu kvaza&ubreve; plifortigis lin en liaj altaj
+        oficoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>.
+      </ekz>
     </dif> 
   </snc>
   <trdgrp lng="be"> 
@@ -268,6 +408,7 @@
     <trd>Wichtigkeit</trd>, 
     <trd>Bedeutung</trd> 
   </trdgrp>
+  <trd lng="en">importance</trd>
   <trdgrp lng="fr"> 
     <trd>gravit&eacute;</trd>, 
     <trd>importance</trd> 
@@ -310,8 +451,49 @@
   <kap>mal<tld/>a</kap> 
   <snc mrk="grav.mal0a.KOMUNE"> 
     <dif> 
-      Bagatela, ne meritanta atenton. 
+      Bagatela, ne meritanta atenton:
+      <ekz>
+        ili fari&gcirc;is kiel herbo de kampo, kiel mal<tld/>a verda&jcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 19:26</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trompi lin <klr>[&#x2026;]</klr> en mal<tld/>aj aferoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li havas mienon, kvaza&ubreve; lia trumpetado estas io <tld/>a, sed &gcirc;i estas tute
+        mal<tld/>a
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se mi e&ccirc; havos la plej mal<tld/>an pozicion, tamen se tio, kion mi faros, estos
+        bona, &gcirc;i &ccirc;iam havos ian valoron
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgranda, mal<tld/>aspekta dometo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>.
+      </ekz>
     </dif> 
+    <ref tip="sin" cel="bagate.0a">bagatela</ref>
+    <refgrp tip="vid">
+       <ref cel="banal.0a">banala</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be"> 
     <trd>&c_n;&c_ja;&c_v;&c_a;&c_zh;&c_n;&c_y;</trd>, 
@@ -326,6 +508,7 @@
     <trd>unwichtig</trd>, 
     <trd>bedeutungslos</trd> 
   </trdgrp>
+  <trd lng="en">unimportant</trd>
   <trdgrp lng="fr"> 
     <trd>anodin</trd>, 
     <trd>b&eacute;nin</trd>, 
@@ -368,8 +551,27 @@
   <kap>mal<tld/>a&jcirc;o</kap> 
   <snc mrk="grav.mal0ajxo.KOMUNE"> 
     <dif> 
-      Ne atentinda afero. 
+      Ne atentinda afero:
+      <ekz>
+        gloro, potenco &ndash; vanta fumo! mal<tld/>a&jcirc;o
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>!
+      </ekz>
+      <ekz>
+        la parolanto ne kapablas distingi mal<tld/>a&jcirc;on de <tld/>a&jcirc;o
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li rapide eksciti&gcirc;as pro mal<tld/>a&jcirc;oj
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>.
+      </ekz>
     </dif> 
+    <ref tip="sin" cel="bagate.0o">bagatelo</ref>
   </snc> 
   <trdgrp lng="be"> 
     <trd>&c_d;&c_r;&c_o;&c_b;&c_ja;&c_z;&c_mol;</trd>, 
@@ -378,6 +580,14 @@
     &c_p;&c_u;&c_s;&c_mol;&c_c;&c_ja;&c_k;&c_o;&c_v;&c_ib;&c_n;&c_a; 
     </trd> 
   </trdgrp> 
+  <trdgrp lng="de">
+    <trd>Nebens&auml;chlichkeit</trd>,
+    <trd>Bagatelle</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>trifle</trd>,
+    <trd>peanut</trd>
+  </trdgrp>
   <trdgrp lng="fr"> 
     <trd>bagatelle</trd>, 
     <trd>broutille</trd> 
@@ -413,8 +623,14 @@
     <dif>
       Igi malpli <tld/>a, rigardi, prezenti kiel ne tiom <tld/>an:
       <ekz>
-        La domvendisto, iom embarasita, provas mal<tld/>igi la 
-        fenomenon: &leftquot;Vi sciu, oni a&ubreve;das tiun bruon nur la unuajn
+        tio ne estas menciita por mal<tld/>igi <klr>[la]</klr> signifon
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la domvendisto, iom embarasita, provas mal<tld/>igi la 
+        fenomenon: &leftquot;vi sciu, oni a&ubreve;das tiun bruon nur la unuajn
         du a&ubreve; tri tagojn&rightquot;
         <fnt>
           <aut>-</aut>,
@@ -422,16 +638,39 @@
           <lok>
          <url ref="http://miresperanto.narod.ru/humuro/anekdotoj-7.htm">
           [Anekdotoj kaj &scirc;ercoj 7, vidita en 2008-09]</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li finis per supera gesto de mal<tld/>igo
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la teknologia evoluo mal<tld/>igas distancojn kaj oficialajn strukturojn
+        <fnt>
+          <bib>LOdE</bib>
+          <vrk>Reage al la eseo de Walter &Zdot;elazny en LOdE. 2000: 2&ndash;5</vrk>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="bagate.0igi">bagateligi</ref>,
+      <ref cel="redukt.0i.FIG">redukti<sncref/></ref>,
       <ref cel="relati.0igi">relativigi</ref>,
       <ref cel="taks.sub0i">subtaksi</ref>
     </refgrp>
   </snc>
   <trd lng="cs">znev&aacute;&zcaron;it</trd>
+  <trdgrp lng="de">
+    <trd>herunterspielen</trd>,
+    <trd>kleinreden</trd>,
+    <trd>abwinken</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>downplay </trd>,
+    <trd>understate</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>minimiser</trd>,
     <trd>minorer<klr> (l'importance de)</klr></trd>
@@ -456,11 +695,34 @@
       <ekz> 
         malpli<tld/>igi sian kulpon per pento. 
       </ekz> 
+      <ekz>
+        <klr>[la]</klr> ministro <klr>[&#x2026;]</klr> en masklisma maniero ne hezitis
+        malpli<tld/>igi la okaza&jcirc;on deklarante ke &leftquot;nu, neniu mortis&rightquot;
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Devoji&gcirc;inta maldekstro</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas malpermes<klr>[ita]</klr> vidigi a&ubreve; porti religiajn signojn
+        ene de registaraj konstrua&jcirc;oj a&ubreve; lokoj, kie religio estas periferia a&ubreve;
+        malpli<tld/>igita en la publika sfero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="https://www.monato.be/2013/010834.php">&Ccirc;u forvi&scirc;i la kredon por esti
+          egala?</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif> 
   </snc> 
   <trd lng="be">&c_p;&c_r;&c_y;&c_m;&c_ja;&c_n;&c_sh;&c_a;&c_c;&c_mol;
   </trd> 
-  <trd lng="de">untertreiben</trd> 
+  <trdgrp lng="de">
+    <trd>untertreiben</trd>,
+    <trd>herunterspielen</trd>
+  </trdgrp> 
   <trd lng="fr">minimiser<klr tip="ind"> (rendre moins 
   important)</klr></trd> 
   <trdgrp lng="hu"> 
@@ -490,20 +752,44 @@
   <snc mrk="grav.vivo0a.KOMUNE"> 
     <dif> 
       Tre <tld/>a en ies vivo, por ies da&ubreve;ra vivado: 
+      <ekz>
+        la estraro de la banko ne konsideras la aferon viv<tld/>a, e&ccirc; se la banko pro
+        tia malzorgemo devos &ccirc;esigi sian funkcion
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li finfine laboris <klr>[&#x2026;]</klr> por trovi en tiu laboro iun kontentigan kaj
+        vivo<tld/>an
+        <fnt>
+          <bib>ViV</bib>
+        </fnt>;
+      </ekz>
       <ekz> 
         li verkis bonegajn artikolojn pri la viv<tld/>aj problemoj de 
         la terlaboristoj 
         <fnt> 
         <aut>I. Lo-Johansson, trad. F. Szil&aacute;gyi</aut>, 
         <vrk>La studento kaj la Terproletido</vrk>, 
-        <lok>en: Vespera ru&gcirc;o anoncas ventegon, 1950</lok> 
+        <lok>Vespera ru&gcirc;o anoncas ventegon, 1950</lok> 
         </fnt>. 
       </ekz> 
     </dif> 
     <refgrp tip="vid"> 
       <ref cel="esenc.0a">esenca</ref> 
     </refgrp> 
+    <trdgrp lng="de">
+      <trd>lebenswichtig</trd>,
+      <trd>&uuml;berlebenswichtig</trd>,
+      <trd>lebensnotwendig</trd>,
+      <trd>existentiell</trd>
+    </trdgrp>
   </snc> 
+  <trdgrp lng="en">
+    <trd>existential</trd>,
+    <trd>essential</trd>
+  </trdgrp>
   <trdgrp lng="fr"> 
     <trd>essentiel</trd>, 
     <trd>existenciel</trd>, 
@@ -516,9 +802,21 @@
 </drv> 
 </art> 
 <!-- 
-$Log: grav.xml,v $
-Revision 1.36  2019/08/28 01:10:22  revo
-Sam Penter: +trd tp
+$Log$
+versio 1.41 2021/04/09 20:51:32
+Wolfram Diestel: +trd en
+
+versio 1.40 2021/04/09 18:02:40
+Wolfram Diestel: +trd en
+
+versio 1.39 2021/04/09 14:52:56
+Wolfram Diestel: +kor. ref
+
+versio 1.38 2021/04/05 07:50:01
+Wolfram Diestel: ~i..viv~a: ekz-oj, trd de, ref-oj
+
+versio 1.37 2021/04/04 17:33:31
+Wolfram Diestel: ~a, ~e: ekz-oj, ref-oj
 
 Revision 1.35  2017/03/31 08:10:22  revo
 Damien Brucker: +trd fr
@@ -527,17 +825,5 @@ Revision 1.34  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.33  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.32  2015/02/08 21:10:16  revo
-Alain Gerard: eraro en ligilo
-
-Revision 1.31  2011/06/24 23:10:14  revo
-Dominique Pelle: audas -> auxdas, au -> aux
-
-Revision 1.30  2009/02/10 14:18:08  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
-
-Revision 1.29  2008/09/20 07:22:13  revo
 --> 
 </vortaro>

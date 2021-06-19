@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kvanka.xml,v 1.26 2020/01/14 16:10:16 revo Exp $">
+<art mrk="$Id: kvanka.xml,v 1.70 2021/06/19 05:58:45 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>kvankam</rad> <fnt><bib>PV</bib></fnt>
@@ -19,7 +18,7 @@
        <ref tip="vid" cel="spit.0eke">spite al tio ke</ref>:
       <ekz>
         ricevinte de vi leteron internacian kaj kompreninte &gcirc;in, <tld/>
-        li la lingvon ne lernis <klr>[&#8230;]</klr>
+        li la lingvon ne lernis <klr>[&#x2026;]</klr>
         <fnt>
           <bib>DL</bib>
         </fnt>;
@@ -44,12 +43,11 @@
         </fnt>;
       </ekz>
       <ekz>
-        spitante &ccirc;iujn &leftquot;<tld/>ojn&#8221; kaj &leftquot;ne-&ccirc;iamojn&#8221;
+        spitante &ccirc;iujn &leftquot;<tld/>ojn&#x201D; kaj &leftquot;ne-&ccirc;iamojn&#x201D;
         <fnt>
           <bib>Monato</bib>
           <aut>Grigorij Arosev</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008100.html">Grigorij
+          <vrk><url ref="https://www.monato.be/2003/008100.html">Grigorij
           Arosev</url></vrk>
         </fnt>.
       </ekz>
@@ -61,12 +59,21 @@
          ni voja&gcirc;is kune, <tld/> malamikoj.
        </ekz>
     </rim>
+  <trd lng="af">alhoewel</trd>
+  <trd lng="am">&#x1262;&#x1206;&#x1295;&#x121D;</trd>
+  <trd lng="ar">&#x639;&#x644;&#x649; &#x627;&#x644;&#x631;&#x63A;&#x645; &#x645;&#x646;</trd>
+  <trd lng="az">baxmayaraq</trd>
   <trdgrp lng="be">
      <trd>&c_h;&c_o;&c_c;&c_mol;</trd>,
      <trd>&c_h;&c_a;&c_c;&c_ja;</trd>
   </trdgrp>
   <trd lng="bg">&c_v;&c_malmol;&c_p;&c_r;&c_je;&c_k;&c_i; &c_ch;&c_je;</trd>
+  <trd lng="bn">&#x9AF;&#x9A6;&#x9BF;&#x993;</trd>
+  <trd lng="bo">&#xF61;&#xF72;&#xF53;&#xF0B;&#xF53;&#xF60;&#xF72;&#xF0B;</trd>
+  <trd lng="bs">iako</trd>
+  <trd lng="co">sippuru</trd>
   <trd lng="cs">a&ccaron;koliv</trd>
+  <trd lng="da">selv</trd>
   <trdgrp lng="de">
     <trd>obwohl</trd>,
     <trd>obgleich</trd>,
@@ -78,19 +85,41 @@
     <trd>while</trd>
   </trdgrp>
   <trd lng="es">aunque</trd>
+  <trd lng="et">kuigi</trd>
+  <trd lng="eu">nahiz</trd>
   <trd lng="fi">vaikka</trd>
   <trd lng="fr">bien que</trd>
+  <trd lng="fy">lykwols</trd>
+  <trd lng="gl">a&#xED;nda</trd>
+  <trd lng="gu">&#xA9B;&#xAA4;&#xABE;&#xA82;</trd>
+  <trd lng="ha">ko da yake</trd>
+  <trd lng="hi">&#x939;&#x93E;&#x932;&#x93E;&#x902;&#x915;&#x93F;</trd>
+  <trd lng="hr">iako</trd>
   <trdgrp lng="hu">
      <trd>noha</trd>,
      <trd>hab&aacute;r</trd>,
      <trd>j&oacute;llehet</trd>
   </trdgrp>
+  <trd lng="hy">&#x57D;&#x561;&#x56F;&#x561;&#x575;&#x576;</trd>
   <trd lng="io">quankam</trd>
+  <trd lng="is">&#xFE;&#xF3;</trd>
+  <trd lng="ja">&#x3057;&#x304B;&#x3057;</trd>
+  <trd lng="jw">sanadyan</trd>
+  <trd lng="ka">&#x10D7;&#x10E3;&#x10DB;&#x10EA;&#x10D0;</trd>
+  <trd lng="km">&#x1791;&#x17C4;&#x17C7;&#x1794;&#x17B8;&#x1787;&#x17B6;</trd>
+  <trd lng="ko">&#xADF8;&#xB798;&#xB3C4;</trd>
+  <trd lng="lo">&#xEC0;&#xE96;&#xEB4;&#xE87;&#xEC1;&#xEA1;&#xEC8;&#xE99;&#xEA7;&#xEC8;&#xEB2;</trd>
+  <trd lng="ml">&#xD06;&#xD2F;&#xD3E;&#xD32;&#xD41;&#xD02;</trd>
+  <trd lng="mr">&#x924;&#x930;&#x940;</trd>
+  <trd lng="my">&#x101E;&#x1031;&#x102C;&#x103A;&#x101C;&#x100A;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x92F;&#x926;&#x94D;&#x92F;&#x92A;&#x93F;</trd>
   <trdgrp lng="nl">
      <trd>alhoewel</trd>,
      <trd>hoewel</trd>,
      <trd>ofschoon</trd>
   </trdgrp>
+  <trd lng="ny">komabe</trd>
+  <trd lng="pa">&#xA2A;&#xA30;</trd>
   <trdgrp lng="pl">
     <trd>b&aogonek;d&zacute;</trd>,
     <trd>chocia&zdot;</trd>,
@@ -98,6 +127,7 @@
     <trd>jakkolwiek</trd>,
     <trd>wprawdzie</trd>
   </trdgrp> 
+  <trd lng="ps">&#x6A9;&#x647; &#x685;&#x647; &#x647;&#x645;</trd>
   <trdgrp lng="pt">
      <trd>embora <klr tip="amb">(conj.)</klr></trd>,
      <trd>ainda que</trd>,
@@ -110,8 +140,20 @@
   </trdgrp>
   <trd lng="ro">de&scedil;i</trd>
   <trd lng="ru">&c_h;&c_o;&c_t;&c_ja;</trd>
+  <trd lng="sd">&#x62C;&#x64A;&#x62A;&#x648;&#x6BB;&#x64A;&#x6AA;</trd>
+  <trd lng="si">&#xDB1;&#xDB8;&#xDD4;&#xDAD;&#xDCA;</trd>
+  <trd lng="sq">ndon&#xEB;se</trd>
+  <trd lng="st">leha ho le joalo</trd>
   <trd lng="sv">fast&auml;n</trd>
+  <trd lng="ta">&#xB8E;&#xBA9;&#xBBF;&#xBA9;&#xBC1;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC05;&#xC2F;&#xC3F;&#xC24;&#xC47;</trd>
+  <trd lng="th">&#xE41;&#xE21;&#xE49;&#xE27;&#xE48;&#xE32;</trd>
+  <trd lng="tl">bagaman</trd>
+  <trd lng="ur">&#x627;&#x6AF;&#x631;&#x686;&#x6C1;</trd>
+  <trd lng="vi">m&#x1EB7;c d&#xF9;</trd>
   <trd lng="vo">do</trd>
+  <trd lng="yi">&#x5DB;&#x5D0;&#x5B8;&#x5D8;&#x5E9;</trd>
+  <trd lng="zu">noma</trd>
 </drv>
 
 <drv mrk="kvanka.0_tamen">
@@ -123,7 +165,7 @@
       <tld lit="K"/> <klr>(emfaze)</klr>:
       <ekz>
         <tld/> mi havus grandan deziron vin ofte ankora&ubreve; tikli 
-        per la akra tran&ccirc;ilo <klr>[&#8230;]</klr>, tamen malgra&ubreve; &ccirc;io mi 
+        per la akra tran&ccirc;ilo <klr>[&#x2026;]</klr>, tamen malgra&ubreve; &ccirc;io mi 
         volas malligi vian &scirc;nuron kaj <klr>[liberigi vin]</klr>
         <fnt>
           <bib>Fab2</bib>
@@ -156,7 +198,7 @@
 </art>
 <!--
 $Log: kvanka.xml,v $
-Revision 1.26  2020/01/14 16:10:16  revo
+versio 1.26 2020/01/14 17:10:17
 Jeromo Vasxe: ref-oj, memstar ~... tamen por legebleco
 
 Revision 1.25  2019/09/04 05:10:14  revo

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: acid.xml,v 1.47 2019/04/23 12:10:21 revo Exp $">
+<art mrk="$Id: acid.xml,v 1.51 2021/05/29 14:32:02 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>acid</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
@@ -15,8 +14,34 @@
       kiel tiu de vinagro a&ubreve; citrono:
       <ekz>
 	via vino estas nur ia abomena <ind><tld/>a&jcirc;o</ind>
-	<fnt><bib>F</bib>, <lok>ekzercaro, &para; 35</lok></fnt>.
+	<fnt><bib>F</bib>, <lok>ekzercaro, &para; 35</lok></fnt>;
 	<trd lng="fr">piquette</trd>
+      </ekz>
+      <ekz>
+        post dol&ccirc;a vino restas <tld/>a vinagro
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <klr>[&#x2026;]</klr> eltrinkis <tld/>an bieron
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvaza&ubreve; <tld/>a&jcirc;o en la lakto
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>eco de tiu &ccirc;i vinagro estas tre malforta
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 35</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_k;&c_ib;&c_s;&c_l;&c_y;</trd>
@@ -31,8 +56,8 @@
       <trd>savany&uacute;</trd>
     </trdgrp>
     <trd lng="id">asam</trd>
-    <trd lng="ja">&#37240;&#12387;&#12401;&#12356;
-    [<ind>&#12377;&#12387;&#12401;&#12356;</ind>]</trd>
+    <trd lng="ja">&#x9178;&#x3063;&#x3071;&#x3044;
+    [<ind>&#x3059;&#x3063;&#x3071;&#x3044;</ind>]</trd>
     <trd lng="pl">kwa&sacute;ny</trd>
     <trd lng="ro">acid</trd>
     <trd lng="ru">&c_k;&c_i;&c_s;&c_l;&c_y;&c_j;</trd>
@@ -53,6 +78,12 @@
 	<fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
+        la duone <tld/>a, duone apatia mieno montris homon &hcirc;ronike malsanan
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
 	<tld/>a tono.
       </ekz>
     </dif>
@@ -66,8 +97,8 @@
       <trd>savany&uacute;</trd>,
       <trd>mar&oacute;</trd>
     </trdgrp>
-    <trd lng="ja">&#36763;&#36771;&#12394;
-    [<ind>&#12375;&#12435;&#12425;&#12388;&#12394;</ind>]</trd>
+    <trd lng="ja">&#x8F9B;&#x8FA3;&#x306A;
+    [<ind>&#x3057;&#x3093;&#x3089;&#x3064;&#x306A;</ind>]</trd>
     <trdgrp lng="pl">
       <trd>kwa&sacute;ny</trd>,
       <trd>uszczypliwy</trd>
@@ -84,19 +115,21 @@
       <trd>caustique</trd>
       <trd>acrimonieux</trd>
     </trdgrp>
-    <trd lng="th">&#3649;&#3626;&#3610;</trd>
+    <trd lng="th">&#xE41;&#xE2A;&#xE1A;</trd>
   </snc>
   <trd lng="bg">&c_k;&c_i;&c_s;&c_je;&c_l;</trd>
+  <trd lng="bo">&#xF66;&#xF90;&#xFB1;&#xF74;&#xF62;&#xF0B;&#xF58;&#xF7C;&#xF0B;</trd>
   <trd lng="ca">&agrave;cid<klr> (adj.)</klr></trd>
   <trd lng="cs">kysel&yacute;</trd>
   <trd lng="de">sauer</trd>
   <trd lng="en">acerbic</trd>
   <trd lng="fa">&a_t;&a_r;&a_sh;</trd>
+  <trd lng="he">&#x5D7;&#x5D5;&#x5BC;&#x5DE;&#x5E6;&#x5B8;&#x5D4;</trd>
   <trd lng="it">acido<klr> (agg.)</klr></trd>
   <trd lng="nl">zuur</trd>
   <trd lng="pt">&aacute;cido</trd>
   <trd lng="sk">kysl&yacute;</trd>
-<trd lng="th">&#3648;&#3611;&#3619;&#3637;&#3657;&#3618;&#3623;</trd>
+<trd lng="th">&#xE40;&#xE1B;&#xE23;&#xE35;&#xE49;&#xE22;&#xE27;</trd>
 </drv>
 
 <drv mrk="acid.0o">
@@ -105,17 +138,30 @@
     <uzo tip="fak">KEM</uzo>
     <dif>
       Kombina&jcirc;o de hidrogeno kun acida resta&jcirc;o
-      (SO<sub>4</sub><sup>2-</sup>,
-      NO<sub>3</sub><sup>-</sup>, Cl<sup>-</sup> kaj aliaj),
+      (<frm>SO<sub>4</sub><sup>2-</sup></frm>,
+      <frm>NO<sub>3</sub><sup>-</sup></frm>, <frm>Cl<sup>-</sup></frm> kaj aliaj),
       kiu reagas kun metaloj kaj bazoj, formante
       <ref cel="sal.0o">salojn</ref>, kaj ru&gcirc;igas lakmuson:
       <ekz>
+        bora <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
 	en tiuj &ccirc;i boteletoj sin trovas diversaj <tld/>oj:
 	vinagro, sulfur<tld/>o, azot<tld/>o kaj aliaj
-	<fnt><bib>F</bib>, <lok>ekzercaro, &para; 35</lok></fnt>.
+	<fnt><bib>F</bib>, <lok>ekzercaro, &para; 35</lok></fnt>;
+      </ekz>
+      <ekz>
+        citrono estas frukto <klr>[&#x2026;]</klr> <tld/>hava
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Abocolibro</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="th">&#3585;&#3619;&#3604;</trd>
+    <trd lng="th">&#xE01;&#xE23;&#xE14;</trd>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_s;&c_l;&c_a;&c_t;&c_a;</trd>
   <trd lng="bg">&c_k;&c_i;&c_s;&c_je;&c_l;&c_i;&c_n;&c_a;</trd>
@@ -130,10 +176,11 @@
   <trd lng="es">&aacute;cido</trd>
   <trd lng="fa">&a_A;&a_s;&f_y;&a_d;</trd>
   <trd lng="fr">acide<klr tip="ind"> (subst.)</klr></trd>
+  <trd lng="he">&#x5D7;&#x5D5;&#x5BC;&#x5DE;&#x5E6;&#x5B8;&#x5D4;</trd>
   <trd lng="hu">sav</trd>
   <trd lng="id"><ind>asam</ind> (senyawa)</trd>
   <trd lng="it">acido<klr> (sost.)</klr></trd>
-  <trd lng="ja">&#37240; [<ind>&#12373;&#12435;</ind>]</trd>
+  <trd lng="ja">&#x9178; [<ind>&#x3055;&#x3093;</ind>]</trd>
   <trd lng="nl">zuur</trd>
   <trd lng="pl">kwas</trd>
   <trd lng="pt">&aacute;cido</trd>
@@ -145,12 +192,12 @@
 
 <drv mrk="acid.amin0o">
   <kap>amin<tld/>o, <var><kap>amina <tld/>o</kap></var></kap>
-  <snc mrk="acid.amina0o.FIZL">
+  <snc mrk="acid.amin0o.FIZL">
     <uzo tip="fak">FIZL</uzo>
     <dif>
       Eta <ref tip="super" cel="moleku.0o.KEM">molekulo</ref> 
-      konsistanta el acido (-COOH) kaj amino (-NH<sub>2</sub> a&ubreve;
-      -NH-), 
+      konsistanta el acido (<frm>-COOH</frm>) kaj amino (<frm>-NH<sub>2</sub></frm> a&ubreve;
+      <frm>-NH-</frm>), 
       baza elemento de <ref tip="malprt" cel="protein.0o.FIZL">proteino</ref>:
       <ekz>
         la proteinaj fibroj entenataj de la silka&jcirc;oj havas aminajn
@@ -234,7 +281,7 @@
       <ref tip="super" cel="acid.nukle0o.GNT">Nukleacido</ref>
       enhavanta la plenajn genajn informojn de &ccirc;elo:
       <ekz>
-        la desoksiribonuklea <tld/>o <klr>...</klr> estas la portanto
+        la desoksiribonuklea <tld/>o <klr>[&#x2026;]</klr> estas la portanto
         de genetika informo
         <fnt>
           <aut>D. Benoit-Brow&aelig;ys, trad. J.-M. Cash</aut>,
@@ -244,7 +291,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la strukturo de la DNA estis <klr>...</klr> malkovrita en 1953
+        la strukturo de la DNA estis <klr>[&#x2026;]</klr> malkovrita en 1953
         <fnt>
           <bib>Viki</bib>,
           <lok><url ref="https://eo.wikipedia.org/wiki/DNA">
@@ -301,6 +348,35 @@
   </trdgrp>
 </drv>
 
+<drv mrk="acid.karbon0o">
+  <kap>
+    karbon<tld/>o
+  </kap>
+  <uzo tip="fak">KEM</uzo>
+  <snc>
+    <dif>
+      (<frm>H<sub>2</sub>CO<sub>3</sub></frm>) Acido, 
+      reaga produkto de karbondioksido kun akvo:
+      <ekz>
+        &scirc;a&ubreve;mvino kun aldonita karbon<tld/>o
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/%C5%9Ca%C5%ADmvino">&Scirc;a&ubreve;mvino</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        karbon<tld/>-enhavaj trinka&jcirc;oj kiel limonado kaj biero
+        <fnt>
+          <vrk><url ref="https://esperantaretradio.blogspot.com/2020/05/trinkboteloj-el-sukero.html#!">Trinkboteloj
+          el sukero | Esperanta Retradio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Kohlens&auml;ure</trd>
+  <trd lng="en">carbonic acid</trd>
+  <trd lng="fr">acide carbonique</trd>
+</drv>
+
 <drv mrk="acid.nukle0o">
   <kap>nukle<tld/>o,
   <var><kap>nuklea <tld/>o</kap></var>,
@@ -312,7 +388,7 @@
       <ref tip="prt" cel="nukleotid.0o.GNT">nukleotidoj</ref>,
       trovebla en la &ccirc;eloj de &ccirc;iuj vivuloj:
       <ekz>
-        Asimov laboris kiel profesoro de bio&hcirc;emio <klr>...</klr>, 
+        <nom>Asimov</nom> laboris kiel profesoro de bio&hcirc;emio <klr>[&#x2026;]</klr>, 
         esplorante pri nukle<tld/>o
         <fnt>
           <bib>Viki</bib>,
@@ -408,9 +484,12 @@
 </drv>
 </art>
 <!--
-$Log: acid.xml,v $
-Revision 1.47  2019/04/23 12:10:21  revo
-Warut Bunprasert: aldono de tajaj tradukoj
+$Log$
+versio 1.50 2021/05/10 19:06:46
+Wolfram Diestel: kor. snc@mrk
+
+versio 1.48 2020/11/22 20:32:28
+Wolfram Diestel: +ekz-oj, +karbon~o
 
 Revision 1.46  2017/07/30 13:10:13  revo
 Vito Redsky: +trd pl +trd ro
@@ -428,8 +507,5 @@ Revision 1.42  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.41  2015/06/28 09:53:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.40  2015/04/13 19:10:46  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: adici.xml,v 1.49 2020/02/16 15:10:14 revo Exp $">
+<art mrk="$Id: adici.xml,v 1.51 2021/02/28 09:26:17 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>adici</rad>/i
@@ -24,13 +23,13 @@
         <frm am="x">x</frm> kaj <frm am="y">y</frm>;
       </ekz>
       <ekz>
-        li <klr>[&#8230;]</klr> duonvo&ccirc;e kaj nekompreneble legas la tie notitajn prezojn kaj
+        li <klr>[&#x2026;]</klr> duonvo&ccirc;e kaj nekompreneble legas la tie
+        notitajn prezojn kaj
         enkape <tld/>as
         <fnt>
           <bib>Monato</bib>
           <aut>Bernhard Pabst</aut>
-          <vrk><url ref="https://www.monato.be/2008/009376.php"
-              >Inter libroj posttagmeze</url></vrk>
+          <vrk><url ref="https://www.monato.be/2008/009376.php">Inter libroj posttagmeze</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -38,29 +37,28 @@
         al la diferenco <tld/>ante la aktualan jaron
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006852.html"
-              >Reago: &Ccirc;u vere kristana erao?</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006852.html">Reago: &Ccirc;u vere kristana erao?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        kiam oni <tld/>as &ccirc;iujn hava&jcirc;ojn de Belgio en eksterlando kaj deprenas &ccirc;iujn
+        kiam oni <tld/>as &ccirc;iujn hava&jcirc;ojn de Belgio en eksterlando kaj
+        deprenas &ccirc;iujn
         eksterlandajn &scirc;uldojn oni konservas por 2009 pluson de 45 %
         <fnt>
           <bib>Monato</bib>
           <aut>Ivo Durwael</aut>
-          <vrk><url ref="https://www.monato.be/2011/010292.php"
-              >Krizo de la e&ubreve;ro</url></vrk>
+          <vrk><url ref="https://www.monato.be/2011/010292.php">Krizo de la e&ubreve;ro</url></vrk>
           <lok>2011</lok>
         </fnt>;
       </ekz>
       <ekz>
-        oni <tld/>as &ccirc;iujn nukleonojn &ndash; do protonojn kaj ne&ubreve;tronojn &ndash; kaj parolas pri la
+        oni <tld/>as &ccirc;iujn nukleonojn &ndash; do protonojn kaj ne&ubreve;tronojn &ndash;
+        kaj parolas pri la
         izotopoj oksigeno-16, oksigeno-17 kaj oksigeno-18
         <fnt>
           <bib>Monato</bib>
           <aut>Pejno Simono</aut>
-          <vrk><url ref="https://www.monato.be/2011/010370.php"
-              >Moderna minaco: radioaktiveco</url></vrk>
+          <vrk><url ref="https://www.monato.be/2011/010370.php">Moderna minaco: radioaktiveco</url></vrk>
           <lok>2011</lok>
         </fnt>.
       </ekz>
@@ -84,15 +82,16 @@
       La priskriboj per <ctl>aldoni</ctl>, <ctl>pliigi</ctl> ktp
       estas malta&ubreve;gaj, ili priskribas ne la matematikan operacion
       <frm am="x+y">x+y</frm>, sed komputadan (algoritman) operacion
-      <frm am='x&nbsp;"+="&nbsp;y'>x&nbsp;+=&nbsp;y</frm>, alivorte 
+      <frm am="x&nbsp;&quot;+=&quot;&nbsp;y">x&nbsp;+=&nbsp;y</frm>, alivorte 
       <frm am="x=x+y">x&nbsp;= x+y</frm>.
-      La matematika operacio <frm am="x+y+z">x+y+z</frm> neniel &scirc;an&gcirc;as la valorojn
+      La matematika operacio <frm am="x+y+z">x+y+z</frm> neniel &scirc;an&gcirc;as
+      la valorojn
       de <frm am="x,y,z">x, y, z</frm>; dum en komputado oni ofte uzas
       helpan
       <ref cel="regxistr.0o">re&gcirc;istron</ref> (ekz-e tiun de la
       ekrano de kalkulilo), kies valoron oni jes
       <ctl>pliigas</ctl>, al kiu oni <ctl>aldonas</ctl> la
-      <tld/>atojn: <frm am='S=x;S"+="y;S"+="z'>S=x; S+=y;
+      <tld/>atojn: <frm am="S=x;S&quot;+=&quot;y;S&quot;+=&quot;z">S=x; S+=y;
       S+=z</frm>.
       Tiu operacio <em>+=</em> evidente ne estas komuta, &gcirc;i estas
       alio ol <tld/>o (kvankam <tld/>o estas &gcirc;ia parto).
@@ -118,10 +117,11 @@
     <trd>additionner</trd>,
     <trd>ajouter</trd>
   </trdgrp>
+  <trd lng="he">adicii</trd>
   <trd lng="hu">&ouml;sszead</trd>
   <trdgrp lng="id">
-    <trd>[<ind>jumlah</ind>] menjumlahkan</trd>,
-    <trd>[<ind>tambah</ind>] menambahkan</trd>
+    <trd>men<ind>jumlah</ind>kan</trd>,
+    <trd><baz>tambah</baz> menambahkan</trd>
   </trdgrp>
   <trd lng="nl">optellen</trd>
   <trd lng="pl">doda&cacute;</trd>
@@ -158,20 +158,20 @@
         kvitanci plej pezan <tld/>on
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko"
-              >La Stranga Butiko</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
           <lok>Al Paul Verlaine</lok>
         </fnt>;
       </ekz>
       <ekz>
-        malpermesita estas anka&ubreve; <tld/>o: do &ccirc;iufoje, kiam ludanto gajnas karton, li
-        neeviteble aldonos al sia propra gajnkartaro du kartojn, nenial tri a&ubreve; kvar
+        malpermesita estas anka&ubreve; <tld/>o: do &ccirc;iufoje, kiam ludanto
+        gajnas karton, li
+        neeviteble aldonos al sia propra gajnkartaro du kartojn, nenial
+        tri a&ubreve; kvar
         kiel en aliaj ludoj
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="https://www.monato.be/2014/011351.php"
-              >Trufludo</url></vrk>
+          <vrk><url ref="https://www.monato.be/2014/011351.php">Trufludo</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
@@ -199,8 +199,9 @@
   <trd lng="en">addition</trd>
   <trd lng="es">suma</trd>
   <trd lng="fr">addition</trd>
+  <trd lng="he">&#x5D7;&#x5D9;&#x5D1;&#x5D5;&#x5E8;</trd>
   <trd lng="hu">&ouml;sszead&aacute;s</trd>
-  <trd lng="id">[<ind>jumlah</ind>] penjumlahan</trd>
+  <trd lng="id">pen<ind>jumlah</ind>an</trd>
   <trd lng="it">addizione</trd>
   <trd lng="nl">optelling</trd>
   <trd lng="pl">dodawanie</trd>
@@ -249,14 +250,12 @@
       ktp:
       <ekz>
         pro tio, ke &ccirc;iuj <frm am="U">U</frm> <tld/>atoj pozitivas
-        <klr>[&#8230;]</klr> pro <frm am="S le 1">S&#8804;1</frm> la unua <tld/>ato
-        neniam povas negativi&gcirc;i <klr>[&#8230;]</klr>
+        <klr>[&#x2026;]</klr> pro <frm am="S le 1">S&#x2264;1</frm> la unua <tld/>ato
+        neniam povas negativi&gcirc;i <klr>[&#x2026;]</klr>
         <fnt>
           <aut>Frank kaj Maksimova</aut>:
           <vrk>nformationstheorie.
-            <url
- ref="http://www2.cs.upb.de/extern/fb/2/Kyb.Paed/KYP1-A/3.2%20Mittlere%20Codewortl.%20fertig.pdf"
-              >p. 166</url></vrk>
+            <url ref="http://www2.cs.upb.de/extern/fb/2/Kyb.Paed/KYP1-A/3.2%20Mittlere%20Codewortl.%20fertig.pdf">p. 166</url></vrk>
         </fnt>.
       </ekz>
       <aut>Sergio Pokrovskij</aut>
@@ -293,23 +292,21 @@
   <uzo tip="fak">MAT</uzo>
   <snc mrk="adici.matrica0o.MAT">
     <dif>
-      <klr>(de du <ref
-      cel="matric.n_p0o">(n,p)-matricoj</ref>)</klr>
+      <klr>(de du <ref cel="matric.n_p0o">(n,p)-matricoj</ref>)</klr>
       <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kiu
       konsistas en poelementa <tld/>o:
       <ekz>
         la &gcirc;enerala elemento <frm am="c_(ij)">c<sub>ij</sub></frm>
-        de la rezulto de <tld/>o de <frm am="A">A</frm> al <frm
-        am="B">B</frm> estas
+        de la rezulto de <tld/>o de <frm am="A">A</frm> al <frm am="B">B</frm> estas
         <frm am="a_(ij)+b_(ij)">a<sub>ij</sub>+b<sub>ij</sub></frm>;
       </ekz>
       <ekz>
-        la operacioj de matrica <tld/>o kaj matrica multipliko estas aparte simplaj por
+        la operacioj de matrica <tld/>o kaj matrica multipliko estas
+        aparte simplaj por
         diagonalaj matricoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=238382"
-              >Diagonala matrico</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=238382">Diagonala matrico</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -322,7 +319,7 @@
   <trd lng="en">matrix <ind>addition</ind></trd>
   <trd lng="fr">addition matricielle</trd>
   <trd lng="hu">m&aacute;trix&ouml;sszead&aacute;s</trd>
-  <trd lng="id">[<ind>jumlah</ind>] penjumlahan matriks</trd>
+  <trd lng="id">pen<ind>jumlah</ind>an matriks</trd>
   <trd lng="pl">dodawanie macierzy</trd>
   <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_m;&c_a;&c_t;&c_r;&c_i;&c_c;</trd>
   <trd lng="sk">s&ccaron;&iacute;tanie mat&iacute;c</trd>
@@ -340,8 +337,7 @@
       <ekz>
         la &gcirc;enerala termo <frm am="bb S_n"><g>S</g><sub>n</sub></frm>
         de la rezulto de <tld/>o de <frm am="bb P"><g>P</g></frm>
-        al <frm am="bb Q"><g>Q</g></frm> estas <frm am="bb P_n+bb
-        Q_n"><g>P</g><sub>n</sub>+<g>Q</g><sub>n</sub></frm>.
+        al <frm am="bb Q"><g>Q</g></frm> estas <frm am="bb P_n+bb         Q_n"><g>P</g><sub>n</sub>+<g>Q</g><sub>n</sub></frm>.
       </ekz>
     </dif>
   </snc>
@@ -353,7 +349,7 @@
   <trd lng="en">polynomial <ind>addition</ind></trd>
   <trd lng="fr">addition polynomiale</trd>
   <trd lng="hu">polin&oacute;m-&ouml;sszead&aacute;s</trd>
-  <trd lng="id">[<ind>jumlah</ind>] penjumlahan polinom</trd>
+  <trd lng="id">pen<ind>jumlah</ind>an polinom</trd>
   <trd lng="pl">dodawanie wielomian&oacute;w</trd>
   <trd lng="pt">adi&ccedil;&atilde;o polinomial</trd>
   <trd lng="ru">&c_s;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;</trd>
@@ -362,61 +358,9 @@
 </drv>
 </art>
   <!--
-  $Log: adici.xml,v $
-  Revision 1.49  2020/02/16 15:10:14  revo
-  Wolfram Diestel: +citajxoj
+  $Log$
+versio 1.50 2020/05/03 04:10:29
+Eko Nur Syah Hidayat: korekteto
 
-  Revision 1.48  2020/02/15 17:10:33  revo
-  Wolfram Diestel: formuloj per am
-
-  Revision 1.47  2020/02/13 13:10:19  revo
-  Wolfram Diestel: redakto: formulo per atributo am
-
-  Revision 1.46  2020/02/11 19:10:26  revo
-  Wolfram Diestel: formuloj per AsciiMath
-
-  Revision 1.45  2017/04/01 18:10:12  revo
-  Lars Raarup Knudsen: dana traduko
-
-  Revision 1.44  2015/07/04 08:37:29  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.43  2015/06/28 12:03:35  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.42  2014/11/14 08:10:14  revo
-  Eko Nur Syah Hidayat: +trd id
-
-  Revision 1.41  2011/03/23 07:10:08  revo
-  Larry Gilbert: korekti rompitan ligilon
-
-  Revision 1.40  2011/03/10 05:10:12  revo
-  Sergio Pokrovskij: -tajperaroj
-
-  Revision 1.39  2011/03/07 12:10:08  revo
-  Sergio Pokrovskij: +3 rim-oj
-
-  Revision 1.38  2010/02/26 17:30:19  revo
-  Jozefo Horvath: +trrd hu
-
-  Revision 1.37  2004/12/05 17:32:08  revo
-  Marc Bavant: ~ato: mod rim
-
-  Revision 1.36  2004/07/06 16:34:45  revo
-  Marc Bavant: ~o (en ringo): aldonis mankantajn markojn klr en dif
-
-  Revision 1.35  2003/10/26 17:30:34  revo
-  Marc Bavant: ~o (elementa): mod frm en ekz
-  Revision 1.34  2003/05/18 17:59:49  revo
-  Viliam Bur: +trd sk
-  Revision 1.33  2003/05/12 16:32:53  revo
-  Marc Bavant: ~ato: kor rim
-  Revision 1.32  2003/04/07 16:33:56  revo
-  Marc Bavant: ~ato: mod trd pl
-  Revision 1.31  2003/02/01 17:32:17  revo
-  Marc Bavant: ~ato: mod trd pl
-  Revision 1.30  2003/01/13 17:33:27  revo
-  Marc Bavant: matrica ~o: mod trd de
-  Revision 1.29  2003/01/02 17:43:22  revo
-  -->
+-->
 </vortaro>

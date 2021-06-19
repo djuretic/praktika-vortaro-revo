@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: mort.xml,v 1.73 2019/11/26 08:10:20 revo Exp $">
+<art mrk="$Id: mort.xml,v 1.123 2021/06/19 06:38:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mort</rad>/i 
@@ -25,7 +24,7 @@
           <bib>PrV</bib>
         </fnt>;
       </ekz><ekz>
-        <nom>Sara</nom> <tld/>is <klr>[&#8230;]</klr> kaj <nom>Abraham</nom>
+        <nom>Sara</nom> <tld/>is <klr>[&#x2026;]</klr> kaj <nom>Abraham</nom>
         venis, por funebri pri <nom>Sara</nom> kaj plori pri &scirc;i
         <fnt>
           <bib>MT</bib>
@@ -87,9 +86,9 @@
       <trd>morrer</trd>,
       <trd>falecer</trd>
     </trdgrp>
-    <trd lng="ro">a muri</trd>
+    <trd lng="ro">muri</trd>
     <trd lng="tp">moli</trd>
-    <trd lng="zh">&#27515; [<ind>s&#464;</ind>]</trd>
+    <trd lng="zh">&#x6B7B; [<ind>s&#x1D0;</ind>]</trd>
   </snc>
   <snc mrk="mort.0i.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -102,7 +101,7 @@
         jam <tld/>is la printempo, mia juneco;
       </ekz><ekz>
         tiuj promesoj <klr>[de liberigo]</klr> <tld/>as kaj la energio
-        <klr>[&#8230;]</klr> vapori&gcirc;as
+        <klr>[&#x2026;]</klr> vapori&gcirc;as
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
@@ -118,7 +117,7 @@
           malaperos plu</url></vrk>
         </fnt>?
       </ekz><ekz>
-        latino restas <klr>...</klr>
+        latino restas <klr>[&#x2026;]</klr>
         <ind><tld/>inta lingvo</ind>, tial ke &gcirc;i
         ne estas uzata en la praktiko
         <trd lng="de">tote Sprache</trd>
@@ -150,39 +149,85 @@
       <trd>acabar</trd>,
       <trd>expirar</trd>
     </trdgrp>
-    <trd lng="zh">&#20129; [<ind>w&aacute;ng</ind>]</trd>
+    <trd lng="zh">&#x4EA1; [<ind>w&aacute;ng</ind>]</trd>
   </snc>
+  <trd lng="af">sterf</trd>
+  <trd lng="am">&#x1218;&#x121E;&#x1275;</trd>
+  <trd lng="ar">&a_m;&a_A;&#x62A;</trd>
+  <trd lng="az">&#xF6;lm&#x259;k</trd>
+  <trd lng="bn">&#x9AE;&#x9B0;&#x9BE;</trd>
+  <trd lng="bo">&t_-a;&t_cha;&t_gigu;&t_tsheg;</trd>
+  <trd lng="bs">umrijeti</trd>
+  <trd lng="co">mori</trd>
   <trdgrp lng="cs">
-  <trd>dod&yacute;chat</trd>,
-  <trd>dokonat</trd>,
-  <trd>um&iacute;rat</trd>,
-  <trd>um&rcaron;&iacute;t</trd>,
-  <trd>zem&rcaron;&iacute;t</trd>,
-  <trd>zem&rcaron;&iacute;t</trd>
+      <trd>dod&yacute;chat</trd>,
+      <trd>dokonat</trd>,
+      <trd>um&iacute;rat</trd>,
+      <trd>um&rcaron;&iacute;t</trd>,
+      <trd>zem&rcaron;&iacute;t</trd>,
+      <trd>zem&rcaron;&iacute;t</trd>
   </trdgrp>
+  <trd lng="da">d&#xF8;</trd>
   <trd lng="en">die</trd>
   <trd lng="es">morir</trd>
+  <trd lng="et">surra</trd>
+  <trd lng="eu">hiltzen</trd>
   <trd lng="fr">mourir</trd>
+  <trd lng="fy">stjerre</trd>
+  <trd lng="gl">morrer</trd>
+  <trd lng="gu">&#xAAE;&#xAC3;&#xAA4;&#xACD;&#xAAF;&#xAC1; &#xAAA;&#xABE;&#xAAE;&#xAC7;
+  &#xA9B;&#xAC7;</trd>
+  <trd lng="ha">mutu</trd>
+  <trd lng="hi">&#x92E;&#x930;&#x928;&#x93E;</trd>
+  <trd lng="hr">umrijeti</trd>
+  <trd lng="hy">&#x574;&#x565;&#x57C;&#x576;&#x565;&#x56C;</trd>
   <trdgrp lng="id">
       <trd>mati</trd>,
       <trd>[<ind>tinggal</ind>] meninggal (dunia)</trd>
-    </trdgrp>
+  </trdgrp>
+  <trd lng="is">deyja</trd>
   <trdgrp lng="it">
       <trd>morire</trd>, 
-      <trd>defungere</trd>, 
-      <trd>decedere</trd>, <trd>trapassare</trd>
-    </trdgrp>
-  <trd lng="nl">sterven</trd>
-  <trd lng="pl">umrze&cacute;</trd>
-  <trd lng="ro">a muri</trd>
-  <trd lng="ru">&c_u;&c_m;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>
-  <trdgrp lng="sk">
-  <trd>skona&tcaron;</trd>,
-  <trd>umiera&tcaron;</trd>,
-  <trd>zomrie&tcaron;</trd>
+      <trd>defungere</trd>,
+      <trd>decedere</trd>,
+      <trd>trapassare</trd>
   </trdgrp>
+  <trd lng="ja">&#x6B7B;&#x306C;</trd>
+  <trd lng="jw">mati</trd>
+  <trd lng="ka">&#x10D8;&#x10E6;&#x10E3;&#x10DE;&#x10D4;&#x10D1;&#x10D0;</trd>
+  <trd lng="km">&#x179F;&#x17D2;&#x179B;&#x17B6;&#x1794;&#x17CB;</trd>
+  <trd lng="ko">&#xC8FD;&#xB2E4;</trd>
+  <trd lng="lo">&#xEC0;&#xEAA;&#xE8D;&#xE8A;&#xEB5;&#xEA7;&#xEB4;&#xE94;</trd>
+  <trd lng="ml">&#xD2E;&#xD30;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x92E;&#x930;&#x924;&#x93E;&#x924;</trd>
+  <trd lng="my">&#x101E;&#x1031;&#x1006;&#x102F;&#x1036;&#x1038;</trd>
+  <trd lng="ne">&#x92E;&#x930;&#x94D;&#x928;</trd>
+  <trd lng="nl">sterven</trd>
+  <trd lng="ny">afe</trd>
+  <trd lng="pa">&#xA2E;&#xA30;</trd>
+  <trd lng="pl">umrze&cacute;</trd>
+  <trd lng="ps">&a_m;&a_r;&#x64A;</trd>
+  <trd lng="ro">muri</trd>
+  <trd lng="ru">&c_u;&c_m;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>
+  <trd lng="sd">&a_m;&a_r;&#x6BB;</trd>
+  <trd lng="si">&#xDB8;&#xDD2;&#xDBA;</trd>
+  <trdgrp lng="sk">
+      <trd>skona&tcaron;</trd>,
+      <trd>umiera&tcaron;</trd>,
+      <trd>zomrie&tcaron;</trd>
+  </trdgrp>
+  <trd lng="sq">vdes</trd>
+  <trd lng="st">shoa</trd>
   <trd lng="sv">d&ouml;</trd>
+  <trd lng="ta">&#xB87;&#xBB1;&#xB95;&#xBCD;&#xB95;</trd>
+  <trd lng="te">&#xC1A;&#xC28;&#xC3F;&#xC2A;&#xC4B;&#xC2F;&#xC47;</trd>
+  <trd lng="th">&#xE15;&#xE32;&#xE22;</trd>
+  <trd lng="tl">mamatay</trd>
   <trd lng="tp">moli</trd>
+  <trd lng="ur">&a_m;&a_r;</trd>
+  <trd lng="vi">ch&#x1EBF;t</trd>
+  <trd lng="yi">&#x5E9;&#x5D8;&#x5D0;&#x5B7;&#x5E8;&#x5D1;&#x5DF;</trd>
+  <trd lng="zu">fa</trd>
 </drv>
 
 <drv mrk="mort.0a">
@@ -214,8 +259,7 @@
           Jesuo, Maria, Josefo, prizorgu min en la
           <ind><tld/>a horo</ind>
           <fnt>
-            <vrk><url
-            ref="http://home.t-online.de/home/b.eichkorn/ADORU01.htm">Katolika
+            <vrk><url ref="http://home.t-online.de/home/b.eichkorn/ADORU01.htm">Katolika
             pre&gcirc;aro</url></vrk>,
             <lok>1975</lok>
           </fnt>;
@@ -495,8 +539,7 @@
           <fnt>
             <aut>J. C. Wells</aut>:
             <vrk>Supersignoj, trasignoj kaj subsignoj</vrk>.
-            <lok><url
-            ref="http://www.uea.org/cgi/m.cgi?m=ghu;d=kongresoj/1996/supersignoj.html">Internacia
+            <lok><url ref="http://www.uea.org/cgi/m.cgi?m=ghu;d=kongresoj/1996/supersignoj.html">Internacia
             Kongresa Universitato, Prago 1996 07
                 26</url>
             </lok>
@@ -544,7 +587,7 @@
     &leftquot;<ref cel="mort.0a.malviva"><tld/>a<sncref/></ref>&rightquot;
     povis esti&gcirc;i kiel eraro de latinidlingvaj komencantoj, pro
     la supra&jcirc;a simileco de la franca
-    <ctl>Mer <em>Morte</em></ctl> &#8594; <ctl><tld lit="M"/>a
+    <ctl>Mer <em>Morte</em></ctl> &#x2192; <ctl><tld lit="M"/>a
     Maro</ctl>
     (sen rimarki ke en la zamenhofa Esperanto tio egalas la francan
     <ctl>Mer <em>Mortelle</em></ctl>). Tiun eraron tamen apogis kaj
@@ -562,6 +605,10 @@
   <trd>smrteln&yacute;</trd>,
   <trd>t&yacute;kaj&iacute;c&iacute; se smrti</trd>,
   <trd>zp&uring;sobuj&iacute;c&iacute; smrt</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>mortal</trd>,
+    <trd>mort</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>smrte&lcaron;n&yacute;</trd>,
@@ -585,7 +632,6 @@
         </fnt>;
       </ekz><ekz>
         oni diras, ke se homo komencas rememori sian tutan travivita&jcirc;on,
-        
         tio &ccirc;i estas signo de lia proksima <tld/>o
         <fnt>
           <bib>FK</bib>
@@ -610,9 +656,8 @@
         rompi&gcirc;is la nutro&ccirc;eno kaj estas minacataj fi&scirc;nutraj specioj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006912.html">Poluado: 
-            Cinike cianide &#8208; &ccirc;u respondecas Okcidento?</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006912.html">Poluado: 
+            Cinike cianide &#x2010; &ccirc;u respondecas Okcidento?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -644,7 +689,7 @@
         </fnt>;
       </ekz><ekz>
         la <tld lit="M"/>o estis tie en via lo&gcirc;ejo, mi vidis, ke li 
-        forflugis kun via malgranda infano, li <klr>[&#8230;]</klr>
+        forflugis kun via malgranda infano, li <klr>[&#x2026;]</klr>
         neniam li alportas returne tion, kion li prenis
         <fnt>
           <bib>Fab3</bib>
@@ -692,25 +737,22 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan Macaoidh</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/006815.html">Opinio: 
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006815.html">Opinio: 
             &Ccirc;u nova &scirc;anco por malfortaj lingvoj?</url></vrk>
         </fnt>;
       </ekz><ekz>
         &ccirc;erko simboligas la <tld/>on de la klerigado en A&ubreve;strio
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/007216.html">Universitatoj</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007216.html">Universitatoj</url></vrk>
         </fnt>;
       </ekz><ekz>
-        de tempo al tempo iu deklaras &leftquot;la <tld/>on de romano&#8221; a&ubreve; e&ccirc;,
-        en la epoko de inform-teknologioj, &leftquot;la <tld/>on de libro&#8221;
+        de tempo al tempo iu deklaras &leftquot;la <tld/>on de romano&#x201D; a&ubreve; e&ccirc;,
+        en la epoko de inform-teknologioj, &leftquot;la <tld/>on de libro&#x201D;
         <fnt>
           <bib>Monato</bib>
           <aut>W. H. Simcock</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008033.html">Esti 
+          <vrk><url ref="https://www.monato.be/2003/008033.html">Esti 
             homa kaj literaturema</url></vrk>
         </fnt>.
       </ekz>
@@ -722,30 +764,74 @@
     </trdgrp>
     <trd lng="pt">desaparecimento<klr tip="amb"> (f.)</klr></trd>
   </snc>
-<trd lng="be">&c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_mol;</trd>
-<trdgrp lng="cs">
+<trd lng="af">dood</trd>
+  <trd lng="am">&#x121E;&#x1275;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_m;&a_w;&#x62A;</trd>
+  <trd lng="az">&#xF6;l&#xFC;m</trd>
+  <trd lng="be">&c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_mol;</trd>
+<trd lng="bn">&#x9AE;&#x9C3;&#x9A4;&#x9CD;&#x9AF;&#x9C1;&#x9B0;</trd>
+  <trd lng="bo">&#xF60;&#xF46;&#xF72;&#xF0B;&#xF56;&#xF0B;</trd>
+  <trd lng="bs">smrt</trd>
+  <trd lng="co">a morte</trd>
+  <trdgrp lng="cs">
 <trd>smrt</trd>,
 <trd>smrtka</trd>,
 <trd>smr&tcaron;&aacute;k <klr>(symb. bytost)</klr></trd>
 </trdgrp>
-<trd lng="es">muerte</trd>
-<trd lng="fr">mort<klr> (subst.)</klr></trd>
-<trd lng="hu">hal&aacute;l</trd>
-<trd lng="id">[<ind>mati</ind>] kematian</trd>
-<trd lng="it">morte</trd>
-<trd lng="nl">dood<klr tip="ind"> (z.nw.)</klr></trd>
-<trdgrp lng="pl">
+<trd lng="da">d&#xF8;d</trd>
+  <trd lng="es">muerte</trd>
+<trd lng="et">surm</trd>
+  <trd lng="eu">heriotza</trd>
+  <trd lng="fr">mort<klr> (subst.)</klr></trd>
+<trd lng="fy">dea</trd>
+  <trd lng="gl">morte</trd>
+  <trd lng="gu">&#xAAE;&#xAC3;&#xAA4;&#xACD;&#xAAF;&#xAC1;</trd>
+  <trd lng="ha">mutuwa</trd>
+  <trd lng="hi">&#x92E;&#x94C;&#x924;</trd>
+  <trd lng="hr">smrt</trd>
+  <trd lng="hu">hal&aacute;l</trd>
+<trd lng="hy">&#x574;&#x561;&#x570;&#x57E;&#x561;&#x576;</trd>
+  <trd lng="id">ke<ind>mati</ind>an</trd>
+<trd lng="is">dau&#xF0;a</trd>
+  <trd lng="it">morte</trd>
+<trd lng="ja">&#x6B7B;</trd>
+  <trd lng="jw">pati</trd>
+  <trd lng="ka">&#x10E1;&#x10D8;&#x10D9;&#x10D5;&#x10D3;&#x10D8;&#x10DA;&#x10D8;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x179F;&#x17D2;&#x179B;&#x17B6;&#x1794;&#x17CB;</trd>
+  <trd lng="ko">&#xC8FD;&#xC74C;</trd>
+  <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xEC0;&#xEAA;&#xE8D;&#xE8A;&#xEB5;&#xEA7;&#xEB4;&#xE94;</trd>
+  <trd lng="ml">&#xD2E;&#xD30;&#xD23;&#xD02;</trd>
+  <trd lng="mr">&#x92E;&#x943;&#x924;&#x94D;&#x92F;&#x942;</trd>
+  <trd lng="my">&#x101E;&#x1031;&#x1006;&#x102F;&#x1036;&#x1038;&#x1001;&#x103C;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x92E;&#x943;&#x924;&#x94D;&#x92F;&#x941;</trd>
+  <trd lng="nl">dood<klr tip="ind"> (z.nw.)</klr></trd>
+<trd lng="ny">imfa</trd>
+  <trd lng="pa">&#xA26;&#xA40; &#xA2E;&#xA4C;&#xA24;</trd>
+  <trdgrp lng="pl">
     <trd>&sacute;mier&cacute;</trd>,
     <trd>zgon</trd>,
-  </trdgrp>
-<trd lng="ro">moarte</trd>
+</trdgrp>
+<trd lng="ps">&#x62F; &a_m;&a_r;&#x6AB;</trd>
+  <trd lng="ro">moarte</trd>
 <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;</trd>
-<trdgrp lng="sk">
+<trd lng="sd">&a_m;&a_w;&#x62A;</trd>
+  <trd lng="si">&#xDB8;&#xDBB;&#xDAB;&#xDBA;</trd>
+  <trdgrp lng="sk">
 <trd>smr&tcaron;</trd>,
 <trd>&uacute;mrtie</trd>
 </trdgrp>
-<trd lng="sv">d&ouml;d</trd>
-<trd lng="tp">moli</trd>
+<trd lng="sq">vdekja</trd>
+  <trd lng="st">lefu</trd>
+  <trd lng="sv">d&ouml;d</trd>
+<trd lng="ta">&#xBAE;&#xBB0;&#xBA3;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC2E;&#xC30;&#xC23;&#xC02;</trd>
+  <trd lng="th">&#xE04;&#xE27;&#xE32;&#xE21;&#xE15;&#xE32;&#xE22;</trd>
+  <trd lng="tl">kamatayan</trd>
+  <trd lng="tp">moli</trd>
+  <trd lng="ur">&a_m;&a_w;&#x62A;</trd>
+  <trd lng="vi">ch&#x1EBF;t</trd>
+  <trd lng="yi">&#x5D8;&#x5D5;&#x5D9;&#x5D8;</trd>
+  <trd lng="zu">ukufa</trd>
 </drv>
 
 <drv mrk="mort.0acxi">
@@ -783,7 +869,11 @@
     <trd>crepare</trd>,
     <trd>schiattare</trd>
   </trdgrp>
-  <trd lng="pl">zdechn&aogonek;&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>zdechn&aogonek;&cacute;</trd>,
+    <trd>zdycha&cacute;</trd>
+  </trdgrp>
+  <trd lng="ro">muri</trd>
 </drv>
 
 <drv mrk="mort.0ado">
@@ -830,14 +920,13 @@
       <ekz>
         granda <tld/>ado de su&ccirc;infanoj;
       </ekz><ekz>
-        la juda lo&gcirc;antaro <klr>[&#8230;]</klr> en la varsovia geto
-        <klr>[&#8230;]</klr> 
+        la juda lo&gcirc;antaro <klr>[&#x2026;]</klr> en la varsovia geto
+        <klr>[&#x2026;]</klr> 
         estis destinita al amasa for<tld/>ado pro malsato kaj malsanoj
         <fnt>
           <bib>Monato</bib>
           <aut>Zofia Banet-fornalowa</aut>
-          <vrk><url
-          ref="https://www.monato.be/2004/008391.html">Listo de
+          <vrk><url ref="https://www.monato.be/2004/008391.html">Listo de
           Sendler</url></vrk>
         </fnt>.
       </ekz>
@@ -866,6 +955,10 @@
 <trd lng="cs">um&iacute;r&aacute;n&iacute;</trd>
 <trd lng="fr">mortalit&eacute;</trd>
 <trd lng="nl">sterfte</trd>
+<trdgrp lng="ro">
+  <trd>moarte</trd>,
+  <trd>mortalitate</trd>
+</trdgrp>
 <trd lng="sk">umieranie</trd>
 </drv>
 
@@ -892,11 +985,11 @@
         superantan &ccirc;ion, kion povas elpensi <tld/>ema homo
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 12a</lok></fnt>;
       </ekz><ekz>
-        <klr>...</klr>estu ili mem la atestoj Anta&ubreve; la dioj
+        <klr>[&#x2026;]</klr>estu ili mem la atestoj Anta&ubreve; la dioj
         feli&ccirc;aj, anta&ubreve; homoj <tld/>emaj, Anta&ubreve;
         la
         re&gcirc;' furioza
-        <klr>...</klr>
+        <klr>[&#x2026;]</klr>
         <fnt>
           <aut>trad. A. Kofman</aut>,
           <vrk>El Iliado</vrk>,
@@ -915,9 +1008,9 @@
 <trd lng="it">mortale</trd>
 <trd lng="nl">sterfelijk</trd>
 <trd lng="pl">&sacute;miertelny</trd>
-<trd lng="pt">mortal
-    <klr tip="ind"> (sujeito &agrave; morte; adj.)</klr>
+<trd lng="pt">mortal <klr tip="ind"> (sujeito &agrave; morte; adj.)</klr>
   </trd>
+<trd lng="ro">muritor</trd>
 <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
 <trd lng="sk">smrte&lcaron;n&yacute;</trd>
 </drv>
@@ -938,15 +1031,15 @@
       </ekz><ekz>
         la aztekoj konvinki&gcirc;is, ke la blankuloj tamen ne povas
         esti diidoj, nur simplaj <tld/>emuloj, kiuj estas
-        &#8208; la&ubreve; la ekzemplo &#8208; <tld/>igeblaj
+        &#x2010; la&ubreve; la ekzemplo &#x2010; <tld/>igeblaj
         <fnt><bib>SatirRak</bib>, <lok>la guarbo</lok></fnt>;
       </ekz><ekz>
-        ho, li estas nun granda estro! <klr>...</klr> li estas
+        ho, li estas nun granda estro! <klr>[&#x2026;]</klr> li estas
         nun apena&ubreve; atingebla de ni, <tld/>emuloj!
         <fnt><bib>Metrop</bib></fnt>;
       </ekz><ekz>
         mi estas ne tia, kiel alia urbestro, kiun nenio interesas;
-        sed mi <klr>...</klr> volas, ke al &ccirc;iu <tld/>emulo
+        sed mi <klr>[&#x2026;]</klr> volas, ke al &ccirc;iu <tld/>emulo
         estu
         farata bona akcepto
         <fnt><bib>Revizoro</bib>, <lok>akto 2a, sceno
@@ -954,6 +1047,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>
   <trd lng="de">Sterblicher</trd>
   <trd lng="es">mortal <klr tip="amb">(persona que puede
   morir)</klr></trd>
@@ -966,6 +1060,7 @@
   <trd lng="nl">sterveling</trd>
   <trd lng="pl">&sacute;miertelnik</trd>
   <trd lng="pt">mortal<klr tip="amb"> (o homem; subst.)</klr></trd>
+  <trd lng="ro">muritor</trd>
   <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;<klr tip="amb"> (&c_v; &c_z;&c_n;&c_a;&c_ch;.
   &c_s;&c_u;&c_shch;.)</klr></trd>
 </drv>
@@ -1016,6 +1111,8 @@
   <trd lng="hu">gyilkos</trd>
   <trd lng="it">letale</trd>
   <trd lng="nl">dodelijk</trd>
+  <trd lng="pl">zab&oacute;jczy</trd>
+  <trd lng="ro">criminal</trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_u;&c_b;&c_o;&c_j;&c_n;&c_y;&c_j;</trd>
@@ -1050,7 +1147,7 @@
           <lok>Genezo 4:8</lok>
         </fnt>;
       </ekz><ekz>
-        lian filon &Scirc;e&hcirc;em ili <tld/>igis per glavo
+        lian filon <nom>&Scirc;e&hcirc;em</nom> ili <tld/>igis per glavo
         <fnt>
           <bib>MT</bib>
           <lok>Genezo 34:26</lok>
@@ -1066,8 +1163,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode van de Velde</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/007144.html">Bierlando
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007144.html">Bierlando
           Belgio</url></vrk>
         </fnt>;
       </ekz><ekz>
@@ -1075,8 +1171,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Stra&zcaron;nickas</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/007964.html">Frua
+          <vrk><url ref="https://www.monato.be/2003/007964.html">Frua
           frugilega tradicio</url></vrk>
         </fnt>;
       </ekz><ekz>
@@ -1099,7 +1194,7 @@
       Ekstermi, forigi:
       <ekz>
         la esperantistoj ne volas <tld/>igi la naciajn
-        lingvojn<fnt>Z</fnt>;
+        lingvojn;
       </ekz><ekz>
         ili volis tiun ideon tute <tld/>igi
         <fnt>
@@ -1116,6 +1211,15 @@
     </refgrp>
     <trd lng="be">&c_v;&c_y;&c_n;&c_ib;&c_sh;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </snc>
+  <trd lng="af">dood te maak</trd>
+  <trd lng="am">&#x1218;&#x130D;&#x12F0;&#x120D;</trd>
+  <trd lng="ar">&a_q;&#x62A;&a_l;</trd>
+  <trd lng="az">&#xF6;ld&#xFC;rm&#x259;k</trd>
+  <trd lng="bn">&#x9B9;&#x9A4;&#x9CD;&#x9AF;&#x9BE;</trd>
+  <trd lng="bo">&#xF42;&#xF66;&#xF7C;&#xF51; &#xF56;&#xF66;&#xF51; &#xF42;&#xF66;&#xF51;
+  &#xF66;&#xF7C;&#xF51;&#xF0B;</trd>
+  <trd lng="bs">ubiti</trd>
+  <trd lng="co">caccialli</trd>
   <trdgrp lng="cs">
   <trd>p&rcaron;ipravit o &zcaron;ivot</trd>,
   <trd>skolit</trd>,
@@ -1127,35 +1231,71 @@
   <trd>zahubit</trd>,
   <trd>zni&ccaron;it</trd>
   </trdgrp>
+  <trd lng="da">dr&#xE6;be</trd>
   <trd lng="de">t&ouml;ten</trd>
   <trd lng="en">kill</trd>
   <trd lng="es">matar</trd>
+  <trd lng="et">tappa</trd>
+  <trd lng="eu">hiltzeko</trd>
   <trd lng="fr">tuer</trd>
+  <trd lng="fy">fermoardzje</trd>
+  <trd lng="gl">matar</trd>
+  <trd lng="gu">&#xAAE;&#xABE;&#xAB0;&#xAC0;</trd>
+  <trd lng="ha">kashe</trd>
+  <trd lng="hi">&#x939;&#x924;&#x94D;&#x92F;&#x93E;</trd>
+  <trd lng="hr">ubiti</trd>
   <trdgrp lng="hu">
     <trd>meg&ouml;l</trd>,
     <trd>meggyilkol</trd>
   </trdgrp>
-  <trd lng="id">[<ind>bunuh</ind>] membunuh</trd>
+  <trd lng="hy">&#x57D;&#x57A;&#x561;&#x576;&#x565;&#x56C;</trd>
+  <trd lng="id">mem<ind>bunuh</ind></trd>
+  <trd lng="is">drepa</trd>
   <trd lng="it">uccidere</trd>
+  <trd lng="ja">&#x6BBA;&#x3059;</trd>
+  <trd lng="jw">mat&#xE8;ni</trd>
+  <trd lng="ka">&#x10DB;&#x10DD;&#x10D9;&#x10D5;&#x10DA;&#x10D0;</trd>
+  <trd lng="km">&#x179F;&#x1798;&#x17D2;&#x179B;&#x17B6;&#x1794;&#x17CB;</trd>
+  <trd lng="ko">&#xC8FD;</trd>
+  <trd lng="lo">&#xE82;&#xEC9;&#xEB2;</trd>
+  <trd lng="ml">&#xD15;&#xD4A;&#xD32;&#xD4D;&#xD32;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x92E;&#x93E;&#x930;&#x923;&#x947;</trd>
+  <trd lng="my">&#x101E;&#x1010;&#x103A;&#x1016;&#x103C;&#x1010;&#x103A;</trd>
+  <trd lng="ne">&#x92E;&#x93E;&#x930;&#x94D;&#x928;</trd>
   <trd lng="nl">doden</trd>
+  <trd lng="ny">kupha</trd>
+  <trd lng="pa">&#xA28;&#xA42;&#xA70; &#xA2E;&#xA3E;&#xA30;&#xA28;</trd>
   <trdgrp lng="pl">
     <trd>u&sacute;mierci&cacute;</trd>,
     <trd>zabi&cacute;</trd>
     <trd>zamordowa&cacute;</trd>
   </trdgrp>
+  <trd lng="ps">&a_w;&f_zh;&a_n;&#x64A;</trd>
   <trd lng="pt">matar</trd>
   <trdgrp lng="ro">
     <trd>omor&icirc;</trd>,
     <trd>ucide</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_b;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="sd">&a_q;&#x62A;&a_l;</trd>
+  <trd lng="si">&#xDB8;&#xDBB;&#xDCF;</trd>
   <trdgrp lng="sk">
   <trd>usmrti&tcaron;</trd>,
   <trd>zabi&tcaron;</trd>,
   <trd>zni&ccaron;i&tcaron;</trd>
   </trdgrp>
+  <trd lng="sq">vrasin</trd>
+  <trd lng="st">bolaea</trd>
   <trd lng="sv">d&ouml;da</trd>
+  <trd lng="ta">&#xB95;&#xBCA;&#xBB2;&#xBC8;</trd>
+  <trd lng="te">&#xC1A;&#xC02;&#xC2A;&#xC21;&#xC3E;&#xC28;&#xC3F;&#xC15;&#xC3F;</trd>
+  <trd lng="th">&#xE06;&#xE48;&#xE32;</trd>
+  <trd lng="tl">pumatay</trd>
   <trd lng="tp">moli</trd>
+  <trd lng="ur">&a_q;&#x62A;&a_l;</trd>
+  <trd lng="vi">gi&#x1EBF;t</trd>
+  <trd lng="yi">&#x5D8;&#x5D9;&#x5D9;&#x5D8;&#x5DF;</trd>
+  <trd lng="zu">babulale</trd>
 </drv>
 
 <drv mrk="mort.0igo">
@@ -1187,7 +1327,7 @@
           <lok>Akto Tria</lok>
         </fnt>;
       </ekz><ekz>
-        kiaj estas tiuj du pekoj? &#8208; patro<tld/>igo estas 
+        kiaj estas tiuj du pekoj? &#x2010; patro<tld/>igo estas 
         la nomo de unu, frato<tld/>igo
         estas la nomo de la dua
         <fnt>
@@ -1195,7 +1335,7 @@
           <lok>Akto Kvina</lok>
         </fnt>;
       </ekz><ekz>
-        pereu, <ind>ka&scirc;<tld/>igisto</ind> &#8208; li trapikas lin per la
+        pereu, <ind>ka&scirc;<tld/>igisto</ind> &#x2010; li trapikas lin per la
         tran&ccirc;ilo
         <fnt>
           <bib>Rabistoj</bib>
@@ -1215,15 +1355,26 @@
     </rim>
     <ref tip="sub" cel="murd.0o">murdo</ref>
   </snc>
+  <trd lng="be">&c_z;&c_a;&c_b;&c_o;&c_j;&c_s;&c_t;&c_v;&c_a;</trd>
   <trd lng="cs">vra&zcaron;d&ecaron;n&iacute;</trd>
   <trd lng="de">T&ouml;tung</trd>
   <trd lng="fr">meurtre</trd>
-  <trd lng="id">[<ind>bunuh</ind>] pembunuhan</trd>
+  <trd lng="id">pem<ind>bunuh</ind>an</trd>
   <trdgrp lng="it">
     <trd>uccisione</trd>, 
     <trd>assassinio<klr tip="ind"> (homo)</klr>
     </trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>mord</trd>,
+    <trd>zabicie</trd>,
+    <trd>zab&oacute;jstwo</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>omor</trd>,
+    <trd>asasinat</trd>,
+    <trd>crim&abreve;</trd>
+  </trdgrp> 
   <trd lng="ru">&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;o</trd>
   <trd lng="sk">vra&zcaron;denie</trd>
 </drv>
@@ -1279,6 +1430,8 @@
     <trd>strumento di morte</trd>, 
     <trd>arma del delitto</trd>
   </trdgrp>
+  <trd lng="pl">narz&eogonek;dzie zbrodni</trd>
+  <trd lng="ro">arm&abreve; a crimei</trd>
 <trd lng="ru">&c_o;&c_r;&c_u;&c_d;&c_i;&c_je;
   &c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_a;</trd>
 <trd lng="sk">smrtiaci n&aacute;stroj</trd>
@@ -1317,8 +1470,8 @@
     <rim>
       &leftquot;<tld lit="M"/>i&gcirc;i&rightquot; ne signifas
       &leftquot;<ref tip="vid" cel="agoni.0i">agonii</ref>&rightquot;, kiel iuj opinias
-      surbaze de la franca &leftquot;se mourir&rightquot;, &gcirc;ia etimo estas la rusa
-      &leftquot;&c_u;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;&rightquot;, kiel oni povas vidi en la ekzemplo el
+      surbaze de la franca &leftquot;<nac>se mourir</nac>&rightquot;, &gcirc;ia etimo estas la rusa
+      &leftquot;<nac>&c_u;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;</nac>&rightquot;, kiel oni povas vidi en la ekzemplo el
       la <ctl>Fundamenta ekzercaro</ctl>. Tamen amba&ubreve; signifoj estas
       malevidentaj, nesistemaj, kaj tial evitindaj en la moderna
       lingvo. <aut>Sergio Pokrovskij</aut>
@@ -1346,6 +1499,7 @@
   </trdgrp>
   <trd lng="nl">sterven</trd>
   <trd lng="pl">zabi&cacute; si&eogonek;</trd>
+  <trd lng="ro">sinucide</trd>
   <trd lng="tp">moli</trd>
 </drv>
 
@@ -1393,6 +1547,14 @@
     <trd>Verstorbener</trd>,
     <trd>Gestorbener</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>nieboszczyk</trd>,
+    <trd>umar&lstroke;y</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>le&#x219;</trd>,
+    <trd>mort </trd>
+  </trdgrp>
   <trd lng="sk">nebo&zcaron;t&iacute;k</trd>
 </drv>
 
@@ -1402,7 +1564,7 @@
     <dif>
       Io <tld/>inta; kadavro kaj ceteraj:
       <ekz>
-        la homo kultura <klr>...</klr> en efektivo nutras sin per
+        la homo kultura <klr>[&#x2026;]</klr> en efektivo nutras sin per
         <tld/>inta&jcirc;o
         <fnt><bib>FK</bib>, <lok>el la vivo kaj
         sciencoj</lok></fnt>;
@@ -1414,7 +1576,7 @@
         </fnt>;
       </ekz><ekz>
         la &ccirc;ielo nin gardu de la sekretoj, kiujn la vento plena je 
-        odoro de <tld/>inta&jcirc;o super la ebena&jcirc;o murmuretis <klr>[&#8230;]</klr>
+        odoro de <tld/>inta&jcirc;o super la ebena&jcirc;o murmuretis <klr>[&#x2026;]</klr>
         pri la <tld/>o kaj la suferoj de tiu &ccirc;i nokto
         <fnt>
           <bib>BdV</bib>
@@ -1442,7 +1604,7 @@
   </trdgrp>
   <trd lng="it">cadavere</trd>
   <trd lng="nl">lijk</trd>
-  <trd lng="pl">zw&lstroke;oki</trd>
+  <trd lng="pl">zw&lstroke;oki {pl}</trd>
   <trdgrp lng="pt">
     <trd>cad&aacute;ver</trd>,
     <trd>resto <ind>mortal</ind></trd>
@@ -1463,8 +1625,8 @@
       </ekz><ekz>
         la dinosa&ubreve;roj for<tld/>is;
       </ekz><ekz>
-        kaj la tempo, dum kiu ni iris de Kade-Barnea
-        <klr>...</klr> estis tridek ok jaroj, &gcirc;is
+        kaj la tempo, dum kiu ni iris de <nom>Kade-Barnea</nom>
+        <klr>[&#x2026;]</klr> estis tridek ok jaroj, &gcirc;is
         for<tld/>is el la tendaro la tuta generacio de
         militistoj, kiel &jcirc;uris al ili la Eternulo
         <fnt><bib>MT</bib>, <lok>&Rea; 2:14</lok></fnt>;
@@ -1503,6 +1665,7 @@
 <trd lng="nl">afsterven</trd>
 <trd lng="pl">wymrze&cacute;</trd>
 <trd lng="pt">desaparecer ao<ind> morrer</ind></trd>
+<trd lng="ro">disp&abreve;rea</trd>
 <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_m;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_m;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>
@@ -1531,15 +1694,14 @@
       </ekz><ekz>
         li atentigas, ke la kromanjonuloj anatomie ne estas distingeblaj
         de 
-        siaj anta&ubreve;ulaj modernaj homoj <klr>[&#8230;]</klr> ili e&ccirc; ne estas
+        siaj anta&ubreve;ulaj modernaj homoj <klr>[&#x2026;]</klr> ili e&ccirc; ne estas
         nova raso
         a&ubreve; tribo, kiu disvasti&gcirc;is kaj for<tld/>igis siajn malpli
         kapablajn parencojn
         <fnt>
           <bib>Monato</bib>
           <aut>Werner FU&szlig;</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/007969.html">&Ccirc;u 
+          <vrk><url ref="https://www.monato.be/2003/007969.html">&Ccirc;u 
            la homaro lernis pensi per la lingvo?</url></vrk>
         </fnt>.
       </ekz>
@@ -1554,6 +1716,14 @@
   <trdgrp lng="it">
     <trd>estinguere</trd>,
     <trd>sterminare</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wyniszcza&cacute;</trd>,
+    <trd>eksterminowa&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>distruge</trd>,
+    <trd>extermina</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_i;&c_s;&c_t;&c_r;&c_je;&c_b;&c_i;&c_t;&c_mol;</trd>,
@@ -1575,8 +1745,7 @@
         renkonti&gcirc;is por &gcirc;is<tld/>a batalo
         <fnt>
           <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
-          <vrk><url
-          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
               Princino de Marso</url></vrk>,
           <lok>1938</lok>
         </fnt>.
@@ -1595,6 +1764,16 @@
     <trd>&agrave; mort</trd>,
     <trd>mortel<klr> (&agrave; mort)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>bezterminowy</trd>,
+    <trd>dozgonny</trd>,
+    <trd>do&zdot;ywotni</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>pe tot parcursul vie&#x21B;ii</trd>,
+    <trd>nedefinit</trd>,
+    <trd>via&tcedil;&abreve;</trd>
+  </trdgrp> 
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_n;&c_a; &c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;</trd>,
@@ -1613,7 +1792,7 @@
         povis vidi
         <fnt><bib>Fab3</bib>, <lok>&scirc;tono de la sa&gcirc;uloj</lok></fnt>;
       </ekz><ekz>
-        en la post<tld/>a kapelo ni metas <klr>[&#8230;]</klr> vazojn kaj 
+        en la post<tld/>a kapelo ni metas <klr>[&#x2026;]</klr> vazojn kaj 
         instrumentojn, kiujn amis la <tld/>into
         <fnt><bib>Far2</bib> <lok>&Ccirc;apitro XXII</lok></fnt>;
       </ekz><ekz>
@@ -1642,7 +1821,10 @@
 <trd lng="id">pascakematian</trd>
 <trd lng="it">postumo</trd>
 <trd lng="nl">postuum</trd>
-<trd lng="pl">po&sacute;miertny</trd>
+<trdgrp lng="pl">
+  <trd>po&sacute;miertny</trd>,
+  <trd>pogrobowy</trd>
+</trdgrp>
 <trd lng="pt">p&oacute;stumo</trd>
 <trd lng="ro">postum</trd>
 <trd lng="sk">posmrtn&yacute;</trd>
@@ -1727,6 +1909,10 @@
 <trd lng="nl">onsterfbaar</trd>
 <trd lng="pl">nie&sacute;miertelny</trd>
 <trd lng="pt">imortal</trd>
+<trdgrp lng="ro">
+  <trd>nemuritor</trd>,
+  <trd>imortal</trd>
+</trdgrp>
 <trd lng="ru">&c_b;&c_je;&c_s;&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
 <trd lng="sk">nesmrte&lcaron;n&yacute;</trd>
 </drv>
@@ -1747,8 +1933,7 @@
         la tasko &gcirc;in ser&ccirc;i
         <fnt>
           <aut>J. L. Borges, trad. M. Giorgini</aut>,
-          <vrk><url
-          ref="http://www.yksi.org/tekst/ald/borges_inm-eo.html">
+          <vrk><url ref="http://www.yksi.org/tekst/ald/borges_inm-eo.html">
               La senmortulo</url></vrk>,
           <lok>[2009?]</lok>
         </fnt>.
@@ -1762,6 +1947,8 @@
   </trdgrp>
   <trd lng="es">inmortal <klr tip="amb">(persona)</klr></trd>
   <trd lng="fr">immortel<klr> (subst.)</klr></trd>
+  <trd lng="pl">nie&sacute;miertelny <klr>(osobnik)</klr></trd>
+  <trd lng="ro">nemuritor  <klr>(individual)</klr></trd>
 </drv>
 
 <drv mrk="mort.trans0a">
@@ -1784,8 +1971,7 @@
         en tiu vizio, mi vidas la vivon da&ubreve;ri trans<tld/>e
         <fnt>
           <aut>C. Piron</aut>,
-          <vrk><url
-          ref="http://esperanto.org.uk/eldonoj/piron/tekstoj/Tien.html">
+          <vrk><url ref="http://esperanto.org.uk/eldonoj/piron/tekstoj/Tien.html">
               Tien</url></vrk>,
           <lok>1997</lok>
         </fnt>.
@@ -1808,6 +1994,8 @@
     <trd>&uuml;ber den <ind>Tod</ind> hinaus</trd>
   </trdgrp>
   <trd lng="fr">au-del&agrave; de la mort</trd>
+  <trd lng="pl">poza &sacute;mierci&aogonek;</trd>
+  <trd lng="ro">dincolo de moarte</trd>
 </drv>
 
 <!-- gramatike duba formo "mortigi per/pro/je homo"?, kaj ne trovi&gcirc;is
@@ -1816,7 +2004,7 @@ ekzemploj...
 <drv mrk="mort.hom0igi">
   <kap>hom<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="mort.hom0igi.homon">
     <dif>
       <ref tip="super" cel="mort.0igi.malvivigi"><tld
           lit="M"/>igi</ref>
@@ -1834,12 +2022,12 @@ ekzemploj...
 
 <drv mrk="mort.hom0igo">
   <kap>hom<tld/>igo</kap>
-  <snc>
+  <snc mrk="mort.hom0igo.ago">
     <dif>
       <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igo</ref>
       de homo:
       <ekz>
-        en la posttagmezo anta&ubreve; <klr>[&#8230;]</klr> la okazinta hom<tld/>igo
+        en la posttagmezo anta&ubreve; <klr>[&#x2026;]</klr> la okazinta hom<tld/>igo
         <fnt>
           <bib>Fab4</bib>
           <lok>Historio el la dunoj</lok>
@@ -1867,6 +2055,8 @@ ekzemploj...
       <trd>homicide</trd>
     </trdgrp>
   <trd lng="it">omicidio</trd>
+  <trd lng="pl">zab&oacute;jstwo cz&lstroke;owieka</trd>
+  <trd lng="ro">uciderea unui om</trd>
   <trd lng="ru">&c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
   <trd lng="sk">vra&zcaron;da</trd>
 </drv> 
@@ -1882,10 +2072,16 @@ ekzemploj...
         tie oni malsat<tld/>igos vin
         <fnt>
           <aut>A. Kor&jcirc;enkov</aut>,
-          <vrk><url
-          ref="http://www.esperanto-ondo.ru/Libroj/V_bibl08.pdf">
+          <vrk><url ref="http://www.esperanto-ondo.ru/Libroj/V_bibl08.pdf">
               Fjodor Dostojevskij en Esperanto</url></vrk>,
           <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi agitis kontra&ubreve; la elver&scirc;o de la man&gcirc;a&jcirc;o por malsat<tld/>igi ilin
+        <fnt>
+          <vrk><url ref="https://www.rulit.me/books/voja-read-268023-69.html">Voja&gcirc;o al
+          Kazohinio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -1896,6 +2092,8 @@ ekzemploj...
   </trdgrp>
   <trd lng="es">matar de hambre</trd>
   <trd lng="fr">affamer<klr> (&agrave; mort)</klr></trd>
+  <trd lng="pl">zag&lstroke;odzi&cacute; na &sacute;mier&cacute;</trd>
+  <trd lng="ro">muri de foame</trd>
 </drv>
 
 <drv mrk="mort.mem0igi">
@@ -1910,8 +2108,7 @@ ekzemploj...
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Peeraerts</aut>
-          <vrk><url
-          ref="&Monato;/2007/009201.php">Babel</url></vrk>
+          <vrk><url ref="&Monato;/2007/009201.php">Babel</url></vrk>
         </fnt>;
       </ekz><ekz>
         anta&ubreve; la okuloj li havis sen&ccirc;ese la bildon de la
@@ -1952,8 +2149,15 @@ ekzemploj...
     </trdgrp>
   <trd lng="id"><ind>bunuh</ind> diri</trd>
   <trd lng="it">suicidarsi</trd>
-  <trd lng="pl">zamordowywa&cacute; si&eogonek;</trd>
+  <trdgrp lng="pl">
+    <trd>zamordowywa&cacute; si&eogonek;</trd>,
+    <trd>pope&lstroke;ni&cacute; samob&oacute;jstwo</trd>
+  </trdgrp>
   <trd lng="pt">suicidar-se</trd>
+  <trdgrp lng="ro">
+    <trd>sinucide</trd>,
+    <trd>ucide-te pe sine</trd>
+  </trdgrp>
   <trd lng="ru">&c_u;&c_b;&c_i;&c_t;&c_mol;
     &c_s;&c_je;&c_b;&c_ja;</trd>
   <trd lng="sk">sp&aacute;cha&tcaron; samovra&zcaron;du</trd>
@@ -1974,8 +2178,7 @@ ekzemploj...
         <fnt>
           <bib>Monato</bib>
           <aut>MU Binghua</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008011.html">Mortigi
+          <vrk><url ref="https://www.monato.be/2003/008011.html">Mortigi
           memmortigon</url></vrk>
         </fnt>.
       </ekz>
@@ -1989,8 +2192,12 @@ ekzemploj...
 <trd lng="hu">&ouml;ngyilkoss&aacute;g</trd>
 <trd lng="it">suicidio<klr tip="ind"> (fig.)</klr></trd>
 <trd lng="nl">zelfmoord</trd>
-<trd lng="pl">samozag&lstroke;ada</trd>
+<trdgrp lng="pl">
+  <trd>samozag&lstroke;ada</trd>,
+  <trd>samob&oacute;jstwo</trd>
+</trdgrp>
 <trd lng="pt">suic&iacute;dio</trd>
+<trd lng="ro">sinucidere</trd>
 <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
 <trd lng="sk">samovra&zcaron;da</trd>
 </drv>
@@ -2041,12 +2248,18 @@ ekzemploj...
     </trdgrp>
   <trdgrp lng="pl">
       <trd>ubi&cacute;</trd>,
-      <trd>zastrzeli&cacute;</trd>
+      <trd>zastrzeli&cacute;</trd>,
+      <trd>rozstrzela&cacute;</trd>
     </trdgrp>
   <trdgrp lng="pt">
       <trd>fuzilar</trd>,
       <trd>matar com tiro</trd>
-    </trdgrp>
+  </trdgrp>
+  <trdgrp lng="ro">
+      <trd>omor&icirc;</trd>,
+      <trd>&icirc;mpu&#x219;ca</trd>,
+      <trd>trage</trd>
+  </trdgrp> 
   <trdgrp lng="ru">
       <trd>&c_z;&c_a;&c_s;&c_t;&c_r;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_ja;&c_t;&c_mol;<klr>
@@ -2066,7 +2279,7 @@ ekzemploj...
       <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
       per forta premo, kiu haltigas vivnecesajn funkciojn:
       <ekz>
-        Aperadis &ccirc;iam pli kaj pli <klr>[&#8230;]</klr>, la musoj preska&ubreve;
+        Aperadis &ccirc;iam pli kaj pli <klr>[&#x2026;]</klr>, la musoj preska&ubreve;
         prem<tld/>igis unuj la aliajn
         <fnt>
           <bib>Fab2</bib>
@@ -2098,6 +2311,7 @@ ekzemploj...
   <trd lng="it">soffocare</trd>
   <trd lng="nl">verstikken</trd>
   <trd lng="pl">udusi&cacute;</trd>
+  <trd lng="ro">sugruma</trd>
   <trd lng="ru">&c_u;&c_d;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">u&scaron;liapa&tcaron;</trd>
 </drv>
@@ -2142,9 +2356,9 @@ ekzemploj...
   <trd lng="id"><ind>bunuh</ind> diri</trd>
   <trd lng="it">suicidarsi</trd>
   <trd lng="nl">zelfmoord plegen</trd>
-  <trd lng="pl">pope&lstroke;ni&cacute;
-  <ind>samob&oacute;jstwo</ind></trd>
+  <trd lng="pl">pope&lstroke;ni&cacute;  <ind>samob&oacute;jstwo</ind></trd>
   <trd lng="pt">suicidar-se</trd>
+  <trd lng="ro">sinucide</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_i;&c_t;&c_mol; &c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_n;&c_a;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol; &c_n;&c_a; &c_s;&c_je;&c_b;&c_ja; &c_r;&c_u;&c_k;&c_i;</trd>, 
@@ -2155,14 +2369,14 @@ ekzemploj...
 <drv mrk="mort.sin0igo">
   <kap>sin<tld/>igo</kap>
   <snc mrk="mort.sin0igo.KOMUNE">
-      <dif><tld/>igi sin mem:
-        <ekz>
+    <dif>
+      <ref tip="dif" cel="mort.mem0igo">Mem<tld/>igo</ref>:
+      <ekz>
         li konsideris la ideon fini &ccirc;ion per sin<tld/>igo
         <fnt>
           <aut>Hans Weinhengst</aut>,
           <vrk>Tur-Strato 4</vrk>,
-          <lok><url
-          ref="http://www.fadedpage.com/showbook.php?pid=20131216">
+          <lok><url ref="http://www.fadedpage.com/showbook.php?pid=20131216">
         Fadedpage</url>
           </lok>
         </fnt>;
@@ -2172,22 +2386,19 @@ ekzemploj...
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008113.html">Forpaso-forumo</url></vrk>
+          <vrk><url ref="https://www.monato.be/2003/008113.html">Forpaso-forumo</url></vrk>
         </fnt>;
       </ekz><ekz>
         &gcirc;i enhavas personajn tragediojn: sin<tld/>igojn, dis&scirc;iritajn
         familiojn, perdon de talentoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato1/monato-9401-kanado.txt">Kanado</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9401-kanado.txt">Kanado</url></vrk>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="dif" cel="mort.mem0igo">mem<tld/>igo</ref>
+    <ref tip="sin" cel="suicid.0o">suicido</ref>
   </snc>      
-  <ref tip="sin" cel="suicid.0o">suicido</ref>
   <trd lng="fr">suicide</trd>
   <trd lng="de">Selbstmord</trd>
   <trd lng="hu">&ouml;ngyilkoss&aacute;g</trd>
@@ -2226,12 +2437,12 @@ ekzemploj...
       mort)</klr></trd> 
   <trd lng="hu">hal&aacute;los</trd>
   <trd lng="nl">dood-</trd>
+  <trd lng="pl">zas&lstroke;uguj&aogonek;cy na &sacute;mier&cacute;</trd>
+  <trd lng="ro">merit&acirc;nd s&abreve; moar&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr>
-    (&c_p;&c_o;
-    &c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_j;
-    &c_s;&c_t;&c_a;&c_t;&c_mol;&c_je;)</klr></trd>
+    (&c_p;&c_o; &c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_j; &c_s;&c_t;&c_a;&c_t;&c_mol;&c_je;)</klr></trd>
   </trdgrp>
 </drv>
 
@@ -2275,14 +2486,24 @@ ekzemploj...
   <trd lng="nl">stenigen</trd>
   <trd lng="pl">ukamienowa&cacute;</trd>
   <trd lng="pt">lapidar<klr tip="ind"> (matar)</klr></trd>
+  <trd lng="ro">lapida&tcedil;i</trd>
+  <trd lng="ru">&c_p;&c_o;&c_b;&c_i;&c_t;&c_mol; &c_k;&c_a;&c_m;&c_n;&c_ja;&c_m;&c_i;<klr> (&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;)</klr></trd>  
   <trd lng="sv">stena till <ind>d&ouml;ds</ind></trd>
-  <trd lng="ru">&c_p;&c_o;&c_b;&c_i;&c_t;&c_mol; &c_k;&c_a;&c_m;&c_n;&c_ja;&c_m;&c_i;<klr> (&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;)</klr></trd>
 </drv>
 </art>
 <!--
-$Log: mort.xml,v $
-Revision 1.73  2019/11/26 08:10:20  revo
-Aleks Andre: en
+$Log$
+versio 1.119 2021/06/16 12:46:22
+Dmitri Gabinski: + trd be
+
+versio 1.77 2021/04/12 21:54:39
+Vito Redsky: +trd pl +trd ro
+
+versio 1.76 2020/12/29 08:10:48
+Aleks Andre: bo
+
+versio 1.75 2020/05/09 07:10:13
+Wolfram Diestel: +ekz, sintaksaj adaptoj
 
 Revision 1.72  2019/07/05 08:10:29  revo
 Aleks Andre: zh: indekso
@@ -2294,14 +2515,5 @@ Revision 1.70  2019/06/30 07:42:49  revo
 adaptis URL de Monato
 
 Revision 1.69  2019/02/11 09:10:14  revo
-Sergio Pokrovskij: +dif, rim pri ~igxi
-
-Revision 1.68  2019/01/27 20:10:14  revo
-Wolfram Diestel: +ekz-oj el "la Rabistoj"
-
-Revision 1.67  2018/03/12 23:10:29  revo
-Michel Cantigneaux: morto, fundamenta vorto de la Antauxparolo
-
-Revision 1.66  2018/01/06 12:10:13  revo
 -->
 </vortaro>

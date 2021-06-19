@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: afisx.xml,v 1.27 2017/11/26 16:10:18 revo Exp $">
+<art mrk="$Id: afisx.xml,v 1.30 2021/05/29 14:32:03 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>afi&scirc;</rad>/o
@@ -85,6 +84,11 @@
       <trd>article<klr tip="ind">(dans un forum Internet)</klr></trd>
       <trd>post<klr tip="ind">(dans un forum Internet)</klr></trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>pos</trd>,
+      <trd>artikel</trd>,
+      <trd>poster</trd>
+    </trdgrp>
     <trd lng="it">post<klr> (comp.)</klr></trd>
     <trd lng="nl">bericht<klr tip="ind"> (in Internetforum)</klr></trd>
     <trd lng="pl">og&lstroke;oszenie</trd>
@@ -94,6 +98,11 @@
     <trd lng="ru">&c_s;&c_t;&c_a;&c_t;&c_mol;&c_ja; <klr>(&c_v;
     &c_t;&c_je;&c_l;&c_je;&c_k;&c_o;&c_n;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_i;)</klr></trd>
   </snc>
+  <trd lng="bo">&#xF66;&#xFA6;&#xFB1;&#xF62;&#xF0B;&#xF61;&#xF72;&#xF42;&#xF0B;</trd>
+  <trdgrp lng="he">
+    <trd>&#x5DE;&#x5D5;&#x5D3;&#x5E2;&#x5D4;</trd>,
+    <trd>&#x5E4;&#x5D5;&#x5E1;&#x5D8;&#x5E8;</trd>
+  </trdgrp>
   <trd lng="tr">afi&scedil;</trd>
 </drv>
 
@@ -121,6 +130,10 @@
       <trd>anschlagen</trd>
     </trdgrp>
     <trd lng="es">pegar carteles</trd>
+    <trdgrp lng="id">
+      <trd>menge<ind>pos</ind></trd>,
+      <trd>meng<ind>umum</ind>kan</trd>
+    </trdgrp>
     <trd lng="it">mettere i manifesti<klr> (fig.)</klr></trd>
     <trd lng="nl">meedelen<klr tip="amb"> (op affiche)</klr></trd>
     <trdgrp lng="pl">
@@ -179,14 +192,18 @@
     &c_t;&c_je;&c_l;&c_je;&c_k;&c_o;&c_n;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_ju;</trd>
   </snc>
     <trd lng="en">to <ind>post</ind></trd>
-    <trd lng="it">affiggere</trd>
+    <trdgrp lng="he">
+    <trd>&#x5DC;&#x5D4;&#x5D5;&#x5D3;&#x5D9;&#x5E2;</trd>,
+    <trd>&#x5DC;&#x5E4;&#x5E8;&#x5E1;&#x5DD;</trd>
+  </trdgrp>
+  <trd lng="it">affiggere</trd>
   <trd lng="tr">yollamak</trd>
 </drv>
 </art>
 <!--
-$Log: afisx.xml,v $
-Revision 1.27  2017/11/26 16:10:18  revo
-Vito Redsky: +trd ro
+$Log$
+versio 1.28 2020/05/08 16:10:12
+Eko Nur Syah Hidayat: +trd id
 
 Revision 1.26  2015/09/17 22:10:26  revo
 Sebastian Cyprych: +trd pl

@@ -2,13 +2,60 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: projek.xml,v 1.30 2020/02/13 20:10:15 revo Exp $">
+<art mrk="$Id: projek.xml,v 1.33 2021/04/28 07:53:23 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>projekci</rad>/o
+  <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="projek.0o">
   <kap><tld/>o</kap>
+  <snc mrk="projek.0o.KOMUNE">
+    <dif>
+      Bildigo de reliefa objekto sur ebena surfaco:
+    </dif>
+    <subsnc mrk="projek.0o.GEOG">
+      <uzo tip="fak">GEOG</uzo>
+      <dif>
+        &Ccirc;iu el la diversaj metodoj, uzataj por prezenti sur ebena surfaco
+        parton a&ubreve; tuton de la tera a&ubreve; &ccirc;iela sfero.
+      </dif>
+    </subsnc>
+    <subsnc mrk="projek.0o.TEK">
+      <uzo tip="fak">TEK</uzo>
+      <dif>
+        Desegna&jcirc;o de objekto, konstruo, ma&scirc;ino k.s., farita
+        sur ebeno la&ubreve; certaj konvencioj:
+        <ekz>
+          horizontala, vertikala, profila <tld/>o.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="projek.0o.FOT">
+      <uzo tip="fak">FOT</uzo>
+      <dif>
+        Luma bildo, sendata sur pli-malpli proksiman ekranon per speciala
+        lanterno.
+      </dif>
+    </subsnc>
+  </snc>
+  <snc mrk="projek.0o.PSI">
+    <uzo tip="fak">PSI</uzo>
+    <dif>
+      Atribuado de nekonscia a&ubreve; subpremita parto de sia propra personeco al alia persono:
+      <ekz>
+        pri la &ccirc;asado de sor&ccirc;istinoj <klr>[&#8230;]</klr> oni anka&ubreve; asertis, ke temas pri
+        elpensa&jcirc;o, nome <tld/>o de masklaj fantazioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="https://www.monato.be/2008/009295.php"
+              >La sor&ccirc;istin-persekutoj: rerigardo kaj reinterpretoj</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="projek.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="projek.0o.kanona">
@@ -68,6 +115,7 @@
       <ref tip="sin" cel="projek.oblikva0o">oblikva <tld/>o.</ref>
     </subsnc>
     <subsnc mrk="projek.0o.orta">
+      <fnt><bib>FK</bib></fnt>
       <fnt><bib>PIV1</bib></fnt>
       <dif>
         <klr>
@@ -76,7 +124,14 @@
         Tia <ref cel="projek.0o.oblikva"><tld/>o
         <sncref ref="projek.0o.oblikva"/></ref>, ke la kerno kaj bildaro
         de
-        la asociita endomorfio estas <ref cel="ort.0a.aro">ortaj</ref>.
+        la asociita endomorfio estas <ref cel="ort.0a.aro">ortaj</ref>:
+        <ekz>
+          M estas la <tld/>o horizonta de la punkto m, kiu respondas al la horo h sur la
+          rondo tagnoktegaliga, farita per la radio C
+          <fnt>
+            <bib>FK</bib>
+          </fnt>.
+        </ekz>
       </dif>
       <ref tip="sin" cel="projek.orta0o">orta projekcio.</ref>
     </subsnc>
@@ -84,30 +139,7 @@
     <trd lng="en">projection</trd>
     <trd lng="pl">rzut<klr tip="ind"> (przekszta&lstroke;cenie)</klr></trd>
   </snc>
-  <snc mrk="projek.0o.GEOG">
-    <uzo tip="fak">GEOG</uzo>
-    <dif>
-      &Ccirc;iu el la diversaj metodoj, uzataj por prezenti sur ebena surfaco
-      parton a&ubreve; tuton de la tera a&ubreve; &ccirc;iela sfero.
-    </dif>
-  </snc>
-  <snc mrk="projek.0o.TEK">
-    <uzo tip="fak">TEK</uzo>
-    <dif>
-      Desegna&jcirc;o de objekto, konstruo, ma&scirc;ino k.s., farita
-      sur ebeno la&ubreve; certaj konvencioj:
-      <ekz>
-        horizontala, vertikala, profila <tld/>o.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="projek.0o.FOT">
-    <uzo tip="fak">FOT</uzo>
-    <dif>
-      Luma bildo, sendata sur pli-malpli proksiman ekranon per speciala
-      lanterno.
-    </dif>
-  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_je;&c_k;&c_c;&c_y;&c_ja;</trd>
   <trdgrp lng="cs">
     <trd>projekce</trd>,
     <trd>prom&iacute;t&aacute;n&iacute;</trd>,
@@ -143,13 +175,41 @@
     <dif>
       Sendi luman bildon sur ekranon:
       <ekz>
-        <tld/>i filmon, lumbildojn.
+        <tld/>i lumbildojn;
+      </ekz>
+      <ekz>
+        &scirc;i ne havas videoaparaton por <tld/>i al li ian infanan bildfilmon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julian Modest</aut>
+          <vrk><url ref="https://www.monato.be/2007/009024.php"
+              >Bela son&gcirc;o</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu unua fotokompostilo estis maleleganta skatolo preska&ubreve; unu kuban metron
+        granda, en kiu fulmilo <tld/>is lumon sur sentiva fotopapero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2004/008280.html"
+              >Komposta revolucio kaj presada stabileco</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Okcidento ne respondas al la bildo kiun &gcirc;i &scirc;atis <tld/>i pri si kaj kiun ni
+        volonte re<tld/>is al &gcirc;i
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9310-sarajevo.txt"
+              >La Fino de la Mondo komenci&gcirc;as en Sarajevo</url></vrk>
+          <lok>93/10</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <adm>
-      La vorto "lumbildo" ankora&ubreve; ne ekzistas en REVO.
-      <aut>MB</aut>
-    </adm>
   </snc>
   <trdgrp lng="cs">
     <trd>projektovat</trd>,
@@ -174,7 +234,7 @@
       </ekz>
     </dif>
     <rim>
-      Bricard
+      <nom>Bricard</nom>
       <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt> konas la terminon,
       sed sub formo <ctl>projecia&jcirc;o</ctl>. Cetere,
       ekster la rigora faka lingva&jcirc;o, eblas konsideri, ke anka&ubreve;
@@ -208,7 +268,42 @@
   <kap><tld/>ilo</kap>
   <snc>
     <dif>
-      Aparato por <tld/>i <sncref ref="projek.0i.FOT"/>.
+      <ref tip="super" cel="aparat.0o.TEK">Aparato</ref>
+      por <tld/>i <sncref ref="projek.0i.FOT"/>:
+      <ekz>
+        en la kela eta&gcirc;o estas montrata (per <tld/>iloj) la panoramo de la frontregiono,
+        kiun pentris <nom>Alfred Bastien</nom> post la milito
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2015/011417.php"
+              >Du novaj muzeoj en Belgio</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi planas uzi la komputilon por prezentadoj, atentu, ke &gcirc;i havu kroman
+        ekrankonektilon por ligi &gcirc;in al <tld/>ilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zoran &Cacute;iri&cacute;</aut>
+          <vrk><url ref="https://www.monato.be/2003/008165.html"
+              >A&ccirc;eti tekokomputilon</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[imagi]</klr> pere de <ind>mensa <tld/>ilo</ind>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011330.php"
+              >Nuntempo sciencfikcia</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+        <trd lng="de">inneres <ind>Auge</ind></trd>
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="cs">
@@ -354,7 +449,16 @@
 </drv>
 </art>
 <!--
-$Log: projek.xml,v $
+$Log$
+versio 1.33 2021/04/28 07:53:23
+Dmitri Gabinski: +trd be
+
+versio 1.32 2020/09/30 18:32:55
+Wolfram Diestel: +FK, +snc PSI, +ekz-oj
+
+versio 1.31 2020/09/26 22:32:22
+Jeromo Vasxe: ~o: rearangx. snc
+
 Revision 1.30  2020/02/13 20:10:15  revo
 Wolfram Diestel: formuloj per am
 
@@ -368,14 +472,5 @@ Revision 1.27  2012/10/23 00:13:32  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.26  2006/03/30 16:31:36  revo
-Tulio Flores: +tr pt
-
-Revision 1.25  2004/08/23 16:34:12  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.24  2003/04/07 16:36:29  revo
-Marc Bavant: kanona ~o: mod rim
-
-Revision 1.23  2003/01/02 17:50:18  revo
 -->
 </vortaro>

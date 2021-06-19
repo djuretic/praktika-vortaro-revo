@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gazet.xml,v 1.38 2019/01/16 13:10:13 revo Exp $">
+<art mrk="$Id: gazet.xml,v 1.80 2021/06/18 20:41:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gazet</rad>/o <fnt><bib>PV</bib></fnt>
@@ -52,6 +51,7 @@
     <trd>&c_ch;&c_a;&c_s;&c_o;&c_p;&c_ib;&c_s;</trd>
   </trdgrp>
   <trd lng="bg">&c_v;&c_je;&c_s;&c_t;&c_n;&c_i;&c_k;</trd>
+  <trd lng="bo">&#xF5A;&#xF42;&#xF66;&#xF0B;&#xF54;&#xF62;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>&ccaron;asopis</trd>,
     <trd>list</trd>,
@@ -103,7 +103,7 @@
   </trdgrp>
   <trd lng="sk">&ccaron;asopis</trd>
   <trd lng="tr">gazete</trd>
-  <trd lng="zh">&#26434;&#24535;</trd>
+  <trd lng="zh">&#x6742;&#x5FD7;</trd>
 </drv>
 
 <drv mrk="gazet.0a">
@@ -127,18 +127,14 @@
         la <tld/>a kiosko
         <fnt>
           <aut>A. Conan Doyle, trad. Darold Booton</aut>:
-          <vrk><url
-          ref="http://members.cox.net/esperanto/ligo/rugxkap.htm"
-              >La ligo de la ru&gcirc;kapuloj</url></vrk>
+          <vrk><url ref="http://members.cox.net/esperanto/ligo/rugxkap.htm">La ligo de la ru&gcirc;kapuloj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>a a&ubreve;tomato
         <fnt>
           <aut>V. Rybakov, trad. J. Finkel</aut>:
-          <vrk><url
-ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
-              >Gravitavio &#171;Carido&#187;</url></vrk>
+          <vrk><url ref="http://www.esperanto.mv.ru/Gravitavio/08.html">Gravitavio &#xAB;Carido&#xBB;</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -158,34 +154,75 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
      </ekz>
    </dif>
   </snc>
+  <trd lng="af">pers</trd>
+  <trd lng="am">&#x12ED;&#x132B;&#x1291;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x635;&#x62D;&#x627;&#x641;&#x629;</trd>
+  <trd lng="az">m&#x259;tbuat</trd>
   <trd lng="be">&c_p;&c_r;&c_e;&c_s;&c_a;
     <klr>(&c_p;&c_e;&c_r;&c_y;&c_ja;&c_d;&c_y;&c_ch;&c_n;&c_y;&c_ja;
       &c_v;&c_y;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_ib;)</klr></trd>
+  <trd lng="bn">&#x9AA;&#x9CD;&#x9B0;&#x9C7;&#x9B8;</trd>
+  <trd lng="bs">pritisnite</trd>
   <trdgrp lng="cs">
     <trd>noviny</trd>,
     <trd>tisk</trd>
  </trdgrp>
+  <trd lng="da">presse</trd>
   <trdgrp lng="de">
     <trd>Presse</trd>,
     <trd>Zeitungslandschaft</trd>
  </trdgrp>
   <trd lng="es">prensa</trd>
+  <trd lng="et">vajutage</trd>
+  <trd lng="eu">prentsa</trd>
   <trdgrp lng="fa">
     <trd>&a_m;&a_T;&a_b;&a_w;&a_ayn;&a_A;&a_t;</trd>,
     <trd>&a_j;&a_r;&a_A;&f_y;&a_d;</trd>
   </trdgrp>
   <trd lng="fr">presse<klr tip="ind"> (les journaux)</klr></trd>
+  <trd lng="fy">parse</trd>
+  <trd lng="gl">prensa</trd>
+  <trd lng="gu">&#xAAA;&#xACD;&#xAB0;&#xAC7;&#xAB8;</trd>
+  <trd lng="ha">latsa</trd>
+  <trd lng="hi">&#x92A;&#x94D;&#x930;&#x947;&#x938;</trd>
+  <trd lng="hr">pritisnite</trd>
   <trd lng="hu">sajt&oacute;<klr tip="ind"> (az &uacute;js&aacute;gok)
   </klr></trd>
+  <trd lng="hy">&#x574;&#x561;&#x574;&#x578;&#x582;&#x56C;</trd>
+  <trd lng="is">stutt</trd>
+  <trd lng="ja">&#x30D7;&#x30EC;&#x30B9;</trd>
+  <trd lng="jw">penet</trd>
+  <trd lng="ka">&#x10DE;&#x10E0;&#x10D4;&#x10E1;</trd>
+  <trd lng="km">&#x179F;&#x17B6;&#x179A;&#x1796;&#x178F;&#x17CC;&#x1798;&#x17B6;&#x1793;</trd>
+  <trd lng="ko">&#xD0A4;&#xB97C; &#xB204;&#xB985;&#xB2C8;&#xB2E4;</trd>
+  <trd lng="lo">&#xEAB;&#xE99;&#xEB1;&#xE87;&#xEAA;&#xEB7;&#xE9E;&#xEB4;&#xEA1;</trd>
+  <trd lng="ml">&#xD05;&#xD2E;&#xD7C;&#xD24;&#xD4D;&#xD24;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x926;&#x93E;&#x92C;&#x93E;</trd>
+  <trd lng="my">&#x1005;&#x102C;&#x1014;&#x101A;&#x103A;&#x1007;&#x1004;&#x103A;&#x1038;&#x1019;&#x103B;&#x102C;&#x1038;</trd>
   <trd lng="nl">pers<klr tip="ind"> (de kranten)</klr></trd>
+  <trd lng="ny">osindikizira</trd>
+  <trd lng="pa">&#xA2A;&#xA4D;&#xA30;&#xA48;&#xA71;&#xA38;</trd>
   <trd lng="pl">prasa</trd>
+  <trd lng="ps">&#x645;&#x637;&#x628;&#x648;&#x639;&#x627;&#x62A;&#x64A;</trd>
   <trd lng="pt">imprensa<klr tip="amb"> (os jornais)</klr></trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_s;&c_s;&c_a;</trd>
+  <trd lng="sd">&#x67E;&#x631;&#x64A;&#x633;</trd>
+  <trd lng="si">&#xDB8;&#xDCF;&#xDB0;&#xDCA;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>noviny</trd>,
     <trd>tla&ccaron;</trd>
   </trdgrp>
+  <trd lng="sq">shtypi</trd>
+  <trd lng="st">tobetsa</trd>
+  <trd lng="ta">&#xB9A;&#xBC6;&#xBAF;&#xBCD;&#xBA4;&#xBBF;</trd>
+  <trd lng="te">&#xC2A;&#xC24;&#xC4D;&#xC30;&#xC3F;&#xC15;&#xC3E;</trd>
+  <trd lng="th">&#xE01;&#xE14;</trd>
+  <trd lng="tl">pindutin ang</trd>
   <trd lng="tr">bas&inodot;n</trd>
+  <trd lng="ur">&#x67E;&#x631;&#x6CC;&#x633;</trd>
+  <trd lng="vi">b&#xE1;o ch&#xED;</trd>
+  <trd lng="yi">&#x5D3;&#x5E8;&#x5D9;&#x5E7;&#x5DF;</trd>
+  <trd lng="zu">cindezela</trd>
 </drv>
 
 <drv mrk="gazet.0isto">
@@ -203,7 +240,7 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
      </ekz>
      <ekz>
         komentis kun beda&ubreve;ro <tld/>isto en unu el la
-        noblaj &#8208; kaj sendependaj &#8208;
+        noblaj &#x2010; kaj sendependaj &#x2010;
         diman&ccirc;o-&jcirc;urnaloj:
         britoj estas <ctl>kondamnitaj sen&ccirc;ese partoprenadi
           karikaturan version de la dua mondomilito</ctl>
@@ -289,8 +326,7 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
         &mdash; tute ne temas
         <fnt>
           <aut>M. A. Clerk</aut>,
-          <vrk><url
-          ref="http://esperanto.org.uk/lbe/arkivo/953/08.html">
+          <vrk><url ref="http://esperanto.org.uk/lbe/arkivo/953/08.html">
           El taglibro de najbarino</url></vrk>,
           <lok>La Brita Esperantisto, 2002, a&ubreve;tuno</lok>
        </fnt>.
@@ -314,8 +350,7 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
         de mod<tld/>oj
         <fnt>
           <aut>Vanisa Wei, red. Usui Hiroyuki</aut>
-          <vrk><url
-          ref="http://www.espero.com.cn/2014-04/11/content_32064830.htm">
+          <vrk><url ref="http://www.espero.com.cn/2014-04/11/content_32064830.htm">
           Translokigo de la Zoologiaj Vesta&jcirc;-Bazaroj: papilia
           efiko</url></vrk>
           <lok>El Popola &Ccirc;inio, 2014-04-11</lok>
@@ -338,8 +373,7 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
         <ctl>La Blinda Gardisto</ctl>
         <fnt>
           <aut>T. Sch&ouml;nberner, G. Fischer</aut>,
-          <vrk><url
-                  ref="http://www.esperanto.de/is/bg/9899/is42salo.htm">Saluton
+          <vrk><url ref="http://www.esperanto.de/is/bg/9899/is42salo.htm">Saluton
               karaj!</url></vrk>,
           <lok>1998-11-20</lok>
        </fnt>.
@@ -376,10 +410,8 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
         Vi legis en la anglaj tag<tld/>oj
         <fnt>
           <aut>Lord Byron, trad. W. Auld</aut>,
-          <vrk>El la I-a kanto de &#171;Don Johano&#187;</vrk>,
-          <lok><url ref=
-                    "http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5702/johanou.
-                     html">
+          <vrk>El la I-a kanto de &#xAB;Don Johano&#xBB;</vrk>,
+          <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5702/johanou.                      html">
               Norda Prismo, 57:2</url></lok>
        </fnt>.
      </ekz>
@@ -411,10 +443,7 @@ ref="http://www.esperanto.mv.ru/Gravitavio/08.html"
 </drv>
 </art>
 <!--
-$Log: gazet.xml,v $
-Revision 1.38  2019/01/16 13:10:13  revo
-Jeromo Vasxe: + mod~o
-
+$Log$
 Revision 1.37  2016/11/19 12:10:13  revo
 Darcy Shen: + trd zh
 

@@ -2,17 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: karel.xml,v 1.1 2019/10/21 18:10:22 revo Exp $">
+<art mrk="$Id: karel.xml,v 1.4 2021/04/29 07:50:13 revo Exp $">
 <kap>
   <rad>karel</rad>/o
 </kap>
 <drv mrk="karel.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="karel.0o.devenanto">
     <dif>
-      Iu de <ref tip="vid" cel="karel.K0ujo"><tld lit="K"/>ujo</ref>.
+      Iu, kiu devenas de <ref tip="vid" cel="karel.K0ujo"><tld lit="K"/>ujo</ref>:
+      <ekz>
+        pomoroj (la&ubreve;vorte &leftquot;&ccirc;emaruloj&rightquot;) &mdash; specifa etna grupo de rusoj kaj <tld/>oj &ccirc;e la
+        Blanka maro
+        <fnt>
+          <aut>Jurij German</aut>
+          <vrk><url ref="https://esperanto.mv.ru/German/rus-0.html"
+              >Rusio juna</url></vrk>
+          <lok>Prologo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Tverjaj <tld/>oj <klr>[&#8230;]</klr> fu&gcirc;is el teritorio okcidente kaj norde de Ladoga
+        lago, okupita de Svedio en 1617
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=128324"
+              >Tverjaj kareloj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_r;&c_e;&c_l;</trd>
   <trdgrp lng="en">
     <trd>Kareli</trd>
     <trd>Karelian</trd>
@@ -22,14 +42,24 @@
 
 <drv mrk="karel.K0ujo">
   <kap><tld lit="K"/>ujo</kap>
-  <snc mrk="karel.K0ujo.GEOG">
+  <snc mrk="karel.K0ujo.regiono">
     <uzo tip="fak">GEOG</uzo>
-    <uzo tip="fak">POL</uzo>
     <dif>
-      Sub&scirc;tato en la nord-okcidenta parto de Rusujo, &ccirc;efurbo estas
-      Petrozavodsko.
+      Historia <ref tip="lst" lst="voko:regionoj" cel="region.0o.land">regiono</ref>
+      en la nordoriento de <ref tip="malprt" cel="euxrop1.E0o">E&ubreve;ropo</ref>,
+      nun dividita inter <ref tip="malprt" cel="finn.F0lando">Finnlando</ref> kaj
+      Rusujo.
     </dif>
   </snc>
+  <snc mrk="karel.K0ujo.rusa_subsxtato">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <ref tip="super" cel="sxtat.sub0o">Sub&scirc;tato</ref> 
+      en la nord-okcidenta parto de <ref tip="malprt" cel="rus.R0ujo">Rusujo</ref>,
+      &ccirc;efurbo estas Petrozavodsko.
+    </dif>
+  </snc>
+  <trd lng="be">&c_K;&c_a;&c_r;&c_e;&c_l;&c_ib;&c_ja;</trd>
   <trd lng="de">Karelien</trd>
   <trd lng="en">Karelia</trd>
   <trd lng="fr">Car&eacute;lie</trd>
@@ -38,9 +68,14 @@
 </art>
 
 <!--
-$Log: karel.xml,v $
-Revision 1.1  2019/10/21 18:10:22  revo
-Robin van der Vliet: nova artikolo
+$Log$
+versio 1.4 2021/04/29 07:50:13
+Dmitri Gabinski: +trd be
 
+versio 1.3 2021/01/04 20:49:52
+Wolfram Diestel: ~ujo: +snc regiono
+
+versio 1.2 2020/05/20 20:35:43
+Wolfram Diestel: +ekz-oj
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vel.xml,v 1.38 2017/05/31 09:10:19 revo Exp $">
+<art mrk="$Id: vel.xml,v 1.77 2021/06/18 18:20:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vel</rad>/o <fnt><bib>PV</bib></fnt>
@@ -61,18 +61,54 @@
     <trd lng="ru">&c_m;&c_ja;&c_g;&c_k;&c_o;&c_je;
     <ind>&c_n;&c_jo;&c_b;&c_o;</ind></trd>
   </snc>
+  <trd lng="af">vaar</trd>
+  <trd lng="am">&#x1218;&#x122D;&#x12A8;&#x1265;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x634;&#x631;&#x627;&#x639;</trd>
   <trd lng="bg">&c_p;&c_l;&c_a;&c_t;&c_n;&c_o;</trd>
+  <trd lng="bn">&#x9AA;&#x9BE;&#x9B2; &#x9A4;&#x9CB;&#x9B2;&#x9BE;</trd>
+  <trd lng="co">navigheghja</trd>
   <trdgrp lng="cs">
     <trd>m&ecaron;kk&eacute; patro</trd>,
     <trd>plachtovit&aacute; &rcaron;asa</trd>,
     <trd>v&eacute;lum</trd>,
     <trd>z&aacute;voj</trd>
   </trdgrp>
+  <trd lng="da">sejl</trd>
+  <trd lng="et">puri</trd>
+  <trd lng="eu">sail</trd>
+  <trd lng="fy">sile</trd>
+  <trd lng="gl">vela</trd>
+  <trd lng="gu">&#xAB8;&#xAA2;</trd>
+  <trd lng="ha">ze tashi</trd>
+  <trd lng="hr">jedro</trd>
+  <trd lng="hy">&#x57E;&#x561;&#x580;&#x565;&#x56C;</trd>
+  <trd lng="is">sigla</trd>
+  <trd lng="ja">&#x5E06;</trd>
+  <trd lng="ka">&#x10DB;&#x10DD;&#x10E2;&#x10DD;&#x10E0;&#x10D8;&#x10D0;&#x10DC;&#x10D8;</trd>
+  <trd lng="km">&#x1794;&#x17BE;&#x1780;&#x1780;&#x17D2;&#x178A;&#x17C4;&#x1784;</trd>
+  <trd lng="ko">&#xD56D;&#xD574;</trd>
+  <trd lng="lo">&#xE9B;&#xEC8;&#xEAD;&#xE8D;</trd>
+  <trd lng="ml">&#xD15;&#xD2A;&#xD4D;&#xD2A;&#xD32;&#xD4D;&#xD2F;&#xD3E;&#xD24;&#xD1A;&#xD46;&#xD2F;&#xD4D;&#xD2F;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x936;&#x940;&#x921;</trd>
+  <trd lng="my">&#x101B;&#x103D;&#x1000;&#x103A;</trd>
+  <trd lng="ny">matanga</trd>
+  <trd lng="pa">&#xA1C;&#xA39;&#xA3E;&#xA1C;&#xA3C;</trd>
+  <trd lng="sd">&#x62A;&#x631;&#x646;&#x62F;&#x64A;&#x648;&#x646;</trd>
+  <trd lng="si">&#xDBB;&#xDD4;&#xDC0;&#xDBD;&#xDCA;</trd>
   <trdgrp lng="sk">
     <trd>dvadsa&tcaron; jedna</trd>,
     <trd>oko</trd>,
     <trd>velus</trd>
   </trdgrp>
+  <trd lng="sq">lundrojn&#xEB;</trd>
+  <trd lng="ta">&#xBAA;&#xBC1;&#xBB1;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBCD;&#xB9F;&#xBA4;&#xBC1;</trd>
+  <trd lng="te">&#xC2A;&#xC4D;&#xC30;&#xC2F;&#xC3E;&#xC23;&#xC2E;&#xC2F;&#xC4D;&#xC2F;&#xC3E;&#xC30;&#xC41;</trd>
+  <trd lng="th">&#xE41;&#xE25;&#xE48;&#xE19;&#xE40;&#xE23;&#xE37;&#xE2D;</trd>
+  <trd lng="tl">layag</trd>
+  <trd lng="ur">&#x633;&#x6CC;&#x644;</trd>
+  <trd lng="vi">bu&#x1ED3;m</trd>
+  <trd lng="yi">&#x5D6;&#x5E2;&#x5D2;&#x5DC;</trd>
+  <trd lng="zu">useyili</trd>
 </drv>
 
 <drv mrk="vel.0i">
@@ -97,6 +133,7 @@
     <trd>plout pod plachtami</trd>
   </trdgrp>
   <trd lng="fr">faire <ind>voile</ind></trd>
+  <trd lng="ne">&#x92A;&#x93E;&#x932;</trd>
   <trd lng="sk">plachti&tcaron; <klr>(plachetnicou)</klr></trd>
 </drv>
 
@@ -140,8 +177,7 @@
   <snc mrk="vel.V0aro.AST">
     <uzo tip="fak">AST</uzo>
     <dif>
-      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
-      lst="voko:stelfiguroj">stelfiguro</ref>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">stelfiguro</ref>
       (<trd lng="la">Vela</trd>).
     </dif>
   </snc>
@@ -194,7 +230,7 @@
 
 <drv mrk="vel.bram0o">
   <kap>bram<tld/>o</kap>
-  <snc mrk="vel.bram0.SHI">
+  <snc mrk="vel.bram0o.SHI">
     <uzo tip="fak">SHI</uzo>
     <dif>
       <ref tip="super" cel="vel.0o.SHI"><tld lit="V"/>o</ref>
@@ -224,8 +260,7 @@
   <trd lng="de">Royal</trd>
   <trd lng="en">royal</trd>
   <trd lng="hu">p&oacute;znavitorla</trd>
-  <trd
-  lng="ru">&c_b;&c_o;&c_m;-&c_b;&c_r;&c_a;&c_m;&c_s;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="ru">&c_b;&c_o;&c_m;-&c_b;&c_r;&c_a;&c_m;&c_s;&c_je;&c_l;&c_mol;</trd>
 </drv>
 
 <drv mrk="vel.cxef0o">
@@ -351,7 +386,7 @@
 
 <drv mrk="vel.top0o">
   <kap>top<tld/>o</kap>
-  <snc mrk="vel.top0.SHI">
+  <snc mrk="vel.top0o.SHI">
     <uzo tip="fak">SHI</uzo>
     <dif>
       <ref tip="super" cel="vel.0o.SHI"><tld lit="V"/>o</ref>
@@ -430,9 +465,12 @@
 </drv>
 </art>
 <!--
-$Log: vel.xml,v $
-Revision 1.38  2017/05/31 09:10:19  revo
-Ludoviko Francisco: +ekz +snc->drv V~o
+$Log$
+versio 1.40 2021/05/13 14:51:58
+Wolfram Diestel: kor. snc@mrk
+
+versio 1.39 2021/05/11 17:28:50
+Wolfram Diestel: kor. snc@mrk
 
 Revision 1.37  2017/02/21 12:10:16  revo
 Lyubomir Vasilev: +trd bg
@@ -450,8 +488,5 @@ Revision 1.33  2015/06/05 20:10:15  revo
 Jeromo Vasxe: + ~i
 
 Revision 1.32  2015/01/15 08:10:16  revo
-Russ Williams: +trd en
-
-Revision 1.31  2015/01/06 13:10:17  revo
 -->
 </vortaro>

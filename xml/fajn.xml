@@ -1,18 +1,36 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: fajn.xml,v 1.22 2015/07/04 08:37:34 revo Exp $">
+<art mrk="$Id: fajn.xml,v 1.66 2021/06/18 20:41:35 revo Exp $">
 <kap>
   <rad>fajn</rad>/a
 </kap>
 <drv mrk="fajn.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="fajn.0a.rafinita">
     <dif>
-      Ekstrakvalita, pursubstanca:
+      Ekstra<ref cel="kvalit.0a">kvalita</ref>, pursubstanca:
       <ekz>
         <tld/>a oro, &scirc;tono;
+      </ekz>
+      <ekz>
+        <tld/>sablaj pla&gcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marc Gassion</aut>
+          <vrk><url ref="https://www.monato.be/2003/007934.html">Aude</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        plej <tld/>aj belec-re&gcirc;inoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert Ledon</aut>
+          <vrk><url ref="https://www.monato.be/2003/008015.html">Misa mondo</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind><tld/>igi</ind> metalon.
@@ -26,6 +44,11 @@
         <trd lng="nl">raffineren</trd>
       </ekz>
     </dif>
+    <refgrp tip="sin">
+       <ref cel="krud.mal0a">malkruda</ref>,
+       <ref cel="rafin.0ita">rafinita</ref>
+    </refgrp>
+    <ref tip="super" cel="pur.0a">pura</ref>
     <trd lng="de">fein</trd>
     <trd lng="nl">zuiver</trd>
     <trdgrp lng="hu">
@@ -38,9 +61,11 @@
       <trd>&c_r;&c_a;&c_f;&c_i;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="fajn.0a.delikata">
     <dif>
-      Prezentanta a&ubreve; distinganta akre subtilajn diferencojn:
+      Prezentanta a&ubreve; distinganta akre 
+      <ref tip="sin" cel="subtil.0a">subtila</ref>jn diferencojn;
+      <ref tip="sin" cel="delika.0a.io">delikata</ref>:
       <ekz>
         <tld/>a tolo, man&gcirc;a&jcirc;o, orelo;
       </ekz>
@@ -49,9 +74,66 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <tld/>a gusto.
+        <tld/>a gusto;
+      </ekz>
+      <ekz>
+        ne estus <tld/>e! <klr>[&#x2026;]</klr> preparu nin al &scirc;tormosalt'
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>Lamentado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        farbi &gcirc;in per gua&scirc;o kaj tre <tld/>a peniko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sylvain Lelarge</aut>
+          <vrk><url ref="https://www.monato.be/2004/008496.html">La argilaj najbaretoj de Jesuo provenca tradicio</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj filigranoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007140.html">de Julian Modest</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>kontura silueto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Frank Roger</aut>
+          <vrk><url ref="https://www.monato.be/2004/008248.html">La brulanta virino</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ludoj kun <tld/>aj kaj
+        movi&gcirc;antaj tridimensiaj grafika&jcirc;oj estas la &ccirc;efaj aferoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007114.html">Intel alfrontas konkurencon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la dua fermentado (a&ubreve; maturi&gcirc;procedo) <tld/>igas la guston kaj atribuas pli da
+        mildeco al la biero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode van de Velde</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007144.html">Bierlando Belgio</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="rustik.0a">rustika</ref>
+    <refgrp tip="vid">
+       <ref cel="sublim.0a.delikata">sublima<sncref/></ref>,
+       <ref cel="mild.0a.sense">milda<sncref/></ref>,
+       <ref cel="nobl.0a">nobla</ref>
+    </refgrp>
     <trd lng="nl">delicaat</trd>
     <trd lng="hu">finom</trd>
     <trdgrp lng="ru">
@@ -61,6 +143,10 @@
       <trd>&c_i;&c_z;&c_y;&c_s;&c_k;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trd lng="af">fyn</trd>
+  <trd lng="am">&#x12F0;&#x1205;&#x1293;</trd>
+  <trd lng="ar">&#x63A;&#x631;&#x627;&#x645;&#x629;</trd>
+  <trd lng="az">g&#xF6;z&#x259;l</trd>
   <trdgrp lng="be">
     <trd>&c_f;&c_a;&c_j;&c_n;&c_y;</trd>,
     <trd>&c_t;&c_o;&c_n;&c_k;&c_ib;</trd>,
@@ -70,6 +156,8 @@
     <trd>&c_v;&c_y;&c_s;&c_a;&c_k;&c_a;&c_ja;&c_k;&c_a;&c_s;&c_n;&c_y;</trd>,
     <trd>&c_v;&c_y;&c_s;&c_a;&c_k;&c_a;&c_p;&c_r;&c_o;&c_b;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="bn">&#x99C;&#x9B0;&#x9BF;&#x9AE;&#x9BE;&#x9A8;&#x9BE;</trd>
+  <trd lng="bs">u redu</trd>
   <trdgrp lng="ca">
     <trd>fi</trd>,
     <trd>pur</trd>,
@@ -77,19 +165,46 @@
     <trd>delicat</trd>,
     <trd>exquisit</trd>
   </trdgrp>
+  <trd lng="co">a grana</trd>
   <trdgrp lng="cs">
     <trd>fajn</trd>,
-    <trd>hladký</trd>,
-    <trd>jemný</trd>,
-    <trd>ušlechtilý</trd>,
-    <trd>vybraný</trd>,
-    <trd>vytříbený</trd>
+    <trd>hladk&yacute;</trd>,
+    <trd>jemn&yacute;</trd>,
+    <trd>u&scaron;lechtil&yacute;</trd>,
+    <trd>vybran&yacute;</trd>,
+    <trd>vyt&rcaron;&iacute;ben&yacute;</trd>
+  </trdgrp>
+  <trd lng="da">b&#xF8;de</trd>
+  <trdgrp lng="de">
+    <trd>fein</trd>,
+    <trd>rein</trd>
   </trdgrp>
   <trd lng="en">fine</trd>
+  <trd lng="et">trahvi</trd>
+  <trd lng="eu">fina</trd>
   <trdgrp lng="fr">
     <trd>fin<klr tip="ind"> (d'une grande puret&eacute;)</klr></trd>,
     <trd>raffin&eacute;</trd>
   </trdgrp>
+  <trd lng="fy">moai</trd>
+  <trd lng="gl">multa</trd>
+  <trd lng="gu">&#xAA6;&#xA82;&#xAA1;</trd>
+  <trd lng="ha">lafiya</trd>
+  <trd lng="hi">&#x920;&#x940;&#x915;</trd>
+  <trd lng="hr">fino</trd>
+  <trd lng="hy">&#x57F;&#x578;&#x582;&#x563;&#x561;&#x576;&#x584;</trd>
+  <trd lng="is">f&#xED;nn</trd>
+  <trd lng="ja">&#x7F70;&#x91D1;</trd>
+  <trd lng="jw">nggoleki</trd>
+  <trd lng="ka">&#x10EF;&#x10D0;&#x10E0;&#x10D8;&#x10DB;&#x10D0;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x1795;&#x17B6;&#x1780;&#x1796;&#x17B7;&#x1793;&#x17D0;&#x1799;</trd>
+  <trd lng="ko">&#xC798;</trd>
+  <trd lng="lo">&#xEAD;&#xEB1;&#xE99;&#xE94;&#xEB5;&#xE87;&#xEB2;&#xEA1;</trd>
+  <trd lng="ml">&#xD2A;&#xD3F;&#xD34;</trd>
+  <trd lng="mr">&#x938;&#x941;&#x930;&#x947;&#x916;</trd>
+  <trd lng="my">&#x1000;&#x1031;&#x102C;&#x1004;&#x103A;&#x1038;&#x101E;&#x1031;&#x102C;</trd>
+  <trd lng="ny">zabwino</trd>
+  <trd lng="pa">&#xA1C;&#xA41;&#xA30;&#xA2E;&#xA3E;&#xA28;&#xA3E;</trd>
   <trdgrp lng="pl">
     <trd>doskona&lstroke;y</trd>,
     <trd>pierwszorz&eogonek;dny</trd>,
@@ -103,18 +218,35 @@
     <trd>subtelny</trd>,
     <trd>wra&zdot;liwy</trd>
   </trdgrp>
+  <trd lng="ps">&#x69A;&#x647;</trd>
   <trdgrp lng="pt">
     <trd>pur&iacute;ssimo</trd>,
     <trd>extrafino</trd>,
     <trd>de <ind>primeira</ind></trd>,
     <trd>refinado</trd>
   </trdgrp>
+  <trd lng="sd">&#x67A;&#x64A;&#x6AA;</trd>
+  <trd lng="si">&#xDAF;&#xDA9;</trd>
   <trdgrp lng="sk">
-    <trd>drobný</trd>,
-    <trd>jemný</trd>,
-    <trd>subtílny</trd>,
-    <trd>útly</trd>
+    <trd>drobn&yacute;</trd>,
+    <trd>jemn&yacute;</trd>,
+    <trd>subt&iacute;lny</trd>,
+    <trd>&uacute;tly</trd>
   </trdgrp>
+  <adm>
+    Necesas klarigi la distingajn nuancojn inter malkruda, delikata, sublima kaj
+    subtila - se tiaj entute ekzistas.
+  </adm>
+  <trd lng="sq">gjob&#xEB;</trd>
+  <trd lng="st">ntle</trd>
+  <trd lng="ta">&#xBA8;&#xBA9;&#xBCD;&#xBB1;&#xBBE;&#xB95;</trd>
+  <trd lng="te">&#xC1C;&#xC30;&#xC3F;&#xC2E;&#xC3E;&#xC28;&#xC3E;</trd>
+  <trd lng="th">&#xE1B;&#xE23;&#xE31;&#xE1A;</trd>
+  <trd lng="tl">mainam</trd>
+  <trd lng="ur">&#x679;&#x6BE;&#x6CC;&#x6A9;</trd>
+  <trd lng="vi">t&#x1ED1;t</trd>
+  <trd lng="yi">&#x5E4;&#x5D9;&#x5D9;&#x5B7;&#x5DF;</trd>
+  <trd lng="zu">emihle</trd>
 </drv>
 
 <drv mrk="fajn.pli0a">
@@ -149,7 +281,7 @@
     </rim>
   </snc>
   <trd lng="ca">m&eacute;s fi[na] (mat. topol.)</trd>
-  <trd lng="cs">jemnější</trd>
+  <trd lng="cs">jemn&ecaron;j&scaron;&iacute;</trd>
   <trd lng="de">feiner</trd>
   <trd lng="en">finer<klr tip="ind"> (math.)</klr></trd>
   <trd lng="fr">plus <ind>fin</ind><klr tip="ind"> (math.)</klr></trd>
@@ -158,13 +290,16 @@
   <trd lng="ru">&c_b;&c_o;&c_l;&c_je;&c_je; <ind>
   &c_t;&c_o;&c_n;&c_k;&c_i;&c_j;</ind><klr tip="ind"> (&c_m;&c_a;&c_t;.)
   </klr></trd>
-  <trd lng="sk">jemnejší</trd>
+  <trd lng="sk">jemnej&scaron;&iacute;</trd>
 </drv>
 </art>
 <!--
-$Log: fajn.xml,v $
-Revision 1.22  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.24 2020/09/12 08:32:31
+Wolfram Diestel: +snc-mrk, pliaj ref-oj (sin/ant)
+
+versio 1.23 2020/09/11 06:32:23
+Wolfram Diestel: +ekz-oj, ref-oj
 
 Revision 1.21  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
@@ -182,14 +317,5 @@ Revision 1.17  2007/12/05 17:30:23  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.16  2007/05/13 16:30:40  revo
-Tulio Flores: +tr pt
-
-Revision 1.15  2005/02/07 17:31:55  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/09/17 16:31:28  revo
-Yury Finkel: kor ref cel
-
-Revision 1.13 2003/09/16 16:31:23 revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ond.xml,v 1.27 2019/08/30 18:10:15 revo Exp $">
+<art mrk="$Id: ond.xml,v 1.71 2021/06/19 06:38:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ond</rad>/o
@@ -24,6 +23,7 @@
         la &scirc;a&ubreve;mantaj <tld/>oj.
       </ekz>
     </dif>
+  <trd lng="bo">&#xF62;&#xFB3;&#xF56;&#xF66;&#xF0B;</trd>
   <trd lng="es">ola</trd>
   </snc>
   <snc mrk="ond.0o.forma">
@@ -83,25 +83,67 @@
     </refgrp>
   <trd lng="es">oleada</trd>
   </snc>
+  <trd lng="af">golf</trd>
+  <trd lng="am">&#x121B;&#x12D5;&#x1260;&#x120D;</trd>
+  <trd lng="ar">&#x645;&#x648;&#x62C;&#x629;</trd>
+  <trd lng="az">dal&#x11F;a</trd>
   <trd lng="be">&c_h;&c_v;&c_a;&c_l;&c_ja;</trd>
+  <trd lng="bn">&#x9A4;&#x9B0;&#x999;&#x9CD;&#x997;</trd>
+  <trd lng="co">suddisfava</trd>
   <trd lng="cs">vlna <klr>(na vod&ecaron;)</klr></trd>
+  <trd lng="da">b&#xF8;lge</trd>
   <trd lng="de">Welle</trd>
   <trd lng="en">wave</trd>
+  <trd lng="et">laine</trd>
+  <trd lng="eu">uhin</trd>
   <trdgrp lng="fr">
     <trd>onde</trd>,
     <trd>vague<klr tip="amb"> (subst.)</klr></trd>
   </trdgrp>
+  <trd lng="fy">weach</trd>
+  <trd lng="gl">onda</trd>
+  <trd lng="gu">&#xAA4;&#xAB0;&#xA82;&#xA97;</trd>
+  <trd lng="ha">kalaman</trd>
+  <trd lng="hi">&#x932;&#x939;&#x930;</trd>
+  <trd lng="hr">val</trd>
   <trd lng="hu">hull&aacute;m</trd>
+  <trd lng="hy">&#x561;&#x56C;&#x56B;&#x584;</trd>
   <trdgrp lng="id">
     <trd>gelombang</trd>,
     <trd>ombak</trd>
   </trdgrp>
+  <trd lng="is">bylgja</trd>
+  <trd lng="ja">&#x6CE2;</trd>
+  <trd lng="jw">gelombang</trd>
+  <trd lng="ka">&#x10E2;&#x10D0;&#x10DA;&#x10E6;&#x10D0;</trd>
+  <trd lng="km">&#x179A;&#x179B;&#x1780;</trd>
+  <trd lng="ko">&#xD30C;</trd>
+  <trd lng="lo">&#xE84;&#xEB7;&#xEC9;&#xE99;</trd>
+  <trd lng="ml">&#xD24;&#xD3F;&#xD30;&#xD2E;&#xD3E;&#xD32;</trd>
+  <trd lng="mr">&#x932;&#x939;&#x930;</trd>
+  <trd lng="my">&#x101C;&#x103E;&#x102D;&#x102F;&#x1004;&#x103B;&#x1038;</trd>
+  <trd lng="ne">&#x932;&#x939;&#x930;</trd>
   <trd lng="nl">golf</trd>
+  <trd lng="ny">yoweyula</trd>
+  <trd lng="pa">&#xA32;&#xA39;&#xA3F;&#xA30;</trd>
+  <trd lng="ps">&#x685;&#x67E;&#x6D0;</trd>
   <trd lng="pt">onda</trd>
   <trd lng="ru">&c_v;&c_o;&c_l;&c_n;&c_a;</trd>
+  <trd lng="sd">&#x645;&#x648;&#x62C;</trd>
+  <trd lng="si">&#xDBB;&#xDD0;&#xDBD;&#xDCA;&#xDBD;</trd>
   <trd lng="sk">vlna <klr>(na vode)</klr></trd>
+  <trd lng="sq">vala</trd>
+  <trd lng="st">tsokoang ka</trd>
   <trd lng="sv">v&aring;g</trd>
+  <trd lng="ta">&#xB85;&#xBB2;&#xBC8;</trd>
+  <trd lng="te">&#xC05;&#xC32;</trd>
+  <trd lng="th">&#xE04;&#xE25;&#xE37;&#xE48;&#xE19;</trd>
+  <trd lng="tl">alon</trd>
   <trd lng="uk">&c_h;&c_v;&c_i;&c_l;&c_ja;</trd>
+  <trd lng="ur">&#x644;&#x6C1;&#x631;</trd>
+  <trd lng="vi">s&#xF3;ng</trd>
+  <trd lng="yi">&#x5DB;&#x5D5;&#x5D5;&#x5D0;&#x5B7;&#x5DC;&#x5D9;&#x5E2;</trd>
+  <trd lng="zu">qhweba</trd>
 </drv>
 
 <drv mrk="ond.0a">
@@ -150,7 +192,10 @@
     <trd>hull&aacute;m-</trd>,
     <trd>hull&aacute;mos</trd>
   </trdgrp>
-  <trd lng="id">[<ind>gelombang</ind>] bergelombang</trd>
+  <trdgrp lng="id">
+    <trd>ber<ind>gelombang</ind></trd>,
+    <trd>ber<ind>ombak</ind></trd>
+  </trdgrp>
   <trd lng="nl">golvend</trd>
   <trd lng="pt">ondulado</trd>
   <trdgrp lng="ru">
@@ -469,28 +514,11 @@
 </drv>
 </art>
 <!--
-$Log: ond.xml,v $
-Revision 1.27  2019/08/30 18:10:15  revo
-Guillermo Molleda Jimena: trd es
+$Log$
+versio 1.29 2020/12/29 11:10:35
+Aleks Andre: +trd bo
 
-Revision 1.26  2019/04/17 22:10:21  revo
-Jeromo Vasxe: + mar~ego
-
-Revision 1.25  2015/11/18 15:10:15  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.24  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.23  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2014/06/10 10:10:18  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.21  2012/10/23 00:13:16  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.20  2009/10/15 16:32:50  revo
+versio 1.28 2020/05/01 14:10:20
+Eko Nur Syah Hidayat: korekteto
 -->
 </vortaro>

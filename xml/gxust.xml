@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gxust.xml,v 1.28 2020/02/17 17:10:17 revo Exp $">
+<art mrk="$Id: gxust.xml,v 1.73 2021/06/18 20:41:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&gcirc;ust</rad>/a <fnt><bib>PV</bib></fnt>
@@ -11,7 +10,7 @@
   <kap><ofc>*</ofc><tld/>a</kap>
   <snc mrk="gxust.0a.vero">
     <dif>
-      Severe konforma al la vero a&ubreve; regulo:
+      Ekzakte konforma al la vero a&ubreve; regulo:
       <ekz>
         <tld/>a sentenco, ago<fnt>B</fnt>,
       </ekz>
@@ -38,10 +37,11 @@
         </trdgrp>
       </ekz>
     </dif>
+    <trd lng="ja">&#x6B63;&#x3057;&#x3044;</trd>
   </snc>
   <snc mrk="gxust.0a.celo">
     <dif>
-      Severe konforma al sia celo:
+      Ekzakte konforma al la intencita celo, ta&ubreve;ga por la cirkonstanco:
       <ekz>
         multe da fian&ccirc;oj, sed la <tld/>a ne venas<fnt>
         <bib>PrV</bib></fnt>;
@@ -87,41 +87,17 @@
         malbongusta<fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        <ind><tld/>atempe</ind><fnt>Z</fnt>.
-        <trdgrp lng="en">
-          <trd>on time</trd>,
-          <trd>in time</trd>,
-          <trd>timely</trd>
-        </trdgrp>
-        <trdgrp lng="es">
-          <trd>a <ind>tiempo</ind></trd>,
-          <trd>en buen <ind>momento</ind></trd>
-        </trdgrp>
-        <trdgrp lng="fr">
-          <trd>au bon <ind>moment</ind></trd>,
-          <trd>&agrave; <ind>temps</ind></trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>idej&eacute;ben</trd>,
-          <trd>j&oacute;kor</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>op tijd</trd>,
-          <trd>bijtijds</trd>,
-          <trd>tijdig</trd>
-        </trdgrp>
-        <trdgrp lng="pl">
-          <trd>w por&eogonek;</trd>,
-          <trd>na czas</trd>,
-          <trd>we w&lstroke;a&sacute;ciwym czasie</trd>
-        </trdgrp>
+        <ref tip="vid" cel="temp.gxusta0e"><tld/>atempe</ref><fnt>Z</fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="tauxg.0a">ta&ubreve;ga</ref>
     <refgrp tip="vid">
       <ref cel="vok.0i">voki</ref>,
       <ref cel="temp.0o">tempo</ref>.
     </refgrp>
+    <trd lng="ja">&#x9069;&#x5207;&#x306A; [<ind>&#x3066;&#x304D;&#x305B;&#x3064;&#x306A;</ind>]</trd>
   </snc>
+  <trd lng="bo">&#xF51;&#xF44;&#xF7C;&#xF66;&#xF0B;&#xF42;&#xF53;&#xF66;&#xF0B;</trd>
   <trdgrp lng="de">
     <trd>richtiger</trd>,
     <trd>rechter <klr tip="ind">(richtiger)</klr></trd>
@@ -152,6 +128,7 @@
     <trd>megfelel&odblac;</trd>,
     <trd>igazi</trd>
   </trdgrp>
+  <trd lng="io">justa</trd>
   <trdgrp lng="it">
     <trd>giusto<klr> (appropriato, adatto, preciso)</klr></trd>,
     <trd>adatto<klr> (giusto)</klr></trd>,
@@ -160,6 +137,7 @@
     <trd>esatto<klr> (senza errori)</klr></trd>,
     <trd>corretto<klr> (giusto)</klr></trd>
   </trdgrp>
+  <trd lng="ne">&#x92C;&#x938;</trd>
   <trd lng="nl">juist</trd>
   <trdgrp lng="pl">
     <trd>akurat</trd>,
@@ -202,6 +180,7 @@
       </ekz>
     </dif>
     <trd lng="hu">helyesen</trd>
+    <trd lng="ja">&#x6B63;&#x3057;&#x304F; [<ind>&#x305F;&#x3060;&#x3057;&#x304F;</ind>]</trd>
     <trdgrp lng="nl">
       <trd>juist</trd>,
       <trd>inderdaad</trd>
@@ -227,15 +206,26 @@
       </ekz>
     </dif>
     <trd lng="hu">&eacute;ppen</trd>
+    <trdgrp lng="ja">
+      <trd>&#x3061;&#x3087;&#x3046;&#x3069;</trd>,
+      <trd>&#x3074;&#x3063;&#x305F;&#x308A;</trd>
+    </trdgrp>
     <trdgrp lng="nl">
       <trd>precies</trd>,
       <trd>exact</trd>
     </trdgrp>
   </snc>
+  <trd lng="af">korrekte</trd>
+  <trd lng="am">&#x1275;&#x12AD;&#x12AD;&#x120D;</trd>
+  <trd lng="ar">&#x635;&#x62D;&#x64A;&#x62D;</trd>
+  <trd lng="az">d&#xFC;zg&#xFC;n</trd>
+  <trd lng="bn">&#x9B8;&#x9A0;&#x9BF;&#x995;</trd>
+  <trd lng="bs">ispravan</trd>
   <trdgrp lng="cs">
     <trd>spr&aacute;vn&ecaron;</trd>,
     <trd>pr&aacute;v&ecaron;</trd>
   </trdgrp>
+  <trd lng="da">korrekt</trd>
   <trdgrp lng="de">
     <trd>richtig</trd>,
     <trd>genau</trd>
@@ -253,6 +243,8 @@
     <trd>exactamente</trd>,
     <trd>precisamente</trd>
   </trdgrp>
+  <trd lng="et">&#xF5;ige</trd>
+  <trd lng="eu">zuzena</trd>
   <trdgrp lng="fr">
     <trd>juste<klr tip="ind"> (adv.)</klr></trd>,
     <trd>justement</trd>,
@@ -262,12 +254,32 @@
     <trd>exactement</trd>,
     <trd>pr&eacute;cis&eacute;ment</trd>
   </trdgrp>
+  <trd lng="fy">korrekt</trd>
+  <trd lng="gl">correcto</trd>
+  <trd lng="gu">&#xAAF;&#xACB;&#xA97;&#xACD;&#xAAF;</trd>
+  <trd lng="ha">daidai</trd>
+  <trd lng="hi">&#x938;&#x939;&#x940;</trd>
+  <trd lng="hr">to&#x10D;ne</trd>
+  <trd lng="hy">&#x573;&#x56B;&#x577;&#x57F;</trd>
+  <trd lng="io">juste</trd>
+  <trd lng="is">r&#xE9;tt</trd>
   <trdgrp lng="it">
     <trd>giustamente<klr> (correttamente, proprio)</klr></trd>,
     <trd>corretamente</trd>,
     <trd>precisamente</trd>, 
     <trd>proprio<klr> (avv.)</klr></trd>
   </trdgrp>
+  <trd lng="jw">bener</trd>
+  <trd lng="ka">&#x10E1;&#x10EC;&#x10DD;&#x10E0;&#x10D8;</trd>
+  <trd lng="km">&#x178F;&#x17D2;&#x179A;&#x17B9;&#x1798;&#x178F;&#x17D2;&#x179A;&#x17BC;&#x179C;</trd>
+  <trd lng="ko">&#xC815;&#xD655;&#xD55C;</trd>
+  <trd lng="lo">&#xEC4;&#xE9B;</trd>
+  <trd lng="ml">&#xD36;&#xD30;&#xD3F;&#xD2F;&#xD3E;&#xD2F;</trd>
+  <trd lng="mr">&#x92F;&#x94B;&#x917;&#x94D;&#x92F;</trd>
+  <trd lng="my">&#x1019;&#x103E;&#x1014;&#x103A;&#x1000;&#x1014;&#x103A;&#x101E;&#x1031;&#x102C;</trd>
+  <trd lng="ne">&#x938;&#x939;&#x940;</trd>
+  <trd lng="ny">zolondola</trd>
+  <trd lng="pa">&#xA28;&#xA42;&#xA70; &#xA38;&#xA39;&#xA40;</trd>
   <trdgrp lng="pl">
     <trd>akurat</trd>,
     <trd>dok&lstroke;adnie</trd>,
@@ -277,6 +289,7 @@
     <trd>w&lstroke;a&sacute;ciwie</trd>
     <trd>w sam raz</trd>
   </trdgrp>
+  <trd lng="ps">&#x635;&#x62D;&#x64A;&#x62D;</trd>
   <trdgrp lng="pt">
     <trd>adequadamente</trd>,
     <trd>corretamente</trd>,
@@ -288,6 +301,18 @@
     <trd>&c_v; &c_t;&c_o;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>,
     <trd>&c_k;&c_a;&c_k; &c_r;&c_a;&c_z;</trd>
   </trdgrp>
+  <trd lng="sd">&#x635;&#x62D;&#x64A;&#x62D;</trd>
+  <trd lng="si">&#xDB1;&#xDD2;&#xDC0;&#xDD0;&#xDBB;&#xDAF;&#xDD2;</trd>
+  <trd lng="sq">sakt&#xEB;</trd>
+  <trd lng="st">e nepahetseng</trd>
+  <trd lng="ta">&#xB9A;&#xBB0;&#xBBF;&#xBAF;&#xBBE;&#xBA9;</trd>
+  <trd lng="te">&#xC38;&#xC30;&#xC48;&#xC28;</trd>
+  <trd lng="th">&#xE16;&#xE39;&#xE01;&#xE15;&#xE49;&#xE2D;&#xE07;</trd>
+  <trd lng="tl">tama</trd>
+  <trd lng="ur">&#x635;&#x62D;&#x6CC;&#x62D;</trd>
+  <trd lng="vi">ch&#xED;nh x&#xE1;c</trd>
+  <trd lng="yi">&#x5E8;&#x5D9;&#x5DB;&#x5D8;&#x5D9;&#x5E7;</trd>
+  <trd lng="zu">lobenele</trd>
 </drv>
 
 <drv mrk="gxust.0i">
@@ -307,13 +332,16 @@
       <ekz>
         la malnovaj mapoj ankora&ubreve; &gcirc;ustis, kaj mi ne havis problemojn
         <fnt>
-          <aut>S. Lang</aut>
+          <aut>Sonja Lang</aut>
           <vrk>La Soleno</vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">be correct</trd>
+  <trd lng="io">esar justa</trd>
+  <trd lng="nl">juist zijn</trd>
 </drv>
 
 <drv mrk="gxust.0ajxo">
@@ -364,6 +392,7 @@
       <ref cel="regul.0igi">reguligi</ref>.
     </refgrp>
   </snc>
+  <trd lng="bo">&#xF61;&#xF7C;&#xF0B;&#xF56;&#xF66;&#xFB2;&#xF44;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
   <trdgrp lng="de">
     <trd>berichtigen</trd>,
     <trd>richten<klr tip="ind"> (Krawatte)</klr></trd>,
@@ -410,6 +439,117 @@
   </trdgrp>
 </drv>
 
+<drv mrk="gxust.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="gxust.mal0a.vero">
+    <dif>
+      Ne konforma al la vero a&ubreve; regulo:
+      <ekz>
+        a&ubreve;skultu mian parolon, kaj ripro&ccirc;u al mi mal<tld/>ajn konkludojn
+        <fnt><bib>I&scirc;tar</bib></fnt>;
+      </ekz>
+      <ekz>
+        ni devas esti tre singardaj nur en tiaj okazoj, en kiuj ni povus
+        ricevi <klr>[...]</klr> tute mal<tld/>an sencon
+        <fnt><bib>LR</bib></fnt>;
+      </ekz>
+      <ekz>
+        sed tiu kredo estas nur supozo, <klr>[...]</klr> kiu en la
+        plimulto da okazoj estas tute mal<tld/>a
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk>Gentoj kaj Lingvo Internacia</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ja">
+      <trd>&#x9593;&#x9055;&#x3063;&#x305F; [<ind>&#x307E;&#x3061;&#x304C;&#x3063;&#x305F;</ind>]</trd>,
+      <trd>&#x4E0D;&#x6B63;&#x78BA;&#x306A; [<ind>&#x3075;&#x305B;&#x3044;&#x304B;&#x304F;&#x306A;</ind>]</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="gxust.mal0a.celo">
+    <dif>
+      Ne konforma al la intencita celo, malta&ubreve;ga por la cirkonstanco:
+      <ekz>
+        kiu iras mal<tld/>an vojon, tiu subite falos
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 28:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        korpa degenerado de nia gento, kiu parte certe dependas anka&ubreve; de
+        aliaj mal<tld/>aj kondi&ccirc;oj de vivo
+        <fnt><bib>FK</bib></fnt>;
+      </ekz>
+      <ekz>
+        oni diris, ke mi iris en la mal<tld/>a direkto &ccirc;e forko de la
+        monteta vojo pasintvespere
+        <fnt>
+          <aut>Sonja Lang</aut>
+          <vrk>La Soleno</vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="tauxg.mal0a">malta&ubreve;ga</ref>
+  </snc>
+  <trd lng="af">verkeerd</trd>
+  <trd lng="am">&#x1235;&#x1205;&#x1270;&#x1275;</trd>
+  <trd lng="ar">&#x62E;&#x627;&#x637;&#x626;</trd>
+  <trd lng="az">yanl&#x131;&#x15F;</trd>
+  <trd lng="bn">&#x9AD;&#x9C1;&#x9B2;</trd>
+  <trd lng="bo">&#xF53;&#xF7C;&#xF62;&#xF0B;</trd>
+  <trd lng="bs">u redu</trd>
+  <trd lng="da">forkert</trd>
+  <trdgrp lng="en">
+    <trd>incorrect</trd>,
+    <trd>wrong<klr tip="ind"> (incorrect, unsuitable)</klr></trd>,
+    <trd>unsuitable</trd>
+  </trdgrp>
+  <trd lng="et">vale</trd>
+  <trd lng="eu">oker</trd>
+  <trd lng="fy">ferkeard</trd>
+  <trd lng="gl">mal</trd>
+  <trd lng="gu">&#xA96;&#xACB;&#xA9F;&#xAC1;&#xA82;</trd>
+  <trd lng="ha">ba daidai ba</trd>
+  <trd lng="hi">&#x917;&#x932;&#x924;</trd>
+  <trd lng="hr">pogre&#x161;no</trd>
+  <trd lng="hy">&#x57D;&#x56D;&#x561;&#x56C;</trd>
+  <trd lng="io">nejusta</trd>
+  <trd lng="is">rangt</trd>
+  <trd lng="jw">salah</trd>
+  <trd lng="ka">&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10EC;&#x10DD;&#x10E0;&#x10D8;</trd>
+  <trd lng="km">&#x1781;&#x17BB;&#x179F;</trd>
+  <trd lng="ko">&#xB098;&#xC05C;</trd>
+  <trd lng="lo">&#xE9C;&#xEB4;&#xE94;&#xE9E;&#xEB2;&#xE94;</trd>
+  <trd lng="ml">&#xD24;&#xD46;&#xD31;&#xD4D;&#xD31;&#xD3E;&#xD2F;</trd>
+  <trd lng="mr">&#x91A;&#x942;&#x915;</trd>
+  <trd lng="my">&#x1019;&#x103E;&#x102C;&#x1038;&#x101E;&#x1031;&#x102C;</trd>
+  <trd lng="ne">&#x917;&#x932;&#x924;</trd>
+  <trdgrp lng="nl">
+    <trd>onjuist</trd>,
+    <trd>fout<klr tip="ind"> (onjuist)</klr></trd>,
+    <trd>verkeerd</trd>,
+    <trd>incorrect</trd>
+  </trdgrp>
+  <trd lng="ny">cholakwika</trd>
+  <trd lng="pa">&#xA17;&#xA32;&#xA24; &#xA39;&#xA48;</trd>
+  <trd lng="ps">&#x63A;&#x644;&#x637;</trd>
+  <trd lng="sd">&#x638;&#x644;&#x645;</trd>
+  <trd lng="si">&#xDC0;&#xDD0;&#xDBB;&#xDAF;&#xDD2;</trd>
+  <trd lng="sq">gabuar</trd>
+  <trd lng="st">fosahetseng</trd>
+  <trd lng="ta">&#xBA4;&#xBB5;&#xBB1;&#xBC1;</trd>
+  <trd lng="te">&#xC24;&#xC2A;&#xC4D;&#xC2A;&#xC41;</trd>
+  <trd lng="th">&#xE1C;&#xE34;&#xE14;</trd>
+  <trd lng="tl">mali</trd>
+  <trd lng="ur">&#x63A;&#x644;&#x637;</trd>
+  <trd lng="vi">sai</trd>
+  <trd lng="yi">&#x5E7;&#x5D0;&#x5B7;&#x5DC;&#x5D9;&#x5E2;</trd>
+  <trd lng="zu">okungalungile</trd>
+</drv>
+
 <drv mrk="gxust.al0igi">
   <kap>al<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
@@ -452,21 +592,19 @@
 </drv>
 
 <drv mrk="gxust.pli0e">
-  <kap>pli<tld/>e</kap>
+  <kap>pli <tld/>e</kap>
   <snc mrk="gxust.pli0e.ARG">
     <dif>
-      Pli bone dirante, korektante la anta&ubreve;an diron:
+      Pli precize; pli bone dirante, korektante la anta&ubreve;an dira&jcirc;on:
       <ekz>
-        mi devas aldoni, ke ili pli<tld/>e ludis per mi ol kun mi
-        <fnt>
-        <aut>J. Ribillard</aut>
-        <vrk><url
-ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr16/
-msaudu.html">
-        Pre&gcirc;o de M' saud</url></vrk>
-        <lok>Nica Literatura Revuo, 1956-07 &gcirc;is 08, numero 1/6,
-        p. 223-228a</lok>
-        </fnt>.
+        la neobservado de la supre donita regulo (a&ubreve; pli &gcirc;uste konsilo)
+        ne estas eraro
+        <fnt><bib>LR</bib></fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> estas mirinda&jcirc;o de la naturo, a&ubreve; pli &gcirc;uste de
+        la Kreinto de la naturo
+        <fnt><bib>FK</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -544,7 +682,10 @@ msaudu.html">
 </drv>
 </art>
 <!--
-$Log: gxust.xml,v $
+$Log$
+versio 1.29 2020/05/11 15:42:55
+Sam Penter: +mal~a; pli detala difino cxe ~a; movo ~atempe-trd-oj al temp.xml; +trd
+
 Revision 1.28  2020/02/17 17:10:17  revo
 Sam Penter: +trd nl en
 
@@ -564,8 +705,5 @@ Revision 1.23  2009/03/28 17:30:50  revo
 Antonio Codazzi: +trd it
 
 Revision 1.22  2008/04/17 17:52:10  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.21  2008/03/18 17:30:19  revo
 -->
 </vortaro>

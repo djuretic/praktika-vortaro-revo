@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: glob.xml,v 1.40 2020/02/14 17:10:24 revo Exp $">
+<art mrk="$Id: glob.xml,v 1.42 2021/05/28 14:15:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>glob</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,8 +11,7 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="glob.0o.FORM">
     <dif>
-      Fizika objekto, <ref tip="lst" lst="voko:formoj"
-      cel="korp.0o.objekto">korpo<sncref/></ref>,
+      Fizika objekto, <ref tip="lst" lst="voko:formoj" cel="korp.0o.objekto">korpo<sncref/></ref>,
       kies supra&jcirc;o pli a&ubreve; malpli
       &gcirc;uste formas <ref cel="sfer.0o.surfaco">sferon<sncref/></ref>:
       <ekz>
@@ -32,6 +30,11 @@
         <uzo tip="fak">GEOG</uzo>
         kartona <ind>geografia <tld/>o</ind>
         <klr>(t.e. <ref cel="globus.0o">globuso</ref>)</klr>;
+        <trdgrp lng="es">
+          <trd>globo terrestre</trd>,
+          <trd>globo terr&aacute;queo</trd>,
+          <trd>orbe</trd>
+        </trdgrp>
         <trd lng="fr">globe<klr tip="ind">
         (repr&eacute;sentant la Terre)</klr></trd>
         <trd lng="hu">f&ouml;ldg&ouml;mb</trd>
@@ -65,14 +68,15 @@
         a&ubreve;guristoj)</klr>, do ni nur atendu kaj vidu
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref='http://www.esperanto.be/fel/mon/006821.html'>E&Ubreve;ROPA UNIO:
+          <vrk><url ref="http://www.esperanto.be/fel/mon/006821.html">E&Ubreve;ROPA UNIO:
           E&ubreve;ro unujara</url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Kugel</trd>
-    <trd lng="es">globo</trd>
+    <trdgrp lng="es">
+      <trd>bola</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>globe</trd>,
       <trd>boule</trd>
@@ -98,7 +102,7 @@
         (<frm am="d lt rho"><k>d</k>&lt;&rho;</frm>, por
         &leftquot;<ref cel="ferm.mal0ita.metrikaspaco">malfermita</ref>
         <tld/>o&rightquot;),
-        a&ubreve; ne superas (<frm am="d le rho"><k>d</k>&#8804;&rho;</frm>, por
+        a&ubreve; ne superas (<frm am="d le rho"><k>d</k>&#x2264;&rho;</frm>, por
         &leftquot;<ref cel="ferm.0ita.topologio">fermita</ref> <tld/>o&rightquot;).
       </dif>
       <rim>
@@ -107,6 +111,8 @@
       </rim>
       <trd lng="de">Kugel</trd>
       <trd lng="en">ball<klr tip="ind"> (in a metric space)</klr></trd>
+      <trd lng="es">bola<klr tip="ind"> (de un espacio
+      m&eacute;trico)</klr></trd>
       <trd lng="fr">boule<klr tip="ind"> (dans un espace
       m&eacute;trique)</klr></trd>
       <trd lng="pl">kula<klr> (w przestrzeni metrycznej)</klr></trd>
@@ -117,13 +123,11 @@
       <dif>
         (Speciale:) Same difinita (fermita a&ubreve; malfermita)
         <tld/>o<sncref ref="glob.0o.metrikaspaco"/> 
-        (<ref tip="super"
-        cel="solid.0o.geometrio">solido<sncref/></ref>) en
+        (<ref tip="super" cel="solid.0o.geometrio">solido<sncref/></ref>) en
         tridimensia e&ubreve;klida spaco:
         <ekz>
           la volumeno <frm am="V">V</frm> de <tld/>o havanta la radiuson
-          <frm am="r">r</frm> estas <frm am="V=4pi r^3//3"
-          >V = 4&pi;r&cubic;/3</frm>;
+          <frm am="r">r</frm> estas <frm am="V=4pi r^3//3">V = 4&pi;r&cubic;/3</frm>;
         </ekz>
         <ekz>
           <uzo tip="fak">SPO</uzo>
@@ -131,8 +135,7 @@
           difinitaj pezo kaj diametro
           <fnt>
             <aut>T. Ujlaky-Nagy</aut>:
-            <vrk><url
-            ref="http://www.freeweb.hu/eventoj/steb/sportalingvo.rtf">
+            <vrk><url ref="http://www.freeweb.hu/eventoj/steb/sportalingvo.rtf">
             La sporta lingvo en Esperanto</url></vrk>.
             <lok>1972</lok>
           </fnt>.
@@ -143,6 +146,10 @@
       <trdgrp lng="en">
         <trd>sphere</trd>,
         <trd>ball<klr tip="ind"> (solid)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>esfera</trd>,
+        <trd>bola<klr tip="ind"> (volumen esf&eacute;rico)</klr></trd>
       </trdgrp>
       <trdgrp lng="fr">
         <trd>sph&egrave;re</trd>,
@@ -204,6 +211,7 @@
       <trd>&c_s;&c_f;&c_e;&c_r;&c_y;&c_ch;&c_n;&c_y;</trd>
     </trdgrp>
     <trd lng="de">kugelig</trd>
+    <trd lng="es">esf&eacute;rico</trd>
     <trdgrp lng="fr">
       <trd>rond<klr tip="ind"> (sph&eacute;rique)</klr></trd>,
       <trd>sph&eacute;rique</trd>
@@ -233,11 +241,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="es">
+      <trd>global</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_g;&c_l;&c_o;&c_b;&c_a;&c_l;&c_n;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_v;&c_s;&c_je;&c_m;&c_i;&c_r;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trd lng="bo">&#xF62;&#xF72;&#xF63;&#xF0B;&#xF62;&#xF72;&#xF63;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>kulat&yacute;</trd>,
     <trd>kulov&yacute;</trd>
@@ -256,7 +268,6 @@
       <ekz>
         <uzo tip="fak">BIO</uzo>
         sangaj <tld/>etoj;
-        <trd lng="es">gl&oacute;bulo</trd>
       </ekz>
       <ekz>
         <uzo tip="fak">MED</uzo>
@@ -283,6 +294,9 @@
   </adm>
   <trd lng="be">&c_sh;&c_a;&c_r;&c_y;&c_k;</trd>
   <trd lng="de">K&uuml;gelchen</trd>
+  <trdgrp lng="es">
+    <trd>gl&oacute;bulo</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>globule</trd>,
     <trd>bulle</trd>,
@@ -311,6 +325,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">gl&oacute;bulo blanco</trd>
   <trd lng="id"><ind>sel</ind> darah putih</trd>
 </drv>
 
@@ -392,6 +407,7 @@
     </adm>
   </snc>
   <trd lng="de">Garnkn&auml;uel</trd>
+  <trd lng="es">ovillo</trd>
   <trd lng="fr">pelote</trd>
   <trd lng="pl">k&lstroke;&eogonek;bek</trd>
   <trd lng="ru">&c_k;&c_l;&c_u;&c_b;&c_o;&c_k;</trd>
@@ -414,14 +430,14 @@
         via patro por ludi je &jcirc;et<tld/>oj.
         <fnt>
           <aut>I. Silone, trad. D. Mistretta</aut>
-          <vrk><url
-          ref="http://ekladata.com/XiKWRW1ETT4zBOHrQZm16PxBQmc/silone-la-sekreto-de-luka.pdf">
+          <vrk><url ref="http://ekladata.com/XiKWRW1ETT4zBOHrQZm16PxBQmc/silone-la-sekreto-de-luka.pdf">
           La sekreto de Luka</url></vrk>
           <lok>[vidita en 2018]</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">bocha<klr> (del juego de bochas)</klr></trd>
   <trd lng="fr">boule<klr> (de jeu de boule)</klr></trd>
   <trd lng="it">boccia</trd>
 </drv>
@@ -438,8 +454,7 @@
         kalkulon kiel per rekta linio desegnita sur plat<tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=27499'>Kiblo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=27499">Kiblo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -470,6 +485,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es"><ind>gl&oacute;bulo</ind> rojo</trd>
   <trd lng="id"><ind>sel</ind> darah merah</trd>
 </drv>
 
@@ -486,11 +502,11 @@
         <fnt>
           <aut>Sabahattin Ali, trad. Ferruh Canatay</aut>:
           <vrk>Ide-kamarado</vrk>.
-          <lok>&leftquot;Pa&scirc;oj al plena posedo&rightquot;, la pa&scirc;o 7&#170;</lok>
+          <lok>&leftquot;Pa&scirc;oj al plena posedo&rightquot;, la pa&scirc;o 7&#xAA;</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="es"><ind>globo</ind> terraqueo</trd>
+    <trd lng="es"><ind>globo</ind> terr&aacute;queo</trd>
     <trd lng="fr">globe terrestre<klr tip="ind"> (la Terre)</klr></trd>
     <trd lng="hu">f&ouml;ldgoly&oacute;</trd>
     <trd lng="nl">aardbol</trd>
@@ -513,13 +529,17 @@
     </dif>
   </snc>
   <ref tip="vid" cel="sxel.0o">&scirc;elo</ref>
+  <trd lng="es">esfera hueca</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_y;&c_j; &c_sh;&c_a;&c_r;</trd>
 </drv>
 
 </art>
 <!--
-$Log: glob.xml,v $
-Revision 1.40  2020/02/14 17:10:24  revo
+$Log$
+versio 1.41 2021/04/26 15:59:59
+Guillermo Molleda Jimena: +trd es
+
+versio 1.40 2020/02/14 18:10:25
 Wolfram Diestel: formuloj per am
 
 Revision 1.39  2019/04/01 09:10:14  revo
@@ -538,8 +558,5 @@ Revision 1.35  2016/10/15 14:10:23  revo
 Sergio Pokrovskij: +ekz
 
 Revision 1.34  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.33  2015/06/29 16:29:39  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: mank.xml,v 1.26 2018/08/24 15:15:13 revo Exp $">
+<art mrk="$Id: mank.xml,v 1.28 2021/05/28 14:15:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mank</rad>/i <fnt><bib>PV</bib></fnt>
@@ -82,7 +81,13 @@
   </trdgrp>
   <trd lng="hu">hi&aacute;nyzik</trd>
   <trd lng="nl">ontbreken</trd>
+  <trdgrp lng="pl">
+    <trd>brakowa&cacute;</trd>,
+    <trd>by&cacute; <ind>nieobecnym</ind></trd>,
+    <trd>niedostawa&cacute;</trd>
+  </trdgrp>  
   <trd lng="pt">faltar</trd>
+  <trd lng="ro">lipsi</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_n;&c_je; &c_h;&c_v;&c_a;&c_t;&c_a;&c_t;&c_mol;</trd>,
@@ -118,6 +123,14 @@
     <trd>&agrave; <ind>d&eacute;faut de</ind></trd>
   </trdgrp>
   <trd lng="hu">hi&aacute;ny&aacute;ban</trd>
+  <trdgrp lng="pl">
+    <trd>przy <ind>braku</ind></trd>,
+    <trd>w zwi&aogonek;zku z <ind>brakiem</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>&icirc;n absen&tcedil;a</trd>,
+    <trd>datorit&abreve; lipsei</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_a;
     &c_n;&c_je;&c_i;&c_m;&c_je;&c_n;&c_i;&c_je;&c_m;</trd>,
@@ -203,9 +216,9 @@
     <trd lng="bg">&c_n;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_t;&c_malmol;&c_k;</trd>
     <trd lng="es">deficiencia</trd>
     <trd lng="hu">hi&aacute;nyoss&aacute;g</trd>    
-    <trd
-    lng="ru">&c_n;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_t;&c_o;&c_k;</trd>
+    <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_t;&c_o;&c_k;</trd>
   </snc>
+  <trd lng="bo">&#xF58;&#xF0B;&#xF60;&#xF51;&#xF44;&#xF66;&#xF0B;&#xF54;&#xF0B;</trd>
   <trdgrp lng="br">
     <trd>diouer</trd>,
     <trd>mank</trd>
@@ -224,6 +237,12 @@
     <trd>manque</trd>
   </trdgrp>
   <trd lng="nl">gebrek</trd>
+  <trdgrp lng="pl">
+    <trd>brak</trd>,
+    <trd>niedob&oacute;r</trd>,
+    <trd>defekt</trd>
+  </trdgrp> 
+  <trd lng="ro">lips&abreve;</trd>
   <trdgrp lng="sk">
     <trd>deficit</trd>,
     <trd>nedostatok</trd>
@@ -268,6 +287,16 @@
     figyelembe)</klr></trd>
   </trdgrp>
   <trd lng="nl">achterwege laten</trd>
+  <trdgrp lng="pl">
+    <trd>opu&sacute;ci&cacute;</trd>,
+    <trd>pomin&aogonek;&cacute;</trd>,
+    <trd>powodowa&cacute; <ind>brak</ind></trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>abandona</trd>,
+    <trd>omite</trd>,
+    <trd>cauza penurie</trd>
+  </trdgrp>  
   <trdgrp lng="ru">
     <trd>&c_u;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>
@@ -309,6 +338,15 @@
   </trdgrp>
   <trd lng="hu">b&odblac;s&eacute;ges</trd>  
   <trd lng="nl">overvloedig</trd>
+  <trdgrp lng="pl">
+    <trd>dostatni</trd>,
+    <trd>obfity</trd>,
+    <trd>w dostatecznej ilo&sacute;ci</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>abundent</trd>,
+    <trd>suficient</trd>
+  </trdgrp>   
 </drv>
 
 <drv mrk="mank.ne0igebla">
@@ -322,8 +360,7 @@
         kio estas ne<tld/>igebla en la civiliza vivo
         <fnt>
           <aut>Hasegawa T.</aut>,
-          <vrk><url
-          ref="http://wikilivres.ca/wiki/En_%C4%88inio_Batalanta">
+          <vrk><url ref="http://wikilivres.ca/wiki/En_%C4%88inio_Batalanta">
           En &Ccirc;inio Batalanta</url></vrk>, 
           <lok>1954</lok>
         </fnt>.
@@ -332,6 +369,8 @@
   </snc>
   <trd lng="es">indispensable</trd>
   <trd lng="fr">indispensable</trd>
+  <trd lng="pl">niezb&eogonek;dny</trd>
+  <trd lng="ro">necesar</trd>
 </drv>
 
 <drv mrk="mank.sen0a">
@@ -354,7 +393,16 @@
       <trd>completo</trd>
     </trdgrp>
     <trd lng="fr">int&eacute;gral</trd>
-    <trd lng="hu">hi&aacute;nytalan</trd>    
+    <trd lng="hu">hi&aacute;nytalan</trd>
+    <trdgrp lng="pl">
+      <trd>ca&lstroke;kowity</trd>,
+      <trd>kompletny</trd>,
+      <trd>pe&lstroke;ny</trd>
+    </trdgrp>  
+    <trdgrp lng="ro">
+      <trd>tot</trd>,
+      <trd>complet</trd>
+    </trdgrp> 
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_l;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_t;&c_n;&c_y;&c_j;</trd>
@@ -384,9 +432,16 @@
       <trd>irr&eacute;prochable</trd>,
       <trd>parfait</trd>
     </trdgrp>
-    <trd lng="hu">kifog&aacute;stalan</trd>    
-    <trd
-    lng="ru">&c_b;&c_je;&c_z;&c_u;&c_p;&c_r;&c_je;&c_ch;&c_n;&c_y;&c_j;</trd>
+    <trd lng="hu">kifog&aacute;stalan</trd> 
+    <trdgrp lng="pl">
+      <trd>bezb&lstroke;&eogonek;dny</trd>,
+      <trd>perfekcyjny</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>corect</trd>,
+      <trd>perfect</trd>
+    </trdgrp>       
+    <trd lng="ru">&c_b;&c_je;&c_z;&c_u;&c_p;&c_r;&c_je;&c_ch;&c_n;&c_y;&c_j;</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>bezvadn&yacute;</trd>,
@@ -412,8 +467,7 @@
   <snc mrk="mank.sen0e.KOMUNE">
     <dif>
       Ne estigante <tld/>on, agante skrupule,
-      <ref tip="vid" 
-      cel="forges.sen0e.KOMUNE">senforgese</ref>;
+      <ref tip="vid" cel="forges.sen0e.KOMUNE">senforgese</ref>;
       <ref tip="vid" cel="nepr.0e.KOMUNE">nepre</ref>:
       <ekz>
         la homaro <klr>...</klr> sen<tld/>e balda&ubreve; realigos 
@@ -432,6 +486,8 @@
     <trd>completamente</trd>
   </trdgrp>
   <trd lng="fr">sans faute</trd>
+  <trd lng="pl">nienagannie</trd>     
+  <trd lng="ro">irepro&#x219;abil</trd>
 </drv>
 
 <drv mrk="mank.seninter0a">
@@ -456,8 +512,15 @@
     <trd>folyamatos</trd>
   </trdgrp>  
   <trd lng="nl">ononderbroken</trd>
-  <trd
-  lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="pl">
+    <trd>ci&aogonek;g&lstroke;y</trd>,
+    <trd>nieprzerwany</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>ne&icirc;ntrerupt</trd>,
+    <trd>continuu</trd>
+  </trdgrp>
+  <trd lng="ru">&c_n;&c_je;&c_p;&c_r;&c_je;&c_r;&c_y;&c_v;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="mank.0loko">
@@ -492,6 +555,8 @@
     <trd>hi&aacute;tus</trd>
   </trdgrp>  
   <trd lng="nl">hiaat</trd>
+  <trd lng="pl">brakuj&aogonek;ce miejsce</trd>     
+  <trd lng="ro">locul lips&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_p;&c_u;&c_s;&c_k;<klr tip="amb">
     (&c_o;&c_t;&c_s;&c_u;&c_t;&c_s;&c_t;&c_v;&c_u;&c_ju;&c_shch;&c_je;&c_je;
@@ -501,9 +566,9 @@
 </drv>
 </art>
 <!--
-$Log: mank.xml,v $
-Revision 1.26  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
+$Log$
+versio 1.27 2020/11/18 23:11:03
+Vito Redsky: +trd pl +trd ro 
 
 Revision 1.25  2018/07/22 16:10:14  revo
 Guillermo Molleda Jimena: trd es
@@ -524,8 +589,5 @@ Revision 1.20  2012/09/19 08:10:10  revo
 Jeromo Vasxe: + ne~igebla, + kk trd fr
 
 Revision 1.19  2010/08/25 16:30:31  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.18  2006/07/29 16:32:58  revo
 -->
 </vortaro>

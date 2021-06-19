@@ -1,22 +1,49 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kial.xml,v 1.30 2020/03/20 20:10:26 revo Exp $">
+<art mrk="$Id: kial.xml,v 1.76 2021/06/19 05:58:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kial</rad> <fnt><bib>PV</bib></fnt>
+  <rad>kial</rad>
 </kap>
 
 <drv mrk="kial.0">
   <kap><ofc>*</ofc><tld/></kap>
-  <snc>
+  <snc mrk="kial.0.adverbo">
     <dif>
-      Demanda adverbo signifanta &leftquot;pro kia ka&ubreve;zo?&rightquot;:
+      Demanda adverbo signifanta &leftquot;<ref cel="pro.0.kial">pro</ref>
+      kia <ref cel="kauxz.0o.kialo">ka&ubreve;zo</ref>?&rightquot;:
       <ekz>
-        <tld/> vi ne respondas al mi? &ccirc;u vi estas surda
+        <tld/> vi ne respondas al mi &dash; &ccirc;u vi estas surda
         a&ubreve; muta?
         <fnt><bib>F</bib><lok>&FE; 20</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/> vi tion faris
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 3:13</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        <tld/> vi koleras
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 4:6</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        <tld/> vi ne diris al mi, ke &scirc;i estas via edzino
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 12:18</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        <tld/> &scirc;i ne decidi&gcirc;as paroli
+        <fnt>
+          <bib>FK</bib>
+        </fnt>?
       </ekz>
       <ekz>
         &ccirc;iu tial havas sian <tld/>
@@ -35,9 +62,9 @@
     </trdgrp>
     <trd lng="vo">kikod</trd>
   </snc>
-  <snc>
+  <snc mrk="kial.0.konjunkcio">
     <dif>
-      Demanda dependiga konjunkcio, kun sama signifo:
+      Demanda dependiga <ref tip="super" cel="konjun.0o.GRA">konjunkcio</ref>, kun sama signifo:
       <ekz>
         li diris al mi, <tld/> li tiam ne volis respondi;
       </ekz>
@@ -47,9 +74,16 @@
       <ekz>
         &scirc;ia patrino insultis &scirc;in, <klr>(demandante)</klr>
         <tld/> &scirc;i revenis tiel malfrue de la fonto
-        <fnt><bib>F</bib><lok>&FE; 17</lok></fnt>.
+        <fnt><bib>F</bib><lok>&FE; 17</lok></fnt>;
+      </ekz>
+      <ekz>
+        jen <tld/> li denove venas Lisabonon <klr>[&#x2026;]</klr>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>
       </ekz>
     </dif>
+    <ref tip="vid" cel="cxar.0">&ccirc;ar</ref>
     <trdgrp lng="hu">
       <trd>mi&eacute;rt</trd>,
       <trd>ami&eacute;rt</trd>
@@ -67,24 +101,55 @@
     (kial ajn vi venis al mi, tuj reiru hejmen!)
     <aut>MB</aut>
   </adm>
+  <trd lng="af">hoekom</trd>
+  <trd lng="am">&#x1208;&#x121D;&#x1295;</trd>
+  <trd lng="ar">&#x644;&#x645;&#x627;&#x630;&#x627;</trd>
+  <trd lng="az">niy&#x259;</trd>
   <trdgrp lng="be">
     <trd>&c_ch;&c_a;&c_m;&c_u;</trd>,
     <trd>&c_n;&c_a;&c_v;&c_o;&c_sh;&c_t;&c_a;</trd>
   </trdgrp>
+  <trd lng="bn">&#x995;&#x9C7;&#x9A8;</trd>
+  <trd lng="bs">za&#x161;to</trd>
+  <trd lng="co">perch&#xE8;</trd>
   <trd lng="cs">pro&ccaron;</trd>
+  <trd lng="da">hvorfor</trd>
   <trdgrp lng="de">
     <trd>warum</trd>,
     <trd>wieso</trd>,
     <trd>weshalb</trd>
   </trdgrp>
-  <trd lng="es">&#191;por qu&eacute;?</trd>
+  <trd lng="es">&#xBF;por qu&eacute;?</trd>
+  <trd lng="et">miks</trd>
+  <trd lng="eu">zergatik</trd>
   <trdgrp lng="fr">
     <trd>pourquoi</trd>,
     <trd>pour quelle <ind>raison</ind></trd>
   </trdgrp>
+  <trd lng="fy">w&#xEA;rom</trd>
+  <trd lng="gl">por que</trd>
+  <trd lng="gu">&#xAB6;&#xABE; &#xAAE;&#xABE;&#xA9F;&#xAC7;</trd>
+  <trd lng="ha">dalilin da ya sa</trd>
+  <trd lng="hi">&#x915;&#x94D;&#x92F;&#x94B;&#x902;</trd>
+  <trd lng="hr">za&#x161;to</trd>
+  <trd lng="hy">&#x56B;&#x576;&#x579;&#x578;&#x582;</trd>
   <trd lng="id">mengapa</trd>
+  <trd lng="is">hvers vegna</trd>
+  <trd lng="ja">&#x306A;&#x305C;</trd>
+  <trd lng="jw">kok</trd>
+  <trd lng="ka">&#x10E0;&#x10D0;&#x10E2;&#x10DD;&#x10DB;</trd>
+  <trd lng="km">&#x17A0;&#x17C1;&#x178F;&#x17BB;&#x17A2;&#x17D2;&#x179C;&#x17B8;&#x1794;&#x17B6;&#x1793;&#x1787;&#x17B6;</trd>
+  <trd lng="ko">&#xC774;&#xC720;</trd>
   <trd lng="ku">&ccedil;ima</trd>
+  <trd lng="lo">&#xEC0;&#xE9B;&#xEB1;&#xE99;&#xEAB;&#xE8D;&#xEB1;&#xE87;</trd>
+  <trd lng="ml">&#xD0E;&#xD28;&#xD4D;&#xD24;&#xD41;&#xD15;&#xD4A;&#xD23;&#xD4D;&#xD1F;&#xD4D;</trd>
+  <trd lng="mr">&#x915;&#x93E;</trd>
+  <trd lng="my">&#x1021;&#x1018;&#x101A;&#x103A;&#x1000;&#x103C;&#x1031;&#x102C;&#x1004;&#x1037;&#x103A;</trd>
+  <trd lng="ne">&#x915;&#x93F;&#x928;</trd>
   <trd lng="nl">waarom</trd>
+  <trd lng="ny">chifukwa</trd>
+  <trd lng="pa">&#xA07;&#xA38;&#xA47;</trd>
+  <trd lng="ps">&#x648;&#x644;&#x6D0;</trd>
   <trd lng="pt">Por que?</trd>
   <trd lng="ro">de ce</trd>
   <trdgrp lng="ru">
@@ -92,78 +157,173 @@
     <trd>&c_o;&c_t;&c_ch;&c_je;&c_g;&c_o;</trd>,
     <trd>&c_z;&c_a;&c_ch;&c_je;&c_m;</trd>
   </trdgrp>
+  <trd lng="sd">&#x687;&#x648;</trd>
+  <trd lng="si">&#xD87;&#xDBA;&#xDD2;</trd>
+  <trd lng="sq">pse</trd>
+  <trd lng="st">ke hobane&#x2019;ng ha</trd>
   <trd lng="sv">varf&ouml;r</trd>
   <trd lng="sk">pre&ccaron;o</trd>
+  <trd lng="ta">&#xB8F;&#xBA9;&#xBCD;</trd>
+  <trd lng="te">&#xC0E;&#xC02;&#xC26;&#xC41;&#xC15;&#xC41;</trd>
+  <trd lng="th">&#xE40;&#xE2B;&#xE15;&#xE38;&#xE1C;&#xE25;&#xE17;&#xE35;&#xE48;</trd>
+  <trd lng="tl">bakit</trd>
+  <trd lng="ur">&#x6A9;&#x6CC;&#x648;&#x6BA;</trd>
+  <trd lng="vi">l&#xFD; do t&#x1EA1;i sao</trd>
+  <trd lng="yi">&#x5E4;&#x5D0;&#x5E8;&#x5D5;&#x5D5;&#x5D0;&#x5E1;</trd>
+  <trd lng="zu">kungani</trd>
 </drv>
 
 <drv mrk="kial.0o">
   <kap><tld/>o</kap>
   <snc mrk="kial.0o.KOMUNE">
-    <ref tip="dif" cel="kauxz.0o">ka&ubreve;zo</ref>
-    <ekz>
-      jen la <tld/>o de tiu decido;
-    </ekz>
-    <ekz>
-      en &ccirc;i tiu <tld/>o ku&scirc;as &ccirc;iuj aliaj;
-    </ekz>
-    <ekz>
-      doni al iu evit<tld/>ojn.
-    </ekz>
-  <trd lng="be">&c_p;&c_r;&c_y;&c_ch;&c_y;&c_n;&c_a;</trd>
-  <trd lng="de">Grund</trd>
-  <trdgrp lng="fr">
-    <trd>raison</trd>,
-    <trd>pourquoi<klr tip="ind"> (subst.)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>causa</trd>,
-    <trd>motivo</trd>
-  </trdgrp>
-  <trdgrp lng="he">
-    <trd>&samekh;&yod;&bet;&he;</trd>,
-    <trd>&ayin;&yod;&lamed;&he;</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>ok</trd>,
-    <trd>(a) <ind>mi&eacute;rt</ind></trd>
-  </trdgrp>
-  <trd lng="id"><ind>alas</ind>an</trd>
-  <trd lng="nl">reden</trd>
-  <trdgrp lng="pl">
-    <trd>pow&oacute;d</trd>,
-    <trd>motyw</trd>,
-    <trd>przyczyna</trd>
-  </trdgrp>
-   <trdgrp lng="pt">
-    <trd>causa</trd>,
-    <trd>motivo</trd>
-  </trdgrp>
-  <trdgrp lng="ro">
-    <trd>tem&abreve;</trd>,
-    <trd>cauza</trd>
-  </trdgrp>
-  <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_i;&c_n;&c_a;</trd>
-  <trdgrp lng="sv">
-    <trd>sk&auml;l</trd>,
-    <trd>orsak</trd>
-  </trdgrp>
+    <dif>
+      <ref tip="dif" cel="kauxz.0o">Ka&ubreve;zo</ref>:
+      <ekz>
+        jen la <tld/>o de tiu decido;
+      </ekz>
+      <ekz>
+        en &ccirc;i tiu <tld/>o ku&scirc;as &ccirc;iuj aliaj;
+      </ekz>
+      <ekz>
+        doni al iu evit<tld/>ojn;
+      </ekz>
+      <ekz>
+        akvo minacas fari&gcirc;i <tld/>o de konfliktoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006866.html">La blua &leftquot;oro&rightquot; &ccirc;iam malsufi&ccirc;os</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        foje iuj malabonas sen indiki <tld/>on a&ubreve; motivon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006825.html">http://steloj.de/esperanto/monato2/006825.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lo&gcirc;antoj de Sarajevo havas multajn bonajn <tld/>ojn por interesi&gcirc;i pri
+        mondpolitiko nun
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9310-sarajevo.txt">La fino de la mondo komenci&gcirc;as en Sarajevo</url></vrk>
+          <lok>93/10</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <trd lng="be">&c_p;&c_r;&c_y;&c_ch;&c_y;&c_n;&c_a;</trd>
+    <trd lng="de">Grund</trd>
+    <trdgrp lng="fr">
+      <trd>raison</trd>,
+      <trd>pourquoi<klr tip="ind"> (subst.)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>causa</trd>,
+      <trd>motivo</trd>
+    </trdgrp>
+    <trdgrp lng="he">
+      <trd>&samekh;&yod;&bet;&he;</trd>,
+      <trd>&ayin;&yod;&lamed;&he;</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>ok</trd>,
+      <trd>(a) <ind>mi&eacute;rt</ind></trd>
+    </trdgrp>
+    <trd lng="id"><ind>alas</ind>an</trd>
+    <trd lng="nl">reden</trd>
+    <trdgrp lng="pl">
+      <trd>pow&oacute;d</trd>,
+      <trd>motyw</trd>,
+      <trd>przyczyna</trd>
+    </trdgrp>
+     <trdgrp lng="pt">
+      <trd>causa</trd>,
+      <trd>motivo</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>tem&abreve;</trd>,
+      <trd>cauza</trd>
+    </trdgrp>
+    <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_i;&c_n;&c_a;</trd>
+    <trdgrp lng="sv">
+      <trd>sk&auml;l</trd>,
+      <trd>orsak</trd>
+    </trdgrp>
   </snc>
+  <trd lng="af">rede</trd>
+  <trd lng="am">&#x121D;&#x12AD;&#x1295;&#x12EB;&#x1275;</trd>
+  <trd lng="ar">&#x633;&#x628;&#x628;</trd>
+  <trd lng="az">s&#x259;b&#x259;b</trd>
+  <trd lng="bn">&#x995;&#x9BE;&#x9B0;&#x9A3;</trd>
+  <trd lng="bs">razlog</trd>
+  <trd lng="co">raghjoni</trd>
   <trdgrp lng="cs">
     <trd>d&uring;vod</trd>,
     <trd>motiv</trd>,
     <trd>p&rcaron;&iacute;&ccaron;ina</trd>
   </trdgrp>
+  <trd lng="da">&#xE5;rsag</trd>
+  <trd lng="et">p&#xF5;hjus</trd>
+  <trd lng="eu">arrazoia</trd>
+  <trd lng="fy">reden</trd>
+  <trd lng="gl">raz&#xF3;n</trd>
+  <trd lng="gu">&#xA95;&#xABE;&#xAB0;&#xAA3;</trd>
+  <trd lng="ha">dalilin</trd>
+  <trd lng="hi">&#x915;&#x93E;&#x930;&#x923;</trd>
+  <trd lng="hr">razlog</trd>
+  <trd lng="hy">&#x57A;&#x561;&#x57F;&#x573;&#x561;&#x57C;</trd>
+  <trd lng="is">&#xE1;st&#xE6;&#xF0;a</trd>
+  <trd lng="ja">&#x7406;&#x7531;</trd>
+  <trd lng="jw">alesan</trd>
+  <trd lng="ka">&#x10DB;&#x10D8;&#x10D6;&#x10D4;&#x10D6;&#x10D8;</trd>
+  <trd lng="km">&#x1798;&#x17BC;&#x179B;&#x17A0;&#x17C1;&#x178F;&#x17BB;</trd>
+  <trd lng="ko">&#xC774;&#xC720;</trd>
+  <trd lng="lo">&#xEC0;&#xEAB;&#xE94;&#xE9C;&#xEBB;&#xE99;</trd>
+  <trd lng="ml">&#xD15;&#xD3E;&#xD30;&#xD23;&#xD02;</trd>
+  <trd lng="mr">&#x915;&#x93E;&#x930;&#x923;</trd>
+  <trd lng="my">&#x1021;&#x1000;&#x103D;&#x1031;&#x102C;&#x1004;&#x103B;&#x1038;&#x101B;&#x1004;&#x103B;&#x1038;</trd>
+  <trd lng="ny">chifukwa</trd>
+  <trd lng="pa">&#xA07;&#xA38; &#xA26;&#xA3E; &#xA15;&#xA3E;&#xA30;&#xA28;</trd>
+  <trd lng="ps">&#x62F;&#x644;&#x6CC;&#x644;</trd>
+  <trd lng="sd">&#x633;&#x628;&#x628;</trd>
+  <trd lng="si">&#xDC4;&#xDDA;&#xDAD;&#xDD4;&#xDC0;</trd>
   <trdgrp lng="sk">
     <trd>d&ocirc;vod</trd>,
     <trd>pr&iacute;&ccaron;ina</trd>
   </trdgrp>
+  <trd lng="sq">arsyeja</trd>
+  <trd lng="st">lebaka la</trd>
+  <trd lng="ta">&#xB95;&#xBBE;&#xBB0;&#xBA3;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC15;&#xC3E;&#xC30;&#xC23;&#xC02;</trd>
+  <trd lng="th">&#xE40;&#xE2B;&#xE15;&#xE38;&#xE1C;&#xE25;&#xE17;&#xE35;&#xE48;</trd>
+  <trd lng="tl">dahilan</trd>
+  <trd lng="ur">&#x648;&#x62C;&#x6C1;</trd>
+  <trd lng="vi">l&#xFD; do</trd>
+  <trd lng="yi">&#x5E1;&#x5D9;&#x5D1;&#x5D4;</trd>
+  <trd lng="zu">isizathu</trd>
 </drv>
 
 <drv mrk="kial.0igi">
   <kap><tld/>igi</kap>
   <snc mrk="kial.0igi.KOMUNE">
     <dif>
-      Komprenigi ion montrante &gcirc;iajn <tld/>ojn.
+      Komprenigi ion montrante &gcirc;iajn <tld/>ojn:
+      <ekz>
+        estis akceptita propono de la unujara volontulo trinki la&ubreve; la alfabeto, kion li
+        <tld/>igis tiel, ke tio estas jam certa anta&ubreve;destino, kian nomon &ccirc;iu el ili
+        havas
+        <fnt>
+          <vrk><url ref="https://nemaloknig.com/read-330356/?page=76">Aventuroj de la brava soldato &Scaron;vejk dum la mondmilito - &scaron;ek Jaroslav...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via egoisma naturo <tld/>igis ke mi amu vin e&ccirc; plie
+        <fnt>
+          <vrk><url ref="https://lernu.net/es/forumo/temo/10561">Sitio multiling&uuml;e para el aprendizaje del idioma internacional Esperanto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -211,10 +371,36 @@
         vivi en angoro kun teruroj sen<tld/>aj
         <fnt>
           <aut>C. Piron</aut>,
-          <vrk><url
-          ref="http://esperanto.org.uk/eldonoj/piron/tekstoj/Tien.html">
+          <vrk><url ref="http://esperanto.org.uk/eldonoj/piron/tekstoj/Tien.html">
           Tien</url></vrk>,
           <lok>1997</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>a timo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/010777.php">&Gcirc;is la tero tremas</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>a alarmo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/010777.php">&Gcirc;is la tero tremas</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la karmoprincipo <klr>[&#x2026;]</klr> certigas, ke nenio okazas sen<tld/>e
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hokan Lundberg</aut>
+          <vrk><url ref="https://www.monato.be/2005/008490.php">Spirita scienco &ccirc;u tio eblas?</url></vrk>
+          <lok>2005</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -222,6 +408,10 @@
   <trdgrp lng="be">
     <trd>&c_b;&c_je;&c_s;&c_p;&c_r;&c_y;&c_ch;&c_y;&c_n;&c_n;&c_y;</trd>,
     <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>grundlos</trd>,
+    <trd>unbegr&uuml;ndet</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>injustifi&eacute;<klr> (sans cause)</klr></trd>,
@@ -232,11 +422,19 @@
     <trd>imotivado</trd>
     <trd>injustificado<klr> (sem motivo)</klr></trd>,
   </trdgrp>
-
 </drv>
 </art>
 <!--
 $Log: kial.xml,v $
+versio 1.33 2020/04/25 10:10:17
+Wolfram Diestel: pliaj ekz-oj
+
+versio 1.32 2020/04/25 07:10:20
+Wolfram Diestel: sen~a: ekz-oj
+
+versio 1.31 2020/04/06 10:10:19
+Wolfram Diestel: ~: eklkaj ekz-oj, ref-oj
+
 Revision 1.30  2020/03/20 20:10:26  revo
 James Rezende Piton: +trd pt
 
@@ -250,14 +448,5 @@ Revision 1.27  2017/09/15 15:10:14  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.26  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.25  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.24  2014/10/27 07:10:19  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.23  2014/01/31 02:10:14  revo
 -->
 </vortaro>

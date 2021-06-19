@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: fleks.xml,v 1.36 2020/02/22 18:10:28 revo Exp $">
+<art mrk="$Id: fleks.xml,v 1.41 2021/05/29 10:56:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fleks</rad>/i <fnt><bib>PV</bib></fnt>
@@ -12,25 +11,35 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="fleks.0i.kurbigi">
     <dif>
-      Kurbigi, arkigi:
-      <ekz>
-        <tld/>i ferfadenon;
-      </ekz>
+      <ref tip="super" cel="kurb.0igi">Kurbigi</ref>, 
+      <ref cel="ark.0igi">arkigi</ref>:
       <ekz>
         la feino <tld/>is flanken la bran&ccirc;ojn
         <fnt><bib>Fab1</bib>, <lok>&Gcirc;ardeno de la paradizo</lok>
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>u arbon dum &gcirc;ia juneco
-        <fnt><bib>PrV</bib></fnt>
-        <klr>(ne lasu pasi la &gcirc;ustan momenton!)</klr>
+        <nom>Stella</nom> sidis <klr>[kun la]</klr> kapo en la manoj, &scirc;ia blanka kolo estis
+        <tld/>ita
+        <fnt>
+          <bib>FK</bib>
+          <vrk>La Porcio da Glacia&jcirc;o</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         &scirc;i <tld/>is siajn genuojn kaj pre&gcirc;is
         <fnt>
           <bib>Fab4</bib>
           <lok>Infano en la tombo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li eltiris el la ingo sufi&ccirc;e longan glavon 
+        <klr>[&#x2026;]</klr> kaj komencis <tld/>i
+        &gcirc;in per la manoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro X</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -41,20 +50,49 @@
         </fnt>;
       </ekz>
       <ekz>
+        la aliaj friponoj kaptis lin, luktis kun li, <tld/>is lin tiel, ke lia kapo
+        atingis liajn piedojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vinicius</nom> staras anta&ubreve; li senarma, kun mizera viza&gcirc;o kaj kun figuro, <tld/>ita de
+        sufero
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        genuojn homoj <tld/>as ja nur tiam, / se la rampad&#x2019; profiton donas
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         povi <tld/>i per la fingroj ferajn bastonojn
         <fnt>
           <bib>Marta</bib>
         </fnt>;
       </ekz>
       <ekz>
-        li malrapide pa&scirc;is, <tld/>ita de malespero;
+        sin <tld/>inte trans la tablon, li kriis en la orelon mem de la vizitanto
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
       </ekz>
       <ekz>
         la <tld/>ita strio de la vojo
         <klr>(multkurba, serpentuma)</klr>
         <fnt>
           <bib>Marta</bib>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>u arbon dum &gcirc;ia juneco
+        <fnt><bib>PrV</bib></fnt>
+        <klr>(ne lasu pasi la &gcirc;ustan momenton)</klr>!
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -89,7 +127,7 @@
   <snc mrk="fleks.0i.cedigi">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Cedigi, obeigi:
+      Cedigi, <ref tip="super" cel="obe.0igi">obeigi</ref>:
       <ekz>
         <tld/>i la junajn spiritojn sub disciplino;
       </ekz>
@@ -97,20 +135,23 @@
         <tld/>i la venkiton sub severa le&gcirc;o;
       </ekz>
       <ekz>
-        vian obstinecon mi <tld/>os
-        <klr>
-        <refgrp tip="vid">
+        &ccirc;i tiujn mi <tld/>os per nenio pensis la faraono
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi scias ankora&ubreve; rimedojn, kiuj tre bone povas <tld/>i 
+        <klr><refgrp tip="vid">
           (<ref cel="humil.0igi">humiligi</ref>,
           <ref cel="fier">malfierigi</ref>)
         </refgrp>
-        </klr>;
-      </ekz>
-      <ekz>
-        <tld/>i la lingvon la&ubreve; sia gusto
+        </klr>
+        la fierecon de malhumila obstinulino
         <fnt>
-          <bib>Paroloj</bib>
-          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en
-          la 11a de a&ubreve;gusto 1912</vrk>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -119,6 +160,40 @@
     <trd lng="nl">buigen</trd>
     <trdgrp lng="pl">
       <trd>nagina&cacute;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="fleks.0i.adapti">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="super" cel="konfor.0igi">Konformigi</ref>, 
+      <ref tip="super" cel="adapt.0i">adapti</ref>:
+      <ekz>
+        lingvoj naturaj kreskas tute trankvile, &ccirc;ar kun tia lingvo neniu kura&gcirc;as fari
+        iajn eksperimentojn a&ubreve; <tld/>i &gcirc;in la&ubreve; sia gusto
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia lingvo estas ankora&ubreve; juna kaj nepotenca kaj devas sin <tld/>i, se &gcirc;i ne
+        volas perei
+        <fnt>
+          <bib>LR</bib>
+          <vrk>Pri la elekto inter &leftquot;h&rightquot; kaj supersignitaj literoj</vrk>
+          <lok>La Esperantisto, 1891, p; 15.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ne povas en tia direkto <tld/>i la amatan virinon
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>anpassen</trd>,
+      <trd>zurecht <ind>biegen</ind></trd>
     </trdgrp>
   </snc>
   <trdgrp lng="be">
@@ -215,8 +290,7 @@
         la frontaj cilindraj pivotoj estas stre&ccirc;ataj per <tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=133362'>Pivoto</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=133362">Pivoto</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -267,7 +341,7 @@
         <tld/>a momanto
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=501516'>Stre&ccirc;o
+          <lok><url ref="https://eo.wikipedia.org/?curid=501516">Stre&ccirc;o
           (mekaniko)</url></lok>
         </fnt>;
       </ekz>
@@ -276,8 +350,7 @@
         <fnt>
           <aut>J. Werner</aut>
           <vrk>Terminaro de betono kaj de betonistaj laboroj</vrk>
-          <lok><url ref="http://eventoj.freeweb.hu/steb/ingxenierado/
-          konstruado/beton-termin.htm">
+          <lok><url ref="http://eventoj.freeweb.hu/steb/ingxenierado/                     konstruado/beton-termin.htm">
           beton-terminaro</url></lok>
         </fnt>.
       </ekz>
@@ -288,6 +361,12 @@
   <snc mrk="fleks.0a.0igxema">
     <dif>
       <ref tip="dif" cel="fleks.0igxema"><tld lit="F"/>i&gcirc;ema</ref>:
+      <ekz>
+        <tld/>a serpento
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         teruraj polipoj, kiuj etendadis post &scirc;i siajn <tld/>ajn brakojn
         <fnt>
@@ -304,6 +383,7 @@
       </ekz>
     </dif>
     <trd lng="be">&c_g;&c_n;&c_u;&c_t;&c_k;&c_ib;</trd>
+    <trd lng="de">biegsam</trd>
     <trd lng="es">flexible</trd>
     <trd lng="fr">flexible<klr tip="ind"> (adj.)</klr></trd>
     <trd lng="nl">buigzaam</trd>
@@ -348,21 +428,20 @@
         neniun stre&ccirc;adon, apartenas <klr>[...]</klr> <tld/>ado
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=54921'>Masa&gcirc;o</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=54921">Masa&gcirc;o</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         la&ubreve; principo de piezoelektra efekto <klr>[...]</klr> per premado
-        a&ubreve; fleksado de iuj materialoj ekestas elektra tensio
+        a&ubreve; <tld/>ado de iuj materialoj ekestas elektra tensio
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=113719'>Mikrofono</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=113719">Mikrofono</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_g;&c_ib;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="cs">oh&yacute;b&aacute;n&iacute;</trd>
   <trdgrp lng="fr">
     <trd>flexion<klr tip="ind"> (action de courber)</klr></trd>,
@@ -388,8 +467,7 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="fleks.0ajxo.KOMUNE">
     <dif>
-      <ref tip="dif" cel="fleks.0o.0ita_parto"><tld
-      lit="F"/>o<sncref/></ref>:
+      <ref tip="dif" cel="fleks.0o.0ita_parto"><tld lit="F"/>o<sncref/></ref>:
       <ekz>
         la <tld/>a&jcirc;oj de la vojo
         <fnt><bib>PV</bib></fnt>;
@@ -398,8 +476,16 @@
         &gcirc;is <tld/>a&jcirc;o de sia kubuto
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref='https://eo.wikipedia.org/?curid=267740'>Seksa
+          <lok><url ref="https://eo.wikipedia.org/?curid=267740">Seksa
           pozicio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vo&ccirc;o kaj la gitaro de <nom>Ale</nom> <klr>[&#x2026;]</klr> en siaj plej subtilaj <tld/>a&jcirc;oj,
+        donis al mi la necesan materialon por mia laboro
+        <fnt>
+          <bib>Kon11</bib>
+          <vrk>Intervjuo &dash; Ale Kossabela &ndash; Kameleono de la E-muziko</vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -452,13 +538,6 @@
         </fnt>;
       </ekz>
       <ekz>
-        ne parolu kun ne<tld/>ebla kolo
-        <fnt>
-          <bib>MT</bib>
-          <lok>Psalmaro 75:5</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
         la trunketo kaj folioj estas tiel <tld/>eblaj kaj elastaj, ke
         ili &ccirc;e la plej malgranda fluo de la akvo sin movas, kiel vivaj
         esta&jcirc;oj
@@ -483,7 +562,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[ili]</klr> kalkulis sur lia nuda korpo kvindek flekseblajn
+        <klr>[ili]</klr> kalkulis sur lia nuda korpo kvindek <tld/>eblajn
         kanojn <klr>(batojn)</klr>
         <fnt>
           <bib>Far1</bib>
@@ -492,19 +571,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <tld/>ebla lingvo, stilo;
-      </ekz>
-      <ekz>
-        <ind>ne<tld/>ebla</ind> karaktero
-        <klr>(<ref cel="fer.0a">fera</ref>)</klr>.
-        <trdgrp lng="fr">
-          <trd>inflexible</trd>
-          <trd>intransigeant</trd>,
-          <trd>intraitable</trd>,
-          <trd>implacable</trd>,
-          <trd>irr&eacute;ductible</trd>,
-          <trd>rigide</trd>
-        </trdgrp>
+        <tld/>ebla lingvo, stilo.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -513,6 +580,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_n;&c_u;&c_t;&c_k;&c_ib;</trd>
+  <trd lng="bo">&#xF42;&#xF49;&#xF7A;&#xF53;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>flexibiln&iacute;</trd>,
     <trd>ohebn&yacute;</trd>,
@@ -544,10 +612,25 @@
 </drv>
 
 <drv mrk="fleks.0igxi">
-  <kap><tld/>i&gcirc;i</kap>
+  <kap><tld/>i&gcirc;i, <var><kap>sin <tld/>i</kap></var></kap>
   <snc mrk="fleks.0igxi.kurbigxi">
     <dif>
       Kurbi&gcirc;i:
+      <ekz>
+        estis tia ventego, ke <klr>[&#x2026;]</klr> la arboj <klr>[&#x2026;]</klr> &ccirc;iuminute <tld/>is
+        sin kiel kano
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili glorkantis kun &gcirc;ojo, <tld/>is sin, kaj adorklini&gcirc;is
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 29:30</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         pli bone <tld/>i&gcirc;i ol rompi&gcirc;i
         <fnt><bib>PrV</bib></fnt>
@@ -568,9 +651,6 @@
         </fnt>;
       </ekz>
       <ekz>
-        tie <tld/>i&gcirc;as la vojo;
-      </ekz>
-      <ekz>
         humile <tld/>i&gcirc;i kaj fali senforte
         <fnt>
           <bib>Marta</bib>
@@ -578,11 +658,20 @@
       </ekz>
       <ekz>
         sid<tld/>i&gcirc;inte preska&ubreve; &gcirc;is la planko
-        <klr>(vd <ref tip="vid"
-        cel="kauxr.0igxi.kuntire">ka&ubreve;ri&gcirc;i<sncref/></ref>)</klr>
+        <klr>(vd <ref tip="vid" cel="kauxr.0igxi.kuntire">ka&ubreve;ri&gcirc;i<sncref/></ref>)</klr>
         <fnt>
           <bib>Revizoro</bib>
           <lok>Akto kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li havas unu ege malnovan segilon, <klr>[&#x2026;]</klr> la instrumento ne estis
+        perfekta, tamen bonege <tld/>i&gcirc;is kaj belsonis
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2003/008095.html">La segilo sonas!</url></vrk>
+          <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -627,8 +716,9 @@
       </ekz>
       <ekz>
         lia kura&gcirc;o <tld/>i&gcirc;is;
-      </ekz>      <ekz>
-        [Esperanto] kreskis regule <klr>[...]</klr>, neniam <tld/>i&gcirc;ante
+      </ekz>
+      <ekz>
+        <klr>[Esperanto]</klr> kreskis regule <klr>[...]</klr>, neniam <tld/>i&gcirc;ante
         <klr>(deklini&gcirc;ante, misformi&gcirc;ante)</klr> a&ubreve; kripli&gcirc;ante
         <fnt>
           <bib>Paroloj</bib>
@@ -752,6 +842,13 @@
     <dif>
       Kiu ne facile <tld/>i&gcirc;as, ne facile cedas:
       <ekz>
+        ne parolu kun ne<tld/>ebla kolo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 75:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &ccirc;iam ili renkontis ne<tld/>eblan kontra&ubreve;staron de l' pastroj
         <fnt>
           <bib>Far3</bib>
@@ -766,22 +863,58 @@
         </fnt>;
       </ekz>
       <ekz>
-        viro ne<tld/>ebla
+        <ind>ne<tld/>ebla</ind> karaktero
+      </ekz>
+      <ekz>
+        viro ne<tld/>ebla <klr>(<ref cel="fer.0a.FIG">fera<sncref/></ref>)</klr>
         <fnt>
           <aut>Lao She, trad. Wang Chongfang</aut>,
-          <vrk><url
-          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
           Kamelo &Scirc;jangzi</url></vrk>,
           <lok>1988</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li turnis siajn rigidajn maleolojn, pene movis siajn ne<tld/>i&gcirc;emajn fingrojn
+        ferme-malferme
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="https://www.monato.be/2010/009883.php">Trancporto</url></vrk>
+          <lok>2010</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="fiks.0a">fiksa</ref>,
+      <ref cel="firm.0a">firma</ref>,
+      <ref cel="ced.mal0ema">malcedema</ref>,
+      <ref cel="obstin.0a">obstina</ref>,
+      <ref cel="rigid.0a">rigida</ref>,
+      <ref cel="sxance.sen0igxa">sen&scirc;anceli&gcirc;a</ref>,
+      <ref cel="spit.0ema">spitema</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>unbeugsam</trd>,
+      <trd>starr</trd>
+    </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_z;&c_g;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_ja;&c_z;&c_l;&c_o;&c_m;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>inflexisible</trd>,
     <trd>r&iacute;gido</trd>
   </trdgrp>
-  <trd lng="fr">inflexible</trd>
+  <trdgrp lng="fr">
+    <trd>inflexible</trd>
+    <trd>intransigeant</trd>,
+    <trd>intraitable</trd>,
+    <trd>implacable</trd>,
+    <trd>irr&eacute;ductible</trd>,
+    <trd>rigide</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fleks.genu0i">
@@ -818,13 +951,21 @@
         </fnt>;
       </ekz>
       <ekz>
-        <ind>genu<tld/>o</ind>.
+        <nom>Violan</nom> &scirc;i igis saluti per manpremo kaj <ind>genu<tld/>o</ind>
+        <fnt>
+          <bib>ViV</bib>
+        </fnt>.
+        <trdgrp lng="de">
+          <trd>Knicks</trd>,
+          <trd>Kniebeuge</trd>
+        </trdgrp>
         <trd lng="fr">g&eacute;nuflexion</trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="genu.0i">genui</ref>,
       <ref cel="genu.0igxi">genui&gcirc;i</ref>,
+      <ref cel="klin.ador0igxi">adorklini&gcirc;i</ref>,
       <ref cel="rivere.0i">riverenci</ref>
     </refgrp>
     <rim>
@@ -833,7 +974,7 @@
       subkomprenas, ke la fleksado estas mallonga kaj tuj sekvota de
       rerektigo, sed la etiketo povas postuli, ke unu genuo
       malalti&gcirc;u &gcirc;is la planko kaj ke oni restu staranta
-      unuegenue sur la planko.
+      unugenue sur la planko.
     </rim>
     <rim>
       La vorto aperas en <fnt><bib>VdE</bib></fnt> kaj
@@ -850,6 +991,10 @@
     <aut>MB</aut>
   </adm>
   <trd lng="be">&c_k;&c_l;&c_je;&c_n;&c_ch;&c_y;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+     <trd>knicksen</trd>,
+     <trd>das <ind>Knie</ind> beugen</trd>
+  </trdgrp>
   <trd lng="es">hacer (una) genuflexi&oacute;n</trd>
   <trdgrp lng="fr">
     <trd>fl&eacute;chir le <ind>genou</ind></trd>,
@@ -884,8 +1029,7 @@
       punkto:
       <ekz>
         por ke estu trans<tld/>i&gcirc;a la punkto
-        <frm
-        am="(x_0,y_0)">(<k>x</k><sub>0</sub>,<k>y</k><sub>0</sub>)</frm>
+        <frm am="(x_0,y_0)">(<k>x</k><sub>0</sub>,<k>y</k><sub>0</sub>)</frm>
         de kurbo
         difinita per kartezia ekvacio
         <frm am="y=f(x)"><k>y</k> = <k>f</k>(<k>x</k>)</frm>, kie
@@ -904,15 +1048,14 @@
       elvokas la ideon, ke la kurbo transiras la koncernan punkton,
       a&ubreve; sian tan&gcirc;anton &ccirc;e tiu punkto,
       <tld/>i&gcirc;ante (al alia direkto). &Ccirc;iuj aliaj fontoj
-      &#8208;
+      &#x2010;
       krom <fnt><bib>PIV2</bib></fnt>, kiu konas nur la substantivon
-      <ctl>trans<tld/>i&gcirc;ejo</ctl> &#8208; preferas la formon
+      <ctl>trans<tld/>i&gcirc;ejo</ctl> &#x2010; preferas la formon
       <ctl>infleksa</ctl>, kies radiko restas ignorata de la
       &gcirc;eneralaj vortaroj.
     </rim>
   </snc>
-  <bld lok="../bld/f_transfleksigxa_punkto.svg" tip="svg" alt="400"
-  lrg="400">trans<tld/>i&gcirc;a punkto
+  <bld lok="../bld/f_transfleksigxa_punkto.svg" tip="svg" alt="400" lrg="400">trans<tld/>i&gcirc;a punkto
   </bld>
   <trd lng="be"><klr tip="amb">(&c_p;&c_u;&c_n;&c_k;&c_t;)</klr>
   &c_p;&c_je;&c_r;&c_a;&c_g;&c_ib;&c_b;&c_u;</trd>
@@ -950,8 +1093,20 @@
 </drv>
 </art>
 <!--
-$Log: fleks.xml,v $
-Revision 1.36  2020/02/22 18:10:28  revo
+$Log$
+versio 1.40 2021/05/14 10:57:53
+Wolfram Diestel: +trd de
+
+versio 1.39 2021/05/14 05:55:22
+Wolfram Diestel: ~ajxo..genu~i: ekz-oj, ref-oj, trd de
+
+versio 1.38 2021/05/13 20:50:49
+Wolfram Diestel: ~i: +snc konformigi, ekz-oj, ref-oj
+
+versio 1.37 2021/04/30 07:51:25
+Dmitri Gabinski: +trd be
+
+versio 1.36 2020/02/22 19:10:29
 Wolfram Diestel: svg anst. gif
 
 Revision 1.35  2020/02/16 10:10:24  revo
@@ -961,17 +1116,5 @@ Revision 1.34  2017/08/31 06:10:13  revo
 Damien Brucker: -eraro cxe cel en ref
 
 Revision 1.33  2017/05/23 20:10:12  revo
-Wolfram Diestel: prilaboris ekz-ojn
-
-Revision 1.32  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.31  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.30  2015/04/01 22:10:16  revo
-Carlos Garcia: +trd es -i -igx -o -a -ajx -ebla -igxema ne-igxema gunu-i
-
-Revision 1.29  2015/02/07 16:10:14  revo
 -->
 </vortaro>

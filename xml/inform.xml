@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: inform.xml,v 1.25 2017/01/11 21:10:15 revo Exp $">
+<art mrk="$Id: inform.xml,v 1.28 2021/05/28 17:03:43 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>inform</rad>/i <fnt><bib>PV</bib></fnt>
@@ -123,6 +122,7 @@
     <trd>felvil&aacute;gos&iacute;t</trd>,
     <trd>inform&aacute;l</trd>
   </trdgrp>
+  <trd lng="ne">&#x92D;&#x928;&#x94D;&#x928;&#x941;</trd>
   <trdgrp lng="nl">
     <trd>meedelen</trd>,
     <trd>inlichten</trd>,
@@ -164,7 +164,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">ARK</uzo>
-        Marta iris sur la straton Dluga kaj vizitis
+        Marta iris sur la straton <nom>Dluga</nom> kaj vizitis
         la oficejon de <tld/>oj <klr>(<tld/>an oficejon)</klr>
         <fnt><bib>Marta</bib></fnt>;
       </ekz>
@@ -235,6 +235,7 @@
     <trd lng="nl">informatie</trd>
     <trd lng="ru">&c_i;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_i;&c_ja;</trd>
   </snc>
+  <trd lng="bo">&#xF42;&#xF53;&#xF66;&#xF0B;&#xF5A;&#xF74;&#xF63;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>informace</trd>,
     <trd>ozn&aacute;men&iacute;</trd>,
@@ -404,8 +405,7 @@
         dum &ccirc;. 4 - 10 sekundoj en sia konscio
         <fnt>
           <aut>H. G. Frank, G. Lobin</aut>,
-          <vrk><url
-          ref="http://www2.cs.upb.de/extern/fb/2/Kyb.Paed/loi/kap10ilo.htm">
+          <vrk><url ref="http://www2.cs.upb.de/extern/fb/2/Kyb.Paed/loi/kap10ilo.htm">
           Lingvo-Orientiga Instruado</url></vrk>,
           <lok>[vidita en 2017]</lok>
         </fnt>.
@@ -552,6 +552,49 @@
     <trd>oznamovate&lcaron;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="inform.mis0i">
+  <kap>
+    mis<tld/>i
+  </kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="inform.mis0i.INF">
+    <dif>
+      Mal&gcirc;uste <tld/>i, sciigi ion, kio ne estas plena vero:
+      <ekz>
+        lastatempe aperis spammesa&gcirc;oj kiuj mis<tld/>as pri neekzistantaj virusoj
+        <fnt>
+          <aut>Y. Bellefeuille</aut>
+          <vrk><url ref="https://bertilow.com/div/komputada_leksikono/SPAM.html">Spamo</url></vrk>
+          <lok>[1998?]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">d&eacute;sinformer</trd>
+</drv>
+
+<drv mrk="inform.mis0o">
+  <kap>
+    mis<tld/>o
+  </kap>
+  <snc mrk="inform.mis0o.INF">
+    <dif>
+      Mal&gcirc;usta, iel malvera a&ubreve; misgvida <tld/>o:
+      <ekz>
+        la mis<tld/>o <klr>[&#x2026;]</klr> estas unu el multaj eraroj en la reta Jarlibro de
+        UEA
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="https://www.liberafolio.org/2017/08/28/fantomoj-hantas-en-la-jarlibro/">Fantomoj hantas en la Jarlibro</url></vrk>
+          <lok>libera folio, 2017-08-28</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">d&eacute;sinformation</trd>
+</drv>
+
 <rim>
   <em>Indiki</em> signifas:
   <ctl>doni al iu, kiu petas, konkretan sciigon, ekz. nomon,
@@ -573,9 +616,9 @@
 </rim>
 </art>
 <!--
-$Log: inform.xml,v $
-Revision 1.25  2017/01/11 21:10:15  revo
-Jeromo Vasxe: + ~ero
+$Log$
+versio 1.26 2021/05/19 21:53:04
+Jeromo Vasxe: + mis~i/o
 
 Revision 1.24  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer

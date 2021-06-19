@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: mut.xml,v 1.24 2019/04/22 18:10:16 revo Exp $">
+  <art mrk="$Id: mut.xml,v 1.27 2021/05/29 14:32:57 revo Exp $">
     <kap>
       <ofc>*</ofc><rad>mut</rad>/a
     </kap>
@@ -39,7 +39,7 @@
         </trdgrp>
         <trd lng="en">speechless</trd>
         <trdgrp lng="id">
-          <trd>[<ind>diam</ind>] terdiam</trd>,
+          <trd>ter<ind>diam</ind></trd>,
           <trd>kelu</trd>
         </trdgrp>
         <trd lng="nl">sprakeloos</trd>
@@ -63,7 +63,9 @@
       <trd lng="fr">muet<klr> (adj.)</klr></trd>
       <trd lng="hu">n&eacute;ma</trd>
       <trd lng="nl">stom</trd>
+      <trd lng="pl">niemy</trd>
       <trd lng="pt">mudo</trd>
+      <trd lng="ro">mut</trd>
       <trdgrp lng="ru">
         <trd>&c_n;&c_je;&c_m;&c_o;&c_j;</trd>,
         <trd>&c_b;&c_je;&c_s;&c_s;&c_l;&c_o;&c_v;&c_je;&c_s;&c_n;&c_y;&c_j;</trd>
@@ -79,8 +81,7 @@
         <dif>
          Igi nekapabla paroli.
         </dif>
-        <trd
-        lng="be">&c_z;&c_m;&c_o;&c_w;&c_k;&c_n;&c_u;&c_c;&c_mol;</trd>
+        <trd lng="be">&c_z;&c_m;&c_o;&c_w;&c_k;&c_n;&c_u;&c_c;&c_mol;</trd>
           <trd lng="de">stumm machen</trd>
         <trd lng="hu">eln&eacute;m&iacute;t</trd>        
         <trd lng="ru">&c_l;&c_i;&c_sh;&c_i;&c_t;&c_mol;
@@ -108,11 +109,18 @@
       <trd lng="cs">uml&ccaron;et</trd>
       <trd lng="en">mute</trd>
       <trd lng="es">silenciar</trd>
-      <trd lng="id">[<ind>bungkam</ind>] membungkam</trd>
+      <trd lng="id">mem<ind>bungkam</ind></trd>
       <trd lng="nl">verstommen<klr tip="ind"> (tr.)</klr></trd>
+      <trdgrp lng="pl">
+        <trd>oniemi&cacute;</trd>,
+        <trd>czyni&cacute; niemow&aogonek;</trd>
+      </trdgrp>
+      <trdgrp lng="ro">
+        <trd>&icirc;nm&abreve;rmurit</trd>,
+        <trd>face mut</trd>
+      </trdgrp>
       <trd lng="sk">uml&ccaron;a&tcaron;</trd>
     </drv>
-
 
 <drv mrk="mut.0igxi">
   <kap><tld/>i&gcirc;i</kap>
@@ -137,8 +145,17 @@
   <trd lng="es">enmudecer</trd>
   <trd lng="fr">devenir muet</trd>
   <trd lng="hu">eln&eacute;mul</trd>
-  <trd lng="id">[<ind>diam</ind>] terdiam</trd>
+  <trd lng="id">ter<ind>diam</ind></trd>
   <trd lng="nl">verstommen<klr tip="ind"> (ntr.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>zaniem&oacute;wi&cacute;</trd>,
+    <trd>niemie&cacute;</trd>,
+    <trd>oniemie&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>usca</trd>,
+    <trd>fi lovit prost</trd>
+  </trdgrp>
   <trd lng="ru">&c_o;&c_n;&c_je;&c_m;&c_je;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>onemie&tcaron;</trd>,
@@ -163,7 +180,13 @@
     </dif>
     <ref tip="vid" cel="balbut.0ulo">balbutulo</ref>
   </snc>
+  <trd lng="bo">&#xF63;&#xF90;&#xF74;&#xF42;&#xF66;&#xF0B;&#xF54;&#xF0B;</trd>
   <trd lng="fr">muet<klr> (subst.)</klr></trd>
+  <trd lng="pl">niemowa</trd>
+  <trdgrp lng="ro">
+    <trd>mut</trd>,
+    <trd>f&abreve;r&abreve; voce</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mut.surdo0ulo">
@@ -180,19 +203,21 @@
         <fnt>
           <aut>-</aut>
           <vrk><url ref="https://blog.goo.ne.jp/verdavojeto/e/7ce71439605317558f09595c2496899a">
-          &#12454;&#12460;&#12531;&#12480;&#12398;&#26032;&#12375;&#12356;&#27861;&#24459; / Nova le&gcirc;o de Ugando</url></vrk>
+          &#x30A6;&#x30AC;&#x30F3;&#x30C0;&#x306E;&#x65B0;&#x3057;&#x3044;&#x6CD5;&#x5F8B; / Nova le&gcirc;o de Ugando</url></vrk>
           <lok>Verda vojeto, 2014-02-26</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="fr">sourd-muet<klr> (subst.)</klr></trd>
+  <trd lng="pl">g&lstroke;uchoniemy</trd>
+  <trd lng="ro">surdomut</trd>
 </drv>
 </art>
   <!--
-  $Log: mut.xml,v $
-  Revision 1.24  2019/04/22 18:10:16  revo
-  Jeromo Vasxe: + surdo~ulo
+  $Log$
+versio 1.26 2021/04/29 21:54:00
+Vito Redsky: +trd pl +trd ro
 
   Revision 1.23  2019/04/19 08:10:16  revo
   Jeromo Vasxe: + ~ulo
@@ -213,40 +238,5 @@
   Wolfram Diestel: +fr trd
 
   Revision 1.17  2014/10/24 15:10:17  revo
-  Eko Nur Syah Hidayat: +trd id
-
-  Revision 1.16  2009/10/11 16:30:41  revo
-  Paul Peeraerts: +nl
-
-  Revision 1.15  2009/03/25 17:31:05  revo
-  Alejandro Mejia Greene: ald his trd
-
-  Revision 1.14  2009/02/22 17:30:39  revo
-  Russ Williams: +trd en
-
-  Revision 1.13  2006/08/16 19:53:56  revo
-  Tulio Flores: +tr pt
-
-  Revision 1.12  2004/06/15 21:33:31  revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.11  2004/03/15 17:30:38  revo
-  Dennis Wibrow: +trd germ
-
-  Revision 1.10  2003/06/16 16:31:04  revo
-  Sergio Pokrovskij: apartigis ~igxi; +trd=ru
-
-  Revision 1.9  2001/11/28 19:06:25  revo
-  Yury Finkel: +trd ru
-
-  Revision 1.8 2001/09/05 19:05:59 revo
-  Jerano Zachrisson: +trd sv
-
-  Revision 1.7 2001/08/20 20:33:33 revo
-  Zmicier Lapcionak: + trd be
-
-  Revision 1.6 2001/01/18 17:11:33 revo
-  Paul Peeraerts: ald trad nl
-
-  -->
+-->
 </vortaro>

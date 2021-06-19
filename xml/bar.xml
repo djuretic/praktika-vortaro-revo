@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: bar.xml,v 1.59 2020/02/15 19:10:17 revo Exp $">
+<art mrk="$Id: bar.xml,v 1.62 2021/05/25 14:58:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bar</rad>/i
@@ -106,6 +105,7 @@
     <trd>block</trd>,
     <trd>bar</trd>
   </trdgrp>
+  <trd lng="he">&lamed;&het;&samekh;&vav;&fmem;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_je;&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_g;&c_o;&c_r;&c_a;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -244,6 +244,7 @@
     <trd>hranice</trd>,
     <trd>ohrani&ccaron;en&iacute;</trd>
   </trdgrp>
+  <trd lng="he">&mem;&het;&samekh;&vav;&fmem;</trd>
   <trdgrp lng="sk">
     <trd>hranica</trd>,
     <trd>ohrani&ccaron;enie</trd>
@@ -300,6 +301,7 @@
       <trd>&c_z;&c_a;&c_g;&c_r;&c_a;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
   </snc>
+  <trd lng="he">&samekh;&#1462;&kaf;&#1462;&resh;</trd>
 </drv>
 
 <drv mrk="bar.0ilo">
@@ -358,6 +360,7 @@
     </trdgrp>
   </snc>
   <trd lng="cs">plot</trd>
+  <trd lng="he">&gimel;&dalet;&resh;</trd>
 </drv>
 
 <drv mrk="bar.0ita">
@@ -446,12 +449,11 @@
     <trd lng="hu">korl&aacute;tos<klr tip="ind"> (pl.
     halmaz)</klr></trd>
     <trd lng="pl">ograniczony</trd>
-    <trd
-    lng="ru">&c_o;&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+    <trd lng="ru">&c_o;&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <trd
-  lng="be">&c_a;&c_b;&c_m;&c_je;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  <trd lng="be">&c_a;&c_b;&c_m;&c_je;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
   <trd lng="cs">ohrani&ccaron;en&yacute;</trd>
+  <trd lng="he">&het;&samekh;&vav;&fmem;</trd>
   <trd lng="sk">ohrani&ccaron;en&yacute;</trd>
 </drv>
 
@@ -531,6 +533,7 @@
     <trd>enfermer</trd>,
     <trd>enserrer</trd>
   </trdgrp>
+  <trd lng="he">&lamed;&he;&qof;&yod;&fpe;</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_g;&c_r;&c_a;&c_d;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_g;&c_o;&c_r;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>,
@@ -551,7 +554,6 @@
         fra&ubreve;lo</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="krad.de0i">dekradi</ref>
     <trdgrp lng="be">
       <trd>&c_a;&c_d;&c_g;&c_a;&c_r;&c_o;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_a;&c_d;&c_g;&c_a;&c_r;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>
@@ -622,8 +624,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc mrk="bar.ne0ita.MAT">
     <ref tip="ant" cel="bar.0ita.MAT"><tld/>ita.</ref>
-    <trd
-    lng="be">&c_n;&c_je;&c_a;&c_b;&c_m;&c_je;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+    <trd lng="be">&c_n;&c_je;&c_a;&c_b;&c_m;&c_je;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
     <trd lng="br">divonn<klr tip="ind"> (mat.)</klr></trd>
     <trd lng="de">unbeschr&auml;nkt</trd>
     <trd lng="en">unbounded</trd>
@@ -634,8 +635,7 @@
       <trd>hat&aacute;rtalan<klr tip="ind"> (pl. halmaz)</klr></trd>
     </trdgrp>
     <trd lng="pl">nieograniczony</trd>
-    <trd
-    lng="ru">&c_n;&c_je;&c_o;&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+    <trd lng="ru">&c_n;&c_je;&c_o;&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
   <trd lng="cs">neohrani&ccaron;en&yacute;</trd>
   <trd lng="sk">neohrani&ccaron;en&yacute;</trd>
@@ -713,6 +713,56 @@
   <trd lng="cs">prkenn&yacute; plot</trd>
   <trd lng="sk">doskov&yacute; plot</trd>
 </drv>
+
+<drv mrk="bar.val0ajxo">
+  <kap>
+    val<tld/>a&jcirc;o, <var><kap>akvo<tld/>a&jcirc;o</kap></var>
+  </kap>
+  <snc>
+    <uzo tip="fak">TEK</uzo><uzo tip="fak">ELE</uzo>
+    <dif>
+      Akvorezervujo, kreita per <ref tip="super" cel="dig.0o">digego</ref>, 
+      baranta tutan valon por reteni riverakvon; la digego mem:
+      <ekz>
+        la val<tld/>a&jcirc;o <klr>[&#8230;]</klr> havas kapaciton de 47 milionoj da kubaj metroj
+        <fnt>
+          <vrk><url ref="https://edukado.net/upload/enhavo/dosieroj/Grundtvig/Harzmontaro.pdf"
+              >Harz-montaro - Granda naturparko en meza Germanio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la planita akvorezervejo-komplekso apartenis la sekvaj hidroteknikaj objektumoj:
+        val<tld/>a&jcirc;o, &ccirc;. 70 metrojn alta, konsistanta el akvoizola argilkerno kaj
+        ties filtril-, balast- kaj &scirc;lim-kovra&jcirc;oj <klr>[&#8230;]</klr>
+        <fnt>
+          <vrk><url
+          ref="http://www.eventoj.hu/steb/ingxenierado/hidrologio/modeleksperimento/modeleksperimentoj_pri_hidroteknikaj_objektumoj.htm"
+              >Modeleksperimentoj pri hidroteknikaj objektumoj  ...</url></vrk>
+        </fnt>;
+      </ekz>   
+      <ekz>
+        grandaj akvo<tld/>a&jcirc;oj por funkciigi hidroelektrajn centralojn estas mal&scirc;atataj
+        de mediprotektantoj pro siaj kromefikoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2007/009344.php"
+              >&Ccirc;u biokarbura&jcirc;oj helpas a&ubreve; malhelpas?</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>   
+    </dif>
+    <refgrp tip="vid">
+       akvo<ref cel="centra1.0o.ELE">centralo<sncref/></ref>,
+       <ref cel="sxtup.akvo0o">akvo&scirc;tupo</ref>,
+       <ref cel="kluz.0o.MAR">kluzo<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">Talsperre</trd>
+  <trd lng="en">dam</trd>
+  <trd lng="fr">barrage</trd>
+</drv>
+
 
 <drv mrk="bar.suba0o">
   <kap>suba <tld/>o</kap>
@@ -817,8 +867,14 @@
 </drv>
 </art>
 <!--
-$Log: bar.xml,v $
-Revision 1.59  2020/02/15 19:10:17  revo
+$Log$
+versio 1.62 2021/05/25 14:58:28
+Wolfram Diestel: -ref
+
+versio 1.61 2021/03/17 21:49:15
+Wolfram Diestel: +val~ajxo, akvo~ajxo
+
+versio 1.59 2020/02/15 20:10:18
 Wolfram Diestel: formuloj per am
 
 Revision 1.58  2020/02/13 17:10:26  revo
@@ -834,11 +890,5 @@ Revision 1.55  2015/10/26 13:10:51  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.54  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.53  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.52  2009/03/03 17:30:50  revo
 -->
 </vortaro>

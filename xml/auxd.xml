@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: auxd.xml,v 1.42 2018/05/31 16:10:15 revo Exp $">
+<art mrk="$Id: auxd.xml,v 1.90 2021/06/18 20:41:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>a&ubreve;d</rad>/i <fnt><bib>PV</bib></fnt>
@@ -19,11 +18,38 @@
         <fnt><bib>MT</bib>, <lok>&Psa; 135:17</lok></fnt>;
       </ekz>
       <ekz>
-        parolanto semas, <tld/>anto rikoltas<fnt><bib>PrV</bib></fnt>;
+        vian vo&ccirc;on mi <tld/>is en la &gcirc;ardeno
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 3:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>is la &gcirc;emadon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 6:5</lok>
+        </fnt>;
       </ekz>
       <ekz>
         bojas hundido kiel &gcirc;i <tld/>as de hundoj
-        <fnt><bib>PrV</bib></fnt>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>as muzikon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9401-telefona-labirinto.txt">Will Green kondukas vin tra sia</url></vrk>
+          <lok>94/01</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ku&scirc;is senmove kelkajn minutojn, provante <tld/>i sian internon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Geraldo Mattos</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006805.html">Kota Akvo: Konstanten Krysakov</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -33,41 +59,133 @@
   </snc>
   <snc mrk="auxd.0i.sciigxi">
     <dif>
-      Scii&gcirc;i per a&ubreve;dado:
+      <ref tip="super" cel="sci.0igxi">Scii&gcirc;i</ref> per a&ubreve;dado:
       <ekz>
         mi <tld/>is multon pri vi;
       </ekz>
       <ekz>
-        mi <tld/>is, ke vi rezignas vian postenon.
+        mi <tld/>is, ke vi rezignas vian postenon;
+      </ekz>
+      <ekz>
+        kie &jcirc;uron vi <tld/>as, malbonon suspektu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu &ccirc;ion senpripense parolas, <tld/>os tion, kion li ne volas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu <tld/>is unuan, anka&ubreve; <tld/>u la duan
+        <klr>(ne ignoru tion, kio ne pla&ccirc;as al vi)</klr>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri <klr>[&#x2026;]</klr> malfeli&ccirc;o vi certe <tld/>as &ccirc;iun tagon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9312-bosnio.txt">Bosnio</url></vrk>
+          <lok>93/12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni <tld/>as <klr>[&#x2026;]</klr> dubeman opinion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006813.html">Sa&gcirc;a kapo duonvorton komprenas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu ne ridetis, tion <tld/>ante
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006823.html">Opinio: Tro Senkosta Pentemo</url></vrk>
+        </fnt>?
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="sci.ek0i.informon">ekscii</ref>,
+     <ref cel="kompre.0i.ion">kompreni</ref>
+    </refgrp>
     <trd lng="it">sentire<klr> (udire)</klr></trd>
   </snc>
+  <trd lng="af">hoor</trd>
+  <trd lng="am">&#x1218;&#x1235;&#x121B;&#x1275;</trd>
+  <trd lng="ar">&#x633;&#x645;&#x639;</trd>
+  <trd lng="az">e&#x15F;itm&#x259;k</trd>
   <trd lng="be">&c_ch;&c_u;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_ch;&c_u;&c_v;&c_a;&c_m;</trd>
+  <trd lng="bn">&#x9B6;&#x9CD;&#x9B0;&#x9AC;&#x9A3;</trd>
+  <trd lng="bo">&#xF41;&#xF7C;&#xF0B;</trd>
   <trd lng="br">klevet</trd>
+  <trd lng="bs">&#x10D;uti</trd>
   <trdgrp lng="ca">
     <trd>sentir</trd>,
     <trd>sentir-hi</trd>
   </trdgrp>
+  <trd lng="co">state &#xE0; sente</trd>
   <trd lng="cs">sly&scaron;et</trd>
+  <trd lng="da">h&#xF8;re</trd>
   <trd lng="de">h&ouml;ren</trd>
   <trd lng="en">hear</trd>
   <trd lng="es">o&iacute;r</trd>
+  <trd lng="et">hear</trd>
+  <trd lng="eu">entzun</trd>
   <trd lng="fr">entendre<klr> (un son)</klr></trd>
+  <trd lng="fy">hearre</trd>
+  <trd lng="gl">escoitar</trd>
+  <trd lng="gu">&#xAB8;&#xABE;&#xA82;&#xAAD;&#xAB3;&#xAB5;&#xABE;</trd>
+  <trd lng="ha">ji</trd>
+  <trd lng="he">&#x5DC;&#x5E9;&#x5DE;&#x5D5;&#x5E2;</trd>
+  <trd lng="hi">&#x938;&#x941;&#x928;&#x928;&#x93E;</trd>
+  <trd lng="hr">&#x10D;uju</trd>
   <trd lng="hu">hall</trd>
-  <trd lng="id">[<ind>dengar</ind>] mendengar</trd>
+  <trd lng="hy">&#x56C;&#x57D;&#x565;&#x56C;</trd>
+  <trd lng="id">men<ind>dengar</ind></trd>
+  <trd lng="is">heyra</trd>
+  <trd lng="ja">&#x805E;&#x304F;</trd>
+  <trd lng="jw">krungu</trd>
+  <trd lng="ka">&#x10DB;&#x10DD;&#x10D5;&#x10D8;&#x10E1;&#x10DB;&#x10D8;&#x10DC;&#x10DD;&#x10D7;</trd>
+  <trd lng="km">&#x17AE;</trd>
+  <trd lng="ko">&#xB4E3;&#xB2E4;</trd>
+  <trd lng="lo">&#xE8D;&#xEB4;&#xE99;</trd>
+  <trd lng="ml">&#xD15;&#xD47;&#xD33;&#xD4D;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x932;&#x915;&#x94D;&#x937; &#x926;&#x947;&#x90A;&#x928; &#x910;&#x915;&#x923;&#x947;</trd>
+  <trd lng="my">&#x1000;&#x103C;&#x102C;&#x1038;</trd>
+  <trd lng="ne">&#x938;&#x941;&#x928;&#x94D;&#x91B;&#x928;&#x94D;</trd>
   <trd lng="nl">horen</trd>
   <trd lng="no">h&oslash;re</trd>
+  <trd lng="ny">akumva</trd>
   <trd lng="oc">ausir</trd>
+  <trd lng="pa">&#xA38;&#xA41;&#xA23;&#xA26;&#xA47;</trd>
   <trd lng="pl">s&lstroke;ysze&cacute;</trd>
+  <trd lng="ps">&#x689;&#x631;&#x627;</trd>
   <trd lng="pt">ouvir</trd>
   <trd lng="ro">a auzi</trd>
   <trd lng="ru">&c_s;&c_l;&c_y;&c_sh;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sd">&#x67B;&#x68C;&#x64A;</trd>
+  <trd lng="si">&#xDC3;&#xDC0;&#xDB1;&#xDCA;</trd>
   <trd lng="sk">po&ccaron;u&tcaron;</trd>
+  <trd lng="sq">d&#xEB;gjoj&#xEB;</trd>
+  <trd lng="st">utloa</trd>
+  <trd lng="ta">&#xB9A;&#xBC6;&#xBB5;&#xBBF; &#xBAE;&#xB9F;&#xBC1;&#xBA4;&#xBCD;&#xBA4;&#xBC1; &#xB95;&#xBC7;&#xBB3;&#xBCD;</trd>
+  <trd lng="te">&#xC35;&#xC3F;&#xC28;&#xC41;</trd>
+  <trd lng="th">&#xE44;&#xE14;&#xE49;&#xE22;&#xE34;&#xE19;</trd>
+  <trd lng="tl">pakinggan</trd>
   <trd lng="tp">kute</trd>
+  <trd lng="ur">&#x633;&#x646;</trd>
+  <trd lng="vi">nghe</trd>
   <trd lng="vo">lil&ouml;n</trd>
-  <trd lng="kek">ab&#789;ink</trd>
+  <trd lng="kek">ab&#x315;ink</trd>
+  <trd lng="yi">&#x5D4;&#x5E2;&#x5E8;&#x5DF;</trd>
+  <trd lng="zu">zwa</trd>
 </drv>
 
 <drv mrk="auxd.0o">
@@ -77,8 +195,32 @@
       <ref tip="dif" cel="auxd.0ado.SEN"><tld lit="A"/>ado</ref>:
       <ekz>
         <ind>unu vido ta&ubreve;gas pli ol dek <tld/>oj</ind>
+        <trd lng="de">ein <ind>Bild</ind> sagt mehr als tausend Worte</trd>
         <trd lng="fr">voir c'est croire</trd>
-        <fnt><bib>PrV</bib></fnt>.
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ne la&ubreve; la <tld/>o de siaj oreloj li eldirados verdiktojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 11:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia rigardo kaj <tld/>o svagi&gcirc;is
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="https://www.monato.be/2010/009883.php">Trancporto</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mis<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007143.html">&Ccirc;u ni mortu miskomprene? (2)</url></vrk>
+        </fnt>;
       </ekz>
     </dif>
     <trd lng="de">H&ouml;ren</trd>
@@ -95,7 +237,7 @@
   </trdgrp>
   <trd lng="en">hearing</trd>
   <trd lng="hu">hall&aacute;s</trd>
-  <trd lng="id">[<ind>dengar</ind>] pendengaran</trd>
+  <trd lng="id">pen<ind>dengar</ind>an</trd>
   <trd lng="pl">s&lstroke;uch</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_h;</trd>
 </drv>
@@ -109,9 +251,22 @@
         frekvenco detektebla per la <tld/>a sistemo
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=3284'>Ondo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3284">Ondo</url></lok>
         </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a subfrekvenco estas 7,74 MHz
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9504-radio.txt">Radio</url></vrk>
+          <lok>95/04</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a sistemo
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/A%C5%ADda_sistemo">A&ubreve;da sistemo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -139,11 +294,24 @@
     <dif>
       Sentado de sonoj:
       <ekz>
+        <tld/>ado de instruo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 28:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne pleni&gcirc;as la orelo de <tld/>ado
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 1:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         revolucia nova maniero de <tld/>ado
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=3601'>Renesanco</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3601">Renesanco</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -151,18 +319,18 @@
         tercioj kaj sekstoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref='https://eo.wikipedia.org/?curid=27349'>Piano</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=27349">Piano</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">H&ouml;ren</trd>
+  <trd lng="he">&#x5E9;&#x5DE;&#x5E2;</trd>
   <trd lng="it">ascolto</trd>
   <trd lng="nl">gehoor</trd>
   <trd lng="no">h&oslash;rsel</trd>
   <trd lng="pl">s&lstroke;uch</trd>
-  <trd lng="kek">ab&#789;iil</trd>
+  <trd lng="kek">ab&#x315;iil</trd>
 </drv>
 
 <drv mrk="auxd.0igi">
@@ -177,7 +345,15 @@
       </ekz>
       <ekz>
         la tondro <tld/>igadis brue frapon post frapo
-        <fnt><bib>Fab1</bib>, <lok>Sova&gcirc;aj cignoj</lok></fnt>.
+        <fnt><bib>Fab1</bib>, <lok>Sova&gcirc;aj cignoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        sensonan kvakadon &scirc;i de tempo al tempo <tld/>igadis, tute tiel, kiel <tld/>igas
+        infano, kiam &gcirc;i &gcirc;emas en son&gcirc;o
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -189,6 +365,7 @@
   </trdgrp>
   <trd lng="en">make a <ind>sound</ind></trd>
   <trd lng="fr">faire <ind>entendre</ind></trd>
+  <trd lng="he">&#x5DC;&#x5D4;&#x5D9;&#x5E9;&#x5DE;&#x5E2;</trd>
   <trd lng="hu">hallat</trd>
   <trdgrp lng="it">
     <trd>far <ind>udire</ind></trd>,
@@ -249,9 +426,17 @@
       <ekz>
         mia kap<tld/>ilo flugis de sur mia kapo
         <fnt>
-          <vrk><url
-          ref='http://graynoise.konfuzo.net/esperanto-dumlerna_blogo.php'>esperanto
+          <vrk><url ref="http://graynoise.konfuzo.net/esperanto-dumlerna_blogo.php">esperanto
           - graynoise.konfuzo.net</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        hometoj kun kap<tld/>iloj kaj magnetofonoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2013/011111.php">Saluton, ser&gcirc;ento!</url></vrk>
+          <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -273,32 +458,55 @@
 
 <drv mrk="auxd.ne0ita">
   <kap>ne<tld/>ita</kap>
-  <snc>
+  <snc mrk="auxd.ne0ita.ignorata">
     <dif>
-      Ne jam a&ubreve;dita, nekredebla, senekzempla:
+      Sen, ke oni <tld/>as ion:
+      <ekz>
+        &scirc;ia senforti&gcirc;inta vo&ccirc;o timis la stratan bruon, en kiu &gcirc;i devus droni ne<tld/>ita
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">ungeh&ouml;rt</trd>
+  </snc>
+  <snc mrk="auxd.ne0ita.neordinara">
+    <dif>
+      Ne jam <tld/>ita, nekredebla, senekzempla:
+      <ekz>
+        tio &ccirc;i estis ne<tld/>ita, nekredebla moko de la sorto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne<tld/>ita projekto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         terura, nenatura, ne<tld/>ita
         <fnt>
           <aut>W. Shakespeare, trad. L. L. Zamenhof</aut>
-          <vrk><url
-          ref='https://eo.wikisource.org/wiki/Hamleto,_re%C4%9Dido_de_Danujo/Akto_I'>
+          <vrk><url ref="https://eo.wikisource.org/wiki/Hamleto,_re%C4%9Dido_de_Danujo/Akto_I">
           Hamleto, re&gcirc;ido de Danujo</url></vrk>
           <lok>1894</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_n;&c_ja;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_y;</trd>
+    <trd lng="de">unerh&ouml;rt</trd>
+    <trd lng="en">unheard-of</trd>
+    <trd lng="fr">inou&iuml;</trd>
+    <trd lng="hu">hallatlan</trd>
+    <trd lng="it">inaudito</trd>
+    <trd lng="nl">ongehoord</trd>
+    <trd lng="no">uh&oslash;rt</trd>
+    <trd lng="pl">nies&lstroke;ychany</trd>
+    <trd lng="ru">&c_n;&c_je;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
+    <trd lng="sk">nesl&yacute;chan&yacute;</trd>
   </snc>
-  <trd lng="be">&c_n;&c_ja;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_y;</trd>
-  <trd lng="de">unerh&ouml;rt</trd>
-  <trd lng="en">unheard-of</trd>
-  <trd lng="fr">inou&iuml;</trd>
-  <trd lng="hu">hallatlan</trd>
-  <trd lng="it">inaudito</trd>
-  <trd lng="nl">ongehoord</trd>
-  <trd lng="no">uh&oslash;rt</trd>
-  <trd lng="pl">nies&lstroke;ychany</trd>
-  <trd lng="ru">&c_n;&c_je;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">nesl&yacute;chan&yacute;</trd>
 </drv>
 
 <drv mrk="auxd.0povo">
@@ -312,6 +520,15 @@
         <fnt><bib>Lasu</bib>, <lok>6</lok></fnt>;
       </ekz>
       <ekz>
+        kiel 16-jarulo <nom>Lorm</nom> perdis sian <tld/>kapablon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gert Heintze</aut>
+          <vrk><url ref="https://www.monato.be/2003/008104.html">Alfabeto por surdblinduloj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         se mia <tld/>kapablo povus kapti &ccirc;iun bruon en la mondo, 
         mi <tld/>us liajn pa&scirc;ojn
         <fnt>
@@ -320,6 +537,15 @@
           <url ref="http://www.yksi.org/tekst/ald/borges_aster-eo.html">
           La domo de Asteriono</url></vrk>,
           <lok>2006-12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&ccirc;ar multe oni]</klr> skribas, Esperanto <klr>[&#x2026;]</klr> estas sendube
+        preska&ubreve; tiom utila al la surduloj kiom al <tld/>opovaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006880.html">Ne &ccirc;iuj lingvoj estas langaj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -332,6 +558,7 @@
     <trd>audition<klr> (sens)</klr></trd>,
     <trd>ou&iuml;e<klr> (sens)</klr></trd>
   </trdgrp>
+  <trd lng="he">&#x5D9;&#x5DB;&#x5D5;&#x5DC;&#x5EA; &#x5E9;&#x5DE;&#x5D9;&#x5E2;&#x5D4;</trd>
   <trd lng="it">udito<klr> (senso)</klr></trd>
   <trd lng="nl">gehoor</trd>
   <trd lng="no">h&oslash;rsel</trd>
@@ -339,9 +566,12 @@
 </drv>
 </art>
 <!--
-$Log: auxd.xml,v $
-Revision 1.42  2018/05/31 16:10:15  revo
-Jeromo Vasxe: ~povo -super-> senso
+$Log$
+versio 1.45 2020/11/21 16:45:49
+Wolfram Diestel: +ref-oj
+
+versio 1.44 2020/11/21 12:36:46
+Wolfram Diestel: +ekz-oj
 
 Revision 1.41  2017/04/20 09:10:14  revo
 Ludoviko Francisco: kor trd en
@@ -359,8 +589,5 @@ Revision 1.37  2014/11/14 10:10:13  revo
 Eko Nur Syah Hidayat: +trd id
 
 Revision 1.36  2013/10/09 01:10:15  revo
-Benito Subejrano: + trd ca oc
-
-Revision 1.35  2013/09/30 01:10:12  revo
 -->
 </vortaro>

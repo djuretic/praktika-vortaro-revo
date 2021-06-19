@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ten.xml,v 1.81 2019/11/16 06:10:15 revo Exp $">
+<art mrk="$Id: ten.xml,v 1.127 2021/06/18 18:20:16 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>ten</rad>/i
 </kap>
@@ -43,7 +42,7 @@
           <fnt><bib>Fab1</bib>, <lok>La virineto de maro</lok></fnt>;
         </ekz>
         <ekz>
-          la koboldo kaptis la mirindan libron <klr>[&#8230;]</klr> kaj
+          la koboldo kaptis la mirindan libron <klr>[&#x2026;]</klr> kaj
           <tld/>is &gcirc;in forte per amba&ubreve; manoj
           <fnt><bib>Fab3</bib>, <lok>Koboldo &ccirc;e la
           butikisto</lok></fnt>;
@@ -78,8 +77,7 @@
     <subsnc mrk="ten.0i.peri_0on">
       <uzo tip="klr">(io, ion)</uzo>
       <dif>
-        Peri la agon de iu, kiu <tld/>as<sncref
-        ref="ten.0i.enmane_ion"/>
+        Peri la agon de iu, kiu <tld/>as<sncref ref="ten.0i.enmane_ion"/>
         a&ubreve; <tld/>as<sncref ref="ten.0i.enmane_ion_nerekte"/>:
         <ekz>
           Via mano min kondukos, kaj Via dekstra mano min <tld/>os
@@ -663,7 +661,14 @@
     </adm>
   </snc>
 -->
+  <trd lng="af">hou</trd>
+  <trd lng="am">&#x12EB;&#x12DD;</trd>
+  <trd lng="ar">&#x639;&#x642;&#x62F;</trd>
+  <trd lng="az">saxlamaq</trd>
   <trd lng="be">&c_t;&c_r;&c_y;&c_m;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bn">&#x9B0;&#x9BE;&#x996;&#x9BE;</trd>
+  <trd lng="bs">dr&#x17E;ite</trd>
+  <trd lng="co">chjapp&#xE0;</trd>
   <trdgrp lng="cs">
     <trd>dr&zcaron;et</trd>,
     <trd>m&iacute;t</trd>,
@@ -673,12 +678,15 @@
     <trd>udr&zcaron;ovat</trd>,
     <trd>zachovat</trd>
   </trdgrp>
+  <trd lng="da">holde</trd>
   <trd lng="en">hold</trd>
   <trdgrp lng="es">
      <trd>retener</trd>,
      <trd>mantener</trd>,
      <trd>conservar</trd>
   </trdgrp>
+  <trd lng="et">hoidke</trd>
+  <trd lng="eu">eutsi</trd>
   <trdgrp lng="fr">
     <trd>tenir<klr tip="ind"> (tr.)</klr></trd>,
     <trd>conserver<klr tip="ind"> (d&eacute;tenir, garder)</klr></trd>,
@@ -687,18 +695,39 @@
     <trd>maintenir<klr tip="ind"> (conserver)</klr></trd>,
     <trd>garder<klr tip="ind"> (conserver)</klr></trd>
   </trdgrp>
+  <trd lng="fy">h&#xE2;lde</trd>
+  <trd lng="gl">soster</trd>
+  <trd lng="gu">&#xAAA;&#xA95;&#xAA1;&#xAC0;</trd>
+  <trd lng="ha">ka ri&#x199;e</trd>
+  <trd lng="hi">&#x92A;&#x915;&#x921;&#x93C;</trd>
+  <trd lng="hr">dr&#x17E;ati</trd>
   <trdgrp lng="hu">
     <trd>tart</trd>,
     <trd>fog</trd>,
     <trd>t&aacute;rol</trd>
   </trdgrp>
+  <trd lng="hy">&#x57A;&#x561;&#x570;&#x565;&#x56C;</trd>
+  <trd lng="is">halda</trd>
   <trd lng="it">tenere</trd>
+  <trd lng="ja">&#x30DB;&#x30FC;&#x30EB;&#x30C9;</trd>
+  <trd lng="jw">terus</trd>
+  <trd lng="ka">&#x10D2;&#x10D0;&#x10DB;&#x10D0;&#x10E0;&#x10D7;&#x10D0;&#x10D5;&#x10E1;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x1793;&#x17CB;</trd>
+  <trd lng="ko">&#xAC1C;&#xCD5C;</trd>
   <trdgrp lng="ku">
     <trd> p&ecirc; girtin</trd>,
     <trd>tepi&scedil;</trd>,
     <trd>derdest kirin</trd>
   </trdgrp>
+  <trd lng="lo">&#xE96;&#xEB7;</trd>
+  <trd lng="ml">&#xD2A;&#xD3F;&#xD1F;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x927;&#x93E;&#x930;&#x923;</trd>
+  <trd lng="my">&#x1000;&#x102D;&#x102F;&#x1004;&#x103A;</trd>
+  <trd lng="ne">&#x92A;&#x915;&#x921;</trd>
+  <trd lng="ny">gwirani</trd>
+  <trd lng="pa">&#xA15;&#xA47; &#xA30;&#xA71;&#xA16;&#xA4B;</trd>
   <trd lng="pl">trzyma&cacute;</trd>
+  <trd lng="ps">&#x62C;&#x648;&#x693;&#x6D0;</trd>
   <trdgrp lng="pt">
    <trd>segurar</trd>,
    <trd>sustentar</trd>,
@@ -708,11 +737,22 @@
    <trd>guardar</trd>
   </trdgrp>
   <trd lng="ru">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sd">&#x68F;&#x633;&#x62C;&#x64A;</trd>
+  <trd lng="si">&#xDB4;&#xDD0;&#xDC0;&#xDD0;&#xDAD;&#xDCA;&#xDC0;&#xDD3;&#xDB8;&#xDA7;</trd>
   <trdgrp lng="sk">
     <trd>dr&zcaron;a&tcaron;</trd>,
     <trd>udr&zcaron;iava&tcaron;</trd>,
     <trd>zachova&tcaron;</trd>
   </trdgrp>
+  <trd lng="sq">mbaj&#xEB;</trd>
+  <trd lng="ta">&#xBA8;&#xB9F;&#xBA4;&#xBCD;&#xBA4;</trd>
+  <trd lng="te">&#xC2A;&#xC1F;&#xC4D;&#xC1F;&#xC3F;</trd>
+  <trd lng="th">&#xE16;&#xE37;&#xE2D;</trd>
+  <trd lng="tl">matagalan</trd>
+  <trd lng="ur">&#x67E;&#x6A9;&#x691;</trd>
+  <trd lng="vi">gi&#x1B0;</trd>
+  <trd lng="yi">&#x5D4;&#x5D0;&#x5B7;&#x5DC;&#x5D8;&#x5DF;</trd>
+  <trd lng="zu">ubambe</trd>
 </drv>
 
 <drv mrk="ten.sin0i">
@@ -733,7 +773,7 @@
         <tld/>i sin per amba&ubreve; manoj je la tablo;
       </ekz>
       <ekz>
-        la rano <klr>[&#8230;]</klr> <tld/>is sin forte je la kolharoj de la
+        la rano <klr>[&#x2026;]</klr> <tld/>is sin forte je la kolharoj de la
         besto
         <fnt><bib>Fab4</bib>, <lok>Filino de la mar&ccirc;a
         re&gcirc;o</lok></fnt>;
@@ -775,8 +815,7 @@
   </snc>
   <snc mrk="ten.sin0i.reciproke">
     <dif>
-      <ref cel="ten.0i.enmane_iun"><tld lit="T"/>i<sncref
-      ref="ten.0i.enmane_iun"/></ref> unu la alian:
+      <ref cel="ten.0i.enmane_iun"><tld lit="T"/>i<sncref ref="ten.0i.enmane_iun"/></ref> unu la alian:
       <ekz>
         la fratino kaj la fratoj <tld/>is sin reciproke je la manoj kaj
         kantis
@@ -794,8 +833,7 @@
   <snc mrk="ten.sin0i.dauxri">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      <ref cel="ten.0igxi.dauxri"><tld lit="T"/>i&gcirc;i<sncref
-      ref="ten.0igxi.dauxri"/></ref>: 
+      <ref cel="ten.0igxi.dauxri"><tld lit="T"/>i&gcirc;i<sncref ref="ten.0igxi.dauxri"/></ref>: 
       <ekz>
         vazo rompita longe sin <tld/>as
         <fnt>
@@ -956,7 +994,7 @@
     <dif>
       Ago <tld/>i:
       <ekz>
-        &scirc;i levis la &scirc;ultrojn, kaj <klr>[&#8230;]</klr> diris kun <tld/>o de
+        &scirc;i levis la &scirc;ultrojn, kaj <klr>[&#x2026;]</klr> diris kun <tld/>o de
         facila ripro&ccirc;o:
         vi forgesis diri al mi bonan tagon
         <fnt>
@@ -1017,11 +1055,10 @@
       prononcado de konsonanto:
       <ekz>
         en la artikulacio de la plozivo, tri fazoj distingeblas:
-        kapto <klr>[&#8230;]</klr> teno <klr>[&#8230;]</klr> ellaso 
+        kapto <klr>[&#x2026;]</klr> teno <klr>[&#x2026;]</klr> ellaso 
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=202265">Plozivo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=202265">Plozivo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1128,7 +1165,7 @@
     <dif>
       Plenforte kaj tre firme <tld/>i:
       <ekz>
-        li <klr>[&#8230;]</klr> <tld/>egis la benkon de la kale&scirc;o,
+        li <klr>[&#x2026;]</klr> <tld/>egis la benkon de la kale&scirc;o,
         kredante ke &ccirc;iu momento estos la lasta momento de lia vivo
         <fnt><bib>DOz</bib>,
         <lok>&leftquot;la tertremo&rightquot;</lok></fnt>.
@@ -1177,7 +1214,7 @@
       </ekz>
 -->
       <ekz>
-        la turo de <nom>David</nom> <klr>[&#8230;]</klr> estas konstruita kiel
+        la turo de <nom>David</nom> <klr>[&#x2026;]</klr> estas konstruita kiel
         <ind>armil<tld/>ejo</ind>
         <fnt><bib>MT</bib>, <lok>&Alt; 4:4</lok></fnt>;
         <trd lng="es">armer&iacute;a</trd>
@@ -1191,8 +1228,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
-          <vrk><url
-          ref="https://www.monato.be/2004/008505.html">Universitata
+          <vrk><url ref="https://www.monato.be/2004/008505.html">Universitata
           festojaro</url></vrk>
         </fnt>;
       </ekz>
@@ -1324,8 +1360,7 @@
   <kap><tld/>i&gcirc;i</kap>
   <snc mrk="ten.0igxi.en_ia_pozicio">
     <dif>
-      Sin <ref cel="ten.sin0i.en_ia_pozicio"><tld/>i<sncref
-      ref="ten.sin0i.en_ia_pozicio"/></ref>:
+      Sin <ref cel="ten.sin0i.en_ia_pozicio"><tld/>i<sncref ref="ten.sin0i.en_ia_pozicio"/></ref>:
       <ekz>
         sur Lia irejo forte <tld/>i&gcirc;as mia piedo
         <fnt><bib>MT</bib>, <lok>&Ijo; 23:11</lok></fnt>;
@@ -1420,8 +1455,8 @@
         re&gcirc;o</lok></fnt>;
       </ekz>
       <ekz>
-        la <tld/>i&gcirc;o, la maniero paroli <klr>[&#8230;]</klr> tute ne estis 
-        ne&gcirc;entilaj, sed lia memfido <klr>[&#8230;]</klr> konfuzis la knabinon
+        la <tld/>i&gcirc;o, la maniero paroli <klr>[&#x2026;]</klr> tute ne estis 
+        ne&gcirc;entilaj, sed lia memfido <klr>[&#x2026;]</klr> konfuzis la knabinon
         <fnt>
           <bib>IK</bib>
         </fnt>;
@@ -1486,8 +1521,7 @@
 
 <drv mrk="ten.0ilo">
   <kap><ofc>*</ofc><tld/>ilo <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5223">ten'il'</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5223">ten'il'</url></lok></fnt></kap>
   <snc mrk="ten.0ilo.enmana">
     <dif>
       Parto de objekto, destinita, por ke oni &gcirc;in 
@@ -1573,8 +1607,7 @@
       <ekz>
         ili donis al la &ccirc;arpentistoj kaj konstruistoj, por
         a&ccirc;eti &ccirc;irka&ubreve;hakitajn &scirc;tonojn kaj lignon por
-        kun<tld/>iloj <klr>(vd <ref tip="sub"
-        cel="kramp.0o">krampo</ref>)</klr>
+        kun<tld/>iloj <klr>(vd <ref tip="sub" cel="kramp.0o">krampo</ref>)</klr>
         kaj traboj por la domoj
         <fnt><bib>MT</bib>, <lok>&Kr2; 34:11</lok></fnt>.
       </ekz>
@@ -1599,6 +1632,7 @@
     </trdgrp>
     <trd lng="ru">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
   </snc>
+  <trd lng="bo">&#xF63;&#xF74;&#xF44;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>dr&zcaron;adlo</trd>,
     <trd>dr&zcaron;&aacute;k</trd>,
@@ -1630,17 +1664,14 @@
         por ke la plej
         malpezaj elementoj ne povu fori&gcirc;i
         <fnt>
-          <vrk><url
-          ref="http://www.eventoj.hu/steb/ingxenierado/ceteraj/petrolo.htm"
-              >La Petrolo</url></vrk>
+          <vrk><url ref="http://www.eventoj.hu/steb/ingxenierado/ceteraj/petrolo.htm">La Petrolo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la eltran&ccirc;itaj pecetoj kolekti&gcirc;as en suba <tld/>ujo
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=261884"
-              >Truilo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=261884">Truilo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1687,8 +1718,7 @@
         kapo, al kiu la kvin rimenoj al<tld/>is tiel same kiel radioj al
         centro
         <fnt>
-          <vrk><url
-          ref="http://www.bitoteko.it/esperanto-vivo/eo/2018/05/22/victor-hugo/">Victor
+          <vrk><url ref="http://www.bitoteko.it/esperanto-vivo/eo/2018/05/22/victor-hugo/">Victor
           Hugo - Esperanto-vivo - bitoteko.it</url></vrk>
         </fnt>.
       </ekz>
@@ -1864,8 +1894,7 @@
         por bon<tld/>i la tergloban medion, ni devas fari komunan 
         klopodon
         <fnt>
-        <vrk><url
-        ref="http://listes.rezo.net/archives/diskuto/2005-09/msg00021.html">
+        <vrk><url ref="http://listes.rezo.net/archives/diskuto/2005-09/msg00021.html">
         La &Ccirc;arto por la Terglobo</url></vrk>,
         <lok>2005-09-12</lok>
        </fnt>.
@@ -1952,17 +1981,14 @@
         reen &scirc;ancelis
         <fnt>
           <aut>Franz Kafka</aut>
-          <vrk><url ref="http://vlutermano.free.fr/transformigxo.html"
-              >La transformi&gcirc;o</url></vrk>
+          <vrk><url ref="http://vlutermano.free.fr/transformigxo.html">La transformi&gcirc;o</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        la manoj <klr>[&#8230;]</klr> &ccirc;irka&ubreve;<tld/>is la kapon de lia stabila
+        la manoj <klr>[&#x2026;]</klr> &ccirc;irka&ubreve;<tld/>is la kapon de lia stabila
         promenbastono
         <fnt>
-          <vrk><url
-          ref="https://esperanto-frankfurt.de/download/esperanto-informilo/2015/201507.pdf"
-              >Esperanto-Informilo Frankfurto, julio 2015</url></vrk>
+          <vrk><url ref="https://esperanto-frankfurt.de/download/esperanto-informilo/2015/201507.pdf">Esperanto-Informilo Frankfurto, julio 2015</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -1983,8 +2009,7 @@
 
 <drv mrk="ten.de0i">
   <kap><ofc>*</ofc>de<tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5224">de'ten'</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5224">de'ten'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="ten.de0i.restigi_fora">
     <dif>
@@ -2104,12 +2129,11 @@
       Emo, povo por el<tld/>i, por longe fronti malfacila&jcirc;ojn, 
       dolorojn:
       <ekz>
-        nur mia pli granda el<tld/>emo <klr>[&#8230;]</klr> 
+        nur mia pli granda el<tld/>emo <klr>[&#x2026;]</klr> 
         ebligis al mi tiel brave kontra&ubreve;stari lin
         <fnt>
           <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
-          <vrk><url
-          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
           Princino de Marso</url></vrk>,
           <lok>1938</lok>
         </fnt>;
@@ -2145,7 +2169,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &scirc;i tuj malligis la vestojn <klr>[&#8230;]</klr> &ccirc;ar alie &scirc;i ne povus
+        &scirc;i tuj malligis la vestojn <klr>[&#x2026;]</klr> &ccirc;ar alie &scirc;i ne povus
         el<tld/>i la varmegon
         <fnt>
           <bib>Fab2</bib>
@@ -2161,7 +2185,7 @@
       </ekz>
       <ekz>
         lingvo, kiu el<tld/>is la provon dum dudek kvin jaroj,
-        <klr>[&#8230;]</klr> ne bezonas jam timi
+        <klr>[&#x2026;]</klr> ne bezonas jam timi
         <fnt><bib>Paroloj</bib>,
         <lok>Malferma parolado de la 8a UK en Krak&oacute;w
         (1912-08-11)</lok></fnt>;
@@ -2259,6 +2283,7 @@
     <trd>&c_v;&c_y;&c_t;&c_r;&c_y;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_t;&c_r;&c_y;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF63;&#xF44;&#xF66;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>nepovolit</trd>,
     <trd>p&rcaron;est&aacute;t</trd>,
@@ -2404,7 +2429,7 @@
         kongresanojn;
       </ekz>
       <ekz>
-        mantelo <klr>[&#8230;]</klr> tiel delikata, ke du manoj povis &gcirc;in
+        mantelo <klr>[&#x2026;]</klr> tiel delikata, ke du manoj povis &gcirc;in
         en<tld/>i
         <fnt>
           <bib>Far1</bib>
@@ -2556,8 +2581,7 @@
 % kaj vakso
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=30416">Sukerkano</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=30416">Sukerkano</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -2594,8 +2618,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      <ref cel="ten.0i.restigi_ia"><tld lit="T"/>i<sncref
-      ref="ten.0i.restigi_ia"/></ref> malproksima:
+      <ref cel="ten.0i.restigi_ia"><tld lit="T"/>i<sncref ref="ten.0i.restigi_ia"/></ref> malproksima:
       <ekz>
         mi for<tld/>is mian koron de nenia &gcirc;ojo
         <fnt><bib>MT</bib>, <lok>&Pre; 2:10</lok></fnt>;
@@ -2605,7 +2628,7 @@
         <fnt><bib>Revadoj</bib>, <lok>na&ubreve;a promenado</lok></fnt>;
       </ekz>
       <ekz>
-        la tro honora titolo de majstro <klr>[&#8230;]</klr> for<tld/>as de
+        la tro honora titolo de majstro <klr>[&#x2026;]</klr> for<tld/>as de
         Esperanto multajn personojn
         <fnt><bib>Paroloj</bib>,
         <lok>malferma parolado de la 8a UK en Krak&oacute;w
@@ -2701,7 +2724,7 @@
     <dif>
       Restigi kunaj:
       <ekz>
-        la belo, vero kaj bono <klr>[&#8230;]</klr> tiuj tri aferoj
+        la belo, vero kaj bono <klr>[&#x2026;]</klr> tiuj tri aferoj
         kune<tld/>as la mondon
         <fnt>
           <bib>Fab3</bib>
@@ -2727,8 +2750,7 @@
   <rim>
     Regule oni ne kuntiru adverbon kun verbo, sed &scirc;ajnas, ke Z volis
     eviti miskomprenon 
-    kun &leftquot;teni kun iu&rightquot;. Komunlingve oni tamen uzas pli regule &leftquot;<ref
-    cel="ten.kun0i">kunteni</ref>&rightquot;.
+    kun &leftquot;teni kun iu&rightquot;. Komunlingve oni tamen uzas pli regule &leftquot;<ref cel="ten.kun0i">kunteni</ref>&rightquot;.
     <aut>W. Diestel</aut>
   </rim>
   <adm>
@@ -2795,8 +2817,7 @@
         la gluo kun<tld/>anta la pa&gcirc;ojn estis iom tro avare uzita
         <fnt>
         <aut>D. Broadribb</aut>
-        <vrk><url
-        ref="http://www.esperanto.be/fel/mon/rec/pped.html">Recenzo de
+        <vrk><url ref="http://www.esperanto.be/fel/mon/rec/pped.html">Recenzo de
         &leftquot;La profeto el Pedras&rightquot;</url></vrk>
         <lok>Monato</lok>
         </fnt>;
@@ -2876,23 +2897,21 @@
         banto, &ccirc;ar banta nodo povas ne kun<tld/>i&gcirc;i esperinde
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=290622">Piedpintaj
+          <lok><url ref="https://eo.wikipedia.org/?curid=290622">Piedpintaj
           &scirc;uoj</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         estas en Svisio kvar lingvaj komunumoj, kaj tri oficialaj
         lingvoj: 
-        la germana, la franca kaj la itala, <klr>[&#8230;]</klr> pro nacia
+        la germana, la franca kaj la itala, <klr>[&#x2026;]</klr> pro nacia
         kunteni&gcirc;o, 
         &ccirc;iu lernejano la&ubreve;le&gcirc;e unue lernas la plej gravan nacian lingvon
         (post la propra) 
         <fnt>
           <bib>Monato</bib>
           <aut>Marteno Ecott</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/007201.html">Invadas
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007201.html">Invadas
           la angla</url></vrk>
         </fnt>;
       </ekz>
@@ -3160,7 +3179,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        sinde<tld/>ado en l&#8217; unua nokto
+        sinde<tld/>ado en l&#x2019; unua nokto
         <fnt>
           <bib>Hamlet</bib>
         </fnt>.
@@ -3225,8 +3244,7 @@
       sinde<tld/>i signifas ne vo&ccirc;doni
       <fnt>
         <aut>Tejo</aut>,
-        <vrk><url
-        ref="http://tejo.org/wp-content/uploads/2014/09/Reglamentoj-2012.pdf">
+        <vrk><url ref="http://tejo.org/wp-content/uploads/2014/09/Reglamentoj-2012.pdf">
         Reglamentoj de TEJO</url></vrk>,
         <lok>2011</lok>
       </fnt>
@@ -3306,8 +3324,7 @@
         nesondeblan
         <fnt>
           <aut>Chiung Yao, trad. Vejdo</aut>,
-          <vrk><url
-          ref="http://www.elerno.cn/elibro/En%20Profunda%20Korto.pdf">
+          <vrk><url ref="http://www.elerno.cn/elibro/En%20Profunda%20Korto.pdf">
           En Profunda Korto</url></vrk>,
           <lok>2013</lok>
         </fnt>.
@@ -3470,8 +3487,7 @@
 
 <drv mrk="ten.sub0i">
   <kap><ofc>*</ofc>sub<tld/>i <fnt><bib>F</bib>, <lok>Universala
-  Vortaro, <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5225">sub'ten'</url></lok></fnt></kap>
+  Vortaro, <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5225">sub'ten'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="ten.sub0i.FIZ">
     <dif>
@@ -3617,28 +3633,60 @@
     "lia mono sub~is la aferon" anstataux "li mone sub~is la aferon".
     <aut>MB</aut>
   </adm>
+  <trd lng="af">ondersteuning</trd>
+  <trd lng="am">&#x12F5;&#x130B;&#x134D;</trd>
+  <trd lng="ar">&#x62F;&#x639;&#x645;</trd>
+  <trd lng="az">d&#x259;st&#x259;k</trd>
   <trdgrp lng="be">
     <trd>
     &c_p;&c_a;&c_d;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;
     </trd>,
     <trd>&c_p;&c_a;&c_d;&c_t;&c_r;&c_y;&c_m;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bn">&#x9B8;&#x9AE;&#x9B0;&#x9CD;&#x9A5;&#x9A8;</trd>
+  <trd lng="bs">podr&#x161;ka</trd>
+  <trd lng="co">sustegnu</trd>
+  <trd lng="da">st&#xF8;tte</trd>
   <trdgrp lng="es">
     <trd>sostener</trd>,
     <trd>apoyar<klr tip="ind"> (sostener)</klr></trd>,
     <trd>respaldar<klr tip="ind"> (sostener)</klr></trd>
   </trdgrp>
+  <trd lng="et">toetus</trd>
+  <trd lng="eu">laguntza</trd>
   <trdgrp lng="fr">
     <trd>soutenir</trd>,
     <trd>appuyer<klr tip="ind"> (soutenir)</klr></trd>,
     <trd>&eacute;pauler<klr tip="ind"> (soutenir)</klr></trd>
   </trdgrp>
+  <trd lng="fy">stypje</trd>
+  <trd lng="gl">apoio</trd>
+  <trd lng="gu">&#xA86;&#xAA7;&#xABE;&#xAB0;</trd>
+  <trd lng="ha">goyon bayan</trd>
+  <trd lng="hi">&#x938;&#x92E;&#x930;&#x94D;&#x925;&#x928;</trd>
+  <trd lng="hr">podr&#x161;ka</trd>
+  <trd lng="hy">&#x561;&#x57B;&#x561;&#x56F;&#x581;&#x578;&#x582;&#x569;&#x575;&#x578;&#x582;&#x576;</trd>
+  <trd lng="is">stu&#xF0;ningur</trd>
+  <trd lng="ja">&#x30B5;&#x30DD;&#x30FC;&#x30C8;</trd>
+  <trd lng="ka">&#x10DB;&#x10EE;&#x10D0;&#x10E0;&#x10D3;&#x10D0;&#x10ED;&#x10D4;&#x10E0;&#x10D0;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x1782;&#x17B6;&#x17C6;&#x1791;&#x17D2;&#x179A;</trd>
+  <trd lng="ko">&#xC9C0;&#xC6D0;</trd>
+  <trd lng="lo">&#xEAA;&#xEB0;&#xEAB;&#xE99;&#xEB1;&#xE9A;&#xEAA;&#xEB0;&#xEAB;&#xE99;&#xEB9;&#xE99;</trd>
+  <trd lng="ml">&#xD2A;&#xD3F;&#xD28;&#xD4D;&#xD24;&#xD41;&#xD23;</trd>
+  <trd lng="mr">&#x938;&#x92E;&#x930;&#x94D;&#x925;&#x928;</trd>
+  <trd lng="my">&#x1011;&#x1031;&#x102C;&#x1000;&#x103A;&#x1015;&#x1036;&#x1037;</trd>
+  <trd lng="ne">&#x938;&#x939;&#x92F;&#x94B;&#x917;</trd>
+  <trd lng="ny">thandizo</trd>
+  <trd lng="pa">&#xA38;&#xA39;&#xA3F;&#xA2F;&#xA4B;&#xA17; &#xA28;&#xA42;&#xA70;</trd>
+  <trd lng="ps">&#x645;&#x644;&#x627;&#x62A;&#x693;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_d;&c_d;&c_je;&c_r;&c_zh;&c_a;&c_t;&c_mol;</trd>,
     <trd>
     &c_p;&c_o;&c_d;&c_d;&c_je;&c_r;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;
     </trd>
   </trdgrp>
+  <trd lng="sd">&#x62D;&#x645;&#x627;&#x64A;&#x62A;</trd>
+  <trd lng="si">&#xDC3;&#xDC4;&#xDCF;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>podoprie&tcaron; <klr>(stav.)</klr></trd>,
     <trd>podporova&tcaron;</trd>,
@@ -3652,6 +3700,15 @@
     <trd>udr&zcaron;et</trd>,
     <trd>vypomoci</trd>
   </trdgrp>
+  <trd lng="sq">mb&#xEB;shtetje</trd>
+  <trd lng="ta">&#xB86;&#xBA4;&#xBB0;&#xBB5;&#xBC1;</trd>
+  <trd lng="te">&#xC2E;&#xC26;&#xC4D;&#xC26;&#xC24;&#xC41;</trd>
+  <trd lng="th">&#xE2A;&#xE19;&#xE31;&#xE1A;&#xE2A;&#xE19;&#xE38;&#xE19;</trd>
+  <trd lng="tl">suporta</trd>
+  <trd lng="ur">&#x6A9;&#x6CC; &#x62D;&#x645;&#x627;&#x6CC;&#x62A;</trd>
+  <trd lng="vi">h&#x1ED7; tr&#x1EE3;</trd>
+  <trd lng="yi">&#x5E9;&#x5D8;&#x5D9;&#x5E6;&#x5DF;</trd>
+  <trd lng="zu">ukwesekwa</trd>
 </drv>
 
 <drv mrk="ten.sub0o">
@@ -3770,8 +3827,7 @@
       elementoj de la fonto-aro, kiujn la bildigo &jcirc;etas al nenula
       valoro:
       <ekz>
-        se reela funkcio havas <ref
-        cel="numer.0ebla.MAT">numereblan</ref>
+        se reela funkcio havas <ref cel="numer.0ebla.MAT">numereblan</ref>
         sub<tld/>anton, &gcirc;ia <ref cel="integr2.0o.sumo">integralo</ref>
         sur &ccirc;iu intervalo estas nula.
       </ekz>
@@ -3786,6 +3842,7 @@
     <trd lng="pl">no&sacute;nik<klr tip="ind"> (funkcji)</klr></trd>
     <trd lng="ru">&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol;<klr tip="ind"> (&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_i;)</klr></trd>
   </snc>
+  <trd lng="bo">&#xF62;&#xF7C;&#xF42;&#xF66;&#xF0B;&#xF54;&#xF0B;</trd>
   <trd lng="cs">podp&uring;rce</trd>
   <trd lng="sk">podporovate&lcaron;</trd>
 </drv>
@@ -3859,13 +3916,12 @@
       makzeloj &scirc;ra&ubreve;be moveblaj por firme prem<tld/>i
       prilaboratan objekton:
       <ekz>
-        li vidis <klr>[&#8230;]</klr> pegon, kiu <klr>[malfermis]</klr> &scirc;elon
+        li vidis <klr>[&#x2026;]</klr> pegon, kiu <klr>[malfermis]</klr> &scirc;elon
         de migdaloj, fiksinte ilin inter du &scirc;tonoj, kiel en
         &scirc;ra&ubreve;b<tld/>ilo
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=16785">Pegedoj</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=16785">Pegedoj</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -4028,10 +4084,7 @@
 </drv>
 </art>
 <!--
-$Log: ten.xml,v $
-Revision 1.81  2019/11/16 06:10:15  revo
-Aleks Andre: en
-
+$Log$
 Revision 1.80  2019/09/21 19:10:17  revo
 Wolfram Diestel: ~ujo, cxirkau~i: +ekz-oj
 

@@ -1,22 +1,48 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: estrad.xml,v 1.17 2015/07/04 08:37:33 revo Exp $">
+<art mrk="$Id: estrad.xml,v 1.21 2021/05/24 13:22:21 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>estrad</rad>/o
 </kap>
 <drv mrk="estrad.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="estrad.0o.podio">
     <dif>
-    <ref tip="dif" cel="podi.0o">Podio</ref>:
-    <ekz>&ccirc;irka&ubreve;kradita
-    <tld/>o<fnt>Z</fnt>.
-    </ekz>
+      <ref tip="dif" cel="podi.0o">Podio</ref>:
+      <ekz>
+        en la fundo estis alta <tld/>o, sur kiu sub ri&ccirc;a tendo staris malgranda tablo
+        kaj kanapo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en Berno, je 1913, <nom>Zamenhof</nom> jam ne parolis, e&ccirc; ne sidis sur <tld/>o
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li teatre kisis sian Majstron sur <tld/>o de l' &ccirc;ambrego
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="tribun.0o">tribuno</ref>
+    <refgrp tip="vid">
+      <ref cel="peron.0o.platajxo">perono<sncref/></ref>,
+      <ref cel="piedes.0o">piedestalo</ref>,
+      <ref cel="plac.0eto.speciala">placeto<sncref/></ref>,
+      <ref cel="postam.0o">postamento</ref>,
+      <ref cel="scen.0ejo">scenejo</ref>,
+      <ref cel="teras.0o">teraso</ref>
+    </refgrp>
   </snc>
+  <ref tip="hom" cel="estr.0ado">estr&middot;ad&middot;o</ref>
   <trdgrp lng="be">
     <trd>&c_e;&c_s;&c_t;&c_r;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_d;&c_m;&c_o;&c_s;&c_t;&c_k;&c_ib;</trd>
@@ -26,8 +52,8 @@
     <trd>&c_p;&c_o;&c_d;&c_i;&c_u;&c_m;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>estráda</trd>,
-    <trd>pódium</trd>
+    <trd>estr&aacute;da</trd>,
+    <trd>p&oacute;dium</trd>
   </trdgrp>
   <trdgrp lng="de">
      <trd>Estrade</trd>,
@@ -40,6 +66,7 @@
   </trdgrp>
   <trd lng="es">estrado</trd>
   <trd lng="fr">estrade</trd>
+  <trd lng="he">&dalet;&vav;&#1468;&kaf;&#1464;&fnun;</trd>
   <trdgrp lng="hu">
      <trd>esztr&aacute;d</trd>,
      <trd>p&oacute;dium</trd>,
@@ -60,9 +87,15 @@
 </drv>
 </art>
 <!--
-$Log: estrad.xml,v $
-Revision 1.17  2015/07/04 08:37:33  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.21 2021/05/24 13:22:21
+Wolfram Diestel: ref-hom
+
+versio 1.20 2021/04/02 16:00:03
+Wolfram Diestel: +ref
+
+versio 1.19 2021/04/02 08:57:49
+Wolfram Diestel: +ekz-oj, ref-oj
 
 Revision 1.16  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
@@ -77,17 +110,5 @@ Revision 1.13  2008/08/23 16:30:50  revo
 Russ Williams: +trd en
 
 Revision 1.12  2007/07/09 16:30:40  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2004/04/04 16:45:35  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2003/09/09 16:31:16  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/06/26 19:28:11  revo
-Ulrich Fellmann: + 1 plia trd de
-
-Revision 1.8  2002/06/25 19:40:27  revo
 -->
 </vortaro>

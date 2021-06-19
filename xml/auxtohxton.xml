@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxtohxton.xml,v 1.6 2019/10/24 19:10:17 revo Exp $">
+<art mrk="$Id: auxtohxton.xml,v 1.9 2020/09/09 19:10:35 revo Exp $">
 <kap>
   <rad>a&ubreve;to&hcirc;ton</rad>/o,
-  <var><kap><rad>a&ubreve;tokton</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
+  <var><kap><rad var="k">a&ubreve;tokton</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="auxtohxton.0o">
-  <kap><tld/>o, <var><kap>a&ubreve;toktono</kap></var></kap>
+  <kap><tld/>o, <var><kap><tld var="k"/>o</kap></var></kap>
   <uzo tip="stl">RAR</uzo>
   <snc mrk="auxtohxton.0o.ETN">
     <dif>
@@ -18,13 +18,13 @@
         <fnt><bib>Far1</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
-        ekzistas kvartaloj, lo&gcirc;ataj precipe de nea&ubreve;toktonoj, kie agreso kaj perforto
+        ekzistas kvartaloj, lo&gcirc;ataj precipe de ne<tld var="k"/>oj, kie agreso
+        kaj perforto
         furoras
         <fnt>
           <bib>Monato</bib>
           <aut>Ivo Durwael</aut>
-          <vrk><url ref="https://www.monato.be/2012/010808.php"
-              >Rajtoj pri ritoj</url></vrk>
+          <vrk><url ref="https://www.monato.be/2012/010808.php">Rajtoj pri ritoj</url></vrk>
           <lok>2012</lok>
         </fnt>.
       </ekz>
@@ -34,6 +34,7 @@
     <trd>Eingeborener</trd>,
     <trd>Einheimischer</trd>
   </trdgrp>
+  <trd lng="fr">autochtone</trd>
   <trdgrp lng="hu">
     <trd>&odblac;slakos</trd>,
     <trd>bennsz&uuml;l&ouml;tt</trd>
@@ -47,7 +48,7 @@
 </drv>
 
 <drv mrk="auxtohxton.0a">
-  <kap><tld/>a, <var><kap>a&ubreve;toktona</kap></var></kap>
+  <kap><tld/>a, <var><kap><tld var="k"/>a</kap></var></kap>
   <uzo tip="stl">RAR</uzo>
   <snc mrk="auxtohxton.0a.ETN">
     <dif>
@@ -57,27 +58,29 @@
         <fnt><bib>Far1</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
-        la internacia komunumo decidis sendependigi Kosovon, kie pli ol 90&#8239;% de la
-        lo&gcirc;antaro konsistas el albanetnuloj <tld/>aj
+        la internacia komunumo decidis sendependigi Kosovon, kie pli ol
+        90&#8239;% de la lo&gcirc;antaro konsistas el albanetnuloj <tld/>aj
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.be/2008/009385.php">&Ccirc;u fine solvo?</url></vrk>
+          <vrk><url ref="https://www.monato.be/2008/009385.php">&Ccirc;u fine
+          solvo?</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
       <ekz>
-        albanoj estas a&ubreve;toktonaj en okcidenta Makedonio
+        albanoj estas <tld var="k"/>aj en okcidenta Makedonio
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.be/2003/008198.html"
-              >Neniu paco sen interkonsento</url></vrk>
+          <vrk><url ref="https://www.monato.be/2003/008198.html">Neniu paco sen
+          interkonsento</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la esperanta prononco estas tre malsimila al la landnomo a&ubreve;toktona
+        la esperanta prononco estas tre malsimila al la landnomo
+        <tld var="k"/>a
         <fnt>
           <aut>Remush</aut>,
           <vrk>Asia esperanto</vrk>,
@@ -88,7 +91,11 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">autochthon</trd>
+  <trdgrp lng="de">
+    <trd>autochthon</trd>,
+    <trd>einheimisch</trd>,
+    <trd>eingeboren</trd>
+  </trdgrp>
   <trdgrp lng="hu">
      <trd>&odblac;shonos</trd>,
      <trd>autochton</trd>
@@ -103,9 +110,15 @@
 </art>
 
 <!--
-$Log: auxtohxton.xml,v $
-Revision 1.6  2019/10/24 19:10:17  revo
-Wolfram Diestel: kunigo kun autokton'
+$Log$
+versio 1.9 2020/09/09 19:10:35
+Wolfram Diestel: +tld-var
+
+versio 1.8 2020/05/13 13:34:17
+Wolfram Diestel: dif chirkau dif-ref, germ trd
+
+versio 1.7 2020/05/11 14:10:41
+Damien Brucker: +trd fr
 
 Revision 1.5  2019/10/24 18:38:40  revo
 Wolfram Diestel: +ekz, germ trd
@@ -120,7 +133,5 @@ Revision 1.2  2009/08/13 16:31:02  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.1  2005/06/05 16:57:20  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

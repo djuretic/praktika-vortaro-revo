@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: rob.xml,v 1.26 2017/09/06 16:10:24 revo Exp $">
+<art mrk="$Id: rob.xml,v 1.68 2021/06/18 04:35:54 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>rob</rad>/o
@@ -13,7 +12,8 @@
   <snc mrk="rob.0o.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      Longa ampleksa flirtanta vesto kovranta la korpon de
+      Longa ampleksa flirtanta <ref tip="lst" lst="voko:vesta&jcirc;oj" cel="vest.0o">vesto</ref> kovranta
+      la korpon de
       brusto &gcirc;is gamboj.
     </dif>
     <subsnc mrk="rob.0o.surtuto">
@@ -80,20 +80,61 @@
       <trd lng="ru">&c_p;&c_l;&c_a;&c_t;&c_mol;&c_je;</trd>
     </subsnc>
   </snc>
+  <trd lng="af">rok</trd>
+  <trd lng="am">&#x12A0;&#x1208;&#x1263;&#x1260;&#x1235;</trd>
+  <trd lng="ar">&#x641;&#x633;&#x62A;&#x627;&#x646;</trd>
+  <trd lng="az">don</trd>
+  <trd lng="bn">&#x9AA;&#x9CB;&#x9B6;&#x9BE;&#x995;</trd>
+  <trd lng="bo">&#xF56;&#xF5F;&#xF53;&#xF0B;</trd>
+  <trd lng="co">rochie</trd>
   <trdgrp lng="cs">
     <trd>d&aacute;msk&eacute; &scaron;aty</trd>,
     <trd>hist. mu&zcaron;sk&eacute; roucho</trd>,
     <trd>roucho</trd>,
     <trd>r&oacute;ba</trd>
   </trdgrp>
+  <trd lng="da">kjole</trd>
   <trd lng="en">robe</trd>
+  <trd lng="et">kleit</trd>
+  <trd lng="eu">soineko</trd>
   <trd lng="fr">robe</trd>
+  <trd lng="fy">jurk</trd>
+  <trd lng="gl">vestido</trd>
+  <trd lng="gu">&#xAA1;&#xACD;&#xAB0;&#xAC7;&#xAB8;</trd>
+  <trd lng="hi">&#x92A;&#x94B;&#x936;&#x93E;&#x915;</trd>
+  <trd lng="hr">haljina</trd>
+  <trd lng="hy">&#x566;&#x563;&#x565;&#x57D;&#x57F;</trd>
+  <trd lng="is">m&#xE6;tas</trd>
+  <trd lng="ja">&#x30C9;&#x30EC;&#x30B9;</trd>
+  <trd lng="jw">sugih</trd>
+  <trd lng="ka">&#x10D9;&#x10D0;&#x10D1;&#x10D0;</trd>
+  <trd lng="km">&#x179F;&#x1798;&#x17D2;&#x179B;&#x17C0;&#x1780;&#x1794;&#x17C6;&#x1796;&#x17B6;&#x1780;&#x17CB;</trd>
+  <trd lng="ko">&#xB4DC;&#xB808;&#xC2A4;</trd>
+  <trd lng="lo">&#xEA5;&#xEB2;&#xE8D;&#xEA5;&#xEB0;&#xEAD;&#xEBD;&#xE94;</trd>
+  <trd lng="ml">&#xD09;&#xD1F;&#xD41;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mr">&#x921;&#x94D;&#x930;&#x947;&#x938;</trd>
+  <trd lng="my">&#x1021;&#x101D;&#x1010;&#x103A;&#x1021;&#x1005;&#x102C;&#x1038;</trd>
+  <trd lng="ne">&#x92A;&#x939;&#x93F;&#x930;&#x928;</trd>
+  <trd lng="ny">kavalidwe</trd>
+  <trd lng="pa">&#xA2A;&#xA39;&#xA3F;&#xA30;&#xA3E;&#xA35;&#xA3E;</trd>
   <trd lng="pl">suknia</trd>
+  <trd lng="ps">&#x6A9;&#x627;&#x644;&#x6CC;</trd>
   <trd lng="ro">rochie</trd>
+  <trd lng="sd">&#x644;&#x628;&#x627;&#x633;</trd>
+  <trd lng="si">&#xD87;&#xDB3;&#xDD4;&#xDB8;</trd>
   <trdgrp lng="sk">
     <trd>d&aacute;mske &scaron;aty</trd>,
     <trd>r&oacute;ba</trd>
   </trdgrp>
+  <trd lng="sq">veshje</trd>
+  <trd lng="ta">&#xB86;&#xB9F;&#xBC8;</trd>
+  <trd lng="te">&#xC26;&#xC41;&#xC38;&#xC4D;&#xC24;&#xC41;&#xC32;</trd>
+  <trd lng="th">&#xE01;&#xE32;&#xE23;&#xE41;&#xE15;&#xE48;&#xE07;&#xE01;&#xE32;&#xE22;</trd>
+  <trd lng="tl">damit</trd>
+  <trd lng="ur">&#x6A9;&#x67E;&#x691;&#x6D2;</trd>
+  <trd lng="vi">v&#xE1;y</trd>
+  <trd lng="yi">&#x5E7;&#x5DC;&#x5D9;&#x5D9;&#x5D3;</trd>
+  <trd lng="zu">ingubo</trd>
 </drv>
 
 <drv mrk="rob.negligxa0o">
@@ -153,9 +194,9 @@
 </drv>
 </art>
 <!--
-$Log: rob.xml,v $
-Revision 1.26  2017/09/06 16:10:24  revo
-Jeromo Vasxe: fnt D
+$Log$
+versio 1.27 2020/07/19 11:10:38
+Wolfram Diestel: lst vestajxoj
 
 Revision 1.25  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: bomb.xml,v 1.25 2018/03/09 09:10:14 revo Exp $">
+<art mrk="$Id: bomb.xml,v 1.28 2021/05/29 10:56:39 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>bomb</rad>/o
@@ -63,6 +62,7 @@
     </subsnc>
   </snc>
   <trd lng="be">&c_b;&c_o;&c_m;&c_b;&c_a;</trd>
+  <trd lng="bo">&#xF60;&#xF56;&#xF7C;&#xF58;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>bomba</trd>,
     <trd>puma</trd>
@@ -74,6 +74,7 @@
   <trd lng="en">bomb</trd>
   <trd lng="es">bomba</trd>
   <trd lng="fr">bombe <klr tip="ind">(explosif)</klr></trd>
+  <trd lng="he">&pe;&#x5BC;&#x5B0;&tsadi;&#x5B8;&tsadi;&#x5B8;&he;</trd>
   <trd lng="it">bomba</trd>
   <trd lng="ru">&c_b;&c_o;&c_m;&c_b;&c_a;</trd>
   <trd lng="sk">bomba</trd>
@@ -184,10 +185,51 @@
   <trd lng="en">mortar</trd>
   <trd lng="es">mortero</trd>
   <trd lng="fr">mortier</trd>
+  <trd lng="he">&tav;&vav;&tav;&het; &pe;&tsadi;&tsadi;&he;</trd>
   <trd lng="it">mortaio<klr> (mil.)</klr></trd>
   <trd lng="pl">mo&zacute;dzierz</trd>
   <trd lng="ru">&c_m;&c_i;&c_n;&c_o;&c_m;&c_jo;&c_t;</trd>
   <trd lng="sk">h&uacute;fnica</trd>
+</drv>
+
+<drv mrk="bomb.atom0o">
+  <kap>
+    atom<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="B"/>o funkcianta per &ccirc;enreago de disparti&gcirc;antaj atomoj:
+      <ekz>
+        la 9an de a&ubreve;gusto 1945 usona <tld/>aviadilo B-29 kun atom<tld/>o ekflugis
+        <klr>[&#x2026;]</klr> al Nagasako kaj faligis &gcirc;in je alteco de 9600 metroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="https://www.monato.be/2008/009358.php">Nagasako</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Usono ne devis &jcirc;eti atom<tld/>ojn sur Japanion, se iu pacdefendanto sukcesplene
+        anta&ubreve;e &leftquot;diskutus&rightquot; kun japanaj militistoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://www.monato.be/2003/007981.html">Al la intelektuloj de Monato</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nun do anka&ubreve; Nord-Koreio havas &gcirc;in, la atom<tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2009/009837.php">Monstra atompotenco</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Atombombe</trd>
 </drv>
 
 <drv mrk="bomb.horlogx0o">
@@ -214,8 +256,7 @@
         je tuno
         <fnt>
           <aut>J. German, trad. J. Finkel</aut>
-          <vrk><url
-          ref="https://www.esperanto.mv.ru/German/kara-12-4.html">
+          <vrk><url ref="https://www.esperanto.mv.ru/German/kara-12-4.html">
           Kara mia homo</url></vrk>
           <lok>2016-2017</lok>
         </fnt>.
@@ -235,9 +276,9 @@
 </drv>
 </art>
 <!--
-$Log: bomb.xml,v $
-Revision 1.25  2018/03/09 09:10:14  revo
-Jeromo Vasxe: kor ekz
+$Log$
+versio 1.27 2021/05/24 11:54:03
+Wolfram Diestel: +atom~o
 
 Revision 1.24  2018/03/08 16:10:14  revo
 Jeromo Vasxe: + prokrasta ~o

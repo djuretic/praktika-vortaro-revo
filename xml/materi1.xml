@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: materi1.xml,v 1.23 2017/12/14 11:10:14 revo Exp $">
+<art mrk="$Id: materi1.xml,v 1.67 2021/06/19 06:38:23 revo Exp $">
 <kap>
   <ofc>*</ofc><ofc>1</ofc><ofc>8</ofc>
   <rad>material</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,14 +10,50 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="materi1.0o.substanco">
     <dif>
-      &Ccirc;io materia, kio estas necesa por iu ago:
+      &Ccirc;io <ref tip="super" cel="materi.0o.materialo">materia</ref>, kio estas necesa por iu ago:
       <ekz>
-        man&gcirc;<tld/>oj<fnt>Z</fnt>
-        <klr>(<ref tip="sub" cel="nutr.0ajxo">nutra&jcirc;oj</ref>)</klr>;
+        &scirc;i a&ccirc;etos <klr>[&#x2026;]</klr> man&gcirc;<tld/>ojn <klr>(<ref tip="sub" cel="nutr.0ajxo">nutra&jcirc;oj</ref>)</klr>,
+        por pretigi fortigan man&gcirc;a&jcirc;on al la infano
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
         ligno estas bona brula <tld/>o
-        <fnt><bib>F</bib>, <lok>Ekzercaro, &para; 31</lok></fnt>.
+        <fnt><bib>F</bib>, <lok>Ekzercaro, &para; 31</lok></fnt>;
+      </ekz>
+      <ekz>
+        betula arbareto <klr>[&#x2026;]</klr> liveris hejtan <tld/>on en vintro
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni prirabis magazenon kaj ni alportas <tld/>on 
+        <klr>(<ref tip="sin" cel="proviz.0ajxo">proviza&jcirc;o</ref>n)</klr>
+        por kvindek el ni
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;        
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[ili]</klr> estas mizera <tld/>o por soldatoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        vi ne estas vera Dano, kiel ni &ccirc;iuj hejme, ni estas ankora&ubreve; el malnova <tld/>o,
+        sed al vi pla&ccirc;as nur fremdaj landoj <klr>(kp <ref cel="karakt.0o.ecaro">karaktero<sncref/></ref>,
+        <ref cel="tip.0o.KOMUNE">tipo<sncref/></ref>)</klr>
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>!
       </ekz>
     </dif>
     <subsnc mrk="materi1.0o.krudajxo">
@@ -26,68 +61,201 @@
         <ref tip="sin" cel="krud.0ajxo.materialo">Kruda&jcirc;o</ref>
         el kiu oni povas produkti fabrika&jcirc;ojn:
         <ekz>
-          <ind>konstru<tld/>o</ind>.
+          tiutempe oni uzis kiel tradician <ind>konstru<tld/>o</ind>n miksitan kaj densigitan argilon
+          kaj nebakitajn brikojn
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Anatoli Ionesov</aut>
+            <vrk><url ref="https://www.monato.be/2006/008920.php">Perlo &ccirc;e la Silka Vojo</url></vrk>
+            <lok>2006</lok>
+          </fnt>;
           <trd lng="be">&c_b;&c_u;&c_d;&c_a;&c_w;&c_n;&c_ib;&c_ch;&c_y; <ind>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;</ind></trd>
+          <trdgrp lng="de">
+            <trd>Baumaterial</trd>,
+            <trd>Baustoff</trd>
+          </trdgrp>
           <trd lng="hu">&eacute;p&iacute;t&odblac;anyag</trd>          
           <trd lng="ru">&c_s;&c_t;&c_r;&c_o;&c_j;&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>
         </ekz>
+        <ekz>
+          konstrua&jcirc;o, kiu estos tute konforma al la klimato kaj <tld/>o de la lando
+          <fnt>
+            <bib>Fab3</bib>
+            <lok>Io</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          en la keloj estis tenejoj de krudaj <tld/>oj
+          <fnt>
+            <bib>Far1</bib>
+            <lok>&Ccirc;apitro XIX</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &ccirc;ambroj de diversa grandeco kaj el diversaj <tld/>oj
+          <fnt>
+            <bib>FK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          reto, plektita el facila sed fortika <tld/>o
+          <fnt>
+            <bib>FK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ili konsilis al li porti tiujn &ccirc;i belegajn vestojn 
+          el tiu &ccirc;i belega <tld/>o <klr>(vd <ref tip="sub" cel="sxtof.0o.TEKS">&scirc;tofo<sncref/></ref>)</klr>
+          <fnt>
+            <bib>Fab1</bib>
+            <lok>La novaj vestoj de la re&gcirc;o</lok>
+          </fnt>.
+        </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="materi.0o.materialo">materio<sncref/></ref>,
+        <ref cel="substa.0o.FIZ">substanco<sncref/></ref>
+      </refgrp>
     </subsnc>
     <subsnc>
       <dif>
         &Ccirc;io, kio estas necesa por funkciado de entrepreno, ekspluatado,
         ofico kc:
         <ekz>
-          <tld/>o de muelejo, de segejo, de panfarejo.
+          <tld/>o de muelejo, de segejo, de panfarejo;
+        </ekz>
+        <ekz>
+          Marta ankora&ubreve; ne laboris, kvankam &ccirc;iuj <tld/>oj de &scirc;ia estonta laboro, la libro,
+          papero, plumo, ku&scirc;is anta&ubreve; &scirc;i
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>e tiu juna patrino posedis nenion, a&ubreve; preska&ubreve; nenion
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>.
         </ekz>
       </dif>
+      <ref tip="sin" cel="rimed.0o">rimedo</ref>
     </subsnc>
   </snc>
   <snc mrk="materi1.0o.datumoj">
     <dif>
-      &Ccirc;iuspecaj sciigoj, faktoj,
-      <ref tip="sin" cel="datum.0o.SCI">datumoj</ref>
-      necesaj por verki libron, raporton
-      kaj ceterajn a&ubreve; por fari spiritan laboron:
+      &Ccirc;iuspecaj sciigoj, faktoj, <ref tip="sin" cel="datum.0o.SCI">datumoj</ref>
+      necesaj por verki libron, raporton kaj ceterajn a&ubreve; por fari spiritan laboron:
       <ekz>
-        la libro prezentos sufi&ccirc;e da <tld/>o por legi<fnt>Z</fnt>;
+        la kolekto da bildoj kreskis, sed &gcirc;is nun nur senvivaj objektoj donis por tio la
+        <tld/>on <klr>(kp <ref cel="model.0o.BELA">modelo<sncref/></ref>,
+        <ref cel="tem.0o.KOMUNE">temo<sncref/></ref>)</klr>
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        &ccirc;erpi <tld/>on el ies verko<fnt>B</fnt>;
+        &ccirc;io, kion vi ektu&scirc;as, donas al vi <tld/>on por historio
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sambuka virineto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o por raporto;
+        la junulo <klr>[&#x2026;]</klr> ser&ccirc;is <tld/>on por vortaro
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        tio donas <tld/>on por pripensado<fnt>Z</fnt>.
+        la fundamenta <tld/>o estis malpli la gramatiko, ol la tekstoj kaj la stilo
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <nom>Grimm</nom>'aj fabeloj <klr>[servas]</klr> kiel <tld/>o por folkloraj studoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu ne&gcirc;a floko <klr>[&#x2026;]</klr> aspektis kiel belega floro a&ubreve; dekpinta stelo
+        <klr>[&#x2026;]</klr> tio donas multe <klr>[&#x2026;]</klr> da <tld/>o por pripensado
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">materiaal</trd>
+  <trd lng="am">&#x1241;&#x1233;&#x1241;&#x1235;</trd>
+  <trd lng="ar">&#x645;&#x627;&#x62F;&#x629;</trd>
   <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;</trd>
+  <trd lng="bn">&#x989;&#x9AA;&#x9BE;&#x9A6;&#x9BE;&#x9A8;</trd>
+  <trd lng="bo">&#xF62;&#xF92;&#xFB1;&#xF74;&#xF0B;&#xF46;&#xF0B;</trd>
+  <trd lng="bs">materijala</trd>
+  <trd lng="co">a materia</trd>
   <trdgrp lng="cs">
     <trd>materi&aacute;l</trd>,
     <trd>materi&aacute;lie <klr>(zast.)</klr></trd>,
     <trd>surovina</trd>
   </trdgrp>
+  <trd lng="da">materiale</trd>
   <trdgrp lng="de">
     <trd>Material</trd>,
     <trd>Rohstoff</trd>
   </trdgrp>
   <trd lng="en">material</trd>
+  <trd lng="et">materjal</trd>
+  <trd lng="eu">materiala</trd>
   <trd lng="fr">mat&eacute;riau</trd>
+  <trd lng="fy">materiaal</trd>
+  <trd lng="gl">material de</trd>
+  <trd lng="gu">&#xAB8;&#xABE;&#xAAE;&#xA97;&#xACD;&#xAB0;&#xAC0;</trd>
+  <trd lng="hi">&#x938;&#x93E;&#x92E;&#x917;&#x94D;&#x930;&#x940;</trd>
+  <trd lng="hr">materijal</trd>
   <trdgrp lng="hu">
     <trd>anyag</trd>,
     <trd>mat&eacute;ria</trd>
   </trdgrp>
+  <trd lng="hy">&#x576;&#x575;&#x578;&#x582;&#x569;&#x561;&#x56F;&#x561;&#x576;</trd>
+  <trd lng="is">efni</trd>
+  <trd lng="ja">&#x6750;&#x6599;</trd>
+  <trd lng="jw">materi</trd>
+  <trd lng="ka">&#x10DB;&#x10D0;&#x10E1;&#x10D0;&#x10DA;&#x10D0;</trd>
+  <trd lng="km">&#x179F;&#x1798;&#x17D2;&#x1797;&#x17B6;&#x179A;&#x17C8;</trd>
+  <trd lng="ko">&#xC7AC;&#xB8CC;</trd>
+  <trd lng="lo">&#xEAD;&#xEB8;&#xE9B;&#xEB0;&#xE81;&#xEAD;&#xE99;&#xE81;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD35;&#xD38;&#xD4D;&#xD24;&#xD41;</trd>
+  <trd lng="mr">&#x938;&#x93E;&#x939;&#x93F;&#x924;&#x94D;&#x92F;</trd>
+  <trd lng="my">&#x1015;&#x1005;&#x1039;&#x1005;&#x100A;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x92D;&#x94C;&#x924;&#x93F;&#x915;</trd>
   <trdgrp lng="nl">
     <trd>grondstof</trd>,
     <trd>materiaal</trd>
   </trdgrp>
+  <trd lng="ny">zakuthupi</trd>
+  <trd lng="pa">&#xA38;&#xA2E;&#xA71;&#xA17;&#xA30;&#xA40;</trd>
   <trd lng="pl">materia&lstroke;</trd>
+  <trd lng="ps">&#x62F; &#x645;&#x627;&#x62F;&#x64A;</trd>
   <trd lng="pt">materialo</trd>
   <trd lng="ro">material</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>
+  <trd lng="sd">&#x645;&#x648;&#x627;&#x62F;</trd>
+  <trd lng="si">&#xDAF;&#xDCA;&#xDBB;&#xDC0;&#xDCA;&#xDBA;</trd>
   <trd lng="sk">materi&aacute;l</trd>
+  <trd lng="sq">material</trd>
+  <trd lng="st">lintho tse bonahalang</trd>
+  <trd lng="ta">&#xBAA;&#xBCA;&#xBB0;&#xBC1;&#xBB3;&#xBCD;</trd>
+  <trd lng="te">&#xC2A;&#xC26;&#xC3E;&#xC30;&#xC4D;&#xC25;&#xC02;</trd>
+  <trd lng="th">&#xE27;&#xE31;&#xE2A;&#xE14;&#xE38;</trd>
+  <trd lng="tl">materyal</trd>
+  <trd lng="ur">&#x645;&#x648;&#x627;&#x62F;</trd>
+  <trd lng="vi">t&#xE0;i li&#x1EC7;u</trd>
+  <trd lng="yi">&#x5DE;&#x5D0;&#x5B7;&#x5D8;&#x5E2;&#x5E8;&#x5D9;&#x5D0;&#x5B7;&#x5DC;</trd>
 </drv>
 
 <drv mrk="materi1.0a">
@@ -96,10 +264,62 @@
     <dif>
       Rilata al <tld/>o:
       <ekz>
-        <tld/>a provizo, manko, kvalito;
+        elgliti&gcirc;is el sub &scirc;iaj piedoj anka&ubreve; la fundamento de &scirc;ia <tld/>a ekzistado
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        la <tld/>aj <klr>(fizikaj, korpaj)</klr> bezonoj.
+        tiuj objektoj, kiuj videble estis forprenataj de &scirc;i, havis por &scirc;i valoron ne
+        sole <tld/>an
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[malgra&ubreve;]</klr> sufi&ccirc;e da kura&gcirc;o, sed li ne havas la <tld/>ajn rimedojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        moralaj kaj <tld/>aj oferoj
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la nuna <tld/>a tempo ri&ccirc;eco estas unu el la plej necesaj kondi&ccirc;oj de feli&ccirc;o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        helpo teknika, financa kaj <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&eacute;r&eacute;mie Sabiyumva</aut>
+          <vrk><url ref="https://www.monato.be/2009/009695.php">Burunda futbalo profesii&gcirc;as</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        skulpta&jcirc;oj &ccirc;ia<tld/>aj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2012/010670.php">Arto kreas arton</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konstru<tld/>aj entreprenoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2005/008378.php">Venkis mal&scirc;paremo kaj koruptado</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -107,23 +327,39 @@
     <dif>
       Rilata al la monrimedoj:
       <ekz>
-        sen rimedoj <tld/>aj &ccirc;ia afero povas progresi nur tre
-        malrapide<fnt>Z</fnt>;
+        <klr>[li]</klr> parolis detale pri la lo&gcirc;antaro de la urbo, pri &gcirc;iaj klasoj, pri
+        la <tld/>a stato de &ccirc;iu el ili
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        subteni <tld/>e la aferon<fnt>Z</fnt>;
+        la Esperantistoj agadis la tutan tempon preska&ubreve; tute sen iaj <tld/>aj rimedoj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a profito, malhelpo<fnt>Z</fnt>, privilegio<fnt>Z</fnt>;
+        <klr>[ili]</klr> donis al nia kongreso sian moralan kaj <tld/>an subtenon
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        se la a&ubreve;toro <klr>(Zamenhof)</klr> havus la <tld/>an
+        se la a&ubreve;toro <klr>(<nom>Zamenhof</nom>)</klr> havus la <tld/>an
         eblon, li kun plezuro prenus la tutan aferon sur nian
         propran respondecon, sed beda&ubreve;rinde li la eblon ne havas
         <fnt><aut>&Z;</aut>: <lok>OV, p. 64.</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>e helpi iun.
+        estas investita granda monsumo kaj la kompanio postulos <tld/>an kompenson
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Antanas Grincevi&ccaron;ius</aut>
+          <vrk><url ref="https://www.monato.be/2003/007879.html">&Ccirc;okolada konflikto</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -136,14 +372,12 @@
       <ref tip="dif" cel="materi.0a">Materia</ref>,
       perceptebla por la sentumoj, videbla kaj palpebla:
       <ekz>
-        gravan forton <tld/>an la ligo alportus al nia
-        afero<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>a mastro de Esperanto estas la tuta mondo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        tio certigas al li la <tld/>an sendependecon.
+        komencante de aferoj pure <tld/>aj kaj transirante al &ccirc;iuj flankoj de la homa
+        spirito kaj moralo, oni proponados al ni diversajn rimedojn
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -169,27 +403,55 @@
 </drv>
 
 <drv mrk="materi1.0ismo">
-  <kap><tld/>ismo<fnt>Z</fnt></kap>
+  <kap><tld/>ismo</kap>
   <snc mrk="materi1.0ismo.morala">
     <dif>
-      Kondutmaniero celanta en la vivo korpajn plezurojn kaj
-      <tld/>ajn profitojn:
+      Vivmaniero prioritatiganta la <tld/>ajn bezonojn
+      super la spiritajn:
+      <ekz>
+        la multeco de varoj en la merkato pu&scirc;as homojn en <tld/>ismon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9401-kanado.txt">Kanado</url></vrk>
+          <lok>94/01</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia kulturo estas tiom superregata de <tld/>ismo kaj do havas malmultan spiritan
+        kaj etikan edukon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Declerck</aut>
+          <vrk><url ref="https://www.monato.be/2009/009048.php">Spirituala materialismo</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         oni sekve povas pravigi la neceson agi juste e&ccirc; je pure
         egoisma, <tld/>isma vidpunkto
         <fnt>
         <bib>Lanti</bib>,
-        <lok>Kiel naski&gcirc;as ideoj?</lok></fnt>.
+          <lok>Kiel naski&gcirc;as ideoj?</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="ant" cel="ideal.0ismo.morala">idealismo</ref>
+    <ref tip="vid" cel="hedonism.0o">hedonismo</ref>
     <trd lng="fr">mat&eacute;rialisme<klr> (attachement aux choses)</klr></trd>
     <trd lng="nl">materialisme</trd>
     <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_z;&c_m; <klr>(&c_m;&c_o;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;)</klr></trd>
   </snc>
   <snc mrk="materi1.0ismo.FIL">
     <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="materi.0ismo">materiismo</ref>
+    <dif>
+      <ref tip="dif" cel="materi.0ismo">Materiismo</ref>:
+      <ekz>
+        la ideologia gvidilo de marksisma mondkoncepto kaj dialektika <tld/>ismo
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</trd>
   <trdgrp lng="cs">
@@ -213,10 +475,46 @@
 
 <drv mrk="materi1.0isto">
   <kap><tld/>isto</kap>
-  <snc mrk="materi1.0isto.morala">
+  <snc mrk="materi1.0isto.fakulo">
+    <uzo tip="fak">SCI</uzo>
     <dif>
-      Homo ser&ccirc;anta &gcirc;uojn de la vivo, profiton, posedon de ri&ccirc;a&jcirc;oj.
+      Fakulo pri <tld/>oj:
+      <ekz>
+        ili havas nur iajn &hcirc;emiistojn kaj <tld/>istojn
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Materialkundler</trd>,
+      <trd>Materialwissenschaftler</trd>,
+      <trd>Werkstofftechniker</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="materi1.0isto.morala">
+    <uzo tip="fak">FIL</uzo>
+    <dif>
+      Homo zorgante prioritate pri <tld/>alaj bezonoj:
+      <ekz>
+        tute perfekta socialisto devus samtempe esti malri&ccirc;ulo kaj kapitalisto,
+        idealisto kaj <tld/>isto
+        <fnt>
+          <bib>Tor</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;liberpensuloj&rightquot; ofte fari&gcirc;is fanatikaj <tld/>istaj sektuloj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+       <ref cel="asket.0o">asketo</ref>,
+       <ref cel="ideal.0isto.morale">idealisto<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Materialist</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>materialista</trd>,
@@ -233,6 +531,7 @@
   <trd lng="sk">materialista</trd>
 </drv>
 
+<!--
 <drv mrk="materi1.Historia0ismo">
   <kap>Historia <tld/>ismo</kap>
   <uzo tip="stl">EVI</uzo>
@@ -245,6 +544,7 @@
   <trd lng="hu">t&ouml;rt&eacute;nelmi <ind>materializmus</ind></trd>
   <trd lng="pl">materializm historyczny</trd>
 </drv>
+-->
 
 <drv mrk="materi1.krud0o">
   <kap>krud<tld/>o</kap>
@@ -253,16 +553,50 @@
     <dif>
       Prilaborota <tld/>o,
       <ref tip="sin" cel="krud.0ajxo.materialo">kruda&jcirc;o<sncref/></ref>
-      kontraste al
-      <ref tip="ant" cel="produk.0ajxo.EKON">produkto</ref>:
+      kontraste al <ref tip="ant" cel="produk.0ajxo.EKON">produkto</ref>:
       <ekz>
-        kia estas la krud<tld/>o de duonkonduktantoj?
+        montri&gcirc;as la kialoj de krizoj: trokresko de lo&gcirc;antaro, malabundi&gcirc;o de
+        krud<tld/>o, poluado
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007044.html">A&ubreve;strio: De perforto al paco</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        regionaj krud<tld/>oj, precipe ligno, metalo, ledo, &scirc;tofo, &scirc;tono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Rita R&ouml;ssler-Buckel</aut>
+          <vrk><url ref="https://www.monato.be/2007/009174.php">Metio kaj formo tradicio kaj progreso</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rubopapero estas tre valora krud<tld/>o por la paperindustrio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2005/008409.php">Rubo neniu dubo!</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kia estas la krud<tld/>o de duonkonduktantoj
         <fnt>
           <aut>K. Georgiev</aut>,
-          <vrk><url
-          ref="http://www.eventoj.hu/steb/ingxenierado/komputado/f871-p7.htm">
+          <vrk><url ref="http://www.eventoj.hu/steb/ingxenierado/komputado/f871-p7.htm">
           De sablo &gcirc;is &ccirc;ipo</url></vrk>,
           <lok>Fokuso, 1987:1, p. 7a</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        transformi la krud<tld/>on, liveritan de la vivo, en arton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reinaldo Marcelo Ferreira</aut>
+          <vrk><url ref="https://www.monato.be/2005/008629.php">Ne nur intimaj temoj</url></vrk>
+          <lok>2005</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -271,6 +605,10 @@
     </refgrp>
   </snc>
   <trd lng="cs">surovina</trd>
+  <trdgrp lng="de">
+    <trd>Rohstoff</trd>,
+    <trd>Grundstoff</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>raw material</trd>,
     <trd>crude material <klr>(often plural)</klr></trd>
@@ -288,6 +626,16 @@
       &Ccirc;ia <tld/>o trovebla en la naturo,
       sen homa estigo a&ubreve; prilaborado:
       <ekz>
+        gaso produktita la&ubreve; naturaj metodoj el naturaj <tld/>oj, ekzemple gaso el
+        best-urino
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2007/009177.php">Bone nutrataj a&ubreve;toj</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         Valdorfpupoj estas faritaj &ccirc;efe el natur<tld/>oj
         <fnt>
           <bib>Viki</bib>,
@@ -300,6 +648,7 @@
       <ref cel="materi1.krud0o.EKON">krud<tld/>o</ref>
     </refgrp>
   </snc>
+  <trd lng="de">Naturmaterial</trd>
   <trd lng="en">natural material <klr>(often plural)</klr></trd>
   <trdgrp lng="fr">
     <trd>mat&eacute;riau naturel</trd>,
@@ -308,9 +657,15 @@
 </drv>
 </art>
 <!--
-$Log: materi1.xml,v $
-Revision 1.23  2017/12/14 11:10:14  revo
-Michel Cantigneaux: aldonita de la 1a OA kaj klarige fundamenta per la 8a OA
+$Log$
+versio 1.26 2021/05/01 19:01:29
+Wolfram Diestel: ~ismo, ~isto: pli neutrala dif; + snc fakulo, ekz-oj, ref-oj; krud~, natur~o: +ekz
+
+versio 1.25 2021/05/01 07:00:31
+Wolfram Diestel: ~a: ekz-oj
+
+versio 1.24 2021/04/30 20:48:45
+Wolfram Diestel: ~o: ekz-oj, ref-oj
 
 Revision 1.22  2017/08/15 20:10:15  revo
 Vito Redsky: +trd ro
@@ -325,11 +680,5 @@ Revision 1.19  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.18  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2011/11/28 23:10:08  revo
-Lucas Larson: +trd en de Historia ~ismo
-
-Revision 1.16  2011/04/06 11:10:08  revo
 -->
 </vortaro>

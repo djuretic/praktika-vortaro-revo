@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: lan.xml,v 1.20 2019/08/27 12:10:24 revo Exp $">
+<art mrk="$Id: lan.xml,v 1.23 2021/06/17 18:39:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lan</rad>/o
@@ -23,12 +22,17 @@
   </snc>
   <trdgrp lng="be">
     <trd>&c_sh;&c_e;&c_r;&c_s;&c_mol;&c_c;&c_mol;</trd>,
-    <trd>&c_p;&c_o;&c_w;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    <trd>&c_p;&c_o;&c_w;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_v;&c_o;&c_w;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF56;&#xF63;&#xF0B;</trd>
   <trd lng="br">gloan</trd>
   <trd lng="ca">llana</trd>
   <trd lng="cs">vlna</trd>
-  <trd lng="de">Wolle</trd>
+  <trdgrp lng="de">
+   <trd>Wolle</trd>,
+   <trd>Vlies</trd>
+  </trdgrp>
   <trd lng="el">&my;&alfa;&lambda;&lambda;&jota_ton;</trd>
   <trd lng="en">wool</trd>
   <trd lng="es">lana</trd>
@@ -59,14 +63,18 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_t;&c_r;&c_y;&c_g;&c_ch;&c_y; <klr>(&c_z;&c_d;&c_y;&c_m;&c_a;&c_ju;&c_ch;&c_y; &c_v;&c_o;&c_w;&c_n;&c_u;)</klr></trd>
   <trd lng="cs">ost&rcaron;&iacute;hat vlnu</trd>
   <trd lng="fr">tondre<klr> (moutons)</klr></trd>
 </drv>
 </art>
 <!--
-$Log: lan.xml,v $
-Revision 1.20  2019/08/27 12:10:24  revo
-Petr Diblik: +trd cs
+$Log$
+versio 1.23 2021/06/17 18:39:29
+Wolfram Diestel: +trd de
+
+versio 1.21 2021/05/03 08:57:22
+Dmitri Gabinski: +trd be
 
 Revision 1.19  2019/03/07 21:10:16  revo
 Jeromo Vasxe: + sen~igi
@@ -84,8 +92,5 @@ Revision 1.15  2012/06/04 00:10:08  revo
 Tulio Flores: korekto traduko pt
 
 Revision 1.14  2005/04/08 16:31:59  revo
-Alan ar Gall: +trd br, fr
-
-Revision 1.13  2004/02/12 17:31:32  revo
 -->
 </vortaro>

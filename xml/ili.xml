@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ili.xml,v 1.34 2019/07/05 08:10:33 revo Exp $">
+<art mrk="$Id: ili.xml,v 1.77 2021/06/19 05:58:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ili</rad>
@@ -21,23 +20,38 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">hulle</trd>
+  <trd lng="am">&#x12A5;&#x1290;&#x1231;</trd>
+  <trd lng="ar">&#x647;&#x645;</trd>
+  <trd lng="az">onlar</trd>
   <trd lng="be">&c_ja;&c_n;&c_y;</trd>
   <trd lng="bg">&c_t;&c_je;</trd>
+  <trd lng="bn">&#x9A4;&#x9BE;&#x9B0;&#x9BE;</trd>
+  <trdgrp lng="bo">
+    <trd>&#xF41;&#xF7C;&#xF0B;&#xF62;&#xF44;&#xF0B;&#xF5A;&#xF7C;&#xF0B;</trd>,
+    <trd>&#xF41;&#xF7C;&#xF44;&#xF0B;&#xF5A;&#xF7C;&#xF0B;</trd>,
+    <trd>&#xF41;&#xF7C;&#xF44;&#xF0B;&#xF62;&#xFA3;&#xF58;&#xF0B;&#xF5A;&#xF7C;&#xF0B;</trd>
+  </trdgrp>
   <trdgrp lng="br">
     <trd>int</trd>,
     <trd>i</trd>
   </trdgrp>
+  <trd lng="bs">oni</trd>
+  <trd lng="co">si</trd>
   <trdgrp lng="cs">
     <trd>ona</trd>,
     <trd>oni</trd>,
     <trd>ony</trd>
   </trdgrp>
+  <trd lng="da">de</trd>
   <trd lng="de">sie <klr tip="amb">(Pl.)</klr></trd>
   <trd lng="en">they</trd>
   <trdgrp lng="es">
     <trd>ellos</trd>,
     <trd>ellas</trd>
   </trdgrp>
+  <trd lng="et">nad</trd>
+  <trd lng="eu">dute</trd>
   <trdgrp lng="fi">
     <trd>he</trd>,
     <trd>ne</trd>
@@ -48,11 +62,17 @@
     <trd>eux</trd>
   </trdgrp>
   <trd lng="fy">hja</trd>
+  <trd lng="gl">eles</trd>
+  <trd lng="gu">&#xAA4;&#xAC7;&#xA93;</trd>
+  <trd lng="ha">suna</trd>
   <trdgrp lng="he">
     <trd>&he;&fmem;</trd>,
     <trd>&he;&fnun;</trd>
   </trdgrp>
+  <trd lng="hi">&#x935;&#x947;</trd>
+  <trd lng="hr">oni</trd>
   <trd lng="hu">&odblac;k</trd>
+  <trd lng="hy">&#x576;&#x580;&#x561;&#x576;&#x584;</trd>
   <trd lng="id">mereka</trd>
   <trdgrp lng="io">
     <trd>ili<klr> (vira)</klr></trd>,
@@ -60,52 +80,79 @@
     <trd>oli<klr> (objekta)</klr></trd>,
     <trd>li<klr> (ne&ubreve;tra)</klr></trd>
   </trdgrp>
+  <trd lng="is">&#xFE;eir</trd>
   <trdgrp lng="it">
     <trd>essi</trd>,
     <trd>esse</trd>,
     <trd>loro<klr tip="amb"> (pron. pers.)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#24444;&#12425; [<ind>&#12363;&#12428;&#12425;</ind>]</trd>,
-    <trd>&#24444;&#22899;&#12425; [<ind>&#12363;&#12398;&#12376;&#12423;&#12425;</ind>]</trd>,
-    <trd>&#12381;&#12428;&#12425;</trd>
+    <trd>&#x5F7C;&#x3089; [<ind>&#x304B;&#x308C;&#x3089;</ind>]</trd>,
+    <trd>&#x5F7C;&#x5973;&#x3089; [<ind>&#x304B;&#x306E;&#x3058;&#x3087;&#x3089;</ind>]</trd>,
+    <trd>&#x305D;&#x308C;&#x3089;</trd>
   </trdgrp>
+  <trd lng="jw">padha</trd>
+  <trd lng="ka">&#x10D8;&#x10E1;&#x10D8;&#x10DC;&#x10D8;</trd>
+  <trd lng="km">&#x1796;&#x17BD;&#x1780;&#x1782;&#x17C1;</trd>
+  <trd lng="ko">&#xADF8;&#xB4E4;</trd>
+  <trd lng="lo">&#xE9E;&#xEA7;&#xE81;&#xEC0;&#xE82;&#xEBB;&#xEB2;&#xEC0;&#xE88;&#xEBB;&#xEC9;&#xEB2;</trd>
+  <trd lng="ml">&#xD05;&#xD35;&#xD30;&#xD4D;</trd>
+  <trd lng="mr">&#x924;&#x947;</trd>
+  <trd lng="my">&#x101E;&#x1030;&#x1010;&#x102D;&#x102F;&#x1037;</trd>
+  <trd lng="ne">&#x924;&#x93F;&#x928;&#x940;&#x939;&#x930;&#x942;</trd>
   <trdgrp lng="nl">
     <trd>zij</trd>,
     <trd>ze</trd>
   </trdgrp>
+  <trd lng="ny">iwo</trd>
+  <trd lng="pa">&#xA09;&#xA39;</trd>
   <trd lng="pl">oni</trd>
+  <trd lng="ps">&#x62F;&#x648;&#x6CC;</trd>
   <trdgrp lng="pt">
     <trd>eles</trd>,
     <trd>elas</trd>
   </trdgrp>
   <trd lng="ru">&c_o;&c_n;&c_i;</trd>
+  <trd lng="sd">&#x627;&#x6BE;&#x64A;</trd>
+  <trd lng="si">&#xD94;&#xDC0;&#xDD4;&#xDB1;&#xDCA;</trd>
   <trdgrp lng="sk">
     <trd>oni</trd>,
     <trd>ony</trd>
   </trdgrp>
+  <trd lng="sq">ata</trd>
+  <trd lng="st">ba</trd>
   <trd lng="sv">de</trd>
+  <trd lng="ta">&#xB85;&#xBB5;&#xBC8;</trd>
+  <trd lng="te">&#xC35;&#xC3E;&#xC30;&#xC41;</trd>
+  <trd lng="th">&#xE1E;&#xE27;&#xE01;&#xE40;&#xE02;&#xE32;</trd>
+  <trd lng="tl">sila</trd>
   <trdgrp lng="tp">
     <trd>ona<klr> (ajnnombra)</klr></trd>,
     <trd>ona tu<klr> (dunombra)</klr></trd>,
     <trd>ona mute<klr> (plurnombra)</klr></trd>
   </trdgrp>
+  <trd lng="ur">&#x648;&#x6C1;</trd>
+  <trd lng="vi">h&#x1ECD;</trd>
   <trdgrp lng="vo">
     <trd>oms<klr> (vira)</klr></trd>,
     <trd>ofs<klr> (virina)</klr></trd>,
     <trd>ons<klr> (ne&ubreve;tra)</klr></trd>
   </trdgrp>
+  <trd lng="yi">&#x5D6;&#x5D9;&#x5D9;</trd>
   <trdgrp lng="zh">
-    <trd>&#20182;&#20204; <klr>(tr. &#20182;&#20497;, pluralo de li)</klr> [<ind>t&#257;men</ind>]</trd>,
-    <trd>&#22905;&#20204; <klr>(tr. &#22905;&#20497;, pluralo de &scirc;i)</klr> [<ind>t&#257;men</ind>]</trd>,
-    <trd>&#23427;&#20204; <klr>(tr. &#23427;&#20497;, pluralo de &gcirc;i)</klr> [<ind>t&#257;men</ind>]</trd>
+    <trd>&#x4ED6;&#x4EEC; <klr>(tr. &#x4ED6;&#x5011;, pluralo de li)</klr>
+    [<ind>t&#x101;men</ind>]</trd>,
+    <trd>&#x5979;&#x4EEC; <klr>(tr. &#x5979;&#x5011;, pluralo de &scirc;i)</klr>
+    [<ind>t&#x101;men</ind>]</trd>,
+    <trd>&#x5B83;&#x4EEC; <klr>(tr. &#x5B83;&#x5011;, pluralo de &gcirc;i)</klr>
+    [<ind>t&#x101;men</ind>]</trd>
   </trdgrp>
+  <trd lng="zu">bona</trd>
 </drv>
 
 <drv mrk="ili.0a">
   <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5051">ili'a</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5051">ili'a</url></lok></fnt></kap>
   <snc>
     <dif>
       Rilata al pluraj personoj aliaj ol la parolanto a&ubreve; alparolato:
@@ -118,19 +165,35 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">hul</trd>
+  <trd lng="am">&#x12E8;&#x12A5;&#x1290;&#x1231;</trd>
+  <trd lng="ar">&#x645;&#x646;</trd>
+  <trd lng="az">onlar&#x131;n</trd>
+  <trd lng="bn">&#x9A4;&#x9BE;&#x9A6;&#x9C7;&#x9B0;</trd>
   <trd lng="br">o<klr tip="ind"> (dezho)</klr></trd>
+  <trd lng="bs">svoje</trd>
+  <trd lng="co">i so</trd>
   <trd lng="cs">jejich</trd>
+  <trd lng="da">deres</trd>
   <trd lng="en">their</trd>
+  <trd lng="et">oma</trd>
+  <trd lng="eu">beren</trd>
   <trdgrp lng="fi">
     <trd>heid&auml;n ... -nsa, -ns&auml;</trd>,
     <trd>niiden</trd>
   </trdgrp>
   <trd lng="fr">leur</trd>
   <trd lng="fy">hun</trd>
+  <trd lng="gl">s&#xFA;a</trd>
+  <trd lng="gu">&#xAA4;&#xAC7;&#xAAE;&#xAA8;&#xABE;</trd>
+  <trd lng="ha">da</trd>
+  <trd lng="hi">&#x909;&#x928;&#x915;&#x947;</trd>
+  <trd lng="hr">svoje</trd>
   <trdgrp lng="hu">
     <trd>&ouml;v&eacute;k</trd>,
     <trd>&odblac;<klr tip="amb"> (valamily&uuml;k)</klr></trd>
   </trdgrp>
+  <trd lng="hy">&#x56B;&#x580;&#x565;&#x576;&#x581;</trd>
   <trd lng="id"><ind>milik</ind> mereka</trd>
   <trdgrp lng="io">
     <trd>ilia<klr> (vira)</klr></trd>,
@@ -138,26 +201,50 @@
     <trd>olia<klr> (objekta)</klr></trd>,
     <trd>lia<klr> (ne&ubreve;tra)</klr></trd>
   </trdgrp>
+  <trd lng="is">&#xFE;eirra</trd>
   <trd lng="it">loro<klr tip="amb"> (pron. poss.)</klr></trd>
   <trdgrp lng="ja">
-    <trd>&#24444;&#12425;&#12398; [<ind>&#12363;&#12428;&#12425;&#12398;</ind>]</trd>,
-    <trd>&#24444;&#22899;&#12425;&#12398; [<ind>&#12363;&#12398;&#12376;&#12423;&#12425;&#12398;</ind>]</trd>,
-    <trd>&#12381;&#12428;&#12425;&#12398;</trd>
+    <trd>&#x5F7C;&#x3089;&#x306E; [<ind>&#x304B;&#x308C;&#x3089;&#x306E;</ind>]</trd>,
+    <trd>&#x5F7C;&#x5973;&#x3089;&#x306E;
+    [<ind>&#x304B;&#x306E;&#x3058;&#x3087;&#x3089;&#x306E;</ind>]</trd>,
+    <trd>&#x305D;&#x308C;&#x3089;&#x306E;</trd>
   </trdgrp>
+  <trd lng="jw">sing</trd>
+  <trd lng="ka">&#x10DB;&#x10D0;&#x10D7;&#x10D8;</trd>
+  <trd lng="km">&#x179A;&#x1794;&#x179F;&#x17CB;&#x1796;&#x17BD;&#x1780;&#x1782;&#x17C1;</trd>
+  <trd lng="ko">&#xC790;&#xC2E0;&#xC758;</trd>
+  <trd lng="lo">&#xE82;&#xEAD;&#xE87;&#xEC0;&#xE82;&#xEBB;&#xEB2;&#xEC0;&#xE88;&#xEBB;&#xEC9;&#xEB2;</trd>
+  <trd lng="ml">&#xD05;&#xD35;&#xD30;&#xD41;&#xD1F;&#xD46;</trd>
+  <trd lng="mr">&#x924;&#x94D;&#x92F;&#x93E;&#x902;&#x91A;&#x94D;&#x92F;&#x93E;</trd>
+  <trd lng="my">&#x101E;&#x1030;&#x1010;&#x102D;&#x102F;&#x1037;&#x104F;</trd>
+  <trd lng="ne">&#x906;&#x92B;&#x94D;&#x928;&#x94B;</trd>
   <trd lng="nl">hun</trd>
+  <trd lng="ny">awo</trd>
+  <trd lng="pa">&#xA06;&#xA2A;&#xA23;&#xA47;</trd>
   <trd lng="pl">ich</trd>
+  <trd lng="ps">&#x62F; &#x647;&#x63A;&#x648;&#x6CC;</trd>
   <trdgrp lng="pt">
     <trd>deles</trd>,
     <trd>delas</trd>
   </trdgrp>
   <trd lng="ru">&c_i;&c_h;</trd>
+  <trd lng="sd">&#x633;&#x646;&#x62F;&#x646;</trd>
+  <trd lng="si">&#xD94;&#xDC0;&#xDD4;&#xDB1;&#xDCA;&#xD9C;&#xDDA;</trd>
   <trd lng="sk">ich</trd>
+  <trd lng="sq">tyre</trd>
+  <trd lng="st">ba bona ba</trd>
   <trd lng="sv">deras</trd>
+  <trd lng="ta">&#xBA4;&#xB99;&#xBCD;&#xB95;&#xBB3;&#xBCD;</trd>
+  <trd lng="te">&#xC35;&#xC3E;&#xC30;&#xC3F;</trd>
+  <trd lng="th">&#xE02;&#xE2D;&#xE07;&#xE1E;&#xE27;&#xE01;&#xE40;&#xE02;&#xE32;</trd>
+  <trd lng="tl">ang kanilang</trd>
   <trdgrp lng="tp">
     <trd>ona<klr> (ajnnombra)</klr></trd>,
     <trd>pi ona tu<klr> (dunombra)</klr></trd>,
     <trd>pi ona mute<klr> (plurnombra)</klr></trd>
   </trdgrp>
+  <trd lng="ur">&#x627;&#x646;</trd>
+  <trd lng="vi">c&#x1EE7;a h&#x1ECD;</trd>
   <trdgrp lng="vo">
     <trd>omsik<klr> (vira)</klr></trd>,
     <trd>omsa<klr> (vira)</klr></trd>,
@@ -166,13 +253,19 @@
     <trd>onsik<klr> (ne&ubreve;tra)</klr></trd>,
     <trd>onsa<klr> (ne&ubreve;tra)</klr></trd>
   </trdgrp>
-  <trd lng="zh">&#20182;&#20204;&#30340; <klr>(tr. &#20182;&#20497;&#30340;)</klr> [<ind>t&#257;mende</ind>]</trd>
+  <trd lng="yi">&#x5D6;&#x5D9;&#x5D9;&#x5E2;&#x5E8;</trd>
+  <trd lng="zh">&#x4ED6;&#x4EEC;&#x7684; <klr>(tr. &#x4ED6;&#x5011;&#x7684;)</klr>
+  [<ind>t&#x101;mende</ind>]</trd>
+  <trd lng="zu">yabo</trd>
 </drv>
 </art>
 <!--
-$Log: ili.xml,v $
-Revision 1.34  2019/07/05 08:10:33  revo
-Aleks Andre: zh: indekso
+$Log$
+versio 1.36 2020/12/29 11:10:34
+Aleks Andre: +trd bo
+
+versio 1.35 2020/10/04 09:11:01
+Aleks Andre: tibeta
 
 Revision 1.33  2017/12/19 17:10:24  revo
 Michel Cantigneaux: "ili/a" fundamenta kunmetajxo el la U.V.
@@ -190,8 +283,5 @@ Revision 1.29  2016/11/20 15:10:14  revo
 Robin van der Vliet: +trd fy, io, nl, tp, vo
 
 Revision 1.28  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.27  2015/06/29 16:33:15  revo
 -->
 </vortaro>

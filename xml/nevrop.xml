@@ -2,23 +2,24 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nevrop.xml,v 1.10 2019/03/31 09:10:18 revo Exp $">
+<art mrk="$Id: nevrop.xml,v 1.12 2021/03/14 23:53:29 revo Exp $">
 <kap>
   <rad>nevropter</rad>/oj <fnt><bib>PV</bib></fnt>,
-  <var><kap><rad>ne&ubreve;ropter</rad>/oj <fnt><bib>Viki</bib></fnt></kap></var>
+  <var><kap><rad var="&ubreve;">ne&ubreve;ropter</rad>/oj <fnt><bib>Viki</bib></fnt></kap></var>
 </kap>
 <drv mrk="nevrop.0oj">
   <kap><tld/>oj,
-    <var><kap>ne&ubreve;ropteroj</kap></var>
+    <var><kap><tld var="&ubreve;"/>oj</kap></var>
   </kap>
   <snc>
   <uzo tip="fak">ZOO</uzo>
     <dif>
       <ref tip="dif" cel="flug.ret0iluloj">Retflugiluloj</ref>:
       <ekz>
-        Edmond de S&eacute;lys Longchamps <klr>[&#8230;]</klr> eduki&gcirc;is hejme kaj neniam &ccirc;e
-        universitato sed i&gcirc;is &ccirc;efa studulo pri Odonatoj kaj de Ne&ubreve;ropteroj kaj de
-        Ortopteroj
+        <nom>Edmond de S&eacute;lys Longchamps</nom> <klr> [&#8230;]</klr>
+        eduki&gcirc;is hejme kaj neniam &ccirc;e
+        universitato sed i&gcirc;is &ccirc;efa studulo pri Odonatoj kaj de 
+        <tld lit="N" var="&ubreve;"/>oj kaj de Ortopteroj
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=470467"
@@ -31,15 +32,20 @@
   <trd lng="fr">n&eacute;vropt&egrave;res</trd>
   <trd lng="hu">rec&eacute;ssz&aacute;rny&uacute;ak</trd>
   <trd lng="nl">netvleugeligen</trd>
+  <trd lng="pl">sieciarki  <klr>(owady)</klr></trd>
   <trd lng="pt">neur&oacute;pteros</trd>
+  <trd lng="ro">neuroptera</trd>
   <trd lng="ru">&c_s;&c_je;&c_t;&c_ch;&c_a;&c_t;&c_o;&c_k;&c_r;&c_y;&c_l;&c_y;&c_je; &c_n;&c_a;&c_s;&c_je;&c_k;&c_o;&c_m;&c_y;&c_je;</trd>
   <trd lng="sk">sie&tcaron;okr&iacute;dly hmyz</trd>
 </drv>
 </art>
 <!--
-$Log: nevrop.xml,v $
-Revision 1.10  2019/03/31 09:10:18  revo
-Wolfram Diestel: +var, dif per ref retflugiluloj, ekz, germ trd
+$Log$
+versio 1.12 2021/03/14 23:53:29
+Vito Redsky: +trd pl +trd ro
+
+versio 1.11 2020/09/08 06:10:59
+Wolfram Diestel: +tld-var
 
 Revision 1.9  2017/04/14 20:10:28  revo
 Damien Brucker: +trd fr
@@ -57,7 +63,5 @@ Revision 1.5  2001/11/30 17:34:02  revo
 Yury Finkel: +trd ru
 
 Revision 1.4 2001/04/29 16:49:07 revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>

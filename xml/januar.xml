@@ -1,72 +1,73 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: januar.xml,v 1.30 2019/06/30 18:21:02 revo Exp $">
+<art mrk="$Id: januar.xml,v 1.33 2021/05/28 12:52:53 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>januar</rad>/o
+  <ofc>*</ofc> <rad>Januar</rad>/o,
+  <var><kap><rad var="j">januar</rad>/o</kap></var>
 </kap>
 <drv mrk="januar.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <kap><ofc>*</ofc><tld/>o, <var><kap><tld var="j"/>o</kap></var></kap>
+  <snc mrk="januar.0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
-      Unua <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj"
-      val="1">monato</ref> de la <ref tip="malprt"
-      cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter
-      decembro kaj februaro:
+      Unua <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj" val="1">monato</ref> de la <ref tip="malprt" cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter
+      <ref cel="decemb.0o">Decembro</ref> kaj <ref cel="februa.0o">Februaro</ref>:
       <ekz>
-        <tld lit="J"/>o estas la unua monato de la jaro
+        <tld/>o estas la unua monato de la jaro
         <fnt>
           <bib>F</bib>
           <lok>&FE; 12</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la dek du monatoj de l' kristana jaro estas: <tld lit="J"/>o, Februaro, Marto, <klr>[&#8230;]</klr>
+        la dek du monatoj de l' kristana jaro estas: <tld/>o, Februaro, Marto, <klr>[&#x2026;]</klr>
         <fnt>
           <bib>DL</bib>
         </fnt>;
       </ekz>
       <ekz>
-        tio estis en la lastaj tagoj de <tld lit="J"/>o, terura ne&gcirc;ventego estis levi&gcirc;inta
+        tio estis en la lastaj tagoj de <tld/>o, terura ne&gcirc;ventego estis levi&gcirc;inta
         <fnt>
           <bib>Fab3</bib>
           <lok>Historio de la jaro</lok>
         </fnt>;
       </ekz>
       <ekz>
-        Parizo, la 1an de <tld/>o 1901
+        Parizo, la 1an de <tld var="j"/>o 1901
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        en <tld/>o oni havas 10 gradojn super la nulo
+        en <tld var="j"/>o oni havas 10 gradojn super la nulo
         <fnt>
           <bib>Far1</bib>
           <lok>Anta&ubreve;parolo</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la fini&gcirc;o de la monda vivo devis havi lokon la 6-an de <tld lit="J"/>o
+        la fini&gcirc;o de la monda vivo devis havi lokon la 6-an de <tld/>o
         <fnt>
           <bib>FK</bib>
         </fnt>.
       </ekz>
     </dif>
-  </snc>
   <rim mrk="januar.0o.RIM">
-    Kvankam la monatnomoj en la Fundamento estas majusklaj, nuntempe ili
-    estas ofte uzataj minuskle analoge al la semajnotagoj. Fakte la
+    La monatnomoj en la Fundamento estas majusklaj, kaj konsekvence kiel
+    &ccirc;e propraj nomoj oni ne anta&ubreve;metas la artikolon &leftquot;la&rightquot;
+    (vd anka&ubreve; en PMEG, Monatoj
+    <fnt><vrk><url ref="https://bertilow.com/pmeg/gramatiko/propraj_nomoj/majuskloj.html#i-klc">PMEG, Monatoj</url></vrk></fnt>).
+    Sed ofte ili estas uzataj minuskle analoge al la semajnotagoj. Fakte la
     monatoj ne estas unikaj individuoj, kiel personoj a&ubreve; geografiaj
     objektoj kaj la minuskligo helpas distingi ilin de la personaj nomoj
     Julio kaj A&ubreve;gusto.
   </rim>
+  </snc>
   <trd lng="af">Januarie</trd>
   <trd lng="be">&c_s;&c_t;&c_u;&c_d;&c_z;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_ja;&c_n;&c_u;&c_a;&c_r;&c_i;</trd>
+  <trd lng="bo">&#xF5F;&#xFB3;&#xF0B;&#xF56;&#xF0B;&#xF51;&#xF44;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trd lng="br">Genver</trd>
   <trd lng="ca">gener</trd>
   <trd lng="cs">leden</trd>
@@ -80,7 +81,7 @@
   <trd lng="id">Januari</trd>
   <trd lng="io">januaro</trd>
   <trd lng="it">gennaio</trd>
-  <trd lng="ja">&#19968;&#26376; [<ind>&#12356;&#12385;&#12364;&#12388;</ind>]</trd>
+  <trd lng="ja">&#x4E00;&#x6708; [<ind>&#x3044;&#x3061;&#x304C;&#x3064;</ind>]</trd>
   <trdgrp lng="jbo">
     <trd>pavma'i</trd>,
     <trd>kanbyma'i</trd>
@@ -98,12 +99,12 @@
 </drv>
 
 <drv mrk="januar.0a">
-  <kap><tld/>a</kap>
+  <kap><tld lit="j"/>a</kap>
   <snc>
     <dif>
       Okazanta en <tld/>o, rilata al <tld/>o:
       <ekz>
-        mi estas tre gaja, &ccirc;ar mi ricevis la <tld/>an numeron de Monato
+        mi estas tre gaja, &ccirc;ar mi ricevis la <tld lit="j"/>an numeron de Monato
         <fnt>
           <bib>Monato</bib>
           <aut>Andy Hern&aacute;ndez Mart&iacute;nez</aut>
@@ -111,7 +112,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        la&ubreve; <tld/>a enketo, inter oktobro kaj marto 124&nbsp;802 laboristoj estos perdintaj sian laboron
+        la&ubreve; <tld lit="j"/>a enketo, inter oktobro kaj marto 124&nbsp;802 laboristoj estos perdintaj sian
+        laboron
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Jasuo</aut>
@@ -119,7 +121,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        rivero <nom>Iskar</nom>, kiu tie malsupre ar&gcirc;entis kaj ie-tie estis glacii&gcirc;inta pro la <tld/>a frosto
+        rivero <nom>Iskar</nom>, kiu tie malsupre ar&gcirc;entis kaj ie-tie estis glacii&gcirc;inta pro la <tld lit="j"/>a frosto
         <fnt>
           <bib>Monato</bib>
           <aut>Julian Modest</aut>
@@ -128,18 +130,22 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_t;&c_u;&c_d;&c_z;&c_je;&c_n;&c_mol;&c_s;&c_k;&c_ib;</trd>
   <trd lng="ca">de gener</trd>
   <trd lng="fr">de <ind>janvier</ind></trd>
   <trd lng="io">januarala</trd>
-  <trd lng="ja">&#19968;&#26376;&#12398; [<ind>&#12356;&#12385;&#12364;&#12388;&#12398;</ind>]</trd>
+  <trd lng="ja">&#x4E00;&#x6708;&#x306E; [<ind>&#x3044;&#x3061;&#x304C;&#x3064;&#x306E;</ind>]</trd>
   <trd lng="pl">styczniowy</trd>
   <trd lng="vo">yanulik</trd>
 </drv>
 </art>
 <!--
-$Log: januar.xml,v $
-Revision 1.30  2019/06/30 18:21:02  revo
-adaptis URL de Monato
+$Log$
+versio 1.32 2021/04/29 07:50:15
+Dmitri Gabinski: +trd be
+
+versio 1.31 2021/03/23 15:52:29
+Wolfram Diestel: kapvorto: majuskle dict etc voko-grundo-master kaj minuskle; vd PMEG en rim 
 
 Revision 1.29  2018/08/16 20:10:17  revo
 Wolfram Diestel: +ekz-oj
@@ -157,11 +163,5 @@ Revision 1.25  2013/08/20 19:10:16  revo
 Wolfram Diestel: referenco al listo monatoj
 
 Revision 1.24  2013/03/26 16:10:10  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.23  2012/01/04 13:10:23  revo
-Marc Rausell: +trd ca
-
-Revision 1.22  2008/09/20 16:30:19  revo
 -->
 </vortaro>

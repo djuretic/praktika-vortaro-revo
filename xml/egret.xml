@@ -2,27 +2,60 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: egret.xml,v 1.18 2019/03/22 15:10:14 revo Exp $">
+<art mrk="$Id: egret.xml,v 1.21 2020/09/13 20:32:27 revo Exp $">
 <kap>
-  <rad>egret</rad>/o
+  <rad>egret</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="egret.0o">
   <kap><tld/>o</kap>
   <snc mrk="egret.0o.ZOO">
-    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Tufo da surkapaj plumoj de iuj birdoj:
+      Mezgranda, longkrura, longbeka mar&ccirc;obirdo, pliofte blanka, griza, hela, genro el
+      familio <ref tip="super" cel="ardeed.0oj">ardeedoj</ref> (<trd
+      lng="la">Egretta</trd>):
       <ekz>
-        <tld/>ardeo.
+        nigraj kormoranoj, elegantaj blankaj egretoj kaj flavetaj ardeoj restas senmovaj
+        &gcirc;is ni alvenas proksime-proksime de ili
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="http://satesperanto.org/spip.php?article1586"
+              >Delto de Danubo - sur la vojo de la trezoroj</url></vrk>
+          <lok>SAT, 2010</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="tuf.plum0o">plumtufo</ref>
-    </refgrp>
   </snc>
+  <snc mrk="egret.0o.pluma">
+    <dif>
+      <ref tip="dif" cel="tuf.plum0o">Plumtufo</ref>, plumkrono.
+    </dif>
+    <subsnc mrk="egret.0o.pluma_ZOO">
+      <uzo tip="fak">ZOO</uzo>
+      <dif>
+        Surkapa tufo de plumoj de iuj birdoj,
+        <ref tip="vid" cel="krest.0o.ZOO_pluma">kresto<sncref/></ref>:
+        <ekz>
+          <tld/>ardeo.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="egret.0o.TEKS">
+      <uzo tip="fak">TEKS</uzo>
+      <dif>
+        Ornama tufo de plumoj sur kapvesto;
+        <ref tip="vid" cel="krest.0o.TEKS">kresto<sncref/></ref>.
+      </dif>
+    </subsnc>
   <trd lng="ca">plomall</trd>
+  <trdgrp lng="cs">
+    <trd>p&eacute;&rcaron;ov&yacute; chochol</trd>,
+    <trd>p&eacute;&rcaron;ov&yacute; h&rcaron;eben</trd>
+  </trdgrp>
   <trd lng="de">Federkrone</trd>
-  <trd lng="fr">aigrette<klr tip="ind"> (touffe de plumes)</klr></trd>
+  <trdgrp lng="en">
+    <trd>crest</trd>
+  </trdgrp>
   <trd lng="hu">b&oacute;bita</trd>
   <trd lng="nl">aigrette</trd>
   <trdgrp lng="pl">
@@ -44,12 +77,20 @@
     <trd>chochol</trd>,
     <trd>h&rcaron;eben</trd>
   </trdgrp>
+  </snc>
+  <trd lng="fr">aigrette</trd>
 </drv>
 </art>
 <!--
-$Log: egret.xml,v $
-Revision 1.18  2019/03/22 15:10:14  revo
-Wolfram Diestel: +~ardeo (ekz)
+$Log$
+versio 1.21 2020/09/13 20:32:27
+Jeromo Vasxe: + snc birdo
+
+versio 1.20 2020/09/10 22:32:16
+Jeromo Vasxe: + snc teks
+
+versio 1.19 2020/09/08 22:32:38
+Jeromo Vasxe: + ref
 
 Revision 1.17  2015/07/04 08:37:33  revo
 aldono de trd cs per skripto de M. von Laer
@@ -64,11 +105,5 @@ Revision 1.14  2009/09/26 16:31:45  revo
 Paul Peeraerts: +nl
 
 Revision 1.13  2009/01/29 17:30:24  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2007/06/22 17:25:43  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2006/01/16 17:31:54  revo
 -->
 </vortaro>

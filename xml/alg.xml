@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: alg.xml,v 1.28 2019/01/07 03:10:16 revo Exp $">
+<art mrk="$Id: alg.xml,v 1.31 2021/05/11 17:28:53 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>alg</rad>/oj <fnt><bib>PV</bib></fnt>
@@ -40,6 +39,7 @@
   <trd lng="es">algas</trd>
   <trd lng="fa">&a_j;&a_l;&a_b;&f_k;</trd>
   <trd lng="fr">algues</trd>
+  <trd lng="he">&#x5D0;&#x5B7;&#x5E6;&#x5D5;&#x5B9;&#x5EA;</trd>
   <trdgrp lng="hu">
     <trd>moszatok</trd>, 
     <trd>alg&aacute;k</trd>
@@ -57,12 +57,12 @@
 
 <drv mrk="alg.blu0o">
   <kap>blu<tld/>o, <var><kap>blua <tld/>o</kap></var></kap>
-  <uzo tip="stl">KOMUNE</uzo>
+  <uzo tip="stl">ARK</uzo>
   <snc mrk="alg.blu0o.BAK">
     <uzo tip="fak">BAK</uzo>
     <dif>
-      Iu el <ref tip="dif"
-      cel="bakter.ciano0oj.BAK">cianobakterioj</ref>:
+      Iu el <ref tip="dif" cel="bakter.ciano0oj.BAK">cianobakterioj</ref>
+      (iam misklasifikitaj kiel algoj):
       <ekz>
         ekzistas esta&jcirc;oj, ekzemple la bluaj <tld/>oj <klr>...</klr>,
         kiuj 
@@ -88,7 +88,7 @@
 
 <drv mrk="alg.brun0oj">
   <kap>brun<tld/>oj, <var><kap>brunaj <tld/>oj</kap></var></kap>
-  <snc mrk="alg.brunaj0oj.BOT">
+  <snc mrk="alg.brun0oj.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
       <tld lit="A"/>oj precipe maraj, brunkoloraj
@@ -125,7 +125,7 @@
 
 <drv mrk="alg.rugx0oj">
   <kap>ru&gcirc;<tld/>oj, <var><kap>ru&gcirc;aj <tld/>oj</kap></var></kap>
-  <snc mrk="alg.rugxaj0oj.BOT">
+  <snc mrk="alg.rugx0oj.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
       <tld lit="A"/>oj precipe maraj, ru&gcirc;koloraj
@@ -151,7 +151,7 @@
 
 <drv mrk="alg.verd0oj">
   <kap>verd<tld/>oj, <var><kap>verdaj <tld/>oj</kap></var></kap>
-  <snc mrk="alg.verdaj0oj.BOT">
+  <snc mrk="alg.verd0oj.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
       <tld lit="A"/>oj el diversaj grupoj, verdkoloraj
@@ -187,9 +187,12 @@
 </drv>
 </art>
 <!--
-$Log: alg.xml,v $
-Revision 1.28  2019/01/07 03:10:16  revo
-Dusan Juretic: +trd es
+$Log$
+versio 1.31 2021/05/11 17:28:53
+Wolfram Diestel: kor. snc@mrk
+
+versio 1.30 2021/04/06 05:57:09
+Wolfram Diestel: blu~o: +ARK, +klr
 
 Revision 1.27  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
@@ -207,8 +210,5 @@ Revision 1.23  2011/01/29 17:10:16  revo
 Wolfram Diestel: +kor. trd de - bg
 
 Revision 1.22  2010/12/20 17:30:17  revo
-Jeromo Vasxe: + blua ~o, propra drv por brun/rugx/verd
-
-Revision 1.21  2010/05/15 16:31:09  revo
 -->
 </vortaro>

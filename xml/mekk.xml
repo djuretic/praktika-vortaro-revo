@@ -2,31 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: mekk.xml,v 1.2 2019/08/17 20:10:28 revo Exp $">
+  <art mrk="$Id: mekk.xml,v 1.7 2021/04/22 09:58:54 revo Exp $">
     <kap>
       <rad>Mekk</rad>/o
         <fnt>
           <bib>FK</bib>
         </fnt>,
-        <var><kap><rad>Mek</rad>/o</kap></var>
+        <var><kap><rad var="k">Mek</rad>/o</kap></var>
     </kap>
 
 <drv mrk="mekk.0o">
-  <kap><tld/>o, <var><kap>Meko</kap></var></kap>
-  <uzo tip="fak">GEOG</uzo><uzo tip="fak">ISL</uzo>
+  <kap><tld/>o, <var><kap><tld var="k"/>o</kap></var></kap>
   <snc>
+  <uzo tip="fak">GEOG</uzo>
+  <uzo tip="fak">ISL</uzo>
     <dif>
-      La sankta <ref tip="lst" lst="voko:urboj" cel="urb.0o.ARKI">urbo</ref>
-      de <ref tip="malprt" cel="islam.0o">islamo</ref> en la okcidento de
-      <ref tip="lst" lst="voko:urboj" cel="arab.SaudaA0ujo">Sauda Arabujo</ref>:
+      La sankta <ref tip="lst" lst="voko:urboj"
+      cel="urb.0o.ARKI">urbo</ref>
+      de <ref tip="malprt" cel="islam.0o">islamo</ref> en la okcidento
+      de
+      <ref tip="lst" lst="voko:urboj" cel="arab.SaudaA0ujo">Sauda
+      Arabujo</ref>:
       <ekz>
-        la tabako estas la plezuro de la had&jcirc;ioj, kiuj voja&gcirc;as al <tld/>o
+        la tabako estas la plezuro de la had&jcirc;ioj, kiuj voja&gcirc;as al
+        <tld/>o
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        en lia epoko en <tld/>o oni pruntedonis monon kontra&ubreve; vere rabema interezo
+        en lia epoko en <tld/>o oni pruntedonis monon kontra&ubreve; vere
+        rabema interezo
         <fnt>
           <bib>Monato</bib>
           <aut>Hussain Al-Amily</aut>
@@ -35,28 +41,42 @@
         </fnt>;
       </ekz>
       <ekz>
-        tio venas de araba ha&gcirc;: pilgrimisto al Meko
+        tio venas de araba ha&gcirc;: pilgrimisto al <tld var="k"/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Yamasaki Seik&ocirc;</aut>
           <vrk><url ref="http://steloj.de/esperanto/monato2/006903.html"
-              >Pruntoj: Arabaj vortoj en la germana kaj esperanta lingvoj</url></vrk>
+              >Pruntoj: Arabaj vortoj en la germana kaj esperanta
+              lingvoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_M;&c_e;&c_k;&c_a;</trd>
     <trd lng="de">Mekka</trd>
+    <trd lng="fr">La <ind>Mecque</ind></trd>
+    <trd lng="id">Mekkah</trd>
+    <trd lng="pl">Mekka</trd>     
+    <trd lng="ro">Mecca</trd>
   </snc>
 </drv>
 
   </art>
 
 <!--
-$Log: mekk.xml,v $
-Revision 1.2  2019/08/17 20:10:28  revo
-Wolfram Diestel: +var Meko kun ekz
+$Log$
+versio 1.7 2021/04/22 09:58:54
+Dmitri Gabinski: + trd be
+
+versio 1.6 2020/09/08 19:10:49
+Wolfram Diestel: +tld-var
+
+versio 1.5 2020/07/26 16:10:36
+Vito Redsky: +trd pl +trd ro
+
+versio 1.4 2020/05/14 13:14:59
+Damien Brucker: +trd fr
 
 Revision 1.1  2019/08/08 08:10:14  revo
 Wolfram Diestel: nova artikolo
-
 -->
 </vortaro>

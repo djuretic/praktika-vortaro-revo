@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ans.xml,v 1.20 2019/09/29 15:10:24 revo Exp $">
+<art mrk="$Id: ans.xml,v 1.24 2021/03/09 11:11:05 revo Exp $">
 <kap>
   <rad>ans</rad>/o
   <fnt><bib>Fab1</bib></fnt>
@@ -11,8 +11,7 @@
   <kap><tld/>o</kap>
   <snc mrk="ans.0o.tenilo">
     <dif>
-      Kurba elstara kaj nemovebla <ref tip="super"
-      cel="ten.0ilo">tenilo</ref>
+      Kurba elstara kaj nemovebla <ref tip="super" cel="ten.0ilo">tenilo</ref>
       de objekto, por preni, porti, tiri, levi a&ubreve; malfermi &gcirc;in:
       <ekz>
         <tld/>o
@@ -35,12 +34,46 @@
         murfendeto
         <fnt><bib>RabistFab</bib></fnt>.
       </ekz>
+      <ekz>
+        &scirc;i premis la rusti&gcirc;intan <tld/>on tiel longe &gcirc;is
+        &gcirc;i cedis kaj la pordo malfermi&gcirc;is
+        <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la pordo ekmovi&gcirc;as la <tld/>o, <nom>&Hcirc;lestakov</nom> pali&gcirc;as kaj kuntiri&gcirc;as
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <rim>
+      Simplaj malnovaj pordomalfermiloj ofte konsistis el tenilo kaj <ref
+      cel="buton.0o.TEK">butono<sncref/></ref> (kiel en la bildo), per kies
+      premo oni levis la aliflankan <ref cel="klink.0o">klinko</ref>n). Nuntempe la L-formajn
+      pordomalfermilojn 
+      oni foje anka&ubreve; nomas klinko, i.a. pro la influo de la germana.
+      <aut>WD</aut>
+    </rim>
+    <bld
+    lok="&WCU;/thumb/2/2d/Santorin_(GR)%2C_Fira_--_2017_--_2569.jpg/640px-Santorin_(GR)%2C_Fira_--_2017_--_2569.jpg"
+    prm="CC BY-SA 4.0">malnova pord<tld/>o &ccirc;e pordego en Fira, Santorini, Grekujo
+        <fnt>
+          <aut>Dietmar Rabich, propra verko</aut>
+          <lok><url
+          ref="&WCW;/File:Santorin_(GR),_Fira_--_2017_--_2569.jpg">https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Fira_--_2017_--_2569.jpg</url></lok>
+        </fnt>
+    </bld>
     <trdgrp lng="be">
       <trd>&c_r;&c_u;&c_ch;&c_k;&c_a;</trd>,
       <trd>&c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_l;&c_mol;&c_n;&c_a;</trd>
     </trdgrp>
-    <trd lng="de">Henkel</trd>
+    <trdgrp lng="de">
+      <trd>Henkel</trd>,
+      <trd>Griff</trd>,
+      <trd>Klinke <klr>(T&uuml;r)</klr></trd>,
+      <trd>Knauf <klr>(T&uuml;r)</klr></trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>knob</trd>,
       <trd>handle</trd>
@@ -62,37 +95,12 @@ l&aacute;bas&eacute;)</klr></trd>,
       <trd>&c_r;&c_u;&c_k;&c_o;&c_ja;&c_t;&c_k;&c_a;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="ans.0o.klinko">
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      <ref tip="dif" cel="klink.0o">Klinko</ref>:
-      <ekz>
-        &scirc;i premis la rusti&gcirc;intan anson tiel longe &gcirc;is
-        &gcirc;i cedis kaj la pordo malfermi&gcirc;is
-        <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>;
-      </ekz>
-      <ekz>
-        &ccirc;e la pordo ekmovi&gcirc;as la <tld/>o, <nom>&Hcirc;lestakov</nom> pali&gcirc;as kaj kuntiri&gcirc;as
-        <fnt>
-          <bib>Revizoro</bib>
-          <lok>Akto dua</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <adm>
-      Mi dubas, cxu vere tiu cxi senco sinonimas kun "klinko".
-      Laux mi anso de pordo estas tiu movebla stango, kiun oni
-      movas malsupren por movi la serurlangon.
-      <aut>MB</aut>
-    </adm>
-    <trd lng="en">latch</trd>
-    <trd lng="de">Klinke</trd>
-  </snc>
   <trdgrp lng="cs">
     <trd>dr&zcaron;adlo</trd>,
     <trd>rukoje&tcaron;</trd>,
     <trd>ucho n&aacute;doby</trd>
   </trdgrp>
+  <trd lng="he">&yod;&dalet;&yod;&tav;</trd>
   <trdgrp lng="sk">
     <trd>k&lcaron;u&ccaron;ka</trd>,
     <trd>ucho <klr>(n&aacute;doby)</klr></trd>
@@ -100,9 +108,15 @@ l&aacute;bas&eacute;)</klr></trd>,
 </drv>
 </art>
 <!--
-$Log: ans.xml,v $
-Revision 1.20  2019/09/29 15:10:24  revo
-Wolfram Diestel: +ekz, sintakso
+$Log$
+versio 1.24 2021/03/09 11:11:05
+Wolfram Diestel: tld, trd de
+
+versio 1.23 2021/03/08 19:03:11
+Wolfram Diestel: +ref butono
+
+versio 1.22 2021/03/08 17:22:06
+Wolfram Diestel: kunigo al unu senco, forigis EVI klinko kaj anstatauis per rim+bld
 
 Revision 1.19  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
@@ -117,11 +131,5 @@ Revision 1.16  2004/12/18 19:19:33  revo
 Marc Bavant: ~o2: mod dif, +adm
 
 Revision 1.15  2003/11/09 17:31:46  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2002/10/08 17:57:51  revo
-Christopher Zervic: + ang
-
-Revision 1.13  2002/05/09 18:46:34  revo
 -->
 </vortaro>

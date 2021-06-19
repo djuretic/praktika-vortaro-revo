@@ -2,50 +2,135 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: flok.xml,v 1.16 2019/09/25 13:10:15 revo Exp $">
+<art mrk="$Id: flok.xml,v 1.19 2021/06/18 12:46:10 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>flok</rad>/o
 </kap>
 <drv mrk="flok.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="flok.0o.KOMUNE">
+  <snc mrk="flok.0o.tufeto">
     <dif>
-      Maldensa, malpeza <ref cel="er.0o">ero</ref> da iu substanco.
+      Malpeza <ref tip="super" cel="tuf.0o">tufeto</ref> da materio,
+      &scirc;vebanta en aero:
+      <ekz>
+        <tld/>oj da ne&gcirc;o <klr>(<ref tip="sub" cel="negx.0ero">ne&gcirc;ero</ref>)</klr>
+        flugadis &ccirc;irka&ubreve; li
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>(leontodaj semoj)</klr> flugas en formo de
+        malgrandaj lanaj <tld/>oj super la vojo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ekzistas diferenco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni surblovas ilin, la plumoj kaj la <tld/>oj disflugas kaj ne restas el ili pli
+        ol el pasero
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fulgo<tld/>oj flugis tiel dense kiel la akridoj <klr>[&#8230;]</klr> dum plago
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj de hel-verda kaj ru&gcirc;a drapo kaj de kaduka tolo kelkloke pendis sur li
+        <fnt>
+          <bib>LOdE</bib>
+          <aut>Aleksandr Pu&scirc;kin, trad. Mi&hcirc;ail Ma&hcirc;na&ccirc;</aut>
+          <vrk>&Ccirc;erkisto</vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <subsnc mrk="flok.0o.MET">
-      <dif>
-        Peceto, tufeto da materio,
-        kiu balanci&gcirc;as en aero, malrapide falante:
-        <ekz>
-          <ind><tld/>oj</ind><trd lng="ru">&c_h;&c_l;&c_o;&c_p;&c_mol;&c_ja;</trd>
-          de lano<fnt>B</fnt>,
-          ne&gcirc;o<fnt>Z</fnt>,
-          fulgo, vato;
-        </ekz>
-        <ekz>
-          <tld/>aj nuboj.
-        </ekz>
-      </dif>
-    </subsnc>
-    <subsnc mrk="flok.0o.KUI">
-      <uzo tip="fak">KUI</uzo>
-      <dif>
-        Maldensa ero el kuirita grena&jcirc;o, poste sekigita:
-        <ekz>
-          aven<tld/>oj
-          <fnt>
+    <refgrp tip="vid">
+      <ref cel="bukl.0o.hara">buklo<sncref/></ref>,
+      <ref cel="lanug.0o">lanugo</ref>,
+      <ref cel="lan.0o">lano</ref>,
+      <ref cel="sxpin.0i.TEKS">&scirc;pini<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Fluse</trd>,
+      <trd>Fussel</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="flok.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      Plata sekigita prema&jcirc;o de grenero, 
+      fritita tran&ccirc;a&jcirc;o de terpomo ks:
+      <ekz>
+        aven<tld/>oj
+        <fnt>
           <aut>dorotka</aut>
           <vrk><url ref="https://apetito.ikso.net/recepto/pano-aux-pano-kiu-sxangxas-vivon">
           Pano (a&ubreve; "Pano kiu &scirc;an&gcirc;as vivon")</url></vrk>
           <lok>Bonan Apetiton, 2015-02-25</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
-          <ref cel="ter.0pomfloko">terpomfloko</ref>.
-        </ekz>
-      </dif>
-    </subsnc>
+        </fnt>;
+      </ekz>
+      <ekz>
+        skatolo de <ind>maiz<tld/>oj</ind>
+        <fnt>
+          <aut>Spomenka &Scaron;timec</aut>
+          <vrk>Ombro sur interna pejza&gcirc;o</vrk>
+        </fnt>;
+        <trd lng="be">&c_k;&c_o;&c_r;&c_n;&c_f;&c_l;&c_je;&c_k;&c_s;</trd>
+        <trdgrp lng="bg">
+          <trd>&c_c;&c_a;&c_r;&c_je;&c_v;&c_i;&c_ch;&c_n;&c_i; &c_p;&c_r;&c_malmol;&c_ch;&c_i;&c_c;&c_i;</trd>,
+          <trd>&c_k;&c_o;&c_r;&c_n;&c_f;&c_l;&c_je;&c_j;&c_k;&c_s;</trd>
+        </trdgrp>
+        <trdgrp lng="ca">
+          <trd>cereals</trd>,
+          <trd>flocs de blat de moro</trd>
+        </trdgrp>
+        <trdgrp lng="cs">
+          <trd>corn flakes</trd>,
+          <trd>cornflakes</trd>,
+          <trd>kuku&rcaron;i&ccaron;n&eacute; vlo&ccaron;ky</trd>
+        </trdgrp>
+        <trdgrp lng="de">
+          <trd>Cornflakes</trd>,
+          <trd>Maisflocken</trd>
+        </trdgrp>
+        <trd lng="en">corn flakes</trd>
+        <trd lng="es">copos de ma&iacute;z</trd>
+        <trd lng="fa">&f_k;&a_w;&a_r;&a_n;&zwnj;&a_f;&a_l;&f_k;&a_s;</trd>
+        <trdgrp lng="fr">
+          <trd>cornflakes</trd>,
+          <trd>flocons de ma&iuml;s</trd>
+        </trdgrp>
+        <trd lng="hu">kukoricapehely</trd>
+        <trd lng="id"><ind>sereal</ind> jagung</trd>
+        <trd lng="nl">cornflakes</trd>
+        <trd lng="pl">p&lstroke;atki <ind>kukurydziane</ind></trd>
+        <trd lng="pt">flocos de <ind>milho</ind></trd>
+        <trd lng="sk">kukuri&ccaron;n&eacute; vlo&ccaron;ky</trd>
+      </ekz>
+      <ekz>
+        saketoj enhavantaj <klr>[&#8230;]</klr> nuksojn a&ubreve; terpom<tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>John Gobourne</aut>
+          <vrk><url ref="https://www.monato.be/2012/010556.php"
+              >Tiam ... kaj nun</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="bran.0o">brano</ref>,
+      <ref cel="cxips.0o">&ccirc;ipso</ref>,
+      <ref cel="gri.0o">grio</ref>,
+      <ref cel="maiz.krev0o">krevmaizo, pufmaizo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_zh;&c_m;&c_u;&c_t;</trd>,
@@ -82,11 +167,19 @@
     <trd>vlo&ccaron;ka</trd>
   </trdgrp>
 </drv>
+
+
 </art>
 <!--
-$Log: flok.xml,v $
-Revision 1.16  2019/09/25 13:10:15  revo
-Jeromo Vasxe: snc/subsnc  kun ald. de snc kui
+$Log$
+versio 1.19 2021/06/18 12:46:10
+Wolfram Diestel: +trd de
+
+versio 1.18 2021/06/17 20:08:49
+Wolfram Diestel: maiz~oj: trd-oj (el maiz/)
+
+versio 1.17 2021/06/17 18:37:17
+Wolfram Diestel: ekz-oj, ref-oj
 
 Revision 1.15  2016/05/02 07:10:17  revo
 Guillermo Molleda Jimena: trd es
@@ -101,11 +194,5 @@ Revision 1.12  2008/01/24 19:49:10  revo
 Russ Williams: +trd en
 
 Revision 1.11  2007/06/01 16:32:09  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2005/10/06 16:31:26  revo
-Lluis Batlle i Rossell: +trd ca
-
-Revision 1.9  2005/08/19 19:14:31  revo
 -->
 </vortaro>

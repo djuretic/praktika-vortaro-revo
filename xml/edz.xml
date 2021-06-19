@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: edz.xml,v 1.59 2020/01/29 11:10:14 revo Exp $">
+<art mrk="$Id: edz.xml,v 1.109 2021/06/18 20:41:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>edz</rad>/o <fnt><bib>PV</bib></fnt>
@@ -26,6 +25,7 @@
     <trd>&c_s;&c_malmol;&c_p;&c_r;&c_u;&c_g;</trd>,
     <trd>&c_m;&c_malmol;&c_zh;</trd>
   </trdgrp>
+  <trd lng="bo">&#xF41;&#xFB1;&#xF7C;&#xF0B;&#xF42;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>cho&tcaron;</trd>,
     <trd>man&zcaron;el</trd>,
@@ -40,7 +40,8 @@
   <trd lng="en">husband</trd>
   <trdgrp lng="es">
      <trd>marido</trd>,
-     <trd>esposo</trd>
+     <trd>esposo</trd>,
+     <trd>c&oacute;nyuge</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>&eacute;poux<klr tip="ind"> (mari)</klr></trd>,
@@ -68,6 +69,10 @@
     <trd>&c_s;&c_u;&c_p;&c_r;&c_u;&c_g;</trd>
   </trdgrp>
   <trd lng="sk">man&zcaron;el</trd>
+  <trdgrp lng="sl">
+    <trd>mo&zcaron;</trd>,
+    <trd>soprog</trd>
+  </trdgrp>
   <trd lng="tp">mije</trd>
   <trdgrp lng="tr">
     <trd>koca</trd>,
@@ -104,7 +109,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>in' admirata &#8208; <tld/>o malsata
+        <tld/>in' admirata &#x2010; <tld/>o malsata
         <fnt>
           <bib>PrV</bib>
         </fnt>;
@@ -114,16 +119,25 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">vrou</trd>
+  <trd lng="am">&#x121A;&#x1235;&#x1275;</trd>
+  <trd lng="ar">&#x632;&#x648;&#x62C;&#x629;</trd>
+  <trd lng="az">arvad</trd>
   <trd lng="be">&c_zh;&c_o;&c_n;&c_k;&c_a;</trd>
   <trdgrp lng="bg">
     <trd>&c_s;&c_malmol;&c_p;&c_r;&c_u;&c_g;&c_a;</trd>,
     <trd>&c_zh;&c_je;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="bn">&#x9B8;&#x9CD;&#x9A4;&#x9CD;&#x9B0;&#x9C0;</trd>
+  <trd lng="bo">&#xF66;&#xF90;&#xFB1;&#xF7A;&#xF66;&#xF0B;&#xF51;&#xF58;&#xF53;&#xF0B;</trd>
+  <trd lng="bs">supruga</trd>
+  <trd lng="co">moglia</trd>
   <trdgrp lng="cs">
     <trd>man&zcaron;elka</trd>,
     <trd>pan&iacute;</trd>,
     <trd>&zcaron;ena</trd>
   </trdgrp>
+  <trd lng="da">kone</trd>
   <trdgrp lng="de">
     <trd>Ehefrau</trd>,
     <trd>Gattin</trd>,
@@ -133,24 +147,52 @@
   <trd lng="en">wife</trd>
   <trdgrp lng="es">
     <trd>esposa</trd>,
-    <trd>mujer</trd>
+    <trd>mujer</trd>,
+    <trd>c&oacute;nyuge</trd>
   </trdgrp>
+  <trd lng="et">naine</trd>
+  <trd lng="eu">emaztea</trd>
   <trdgrp lng="fr">
     <trd>&eacute;pouse</trd>,
     <trd>femme<klr tip="ind"> (&eacute;pouse)</klr></trd>
   </trdgrp>
+  <trd lng="fy">frou</trd>
+  <trd lng="gl">esposa</trd>
+  <trd lng="gu">&#xAAA;&#xAA4;&#xACD;&#xAA8;&#xAC0;</trd>
+  <trd lng="ha">matarsa</trd>
+  <trdgrp lng="he">
+    <trd>&bet;&tav; &zayin;&vav;&gimel;</trd>,
+    <trd>&resh;&ayin;&yod;&he;</trd>
+  </trdgrp>
+  <trd lng="hi">&#x92A;&#x924;&#x94D;&#x928;&#x940;</trd>
+  <trd lng="hr">&#x17E;ena</trd>
   <trd lng="hu">feles&eacute;g</trd>
+  <trd lng="hy">&#x56F;&#x56B;&#x576;</trd>
   <trd lng="id">istri</trd>
   <trd lng="io">spozino</trd>
+  <trd lng="is">kona</trd>
+  <trd lng="ja">&#x59BB;</trd>
+  <trd lng="jw">bojo</trd>
+  <trd lng="ka">&#x10EA;&#x10DD;&#x10DA;&#x10D8;</trd>
+  <trd lng="km">&#x1794;&#x17D2;&#x179A;&#x1796;&#x1793;&#x17D2;&#x1792;</trd>
+  <trd lng="ko">&#xC544;&#xB0B4;</trd>
   <trd lng="ku">bim&ecirc;r</trd>
+  <trd lng="lo">&#xE9E;&#xEB1;&#xE99;&#xEA5;&#xEB0;&#xE8D;&#xEB2;&#xE82;&#xEAD;&#xE87;</trd>
+  <trd lng="ml">&#xD2D;&#xD3E;&#xD30;&#xD4D;&#xD2F;</trd>
+  <trd lng="mr">&#x92A;&#x924;&#x94D;&#x928;&#x940;</trd>
+  <trd lng="my">&#x1007;&#x1014;&#x102E;&#x1038;</trd>
+  <trd lng="ne">&#x92A;&#x924;&#x94D;&#x928;&#x940;</trd>
   <trdgrp lng="nl">
     <trd>echtgenote</trd>,
     <trd>vrouw<klr tip="ind"> (echtgenote)</klr></trd>
   </trdgrp>
+  <trd lng="ny">mkazi</trd>
+  <trd lng="pa">&#xA2A;&#xA24;&#xA28;&#xA40; &#xA28;&#xA42;&#xA70;</trd>
   <trdgrp lng="pl">
     <trd>&zdot;ona</trd>,
     <trd>ma&lstroke;&zdot;onka</trd>
   </trdgrp>
+  <trd lng="ps">&#x69A;&#x681;&#x647;</trd>
   <trdgrp lng="pt">
     <trd>mulher <klr tip="amb">(esposa)</klr></trd>,
     <trd>esposa</trd>,
@@ -160,14 +202,30 @@
     <trd>&c_zh;&c_je;&c_n;&c_a;</trd>,
     <trd>&c_s;&c_u;&c_p;&c_r;&c_u;&c_g;&c_a;</trd>
   </trdgrp>
+  <trd lng="sd">&#x632;&#x627;&#x644;</trd>
+  <trd lng="si">&#xDB6;&#xDD2;&#xDBB;&#xDD2;&#xDB3;</trd>
   <trd lng="sk">man&zcaron;elka</trd>
+  <trdgrp lng="sl">
+    <trd>&zcaron;ena</trd>,
+    <trd>soproga</trd>
+  </trdgrp>
+  <trd lng="sq">gruaja</trd>
+  <trd lng="st">mosali oa</trd>
+  <trd lng="ta">&#xBAE;&#xBA9;&#xBC8;&#xBB5;&#xBBF;</trd>
+  <trd lng="te">&#xC2D;&#xC3E;&#xC30;&#xC4D;&#xC2F;</trd>
+  <trd lng="th">&#xE20;&#xE23;&#xE23;&#xE22;&#xE32;</trd>
+  <trd lng="tl">asawa</trd>
   <trd lng="tp">meli</trd>
   <trdgrp lng="tr">
     <trd>kar&inodot;</trd>,
     <trd>e&scedil;</trd>,
     <trd>evli</trd>
   </trdgrp>
+  <trd lng="ur">&#x628;&#x6CC;&#x648;&#x6CC;</trd>
+  <trd lng="vi">v&#x1EE3;</trd>
   <trd lng="vo">jimatan</trd>
+  <trd lng="yi">&#x5E4;&#x5E8;&#x5D5;&#x5D9;</trd>
+  <trd lng="zu">umkakho</trd>
 </drv>
 
 <drv mrk="edz.0igi">
@@ -204,7 +262,7 @@
     <trd lng="de">heiraten</trd>
     <trd lng="hu">elvesz<klr tip="ind"> 
     (f&eacute;rj&uuml;l/feles&eacute;g&uuml;l)</klr></trd>
-    <trd lng="id">[<ind>nikah</ind>] menikahi</trd>
+    <trd lng="id">me<ind>nikah</ind>i</trd>
     <trd lng="tr">evlendirmek</trd>
   </snc>
   <snc mrk="edz.0igi.doni">
@@ -243,7 +301,7 @@
   </trdgrp>
   <trd lng="en">marry</trd>
   <trd lng="es">casar (a un hombre)</trd>
-  <trd lng="id">[<ind>nikah</ind>] menikahkan</trd>
+  <trd lng="id">me<ind>nikah</ind>kan</trd>
   <trd lng="nl">uithuwelijken</trd>
   <trdgrp lng="pl"> 
     <trd>&zdot;eni&cacute;</trd>,
@@ -329,7 +387,7 @@
         <fnt><bib>MT</bib>, <lok>&Jer; 29:6</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>igu filon, kiam vi volas &#8208; <tld/>inigu filinon, kiam vi
+        <tld/>igu filon, kiam vi volas &#x2010; <tld/>inigu filinon, kiam vi
         povas
         <fnt>
           <bib>PrV</bib>
@@ -418,15 +476,14 @@
 
 <drv mrk="edz.0igxi">
   <kap><ofc>*</ofc><tld/>i&gcirc;i <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5012">edz'i&gcirc;'i</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5012">edz'i&gcirc;'i</url></lok></fnt></kap>
   <uzo tip="klr">(kun, al)</uzo>
   <snc mrk="edz.0igxi.vira">
     <dif>
       I&gcirc;i <tld/>o:
       <ekz>
-        la re&gcirc;ido <klr>[&#8230;]</klr> forkondukis &scirc;in
-        al la palaco de sia patro <klr>[&#8230;]</klr>, kie li 
+        la re&gcirc;ido <klr>[&#x2026;]</klr> forkondukis &scirc;in
+        al la palaco de sia patro <klr>[&#x2026;]</klr>, kie li 
         <tld/>i&gcirc;is je &scirc;i
         <fnt><bib>F</bib>, <lok>&FE; 23</lok></fnt>.
       </ekz>
@@ -463,16 +520,14 @@
         en 1529 &scirc;i <tld/>i&gcirc;is al <nom>Edward Borough</nom>
         <fnt>
           <vrk>Catherine Parr</vrk>
-          <lok><url
-          ref="http://eo.wikipedia.org/wiki/Catherine_Parr">Vikipedio</url></lok>
+          <lok><url ref="http://eo.wikipedia.org/wiki/Catherine_Parr">Vikipedio</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         unue &scirc;i <tld/>i&gcirc;is al <nom>Harald Grenske</nom>
         <fnt>
           <vrk>Asta Gudbrandsdatter</vrk>
-          <lok><url
-          ref="http://eo.wikipedia.org/wiki/Asta_Gudbrandsdatter">Vikipedio</url></lok>
+          <lok><url ref="http://eo.wikipedia.org/wiki/Asta_Gudbrandsdatter">Vikipedio</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -481,6 +536,7 @@
     <trd>&c_a;&c_zh;&c_a;&c_n;&c_ib;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_b;&c_r;&c_a;&c_c;&c_c;&c_a; <klr>(&c_z; &c_k;&c_ib;&c_m;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
   </trdgrp>
+  <trd lng="bo">&#xF46;&#xF44;&#xF0B;&#xF66;&#xF0B;&#xF62;&#xF92;&#xFB1;&#xF42;&#xF0B;</trd>
   <trd lng="de">heiraten</trd>
   <trd lng="en">get married</trd>
   <trd lng="es">casarse</trd>
@@ -488,6 +544,7 @@
     <trd>&eacute;pouser</trd>,
     <trd>se <ind>marier</ind></trd>
   </trdgrp>
+  <trd lng="he">&lamed;&he;&tav;&het;&tav;&fnun;</trd>
   <trdgrp lng="hu">
     <trd>hozz&aacute;megy<klr tip="ind"> 
     (f&eacute;rj&uuml;l/n&odblac;&uuml;l)</klr></trd>,
@@ -495,7 +552,7 @@
     <trd>f&eacute;rjhez megy</trd>,
     <trd>megh&aacute;zasodik</trd>,
   </trdgrp>
-  <trd lng="id">[<ind>nikah</ind>] menikah</trd>
+  <trd lng="id">me<ind>nikah</ind></trd>
   <trdgrp lng="nl">
     <trd>huwen</trd>,
     <trd>trouwen</trd>
@@ -545,6 +602,7 @@
     <trd>&eacute;pouser</trd>,
     <trd>se <ind>marier</ind></trd>
   </trdgrp>
+  <trd lng="he">&lamed;&he;&tav;&het;&tav;&fnun;</trd>
   <trdgrp lng="hu">
     <trd>hozz&aacute;megy<klr tip="ind"> 
     (f&eacute;rj&uuml;l/n&odblac;&uuml;l)</klr></trd>,
@@ -552,7 +610,7 @@
     <trd>f&eacute;rjhez megy</trd>,
     <trd>megh&aacute;zasodik</trd>,
   </trdgrp>
-  <trd lng="id">[<ind>nikah</ind>] menikah</trd>
+  <trd lng="id">me<ind>nikah</ind></trd>
   <trdgrp lng="nl">
     <trd>huwen</trd>,
     <trd>trouwen</trd>
@@ -607,7 +665,7 @@
         <trd lng="fr">noce</trd>
         <trd lng="es">fiesta de bodas</trd>
         <trd lng="hu">h&aacute;zasod&aacute;s</trd>
-        <trd lng="id">[<ind>nikah</ind>] pernikahan</trd>
+        <trd lng="id">per<ind>nikah</ind>an</trd>
         <trd lng="nl">huwelijksfeest</trd>
         <trd lng="pl">wesele</trd>
         <trd lng="ru">&c_s;&c_v;&c_a;&c_d;&c_mol;&c_b;&c_a;</trd>
@@ -624,7 +682,7 @@
     </dif>
     <ref tip="sin" cel="matrim.0o.edzigxo">matrimonio</ref>
     <trd lng="en">Holy Matrimony</trd>
-    <trd lng="id">[<ind>nikah</ind>] Pernikahan Kudus</trd>
+    <trd lng="id">Per<ind>nikah</ind>an Kudus</trd>
   </snc>
   <trdgrp lng="de">
     <trd>Heirat</trd>,
@@ -635,6 +693,7 @@
     <trd>mariage</trd>,
     <trd>noces<klr tip="ind"> (mariage)</klr></trd>
   </trdgrp>
+  <trd lng="he">&het;&#x5B2;&tav;&vav;&#x5BC;&nun;&#x5B8;&he;</trd>
   <trd lng="hu">h&aacute;zass&aacute;g<klr tip="ind"> 
   (szents&eacute;g)</klr></trd>
   <trd lng="nl">huwelijk</trd>
@@ -652,8 +711,7 @@
 
 <drv mrk="edz.0eco">
   <kap><ofc>*</ofc><tld/>eco<fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5013">edz'ec'i</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5013">edz'ec'i</url></lok></fnt></kap>
   <snc mrk="edz.0eco.stato">
     <dif>
       Stato de ge<tld/>oj:
@@ -680,7 +738,7 @@
       <ekz>
         la formo lin senprudentigis, li rigardis la &scirc;elon kaj ne la
         kernon, kaj tio
-        estas <klr>[&#8230;]</klr> granda malfeli&ccirc;o en la <tld/>eco
+        estas <klr>[&#x2026;]</klr> granda malfeli&ccirc;o en la <tld/>eco
         <fnt>
           <bib>Fab4</bib>
           <lok>&leftquot;Bela&rightquot;</lok>
@@ -697,6 +755,7 @@
     <trd>mariage<klr> (&eacute;tat))</klr></trd>,
     <trd>union<klr> (conjugale)</klr></trd>
   </trdgrp>
+  <trd lng="he">&nun;&yod;&shin;&vav;&alef;&yod;&fmem;</trd>
   <trd lng="hu">h&aacute;zass&aacute;g<klr tip="ind"> 
   (&aacute;llapot)</klr></trd>
   <trd lng="pl">ma&lstroke;&zdot;e&nacute;stwo</trd>
@@ -736,6 +795,7 @@
   <trd lng="en">marital</trd>
   <trd lng="es">matrimonial</trd>
   <trd lng="fr">conjugal</trd>
+  <trd lng="he">&nun;&#x5B8;&shin;&#x5C2;&vav;&#x5BC;&yod;</trd>
   <trd lng="hu">h&aacute;zass&aacute;gi</trd>
   <trd lng="nl">huwelijks-</trd>
   <trdgrp lng="pl">
@@ -777,8 +837,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/007013.html">A&ubreve;strio:
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007013.html">A&ubreve;strio:
           Ekspozicio de famaj artistoj</url></vrk>
         </fnt>;
       </ekz>
@@ -787,8 +846,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato2/007192.html">Edzi&gcirc;oj
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007192.html">Edzi&gcirc;oj
           anka&ubreve; por samseksaj paroj</url></vrk>
         </fnt>.
       </ekz>
@@ -820,8 +878,7 @@
         kiel perdo de ge<tld/>o pro morto
         <fnt>
           <vrk>Aflikto</vrk>
-          <lok><url
-          ref="http://eo.wikipedia.org/wiki/Aflikto">Vikipedio</url></lok>
+          <lok><url ref="http://eo.wikipedia.org/wiki/Aflikto">Vikipedio</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -844,7 +901,7 @@
   </trdgrp>
   <trd lng="hu">h&aacute;zast&aacute;rs</trd>
   <trd lng="io">spozo</trd>
-  <trd lng="ko">&#48176;&#50864;&#51088;</trd>
+  <trd lng="ko">&#xBC30;&#xC6B0;&#xC790;</trd>
   <trdgrp lng="nl">
     <trd>huwelijkspartner</trd>,
     <trd>echtgenoot</trd>
@@ -876,14 +933,13 @@
         1105 paroj ge<tld/>i&gcirc;is sub &scirc;ia svatado
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="http://steloj.de/esperanto/monato1/monato-9309-noticoj.txt">Esperanto
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9309-noticoj.txt">Esperanto
           sen peno</url></vrk>
           <lok>93/09</lok>
         </fnt>;
       </ekz>
       <ekz>
-        ne gravas kiom malproksimaj ili estas, <klr>[&#8230;]</klr> fine 
+        ne gravas kiom malproksimaj ili estas, <klr>[&#x2026;]</klr> fine 
         ili havas la &scirc;ancon ge<tld/>i&gcirc;i
         <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 57a, p. 270a
         </lok></fnt>.
@@ -899,7 +955,7 @@
   </trdgrp>
   <trd lng="fr">se <ind>marier</ind></trd>
   <trd lng="hu">&ouml;sszeh&aacute;zasodik</trd>
-  <trd lng="id">[<ind>nikah</ind>] menikah</trd>
+  <trd lng="id">me<ind>nikah</ind></trd>
   <trd lng="nl">huwen</trd>
   <trdgrp lng="pl">
     <trd>pobiera&cacute; si&eogonek;</trd>,
@@ -937,7 +993,7 @@
   <trd lng="es">divorciarse</trd>
   <trd lng="fr">divorcer</trd>
   <trd lng="hu">elv&aacute;lik<klr tip="ind"> (h&aacute;zast&aacute;rst&oacute;l)</klr></trd>
-  <trd lng="id">[<ind>cerai</ind>] bercerai</trd>
+  <trd lng="id">ber<ind>cerai</ind></trd>
   <trd lng="nl">scheiden<klr tip="ind"> (huwelijk)</klr></trd>
   <trdgrp lng="pl">
     <trd>rozwodzi&cacute; si&eogonek;</trd>,
@@ -974,8 +1030,14 @@
   <snc mrk="edz.krom0ino.GEN">
     <uzo tip="fak">GEN</uzo>
     <dif>
-      En poliginia moro &ccirc;iu plia <tld/>ino, kun malpli alta oficiala
-      rango ol la unua <tld/>ino:
+      Plia edzino apud la regula unua:
+      <ekz>
+        mian <tld/>edzinon ili turmentis tiel, ke &scirc;i mortis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 20:5</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &ccirc;iu ja scias, ke mi estas naskita de krom<tld/>ino
         <fnt><bib>RugxDom</bib>, 
@@ -987,11 +1049,13 @@
   <trd lng="de">Nebenfrau</trd>
   <trd lng="es">esposa secundaria</trd>
   <trd lng="fr">concubine<klr> (polygamie)</klr></trd>
+  <trd lng="he">&pe;&#x5BC;&#x5B4;&yod;&lamed;&#x5B6;&gimel;&#x5B6;&shin;&#x5C1;</trd>
   <trdgrp lng="id">
     <trd>gundik</trd>,
     <trd>selir</trd>
   </trdgrp>
   <trd lng="pl">druga <ind>&zdot;ona</ind></trd>
+  <trd lng="ro">so&#x21B;ia  <klr>(poligamia)</klr></trd>
   <trd lng="ru">&c_m;&c_l;&c_a;&c_d;&c_sh;&c_a;&c_ja; &c_zh;&c_je;&c_n;&c_a;</trd>
   <trd lng="sk">v polygamnom syst&eacute;me druh&aacute; man&zcaron;elka</trd>
 </drv>
@@ -1002,7 +1066,7 @@
     <dif>
       &Jcirc;us <tld/>i&gcirc;inta viro:
       <ekz>
-        la gepatroj de la nov<tld/>o <klr>...</klr> devas 
+        la gepatroj de la nov<tld/>o <klr>[&#x2026;]</klr> devas 
         alporti ora&jcirc;ojn kaj vesta&jcirc;ojn por sia bofilino
         <fnt>
           <aut>Saeed</aut>,
@@ -1015,6 +1079,7 @@
   <trd lng="cs">novoman&zcaron;el</trd>
   <trd lng="de">Br&auml;utigam</trd>
   <trd lng="es">reci&eacute;n casado</trd>
+  <trd lng="he">&het;&#x5B8;&tav;&#x5B8;&fnun;</trd>
   <trd lng="id"><ind>pengantin</ind> baru</trd>
   <trdgrp lng="pl">
     <trd>pan m&lstroke;ody</trd>,
@@ -1049,6 +1114,7 @@
   <trd lng="cs">novoman&zcaron;elka</trd>
   <trd lng="de">Braut</trd>
   <trd lng="es">reci&eacute;n casada</trd>
+  <trd lng="he">&kaf;&#x5BC;&#x5B7;&lamed;&#x5B8;&he;</trd>
   <trd lng="id"><ind>pengantin</ind> baru</trd>
   <trd lng="pl">panna m&lstroke;oda</trd>
   <trdgrp lng="ru">
@@ -1080,6 +1146,8 @@
   <trd lng="cs">novoman&zcaron;el&eacute;</trd>
   <trd lng="de">Neuverm&auml;hlte</trd>
   <trd lng="es">reci&eacute;n casados</trd>
+  <trd lng="he">&shin;&#x5C1;&#x5B6;&zayin;&#x5B6;&he; &ayin;&#x5B7;&tav;&#x5B8;&he;
+  &nun;&#x5B4;&shin;&#x5C2;&alef;&vav;&#x5BC;</trd>
   <trd lng="id"><ind>pengantin</ind> baru</trd>
   <trdgrp lng="pl">
     <trd>pa&nacute;stwo m&lstroke;odzi</trd>,
@@ -1103,8 +1171,7 @@
         subtenas plur<tld/>econ        
         <fnt>
           <aut>Jonatan</aut>,
-          <vrk><url
-          ref="http://groups.yahoo.com/group/esperanto-l/message/73317">
+          <vrk><url ref="http://groups.yahoo.com/group/esperanto-l/message/73317">
           Viaj infanoj estas niaj</url></vrk>,
           <lok>2008-04-19</lok>
         </fnt>.
@@ -1165,8 +1232,7 @@
         plurge<tld/>econ de konvertitoj en esceptaj okazoj
         <fnt>
           <aut>M. Rauhamaa</aut>,
-          <vrk><url
-          ref="http://groups.yahoo.com/group/esperanto-l/message/60972">
+          <vrk><url ref="http://groups.yahoo.com/group/esperanto-l/message/60972">
           Hipokritado</url></vrk>,
           <lok>2006-02-12</lok>
         </fnt>.
@@ -1216,9 +1282,8 @@
       <ekz>
         la sen<tld/>eco de kristanaj pastroj
         <fnt>
-          <vrk><url
-          ref="https://neciklopedio.org/wiki/Aleister_Crowley">Aleister
-          Crowley &#8208; Neciklopedio</url></vrk>
+          <vrk><url ref="https://neciklopedio.org/wiki/Aleister_Crowley">Aleister
+          Crowley &#x2010; Neciklopedio</url></vrk>
         </fnt>.
       </ekz>
     </dif>    
@@ -1226,6 +1291,7 @@
   <trd lng="be">&c_b;&c_ja;&c_s;&c_sh;&c_l;&c_ju;&c_b;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="de">Ledigkeit</trd>
   <trd lng="fr">c&eacute;libat</trd>
+  <trd lng="he">&resh;&vav;&vav;&qof;&vav;&tav;</trd>
   <trd lng="id">selibat</trd>
   <trd lng="nl">celibaat</trd>
   <trdgrp lng="pl">
@@ -1238,7 +1304,19 @@
 </drv>
 </art>
 <!--
-$Log: edz.xml,v $
+$Log$
+versio 1.64 2021/05/24 14:03:35
+Wolfram Diestel: krom~ino: kunigo kun duobla el krom/
+
+versio 1.63 2021/05/08 20:49:48
+Guillermo Molleda Jimena: +trd es
+
+versio 1.61 2020/05/01 10:10:34
+Eko Nur Syah Hidayat: korekteto
+
+versio 1.60 2020/04/13 18:10:57
+Peter Garami: aldono de slovenaj tradokajhoj
+
 Revision 1.59  2020/01/29 11:10:14  revo
 Robin van der Vliet: rim, dif, trd
 
@@ -1249,17 +1327,5 @@ Revision 1.57  2019/06/20 10:10:14  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.56  2017/12/19 15:10:21  revo
-Michel Cantigneaux: + "edz/igx/i" &amp; "edz/ec/o" fundamentaj kunmetajxoj
-el la U.V.
-
-Revision 1.55  2017/11/30 21:10:36  revo
-Robin van der Vliet: +fnt de C. Rossetti
-
-Revision 1.54  2017/07/07 22:10:16  revo
-Robin van der Vliet: +trd, ligoj al alia artikolo
-
-Revision 1.53  2017/05/04 14:10:15  revo
-Robin van der Vliet: +ekz
-
 -->
 </vortaro>

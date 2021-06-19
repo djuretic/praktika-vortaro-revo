@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pufen.xml,v 1.4 2020/03/09 19:10:18 revo Exp $">
+<art mrk="$Id: pufen.xml,v 1.6 2021/04/11 18:10:36 revo Exp $">
 <kap>
   <rad>pufen</rad>/o,
-  <var><kap><rad>pufin</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
+  <var><kap><rad var="i">pufin</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
 </kap>
 <drv mrk="pufen.0o">
-  <kap><tld/>o, <var><kap>pufino</kap></var></kap>
+  <kap><tld/>o, <var><kap><tld var="i"/>o</kap></var></kap>
   <snc mrk="pufen.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Mara, migrema <ref tip="super" cel="bird.0o.ZOO">birdo</ref> kun
+      Mara, migrema <ref tip="lst" lst="voko:birdoj" cel="bird.0o.ZOO">birdo</ref> kun
       longaj flugiloj
       vivanta precipe en mezvarmaj a&ubreve; malvarmaj regionoj;
       <ref tip="lst" lst="voko:zoologiaj_genroj"
@@ -33,7 +33,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la griza kaj la fajnbeka pufinoj faras migradojn de 14&#8239;000&#8239;km 
+        la griza kaj la fajnbeka <tld var="i"/>oj faras migradojn de 14&#8239;000&#8239;km 
         a&ubreve; plie &ccirc;iujare
         <fnt>
           <bib>Viki</bib>,
@@ -66,7 +66,13 @@
 </art>
 
 <!--
-$Log: pufen.xml,v $
+$Log$
+versio 1.6 2021/04/11 18:10:36
+Wolfram Diestel: lst birdoj
+
+versio 1.5 2020/09/07 20:10:36
+Wolfram Diestel: +tld-var
+
 Revision 1.4  2020/03/09 19:10:18  revo
 Wolfram Diestel: -rad en drv/kap
 
@@ -78,6 +84,5 @@ Wolfram Diestel: +bld, germ trd
 
 Revision 1.1  2015/08/14 20:10:15  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

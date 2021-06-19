@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: glas.xml,v 1.30 2015/06/29 16:29:39 revo Exp $">
+<art mrk="$Id: glas.xml,v 1.35 2021/05/28 17:05:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>glas</rad>/o
@@ -14,10 +13,9 @@
     <dif>
       <ref tip="super" cel="trink.0ujo">Trinkujo</ref>,
       precipe por malvarmaj trinka&jcirc;oj, ordinare
-      pli alta ol lar&gcirc;a, ofte el <ref tip="prt"
-      cel="vitr.0o">vitro</ref>,
+      pli alta ol lar&gcirc;a, ofte el <ref tip="prt" cel="vitr.0o">vitro</ref>,
       sed anka&ubreve; el aliaj materialoj, foje kun tenilo:
-      <ekz mrk="glas.vin0o">
+      <ekz mrk="glas.0o.ujo_vin0o">
         <ind>vin<tld/>o</ind> <klr>(el vitro kun tigo kaj piedo)</klr>;
         <trd lng="ca">copa</trd>
         <trd lng="de">Weinglas</trd>
@@ -26,7 +24,7 @@
         <trd lng="id"><ind>gelas</ind> anggur</trd>
         <trd lng="pl">kieliszek <klr>do wina</klr></trd>
       </ekz>
-      <ekz mrk="glas.0eto">
+      <ekz mrk="glas.0o.ujo_0eto">
         <ind><tld/>eto</ind> <klr>(malgranda, cilindra por
         brando)</klr>;
         <trdgrp lng="ca">
@@ -47,10 +45,10 @@
           <trd>literatka</trd>
         </trdgrp>
       </ekz>
-      <ekz mrk="glas.bier0ego">
+      <ekz mrk="glas.0o.ujo_bier0ego">
         <ind>bier<tld/>ego</ind> <klr>(el vitro, metalo a&ubreve; fajenco,
-        kun anso kaj foje kun &scirc;arnira kovrilo, enhavanta
-        500 ml kaj pli)</klr>;
+        kun anso kaj foje kun &ccirc;arnira kovrilo, enhavanta
+        500&#x202F;ml kaj pli)</klr>;
         <trd lng="ca">boc</trd>
         <trd lng="de">Bierkrug</trd>
         <trdgrp lng="fr">
@@ -84,35 +82,42 @@
         <fnt><bib>Fab2</bib>, <lok>Monteto de elfoj</lok></fnt>;
       </ekz>
       <ekz>kiu rompis la <tld/>on ordigu la kason
-        <fnt><bib>PrV</bib></fnt></ekz>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
       <ekz>li esploris iom la fundon de la <tld/>o
         <klr>(estas ebrieta)</klr>
-        <fnt><bib>PrV</bib></fnt></ekz>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        kio okazis post la telera, <tld/>a kaj turkakafa milito
+        <fnt>
+          <bib>Gerda</bib>
+        </fnt>?
+      </ekz>
     </dif>
   </snc>
   <snc mrk="glas.0o.enhavo">
     <dif>
-      La enhavo de tia trinkujo:
+      La <ref tip="lst" lst="voko:mezurunuoj" cel="hav.en0o">enhavo</ref> de tia trinkujo:
       <ekz>
         mi trinkis ja nur unu solan <tld/>on da pun&ccirc;o
         <fnt><bib>Fab1</bib>, <lok>Galo&scirc;oj de feli&ccirc;o</lok></fnt>;
       </ekz>
       <ekz>
         oni trinkis kelke da <tld/>oj, ne tiom multe por tro eksciti al
-        iu la
-        kapon,
-        tamen sufi&ccirc;e por meti en movi&gcirc;adon la babileman
+        iu la kapon, tamen sufi&ccirc;e por meti en movi&gcirc;adon la babileman
         bu&scirc;on
         <fnt><bib>Fab4</bib>, <lok>Historio el la dunoj</lok></fnt>;
       </ekz>
       <ekz>
-        ni trinku <tld/>on pro la memoro pri Bartel Thorwaldsen
+        ni trinku <tld/>on pro la memoro pri <nom>Bartel Thorwaldsen</nom>
         <fnt><bib>Fab2</bib>, <lok>Dano Holger</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_k;&c_l;&c_ja;&c_n;&c_k;&c_a;</trd>
   <trd lng="bg">&c_ch;&c_a;&c_sh;&c_a;</trd>
+  <trd lng="bo">&#xF64;&#xF7A;&#xF63;&#xF0B;&#xF55;&#xF7C;&#xF62;&#xF0B;</trd>
   <trd lng="ca">got</trd>
   <trd lng="cs">sklenice</trd>
   <trdgrp lng="de">
@@ -124,6 +129,7 @@
   <trd lng="fr">verre<klr tip="ind"> (contenant, contenu)</klr></trd>
   <trd lng="hu">poh&aacute;r</trd>
   <trd lng="id">gelas</trd>
+  <trd lng="ne">&#x918;&#x93E;&#x901;&#x938;</trd>
   <trdgrp lng="nl">
     <trd>glas</trd>,
     <trd>beker</trd>
@@ -134,15 +140,21 @@
   </trdgrp>
   <trd lng="pt">copo</trd>
   <trd lng="ru">&c_s;&c_t;&c_a;&c_k;&c_a;&c_n;</trd>
-  <trd lng="sk">pohár</trd>
+  <trd lng="sk">poh&aacute;r</trd>
   <trd lng="sv">glas</trd>
   <trd lng="tr">bardak</trd>
 </drv>
 </art>
 <!--
-$Log: glas.xml,v $
-Revision 1.30  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
+$Log$
+versio 1.33 2021/04/20 18:08:59
+Wolfram Diestel: +ekz
+
+versio 1.32 2021/04/10 20:48:59
+Wolfram Diestel: kor. cxarniro
+
+versio 1.31 2021/04/10 15:56:53
+Wolfram Diestel: ekz-mrk havu saman prefikson kiel drv
 
 Revision 1.29  2014/06/26 14:10:26  revo
 Eko Nur Syah Hidayat: +id
@@ -157,14 +169,5 @@ Revision 1.26  2012/08/18 20:10:45  revo
 Marc Rausell: + trd ca
 
 Revision 1.25  2012/05/06 17:10:17  revo
-Bart Demeyere: +mrkoj
-
-Revision 1.24  2010/06/10 16:30:25  revo
-Agustin Garcia Lopez: +klr es
-
-Revision 1.23  2007/12/13 17:30:22  revo
-Wieland Pusch: +trd bg
-
-Revision 1.22  2005/08/20 16:31:43  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: pasx.xml,v 1.28 2019/04/12 11:10:20 revo Exp $">
+<art mrk="$Id: pasx.xml,v 1.73 2021/06/19 06:38:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pa&scirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -56,7 +55,7 @@
     <trd>l&eacute;pked</trd>,
     <trd>j&aacute;r</trd>
   </trdgrp>
-  <trd lng="id">[<ind>langkah</ind>] melangkah</trd>
+  <trd lng="id">me<ind>langkah</ind></trd>
   <trdgrp lng="nl">
     <trd>stappen</trd>,
     <trd>lopen</trd>
@@ -160,16 +159,60 @@
     <trd lng="pl">skok<klr tip="ind"> (linii &sacute;rubowej)</klr></trd>
     <trd lng="ru">&c_sh;&c_a;&c_g;</trd>
   </snc>
+  <trd lng="af">stap</trd>
+  <trd lng="am">&#x12F0;&#x1228;&#x1303;</trd>
+  <trd lng="ar">&#x62E;&#x637;&#x648;&#x629;</trd>
+  <trd lng="az">add&#x131;m</trd>
   <trd lng="be">&c_k;&c_r;&c_o;&c_k;</trd>
+  <trd lng="bn">&#x9AA;&#x9A6;&#x995;&#x9CD;&#x9B7;&#x9C7;&#x9AA;</trd>
+  <trd lng="bo">&#xF42;&#xF7C;&#xF58;&#xF0B;&#xF54;&#xF0B;</trd>
+  <trd lng="bs">korak</trd>
+  <trd lng="co">passu</trd>
   <trd lng="cs">krok</trd>
+  <trd lng="da">trin</trd>
   <trd lng="de">Schritt</trd>
+  <trd lng="et">samm</trd>
+  <trd lng="eu">urrats</trd>
   <trd lng="fr">pas<klr> (fait en marchant)</klr></trd>
+  <trd lng="fy">stap</trd>
+  <trd lng="gl">paso</trd>
+  <trd lng="gu">&#xAAA;&#xA97;&#xAB2;&#xAC1;&#xA82;</trd>
+  <trd lng="ha">matakin</trd>
+  <trd lng="hi">&#x915;&#x926;&#x92E;</trd>
+  <trd lng="hr">korak</trd>
+  <trd lng="hy">&#x584;&#x561;&#x575;&#x56C;</trd>
   <trd lng="id">langkah</trd>
+  <trd lng="is">skref</trd>
+  <trd lng="ja">&#x30B9;&#x30C6;&#x30C3;&#x30D7;</trd>
+  <trd lng="jw">langkah</trd>
+  <trd lng="ka">&#x10DC;&#x10D0;&#x10D1;&#x10D8;&#x10EF;&#x10D8;</trd>
+  <trd lng="km">&#x1787;&#x17C6;&#x17A0;&#x17B6;&#x1793;</trd>
+  <trd lng="ko">&#xB2E8;&#xACC4;</trd>
+  <trd lng="lo">&#xE82;&#xEB1;&#xEC9;&#xE99;&#xE95;&#xEAD;&#xE99;</trd>
+  <trd lng="ml">&#xD1A;&#xD41;&#xD35;&#xD1F;&#xD4D;</trd>
+  <trd lng="mr">&#x92A;&#x93E;&#x90A;&#x932;</trd>
+  <trd lng="my">&#x101C;&#x103E;&#x1019;&#x103A;&#x1038;</trd>
+  <trd lng="ne">&#x915;&#x926;&#x92E;</trd>
   <trdgrp lng="nl">
     <trd>pas</trd>,
     <trd>stap</trd>
   </trdgrp>
+  <trd lng="ny">sitepe</trd>
+  <trd lng="pa">&#xA15;&#xA26;&#xA2E; &#xA39;&#xA48;</trd>
+  <trd lng="ps">&#x6AB;&#x627;&#x645;</trd>
   <trd lng="ru">&c_sh;&c_a;&c_g;</trd>
+  <trd lng="sd">&#x642;&#x62F;&#x645;</trd>
+  <trd lng="si">&#xDB4;&#xDD2;&#xDBA;&#xDC0;&#xDBB;</trd>
+  <trd lng="sq">hapi</trd>
+  <trd lng="st">mohato</trd>
+  <trd lng="ta">&#xBAA;&#xB9F;&#xBBF;</trd>
+  <trd lng="te">&#xC05;&#xC21;&#xC41;&#xC17;&#xC41;</trd>
+  <trd lng="th">&#xE02;&#xE31;&#xE49;&#xE19;&#xE15;&#xE2D;&#xE19;&#xE17;&#xE35;&#xE48;</trd>
+  <trd lng="tl">hakbang</trd>
+  <trd lng="ur">&#x642;&#x62F;&#x645;</trd>
+  <trd lng="vi">b&#x1B0;&#x1EDB;c</trd>
+  <trd lng="yi">&#x5D8;&#x5E8;&#x5E2;&#x5D8;&#x5DF;</trd>
+  <trd lng="zu">isinyathelo</trd>
 </drv>
 
 <drv mrk="pasx.0ado">
@@ -330,14 +373,13 @@
         lavango, falado pro mis<tld/>o
         <fnt>
           <aut>Zuo Yan</aut>,
-          <vrk><url
-          ref="http://investchina.org.cn/world/shi-living/sporto/56.htm">
+          <vrk><url ref="http://investchina.org.cn/world/shi-living/sporto/56.htm">
           Alpismo &ndash; mia kariero</url></vrk>,
           <lok>[2006]</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="id">[<ind>peleset</ind>] terpeleset</trd>
+    <trd lng="id">ter<ind>peleset</ind></trd>
   </snc>
   <snc mrk="pasx.mis0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -348,8 +390,7 @@
         pri tio kaj korekti la mis<tld/>ojn
         <fnt>
           <aut>V. Markov</aut>,
-          <vrk><url
-          ref="http://www.satesperanto.org/Kio-estas-respekto.html">
+          <vrk><url ref="http://www.satesperanto.org/Kio-estas-respekto.html">
           Kio estas respekto?</url></vrk>,
           <lok>La Juna Penso, 2001-07</lok>
         </fnt>.
@@ -472,28 +513,9 @@
 </drv>
 </art>
 <!--
-$Log: pasx.xml,v $
-Revision 1.28  2019/04/12 11:10:20  revo
-Santiago Amposta: +trd es
+$Log$
+versio 1.29 2020/05/03 07:10:24
+Eko Nur Syah Hidayat: korekteto
 
-Revision 1.27  2018/01/02 20:10:15  revo
-Jeromo Vasxe: memstar ~ post ~
-
-Revision 1.26  2014/07/06 16:10:33  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.25  2013/10/20 15:10:14  revo
-Benito Subejrano: + trd ca oc
-
-Revision 1.24  2010/09/05 16:30:30  revo
-Mireille Corobu: korekto
-
-Revision 1.23  2010/09/02 16:30:29  revo
-Mireille Corobu: + ekz-oj kaj trd fr al transpasxi
-
-Revision 1.22  2010/06/20 16:30:22  revo
-Jeromo Vasxe: + mis~o + kk trd fr
-
-Revision 1.21  2008/06/05 16:30:27  revo
 -->
 </vortaro>

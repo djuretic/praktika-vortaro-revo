@@ -2,26 +2,60 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: babel.xml,v 1.31 2016/11/08 20:10:16 revo Exp $">
+<art mrk="$Id: babel.xml,v 1.33 2021/03/12 21:49:11 revo Exp $">
 <kap>
-  <rad>Babel</rad>/o <fnt>Z</fnt> <fnt><bib>PIV1</bib></fnt>
+  <rad>Babel</rad>/o <fnt><bib>ZR</bib></fnt>
 </kap>
 
 <drv mrk="babel.B0o">
-  <kap><tld/>o <fnt><bib>ZR</bib></fnt></kap>
+  <kap><tld/>o</kap>
   <snc mrk="babel.B0o.BIB">
     <uzo tip="fak">BIB</uzo>
     <dif>
-      En la Hebrea Biblio, la urbego en <ctl>lando &Scirc;inar</ctl>,
-      identigata kun
-      <ref tip="sin" cel="babilon.B0o">Babilono</ref>:
+      En la Hebrea Biblio, la urbego en &leftquot;lando <nom>&Scirc;inar</nom>&rightquot;,
+      identigata kun <ref tip="sin" cel="babilon.B0o">Babilono</ref>:
       <ekz>
-        kaj la komenco de lia regno estis <tld/> kaj Ere&hcirc; kaj Akad
-        kaj Kalne en la lando &Scirc;inar
-        <fnt><bib>MT</bib>, <lok>&amp;Gen ;10:10.</lok></fnt>.
+        la re&gcirc;oj de Ninivo kaj <tld/>o
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi volas konstrui rondan turon, kun eksteraj &scirc;tuparoj, tian,
+        kia estas en <tld/>o
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu popolo faris anka&ubreve; siajn diojn, kaj starigis ilin en la domoj de la alta&jcirc;oj
+        <klr>[&#8230;]</klr> la <tld/>anoj faris <nom>Sukot-Benot</nom>on <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 17:30</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la grafino parolis rapide kaj plurajn lingvojn &ndash; jen ruse <klr>[&#8230;]</klr> &ndash; jen
+        france <klr>[&#8230;]</klr> &ndash; jen angle <klr>[&#8230;]</klr>, &ccirc;ar krom tio la grafo
+        parolis germane kun mi, fari&gcirc;is iaspeca malgranda <tld lit="b"/>a konfuzo
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <ref tip="vid" cel="tur.Babel0o"><tld/>turo</ref>
+  <rim>
+      En <fnt><bib>MT</bib></fnt> la nomo aperas sen fina&jcirc;o:
+      <ekz>
+        kaj la komenco de lia regno estis <tld/> kaj <nom>Ere&hcirc;</nom> kaj <nom>Akad</nom>
+        kaj <nom>Kalne</nom> en la lando <nom>&Scirc;inar</nom>
+        <fnt><bib>MT</bib>, <lok>&amp;Gen ;10:10.</lok></fnt>.
+      </ekz>
+  </rim>
   <trd lng="be">&c_B;&c_a;&c_b;&c_ib;&c_l;&c_jo;&c_n;</trd>
   <trd lng="bg">&c_V;&c_a;&c_v;&c_i;&c_l;&c_o;&c_n;</trd>
   <trd lng="ca">Babel</trd>
@@ -51,49 +85,15 @@
   </trdgrp>
 </drv>
 
-<drv mrk="babel.0turo">
-  <kap><tld/>turo</kap>
-  <snc mrk="babel.0turo.FRAZ">
-    <uzo tip="fak">BIB</uzo>
-    <uzo tip="stl">FRAZ</uzo>
-    <uzo tip="fak">ESP</uzo>
-    <dif>
-      Simbolo de la lingva &hcirc;aoso, aludo al mito el la Hebrea Biblio.
-    </dif>
-    <trd lng="be">&c_B;&c_a;&c_b;&c_ib;&c_l;&c_jo;&c_n;&c_s;&c_k;&c_a;&c_ja; &c_v;&c_je;&c_zh;&c_a;</trd>
-    <trd lng="bg">&c_V;&c_a;&c_v;&c_i;&c_l;&c_o;&c_n;&c_s;&c_k;&c_a; &c_k;&c_u;&c_l;&c_a;</trd>
-    <trd lng="ca">torre de Babel</trd>
-    <trdgrp lng="de">
-      <trd>Turm von <ind>Babel</ind></trd>,
-      <trd>Turm zu <ind>Babel</ind></trd>
-    </trdgrp>
-    <trd lng="en">Tower of Babel</trd>
-    <trd lng="es">Torre de Babel</trd>
-    <trd lng="fa">&a_b;&a_r;&a_j; &a_b;&a_A;&a_b;&a_kasra;&a_l;</trd>
-    <trd lng="fr">tour de Babel</trd>
-    <trd lng="he">&mem;&gimel;&dalet;&lamed; &bet;&bet;&lamed;</trd>
-    <trdgrp lng="hu">
-      <trd>B&aacute;bel tornya</trd>,
-      <trd>b&aacute;beli torony</trd>
-    </trdgrp>
-    <trd lng="id">Menara Babel</trd>
-    <trd lng="it">Torre di <ind>Babele</ind></trd>
-    <trd lng="nl">toren van Babel</trd>
-    <trd lng="pl">wie&zdot;a Babel</trd>
-    <trd lng="ru">&c_V;&c_a;&c_v;&c_i;&c_l;&c_o;&c_n;&c_s;&c_k;&c_o;&c_je; &c_s;&c_t;&c_o;&c_l;&c_p;&c_o;&c_t;&c_v;&c_o;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
-    <trd lng="sk">Babylonsk&aacute; ve&zcaron;a</trd>
-    <trd lng="sv">Babels torn</trd>
-    <trd lng="tr">Babil kulesi</trd>
-    <trd lng="uk">&c_V;&c_a;&c_v;&c_i;&c_l;&c_o;&c_n;&c_s;&c_mol;&c_k;&c_a; &c_v;&c_je;&c_zh;&c_a;</trd>
-  </snc>
-  <trd lng="cs">Babylonsk&aacute; v&ecaron;&zcaron;</trd>
-</drv>
 </art>
 
 <!--
-$Log: babel.xml,v $
-Revision 1.31  2016/11/08 20:10:16  revo
-Lars Raarup Knudsen: aldono de danaj tradukoj
+$Log$
+versio 1.33 2021/03/12 21:49:11
+Wolfram Diestel: movo de ~turo al tur/
+
+versio 1.32 2021/02/03 08:47:06
+Wolfram Diestel: ekz-oj
 
 Revision 1.30  2015/07/04 08:37:31  revo
 aldono de trd cs per skripto de M. von Laer
@@ -111,8 +111,5 @@ Revision 1.26  2011/02/13 03:10:17  revo
 Luiz Portella: kor. ref k mrk
 
 Revision 1.25  2010/10/24 16:30:17  revo
-Jeromo Vasxe: kor. fusxitan fnt
-
-Revision 1.24  2009/12/15 17:30:28  revo
 -->
 </vortaro>

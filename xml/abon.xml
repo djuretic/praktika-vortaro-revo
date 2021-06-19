@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: abon.xml,v 1.55 2019/04/23 12:10:18 revo Exp $">
+<art mrk="$Id: abon.xml,v 1.59 2021/02/28 09:08:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>abon</rad>/i
@@ -64,12 +63,13 @@
       &c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="sk">odobera&tcaron;</trd>
+    <trd lng="sl">naro&ccaron;ati</trd>
     <trdgrp lng="sv">
       <trd>prenumerera</trd>,
       <trd>abonnera <klr>(p&aring;)</klr></trd>
     </trdgrp>
     <trdgrp lng="th">
-      <trd>&#3626;&#3617;&#3633;&#3588;&#3619; (&#3609;&#3636;&#3605;&#3618;&#3626;&#3634;&#3619;, &#3610;&#3619;&#3636;&#3585;&#3634;&#3619;)</trd>
+      <trd>&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23; (&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;, &#xE1A;&#xE23;&#xE34;&#xE01;&#xE32;&#xE23;)</trd>
     </trdgrp>
   </snc>
   <snc mrk="abon.0i.kontrakti">
@@ -117,6 +117,7 @@
       <trd>&c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="sk">predplati&tcaron; (si)</trd>
+    <trd lng="sl">naro&ccaron;iti</trd>
     <trd lng="sv">teckna ett <ind>abonnemang</ind>
     <klr>(p&aring;)</klr></trd>
   </snc>
@@ -178,6 +179,7 @@
     <trd>&a_m;&a_sh;&a_t;&a_r;&f_k; &a_sh;&a_d;&a_n;<klr>
     (&a_b;&a_h;)</klr></trd>
   </trdgrp>
+  <trd lng="he">&#x5DC;&#x5D4;&#x5D9;&#x5E8;&#x5E9;&#x5DD; &#x5DB;&#x5DE;&#x5E0;&#x5D5;&#x5D9;</trd>
   <trd lng="it">abbonarsi <klr>(a)</klr></trd>
   <trdgrp lng="sk">
     <trd>abonova&tcaron;</trd>,
@@ -200,7 +202,8 @@
         premii per <tld/>o
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007009.html">Donace subteni...</url></vrk>
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007009.html">Donace
+          subteni...</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -231,6 +234,7 @@
     <trd>&a_A;&a_sh;&a_t;&a_r;&a_A;&f_k;</trd>
   </trdgrp>
   <trd lng="fr">abonnement</trd>
+  <trd lng="he">&#x5DE;&#x5B4;&#x5E0;&#x5D5;&#x5BC;&#x5D9;</trd>
   <trd lng="hu">el&odblac;fizet&eacute;s</trd>
   <trd lng="it">abbonamento</trd>
   <trd lng="nl">abonnement</trd>
@@ -273,6 +277,7 @@
     <trd>&a_m;&a_sh;&a_t;&a_r;&f_k; &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
   <trd lng="fr">abonner</trd>
+  <trd lng="he">&#x5DC;&#x5E8;&#x5E9;&#x5D5;&#x5DD; &#x5DB;&#x5DE;&#x5E0;&#x5D5;&#x5D9;</trd>
   <trd lng="hu">kib&eacute;rel</trd>
   <trd lng="nl">abonneren</trd>
   <trdgrp lng="pl">
@@ -291,7 +296,7 @@
   <kap><tld/>ilo</kap>
   <snc>
     <dif>
-      <ref tip="super" cel="formul.0aro.radika">Formularo</ref> por
+      <ref tip="super" cel="formul.0aro.POL">Formularo</ref> por
       aboni <klr>(plenigita a&ubreve; neplenigita)</klr>:
       <ekz>
         la <tld/>ilo trovi&gcirc;as en suba parto de &ccirc;iu pa&gcirc;o
@@ -348,6 +353,7 @@
     <trd>abonentka</trd>,
     <trd>p&rcaron;edplatn&iacute; l&iacute;stek</trd>
   </trdgrp>
+  <trd lng="he">&#x5D8;&#x5D5;&#x5E4;&#x5E1; &#x5D4;&#x5E8;&#x5E9;&#x5DE;&#x5D4;</trd>
   <trdgrp lng="sk">
     <trd>abonentka</trd>,
     <trd>predplatn&yacute; l&iacute;stok</trd>
@@ -402,8 +408,8 @@
 
 <drv mrk="abon.mal0i">
   <kap>mal<tld/>i</kap>
-  <uzo tip="fak">KOMP</uzo>
   <snc>
+  <uzo tip="fak">KOMP</uzo>
     <dif>
       &Ccirc;esigi sian <tld/>on:
       <ekz>
@@ -455,13 +461,16 @@
     </trdgrp>
     <trd lng="sk">odhl&aacute;si&tcaron;</trd>
   </snc>
-<trd lng="th">&#3618;&#3585;&#3648;&#3621;&#3636;&#3585;&#3626;&#3617;&#3633;&#3588;&#3619;</trd>
+<trd lng="th">&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23;</trd>
 </drv>
 </art>
 <!--
-$Log: abon.xml,v $
-Revision 1.55  2019/04/23 12:10:18  revo
-Warut Bunprasert: aldono de tajaj tradukoj
+$Log$
+versio 1.58 2020/06/24 09:10:48
+Wolfram Diestel: kor. ref-cel
+
+versio 1.57 2020/06/24 07:10:38
+Damien Brucker: -eraro cxe cel en ref
 
 Revision 1.54  2018/11/13 13:10:15  revo
 Dmitri Gabinski: +trd be
@@ -479,9 +488,6 @@ Revision 1.50  2016/03/18 19:10:37  revo
 Warut Bunprasert: +trd th
 
 Revision 1.49  2015/07/04 08:37:29  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.48  2015/06/28 12:03:35  revo
 -->
 
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kost.xml,v 1.32 2019/06/30 18:21:03 revo Exp $">
+<art mrk="$Id: kost.xml,v 1.80 2021/06/19 05:58:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kost</rad>/i
@@ -56,8 +55,7 @@
         &ccirc;iu pa&scirc;o anta&ubreve;en <tld/>as doloron kaj suferon
         <fnt>
           <aut>L. L. Zamenhof</aut>
-          <vrk><url
-          ref="http://esperanto-ondo.ru/Novaj/Nov09-29.htm">Respondoj al
+          <vrk><url ref="http://esperanto-ondo.ru/Novaj/Nov09-29.htm">Respondoj al
           amikoj</url></vrk>
         </fnt>.
       </ekz>
@@ -76,7 +74,8 @@
   <trd lng="fr">co&ucirc;ter</trd>
   <trd lng="hu">ker&uuml;l <klr tip="amb">(pl. p&eacute;nzbe,
   f&aacute;rads&aacute;gba)</klr></trd>
-  <trd lng="id">[<ind>harga</ind>] berharga</trd>
+  <trd lng="id">ber<ind>harga</ind></trd>
+  <trd lng="ne">&#x932;&#x93E;&#x917;&#x924;</trd>
   <trd lng="pl">kosztowa&cacute;</trd>
   <trdgrp lng="pt">
     <trd>custar <klr tip="amb">(ter determinado valor)</klr></trd>,
@@ -165,11 +164,11 @@
       forofero a&ubreve; malavanta&gcirc;o:
       <ekz>
         ili lernas paroli la &ccirc;irka&ubreve;an lingvon, <tld/>e de konstanta
-        <klr>...</klr> korektado
+        <klr>[&#x2026;]</klr> korektado
         <fnt><bib>BonaLingvo</bib>, <lok>p. 69a</lok></fnt>;
       </ekz>
       <ekz>
-        la poemoj en la kolekto estas &leftquot;videble&#8221; mulditaj al la celata
+        la poemoj en la kolekto estas &leftquot;videble&#x201D; mulditaj al la celata
         versformo iugrade <tld/>e de la enhavo
         <fnt>
           <bib>Monato</bib>
@@ -217,8 +216,7 @@
 
 <drv mrk="kost.0o">
   <kap><ofc>*</ofc><tld/>o <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5066">kost'o</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5066">kost'o</url></lok></fnt></kap>
   <snc mrk="kost.0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
@@ -237,10 +235,10 @@
       </ekz>
       <ekz>
         ne valoras la faro la <tld/>on de l' preparo
-        (<refgrp tip="vid">
+        <klr>(<refgrp tip="vid">
           <ref cel="kandel.0o">kandelo</ref>,
           <ref cel="fel.0o">felo</ref>
-        </refgrp>)<fnt><bib>PrV</bib></fnt>;
+        </refgrp>)</klr><fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
         per mia propra <tld/>opago mi fari&gcirc;is sa&gcirc;a.
@@ -248,31 +246,73 @@
     </dif>
     <ref tip="vid" cel="prez.0o">prezo</ref>
   </snc>
+  <trd lng="af">koste</trd>
+  <trd lng="am">&#x12CB;&#x130B;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x62A;&#x643;&#x644;&#x641;&#x629;</trd>
+  <trd lng="az">qiym&#x259;t</trd>
   <trd lng="be">&c_k;&c_o;&c_sh;&c_t;</trd>
+  <trd lng="bn">&#x996;&#x9B0;&#x99A;</trd>
+  <trd lng="bo">&#xF42;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bs">tro&#x161;kova</trd>
   <trdgrp lng="ca">
     <trd>cost</trd>,
     <trd>preu</trd>
   </trdgrp>
+  <trd lng="co">costu</trd>
   <trd lng="cs">n&aacute;klad</trd>
+  <trd lng="da">omkostninger</trd>
   <trd lng="de">Kosten</trd>
+  <trd lng="et">maksumus</trd>
+  <trd lng="eu">kostua</trd>
   <trd lng="fr">co&ucirc;t</trd>
+  <trd lng="fy">kosten</trd>
+  <trd lng="gl">custo</trd>
+  <trd lng="gu">&#xA96;&#xAB0;&#xACD;&#xA9A;</trd>
+  <trd lng="hi">&#x932;&#x93E;&#x917;&#x924;</trd>
+  <trd lng="hr">tro&#x161;ak</trd>
   <trd lng="hu">k&ouml;lts&eacute;g</trd>
+  <trd lng="hy">&#x56E;&#x561;&#x56D;&#x57D;&#x565;&#x580;&#x568;</trd>
   <trdgrp lng="id">
     <trd>biaya</trd>,
     <trd>harga</trd>
   </trdgrp>
+  <trd lng="is">kostna&#xF0;ur</trd>
+  <trd lng="ja">&#x30B3;&#x30B9;&#x30C8;</trd>
+  <trd lng="jw">biaya</trd>
+  <trd lng="ka">&#x10E6;&#x10D8;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D4;&#x10D1;&#x10D0;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x1785;&#x17C6;&#x178E;&#x17B6;&#x1799;</trd>
+  <trd lng="ko">&#xBE44;&#xC6A9;</trd>
+  <trd lng="lo">&#xE84;&#xEC8;&#xEB2;&#xEC3;&#xE8A;&#xEC9;&#xE88;&#xEC8;&#xEB2;&#xE8D;</trd>
+  <trd lng="ml">&#xD35;&#xD3F;&#xD32;</trd>
+  <trd lng="mr">&#x916;&#x930;&#x94D;&#x91A;</trd>
+  <trd lng="my">&#x1000;&#x102F;&#x1014;&#x103A;&#x1000;&#x103B;&#x1005;&#x101B;&#x102D;&#x1010;&#x103A;</trd>
+  <trd lng="ny">mtengo</trd>
+  <trd lng="pa">&#xA32;&#xA3E;&#xA17;&#xA24;</trd>
   <trd lng="pl">koszt</trd>
+  <trd lng="ps">&#x644;&#x6AB;&#x69A;&#x62A;</trd>
   <trdgrp lng="ro">
     <trd>cheltuial&abreve; </trd>,
-    <trd>pre&#539;</trd>,
+    <trd>pre&#x21B;</trd>,
     <trd>cost</trd>
   </trdgrp> 
   <trd lng="ru">&c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sd">&#x62E;&#x631;&#x686;</trd>
+  <trd lng="si">&#xDB4;&#xDD2;&#xDBB;&#xDD2;&#xDC0;&#xDD0;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;klad</trd>,
     <trd>v&yacute;davok</trd>
   </trdgrp>
+  <trd lng="sq">kosto</trd>
+  <trd lng="st">lit&#x161;enyehelo</trd>
   <trd lng="sv">kostnad</trd>
+  <trd lng="ta">&#xB9A;&#xBC6;&#xBB2;&#xBB5;&#xBC1;</trd>
+  <trd lng="te">&#xC27;&#xC30;</trd>
+  <trd lng="th">&#xE04;&#xE48;&#xE32;&#xE43;&#xE0A;&#xE49;&#xE08;&#xE48;&#xE32;&#xE22;</trd>
+  <trd lng="tl">gastos</trd>
+  <trd lng="ur">&#x642;&#x6CC;&#x645;&#x62A;</trd>
+  <trd lng="vi">chi ph&#xED;</trd>
+  <trd lng="yi">&#x5E7;&#x5D0;&#x5B8;&#x5E1;&#x5D8;&#x5DF;</trd>
+  <trd lng="zu">izindleko</trd>
 </drv>
 
 <drv mrk="kost.cxia0e">
@@ -281,13 +321,13 @@
     <dif>
       Firme provante, e&ccirc; kun granda peno, ofero, elspezo:
       <ekz>
-        la vic-re&gcirc;o ordonis <klr>...</klr> eltrovi &ccirc;ia<tld/>e, kiu li
+        la vic-re&gcirc;o ordonis <klr>[&#x2026;]</klr> eltrovi &ccirc;ia<tld/>e, kiu li
         estas
         <fnt><bib>DonKihxoto</bib>, <lok>parto 2a, &ccirc;apitro 64a, p.
         765a</lok></fnt>;
       </ekz>
       <ekz>
-        la generalo Erich Ludendorff sendis al la frontoj ordonon la
+        la generalo <nom>Erich Ludendorff</nom> sendis al la frontoj ordonon la
         24an de 
         oktobro 1918 rezisti &ccirc;ia<tld/>e, kio pliigis kompreneble la 
         nombro<klr>[n]</klr> de mortintoj, vunditoj kaj suferado
@@ -306,7 +346,7 @@
     <trd>b&aacute;rmi <ind>&aacute;ron</ind></trd>
   </trdgrp>
   <trd lng="pl">za wszelk&aogonek; cen&eogonek;</trd>     
-  <trd lng="ro">cu orice pre&#539;</trd>
+  <trd lng="ro">cu orice pre&#x21B;</trd>
 </drv>
 
 <drv mrk="kost.multe0a">
@@ -314,7 +354,7 @@
   <snc mrk="kost.multe0a.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Altapreza, kostanta grandan monsumon:
+      Altpreza, kostanta grandan monsumon:
       <ekz>
         multe<tld/>a &scirc;tono
         <fnt><bib>F</bib>, <lok>&FE; 15</lok></fnt>;
@@ -373,7 +413,7 @@
     <trd>drogocenny</trd>,
     <trd>kosztowny</trd>
   </trdgrp>   
-  <trd lng="ro">pre&#539;ios</trd>
+  <trd lng="ro">pre&#x21B;ios</trd>
   <trdgrp lng="ru">
     <trd>&c_d;&c_o;&c_r;&c_o;&c_g;&c_o;&c_j; <klr tip="amb">(&c_o; &c_c;&c_je;&c_n;&c_je;)</klr></trd>,
     <trd>&c_d;&c_o;&c_r;&c_o;&c_g;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_shch;&c_i;&c_j;</trd>
@@ -385,33 +425,60 @@
   </trdgrp>
   <trd lng="sv">dyr</trd>
 </drv>
+
+<drv mrk="kost.malmulte0a">
+  <kap>malmulte<tld/>a</kap>
+  <snc mrk="kost.malmulte0a.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Malaltpreza, kostanta malgrandan monsumon:
+      <ekz>
+        restado en Germanio estis bagatele malmulte<tld/>a
+        <fnt>
+          <aut>Ivo Lapenna, Tazio Carlevaro kaj Ulrich Lins</aut>
+          <vrk>Esperanto en Perspektivo</vrk>
+          <lok>4a parto, &ccirc;apitro 13, sekcio 13.2.6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kie a&ccirc;eti la plej malmulte<tld/>ajn lentojn
+        <fnt>
+            <aut>Anna L&ouml;wenstein</aut>,
+            <vrk>La &scirc;tona urbo</vrk>,
+            <lok>FEL, 1999</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="cxip.0a.EKON">&ccirc;ipa</ref>,
+      <ref cel="kar.mal0a">malkara</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="en">
+    <trd>cheap</trd>,
+    <trd>inexpensive</trd>,
+    <trd>low-priced</trd>
+  </trdgrp>
+  <trd lng="es">barato</trd>
+  <trd lng="fy">goedkeap</trd>
+  <trd lng="nl">goedkoop</trd>
+</drv>
 </art>
 <!--
-$Log: kost.xml,v $
-Revision 1.32  2019/06/30 18:21:03  revo
-adaptis URL de Monato
+$Log$
+versio 1.37 2021/02/15 07:11:04
+Wolfram Diestel: klr
 
-Revision 1.31  2018/10/25 23:10:16  revo
-Vito Redsky: +trd pl +trd ro
+versio 1.36 2021/02/15 06:41:52
+Wolfram Diestel: +ref malkara
 
-Revision 1.30  2018/04/28 05:10:20  revo
-Eko Nur Syah Hidayat: +trd id
+versio 1.35 2021/02/12 16:10:44
+Robin van der Vliet: +ref sin
 
-Revision 1.29  2017/12/19 20:10:14  revo
-Michel Cantigneaux: "kost/o" fundamenta kunmetajxo el la U.V.
+versio 1.34 2021/02/12 15:11:10
+Robin van der Vliet: +malmultekosta
 
-Revision 1.28  2017/11/20 18:10:15  revo
-Wolfram Diestel: prilaboris ekz-ojn, +snc ~e de iu
-
-Revision 1.27  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.26  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.25  2013/10/23 20:10:13  revo
-Benito Subejrano: + trd oc
-
-Revision 1.24  2012/08/04 11:10:18  revo
+versio 1.33 2020/05/01 15:10:18
+Eko Nur Syah Hidayat: korekteto
 -->
 </vortaro>

@@ -1,24 +1,52 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ho.xml,v 1.20 2015/07/04 08:37:35 revo Exp $">
+<art mrk="$Id: ho.xml,v 1.60 2021/06/19 05:58:33 revo Exp $">
 <kap>
-   <ofc>*</ofc>
-   <rad>ho</rad> <fnt><bib>PV</bib></fnt>
+   <ofc>*</ofc> <rad>ho</rad> <fnt> <bib>PV</bib></fnt>,
+   <var><kap><rad var="o">oh</rad> <fnt> <bib>IK</bib></fnt></kap></var>
 </kap>
 <drv mrk="ho.0">
-   <kap><ofc>*</ofc><tld/></kap>
+   <kap><ofc>*</ofc><tld/>, <var><kap><tld var="o"/></kap></var></kap>
    <gra><vspec>ekkrio</vspec></gra>
    <snc mrk="ho.0.surprizo">
      <dif>
        Surprize, indigne, dolore!:
-       <ekz>
-         <tld/>! kia ridinda vesto!
-       </ekz>
-       <ekz>
-         <tld/> ve! li mortis.
-       </ekz>
+      <ekz>
+        <tld/>, vi estas feli&ccirc;a homo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <tld/> ve! mia malbeno alpelis lin al la morto
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>! &gcirc;i faris el mi okdekjaran homon
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld var="o"/>, en ventro kia pezo, sentas &scirc;tonojn mi en mezo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La sep kapridoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld var="o"/>, vi ne scias, kia estas la sorto de l' kamparano
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>!
+      </ekz>
      </dif>
      <trd lng="es">oh</trd>
      <trdgrp lng="fi">
@@ -34,10 +62,27 @@
    </snc>
    <snc mrk="ho.0.alvoko">
      <dif>
-       Atentigo al alparolato:
-       <ekz>
-         <tld/> vi, granda fonto de l' amo kaj vero<fnt>Z</fnt>!
-       </ekz>
+      Atentigo al alparolato:
+      <ekz>
+        <tld/>, li estis persono tre prudenta
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <tld/> potenca senkorpa mistero
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk>Pre&gcirc;o sub la Verda Standardo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld var="o"/> ne, ne! &scirc;i ektremis pensante, ke Franjo a&ubreve; Sta&ccirc;jo povas veki&gcirc;i
+        <fnt>
+          <bib>IK</bib>
+        </fnt>.
+      </ekz>
      </dif>
      <trd lng="es">oh<klr> (vocativo)</klr></trd>
      <trdgrp lng="fi">
@@ -47,11 +92,20 @@
      </trdgrp>
      <trd lng="it">o<klr> (vocativo)</klr></trd>
      <trd lng="pt">&oacute;</trd>
-   </snc>
+  </snc>
+  <ref tip="hom" cel="h.0.konsonanto">ho (litero)</ref>
+  <trd lng="af">o</trd>
+  <trd lng="am">&#x12C8;&#x12ED;</trd>
+  <trd lng="ar">&#x64A;&#x627;</trd>
+  <trd lng="az">oh</trd>
+  <trd lng="bn">&#x989;&#x9B9;&#x9C1;</trd>
+  <trd lng="bs">oh</trd>
+  <trd lng="co">oh</trd>
   <trdgrp lng="cs">
-    <trd>jaké neštěstí</trd>,
+    <trd>jak&eacute; ne&scaron;t&ecaron;st&iacute;</trd>,
     <trd>jej</trd>
   </trdgrp>
+  <trd lng="da">oh</trd>
   <trdgrp lng="de">
      <trd>o</trd>,
      <trd>oh</trd>
@@ -63,29 +117,62 @@
      <trd>yikes</trd>,
      <trd>yow</trd>
    </trdgrp>
+  <trd lng="et">oh</trd>
   <trdgrp lng="fr">
      <trd>ho</trd>,
      <trd>oh</trd>,
      <trd>&ocirc;</trd>
    </trdgrp>
+  <trd lng="fy">oh</trd>
+  <trd lng="gu">&#xA93;&#xAB9;</trd>
+  <trd lng="hi">&#x913;&#x939;</trd>
+  <trd lng="hr">oh</trd>
   <trdgrp lng="hu">
      <trd>&oacute;</trd>,
      <trd>oh</trd>,
      <trd>ah</trd>
    </trdgrp>
+  <trd lng="hy">&#x561;&#x56D;</trd>
+  <trd lng="is">&#xF3;</trd>
+  <trd lng="ja">&#x3042;&#x3042;</trd>
+  <trd lng="ka">&#x10DB;&#x10D4;</trd>
+  <trd lng="km">&#x17A2;&#x17BC;!</trd>
+  <trd lng="ko">&#xC624;</trd>
+  <trd lng="lo">&#xEC2;&#xEAD;&#xEC9;&#xE8D;</trd>
+  <trd lng="ml">&#xD13;</trd>
+  <trd lng="mr">&#x92C;&#x93E;&#x92A;&#x930;&#x947;</trd>
+  <trd lng="ne">&#x939;&#x930;&#x947;</trd>
   <trd lng="nl">o</trd>
+  <trd lng="ny">o</trd>
+  <trd lng="pa">&#xA13;&#xA39;&#xA41;</trd>
+  <trd lng="ps">&#x627;&#x648;&#x647;!</trd>
   <trd lng="ru">&c_o;</trd>
+  <trd lng="sd">&#x622;&#x647;</trd>
+  <trd lng="si">&#xD85;&#xDBA;&#xDD2;&#xDBA;&#xDDD;</trd>
   <trdgrp lng="sk">
-    <trd>aké nešťastie</trd>,
+    <trd>ak&eacute; ne&scaron;&tcaron;astie</trd>,
     <trd>och</trd>
   </trdgrp>
+  <trd lng="sq">oh</trd>
+  <trd lng="st">la oh oh oh</trd>
+  <trd lng="ta">&#xB93;</trd>
+  <trd lng="te">&#xC13;&#xC39;&#xC4D;</trd>
+  <trd lng="th">&#xE42;&#xE2D;&#xE49;</trd>
+  <trd lng="tl">oh</trd>
   <trd lng="tp">a</trd>
+  <trd lng="ur">&#x627;&#x648;&#x6C1;</trd>
+  <trd lng="vi">oh</trd>
+  <trd lng="yi">&#x5D0;&#x5D5;&#x5D9;</trd>
+  <trd lng="zu">awu</trd>
 </drv>
 </art>
 <!--
-$Log: ho.xml,v $
-Revision 1.20  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
+$Log$
+versio 1.22 2021/05/10 18:13:52
+Wolfram Diestel: +ref hom
+
+versio 1.21 2020/12/18 17:10:20
+Wolfram Diestel: +var, ekz-oj
 
 Revision 1.19  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
@@ -103,14 +190,5 @@ Revision 1.15  2009/09/15 16:31:12  revo
 Antonio Codazzi: +trd it
 
 Revision 1.14  2007/07/23 16:30:56  revo
-Harri Laine: +trd fi
-
-Revision 1.13  2006/09/06 15:15:40  revo
-Axel Rousseau: +trd tp
-
-Revision 1.12  2005/10/15 16:33:03  revo
-Luiz Portella: +trd pt
-
-Revision 1.11  2003/12/18 17:31:25  revo
 -->
 </vortaro>

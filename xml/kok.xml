@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kok.xml,v 1.49 2019/07/03 08:10:17 revo Exp $">
+<art mrk="$Id: kok.xml,v 1.54 2021/06/15 18:37:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kok</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,56 +10,88 @@
 
 <drv mrk="kok.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="kok.0o.ZOO">
-    <uzo tip="fak">ZOO</uzo>
-    <dif>
-      <ref tip="lst" cel="bird.0o" lst="voko:birdoj">Birdo</ref>
-       kun ru&gcirc;a kresto sur la kapo;
-      <ref tip="lst" cel="genr.0o.BIO"
-      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
-      tip="super" cel="fazane.0oj">fazanedoj</ref>
-      (<trd lng="la">Gallus</trd>).
-    </dif>
-    <bld lok="../bld/kok.jpg">
-      vira <tld/>o
-    </bld>
-    <trd lng="be">&c_k;&c_u;&c_r;&c_y;&c_c;&c_a;
-    <klr>(&c_v;&c_ib;&c_d;)</klr></trd>
-    <trd lng="de">Huhn</trd>
-    <trd lng="es">Gallo (vira koko), gallina (por kokino)</trd>
-    <trd lng="it">gallo <klr tip="ind">(selvatico)</klr></trd>
-    <trd lng="pl">kura</trd>     
-    <trd lng="ro">g&abreve;in&abreve;</trd>
-    <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_c;&c_a;</trd>
-    <trd lng="tr">tavuk</trd>
-  </snc>
   <snc mrk="kok.0o.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
-      Specio el la genro <ref tip="super"
-      cel="kok.0o.ZOO"><tld/>o</ref>,
-      bredata kiel kortbirdo en multaj rasoj pro la viando kaj la ovoj,
-      precipe ties inseksulo:
+      Subspecio (<trd lng="la">Gallus gallus domesticus</trd>) el la 
+      genro <ref tip="super" cel="kok.0o.ZOO"><tld/>o</ref>,
+      bredata kiel <ref tip="super" cel="bird.korto0o">kortobirdo</ref> en multaj rasoj pro la viando kaj la ovoj:
+      <ekz>
+        anta&ubreve; ol krios <tld/>o, vi trifoje malkonfesos min
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 26:34</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la unua krio de <tld/>o <klr>(en frua mateno)</klr>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        putraj ovoj kaj rostitaj <tld/>okrestoj estis la &ccirc;efaj man&gcirc;a&jcirc;oj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o fiere mar&scirc;as kaj gratante ser&ccirc;as man&gcirc;a&jcirc;on por siaj <tld/>inoj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sambuka virineto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        e&ubreve;ropaj bredistoj de <tld/>oj, anseroj kaj meleagroj kutime posedas amason da
+        birdoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2006/008913.php">Paniko</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u la malsano ne jam transsaltis anka&ubreve; al porkoj, <tld/>oj, meleagroj, anseroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/007332.html">http://steloj.de/esperanto/monato2/007332.html</url></lok>
+        </fnt>?
+      </ekz>
       <ekz>
         al feli&ccirc;ulo e&ccirc; <tld/>o donas ovojn
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
+        bovo prenita, <tld/>o donita kaj &dash; kvita
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FRAZ</uzo>
         <uzo tip="stl">RAR</uzo>
         trompita <tld/>o <klr>(trompita edzo)</klr>;
+        <klr>(vd <ref tip="vid" cel="kokr.0i">kokri</ref>)</klr>
       </ekz>
       <ekz>
         <ctl><tld lit="K"/>o krias jam!</ctl>
-        <klr>(novelaro de Szil&aacute;gyi Ferenc)</klr>
+        <klr>(novelaro de <nom>Ferenc Szil&aacute;gyi</nom>)</klr>
         <fnt>
-          <aut>Szil&aacute;gyi F.</aut>,
-          <vrk>Koko krias jam!</vrk>,
+          <aut>Szil&aacute;gyi F.</aut>
+          <vrk>Koko krias jam!</vrk>
           <lok>1955</lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="kokr.0i">kokri</ref>
+    <refgrp tip="vid">
+      <ref cel="meleag.0o">meleagro</ref>,
+      <ref cel="numid.0o">numido</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_p;&c_je;&c_v;&c_je;&c_n;&c_mol;</trd>
     </trdgrp>   
@@ -77,6 +109,32 @@
       <trd>&c_p;&c_je;&c_t;&c_u;&c_h;</trd>
     </trdgrp>
     <trd lng="tr">horoz</trd>
+  </snc>
+  <snc mrk="kok.0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>      
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> el 
+      familio <ref tip="super" cel="fazane.0oj">fazanedoj</ref>
+      (<trd lng="la">Gallus</trd>), <ref tip="lst" cel="bird.0o" lst="voko:birdoj">birdo</ref>
+      kun ru&gcirc;a kresto sur la kapo.
+    </dif>
+    <bld lok="../bld/kok.jpg">
+      vira <tld/>o
+    </bld>
+    <refgrp tip="vid">
+       <ref cel="lagop.0o">lagopo</ref>,
+       <ref cel="tetr.0o">tetro</ref>,
+       <ref cel="urogal.0o">urogalo</ref>
+    </refgrp>
+    <trd lng="be">&c_k;&c_u;&c_r;&c_y;&c_c;&c_a;
+    <klr>(&c_v;&c_ib;&c_d;)</klr></trd>
+    <trd lng="de">Huhn</trd>
+    <trd lng="es">Gallo (vira koko), gallina (por kokino)</trd>
+    <trd lng="it">gallo <klr tip="ind">(selvatico)</klr></trd>
+    <trd lng="pl">kura</trd>     
+    <trd lng="ro">g&abreve;in&abreve;</trd>
+    <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_c;&c_a;</trd>
+    <trd lng="tr">tavuk</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>kohout</trd>,
@@ -101,13 +159,49 @@
 </drv>
 
 <drv mrk="kok.0ido">
-  <kap><tld/>ido, <var><kap><tld/>idino</kap></var></kap>
-  <snc>
+  <kap><tld/>ido</kap>
+  <snc mrk="kok.0ido.AGR">
     <dif>
-      Ido de <tld/>o.
+      Ido de <tld/>o:
+      <ekz>
+        la maljuna korta <tld/>ino <klr>[&#8230;]</klr> kvin fojojn elkovis <tld/>idojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj malgrandaj <tld/>idoj forte tremis
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Korta koko kaj ventkoko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni rostas hodia&ubreve; junajn <tld/>idojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Johan&ccirc;jo-malsa&gcirc;ulo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas malsa&gcirc;e kalkuli la <tld/>idojn anta&ubreve; la elkovi&gcirc;o
+        <fnt>
+          <aut>J. Merchant</aut>
+          <vrk>Kompatinda Klem</vrk>
+          <lok>1931</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vulpo pentofaras, gardu la <tld/>idojn
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_p;&c_i;&c_l;&c_je;&c_n;&c_c;&c_je;</trd>
+  <trd lng="bo">&t_ba;&t_yata;&t_tsheg;&t_sa;&t_data;&t_gigu;&t_tsheg;</trd>
   <trd lng="br">po&ntilde;sin</trd>
   <trd lng="cs">ku&rcaron;ice</trd>
   <trd lng="de">K&uuml;ken</trd>
@@ -133,9 +227,52 @@
 <drv mrk="kok.0ino">
   <kap><ofc>*</ofc><tld/>ino
   <fnt><bib>F</bib>, <lok>Universala Vortaro, -in'</lok></fnt></kap>
-  <snc>
+  <snc mrk="kok.0ino.AGR">
     <dif>
-      Inseksa <tld/>o <sncref ref="kok.0o.AGR"/>.
+      Inseksa <tld/>o<sncref ref="kok.0o.AGR"/>:
+      <ekz>
+        <tld/>inejo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la korto staras <tld/>o kun tri <tld/>inoj
+        <fnt>
+          <bib>F</bib>
+          <vrk>Ekzercaro</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>inoj kaj <tld/>idoj kuris sur la sterkamason, ilin sekvis per kavaliraj
+        pa&scirc;oj la <tld/>o
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Korta koko kaj ventkoko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi volis kolekti viajn infanojn, kiel <tld/>ino kolektas sian idaron sub la
+        flugilojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 23:37</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al <tld/>ino la ovo lecionojn ne donu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        e&ccirc; blinda <tld/>ino povas trovi grajnon
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+        <trd lng="de">auch ein blindes Huhn findet manchmal ein Korn</trd>
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -161,9 +298,22 @@
 
 <drv mrk="kok.vir0o">
   <kap>vir<tld/>o</kap>
-  <snc>
+  <snc mrk="kok.vir0o.AGR">
     <dif>
-      Virseksa <tld/>o <sncref ref="kok.0o.AGR"/>.
+      Virseksa <tld/>o<sncref ref="kok.0o.AGR"/>:
+      <ekz>
+        <klr>[ili]</klr> estas bonaj soldatoj, sed ankora&ubreve; pli bonaj vir<tld/>oj
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni incitas la noblajn bumbukojn unu kontra&ubreve; la alian, kiel la vir<tld/>ojn en
+        areno
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Hahn</trd>
@@ -187,14 +337,11 @@
   <snc mrk="kok.0oformaj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="lst" cel="ord.0o.BIO"
-      lst="voko:zoologiaj_ordoj">Ordo</ref> el la klaso <ref
-      tip="malprt" cel="bird.0oj">birdoj</ref>
+      <ref tip="lst" cel="ord.0o.BIO" lst="voko:zoologiaj_ordoj">Ordo</ref> el la klaso <ref tip="malprt" cel="bird.0oj">birdoj</ref>
       (<trd lng="la">Galliformes</trd>).
     </dif>
   </snc>
-  <trd
-  lng="be">&c_k;&c_u;&c_r;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;
+  <trd lng="be">&c_k;&c_u;&c_r;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;
   <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
   <trdgrp lng="cs">
     <trd>hrabav&iacute;</trd>,
@@ -214,17 +361,28 @@
     <trd>zg&acirc;rierea</trd>,
     <trd>galliformes</trd>
   </trdgrp>
-  <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_n;&c_y;&c_je; <klr
-  tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
+  <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_n;&c_y;&c_je; <klr tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
   <trd lng="sk">kurovit&iacute;</trd>
 </drv>
 
 <drv mrk="kok.akvo0o">
-  <kap>akvo<tld/>o</kap>
+  <kap>akvo<tld/>o,
+  <var><kap>mar&ccirc;o<tld/>o</kap></var></kap>
   <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="kok.akvo0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
-    <ref tip="dif" cel="fulik.0o">fuliko</ref>
+    <dif>
+      <ref tip="dif" cel="fulik.0o">Fuliko</ref>,
+      <ref tip="dif" cel="galinu.0o">galinolo</ref>
+      a&ubreve; simila birdo:
+      <ekz>
+        <nom>&Hcirc;ufu</nom> <klr>[&#8230;]</klr> ordonas dekapigon de <klr>[&#8230;]</klr> akvo<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=374796">Papiruso Westcar</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_l;&c_y;&c_s;&c_k;&c_a;</trd>
   <trd lng="br">duanenn</trd>
@@ -232,9 +390,16 @@
     <trd>lyska</trd>,
     <trd>sl&iacute;pka zelenonoh&aacute;</trd>
   </trdgrp>
-  <trd lng="de">Blessralle</trd>
+  <trdgrp lng="de">
+    <trd>Blessralle</trd>,
+    <trd>Teichralle</trd>,
+    <trd>Teichhuhn</trd>
+  </trdgrp>
   <trd lng="en">coot</trd>
-  <trd lng="fr">foulque</trd>
+  <trdgrp lng="fr">
+    <trd>foulque</trd>,
+    <trd>poule d'eau</trd>
+  </trdgrp>
   <trd lng="hu">sz&aacute;rcsa</trd>
   <trd lng="it">folaga</trd>
   <trd lng="nl">koet</trd>
@@ -243,9 +408,52 @@
   <trd lng="ru">&c_l;&c_y;&c_s;&c_u;&c_h;&c_a;</trd>
   <trd lng="sk">sliepka zelenonoh&aacute;</trd>
 </drv>
+
+<drv mrk="kok.vento0o">
+  <kap>vento<tld/>o,
+  <var><kap>vent<tld/>o</kap></var></kap>
+  <snc mrk="kok.vento0o.MET">
+    <uzo tip="fak">MET</uzo>
+    <dif>
+      Turni&gcirc;anta koko-silueta <ref tip="super" cel="vent.0montrilo.MET">ventomontrilo</ref>
+      ordinare starigita sur firsto...:
+      <ekz>
+        la tegoloj falis malsupren, sed la vent<tld/>o sidis firme, &gcirc;i e&ccirc; ne turnis sin
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Korta koko kaj ventkoko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li vento<tld/>as la&ubreve; la politikaj ventoj interne de sia partio
+        <fnt>
+          <aut>Izumi Y.</aut>,
+          <vrk>Nova kabineto de Tanaka-Nakasone<url ref=""/></vrk>
+          <bib>Monato</bib>
+          <lok>1983:1, p. 22a-23a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Wetterhahn</trd>
+  <trd lng="fr">girouette<klr> (en forme de coq)</klr></trd>
+</drv>
 </art>
 <!--
-$Log: kok.xml,v $
+$Log$
+versio 1.54 2021/06/15 18:37:27
+Wolfram Diestel: snc AGR unue, ref-oj
+
+versio 1.53 2021/06/15 06:35:43
+Wolfram Diestel: +ekz-oj
+
+versio 1.52 2021/06/14 06:36:19
+Wolfram Diestel: +ekz, trd de
+
+versio 1.50 2020/03/29 12:10:35
+Jeromo Vasxe: + vento~o, + kk ekz
+
 Revision 1.49  2019/07/03 08:10:17  revo
 Aleks Andre: zh: -ind- anstataux ol -klr-
 
@@ -256,17 +464,5 @@ Revision 1.47  2017/12/19 08:10:21  revo
 Michel Cantigneaux: fundamenta "kokino" el la Universala Vortaro
 
 Revision 1.46  2016/11/22 23:10:16  revo
-Robin van der Vliet: +virkoko, +trd
-
-Revision 1.45  2016/03/03 20:10:14  revo
-Tulio Flores: korekto de "precipe ties virsekulo" al "precipe ties
-inseksulo".
-
-Revision 1.44  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.43  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
-
 -->
 </vortaro>

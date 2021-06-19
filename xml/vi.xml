@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: vi.xml,v 1.44 2019/07/06 06:10:22 revo Exp $">
+<art mrk="$Id: vi.xml,v 1.85 2021/06/18 18:20:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vi</rad> <fnt><bib>PV</bib></fnt>
@@ -32,6 +31,10 @@
       <trdgrp lng="bg">
         <trd>&c_t;&c_i;</trd>,
         <trd>&c_v;&c_i;&c_je;<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="bo">
+        <trd>&#xF41;&#xFB1;&#xF7C;&#xF51;&#xF0B;</trd>,
+        <trd>&#xF41;&#xFB1;&#xF7A;&#xF51;&#xF0B;&#xF62;&#xF44;&#xF0B;</trd>
       </trdgrp>
       <trdgrp lng="br">
         <trd>te</trd>
@@ -88,9 +91,9 @@
         <trd>Lei<klr> (&gcirc;entila)</klr></trd>
       </trdgrp>
       <trdgrp lng="ja">
-        <trd>&#12354;&#12394;&#12383;</trd>,
-        <trd>&#21531; [<ind>&#12365;&#12415;</ind>]</trd>,
-        <trd>&#12362;&#21069; [<ind>&#12362;&#12414;&#12360;</ind>]</trd>
+        <trd>&#x3042;&#x306A;&#x305F;</trd>,
+        <trd>&#x541B; [<ind>&#x304D;&#x307F;</ind>]</trd>,
+        <trd>&#x304A;&#x524D; [<ind>&#x304A;&#x307E;&#x3048;</ind>]</trd>
       </trdgrp>
       <trd lng="ku">we</trd>
       <trdgrp lng="nl">
@@ -127,8 +130,8 @@
         <trd>siz<klr> (&gcirc;entila)</klr></trd>
       </trdgrp>
       <trdgrp lng="zh">
-        <trd>&#20320; [<ind>n&#464;</ind>]</trd>,
-        <trd>&#24744; <klr>(&gcirc;entila)</klr> [<ind>n&iacute;n</ind>]</trd>,
+        <trd>&#x4F60; [<ind>n&#x1D0;</ind>]</trd>,
+        <trd>&#x60A8; <klr>(&gcirc;entila)</klr> [<ind>n&iacute;n</ind>]</trd>,
       </trdgrp>
     </subsnc>
     <subsnc mrk="vi.0.plur">
@@ -144,6 +147,11 @@
       </trdgrp>
       <trdgrp lng="bg">
         <trd>&c_v;&c_i;&c_je;</trd>
+      </trdgrp>
+      <trdgrp lng="bo">
+        <trd>&#xF41;&#xFB1;&#xF7C;&#xF51;&#xF0B;&#xF62;&#xF44;&#xF0B;&#xF5A;&#xF7C;&#xF0B;</trd>,
+        <trd>&#xF41;&#xFB1;&#xF7A;&#xF51;&#xF0B;&#xF62;&#xF44;&#xF0B;&#xF5A;&#xF7C;&#xF0B;</trd>,
+        <trd>&#xF41;&#xFB1;&#xF7A;&#xF51;&#xF0B;&#xF62;&#xFA3;&#xF58;&#xF0B;&#xF5A;&#xF7C;&#xF0B;</trd>
       </trdgrp>
       <trdgrp lng="br">
         <trd>c'hwi</trd>
@@ -189,10 +197,10 @@
         <trd>voi</trd>
       </trdgrp>
       <trdgrp lng="ja">
-        <trd>&#12354;&#12394;&#12383;&#12383;&#12385;</trd>,
-        <trd>&#12354;&#12394;&#12383;&#12364;&#12383;</trd>,
-        <trd>&#21531;&#12383;&#12385; [<ind>&#12365;&#12415;&#12383;&#12385;</ind>]</trd>,
-        <trd>&#12362;&#21069;&#12425; [<ind>&#12362;&#12414;&#12360;&#12425;</ind>]</trd>
+        <trd>&#x3042;&#x306A;&#x305F;&#x305F;&#x3061;</trd>,
+        <trd>&#x3042;&#x306A;&#x305F;&#x304C;&#x305F;</trd>,
+        <trd>&#x541B;&#x305F;&#x3061; [<ind>&#x304D;&#x307F;&#x305F;&#x3061;</ind>]</trd>,
+        <trd>&#x304A;&#x524D;&#x3089; [<ind>&#x304A;&#x307E;&#x3048;&#x3089;</ind>]</trd>
       </trdgrp>
       <trdgrp lng="nl">
         <trd>jullie</trd>,
@@ -225,22 +233,60 @@
       <trdgrp lng="tr">
         <trd>siz</trd>
       </trdgrp>
-      <trd lng="zh">&#20320;&#20204; <klr>(pluralo, tr. &#20320;&#20497;)</klr>
-      [<ind>n&#464;men</ind>]</trd>
+      <trd lng="zh">&#x4F60;&#x4EEC; <klr>(pluralo, tr. &#x4F60;&#x5011;)</klr>
+      [<ind>n&#x1D0;men</ind>]</trd>
     </subsnc>
   </snc>
+  <trd lng="af">jy</trd>
+  <trd lng="am">&#x12A0;&#x1295;&#x127A;</trd>
+  <trd lng="ar">&#x623;&#x646;&#x62A;</trd>
+  <trd lng="az">siz</trd>
+  <trd lng="bn">&#x986;&#x9AA;&#x9A8;&#x9BF;</trd>
+  <trd lng="bs">te</trd>
+  <trd lng="co">tu</trd>
   <trd lng="cs">vy <klr>(ty)</klr></trd>
+  <trd lng="da">du</trd>
   <trd lng="en">you</trd>
+  <trd lng="et">sa</trd>
   <trdgrp lng="fr">
     <trd>tu</trd>,
     <trd>vous<klr> (sg. et pl.)</klr></trd>
   </trdgrp>
+  <trd lng="gl">ti</trd>
+  <trd lng="gu">&#xAA4;&#xAAE;&#xAC7;</trd>
+  <trd lng="ha">ka</trd>
+  <trd lng="hi">&#x906;&#x92A;</trd>
+  <trd lng="hr">&#x161;to</trd>
+  <trd lng="hy">&#x564;&#x578;&#x582;&#x584;</trd>
+  <trd lng="is">&#xFE;&#xFA;</trd>
+  <trd lng="jw">sampeyan</trd>
+  <trd lng="ka">&#x10D7;&#x10E5;&#x10D5;&#x10D4;&#x10DC;</trd>
+  <trd lng="km">&#x17A2;&#x17D2;&#x1793;&#x1780;</trd>
+  <trd lng="ko">&#xB2F9;&#xC2E0;</trd>
+  <trd lng="lo">&#xE97;&#xEC8;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD28;&#xD3F;&#xD19;&#xD4D;&#xD19;&#xD33;&#xD46;</trd>
+  <trd lng="mr">&#x906;&#x92A;&#x923;</trd>
+  <trd lng="my">&#x1001;&#x1004;&#x103A;&#x1017;&#x103B;&#x102C;&#x1038;</trd>
+  <trd lng="ne">&#x924;&#x92A;&#x93E;&#x908;&#x902;</trd>
+  <trd lng="ny">inu</trd>
+  <trd lng="pa">&#xA24;&#xA41;&#xA39;&#xA3E;&#xA28;&#xA42;&#xA70;</trd>
+  <trd lng="ps">&#x62A;&#x627;&#x633;&#x648;</trd>
+  <trd lng="sd">&#x62A;&#x648;&#x647;&#x627;&#x646;</trd>
+  <trd lng="si">&#xD94;&#xDB6;</trd>
+  <trd lng="sq">ju</trd>
+  <trd lng="ta">&#xBA8;&#xBC0;&#xB99;&#xBCD;&#xB95;&#xBB3;&#xBCD;</trd>
+  <trd lng="te">&#xC2E;&#xC40;&#xC30;&#xC41;</trd>
+  <trd lng="th">&#xE04;&#xE38;&#xE13;</trd>
+  <trd lng="tl">sa iyo</trd>
+  <trd lng="ur">&#x622;&#x67E;</trd>
+  <trd lng="vi">anh</trd>
+  <trd lng="yi">&#x5D0;&#x5D9;&#x5E8;</trd>
+  <trd lng="zu">wena</trd>
 </drv>
 
 <drv mrk="vi.0a">
   <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url
-  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5250">vi'a</url></lok></fnt></kap>
+  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5250">vi'a</url></lok></fnt></kap>
   <snc mrk="vi.0a.KOMUNE">
     <dif>
       Posedata de <tld/>, rilata al <tld/>.
@@ -268,9 +314,9 @@
         <trd>vua<klr> (&gcirc;entila)</klr></trd>
       </trdgrp>
       <trdgrp lng="ja">
-        <trd>&#12354;&#12394;&#12383;&#12398;</trd>,
-        <trd>&#21531;&#12398; [<ind>&#12365;&#12415;&#12398;</ind>]</trd>,
-        <trd>&#12362;&#21069;&#12398; [<ind>&#12362;&#12414;&#12360;&#12398;</ind>]</trd>
+        <trd>&#x3042;&#x306A;&#x305F;&#x306E;</trd>,
+        <trd>&#x541B;&#x306E; [<ind>&#x304D;&#x307F;&#x306E;</ind>]</trd>,
+        <trd>&#x304A;&#x524D;&#x306E; [<ind>&#x304A;&#x307E;&#x3048;&#x306E;</ind>]</trd>
       </trdgrp>
       <trdgrp lng="nl">
         <trd>jouw</trd>,
@@ -312,10 +358,12 @@
       <trd lng="id"><ind>milik</ind> kalian</trd>
       <trd lng="io">via</trd>
       <trdgrp lng="ja">
-        <trd>&#12354;&#12394;&#12383;&#12383;&#12385;&#12398;</trd>,
-        <trd>&#12354;&#12394;&#12383;&#12364;&#12383;&#12398;</trd>,
-        <trd>&#21531;&#12383;&#12385;&#12398; [<ind>&#12365;&#12415;&#12383;&#12385;&#12398;</ind>]</trd>,
-        <trd>&#12362;&#21069;&#12425;&#12398; [<ind>&#12362;&#12414;&#12360;&#12425;&#12398;</ind>]</trd>
+        <trd>&#x3042;&#x306A;&#x305F;&#x305F;&#x3061;&#x306E;</trd>,
+        <trd>&#x3042;&#x306A;&#x305F;&#x304C;&#x305F;&#x306E;</trd>,
+        <trd>&#x541B;&#x305F;&#x3061;&#x306E;
+        [<ind>&#x304D;&#x307F;&#x305F;&#x3061;&#x306E;</ind>]</trd>,
+        <trd>&#x304A;&#x524D;&#x3089;&#x306E;
+        [<ind>&#x304A;&#x307E;&#x3048;&#x3089;&#x306E;</ind>]</trd>
       </trdgrp>
       <trdgrp lng="nl">
         <trd>jullie</trd>,
@@ -343,16 +391,54 @@
       </trdgrp>
     </subsnc>
   </snc>
+  <trd lng="af">jou</trd>
+  <trd lng="am">&#x12EB;&#x1295;&#x1270;</trd>
+  <trd lng="ar">&#x643;</trd>
+  <trd lng="az">sizin</trd>
+  <trd lng="bn">&#x986;&#x9AA;&#x9A8;&#x9BE;&#x9B0;</trd>
+  <trd lng="bs">svoje</trd>
+  <trd lng="co">vostri</trd>
   <trd lng="cs">v&aacute;&scaron; <klr>(tv&uring;j)</klr></trd>
+  <trd lng="da">deres</trd>
   <trd lng="en">your</trd>
+  <trd lng="et">oma</trd>
+  <trd lng="eu">zure</trd>
   <trdgrp lng="fr">
     <trd>ton</trd>,
     <trd>votre<klr> (sg. et pl.)</klr></trd>
   </trdgrp>
+  <trd lng="gl">seu</trd>
+  <trd lng="gu">&#xAA4;&#xAAE;&#xABE;&#xAB0;&#xABE;</trd>
+  <trd lng="hi">&#x905;&#x92A;&#x928;&#x947;</trd>
+  <trd lng="hr">va&#x161;</trd>
+  <trd lng="hy">&#x571;&#x565;&#x580;</trd>
+  <trd lng="is">&#xFE;inn</trd>
+  <trd lng="jw">panjenengan</trd>
+  <trd lng="ka">&#x10D7;&#x10E5;&#x10D5;&#x10D4;&#x10DC;&#x10D8;</trd>
+  <trd lng="km">&#x179A;&#x1794;&#x179F;&#x17CB;&#x17A2;&#x17D2;&#x1793;&#x1780;</trd>
+  <trd lng="ko">&#xB2F9;&#xC2E0;&#xC758;</trd>
+  <trd lng="lo">&#xE82;&#xEAD;&#xE87;&#xE97;&#xEC8;&#xEB2;&#xE99;</trd>
+  <trd lng="ml">&#xD28;&#xD3F;&#xD19;&#xD4D;&#xD19;&#xD33;&#xD41;&#xD1F;&#xD46;</trd>
+  <trd lng="mr">&#x906;&#x92A;&#x932;&#x94D;&#x92F;&#x93E;</trd>
+  <trd lng="my">&#x101E;&#x1004;&#x1037;&#x103A;</trd>
+  <trd lng="ny">anu</trd>
+  <trd lng="pa">&#xA24;&#xA41;&#xA39;&#xA3E;&#xA21;&#xA47;</trd>
+  <trd lng="ps">&#x633;&#x62A;&#x627;&#x633;&#x648;</trd>
+  <trd lng="sd">&#x62A;&#x646;&#x647;&#x646;&#x62C;&#x648;</trd>
+  <trd lng="si">&#xD94;&#xDB6;&#xD9C;&#xDDA;</trd>
   <trdgrp lng="sk">
     <trd>tvoj</trd>,
     <trd>v&aacute;&scaron;</trd>
   </trdgrp>
+  <trd lng="sq">tuaj</trd>
+  <trd lng="ta">&#xB89;&#xB99;&#xBCD;&#xB95;&#xBB3;&#xBCD;</trd>
+  <trd lng="te">&#xC2E;&#xC40;</trd>
+  <trd lng="th">&#xE02;&#xE2D;&#xE07;&#xE04;&#xE38;&#xE13;</trd>
+  <trd lng="tl">iyong</trd>
+  <trd lng="ur">&#x622;&#x67E;</trd>
+  <trd lng="vi">c&#x1EE7;a b&#x1EA1;n</trd>
+  <trd lng="yi">&#x5D3;&#x5D9;&#x5D9;&#x5DF;</trd>
+  <trd lng="zu">sakho</trd>
 </drv>
 
 <drv mrk="vi.0umi">
@@ -367,8 +453,7 @@
         10-jaran frateton
         <fnt>
           <aut>darkweasel</aut>,
-          <vrk><url
-          ref="http://en.lernu.net/komunikado/forumo/temo.php?t=6289">
+          <vrk><url ref="http://en.lernu.net/komunikado/forumo/temo.php?t=6289">
           Ciumado kaj viumado</url></vrk>,
           <lok>lernu.net, 2010-04-18</lok>
         </fnt>.
@@ -383,9 +468,9 @@
 </drv>
 </art>
 <!--
-$Log: vi.xml,v $
-Revision 1.44  2019/07/06 06:10:22  revo
-Aleks Andre: zh: indekso
+$Log$
+versio 1.45 2020/12/29 11:10:34
+Aleks Andre: +trd bo
 
 Revision 1.43  2017/12/19 23:10:20  revo
 Michel Cantigneaux: "vi/a" fundamenta kunmetajxo el la U.V.

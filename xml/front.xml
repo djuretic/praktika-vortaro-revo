@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: front.xml,v 1.27 2017/06/06 07:10:14 revo Exp $">
+<art mrk="$Id: front.xml,v 1.71 2021/06/18 20:41:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>front</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,8 +10,8 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="front.0o.antauxo">
     <dif>
-      Anta&ubreve;a, la&ubreve;lar&gcirc;a, kvaza&ubreve;frunta parto de
-      objekto:
+      Anta&ubreve;a, la&ubreve;lar&gcirc;a parto de objekto,
+      kontraste al <ref tip="ant" cel="dors.0o.malantauxa">dorso<sncref/></ref>:
       <ekz>
         <uzo tip="fak">ARKI</uzo>
         <ind><tld/>o de konstrua&jcirc;o</ind>, de palaco;
@@ -25,6 +24,11 @@
         <trd lng="hu">homlokzati ablak</trd>
       </ekz>
       <ekz>
+        <uzo tip="stl">FRAZ</uzo>
+        <ind><tld/>o a&ubreve; dorso</ind>
+        <trd lng="fr">pile ou face</trd>;
+      </ekz>
+      <ekz>
         <ind><tld/>artikolo</ind> de gazeto
         <klr>(tiu &ccirc;e la plej anta&ubreve;a loko;
         &ccirc;efartikolo.)</klr>
@@ -34,14 +38,14 @@
         la generaloj sin lokis en la <tld/>o de l' kolonoj
         <fnt>
           <bib>Far3</bib>
-          <lok>&Ccirc;apitro XVI</lok>
+          <lok>&ccirc;apitro 16a</lok>
         </fnt>;
       </ekz>
       <ekz>
         en la <tld/>o de la bando iris grandega laboristo kun tor&ccirc;o
         <fnt>
           <bib>Far3</bib>
-          <lok>&Ccirc;apitro XVI</lok>
+          <lok>&ccirc;apitro 16a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -57,11 +61,14 @@
         li aktivus en la Nacia <tld lit="F"/>o (la ekstremdekstra rasista partio)
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/006947.html'>REAGO: 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/006947.html">REAGO: 
            Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="avers.0o.KOMUNE">averso</ref>;
+    </refgrp>
     <refgrp tip="vid">
       <ref cel="fasad.0o">fasado</ref>,
       <ref cel="fronto.0o">frontono</ref>;
@@ -97,7 +104,7 @@
         de supre &gcirc;i estas barata de la angla, de malsupre de la regionaj lingvoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/007000.html'>Atento por 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007000.html">Atento por 
            etaj kaj monda lingvoj</url></vrk>
         </fnt>.
       </ekz>
@@ -118,12 +125,20 @@
      Indus korekti tradukojn post aldono de la uzo MIL.
      <aut>SC</aut>
   </adm>
+  <trd lng="af">front</trd>
+  <trd lng="am">&#x134A;&#x1275;&#x1208;&#x134A;&#x1275;</trd>
+  <trd lng="ar">&#x627;&#x644;&#x62C;&#x628;&#x647;&#x629;</trd>
+  <trd lng="az">&#xF6;n</trd>
+  <trd lng="bn">&#x9B8;&#x9BE;&#x9AE;&#x9A8;&#x9C7;</trd>
+  <trd lng="bs">prednji</trd>
+  <trd lng="co">fronte,</trd>
   <trdgrp lng="cs">
     <trd>fronta</trd>,
     <trd>pr&uring;&ccaron;el&iacute;</trd>,
     <trd>p&rcaron;edn&iacute; &ccaron;&aacute;st</trd>,
     <trd>&ccaron;elo</trd>
   </trdgrp>
+  <trd lng="da">forside</trd>
   <trdgrp lng="de">
     <trd>Front</trd>,
     <trd>Vorderseite</trd>,
@@ -131,12 +146,20 @@
   </trdgrp>
   <trd lng="en">front</trd>
   <trd lng="es">frente</trd>
+  <trd lng="et">ees</trd>
+  <trd lng="eu">aurrean</trd>
   <trdgrp lng="fr">
     <trd>front<klr tip="ind"> (partie ant&eacute;rieure)</klr></trd>,
     <trd>avant<klr tip="ind"> (ligne de front)</klr></trd>,
     <trd>ligne de front</trd>,
     <trd>bloc<klr tip="ind"> (parti politique)</klr></trd>
   </trdgrp>
+  <trd lng="fy">front</trd>
+  <trd lng="gl">fronte</trd>
+  <trd lng="gu">&#xAB8;&#xABE;&#xAAE;&#xAC7;</trd>
+  <trd lng="ha">gaba</trd>
+  <trd lng="hi">&#x938;&#x93E;&#x92E;&#x928;&#x947;</trd>
+  <trd lng="hr">prednji</trd>
   <trdgrp lng="hu">
     <trd>homlokr&eacute;sz</trd>,
     <trd>eleje</trd>,
@@ -145,12 +168,27 @@
       <trd>arcvonal</trd>,
       <trd>front</trd>
     </trdgrp>
+  <trd lng="hy">&#x573;&#x561;&#x56F;&#x561;&#x57F;</trd>
+  <trd lng="is">framan</trd>
+  <trd lng="ja">&#x30D5;&#x30ED;&#x30F3;&#x30C8;</trd>
+  <trd lng="jw">ngarep</trd>
+  <trd lng="ka">&#x10EC;&#x10D8;&#x10DC;&#x10D0;</trd>
+  <trd lng="km">&#x1795;&#x17D2;&#x1793;&#x17C2;&#x1780;&#x1781;&#x17B6;&#x1784;&#x1798;&#x17BB;&#x1781;</trd>
+  <trd lng="ko">&#xC55E;</trd>
+  <trd lng="lo">&#xEAB;&#xE99;&#xEC9;&#xEB2;</trd>
+  <trd lng="ml">&#xD2B;&#xD4D;&#xD30;&#xD23;&#xD4D;&#xD1F;&#xD4D;</trd>
+  <trd lng="mr">&#x938;&#x92E;&#x94B;&#x930;</trd>
+  <trd lng="my">&#x101B;&#x103E;&#x1031;&#x1037;</trd>
+  <trd lng="ne">&#x905;&#x917;&#x93E;&#x921;&#x93F;</trd>
   <trdgrp lng="nl">
     <trd>front</trd>,
     <trd>voorzijde</trd>,
     <trd>voorkant</trd>
   </trdgrp><trd lng="nl">front</trd>
+  <trd lng="ny">kutsogolo</trd>
+  <trd lng="pa">&#xA38;&#xA3E;&#xA39;&#xA2E;&#xA23;&#xA47;</trd>
   <trd lng="pl">front</trd>
+  <trd lng="ps">&#x645;&#x62E;</trd>
   <trdgrp lng="pt">
     <trd>frente</trd>,
     <trd>vanguarda</trd>,
@@ -163,11 +201,22 @@
     <trd>&c_p;&c_je;&c_r;&c_je;&c_d;&c_n;&c_ja;&c_ja;
     &c_s;&c_t;&c_o;&c_r;&c_o;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="sd">&#x645;&#x626;&#x67D;&#x631;&#x6AA;</trd>
+  <trd lng="si">&#xD89;&#xDAF;&#xDD2;&#xDBB;&#xDD2;&#xDB4;&#xDC3;</trd>
   <trd lng="sk">&ccaron;eln&aacute; strana</trd>
+  <trd lng="sq">para</trd>
+  <trd lng="st">pel&#x2019;a</trd>
   <trdgrp lng="sv">
     <trd>front</trd>,
     <trd>framsida</trd>
   </trdgrp>
+<trd lng="ta">&#xBAE;&#xBC1;&#xBA9;&#xBCD;</trd>
+  <trd lng="te">&#xC2E;&#xC41;&#xC02;&#xC26;&#xC41;</trd>
+  <trd lng="th">&#xE14;&#xE49;&#xE32;&#xE19;&#xE2B;&#xE19;&#xE49;&#xE32;, &#xE02;&#xE49;&#xE32;&#xE07;&#xE2B;&#xE19;&#xE49;&#xE32;</trd>
+  <trd lng="ur">&#x633;&#x627;&#x645;&#x646;&#x6D2;</trd>
+  <trd lng="vi">tr&#x1B0;&#x1EDB;c</trd>
+  <trd lng="yi">&#x5E4;&#x5E8;&#x5D0;&#x5B8;&#x5E0;&#x5D8;</trd>
+  <trd lng="zu">phambili</trd>
 </drv>
 
 <drv mrk="front.0e">
@@ -176,7 +225,7 @@
     <dif>
       Sur la <tld/>a flanko:
       <ekz>
-        <tld/>e agitis, cetere, la germana registaro kun la sama Schr&ouml;der 
+        <tld/>e agitis, cetere, la germana registaro kun la sama <nom>Schr&ouml;der</nom> 
         en la pinto, kiu postulis eligi eksterlandanojn
         <fnt>
           <bib>Monato</bib>
@@ -186,7 +235,7 @@
         <klr>[li]</klr> &jcirc;etis ankron <tld/>e de la golfo de Tokio
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/006909.html'>JAPANIO: 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/006909.html">JAPANIO: 
             Takasugi Sinsaku: Novjara kla&ccirc;o super konjako</url></vrk>
         </fnt>;
       </ekz>
@@ -195,7 +244,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit BERVELING</aut>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/007031.html'>KATOLIKISMO: Johano Hus 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007031.html">KATOLIKISMO: Johano Hus 
           &dash; &ccirc;u ne plu herezulo?</url></vrk>
         </fnt>.
       </ekz>
@@ -314,7 +363,7 @@
         objektiva informado <tld/>e al la vipura &jcirc;urnalismo
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/007264.html'>Morti 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007264.html">Morti 
           miskomprene (1)</url></vrk>
         </fnt>;
       </ekz>
@@ -323,7 +372,7 @@
         oni rajtas demandi sin, kiu &ccirc;i-rilate vere stultumas
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/007143.html'>&Ccirc;u ni mortu
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007143.html">&Ccirc;u ni mortu
             miskomprene? (2)</url></vrk>
         </fnt>.
       </ekz>
@@ -363,12 +412,11 @@
         </fnt>
       </ekz>
       <ekz>
-        FIFA <klr>...</klr> <tld/>as akuzojn de koruptado
+        <nom>FIFA</nom> <klr>[&#x2026;]</klr> <tld/>as akuzojn de koruptado
         <fnt>
           <aut>-</aut>,
           <vrk>Sindikataj nova&jcirc;o</vrk>,
-          <lok><url
-          ref="http://www.slea.se/informilo_1_2014_PDFversion.pdf">
+          <lok><url ref="http://www.slea.se/informilo_1_2014_PDFversion.pdf">
           SLEA Informilo, 2014-03 (1)</url>,
           </lok>
         </fnt> 
@@ -410,6 +458,7 @@
     <trd>by&tcaron; naproti</trd>,
     <trd>postavi&tcaron; sa zo&ccaron;i vo&ccaron;i</trd>
   </trdgrp>
+<trd lng="th">&#xE40;&#xE1C;&#xE0A;&#xE34;&#xE0D;&#xE2B;&#xE19;&#xE49;&#xE32;</trd>
 </drv>
 
 <drv mrk="front.al0i">
@@ -422,11 +471,11 @@
         al<tld/>i dan&gcirc;eron, malsanon;
       </ekz>
       <ekz>
-        Intel al<tld/>as konkurencon
+        <nom>Intel</nom> al<tld/>as konkurencon
         <fnt>
           <bib>Monato</bib>
           <aut>Franck ARNAUD</aut>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/007114.html'>Intel 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007114.html">Intel 
            alfrontas konkurencon</url></vrk>
         </fnt>;
       </ekz>
@@ -435,7 +484,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Reza KHEIR-KHAH</aut>
-          <vrk><url ref='http://www.esperanto.be/fel/mon/007087.html'>SON&Gcirc;O: Mirinda 
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007087.html">SON&Gcirc;O: Mirinda 
            dimensio de nia vivo</url></vrk>
         </fnt>.
       </ekz>
@@ -457,6 +506,10 @@
     <trd>faire <ind>face</ind> (&agrave;)</trd>,
     <trd>se <ind>mesurer</ind> (&agrave;)</trd>
   </trdgrp>
+  <trdgrp lng="he">
+    <trd>&#x5DC;&#x5E7;&#x5D3;&#x5DD;</trd>,
+    <trd>&#x5DC;&#x5E2;&#x5DE;&#x5D5;&#x5D3; &#x5DE;&#x5D5;&#x5DC;</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>szembesz&aacute;ll</trd>,
     <trd>felveszi a harcot</trd>,
@@ -467,14 +520,20 @@
     <trd>stawa&cacute; <ind>naprzeciw</ind></trd>,
     <trd>stawia&cacute; <ind>czo&lstroke;a</ind></trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_t;&c_mol;</trd>
   <trd lng="sk">&ccaron;eli&tcaron;</trd>
   <trd lng="sv">konfrontera</trd>
+<trd lng="th">&#xE40;&#xE1C;&#xE0A;&#xE34;&#xE0D;&#xE2B;&#xE19;&#xE49;&#xE32;</trd>
 </drv>
 </art>
 <!--
 $Log: front.xml,v $
+versio 1.29 2020/04/15 18:10:18
+Warut Bunprasert: +trd th
+
+Revision 1.28  2020/03/27 20:10:21  revo
+Jeromo Vasxe: ~o + 2 ref + 1 ekz
+
 Revision 1.27  2017/06/06 07:10:14  revo
 Wolfram Diestel: kor. mrk, prilaboris ekz-ojn
 
@@ -490,12 +549,5 @@ aldono de trd cs per skripto de M. von Laer
 
 Revision 1.23  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2015/01/31 18:10:16  revo
-Jeromo Vasxe: ~i + ekz al + ekz tr
-
-Revision 1.21  2014/10/19 02:10:25  revo
-Carlos Garcia: +trd es al-i krkt -i
-
 -->
 </vortaro>

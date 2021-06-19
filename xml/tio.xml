@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: tio.xml,v 1.24 2017/11/17 23:10:30 revo Exp $">
+<art mrk="$Id: tio.xml,v 1.28 2021/05/28 17:04:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tio</rad>
@@ -10,17 +9,24 @@
 
 <drv mrk="tio.0">
   <kap><ofc>*</ofc><tld/></kap>
-  <snc>
+  <snc mrk="tio.0.montra">
     <dif>
-      Montra pronomo signifanta &leftquot;io, kion mi nun vidas
-      anta&ubreve; mi a&ubreve; pri kio
-      mi nun parolas; tiu afero, tiu a&jcirc;o, tiu objekto, tiu
+      Montra <ref tip="super" cel="pronom.0o">pronomo</ref> signifanta &leftquot;io, kion mi nun vidas
+      anta&ubreve; mi a&ubreve; pri kio mi nun parolas; tiu afero, tiu a&jcirc;o, tiu objekto, tiu
       ideo&rightquot;:
       <ekz>
-        <tld/> estas tre facila;
+        <tld/>, kion vi nun vidas, estas la luno, kaj <tld/>, kio subiris, estis la suno
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Ne&gcirc;ulo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ind><tld/> &ccirc;i</ind>;
+        <ind><tld/> &ccirc;i</ind> estis feino
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 15</lok>
+        </fnt>;
         <trd lng="be">&c_g;&c_e;&c_t;&c_a;&c_je;</trd>
         <trd lng="de">das hier</trd>
         <trd lng="en">this<klr tip="ind"> (pronoun)</klr></trd>
@@ -34,95 +40,167 @@
         <trd lng="sk">toto</trd>
       </ekz>
       <ekz>
-        de kiu <tld/> venas?<fnt>Z</fnt>
+        de kie <tld/> &ccirc;i venas
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 23</lok>
+        </fnt>?
       </ekz>
       <ekz>
-        kion <tld/> signifas?
+        kion tio signifas
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>?
       </ekz>
       <ekz>
-        ekzistas personoj, kiuj <tld/>n ne komprenas<fnt>Z</fnt>;
+        ekzistas personoj, kiuj <tld/>n ne komprenas
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvina Kongreso Esperantista en Barcelona en la 6a de septembro 1909</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> &ccirc;i estas la &ccirc;efa celo de niaj
-        kongresoj<fnt>Z</fnt>;
+        <tld/> &ccirc;i estas <klr>[&#x2026;]</klr> la &ccirc;efa celo de niaj
+        kongresoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        li ne similas al <tld/>, kio li anta&ubreve;e estis<fnt>Z</fnt>;
+        li <klr>[ne]</klr> similas nun al <tld/>, kio li anta&ubreve;e estis
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>, kion vi diras, estas tre grava;
+        <tld/>, kion vi rakontas, estas bela
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        &scirc;i rakontis <tld/>n, kio okazis al &scirc;i<fnt>Z</fnt>;
+        lia edzino rakontis al li <tld/>n, kio okazis
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 25:37</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> &ccirc;i estis feino<fnt>Z</fnt>;
+        &ccirc;u tio estas vi, mia filo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 27:24</lok>
+        </fnt>?
       </ekz>
       <ekz>
-        &ccirc;u <tld/> estas vi, Ivan?<fnt>Z</fnt>
+        <tld/> &ccirc;i estas mia <klr>[&#x2026;]</klr> opinio
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> estas tute mia opinio;
+        <tld/> estas bovinoj, kiuj blekas
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> estas hundoj, kiuj bojas;
+        tio estas ili, kiuj parolis al Faraono
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 6:27</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> estas ili, kiuj parolis al faraono<fnt>Z</fnt>;
+        <tld/> estis la vortoj, per kiuj <klr>[li]</klr> finis
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> estas tiuj fremduloj, kiujn ni atendis;
+        <tld/> &ccirc;i estis la unua fojo
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 17</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/> estis la vortoj, per kiuj li finis;
-      </ekz>
-      <ekz>
-        (<tld/> &ccirc;i) estis la unua fojo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        kion ni promesis, <tld/>n plenumu<fnt>Z</fnt>;
+        kion vi promesis, <tld/>n plenumu
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 5:4</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mi volis atentigi vin pri <tld/>, ke en nia afero &ccirc;io
-        povas esti
-        atingita nur per harmonio kaj konstanteco<fnt>Z</fnt>;
+        povas esti atingita nur per harmonio kaj konstanteco
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         la esperantismo celas nur al <tld/>, ke ia ta&ubreve;ga kaj
-        vivipova
-        komprenilo inter la popoloj ekzistu<fnt>Z</fnt>;
+        <esc>vivipova</esc> komprenilo inter la popoloj ekzistu
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado en la Guildhall (Londono) en la 21a de a&ubreve;gusto 1907</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        la dan&gcirc;ero de ilia atako konsistis en <tld/> ke &gcirc;i
-        estis ka&scirc;ite
-        preparita<fnt>Z</fnt>;
+        la dan&gcirc;ereco de ilia atako konsistis en <tld/>, ke <klr>[&#x2026;]</klr> &gcirc;i estis
+        ka&scirc;ite preparita
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         la dua kulpigo, kiun ni ofte devas a&ubreve;di, estas <tld/>, ke
-        ni estas
-        malbonaj patriotoj<fnt>Z</fnt>;
+        ni <klr>[&#x2026;]</klr> estas malbonaj patriotoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado en la Guildhall (Londono) en la 21a de a&ubreve;gusto 1907</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        ni memoru pri <tld/>, ke niaj kongresoj estas anta&ubreve;parolo
-        por la
-        historio de la estonta interfratigita homaro<fnt>Z</fnt>;
+        ni memoru pri <tld/>, ke niaj kongresoj estas <klr>[&#x2026;]</klr> anta&ubreve;parolo
+        por la historio de la estonta interfratigita homaro
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        &ccirc;io dependas de <tld/>, kiel oni konsideras la aferon;
+        &ccirc;io dependas de <tld/>, kiel oni ian aferon konsideras
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        konforme al <tld/> kiel mi ordonis al vi<fnt>Z</fnt>.
+        konforme al <tld/> kiel mi ordonis al vi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 31:11</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="kio.0">kio 3</ref>,
-      <ref cel="gxi.0">&gcirc;i</ref>.
+      <ref cel="kio.0.relativa">kio<sncref/></ref>,
+      <ref cel="gxi.0">&gcirc;i</ref>
     </refgrp>
     <refgrp tip="vid">
-      <ref cel="est.0i">esti 3</ref>.
+      <ref cel="est.0i.io">esti<sncref/></ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_o;&c_je;</trd>
+  <trd lng="bo">&#xF55;&#xF0B;&#xF42;&#xF72;&#xF0B;</trd>
   <trd lng="cs">to</trd>
   <trd lng="de">das <klr tip="amb">(Dem.-Pron.)</klr></trd>
   <trd lng="en">that<klr tip="ind"> (pronoun)</klr></trd>
@@ -133,6 +211,7 @@
   </trdgrp>
   <trd lng="hu">az</trd>
   <trd lng="id">itu</trd>
+  <trd lng="ne">&#x915;&#x93F;</trd>
   <trd lng="nl">dat</trd>
   <trdgrp lng="pl">
     <trd>tamto</trd>,
@@ -155,9 +234,12 @@
 </drv>
 </art>
 <!--
-$Log: tio.xml,v $
-Revision 1.24  2017/11/17 23:10:30  revo
-Vito Redsky: +trd pl+trd ro
+$Log$
+versio 1.26 2021/03/11 18:58:07
+Wolfram Diestel: ref
+
+versio 1.25 2021/03/11 18:04:56
+Wolfram Diestel: +fnt-oj
 
 Revision 1.23  2014/10/28 04:10:27  revo
 Eko Nur Syah Hidayat: +trd id
@@ -175,8 +257,5 @@ Revision 1.19  2007/05/03 16:51:43  revo
 Wieland Pusch: +trd de
 
 Revision 1.18  2004/12/05 17:35:52  revo
-Marc Bavant: kor duobligitajn punktojn
-
-Revision 1.17  2004/12/02 17:31:20  revo
 -->
 </vortaro>
