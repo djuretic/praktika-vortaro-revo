@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aktiv.xml,v 1.39 2021/05/03 08:57:24 revo Exp $">
+<art mrk="$Id: aktiv.xml,v 1.44 2022/05/29 20:33:08 revo Exp $">
 <kap>
   <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
   <rad>aktiv</rad>/a
@@ -125,15 +125,33 @@
   <trd lng="en">active</trd>
   <trd lng="es">activo</trd>
   <trd lng="fr">actif</trd>
-  <trd lng="he">&#x5E4;&#x5BC;&#x5B8;&#x5E2;&#x5B4;&#x5D9;&#x5DC;</trd>
+  <trd lng="he">&pe;&#x5BC;&#x5B8;&ayin;&#x5B4;&yod;&lamed;</trd>
   <trd lng="it">attivo</trd>
   <trd lng="nl">actief</trd>
+  <trdgrp lng="pl">
+    <trd>aktywny</trd>,
+    <trd>czynny</trd>,
+    <trd>ruchliwy</trd>
+  </trdgrp>
   <trd lng="pt">ativo</trd>
+  <trdgrp lng="ro">
+    <trd>activ</trd>,
+    <trd>agil</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>akt&iacute;vny</trd>,
     <trd>reakt&iacute;vny</trd>,
     <trd>&uacute;&ccaron;inn&yacute;</trd>,
     <trd>&ccaron;inn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_a;&#x43A;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_zh;&c_v;&c_a;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_d;&c_ib;&#x44F;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_je;&#x43D;&c_je;&c_r;&c_g;&c_ib;&c_j;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_je;&c_f;&c_je;&#x43A;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43B;&c_ib;&#x43D;&c_gu;&c_v;. &c_d;&c_ib;&c_j;&c_s;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_a;&#x43A;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j; (&#x43F;&c_r;&#x43E; &c_s;&c_t;&c_a;&#x43D;)</trd>
   </trdgrp>
 </drv>
 
@@ -147,7 +165,7 @@
         en Esperantujo mi <tld/>is precipe &jcirc;urnaliste
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="https://www.monato.be/2003/008009.html">Stefan Maul</url></vrk>
+          <vrk><url ref="&Monato;/2003/008009.html">Stefan Maul</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -169,7 +187,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007057.html">&Gcirc;uiga enhavo, ne&gcirc;uiga
+          <vrk><url ref="&Steloj;monato2/007057.html">&Gcirc;uiga enhavo, ne&gcirc;uiga
           traduko</url></vrk>
         </fnt>;
       </ekz>
@@ -178,7 +196,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
-          <vrk><url ref="https://www.monato.be/2003/008060.html">Siluroj, &ccirc;u supersti&ccirc;o a&ubreve;
+          <vrk><url ref="&Monato;/2003/008060.html">Siluroj, &ccirc;u supersti&ccirc;o a&ubreve;
           scienco?</url></vrk>
           <lok>2003</lok>
         </fnt>.
@@ -191,6 +209,11 @@
   </trdgrp>
   <trd lng="de">handeln</trd>
   <trd lng="fr">&ecirc;tre <ind>actif</ind></trd>
+  <trdgrp lng="pl">
+    <trd>by&cacute;  <ind>aktywnym</ind></trd>,
+    <trd>by&cacute; czynnym</trd>
+  </trdgrp>
+  <trd lng="ro">fii activ</trd>
 </drv>
 
 <drv mrk="aktiv.0o">
@@ -209,7 +232,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="https://www.monato.be/2003/008044.html">Internaciaj bankoj stabiligas siajn
+          <vrk><url ref="&Monato;/2003/008044.html">Internaciaj bankoj stabiligas siajn
           poziciojn</url></vrk>
           <lok>2003</lok>
         </fnt>;
@@ -220,7 +243,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.be/2006/009072.php">La prokuroro kaj la
+          <vrk><url ref="&Monato;/2006/009072.php">La prokuroro kaj la
           prezidanto</url></vrk>
           <lok>2006</lok>
         </fnt>.
@@ -242,7 +265,12 @@
       <trd>actief</trd>,
       <trd>activa</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>&sacute;rodki czynne</trd>,
+      <trd>aktywa</trd>
+    </trdgrp>
     <trd lng="pt">ativo</trd>
+    <trd lng="ro">mijloace active</trd>
     <trd lng="ru">&c_a;&c_k;&c_t;&c_i;&c_v;</trd>
     <trd lng="sk">akt&iacute;vum</trd>
   </snc>
@@ -266,7 +294,9 @@
     <trd lng="es">voz <ind>activa</ind></trd>
     <trd lng="fr">voix <ind>active</ind></trd>
     <trd lng="nl">actief</trd>
+    <trd lng="pl">strona czynna mowy</trd>
     <trd lng="pt">voz <ind>ativa</ind></trd>
+    <trd lng="ro">pagina activ&abreve; de vorbire</trd>
     <trd lng="ru">&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
     &c_z;&c_a;&c_l;&c_o;&c_g;</trd>
     <trd lng="th">&#xE01;&#xE23;&#xE23;&#xE15;&#xE38;&#xE27;&#xE32;&#xE08;&#xE01;</trd>
@@ -278,12 +308,104 @@
     <trd>&ccaron;innost</trd>,
     <trd>&ccaron;inorodost</trd>
   </trdgrp>
-  <trd lng="he">&#x5E4;&#x5E2;&#x5D9;&#x5DC;&#x5D5;&#x5EA;</trd>
+  <trd lng="he">&pe;&ayin;&yod;&lamed;&vav;&tav;</trd>
   <trdgrp lng="sk">
     <trd>aktivita</trd>,
     <trd>v&yacute;konnos&tcaron;</trd>,
     <trd>&uacute;&ccaron;innos&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&c_a;&#x43A;&c_t;&c_i;&c_v;</trd>
+</drv>
+
+<drv mrk="aktiv.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="okaz.0ajxo.KOMUNE">Okaza&jcirc;o</ref>, en kiu oni estas <tld/>a:
+      <ekz>
+        oni aran&gcirc;is multajn <tld/>a&jcirc;ojn ne nur kuirartajn sed anka&ubreve; sportajn, dancajn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2005/008313.php">Tago de la somero</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> prezentis fotojn <klr>[&#8230;]</klr> de spektaklaj <tld/>a&jcirc;oj de la
+        bone konata geedza paro, kiu internacie fami&gcirc;is pro vualado de gigantaj
+        objektoj per artefaritaj teksa&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Steloj;monato2/007013.html">A&ubreve;strio: Ekspozicio de famaj
+          artistoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        grupo de subtenantoj da&ubreve;rigas <tld/>a&jcirc;ojn por kolekti monon kaj tiel subteni la
+        akvoprojekton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="&Monato;/2009/009801.php">La blua miraklo</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Aktivit&auml;t</trd>
+    <trdgrp lng="pl">
+      <trd>co&sacute;  <ind>aktywnego</ind></trd>,
+      <trd>gotowizna</trd>,
+    </trdgrp>    
+    <trdgrp lng="ro">
+      <trd>ceva  <ind>activ</ind></trd>,
+      <trd>numerar</trd>,
+    </trdgrp>
+  </snc>
+  <snc mrk="aktiv.0ajxo.EKON">
+    <dif>
+      Unuopa elemento de <ref tip="sin" cel="aktiv.0o.EKON"><tld/>o<sncref/></ref>:
+      <ekz>
+        la ju&gcirc;isto nomumis tri kuratorojn kiuj, &gcirc;is la definitiva decido pri konkordato
+        a&ubreve; bankroto, zorgu ke ne estas <tld/>a&jcirc;oj ka&scirc;e vendataj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Steloj;monato2/007334.html">Belgio: Lernout kaj Hauspie: revo
+          fini&gcirc;is</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        preska&ubreve; &ccirc;iuj financaj investoj kaj <tld/>a&jcirc;oj kiel terkultivado kaj minado estas
+        liberigitaj de naciaj restriktoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Elson B. Snow</aut>
+          <vrk><url ref="&Monato;/2003/008146.html">Sekvoj de la pakto pri libera
+          merkato</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;ina registaro anta&ubreve; nelonge difinis, ke familio, kiu posedas familian
+        <tld/>a&jcirc;on super 300&#x202F;000 juanoj, kaj havas jarenspezon super 100&#x202F;000 juanoj,
+        apartenas al la meza klaso
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="&Monato;/2005/008531.php">Konsumado de luksaj varoj kreskas</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>      
+    </dif>
+    <trd lng="de">Aktivposten</trd>
+    <trd lng="en">asset</trd>
+    <trd lng="pl">ka&zdot;dy sk&lstroke;adnik  <ind>aktywu</ind></trd>
+    <trd lng="ro">fiecare component&abreve; a  <ind>activului</ind></trd>
+  </snc>
 </drv>
 
 <drv mrk="aktiv.0eco">
@@ -332,10 +454,16 @@
   <trd lng="es">actividad</trd>
   <trd lng="fr">activit&eacute;</trd>
   <trd lng="nl">activiteit</trd>
+  <trd lng="pl">aktywno&sacute;&cacute;</trd>
+  <trd lng="ro">activitate</trd>
   <trdgrp lng="sk">
     <trd>aktivita</trd>,
     <trd>v&yacute;konnos&tcaron;</trd>,
     <trd>&uacute;&ccaron;innos&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_a;&#x43A;&c_t;&c_i;&c_v;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&c_d;&c_ib;&#x44F;&#x43B;&#x44C;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -349,7 +477,7 @@
         <tld/>iga principo de interna konkuro
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9310-sarajevo.txt">La Fino de la
+          <vrk><url ref="&Steloj;monato1/monato-9310-sarajevo.txt">La Fino de la
           Mondo Komenci&gcirc;as en Sarajevo</url></vrk>
           <lok>93/10</lok>
         </fnt>;
@@ -396,11 +524,23 @@
   <trd lng="en">activate</trd>
   <trd lng="es">activar</trd>
   <trd lng="fr">activer</trd>
-  <trd lng="he">&#x5DC;&#x5B0;&#x5D4;&#x5B7;&#x5E4;&#x5B0;&#x5E2;&#x5B4;&#x5D9;&#x5DC;</trd>
+  <trd lng="he">&lamed;&#x5B0;&he;&#x5B7;&pe;&#x5B0;&ayin;&#x5B4;&yod;&lamed;</trd>
   <trd lng="nl">activeren</trd>
+  <trdgrp lng="pl">
+    <trd>aktywowa&cacute;</trd>,
+    <trd>w&lstroke;&aogonek;czy&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>activa</trd>,
+    <trd>activare</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>aktivizova&tcaron;</trd>,
     <trd>podnecova&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_a;&#x43A;&c_t;&c_i;&c_v;&c_ib;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&#x43E;&c_zh;&c_v;&c_a;&c_v;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -425,7 +565,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>last</aut>
-          <vrk><url ref="https://www.monato.be/2006/008995.php">Salajro en koverto</url></vrk>
+          <vrk><url ref="&Monato;/2006/008995.php">Salajro en koverto</url></vrk>
           <lok>2006</lok>
         </fnt>;
       </ekz>
@@ -435,7 +575,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Vladimir Lemelev</aut>
-          <vrk><url ref="https://www.monato.be/2007/008991.php">La &ccirc;efaj murdistoj de
+          <vrk><url ref="&Monato;/2007/008991.php">La &ccirc;efaj murdistoj de
           HIV-infektitoj</url></vrk>
           <lok>2007</lok>
         </fnt>.
@@ -447,6 +587,14 @@
     <trd>&c_u;&c_z;&c_r;&c_u;&c_sh;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
   <trd lng="fr">s'<ind>activer</ind></trd>
+  <trdgrp lng="pl">
+    <trd>uaktywni&cacute; si&eogonek;</trd>,
+    <trd>aktywowa&cacute; si&eogonek;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>s&abreve; se activeze</trd>,
+    <trd>s&abreve; activezi</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aktiv.0ismo">
@@ -462,7 +610,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lenio Marobin</aut>
-          <vrk><url ref="https://www.monato.be/2013/010834.php">&Ccirc;u forvi&scirc;i la kredon por esti
+          <vrk><url ref="&Monato;/2013/010834.php">&Ccirc;u forvi&scirc;i la kredon por esti
           egala?</url></vrk>
           <lok>2013</lok>
         </fnt>;
@@ -482,7 +630,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Ed Robertson</aut>
-          <vrk><url ref="https://www.monato.be/2014/011383.php">Kien nun?</url></vrk>
+          <vrk><url ref="&Monato;/2014/011383.php">Kien nun?</url></vrk>
           <lok>2014</lok>
         </fnt>;
       </ekz>
@@ -493,7 +641,10 @@
   <trd lng="de">Aktivismus</trd>
   <trd lng="es">activismo</trd>
   <trd lng="fr">activisme</trd>
+  <trd lng="pl">aktywizm</trd>
+  <trd lng="ro">activism</trd>
   <trd lng="sk">aktivizmus</trd>
+  <trd lng="uk">&c_a;&#x43A;&c_t;&c_i;&c_v;&c_ib;&c_z;&#x43C;</trd>
 </drv>
 
 <drv mrk="aktiv.0ulo">
@@ -517,7 +668,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Claude Rouget</aut>
-          <vrk><url ref="https://www.monato.be/2005/008510.php">Greenpeace venkis a&ubreve;tofirmaon
+          <vrk><url ref="&Monato;/2005/008510.php">Greenpeace venkis a&ubreve;tofirmaon
           Ford</url></vrk>
           <lok>2005</lok>
         </fnt>;
@@ -528,7 +679,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Jasuo</aut>
-          <vrk><url ref="https://www.monato.be/2008/009587.php">Leciono pri korupto</url></vrk>
+          <vrk><url ref="&Monato;/2008/009587.php">Leciono pri korupto</url></vrk>
           <lok>2008</lok>
         </fnt>.
       </ekz>
@@ -552,11 +703,20 @@
     <trd>membre engag&eacute;</trd>,
     <trd>militant</trd>
   </trdgrp>
-  <trd lng="he">&#x5E4;&#x5E2;&#x5D9;&#x5DC;</trd>
+  <trd lng="he">&pe;&ayin;&yod;&lamed;</trd>
+  <trdgrp lng="pl">
+    <trd>aktywista</trd>,
+    <trd>czynny cz&lstroke;onek</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>activist&abreve;</trd>,
+    <trd>membru  <ind>activ</ind></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>funkcion&aacute;r</trd>,
     <trd>&ccaron;inovn&iacute;k</trd>
   </trdgrp>
+  <trd lng="uk">&c_a;&#x43A;&c_t;&c_i;&c_v;&c_ib;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="aktiv.0ularo">
@@ -583,6 +743,8 @@
   <trd lng="cs">aktiv <klr>(lid&eacute;)</klr></trd>
   <trd lng="es">los <ind>militantes</ind></trd>
   <trd lng="fr">les <ind>militants</ind></trd>
+  <trd lng="pl">aktyw</trd>
+  <trd lng="ro">activi&#537;ti ai organiza&#539;iei</trd>
   <trd lng="sk">akt&iacute;v <klr>(&lcaron;udia)</klr></trd>
 </drv>
 
@@ -608,6 +770,8 @@
     <trd>&c_b;&c_ja;&c_z;&c_mol;&c_d;&c_z;&c_je;&c_j;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="fr">&ecirc;tre <ind>inactif</ind></trd>
+  <trd lng="pl">biernym by&cacute;</trd>
+  <trd lng="ro">fi pasiv</trd>
 </drv>
 
 <drv mrk="aktiv.mal0eco">
@@ -641,6 +805,8 @@
   </trdgrp>
   <trd lng="de">Inaktivit&auml;t</trd>
   <trd lng="fr">inactivit&eacute;</trd>
+  <trd lng="pl">bezczynno&sacute;&cacute;</trd>
+  <trd lng="ro">inactivitate</trd>
 </drv>
 
 <drv mrk="aktiv.mal0igi">
@@ -670,6 +836,14 @@
   <trd lng="de">deaktivieren</trd>
   <trd lng="es">desactivar</trd>
   <trd lng="fr">d&eacute;sactiver</trd>
+  <trdgrp lng="pl">
+    <trd>dezaktywowa&cacute;</trd>,
+    <trd>wy&lstroke;&aogonek;czy&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>dezactiva&#539;i</trd>,
+    <trd>dezactiva</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>inhibova&tcaron;</trd>,
     <trd>ochromova&tcaron;</trd>
@@ -687,7 +861,7 @@
         dum milito sen<tld/>i&gcirc;as &ccirc;iuj le&gcirc;oj
         <fnt>
           <aut>A. Svjento&hcirc;ovski, trad. Leono Zamenhof</aut>
-          <vrk><url ref="http://www.gutenberg.org/files/45713/45713-h/45713-h.htm">
+          <vrk><url ref="&Gutenberg;files/45713/45713-h/45713-h.htm">
           Aspazio</url></vrk>
           <lok>1908</lok>
         </fnt>.
@@ -698,10 +872,30 @@
     <trd>&c_d;&c_e;&c_z;&c_a;&c_k;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_z;&c_r;&c_a;&c_b;&c_ib;&c_c;&c_c;&c_a; <ind>&c_b;&c_ja;&c_z;&c_mol;&c_d;&c_z;&c_je;&c_j;&c_n;&c_y;&c_m;</ind></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wy&lstroke;&aogonek;czy&cacute; si&eogonek;</trd>,
+    <trd>wstrzyma&cacute; si&eogonek;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>&icirc;nchide</trd>,
+    <trd>conteni</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.44 2022/05/29 20:33:08
+Vito Redsky: + trd pl + trd ro 
+
+versio 1.43 2022/04/26 14:57:17
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.42 2022/04/25 15:10:59
+aktualigo ligvokodoj kaj URL-unuoj
+
+versio 1.40 2021/11/09 20:29:38
+Wolfram Diestel: +~ajxo
+
 versio 1.39 2021/05/03 08:57:24
 Dmitri Gabinski: +trd be
 
@@ -712,17 +906,5 @@ Revision 1.35  2019/05/02 16:10:14  revo
 Jeromo Vasxe: + ~i, ~igxi, mal~eco, mal~i, mal~igxi, sen~igxi
 
 Revision 1.34  2018/09/02 20:10:58  revo
-Michel Cantigneaux: teknika ripareto de indikiloj
-
-Revision 1.33  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
-
-Revision 1.32  2017/12/04 20:10:14  revo
-Michel Cantigneaux: vorto de la 1 OA fundamentita per la 7a OA
-
-Revision 1.31  2016/07/30 12:10:24  revo
-Warut Bunprasert: +trd th
-
-Revision 1.30  2015/07/04 08:37:30  revo
 -->
 </vortaro>

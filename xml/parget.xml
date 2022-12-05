@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: parget.xml,v 1.16 2015/07/04 08:37:41 revo Exp $">
+<art mrk="$Id: parget.xml,v 1.19 2022/03/25 10:18:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>parget</rad>/o <fnt><bib>PV</bib></fnt>
@@ -16,14 +15,33 @@
       konsistanta el simetrie kaj varie kunmetitaj tabuletoj el malmola 
       kaj polurita ligno:
       <ekz>
+        eksonis susurado de silka vesto rapide &scirc;ovi&gcirc;anta sur la <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili dormadis sur molaj kusenoj, kuradis sur vaksitaj <tld/>oj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         &scirc;i ku&scirc;is supre de l' domo, en subtegmento, sur pajla malbona 
         matraco, dum &scirc;iaj fratinoj ku&scirc;is en &ccirc;ambroj <tld/>aj
         <fnt>
           <aut>C. Perrault, trad. P. Sarpy</aut>,
           <vrk>Cindrulino</vrk>, 
-          <lok><url
-          ref="http://eo.wikibooks.org/wiki/Rakontoj_pri_Feinoj">Rakontoj
-          pri feinoj</url>, Hachette, 1904</lok></fnt>.
+          <lok><url ref="http://eo.wikibooks.org/wiki/Rakontoj_pri_Feinoj">Rakontoj
+          pri feinoj</url>, Hachette, 1904</lok></fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i deziris, ke la <tld/>o enabismi&gcirc;u sub &scirc;iaj piedoj, por ke &scirc;i estu ka&scirc;ita for
+        de &ccirc;iuj rigardoj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sepa</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -35,7 +53,7 @@
   <trdgrp lng="cs">
     <trd>parket</trd>,
     <trd>parketa</trd>,
-    <trd>parketová podlaha</trd>
+    <trd>parketov&aacute; podlaha</trd>
   </trdgrp>
   <trd lng="de">Parkett</trd>
   <trd lng="en">parquet</trd>
@@ -46,16 +64,27 @@
   <trd lng="fr">parquet</trd>
   <trd lng="hu">parketta</trd>
   <trd lng="nl">parketvloer</trd>
+  <trd lng="pl">parkiet</trd>
+  <trd lng="ro">parchet  <klr>(material de construc&#x21B;ie)</klr></trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_k;&c_je;&c_t;</trd>
-  <trd lng="sk">parketová podlaha</trd>
+  <trd lng="sk">parketov&aacute; podlaha</trd>
+  <trd lng="uk">&#x43F;&#x430;&#x440;&#x43A;&#x435;&#x442;</trd>
 </drv>
 
 <drv mrk="parget.0ero">
   <kap><tld/>ero</kap>
   <snc mrk="parget.0ero.KON">
     <dif>
-      &Ccirc;iu el la tabuletoj de <ref tip="malprt" 
-      cel="parget.0o.KON"><tld/>o</ref>.
+      &Ccirc;iu el la tabuletoj de <ref tip="malprt" cel="parget.0o.KON"><tld/>o</ref>:
+      <ekz>
+        saltante sur la brulantaj <tld/>eroj, sin frapante per la manoj sur la fumantajn
+        bruston kaj &scirc;ultrojn, la grupanoj okupintaj la salonon sin retiris en la
+        kabineton
+        <fnt>
+          <bib>MkM</bib>
+          <lok>27</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_k;&c_je;&c_t;&c_n;&c_a;&c_ja; &c_p;&c_l;&c_ib;&c_t;&c_k;&c_a;</trd>
@@ -64,21 +93,34 @@
     <trd>parketa</trd>,
     <trd>vlys</trd>
   </trdgrp>
+  <trd lng="de">Pakett<ind>stab</ind></trd>
   <trd lng="fr">lame de parquet</trd>
   <trdgrp lng="hu">
     <trd>parkettalap</trd>,
     <trd>parkettal&eacute;c</trd>
   </trdgrp>
   <trd lng="nl">parketlatje</trd>
+  <trd lng="pl">klepka  <klr>(parkietu)</klr></trd>
+  <trd lng="ro">clip&abreve;</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_k;&c_je;&c_t;&c_n;&c_a;&c_ja; &c_p;&c_l;&c_i;&c_t;&c_k;&c_a;</trd>
   <trdgrp lng="sk">
     <trd>parketa</trd>,
-    <trd>parketová doštička</trd>
+    <trd>parketov&aacute; do&scaron;ti&ccaron;ka</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x430;&#x440;&#x43A;&#x435;&#x442;</trd>,
+    <trd>&#x43F;&#x430;&#x440;&#x43A;&#x435;&#x442;&#x43D;&#x430; &#x43F;&#x43B;&#x438;&#x442;&#x43A;&#x430;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.18 2022/03/21 06:35:09
+Wolfram Diestel: +ekz-oj
+
+versio 1.17 2021/11/21 22:29:59
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.15  2015/06/29 16:40:17  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -95,14 +137,5 @@ Revision 1.11  2006/11/09 17:30:21  revo
 Jeromo Vasxe: + fak kon, + tez, + ekz
 
 Revision 1.10  2005/06/28 20:27:30  revo
-Alan ar Gall: +trd br fr
-
-Revision 1.9  2004/07/16 16:32:49  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2003/07/17 16:32:45  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2001/12/11 18:25:37  revo
 -->
 </vortaro>

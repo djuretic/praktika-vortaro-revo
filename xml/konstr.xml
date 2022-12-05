@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konstr.xml,v 1.92 2021/06/19 05:58:42 revo Exp $">
+<art mrk="$Id: konstr.xml,v 1.138 2022/05/01 08:09:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konstru</rad>/i <fnt><bib>PV</bib></fnt>
@@ -17,43 +17,25 @@
       masona&jcirc;on a&ubreve; &ccirc;arpenta&jcirc;on:
       <ekz>
         <tld/>i domon
-        <fnt>
-          <bib>MT</bib>
-          <lok>II. Kroniko 3:3</lok>
-        </fnt>
-        <fnt>
-          <bib>MT</bib>
-          <lok>Ze&hcirc;arja 5:11</lok>
-        </fnt>
-        <fnt>
-          <bib>Fab4</bib>
-          <lok>Historio el la dunoj</lok>
-        </fnt>,
+        <fnt><bib>MT</bib> <lok>II. Kroniko 3:3</lok></fnt>
+        <fnt><bib>MT</bib> <lok>Ze&hcirc;arja 5:11</lok></fnt>
+        <fnt> <bib>Fab4</bib> <lok>Historio el la dunoj</lok></fnt>,
         ponton
-        <fnt>
-          <bib>Revizoro</bib>
-          <lok>Akto kvina</lok>
-        </fnt>,
+        <fnt><bib>Revizoro</bib> <lok>Akto kvina</lok></fnt>,
         turon
-        <fnt>
-          <bib>NT</bib>
-          <lok>Luko 14:28</lok>
-        </fnt>
-        <fnt>
-          <bib>FK</bib>
-        </fnt>
-        <fnt>
-          <bib>Far3</bib>
-          <lok>&Ccirc;apitro X</lok>
-        </fnt>,
+        <fnt><bib>NT</bib> <lok>Luko 14:28</lok></fnt>
+        <fnt><bib>FK</bib></fnt>
+        <fnt><bib>Far3</bib> <lok>&Ccirc;apitro X</lok></fnt>,
         altaron
+        <fnt><bib>MT</bib> <lok>Josuo 22:23</lok></fnt>
+        <fnt><bib>MT</bib> <lok>II. Samuel 24:21</lok></fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is urbon, kaj li donis al la urbo nomon 
+        la&ubreve; <klr>[&#x2026;]</klr> sia filo: <nom>&Hcirc;ano&hcirc;</nom>
         <fnt>
           <bib>MT</bib>
-          <lok>Josuo 22:23</lok>
-        </fnt>
-        <fnt>
-          <bib>MT</bib>
-          <lok>II. Samuel 24:21</lok>
+          <lok>Genezo 4:17</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -73,32 +55,15 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       <ekz>
         <uzo tip="stl">FIG</uzo>
         <tld/>i neston
-        <fnt>
-          <bib>Fab4</bib>
-          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
-        </fnt>
-        <fnt>
-          <bib>Fab3</bib>
-          <lok>Supo el kolbasaj bastonetoj</lok>
-        </fnt>
-        <fnt>
-          <bib>Fab2</bib>
-          <lok>Ne&gcirc;a re&gcirc;ino</lok>
-        </fnt>, 
+        <fnt><bib>Fab4</bib> <lok>Filino de la mar&ccirc;a re&gcirc;o</lok></fnt>
+        <fnt><bib>Fab3</bib> <lok>Supo el kolbasaj bastonetoj</lok></fnt>
+        <fnt><bib>Fab2</bib> <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>, 
         vojon
-        <fnt>
-          <bib>Far1</bib>
-          <lok>Anta&ubreve;parolo</lok>
-        </fnt>,
+        <fnt><bib>Far1</bib> <lok>Anta&ubreve;parolo</lok></fnt>,
         &scirc;ipon
-        <fnt>
-          <bib>MT</bib>
-          <lok>II. Kroniko 20:36</lok>
-        </fnt>
-        <fnt>
-          <bib>Fab4</bib>
-          <lok>La vento rakontas pri Valdemaro Doe kaj pri liaj
-          filinoj</lok>
+        <fnt><bib>MT</bib> <lok>II. Kroniko 20:36</lok></fnt>
+        <fnt><bib>Fab4</bib> <lok>La vento rakontas pri Valdemaro
+          Doe kaj pri liaj filinoj</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -106,9 +71,25 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         <fnt>
           <bib>Far3</bib>
           <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu &ccirc;e l' vojo <tld/>as, tiun &ccirc;iu instruas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al pec' pecon algluas, kiu neston <tld/>as
+        <fnt>
+          <bib>PrV</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="cxarpe.0i.prilabori">&ccirc;arpenti<sncref/></ref>,
+      <ref cel="mason.0i.konstrui">masoni<sncref/></ref>
+    </refgrp>
     <trd lng="ca">construir</trd>
     <trdgrp lng="de">
       <trd>errichten</trd>,
@@ -138,15 +119,26 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       La difino &scirc;ajnas tro strikta: ~i kanalon, ma&scirc;inon k.s.
       <aut>WD</aut>
     </adm>
+    <trdgrp lng="th">
+      <trd>&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</trd>,
+      <trd>&#xE01;&#xE48;&#xE2D;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="konstr.0i.arangxi">
     <dif>
-      Aran&gcirc;i erojn de tuto la&ubreve; ia ordo:
+      <ref tip="super" cel="arangx.0i">Aran&gcirc;i</ref> erojn de tuto la&ubreve; ia ordo:
       <ekz>
-        <tld/>i ideojn,
+        <tld/>i teorion sur la firma fundamento de esploritaj faktoj
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i libron, verkon, poemon;
+        la Eternulo <tld/>is el la ripo <klr>[&#x2026;]</klr> virinon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 2:22</lok>
+        </fnt>;
       </ekz>
       <ekz>
         bone <tld/>ita homo
@@ -176,11 +168,22 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         cirkonstancoj
         <fnt>
           <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        speciala pafilo <klr>[&#x2026;]</klr> la&ubreve;cele <tld/>ita
+        <fnt>
+          <bib>ChR</bib>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="kompon.0i">komponi 1</ref>
+      <ref cel="kombin.0i.ajxojn">kombini<sncref/></ref>,
+      <ref cel="kompon.0i">komponi</ref>,
+      <ref cel="konsis.0igi">konsistigi</ref>,
+      <ref cel="met.kun0i.KOMUNE">kunmeti</ref>,
+      <ref cel="sintez.0i">sintezi</ref>,
+      <ref cel="verk.0i">verki</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>bilden</trd>,
@@ -199,10 +202,10 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       <trd>&ouml;ssze&aacute;ll&iacute;t</trd>
     </trdgrp>
   </snc>
-  <snc mrk="konstr.0i.vivon">
+  <snc mrk="konstr.0i.organizi">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Organizi ion abstraktan la&ubreve; difinita formo:
+      <ref tip="super" cel="organi2.0i">Organizi</ref> ion abstraktan la&ubreve; difinita formo:
       <ekz>
         <tld/>i sian fizikan ekzistadon sur io
         <fnt>
@@ -219,16 +222,26 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         </fnt>;
       </ekz>
       <ekz>
-        oni provas <tld/>i la e&ubreve;ropan unuecon kaj la pacon de l'
-        mondo;
+        firma fundamento, sur kiu estas <tld/>ita la moderna Universala Esperanto-Asocio
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        nia ligo ne povis esti <tld/>ita sur tiuj samaj
-        principoj, kiel aliaj societoj<fnt>Z</fnt>.
+        necesas <tld/>i la federacion ne nur sur bazo de ali&gcirc;antaj &scirc;tatoj, sed samtempe
+        sur bazo de ali&gcirc;antaj individuoj
+        <fnt>
+          <bib>FSp</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="establ.0i">establi</ref>,
+      <ref cel="fond.0i.starigi">fondi</ref>
+    </refgrp>
     <trdgrp lng="de">
-      <trd>bilden</trd>
+      <trd>bilden</trd>,
+      <trd>errichten</trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>construct</trd>,
@@ -266,7 +279,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
   </snc>
   <trd lng="af">bou</trd>
   <trd lng="am">&#x1218;&#x1308;&#x1295;&#x1263;&#x1275;</trd>
-  <trd lng="ar">&#x628;&#x646;&#x627;&#x621;</trd>
+  <trd lng="ar">&a_b;&a_n;&a_A;&a_hamza;</trd>
   <trd lng="az">qurmaq</trd>
   <trdgrp lng="be">
     <trd>&c_b;&c_u;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -278,7 +291,8 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>&c_i;&c_z;&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_m;</trd>
   </trdgrp>
   <trd lng="bn">&#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9AE;&#x9BE;&#x9A3;</trd>
-  <trd lng="bo">&#xF62;&#xFA9;&#xF72;&#xF42; &#xF56;&#xF62;&#xFA9;&#xF72;&#xF42;&#xF66; &#xF56;&#xF62;&#xFA9;&#xF72;&#xF42; &#xF62;&#xFA9;&#xF72;&#xF42;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_ra;&t_tsata;&t_gigu;&t_ga; &t_ba;&t_ra;&t_tsata;&t_gigu;&t_ga;&t_sa;
+  &t_ba;&t_ra;&t_tsata;&t_gigu;&t_ga; &t_ra;&t_tsata;&t_gigu;&t_ga;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">graditi</trd>
   <trd lng="co">custruisce</trd>
   <trdgrp lng="cs">
@@ -288,6 +302,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>stav&ecaron;t</trd>,
     <trd>stav&ecaron;t</trd>
   </trdgrp>
+  <trd lng="cy">adeiladu</trd>
   <trd lng="da">bygge</trd>
   <trd lng="es">construir</trd>
   <trd lng="et">ehitada</trd>
@@ -296,11 +311,15 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>construire</trd>
   </trdgrp>
   <trd lng="fy">bouwe</trd>
-  <trd lng="gl">constru&#xED;r</trd>
+  <trd lng="ga">a th&oacute;g&aacute;il</trd>
+  <trd lng="gd">togail</trd>
+  <trd lng="gl">constru&iacute;r</trd>
   <trd lng="gu">&#xAAC;&#xABF;&#xAB2;&#xACD;&#xAA1;</trd>
   <trd lng="ha">gina</trd>
   <trd lng="hi">&#x92C;&#x928;&#x93E;&#x928;&#x93E;</trd>
+  <trd lng="hmn">tsim</trd>
   <trd lng="hr">graditi</trd>
+  <trd lng="ht">bati</trd>
   <trdgrp lng="hu">
     <trd>k&eacute;pez</trd>,
     <trd>alak&iacute;t</trd>
@@ -310,17 +329,31 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>mem<ind>bangun</ind></trd>,
     <trd>men<ind>diri</ind>kan</trd>
   </trdgrp>
+  <trd lng="ig">ewu</trd>
   <trd lng="io">konstruktar</trd>
   <trd lng="is">byggja</trd>
   <trd lng="it">costruire</trd>
   <trd lng="ja">&#x30D3;&#x30EB;&#x30C9;</trd>
-  <trd lng="jw">mbangun</trd>
+  <trd lng="jv">mbangun</trd>
   <trd lng="ka">&#x10D0;&#x10D5;&#x10D0;&#x10E8;&#x10D4;&#x10DC;&#x10DD;&#x10D7;</trd>
+  <trd lng="kk">&c_s;&c_a;&c_l;&c_u;</trd>
   <trd lng="km">&#x1780;&#x179F;&#x17B6;&#x1784;</trd>
+  <trd lng="kn">&#xCA8;&#xCBF;&#xCB0;&#xCCD;&#xCAE;&#xCBF;&#xCB8;&#xCB2;&#xCC1;</trd>
   <trd lng="ko">&#xAD6C;&#xCD95;</trd>
+  <trd lng="ku">avakirin</trd>
+  <trd lng="ky">&c_k;&c_u;&c_r;&c_u;&c_u;</trd>
+  <trd lng="lat">&aelig;dificabis</trd>
   <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xE81;&#xECD;&#xEC8;&#xEAA;&#xEC9;&#xEB2;&#xE87;</trd>
+  <trd lng="lt">statyti</trd>
+  <trd lng="lv">b&umacron;v&emacron;t</trd>
+  <trd lng="mg">hanorina</trd>
+  <trd lng="mi">hanga</trd>
+  <trd lng="mk">&c_i;&c_z;&c_g;&c_r;&c_a;&c_d;&c_b;&c_a;</trd>
   <trd lng="ml">&#xD2A;&#xD23;&#xD3F;&#xD2F;&#xD41;&#xD15;</trd>
+  <trd lng="mn">&c_b;&c_a;&c_r;&c_i;&c_h;</trd>
   <trd lng="mr">&#x924;&#x92F;&#x93E;&#x930;</trd>
+  <trd lng="ms">membina</trd>
+  <trd lng="mt">jibnu</trd>
   <trd lng="my">&#x1010;&#x100A;&#x103A;&#x1006;&#x1031;&#x102C;&#x1000;&#x103A;</trd>
   <trd lng="ne">&#x928;&#x93F;&#x930;&#x94D;&#x92E;&#x93E;&#x923;</trd>
   <trd lng="nl">bouwen</trd>
@@ -330,7 +363,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>konstruowa&cacute;</trd>,
     <trd>budowa&cacute;</trd>
   </trdgrp>  
-  <trd lng="ps">&#x62F; &#x62C;&#x648;&#x693;&#x648;&#x644;&#x648;</trd>
+  <trd lng="ps">&a_d; &a_j;&a_w;&#x693;&a_w;&a_l;&a_w;</trd>
   <trdgrp lng="pt">
     <trd>construir</trd>,
     <trd>edificar</trd>,
@@ -343,7 +376,8 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>&c_s;&c_t;&c_r;&c_o;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_s;&c_t;&c_r;&c_o;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x6A9;&#x67E;&#x646;</trd>
+  <trd lng="rw">kubaka</trd>
+  <trd lng="sd">&f_k;&f_p;&a_n;</trd>
   <trd lng="si">&#xD89;&#xDAF;&#xDD2;</trd>
   <trdgrp lng="sk">
     <trd>budova&tcaron;</trd>,
@@ -351,15 +385,27 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>stava&tcaron;</trd>,
     <trd>zostroji&tcaron;</trd>
   </trdgrp>
-  <trd lng="sq">nd&#xEB;rtuar</trd>
+  <trd lng="sl">graditi</trd>
+  <trd lng="sm">fau</trd>
+  <trd lng="sn">kuvaka</trd>
+  <trd lng="so">dhiso</trd>
+  <trd lng="sq">nd&euml;rtuar</trd>
   <trd lng="st">haha</trd>
+  <trd lng="su">ngawangun</trd>
+  <trd lng="sw">kujenga</trd>
   <trd lng="ta">&#xB95;&#xB9F;&#xBCD;&#xB9F;</trd>
   <trd lng="te">&#xC28;&#xC3F;&#xC30;&#xC4D;&#xC2E;&#xC3F;&#xC02;&#xC1A;&#xC21;&#xC3E;&#xC28;&#xC3F;&#xC15;&#xC3F;</trd>
-  <trd lng="th">&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</trd>
+  <trd lng="tg">&c_s;&c_o;&c_h;&c_t;&c_a;&c_n;</trd>
+  
   <trd lng="tl">magtayo</trd>
-  <trd lng="ur">&#x62A;&#x639;&#x645;&#x6CC;&#x631;</trd>
-  <trd lng="vi">x&#xE2;y d&#x1EF1;ng</trd>
-  <trd lng="yi">&#x5D1;&#x5D5;&#x5D9;&#x5E2;&#x5DF;</trd>
+  <trd lng="tt">&c_t;&#x4E9;&c_z;&#x4AF;</trd>
+  <trd lng="uk">&c_b;&c_u;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_t;&a_ayn;&a_m;&f_y;&a_r;</trd>
+  <trd lng="uz">qurish</trd>
+  <trd lng="vi">x&acirc;y d&#x1EF1;ng</trd>
+  <trd lng="xh">ukwakha</trd>
+  <trd lng="yi">&bet;&vav;&yod;&ayin;&fnun;</trd>
+  <trd lng="yo">k&#x1ECD;</trd>
   <trd lng="zu">ukwakha</trd>
 </drv>
 
@@ -372,8 +418,8 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         la <tld/>o da&ubreve;ris tri jarojn;
       </ekz>
       <ekz>
-        <ind>nenia <tld/>o povas esti sen
-        bruo</ind><fnt><bib>PrV</bib></fnt>.
+        <ind>nenia <tld/>o povas esti sen bruo</ind>
+        <fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">az &eacute;p&iacute;t&eacute;s zajjal j&aacute;r</trd>
       </ekz>
     </dif>
@@ -432,6 +478,10 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         vi ne scias la <tld/>on de tiu verbo.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="arhxitektur.0o.FIG">ar&hcirc;itekturo</ref>,
+      <ref cel="tekton1.0a.ARKI">tektona<sncref/></ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_k;&c_a;&c_n;&c_s;&c_t;&c_r;&c_u;&c_k;&c_c;&c_y;&c_ja;</trd>,
       <trd>&c_b;&c_u;&c_d;&c_o;&c_v;&c_a;</trd>,
@@ -470,7 +520,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
   </snc>
   <snc mrk="konstr.0o.ajxo">
     <dif>
-      <ref tip="dif" cel="konstr.0ajxo"><tld lit="K"/>a&jcirc;o</ref>
+      <ref tip="dif" cel="konstr.0ajxo"><tld lit="K"/>a&jcirc;o</ref>:
       <ekz>
         ni ekvidis altan <tld/>on;
       </ekz>
@@ -488,8 +538,13 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         </fnt>;
       </ekz>
       <ekz>
-        ruinige renversi la tutan <tld/>on de la morala
-        mondo<fnt>Z</fnt>.
+        sed &mdash; ho vanta infaneco &mdash; nun mi staras &ccirc;e la rando de terura vivo, kaj
+        plorkriante kaj dentofrapante mi nun ekscias, ke du tiaj homoj, kiel mi,
+        ruinige renversus la tutan konstruon de la morala mondo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -535,6 +590,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>stavba</trd>,
     <trd>v&yacute;stavba</trd>
   </trdgrp>
+<trd lng="th">&#xE01;&#xE32;&#xE23;&#xE01;&#xE48;&#xE2D;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</trd>
 </drv>
 
 <drv mrk="konstr.0ajxo">
@@ -576,9 +632,35 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         <fnt>
           <bib>Far3</bib>
           <lok>&ccirc;apitro 8a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kunvenaj kaj oficaj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        formika <tld/>a&jcirc;o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        UEA prezenti&gcirc;as fine de 1972 kiel fortika moderna <tld/>a&jcirc;o
+        <fnt>
+          <bib>EeP</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>,
+      <ref cel="kre.0ajxo.KOMUNE">krea&jcirc;o</ref>,
+      <ref cel="trab.0aro">traba&jcirc;o</ref>,
+      <ref cel="verk.0o.propra">verko</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_u;&c_d;&c_y;&c_n;&c_a;&c_k;</trd>,
@@ -589,7 +671,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>&c_s;&c_g;&c_r;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_s;&c_t;&c_r;&c_o;&c_j;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF41;&#xF44;&#xF0B;&#xF54;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_nga;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trdgrp lng="de">
     <trd>Geb&auml;ude</trd>,
     <trd>Konstruktion</trd>
@@ -617,11 +699,13 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_p;&c_o;&c_s;&c_t;&c_r;&c_o;&c_j;&c_k;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_n;&c_s;&c_t;&c_r;&c_u;&c_k;&c_c;&c_i;&c_ja;
-    <klr>(&c_m;&c_je;&c_t;&c_a;&c_l;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
-    
-&c_i; &c_t;.&c_p;.)</klr></trd>
+    <klr>(&c_m;&c_je;&c_t;&c_a;&c_l;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_i; &c_t;.&c_p;.)</klr></trd>
   </trdgrp>
-  <trd lng="tp">tomo</trd>
+  <trdgrp lng="th">
+    <trd>&#xE2A;&#xE34;&#xE48;&#xE07;&#xE01;&#xE48;&#xE2D;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</trd>,
+    <trd>&#xE2D;&#xE32;&#xE04;&#xE32;&#xE23;</trd>
+  </trdgrp>
+  <trd lng="tok">tomo</trd>
 </drv>
 
 <drv mrk="konstr.0ejo">
@@ -632,11 +716,15 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       Loko, en kiu oni estas <tld/>anta domojn, grandajn
       ma&scirc;inojn...:
       <ekz>
-        kiam onklino &Scirc;i informi&gcirc;is ke <nom>Hiukin</nom>, &scirc;ia 
-        bofilino registris sin por labori sur la <tld/>ejo, &scirc;i 
-        estis tiel konsternita, ke dum la tuta posttagmezo &scirc;i 
-        portante la 18-monatan nepeton en la brakoj, jen eksidis, 
-        jen ekstaris sen momenta kvieto
+        trapasante <tld/>ejon de la centra korpuso, 
+        <nom>Ivagin</nom> respondis tion per la mangesto
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Hiukin</nom>, &scirc;ia 
+        bofilino registris sin por labori sur la <tld/>ejo
         <fnt>
           <aut>Sa&ubreve; J.</aut>,
           <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/epc/epc6005/nepetou.html">
@@ -646,6 +734,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_b;&c_u;&c_d;&c_a;&c_w;&c_n;&c_ib;&c_ch;&c_a;&c_ja; &c_p;&c_l;&c_ja;&c_c;&c_o;&c_w;&c_k;&c_a;</trd>
   <trd lng="bg">&c_s;&c_t;&c_r;&c_o;&c_je;&c_zh;</trd>
   <trd lng="cs">staveni&scaron;t&ecaron;</trd>
   <trd lng="de">Baustelle</trd>
@@ -666,12 +755,61 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <dif>
       Homo, kiu planas kaj efektivigas <tld/>adon:
       <ekz>
+        hakis la <tld/>istoj de Salomono <klr>[&#x2026;]</klr> 
+        kaj pretigis lignon kaj &scirc;tonojn
+        por <tld/>i la domon
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. re&gcirc;oj 5:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>istoj starigis fundamenton por la templo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ezra 3:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malgranda Ido estis rozo belaspekta kiel tiam, 
+        kiam la &scirc;ip<tld/>isto &scirc;in vidis
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>La vento rakontas pri Valdemaro Doe kaj pri liaj filinoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         li tamen volis lasi mortigi la <tld/>iston, kiu <tld/>is por li 
         lian kastelon kun la turo kaj la dikaj muroj
-        <fnt><bib>Fab4</bib> <lok>Historio el la dunoj</lok></fnt>.
+        <fnt><bib>Fab4</bib> <lok>Historio el la dunoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; dudek jaroj li ankora&ubreve; laboris <klr>[&#x2026;]</klr> kiel simpla
+        altfervoj-<tld/>isto, liaj fingroj ankora&ubreve; nun estas kalaj pro la cirkelo
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiel granda estis la respektego al tiu kolegio, 
+        ke la manoj de la monavidaj,
+        spekulemaj <tld/>istoj reteni&gcirc;is la&ubreve; re&gcirc;a ordono
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="arhxitekt.0o">ar&hcirc;itekto</ref>,
+      <ref cel="cxarpe.0isto">&ccirc;arpentisto</ref>,
+      <ref cel="ingxen.0o">in&gcirc;eniero</ref>,
+      <ref cel="sxton.0trancxisto">&scirc;tontran&ccirc;isto</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_u;&c_d;&c_a;&c_w;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_k;&c_a;&c_n;&c_s;&c_t;&c_r;&c_u;&c_k;&c_t;&c_a;&c_r;</trd>
+  </trdgrp>
   <trd lng="bg">&c_s;&c_t;&c_r;&c_o;&c_i;&c_t;&c_je;&c_l;</trd>
   <trdgrp lng="cs">
     <trd>stava&rcaron;</trd>,
@@ -712,7 +850,22 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       <ref tip="super" cel="konstr.0i.domon"><tld lit="K"/>i</ref>
       &ccirc;e jam staranta <tld/>a&jcirc;o:
       <ekz>
-        En la 19-a jarcento oni <klr>...</klr> al iom pli grandaj 
+        sur la orienta bordo de la rivero oni al<tld/>os novan, 
+        grandan lamenejon
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni al<tld/>as novan barilparton, pli proksime al la 
+        laboristaj domoj, kaj la
+        infanoj en la malgranda sablejo devas forlasi sian ludlokon
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la 19-a jarcento oni <klr>[&#x2026;]</klr> al iom pli grandaj 
         murfragmentoj al<tld/>is domojn
         <fnt>
           <aut>Pola Radio</aut>,
@@ -723,6 +876,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_b;&c_u;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_p;&c_r;&c_i;&c_s;&c_t;&c_r;&c_o;&c_ja;&c_v;&c_a;&c_m;</trd>
   <trd lng="cs">p&rcaron;istav&ecaron;t</trd>
   <trd lng="de">anbauen</trd>
@@ -748,9 +902,16 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         </fnt>;
       </ekz>
       <ekz>
+        la domo <klr>[&#x2026;]</klr> devos iam esti mal<tld/>ita, 
+        &ccirc;ar tiel anta&ubreve;vidis la
+        <tld/>plano de la urbo <nom>Rotterdam</nom>
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         la dometo ne plu staras tie, anta&ubreve; jaroj oni mal<tld/>is &gcirc;in
-        brikon post 
-        briko kaj sendis &gcirc;in al A&ubreve;stralio, kie &gcirc;i ankora&ubreve; videblas
+        brikon post briko kaj sendis &gcirc;in al A&ubreve;stralio, kie &gcirc;i ankora&ubreve; videblas
         <fnt>
           <bib>Monato</bib>
           <aut>Jack Warren</aut>
@@ -759,6 +920,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         </fnt>;
       </ekz>
       <ekz>
+        <uzo tip="stl">FIG</uzo>
         kronika malsano, kiu dum la lastaj jaroj iom post iom
         mal<tld/>is liajn iam grandajn spiritajn fortojn
         <fnt>
@@ -769,6 +931,12 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="bat.dis0i.KOMUNE">disbati</ref>,
+       <ref cel="detru.0i">detrui</ref>,
+       <ref cel="far.mal0i">malfari</ref>,
+       <ref cel="kompon.mal0i">malkomponi</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_z;&c_b;&c_u;&c_r;&c_a;&c_c;&c_mol;</trd>,
@@ -819,6 +987,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <trd>&c_r;&c_a;&c_z;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">b&uacute;ra&tcaron;</trd>
+<trd lng="th">&#xE17;&#xE33;&#xE25;&#xE32;&#xE22;</trd>
 </drv>
 
 <drv mrk="konstr.pri0i">
@@ -828,10 +997,26 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <dif>
       Garni per <tld/>a&jcirc;oj:
       <ekz>
-        pri<tld/>i monton
+        li a&ccirc;etis la monton <klr>[&#x2026;]</klr> kaj li pri<tld/>is tiun monton, kaj al la
+        urbo, kiun li <tld/>is, li donis la nomon Samario
         <fnt>
           <bib>MT</bib>
-          <lok>&Re1; 16:24</lok>
+          <lok>I. Re&gcirc;oj 16:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li pri<tld/>is la tutan difekti&gcirc;intan muregon, li plialtigis la turojn, kaj
+        <tld/>is ekstere ankora&ubreve; alian muregon
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 32:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi financas vian elekt-kampanjon kaj vi atribuas al mi permeson pri<tld/>i
+        terenojn &ccirc;e via municipo
+        <fnt>
+          <bib>MD11</bib>
         </fnt>.
       </ekz>
     </dif>
@@ -890,22 +1075,59 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_d;&c_b;&c_u;&c_d;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_r;&c_e;&c_k;&c_a;&c_n;&c_s;&c_t;&c_r;&c_u;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_r;&c_e;&c_s;&c_t;&c_a;&c_w;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_a;&c_d;&c_n;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol; <klr>(&c_b;&c_u;&c_d;&c_y;&c_n;&c_a;&c_k;)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>restaurieren</trd>,
+      <trd>wiederherstellen</trd>,
+      <trd>wieder <ind>aufbauen</ind></trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>reb&acirc;tir</trd>,
+      <trd>restaurer</trd>
+    </trdgrp>
+    <trd lng="io">rikonstruktar</trd>
+    <trdgrp lng="pl">
+      <trd>rekonstruowa&cacute;</trd>,
+      <trd>odbudowa&cacute;</trd>
+    </trdgrp>   
+    <trd lng="ro">reconstrui</trd>
   </snc>
-  <trdgrp lng="de">
-    <trd>restaurieren</trd>,
-    <trd>wiederherstellen</trd>,
-    <trd>wieder <ind>aufbauen</ind></trd>
+  <snc mrk="konstr.0i.spirite">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      En la spirito detale kunmeti pasintan okaza&jcirc;on el 
+      indikoj, deduktoj, supozoj ktp:
+      <ekz>
+        li re<tld/>as la aferon; jen &ccirc;i tie la a&ubreve;to pu&scirc;i&gcirc;is 
+        al la trotuaro <klr>[&#x2026;]</klr> la postsignoj estas 
+        klare videblaj
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        surbaze de tiuj resta&jcirc;oj &ndash; kelkfoje nur 
+        pecetoj de kranioj kaj de aliaj ostoj &ndash;
+        oni povis re<tld/>i en lar&gcirc;aj linioj la 
+        tre longda&ubreve;ran historion de la homformi&gcirc;o
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_r;&c_e;&c_k;&c_a;&c_n;&c_s;&c_t;&c_r;&c_u;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="de">rekonstruieren</trd>
+    <trd lng="en">reconstruct</trd>
+  </snc>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x431;&#x443;&#x434;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x431;&#x443;&#x434;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>reb&acirc;tir</trd>,
-    <trd>restaurer</trd>
-  </trdgrp>
-  <trd lng="io">rikonstruktar</trd>
-  <trdgrp lng="pl">
-    <trd>rekonstruowa&cacute;</trd>,
-    <trd>odbudowa&cacute;</trd>
-  </trdgrp>   
-  <trd lng="ro">reconstrui</trd>
 </drv>
 
 <drv mrk="konstr.tra0i">
@@ -926,7 +1148,14 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">r&eacute;nover</trd>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_b;&c_u;&c_d;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_r;&c_e;&c_k;&c_a;&c_n;&c_s;&c_t;&c_r;&c_u;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>umbauen</trd>,
+    <trd>renovieren</trd>
+  </trdgrp><trd lng="fr">r&eacute;nover</trd>
   <trd lng="pl">odnawia&cacute;</trd>     
   <trd lng="ro">renova</trd>
 </drv>
@@ -948,7 +1177,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       </ekz>
       <ekz>
         konkurantoj rapide ali<tld/>is la &scirc;ipon
-        &leftquot;Sirius&rightquot;, 
+        &leftquot;<nom>Sirius</nom>&rightquot;, 
         kiu estis konstruita nur por la bordotrafiko
           <fnt>
           <aut>C. Melzer, [trad. H.-G. Kaiser]</aut>,
@@ -958,6 +1187,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_b;&c_u;&c_d;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_p;&c_r;&c_je;&c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_v;&c_a;&c_m;</trd>
   <trdgrp lng="cs">
     <trd>p&rcaron;ebudovat</trd>,
@@ -996,7 +1226,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
       </ekz>
     </dif>
     <rim>
-      En la vortaro Minnaja (ItaEsp), &ccirc;i tiu vorto indikas 
+      En la vortaro <nom>Minnaja</nom> (<nom>ItaEsp</nom>), &ccirc;i tiu vorto indikas 
       &leftquot;doman prilabora&jcirc;on&rightquot;.
       <aut>A. Codazzi</aut>
     </rim>
@@ -1019,11 +1249,16 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
     <uzo tip="fak">KON</uzo>
     <dif>
       Loko, en kiu oni estas <tld/>anta domojn.
-   </dif>
+    </dif>
+    <trd lng="be">&c_b;&c_u;&c_d;&c_a;&c_w;&c_n;&c_ib;&c_ch;&c_a;&c_ja; &c_p;&c_l;&c_ja;&c_c;&c_o;&c_w;&c_k;&c_a; <klr>(&c_zh;&c_y;&c_t;&c_l;&c_a;)</klr></trd>
+    <trdgrp lng="de">
+      <trd>Baustelle</trd>,
+      <trd>Baugrundst&uuml;ck</trd>
+    </trdgrp>
     <trd lng="it"><ind>cantiere</ind> edile</trd>
     <trd lng="pl">plac <ind>budowy</ind></trd>     
     <trd lng="ro">construc&#x21B;ii</trd>
-   </snc>
+  </snc>
 </drv>
 
 <drv mrk="konstr.sxip0ejo">
@@ -1038,7 +1273,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Christian Bertin</aut>
-          <vrk><url ref="https://www.monato.be/2003/008085.html">&Ccirc;u revo
+          <vrk><url ref="&Monato;/2003/008085.html">&Ccirc;u revo
           iam fari&gcirc;os realo?</url></vrk>
         </fnt>;
       </ekz>
@@ -1050,7 +1285,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Christian Bertin</aut>
-          <vrk><url ref="https://www.monato.be/2004/008255.html">Re&gcirc;ino
+          <vrk><url ref="&Monato;/2004/008255.html">Re&gcirc;ino
           de la maroj</url></vrk>
         </fnt>;
       </ekz>
@@ -1076,6 +1311,7 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
   <trd lng="pl">stocznia</trd>
   <trd lng="pt">estaleiro</trd>
   <trd lng="ru">&c_v;&c_je;&c_r;&c_f;&c_mol;</trd>
+  <trd lng="uk">&c_s;&#x443;&#x434;&#x43D;&#x43E;&#x431;&#x443;&#x434;&#x456;&#x432;&#x43D;&#x430; &#x432;&#x435;&#x440;&#x444;</trd>
 </drv>
 
 <drv mrk="konstr.sub0ajxo">
@@ -1083,7 +1319,8 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
   <snc mrk="konstr.sub0ajxo.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
-      Bazo, subtera, fundamenta a&ubreve; subporta parto de 
+      <ref tip="super" cel="baz.0o.postamento">Bazo</ref>, subtera, 
+      <ref cel="fundam.0a.KON">fundamenta</ref> a&ubreve; subporta parto de 
       <ref tip="malprt" cel="konstr.0ajxo"><tld/>a&jcirc;o</ref>:
       <ekz>
         turo kun nelo&gcirc;ata &scirc;tona sub<tld/>a&jcirc;o, kiu portis lo&gcirc;eblan
@@ -1091,9 +1328,25 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=4212">Turo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tia kupolo <klr>[estas neebla]</klr> &ccirc;ar la sub<tld/>a&jcirc;o ne eltenus tiun pezon
+        <fnt>
+          <bib>MD17</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> funkciigas egajn &scirc;tonrompajn ma&scirc;inojn, kiuj elsputas &scirc;tonetojn
+        destinitajn por la sub<tld/>a&jcirc;o de la &ccirc;efurbaj vojoj
+        <fnt>
+          <bib>MD08</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="sokl.0o">soklo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_d;&c_m;&c_u;&c_r;&c_a;&c_k;</trd>,
@@ -1131,10 +1384,27 @@ b&iacute;r&aacute;l&oacute;ra tal&aacute;l</trd>
 </art>
 <!--
 $Log$
-versio 1.48 2020/05/19 20:10:34
-Sam Penter: movo de sxipkonstruejo de sxip.xml al konstr.xml, apud domkonstruejo; +trd
+versio 1.138 2022/05/01 08:09:25
+aktualigo lingvokodoj kaj URL-unuoj
 
-versio 1.47 2020/05/03 04:10:23
-Eko Nur Syah Hidayat: korekteto
+versio 1.135 2022/02/24 08:34:47
+Dmitri Gabinski: + trd be
+
+versio 1.134 2021/12/12 17:41:16
+Warut Bunprasert: +trd th
+
+versio 1.133 2021/12/06 09:32:35
+Damien Brucker: -eraro cxe cel en ref
+
+versio 1.132 2021/12/04 21:27:01
+Wolfram Diestel: pri~i..sub~a&jcirc;o: ekz-oj, ref-oj, trd de
+
+versio 1.131 2021/12/04 08:34:17
+Wolfram Diestel: ~eoj..mal~i: ekz-oj, ref-oj
+
+versio 1.130 2021/12/03 21:26:17
+Wolfram Diestel: ~ajxo: ekz, ref-oj
+
+versio 1.129 2021/12/03 19:22:43
 -->
 </vortaro>

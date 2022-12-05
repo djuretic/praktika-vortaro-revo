@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: variab.xml,v 1.37 2020/02/14 19:10:20 revo Exp $">
+<art mrk="$Id: variab.xml,v 1.39 2022/08/16 09:27:58 revo Exp $">
 <kap>
   <rad>variabl</rad>/o
 </kap>
@@ -20,8 +19,7 @@
         en la skriba&jcirc;o <frm am="y=f(x)"><k>y</k> =
         <k>f</k>(<k>x</k>)</frm>, 
         <frm am="x"><k>x</k></frm> estas la <ind>nedependa <tld/>o</ind>
-        <klr>(indikanta la <ref
-        cel="argume.0o.donitajxo">argumenton</ref> de
+        <klr>(indikanta la <ref cel="argume.0o.donitajxo">argumenton</ref> de
         <ref cel="funkci.0o.MAT">funkcio</ref>
         <frm am="f"><k>f</k></frm>)</klr>,
         <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_ja; 
@@ -34,8 +32,7 @@
         <trd lng="fr">variable ind&eacute;pendante</trd>
         <trd lng="hu">f&uuml;ggetlen <ind>v&aacute;ltoz&oacute;</ind></trd>        
         <trd lng="pl">zmienna niezale&zdot;na</trd>
-        <trd 
-lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja; 
+        <trd lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja; 
 <ind>&c_p;&c_je;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd>
       </ekz>
       <ekz>
@@ -105,7 +102,8 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
     <trd>premenn&aacute;</trd>,
     <trd>variabilita</trd>
   </trdgrp>
-  <trd lng="zh">&#21464;&#37327; [<ind>bi&agrave;n li&agrave;ng</ind>]</trd>
+  <trd lng="uk">&c_z;&#x43C;&c_ib;&#x43D;&#x43D;&c_a; (&c_v;&c_je;&#x43B;&c_i;&c_ch;&c_i;&#x43D;&c_a;)</trd>
+  <trd lng="zh">&#x53D8;&#x91CF; [<ind>bi&agrave;n li&agrave;ng</ind>]</trd>
 </drv>
 
 <drv mrk="variab.hazarda0o">
@@ -116,18 +114,17 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
       <klr>(super <ref cel="spac.probablo0o">probablospaco</ref>
       <frm am="(bb Omega,bb A,P)">(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
       <ref cel="mezur.0ebla.MAT">Mezurebla</ref>
-      <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> <frm
-      am="X">X</frm> 
+      <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> <frm am="X">X</frm> 
       de la probablospaco al la aro de reeloj, provizita per la
       <ref cel="algebr.borelasigma0o">borela &sigma;-algebro</ref>; alidire:
       tia funkcio <frm am="X">X</frm>, ke la inversa bildo per &gcirc;i de
       ajna 
-      intervalo <frm am="(-oo,x)">]-&#8734;,x[</frm> estas 
+      intervalo <frm am="(-oo,x)">]-&#x221E;,x[</frm> estas 
       <ref cel="okaz.0o.MAT">okazo</ref>, 
       ofte signata per <frm am="(X lt x)">(X &lt; <k>x</k>)</frm>:
       <ekz>
         hazarda variablo <frm am="X">X</frm> difinas probablon 
-        <frm am="P_X=P circ X^-1">P<sub>X</sub> = P&#9702;X<sup>-1</sup></frm>
+        <frm am="P_X=P circ X^-1">P<sub>X</sub> = P&#x25E6;X<sup>-1</sup></frm>
         
         super la aro de reeloj provizita per la borela
         
@@ -202,6 +199,12 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
   <snc>
     <ref tip="dif" cel="variab.hazarda0o">hazarda <tld/>o.</ref>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_y;&c_p;&c_a;&c_d;&c_k;&c_o;&c_v;&c_a;&c_ja; 
+      <ind>&c_v;&c_je;&c_l;&c_ib;&c_ch;&c_y;&c_n;&c_ja;</ind></trd>,
+    <trd>&c_v;&c_y;&c_p;&c_a;&c_d;&c_k;&c_o;&c_v;&c_a;&c_ja; 
+      <ind>&c_z;&c_mol;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;</ind></trd> 
+  </trdgrp>
   <trd lng="ca"><ind>variable</ind> aleat&ograve;ria</trd>
   <trdgrp lng="cs">
     <trd>n&aacute;hodn&aacute; prom&ecaron;nn&aacute;</trd>,
@@ -231,7 +234,10 @@ lng="ru">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_a;&c_ja;
 </drv>
 </art>
 <!--
-$Log: variab.xml,v $
+$Log$
+versio 1.39 2022/08/16 09:27:58
+Dmitri Gabinski: + trd be
+
 versio 1.37 2020/02/14 19:10:20
 Wolfram Diestel: formuloj per am
 
@@ -251,8 +257,5 @@ Revision 1.32  2015/06/26 23:10:17  revo
 Darcy Shen: +trd zh
 
 Revision 1.31  2013/04/09 12:10:11  revo
-Sebastian Cyprych: kor trd pl
-
-Revision 1.30  2012/10/23 00:14:11  revo
 -->
 </vortaro>

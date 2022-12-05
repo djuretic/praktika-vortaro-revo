@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gras.xml,v 1.70 2021/06/18 20:41:40 revo Exp $">
+<art mrk="$Id: gras.xml,v 1.107 2022/04/30 08:42:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gras</rad>/o <fnt><bib>PV</bib></fnt>
@@ -43,7 +43,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Marc Gassion</aut>
-          <vrk><url ref="https://www.monato.be/2003/007934.html">Aude</url></vrk>
+          <vrk><url ref="&Monato;/2003/007934.html">Aude</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -52,7 +52,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Petro De Smet'</aut>
-          <vrk><url ref="https://www.monato.be/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+          <vrk><url ref="&Monato;/2008/009292.php">Sidante en pudingo, mi alvokas miajn
+          savantojn!</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -61,7 +62,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="https://www.monato.be/2007/009234.php">Dikeco</url></vrk>
+          <vrk><url ref="&Monato;/2007/009234.php">Dikeco</url></vrk>
           <lok>2007</lok>
         </fnt>;
       </ekz>
@@ -70,7 +71,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
-          <vrk><url ref="https://www.monato.be/2013/010973.php">Bombo-bankroto</url></vrk>
+          <vrk><url ref="&Monato;/2013/010973.php">Bombo-bankroto</url></vrk>
           <lok>2013</lok>
         </fnt>;
       </ekz>
@@ -79,7 +80,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Julius Hauser</aut>
-          <vrk><url ref="https://www.monato.be/2013/011027.php">Oro blanka</url></vrk>
+          <vrk><url ref="&Monato;/2013/011027.php">Oro blanka</url></vrk>
           <lok>2013</lok>
         </fnt>.
       </ekz>
@@ -92,6 +93,10 @@
       <ref cel="vegeta1.0o">vegetalino</ref>.
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_t;&c_l;&c_u;&c_sh;&c_ch;</trd>,
+    <trd>&c_t;&c_u;&c_k;</trd>
+  </trdgrp>
   <trd lng="bo">&#xF5E;&#xF42;&#xF0B;&#xF5A;&#xF72;&#xF0B;</trd>
   <trd lng="de">Fett</trd>
   <trd lng="en">grease</trd>
@@ -113,6 +118,10 @@
     <trd>omastek</trd>,
     <trd>rostlinn&yacute; tuk</trd>,
     <trd>s&aacute;dlo</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x436;&#x438;&#x440;</trd>,
+    <trd>&c_s;&#x430;&#x43B;&#x43E;</trd>
   </trdgrp>
 </drv>
 
@@ -169,7 +178,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode Van De Velde</aut>
-          <vrk><url ref="https://www.monato.be/2013/010934.php">Sablohorlo&gcirc;o for&scirc;ovas piramidon</url></vrk>
+          <vrk><url ref="&Monato;/2013/010934.php">Sablohorlo&gcirc;o for&scirc;ovas
+          piramidon</url></vrk>
           <lok>2013</lok>
         </fnt>;
       </ekz>
@@ -208,7 +218,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>S. Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html">La&ubreve; ritmo de la rizejoj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006831.html">La&ubreve; ritmo de la
+          rizejoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -237,7 +248,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
-          <vrk><url ref="https://www.monato.be/2003/008070.html">Franda&jcirc;o por scivolemuloj</url></vrk>
+          <vrk><url ref="&Monato;/2003/008070.html">Franda&jcirc;o por
+          scivolemuloj</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -270,9 +282,14 @@
     <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_zh;&c_i;&c_r;&c_n;&c_y;&c_j;
     <klr> &c_sh;&c_r;&c_i;&c_f;&c_t;</klr></trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_t;&c_l;&c_u;&c_s;&c_t;&c_y;</trd>,
+    <trd>&c_t;&c_o;&c_w;&c_s;&c_t;&c_y;</trd>,
+    <trd>&c_p;&c_a;&c_w;&c_t;&c_l;&c_u;&c_s;&c_t;&c_y; <klr>(&c_sh;&c_r;&c_y;&c_f;&c_t;)</klr></trd>
+  </trdgrp>
   <trd lng="af">vet</trd>
   <trd lng="am">&#x1235;&#x1265;</trd>
-  <trd lng="ar">&#x62F;&#x647;&#x646;</trd>
+  <trd lng="ar">&#x62F;&a_h;&a_n;</trd>
   <trd lng="az">ya&#x11F;</trd>
   <trd lng="bn">&#x99A;&#x9B0;&#x9CD;&#x9AC;&#x9BF;</trd>
   <trd lng="bs">mast</trd>
@@ -280,6 +297,7 @@
     <trd>tlust&yacute;</trd>,
     <trd>tu&ccaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="cy">braster</trd>
   <trd lng="da">fedt</trd>
   <trd lng="et">rasva</trd>
   <trd lng="eu">gantz</trd>
@@ -288,44 +306,75 @@
     <trd>riche<klr tip="ind"> (en p. d'un sol)</klr></trd>
   </trdgrp>
   <trd lng="fy">fet</trd>
+  <trd lng="ga">saill</trd>
+  <trd lng="gd">reamhar</trd>
   <trd lng="gl">graxa</trd>
   <trd lng="gu">&#xA9A;&#xAB0;&#xAAC;&#xAC0;</trd>
   <trd lng="ha">mai</trd>
   <trd lng="hi">&#x935;&#x938;&#x93E;</trd>
+  <trd lng="hmn">muaj roj</trd>
   <trd lng="hr">masti</trd>
+  <trd lng="ht">gr&#xE8;s</trd>
   <trd lng="hu">zs&iacute;ros</trd>
   <trd lng="hy">&#x573;&#x561;&#x580;&#x57A;</trd>
+  <trd lng="ig">ab&#x1EE5;ba</trd>
   <trd lng="is">feitur</trd>
   <trd lng="ja">&#x8102;&#x80AA;</trd>
-  <trd lng="jw">lemak</trd>
+  <trd lng="jv">lemak</trd>
   <trd lng="ka">&#x10EA;&#x10EE;&#x10D8;&#x10DB;&#x10D8;&#x10E1;</trd>
+  <trd lng="kk">&#x43C;&c_a;&c_j;</trd>
   <trd lng="km">&#x1787;&#x17B6;&#x178F;&#x17B7;&#x1781;&#x17D2;&#x179B;&#x17B6;&#x1789;&#x17CB;</trd>
+  <trd lng="kn">&#xC95;&#xCCA;&#xCAC;&#xCCD;&#xCAC;&#xCC1;</trd>
   <trd lng="ko">&#xC9C0;&#xBC29;</trd>
+  <trd lng="ku">r&#xFB;n</trd>
+  <trd lng="ky">&#x43C;&c_a;&c_j;</trd>
+  <trd lng="lat">adipem</trd>
   <trd lng="lo">&#xEC4;&#xE82;&#xEA1;&#xEB1;&#xE99;</trd>
+  <trd lng="lt">riebal&#x173;</trd>
+  <trd lng="lv">tauki</trd>
+  <trd lng="mg">tavy</trd>
+  <trd lng="mi">te ngako</trd>
+  <trd lng="mk">&#x43C;&c_a;&c_s;&c_t;&c_i;</trd>
   <trd lng="ml">&#xD15;&#xD4A;&#xD34;&#xD41;&#xD2A;&#xD4D;&#xD2A;&#xD4D;</trd>
+  <trd lng="mn">&#x4E9;&#x4E9;&c_h;</trd>
   <trd lng="mr">&#x91A;&#x930;&#x92C;&#x940;</trd>
+  <trd lng="ms">lemak</trd>
+  <trd lng="mt">xa&#x127;am</trd>
   <trd lng="my">&#x1006;&#x102E;</trd>
   <trd lng="ne">&#x92C;&#x94B;&#x938;&#x94B;</trd>
   <trd lng="nl">vet</trd>
   <trd lng="ny">mafuta</trd>
   <trd lng="pa">&#xA1A;&#xA30;&#xA2C;&#xA40;</trd>
-  <trd lng="ps">&#x648;&#x627;&#x632;&#x6AB;&#x647;</trd>
-  <trd lng="sd">&#x648;&#x633;&#x627;</trd>
+  <trd lng="ps">&a_w;&a_A;&a_z;&#x6AB;&a_h;</trd>
+  <trd lng="rw">ibinure</trd>
+  <trd lng="sd">&a_w;&a_s;&a_A;</trd>
   <trd lng="si">&#xDB8;&#xDDA;&#xDAF;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>tlst&yacute;</trd>,
     <trd>tu&ccaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="sl">ma&scaron;&#x10D;obe</trd>
+  <trd lng="sm">ga&#x2BB;o</trd>
+  <trd lng="sn">mafuta</trd>
+  <trd lng="so">baruurta</trd>
   <trd lng="sq">yndyr&#xEB;</trd>
   <trd lng="st">mafura a</trd>
+  <trd lng="su">gajih</trd>
+  <trd lng="sw">mafuta</trd>
   <trd lng="ta">&#xB95;&#xBCA;&#xBB4;&#xBC1;&#xBAA;&#xBCD;&#xBAA;&#xBC1;</trd>
   <trd lng="te">&#xC15;&#xC4A;&#xC35;&#xC4D;&#xC35;&#xC41;</trd>
+  <trd lng="tg">&c_f;&c_a;&c_r;&c_b;&c_je;&#x4B3;</trd>
   <trd lng="th">&#xE44;&#xE02;&#xE21;&#xE31;&#xE19;</trd>
   <trd lng="tl">taba</trd>
   <trd lng="tr">ya&gbreve;l&inodot;</trd>
-  <trd lng="ur">&#x686;&#x631;&#x628;&#x6CC;</trd>
+  <trd lng="tt">&#x43C;&c_a;&c_j;</trd>
+  <trd lng="uk">&c_zh;&c_i;&c_r;&c_u;</trd>
+  <trd lng="ur">&f_ch;&a_r;&a_b;&#x6CC;</trd>
+  <trd lng="uz">yog &#x2018;</trd>
   <trd lng="vi">ch&#x1EA5;t b&#xE9;o</trd>
+  <trd lng="xh">amafutha</trd>
   <trd lng="yi">&#x5E4;&#x5E2;&#x5D8;</trd>
+  <trd lng="yo">sanra</trd>
   <trd lng="zu">inoni</trd>
 </drv>
 
@@ -356,6 +405,10 @@
       <trd>Schlemmerei</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="uk">
+    <trd>&#x436;&#x438;&#x440;&#x43D;&#x435;</trd>,
+    <trd>&#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x43C;&#x43D;&#x435; <klr>(&#x443; &#x437;&#x43D;&#x430;&#x447;. &#x456;&#x43C;.)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gras.0igi">
@@ -374,6 +427,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_u;&c_k;&c_o;&c_r;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_a;&c_d;&c_k;&c_o;&c_r;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_v;&c_y;&c_g;&c_l;&c_a;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
     <trd lng="de">m&auml;sten</trd>
     <trd lng="es">engordar</trd>
     <trd lng="hu">h&iacute;zlal</trd>    
@@ -389,6 +447,11 @@
         <tld/>igi paton, &scirc;uojn, pafiltubon.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_t;&c_l;&c_u;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>,
+      <trd>&c_sh;&c_m;&c_a;&c_l;&c_mol;&c_c;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_m;&c_a;&c_z;&c_a;&c_c;&c_mol; &c_t;&c_l;&c_u;&c_ch;&c_sh;&c_a;&c_m;</trd>
+    </trdgrp>
     <trd lng="de">fetten</trd>
     <trdgrp lng="es">
       <trd>untar</trd>,
@@ -416,6 +479,7 @@
         <tld/>igi teron, &gcirc;ardenon.
       </ekz>
     </dif>
+    <trd lng="be">&c_u;&c_g;&c_n;&c_o;&c_j;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trd lng="de">d&uuml;ngen</trd>
     <trd lng="es">abonar</trd>
     <trd lng="hu">tr&aacute;gy&aacute;z</trd>    
@@ -435,6 +499,10 @@
   <trdgrp lng="sk">
     <trd>masti&tcaron;</trd>,
     <trd>vyk&racute;mi&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x433;&#x43E;&#x434;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x443;&#x434;&#x43E;&#x431;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
   </trdgrp>
 </drv>
 
@@ -460,6 +528,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_t;&c_l;&c_u;&c_s;&c_mol;&c_c;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_g;&c_l;&c_a;&c_d;&c_ch;&c_e;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_y;&c_c;&c_je;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>engordar<klr tip="amb"> (hacerse gordo)</klr></trd>,
     <trd>cebarse<klr tip="ind"> (intr.)</klr></trd>
@@ -483,6 +556,12 @@
     <trd>&c_t;&c_u;&c_ch;&c_n;&c_je;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="tr">&scedil;i&scedil;manlamak</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x43E;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;&#x441;&#x44F;</trd>,
+    <trd>&#x433;&#x43B;&#x430;&#x434;&#x448;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x43E;&#x433;&#x43B;&#x430;&#x434;&#x448;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x443;&#x434;&#x43E;&#x431;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gras.0igajxo">
@@ -493,6 +572,7 @@
       <ref tip="dif" cel="sterk.0o">Sterko</ref>.
     </dif>
   </snc>
+  <trd lng="be">&c_u;&c_g;&c_n;&c_a;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trdgrp lng="es">
    <trd>estiercol</trd>, 
    <trd>abono</trd>,
@@ -556,6 +636,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_h;&c_u;&c_d;&c_y;</trd>,
+      <trd>&c_s;&c_h;&c_u;&c_d;&c_n;&c_je;&c_l;&c_y;</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>magro<klr tip="ind"> (adj.)</klr></trd>,
       <trd>flaco</trd>
@@ -600,6 +684,10 @@
     <refgrp tip="vid">
       <ref cel="ricx.mal0a">malri&ccirc;a</ref>.
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_je;&c_w;&c_r;&c_a;&c_d;&c_l;&c_ib;&c_v;&c_y;</trd>,
+      <trd>&c_b;&c_ja;&c_s;&c_h;&c_l;&c_je;&c_b;&c_n;&c_y;</trd>
+    </trdgrp>
     <trd lng="es">est&eacute;ril<klr tip="amb"> (adj., tierra)</klr></trd>
     <trd lng="hu">sov&aacute;ny</trd>
     <trd lng="pl">lichy</trd>
@@ -616,6 +704,10 @@
   </trdgrp>
   <trd lng="nl">arm<klr tip="ind"> (mager)</klr></trd>
   <trd lng="sk">chud&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x456;&#x441;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x445;&#x443;&#x434;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gras.mal0igxi">
@@ -644,12 +736,26 @@
     </dif>
     <trd lng="de">abnehmen</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_h;&c_u;&c_d;&c_n;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_ib;&c_z;&c_a;&c_r;&c_n;&c_je;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="es">adelgazar</trd>
   <trd lng="fr">maigrir</trd>
+  <trd lng="uk">&#x445;&#x443;&#x434;&#x43D;&#x443;&#x442;&#x438;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.107 2022/04/30 08:42:40
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.104 2021/11/17 09:31:40
+Dmitri Gabinski: + trd be
+
+versio 1.103 2021/11/08 12:46:56
+Dmitri Gabinski: + trd be
+
 Revision 1.26  2019/03/27 21:10:17  revo
 Jeromo Vasxe: + 1 ekz (~a TIP)
 
@@ -663,11 +769,5 @@ Revision 1.23  2015/06/29 16:39:29  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2015/06/29 09:10:13  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.21  2014/02/08 10:10:23  revo
-Damien Brucker: -eraro cxe ref
-
-Revision 1.20  2014/01/02 21:10:34  revo
 -->
 </vortaro>

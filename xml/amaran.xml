@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: amaran.xml,v 1.19 2021/02/28 16:09:06 revo Exp $">
+<art mrk="$Id: amaran.xml,v 1.23 2022/06/24 12:57:45 revo Exp $">
 <kap>
   <rad>amarant</rad>/o
   <fnt><bib>Fab1</bib></fnt>
@@ -15,11 +15,19 @@
       el familio <tld/>acoj (<trd lng="la">Amarantus</trd>),
       kies floroj estas malhele karminru&gcirc;aj:
       <ekz>
-        venis multaj aliaj floroj <klr>[&#x2026;]</klr> la bluaj violoj kaj la ru&gcirc;aj <tld/>oj,
+        venis multaj aliaj floroj <klr>[&#8230;]</klr> la bluaj violoj kaj la ru&gcirc;aj <tld/>oj,
         la lekantoj kaj la konvaloj
         <fnt>
           <bib>Fab1</bib>
           <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li rigardis <klr>[&#8230;]</klr> la ru&gcirc;ajn florojn de l&#8217; <tld/>o, kies etajn semojn,
+        kiuj estas nek greneroj nek legomoj, &ccirc;iu Hindo povas senpeke man&gcirc;i dum la
+        fasto
+        <fnt>
+          <bib>IKr</bib>
         </fnt>;
       </ekz>
       <ekz>
@@ -31,10 +39,13 @@
         </fnt>.
       </ekz>
     </dif>
-    <bld lok="&WCU;/thumb/f/fa/Cadolzburg_Burggarten_-_Amaranth.jpg/576px-Cadolzburg_Burggarten_-_Amaranth.jpg" prm="CC BY-SA 4.0"><tld/>o &leftquot;Algeria&rightquot; en la &gcirc;ardeno de Cadolzburg, Germanujo
+    <bld
+    lok="&WCU;/thumb/f/fa/Cadolzburg_Burggarten_-_Amaranth.jpg/576px-Cadolzburg_Burggarten_-_Amaranth.jpg"
+    prm="CC BY-SA 4.0"><tld/>o &leftquot;Algeria&rightquot; en la &gcirc;ardeno de Cadolzburg, Germanujo
         <fnt>
           <aut>Wolfgang Sauber, propra verko</aut>
-          <lok><url ref="&WCW;/File:Cadolzburg_Burggarten_-_Amaranth.jpg">https://commons.wikimedia.org/wiki/File:Cadolzburg_Burggarten_-_Amaranth.jpg</url></lok>
+          <lok><url
+          ref="&WCW;/File:Cadolzburg_Burggarten_-_Amaranth.jpg">&WCW;/File:Cadolzburg_Burggarten_-_Amaranth.jpg</url></lok>
         </fnt>
     </bld>
   </snc>
@@ -64,7 +75,7 @@
     <trd>amarante</trd>,
     <trd>amaranthe</trd>
   </trdgrp>
-  <trd lng="he">&#x5D9;&#x5B7;&#x5E8;&#x5D1;&#x5BC;&#x5D5;&#x5BC;&#x5D6;</trd>
+  <trd lng="he">&yod;&#x5B7;&resh;&bet;&#x5BC;&vav;&#x5BC;&zayin;</trd>
   <trdgrp lng="hu">
     <trd>diszn&oacute;par&eacute;j</trd>,
     <trd>amar&aacute;nt</trd>
@@ -77,10 +88,44 @@
     <trd>&c_p;&c_o;&c_d;&c_s;&c_v;&c_je;&c_k;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
   <trd lng="sk">l&aacute;skavec</trd>
+  <trdgrp lng="uk">
+    <trd>&c_shch;&c_i;&c_r;&c_i;&c_c;&#x44F;</trd>,
+    <trd>&c_a;&#x43C;&c_a;&c_r;&c_a;&#x43D;&c_t;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="amaran.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Malhele <ref tip="super" cel="rugx.0a">ru&gcirc;a</ref> kiel la floroj de <tld/>o:
+      <ekz>
+        anta&ubreve; la kameno staris kanapeto, tegita per <tld/>a damasko
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_c;&c_jo;&c_m;&c_n;&c_a;-&c_m;&c_a;&c_l;&c_ib;&c_n;&c_a;&c_v;&c_y; <klr>(&c_k;&c_o;&c_l;&c_je;&c_r;)</klr></trd>
+  <trd lng="de">amarant</trd>
+</drv>
+
+
 </art>
 <!--
 $Log$
+versio 1.23 2022/06/24 12:57:45
+Dmitri Gabinski: + trd be
+
+versio 1.22 2022/04/25 15:10:59
+aktualigo ligvokodoj kaj URL-unuoj
+
+versio 1.20 2021/10/29 05:26:05
+Wolfram Diestel: +ekz, +~a
+
 Revision 1.17  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -94,11 +139,5 @@ Revision 1.14  2005/07/27 16:31:44  revo
 Jozefo Horvath: +trd h
 
 Revision 1.13  2004/03/28 16:54:48  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/05/09 18:43:53  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.11  2002/02/23 19:47:29  revo
 -->
 </vortaro>

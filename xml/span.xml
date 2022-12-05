@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: span.xml,v 1.13 2021/05/03 17:29:01 revo Exp $">
+<art mrk="$Id: span.xml,v 1.17 2022/06/24 12:57:47 revo Exp $">
 <kap>
   <rad>span</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -35,17 +34,19 @@
         <tld/>&#8217; de kalkano &gcirc;is krurzono
         <fnt>
           <bib>Monato</bib>
-          <vrk><url 
-          ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018">Skotlando &dash; Gaelaj naciaj kostumoj</url></vrk>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018">Skotlando &dash;
+          Gaelaj naciaj kostumoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>  
+    <ref tip="sin" cel="strecx.man0o">manstre&ccirc;o</ref>
     <refgrp tip="vid">
       <ref cel="col.0o">colo</ref>,
       <ref cel="fingr.0o.largxo">fingro<sncref/></ref>,
       <ref cel="fut.0o">futo</ref>,
       <ref cel="uln.0o.mezurunuo">ulno<sncref/></ref>
     </refgrp>
+    <trd lng="be">&c_p;&c_ja;&c_d;&c_z;&c_ja;</trd>
     <trdgrp lng="de">
       <trd>Handspanne</trd>,
       <trd>Spanne</trd>
@@ -65,13 +66,13 @@
       a&ubreve; <ref tip="malprt" cel="pont.0o.ARKI">ponto</ref>:
       <ekz>
         la Ponto <klr>[&#8230;]</klr> super la rivero Jangzio <klr>[havas]</klr> longon de
-        1,741&#8239;m kaj <tld/>on de 552&#8239;metroj
+        1,741&#x202F;m kaj <tld/>on de 552&#x202F;metroj
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Jangzio"
-              >Jangzio - Vikipedio</url></vrk>
+          <vrk><url ref="&Viki;/Jangzio">Jangzio - Vikipedio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_p;&c_r;&c_a;&c_l;&c_jo;&c_t; <klr tip="amb">(&c_p;&c_a;&c_m;&c_ib;&c_zh; &c_a;&c_p;&c_o;&c_r;&c_a;&c_m;&c_ib;, &c_k;&c_a;&c_l;&c_jo;&c_n;&c_a;&c_m;&c_ib;)</klr></trd>
     <trdgrp lng="de">
       <trd>Joch <klr>(Architektur)</klr></trd>,
       <trd>Spannweite</trd>
@@ -92,10 +93,26 @@
     <trd>port&eacute;e<klr> (d'une arche)</klr></trd>
   </trdgrp>
   <trd lng="sk">rozp&auml;tie obl&uacute;ka <klr>(mostov&eacute;ho)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#8217;&#x44F;&c_d;&#x44C; (&#x43C;&c_ib;&c_r;&c_a; &c_d;&#x43E;&c_v;&c_zh;&c_i;&#x43D;&c_i;)</trd>,
+    <trd>&#x43D;&c_je;&c_v;&c_je;&#x43B;&c_i;&#x43A;&c_a; &c_v;&c_ib;&c_d;&c_s;&c_t;&c_a;&#x43D;&#x44C;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&#x43C;&c_a;&c_h; &#x43A;&c_r;&c_i;&#x43B; &#x43B;&c_ib;&c_t;&c_a;&#x43A;&c_a;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&#x43B;&c_ib;&c_t; &#x43C;&#x43E;&c_s;&c_t;&c_a;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_s;&c_t;&c_a;&#x43D;&#x44C; &#x43C;&c_ib;&c_zh; &#x43E;&#x43F;&#x43E;&c_r;&c_a;&#x43C;&c_i; &c_a;&c_r;&#x43A;&c_i;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.17 2022/06/24 12:57:47
+Dmitri Gabinski: + trd be
+
+versio 1.16 2022/05/05 14:43:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.14 2021/10/25 06:35:06
+Wolfram Diestel: +ref-sin
+
 versio 1.13 2021/05/03 17:29:01
 Wolfram Diestel: reverketita: snc/dif, +ekz-oj, +ref-oj, trd de
 
@@ -109,14 +126,5 @@ Revision 1.9  2013/10/03 08:11:00  revo
 Wolfram Diestel: precizigis klason al voko:longoj
 
 Revision 1.8  2013/09/14 16:10:29  revo
-Wolfram Diestel: ref al lst mezurunuoj
-
-Revision 1.7  2009/08/18 19:17:16  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.6  2009/07/14 16:30:32  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.5  2007/04/18 16:30:17  revo
 -->
 </vortaro>

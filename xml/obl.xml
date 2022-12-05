@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: obl.xml,v 1.29 2020/02/15 22:10:22 revo Exp $">
+<art mrk="$Id: obl.xml,v 1.34 2022/03/26 12:56:03 revo Exp $">
 <kap>
   <ofc>*</ofc>
   -<rad>obl</rad>/
@@ -52,143 +51,223 @@
       <trd><klr>-</klr>szer</trd>,
       <trd><klr>-</klr>sz&ouml;r</trd>
    </trdgrp>
+   <trd lng="pl">przyrostek liczebnika wielorakiego</trd>
    <trd lng="pt">sufixo multiplicativo</trd>
   </drv>
   
-  <drv mrk="obl.mult0a">
-    <kap>mult<tld/>a</kap>
-    <snc>
-      <uzo tip="klr">(Singulare)</uzo>
-      <dif>
-        Multega: havi mult<tld/>an forton<sup>Z</sup>.
-      </dif>
-    </snc>
-    <snc>
-      <uzo tip="klr">(Plurale)</uzo>
-      <dif>
-        Estantaj multaj el la sama speco:
-        <ekz>
-          la mult<tld/>aj efikoj de la elektro.
-        </ekz>
-      </dif>
-      <trd lng="fr">multiple</trd>
-    </snc>
-    <snc mrk="obl.mult0a.MAT">
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>MatVort</bib></fnt>
-      <ref tip="dif" cel="obl.plur0a">plur<tld/>a.</ref>
-    </snc>
+<drv mrk="obl.mult0a">
+  <kap>mult<tld/>a</kap>
+  <snc>
+    <uzo tip="klr">(Singulare)</uzo>
+    <dif>
+      Multega: havi mult<tld/>an forton<sup>Z</sup>.
+    </dif>
+  </snc>
+  <snc>
+    <uzo tip="klr">(Plurale)</uzo>
+    <dif>
+      Estantaj multaj el la sama speco:
+      <ekz>
+        la mult<tld/>aj efikoj de la elektro.
+      </ekz>
+    </dif>
+    <trd lng="fr">multiple</trd>
+  </snc>
+  <snc mrk="obl.mult0a.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <ref tip="dif" cel="obl.plur0a">plur<tld/>a.</ref>
+  </snc>
   <trd lng="cs">mnohon&aacute;sobn&yacute;</trd>
   <trdgrp lng="de">
       <trd>vielfach</trd>
     </trdgrp>
   <trd lng="hu">sokszoros</trd>
   <trd lng="nl">veel</trd>
+  <trd lng="pl">wielokrotny</trd>
+  <trd lng="ro">multipl&abreve;</trd>
   <trd lng="sk">mnohon&aacute;sobn&yacute;</trd>
 </drv>
 
-  <drv mrk="obl.mult0igi">
-    <kap>mult<tld/>igi</kap>
-    <snc>
-      <dif>
-        Multigi:
-        <ekz>
-          mult<tld/>igi la eksperimentojn, la provojn.
-        </ekz>
-      </dif>
-      <trdgrp lng="hu">
-        <trd>megsokszoroz</trd>,
-        <trd>sokszoros&iacute;t</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_m;&c_n;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_je;&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
-      </trdgrp>
-    </snc>
-    <snc>
-      <dif>
-        Multigi pli kaj pli samspecajn esta&jcirc;ojn, igante ilin naski&gcirc;i
-        unu de aliaj:
-        <ekz>
-          Dio promesis, ke li mult<tld/>igos
-          ilian rason kiel la steloj de la &ccirc;ielo;
-        </ekz>
-        <ekz>
-          mult<tld/>igi vegeta&jcirc;on per bran&ccirc;plantado;
-        </ekz>
-        <ekz>
-          mult<tld/>i&gcirc;ema raso.
-        </ekz>
-      </dif>
-      <trdgrp lng="hu">
-        <trd>szapor&iacute;t</trd>,
-        <trd>sokas&iacute;t</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_r;&c_a;&c_z;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_je;&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
-      </trdgrp>
-    </snc>
-    <snc mrk="obl.mult0igi.multipliki">
-      <uzo tip="fak">MAT</uzo>
-      <uzo tip="stl">ARK</uzo>
-      <fnt><bib>VdE</bib><lok>artikoloj: mult, multipliki</lok></fnt>
-      <dif>
-        <ref tip="dif" cel="multip.0i.elemente">Multipliki</ref> nombron
-        per entjero.
-      </dif>
-      <trd lng="ru">&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
-    </snc>
+<drv mrk="obl.mult0igi">
+  <kap>mult<tld/>igi</kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="mult.0igi">Multigi</ref>:
+      <ekz>
+        mult<tld/>igi la eksperimentojn, la provojn;
+      </ekz>
+      <ekz>
+        &ccirc;io estas pro vi, por ke la graco, mult<tld/>igita per multaj,
+        abundigu la dankon al la gloro de Dio 
+        <fnt>
+          <bib>NT</bib>
+          <lok>II. Korintanoj 4:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        necesas nuligi kelkajn festojn anstata&ubreve; mult<tld/>igi ilin, 
+        &ccirc;ar dum &ccirc;i tiu festo nur 10&#x202F;% de la lo&gcirc;antoj festas, kaj la
+        aliaj restas hejme, sen fari ion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&eacute;r&eacute;mie Sabiyumva</aut>
+          <vrk><url ref="&Monato;/2009/009701.php">Fino de
+          ramadano: &ccirc;u festo de gejunuloj?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        hodia&ubreve; oni parolas anka&ubreve; pri la &leftquot;Interreto de Objektoj&#x201D;,
+        kiam la nombro de &leftquot;objektoj&#x201D; konektitaj al Interreto 
+        &ndash; fridujoj, panrostiloj, unuopaj lumoj, ... &ndash; vaste superos la
+        nombron de homoj, evidente anka&ubreve; tio povus mult<tld/>igi la
+        disponatajn datenojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="&Monato;/2014/011208.php">La
+          Granda Datumaro</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="hu">
+      <trd>megsokszoroz</trd>,
+      <trd>sokszoros&iacute;t</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_m;&c_n;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_p;&c_r;&c_je;&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <snc>
+    <dif>
+      Multigi pli kaj pli samspecajn esta&jcirc;ojn, igante 
+      ilin <ref tip="super" cel="nask.0i">naski</ref>&gcirc;i unu de aliaj:
+      <ekz>
+        Dio promesis, ke li mult<tld/>igos
+        ilian rason kiel la steloj de la &ccirc;ielo;
+      </ekz>
+      <ekz>
+        oni povas sufi&ccirc;e bredi kuniklojn, sed monon mult<tld/>igi ja ne
+        estas eble
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode van de Velde</aut>
+          <vrk><url ref="&Monato;/2009/009698.php">La nuna
+          financa krizo (3)</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mult<tld/>igi vegeta&jcirc;on per bran&ccirc;plantado;
+      </ekz>
+      <ekz>
+        mult<tld/>i&gcirc;ema raso.
+      </ekz>
+    </dif>
+    <trdgrp lng="hu">
+      <trd>szapor&iacute;t</trd>,
+      <trd>sokas&iacute;t</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_a;&c_z;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_p;&c_r;&c_je;&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="obl.mult0igi.multipliki">
+    <uzo tip="fak">MAT</uzo>
+    <uzo tip="stl">ARK</uzo>
+    <fnt><bib>VdE</bib><lok>artikoloj: mult, multipliki</lok></fnt>
+    <dif>
+      <ref tip="dif" cel="multip.0i.elemente">Multipliki</ref> nombron
+      per entjero:
+      <ekz>
+        la verkanto, bezonante esprimi ekzemple &leftquot;mult<tld/>igi&rightquot;,
+        &leftquot;dividato&rightquot; a&ubreve; &leftquot;triangulo&rightquot;, kreos tiujn vortojn facile 
+        el la vortoj jam ekzistantaj en la vortaro
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <trd lng="be">&c_p;&c_a;&c_m;&c_n;&c_o;&c_zh;&c_y;&c_c;&c_mol;</trd>
+    <trdgrp lng="pl">
+      <trd>zwielokrotnia&cacute;</trd>,
+      <trd>mno&zdot;y&cacute;</trd>,
+      <trd>pomna&zdot;a&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>&icirc;nmul&#x21B;i</trd>,
+      <trd>multiplica</trd>
+    </trdgrp>
+    <trd lng="ru">&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  </snc>
   <trd lng="be">&c_p;&c_a;&c_m;&c_n;&c_a;&c_zh;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bg">&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_v;&c_a;&c_m;</trd>
   <trdgrp lng="cs">
     <trd>rozmno&zcaron;ovat</trd>,
     <trd>zn&aacute;sobit</trd>
   </trdgrp>
+  <trd lng="de">vervielfachen</trd>
+  <trd lng="en">multiply</trd>
+  <trd lng="es">multiplicar</trd>
   <trd lng="fr">multiplier</trd>
+  <trd lng="hu">megsokszoroz</trd>
   <trd lng="nl">vermenigvuldigen</trd>
   <trdgrp lng="pl">
-      <trd>mno&zdot;y&cacute;</trd>,
-      <trd>wielokratnia&cacute;</trd>
-    </trdgrp>
+    <trd>mno&zdot;y&cacute;</trd>,
+    <trd>zwielokrotnia&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>&icirc;nmul&#x21B;i</trd>,
+    <trd>multiplica</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>n&aacute;sobi&tcaron;</trd>,
     <trd>rozmno&zcaron;i&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x443; &#x431;&#x430;&#x433;&#x430;&#x442;&#x43E; &#x440;&#x430;&#x437;&#x456;&#x432; &#x437;&#x431;&#x456;&#x43B;&#x44C;&#x448;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43C;&#x43D;&#x43E;&#x436;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x43C;&#x43D;&#x43E;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
-  <drv mrk="obl.plur0a">
-    <kap>plur<tld/>a</kap>
-    <uzo tip="fak">MAT</uzo>
-    <snc>
-      <dif>
-        <klr>(p.p. punkto a&ubreve; polinoma radiko)</klr>
-        Tia, ke &gcirc;ia <ref cel="obl.0eco"><tld/>eco</ref> superas unu.
-      </dif>
-      <rim>
-        Oni trovas anka&ubreve; <ctl>mult<tld/>a</ctl> &ccirc;i-sence,
-        ver&scirc;ajne pro imito de nacilingvaj formoj. Tiu nelogika uzo
-        de <ctl>mult</ctl> anstata&ubreve; <ctl>plur</ctl> trovi&gcirc;as
-        anka&ubreve; &ccirc;e Bricard <fnt><bib>MatTerm</bib></fnt>:
-        <ekz>
-          multlatero,
-        </ekz>
-        <ekz>
-          multedro...
-        </ekz>
-      </rim>
-    </snc>
-    <trd lng="be">&c_k;&c_r;&c_a;&c_t;&c_n;&c_y;</trd>
-    <trdgrp lng="de">
-      <trd>mehrfach</trd>,
-    </trdgrp>
-    <trd lng="en">multiple</trd>
-    <trd lng="fr">multiple</trd>
-    <trd lng="de">multiple</trd>
-    <trd lng="hu">t&ouml;bbsz&ouml;r&ouml;s</trd>
-    <trd lng="pl">wielokrotny</trd>
-    <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
-  </drv>
+<drv mrk="obl.plur0a">
+  <kap>plur<tld/>a</kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(p.p. punkto a&ubreve; polinoma radiko)</klr>
+      Tia, ke &gcirc;ia <ref cel="obl.0eco"><tld/>eco</ref> superas unu.
+    </dif>
+    <rim>
+      Oni trovas anka&ubreve; <ctl>mult<tld/>a</ctl> &ccirc;i-sence,
+      ver&scirc;ajne pro imito de nacilingvaj formoj. Tiu nelogika uzo
+      de <ctl>mult</ctl> anstata&ubreve; <ctl>plur</ctl> trovi&gcirc;as
+      anka&ubreve; &ccirc;e Bricard <fnt><bib>MatTerm</bib></fnt>:
+      <ekz>
+        multlatero,
+      </ekz>
+      <ekz>
+        multedro...
+      </ekz>
+    </rim>
+  </snc>
+  <trd lng="be">&c_k;&c_r;&c_a;&c_t;&c_n;&c_y;</trd>
+  <trdgrp lng="de">
+    <trd>mehrfach</trd>,
+  </trdgrp>
+  <trd lng="en">multiple</trd>
+  <trd lng="fr">multiple</trd>
+  <trd lng="de">multiple</trd>
+  <trd lng="hu">t&ouml;bbsz&ouml;r&ouml;s</trd>
+  <trd lng="pl">wielokrotny</trd>
+  <trd lng="ro">diferit</trd>
+  <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trd lng="uk">&#x43A;&#x456;&#x43B;&#x44C;&#x43A;&#x430;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x438;&#x439; (&#x43F;&#x440;&#x43E; &#x437;&#x431;&#x456;&#x43B;&#x44C;&#x448;&#x435;&#x43D;&#x43D;&#x44F;)</trd>
+</drv>
 </subart>
 
 <subart>
@@ -222,12 +301,15 @@
       </trdgrp>
       <trdgrp lng="pl">
         <trd>wielokrotna</trd>,
-        <trd>wielokrotno&sacute;&cacute;</trd></trdgrp>
+        <trd>wielokrotno&sacute;&cacute;</trd>
+      </trdgrp>
+      <trd lng="ro">multiplu</trd>
       <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_n;&c_o;&c_je;</trd>
     </snc>
   <trd lng="cs">n&aacute;sobek</trd>
   <trd lng="nl">veelvoud</trd>
   <trd lng="sk">n&aacute;sobok</trd>
+  <trd lng="uk">&#x43A;&#x440;&#x430;&#x442;&#x43D;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x43E;</trd>
 </drv>
   <drv mrk="obl.0igi">
     <kap><tld/>igi</kap>
@@ -258,11 +340,20 @@
     <trd lng="fr">multiplier<klr tip="ind"> (math.)</klr></trd>
     <trd lng="hu">szoroz</trd>
     <trd lng="nl">vermenigvuldigen</trd>
+    <trdgrp lng="pl">
+      <trd>mno&zdot;y&cacute;</trd>,
+      <trd>powiela&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>multiplica</trd>,
+      <trd>duplic&abreve;</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
-  </drv>
+    <trd lng="uk">&#x43C;&#x43D;&#x43E;&#x436;&#x438;&#x442;&#x438;</trd>
+</drv>
   <drv mrk="obl.n0a">
     <kap>n-<tld/>a</kap>
     <snc>
@@ -271,12 +362,10 @@
         <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
         <dif>
           <klr>(p.p. <ref cel="radik.0o.polinomo">radiko</ref>
-          <frm am="a"><k>a</k></frm> de polinomo <frm am="bb P"
-          ><g>P</g></frm>)</klr>
+          <frm am="a"><k>a</k></frm> de polinomo <frm am="bb P"><g>P</g></frm>)</klr>
           Tia, ke <frm am="n"><k>n</k></frm> estas la plej granda
           potenco, por
-          kiu <frm am="(bb X-a*bb 1)^n"
-          >(<g>X</g>-<k>a</k>&middot;<g>1</g>)<sup><k>n</k></sup></frm>
+          kiu <frm am="(bb X-a*bb 1)^n">(<g>X</g>-<k>a</k>&middot;<g>1</g>)<sup><k>n</k></sup></frm>
           divizoras en <frm am="bb P"><g>P</g></frm>:
           <ekz>
             <frm am="bb X^2-bb 1"><g>X</g><sup>2</sup>-<g>1</g></frm>
@@ -284,8 +373,7 @@
           </ekz>
           <ekz>
             <frm>1</frm> estas du<tld/>a radiko de
-            <frm am="bb X^2-2*bb X+bb 1"
-            ><g>X</g><sup>2</sup>-2&middot;<g>X</g>+<g>1</g></frm>.
+            <frm am="bb X^2-2*bb X+bb 1"><g>X</g><sup>2</sup>-2&middot;<g>X</g>+<g>1</g></frm>.
           </ekz>
         </dif>
         <trd lng="hu">n-szeres <klr tip="amb">(gy&ouml;k)</klr></trd>
@@ -314,6 +402,10 @@
       <trd>multiple d'ordre n</trd>,
       <trd>n-uple</trd></trdgrp>
     <trd lng="pl">n-krotny</trd>
+    <trdgrp lng="ro">
+      <trd>n-o dat&abreve;</trd>,
+      <trd>de n ori</trd>
+    </trdgrp>
     <trd lng="ru">n-<ind>&c_k;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</ind></trd>
   </drv>
   <drv mrk="obl.0eco">
@@ -344,8 +436,10 @@
     </trdgrp>
   <trd lng="hu">multiplicit&aacute;s</trd>
   <trd lng="pl">krotno&sacute;&cacute;</trd>
+  <trd lng="ro">ori</trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">n&aacute;sobnos&tcaron;</trd>
+  <trd lng="uk">&#x43A;&#x440;&#x430;&#x442;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
 </drv>
   <drv mrk="obl.plej_malgranda_komuna_0o">
     <kap>plej malgranda komuna <tld/>o</kap>
@@ -366,15 +460,16 @@
   <trd lng="de">kleinstes gemeinsames <ind>Vielfaches</ind></trd>
   <trd lng="en">least common <ind>multiple</ind></trd>
   <trdgrp lng="fr">
-      <trd>plus petit commun <ind>multiple</ind></trd>,
-      <trd>P.P.C.M.</trd>
-    </trdgrp>
+    <trd>plus petit commun <ind>multiple</ind></trd>,
+    <trd>P.P.C.M.</trd>
+  </trdgrp>
   <trd lng="hu">legkisebb k&ouml;z&ouml;s <ind>t&ouml;bbsz&ouml;r&ouml;s</ind></trd>
   <trd lng="nl">kleinste gemeen <ind>veelvoud</ind></trd>
   <trdgrp lng="pl">
-      <trd>najmniejsza wsp&oacute;&lstroke;na wielokrotno&sacute;&cacute;</trd>,
-      <trd>N.W.W.</trd>
-    </trdgrp>
+    <trd>najmniejsza wsp&oacute;lna wielokrotno&sacute;&cacute;</trd>,
+    <trd>N.W.W.</trd>
+  </trdgrp>
+  <trd lng="ro">cel mai mic multiplu comun  <klr>(c.m.m.m.c.)</klr></trd>
   <trd lng="ru">
     &c_n;&c_a;&c_i;&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_je;&c_je; &c_o;&c_b;&c_shch;&c_je;&c_je; <ind>&c_k;&c_r;&c_a;&c_t;&c_n;&c_o;&c_je;</ind></trd>
   <trd lng="sk">najmen&scaron;&iacute; spolo&ccaron;n&yacute; n&aacute;sobok</trd>
@@ -382,7 +477,13 @@
 </subart>
 </art>
 <!--
-$Log: obl.xml,v $
+$Log$
+versio 1.31 2021/12/01 19:24:50
+Vito Redsky: +trd pl +trd ro
+
+versio 1.30 2021/06/26 15:34:00
+Wolfram Diestel: mult~igi: aldono de ekz/trd el mult/ (estis duobla)
+
 versio 1.29 2020/02/15 22:10:22
 Wolfram Diestel: formuloj per am
 
@@ -399,11 +500,5 @@ Revision 1.25  2006/04/17 16:33:09  revo
 Tulio Flores: +tr pt
 
 Revision 1.24  2005/06/26 16:32:34  revo
-Yury Finkel: +trd ru
-
-Revision 1.23  2004/11/23 17:31:34  revo
-Marc Bavant: n-obla (radiko): kor ekz
-
-Revision 1.22  2004/06/24 16:33:16  revo
 -->
 </vortaro>

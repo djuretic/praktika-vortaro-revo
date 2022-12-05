@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vet.xml,v 1.24 2021/05/29 10:57:56 revo Exp $">
+<art mrk="$Id: vet.xml,v 1.29 2022/03/28 11:08:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vet</rad>/i
@@ -11,19 +11,34 @@
   <gra><vspec>x</vspec></gra>
   <snc mrk="vet.0i.private">
     <dif>
-      Interkonsenti pri monsumo a&ubreve; valora&jcirc;o, &gcirc;enerale
+      <ref tip="super" cel="konsen.inter0i">Interkonsenti</ref> pri monsumo a&ubreve; valora&jcirc;o, &gcirc;enerale
       amba&ubreve;flanke
       egala,
       kiun la malpravanto devos pagi al la pravanto:
       <ekz>
-        la re&gcirc;o <tld/>is kun li je ses berberaj &ccirc;evaloj, ke
-        Laerto en
-        dekdu renkonti&gcirc;oj ne venkos pli ol tri fojojn<fnt>Z</fnt>;
+        la re&gcirc;o <tld/>is kun li je ses berberaj &ccirc;evaloj <klr>[&#x2026;]</klr>,
+        ke Laerto en dekdu renkonti&gcirc;oj <klr>[&#x2026;]</klr> ne venkos pli ol tri fojojn
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i dek frankojn kontra&ubreve; unu<fnt>B</fnt>.
+        mi <tld/>us cent orajn monerojn, ke tio ne estas vera, respondis la mastro, la
+        &ccirc;asisto akceptis la <tld/>on kaj kontra&ubreve;metis sakon kun la sama kvanto da oro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        mi povas <tld/>i<klr>( (<ref cel="garant.0i">garantii</ref>)</klr>, ke li ne lo&gcirc;as tie &ccirc;i
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
     </dif>
+    <trd lng="be">&c_ib;&c_s;&c_mol;&c_c;&c_ib; &c_w; <ind>&c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</ind></trd>
     <trd lng="de">wetten</trd>
     <trd lng="it">scommettere</trd>
     <trdgrp lng="ru">
@@ -36,14 +51,32 @@
   <snc mrk="vet.0i.SPO">
   <uzo tip="fak">SPO</uzo>
     <dif>
-      Riski sumon en ludo por tia a&ubreve; tia ludanto, en konkurado
-      por tia
-      a&ubreve;
-      tia &ccirc;evalo.
+      Riski sumon en ludo, turniro ks por tia a&ubreve; tia ludanto, en konkurado
+      por tia a&ubreve; tia &ccirc;evalo, gajnonte pluroblon en okazo de ties venko:
+      <ekz>
+        ni estis tri kaj ni <tld/>is en la totalizatoro tri rublojn, nia &ccirc;evalo venis
+        unua, ni ricevis po tridek tri rubloj, mi ne povas vivi sen <tld/>kuroj
+        <fnt>
+          <bib>IKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[iuj]</klr> <tld/>odonis konsiderindajn sumojn pro gladiatoroj novaj kaj
+        nekonataj, esperante, ke en la okazo de ilia venko ili enpo&scirc;igos grandegajn
+        gajnojn, <tld/>is e&ccirc; la cezaro
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_mol; <klr>(&c_u; &c_g;&c_u;&c_l;&c_mol;&c_n;&c_ib;)</klr></trd>,
+      <trd>&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <ind>&c_s;&c_t;&c_a;&c_w;&c_k;&c_u;</ind></trd>
+    </trdgrp>
     <trd lng="en">gamble</trd>
     <trdgrp lng="de">
       <trd>wetten</trd>,
+      <trd><klr>(auf etw.) </klr>setzen <klr>(Wette)</klr></trd>
       <trd>verwetten</trd>
     </trdgrp>
     <trdgrp lng="it">
@@ -59,6 +92,7 @@
   </snc>
   <trd lng="bg">&c_z;&c_a;&c_l;&c_a;&c_g;&c_a;&c_m;</trd>
   <trd lng="bo">&#xF62;&#xF92;&#xFB1;&#xF53;&#xF0B;&#xF56;&#xF59;&#xF74;&#xF42;&#xF66;&#xF0B;</trd>
+  <trd lng="br">klaoustrea&ntilde;</trd>
   <trdgrp lng="ca">
     <trd>apostar</trd>,
     <trd>jugar</trd>
@@ -67,17 +101,22 @@
     <trd>s&aacute;zet se</trd>,
     <trd>vsadit se</trd>
   </trdgrp>
+  <trd lng="cy">betio</trd>
+  <trd lng="da">v&aelig;dde</trd>
   <trd lng="el">&sigma;&tau;&omikron;&jota;&chi;&eta;&my;&alfa;&tau;&jota_ton;&zeta;&omega;</trd>
   <trdgrp lng="en">
     <trd>bet</trd>,
     <trd>wager</trd>
   </trdgrp>
   <trd lng="es">apostar</trd>
+  <trd lng="eu">apustu egin</trd>
   <trdgrp lng="fr">
     <trd>jouer<klr> (de l'argent)</klr></trd>,
     <trd>parier</trd>
   </trdgrp>
   <trd lng="hu">fogad <klr tip="ind">(vmibe)</klr></trd>
+  <trd lng="id">bertaruh</trd>
+  <trd lng="ko">&#xAC78;&#xB2E4;</trd>
   <trd lng="nl">wedden</trd>
   <trdgrp lng="pl">
     <trd>zak&lstroke;ada&cacute; si&eogonek;</trd>,
@@ -88,6 +127,12 @@
     <trd>stavi&tcaron; sa <klr>(o nie&ccaron;o)</klr></trd>,
     <trd>vsadi&tcaron; na nie&ccaron;o</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x438;&#x442;&#x438;&#x441;&#x44F; &#x43E;&#x431;/&#x443; &#x437;&#x430;&#x43A;&#x43B;&#x430;&#x434;</trd>,
+    <trd>&#x456;&#x442;&#x438; &#x432; &#x437;&#x430;&#x43A;&#x43B;&#x430;&#x434;</trd>,
+    <trd>&#x437;&#x430;&#x43A;&#x43B;&#x430;&#x434;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
+    <trd>&#x456;&#x442;&#x438; &#x43D;&#x430;/&#x432; &#x43F;&#x430;&#x440;&#x456;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vet.0o">
@@ -96,16 +141,29 @@
     <dif>
       Ago <tld/>i:
       <ekz>
-        gajni<fnt>Z</fnt>,
+        &ccirc;e tiu neegala <tld/>o mi venkos
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        perdi<fnt>Z</fnt>
+        vi perdos tiun &ccirc;i <tld/>on, princo
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>on;
+        li faris grandan <tld/>on pro via kapo
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        &ccirc;e tiu neegala <tld/>o mi venkos<fnt>Z</fnt>.
+        la princino koleris, ke simpla eksigita soldato venkis en la <tld/>o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Sesope oni trairas la tutan mondon</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="bg">&c_z;&c_a;&c_l;&c_a;&c_g;&c_a;&c_n;&c_je;</trd>
@@ -121,30 +179,12 @@
     <trd lng="pl">zak&lstroke;ad</trd>
     <trd lng="ru">&c_p;&c_a;&c_r;&c_i;</trd>
   </snc>
-  <snc mrk="vet.0o.vetpago">
-    <dif>
-      Monsumo a&ubreve; valora&jcirc;o <tld/>ita.
-    </dif>
-    <trd lng="bg">&c_z;&c_a;&c_l;&c_o;&c_g;</trd>
-    <trd lng="ca">posta</trd>
-    <trdgrp lng="de">
-      <trd>Einsatz</trd>,
-      <trd>Wetteinsatz</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>enjeu</trd>,
-      <trd>mise<klr> (au jeu)</klr></trd>
-    </trdgrp>
-    <trd lng="hu">t&eacute;t</trd>
-    <trdgrp lng="it">
-      <trd>posta<klr> (nelle scommesse)</klr></trd>
-      <trd>puntata<klr> (nelle scommesse)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</trd>,
-      <trd>&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
-    </trdgrp>
-  </snc>
+  <rim>
+    En kunmetoj ne konfuzu kun <ref tip="hom" cel="veto.0o">vetoo</ref>: veto-rajto kutime ne estas
+    rajto veti, sed
+    vetoi.
+  </rim>
+  <trd lng="be">&c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</trd>
   <trd lng="ca">aposta</trd>
   <trd lng="cs">s&aacute;zka <klr>(smlouva)</klr></trd>
   <trd lng="el">&sigma;&tau;&omikron;&jota_ton;&chi;&eta;&my;&alfa;</trd>
@@ -155,6 +195,10 @@
   <trd lng="es">apuesta</trd>
   <trd lng="pt">aposta</trd>
   <trd lng="sk">st&aacute;vka</trd>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x43A;&#x43B;&#x430;&#x434;</trd>,
+    <trd>&#x43F;&#x430;&#x440;&#x456;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vet.0e">
@@ -163,13 +207,21 @@
     <dif>
       Farante <tld/>on:
       <ekz>
-        <tld/>e ludi sian tutan ri&ccirc;a&jcirc;on;
+        ili man&gcirc;is, trinkis, kantis, <tld/>e batalis a&ubreve; kuris
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>batali, <tld/>kuri
-        <klr>(batali, kuri pro <tld/>o, kiu venkos)</klr>.
+        mi povas proponi <tld/>e nur bu&scirc;elon da pomoj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Kion la patro faras, estas &ccirc;iam &gcirc;usta</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_u; <ind>&c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</ind></trd>
     <trdgrp lng="ca">
       <trd>en juguesca</trd>,
       <trd>apostant</trd>
@@ -186,17 +238,22 @@
   </snc>
   <snc mrk="vet.0e.FIG">
     <dif>
-      Kvaza&ubreve; farante <tld/>on:
+      Kvaza&ubreve; farante <tld/>on; <ref tip="sin" cel="konkur.0e">konkure</ref>:
       <ekz>
-        la hundoj <tld/>e provis atingi la kolbason;
+        lia ordono ekkuris, kvaza&ubreve; <tld/>e, por alkonduki novan &ccirc;evalon
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        tre multekosta estas la <ind><tld/>armado</ind>.
-        <trd lng="hu">fegyverkez&eacute;si verseny</trd>
-        <trd lng="ru">&c_g;&c_o;&c_n;&c_k;&c_a;
-        &c_v;&c_o;&c_o;&c_r;&c_u;&c_zh;&c_je;&c_n;&c_i;&c_j;</trd>
+        &ccirc;iuj &ccirc;eestantoj <klr>[&#x2026;]</klr> kaptis siajn dekstrajn piedojn kaj <tld/>e
+        hurladis
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_n;&c_a;&c_v;&c_y;&c_p;&c_je;&c_r;&c_a;&c_d;&c_k;&c_ib;</trd>
     <trd lng="de">um die Wette</trd>
     <trd lng="hu">versengve</trd>
     <trdgrp lng="fr">
@@ -205,10 +262,77 @@
     </trdgrp>
     <trd lng="ru">&c_n;&c_a;&c_p;&c_je;&c_r;&c_je;&c_g;&c_o;&c_n;&c_k;&c_i;</trd>
   </snc>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x431;/&#x443; &#x437;&#x430;&#x43A;&#x43B;&#x430;&#x434;</trd>,
+    <trd>&#x43D;&#x430; &#x43F;&#x430;&#x440;&#x456;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="vet.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+      Tiu <ref tip="super" cel="sum.mon0o">monsumo</ref> a&ubreve; 
+      <ref tip="super" cel="valor.0ajxo">valora&jcirc;o</ref>, pri kiu oni <tld/>as:
+      <ekz>
+        nu pokeru, prenante vian edzinon kiel <tld/>a&jcirc;on
+        <fnt>
+          <bib>KrB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili stre&ccirc;e ludas ludon dunivelan, <klr>[&#x2026;]</klr> seriozan &ccirc;ar, por unu ludanto,
+        ties <tld/>a&jcirc;o estus dumviva mallibero
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+       <trd>&c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</trd>,
+       <trd>&c_s;&c_t;&c_a;&c_w;&c_k;&c_a;</trd>
+   </trdgrp>
+    <trd lng="bg">&c_z;&c_a;&c_l;&c_o;&c_g;</trd>
+    <trd lng="ca">posta</trd>
+    <trdgrp lng="de">
+      <trd>Einsatz <klr>(Wette)</klr></trd>,
+      <trd>Wetteinsatz</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>enjeu</trd>,
+      <trd>mise<klr> (au jeu)</klr></trd>
+    </trdgrp>
+    <trd lng="hu">t&eacute;t</trd>
+    <trdgrp lng="it">
+      <trd>posta<klr> (nelle scommesse)</klr></trd>
+      <trd>puntata<klr> (nelle scommesse)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="uk">&#x441;&#x442;&#x430;&#x432;&#x43A;&#x430;</trd>
+</drv>
+
+
 </art>
 <!--
 $Log$
+versio 1.28 2021/11/08 12:46:51
+Dmitri Gabinski: + trd be
+
+versio 1.27 2021/10/31 15:32:34
+Wolfram Diestel: +trdj
+
+versio 1.26 2021/10/30 20:28:35
+Wolfram Diestel: ~o 2 -> ~ajxo; ekz-oj
+
+versio 1.25 2021/10/30 16:44:51
+Wolfram Diestel: +ekz-oj
+
 Revision 1.22  2016/10/06 17:10:16  revo
 Wolfram Diestel: kor. markon
 
@@ -219,14 +343,5 @@ Revision 1.20  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.19  2015/06/28 12:03:50  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2012/08/12 11:10:14  revo
-Marc Rausell: + trd ca
-
-Revision 1.17  2009/12/20 17:30:45  revo
- Fabio Bettani: +trd it
-
-Revision 1.16  2006/05/27 18:01:39  revo
 -->
 </vortaro>

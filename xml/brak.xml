@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: brak.xml,v 1.89 2021/06/18 20:41:26 revo Exp $">
+<art mrk="$Id: brak.xml,v 1.128 2022/04/26 15:00:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>brak</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,38 +11,34 @@
   <snc mrk="brak.0o.homa_membro">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      La supera <ref tip="super" cel="membr.0o.ANA">membro</ref>
-      &ccirc;e la homo:
+      La supra (resp. anta&ubreve;a) <ref tip="super" cel="membr.0o.ANA">membro</ref>
+      &ccirc;e la homo kaj <ref tip="malprt" cel="primat.0o">primato</ref>j:
       <ekz>
         grandan paperujon mi portas sub la <tld/>o
         <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>o en <tld/>o ili iris
         <fnt><bib>Fab1</bib>, <lok>La virineto de maro</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>o sub <tld/>o ili iris sur la alta&jcirc;on
         <fnt>
           <bib>Fab3</bib>
           <lok>Ib kaj malgranda kristino</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         prenas lin sub la <tld/>o kaj forkondukas flanken
         <fnt>
           <bib>Revizoro</bib>
           <lok>Akto unua</lok>
         </fnt>;
-      </ekz>
-      <ekz>
-        &scirc;i mem senvive falis en la <tld/>ojn de siaj fratoj, tiel efikis sur &scirc;i la stre&ccirc;eco, timo kaj doloro
+      </ekz><ekz>
+        &scirc;i mem senvive falis en la <tld/>ojn de siaj fratoj, tiel efikis sur &scirc;i la stre&ccirc;eco, timo
+        kaj doloro
         <fnt>
           <bib>Fab1</bib>
           <lok>Sova&gcirc;aj cignoj</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         apogante sin al la <tld/>o de juna kaj klera edzo
         <fnt>
           <bib>Marta</bib>
@@ -67,6 +63,9 @@
     <dif>
       Parto de tiu membro ekde &scirc;ultro &gcirc;is kubuto.
     </dif>
+    <refgrp tip="vid">
+      <ref cel="humer.0o">humero</ref>
+    </refgrp>
     <trd lng="be">&c_r;&c_u;&c_k;&c_a; <klr>(&c_a;&c_d;
     &c_p;&c_l;&c_ja;&c_ch;&c_a; &c_d;&c_a;
     &c_k;&c_ib;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
@@ -88,28 +87,24 @@
       Parto de objekto, kiu etendi&gcirc;as, flanke de &gcirc;i kiel
       <tld/>o:
       <ekz>
-        <tld/>o de cirkelo, de argano, 
-      </ekz>
-      <ekz>
+        <tld/>o de cirkelo, de <ref tip="malprt" cel="gru.0o.TEK">gruo</ref>, 
+      </ekz><ekz>
         de lustro, de helico, de levilo, de rivero;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         orbrilantaj kandelabroj etendis siajn bran&ccirc;formajn <tld/>ojn
         <fnt>
           <bib>Marta</bib>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         Nilo anstata&ubreve; flui en mallar&gcirc;a koridoro, dividi&gcirc;as en kelke da <tld/>oj sur vasta ebena&jcirc;o
         <klr>(vd <ref tip="vid" cel="delt.0o.GEOG">delto<sncref/></ref>)</klr>
         <fnt>
           <bib>Far1</bib>
           <lok>Anta&ubreve;parolo</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la mano, ku&scirc;anta sur <tld/>o de la se&gcirc;o, tremetis
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 19a, la
+        <fnt><bib>I&scirc;tar</bib> <lok>&ccirc;apitro 19a, la
         krizo</lok></fnt>.
       </ekz>
     </dif>
@@ -139,7 +134,7 @@
   </snc>
   <trd lng="af">arm</trd>
   <trd lng="am">&#x12AD;&#x1295;&#x12F5;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x630;&#x631;&#x627;&#x639;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_dh;&a_r;&a_A;&a_ayn;</trd>
   <trd lng="az">qol</trd>
   <trd lng="bn">&#x9B9;&#x9BE;&#x9A4;</trd>
   <trd lng="br">brec'h</trd>
@@ -152,74 +147,124 @@
     <trd>ruka</trd>,
     <trd>r&aacute;m&ecaron;</trd>
   </trdgrp>
+  <trd lng="cy">braich</trd>
   <trd lng="da">armen</trd>
   <trd lng="en">arm</trd>
   <trd lng="es">brazo</trd>
   <trd lng="et">arm</trd>
   <trd lng="fr">bras</trd>
   <trd lng="fy">earm</trd>
+  <trd lng="ga">l&aacute;mh</trd>
+  <trd lng="gd">g&agrave;irdean</trd>
   <trd lng="gl">brazo</trd>
   <trd lng="gu">&#xAB9;&#xABE;&#xAA5;</trd>
   <trd lng="ha">hannu</trd>
   <trd lng="he">&zayin;&resh;&vav;&ayin;</trd>
   <trd lng="hi">&#x92C;&#x93E;&#x902;&#x939;</trd>
+  <trd lng="hmn">caj npab</trd>
   <trd lng="hr">ruka</trd>
+  <trd lng="ht">bra</trd>
+  <trd lng="ig">ogwe aka</trd>
   <trd lng="is">armur</trd>
   <trd lng="it">braccio</trd>
   <trd lng="ja">&#x30A2;&#x30FC;&#x30E0;</trd>
-  <trd lng="jw">lengen</trd>
+  <trd lng="jv">lengen</trd>
   <trd lng="ka">&#x10EE;&#x10D4;&#x10DA;&#x10D8;&#x10E1;</trd>
+  <trd lng="kk">&#x49B;&c_o;&c_l;</trd>
   <trd lng="km">&#x178A;&#x17C3;</trd>
+  <trd lng="kn">&#xC95;&#xCC8;</trd>
   <trd lng="ko">&#xD314;</trd>
   <trdgrp lng="ku">
     <trd>bask</trd>,
     <trd>mil</trd>,
     <trd>nig</trd>
   </trdgrp>
+  <trd lng="ky">&c_k;&c_o;&c_l;</trd>
+  <trd lng="lat">brachium</trd>
   <trd lng="lo">&#xEC1;&#xE82;&#xE99;</trd>
+  <trd lng="lt">ranka</trd>
+  <trd lng="lv">roku</trd>
+  <trd lng="mg">sandry</trd>
+  <trd lng="mi">ringa</trd>
+  <trd lng="mk">&c_r;&c_a;&c_k;&c_a;</trd>
   <trd lng="ml">&#xD2D;&#xD41;&#xD1C;&#xD02;</trd>
+  <trd lng="mn">&c_g;&c_a;&c_r;</trd>
   <trd lng="mr">&#x939;&#x93E;&#x924;&#x93E;&#x928;&#x947;</trd>
+  <trd lng="ms">lengan</trd>
+  <trd lng="mt">drieg&#x127;</trd>
   <trd lng="my">&#x101C;&#x1000;&#x103A;</trd>
   <trd lng="ny">mkono</trd>
   <trd lng="oc">bra&ccedil;</trd>
   <trd lng="pa">&#xA06;&#xA30;&#xA2E;</trd>
-  <trd lng="ps">&#x645;&#x67C;</trd>
-  <trd lng="sd">&#x628;&#x62C;&#x627;</trd>
+  <trd lng="ps">&a_m;&#x67C;</trd>
+  <trd lng="rw">ukuboko</trd>
+  <trd lng="sd">&a_b;&a_j;&a_A;</trd>
   <trd lng="si">&#xD85;&#xDAD;</trd>
+  <trd lng="sl">ro&ccaron;ica</trd>
+  <trd lng="sm">lima</trd>
+  <trd lng="sn">ruoko</trd>
+  <trd lng="so">gacanta</trd>
   <trd lng="sq">krah</trd>
   <trd lng="st">letsoho la</trd>
+  <trd lng="su">panangan</trd>
+  <trd lng="sw">mkono</trd>
   <trd lng="ta">&#xB95;&#xBC8;</trd>
   <trd lng="te">&#xC1A;&#xC47;&#xC2F;&#xC3F;</trd>
+  <trd lng="tg">&c_d;&c_a;&c_s;&c_t;</trd>
   <trd lng="th">&#xE41;&#xE02;&#xE19;</trd>
   <trd lng="tl">braso</trd>
-  <trd lng="tp">luka</trd>
+  <trd lng="tok">luka</trd>
   <trd lng="tr">kol</trd>
-  <trd lng="ur">&#x628;&#x627;&#x632;&#x648;</trd>
-  <trd lng="vi">c&#xE1;nh tay</trd>
+  <trd lng="tt">&c_k;&c_u;&c_l;</trd>
+  <trd lng="uk">&c_r;&c_u;&c_k;&c_a;</trd>
+  <trd lng="ur">&a_b;&a_A;&a_z;&a_w;</trd>
+  <trd lng="uz">qo&#x2019;l</trd>
+  <trd lng="vi">c&aacute;nh tay</trd>
   <trd lng="vo">lam</trd>
-  <trd lng="yi">&#x5D0;&#x5B8;&#x5E8;&#x5E2;&#x5DD;</trd>
+  <trd lng="xh">ingalo</trd>
+  <trd lng="yi">&alef;&#x5B8;&resh;&ayin;&fmem;</trd>
+  <trd lng="yo">apa</trd>
   <trd lng="zu">ingalo</trd>
 </drv>
 
-<drv mrk="brak.0en0e">
-  <kap><tld/>en<tld/>e</kap>
-  <snc mrk="brak.0en0e.MIEN">
+<drv mrk="brak.0ingo">
+  <kap>
+    <tld/>ingo
+  </kap>
+  <snc>
+    <uzo tip="fak">TEKS</uzo>
     <dif>
-      <tld lit="B"/>on intermetitan kun <tld/>o de apudulo:
+      Parto de vesto, per kiu oni fiksas &gcirc;in &ccirc;e la supra parto de la brako a&ubreve; &scirc;ultro:
       <ekz>
-        oni ameme gvidas lin, <tld/>en<tld/>e, la&ubreve;
-        la stratetoj de la provinca urbo
+        <klr>[li]</klr> formar&scirc;is en sia longa kaftano kun flirtantaj lar&gcirc;aj
+        <tld/>ingoj kaj penda&jcirc;oj
+        <fnt><bib>Voja&gcirc;Imp</bib></fnt>;
+      </ekz><ekz>
+        baleta jupo <klr>[&#x2026;]</klr> povas anka&ubreve; ligi&gcirc;i al supraj
+        trika&jcirc;oj, kutime kun longaj <tld/>ingoj
         <fnt>
-          <aut>S. Rodin</aut>,
-          <vrk>Bildoj pri Norda Lando</vrk>,
-          <lok>2006</lok>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=290930">Baleta jupo</url></lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ring.brak0o">brakringo</ref>,
+      <ref cel="manik.0o">maniko</ref>,
+      <ref cel="sxelk.0o">&scirc;elko</ref>
+    </refgrp>
   </snc>
-  <trd lng="en">arm in arm</trd>
-  <trd lng="fr">bras-dessus bras-dessous</trd>
-  <trd lng="pl">pod <ind>r&eogonek;k&eogonek;</ind></trd>
+  <trd lng="de">Tr&auml;ger <klr>(Kleid)</klr></trd>
+  <trd lng="en">shoulder straps</trd>
+  <trd lng="fr">bretelle</trd>
+<adm>
+  Dubinda deriva&jcirc;o. &Gcirc;i estas malklara; por la signifo kiun donas la
+  tradukoj ni havas la fundamentan &#xAB;&scirc;elko&#xBB;n; kaj la ekzemplo pri
+  &#xAB;longa kaftano kun flirtantaj lar&gcirc;aj brakingoj&#xBB; estas absurda (&ccirc;u
+  vere tie temas pri &scirc;elkoj?). Necesas kontroli la sencon, kaj se &gcirc;i
+  efektive estas &#xAB;&scirc;elko&#xBB;, ni prefere marku tiun deriva&jcirc;on per EVI.
+  <aut>Sergio Pokrovskij</aut>
+</adm>
 </drv>
 
 <drv mrk="brak.0umi">
@@ -232,8 +277,7 @@
         &scirc;i tre vigli&gcirc;is <klr>[kaj]</klr> sin premis al mi
         <tld/>umante min je la kolo
         <fnt><bib>MkM</bib><lok>&ccirc;ap. 13</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi vin kisis, kisis sur kanap', mi vin alpremis en
         <ind><tld/>umo</ind> muta
         <fnt>
@@ -258,7 +302,7 @@
     <trd>&c_a;&c_b;&c_d;&c_y;&c_m;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_b;&c_n;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF50;&#xF58;&#xF0B;&#xF60;&#xF41;&#xFB1;&#xF74;&#xF51;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&t_tha;&t_ma;&t_tsheg;&t_-a;&t_kha;&t_yata;&t_shabchu;&t_da;&t_tsheg;&t_ba;&t_yata;&t_drengbu;&t_da;&t_tsheg;</trd>
   <trd lng="br">briata</trd>
   <trdgrp lng="cs">
     <trd>obejmout</trd>,
@@ -297,6 +341,11 @@
     <trd>krama</trd>,
     <trd>omfamna</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x431;&#x456;&#x439;&#x43C;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43E;&#x431;&#x43D;&#x456;&#x43C;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x445;&#x430;&#x43F;&#x430;&#x442;&#x438; &#x432; &#x43E;&#x431;&#x456;&#x439;&#x43C;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="brak.antaux0o">
@@ -305,6 +354,22 @@
     <uzo tip="fak">ANA</uzo>
     <dif>
       Parto de la supera membro, de kubuto &gcirc;is mano:
+      <ekz>
+        <klr>[li]</klr> tordis lian anta&ubreve;<tld/>on, kaj 
+        nesciante direktis la tubon de l&#x2019;
+        revolvero kontra&ubreve; la bruston de sia malamiko
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la konsulo levis la &scirc;ultrojn &gcirc;is la oreloj, kiam li diris tion, liaj <tld/>oj
+        samtempe levi&gcirc;is, kaj la anta&ubreve;<tld/>oj pendis perpendikulare kaj pendolis de
+        la kubutoj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
       <ekz>       
         la tria knabino dormas kun kapo apogita
         sur la anta&ubreve;<tld/>oj
@@ -330,6 +395,7 @@
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_l;&c_je;&c_ch;&c_mol;&c_je;</trd>
   <trd lng="sk">predlaktie</trd>
   <trd lng="sv">underarm</trd>
+  <trd lng="uk">&#x43F;&#x435;&#x440;&#x435;&#x434;&#x43F;&#x43B;&#x456;&#x447;&#x447;&#x44F;</trd>
 </drv>
 
 <drv mrk="brak.cxirkaux0i">
@@ -345,14 +411,12 @@
         estas tempo por &ccirc;irka&ubreve;<tld/>i, kaj tempo
         por foriri de &ccirc;irka&ubreve;<tld/>ado
         <fnt><bib>MT</bib><lok>&Pre; 3:5</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         preninte infanon, li starigis &gcirc;in meze de ili, kaj
         &ccirc;irka&ubreve;<tld/>inte &gcirc;in, li diris
         <klr>[...]</klr>
         <fnt><bib>NT</bib><lok>&Mar; 9:36</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi ricevis sufi&ccirc;egan dankon, dol&ccirc;an kison kaj
         <ind>&ccirc;irka&ubreve;<tld/>o</ind>n
         <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 5</lok></fnt>.
@@ -366,10 +430,6 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="brak.0umi"><tld/>umi</ref>
-    <rim>
-      Estas strange, ke amba&ubreve; PIV-oj tute ignoras
-      &ccirc;i tiun vorton.
-    </rim>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_b;&c_d;&c_y;&c_m;&c_a;&c_c;&c_mol;</trd>,
@@ -418,9 +478,45 @@
 <drv mrk="brak.en0igi">
   <kap>en<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
+  <snc mrk="brak.en0igi.cxirkauxbraki">
+    <dif>
+      <ref tip="dif" cel="brak.cxirkaux0i.brakumi">&Ccirc;irka&ubreve;<tld/>i</ref>:
+      <ekz>
+        post unu jaro en &ccirc;i tiu tempo vi en<tld/>igos filon
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 4:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kial, mia filo, vi volas ser&ccirc;i al vi plezuron &ccirc;e
+        fremda virino kaj en<tld/>igi ne apartenantan al vi
+        <fnt><bib>MT</bib>, <lok>&Sen; 5:20</lok></fnt>?
+      </ekz>
+      <ekz>
+        la interfrapi&gcirc;o estas senbrida: la unua viro en la vico alfrontanta la ta&ubreve;ron
+        en<tld/>igas &gcirc;ian kapon, kaj forte-firme eltenas sin inter ties kornoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Eduardo Novembro</aut>
+          <vrk><url ref="&Monato;/2014/011318.php">Ta&ubreve;ro??? Festo!!!</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="pl">
+      <trd>obejmowa&cacute; <klr>(ramionami)</klr></trd>
+      <trd>bra&cacute; w <ind>ramiona</ind></trd>,
+      <trd>u&sacute;ciska&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="sv">
+      <trd>krama</trd>,
+      <trd>omfamna</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="brak.en0igi.surbrakigi">
     <dif>
-      Levi, surpreni sur siajn <tld/>ojn:
+      Levi, <ref tip="super" cel="pren.0i.surmeti">surpreni</ref> sur siajn <tld/>ojn:
       <ekz>
         Marta <klr>[...]</klr> genui&gcirc;inte volis en<tld/>igi la
         filineton
@@ -437,26 +533,8 @@
       <trd>bra&cacute; na <ind>r&eogonek;ce</ind></trd>
     </trdgrp>
   </snc>
-  <snc mrk="brak.en0igi.cxirkauxbraki">
-    <dif>
-      <ref tip="dif" cel="brak.cxirkaux0i.brakumi">&Ccirc;irka&ubreve;<tld/>i</ref>:
-      <ekz>
-        kial, mia filo, vi volas ser&ccirc;i al vi plezuron &ccirc;e
-        fremda virino kaj en<tld/>igi ne apartenantan al vi?
-        <fnt><bib>MT</bib>, <lok>&Sen; 5:20</lok></fnt>.
-      </ekz>
-    </dif>
-    <trdgrp lng="pl">
-      <trd>obejmowa&cacute; <klr>(ramionami)</klr></trd>
-      <trd>bra&cacute; w <ind>ramiona</ind></trd>,
-      <trd>u&sacute;ciska&cacute;</trd>
-    </trdgrp>
-    <trdgrp lng="sv">
-      <trd>krama</trd>,
-      <trd>omfamna</trd>
-    </trdgrp>
-  </snc>
   <trd lng="cs">obejmout</trd>
+  <trd lng="de">in die <ind>Arm</ind>e nehmen</trd>
   <trd lng="en">hug</trd>
   <trd lng="nl">omhelzen</trd>
   <trdgrp lng="sk">
@@ -478,6 +556,19 @@
   <snc mrk="brak.sub0o.ANA">
     <dif>
       <ref tip="dif" cel="aksel.0o">Akselo</ref>:
+      <ekz>
+        la ne&gcirc;o <klr>[&#x2026;]</klr> alti&gcirc;is kelkfoje &gcirc;is la sub<tld/>oj
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alliginte &ccirc;irka&ubreve; sia zono kaj sub siaj sub<tld/>oj firmajn &scirc;nurojn, li sin &scirc;ovis
+        la&ubreve;longe de la muro
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         la korpotemperaturo &ndash; mezurita ofte en la bu&scirc;o a&ubreve; en la sub<tld/>o (akselo)
         <fnt>
@@ -509,72 +600,64 @@
   <trd lng="tr">koltuk alt&inodot;</trd>
 </drv>
 
-<drv mrk="brak.0ringo">
-  <kap><tld/>ringo</kap>
-  <snc mrk="brak.0ringo.GAL">
+<drv mrk="brak.0en0e">
+  <kap><tld/>en<tld/>e</kap>
+  <snc mrk="brak.0en0e.MIEN">
     <dif>
-      <ref tip="super" cel="bracel.0o">Braceleto</ref> portata &ccirc;e
-      la <tld/>o:
+      <tld lit="B"/>on intermetitan kun <tld/>o de apudulo:
       <ekz>
-        peza, granda ora <tld/>ringo el antikva idolista tempo
+        <klr>[li]</klr> promenas <tld/>enbrake kun amikino, anta&ubreve; ol reiri al la laboro
         <fnt>
-          <bib>Fab3</bib>
-          <lok>Ib kaj malgranda kristino</lok>
+          <bib>LOdE</bib>
+          <lok>1999, No 1 (51)</lok>
         </fnt>;
       </ekz>
       <ekz>
-        en la jaro 1864 &ccirc;e la limo de la vila&gcirc;o estis trovita <tld/>ringo el masiva oro
+        oni ameme gvidas lin, <tld/>en<tld/>e, la&ubreve;
+        la stratetoj de la provinca urbo
         <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=392148">Schalunen</url></lok>
+          <aut>S. Rodin</aut>,
+          <vrk>Bildoj pri Norda Lando</vrk>,
+          <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_b;&c_r;&c_a;&c_n;&c_z;&c_a;&c_l;&c_je;&c_t;</trd>
-  <trd lng="bg">&c_g;&c_r;&c_i;&c_v;&c_n;&c_a;</trd>
-  <trd lng="br">tro-vrec'h</trd>
-  <trd lng="cs">n&aacute;ramek</trd>
-  <trd lng="de">Armreif</trd>
-  <trd lng="en">bracelet</trd>
-  <trdgrp lng="es">
-    <trd>pulsera</trd>,
-    <trd>brazalete</trd>
+  <trdgrp lng="de">
+    <trd><ind>Arm</ind> in Arm</trd>,
+    <trd>untergehakt</trd>
+  </trdgrp><trd lng="en">arm in arm</trd>
+  <trd lng="fr">bras-dessus bras-dessous</trd>
+  <trd lng="pl">pod <ind>r&eogonek;k&eogonek;</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_o;&c_d; &c_r;&c_u;&c_ch;&c_k;&c_u;</trd>,
+    <trd><klr>(&c_v;&c_z;&c_ja;&c_v;&c_sh;&c_i;&c_s;&c_mol;)</klr> &c_p;&c_o;&c_d; &c_r;&c_u;&c_k;&c_u;</trd>
   </trdgrp>
-  <trd lng="fr">bracelet<klr tip="ind"> (de bras)</klr></trd>
-  <trd lng="he">&tsadi;&mem;&yod;&dalet;</trd>
-  <trd lng="hu">karperec</trd>
-  <trdgrp lng="it">
-    <trd>bracciale</trd>,
-    <trd>braccialetto</trd>
-  </trdgrp>
-  <trd lng="pl">bransoleta</trd>
-  <trd lng="ru">&c_b;&c_r;&c_a;&c_s;&c_l;&c_je;&c_t;</trd>
-  <trd lng="sk">n&aacute;ramok</trd>
-  <trd lng="tr">bilezik</trd>
 </drv>
-
 </art>
 <!--
 $Log$
+versio 1.128 2022/04/26 15:00:33
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.125 2022/01/18 06:31:26
+Wolfram Diestel: antaŭ~o..~en~e: ekz-oj, ref-oj, trd de
+
+versio 1.124 2022/01/01 16:47:38
+Jeromo Vasxe: - ~ringo portita al ring.xml
+
+versio 1.123 2021/12/30 06:37:12
+Sergio Pokrovskij: +trd=ru, +adm
+
+versio 1.122 2021/12/29 09:30:08
+Wolfram Diestel: ~o: pli &gcirc;enerala dif (primatoj)
+
+versio 1.121 2021/07/01 19:24:36
+Wolfram Diestel: +~ingo
+
 Revision 1.47  2016/02/28 19:10:27  revo
 Wolfram Diestel: riparo: adm forighis per skripto de Laer pro interlokita traduko
 
 Revision 1.46  2015/11/04 13:10:22  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.45  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.44  2015/06/29 16:29:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.43  2013/10/16 08:10:15  revo
-Benito Subejrano: + trd ca oc
-
-Revision 1.42  2012/08/27 06:10:23  revo
-Sebastian Cyprych: ~segxo movita al artikolo segx'
-
-Revision 1.41  2011/05/11 10:10:11  revo
 -->
 </vortaro>

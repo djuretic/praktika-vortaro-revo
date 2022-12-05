@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: vin.xml,v 1.46 2021/05/13 14:51:48 revo Exp $">
+<art mrk="$Id: vin.xml,v 1.54 2022/08/31 16:43:05 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vin</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,27 +12,33 @@
   <snc mrk="vin.0o.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Alkohola <ref tip="lst" lst="voko:trinka&jcirc;oj"
-      cel="trink.0ajxo">trinka&jcirc;o</ref>, 
+      Alkohola <ref tip="lst" lst="voko:trinka&jcirc;oj" cel="trink.0ajxo">trinka&jcirc;o</ref>, 
       ekstraktita el fermentintaj vinberoj:
       <ekz>
         mi ne volis trinki la <tld/>on
-        <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
+        <fnt><bib>F</bib> <lok>&FE; 35</lok></fnt>;
       </ekz>
       <ekz>
-        blanka, ru&gcirc;a, juna vino;
+        blanka, ru&gcirc;a, juna <tld/>o;
       </ekz>
       <ekz>
-        la vino gajigas la koron de la homo
+        la <tld/>o gajigas la koron de la homo
         <fnt>
           <bib>MT</bib>
-          <lok>Psalmaro 104:15</lok>
+          <lok>&Psa; 104:15</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="most.0o">mosto</ref>
     </refgrp>
+  </snc>
+  <snc mrk="vin.0o.KOMUNE">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      Alkohola <ref tip="lst" lst="voko:trinka&jcirc;oj" cel="trink.0ajxo">trinka&jcirc;o</ref>
+      el fermentintaj beroj, fruktoj... 
+    </dif>
   </snc>
   <trd lng="be">&c_v;&c_ib;&c_n;&c_o;</trd>
   <trd lng="bg">&c_v;&c_i;&c_n;&c_o;</trd>
@@ -58,19 +63,59 @@
   <trd lng="sk">v&iacute;no</trd>
   <trd lng="sv">vin</trd>
   <trd lng="tr">&scedil;arap</trd>
+  <trd lng="uk">&c_v;&c_i;&c_n;&c_o;</trd>
   <trd lng="zh">&#37202; [<ind>ji&#468;</ind>]</trd>
+</drv>
+
+<drv mrk="vin.0ejo">
+  <kap>
+    <tld/>ejo
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="drink.0ejo">Drinkejo</ref>, kie oni ofertas precipe vinon:
+      <ekz>
+        mi piediras de <tld/>ejo al <tld/>ejo kaj envoje instruas tiujn, kiuj promesas pagi
+        por la kru&ccirc;o
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ie en <tld/>ejo ni unue nekritike glutadis &ccirc;iujn nova&jcirc;ojn el la mondo, kaj poste
+        kura&gcirc;igitaj per drinko ni &gcirc;isna&ubreve;ze ripetadis, kiel &ccirc;e ni estas &ccirc;io malbona
+        <fnt>
+          <bib>LOdE</bib>
+          <aut>J. Balab&aacute;n</aut>
+          <vrk><url ref="&LOdE;Ondo-pdf/Lo-166.pdf">La pano de juna a&gcirc;o &dash; Spirito de Jo&ccirc;jo Paclt</url></vrk>
+          <lok>2008-09, n-ro 8-9</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="tavern.0o">taverno</ref>
+    </refgrp>
+    <trd lng="de">Weinstube</trd>
+    <trdgrp lng="fr">
+      <trd>bar &agrave; vin</trd>,
+      <trd>winstub</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_i;&c_n;&c_a;&c_r;&c_n;&c_ja;</trd>,
+    <trd>&c_p;&c_i;&c_v;&c_n;&c_i;&c_c;&c_ja;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vin.0isto">
   <kap><tld/>isto</kap>
   <snc mrk="vin.0isto.KOMUNE">
     <dif>
-      Homo kies <ref tip="lst" lst="voko:metioj"
-      cel="meti.0o">metio</ref> estas fari a&ubreve; doni <tld/>on:
+      Homo kies <ref tip="lst" lst="voko:metioj" cel="meti.0o">metio</ref> estas fari a&ubreve; doni <tld/>on:
       <ekz>
         post tiuj okazinta&jcirc;oj la <tld/>isto de la re&gcirc;o de Egiptujo
         kaj la bakisto kulpi&gcirc;is anta&ubreve; sia sinjoro
-        <fnt><bib>MT</bib>, <lok>&Gen; 40:1</lok></fnt>.
+        <fnt><bib>MT</bib> <lok>&Gen; 40:1</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -95,6 +140,47 @@
     <trd>&c_v;&c_i;&c_n;&c_o;&c_ch;&c_je;&c_r;&c_p;&c_i;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">&ccaron;a&scaron;n&iacute;k vo vin&aacute;rni</trd>
+  <trd lng="uk">&c_v;&c_i;&c_n;&c_o;&c_ch;&c_je;&c_r;&c_p;&c_ib;&c_j;</trd>
+</drv>
+
+<drv mrk="vin.miel0o">
+  <kap>
+    miel<tld/>o
+  </kap>
+  <snc mrk="vin.miel0o.KUI">
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      <ref tip="super" cel="vin.0o.KOMUNE"><tld lit="V"/>o<sncref/></ref>
+      farita el akvo en kiu oni fermentigis mielon:
+      <ekz>
+        ni trinkos miel<tld/>on el la oraj kornoj de la antikvaj nordlandaj re&gcirc;oj
+        <fnt>
+          <bib>Fab2</bib>
+          <vrk>Monteto de elfoj</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili gajnis ses medalojn <klr>[&#8230;]</klr> por miel<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2012/010550.php"
+              >Mielaj medaloj</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="akv.miel0o">mielakvo</ref>,
+      <ref cel="miel.trink0o">trinkmielo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Met</trd>,
+    <trd>Honigwein</trd>
+  </trdgrp>
+  <trd lng="en">mead</trd>
+  <trd lng="fr">hydromel</trd>
 </drv>
 
 <drv mrk="vin.palmo0o">
@@ -102,22 +188,20 @@
   <snc mrk="vin.palmo0o.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Alkohola <ref tip="lst" lst="voko:trinka&jcirc;oj"
-      cel="trink.0ajxo">trinka&jcirc;o</ref> 
+      <ref tip="super" cel="vin.0o.KOMUNE"><tld lit="V"/>o<sncref/></ref>
       farita el fermentinta suko de kokosarbo a&ubreve; 
       alia palmo:
       <ekz>
         plenkarafo da fermentinta palmo<tld/>o
-        <fnt><aut>J. Ribillard</aut>, <vrk>Vagado sub palmoj</vrk>, 
-        <lok>UEA, 1956</lok></fnt>;
+        <fnt><aut>J. Ribillard</aut> <vrk>Vagado sub palmoj</vrk> 
+        <lok>1956</lok></fnt>;
       </ekz>
       <ekz>
-        post dek ok kilometroj ni alvenas &ccirc;e Daya, vila&gcirc;eto kie &ccirc;iu 
+        post dek ok kilometroj ni alvenas &ccirc;e <nom>Daya</nom>, vila&gcirc;eto kie &ccirc;iu 
         ebrias pro palmo<tld/>o
         <fnt>
           <aut>E. Kokmeijer</aut>,
-          <vrk><url
-          ref="http://www.estherkokmeijer.nl/resumo-de-la-mondo-la-vojago">
+          <vrk><url ref="http://www.estherkokmeijer.nl/resumo-de-la-mondo-la-vojago">
           Resumo de la mondo</url></vrk>,
           <lok>[2008?]</lok>
         </fnt>.
@@ -135,13 +219,61 @@
   <kap>pom<tld/>o</kap>
   <snc mrk="vin.pom0o.KUI">
     <uzo tip="fak">KUI</uzo>
-    <ref tip="dif" cel="cidr.0o">cidro</ref>
+    <dif>
+      <ref tip="super" cel="vin.0o.KOMUNE"><tld lit="V"/>o<sncref/></ref>
+      el fermentinta suko de pomoj;
+      <ref tip="sin" cel="cidr.0o">cidro</ref>:
+      <ekz>
+        la nenatura ruina&jcirc;o, konstruita funde de la &gcirc;ardeno, <klr>[&#8230;]</klr> enhavis
+        barelojn plenajn da pom<tld/>o
+        <fnt>
+          <aut>H. Vallienne</aut>
+          <vrk>Kastelo de Prelongo</vrk>
+          <lok>1907</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trdgrp lng="fr">
-    <trd>vin de pomme</trd>,
-    <trd>cidre</trd>
+  <trd lng="be">&c_s;&c_ib;&c_d;&c_a;&c_r;</trd>
+  <trd lng="br">sistr</trd>
+  <trdgrp lng="cs">
+    <trd>cidre</trd>,
+    <trd>hru&scaron;kov&eacute; v&iacute;no</trd>,
+    <trd>jable&ccaron;n&eacute; v&iacute;no</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+      <trd>Apfelwein</trd>
+      <trd>Saurer Most <klr>(regione)</klr></trd>
+      <trd>Viez <klr>(luksemburge, sarlande, moselregione)</klr></trd>
+      <trd>Ebbelwoi <klr>(frankfurtmajne)</klr></trd>
+      <trd>sure Moscht <klr>(svisgermane)</klr></trd>
+      <trd>Zider <klr>(rare)</klr></trd>
+  </trdgrp>
+  <trd lng="el">&my;&eta;&lambda;&omikron_ton;&chi;&ypsilon;&my;&omikron;&sigma_fina;</trd>
+  <trd lng="fr">cidre</trd>
+  <trd lng="es">sidra</trd>
+  <trdgrp lng="he">
+    <trd>&samekh;&yod;&yod;&dalet;&resh;</trd>,
+    <trd>&mem;&yod;&ftsadi; &tav;&pe;&vav;&het;&yod; &ayin;&ftsadi;</trd>
+  </trdgrp>
+  <trd lng="hu">almabor</trd>
+  <trd lng="it">sidro</trd>
+  <trd lng="nl">cider</trd>
+  <trdgrp lng="pl">
+      <trd>cydr<klr> (rzadk.)</klr></trd>,
+      <trd>jab&lstroke;ecznik</trd>
   </trdgrp>
   <trd lng="pt">sidra</trd>
+  <trd lng="ru">&c_s;&c_i;&c_d;&c_r;</trd>
+  <trdgrp lng="sk">
+    <trd>cider</trd>,
+    <trd>jabl&ccaron;n&eacute; v&iacute;no</trd>
+  </trdgrp>
+  <trd lng="tr">elma &scedil;arab&inodot;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_ja;&c_b;&c_l;&c_u;&c_ch;&c_n;&c_je; &c_v;&c_i;&c_n;&c_o;</trd>,
+    <trd>&c_s;&c_i;&c_d;&c_r;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vin.sxauxm0o">
@@ -154,9 +286,9 @@
       <ekz>
         mi proponis provizi A&ubreve;stralian &scirc;a&ubreve;m<tld/>on por la festo
         <fnt>
-        <aut>R. Harry</aut>,
+        <aut>R. Harry</aut>
         <vrk><url ref="http://www.luin.se/inko/X24-6.pdf">La Diplomato
-        Kiu Ridis</url></vrk>,
+        Kiu Ridis</url></vrk>
         <lok>1997</lok>
         </fnt>.
       </ekz>
@@ -176,7 +308,7 @@
   </trdgrp>
   <trd lng="hu">habz&oacute;bor</trd>
   <trd lng="pt">espumante</trd>
-
+  <trd lng="uk">&c_ib;&c_g;&c_r;&c_i;&c_s;&c_t;&c_je; &c_v;&c_i;&c_n;&c_o;</trd>
 </drv>
 
 <drv mrk="vin.0berarbo">
@@ -184,9 +316,7 @@
   <snc mrk="vin.0berarbo.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      <ref tip="lst" cel="genr.0o.BIO"
-      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
-      tip="malprt" cel="vitac.0oj">vitacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">Genro</ref> el familio <ref tip="malprt" cel="vitac.0oj">vitacoj</ref>
       (<trd lng="la">Vitis</trd>), 
       <ref tip="lst" cel="arb.0eto" lst="voko:vitoparencoj">arbeto</ref>
       produktanta <tld/>berojn:
@@ -194,14 +324,14 @@
         &ccirc;u figarbo povas doni olivojn, a&ubreve; <tld/>berarbo figojn
         <fnt>
           <bib>NT</bib>
-          <lok>Jakobo 3:12</lok>
+          <lok>&Jak; 3:12</lok>
         </fnt>;
       </ekz>
       <ekz>
         &gcirc;ardeno de olivaj arboj, <tld/>berujoj, nuksarboj kaj ka&scirc;tanujoj
         <fnt>
           <bib>Far1</bib>
-          <lok>&Ccirc;apitro IX</lok>
+          <lok>&ccirc;apitro 9a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -216,8 +346,7 @@
     <trd>Weinstock</trd>,
     <trd>Weinrebe</trd>
   </trdgrp>
-  <trd 
-lng="el">&kappa;&lambda;&eta;&my;&alfa;&tau;&alfa;&rho;&jota;&alfa_ton;</trd>
+  <trd lng="el">&kappa;&lambda;&eta;&my;&alfa;&tau;&alfa;&rho;&jota;&alfa_ton;</trd>
   <trd lng="en">grapevine</trd>
   <trdgrp lng="fa">
     <trd><klr tip="amb">(&a_d;&a_r;&a_kh;&a_t;) </klr>&a_m;&a_w;</trd>,
@@ -243,16 +372,15 @@ lng="el">&kappa;&lambda;&eta;&my;&alfa;&tau;&alfa;&rho;&jota;&alfa_ton;</trd>
     <dif>
       Loko plantita per <tld/>berujoj:
       <ekz>
-        Noa plantis <tld/>ber&gcirc;ardenon
+        <nom>Noa</nom> plantis <tld/>ber&gcirc;ardenon
         <fnt>
           <bib>MT</bib>
-          <lok>Genezo 9:20</lok>
+          <lok>&Gen; 9:20</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd 
-lng="be">&c_v;&c_ib;&c_n;&c_a;&c_g;&c_r;&c_a;&c_d;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="be">&c_v;&c_ib;&c_n;&c_a;&c_g;&c_r;&c_a;&c_d;&c_n;&c_ib;&c_k;</trd>
   <trd lng="ca">vinyar</trd>
   <trd lng="de">Weinberg</trd>
   <trd lng="en">vineyard</trd>
@@ -270,10 +398,29 @@ lng="be">&c_v;&c_ib;&c_n;&c_a;&c_g;&c_r;&c_a;&c_d;&c_n;&c_ib;&c_k;</trd>
   </trdgrp>  
   <trd lng="ru">&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">vinohrad</trd>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;&c_n;&c_a; &c_p;&c_l;&c_a;&c_n;&c_t;&c_a;&c_c;&c_ib;&c_ja;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.54 2022/08/31 16:43:05
+Wolfram Diestel: meil~o: +ekz, ref, trd en, de
+
+versio 1.53 2022/08/23 19:24:13
+Jeromo Vasxe: + miel~o
+
+versio 1.52 2022/08/22 22:30:29
+Jeromo Vasxe: ~o + snc 2, + ref al snc 2
+
+versio 1.51 2022/05/06 12:17:22
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.47 2021/09/03 20:29:35
+Wolfram Diestel: +~ejo
+
 versio 1.46 2021/05/13 14:51:48
 Wolfram Diestel: kor. snc@mrk
 
@@ -281,20 +428,5 @@ versio 1.45 2020/03/23 00:10:43
 James Rezende Piton: +trd pt ~bergxardeno
 
 Revision 1.44  2020/03/22 08:00:00  revo
-James Rezende Piton: +trd pt pomvino, palmvino +trd en palmvino
-
-Revision 1.43  2017/10/21 20:10:14  revo
-Evandro Avellar: tr+ pt
-
-Revision 1.42  2016/11/24 08:10:13  revo
-Damien Brucker: +dif pom~o
-
-Revision 1.41  2016/11/22 19:10:16  revo
-Wolfram Diestel: lst metioj
-
-Revision 1.40  2016/11/22 18:10:13  revo
-Wolfram Diestel: ref-oj, ekz-oj, germ. trd-oj
-
-Revision 1.39  2015/07/04 08:37:45  revo
 -->
 </vortaro>

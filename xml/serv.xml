@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: serv.xml,v 1.84 2021/06/18 18:20:10 revo Exp $">
+<art mrk="$Id: serv.xml,v 1.129 2022/05/05 05:09:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>serv</rad>/i <fnt><bib>PV</bib></fnt>
@@ -17,20 +17,44 @@
       dispono de iu:
       <ekz>
         <tld/>i iun, al iu;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
+        dek du jarojn ili <tld/>is al <nom>Kedorlaomer</nom>, 
+        kaj en la dek-tria ili ribeli&gcirc;is.
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 14:4</lok>
+        </fnt>;
+      </ekz><ekz>
+        viaj du <tld/>antoj <tld/>os al ni kiel atestantoj
+        <fnt><bib>BdV</bib></fnt>;
+      </ekz><ekz>
+        &scirc;ia Arturo anka&ubreve; <tld/>as sur fervojo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        li <klr>[kiel]</klr> soldato <tld/>is brave kaj kura&gcirc;e, sed
+        post la milito li ricevis eksi&gcirc;on kaj tri helerojn
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Sesope oni trairas la tutan mondon</lok>
+        </fnt>;
+      </ekz><ekz>
         <ind>sinjoroj sin batas, <tld/>antoj vundojn ricevas</ind>
         <fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">urak vesznek &ouml;ssze, jobb&aacute;gy
         haj&aacute;t t&eacute;pik</trd>
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <ind>al du sinjoroj samtempe oni <tld/>i ne povas</ind>
-        <fnt><bib>PrV</bib></fnt>.
+        <fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">nem lehet k&eacute;t &uacute;rnak
         szolg&aacute;lni</trd>
+      </ekz><ekz>
+        al Dio <tld/>u, diablon rezervu
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <ref tip="sub" cel="servut.0i">servuti</ref>
   </snc>
   <snc mrk="serv.0i.komplezi">
     <uzo tip="klr">(iu)</uzo>
@@ -38,66 +62,86 @@
       Kompleze havigi utilon al iu:
       <ekz>
         en tia okazo li multe <tld/>is al mi;
-      </ekz>
-      <ekz>
-        tiuj <tld/>as partion, la aliaj volas <tld/>igi partion al si.
+      </ekz><ekz>
+        pri multaj el niaj frujaraj eminentuloj mankas al ni
+        biografiaj informoj, kaj ni malbone <tld/>as al postaj
+        generacioj, ne ser&ccirc;ante kaj ar&hcirc;ivante ilin
+        <fnt><bib>KPr</bib></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="help.0i.KOMUNE">helpi<sncref/></ref>,
+      <ref cel="komple4.0i">komplezi</ref>,
+      <ref cel="ten.sub0i.FIG">subteni<sncref/></ref>
+    </refgrp>
   </snc>
   <snc mrk="serv.0i.KUI">
+    <uzo tip="stl">EVI</uzo>
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Havigi man&gcirc;a&jcirc;on a&ubreve; trinka&jcirc;on al iu; <ref tip="sin" cel="tabl.sur0igi">surtabligi</ref>:
+      <refgrp tip="super">
+        <ref cel="tabl.sur0igi">Surtabligi</ref>,
+        <ref cel="prezen1.0i.proponi">prezenti<sncref/></ref>
+      </refgrp>
+      man&gcirc;a&jcirc;on a&ubreve; trinka&jcirc;on al iu:
       <ekz>
         kiam oni <tld/>is al li malvarman kafon, li la&ubreve;te blasfemis
-        <fnt>
-          <bib>KKl</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
+        <fnt><bib>KKl</bib></fnt>;
+      </ekz><ekz>
         li <tld/>is al li glason da biero
-        <fnt>
-          <bib>KKr</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
+        <fnt><bib>KKr</bib></fnt>;
+      </ekz><ekz>
         oni <tld/>is cetere, kiel kutime, tiel eksterordinarajn man&gcirc;a&jcirc;ojn, ke e&ccirc;
         <klr>[&#x2026;]</klr> <nom>Apicius</nom> svenus je ilia vido
-        <fnt>
-          <bib>QuV</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        kie oni <tld/>is la man&gcirc;on en la &gcirc;ardeno
+        <fnt><bib>QuV</bib></fnt>;
+      </ekz><ekz>
+        kie oni <tld/>is la man&gcirc;on en la &gcirc;ardeno?
         <fnt>
           <aut>Spomenka &Scaron;timec</aut>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Zagrebaj Solistoj en Bonaero</url></vrk>
-        </fnt>?
-      </ekz>
-      <ekz>
-        restoracio en la placo estis malfermita, sed ne <tld/>as man&gcirc;ojn anta&ubreve; la sepa
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Zagrebaj Solistoj en
+          Bonaero</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        restoracio en la placo estis malfermita, sed ne <tld/>as
+        man&gcirc;ojn anta&ubreve; la sepa
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa lando?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006859.html">Seborgo: Urbeto a&ubreve;
+          sendependa lando?</url></vrk>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         oni <tld/>as la mitulojn en kolosaj kvantoj, en grandaj kaseroloj
         <fnt>
           <bib>Monato</bib>
           <aut>Petro Desmet'</aut>
-          <vrk><url ref="https://www.monato.be/2006/009004.php">Jubile, jubilade, gargantuece palatkareseme</url></vrk>
+          <vrk><url ref="&Monato;/2006/009004.php">Jubile, jubilade, gargantuece
+          palatkareseme</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+       <ref cel="prezen1.0i.proponi">prezenti<sncref/></ref>,
        <ref cel="ofert.0i.proponi">oferti<sncref/></ref>,
+       <ref cel="propon.0i.por_dispono">proponi<sncref/></ref>,
        <ref cel="regal.0i.nutri">regali<sncref/></ref>,
-       <ref cel="propon.0i.por_dispono">proponi<sncref/></ref>
+       <ref cel="servir.0i">serviri (pilkon)</ref>
     </refgrp>
+    <rim>
+      &Ccirc;i tiu signifo ne koheras kun la &ccirc;efa kaj fundamenta signifo de
+      <tld/>i, same kiel malkohera estus egale fu&scirc;a &leftquot;<tld/>i pilkon&rightquot;
+      anstata&ubreve; &leftquot;<ref cel="servir.0i">serviri</ref> pilkon&rightquot;. Se onin ne
+      kontentigas la tradicia
+      <ref tip="sin" cel="tabl.sur0igi">surtabligi</ref>, oni ser&ccirc;u
+      alian vorton, ekz-e &leftquot;<tld/>umi&rightquot;, prefere ol difekti la koheron
+      de la fundamenta leksiko.
+      La PIV-oj &ccirc;i tiun missignifon por &leftquot;<tld/>i&rightquot; ne akceptas.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+    <!-- ne traduki evitindan...
     <trd lng="de">servieren</trd>
     <trd lng="en">serve <klr>(food)</klr></trd>
+    -->
   </snc>
   <snc mrk="serv.0i.utili">
     <uzo tip="klr">(io)</uzo>
@@ -105,47 +149,107 @@
       Esti utila por iu a&ubreve; io:
       <ekz>
         karbo <tld/>as por arda&jcirc;o, ligno
-        por fajro<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
+        por fajro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 26:21</lok>
+        </fnt>;
+      </ekz><ekz>
+        por kio <tld/>as mia laboro
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>?
+      </ekz><ekz>
+        por kio <tld/>as mono en la mano de malsa&gcirc;ulo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 17:16</lok>
+        </fnt>?
+      </ekz><ekz>
+        mia mono <tld/>is por &scirc;topi tre rimarkeblajn truojn
+        <fnt>
+          <bib>GDn</bib>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;iu lingvo <tld/>as por esprimi niajn pensojn
+        <fnt>
+          <bib>ADL</bib>
+        </fnt>;
+      </ekz><ekz>
+        tiu vortarego <klr>[&#x2026;]</klr> servos kiel neoficiala kaj ne deviga konsilanto
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz><ekz>
+        kio <tld/>as por &ccirc;io, ta&ubreve;gas por nenio
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        ne <tld/>as larmo anstata&ubreve; armo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
         <ind>akvo kaj pano <tld/>as al sano</ind>
         <fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">nincs eg&eacute;szs&eacute;gesebb ital a
         keny&eacute;rn&eacute;l, ital a v&iacute;zn&eacute;l</trd>
-      </ekz>
-      <ekz>
-        por kio <tld/>as mia laboro?<fnt>B</fnt>
-      </ekz>
-      <ekz>
-        por kio <tld/>as mono en la mano de malsa&gcirc;ulo?<fnt>Z</fnt>
-      </ekz>
-      <ekz>
-        <tld/>igi Esperanton al la paco.
+      </ekz><ekz>
+        e&ccirc; bagatelo povas <tld/>i al celo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="util.0i">utili</ref>
   </snc>
   <snc mrk="serv.0i.funkcii">
     <uzo tip="klr">(io)</uzo>
     <dif>
       Esti uzata por io:
       <ekz>
-        aliaj pecoj <tld/>is kiel okulvitroj<fnt>Z</fnt>.
+        &ccirc;io, kio movi&gcirc;as kaj vivas, <tld/>u al vi kiel man&gcirc;a&jcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 9:3</lok>
+        </fnt>;
+      </ekz><ekz>
+        kelke da salatfolioj kaj kelke da ka&scirc;tanoj <klr>[&#x2026;]</klr>
+        <tld/>is al li kiel vesperman&gcirc;o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz><ekz>
+        aliaj pecoj <tld/>is kiel okulvitroj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="anstat.0i">anstata&ubreve;i</ref>,
+      <ref cel="funkci.0i.io">funkcii<sncref/></ref>,
+      <ref cel="rol.0i.FIG">roli<sncref/></ref>
+    </refgrp>
   </snc>
-  <ref tip="vid" cel="servir.0i">serviri</ref>
   <trd lng="af">dien</trd>
   <trd lng="am">&#x121B;&#x1308;&#x120D;&#x1308;&#x120D;</trd>
   <trd lng="ar">&a_kh;&a_d;&a_m;&a_t_marbuta;</trd>
   <trd lng="az">xidm&#x259;t</trd>
   <trd lng="be">&c_s;&c_l;&c_u;&c_zh;&c_y;&c_c;&c_mol;</trd>
   <trd lng="bn">&#x9AA;&#x9B0;&#x9BF;&#x9AC;&#x9C7;&#x9B6;&#x9A8; &#x995;&#x9B0;&#x9BE;</trd>
-  <trd lng="bs">slu&#x17E;e</trd>
+  <trd lng="bs">slu&zcaron;e</trd>
   <trd lng="co">servinu</trd>
   <trdgrp lng="cs">
     <trd>poskytovat slu&zcaron;bu</trd>,
     <trd>slou&zcaron;it</trd>
   </trdgrp>
+  <trd lng="cy">gwasanaethu</trd>
   <trd lng="da">tjene</trd>
   <trd lng="de">dienen</trd>
   <trd lng="en">serve</trd>
@@ -154,24 +258,42 @@
   <trd lng="eu">balioko</trd>
   <trd lng="fr">servir</trd>
   <trd lng="fy">tsjinje</trd>
+  <trd lng="ga">freastal</trd>
+  <trd lng="gd">a &#x2018;frithealadh</trd>
   <trd lng="gl">servir</trd>
   <trd lng="gu">&#xAB8;&#xAC7;&#xAB5;&#xABE; &#xA86;&#xAAA;&#xAB5;&#xABE;</trd>
   <trd lng="ha">bauta</trd>
   <trd lng="hi">&#x938;&#x947;&#x935;&#x93E; &#x915;&#x930;</trd>
-  <trd lng="hr">slu&#x17E;e</trd>
+  <trd lng="hmn">pab</trd>
+  <trd lng="hr">slu&zcaron;e</trd>
+  <trd lng="ht">s&egrave;vi</trd>
   <trd lng="hu">szolg&aacute;l</trd>
   <trd lng="hy">&#x56E;&#x561;&#x57C;&#x561;&#x575;&#x565;&#x56C;</trd>
+  <trd lng="ig">ozi</trd>
   <trd lng="io">servar</trd>
-  <trd lng="is">&#xFE;j&#xF3;na</trd>
+  <trd lng="is">&#xFE;j&oacute;na</trd>
   <trd lng="it">servire</trd>
   <trd lng="ja">&#x30B5;&#x30FC;&#x30D6;</trd>
-  <trd lng="jw">ngawula</trd>
+  <trd lng="jv">ngawula</trd>
   <trd lng="ka">&#x10D4;&#x10DB;&#x10E1;&#x10D0;&#x10EE;&#x10E3;&#x10E0;&#x10D4;&#x10D1;&#x10D0;</trd>
+  <trd lng="kk">&#x49B;&c_y;&c_z;&c_m;&c_je;&c_t; &c_je;&c_t;&c_u;</trd>
   <trd lng="km">&#x1794;&#x1798;&#x17D2;&#x179A;&#x17BE;</trd>
+  <trd lng="kn">&#xCB8;&#xCC7;&#xCB5;&#xCC6;</trd>
   <trd lng="ko">&#xBD09;&#xC0AC;</trd>
+  <trd lng="ku">s&ucirc;xrekirin</trd>
+  <trd lng="ky">&c_k;&c_y;&c_z;&c_m;&c_a;&c_t; &c_k;&c_y;&c_l;&c_u;&c_u;</trd>
+  <trd lng="lat">serviant</trd>
   <trd lng="lo">&#xE9A;&#xECD;&#xEA5;&#xEB4;&#xE81;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">tarnauti</trd>
+  <trd lng="lv">kalpot</trd>
+  <trd lng="mg">manompo</trd>
+  <trd lng="mi">e mahi</trd>
+  <trd lng="mk">&c_s;&c_l;&c_u;&c_zh;&c_a;&c_t;</trd>
   <trd lng="ml">&#xD38;&#xD47;&#xD35;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mn">&#x4AF;&c_j;&c_l;&c_ch;&c_l;&c_e;&c_h;</trd>
   <trd lng="mr">&#x938;&#x930;&#x94D;&#x935;&#x94D;&#x939;</trd>
+  <trd lng="ms">berkhidmat</trd>
+  <trd lng="mt">jservu</trd>
   <trd lng="my">&#x1021;&#x1005;&#x1031;&#x1001;&#x1036;</trd>
   <trd lng="ne">&#x938;&#x947;&#x935;&#x93E;</trd>
   <trd lng="nl">dienen</trd>
@@ -179,20 +301,34 @@
   <trd lng="pa">&#xA26;&#xA40; &#xA38;&#xA47;&#xA35;&#xA3E;</trd>
   <trd lng="ps">&a_kh;&a_d;&a_m;&a_t;</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_zh;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="rw">gukorera</trd>
   <trd lng="sd">&a_j;&a_y; &a_ayn;&a_b;&a_A;&a_d;&a_t; &#x6AA;&a_r;&a_y;&a_w;</trd>
   <trd lng="si">&#xDC3;&#xDDA;&#xDC0;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>prisluhova&tcaron;</trd>,
     <trd>sl&uacute;&zcaron;i&tcaron;</trd>
   </trdgrp>
+  <trd lng="sl">slu&zcaron;ijo</trd>
+  <trd lng="sm">tautua</trd>
+  <trd lng="sn">kushumira</trd>
+  <trd lng="so">adeegaan</trd>
   <trd lng="sq">sh&euml;rbejn&euml;</trd>
+  <trd lng="st">sebeletsa</trd>
+  <trd lng="su">ngaladenan</trd>
+  <trd lng="sw">kutumika</trd>
   <trd lng="ta">&#xB9A;&#xBC7;&#xBB5;&#xBC8;</trd>
   <trd lng="te">&#xC38;&#xC30;&#xC4D;&#xC35;&#xC4D;</trd>
+  <trd lng="tg">&c_h;&c_i;&c_z;&c_m;&c_a;&c_t;</trd>
   <trd lng="th">&#xE43;&#xE2B;&#xE49;&#xE1A;&#xE23;&#xE34;&#xE01;&#xE32;&#xE23;</trd>
   <trd lng="tl">maghatid</trd>
+  <trd lng="tt">&c_h;&c_je;&c_z;&c_m;&#x4D9;&c_t; &c_i;&c_t;</trd>
+  <trd lng="uk">&c_s;&c_l;&c_u;&c_zh;&c_i;&c_t;&c_i;</trd>
   <trd lng="ur">&a_kh;&a_d;&a_m;&a_t;</trd>
+  <trd lng="uz">xizmat</trd>
   <trd lng="vi">ph&#x1EE5;c v&#x1EE5;</trd>
-  <trd lng="yi">&#x5D3;&#x5D9;&#x5E0;&#x5E2;&#x5DF;</trd>
+  <trd lng="xh">khonza</trd>
+  <trd lng="yi">&dalet;&yod;&nun;&ayin;&fnun;</trd>
+  <trd lng="yo">sin</trd>
   <trd lng="zu">ukukhonza</trd>
 </drv>
 
@@ -200,30 +336,78 @@
   <kap><tld/>o</kap>
   <snc mrk="serv.0o.laboro">
     <dif>
-      Tasko plenumita por iu, sub kies dispono oni estas:
+      <ref tip="super" cel="task.0o.ordonita">Tasko</ref> plenumita por iu, 
+      sub kies dispono oni estas:
       <ekz>
-        li faris eminentajn <tld/>ojn al la regno.
+        mi fari&gcirc;is preska&ubreve; almozulo, kaj nur kun helpo de unu mia parenco ricevis
+        <tld/>on sur fervojo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        unu el la eminentaj oficiroj petis A&ubreve;guston eksigi lin de la <tld/>o kaj lasi al
+        li la pension
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        la granda, moda kaj ri&ccirc;a magazeno bezonas la <tld/>on de vera armeo da komizoj,
+        oficistoj k.t.p.
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;u mi ne trovos &ccirc;i tie iun, kiu alportus al mi lakton kaj bulkojn? mi pagus por
+        la <tld/>o, malla&ubreve;te diris la vidvino
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz><ekz>
+        vi konas la <tld/>on, per kiu mi vin servis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 30:26</lok>
+        </fnt>;
+      </ekz><ekz>
+        vi faros <tld/>on al Dio sur &ccirc;i tiu monto
+        <klr>(vd di<tld/>o)</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 3:12</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="serv.0o.komplezo">
     <dif>
-      Tasko kompleze plenumita por ies profito:
+      <ref tip="super" cel="task.0o.ordonita">Tasko</ref> kompleze plenumita por ies profito:
       <ekz>
-        akceptante starigi la
-        raporton, vi faros al la societo grandan <tld/>on;
-      </ekz>
-      <ekz>
+        nia Lingva Komitato farus al ni tre grandan <tld/>on, se &gcirc;i per komuna laboro de
+        &ccirc;iuj siaj membroj pretigus tian vortaregon
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>o ne petita ne estas merita
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
         <ind><tld/>o postulas re<tld/>on</ind>
         <fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">minden szolg&aacute;latnak fizets&eacute;g a
         b&eacute;re</trd>
       </ekz>
     </dif>
+    <refgrp tip="sin">
+       <ref cel="komple4.0o">komplezo</ref>,
+       <ref cel="ten.sub0o">subteno</ref>
+    </refgrp>
   </snc>
   <snc mrk="serv.0o.EKON">
     <dif>
-      Konstanta funkcio, kiun ordinare plenumas
+      Konstanta <ref tip="super" cel="funkci.0o.tasko">funkcio</ref>, kiun ordinare plenumas 
       sekcio de entrepreno a&ubreve; administro:
       <ekz>
         la sekcio de interesoj de Kubo en Usono anoncis la haltigon de 
@@ -233,15 +417,31 @@
           <vrk><url ref="http://www.radiohc.cu/eo/noticias/nacionales/6917-kubo-devigita-nuligi--konsulajn-servojn-en-usono-pro-neglekto-de-la-bankoj-prizorgi-siajn-kontojn">
           Kubo devigita nuligi konsulajn servojn en Usono...</url></vrk>
           <lok>Radio Havano Kubo, 2013-11-27</lok>
+        </fnt>;
+      </ekz><ekz>
+        krom tiu &ccirc;i <tld/>o publika, la redakcio faras multajn <tld/>ojn privatajn,
+        divenante ekzemple al enamitoj pri la karaktero de iliaj idealoj
+        <fnt>
+          <bib>FK</bib>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Dienstleistung</trd>
   </snc>
   <snc mrk="serv.0o.utilo">
     <dif>
-      Utileco por io:
+      <ref tip="super" cel="util.0eco">Utileco</ref> por io:
       <ekz>
-        meti sian talenton en la <tld/>on de la lando.
+        la ventumilo, kiam &gcirc;i estas malfermita, <klr>[&#x2026;]</klr> faras la <tld/>on de
+        kurteno, kiu estas anta&ubreve;tirita, dum la viza&gcirc;o faras tualeton
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        tiu &ccirc;i okulakvo <klr>[&#x2026;]</klr> faras bonegajn <tld/>ojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -258,6 +458,11 @@
   <trd lng="nl">dienst</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_zh;&c_b;&c_a;</trd>
   <trd lng="sk">slu&zcaron;ba</trd>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x431;&#x430;</trd>,
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x456;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x43E;&#x431;&#x441;&#x43B;&#x443;&#x433;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="serv.0ado">
@@ -267,30 +472,53 @@
       La ago servi, regule, sinofere a&ubreve; dum iom da&ubreve;ra
       tempo:
       <ekz>
+        mi anta&ubreve; jaro komencis mian <tld/>adon &ccirc;e vi
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        mi volas min ela&ccirc;eti el mia <tld/>ado, mi estas sufi&ccirc;e ri&ccirc;a
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;u li ne estos tute alia en lia ju&gcirc;a <tld/>ado?
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
         patriotismo a&ubreve; <tld/>ado al la patrujo mi nomas nur
         la <tld/>adon al la bono de &ccirc;iuj miaj sampatrujanoj,
         de kia ajn deveno, lingvo a&ubreve; religio ili estas
         <fnt>
-        <aut>L. L. Zamenhof</aut>,
-        <vrk>Deklaracio de homarano</vrk>,
-        <lok>Nica Literatura Revuo, 1959:24</lok>
+          <aut>L. L. Zamenhof</aut>,
+          <vrk>Deklaracio de homarano</vrk>,
+          <lok>Nica Literatura Revuo, 1959:24</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
+        <klr>[ili]</klr> deziras esti unuigitaj en internacia organiza&jcirc;o por reciproka
+        sin<tld/>ado
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la malferma kunveno de UEA &ccirc;e la Kvina Kongreso 
+          Esperantista en Barcelona en la 7a de septembro 1909</vrk>
+        </fnt>;
+      </ekz><ekz>
         tiel Mi multigos la idaron de Mia <tld/>anto David, kaj
         la Levidojn, kiuj faras <tld/>adon al Mi
         <fnt><bib>MT</bib>, <lok>&Jer; 33:22.</lok></fnt>;
-      </ekz>
-      <ekz>
-        fervoja <tld/>ado;
-      </ekz>
-      <ekz>
-        la stabo bone aran&gcirc;is la esploristan
-        <tld/>adon<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        lia tasko estas la pri<tld/>ado al la kulturaj bezonoj de la
-        lo&gcirc;antaro.
+      </ekz><ekz>
+        mi &gcirc;is nun nenion atingis per mia <tld/>ado en Peterburgo
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
+      </ekz><ekz>
+        lia stabo aran&gcirc;is tre bone esploristan <tld/>adon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -307,7 +535,10 @@
     <trd>slou&zcaron;en&iacute;</trd>,
     <trd>slu&zcaron;ba</trd>
   </trdgrp>
-  <trd lng="de">Bedienen</trd>
+  <trdgrp lng="de">
+    <trd>Dienen</trd>,
+    <trd>Dienst</trd>
+  </trdgrp>
   <trd lng="fr">service</trd>
   <trd lng="hu">szolg&aacute;lat</trd>
   <trd lng="it">servizio<klr> (prestare servizio)</klr></trd>
@@ -316,7 +547,67 @@
     <trd>&c_s;&c_l;&c_u;&c_zh;&c_b;&c_a;</trd>
   </trdgrp>
   <trd lng="sk">obsluha</trd>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x431;&#x430;</trd>,
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x456;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x43E;&#x431;&#x441;&#x43B;&#x443;&#x433;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="serv.0anto">
+  <kap>
+    <tld/>anto
+  </kap>
+  <snc>
+    <dif>
+      Tiu, kiu <tld/>as:
+      <ekz>
+        li faris festenon por &ccirc;iuj siaj <tld/>antoj kaj li venigis la vinistestron kaj
+        la bakistestron en la mezon de siaj <tld/>antoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 40:20</lok>
+        </fnt>;
+      </ekz><ekz>
+        <nom>Jozef</nom> ordonis al siaj <tld/>antoj kuracistoj, balzami lian patron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 50:2</lok>
+        </fnt>;
+      </ekz><ekz>
+        kia reganto, tia <tld/>anto
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        se la gasto estas amata, e&ccirc; lia <tld/>anto ne restas malsata
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        mastro en vojo &dash; <tld/>antoj en &gcirc;ojo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;e mastro &scirc;telisto la <tld/>antoj ne &scirc;telas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="serv.0isto">servisto</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Diener</trd>,
+    <trd>Dienender</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x43B;&#x443;&#x433;&#x430;</trd>,
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x438;&#x442;&#x435;&#x43B;&#x44C;</trd>
+  </trdgrp>
+</drv>
+
 
 <drv mrk="serv.0ema">
   <kap><ofc>*</ofc><tld/>ema</kap>
@@ -327,8 +618,53 @@
       <ekz>
         &ccirc;ar vi estas tiel <tld/>ema, mi faras al vi donacon
         <fnt><bib>F</bib>, <lok>&FE; 19</lok></fnt>.
+      </ekz><ekz>
+        Atenanoj, mi rimarkas, ke vi estas &ccirc;iurilate tro <tld/>emaj al dia&jcirc;oj
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 17:22</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>ema kaj fervora
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>ema mano al la bu&scirc;o
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz><ekz>
+        la komercisto alsaltis ridetante kaj <tld/>eme
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz><ekz>
+        kun kortu&scirc;eco &scirc;i pensis pri <klr>[&#x2026;]</klr> la afableco kaj <tld/>emeco, kiun li
+        montris al &scirc;i
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz><ekz>
+        ili &ccirc;iuj kondutis tre <tld/>eme rilate al &scirc;i
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz><ekz>
+         neimagebla <tld/>emo, per kiu mi estis helpata je &ccirc;iu pa&scirc;o
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="asidu.0a">asidua</ref>,
+       <ref cel="fervor.0a">fervora</ref>,
+       <ref cel="humil.0a">humila</ref>,
+       <ref cel="servut.0a">servuta</ref>,
+       <ref cel="met.sub0igxema">submeti&gcirc;ema</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>koplezantn&iacute;</trd>,
@@ -348,6 +684,7 @@
     <trd>ochotn&yacute;</trd>,
     <trd>&uacute;slu&zcaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43F;&#x43E;&#x441;&#x43B;&#x443;&#x436;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="serv.0ilo">
@@ -356,9 +693,38 @@
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Komputila procezo plenumanta specialajn funkciojn (servojn)
-      la&ubreve; mendoj de aliaj procezoj (klientoj), kaj la komputilo
+      la&ubreve; mendoj de aliaj procezoj (klientoj); la komputilo
       en kiu ruli&gcirc;as tia procezo (en komputila reto, rilate al la
-      klientaj retnodoj).
+      klientaj retnodoj):
+      <ekz>
+        kiam uzanto sendas retmesa&gcirc;on, &gcirc;i iras al <tld/>ilo, kiu kutime apartenas al la
+        retprovizisto de la sendanto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="&Monato;/2003/008177.html">Kia solvo por rubpo&scirc;to?</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz><ekz>
+        po&scirc;to<tld/>ilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="&Monato;/2003/008177.html">Kia solvo por rubpo&scirc;to?</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz><ekz>
+        por protekti mian komputilon mi provis elfiltri &ccirc;ion, kio estis en la angla
+        lingvo <klr>[&#x2026;]</klr> mi plurfoje &scirc;an&gcirc;is interretajn <tld/>ilon kaj
+        retadreson, sed vane
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="&Monato;/2003/008036.html">Damnita komputilo! Diabla
+          Interreto!</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_e;&c_r;&c_v;&c_e;&c_r;</trd>
@@ -376,6 +742,7 @@
   <trd lng="pl">serwer</trd>
   <trd lng="ru">&c_s;&c_je;&c_r;&c_v;&c_je;&c_r;</trd>
   <trd lng="sk">server</trd>
+  <trd lng="uk">&#x441;&#x435;&#x440;&#x432;&#x435;&#x440;</trd>
 </drv>
 
 <drv mrk="serv.0isto">
@@ -384,12 +751,23 @@
     <dif>
       Homo kies okupo estas plenumi personajn <tld/>ojn al iu:
       <ekz>
+        <nom>Boaz</nom> demandis sian <tld/>iston, la estron de la rikoltistoj: kiu estas &ccirc;i tiu
+        knabino?
+        <fnt>
+          <bib>MT</bib>
+          <lok>Rut 2:5</lok>
+        </fnt>;
+      </ekz><ekz>
+        li estis nur la unua el la princaj <tld/>istoj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz><ekz>
         miaj <tld/>istoj kaj &ccirc;ambristinoj ne estos hejme:
         mi disdonis al ili biletojn, anka&ubreve; al ge<tld/>istoj
         de l' princino
         <fnt><bib>Mary</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la sekvantan matenon eniris la <tld/>istoj kaj
         <tld/>istinoj
         <fnt><bib>Fab2</bib>, <lok>Abio</lok></fnt>.
@@ -425,17 +803,46 @@
     <trd>sluha</trd>,
     <trd>slu&zcaron;obn&iacute;k</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x43B;&#x443;&#x433;&#x430;</trd>,
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x438;&#x442;&#x435;&#x43B;&#x44C;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="serv.0istaro">
   <kap><tld/>istaro</kap>
   <snc mrk="serv.0istaro.KOMUNE">
     <dif>
-      Tuto da servistoj en unu domo:
+      Tuto da <tld/>istoj en unu domo:
       <ekz>
+        li havis <klr>[&#x2026;]</klr> grandan <tld/>istaron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 26:14</lok>
+        </fnt>;
+      </ekz><ekz>
         li mem destinis kaj mezuris la varojn al sia <tld/>istaro
         <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
-        fratoj</vrk>, <lok>1947</lok></fnt>.
+        fratoj</vrk>, <lok>1947</lok></fnt>;
+      </ekz><ekz>
+        <klr>[li ensaltis]</klr> supren en la <ind><tld/>istejo</ind>n
+        <klr>(kp <ref cel="mezanin.0o">mezanino</ref>)</klr>, mezen de la altkvalita
+        <tld/>istaro, kiu paradis en silkaj &scirc;trumpoj, kaj tiuj fieraj homoj tute
+        rigidi&gcirc;is de teruro
+        <fnt>
+          <bib>Fab3</bib>
+        </fnt>;
+        <trdgrp lng="de">
+          <trd>Dienstbotenwohnung</trd>,
+          <trd>Heuerhaus</trd>
+        </trdgrp>
+      </ekz><ekz>
+        se la traveturanta oficisto demandos la <tld/>istaron, &ccirc;u ili estas kontentaj,
+        ili diru: ni pri &ccirc;io estas kontentaj, via mo&scirc;to
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto unua</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -444,10 +851,15 @@
     <trd>&ccaron;ele&dcaron;</trd>,
     <trd>&ccaron;el&aacute;dka</trd>
   </trdgrp>
+  <trd lng="de">Dienerschaft</trd>
   <trd lng="es">servicio</trd>
   <trd lng="fr">domesticit&eacute;</trd>
   <trd lng="io">servistaro</trd>
   <trd lng="sk">slu&zcaron;obn&iacute;ctvo</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x438;&#x441;&#x43B;&#x443;&#x433;&#x430;</trd>,
+    <trd>&#x447;&#x435;&#x43B;&#x44F;&#x434;&#x44C;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="serv.0istino">
@@ -456,13 +868,18 @@
     <dif>
       Inseksa <tld/>isto:
       <ekz>
+        <nom>Rebeka</nom> kaj &scirc;iaj <tld/>istinoj <klr>[&#x2026;]</klr> sidi&gcirc;is sur la kameloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 24:61</lok>
+        </fnt>;
+      </ekz><ekz>
         en la granda salono en la vintraj vesperoj sidadis la
         mastrino kun siaj <tld/>istinoj kaj &scirc;pinadis lanon
         kaj linon
         <fnt><bib>Fab3</bib>, <lok>&leftquot;&Ccirc;io sur sian &gcirc;ustan
         lokon!&rightquot;</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         &ccirc;iuj kortegaj sinjorinoj kun siaj <tld/>istinoj kaj kun la
         <tld/>istinoj de siaj <tld/>istinoj kaj &ccirc;iuj kavaliroj kun
         siaj <tld/>istoj kaj kun la <tld/>istoj de siaj
@@ -487,55 +904,79 @@
   <trd lng="io">servistino</trd>
   <trd lng="it">serva</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_zh;&c_a;&c_n;&c_k;&c_a;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x438;&#x441;&#x43B;&#x443;&#x433;&#x430;</trd>,
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x43D;&#x438;&#x446;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="serv.pri0i">
   <kap>pri<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="serv.0i.iun">
-    <uzo tip="klr">(iun)</uzo>
     <dif>
-      Liveri al kliento laborojn, <tld/>ojn ofertatajn de publika
-      entrepreno (restoracio ktp):
+      <tld lit="S"/>ante <ref tip="super" cel="zorg.0i.pri_ies_bono">zorgi</ref> pri iu a&ubreve; io: 
       <ekz>
-        Fermi restoraciojn, kafejojn, rifuzi pri<tld/>i
-        eksterlandanojn <klr>[&#x2026;]</klr>
+         la granda besto <klr>[&#x2026;]</klr> &ccirc;iam estas pri<tld/>ata, striglata, vartata kaj ricevas
+         bonan man&gcirc;adon kaj drinkadon
+         <fnt><bib>Fab4</bib>, <lok>Sterkskarabo</lok></fnt>
+      </ekz><ekz>
+        en la domo de la cezaro ne mankis sklavinoj <klr>[&#x2026;]</klr> por la persona
+        pri<tld/>ado
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz><ekz>
+        la knabinoj restis &ccirc;e la fajro por pri<tld/>i la ebriajn lagokamaradojn
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz><ekz>
+        ili pri<tld/>is nur la tablon de Demetrio
+        <fnt><vrk>La &scirc;tona urbo</vrk></fnt>;
+      </ekz><ekz>
+        fermi restoraciojn, kafejojn, rifuzi pri<tld/>i
+        eksterlandanojn
         <fnt><aut>LAST</aut>: <vrk>Lakto-akto</vrk>.
              <bib>Monato</bib></fnt>;
       </ekz><ekz>
-        Tamen ili pri<tld/>is nur la tablon de Demetrio
-        <fnt><vrk>La &scirc;tona urbo</vrk></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="es">atender</trd>
-  </snc>
-  <snc mrk="serv.0i.ion">
-    <uzo tip="klr">(ion)</uzo>
-    <dif>
-      Prizorgi ion la&ubreve; mendo, devo a&ubreve; kontrakto:
-      <ekz>
-        <klr>La glacirompiloj</klr> levas pezajn &scirc;ar&gcirc;ojn de la
+        &ccirc;u ver&scirc;ajne, ke firmao elspezus nur por pri<tld/>i la homojn sen profito
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>?
+      </ekz><ekz>
+        <klr>[la glacirompiloj]</klr> levas pezajn &scirc;ar&gcirc;ojn de la
         marfundo, pri<tld/>as marajn petrolkampojn kaj
-        borstaciojn <klr>[&#x2026;]</klr>
+        borstaciojn
         <fnt><aut>Saliko</aut>, <vrk>Krozi en glacio</vrk>,
              <bib>Monato</bib></fnt>;
       </ekz><ekz>
-         &Ccirc;u mi ne estas tiel same bona kiel la granda besto,
-         kiu &ccirc;iam estas pri<tld/>ata, striglata, vartata kaj ricevas
-         bonan man&gcirc;adon kaj drinkadon?
-         <fnt><bib>Fab4</bib>, <lok>Sterkskarabo</lok></fnt>.
+        nia <klr>[elektro]</klr>stacio pri<tld/>as &ccirc;iujn proksimajn entreprenojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz><ekz>
+        tri urboj estis pri<tld/>ataj de la sama distrikta gazeto
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="es">
-      <trd>ocuparse de</trd>,
-      <trd>atender</trd>
-  </trdgrp>
+    <ref tip="vid" cel="proviz.0i.prizorgi">provizi<sncref/></ref>
   </snc>
-  <trd lng="de">bedienen</trd>
+  <trdgrp lng="de">
+    <trd>bedienen</trd>,
+    <trd>versorgen</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>ocuparse de</trd>,
+    <trd>atender</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_s;&c_l;&c_u;&c_zh;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_b;&c_s;&c_l;&c_u;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43E;&#x431;&#x441;&#x43B;&#x443;&#x433;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
 </drv>
 
 <drv mrk="serv.Di0o">
@@ -545,30 +986,36 @@
   <snc mrk="serv.Di0o.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Plenumado de religiaj ritoj:
+      Plenumado de religiaj <ref tip="prt" cel="rit.0o.MOR">rito</ref>j:
       <ekz>
-        <tld/>i la di<tld/>on<fnt>Z</fnt>
-        <klr>(observi la kultajn ritojn)</klr>;
-      </ekz>
-      <ekz>
+        li &ccirc;iudiman&ccirc;e &ccirc;eestis la Di<tld/>on kun sia maljuna patro kaj kantadis la
+        sanktajn kantojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz><ekz>
+        e&ccirc; la unua interligo havis ordonojn pri Di<tld/>ado kaj sanktejon mondan
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 9:1</lok>
+        </fnt>;
+      </ekz><ekz>
         tamen la pastroj sekrete faras di<tld/>ojn por la
         resani&gcirc;o de la faraono
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 4</lok></fnt>;
-      </ekz>
-      <ekz>
-        la pastroj, kunpreninte malgrandan kapelon de Amon, suriris
+      </ekz><ekz>
+        la pastroj, kunpreninte malgrandan kapelon de <nom>Amon</nom>, suriris
         la supron de la plej proksima alta&jcirc;o kaj di<tld/>is tie
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 20</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi anka&ubreve; &ccirc;eestis di<tld/>on de kriegantaj
         dervi&scirc;oj
         <fnt>
         <aut>Lanti</aut>,
         <vrk>Leteroj el Turkio</vrk>,
         <lok>&Ccirc;e la turni&gcirc;antaj dervi&scirc;oj</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la Psalmaro estas fonto de multegaj frazoj eldirataj dum
         mesoj kaj aliaj di<tld/>oj
         <fnt>
@@ -591,6 +1038,7 @@
     <trd>bohoslu&zcaron;ba</trd>,
     <trd>pobo&zcaron;nost</trd>
   </trdgrp>
+  <trd lng="de">Gottesdienst</trd>
   <trdgrp lng="fr">
     <trd>culte</trd>,
     <trd>office religieux</trd>
@@ -613,21 +1061,49 @@
     <uzo tip="fak">TIP</uzo>
     <dif>
       <tld lit="S"/>o de organiza&jcirc;o funkcianta
-      kiel koresponda librovendejo:
+      kiel koresponda <ref tip="super" cel="libr.0ovendejo">librovendejo</ref>:
       <ekz>
+        la CO prizorgas la eldonan fakon, la libro<tld/>on, la bibliotekon
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz><ekz>
+        mi ekvidis en Libro<tld/>o de Universala Kongreso diskon kun deklama&jcirc;oj de
+        <nom>Nikolaj Rytjkov</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="&Steloj;monato2/007241.html">Aktoro
+          malliberigita</url></vrk>
+        </fnt>;
+      </ekz><ekz>
         en la menciita &ccirc;elaga tendaro funkciis eta libro<tld/>o,
         kaj mi a&ccirc;etis kelkajn lernilojn
         <fnt>
           <aut>A. Kor&jcirc;enkov</aut>
-          <vrk><url ref="http://sezonoj.ru/2018/06/korzhenkov/">
+          <vrk><url ref="&Sezonoj;2018/06/korzhenkov/">
           en: La vivo de Zamenhof &ccirc;iam fascinis min: Intervjuo kun 
           Aleksander Kor&jcirc;enkov</url></vrk>
           <lok>La Ondo de Esperanto, 2018:6</lok>
+        </fnt>;
+      </ekz><ekz>
+        libro<tld/>a katalogo
+        <fnt>
+          <aut>Spomenka &Scaron;timec</aut>
+          <vrk>Ombro sur interna pejza&gcirc;o</vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>B&uuml;cherdienst</trd>,
+    <trd>Buchverkauf</trd>
+  </trdgrp>
   <trd lng="fr">service de librairie</trd>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x44E;&#x440;&#x43E; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x443; &#x43B;&#x456;&#x442;&#x435;&#x440;&#x430;&#x442;&#x443;&#x440;&#x438; (&#x43F;&#x440;&#x438; &#x442;&#x43E;&#x432;&#x430;&#x440;&#x438;&#x441;&#x442;&#x432;&#x430;&#x445;</trd>,
+    <trd>&#x430;&#x441;&#x43E;&#x446;&#x456;&#x430;&#x446;&#x456;&#x44F;&#x445; &#x456; &#x442;.&#x43F;.)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="serv.mem0a">
@@ -636,17 +1112,70 @@
     <dif>
       Kie oni mem sin pri<tld/>as:
       <ekz>
-        mem(pri)<tld/>a restoracio;
+        universitata mem<tld/>a restoracio
+        <fnt>
+          <bib>Gerda</bib>
+        </fnt>;
+      </ekz><ekz>
+        en la mem<tld/>a kafejo de Pu&scirc;kina biblioteko <klr>[&#x2026;]</klr> mi menciis la
+        aferon entuziasme al kolegoj
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz><ekz>
+        la pasa&gcirc;ero uzas mem<tld/>an budon por printi la baga&gcirc;etikedojn kaj poste
+        transdonas la baga&gcirc;on al fluglinia akceptisto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Schenkel</aut>
+          <vrk><url ref="&Monato;/2010/009985.php">Fluge tra la flughaveno</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
       </ekz><ekz>
         en koridoroj de &ccirc;iuj eta&gcirc;oj ekzistas mempri<tld/>a ebleco por
         akiri kafon, teon kaj aliajn trinka&jcirc;ojn
-        <fnt><lok><url ref="http://www.ikue.org/cz/arkivo/a-59-3-05.htm">Dio Benu, n-ro 59 (2005:3)</url>.</lok></fnt>;
+        <fnt><lok><url ref="http://www.ikue.org/cz/arkivo/a-59-3-05.htm">Dio Benu, n-ro 59
+        (2005:3)</url>.</lok></fnt>;
       </ekz><ekz>
-        <ind>mem<tld/>ejo</ind> <klr>(mempri<tld/>a
-        magazeno)</klr><fnt>PIV</fnt>.
-        <trd lng="fr">libre-<ind>service</ind><klr tip="ind">
-        (magasin)</klr></trd>
+        anta&ubreve; ekveturo mi a&ccirc;etis multe da &ccirc;iutagaj necesa&jcirc;oj 
+        en proksima <ind>mem<tld/>ejo</ind> la&ubreve; &scirc;ia listo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lin Sheng</aut>
+          <vrk><url ref="&Monato;/2006/008670.php">Forpasis mia karulino</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+        <trd lng="de">Selbstbedienungsladen</trd>
+        <trd lng="fr">libre-<ind>service</ind><klr tip="ind"> (magasin)</klr></trd>
         <trd lng="hu">&ouml;nkiszolg&aacute;l&oacute; bolt</trd>
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        la kvar regionoj estis transformitaj en vastajn mem<tld/>ejojn kie plurnaciaj
+        mafioj povis renkonti&gcirc;i por ekspluati la oron, kupron
+        <fnt>
+          <bib>MD05</bib>
+          <vrk>Elektoj sub premo en Kin&scirc;aso</vrk>
+        </fnt>;
+      </ekz><ekz>
+        <nom>IKEA</nom> konsekvence realigis la sistemon de mem-<tld/>ado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2010/010006.php">A&ubreve;tomat-homo</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz><ekz>
+        <ind>mem<tld/>ado</ind> intertempe aplikas torturajn aparatojn: biletojn por tramo kaj
+        trajno mi devas a&ccirc;eti per a&ubreve;tomato, monon mi ne plu ricevas &ccirc;e bankogi&ccirc;eto de
+        afabla homo, kiun oni konas de multaj jaroj kaj kun kiu oni volonte babilas
+        iomete
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2010/010006.php">A&ubreve;tomat-homo</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+        <trd lng="de">Selbstbedienung</trd>
       </ekz>
     </dif>
   </snc>
@@ -659,37 +1188,44 @@
   <trd lng="nl">zelfbedienings-</trd>
   <trd lng="ru">&c_s;
   <ind>&c_s;&c_a;&c_m;&c_o;&c_o;&c_b;&c_s;&c_l;&c_u;&c_zh;&c_i;&c_v;&c_a;&c_n;&c_i;&c_je;&c_m;</ind></trd>
+  <trd lng="uk">&#x437; &#x441;&#x430;&#x43C;&#x43E;&#x43E;&#x431;&#x441;&#x43B;&#x443;&#x433;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;&#x43C;</trd>
 </drv>
 
 <drv mrk="serv.milit0o">
   <kap>milit<tld/>o,
-  <var><kap>milita <tld/>ado<fnt><bib>PV</bib><lok>sub
-  "servado"</lok></fnt></kap>
+  <var><kap>milita <tld/>ado 
+    <fnt><bib>PV</bib><lok>sub &leftquot;servado&rightquot;</lok></fnt></kap>
   </var>
   </kap>
   <snc mrk="serv.milit0o.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      <tld lit="S"/>ado, kiun plenumas soldato:
+      <tld lit="S"/>ado, kiun plenumas <ref cel="soldat.0o">soldato</ref>:
       <ekz>
-        kvankam Nikolao <nom>Petrovi&ccirc;</nom> tute ne posedis famon de kura&gcirc;ulo kaj
-        e&ccirc; estis nomata timulo, oni destinis lin, kiel filon de
-        generalo, por la milita <tld/>ado, same kiel lian fraton
-        Pa&ubreve;lon
+        <klr>[li]</klr> iris en fremdlandan milit<tld/>on
+        <fnt><bib>Fab2</bib>. <lok>Konkurso de saltado</lok></fnt>;
+      </ekz><ekz>
+        resti libera de militservo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Flikilo</lok>
+        </fnt>;
+      </ekz><ekz>
+        kvankam Nikolao <nom>Petrovi&ccirc;</nom> tute ne posedis famon de kura&gcirc;ulo 
+        <klr>[&#x2026;]</klr> oni destinis lin, kiel filon de generalo, por
+        la milita <tld/>ado
         <fnt><bib>PatrojFiloj</bib>, <lok>&ccirc;ap. 1</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         &ccirc;ar lia farto iom malfortigita de la malsano, ne ebligis la
         reprenon de milit<tld/>o tiel lacegiga kiel tiu de l&#x2019; Afrika
         militado, li skribis al sia regimentestro kaj petis de li
         da&ubreve;rigon de sia libertempo
         <fnt>
-        <aut>H. Vallienne</aut>,
-        <vrk>Kastelo de Prelongo</vrk>,
-        <lok>1907</lok>
+          <aut>H. Vallienne</aut>,
+          <vrk>Kastelo de Prelongo</vrk>,
+          <lok>1907</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         &ccirc;ar li pro subtendevo al patrino estis liberigita de
         milit<tld/>o, li volas almena&ubreve; iom ripari sian mankon
         tiurilate
@@ -705,6 +1241,10 @@
       trejnado a&ubreve; por defendi sian landon.
     </rim>
   </snc>
+  <trdgrp lng="de">
+    <trd>Milit&auml;rdienst</trd>,
+    <trd>Kriegsdienst</trd>
+  </trdgrp>
   <trd lng="es">servicio militar</trd>
   <trdgrp lng="fr">
     <trd>service militaire</trd>
@@ -715,6 +1255,7 @@
     militaire)</klr></trd>
   </trdgrp>
   <trd lng="it">servizio<klr> militare</klr></trd>
+  <trd lng="uk">&#x432;&#x456;&#x439;&#x441;&#x44C;&#x43A;&#x43E;&#x432;&#x430; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x430;</trd>
 </drv>
 
 <drv mrk="serv.milit0i">
@@ -727,20 +1268,24 @@
         eniris la restoracion grupo da soldatoj, eble ok a&ubreve; na&ubreve;, junaj
         viroj, kiuj milit<tld/>is, videble
         <fnt><bib>Gerda</bib>, <lok>&ccirc;apitro 15a</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi mem estis juna kaj milit<tld/>is
         <fnt><bib>Mary</bib></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="cs">slou&zcaron;it na vojn&ecaron;</trd>
+  <trd lng="de">im Milit&auml;r <ind>dienen</ind></trd>
   <trdgrp lng="fr">
     <trd>faire son <ind>service</ind> militaire</trd>
     <trd>&ecirc;tre sous les <ind>drapeaux</ind></trd>
   </trdgrp>
   <trd lng="it">prestare <ind>servizio</ind> militare</trd>
   <trd lng="sk">sl&uacute;&zcaron;i&tcaron; na vojne</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x438; &#x432;&#x456;&#x439;&#x441;&#x44C;&#x43A;&#x43E;&#x432;&#x443; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x443;</trd>,
+    <trd>&#x431;&#x443;&#x442;&#x438;/&#x43F;&#x435;&#x440;&#x435;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;/&#x437;&#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x438;&#x441;&#x44F; &#x43D;&#x430; &#x432;&#x456;&#x439;&#x441;&#x44C;&#x43A;&#x43E;&#x432;&#x456;&#x439; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x456;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="serv.sekret0o">
@@ -758,9 +1303,37 @@
         la plej efikaj en la mondo 
         <fnt><aut>C. Piron</aut>, <vrk>&Ccirc;u ni kunvenis 
         vane?</vrk>, <lok>1982</lok></fnt>.
+      </ekz><ekz>
+        okcidentaj sekret<tld/>oj taksas, ke pasos ankora&ubreve; kelkaj
+        jaroj, &gcirc;is Nord-Koreio disponos pri atombombo ta&ubreve;ga por atakoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2009/009837.php">Monstra atompotenco</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz><ekz>
+        sekret-<tld/>isto <nom>Putin</nom> plifortigos la sekretan <tld/>on, kvankam kritikantoj
+        asertas, ke jam delonge Rusion ne plu regas ministraro sed la sekreta <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2004/008439.html">Hororo</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz><ekz>
+        la &scirc;tato posedas sep diversajn sekretajn <tld/>ojn, kiuj &ccirc;efe
+        &scirc;irmas la re&gcirc;imon, ne la popolon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Steloj;monato2/006910.html">Post morto &dash; nova
+          sorto</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Geheimdienst</trd>
   <trd lng="en">secret service</trd>
   <trd lng="es">servicio secreto</trd>
   <trd lng="fr">services secrets</trd>
@@ -771,7 +1344,8 @@
   <kap>sin en<tld/>igi</kap>
   <snc mrk="serv.sinen0igi.KOMUNE">
     <dif>
-      Komenci da&ubreve;ran <tld/>adon, ekofici por iu funkcio:
+      Komenci da&ubreve;ran <tld/>adon, ek<ref cel="ofic.0i">ofici</ref> por
+      iu funkcio:
       <ekz>
         li mem, kiel li diris, intencas en<tld/>igi sin
         sur &scirc;ipo, al tio estas direktitaj &ccirc;iuj liaj deziroj
@@ -779,32 +1353,35 @@
          dunoj</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="dung.sin0igi">sin dungigi</ref>
   </snc>
+  <trd lng="de">sich <ind>verdingen</ind></trd>
   <trd lng="fr">entrer en <ind>service</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.71 2021/06/11 18:35:44
-Wolfram Diestel: +snc KUI
+versio 1.129 2022/05/05 05:09:56
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.41  2017/04/20 16:10:10  revo
-Robin van der Vliet: +trd
+versio 1.125 2021/11/16 14:38:22
+Wolfram Diestel: -trd EVI
 
-Revision 1.40  2016/09/06 09:10:14  revo
-Carlos Garcia: +trd es -ema -ilo -isto istaro -istino pri-i milit-o
-sekret-o
+versio 1.124 2021/08/13 05:26:47
+Sergio Pokrovskij: +rim
 
-Revision 1.39  2016/07/14 20:10:28  revo
-Jeromo Vasxe: + sin en~igi
+versio 1.123 2021/07/12 18:36:48
+Wolfram Diestel: mem~a..en~igi: ekz-oj, ref-oj, trd de
 
-Revision 1.38  2016/02/25 07:10:15  revo
-Alain Gerard: +trd fr
+versio 1.122 2021/07/12 14:24:19
+Wolfram Diestel: pri~i..libro~o: ekz-oj, ref-oj
 
-Revision 1.37  2015/11/07 10:10:14  revo
-Sergio Pokrovskij: mempri~a
+versio 1.121 2021/07/12 06:37:32
+Wolfram Diestel: ~ema..~istaro: ekz-oj, ref-oj, trd de
 
-Revision 1.36  2015/11/07 08:10:15  revo
-Sergio Pokrovskij: +pri~i
+versio 1.120 2021/07/11 19:20:32
+Wolfram Diestel: ~o, ~ado: ekz-oj, ref-oj
+
+versio 1.119 2021/07/11 17:32:12
 -->
 </vortaro>

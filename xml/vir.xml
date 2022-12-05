@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vir.xml,v 1.87 2021/06/18 18:20:20 revo Exp $">
+<art mrk="$Id: vir.xml,v 1.123 2022/05/06 12:17:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vir</rad>/o
@@ -134,10 +134,11 @@
   </snc>
   <trd lng="af">man</trd>
   <trd lng="am">&#x1230;&#x12CD;</trd>
-  <trd lng="ar">&#x631;&#x62C;&#x644;</trd>
+  <trd lng="ar">&a_r;&a_j;&a_l;</trd>
   <trd lng="be">&c_s;&c_a;&c_m;&c_je;&c_c;</trd>
   <trd lng="bn">&#x9AE;&#x9BE;&#x9A8;&#x9C1;&#x9B7;</trd>
   <trd lng="co">omu</trd>
+  <trd lng="cy">dyn</trd>
   <trd lng="da">mand</trd>
   <trd lng="el">&alfa;&rho;&sigma;&epsilon;&ny;&jota;&kappa;&omikron_ton;</trd>
   <trd lng="cs">mu&zcaron;</trd>
@@ -147,6 +148,8 @@
   <trd lng="et">mees</trd>
   <trd lng="fr">m&acirc;le<klr> (subst.)</klr></trd>
   <trd lng="fy">man</trd>
+  <trd lng="ga">fear</trd>
+  <trd lng="gd">fear</trd>
   <trd lng="gl">home</trd>
   <trd lng="gu">&#xAAE;&#xABE;&#xAA3;&#xAB8;</trd>
   <trd lng="ha">mutum</trd>
@@ -154,52 +157,81 @@
   &het;&yod;&yod;&fmem;)</klr></trd>
   <trd lng="he">&#x2137;&bet;&resh;</trd>
   <trd lng="hi">&#x906;&#x926;&#x92E;&#x940;</trd>
-  <trd lng="hr">&#x10D;ovjek</trd>
+  <trd lng="hmn">txiv neej</trd>
+  <trd lng="hr">&ccaron;ovjek</trd>
+  <trd lng="ht">nonm</trd>
   <trdgrp lng="hu">
     <trd>h&iacute;m</trd>,
     <trd>kan</trd>,
   </trdgrp>
   <trd lng="hy">&#x574;&#x561;&#x580;&#x564;</trd>
+  <trd lng="ig">nwoke</trd>
   <trd lng="io">viro</trd>
   <trd lng="is">ma&#xF0;ur</trd>
   <trd lng="ja">&#x7537;</trd>
-  <trd lng="jw">wong</trd>
+  <trd lng="jv">wong</trd>
   <trd lng="ka">&#x10D9;&#x10D0;&#x10EA;&#x10D8;</trd>
+  <trd lng="kk">&c_a;&c_d;&c_a;&c_m;</trd>
   <trd lng="km">&#x1794;&#x17BB;&#x179A;&#x179F;&#x1798;&#x17D2;&#x1793;&#x17B6;&#x1780;&#x17CB;</trd>
+  <trd lng="kn">&#xCB5;&#xCCD;&#xCAF;&#xC95;&#xCCD;&#xCA4;&#xCBF;</trd>
   <trd lng="ko">&#xC0AC;&#xB78C;</trd>
+  <trd lng="ky">&c_a;&c_d;&c_a;&c_m;</trd>
+  <trd lng="lat">hominis</trd>
   <trd lng="lo">&#xE9C;&#xEB9;&#xEC9;&#xE8A;&#xEB2;&#xE8D;</trd>
+  <trd lng="lt">vyras</trd>
+  <trd lng="lv">v&#x12B;rietis</trd>
+  <trd lng="mg">ny olona</trd>
+  <trd lng="mi">te tangata</trd>
+  <trd lng="mk">&c_ch;&c_o;&c_v;&c_je;&c_k;</trd>
   <trd lng="ml">&#xD2E;&#xD28;&#xD41;&#xD37;&#xD4D;&#xD2F;&#xD7B;</trd>
+  <trd lng="mn">&c_h;&#x4AF;&c_n;</trd>
   <trd lng="mr">&#x92E;&#x928;&#x941;&#x937;&#x94D;&#x92F;</trd>
+  <trd lng="ms">lelaki</trd>
+  <trd lng="mt">bniedem</trd>
   <trd lng="my">&#x101A;&#x1031;&#x102C;&#x1000;&#x103A;&#x103B;&#x102C;&#x1038;</trd>
   <trd lng="ne">&#x92E;&#x93E;&#x928;&#x93F;&#x938;</trd>
   <trd lng="nl">man</trd>
   <trd lng="ny">munthu</trd>
   <trd lng="pa">&#xA06;&#xA26;&#xA2E;&#xA40; &#xA28;&#xA42;&#xA70;</trd>
   <trd lng="pl">samiec</trd>
-  <trd lng="ps">&#x633;&#x693;&#x64A;</trd>
+  <trd lng="ps">&a_s;&#x693;&a_y;</trd>
   <trd lng="pt">macho</trd>
   <trd lng="ru">&c_s;&c_a;&c_m;&c_je;&c_c;</trd>
-  <trd lng="sd">&#x627;&#x646;&#x633;&#x627;&#x646;</trd>
+  <trd lng="rw">umuntu</trd>
+  <trd lng="sd">&a_A;&a_n;&a_s;&a_A;&a_n;</trd>
   <trd lng="si">&#xDB8;&#xDD2;&#xDB1;&#xDD2;&#xDC3;&#xDCF;</trd>
   <trd lng="sk">samec</trd>
   <trdgrp lng="sk">
     <trd>chlap <klr>(samec)</klr></trd>,
     <trd>mu&zcaron;, chlap <klr>(samec)</klr></trd>
   </trdgrp>
+  <trd lng="sl">mo&scaron;ki</trd>
+  <trd lng="sm">tagata</trd>
+  <trd lng="sn">murume</trd>
+  <trd lng="so">nin</trd>
   <trd lng="sq">njeri</trd>
+  <trd lng="st">motho</trd>
+  <trd lng="su">lalaki</trd>
+  <trd lng="sw">mtu</trd>
   <trd lng="ta">&#xBAE;&#xBA9;&#xBBF;&#xBA4;&#xBA9;&#xBCD;</trd>
   <trd lng="te">&#xC2E;&#xC28;&#xC3F;&#xC37;&#xC3F;</trd>
-  <trd lng="th">&#xE04;&#xE19;</trd>
+  <trd lng="tg">&c_o;&c_d;&c_a;&c_m;</trd>
+  <trd lng="th">&#xE1C;&#xE39;&#xE49;&#xE0A;&#xE32;&#xE22;</trd>
   <trd lng="tl">tao</trd>
-  <trd lng="tp">mije</trd>
+  <trd lng="tok">mije</trd>
   <trdgrp lng="tr">
     <trd>erkek</trd>,
     <trd>adam</trd>
   </trdgrp>
-  <trd lng="ur">&#x622;&#x62F;&#x645;&#x6CC;</trd>
-  <trd lng="vi">ng&#x1B0;&#x1EDD;i &#x111;&#xE0;n &#xF4;ng</trd>
+  <trd lng="tt">&c_k;&c_je;&c_sh;&c_je;</trd>
+  <trd lng="uk">&c_l;&c_ju;&c_d;&c_i;&c_n;&c_a;</trd>
+  <trd lng="ur">&a_A_madda;&a_d;&a_m;&f_y;</trd>
+  <trd lng="uz">odam</trd>
+  <trd lng="vi">ng&#x1B0;&#x1EDD;i &#x111;&agrave;n &ocirc;ng</trd>
   <trd lng="vo">man</trd>
-  <trd lng="yi">&#x5DE;&#x5E2;&#x5E0;&#x5D8;&#x5E9;</trd>
+  <trd lng="xh">indoda</trd>
+  <trd lng="yi">&mem;&ayin;&nun;&tet;&shin;</trd>
+  <trd lng="yo">eniyan</trd>
 </drv>
 
 <drv mrk="vir.0a">
@@ -380,7 +412,8 @@
     <trd>mu&zcaron;sk&yacute;, zmu&zcaron;il&yacute;</trd>,
     <trd>zmu&zcaron;il&yacute;</trd>
   </trdgrp>
-  <trd lng="tp">mije</trd>
+  <trd lng="tok">mije</trd>
+  <trd lng="uk">&#x447;&#x43E;&#x43B;&#x43E;&#x432;&#x456;&#x447;&#x438;&#x439;</trd>
   <trd lng="vo">manik</trd>
 </drv>
 
@@ -408,7 +441,7 @@
         la genoj de la patro
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -417,7 +450,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Petro de Smedt</aut>
-          <vrk><url ref="https://www.monato.be/2010/009946.php">La verde farbita birdo</url></vrk>
+          <vrk><url ref="&Monato;/2010/009946.php">La verde farbita birdo</url></vrk>
           <lok>2010</lok>
         </fnt>.
       </ekz>
@@ -426,6 +459,7 @@
   <trd lng="de">M&auml;nnlichkeit</trd>
   <trd lng="en">virility</trd>
   <trd lng="fr">virilit&eacute;</trd>
+  <trd lng="uk">&#x43C;&#x443;&#x436;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
 </drv>  
 
 <drv mrk="vir.0igxi">
@@ -471,6 +505,10 @@
     <trd>devenir un <ind>homme</ind></trd>
   </trdgrp>
   <trd lng="pl">m&eogonek;&zdot;nie&cacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43C;&#x443;&#x436;&#x43D;&#x456;&#x442;&#x438;</trd>,
+    <trd>&#x441;&#x442;&#x430;&#x432;&#x430;&#x442;&#x438; &#x447;&#x43E;&#x43B;&#x43E;&#x432;&#x456;&#x43A;&#x43E;&#x43C;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vir.0ilo">
@@ -504,6 +542,10 @@
   <trdgrp lng="sk">
     <trd>mu&zcaron;stvo</trd>,
     <trd>&uacute;d</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x442;&#x430;&#x442;&#x435;&#x432;&#x438;&#x439; &#x447;&#x43B;&#x435;&#x43D;</trd>,
+    <trd>&#x43F;&#x440;&#x443;&#x442;&#x435;&#x43D;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -631,7 +673,8 @@
   <trd lng="pt">feminino</trd>
   <trd lng="ru">&c_zh;&c_je;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="sk">&zcaron;ensk&yacute;</trd>
-  <trd lng="tp">meli</trd>
+  <trd lng="tok">meli</trd>
+  <trd lng="uk">&#x436;&#x456;&#x43D;&#x43E;&#x447;&#x438;&#x439;</trd>
   <trd lng="vo">vomik</trd>
   <trd lng="zh">&#x5973;<klr> [n&#x1DA;]</klr></trd>
 </drv>
@@ -718,14 +761,15 @@
   </snc>
   <trd lng="af">vroue</trd>
   <trd lng="am">&#x1234;&#x1276;&#x127D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x646;&#x633;&#x627;&#x621;</trd>
-  <trd lng="az">qad&#x131;n</trd>
+  <trd lng="ar">&a_A;&a_l;&a_n;&a_s;&a_A;&a_hamza;</trd>
+  <trd lng="az">qad&inodot;n</trd>
   <trd lng="be">&c_zh;&c_a;&c_n;&c_ch;&c_y;&c_n;&c_a;</trd>
   <trd lng="bn">&#x9A8;&#x9BE;&#x9B0;&#x9C0;</trd>
-  <trd lng="bo">&#xF58;&#xF7C;&#xF0B;</trd>
-  <trd lng="bs">&#x17E;ene</trd>
+  <trd lng="bo">&t_ma;&t_naro;&t_tsheg;</trd>
+  <trd lng="bs">&zcaron;ene</trd>
   <trd lng="co">donne</trd>
   <trd lng="cs">&zcaron;ena</trd>
+  <trd lng="cy">menywod</trd>
   <trd lng="da">kvinder</trd>
   <trd lng="de">Frau</trd>
   <trd lng="el">&gamma;&ypsilon;&ny;&alfa;&jota_ton;&kappa;&alfa;</trd>
@@ -734,47 +778,79 @@
   <trd lng="et">naine</trd>
   <trd lng="eu">emakumeak</trd>
   <trd lng="fy">frou</trd>
+  <trd lng="ga">mn&aacute;</trd>
+  <trd lng="gd">boireannaich</trd>
   <trd lng="gl">mulleres</trd>
   <trd lng="gu">&#xAB8;&#xACD;&#xAA4;&#xACD;&#xAB0;&#xAC0;&#xA93;</trd>
   <trd lng="ha">mata</trd>
   <trd lng="he">&alef;&shin;&he;</trd>
   <trd lng="hi">&#x92E;&#x939;&#x93F;&#x932;&#x93E;&#x913;&#x902;</trd>
-  <trd lng="hr">&#x17E;ene</trd>
+  <trd lng="hmn">cov poj niam</trd>
+  <trd lng="hr">&zcaron;ene</trd>
+  <trd lng="ht">fanm</trd>
   <trd lng="hu">n&odblac;</trd>
   <trd lng="hy">&#x56F;&#x561;&#x576;&#x561;&#x575;&#x584;</trd>
+  <trd lng="ig">inyom</trd>
   <trd lng="io">muliero</trd>
   <trd lng="is">konur</trd>
   <trd lng="ja">&#x5973;&#x6027;&#x305F;&#x3061;</trd>
-  <trd lng="jw">wanita</trd>
+  <trd lng="jv">wanita</trd>
   <trd lng="ka">&#x10E5;&#x10D0;&#x10DA;&#x10D4;&#x10D1;&#x10D8;</trd>
+  <trd lng="kk">&#x4D9;&c_j;&c_je;&c_l;&c_d;&c_je;&c_r;</trd>
   <trd lng="km">&#x179F;&#x17D2;&#x178F;&#x17D2;&#x179A;&#x17B8;</trd>
+  <trd lng="kn">&#xCAE;&#xCB9;&#xCBF;&#xCB3;&#xCC6;&#xCAF;&#xCB0;&#xCC1;</trd>
   <trd lng="ko">&#xC5EC;&#xC131;</trd>
+  <trd lng="ku">jinan</trd>
+  <trd lng="ky">&c_a;&c_ja;&c_l;&c_d;&c_a;&c_r;</trd>
+  <trd lng="lat">mulieres</trd>
   <trd lng="lo">&#xEC1;&#xEA1;&#xEC8;&#xE8D;&#xEB4;&#xE87;</trd>
+  <trd lng="lt">moterys</trd>
+  <trd lng="lv">sievietes</trd>
+  <trd lng="mg">vehivavy</trd>
+  <trd lng="mi">wahine</trd>
+  <trd lng="mk">&c_zh;&c_je;&c_n;&c_i;</trd>
   <trd lng="ml">&#xD38;&#xD4D;&#xD24;&#xD4D;&#xD30;&#xD40;&#xD15;&#xD7E;</trd>
+  <trd lng="mn">&c_e;&c_m;&c_e;&c_g;&c_t;&c_e;&c_j;&c_ch;&#x4AF;&#x4AF;&c_d;</trd>
   <trd lng="mr">&#x92E;&#x939;&#x93F;&#x932;&#x93E;</trd>
+  <trd lng="ms">wanita</trd>
+  <trd lng="mt">nisa</trd>
   <trd lng="my">&#x1021;&#x1019;&#x103B;&#x102D;&#x102F;&#x1038;&#x101E;&#x1019;&#x102E;&#x1038;&#x1019;&#x103B;&#x102C;&#x1038;</trd>
   <trd lng="ne">&#x92E;&#x939;&#x93F;&#x932;&#x93E;</trd>
   <trd lng="nl">vrouw</trd>
   <trd lng="ny">akazi</trd>
   <trd lng="pa">&#xA2E;&#xA39;&#xA3F;&#xA32;&#xA3E;</trd>
   <trd lng="pl">kobieta</trd>
-  <trd lng="ps">&#x62F; &#x69A;&#x681;&#x648;</trd>
+  <trd lng="ps">&a_d; &#x69A;&#x681;&a_w;</trd>
   <trd lng="pt">mulher</trd>
   <trd lng="ru">&c_zh;&c_je;&c_n;&c_shch;&c_i;&c_n;&c_a;</trd>
-  <trd lng="sd">&#x639;&#x648;&#x631;&#x62A;&#x646;</trd>
+  <trd lng="rw">abagore</trd>
+  <trd lng="sd">&a_ayn;&a_w;&a_r;&a_t;&a_n;</trd>
   <trd lng="si">&#xD9A;&#xDCF;&#xDB1;&#xDCA;&#xDAD;&#xDCF;&#xDC0;&#xDB1;&#xDCA;</trd>
   <trd lng="sk">&zcaron;ena</trd>
-  <trd lng="sq">grat&#xEB;</trd>
+  <trd lng="sl">&zcaron;enske</trd>
+  <trd lng="sm">fafine</trd>
+  <trd lng="sn">vakadzi</trd>
+  <trd lng="so">dumarka</trd>
+  <trd lng="sq">grat&euml;</trd>
+  <trd lng="st">basali ba</trd>
+  <trd lng="su">awewe</trd>
+  <trd lng="sw">wanawake</trd>
   <trd lng="ta">&#xBAA;&#xBC6;&#xBA3;&#xBCD;&#xB95;&#xBB3;&#xBCD;</trd>
   <trd lng="te">&#xC2E;&#xC39;&#xC3F;&#xC33;&#xC32;&#xC41;</trd>
+  <trd lng="tg">&c_z;&c_a;&c_n;&c_o;&c_n;</trd>
   <trd lng="th">&#xE1C;&#xE39;&#xE49;&#xE2B;&#xE0D;&#xE34;&#xE07;</trd>
   <trd lng="tl">kababaihan</trd>
-  <trd lng="tp">meli</trd>
+  <trd lng="tok">meli</trd>
   <trd lng="tr">kad&inodot;n</trd>
-  <trd lng="ur">&#x62E;&#x648;&#x627;&#x62A;&#x6CC;&#x646;</trd>
+  <trd lng="tt">&c_h;&c_a;&c_t;&c_y;&c_n;-&c_k;&c_y;&c_z;&c_l;&c_a;&c_r;</trd>
+  <trd lng="uk">&c_zh;&c_ib;&c_n;&c_k;&c_i;</trd>
+  <trd lng="ur">&a_kh;&a_w;&a_A;&a_t;&f_y;&a_n;</trd>
+  <trd lng="uz">ayollar</trd>
   <trd lng="vi">ph&#x1EE5; n&#x1EEF;</trd>
   <trd lng="vo">vom</trd>
-  <trd lng="yi">&#x5E4;&#x5E8;&#x5D5;&#x5D9;&#x5E2;&#x5DF;</trd>
+  <trd lng="xh">abafazi</trd>
+  <trd lng="yi">&pe;&resh;&vav;&yod;&ayin;&fnun;</trd>
+  <trd lng="yo">obirin</trd>
   <trd lng="zu">abesifazane</trd>
 </drv>
 
@@ -795,7 +871,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Armando Zecchin</aut>
-          <vrk><url ref="https://www.monato.be/2006/008972.php">Maria Magdalena: &ccirc;u edzino a&ubreve; ne?</url></vrk>
+          <vrk><url ref="&Monato;/2006/008972.php">Maria Magdalena: &ccirc;u edzino a&ubreve; ne?</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
@@ -804,6 +880,7 @@
   <trd lng="de">Weiblichkeit</trd>
   <trd lng="en">virility</trd>
   <trd lng="fr">virilit&eacute;</trd>
+  <trd lng="uk">&#x436;&#x456;&#x43D;&#x43E;&#x447;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
 </drv>  
 
 <drv mrk="vir.0inismo">
@@ -870,7 +947,13 @@
 -->
 </art>
 <!--
-$Log: vir.xml,v $
+$Log$
+versio 1.123 2022/05/06 12:17:22
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.121 2021/12/06 05:41:13
+Warut Bunprasert: red th
+
 versio 1.44 2020/02/08 22:10:24
 Wolfram Diestel: +ekz-oj; + GRA: genro vira, virina, - mal~a 
 
@@ -887,11 +970,5 @@ Robin van der Vliet: +malvira, +trd
 Revision 1.40  2016/11/20 00:10:16  revo
 Robin van der Vliet: +trd de, en, fy, io, nl, tp, vo
 
-Revision 1.39  2016/10/30 11:10:13  revo
-Wolfram Diestel: ioma prilaboro, ekz-oj
-
-Revision 1.38  2016/10/29 19:10:19  revo
-Wolfram Diestel: ekz-oj, forigis du rimarkoj, kies enhavon mi tute ne
-konsentas (tro subjektiva)
 -->
 </vortaro>

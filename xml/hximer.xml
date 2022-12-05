@@ -1,14 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: hximer.xml,v 1.33 2018/03/02 12:10:18 revo Exp $">
+<art mrk="$Id: hximer.xml,v 1.38 2022/04/30 08:42:42 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>&hcirc;imer</rad>/o <fnt><bib>PV</bib></fnt>
+  <ofc>*</ofc> <rad>&hcirc;imer</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad var="k">kimer</rad>/o <fnt><bib>PV</bib></fnt></kap></var>
 </kap>
 <drv mrk="hximer.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
+  <kap>
+    <ofc>*</ofc><tld/>o,
+    <var><kap><tld var="k"/>o</kap></var>
+  </kap>
   <snc mrk="hximer.0o.BELA">
     <uzo tip="fak">BELA</uzo>
     <dif>
@@ -19,9 +21,16 @@
         uzata cele al ornamo
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/wiki/%C4%A4imero_(arkitekturo)">
+          <lok><url ref="&Viki;/%C4%A4imero_(arkitekturo)">
           &Hcirc;imero (arkitekturo)</url>, 2017-12-24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="k"/>o de la katedralo <nom>Notre-Dame</nom> de 
+        Parizo rigarde al la <esc>grandurbo</esc>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=6664">Nia Damo de Parizo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -29,20 +38,19 @@
   <snc mrk="hximer.0o.MIT">
     <uzo tip="fak">MIT</uzo>
     <dif>
-	Malnovgreka mita monstro, kies bu&scirc;oj vomis flamojn, 
-	kun <ref tip="malprt" cel="kapr.0o">kapra</ref> kapo,
-	<ref tip="malprt" cel="leon.0o">leona</ref> korpo kaj 
-	<ref tip="malprt" cel="drak.0o.MIT">drako</ref> 
-	anstata&ubreve; la vosto,
+	Malnovgreka mita <ref tip="super" cel="monstr.0o">monstro</ref>, 
+        kies bu&scirc;oj vomis flamojn, kun kapra kapo,
+	leona korpo kaj drako anstata&ubreve; la vosto,
 	a&ubreve; kiel besto kun tri kapoj: de
-	<ref tip="malprt" cel="kapr.0o">kapro</ref>,
-	<ref tip="malprt" cel="leon.0o">leono</ref> kaj 
-	<ref tip="malprt" cel="drak.0o.MIT">drako</ref>.
+	<ref cel="kapr.0o">kapro</ref>,
+	<ref cel="leon.0o">leono</ref> kaj 
+	<ref cel="drak.0o.MIT">drako</ref>.
     </dif>
     <refgrp tip="vid">
 	<ref cel="hidr.0o.MIT">hidro</ref>
     </refgrp>
     <trd lng="ca">quimera</trd>
+    <trd lng="de">Mischwesen</trd>
     <trdgrp lng="fa">
       <trd>&a_gh;&a_w;&a_l;&zwnj;&a_sh;&f_y;&a_r;</trd>,
       <trd>&a_sh;&f_y;&a_m;&a_r;</trd>
@@ -58,13 +66,53 @@
   <snc mrk="hximer.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-	Neefektivigebla utopio:
-	<ekz>
-	  longtempe multaj kredis, ke artefarita lingvo estas <tld/>o;
-	</ekz>
-	<ekz>
-	  <tld/>a projekto<fnt>B</fnt>.
-	</ekz>
+      Neefektivigebla <ref tip="super" cel="utopi.0o.FIG">utopio</ref>:
+      <ekz>
+        ili volas min fari plenumanto de iliaj <tld/>oj!
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun &ccirc;i eternan <tld/>on pri Karolo mi <klr>[&#x2026;]</klr> elvipados al vi el la kapo
+        simile al fajrohara furio
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> kun <tld/>oj sidas hejme apud sia forn'
+        <fnt>
+          <bib>LSB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[jen]</klr> fine malpreciza dubo, <tld/>a espero restis ankora&ubreve;
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pikita de sia <tld/>o, &scirc;i instigis sian onklinon, ke &scirc;i plenumu sian promeson
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&ccirc;u]</klr> tiu revo ne estas <tld/>a, tion mi ne scias, &ccirc;ar al neniu
+        apartenas la estonteco
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        doma&gcirc;e estus lasi tian talentulon perdi&gcirc;i en <tld/>oj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
 	<ref cel="fantaz">fantazia&jcirc;o</ref>,
@@ -77,6 +125,7 @@
 	<ref cel="kastel.0o">kastelo</ref>,
 	<ref cel="lul.0i">luli</ref>
     </refgrp>
+    <trd lng="de">Hirngespinst</trd>
     <trdgrp lng="fa">
       <trd>&a_kh;&a_w;&a_A;&a_b; &a_w; &a_kh;&f_y;&a_A;&a_l;</trd>,
       <trd>&a_kh;&f_y;&a_A;&a_l; &a_b;&a_A;&a_T;&a_l;</trd>
@@ -114,10 +163,26 @@
     <trd>&c_n;&c_je;&c_s;&c_b;&c_y;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_m;&c_je;&c_ch;&c_t;&c_a;</trd>
   </trdgrp>
   <trd lng="sk">chim&eacute;ra</trd>
+  <trdgrp lng="uk">
+    <trd>&#x445;&#x438;&#x43C;&#x435;&#x440;&#x430;</trd>,
+    <trd>&#x43D;&#x435;&#x437;&#x431;&#x443;&#x442;&#x43D;&#x44F; &#x43C;&#x440;&#x456;&#x44F;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.38 2022/04/30 08:42:42
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.36 2021/12/09 17:38:53
+Wolfram Diestel: +trd de
+
+versio 1.35 2021/12/09 14:29:02
+Wolfram Diestel: +PV
+
+versio 1.34 2021/12/09 13:33:34
+Wolfram Diestel: kunigo kun var kimer, ekz-oj, ref-oj
+
 Revision 1.32  2017/09/15 16:10:16  revo
 Vito Redsky: +ald trd pl
 
@@ -128,14 +193,5 @@ Revision 1.30  2010/04/21 16:30:39  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.29  2009/08/28 16:30:58  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.28  2009/03/12 17:32:27  revo
-Antonio Codazzi: +trd it
-
-Revision 1.27  2008/11/09 17:30:34  revo
-Wieland Pusch: +trd bg
-
-Revision 1.26  2007/10/31 17:30:28  revo
 -->
 </vortaro>

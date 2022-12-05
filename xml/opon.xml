@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: opon.xml,v 1.25 2021/02/12 18:10:33 revo Exp $">
+<art mrk="$Id: opon.xml,v 1.29 2022/03/24 15:32:03 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>opon</rad>/i <fnt>B</fnt> <fnt><bib>PV</bib></fnt>
+  <rad>opon</rad>/i
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="opon.0i">
   <kap><tld/>i</kap>
@@ -13,23 +13,63 @@
   <snc mrk="opon.0i.KOMUNE">
     <dif>
       Aktive <ref tip="super" cel="kontraux.0i">kontra&ubreve;adi</ref>,
-      <ref tip="vid" cel="parol.kontraux0i.KOMUNE">kontra&ubreve;paroli</ref>,
-      <ref tip="vid" cel="ag.kontraux0i.KOMUNE">kontra&ubreve;agi</ref>,
-      <ref tip="vid" cel="opozic.0i.POL">opozicii</ref>:
+      <ref tip="sin" cel="parol.kontraux0i.KOMUNE">kontra&ubreve;paroli</ref>,
+      <ref cel="ag.kontraux0i.KOMUNE">kontra&ubreve;agi</ref>,
+      <ref cel="opozic.0i.POL">opozicii</ref>:
       <ekz>
-        tamen <tld/>is unu vo&ccirc;o<fnt>B</fnt>;
+        anta&ubreve; kiam la patro kaj servistino povis <tld/>i, &scirc;i elkuris
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        anta&ubreve; kiam la patro kaj servistino povis <tld/>i,
-        &scirc;i elkuris sur la terason
-        <fnt><bib>Far1</bib></fnt>;
+        la sanktaj pastroj <klr>[&#x2026;]</klr> tute ne <tld/>is, ke la princo partoprenu en
+        la soleno
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la sanktaj pastroj <klr>...</klr> tute ne <tld/>is,
-        ke la princo partoprenu en la soleno
-        <fnt><bib>Far2</bib></fnt>.
+        dum ekscita diskuto en la kongresa laborkunsido <klr>[&#x2026;]</klr> oponis, krom
+        &gcirc;isostaj ne&ubreve;tralistoj, anka&ubreve; pluraj personoj, kiuj ne konsentis nur kun
+        kelkaj eroj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> &ccirc;iam forte <tld/>is imperiismon, inkl. la rusan
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vole-nevole lia fato dependas de la kapablo <tld/>i ilin kaj komploti kontra&ubreve; ili
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen absurda maniero prezenti aferon, pensis <nom>Berlioz</nom>
+        kaj <tld/>is: &ndash; nu, en tio
+        estas troigo
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        influhava publika figuro sukcese <tld/>is eksperimentan instruadon de Esperanto
+        en la lernejoj
+        <fnt>
+          <bib>EfI</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="protes.0i.malkonsenti">protesti<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_ja;&c_r;&c_e;&c_ch;&c_y;&c_c;&c_mol;</trd>
   <trd lng="ca">oposar</trd>
@@ -39,7 +79,10 @@
     <trd>odporovat</trd>,
     <trd>oponovat</trd>
   </trdgrp>
-  <trd lng="de">opponieren</trd>
+  <trdgrp lng="de">
+    <trd>opponieren</trd>,
+    <trd><ind>Widerstand</ind> leisten</trd>
+  </trdgrp>
   <trd lng="en">oppose</trd>
   <trd lng="es">oponer</trd>
   <trdgrp lng="fa">
@@ -55,7 +98,15 @@
     <trd>oppon&aacute;l</trd>
   </trdgrp>
   <trd lng="nl">opponeren</trd>
+  <trdgrp lng="pl">
+    <trd>oponowa&cacute;</trd>,
+    <trd>sprzeciwia&cacute; si&eogonek;</trd>
+  </trdgrp>
   <trd lng="pt">opor-se</trd>
+  <trdgrp lng="ro">
+    <trd>obiectiv</trd>,
+    <trd>obiecta</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_o;&c_z;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_p;&c_p;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -66,19 +117,60 @@
     <trd>oponova&tcaron;</trd>,
     <trd>protire&ccaron;i&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43E;&#x43F;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x431;&#x443;&#x442;&#x438; &#x441;&#x443;&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x43A;&#x43E;&#x43C;</trd>,
+    <trd>&#x434;&#x43E;&#x442;&#x440;&#x438;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x43B;&#x435;&#x436;&#x43D;&#x438;&#x445; &#x43F;&#x43E;&#x433;&#x43B;&#x44F;&#x434;&#x456;&#x432;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="opon.0anto">
-  <kap><tld/>anto</kap>
+  <kap><tld/>anto, <var><kap><tld/>ulo</kap></var></kap>
   <snc mrk="opon.0anto.KOMUNE">
     <dif>
       Tiu, kiu <tld/>as, ekzemple la alia ludanto en
       &scirc;akludo:
       <ekz>
-        tio, kion diris mia <tld/>anto, estas pura vero<fnt>B</fnt>.
+        la <tld/>antoj precipe emfazadis la financajn &scirc;ar&gcirc;ojn
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Trasima&hcirc;o, sofista filozofo, <tld/>anto de Sokrato
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>uloj akuzis <nom>Holzmann</nom> je degne aristokrata stilo
+        <fnt>
+          <aut>T. Steele</aut>
+          <vrk>Kvaza&ubreve; &ccirc;io dependus de mi</vrk>
+          <lok>p. 91</lok>
+        </fnt>
+      </ekz>;
+      <ekz>
+        preska&ubreve; histerie, britaj <tld/>antoj de la e&ubreve;ro lan&ccirc;is dum la somero kinejan
+        kampanjon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Imperio</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="batal.kontraux0anto">kontra&ubreve;batalanto</ref>,
+      <ref cel="kontraux.0ulo">kontra&ubreve;ulo</ref>,
+      <ref cel="amik.mal0o">malamiko</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_p;&c_a;&c_n;&c_e;&c_n;&c_t;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_je;&c_r;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_s;&c_p;&c_a;&c_b;&c_o;&c_r;&c_n;&c_ib;&c_k;</trd>
+  </trdgrp>
   <trd lng="cs">oponent</trd>
   <trdgrp lng="de">
     <trd>Opponent</trd>,
@@ -99,10 +191,24 @@
     <trd>opponent</trd>,
     <trd>tegenstander</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>oponent</trd>,
+    <trd>adwersarz</trd>,
+    <trd>przeciwnik  <klr>(w dyskusji)</klr></trd>
+  </trdgrp>
   <trd lng="pt">advers&aacute;rio</trd>
+  <trdgrp lng="ro">
+    <trd>oponent</trd>,
+    <trd>adversar</trd>
+  </trdgrp>
   <trd lng="sk">oponent</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x43F;&#x43E;&#x43D;&#x435;&#x43D;&#x442;</trd>,
+    <trd>&#x441;&#x443;&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x43A;</trd>
+  </trdgrp>
 </drv>
 
+<!--
 <drv mrk="opon.0ulo">
   <kap><tld/>ulo</kap>
   <snc mrk="opon.0ulo.KOMUNE">
@@ -118,6 +224,7 @@
       </ekz>.
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_p;&c_a;&c_n;&c_e;&c_n;&c_t;</trd>
   <trd lng="cs">oponent</trd>
   <trdgrp lng="de">
     <trd>Opponent</trd>,
@@ -138,12 +245,31 @@
     <trd>opponent</trd>,
     <trd>tegenstander</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>oponent</trd>,
+    <trd>adwersarz</trd>,
+    <trd>przeciwnik  <klr>(w dyskusji)</klr></trd>
+  </trdgrp>
   <trd lng="pt">advers&aacute;rio</trd>
+  <trdgrp lng="ro">
+    <trd>oponent</trd>,
+    <trd>adversar</trd>
+  </trdgrp>
   <trd lng="sk">oponent</trd>
 </drv>
+-->
 </art>
 <!--
 $Log$
+versio 1.28 2022/01/09 22:31:26
+Vito Redsky: + trd pl + trd ro
+
+versio 1.27 2021/11/06 16:44:46
+Wolfram Diestel: Ekzem-oj, ref-oj, kunigis ~anto k ~ulo
+
+versio 1.26 2021/09/07 15:32:50
+Dmitri Gabinski: +trd be
+
 versio 1.25 2021/02/12 18:10:33
 Behnam Tabatabai: +trd fa
 
@@ -157,14 +283,5 @@ Revision 1.21  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2014/04/04 09:10:14  revo
-Damien Brucker: +trd fr
-
-Revision 1.19  2010/05/22 16:30:17  revo
-Marc Bavant: ~i: kor ref al kontrauxstari
-
-Revision 1.18  2009/08/18 19:20:33  revo
-Paul Peeraerts: +trd nl +oponulo
-
-Revision 1.17  2008/12/11 17:30:48  revo
 -->
 </vortaro>

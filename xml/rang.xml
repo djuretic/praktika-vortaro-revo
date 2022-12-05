@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: rang.xml,v 1.36 2020/02/15 23:10:45 revo Exp $">
+<art mrk="$Id: rang.xml,v 1.41 2022/05/04 19:19:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rang</rad>/o <fnt><bib>PV</bib></fnt>
@@ -107,12 +106,8 @@
           <trd>de premier <ind>ordre</ind></trd>
         </trdgrp>
       </ekz>
-      <trd lng="bg">&c_k;&c_l;&c_a;&c_s;&c_i;&c_r;&c_a;</trd>
-      <trdgrp lng="ru">
-        <trd>&c_s;&c_o;&c_r;&c_t;</trd>,
-        <trd>&c_k;&c_l;&c_a;&c_s;&c_s;</trd>
-      </trdgrp>
     </dif>
+    <trd lng="bg">&c_k;&c_l;&c_a;&c_s;&c_i;&c_r;&c_a;</trd>
     <trdgrp lng="es">
       <trd>grado<klr tip="ind"> (importancia)</klr></trd>
       <trd>clase<klr tip="ind"> (importancia)</klr></trd>
@@ -126,6 +121,10 @@
       <trd>ordre<klr tip="ind"> (importance)</klr></trd>
     </trdgrp>
     <trd lng="pl">ranga</trd>
+    <trdgrp lng="ru">
+        <trd>&c_s;&c_o;&c_r;&c_t;</trd>,
+        <trd>&c_k;&c_l;&c_a;&c_s;&c_s;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="rang.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -141,12 +140,10 @@
       <fnt><bib>MatVort</bib></fnt>
       <dif>
         <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>
-        <frm am="A">A</frm> super korpo <frm am="bb
-        K"><g>K</g></frm>)</klr>
+        <frm am="A">A</frm> super korpo <frm am="bb         K"><g>K</g></frm>)</klr>
         <ref cel="dimens.0o.vektoraspaco">Dimensio</ref> de la
-        vektora subspaco de <frm am="bb
-        K"><g>K</g><sup><k>n</k></sup></frm>,
-        kiun naskas &gcirc;iaj vertikaloj; simb. <frm am='"rang" A'>rang
+        vektora subspaco de <frm am="bb         K"><g>K</g><sup><k>n</k></sup></frm>,
+        kiun naskas &gcirc;iaj vertikaloj; simb. <frm am="&quot;rang&quot; A">rang
         A</frm>.
       </dif>
       <trd lng="pl">rz&aogonek;d<klr tip="ind"> (macierzy)</klr></trd>
@@ -198,6 +195,11 @@
     <trd>hodnos&tcaron;</trd>,
     <trd>&scaron;ar&zcaron;a</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x430;&#x43D;&#x491;</trd>,
+    <trd>&#x447;&#x438;&#x43D;</trd>,
+    <trd>&#x441;&#x442;&#x443;&#x43F;&#x456;&#x43D;&#x44C;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rang.0i">
@@ -231,6 +233,11 @@
     <ind>&c_r;&c_a;&c_n;&c_g;</ind></trd>
   </trdgrp>
   <trd lng="sk">ma&tcaron; hodnos&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x443;&#x442;&#x438; &#x432; &#x440;&#x430;&#x43D;&#x491;&#x443;</trd>,
+    <trd>&#x437;&#x430;&#x439;&#x43C;&#x430;&#x442;&#x438; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x443;</trd>,
+    <trd>&#x43C;&#x430;&#x442;&#x438; &#x447;&#x438;&#x43D;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rang.0ulo">
@@ -259,7 +266,7 @@
         <fnt>
         <aut>trad. V. Lutermano</aut>
         <vrk>Le Monde Diplomatique</vrk>
-        <lok><url ref="http://eo.mondediplo.com/article1018.html">
+        <lok><url ref="&Mondediplo;article1018.html">
         2005-08</url></lok>
         </fnt>.
       </ekz>
@@ -276,6 +283,10 @@
   <trd lng="es">suboficial<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="fr">grad&eacute;<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="sk">hodnost&aacute;r</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43E;&#x432;&#x435;&#x446;&#x44C;</trd>,
+    <trd>&#x447;&#x438;&#x43D;&#x43E;&#x432;&#x43D;&#x438;&#x43A;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rang.antaux0i">
@@ -291,8 +302,7 @@
         la dominanta klaso
         <fnt>
           <aut>S. &Zcaron;i&zcaron;ek, trad. -</aut>,
-          <vrk><url
-          ref="http://eo.mondediplo.com/imprimer.php3?id_article=1664">
+          <vrk><url ref="&Mondediplo;imprimer.php3?id_article=1664">
           Por eliri el la naso</url></vrk>, 
           <lok>le Monde diplomatique, 2010-11</lok>
         </fnt>.
@@ -331,6 +341,7 @@
   <trd lng="pl">wysoko postawiony</trd>
   <trd lng="ru">&c_v;&c_y;&c_s;&c_o;&c_k;&c_o;&c_p;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_je; &c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">vysokopostaven&yacute;</trd>
+  <trd lng="uk">&#x432;&#x438;&#x441;&#x43E;&#x43A;&#x43E;&#x43F;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="rang.alt0ulo">
@@ -371,6 +382,7 @@
     </trd>
   </trdgrp>
   <trd lng="sk">hodnost&aacute;r</trd>
+  <trd lng="uk">&#x432;&#x438;&#x441;&#x43E;&#x43A;&#x43E; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43E;&#x432;&#x435;&#x446;&#x44C;</trd>
 </drv>
 
 <drv mrk="rang.dua0a">
@@ -426,12 +438,11 @@
       Doni pli altan <tld/>on, pli gravan oficon,
       <ref tip="sin" cel="promoc.0i.POL">promocii</ref>:
       <ekz>
-        la firmao <klr>...</klr> min &leftquot;<tld/>altigas&#8223; per la tasko de
+        la firmao <klr>...</klr> min &leftquot;<tld/>altigas&#x201F; per la tasko de
         voja&gcirc;agento
         <fnt>
           <aut>A. Zecchin</aut>,
-          <vrk><url
-          ref="http://www.ueci.it/eldonoj/verkoj/la_hknstsm.pdf">
+          <vrk><url ref="http://www.ueci.it/eldonoj/verkoj/la_hknstsm.pdf">
           La Homo kiu ne Sukcesis Trompi sin mem</url></vrk>,
           <lok>[2011?]</lok>
         </fnt>.
@@ -467,8 +478,7 @@
         mi &ccirc;eestis &ccirc;iujn ceremoniojn de oficiala pli<tld/>igo
         <fnt>
           <aut>&Aacute;. Uribe V&eacute;lez, trad. L. Guillermo Restrepo Rivas</aut>,
-          <vrk><url
-          ref="http://luisguillermo.com/LCA/La_celo_atingeblas.pdf">
+          <vrk><url ref="http://luisguillermo.com/LCA/La_celo_atingeblas.pdf">
           La Celo Atingeblas</url></vrk>,
           <lok>2013</lok>
         </fnt>.
@@ -496,8 +506,7 @@
         la lernantoj sentas sukceson, kiam ili <tld/>alti&gcirc;as
         <fnt>
           <aut>-</aut>,
-          <vrk><url
-          ref="http://esperanto.cri.cn/401/2008/07/02/1s82942.htm">
+          <vrk><url ref="&CRI;401/2008/07/02/1s82942.htm">
           Taekvondo fari&gcirc;is olimpika sporto</url></vrk>,
           <lok>&Ccirc;ina Radio Internacia, 2008-07-02</lok>
         </fnt>;
@@ -506,8 +515,7 @@
         li pli<tld/>i&gcirc;is regule, kaj 36-jara li fari&gcirc;is generalo
         <fnt>
           <bib>Viki</bib>,
-          <lok><url
-          ref="http://eo.wikipedia.org/wiki/Alfredo_Stroessner">
+          <lok><url ref="&Viki;/Alfredo_Stroessner">
           Alfredo Stroessner</url>, 2013-03-09</lok>
         </fnt>.
       </ekz>
@@ -534,8 +542,7 @@
         kiuj inter si estas egal<tld/>aj
         <fnt>
           <aut>A. Oberndorfer</aut>,
-          <vrk><url
-          ref="http://esperantaretradio.blogspot.fr/2013/04/lerni-la-sonojn-de-fremda-lingvo.html">
+          <vrk><url ref="http://esperantaretradio.blogspot.fr/2013/04/lerni-la-sonojn-de-fremda-lingvo.html">
           Lerni la sonojn de fremda lingvo</url></vrk>,
           <lok>Esperanta Retradio, 2013-04-07</lok>
         </fnt>.
@@ -557,6 +564,7 @@
   </trdgrp>
   <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_y;&c_j; &c_p;&c_o; &c_z;&c_v;&c_a;&c_n;&c_i;&c_ju;</trd>
   <trd lng="sk">rovnakej hodnosti</trd>
+  <trd lng="uk">&#x440;&#x456;&#x432;&#x43D;&#x438;&#x439; &#x437;&#x430; &#x440;&#x430;&#x43D;&#x491;&#x43E;&#x43C;</trd>
 </drv>
 
 <drv mrk="rang.sam0ulo">
@@ -589,6 +597,10 @@
   <trdgrp lng="sk">
     <trd>seberovn&yacute;</trd>,
     <trd>&ccaron;lovek rovnakej hodnosti</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x441;&#x43E;&#x431;&#x430; &#x442;&#x43E;&#x433;&#x43E; &#x436; &#x440;&#x430;&#x43D;&#x491;&#x443;</trd>,
+    <trd>&#x440;&#x456;&#x432;&#x43D;&#x438;&#x439; &#x437;&#x430; &#x440;&#x430;&#x43D;&#x491;&#x43E;&#x43C;</trd>
   </trdgrp>
 </drv>
 
@@ -631,10 +643,20 @@
     <trd>sans-grade</trd>
   </trdgrp>
   <trd lng="sk">jednoduch&yacute; &uacute;radn&iacute;k</trd>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x44F;&#x434;&#x43E;&#x432;&#x438;&#x439; (&#x441;&#x43E;&#x43B;&#x434;&#x430;&#x442;)</trd>,
+    <trd>&#x440;&#x44F;&#x434;&#x43E;&#x432;&#x438;&#x439; &#x43F;&#x440;&#x430;&#x446;&#x456;&#x432;&#x43D;&#x438;&#x43A;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
-$Log: rang.xml,v $
+$Log$
+versio 1.41 2022/05/04 19:19:16
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.37 2021/08/28 19:22:44
+Wolfram Diestel: shovita trd
+
 versio 1.36 2020/02/16 00:10:46
 Wolfram Diestel: formuloj per am
 
@@ -651,11 +673,5 @@ Revision 1.32  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.31  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.30  2013/12/03 20:10:13  revo
-Jeromo Vasxe: + pli~igxi/igo laux~e
-
-Revision 1.29  2013/07/25 14:10:11  revo
 -->
 </vortaro>

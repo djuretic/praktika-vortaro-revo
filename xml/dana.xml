@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: dana.xml,v 1.3 2020/01/13 19:10:17 revo Exp $">
+<art mrk="$Id: dana.xml,v 1.5 2022/03/15 15:50:54 revo Exp $">
 <kap>
   <rad>Dana</rad>/o <fnt><bib>FK</bib></fnt>
 </kap>
@@ -24,6 +23,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_D;&c_a;&c_n;&c_a;&c_j;</trd>
     <trd lng="de">Danaos</trd>
     <trd lng="el">&Delta;&alfa;&ny;&alfa;&omikron_ton;&sigma_fina;</trd>
     <trd lng="en">Danaus</trd>
@@ -33,14 +33,15 @@
     <dif>
       <ref tip="dif" cel="dana.0ino"><tld/>ino</ref>:
       <ekz>
-        se mi estus Ze&ubreve;so, <klr>[&#8230;]</klr> mi falus sur &scirc;in per
+        se mi estus Ze&ubreve;so, <klr>[&#x2026;]</klr> mi falus sur &scirc;in per
         pluvgutoj, kiel li falis sur <tld/>on
         <fnt>
           <aut>H. Sienkewicz, tr. Lidia Zamenhof</aut>:
-          <vrk>Quo vadis?</vrk>. <lok>&Ccirc;ap. 3ª</lok>
+          <vrk>Quo vadis?</vrk>. <lok>&Ccirc;ap. 3&#xAA;</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_D;&c_a;&c_n;&c_a;&c_ja;</trd>
     <trd lng="de">Dana&euml;</trd>
   </snc>
   <snc mrk="dana.0o.greko">
@@ -48,14 +49,16 @@
       <ref tip="malprt" cel="dana.0o.grekoj">Danaido<sncref/></ref>:
       <ekz>
         &jcirc;uras mi per Ze&ubreve;samato Apolo, al kiu vi pre&gcirc;as, malfermante la volon de Dio al
-        la <tld/>oj <klr>[&#8230;]</klr>
+        la <tld/>oj <klr>[&#x2026;]</klr>
         <fnt>
           <bib>FK</bib>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_d;&c_a;&c_n;&c_a;&c_je;&c_c;</trd>
     <trd lng="de">Danaer</trd>
   </snc>
+  <trd lng="uk">&#x414;&#x430;&#x43D;&#x430;&#x439;</trd>
 </drv>
 
 <!-- ne registru, ne pleh-e-igitajn nomojn (Danaa)!
@@ -79,7 +82,7 @@
         <fnt>
           <aut>Cervantes, tr. Fernando de Diego</aut>:
           <vrk>La in&gcirc;enia hidalgo don Quijote de La Mancha</vrk>.
-          <lok>Parto 1ª, &ccirc;ap. 33ª</lok>
+          <lok>Parto 1&#170;, &ccirc;ap. 33&#170;</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -97,6 +100,7 @@
       <ref tip="super" cel="grek.0o.naciano">grekoj<sncref/></ref>
       sie&gcirc;antaj Trojon &ccirc;e Homero kaj Vergilio.
     </dif>
+    <trd lng="be">&c_d;&c_a;&c_n;&c_a;&c_j;&c_c;&c_y;</trd>
     <trd lng="de">Danaer</trd>
     <trd lng="el">&Delta;&alfa;&ny;&alfa;&omikron;&jota_ton;</trd>
     <trd lng="fr">Dan&eacute;ens</trd>
@@ -106,6 +110,7 @@
     <uzo tip="fak">MIT</uzo>
     <uzo tip="stl">EVI</uzo>
     <ref tip="dif" cel="dana.0idinoj"><tld/>idinoj</ref>
+    <trd lng="be">&c_d;&c_a;&c_n;&c_a;&c_ib;&c_d;&c_y;</trd>
     <trd lng="de">Danaiden </trd>
   </snc>
 
@@ -123,11 +128,13 @@
         mitologian barelon de la <tld/>idinoj
         <fnt>
           <aut>E. Lanti</aut>:
-          <vrk><url ref="http://www.satesperanto.org/lanti/v1_03.htm">... Vivantigi Esperanton</url></vrk>
+          <vrk><url ref="http://www.satesperanto.org/lanti/v1_03.htm">... Vivantigi
+          Esperanton</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_a;&c_n;&c_a;&c_ib;&c_d;&c_y;</trd>
   <trd lng="de">Danaiden </trd>
   <trd lng="el">&Delta;&alfa;&ny;&alfa;&jota_trema_ton;&delta;&epsilon;&sigma_fina;</trd>
   <trd lng="en">Dana&iuml;des</trd>
@@ -151,6 +158,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_D;&c_a;&c_n;&c_a;&c_ja;</trd>
   <trd lng="de">Dana&euml;</trd>
   <trd lng="el">&Delta;&alfa;&ny;&alfa_ton;&eta;</trd>
   <trd lng="en">Danae</trd>
@@ -160,7 +168,10 @@
 </art>
 
 <!--
-$Log: dana.xml,v $
+$Log$
+versio 1.4 2022/02/03 09:29:38
+Dmitri Gabinski: + trd be
+
 versio 1.3 2020/01/13 19:10:17
 Wolfram Diestel: +snc FK (grekoj) kun ekz, sintakso, -~a, germ trd-oj
 

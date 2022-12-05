@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: fluid.xml,v 1.25 2021/05/13 09:59:09 revo Exp $">
+<art mrk="$Id: fluid.xml,v 1.28 2022/04/27 17:19:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fluid</rad>/a 
@@ -22,10 +21,9 @@
       </ekz>
       <ekz>
         post la norda maro estas piramida monto, ordinare kovrita de
-        <klr>[&#8230;]</klr> ne&gcirc;o sur la pinto,
+        <klr>[&#x2026;]</klr> ne&gcirc;o sur la pinto,
         <klr>[sed]</klr> subite &gcirc;i komencas fumi&gcirc;i, tremi, brui kaj
-        poste &gcirc;i sputas el si tiom da <tld/>a fajro <klr>(<ref
-        cel="laf.0o">lafo</ref>)</klr>,
+        poste &gcirc;i sputas el si tiom da <tld/>a fajro <klr>(<ref cel="laf.0o">lafo</ref>)</klr>,
         kiom da akvo posedas Nilo
         <fnt>
           <bib>Far1</bib>
@@ -34,13 +32,13 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <klr>[li]</klr> parolis pri la <klr>[&#8230;]</klr> situacio tute
+        <klr>[li]</klr> parolis pri la <klr>[&#x2026;]</klr> situacio tute
         <tld/>a, rompebla
         kaj neanta&ubreve;videbla
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.be/2005/008597.php">Pereas
+          <vrk><url ref="&Monato;/2005/008597.php">Pereas
           promesoj</url></vrk>
           <lok>2005</lok>
         </fnt>.
@@ -70,6 +68,10 @@
     <trd>plynn&yacute;</trd>,
     <trd>tekouc&iacute;</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>fluid</trd>,
+    <trd>liquid</trd>
+  </trdgrp>
   <trd lng="fr">fluide<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="hu">
     <trd>cseppfoly&oacute;s</trd>,
@@ -85,6 +87,10 @@
     <trd>&c_zh;&c_i;&c_d;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">tekut&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x435;&#x43A;&#x443;&#x447;&#x438;&#x439;</trd>,
+    <trd>&#x440;&#x456;&#x434;&#x43A;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fluid.0o">
@@ -96,12 +102,11 @@
     <dif>
       Likvo a&ubreve; gaso a&ubreve; miksa&jcirc;o de ili:
       <ekz>
-        anta&ubreve; la ekbruligado la motora <tld/>o estas miksa&jcirc;o aero&#8239;/
+        anta&ubreve; la ekbruligado la motora <tld/>o estas miksa&jcirc;o aero&#x202F;/
         fuelo
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=2954"
-              >Motoro</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2954">Motoro</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -116,6 +121,14 @@
     </dif>
   </snc>
   <trd lng="de">Fluid</trd>
+  <trdgrp lng="en">
+    <trd>fluid</trd>,
+    <trd>liquid</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x456;&#x434;&#x438;&#x43D;&#x430;</trd>,
+    <trd>&#x444;&#x43B;&#x44E;&#x457;&#x434;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fluid.0ajxo">
@@ -162,7 +175,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2006/009061.php">Faktoj
+          <vrk><url ref="&Monato;/2006/009061.php">Faktoj
           kaj famoj</url></vrk>
           <lok>2006</lok>
         </fnt>;
@@ -173,8 +186,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url
-          ref="https://www.monato.be/2007/009215.php">Malpermesoj</url></vrk>
+          <vrk><url ref="&Monato;/2007/009215.php">Malpermesoj</url></vrk>
           <lok>2007</lok>
         </fnt>.
       </ekz>
@@ -184,6 +196,10 @@
   <trd lng="be">&c_v;&c_a;&c_d;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="ca">flu&iuml;d <klr>(subst.)</klr></trd>
   <trd lng="de">Fl&uuml;ssigkeit</trd>
+  <trdgrp lng="en">
+    <trd>fluid</trd>,
+    <trd>liquid</trd>
+  </trdgrp>
   <trd lng="fr">fluide<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="hu">folyad&eacute;k</trd>  
   <trd lng="nl">vloeistof</trd>
@@ -202,6 +218,7 @@
     <trd>mok</trd>,
     <trd>tekutina</trd>
   </trdgrp>
+  <trd lng="uk">&#x440;&#x456;&#x434;&#x438;&#x43D;&#x430;</trd>
 </drv>
 
 <drv mrk="fluid.0igi">
@@ -246,6 +263,11 @@
   <trdgrp lng="de">
     <trd>verfl&uuml;ssigen</trd>,
     <trd>schmelzen</trd></trdgrp>
+  <trdgrp lng="en">
+    <trd>fluidify</trd>,
+    <trd>liquify</trd>,
+    <trd>liquefy</trd>
+  </trdgrp>
   <trd lng="fr">fluidifier</trd>
   <trdgrp lng="hu">
     <trd>cseppfoly&oacute;s&iacute;t</trd>,
@@ -256,13 +278,18 @@
     <trd>doen <ind>smelten</ind></trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_p;&c_r;&c_je;&c_v;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_mol; &c_v; &c_zh;&c_i;&c_d;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_je;&c_v;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_mol; &c_v;
+    &c_zh;&c_i;&c_d;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_t;&c_a;&c_p;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_t;&c_o;&c_p;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>rozpusti&tcaron;</trd>,
     <trd>roztopi&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x442;&#x432;&#x43E;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x432; &#x440;&#x456;&#x434;&#x438;&#x43D;&#x443;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x442;&#x43E;&#x43F;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
   </trdgrp>
 </drv>
 
@@ -300,6 +327,15 @@
     </refgrp>
   </snc>
   <trd lng="de">sich <ind>verfl&uuml;ssigen</ind></trd>
+  <trdgrp lng="en">
+    <trd>fluidify</trd>,
+    <trd>liquify</trd>,
+    <trd>liquefy</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x442;&#x432;&#x43E;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F; &#x432; &#x440;&#x456;&#x434;&#x438;&#x43D;&#x443;</trd>,
+    <trd>&#x442;&#x430;&#x43D;&#x443;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fluid.mal0igi">
@@ -316,8 +352,7 @@
         post bakado, la mal<tld/>igita gluteno prizorgas strukturtenadon
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=23203">Gluteno</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=23203">Gluteno</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -326,8 +361,7 @@
         rapidajn movadojn
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=283482"
-              >Fulmlumilo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=283482">Fulmlumilo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -336,11 +370,21 @@
     <trd>verfestigen</trd>,
     <trd><ind>erstarren</ind> lassen</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>deliquify</trd>,
+    <trd>deliquefy</trd>
+  </trdgrp>
   <trd lng="fr">figer</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2022/04/27 17:19:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.26 2022/02/06 03:41:16
+Noam Mohr: +trd en fluid-
+
 versio 1.25 2021/05/13 09:59:09
 Wolfram Diestel: kor. snc@mrk
 
@@ -357,11 +401,5 @@ Revision 1.21  2019/10/09 16:10:17  revo
 Wolfram Diestel: disigo de snc KOMUNE kaj FIZ, +~igxi, ekz-oj
 
 Revision 1.20  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.19  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2014/10/24 20:10:14  revo
 -->
 </vortaro>

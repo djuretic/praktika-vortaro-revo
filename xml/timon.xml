@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: timon.xml,v 1.15 2015/07/04 08:37:44 revo Exp $">
+<art mrk="$Id: timon.xml,v 1.17 2022/03/28 14:44:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>timon</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,16 +10,22 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="timon.0o.KOMUNE">
     <dif>
-      Longa ligna stango fiksita horizontale &ccirc;e
-      la anta&ubreve;o de veturilo kaj al kiu oni jungas la
+      Longa ligna <ref tip="super" cel="stang.0o">stango</ref> fiksita horizontale &ccirc;e
+      la anta&ubreve;o de <ref tip="malprt" cel="vetur.0ilo">veturilo</ref> kaj al kiu oni jungas la
       &ccirc;evalojn:
       <ekz>
-        <klr>...</klr> Johan' la Brava la <tld/>on prenis, /
+        li prenis la <tld/>ojn de la veturilo, kaj &scirc;ajne indiferente kaj nesuspekteme
+        forruladis &gcirc;in
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Johan' la Brava la <tld/>on prenis, /
         &Ccirc;aron kvaza&ubreve; lude el la koto trenis
         <fnt>
           <aut>S. Pet&odblac;fi, trad. K. Kalocsay</aut>,
-          <vrk><url
-          ref="http://www.egalite.hu/kalocsay/petofi/johano%20la%20brava.htm">
+          <vrk><url ref="http://www.egalite.hu/kalocsay/petofi/johano%20la%20brava.htm">
           Johano la brava</url></vrk>,
           <lok>1984</lok>
         </fnt>.
@@ -50,10 +55,17 @@
     <trd>&c_o;&c_g;&c_l;&c_o;&c_b;&c_l;&c_ja;</trd>
   </trdgrp>
   <trd lng="sk">oje</trd>
+  <trdgrp lng="uk">
+    <trd>&#x434;&#x438;&#x448;&#x435;&#x43B;&#x44C;</trd>,
+    <trd>&#x433;&#x43E;&#x43B;&#x43E;&#x431;&#x43B;&#x44F;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.16 2021/12/20 20:31:18
+Wolfram Diestel: +ekz, ref
+
 Revision 1.14  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -73,11 +85,5 @@ Revision 1.9  2004/12/02 17:31:10  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2002/09/18 16:34:37  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.7  2002/03/11 17:35:20  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/06/07 18:12:34 revo
 -->
 </vortaro>

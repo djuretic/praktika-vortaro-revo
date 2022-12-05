@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: valor.xml,v 1.94 2021/06/18 18:20:19 revo Exp $">
+<art mrk="$Id: valor.xml,v 1.140 2022/10/22 10:39:08 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>7</ofc>
   <rad>valor</rad>/i
@@ -18,11 +18,26 @@
         via hiera&ubreve;a parolado ne multe <tld/>is;
       </ekz>
       <ekz>
-        &leftquot;Ho, vi povas tuj elpensi ian fabelon!&rightquot;
-        &dash; &leftquot;Jes, sed tiaj fabeloj <klr>[&#x2026;]</klr> nenion valoras&rightquot;
+        &leftquot;ho, vi povas tuj elpensi ian fabelon!&rightquot;
+        &dash; &leftquot;jes, sed tiaj fabeloj <klr>[&#8230;]</klr> nenion valoras&rightquot;
         <fnt>
           <bib>Fab2</bib>
           <lok>Sambuka virineto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi havas la tutan mian dankemon kaj vi konvinki&gcirc;os, ke &gcirc;i ion <tld/>as
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pasporton <klr>[&#8230;]</klr> <tld/>as <klr>(<ref cel="valid.0i">validas</ref>)</klr>
+        por la da&ubreve;ro de unu monato
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Dekdu per la po&scirc;to</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -39,10 +54,7 @@
       <trd>&c_m;&c_je;&c_c;&c_mol;
       <ind>&c_z;&c_n;&c_a;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
     </trdgrp>
-    <trdgrp lng="de">
-      <trd>wert sein</trd>,
-      <trd>gelten</trd>
-    </trdgrp>
+    <trd lng="de">gelten</trd>
     <trd lng="es">valer</trd>
     <trd lng="he">&lamed;&he;&yod;&vav;&tav; &bet;&ayin;&lamed; &ayin;&resh;&fkaf;</trd>
     <trd lng="hu">&eacute;r <klr tip="ind">(vmennyit)</klr></trd>    
@@ -55,9 +67,20 @@
   </snc>
   <snc mrk="valor.0i.kompare">
     <dif>
-      Esti ju&gcirc;ata kompare kun iu a&ubreve; io:
+      Esti ju&gcirc;ata <ref cel="kompar.0i">kompare</ref> kun iu a&ubreve; io:
       <ekz>
-        Vergilio ne <tld/>as Homeron;
+        la kura&gcirc;o <tld/>as pli multe, ol la nombro
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj kolektoj da predikoj <klr>[&#8230;]</klr> kune ne <tld/>as pa&gcirc;on de Seneko
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXV</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>unu pasero alian <tld/>as</ind>
@@ -66,10 +89,25 @@
         h&uacute;sz</trd>
       </ekz>
       <ekz>
-        la sukceso ne &ccirc;iam (egal)<tld/>as la laboron;
+        lia permeso egal<tld/>as la permeson de la princo mem
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro IV</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        pli <tld/>as oro ol ar&gcirc;ento;
+        la stampiloj el plumbo <tld/>as malpli ol la kruda plumbo mem
+        <fnt>
+          <bib>KrM</bib>
+          <lok>7. Belaj Rakontoj El Trans La Montoj.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu, kiu havas nenion, scias, kion cendo <tld/>as
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 6</lok>
+        </fnt>;
       </ekz>
       <ekz>
         pli <tld/>as kontenta spirito, ol granda profito
@@ -81,10 +119,7 @@
         unu amiko malnova pli <tld/>as ol du novaj
         <fnt>
           <bib>PrV</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        pli <tld/>as io ol nenio.
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -93,8 +128,8 @@
       <trd>&c_k;&c_a;&c_sh;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
     <trdgrp lng="de">
-      <trd>f&uuml;r wert halten</trd>,
-      <trd>sch&auml;tzen</trd>
+      <trd>aufwiegen</trd>,
+      <trd><ind>gleichwertig</ind> sein</trd>
     </trdgrp>
     <trd lng="es">valorar</trd>
     <trd lng="he">&lamed;&he;&yod;&vav;&tav; &shin;&vav;&vav;&he; &ayin;&resh;&fkaf; &lamed;-</trd>
@@ -107,10 +142,34 @@
   </snc>
   <snc mrk="valor.0i.indi">
     <dif>
-      Esti ju&gcirc;ata kiel inda, merita je io:
+      Esti ju&gcirc;ata kiel <ref cel="ind.0i">inda</ref>, <ref cel="merit.0i">merita</ref> je io:
       <ekz>
-        ne <tld/>as paroli pri tio;
-      </ekz><ekz>
+        mi pensas, ke ne <tld/>as da&ubreve;rigi &ccirc;i tiun konversacion
+        <fnt>
+          <bib>ChV</bib>
+          <lok>13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne <tld/>as unu atestanto kontra&ubreve; homo en &ccirc;ia kulpo, en &ccirc;ia krimo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 19:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi konsolis min <klr>[&#8230;]</klr>, kvankam mi ne <tld/>as esti
+        egala al iu el viaj sklavinoj
+        <fnt><bib>MT</bib>, <lok>&Rut; 2:13</lok></fnt>;
+      </ekz>
+      <ekz>
+        pasis jam multe da jaroj, sed &gcirc;uste tial <tld/>as a&ubreve;skulti la historion
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &gcirc;i estis &scirc;erco, kiun ne <tld/>as
         a&ubreve;skulti
         <fnt>
@@ -119,16 +178,25 @@
         </fnt>;
       </ekz>
       <ekz>
-        vi konsolis min <klr>[...]</klr>, kvankam mi ne <tld/>as esti
-        egala al iu el viaj sklavinoj
-        <fnt><bib>MT</bib>, <lok>&Rut; 2:13</lok></fnt>;
+        e&ccirc; se li estas pekulo, li ion <tld/>as
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la profito ne <tld/>as la penojn;
+        ne <tld/>as la penon ekzameni la aferon
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        via mono ne <tld/>as la maltrankvilon, kiun &gcirc;i
-        ka&ubreve;zas al mi<fnt>B</fnt>;
+        &ccirc;u <tld/>is tiom da oferoj por atingi nur anarkion
+        <fnt>
+          <bib>FSp</bib>
+          <lok>Unua Parto: Usona Federala Sperto</lok>
+        </fnt>?
       </ekz>
       <ekz>
         la ludo kandelon ne <tld/>as
@@ -143,6 +211,12 @@
         </fnt>;
       </ekz>
       <ekz>
+        kiu nenion <tld/>as, plej multe sin gloras
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         la diablo aspektas malbele, ne pen<tld/>as lin vidi
         <fnt>
           <bib>Fab1</bib>
@@ -154,7 +228,6 @@
     <ind>&c_v;&c_a;&c_r;&c_t;&c_y;&c_m;</ind>
     </trd>
     <trdgrp lng="de">
-      <trd>wert sein</trd>,
       <trd>lohnen</trd>,
       <trd>rentieren</trd>
     </trdgrp>
@@ -174,11 +247,41 @@
       <ekz>
         tiu &scirc;tofo ne <tld/>as pli ol dek frankojn por metro
         kvankam &gcirc;i kostas duoble;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        kla&ccirc;a&jcirc;o kaj &ccirc;ikana&jcirc;o, <klr>[&#8230;]</klr> asertoj, kiuj ne <tld/>is e&ccirc; putran haringon
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu pokalo da tia nektaro ne <tld/>as du dra&hcirc;mojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili elspezas por tiu bela milito multe pli ol <tld/>as Kanado
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu societa parto nominale <tld/>as 100,00 frankojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         kio multe kostas, multe <tld/>as
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="kost.0i.EKON">kosti<sncref/></ref>
     <trdgrp lng="be">
       <trd>&c_k;&c_a;&c_sh;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_b;&c_y;&c_c;&c_mol;
@@ -186,7 +289,7 @@
       <trd>&c_m;&c_je;&c_c;&c_mol;
       <ind>&c_v;&c_a;&c_r;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>
     </trdgrp>
-    <trd lng="de">wert sein</trd>
+    <trd lng="de">kosten</trd>
     <trd lng="es">valer</trd>
     <trd lng="he">&lamed;&he;&yod;&vav;&tav; &shin;&vav;&vav;&he;</trd>
     <trd lng="hu">meg&eacute;r <klr tip="ind">(pl. p&eacute;nzt)</klr></trd>
@@ -195,7 +298,7 @@
   </snc>
   <snc mrk="valor.0i.mezure">
     <dif>
-      Esti konsiderata kiel egala je ia kvanto:
+      Esti konsiderata kiel egala je ia kvanto; <ref tip="sin" cel="valor.egal0i">egalvalori</ref>:
       <ekz>
         unu metro <tld/>as 100 centimetrojn;
       </ekz><ekz>
@@ -208,8 +311,7 @@
     </trd>
     <trdgrp lng="de">
       <trd>entsprechen</trd>,
-      <trd>sein</trd>,
-      <trd>wert sein</trd>
+      <trd><klr>(gleichwertig) </klr>sein</trd>
     </trdgrp>
     <trd lng="es">valer</trd>
     <trd lng="he">&lamed;&he;&yod;&vav;&tav; &shin;&vav;&vav;&he;</trd>
@@ -228,6 +330,7 @@
     <trd>platit</trd>,
     <trd>st&aacute;t za n&ecaron;co</trd>
   </trdgrp>
+  <trd lng="de"><ind>wert</ind> sein</trd>
   <trd lng="en">worth</trd>
   <trd lng="fr">valoir</trd>
   <trd lng="nl">waard zijn</trd>
@@ -237,6 +340,16 @@
     <trd>ma&tcaron; hodnotu</trd>
   </trdgrp>
   <trd lng="tr">de&gbreve;mek<klr>(de&gbreve;er)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_c;&c_ib;&c_n;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_b;&c_u;&c_t;&c_i; &c_v;&c_a;&c_r;&c_t;&c_i;&c_m;</trd>,
+    <trd>&c_k;&c_o;&c_sh;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_l;&c_u;&c_g;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_o;&c_r;&c_ib;&c_v;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="valor.0o">
@@ -250,28 +363,81 @@
         kaj tiamaniere neniu verko Esperanta e&ccirc; el la plej frua tempo
         iam perdos sian <tld/>on kaj kompreneblecon
         <fnt><bib>F</bib>, <lok>anta&ubreve;parolo</lok></fnt>
-      </ekz><ekz>
-        kia estas via laboro tia estas via <tld/>o
-        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        la konsiloj de A&hcirc;itofel <klr>[&#8230;]</klr> havis tian <tld/>on, kiel se oni demandus
+        la decidon de Dio
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 16:23</lok>
+        </fnt>;
       </ekz><ekz>
         se iu trovis kapablan edzinon, &scirc;ia <tld/>o estas pli
         granda ol perloj
         <fnt><bib>MT</bib>, <lok>&Sen; 31:10</lok></fnt>;
-      </ekz><ekz>
-        scienculo de alta <tld/>o;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         esploradi la komparan <tld/>on de &ccirc;iuj religioj
         <fnt>
           <bib>Homaranismo</bib>
           <vrk>Pri la homaranismo</vrk>
         </fnt>;
-      </ekz><ekz>
-        amba&ubreve; floroj de samaj <tld/>oj
+      </ekz>
+      <ekz>
+        pre&gcirc;oj ja &ccirc;iam havis por vi nenian <tld/>on
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia vo&ccirc;o havis grandan <tld/>on &ccirc;e la eldonisto
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj objektoj <klr>[&#8230;]</klr> forprenataj de &scirc;i, havis por &scirc;i <tld/>on ne sole
+        materialan <klr>[ili estis la]</klr> mutaj atestantoj de perdita feli&ccirc;o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        finfine oni rekonas la <tld/>on de lia talento
+        <fnt>
+          <bib>ChV</bib>
+          <lok>13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eble mia rimarko havos neniun <tld/>on
+        <fnt>
+          <bib>ChR</bib>
+          <lok>ABZ de murdo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kia estas via laboro tia estas via <tld/>o
         <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        tiu argumento nenion perdis el sia <tld/>o;
-      </ekz><ekz>
-        koni la <tld/>on de la vortoj.
+      </ekz>
+      <ekz>
+        popola kutimo havas <tld/>on de le&gcirc;o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sub tero sklavo kaj sinjoro ne diferencas per <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni batas la oron, por provi &gcirc;ian <tld/>on
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -289,11 +455,33 @@
     <dif>
       Grado de taksebleco; sumo, je kiu io estas mone taksata:
       <ekz>
-        la oro havas neniun <tld/>on en la dezerto<fnt>B</fnt>;
-      </ekz><ekz>
-        la <tld/>o de tiu varo malalti&gcirc;is en la lastaj
-        monatoj;
-      </ekz><ekz>
+        monpaperoj de diversa <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vir&scirc;afo <klr>[&#8230;]</klr> havanta la&ubreve; via taksado la <tld/>on de du sikloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 5:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li pagu, kaj li aldonu kvinonon de &gcirc;ia <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 5:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la entrepreno estas finance tre sana, la <tld/>o de la akcioj rapide realti&gcirc;os
+        <fnt>
+          <bib>ChR</bib>
+          <lok>Tri estas tro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la prezo de tiu ma&scirc;ino estas de 2000 markoj,
         sed &gcirc;ia vera <tld/>o ne superas 500.
       </ekz>
@@ -317,6 +505,29 @@
     <dif>
       Tio, kion homoj ju&gcirc;as morale a&ubreve; estetike grava:
       <ekz>
+        urbo de grandaj spiritaj <tld/>oj kaj brilaj kulturaj tradicioj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Aldono</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &scirc;an&gcirc;o <klr>[&#8230;]</klr> prezentus kripligon de la interna <tld/>o de la lingvo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en
+           Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu lingvo <klr>[&#8230;]</klr> havas instituciojn, kiuj flegas la malnovajn kulturajn
+        <tld/>ojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la&ubreve; ili, <ctl>la <tld/>oj de la Unio inkludas la <tld/>ojn
         de tiuj, kiuj kredas je Dio kiel fonto de la vero, justo,
         bono kaj belo, same kiel la <tld/>ojn de homoj, kiuj ne
@@ -324,8 +535,8 @@
         <tld/>ojn kiel ali-fontajn</ctl>
         <fnt>
           <aut>Istvan Ertl</aut>:
-          <vrk>Dio en la konstitucio, diablo en la detaloj</vrk>.
-          <bib>Monato</bib>.
+          <vrk>Dio en la konstitucio, diablo en la detaloj</vrk>,
+          <bib>Monato</bib>
         </fnt>.
       </ekz>
     </dif>
@@ -333,21 +544,26 @@
   </snc>
   <snc mrk="valor.0o.ajxo">
     <dif>
-      Io iel <tld/>anta:
+      Io iel <tld/>anta; <ref tip="sin" cel="valor.0ajxo"><tld/>a&jcirc;o</ref>:
+      <ekz>
+        li estis <tld/>o por la gazeto, ni &scirc;uldas al li kreskon de la eldonnombro
+        <fnt>
+          <bib>ChV</bib>
+          <lok>12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        temp' estas <tld/>o simile al oro
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         en malfacila horo e&ccirc; gro&scirc;' estas <tld/>o
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        ni devas klopodi, ke la veraj <tld/>oj de tiu nacio estu
-        konigataj al la mondo;
-      </ekz><ekz>
-        <ind><tld/>papero</ind>.
-        <trd lng="be">&c_k;&c_a;&c_sh;&c_t;&c_o;&c_w;&c_n;&c_a;&c_ja;
-        <ind>&c_p;&c_a;&c_p;&c_je;&c_r;&c_a;</ind></trd>
-        <trd lng="hu">&eacute;rt&eacute;kpap&iacute;r</trd>
-        <trd lng="ru">&c_c;&c_je;&c_n;&c_n;&c_a;&c_ja; &c_b;&c_u;&c_m;&c_a;&c_g;&c_a;</trd>
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="paper.0o.dokumento"><tld/>papero</ref>
     <trd lng="be">&c_k;&c_a;&c_sh;&c_t;&c_o;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
     <trd lng="ru">&c_c;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
@@ -370,11 +586,11 @@
     <trd lng="ru">&c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
   <trd lng="af">waarde</trd>
-  <trd lng="am">&#x12A5;&#x1234;&#x1275;</trd>
-  <trd lng="ar">&#x642;&#x64A;&#x645;&#x629;</trd>
-  <trd lng="az">d&#x259;y&#x259;ri</trd>
-  <trd lng="bn">&#x9AE;&#x9C2;&#x9B2;&#x9CD;&#x9AF;</trd>
-  <trd lng="bo">&#xF42;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="am">&#4773;&#4660;&#4725;</trd>
+  <trd lng="ar">&a_q;&a_y;&a_m;&a_t_marbuta;</trd>
+  <trd lng="az">d&#601;y&#601;ri</trd>
+  <trd lng="bn">&#2478;&#2498;&#2482;&#2509;&#2479;</trd>
+  <trd lng="bo">&t_ga;&t_naro;&t_nga;&t_tsheg;</trd>
   <trd lng="bs">vrijednost</trd>
   <trd lng="co">valuri</trd>
   <trdgrp lng="cs">
@@ -384,53 +600,85 @@
     <trd>vnit&rcaron;n&iacute; hodnota</trd>,
     <trd>v&yacute;znam</trd>
   </trdgrp>
-  <trd lng="da">v&#xE6;rdi</trd>
+  <trd lng="cy">gwerth</trd>
+  <trd lng="da">v&aelig;rdi</trd>
   <trd lng="de">Wert</trd>
   <trd lng="en">value</trd>
   <trd lng="es">valor</trd>
-  <trd lng="et">v&#xE4;&#xE4;rtus</trd>
+  <trd lng="et">v&auml;&auml;rtus</trd>
   <trd lng="eu">balio</trd>
   <trd lng="fr">valeur</trd>
   <trd lng="fy">wearde</trd>
+  <trd lng="ga">luach</trd>
+  <trd lng="gd">luach</trd>
   <trd lng="gl">valor</trd>
-  <trd lng="gu">&#xA95;&#xABF;&#xA82;&#xAAE;&#xAA4;</trd>
+  <trd lng="gu">&#2709;&#2751;&#2690;&#2734;&#2724;</trd>
   <trd lng="ha">darajar</trd>
   <trd lng="he">&ayin;&resh;&fkaf;</trd>
-  <trd lng="hi">&#x92E;&#x942;&#x932;&#x94D;&#x92F;</trd>
+  <trd lng="hi">&#2350;&#2370;&#2354;&#2381;&#2351;</trd>
+  <trd lng="hmn">nqi</trd>
   <trd lng="hr">vrijednost</trd>
+  <trd lng="ht">val&egrave;</trd>
   <trd lng="hu">&eacute;rt&eacute;k</trd>
-  <trd lng="hy">&#x561;&#x580;&#x56A;&#x565;&#x584;</trd>
+  <trd lng="hy">&#1377;&#1408;&#1386;&#1381;&#1412;</trd>
+  <trd lng="ig">uru</trd>
   <trd lng="is">gildi</trd>
-  <trd lng="ja">&#x5024;</trd>
-  <trd lng="jw">nilai</trd>
-  <trd lng="ka">&#x10D0;&#x10E0;&#x10EA;</trd>
-  <trd lng="km">&#x178F;&#x1798;&#x17D2;&#x179B;&#x17C3;</trd>
-  <trd lng="ko">&#xAC12;</trd>
-  <trd lng="lo">&#xEA1;&#xEB9;&#xE99;&#xE84;&#xEC8;&#xEB2;</trd>
-  <trd lng="ml">&#xD35;&#xD3F;&#xD32;</trd>
-  <trd lng="mr">&#x92E;&#x942;&#x932;&#x94D;&#x92F;</trd>
-  <trd lng="my">&#x1021;&#x1018;&#x102D;&#x102F;&#x1038;</trd>
-  <trd lng="ne">&#x92E;&#x942;&#x932;&#x94D;&#x92F;</trd>
+  <trd lng="ja">&#20516;</trd>
+  <trd lng="jv">nilai</trd>
+  <trd lng="ka">&#4304;&#4320;&#4330;</trd>
+  <trd lng="kk">&#1179;&#1201;&c_n;</trd>
+  <trd lng="km">&#6031;&#6040;&#6098;&#6043;&#6083;</trd>
+  <trd lng="kn">&#3246;&#3276;&#3250;&#3277;&#3247;</trd>
+  <trd lng="ko">&#44050;</trd>
+  <trd lng="ku">giran&icirc;</trd>
+  <trd lng="ky">&c_N;&c_a;&c_r;&c_k;&c_y;</trd>
+  <trd lng="lo">&#3745;&#3769;&#3737;&#3716;&#3784;&#3762;</trd>
+  <trd lng="lt">vert&#279;</trd>
+  <trd lng="lv">v&#5603;rt&#5627;ba</trd>
+  <trd lng="mg">danja</trd>
+  <trd lng="mi">uara</trd>
+  <trd lng="mk">&c_v;&c_r;&c_je;&c_d;&c_n;&c_o;&c_s;&c_t;</trd>
+  <trd lng="ml">&#3381;&#3391;&#3378;</trd>
+  <trd lng="mn">&#1199;&c_n;&c_e; &c_c;&c_e;&c_n;&c_e;</trd>
+  <trd lng="mr">&#2350;&#2370;&#2354;&#2381;&#2351;</trd>
+  <trd lng="ms">nilai</trd>
+  <trd lng="mt">valur</trd>
+  <trd lng="my">&#4129;&#4120;&#4141;&#4143;&#4152;</trd>
+  <trd lng="ne">&#2350;&#2370;&#2354;&#2381;&#2351;</trd>
   <trd lng="nl">waarde</trd>
   <trd lng="ny">phindu</trd>
-  <trd lng="pa">&#xA2E;&#xA41;&#xA71;&#xA32; &#xA28;&#xA42;&#xA70;</trd>
-  <trd lng="ps">&#x627;&#x631;&#x632;&#x69A;&#x62A;</trd>
+  <trd lng="pa">&#2606;&#2625;&#2673;&#2610; &#2600;&#2626;&#2672;</trd>
+  <trd lng="ps">&a_A;&a_r;&a_z;&#1690;&a_t;</trd>
   <trd lng="pt">valor</trd>
-  <trd lng="sd">&#x642;&#x62F;&#x631;</trd>
-  <trd lng="si">&#xDC0;&#xDA7;&#xDD2;&#xDB1;&#xDCF;&#xD9A;&#xDB8;</trd>
+  <trd lng="rw">agaciro</trd>
+  <trd lng="sd">&a_q;&a_d;&a_r;</trd>
+  <trd lng="si">&#3520;&#3495;&#3538;&#3505;&#3535;&#3482;&#3512;</trd>
   <trdgrp lng="sk">
     <trd>cena</trd>,
     <trd>hodnota</trd>
   </trdgrp>
+  <trd lng="sl">vrednost</trd>
+  <trd lng="sm">t&#5585;ua</trd>
+  <trd lng="sn">ukoshi</trd>
+  <trd lng="so">qiimaha</trd>
   <trd lng="sq">vlera</trd>
-  <trd lng="ta">&#xBAE;&#xBA4;&#xBBF;&#xBAA;&#xBCD;&#xBAA;&#xBC1;</trd>
-  <trd lng="te">&#xC35;&#xC3F;&#xC32;&#xC41;&#xC35;</trd>
-  <trd lng="th">&#xE21;&#xE39;&#xE25;&#xE04;&#xE48;&#xE32;</trd>
+  <trd lng="st">bohlokoa</trd>
+  <trd lng="su">nilai</trd>
+  <trd lng="sw">thamani</trd>
+  <trd lng="ta">&#2990;&#2980;&#3007;&#2986;&#3021;&#2986;&#3009;</trd>
+  <trd lng="te">&#3125;&#3135;&#3122;&#3137;&#3125;</trd>
+  <trd lng="tg">&c_a;&c_r;&c_z;&c_i;&c_sh;&c_i;</trd>
+  <trd lng="th">&#3617;&#3641;&#3621;&#3588;&#3656;&#3634;</trd>
   <trd lng="tl">halaga</trd>
   <trd lng="tr">de&gbreve;er</trd>
-  <trd lng="ur">&#x642;&#x6CC;&#x645;&#x62A;</trd>
-  <trd lng="vi">gi&#xE1; tr&#x1ECB;</trd>
-  <trd lng="yi">&#x5D5;&#x5D5;&#x5E2;&#x5E8;&#x5D8;</trd>
+  <trd lng="tt">&c_k;&c_y;&c_j;&c_m;&c_m;&#1241;&c_t;</trd>
+  <trd lng="uk">&c_n;&c_a;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
+  <trd lng="ur">&a_q;&f_y;&a_m;&a_t;</trd>
+  <trd lng="uz">qiymati</trd>
+  <trd lng="vi">gi&aacute; tr&#7883;</trd>
+  <trd lng="xh">ixabiso</trd>
+  <trd lng="yi">&vav;&vav;&ayin;&resh;&tet;</trd>
+  <trd lng="yo">iye</trd>
   <trd lng="zu">azisa</trd>
 </drv>
 
@@ -471,7 +719,7 @@
   </snc>
   <snc mrk="valor.0a.altvalora">
     <dif>
-      <ref tip="dif" cel="valor.grand0a">Grand<tld/>a</ref>:
+      <ref tip="dif" cel="valor.alt0a">Grand<tld/>a</ref>:
       <ekz>
         tre <tld/>a trezora&jcirc;o
         <fnt>
@@ -488,7 +736,7 @@
     <trd>&c_k;&c_a;&c_sh;&c_t;&c_o;&c_w;&c_n;&c_y;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_ch;&c_n;&c_y;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF51;&#xF40;&#xF7C;&#xF53;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_ka;&t_naro;&t_na;&t_tsheg;&t_pa;&t_naro;&t_tsheg;</trd>
   <trdgrp lng="br">
     <trd>talvoudek</trd>,
     <trd>talvoudus</trd>
@@ -518,6 +766,10 @@
     <trd>hodnotn&yacute;</trd>
   </trdgrp>
   <trd lng="tr">de&gbreve;erli<klr>(e&scedil;ya)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&c_c;&c_ib;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_k;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="valor.0ajxo">
@@ -566,66 +818,34 @@
 </drv>
 
 <drv mrk="valor.alt0a">
-  <kap>alt<tld/>a</kap>
-  <snc>
+  <kap>alt<tld/>a,
+  <var><kap>grand<tld/>a</kap></var></kap>
+  <snc mrk="valor.alt0a.KOMUNE">
     <dif>
-      <ref tip="dif" cel="valor.grand0a">Grand<tld/>a</ref>:
+      Havanta altan, grandan <tld/>on:
       <ekz>
         ornamita per oro kaj alt<tld/>aj &scirc;tonoj kaj perloj
         <fnt>
           <bib>NT</bib>
-          <lok>Apokalipso 17:4</lok>
+          <lok>&Apo; 17:4</lok>
         </fnt>;
       </ekz>
       <ekz>
         ni ne perdu alt<tld/>an tempon, sinjoroj
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 20a, Lemuel faras
-        eltrovon</lok></fnt>;
+        <fnt><bib>I&scirc;tar</bib> <lok>&ccirc;apitro 20a</lok></fnt>;
       </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_k;&c_a;&c_sh;&c_t;&c_o;&c_w;&c_n;&c_y;</trd>
-  <trd lng="br">a dalvoudegezh vras</trd>
-  <trdgrp lng="cs">
-    <trd>cenn&yacute;</trd>,
-    <trd>hodnotn&yacute;</trd>,
-    <trd>vysoce hodnotn&yacute;</trd>
-  </trdgrp>
-  <trd lng="de">wertvoll</trd>
-  <trd lng="es">valioso</trd>
-  <trd lng="fr">pr&eacute;cieux</trd>
-  <trdgrp lng="he">
-    <trd>&resh;&bet; &ayin;&resh;&fkaf;</trd>,
-    <trd>&yod;&qof;&resh; &ayin;&resh;&fkaf;</trd>
-  </trdgrp>
-  <trd lng="hu">nagy <ind>&eacute;rt&eacute;k&udblac;</ind></trd>
-  <trd lng="nl">waardevol</trd>
-  <trdgrp lng="pt">
-   <trd>valioso</trd>, 
-   <trd>precioso</trd>
-  </trdgrp>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">vysokohodnotn&yacute;</trd>
-  <trd lng="tr">&ccedil;ok de&gbreve;erli</trd>
-</drv>
-
-<drv mrk="valor.grand0a">
-  <kap>grand<tld/>a</kap>
-  <snc>
-    <dif>
-      Havanta grandan <tld/>on:
       <ekz>
         kiel grand<tld/>a estas Via favoro, ho Dio
         <fnt>
           <bib>MT</bib>
-          <lok>Psalmaro 36:7</lok>
+          <lok>&Psa; 36:7</lok>
         </fnt>!
       </ekz>
       <ekz>
         ili fordonas siajn grand<tld/>a&jcirc;ojn pro man&gcirc;a&jcirc;o
         <fnt>
           <bib>MT</bib>
-          <lok>Plorkanto 1:11</lok>
+          <lok>&Plo; 1:11</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -656,7 +876,7 @@
   <trd lng="hu">nagy <ind>&eacute;rt&eacute;k&udblac;</ind></trd>
   <trd lng="nl">waardevol</trd>
   <trdgrp lng="pt">
-   <trd>valioso</trd>,
+   <trd>valioso</trd>, 
    <trd>precioso</trd>
   </trdgrp>
   <trd lng="ru">&c_c;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
@@ -664,6 +884,183 @@
     <trd>ve&lcaron;kej hodnoty</trd>,
     <trd>vysokohodnotn&yacute;</trd>
   </trdgrp>
+  <trd lng="tr">&ccedil;ok de&gbreve;erli</trd>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_o;&c_r;&c_o;&c_g;&c_o;&c_c;&c_ib;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_k;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+</drv>
+
+
+<drv mrk="valor.egal0a">
+  <kap>egal<tld/>a, <var><kap>sam<tld/>a</kap></var></kap>
+  <snc mrk="valor.egal0a.KOMUNE">
+    <dif>
+      Havanta saman <tld/>on kiel...:
+      <ekz>
+        <klr>[ili]</klr> estis dividitaj la&ubreve; du egal<tld/>aj partoj, kaj lotitaj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj homoj estas ja egal<tld/>aj, kaj &ccirc;iuj metioj kaj oficoj estas same &scirc;atindaj
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni ricevos lignon de la segejo, se ni kontrakte promesas liveri al li sam<tld/>an kvanton 
+        da trunkoj
+        vintro
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por tiu &ccirc;i plezuro ja oni pagas kotizon, iufoje egal<tld/>an al la monata
+        salajro
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>!
+      </ekz>
+      <ekz>
+        ofte la homoj supozas, ke &leftquot;spirita&#8221; kaj &leftquot;religia&#8221; estas
+        sam<tld/>aj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. H. Simcock</aut>
+          <vrk><url ref="&Monato;/2007/009197.php">Kio estas spiriteco?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la IRK restis &ccirc;iam validaj kaj &ccirc;ie estis proksimume sam<tld/>aj
+        (nome afranko de internacia letero)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2007/009087.php">Internaciaj respondkuponoj: &ccirc;u fino
+              alproksimi&gcirc;as?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_w;&c_n;&c_a;&c_c;&c_e;&c_n;&c_n;&c_y;</trd>,
+    <trd>&c_r;&c_a;&c_w;&c_n;&c_a;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="br">
+    <trd>kendalvoud</trd>,
+    <trd>kenkoulz</trd>
+  </trdgrp>
+  <trd lng="cs">rovnocenn&yacute;</trd>
+  <trd lng="de">gleichwertig</trd>
+  <trd lng="es">equivalente</trd>
+  <trd lng="fr">&eacute;quivalent</trd>
+  <trd lng="he">&shin;&vav;&vav;&he; &ayin;&resh;&fkaf;</trd>
+  <trd lng="hu">egyen&eacute;rt&eacute;k&udblac;</trd>
+  <trd lng="nl">gelijkwaardig</trd>
+  <trd lng="pt">equivalente</trd>
+  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_c;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">rovnocenn&yacute;</trd>
+  <trd lng="tr">e&scedil;de&gbreve;er</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_ib;&c_v;&c_n;&c_o;&c_c;&c_ib;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_d;&c_n;&c_a;&c_k;&c_o;&c_v;&c_i;&c_j; &c_z;&c_a; &c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_ju;</trd>,
+    <trd>&c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_n;&c_ja;&c_m;</trd>,
+    <trd>&c_je;&c_k;&c_v;&c_ib;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="valor.egal0i">
+  <kap>
+    egal<tld/>i, <var><kap>sam<tld/>i</kap></var>
+  </kap>
+  <snc mrk="valor.egal0i.KOMUNE">
+    <dif>
+      Havi saman <tld/>on kiel...:
+      <ekz>
+        duonkrono egal<tld/>as al du &scirc;ilingoj kaj ses pencoj
+        <fnt>
+          <bib>KrM</bib>
+          <lok>22. Per Lerta Admono Alfluas La Mono.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sian ha&ubreve;ton <klr>[li]</klr> riskis nur kiam la premio egal<tld/>is la laboron
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ricevi de ili rideton a&ubreve; afablan rigardon, egal<tld/>is multan &gcirc;enon
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        1,5 miliardoj da levoj egal<tld/>as al 3&#8239;% de la malneta enlanda produkto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dimitar Ha&gcirc;iev</aut>
+          <vrk><url ref="https://www.monato.be/2009/009875.php"
+              >Obstrukco de la surstrata cirkulado</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj lingvoj sam<tld/>as
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="https://legacy.esperanto.org.uk/lbe/arkivo/982/09.html">&Ccirc;iuj lingvoj
+          samvaloras</url></vrk>
+          <lok>La Brita Esperantisto, 2017, printempo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 4 monatoj, &Ccirc;inio reduktis siajn CO2-emisiojn, kio sam<tld/>as al tiuj
+        produktitaj de Britio en la sama periodo
+        <fnt>
+          <aut>M. Ramirez</aut>
+          <vrk><url
+          ref="https://www.renovablesverdes.com/eo/En-4-monatoj%2C-%C4%88inio-reduktis-siajn-CO2-emisiojn%2C-kio-samvaloras-al-tiuj-produktitaj-de-Britio-en-la-sama-periodo./">En
+          4 monatoj...</url></vrk>
+          <lok>VerdajRenovigeblaj, [vidita en 2021]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu numero de la gazeto sam<tld/>as kiel 2 trambiletoj
+        <fnt>
+          <aut>Szilvasi L.</aut>
+          <vrk><url ref="http://www.eventoj.hu/arkivo/eve-041.htm">Titolpa&gcirc;e</url></vrk>
+          <lok>Eventoj 1993-11-01 (41)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Kaj se vi decidis tiel, estu, kiel vi ordonas: &#11005; Estas bona la re&gcirc;ino, kiu sunon
+        sam<tld/>as
+        <fnt>
+          <aut>&Scirc;. Rustaveli, trad. Z. Maka&scirc;vili</aut>
+          <vrk><url ref="https://uea.org/vikio/Kavaliro_en_tigra_felo_1">Kavaliro en Tigra
+          Felo</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    &leftquot;Egal<tld/>a&rightquot; &scirc;ajnas esprimo preferinda al &leftquot;sam<tld/>a&rightquot;, &ccirc;ar &leftquot;sama&rightquot; esprimas
+    identecon a&ubreve; nedistingeblecon de du aferoj, dum &ccirc;ie tie temas pri <tld/>o mezure <em>egala</em>
+    al alia 
+    per komparo.
+  </rim>
+  <trd lng="de">gleichviel <ind>wert</ind> sein</trd>
+  <trd lng="fr">&ecirc;tre <ind>&eacute;quivalent</ind> &agrave;</trd>
 </drv>
 
 <drv mrk="valor.intersxangx0o">
@@ -689,13 +1086,40 @@
   <trd lng="nl">ruilwaarde</trd>
   <trd lng="pt">valor de troca</trd>
   <trd lng="ru">&c_m;&c_je;&c_n;&c_o;&c_v;&c_a;&c_ja; <ind>&c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
+  <trd lng="uk">&c_m;&c_ib;&c_n;&c_o;&c_v;&c_a; &c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>
+</drv>
+
+<drv mrk="valor.lim0o">
+  <kap>
+    lim<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="V"/>o kiu difinas limon matematikan, fizikan, le&gcirc;an kc:
+      <ekz>
+        koncerne la altfrekvencajn elektro-magnetajn kampojn, la lim<tld/>oj de elmeti&gcirc;o
+        estas duoble pli altaj ol tiuj aplikeblaj al la publiko
+        <fnt>
+          <bib>MD17</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="interv.0o.MAT">intervalo<sncref/></ref>,
+      <ref cel="limes.0o">limeso</ref>,
+      <ref cel="limit.0o">limito</ref>,
+      <ref cel="norm.0o.TEK">normo<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">Grenzwert</trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_n;&c_je; &c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="valor.mult0a">
   <kap>mult<tld/>a, <var><kap>multe<tld/>a</kap></var></kap>
   <snc>
     <dif>
-      <ref tip="dif" cel="valor.grand0a">Grand<tld/>a</ref>:
+      <ref tip="dif" cel="valor.alt0a">Grand<tld/>a</ref>:
       <ekz>
         trovinte unu multe<tld/>an perlon, li iris kaj vendis &ccirc;ion, kion
         li posedis, kaj a&ccirc;etis &gcirc;in
@@ -705,7 +1129,7 @@
         bu&scirc;o prudenta estas multe<tld/>a ilo
         <fnt>
           <bib>MT</bib>
-          <lok>Sentencoj 20:15</lok>
+          <lok>&Sen; 20:15</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -721,7 +1145,7 @@
         &gcirc;i estas flava, peza; ne rustas, jen &ccirc;io
         <fnt>
           <bib>Far2</bib>
-          <lok>&Ccirc;apitro III</lok>
+          <lok>&ccirc;apitro 3a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -752,58 +1176,12 @@
     <trd>hodnotn&yacute;</trd>,
     <trd>vysoko hodnotn&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_o;&c_r;&c_o;&c_g;&c_o;&c_c;&c_ib;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_k;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="valor.sam0a">
-  <kap>sam<tld/>a</kap>
-  <snc>
-    <dif>
-      Havanta saman <tld/>on kiel:
-      <ekz>
-        sam<tld/>aj esprimoj;
-      </ekz>
-      <ekz>
-        ofte la homoj supozas, ke &leftquot;spirita&#x201D; kaj &leftquot;religia&#x201D; estas
-        sam<tld/>aj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>W. H. Simcock</aut>
-          <vrk><url ref="&Monato;/2007/009197.php">Kio estas spiriteco?</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la IRK restis &ccirc;iam validaj kaj &ccirc;ie estis proksimume sam<tld/>aj
-        (nome afranko de
-        internacia letero)
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Monato;/2007/009087.php">Internaciaj respondkuponoj: &ccirc;u fino
-              alproksimi&gcirc;as?</url></vrk>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_r;&c_a;&c_w;&c_n;&c_a;&c_c;&c_e;&c_n;&c_n;&c_y;</trd>,
-    <trd>&c_r;&c_a;&c_w;&c_n;&c_a;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_y;</trd>
-  </trdgrp>
-  <trdgrp lng="br">
-    <trd>kendalvoud</trd>,
-    <trd>kenkoulz</trd>
-  </trdgrp>
-  <trd lng="cs">rovnocenn&yacute;</trd>
-  <trd lng="de">gleichwertig</trd>
-  <trd lng="es">equivalente</trd>
-  <trd lng="fr">&eacute;quivalent</trd>
-  <trd lng="he">&shin;&vav;&vav;&he; &ayin;&resh;&fkaf;</trd>
-  <trd lng="hu">egyen&eacute;rt&eacute;k&udblac;</trd>
-  <trd lng="nl">gelijkwaardig</trd>
-  <trd lng="pt">equivalente</trd>
-  <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_c;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">rovnocenn&yacute;</trd>
-  <trd lng="tr">e&scedil;de&gbreve;er</trd>
-</drv>
 
 <drv mrk="valor.sen0a">
   <kap>sen<tld/>a</kap>
@@ -811,6 +1189,13 @@
     <dif>
       Havanta neniun <tld/>on,
       <ref tip="vid" cel="signif.sen0a.FIG">sensignifa<sncref/></ref>:
+      <ekz>
+        &ccirc;ion sen<tld/>an kaj neakceptindan ili ekstermis
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 15:9</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         literature sen<tld/>aj romanoj
         <fnt><bib>Plumamikoj</bib>, <lok>la esperanta verkisto: izolo,
@@ -824,7 +1209,30 @@
           <trd>rien-du-tout</trd>
         </trdgrp>
         <trd lng="hu">senkih&aacute;zi</trd>
-        <fnt><bib>Revizoro</bib>, <lok>akto 5a, sceno 7a</lok></fnt>.
+        <fnt><bib>Revizoro</bib>, <lok>akto 5a, sceno 7a</lok></fnt>;
+      </ekz>
+      <ekz>
+        kun kia humila timo <klr>[li]</klr> etendadas al mi nun sian sen<tld/>an
+        brokanta&jcirc;on
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deksepa &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        do la arto &scirc;ajnas al vi tute sen<tld/>a
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>VI</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        <klr>[tia]</klr> decido restu praktike absolute sen<tld/>a
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto
+          1910</vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -858,6 +1266,12 @@
     <trd>nehodnotn&yacute;</trd>
   </trdgrp>
   <trd lng="tr">de&gbreve;ersiz</trd>
+  <trdgrp lng="uk">
+    <trd>&c_b;&c_je;&c_z;&c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_p;&c_o;&c_z;&c_b;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_j; &c_v;&c_a;&c_r;&c_t;&c_o;&c_s;&c_t;&c_ib;</trd>,
+    <trd>&c_c;&c_ib;&c_n;&c_n;&c_o;&c_s;&c_t;&c_ib;</trd>,
+    <trd>&c_n;&c_ib;&c_ch;&c_o;&c_g;&c_o; &c_n;&c_je; &c_v;&c_a;&c_r;&c_t;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="valor.sen0ajxo">
@@ -870,10 +1284,37 @@
       <ref tip="vid" cel="bagate.0o">bagatelo</ref>,
       sensignifa&jcirc;o:
       <ekz>
-        &ccirc;iuj nacioj <klr>[&#x2026;]</klr> estas rigardataj de Li kiel nulo kaj sen<tld/>a&jcirc;o
+        el sen<tld/>a&jcirc;o vi eltiros la <tld/>a&jcirc;on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 15:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj nacioj <klr>[&#8230;]</klr> estas rigardataj de Li kiel nulo kaj sen<tld/>a&jcirc;o
         <fnt>
           <bib>MT</bib>
           <lok>&Jes;, 40:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia persono estas sen<tld/>a&jcirc;o, en kiu mia individueco ne havas motivon por esti
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio estis efektiva sen<tld/>a&jcirc;o, precipe la du malnovaj portretoj
+        <fnt>
+          <bib>Fab3</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lasu tiujn sen<tld/>a&jcirc;ojn, kaj venu helpi min
+        <fnt>
+          <bib>StU</bib>
+          <lok>La Nazaretanoj</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -892,6 +1333,10 @@
     <trd>kacat</trd>,
     <trd>&eacute;rt&eacute;ktelen holmi</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_p;&c_o;&c_t;&c_r;&c_ib;&c_b;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_n;. &c_m;&c_a;&c_k;&c_u;&c_l;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="valor.sen0igi">
@@ -902,11 +1347,59 @@
   <snc mrk="valor.sen0igi.KOMUNE">
     <dif>
       Senigi je <tld/>o,
-      <ref tip="vid" cel="van.0igi">vanigi</ref>:
+      <ref cel="van.0igi">vanigi</ref>:
+      <ekz>
+        &ccirc;u vi volas sen<tld/>igi Mian verdikton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 40:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj &scirc;an&gcirc;oj <klr>[&#8230;]</klr> sen<tld/>igos tion, kion ni &gcirc;is nun faris
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto
+          1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu devas iam havi la rajton sen<tld/>igi ion, kio trovi&gcirc;as en la Fundamento
+        <fnt>
+          <bib>LR</bib>
+          <lok>Tria Parto &ndash; Jurisprudenco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nova eldono sen<tld/>igis la malnovan
+        <fnt>
+          <bib>LR</bib>
+          <lok>Tria Parto &ndash; Jurisprudenco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li faras tri bazajn metodologiajn erarojn, kiuj iom sen<tld/>igas la tuton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov </aut>
+          <vrk><url ref="https://www.monato.be/2015/011365.php"
+              >Rigardo al la interna Rusio deekstere</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         sen<tld/>igi argumenton per lerta kritiko.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="elimin.0i.forigi">elimini<sncref/></ref>,
+      <ref cel="esting.0i">estingi</ref>,
+      <ref cel="for.0igi">forigi</ref>,
+      <ref cel="likvid.0i">likvidi</ref>,
+      <ref cel="fort.mal0igi">malfortigi</ref>,
+      <ref cel="valid.mal0igi">malvalidigi</ref>,
+      <ref cel="nul0.0igi">nuligi</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="de">
     <trd>entwerten</trd>,
@@ -921,6 +1414,7 @@
     <trd>el&eacute;rt&eacute;ktelen&iacute;t</trd>,
     <trd>devalv&aacute;l</trd>
   </trdgrp>
+  <trd lng="uk">&c_z;&c_n;&c_je;&c_c;&c_ib;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="valor.pli0o">
@@ -953,6 +1447,10 @@
   <trd lng="nl">overwaarde</trd>
   <trd lng="pt">&aacute;gio</trd>
   <trd lng="sk">nadhodnota</trd>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_o;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_a; &c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_k;&c_o;&c_m;&c_je;&c_r;&c_c;&c_ib;&c_j;&c_n;&c_i;&c_j; &c_p;&c_r;&c_i;&c_b;&c_u;&c_t;&c_o;&c_k; &c_p;&c_r;&c_o;&c_m;&c_i;&c_s;&c_l;&c_o;&c_v;&c_o;&c_g;&c_o; &c_k;&c_a;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_u;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="valor.plus0o">
@@ -972,7 +1470,7 @@
       </ekz>
       <ekz>
         ne venis multaj klientoj, kiuj pretus pagi la &leftquot;artan
-        plus<tld/>on&#x201D; aldone al la
+        plus<tld/>on&#8221; aldone al la
         materiala
         <fnt>
           <bib>Monato</bib>
@@ -999,7 +1497,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        klasika teorio diras, ke mono estas &leftquot;realigita plus<tld/>o&#x201D;, pli
+        klasika teorio diras, ke mono estas &leftquot;realigita plus<tld/>o&#8221;, pli
         simple dirante,
         oni devas produkti varon kaj vendi &gcirc;in
         <fnt>
@@ -1019,6 +1517,7 @@
   <trd lng="pt">mais-valia</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_b;&c_a;&c_v;&c_o;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
   <trd lng="sk">nadhodnota</trd>
+  <trd lng="uk">&c_d;&c_o;&c_d;&c_a;&c_n;&c_a; &c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="valor.pli0igi">
@@ -1051,6 +1550,7 @@
     <trd>&c_r;&c_a;&c_z;&c_v;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">zv&yacute;&scaron;i&tcaron; hodnotu</trd>
+  <trd lng="uk">&c_p;&c_ib;&c_d;&c_v;&c_i;&c_shch;&c_u;&c_v;&c_a;&c_t;&c_i; &c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="valor.uz0o">
@@ -1078,6 +1578,7 @@
   <trd lng="pt">valor de uso</trd>
   <trd lng="ru">&c_p;&c_o;&c_t;&c_r;&c_je;&c_b;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_k;&c_a;&c_ja; <ind>&c_s;&c_t;&c_o;&c_i;&c_m;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
   <trd lng="sk">&uacute;&zcaron;itkov&aacute; hodnota</trd>
+  <trd lng="uk">&c_s;&c_p;&c_o;&c_zh;&c_i;&c_v;&c_n;&c_a; &c_v;&c_a;&c_r;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="valor.ver0o">
@@ -1163,27 +1664,27 @@
 </art>
 <!--
 $Log$
-versio 1.50 2021/01/30 20:42:28
-Jeromo Vasxe: + sen~ajxo sen~igi
+versio 1.140 2022/10/22 10:39:08
+Wolfram Diestel: kor. snc-ref
 
-Revision 1.49  2020/02/16 11:10:20  revo
-Wolfram Diestel: formuloj per am
+versio 1.139 2022/10/20 05:51:39
+Wolfram Diestel: sen~igi: +ref-oj
 
-Revision 1.48  2019/08/10 10:10:16  revo
-Wolfram Diestel: kor. ofc, snc-mrk-oj
+versio 1.138 2022/10/11 07:52:44
+Wolfram Diestel: ~o: +ekz-oj
 
-Revision 1.47  2019/06/30 18:21:50  revo
-adaptis URL de Monato
+versio 1.137 2022/10/10 16:54:56
+Wolfram Diestel: egal~/ preferinda al sam~: vicordo/rim; sen~*: ekz-oj
 
-Revision 1.46  2019/03/07 19:10:16  revo
-Wolfram Diestel: prilaboris ekz-ojn kaj fnt-ojn
+versio 1.136 2022/10/10 06:12:13
+Wolfram Diestel: ~i: +ekz, ref trd de; +var egal~a, egal~i
 
-Revision 1.45  2018/05/03 14:10:16  revo
-Jeromo Vasxe: plus>tld/>on -> plus*<*tld/>on
+versio 1.135 2022/05/06 12:17:21
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.44  2017/12/17 23:10:34  revo
-Michel Cantigneaux: gxustaj signoj
+versio 1.129 2022/02/21 10:33:12
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.43  2016/10/31 11:10:13  revo
+versio 1.128 2022/02/17 21:26:23
 -->
 </vortaro>

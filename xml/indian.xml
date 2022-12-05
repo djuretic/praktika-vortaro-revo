@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: indian.xml,v 1.24 2020/11/28 10:32:54 revo Exp $">
+<art mrk="$Id: indian.xml,v 1.27 2022/10/02 17:39:23 revo Exp $">
 <kap>
   <rad>indian</rad>/o
   <fnt>Z</fnt>
@@ -29,7 +29,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006823.html">Opinio: Tro Senkosta Pentemo</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006823.html">Opinio: Tro Senkosta Pentemo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -38,7 +38,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Werner Schad</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006868.html">Venezuelo: Inter maro kaj arbarego</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006868.html">Venezuelo: Inter maro kaj arbarego</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -59,10 +59,15 @@
   </trdgrp>
   <trd lng="hu">indi&aacute;n</trd>
   <trd lng="nl">Indiaan</trd>
+  <trd lng="pl">indianin</trd>
   <trdgrp lng="pt">
     <trd>&iacute;ndio</trd>,
     <trd>amer&iacute;ndio</trd>,
     <trd>ind&iacute;gena</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>amerindieni</trd>,
+    <trd>indian</trd>
   </trdgrp>
   <trd lng="ru">&c_i;&c_n;&c_d;&c_je;&c_je;&c_c;</trd>
   <trd lng="sk">Indi&aacute;n</trd>
@@ -90,6 +95,7 @@
        <ref cel="hind.0o">hindo</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_Ib;&c_n;&c_d;&c_y;&c_ja;&c_n;&c_ib;&c_n; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
   <trd lng="cs">Indi&aacute;n</trd>
   <trdgrp lng="de">
     <trd>Indianer</trd>,
@@ -98,6 +104,8 @@
   <trd lng="en">Indus</trd>
   <trd lng="es">Indio</trd>
   <trd lng="fr">Indien<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="pl">Indianin  <klr>(gwiazdozbi&oacute;r)</klr></trd>
+  <trd lng="ro">Indianul  <klr>(constela&#539;ie)</klr></trd>
   <trd lng="sk">Indi&aacute;n</trd>
 </drv>
 
@@ -111,7 +119,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Saliko</aut>
-          <vrk><url ref="https://www.monato.be/2007/009226.php">Nanoq la unua arkta muzeo</url></vrk>
+          <vrk><url ref="&Monato;/2007/009226.php">Nanoq la unua arkta muzeo</url></vrk>
           <lok>2007</lok>
         </fnt>;
       </ekz>
@@ -120,7 +128,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
-          <vrk><url ref="https://www.monato.be/2008/009386.php">La kukurbo frukto multviza&gcirc;a</url></vrk>
+          <vrk><url ref="&Monato;/2008/009386.php">La kukurbo frukto multviza&gcirc;a</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -129,7 +137,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Werner Fu&szlig;</aut>
-          <vrk><url ref="https://www.monato.be/2003/007969.html">&Ccirc;u la homaro lernis pensi per la lingvo?</url></vrk>
+          <vrk><url ref="&Monato;/2003/007969.html">&Ccirc;u la homaro lernis pensi per la
+          lingvo?</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -139,7 +148,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Elson B. Snow</aut>
-          <vrk><url ref="https://www.monato.be/2010/009960.php">Narkotaj Dakotoj</url></vrk>
+          <vrk><url ref="&Monato;/2010/009960.php">Narkotaj Dakotoj</url></vrk>
           <lok>2010</lok>
         </fnt>;
       </ekz>
@@ -161,11 +170,25 @@
   </trdgrp>
   <trd lng="de">indianisch</trd>
   <trd lng="hu">indi&aacute;n</trd>
+  <trd lng="pl">india&nacute;ski</trd>
+  <trdgrp lng="ro">
+    <trd>amerindian</trd>,
+    <trd>indian</trd>
+  </trdgrp>
   <trd lng="ru">&c_i;&c_n;&c_d;&c_je;&c_j;&c_s;&c_k;&c_i;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2022/10/02 17:39:23
+Vito Redsky: +trd pl + trd ro
+
+versio 1.26 2022/08/09 07:29:17
+Dmitri Gabinski: + trd be
+
+versio 1.25 2022/04/30 08:42:42
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.24 2020/11/28 10:32:54
 Wolfram Diestel: ekz-oj, ref-oj
 
@@ -179,14 +202,5 @@ Revision 1.20  2013/08/25 08:10:30  revo
 Wolfram Diestel: referenco al listo stelfiguroj
 
 Revision 1.19  2009/02/19 20:25:53  revo
-Russ Williams: +trd en
-
-Revision 1.18  2007/11/22 17:31:08  revo
-Wieland Pusch: +trd bg
-
-Revision 1.17  2007/04/20 16:31:08  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2006/01/29 17:32:56  revo
 -->
 </vortaro>

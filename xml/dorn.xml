@@ -1,20 +1,55 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dorn.xml,v 1.19 2021/03/08 16:54:56 revo Exp $">
+<art mrk="$Id: dorn.xml,v 1.22 2022/08/06 14:26:00 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>dorn</rad>/o
 </kap>
 <drv mrk="dorn.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc num="1">
+  <snc mrk="dorn.0o.natura">
     <dif>
-      Natura pikilo de vegeta&jcirc;oj:
+      Natura <ref tip="super" cel="pik.0ilo.ZOO">pikilo</ref> de vegeta&jcirc;oj:
       <ekz>
-        neniu rozo sen <tld/>o.
+        la malfeli&ccirc;ulo &scirc;ajnis sidi sur <tld/>oj
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la knabino intence pikis siajn fingrojn kaj disgratis la manon per <tld/>o por
+        makuli la bobenon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La maljunulino Holle</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu per mallerta mano volis kapti rozon, tiu ne havas la rajton plendi, ke la
+        <tld/>oj lin pikis
+        <fnt>
+          <bib>RBa</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> vidas la <tld/>on en la karno
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        ri&ccirc;ulo havas kornojn, malri&ccirc;ulo <tld/>ojn
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="split.0o">splito</ref>
     <trd lng="es">espina</trd>
     <trdgrp lng="fr">
       <trd>&eacute;pine</trd>,
@@ -29,14 +64,71 @@
       <trd>&c_k;&c_o;&c_l;&c_ju;&c_ch;&c_k;&c_a;</trd>
     </trdgrp>
   </snc>
-  <snc num="2">
+  <snc mrk="dorn.0o.plantoj">
+    <uzo tip="klr">(plurale)</uzo>
     <dif>
-      Pikilo simila al <tld/>o:
+      <tld/>havaj plantoj:
+      <ekz>
+        kiel rozo inter la <tld/>oj, tiel estas mia amatino inter la knabinoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Alta kanto 2:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        simila al la kraketado de <tld/>oj sub poto estas la ridado de la malsa&gcirc;uloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 7:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi dra&scirc;os viajn korpojn per <tld/>oj de dezerto kaj per kardoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 8:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;io estas kovrita de <tld/>oj, kaj la &scirc;tona muro estas detruita
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 24:31</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i ekkuris inter pintaj &scirc;tonoj kaj <tld/>oj, kaj la sova&gcirc;aj bestoj saltis preter
+        &scirc;i
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni baraktis anta&ubreve;en preter <tld/>oj kaj urtikoj
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="vepr.0o">vepro</ref>
+    <trd lng="de">Dornengestr&uuml;pp</trd>
+  </snc>
+  <snc mrk="dorn.0o.objekto">
+    <dif>
+      <ref tip="super" cel="pik.0ilo.TEK">Pikilo</ref> simila al <tld/>o:
       <ekz>
         <ind>buko<tld/>o</ind>.
         <trd lng="fr">ardillon</trd>
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="najl.0o">najlo</ref>,
+      <ref cel="pingl.0o.tajlora">pinglo</ref>,
+      <ref cel="pivot.0o">pivoto</ref>,
+<ref cel="stift.0o">stifto</ref>
+    </refgrp>
     <trdgrp lng="fr">
       <trd>aiguillon</trd>,
       <trd>pointe<klr tip="ind"> (aiguillon)</klr></trd>
@@ -44,10 +136,31 @@
     <trd lng="pl">szpilka</trd>
     <trd lng="ru">&c_sh;&c_p;&c_je;&c_n;&c_jo;&c_k;</trd>
   </snc>
-  <snc num="3">
+  <snc mrk="dorn.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Malhelpa&jcirc;o, malplezuro. 
+      <ref tip="super" cel="gxen.0ajxo">&Gcirc;ena&jcirc;o</ref>, malplezuro:
+      <ekz>
+        <tld/>o en la flanko de la lo&gcirc;antoj estis Pigra Pego, kiu <klr>[&#8230;]</klr> insiste
+        brua&ccirc;is &ccirc;iun nokton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url ref="https://www.monato.be/2004/008306.html"
+              >La&ubreve;proverbaj fabeloj</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun la la&ubreve;roj, venis anka&ubreve; <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2015/011569.php"
+              >Revuon redakti ... kaj ranoj</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="fr">
       <trd>cactus<klr tip="ind"> (difficult&eacute;)</klr></trd>,
@@ -76,9 +189,17 @@
     <trd>pico</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>oste&#x148;</trd>,
-    <trd>pichlia&#x10D;</trd>,
-    <trd>t&#x155;&#x148;</trd>
+    <trd>oste&ncaron;</trd>,
+    <trd>pichlia&ccaron;</trd>,
+    <trd>t&racute;&ncaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_sh;&c_i;&c_p;</trd>,
+    <trd>&c_k;&c_o;&c_l;&c_ju;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_sh;&c_p;&c_i;&c_ch;&c_a;&c_k;</trd>,
+    <trd>&c_s;&c_k;&c_a;&c_l;&c_k;&c_a;</trd>,
+    <trd>&c_sh;&c_p;&c_je;&c_n;&c_i;&c_k; (&c_u; &c_p;&c_r;&c_ja;&c_zh;&c_c;&c_ib;)</trd>,
+    <trd>&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
 <drv mrk="dorn.0a">
@@ -87,11 +208,32 @@
     <dif>
       Plena je <tld/>oj:
       <ekz>
+        <tld/>aj arbetoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <klr>[&#8230;]</klr> plektinte <tld/>an kronon, surmetis &gcirc;in al li
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 15:17</lok>
+        </fnt>;
+      </ekz>      <ekz>
         kiel <tld/>a kano en la mano de ebriulo, tiel
         estas sentenco en la bu&scirc;o de malsa&gcirc;uloj
-        <fnt><bib>MT</bib>, <lok>&Sen; 26:9</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Sen; 26:9</lok></fnt>;
+      </ekz>
+      <ekz>
+        grand<tld/>aj rampa&jcirc;oj
+        <fnt>
+          <bib>MkM</bib>
+          <lok>16</lok>
+        </fnt>.
       </ekz>
     </dif>
+<ref tip="vid" cel="pik.0a.pinta">pika<sncref/></ref>
     <trdgrp lng="fr">
       <trd>&eacute;pineux<klr tip="ind"> (piquant)</klr></trd>,
       <trd>piquant<klr tip="ind"> (&eacute;pineux)</klr></trd>
@@ -109,8 +251,20 @@
   <snc num="2">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Plena je malhelpa&jcirc;oj kaj malplezuroj. 
+      Plena je &gcirc;ena&jcirc;oj, malhelpa&jcirc;oj kaj malplezuroj:
+      <ekz>
+        la <tld/>a vojo de la honoro
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Dorna vojo de la honoro</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="embara.0i">embarasi</ref>,
+      <ref cel="implik.0i">impliki</ref>,
+      <ref cel="help.mal0i">malhelpi</ref>
+    </refgrp>
     <trdgrp lng="fr">
       <trd>d&eacute;licat<klr tip="ind"> (&eacute;pineux)</klr></trd>,
       <trd>embarrassant<klr tip="ind"> (&eacute;pineux)</klr></trd>,
@@ -121,24 +275,29 @@
   </snc>
   <trd lng="ca">espin&oacute;s</trd>
   <trdgrp lng="cs">
-    <trd>ostnat&#xFD;</trd>,
-    <trd>ostnit&#xFD;</trd>,
-    <trd>pichlav&#xFD; s trny</trd>
+    <trd>ostnat&yacute;</trd>,
+    <trd>ostnit&yacute;</trd>,
+    <trd>pichlav&yacute; s trny</trd>
   </trdgrp>
   <trd lng="de">dornig</trd>
   <trd lng="es">espinoso</trd>
-  <trd lng="he">&#x5E7;&#x5D5;&#x5E6;&#x5E0;&#x5D9;</trd>
-  <trd lng="sk">t&#x155;nit&#xFD;</trd>
+  <trd lng="he">&qof;&vav;&tsadi;&nun;&yod;</trd>
+  <trd lng="sk">t&racute;nit&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_k;&c_o;&c_l;&c_ju;&c_ch;&c_i;&c_j;</trd>,
+    <trd>&c_t;&c_je;&c_r;&c_n;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_t;&c_je;&c_r;&c_n;&c_i;&c_s;&c_t;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 <drv mrk="dorn.0ejo">
   <kap><tld/>ejo</kap>
   <snc>
     <dif>
       <tld lit="D"/>arbetaro.  
-        (<refgrp tip="vid">
-          <ref cel="vepr.0o">vepro</ref>
-        </refgrp>)
-     </dif>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="vepr.0o">vepro</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="ca">
     <trd>esbarzer</trd>,
@@ -146,16 +305,29 @@
     <trd>romeguera</trd>
   </trdgrp>
   <trd lng="cs">trnisko</trd>
+  <trd lng="de">Dornengestr&uuml;pp</trd>
   <trd lng="fr">&eacute;pinaie</trd>
   <trdgrp lng="nl">
     <trd>doornbos</trd>,
     <trd>braambos</trd>
   </trdgrp>
-  <trd lng="sk">t&#x155;nit&#xE9; krovie</trd>
+  <trd lng="sk">t&racute;nit&eacute; krovie</trd>
+  <trdgrp lng="uk">
+    <trd>&c_t;&c_je;&c_r;&c_n;&c_i;</trd>,
+    <trd>&c_t;&c_je;&c_r;&c_n;&c_ja;</trd>,
+    <trd>&c_t;&c_je;&c_r;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_t;&c_je;&c_r;&c_n;&c_i;&c_shch;&c_je;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/08/06 14:26:00
+Wolfram Diestel: ~a: +ekz, ref
+
+versio 1.21 2022/08/06 13:34:39
+Wolfram Diestel: ~o: +snc plantoj, ekz-oj, ref-oj
+
 Revision 1.17  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -172,14 +344,5 @@ Revision 1.13  2005/05/02 16:31:08  revo
 Lluis Batlle i Rossell: +trd ca
 
 Revision 1.12  2005/04/27 16:32:16  revo
-Raul Salinas Monteagudo: korekto trd es
-
-Revision 1.11  2002/11/01 22:04:11  revo
-bib-igis fnt-ojn precipe MT
-
-Revision 1.10  2002/05/27 17:21:17  revo
-Alejandro Mejia Greene: ald 2 his trd
-
-Revision 1.9  2001/06/24 18:56:03  revo
 -->
 </vortaro>

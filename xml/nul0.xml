@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: nul0.xml,v 1.54 2021/05/16 19:51:57 revo Exp $">
+<art mrk="$Id: nul0.xml,v 1.61 2022/10/20 05:51:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nul</rad>/o <fnt><bib>PV</bib></fnt>
@@ -47,12 +46,15 @@
       <aut>Sergio Pokrovskij</aut>
     </rim>
   </snc>
+  <trd lng="be">&c_n;&c_u;&c_l;&c_mol;</trd>
   <trd lng="bo">&t_ka;&t_lata;&t_da;&t_tsheg;&t_ka;&t_naro;&t_ra;</trd>
   <trd lng="de">null</trd>
   <trd lng="en">zero</trd>
+  <trd lng="es">cero</trd>
   <trd lng="fr">z&eacute;ro</trd>
   <trd lng="ru">&c_n;&c_o;&c_l;&c_mol;</trd>
   <trd lng="id">nol</trd>
+  <trd lng="uk">&c_n;&c_u;&c_l;&c_mol;</trd>
 </drv>
 
 <drv mrk="nul0.0o">
@@ -94,6 +96,10 @@
         <tld/>on<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="es">
+      <trd>nulo<klr tip="ind"> (persona incapaz)</klr></trd>,
+      <trd>cero</trd>,
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>nul<klr tip="ind"> (personne incapable)</klr></trd>,
       <trd>z&eacute;ro</trd>,
@@ -117,6 +123,10 @@ elemento</ref>
     <trdgrp lng="en">
       <trd>null element</trd>,
       <trd>zero</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>elemento nulo</trd>,
+      <trd>cero</trd>
     </trdgrp>
     <trdgrp lng="fr">
       <trd>&eacute;l&eacute;ment nul</trd>,
@@ -152,7 +162,9 @@ elemento</ref>
     <trd>ni&ccaron;</trd>,
     <trd>nula</trd>
   </trdgrp>
-  <trd lng="tp">ala</trd>
+  <trd lng="tok">ala</trd>
+  <trd lng="uk">&c_n;&c_u;&c_l;&c_mol; (&c_ib;&c_m;&c_je;&c_n;&c_n;&c_i;&c_k;&c_o;&c_v;&c_a;
+  &c_f;&c_o;&c_r;&c_m;&c_a;)</trd>
   <trd lng="zh">&#12295;, &#38646; [<ind>l&iacute;ng</ind>]</trd>
 </drv>
 
@@ -225,6 +237,10 @@ elemento</ref>
 <trd lng="no">verdil&oslash;s</trd>
 <trd lng="pt">nulo</trd>
 <trd lng="sk">nulov&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_u;&c_l;&c_mol;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_ib;&c_ch;&c_i;&c_j;&c_n;&c_i;&c_j; (&c_p;&c_r;&c_o; &c_g;&c_r;&c_u;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nul0.0i">
@@ -233,7 +249,12 @@ elemento</ref>
     <dif>
       Esti <tld/>a, esti <tld/>o.
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_b;&c_y;&c_c;&c_mol; &c_r;&c_o;&c_w;&c_n;&c_y;&c_m; <ind>&c_n;&c_u;&c_l;&c_ju;</ind></trd>,
+      <trd>&c_b;&c_y;&c_c;&c_mol; <ind>&c_n;&c_u;&c_l;&c_jo;&c_m;</ind></trd>
+    </trdgrp>
     <trd lng="de">Null sein</trd>
+    <trd lng="es">ser nulo</trd>
     <trdgrp lng="hu">
       <trd>nulla</trd>,
       <trd>semmi</trd>
@@ -254,11 +275,13 @@ elemento</ref>
       hezitus uzi la saman adjektivon <ctl><tld/>a</ctl>, lasante la
       kuntekston precizigi la celitan sencon.
     </rim>
+    <trd lng="be">&c_a;&c_b;&c_n;&c_u;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>
     <trdgrp lng="de">
       <trd>Null werden</trd>,
       <trd>zu <ind>Null aufgehen</ind></trd>
     </trdgrp>
-    <trd lng="hu">elt&udblac;nik</trd>   
+    <trd lng="es">hacerse nulo</trd>
+    <trd lng="hu">elt&udblac;nik</trd>
   </snc>
 <trd lng="cs">rovnat se nule</trd>
 <trd lng="sk">rovna&tcaron; sa nule</trd>
@@ -269,32 +292,72 @@ elemento</ref>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV2</bib></fnt>
   <ref tip="dif" cel="nul0.0iganto.de_funkcio"><tld/>iganto 
-<sncref/></ref>
+  <sncref/></ref>
+  <trd lng="be">&c_n;&c_u;&c_l;&c_mol; <klr>(&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ib;)</klr></trd>
+  <trd lng="es">lugar donde el resultado de una funci&oacute;n es cero</trd>
   <trdgrp lng="sk">
-<trd>miesto</trd>,
-<trd>v ktorom funkcia nadob&uacute;da hodnotu nula</trd>
-</trdgrp>
-<trdgrp lng="cs">
-<trd>m&iacute;sto</trd>,
-<trd>ve kter&eacute;m funkce nab&yacute;v&aacute; hodnotu nula</trd>
-</trdgrp>
+    <trd>miesto</trd>,
+    <trd>v ktorom funkcia nadob&uacute;da hodnotu nula</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>m&iacute;sto</trd>,
+    <trd>ve kter&eacute;m funkce nab&yacute;v&aacute; hodnotu nula</trd>
+  </trdgrp>
+  <trd lng="uk">&c_n;&c_u;&c_l;&c_mol; (&c_u; &c_f;&c_u;&c_n;&c_k;&c_c;&c_ib;&c_ji;)</trd>
 </drv>
 
 <drv mrk="nul0.0igi">
   <kap><tld/>igi</kap>
   <snc mrk="nul0.0igi.KOMUNE">
     <dif>
-      Senvalorigi, senefikigi, oficiale deklari senvalora, igi
+      <ref cel="valor.sen0igi">Senvalorigi</ref>, senefikigi, oficiale deklari senvalora, igi
       <tld/>a:
       <ekz>
-        <tld/>igi
-        ju&gcirc;on, kontrakton, baloton, anta&ubreve;an regularon.
+        <tld/>igi ju&gcirc;on, baloton, anta&ubreve;an regularon;
+      </ekz>
+      <ekz>
+        <tld/>igi sian lukontrakton
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Kuni&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>igi &ccirc;iujn &scirc;uldojn
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ar li nun <tld/>igis sian kalkulon per la morto, ni ne ricevos e&ccirc; unu speson
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konfirmitan interligon <klr>[&#8230;]</klr> neniu <tld/>igas nek prialdonas
+        <fnt>
+          <bib>NT</bib>
+          <lok>Galatoj 3:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni devas plej rapide <tld/>igi la fremdajn regimentojn
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>!
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="kaduk">kadukigi</ref>,
-      <ref cel="valid">senvalidigi</ref>,
-      <ref cel="parali.0i">paralizi</ref>.
+      <ref cel="elimin.0i.forigi">elimini<sncref/></ref>,
+      <ref cel="esting.0i">estingi</ref>,
+      <ref cel="for.0igi">forigi</ref>,
+      <ref cel="likvid.0i">likvidi</ref>,
+      <ref cel="valid.mal0igi">malvalidigi</ref>,
+      <ref cel="valor.sen0igi">senvalorigi</ref>
     </refgrp>
     <trdgrp lng="hu">
       <trd>megsemmis&iacute;t</trd>,
@@ -311,6 +374,13 @@ elemento</ref>
       <ekz>
         trovi &ccirc;iujn argumentojn, kiuj <tld/>igas la funkcion
         <frm am="sin(x^2+x)">sin(<k>x</k><sup>2</sup>+<k>x</k>)</frm>;
+      </ekz>
+      <ekz>
+        por ke y dependu nur de h, estas necese <tld/>igi la koeficienton
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
       </ekz><ekz>
         la funkcio alprenas maksimuman valoron, kiam ni <tld/>igas
         &gcirc;ian variablon.
@@ -321,41 +391,59 @@ elemento</ref>
     <trd lng="pl">zerowa&cacute;</trd>
     <trd lng="ru">&c_o;&c_b;&c_n;&c_u;&c_l;&c_i;&c_t;&c_mol;</trd>
   </snc>
-<trd lng="br">nulla&ntilde;</trd>
-<trdgrp lng="cs">
-<trd>anulovat</trd>,
-<trd>derogovat</trd>,
-<trd>od&rcaron;eknout</trd>,
-<trd>ru&scaron;it</trd>,
-<trd>zru&scaron;it <klr>(&ccaron;init neplatn&yacute;m)</klr></trd>
-</trdgrp>
-<trd lng="de">annullieren</trd>
-<trd lng="es">anular</trd>
-<trd lng="fr">annuler</trd>
-<trdgrp lng="he">
+  <trdgrp lng="be">
+    <trd>&c_a;&c_n;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_b;&c_n;&c_u;&c_l;&c_ja;&c_c;&c_mol;</trd>,
+    <trd>&c_z;&c_v;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol; &c_n;&c_a; <ind>&c_n;&c_u;&c_l;&c_mol;</ind></trd>
+  </trdgrp>
+  <trd lng="br">nulla&ntilde;</trd>
+  <trdgrp lng="cs">
+  <trd>anulovat</trd>,
+  <trd>derogovat</trd>,
+  <trd>od&rcaron;eknout</trd>,
+  <trd>ru&scaron;it</trd>,
+  <trd>zru&scaron;it <klr>(&ccaron;init neplatn&yacute;m)</klr></trd>
+  </trdgrp>
+  <trd lng="de">annullieren</trd>
+  <trdgrp lng="de">
+    <trd>aufheben</trd>,
+    <trd>streichen</trd>,
+    <trd>f&uuml;r <ind>ung&uuml;ltig</ind> erkl&auml;ren</trd>,
+    <trd>annullieren</trd>,
+    <trd>begleichen</trd>
+  </trdgrp>
+  <trd lng="es">anular</trd>
+  <trd lng="fr">annuler</trd>
+  <trdgrp lng="he">
     <trd>&lamed;<ind>&alef;&pe;&samekh;</ind></trd>,
     <trd>&lamed;<ind>&bet;&tet;&lamed;</ind></trd>
   </trdgrp>
-<trdgrp lng="nl">
+  <trdgrp lng="nl">
     <trd>annuleren</trd>,
     <trd>te <ind>niet</ind> doen</trd>
   </trdgrp>
-<trdgrp lng="no">
+  <trdgrp lng="no">
     <trd>annulere</trd>,
     <trd>tilintetgj&oslash;re</trd>
   </trdgrp>
-<trd lng="pt">anular</trd>
-<trdgrp lng="ru">
-  <trd>&c_a;&c_n;&c_n;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+  <trd lng="pt">anular</trd>
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_n;&c_n;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_m;&c_je;&c_n;&c_i;&c_t;&c_mol;</trd>,
-    <trd>&c_s;&c_v;&c_je;&c_s;&c_t;&c_i; &c_k; 
-&c_n;&c_u;&c_l;&c_ju;</trd>
+    <trd>&c_s;&c_v;&c_je;&c_s;&c_t;&c_i; &c_k; &c_n;&c_u;&c_l;&c_ju;</trd>
   </trdgrp>
-<trdgrp lng="sk">
-<trd>anulova&tcaron;</trd>,
-<trd>odvola&tcaron;</trd>,
-<trd>zru&scaron;i&tcaron;</trd>
-</trdgrp>
+  <trdgrp lng="sk">
+    <trd>anulova&tcaron;</trd>,
+    <trd>odvola&tcaron;</trd>,
+    <trd>zru&scaron;i&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_a;&c_n;&c_u;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_k;&c_a;&c_s;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_v;&c_o;&c_d;&c_i;&c_t;&c_i; &c_d;&c_o; &c_n;&c_u;&c_l;&c_ja;</trd>,
+    <trd>&c_d;&c_o; &c_n;&c_ib;&c_ch;&c_i;&c_jeu;&c_ji;</trd>,
+    <trd>&c_v;&c_v;&c_a;&c_zh;&c_a;&c_t;&c_i; &c_n;&c_je;&c_d;&c_ib;&c_j;&c_s;&c_n;&c_i;&c_m;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nul0.0iganto">
@@ -433,9 +521,14 @@ elemento</ref>
       anka&ubreve; la argumentoj estas funkcioj.
     </rim>
   </snc>
+  <trd lng="be">&c_n;&c_u;&c_l;&c_mol; <klr>(&c_f;&c_u;&c_n;&c_k;&c_c;&c_y;&c_ib;)</klr></trd>
   <trdgrp lng="cs">
   <trd>nula</trd>,
   <trd>nulov&yacute; bod</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>cero</trd>,
+    <trd>ra&iacute;z</trd>
   </trdgrp>
   <trd lng="hu">z&eacute;rushely</trd>
   <trdgrp lng="pt">
@@ -443,6 +536,7 @@ elemento</ref>
     <trd>raiz</trd>
   </trdgrp>
 <trd lng="sk">nulov&yacute; bod</trd>
+  <trd lng="uk">&c_n;&c_u;&c_l;&c_mol; (&c_u; &c_f;&c_u;&c_n;&c_k;&c_c;&c_ib;&c_ji;)</trd>
 </drv>
 
 <drv mrk="nul0.0igxi">
@@ -485,6 +579,15 @@ elemento</ref>
       <trd>&c_o;&c_b;&c_n;&c_u;&c_l;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_b;&c_n;&c_u;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_a;&c_n;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_y;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol; &c_n;&c_a; <ind>&c_n;&c_u;&c_l;&c_mol;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>anularse</trd>,
+    <trd>hacerse nulo</trd>
+  </trdgrp>   
   <trd lng="fr">s'<ind>annuler</ind></trd>
   <trdgrp lng="he">
     <trd>&lamed;<ind>&he;&tav;&alef;&pe;&samekh;</ind></trd>,
@@ -511,6 +614,8 @@ elemento</ref>
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z; <ind>&c_n;&c_u;&c_l;&c_ja;</ind></trd>
+  <trd lng="es">desde cero</trd>
   <trdgrp lng="fr">
     <trd>&agrave; partir de rien</trd>,
     <trd>ex nihilo</trd>,
@@ -520,26 +625,27 @@ elemento</ref>
 </art>
 <!--
 $Log$
+versio 1.61 2022/10/20 05:51:39
+Wolfram Diestel: +ref
+
+versio 1.60 2022/10/12 14:09:53
+Wolfram Diestel: ~igi: +ekz-oj, trd de
+
+versio 1.59 2022/05/06 08:38:18
+Dmitri Gabinski: + trd be
+
+versio 1.58 2022/05/01 16:20:54
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.57 2022/03/25 10:35:02
+Ulrich Fellmann: nuligi: +3 pliaj DE tradukoj
+
+versio 1.55 2022/01/07 21:28:53
+Guillermo Molleda Jimena: +trd es
+
 versio 1.54 2021/05/16 19:51:57
 Wolfram Diestel: +trd bo, de, en
 
 versio 1.53 2020/10/01 20:32:25
-Jeromo Vasxe: + ekde ~o
-
-versio 1.52 2020/05/01 10:10:22
-Eko Nur Syah Hidayat: korekteto
-
-Revision 1.51  2020/02/15 21:10:17  revo
-Wolfram Diestel: formuloj per am
-
-Revision 1.50  2019/07/04 10:10:20  revo
-Aleks Andre: zh: malgxusta loko por [ ] kaj -ind-
-
-Revision 1.49  2019/07/03 08:10:30  revo
-Aleks Andre: zh: prononcado en -ind- por la indekso
-
-Revision 1.48  2018/11/18 00:10:18  revo
-Michel Cantigneaux: nul/o estas UV. radiko , nul = oficiala formo de la
-8 OA
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ov.xml,v 1.95 2021/06/19 06:38:30 revo Exp $">
+<art mrk="$Id: ov.xml,v 1.132 2022/05/01 17:17:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ov</rad>/o <fnt><bib>PV</bib></fnt>
@@ -64,7 +64,7 @@
   <snc mrk="ov.0o.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      <tld lit="O"/>o, ofte kokina, uzata kiel nutra&jcirc;o:
+      <tld lit="O"/>o kortbirda, ofte kokina, uzata kiel nutra&jcirc;o:
       <ekz>
         en&scirc;ele boligitaj, duonkuiritaj, malmole kuiritaj <tld/>oj;
       </ekz>
@@ -80,13 +80,15 @@
         <uzo tip="stl">FRAZ</uzo>
         <ind>kara estas <tld/>o, kiam venas la Pasko</ind>
         <fnt><bib>PrV</bib></fnt>;
-        <trd lng="ru"><ind>&c_d;&c_o;&c_r;&c_o;&c_g;&c_o; &c_ja;&c_i;&c_ch;&c_k;&c_o;</ind> &c_k; &c_H;&c_r;&c_i;&c_s;&c_t;&c_o;&c_v;&c_u; &c_d;&c_n;&c_ju;</trd>
+        <trd lng="ru"><ind>&c_d;&c_o;&c_r;&c_o;&c_g;&c_o; &c_ja;&c_i;&c_ch;&c_k;&c_o;</ind> &c_k;
+        &c_H;&c_r;&c_i;&c_s;&c_t;&c_o;&c_v;&c_u; &c_d;&c_n;&c_ju;</trd>
       </ekz><ekz>
         ekboligo de matenman&gcirc;a <tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007110.html">Atentokapta sed ru&gcirc;krajoninda</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007110.html">Atentokapta sed
+          ru&gcirc;krajoninda</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -103,10 +105,15 @@
         <fnt><bib>PrV</bib></fnt>.
         <trd lng="fr">un <ind>tiens</ind> vaut deux tu l'auras</trd>
         <trd lng="ru">&c_l;&c_u;&c_ch;&c_sh;&c_je;
-        <ind><mll tip="kom">&c_s;&c_i;&c_n;&c_i;&c_c;&c_a; &c_v; &c_r;&c_u;&c_k;&c_a;&c_h;</mll></ind>,
+        <ind><mll tip="kom">&c_s;&c_i;&c_n;&c_i;&c_c;&c_a; &c_v;
+        &c_r;&c_u;&c_k;&c_a;&c_h;</mll></ind>,
         &c_ch;&c_je;&c_m; &c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_mol; &c_v; &c_n;&c_je;&c_b;&c_je;</trd>
       </ekz>
     </dif>
+    <refgrp tip="prt">
+      <ref cel="blank.ovo0o"><tld/>oblanko</ref>,
+      <ref cel="flav.ov0o"><tld/>oflavo</ref>
+    </refgrp>
   </snc>
   <snc mrk="ov.0o.cxelo">
     <uzo tip="fak">BIO</uzo>
@@ -119,13 +126,13 @@
     <trd lng="de">Ei<klr>(zelle)</klr></trd>
   </snc>
   <trd lng="af">eier</trd>
-  <trd lng="am">&#x12A5;&#x1295;&#x1241;&#x120B;&#x120D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x628;&#x64A;&#x636;</trd>
+  <trd lng="am">&#4773;&#4757;&#4673;&#4619;&#4621;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_b;&a_y;&a_D;</trd>
   <trd lng="az">yumurta</trd>
   <trd lng="be">&c_ja;&c_j;&c_k;&c_a;</trd>
   <trd lng="bg">&c_ja;&c_j;&c_c;&c_je;</trd>
-  <trd lng="bn">&#x9A1;&#x9BF;&#x9AE;</trd>
-  <trd lng="bo">&#xF66;&#xF92;&#xF7C;&#xF44;&#xF0B;&#xF44;&#xF0B;</trd>
+  <trd lng="bn">&#2465;&#2495;&#2478;</trd>
+  <trd lng="bo">&t_sa;&t_gata;&t_naro;&t_nga;&t_tsheg;&t_nga;&t_tsheg;</trd>
   <trd lng="br">vi</trd>
   <trd lng="bs">jaje</trd>
   <trd lng="ca">ou</trd>
@@ -134,7 +141,8 @@
     <trd>vaj&iacute;&ccaron;ko</trd>,
     <trd>vejce</trd>
   </trdgrp>
-  <trd lng="da">&#xE6;g</trd>
+  <trd lng="cy">wy</trd>
+  <trd lng="da">&aelig;g</trd>
   <trd lng="de">Ei</trd>
   <trd lng="el">&alfa;&ypsilon;&gamma;&omikron_ton;</trd>
   <trd lng="en">egg</trd>
@@ -143,48 +151,79 @@
   <trd lng="eu">arrautza</trd>
   <trd lng="fr">&oelig;uf</trd>
   <trd lng="fy">aai</trd>
+  <trd lng="ga">ubh</trd>
+  <trd lng="gd">ugh</trd>
   <trd lng="gl">ovo</trd>
-  <trd lng="gu">&#xA87;&#xA82;&#xAA1;&#xABE;</trd>
+  <trd lng="gu">&#2695;&#2690;&#2721;&#2750;</trd>
   <trd lng="ha">kwai</trd>
   <trd lng="he">&bet;&yod;&tsadi;&he;</trd>
-  <trd lng="hi">&#x905;&#x902;&#x921;&#x93E;</trd>
+  <trd lng="hi">&#2309;&#2306;&#2337;&#2366;</trd>
+  <trd lng="hmn">qe</trd>
   <trd lng="hr">jaje</trd>
+  <trd lng="ht">ze</trd>
   <trd lng="hu">toj&aacute;s</trd>
-  <trd lng="hy">&#x571;&#x578;&#x582;</trd>
+  <trd lng="hy">&#1393;&#1400;&#1410;</trd>
   <trd lng="id">telur</trd>
+  <trd lng="ig">akwa</trd>
   <trd lng="it">uovo</trd>
-  <trd lng="ja">&#x5375;</trd>
-  <trd lng="jw">endhog</trd>
-  <trd lng="ka">&#x10D9;&#x10D5;&#x10D4;&#x10E0;&#x10EA;&#x10EE;&#x10D8;</trd>
-  <trd lng="km">&#x179F;&#x17CA;&#x17BB;&#x178F;</trd>
-  <trd lng="ko">&#xACC4;&#xB780;</trd>
-  <trd lng="lo">&#xEC4;&#xE82;&#xEC8;</trd>
-  <trd lng="ml">&#xD2E;&#xD41;&#xD1F;&#xD4D;&#xD1F;</trd>
-  <trd lng="mr">&#x905;&#x902;&#x921;&#x940;</trd>
-  <trd lng="my">&#x1000;&#x103C;&#x1000;&#x103A;&#x1025;</trd>
-  <trd lng="ne">&#x905;&#x923;&#x94D;&#x921;&#x93E;</trd>
+  <trd lng="ja">&#21365;</trd>
+  <trd lng="jv">endhog</trd>
+  <trd lng="ka">&#4313;&#4309;&#4308;&#4320;&#4330;&#4334;&#4312;</trd>
+  <trd lng="kk">&c_zh;&#1201;&c_m;&c_y;&c_r;&c_t;&#1179;&c_a;</trd>
+  <trd lng="km">&#6047;&#6090;&#6075;&#6031;</trd>
+  <trd lng="kn">&#3246;&#3274;&#3231;&#3277;&#3231;&#3270;</trd>
+  <trd lng="ko">&#44228;&#46976;</trd>
+  <trd lng="ku">h&ecirc;k</trd>
+  <trd lng="ky">&c_zh;&c_u;&c_m;&c_u;&c_r;&c_t;&c_k;&c_a;</trd>
+  <trd lng="lat">ovum</trd>
+  <trd lng="lo">&#3780;&#3714;&#3784;</trd>
+  <trd lng="lt">kiau&scaron;inis</trd>
+  <trd lng="lv">olu</trd>
+  <trd lng="mg">atody</trd>
+  <trd lng="mi">hua</trd>
+  <trd lng="mk">&#1112;&c_a;&#1112;&c_c;&c_je;</trd>
+  <trd lng="ml">&#3374;&#3393;&#3359;&#3405;&#3359;</trd>
+  <trd lng="mn">&#1257;&c_n;&c_d;&#1257;&c_g;</trd>
+  <trd lng="mr">&#2309;&#2306;&#2337;&#2368;</trd>
+  <trd lng="ms">telur</trd>
+  <trd lng="mt">bajd</trd>
+  <trd lng="my">&#4096;&#4156;&#4096;&#4154;&#4133;</trd>
+  <trd lng="ne">&#2309;&#2339;&#2381;&#2337;&#2366;</trd>
   <trd lng="nl">ei</trd>
   <trd lng="ny">dzira</trd>
-  <trd lng="pa">&#xA05;&#xA70;&#xA21;&#xA47;</trd>
+  <trd lng="pa">&#2565;&#2672;&#2593;&#2631;</trd>
   <trd lng="pl">jajko</trd>
-  <trd lng="ps">&#x647;&#x6AB;&#x6CD;</trd>
+  <trd lng="ps">&a_h;&#1707;&#1741;</trd>
   <trd lng="pt">ovo</trd>
   <trd lng="ro">ou</trd>
   <trd lng="ru">&c_ja;&c_j;&c_c;&c_o;</trd>
-  <trd lng="sd">&#x622;&#x646;&#x627;</trd>
-  <trd lng="si">&#xDB6;&#xDD2;&#xDAD;&#xDCA;&#xDAD;&#xDBB;</trd>
+  <trd lng="rw">amagi</trd>
+  <trd lng="sd">&a_A_madda;&a_n;&a_A;</trd>
+  <trd lng="si">&#3510;&#3538;&#3501;&#3530;&#3501;&#3515;</trd>
   <trd lng="sk">vaj&iacute;&ccaron;ko</trd>
-  <trd lng="sq">vez&#xEB;</trd>
+  <trd lng="sl">jajce</trd>
+  <trd lng="sm">fua</trd>
+  <trd lng="sn">zai</trd>
+  <trd lng="so">ukun</trd>
+  <trd lng="sq">vez&euml;</trd>
   <trd lng="st">lehe</trd>
+  <trd lng="su">endog</trd>
   <trd lng="sv">&auml;gg</trd>
-  <trd lng="ta">&#xBAE;&#xBC1;&#xB9F;&#xBCD;&#xB9F;&#xBC8;</trd>
-  <trd lng="te">&#xC17;&#xC41;&#xC21;&#xC4D;&#xC21;&#xC41;</trd>
-  <trd lng="th">&#xE44;&#xE02;&#xE48;</trd>
+  <trd lng="sw">yai</trd>
+  <trd lng="ta">&#2990;&#3009;&#2975;&#3021;&#2975;&#3016;</trd>
+  <trd lng="te">&#3095;&#3137;&#3105;&#3149;&#3105;&#3137;</trd>
+  <trd lng="tg">&c_t;&c_u;&c_h;&c_m;</trd>
+  <trd lng="th">&#3652;&#3586;&#3656;</trd>
   <trd lng="tl">itlog</trd>
   <trd lng="tr">yumurta</trd>
-  <trd lng="ur">&#x627;&#x646;&#x688;&#x6D2;</trd>
-  <trd lng="vi">tr&#x1EE9;ng</trd>
-  <trd lng="yi">&#x5D9;&#x5D9;</trd>
+  <trd lng="tt">&c_j;&c_o;&c_m;&c_y;&c_r;&c_k;&c_a;</trd>
+  <trd lng="uk">&c_ja;&c_j;&c_c;&c_je;</trd>
+  <trd lng="ur">&a_A;&a_n;&#1672;&#1746;</trd>
+  <trd lng="uz">tuxum</trd>
+  <trd lng="vi">tr&#7913;ng</trd>
+  <trd lng="xh">iqanda</trd>
+  <trd lng="yi">&yod;&yod;</trd>
+  <trd lng="yo">&#7865;yin</trd>
   <trd lng="zu">iqanda</trd>
 </drv>
 
@@ -212,7 +251,7 @@
         oni ne faras <tld/>a&jcirc;on sen rompi <tld/>ojn
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007051.html">La
+          <vrk><url ref="&Steloj;monato2/007051.html">La
           stranga grupo</url></vrk>
         </fnt>!
       </ekz>
@@ -228,7 +267,8 @@
   </trdgrp>
   <trdgrp lng="en">
     <trd>omelette</trd>,
-    <trd>scrambled <ind>eggs</ind></trd>
+    <trd>scrambled <ind>eggs</ind></trd>,
+    <trd>eggs<klr> (food)</klr></trd>
   </trdgrp>
   <trd lng="fr">des <ind>&oelig;ufs</ind><klr tip="ind">
   (cuis.)</klr></trd>
@@ -248,7 +288,9 @@
     <trd>omlet</trd>,
     <trd>jajecznica</trd>
   </trdgrp>
+  <trd lng="ro">ou&abreve; jum&abreve;ri </trd>
   <trd lng="ru">&c_ja;&c_i;&c_ch;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trd lng="uk">&c_ja;&c_jeu;&c_ch;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="ov.0ingo">
@@ -262,7 +304,7 @@
         mozaiko el Antio&hcirc;io el la jaro 40 anta&ubreve; Kristo montras homojn, 
         kiuj man&gcirc;as <tld/>ojn el <tld/>ingoj per kuleretoj, en la romia
         urbo
-        Pompejo trovi&gcirc;is ar&gcirc;enta <tld/>ingo kun <klr>[&#x2026;]</klr>responda
+        Pompejo trovi&gcirc;is ar&gcirc;enta <tld/>ingo kun <klr>[&#8230;]</klr>responda
         ar&gcirc;enta <tld/>oman&gcirc;a kulereto
         <fnt>
           <bib>Viki</bib>
@@ -283,10 +325,13 @@
   <trd lng="id"><ind>cangkir</ind> telur</trd>
   <trd lng="it">portauovo</trd>
   <trd lng="nl">eierdopje</trd>
+  <trd lng="pl"> jajecznik</trd>
+  <trd lng="ro">suport pentru  <ind>ou&abreve;</ind></trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;
   &c_d;&c_l;&c_ja; &c_ja;&c_i;&c_c;</trd>
   <trd lng="sk">kal&iacute;&scaron;ok na vajce</trd>
   <trd lng="sv">&auml;ggkopp</trd>
+  <trd lng="uk">&c_v;&c_a;&c_z;&c_o;&c_ch;&c_k;&c_a; &c_d;&c_l;&c_ja; &c_ja;&c_j;&c_c;&c_ja;</trd>
 </drv>
 
 <drv mrk="ov.0ujo">
@@ -304,7 +349,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Gy&ouml;rgy Kese <klr>[&#x2026;]</klr> esploris la rolon de sekshormonoj kaj
+        Gy&ouml;rgy Kese <klr>[&#8230;]</klr> esploris la rolon de sekshormonoj kaj
         la reciprokinfluon de utero kaj <tld/>ujo
         <fnt>
           <bib>Viki</bib>
@@ -344,8 +389,15 @@
     Nur la anatomia senco <tld/>ujo <sncref ref="ov.0ujo.ANA"/>
     estas Fundamenta.
   </rim>
+  <trdgrp lng="en">
+    <trd>ovary</trd>,
+    <trd>egg carton</trd>
+  </trdgrp>
   <trd lng="sk">vaje&ccaron;n&iacute;k</trd>
   <trd lng="cs">vaje&ccaron;n&iacute;k</trd>
+  <trd lng="pl">jajnik</trd>
+  <trd lng="ro">ovar</trd>
+  <trd lng="uk">&c_ja;&c_jeu;&c_ch;&c_n;&c_i;&c_k;</trd>
 </drv>
 
 <drv mrk="ov.el0igxi">
@@ -355,8 +407,8 @@
     <dif>
       Eliri el <tld/>o:
       <ekz>
-        la <klr>[turfalk]</klr>ino <klr>[&#x2026;]</klr> meze de aprilo 
-        demetas tri &gcirc;is ses <tld/>ojn, <klr>[&#x2026;]</klr> la idoj
+        la <klr>[turfalk]</klr>ino <klr>[&#8230;]</klr> meze de aprilo 
+        demetas tri &gcirc;is ses <tld/>ojn, <klr>[&#8230;]</klr> la idoj
         el<tld/>i&gcirc;as post 28 tagoj
         <fnt>
           <bib>Monato</bib>
@@ -395,7 +447,9 @@
   </trdgrp>
   <trd lng="nl">uit het <ind>ei</ind> komen</trd>
   <trd lng="pl">klu&cacute; si&eogonek;</trd>
+  <trd lng="ro">trapa</trd>
   <trd lng="ru">&c_v;&c_y;&c_l;&c_u;&c_p;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_l;&c_u;&c_p;&c_i;&c_t;&c_i;&c_s;&c_ja; (&c_z; &c_ja;&c_j;&c_c;&c_ja;)</trd>
 </drv>
 
 <drv mrk="ov.cxur0o">
@@ -406,7 +460,7 @@
     <dif>
      <ref tip="dif" cel="testik.0o.ANA">Testiko</ref>:
       <ekz>
-        hundo <klr>[&#x2026;]</klr> lekas siajn &ccirc;ur<tld/>ojn
+        hundo <klr>[&#8230;]</klr> lekas siajn &ccirc;ur<tld/>ojn
         <fnt>
           <aut>[Ailanto]</aut>,
           <vrk><url ref="http://www.kafejo.com/humuro/08.htm">
@@ -417,6 +471,10 @@
     </dif>
   </snc>
   <trd lng="de">Hoden <klr>(vulg&auml;r)</klr></trd>
+  <trdgrp lng="en">
+    <trd>testicles</trd>,
+    <trd>balls</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>coj&oacute;n</trd>,
     <trd>huevo</trd>
@@ -426,93 +484,9 @@
     <trd>rouston</trd>
   </trdgrp>
   <trd lng="id">testis</trd>
+  <trd lng="pl">j&aogonek;dro</trd>
+  <trd lng="ro">testicul</trd>
 </drv>
-
-<drv mrk="ov.0oblanko">
-  <kap>
-    <tld/>oblanko
-  </kap>
-  <snc>
-    <dif>
-      La flua, diafana, proteina, nutra parto de <tld/>o, &ccirc;irka&ubreve;anta la
-      <tld/>oflavon,
-      blanka post kuirado:
-      <ekz>
-        disbatita <tld/>oblanko
-        <klr>(&scirc;a&ubreve;migita per kirlbatado)</klr>
-        <fnt>
-          <bib>Fab1</bib>
-          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        preni <klr>[&#x2026;]</klr> da <tld/>oblanko bone batita 10 gramojn
-        <fnt>
-          <bib>FK</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <ref tip="malprt" cel="makaro.0o">makarono</ref>
-        estas dol&ccirc;a&jcirc;o farita el kirlita <tld/>oblanko miksita kun
-        glazursukero kaj pistitaj migdaloj
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=490619">Makarono</url></lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <ref tip="malprt" cel="mering.0o">meringo</ref>
-        estas malpeza bakata dol&ccirc;a&jcirc;o el kirlita <tld/>oblanko kaj sukero
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=490622">Meringo</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="de">Eiwei&szlig;</trd>
-</drv>
-
-<drv mrk="ov.0oflavo">
-  <kap>
-    <tld/>oflavo
-  </kap>
-  <snc>
-    <dif>
-       La flava ena parto de <tld/>o, el kiu fari&gcirc;as la ido:
-      <ekz>
-        Pip, pip! oni a&ubreve;dis, &ccirc;iuj <tld/>oflavoj vivi&gcirc;is kaj el&scirc;ovis la
-        kapon
-        <fnt>
-          <bib>Fab2</bib>
-          <lok>Malbela anasido</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        zabajono estas franda&jcirc;o el sukero, <tld/>oflavo, vanilo kaj
-        likvoro, kuirbanita
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=49816">Zabajono</url></lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        bearnezo estas sa&ubreve;co farita el batmiksita butero kaj
-        <tld/>oflavo kun aldono de vino, vinagro, drakunkolo kaj
-        askalonoj
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=80660">Bearnezo</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>Eigelb</trd>,
-    <trd>Dotter</trd>
-  </trdgrp>
-</drv>
-
 
 <drv mrk="ov.0odemetinto">
   <kap><tld/>odemetinto</kap>
@@ -520,15 +494,19 @@
     <dif>
       Besto, kiu demetis <tld/>on:
       <ekz>
-        tia estas la vivo, kiun ni ricevis de la Unua <tld lit="O"/>odemetinto, dolorpremita, patrino demetas la <tld/>ojn,
-        <klr>[&#x2026;]</klr> 
+        tia estas la vivo, kiun ni ricevis de la Unua <tld lit="O"/>odemetinto, dolorpremita,
+        patrino demetas la <tld/>ojn,
+        <klr>[&#8230;]</klr> 
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="https://www.monato.be/2003/007991.html">Espero</url></vrk>
+          <vrk><url ref="&Monato;/2003/007991.html">Espero</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">one who has laid an egg</trd>
+  <trd lng="pl">sk&lstroke;adaj&aogonek;cy  <ind>jajo</ind></trd>
+  <trd lng="ro">depun&acirc;nd un  <ind>ou</ind></trd>
 </drv>
 
 <drv mrk="ov.kirl0ajxo">
@@ -583,12 +561,25 @@
     <trd>omelete</trd>,
     <trd>omeleta</trd>
   </trdgrp>
+  <trd lng="ro">ou&abreve;le</trd>
   <trd lng="ru">&c_o;&c_m;&c_l;&c_je;&c_t;</trd>
   <trd lng="sv">omelett</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.132 2022/05/01 17:17:01
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.131 2022/04/30 20:31:30
+Vito Redsky: + trd pl + trd ro 
+
+versio 1.130 2022/04/07 04:41:12
+Noam Mohr: +trd en ov-
+
+versio 1.128 2021/06/24 12:42:08
+Wolfram Diestel: anst.igis ~oblanko/flavo per ref (jam estis sub blank/ kaj flav/)
+
 versio 1.52 2020/05/06 16:10:15
 Eko Nur Syah Hidayat: korekteto
 
@@ -599,17 +590,5 @@ Revision 1.48  2019/05/10 15:10:14  revo
 Sergio Pokrovskij: +trd=ru
 
 Revision 1.47  2018/09/03 22:10:21  revo
-Wolfram Diestel: -ko(responda)
-
-Revision 1.46  2018/01/22 18:10:14  revo
-Wolfram Diestel: ekz-oj, +~oblanko, ~oflavo, germ trd-oj
-
-Revision 1.45  2016/11/13 00:10:18  revo
-Carlos Garcia: +trd ro -o, es  cxur~o el~igxi ~ujo2
-
-Revision 1.44  2016/09/29 13:10:15  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.43  2016/06/25 22:10:21  revo
 -->
 </vortaro>

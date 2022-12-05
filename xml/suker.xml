@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: suker.xml,v 1.75 2021/06/18 04:36:00 revo Exp $">
+<art mrk="$Id: suker.xml,v 1.113 2022/05/14 06:53:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>suker</rad>/o
@@ -12,7 +12,8 @@
   <snc mrk="suker.0o.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Blanka dol&ccirc;a substanco, konsistanta el karbono, hidrogeno
+      Blanka <ref cel="dolcx.0a.gusto">dol&ccirc;a</ref> substanco, 
+      konsistanta el karbono, hidrogeno
       kaj oksigeno, kaj elprenita el diversaj vegeta&jcirc;oj, precipe el
       <tld/>kano kaj el beto:
       <ekz>
@@ -20,28 +21,68 @@
         <fnt><bib>F</bib>, <lok>&FE; 26</lok></fnt>;
       </ekz>
       <ekz>
-        la pli vaste konataj <tld/>oj, glukozo kaj fruktozo, havas
-        en &ccirc;iu molekulo ses karbon-atomojn
+        tason da varma biero kun butero kaj <tld/>o <klr>[&#8230;]</klr> &scirc;i
+        rigardis kiel la solan veran universalan rimedon
         <fnt>
-        <aut>Ste&ccirc;jo Norvell</aut>,
-        <vrk>Riboj</vrk>,
-        <bib>Monato</bib>,
-        <lok>jaro 2000a, numero 11a, p. 16a</lok>
+          <bib>Fab3</bib>
+          <lok>&Scirc;i estis tute senta&ubreve;ga</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pli vaste konataj <tld/>oj, <ref tip="sub" cel="glikoz.0o">glukozo</ref> 
+        kaj <ref tip="sub" cel="fruktoz.0o">fruktozo</ref>, 
+        havas en &ccirc;iu molekulo ses karbon-atomojn
+        <fnt>
+          <aut>Ste&ccirc;jo Norvell</aut>,
+          <vrk>Riboj</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 2000a, numero 11a, p. 16a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la domo estas konstruita el pano kaj kovrita per kukoj, la fenestroj estis el
+        hela <tld/>o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ha&ccirc;jo kaj Grenjo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi amas la patron kiel plej dol&ccirc;an <tld/>on
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Pa&scirc;tistino de anseroj apud puto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne esperu kvieti&gcirc;i <klr>[&#8230;]</klr> per konuso da <tld/>o
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        mia patro super&scirc;utadis siajn postulojn per <tld/>o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="af">suiker</trd>
-  <trd lng="am">&#x1235;&#x12B3;&#x122D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x633;&#x643;&#x631;</trd>
-  <trd lng="az">&#x15F;&#x259;k&#x259;r</trd>
+  <trd lng="am">&#4661;&#x12B3;&#x122D;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_s;&a_k;&a_r;</trd>
+  <trd lng="az">&scedil;&#601;k&#601;r</trd>
   <trd lng="be">&c_c;&c_u;&c_k;&c_a;&c_r;</trd>
   <trd lng="bg">&c_z;&c_a;&c_h;&c_a;&c_r;</trd>
   <trd lng="bn">&#x99A;&#x9BF;&#x9A8;&#x9BF;</trd>
-  <trd lng="bo">&#xF56;&#xFB1;&#xF7A;&#xF0B;&#xF58;&#xF0B;&#xF41;&#xF0B;&#xF62;&#xF0B;</trd>
-  <trd lng="bs">&#x161;e&#x107;era</trd>
-  <trd lng="co">z&#xF9;ccaru</trd>
+  <trd lng="bo">&t_ba;&t_yata;&t_drengbu;&t_tsheg;&t_ma;&t_tsheg;&t_kha;&t_tsheg;&t_ra;&t_tsheg;</trd>
+  <trd lng="bs">&scaron;e&cacute;era</trd>
+  <trd lng="co">z&ugrave;ccaru</trd>
   <trd lng="cs">cukr</trd>
+  <trd lng="cy">siwgr</trd>
   <trd lng="da">sukker</trd>
   <trd lng="de">Zucker</trd>
   <trd lng="el">&zeta;&alfa_ton;&chi;&alfa;&rho;&eta;</trd>
@@ -50,45 +91,75 @@
   <trd lng="et">suhkur</trd>
   <trd lng="eu">azukre</trd>
   <trd lng="fr">sucre</trd>
-  <trd lng="fy">s&#xFB;ker</trd>
+  <trd lng="fy">s&ucirc;ker</trd>
+  <trd lng="ga">si&uacute;cra</trd>
+  <trd lng="gd">si&ugrave;cair</trd>
   <trd lng="gl">azucre</trd>
   <trd lng="gu">&#xA96;&#xABE;&#xA82;&#xAA1;</trd>
-  <trd lng="hi">&#x91A;&#x940;&#x928;&#x940;</trd>
-  <trd lng="hr">&#x161;e&#x107;er</trd>
+  <trd lng="hi">&#x91A;&#2368;&#2344;&#2368;</trd>
+  <trd lng="hmn">qab zib</trd>
+  <trd lng="hr">&scaron;e&cacute;er</trd>
+  <trd lng="ht">sik</trd>
   <trd lng="hu">cukor</trd>
-  <trd lng="hy">&#x577;&#x561;&#x584;&#x561;&#x580;</trd>
+  <trd lng="hy">&#1399;&#1377;&#1412;&#1377;&#1408;</trd>
   <trd lng="id">gula</trd>
   <trd lng="io">sukro</trd>
   <trd lng="is">sykur</trd>
   <trd lng="it">zucchero</trd>
-  <trd lng="ja">&#x7802;&#x7CD6;</trd>
-  <trd lng="jw">gula</trd>
+  <trd lng="ja">&#30722;&#x7CD6;</trd>
+  <trd lng="jv">gula</trd>
   <trd lng="ka">&#x10E8;&#x10D0;&#x10E5;&#x10D0;&#x10E0;&#x10D8;</trd>
-  <trd lng="km">&#x1787;&#x17B6;&#x178F;&#x17B7;&#x179F;&#x17D2;&#x1780;&#x179A;</trd>
+  <trd lng="kk">&#x49B;&c_a;&c_n;&c_t;</trd>
+  <trd lng="km">&#6023;&#x17B6;&#x178F;&#x17B7;&#x179F;&#x17D2;&#6016;&#x179A;</trd>
+  <trd lng="kn">&#xCB8;&#xC95;&#xCCD;&#xC95;&#xCB0;&#xCC6;</trd>
   <trd lng="ko">&#xC124;&#xD0D5;</trd>
+  <trd lng="ku">&icirc;ekir</trd>
+  <trd lng="ky">&c_k;&c_a;&c_n;&c_t;</trd>
   <trd lng="lo">&#xEC9;&#xECD;&#xEB2;&#xE95;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">cukraus</trd>
+  <trd lng="lv">cukurs</trd>
+  <trd lng="mg">siramamy</trd>
+  <trd lng="mi">huka</trd>
+  <trd lng="mk">&c_sh;&c_je;&#x45C;&c_je;&c_r;</trd>
   <trd lng="ml">&#xD2A;&#xD1E;&#xD4D;&#xD1A;&#xD38;&#xD3E;&#xD30;</trd>
-  <trd lng="mr">&#x938;&#x93E;&#x916;&#x930;</trd>
-  <trd lng="my">&#x101E;&#x1000;&#x103C;&#x102C;&#x1038;</trd>
-  <trd lng="ne">&#x91A;&#x93F;&#x928;&#x940;</trd>
+  <trd lng="mn">&c_e;&c_l;&c_s;&c_e;&c_n; &c_ch;&c_i;&c_h;&c_e;&c_r;,</trd>
+  <trd lng="mr">&#2360;&#x93E;&#2326;&#2352;</trd>
+  <trd lng="ms">gula</trd>
+  <trd lng="mt">zokkor</trd>
+  <trd lng="my">&#x101E;&#4096;&#x103C;&#x102C;&#4152;</trd>
+  <trd lng="ne">&#x91A;&#x93F;&#2344;&#2368;</trd>
   <trd lng="nl">suiker</trd>
   <trd lng="ny">shuga</trd>
   <trd lng="pa">&#xA16;&#xA70;&#xA21;</trd>
-  <trd lng="ps">&#x62F; &#x628;&#x648;&#x631;&#x6D0;</trd>
+  <trd lng="ps">&a_d; &a_b;&a_w;&a_r;&#x6D0;</trd>
   <trd lng="ru">&c_s;&c_a;&c_h;&c_a;&c_r;</trd>
-  <trd lng="sd">&#x6A9;&#x646;&#x68A;</trd>
+  <trd lng="rw">isukari</trd>
+  <trd lng="sd">&f_k;&a_n;&#x68A;</trd>
   <trd lng="si">&#xDC3;&#xDD3;&#xDB1;&#xDD2;</trd>
   <trd lng="sk">cukor</trd>
+  <trd lng="sl">sladkorja</trd>
+  <trd lng="sm">suka</trd>
+  <trd lng="sn">shuga</trd>
+  <trd lng="so">sonkorta</trd>
   <trd lng="sq">sheqer</trd>
+  <trd lng="st">tsoekere</trd>
+  <trd lng="su">gula</trd>
   <trd lng="sv">socker</trd>
+  <trd lng="sw">sukari</trd>
   <trd lng="ta">&#xB9A;&#xBB0;&#xBCD;&#xB95;&#xBCD;&#xB95;&#xBB0;&#xBC8;</trd>
   <trd lng="te">&#xC1A;&#xC15;&#xC4D;&#xC15;&#xC46;&#xC30;</trd>
+  <trd lng="tg">&c_sh;&c_a;&c_k;&c_a;&c_r;</trd>
   <trd lng="th">&#xE19;&#xE49;&#xE33;&#xE15;&#xE32;&#xE25;</trd>
   <trd lng="tl">asukal</trd>
   <trd lng="tr">&scedil;eker</trd>
-  <trd lng="ur">&#x686;&#x6CC;&#x646;&#x6CC;</trd>
-  <trd lng="vi">&#x111;&#x1B0;&#x1EDD;ng</trd>
-  <trd lng="yi">&#x5E6;&#x5D5;&#x5E7;&#x5E2;&#x5E8;</trd>
+  <trd lng="tt">&c_sh;&c_i;&c_k;&#x4D9;&c_r;</trd>
+  <trd lng="uk">&c_c;&c_u;&c_k;&c_o;&c_r;</trd>
+  <trd lng="ur">&f_ch;&f_y;&a_n;&f_y;</trd>
+  <trd lng="uz">shakar</trd>
+  <trd lng="vi">&#273;&#x1B0;&#x1EDD;ng</trd>
+  <trd lng="xh">iswekile</trd>
+  <trd lng="yi">&tsadi;&vav;&qof;&ayin;&resh;</trd>
+  <trd lng="yo">suga</trd>
   <trd lng="zu">ushukela</trd>
 </drv>
 
@@ -97,7 +168,40 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Dol&ccirc;igi per <tld/>o.
+      Dol&ccirc;igi per <tld/>o:
+      <ekz>
+        tro <tld/>ita turka kafo
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi plenigos la tasojn kaj ilin <tld/>os mem, &ccirc;ar mi sola konas la gustojn de
+        miaj kunman&gcirc;antoj
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i decidis baki ian delikata&jcirc;on, al kiu la&ubreve; nia hungara kutimo oni bezonas aligi
+        pistitan kaj <tld/>itan papavon
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni man&gcirc;as makaroniojn kun <klr>[&#8230;]</klr> kakaopulvoro, <tld/>itaj muelitaj
+        juglandoj
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu viro ricevis malgrandan ladskatolon kun kondensita kaj <tld/>ita lakto
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -119,6 +223,12 @@
   &c_ch;&c_t;&c_o;-&c_l;.)</klr></trd>
   <trd lng="sk">sladi&tcaron; cukrom</trd>
   <trd lng="sv">sockra</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&#x43E;&#x43B;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_c;&c_u;&#x43A;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_d;&#x43E;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_c;&c_u;&#x43A;&#x43E;&c_r;</trd>,
+    <trd>&#x43F;&#x43E;&c_s;&c_i;&#x43F;&c_a;&c_t;&c_i; &c_c;&c_u;&#x43A;&c_r;&#x43E;&#x43C;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="suker.0ajxo">
@@ -132,21 +242,41 @@
         <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
       </ekz>
       <ekz>
-        Mi havas 80 jarojn kaj spertis kiel, &ccirc;e ni, la boligitaj
-        <tld/>a&jcirc;oj,
-        biskvitoj, ktp. ofte estis sen volva&jcirc;oj kaj liveritaj al
-        a&ccirc;etantoj
-        en simplaj papersakoj, kiam mi estis infano
+        &ccirc;iu el ili anta&ubreve;tenis al li plej &ccirc;arman <tld/>a&jcirc;on, kiun nur povas vendi la
+        kukistino
         <fnt>
-        <aut>Henry D. Palmer</aut>,
-        <vrk>Papera mal&scirc;paro</vrk>,
-        <bib>Monato</bib>,
-        <lok>jaro 2001a, numero 12a, p. 4a</lok>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i prenis rozan <tld/>a&jcirc;on <klr>[&#8230;]</klr> kraketigante &gcirc;in en siaj blankaj dentoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi havas 80 jarojn kaj spertis kiel, &ccirc;e ni, la boligitaj
+        <tld/>a&jcirc;oj, biskvitoj, ktp. ofte estis sen volva&jcirc;oj kaj liveritaj al
+        a&ccirc;etantoj en simplaj papersakoj, kiam mi estis infano
+        <fnt>
+          <aut>Henry D. Palmer</aut>,
+          <vrk>Papera mal&scirc;paro</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 2001a, numero 12a, p. 4a</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="bombon.0o">bombono</ref>,
+      <ref cel="sxpin.suker0ajxo">suker&scirc;pina&jcirc;o</ref>
+    </refgrp>
   </snc>
-  <trd lng="de">S&uuml;&szlig;igkeit</trd>
+  <trd lng="be">&c_k;&c_a;&c_n;&c_d;&c_y;&c_t;&c_a;&c_r;&c_s;&c_k;&c_ib; &c_v;&c_y;&c_r;&c_a;&c_b;</trd>
+  <trdgrp lng="de">
+    <trd>Konfekt</trd>,
+    <trd>S&uuml;&szlig;igkeit</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>dulce</trd>,
     <trd>confite</trd>,
@@ -170,6 +300,10 @@
     <trd>&c_s;&c_l;&c_a;&c_d;&c_o;&c_s;&c_t;&c_mol; <klr tip="amb">(&c_k;&c_u;&c_sh;&c_a;&c_n;&c_mol;&c_je;)</klr></trd>,
     <trd>&c_k;&c_o;&c_n;&c_d;&c_i;&c_t;&c_je;&c_r;&c_s;&c_k;&c_o;&c_je; &c_i;&c_z;&c_d;&c_je;&c_l;&c_i;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&#x43D;&c_d;&c_i;&c_t;&c_je;&c_r;&c_s;&#x44C;&#x43A;&c_i;&c_j; &c_v;&c_i;&c_r;&c_ib;&c_b;</trd>,
+    <trd>&c_s;&#x43E;&#x43B;&#x43E;&c_d;&#x43E;&c_shch;&c_ib;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="suker.0ajxejo">
@@ -177,6 +311,14 @@
   <snc mrk="suker.0ajxejo.KOM">
     <dif>
       Butiko, kie oni vendas <tld/>a&jcirc;ojn:
+      <ekz>
+        la vento alportis la sonojn de la <tld/>a&jcirc;ejo, li povis anka&ubreve; a&ubreve;di, kiel la
+        urbanoj tie kantis &ccirc;e sia glaso da vino
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         tiajn <klr>[bombonojn]</klr> ili anta&ubreve;e vidis nur en la
         <tld/>a&jcirc;ejoj
@@ -203,7 +345,61 @@
   <trd lng="it">confetteria</trd>
   <trd lng="nl">snoepwinkel</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_d;&c_i;&c_t;&c_je;&c_r;&c_s;&c_k;&c_a;&c_ja;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&#x43D;&c_d;&c_i;&c_t;&c_je;&c_r;&c_s;&#x44C;&#x43A;&c_a;</trd>,
+    <trd>&c_c;&c_u;&#x43A;&c_je;&c_r;&#x43D;&#x44F;</trd>,
+    <trd>&c_c;&c_u;&#x43A;&#x43E;&c_r;&#x43D;&#x44F;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="suker.0ajxisto">
+  <kap>
+    <tld/>a&jcirc;isto
+  </kap>
+  <snc>
+    <dif>
+      Iu, kiu produktas kaj vendas <tld/>a&jcirc;ojn:
+      <ekz>
+        la <tld/>a&jcirc;isto venis el la urbo kaj starigis sian tendon, kaj poste venis
+        ankora&ubreve; unu <tld/>a&jcirc;isto kaj pendigis kiel insignon super sia tendo sonorilon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la princino alvokis la <tld/>a&jcirc;iston, kiu devis baki kukojn, kiajn man&gcirc;as la re&gcirc;o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi pagos por la ma&scirc;ino limimposton?
+        <nom>Vitalij</nom> levas la &scirc;ultrojn, li nenion pensas pri
+        la ma&scirc;ino de l&#8217; <tld/>a&jcirc;isto
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_u;&c_k;&c_je;&c_r;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_k;&c_a;&c_n;&c_d;&c_y;&c_t;&c_a;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Konditor</trd>,
+    <trd>Zuckerb&auml;cker</trd>,
+    <trd>s&uuml;&szlig;warenh&auml;ndler</trd>
+  </trdgrp>
+  <trd lng="uk">&#x43A;&#x43E;&#x43D;&c_d;&c_i;&c_t;&c_je;&c_r;</trd>
+</drv>
+
+
+
+
+
 
 <drv mrk="suker.0ujo">
   <kap><tld/>ujo</kap>
@@ -211,8 +407,16 @@
     <dif>
       Vazo a&ubreve; alia ujo por konservi a&ubreve; prezenti <tld/>on:
       <ekz>
-        estas <klr>...</klr> pulvora <tld/>o, en <tld/>ujoj
-        <fnt><bib>Gerda</bib>, <lok>&ccirc;apitro 5a</lok></fnt>.
+        estas <klr>[&#8230;]</klr> pulvora <tld/>o, en <tld/>ujoj
+        <fnt><bib>Gerda</bib>, <lok>&ccirc;apitro 5a</lok></fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i etendis la manon por sukerujo, kiu staris proksime, kaj komencis sukeradi la
+        berojn
+        <fnt>
+          <aut>Selma Lagerl&ouml;f</aut>
+          <vrk><url ref="https://fb2.top/la-sukerujo-240631/read">La sukerujo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -224,13 +428,28 @@
   <trd lng="it">zuccheriera</trd>
   <trd lng="nl">suikerpot</trd>
   <trd lng="sk">cukorni&ccaron;ka</trd>
+  <trdgrp lng="uk">
+    <trd>&c_c;&c_u;&#x43A;&#x43E;&c_r;&#x43D;&c_i;&c_c;&#x44F;</trd>,
+    <trd>&c_c;&c_u;&#x43A;&c_je;&c_r;&#x43D;&c_i;&c_c;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="suker.lakto0o">
   <kap>lakto<tld/>o</kap>
   <snc>
-    <ref tip="dif" cel="laktoz.0o">laktozo</ref>
+    <dif>
+      <ref tip="dif" cel="laktoz.0o">Laktozo</ref>:
+      <ekz>
+        la bakteria fermentado transformas la laktozon (lakto<tld/>on) al laktoacido kaj
+        ka&ubreve;zas &ccirc;e la jogurto gelatenecan konsiston
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18900">Jogurto</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="be">&c_l;&c_ja;&c_k;&c_t;&c_o;&c_z;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>lakt&oacute;za</trd>,
     <trd>ml&eacute;&ccaron;n&yacute; cukr</trd>
@@ -260,12 +479,28 @@
 </drv>
 
 <drv mrk="suker.pulvor0o">
-  <kap>pulvor<tld/>o</kap>
+  <kap>pulvor<tld/>o, <var><kap><tld/>pulvoro</kap></var></kap>
   <snc>
     <dif>
-      Pulvorigita sukero.
+      Pulvorigita <tld/>o:
+      <ekz>
+        iru al la butikisto kaj servu por envolvado de butero kaj <tld/>pulvoro
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Lino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;straj patkukoj tradicie estas far&ccirc;itaj per abrikota marmelado, rulitaj kaj
+        sur&scirc;utitaj per iom da pulvor<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=39619">Patkuko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_c;&c_u;&c_k;&c_r;&c_o;&c_v;&c_a;&c_ja; &c_p;&c_u;&c_d;&c_r;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>mou&ccaron;kov&yacute; cukr</trd>,
     <trd>pr&aacute;&scaron;kov&yacute; cukr</trd>
@@ -286,26 +521,27 @@
 </art>
 <!--
 $Log$
+versio 1.113 2022/05/14 06:53:36
+Dmitri Gabinski: + trd be
+
+versio 1.112 2022/05/05 14:43:49
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.111 2022/04/14 08:36:48
+Dmitri Gabinski: + trd be
+
+versio 1.109 2022/01/25 07:25:52
+Wolfram Diestel: ~a&jcirc;o..pulvor~o: ekz-oj, var; +~a&jcirc;isto
+
+versio 1.108 2022/01/25 06:33:00
+Wolfram Diestel: ~i, ~o: ekz-oj, ref-oj
+
+versio 1.107 2021/11/26 19:25:01
+Wolfram Diestel: +trd de
+
 versio 1.33 2021/04/13 11:51:44
 Dmitri Gabinski: +trd be
 
 Revision 1.30  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.29  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.28  2015/03/30 23:10:15  revo
-Carlos Garcia: +trd es -o -i -ajx -ajxej -uj lakto- pulvor-
-
-Revision 1.27  2014/06/06 15:10:22  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.26  2013/07/22 17:10:19  revo
-Joop Eggen: +trd el
-
-Revision 1.25  2011/06/25 17:10:20  revo
-Dominique Pelle: bolitaj -> boligitaj (ita finajxo ne eblis cxar boli
-estas netransitiva verbo)
 -->
 </vortaro>

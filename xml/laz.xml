@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: laz.xml,v 1.6 2015/07/04 08:37:38 revo Exp $">
+<art mrk="$Id: laz.xml,v 1.9 2022/03/22 18:26:50 revo Exp $">
 <kap>
   <rad>laz</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -10,9 +9,8 @@
   <kap><tld/>o</kap>
   <snc mrk="laz.0o.KOMUNE">
     <dif>
-      &Scirc;nuro kun granda ma&scirc;o, kiun oni &jcirc;etas
-      &ccirc;irka&ubreve; kapta&jcirc;on kaj
-      tire striktigas:
+      <ref tip="super" cel="sxnur.kapto0o">Kapto&scirc;nuro</ref>, kiun oni &jcirc;etas
+      &ccirc;irka&ubreve; kapta&jcirc;on kaj tire striktigas:
       <ekz>
         la mastro postkuras &ccirc;evalinon tenante enmane longan
         <tld/>on
@@ -24,7 +22,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Lasso</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_l;&c_a;&c_s;&c_o;</trd>,
+    <trd>&c_a;&c_r;&c_k;&c_a;&c_n;</trd>
+  </trdgrp>
   <trd lng="cs">laso</trd>
   <trd lng="es">lazo <klr>vaquero</klr></trd>
   <trd lng="fr">lasso</trd>
@@ -38,6 +41,10 @@
     <trd>arkan</trd>
   </trdgrp>
   <trd lng="sk">laso</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43B;&#x430;&#x441;&#x43E;</trd>,
+    <trd>&#x430;&#x440;&#x43A;&#x430;&#x43D;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="laz.0i">
@@ -45,11 +52,10 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="laz.0i.KOMUNE">
     <dif>
-      Persekuti, kapti per <tld/>o:
+      <ref tip="super" cel="kapt.0i.preni">Kapti</ref> per <tld/>o:
       <ekz>
         la koleraj araneoj &jcirc;etis grandan nombron da retofadenoj
-        celante ilin,
-        esperante <tld/>i ilin a&ubreve; impliki ilin per la fadenoj
+        celante ilin, esperante <tld/>i ilin a&ubreve; impliki ilin per la fadenoj
         <fnt>
           <aut>L. Frank Baum, trad. D. Broadribb</aut>,
           <vrk><url ref="http://esperantujo.org/eLibrejo/pdf/X13-7">
@@ -58,7 +64,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">mit dem Lasso <ind>einfangen</ind></trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_l;&c_a;&c_v;&c_ib;&c_c;&c_mol; &c_n;&c_a; <ind>&c_l;&c_a;&c_s;&c_o;</ind></trd>,
+    <trd>&c_l;&c_a;&c_v;&c_ib;&c_c;&c_mol; &c_n;&c_a; <ind>&c_a;&c_r;&c_k;&c_a;&c_n;</ind></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>chytat do lasa</trd>,
     <trd>chytat lasem</trd>
@@ -69,12 +80,22 @@
     <trd>&lstroke;apa&cacute; na <ind>lasso</ind></trd>,
     <trd>&lstroke;apa&cacute; na <ind>arkan</ind></trd>
   </trdgrp>
-  <trd lng="sk">chytať lasom</trd>
+  <trd lng="sk">chyta&tcaron; lasom</trd>
+  <trdgrp lng="uk">
+    <trd>&#x430;&#x440;&#x43A;&#x430;&#x43D;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x43B;&#x43E;&#x432;&#x438;&#x442;&#x438; &#x437;&#x430; &#x434;&#x43E;&#x43F;&#x43E;&#x43C;&#x43E;&#x433;&#x43E;&#x44E; &#x430;&#x440;&#x43A;&#x430;&#x43D;&#x430;/&#x43B;&#x430;&#x441;&#x43E;</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.8 2022/03/09 12:47:44
+Dmitri Gabinski: + trd be
+
+versio 1.7 2021/09/23 06:34:06
+Wolfram Diestel: dif per kaptosxnuro, trd de
+
 Revision 1.5  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -89,6 +110,5 @@ Paul Peeraerts: +nl
 
 Revision 1.1  2007/03/01 17:30:25  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: renom.xml,v 1.14 2020/01/19 12:10:20 revo Exp $">
+<art mrk="$Id: renom.xml,v 1.18 2022/09/13 17:41:05 revo Exp $">
 <kap>
   <rad>renom</rad>/o
 </kap>
@@ -44,7 +43,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Grigori Arosev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007301.html">Pentrado: &leftquot;Mia ateliero estas mia &gcirc;ardeno&rightquot;</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007301.html">Pentrado: &leftquot;Mia ateliero
+          estas mia &gcirc;ardeno&rightquot;</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -84,7 +84,12 @@
     <trd>faam</trd>,
     <trd>vermaardheid</trd>
   </trdgrp>
+  <trd lng="pl">renoma</trd>
   <trd lng="pt">renome</trd>
+  <trdgrp lng="ro">
+    <trd>faim&abreve;</trd>,
+    <trd>renume</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_je;&c_p;&c_u;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_r;&c_je;&c_n;&c_o;&c_m;&c_je;</trd>
@@ -93,6 +98,11 @@
     <trd>dobr&aacute; poves&tcaron;</trd>,
     <trd>dobr&eacute; meno</trd>,
     <trd>renom&eacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x43E;&#x43F;&c_u;&#x43B;&#x44F;&c_r;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&c_r;&c_je;&#x43F;&c_u;&c_t;&c_a;&c_c;&c_ib;&#x44F;</trd>,
+    <trd>&c_r;&c_je;&#x43D;&#x43E;&#x43C;&c_je;</trd>
   </trdgrp>
 </drv>
 
@@ -108,7 +118,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Maul Stefan</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007149.html">Reform-fiasko</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007149.html">Reform-fiasko</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -117,15 +127,25 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="https://www.monato.be/2003/008107.html">A&ubreve;toroj</url></vrk>
+          <vrk><url ref="&Monato;/2003/008107.html">A&ubreve;toroj</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_l;&c_y;&c_n;&c_n;&c_y;</trd>,
+    <trd>&c_s;&c_l;&c_a;&c_v;&c_u;&c_t;&c_y;</trd>,
+    <trd>&c_v;&c_ja;&c_d;&c_o;&c_m;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>angesehen</trd>,
     <trd>renommiert</trd>
+  </trdgrp>
+  <trd lng="pl">renomowany</trd>
+  <trdgrp lng="ro">
+    <trd>renumit</trd>,
+    <trd>faimos</trd>
   </trdgrp>
 </drv>
 
@@ -133,7 +153,16 @@
 
 </art>
 <!--
-$Log: renom.xml,v $
+$Log$
+versio 1.18 2022/09/13 17:41:05
+Vito Redsky:  +trd pl  + trd ro  
+
+versio 1.17 2022/05/04 19:19:16
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.15 2022/02/14 08:34:41
+Dmitri Gabinski: + trd be
+
 versio 1.14 2020/01/19 12:10:20
 Wolfram Diestel: +~a, ekz-oj
 
@@ -147,14 +176,5 @@ Revision 1.11  2013/12/19 10:10:18  revo
 Joop Eggen: +trd bg fr
 
 Revision 1.10  2009/03/01 17:34:41  revo
-Russ Williams: +trd en
-
-Revision 1.9  2006/02/20 17:33:16  revo
-Tulio Flores: +trd pt
-
-Revision 1.8  2004/09/22 16:31:20  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2003/08/17 17:27:47  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: markot.xml,v 1.19 2020/07/16 20:11:04 revo Exp $">
+<art mrk="$Id: markot.xml,v 1.22 2022/05/01 12:05:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>markot</rad>/o
@@ -13,12 +12,43 @@
     <uzo tip="fak">BOT</uzo>
     <uzo tip="fak">HOR</uzo>
     <dif>
-      Vegeta&jcirc;ido kreskanta el bran&ccirc;o tu&scirc;anta la teron kaj tie radikanta:
+      Vegeta&jcirc;<ref tip="super" cel="id.0o.BIO">ido</ref> kreskanta el bran&ccirc;o kaj tu&scirc;anta la teron tie radikanta:
       <ekz>
         tio estas <tld/>o de Mia plantado
         <fnt><bib>MT</bib>, <lok>&Jes; 60:21</lok></fnt>.
       </ekz>
+      <ekz>
+        kiel bele tie staras la floreto, tio estas <tld/>o de tiu mirtujo, kiun vi
+        donacis al mi
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kolo de botelo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iam la bona onklino havis ian kreska&jcirc;on a&ubreve; kelke da junaj <tld/>oj en akvo,
+        kiel ajn malmilda estus la vintro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        mi estas la <tld/>o kaj ido de <nom>David</nom>
+        <fnt>
+          <bib>NT</bib>
+          <lok>Apokalipso 22:16</lok>
+        </fnt>;
+      </ekz>
     </dif>
+    <ref tip="vid" cel="stik.0ajxo">stika&jcirc;o</ref>
+    <bld lok="&WCU;/thumb/0/0a/2014-06_Erdbeeren-auf-Dach.jpg/640px-2014-06_Erdbeeren-auf-Dach.jpg" prm="CC BY-SA 4.0">sova&gcirc;a fragujo kun <tld/>oj
+        <fnt>
+          <aut>Yvonne Bentele, propra verko</aut>
+          <lok><url ref="&WCW;/File:2014-06_Erdbeeren-auf-Dach.jpg">&WCW;/File:2014-06_Erdbeeren-auf-Dach.jpg</url></lok>
+        </fnt>
+    </bld>
     <trd lng="be">&c_a;&c_d;&c_v;&c_o;&c_d;&c_a;&c_k;</trd>
     <trdgrp lng="ca">
       <trd>capficat</trd>,
@@ -32,17 +62,19 @@
     </trdgrp>
     <trd lng="ru">&c_o;&c_t;&c_v;&c_o;&c_d;&c_o;&c_k;</trd>
   </snc>
+<!--
   <snc mrk="markot.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Ido, idaro:
       <ekz>
-        eliros <tld/>o el la trunko  de Ji&scirc;aj
+        eliros <tld/>o el la trunko  de <nom>Ji&scirc;aj</nom>
         <fnt><bib>MT</bib>, <lok>&Jes; 11:1</lok></fnt>.
       </ekz>
     </dif>
     <trd lng="fr">rejeton</trd>
   </snc>
+-->
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_r;&c_a;&c_s;&c_t;&c_a;&c_k;</trd>,
     <trd>&c_a;&c_t;&c_o;&c_zh;&c_y;&c_l;&c_a;&c_k;</trd>
@@ -71,21 +103,32 @@
     <trd>v&yacute;honok</trd>,
     <trd>&scaron;&lcaron;ah&uacute;&ncaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x430;&#x434;&#x43E;&#x43A;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x433;&#x456;&#x43B;&#x43E;&#x43A;</trd>,
+    <trd>&#x43F;&#x430;&#x433;&#x456;&#x43D;</trd>,
+    <trd>&#x441;&#x442;&#x43E;&#x43B;&#x43E;&#x43D;</trd>,
+    <trd>&#x43F;&#x456;&#x434;&#x437;&#x435;&#x43C;&#x43D;&#x438;&#x439; &#x43F;&#x430;&#x433;&#x456;&#x43D;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="markot.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="markot.0i.HOR">
-  <dif>
-    Fari <tld/>on, ku&scirc;igante bran&ccirc;on en tero:
-    <ekz>
-      <tld/>i dianton;
-    </ekz>
-    <ekz>
-      <tld/>i rozujon.
-    </ekz>
-  </dif>
+    <dif>
+      Reprodukti per <tld/>oj:
+      <ekz>
+        <tld/>i dianton;
+      </ekz>
+      <ekz>
+        <tld/>i rozujon.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="greft.0i.BOT">grefti<sncref/></ref>,
+      <ref cel="stik.0i">stiki</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="ca">
     <trd>capficar</trd>,
@@ -103,10 +146,17 @@
   <trd lng="ro">strat</trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; <ind>&c_o;&c_t;&c_v;&c_o;&c_d;&c_k;&c_a;&c_m;&c_i;</ind></trd>
   <trd lng="sk">mno&zcaron;i&tcaron; odno&zcaron;ovan&iacute;m</trd>
+  <trd lng="uk">&#x440;&#x43E;&#x437;&#x43C;&#x43D;&#x43E;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438; &#x432;&#x456;&#x434;&#x441;&#x430;&#x434;&#x43A;&#x430;&#x43C;&#x438;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/05/01 12:05:12
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.20 2021/12/16 15:31:42
+Wolfram Diestel: ekz-oj, snc FIG reduktita al ekz, bld, ref-oj
+
 versio 1.19 2020/07/16 20:11:04
 Vito Redsky: +trd pl +trd ro
 
@@ -123,11 +173,5 @@ Revision 1.14  2006/07/30 16:32:02  revo
 Tulio Flores: +tr pt
 
 Revision 1.13  2006/01/23 17:31:15  revo
-Jeromo Vasxe: unuigis snc bot hor, + trd fr
-
-Revision 1.12 2004/08/17 18:11:28 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2004/06/06 18:46:38 revo
 -->
 </vortaro>

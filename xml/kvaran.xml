@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kvaran.xml,v 1.18 2020/03/21 16:10:23 revo Exp $">
+<art mrk="$Id: kvaran.xml,v 1.23 2022/11/29 21:26:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kvaranten</rad>/o
@@ -34,7 +33,11 @@
   <trd lng="be">&c_k;&c_a;&c_r;&c_a;&c_n;&c_t;&c_y;&c_n;</trd>
   <trd lng="bg">&c_k;&c_a;&c_r;&c_a;&c_n;&c_t;&c_i;&c_n;&c_a;</trd>
   <trd lng="cs">karant&eacute;na</trd>
-  <trd lng="de">Quarant&auml;ne</trd>
+    <trdgrp lng="de">
+      <trd>Quarant&auml;ne</trd>,
+      <trd>Absonderung</trd>,
+      <trd>Isolierung</trd>
+    </trdgrp>
   <trd lng="en">quarantine</trd>
   <trdgrp lng="fr">
     <trd>confinement</trd>,
@@ -51,9 +54,35 @@
   <trd lng="ru">&c_k;&c_a;&c_r;&c_a;&c_n;&c_t;&c_i;&c_n;</trd>
   <trd lng="sk">karant&eacute;na</trd>
   <trdgrp lng="th">
-    <trd>&#3585;&#3634;&#3619;&#3585;&#3633;&#3585;&#3605;&#3633;&#3623;</trd>,
-    <trd>&#3585;&#3634;&#3619;&#3585;&#3633;&#3585;&#3610;&#3619;&#3636;&#3648;&#3623;&#3603;</trd>
+    <trd>&#xE01;&#xE32;&#xE23;&#xE01;&#xE31;&#xE01;&#xE15;&#xE31;&#xE27;</trd>,
+    <trd>&#xE01;&#xE32;&#xE23;&#xE01;&#xE31;&#xE01;&#xE1A;&#xE23;&#xE34;&#xE40;&#xE27;&#xE13;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43A;&c_a;&c_r;&c_a;&#x43D;&c_t;&c_i;&#x43D;</trd>
+</drv>
+
+<drv mrk="kvaran.0i">
+  <kap>
+    <tld/>i
+  </kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="kvaran.0i.MED">
+    <dif>
+      Resti enfermita, sen rektaj kontaktoj, pro <tld/>o:
+      <ekz>
+        lernantoj kaj instruistoj devis <tld/>i hejme
+        <fnt>
+          <aut>Zhao Wenqi</aut>
+          <vrk><url
+          ref="http://espero.chinareports.org.cn/2021-11/08/content_77859700.htm">Esperanta kurso
+          nedeviga de Jiangsu-a Teknologia Universitato...</url></vrk>
+          <lok>El Popola &Ccirc;inio, 2021-11-08</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_y;&c_c;&c_mol; &c_n;&c_a; <ind>&c_k;&c_a;&c_r;&c_a;&c_n;&c_t;&c_y;&c_n;&c_je;</ind></trd>
+  <trd lng="fr">&ecirc;tre en quarantaine</trd>
+  <trd lng="uk">&#x43F;&c_r;&#x43E;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i; &#x43A;&c_a;&c_r;&c_a;&#x43D;&c_t;&c_i;&#x43D;</trd>
 </drv>
 
 <drv mrk="kvaran.0ulo">
@@ -69,18 +98,32 @@
         ilin lerni Esperanton
         <fnt>
           <aut>Redakcio</aut>
-          <vrk><url ref="https://www.liberafolio.org/2020/03/20/kursoj-kaj-legajoj-proponataj-al-kvarantenuloj/">
+          <vrk><url
+          ref="https://www.liberafolio.org/2020/03/20/kursoj-kaj-legajoj-proponataj-al-kvarantenuloj/">
           Kursoj kaj lega&jcirc;oj proponataj al kvarantenuloj</url></vrk>
           <lok>libera folio, 2020-03-20</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_ch;&c_a;&c_l;&c_a;&c_v;&c_je;&c_k; &c_n;&c_a; <ind>&c_k;&c_a;&c_r;&c_a;&c_n;&c_t;&c_y;&c_n;&c_je;</ind></trd>
   <trd lng="fr">personne en <ind>quarantaine</ind></trd>
 </drv>
 </art>
 <!--
-$Log: kvaran.xml,v $
+$Log$
+versio 1.23 2022/11/29 21:26:06
+Ulrich Fellmann: kvaranteno: +2 DE trdj
+
+versio 1.21 2022/01/26 08:33:39
+Dmitri Gabinski: + trd be
+
+versio 1.20 2021/11/16 23:28:43
+Jeromo Vasxe: + ~i
+
+versio 1.19 2021/10/05 10:32:34
+Dmitri Gabinski: + trd be
+
 versio 1.18 2020/03/21 16:10:23
 Jeromo Vasxe: + 2 ref, + ~ulo
 
@@ -91,17 +134,5 @@ Revision 1.16  2018/10/13 23:10:13  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.15  2016/03/04 20:10:16  revo
-Joop Eggen: +trd bg
-
-Revision 1.14  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.13  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.12  2012/07/31 08:10:10  revo
-Russ Williams: +trd en
-
-Revision 1.11  2006/09/28 16:30:29  revo
 -->
 </vortaro>

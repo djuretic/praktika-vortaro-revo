@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: esprim.xml,v 1.76 2021/06/18 20:41:34 revo Exp $">
+<art mrk="$Id: esprim.xml,v 1.113 2022/04/27 14:38:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>esprim</rad>/i <fnt><bib>PV</bib></fnt>
@@ -72,6 +72,10 @@
     <trd>vyslovi&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">uttrycka</trd>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_i;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_s;&c_l;&c_o;&c_v;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="esprim.0o">
@@ -142,8 +146,8 @@
   </snc>
   <trd lng="af">frase</trd>
   <trd lng="am">&#x1210;&#x1228;&#x130D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x639;&#x628;&#x627;&#x631;&#x629;</trd>
-  <trd lng="az">s&#xF6;z</trd>
+  <trd lng="ar">&a_A;&a_l;&a_ayn;&a_b;&a_A;&a_r;&a_t_marbuta;</trd>
+  <trd lng="az">s&ouml;z</trd>
   <trd lng="be">&c_v;&c_y;&c_r;&c_a;&c_z;</trd>
   <trd lng="bn">&#x9AB;&#x9CD;&#x9B0;&#x9C7;&#x99C;</trd>
   <trd lng="bs">frazu</trd>
@@ -154,55 +158,86 @@
     <trd>v&yacute;raz</trd>,
     <trd>vyj&aacute;d&rcaron;en&iacute;</trd>
   </trdgrp>
-  <trd lng="da">s&#xE6;tning</trd>
+  <trd lng="cy">ymadrodd</trd>
+  <trd lng="da">s&aelig;tning</trd>
   <trd lng="de">Ausdruck</trd>
   <trd lng="en">expression</trd>
   <trd lng="es">expresi&oacute;n</trd>
   <trd lng="et">fraasi</trd>
   <trd lng="eu">esaldi</trd>
   <trd lng="fr">expression</trd>
+  <trd lng="ga">fr&aacute;sa</trd>
+  <trd lng="gd">abairt</trd>
   <trd lng="gl">frase</trd>
   <trd lng="gu">&#xAAE;&#xAB9;&#xABE;&#xAB5;&#xAB0;&#xACB;</trd>
   <trd lng="ha">magana</trd>
   <trdgrp lng="he">
-    <trd>&#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D9;</trd>,
-    <trd>&#x5D4;&#x5D1;&#x5E2;&#x5D4;</trd>
+    <trd>&bet;&yod;&tet;&vav;&yod;</trd>,
+    <trd>&he;&bet;&ayin;&he;</trd>
   </trdgrp>
   <trd lng="hi">&#x935;&#x93E;&#x915;&#x94D;&#x92F;&#x93E;&#x902;&#x936;</trd>
+  <trd lng="hmn">kab lus</trd>
   <trd lng="hr">fraza</trd>
+  <trd lng="ht">fraz</trd>
   <trd lng="hu">kifejez&eacute;s</trd>
   <trd lng="hy">&#x561;&#x580;&#x57F;&#x561;&#x570;&#x561;&#x575;&#x57F;&#x578;&#x582;&#x569;&#x575;&#x578;&#x582;&#x576;</trd>
+  <trd lng="ig">okwu</trd>
   <trd lng="is">setning</trd>
   <trd lng="ja">&#x30D5;&#x30EC;&#x30FC;&#x30BA;</trd>
-  <trd lng="jw">tembung</trd>
+  <trd lng="jv">tembung</trd>
   <trd lng="ka">&#x10E4;&#x10E0;&#x10D0;&#x10D6;&#x10D0;</trd>
+  <trd lng="kk">&c_s;&#x4E9;&c_j;&c_l;&c_je;&c_m;</trd>
   <trd lng="km">&#x1783;&#x17D2;&#x179B;&#x17B6;</trd>
+  <trd lng="kn">&#xCA8;&#xCC1;&#xCA1;&#xCBF;&#xC97;&#xC9F;&#xCCD;&#xC9F;&#xCC1;</trd>
   <trd lng="ko">&#xBB38;&#xAD6C;</trd>
+  <trd lng="ku">bikaran&icirc;n&ecirc;</trd>
+  <trd lng="ky">&c_t;&#x4AF;&c_r;&c_m;&#x4E9;&c_k;</trd>
   <trd lng="lo">&#xE9B;&#xEB0;&#xEC2;&#xEAB;&#xE8D;&#xE81;</trd>
+  <trd lng="lt">fraz&#x117;</trd>
+  <trd lng="lv">fr&amacron;ze</trd>
+  <trd lng="mg">andian-teny</trd>
+  <trd lng="mi">k&#x12B;anga</trd>
+  <trd lng="mk">&c_f;&c_r;&c_a;&c_z;&c_a;</trd>
   <trd lng="ml">&#xD36;&#xD48;&#xD32;&#xD3F;</trd>
+  <trd lng="mn">&#x4E9;&c_g;&#x4AF;&#x4AF;&c_l;&c_b;&c_e;&c_r;</trd>
   <trd lng="mr">&#x935;&#x93E;&#x915;&#x94D;&#x92F;&#x93E;&#x902;&#x936;</trd>
+  <trd lng="ms">frasa</trd>
+  <trd lng="mt">fra&zdot;i</trd>
   <trd lng="my">&#x1011;&#x102C;&#x1038;&#x101E;&#x1031;&#x102C;&#x1005;&#x102C;&#x1015;&#x102D;&#x102F;&#x1012;&#x103A;&#x1010;&#x102D;&#x102F;&#x1019;&#x103B;&#x102C;&#x1038;</trd>
   <trd lng="ne">&#x935;&#x93E;&#x915;&#x94D;&#x92F;&#x93E;&#x902;&#x936;</trd>
   <trd lng="ny">mawu</trd>
   <trd lng="pa">&#xA35;&#xA3E;&#xA15;&#xA70;&#xA38;&#xA3C;</trd>
-  <trd lng="ps">&#x639;&#x628;&#x627;&#x631;&#x62A;</trd>
+  <trd lng="ps">&a_ayn;&a_b;&a_A;&a_r;&a_t;</trd>
   <trd lng="ru">&c_v;&c_y;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
-  <trd lng="sd">&#x62C;&#x645;&#x644;&#x64A;</trd>
+  <trd lng="rw">interuro</trd>
+  <trd lng="sd">&a_j;&a_m;&a_l;&a_y;</trd>
   <trd lng="si">&#xDC0;&#xDD0;&#xD9A;&#xDD2;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>kombin&aacute;cia znakov</trd>,
     <trd>v&yacute;raz</trd>
   </trdgrp>
+  <trd lng="sl">stavek</trd>
+  <trd lng="sm">fuaitau</trd>
+  <trd lng="sn">chirevo</trd>
+  <trd lng="so">odhaahda</trd>
   <trd lng="sq">fraza</trd>
   <trd lng="st">poleloana e reng</trd>
+  <trd lng="su">babasan</trd>
   <trd lng="sv">uttryck</trd>
+  <trd lng="sw">maneno</trd>
   <trd lng="ta">&#xB9A;&#xBCA;&#xBB1;&#xBCD;&#xBB1;&#xBCA;&#xB9F;&#xBB0;&#xBCD;</trd>
   <trd lng="te">&#xC2A;&#xC26;&#xC2C;&#xC02;&#xC27;&#xC02;</trd>
+  <trd lng="tg">&c_i;&c_b;&c_o;&c_r;&c_a;</trd>
   <trd lng="th">&#xE27;&#xE25;&#xE35;</trd>
   <trd lng="tl">parirala</trd>
-  <trd lng="ur">&#x62C;&#x645;&#x644;&#x6C1;</trd>
+  <trd lng="tt">&c_g;&c_y;&c_j;&c_b;&c_a;&c_r;&#x4D9;</trd>
+  <trd lng="uk">&c_f;&c_r;&c_a;&c_z;&c_a;</trd>
+  <trd lng="ur">&a_j;&a_m;&a_l;&#x6C1;</trd>
+  <trd lng="uz">ifoda</trd>
   <trd lng="vi">c&#x1EE5;m t&#x1EEB;</trd>
-  <trd lng="yi">&#x5E4;&#x5E8;&#x5D0;&#x5B7;&#x5D6;&#x5E2;</trd>
+  <trd lng="xh">ibinzana</trd>
+  <trd lng="yi">&pe;&resh;&alef;&#x5B7;&zayin;&ayin;</trd>
+  <trd lng="yo">gbolohun</trd>
   <trd lng="zu">isisho</trd>
 </drv>
 
@@ -217,6 +252,7 @@
     <trd lng="pl">wyra&zdot;enie<klr tip="ind">
     (algebraiczne)</klr></trd>
   </snc>
+  <trd lng="en">expression</trd>
 </drv>
 
 <drv mrk="esprim.0ilo">
@@ -265,6 +301,7 @@
     &c_v;&c_y;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
   </trdgrp>
   <trd lng="sk">v&yacute;razov&yacute; prostriedok</trd>
+  <trd lng="uk">&c_z;&c_a;&c_s;&c_ib;&c_b; &c_v;&c_i;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="esprim.0isma">
@@ -286,7 +323,9 @@
     </dif>
     <trd lng="de">expressionistisch</trd>
   </snc>
+  <trd lng="be">&c_e;&c_k;&c_s;&c_p;&c_r;&c_e;&c_s;&c_ib;&c_ja;&c_n;&c_ib;&c_s;&c_c;&c_k;&c_ib;</trd>
   <trd lng="ca">expressionista</trd>
+  <trd lng="en">expressionist</trd>
   <trd lng="es">expresionista</trd>
   <trd lng="fa">&a_A;&f_k;&a_s;&f_p;&a_r;&a_s;&f_y;&a_w;&a_n;&f_y;&a_s;&a_t;</trd>
   <trd lng="fr">expressioniste<klr> (adj.)</klr></trd>
@@ -327,7 +366,9 @@
     </dif>
     <trd lng="de">Expressionismus</trd>
   </snc>
+  <trd lng="be">&c_e;&c_k;&c_s;&c_p;&c_r;&c_e;&c_s;&c_ib;&c_ja;&c_n;&c_ib;&c_z;&c_m;</trd>
   <trd lng="ca">expressionisme</trd>
+  <trd lng="en">expressionism</trd>
   <trd lng="es">expresionismo</trd>
   <trd lng="fa">&a_A;&f_k;&a_s;&f_p;&a_r;&a_s;&f_y;&a_w;&a_n;&f_y;&a_s;&a_m;</trd>
   <trd lng="fr">expressionisme</trd>
@@ -366,8 +407,15 @@
     </dif>
     <trd lng="de">Danksagung</trd>
   </snc>
+  <trd lng="be">&c_v;&c_y;&c_r;&c_a;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;
+  &c_p;&c_a;&c_d;&c_z;&c_ja;&c_k;&c_ib;</trd>
+  <trdgrp lng="en">
+    <trd>thanks</trd>,
+    <trd>expression of thanks</trd>
+  </trdgrp>
   <trd lng="fr">formule de remerciement</trd>
-  <trd lng="he">&#x5EA;&#x5D5;&#x5D3;&#x5D4;</trd>
+  <trd lng="he">&tav;&vav;&dalet;&he;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_s;&c_l;&c_o;&c_v;&c_l;&c_je;&c_n;&c_n;&c_ja; &c_p;&c_o;&c_d;&c_ja;&c_k;&c_i;</trd>
 </drv>
 
 <drv mrk="esprim.sub0o">
@@ -416,14 +464,26 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_v;&c_y;&c_r;&c_a;&c_z; &c_t;&c_v;&c_a;&c_r;&c_u;</trd>
+  <trd lng="en">facial expression</trd>
   <trdgrp lng="fr">
     <trd>figure<klr> (expression du visage)</klr></trd>,
     <trd>physionomie</trd>
   </trdgrp>
+  <trd lng="uk">&#x432;&#x438;&#x440;&#x430;&#x437; &#x43E;&#x431;&#x43B;&#x438;&#x447;&#x447;&#x44F;</trd>
 </drv>
 </art>
 <!--
-$Log: esprim.xml,v $
+$Log$
+versio 1.113 2022/04/27 14:38:54
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.111 2022/03/23 07:40:28
+Noam Mohr: +trd en esprim-
+
+versio 1.108 2022/01/31 07:28:53
+Dmitri Gabinski: + trd be
+
 versio 1.33 2020/03/08 16:10:18
 Wolfram Diestel: dank~o: +2ekz
 
@@ -437,14 +497,5 @@ Revision 1.30  2018/09/03 18:10:18  revo
 Wolfram Diestel: +germ trd-oj
 
 Revision 1.29  2017/09/28 14:10:14  revo
-Jeromo Vasxe: + dank~o
-
-Revision 1.28  2015/07/04 08:37:33  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.27  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.26  2014/12/15 07:10:17  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kaze.xml,v 1.27 2019/06/30 18:21:02 revo Exp $">
+<art mrk="$Id: kaze.xml,v 1.33 2022/08/11 07:30:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kaze</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,7 +13,7 @@
     <dif>
       Densa solidi&gcirc;inta ne fermentinta parto de
       <ref tip="malprt" cel="lakt.0o">lakto</ref>, el kiu oni
-      faras froma&gcirc;on:
+      faras <ref cel="fromag.0o">froma&gcirc;o</ref>n:
       <ekz>
         min atendis varmaj baka&jcirc;oj kun <tld/>o kaj butero, tiom
         bongustaj, ke mi, &scirc;ajne, en la urbo neniam man&gcirc;is
@@ -23,7 +22,34 @@
         <lok>&ccirc;apitro 16a</lok></fnt>;
       </ekz>
       <ekz>
-        la slovaka <nac>bryndza</nac> estas mola, knedita kaj salita &scirc;affroma&gcirc;o, iomete simila al <tld/>o
+        la <ind><tld/>a bulo</ind> estas miksa&jcirc;o el faruno kaj <tld/>o!
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekkvara &Ccirc;apitro</lok>
+        </fnt>;
+        <trd lng="de">Quarkkn&ouml;del</trd>
+      </ekz>
+      <ekz>
+        la frenezulo forman&gcirc;as sian po&scirc;tukon, a&ubreve; sin imagas <ind><tld/>a kuko</ind>
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Na&ubreve;a &Ccirc;apitro</lok>
+        </fnt>;
+        <trdgrp lng="de">
+          <trd>Quarkkuchen</trd>,
+          <trd>K&auml;sekuchen</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        <klr>[li strebas]</klr> elpremi vian monujon, kiel <tld/>an sakon
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la slovaka <nac>bryndza</nac> estas mola, knedita kaj salita &scirc;affroma&gcirc;o, 
+        iomete simila al <tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Julius Hauser</aut>
@@ -31,6 +57,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="selakt.0o">selakto</ref>
   </snc>
   <trd lng="be">&c_t;&c_v;&c_a;&c_r;&c_o;&c_g;</trd>
   <trd lng="bg">&c_i;&c_z;&c_v;&c_a;&c_r;&c_a;</trd>
@@ -59,7 +86,35 @@
     <trd>kesik s&uuml;t</trd>,
     <trd>kazein</trd>
   </trdgrp>
+  <trd lng="uk">&c_s;&c_i;&c_r;</trd>
 </drv>
+
+<drv mrk="kaze.0igi">
+  <kap>
+    <tld/>igi
+  </kap>
+  <snc>
+    <dif>
+      Solidigi lakton al kazeo per fermentado:
+      <ekz>
+        necesis <tld/>igi la dol&ccirc;an &scirc;aflakton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="&Monato;/2013/011027.php">Oro blanka</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_t;&c_v;&c_a;&c_r;&c_o;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
+<trd lng="de">s&auml;uern <klr>(Milch)</klr></trd>
+</drv>
+
+
+
+
+
 
 <drv mrk="kaze.0igxi">
   <kap><tld/>i&gcirc;i</kap>
@@ -72,13 +127,15 @@
         malbona ago ne tuj alportas amaran frukton
         <fnt><aut>trad. T. T. Anuruddha</aut>, <vrk>La Vojo al Nirvano 
         a&ubreve; la Dhammapado, 5:71</vrk>,
-        <lok>B&#7891;-T&aacute;t-Csoma-Instituto por 
+        <lok>B&#x1ED3;-T&aacute;t-Csoma-Instituto por 
         Budhologio, 1973</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_t;&c_v;&c_a;&c_r;&c_o;&c_zh;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   <trd lng="br">kaouledi&ntilde;<klr tip="ind"> (laezh)</klr></trd>
   <trd lng="ca">quallar</trd>
+  <trd lng="de"><ind>sauer</ind> werden <klr>(Milch)</klr></trd>
   <trd lng="en">curdle</trd>
   <trd lng="fr">cailler</trd>
   <trd lng="hu">megt&uacute;r&oacute;sodik</trd>
@@ -88,6 +145,13 @@
     <trd>&c_s;&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_mol;&c_s;&c_ja;
     <klr>(&c_o; &c_m;&c_o;&c_l;&c_o;&c_k;&c_je;)</klr></trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_s;&c_ib;&c_d;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_v;&c_u;&c_r;&c_d;&c_i;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_z;&c_v;&c_u;&c_r;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_s;&#x43A;&c_i;&#x43F;&c_ib;&c_t;&c_i;&c_s;&#x44F; (&#x43F;&c_r;&#x43E;
+    &#x43C;&#x43E;&#x43B;&#x43E;&#x43A;&#x43E;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kaze.0igajxo">
@@ -95,19 +159,32 @@
   <snc mrk="kaze.0igajxo.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Fermento, &gcirc;enerale ekstraktata el stomako de junaj,
-      ankora&ubreve;
-      laktonutrataj rema&ccirc;uloj, kiu servas por <tld/>igi lakton.
+      <ref tip="super" cel="fermen.0ajxo">Fermenta&jcirc;o</ref>, &gcirc;enerale ekstraktata el stomako de
+      junaj,
+      ankora&ubreve; laktonutrataj rema&ccirc;uloj, kiu servas por <tld/>igi lakton
+      <ekz>
+        kazeiga&jcirc;o estas miksa&jcirc;o de enzimoj &hcirc;imozino kaj <ref cel="pepsin.0o">pepsino</ref>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_k;&c_v;&c_a;&c_s;&c_k;&c_a;</trd>,
+    <trd>&c_r;&c_o;&c_sh;&c_ch;&c_y;&c_n;&c_a;</trd>
+  </trdgrp>
   <trd lng="br">tro<klr tip="ind"> (evit lakaat al laezh da
   gaouledi&ntilde;)</klr></trd>
   <trd lng="ca">quall</trd>
+  <trd lng="de">Lab</trd>
   <trd lng="en">rennet</trd>
   <trd lng="fr">pr&eacute;sure</trd>
   <trd lng="hu">tejolt&oacute;</trd>
   <trd lng="nl">stremsel</trd>
   <trd lng="ru">&c_z;&c_a;&c_k;&c_v;&c_a;&c_s;&c_k;&c_a;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_i;&c_r;&#x43E;&c_v;&c_a;&c_t;&#x43A;&#x43E;&c_v;&c_a; &c_z;&c_a;&#x43A;&c_v;&c_a;&c_s;&#x43A;&c_a;</trd>,
+    <trd>&c_s;&c_i;&c_ch;&c_u;&c_zh;&#x43D;&c_i;&c_j; &c_f;&c_je;&c_r;&#x43C;&c_je;&#x43D;&c_t;</trd>,
+    <trd>&c_h;&c_ib;&#x43C;&#x43E;&c_z;&c_i;&#x43D;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kaze.soj0o">
@@ -153,10 +230,26 @@
     <trd>tofu</trd>
   </trdgrp>
   <trd lng="tr">tofu</trd>
+  <trdgrp lng="uk">
+    <trd>&c_t;&#x43E;&c_f;&c_u;</trd>,
+    <trd>&c_s;&#x43E;&c_jeu;&c_v;&c_i;&c_j; &c_s;&c_i;&c_r;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2022/08/11 07:30:47
+Dmitri Gabinski: + trd be
+
+versio 1.32 2022/05/01 08:09:24
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.29 2022/02/18 22:30:35
+Wolfram Diestel: ref
+
+versio 1.28 2022/02/18 06:33:54
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 Revision 1.26  2018/11/04 12:10:21  revo
 Wolfram Diestel: +ekz, kor. ref tofu
 
@@ -167,17 +260,5 @@ Revision 1.24  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.23  2012/01/02 17:10:09  revo
-Marc Rausell: +trd ca
-
-Revision 1.22  2009/08/27 16:32:09  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.21  2009/08/23 16:32:01  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.20  2009/06/23 16:31:28  revo
-Wieland Pusch: +trd bg
-
-Revision 1.19  2009/06/22 16:30:43  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: anomal.xml,v 1.19 2021/02/28 16:37:32 revo Exp $">
+<art mrk="$Id: anomal.xml,v 1.22 2022/04/25 15:10:59 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>anomali</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,10 +10,48 @@
   <kap><tld/>o</kap>
   <snc mrk="anomal.0o.SCI">
     <dif>
-      Forflanki&gcirc;o de la &gcirc;enerala regulo,
-      eksternorma&jcirc;o,
-      <ref tip="vid" cel="aberac.0o.SCI">aberacio</ref>.
+      Forflanki&gcirc;o de la &gcirc;enerala regulo, eksternorma&jcirc;o:
+      <ekz>
+        <klr>[tiuj]</klr> preskribitaj limoj <klr>[&#x2026;]</klr> malebligis, ekzemple,
+        esceptojn kaj <tld/>ojn
+        <fnt>
+          <vrk>letero_pluamikoj</vrk>
+          <lok>Temposkemo sciencfikcia en reala mondo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la virusoj povas esti ka&ubreve;zo de gravaj <tld/>oj de novnaskitoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2007/008991.php">La &ccirc;efaj murdistoj de HIV-infektitoj</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        disputoj pri landlimoj aspektas kiel stranga <tld/>o en tiel nomata unio de
+        &leftquot;egaluloj&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2013/011120.php">Anka&ubreve; paco konas siajn (land)limojn</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="ant">
+      <ref cel="norm.0o">normo</ref>,
+      <ref cel="regul.0o">regulo</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="aberac.0o.SCI">aberacio</ref>,
+      <ref cel="apart.0ajxo.proprajxo">aparta&jcirc;o<sncref/></ref>,
+      <ref cel="klin.de0igxo.FIG">deklini&gcirc;o<sncref/></ref>,
+      <ref cel="devi.0o">devio</ref>,
+      <ref cel="ekart.0o">ekarto</ref>,
+      <ref cel="specif.0o.ajxo">specifa&jcirc;o<sncref/></ref>,
+      <ref cel="tensi.0o.strecxo">tensio<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_n;&c_a;&c_m;&c_a;&c_l;&c_ib;&c_ja;</trd>,
@@ -21,19 +59,19 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>abnormalita</trd>,
-    <trd>anom&#xE1;lie</trd>,
+    <trd>anom&aacute;lie</trd>,
     <trd>nepravidelnost</trd>,
-    <trd>zr&#x16F;dnost</trd>,
-    <trd>&#xFA;chylka</trd>
+    <trd>zr&uring;dnost</trd>,
+    <trd>&uacute;chylka</trd>
   </trdgrp>
   <trdgrp lng="de">
-      <trd>Abweichung</trd>,
-      <trd>Anomalie</trd>
+    <trd>Abweichung</trd>,
+    <trd>Anomalie</trd>
   </trdgrp>
   <trd lng="en">anomaly</trd>
   <trd lng="es">anomal&iacute;a</trd>
   <trd lng="fr">anomalie</trd>
-  <trd lng="he">&#x5D0;&#x5B2;&#x5E0;&#x5D5;&#x5B9;&#x5DE;&#x5B7;&#x5DC;&#x5B4;&#x5D9;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&alef;&#x5B2;&nun;&vav;&#x5B9;&mem;&#x5B7;&lamed;&#x5B4;&yod;&#x5B8;&he;</trd>
   <trdgrp lng="hu">
     <trd>elt&eacute;r&eacute;s</trd>,
     <trd>rendelleness&eacute;g</trd>
@@ -53,7 +91,12 @@
   <trdgrp lng="sk">
     <trd>anom&aacute;lia</trd>,
     <trd>nepravidelnos&tcaron;</trd>,
-    <trd>&#xFA;chylka</trd>
+    <trd>&uacute;chylka</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x430;&#x43D;&#x43E;&#x43C;&#x430;&#x43B;&#x456;&#x44F;</trd>,
+    <trd>&#x43D;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x445;&#x438;&#x43B;&#x435;&#x43D;&#x43D;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -68,23 +111,53 @@
         <fnt>
           <bib>OriginoDeSpecioj</bib>,
           <lok>&ccirc;apitro 5a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;is la fino de la 15a jarcento la portugala havis 
+        pli ol cent <tld/>ajn verbojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Geraldo Mattos</aut>
+          <vrk><url ref="&Monato;/2008/009422.php">Rezulto de preseraro</url></vrk>
+          <lok>2008</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="ant">
+      <ref cel="konfor.0a">konforma</ref>,
+      <ref cel="normal.0a">normala</ref>,
+      <ref cel="ordina.0a">ordinara</ref>,
+      <ref cel="regul.0a">regula</ref>
+    </refgrp>
   </snc>
-  <trdgrp lng="fr">
+  <trdgrp lng="de">
+    <trd>abweichend</trd>,
+    <trd>irregul&auml;r</trd>
+  </trdgrp><trdgrp lng="fr">
     <trd>aberrant</trd>,
     <trd>d&eacute;viant</trd>
   </trdgrp>
-  <trd lng="he">&#x5D0;&#x5B2;&#x5E0;&#x5D5;&#x5B9;&#x5DE;&#x5B7;&#x5DC;&#x5B4;&#x5D9;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&alef;&#x5B2;&nun;&vav;&#x5B9;&mem;&#x5B7;&lamed;&#x5B4;&yod;&#x5B8;&he;</trd>
   <trdgrp lng="pl">
     <trd>anomalny</trd>,
     <trd>nieprawid&lstroke;owy</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x430;&#x43D;&#x43E;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x445;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x439; &#x432;&#x456;&#x434; &#x43D;&#x43E;&#x440;&#x43C;&#x438;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/04/25 15:10:59
+aktualigo ligvokodoj kaj URL-unuoj
+
+versio 1.20 2021/12/10 06:34:50
+Wolfram Diestel: ekz-oj, ref-oj, trd de
+
 Revision 1.17  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -101,14 +174,5 @@ Revision 1.13  2003/11/09 17:31:42  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2003/02/19 18:42:18  revo
-Ulrich Fellmann: + 2 trd = de
-
-Revision 1.11  2002/10/08 17:57:47  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/09/07 17:41:23  revo
-Viliam Bur: +sk trd
-
-Revision 1.9  2002/05/09 18:46:25  revo
 -->
 </vortaro>

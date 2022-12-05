@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: temp.xml,v 1.138 2021/06/18 18:20:15 revo Exp $">
+<art mrk="$Id: temp.xml,v 1.182 2022/10/13 19:36:03 revo Exp $">
 <kap>
  <ofc>*</ofc>
  <rad>temp</rad>/o
@@ -60,7 +60,7 @@
          <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>;
        </ekz>
        <ekz>
-         la pastro, kiu mortis <klr>[&#x2026;]</klr> anta&ubreve; nelonga
+         la pastro, kiu mortis <klr>[&#8230;]</klr> anta&ubreve; nelonga
          <tld/>o
          <fnt><bib>F</bib>, <lok>&FE; 25</lok></fnt>;
        </ekz>
@@ -85,14 +85,14 @@
         </fnt>;
        </ekz>
        <ekz>
-        pluvo en <tld/>o de rikolto <klr>[&#x2026;]</klr> ne konvenas
+        pluvo en <tld/>o de rikolto <klr>[&#8230;]</klr> ne konvenas
         <fnt>
           <bib>MT</bib>
           <lok>Sentencoj 26:1</lok>
         </fnt>;
        </ekz>
        <ekz>
-         personoj <klr>[&#x2026;]</klr> povas en la unua <tld/>o tute ne uzi la
+         personoj <klr>[&#8230;]</klr> povas en la unua <tld/>o tute ne uzi la
          artikolon
          <fnt><bib>F</bib>, <lok>&FE; 27</lok></fnt>;
        </ekz>
@@ -111,7 +111,6 @@
        <ref cel="period.0o">periodo</ref>,
        <ref cel="sezon.0o">sezono</ref>
      </refgrp>
-     <trd lng="de"/>
      <trd lng="ru">&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>
      <trd lng="ca">temps</trd>
      <trd lng="es">tiempo</trd>
@@ -173,7 +172,6 @@
         </fnt>.
        </ekz>
      </dif>
-     <trd lng="de"/>
      <trd lng="pl">pora</trd>
      <trdgrp lng="ru">
        <trd>&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>,
@@ -197,10 +195,11 @@
         </fnt>;
       </ekz>
       <ekz>
-        ekzakta <tld/>omezuro necesas por pruvi kelkajn asertojn de <nom>Einstein</nom>-a relativec-teorio
+        ekzakta <tld/>omezuro necesas por pruvi kelkajn asertojn de <nom>Einstein</nom>-a
+        relativec-teorio
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007024.html">Tempo: 
+          <vrk><url ref="&Steloj;monato2/007024.html">Tempo: 
           Pli ekzakte ne eblas: Radi-regata horlo&gcirc;o</url></vrk>
         </fnt>;
       </ekz>
@@ -215,7 +214,6 @@
      <refgrp tip="sub">
        <ref cel="sekund.0o.tempo">sekundo</ref>
      </refgrp>
-     <trd lng="de"/>
      <trd lng="fr">temps<klr tip="ind"> (grandeur physique)</klr></trd>
      <trd lng="ca">temps</trd>
      <trd lng="es">tiempo</trd>
@@ -224,10 +222,9 @@
        <trd>tempo</trd>
      </trdgrp>
      <trd lng="ru">&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>
-     <trd lng="zh">&#x65F6;&#x95F4; [<ind>sh&iacute; ji&#x101;n</ind>]</trd>
+     <trd lng="zh">&#x65F6;&#x95F4; [<ind>sh&iacute; ji&amacron;n</ind>]</trd>
    </subsnc>
    <ref tip="vid" cel="spac.0o">spaco</ref>
-   <trd lng="de"/>
    <trdgrp lng="id">
      <trd>masa</trd>,
      <trd>tempo</trd>,
@@ -236,7 +233,7 @@
    <trd lng="es">tiempo</trd>
    <trd lng="it">tempo</trd>
    <trd lng="ru">&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>
- </snc>
+  </snc>
 
  <snc mrk="temp.0o.GRA">
    <uzo tip="fak">GRA</uzo>
@@ -251,7 +248,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        ili <klr>[&#x2026;]</klr> uzis verbojn en prezenca <tld/>o (as-formo)
+        ili <klr>[&#8230;]</klr> uzis verbojn en prezenca <tld/>o (as-formo)
         <fnt>
           <bib>Monato</bib>
           <aut>Paulo Sergio Viana</aut>
@@ -279,7 +276,7 @@
    <trd lng="id">kala</trd>
    <trd lng="it">tempo<klr> (gram.)</klr></trd>
    <trd lng="ru">&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>
-   <trd lng="zh">&#x65F6;&#x6001; [<ind>sh&iacute; t&agrave;i</ind>]</trd>
+   <trd lng="zh">&#x65F6;&#24577; [<ind>sh&iacute; t&agrave;i</ind>]</trd>
  </snc>
  <snc mrk="temp.0o.MUZ">
    <uzo tip="fak">MUZ</uzo>
@@ -302,34 +299,111 @@
    <trd lng="ru">&c_d;&c_o;&c_l;&c_ja; <klr>(&c_m;&c_u;&c_z;., 
 &c_u;&c_s;&c_t;.)</klr></trd>
  </snc>
+  <trd lng="af">tyd</trd>
+  <trd lng="am">&#x130A;&#x12DC;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_w;&a_q;&a_t;</trd>
+  <trd lng="az">vaxt</trd>
   <trdgrp lng="be">
-   <trd>&c_ch;&c_a;&c_s;</trd>,
-   <trd>&c_t;&c_e;&c_r;&c_m;&c_ib;&c_n;</trd>
- </trdgrp>
+    <trd>&c_ch;&c_a;&c_s;</trd>,
+    <trd>&c_t;&c_e;&c_r;&c_m;&c_ib;&c_n;</trd>
+  </trdgrp>
+  <trd lng="bn">&#x9B8;&#x9AE;&#x9AF;&#x9BC;</trd>
+  <trd lng="bo">&t_da;&t_shabchu;&t_sa;&t_tsheg;&t_tsha;&t_naro;&t_da;&t_tsheg;</trd>
+  <trd lng="bs">vrijeme</trd>
+  <trd lng="co">tempu</trd>
   <trdgrp lng="cs">
     <trd>&ccaron;as</trd>,
     <trd>doba</trd>
   </trdgrp>
+  <trd lng="cy">amser</trd>
+  <trd lng="da">tid</trd>
   <trd lng="de">Zeit</trd>
   <trd lng="en">time</trd>
   <trd lng="es">tiempo</trd>
+  <trd lng="et">aeg</trd>
+  <trd lng="eu">denbora</trd>
   <trd lng="fr">temps<klr tip="ind"> (t. s. sauf 
-m&eacute;t&eacute;o)</klr></trd>
+    m&eacute;t&eacute;o)</klr></trd>
+  <trd lng="fy">as</trd>
+  <trd lng="ga">am</trd>
+  <trd lng="gd">&ugrave;ine</trd>
+  <trd lng="gl">tempo</trd>
+  <trd lng="gu">&#xAB8;&#xAAE;&#xAAF;</trd>
+  <trd lng="ha">lokaci</trd>
+  <trd lng="hi">&#2360;&#x92E;&#x92F;</trd>
+  <trd lng="hmn">lub sij hawm</trd>
+  <trd lng="hr">vrijeme</trd>
+  <trd lng="ht">tan</trd>
   <trd lng="he">&zayin;&mem;&fnun;</trd>
   <trd lng="hu">id&odblac;</trd>
+  <trd lng="hy">&#x56A;&#1377;&#1396;&#1377;&#1398;&#1377;&#x56F;</trd>
+  <trd lng="ig">oge</trd>
+  <trd lng="is">t&iacute;mi</trd>
+  <trd lng="ja">&#26178;&#38291;</trd>
+  <trd lng="jv">wektu</trd>
+  <trd lng="ka">&#x10D3;&#x10E0;&#x10DD;</trd>
+  <trd lng="kk">&c_u;&c_a;&#x49B;&c_y;&c_t;</trd>
+  <trd lng="km">&#6038;&#x17C1;&#x179B;&#x179C;&#x17C1;&#x179B;&#x17B6;</trd>
+  <trd lng="kn">&#xCB8;&#xCAE;&#xCAF;</trd>
+  <trd lng="ko">&#xC2DC;&#xAC04;</trd>
+  <trd lng="ku">dem</trd>
+  <trd lng="ky">&c_u;&c_b;&c_a;&c_k;&c_y;&c_t;</trd>
+  <trd lng="lat">tempore</trd>
+  <trd lng="lo">&#xE97;&#xEB5;&#xEC8;&#xEC3;&#xE8A;&#xEC9;&#xEC0;&#xEA7;&#xEA5;&#xEB2;</trd>
+  <trd lng="lt">laikas</trd>
+  <trd lng="lv">laiks</trd>
+  <trd lng="mg">fotoana</trd>
+  <trd lng="mi">te w&amacron;</trd>
+  <trd lng="mk">&c_v;&c_r;&c_je;&c_m;&c_je;</trd>
+  <trd lng="ml">&#xD15;&#xD3E;&#xD32;&#xD02;</trd>
+  <trd lng="mn">&c_c;&c_a;&c_g;</trd>
+  <trd lng="mr">&#2357;&#2375;&#2355;</trd>
+  <trd lng="ms">masa</trd>
+  <trd lng="mt">&#295;in</trd>
+  <trd lng="my">&#4129;&#4097;&#x103B;&#x102D;&#4116;&#x103A;</trd>
+  <trd lng="ne">&#2360;&#x92E;&#x92F;</trd>
   <trd lng="nl">tijd</trd>
+  <trd lng="ny">nthawi</trd>
+  <trd lng="pa">&#xA35;&#xA3E;&#xA30;</trd>
   <trd lng="pl">czas</trd>
+  <trd lng="ps">&a_w;&a_kh;&a_t;</trd>
   <trd lng="ro">timp</trd>
+  <trd lng="ru">&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>
+  <trd lng="rw">igihe</trd>
+  <trd lng="sd">&a_w;&a_q;&a_t;</trd>
+  <trd lng="si">&#xD9A;&#xDCF;&#xDBD;&#xDBA;</trd>
   <trdgrp lng="sk">
-    <trd>&ccaron;as</trd>,
-    <trd>doba</trd>
+    <trd>doba</trd>,
+    <trd>&ccaron;as</trd>
   </trdgrp>
+  <trd lng="sl">&ccaron;as</trd>
+  <trd lng="sm">taimi</trd>
+  <trd lng="sn">nguva</trd>
+  <trd lng="so">waqtiga</trd>
+  <trd lng="sq">koha</trd>
+  <trd lng="st">nako</trd>
+  <trd lng="su">waktu</trd>
+  <trd lng="sw">wakati</trd>
+  <trd lng="ta">&#xBA8;&#xBC7;&#xBB0;&#xBAE;&#xBCD;</trd>
+  <trd lng="te">&#xC38;&#xC2E;&#xC2F;&#xC02;</trd>
+  <trd lng="tg">&c_v;&c_a;&#x49B;&c_t;</trd>
+  <trd lng="th">&#xE40;&#xE27;&#xE25;&#xE32;</trd>
+  <trd lng="tl">oras</trd>
   <trdgrp lng="tr">
-   <trd>zaman</trd>,
-   <trd>vakit</trd>
- </trdgrp>
+    <trd>zaman</trd>,
+    <trd>vakit</trd>
+  </trdgrp>
+  <trd lng="tt">&c_v;&c_a;&c_k;&c_y;&c_t;</trd>
+  <trd lng="uk">&c_ch;&c_a;&c_s;</trd>
+  <trd lng="ur">&a_w;&a_q;&a_t;</trd>
+  <trd lng="uz">vaqt</trd>
+  <trd lng="vi">th&#x1EDD;i gian</trd>
   <trd lng="vo">tim</trd>
+  <trd lng="xh">ixesha</trd>
+  <trd lng="yi">&tsadi;&yod;&yod;&#x5B7;&tet;</trd>
+  <trd lng="yo">akoko</trd>
   <trd lng="zh">&#x65F6; [<ind>sh&iacute;</ind>]</trd>
+  <trd lng="zu">nesikhathi</trd>
 </drv>
 
 <drv mrk="temp.T0o">
@@ -346,19 +420,6 @@ m&eacute;t&eacute;o)</klr></trd>
      <ref cel="saturn.0o.mita">Saturno<sncref/></ref>
    </refgrp>
  </snc>
-  <trd lng="af">tyd</trd>
-  <trd lng="am">&#x130A;&#x12DC;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x648;&#x642;&#x62A;</trd>
-  <trd lng="az">vaxt</trd>
-  <trd lng="bn">&#x9B8;&#x9AE;&#x9AF;&#x9BC;</trd>
-  <trd lng="bo">&#xF51;&#xF74;&#xF66;&#xF0B;&#xF5A;&#xF7C;&#xF51;&#xF0B;</trd>
-  <trd lng="bs">vrijeme</trd>
-  <trd lng="co">tempu</trd>
-  <trdgrp lng="cs">
-    <trd>doba</trd>,
-    <trd>&ccaron;as</trd>
-  </trdgrp>
-  <trd lng="da">tid</trd>
   <trdgrp lng="de">
     <trd>Zeit <klr>(Gott, Chronos)</klr></trd>,
     <trd>Chronos</trd>
@@ -366,53 +427,26 @@ m&eacute;t&eacute;o)</klr></trd>
   <trdgrp lng="en">
    <trd>Time</trd>,
    <trd>Father Time</trd>
- </trdgrp>
+  </trdgrp>
   <trdgrp lng="es">
    <trd>Padre Tiempo</trd>,
    <trd>Cronos</trd>
- </trdgrp>
-  <trd lng="et">aeg</trd>
-  <trd lng="eu">denbora</trd>
-  <trd lng="fy">as</trd>
-  <trd lng="gl">tempo</trd>
-  <trd lng="gu">&#xAB8;&#xAAE;&#xAAF;</trd>
-  <trd lng="ha">lokaci</trd>
-  <trd lng="hi">&#x938;&#x92E;&#x92F;</trd>
-  <trd lng="hr">vrijeme</trd>
-  <trd lng="hu">Id&odblac;</trd>
-  <trd lng="hy">&#x56A;&#x561;&#x574;&#x561;&#x576;&#x561;&#x56F;</trd>
-  <trd lng="is">t&#xED;mi</trd>
-  <trd lng="it">Padre Tempo</trd>
-  <trd lng="ja">&#x6642;&#x9593;</trd>
-  <trd lng="jw">wektu</trd>
-  <trd lng="ka">&#x10D3;&#x10E0;&#x10DD;</trd>
-  <trd lng="km">&#x1796;&#x17C1;&#x179B;&#x179C;&#x17C1;&#x179B;&#x17B6;</trd>
-  <trd lng="ko">&#xC2DC;&#xAC04;</trd>
-  <trd lng="lo">&#xE97;&#xEB5;&#xEC8;&#xEC3;&#xE8A;&#xEC9;&#xEC0;&#xEA7;&#xEA5;&#xEB2;</trd>
-  <trd lng="ml">&#xD15;&#xD3E;&#xD32;&#xD02;</trd>
-  <trd lng="mr">&#x935;&#x947;&#x933;</trd>
-  <trd lng="my">&#x1021;&#x1001;&#x103B;&#x102D;&#x1014;&#x103A;</trd>
-  <trd lng="ne">&#x938;&#x92E;&#x92F;</trd>
-  <trd lng="ny">nthawi</trd>
-  <trd lng="pa">&#xA35;&#xA3E;&#xA30;</trd>
-  <trd lng="pl">Czas</trd>
-  <trd lng="ps">&#x648;&#x62E;&#x62A;</trd>
-  <trd lng="ru">&c_V;&c_r;&c_je;&c_m;&c_ja;</trd>
-  <trd lng="sd">&#x648;&#x642;&#x62A;</trd>
-  <trd lng="si">&#xD9A;&#xDCF;&#xDBD;&#xDBA;</trd>
-  <trdgrp lng="sk">
-    <trd>doba</trd>,
-    <trd>&ccaron;as</trd>
   </trdgrp>
-  <trd lng="sq">koha</trd>
-  <trd lng="ta">&#xBA8;&#xBC7;&#xBB0;&#xBAE;&#xBCD;</trd>
-  <trd lng="te">&#xC38;&#xC2E;&#xC2F;&#xC02;</trd>
-  <trd lng="th">&#xE40;&#xE27;&#xE25;&#xE32;</trd>
-  <trd lng="tl">oras</trd>
-  <trd lng="ur">&#x648;&#x642;&#x62A;</trd>
-  <trd lng="vi">th&#x1EDD;i gian</trd>
-  <trd lng="yi">&#x5E6;&#x5D9;&#x5D9;&#x5B7;&#x5D8;</trd>
-  <trd lng="zu">nesikhathi</trd>
+  <trd lng="hu">Id&odblac;</trd>
+  <trd lng="it">Padre Tempo</trd>
+  <trd lng="pl">Czas</trd>
+  <trd lng="ru">&c_V;&c_r;&c_je;&c_m;&c_ja;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_ch;&c_a;&c_s;</trd>,
+    <trd>&c_ch;&c_a;&c_s;&c_i;</trd>,
+    <trd>&#x43F;&#x43E;&c_r;&c_a;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_ib;&#x43E;&c_d;</trd>,
+    <trd>&c_h;&c_v;&c_i;&#x43B;&#x44F;</trd>,
+    <trd>&#x43C;&#x43E;&#x43C;&c_je;&#x43D;&c_t;</trd>,
+    <trd>&c_s;&c_t;&c_r;&#x43E;&#x43A;</trd>,
+    <trd>&c_t;&c_je;&c_r;&#x43C;&c_ib;&#x43D;</trd>,
+    <trd>&c_t;&c_je;&#x43C;&#x43F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.0i">
@@ -426,7 +460,7 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007198.html">Poezio sed ne poemoj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007198.html">Poezio sed ne poemoj</url></vrk>
         </fnt>;
      </ekz>
      <ekz>
@@ -529,9 +563,9 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        &scirc;i <klr>[&#x2026;]</klr> mortis dum anta&ubreve;<tld/>a aku&scirc;o
+        &scirc;i <klr>[&#8230;]</klr> mortis dum anta&ubreve;<tld/>a aku&scirc;o
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Vratislav_la_2-a_(Bohemio)">Vratislav la 2-a (Bohemio)</url></vrk>
+          <vrk><url ref="&Viki;/Vratislav_la_2-a_(Bohemio)">Vratislav la 2-a (Bohemio)</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -579,6 +613,7 @@ m&eacute;t&eacute;o)</klr></trd>
  <trd lng="pl">przedwczesny</trd>
  <trd lng="ro">&icirc;nainte de timp</trd>
  <trd lng="ru">&c_p;&c_r;&c_je;&c_zh;&c_d;&c_je;&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&c_d;&c_ch;&c_a;&c_s;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="temp.de0ede">
@@ -636,14 +671,15 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        de <tld/>o al <tld/>o en la nokto venas la maljuna administranto de la palaco, kiu tie devas &ccirc;ion kontroladi
+        de <tld/>o al <tld/>o en la nokto venas la maljuna administranto de la palaco, kiu tie devas
+        &ccirc;ion kontroladi
         <fnt>
           <bib>Fab1</bib>
           <lok>Floroj de la malgranda Ida</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la infano ku&scirc;is pala, <klr>[&#x2026;]</klr> &gcirc;ia spirado estis malla&ubreve;ta,
+        la infano ku&scirc;is pala, <klr>[&#8230;]</klr> &gcirc;ia spirado estis malla&ubreve;ta,
         nur de <tld/>o al <tld/>o interrompata de profunda enspiro
         <fnt>
           <bib>Fab3</bib>
@@ -651,7 +687,7 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        tiaj festenoj <klr>[&#x2026;]</klr> povis okazi nur <tld/>al<tld/>e
+        tiaj festenoj <klr>[&#8230;]</klr> povis okazi nur <tld/>al<tld/>e
         <fnt>
           <aut>M. K. Gandhi, trad. A Giridhar Rao</aut>,
           <vrk><url ref="http://agrao.50webs.com/gandhi/eksperimentoj/unua/tradegio-2.htm">
@@ -662,7 +698,8 @@ m&eacute;t&eacute;o)</klr></trd>
       <ekz>
         uzi <tld/>altempe kondomojn estas preska&ubreve; la sama afero kiel entute ne uzi ilin
         <fnt>
-          <vrk><url ref="https://groups.google.com/d/msg/soc.culture.esperanto/bQEdwqv0I10/SPaaDwhrkJYJ">Reago
+          <vrk><url
+          ref="https://groups.google.com/d/msg/soc.culture.esperanto/bQEdwqv0I10/SPaaDwhrkJYJ">Reago
           al: La reagoj al la Papa parolado en Regensburgo</url></vrk>
         </fnt>.
       </ekz>
@@ -672,7 +709,7 @@ m&eacute;t&eacute;o)</klr></trd>
     <trd>&c_ch;&c_a;&c_s; &c_a;&c_d; &c_ch;&c_a;&c_s;&c_u;</trd>,
     <trd>&c_r;&c_a;&c_z;-&c_p;&c_o;&c_r;&c_a;&c_z;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF58;&#xF5A;&#xF58;&#xF66;&#xF0B;&#xF58;&#xF5A;&#xF58;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_ma;&t_tsha;&t_ma;&t_sa;&t_tsheg;&t_ma;&t_tsha;&t_ma;&t_sa;&t_tsheg;</trd>
   <trdgrp lng="de">
     <trd>von <ind>Zeit zu Zeit</ind></trd>,
     <trd>bisweilen</trd>,
@@ -717,14 +754,15 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        ili <klr>[&#x2026;]</klr> kredas nur por<tld/>e, kaj en <tld/>o de tento ili defalas
+        ili <klr>[&#8230;]</klr> kredas nur por<tld/>e, kaj en <tld/>o de tento ili defalas
         <fnt>
           <bib>NT</bib>
           <lok>Luko 8:13</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la privataj kompanioj anstata&ubreve;igis siajn konstantajn dungitojn per por<tld/>aj, malpli bone salajrataj laboristoj
+        la privataj kompanioj anstata&ubreve;igis siajn konstantajn dungitojn per por<tld/>aj, malpli bone
+        salajrataj laboristoj
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Jasuo</aut>
@@ -736,7 +774,8 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Rob Ebenau</aut>
-          <vrk><url ref="&Monato;/2005/008528.php">Kiel protekti kontra&ubreve; perdo kaj &scirc;telo?</url></vrk>
+          <vrk><url ref="&Monato;/2005/008528.php">Kiel protekti kontra&ubreve; perdo kaj
+          &scirc;telo?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -744,7 +783,7 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Angela Tellier</aut>
-          <vrk><url ref="https://www.monato.be/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
+          <vrk><url ref="&Monato;/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -752,7 +791,7 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="https://www.monato.be/2004/008358.html">Kuracbaneje</url></vrk>
+          <vrk><url ref="&Monato;/2004/008358.html">Kuracbaneje</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -796,6 +835,7 @@ m&eacute;t&eacute;o)</klr></trd>
     <trd>proviz&oacute;rny</trd>,
     <trd>s&uacute;&ccaron;asn&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&c_t;&c_i;&#x43C;&c_ch;&c_a;&c_s;&#x43E;&c_v;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="temp.eks0a">
@@ -918,21 +958,21 @@ m&eacute;t&eacute;o)</klr></trd>
         doni al ili nutra&jcirc;on &gcirc;usta<tld/>e
         <fnt>
           <bib>NT</bib>
-          <lok>Mateo 24:45</lok>
+          <lok>&Mat; 24:45</lok>
         </fnt>;
       </ekz>
       <ekz>
         &gcirc;usta<tld/>e ni rikoltos, se ni ne senforti&gcirc;os
         <fnt>
           <bib>NT</bib>
-          <lok>Galatoj 6:9</lok>
+          <lok>&Gal; 6:9</lok>
         </fnt>;
       </ekz>
       <ekz>
         &gcirc;usta<tld/>a helpo
         <fnt>
           <bib>NT</bib>
-          <lok>Hebreoj 4:16</lok>
+          <lok>&Heb; 4:16</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -946,7 +986,7 @@ m&eacute;t&eacute;o)</klr></trd>
         oni ne donis &gcirc;usta<tld/>e la necesajn aferojn
         <fnt>
           <bib>Far3</bib>
-          <lok>&Ccirc;apitro II</lok>
+          <lok>&ccirc;apitro 2a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -1000,6 +1040,41 @@ m&eacute;t&eacute;o)</klr></trd>
  </trdgrp>
  <trd lng="ro">la <ind>timp</ind></trd>
  <trd lng="ru">&c_s;&c_v;&c_o;&c_je;&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_o;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_v;&#x43E;&c_jeu;&c_ch;&c_a;&c_s;&#x43D;&#x43E;</trd>,
+    <trd>&c_v;&c_ch;&c_a;&c_s;&#x43D;&#x43E;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="temp.gxusta0i">
+  <kap>
+    &gcirc;usta<tld/>i
+  </kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="temp.gxusta0i.KOMUNE">
+    <dif>
+      Okazi, agi en la ta&ubreve;ga, difinita <tld/>o:
+      <ekz>
+        la revuo &gcirc;usta<tld/>as
+        <fnt>
+          <aut>R. Pavinski</aut>
+          <vrk><url
+          ref="https://www.tejo.org/wp-content/uploads/2016/10/Jarraporto-2010-2011.pdf">Jarraporto
+          de TEJO</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Balino &gcirc;usta<tld/>is por mankapti la boaton, anta&ubreve; ol &gcirc;i forflosus
+        <fnt>
+          <aut>J. R. R. Tolkien, trad. C. Gledhill</aut>
+          <vrk>La Hobito</vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&ecirc;tre <ind>&agrave; l'heure</ind></trd>
 </drv>
 
 <drv mrk="temp.inter0e">
@@ -1018,17 +1093,17 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006821.html">E&ubreve;ropa Unio: E&ubreve;ro unujara</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006821.html">E&ubreve;ropa Unio: E&ubreve;ro unujara</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la brita registaro suspendis la a&ubreve;tonoman parlamenton demokratie elektitan
-        de la nordirlanda popolo <klr>[&#x2026;]</klr> inter<tld/>e Nord-Irlando refoje 
+        de la nordirlanda popolo <klr>[&#8230;]</klr> inter<tld/>e Nord-Irlando refoje 
         estos rekte regata de Londono
         <fnt>
           <bib>Monato</bib>
-          <aut>PGubbins</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006913.html">Irlando: 
+          <aut>P. Gubbins</aut>
+          <vrk><url ref="&Steloj;monato2/006913.html">Irlando: 
           Karuselo de seniluzii&gcirc;o</url></vrk>
         </fnt>.
       </ekz>
@@ -1039,7 +1114,7 @@ m&eacute;t&eacute;o)</klr></trd>
     </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_y;&c_m; &c_ch;&c_a;&c_s;&c_a;&c_m;</trd>
-  <trd lng="bo">&#xF51;&#xF74;&#xF66;&#xF0B;&#xF63;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_shabchu;&t_sa;&t_tsheg;&t_la;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>mezit&iacute;m</trd>,
     <trd>prozat&iacute;m</trd>
@@ -1085,6 +1160,7 @@ m&eacute;t&eacute;o)</klr></trd>
     <trd>medzit&yacute;m</trd>,
     <trd>medzi&ccaron;asom</trd>
   </trdgrp>
+  <trd lng="uk">&c_t;&c_i;&#x43C; &c_ch;&c_a;&c_s;&#x43E;&#x43C;</trd>
 </drv>
 
 <drv mrk="temp.inter0o">
@@ -1113,7 +1189,8 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        tiuj &ccirc;i superfluaj tagoj, kiuj sin trovas en la inter<tld/>o inter la kuranta jaro kaj la ser&ccirc;ata
+        tiuj &ccirc;i superfluaj tagoj, kiuj sin trovas en la inter<tld/>o inter la kuranta jaro kaj la
+        ser&ccirc;ata
         <fnt>
           <bib>FK</bib>
         </fnt>.
@@ -1129,6 +1206,10 @@ m&eacute;t&eacute;o)</klr></trd>
   <trd lng="fr">intervalle<klr> (de temps)</klr></trd>
   <trd lng="id">selang <ind>waktu</ind></trd>
   <trd lng="sk">medzi&ccaron;as</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&c_r;&#x43E;&#x43C;&c_ib;&c_zh;&#x43E;&#x43A;</trd>,
+    <trd>&c_ib;&#x43D;&c_t;&c_je;&c_r;&c_v;&c_a;&#x43B;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.lasta0e">
@@ -1140,22 +1221,24 @@ m&eacute;t&eacute;o)</klr></trd>
         en la kasoj sin amasis lasta<tld/>e nur aer'
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        lastatempe <klr>[&#x2026;]</klr> oni malkovris la plej grandan kvanton de kokaino, kiu iam eniris Rumanion
+        lastatempe <klr>[&#8230;]</klr> oni malkovris la plej grandan kvanton de kokaino, kiu iam eniris
+        Rumanion
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9310-artikoletoj.txt">Malkopiilo</url></vrk>
+          <vrk><url ref="&Steloj;monato1/monato-9310-artikoletoj.txt">Malkopiilo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        preska&ubreve; 30&nbsp;% de la litova popolo konsideras sin a&ubreve; malri&ccirc;ega a&ubreve; simple malri&ccirc;a, la&ubreve; lasta<tld/>a enketo
+        preska&ubreve; 30&nbsp;% de la litova popolo konsideras sin a&ubreve; malri&ccirc;ega a&ubreve; simple malri&ccirc;a, la&ubreve;
+        lasta<tld/>a enketo
         <fnt>
           <bib>Monato</bib>
           <aut>Last</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006804.html">Litovio: Mizera statistiko</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006804.html">Litovio: Mizera statistiko</url></vrk>
         </fnt>.
       </ekz>
    </dif>
@@ -1165,7 +1248,7 @@ m&eacute;t&eacute;o)</klr></trd>
      <trd>k&uuml;rzlich</trd>
    </trdgrp>
  </snc>
-  <trd lng="bo">&#xF49;&#xF7A;&#xF0B;&#xF46;&#xF62;&#xF0B;</trd>
+  <trd lng="bo">&t_nya;&t_drengbu;&t_tsheg;&t_cha;&t_ra;&t_tsheg;</trd>
   <trd lng="cs">v posledn&iacute; dob&ecaron;</trd>
   <trdgrp lng="en">
    <trd>lately</trd>,
@@ -1175,6 +1258,7 @@ m&eacute;t&eacute;o)</klr></trd>
    <trd>&uacute;ltimamente</trd>,
    <trd>recientemente</trd>
  </trdgrp>
+  <trd lng="fr">ces derniers temps</trd>
   <trdgrp lng="id">
    <trd><ind>akhir</ind>-akhir ini</trd>,
    <trd><ind>baru</ind>-baru ini</trd>,
@@ -1188,6 +1272,7 @@ m&eacute;t&eacute;o)</klr></trd>
    <trd>ostatnim razem</trd>
  </trdgrp>
   <trd lng="sk">v poslednej dobe</trd>
+  <trd lng="uk">&#x43E;&c_s;&c_t;&c_a;&#x43D;&#x43D;&c_ib;&#x43C; &c_ch;&c_a;&c_s;&#x43E;&#x43C;</trd>
 </drv>
 
 <drv mrk="temp.liber0i">
@@ -1223,29 +1308,31 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-       mi havos <klr>[&#x2026;]</klr> du monatojn da liber<tld/>o
+       mi havos <klr>[&#8230;]</klr> du monatojn da liber<tld/>o
        <fnt><bib>Marta</bib></fnt>
       </ekz>
       <ekz>
-        libertempo &dash; mara bordo kun hoteloj, / pavilonoj kun terasoj <klr>[&#x2026;]</klr>
+        libertempo &dash; mara bordo kun hoteloj, / pavilonoj kun terasoj <klr>[&#8230;]</klr>
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;iuj altrangaj oficistoj dum la lasta semajno de la jaro <klr>[&#x2026;]</klr> havos senpagan liber<tld/>on
+        &ccirc;iuj altrangaj oficistoj dum la lasta semajno de la jaro <klr>[&#8230;]</klr> havos senpagan
+        liber<tld/>on
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Straznickas</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006806.html">Litovio: &Ccirc;iea &scirc;parado</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006806.html">Litovio: &Ccirc;iea &scirc;parado</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         mi decidis voja&gcirc;i al Seborgo dum mia liber<tld/>o
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa lando?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa
+          lando?</url></vrk>
         </fnt>.
       </ekz>
    </dif>
@@ -1301,6 +1388,10 @@ m&eacute;t&eacute;o)</klr></trd>
     <trd>dovolenka</trd>,
     <trd>pr&aacute;zdniny</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_ib;&c_d;&#x43F;&c_u;&c_s;&c_t;&#x43A;&c_a;</trd>,
+    <trd>&#x43D;&c_je;&c_r;&#x43E;&c_b;&#x43E;&c_ch;&c_i;&c_j; &c_ch;&c_a;&c_s;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.long0e">
@@ -1321,7 +1412,8 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        tio estis tiel longa<tld/>e anta&ubreve;e, ke kiam la avo de la avo prirakontis, li nomis tion la malnovaj <tld/>oj
+        tio estis tiel longa<tld/>e anta&ubreve;e, ke kiam la avo de la avo prirakontis, li nomis tion la
+        malnovaj <tld/>oj
         <fnt>
           <bib>Fab3</bib>
           <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
@@ -1378,6 +1470,10 @@ m&eacute;t&eacute;o)</klr></trd>
   <trd lng="ro">lung</trd>
   <trd lng="ru">&c_d;&c_o;&c_l;&c_g;&c_o;</trd>
   <trd lng="sk">dlho</trd>
+  <trdgrp lng="uk">
+    <trd>&c_d;&#x43E;&c_v;&c_g;&c_i;&c_j; &c_ch;&c_a;&c_s;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_t;&#x44F;&c_g;&#x43E;&#x43C; &c_d;&#x43E;&c_v;&c_g;&#x43E;&c_g;&#x43E; &c_ch;&c_a;&c_s;&c_u;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.nun0o">
@@ -1392,14 +1488,14 @@ m&eacute;t&eacute;o)</klr></trd>
      </ekz>
       <ekz>
         nun<tld/>e oni klarigas tiaspecajn aerajn fenomenojn per norda lumo
-        <klr>[&#x2026;]</klr> kredeble ili naski&gcirc;as per la elektra forto
+        <klr>[&#8230;]</klr> kredeble ili naski&gcirc;as per la elektra forto
         <fnt>
           <bib>Fab1</bib>
           <lok>Galo&scirc;oj de feli&ccirc;o</lok>
         </fnt>;
       </ekz>
       <ekz>
-        li <klr>[&#x2026;]</klr> benis la feli&ccirc;an nun<tld/>econ, la nunan epokon
+        li <klr>[&#8230;]</klr> benis la feli&ccirc;an nun<tld/>econ, la nunan epokon
         <fnt>
           <bib>Fab1</bib>
           <lok>Galo&scirc;oj de feli&ccirc;o</lok>
@@ -1437,7 +1533,7 @@ m&eacute;t&eacute;o)</klr></trd>
  </snc>
   <trd lng="be">&c_c;&c_ja;&c_p;&c_je;&c_r;&c_a;&c_sh;&c_n;&c_ib;
  <ind>&c_ch;&c_a;&c_s;</ind></trd>
-  <trd lng="bo">&#xF51;&#xF0B;&#xF63;&#xF9F;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_tsheg;&t_la;&t_tata;&t_tsheg;</trd>
   <trd lng="br">amzer-vrema&ntilde;</trd>
   <trdgrp lng="cs">
     <trd>dne&scaron;ek</trd>,
@@ -1472,6 +1568,11 @@ m&eacute;t&eacute;o)</klr></trd>
     <trd>s&uacute;&ccaron;asnos&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">nutid</trd>
+  <trdgrp lng="uk">
+    <trd>&c_t;&c_je;&#x43F;&c_je;&c_r;&c_ib;&c_sh;&#x43D;&c_ib;&c_j; &c_ch;&c_a;&c_s;</trd>,
+    <trd>&c_s;&c_u;&c_ch;&c_a;&c_s;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&c_s;&#x44C;&#x43E;&c_g;&#x43E;&c_d;&c_je;&#x43D;&#x43D;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.post0a">
@@ -1481,9 +1582,10 @@ m&eacute;t&eacute;o)</klr></trd>
      Okazanta post la ta&ubreve;ga <tld/>o, tro <ref tip="sin" cel="fru.mal0a">malfrua</ref>;
      rilata al pli posta <tld/>o:
      <ekz>
-       nur tiel ni povas elbatali niajn <klr>[&#x2026;]</klr>
+       nur tiel ni povas elbatali niajn <klr>[&#8230;]</klr>
        post<tld/>ajn salajrojn
-       <fnt><vrk><url ref="https://web.archive.org/web/20031010101442/http://esperantaalternativo.republika.pl/interhelpo/ih2.html">
+       <fnt><vrk><url
+       ref="https://web.archive.org/web/20031010101442/http://esperantaalternativo.republika.pl/interhelpo/ih2.html">
        Laborista Iniciato de Anarkiista Federacio</url>
        </vrk></fnt>.
      </ekz>
@@ -1515,6 +1617,7 @@ m&eacute;t&eacute;o)</klr></trd>
    <trd>sucesivo</trd>,
    <trd>tard&iacute;o</trd>
  </trdgrp>
+ <trd lng="fr">en retard</trd>
  <trdgrp lng="hu">
    <trd>megk&eacute;sett</trd>,
    <trd>elmaradt</trd>,
@@ -1535,6 +1638,10 @@ m&eacute;t&eacute;o)</klr></trd>
    <trd>zaleg&lstroke;y</trd>,
  </trdgrp>
  <trd lng="ro">ulterior</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&c_ib;&c_z;&#x43D;&c_ib;&c_j;</trd>,
+    <trd>&c_z;&c_a;&#x43F;&c_ib;&c_z;&#x43D;&c_ib;&#x43B;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.pra0o">
@@ -1543,7 +1650,8 @@ m&eacute;t&eacute;o)</klr></trd>
     <dif>
       Tre antikva tempo:
       <ekz>
-        en puraj moroj kaj popolaj kantoj iel regas atmosfero mistera kun influoj el Hindujo pra<tld/>a
+        en puraj moroj kaj popolaj kantoj iel regas atmosfero mistera kun influoj el Hindujo
+        pra<tld/>a
         <fnt>
           <bib>VivZam</bib>
         </fnt>;
@@ -1561,7 +1669,7 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007205.html">Kosovo: Voja&gcirc;impresoj, somero 2000</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007205.html">Kosovo: Voja&gcirc;impresoj, somero 2000</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -1569,24 +1677,27 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007151.html">900 km tra montbicikla paradizo</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007151.html">900 km tra montbicikla paradizo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        la&ubreve; alia teorio, en pra<tld/>o &leftquot;<nac>atta</nac>&rightquot; signifis adoptan patron, patrinflankan onklon a&ubreve; patrinflankan avon
+        la&ubreve; alia teorio, en pra<tld/>o &leftquot;<nac>atta</nac>&rightquot; signifis adoptan patron, patrinflankan
+        onklon a&ubreve; patrinflankan avon
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
-          <vrk><url ref="https://www.monato.be/2004/008374.html">Hinde&ubreve;ropaj etimoj (2)</url></vrk>
+          <vrk><url ref="&Monato;/2004/008374.html">Hinde&ubreve;ropaj etimoj (2)</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        en la pra<tld/>o de la personaj komputiloj (tio estis anta&ubreve; malpli ol 15 jaroj!) tri programoj superregis la oficejojn
+        en la pra<tld/>o de la personaj komputiloj (tio estis anta&ubreve; malpli ol 15 jaroj!) tri
+        programoj superregis la oficejojn
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Monato;/2005/008660.php">De triopa monopolo al mikrosofta monopolo</url></vrk>
+          <vrk><url ref="&Monato;/2005/008660.php">De triopa monopolo al mikrosofta
+          monopolo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -1606,6 +1717,7 @@ m&eacute;t&eacute;o)</klr></trd>
     <trd>d&aacute;vnovek</trd>,
     <trd>pravek</trd>
   </trdgrp>
+  <trd lng="uk">&#x43F;&c_je;&c_r;&c_v;&c_ib;&c_s;&#x43D;&c_ib; &c_ch;&c_a;&c_s;&c_i;</trd>
 </drv>
 
 <drv mrk="temp.prov0o">
@@ -1642,13 +1754,15 @@ m&eacute;t&eacute;o)</klr></trd>
        estis kondamnita la tendarestro <nom>Milo&scirc;</nom> je 15 monatoj kaj
        pastro <nom>Srna</nom> je 12 monatoj de karcera restado kun trijara
        prokrasta prov<tld/>o
-       <fnt><vrk>Dio benu</vrk>, <lok><url ref="http://mujweb.atlas...cz/spolecnost/svacek/41DIOBEN.HTM">
+       <fnt><vrk>Dio benu</vrk>, <lok><url
+       ref="http://mujweb.atlas...cz/spolecnost/svacek/41DIOBEN.HTM">
        http://mujweb.atlas.cz/spolecnost/svacek/41DIOBEN.HTM</url></lok>
        </fnt>;
      </ekz>
      <ekz>
        oni promesis al ni sesmonatan da&ubreve;ron kiel prov<tld/>on
-       <fnt><vrk>Esperanto sub la Suda Kruco</vrk><lok><url ref="http://www.sudakruco.org/012/09.html">1994-11/12</url></lok>
+       <fnt><vrk>Esperanto sub la Suda Kruco</vrk><lok><url
+       ref="http://www.sudakruco.org/012/09.html">1994-11/12</url></lok>
        </fnt>.
      </ekz>
    </dif>
@@ -1676,6 +1790,8 @@ m&eacute;t&eacute;o)</klr></trd>
   <trd lng="ru">&c_i;&c_s;&c_p;&c_y;&c_t;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; 
 &c_s;&c_r;&c_o;&c_k;</trd>
   <trd lng="sk">sk&uacute;&scaron;obn&aacute; doba</trd>
+  <trd lng="uk">&c_v;&c_i;&#x43F;&c_r;&#x43E;&c_b;&#x43D;&c_i;&c_j; <klr>(&c_a;&c_b;&#x43E; &c_ib;&c_s;&#x43F;&c_i;&c_t;&#x43E;&c_v;&c_i;&c_j;)</klr>
+  &c_s;&c_t;&c_r;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="temp.real0a">
@@ -1707,7 +1823,8 @@ m&eacute;t&eacute;o)</klr></trd>
      </ekz>
       <ekz>
         <klr>[tiu]</klr> robota mano tute regata de la pensoj de la uzanto 
-        <klr>[&#x2026;]</klr> imitas la movadon de la natura mano pere de real<tld/>a analizo de la cerba aktiveco
+        <klr>[&#8230;]</klr> imitas la movadon de la natura mano pere de real<tld/>a analizo de la cerba
+        aktiveco
         <fnt>
           <bib>Monato</bib>
           <aut>Oliver Kim</aut>
@@ -1720,7 +1837,8 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>Yazaki Yoko</aut>
-          <vrk><url ref="&Monato;/2015/011442.php">Fuku&scirc;ima kvar jarojn post la granda tertremo</url></vrk>
+          <vrk><url ref="&Monato;/2015/011442.php">Fuku&scirc;ima kvar jarojn post la granda
+          tertremo</url></vrk>
         </fnt>.
       </ekz>
    </dif>
@@ -1737,6 +1855,7 @@ m&eacute;t&eacute;o)</klr></trd>
   <trd lng="it">in <ind>tempo</ind> reale<klr> (inf.)</klr></trd>
   <trd lng="pl">w <ind>czasie</ind> rzeczywistym</trd>
   <trd lng="sk">v re&aacute;lnom &ccaron;ase</trd>
+  <trd lng="uk">&c_r;&c_je;&c_a;&#x43B;&#x44C;&#x43D;&#x43E;&c_g;&#x43E; &c_ch;&c_a;&c_s;&c_u;</trd>
 </drv>
 
 <drv mrk="temp.sam0a">
@@ -1750,7 +1869,8 @@ m&eacute;t&eacute;o)</klr></trd>
         kun sam<tld/>a rapida malboni&gcirc;o de la vivcirkonstancoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9308-naciaj-radikoj.txt">&Ccirc;u reiri al naciaj radikoj?</url></vrk>
+          <vrk><url ref="&Steloj;monato1/monato-9308-naciaj-radikoj.txt">&Ccirc;u reiri al naciaj
+          radikoj?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -1758,15 +1878,16 @@ m&eacute;t&eacute;o)</klr></trd>
         <fnt>
           <bib>Monato</bib>
           <aut>William Simcock</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007022.html">Britio: Jarmila kupolo en Londono</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007022.html">Britio: Jarmila kupolo en Londono</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;iuj &ccirc;i poetinoj naski&gcirc;is inter 1914 kaj 1924, sed iliaj vojoj al Esperanto ne havis sam<tld/>an komencon
+        &ccirc;iuj &ccirc;i poetinoj naski&gcirc;is inter 1914 kaj 1924, sed iliaj vojoj al Esperanto ne havis
+        sam<tld/>an komencon
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo MINNAJA</aut>
-          <vrk><url ref="https://www.monato.be/2003/008021.html">Suno kaj ombroj</url></vrk>
+          <vrk><url ref="&Monato;/2003/008021.html">Suno kaj ombroj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -1836,6 +1957,7 @@ m&eacute;t&eacute;o)</klr></trd>
   <trd lng="ro">concomitent</trd>
   <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">s&uacute;&ccaron;asn&yacute;</trd>
+  <trd lng="uk">&#x43E;&c_d;&#x43D;&#x43E;&c_ch;&c_a;&c_s;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 
@@ -1849,12 +1971,12 @@ m&eacute;t&eacute;o)</klr></trd>
    <dif>
      En la sama momento, tempero a&ubreve; epoko kiel:
       <ekz>
-         <klr>[&#x2026;]</klr> sed &ccirc;iam estos presataj en &ccirc;iuj lernolibroj kaj vortaroj
-         samtempe kun la formoj novaj, <klr>[&#x2026;]</klr>
+         <klr>[&#8230;]</klr> sed &ccirc;iam estos presataj en &ccirc;iuj lernolibroj kaj vortaroj
+         samtempe kun la formoj novaj, <klr>[&#8230;]</klr>
          <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
-        sam<tld/>e, kiam vi a&ccirc;etos la kampon <klr>[&#x2026;]</klr> de <nom>Rut</nom> <klr>[&#x2026;]</klr>,
+        sam<tld/>e, kiam vi a&ccirc;etos la kampon <klr>[&#8230;]</klr> de <nom>Rut</nom> <klr>[&#8230;]</klr>,
         edzino de la mortinto, vi anka&ubreve; prenos sur vin la devon 
         restarigi la nomon de la mortinto al lia hereda&jcirc;o
         <fnt>
@@ -1936,7 +2058,7 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        Vimalakirtio estas <klr>[&#x2026;]</klr> sam<tld/>ano de la budho Gotamo
+        Vimalakirtio estas <klr>[&#8230;]</klr> sam<tld/>ano de la budho Gotamo
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=593514">Vimalakirtio</url></lok>
@@ -1952,8 +2074,9 @@ m&eacute;t&eacute;o)</klr></trd>
        </fnt>.
       </ekz>
    </dif>
- </snc>
+  </snc>
   <trd lng="be">&c_s;&c_u;&c_ch;&c_a;&c_s;&c_mol;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="ca">contemporani</trd>
   <trd lng="cs">sou&ccaron;asn&iacute;k</trd>
   <trd lng="de">Zeitgenosse</trd>
   <trd lng="en">contemporary</trd>
@@ -1965,6 +2088,7 @@ m&eacute;t&eacute;o)</klr></trd>
   <trd lng="pl">wsp&oacute;&lstroke;czesny <klr>(komu)</klr></trd>
   <trd lng="ru">&c_s;&c_o;&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">s&uacute;&ccaron;asn&iacute;k</trd>
+  <trd lng="uk">&c_s;&c_u;&c_ch;&c_a;&c_s;&#x43D;&c_i;&#x43A;</trd>
 </drv>
 
 <drv mrk="temp.sia0e">
@@ -1980,7 +2104,7 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        kun blankaj bukloj kaj ne&gcirc;blanka barbo sidis la vintro, <klr>[&#x2026;]</klr>
+        kun blankaj bukloj kaj ne&gcirc;blanka barbo sidis la vintro, <klr>[&#8230;]</klr>
         li rigardis suden, kiel sidis kaj rigardis sia<tld/>e la anta&ubreve;a vintro
         <fnt>
           <bib>Fab3</bib>
@@ -1988,7 +2112,8 @@ m&eacute;t&eacute;o)</klr></trd>
         </fnt>;
       </ekz>
       <ekz>
-        jen tie malsupre ku&scirc;as Germanujo <klr>[&#x2026;]</klr> kie <nom>Mozart</nom> sia<tld/>e tenis la sceptron de la tonoj
+        jen tie malsupre ku&scirc;as Germanujo <klr>[&#8230;]</klr> kie <nom>Mozart</nom> sia<tld/>e tenis la
+        sceptron de la tonoj
         <fnt>
           <bib>Fab3</bib>
           <lok>Post jarmiloj</lok>
@@ -1996,7 +2121,7 @@ m&eacute;t&eacute;o)</klr></trd>
       </ekz>
       <ekz>
         la verkinto preferas uzi la vorton
-        &leftquot;ka&ccirc;aloto&rightquot;, <klr>[&#x2026;]</klr>
+        &leftquot;ka&ccirc;aloto&rightquot;, <klr>[&#8230;]</klr>
         anstata&ubreve; la vorto &leftquot;makrocefalo&rightquot;, kiun
         <nom>Zamenhof</nom> sia<tld/>e iam uzis
         <fnt>
@@ -2043,6 +2168,10 @@ m&eacute;t&eacute;o)</klr></trd>
    <trd>&c_v; &c_s;&c_v;&c_o;&c_jo; <ind>&c_v;&c_r;&c_je;&c_m;&c_ja;</ind></trd>
   </trdgrp>
   <trd lng="sk">svojho &ccaron;asu</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_v;&#x43E;&c_g;&#x43E; &c_ch;&c_a;&c_s;&c_u;</trd>,
+    <trd>&#x43F;&c_je;&c_v;&#x43D;&c_i;&c_j; &c_ch;&c_a;&c_s;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="temp.somera0o">
@@ -2092,11 +2221,11 @@ m&eacute;t&eacute;o)</klr></trd>
      <ekz>
        lastatempe mi tute ne sukcesis kapti viajn elsendojn post
        la &scirc;an&gcirc;o de la somera <tld/>o al la vintra
-       <fnt><vrk><url ref="http://esperanto.cri.com.cn/esperanto/2002/Dec/102151.htm">Letero de s-ro Ji&rcaron;i Patera el
+       <fnt><vrk><url ref="http://esperanto.cri.com.cn/esperanto/2002/Dec/102151.htm">Letero de s-ro
+       Ji&rcaron;i Patera el
        &Ccirc;e&hcirc;io</url></vrk></fnt>.
      </ekz>
    </dif>
-   <trd lng="de"/>
    <trd lng="en">daylight saving time</trd>
    <trd lng="es">horario de verano</trd>
    <trd lng="fr">heure d'&eacute;t&eacute;</trd>
@@ -2131,14 +2260,15 @@ m&eacute;t&eacute;o)</klr></trd>
       kombinante la tridimensian e&ubreve;klidan spacon kun kvara
       dimensio el la tempo multiplikita per la lumrapida konstanto:
       <ekz>
-        la modelo de la praeksplodo <klr>[&#x2026;]</klr> montras <klr>[&#x2026;]</klr> ke la
+        la modelo de la praeksplodo <klr>[&#8230;]</klr> montras <klr>[&#8230;]</klr> ke la
         spaco<tld/>o jam ne estas la loko, en kiu la fenomenoj okazas, sed ke &gcirc;i
         estas mem fenomeno, alie dirite, la spaco<tld/>o fari&gcirc;as dinamika: la
         ekspansio de la universo ne estas movi&gcirc;o de materio en spaco, sed etendi&gcirc;o de
         la spaco mem
         <fnt>
           <bib>MD11</bib>
-          <vrk>La kosmoscienco, scienco pri la universo, fako ribela &dash; Tri hipotezoj por praeksplodo</vrk>
+          <vrk>La kosmoscienco, scienco pri la universo, fako ribela &dash; Tri hipotezoj por
+          praeksplodo</vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -2237,7 +2367,6 @@ m&eacute;t&eacute;o)</klr></trd>
        Eventoj, 239</url></lok></fnt>.
      </ekz>
    </dif>
-   <trd lng="de"/>
    <trd lng="en">standard time</trd>
    <trd lng="es">horario de invierno</trd>
    <trd lng="fr">heure d'hiver</trd>
@@ -2270,10 +2399,11 @@ m&eacute;t&eacute;o)</klr></trd>
        <fnt><bib>MT</bib>, <lok>&Ijo; 10:5</lok></fnt>.
      </ekz>
       <ekz>
-        dum vivtempo via kelneroj poezion / ankora&ubreve; alte taksis, kaj kelklinia kant' / sufi&ccirc;is por kvitanci plej pezan adicion
+        dum vivtempo via kelneroj poezion / ankora&ubreve; alte taksis, kaj kelklinia kant' / sufi&ccirc;is por
+        kvitanci plej pezan adicion
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
         </fnt>.
       </ekz>
    </dif>
@@ -2295,7 +2425,6 @@ m&eacute;t&eacute;o)</klr></trd>
    <trd><ind>masa</ind> hidup</trd>,
    <trd>se<ind>umur</ind> hidup</trd>
  </trdgrp>
- <trd lng="id"/>
  <trd lng="it">vita<klr> (durata)</klr></trd>
  <trd lng="nl">levenslijd</trd>
  <trdgrp lng="pl">
@@ -2306,6 +2435,18 @@ m&eacute;t&eacute;o)</klr></trd>
 </art>
 <!--
 $Log$
+versio 1.182 2022/10/13 19:36:03
+Wolfram Diestel: sam~ulo: +trd el sam/
+
+versio 1.181 2022/05/05 17:08:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.173 2022/02/17 21:26:23
+Jeromo Vasxe: + gxusta~i
+
+versio 1.172 2021/06/23 15:37:23
+Wolfram Diestel: shovis mislokitajn trd-ojn de T~o al ~o (kaj inverse)
+
 versio 1.94 2021/05/27 16:21:08
 Wolfram Diestel: +spaco~o
 
@@ -2316,17 +2457,5 @@ Revision 1.91  2019/06/30 07:43:30  revo
 adaptis URL de Monato
 
 Revision 1.90  2019/06/28 18:10:15  revo
-Jeromo Vasxe: + liber~i
-
-Revision 1.89  2018/08/11 15:10:15  revo
-Wolfram Diestel: prilaboris ekz-ojn (cetero)
-
-Revision 1.88  2018/08/11 14:10:14  revo
-Wolfram Diestel: samtemp*: ekz-oj, kunigis sma~ano+sam~ulo
-
-Revision 1.87  2018/08/11 12:10:15  revo
-Wolfram Diestel: prilaboris ekz-ojn (alia parto)
-
-Revision 1.86  2018/08/11 11:10:14  revo
 -->
 </vortaro>

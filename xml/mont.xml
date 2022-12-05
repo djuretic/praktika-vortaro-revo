@@ -1,64 +1,136 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mont.xml,v 1.88 2021/06/19 06:38:26 revo Exp $">
+<art mrk="$Id: mont.xml,v 1.131 2022/10/12 22:37:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mont</rad>/o
 </kap>
 
 <drv mrk="mont.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc mrk="mont.0o.GEOG">
-        <uzo tip="fak">GEOG</uzo>
-        <dif>
-          Granda natura amaso da roko kaj tero, kiu tre alti&gcirc;as
-          super la nivelo de la &ccirc;irka&ubreve;anta grundo:
-          <ekz>
-            la ondegoj levi&gcirc;as kiel <tld/>oj<fnt>Z</fnt>;
-          </ekz><ekz>
-            jen staras la bovoj anta&ubreve; la <tld/>o
-            <klr>(jen la malfacila&jcirc;o!)</klr>
-            <fnt><bib>PrV</bib></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="mont.0o.FIG">
-        <uzo tip="stl">FIG</uzo>
-        <dif>
-          Amasego, multego:
-          <ekz>
-            <tld/>oj da kadavroj, da ruba&jcirc;oj, da papera&jcirc;oj;
-          </ekz>
-          <ekz>
-            ni ne povas senfine toleri tiun <tld/>on da mizero;
-          </ekz>
-          <ekz>
-            <uzo tip="stl">FRAZ</uzo>
-            <ind>promesi orajn <tld/>ojn</ind>
-            <fnt><bib>PrV</bib></fnt>;
-            <trd lng="ru">&c_s;&c_u;&c_l;&c_i;&c_t;&c_mol;
-              <ind>&c_z;&c_o;&c_l;&c_o;&c_t;&c_y;&c_je; &c_g;&c_o;&c_r;&c_y;</ind>
-            </trd>
-          </ekz>
-          <ekz>
-            <uzo tip="stl">FRAZ</uzo>
-            <ind>inter faro kaj rakonto staras meze granda <tld/>o</ind>
-            <fnt><bib>PrV</bib></fnt>
-            <trd lng="es">del dicho al hecho, hay mucho trecho</trd>
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="abism.0o">abismo</ref>
-        </refgrp>
-      </snc>
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="mont.0o.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      Granda natura <ref tip="super" cel="amas.0o">amaso</ref> 
+      da roko, tero, glacio, kiu tre alti&gcirc;as
+      super la nivelo de la &ccirc;irka&ubreve;anta grundo:
+      <ekz>
+        en nia lando sin ne trovas <tld/>oj, sed nur <tld/>etoj
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 38</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alte sur la pintoj de la <tld/>oj
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Moseo malsupreniris de la <tld/>o al la popolo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 19:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fumo levi&gcirc;adis <klr>[&#8230;]</klr> kaj la tuta <tld/>o forte tremis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 19:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen al vi pla&ccirc;is <tld/>o, jen <ref tip="ant" cel="val.0o">valo</ref>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi kaj Aftanido sidis enpensi&gcirc;inte &ccirc;e <ref tip="prt" cel="dekliv.0o">deklivo</ref> de
+        <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;eno da <tld/>oj elstaris pli alte ol alia
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i sidis trankvile sur sia na&gcirc;anta glacia <tld/>o kaj vidis, kiel la fajraj
+        fulmoj zigzage sin &jcirc;etadis en la &scirc;a&ubreve;man maron
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel grandaj nigraj <tld/>oj sin levadis la &scirc;a&ubreve;manta akvo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen staras la bovoj anta&ubreve; la <tld/>o
+        <klr>(jen la malfacila&jcirc;o!)</klr>
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="alt.0ajxo">alta&jcirc;o</ref>,
+      <ref cel="krest.0o.GEOG">kresto<sncref/></ref>
+    </refgrp>
+  </snc>
+  <snc mrk="mont.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="sin" cel="amas.0o">Amaso</ref>, <ref tip="sin" cel="mult.0ego">multego</ref>:
+      <ekz>
+        kolektoj kaj <tld/>oj da plenaskribitaj negocaj paperoj kaj frajtleteroj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        muziko efektive povas elprofundigi diversajn pli noblajn emojn de lia naturo,
+        surpremitajn de <tld/>oj da egoismo, dibo&ccirc;emo kaj krimoj
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FRAZ</uzo>
+        <ind>promesi orajn <tld/>ojn</ind>
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="ru">&c_s;&c_u;&c_l;&c_i;&c_t;&c_mol;
+          <ind>&c_z;&c_o;&c_l;&c_o;&c_t;&c_y;&c_je; &c_g;&c_o;&c_r;&c_y;</ind>
+        </trd>
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FRAZ</uzo>
+        <ind>inter faro kaj rakonto staras meze granda <tld/>o</ind>
+        <fnt><bib>PrV</bib></fnt>.
+        <trd lng="es">del dicho al hecho, hay mucho trecho</trd>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="abism.0o">abismo</ref>,
+      <ref cel="stak.0o.fojna">stako</ref>
+    </refgrp>
+  </snc>
   <trd lng="af">berg</trd>
-  <trd lng="am">&#x1270;&#x122B;&#x122B;</trd>
-  <trd lng="ar">&#x62C;&#x628;&#x644;</trd>
-  <trd lng="az">da&#x11F;</trd>
+  <trd lng="am">&#4720;&#x122B;&#x122B;</trd>
+  <trd lng="ar">&a_j;&a_b;&a_l;</trd>
+  <trd lng="az">da&gbreve;</trd>
   <trd lng="be">&c_g;&c_a;&c_r;&c_a;</trd>
-  <trd lng="bn">&#x9AE;&#x9BE;&#x989;&#x9A8;&#x9CD;&#x99F;</trd>
-  <trd lng="bo">&#xF62;&#xF72;&#xF0B;</trd>
+  <trd lng="bn">&#x9AE;&#x9BE;&#2441;&#x9A8;&#x9CD;&#x99F;</trd>
+  <trd lng="bo">&t_ra;&t_gigu;&t_tsheg;</trd>
   <trd lng="bs">planine</trd>
   <trd lng="co">muntagna</trd>
   <trdgrp lng="cs">
@@ -66,6 +138,7 @@
     <trd>mont</trd>,
     <trd>mount</trd>
   </trdgrp>
+  <trd lng="cy">mynydd</trd>
   <trd lng="da">monteringstid</trd>
   <trd lng="de">Berg</trd>
   <trd lng="en">mountain</trd>
@@ -77,81 +150,139 @@
         <trd>montagne</trd>
       </trdgrp>
   <trd lng="fy">berch</trd>
-  <trd lng="gl">monta&#xF1;a</trd>
+  <trd lng="ga">sliabh</trd>
+  <trd lng="gd">sliabh</trd>
+  <trd lng="gl">monta&ntilde;a</trd>
   <trd lng="gu">&#xAAE;&#xABE;&#xA89;&#xAA8;&#xACD;&#xA9F;</trd>
   <trd lng="ha">dutsen</trd>
   <trd lng="he">&he;&resh;</trd>
-  <trd lng="hi">&#x92E;&#x93E;&#x909;&#x902;&#x91F;</trd>
+  <trd lng="hi">&#x92E;&#x93E;&#2313;&#2306;&#x91F;</trd>
+  <trd lng="hmn">roob</trd>
   <trd lng="hr">planina</trd>
+  <trd lng="ht">m&ograve;n</trd>
   <trd lng="hu">hegy</trd>
-  <trd lng="hy">&#x56C;&#x565;&#x57C;</trd>
+  <trd lng="hy">&#x56C;&#1381;&#x57C;</trd>
   <trd lng="id">gunung</trd>
+  <trd lng="ig">n&#8217;ugwu</trd>
   <trd lng="is">fjall</trd>
   <trd lng="ja">&#x30DE;&#x30A6;&#x30F3;&#x30C8;</trd>
-  <trd lng="jw">gunung</trd>
+  <trd lng="jv">gunung</trd>
   <trd lng="ka">&#x10DB;&#x10D7;&#x10D0;</trd>
-  <trd lng="km">&#x1797;&#x17D2;&#x1793;&#x17C6;</trd>
+  <trd lng="kk">&c_t;&c_a;&c_u;</trd>
+  <trd lng="km">&#6039;&#x17D2;&#6035;&#x17C6;</trd>
+  <trd lng="kn">&#xC86;&#xCB0;&#xCCB;&#xCB9;&#xCA3;</trd>
   <trd lng="ko">&#xB9C8;&#xC6B4;&#xD2B8;</trd>
+  <trd lng="ku">&Ccedil;iyay&ecirc;</trd>
+  <trd lng="ky">&c_t;&c_o;&c_o;&c_s;&c_u;&c_n;&c_d;&c_a;</trd>
+  <trd lng="lat">montem</trd>
   <trd lng="lo">&#xE8D;&#xEB1;&#xE87;&#xE9E;&#xEB9;</trd>
+  <trd lng="lt">kalno</trd>
+  <trd lng="lv">kalns</trd>
+  <trd lng="mg">tendrombohitra</trd>
+  <trd lng="mi">maunga</trd>
+  <trd lng="mk">&c_m;&c_o;&c_n;&c_t;&c_i;&c_r;&c_a;&#x45A;&c_je;</trd>
   <trd lng="ml">&#xD2E;&#xD4C;&#xD23;&#xD4D;&#xD1F;&#xD4D;</trd>
-  <trd lng="mr">&#x92E;&#x93E;&#x909;&#x902;&#x91F;</trd>
-  <trd lng="my">&#x1010;&#x1031;&#x102C;&#x1004;&#x103A;&#x1015;&#x1031;&#x102B;&#x103A;&#x1019;&#x103E;&#x102C;</trd>
-  <trd lng="ne">&#x92A;&#x939;&#x93E;&#x921;</trd>
+  <trd lng="mn">&c_h;&c_o;&c_l;&c_b;&c_o;&c_h;</trd>
+  <trd lng="mr">&#x92E;&#x93E;&#2313;&#2306;&#x91F;</trd>
+  <trd lng="ms">gunung</trd>
+  <trd lng="mt">impunjazzjoni</trd>
+  <trd lng="my">&#4112;&#4145;&#x102C;&#4100;&#x103A;&#4117;&#4145;&#x102B;&#x103A;&#4121;&#x103E;&#x102C;</trd>
+  <trd lng="ne">&#x92A;&#2361;&#x93E;&#2337;</trd>
   <trd lng="nl">berg</trd>
   <trd lng="ny">phiri</trd>
   <trd lng="os">&c_h;&c_o;&c_h;</trd>
   <trd lng="pa">&#xA2E;&#xA3E;&#xA0A;&#xA1F;</trd>
   <trd lng="pl">g&oacute;ra</trd>
-  <trd lng="ps">&#x63A;&#x631;&#x647;</trd>
+  <trd lng="ps">&a_gh;&a_r;&a_h;</trd>
   <trd lng="pt">monte</trd>
+  <trd lng="ro">munte</trd>
   <trd lng="ru">&c_g;&c_o;&c_r;&c_a;</trd>
-  <trd lng="sd">(&#x62C;&#x628;&#x644;)</trd>
+  <trd lng="rw">umusozi</trd>
+  <trd lng="sd">(&a_j;&a_b;&a_l;)</trd>
   <trd lng="si">&#xD9A;&#xDB1;&#xDCA;&#xDAF;</trd>
   <trdgrp lng="sk">
     <trd>hora</trd>,
     <trd>kopec</trd>,
     <trd>vrch</trd>
   </trdgrp>
+  <trd lng="sl">nastavek</trd>
+  <trd lng="sm">mauga</trd>
+  <trd lng="sn">pagomo</trd>
+  <trd lng="so">buur</trd>
   <trd lng="sq">mali</trd>
   <trd lng="st">thabeng</trd>
+  <trd lng="su">gunung</trd>
   <trd lng="sv">berg</trd>
+  <trd lng="sw">mlima</trd>
   <trd lng="ta">&#xB8F;&#xBB1;&#xBCD;&#xBB1;</trd>
   <trd lng="te">&#xC2E;&#xC4C;&#xC02;&#xC1F;&#xC4D;</trd>
+  <trd lng="tg">&c_M;&c_a;&c_u;&c_n;&c_t;</trd>
   <trd lng="th">&#xE20;&#xE39;&#xE40;&#xE02;&#xE32;</trd>
   <trd lng="tl">may kabit</trd>
-  <trd lng="ur">&#x67E;&#x6C1;&#x627;&#x691;</trd>
+  <trd lng="tt">&c_m;&c_o;&c_n;&c_t;&c_a;&c_zh;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_ib;&c_p;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>
+  <trd lng="ur">&f_p;&#x6C1;&a_A;&#1681;</trd>
+  <trd lng="uz">tog &#8216;</trd>
   <trd lng="vi">mount</trd>
   <trd lng="vo">bel</trd>
-  <trd lng="yi">&#x5D0;&#x5B8;&#x5E0;&#x5E7;&#x5DC;&#x5D0;&#x5B7;&#x5E4;&#x5BC;&#x5DF;</trd>
-  <trd lng="zh">&#x5C71;<klr> [sh&#x101;n]</klr></trd>
+  <trd lng="xh">entabeni</trd>
+  <trd lng="yi">&alef;&#x5B8;&nun;&qof;&lamed;&alef;&#x5B7;&pe;&#x5BC;&fnun;</trd>
+  <trd lng="yo">&ograve;ke</trd>
+  <trd lng="zh">&#x5C71;<klr> [sh&#5585;n]</klr></trd>
   <trd lng="zu">khweza</trd>
 </drv>
 
 <drv mrk="mont.0aro">
-      <kap><tld/>aro</kap>
-      <snc mrk="mont.0aro.GEOG">
-        <uzo tip="fak">GEOG</uzo>
-        <dif>
-          Grupo a&ubreve; &ccirc;eno de kunigitaj <tld/>oj formantaj
-          tuton:
-          <ekz>
-            la Ka&ubreve;kaza, Pirenea <tld/>aro;
-          </ekz>
-      <ekz>ili atingis altan <tld/>aron kun multaj profundaj valoj kaj
-      krutaj deklivoj
+  <kap><tld/>aro</kap>
+  <snc mrk="mont.0aro.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      Grupo a&ubreve; &ccirc;eno de kunigitaj <tld/>oj formantaj
+      tuton:
+      <ekz>
+        la Ka&ubreve;kaza, Pirenea <tld/>aro;
+      </ekz>
+      <ekz>
+        vi povas jam vidi la <ref tip="ekz" cel="himalaj.H0o">Himalajo</ref>n! 
+        diris la orienta vento, &gcirc;i estas la plej alta
+        <tld/>aro en Azio
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[sub si li vidis]</klr> la vaste etendi&gcirc;antan ebena&jcirc;on de Lombardio, 
+        kaj norde la altajn montarojn kun la eterna ne&gcirc;o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu el la multegaj ringaj <tld/>aroj, kiujn ni konas el la granda lunkarto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili atingis altan <tld/>aron kun multaj profundaj valoj kaj
+        krutaj deklivoj
         <fnt>
           <aut>L. Frank Baum, trad. D. Broadribb</aut>
           <vrk>La Eksterordinara Lando Oz</vrk>
           <lok>&ccirc;apitro 18a</lok>
         </fnt>.
       </ekz>
-        </dif>
-      </snc>
+    </dif>
+    <lstref lst="voko:montaroj"><tld/>aroj</lstref>
+  </snc>
   <trdgrp lng="be">
-        <trd>&c_g;&c_o;&c_r;&c_y;</trd>,
-        <trd>&c_g;&c_o;&c_r;&c_n;&c_y; &c_m;&c_a;&c_s;&c_ib;&c_w;</trd>
-      </trdgrp>
-  <trd lng="bo">&#xF62;&#xF72;&#xF0B;&#xF62;&#xF92;&#xFB1;&#xF74;&#xF51;&#xF0B;</trd>
+    <trd>&c_g;&c_o;&c_r;&c_y;</trd>,
+    <trd>&c_g;&c_o;&c_r;&c_n;&c_y; &c_m;&c_a;&c_s;&c_ib;&c_w;</trd>
+  </trdgrp>
+  <trd lng="bo">&t_ra;&t_gigu;&t_tsheg;&t_ra;&t_gata;&t_yata;&t_shabchu;&t_da;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>horstvo</trd>,
     <trd>poho&rcaron;&iacute;</trd>
@@ -160,30 +291,32 @@
   <trd lng="en">mountain range</trd>
   <trd lng="es">cordillera</trd>
   <trdgrp lng="fr">
-        <trd>montagne<klr> (chaine ou massif)</klr></trd>
-      </trdgrp>
+    <trd>montagne<klr> (chaine ou massif)</klr></trd>
+  </trdgrp>
   <trd lng="hu">hegys&eacute;g</trd>
   <trd lng="id">pe<ind>gunung</ind>an</trd>
   <trd lng="nl">gebergte</trd>
   <trdgrp lng="pl">
-        <trd>g&oacute;ry</trd>,
-        <trd>pog&oacute;rze</trd>
-      </trdgrp>
+    <trd>g&oacute;ry</trd>,
+    <trd>pog&oacute;rze</trd>
+  </trdgrp>
+  <trd lng="ro">mun&tcedil;i</trd>
   <trdgrp lng="ru">
-        <trd>&c_g;&c_o;&c_r;&c_y;</trd>,
-        <trd>&c_g;&c_o;&c_r;&c_n;&c_y;&c_j; &c_m;&c_a;&c_s;&c_s;&c_i;&c_v;</trd>
-      </trdgrp>
+    <trd>&c_g;&c_o;&c_r;&c_y;</trd>,
+    <trd>&c_g;&c_o;&c_r;&c_n;&c_y;&c_j; &c_m;&c_a;&c_s;&c_s;&c_i;&c_v;</trd>
+  </trdgrp>
   <trd lng="sk">horsk&eacute; p&aacute;smo</trd>
   <trd lng="sv">bergskedja</trd>
+  <trd lng="uk">&c_g;&#x43E;&c_r;&c_i;</trd>
 </drv>
 
 <drv mrk="mont.0eto">
   <kap><ofc>*</ofc><tld/>eto</kap>
-    <snc mrk="mont.0eto.GEOG">
-      <uzo tip="fak">GEOG</uzo>
-       <dif>
-        Malalta, malgranda <tld/>o, precipe tia kun plata
-        a&ubreve; ronda supro:
+  <snc mrk="mont.0eto.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+     <dif>
+      Malalta, malgranda <tld/>o, precipe tia kun plata
+      a&ubreve; ronda supro:
       <ekz>
         neniam &scirc;i forgesos la belegajn arbarojn, la verdajn
         <tld/>etojn kaj la malgrandajn infanojn
@@ -203,18 +336,21 @@
           <lok>1931</lok>
         </fnt>.
       </ekz>
-        </dif>
-      </snc>
+    </dif>
+    <refgrp tip="sub">
+       <ref cel="tel.0o">telo</ref>
+    </refgrp>
+  </snc>
   <trd lng="af">hill</trd>
-  <trd lng="am">&#x12AE;&#x1228;&#x1265;&#x1273;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x62A;&#x644;</trd>
-  <trd lng="az">t&#x259;p&#x259;</trd>
+  <trd lng="am">&#x12AE;&#4648;&#4709;&#4723;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_t;&a_l;</trd>
+  <trd lng="az">t&#601;p&#601;</trd>
   <trdgrp lng="be">
-        <trd>&c_p;&c_a;&c_g;&c_o;&c_r;&c_a;&c_k;</trd>,
-        <trd>&c_u;&c_z;&c_g;&c_o;&c_r;&c_a;&c_k;</trd>
-      </trdgrp>
+      <trd>&c_p;&c_a;&c_g;&c_o;&c_r;&c_a;&c_k;</trd>,
+      <trd>&c_u;&c_z;&c_g;&c_o;&c_r;&c_a;&c_k;</trd>
+    </trdgrp>
   <trd lng="bn">&#x9AA;&#x9BE;&#x9B9;&#x9BE;&#x9A1;&#x9BC;</trd>
-  <trd lng="bo">&#xF62;&#xF72;&#xF0B;&#xF60;&#xF56;&#xF74;&#xF62;&#xF0B;</trd>
+  <trd lng="bo">&t_ra;&t_gigu;&t_tsheg;&t_-a;&t_ba;&t_shabchu;&t_ra;&t_tsheg;</trd>
   <trd lng="co">cullina</trd>
   <trdgrp lng="cs">
     <trd>kopec</trd>,
@@ -222,6 +358,7 @@
     <trd>pahorek</trd>,
     <trd>vrch</trd>
   </trdgrp>
+  <trd lng="cy">bryn</trd>
   <trd lng="da">bakke</trd>
   <trd lng="de">H&uuml;gel</trd>
   <trd lng="en">hill</trd>
@@ -229,69 +366,118 @@
   <trd lng="eu">muino</trd>
   <trd lng="fr">colline</trd>
   <trd lng="fy">heuvel</trd>
+  <trd lng="ga">cnoc</trd>
+  <trd lng="gd">cnoc</trd>
   <trd lng="gu">&#xAB9;&#xABF;&#xAB2;</trd>
-  <trd lng="hi">&#x92A;&#x939;&#x93E;&#x921;&#x93C;&#x940;</trd>
-  <trd lng="hy">&#x562;&#x56C;&#x578;&#x582;&#x580;</trd>
+  <trd lng="hi">&#x92A;&#2361;&#x93E;&#2337;&#x93C;&#2368;</trd>
+  <trd lng="hmn">toj</trd>
+  <trd lng="ht">m&ograve;n</trd>
+  <trd lng="hy">&#1378;&#x56C;&#1400;&#1410;&#1408;</trd>
   <trd lng="id">bukit</trd>
-  <trd lng="is">h&#xE6;&#xF0;</trd>
+  <trd lng="ig">ugwu</trd>
+  <trd lng="is">h&aelig;&#xF0;</trd>
   <trd lng="ja">&#x4E18;</trd>
-  <trd lng="jw">gunung</trd>
+  <trd lng="jv">gunung</trd>
   <trd lng="ka">&#x10D2;&#x10DD;&#x10E0;&#x10D0;&#x10D9;&#x10D6;&#x10D4;</trd>
-  <trd lng="km">&#x1797;&#x17D2;&#x1793;&#x17C6;</trd>
+  <trd lng="kk">&c_t;&#x4E9;&c_b;&c_je;</trd>
+  <trd lng="km">&#6039;&#x17D2;&#6035;&#x17C6;</trd>
+  <trd lng="kn">&#xCAC;&#xCC6;&#xC9F;&#xCCD;&#xC9F;&#xCA6;</trd>
   <trd lng="ko">&#xC5B8;&#xB355;</trd>
+  <trd lng="ku">girik</trd>
+  <trd lng="ky">&c_d;&#x4E9;&c_b;&#x4E9;</trd>
+  <trd lng="lat">tumulus</trd>
   <trd lng="lo">&#xE9E;&#xEB9;</trd>
+  <trd lng="lt">kalnas</trd>
+  <trd lng="lv">kalns</trd>
+  <trd lng="mg">colina</trd>
+  <trd lng="mi">pukepuke</trd>
+  <trd lng="mk">&c_r;&c_i;&c_d;</trd>
   <trd lng="ml">&#xD15;&#xD41;&#xD28;&#xD4D;&#xD28;&#xD4D;</trd>
-  <trd lng="mr">&#x939;&#x93F;&#x932;</trd>
-  <trd lng="my">&#x1010;&#x1031;&#x102C;&#x1004;&#x103A;&#x1010;&#x1031;&#x102C;&#x103A;</trd>
-  <trd lng="ne">&#x92A;&#x939;&#x93E;&#x921;&#x940;</trd>
+  <trd lng="mn">&c_t;&c_o;&c_l;&c_g;&c_o;&c_j;</trd>
+  <trd lng="mr">&#2361;&#x93F;&#2354;</trd>
+  <trd lng="ms">bukit</trd>
+  <trd lng="my">&#4112;&#4145;&#x102C;&#4100;&#x103A;&#4112;&#4145;&#x102C;&#x103A;</trd>
+  <trd lng="ne">&#x92A;&#2361;&#x93E;&#2337;&#2368;</trd>
   <trd lng="ny">phiri</trd>
   <trd lng="pa">&#xA2A;&#xA39;&#xA3E;&#xA5C;&#xA40;</trd>
   <trdgrp lng="pl">
-        <trd>wzg&oacute;rze</trd>,
-        <trd>wzniesienie</trd>
-      </trdgrp>
-  <trd lng="ps">&#x63A;&#x648;&#x646;&#x689;&#x6CD;</trd>
+    <trd>wzg&oacute;rze</trd>,
+    <trd>wzniesienie</trd>,
+    <trd>g&oacute;rka</trd>
+  </trdgrp>
+  <trd lng="ps">&a_gh;&a_w;&a_n;&#1673;&#x6CD;</trd>
+  <trd lng="ro">deal</trd>
   <trd lng="ru">&c_h;&c_o;&c_l;&c_m;</trd>
-  <trd lng="sd">&#x67D;&#x6AA;&#x631;&#x64A;&#x621;</trd>
+  <trd lng="rw">umusozi</trd>
+  <trd lng="sd">&#x67D;&#x6AA;&a_r;&a_y;&a_hamza;</trd>
   <trd lng="si">&#xD9A;&#xDB3;&#xDD4;</trd>
   <trdgrp lng="sk">
     <trd>hrbol&ccaron;ek</trd>,
     <trd>pahrbok</trd>,
     <trd>v&yacute;&ccaron;nelok</trd>
   </trdgrp>
-  <trd lng="sq">kod&#xEB;r</trd>
+  <trd lng="sl">hribu</trd>
+  <trd lng="sm">mauga</trd>
+  <trd lng="sn">chikomo</trd>
+  <trd lng="so">kur</trd>
+  <trd lng="sq">kod&euml;r</trd>
   <trd lng="st">leralleng</trd>
+  <trd lng="su">pasir</trd>
+  <trd lng="sw">kilima</trd>
   <trd lng="ta">&#xBAE;&#xBB2;&#xBC8;</trd>
   <trd lng="te">&#xC15;&#xC4A;&#xC02;&#xC21;</trd>
+  <trd lng="tg">&c_t;&c_je;&c_p;&c_p;&c_a;</trd>
   <trd lng="th">&#xE40;&#xE19;&#xE34;&#xE19;&#xE40;&#xE02;&#xE32;</trd>
   <trd lng="tl">burol</trd>
-  <trd lng="ur">&#x67E;&#x6C1;&#x627;&#x691;&#x6CC;</trd>
-  <trd lng="vi">&#x111;&#x1ED3;i</trd>
-  <trd lng="yi">&#x5D1;&#x5E2;&#x5E8;&#x5D2;&#x5DC;</trd>
+  <trd lng="tt">&c_k;&c_a;&c_l;&c_k;&c_u;&c_l;&c_y;&c_k;</trd>
+  <trd lng="uk">&c_p;&c_a;&c_g;&c_o;&c_r;&c_b;</trd>
+  <trd lng="ur">&f_p;&#x6C1;&a_A;&#1681;&f_y;</trd>
+  <trd lng="uz">tepalik</trd>
+  <trd lng="vi">&#273;&#x1ED3;i</trd>
+  <trd lng="xh">induli</trd>
+  <trd lng="yi">&bet;&ayin;&resh;&gimel;&lamed;</trd>
+  <trd lng="yo">&ograve;ke</trd>
   <trd lng="zu">igquma</trd>
 </drv>
 
 <drv mrk="mont.0igxi">
-      <kap><tld/>i&gcirc;i</kap>
-      <snc>
-        <dif>
-          Alti&gcirc;i kvaza&ubreve; <tld/>o:
-          <ekz>
-            de via kolera blovo <tld/>i&gcirc;is
-            akvo<fnt><bib>MT</bib><lok>&Eli; 15:8</lok></fnt>;
-          </ekz>
-      <ekz>La &ccirc;ifita papero <tld/>i&gcirc;is kaj &scirc;veli&gcirc;is kiel ondo sur la
-      pagtablo pli kaj pli
+  <kap><tld/>i&gcirc;i</kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="alt.0igxi">Alti&gcirc;i</ref> kvaza&ubreve; <tld/>o:
+      <ekz>
+        de via kolera blovo <tld/>i&gcirc;is akvo
+        <fnt><bib>MT</bib><lok>&Eli; 15:8</lok></fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;ifita papero <tld/>i&gcirc;is kaj &scirc;veli&gcirc;is kiel ondo sur la
+        pagtablo pli kaj pli
         <fnt>
           <aut>H. G. Wells, trad. Raoul Bricard</aut>
           <vrk>Uzino 5</vrk>
           <lok>La magia butiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la batalo la manoj de la triumfanta Napoleono tremis same mizere, kiel tiuj
+        de Henriko, kaj la cigarstumpoj same <tld/>i&gcirc;is anta&ubreve; ili amba&ubreve;
+        <fnt>
+          <bib>KKr</bib>
         </fnt>.
       </ekz>
-        </dif>
-      </snc>
-      <trd lng="fr">s'<ind>amonceler</ind></trd>
-      <trd lng="pl">g&oacute;rowa&cacute;</trd>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="amas.0igxi">amasi&gcirc;i</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_u;&c_z;&c_v;&c_y;&c_sh;&c_a;&c_c;&c_c;&c_a; <klr>(&c_n;&c_ib;&c_b;&c_y; &c_g;&c_a;&c_r;&c_a;)</klr></trd>
+  <trdgrp lng="de">
+    <trd>sich <ind>anh&auml;ufen</ind></trd>,
+    <trd>sich <ind>aufh&auml;ufen</ind></trd>
+  </trdgrp>
+  <trd lng="fr">s'<ind>amonceler</ind></trd>
+  <trd lng="pl">g&oacute;rowa&cacute;</trd>
+  <trd lng="ro">superioar&abreve;</trd>
 </drv>
 
 <drv mrk="mont.antaux0o">
@@ -300,10 +486,24 @@
     <uzo tip="fak">GEOG</uzo>
     <dif>
        Malpli alta parto de monto a&ubreve; montaro, kiu apudas ebena&jcirc;on:
-       <ekz>
+      <ekz>
+        fora pina arbaro la&ubreve;longe de la rando de anta&ubreve;<tld/>oj
+        <fnt>
+          <vrk><url ref="https://www.rulit.me/books/tais-el-ateno-read-292394-64.html">Tais el
+          Ateno</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Katedrala Vojeto krucis la &scirc;oseon en la anta&ubreve;<tld/>oj
+        <fnt>
+          <vrk><url ref="https://mir-knig.com/read_116022-17">&c_Ch;&c_i;&c_t;&c_a;&c_t;&c_mol; Naski?o de la Rustimuna
+          ?talrato &c_o;&c_n;&c_l;&c_a;&c_j;&c_n; (&c_p;&c_o;&c_l;&c_n;&c_o;&c_s;&c_t;&c_mol;&c_ju;...)</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
          por solvi la problemon pri akvomanko en anta&ubreve;<tld/>oj de Soaro
          estas decidite fosi specialan kanalon de la rivero &gcirc;is la
-         montaro
+         <tld/>aro
         <fnt>
           <aut>K. Buli&ccirc;jov, trad. P. Mo&jcirc;aev</aut>
           <vrk><url ref="http://esperantio.narod.ru/ekster/silentu.htm">
@@ -312,20 +512,45 @@
         </fnt>.
        </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="pied.0o.FIG">piedo<sncref/></ref>,
+       <ref cel="promon.0o">promontoro</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_y;&c_g;&c_o;&c_r;&#8217;&c_je;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_d;&c_g;&c_o;&c_r;&#8217;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Ausl&auml;ufer</trd>,
+    <trd>Bergvorland</trd>,
+    <trd>Fu&szlig; <klr>(Berg)</klr></trd>
+  </trdgrp>
   <trd lng="fr">contrefort<klr> (montagneux)</klr></trd>
+  <trd lng="pl">przedg&oacute;rze</trd>
+  <trd lng="ro">poalele muntelui</trd>
 </drv>
 
 <drv mrk="mont.inter0o">
-      <kap>inter<tld/>o, <var><kap><tld/>pasejo</kap></var></kap>
-      <snc mrk="mont.inter0o.GEOG">
-      <uzo tip="fak">GEOG</uzo>
-        <dif>
-          Malpli alta trairejo inter du <tld/>oj:
+  <kap>inter<tld/>o, <var><kap><tld/>pasejo</kap></var></kap>
+  <snc mrk="mont.inter0o.GEOG">
+  <uzo tip="fak">GEOG</uzo>
+    <dif>
+      Malpli alta trairejo inter du <tld/>oj:
       <ekz>
         en &ccirc;iuj inter<tld/>oj de la &ccirc;irka&ubreve;a&jcirc;o sin ka&scirc;as egiptaj
         regimentoj
         <fnt><bib>Far2</bib> <lok>&ccirc;apitro 17a</lok></fnt>;
+      </ekz>
+      <ekz>
+        por trapasi pitoreskan inter<tld/>on plurkoloran, la trajno alproksimi&gcirc;as al la
+        altebena&jcirc;o <klr>[&#8230;]</klr> je 3500 metroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marta Sol&iacute;s</aut>
+          <vrk><url ref="&Monato;/2005/008399.php">Unika fervojo en Andoj</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
       </ekz>
       <ekz>
         malgranda armeo estis sendita sudokcidenten por transiri la
@@ -335,80 +560,118 @@
           <vrk>La volo de l' &ccirc;ielo</vrk>
         </fnt>.
       </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_v;&c_a;&c_l;</trd>
-      <trdgrp lng="de">
-        <trd>Bergpass</trd>,
-        <trd>Pass</trd>
-      </trdgrp>
-      <trd lng="en">(mountain) <ind>pass</ind></trd>
-      <trd lng="es">paso</trd>
-      <trd lng="fr">col<klr> (de montagne)</klr></trd>
-      <trd lng="hu">h&aacute;g&oacute;</trd>
-      <trd lng="nl">bergpas</trd>
-      <trd lng="pl">prze&lstroke;&eogonek;cz</trd>
-      <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_a;&c_l;</trd>
-    </drv>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_v;&c_a;&c_l;</trd>
+  <trdgrp lng="de">
+    <trd>Bergpass</trd>,
+    <trd>Pass</trd>
+  </trdgrp>
+  <trd lng="en">(mountain) <ind>pass</ind></trd>
+  <trd lng="es">paso</trd>
+  <trd lng="fr">col<klr> (de montagne)</klr></trd>
+  <trd lng="hu">h&aacute;g&oacute;</trd>
+  <trd lng="nl">bergpas</trd>
+  <trd lng="pl">prze&lstroke;&eogonek;cz</trd>
+  <trdgrp lng="ro">
+    <trd>trec&abreve;toare</trd>,
+    <trd>pasul</trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_a;&c_l;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_g;&c_ib;&c_r;&c_s;&#x44C;&#x43A;&c_i;&c_j; &#x43F;&c_r;&#x43E;&c_h;&c_ib;&c_d;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&c_v;&c_a;&#x43B;</trd>
+  </trdgrp>
+</drv>
 
 <drv mrk="mont.tablo0o">
-      <kap>tablo<tld/>o <fnt>PIV2</fnt></kap>
-      <snc mrk="mont.tablo0o.GEOG">
-        <uzo tip="fak">GEOG</uzo>
-        <dif>
-          <tld lit="M"/>o kun ebena supra&jcirc;o.
-        </dif>
-      </snc>
-      <trd lng="de">Tafelberg</trd>
-      <trd lng="en">mesa</trd>
-      <trdgrp lng="fr">
-        <trd>mesa</trd>,
-        <trd>plateau<klr tip="ind"> (g&eacute;og.)</klr></trd>
-      </trdgrp>
-      <trd lng="pl">g&oacute;ra sto&lstroke;owa</trd>
-      <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_g;&c_o;&c_r;&c_a;</trd>
+  <kap>tablo<tld/>o <fnt>PIV2</fnt></kap>
+  <snc mrk="mont.tablo0o.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      <tld lit="M"/>o kun ebena supra&jcirc;o:
+      <ekz>
+        la tablo<tld/>o de Kaburbo situas en la norda parto de monto&ccirc;eno
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=263426">Tablomonto (Sudafriko)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la 448 metrojn alta tablo<tld/>o <nom>Gohrisch</nom>
+        situas <klr>[&#8230;]</klr> maldekstraflanke de la rivero Elbo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=40738">Gohrisch (monto)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_t;&c_a;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_g;&c_a;&c_r;&c_a;</trd>,
+    <trd>&c_g;&c_a;&c_r;&c_a;-&c_s;&c_t;&c_o;&c_l;</trd>
+  </trdgrp>
+  <trd lng="de">Tafelberg</trd>
+  <trd lng="en">mesa</trd>
+  <trdgrp lng="fr">
+    <trd>mesa</trd>,
+    <trd>plateau<klr tip="ind"> (g&eacute;og.)</klr></trd>
+  </trdgrp>
+  <trd lng="pl">g&oacute;ra sto&lstroke;owa</trd>
+  <trd lng="ro">munte de mas&abreve;</trd>
+  <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_g;&c_o;&c_r;&c_a;</trd>
+  <trd lng="uk">&c_s;&c_t;&#x43E;&#x43B;&#x43E;&c_v;&c_a; &c_g;&#x43E;&c_r;&c_a;</trd>
 </drv>
 
 <drv mrk="mont.Tablo0o">
-      <kap>Tablo<tld/>o
-    <fnt>
-      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
-      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
-      universo</vrk>.
-      <lok>FEL, Antverpeno, 2005</lok>
-    </fnt></kap>
-      <snc mrk="mont.Tablo0o.AST">
-        <uzo tip="fak">AST</uzo>
-        <mlg>Men</mlg>
-        <dif>
-          <ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">Stelfiguro</ref>
-          en la suda duonsfero (<trd lng="la">Mensa</trd>).
-        </dif>
-      </snc>
-      <trd lng="de">Tafelberg</trd>
-      <trd lng="en">Mensa</trd>
-      <trd lng="es">Mesa</trd>
-      <trd lng="fr">Table<klr tip="ind"> (constellation)</klr></trd>
-      <trd lng="pl">G&oacute;ra Sto&lstroke;owa<klr> (gwiazdozbi&oacute;r)</klr></trd>
-      <trd lng="ru">&c_S;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_G;&c_o;&c_r;&c_a;<klr>
-      (&c_s;&c_o;&c_z;&c_v;&c_je;&c_z;&c_d;&c_i;&c_je;)</klr></trd>
+  <kap>Tablo<tld/>o
+  <fnt>
+    <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+    <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+    universo</vrk>.
+    <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <snc mrk="mont.Tablo0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <mlg>Men</mlg>
+    <dif>
+      <ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">Stelfiguro</ref>
+      en la suda duonsfero (<trd lng="la">Mensa</trd>):
+      <ekz>
+        NGC 1754 estas globa stelamaso en konstelacio Tablo<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=111411">NGC 1754</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_S;&c_t;&c_a;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_G;&c_a;&c_r;&c_a; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
+  <trd lng="de">Tafelberg</trd>
+  <trd lng="en">Mensa</trd>
+  <trd lng="es">Mesa</trd>
+  <trd lng="fr">Table<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="pl">G&oacute;ra Sto&lstroke;owa<klr> (gwiazdozbi&oacute;r)</klr></trd>
+  <trd lng="ro">Platoul  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="ru">&c_S;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_G;&c_o;&c_r;&c_a;<klr>
+  (&c_s;&c_o;&c_z;&c_v;&c_je;&c_z;&c_d;&c_i;&c_je;)</klr></trd>
 </drv>
 
 <drv mrk="mont.tomb0eto">
-      <kap>tomb<tld/>eto</kap>
-      <snc mrk="mont.tomb0eto.ARKE">
-        <uzo tip="fak">ARKE</uzo>
-        <dif>
-          Tera a&ubreve; &scirc;tona amaso super tombo, &gcirc;in
-          &scirc;irmanta kontra&ubreve; besta a&ubreve; homa
-          rabado;
-          <ref tip="sin" cel="tumul.0o.ARKE">tumulo</ref>:
-          <ekz>
-            diference de la anta&ubreve;historia tomb<tld/>eto, havanta
-            konusan formon, la vikingaj tomb<tld/>etoj estas kutime
-            plataj
-            <fnt><bib>IntArkeol</bib>, <lok>p. 41a</lok></fnt>;
-          </ekz>
+  <kap>tomb<tld/>eto</kap>
+  <snc mrk="mont.tomb0eto.ARKE">
+    <uzo tip="fak">ARKE</uzo>
+    <dif>
+      Tera a&ubreve; &scirc;tona amaso super tombo, &gcirc;in
+      &scirc;irmanta kontra&ubreve; besta a&ubreve; homa rabado;
+      <ref tip="sin" cel="tumul.0o.ARKE">tumulo</ref>:
+      <ekz>
+        diference de la anta&ubreve;historia tomb<tld/>eto, havanta
+        konusan formon, la vikingaj tomb<tld/>etoj estas kutime
+        plataj
+        <fnt><bib>IntArkeol</bib>, <lok>p. 41a</lok></fnt>;
+      </ekz>
       <ekz>sub la tomb<tld/>eton estis enterigita la trovito
         <fnt>
           <aut>E. Kumi&ccaron;i&cacute;, trad. S. Rukelj</aut>
@@ -421,8 +684,8 @@
         <fnt><bib>Mortul&Scirc;ip</bib> <lok>dua libro, &ccirc;apitro
         44a</lok></fnt>.
       </ekz>
-        </dif>
-      </snc>
+    </dif>
+  </snc>
   <trd lng="be">&c_k;&c_u;&c_r;&c_g;&c_a;&c_n;</trd>
   <trd lng="cs">rov</trd>
   <trd lng="de">Grabh&uuml;gel</trd>
@@ -430,6 +693,7 @@
   <trd lng="es">t&uacute;mulo</trd>
   <trd lng="fr">tumulus</trd>
   <trd lng="pl">kurchan</trd>
+  <trd lng="ro">movil&abreve; funerar&abreve; </trd>
   <trd lng="ru">&c_k;&c_u;&c_r;&c_g;&c_a;&c_n;</trd>
   <trdgrp lng="sk">
     <trd>hrob</trd>,
@@ -437,92 +701,30 @@
   </trdgrp>
 </drv>
 
-<drv mrk="mont.0bastono">
-      <kap><tld/>bastono</kap>
-      <snc>
-        <dif>
-          Longa bastono kun fera pinto uzata en <tld/>oj por faciligi
-          grimpadon.
-        </dif>
-      </snc>
-  <trd lng="be">&c_a;&c_l;&c_mol;&c_p;&c_e;&c_n;&c_sh;&c_t;&c_o;&c_k;</trd>
-  <trd lng="cs">turistick&aacute; h&uring;l</trd>
-  <trd lng="de">Wanderstock</trd>
-  <trd lng="fr">b&acirc;ton de marche</trd>
-  <trd lng="nl">bergstok</trd>
-  <trd lng="pl">czekan</trd>
-  <trd lng="ru">&c_a;&c_l;&c_mol;&c_p;&c_je;&c_n;&c_sh;&c_t;&c_o;&c_k;</trd>
-  <trd lng="sk">turistick&aacute; palica</trd>
-</drv>
-
-<drv mrk="mont.0fendo">
-      <kap><tld/>fendo</kap>
-      <snc mrk="mont.0fendo.GEOG">
-        <uzo tip="fak">GEOG</uzo>
-        <dif>
-          Interkrutejo:
-      <ekz>la levi&gcirc;anta suno trovis nin torde rampantaj la&ubreve;
-      interkruta&jcirc;oj kaj <tld/>fendoj &ccirc;iam pli kaj pli supren
-        <fnt>
-          <aut>S. Bergman, trad. B. Gerdman</aut>
-          <vrk>Tra sova&gcirc;a Kam&ccirc;atko</vrk>
-          <lok>1932</lok>
-        </fnt>;
-      </ekz>
-      <ekz>&Ccirc;iu <tld/>fendo havis sian tonon, kaj &ccirc;iu <tld/>a deklivo
-      propran sonon
-        <fnt>
-          <aut>Selma Lagerl&ouml;f</aut>
-          <vrk>Uzino 2</vrk>
-          <lok>La senpaculoj</lok>
-        </fnt>.
-      </ekz>
-        </dif>
-      </snc>
-  <trd lng="be">&c_c;&c_ja;&c_s;&c_mol;&c_n;&c_ib;&c_n;&c_a;</trd>
-  <trd lng="cs">horsk&aacute; str&zcaron;</trd>
-  <trd lng="fr">crevasse</trd>
-  <trd lng="nl">bergkloof</trd>
-  <trd lng="ru">&c_u;&c_shch;&c_je;&c_l;&c_mol;&c_je;</trd>
-  <trd lng="sk">horsk&aacute; str&zcaron;</trd>
-</drv>
-
-<drv mrk="mont.0oprediko">
-      <kap><tld/>oprediko</kap>
-      <snc mrk="mont.0oprediko.KRI">
-        <uzo tip="fak">KRI</uzo>
-        <dif>
-          Prediko farita de <ref cel="jesu.0o">Jesuo</ref> sur
-          (la&ubreve; Mateo) a&ubreve; apud (la&ubreve; Luko) <tld/>o al
-          siaj dis&ccirc;iploj kaj granda homamaso:
-          <ekz>
-            min mem trafis, ekzemple, la paragrafoj 612&ndash;621
-            kvaza&ubreve; e&hcirc;oj de l' t.n. <tld/>oprediko de Jesuo en la
-            evangelio la&ubreve; Mateo
-            <fnt>
-              <aut>G. Berveling</aut>
-              <vrk>
-                <url ref="http://www.esperanto.be/fel/mon/rec/dvoj.html">
-                  Sankta Skribo de Oomoto en Esperanto
-                </url>
-              </vrk>.
-              <bib>Monato</bib>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">Bergpredigt</trd>
-      <trd lng="en">Sermon on the Mount</trd>
-      <trd lng="fr">sermon sur la montagne</trd>
-      <trd lng="ru">&c_n;&c_a;&c_g;&c_o;&c_r;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_p;&c_o;&c_v;&c_je;&c_d;&c_mol;</trd>
-</drv>
 </art>
   <!--
   $Log$
-versio 1.42 2020/12/29 08:10:48
-Aleks Andre: bo
+versio 1.131 2022/10/12 22:37:54
+Vito Redsky: +trd pl + trd ro
 
-versio 1.41 2020/05/01 14:10:25
-Eko Nur Syah Hidayat: korekteto
+versio 1.130 2022/07/08 08:39:41
+Dmitri Gabinski: + trd be
+
+versio 1.129 2022/05/01 12:05:12
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.126 2021/12/29 08:37:08
+Dmitri Gabinski: + trd be
+
+versio 1.125 2021/11/22 06:35:02
+Wolfram Diestel: trd de
+
+versio 1.124 2021/11/21 21:25:17
+Wolfram Diestel: antau/inter~o: ekz-oj; movis ~fendo,prediko,bastono al ties art-oj
+
+versio 1.123 2021/11/21 08:32:24
+Wolfram Diestel: ~aro, ~ighi: +ekz
+
+versio 1.122 2021/11/20 12:43:08
 -->
 </vortaro>

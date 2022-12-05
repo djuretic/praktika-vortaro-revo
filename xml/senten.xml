@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: senten.xml,v 1.20 2019/06/30 18:21:49 revo Exp $">
+<art mrk="$Id: senten.xml,v 1.22 2022/03/27 13:09:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sentenc</rad>/o
@@ -13,7 +12,7 @@
     <uzo tip="fak">BELE</uzo>
     <dif>
       Mallonga <ref tip="super" cel="fraz.0o">frazo</ref>
-      enhavanta &gcirc;eneralan moralan principon:
+      enhavanta &gcirc;eneralan moralan <ref cel="princi.0o">principo</ref>n:
       <ekz>
         li eldiris tri mil <tld/>ojn, kaj la nombro de liaj kantoj estis mil kaj kvin
         <fnt>
@@ -51,7 +50,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la scienculoj kaj sa&gcirc;uloj disvolvis kiel fundamentan penson <klr>[&#8230;]</klr>, kiu
+        la scienculoj kaj sa&gcirc;uloj disvolvis kiel fundamentan penson <klr>[&#x2026;]</klr>, kiu
         tiri&gcirc;is tra la tuta okazinta&jcirc;o, la <tld/>on: Amo donas vivon
         <fnt>
           <bib>Fab4</bib>
@@ -64,18 +63,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Anatoli Ionesov</aut>
-          <vrk><url ref="&Monato;/2006/008920.php"
-              >Perlo &ccirc;e la Silka Vojo</url></vrk>
+          <vrk><url ref="&Monato;/2006/008920.php">Perlo &ccirc;e la Silka Vojo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         estas konsole, ke ankora&ubreve; validas la biblia <tld/>o: &leftquot;Neniu scias la tagon, la
-        horon&#8221;
+        horon&#x201D;
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="&Monato;/2012/010654.php"
-              >Horobato, korobato</url></vrk>
+          <vrk><url ref="&Monato;/2012/010654.php">Horobato, korobato</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -116,10 +113,17 @@
     <trd>sentencia</trd>,
     <trd>&uacute;slovie</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x435;&#x43D;&#x442;&#x435;&#x43D;&#x446;&#x456;&#x44F;</trd>,
+    <trd>&#x43F;&#x43E;&#x432;&#x447;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439; &#x432;&#x438;&#x440;&#x430;&#x437;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2022/01/19 21:32:40
+Wolfram Diestel: +ref
+
 Revision 1.19  2018/12/28 17:10:18  revo
 Wolfram Diestel: +ekz-oj
 
@@ -139,8 +143,5 @@ Revision 1.14  2009/10/24 16:33:17  revo
 Antonio Codazzi: +trd it
 
 Revision 1.13  2009/02/15 14:18:37  revo
-Russ Williams: +trd en
-
-Revision 1.12  2005/04/11 16:33:53  revo
 -->
 </vortaro>

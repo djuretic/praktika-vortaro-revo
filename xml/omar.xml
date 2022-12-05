@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: omar.xml,v 1.30 2019/07/08 20:10:15 revo Exp $">
+<art mrk="$Id: omar.xml,v 1.33 2022/05/01 17:17:00 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>omar</rad>/o
@@ -11,17 +10,37 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">ZOO</uzo>
   <snc>
-     <dif>
-       <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> 
-       (<trd lng="la">Homarus</trd>) de dekpiedaj
-       <ref tip="lst" cel="krust.0ulo" lst="voko:krustuloj">krustuloj</ref>
-       kies amba&ubreve; unuaj piedoj estas tre dikaj kaj pin&ccirc;ilformaj:
-       <ekz>
-         ru&gcirc;a kiel kuirita <tld/>o.
-       </ekz>
+    <dif>
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> 
+      (<trd lng="la">Homarus</trd>) de dekpiedaj
+      <ref tip="lst" cel="krust.0ulo" lst="voko:krustuloj">krustuloj</ref>
+      kies amba&ubreve; unuaj piedoj estas tre dikaj kaj pin&ccirc;ilformaj:
+      <ekz>
+        ru&gcirc;a kiel kuirita <tld/>o;
+      </ekz>
+      <ekz>
+        boligita <tld/>o pli longe restas fre&scirc;a, ol kruda besto
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj estas rezervitaj por turistoj kaj eksportado
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Sur la socialisma insulo, omaroj estas sole por turistoj </vrk>
+        </fnt>.
+      </ekz>
      </dif>
      <ref tip="vid" cel="palinu.0o">palinuro</ref>
+    <bld lok="&WCU;/thumb/4/43/Humarus_gammarus_1.jpg/640px-Humarus_gammarus_1.jpg" prm="PD">E&ubreve;ropa <tld/>o (Homarus gammarus), Akvario en Prago, &Ccirc;e&hcirc;ujo
+        <fnt>
+          <aut>Karelj, propra verko</aut>
+          <lok><url ref="&WCW;/File:Humarus_gammarus_1.jpg">&WCW;/File:Humarus_gammarus_1.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <ref tip="hom" cel="omar1.0o">Omaro (nomo)</ref>
   <trd lng="be">&c_a;&c_m;&c_a;&c_r;</trd>
   <trd lng="bg">&c_o;&c_m;&c_a;&c_r;</trd>
   <trd lng="br">legestr</trd>
@@ -30,8 +49,7 @@
     <trd>mo&rcaron;sk&yacute; rak</trd>
   </trdgrp>
   <trd lng="de">Hummer</trd>
-  <trd
-   lng="el">&alfa;&sigma;&tau;&alfa;&kappa;&omikron_ton;&sigma_fina;</trd>
+  <trd lng="el">&alfa;&sigma;&tau;&alfa;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trd lng="en">lobster</trd>
   <trd lng="es">bogavante</trd>
   <trd lng="fr">homard</trd>
@@ -49,10 +67,17 @@
     <trd>rak <klr>(morsk&yacute;)</klr></trd>
   </trdgrp>
   <trd lng="sv">hummer</trd>
+  <trd lng="uk">&#x43E;&#x43C;&#x430;&#x440;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2022/05/01 17:17:00
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.31 2021/06/26 15:34:00
+Wolfram Diestel: +ekz, bld, ref-hom
+
 Revision 1.29  2016/10/04 18:10:40  revo
 Carlos Garcia: krktd es -o
 
@@ -69,8 +94,5 @@ Revision 1.25  2014/10/28 11:10:37  revo
 Eko Nur Syah Hidayat: +trd id
 
 Revision 1.24  2013/10/31 20:10:31  revo
-Wolfram Diestel: ref al lst krustuloj
-
-Revision 1.23  2013/09/08 19:11:16  revo
 -->
 </vortaro>

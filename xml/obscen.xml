@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: obscen.xml,v 1.6 2021/06/03 22:02:51 revo Exp $">
+<art mrk="$Id: obscen.xml,v 1.9 2022/07/07 07:30:22 revo Exp $">
 <kap>
   <rad>obscen</rad>/a <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -20,6 +19,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_s;&c_t;&c_o;&c_j;&c_n;&c_y;</trd>,
+    <trd>&c_g;&c_a;&c_n;&c_je;&c_b;&c_n;&c_y;</trd>,
+    <trd>&c_a;&c_b;&c_s;&c_c;&c_e;&c_n;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>necudn&yacute;</trd>,
     <trd>nestydat&yacute;</trd>,
@@ -27,10 +31,14 @@
     <trd>oplzl&yacute;</trd>,
     <trd>sprost&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+      <trd>unanst&auml;ndig</trd>
+      <trd>obsz&ouml;n</trd>
+  </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_m;&a_s;&a_t;&a_h;&a_j;&a_n;</trd>,
     <trd>&a_r;&f_k;&f_y;&f_k;</trd>,
-    <trd>&a_sh;&a_r;&a_m;&zwnj;&a_A_madda;&a_w;&a_r;</trd>
+    <trd>&a_sh;&a_r;&a_m;&#8204;&a_A_madda;&a_w;&a_r;</trd>
   </trdgrp>
   <trd lng="fr">obsc&egrave;ne</trd>
   <trd lng="nl">obsceen</trd>
@@ -49,6 +57,11 @@
     <trd>obsc&eacute;nny</trd>,
     <trd>oplzl&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_j;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_s;&#x43E;&c_r;&#x43E;&#x43C;&c_ib;&c_t;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_s;&#x43E;&c_r;&#x43E;&#x43C;&c_ib;&c_c;&#x44C;&#x43A;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="obscen.0ajxo">
@@ -61,13 +74,21 @@
         <fnt>
         <aut>-</aut>,
         <vrk>Justa puno</vrk>,
-        <lok><url
-        ref="http://miresperanto.narod.ru/humuro/anekdotoj-2.htm">Anekdotoj
+        <lok><url ref="http://miresperanto.narod.ru/humuro/anekdotoj-2.htm">Anekdotoj
         kaj &scirc;ercoj 2</url>, [vidita je 2006-09-14]</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_s;&c_t;&c_o;&c_j;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_g;&c_a;&c_n;&c_je;&c_b;&c_n;&c_y; &c_w;&c_ch;&c_y;&c_n;&c_a;&c_k;</trd>,
+    <trd>&c_a;&c_b;&c_s;&c_c;&c_e;&c_n;&c_n;&c_y; &c_v;&c_y;&c_r;&c_a;&c_z;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+      <trd>Unanst&auml;ndigkeit</trd>
+      <trd>Obsz&ouml;nit&auml;t</trd>
+  </trdgrp>
   <trd lng="fr">obsc&eacute;nit&eacute;</trd>
   <trd lng="nl">obsceniteit</trd>
   <trdgrp lng="pl">
@@ -75,14 +96,24 @@
     <trd>rzecz <ind>obsceniczna</ind></trd>
   </trdgrp>
   <trdgrp lng="ro">
-    <trd>inscrip&#539;ie murdar&abreve;</trd>,
+    <trd>inscrip&#x21B;ie murdar&abreve;</trd>,
     <trd>lucru obscen</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_j;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_j;&#x43D;&c_i;&c_j; &c_v;&c_ch;&c_i;&#x43D;&#x43E;&#x43A;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.9 2022/07/07 07:30:22
+Dmitri Gabinski: + trd be
+
+versio 1.8 2022/05/15 22:31:39
+Ulrich Fellmann: obscena: +2 DE trdj; obscenajxo: +2 DE trdj
+
 versio 1.6 2021/06/03 22:02:51
 Vito Redsky: +trd pl +trd ro
 

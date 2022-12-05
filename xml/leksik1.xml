@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: leksik1.xml,v 1.16 2019/12/03 23:10:24 revo Exp $">
+<art mrk="$Id: leksik1.xml,v 1.19 2022/12/04 19:22:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>leksikon</rad>/o
@@ -10,25 +9,71 @@
 <drv mrk="leksik1.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">LIN</uzo>
-  <snc>
+  <snc mrk="leksik1.0o.LIN">
     <dif>
-      Mallonga vortaro sen ekzemploj:
+      Mallonga <ref tip="super" cel="vort.0aro">vortaro</ref> sen ekzemploj:
       <ekz>
-      &ccirc;i tiu verko ne celas esti erudicia <tld/>o
-      <fnt><aut>Gaston Waringhien</aut>, <bib>PIV1</bib>, <lok>&gcirc;enerala
-      anta&ubreve;parolo</lok></fnt></ekz>
+        unu el ili sciis parkere la tutan latinan <tld/>on
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Johan&ccirc;jo-malsa&gcirc;ulo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu lingvo postulis apartan <tld/>on, kiu devis enhavi &ccirc;iun vorton kun &gcirc;iaj
+        formoj deklinaciaj kaj konjugacia
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la greka teksto &ccirc;i tie uzas la vorton <nac>&#xB5;&epsilon;&lambda;&alfa;&gamma;&chi;&omikron;&lambda;&jota;&kappa;&omikron;&sigma_fina;</nac>, kiun <tld/>o kutime
+        difinas
+        kiel &leftquot;deprimo&rightquot;
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;i tiu verko ne celas esti erudicia <tld/>o
+        <fnt><aut>Gaston Waringhien</aut>, <bib>PIV1</bib>, <lok>&gcirc;enerala
+        anta&ubreve;parolo</lok></fnt>.
+      </ekz>
     </dif>
-    <trd lng="de">W&ouml;rterbuch</trd>
+    <ref tip="vid" cel="leksik2.0o">leksiko</ref>
+    <trdgrp lng="de">
+      <trd>Glossar</trd>,
+      <trd>W&ouml;rterbuch</trd>,
+      <trd>W&ouml;rterverzeichnis</trd>,
+      <trd>W&ouml;rterliste</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>sz&oacute;k&eacute;szlet</trd>,
       <trd>sz&oacute;t&aacute;r <klr tip="amb">(pl. Pet&odblac;fi-)</klr></trd>
     </trdgrp>      
   </snc>
-  <snc>
+  <snc mrk="leksik1.0o.faka">
+    <uzo tip="fak">SCI</uzo>
     <dif>
-      Speciala faka vortaro.
+      Speciala faka vortaro:
+      <ekz>
+        Na&ubreve;lingva Etimologia <tld lit="L"/>o, Fervojteknika <tld lit="L"/>o
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="de">Fachw&ouml;rterbuch</trd>
+    <ref tip="sub" cel="encikl1.0o">enciklopedio</ref>
+    <refgrp tip="vid">
+       <ref cel="terminologi.0o.terminaro">terminologio<sncref/></ref>,
+       <ref cel="viki.0o">vikio</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Lexikon</trd>,
+      <trd>Nachschlagewerk</trd>,
+      <trd>Fachw&ouml;rterbuch</trd>,
+      <trd>Sachw&ouml;rterbuch</trd>
+    </trdgrp>
     <trd lng="hu">lexikon</trd>    
   </snc>
   <trdgrp lng="be">
@@ -60,14 +105,20 @@
     <trd>lexik&oacute;n</trd>,
     <trd>slovn&iacute;k <klr>(n&aacute;u&ccaron;n&yacute;)</klr></trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43B;&c_je;&#x43A;&c_s;&c_i;&#x43A;&#x43E;&#x43D;</trd>,
+    <trd>(&c_je;&#x43D;&c_c;&c_i;&#x43A;&#x43B;&#x43E;&#x43F;&c_je;&c_d;&c_i;&c_ch;&#x43D;&c_i;&c_j;) &c_s;&#x43B;&#x43E;&c_v;&#x43D;&c_i;&#x43A;</trd>
+  </trdgrp>
 </drv>
-<adm>
-  Mi havas la impreson, ke la difinoj ne plu estas aktualaj.
-  <aut>Ulriko</aut>
-</adm>
 </art>
 <!--
 $Log$
+versio 1.19 2022/12/04 19:22:13
+Ulrich Fellmann: leksikono 1: +3 pliaj DE trdj
+
+versio 1.17 2021/09/06 06:33:53
+Wolfram Diestel: ekz-oj
+
 Revision 1.15  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -84,8 +135,5 @@ Revision 1.11  2004/05/24 16:33:25  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10  2004/02/13 17:30:45  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2003/11/05 17:30:48  revo
 -->
 </vortaro>

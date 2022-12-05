@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: princi.xml,v 1.19 2017/12/17 18:10:16 revo Exp $">
+<art mrk="$Id: princi.xml,v 1.22 2022/03/26 15:53:37 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>7</ofc>
   <rad>princip</rad>/o
@@ -12,14 +11,21 @@
   <kap><ofc>*</ofc> <tld/>o</kap>
   <snc mrk="princi.0o.praelemento">
     <dif>
-      La fonto, origino, pra<ref tip="sin"
-      cel="kauxz.0o.FIL">ka&ubreve;zo</ref>,
+      La fonto, <ref tip="super" cel="origin.0o.kauxzo">origino</ref>, 
+      pra<ref tip="sin" cel="kauxz.0o.FIL">ka&ubreve;zo</ref>,
       <ref tip="sin" cel="fundam.0a.FIG">fundamenta</ref> elemento el
       kiu io devenas:
       <ekz>
         la laboro estas la <tld/>o de ri&ccirc;i&gcirc;o;
       </ekz><ekz>
-        la atomoj estas la <tld/>o de la korpoj.
+        la atomoj estas la <tld/>o de la korpoj;
+      </ekz>
+      <ekz>
+        la mani&hcirc;eanoj instruis la <klr>[&#x2026;]</klr> filozofian dogmon, la&ubreve; kiu la mondo
+        estas la faro de du kontra&ubreve;aj <tld/>oj, unu bona, la alia malbona
+        <fnt>
+          <bib>Kandid</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="es">principio (fuente)</trd>
@@ -37,27 +43,126 @@
       <trd>&c_n;&c_a;&c_ch;&c_a;&c_l;&c_o;</trd>,
       <trd>&c_p;&c_je;&c_r;&c_v;&c_o;&c_p;&c_r;&c_i;&c_ch;&c_i;&c_n;&c_a;</trd></trdgrp>
   </snc>
-  <snc mrk="princi.0o.regulo">
+  <snc mrk="princi.0o.de_rezono">
     <dif>
       Fundamenta <ref tip="sin" cel="ver.0ajxo">vera&jcirc;o</ref> 
       a&ubreve; <ref tip="sin" cel="regul.0o">regulo</ref>, sur kiu 
-      bazi&gcirc;as <ref cel="rezon.0i">rezonado</ref> a&ubreve; 
-      <ref cel="kondut.0o">konduto</ref>:
+      bazi&gcirc;as <ref cel="rezon.0i">rezonado</ref>, scienco, arto kc:
       <ekz>
-        iri de la <tld/>o al la konsekvencoj;
-      </ekz><ekz>
-        la <tld/>oj de la geometrio;
-      </ekz><ekz>
-        la momento en kiu ni ektu&scirc;us tiun <tld/>on
-        <klr>(la ne&scirc;an&gcirc;eblon de la Fundamento)</klr>
-        estus la komenco de nia morto
-        <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>
-      </ekz><ekz>
-        mi havas kiel <tld/>on, neniam prokrasti la aferojn;
-      </ekz><ekz>
-        homo sen <tld/>oj <klr>(malbonkonduta)</klr>.
+        <klr>[la&ubreve; la]</klr> Lajbnica <tld/>o, <klr>[&#x2026;]</klr> nenio ekzistas a&ubreve; okazas
+        sen sufi&ccirc;a kialo
+        <fnt>
+          <bib>Kandid</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi montris en <tld/>o, kiamaniere la severa netu&scirc;ebleco de la Fundamento gardos
+        &ccirc;iam la unuecon de nia lingvo
+        <fnt>
+          <bib>F</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <nom>Volap&uuml;k</nom>, dank' al kelkaj fundamentaj eraroj en la <tld/>oj de la konstruo
+        (ekzemple: vokaloj en la komenco a&ubreve; fino de vorto ne povas esti uzataj, &ccirc;ar
+        ili estas signoj gramatikaj), &ccirc;iu nove bezonata vorto nepre devas esti kreita
+        de la a&ubreve;toro
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="paradi.0o.SCI">paradigmo<sncref/></ref>,
+      <ref cel="teorem.0o">teoremo</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="princi.0o.de_konduto">
+    <dif>
+      Fundamenta <ref tip="super" cel="regul.0o">regulo</ref> de <ref cel="kondut.0o">konduto</ref>:
+      <ekz>
+        starigo de moralaj <tld/>oj kaj vivreguloj inter la homoj
+        <fnt>
+          <bib>Kandid</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio estas &gcirc;usta <tld/>o, ke oni devas kolekti siajn pensojn kaj mediti pri sia
+        propra interna esenco
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Lino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> prenis de tie pastrinon, kio ofendas la <tld/>ojn
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la momento, en kiu ni ektu&scirc;us tiun <tld/>on
+        <klr>(la ne&scirc;an&gcirc;eblon de la Fundamento)</klr>, estus la komenco de nia morto
+        <fnt>
+          <bib>F</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en nia afero <klr>[neniam]</klr> regu la <tld/>o: kiu pli la&ubreve;te krias, tiu estas
+        prava
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne&ubreve;traleco estas la &ccirc;efa <tld/>o de niaj kongresoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur <tld/>oj de reciproka frateco, egaleco kaj justeco
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi neniam havis la intencon paroli <klr>[&#x2026;]</klr> pri miaj privataj <tld/>oj kaj
+        kredoj
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo.</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o, ke unuj regnanoj, e&ccirc; se ili prezentas en la lando grandegan
+        plimulton, ne havas moralan rajton altrudi sian lingvon a&ubreve; religion al la
+        aliaj regnanoj
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sinjorino <nom>Snitchey</nom> el <tld/>o rigardadis sinjoron <nom>Craggs</nom> kun okuloj suspektemaj
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="deviz.0o">devizo</ref>,
+      <ref cel="konven1.0o.gxenerale">konvencio<sncref/></ref>,
+      <ref cel="maksim.0o">maksimo</ref>,
+      <ref cel="norm.0o.konvencio">normo<sncref/></ref>,
+      <ref cel="senten.0o">sentenco</ref>
+    </refgrp>
     <trd lng="be">&c_p;&c_r;&c_y;&c_n;&c_c;&c_y;&c_p;</trd>
     <trd lng="es">principio (idea, ideal, regla)</trd>
     <trd lng="fr">principe</trd>
@@ -80,6 +185,7 @@
   </trdgrp>
   <trd lng="pt">princ&iacute;pio <klr tip="amb">(regra, lei)</klr></trd>
   <trd lng="sk">z&aacute;sada</trd>
+  <trd lng="uk">&#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x438;&#x442;&#x443;&#x446;&#x456;&#x439;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x43D;&#x446;&#x438;&#x43F;</trd>
 </drv>
 
 <drv mrk="princi.0e">
@@ -87,20 +193,70 @@
   <snc mrk="princi.0e.maldetale">
     <dif>
       La&ubreve; teoriaj <tld/>oj (kontraste kun 
-      <ref tip="ant" cel="efekti.0e">"efektive"</ref>):
+      &leftquot;<ref tip="ant" cel="efekti.0e">efektive</ref>&rightquot;):
       <ekz>
-        tio, kio estos <tld/>e decidita de ili kiel
-        dezirinda<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>e mi konsentas, sed praktike mi hezitas.
+        tio, kio anta&ubreve;e estos <tld/>e decidita de ili kiel dezirinda
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e la Lingva Komitato havas la rajton permesi en la lingvo &ccirc;ion, kion &gcirc;i
+        trovos necesa
+        <fnt>
+          <bib>LR</bib>
+          <lok>Dua Parto &ndash; Gramatiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili ja]</klr> ne iras &gcirc;is la lastaj konsekvencoj de tiu <tld/>e korekta
+        elirpunkto
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en fermitaj ejoj <tld/>e oni povas paroli iom pli rapide ol sur placoj kaj aliaj
+        malfermitaj lokoj
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu regulo, kompreneble, havas esceptojn, sed <tld/>e &gcirc;i validas
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e la plej alta le&gcirc;o por mi estas &leftquot;unueco inter la esperantistoj&rightquot;, kvankam
+        mi konfesas, ke praktike tio &scirc;ajnas al mi ebla nur sur la bazo de la Bulonja
+        Deklaracio
+        <fnt>
+          <bib>LR</bib>
+          <lok>Tria Parto &ndash; Jurisprudenco</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="princi.0e.kategorie">
     <dif>
-      Koncernante la <tld/>ojn, <ref tip="sin"
-      cel="fund.0e.FIG">funde</ref>,
+      Koncernante la <tld/>ojn, <ref tip="sin" cel="fund.0e.FIG">funde</ref>,
       <ref cel="esenc.0a">esence</ref>:
+      <ekz>
+        esplori <tld/>e la demandon, kian lingvon oni devas elekti
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ofte konkludas, ke internacia lingvo estas <tld/>e neebla, &ccirc;ar, ja, ne
+        ekzistas ia &leftquot;internacia nacio&rightquot;
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         se ni malkonsentas <tld/>e, kial paroli pri detaloj?
       </ekz>
@@ -132,12 +288,71 @@
     <trd>principi&aacute;lne</trd>,
     <trd>z&aacute;sadne</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x438;&#x43D;&#x446;&#x438;&#x43F;&#x43E;&#x432;&#x43E;</trd>,
+    <trd>&#x443; &#x43F;&#x440;&#x438;&#x43D;&#x446;&#x438;&#x43F;&#x456;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="princi.laux0e">
+  <kap>
+    la&ubreve;<tld/>e
+  </kap>
+  <snc>
+    <dif>
+      La&ubreve; siaj <tld/>oj:
+      <ekz>
+        mia patro la&ubreve;<tld/>e traktis ilin fiere
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">prinzipiell</trd>
+</drv>
+
+<drv mrk="princi.sam0ano">
+  <kap>
+    sam<tld/>ano
+  </kap>
+  <snc>
+    <dif>
+      Tiu, kiu agnoskas kaj sekvas la samajn <tld/>ojn:
+      <ekz>
+        tiujn &ccirc;i principojn mi nun prezentos al vi en formo de Deklaracio, kiun mi kaj
+        miaj sam<tld/>anoj akceptis por ni
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo.</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ide.sam0ano">samideano</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">Gleichgesinnter</trd>
+</drv>
+
+
+
+
+
+
+
+
 
 </art>
 
 <!--
 $Log$
+versio 1.21 2022/01/22 16:42:17
+Wolfram Diestel: ~e: ekz-oj; +laŭ~e, sam~ano
+
+versio 1.20 2022/01/22 15:28:32
+Wolfram Diestel: ~o: apartigo snc de rezono/de konduto; ekz-oj, ref-oj
+
 Revision 1.18  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -154,8 +369,5 @@ Revision 1.14  2012/01/04 13:10:26  revo
 Marc Rausell: +trd ca
 
 Revision 1.13  2011/12/01 21:10:12  revo
-Eduardo Navas: +trad es
-
-Revision 1.12  2010/05/15 16:30:55  revo
 -->
 </vortaro>

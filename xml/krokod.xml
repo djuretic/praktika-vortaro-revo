@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: krokod.xml,v 1.32 2019/12/14 23:10:31 revo Exp $">
+<art mrk="$Id: krokod.xml,v 1.36 2022/06/05 18:34:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>krokodil</rad>/o
@@ -14,17 +13,54 @@
   <snc mrk="krokod.0o.ZOO">
   <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="lst" cel="genr.0o.BIO"
-      lst="voko:zoologiaj_genroj">Genro</ref>
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref>
       el familio <ref tip="malprt" cel="krokod1.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Crocodilus</trd>), granda kvarpieda dan&gcirc;era
-      <ref tip="lst" cel="reptil.0o"
-      lst="voko:krokodiluloj">reptilio</ref>,
+      (<trd lng="la">Crocodylus</trd>), granda kvarpieda dan&gcirc;era
+      <ref tip="lst" cel="reptil.0o" lst="voko:krokodiluloj">reptilio</ref>,
        vivanta en grandaj riveroj de tropikaj landoj:
       <ekz>
-        <tld/>a ledo.
+        en <nom>Tan-ta-ren</nom> estis du famaj lokoj: la lageto de l' sanktaj <tld/>oj kaj la
+        templo de <nom>Hator</nom>
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        egipta knabino <klr>[&#8230;]</klr> &ccirc;erpante akvon ekvidos la tuberoplenan dorson de
+        l' <tld/>o
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        surborde sunbani&gcirc;as dol&ccirc;akvaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>&Scirc;andor Monostori</aut>
+          <vrk><url ref="&Monato;/2015/011466.php">Bani kun krokodiloj</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz> 
+      <ekz>
+        &ccirc;iun momenton la sor&ccirc;istino metis novajn objektojn en la kaldronon, kaj kiam &gcirc;i
+        komencis bone boli, estis tute, kiel se plorus <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <bld
+    lok="&WCU;/thumb/f/f2/Crocodylus_acutus_mexico_02-edit1.jpg/640px-Crocodylus_acutus_mexico_02-edit1.jpg"
+    prm="CC BY-SA 2.5">Amerika <tld/>o (Crocodylus acutus), La Manzanilla, Jalisco, Meksiko
+        <fnt>
+          <aut>Tom&aacute;s Castelazo, propra verko</aut>
+          <lok><url
+          ref="&WCW;/File:Crocodylus_acutus_mexico_02-edit1.jpg">&WCW;/File:Crocodylus_acutus_mexico_02-edit1.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_a;&c_k;&c_a;&c_d;&c_z;&c_ib;&c_l;</trd>
   <trd lng="bg">&c_k;&c_r;&c_o;&c_k;&c_o;&c_d;&c_i;&c_l;</trd>
@@ -43,6 +79,7 @@
   <trd lng="sv">krokodil</trd>
   <trd lng="tl">buwaya</trd>
   <trd lng="tr">timsah</trd>
+  <trd lng="uk">&#x43A;&c_r;&#x43E;&#x43A;&#x43E;&c_d;&c_i;&#x43B;</trd>
 </drv>
 
 <drv mrk="krokod.0uloj">
@@ -52,12 +89,19 @@
   <snc mrk="krokod.0uloj.ZOO">
   <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="lst" cel="ord.0o.BIO"
-      lst="voko:zoologiaj_ordoj">Ordo</ref> 
+      <ref tip="lst" cel="ord.0o.BIO" lst="voko:zoologiaj_ordoj">Ordo</ref> 
       de <ref tip="malprt" cel="reptil.0oj">reptilioj</ref>
-      (<trd lng="la">Crocodilia</trd>).
+      (<trd lng="la">Crocodilia</trd>):
+      <ekz>
+        kajmano estas genro de grandaj <tld/>uloj vivantaj en riveroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=8861">Kajmano</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_r;&c_a;&c_k;&c_a;&c_d;&c_z;&c_ib;&c_l;&c_y; <klr>(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
   <trd lng="bg">&c_k;&c_r;&c_o;&c_k;&c_o;&c_d;&c_i;&c_l;&c_o;&c_v;&c_i;</trd>
   <trd lng="de">Krokodile</trd>
   <trd lng="fr">crocodiliens</trd>
@@ -66,6 +110,7 @@
   <trd lng="pl">krokodylowate</trd>    
   <trd lng="ro">crocodylidae</trd>
   <trd lng="ru">&c_k;&c_r;&c_o;&c_k;&c_o;&c_d;&c_i;&c_l;&c_y; <klr>(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
+  <trd lng="uk">&#x43A;&c_r;&#x43E;&#x43A;&#x43E;&c_d;&c_i;&#x43B;&c_i;</trd>
 </drv>
 
 <drv mrk="krokod.0i">
@@ -73,16 +118,47 @@
     <tld/>i
   </kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
-  <uzo tip="fak">ESP</uzo>
-  <uzo tip="stl">FRAZ</uzo>
+  <snc mrk="krokod.0i.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <uzo tip="stl">FRAZ</uzo>
     <dif>
-      Paroli kun esperantistoj ne en Esperanto.
+      <ref tip="super" cel="parol.0i.diri">Paroli</ref> kun esperantistoj ne en Esperanto:
+      <ekz>
+        homoj pli-malpli ka&scirc;e parolas en fremda lingvo &ndash; <tld/>as &ndash; por inter&scirc;an&gcirc;i
+        maldeca&jcirc;ojn pri la &ccirc;eestantoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="&Monato;/2013/010677.php">Lingva konfuzo kaj Konfuceo</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ja plejparte <tld/>is, kaj tamen la etoso &scirc;ajne venis
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 1 (51)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi neniam <tld/>is?&ndash; jes, kompreneble &ccirc;ar ni devis klarigi kelkajn vortojn al
+        komencantoj &ndash; krome, escepte, en tiu sta&gcirc;o ni &ccirc;iuj estis francoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 8-9 (106-107)</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="aligat.0i">aligatori</ref>,
+      <ref cel="gavial.0i">gaviali</ref>,
+      <ref cel="kajman.0i">kajmani</ref>
+    </refgrp>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_v;&c_a;&c_r;&c_y;&c_c;&c_mol; &c_n;&c_je; &c_n;&c_a; &c_e;&c_s;&c_p;&c_e;&c_r;&c_a;&c_n;&c_t;&c_a; &c_w; &c_a;&c_s;&c_ja;&c_r;&c_o;&c_d;&c_k;&c_u; &c_e;&c_s;&c_p;&c_e;&c_r;&c_a;&c_n;&c_t;&c_y;&c_s;&c_t;&c_a;&c_w;</trd>
   <trdgrp lng="de">
-     <trd>krokodilisch sprechen</trd>,
-     <trd>unter Esperantisten nicht Esperanto, sondern die Muttersprache
+     <trd>krokodilisch <ind>sprechen</ind></trd>,
+     <trd>unter Esperantisten nicht <ind>Esperanto</ind>, sondern die Muttersprache
      benutzen</trd>
   </trdgrp>
   <trd lng="en">speak a language besides Esperanto with
@@ -101,11 +177,22 @@
   <trd lng="ru">&c_k;&c_r;&c_o;&c_k;&c_o;&c_d;&c_i;&c_l;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sv">att tala med esperantister p&aring; modersm&aring;let ist&auml;llet
   f&ouml;r p&aring; Esperanto</trd>
+  <trd lng="uk">&c_g;&#x43E;&c_v;&#x43E;&c_r;&c_i;&c_t;&c_i; &#x43D;&c_a;&c_c;&c_ib;&#x43E;&#x43D;&c_a;&#x43B;&#x44C;&#x43D;&#x43E;&#x44E;
+  &#x43C;&#x43E;&c_v;&#x43E;&#x44E; &c_s;&c_je;&c_r;&c_je;&c_d; &c_je;&c_s;&#x43F;&c_je;&c_r;&c_a;&#x43D;&c_t;&c_i;&c_s;&c_t;&c_ib;&c_v;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.36 2022/06/05 18:34:12
+Dmitri Gabinski: + trd be
+
+versio 1.35 2022/05/01 08:09:25
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.33 2022/03/12 11:24:33
+Wolfram Diestel: ekz-oj, bld
+
 Revision 1.31  2018/09/06 20:10:21  revo
 Wolfram Diestel: +trd tl
 
@@ -119,11 +206,5 @@ Revision 1.28  2013/10/07 15:11:08  revo
 Wolfram Diestel: kor. ref, ref al lst reptilioj
 
 Revision 1.27  2013/09/16 13:10:13  revo
-Joop Eggen: +trd bg
-
-Revision 1.26  2013/09/01 09:10:21  revo
-Wolfram Diestel: ~oj: rf al genroj, ~uloj: referenco al listo zoo ordoj,
-rampuloj->reptilioj
-
 -->
 </vortaro>

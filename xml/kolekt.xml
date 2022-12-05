@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: kolekt.xml,v 1.86 2021/06/19 05:58:41 revo Exp $">
+  <art mrk="$Id: kolekt.xml,v 1.125 2022/05/01 08:09:24 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>kolekt</rad>/i
@@ -89,7 +89,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la fabeloj estis efektive <tld/>itaj de fratoj Grimm kaj
+        la fabeloj estis efektive <tld/>itaj de fratoj <nom>Grimm</nom> kaj
         diktitaj de kamparaj rakontantoj
         <fnt>
           <bib>ElektFab</bib>
@@ -273,10 +273,15 @@
   </snc>
   <trd lng="af">versamel</trd>
   <trd lng="am">&#x1270;&#x1230;&#x1265;&#x1230;&#x1261;</trd>
-  <trd lng="ar">&#x62C;&#x645;&#x639;</trd>
+  <trd lng="ar">&a_j;&a_m;&a_ayn;</trd>
   <trd lng="az">toplamaq</trd>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_a;&c_b;&c_r;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_k;&c_a;&c_l;&c_je;&c_k;&c_c;&c_y;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="bn">&#x99C;&#x9A1;&#x9BC;&#x9CB; &#x995;&#x9B0;&#x9BE;</trd>
-  <trd lng="bo">&#xF66;&#xF92;&#xFB2;&#xF74;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_gata;&t_rata;&t_shabchu;&t_ga;&t_tsheg;</trd>
   <trd lng="bs">prikuplja</trd>
   <trd lng="co">vinianu</trd>
   <trdgrp lng="cs">
@@ -285,6 +290,7 @@
     <trd>shroma&zcaron;&dcaron;ovat</trd>,
     <trd>vyb&iacute;rat</trd>
   </trdgrp>
+  <trd lng="cy">casglu</trd>
   <trd lng="da">samle</trd>
   <trd lng="en">collect</trd>
   <trd lng="et">koguda</trd>
@@ -300,11 +306,15 @@
     <trd>regrouper</trd>
   </trdgrp>
   <trd lng="fy">sammelje</trd>
+  <trd lng="ga">bhaili&uacute;</trd>
+  <trd lng="gd">a &#x2018;cruinneachadh</trd>
   <trd lng="gl">recoller</trd>
   <trd lng="gu">&#xAAD;&#xAC7;&#xA97;&#xABE;</trd>
   <trd lng="ha">tara</trd>
   <trd lng="hi">&#x907;&#x915;&#x91F;&#x94D;&#x920;&#x93E;</trd>
+  <trd lng="hmn">sib sau ua ke</trd>
   <trd lng="hr">prikupiti</trd>
+  <trd lng="ht">ranmase</trd>
   <trdgrp lng="hu">
     <trd>gy&udblac;jt</trd>,
     <trd>begy&udblac;jt</trd>,
@@ -313,15 +323,29 @@
     <trd>&ouml;sszeszed</trd>
   </trdgrp>
   <trd lng="hy">&#x570;&#x561;&#x57E;&#x561;&#x584;&#x565;&#x56C;</trd>
+  <trd lng="ig">akp&#x1ECD;k&#x1ECD;ta</trd>
   <trd lng="is">safna</trd>
   <trd lng="ja">&#x96C6;&#x307E;&#x308B;</trd>
-  <trd lng="jw">klumpukne</trd>
+  <trd lng="jv">klumpukne</trd>
   <trd lng="ka">&#x10E8;&#x10D4;&#x10D5;&#x10D8;&#x10D9;&#x10E0;&#x10D8;&#x10D1;&#x10DD;&#x10D7;</trd>
+  <trd lng="kk">&c_zh;&c_i;&c_n;&c_a;&c_u;</trd>
   <trd lng="km">&#x1794;&#x17D2;&#x179A;&#x1798;&#x17BC;&#x179B;&#x1795;&#x17D2;&#x178F;&#x17BB;&#x17C6;</trd>
+  <trd lng="kn">&#xCB8;&#xC82;&#xC97;&#xCCD;&#xCB0;&#xCB9;&#xCBF;&#xCB8;&#xCB2;&#xCC1;</trd>
   <trd lng="ko">&#xC218;&#xC9D1;</trd>
+  <trd lng="ku">civandin</trd>
+  <trd lng="ky">&c_zh;&c_y;&c_j;&c_n;&c_o;&c_o;</trd>
+  <trd lng="lat">congregate</trd>
   <trd lng="lo">&#xEC0;&#xE81;&#xEB1;&#xE9A;</trd>
+  <trd lng="lt">surinkti</trd>
+  <trd lng="lv">sav&amacron;kt</trd>
+  <trd lng="mg">hanangona</trd>
+  <trd lng="mi">kohikohi</trd>
+  <trd lng="mk">&c_s;&c_o;&c_b;&c_je;&c_r;&c_a;&c_t;</trd>
   <trd lng="ml">&#xD36;&#xD47;&#xD16;&#xD30;&#xD3F;&#xD1A;&#xD4D;&#xD1A;&#xD41;</trd>
+  <trd lng="mn">&c_c;&c_u;&c_g;&c_l;&c_u;&c_u;&c_l;&c_a;&c_h;</trd>
   <trd lng="mr">&#x917;&#x94B;&#x933;&#x93E;</trd>
+  <trd lng="ms">mengumpul</trd>
+  <trd lng="mt">ji&#x121;bru</trd>
   <trd lng="my">&#x1005;&#x102F;&#x101B;&#x102F;&#x1036;&#x1038;</trd>
   <trd lng="ne">&#x92D;&#x947;&#x932;&#x93E;</trd>
   <trd lng="ny">kusonkhanitsa</trd>
@@ -331,7 +355,7 @@
     <trd>nazbiera&cacute;</trd>,
     <trd>zbiera&cacute;</trd>
   </trdgrp>     
-  <trd lng="ps">&#x631;&#x627;&#x67C;&#x648;&#x644;</trd>
+  <trd lng="ps">&a_r;&a_A;&#x67C;&a_w;&a_l;</trd>
   <trdgrp lng="ro">
     <trd>colecta</trd>,
     <trd>&icirc;nghesui</trd>
@@ -340,21 +364,34 @@
     <trd>&c_s;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x6AF;&#x68F;</trd>
+  <trd lng="rw">guterana</trd>
+  <trd lng="sd">&f_g;&#x68F;</trd>
   <trd lng="si">&#xDBB;&#xDD0;&#xDC3;&#xDCA;</trd>
   <trdgrp lng="sk">
     <trd>nazbiera&tcaron;</trd>,
     <trd>zbiera&tcaron;</trd>
   </trdgrp>
+  <trd lng="sl">zbrati</trd>
+  <trd lng="sm">aofaga</trd>
+  <trd lng="sn">kuunganidza</trd>
+  <trd lng="so">ururiyaan</trd>
   <trd lng="sq">mblidhen</trd>
   <trd lng="st">bokella</trd>
+  <trd lng="su">ngumpulkeun</trd>
+  <trd lng="sw">kukusanya</trd>
   <trd lng="ta">&#xB9A;&#xBC7;&#xB95;&#xBB0;&#xBBF;&#xB95;&#xBCD;&#xB95;</trd>
   <trd lng="te">&#xC38;&#xC47;&#xC15;&#xC30;&#xC3F;&#xC02;&#xC1A;&#xC21;&#xC3E;&#xC28;&#xC3F;&#xC15;&#xC3F;</trd>
+  <trd lng="tg">&c_g;&c_i;&c_r;&c_d;</trd>
   <trd lng="th">&#xE23;&#xE27;&#xE1A;&#xE23;&#xE27;&#xE21;</trd>
   <trd lng="tl">mangolekta</trd>
-  <trd lng="ur">&#x62C;&#x645;&#x639;</trd>
+  <trd lng="tt">&#x497;&c_y;&c_je;&c_l;</trd>
+  <trd lng="uk">&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_j;&a_m;&a_ayn;</trd>
+  <trd lng="uz">to&#x2019;plash</trd>
   <trd lng="vi">thu th&#x1EAD;p</trd>
-  <trd lng="yi">&#x5D3;&#x5E8;&#x5D9;&#x5E0;&#x5D2;&#x5E2;&#x5DF;</trd>
+  <trd lng="xh">ndibahlanganise</trd>
+  <trd lng="yi">&dalet;&resh;&yod;&nun;&#x2137;&ayin;&fnun;</trd>
+  <trd lng="yo">k&oacute;</trd>
   <trd lng="zu">hlangana</trd>
 </drv>
 
@@ -564,7 +601,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          la plena <tld/>o de komedioj de Holberg
+          la plena <tld/>o de komedioj de <nom>Holberg</nom>
           <fnt>
             <bib>Fab2</bib>
             <lok>Dano Holger</lok>
@@ -636,6 +673,13 @@
     </subsnc>
     <trd lng="es">grupo</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_b;&c_o;&c_r;</trd>,
+    <trd>&c_z;&c_b;&c_o;&c_r;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_b;&c_o;&c_r;&c_k;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_l;&c_je;&c_k;&c_c;&c_y;&c_ja;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_sh;&c_y;&c_w;&c_k;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>kolekce</trd>,
     <trd>sb&iacute;rka</trd>,
@@ -644,6 +688,7 @@
     <trd>soubor</trd>
   </trdgrp>
   <trd lng="de">Sammlung</trd>
+  <trd lng="en">collection</trd>
   <trdgrp lng="fr">
         <trd>collectage</trd>,
         <trd>collecte</trd>,
@@ -673,6 +718,10 @@
     <trd>s&uacute;bor</trd>,
     <trd>zbierka</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x431;&#x456;&#x440;&#x43A;&#x430;</trd>,
+    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x43A;&#x446;&#x456;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolekt.0isto">
@@ -695,7 +744,7 @@
   <snc mrk="kolekt.0isto.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
-       Nomadaj homoj nutrantaj sind per &ccirc;asado kaj <tld/>ado:
+      Nomadaj homoj nutrantaj sin per &ccirc;asado kaj <tld/>ado:
       <ekz>
         sociojn de <ind>&ccirc;asistoj-<tld/>istoj</ind>
         <fnt>
@@ -729,12 +778,20 @@
     </dif>
     <trd lng="de">Eintreiber <klr>(von Steuern)</klr></trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_b;&c_o;&c_r;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_b;&c_o;&c_r;&c_c;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_l;&c_je;&c_k;&c_t;&c_a;&c_r;</trd>,
+    <trd>&c_k;&c_a;&c_l;&c_je;&c_k;&c_c;&c_y;&c_ja;&c_n;&c_je;&c_r;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>kolektor</trd>,
     <trd>sb&ecaron;ratel</trd>,
     <trd>v&yacute;b&ecaron;r&ccaron;&iacute; <klr>(pen&ecaron;z)</klr></trd>
   </trdgrp>
   <trd lng="de">Sammler</trd>
+  <trd lng="en">collector</trd>
   <trd lng="es">recaudador</trd>
   <trd lng="fr">receveur<klr tip="ind"> (des imp&ocirc;ts)</klr></trd>
   <trd lng="hu">ad&oacute;szed&odblac;</trd>
@@ -749,6 +806,11 @@
   <trdgrp lng="sk">
     <trd>kolektor</trd>,
     <trd>zberate&lcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x447;</trd>,
+    <trd>&#x456;&#x43D;&#x43A;&#x430;&#x441;&#x430;&#x442;&#x43E;&#x440;</trd>,
+    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x43A;&#x442;&#x43E;&#x440;</trd>
   </trdgrp>
 </drv>
 
@@ -804,7 +866,12 @@
       <ref cel="grup">grupi&gcirc;i</ref>.
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="de">sich <ind>sammeln</ind></trd>
+  <trd lng="en">collect</trd>
   <trdgrp lng="es">
     <trd><ind>reunir</ind>se</trd>,
     <trd><ind>agrupar</ind>se</trd>
@@ -827,7 +894,69 @@
   <trd lng="ro">aduna</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;&c_s;&c_ja;
     <klr>(&c_v;&c_m;&c_je;&c_s;&c_t;&c_je;)</klr></trd>
+  <trd lng="uk">&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
 </drv>
+
+<drv mrk="kolekt.0ujo">
+  <kap>
+    <tld/>ujo
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="uj.0o">Ujo</ref> en kiu oni <tld/>as ion:
+      <ekz>
+        la patro donacis al mi <tld/>ujon, kaj li mem &jcirc;etis en &gcirc;in la unuan monero
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mon<tld/>ujon mi ne vidis, fine mi opiniis, ke &ccirc;iu &ccirc;i tie voja&gcirc;as per abonkarto
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        granda <tld/>ujo, en kiun oni en&jcirc;etis la malpurajn tola&jcirc;ojn
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iom kava, kvaza&ubreve; <tld/>ujo por la sunradioj
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akvo<tld/>ujo
+        <klr>(vd <ref cel="cister.0o.AKV">cisterno</ref>)</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url ref="&Monato;/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_je;&c_s;&c_c;&c_a; &c_z;&c_b;&c_o;&c_r;&c_u;</trd>,
+    <trd>&c_m;&c_je;&c_s;&c_c;&c_a; &c_z;&c_a;&c_h;&c_o;&c_w;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;
+    &c_k;&c_a;&c_l;&c_je;&c_k;&c_c;&c_y;&c_ib;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Sammelbeh&auml;lter</trd>,
+    <trd>Sammelbecken</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x43A;&#x442;&#x43E;&#x440;</trd>,
+    <trd>&#x441;&#x43A;&#x430;&#x440;&#x431;&#x43D;&#x438;&#x447;&#x43A;&#x430;</trd>,
+    <trd>&#x441;&#x43A;&#x430;&#x440;&#x431;&#x43E;&#x43D;&#x430;</trd>,
+    <trd>&#x43A;&#x430;&#x440;&#x43D;&#x430;&#x432;&#x43A;&#x430;</trd>
+  </trdgrp>
+</drv>
+
 
 <drv mrk="kolekt.en0i">
   <kap>en<tld/>i</kap>
@@ -867,6 +996,8 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol; <klr>(&c_r;&c_a;&c_z;&c_a;&c_m;, &c_u;
+  &c_a;&c_d;&c_n;&c_o;)</klr></trd>
   <trd lng="cs">uskladnit</trd>
   <trd lng="de">einsammeln</trd>
   <trd lng="es">recolectar</trd>
@@ -879,6 +1010,10 @@
         <klr>(&c_ch;&c_t;&c_o;-&c_l;.
           &c_v;&c_m;&c_je;&c_s;&c_t;&c_je;)</klr></trd>
   <trd lng="sk">uskladni&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43D;&#x430;&#x433;&#x440;&#x43E;&#x43C;&#x430;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolekt.for0i">
@@ -894,6 +1029,8 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_a;&c_b;&c_r;&c_a;&c_c;&c_mol; <klr>(&c_ib;
+  &c_a;&c_d;&c_n;&c_je;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
   <trdgrp lng="de">
     <trd>abernten</trd>,
     <trd>abgrasen</trd>,
@@ -917,8 +1054,8 @@
       <tld lit="K"/>o <sncref ref="kolekt.0o.ago"/> de tio,
       kio restas post la unua <tld/>o:
       <ekz>
-        &ccirc;u la post<tld/>o de Efraim ne estas pli bona
-        ol la tuta vinberkolekto de Abiezer
+        &ccirc;u la post<tld/>o de <nom>Efraim</nom> ne estas pli bona
+        ol la tuta vinberkolekto de <nom>Abiezer</nom>
         <fnt><bib>MT</bib><lok>&Jug; 8:2</lok></fnt>?
       </ekz>
       <ekz>
@@ -932,6 +1069,8 @@
     </dif>
     <ref tip="vid" cel="rikolt.post0i">postrikolto</ref>
   </snc>
+  <trd lng="be">&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;
+  &c_r;&c_e;&c_sh;&c_t;&c_a;&c_k;</trd>
   <trd lng="de">Nachlese</trd>
   <trd lng="es">rebusca <klr tip="ind"> (segunda
   cosecha)</klr></trd>
@@ -952,6 +1091,7 @@
       <ref tip="dif" cel="herbar.0o.BOT">Herbario</ref>.
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_je;&c_r;&c_b;&c_a;&c_r;&c_y;&c_j;</trd>
   <trdgrp lng="cs">
     <trd>herbarium</trd>,
     <trd>herb&aacute;&rcaron;</trd>
@@ -1025,6 +1165,8 @@
     </dif>
     <ref tip="vid" cel="volum.jar0o">jarvolumo</ref>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_d;&c_a;&c_v;&c_a;&c_ja;
+  <ind>&c_p;&c_a;&c_d;&c_sh;&c_y;&c_w;&c_k;&c_a;</ind></trd>
   <trd lng="cs">ro&ccaron;n&iacute;k <klr>(&ccaron;asopisu| z&aacute;kon&uring;)</klr></trd>
   <trd lng="de">Jahrgang</trd>
   <trd lng="es">anuario</trd>
@@ -1038,6 +1180,11 @@ p&eacute;riodique)</klr></trd>
   <trd lng="ru">&c_g;&c_o;&c_d;&c_o;&c_v;&c_a;&c_ja;
         &c_p;&c_o;&c_d;&c_sh;&c_i;&c_v;&c_k;&c_a;</trd>
   <trd lng="sk">ro&ccaron;n&iacute;k <klr>(&ccaron;asopisu)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x456;&#x447;&#x43D;&#x438;&#x43A;</trd>,
+    <trd>&#x440;&#x456;&#x447;&#x43D;&#x438;&#x439; &#x43A;&#x43E;&#x43C;&#x43F;&#x43B;&#x435;&#x43A;&#x442; (&#x433;&#x430;&#x437;&#x435;&#x442;</trd>,
+    <trd>&#x436;&#x443;&#x440;&#x43D;&#x430;&#x43B;&#x456;&#x432;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolekt.sxir0i">
@@ -1085,6 +1232,8 @@ p&eacute;riodique)</klr></trd>
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_mol;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol;
+  <klr>(&c_z;&c_r;&c_y;&c_v;&c_a;&c_ju;&c_ch;&c_y;)</klr></trd>
   <trd lng="de">pfl&uuml;cken</trd>
   <trd lng="es">recolectar</trd>
   <trd lng="fr">cueillir</trd>
@@ -1095,11 +1244,28 @@ p&eacute;riodique)</klr></trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;
     <klr>(&c_s;&c_r;&c_y;&c_v;&c_a;&c_ja;, &c_n;&c_a;&c_p;&c_r;.
       &c_c;&c_v;&c_je;&c_t;&c_y;)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x440;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x440;&#x438;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 </art>
   <!--
   $Log$
+versio 1.125 2022/05/01 08:09:24
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.121 2022/02/14 15:40:26
+Noam Mohr: +trd en kolekt-
+
+versio 1.120 2021/09/16 12:47:52
+Dmitri Gabinski: +trd be
+
+versio 1.119 2021/08/20 16:45:58
+Wolfram Diestel: +~ujo
+
 versio 1.42 2021/05/20 05:57:50
 Wolfram Diestel: kor. ref-cel
 
@@ -1110,17 +1276,5 @@ Wolfram Diestel: kor. ref-cel
   Jeromo Vasxe: + 1 ref + reordig 1 drv
 
   Revision 1.38  2017/09/17 16:10:13  revo
-  Wolfram Diestel: laueble kompletigis ekz-ojn kaj germanajn trd-ojn
-
-  Revision 1.37  2017/09/16 14:10:13  revo
-  Wolfram Diestel: ~o: rearanghis subsnc, ~isto: du pliaj sencoj,
-  prilboris ekz-ojn
-
-  Revision 1.36  2017/09/15 07:10:13  revo
-  Damien Brucker: -eraro cxe cel en ref
-
-  Revision 1.35  2017/09/14 20:10:17  revo
-  Wolfram Diestel: snc 3-5 kiel subsnc de 2, ekz-fnt-oj
-
 -->
 </vortaro>

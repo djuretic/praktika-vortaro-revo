@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: frag.xml,v 1.32 2020/04/24 08:10:28 revo Exp $">
+<art mrk="$Id: frag.xml,v 1.34 2022/11/28 21:26:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>frag</rad>/o <fnt><bib>Fab2</bib></fnt>
@@ -44,13 +43,12 @@
     <ref tip="super" cel="frukt.plur0o">plurfrukto</ref>
   </snc>
   <bld
-     lok="&WCU;/thumb/c/c1/Fragaria_vesca_-_metsmaasikas.jpg/320px-Fragaria_vesca_-_metsmaasikas.jpg"
-     prm="CC BY-SA 3.0"
-     >sova&gcirc;aj <tld/>oj (Fragaria vesca), duoninsulo Pakri
+  lok="&WCU;/thumb/c/c1/Fragaria_vesca_-_metsmaasikas.jpg/320px-Fragaria_vesca_-_metsmaasikas.jpg"
+  prm="CC BY-SA 3.0">sova&gcirc;aj <tld/>oj (Fragaria vesca), duoninsulo Pakri
        <fnt>
          <aut>Ivar Leidus, propra verko</aut>
-         <lok><url ref="&WCW;/File:Fragaria_vesca_-_metsmaasikas.jpg"
-             >&WCW;/File:Fragaria_vesca_-_metsmaasikas.jpg</url></lok>
+         <lok><url
+         ref="&WCW;/File:Fragaria_vesca_-_metsmaasikas.jpg">&WCW;/File:Fragaria_vesca_-_metsmaasikas.jpg</url></lok>
        </fnt>
   </bld>
   <trdgrp lng="be">
@@ -60,7 +58,7 @@
     <klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>
   </trdgrp>
   <trd lng="bg">&c_ja;&c_g;&c_o;&c_d;&c_a;</trd>
-  <trd lng="de">Erdbeere</trd>
+  <trd lng="de">Erdbeerstrauch</trd>
   <trd lng="en">strawberry</trd>
   <trd lng="es">fresa</trd>
   <trd lng="fr">fraise</trd>
@@ -84,6 +82,10 @@
   <trd lng="tr">&ccedil;ilek</trd>
   <trd lng="sk">jahoda <klr>(plod)</klr></trd>
   <trd lng="cs">jahoda</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_u;&#x43D;&c_i;&c_c;&#x44F;</trd>,
+    <trd>&#x43F;&#x43E;&#x43B;&c_u;&#x43D;&c_i;&c_c;&#x44F; (&#x44F;&c_g;&#x43E;&c_d;&c_i;)</trd>
+  </trdgrp>
   <trd lng="zh">&#33609;&#33683;</trd>
 </drv>
 
@@ -93,11 +95,9 @@
     <uzo tip="fak">BOT</uzo>
     <dif>
       Malalta 
-      <ref tip="lst" cel="veget.0ajxo"
-      lst="voko:rozoparencoj">vegeta&jcirc;o</ref>
+      <ref tip="lst" cel="veget.0ajxo" lst="voko:rozoparencoj">vegeta&jcirc;o</ref>
       kun ru&gcirc;aj plurfruktoj kaj tripartaj folioj;
-      <ref tip="lst" cel="genr.0o.BIO"
-      lst="voko:botanikaj_genroj">genro</ref> el familio <ref
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">genro</ref> el familio <ref
       tip="malprt" cel="rozac.0oj">rozacoj</ref>
       (<trd lng="la">Fragaria</trd>):
       <ekz>
@@ -113,21 +113,19 @@
         taraksako, poplo, arbara <tld/>ujo, saliko
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=522755">A&ubreve;to&hcirc;orio</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=522755">A&ubreve;to&hcirc;orio</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <bld
-     lok="&WCU;/thumb/2/25/FragariaChileonesisVarPatagonia.jpg/570px-FragariaChileonesisVarPatagonia.jpg"
-     prm="PD"
-     >folioj kaj floroj de <tld/>ujo (Fragaria chiloensis subsp.
+  lok="&WCU;/thumb/2/25/FragariaChileonesisVarPatagonia.jpg/570px-FragariaChileonesisVarPatagonia.jpg"
+  prm="PD">folioj kaj floroj de <tld/>ujo (Fragaria chiloensis subsp.
      chiloensis)
        <fnt>
          <aut>Dr. Kim Hummer</aut>
-         <lok><url ref="&WCW;/File:FragariaChileonesisVarPatagonia.jpg"
-             >&WCW;/File:FragariaChileonesisVarPatagonia.jpg</url></lok>
+         <lok><url
+         ref="&WCW;/File:FragariaChileonesisVarPatagonia.jpg">&WCW;/File:FragariaChileonesisVarPatagonia.jpg</url></lok>
        </fnt>
   </bld>
   <trdgrp lng="be">
@@ -153,10 +151,17 @@
   </trdgrp>
   <trd lng="sk">jahodn&iacute;k</trd>
   <trd lng="cs">jahodn&iacute;k</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_u;&c_shch; &c_s;&c_u;&#x43D;&c_i;&c_c;&c_ib;</trd>,
+    <trd>&#x43F;&#x43E;&#x43B;&c_u;&#x43D;&c_i;&c_c;&c_ib;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2022/11/28 21:26:43
+Ulrich Fellmann: fragujo: kor de DE trd
+
 Revision 1.30  2018/09/12 19:10:18  revo
 Wolfram Diestel: +ekz-oj
 

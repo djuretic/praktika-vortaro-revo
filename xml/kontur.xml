@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-<art mrk="$Id: kontur.xml,v 1.19 2021/05/28 14:15:28 revo Exp $">
+<art mrk="$Id: kontur.xml,v 1.23 2022/11/14 13:07:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kontur</rad>/o
@@ -10,21 +11,60 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="kontur.0o.BELA">
     <dif>
-      Linio, kiu limigas ekstere objekton:
+      <ref tip="super" cel="lini.0o.MAT">Linio</ref>, kiu limigas ekstere objekton:
       <ekz>
-        la <tld/>o de vazo, mamo;
+        <klr>[li]</klr> faras <tld/>ojn per grifelo, <klr>[&#8230;]</klr> &ccirc;irka&ubreve;signas per
+        cirkelo, kaj faras el &gcirc;i bildon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 44:13</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        verda makulo kun klaraj <tld/>oj<fnt>B</fnt>;
+        ni vidis klare la <tld/>ojn de &ccirc;iuj montoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        oni vidis klare la <tld/>ojn de &ccirc;iuj montoj;
+        en malfortaj <tld/>oj nur montri&gcirc;is al li plata bordo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        fari <tld/>ojn per grifelo<fnt>Z</fnt>;
+        malgra&ubreve; la foresto de la luno, estis tiel lume, ke sur la fono de la blanka
+        sablo oni povis vidi la <tld/>ojn de objektoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tra la nebulo oni <tld/>e vidas arbojn.
+        la mano per firma movado <klr>[&#8230;]</klr> aperigis sur la papero delikatajn,
+        mallongajn a&ubreve; retu&scirc;itajn <tld/>ojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la scienculoj rapide skizis per supra&jcirc;aj <tld/>oj la historion
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la sociaj komplika&jcirc;oj kaj problemoj aperis anta&ubreve; &scirc;iaj okuloj, konfuzite,
+        malklare, sed iliaj intermiksitaj <tld/>oj <klr>[&#8230;]</klr> tamen nenion al &scirc;i
+        lernigis
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -36,7 +76,7 @@
     <trd>&c_k;&c_o;&c_n;&c_t;&c_u;&c_r;</trd>,
     <trd>&c_a;&c_b;&c_r;&c_y;&c_s;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF56;&#xF5F;&#xF7C;&#xF0B;&#xF56;&#xF64;&#xF60;&#xF0B;</trd>
+  <trd lng="bo">&t_ba;&t_za;&t_naro;&t_tsheg;&t_ba;&t_sha;&t_-a;&t_tsheg;</trd>
   <trdgrp lng="ca">
     <trd>contorn</trd>
   </trdgrp>
@@ -92,20 +132,53 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="kontur.0i.BELA">
     <dif>
-      Desegni la <tld/>on de:
+      <ref tip="super" cel="desegn.0i.KOMUNE">Desegni</ref> la <tld/>on de:
       <ekz>
-        la tran&ccirc;e <tld/>ita arba muro.
+        Leonardo <nom>da Vinci</nom> <klr>[&#8230;]</klr> klare <tld/>is la objektojn sur siaj pentra&jcirc;oj
+        <fnt>
+          <bib>KFl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nigro <tld/>is &scirc;iajn okulojn
+        <fnt>
+          <aut>Anna L&ouml;wenstein</aut>
+          <vrk>La &scirc;tona urbo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kun egala facileco li <tld/>as la plej delikatajn sentimentojn kaj la plej
+        krudajn pasiojn
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        momentaj impresoj, <klr>[&#8230;]</klr> pensoj, malprecizaj, malnete <tld/>itaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Monato;/2007/009010.php">Resume de l' mio</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="krokiz.0i">krokizi</ref>,
+      <ref cel="skiz.0i">skizi</ref>
+    </refgrp>
   </snc>
+  <trd lng="be">&c_r;&c_y;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_k;&c_o;&c_n;&c_t;&c_u;&c_r;)</klr></trd>
   <trdgrp lng="cs">
     <trd>r&yacute;sovat</trd>,
     <trd>&ccaron;rtat</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>umrei&szlig;en</trd>,
-    <trd>in Umriss zeichnen</trd>,
-    <trd>die Konturen zeigen</trd>
+    <trd>in <ind>Umriss</ind> zeichnen</trd>,
+    <trd>die <ind>Konturen</ind> zeigen</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>cerner<klr> (d'un trait)</klr></trd>,
@@ -124,7 +197,7 @@
   </trdgrp>   
   <trdgrp lng="ro">
     <trd>desena</trd>,
-    <trd>schi&#x21B;&abreve;</trd>,
+    <trd>schi&#539;&abreve;</trd>,
     <trd>pune</trd>
   </trdgrp>
   <trdgrp lng="sk">
@@ -140,16 +213,22 @@
     <dif>
       Ekaperi <tld/>e, kiel sendetala formo:
       <ekz>
-        en la malproksimo <tld/>i&gcirc;is la turpinto de pre&gcirc;ejo;
+        je tiu fono, kvaza&ubreve; kneditaj el argilo <tld/>i&gcirc;as la domoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Robert Roze</aut>
+          <vrk><url ref="&Steloj;monato2/006945.html">Francio: Flagrantaj koloroj</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         lia ombro, granda kaj nigra, <tld/>i&gcirc;is apud li sur la muro
         <fnt>
-        <aut>Jordan Jovkov, trad. A. Simeonov</aut>,
-        <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr71/gardistaro.html">Plej
-        fidela gardistaro (fino)</url></vrk>,
-        <lok>nica literatura revuo, 1961-09 &gcirc;is 10, 7/1, p.
-        16a-24a</lok>
+          <aut>Jordan Jovkov, trad. A. Simeonov</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr71/gardistaro.html">Plej
+          fidela gardistaro (fino)</url></vrk>,
+          <lok>nica literatura revuo, 1961-09 &gcirc;is 10, 7/1, p.
+          16a-24a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -159,16 +238,34 @@
     <dif>
       Ekaperi ne tute klare, nur la&ubreve; generala aspekto:
       <ekz>
-        stre&ccirc;a situacio <klr>...</klr> <tld/>i&gcirc;as inter la du landoj
+        la situacio en la komenco de la nova jarmilo <tld/>i&gcirc;as kiel vera &leftquot;teokratio&rightquot;,
+        nome absoluta povo de la papo rilate la tutan kristanaron
         <fnt>
-        <aut>&Gcirc;angalo</aut>,
-        <vrk>Irano akuzas Usonon</vrk>,
-        <lok>2005-08-14</lok>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="&Monato;/2006/008871.php">&Scirc;tato, eklezio kaj ideologia laikeco</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        stre&ccirc;a situacio <klr>[&#8230;]</klr> <tld/>i&gcirc;as inter la du landoj
+        <fnt>
+          <aut>&Gcirc;angalo</aut>,
+          <vrk>Irano akuzas Usonon</vrk>,
+          <lok>2005-08-14</lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="nl">zich <ind>aftekenen</ind></trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_a;&c_ja;&c_w;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>sich <ind>abheben</ind></trd>,
+    <trd>sich <ind>abzeichnen</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>se <ind>dessiner</ind></trd>,
     <trd>s'<ind>esquisser</ind></trd>
@@ -185,6 +282,18 @@
 </art>
 <!--
 $Log$
+versio 1.23 2022/11/14 13:07:31
+Dmitri Gabinski: + trd be
+
+versio 1.22 2022/05/01 08:09:25
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.21 2021/10/11 20:28:18
+Wolfram Diestel: ~i, ~igxi: ekz-oj, ref-oj, trd de
+
+versio 1.20 2021/10/11 18:32:17
+Wolfram Diestel: ~o: ekz-oj
+
 Revision 1.17  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -195,14 +304,5 @@ Revision 1.15  2009/09/10 16:33:00  revo
 Paul Peeraerts: +nl
 
 Revision 1.14  2006/05/01 18:12:25  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2006/04/17 16:33:59  revo
-Jeromo Vasxe: + ~igxi, + trd fr
-
-Revision 1.12 2005/04/18 16:33:21 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.11 2004/08/13 16:31:58 revo
 -->
 </vortaro>

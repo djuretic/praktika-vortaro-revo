@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: neuxtr.xml,v 1.28 2020/02/15 20:10:21 revo Exp $">
+<art mrk="$Id: neuxtr.xml,v 1.30 2022/11/24 14:27:40 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>ne&ubreve;tr</rad>/a
@@ -33,7 +32,7 @@
   <snc mrk="neuxtr.0a.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      Nek acida nek baza.
+      Nek <ref cel="acid.0o.KEM">acida</ref> nek <ref cel="baz.0o.KEM">baza</ref>.
     </dif>
     <trd lng="en">neutral</trd>
     <trd lng="be">&c_n;&c_e;&c_w;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
@@ -51,10 +50,8 @@
       rilate al
       <ref cel="operac.0o.MAT">operacio</ref> <frm>&#8224;</frm> en
       <frm am="bb E"><g>E</g></frm>)</klr>
-      Tia, ke <frm am="x&#8224;e=e&#8224;x=x"
-      ><k>x</k>&#8224;<k>e</k> = <k>e</k>&#8224;<k>x</k> =
-      <k>x</k></frm> por &ccirc;iu <frm am="x in bb
-      E"><k>x</k>&#8712;<g>E</g></frm>:
+      Tia, ke <frm am="x&#8224;e=e&#8224;x=x"><k>x</k>&#8224;<k>e</k> = <k>e</k>&#8224;<k>x</k> =
+      <k>x</k></frm> por &ccirc;iu <frm am="x in bb       E"><k>x</k>&#8712;<g>E</g></frm>:
       <ekz>
         la nombroj <frm>0</frm> kaj <frm>1</frm> estas <tld/>aj
         respektive rilate al adicio kaj multipliko;
@@ -83,6 +80,12 @@
   <trd lng="el">&omikron;&ypsilon;&delta;&epsilon_ton;&tau;&epsilon;&rho;&omikron;&sigma_fina;</trd>
   <trd lng="fr">neutre</trd>
   <trd lng="pt">neutro</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_je;&c_r;&c_je;&c_d;&#x43D;&c_ib;&c_j; (&#x43F;&c_r;&#x43E; &c_r;&c_ib;&c_d;)</trd>,
+    <trd>&#x43D;&c_je;&c_j;&c_t;&c_r;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je;&#x43E;&c_z;&#x43D;&c_a;&c_ch;&c_je;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_s;&c_t;&c_a;&c_t;&c_je;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="neuxtr.0iganto">
@@ -198,7 +201,10 @@
 </drv>
 </art>
 <!--
-$Log: neuxtr.xml,v $
+$Log$
+versio 1.30 2022/11/24 14:27:40
+Wolfram Diestel: +ref
+
 versio 1.28 2020/02/15 20:10:21
 Wolfram Diestel: formuloj per am
 
@@ -218,8 +224,5 @@ Revision 1.23  2004/08/16 16:32:15  revo
 Marc Bavant: kor ref cel al "ajxgenro"
 
 Revision 1.22 2004/07/15 19:04:41 revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.21 2004/06/22 16:29:26 revo
 -->
 </vortaro>

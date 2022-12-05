@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: send.xml,v 1.78 2021/06/18 18:20:09 revo Exp $">
+<art mrk="$Id: send.xml,v 1.118 2022/05/05 05:09:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>send</rad>/i
@@ -132,7 +132,7 @@
   </snc>
   <trd lng="af">stuur</trd>
   <trd lng="am">&#x120B;&#x12AD;</trd>
-  <trd lng="ar">&#x625;&#x631;&#x633;&#x627;&#x644;</trd>
+  <trd lng="ar">&a_A_hamza_sube;&a_r;&a_s;&a_A;&a_l;</trd>
   <trd lng="az">g&#xF6;nd&#x259;rm&#x259;k</trd>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_s;&c_y;&c_l;&c_a;&c_c;&c_mol;</trd>,
@@ -140,12 +140,13 @@
   </trdgrp>
   <trd lng="bn">&#x9AA;&#x9BE;&#x9A0;&#x9BE;&#x9A8;</trd>
   <trd lng="bo">&#xF66;&#xF90;&#xF74;&#xF62;&#xF0B;</trd>
-  <trd lng="bs">po&#x161;alji</trd>
+  <trd lng="bs">po&scaron;alji</trd>
   <trd lng="co">mand&#xE0;</trd>
   <trdgrp lng="cs">
     <trd>poslat</trd>,
     <trd>zas&iacute;lat</trd>
   </trdgrp>
+  <trd lng="cy">anfon</trd>
   <trd lng="da">sende</trd>
   <trdgrp lng="de">
     <trd>schicken</trd>,
@@ -160,29 +161,47 @@
     <trd>exp&eacute;dier</trd>
   </trdgrp>
   <trd lng="fy">stjoere</trd>
+  <trd lng="ga">sheoladh</trd>
+  <trd lng="gd">cuir</trd>
   <trd lng="gl">enviar</trd>
   <trd lng="gu">&#xAAE;&#xACB;&#xA95;&#xAB2;&#xAB5;&#xABE;</trd>
   <trd lng="ha">aika</trd>
   <trd lng="hi">&#x92D;&#x947;&#x91C;&#x947;&#x902;</trd>
+  <trd lng="hmn">xa</trd>
   <trd lng="hr">poslati</trd>
+  <trd lng="ht">voye</trd>
   <trdgrp lng="hu">
     <trd>k&uuml;ld</trd>,
     <trd>elk&uuml;ld</trd>
   </trdgrp>
   <trd lng="hy">&#x578;&#x582;&#x572;&#x561;&#x580;&#x56F;&#x565;&#x56C;</trd>
+  <trd lng="ig">iziga</trd>
   <trd lng="is">senda</trd>
   <trdgrp lng="it">
     <trd>mandare</trd>,
     <trd>inviare</trd>
   </trdgrp>
   <trd lng="ja">&#x9001;&#x4FE1;</trd>
-  <trd lng="jw">ngirim</trd>
+  <trd lng="jv">ngirim</trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10E3;&#x10D2;&#x10D6;&#x10D0;&#x10D5;&#x10DC;&#x10D4;</trd>
+  <trd lng="kk">&c_zh;&c_ib;&c_b;&c_je;&c_r;&c_u;</trd>
   <trd lng="km">&#x1795;&#x17D2;&#x1789;&#x17BE;</trd>
+  <trd lng="kn">&#xC95;&#xCB3;&#xCC1;&#xCB9;&#xCBF;&#xCB8;&#xCBF;</trd>
   <trd lng="ko">&#xBCF4;&#xB0B4;</trd>
+  <trd lng="ku">&#x15F;andin</trd>
+  <trd lng="ky">&c_zh;&c_i;&c_b;&c_je;&c_r;&#x4AF;&#x4AF;</trd>
+  <trd lng="lat">mitto</trd>
   <trd lng="lo">&#xEAA;&#xEBB;&#xEC8;&#xE87;</trd>
+  <trd lng="lt">si&#x173;sti</trd>
+  <trd lng="lv">s&#x16B;t&#x12B;t</trd>
+  <trd lng="mg">handefa</trd>
+  <trd lng="mi">tukua atu</trd>
+  <trd lng="mk">&c_i;&c_s;&#x43F;&c_r;&c_a;&c_t;&c_i;</trd>
   <trd lng="ml">&#xD05;&#xD2F;&#xD2F;&#xD4D;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mn">&c_i;&#x43B;&c_g;&#x44D;&#x44D;&c_h;</trd>
   <trd lng="mr">&#x92A;&#x93E;&#x920;&#x935;&#x93E;</trd>
+  <trd lng="ms">menghantar</trd>
+  <trd lng="mt">tibg&#x127;at</trd>
   <trd lng="my">&#x1015;&#x1031;&#x1038;&#x1015;&#x102D;&#x102F;&#x1037;</trd>
   <trd lng="ne">&#x92A;&#x920;&#x93E;&#x909;&#x928;</trd>
   <trdgrp lng="nl">
@@ -192,7 +211,7 @@
   <trd lng="no">sende</trd>
   <trd lng="ny">kutumiza</trd>
   <trd lng="pa">&#xA2D;&#xA47;&#xA1C;&#xA23;</trd>
-  <trd lng="ps">&#x648;&#x627;&#x633;&#x62A;&#x648;&#x64A;</trd>
+  <trd lng="ps">&a_w;&a_A;&a_s;&#x62A;&a_w;&#x64A;</trd>
   <trdgrp lng="pt">
     <trd>enviar</trd>,
     <trd>remeter</trd>
@@ -201,21 +220,35 @@
     <trd>&c_s;&c_l;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_s;&c_l;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x645;&#x648;&#x6AA;&#x644;&#x64A;&#x648;</trd>
+  <trd lng="rw">ohereza</trd>
+  <trd lng="sd">&a_m;&a_w;&#x6AA;&a_l;&#x64A;&a_w;</trd>
   <trd lng="si">&#xD91;&#xDC0;&#xDB1;</trd>
   <trdgrp lng="sk">
     <trd>posla&tcaron;</trd>,
     <trd>zasiela&tcaron;</trd>
   </trdgrp>
+  <trd lng="sl">po&scaron;lji</trd>
+  <trd lng="sm">ave</trd>
+  <trd lng="sn">tuma</trd>
+  <trd lng="so">soo diri</trd>
   <trd lng="sq">d&#xEB;rgoni</trd>
+  <trd lng="st">romela</trd>
+  <trd lng="su">ngirim</trd>
   <trd lng="sv">s&auml;nda</trd>
+  <trd lng="sw">kutuma</trd>
   <trd lng="ta">&#xB85;&#xBA9;&#xBC1;&#xBAA;&#xBCD;&#xBAA;&#xBC1;</trd>
   <trd lng="te">&#xC2A;&#xC02;&#xC2A;&#xC02;&#xC21;&#xC3F;</trd>
+  <trd lng="tg">&c_f;&c_i;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_d;&c_a;&#x43D;</trd>
   <trd lng="th">&#xE2A;&#xE48;&#xE07;</trd>
   <trd lng="tl">magpadala ng</trd>
-  <trd lng="ur">&#x628;&#x6BE;&#x6CC;&#x62C;&#x6CC;&#x6BA;</trd>
+  <trd lng="tt">&#x497;&c_i;&c_b;&#x4D9;&c_r;&#x4AF;</trd>
+  <trd lng="uk">&#x43F;&#x43E;&c_s;&#x43B;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_b;&#x6BE;&#x6CC;&#x62C;&#x6CC;&#x6BA;</trd>
+  <trd lng="uz">yuborish</trd>
   <trd lng="vi">g&#x1EED;i</trd>
+  <trd lng="xh">thumela</trd>
   <trd lng="yi">&#x5E9;&#x5D9;&#x5E7;&#x5DF;</trd>
+  <trd lng="yo">fi</trd>
   <trd lng="zu">thumela</trd>
 </drv>
 
@@ -294,6 +327,10 @@
     <trd>vyslanec</trd>
   </trdgrp>
   <trd lng="sv">s&auml;ndebud</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x43E;&#x441;&#x43B;&#x430;&#x43D;&#x435;&#x446;&#x44C;</trd>,
+    <trd>&#x43F;&#x43E;&#x441;&#x43B;&#x430;&#x43D;&#x43D;&#x438;&#x43A;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="send.dis0i">
@@ -348,7 +385,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="https://www.monato.be/2003/008161.html">Per flugiloj de malfacila vento</url></vrk>
+          <vrk><url ref="&Monato;/2003/008161.html">Per flugiloj de malfacila
+          vento</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -357,7 +395,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>pp</aut>
-          <vrk><url ref="https://www.monato.be/2009/009778.php">Yahoo! akuzita</url></vrk>
+          <vrk><url ref="&Monato;/2009/009778.php">Yahoo! akuzita</url></vrk>
           <lok>2009</lok>
         </fnt>;
       </ekz>
@@ -366,7 +404,8 @@
         programojn en Esperanto
         <fnt>
           <aut>R. Sartor</aut>,
-          <vrk><url ref="http://es.chinabroadcast.cn/1/2004/12/13/1@18383.htm">... el Argentino</url></vrk>,
+          <vrk><url ref="http://es.chinabroadcast.cn/1/2004/12/13/1@18383.htm">... el
+          Argentino</url></vrk>,
           <lok>&Ccirc;ina Radio Internacia, 2004-12-13</lok>
         </fnt>.
       </ekz>
@@ -391,6 +430,12 @@
   <trdgrp lng="sk">
     <trd>rozosla&tcaron;</trd>,
     <trd>vysiela&tcaron; <klr>(rozhlasom)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x43E;&#x437;&#x441;&#x438;&#x43B;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x43E;&#x448;&#x438;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x43F;&#x43E;&#x432;&#x441;&#x44E;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; (&#x43F;&#x43E; &#x440;&#x430;&#x434;&#x456;&#x43E;)</trd>
   </trdgrp>
 </drv>
 
@@ -435,7 +480,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007205.html">Kosovo: Voja&gcirc;impresoj, somero 2000</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007205.html">Kosovo: Voja&gcirc;impresoj,
+          somero 2000</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -444,7 +490,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jean Pierre Vanden Daele</aut>
-          <vrk><url ref="https://www.monato.be/2010/009970.php">Ricevi persatelite</url></vrk>
+          <vrk><url ref="&Monato;/2010/009970.php">Ricevi persatelite</url></vrk>
           <lok>2010</lok>
         </fnt>;
       </ekz>
@@ -453,7 +499,8 @@
         programojn per propra servilo
         <fnt>
           <aut>-</aut>,
-          <vrk><url ref="http://gxangalo.com/modules/news/article.php?storyid=2420">Interreto: ITV elsendas...</url></vrk>,
+          <vrk><url ref="http://gxangalo.com/modules/news/article.php?storyid=2420">Interreto: ITV
+          elsendas...</url></vrk>,
           <lok>&Gcirc;angalo, 2005-12-14</lok>
         </fnt>.
       </ekz>
@@ -480,6 +527,7 @@
     <trd>emitova&tcaron;</trd>,
     <trd>vysiela&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&#x432;&#x438;&#x441;&#x438;&#x43B;&#x430;&#x442;&#x438;</trd>
 </drv>
 
 <drv mrk="send.for0i">
@@ -544,6 +592,11 @@
   <trd lng="nl">wegzenden</trd>
   <trd lng="ru">&c_o;&c_t;&c_o;&c_s;&c_l;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">odosla&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x438;&#x43B;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x430;&#x441;&#x438;&#x43B;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="send.plu0i">
@@ -559,7 +612,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>pp</aut>
-          <vrk><url ref="https://www.monato.be/2008/009646.php">En Interreton, en la karceron</url></vrk>
+          <vrk><url ref="&Monato;/2008/009646.php">En Interreton, en la
+          karceron</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -572,7 +626,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Peeraerts</aut>
-          <vrk><url ref="https://www.monato.be/2003/008185.html">Kiu sendis al mi tiun viruson?</url></vrk>
+          <vrk><url ref="&Monato;/2003/008185.html">Kiu sendis al mi tiun
+          viruson?</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -582,7 +637,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Probal Da&scirc;gupto</aut>
-          <vrk><url ref="https://www.monato.be/2004/008239.html">Publika sakrado</url></vrk>
+          <vrk><url ref="&Monato;/2004/008239.html">Publika sakrado</url></vrk>
           <lok>2004</lok>
         </fnt>.
       </ekz>
@@ -666,7 +721,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj'</aut>
-          <vrk><url ref="https://www.monato.be/2014/011154.php">Kerno de la itala lingvo</url></vrk>
+          <vrk><url ref="&Monato;/2014/011154.php">Kerno de la itala lingvo</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
@@ -676,6 +731,7 @@
     <trd lng="de">verweisen</trd>
   </snc>
   <trd lng="de">zur&uuml;ckschicken</trd>
+  <trd lng="uk">&#x432;&#x456;&#x434;&#x441;&#x438;&#x43B;&#x430;&#x442;&#x438;/&#x432;&#x456;&#x434;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438; &#x43D;&#x430;&#x437;&#x430;&#x434;</trd>
 </drv>
 
 <drv mrk="send.kun0ajxo">
@@ -684,7 +740,7 @@
     <uzo tip="fak">KOMP</uzo>
     <dif>
       En retpo&scirc;to, datumaro (teksto, bildo, sono) <tld/>ata kun
-      <ref tip="malprt" cel="ret.0letero">retletero</ref>
+      <ref tip="malprt" cel="leter.ret0o">retletero</ref>
       por ke la ricevonto povu &gcirc;in ekstrakti kaj uzi:
       <ekz>
         la fotojn vi trovos en la kun<tld/>a&jcirc;o;
@@ -694,7 +750,8 @@
         estas lia matrikulnumero, kaj al kiu estas aldonita la balotila dosiero kiel
         kun<tld/>a&jcirc;o
         <fnt>
-          <vrk><url ref="http://www.satesperanto.org/spip.php?article2958">Referendumo 2015 &dash; Sennacieca Asocio Tutmonda</url></vrk>
+          <vrk><url ref="http://www.satesperanto.org/spip.php?article2958">Referendumo 2015 &dash;
+          Sennacieca Asocio Tutmonda</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -739,7 +796,8 @@
         estontaj sondiloj kaj Tero
         <fnt>
           <bib>Viki</bib>,
-          <vrk><url ref="http://eo.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter">Mars Reconnaissance Orbiter</url></vrk>
+          <vrk><url ref="&Viki;/Mars_Reconnaissance_Orbiter">Mars
+          Reconnaissance Orbiter</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -748,7 +806,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franck Arnaud</aut>
-          <vrk><url ref="https://www.monato.be/2003/008177.html">Kia solvo por rubpo&scirc;to?</url></vrk>
+          <vrk><url ref="&Monato;/2003/008177.html">Kia solvo por rubpo&scirc;to?</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -769,7 +827,13 @@
 
 </art>
   <!--
-  $Log: send.xml,v $
+  $Log$
+versio 1.118 2022/05/05 05:09:56
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.112 2021/09/06 05:27:24
+Wolfram Diestel: +kor. ref-cel
+
 versio 1.35 2020/01/28 09:10:17
 Wolfram Diestel: +ekz-oj
 
@@ -786,11 +850,5 @@ Wolfram Diestel: +ekz-oj
   Filip van Laenen: +trd(nl,no)
 
   Revision 1.30  2013/02/20 06:10:09  revo
-  Dmitri Gabinski: redakto: +trd be
-
-  Revision 1.29  2013/02/18 02:10:20  revo
-  Evandro Avellar: +tr pt
-
-  Revision 1.28  2011/06/24 19:10:17  revo
 -->
 </vortaro>

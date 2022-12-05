@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akord.xml,v 1.79 2021/06/18 20:41:18 revo Exp $">
+<art mrk="$Id: akord.xml,v 1.112 2022/10/24 07:16:21 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>akord</rad>/o <fnt><bib>NT</bib></fnt>
@@ -86,6 +86,7 @@
     <trd lng="ca">acord</trd>
     <trdgrp lng="de">
       <trd>Gleichklang</trd>,
+      <trd>Konsens</trd>,
       <trd>&Uuml;bereinstimmung</trd>
     </trdgrp>
     <trd lng="es">acuerdo</trd>
@@ -174,7 +175,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>PGubbins</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006952.html">Reago: A&ubreve;strio kaj la ceteraj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006952.html">Reago: A&ubreve;strio kaj la ceteraj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -182,7 +183,7 @@
         triaj landoj
         <fnt>
           <aut>D. ap Fergus</aut>
-          <lok><url ref="http://esperanto-ondo.ru/Df2002.htm">LoDE
+          <lok><url ref="&LOdE;Df2002.htm">LoDE
           2002:5</url></lok>
         </fnt>;
       </ekz>
@@ -192,7 +193,7 @@
         <fnt>
           <aut>trad. V. Lutermano</aut>
           <vrk>Le Monde Diplomatique en Esperanto</vrk>
-          <lok><url ref="http://eo.mondediplo.com/article842.html">2003-12</url></lok>
+          <lok><url ref="&Mondediplo;article842.html">2003-12</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -242,50 +243,78 @@
   </refgrp>
   <trd lng="af">koord</trd>
   <trd lng="am">&#x12AE;&#x122D;&#x12F5;</trd>
-  <trd lng="ar">&#x648;&#x62A;&#x631;</trd>
+  <trd lng="ar">&a_w;&#x62A;&a_r;</trd>
   <trd lng="bn">&#x99C;&#x9CD;&#x9AF;&#x9BE;</trd>
   <trd lng="bs">akord</trd>
   <trd lng="co">bascule</trd>
+  <trd lng="cy">tant</trd>
   <trd lng="da">akkord</trd>
   <trd lng="et">akord</trd>
   <trd lng="eu">akordeak</trd>
   <trd lng="fy">akkoard</trd>
+  <trd lng="ga">corda</trd>
   <trd lng="gl">acorde</trd>
   <trd lng="gu">&#xAA4;&#xABE;&#xAB0;</trd>
   <trd lng="ha">tsirkiya</trd>
   <trd lng="he">&#x5D4;&#x5B6;&#x5E1;&#x5DB;&#x5BC;&#x5B5;&#x5DD;</trd>
-  <trd lng="hi">&#x930;&#x93E;&#x917;</trd>
+  <trd lng="hi">&#2352;&#x93E;&#2327;</trd>
   <trd lng="hr">akord</trd>
-  <trd lng="hy">&#x56F;&#x561;&#x57A;&#x561;&#x576;</trd>
+  <trd lng="ht">k&#xF2;d</trd>
+  <trd lng="hy">&#x56F;&#1377;&#x57A;&#1377;&#1398;</trd>
+  <trd lng="ig">mmagba</trd>
   <trd lng="is">hlj&#xF3;murinn</trd>
   <trd lng="ja">&#x548C;&#x97F3;</trd>
-  <trd lng="jw">penghubung</trd>
+  <trd lng="jv">penghubung</trd>
   <trd lng="ka">&#x10D0;&#x10D9;&#x10DD;&#x10E0;&#x10D3;&#x10D8;</trd>
-  <trd lng="km">&#x17A2;&#x1784;&#x17D2;&#x1780;&#x178F;&#x17CB;&#x1792;&#x17D2;&#x1793;&#x17BC;</trd>
+  <trd lng="kk">&c_a;&#x43A;&#x43A;&#x43E;&c_r;&c_d;</trd>
+  <trd lng="km">&#x17A2;&#6020;&#x17D2;&#6016;&#x178F;&#x17CB;&#6034;&#x17D2;&#6035;&#x17BC;</trd>
+  <trd lng="kn">&#xCB8;&#xCCD;&#xCB5;&#xCB0;&#xCAE;&#xCC7;&#xCB3;</trd>
   <trd lng="ko">&#xCF54;&#xB4DC;</trd>
+  <trd lng="ku">denglihevan&#xEE;n&#xEE;</trd>
+  <trd lng="ky">&c_a;&#x43A;&#x43A;&#x43E;&c_r;&c_d;</trd>
+  <trd lng="lat">chorda</trd>
   <trd lng="lo">&#xE81;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">styga</trd>
+  <trd lng="lv">akords</trd>
+  <trd lng="mk">&c_a;&#x43A;&#x43E;&c_r;&c_d;</trd>
   <trd lng="ml">&#xD36;&#xD2C;&#xD4D;&#xD26;&#xD35;&#xD32;&#xD2F;&#xD02;</trd>
-  <trd lng="mr">&#x91C;&#x940;&#x935;&#x93E;</trd>
-  <trd lng="my">&#x1000;&#x103C;&#x102D;&#x102F;&#x1038;</trd>
+  <trd lng="mn">&c_h;&#x4E9;&c_v;&c_ch;</trd>
+  <trd lng="mr">&#x91C;&#2368;&#2357;&#x93E;</trd>
+  <trd lng="ms">kord</trd>
+  <trd lng="mt">korda</trd>
+  <trd lng="my">&#4096;&#x103C;&#x102D;&#x102F;&#4152;</trd>
   <trd lng="ny">poyambira</trd>
   <trd lng="pa">&#xA15;&#xA4B;&#xA30;&#xA3F;&#xA1C;&#xA3C;</trd>
-  <trd lng="ps">&#x627;&#x639;&#x635;&#x627;&#x628;&#x648;</trd>
-  <trd lng="sd">&#x631;&#x627;&#x6AF; &#x6AF;&#x631;&#x64A;</trd>
-  <trd lng="si">&#xDC4;&#xDD0;&#xD9F;&#xDD3;&#xDB8;&#xDCA; &#xD87;&#xDC0;&#xDD2;&#xDC3;&#xDCA;&#xDC3;&#xDD4;&#xDC0;&#xDDA;</trd>
+  <trd lng="ps">&a_A;&a_ayn;&a_S;&a_A;&a_b;&a_w;</trd>
+  <trd lng="rw">inanga</trd>
+  <trd lng="sd">&a_r;&a_A;&#x6AF; &#x6AF;&a_r;&#x64A;</trd>
+  <trd lng="si">&#xDC4;&#xDD0;&#xD9F;&#xDD3;&#xDB8;&#xDCA;
+  &#xD87;&#xDC0;&#xDD2;&#xDC3;&#xDCA;&#xDC3;&#xDD4;&#xDC0;&#xDDA;</trd>
   <trd lng="sk">akord, s&uacute;zvuk aspo&ncaron; troch t&oacute;nov</trd>
   <trd lng="sk">akord, s&uacute;zvuk aspo&ncaron; troch t&oacute;nov</trd>
   <trdgrp lng="cs">
     <trd>akord</trd>,
     <trd>souzvuk alespo&ncaron; t&rcaron;&iacute; t&oacute;n&uring;</trd>
   </trdgrp>
+  <trd lng="sl">tetiva</trd>
+  <trd lng="sm">kotu</trd>
+  <trd lng="sn">kodhi</trd>
+  <trd lng="so">shaqoxannibista</trd>
   <trd lng="sq">akord</trd>
   <trd lng="st">samjun</trd>
+  <trd lng="sw">gumzo</trd>
   <trd lng="ta">&#xBA8;&#xBBE;&#xBA3;&#xBCD;</trd>
   <trd lng="te">&#xC24;&#xC40;&#xC17;</trd>
+  <trd lng="tg">&c_a;&#x43A;&#x43A;&#x43E;&c_r;&c_d;</trd>
   <trd lng="th">&#xE04;&#xE2D;&#xE23;&#xE4C;&#xE14;</trd>
-  <trd lng="ur">&#x631;&#x627;&#x6AF;</trd>
+  <trd lng="tt">&c_a;&#x43A;&#x43A;&#x43E;&c_r;&c_d;</trd>
+  <trd lng="uk">&c_a;&#x43A;&#x43E;&c_r;&c_d;</trd>
+  <trd lng="ur">&a_r;&a_A;&#x6AF;</trd>
+  <trd lng="uz">akkord</trd>
   <trd lng="vi">h&#x1EE3;p &#xE2;m</trd>
+  <trd lng="xh">ikhodi</trd>
   <trd lng="yi">&#x5E7;&#x5D0;&#x5B8;&#x5E8;&#x5D3;</trd>
+  <trd lng="yo">okun</trd>
   <trd lng="zu">kuzithinta</trd>
 </drv>
 
@@ -380,7 +409,7 @@
           kadencon
           <fnt>
           <vrk>Klozulo</vrk>
-          <lok><url ref="http://eo.wikipedia.org/wiki/Klozulo">Vikipedio</url></lok>
+          <lok><url ref="&Viki;/Klozulo">Vikipedio</url></lok>
           </fnt>.
         </ekz>
       </dif>
@@ -396,7 +425,8 @@
         kaj jam la&ubreve;takte mar&scirc;as harmoniaj sonoj
         <fnt>
         <aut>A. Mickiewicz, trad. A. Grabowski</aut>
-        <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5602/mickiewiczu.html">Sinjoro
+        <vrk><url
+        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5602/mickiewiczu.html">Sinjoro
         Tadeo</url></vrk>
         <lok>Norda
         Prismo, 1956:2 p. 94-95a</lok>
@@ -408,7 +438,7 @@
       </ekz>
       <ekz>
         Sargonon ja sekvis la plej bonaj asiriaj
-        batalistoj <klr>[&#x2026;]</klr>,
+        batalistoj <klr>[&#8230;]</klr>,
         sed mi ne vidis e&ccirc; ses soldatojn, sciantajn mar&scirc;i
         <tld/>e en rekta vico
         <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 13a</lok></fnt>.
@@ -508,7 +538,7 @@
         kazo, genro, kaj nombro
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Klasika_latina">
+          <lok><url ref="&Viki;/Klasika_latina">
           Klasika latina</url>, 2011-03-21</lok>
         </fnt>.
       </ekz>
@@ -627,6 +657,11 @@
     <trd>harmonizova&tcaron;</trd>,
     <trd>ladi&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_i;&c_v;&#x43E;&c_d;&c_i;&c_t;&c_i; &c_d;&#x43E; &c_z;&c_g;&#x43E;&c_d;&c_i;/&c_z;&#x43B;&c_a;&c_g;&#x43E;&c_d;&c_i; (&#x43B;&#x44E;&c_d;&c_je;&c_j;)</trd>,
+    <trd>&#x43F;&#x43E;&c_g;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_u;&c_z;&c_g;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_d;&c_ib;&c_ji;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="akord.0igebla">
@@ -648,7 +683,8 @@
         <tld/>igeblan kun la homa eraremo
         <fnt>
         <vrk>Al la legantoj</vrk>
-        <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr16/enkondukou.html">Nica
+        <lok><url
+        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr16/enkondukou.html">Nica
         Literatura Revuo</url></lok>
         </fnt>;
       </ekz>
@@ -656,7 +692,8 @@
         &ccirc;u la aktuala propono por la lingvoreguligo &ccirc;e la
         Komunuma Patento estas <tld/>igebla kun la principo de
         nediskriminacio de la komunumaj lingvoj
-        <fnt><aut>M. Naoki Lins</aut>, <vrk>Patentoj</vrk>, <lok><url ref="https://www.monato.be/2003/008126.html">Monato</url></lok></fnt>?
+        <fnt><aut>M. Naoki Lins</aut>, <vrk>Patentoj</vrk>, <lok><url
+        ref="&Monato;/2003/008126.html">Monato</url></lok></fnt>?
       </ekz>
     </dif>
   </snc>
@@ -703,7 +740,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Albisturo Kvinke</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006847.html">Opinio: Sobraj pensoj de sobrulo</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006847.html">Opinio: Sobraj pensoj de sobrulo</url></vrk>
         </fnt>.
       </ekz>
     </subsnc>
@@ -746,7 +783,7 @@
         <fnt>
         <aut>B. Kendal</aut>
           <vrk>La pola, la lingvo de Zamenhof</vrk>
-          <lok><url ref="https://www.monato.be/2002/007888.html">Monato</url></lok>
+          <lok><url ref="&Monato;/2002/007888.html">Monato</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -799,6 +836,10 @@
     <trd>&c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_o;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
   <trd lng="sk">zladi&tcaron; sa</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x43E;&c_g;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i; &c_d;&#x43E; &c_z;&c_g;&#x43E;&c_d;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="akord.inter0o">
@@ -841,6 +882,7 @@
     <trd>kompatibilnost</trd>,
     <trd>shoda</trd>
   </trdgrp>
+  <trd lng="de">Konsens</trd>
   <trd lng="sk">zhoda</trd>
 </drv>
 
@@ -848,7 +890,8 @@
   <kap>mal<tld/>o</kap>
   <snc mrk="akord.mal0o.malsamopinieco">
     <dif>
-      <ref tip="sin" cel="konfli.0o">Konflikto</ref>, <ref tip="sin" cel="kverel.0o.dauxra">kverelo<sncref/></ref>:
+      <ref tip="sin" cel="konfli.0o">Konflikto</ref>, <ref tip="sin"
+      cel="kverel.0o.dauxra">kverelo<sncref/></ref>:
       <ekz>
         artritaj sentadoj estas &ccirc;iam akompanataj de mal<tld/>o de la me&hcirc;anikaj vibracioj
         <fnt>
@@ -866,11 +909,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>PGubbins</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006953.html">Opinio: Bezonata: nova &leftquot;fremdula legio&rightquot;</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006953.html">Opinio: Bezonata: nova &leftquot;fremdula
+          legio&rightquot;</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        en <nom>Vilvoorde</nom> <klr>[&#x2026;]</klr> ekestis mal<tld/>o inter
+        en <nom>Vilvoorde</nom> <klr>[&#8230;]</klr> ekestis mal<tld/>o inter
         liberaluloj kaj la kristandemokrata partio
         <fnt>
           <aut>G. Van Damme</aut>,
@@ -910,6 +954,12 @@
     <trd>rozpor</trd>,
     <trd>rozvrat</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&#x43E;&c_z;&c_b;&c_ib;&c_zh;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&#x43B;&c_a;&c_d;</trd>,
+    <trd>&#x43D;&c_je;&#x43C;&c_i;&#x43B;&#x43E;&c_z;&c_v;&c_u;&c_ch;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&c_d;&c_i;&c_s;&c_g;&c_a;&c_r;&#x43C;&#x43E;&#x43D;&c_ib;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="akord.mal0i">
@@ -928,7 +978,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007078.html">Gramatiko detala kaj tradicia</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007078.html">Gramatiko detala kaj tradicia</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -1028,7 +1078,8 @@
         <fnt>
         <aut>N. Boileau, trad. G. Waringhien</aut>,
         <vrk>La arto poezia: Unua kanto</vrk>,
-        <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr26/Boileau/kanto_unuau.html">Nica
+        <lok><url
+        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr26/Boileau/kanto_unuau.html">Nica
         Literatura Revuo</url></lok>
         </fnt>;
       </ekz>
@@ -1038,7 +1089,7 @@
         <fnt>
         <aut>trad. J.-M. Cash</aut>,
         <vrk>Le Monde Diplomatique en Esperanto</vrk>,
-        <lok><url ref="http://eo.mondediplo.com/article887.html">2004-03</url></lok>
+        <lok><url ref="&Mondediplo;article887.html">2004-03</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1069,7 +1120,7 @@
         <fnt>
         <aut>trad. J.-M. Cash</aut>,
         <vrk>Le Monde Diplomatique en Esperanto</vrk>,
-        <lok><url ref="http://eo.mondediplo.com/article988.html">2005-01</url></lok>
+        <lok><url ref="&Mondediplo;article988.html">2005-01</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1085,6 +1136,10 @@
     <trd>irr&eacute;conciliable</trd>
   </trdgrp>
   <trd lng="sk">nezladite&lcaron;n&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&#x43C;&c_i;&c_r;&c_je;&#x43D;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&#x43C;&c_i;&c_r;&c_i;&#x43C;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="akord.0ekun">
@@ -1100,7 +1155,8 @@
         <tld/>e kun la tradicio de la gastiganta urbo
         <fnt>
           <aut>Hispana Esperanto-Federacio</aut>,
-          <vrk><url ref="http://www.esperanto.es/hef/images/kongreso/almagro/anoncokongresoalmagro.pdf">
+          <vrk><url
+          ref="http://www.esperanto.es/hef/images/kongreso/almagro/anoncokongresoalmagro.pdf">
           71-a Hispana Kongreso de Esperanto</url></vrk>,
           <lok>[vidita en 2012]</lok>
         </fnt>;
@@ -1109,7 +1165,8 @@
         la konstruado okazas <tld/>e kun la enlanda juro
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007207.html">La mezepokaj judaj mortintoj fine trankvilaj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007207.html">La mezepokaj judaj mortintoj fine
+          trankvilaj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -1118,7 +1175,7 @@
         industriojn rilatajn al la milito
         <fnt>
           <aut>&Ccirc;ina Radio Internacia</aut>,
-          <vrk><url ref="http://esperanto.cri.cn/chinaabc/chapter10/chapter100501.htm">
+          <vrk><url ref="&CRI;chinaabc/chapter10/chapter100501.htm">
           Ekspluata Historio de Taiwan</url></vrk>,
           <lok>[vidita en 2012]</lok>
         </fnt>.
@@ -1180,7 +1237,16 @@
 </drv>
 </art>
 <!--
-$Log: akord.xml,v $
+$Log$
+versio 1.112 2022/10/24 07:16:21
+Wolfram Diestel: +trd de
+
+versio 1.111 2022/04/26 14:57:17
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.110 2022/04/25 15:10:59
+aktualigo ligvokodoj kaj URL-unuoj
+
 Revision 1.38  2020/03/14 10:59:08  revo
 adaptis URL de Ondo
 
@@ -1194,17 +1260,5 @@ Revision 1.35  2017/03/07 18:10:17  revo
 Jeromo Vasxe: nimimumon -> minimumon, - ekz kun antarktika (= antarkta)
 
 Revision 1.34  2016/11/20 17:10:15  revo
-Wolfram Diestel: prilaboris referencojn
-
-Revision 1.33  2015/07/04 08:37:30  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.32  2015/06/29 16:39:29  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.31  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.30  2012/01/18 01:10:08  revo
 -->
 </vortaro>

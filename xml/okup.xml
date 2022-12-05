@@ -1,20 +1,59 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: okup.xml,v 1.25 2015/10/20 06:10:19 revo Exp $">
+<art mrk="$Id: okup.xml,v 1.32 2022/05/01 17:17:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>okup</rad>/i <fnt><bib>PIV1</bib></fnt>
+  <rad>okup</rad>/i <fnt><bib>VdE</bib></fnt>
 </kap>
 <drv mrk="okup.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="okup.0i.preni">
     <dif>
-      Preni en posedon iun lokon:
+      <ref tip="super" cel="pren.0i">Preni</ref> en posedon iun lokon:
       <ekz>
-        malamikaj trupoj <tld/>is la urbon kaj la havenon;
+        ili venis en la urbon kaj <tld/>is &gcirc;in, kaj rapide ekbruligis la urbon per fajro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Josuo 8:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili iris <klr>[&#x2026;]</klr> kaj <tld/>is la transirejon de <nom>Jordan</nom> <klr>[&#x2026;]</klr> kaj
+        permesis al neniu transiri
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 3:28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alia <klr>[&#x2026;]</klr> <tld/>os lian lokon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 4:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se la malamiko <tld/>us defendan pozicion, mi ne movi&gcirc;us
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        printempaj vegeta&jcirc;oj <tld/>as la lokon de la mallevi&gcirc;antaj akvoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        paseroj <tld/>is la neston de la cikonioj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mia &gcirc;eneva gazeto certe &gcirc;ojis presi dekon da artikoloj pri
@@ -23,9 +62,12 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="akir.0i">akiri</ref>.
+      <ref cel="akir.0i">akiri</ref>,
+      <ref cel="okup.ek0i">ekokupi</ref>,
+      <ref cel="instal.0i.iun">instali sin</ref>,
       <ref cel="kapt.0i">kapti</ref>,
-      <ref cel="pren.0i">preni</ref>,
+      <ref cel="okupaci.0i">okupacii</ref>,
+      <ref cel="uzurp.0i">uzurpi</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_mol;</trd>,
@@ -45,41 +87,71 @@
       <trd>&c_o;&c_k;&c_k;&c_u;&c_p;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="okup.0i.lokigxi">
     <dif>
-      Teni en posedo iun lokon a&ubreve; tempon; da&ubreve;re loki&gcirc;i ie:
+      <ref tip="super" cel="ten.0i.enpove">Teni</ref> en posedo iun 
+      lokon a&ubreve; tempon; da&ubreve;re loki&gcirc;i ie:
       <ekz>
-        la libroj <tld/>as la tutan skribotablon<fnt>B</fnt>;
+        la akvo <tld/>is la teron dum cent kvindek tagoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 7:24</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i spacon, se&gcirc;on;
+        la &ccirc;efan kaj plej bonan lokon <tld/>is maljuna dika viandisto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la bieno <tld/>as 10 hektarojn;
+        la arta lago <nom>Moeris</nom> <tld/>is 300 kilometrojn kvadratajn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        nia gramatiko <tld/>as nur unu pa&gcirc;on<fnt>Z</fnt>;
+        malgra&ubreve; sia malalta popola deveno, li <tld/>is gravan postenon en la &scirc;tato,
+        dank' al esceptaj kapabloj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la raporto <tld/>is tri horojn<fnt>B</fnt>;
+        voja&gcirc;antoj <tld/>is tri eta&gcirc;ojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tio ne <tld/>as multe da tempo<fnt>Z</fnt>;
+        tablo, &scirc;ar&gcirc;ita per paperoj <klr>[&#x2026;]</klr> <tld/>is la tutan spacon inter du
+        fenestroj
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XX</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        <ind><tld/>i postenon</ind><fnt>B</fnt>,
-        <trd lng="hu">&aacute;ll&aacute;st elfoglal</trd>
+        <tld/>i sen celo lokon sub &ccirc;ielo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        oficon;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        en la evoluo de civilizo la Grekoj <tld/>as gravegan pozicion.
+        mi anka&ubreve; lokon sur la tero <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kovr.0i.kasxi">kovri<sncref/></ref>,
+      <ref cel="kusx.0i.okupi_lokon">ku&scirc;i<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_mol;</trd>
     <trdgrp lng="de">
       <trd>einnehmen</trd>,
@@ -92,37 +164,66 @@
     <trd lng="nl">in <ind>beslag</ind> nemen</trd>
     <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</trd>
   </snc>
-  <snc>
+  <snc mrk="okup.0i.laborigi">
     <dif>
-      Tiri al si la atenton, intereson a&ubreve; aktivecon de iu:
+      <ref tip="super" cel="tir.0i.logi">Tiri</ref> al si la atenton, 
+      intereson a&ubreve; aktivecon de iu:
       <ekz>
-        li estas <tld/>ita nur de sia propra persono;
+        kiu <tld/>as sin je &hcirc;emio, estas &hcirc;emiisto
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        du demandoj <tld/>is lian spiriton<fnt>B</fnt>;
+        mi ne <tld/>as min per aferoj <klr>[&#x2026;]</klr> neatingeblaj por mi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 131:1</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la foiro <tld/>is 300 oficistojn;
+        tiuj, kiuj sin <tld/>as pri sanktaj aferoj, man&gcirc;as el la templaj man&gcirc;a&jcirc;oj
+        <fnt>
+          <bib>NT</bib>
+          <lok>I. Korintanoj 9:13</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        je kio li <tld/>as liajn servistojn?<fnt>Z</fnt>
+        profunda enpensi&gcirc;o <tld/>is lian menson
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kiu sin <tld/>as je &hcirc;emio estas &hcirc;emiisto<fnt>Z</fnt>;
+        lin tre vigle <tld/>is la penso, kiajn profitojn oni havus
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        sin <tld/>i pri komerco, scienco, arto, politiko, vanta&jcirc;oj;
+        <tld/>u vin per la grekaj regimentoj kaj kiel eble plej balda&ubreve;
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mi estas <tld/>ita, mi neniun volas vidi;
+        tutan tagon <klr>[&#x2026;]</klr> la multe<tld/>ita generacio dedi&ccirc;as al la grandaj
+        Anglujo kaj Skotujo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Post jarmiloj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tiu &ccirc;i laboro lin profunde <tld/>as<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        multaj artikoloj anstata&ubreve; paroli pure pri nia
-        lingvo, sin <tld/>as de la komenco &gcirc;is la fino je komparado
-        &gcirc;in kun Volap&uuml;kaj<fnt>Z</fnt>
+        lia amo al <nom>Else</nom> plene lin <tld/>is
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -133,8 +234,8 @@
     </refgrp>
     <trd lng="be">&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_mol;</trd>
     <trdgrp lng="de">
-      <trd>besch&auml;ftigt sein (mit)</trd>,
-      <trd>eingenommen sein (von)</trd>
+      <trd>sich <ind>besch&auml;ftigen</ind> (mit)</trd>,
+      <trd><ind>eingenommen</ind> sein (von)</trd>
     </trdgrp>
   <trdgrp lng="hu">
     <trd>foglalkoztat</trd>,
@@ -144,16 +245,14 @@
     <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <rim>
-  Z atentigas, ke "la senco de <ekz><tld/>i</ekz> havas du nuancojn:
-  preni en posedon kaj teni en
-  posedo; per la formo <ekz>mi estas <tld/>ita</ekz> ni esprimas
-  samtempe amba&ubreve;
-  nuancojn, dum la formo <ekz>mi estas <tld/>ata</ekz> esprimus nur la
-  unuan
-  nuancon.[...] La kutimo de la popoloj [...] postulas, ke ni diru
-  <ekz>mi
-  estas
-  <tld/><em>i</em>ta</ekz>"<fnt><bib>LR</bib></fnt>.
+    &Z; atentigas, ke &leftquot;la senco de <ekz><tld/>i</ekz> havas du nuancojn:
+    preni en posedon kaj teni en posedo; per la formo
+    <ekz>mi estas <tld/>ita</ekz> ni esprimas samtempe amba&ubreve; nuancojn,
+    dum la formo <ekz>mi estas <tld/>ata</ekz> esprimus nur la unuan
+    nuancon. <klr>[&#x2026;]</klr> La kutimo de la popoloj <klr>[&#x2026;]</klr>
+    postulas, ke ni diru
+    <ekz>mi estas <tld/><em>i</em>ta</ekz>&rightquot;
+    <fnt><bib>LR</bib></fnt>.
   </rim>
   <trd lng="en">occupy</trd>
   <trd lng="es">ocupar</trd>
@@ -173,25 +272,104 @@
     <trd>zaujmout</trd>,
     <trd>zmocnit se</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x439;&#x43C;&#x430;&#x442;&#x438; (&#x43C;&#x456;&#x441;&#x446;&#x435;</trd>,
+    <trd>&#x447;&#x430;&#x441;</trd>,
+    <trd>&#x43F;&#x43E;&#x441;&#x430;&#x434;&#x443;)</trd>,
+    <trd>&#x43E;&#x43A;&#x443;&#x43F;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="okup.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="okup.0o.gxenerale">
     <dif>
       Tio, kio <tld/>as:
       <ekz>
-        havi nenian <tld/>on<fnt>B</fnt>;
+        la kantado estas agrabla <tld/>o
+        <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
       </ekz>
-      <ekz>la kantado estas agrabla <tld/>o<fnt><bib>F</bib>, <lok>&FE;
-      40</lok></fnt>
+      <ekz>
+        ar&gcirc;enta&jcirc;isto <klr>[&#x2026;]</klr> liveris al la metiistoj multe da <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 19:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fian&ccirc;o pro siaj multaj <tld/>oj ne povis entrepreni la voja&gcirc;on
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li havis tempon por ekzerci la soldatojn, kio estis lia plej amata <tld/>o
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la instruisto <klr>[&#x2026;]</klr> interrompis sian <tld/>on kaj diris al la knaboj
+        lecionon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="rol.0o">rolo</ref>,
+      <ref cel="task.0o">tasko</ref>
+    </refgrp>
+    <trd lng="en">occupation</trd>
+    <trd lng="ru">&c_z;&c_a;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>
+  </snc>
+  <snc mrk="okup.0o.perlabora">
+    <dif>
+      Da&ubreve;ra <ref cel="labor.0o">laboro</ref> per kiu oni sin vivtenas:
+      <ekz>
+        juna homo, kiu en sia urbo havis nenian <tld/>on, venis Londonon por ser&ccirc;i
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> trovis por mi <tld/>on, kaj mi fari&gcirc;is lakeo de Kavaliro de Malto
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi &ccirc;iam plenumis la nunan oficon, a&ubreve; eble, kiel &scirc;ajnas al mi, vi havis alian
+        <tld/>on
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        mi perdis la <tld/>on en la kudrejo, en kiu mi laborenspezadis
+        dudek spesdekojn por tago
+        <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="ofic.0o">ofico</ref>,
-      <ref cel="rol.0o">rolo</ref>,
-      <ref cel="task.0o">tasko</ref>
+      <ref cel="labor.0loko">laborloko</ref>,
+      <ref cel="dung.0ito">dungito</ref>,
+      <ref cel="meti.0o">metio</ref>,
+      <ref cel="profes.0o">profesio</ref>
     </refgrp>
+    <trd lng="de">Anstellung</trd>
+    <trdgrp lng="en">
+      <trd>employment</trd>,
+      <trd>business</trd>
+    </trdgrp>
+    <trd lng="ru">&c_r;&c_a;&c_b;&c_o;&c_t;&c_a;</trd>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_n;&c_ja;&c_t;&c_a;&c_k;</trd>
   <trdgrp lng="cs">
@@ -203,7 +381,7 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>Besch&auml;ftigung</trd>,
-    <trd>Besetzung</trd>
+    <trd>T&auml;tigkeit</trd>
   </trdgrp>
   <trd lng="es">ocupaci&oacute;n</trd>
   <trd lng="fr">occupation</trd>
@@ -214,24 +392,104 @@
   <trd lng="nl">bezigheid</trd>
   <trd lng="pl">zaj&eogonek;cie</trd>
   <trd lng="pt">ocupa&ccedil;&atilde;o</trd>
-  <trd lng="ru">&c_z;&c_a;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>povolanie</trd>,
     <trd>zamestnanie</trd>,
     <trd>zaoberanie sa</trd>,
     <trd>zaujatos&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&#x437;&#x430;&#x43D;&#x44F;&#x442;&#x442;&#x44F;</trd>
 </drv>
 
 <drv mrk="okup.0ado">
   <kap><tld/>ado</kap>
-  <snc>
-    <dif>
-      Ago <tld/>i:
-      <ekz>
-        la efektiva posedo rezultas de da&ubreve;ra <tld/>ado.
-      </ekz>
-    </dif>
+  <dif>
+    Ago <tld/>i.
+  </dif>
+  <snc ref="okup.0i.preni">
+    <ekz>
+      la nazia <tld/>ado kaj la milito unue, kaj poste la Stalin-a malpermeso multe
+      influis lamige la eldonkapablon de la &ccirc;e&hcirc;oslovakaj tradukemuloj
+      <fnt>
+        <bib>EeP</bib>
+        <lok>Dua Parto</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      la celo estis ne la <tld/>ado de teritorio, sed la kolektado de ofermaterialo
+      <fnt>
+        <bib>SatirRak</bib>
+        <lok>La guarbo</lok>
+      </fnt>.
+    </ekz>
+  </snc>
+  <snc ref="okup.0i.lokigxi">
+    <ekz>
+      dum la sovetia <tld/>ado de Afganio Usono subtenis ekstremfanatikajn talibojn
+      <fnt>
+        <bib>Monato</bib>
+        <aut>Bertil Englund</aut>
+        <vrk><url ref="&Monato;/2003/008058.html">Benu modere Usonon!</url></vrk>
+        <lok>2003</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      nurajn 11 jarojn post la rusa sie&gcirc;o fininta la germanan <tld/>adon, granda parto
+      de Budape&scirc;to denove ku&scirc;is en ruinoj
+      <fnt>
+        <bib>Monato</bib>
+        <aut>Istv&aacute;n Ertl</aut>
+        <vrk><url ref="&Monato;/2003/008140.html">Pri orienti&gcirc;o kaj okcidenti&gcirc;o</url></vrk>
+        <lok>2003</lok>
+      </fnt>.
+    </ekz>
+  </snc>
+  <snc ref="okup.0i.laborigi">
+    <ekz>
+      oni ne faras &ccirc;iam tion, kion oni volas, mi estis detenita de <tld/>adoj, kiujn
+      estis neeble eviti
+      <fnt>
+        <bib>ChL</bib>
+        <lok>&Ccirc;apitro Unua</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      &ccirc;efa <tld/>ado estas la amoro
+      <fnt>
+        <bib>Kandid</bib>
+        <lok>&Ccirc;apitro XXI</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      sur&scirc;ar&gcirc;ita de <tld/>adoj pro skandala proceso
+      <fnt>
+        <bib>ChL</bib>
+        <lok>&Ccirc;apitro Unua</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      mi post ne pli ol du horoj da sin<tld/>ado havis la eblon se ne skribi, tamen
+      libere legi
+      <fnt>
+        <bib>EE</bib>
+        <lok>V</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      &ccirc;ar la politiko estis fermita, sinjoro de Prelongo havis do nur unu eblan
+      <tld/>adon, la metion de kampara nobelulo
+      <fnt>
+        <bib>KPr</bib>
+        <lok>&Ccirc;apitro Dua</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      mi balda&ubreve; trovis <tld/>adon sur &scirc;ipo
+      <fnt>
+        <bib>Rob</bib>
+        <lok>Parto I</lok>
+      </fnt>.
+    </ekz>
   </snc>
   <trdgrp lng="cs">
     <trd>obsazen&iacute;</trd>,
@@ -254,18 +512,63 @@
     <trd>okup&aacute;cia</trd>,
     <trd>zabratie</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>(&#x442;&#x440;&#x438;&#x432;&#x430;&#x43B;&#x435;) &#x437;&#x430;&#x43D;&#x44F;&#x442;&#x442;&#x44F;</trd>,
+    <trd>&#x43E;&#x43A;&#x443;&#x43F;&#x430;&#x446;&#x456;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="okup.0igxo0ateco">
   <kap><tld/>i&gcirc;o, <var><kap><tld/>ateco</kap></var></kap>
   <snc>
     <dif>
-      Stato de iu <tld/>ata.
+      Stato de iu <tld/>ata:
+      <ekz>
+        eliras homo por sia <tld/>i&gcirc;o, por sia laboro &gcirc;is la vespero
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 104:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la diverseco de la profesioj kaj aliaj <tld/>i&gcirc;oj ka&ubreve;zas la lingvan heterogenecon
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malaltigo de salajroj malaltigas la postuladon, la konsumadon kaj la
+        <tld/>atecon en Japanio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="&Monato;/2014/011179.php">Abenomiko, a&ubreve;daca defio</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro sia troa <tld/>ateco <klr>[&#x2026;li]</klr> ne plu deziris esti prezidanto de la
+        filio de LEA
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#x2116; 6 (104)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi preferis silenti kaj nur da&ubreve;rigi la disdonon de la flavaj &scirc;toneroj, pli poste
+        mi sukcesis konati&gcirc;i e&ccirc; kun pli fantaziaj <tld/>i&gcirc;oj
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deka &Ccirc;apitro</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_n;&c_ja;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="cs">zam&ecaron;stnanost</trd>
   <trdgrp lng="de">
+    <trd>Besch&auml;ftigung</trd>,
     <trd>Besch&auml;ftigtsein</trd>
   </trdgrp>
   <trd lng="fr">indisponibilit&eacute;</trd>
@@ -284,25 +587,65 @@
     <trd>zamestnanos&tcaron;</trd>,
     <trd>zanepr&aacute;zdnenos&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&#x437;&#x430;&#x439;&#x43C;&#x430;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
 </drv>
 
 <drv mrk="okup.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <snc>
     <dif>
-      Sin <tld/>i pri io.
+      Sin <tld/>i pri io:
+      <ekz>
+        Franjo <tld/>i&gcirc;is pri la tema&scirc;ino, kaj mi iom legis
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en nia magazeno virinoj neniam <tld/>i&gcirc;as per vendado de komerca&jcirc;oj, tion faras
+        nur viroj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;iaj pensoj komencas <tld/>i&gcirc;i pri ili mem anstata&ubreve; pri iliaj diskutoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la cezaro <klr>[&#x2026;]</klr> nevolonte <tld/>i&gcirc;as per fremdaj aferoj, eble e&ccirc; ne
+        volos helpi
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi <tld/>i&gcirc;as pri spiritismo
+        <fnt>
+          <bib>IKr</bib>
+          <lok>Rakonto Pri Spiritoj</lok>
+        </fnt>?
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="labor.0i">labori</ref>,
+      <ref cel="zorg.0i">zorgi</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_c;&c_a;</trd>
-  <trdgrp lng="de">
-    <trd><klr>sich </klr>besch&auml;ftigen (mit)</trd>
-  </trdgrp>
+  <trd lng="de"><klr>sich </klr>besch&auml;ftigen <klr>(mit)</klr></trd>
   <trd lng="fr">s'<ind>occuper</ind> de</trd>
   <trd lng="hu">foglalkozik</trd>  
   <trd lng="nl">zich <ind>bezig</ind> houden met</trd>
   <trd lng="pl">zajmowa&cacute; si&eogonek;</trd>
   <trd lng="pt">ocupar-se</trd>
   <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trd lng="uk">&#x437;&#x430;&#x439;&#x43C;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
 </drv>
 
 <drv mrk="okup.ek0i">
@@ -310,26 +653,68 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      <tld lit="O"/>i 1.
+      <tld lit="O"/>i<sncref ref="okup.0i.preni"/>:
+      <ekz>
+        <nom>Ramzes XIII-a</nom> ek<tld/>is la tronon kaj ornamis sian 
+        frunton per <nom>ureus</nom>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Iljon</nom> kiun oni sie&gcirc;as kaj kiun oni ne ek<tld/>as
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXV</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="be">&c_z;&c_a;&c_n;&c_ja;&c_c;&c_mol;</trd>
+    <trdgrp lng="cs">
+      <trd>obsadit</trd>,
+      <trd>zaujmout postaven&iacute;</trd>,
+      <trd>zmocnit se</trd>
+    </trdgrp>
+    <trd lng="de">besetzen</trd>
+    <trdgrp lng="hu">
+      <trd>elfoglal</trd>,
+      <trd>birtokba vesz</trd>
+    </trdgrp>
+    <trd lng="nl">zich <ind>meester</ind> maken van</trd>
+    <trd lng="pl">zaj&aogonek;&cacute; si&eogonek;</trd>
+    <trd lng="ru">&c_z;&c_a;&c_n;&c_ja;&c_t;&c_mol;</trd>
+    <trd lng="sk">zauja&tcaron; postavenie</trd>
   </snc>
-  <trd lng="be">&c_z;&c_a;&c_n;&c_ja;&c_c;&c_mol;</trd>
-  <trdgrp lng="cs">
-    <trd>obsadit</trd>,
-    <trd>zaujmout postaven&iacute;</trd>,
-    <trd>zmocnit se</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>beginnen, sich (mit etwas) zu <ind>besch&auml;ftigen</ind></trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>elfoglal</trd>,
-    <trd>birtokba vesz</trd>
-  </trdgrp>
-  <trd lng="nl">zich <ind>meester</ind> maken van</trd>
-  <trd lng="pl">zaj&aogonek;&cacute; si&eogonek;</trd>
-  <trd lng="ru">&c_z;&c_a;&c_n;&c_ja;&c_t;&c_mol;</trd>
-  <trd lng="sk">zauja&tcaron; postavenie</trd>
+  <snc mrk="okup.ek0i.subite">
+    <dif>
+      Subite <tld/>i<sncref ref="okup.0i.laborigi"/>:
+      <ekz>
+        iru do &gcirc;in ser&ccirc;i, kaj rapidu, ekkriis Fernando, kiun kolero ek<tld/>is
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;in ek<tld/>is tiu nedifinebla maltrankviligo, kiun ni sentas, kiam iu nin fikse
+        rigardas
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        poste li ree ek<tld/>is sin pri siaj aferoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trd lng="de"><ind>befallen</ind> werden</trd>
+  </snc>
+  <trd lng="uk">&#x437;&#x430;&#x439;&#x43D;&#x44F;&#x442;&#x438;</trd>
 </drv>
 
 <drv mrk="okup.mal0i">
@@ -339,11 +724,19 @@
     <dif>
       Forlasi <tld/>itan lokon:
       <ekz>
-        post tri jaroj la trupoj mal<tld/>is la venkitan landon
+        mal<tld/>u la lokon, a&ubreve; mi vokos gardiston
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 7 (57)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post tri jaroj la trupoj mal<tld/>is 
+        la venkitan landon.
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="evaku.0i">evakui</ref>.
+      <ref cel="evaku.0i">evakui</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -365,6 +758,12 @@
   <trd lng="nl">ontruimen</trd>
   <trd lng="pl">zwalnia&cacute;</trd>
   <trd lng="pt">desocupar</trd>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_o;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_o;&c_k;&c_i;&c_n;&c_u;&c_t;&c_mol;</trd>,
+    <trd>&c_d;&c_je;&c_o;&c_k;&c_k;&c_u;&c_p;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>opusti&tcaron;</trd>,
     <trd>vypr&aacute;zdni&tcaron;</trd>,
@@ -372,48 +771,130 @@
   </trdgrp>
 </drv>
 
+<drv mrk="okup.pri0o">
+  <kap>
+    pri<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Ago <tld/>i<sncref ref="okup.0i.preni"/> a&ubreve; <sncref ref="okup.0i.laborigi"/>   
+      <ekz>
+        venteto-petolulo helpas miajn pri<tld/>ojn: li &ccirc;e &ccirc;iu stratangulo blovas sub
+        knabinajn jupojn
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Printempa Varianto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        seksaj plezuroj invadis pli kaj pli la terenon de liaj pri<tld/>oj &ndash; jen de la
+        sento regi
+        <fnt>
+          <bib>ChV</bib>
+          <lok>12</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="akir.0o">akiro</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Eroberung</trd>,
+    <trd>Nachstellung</trd>
+  </trdgrp>
+</drv>
+
+
+
+
+
+
 <drv mrk="okup.sen0a">
   <kap>sen<tld/>a</kap>
   <snc>
     <dif>
       Havanta nenian <tld/>i&gcirc;on:
       <ekz>
-        Mi duone sidis sur la angulo de granda tablo, <klr>[...]</klr>
-        kun senkura&gcirc;a kaj senokupa mieno
+        <nom>Knut</nom> estis donita al &scirc;uisto por lernado, la gepatroj ne povis plu lasi lin
+        sen<tld/>a
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li vidas amason da kolekti&gcirc;intaj sen<tld/>aj laboristoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi duone sidis sur la angulo de granda tablo, <klr>[&#x2026;]</klr>
+        kun senkura&gcirc;a kaj sen<tld/>a 
+        <klr>(vd <ref cel="indife.0a">indiferenta</ref>)</klr> mieno
         <fnt>
           <aut>Alain Fournier, trad. Roger Bernard</aut>,
           <vrk>La Granda Meaulnes</vrk>,
           <lok>p. 121</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vintro venis, kaj Kristoforo estis sen<tld/>a
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Heredanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni petas min dispeli la enuon de sen<tld/>aj horoj per rakonto
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro VI</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="labor.sen0a">senlabora</ref>
   </snc>
+  <trdgrp lng="de">
+    <trd>ohne <ind>Besch&auml;ftigung</ind></trd>,
+    <trd>arbeitslos</trd>,
+    <trd>unt&auml;tig</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>d&eacute;s&oelig;uvr&eacute;</trd>,
     <trd>d&eacute;soeuvr&eacute;</trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_a;&c_z;&c_d;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x435;&#x437; (&#x436;&#x43E;&#x434;&#x43D;&#x438;&#x445;) &#x437;&#x430;&#x43D;&#x44F;&#x442;&#x44C;</trd>,
+    <trd>&#x432;&#x456;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x431;&#x435;&#x437;&#x440;&#x43E;&#x431;&#x456;&#x442;&#x43D;&#x438;&#x439;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2022/05/01 17:17:00
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.30 2022/03/08 08:33:16
+Wolfram Diestel: kor. pri~o
+
+versio 1.29 2022/03/05 19:22:48
+Wolfram Diestel: ekz-oj, ref-oj, trd de;+pri~o
+
+versio 1.28 2022/03/05 16:40:06
+Wolfram Diestel: ~i: ekz-oj, ref-oj, trd de
+
+versio 1.27 2022/02/11 05:27:20
+Sergio Pokrovskij: +~o.perlabora
+
+versio 1.26 2021/12/11 17:36:04
+Wolfram Diestel: ~i: snc-mrk
+
 Revision 1.24  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.23  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2014/04/09 09:10:11  revo
-Damien Brucker: +ekz
-
-Revision 1.21  2013/12/25 11:10:11  revo
-Damien Brucker: +rim
-
-Revision 1.20  2013/04/11 10:10:13  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2012/10/23 00:13:11  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.18  2010/07/04 16:30:30  revo
 -->
 </vortaro>

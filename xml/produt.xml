@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: produt.xml,v 1.43 2020/02/14 16:10:15 revo Exp $">
+<art mrk="$Id: produt.xml,v 1.45 2022/11/01 14:40:38 revo Exp $">
 <kap>
   <rad>produt</rad>/o
   <fnt>Z</fnt>
@@ -19,17 +19,15 @@
         kaj <frm>5</frm>;
       </ekz>
       <ekz>
-        la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm
-        am="b"><k>b</k></frm> 
-        oni signas per <frm am="a xx b"><k>a</k>&#215;<k>b</k></frm>,
+        la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm am="b"><k>b</k></frm> 
+        oni signas per <frm am="a xx b"><k>a</k>&#xD7;<k>b</k></frm>,
         <frm am="a*b"><k>a</k>&middot;<k>b</k></frm>, a&ubreve; simple 
         <frm am="ab"><k>a</k><k>b</k></frm>,
       </ekz>
       <ekz>
         kaj la <tld/>on de &ccirc;iuj termoj en 
         <ref cel="famili.0o.bildigo">familio</ref>
-        <frm am="(a_i)_(i in bb I)"
-        >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
+        <frm am="(a_i)_(i in bb I)">(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
         per <frm am="prod_(i in bb I)a_i">&Pi;<sub><k>i</k>&#8712;<g>I</g></sub> 
         <k>a</k><sub><k>i</k></sub></frm>;
       </ekz>
@@ -38,7 +36,6 @@
       </ekz>
     </dif>
     <ref tip="super" cel="obl.0o">oblo.</ref>
-    <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; <klr>(&c_m;&c_a;&c_t;&c_e;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;)</klr></trd>
     <trd lng="ca">producto</trd>
     <trd lng="de">Produkt</trd>
     <trd lng="en">product<klr tip="ind"> (math.)</klr></trd>
@@ -67,12 +64,14 @@
     <trd lng="de">Produkt</trd>
     <trd lng="pt">produto</trd>
   </snc>
+    <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; <klr>(&c_m;&c_a;&c_t;&c_e;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;)</klr></trd>
   <trd lng="cs">sou&ccaron;in</trd>
   <trd lng="de">Produkt</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;sobok</trd>,
     <trd>s&uacute;&ccaron;in</trd>
   </trdgrp>
+  <trd lng="uk">&c_d;&#x43E;&c_b;&c_u;&c_t;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="produt.ekstera0o">
@@ -82,6 +81,7 @@
   <snc>
     <ref tip="dif" cel="produt.vektora0o">vektora <tld/>o.</ref>
   </snc>
+  <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; &c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_n;&c_y;</trd>
   <trd lng="cs">vektorov&yacute; <klr>(vn&ecaron;j&scaron;&iacute;)</klr> sou&ccaron;in</trd>
   <trdgrp lng="de">
     <trd>Kreuzprodukt</trd>,
@@ -111,7 +111,7 @@
       <ekz>
         la kartezian <tld/>on de <frm am="bb E"><g>E</g></frm> kaj
         <frm am="bb F"><g>F</g></frm>
-        oni signas per <frm am="bb E xx bb F"><g>E</g>&#215;<g>F</g></frm>
+        oni signas per <frm am="bb E xx bb F"><g>E</g>&#xD7;<g>F</g></frm>
         <klr> (legu: e per fo, e kruco fo)</klr>;
       </ekz>
       <ekz>
@@ -125,21 +125,20 @@
     <ref tip="vid" cel="kartez.0o">Kartezio.</ref>
     <rim>
       La nocion eblas vastigi al <tld/>o de pli ol du aroj. Ekz-e la
-      <tld/>o <frm am="bb E xx bb F xx bb G"
-      ><g>E</g>&#215;<g>F</g>&#215;<g>G</g></frm> estas aro de
+      <tld/>o <frm am="bb E xx bb F xx bb G"><g>E</g>&#xD7;<g>F</g>&#xD7;<g>G</g></frm> estas aro de
       &ccirc;iuj <ref cel="op.0o.vico">opoj</ref>
       <frm am="(x,y,z)">(<k>x</k>,<k>y</k>,<k>z</k>)</frm> kun
       <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>,
       <frm am="y in bb F"><k>y</k>&#8712;<g>F</g></frm>,
       <frm am="z in bb G"><k>z</k>&#8712;<g>G</g></frm>.
       Eblas diri anka&ubreve;, ke &gcirc;i estas difinita kiel la duobla
-      <tld/>o <frm am="(bb E xx bb F) xx bb G"
-      >(<g>E</g>&#215;<g>F</g>)&#215;<g>G</g></frm> a&ubreve;
-      <frm am="bb E xx (bb F xx bb G)"
-      ><g>E</g>&#215;(<g>F</g>&#215;<g>G</g>)</frm>, kiujn oni arbitre
+      <tld/>o <frm am="(bb E xx bb F) xx bb G">(<g>E</g>&#xD7;<g>F</g>)&#xD7;<g>G</g></frm> a&ubreve;
+      <frm am="bb E xx (bb F xx bb G)"><g>E</g>&#xD7;(<g>F</g>&#xD7;<g>G</g>)</frm>, kiujn oni
+      arbitre
       elektas identigi.
     </rim>
   </snc>
+  <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; &c_d;&c_e;&c_k;&c_a;&c_r;&c_t;&c_a;&c_w;</trd>
   <trd lng="cs">kart&eacute;zsk&yacute; sou&ccaron;in</trd>
   <trd lng="de">kartesisches <ind>Produkt</ind></trd>
   <trd lng="en">Cartesian <ind>product</ind></trd>
@@ -156,6 +155,7 @@
     <trd>&c_p;&c_r;&c_ja;&c_m;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   </trdgrp>
   <trd lng="sk">kartezi&aacute;nsky s&uacute;&ccaron;in</trd>
+  <trd lng="uk">&c_d;&c_je;&#x43A;&c_a;&c_r;&c_t;&c_ib;&c_v; &c_d;&#x43E;&c_b;&c_u;&c_t;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="produt.hermita_skalara0o">
@@ -166,8 +166,7 @@
     <dif>
       <klr>(super kompleksa <ref cel="spac.vektora0o">vektora
       spaco</ref> <frm am="bb E"><g>E</g></frm>)</klr>
-      Tia <ref cel="form.hermita0o">hermita formo</ref> <frm
-      am="phi">&phi;</frm>, ke
+      Tia <ref cel="form.hermita0o">hermita formo</ref> <frm am="phi">&phi;</frm>, ke
       <frm am="phi(x,x) ge 0">&phi;(<k>x</k>,<k>x</k>) &#8805; 0</frm> por &ccirc;iuj
       <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>, kaj
       egalas al nulo, se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>.
@@ -187,6 +186,7 @@
       <tld/>o <sncref ref="produt.hermita_skalara0o.operacio"/>.
     </dif>
   </snc>
+      <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; &c_e;&c_r;&c_m;&c_ib;&c_t;&c_a;&c_w; &c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_y;</trd>
   <trd lng="cs">hermitovsk&yacute; skal&aacute;rn&iacute; sou&ccaron;in <klr>(dvou
   vektor&uring;)</klr></trd>
   <trd lng="de">Hermitesches <ind>Skalarprodukt</ind></trd>
@@ -211,6 +211,7 @@
   <snc>
     <ref tip="dif" cel="produt.skalara0o">skalara <tld/>o.</ref>
   </snc>
+  <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; &c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_y;</trd>
   <trdgrp lng="de">
     <trd>inneres Produkt</trd>,
     <trd>Skalarprodukt</trd>
@@ -254,23 +255,23 @@
       <ekz>
         la skalaran <tld/>on de <frm am="x"><k>x</k></frm> kaj
         <frm am="y"><k>y</k></frm>
-        oni signas foje per <frm
-        am="x*y"><k>x</k>&middot;<k>y</k></frm>,
-        foje per <frm am="(:x|y:)"
-        >&lt;<k>x</k>|<k>y</k>&gt;</frm>.
+        oni signas foje per <frm am="x*y"><k>x</k>&middot;<k>y</k></frm>,
+        foje per <frm am="(:x|y:)">&lt;<k>x</k>|<k>y</k>&gt;</frm>.
       </ekz>
     </dif>
-  <trdgrp lng="pt">
+   <trdgrp lng="pt">
     <trd>produto escalar</trd>,
     <trd>produto interno</trd>
   </trdgrp>
   </snc>
+   <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; &c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_y;</trd>
   <trd lng="en">scalar <ind>product</ind></trd>
   <trd lng="de">Skalarprodukt</trd>
   <trd lng="fr">produit scalaire</trd>
   <trd lng="hu">skal&aacute;ris <ind>szorzat</ind></trd>  
   <trd lng="pl">iloczyn skalarny</trd>
   <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  <trd lng="uk">&c_s;&#x43A;&c_a;&#x43B;&#x44F;&c_r;&#x43D;&c_i;&c_j; &c_d;&#x43E;&c_b;&c_u;&c_t;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="produt.vektora0o">
@@ -285,16 +286,13 @@
       <frm am="bb E^(n-1)"><g>E</g><sup><k>n</k>-1</sup></frm>
       al <frm am="bb E"><g>E</g></frm>,
       kiu &jcirc;etas &ccirc;iun <frm am="(n-1)">(<k>n</k>-1)</frm>-opon
-      <frm am="(x_1,...,x_(n-1))"
-      >(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>)</frm>
+      <frm am="(x_1,...,x_(n-1))">(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>)</frm>
       al tia ununura vektoro <frm am="a"><k>a</k></frm>, ke la skalara
       <tld/>o
-      de <frm am="a"><k>a</k></frm> per <frm
-      am="x_n"><k>x</k><sub><k>n</k></sub></frm>
+      de <frm am="a"><k>a</k></frm> per <frm am="x_n"><k>x</k><sub><k>n</k></sub></frm>
       egalas al la
       <ref cel="determ.0anto.vektoroj">determinanto</ref> de
-      <frm am="(x_1,...,x_(n-1),x_n)"
-      >(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>,
+      <frm am="(x_1,...,x_(n-1),x_n)">(<k>x</k><sub>1</sub>,..., <k>x</k><sub><k>n</k>-1</sub>,
       <k>x</k><sub><k>n</k></sub>)</frm>, kiu ajn estas
       <frm am="x_n"><k>x</k><sub><k>n</k></sub></frm>.
     </dif>
@@ -320,13 +318,13 @@
         vektoroj
         de <frm am="n"><k>n</k></frm>-opo egalas al la
         <ref cel="kofakt.0o">kofaktoroj</ref> de elementoj en la lasta
-        vertikalo de la <frm
-        am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matrico de iliaj
+        vertikalo de la <frm am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matrico de iliaj
         komponantoj.
       </ekz>
     </dif>
     <trd lng="pt">produto vetorial</trd>
   </snc>
+    <trd lng="be">&c_z;&c_d;&c_a;&c_b;&c_y;&c_t;&c_a;&c_k; &c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_n;&c_y;</trd>
   <trd lng="cs">vektorov&yacute; <klr>(vn&ecaron;j&scaron;&iacute;)</klr> sou&ccaron;in</trd>
   <trd lng="de">vektorielles <ind>Produkt</ind></trd>
   <trd lng="en">vector <ind>product</ind></trd>
@@ -335,10 +333,14 @@
   <trd lng="pl">iloczyn wektorowy</trd>
   <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_o;&c_je; <ind>&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</ind></trd>
   <trd lng="sk">vektorov&yacute; s&uacute;&ccaron;in</trd>
+  <trd lng="uk">&c_v;&c_je;&#x43A;&c_t;&#x43E;&c_r;&#x43D;&c_i;&c_j; &c_d;&#x43E;&c_b;&c_u;&c_t;&#x43E;&#x43A;</trd>
 </drv>
 </art>
 <!--
-$Log: produt.xml,v $
+$Log$
+versio 1.45 2022/11/01 14:40:38
+Dmitri Gabinski: + trd be
+
 versio 1.43 2020/02/14 16:10:15
 Wolfram Diestel: formuloj per am
 
@@ -358,8 +360,5 @@ Revision 1.38  2007/09/24 16:30:28  revo
 Tulio Flores: +tr pt
 
 Revision 1.37  2007/05/05 16:30:32  revo
-Wieland Pusch: +trd de
-
-Revision 1.36  2007/04/27 16:30:29  revo
 -->
 </vortaro>

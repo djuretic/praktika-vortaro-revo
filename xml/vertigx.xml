@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: vertigx.xml,v 1.7 2019/09/29 20:10:28 revo Exp $">
+<art mrk="$Id: vertigx.xml,v 1.10 2022/05/22 10:41:19 revo Exp $">
 <kap>
   <rad>verti&gcirc;</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -16,7 +15,8 @@
         tra la <tld/>o mi ankora&ubreve; vidas
         <fnt>
           <aut>S. Br&oacute;dy, trad. B. Szemenyei</aut>,
-          <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5606/remb randtu.html">
+          <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5606/remb
+          randtu.html">
           Rembrandt</url></vrk>,
           <lok>Norda Prismo 1956:6, p. 229-238a</lok>
         </fnt>;
@@ -33,8 +33,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan MacAoidh</aut>
-          <vrk><url ref="https://www.monato.be/2007/009252.php"
-              >Kantado en la gaela lingvo</url></vrk>
+          <vrk><url ref="&Monato;/2007/009252.php">Kantado en la gaela lingvo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -44,6 +43,10 @@
     <trd>rodament de cap</trd>
   </trdgrp>
   <trd lng="de">Schwindel<klr>(anfall)</klr></trd>
+  <trdgrp lng="en">
+    <trd>dizziness</trd>,
+    <trd>vertigo</trd>
+  </trdgrp>
   <trd lng="fa">&a_s;&a_r;&f_g;&f_y;&a_j;&a_h;</trd>
   <trd lng="fr">vertige</trd>
   <trdgrp lng="pl">
@@ -51,6 +54,10 @@
     <trd>zawroty g&lstroke;owy</trd>
   </trdgrp>
   <trd lng="pt">vertigem</trd>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_je;&c_r;&c_t;&c_i;&c_g;&c_o;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_a;&c_m;&c_o;&c_r;&c_o;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vertigx.0i">
@@ -65,8 +72,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode Van de Velde</aut>
-          <vrk><url ref="https://www.monato.be/2010/009883.php"
-              >Trancporto</url></vrk>
+          <vrk><url ref="&Monato;/2010/009883.php">Trancporto</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -81,6 +87,10 @@
     </dif>
   </snc>
   <trd lng="de"><ind>schwindlig</ind> werden</trd>
+  <trdgrp lng="en">
+    <trd>get dizzy</trd>,
+    <trd>feel vertigo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vertigx.0igi">
@@ -103,13 +113,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode Van de Velde</aut>
-          <vrk><url ref="https://www.monato.be/2010/009883.php"
-              >Trancporto</url></vrk>
+          <vrk><url ref="&Monato;/2010/009883.php">Trancporto</url></vrk>
         </fnt>
       </ekz>
     </dif>
   </snc>
   <trd lng="de"><ind>Schwindel</ind> erregen</trd>
+  <trdgrp lng="en">
+    <trd>make dizzy</trd>,
+    <trd>cause vertigo</trd>
+  </trdgrp>
 </drv>
 
 
@@ -119,6 +132,12 @@
 
 <!--
 $Log$
+versio 1.10 2022/05/22 10:41:19
+Noam Mohr: +trd en vertig-
+
+versio 1.9 2022/05/06 12:17:22
+aktualigo lingvokodoj kaj URL-unuoj
+
 Revision 1.6  2017/03/31 08:10:18  revo
 Damien Brucker: +trd fr
 
@@ -135,7 +154,5 @@ Revision 1.2  2007/10/24 16:30:13  revo
 Tulio Flores: +tr pt
 
 Revision 1.1  2007/10/23 16:30:16  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

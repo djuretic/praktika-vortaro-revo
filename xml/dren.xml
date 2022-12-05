@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dren.xml,v 1.17 2021/03/08 16:54:56 revo Exp $">
+<art mrk="$Id: dren.xml,v 1.20 2022/06/14 08:36:57 revo Exp $">
 <kap>
   <rad>dren</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -19,11 +19,11 @@
         Sekigi tro malsekan grundon per kanaletoj
         a&ubreve; subteraj tuboj:
         <ekz>
-          mi petis <klr>[&#x2026;]</klr> fari fosa&jcirc;on &ccirc;e la herbarfino, por ke la &gcirc;ardeno de mia
+          mi petis <klr>[&#8230;]</klr> fari fosa&jcirc;on &ccirc;e la herbarfino, por ke la &gcirc;ardeno de mia
           patrino estu <tld/>ita
           <fnt>
             <bib>Monato</bib>
-            <vrk><url ref="http://steloj.de/esperanto/monato2/006878.html">Dommastrumo: &Gcirc;ardenumi</url></vrk>
+            <vrk><url ref="&Steloj;monato2/006878.html">Dommastrumo: &Gcirc;ardenumi</url></vrk>
           </fnt>;
         </ekz>
         <ekz>
@@ -31,7 +31,8 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Mu Binghua</aut>
-            <vrk><url ref="https://www.monato.be/2011/010266.php">Akvomastrumado postulas grandegajn investojn</url></vrk>
+            <vrk><url ref="&Monato;/2011/010266.php">Akvomastrumado postulas grandegajn
+            investojn</url></vrk>
             <lok>2011</lok>
           </fnt>.
         </ekz>
@@ -45,7 +46,7 @@
           <tld/>i kavon, vundon
           <fnt>
             <aut>red. J. Hradil</aut>,
-            <vrk><url ref="http://www.eventoj.hu/steb/vortaroj/medicina-vortaro-de-umea.pdf">
+            <vrk><url ref="&STEB;vortaroj/medicina-vortaro-de-umea.pdf">
             Esperanta Medicina Vortaro</url></vrk>,
             <lok>[vidita en 2017]</lok>
           </fnt>;
@@ -55,7 +56,7 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Christian Bertin</aut>
-            <vrk><url ref="https://www.monato.be/2015/011437.php">Remado-rimedo</url></vrk>
+            <vrk><url ref="&Monato;/2015/011437.php">Remado-rimedo</url></vrk>
             <lok>2015</lok>
           </fnt>.
         </ekz>
@@ -63,6 +64,11 @@
     </subsnc>
   </snc>
   <ref tip="hom" cel="tren.0i">treni</ref>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_r;&c_e;&c_n;&c_a;&c_zh;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_d;&c_v;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol; &c_v;&c_a;&c_d;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_s;&c_u;&c_sh;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>dren&aacute;&zcaron;ovat</trd>,
     <trd>odv&aacute;d&ecaron;t sekrety</trd>,
@@ -97,6 +103,10 @@
     <trd>dren&aacute;&zcaron;ova&tcaron;</trd>,
     <trd>vypr&aacute;zdni&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&c_s;&c_u;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i; &c_gu;&c_r;&c_u;&#x43D;&c_t;</trd>,
+    <trd>&c_d;&c_r;&c_je;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dren.0ilo">
@@ -106,6 +116,12 @@
       Kanaleto a&ubreve; tubo por elfluigi akvon el tro malseka grundo.
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_r;&c_e;&c_n;&c_a;&c_zh;</trd>,
+    <trd>&c_d;&c_r;&c_e;&c_n;&c_a;&c_zh;&c_n;&c_a;&c_ja; &c_t;&c_r;&c_u;&c_b;&c_a;</trd>,
+    <trd>&c_s;&c_mol;&c_c;&c_jo;&c_k;</trd>,
+    <trd>&c_a;&c_d;&c_l;&c_ib;&c_w;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>dr&eacute;n</trd>,
     <trd>odvod&ncaron;ovac&iacute; potrub&iacute;</trd>,
@@ -132,10 +148,17 @@
     <trd>&c_k;&c_a;&c_n;&c_a;&c_v;&c_a;</trd>
   </trdgrp>
   <trd lng="sk">dr&eacute;n</trd>
+  <trd lng="uk">&c_d;&c_r;&c_je;&#x43D;&c_a;&c_zh;&#x43D;&c_a; &c_t;&c_r;&c_u;&c_b;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2022/06/14 08:36:57
+Dmitri Gabinski: + trd be
+
+versio 1.19 2022/04/26 17:11:48
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.16 2020/11/01 18:32:24
 Wolfram Diestel: +ekz-oj
 
@@ -152,11 +175,5 @@ Revision 1.11  2009/07/17 16:30:42  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.10  2007/09/02 16:30:37  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2006/04/30 16:31:59  revo
-Tulio Flores: +tr pt
-
-Revision 1.8  2006/04/22 18:10:18  revo
 -->
 </vortaro>

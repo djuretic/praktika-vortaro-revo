@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: parenc.xml,v 1.30 2021/05/28 14:15:37 revo Exp $">
+<art mrk="$Id: parenc.xml,v 1.35 2022/06/18 22:28:58 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>parenc</rad>/o
@@ -48,7 +48,7 @@
         parencoj de tukanoj <klr>(devenante de sama pratribo kiel
         tukanoj)</klr>
         <fnt>
-          <vrk><url ref="http://eo.wikipedia.org/wiki/Buntaj_barbuloj"/></vrk>,
+          <vrk><url ref="&Viki;/Buntaj_barbuloj"/></vrk>,
           <bib>Wiki</bib>,
           <lok>Buntaj barbuloj</lok>
         </fnt>
@@ -62,7 +62,9 @@
     <trd>p&rcaron;&iacute;buzn&yacute;</trd>,
     <trd>p&rcaron;&iacute;buzn&yacute; <klr>(osoba)</klr></trd>
   </trdgrp>
+  <trd lng="cy">perthynas</trd>
   <trd lng="de">Verwandter</trd>
+  <trd lng="el">&sigma;&ypsilon;&gamma;&gamma;&epsilon;&ny;&eta_ton;&sigma_fina;</trd>
   <trdgrp lng="en">
     <trd>relative</trd>,
     <trd>relation</trd>,
@@ -74,15 +76,27 @@
   <trd lng="fy">famyljelid</trd>
   <trd lng="hu">rokon</trd>
   <trd lng="io">parento</trd>
+  <trd lng="it">parente</trd>
+  <trd lng="ka">&#x10DC;&#x10D0;&#x10D7;&#x10D4;&#x10E1;&#x10D0;&#x10D5;&#x10D8;</trd>
+  <trd lng="lt">giminaitis</trd>
   <trdgrp lng="nl">
     <trd>familielid</trd>,
     <trd>lid van de <ind>familie</ind></trd>
   </trdgrp>
+  <trd lng="pl">krewny</trd>
   <trd lng="pt">parente</trd>
+  <trd lng="ro">rud&abreve;</trd>
   <trd lng="ru">&c_r;&c_o;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_i;&c_k;</trd>
   <trdgrp lng="sk">
     <trd>pr&iacute;buzn&yacute;</trd>,
     <trd>rodina</trd>
+  </trdgrp>
+  <trd lng="sv">sl&auml;kting</trd>
+  <trd lng="te">&#xC2C;&#xC02;&#xC27;&#xC41;&#xC35;&#xC41;</trd>
+  <trd lng="tr">akraba</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&#x43E;&c_d;&c_i;&c_ch;</trd>,
+    <trd>&#x43A;&c_r;&c_je;&c_v;&#x43D;&c_i;&c_j; (&c_ib;&#x43C;.)</trd>
   </trdgrp>
   <trd lng="vo">r&ouml;letan</trd>
 </drv>
@@ -139,12 +153,24 @@
   </trdgrp>
   <trd lng="hu">rokon-</trd>
   <trd lng="nl">verwant</trd>
+  <trdgrp lng="pl">
+    <trd>pokrewny</trd>,
+    <trd>spokrewniony</trd>
+  </trdgrp>
   <trdgrp lng="pt">
    <trd>parente<klr tip="ind"> (adj.)</klr></trd>,
    <trd>aparentado<klr tip="ind"> (adj.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>conexe</trd>,
+    <trd>aproapele</trd>
+  </trdgrp>
   <trd lng="ru">&c_r;&c_o;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">pr&iacute;buzn&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_ib;&c_d;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_r;&#x43E;&c_d;&c_i;&#x43D;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="parenc.0ino">
@@ -170,11 +196,15 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_v;&c_a;&c_ja;&c_ch;&c_k;&c_a;</trd>
   <trd lng="de">Verwandte</trd>
   <trd lng="hu">n&odblac;rokon</trd>
   <trd lng="io">parentino</trd>
   <trd lng="nl">familielid<klr tip="ind"> (vr.)</klr></trd>
+  <trd lng="pl">krewna</trd>
+  <trd lng="ro">rud&abreve;</trd>
   <trd lng="ru">&c_r;&c_o;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trd lng="uk">&c_r;&#x43E;&c_d;&c_i;&c_ch;&#x43A;&c_a;</trd>
   <trd lng="vo">jir&ouml;letan</trd>
 </drv>
 
@@ -191,6 +221,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_v;&c_a;&c_ja;&c_k; <klr>(&c_n;&c_ja;&c_k;&c_r;&c_e;&c_w;&c_n;&c_y;)</klr></trd>
   <trd lng="cs">p&rcaron;&iacute;buzn&yacute; z&iacute;skan&yacute;
   s&ncaron;atkem</trd>
   <trd lng="en">in-law</trd>
@@ -200,18 +231,39 @@
     <trd>schoonfamilielid</trd>,
     <trd>lid van de <ind>schoonfamilie</ind></trd>
   </trdgrp>
+  <trd lng="pl">powinowaty</trd>
   <trdgrp lng="pt">
     <trd>parente afim</trd>,
     <trd>afim</trd>,
     <trd>parente por <ind>afinidade</ind></trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>rela&#539;ionat</trd>,
+    <trd>inrudit</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">pr&iacute;buzn&yacute; z&iacute;skan&yacute;
   man&zcaron;elstvom</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&#x43E;&c_d;&c_i;&c_ch; &c_ch;&c_je;&c_r;&c_je;&c_z; &c_sh;&#x43B;&#x44E;&c_b;</trd>,
+    <trd>&c_s;&c_v;&#x43E;&#x44F;&#x43A;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2022/06/18 22:28:58
+Vito Redsky: + trd pl + trd ro 
+
+versio 1.34 2022/05/01 17:51:19
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.33 2022/04/20 07:35:32
+Dmitri Gabinski: + trd be
+
+versio 1.31 2021/10/27 18:35:58
+Wolfram Diestel: +trdj
+
 versio 1.29 2021/04/11 17:29:55
 Wolfram Diestel: +lst ~oj
 
@@ -222,17 +274,5 @@ Revision 1.26  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.25  2015/06/29 16:40:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.24  2013/10/25 13:10:10  revo
-Wolfram Diestel: disigis tri snc de ~o, ekz-fnt
-
-Revision 1.23  2012/06/28 18:10:11  revo
-Tulio Flores: korekto de difino eo: boparenco: geegzoj <span style=
-
-Revision 1.22  2009/10/16 16:31:25  revo
-Paul Peeraerts: +nl
-
-Revision 1.21  2006/09/22 12:26:32  revo
 -->
 </vortaro>

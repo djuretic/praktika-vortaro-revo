@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gxener.xml,v 1.69 2021/06/18 20:41:41 revo Exp $">
+<art mrk="$Id: gxener.xml,v 1.103 2022/04/30 08:42:41 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>&gcirc;eneral</rad>/a <fnt><bib>PV</bib></fnt>
@@ -79,7 +79,8 @@
        <ref cel="specif.0a.aparta">specifa<sncref/></ref>
     </refgrp>
     <refgrp tip="vid">
-       <ref tip="vid" cel="publik.0a.nefermita">publika<sncref/></ref>,
+       <ref cel="oni.0a">onia</ref>,
+       <ref cel="publik.0a.nefermita">publika<sncref/></ref>,
        <ref cel="mond.tut0a">tutmonda</ref>
     </refgrp>
   </snc>
@@ -92,8 +93,7 @@
     <trd>&c_o;&c_b;&c_shch;</trd>,
     <trd>&c_g;&c_l;&c_a;&c_v;&c_je;&c_n;</trd>
   </trdgrp>
-  <trd lng="cs">v&scaron;eobecn&yacute;</trd>
-  
+  <trd lng="cs">v&scaron;eobecn&yacute;</trd>  
   <trd lng="el">&gamma;&epsilon;&ny;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trd lng="en">general</trd>
   <trdgrp lng="es">
@@ -130,6 +130,11 @@
   <trdgrp lng="sv">
     <trd>generell</trd>,
     <trd>allm&auml;n</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x433;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43F;&#x43E;&#x432;&#x441;&#x44E;&#x434;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x491;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
   </trdgrp>
 </drv>
 
@@ -173,7 +178,7 @@
   </snc>
   <trd lng="af">algemene</trd>
   <trd lng="am">&#x12A0;&#x1320;&#x1243;&#x120B;&#x12ED;</trd>
-  <trd lng="ar">&#x639;&#x627;&#x645;</trd>
+  <trd lng="ar">&a_ayn;&a_A;&a_m;</trd>
   <trd lng="az">&#xFC;mumi</trd>
   <trdgrp lng="bg">
     <trd>&c_o;&c_b;&c_shch;&c_o;</trd>,
@@ -182,6 +187,7 @@
   </trdgrp>
   <trd lng="bn">&#x9B8;&#x9BE;&#x9A7;&#x9BE;&#x9B0;&#x9A3;</trd>
   <trd lng="bo">&#xF58;&#xF44;&#xF0B;&#xF46;&#xF7A;&#xF0B;</trd>
+  <trd lng="cy">gyffredinol</trd>
   <trd lng="da">generelt</trd>
   <trdgrp lng="de">
     <trd>allgemein</trd>,
@@ -202,24 +208,41 @@
     <trd>en general</trd>
   </trdgrp>
   <trd lng="fy">algemien</trd>
+  <trd lng="ga">ginear&#xE1;lta</trd>
+  <trd lng="gd">fharsaingeachd</trd>
   <trd lng="gl">xeral</trd>
   <trd lng="gu">&#xAB8;&#xABE;&#xAAE;&#xABE;&#xAA8;&#xACD;&#xAAF;</trd>
   <trd lng="hi">&#x938;&#x93E;&#x92E;&#x93E;&#x928;&#x94D;&#x92F;</trd>
-  <trd lng="hr">op&#x107;i</trd>
+  <trd lng="hr">op&cacute;i</trd>
+  <trd lng="ht">jeneral</trd>
   <trd lng="hy">&#x563;&#x56C;&#x56D;&#x561;&#x57E;&#x578;&#x580;</trd>
+  <trd lng="ig">n&#x2019;ozuzu</trd>
   <trd lng="is">almennt</trd>
   <trdgrp lng="it">
     <trd>generalmente</trd>,
     <trd>in generale</trd>
   </trdgrp>
   <trd lng="ja">&#x4E00;&#x822C;</trd>
-  <trd lng="jw">umum</trd>
+  <trd lng="jv">umum</trd>
   <trd lng="ka">&#x10D6;&#x10DD;&#x10D2;&#x10D0;&#x10D3;&#x10D8;</trd>
+  <trd lng="kk">&c_zh;&c_a;&#x43B;&#x43F;&#x44B;</trd>
   <trd lng="km">&#x1791;&#x17BC;&#x1791;&#x17C5;</trd>
+  <trd lng="kn">&#xCB8;&#xCBE;&#xCAE;&#xCBE;&#xCA8;&#xCCD;&#xCAF;</trd>
   <trd lng="ko">&#xC77C;&#xBC18;</trd>
+  <trd lng="ku">gi&#x15F;t&#xEE;</trd>
+  <trd lng="ky">&c_zh;&c_a;&#x43B;&#x43F;&#x44B;</trd>
+  <trd lng="lat">generalis</trd>
   <trd lng="lo">&#xEC2;&#xE94;&#xE8D;&#xE97;&#xEBB;&#xEC8;&#xEA7;&#xEC4;&#xE9B;</trd>
+  <trd lng="lt">bendras</trd>
+  <trd lng="lv">visp&amacron;r&emacron;js</trd>
+  <trd lng="mg">ankapobeny</trd>
+  <trd lng="mi">wh&amacron;nui</trd>
+  <trd lng="mk">&#x43E;&#x43F;&c_sh;&c_t;&#x43E;</trd>
   <trd lng="ml">&#xD2A;&#xD4A;&#xD24;&#xD41;&#xD35;&#xD3E;&#xD2F;</trd>
+  <trd lng="mn">&c_je;&c_r;&#x4E9;&#x43D;&c_h;&c_i;&c_j;</trd>
   <trd lng="mr">&#x938;&#x93E;&#x92E;&#x93E;&#x928;&#x94D;&#x92F;</trd>
+  <trd lng="ms">umum</trd>
+  <trd lng="mt">&#x121;enerali</trd>
   <trd lng="my">&#x101A;&#x1031;&#x1018;&#x102F;&#x101A;&#x103B;</trd>
   <trd lng="ne">&#x938;&#x93E;&#x92E;&#x93E;&#x928;&#x94D;&#x92F;</trd>
   <trd lng="ny">ambiri</trd>
@@ -231,7 +254,7 @@
     <trd>og&oacute;lnikowo</trd>,
     <trd>gremialnie</trd>
   </trdgrp>
-  <trd lng="ps">&#x639;&#x645;&#x648;&#x645;&#x64A;</trd>
+  <trd lng="ps">&a_ayn;&a_m;&a_w;&a_m;&#x64A;</trd>
   <trdgrp lng="pt">
    <trd>geralmente</trd>, 
    <trd>em <ind>geral</ind><klr tip="ind"> (adv.)</klr></trd> 
@@ -243,17 +266,30 @@
     <trd>&c_v; <ind>&c_c;&c_je;&c_l;&c_o;&c_m;</ind></trd>,
     <trd>&c_v; <ind>&c_o;&c_b;&c_shch;&c_je;&c_m;</ind></trd>
   </trdgrp>
-  <trd lng="sd">&#x639;&#x627;&#x645;</trd>
+  <trd lng="rw">rusange</trd>
+  <trd lng="sd">&a_ayn;&a_A;&a_m;</trd>
   <trd lng="si">&#xDB4;&#xDDC;&#xDAF;&#xDD4;</trd>
+  <trd lng="sl">splo&scaron;no</trd>
+  <trd lng="sm">lautele</trd>
+  <trd lng="sn">Kazhinji</trd>
+  <trd lng="so">guud ahaan</trd>
   <trd lng="sq">p&#xEB;rgjithshme</trd>
   <trd lng="st">kakaretso</trd>
+  <trd lng="su">umum</trd>
+  <trd lng="sw">ujumla</trd>
   <trd lng="ta">&#xBAA;&#xBCA;&#xBA4;&#xBC1;</trd>
   <trd lng="te">&#xC38;&#xC3E;&#xC27;&#xC3E;&#xC30;&#xC23;</trd>
+  <trd lng="tg">&c_g;&c_je;&#x43D;&c_je;&c_r;&c_a;&#x43B;</trd>
   <trd lng="th">&#xE17;&#xE31;&#xE48;&#xE27;&#xE44;&#xE1B;</trd>
   <trd lng="tl">pangkalahatan</trd>
-  <trd lng="ur">&#x62C;&#x646;&#x631;&#x644;</trd>
+  <trd lng="tt">&c_g;&#x43E;&#x43C;&c_u;&#x43C;&c_i;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_g;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
+  <trd lng="ur">&#x62C;&a_n;&a_r;&a_l;</trd>
+  <trd lng="uz">umumiy</trd>
   <trd lng="vi">chung</trd>
+  <trd lng="xh">ngokubanzi</trd>
   <trd lng="yi">&#x5D0;&#x5B7;&#x5DC;&#x5D2;&#x5E2;&#x5DE;&#x5D9;&#x5D9;&#x5E0;&#x5E2;</trd>
+  <trd lng="yo">gbogboogbo</trd>
   <trd lng="zu">jikelele</trd>
 </drv>
 
@@ -301,7 +337,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
-          <vrk><url ref="https://www.monato.be/2005/008539.php">Malvarma milito kaj la orienta bloko</url></vrk>
+          <vrk><url ref="&Monato;/2005/008539.php">Malvarma milito kaj la orienta
+          bloko</url></vrk>
           <lok>2005</lok>
         </fnt>;
       </ekz>
@@ -311,7 +348,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>H&egrave;ctor Al&ograve;s i Font</aut>
-          <vrk><url ref="https://www.monato.be/2013/011015.php">La turka: pli granda, pli diversa familio</url></vrk>
+          <vrk><url ref="&Monato;/2013/011015.php">La turka: pli granda, pli diversa
+          familio</url></vrk>
           <lok>2013</lok>
         </fnt>;
       </ekz>
@@ -320,7 +358,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url ref="https://www.monato.be/2003/008022.html">Tridek jaroj da sa&gcirc;o</url></vrk>
+          <vrk><url ref="&Monato;/2003/008022.html">Tridek jaroj da sa&gcirc;o</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -329,7 +367,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Pa&ubreve;l Peeraerts</aut>
-          <vrk><url ref="https://www.monato.be/2007/009338.php">Separismo ne, egalrajteco jes</url></vrk>
+          <vrk><url ref="&Monato;/2007/009338.php">Separismo ne, egalrajteco
+          jes</url></vrk>
           <lok>2007</lok>
         </fnt>;
       </ekz>
@@ -338,7 +377,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>W. M. A. De Smet</aut>
-          <vrk><url ref="https://www.monato.be/2004/008418.html">Edward Croegaert, la forgesita lingvokreanto</url></vrk>
+          <vrk><url ref="&Monato;/2004/008418.html">Edward Croegaert, la forgesita
+          lingvokreanto</url></vrk>
           <lok>2004</lok>
         </fnt>.
       </ekz>
@@ -373,10 +413,17 @@
   </trdgrp>
   <trd lng="pt">generalizar</trd>
   <trd lng="ru">&c_o;&c_b;&c_o;&c_b;&c_shch;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="uk">&#x443;&#x437;&#x430;&#x433;&#x430;&#x43B;&#x44C;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.103 2022/04/30 08:42:41
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.101 2021/09/11 20:30:58
+Wolfram Diestel: ref
+
 versio 1.28 2021/04/14 19:01:10
 Wolfram Diestel: +ekz-oj, ref-oj
 
@@ -393,11 +440,5 @@ Revision 1.23  2007/12/09 17:30:27  revo
 Wieland Pusch: +trd bg (de Joop Eggen)
 
 Revision 1.22  2006/09/19 17:39:25  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.21  2006/05/07 16:32:04  revo
-Eduardo Navas: +trd es
-
-Revision 1.20  2005/10/13 16:31:09  revo
 -->
 </vortaro>

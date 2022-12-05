@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sub.xml,v 1.97 2021/06/18 18:20:13 revo Exp $">
+<art mrk="$Id: sub.xml,v 1.134 2022/06/02 07:34:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sub</rad>
@@ -20,7 +20,7 @@
         Pozicion de objekto rilate al alia, kiu estas pli alte a&ubreve;
         ene de iu supra&jcirc;o, kaj tu&scirc;as &gcirc;in:
         <ekz>
-          junulo <klr>[&#x2026;]</klr> portis <klr>[&#x2026;]</klr> anseron <tld/> la
+          junulo <klr>[&#8230;]</klr> portis <klr>[&#8230;]</klr> anseron <tld/> la
           brako
           <fnt>
             <bib>ElektFab</bib>
@@ -34,7 +34,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          la &scirc;tupo de la balkono <klr>[&#x2026;]</klr> ek&scirc;anceli&gcirc;is <tld/> lia
+          la &scirc;tupo de la balkono <klr>[&#8230;]</klr> ek&scirc;anceli&gcirc;is <tld/> lia
           pezo
           <fnt>
             <bib>IK</bib>
@@ -47,7 +47,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          la floroj <klr>[&#x2026;]</klr> mortadis <tld/> la pa&scirc;oj de la
+          la floroj <klr>[&#8230;]</klr> mortadis <tld/> la pa&scirc;oj de la
           amantoj
           <fnt>
             <bib>Rabistoj</bib>
@@ -62,7 +62,7 @@
         Pozicion de objekto rilate al alia, kiu estas pli alte sed ne
         tu&scirc;as &gcirc;in:
         <ekz>
-          muso <klr>[&#x2026;]</klr> kuras <tld/> la lito
+          muso <klr>[&#8230;]</klr> kuras <tld/> la lito
           <fnt>
             <bib>F</bib>
             <lok>&FE; 26</lok>
@@ -76,7 +76,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          la pre&gcirc;ejo <klr>[&#x2026;]</klr> sur la monto <tld/> la potencaj
+          la pre&gcirc;ejo <klr>[&#8230;]</klr> sur la monto <tld/> la potencaj
           kverkoj
           <fnt>
             <bib>Fab2</bib>
@@ -117,6 +117,7 @@
       Pri uzo de <em><tld/></em> kun akuzativo,
       vd <ref cel="sub.al0"><tld/> ...-n, al <tld/></ref>.
     </rim>
+    <trd lng="th">&#xE43;&#xE15;&#xE49;</trd>
   </snc>
   <snc mrk="sub.0.vualo">
     <dif>
@@ -133,8 +134,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        projektoj <klr>[&#x2026;]</klr> proponitaj <klr>[&#x2026;]</klr> <tld/> la&ubreve;ta
-        <klr>[&#x2026;]</klr> nomo
+        projektoj <klr>[&#8230;]</klr> proponitaj <klr>[&#8230;]</klr> <tld/> la&ubreve;ta
+        <klr>[&#8230;]</klr> nomo
         <fnt>
           <bib>FK</bib>
         </fnt>;
@@ -149,6 +150,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="th">&#xE20;&#xE32;&#xE22;&#xE43;&#xE15;&#xE49;</trd>   
   </snc>
   <snc mrk="sub.0.dependo">
     <dif>
@@ -180,7 +182,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la viroj ekzerci&gcirc;u <klr>[&#x2026;]</klr> <tld/> la direkto de la
+        la viroj ekzerci&gcirc;u <klr>[&#8230;]</klr> <tld/> la direkto de la
         oficiroj
         <fnt>
           <bib>Far3</bib>
@@ -215,62 +217,95 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="th">&#xE20;&#xE32;&#xE22;&#xE43;&#xE15;&#xE49;</trd>   
   </snc>
   <trd lng="af">onder</trd>
-  <trd lng="am">&#x1260;&#x1273;&#x127D;</trd>
-  <trd lng="ar">&#x62A;&#x62D;&#x62A;</trd>
-  <trd lng="az">alt&#x131;nda</trd>
-  <trd lng="be">&c_p;&c_a;&c_d;</trd>
-  <trd lng="bn">&#x985;&#x9A7;&#x9C0;&#x9A8;</trd>
-  <trd lng="bo">&#xF58;&#xF62;&#xF0B;</trd>
+  <trd lng="am">&#4704;&#4723;&#x127D;</trd>
+  <trd lng="ar">&a_t;&a_H;&a_t;</trd>
+  <trd lng="az">alt&inodot;nda</trd>
+  <trd lng="be">&c_p;&c_a;&c_d; <klr>(&c_d;&c_z;&c_je;)</klr></trd>
+  <trd lng="bn">&#2437;&#x9A7;&#x9C0;&#x9A8;</trd>
+  <trd lng="bo">&t_ma;&t_ra;&t_tsheg;</trd>
   <trd lng="bs">pod</trd>
   <trd lng="co">sottu</trd>
   <trd lng="cs">pod <klr>(samostatn&ecaron; kombinovateln&yacute;
   morf&eacute;m)</klr></trd>
+  <trd lng="cy">o dan</trd>
   <trd lng="da">under</trd>
   <trd lng="de">unter</trd>
   <trd lng="es">debajo</trd>
   <trd lng="et">alla</trd>
   <trd lng="eu">pean</trd>
   <trd lng="fr">sous</trd>
-  <trd lng="fy">&#xFB;nder</trd>
+  <trd lng="fy">&ucirc;nder</trd>
+  <trd lng="ga">faoi</trd>
+  <trd lng="gd">fo</trd>
   <trd lng="gl">baixo</trd>
   <trd lng="gu">&#xAB9;&#xAC7;&#xAA0;&#xAB3;</trd>
   <trd lng="ha">karkashin</trd>
-  <trd lng="hi">&#x928;&#x940;&#x91A;&#x947;</trd>
+  <trd lng="hi">&#2344;&#2368;&#x91A;&#2375;</trd>
+  <trd lng="hmn">nyob rau hauv</trd>
   <trd lng="hr">pod</trd>
+  <trd lng="ht">anba</trd>
   <trd lng="hu">alatt</trd>
-  <trd lng="hy">&#x57F;&#x561;&#x56F;</trd>
+  <trd lng="hy">&#x57F;&#1377;&#x56F;</trd>
   <trd lng="id"><ind>di</ind> bawah</trd>
+  <trd lng="ig">n&#8217;okpuru</trd>
   <trd lng="is">undir</trd>
   <trd lng="ja">&#x4E0B;</trd>
-  <trd lng="jw">ing</trd>
+  <trd lng="jv">ing</trd>
   <trd lng="ka">&#x10E4;&#x10D0;&#x10E0;&#x10D2;&#x10DA;&#x10D4;&#x10D1;&#x10E8;&#x10D8;</trd>
-  <trd lng="km">&#x1780;&#x17D2;&#x179A;&#x17C4;&#x1798;&#x1780;&#x17B6;&#x179A;</trd>
+  <trd lng="kk">&c_a;&c_s;&c_t;&c_y;&c_n;&c_d;&c_a;</trd>
+  <trd lng="km">&#6016;&#x17D2;&#x179A;&#x17C4;&#6040;&#6016;&#x17B6;&#x179A;</trd>
+  <trd lng="kn">&#xC85;&#xCA1;&#xCBF;&#xCAF;&#xCB2;&#xCCD;&#xCB2;&#xCBF;</trd>
   <trd lng="ko">&#xC544;&#xB798;&#xC758;</trd>
+  <trd lng="ku">bin&ecirc;</trd>
+  <trd lng="ky">&c_a;&c_s;&c_t;&c_y;&c_n;&c_d;&c_a;</trd>
+  <trd lng="lat">sub</trd>
   <trd lng="lo">&#xE9E;&#xEB2;&#xE8D;&#xEC3;&#xE95;&#xEC9;&#xE81;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">pagal</trd>
+  <trd lng="lv">saska&ncommaaccent;&amacron; ar</trd>
+  <trd lng="mg">eo ambany</trd>
+  <trd lng="mi">i raro i</trd>
+  <trd lng="mk">&c_p;&c_o;&c_d;</trd>
   <trd lng="ml">&#xD15;&#xD40;&#xD34;&#xD46;</trd>
-  <trd lng="mr">&#x905;&#x902;&#x924;&#x930;&#x94D;&#x917;&#x924;</trd>
-  <trd lng="my">&#x1021;&#x1031;&#x102C;&#x1000;&#x103A;</trd>
-  <trd lng="ne">&#x905;&#x928;&#x94D;&#x924;&#x930;&#x94D;&#x917;&#x924;</trd>
+  <trd lng="mn">&c_d;&c_a;&c_g;&c_u;&c_u;</trd>
+  <trd lng="mr">&#2309;&#2306;&#2340;&#2352;&#x94D;&#2327;&#2340;</trd>
+  <trd lng="ms">di bawah</trd>
+  <trd lng="mt">ta&#295;t</trd>
+  <trd lng="my">&#4129;&#4145;&#x102C;&#4096;&#x103A;</trd>
+  <trd lng="ne">&#2309;&#2344;&#x94D;&#2340;&#2352;&#x94D;&#2327;&#2340;</trd>
   <trd lng="nl">onder</trd>
   <trd lng="ny">pansi</trd>
   <trd lng="pa">&#xA39;&#xA47;&#xA20;</trd>
-  <trd lng="ps">&#x644;&#x627;&#x646;&#x62F;&#x6D0;</trd>
+  <trd lng="ps">&a_l;&a_A;&a_n;&a_d;&#x6D0;</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;</trd>
-  <trd lng="sd">&#x647;&#x64A;&#x67A;</trd>
+  <trd lng="rw">munsi</trd>
+  <trd lng="sd">&a_h;&a_y;&#x67A;</trd>
   <trd lng="si">&#xDBA;&#xDA7;&#xDAD;&#xDDA;</trd>
   <trd lng="sk">pod</trd>
-  <trd lng="sq">n&#xEB;n</trd>
+  <trd lng="sl">pod</trd>
+  <trd lng="sm">i lalo</trd>
+  <trd lng="sn">pasi</trd>
+  <trd lng="sq">n&euml;n</trd>
+  <trd lng="st">tlas&#8217;a</trd>
+  <trd lng="su">di handap</trd>
   <trd lng="sv">under</trd>
+  <trd lng="sw">chini ya</trd>
   <trd lng="ta">&#xB95;&#xBC0;&#xBB4;&#xBCD;</trd>
   <trd lng="te">&#xC15;&#xC3F;&#xC02;&#xC26;</trd>
-  <trd lng="th">&#xE20;&#xE32;&#xE22;&#xE43;&#xE15;&#xE49;</trd>
+  <trd lng="tg">&c_z;&c_je;&c_r;&c_i;</trd>
+  
   <trd lng="tl">sa ilalim</trd>
-  <trd lng="ur">&#x6A9;&#x6D2; &#x62A;&#x62D;&#x62A;</trd>
+  <trd lng="tt">&c_a;&c_s;&c_t;&c_y;&c_n;&c_d;&c_a;</trd>
+  <trd lng="uk">&c_p;&c_ib;&c_d;</trd>
+  <trd lng="ur">&f_k;&#x6D2; &a_t;&a_H;&a_t;</trd>
+  <trd lng="uz">ostida</trd>
   <trd lng="vi">d&#x1B0;&#x1EDB;i</trd>
   <trd lng="vo">dis</trd>
-  <trd lng="yi">&#x5D0;&#x5D5;&#x5E0;&#x5D8;&#x5E2;&#x5E8;</trd>
+  <trd lng="xh">phantsi</trd>
+  <trd lng="yi">&alef;&vav;&nun;&tet;&ayin;&resh;</trd>
+  <trd lng="yo">lab&#x1EB9;</trd>
   <trd lng="zu">ngaphansi</trd>
 </drv>
 
@@ -299,7 +334,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la gasto <klr>[&#x2026;]</klr> <tld/> la kapon metis la sakon kiel
+        la gasto <klr>[&#8230;]</klr> <tld/> la kapon metis la sakon kiel
         kusenon
         <fnt>
           <bib>ElektFab</bib>
@@ -343,6 +378,7 @@
       vidu rimarkon sub <ref cel="cxe.al0.kunajxo_kun_al">al &ccirc;e</ref>.
     </rim>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_d; <klr>(&c_k;&c_u;&c_d;&c_y;)</klr></trd>
   <trd lng="de">darunter</trd>
   <trd lng="es">abajo</trd>
   <trd lng="hu">al&aacute;</trd>
@@ -379,7 +415,7 @@
         <fnt><bib>Far2</bib><lok>&ccirc;ap. 8</lok></fnt>;
       </ekz>
       <ekz>
-        delikata oreleto <klr>[&#x2026;]</klr> provoke montris sin
+        delikata oreleto <klr>[&#8230;]</klr> provoke montris sin
         de<tld/> la oraj bukloj
         <fnt>
           <aut>J. Francis</aut>,
@@ -396,6 +432,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;-&c_p;&c_a;&c_d;</trd>
   <trd lng="cs">zdola</trd>
   <trd lng="de">von <ind>unten</ind></trd>
   <trd lng="es">desde abajo</trd>
@@ -433,8 +470,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        mallerte tu&scirc;ante la klavojn, <klr>[&#x2026;]</klr> erara tono
-        <klr>[&#x2026;]</klr> eliras el
+        mallerte tu&scirc;ante la klavojn, <klr>[&#8230;]</klr> erara tono
+        <klr>[&#8230;]</klr> eliras el
         <tld/> &scirc;iaj fingroj
         <fnt>
           <bib>Marta</bib>
@@ -461,6 +498,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;-&c_p;&c_a;&c_d;</trd>
   <trd lng="cs">zespod</trd>
   <trd lng="es">de debajo</trd>
   <trd lng="hu">al&oacute;l</trd>
@@ -507,7 +545,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
-          <vrk><url ref="https://www.monato.be/2009/009892.php">Kiam
+          <vrk><url ref="&Monato;/2009/009892.php">Kiam
           akvo trovis la &scirc;ipon</url></vrk>
           <lok>2009</lok>
         </fnt>;
@@ -519,7 +557,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Judit Felszeghy</aut>
-          <vrk><url ref="https://www.monato.be/2008/009409.php">Ne nur
+          <vrk><url ref="&Monato;/2008/009409.php">Ne nur
           sporto, anka&ubreve; vivoformo</url></vrk>
           <lok>2008</lok>
         </fnt>;
@@ -529,7 +567,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Claude Rouget</aut>
-          <vrk><url ref="https://www.monato.be/2008/009374.php">&Ccirc;u Al
+          <vrk><url ref="&Monato;/2008/009374.php">&Ccirc;u Al
           Gore meritas pacpremion?</url></vrk>
           <lok>2008</lok>
         </fnt>;
@@ -544,6 +582,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_ib;&c_zh;&c_n;&c_ib;</trd>,
+    <trd>&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>doln&iacute;</trd>,
     <trd>spodn&iacute;</trd>
@@ -557,7 +599,11 @@
   <trd lng="ru">&c_n;&c_i;&c_zh;&c_n;&c_i;&c_j;</trd>
   <trd lng="sk">spodn&yacute;</trd>
   <trd lng="sv">undre</trd>
-  <trd lng="tp">anpa</trd>
+  <trd lng="tok">anpa</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&#x43F;&c_ib;&c_d;&#x43D;&c_ib;&c_j;</trd>,
+    <trd>&#x43D;&c_i;&c_zh;&#x43D;&c_ib;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sub.0e">
@@ -584,7 +630,7 @@
         nuda <tld/>e de l' genu'
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
+          <vrk><url ref="&Steloj;butiko">La Stranga
           Butiko</url></vrk>
           <lok>&Ccirc;astemulino</lok>
         </fnt>;
@@ -593,7 +639,7 @@
         vidu <tld/>e
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006876.html">E&ubreve;ropo:
+          <vrk><url ref="&Steloj;monato2/006876.html">E&ubreve;ropo:
           &Ccirc;u protekti murdistojn?</url></vrk>
         </fnt>;
       </ekz>
@@ -603,7 +649,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode van de Velde</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007144.html">Bierlando
+          <vrk><url ref="&Steloj;monato2/007144.html">Bierlando
           Belgio</url></vrk>
         </fnt>.
       </ekz>
@@ -611,6 +657,7 @@
     <refgrp tip="sin">
       <ref cel="supr">malsupre</ref>.
     </refgrp>
+    <trd lng="th">&#xE02;&#xE49;&#xE32;&#xE07;&#xE43;&#xE15;&#xE49;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_n;&c_ib;&c_z;&c_je;</trd>,
@@ -638,6 +685,10 @@
     <trd>naspodku</trd>,
     <trd>poni&zcaron;e</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&c_a;&c_s;&#x43F;&#x43E;&c_d;&c_ib;</trd>,
+    <trd>&c_u;&#x43D;&c_i;&c_z;&c_u;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sub.0ajxo">
@@ -652,7 +703,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>G. O. &Ograve;sh&oacute;-Davies</aut>
-          <vrk><url ref="https://www.monato.be/2012/010421.php">Po&scirc;telefono</url></vrk>
+          <vrk><url ref="&Monato;/2012/010421.php">Po&scirc;telefono</url></vrk>
           <lok>2012</lok>
         </fnt>;
       </ekz>
@@ -661,7 +712,7 @@
         Mandarenanaso, nome
         blanka <tld/>a&jcirc;o, brusto pli bruna, ventroflankoj pli helaj
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Arbanaso">Arbanaso -
+          <vrk><url ref="&Viki;/Arbanaso">Arbanaso -
           Vikipedio</url></vrk>
         </fnt>.
       </ekz>
@@ -670,7 +721,7 @@
       <dif>
         <ref tip="sub" cel="grund.0o">Grundo</ref>, <ref tip="dif" cel="fon.0o.KOMUNE">fono</ref>:
         <ekz>
-          la ne&gcirc;o kraketis <klr>[&#x2026;]</klr>, la korvoj <klr>[&#x2026;]</klr>
+          la ne&gcirc;o kraketis <klr>[&#8230;]</klr>, la korvoj <klr>[&#8230;]</klr>
           faradis bonan efekton sur la blanka
           <tld/>a&jcirc;o
           <fnt>
@@ -747,7 +798,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lucette &Eacute;chapp&eacute;</aut>
-          <vrk><url ref="https://www.monato.be/2013/010930.php">Vizito
+          <vrk><url ref="&Monato;/2013/010930.php">Vizito
           al Nanto</url></vrk>
           <lok>2013</lok>
         </fnt>.
@@ -795,6 +846,14 @@
     <trd>podmani&tcaron;</trd>,
     <trd>podriadi&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_ib;&c_d;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &#x43F;&c_ib;&c_d; &c_ch;&c_i;&#x44E;&c_s;&#x44C; &c_v;&#x43B;&c_a;&c_d;&c_u;</trd>,
+    <trd>&c_r;&#x43E;&c_b;&c_i;&c_t;&c_i; &#x43F;&c_ib;&c_d;&#x43B;&c_je;&c_g;&#x43B;&c_i;&#x43C;/&c_z;&c_a;&#x43B;&c_je;&c_zh;&#x43D;&c_i;&#x43C;</trd>,
+    <trd>&#x43F;&c_ib;&c_d;&#x43F;&#x43E;&c_r;&#x44F;&c_d;&#x43A;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&#x43E;&#x43D;&c_i;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&#x43D;&c_i;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&#x43F;&c_u;&c_s;&#x43A;&c_a;&c_t;&c_i; &c_d;&#x43E;&#x43D;&c_i;&c_z;&c_u;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sub.0igxi">
@@ -837,6 +896,10 @@
     </dif>
     <trd lng="de">unterwerfen</trd>
   </snc>
+    <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_d;&c_n;&c_a;&c_ch;&c_a;&c_l;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_p;&c_a;&c_r;&c_a;&c_d;&c_k;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="fr">se <ind>soumettre</ind></trd>
 </drv>
 
@@ -858,7 +921,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Last</aut>
-          <vrk><url ref="https://www.monato.be/2004/008260.html">E&ubreve;ropaj
+          <vrk><url ref="&Monato;/2004/008260.html">E&ubreve;ropaj
           prezoj minacas</url></vrk>
           <lok>2004</lok>
         </fnt>;
@@ -875,6 +938,13 @@
       <trd>Unterwerfung</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_n;&c_ib;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_z;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_z;&c_mol;&c_n;&c_ib;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_z;&c_a;&c_h;&c_o;&c_d; <klr>(&c_s;&c_o;&c_n;&c_c;&c_a;)</klr></trd>,
+    <trd>&c_p;&c_a;&c_d;&c_p;&c_a;&c_r;&c_a;&c_d;&c_k;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
   <trd lng="fr">soumission</trd>
 </drv>
 
@@ -895,6 +965,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_r;&c_a;&c_h;&c_m;&c_a;&c_n;&c_y;</trd>,
+      <trd>&c_p;&c_a;&c_k;&c_o;&c_r;&c_n;&c_y;</trd>,
+      <trd>&c_p;&c_a;&c_k;&c_o;&c_r;&c_l;&c_ib;&c_v;&c_y;</trd>
+    </trdgrp>
     <trd lng="de">unterw&uuml;rfig</trd>
   </snc>
   <trdgrp lng="fr">
@@ -917,7 +992,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <nom>Eze&hcirc;iel</nom> <klr>[&#x2026;]</klr> batas per bastono unu el siaj
+        <nom>Eze&hcirc;iel</nom> <klr>[&#8230;]</klr> batas per bastono unu el siaj
         <tld/>uloj
         <fnt>
           <bib>Far1</bib>
@@ -934,8 +1009,7 @@
       </ekz>
     </dif>
     <trdgrp lng="be">
-      <trd>&c_p;&c_a;&c_d;&c_n;&c_a;&c_ch;&c_a;&c_l;&c_je;&c_n;&c_y;
-      <klr>(&c_n;&c_a;&c_z;.)</klr></trd>
+      <trd>&c_p;&c_a;&c_d;&c_n;&c_a;&c_ch;&c_a;&c_l;&c_je;&c_n;&c_y; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>
     </trdgrp>
     <trd lng="de">Untergebener</trd>
   </snc>
@@ -958,6 +1032,7 @@
   <trd lng="nl">ondergeschikte</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_ch;&c_i;&c_n;&c_jo;&c_n;&c_n;&c_y;&c_j; <klr>(&c_s;&c_u;&c_shch;.)</klr></trd>
   <trd lng="sk">podriaden&yacute; &ccaron;lovek</trd>
+  <trd lng="uk">&#x43F;&c_ib;&c_d;&#x43B;&c_je;&c_g;&#x43B;&c_i;&c_j; (&c_u; &c_z;&#x43D;&c_a;&c_ch;.&c_ib;&#x43C;.)</trd>
 </drv>
 
 <drv mrk="sub.cxi0a">
@@ -971,7 +1046,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Mihail Korotkov</aut>
-          <vrk><url ref="https://www.monato.be/2011/010218.php">La
+          <vrk><url ref="&Monato;/2011/010218.php">La
           origino de la homaj lingvoj</url></vrk>
           <lok>2011</lok>
         </fnt>;
@@ -982,7 +1057,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Ivo Durwael</aut>
-          <vrk><url ref="https://www.monato.be/2004/008236.html">La
+          <vrk><url ref="&Monato;/2004/008236.html">La
           rikolto de la nova tempo</url></vrk>
           <lok>2004</lok>
         </fnt>;
@@ -999,6 +1074,10 @@
     </dif>
     <trd lng="de">hierunter</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_u;&c_p;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_ib;&c_zh;&c_e;&c_j; &c_z;&c_g;&c_a;&c_d;&c_a;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>abajo<klr> (adj.)</klr></trd>,
     <trd>debajo<klr> (adj.)</klr></trd>
@@ -1014,7 +1093,8 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       Politiko provanta influi socion de<tld/>e, tio estas tra 
-      la amaso de ordinaraj homoj, kontraste al <ref tip="vid" cel="supr.de0ismo.POL">desuprismo</ref>:
+      la amaso de ordinaraj homoj, kontraste al <ref tip="vid"
+      cel="supr.de0ismo.POL">desuprismo</ref>:
       <ekz>
         oni povas celi la &gcirc;eneralan enkondukon de Esperanto la&ubreve; la 
         de<tld/>isma vojo, do pere de la kreskigo de la 
@@ -1053,6 +1133,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_p;&c_a;&c_k;&c_o;&c_r;&c_n;&c_y;</trd>
   <trd lng="fr">irr&eacute;ductible</trd>
 </drv>
 
@@ -1062,7 +1143,7 @@
     <dif>
       Ne a&ubreve; malfacile <tld/>i&gcirc;anta, protestema a&ubreve; malobeema:
       <ekz>
-        li <klr>[&#x2026;]</klr> sen&gcirc;ene uzis la juran sistemon por malliberigi
+        li <klr>[&#8230;]</klr> sen&gcirc;ene uzis la juran sistemon por malliberigi
         la plej
         ne<tld/>i&gcirc;emajn grandentreprenulojn
         <fnt>
@@ -1073,6 +1154,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_p;&c_a;&c_k;&c_o;&c_r;&c_n;&c_y;</trd>
   <trdgrp lng="de">
     <trd>widerspenstig</trd>,
     <trd>stolz</trd>
@@ -1353,6 +1435,18 @@
 </art>
 <!--
 $Log$
+versio 1.134 2022/06/02 07:34:06
+Dmitri Gabinski: + trd be
+
+versio 1.133 2022/05/05 14:43:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.131 2021/12/18 21:29:55
+Wolfram Diestel: trd th laux Warut
+
+versio 1.130 2021/12/18 17:35:13
+Warut Bunprasert: red th
+
 versio 1.54 2021/05/11 17:28:40
 Wolfram Diestel: kor. drv@mrk, snc@mrk
 
@@ -1363,17 +1457,5 @@ versio 1.52 2020/05/05 10:10:28
 Eko Nur Syah Hidayat: korekteto
 
 Revision 1.51  2020/02/18 18:10:23  revo
-Wolfram Diestel: +ekz-oj
-
-Revision 1.50  2020/02/17 20:10:15  revo
-Wolfram Diestel: ~ajxo: ekz-oj, germ trd-oj
-
-Revision 1.49  2020/02/17 17:10:19  revo
-Wolfram Diestel: ~e: ekz-oj
-
-Revision 1.48  2020/02/17 16:10:15  revo
-Wolfram Diestel: ~a: ekz-oj
-
-Revision 1.47  2020/02/16 20:10:15  revo
 -->
 </vortaro>

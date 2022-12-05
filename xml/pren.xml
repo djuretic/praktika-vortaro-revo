@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pren.xml,v 1.81 2021/06/19 06:38:34 revo Exp $">
+<art mrk="$Id: pren.xml,v 1.128 2022/11/28 12:49:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pren</rad>/i <fnt><bib>PV</bib></fnt>
@@ -11,80 +11,147 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pren.0i.mane">
     <dif>
-      Kapti iun a&ubreve; ion per sia mano a&ubreve; per instrumento, por teni, porti
-      a&ubreve;
-      uzi &gcirc;in:
+      <ref tip="sub" cel="kapt.0i.preni">Kapti</ref> iun a&ubreve; ion per sia 
+      mano a&ubreve; per instrumento, por <ref cel="ten.0i.enmane">teni</ref>, 
+      <ref cel="port.0i.kun_si">porti</ref> a&ubreve; uzi &gcirc;in:
       <ekz>
         mi <tld/>is broson kaj purigis la veston
         <fnt><bib>F</bib>, <lok>&FE; 39</lok></fnt>;
       </ekz><ekz>
         mi neniam <tld/>as kun mi multon da paka&jcirc;o
         <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
-      </ekz><ekz>
-        <tld/>i pecon per du fingroj<fnt>B</fnt>;
-      </ekz><ekz>
-        <tld/>i libron en biblioteko;
-      </ekz><ekz>
-        <tld/>i sian kapon per amba&ubreve; manoj, iun je la kolo, knabon je la
-        mano<fnt>B</fnt>;
-      </ekz><ekz>
-        li <tld/>is la leteron el la manoj de la senditoj<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i sian mantelon;
-      </ekz><ekz>
-        kio mem ne venas, li per la dentoj &gcirc;in <tld/>as
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        <tld/>i infanon sur siaj genuoj, sur sia dorso;
-      </ekz><ekz>
-        la sakon kun mono li <tld/>is kun si<fnt>Z</fnt>;
-      </ekz><ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>i iun kun si<fnt>Z</fnt>
-        <klr>(akompanigi sin per iu)</klr>;
-      </ekz><ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>i ion sur sin <klr>(sin &scirc;ar&gcirc;i per; respondi pri)</klr>;
-      </ekz><ekz>
-        <uzo tip="stl">FIG</uzo>
-        tio &ccirc;i estis feino, kiu <tld/>is sur sin la formon de malri&ccirc;a
-        vila&gcirc;a virino
-        <fnt><bib>F</bib>, <lok>&FE; 15</lok></fnt>;
-      </ekz><ekz>
-        <uzo tip="stl">FIG</uzo>
-        kiu instruas blasfemanton, tiu <tld/>as sur sin
-        malhonoron
-        <fnt><bib>MT</bib>, <lok>&Sen; 9:7</lok></fnt>;
-      </ekz><ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>i sur sin la tutan taskon, la respondecon.
       </ekz>
-    </dif>
-    <trd lng="de">nehmen</trd>
+      <ekz>
+        la princino <tld/>is la ranon per du fingroj, portis &gcirc;in supren
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Re&gcirc;o rano a&ubreve; fera Henriko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi perdis tiujn &ccirc;i du fingrojn, kies perdo ne 
+        lasas min <tld/>i plumon en la manon
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Nikolao <nom>Petrovi&ccirc;</nom> kondukis &scirc;in al la 
+        fenestro kaj <tld/>is &scirc;ian kapon per amba&ubreve; manoj
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malgranda knabino <tld/>is lin je la kolo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <tld/>is unu la alian je la manoj, ekdancis 
+        iun varianton de &leftquot;fokstroto&rightquot;
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz><ekz>
+        <klr>[li]</klr> <tld/>is la leteron el la manoj de la senditoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 19:14</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i sian mantelon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 24:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>is la infanon sur la brakojn kaj sidigis &gcirc;in sur siaj genuoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> <tld/>is la infanon sur siaj genuoj
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz><ekz>
+        la sakon kun mono li <tld/>is kun si
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 7:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kio mem ne venas, li per la dentoj &gcirc;in <tld/>as
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>    
     <trdgrp lng="hu">
       <trd>fog</trd>,
       <trd>vesz</trd>
-    </trdgrp>
+    </trdgrp>    
   </snc>
   <snc mrk="pren.0i.perforte">
     <dif>
-      Perforte ekokupi, ekposedi:
+      Perforte ek<ref tip="sin" cel="okup.0i">okupi</ref>, 
+      <ref tip="sin" cel="posed.ek0i">ekposedi</ref>:
       <ekz>
-        <tld/>i sie&gcirc;atan urbon<fnt>B</fnt>;
+        <klr>[ili]</klr> sie&gcirc;os urbon, por militakiri &gcirc;in kaj <tld/>i &gcirc;in
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 20:19</lok>
+        </fnt>;
       </ekz><ekz>
-        komencu posed<tld/>i lian landon<fnt>Z</fnt>;
+        komencu posed<tld/>i lian landon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 2:31</lok>
+        </fnt>;
       </ekz><ekz>
-        venko<tld/>i urbon<fnt>Z</fnt>;
+        venko<tld/>i urbon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ii. kroniko 32:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Eternulo donis, kaj la Eternulo <tld/>is <klr>(re<tld/>is)</klr>, 
+        la nomo de la Eternulo estu benata
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 1:21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ja <tld/>os vian lita&jcirc;on de sub vi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 22:27</lok>
+        </fnt>;
       </ekz><ekz>
-        la Eternulo donis kaj la Eternulo <tld/>is (re<tld/>is), lia
-        nomo
-        estu benata<fnt>Z</fnt>;
-      </ekz><ekz>
-        oni <tld/>os vian lita&jcirc;on de sub vi<fnt>Z</fnt>;
-      </ekz><ekz>
-        savu tiujn, kiujn oni <tld/>is por mortigi<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i sian lokon
+        savu tiujn, kiujn oni <tld/>is por mortigi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 24:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Robinson</nom> penis <tld/>i sian &leftquot;malnovan&rightquot; lokon &ccirc;e &scirc;ia flanko
+        <fnt>
+          <bib>TAA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is sian lokon inter tiuj, kiuj <ref cel="part.0opreni.preni">partopreni<sncref/></ref>s 
+        la ferdek-ludojn, sed ne havis grandan sukceson
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -99,42 +166,110 @@
   </snc>
   <snc mrk="pren.0i.havigi">
     <dif>
-      Havigi al si; provizi sin per io; uzi ion:
+      <ref tip="super" cel="hav.0igi">Havigi</ref> al si; 
+      <ref cel="proviz.0i.havigi">provizi<sncref/></ref> sin per io; 
+      <ref cel="uz.0i">uzi</ref> ion:
       <ekz>
         <tld/>u mem akvon, se vi volas trinki
         <fnt><bib>F</bib>, <lok>&FE; 19</lok></fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is al si edzinon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 12:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> lu<tld/>is apartamenton
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni enkondukis nin, por <klr>[&#8230;]</klr> <tld/>i nin kiel sklavojn kune kun niaj
+        azenoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 43:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i banon
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i kafeton en la aviadilo
+        <fnt>
+          <bib>MD11</bib>
+        </fnt>;
       </ekz><ekz>
-        <tld/>i al si edzinon<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i apartamenton;
-      </ekz><ekz>
-        <tld/>i iun kiel sian sklavon<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i teon, kafon, banon<fnt>B</fnt>;
-      </ekz><ekz>
-        oni <tld/>as ordinare la simplajn radikojn<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i biletojn en la teatro;
-      </ekz><ekz>
-        <tld/>i <klr>(lui)</klr> dro&scirc;kon<fnt>Z</fnt>;
-      </ekz><ekz>
-        ek<tld/>i la vojon al iu loko;
-      </ekz><ekz>
-        <tld/>i de iu garantia&jcirc;on<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i troprofiton de iu<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i indiferentan, indecan mienon<fnt>Z</fnt>;
-      </ekz><ekz>
-        mi <tld/>as al mi la liberecon atentigi vin pri tio;
-      </ekz><ekz>
-        <tld/>i iun formon<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i grandan amplekson;
-      </ekz><ekz>
-        <tld/>i konsilon de iu.
+        oni <tld/>as ordinare la purajn radikojn
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej bone estos, se mi <tld/>os dro&scirc;kon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        mi devis <tld/>i buson por veturi &gcirc;is la hejmo
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <klr>[&#8230;]</klr> per rapidaj pa&scirc;oj <tld/>is la vojon al Grandtorento
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iru en lian domon, por <tld/>i de li garantia&jcirc;on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 24:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se iu estas virta <klr>[&#8230;li]</klr> ne <tld/>as troprofiton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 18:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Mentezufis</nom> <tld/>is indiferentan mienon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgrandaj knaboj dume <tld/>as al si la liberecon viziti siajn patrinojn en la
+        virina aparta&jcirc;o
+        <fnt>
+          <bib>RBa</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio &ccirc;i estis feino, kiu <tld/>is sur sin la formon de malri&ccirc;a
+        vila&gcirc;a virino
+        <fnt><bib>F</bib>, <lok>&FE; 15</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="akir.0i">akiri</ref>,
+      <ref cel="cxerp.0i.KOMUNE">&ccirc;erpi</ref>,
+      <ref cel="elekt.0i.KOMUNE">elekti</ref>
+    </refgrp>
     <trdgrp lng="hu">
       <trd>vesz<klr tip="ind"> (mag&aacute;nak)</klr></trd>,
       <trd>felvesz</trd>
@@ -142,25 +277,71 @@
   </snc>
   <snc mrk="pren.0i.akcepti">
     <dif>
-      Akcepti, ricevi:
+      <ref tip="sin" cel="akcept.0i.ricevi">Akcepti</ref>, 
+      <ref tip="sin" cel="ricev.0i">ricevi</ref>:
+      <ekz>
+        <tld/>u mian instruon, kaj ne ar&gcirc;enton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 8:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fajro ekstermos la tendojn de tiuj, kiuj <tld/>as
+        suba&ccirc;eton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 15:34</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi volas <tld/>i &ccirc;i tiun knabinon kun vi, en voja&gcirc;on
+        <klr>(akompanigi &scirc;in kun vi)</klr>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        <ind><tld/>i sur sin</ind> <klr>(sin &scirc;ar&gcirc;i per)</klr>
+        la klopodojn de voja&gcirc;o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+        <trd lng="de">auf sich <ind>nehmen</ind></trd>
+      </ekz><ekz>
+        kiu instruas blasfemanton, tiu <tld/>as sur sin
+        malhonoron
+        <fnt><bib>MT</bib>, <lok>&Sen; 9:7</lok></fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>is sur sin la taskon prepari kafon
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la elektitoj <klr>[&#8230;]</klr> komprenu la tutan respondecon, 
+        kiun ili <tld/>as sur sin
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington 
+          en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>;
+      </ekz>
       <ekz>
         oni <tld/>as avide, oni redonas malrapide
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        fajro ekstermos la tendojn de tiuj, kiuj <tld/>as
-        suba&ccirc;eton<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>u mian instruon<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i instruon en sian koron<fnt>Z</fnt>
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="pren.al0i">al<tld/>i</ref>;
+      <ref cel="pren.al0i">al<tld/>i</ref>
     </refgrp>
     <refgrp tip="vid">
       <ref cel="cxerp.0i">&ccirc;erpi</ref>
     </refgrp>
+    <trd lng="de">annehmen</trd>
     <trdgrp lng="hu">
       <trd>fogad<klr tip="ind"> (elfogad)</klr></trd>,
       <trd>elfogad</trd>
@@ -168,24 +349,43 @@
   </snc>
   <snc mrk="pren.0i.konsideri">
     <dif>
-      Iel rilati al iu a&ubreve; io; konsideri iun a&ubreve; ion de ia
-      vidpunkto:
+      Iel <ref cel="rilat.0i">rilati</ref> al iu a&ubreve; io; <ref tip="sin" cel="konsid.0i.taksi">konsideri</ref> 
+      iun a&ubreve; ion de ia vidpunkto:
       <ekz>
-        ekvidinte tiun simplecon, ili povas <tld/>i la aferon kun ia
-        malestima mal&scirc;ato<fnt>Z</fnt>;
+        tiaj personoj, ekvidinte la malgrandegan lernolibron <klr>[&#8230;]</klr>, povas
+        <tld/>i la aferon kun ia malestima mal&scirc;ato
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu <tld/>is tion serioze, e&ccirc; kiam elokventis la dika Julio
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
       </ekz><ekz>
-        neniu <tld/>is serioze tiun parolon<fnt>Z</fnt>;
-      </ekz><ekz>
-        mi <tld/>is vin por iu pli merita;
-      </ekz><ekz>
-        <tld/>i la dan&gcirc;eron por &scirc;erco<fnt>Z</fnt>;
-      </ekz><ekz>
-        mi <tld/>as vin kiel atestanton;
+        mi <tld/>is vin por iu pli merita
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi vin <tld/>as kiel atestantojn, ke &ccirc;i tiu virino blasfemas
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
       </ekz><ekz>
         Angeliko, kiun li <tld/>as por (intermiksas kun)
-        Kla&ubreve;dino<fnt>Z</fnt>.
+        Kla&ubreve;dino
+        <fnt>
+          <bib>GDn</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kompre.0i.havi_gxustan_ideon">kompreni</ref>
+    </refgrp>
     <trd lng="hu">vesz<klr tip="amb"> (v&eacute;l)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_r;&c_i;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol; <klr>(&c_z;&c_a; &c_k;&c_o;&c_g;&c_o;-&c_l;.)</klr></trd>,
@@ -193,13 +393,13 @@
     </trdgrp>
   </snc>
   <trd lng="af">neem</trd>
-  <trd lng="am">&#x12CD;&#x1230;&#x12F5;</trd>
-  <trd lng="ar">&#x623;&#x62E;&#x630;</trd>
+  <trd lng="am">&#4813;&#4656;&#4853;</trd>
+  <trd lng="ar">&a_A_hamza_sure;&a_kh;&a_dh;</trd>
   <trd lng="az">almaq</trd>
-  <trd lng="bn">&#x997;&#x9CD;&#x9B0;&#x9B9;&#x9A3; &#x995;&#x9B0;&#x9BE;</trd>
-  <trd lng="bo">&#xF5F;&#xF72;&#xF53;&#xF0B;</trd>
+  <trd lng="bn">&#2455;&#2509;&#2480;&#2489;&#2467; &#2453;&#2480;&#2494;</trd>
+  <trd lng="bo">&t_za;&t_gigu;&t_na;&t_tsheg;</trd>
   <trd lng="bs">uzeti</trd>
-  <trd lng="co">pigli&#xE0;</trd>
+  <trd lng="co">pigli&agrave;</trd>
   <trdgrp lng="cs">
     <trd>br&aacute;t</trd>,
     <trd>dob&yacute;t</trd>,
@@ -209,42 +409,62 @@
     <trd>zabrat</trd>,
     <trd>zaujmout</trd>
   </trdgrp>
+  <trd lng="cy">cymryd</trd>
   <trd lng="da">tage</trd>
+  <trd lng="de">nehmen</trd>
   <trd lng="en">take</trd>
   <trdgrp lng="es">
     <trd>coger<klr tip="amb"> (con la mano)</klr></trd>,
     <trd>tomar</trd>,
     <trd>prender</trd>
   </trdgrp>
-  <trd lng="et">v&#xF5;tta</trd>
+  <trd lng="et">v&otilde;tta</trd>
   <trd lng="eu">hartu</trd>
   <trdgrp lng="fr">
     <trd>prendre</trd>
   </trdgrp>
   <trd lng="fy">nimme</trd>
+  <trd lng="ga">ghlacadh</trd>
+  <trd lng="gd">ghabhail</trd>
   <trd lng="gl">tomar</trd>
-  <trd lng="gu">&#xAB2;&#xACB;</trd>
+  <trd lng="gu">&#2738;&#2763;</trd>
   <trd lng="ha">kai</trd>
-  <trd lng="hi">&#x932;&#x947;&#x928;&#x93E;</trd>
+  <trd lng="hi">&#2354;&#2375;&#2344;&#2366;</trd>
+  <trd lng="hmn">noj</trd>
   <trd lng="hr">potrajati</trd>
-  <trd lng="hy">&#x57E;&#x565;&#x580;&#x581;&#x576;&#x565;&#x56C;</trd>
+  <trd lng="ht">pran</trd>
+  <trd lng="hy">&#1406;&#1381;&#1408;&#1409;&#1398;&#1381;&#1388;</trd>
+  <trd lng="ig">nara</trd>
   <trd lng="is">taka</trd>
-  <trd lng="ja">&#x53D6;&#x308B;</trd>
-  <trd lng="jw">njupuk</trd>
-  <trd lng="ka">&#x10DB;&#x10D8;&#x10D8;&#x10E6;&#x10DD;&#x10E1;</trd>
-  <trd lng="km">&#x1799;&#x1780;</trd>
-  <trd lng="ko">&#xC18C;&#xC694;</trd>
-  <trd lng="lo">&#xEC3;&#xE8A;&#xEC9;&#xEC0;&#xEA7;&#xEA5;&#xEB2;</trd>
-  <trd lng="ml">&#xD0E;&#xD1F;&#xD41;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
-  <trd lng="mr">&#x918;&#x94D;&#x92F;&#x93E;</trd>
-  <trd lng="my">&#x101A;&#x1030;</trd>
-  <trd lng="ne">&#x932;&#x947;</trd>
+  <trd lng="ja">&#21462;&#12427;</trd>
+  <trd lng="jv">njupuk</trd>
+  <trd lng="ka">&#4315;&#4312;&#4312;&#4326;&#4317;&#4321;</trd>
+  <trd lng="kk">&#1179;&c_a;&c_b;&c_y;&c_l;&c_d;&c_a;&c_u;</trd>
+  <trd lng="km">&#6041;&#6016;</trd>
+  <trd lng="kn">&#3236;&#3270;&#3223;&#3270;&#3238;&#3265;&#3221;&#3274;&#3251;&#3277;&#3251;&#3250;&#3265;</trd>
+  <trd lng="ko">&#49548;&#50836;</trd>
+  <trd lng="ku">wergirtin</trd>
+  <trd lng="ky">&c_k;&c_a;&c_b;&c_y;&c_l; &c_a;&c_l;&c_u;&c_u;</trd>
+  <trd lng="lat">accipe</trd>
+  <trd lng="lo">&#3779;&#3722;&#3785;&#3776;&#3751;&#3749;&#3762;</trd>
+  <trd lng="lt">imti</trd>
+  <trd lng="lv">&ncommaaccent;emt</trd>
+  <trd lng="mg">handray</trd>
+  <trd lng="mi">tango</trd>
+  <trd lng="mk">&c_s;&c_je;</trd>
+  <trd lng="ml">&#3342;&#3359;&#3393;&#3349;&#3405;&#3349;&#3393;&#3349;</trd>
+  <trd lng="mn">&c_b;&c_a;&c_r;&c_i;&c_h;</trd>
+  <trd lng="mr">&#2328;&#2381;&#2351;&#2366;</trd>
+  <trd lng="ms">mengambil</trd>
+  <trd lng="mt">tie&#295;u</trd>
+  <trd lng="my">&#4122;&#4144;</trd>
+  <trd lng="ne">&#2354;&#2375;</trd>
   <trdgrp lng="nl">
     <trd>nemen</trd>,
     <trd>pakken</trd>
   </trdgrp>
   <trd lng="ny">kutenga</trd>
-  <trd lng="pa">&#xA32;&#xA48;</trd>
+  <trd lng="pa">&#2610;&#2632;</trd>
   <trdgrp lng="pl">
     <trd>bra&cacute;</trd>,
     <trd>ima&cacute; <klr> (bra&cacute;)</klr></trd>,
@@ -253,7 +473,7 @@
     <trd>wzi&aogonek;&cacute;</trd>,
     <trd>zabiera&cacute;</trd>
   </trdgrp>
-  <trd lng="ps">&#x648;&#x627;&#x62E;&#x644;&#x64A;</trd>
+  <trd lng="ps">&a_w;&a_A;&a_kh;&a_l;&a_y;</trd>
   <trdgrp lng="pt">
     <trd>pegar</trd>,
     <trd>tomar</trd>,
@@ -267,36 +487,90 @@
     <trd>&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_z;&c_ja;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x648;&#x67A;&#x64A;</trd>
-  <trd lng="si">&#xD9C;&#xDAD;</trd>
+  <trd lng="rw">fata</trd>
+  <trd lng="sd">&a_w;&#1658;&a_y;</trd>
+  <trd lng="si">&#3484;&#3501;</trd>
   <trdgrp lng="sk">
     <trd>doby&tcaron;</trd>,
     <trd>vzia&tcaron; si ako koris&tcaron;</trd>
   </trdgrp>
-  <trd lng="sq">marr&#xEB;</trd>
+  <trd lng="sl">sprejmejo</trd>
+  <trd lng="sm">tago</trd>
+  <trd lng="sn">tora</trd>
+  <trd lng="so">qaadato</trd>
+  <trd lng="sq">marr&euml;</trd>
   <trd lng="st">nka</trd>
-  <trd lng="ta">&#xB8E;&#xB9F;&#xBC1;&#xBA4;&#xBCD;&#xBA4;&#xBC1;</trd>
-  <trd lng="te">&#xC2A;&#xC21;&#xC41;&#xC24;&#xC41;&#xC02;&#xC26;&#xC3F;</trd>
-  <trd lng="th">&#xE43;&#xE0A;&#xE49;&#xE40;&#xE27;&#xE25;&#xE32;</trd>
+  <trd lng="su">nyokot</trd>
+  <trd lng="sw">kuchukua</trd>
+  <trd lng="ta">&#2958;&#2975;&#3009;&#2980;&#3021;&#2980;&#3009;</trd>
+  <trd lng="te">&#3114;&#3105;&#3137;&#3108;&#3137;&#3074;&#3110;&#3135;</trd>
+  <trd lng="tg">&c_m;&c_je;&c_g;&c_i;&c_r;&c_a;&c_d;</trd>
+  <trdgrp lng="th">
+    <trd>&#3627;&#3618;&#3636;&#3610;</trd>,
+    <trd>&#3648;&#3629;&#3634;</trd>,
+    <trd>&#3648;&#3629;&#3634;&#3652;&#3611;</trd>
+  </trdgrp>
   <trd lng="tl">kumuha</trd>
-  <trd lng="tp">jo</trd>
-  <trd lng="ur">&#x644;&#x6D2;</trd>
-  <trd lng="vi">c&#xF3;</trd>
-  <trd lng="yi">&#x5E0;&#x5E2;&#x5DE;&#x5E2;&#x5DF;</trd>
+  <trd lng="tok">jo</trd>
+  <trd lng="tt">&c_a;&c_l;&c_y;&c_g;&c_y;&c_z;</trd>
+  <trd lng="uk">&c_p;&c_r;&c_i;&c_j;&c_m;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_l;&#1746;</trd>
+  <trd lng="uz">olmoq</trd>
+  <trd lng="vi">c&oacute;</trd>
+  <trd lng="xh">thabatha</trd>
+  <trd lng="yi">&nun;&ayin;&mem;&ayin;&fnun;</trd>
+  <trd lng="yo">ya</trd>
   <trd lng="zu">kuthathe</trd>
 </drv>
 
 <drv mrk="pren.0o">
   <kap><ofc>*</ofc><tld/>o <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5169">pren'o</url></lok></fnt></kap>
+  <url ref="&AdE;/fundamento/universala_vortaro.html#av-5169">pren'o</url></lok></fnt></kap>
   <snc mrk="pren.0o.ago">
     <dif>
       Ago <tld/>i:
       <ekz>
-        la <tld/>o de la urbo.
+        de la famo pri la <tld/>o de <nom>Babel</nom> ektremos la tero
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 50:46</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la grizan katinon <klr>[&#8230;]</klr> li kelkafoje trenis <klr>[&#8230;]</klr> je la vosto,
+        portis &gcirc;in per <tld/>o &ccirc;irka&ubreve; la ventro kvaza&ubreve; <klr>[&#8230;]</klr> paka&jcirc;o
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post <tld/>o de la refre&scirc;iga&jcirc;oj la vizitantoj <klr>[&#8230;]</klr> eniris
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i malmole ek<tld/>is lian nukon kaj arde premis lin al si, kiam &scirc;ia <tld/>o
+        inerti&gcirc;is, li levi&gcirc;is
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekvilibro el dono kaj <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2014/011306.php">De bretoj al &scirc;rankoj</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="hu">megv&eacute;tel<klr tip="ind"> (elfoglal&aacute;s)</klr></trd>
+    <trdgrp lng="de">
+      <trd>Nehmen</trd>,
+      <trd>Einnahme</trd>,
+      <trd>Griff</trd>
+    </trdgrp><trd lng="hu">megv&eacute;tel<klr tip="ind"> (elfoglal&aacute;s)</klr></trd>
     <trd lng="pl">wzi&eogonek;cie</trd>
     <trd lng="ru">&c_v;&c_z;&c_ja;&c_t;&c_i;&c_je;</trd>
   </snc>
@@ -304,9 +578,43 @@
     <dif>
       Io <tld/>ita:
       <ekz>
-        <tld/>eto da tabako.
+        <tld/>eto <klr>(<ref tip="sub" cel="pincx.0ajxo">pin&ccirc;a&jcirc;o</ref>)</klr> 
+        da flartabako
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>eto</ind> da tabako;
+        <trd lng="de">Prise</trd>
+      </ekz>
+      <ekz>
+        ili enfermis grandan amason da fi&scirc;oj, kaj iliaj retoj ekrompi&gcirc;is <klr>[&#8230;]</klr>
+        pro la <tld/>o de fi&scirc;oj, kiun ili akiris, miro kaptis lin
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 5:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lan&ccirc;into, surprize por &ccirc;iuj, maltrafis <klr>[&#8230;]</klr> &ndash; perdita <tld/>o! &ndash;
+        blekegis la kato
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">SPO</uzo>
+        pro <ind>karta <tld/>o</ind> perdi&gcirc;is bieno
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+        <trd lng="de">Stich <klr>(Kartenspiel)</klr></trd>
+        <trd lng="en">trick <klr>(cards)</klr></trd>
       </ekz>
     </dif>
+    <trd lng="de">Fang</trd>
     <trd lng="hu">csipet</trd>
     <trd lng="pl">bitka <klr> (wzi&aogonek;tka)</klr></trd>
   </snc>
@@ -332,22 +640,99 @@
     <trd>vzatie</trd>,
     <trd>zmocnenie sa</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_u;&c_z;&c_ja;&c_t;&c_t;&c_ja;</trd>,
+    <trd>&c_u;&c_z;&c_ja;&c_t;&c_je; (&c_u; &c_z;&c_n;&c_a;&c_ch;. &c_ib;&c_m;.)</trd>,
+    <trd>&c_v;&c_z;&c_ja;&c_t;&c_k;&c_a; (&c_u; &c_k;&c_a;&c_r;&c_t;&c_a;&c_h;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pren.0ilo">
   <kap><ofc>*</ofc><tld/>ilo <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5170">pren'il'</url></lok></fnt></kap>
+  <url ref="&AdE;/fundamento/universala_vortaro.html#av-5170">pren'il'</url></lok></fnt></kap>
   <snc>
     <dif>
-    Instrumento, kun du artikigitaj bran&ccirc;oj, uzata por diversaj celoj,
-    i.a. por eltiri najlojn 
+      <ref tip="super" cel="instru2.0o">Instrumento</ref>, kun du artikigitaj 
+      bran&ccirc;oj, uzata por diversaj celoj, i.a. por eltiri najlojn:
+      <ekz>
+        starigu <klr>[&#8230;]</klr> lucernojn, <klr>[&#8230;]</klr> &gcirc;iaj <tld/>iloj 
+        <klr>(me&ccirc;<ref cel="tond.0ilo">tondilo</ref>j)</klr> kaj cindrujoj estu el pura oro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 25:38</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la mano ardantan karbon, kiun li per <tld/>ilo <klr>(vd 
+        <ref tip="super" cel="pren.fajro0ilo">fajro<tld/>ilo</ref>)</klr>
+        prenis de la altaro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 6:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i malfermis la trian <klr>[skatolon k]</klr>iu enhavis tutan ilaron de
+        kolektisto, pinglojn, <tld/>ilojn, kartonojn, korkoligna&jcirc;ojn kaj &ccirc;iuspecajn
+        pulvorojn
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        forfortika junulo per <tld/>iloj kaptas radringon, kiu staris por varmigo en la
+        fajro
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        preninte en sia po&scirc;o malgrandan prenilon, <klr>[&#8230;]</klr> li eltiris delikate la
+        najletojn
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        strangforma ponardo, havanta lignan <tld/>ilon 
+        <klr>(<ref cel="ten.0ilo.enmana">tenilo</ref>n)</klr> 
+        kaj tran&ccirc;anton ondolinian
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>pin&ccirc;<tld/>ilo</ind>.
+        <trd lng="de">Kneifzange</trd>
+        <trdgrp lng="es">
+          <trd>alicates<klr tip="amb"> (herramienta)</klr></trd>
+        </trdgrp>
+        <trd lng="fr">pince<klr tip="amb"> (outil)</klr></trd>
+        <trd lng="hu">fog&oacute;</trd>
+        <trdgrp lng="nl">
+          <trd>tang</trd>,
+          <trd>nijptang</trd>
+        </trdgrp>
+        <trd lng="pl">obc&eogonek;gi</trd>
+        <trdgrp lng="ro">
+          <trd>penset&abreve;</trd>,
+          <trd>cle&scedil;te</trd>
+        </trdgrp>
+        <trdgrp lng="ru">
+          <trd>&c_k;&c_l;&c_je;&c_shch;&c_i;</trd>,
+          <trd>&c_shch;&c_i;&c_p;&c_c;&c_y;</trd>
+        </trdgrp>
+      </ekz>
     </dif>
     <refgrp tip="prt">
-      <ref cel="pren.pincx0ilo">pin&ccirc;prenilo</ref>,
-      <ref cel="tenajl.0o">tenajlo</ref>; 
+      <ref cel="tenajl.0o">tenajlo</ref>
     </refgrp>
     <ref tip="vid" cel="pincx.0ilo">pin&ccirc;ilo (de krustuloj)</ref>
   </snc>
+  <trdgrp lng="de">
+    <trd>Zange</trd>,
+    <trd>Greifer</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>c&aogonek;&zdot;ki</trd>,
     <trd>c&eogonek;gi</trd>,
@@ -355,13 +740,81 @@
     <trd>szczypce</trd>,
     <trd>uchwyt</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_k;&c_l;&c_ib;&c_shch;&c_ib;</trd>,
+    <trd>&c_p;&c_ib;&c_n;&c_c;&c_je;&c_t; &c_ib; &c_t;.&c_p;.</trd>
+  </trdgrp>
 </drv>
   
 <drv mrk="pren.al0i">
   <kap>al<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
-    <ref tip="dif" cel="pren.0i.akcepti">preni <sncref/></ref>
+    <dif>
+      <ref tip="dif" cel="pren.0i.akcepti">Preni<sncref/></ref>:
+      <ekz>
+        ju la kritikoj de mia lingvo estas pli severaj, des pli danke mi ilin
+        al<tld/>as, se ili nur havas la celon montri al mi la erarojn
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Akvila</nom> kaj <nom>Priskila</nom>, a&ubreve;dinte lin, al<tld/>is lin al si, kaj klarigis
+        al li pli
+        precize la vojon de Dio
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 18:26</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu al<tld/>as al si tiun honoron krom la vokato de Dio
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 5:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        klarigu, kial li al<tld/>is korupta&jcirc;ojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
+        li al<tld/>is aspekton de malfortika maljunulo, laca pro longa voja&gcirc;o
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia malgrasa viza&gcirc;o al<tld/>is e&ccirc; pli malmolan aspekton ol ordinare
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sablo al<tld/>is fajran koloron kaj en tiuj briloj <klr>[&#8230;]</klr> estis io
+        timiga
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni ne al<tld/>is decidon sen anta&ubreve;e konsulti&gcirc;i
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi penis konservi la&ubreve;eble la formon de la frazoj kaj okazis, ke ne &ccirc;iam mi
+        al<tld/>us saman se mi verkus originale
+        <fnt>
+          <bib>Kandid</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">annehmen</trd>
     <trd lng="hu">mag&aacute;hoz vesz</trd>
   </snc>
   <snc mrk="pren.al0i.MAT">
@@ -398,11 +851,16 @@
   </snc>
   <trd lng="cs">p&rcaron;ibrat</trd>
   <trd lng="sk">pribra&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_b;&c_r;&c_a;&c_t;&c_i;/&c_u;&c_z;&c_ja;&c_t;&c_i; &c_d;&c_o;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_o;</trd>,
+    <trd>&c_d;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_j;&c_m;&c_a;&c_t;&c_i; (&c_p;&c_r;&c_o;&c_p;&c_o;&c_z;&c_i;&c_c;&c_ib;&c_ju; &c_ib; &c_t;.&c_p;.)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pren.cxirkaux0i">
-  <kap><ofc>*</ofc> &ccirc;irka&ubreve;<tld/>i <fnt><bib>F</bib>, <lok>Universala
-  Vortaro, <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-4997">&ccirc;irka&ubreve;'pren'</url></lok></fnt></kap>
+  <kap><ofc>*</ofc>&ccirc;irka&ubreve;<tld/>i <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url ref="&AdE;/fundamento/universala_vortaro.html#av-4997">&ccirc;irka&ubreve;'pren'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
@@ -411,7 +869,7 @@
       <ekz>
         ame &ccirc;irka&ubreve;<tld/>i iun;
       </ekz><ekz>
-        Esav kuris al <klr>[Jakob]</klr> renkonte kaj
+        <nom>Esav</nom> kuris al <klr>[<nom>Jakob</nom>]</klr> renkonte kaj
         &ccirc;irka&ubreve;<tld/>is lin, kaj &jcirc;etis sin sur
         lian kolon kaj kisis lin
         <fnt><bib>MT</bib><lok>&Gen; 33:4</lok></fnt>;
@@ -443,7 +901,7 @@
     <trd>&c_a;&c_h;&c_a;&c_p;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_b;&c_n;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF50;&#xF58;&#xF0B;&#xF60;&#xF41;&#xFB1;&#xF74;&#xF51;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&t_tha;&t_ma;&t_tsheg;&t_-a;&t_kha;&t_yata;&t_shabchu;&t_da;&t_tsheg;&t_ba;&t_yata;&t_drengbu;&t_da;&t_tsheg;</trd>
   <trd lng="de">umarmen</trd>
   <trdgrp lng="es">
     <trd>abrazar<klr tip="ind"> (rodear con las manos o los
@@ -466,10 +924,14 @@
     <trd>ogarn&aogonek;&cacute;</trd>
   </trdgrp> 
   <trd lng="pt">abra&ccedil;ar</trd>
-  <trd lng="ro">&icirc;mbr&abreve;&#x21B;i&#x219;a</trd>
+  <trd lng="ro">&icirc;mbr&abreve;&#539;i&#537;a</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_h;&c_v;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_b;&c_n;&c_ja;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_o;&c_b;&c_ib;&c_j;&c_m;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_o;&c_b;&c_n;&c_ib;&c_m;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -478,11 +940,76 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pren.de0i.KOMUNE">
     <dif>
-      <tld lit="P"/>i ion de iu:
+      <tld lit="P"/>i ion de iu a&ubreve; io:
       <ekz>
-        la gardistoj de<tld/>is de mi la kovrotukon<fnt>Z</fnt>.
+        rapide &scirc;i de<tld/>is sian kru&ccirc;on de la &scirc;ultro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 24:46</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili de<tld/>is de li lian veston
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 37:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Faraono de<tld/>os de vi vian kapon kaj pendigos vin sur arbo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 40:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Faraono de<tld/>is sian ringon de sia mano
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 41:42</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de<tld/>u viajn &scirc;uojn de viaj piedoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 3:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el via laboro nenio estos de<tld/>ata
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 5:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &ccirc;i lernado estas tiel malfacila kaj tempon de<tld/>anta
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi nun de<tld/>as de mi tutan a&ubreve;toritaton
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia sinjoro de<tld/>as de mi la administradon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 16:3</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="met.de0i">demeti</ref>,
+      <ref cel="tir.de0i.forigi0ante">detiri</ref>,
+      <ref cel="for.0igi">forigi</ref>,
+      <ref cel="subtra.0i">subtrahi</ref>
+    </refgrp>
+    <trd lng="th">&#3648;&#3629;&#3634;&#3617;&#3634;&#3592;&#3634;&#3585;</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>odebrat</trd>,
@@ -496,7 +1023,10 @@
     <trd>ubrat</trd>,
     <trd>ujmout</trd>
   </trdgrp>
-  <trdgrp lng="es">
+  <trdgrp lng="de">
+    <trd>abnehmen</trd>,
+    <trd>ablegen</trd>
+  </trdgrp><trdgrp lng="es">
     <trd>quitar</trd>
   </trdgrp>
   <trd lng="fr">enlever</trd>
@@ -524,7 +1054,97 @@
     <trd>s&ncaron;a&tcaron;</trd>,
     <trd>vzia&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_ib;&c_d;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_n;&c_ib;&c_m;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_n;&c_ib;&c_m;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="pren.el0i">
+  <kap>
+    el<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="P"/>i el io:
+      <ekz>
+        kiam li el<tld/>is &gcirc;in, jen lia mano estis leprokovrita
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 4:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li el<tld/>is du denarojn kaj donis ilin al la gastejestro
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 10:35</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la servistino el<tld/>is la cindron el la forno
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Persista stana soldato</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ju&gcirc;antaro el<tld/>is la kapojn el sub la benkoj
+        <fnt>
+          <bib>KrM</bib>
+          <lok>13. Son&gcirc;o Teruras, Son&gcirc;o Forkuras.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> vendis spilon <klr>[por]</klr> el<tld/>i la sukon el melono
+        <fnt>
+          <bib>KrM</bib>
+          <lok>27. Dekstra Mano Ne Sciu Kion Faras La Maldekstra.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        suna vento el<tld/>as el la atmosfero po &ccirc;irka&ubreve; 100 gramojn en sekundo
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el<tld/>i la monon de mia konto
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Cifereca mono:</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiun konkludon oni el<tld/>is el la tiu sperto
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Intervjuo</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+    <ref cel="ekstra.0i">ekstrakti</ref>,
+      <ref cel="met.el0i.prezenti">elmeti<sncref/></ref>,
+      <ref cel="tir.el0i">eltiri</ref>,
+      <ref cel="plen.mal0igi">malplenigi</ref>,
+      <ref cel="prezen1.0i.proponi">prezenti<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">entnehmen</trd>
+  <trd lng="en">take out</trd>
+</drv>
+
+
+
+
+
+
+
+
 
 <drv mrk="pren.for0i">
   <kap>for<tld/>i</kap>
@@ -533,21 +1153,104 @@
     <dif>
       <tld lit="P"/>i kaj forigi ion, senigante iun je &gcirc;i:
       <ekz>
-        ne povi for<tld/>i la okulojn for de iu<fnt>Z</fnt>
-        (<ref tip="vid" cel="katen.0i">kateni</ref>);
-      </ekz><ekz>
-        for<tld/>i de iu la panon per grandaj impostoj<fnt>Z</fnt>;
-      </ekz><ekz>
-        vi for<tld/>as de maljunuloj la prudenton<fnt>Z</fnt>;
-      </ekz><ekz>
-        mi ne volas for<tld/>i vian tempon<fnt>Z</fnt>
-        (<ref tip="sin" cel="konsum.0i">konsumi</ref>);
-      </ekz><ekz>
-        for<tld/>i la vivon de iu<fnt>Z</fnt>;
-      </ekz><ekz>
-        for<tld/>i ion al iu<fnt>Z</fnt>.
+        <nom>Abram</nom> for<tld/>is sian tendon, kaj iris
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 13:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Jakob</nom> for<tld/>is la tutan havon de nia patro, kaj el <klr>[tio]</klr> akiris la
+        tutan ri&ccirc;econ.
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 31:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ia espero pri nia savo estis for<tld/>ita
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 27:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Ale&ccirc;jo <klr>[&#8230;]</klr> ne for<tld/>is la okulojn for de <nom>Marta</nom>
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi premas senhavulon kaj for<tld/>as de li la panon per grandaj impostoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Amos 5:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> for<tld/>as de maljunuloj la prudenton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 12:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        for<tld/>u de mi la vivon, &ccirc;ar vi jam de mi for<tld/>is la honoron
+        <fnt>
+          <bib>DKM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pla&ccirc;a venteto for<tld/>is la troon da varmo
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi for<tld/>is miajn &scirc;uojn por ne brui
+        <fnt>
+          <bib>ChB</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jano for<tld/>is de sur se&gcirc;o stakon da libroj
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kofreto malfermi&gcirc;as facile, kaj mi for<tld/>is kelkajn aferojn el &gcirc;i
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i haltis por for<tld/>i &scirc;toneton el la &scirc;uo
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Zamenhof</nom> deziris nur ian la&ubreve;le&gcirc;econ, kiu for<tld/>us de li la &ccirc;iam pli preman
+        respondecon
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Dio donis kaj benis, sed diablo for<tld/>is
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="pren.de0i">depreni</ref>,
+      <ref cel="evikci.0i">evikcii</ref>,
+      <ref cel="rab.0i">rabi</ref>,
+      <ref cel="sxtel.0i">&scirc;teli</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>odebrat</trd>,
@@ -558,7 +1261,8 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>wegnehmen</trd>,
-    <trd>entziehen</trd>
+    <trd>entziehen</trd>,
+    <trd>fortnehmen</trd>
   </trdgrp>
   <trd lng="es">quitar y eliminar</trd>
   <trd lng="fr">emporter</trd>
@@ -581,6 +1285,7 @@
     <trd>odobra&tcaron;</trd>,
     <trd>zbavi&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&c_z;&c_a;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="pren.kun0i">
@@ -588,10 +1293,45 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pren.kun0i.KOMUNE">
     <dif>
-      Ironte <tld/>i kun si.
+      Ironte <tld/>i kun si:
+      <ekz>
+        kun<tld/>u vian patron kaj venu
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 45:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la keston tie en la angulo vi devas kun<tld/>i kun vi, mi ne volas teni &gcirc;in en
+        mia domo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam ni finos la laboron, ni revenos kaj kun<tld/>os vin
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ha&ccirc;jo kaj Grenjo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili iros arbaron, kun<tld/>os man&gcirc;a&jcirc;on en korboj, amuzi&gcirc;os tre bone
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi kun<tld/>is nur malmulte da mono kun mi
+        <fnt>
+          <bib>Rob</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="cs">vz&iacute;t sebou</trd>
+  <trd lng="de">mitnehmen</trd>
   <trd lng="es"><ind>tomar</ind> con alguien</trd>
   <trd lng="fr">emporter</trd>
   <trd lng="hu">mag&aacute;val <ind>visz</ind></trd>
@@ -600,18 +1340,416 @@
   <trd lng="ro">ia <klr> (cu tine)</klr></trd>
   <trd lng="ru">&c_v;&c_z;&c_ja;&c_t;&c_mol; &c_s; &c_s;&c_o;&c_b;&c_o;&c_j;</trd>
   <trd lng="sk">vzia&tcaron; zo sebou</trd>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_r;&c_i;&c_h;&c_o;&c_p;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_b;&c_r;&c_a;&c_t;&c_i;/&c_u;&c_z;&c_ja;&c_t;&c_i; &c_z; &c_s;&c_o;&c_b;&c_o;&c_ju;</trd>
+  </trdgrp>
+</drv>
+
+
+
+<drv mrk="pren.nefor0ebla">
+  <kap>nefor<tld/>ebla</kap>
+  <snc mrk="pren.nefor0ebla.KOMUNE">
+    <dif>
+      Kiu ne povas esti for<tld/>ita a&ubreve; transdonita:
+      <ekz>
+        li sciis bone <klr>[&#8230;]</klr> ke tia realigo estas lia
+        nefor<tld/>ebla rajto
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; la kristanoj, la prapeko estas nefor<tld/>ebla parto
+        de la homo;
+      </ekz>
+      <ekz>
+        ludoj estas nefor<tld/>ebla parto de homa vivo kaj lernado
+        <fnt><lok><url ref="http://www.interkulturo.net/ludoj/">Interkulturo</url></lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="esenc.0a">esenca</ref>,
+      <ref cel="hav.nemal0ebla">nemalhavebla</ref>,
+      <ref cel="nepr.0a">nepra</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>unver&auml;u&szlig;erlich</trd>,
+    <trd>immanent</trd>
+  </trdgrp><trdgrp lng="en">
+    <trd>imprescriptible</trd>,
+    <trd>inalienable<klr> (right)</klr></trd>,
+    <trd>integral<klr> (part)</klr></trd>
+  </trdgrp>
+  <trd lng="fr">inali&eacute;nable</trd>
+  <trdgrp lng="pl">
+    <trd>niezbywalny</trd>,
+    <trd>nieusuwalny</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>inalienabil</trd>,
+    <trd>inamovibil</trd>
+  </trdgrp> 
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_je;&c_o;&c_t;&c_malmol;&c_je;&c_m;&c_l;&c_je;&c_m;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_o;&c_t;&c_t;&c_o;&c_r;&c_zh;&c_i;&c_m;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_o;&c_t;&c_d;&c_je;&c_l;&c_i;&c_m;&c_y;&c_j;</trd>
+  </trdgrp>
+</drv>
+
+
+
+<drv mrk="pren.re0i">
+  <kap>re<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pren.re0i.KOMUNE">
+    <dif>
+      <tld lit="P"/>i al si ion, kion oni anta&ubreve;e donis a&ubreve; lasis:
+      <ekz>
+        vian babilon vi jam ne povos re<tld/>i
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 25:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ne povas re<tld/>i la faron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 11:35</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi re<tld/>os de li la komandon
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne re<tld/>u vian vorton
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i promesis la edzini&gcirc;on kaj poste re<tld/>is sian promeson
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i re<tld/>as sian liberecon kaj nin forlasas
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> maljunulo, falinte sur se&gcirc;on, iom post iom re<tld/>is sian
+        spiradon
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sub seruro promesojn tenu, sed doninte ne re<tld/>u
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        donacon re<tld/>u kaj mian vivon ne venenu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="th">
+      <trd>&#3648;&#3629;&#3634;&#3617;&#3634;&#3588;&#3639;&#3609;</trd>,
+      <trd>&#3648;&#3629;&#3634;&#3588;&#3639;&#3609;</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>odvolat</trd>,
+    <trd>vz&iacute;t zp&ecaron;t</trd>
+  </trdgrp>
+  <trd lng="de">zur&uuml;cknehmen</trd>
+  <trdgrp lng="es">
+    <trd>recoger</trd>
+  </trdgrp>
+  <trd lng="fr">reprendre</trd>
+  <trd lng="hu">visszavesz</trd>
+  <trd lng="nl">terugnemen</trd>
+  <trdgrp lng="pl">
+    <trd>odbiera&cacute;</trd>,
+    <trd>odebra&cacute;</trd>,
+    <trd>zabiera&cacute;<klr> (z powrotem)</klr></trd>
+  </trdgrp>
+  <trd lng="ro">ia <klr> (&icirc;napoi)</klr></trd>
+  <trd lng="ru">&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_mol; <klr tip="amb">(&c_s;&c_je;&c_b;&c_je;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>odvola&tcaron;</trd>,
+    <trd>vzia&tcaron; sp&auml;&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_ib;&c_d;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_b;&c_r;&c_a;&c_t;&c_i;/&c_u;&c_z;&c_ja;&c_t;&c_i; &c_n;&c_a;&c_z;&c_a;&c_d;</trd>,
+    <trd>&c_z;&c_n;&c_o;&c_v;&c_u; &c_b;&c_r;&c_a;&c_t;&c_i;/&c_u;&c_z;&c_ja;&c_t;&c_i;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pren.sur0i">
+  <kap>sur<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pren.0i.surmeti">
+    <dif>
+      <tld lit="P"/>i ion kaj <ref tip="sin" cel="met.sur0i">surmeti</ref>:
+      <ekz>
+        se &scirc;i sur<tld/>us sian mantelon, &scirc;i povus eliri rekte
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Johano sur<tld/>is sian banpantalonon
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i sur<tld/>as sian ru&gcirc;an superveston kaj foriras
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Hera</nom> estu prezentata kiel sur<tld/>inta la formon de pastrino kolektanta monon
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trdgrp lng="de">
+    <trd>anziehen</trd>,
+    <trd>anlegen <klr>(Kleidung)</klr></trd>
+  </trdgrp></snc>
+  <snc mrk="pren.sur0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="vid" cel="sxargx.0igxi.KOMUNE">&Scirc;ar&gcirc;i&gcirc;i</ref>,
+      <ref tip="vid" cel="task.0igxi.KOMUNE">taski&gcirc;i</ref>,
+      preni respondecon pri:
+      <ekz>
+        eble iuj el ili havas profesian sperton pri io, kaj povas sur<tld/>i plej
+        kapablo-postulajn taskojn
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la membroj ne plene pretas sur<tld/>i aktivajn respondecojn
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur<tld/>i la eldonadon kaj administradon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok> 1999, No 8-9 (58-59)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi e&ccirc; ne komprenas la laboron, kiun vi sur<tld/>is
+        <fnt>
+          <aut>-</aut>,
+          <vrk>&Gcirc;usta logiko</vrk>,
+          <lok>La Ondo de Esperanto, 2003:11 (109)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>auf sich <ind>nehmen</ind></trd>,
+      <trd>annehmen <klr>(Verantwortung)</klr></trd>
+    </trdgrp><trdgrp lng="fr">
+      <trd>se <ind>charger</ind><klr> (de)</klr></trd>,
+      <trd>prendre sur soi</trd>
+    </trdgrp>
+    <trd lng="th">&#3619;&#3633;&#3610;&#3648;&#3629;&#3634;&#3652;&#3623;&#3657;</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>podejmout se</trd>,
+    <trd>vz&iacute;t na sebe</trd>
+  </trdgrp>
+  <trd lng="pl">podj&aogonek;&cacute;</trd> 
+  <trdgrp lng="ro">
+    <trd>ia-o</trd>,
+    <trd>s&abreve;-&#537;i asume</trd>
+  </trdgrp> 
+  <trd lng="sk">vzia&tcaron; na seba</trd>
+  <trd lng="uk">&c_b;&c_r;&c_a;&c_t;&c_i; &c_n;&c_a; &c_s;&c_je;&c_b;&c_je;</trd>
+</drv>
+
+<drv mrk="pren.trans0i">
+  <kap>
+    trans<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Preni de iu en propran posedon, respondecon, kontrolon:
+      <ekz>
+        la germana imperia po&scirc;to <klr>[&#8230;]</klr> trans<tld/>as de la amerikaj oficistoj
+        la senda&jcirc;on
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &ccirc;i domo <klr>[&#8230;]</klr> estis en preska&ubreve; sama stato kiel anta&ubreve; tridek jaroj,
+        kiam li trans<tld/>is &gcirc;in de sia patro
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        proponis Ajna, ke Alda trans<tld/>u la instruadon, <klr>[&#8230;]</klr> &scirc;i havis alian
+        manieron kaj alian temperamenton
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        junulo kun tirharmoniko trans<tld/>is la prezidon por la lasta parto de la
+        programo
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        liajn principojn trans<tld/>is poste Cicerono kaj de tiu &ccirc;i ili estis
+        heredigitaj, post jarcentoj, al la literaturoj de E&ubreve;ropo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en tiuj kluboj formi&gcirc;is multaj aktivuloj, kiuj poste trans<tld/>is respondecajn
+        taskojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="adopt.0i">adopti</ref>,
+      <ref cel="akcept.0i.ricevi">akcepti<sncref/></ref>,
+      <ref cel="hered.0i.JUR">heredi<sncref/></ref>,
+      <ref cel="task.0igxi">taski&gcirc;i</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="atribu.0i.asigni">atribui<sncref/></ref>,
+      <ref cel="komisi.0i">komisii</ref>,
+      <ref cel="ced.trans0i">transcedi</ref>,
+      <ref cel="don.trans0i">transdoni</ref>,
+      <ref cel="las.trans0i">translasi</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">&uuml;bernehmen</trd>
+  <trd lng="en">take over</trd>
+</drv>
+
+
+
+
+<drv mrk="pren.fajro0ilo">
+  <kap>fajro<tld/>ilo</kap>
+  <snc mrk="pren.fajro0ilo.dubraka">
+    <dif>
+      Dubraka <ref tip="super" cel="il.0o">ilo</ref> por preni brulantan materialon:
+      <ekz>
+        la fajro&scirc;ovelilo kaj la fajro<tld/>ilo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mastrino kriis kaj penis frapi &gcirc;in per la fajro<tld/>ilo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+      <trd>molls</trd>,
+      <trd>tenalles</trd>
+    </trdgrp>
+  <trd lng="cs">kle&scaron;t&ecaron; na &zcaron;hav&eacute; d&rcaron;evo v krbu</trd>
+  <trd lng="de">Feuerzange</trd>
+  <trd lng="en">fire <ind>tongs</ind></trd>
+  <trd lng="fr">pince &agrave; feu</trd>
+  <trd lng="hu">t&udblac;zfog&oacute;</trd>
+  <trd lng="nl">vuurtang</trd>
+  <trd lng="pl">szczypce do w&eogonek;gli</trd>
+  <trd lng="ru">&c_shch;&c_i;&c_p;&c_c;&c_y; &c_d;&c_l;&c_ja; &c_u;&c_g;&c_l;&c_je;&c_j;</trd>
+  <trd lng="sk">pahrebov&yacute; &scaron;tipec</trd>
+  <trd lng="tr">ma&scedil;a</trd>
+  <trd lng="uk">&c_shch;&c_i;&c_p;&c_c;&c_ib; &c_d;&c_l;&c_ja; &c_zh;&c_a;&c_r;&c_u;/&c_v;&c_u;&c_g;&c_ib;&c_l;&c_l;&c_ja;</trd>
 </drv>
 
 <drv mrk="pren.lu0i">
   <kap>lu<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pren.lu0i.KOMUNE">
-    <ref tip="dif" cel="lu.0i">lui</ref>
+    <dif>
+      <ref tip="dif" cel="lu.0i">Lui</ref>:L
+      <ekz>
+        sinjoro Fradeko lu<tld/>os lo&gcirc;ejon en hotelo
+        <fnt>
+          <bib>ChL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la milito estis tre malfacile lu<tld/>i lokon ta&ubreve;gan por tiaj someraj
+        aran&gcirc;oj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bubalo, kiun li lu<tld/>as de najbaro por plugado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk><url ref="&Steloj;monato2/006831.html">La&ubreve; ritmo de la rizejoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Usono <klr>[&#8230;]</klr> decidis samtempe lu<tld/>i du komercajn &scirc;ipojn por
+        transporti milit-ekipa&jcirc;ojn
+        <fnt>
+          <bib>MD02</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="farm.0i">farmi</ref>,
+      <ref cel="prunt.0i.pruntepreni">prunti</ref>
+    </refgrp>
+    <trd lng="th">&#3648;&#3594;&#3656;&#3634;</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>br&aacute;t do n&aacute;jmu</trd>,
     <trd>najmout</trd>
   </trdgrp>
+  <trd lng="de">mieten</trd>
   <trdgrp lng="es">
     <trd><ind>tomar</ind> en alquiler</trd>,
     <trd>arrendar</trd>
@@ -638,176 +1776,36 @@
     <trd>prenaja&tcaron; si</trd>,
     <trd>vzia&tcaron; do n&aacute;jmu</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="pren.nefor0ebla">
-  <kap>nefor<tld/>ebla</kap>
-  <snc mrk="pren.nefor0ebla.KOMUNE">
-    <dif>
-      Kiu ne povas esti for<tld/>ita a&ubreve; transdonita:
-      <ekz>
-        li sciis bone <klr>...</klr> ke tia realigo estas lia
-        nefor<tld/>ebla rajto
-        <fnt><bib>Marta</bib></fnt>;
-      </ekz>
-      <ekz>
-        la&ubreve; la kristanoj, la prapeko estas nefor<tld/>ebla parto
-        de la homo;
-      </ekz>
-      <ekz>
-        ludoj estas nefor<tld/>ebla parto de homa vivo kaj lernado
-        <fnt><lok><url ref="http://www.interkulturo.net/ludoj/">Interkulturo</url></lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <refgrp tip="vid">
-    <ref cel="esenc.0a">esenca</ref>,
-    <ref cel="hav.nemal0ebla">nemalhavebla</ref>,
-    <ref cel="nepr.0a">nepra</ref>
-  </refgrp>
-  <trdgrp lng="en">
-    <trd>imprescriptible</trd>,
-    <trd>inalienable<klr> (right)</klr></trd>,
-    <trd>integral<klr> (part)</klr></trd>
-  </trdgrp>
-  <trd lng="fr">inali&eacute;nable</trd>
-  <trdgrp lng="pl">
-    <trd>niezbywalny</trd>,
-    <trd>nieusuwalny</trd>
-  </trdgrp>   
-<trdgrp lng="ro">
-    <trd>inalienabil</trd>,
-    <trd>inamovibil</trd>
-  </trdgrp> 
-  <trdgrp lng="ru">
-    <trd>&c_n;&c_je;&c_o;&c_t;&c_malmol;&c_je;&c_m;&c_l;&c_je;&c_m;&c_y;&c_j;</trd>,
-    <trd>&c_n;&c_je;&c_o;&c_t;&c_t;&c_o;&c_r;&c_zh;&c_i;&c_m;&c_y;&c_j;</trd>,
-    <trd>&c_n;&c_je;&c_o;&c_t;&c_d;&c_je;&c_l;&c_i;&c_m;&c_y;&c_j;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_a;&c_j;&c_m;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_b;&c_r;&c_a;&c_t;&c_i;/&c_v;&c_z;&c_ja;&c_t;&c_i; &c_v; &c_o;&c_r;&c_je;&c_n;&c_d;&c_u;</trd>
   </trdgrp>
 </drv>
 
-<drv mrk="pren.pincx0ilo">
-  <kap>pin&ccirc;<tld/>ilo</kap>
-  <snc mrk="pren.pincx0ilo.TEK">
-    <dif>
-      Instrumento, kun du artikigitaj bran&ccirc;oj, uzata speciale por
-      eltiri najlojn.
-    </dif>
-  </snc>
-  <trdgrp lng="es">
-    <trd>alicates<klr tip="amb"> (herramienta)</klr></trd>
-  </trdgrp>
-  <trd lng="fr">pince<klr tip="amb"> (outil)</klr></trd>
-  <trd lng="hu">fog&oacute;</trd>
-  <trdgrp lng="nl">
-    <trd>tang</trd>,
-    <trd>nijptang</trd>
-  </trdgrp>
-  <trd lng="pl">obc&eogonek;gi</trd>
-  <trdgrp lng="ro">
-    <trd>penset&abreve;</trd>,
-    <trd>cle&scedil;te</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_k;&c_l;&c_je;&c_shch;&c_i;</trd>,
-    <trd>&c_shch;&c_i;&c_p;&c_c;&c_y;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="pren.re0i">
-  <kap>re<tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="pren.re0i.KOMUNE">
-    <dif>
-      <tld lit="P"/>i al si ion, kion oni anta&ubreve;e donis a&ubreve; lasis:
-      <ekz>
-        vian babilon vi jam ne povos re<tld/>i<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        sub seruro promesojn tenu, sed doninte ne re<tld/>u
-        <fnt><bib>PrV</bib></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="cs">
-    <trd>odvolat</trd>,
-    <trd>vz&iacute;t zp&ecaron;t</trd>
-  </trdgrp>
-  <trd lng="de">zur&uuml;cknehmen</trd>
-  <trdgrp lng="es">
-    <trd>recoger</trd>
-  </trdgrp>
-  <trd lng="fr">reprendre</trd>
-  <trd lng="hu">visszavesz</trd>
-  <trd lng="nl">terugnemen</trd>
-  <trdgrp lng="pl">
-    <trd>odbiera&cacute;</trd>,
-    <trd>odebra&cacute;</trd>,
-    <trd>zabiera&cacute;<klr> (z powrotem)</klr></trd>
-  </trdgrp>
-  <trd lng="ro">ia <klr> (&icirc;napoi)</klr></trd>
-  <trd lng="ru">&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_mol; <klr tip="amb">(&c_s;&c_je;&c_b;&c_je;)</klr></trd>
-  <trdgrp lng="sk">
-    <trd>odvola&tcaron;</trd>,
-    <trd>vzia&tcaron; sp&auml;&tcaron;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="pren.sur0i">
-  <kap>sur<tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="pren.sur0i.FIG">
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      <ref tip="vid" cel="sxargx.0igxi.KOMUNE">&Scirc;ar&gcirc;i&gcirc;i</ref>,
-      <ref tip="vid" cel="task.0igxi.KOMUNE">taski&gcirc;i</ref>,
-      preni respondecon pri:
-      <ekz>
-        vi e&ccirc; ne komprenas la laboron, kiun vi sur<tld/>is
-        <fnt>
-          <aut>-</aut>,
-          <vrk>&Gcirc;usta logiko</vrk>,
-          <lok>La Ondo de Esperanto, 2003:11 (109)</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trdgrp lng="fr">
-      <trd>se <ind>charger</ind><klr> (de)</klr></trd>,
-      <trd>prendre sur soi</trd>
-    </trdgrp>
-  </snc>
-  <trdgrp lng="cs">
-    <trd>podejmout se</trd>,
-    <trd>vz&iacute;t na sebe</trd>
-  </trdgrp>
-  <trd lng="pl">podj&aogonek;&cacute;</trd> 
-  <trdgrp lng="ro">
-    <trd>ia-o</trd>,
-    <trd>s&abreve;-&#x219;i asume</trd>
-  </trdgrp> 
-  <trd lng="sk">vzia&tcaron; na seba</trd>
-</drv>
 </art>
 <!--
 $Log$
-Revision 1.36  2018/08/16 22:10:17  revo
-Vito Redsky: +trd pl +trd ro
+versio 1.128 2022/11/28 12:49:24
+Wolfram Diestel: +el~i
 
-Revision 1.35  2017/12/20 12:10:13  revo
-Michel Cantigneaux: "pren/o" &amp; + "pren/il/o" fundamentaj kunmetajxoj el
-la U.V.
+versio 1.127 2022/05/04 18:30:33
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.34  2017/12/19 14:10:29  revo
-Michel Cantigneaux: "cxirkaux/pren/i" fundamenta kunmetajxo el la U.V.
+versio 1.126 2022/04/02 07:26:09
+Wolfram Diestel: +trans~i
 
-Revision 1.33  2015/09/16 14:10:23  revo
-Guillermo Molleda Jimena: trd es
+versio 1.121 2022/01/13 19:25:44
+Wolfram Diestel: maj.
 
-Revision 1.32  2015/07/04 08:37:42  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.120 2021/12/24 14:26:45
+Wolfram Diestel: sur~i, re~i: ekz-oj; pin&ccirc;~ilo: redukto de drv al ekz
 
-Revision 1.31  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.119 2021/12/24 12:46:53
+Wolfram Diestel: kun~i, lu~i: ekz-oj, rearan&gcirc;o de drv
 
+versio 1.118 2021/12/24 11:25:55
+Wolfram Diestel: ~ilo, de~i, al~i, for~i: ekz-oj, ref-oj, trd de
+
+versio 1.117 2021/12/24 09:30:18
 -->
 </vortaro>

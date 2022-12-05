@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sukces.xml,v 1.68 2021/06/18 18:20:13 revo Exp $">
+<art mrk="$Id: sukces.xml,v 1.106 2022/05/05 14:43:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sukces</rad>/i
@@ -9,16 +9,115 @@
 <drv mrk="sukces.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="sukces.0i.iu">
+    <uzo tip="klr">(iu)</uzo>
+    <dif>
+      <ref tip="super" cel="ating.0i.FIG">Atingi</ref> deziratan rezulton:
+      <ekz>
+        li &ccirc;iam <tld/>is fine atingi indulgon &ccirc;e siaj persekutantoj
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        terurite la barbulo volis forkuri, sed li ne <tld/>is
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino kaj Rozulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj sa&gcirc;aj paroloj ne <tld/>is kvietigi Beatricon
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per aludoj kaj ruzoj li <tld/>is komprenigi, ke oni plenigu lian tornistron
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Kamarado Gaja</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      En tiu senco &leftquot;<tld/>i&rightquot; kutime aperas kun infinitivo.
+    </rim>
+  <trdgrp lng="de">
+    <trd>k&ouml;nnen <klr>(erfolgreich)</klr></trd>,
+    <trd><ind>erfolgreich</ind> sein</trd>
+  </trdgrp></snc>
+  <snc mrk="sukces.0i.io">
     <uzo tip="klr">(io)</uzo>
     <dif>
-      Havi feli&ccirc;an rezultaton.
+      Konduki al kontentiga rezulto:
+      <ekz>
+        por kio vi kontra&ubreve;agas al la vortoj de la Eternulo? tio ja ne <tld/>os
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 14:41</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la eksperimento <tld/>is pli perfekte ol esperis Eduardo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unua provo ne <tld/>is
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi jam feli&ccirc;e enigis la kojnon kaj &ccirc;io <tld/>us bone, sed la malbenita kojno
+        elglitis
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino kaj Rozulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> lin frenezigis de varmegaj karesoj <klr>[kaj]</klr> tiu rimedo
+        kelkafoje ankora&ubreve; <tld/>is
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u tiu &ccirc;i laboro entute <tld/>os al la komitato, 
+        &ccirc;u &gcirc;i ne da&ubreve;ros senfinan serion da jaroj
+        <fnt>
+          <bib>EE</bib>
+          <lok>VII</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        feli&ccirc;e la entrepreno de la Amerika Societo ne <tld/>is
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiun la sorto karesas, al tiu &ccirc;io <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+          <lok>K</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="ca">resultar</trd>
     <trdgrp lng="de">
       <trd>gelingen</trd>,
       <trd>gl&uuml;cken</trd>,
-      <trd>erfolgreich verlaufen</trd>
+      <trd><ind>erfolgreich</ind> verlaufen</trd>
     </trdgrp>
     <trd lng="hu">siker&uuml;l</trd>    
     <trdgrp lng="ru">
@@ -26,29 +125,38 @@
       <trd>&c_u;&c_d;&c_a;&c_s;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="sukces.0i.prosperi">
     <uzo tip="klr">(iu)</uzo>
     <dif>
-      Atingi feli&ccirc;an deziratan rezultaton en entrepreno:
+      Atingi altan <ref cel="status.0o">statuso</ref>n; 
+      <ref cel="prospe1.0i">prosperi</ref> en entrepreno:
+      <ekz>
+        kion ajn entreprenos tiu homo, li &ccirc;iam feli&ccirc;e <tld/>os
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Tri oraj haroj de la diablo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la politika deziro <tld/>i povas esti pasia, preska&ubreve; freneza &ccirc;e kelkaj
+        <fnt>
+          <bib>ChV</bib>
+          <lok>10</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         se malri&ccirc;ulo <tld/>as, li &ccirc;iujn forgesas
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
         kiun la sorto karesos tiu <tld/>os
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>i en, pri io;
-      </ekz>
-      <ekz>
-        fine li <tld/>is altiri la atenton.
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="prospe1.0i">prosperi</ref>,
       <ref cel="stat">bonstati</ref>,
-      <ref cel="flor.0i">flori</ref>.
+      <ref cel="flor.0i">flori</ref>
     </refgrp>
     <trdgrp lng="ca">
       <trd>aconseguir de</trd>    
@@ -56,8 +164,8 @@
       <trd>sortir-se'n</trd>
     </trdgrp>
     <trdgrp lng="de">
-      <trd>Erfolg haben</trd>,
-      <trd>erfolgreich sein</trd>
+      <trd><ind>Erfolg</ind> haben</trd>,
+      <trd><ind>erfolgreich</ind> sein</trd>
     </trdgrp>
     <trdgrp lng="es">
       <trd>tener feliz resultado</trd>,
@@ -102,102 +210,64 @@
     <trd>ma&tcaron; &uacute;spech</trd>,
     <trd>uspie&tcaron;</trd>
   </trdgrp>
-  <trd lng="tp">kama</trd>
-</drv>
-
-<drv mrk="sukces.0o">
-  <kap><tld/>o</kap>
-  <snc>
-    <dif>
-      Feli&ccirc;a atingita rezultato:
-      <ekz>
-        liaj verkoj havis, akiris, ricevis, &gcirc;uis, atingis entuziasman
-        <tld/>on.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="af">sukses</trd>
-  <trd lng="am">&#x1235;&#x12AC;&#x1275;</trd>
-  <trd lng="ar">&#x646;&#x62C;&#x627;&#x62D;</trd>
-  <trd lng="az">u&#x11F;ur</trd>
-  <trd lng="be">&c_p;&c_o;&c_s;&c_mol;&c_p;&c_je;&c_h;</trd>
-  <trd lng="bg">&c_u;&c_s;&c_p;&c_je;&c_h;</trd>
-  <trd lng="bn">&#x9B8;&#x9BE;&#x9AB;&#x9B2;&#x9CD;&#x9AF;</trd>
-  <trd lng="bo">&#xF62;&#xF92;&#xFB1;&#xF63;&#xF0B;&#xF41;&#xF0B;&#xF50;&#xF7C;&#xF56;&#xF0B;</trd>
-  <trd lng="bs">uspjeh</trd>
-  <trd lng="ca">&egrave;xit</trd>
-  <trd lng="co">a riescita</trd>
-  <trdgrp lng="cs">
-    <trd>sukces</trd>,
-    <trd>zdar</trd>,
-    <trd>&uacute;sp&ecaron;ch</trd>
+  <trd lng="tok">kama</trd>
+  <trdgrp lng="uk">
+    <trd>&#x443;&#x441;&#x442;&#x438;&#x433;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43C;&#x430;&#x442;&#x438; &#x443;&#x441;&#x43F;&#x456;&#x445;</trd>
   </trdgrp>
-  <trd lng="da">succes</trd>
-  <trd lng="de">Erfolg</trd>
-  <trd lng="en">success</trd>
-  <trdgrp lng="es">
-    <trd>&eacute;xito</trd>,
-    <trd>suceso</trd>
-  </trdgrp>
-  <trd lng="et">edu</trd>
-  <trd lng="eu">arrakasta</trd>
-  <trd lng="fr">succ&egrave;s</trd>
-  <trd lng="fy">sukses</trd>
-  <trd lng="gl">&#xE9;xito</trd>
-  <trd lng="gu">&#xAB8;&#xAAB;&#xAB3;&#xAA4;&#xABE;</trd>
-  <trd lng="ha">nasara</trd>
-  <trd lng="hi">&#x938;&#x92B;&#x932;&#x924;&#x93E;</trd>
-  <trd lng="hr">uspjeh</trd>
-  <trd lng="hu">siker</trd>
-  <trd lng="hy">&#x570;&#x561;&#x57B;&#x578;&#x572;&#x578;&#x582;&#x569;&#x575;&#x578;&#x582;&#x576;</trd>
-  <trd lng="is">velgengni</trd>
-  <trd lng="ja">&#x6210;&#x529F;</trd>
-  <trd lng="jw">sukses</trd>
-  <trd lng="ka">&#x10EC;&#x10D0;&#x10E0;&#x10DB;&#x10D0;&#x10E2;&#x10D4;&#x10D1;&#x10D0;</trd>
-  <trd lng="km">&#x1797;&#x17B6;&#x1796;&#x1787;&#x17C4;&#x1782;&#x1787;&#x17D0;&#x1799;</trd>
-  <trd lng="ko">&#xC131;&#xACF5;</trd>
-  <trd lng="lo">&#xE9C;&#xEBB;&#xE99;&#xEAA;&#xECD;&#xEB2;&#xEC0;&#xEA5;&#xEB1;&#xE94;</trd>
-  <trd lng="ml">&#xD35;&#xD3F;&#xD1C;&#xD2F;&#xD02;</trd>
-  <trd lng="mr">&#x92F;&#x936;</trd>
-  <trd lng="my">&#x1021;&#x1031;&#x102C;&#x1004;&#x103A;&#x1019;&#x103C;&#x1004;&#x103A;&#x1001;&#x103C;&#x1004;&#x103A;&#x1038;</trd>
-  <trd lng="nl">succes</trd>
-  <trd lng="ny">kupambana</trd>
-  <trd lng="pa">&#xA26;&#xA40; &#xA38;&#xA2B;&#xA32;&#xA24;&#xA3E;</trd>
-  <trd lng="ps">&#x628;&#x631;&#x64A;&#x627;&#x644;&#x64A;&#x62A;&#x648;&#x628;</trd>
-  <trd lng="pt">sucesso</trd>
-  <trdgrp lng="ru">
-    <trd>&c_u;&c_s;&c_p;&c_je;&c_h;</trd>,
-    <trd>&c_u;&c_d;&c_a;&c_ch;&c_a;</trd>
-  </trdgrp>
-  <trd lng="sd">&#x6AA;&#x627;&#x645;&#x64A;&#x627;&#x628;&#x64A;</trd>
-  <trd lng="si">&#xDC3;&#xDCF;&#xDBB;&#xDCA;&#xDAE;&#xD9A;&#xDAD;&#xDCA;&#xDC0;&#xDBA;</trd>
-  <trdgrp lng="sk">
-    <trd>zdar</trd>,
-    <trd>&uacute;spech</trd>
-  </trdgrp>
-  <trd lng="sq">suksesi</trd>
-  <trd lng="ta">&#xBB5;&#xBC6;&#xBB1;&#xBCD;&#xBB1;&#xBBF;</trd>
-  <trd lng="te">&#xC35;&#xC3F;&#xC1C;&#xC2F;&#xC02;</trd>
-  <trd lng="th">&#xE1B;&#xE23;&#xE30;&#xE2A;&#xE1A;&#xE04;&#xE27;&#xE32;&#xE21;&#xE2A;&#xE33;&#xE40;&#xE23;&#xE47;&#xE08;</trd>
-  <trd lng="tl">tagumpay</trd>
-  <trd lng="ur">&#x6A9;&#x627;&#x645;&#x6CC;&#x627;&#x628;&#x6CC;</trd>
-  <trd lng="vi">th&#xE0;nh c&#xF4;ng</trd>
-  <trd lng="yi">&#x5D4;&#x5E6;&#x5DC;&#x5D7;&#x5D4;</trd>
-  <trd lng="zu">impumelelo</trd>
 </drv>
 
 <drv mrk="sukces.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
   <snc>
     <dif>
-      Tia, ke &gcirc;i <tld/>is:
+      Tia, ke &gcirc;i <tld/>as:
       <ekz>
-        Kaj nun mi deziras al vi &ccirc;iuj gajan feston kaj <tld/>an
-        laboron.
+        ni eksciu, &ccirc;u estos <tld/>a nia vojo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 18:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estos ankora&ubreve; malpli <tld/>a ol la fratoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La ora birdo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu penado estis <tld/>a kaj rapida
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a argumentado kaj konvinkado
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nun mi deziras al vi &ccirc;iuj gajan feston kaj <tld/>an
+        laboron
         <fnt><bib>Paroloj</bib>, <lok>Sepa Kongreso 1911 en
-        Antwerpen</lok></fnt>.
+        Antwerpen</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a venkanto de pordoj malfermitaj
+        <fnt>
+          <bib>PrV</bib>
+          <lok>S</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="sxanc.bon0a">bon&scirc;anca</ref>,
+      <ref cel="felicx.0a.sukcesanta">feli&ccirc;a<sncref/></ref>,
+      <ref cel="prospe1.0a">prospera</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_p;&c_ja;&c_h;&c_o;&c_v;&c_y;</trd>
   <trdgrp lng="ca">
@@ -212,6 +282,199 @@
   <trd lng="es">exitoso/a</trd>
   <trd lng="fr">r&eacute;ussi(e)</trd>
   <trd lng="sk">&uacute;spe&scaron;n&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x443;&#x441;&#x43F;&#x456;&#x448;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x443;&#x434;&#x430;&#x43B;&#x438;&#x439;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="sukces.0o">
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      Feli&ccirc;e atingita <ref tip="super" cel="rezult.0o">rezulto</ref>:
+      <ekz>
+        Dio donadis al li <tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 26:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la edzino <klr>[&#x2026;]</klr> &gcirc;ojis vidante lin kaj a&ubreve;dante la rakonton pri lia
+        <tld/>o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Tri oraj haroj de la diablo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la franca urbo <nom>Boulogne-sur-Mer</nom> havis lokon la unua tutmonda kongreso de
+        esperantistoj, kies <tld/>o superis &ccirc;iujn atendojn
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tiu]</klr> afero <klr>[&#x2026;]</klr> ne havas e&ccirc; la plej malgrandajn &scirc;ancojn de
+        <tld/>o
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni devas lin taksi ne la&ubreve; lia <tld/>o, sed la&ubreve; lia volo kaj laboro
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sed liajn penadojn kronis neniu <tld/>o
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konkordo estas la plej certa garantio de senduba <tld/>o
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la unua ekbrilo de <tld/>o lumigis anta&ubreve; &scirc;i perspektivon kun pli bona estonteco
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per mezuro kaj peso akiri&gcirc;as <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+          <lok>P</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        envia moko <tld/>on ne detruas
+        <fnt>
+          <bib>PrV</bib>
+          <lok>E</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ben.0o.favoro">beno</ref>,
+      <ref cel="favor.0o.KOMUNE">favoro<sncref/></ref>,
+      <ref cel="felicx.0o.bonsxanco">feli&ccirc;o<sncref/></ref>,
+      <ref cel="fortun.0o">fortuno</ref>,
+      <ref cel="prospe1.0o">prospero</ref>
+    </refgrp>
+  </snc>
+  <trd lng="af">sukses</trd>
+  <trd lng="am">&#x1235;&#x12AC;&#x1275;</trd>
+  <trd lng="ar">&a_n;&a_j;&a_A;&a_H;</trd>
+  <trd lng="az">u&gbreve;ur</trd>
+  <trd lng="be">&c_p;&c_o;&c_s;&c_mol;&c_p;&c_je;&c_h;</trd>
+  <trd lng="bg">&c_u;&c_s;&c_p;&c_je;&c_h;</trd>
+  <trd lng="bn">&#x9B8;&#x9BE;&#x9AB;&#x9B2;&#x9CD;&#x9AF;</trd>
+  <trd lng="bo">&t_ra;&t_gata;&t_yata;&t_la;&t_tsheg;&t_kha;&t_tsheg;&t_tha;&t_naro;&t_ba;&t_tsheg;</trd>
+  <trd lng="bs">uspjeh</trd>
+  <trd lng="ca">&egrave;xit</trd>
+  <trd lng="co">a riescita</trd>
+  <trdgrp lng="cs">
+    <trd>sukces</trd>,
+    <trd>zdar</trd>,
+    <trd>&uacute;sp&ecaron;ch</trd>
+  </trdgrp>
+  <trd lng="cy">llwyddiant</trd>
+  <trd lng="da">succes</trd>
+  <trd lng="de">Erfolg</trd>
+  <trd lng="en">success</trd>
+  <trdgrp lng="es">
+    <trd>&eacute;xito</trd>,
+    <trd>suceso</trd>
+  </trdgrp>
+  <trd lng="et">edu</trd>
+  <trd lng="eu">arrakasta</trd>
+  <trd lng="fr">succ&egrave;s</trd>
+  <trd lng="fy">sukses</trd>
+  <trd lng="ga">rath</trd>
+  <trd lng="gd">soirbheachadh</trd>
+  <trd lng="gl">&eacute;xito</trd>
+  <trd lng="gu">&#xAB8;&#xAAB;&#xAB3;&#xAA4;&#xABE;</trd>
+  <trd lng="ha">nasara</trd>
+  <trd lng="hi">&#x938;&#x92B;&#x932;&#x924;&#x93E;</trd>
+  <trd lng="hmn">kawm tau zoo</trd>
+  <trd lng="hr">uspjeh</trd>
+  <trd lng="ht">siks&egrave;</trd>
+  <trd lng="hu">siker</trd>
+  <trd lng="hy">&#x570;&#x561;&#x57B;&#x578;&#x572;&#x578;&#x582;&#x569;&#x575;&#x578;&#x582;&#x576;</trd>
+  <trd lng="ig">&#x1ECB;ga nke &#x1ECD;ma</trd>
+  <trd lng="is">velgengni</trd>
+  <trd lng="ja">&#x6210;&#x529F;</trd>
+  <trd lng="jv">sukses</trd>
+  <trd lng="ka">&#x10EC;&#x10D0;&#x10E0;&#x10DB;&#x10D0;&#x10E2;&#x10D4;&#x10D1;&#x10D0;</trd>
+  <trd lng="kk">&c_t;&c_a;&c_b;&c_y;&c_s;</trd>
+  <trd lng="km">&#x1797;&#x17B6;&#x1796;&#x1787;&#x17C4;&#x1782;&#x1787;&#x17D0;&#x1799;</trd>
+  <trd lng="kn">&#xCAF;&#xCB6;&#xCB8;&#xCCD;&#xCB8;&#xCC1;</trd>
+  <trd lng="ko">&#xC131;&#xACF5;</trd>
+  <trd lng="ku">serketin&icirc;</trd>
+  <trd lng="ky">&c_i;&c_j;&c_g;&c_i;&c_l;&c_i;&c_k;</trd>
+  <trd lng="lat">successu</trd>
+  <trd lng="lo">&#xE9C;&#xEBB;&#xE99;&#xEAA;&#xECD;&#xEB2;&#xEC0;&#xEA5;&#xEB1;&#xE94;</trd>
+  <trd lng="lt">s&#x117;km&#x117;</trd>
+  <trd lng="lv">veiksme</trd>
+  <trd lng="mg">fahombiazana</trd>
+  <trd lng="mi">angitu</trd>
+  <trd lng="mk">&c_u;&c_s;&c_p;&c_je;&c_h;</trd>
+  <trd lng="ml">&#xD35;&#xD3F;&#xD1C;&#xD2F;&#xD02;</trd>
+  <trd lng="mn">&c_a;&c_m;&c_zh;&c_i;&c_l;&c_t;</trd>
+  <trd lng="mr">&#x92F;&#x936;</trd>
+  <trd lng="ms">kejayaan</trd>
+  <trd lng="mt">su&#x10B;&#x10B;ess</trd>
+  <trd lng="my">&#x1021;&#x1031;&#x102C;&#x1004;&#x103A;&#x1019;&#x103C;&#x1004;&#x103A;&#x1001;&#x103C;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="nl">succes</trd>
+  <trd lng="ny">kupambana</trd>
+  <trd lng="pa">&#xA26;&#xA40; &#xA38;&#xA2B;&#xA32;&#xA24;&#xA3E;</trd>
+  <trd lng="ps">&a_b;&a_r;&a_y;&a_A;&a_l;&a_y;&a_t;&a_w;&a_b;</trd>
+  <trd lng="pt">sucesso</trd>
+  <trdgrp lng="ru">
+    <trd>&c_u;&c_s;&c_p;&c_je;&c_h;</trd>,
+    <trd>&c_u;&c_d;&c_a;&c_ch;&c_a;</trd>
+  </trdgrp>
+  <trd lng="rw">intsinzi</trd>
+  <trd lng="sd">&#x6AA;&a_A;&a_m;&a_y;&a_A;&a_b;&a_y;</trd>
+  <trd lng="si">&#xDC3;&#xDCF;&#xDBB;&#xDCA;&#xDAE;&#xD9A;&#xDAD;&#xDCA;&#xDC0;&#xDBA;</trd>
+  <trdgrp lng="sk">
+    <trd>zdar</trd>,
+    <trd>&uacute;spech</trd>
+  </trdgrp>
+  <trd lng="sl">uspeh</trd>
+  <trd lng="sm">manuia</trd>
+  <trd lng="sn">budiriro</trd>
+  <trd lng="so">guul</trd>
+  <trd lng="sq">suksesi</trd>
+  <trd lng="st">katleho</trd>
+  <trd lng="su">sukses</trd>
+  <trd lng="sw">mafanikio</trd>
+  <trd lng="ta">&#xBB5;&#xBC6;&#xBB1;&#xBCD;&#xBB1;&#xBBF;</trd>
+  <trd lng="te">&#xC35;&#xC3F;&#xC1C;&#xC2F;&#xC02;</trd>
+  <trd lng="tg">&c_m;&c_u;&c_v;&c_a;&c_f;&c_f;&c_a;&#x49B;&c_i;&c_ja;&c_t;</trd>
+  <trd lng="th">&#xE1B;&#xE23;&#xE30;&#xE2A;&#xE1A;&#xE04;&#xE27;&#xE32;&#xE21;&#xE2A;&#xE33;&#xE40;&#xE23;&#xE47;&#xE08;</trd>
+  <trd lng="tl">tagumpay</trd>
+  <trd lng="tt">&c_u;&#x4A3;&c_y;&c_sh;</trd>
+  <trd lng="uk">&c_u;&c_s;&c_p;&c_ib;&c_h;</trd>
+  <trd lng="ur">&f_k;&a_A;&a_m;&f_y;&a_A;&a_b;&f_y;</trd>
+  <trd lng="uz">muvaffaqiyat</trd>
+  <trd lng="vi">th&agrave;nh c&ocirc;ng</trd>
+  <trd lng="xh">impumelelo</trd>
+  <trd lng="yi">&he;&tsadi;&lamed;&het;&he;</trd>
+  <trd lng="yo">aseyori</trd>
+  <trd lng="zu">impumelelo</trd>
 </drv>
 
 
@@ -219,12 +482,56 @@
   <kap>mal<tld/>i</kap>
   <snc>
     <dif>
-      Ne <tld/>i
+      Ne <tld/>i:
+      <ekz>
+        &ccirc;iuj liaj klopodoj mal<tld/>is
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi mal<tld/>is edzi&gcirc;on, kaj vi suferas pro tio
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia provo ridinde mal<tld/>is
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam mi mal<tld/>is en la anta&ubreve;lasta klaso, mi forlasis la instrufabrikon kaj
+        iris al la maro
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Pa&ubreve;lo <nom>Petrovi&ccirc;</nom> mem rimarkis, ke lia sprita&jcirc;o mal<tld/>is kaj komencis paroli pri
+        la terkulturaj aferoj
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la afero mal<tld/>is
+        <fnt>
+          <bib>PrV</bib>
+          <lok>L</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="bankro.0i">bankroti</ref>,
       <ref cel="fiask.0i">fiaski</ref>,
-      <ref cel="ruin">runini&gcirc;i</ref>.
+      <ref cel="ruin">runini&gcirc;i</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -242,7 +549,7 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>missgl&uuml;cken</trd>,
-    <trd>Misserfolg haben</trd>
+    <trd><ind>Misserfolg</ind> haben</trd>
   </trdgrp>
   <trd lng="en">fail</trd>
   <trd lng="es">fracasar</trd>
@@ -264,10 +571,26 @@
     <trd>prepadn&uacute;&tcaron;</trd>,
     <trd>zlyha&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x437;&#x43D;&#x430;&#x432;&#x430;&#x442;&#x438; &#x43D;&#x435;&#x432;&#x434;&#x430;&#x447;&#x456;</trd>,
+    <trd>&#x43F;&#x43E;&#x442;&#x435;&#x440;&#x43F;&#x456;&#x442;&#x438; &#x43D;&#x435;&#x432;&#x434;&#x430;&#x447;&#x443;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.106 2022/05/05 14:43:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.104 2022/02/06 10:28:39
+Wolfram Diestel: ~i: apartigo de 3 snc (2 ja ne sufiĉas)
+
+versio 1.103 2022/02/06 09:27:09
+Wolfram Diestel: ~i: al&gcirc;ustigis dif
+
+versio 1.102 2022/02/05 22:31:59
+Wolfram Diestel: ekz-oj, ref-oj, trd de
+
 versio 1.25 2021/05/07 07:03:22
 Dmitri Gabinski: + trd be
 
@@ -278,17 +601,5 @@ Revision 1.22  2013/12/05 10:10:13  revo
 Damien Brucker: +trd fr
 
 Revision 1.21  2013/10/08 15:10:13  revo
-Benito Subejrano: + trd ca oc
-
-Revision 1.20  2011/11/27 20:10:09  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.19  2011/07/14 09:10:09  revo
-Alejandro Escobedo: mi aldonis a- kaj mal- vortoj hispane
-
-Revision 1.18  2011/07/13 22:10:09  revo
-Alejandro Escobedo: suceso havas multajn signifojn kaj tio estas konfuza
-
-Revision 1.17  2010/09/02 16:30:32  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: instru.xml,v 1.88 2021/06/19 05:58:35 revo Exp $">
+<art mrk="$Id: instru.xml,v 1.132 2022/09/29 22:36:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>instru</rad>/i <fnt><bib>PV</bib></fnt>
@@ -16,48 +16,63 @@
       Transdoni al iu sciencajn metodajn konojn a&ubreve; utilajn 
       precizajn sciojn:
       <ekz>
-        dancu la dancisto, kaj muziku la muzikisto, sed <tld/>u nur
-        la
-        <tld/>ituloj<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i infanon pri gramatiko;
-      </ekz><ekz>
-        <tld/>i gramatikon al infano;
-      </ekz><ekz>
+        oni instruis gramatikon, dialektikon kaj retorikon
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili intencis min <tld/>i pri sia lingvo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Tria &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>      
+      <ekz>
         la Eternulo ordonis <tld/>i al vi la le&gcirc;ojn
         <fnt><bib>MT</bib>, <lok>&Rea; 4:14</lok></fnt>;
-      </ekz><ekz>
-        li <tld/>as miajn brakojn stre&ccirc;i pafarkon
-        <fnt><bib>MT</bib>, <lok>&Sa2; 22:35</lok></fnt>;
-      </ekz><ekz>
-        oni <tld/>is &scirc;in danci kaj paradi;
-      </ekz><ekz>
-        mi <tld/>os vin, kion vi devas paroli
-        <fnt><bib>MT</bib>, <lok>&Eli; 4:12</lok></fnt>;
-      </ekz><ekz>
-        <tld/>i al iu, kiel (li povos) sukcesi;
-      </ekz><ekz>
-        mi <tld/>os <klr>(montros)</klr>,
-        kio estas moki min<fnt>Z</fnt>;
-      </ekz><ekz>
-        <tld/>i iun per sia ekzemplo;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        <tld/>i distingi inter sankta&jcirc;o kaj nesankta&jcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 44:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiujn do objektojn vi povas kaj deziras <tld/>i
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
+        mi volus <tld/>i la komencojn de historio, de geografio, de la historio de nia
+        literaturo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         por ke la <tld/>itaj lingvistoj povu tuj kompreni la
         tekston
         <fnt><bib>EE</bib>, <lok>&ccirc;apitro 7a</lok></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la <tld/>ita mondo
         <fnt>
           <bib>FK</bib>
           <lok>Nokto</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         tre alte <tld/>ita homo
         <fnt>
           <bib>Fab1</bib>
           <lok>Galo&scirc;oj de feli&ccirc;o</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         tiaj <tld/>itaj <klr>(de <tld/>itulo)</klr> paroloj tre
         imponas
         <fnt><bib>EE</bib>, <lok>&ccirc;apitro 3a</lok></fnt>.
@@ -67,32 +82,129 @@
       <ref cel="eduk.0i">eduki</ref>,
       <ref cel="lern.0igi">lernigi</ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>unterrichten</trd>,
+      <trd>lehren</trd>,
+      <trd>unterweisen</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="instru.0i.ekzerci">
+    <dif>
+      Metode <ref tip="super" cel="ekzerc.0i">ekzerci</ref> iun en iu arto, okupo kc:
+      <ekz>
+        li <tld/>as miajn brakojn stre&ccirc;i pafarkon
+        <fnt><bib>MT</bib>, <lok>&Sa2; 22:35</lok></fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is al ili la &ccirc;asadon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        nun vi <tld/>is al mi la arton, kiel mi devas vin turmenti
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        virinoj <tld/>is al mi sa&gcirc;on kaj prudenton
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la fi&scirc;o ne <tld/>u na&gcirc;arton
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="trejn.0i">trejni</ref>
+    <trdgrp lng="de">
+      <trd>beibringen</trd>,
+      <trd>trainieren</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="instru.0i.kiel_agi">
+    <dif>
+      <ref tip="super" cel="montr.0i.parole">Montri</ref> al iu precize kiel agi, konduti:
+      <ekz>
+        mi <tld/>os vin, kion vi devas paroli
+        <fnt><bib>MT</bib>, <lok>&Eli; 4:12</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi al ili &ccirc;iuj <tld/>is disciplinon
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi kontra&ubreve;parolos al mi, mi vin <tld/>os, kio estas moki nin
+        <fnt>
+          <bib>GDn</bib>
+          <lok>AKTO TRIA</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="mentor.0i">mentori</ref>
+    <trdgrp lng="de">
+      <trd>vorf&uuml;hren</trd>,
+      <trd>vormachen</trd>,
+      <trd>zeigen</trd>
+    </trdgrp>
   </snc>
   <snc mrk="instru.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       <klr>(p.p. okaza&jcirc;oj)</klr>
-      Montri al iu la la&ubreve;celan konduton:
+      <ref tip="super" cel="montr.0i.parole">Montri</ref>
+      al iu la la&ubreve;celan konduton:
+      <ekz>
+        tio <tld/>os al vi singardemon
+        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 18a</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi instruos al vi, kio estas timo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fabelo pri iu, kiu migris por ekkoni timon</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>as mizero man&gcirc;i panon sen butero
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         nin <tld/>as eraro, kiun faras najbaro
         <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        <tld/>ita de la malfeli&ccirc;o;
-      </ekz><ekz>
-        praktika sperto nin <tld/>as, ke...;
-      </ekz><ekz>
-        tio <tld/>os al vi singardemon
-        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 18a</lok></fnt>.
+      </ekz>
+      <ekz>
+        e&ccirc; malsa&gcirc;ulon sperto <tld/>os
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="instru1">instrukcii</ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>lehren</trd>,
+      <trd>beibringen</trd>
+    </trdgrp>
   </snc>
   <trd lng="af">leer</trd>
-  <trd lng="am">&#x12A0;&#x1235;&#x1270;&#x121D;&#x122D;</trd>
-  <trd lng="ar">&#x62A;&#x639;&#x644;&#x64A;&#x645;</trd>
-  <trd lng="az">&#xF6;yr&#x259;tm&#x259;k</trd>
+  <trd lng="am">&#4768;&#4661;&#4720;&#4637;&#4653;</trd>
+  <trd lng="ar">&a_t;&a_ayn;&a_l;&a_y;&a_m;</trd>
+  <trd lng="az">&ouml;yr&#601;tm&#601;k</trd>
   <trdgrp lng="be">
     <trd>&c_v;&c_u;&c_ch;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_n;&c_a;&c_v;&c_u;&c_ch;&c_a;&c_c;&c_mol;</trd>,
@@ -100,9 +212,9 @@
     <trd>&c_n;&c_a;&c_s;&c_t;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="bg">&c_p;&c_r;&c_je;&c_p;&c_o;&c_d;&c_a;&c_v;&c_a;&c_m;</trd>
-  <trd lng="bn">&#x9B6;&#x9C7;&#x996;&#x9BE;&#x9A8;</trd>
-  <trd lng="bo">&#xF56;&#xF66;&#xFB3;&#xF56;&#xF0B;</trd>
-  <trd lng="bs">nau&#x10D;iti</trd>
+  <trd lng="bn">&#2486;&#2503;&#2454;&#2494;&#2472;</trd>
+  <trd lng="bo">&t_ba;&t_sa;&t_lata;&t_ba;&t_tsheg;</trd>
+  <trd lng="bs">nau&ccaron;iti</trd>
   <trd lng="co">insegni</trd>
   <trdgrp lng="cs">
     <trd>instruovat</trd>,
@@ -110,11 +222,8 @@
     <trd>u&ccaron;it</trd>,
     <trd>vyu&ccaron;ovat</trd>
   </trdgrp>
+  <trd lng="cy">dysgu</trd>
   <trd lng="da">undervise</trd>
-  <trdgrp lng="de">
-    <trd>lehren</trd>,
-    <trd>unterrichten</trd>
-  </trdgrp>
   <trdgrp lng="en">
     <trd>teach</trd>,
     <trd>instruct</trd>
@@ -123,42 +232,60 @@
     <trd>ense&ntilde;ar</trd>,
     <trd>instruir</trd>
   </trdgrp>
-  <trd lng="et">&#xF5;petada</trd>
+  <trd lng="et">&otilde;petada</trd>
   <trd lng="eu">irakasteko</trd>
   <trdgrp lng="fr">
     <trd>apprendre<klr tip="ind"> (&agrave; quelqu'un)</klr></trd>,
     <trd>enseigner</trd>
     <trd>instruire</trd>
   </trdgrp>
-  <trd lng="fy">&#xFB;nderwize</trd>
+  <trd lng="fy">&ucirc;nderwize</trd>
+  <trd lng="ga">mh&uacute;ineadh</trd>
+  <trd lng="gd">teagasg</trd>
   <trd lng="gl">ensinar</trd>
-  <trd lng="gu">&#xAB6;&#xAC0;&#xA96;&#xAB5;&#xAB5;&#xABE;</trd>
+  <trd lng="gu">&#2742;&#2752;&#2710;&#2741;&#2741;&#2750;</trd>
   <trd lng="ha">koyar</trd>
-  <trd lng="hi">&#x938;&#x93F;&#x916;&#x93E;&#x928;&#x93E;</trd>
-  <trd lng="hr">pou&#x10D;avati</trd>
+  <trd lng="hi">&#2360;&#2367;&#2326;&#2366;&#2344;&#2366;</trd>
+  <trd lng="hmn">qhia</trd>
+  <trd lng="hr">pou&ccaron;avati</trd>
+  <trd lng="ht">anseye</trd>
   <trdgrp lng="hu">
     <trd>tan&iacute;t</trd>,
     <trd>oktat</trd>
   </trdgrp>
-  <trd lng="hy">&#x57D;&#x578;&#x57E;&#x578;&#x580;&#x565;&#x581;&#x576;&#x565;&#x56C;</trd>
+  <trd lng="hy">&#1405;&#1400;&#1406;&#1400;&#1408;&#1381;&#1409;&#1398;&#1381;&#1388;</trd>
   <trdgrp lng="id">
     <trd>meng<ind>ajar</ind></trd>,
     <trd>meng<ind>ajar</ind>kan</trd>
   </trdgrp>
+  <trd lng="ig">na-ak&#7909;ziri</trd>
   <trd lng="is">kenna</trd>
-  <trd lng="ja">&#x6559;&#x3048;&#x308B;</trd>
-  <trd lng="jw">mulang</trd>
-  <trd lng="ka">&#x10D0;&#x10E1;&#x10EC;&#x10D0;&#x10D5;&#x10DA;&#x10DD;&#x10E1;</trd>
-  <trd lng="km">&#x1794;&#x1784;&#x17D2;&#x179A;&#x17C0;&#x1793;</trd>
-  <trd lng="ko">&#xAC00;&#xB974;&#xCCD0;</trd>
-  <trd lng="lo">&#xEAA;&#xEAD;&#xE99;</trd>
-  <trd lng="ml">&#xD2A;&#xD20;&#xD3F;&#xD2A;&#xD4D;&#xD2A;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
-  <trd lng="mr">&#x936;&#x93F;&#x915;&#x935;&#x932;&#x947;</trd>
-  <trd lng="my">&#x101E;&#x1004;&#x103A;&#x1015;&#x1031;&#x1038;</trd>
-  <trd lng="ne">&#x938;&#x93F;&#x915;&#x93E;&#x909;&#x901;&#x91B;&#x928;&#x94D;</trd>
+  <trd lng="ja">&#25945;&#12360;&#12427;</trd>
+  <trd lng="jv">mulang</trd>
+  <trd lng="ka">&#4304;&#4321;&#4332;&#4304;&#4309;&#4314;&#4317;&#4321;</trd>
+  <trd lng="kk">&#1199;&c_j;&c_r;&c_je;&c_t;&c_u;</trd>
+  <trd lng="km">&#6036;&#6020;&#6098;&#6042;&#6080;&#6035;</trd>
+  <trd lng="kn">&#3221;&#3250;&#3263;&#3256;&#3250;&#3265;</trd>
+  <trd lng="ko">&#44032;&#47476;&#52432;</trd>
+  <trd lng="ku">h&icirc;nkirin</trd>
+  <trd lng="ky">&c_o;&c_k;&c_u;&c_t;&c_u;&c_u;</trd>
+  <trd lng="lat">docebit</trd>
+  <trd lng="lo">&#3754;&#3757;&#3737;</trd>
+  <trd lng="lt">mokyti</trd>
+  <trd lng="lv">m&#5585;c&#5627;t</trd>
+  <trd lng="mg">mampianatra</trd>
+  <trd lng="mi">e whakaako</trd>
+  <trd lng="mk">&c_u;&c_ch;&c_a;&c_t;</trd>
+  <trd lng="ml">&#3370;&#3360;&#3391;&#3370;&#3405;&#3370;&#3391;&#3349;&#3405;&#3349;&#3393;&#3349;</trd>
+  <trd lng="mn">&c_z;&c_a;&c_a;&c_h;</trd>
+  <trd lng="mr">&#2358;&#2367;&#2325;&#2357;&#2354;&#2375;</trd>
+  <trd lng="ms">mengajar</trd>
+  <trd lng="mt">jg&#295;allmu</trd>
+  <trd lng="my">&#4126;&#4100;&#4154;&#4117;&#4145;&#4152;</trd>
+  <trd lng="ne">&#2360;&#2367;&#2325;&#2366;&#2313;&#2305;&#2331;&#2344;&#2381;</trd>
   <trd lng="nl">onderwijzen</trd>
   <trd lng="ny">kuphunzitsa</trd>
-  <trd lng="pa">&#xA28;&#xA42;&#xA70; &#xA38;&#xA3F;&#xA71;&#xA16;&#xA3F;&#xA06;</trd>
+  <trd lng="pa">&#2600;&#2626;&#2672; &#2616;&#2623;&#2673;&#2582;&#2623;&#2566;</trd>
   <trdgrp lng="pl">
     <trd>uczy&cacute;</trd>,
     <trd>naucza&cacute;</trd>,
@@ -166,7 +293,7 @@
     <trd>instruowa&cacute;</trd>,
     <trd>kszta&lstroke;ci&cacute;</trd>
   </trdgrp>
-  <trd lng="ps">&#x62F;&#x631;&#x633;</trd>
+  <trd lng="ps">&a_d;&a_r;&a_s;</trd>
   <trdgrp lng="pt">
     <trd>instruir</trd>,
     <trd>lecionar</trd>,
@@ -180,24 +307,37 @@
     </trd>,
     <trd>&c_n;&c_a;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x647;&#x6AA;&#x67B;&#x626;&#x64A; &#x6A9;&#x64A;</trd>
-  <trd lng="si">&#xD89;&#xD9C;&#xDD0;&#xDB1;&#xDCA;&#xDC0;&#xDD3;&#xDB8;&#xDA7;</trd>
+  <trd lng="rw">wigishe</trd>
+  <trd lng="sd">&a_h;&#1706;&#1659;&a_y_hamza;&a_y; &f_k;&a_y;</trd>
+  <trd lng="si">&#3465;&#3484;&#3536;&#3505;&#3530;&#3520;&#3539;&#3512;&#3495;</trd>
   <trdgrp lng="sk">
     <trd>ponau&ccaron;i&tcaron;</trd>,
     <trd>u&ccaron;i&tcaron;</trd>,
     <trd>vyu&ccaron;ova&tcaron;</trd>,
     <trd>&scaron;koli&tcaron;</trd>
   </trdgrp>
-  <trd lng="sq">m&#xEB;sojn&#xEB;</trd>
+  <trd lng="sl">pou&ccaron;evanje</trd>
+  <trd lng="sm">aoao atu</trd>
+  <trd lng="sn">dzidzisa</trd>
+  <trd lng="so">bari</trd>
+  <trd lng="sq">m&euml;sojn&euml;</trd>
   <trd lng="st">ruta</trd>
-  <trd lng="ta">&#xB95;&#xBB1;&#xBCD;&#xBB1;&#xBC1;</trd>
-  <trd lng="te">&#xC2C;&#xC4B;&#xC27;&#xC3F;&#xC02;&#xC1A;&#xC21;&#xC3E;&#xC28;&#xC3F;&#xC15;&#xC3F;</trd>
-  <trd lng="th">&#xE2A;&#xE31;&#xE48;&#xE07;&#xE2A;&#xE2D;&#xE19;</trd>
+  <trd lng="su">ngawulang</trd>
+  <trd lng="sw">kufundisha</trd>
+  <trd lng="ta">&#2965;&#2993;&#3021;&#2993;&#3009;</trd>
+  <trd lng="te">&#3116;&#3147;&#3111;&#3135;&#3074;&#3098;&#3105;&#3134;&#3112;&#3135;&#3093;&#3135;</trd>
+  <trd lng="tg">&c_t;&c_a;&c_malmol;&c_l;&c_i;&c_m;</trd>
+  <trd lng="th">&#3626;&#3633;&#3656;&#3591;&#3626;&#3629;&#3609;</trd>
   <trd lng="tl">magturo</trd>
-  <trd lng="ur">&#x633;&#x6A9;&#x6BE;&#x627;&#x646;&#x627;</trd>
-  <trd lng="vi">d&#x1EA1;y</trd>
+  <trd lng="tt">&#1257;&c_j;&c_r;&#1241;&c_t;</trd>
+  <trd lng="uk">&c_v;&c_ch;&c_i;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_s;&f_k;&#1726;&a_A;&a_n;&a_A;</trd>
+  <trd lng="uz">o&#8217;rgatish</trd>
+  <trd lng="vi">d&#7841;y</trd>
   <trd lng="vo">tid&ouml;n</trd>
-  <trd lng="yi">&#x5DC;&#x5E2;&#x5E8;&#x5E0;&#x5E2;&#x5DF;</trd>
+  <trd lng="xh">fundisa</trd>
+  <trd lng="yi">&lamed;&ayin;&resh;&nun;&ayin;&fnun;</trd>
+  <trd lng="yo">k&#7885;</trd>
   <trd lng="zu">sifundise</trd>
 </drv>
 
@@ -207,12 +347,39 @@
     <dif>
       <tld lit="I"/>anta, plena je <tld/>oj:
       <ekz>
-        <tld/>a leciono;
-      </ekz><ekz>
-        <tld/>a ekzemplo
-        <fnt><bib>MT</bib>, <lok>&Rea; 28:37</lok></fnt>,
-      </ekz><ekz>
-        rakonto, libro.
+        <tld/>a verko
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 60</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni petas min dispeli la enuon <klr>[&#8230;]</klr> per <tld/>a historio
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estos terurilo, <tld/>a ekzemplo kaj mokata&jcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 28:37</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        labirinto da <tld/>aj montroj kaj faktoj tute ne konataj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia edzi&gcirc;o estas <tld/>a leciono por &ccirc;iuj kampuloj, kiuj volas levi&gcirc;i super sian
+        staton
+        <fnt>
+          <bib>GDn</bib>
+          <lok>Akto Unua</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="instru.0plena"><tld/>plena</ref>
@@ -247,11 +414,26 @@
     <dif>
       Rilata al <tld/>ado:
       <ekz>
-        al la bordo de Nesku&ccirc;nyj sin apogis <tld/>a &scirc;ipo
+        <tld/>a se&gcirc;o <klr>(posteno)</klr> de praktika filozofo
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la libroj <klr>[&#8230;]</klr> konsistigas la <tld/>an materialon
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la bordo de <nom>Nesku&ccirc;nyj</nom> sin apogis <tld/>a &scirc;ipo
         <fnt><bib>Metrop</bib><lok>&ccirc;apitro 11a</lok></fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="instru.pri0a">pri<tld/>a</ref>
+    <trd lng="be">&c_n;&c_a;&c_v;&c_u;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
     <trdgrp lng="en">
       <trd>instructional</trd>,
       <trd>teaching</trd>
@@ -292,61 +474,101 @@
     <trd>pou&ccaron;n&yacute;</trd>,
     <trd>vyu&ccaron;ovac&iacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_a;&c_v;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_p;&c_o;&c_v;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="instru.0o">
   <kap><tld/>o</kap>
-  <snc mrk="instru.0o.instruado">
-    <dif>
-      <ref tip="dif" cel="instru.0ado"><tld lit="I"/>ado</ref>:
-      <ekz>
-        doni <tld/>on;
-      </ekz><ekz>
-        preni de io <tld/>on<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-    <trd lng="es">ense&ntilde;anza</trd>
-    <trd lng="hu">tan&iacute;t&aacute;s</trd>
-    <trdgrp lng="pl">
-      <trd>uczenie</trd>,
-      <trd>nauczanie</trd>,
-      <trd>pouczanie</trd>,
-      <trd>instruowanie</trd>,
-      <trd>kszta&lstroke;cenie</trd>
-    </trdgrp>
-    <trdgrp lng="pt">
-      <trd>instru&ccedil;&atilde;o<klr tip="amb"> (a&ccedil;&atilde;o de
-          instruir)</klr></trd>,
-      <trd>ensino<klr tip="amb"> (a&ccedil;&atilde;o de
-          instruir)</klr></trd>
-    </trdgrp>
-  </snc>
   <snc mrk="instru.0o.instruajxo">
     <dif>
-      <ref tip="dif" cel="instru.0ajxo"><tld lit="I"/>a&jcirc;o</ref>:
+      Tio, kion oni <tld/>as; <ref tip="sin" cel="instru.0ajxo"><tld lit="I"/>a&jcirc;o</ref>:
+      <ekz>
+        la&ubreve; la <tld/>o, kiun ili donos al vi, kaj la&ubreve; la decido, kiun ili diros al vi,
+        agu
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 17:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li transskribu al si kopion de &ccirc;i tiu <tld/>o en libron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 17:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el la tempo pasinta ni &ccirc;erpu <tld/>on por la tempo venonta
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto
+          1908</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la hilelismo estas <tld/>o, kiu <klr>[&#8230;]</klr> donas al li la eblon eviti &ccirc;ian
+        malverecon
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        da sciencoj li enkaptis senmezuran amasegon, sed li elmetas <tld/>ojn kun tia
+        flameco, ke li perdas la kapon
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        prenu tion &ccirc;i kiel <tld/>o, por en estonteco rigardi la aferojn kun pli kompata
+        kaj pli sa&gcirc;a okulo
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         kano <klr>(batado)</klr> kaj <tld/>o donas sa&gcirc;on
         <fnt><bib>MT</bib>, <lok>&Sen; 29:15</lok></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la bu&scirc;o de sa&gcirc;uloj semas <tld/>on
         <fnt><bib>MT</bib>, <lok>&Sen; 15:7</lok></fnt>;
-      </ekz><ekz>
-        a&ubreve;skulti, observi, mal&scirc;ati ies <tld/>ojn;
-      </ekz><ekz>
-        profiti la <tld/>ojn de profesoro;
-      </ekz><ekz>
-        la&ubreve; la plej fre&scirc;aj <tld/>oj de la scienco;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         a&ubreve;skulti la <tld/>ojn de la vivo
           <fnt>
             <bib>MT</bib>
             <lok>Sentencoj 15:31</lok>
           </fnt>, de la
         historio;
-      </ekz><ekz>
-        tiu terura ekzemplo servu al vi kiel <tld/>o.
+      </ekz>
+      <ekz>
+        tiu &ccirc;i terura ekzemplo servu al vi kiel <tld/>o
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="instru1.0o.KOMUNE">instrukcio<sncref/></ref>,
+      <ref cel="lecion.0o.kuna">leciono<sncref/></ref>,
+      <ref cel="apolog.0o">apologo</ref>,
+      <ref cel="dogm.0o">dogmo</ref>,
+      <ref cel="epifonem.0o">epifonemo</ref>,
+      <ref cel="predik.0o">prediko</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Lehre</trd>,
+      <trd>Lektion</trd>,
+      <trd>Unterweisung</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>ense&ntilde;anza</trd>,
       <trd>conocimiento</trd>
@@ -374,6 +596,63 @@
       <trd>um <ind>ensinamento</ind></trd>
     </trdgrp>
   </snc>
+  <snc mrk="instru.0o.instruado">
+    <dif>
+      <ref tip="dif" cel="instru.0ado"><tld lit="I"/>ado</ref>:
+      <ekz>
+        mi scias la pentradon tiom, ke mi povus doni <tld/>on pri &gcirc;iaj plej elementaj
+        reguloj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vivo mem donos al ili la necesan <tld/>on
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto
+          1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lingvo<tld/>o <klr>[&#8230;]</klr> por studentoj de &ccirc;iuj fakultatoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        religia <tld/>o instigas al religia maltolero
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve;le&gcirc;e estas permesita nur nedeviga <tld/>o
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Unterricht</trd>
+    <trd lng="es">ense&ntilde;anza</trd>
+    <trd lng="hu">tan&iacute;t&aacute;s</trd>
+    <trdgrp lng="pl">
+      <trd>uczenie</trd>,
+      <trd>nauczanie</trd>,
+      <trd>pouczanie</trd>,
+      <trd>instruowanie</trd>,
+      <trd>kszta&lstroke;cenie</trd>
+    </trdgrp>
+    <trdgrp lng="pt">
+      <trd>instru&ccedil;&atilde;o<klr tip="amb"> (a&ccedil;&atilde;o de
+          instruir)</klr></trd>,
+      <trd>ensino<klr tip="amb"> (a&ccedil;&atilde;o de
+          instruir)</klr></trd>
+    </trdgrp>
+  </snc>
   <trdgrp lng="cs">
     <trd>instrukce</trd>,
     <trd>instrukt&aacute;&zcaron;</trd>,
@@ -390,18 +669,12 @@
     <trd>u&ccaron;enie</trd>,
     <trd>vyu&ccaron;ovanie</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_u;&c_r;&c_o;&c_k;</trd>,
+    <trd>&c_n;&c_a;&c_u;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_o;&c_v;&c_ch;&c_a;&c_n;&c_n;&c_ja;</trd>
+  </trdgrp>
   <trd lng="vo">tidam</trd>
-  <adm>
-     Indus reverki &ccirc;i tiun deriva&jcirc;on la&ubreve; PIV, kiu
-     konservas
-     nur la sencon "instru(it/at)a&jcirc;(ar)o". Efektive la ekzemploj
-     por la senco "instruado" tute ne konvinkas,
-     ke ili ne povas esti interpretataj per "instrua&jcirc;o". Cetere,
-     cxar "instrua&jcirc;o" estas tre malofta, oni prefere difinu
-     &gcirc;in
-     referencante al "instruo".
-     <aut>MB</aut>
-   </adm>
 </drv>
 
 <drv mrk="instru.0ado">
@@ -412,14 +685,54 @@
       Ago, <ref tip="lst" cel="art.0o.tehxniko" lst="voko:artoj">arto</ref> 
       de tiu, kiu <tld/>as:
       <ekz>
-        nova metodo por <tld/>ado;
-      </ekz><ekz>
+        la homamasoj miregis pri lia <tld/>ado
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 7:28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li admonis ilin sin gardi <klr>[&#8230;]</klr> kontra&ubreve;
+        la <tld/>ado de la Fariseoj kaj Sadukeoj.
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 16:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ado de retoriko kiel arto
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estis nemulte da metodiko en lia instruado, sed la lernantoj &gcirc;uis
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li a&ubreve;dis en Ostriano la <tld/>adon kaj rakonton de la apostolo
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;kio estas al vi malagrabla, tion ne faru al ceteraj&rightquot;, tiel li resumis la tutan
+        <tld/>adon
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la ministro de la publika <tld/>ado
         <fnt>(<aut>Zamenhof</aut>: <vrk>Parolo anta&ubreve;
             la Unua Kongreso Esperantista en Boulogne sur Mer,
-            1905</vrk>)</fnt>;
-      </ekz><ekz>
-        ricevi bonan <tld/>adon.
+            1905</vrk>)</fnt>.
       </ekz>
     </dif>
   </snc>
@@ -491,6 +804,7 @@
     <trd>v&yacute;u&ccaron;ba</trd>,
     <trd>&scaron;kolenie</trd>
   </trdgrp>
+  <trd lng="uk">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_o;&c_v;&c_a;&c_n;&c_je; &c_n;&c_a;&c_v;&c_ch;&c_a;&c_n;&c_n;&c_ja;</trd>
   <trd lng="vo">tid&uuml;p</trd>
 </drv>
 
@@ -498,7 +812,32 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc>
     <dif>
-      Kono, scio <tld/>ita al iu:
+      Kono, scio, materialo por <tld/>i:
+      <ekz>
+        eblis lerni <klr>[&#8230;]</klr> disdividi instrua&jcirc;ojn la&ubreve; teorioj de la kogna scienco
+        kaj aran&gcirc;i bonan kafopa&ubreve;zon
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>IJF 2017: La unuan fojon kiel... (Fotoj: Ariel Palmer)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iliaj <tld/>a&jcirc;oj tute ne plu kongruas kun ilia biblio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ferriol Macip i Bonet</aut>
+          <vrk><url ref="https://www.monato.be/2007/009183.php"
+              >Gvatu la turon!</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Andreo <nom>Cseh</nom> ligis &ccirc;iun <tld/>a&jcirc;on al agrabla, amuza traviva&jcirc;o
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 4 (102)</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la baza Esperanto-scio akirata per tiu &ccirc;i metodo estas tre
         konvena kiel <tld/>a&jcirc;o minimuma
@@ -528,7 +867,10 @@
     <trd>&c_u;&c_r;&c_o;&c_k;</trd>,
     <trd>&c_v;&c_je;&c_d;&c_y;</trd>
   </trdgrp>
-  <trd lng="de">Lehre</trd>
+  <trdgrp lng="de">
+    <trd>Lehre</trd>,
+    <trd>Unterweisung</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>ense&ntilde;anza</trd>,
     <trd>lecci&oacute;n</trd>
@@ -573,15 +915,57 @@
       <ref cel="lern.0ejo" tip="dif">Lernejo</ref>;
       salono ekipita por <tld/>ado:
       <ekz>
+        <tld/>ejo, kongresejo malfermos siajn pordojn
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la E&ubreve;ropaj Lernejoj estas specifaj <tld/>ejoj, fonditaj anta&ubreve; pli ol 60 jaroj
+        por doni edukon al la etuloj de e&ubreve;ropaj funkciuloj
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Tiel la mondo...</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &ccirc;iuj kolekti&gcirc;is silente en la granda <tld/>ejo
         <fnt>
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
           <lok>La Stelmona&hcirc;ejo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu <tld/>ejo, &ccirc;u unugrada, &ccirc;u duagrada, disponas pri aroj da plej modernaj
+        elektronikaj ekipa&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2010/010124.php"
+              >Revo realigita</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum 40 jaroj en diversaj <tld/>ejoj mi kutimis &ndash; &ccirc;u bone, &ccirc;u malbone &ndash; suvereni
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2015/011570.php"
+              >Po&scirc;komputiloj kaj klas&ccirc;ambroj</url></vrk>
+          <lok>2015</lok>
         </fnt>.
       </ekz>
-   </dif>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="auxdit.0o">a&ubreve;ditorio</ref>,
+      <ref cel="cxambr.klas0o">klas&ccirc;ambro</ref>,
+      <ref cel="preleg.0ejo">prelegejo</ref>
+    </refgrp>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_v;&c_u;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_w;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_a;</trd>
   <trd lng="cs">u&ccaron;ebna</trd>
   <trdgrp lng="de">
     <trd>Schule</trd>,
@@ -611,6 +995,12 @@
   <trd lng="pt">escola</trd>
   <trd lng="ru">&c_u;&c_ch;&c_je;&c_b;&c_n;&c_o;&c_je; &c_z;&c_a;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">u&ccaron;eb&ncaron;a</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_a;&c_v;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_je; &c_p;&c_r;&c_i;&c_m;&c_ib;&c_shch;&c_je;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_n;&c_a;&c_v;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_a; &c_k;&c_ib;&c_m;&c_n;&c_a;&c_t;&c_a;</trd>,
+    <trd>&c_k;&c_l;&c_a;&c_s;</trd>,
+    <trd>&c_n;&c_a;&c_v;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_z;&c_a;&c_k;&c_l;&c_a;&c_d;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="instru.0igxi">
@@ -620,14 +1010,36 @@
     <dif>
       I&gcirc;i <tld/>ita:
       <ekz>
-        <tld/>i&gcirc;i sen profesoro;
-      </ekz><ekz>
-        per fremda sperto neniu <tld/>i&gcirc;as;
-      </ekz><ekz>
+        multaj &ccirc;eestas paroladon, &ccirc;ar ili deziras <tld/>i&gcirc;i kaj &gcirc;ui la oratora&jcirc;on
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili balda&ubreve; lernis fari &ccirc;iuspecojn da objektoj el kano <klr>[&#8230;]</klr>, ili &ccirc;ion
+        faris lerte, post kiam <tld/>i&gcirc;is
+        <fnt>
+          <bib>Rob</bib>
+          <lok>Parto V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <tld/>i&gcirc;u, ju&gcirc;istoj de la tero
         <fnt>
           <bib>MT</bib>
           <lok>Psalmaro 2:10</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        tradicie knabinoj ne tiom bone <tld/>i&gcirc;is kiom knaboj kaj do malmultas virinoj
+        ekzemple en oficaj kaj registaraj postenoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sagbadjelou Kokou/pg</aut>
+          <vrk><url ref="https://www.monato.be/2006/008955.php"
+              >In-iciato kontentiga</url></vrk>
+          <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -637,6 +1049,8 @@
     <trd>&c_v;&c_y;&c_v;&c_u;&c_ch;&c_y;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="de">
+    <trd><ind>belehrt</ind> werden</trd>,
+    <trd><ind>unterrichtet</ind> werden</trd>,
     <trd>lernen</trd>
   </trdgrp>
   <trdgrp lng="es">
@@ -721,7 +1135,7 @@
     <trd>&c_v;&c_y;&c_k;&c_l;&c_a;&c_d;&c_ch;&c_y;&c_k;</trd>
   </trdgrp>
   <trd lng="bg">&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;</trd>
-  <trd lng="bo">&#xF51;&#xF42;&#xF7A;&#xF0B;&#xF62;&#xF92;&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_ga;&t_drengbu;&t_tsheg;&t_ra;&t_gata;&t_na;&t_tsheg;</trd>
   <trd lng="cs">vyu&ccaron;uj&iacute;c&iacute;</trd>
   <trdgrp lng="de">
     <trd>Lehrer</trd>,
@@ -772,6 +1186,7 @@
     <trd>&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">vyu&ccaron;uj&uacute;ci</trd>
+  <trd lng="uk">&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   <trd lng="vo">tidel</trd>
 </drv>
 
@@ -781,9 +1196,6 @@
     <dif>
       Tuto de la akiritaj konoj, scioj; stato de <tld/>ita homo:
       <ekz>
-        havi ampleksan <tld/>itecon;
-      </ekz>
-      <ekz>
         li ne posedis tiel saman miregindan <tld/>itecon kiel la du
         aliaj
         <fnt>
@@ -792,10 +1204,25 @@
         </fnt>;
       </ekz>
       <ekz>
+        Klaro &ccirc;iam sentis lian superecon en la <tld/>iteco
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         mi ne pensas, ke mia talento por pentrado estas granda, kaj la
         <tld/>iteco, kiun mi havas en &gcirc;i, tute ne povas esti nomata alta
         <fnt>
           <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgra&ubreve; lia bonega <tld/>iteco, liaj lerteco kaj spriteco, lia filozofio estas
+        la filozofio de papilio
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VI</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -843,6 +1270,7 @@
     <trd>vzdelanie</trd>,
     <trd>vzdelanos&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&c_n;&c_a;&c_v;&c_ch;&c_je;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="instru.0itulo">
@@ -851,11 +1279,33 @@
     <dif>
       <ref tip="dif" cel="kler.0ulo">Klerulo</ref>:
       <ekz>
+        <tld/>itulo entreprenis gravan sciencan laboron, sed ne havis la rimedojn por
+        &gcirc;in efektivigi
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>itulo eliris sur la balkonon, <klr>[&#8230;]</klr> kaj apena&ubreve; la steloj
+        ekellumis el la klara etero, li eksentis novan vivon
+        <fnt>
+          <bib>DL</bib>
+          <lok>Dua Libro de l' Lingvo Internacia</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel la <tld/>ituloj scii&gcirc;is pri la nomo de &ccirc;iu stelo &mdash; tion &ccirc;i mi jam neniel
+        povas kompreni
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la homoj, kiuj okupas sin je &ccirc;ia plej sencela kaj senutila
-        sensenca&jcirc;o, 
-        se &gcirc;i nur estas en modo kaj konforma al la rutinaj ideoj de la
-        amaso, 
-        &gcirc;uas <klr>[...]</klr> la honoran nomon de <tld/>ituloj
+        sensenca&jcirc;o, se &gcirc;i nur estas en modo kaj konforma al la rutinaj ideoj de la
+        amaso, &gcirc;uas <klr>[...]</klr> la honoran nomon de <tld/>ituloj
         <fnt>
           <bib>EE</bib>
         </fnt>.
@@ -892,6 +1342,7 @@
   </trdgrp>
   <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j; &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;</trd>
   <trd lng="sk">vedec</trd>
+  <trd lng="uk">&c_u;&c_ch;&c_je;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="instru.mal0i">
@@ -913,6 +1364,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_d;&c_v;&c_u;&c_ch;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd><klr>(etwas)</klr> austreiben</trd>,
+    <trd><klr>(etwas)</klr> abgew&ouml;hnen</trd>
+  </trdgrp>
   <trd lng="es">desaprender</trd>
   <trd lng="fr">d&eacute;sapprendre<klr> (&agrave; qqn)</klr></trd>
 </drv>
@@ -927,8 +1383,17 @@
       <ekz>
         pri<tld/>a metodo, programo;
       </ekz><ekz>
-        pri<tld/>a se&gcirc;o<fnt>Z</fnt>
-        <klr>(katedro pri pedagogio)</klr>.
+        pri<tld/>a se&gcirc;o<fnt><bib>PV</bib></fnt>
+        <klr>(katedro pri pedagogio)</klr>;
+      </ekz>
+      <ekz>
+        liaj publika&jcirc;oj pri kulturaj, lokhistoriaj kaj pri<tld/>aj problemoj aperis en
+        <klr>[pluraj revuoj]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=256667"
+              >Guszt&aacute;v Hermann</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="instru.0a.0rilata"><tld/>a<sncref/></ref>
@@ -962,13 +1427,26 @@
   </trdgrp>
   <trd lng="pt">pedag&oacute;gico</trd>
   <trd lng="ru">&c_p;&c_je;&c_d;&c_a;&c_g;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_a;&c_v;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_p;&c_je;&c_d;&c_a;&c_g;&c_o;&c_g;&c_ib;&c_ch;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="instru.mem0ito">
   <kap>mem<tld/>ito</kap>
   <snc mrk="instru.mem0ito.PED">
     <uzo tip="fak">PED</uzo>
-    <ref tip="dif" cel="lern.mem0into">memlerninto</ref>
+    <dif>
+      <ref tip="dif" cel="lern.mem0into">Memlerninto</ref>:
+      <ekz>
+        &scirc;i estis maljuna kaj mem<tld/>ita
+        <fnt>
+          <bib>VRA</bib>
+          <lok>Helmer Grundstr&ouml;m</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_a;&c_m;&c_a;&c_v;&c_u;&c_k;</trd>,
@@ -988,6 +1466,7 @@
   <trd lng="pt">autodidata</trd>
   <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_ch;&c_k;&c_a;</trd>
   <trd lng="sk">samouk</trd>
+  <trd lng="uk">&c_s;&c_a;&c_m;&c_o;&c_u;&c_k;</trd>
 </drv>
 
 <drv mrk="instru.moral0o">
@@ -1010,9 +1489,23 @@
         <fnt>
           <bib>MT</bib>
           <lok>Jeremia 17:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kaj kion diras la moral<tld/>o? &dash; estas pli bone kokokrii, ol esti supersatigita
+        kaj derompi&gcirc;i
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Korta koko kaj ventkoko</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="moral.0ajxo.moralinstruo">morala&jcirc;o<sncref/></ref>
+    <refgrp tip="vid">
+      <ref cel="admon.0o">admono</ref>,
+      <ref cel="lecion.0o.kuna">leciono<sncref/></ref> de moroj,
+      <ref cel="predik.0o">prediko</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>pou&ccaron;en&iacute; o mor&aacute;lce</trd>,
@@ -1043,6 +1536,10 @@
         (&c_b;&c_a;&c_s;&c_n;&c_i; &c_i; &c_t;.&c_p;.)</klr></trd>
   </trdgrp>
   <trd lng="sk">pou&ccaron;enie o mor&aacute;lke</trd>
+  <trdgrp lng="uk">
+    <trd>&c_m;&c_o;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_je; &c_v;&c_i;&c_h;&c_o;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_n;&c_a;&c_v;&c_ch;&c_a;&c_n;&c_n;&c_ja; &c_p;&c_r;&c_a;&c_v;&c_i;&c_l;&c_a;&c_m; &c_m;&c_o;&c_r;&c_a;&c_l;&c_ib;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="instru.0plena">
@@ -1052,9 +1549,25 @@
       <ref tip="dif" cel="instru.0a.0plena"><tld lit="I"/>a
       <sncref/></ref>:
       <ekz>
-        &Hcirc;ano&hcirc; <klr>[&#x2026;]</klr> estis anta&ubreve;diluva patriarko, la&ubreve; la
-        <tld/>plena 
-        legendo de la biblia Genezo, praavo de Noao
+        li trovis vian konversacion tre interesa, agrabla kaj <tld/>oplena
+        <fnt>
+          <bib>TAA</bib>
+          <lok>&Ccirc;apitro IV.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tre <tld/>plena enciklopedieto pri la eventoj en la iama &Ccirc;e&hcirc;oslovakio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2006/008886.php"
+              >Prisilentita heroo</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>&Hcirc;ano&hcirc;</nom> <klr>[&#8230;]</klr> estis anta&ubreve;diluva patriarko, la&ubreve; la
+        <tld/>plena legendo de la biblia Genezo, praavo de Noao
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=318243">Libro
@@ -1063,6 +1576,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_v;&c_u;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trdgrp lng="de">
     <trd>lehrreich</trd>,
     <trd>instruktiv</trd>
@@ -1071,33 +1585,32 @@
   <trd lng="fr">instructif</trd>
   <trd lng="hu">tanuls&aacute;gos</trd>
   <trd lng="id">instruktif</trd>
-  <trd lng="ru">
-    &c_p;&c_o;&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
-  </trd>
+  <trd lng="ru">&c_p;&c_o;&c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.44 2020/05/06 14:10:20
-Eko Nur Syah Hidayat: korekteto
+versio 1.132 2022/09/29 22:36:59
+Ulrich Fellmann: instrui: alidistribuo kaj pliigo de DE trdj
 
-Revision 1.41  2016/02/28 19:10:38  revo
-Wolfram Diestel: riparo: adm forighis per skripto de M.Laer pro
-interlokita traduko
+versio 1.131 2022/06/19 10:31:51
+Wolfram Diestel: +ref, trd de
 
-Revision 1.40  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.130 2022/06/19 08:31:38
+Wolfram Diestel: ~i&gcirc;i..~plena: +ekz-oj, ref-oj
 
-Revision 1.39  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.129 2022/06/19 07:25:12
+Wolfram Diestel: ~o..~ejo: ekz-oj, ref-oj, trd de
 
-Revision 1.38  2014/08/25 11:10:10  revo
-Guillermo Molleda Jimena: trd es
+versio 1.128 2022/06/18 19:22:40
+Wolfram Diestel: ~a: +ekz-oj
 
-Revision 1.37  2014/07/03 17:10:19  revo
-Eko Nur Syah Hidayat: +id
+versio 1.127 2022/06/18 13:34:14
+Wolfram Diestel: ~i: +ekz-oj; +2 snc "arton" k "kiel agi"
 
-Revision 1.36  2013/09/22 19:10:33  revo
-Wolfram Diestel: referenco al listo artoj, +germ trd
+versio 1.126 2022/04/30 08:42:42
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.121 2021/10/25 08:35:25
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fortik.xml,v 1.26 2021/05/29 10:56:53 revo Exp $">
+<art mrk="$Id: fortik.xml,v 1.35 2022/03/31 08:39:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fortik</rad>/a <fnt><bib>PV</bib></fnt>
@@ -10,23 +10,106 @@
   <kap><ofc>*</ofc><tld/>a</kap>
   <snc mrk="fortik.0a.materialo">
     <dif>
-      Havanta firman, rezistan konsiston; malfacile rompebla,
-      difektebla, venkebla:
+      Havanta <ref cel="firm.0a">firma</ref>n, rezistan konsiston:
       <ekz>
-        <tld/>a masona&jcirc;o, fadeno, membro;
+        altaj kaj <tld/>aj muroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 28:52</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a atleto;
+        <tld/>a turo estis meze de la urbo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 9:51</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a sano, volo, argumento
-        <klr>(malfacile refutebla)</klr>;
+        <tld/>a kastelo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 31:2</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a firmo, amikeco<fnt>Z</fnt>, drapo;
+        <tld/>aj fundamentoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ezra 6:3</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>e ligi;
+        <tld/>a kiel suba muel&scirc;tono
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 41:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        ili fermadis sian cerbon per la plej <tld/>aj seruroj
+        <fnt>
+          <bib>EE</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        reto, plektita el facila <klr>(malpeza)</klr> sed <tld/>a materialo
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; la pordo ku&scirc;is bonega kaj tre <tld/>a mato
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        skuante siajn fingrojn ankora&ubreve; rigidajn pro la 
+        <tld/>a manpremo, kiun Viktoro al li donis
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kaj bela estas &scirc;ia vesto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 31:25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pordisto, kiu estis <tld/>a knabego, eliris el sia kajuto
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i enfermis tiun dikan skriba&jcirc;on en <tld/>an koverton, sigelis per vakso
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per <tld/>a frapo de sia malgranda pikfosilo, li rompis la glacian elstara&jcirc;on
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li portis sur siaj <tld/>aj &scirc;ultroj <klr>[&#8230;]</klr> la pezon de tiel granda ma&scirc;ino
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXV</lok>
+        </fnt>;
       </ekz>
       <ekz>
         vitro kaj feli&ccirc;o ne estas <tld/>aj
@@ -36,8 +119,8 @@
     <refgrp tip="vid">
       <ref cel="firm.0a.fiksita">firma<sncref/></ref>,
       <ref cel="fer.0a">fera</ref>,
-      <ref cel="sxtal.0a">&scirc;tala</ref>,
-      <ref cel="rok.0o">roko</ref>
+      <ref cel="stabil.0a">stabila</ref>,
+      <ref cel="sxtal.0a">&scirc;tala</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_m;&c_o;&c_c;&c_n;&c_y;</trd>,
@@ -45,7 +128,8 @@
     </trdgrp>
     <trdgrp lng="de">
       <trd>kr&auml;ftig</trd>,
-      <trd>fest</trd>
+      <trd>fest</trd>,
+      <trd>stabil</trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>durable</trd>,
@@ -65,38 +149,105 @@
       <trd>kukuh</trd>,
       <trd>teguh</trd>
     </trdgrp>
-   <trdgrp lng="it">
+    <trdgrp lng="it">
      <trd>forte</trd>,
      <trd>solido</trd>,
      <trd>robusto</trd>,
      <trd>resistente</trd>,
      <trd>vigoroso</trd>,
      <trd>saldo<klr> (forte, solido)</klr></trd>
-  </trdgrp>
+    </trdgrp>
     <trdgrp lng="nl">
       <trd>robuust</trd>,
       <trd>sterk<klr tip="ind"> (robuust)</klr></trd>
     </trdgrp>
-  <trdgrp lng="pt">
-    <trd>forte</trd>,
-    <trd>s&oacute;lido</trd>,
-    <trd>rijo</trd>,
-    <trd>robusto</trd>,
-    <trd>membrudo</trd>,
-    <trd>vigoroso</trd>,
-    <trd>possante</trd>
-  </trdgrp>
+    <trdgrp lng="pt">
+      <trd>forte</trd>,
+      <trd>s&oacute;lido</trd>,
+      <trd>rijo</trd>,
+      <trd>robusto</trd>,
+      <trd>membrudo</trd>,
+      <trd>vigoroso</trd>,
+      <trd>possante</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_k;&c_r;&c_je;&c_p;&c_k;&c_i;&c_j;</trd>,
       <trd>&c_p;&c_r;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <snc mrk="fortik.0a.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Malfacile <ref tip="ant" cel="romp.0ebla">rompebla</ref>, 
+      <ref tip="ant" cel="difekt.0ebla">difektebla</ref>, venkebla:
+      <ekz>
+        kiel ombro estas niaj tagoj sur la tero, nenio <tld/>a
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 29:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni venis al tiu <tld/>a konvinko
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto
+          1908</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        honesta kaj <tld/>a libereco povas esti atingita nur per absoluta justeco
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia cerbo ne &scirc;ajnas ankora&ubreve; sufi&ccirc;e <tld/>a por toleri senriske du tiajn kaj
+        samtempajn ekskuojn
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ju pli precizaj la kalkuloj, des pli <tld/>a la amikeco
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="efemer.0a">efemera</ref>,
+      <ref cel="febl.0a">febla</ref>,
+      <ref cel="kaduk.0a.FIG">kaduka<sncref/></ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="rezist.ne0ebla">nerezistebla</ref>,
+      <ref cel="sxance.ne0ebla">ne&scirc;ancelebla</ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_u;&c_s;&c_t;&c_o;&c_j;&c_l;&c_ib;&c_v;&c_y;</trd>,
+      <trd>&c_n;&c_je;&c_p;&c_a;&c_h;&c_ib;&c_s;&c_n;&c_y;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>fest</trd>,
+      <trd>unverbr&uuml;chlich</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="fortik.0a.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Provizita je muregoj:
+      Provizita je defendaj rimedoj, remparoj ks:
       <ekz>
-        <tld/>a urbo, loko.
+        <tld/>a urbo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 10:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a loko.
       </ekz>
     </dif>
     <trd lng="be">&c_u;&c_m;&c_a;&c_c;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
@@ -131,6 +282,7 @@
     <trd>statn&yacute;</trd>,
     <trd>st&aacute;ly</trd>
   </trdgrp>
+  <trd lng="uk">сильний</trd>
 </drv>
 
 <drv mrk="fortik.0igi">
@@ -140,20 +292,49 @@
     <dif>
       Igi ion <tld/>a, a&ubreve; pli <tld/>a:
       <ekz>
-        <tld/>igi palacon, vila&gcirc;on;
+        Dio <tld/>igas min per forto
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 22:33</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        oni <klr>...</klr> <tld/>igas per dika muro el tero
-        <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj, la
-        lo&gcirc;ejoj
-        de
-        la termitoj</lok></fnt>;
+        mi esperis <klr>[&#8230;]</klr> <tld/>igi la le&gcirc;ojn per kontra&ubreve;le&gcirc;a&jcirc;oj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>igi la amon<fnt>Z</fnt>;
+        nia nova kongreso <tld/>igos <klr>[&#8230;]</klr> la amon al la interna ideo de la
+        Esperantismo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i&gcirc;ado de lingvo internacia<fnt>Z</fnt>.
+        juna libera &ccirc;evalido, kiu &ccirc;iutage pli <tld/>igas sian potencan muskolaron
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la trabaron de la estonta konstruo <klr>[ili]</klr> &ccirc;irka&ubreve;e <tld/>igas per dika
+        muro el tero
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi metis kvar stangojn flanko &ccirc;e flanko, kaj la&ubreve;lar&gcirc;e, surmetis sur ilin
+        mallongajn pecetojn de tabulo por <tld/>igi mian floson
+        <fnt>
+          <bib>Rob</bib>
+          <lok>Parto II</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -196,6 +377,11 @@
   <trd lng="nl">versterken</trd>
   <trd lng="ru">&c_u;&c_k;&c_r;&c_je;&c_p;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">opevni&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_u;&#x43A;&c_r;&c_ib;&#x43F;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_u;&#x43A;&c_r;&c_ib;&#x43F;&#x43B;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&c_z;&#x43C;&c_ib;&c_c;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fortik.al0igi">
@@ -203,14 +389,42 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="fortik.al0igi.KOMUNE">
     <dif>
-      Tre solide alfiksi, nodi, najli a&ubreve; iel teni &ccirc;e io:
+      Tre solide alfiksi, nodi, najli a&ubreve; iel <ref cel="ten.0i">teni</ref> &ccirc;e io:
       <ekz>
-        viaj &scirc;nuregoj malforti&gcirc;is; ili jam ne al<tld/>igas
+        viaj &scirc;nuregoj malforti&gcirc;is, ili jam ne al<tld/>igas
         la maston
-        <fnt><bib>MT</bib>, <lok>&Jes; 33:23</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Jes; 33:23</lok></fnt>;
+      </ekz>
+      <ekz>
+        fandu <klr>[&#8230;]</klr> kvar orajn ringojn, kaj al<tld/>igu ilin sur &gcirc;iaj kvar
+        anguloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 25:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al<tld/>igu la plektitajn &ccirc;enetojn al la kadretoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 28:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Grace</nom> <klr>[&#8230;]</klr> ree al<tld/>igis kelkajn simplajn florojn, per kiuj &scirc;i
+        anta&ubreve;e ornamis la harojn de sia fratino
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_u;&c_m;&c_a;&c_c;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_m;&c_a;&c_c;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_a;&c_c;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>arrimer</trd>,
     <trd>fixer solidement</trd>
@@ -218,52 +432,132 @@
   <trdgrp lng="it">
     <trd>fissare<klr> (legare, saldare, puntare)</klr></trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&c_r;&c_i;&#x43A;&c_r;&c_ib;&#x43F;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&#x43A;&c_r;&c_ib;&#x43F;&#x43B;&#x44F;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fortik.0ajxo">
   <kap><ofc>*</ofc><tld/>a&jcirc;o</kap>
   <fnt><bib>PIV1</bib></fnt>
+  <uzo tip="fak">ARKI</uzo>
+  <uzo tip="fak">MIL</uzo>
   <snc mrk="fortik.0ajxo.ARKI">
-    <uzo tip="fak">ARKI</uzo>
-    <uzo tip="fak">MIL</uzo>
     <dif>
-      <tld lit="F"/>a <ref tip="super" cel="konstr.0ajxo.domo">konstrua&jcirc;o</ref> por defendi lokon,
-      urbon
-      kontra&ubreve; atakantoj:
+      Loko, ekipita per defendaj rimedoj kiel remparoj ktp.:
+      <ekz>
+        <nom>David</nom> eklo&gcirc;is en la <tld/>a&jcirc;o, kaj donis al &gcirc;i la nomon: Urbo de <nom>David</nom>
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 5:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni respektis nin, kiel garnizonon en militakirita <tld/>a&jcirc;o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la soldatoj de la galeroj pafis per multnombra artilerio, al kiu respondadis
+        tiuj, kiuj estis en la muregoj kaj <tld/>a&jcirc;oj de la urbo
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la terura kardinalo ordonis, ke oni plenigu da pulvo la subterajn galeriojn de
+        la malnova <tld/>a&jcirc;o kaj la fe&ubreve;dala domego eksplodis unumase kun tondra bruego
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sin montras al mi la malaltaj konturoj de l&#8217; antikva Peter-Pa&ubreve;l-<tld/>a&jcirc;o, el
+        kies mezo la Peter-Pa&ubreve;l-katedralo levas sian gracian turon
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+          <lok>En Peterburgo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pitoreske <klr>[&#8230;]</klr> ku&scirc;is <nom>Kreml</nom>, la <tld/>a&jcirc;o, konstruita dum la tempo de
+        <nom>Jekaterina II</nom> kaj enhavanta la plej belajn templojn de <nom>Tula</nom>
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+          <lok>&Ccirc;e Lev Tolstoj en Jasnaja Poljana</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         ruinoj de malnova <tld/>a&jcirc;o
         <fnt><bib>Voja&gcirc;Imp</bib>, <lok>el odeso &gcirc;is
         Konstantinopolo</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="burg.0o">burgo</ref>,
+      <ref cel="citade.0o">citadelo</ref>,
+      <ref cel="fortres.0o">fortreso</ref>,
+      <ref cel="fuort.0o">fuorto</ref>,
+      <ref cel="kastel.0o">kastelo</ref>
+    </refgrp>  
+    <trdgrp lng="be">
+      <trd>&c_f;&c_a;&c_r;&c_t;&c_e;&c_c;&c_y;&c_ja;</trd>,
+      <trd>&c_u;&c_m;&c_a;&c_c;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+    </trdgrp>
+    <trd lng="bo">&t_ma;&t_kha;&t_ra;&t_tsheg;</trd>
+    <trdgrp lng="de">
+      <trd>Festung</trd>,
+      <trd>Burg</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>fort</trd>,
+      <trd>fortification</trd>
+    </trdgrp>
+    <trd lng="fr">fortifications</trd>
+    <trdgrp lng="hu">
+      <trd>er&odblac;&iacute;tm&eacute;ny</trd>,
+      <trd>v&aacute;r</trd>
+    </trdgrp>
+    <trd lng="id">benteng</trd>
+    <trdgrp lng="it">
+      <trd>forte<klr> (mil.)</klr></trd>,
+      <trd>fortificazione</trd>
+    </trdgrp>
+    <trd lng="nl">vesting</trd>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_r;&c_je;&c_p;&c_o;&c_s;&c_t;&c_mol;</trd>,
+      <trd>&c_u;&c_k;&c_r;&c_je;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_f;&c_a;&c_r;&c_t;&c_e;&c_c;&c_y;&c_ja;</trd>,
-    <trd>&c_u;&c_m;&c_a;&c_c;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
-  </trdgrp>
-  <trd lng="bo">&#xF58;&#xF41;&#xF62;&#xF0B;</trd>
-  <trdgrp lng="de">
-    <trd>Festung</trd>,
-    <trd>Burg</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>fort</trd>,
-    <trd>fortification</trd>
-  </trdgrp>
-  <trd lng="fr">fortifications</trd>
-  <trdgrp lng="hu">
-    <trd>er&odblac;&iacute;tm&eacute;ny</trd>,
-    <trd>v&aacute;r</trd>
-  </trdgrp>
-  <trd lng="id">benteng</trd>
-  <trdgrp lng="it">
-    <trd>forte<klr> (mil.)</klr></trd>,
-    <trd>fortificazione</trd>
-  </trdgrp>
-  <trd lng="nl">vesting</trd>
-  <trdgrp lng="ru">
-    <trd>&c_k;&c_r;&c_je;&c_p;&c_o;&c_s;&c_t;&c_mol;</trd>,
-    <trd>&c_u;&c_k;&c_r;&c_je;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  <snc mrk="fortik.0ajxo.remparo">
+    <dif>
+      Tiuj defendaj rimedoj mem, t.e. 
+      <ref tip="sub" cel="bastio.0o.fortikajxo">bastiono</ref>j, 
+      <ref tip="sub" cel="rempar.0o.ARKI">remparo</ref>j kc:
+      <ekz>
+        ni atingis la Grandan Muron, kiu estis konstruita kiel <tld/>a&jcirc;o por gardi la
+        landon
+        <fnt>
+          <bib>Rob</bib>
+          <lok>Parto V</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_f;&c_a;&c_r;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y; &c_b;&c_u;&c_d;&c_y;&c_n;&c_a;&c_k;</trd>,
+      <trd>&c_f;&c_a;&c_r;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_y;&c_j;&c_n;&c_a;&c_je; &c_z;&c_b;&c_u;&c_d;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+    </trdgrp>
+    <trd lng="de">Befestigung <klr>(milit.)</klr></trd>
+  </snc>
+  <trdgrp lng="uk">
+    <trd>&c_u;&#x43A;&c_r;&c_ib;&#x43F;&#x43B;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_s;&c_ib;&c_ch;</trd>,
+    <trd>&c_f;&#x43E;&c_r;&c_t;&c_je;&c_c;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -279,6 +573,7 @@
       &gcirc;in sie&gcirc;i.
     </dif>
   </snc>
+  <trd lng="de">Circumvallation</trd>
   <trdgrp lng="fr">
     <trd>fortification des assi&eacute;geants</trd>,
     <trd>circonvallation<klr tip="ind"> (et
@@ -298,6 +593,7 @@
     rigardas al la sie&gcirc;ita urbo, la alia al la malanta&ubreve;o).
     <aut>MB</aut>
   </adm>
+  <trd lng="uk">&c_v;&c_ib;&c_j;&c_s;&#x44C;&#x43A;</trd>
 </drv>
 
 <drv mrk="fortik.mal0a">
@@ -307,6 +603,67 @@
       Ne facile rezistanta, ne longe eltenanta;
       <ref tip="vid" cel="romp.igxem0a.KOMUNE">rompi&gcirc;ema</ref>,
       <ref tip="sin" cel="fragil.0a.KOMUNE">fragila</ref>:
+
+      <ekz>
+        <klr>[tiuj]</klr> turoj pro sia formo estas mal<tld/>aj kaj facile renversi&gcirc;as
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        paca vivado sur la tero kaj &ccirc;eso de militoj estas ebla ne per mal<tld/>aj kaj
+        maljustaj kompromisoj, sed nur per justeco
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo.</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu &ccirc;i nova&jcirc;o ne estas por mal<tld/>a korpo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> malsanulo trovi&gcirc;is ankora&ubreve; tro mal<tld/>a: <klr>[&#8230;]</klr> &gcirc;is
+        morga&ubreve; absoluta ripozo estas necesega
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mal<tld/>a etulo, kiu multe suferis en la aku&scirc;laborado
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvankam lia &scirc;ajno estis mal<tld/>a, tamen Viktoro havis &scirc;talajn muskolojn
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam li a&ubreve;dis alproksimi&gcirc;antan piedsonon, li alprenis aspekton de mal<tld/>a
+        maljunulo, laca pro longa voja&gcirc;o
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        miaj botelegoj kaj potoj estis tro mal<tld/>aj por elporti sian propran pezon,
+        kaj ili disfalis
+        <fnt>
+          <bib>Rob</bib>
+          <lok>Parto III</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         ili estis tro mal<tld/>aj por terkultivado
         <fnt>
@@ -317,12 +674,27 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="febl.0a">febla</ref>,
+      <ref cel="gracil.0a">gracila</ref>,
+      <ref cel="kaduk.0a">kaduka</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_ja;&c_m;&c_o;&c_c;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_t;&c_r;&c_y;&c_v;&c_a;&c_l;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_d;&c_z;&c_je;&c_j;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>chatrn&yacute;</trd>,
     <trd>nepevn&yacute;</trd>,
     <trd>snadno po&scaron;koditeln&yacute;</trd>,
     <trd>vetch&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>schw&auml;chlich</trd>,
+    <trd>hinf&auml;llig</trd>,
+    <trd>anf&auml;llig</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>feeble</trd>,
@@ -339,10 +711,29 @@
     <trd>nepevn&yacute;</trd>,
     <trd>vetch&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_s;&#x43B;&c_a;&c_b;&c_i;&c_j;</trd>,
+    <trd>&c_s;&#x43B;&c_a;&c_b;&#x43A;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2022/03/31 08:39:16
+Dmitri Gabinski: + trd be
+
+versio 1.30 2022/03/05 12:45:15
+Wolfram Diestel: +ref
+
+versio 1.29 2022/03/05 11:26:37
+Wolfram Diestel: ~igi..mal~a: ekz-oj, ref-oj, trd de
+
+versio 1.28 2022/03/05 09:26:48
+Wolfram Diestel: ~a: apartigo snc FIG; ekz-oj, ref-oj, trd de
+
+versio 1.27 2021/08/16 08:34:02
+Dmitri Gabinski: + trd be
+
 Revision 1.23  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -350,17 +741,5 @@ Revision 1.22  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.21  2014/06/30 16:10:35  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.20  2013/11/08 19:10:35  revo
-Jeromo Vasxe: + mal~a
-
-Revision 1.19  2010/06/03 16:30:45  revo
-Antonio Codazzi: +trd it
-
-Revision 1.18  2007/06/05 16:31:18  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2006/07/21 18:03:58  revo
 -->
 </vortaro>

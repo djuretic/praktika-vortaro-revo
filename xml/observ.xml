@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: observ.xml,v 1.72 2021/06/19 06:38:28 revo Exp $">
+<art mrk="$Id: observ.xml,v 1.112 2022/06/28 17:35:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>observ</rad>/i <fnt><bib>PV</bib></fnt>
@@ -14,23 +14,49 @@
       <ref tip="super" cel="rigard.0i">Rigardi</ref> ion ade,
       kun da&ubreve;ra atento:
       <ekz>
-        <tld/>i la astrojn<fnt>B</fnt>;
+        <tld/>i la astrojn kaj mezuri la tempon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i kvaza&ubreve; per linkaj okuloj<fnt>Z</fnt>;
+        la mastrino <klr>[&#8230;]</klr> <tld/>is kvaza&ubreve; per linkaj okuloj &ccirc;iujn
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la filozofo konsumas sian vivon por <tld/>i la homojn;
+        la libroj movis lian fantazion kaj igis lin tiamaniere <tld/>i la homojn
+        <fnt>
+          <bib>HsT</bib>
+          <lok>La nepo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>adi iun
-        <klr>(severe gardi sub sia rigardo)</klr>.
+        de la plej proksima monteto <klr>[li]</klr> <tld/>is la batalon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de tie li povis bone <tld/>adi la malgrandan elegantan sinjorinon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Persista stana soldato</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="ekzame.0i">ekzameni</ref>,
       <ref cel="esplor.0i">esplori</ref>,
-      <ref cel="konsid.0i">konsideri</ref>
+      <ref cel="gvat.0i">gvati</ref>,
+      <ref cel="konsid.0i">konsideri</ref>,
+      <ref cel="spekt.0i">spekti</ref>,
+      <ref cel="spion.0i">spioni</ref>,
+      <ref cel="vacx.0i">va&ccirc;i</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_n;&c_a;&c_z;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>,
@@ -64,25 +90,43 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>i la teorian vidpunkton<fnt>Z</fnt>;
+        la teoria vidpunkto <klr>[&#8230;]</klr> ofte povas esti ne severe <tld/>ata, sed
+        neniam povas esti rigardata kiel &leftquot;erara&rightquot;
+        <fnt>
+          <bib>LR</bib>
+          <lok>Dua Parto &ndash; Gramatiko</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i severan elekton<fnt>Z</fnt>;
+        por la &ccirc;efa festeno ni devas <tld/>i plej severan elekton
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>u pli da ordo;
+        rapide faru rondon kaj <tld/>u pli da ordo
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>!
       </ekz>
       <ekz>
-        <tld/>i la morojn de la patroj<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>igi regulon.
+        sekvu la le&gcirc;ojn de viaj patroj, <klr>[kaj]</klr> <tld/>u iliajn morojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 20:18</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="atent.0i.gravigi">atenti<sncref/></ref>,
+      <ref cel="sekv.0i">sekvi</ref>
+    </refgrp>
     <refgrp tip="vid">
       <ref cel="konfor">konformi&gcirc;i</ref>,
       <ref cel="plen.0umi">plenumi</ref>,
-      <ref cel="sekv.0i">sekvi</ref>
+      <ref cel="respek.0i">respekti</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_v;&c_y;&c_k;&c_o;&c_n;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -90,7 +134,10 @@
       <trd>&c_t;&c_r;&c_y;&c_m;&c_a;&c_c;&c_c;&c_a; <klr tip="amb">(&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_a;&c_w; &c_ib; &c_d;&c_a;
       &c_g;.&c_p;.)</klr></trd>
     </trdgrp>
-    <trd lng="de">beachten</trd>
+    <trdgrp lng="de">
+      <trd>beachten</trd>,
+      <trd>befolgen</trd>
+    </trdgrp>
     <trd lng="hu">betart</trd>
     <trd lng="nl">in <ind>acht</ind> nemen</trd>
     <trdgrp lng="pl">
@@ -105,76 +152,182 @@
     </trdgrp>
   </snc>
   <trd lng="af">neem</trd>
-  <trd lng="am">&#x120D;&#x1265; &#x1260;&#x120D;</trd>
-  <trd lng="ar">&#x631;&#x635;&#x62F;</trd>
-  <trd lng="az">m&#xFC;&#x15F;ahid&#x259;</trd>
-  <trd lng="bn">&#x9AA;&#x9BE;&#x9B2;&#x9A8; &#x995;&#x9B0;&#x9BE;</trd>
-  <trd lng="bo">&#xF45;&#xF42;&#xF0B;&#xF42;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
-  <trd lng="bs">po&#x161;tuju</trd>
+  <trd lng="am">&#4621;&#4709; &#4704;&#4621;</trd>
+  <trd lng="ar">&a_r;&a_S;&a_d;</trd>
+  <trd lng="az">m&uuml;&scedil;ahid&#601;</trd>
+  <trd lng="bn">&#2474;&#2494;&#2482;&#2472; &#2453;&#2480;&#2494;</trd>
+  <trd lng="bo">&t_ca;&t_ga;&t_tsheg;&t_ga;&t_tsheg;&t_ba;&t_yata;&t_drengbu;&t_da;&t_tsheg;</trd>
+  <trd lng="bs">po&scaron;tuju</trd>
   <trd lng="co">osservanu</trd>
   <trdgrp lng="cs">
-    <trd>dodr&#x17E;ovat pravidla</trd>,
-    <trd>dodr&#x17E;ovat &#x159;&#xE1;d</trd>,
+    <trd>dodr&zcaron;ovat pravidla</trd>,
+    <trd>dodr&zcaron;ovat &rcaron;&aacute;d</trd>,
     <trd>pozorovat</trd>,
     <trd>sledovat</trd>
   </trdgrp>
+  <trd lng="cy">arsylwi</trd>
   <trd lng="da">observere</trd>
   <trd lng="en">observe</trd>
   <trd lng="et">kinni</trd>
   <trd lng="eu">behatzen</trd>
   <trd lng="fr">observer</trd>
   <trd lng="fy">observearjen</trd>
+  <trd lng="ga">breathn&uacute; ar</trd>
+  <trd lng="gd">s&ugrave;il</trd>
   <trd lng="gl">observar</trd>
-  <trd lng="gu">&#xA85;&#xAB5;&#xAB2;&#xACB;&#xA95;&#xAA8;</trd>
+  <trd lng="gu">&#2693;&#2741;&#2738;&#2763;&#2709;&#2728;</trd>
   <trd lng="ha">tsayar</trd>
-  <trd lng="hi">&#x928;&#x93F;&#x930;&#x940;&#x915;&#x94D;&#x937;&#x923;</trd>
+  <trd lng="hi">&#2344;&#2367;&#2352;&#2368;&#2325;&#2381;&#2359;&#2339;</trd>
+  <trd lng="hmn">saib</trd>
   <trd lng="hr">promatrati</trd>
-  <trd lng="hy">&#x57A;&#x561;&#x570;&#x57A;&#x561;&#x576;&#x565;&#x56C;</trd>
+  <trd lng="ht">obs&egrave;ve</trd>
+  <trd lng="hy">&#1402;&#1377;&#1392;&#1402;&#1377;&#1398;&#1381;&#1388;</trd>
+  <trd lng="ig">na-edebe</trd>
   <trd lng="is">fylgjast</trd>
-  <trd lng="ja">&#x89B3;&#x5BDF;&#x3059;&#x308B;</trd>
-  <trd lng="jw">mirsani</trd>
-  <trd lng="ka">&#x10D3;&#x10D0;&#x10D8;&#x10EA;&#x10D5;&#x10D0;&#x10DC;</trd>
-  <trd lng="km">&#x179F;&#x1784;&#x17D2;&#x1780;&#x17C1;&#x178F;</trd>
-  <trd lng="ko">&#xAD00;&#xCC30;</trd>
-  <trd lng="lo">&#xEAA;&#xEB1;&#xE87;&#xEC0;&#xE81;&#xE94;&#xEC0;&#xE9A;&#xEB4;&#xEC8;&#xE87;&#xE81;&#xEB2;&#xE99;</trd>
-  <trd lng="ml">&#xD28;&#xD3F;&#xD30;&#xD40;&#xD15;&#xD4D;&#xD37;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
-  <trd lng="mr">&#x926;&#x947;&#x916;&#x923;&#x947;</trd>
-  <trd lng="my">&#x1005;&#x1031;&#x102C;&#x1004;&#x1037;&#x103A;&#x101B;&#x103E;&#x1031;&#x102C;&#x1000;&#x103A;</trd>
-  <trd lng="ne">&#x92A;&#x93E;&#x932;&#x928;</trd>
+  <trd lng="ja">&#35251;&#23519;&#12377;&#12427;</trd>
+  <trd lng="jv">mirsani</trd>
+  <trd lng="ka">&#4307;&#4304;&#4312;&#4330;&#4309;&#4304;&#4316;</trd>
+  <trd lng="kk">&c_b;&c_a;&c_j;&#1179;&c_a;&c_u;</trd>
+  <trd lng="km">&#6047;&#6020;&#6098;&#6016;&#6081;&#6031;</trd>
+  <trd lng="kn">&#3223;&#3246;&#3240;&#3263;&#3256;&#3263;</trd>
+  <trd lng="ko">&#44288;&#52272;</trd>
+  <trd lng="ku">&scedil;opgirtin</trd>
+  <trd lng="ky">&c_s;&c_a;&c_k;&c_t;&c_o;&c_o;</trd>
+  <trd lng="lat">observa</trd>
+  <trd lng="lo">&#3754;&#3761;&#3719;&#3776;&#3713;&#3732;&#3776;&#3738;&#3764;&#3784;&#3719;&#3713;&#3762;&#3737;</trd>
+  <trd lng="lt">steb&#279;ti</trd>
+  <trd lng="lv">nov&emacron;rot</trd>
+  <trd lng="mg">mandinika</trd>
+  <trd lng="mi">puritia e</trd>
+  <trd lng="mk">&c_n;&c_a;&c_b;&#1113;&c_u;&c_d;&c_u;&c_v;&c_a;&c_a;&c_t;</trd>
+  <trd lng="ml">&#3368;&#3391;&#3376;&#3392;&#3349;&#3405;&#3383;&#3391;&#3349;&#3405;&#3349;&#3393;&#3349;</trd>
+  <trd lng="mn">&c_a;&c_zh;&c_i;&c_g;&c_l;&c_a;&c_h;</trd>
+  <trd lng="mr">&#2342;&#2375;&#2326;&#2339;&#2375;</trd>
+  <trd lng="ms">memerhatikan</trd>
+  <trd lng="mt">josservaw</trd>
+  <trd lng="my">&#4101;&#4145;&#4140;&#4100;&#4151;&#4154;&#4123;&#4158;&#4145;&#4140;&#4096;&#4154;</trd>
+  <trd lng="ne">&#2346;&#2366;&#2354;&#2344;</trd>
   <trd lng="ny">kusunga</trd>
-  <trd lng="pa">&#xA26;&#xA40; &#xA2A;&#xA3E;&#xA32;&#xA23;&#xA3E;</trd>
-  <trd lng="ps">&#x648;&#x6AB;&#x648;&#x631;&#x6CC;</trd>
+  <trd lng="pa">&#2598;&#2624; &#2602;&#2622;&#2610;&#2595;&#2622;</trd>
+  <trd lng="pl">przestrzega&cacute;</trd>
+  <trd lng="ps">&a_w;&#1707;&a_w;&a_r;&f_y;</trd>
   <trd lng="pt">observar</trd>
-  <trd lng="sd">&#x645;&#x634;&#x627;&#x647;&#x62F;&#x648;</trd>
-  <trd lng="si">&#xDB1;&#xDD2;&#xDBB;&#xDD3;&#xD9A;&#xDCA;&#xDC2;&#xDAB;&#xDBA;</trd>
-  <trdgrp lng="sk">
-    <trd>pozorova&#x165;</trd>,
-    <trd>sledova&#x165;</trd>
+  <trdgrp lng="ro">
+    <trd>avertiza</trd>,
+    <trd>respecta</trd>
   </trdgrp>
-  <trd lng="sq">v&#xEB;zhguar</trd>
+  <trd lng="rw">kwitegereza</trd>
+  <trd lng="sd">&a_m;&a_sh;&a_A;&a_h;&a_d;&a_w;</trd>
+  <trd lng="si">&#3505;&#3538;&#3515;&#3539;&#3482;&#3530;&#3522;&#3499;&#3514;</trd>
+  <trdgrp lng="sk">
+    <trd>pozorova&tcaron;</trd>,
+    <trd>sledova&tcaron;</trd>
+  </trdgrp>
+  <trd lng="sl">opazovati</trd>
+  <trd lng="sm">tausia</trd>
+  <trd lng="sn">kutevedza</trd>
+  <trd lng="so">u dhawrtaan</trd>
+  <trd lng="sq">v&euml;zhguar</trd>
   <trd lng="st">boloka</trd>
-  <trd lng="ta">&#xB85;&#xBB5;&#xBA4;&#xBBE;&#xBA9;&#xBBF;&#xB95;&#xBCD;&#xB95;&#xBB5;&#xBC1;&#xBAE;&#xBCD;</trd>
-  <trd lng="te">&#xC17;&#xC2E;&#xC28;&#xC3F;&#xC02;&#xC1A;&#xC3F;</trd>
-  <trd lng="th">&#xE2A;&#xE31;&#xE07;&#xE40;&#xE01;&#xE15;</trd>
+  <trd lng="su">nitenan</trd>
+  <trd lng="sw">kuchunguza</trd>
+  <trd lng="ta">&#2949;&#2997;&#2980;&#3006;&#2985;&#3007;&#2965;&#3021;&#2965;&#2997;&#3009;&#2990;&#3021;</trd>
+  <trd lng="te">&#3095;&#3118;&#3112;&#3135;&#3074;&#3098;&#3135;</trd>
+  <trd lng="tg">&c_r;&c_i;&c_o;&c_ja;</trd>
+  <trd lng="th">&#3626;&#3633;&#3591;&#3648;&#3585;&#3605;</trd>
   <trd lng="tl">obserbahan</trd>
-  <trd lng="tp">lukin</trd>
-  <trd lng="ur">&#x6A9;&#x627; &#x645;&#x634;&#x627;&#x6C1;&#x62F;&#x6C1;</trd>
-  <trd lng="vi">quan s&#xE1;t</trd>
-  <trd lng="yi">&#x5D0;&#x5B8;&#x5D1;&#x5E1;&#x5E2;&#x5E8;&#x5D5;&#x5D5;&#x5D9;&#x5E8;&#x5DF;</trd>
+  <trd lng="tok">lukin</trd>
+  <trd lng="tt">&c_k;&#1199;&c_z;&#1241;&c_t;&c_je;&c_g;&c_je;&c_z;</trd>
+  <trd lng="uk">&c_s;&c_p;&c_o;&c_s;&c_t;&c_je;&c_r;&c_ib;&c_g;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&f_k;&a_A; &a_m;&a_sh;&a_A;&#1729;&a_d;&#1729;</trd>
+  <trd lng="uz">kuzatish</trd>
+  <trd lng="vi">quan s&aacute;t</trd>
+  <trd lng="xh">qaphela</trd>
+  <trd lng="yi">&alef;&#1464;&bet;&samekh;&ayin;&resh;&vav;&vav;&yod;&resh;&fnun;</trd>
+  <trd lng="yo">daju</trd>
   <trd lng="zu">bona</trd>
 </drv>
 
+<drv mrk="observ.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="observ.0o.ago">
+    <dif>
+      Ago <tld/>i, <tld/>ado:
+      <ekz>
+        fari sciencajn eksperimentojn kaj <tld/>ojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi starigas min ekster via rondo kaj <klr>[&#8230;]</klr> faros miajn <tld/>ojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la unua oficiro akceptadis la po&scirc;ton, sub lia <tld/>o &gcirc;i estis enportata 
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="observ.0o.io">
+    <dif>
+      Rezulto de la ago <tld/>i; <tld/>a&jcirc;o:
+      <ekz>
+        Arkadio &ccirc;ion &ccirc;i rimarkis, sed konservis la <tld/>ojn por si
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al l' astrologoj <klr>[&#8230;li]</klr> ordonis noti &ccirc;iujn <tld/>ojn en specialaj
+        tabeloj, kiujn oni &ccirc;iumonate sendis al la pastroj de l' templo de Sfinkso
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Beobachtung</trd>
+</drv>
+
+
 <drv mrk="observ.0ado">
-  <kap><tld/>ado,
-  <var><kap><tld/>o</kap></var></kap>
+  <kap><tld/>ado</kap>
   <snc mrk="observ.0ado.rigardo">
     <dif>
       Atenta rigardado:
       <ekz>
-        La <tld/>ado de la movoj de malamika trupo;
+        li tiel trompis &ccirc;iujn, ke la <tld/>ado de la polico &ccirc;esis kaj li trankvile
+        atingis Memfison
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXV</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la sciencoj bazitaj sur la <tld/>o.
+        la ka&scirc;ita <tld/>ado, kiu persekutis Fradekon depost lia eliro el Svisujo, subite
+        &ccirc;esis
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi devas al vi konigi <tld/>adon, kiu tute akordi&gcirc;as kun via diagnozo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekdua</lok>
+        </fnt>.
       </ekz>
       <trdgrp lng="be">
         <trd>&c_n;&c_a;&c_z;&c_ib;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
@@ -184,19 +337,33 @@
       <trd lng="fr">observation<klr> (action)</klr></trd>
       <trd lng="hu">megfigyel&eacute;s</trd>
       <trd lng="nl">waarneming</trd>
-      <trd lng="pl">obserwacja</trd>
       <trdgrp lng="pl">
         <trd>obserwacja</trd>,
         <trd>obserwowanie</trd>
+      </trdgrp>
+      <trdgrp lng="ro">
+        <trd>observare</trd>,
+        <trd>observarea</trd>
       </trdgrp>
       <trd lng="ru">&c_n;&c_a;&c_b;&c_l;&c_ju;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
     </dif>
   </snc>
   <snc mrk="observ.0ado.obeo">
     <dif>
-      Akurata obeado:
+      Akurata <ref tip="super" cel="obe.0ado">obeado</ref>:
       <ekz>
-        Prizorgi la severan <tld/>adon de la regularo.
+        ili transdonis al ili por <tld/>ado la dekretojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 16:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mufto <klr>[&#8230;]</klr> estas komisiita zorgi pri la <tld/>ado al la religia le&gcirc;o
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXX</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -209,44 +376,74 @@
     <trd lng="hu">betart&aacute;s</trd>
     <trd lng="nl">inachtneming</trd>
     <trdgrp lng="pl">
-      <trd>zachowywane<klr> (prawa, obyczaju, itp.)</klr></trd>,
-      <trd>prestrzeganie<klr> (prawa, obyczaju, itp.)</klr></trd>
+      <trd>zachowywanie<klr> (prawa, obyczaju, itp.)</klr></trd>,
+      <trd>przestrzeganie<klr> (prawa, obyczaju, itp.)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>comportare<klr> (obicei)</klr></trd>,
+      <trd>respectarea<klr> (obicei)</klr></trd>
     </trdgrp>
     <trd lng="ru">&c_s;&c_o;&c_b;&c_l;&c_ju;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
   <trdgrp lng="cs">
-    <trd>dodr&#x17E;en&#xED;</trd>,
-    <trd>pozorov&#xE1;n&#xED;</trd>,
-    <trd>sledov&#xE1;n&#xED;</trd>,
-    <trd>zachov&#xE1;n&#xED;</trd>,
-    <trd>zkoum&#xE1;n&#xED;</trd>
+    <trd>dodr&zcaron;en&iacute;</trd>,
+    <trd>pozorov&aacute;n&iacute;</trd>,
+    <trd>sledov&aacute;n&iacute;</trd>,
+    <trd>zachov&aacute;n&iacute;</trd>,
+    <trd>zkoum&aacute;n&iacute;</trd>
   </trdgrp>
   <trd lng="pt">observa&ccedil;&atilde;o</trd>
+  <trd lng="ro">observa&#539;ie</trd>
   <trdgrp lng="sk">
     <trd>pozorovanie</trd>,
-    <trd>sledovanie <klr>(&#x10D;innos&#x165;)</klr></trd>
+    <trd>sledovanie <klr>(&ccaron;innos&tcaron;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_p;&c_o;&c_s;&c_t;&c_je;&c_r;&c_je;&c_zh;&c_je;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_o;&c_b;&c_s;&c_je;&c_r;&c_v;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_d;&c_o;&c_d;&c_je;&c_r;&c_zh;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_d;&c_o;&c_t;&c_r;&c_i;&c_m;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="observ.0ajxo">
-  <kap><tld/>a&jcirc;o,
-  <var><kap><tld/>o</kap></var></kap>
+  <kap><tld/>a&jcirc;o</kap>
   <snc mrk="observ.0ajxo.rigardajxo">
     <dif>
       &Ccirc;io, kion oni rimarkis a&ubreve; notis <tld/>ante:
       <ekz>
-        kolekto da <tld/>a&jcirc;oj pri la tifoida febro.
+        kolekto da <tld/>a&jcirc;oj pri la tifoida febro;
+      </ekz>
+      <ekz>
+        mi decidis verki en Esperanto &ccirc;i tiun studon <klr>[&#8230;]</klr> kaj povas nun
+        pliri&ccirc;igi <klr>[la anta&ubreve;an francan]</klr> per pluaj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>FSp</bib>
+          <lok>Enkonduko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la traduko <klr>[&#8230;]</klr> bone spegulas la literaturan stilon de la epoko, kun
+        kompleksaj, plurcentvortaj, e&ccirc; barokaj, frazkonstruoj &ndash; piprumitaj per fajne
+        &ccirc;izitaj <tld/>a&jcirc;oj kaj multaj flankokomentoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Macgill</aut>
+          <vrk><url ref="https://www.monato.be/2004/008216.html"
+              >Konciza hororo el la dek-na&ubreve;a jarcento</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_z;&c_ib;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr tip="amb">(&c_n;&c_je;&c_sh;&c_t;&c_a;
   &c_a;&c_d;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_n;&c_a;&c_je;)</klr></trd>
   <trdgrp lng="cs">
-    <trd>dodr&#x17E;en&#xED;</trd>,
-    <trd>pozorov&#xE1;n&#xED;</trd>,
-    <trd>sledov&#xE1;n&#xED;</trd>,
-    <trd>zachov&#xE1;n&#xED;</trd>,
-    <trd>zkoum&#xE1;n&#xED;</trd>
+    <trd>dodr&zcaron;en&iacute;</trd>,
+    <trd>pozorov&aacute;n&iacute;</trd>,
+    <trd>sledov&aacute;n&iacute;</trd>,
+    <trd>zachov&aacute;n&iacute;</trd>,
+    <trd>zkoum&aacute;n&iacute;</trd>
   </trdgrp>
   <trd lng="de">Wahrnehmung</trd>
   <trd lng="es">observaci&oacute;n</trd>
@@ -259,11 +456,22 @@
     <trd>zapisek z obserwacji</trd>
   </trdgrp>
   <trd lng="pt">observa&ccedil;&atilde;o</trd>
+  <trdgrp lng="ro">
+    <trd>observa&#539;ie</trd>,
+    <trd>remarca</trd>,
+    <trd>not&abreve; de observare</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_b;&c_l;&c_ju;&c_d;&c_je;&c_n;&c_i;&c_je; <klr>(&c_o;&c_t;&c_m;&c_je;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j;
   &c_f;&c_a;&c_k;&c_t;)</klr></trd>
   <trdgrp lng="sk">
     <trd>pozorovanie</trd>,
-    <trd>sledovanie <klr>(&#x10D;innos&#x165;)</klr></trd>
+    <trd>sledovanie <klr>(&ccaron;innos&tcaron;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_p;&c_o;&c_s;&c_t;&c_je;&c_r;&c_je;&c_zh;&c_je;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_o;&c_b;&c_s;&c_je;&c_r;&c_v;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_d;&c_o;&c_d;&c_je;&c_r;&c_zh;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_d;&c_o;&c_t;&c_r;&c_i;&c_m;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
@@ -275,7 +483,35 @@
       <ekz>
         mi staris konstante sur mia <tld/>ejo dum la tago,
         kaj sur mia gardejo mi staris tutajn noktojn
-        <fnt><bib>MT</bib>, <lok>&Jes; 21:8</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Jes; 21:8</lok></fnt>;
+      </ekz>
+      <ekz>
+        li tuj decidi&gcirc;is &scirc;an&gcirc;i sian <tld/>ejon, kaj loki sin apud la &ccirc;efpordego de la
+        palaco
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>&ccirc;as<tld/>ejo</ind>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 6 (104)</lok>
+        </fnt>;
+        <trdgrp lng="de">
+          <trd>Ansitz</trd>,
+          <trd>Anstand <klr>(Jagd)</klr></trd>,
+          <trd>Hochsitz</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        korsara<klr>[n]</klr> &scirc;ipo<klr>[n]</klr> el Al&gcirc;erio <klr>[&#8230;]</klr> la <tld/>ejo
+        signalas al ni
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXIII</lok>
+        </fnt>.
       </ekz>
     </dif>
     <subsnc mrk="observ.0ejo.SCI">
@@ -284,7 +520,29 @@
         Scienca esplorejo lokita kaj ekipita
         por rekta <tld/>o de iu natura medio:
         <ekz>
-          <ref tip="vid" cel="observ.mar0ejo.MAR">marobservejo</ref>.
+          astronomia <tld/>ejo 
+          <klr>(vd <ref cel="observ.stel0ejo">stelobservejo</ref>)</klr>
+          <fnt>
+            <bib>ChL</bib>
+            <lok>&Ccirc;apitro Dekdua</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la aerologia <tld/>ejo de Tateno
+          <fnt>
+            <bib>EeP</bib>
+            <lok>Dua Parto</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>ejoj ebligas spekti (sen &gcirc;eni) la &ccirc;iutagan vivon de birdoj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Jean-Yves Santerre</aut>
+            <vrk><url ref="https://www.monato.be/2013/010991.php"
+                >Kie akvo kaj &ccirc;ielo najbaras</url></vrk>
+            <lok>2013</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trd lng="pl">obserwatorium</trd>
@@ -292,8 +550,19 @@
     <subsnc mrk="observ.0ejo.POL">
       <uzo tip="fak">POL</uzo>
       <dif>
-        Institucio komisiata pri <tld/>ado
+        <ref tip="super" cel="instit.0o">Institucio</ref> komisiata pri <tld/>ado
         kaj raportado de iuj sociaj agadoj:
+        <ekz>
+          redaktoroj de Le Monde Diplomatique <klr>[&#8230;]</klr> sugestis iun &leftquot;internacian
+          <tld/>ejon de la amaskomunikiloj&rightquot;
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Gilbert LEDON</aut>
+            <vrk><url ref="https://www.monato.be/2003/008040.html"
+                >Kvina povo</url></vrk>
+            <lok>2003</lok>
+          </fnt>;
+        </ekz>
         <ekz>
           starigi lingvan <tld/>ejon kiu <tld/>u
           kaj denuncu la lingvajn maljusta&jcirc;ojn
@@ -304,6 +573,26 @@
             Raporto pri la Plurcentra Monda Socia Forumo
             2006</url></vrk>,
             <lok>Monda Asembleo Socia, 2006</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la <tld lit="O"/>ejo pri Rasismo kaj Ksenofobio en E&ubreve;ropo
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Marko Naoki Lins</aut>
+            <vrk><url ref="https://www.monato.be/2005/008603.php"
+                >Toleremo ankora&ubreve; ne tolerata</url></vrk>
+            <lok>2005</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          raporto komisiita de la konstanta <tld/>ejo pri mortoj interne de malliberejoj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Roberto Pigro</aut>
+            <vrk><url ref="https://www.monato.be/2010/010161.php"
+                >Rajto je minimuma digno</url></vrk>
+            <lok>2010</lok>
           </fnt>.
         </ekz>
       </dif>
@@ -311,10 +600,12 @@
   </snc>
   <trd lng="cs">rozhledna</trd>
   <trd lng="fr">observatoire</trd>
+  <trd lng="ro">observator</trd>
   <trdgrp lng="sk">
-    <trd>pozorovate&#x13E;&#x148;a</trd>,
-    <trd>rozh&#x13E;ad&#x148;a</trd>
+    <trd>pozorovate&lcaron;&ncaron;a</trd>,
+    <trd>rozh&lcaron;ad&ncaron;a</trd>
   </trdgrp>
+  <trd lng="uk">&c_s;&c_p;&c_o;&c_s;&c_t;&c_je;&c_r;&c_je;&c_zh;&c_n;&c_i;&c_j; &c_p;&c_u;&c_n;&c_k;&c_t;</trd>
 </drv>
 
 <drv mrk="observ.0emo">
@@ -327,38 +618,140 @@
         kun <tld/>emo de avarulo sekvis liaj okuloj
         la sortojn de la domo
         <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
-        fratoj</vrk>, <lok>1947</lok></fnt>.
+        fratoj</vrk>, <lok>1947</lok></fnt>;
+      </ekz>
+      <ekz>
+        li montras la kulturintan <tld/>emon kaj precizon de &hcirc;irurgo
+        <fnt>
+          <bib>KPr</bib>
+          <lok>Anta&ubreve;vorto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nun mi vidas, ke mi tro gloris vian <tld/>emon
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XXV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili estis tre kontentaj pro mia <tld/>emo kaj mia komplezemo
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="fr">sens de l'observation</trd>
   </snc>
-  <trd lng="cs">bd&#x11B;lost</trd>
+  <trd lng="cs">bd&ecaron;lost</trd>
+  <trd lng="pl">spostrzegawczo&sacute;&cacute;</trd>
+  <trd lng="ro">receptivitate</trd>
   <trdgrp lng="sk">
-    <trd>bdelos&#x165;</trd>,
-    <trd>bedlivos&#x165;</trd>,
-    <trd>ostra&#x17E;itos&#x165;</trd>
+    <trd>bdelos&tcaron;</trd>,
+    <trd>bedlivos&tcaron;</trd>,
+    <trd>ostra&zcaron;itos&tcaron;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="observ.0anto">
-  <kap><tld/>anto,
-  <var><kap><tld/>ulo</kap></var></kap>
+  <kap><tld/>anto</kap>
   <snc mrk="observ.0anto.KOMUNE">
     <dif>
       Atenta, zorga rigardanto:
       <ekz>
+        <tld/>anto facile rimarkos, ke la ka&ubreve;zo de la balbutado ku&scirc;as <klr>[&#8230;]</klr> en
+        la nesufi&ccirc;a ekzerciteco de la diritaj personoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur
+           Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ne bezonis esti tre sagaca <tld/>anto, por penetri &gcirc;is fundo la dol&ccirc;an
+        sekreton
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <tld/>anto povus rimarki, ke la viza&gcirc;o de la prokuratoro
-        <klr>...</klr> esprimas malpaciencon
-        <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 25a, p. 260a</lok></fnt>.
+        <klr>[&#8230;]</klr> esprimas malpaciencon
+        <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 25a, p. 260a</lok></fnt>;
+      </ekz>
+      <ekz>
+        meteologiaj verkoj kaj raportoj de <tld/>antoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <snc mrk="observ.0anto.POL">
-    <uzo tip="fak">POL</uzo>
+  <snc mrk="observ.0anto.komisiito">
     <dif>
-      <ref tip="super" cel="diplom1.0o.POL">Diplomato</ref>, kiun
-      registaro sendas al konferenco, en kiu &gcirc;i ne volas oficiale
-      partopreni, sed pri kiu &gcirc;i volas esti informita.
+      <ref tip="super" cel="komisi.0ito">Komisiito</ref> <tld/>i agadon sen aktive partopreni:
+      <ekz>
+        interparolante kun la <tld/>anto de laboro
+        <klr>(vd <ref cel="labor.0estro">laborestro</ref>)</klr>
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iru, starigu <tld/>anton, kion li vidos, li diru
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 21:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">POL</uzo>
+        la Konferencon &ccirc;eestis kiel <tld/>antoj anka&ubreve; la oficialaj reprezentantoj de la
+        dana Ministerio por Instruado kaj Klerigo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>antoj de UEA partoprenis en la Seminario de UN pri la Homaj Rajtoj en
+        Multnaciaj Socioj, okazinta en Beograd
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        registaroj de 16 &scirc;tatoj sendis siajn oficialajn <tld/>antojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvina Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="observ.0anto.obeanto">
+    <dif>
+      Iu, kiu <tld/>as<sncref ref="observ.0i.obei"/>:
+      <ekz>
+        la <tld/>antoj de la le&gcirc;oj indignas kontra&ubreve; li
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 28:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la a&ubreve;skultantoj de la vortoj de la profeta&jcirc;o kaj la <tld/>antoj de la
+        skribita&jcirc;oj en &gcirc;i
+        <fnt>
+          <bib>NT</bib>
+          <lok>Apokalipso 1:3</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -377,8 +770,10 @@
     <trd>osoba &sacute;ci&sacute;le prestrzegaj&aogonek;ca prawa, obyczaju, przepisu,
     itp.</trd>
   </trdgrp>
+  <trd lng="ro">observator</trd>
   <trd lng="ru">&c_n;&c_a;&c_b;&c_l;&c_ju;&c_d;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
-  <trd lng="sk">pozorovate&#x13E;</trd>
+  <trd lng="sk">pozorovate&lcaron;</trd>
+  <trd lng="uk">&c_s;&c_p;&c_o;&c_s;&c_t;&c_je;&c_r;&c_ib;&c_g;&c_a;&c_ch;</trd>
 </drv>
 
 <drv mrk="observ.kasx0i">
@@ -388,7 +783,30 @@
     <dif>
       Nevidate <tld/>i,
       <ref tip="vid" cel="gvat.0i.sxtele">gvati</ref>,
-      <ref tip="vid" cel="spion.0i">spioni</ref>.
+      <ref tip="vid" cel="spion.0i">spioni</ref>:
+      <ekz>
+        la supozata &ccirc;efteroristo <klr>[&#8230;]</klr> pli frue trejni&gcirc;is en Alabamo, kaj jam
+        de 1999 ka&scirc;<tld/>is lian lo&gcirc;ejon <klr>[&#8230;]</klr> la sekreta polico
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="https://www.monato.be/2003/008211.html"
+              >Ni neniam konos la veron</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post ka&scirc;<tld/>ado la &Scirc;tata Fako pri Revizio malkovris, ke <klr>[&#8230;]</klr> la
+        estraro de &Scirc;KEP per malkonvena politiko de livero de elektro ka&ubreve;zis grandan
+        perdon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="https://www.monato.be/2006/009037.php"
+              >Monopolo super la elektropova provizado</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -412,9 +830,18 @@
     <trd>szpiegowa&cacute;</trd>
   </trdgrp>
   <trd lng="pt">espionar</trd>
+  <trdgrp lng="ro">
+    <trd>urm&abreve;ri</trd>,
+    <trd>privi</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_l;&c_je;&c_d;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_sh;&c_p;&c_i;&c_o;&c_n;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_t;&c_je;&c_zh;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_sh;&c_p;&c_i;&c_g;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -427,7 +854,37 @@
       <ekz>
         vi amba&ubreve; fari&gcirc;os senvaloraj dibo&ccirc;uloj, mal<tld/>antaj la
         regulojn
-        <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 75a, p. 592a</lok></fnt>.
+        <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 75a, p. 592a</lok></fnt>;
+      </ekz>
+      <ekz>
+        kiu mal<tld/>os unu el &ccirc;i tiuj plej malgrandaj ordonoj <klr>[&#8230;]</klr>, estos
+        nomata la plej malgranda en la regno de la &ccirc;ielo
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 5:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ne nur mal<tld/>is la sabaton, sed anka&ubreve; diris, ke Dio estas lia propra Patro
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 5:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la reguloj pri la uzo de la oficialaj lingvoj &ndash; tute speciale de la &ccirc;ina &ndash; estis
+        grave mal<tld/>ataj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ne&ubreve;traleco de UEA &ccirc;esas tie, kie komenci&gcirc;as la mal<tld/>o de la homaj rajtoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -441,8 +898,8 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>nedbat</trd>,
-    <trd>nezachov&#xE1;vat</trd>,
-    <trd>poru&#x161;it <klr>(nedb&#xE1;n&#xED;m)</klr></trd>
+    <trd>nezachov&aacute;vat</trd>,
+    <trd>poru&scaron;it <klr>(nedb&aacute;n&iacute;m)</klr></trd>
   </trdgrp>
   <trd lng="de">mi&szlig;achten</trd>
   <trdgrp lng="es">
@@ -466,10 +923,20 @@
     <trd>&lstroke;ama&cacute;<klr> (prawo, zwyczaj, itp.)</klr></trd>,
     <trd>narusza&cacute;<klr> (prawo, zwyczaj, itp.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>nu respect&abreve;</trd>,
+    <trd>s&abreve; nu p&abreve;streze</trd>,
+    <trd>sf&abreve;r&acirc;ma</trd>,
+    <trd>falsifica</trd>
+  </trdgrp>  
   <trd lng="ru">&c_n;&c_je; &c_s;&c_o;&c_b;&c_l;&c_ju;&c_d;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>nedba&#x165;</trd>,
-    <trd>nev&#x161;&#xED;ma&#x165; si</trd>
+    <trd>nedba&tcaron;</trd>,
+    <trd>nev&scaron;&iacute;ma&tcaron; si</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_h;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -482,16 +949,18 @@
       de la mara medio:
       <ekz>
         li transprenis gvidan postenon en la mar<tld/>ejo
-        &leftquot;Deutsche Seewarte&rightquot;
+        &leftquot;<nom>Deutsche Seewarte</nom>&rightquot;
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Alfred_Wegener">
+          <lok><url ref="&Viki;/Alfred_Wegener">
           Alfred Wegener</url>, 2011-03-24</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="fr">observatoire marin</trd>
+  <trd lng="pl">obserwatorium morskie</trd>
+  <trd lng="ro">observatorul maritim</trd>
 </drv>
 
 <drv mrk="observ.stel0ejo">
@@ -525,10 +994,12 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">hv&#x11B;zd&#xE1;rna</trd>
+  <trd lng="be">&c_a;&c_b;&c_s;&c_e;&c_r;&c_v;&c_a;&c_t;&c_o;&c_r;&c_y;&c_ja; <klr>(&c_a;&c_s;&c_t;&c_r;&c_a;&c_n;&c_a;&c_m;&c_ib;&c_ch;&c_n;&c_a;&c_ja;, &c_a;&c_s;&c_t;&c_r;&c_a;&c_f;&c_ib;&c_z;&c_y;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trd lng="cs">hv&ecaron;zd&aacute;rna</trd>
   <trd lng="fr">observatoire astronomique</trd>
   <trd lng="pl">obserwatorium astronomiczne</trd>
-  <trd lng="sk">hvezd&#xE1;re&#x148;</trd>
+  <trd lng="ro">observator astronomic</trd>
+  <trd lng="sk">hvezd&aacute;re&ncaron;</trd>
 </drv>
 
 <drv mrk="observ.veter0ejo">
@@ -550,46 +1021,45 @@
         </fnt>;
       </ekz>
       <ekz>
-        Le Verrier tiam establis reton de meteologiaj <tld/>ejoj sur la 
+        <nom>Le Verrier</nom> tiam establis reton de meteologiaj <tld/>ejoj sur la 
         franca teritorio, celante averti la maristojn pri la &scirc;tormoj
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Urbain_Le_Verrier">
+          <lok><url ref="&Viki;/Urbain_Le_Verrier">
           Urbain Le Verrier</url>, 2011-04-27</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_b;&c_s;&c_e;&c_r;&c_v;&c_a;&c_t;&c_o;&c_r;&c_y;&c_ja; <klr>(&c_m;&c_e;&c_t;&c_e;&c_a;&c_r;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>
   <trd lng="fr">observatoire m&eacute;t&eacute;orologique</trd>
   <trd lng="pl">obserwatorium meteorologiczne</trd>
+  <trd lng="ro">observatorul meteorologic</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.112 2022/06/28 17:35:13
+Wolfram Diestel: kasx~i, mal~i: +ekz
+
+versio 1.111 2022/06/27 06:39:36
+Wolfram Diestel: ~ejo..~anto: +ekz-oj, ref; ~anto: rearangxo en 3 snc
+
+versio 1.110 2022/06/26 14:24:28
+Wolfram Diestel: ~o: aparta drv; ~i..~a&jcirc;o: +ekz-oj, ref 
+
+versio 1.109 2022/05/01 17:17:00
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.106 2021/12/11 22:30:22
+Vito Redsky: + trd pl + trd ro
+
+versio 1.105 2021/08/24 13:33:05
+Dmitri Gabinski: + trd be
+
 Revision 1.27  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.26  2014/07/13 01:10:12  revo
-Jeromo Vasxe: + ~emo
-
-Revision 1.25  2014/01/09 11:10:17  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.24  2013/04/09 11:10:43  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.23  2011/05/28 22:10:09  revo
-Jeromo Vasxe: + ~ejoj
-
-Revision 1.22  2009/02/10 14:19:23  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
-
-Revision 1.21  2008/11/02 17:30:50  revo
-Peter Hauser: aldono de germana traduko
-
-Revision 1.20  2006/10/09 10:43:50  revo
-Axel Rousseau: +trd tp
-
-Revision 1.19  2006/09/15 16:30:46  revo
 -->
 </vortaro>

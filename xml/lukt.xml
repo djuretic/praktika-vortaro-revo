@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: lukt.xml,v 1.24 2021/01/19 07:17:04 revo Exp $">
+<art mrk="$Id: lukt.xml,v 1.28 2022/07/11 13:05:31 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>lukt</rad>/i <fnt><bib>PV</bib></fnt>
@@ -108,6 +107,7 @@
   <trd lng="pt">lutar</trd>
   <trd lng="ru">&c_b;&c_o;&c_r;&c_o;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trd lng="sk">z&aacute;pasi&tcaron;</trd>
+  <trd lng="uk">&c_b;&#x43E;&c_r;&#x43E;&c_t;&c_i;&c_s;&#x44F;</trd>
 </drv>
 
 <drv mrk="lukt.0o">
@@ -126,7 +126,7 @@
         ve! post <tld/>o vanas larmofer'
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
           <lok>Pri Somero</lok>
         </fnt>;
       </ekz>
@@ -136,7 +136,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006810.html">Diskutige kaj diskutinde</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006810.html">Diskutige kaj
+          diskutinde</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -144,7 +145,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url ref="https://www.monato.be/2003/008022.html">Tridek jaroj da sa&gcirc;o</url></vrk>
+          <vrk><url ref="&Monato;/2003/008022.html">Tridek jaroj da sa&gcirc;o</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -162,7 +163,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Jasuo</aut>
-          <vrk><url ref="https://www.monato.be/2010/010127.php">Malplenaj kapoj, plenaj korpoj</url></vrk>
+          <vrk><url ref="&Monato;/2010/010127.php">Malplenaj kapoj, plenaj
+          korpoj</url></vrk>
           <lok>2010</lok>
         </fnt>;
       </ekz>
@@ -171,7 +173,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Isikawa Takasi</aut>
-          <vrk><url ref="https://www.monato.be/2015/011410.php">Malmoli&gcirc;as la mola vojo</url></vrk>
+          <vrk><url ref="&Monato;/2015/011410.php">Malmoli&gcirc;as la mola vojo</url></vrk>
           <lok>2015</lok>
         </fnt>.
       </ekz>
@@ -191,6 +193,13 @@
       <trd>z&aacute;pas</trd>
     </trdgrp>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_z;&c_m;&c_a;&c_g;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+      <trd>&c_d;&c_u;&c_zh;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+      <trd>&c_b;&c_a;&c_r;&c_a;&c_c;&c_mol;&c_b;&c_a;</trd>,
+      <trd>&c_b;&c_o;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+    </trdgrp>
+  <trd lng="uk">&c_b;&#x43E;&c_r;&#x43E;&c_t;&#x44C;&c_b;&c_a;</trd>
 </drv>
 
 <drv mrk="lukt.inter0i">
@@ -206,6 +215,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_m;&c_a;&c_g;&c_a;&c_c;&c_c;&c_a; <klr>(&c_p;&c_a;&c_m;&c_ib;&c_zh;&c_s;&c_o;&c_b;&c_k;&c_u;)</klr></trd>
   <trd lng="fr">se <ind>combattre</ind></trd>
 </drv>
 
@@ -230,6 +240,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_r;&c_e;&c_k;&c_a;-&c_r;&c_y;&c_m;&c_s;&c_k;&c_a;&c_ja; <ind>&c_b;&c_a;&c_r;&c_a;&c_c;&c_mol;&c_b;&c_a;</ind></trd>,
+    <trd>&c_k;&c_l;&c_ja;&c_s;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_b;&c_a;&c_r;&c_a;&c_c;&c_mol;&c_b;&c_a;</ind></trd>
+  </trdgrp>
   <trd lng="cs">&rcaron;ecko&rcaron;&iacute;msk&yacute; z&aacute;pas</trd>
   <trd lng="en">Greco-Roman wrestling</trd>
   <trd lng="fr">lutte gr&eacute;co-romaine</trd>
@@ -240,6 +254,15 @@
 </art>
 <!--
 $Log$
+versio 1.28 2022/07/11 13:05:31
+Dmitri Gabinski: + trd be
+
+versio 1.27 2022/05/01 12:04:34
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.25 2021/11/09 08:35:24
+Dmitri Gabinski: + trd be
+
 versio 1.24 2021/01/19 07:17:04
 Wolfram Diestel: +ekz-oj, ~o: snc ago
 
@@ -253,14 +276,5 @@ Revision 1.20  2015/10/16 06:10:12  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.19  2015/09/24 17:10:16  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.18  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.17  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.16  2014/06/28 19:10:13  revo
 -->
 </vortaro>

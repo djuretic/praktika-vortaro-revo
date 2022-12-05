@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: uzanc.xml,v 1.11 2015/10/09 13:10:21 revo Exp $">
+<art mrk="$Id: uzanc.xml,v 1.15 2022/03/28 11:08:54 revo Exp $">
 <kap>
 <rad>uzanc</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,26 +9,24 @@
    <kap><tld/>o</kap>
    <uzo tip="stl">RAR</uzo>
    <snc mrk="uzanc.0o.MOR">
-     <dif>
-       <ref tip="super" cel="tradic.0o.ajxo">Tradicio</ref>, agmaniero
-       kutima kaj normala en iu homgrupo:
+     <dif>     
+       <ref tip="dif" cel="kutim.0o.MOR">Kutimo<sncref/></ref>:
        <ekz>
          li agis tute la&ubreve; spirito de la tiamaj komercaj kaj maraj
          <tld/>oj
          <fnt>
-         <bib>Salamandroj</bib>,
-         <lok>libro 3a, 1, &leftquot;Masakro sur Kokosa
-         Insularo&rightquot;</lok>
+           <bib>Salamandroj</bib>,
+           <lok>libro 3a, 1, &leftquot;Masakro sur Kokosa
+           Insularo&rightquot;</lok>
          </fnt>;
        </ekz>
        <ekz>
          demokratiaj reformoj forbalaas koruptajn <tld/>ojn
          <fnt>
-         <aut>&Gcirc;angalo</aut>,
-         <vrk><url ref=
-         "http://gxangalo.com/modules/news/article.php?storyid=1805">
-         Vangaria Maathai, Nobel-premiita pri Paco 2004</url></vrk>,
-         <lok>2004-11-04</lok>
+           <aut>&Gcirc;angalo</aut>,
+           <vrk><url ref="http://gxangalo.com/modules/news/article.php?storyid=1805">
+           Vangaria Maathai, Nobel-premiita pri Paco 2004</url></vrk>,
+           <lok>2004-11-04</lok>
          </fnt>.
        </ekz>
      </dif>
@@ -37,6 +34,12 @@
   <trdgrp lng="cs">
     <trd>obchodn&iacute; zvyklosti</trd>,
     <trd>uzance</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Brauch</trd>,
+    <trd>Gebrauch <klr>(Tradition)</klr></trd>,
+    <trd>Gewohnheit</trd>,
+    <trd>Usus</trd>
   </trdgrp>
   <trd lng="en">custom</trd>
   <trdgrp lng="fi">
@@ -67,10 +70,23 @@
     <trd>zvyklos&tcaron;</trd>,
     <trd>&uacute;zus</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x456; &#x437;&#x432;&#x438;&#x447;&#x430;&#x457;</trd>,
+    <trd>&#x43A;&#x43E;&#x43C;&#x435;&#x440;&#x446;&#x456;&#x439;&#x43D;&#x430; &#x43F;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x43A;&#x430;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.14 2021/07/15 18:01:08
+Wolfram Diestel: dif per ref al kutimo 2
+
+versio 1.13 2021/07/15 17:53:07
+Wolfram Diestel: +trd de
+
+versio 1.12 2021/07/15 12:17:50
+Wolfram Diestel: +trd de
+
 Revision 1.10  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -84,11 +100,5 @@ Revision 1.7  2009/08/18 19:20:24  revo
 Antonio Codazzi: +trd it
 
 Revision 1.6  2008/07/18 13:15:31  revo
-Sebastian Cyprych: sen-utf8-igita
-
-Revision 1.5  2007/07/06 18:04:34  revo
-Harri Laine: +trd fi
-
-Revision 1.4  2006/07/05 18:37:27  revo
 -->
 </vortaro>

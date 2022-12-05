@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dilat.xml,v 1.19 2021/03/08 15:14:34 revo Exp $">
+<art mrk="$Id: dilat.xml,v 1.22 2022/04/26 17:11:48 revo Exp $">
 <kap>
   <rad>dilat</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,12 +11,27 @@
   <snc mrk="dilat.0i.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Vastigi, grandigi la amplekson de korpo sen aldono
-      de materio, maldensigante &gcirc;ian substancon:
+      <ref tip="super" cel="vast.0igi.grandigi">Vastigi</ref>, grandigi la amplekson 
+      de korpo sen aldono de materio, maldensigante &gcirc;ian substancon:
       <ekz>
         varmo <tld/>as la korpojn;
       </ekz>
+      <ekz>
+        &ccirc;e fervojaj reloj oni anta&ubreve;vidas etajn bre&ccirc;ojn <klr>[&ccirc;ar alie]</klr>, ili
+        kurbi&gcirc;us pro la pu&scirc;o de <tld/>ado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2014/011332.php">Dilati&gcirc;o, kuntiri&gcirc;o ... kaj eksperimento por infana amuzi&gcirc;o</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="etend.0i">etendi</ref>,
+      <ref cel="sxvel.0igi">&scirc;veligi</ref>
+    </refgrp>
+    <trd lng="de">ausdehnen</trd>
   </snc>
   <snc mrk="dilat.0i.MED">
     <uzo tip="fak">MED</uzo>
@@ -24,17 +39,32 @@
       Vastigi, lar&gcirc;igi organon a&ubreve; malferma&jcirc;on:
       <ekz>
         <ind><tld/>ado</ind> de la uretra
-        kanalo<fnt><bib>PIV1</bib></fnt>;
+        kanalo
+        <fnt><bib>PIV1</bib></fnt>;
         <trd lng="fr">dilatation<klr tip="ind"> (action)</klr></trd>
         <trd lng="hu">(ki)<ind>t&aacute;g&iacute;t&aacute;s</ind></trd>
       </ekz>
       <ekz>
+        fumado <klr>[&#x2026;]</klr> havas efikon mal<tld/>an
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2013/011124.php">Atentu la koron</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <ind>angi<tld/>a</ind> drogo <klr>(pligrandiganta la
         diametron de angioj)</klr>.
+        <trd lng="de">gef&auml;&szlig;erweiternd</trd>
         <trd lng="fr">vasodilatateur</trd>
         <trd lng="hu">&eacute;rt&aacute;g&iacute;t&oacute;</trd>
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>dehnen</trd>,
+      <trd>erweitern</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_s;&c_sh;&c_y;&c_r;&c_a;&c_c;&c_mol;</trd>,
@@ -47,11 +77,11 @@
     <trd>rozt&aacute;hnout</trd>,
     <trd>roz&scaron;&iacute;&rcaron;it</trd>
   </trdgrp>
-  <trd lng="de">dehnen</trd>
+  
   <trd lng="en">dilate</trd>
   <trd lng="es">dilatar</trd>
   <trd lng="fr">dilater</trd>
-  <trd lng="he">&#x5DC;&#x5D4;&#x5E8;&#x5D7;&#x5D9;&#x5D1;</trd>
+  <trd lng="he">&lamed;&he;&resh;&het;&yod;&bet;</trd>
   <trd lng="hu">(ki)<ind>t&aacute;g&iacute;t</ind></trd>
   <trdgrp lng="pl">
     <trd>rozszerza&cacute;</trd>,
@@ -67,6 +97,10 @@
     <trd>roztiahnu&tcaron;</trd>,
     <trd>roz&scaron;&iacute;ri&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x43E;&#x437;&#x448;&#x438;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x442;&#x44F;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dilat.0o">
@@ -74,8 +108,15 @@
   <snc mrk="dilat.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Fenomeno, en kiu la amplekso a&ubreve; la volumeno de gasa, likva
-      a&ubreve; solida substanco pligrandi&gcirc;as.
+      <ref tip="super" cel="fenome.0o">Fenomeno</ref>, &ccirc;e kiu la amplekso a&ubreve; 
+      la volumeno de gasa, likva a&ubreve; solida substanco pligrandi&gcirc;as:
+      <ekz>
+        <klr>[jen]</klr> efikoj de la <tld/>o de la ligno
+        <fnt>
+          <aut>Kardec Allan</aut>
+          <vrk><url ref="https://royallib.com/read/Kardec_Allan/La_libro_de_la_spiritoj.html">La libro de la spiritoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -92,7 +133,7 @@
   <trd lng="es">dilataci&oacute;n</trd>
   <trd lng="fr">dilatation<klr tip="ind">
   (ph&eacute;nom&egrave;ne)</klr></trd>
-  <trd lng="he">&#x5DE;&#x5D5;&#x5E8;&#x5D7;&#x5D1;</trd>
+  <trd lng="he">&mem;&vav;&resh;&het;&bet;</trd>
   <trdgrp lng="hu">
     <trd>t&aacute;g&iacute;t&aacute;s</trd>,
     <trd>dilat&aacute;l&aacute;s</trd>
@@ -111,6 +152,11 @@
     <trd>roztiahnutie</trd>,
     <trd>roz&scaron;&iacute;renie</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x434;&#x438;&#x43B;&#x430;&#x442;&#x430;&#x446;&#x456;&#x44F;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x442;&#x44F;&#x433;&#x43D;&#x435;&#x43D;&#x43D;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dilat.0igxi">
@@ -118,9 +164,33 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="dilat.0igxi.FIZ">
     <dif>
-      Plivasti&gcirc;i, plilar&gcirc;i&gcirc;i:
+      <ref tip="super" cel="vast.pli0igxi">Plivasti&gcirc;i</ref>, plilar&gcirc;i&gcirc;i:
       <ekz>
-        la okuloj de mia patrino <tld/>i&gcirc;is pro hororo
+        la celo de tiaj fendoj <klr>[estas]</klr> ebligi al betono <tld/>i&gcirc;i dum plej
+        varmaj tagoj, sen provoki la rompi&gcirc;on de la pavimo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2014/011332.php">Dilati&gcirc;o, kuntiri&gcirc;o 
+          ... kaj eksperimento por infana amuzi&gcirc;o</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni pensis, ke la marnivelo plialti&gcirc;as precipe pro la term<klr>[ik]</klr>a
+        <tld/>i&gcirc;o de la supraj, rapide ruli&gcirc;antaj kelkcent metroj, kiuj estas
+        varmigataj de la suno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Fu&szlig;</aut>
+          <vrk><url ref="&Monato;/2012/010695.php">Klimat&scirc;an&gcirc;aj fabeloj? Tute ne.</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la okuloj de mia patrino <tld/>i&gcirc;is 
+        <klr>(<ref cel="grand.0igxi">grandi&gcirc;is</ref>)</klr> pro hororo
         <fnt>
           <aut>Chun-Chan Yeh, trad. W. Auld</aut>,
           <vrk>Montara Vila&gcirc;o</vrk>,
@@ -137,13 +207,17 @@
   <trd lng="de">sich <ind>ausdehnen</ind></trd>
   <trd lng="en">dilate</trd>
   <trd lng="fr">se <ind>dilater</ind></trd>
-  <trd lng="he">&#x5DC;&#x5B0;&#x5D4;&#x5B4;&#x5EA;&#x5B0;&#x5E8;&#x5B7;&#x5D7;&#x5B5;&#x5D1;</trd>
+  <trd lng="he">&lamed;&#x5B0;&he;&#x5B4;&tav;&#x5B0;&resh;&#x5B7;&het;&#x5B5;&bet;</trd>
   <trd lng="hu">(ki)<ind>t&aacute;gul</ind></trd>  
   <trd lng="pl">rozszerza&cacute; si&eogonek;</trd>
   <trd lng="pt">dilatar-se</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_s;&c_sh;&c_i;&c_r;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_t;&c_ja;&c_g;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x43E;&#x437;&#x448;&#x438;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x442;&#x44F;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -152,7 +226,7 @@
   <snc mrk="dilat.0anto.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Muskolo, kiu <tld/>as organon.
+      <ref tip="super" cel="muskol.0o">Muskolo</ref>, kiu <tld/>as organon.
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_z;&c_g;&c_ib;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
@@ -162,7 +236,7 @@
   </trdgrp>
   <trd lng="de">Strecker</trd>
   <trd lng="fr">dilatateur<klr tip="ind"> (muscle)</klr></trd>
-  <trd lng="he">&#x5DE;&#x5B7;&#x5E8;&#x5D7;&#x5B4;&#x5D9;&#x5D1;</trd>
+  <trd lng="he">&mem;&#x5B7;&resh;&het;&#x5B4;&yod;&bet;</trd>
   <trd lng="hu">t&aacute;g&iacute;t&oacute;izom</trd>
   <trd lng="pl">rozwieracz</trd>
   <trdgrp lng="ru">
@@ -184,16 +258,26 @@
   <trd lng="de">Dilator</trd>
   <trd lng="en">dilator</trd>
   <trd lng="fr">dilatateur<klr tip="ind"> (instrument)</klr></trd>
-  <trd lng="he">&#x5DE;&#x5B7;&#x5E8;&#x5D7;&#x5B4;&#x5D9;&#x5D1;</trd>
+  <trd lng="he">&mem;&#x5B7;&resh;&het;&#x5B4;&yod;&bet;</trd>
   <trdgrp lng="hu">
     <trd>t&aacute;g&iacute;t&oacute;eszk&ouml;z</trd>,
     <trd>dilator</trd>
   </trdgrp>
   <trd lng="ru">&c_r;&c_a;&c_s;&c_sh;&c_i;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x434;&#x438;&#x43B;&#x430;&#x442;&#x430;&#x442;&#x43E;&#x440;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x448;&#x438;&#x440;&#x44E;&#x432;&#x430;&#x447;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/04/26 17:11:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.20 2021/10/09 12:41:42
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 Revision 1.17  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -210,8 +294,5 @@ Revision 1.13  2009/06/16 16:31:21  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2007/08/05 16:30:44  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2005/09/09 16:31:26  revo
 -->
 </vortaro>

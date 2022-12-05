@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: pedant.xml,v 1.30 2021/05/13 13:13:15 revo Exp $">
+<art mrk="$Id: pedant.xml,v 1.33 2022/05/01 17:51:19 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>pedant</rad>/a <fnt><bib>PV</bib></fnt>
@@ -30,7 +29,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        se ni volus esti <tld/>e gramatikaj, tiam <klr>[&#8230;]</klr> ekzemple ni devus diri:
+        se ni volus esti <tld/>e gramatikaj, tiam <klr>[&#x2026;]</klr> ekzemple ni devus diri:
         &leftquot;ri&ccirc;ulo pensas, ke &ccirc;io devas servi al &gcirc;i&rightquot; (&ccirc;ar ni parolas ja ne sole pri
         ri&ccirc;aj viroj, sed anka&ubreve; pri ri&ccirc;aj virinoj)
         <fnt>
@@ -44,7 +43,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Wim Jansen</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006827.html">Reago de &Gcirc;ermano: La
+          <vrk><url ref="&Steloj;monato2/006827.html">Reago de &Gcirc;ermano: La
           germana kaj Esperanto</url></vrk>
         </fnt>.
       </ekz>
@@ -116,6 +115,7 @@
     <trd>pedantn&yacute;</trd>,
     <trd>punti&ccaron;k&aacute;rsky</trd>
   </trdgrp>
+  <trd lng="uk">&#x43F;&#x435;&#x434;&#x430;&#x43D;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="pedant.0i">
@@ -126,7 +126,7 @@
     <dif>
       Agi <tld/>e, tro precize zorgante pri bagateloj:
       <ekz>
-        nenio malpermesas, ke vi rigore <tld/>u <klr>[&#8230;]</klr> kaj
+        nenio malpermesas, ke vi rigore <tld/>u <klr>[&#x2026;]</klr> kaj
         neniam elipsu la vorton &leftquot;lingvo&rightquot;
         <fnt>
         <aut>M. M. Campagna</aut>,
@@ -137,6 +137,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_y;&c_c;&c_mol; &c_p;&c_e;&c_d;&c_a;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_y;&c_m;</trd>,
+      <trd>&c_b;&c_y;&c_c;&c_mol; &c_d;&c_r;&c_o;&c_b;&c_ja;&c_z;&c_n;&c_y;&c_m;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>ser pedant</trd>,
     <trd>insistir en nimietats</trd>
@@ -175,7 +179,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Petro Desmet'</aut>
-          <vrk><url ref="https://www.monato.be/2006/008993.php">La unua Zamenhof-monumento de la 21a
+          <vrk><url ref="&Monato;/2006/008993.php">La unua Zamenhof-monumento de la 21a
           jarcento: dika Pomego!</url></vrk>
         </fnt>.
       </ekz>
@@ -202,6 +206,7 @@
     <trd>pedant</trd>,
     <trd>punti&ccaron;k&aacute;r</trd>
   </trdgrp>
+  <trd lng="uk">&#x43F;&#x435;&#x434;&#x430;&#x43D;&#x442;</trd>
 </drv>
 
 <drv mrk="pedant.0eco">
@@ -241,10 +246,20 @@
     <trd>pedantstvo</trd>,
     <trd>&lcaron;penie na mali&ccaron;kostiach</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x434;&#x430;&#x43D;&#x442;&#x438;&#x447;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>,
+    <trd>&#x43F;&#x435;&#x434;&#x430;&#x43D;&#x442;&#x438;&#x437;&#x43C;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2022/05/01 17:51:19
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.31 2021/10/19 09:30:28
+Dmitri Gabinski: +trd be
+
 versio 1.30 2021/05/13 13:13:15
 Wolfram Diestel: kor. snc@mrk
 
@@ -261,11 +276,5 @@ Revision 1.25  2014/11/15 08:10:14  revo
 Alain Gerard: +trd fr
 
 Revision 1.24  2014/08/10 11:10:11  revo
-Carlos Garcia: +trd es -o -i -ec
-
-Revision 1.23  2013/10/31 02:10:25  revo
-Jeromo Vasxe: ~o unua, + ~eco
-
-Revision 1.22  2011/12/08 11:10:13  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: branka.xml,v 1.20 2021/03/05 17:02:56 revo Exp $">
+<art mrk="$Id: branka.xml,v 1.24 2022/10/26 07:35:04 revo Exp $">
 <kap>
   <rad>brankard</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -10,8 +10,29 @@
   <snc mrk="branka.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Portilo por ku&scirc;anta malsanulo, vundito,
+      <ref tip="super" cel="port.0ilo">Portilo</ref> por ku&scirc;anta malsanulo, vundito,
       tenata de du homoj:
+      <ekz>
+        la povra kamparano <klr>[&#8230;]</klr> eble ricevos tiun eluzitan tabureton kiel
+        provianton, kaj la tabureto eble fari&gcirc;os <tld/>o en la lando de eterno
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Turgardisto Ole</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni alportas la <tld/>on, mi klinas min kaj vidas sangover&scirc;antan karnon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>oj kun la morte palaj vunditoj, &ccirc;iuj senkonsciaj, ekprocesiis al la
+        ekstremo de la pre&gcirc;ejo
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         li ridetis, &gcirc;is la <tld/>o malaperis sur la &scirc;tuparo
         <fnt>
@@ -21,18 +42,20 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="kusx.0ejo.KOMUNE">tabulku&scirc;ejo</ref>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_s;&c_ib;&c_l;&c_k;&c_ib;</trd>
   <trd lng="bg">&c_n;&c_o;&c_s;&c_i;&c_l;&c_k;&c_a;</trd>
   <trd lng="cs">nos&iacute;tka pro nemocn&eacute;</trd>
   <trdgrp lng="de">
     <trd>Tragbahre</trd>,
+    <trd>Trage</trd>,
     <trd>Bahre</trd>
   </trdgrp>
   <trd lng="en">stretcher</trd>
   <trd lng="fa">&a_b;&a_r;&a_A;&a_n;&f_k;&a_A;&a_r;</trd>
   <trd lng="fr">brancard</trd>
-  <trd lng="he">&#x5D0;&#x5B2;&#x5DC;&#x5D5;&#x5BC;&#x5E0;&#x5E7;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&alef;&#x5B2;&lamed;&vav;&#x5BC;&nun;&qof;&#x5B8;&he;</trd>
   <trd lng="hu">hord&aacute;gy</trd>
   <trdgrp lng="nl">
     <trd>brancard</trd>,
@@ -49,6 +72,10 @@
     <trd>nosidl&aacute; pre chor&yacute;ch</trd>
   </trdgrp>
   <trd lng="sv">b&aring;r</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&#x43E;&c_s;&c_i;&#x43B;&#x43A;&c_i;</trd>,
+    <trd>&#x43D;&#x43E;&c_sh;&c_ib;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="branka.0isto">
@@ -64,15 +91,42 @@
           <aut>J. Francis</aut>,
           <vrk>La Granda Kaldrono</vrk>,
           <lok>1978</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne esti&gcirc;is kriado a&ubreve; &hcirc;aoso, sed ege sinregegante policistoj, <tld/>istoj,
+        <ref cel="fleg.0isto">flegisto</ref>j k.s. alkuris de &ccirc;iuj flankoj kaj komencis prizorgi la
+        vunditojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="&Monato;/2009/009822.php">Katastrofa re&gcirc;inotago</url></vrk>
+          <lok>2009</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="sanita.0isto.sukuristo">sanitaristo<sncref/></ref>,
+      <ref cel="sukur.0isto">sukuristo</ref>
+    </refgrp>
   </snc>
+  <trd lng="be">&c_s;&c_a;&c_n;&c_ib;&c_t;&c_a;&c_r;-&c_n;&c_a;&c_s;&c_ib;&c_l;&c_mol;&c_sh;&c_ch;&c_y;&c_k;</trd>
+  <trd lng="de">Krankentr&auml;ger</trd>
   <trd lng="fr">brancardier</trd>
+  <trd lng="uk">&c_s;&c_a;&#x43D;&c_ib;&c_t;&c_a;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2022/10/26 07:35:04
+Dmitri Gabinski: + trd be
+
+versio 1.23 2022/04/26 15:00:33
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.21 2022/01/27 18:32:53
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
 Revision 1.18  2016/01/05 21:10:21  revo
 Jeromo Vasxe: + ekz
 
@@ -86,11 +140,5 @@ Revision 1.15  2014/01/29 17:10:12  revo
 Joop Eggen: +trd bg de
 
 Revision 1.14  2010/11/07 17:30:15  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.13  2009/06/20 18:01:09  revo
-Behnam Tabatabai: korr arabaj/persaj koderoj
-
-Revision 1.12  2009/05/03 16:30:24  revo
 -->
 </vortaro>

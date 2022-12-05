@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gram1.xml,v 1.3 2021/04/06 05:55:04 revo Exp $">
+<art mrk="$Id: gram1.xml,v 1.6 2022/06/23 08:41:41 revo Exp $">
 <kap>
   <rad>Gram</rad>/o <fnt><bib>PIV2</bib></fnt>
 </kap>
@@ -14,8 +13,9 @@
   <snc mrk="gram1.0o.PERS">
     <uzo tip="fak">PERS</uzo>
     <dif>
-      <trd lng="da">Hans Christian Joachim Gram</trd> (1853&#8239;-&#8239;1938), dana 
-      <ref tip="lst" lst="voko:historiaj_personoj" cel="bakteriolog.0o">bakteriologo</ref>, fama pro sia
+      <trd lng="da">Hans Christian Joachim Gram</trd> (1853&#x202F;-&#x202F;1938), dana 
+      <ref tip="lst" lst="voko:historiaj_personoj" cel="bakteriolog.0o">bakteriologo</ref>, fama pro
+      sia
       metodo kolorigi bakteriojn.
     </dif>
   </snc>
@@ -23,9 +23,11 @@
       La vortoj &leftquot;<tld lit="g"/>kolorigo&rightquot; kc do ne rilatas al la mezurunuo
       &leftquot;<ref tip="hom" cel="gram.0o">gramo</ref>&rightquot;.
     </rim>
+    <trd lng="be">&c_G;&c_r;&c_a;&c_m; <klr>(&c_b;&c_a;&c_k;&c_t;&c_e;&c_r;&c_y;&c_jo;&c_l;&c_ja;&c_g;)</klr></trd>
   <trd lng="de">Hans Christian <ind>Gram</ind></trd>
   <trd lng="en">Hans Christian <ind>Gram</ind></trd>
   <trd lng="fr">Hans Christian <ind>Gram</ind></trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&#x43C;&#xA0;(&#x43C;&c_ib;&c_r;&c_a; &c_v;&c_a;&c_g;&c_i;)</trd>
 </drv>
 
 <drv mrk="gram1.0kolorigo">
@@ -41,12 +43,13 @@
         faciligas identigon kaj priskribon de la bakterioj
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="https://eo.wikipedia.org/wiki/Gram-kolorigo">
+          <lok><url ref="&Viki;/Gram-kolorigo">
           Gram-kolorigo</url>, 2015-10-02</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_f;&c_a;&c_r;&c_b;&c_o;&c_w;&c_k;&c_a; &c_m;&c_e;&c_t;&c_a;&c_d;&c_a;&c_m; &c_G;&c_r;&c_a;&c_m;&c_a;</trd>
   <trd lng="de">Gramf&auml;rbung</trd>
   <trd lng="fr">coloration de Gram</trd>
   <trd lng="nl">gramkleuring</trd>
@@ -65,7 +68,8 @@
         mikroorganismoj
         <fnt>
           <aut>Z. Pluha&rcaron;</aut>,
-          <vrk><url ref="http://media1.webgarden.name/files/media1:550578a5baf24.pdf.upl/Konciza%20Imuno%C4%A5emia%20Vortaro%20Esperanta%20%282015,%20v.5%29.pdf">
+          <vrk><url
+          ref="http://media1.webgarden.name/files/media1:550578a5baf24.pdf.upl/Konciza%20Imuno%C4%A5emia%20Vortaro%20Esperanta%20%282015,%20v.5%29.pdf">
           Konciza Imuno&hcirc;emia Vortaro Esperanta</url></vrk>,
           <lok>2015</lok>
         </fnt>;
@@ -73,8 +77,7 @@
       <ekz>
         <nom>Vibrio fischeri</nom> estas <tld/>negativa bakterio, malkovrita en 1889
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Vibrio_fischeri"
-              >Vibrio fischeri - Vikipedio</url></vrk>
+          <vrk><url ref="&Viki;/Vibrio_fischeri">Vibrio fischeri - Vikipedio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -82,6 +85,7 @@
        <ref cel="bakter.ciano0oj">cianobakterioj</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_n;&c_e;&c_g;&c_a;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
   <trd lng="de">gramnegativ</trd>
   <trd lng="fr">&agrave; Gram n&eacute;gatif</trd>
   <trd lng="nl">gramnegatief</trd>
@@ -100,8 +104,7 @@
         &ccirc;elmuron, kiu ne estas trapenetrebla por la solva&jcirc;o
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=160468"
-              >Gram-kolorigo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=160468">Gram-kolorigo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -111,6 +114,7 @@
        <ref cel="streptokok.0o">streptokoko</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_p;&c_a;&c_z;&c_y;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
   <trd lng="de">grampositiv</trd>
   <trd lng="fr">&agrave; Gram positif</trd>
   <trd lng="nl">gramnegatief</trd>
@@ -119,6 +123,12 @@
 
 <!--
 $Log$
+versio 1.6 2022/06/23 08:41:41
+Dmitri Gabinski: + trd be
+
+versio 1.5 2022/04/30 08:42:40
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.3 2021/04/06 05:55:04
 Wolfram Diestel: +~o PERS, ekz-oj, ref-oj, trd de
 

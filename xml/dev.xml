@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dev.xml,v 1.83 2021/06/18 20:41:30 revo Exp $">
+<art mrk="$Id: dev.xml,v 1.124 2022/06/26 09:26:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dev</rad>/i <fnt><bib>PV</bib></fnt>
@@ -61,8 +61,9 @@
         mi <tld/>as sendi tiun leteron anta&ubreve; morga&ubreve;;
       </ekz>
       <ekz>
-        pri gustoj oni disputi ne <tld/>as
-        <fnt><bib>PrV</bib></fnt>
+        <ind>pri gustoj oni disputi ne <tld/>as</ind>
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="de">&uuml;ber <ind>Geschmack</ind> l&auml;sst sich nicht streiten</trd>
       </ekz>
       <ekz>
         oni ne <tld/>as havi tro multe da konfido al si mem
@@ -95,7 +96,7 @@
         &ccirc;agreni
         <fnt>
           <bib>LR</bib>
-          <vrk><url ref="http://eduinf.waw.pl/esp/lern/librejo/0015/0020.php">Lingvaj
+          <vrk><url ref="&EduInf;lern/librejo/0015/0020.php">Lingvaj
           respondoj - Pri idiotismoj en Esperanto</url></vrk>
           <lok>Lingvo Internacia, 1905, p. 545</lok>
         </fnt>;
@@ -110,7 +111,7 @@
         tute ne <tld/>as montri al ni
         <fnt>
           <bib>LR</bib>
-          <vrk><url ref="http://eduinf.waw.pl/esp/lern/librejo/0015/0006.php">Lingva
+          <vrk><url ref="&EduInf;lern/librejo/0015/0006.php">Lingva
           Respondo n-o 11, Pri la sufikso &leftquot;a&jcirc;&rightquot; apud verbaj
           radikoj</url></vrk>
           <lok>La Revuo, 1907, Aprilo</lok>
@@ -166,22 +167,35 @@
       Kelkfoje &gcirc;i montras la certecon a&ubreve; e&ccirc; nur la
       probablecon; certe ...i, probable ...i, supozeble ...i:
       <ekz>
-        li <tld/>is koleri <klr>(li certe koleris)</klr>, &ccirc;ar li 
-        neniam skribas al mi post de tiam<fnt>K</fnt>;
+        kiel ravita vi <tld/>as esti! <klr>(vi supozeble estas)</klr>
+        <klr>[&#8230;]</klr> sendube <klr>[&#8230;]</klr> vi <tld/>us
+        nun esti la plej feli&ccirc;a el &ccirc;iuj viroj
+        <fnt>
+          <bib>GDn</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kiel ravita vi <tld/>as esti 
-        <klr>(vi supozeble estas)</klr><fnt>Z</fnt>;
+        oni <tld/>us esti freneza por akcepti tion
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Du</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tiu sciigo <tld/>as esti falsa;
-      </ekz>
-      <ekz>
-        li <tld/>as esti freneza;
+        ili tiel freneze kriegas, ke oni <tld/>as esti surda, se oni ne a&ubreve;das
+        <fnt>
+          <bib>Voja&gcirc;Imp</bib>
+          <lok>En Peterburgo</lok>
+        </fnt>;
       </ekz>
       <ekz>
         se &gcirc;i ne fari&gcirc;os nun, &gcirc;i <tld/>as jam iam
-        fari&gcirc;i en estonteco<fnt>Z</fnt>;
+        fari&gcirc;i en estonteco
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         tiuj argumentoj <tld/>is &scirc;ajni al tiuj homoj tiel same 
@@ -208,7 +222,7 @@
   <snc mrk="dev.0i.ne_necesas">
     <uzo tip="stl">EVI</uzo>
     <dif>
-      <klr>(post ne)</klr> Ne necesas, ne bezonas:
+      <klr>(post &leftquot;ne&rightquot;)</klr> Ne necesas, ne bezonas:
       <ekz>
         &ccirc;e mia brita klavaro la punktokomo estas sub mia dekstra
         etfingro, do mi ne <tld/>as movi la manon
@@ -226,17 +240,18 @@
       Kelkaj e&ccirc; distingas &leftquot;devas ne...&rightquot; <klr>(ne estas permesite)</klr> 
       de &leftquot;ne devas...&rightquot; <klr>(ne estas deviga)</klr>. Tia uzo tre
       ver&scirc;ajne estos miskomprenata kaj do estas evitinda.
-      Prefere diru &leftquot;ne bezonas&rightquot; a&ubreve; &leftquot;ne estas devigata&rightquot; por klare esprimi
+      Prefere diru &leftquot;ne bezonas&rightquot; a&ubreve; &leftquot;ne estas devigata&rightquot; por
+      klare esprimi
       la ideon de mankanta devigo.
       Ebla kvankam ne kutima estus anka&ubreve; diri &leftquot;maldevas&rightquot;.
-      <aut>WD</aut>
+      <aut>Wolfram Diestel</aut>
     </rim>
     <!-- ne traduku EVItindajn vortojn -->
   </snc>
 
   <trd lng="af">sal</trd>
-  <trd lng="am">&#x12ED;&#x1206;&#x1293;&#x120D;</trd>
-  <trd lng="ar">&#x64A;&#x62C;&#x628;</trd>
+  <trd lng="am">&#4845;&#4614;&#4755;&#4621;</trd>
+  <trd lng="ar">&a_y;&a_j;&a_b;</trd>
   <trd lng="az">edilir</trd>
   <trdgrp lng="be">
     <trd>&c_m;&c_u;&c_s;&c_ib;&c_c;&c_mol;</trd>,
@@ -245,45 +260,65 @@
     <trd>&c_b;&c_y;&c_c;&c_mol; <ind>
     &c_p;&c_a;&c_v;&c_ib;&c_n;&c_n;&c_y;&c_m;</ind></trd>
   </trdgrp>
-  <trd lng="bn">&#x9B9;&#x987;&#x9AC;&#x9C7;</trd>
+  <trd lng="bn">&#2489;&#2439;&#2476;&#2503;</trd>
   <trd lng="bs">mora</trd>
-  <trd lng="co">sar&#xE0;</trd>
+  <trd lng="co">sar&agrave;</trd>
   <trdgrp lng="cs">
     <trd>b&yacute;t povinen</trd>,
     <trd>muset</trd>,
     <trd>m&iacute;t povinnost</trd>
   </trdgrp>
+  <trd lng="cy">rhaid</trd>
   <trd lng="da">skal</trd>
   <trdgrp lng="de">
     <trd>m&uuml;ssen</trd>,
-    <trd>nicht <ind>d&uuml;rfen</ind> <klr>(devi ne...)</klr></trd>
+    <trd>nicht <ind>d&uuml;rfen</ind> <klr>(devi ne...)</klr></trd>,
+    <trd>sollen <klr>(m&uuml;ssen)</klr></trd>
   </trdgrp>
   <trd lng="en">must</trd>
   <trd lng="et">peab</trd>
   <trd lng="eu">errejimena</trd>
   <trd lng="fy">sille</trd>
+  <trd lng="ga">d&eacute;anfaidh</trd>
+  <trd lng="gd">hithidh</trd>
   <trd lng="gl">debe</trd>
-  <trd lng="gu">&#xAB0;&#xAB9;&#xAC7;&#xAB6;&#xAC7;</trd>
+  <trd lng="gu">&#2736;&#2745;&#2759;&#2742;&#2759;</trd>
   <trd lng="ha">za</trd>
-  <trd lng="he">&#x5DC;&#x5D4;&#x5D9;&#x5D5;&#x5EA; &#x5D7;&#x5D9;&#x5D9;&#x5D1;</trd>
-  <trd lng="hi">&#x915;&#x930;&#x947;&#x917;&#x93E;</trd>
+  <trd lng="he">&lamed;&he;&yod;&vav;&tav; &het;&yod;&yod;&bet;</trd>
+  <trd lng="hi">&#2325;&#2352;&#2375;&#2327;&#2366;</trd>
+  <trd lng="hmn">yuav</trd>
   <trd lng="hr">mora</trd>
-  <trd lng="hy">&#x57A;&#x565;&#x57F;&#x584;</trd>
+  <trd lng="ht">va</trd>
+  <trd lng="hy">&#1402;&#1381;&#1407;&#1412;</trd>
   <trd lng="id">harus</trd>
+  <trd lng="ig">ga-</trd>
   <trd lng="is">skal</trd>
-  <trd lng="ja">&#x3057;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;</trd>
-  <trd lng="jw">badhe</trd>
-  <trd lng="ka">&#x10E3;&#x10DC;&#x10D3;&#x10D0;</trd>
-  <trd lng="km">&#x1793;&#x17B9;&#x1784;</trd>
-  <trd lng="ko">&#xD558;&#xC5EC;&#xC57C;&#xD55C;&#xB2E4;</trd>
-  <trd lng="lo">&#xE88;&#xEB0;</trd>
-  <trd lng="ml">&#xD0E;&#xD28;&#xD4D;&#xD28;&#xD41;</trd>
-  <trd lng="mr">&#x915;&#x930;&#x940;&#x932;</trd>
-  <trd lng="my">&#x1019;&#x100A;&#x103A;</trd>
-  <trd lng="ne">&#x92A;&#x930;&#x94D;&#x91B;</trd>
+  <trd lng="ja">&#12375;&#12394;&#12369;&#12428;&#12400;&#12394;&#12425;&#12394;&#12356;</trd>
+  <trd lng="jv">badhe</trd>
+  <trd lng="ka">&#4323;&#4316;&#4307;&#4304;</trd>
+  <trd lng="kk">&c_m;&c_ib;&c_n;&c_d;&c_je;&c_t;&c_t;&c_ib;</trd>
+  <trd lng="km">&#6035;&#6073;&#6020;</trd>
+  <trd lng="kn">&#3254;&#3250;&#3277;</trd>
+  <trd lng="ko">&#54616;&#50668;&#50556;&#54620;&#45796;</trd>
+  <trd lng="ku">d&ecirc;b&ucirc;n</trd>
+  <trd lng="ky">&c_m;&c_i;&c_l;&c_d;&c_je;&c_t;&c_t;&#1199;&#1199;</trd>
+  <trd lng="lat">numquid</trd>
+  <trd lng="lo">&#3720;&#3760;</trd>
+  <trd lng="lt">turi</trd>
+  <trd lng="lv">veic</trd>
+  <trd lng="mg">dia</trd>
+  <trd lng="mi">ka</trd>
+  <trd lng="mk">&c_t;&c_r;&c_je;&c_b;&c_a;</trd>
+  <trd lng="ml">&#3342;&#3368;&#3405;&#3368;&#3393;</trd>
+  <trd lng="mn">&c_b;&c_o;&c_l;&c_n;&c_o;</trd>
+  <trd lng="mr">&#2325;&#2352;&#2368;&#2354;</trd>
+  <trd lng="ms">hendaklah</trd>
+  <trd lng="mt">g&#295;andhom</trd>
+  <trd lng="my">&#4121;&#4106;&#4154;</trd>
+  <trd lng="ne">&#2346;&#2352;&#2381;&#2331;</trd>
   <trd lng="ny">mudzazichita</trd>
-  <trd lng="pa">&#xA26;&#xA47;&#xA23;&#xA17;&#xA47;</trd>
-  <trd lng="ps">&#x628;&#x627;&#x6CC;&#x62F;</trd>
+  <trd lng="pa">&#2598;&#2631;&#2595;&#2583;&#2631;</trd>
+  <trd lng="ps">&a_b;&a_A;&f_y;&a_d;</trd>
   <trdgrp lng="pt">
     <trd>dever</trd>,
     <trd>ter <ind>obriga&ccedil;&atilde;o</ind> de</trd>,
@@ -291,28 +326,43 @@
     <trd>ter que</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_d;&c_o;&c_l;&c_zh;&c_n;&c_y;&c_m;</ind> <klr>(&c_ch;&c_t;&c_o;-&c_l;.
+    <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_d;&c_o;&c_l;&c_zh;&c_n;&c_y;&c_m;</ind>
+    <klr>(&c_ch;&c_t;&c_o;-&c_l;.
     &c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;)</klr></trd>,
-    <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_o;&c_b;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_y;&c_m;</ind> <klr>(&c_ch;&c_t;&c_o;-&c_l;.
+    <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_o;&c_b;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_y;&c_m;</ind>
+    <klr>(&c_ch;&c_t;&c_o;-&c_l;.
     &c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;)</klr></trd>,
     <trd>&c_d;&c_o;&c_l;&c_zh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x645;&#x644;&#x646;&#x62F;&#x648;</trd>
-  <trd lng="si">&#xDBA;&#xDD4;&#xDAD;&#xDD4;&#xDBA;</trd>
+  <trd lng="rw">igomba</trd>
+  <trd lng="sd">&a_m;&a_l;&a_n;&a_d;&a_w;</trd>
+  <trd lng="si">&#3514;&#3540;&#3501;&#3540;&#3514;</trd>
   <trdgrp lng="sk">
     <trd>by&tcaron; povinn&yacute;</trd>,
     <trd>musie&tcaron;</trd>
   </trdgrp>
+  <trd lng="sl">se</trd>
+  <trd lng="sm">e tatau</trd>
+  <trd lng="sn">ko</trd>
+  <trd lng="so">waa</trd>
   <trd lng="sq">duhet</trd>
   <trd lng="st">tla</trd>
-  <trd lng="ta">&#xBAA;&#xBCB;&#xB95;&#xBB2;&#xBBE;&#xBAE;&#xBBE;</trd>
-  <trd lng="te">&#xC35;&#xC32;&#xC46;&#xC28;&#xC41;</trd>
-  <trd lng="th">&#xE08;&#xE30;&#xE15;&#xE49;&#xE2D;&#xE07;</trd>
+  <trd lng="su">wajib</trd>
+  <trd lng="sw">atakuwa</trd>
+  <trd lng="ta">&#2986;&#3019;&#2965;&#2994;&#3006;&#2990;&#3006;</trd>
+  <trd lng="te">&#3125;&#3122;&#3142;&#3112;&#3137;</trd>
+  <trd lng="tg">&c_g;&c_u;&c_z;&c_a;&c_r;&c_o;&c_n;</trd>
+  <trd lng="th">&#3592;&#3632;&#3605;&#3657;&#3629;&#3591;</trd>
   <trd lng="tl">tiyak</trd>
-  <trd lng="tp">wile</trd>
-  <trd lng="ur">&#x6AF;&#x6D2;</trd>
-  <trd lng="vi">c&#xF3; tr&#xE1;ch nhi&#x1EC7;m</trd>
-  <trd lng="yi">&#x5D5;&#x5D5;&#x5E2;&#x5D8;</trd>
+  <trd lng="tok">wile</trd>
+  <trd lng="tt">.&#1241;&c_r; &c_s;&#1199;&c_z;&c_n;&c_je;&#1187;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_v;&c_i;&c_n;&c_je;&c_n;</trd>
+  <trd lng="ur">&f_g;&#1746;</trd>
+  <trd lng="uz">keladir</trd>
+  <trd lng="vi">c&oacute; tr&aacute;ch nhi&#7879;m</trd>
+  <trd lng="xh">uya</trd>
+  <trd lng="yi">&vav;&vav;&ayin;&tet;</trd>
+  <trd lng="yo">yio</trd>
   <trd lng="zu">kufanele</trd>
 </drv>
 
@@ -324,17 +374,38 @@
     <dif>
       <ref tip="sin" cel="evit.ne0ebla">Neevitebla</ref>, <ref cel="neces.0a">necesa</ref>:
       <ekz>
+        mi havas gravan <tld/>an renkonton hodia&ubreve; vespere kun la patro de unu el miaj
+        lernantoj
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en Belgio la partopreno en balotado estas <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2005/008540.php"
+              >Kialoj de sukceso de Vlaams Blok</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         anka&ubreve; aliaj landoj en E&ubreve;ropo uzos tiajn identeckartojn, kiuj ekde oktobro
         fari&gcirc;os <tld/>aj por civitanoj de E&ubreve;ropa Unio
         <fnt>
           <bib>Monato</bib>
           <aut>last</aut>
-          <vrk><url ref="https://www.monato.be/2005/008679.php">Karto al la estonteco</url></vrk>
+          <vrk><url ref="&Monato;/2005/008679.php">Karto al la estonteco</url></vrk>
           <lok>2005</lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="dev.0iga">deviga</ref>
+    <refgrp tip="vid">
+      <ref cel="dev.0iga">deviga</ref>,
+      <ref cel="end.0">-end</ref>
+    </refgrp>
   </snc>
   <trd lng="de">verpflichtend</trd>
   <trd lng="en">obligatory</trd>
@@ -342,7 +413,7 @@
 
 
 <drv mrk="dev.0o">
-  <kap><tld/>o<fnt>Z</fnt></kap>
+  <kap><tld/>o</kap>
   <snc mrk="dev.0o.KOMUNE">
     <dif>
       Farota&jcirc;o necesa pro le&gcirc;o, moralo a&ubreve; konveno:
@@ -351,16 +422,43 @@
         <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 4a</lok></fnt>;
       </ekz>
       <ekz>
-        la unua <tld/>o de homoj estas ne malutili reciproke;
+        ili havis la <tld/>on gardi
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 9:27</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mi konas mian <tld/>on al mia estro;
+        &scirc;i pu&scirc;is la fidelecon al &jcirc;uro, al <tld/>o, al amo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plenumado de la patrina <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nenia <tld/>o estas por mi tiel sankta, ke mi ne estus preta &gcirc;in rompi
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estas preta servi tuj, mia <tld/>o estas helpi la traveturantojn
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mi estintus inter la Turkoj malbona edzo en la horo, kiam la
-        publika
-        kriado ilin vokas plenumi siajn <ind>edzo-devo</ind>jn
-        <fnt><bib>Revadoj</bib>, <lok>sesa promenado</lok></fnt>;
+        publika kriado ilin vokas plenumi siajn <ind>edzo-devo</ind>jn
+        <fnt><bib>Revadoj</bib>, <lok>sesa promenado</lok></fnt>.
         <trd lng="es">deber conyugal</trd>
         <trd lng="fr">devoir conjugal</trd>
         <trd lng="hu">f&eacute;rji <ind>k&ouml;telezetts&eacute;g</ind>
@@ -376,7 +474,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_b;&c_a;&c_v;&c_ja;&c_z;&c_a;&c_k;</trd>
-  <trd lng="bo">&#xF60;&#xF7C;&#xF66;&#xF0B;&#xF60;&#xF42;&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_-a;&t_naro;&t_sa;&t_tsheg;&t_-a;&t_ga;&t_na;&t_tsheg;</trd>
   <trd lng="cs">povinnost</trd>
   <trd lng="de">Pflicht</trd>
   <trdgrp lng="en">
@@ -391,7 +489,7 @@
     <trd>devoir<klr tip="ind"> (obligation)</klr></trd>,
     <trd>obligation<klr tip="ind"> (devoir)</klr></trd>
   </trdgrp>
-  <trd lng="he">&#x5D7;&#x5D5;&#x5B9;&#x5D1;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&het;&vav;&#1465;&bet;&#1464;&he;</trd>
   <trdgrp lng="hu">
     <trd>k&ouml;teless&eacute;g</trd>,
     <trd>k&ouml;telezetts&eacute;g</trd>
@@ -406,11 +504,13 @@
     <trd>sarcin&abreve;</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_d;&c_o;&c_l;&c_g;<klr tip="ind"> (&c_o;&c_b;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;)</klr></trd>,
+    <trd>&c_d;&c_o;&c_l;&c_g;<klr tip="ind">
+    (&c_o;&c_b;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;)</klr></trd>,
     <trd>&c_o;&c_b;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">povinnos&tcaron;</trd>
-  <trd lng="tp">wile</trd>
+  <trd lng="tok">wile</trd>
+  <trd lng="uk">&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_o;&c_k;</trd>
 </drv>
 
 <drv mrk="dev.0iga">
@@ -438,7 +538,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la sola unu fojon por &ccirc;iam <tld/>iga por &ccirc;iuj esperantistoj <klr>[&#x2026;]</klr> estas
+        la sola unu fojon por &ccirc;iam <tld/>iga por &ccirc;iuj esperantistoj <klr>[&#8230;]</klr> estas
         la verketo &leftquot;Fundamento de Esperanto&rightquot;
         <fnt>
           <bib>LR</bib>
@@ -477,7 +577,7 @@
   </trdgrp>
   <trd lng="es">obligatorio</trd>
   <trd lng="fr">obligatoire</trd>
-  <trd lng="he">&#x5D4;&#x5B6;&#x5DB;&#x5B0;&#x5E8;&#x5B5;&#x5D7;&#x5B4;&#x5D9;</trd>
+  <trd lng="he">&he;&#1462;&kaf;&#1456;&resh;&#1461;&het;&#1460;&yod;</trd>
   <trd lng="hu">k&ouml;telez&odblac;</trd>
   <trd lng="id">wajib</trd>
   <trdgrp lng="pl">
@@ -488,6 +588,10 @@
     <trd>&c_p;&c_r;&c_i;&c_n;&c_u;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">z&aacute;v&auml;zn&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_r;&c_i;&c_m;&c_u;&c_s;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dev.0igi">
@@ -501,11 +605,28 @@
         <fnt><bib>F</bib>, <lok>&FE; 13</lok></fnt>;
       </ekz>
       <ekz>
-        mi <tld/>igos lin konfesi sian mensogon;
+        ni lin <tld/>igos redoni al &gcirc;ia vera posedanto la enhavon de l&#8217; paperujeto
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Deka</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la scienco <tld/>igis la naturon, ke &gcirc;i
-        montru siajn limojn<fnt>Z</fnt>;
+        per eksperimentoj oni <tld/>igis la naturon, ke &gcirc;i montru siajn limojn
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>i&gcirc;is <klr>(mi i&gcirc;is <tld/>igata)</klr> 
+        skribi al vi, por kura&gcirc;igi vin batali por la kredo
+        <fnt><bib>NT</bib>, <lok>&Jud; 3</lok></fnt>;
+      </ekz>
+      <ekz>
+        li faris el ili <klr>[&#8230;]</klr> tri mil sescent kontrolistojn,
+        por <tld/>igadi la popolon labori
+        <fnt><bib>MT</bib>, <lok>&Kr2; 2:18</lok></fnt>;
       </ekz>
       <ekz>
         demando ne kostas, demando ne devigas;
@@ -515,17 +636,7 @@
         ekzameni ne <tld/>igas preni
         <fnt>
           <bib>Prv</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        mi <tld/>i&gcirc;is <klr>(mi i&gcirc;is <tld/>igata)</klr> 
-        skribi al vi, por kura&gcirc;igi vin batali por la kredo
-        <fnt><bib>NT</bib>, <lok>&Jud; 3</lok></fnt>;
-      </ekz>
-      <ekz>
-        li faris el ili <klr>[&#x2026;]</klr> tri mil sescent kontrolistojn,
-        por <tld/>igadi la popolon labori
-        <fnt><bib>MT</bib>, <lok>&Kr2; 2:18</lok></fnt>.
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -555,7 +666,7 @@
     <trd>contraindre<klr tip="ind"> (obliger)</klr></trd>,
     <trd>forcer<klr tip="ind"> (obliger)</klr></trd>
   </trdgrp>
-  <trd lng="he">&#x5DC;&#x5D4;&#x5DB;&#x5E8;&#x5D9;&#x5D7;</trd>
+  <trd lng="he">&lamed;&he;&kaf;&resh;&yod;&het;</trd>
   <trd lng="hu">k&ouml;telez</trd>
   <trdgrp lng="id">
     <trd>me<ind>wajib</ind>kan</trd>,
@@ -573,6 +684,11 @@
     <trd>&c_p;&c_r;&c_i;&c_n;&c_u;&c_d;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">n&uacute;ti&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_m;&c_u;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_m;&c_u;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dev.0igo">
@@ -581,11 +697,27 @@
     <dif>
       Neceso a&ubreve; trudo fari ion:
       <ekz>
-        la interna ideo de Esperanto <klr>[&#x2026;]</klr> havas absolute 
+        la interna ideo de Esperanto <klr>[&#8230;]</klr> havas absolute 
         nenian <tld/>igon por &ccirc;iu esperantisto aparta
         <fnt><bib>Paroloj</bib>, <lok>anta&ubreve; la Oka Kongreso 
         Esperantista en Krak&oacute;w en la 11a de a&ubreve;gusto 1912
-        </lok></fnt>.
+        </lok></fnt>;
+      </ekz>
+      <ekz>
+        sub la <tld/>igo de ia kobolda petolemo li komencis filtradi inter siaj fingroj
+        la delikatan sablon
+        <fnt>
+          <bib>LGA</bib>
+          <lok>I.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili estas senditaj al lernejoj por esti edukitaj, sed tie oni apena&ubreve; uzas
+        <tld/>igon
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Tria &Ccirc;apitro</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -608,7 +740,7 @@
     <trd>presi&oacute;n</trd>
   </trdgrp>
   <trd lng="fr">obligation</trd>
-  <trd lng="he">&#x5DB;&#x5BC;&#x5D5;&#x5B9;&#x5E8;&#x5B7;&#x5D7;</trd>
+  <trd lng="he">&kaf;&#1468;&vav;&#1465;&resh;&#1463;&het;</trd>
   <trd lng="hu">k&ouml;telez&eacute;s</trd>
   <trdgrp lng="pl">
     <trd>mus</trd>,
@@ -619,6 +751,10 @@
   <trdgrp lng="sk">
     <trd>nutkanie</trd>,
     <trd>n&uacute;tenie</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_r;&c_i;&c_m;&c_u;&c_s;</trd>,
+    <trd>&c_z;&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
@@ -671,6 +807,10 @@
     <trd>fakultat&iacute;vny</trd>,
     <trd>nepovinn&yacute;</trd>,
     <trd>nez&aacute;v&auml;zn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_f;&c_a;&c_k;&c_u;&c_l;&c_mol;&c_t;&c_a;&c_t;&c_i;&c_v;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -732,10 +872,17 @@
     <rim>
       La Analiza Skolo preferas la vorton &leftquot;memdevigo&rightquot; por eviti la
       envortan akuzativon.
-      <aut>WD</aut>
+      <aut>Wolfram Diestel</aut>
     </rim>
     <trd lng="de">Selbstverpflichtung</trd>
   </snc>
+  <trdgrp lng="en">
+    <trd>commitment</trd>,
+    <trd>self-discipline</trd>,
+    <trd>self-control</trd>,
+    <trd>restraint</trd>
+  </trdgrp>
+  <trd lng="uk">&c_s;&c_a;&c_m;&c_o;&c_z;&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="dev.0ontigi">
@@ -748,12 +895,16 @@
       <ekz>
         dum la &scirc;uldanto silente <tld/>ontigas sin al dankemo,
         same anka&ubreve; la bonfaranto <tld/>ontigas sin al konservado
-        <klr>[&#x2026;]</klr> de tiu sama bonvolo
+        <klr>[&#8230;]</klr> de tiu sama bonvolo
         <fnt><bib>Revadoj</bib>, <lok>sesa promenado</lok></fnt>;
       </ekz>
       <ekz>
-        li timis <tld/>ontigi sin al pagado de grandaj
-        sumoj<fnt>Z</fnt>.
+        <klr>[li timis]</klr> <tld/>ontigi sin sen scio al pagado de grandaj
+        sumoj
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -761,11 +912,19 @@
     <trd>omezit z&aacute;vazkem.</trd>,
     <trd>zav&aacute;zat</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>pledge</trd>,
+    <trd>vow</trd>
+  </trdgrp>
   <trd lng="fr">engager</trd>
   <trd lng="hu">elk&ouml;telez</trd>
   <trd lng="pl">zobowi&aogonek;zywa&cacute;</trd>
   <trd lng="ru">&c_o;&c_b;&c_ja;&c_z;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">zaviaza&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_o;&c_k;&c_l;&c_a;&c_d;&c_a;&c_t;&c_i; &c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_o;&c_k;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dev.el0igi">
@@ -820,6 +979,7 @@
     <trd>&c_v;&c_y;&c_m;&c_o;&c_g;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">vyn&uacute;ti&tcaron;</trd>
+  <trd lng="uk">&c_d;&c_o;&c_m;&c_a;&c_g;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
 </drv>
 
 <drv mrk="dev.trud0igi">
@@ -857,6 +1017,10 @@
     <trd>zwingen</trd>,
     <trd>verpflichten</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>compel</trd>,
+    <trd>force</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>someter</trd>,
     <trd>forzar<klr tip="ind"> (imponer una acci&oacute;n)</klr></trd>,
@@ -880,10 +1044,27 @@
     <trd>&c_p;&c_r;&c_i;&c_n;&c_u;&c_d;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">prin&uacute;ti&tcaron; n&aacute;sil&iacute;m</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_a;&c_v;&#8217;&c_ja;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_n;&c_a;&c_k;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_m;&c_u;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i; &c_p;&c_ib;&c_d; &c_t;&c_i;&c_s;&c_k;&c_o;&c_m;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.124 2022/06/26 09:26:37
+Wolfram Diestel: ~i: +kelkaj mankintaj fnt-oj
+
+versio 1.123 2022/06/25 12:45:03
+Wolfram Diestel: ~a..~ontigi: +ekz-oj/fnt-oj
+
+versio 1.122 2022/04/26 17:11:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.121 2022/04/23 04:41:16
+Noam Mohr: +trd en dev-
+
 versio 1.38 2021/01/01 20:47:17
 Wolfram Diestel: +~a, +rim che ~iga
 

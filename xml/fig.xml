@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fig.xml,v 1.69 2021/06/18 20:41:36 revo Exp $">
+<art mrk="$Id: fig.xml,v 1.98 2022/04/27 17:19:11 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>fig</rad>/o
@@ -59,14 +59,20 @@
   </snc>
   <trd lng="af">Fig</trd>
   <trd lng="am">&#x1260;&#x1208;&#x1235;</trd>
-  <trd lng="ar">&#x62A;&#x64A;&#x646;</trd>
+  <trd lng="ar">&#x62A;&#x64A;&a_n;</trd>
   <trd lng="az">&#x259;ncir</trd>
+  <trdgrp lng="be">
+    <trd>&c_ib;&c_n;&c_zh;&c_y;&c_r; <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>,
+    <trd>&c_f;&c_ib;&c_g;&c_a; <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>,
+    <trd>&c_s;&c_m;&c_o;&c_k;&c_v;&c_a; <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  </trdgrp>
   <trd lng="bg">&c_s;&c_m;&c_o;&c_k;&c_i;&c_n;&c_ja;</trd>
   <trd lng="bn">&#x9A1;&#x9C1;&#x9AE;&#x9C1;&#x9B0;</trd>
   <trd lng="bs">smokva</trd>
   <trd lng="ca">figa</trd>
   <trd lng="co">fico</trd>
   <trd lng="cs">f&iacute;k</trd>
+  <trd lng="cy">ffig</trd>
   <trd lng="da">figen</trd>
   <trd lng="de">Feige</trd>
   <trd lng="en">fig</trd>
@@ -76,11 +82,15 @@
   <trd lng="fa">&a_A;&a_n;&a_j;&f_y;&a_r;</trd>
   <trd lng="fr">figue</trd>
   <trd lng="fy">fig</trd>
+  <trd lng="ga">fige</trd>
+  <trd lng="gd">fhige</trd>
   <trd lng="gl">figo</trd>
   <trd lng="gu">&#xA85;&#xA82;&#xA9C;&#xAC0;&#xAB0;</trd>
   <trd lng="ha">fig</trd>
   <trd lng="hi">&#x905;&#x902;&#x91C;&#x940;&#x930;</trd>
+  <trd lng="hmn">Fig</trd>
   <trd lng="hr">slika</trd>
+  <trd lng="ht">fig frans</trd>
   <trd lng="hu">f&uuml;ge</trd>
   <trd lng="hy">&#x569;&#x578;&#x582;&#x566;</trd>
   <trdgrp lng="id">
@@ -89,39 +99,60 @@
   </trdgrp>
   <trd lng="is">mynd</trd>
   <trd lng="ja">&#x30A4;&#x30C1;&#x30B8;&#x30AF;</trd>
-  <trd lng="jw">anjir</trd>
+  <trd lng="jv">anjir</trd>
   <trd lng="ka">&#x10DA;&#x10D4;&#x10E6;&#x10D5;&#x10D8;&#x10E1;</trd>
+  <trd lng="kk">&c_ib;&#x43D;&c_zh;&c_ib;&c_r;</trd>
   <trd lng="km">&#x179B;&#x17D2;&#x179C;&#x17B6;</trd>
+  <trd lng="kn">&#xC85;&#xC82;&#xC9C;&#xCC2;&#xCB0;&#xCA6;</trd>
   <trd lng="ko">&#xADF8;&#xB9BC;</trd>
+  <trd lng="ku">keman</trd>
+  <trd lng="ky">&c_a;&#x43D;&c_zh;&#x44B;&c_r;</trd>
   <trd lng="lo">&#xE8A;&#xEB2;&#xEA7;</trd>
+  <trd lng="lt">pav</trd>
+  <trd lng="mg">aviavy</trd>
+  <trd lng="mi">piki</trd>
+  <trd lng="mk">&c_s;&#x43B;&c_i;&#x43A;&c_a;</trd>
   <trd lng="ml">&#xD05;&#xD24;&#xD4D;&#xD24;&#xD3F;&#xD2A;&#xD4D;&#xD2A;&#xD34;&#xD02;</trd>
+  <trd lng="mn">&c_i;&#x43D;&c_zh;&c_r;&c_i;&c_j;&#x43D;</trd>
   <trd lng="mr">&#x905;&#x902;&#x91C;&#x940;&#x930;</trd>
+  <trd lng="ms">ara</trd>
   <trd lng="my">&#x101E;&#x1016;&#x1014;&#x103A;&#x1038;&#x101E;&#x102E;&#x1038;</trd>
   <trd lng="ne">&#x928;&#x947;&#x92D;&#x93E;&#x930;&#x93E;&#x915;&#x94B;</trd>
   <trd lng="nl">vijg</trd>
   <trd lng="ny">chith</trd>
   <trd lng="pa">&#xA05;&#xA70;&#xA1C;&#xA40;&#xA30;</trd>
   <trd lng="pl">figa</trd>
-  <trd lng="ps">&#x627;&#x64A;&#x646;&#x681;&#x631;</trd>
+  <trd lng="ps">&a_A;&#x64A;&a_n;&#x681;&a_r;</trd>
   <trd lng="pt">figo</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_zh;&c_i;&c_r;</trd>,
     <trd>&c_s;&c_m;&c_o;&c_k;&c_v;&c_a;</trd>,
     <trd>&c_f;&c_i;&c_g;&c_a;</trd>
   </trdgrp>
-  <trd lng="sd">&#x627;&#x646;&#x62C;&#x64A;&#x631;</trd>
+  <trd lng="sd">&a_A;&a_n;&#x62C;&#x64A;&a_r;</trd>
   <trd lng="si">&#xDBB;&#xDD6;&#xDB4;&#xDBA;</trd>
   <trd lng="sk">figa</trd>
+  <trd lng="sm">fiki</trd>
+  <trd lng="sn">onde</trd>
+  <trd lng="so">berdaha</trd>
   <trd lng="sq">fiku</trd>
   <trd lng="st">feie</trd>
+  <trd lng="su">buah ara</trd>
+  <trd lng="sw">mtini</trd>
   <trd lng="ta">&#xB85;&#xBA4;&#xBCD;&#xBA4;&#xBBF;</trd>
   <trd lng="te">&#xC05;&#xC24;&#xC4D;&#xC24;&#xC3F;</trd>
+  <trd lng="tg">&c_a;&#x43D;&#x4B7;&c_i;&c_r;</trd>
   <trd lng="th">&#xE21;&#xE30;&#xE40;&#xE14;&#xE37;&#xE48;&#xE2D;</trd>
   <trd lng="tl">fig</trd>
   <trd lng="tr">incir</trd>
-  <trd lng="ur">&#x627;&#x646;&#x62C;&#x6CC;&#x631;</trd>
+  <trd lng="tt">&c_i;&#x43D;&#x497;&c_i;&c_r;</trd>
+  <trd lng="uk">&c_r;&c_i;&c_s;</trd>
+  <trd lng="ur">&a_A;&a_n;&#x62C;&#x6CC;&a_r;</trd>
+  <trd lng="uz">anjir</trd>
   <trd lng="vi">sung</trd>
+  <trd lng="xh">ikhiwane</trd>
   <trd lng="yi">&#x5E4;&#x5D9;&#x5D9;&#x5B7;&#x5D2;</trd>
+  <trd lng="yo">eeya</trd>
   <trd lng="zu">komkhiwane</trd>
 </drv>
 <drv mrk="fig.0arbo">
@@ -167,10 +198,15 @@
     </dif>
     <bld lok="&WCU;/thumb/3/30/Ficus_carica3.jpg/640px-Ficus_carica3.jpg" prm="CC-BY-SA-3.0"><tld/>oj &ccirc;e bran&ccirc;o de <tld/>ujo (Ficus carica)
         <fnt>
-          <lok><url ref="&WCW;/File:Ficus_carica3.jpg">https://commons.wikimedia.org/wiki/File:Ficus_carica3.jpg</url></lok>
+          <lok><url ref="&WCW;/File:Ficus_carica3.jpg">&WCW;/File:Ficus_carica3.jpg</url></lok>
         </fnt>
     </bld>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_ib;&c_n;&c_zh;&c_y;&c_r; <klr>(&c_d;&c_r;&c_e;&c_v;&c_a;)</klr></trd>,
+    <trd>&c_f;&c_ib;&c_g;&c_a; <klr>(&c_d;&c_r;&c_e;&c_v;&c_a;)</klr></trd>,
+    <trd>&c_s;&c_m;&c_o;&c_k;&c_v;&c_a; <klr>(&c_d;&c_r;&c_e;&c_v;&c_a;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>figuera</trd>,
     <trd>ficus</trd>
@@ -189,10 +225,23 @@
     <trd>&c_f;&c_i;&c_g;&c_o;&c_v;&c_o;&c_je; &c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>,
     <trd>&c_i;&c_n;&c_zh;&c_i;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x444;&#x456;&#x43A;&#x443;&#x441;</trd>,
+    <trd>&#x444;&#x456;&#x491;&#x430;</trd>,
+    <trd>&#x444;&#x456;&#x491;&#x43E;&#x432;&#x435; &#x434;&#x435;&#x440;&#x435;&#x432;&#x43E;</trd>,
+    <trd>&#x441;&#x43C;&#x43E;&#x43A;&#x456;&#x432;&#x43D;&#x438;&#x446;&#x44F;</trd>,
+    <trd>&#x456;&#x43D;&#x436;&#x438;&#x440;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.98 2022/04/27 17:19:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.96 2021/11/10 08:35:16
+Dmitri Gabinski: + trd be
+
 Revision 1.24  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -209,8 +258,5 @@ Revision 1.20  2012/10/23 00:11:07  revo
 Neil Roberts: aldonu la etikedon <var>
 
 Revision 1.19  2012/01/01 23:10:35  revo
-Marc Rausell: +trd ca
-
-Revision 1.18  2011/09/28 20:10:15  revo
 -->
 </vortaro>

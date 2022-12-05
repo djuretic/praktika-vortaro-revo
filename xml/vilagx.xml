@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vilagx.xml,v 1.65 2021/06/18 18:20:20 revo Exp $">
+<art mrk="$Id: vilagx.xml,v 1.100 2022/05/06 12:17:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vila&gcirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -21,7 +21,7 @@
   </snc>
   <trd lng="af">dorpie</trd>
   <trd lng="am">&#x1218;&#x1295;&#x12F0;&#x122D;</trd>
-  <trd lng="ar">&#x642;&#x631;&#x64A;&#x629;</trd>
+  <trd lng="ar">&a_q;&a_r;&#x64A;&a_t_marbuta;</trd>
   <trd lng="az">k&#x259;nd</trd>
   <trdgrp lng="be">
     <trd>&c_v;&c_jo;&c_s;&c_k;&c_a;</trd>,
@@ -35,6 +35,7 @@
   <trd lng="ca">poble</trd>
   <trd lng="co">paesu</trd>
   <trd lng="cs">vesnice</trd>
+  <trd lng="cy">pentref</trd>
   <trd lng="da">landsby</trd>
   <trd lng="de">Dorf</trd>
   <trd lng="en">village</trd>
@@ -46,27 +47,45 @@
   <trd lng="eu">herriko</trd>
   <trd lng="fr">village</trd>
   <trd lng="fy">doarp</trd>
+  <trd lng="ga">sr&#xE1;idbhaile</trd>
+  <trd lng="gd">bhaile</trd>
   <trd lng="gl">aldea</trd>
   <trd lng="gu">&#xA97;&#xABE;&#xAAE;</trd>
   <trd lng="ha">kauye</trd>
   <trd lng="hi">&#x917;&#x93E;&#x902;&#x935;</trd>
+  <trd lng="hmn">lub zos</trd>
   <trd lng="hr">selo</trd>
+  <trd lng="ht">vilaj</trd>
   <trd lng="hy">&#x563;&#x575;&#x578;&#x582;&#x572;</trd>
   <trdgrp lng="id">
     <trd>desa</trd>,
     <trd>dusun</trd>,
     <trd>kampung</trd>
   </trdgrp>
+  <trd lng="ig">obodo</trd>
   <trd lng="is">&#xFE;orpinu</trd>
   <trd lng="it">villaggio</trd>
   <trd lng="ja">&#x6751;</trd>
-  <trd lng="jw">desa</trd>
+  <trd lng="jv">desa</trd>
   <trd lng="ka">&#x10E1;&#x10DD;&#x10E4;&#x10D4;&#x10DA;</trd>
+  <trd lng="kk">&c_a;&c_u;&#x44B;&#x43B;</trd>
   <trd lng="km">&#x1797;&#x17BC;&#x1798;&#x17B7;</trd>
+  <trd lng="kn">&#xCB9;&#xCB3;&#xCCD;&#xCB3;&#xCBF;&#xCAF;</trd>
   <trd lng="ko">&#xB9C8;&#xC744;</trd>
+  <trd lng="ku">g&#xFB;nd</trd>
+  <trd lng="ky">&#x43A;&#x44B;&c_sh;&c_t;&c_a;&#x43A;</trd>
+  <trd lng="lat">villa</trd>
   <trd lng="lo">&#xE9A;&#xEC9;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">kaimas</trd>
+  <trd lng="lv">ciems</trd>
+  <trd lng="mg">tan&#xE0;na</trd>
+  <trd lng="mi">kainga</trd>
+  <trd lng="mk">&c_s;&c_je;&#x43B;&#x43E;</trd>
   <trd lng="ml">&#xD17;&#xD4D;&#xD30;&#xD3E;&#xD2E;&#xD02;</trd>
+  <trd lng="mn">&c_t;&#x43E;&c_s;&c_g;&#x43E;&#x43D;</trd>
   <trd lng="mr">&#x917;&#x93E;&#x935;&#x93E;&#x924;</trd>
+  <trd lng="ms">kampung</trd>
+  <trd lng="mt">ra&#x127;al</trd>
   <trd lng="my">&#x101B;&#x103D;&#x102C;</trd>
   <trd lng="ne">&#x917;&#x93E;&#x909;&#x901;&#x92E;&#x93E;</trd>
   <trd lng="nl">dorp</trd>
@@ -74,7 +93,7 @@
   <trd lng="ny">mudzi</trd>
   <trd lng="pa">&#xA2A;&#xA3F;&#xA70;&#xA21; &#xA26;&#xA47;</trd>
   <trd lng="pl">wie&sacute;</trd>
-  <trd lng="ps">&#x62F; &#x6A9;&#x644;&#x64A;</trd>
+  <trd lng="ps">&#x62F; &#x6A9;&a_l;&#x64A;</trd>
   <trdgrp lng="pt">
     <trd>vila</trd>,
     <trd>aldeia</trd>
@@ -83,24 +102,37 @@
     <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&c_n;&c_ja;</trd>,
     <trd>&c_s;&c_je;&c_l;&c_o;</trd>
   </trdgrp>
-  <trd lng="sd">&#x6B3;&#x648;&#x67A;</trd>
+  <trd lng="rw">umudugudu</trd>
+  <trd lng="sd">&#x6B3;&a_w;&#x67A;</trd>
   <trd lng="si">&#xD9C;&#xDB8;&#xDDA;</trd>
   <trd lng="sk">dedina</trd>
+  <trd lng="sl">vas</trd>
+  <trd lng="sm">nu&#x2BB;u</trd>
+  <trd lng="sn">musha</trd>
+  <trd lng="so">tuulada</trd>
   <trd lng="sq">fshati</trd>
+  <trd lng="st">motseng</trd>
+  <trd lng="su">desa</trd>
+  <trd lng="sw">kijiji</trd>
   <trd lng="ta">&#xB95;&#xBBF;&#xBB0;&#xBBE;&#xBAE;&#xBAE;&#xBCD;</trd>
   <trd lng="te">&#xC17;&#xC4D;&#xC30;&#xC3E;&#xC2E;&#xC02;</trd>
+  <trd lng="tg">&c_d;&c_je;&#x45A;&c_a;&c_i;</trd>
   <trd lng="th">&#xE2B;&#xE21;&#xE39;&#xE48;&#xE1A;&#xE49;&#xE32;&#xE19;</trd>
   <trd lng="tl">nayon</trd>
+  <trd lng="tt">&c_a;&c_v;&#x44B;&#x43B;</trd>
   <trd lng="uk">&c_s;&c_je;&c_l;&c_o;</trd>
-  <trd lng="ur">&#x6AF;&#x627;&#x624;&#x6BA;</trd>
+  <trd lng="ur">&#x6AF;&a_A;&a_w_hamza;&#x6BA;</trd>
+  <trd lng="uz">qishloq</trd>
   <trd lng="vi">l&#xE0;ng</trd>
+  <trd lng="xh">ilali</trd>
   <trd lng="yi">&#x5D3;&#x5D0;&#x5B8;&#x5E8;&#x5E3;</trd>
+  <trd lng="yo">abule</trd>
   <trd lng="zu">emzaneni</trd>
 </drv>
 
 <drv mrk="vilagx.0ano">
   <kap><ofc>*</ofc><tld/>ano <fnt><bib>F</bib>, <lok>Universala Vortaro,
-  <url ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5251">vila&gcirc;'an'</url></lok></fnt></kap>
+  <url ref="&AdE;/fundamento/universala_vortaro.html#av-5251">vila&gcirc;'an'</url></lok></fnt></kap>
   <snc mrk="vilagx.0ano.KOMUNE">
     <dif>
       Lo&gcirc;anto de <tld/>o:
@@ -116,6 +148,7 @@
       <ref cel="kamp.0arano.AGR">kamparano</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_s;&c_je;&c_l;&c_ja;&c_n;&c_ib;&c_n;</trd>
   <trd lng="bg">&c_s;&c_je;&c_l;&c_ja;&c_n;&c_i;&c_n;</trd>
   <trd lng="ca">poblet&agrave;</trd>
   <trd lng="de">Dorfbewohner</trd>
@@ -126,6 +159,7 @@
   <trd lng="fr">villageois</trd>
   <trd lng="hu">falusi</trd>
   <trd lng="ru">&c_k;&c_r;&c_je;&c_s;&c_t;&c_mol;&c_ja;&c_n;&c_i;&c_n;</trd>
+  <trd lng="uk">&#x441;&#x435;&#x43B;&#x44F;&#x43D;&#x438;&#x43D;</trd>
 </drv>
 
 <drv mrk="vilagx.sam0ano">
@@ -145,11 +179,26 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_n;&c_a;&c_v;&c_ja;&c_s;&c_k;&c_o;&c_v;&c_je;&c_c;</trd>,
+    <trd>&c_a;&c_d;&c_n;&c_a;&c_s;&c_je;&c_l;&c_je;&c_c;</trd>
+  </trdgrp>
   <trd lng="fr">pays<klr> (du m&ecirc;me village)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x434;&#x43D;&#x43E;&#x441;&#x435;&#x43B;&#x435;&#x446;&#x44C;</trd>,
+    <trd>&#x436;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x442;&#x43E;&#x433;&#x43E; &#x436; &#x441;&#x435;&#x43B;&#x430;</trd>,
+    <trd>&#x437;&#x435;&#x43C;&#x43B;&#x44F;&#x43A;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.100 2022/05/06 12:17:22
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.98 2021/12/14 08:36:23
+Dmitri Gabinski: + trd be
+
 Revision 1.21  2016/11/30 23:10:17  revo
 Jeromo Vasxe: sam~ano
 
@@ -166,8 +215,5 @@ Revision 1.17  2008/01/24 19:49:24  revo
 Wieland Pusch: +trd bg
 
 Revision 1.16  2006/02/10 19:17:08  revo
-Jeromo Vasxe: memstar. ~ano
-
-Revision 1.15 2005/02/03 17:33:08 revo
 -->
 </vortaro>

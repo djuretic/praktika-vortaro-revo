@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: hejm.xml,v 1.83 2021/06/19 05:58:31 revo Exp $">
+<art mrk="$Id: hejm.xml,v 1.119 2022/04/30 08:42:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>hejm</rad>/o 
@@ -67,14 +67,14 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Maul Stefan</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006929.html">Germanio: Brutalaj dekstruloj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006929.html">Germanio: Brutalaj dekstruloj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         studenta <tld/>o
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006938.html">Arkitekturo: Friedensreich Hundertwasser 1928 - 2000</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006938.html">Arkitekturo: Friedensreich Hundertwasser 1928 - 2000</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -82,7 +82,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Zofia Banet-Fornalowa</aut>
-          <vrk><url ref="https://www.monato.be/2003/008093.html">Li semis bonon kaj belon</url></vrk>
+          <vrk><url ref="&Monato;/2003/008093.html">Li semis bonon kaj belon</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -90,7 +90,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007110.html">Atentokapta sed ru&gcirc;krajoninda</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007110.html">Atentokapta sed ru&gcirc;krajoninda</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -114,7 +114,7 @@
       <trd>&c_d;&c_o;&c_m;&c_a;&c_sh;&c_n;&c_i;&c_j;
       &c_o;&c_ch;&c_a;&c_g;</trd>
     </trdgrp>
-    <trd lng="tp">tomo</trd>
+    <trd lng="tok">tomo</trd>
   </snc>
   <snc mrk="hejm.0o.TEK">
     <uzo tip="fak">TEK</uzo>
@@ -171,7 +171,7 @@
        &c_p;&c_o;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
      </trdgrp>
   </snc>
-  <trd lng="bo">&#xF53;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&t_na;&t_nga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>domov</trd>,
     <trd>v&yacute;choz&iacute; pozice <klr>(kurzoru)</klr></trd>
@@ -196,6 +196,12 @@
   <trd lng="no">hjem</trd>
   <trd lng="sk">v&yacute;chodzia poz&iacute;cia <klr>(kurzoru)</klr></trd>
   <trd lng="sv">hem</trd>
+<trd lng="th">&#xE1A;&#xE49;&#xE32;&#xE19;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x434;&#x456;&#x43C;</trd>,
+    <trd>&#x434;&#x43E;&#x43C;&#x456;&#x432;&#x43A;&#x430;</trd>,
+    <trd>&#x434;&#x43E;&#x43C;&#x430;&#x448;&#x43D;&#x454; &#x432;&#x43E;&#x433;&#x43D;&#x438;&#x449;&#x435;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="hejm.0a">
@@ -325,7 +331,8 @@
     <trd>dom&aacute;cky</trd>,
     <trd>&uacute;tuln&yacute;</trd>
   </trdgrp>
-  <trd lng="tp">tomo</trd>
+  <trd lng="tok">tomo</trd>
+  <trd lng="uk">&#x434;&#x43E;&#x43C;&#x430;&#x448;&#x43D;&#x456;&#x439;</trd>
 </drv>
 
 <drv mrk="hejm.0e">
@@ -359,15 +366,17 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="th">&#xE43;&#xE19;&#xE1A;&#xE49;&#xE32;&#xE19;</trd>
   </snc>
   <trd lng="af">huis</trd>
   <trd lng="am">&#x1264;&#x1275;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x645;&#x646;&#x632;&#x644;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_m;&a_n;&a_z;&a_l;</trd>
   <trd lng="az">ev</trd>
   <trd lng="bn">&#x9B9;&#x9CB;&#x9AE;</trd>
-  <trd lng="bs">po&#x10D;etna</trd>
+  <trd lng="bs">po&ccaron;etna</trd>
   <trd lng="co">casa</trd>
   <trd lng="cs">doma</trd>
+  <trd lng="cy">cartref</trd>
   <trd lng="da">hjem</trd>
   <trd lng="de">zuhause</trd>
   <trd lng="et">kodu</trd>
@@ -376,23 +385,41 @@
     <trd>&agrave; la <ind>maison</ind></trd>,
     <trd>chez soi</trd>
   </trdgrp>
-  <trd lng="fy">th&#xFA;s</trd>
+  <trd lng="fy">th&uacute;s</trd>
+  <trd lng="ga">baile</trd>
+  <trd lng="gd">dachaigh</trd>
   <trd lng="gl">casa</trd>
   <trd lng="gu">&#xA98;&#xAB0;</trd>
   <trd lng="ha">gida</trd>
   <trd lng="hi">&#x918;&#x930;</trd>
-  <trd lng="hr">po&#x10D;etna</trd>
+  <trd lng="hmn">tsev</trd>
+  <trd lng="hr">po&ccaron;etna</trd>
+  <trd lng="ht">lakay</trd>
   <trd lng="hu">otthon</trd>
   <trd lng="hy">&#x57F;&#x578;&#x582;&#x576;</trd>
+  <trd lng="ig">n&#x2019;&#x1EE5;l&#x1ECD;</trd>
   <trd lng="is">heim</trd>
   <trd lng="ja">&#x30DB;&#x30FC;&#x30E0;</trd>
-  <trd lng="jw">ngarep</trd>
+  <trd lng="jv">ngarep</trd>
   <trd lng="ka">&#x10DB;&#x10D7;&#x10D0;&#x10D5;&#x10D0;&#x10E0;&#x10D8;</trd>
+  <trd lng="kk">&#x4AF;&c_j;</trd>
   <trd lng="km">&#x1795;&#x17D2;&#x1791;&#x17C7;</trd>
+  <trd lng="kn">&#xCAE;&#xCA8;&#xCC6;</trd>
   <trd lng="ko">&#xD648;</trd>
+  <trd lng="ku">xane</trd>
+  <trd lng="ky">&#x4AF;&c_j;</trd>
+  <trd lng="lat">domum</trd>
   <trd lng="lo">&#xEC0;&#xEAE;&#xEB7;&#xEAD;&#xE99;</trd>
+  <trd lng="lt">namai</trd>
+  <trd lng="lv">m&#x101;jas</trd>
+  <trd lng="mg">an-trano</trd>
+  <trd lng="mi">te k&#x101;inga</trd>
+  <trd lng="mk">&c_d;&c_o;&c_m;&c_a;</trd>
   <trd lng="ml">&#xD35;&#xD40;&#xD1F;&#xD4D;</trd>
+  <trd lng="mn">&c_N;&#x4AF;&#x4AF;&c_r; &c_h;&c_u;&c_u;&c_d;&c_a;&c_s;</trd>
   <trd lng="mr">&#x92E;&#x941;&#x916;&#x94D;&#x92F; &#x92A;&#x93E;&#x928;</trd>
+  <trd lng="ms">rumah</trd>
+  <trd lng="mt">domi&#x10B;ilju</trd>
   <trd lng="my">&#x1014;&#x1031;&#x1021;&#x102D;&#x1019;&#x103A;</trd>
   <trd lng="ne">&#x918;&#x930;</trd>
   <trd lng="nl">thuis</trd>
@@ -403,22 +430,35 @@
     <trd>w <ind>domu</ind></trd>,
     <trd>u <ind>siebie</ind></trd>
   </trdgrp>
-  <trd lng="ps">&#x6A9;&#x648;&#x631;</trd>
+  <trd lng="ps">&f_k;&a_w;&a_r;</trd>
   <trd lng="pt">em <ind>casa</ind><klr tip="ind"> (adv.)</klr></trd>
   <trd lng="ru">&c_d;&c_o;&c_m;&c_a;</trd>
-  <trd lng="sd">&#x6AF;&#x647;&#x631;</trd>
+  <trd lng="rw">urugo</trd>
+  <trd lng="sd">&f_g;&a_h;&a_r;</trd>
   <trd lng="si">&#xDB8;&#xDD4;&#xDBD;&#xDCA; &#xDB4;&#xDD2;&#xDA7;&#xDD4;&#xDC0;</trd>
   <trd lng="sk">doma</trd>
-  <trd lng="sq">sht&#xEB;pi</trd>
+  <trd lng="sl">domov</trd>
+  <trd lng="sm">aiga</trd>
+  <trd lng="sn">musha</trd>
+  <trd lng="so">guriga</trd>
+  <trd lng="sq">sht&euml;pi</trd>
   <trd lng="st">lapeng</trd>
+  <trd lng="su">imah</trd>
   <trd lng="sv">hemma</trd>
+  <trd lng="sw">nyumbani</trd>
   <trd lng="ta">&#xBB5;&#xBC0;&#xB9F;&#xBCD;&#xB9F;&#xBBF;&#xBB2;&#xBCD;</trd>
   <trd lng="te">&#xC39;&#xC4B;&#xC2E;&#xC4D;</trd>
-  <trd lng="th">&#xE1A;&#xE49;&#xE32;&#xE19;</trd>
+  <trd lng="tg">&c_h;&c_o;&c_n;&c_a;</trd>
+  
   <trd lng="tl">tahanan</trd>
-  <trd lng="ur">&#x6AF;&#x6BE;&#x631;</trd>
-  <trd lng="vi">nh&#xE0;</trd>
-  <trd lng="yi">&#x5D4;&#x5D9;&#x5D9;&#x5DD;</trd>
+  <trd lng="tt">&#x4E9;&c_j;</trd>
+  <trd lng="uk">&c_d;&c_o;&c_d;&c_o;&c_m;&c_u;</trd>
+  <trd lng="ur">&f_g;&#x6BE;&a_r;</trd>
+  <trd lng="uz">uy</trd>
+  <trd lng="vi">nh&agrave;</trd>
+  <trd lng="xh">ikhaya</trd>
+  <trd lng="yi">&he;&yod;&yod;&fmem;</trd>
+  <trd lng="yo">ile</trd>
   <trd lng="zu">ikhaya</trd>
 </drv>
 
@@ -432,7 +472,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url ref="https://www.monato.be/2004/008066.html">Retrorigardo al intensa vivo</url></vrk>
+          <vrk><url ref="&Monato;/2004/008066.html">Retrorigardo al intensa vivo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -454,7 +494,7 @@
         &gcirc;oj' sova&gcirc;a <tld/>as meze de l' naturo
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -544,6 +584,11 @@
     <trd>dom&aacute;cky</trd>,
     <trd>&uacute;tuln&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x434;&#x43E;&#x43C;&#x430;&#x448;&#x43D;&#x456;&#x439;</trd>,
+    <trd>&#x441;&#x456;&#x43C;&#x435;&#x439;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x456;&#x43D;&#x442;&#x438;&#x43C;&#x43D;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="hejm.0igita">
@@ -575,7 +620,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="https://www.monato.be/2003/008105.html">Renkonti&gcirc;o kun &scirc;rumpanta komunumo</url></vrk>
+          <vrk><url ref="&Monato;/2003/008105.html">Renkonti&gcirc;o kun &scirc;rumpanta komunumo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -583,7 +628,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="https://www.monato.be/2004/008265.html">Parakosmo</url></vrk>
+          <vrk><url ref="&Monato;/2004/008265.html">Parakosmo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -696,7 +741,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2003/008119.html">Taglibro de l' milito ... el la lando de &Scirc;ekspiro</url></vrk>
+          <vrk><url ref="&Monato;/2003/008119.html">Taglibro de l' milito ... el la lando de &Scirc;ekspiro</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -704,7 +749,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Stra&zcaron;nickas</aut>
-          <vrk><url ref="https://www.monato.be/2005/008463.php">Strangulo en la naturo</url></vrk>
+          <vrk><url ref="&Monato;/2005/008463.php">Strangulo en la naturo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -713,7 +758,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Jasuo</aut>
-          <vrk><url ref="https://www.monato.be/2009/009770.php">Vila&gcirc;o por maldungitoj</url></vrk>
+          <vrk><url ref="&Monato;/2009/009770.php">Vila&gcirc;o por maldungitoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -742,6 +787,13 @@
   <klr>(&c_s;&c_u;&c_shch;.)</klr></trd>
   <trd lng="sk">bezdomovec</trd>
   <trd lng="sv">heml&ouml;s</trd>
+<trd lng="th">&#xE04;&#xE19;&#xE44;&#xE23;&#xE49;&#xE1A;&#xE49;&#xE32;&#xE19;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x435;&#x437;&#x434;&#x43E;&#x43C;&#x43D;&#x438;&#x439; (&#x456;&#x43C;.)</trd>,
+    <trd>&#x431;&#x435;&#x437;&#x43F;&#x440;&#x438;&#x442;&#x443;&#x43B;&#x44C;&#x43D;&#x438;&#x439; (&#x456;&#x43C;.)</trd>,
+    <trd>&#x431;&#x440;&#x43E;&#x434;&#x44F;&#x433;&#x430;</trd>,
+    <trd>&#x431;&#x43E;&#x43C;&#x436;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="hejm.fiks0a">
@@ -815,10 +867,20 @@
     <trd>&c_d;&c_o;&c_m;&c_o;&c_s;&c_je;&c_d;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_l;&c_ju;&c_b;&c_ja;&c_shch;&c_i;&c_j; &c_s;&c_i;&c_d;&c_je;&c_t;&c_mol; &c_d;&c_o;&c_m;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x43E;&#x439;</trd>,
+    <trd>&#x445;&#x442;&#x43E; &#x43B;&#x44E;&#x431;&#x438;&#x442;&#x44C; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x438; &#x447;&#x430;&#x441; &#x434;&#x43E;&#x43C;&#x430;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.119 2022/04/30 08:42:41
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.116 2021/12/11 17:41:17
+Warut Bunprasert: red th
+
 Revision 1.38  2019/09/27 15:10:18  revo
 Wolfram Diestel: ~o...~i: ekz-oj
 
@@ -835,8 +897,5 @@ Revision 1.34  2013/02/04 17:10:10  revo
 Jeromo Vasxe: + lok~a
 
 Revision 1.33  2011/06/22 18:10:37  revo
-Sebastian Cyprych: +~igita +trd pl
-
-Revision 1.32  2011/01/04 21:10:10  revo
 -->
 </vortaro>

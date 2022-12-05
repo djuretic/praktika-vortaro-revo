@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: fobi.xml,v 1.31 2019/02/12 19:10:31 revo Exp $">
+<art mrk="$Id: fobi.xml,v 1.34 2022/04/27 17:19:11 revo Exp $">
 <kap>
   <rad>fobi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -12,15 +11,13 @@
   <snc mrk="fobi.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Kronika <ref tip="lst" cel="san.mal0o.MED"
-      lst="voko:malsanoj">malsano</ref> karakterizata per neracia
+      Kronika <ref tip="lst" cel="san.mal0o.MED" lst="voko:malsanoj">malsano</ref> karakterizata per neracia
       timo:
       <ekz>
         <ind>akvo<tld/>o</ind>;
         <trd lng="ca">hidrof&ograve;bia</trd>
         <trd lng="es">hidrofobia</trd>
-        <trd
-          lng="fa">&a_A_madda;&a_b;&zwnj;&a_h;&a_r;&a_A;&a_s;&f_y;</trd>
+        <trd lng="fa">&a_A_madda;&a_b;&zwnj;&a_h;&a_r;&a_A;&a_s;&f_y;</trd>
         <trd lng="fr">hydrophobie</trd>
         <trdgrp lng="hu">
           <trd>v&iacute;ziszony</trd>,
@@ -38,8 +35,7 @@
         <ind>flugo<tld/>o</ind>n de <nom>Lapenna</nom>
         <fnt>
           <aut>J. Lindstedt</aut>,
-          <vrk><url
-              ref="http://www.liberafolio.org/2006/tonkinrecenzo/">
+          <vrk><url ref="http://www.liberafolio.org/2006/tonkinrecenzo/">
               La popolo en movado</url></vrk>,
           <lok>libera folio, 2006-10-08</lok>
         </fnt>.
@@ -57,6 +53,12 @@
         <trd lng="ru">&c_a;&c_v;&c_i;&c_a;&c_f;&c_o;&c_b;&c_i;&c_ja;</trd>
       </ekz>  
     </dif>
+    <refgrp tip="sub">
+      <ref cel="agoraf.0o">agorafobio</ref>,
+      <ref cel="klostr1.0o">klostrofobio</ref>,
+      <ref cel="hidrof.0o">hidrofobio</ref>
+    </refgrp>
+  <trd lng="de">Angstst&ouml;rung</trd>
   </snc>
  <snc mrk="fobi.0o.POL">
     <uzo tip="fak">POL</uzo>
@@ -66,12 +68,20 @@
       <ekz>
         oni e&ccirc; lan&ccirc;is hontindan gejo<tld/>an kampanjon kontra&ubreve; oficisto
         de UEA
+        <klr>(vd <ref tip="sub" cel="homofo.0o">homofobio</ref>)</klr>
         <fnt>
           <aut>O. Buller</aut>,
-          <vrk>en: <url
-          ref="http://www.ipernity.com/blog/andyflorida/263827/comment/11253731">
+          <vrk>en: <url ref="http://www.ipernity.com/blog/andyflorida/263827/comment/11253731">
           &Ccirc;i-jara UK nun okazas en mia lando</url></vrk>,
           <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Agnoskas min nur kun fobio // Obtuz-a&ubreve;dace la prolet', // Mi vivas nur per
+        stipendio // Parcimonia de poet'
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Lamentado</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -86,8 +96,11 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="bifobi.0o">bifobio</ref>,
+      <ref cel="transfobi.0o">transfobio</ref>,
       <ref cel="ras.0ismo">rasismo</ref>
     </refgrp>
+  <trd lng="de">Feindseligkeit</trd>
   </snc>
   <trd lng="be">&c_f;&c_o;&c_b;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_f;&c_o;&c_b;&c_i;&c_ja;</trd>
@@ -117,6 +130,7 @@
   <trd>chorobn&yacute; strach</trd>,
   <trd>f&oacute;bia</trd>
   </trdgrp>
+  <trd lng="uk">&c_f;&c_o;&c_b;&c_ib;&c_ja;</trd>
 </drv>
 
 <drv mrk="fobi.fremdo0o">
@@ -133,14 +147,15 @@
         kaj naciismo prosperis    
         <fnt>
           <aut>J. S. Larsen</aut>,
-          <vrk><url
-          ref="http://www.liberafolio.org/Members/jens_s_larsen/esenco-kaj-estonteco">
+          <vrk><url ref="http://www.liberafolio.org/Members/jens_s_larsen/esenco-kaj-estonteco">
           Esenco kaj estonteco</url></vrk>,
           <lok>libera folio, 2016-09-12</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="ksenofobi.0o">ksenofobio</ref>
   </snc>
+  <trd lng="de">Fremdenhass</trd>
   <trd lng="fr">x&eacute;nophobie</trd>
 </drv>
 
@@ -171,18 +186,15 @@
         &hcirc;o-<tld/>o
         <fnt>
           <aut>A. Shlafer</aut>:
-          <vrk><url
- ref="http://groups.yahoo.com/neo/groups/revuloj/conversations/topics/4439"
-              >Rojalismo?</url></vrk>.
+          <vrk><url ref="http://groups.yahoo.com/neo/groups/revuloj/conversations/topics/4439">Rojalismo?</url></vrk>.
           <lok>en: Afi&scirc;o &ccirc;e «Revuloj», 2002-02-02</lok>
         </fnt>;
       </ekz><ekz>
-        se plu da&ubreve;ros <ctl>&Hcirc;-<tld/>o</ctl> &ccirc;e esperantistoj, ili
+        se plu da&ubreve;ros &leftquot;&Hcirc;-<tld/>o&rightquot; &ccirc;e esperantistoj, ili
         devos trovi iun sisteman solvon aplikeblan unuece por la
         tuta nomenklatura sistemo
         <fnt><aut>Pluha&rcaron;, Zd&ecaron;nek</aut>:
-          <vrk><url
- ref="http://www.eventoj.hu/steb/kemio/kemia-nomenklaturo-versio-2011-2.pdf"
+          <vrk><url ref="&STEB;kemio/kemia-nomenklaturo-versio-2011-2.pdf"
               >Sistema &hcirc;emia nomenklaturo en Esperanto</url></vrk>.
           <lok>2011, 2-a versio</lok>
         </fnt>.
@@ -203,6 +215,12 @@
 </art>
 <!--
 $Log$
+versio 1.34 2022/04/27 17:19:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.33 2022/04/17 17:29:10
+Wolfram Diestel: +ekz, ref-oj, trd de
+
 Revision 1.30  2018/08/25 17:10:13  revo
 Damien Brucker: -eraro cxe cel en ref
 
@@ -219,8 +237,5 @@ Revision 1.26  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.25  2014/11/17 14:10:31  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.24  2014/02/06 02:10:14  revo
 -->
 </vortaro>

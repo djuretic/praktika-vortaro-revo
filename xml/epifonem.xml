@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: epifonem.xml,v 1.6 2021/01/04 22:10:48 revo Exp $">
+<art mrk="$Id: epifonem.xml,v 1.9 2022/03/17 13:47:19 revo Exp $">
 <kap>
   <rad>epifonem</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -17,29 +16,55 @@
       kiu klarigas kaj &gcirc;eneraligas la sencon de rakonto,
       fablo, parolado:
       <ekz>
-        <klr>...</klr>
+        <tld/>o estas aparta kategorio de <ref tip="super" cel="eksklamaci.0o">eksklamacio</ref>, 
+        eldirita per tuta frazo, &gcirc;i entenas profundan penson a&ubreve; &gcirc;eneralan maksimon, kiel rezulton de la anta&ubreve;a
+        rezonado
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&#x2026;]</klr>
         <tld/>o: oni ne desegu la bran&ccirc;on, sur kiu oni sidas
         <fnt>
           <aut>K. Miner</aut>,
-          <vrk><url
-          ref="http://www.sunflower.com/~miner/TAGLIBRO_package/Novembro_2006.html">
+          <vrk><url ref="http://www.sunflower.com/~miner/TAGLIBRO_package/Novembro_2006.html">
           Taglibro</url></vrk>,
           <lok>2006-11-02</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+       <ref cel="moral.0ajxo.moralinstruo">morala&jcirc;o<sncref/></ref>,
+       <ref cel="instru.moral0o">moralinstruo</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="maksim.0o">maksimo</ref>,
+      <ref cel="mot.0o">moto</ref>
+    </refgrp>
   </snc>
   <trd lng="cs">epifon&eacute;ma</trd>
+  <trdgrp lng="de">
+    <trd>Lehre <klr>(einer Geschichte)</klr></trd>,
+    <trd>Moral <klr>(einer Geschichte)</klr> </trd>
+  </trdgrp>
   <trd lng="en">epiphonema</trd>
   <trd lng="fr">&eacute;piphon&egrave;me</trd>
   <trd lng="pl">epifonem</trd>
   <trd lng="pt">epifonema</trd>
   <trd lng="sk">epifon&eacute;ma</trd>
+  <trd lng="uk">&#x435;&#x43F;&#x456;&#x444;&#x43E;&#x43D;&#x435;&#x43C;&#x430;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.8 2021/08/15 13:29:08
+Wolfram Diestel: +ekz, +ref-oj
+
+versio 1.7 2021/08/09 15:34:54
+Wolfram Diestel: +trd de
+
 versio 1.6 2021/01/04 22:10:48
 Paulo Rodrigo Barros: +trd pt
 

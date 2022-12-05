@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ter.xml,v 1.133 2021/06/18 18:20:16 revo Exp $">
+<art mrk="$Id: ter.xml,v 1.171 2022/10/05 06:03:48 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>ter</rad>/o
 </kap>
 <drv mrk="ter.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="ter.0o.planedo">
-  <mlg>&#x2641;</mlg>
+  <mlg>&#9793;</mlg>
     <dif>
       La <ref tip="lst" cel="planed.0o" lst="voko:planedoj">planedo</ref>,
       sur kiu la homoj lo&gcirc;as:
@@ -22,11 +22,12 @@
         la <tld/>o ne estas la plej paca planedo
         <fnt>
           <bib>Monato</bib>
-          <lok><url ref="http://steloj.de/esperanto/monato2/007070.html">http://steloj.de/esperanto/monato2/007070.html</url></lok>
+          <lok><url
+          ref="&Steloj;monato2/007070.html">&Steloj;monato2/007070.html</url></lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="ter.0globo"><tld/>globo</ref>
+    <ref tip="sin" cel="glob.ter0o"><tld/>globo</ref>
     <ref tip="vid" cel="mond.0o.tero">mondo</ref>
     <trd lng="be">&c_Z;&c_ja;&c_m;&c_l;&c_ja;</trd>
     <trd lng="bg">&c_Z;&c_je;&c_m;&c_ja;</trd>
@@ -43,11 +44,15 @@
     <trd lng="pl">Ziemia</trd>
     <trd lng="pt">Terra</trd>
   <trd lng="ru">&c_Z;&c_je;&c_m;&c_l;&c_ja;</trd>
+    <trdgrp lng="th">
+      <trd>&#3650;&#3621;&#3585;</trd>,
+      <trd>&#3604;&#3634;&#3623;&#3650;&#3621;&#3585;</trd>
+    </trdgrp>
     <trdgrp lng="tr">
       <trd>d&uuml;nya</trd>,
       <trd>Yer</trd>
     </trdgrp>
-    <trd lng="zh">&#x5730;&#x7403;<klr> [d&igrave;qi&uacute;]</klr>
+    <trd lng="zh">&#22320;&#29699;<klr> [d&igrave;qi&uacute;]</klr>
     </trd>
   </snc>
   <snc mrk="ter.0o.surfaco">
@@ -80,7 +85,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Robert Robertson</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006822.html">Reago:
+          <vrk><url ref="&Steloj;monato2/006822.html">Reago:
           Metempsikozo</url></vrk>
         </fnt>;
       </ekz>
@@ -96,7 +101,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Igarasi Takeo</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007204.html">Tor&ccirc;o de
+          <vrk><url ref="&Steloj;monato2/007204.html">Tor&ccirc;o de
           hipokriteco</url></vrk>
         </fnt>;
       </ekz>
@@ -106,7 +111,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>S. Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html">La&ubreve; ritmo
+          <vrk><url ref="&Steloj;monato2/006831.html">La&ubreve; ritmo
           de la rizejoj</url></vrk>
         </fnt>.
       </ekz>
@@ -121,6 +126,7 @@
       <trd>ziemia</trd>,
       <trd>skorupa <ind>ziemska</ind></trd>
     </trdgrp>
+    <trd lng="th">&#3649;&#3612;&#3656;&#3609;&#3604;&#3636;&#3609;&#3650;&#3621;&#3585;</trd>
     <trdgrp lng="tr">
       <trd>yery&uuml;z&uuml;</trd>,
       <trd>d&uuml;nya</trd>
@@ -206,12 +212,12 @@
     </trdgrp>
   </snc>
   <trd lng="af">aarde</trd>
-  <trd lng="am">&#x121D;&#x12F5;&#x122D;</trd>
+  <trd lng="am">&#4637;&#4853;&#4653;</trd>
   <trd lng="ar">&a_A_hamza_sure;&a_r;&a_D;</trd>
   <trd lng="az">torpaq</trd>
   <trd lng="be">&c_z;&c_ja;&c_m;&c_l;&c_ja;</trd>
-  <trd lng="bn">&#x9AA;&#x9C3;&#x9A5;&#x9BF;&#x9AC;&#x9C0;</trd>
-  <trd lng="bo">&#xF66;&#xF0B;</trd>
+  <trd lng="bn">&#2474;&#2499;&#2469;&#2495;&#2476;&#2496;</trd>
+  <trd lng="bo">&t_sa;&t_tsheg;</trd>
   <trd lng="co">terra</trd>
   <trdgrp lng="cs">
     <trd>p&uring;da</trd>,
@@ -219,6 +225,7 @@
     <trd>zemina</trd>,
     <trd>zem&ecaron;</trd>
   </trdgrp>
+  <trd lng="cy">ddaear</trd>
   <trd lng="da">jord</trd>
   <trd lng="de">Erde</trd>
   <trd lng="en">earth</trd>
@@ -227,46 +234,77 @@
   <trd lng="eu">lurra</trd>
   <trd lng="fr">terre</trd>
   <trd lng="fy">ierde</trd>
+  <trd lng="ga">cr&eacute;</trd>
+  <trd lng="gd">talamh</trd>
   <trd lng="gl">terra</trd>
-  <trd lng="gu">&#xAAA;&#xAC3;&#xAA5;&#xACD;&#xAB5;&#xAC0;</trd>
+  <trd lng="gu">&#2730;&#2755;&#2725;&#2765;&#2741;&#2752;</trd>
   <trd lng="ha">duniya</trd>
   <trd lng="he">&alef;&resh;&ftsadi;</trd>
-  <trd lng="hi">&#x92A;&#x943;&#x925;&#x94D;&#x935;&#x940;</trd>
+  <trd lng="hi">&#2346;&#2371;&#2341;&#2381;&#2357;&#2368;</trd>
+  <trd lng="hmn">lub ntiaj teb</trd>
   <trd lng="hr">zemlja</trd>
-  <trd lng="hy">&#x565;&#x580;&#x56F;&#x56B;&#x580;</trd>
-  <trd lng="is">j&#xF6;r&#xF0;</trd>
+  <trd lng="ht">lat&egrave;</trd>
+  <trd lng="hy">&#1381;&#1408;&#1391;&#1387;&#1408;</trd>
+  <trd lng="ig">&#7909;wa</trd>
+  <trd lng="is">j&ouml;r&#240;</trd>
   <trd lng="it">terra</trd>
-  <trd lng="ja">&#x5730;&#x7403;</trd>
-  <trd lng="jw">bumi</trd>
-  <trd lng="ka">&#x10D3;&#x10D4;&#x10D3;&#x10D0;&#x10DB;&#x10D8;&#x10EC;&#x10D0;&#x10D6;&#x10D4;</trd>
-  <trd lng="km">&#x1795;&#x17C2;&#x1793;&#x178A;&#x17B8;</trd>
-  <trd lng="ko">&#xC9C0;&#xAD6C;</trd>
-  <trd lng="lo">&#xEC1;&#xE9C;&#xEC8;&#xE99;&#xE94;&#xEB4;&#xE99;&#xEC2;&#xEA5;&#xE81;</trd>
-  <trd lng="ml">&#xD2D;&#xD42;&#xD2E;&#xD3F;</trd>
-  <trd lng="mr">&#x92A;&#x943;&#x925;&#x94D;&#x935;&#x940;</trd>
-  <trd lng="my">&#x1019;&#x103C;&#x1031;&#x1000;&#x103C;&#x102E;&#x1038;&#x1015;&#x1031;&#x102B;&#x103A;&#x1019;&#x103E;&#x102C;</trd>
-  <trd lng="ne">&#x92A;&#x943;&#x925;&#x94D;&#x935;&#x940;&#x92E;&#x93E;</trd>
+  <trd lng="ja">&#22320;&#29699;</trd>
+  <trd lng="jv">bumi</trd>
+  <trd
+  lng="ka">&#4307;&#4308;&#4307;&#4304;&#4315;&#4312;&#4332;&#4304;&#4310;&#4308;</trd>
+  <trd lng="kk">&c_zh;&c_je;&c_r;</trd>
+  <trd lng="km">&#6037;&#6082;&#6035;&#6026;&#6072;</trd>
+  <trd lng="kn">&#3245;&#3266;&#3246;&#3263;&#3247;</trd>
+  <trd lng="ko">&#51648;&#44396;</trd>
+  <trd lng="ky">&c_zh;&c_je;&c_r;</trd>
+  <trd lng="lat">terra</trd>
+  <trd lng="lo">&#3777;&#3740;&#3784;&#3737;&#3732;&#3764;&#3737;&#3778;&#3749;&#3713;</trd>
+  <trd lng="lt">&zcaron;em&#279;</trd>
+  <trd lng="lv">zemes</trd>
+  <trd lng="mg">eto an-tany</trd>
+  <trd lng="mi">te whenua</trd>
+  <trd lng="mk">&c_z;&c_je;&c_m;&#1112;&c_a;&c_t;&c_a;</trd>
+  <trd lng="ml">&#3373;&#3394;&#3374;&#3391;</trd>
+  <trd lng="mn">&c_d;&c_e;&c_l;&c_h;&c_i;&c_j;</trd>
+  <trd lng="mr">&#2346;&#2371;&#2341;&#2381;&#2357;&#2368;</trd>
+  <trd lng="ms">bumi</trd>
+  <trd lng="my">&#4121;&#4156;&#4145;&#4096;&#4156;&#4142;&#4152;&#4117;&#4145;&#4139;&#4154;&#4121;&#4158;&#4140;</trd>
+  <trd lng="ne">&#2346;&#2371;&#2341;&#2381;&#2357;&#2368;&#2350;&#2366;</trd>
   <trd lng="ny">lapansi</trd>
-  <trd lng="pa">&#xA27;&#xA30;&#xA24;&#xA40; &#xA28;&#xA42;&#xA70;</trd>
-  <trd lng="ps">&#x681;&#x645;&#x6A9;&#x647;</trd>
+  <trd lng="pa">&#2599;&#2608;&#2596;&#2624; &#2600;&#2626;&#2672;</trd>
+  <trd lng="ps">&#1665;&a_m;&f_k;&a_h;</trd>
   <trd lng="pt">terra</trd>
   <trd lng="ru">&c_z;&c_je;&c_m;&c_l;&c_ja;</trd>
-  <trd lng="sd">&#x632;&#x645;&#x64A;&#x646;</trd>
-  <trd lng="si">&#xDB4;&#xDDC;&#xDC5;&#xDDC;&#xDC0;</trd>
+  <trd lng="rw">isi</trd>
+  <trd lng="sd">&a_z;&a_m;&a_y;&a_n;</trd>
+  <trd lng="si">&#3508;&#3548;&#3525;&#3548;&#3520;</trd>
   <trdgrp lng="sk">
     <trd>p&ocirc;da</trd>,
     <trd>zem</trd>
   </trdgrp>
+  <trd lng="sl">zemlja</trd>
+  <trd lng="sm">lalolagi</trd>
+  <trd lng="sn">pasi</trd>
+  <trd lng="so">dhulka</trd>
   <trd lng="sq">toka</trd>
-  <trd lng="ta">&#xBAA;&#xBC2;&#xBAE;&#xBBF;&#xBAF;&#xBBF;&#xBB2;&#xBCD;</trd>
-  <trd lng="te">&#xC2D;&#xC42;&#xC2E;&#xC3F;</trd>
-  <trd lng="th">&#xE42;&#xE25;&#xE01;</trd>
+  <trd lng="st">lefat&scaron;eng</trd>
+  <trd lng="su">bumi</trd>
+  <trd lng="sw">dunia</trd>
+  <trd lng="ta">&#2986;&#3010;&#2990;&#3007;&#2991;&#3007;&#2994;&#3021;</trd>
+  <trd lng="te">&#3117;&#3138;&#3118;&#3135;</trd>
+  <trd lng="tg">&c_z;&c_a;&c_m;&c_i;&c_n;</trd>
+  
   <trd lng="tl">lupa</trd>
-  <trd lng="tp">ma</trd>
-  <trd lng="ur">&a_z;&a_m;&#x6CC;&a_n;</trd>
-  <trd lng="vi">&#x111;&#x1EA5;t</trd>
-  <trd lng="yi">&#x5E2;&#x5E8;&#x5D3;</trd>
-  <trd lng="zh">&#x571F;<klr> [t&#x1D4;]</klr></trd>
+  <trd lng="tok">ma</trd>
+  <trd lng="tt">&#1175;&c_i;&c_r;</trd>
+  <trd lng="uk">&c_je;&c_m;&c_l;&c_ja;</trd>
+  <trd lng="ur">&a_z;&a_m;&f_y;&a_n;</trd>
+  <trd lng="uz">yer</trd>
+  <trd lng="vi">&#273;&#7845;t</trd>
+  <trd lng="xh">umhlaba</trd>
+  <trd lng="yi">&ayin;&resh;&dalet;</trd>
+  <trd lng="yo">aiye</trd>
+  <trd lng="zh">&#22303;<klr> [t&#468;]</klr></trd>
   <trd lng="zu">emhlabeni</trd>
 </drv>
 
@@ -285,7 +323,7 @@
         la <tld/>aj polusoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9311-kaj-la-suno-haltis.txt">Kaj
+          <vrk><url ref="&Steloj;monato1/monato-9311-kaj-la-suno-haltis.txt">Kaj
           la Suno Haltis... </url></vrk>
           <lok>93/11</lok>
         </fnt>;
@@ -396,6 +434,10 @@
   <trd lng="it">terrestre</trd>
   <trd lng="pt">terrestre</trd>
   <trd lng="sk">zemsk&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_je;&c_m;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_a;&c_z;&c_je;&c_m;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.al0igxi">
@@ -416,7 +458,7 @@
 	  <fnt>
           <aut>-</aut>
 	  <vrk>
-	    <url ref="http://esperanto.cri.cn/1/2005/05/09/1@24290.htm">
+	    <url ref="&CRI;1/2005/05/09/1@24290.htm">
 	    Alteri&gcirc;o en Normandio</url>
 	  </vrk>
           <lok>&Ccirc;ina Radio Internacia, 2005</lok>
@@ -500,11 +542,11 @@
       <ekz>
         ekde la 19a jarcento oni eltiras graniton en &scirc;tonminejo en la
         nordo de la
-        insulo, transportas &gcirc;in <klr>[&#x2026;]</klr> per &scirc;ipo al la &ccirc;ef<tld/>o
+        insulo, transportas &gcirc;in <klr>[&#8230;]</klr> per &scirc;ipo al la &ccirc;ef<tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="https://www.monato.be/2004/008289.html">Mistera
+          <vrk><url ref="&Monato;/2004/008289.html">Mistera
           insulo Ailsa Craig</url></vrk>
           <lok>2004</lok>
         </fnt>;
@@ -516,13 +558,13 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan MacAoidh</aut>
-          <vrk><url ref="https://www.monato.be/2007/009255.php">Insulo
+          <vrk><url ref="&Monato;/2007/009255.php">Insulo
           de verkistoj</url></vrk>
           <lok>2007</lok>
         </fnt>;
       </ekz>
       <ekz>
-	anta&ubreve; &ccirc;irka&ubreve; 10&#x202F;000 jaroj, levi&gcirc;o de
+	anta&ubreve; &ccirc;irka&ubreve; 10&#8239;000 jaroj, levi&gcirc;o de
 	la marnivelo disigis la insulon de la a&ubreve;stralia
 	&ccirc;ef<tld/>o
 	<fnt>
@@ -568,7 +610,7 @@
         malfeli&ccirc;e hazarde ankora&ubreve; baris la vojon
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007143.html">&Ccirc;u ni
+          <vrk><url ref="&Steloj;monato2/007143.html">&Ccirc;u ni
           mortu miskomprene? (2)</url></vrk>
         </fnt>.
       </ekz>
@@ -595,7 +637,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>last</aut>
-          <vrk><url ref="https://www.monato.be/2009/009808.php">Verdaj
+          <vrk><url ref="&Monato;/2009/009808.php">Verdaj
           vizitontoj</url></vrk>
           <lok>2009</lok>
         </fnt>;
@@ -631,6 +673,10 @@
   &c_i;&c_n;&c_o;&c_p;&c_l;&c_a;&c_n;&c_je;&c_t;&c_ja;&c_n;&c_i;&c_n;
   </trd>
   <trd lng="sk">mimozem&scaron;&tcaron;an</trd>
+<trdgrp lng="th">
+    <trd>&#3617;&#3609;&#3640;&#3625;&#3618;&#3660;&#3605;&#3656;&#3634;&#3591;&#3604;&#3634;&#3623;</trd>,
+    <trd>&#3626;&#3636;&#3656;&#3591;&#3617;&#3637;&#3594;&#3637;&#3623;&#3636;&#3605;&#3609;&#3629;&#3585;&#3650;&#3621;&#3585;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.en0igi">
@@ -689,7 +735,7 @@
         </fnt>;
       </ekz>
       <ekz>
-	kiu eltrinkos la pokalojn <klr>[&#x2026;]</klr> povos uzi la glavon,
+	kiu eltrinkos la pokalojn <klr>[&#8230;]</klr> povos uzi la glavon,
 	kiu estas en<tld/>igita anta&ubreve; la sojlo
 	<fnt><bib>ElektFab</bib>, <lok>du fratoj</lok></fnt>.
       </ekz>
@@ -790,6 +836,11 @@
     <trd>zahraba&tcaron; do zeme</trd>,
     <trd>zakopa&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_a;&c_k;&c_o;&c_p;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_h;&c_o;&c_r;&c_o;&c_n;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_h;&c_o;&c_v;&c_a;&c_t;&c_i; (&c_p;&c_o;&c_m;&c_je;&c_r;&c_l;&c_o;&c_g;&c_o;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.el0igi">
@@ -814,7 +865,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Mu Binghua</aut>
-          <vrk><url ref="https://www.monato.be/2005/008682.php">Senmonaj
+          <vrk><url ref="&Monato;/2005/008682.php">Senmonaj
           muzeoj</url></vrk>
           <lok>2005</lok>
         </fnt>;
@@ -870,6 +921,11 @@
     <trd>vybra&tcaron;</trd>,
     <trd>vyhraba&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_i;&c_k;&c_o;&c_p;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_o;&c_b;&c_u;&c_v;&c_a;&c_t;&c_i;/&c_v;&c_i;&c_j;&c_m;&c_a;&c_t;&c_i; &c_z; &c_z;&c_je;&c_m;&c_l;&c_ib;</trd>,
+    <trd>&c_je;&c_k;&c_s;&c_g;&c_u;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.Nov0o">
@@ -883,7 +939,7 @@
         de Nordameriko en Labradoro kaj Nov<tld/>o
         <fnt>
         <bib>Viki</bib>,
-        <lok><url ref="http://eo.wikipedia.org/wiki/Amerika_maranaso">
+        <lok><url ref="&Viki;/Amerika_maranaso">
         amerika maranaso</url>, 2012-01-22</lok>
         </fnt>;
       </ekz>
@@ -891,7 +947,7 @@
         en 1880, Kanado inkluzivis la tuton de sia nuna area krom
         Novtero kaj Labradoro
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Diskuto:Kanado">Diskuto:Kanado
+          <vrk><url ref="&Viki;/Diskuto:Kanado">Diskuto:Kanado
           - Vikipedio</url></vrk>
         </fnt>.
       </ekz>
@@ -941,7 +997,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="https://www.monato.be/2014/011265.php">En
+          <vrk><url ref="&Monato;/2014/011265.php">En
           Palermo subtere</url></vrk>
           <lok>2014</lok>
         </fnt>.
@@ -983,6 +1039,11 @@
       <aut>&jcirc;v</aut>
     </adm>
   </snc>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_ib;&c_d;&c_z;&c_je;&c_m;&c_je;&c_l;&c_l;&c_ja;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_z;&c_je;&c_m;&c_n;&c_je; &c_p;&c_r;&c_i;&c_m;&c_ib;&c_shch;&c_je;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_v;&c_a;&c_l;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.sur0a">
@@ -1057,6 +1118,7 @@
     <trd>pozemn&yacute;</trd>,
     <trd>pozemsk&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&c_n;&c_a;&c_z;&c_je;&c_m;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="ter.sur0igo">
@@ -1077,7 +1139,7 @@
         sur nepreparita loko
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007027.html">Brrr . .
+          <vrk><url ref="&Steloj;monato2/007027.html">Brrr . .
           .</url></vrk>
         </fnt>.
       </ekz>
@@ -1086,81 +1148,6 @@
   <trd lng="bg">&c_k;&c_a;&c_c;&c_a;&c_n;&c_je;</trd>
   <trd lng="en">landing</trd>
   <trd lng="de">Landung</trd>
-</drv>
-
-<drv mrk="ter.0globo">
-  <kap><tld/>globo</kap>
-  <snc mrk="ter.0globo.AST">
-    <dif>
-      <ref tip="dif" cel="ter.0o.planedo"><tld lit="T"/>o<sncref/></ref>:
-      <ekz>
-        <tld/>globa varmi&gcirc;o
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Stefan MacGill</aut>
-          <vrk><url ref="https://www.monato.be/2005/008712.php">Dudirekta instruo
-          kaj influo</url></vrk>
-          <lok>2005</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la estigita tertremo estis mezurebla sur la tuta <tld/>globo
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007234.html">Vulkanoj</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la gripviruso povas ka&ubreve;zi vastegajn epidemiojn, kiuj povas
-        endan&gcirc;erigi la tutan
-        <tld/>globon
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Vladimir Lemelev</aut>
-          <vrk><url ref="https://www.monato.be/2003/008099.html">Birda
-          gripo, &ccirc;u dan&gcirc;era por la homo?</url></vrk>
-          <lok>2003</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        pli vasta ol la <tld/>globo
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Hose Marques</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007055.html">Argentino:
-          Voja&gcirc;o al la provinco Tukumano</url></vrk>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_Z;&c_ja;&c_m;&c_l;&c_ja;</trd>,
-    <trd>&c_z;&c_ja;&c_m;&c_n;&c_y; &c_sh;&c_a;&c_r;</trd>,
-    <trd>&c_z;&c_ja;&c_m;&c_n;&c_a;&c_ja; &c_k;&c_u;&c_l;&c_ja;</trd>
-  </trdgrp>
-  <trd lng="cs">zem&ecaron;koule</trd>
-  <trd lng="de">Erdkugel</trd>
-  <trd lng="en">globe</trd>
-  <trd lng="es">globo terr&aacute;queo</trd>
-  <trd lng="fr">globe terrestre</trd>
-  <trd lng="he">&kaf;&dalet;&vav;&resh; &he;&alef;&resh;&ftsadi;</trd>
-  <trd lng="hu">f&ouml;ldgoly&oacute;</trd>
-  <trdgrp lng="nl">
-    <trd>aardbol</trd>,
-    <trd>aarde</trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>kula <ind>ziemska</ind></trd>,
-    <trd>glob <ind>ziemski</ind></trd>,
-    <trd>Ziemia</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_Z;&c_je;&c_m;&c_l;&c_ja;</trd>,
-    <trd>&c_z;&c_je;&c_m;&c_n;&c_o;&c_j; &c_sh;&c_a;&c_r;</trd>
-  </trdgrp>
-  <trd lng="sk">zemegu&lcaron;a</trd>
-  <trd lng="zh">&#x5730;&#x7403;<klr> [d&igrave;qi&uacute;]</klr></trd>
 </drv>
 
 <drv mrk="ter.0kapo">
@@ -1194,6 +1181,7 @@
   <trd lng="be">&c_m;&c_y;&c_s;</trd>
   <trdgrp lng="de">
     <trd>Kap</trd>,
+    <trd>Landzunge</trd>,
     <trd>Landspitze</trd>
   </trdgrp>
   <trdgrp lng="en">
@@ -1228,6 +1216,7 @@
     <trd>zemsk&yacute; v&yacute;be&zcaron;ok do mora</trd>
   </trdgrp>
   <trd lng="cs">mys</trd>
+  <trd lng="uk">&c_m;&c_i;&c_s;</trd>
 </drv>
 
 <drv mrk="ter.0konekto">
@@ -1259,6 +1248,7 @@
   <trd lng="ru">
   &c_z;&c_a;&c_z;&c_je;&c_m;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">uzemnenie</trd>
+  <trd lng="uk">&c_z;&c_a;&c_z;&c_je;&c_m;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="ter.0kontakto">
@@ -1288,6 +1278,7 @@
     <trd>zemn&yacute; kontakt</trd>,
     <trd>zvod</trd>
   </trdgrp>
+  <trd lng="uk">&c_z;&c_a;&c_z;&c_je;&c_m;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="ter.0laboristo">
@@ -1348,8 +1339,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Straznickas</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007273.html">Terlango
-          &#x2010; natura valoro</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007273.html">Terlango
+          &#8208; natura valoro</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -1387,6 +1378,7 @@
     <trd>zemsk&yacute; v&yacute;be&zcaron;ok</trd>
   </trdgrp>
   <trd lng="cs">kosa</trd>
+  <trd lng="uk">&c_k;&c_o;&c_s;&c_a;</trd>
 </drv>
 
 <drv mrk="ter.0mezuri">
@@ -1405,7 +1397,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="https://www.monato.be/2004/008467.html">Kampoj
+          <vrk><url ref="&Monato;/2004/008467.html">Kampoj
           de Soria Antonio Machado, universala poeto</url></vrk>
           <lok>2004</lok>
         </fnt>.
@@ -1444,7 +1436,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Elson B. Snow</aut>
-          <vrk><url ref="https://www.monato.be/2005/008599.php">Kapitano
+          <vrk><url ref="&Monato;/2005/008599.php">Kapitano
           Postnikov</url></vrk>
           <lok>2005</lok>
         </fnt>.
@@ -1471,6 +1463,7 @@
   <trd lng="pt">agrimensor</trd>
   <trd lng="ru">&c_z;&c_je;&c_m;&c_l;&c_je;&c_m;&c_je;&c_r;</trd>
   <trd lng="sk">zememera&ccaron;</trd>
+  <trd lng="uk">&c_z;&c_je;&c_m;&c_l;&c_je;&c_m;&c_ib;&c_r;</trd>
 </drv>
 
 <drv mrk="ter.0nukso">
@@ -1495,20 +1488,24 @@
       <ekz>
         la asteroido havas formon similan al <tld/>nukso
         <fnt>
-          <vrk><url ref="https://www.facebook.com/Astronomio/posts/?ref=page_internal">Astronomio</url></vrk>
+          <vrk><url
+          ref="https://www.facebook.com/Astronomio/posts/?ref=page_internal">Astronomio</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         okcident-Afrika plado de <tld/>nukso, viando, tomato, cepo, ajlo
         <fnt>
-          <vrk><url ref="https://commons.wikimedia.org/wiki/Category:Maafe?uselang=fr">Maafe</url></vrk>
+          <vrk><url
+          ref="&WCW;/Category:Maafe?uselang=fr">Maafe</url></vrk>
         </fnt>.
       </ekz>
     </dif>
-    <bld lok="&WCU;/thumb/5/52/Arachis_hypogaea_004.JPG/320px-Arachis_hypogaea_004.JPG" prm="CC     BY-SA 3.0">sekigitaj <tld/>nuksoj
+    <bld lok="&WCU;/thumb/5/52/Arachis_hypogaea_004.JPG/320px-Arachis_hypogaea_004.JPG" prm="CC     
+       BY-SA 3.0">sekigitaj <tld/>nuksoj
         <fnt>
           <aut>H. Zell, propra verko</aut>
-          <lok><url ref="&WCW;/File:Arachis_hypogaea_004.JPG">https://commons.wikimedia.org/wiki/File:Arachis_hypogaea_004.JPG</url></lok>
+          <lok><url
+          ref="&WCW;/File:Arachis_hypogaea_004.JPG">&WCW;/File:Arachis_hypogaea_004.JPG</url></lok>
         </fnt>
     </bld>
     <trdgrp lng="it">
@@ -1556,6 +1553,10 @@
     <trd>ara&scaron;id</trd>,
     <trd>podzemnica olejn&aacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_a;&c_r;&c_a;&c_h;&c_ib;&c_s; &c_p;&c_ib;&c_d;&c_z;&c_je;&c_m;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_z;&c_je;&c_m;&c_l;&c_ja;&c_n;&c_i;&c_j; &c_g;&c_o;&c_r;&c_ib;&c_h;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.0parto">
@@ -1571,7 +1572,8 @@
         E-istojn. La
         gazetaro eliranta en unu terparto estis legata en la dua...
         <fnt>
-          <vrk><url ref="https://www.rulit.me/books/enciklopedio-de-esperanto-read-486010-214.html">&leftquot;Enciklopedio
+          <vrk><url
+          ref="https://www.rulit.me/books/enciklopedio-de-esperanto-read-486010-214.html">&leftquot;Enciklopedio
           de Esperanto...&rightquot; - RuLit - &c_S;&c_t;&c_r;&c_a;&c_n;&c_i;&c_c;&c_a; 214</url></vrk>
         </fnt>.
       </ekz>
@@ -1600,6 +1602,10 @@
     <trd>kontinent</trd>,
     <trd>svetadiel</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a; &c_s;&c_u;&c_sh;&c_ib;</trd>,
+    <trd>&c_k;&c_o;&c_n;&c_t;&c_i;&c_n;&c_je;&c_n;&c_t;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.0peco">
@@ -1617,7 +1623,7 @@
         </fnt>;
       </ekz>
       <ekz>
-       &ccirc;i tie <klr>[&#x2026;]</klr> &ccirc;iu <tld/>peco estas historia
+       &ccirc;i tie <klr>[&#8230;]</klr> &ccirc;iu <tld/>peco estas historia
        <fnt><bib>Fab1</bib>, <lok>ligo de amikeco</lok></fnt>;
       </ekz>
       <ekz>
@@ -1666,6 +1672,10 @@
     <trd>kus zeme</trd>,
     <trd>pozemok</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_je;&c_m;&c_je;&c_l;&c_mol;&c_n;&c_a; &c_d;&c_ib;&c_l;&c_ja;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_sh;&c_m;&c_a;&c_t;&c_o;&c_k;/&c_k;&c_l;&c_a;&c_p;&c_t;&c_i;&c_k; &c_z;&c_je;&c_m;&c_l;&c_ib;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.0pomo">
@@ -1700,7 +1710,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007056.html">Edukemaj
+          <vrk><url ref="&Steloj;monato2/007056.html">Edukemaj
           bestoj</url></vrk>
         </fnt>;
         <trd lng="de">Kartoffelschale</trd>
@@ -1710,17 +1720,25 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Albisturo Kvinke</aut>
-          <vrk><url ref="https://www.monato.be/2009/009682.php">La
+          <vrk><url ref="&Monato;/2009/009682.php">La
           Pendantaj &Gcirc;ardenoj estis son&gcirc;o</url></vrk>
           <lok>2009</lok>
         </fnt>;
+      </ekz>
+      <ekz>
+        man&gcirc;on akompanis <ind>&scirc;elkuiritaj <tld/>pomoj</ind> el kiuj nur duono uzeblis
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 27</lok>
+        </fnt>;
+        <trd lng="de">Pellkartoffeln</trd>
       </ekz>
       <ekz>
         <ind>frititaj <tld/>pomoj</ind>
         <fnt>
           <bib>Monato</bib>
           <aut>Petro Desmet'</aut>
-          <vrk><url ref="https://www.monato.be/2006/009004.php">Jubile,
+          <vrk><url ref="&Monato;/2006/009004.php">Jubile,
           jubilade, gargantuece palatkareseme</url></vrk>
           <lok>2006</lok>
         </fnt>;
@@ -1731,16 +1749,17 @@
         <fnt>
           <bib>Monato</bib>
           <aut>S. Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007174.html">Kiel savi
+          <vrk><url ref="&Steloj;monato2/007174.html">Kiel savi
           la germanan kulturon</url></vrk>
         </fnt>.
         <trd lng="de">Kartoffelbrei</trd>
       </ekz>
     </dif>
+    <trd lng="th">&#3617;&#3633;&#3609;&#3613;&#3619;&#3633;&#3656;&#3591;</trd>
   </snc>
   <trd lng="be">&c_b;&c_u;&c_l;&c_mol;&c_b;&c_a;</trd>
   <trd lng="bg">&c_k;&c_a;&c_r;&c_t;&c_o;&c_f;</trd>
-  <trd lng="bo">&#xF5E;&#xF7C;&#xF42;&#xF0B;&#xF41;&#xF7C;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_zha;&t_naro;&t_ga;&t_tsheg;&t_kha;&t_naro;&t_ga;&t_tsheg;</trd>
   <trd lng="cs">brambora</trd>
   <trd lng="de">Kartoffel</trd>
   <trd lng="en">potato</trd>
@@ -1756,7 +1775,7 @@
     <trd>casta&ntilde;a da terra</trd>
   </trdgrp>
   <trd lng="he">&tav;&pe;&vav;&het; &alef;&dalet;&mem;&he;</trd>
-  <trd lng="hi">&#x906;&#x932;&#x942; [<ind>&amacron;l&umacron;</ind>]</trd>
+  <trd lng="hi">&#2310;&#2354;&#2370; [<ind>&#5585;l&#5691;</ind>]</trd>
   <trdgrp lng="hu">
     <trd>burgonya<klr tip="ind"> (term&eacute;s)</klr></trd>,
     <trd>krumpli<klr tip="ind"> (term&eacute;s)</klr></trd>
@@ -1775,6 +1794,10 @@
   <trd lng="ru">&c_k;&c_a;&c_r;&c_t;&c_o;&c_f;&c_je;&c_l;&c_mol;</trd>
   <trd lng="sk">zemiak</trd>
   <trd lng="tr">patates</trd>
+  <trdgrp lng="uk">
+    <trd>&c_k;&c_a;&c_r;&c_t;&c_o;&c_p;&c_l;&c_ja; (&c_b;&c_u;&c_l;&c_mol;&c_b;&c_i;&c_n;&c_a;)</trd>,
+    <trd>&c_k;&c_a;&c_r;&c_t;&c_o;&c_p;&c_l;&c_ja; (&c_r;&c_o;&c_s;&c_l;&c_i;&c_n;&c_a;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ter.0pomujo">
@@ -1825,7 +1848,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>John Gobourne</aut>
-          <vrk><url ref="https://www.monato.be/2012/010556.php">Tiam ...
+          <vrk><url ref="&Monato;/2012/010556.php">Tiam ...
           kaj nun</url></vrk>
           <lok>2012</lok>
         </fnt>;
@@ -1837,16 +1860,18 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hori Yasuo</aut>
-          <vrk><url ref="https://www.monato.be/2009/009700.php">Dikuloj
+          <vrk><url ref="&Monato;/2009/009700.php">Dikuloj
           maldiki&gcirc;u!</url></vrk>
           <lok>2009</lok>
         </fnt>.
       </ekz>
     </dif>
-    <bld lok="&WCU;/thumb/7/7e/Kartoffelchips-1.jpg/283px-Kartoffelchips-1.jpg" prm="CC-BY-SA-3.0"><tld/>pomflokoj
+    <bld lok="&WCU;/thumb/7/7e/Kartoffelchips-1.jpg/283px-Kartoffelchips-1.jpg"
+    prm="CC-BY-SA-3.0"><tld/>pomflokoj
         <fnt>
           <aut>Rainer Zenz </aut>
-          <lok><url ref="&WCW;/File:Kartoffelchips-1.jpg">https://commons.wikimedia.org/wiki/File:Kartoffelchips-1.jpg</url></lok>
+          <lok><url
+          ref="&WCW;/File:Kartoffelchips-1.jpg">&WCW;/File:Kartoffelchips-1.jpg</url></lok>
         </fnt>
     </bld>
     <trd lng="de">Kartoffelchip</trd>
@@ -1876,7 +1901,14 @@
   <snc mrk="ter.0pomfingro.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      <ref tip="dif" cel="frit.0o">Frito</ref>:
+      <ref tip="dif" cel="frit1.0o">Frito</ref>:
+      <ekz>
+        tie vendi&gcirc;as nur frititaj eglefinoj kaj frititaj <tld/>pomfingroj
+        <fnt>
+          <bib>KrM</bib>
+          <lok>31. Ricevis Bandito La&ubreve; Sia Merito.</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         hamburgeroj kaj <tld/>pomfingroj en rapidman&gcirc;ejo
         <fnt>
@@ -1885,7 +1917,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        ke&ccirc;upo <klr>[&#x2026;]</klr> por trempi en &gcirc;i frititajn
+        ke&ccirc;upo <klr>[&#8230;]</klr> por trempi en &gcirc;i frititajn
         <tld/>pomfingrojn
         <fnt>
           <bib>Viki</bib>
@@ -1893,12 +1925,16 @@
         </fnt>.
       </ekz>
     </dif>
-    <bld lok="&WCU;/thumb/4/46/%2BPommes_Rot_-_Bild_001.jpg/320px-%2BPommes_Rot_-_Bild_001.jpg" prm="CC BY-SA 4.0"><tld/>pomfingroj kun ke&ccirc;upo
+    <bld lok="&WCU;/thumb/4/46/%2BPommes_Rot_-_Bild_001.jpg/320px-%2BPommes_Rot_-_Bild_001.jpg"
+    prm="CC BY-SA 4.0"><tld/>pomfingroj kun ke&ccirc;upo
         <fnt>
           <aut>Lupus in Saxonia, propra verko</aut>
-          <lok><url ref="&WCW;/File:%252BPommes_Rot_-_Bild_001.jpg">https://commons.wikimedia.org/wiki/File:%2BPommes_Rot_-_Bild_001.jpg</url></lok>
+          <lok><url
+          ref="&WCW;/File:%252BPommes_Rot_-_Bild_001.jpg">&WCW;/File:%2BPommes_Rot_-_Bild_001.jpg</url></lok>
         </fnt>
     </bld>
+    <trd
+    lng="th">&#3617;&#3633;&#3609;&#3613;&#3619;&#3633;&#3656;&#3591;&#3607;&#3629;&#3604;</trd>
   </snc>
   <trdgrp lng="de">
     <trd>Pommes frites</trd>,
@@ -1911,7 +1947,7 @@
   <trd lng="es">papas a la francesa<klr> (plural)</klr></trd>
   <trd lng="fr">frite</trd>
   <trdgrp lng="he">
-    <trd>&tet;&vav;&#x2137;&fnun;</trd>,
+    <trd>&tet;&vav;&#8503;&fnun;</trd>,
     <trd>&tsadi;'&yod;&pe;&samekh;<klr> (&alef;&het;&dalet;)</klr></trd>
   </trdgrp>
   <trd lng="hu">has&aacute;bburgonya</trd>
@@ -1941,7 +1977,7 @@
         la unua <tld/>skuo de la Granda Krimea <tld lit="T"/>tremo
         <fnt>
           <bib>Viki</bib>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Granda_Krimea_Tertremo">Granda
+          <vrk><url ref="&Viki;/Granda_Krimea_Tertremo">Granda
           Krimea Tertremo</url></vrk>
         </fnt>.
       </ekz>
@@ -1966,32 +2002,33 @@
   &c_z;&c_je;&c_m;&c_l;&c_je;&c_t;&c_r;&c_ja;&c_s;&c_je;&c_n;&c_i;&c_i;)
   </klr></trd>
   <trd lng="sk">z&aacute;chvev zeme</trd>
+  <trd lng="uk">&c_p;&c_ib;&c_d;&c_z;&c_je;&c_m;&c_n;&c_i;&c_j; &c_p;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_h;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.171 2022/10/05 06:03:48
+Wolfram Diestel: +trd de
+
+versio 1.170 2022/05/05 17:08:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.169 2022/04/26 18:41:00
+Wolfram Diestel: +2 ekz: +&scirc;elkuiritaj ~pomoj, frititaj ~pomfingroj
+
+versio 1.168 2022/04/24 20:31:59
+Wolfram Diestel: adaptis dif-ref
+
+versio 1.166 2021/12/12 17:41:16
+Warut Bunprasert: red th
+
+versio 1.165 2021/06/28 11:26:20
+Wolfram Diestel: -~globo (jam en glob/)
+
 versio 1.111 2021/06/07 16:03:03
 Wolfram Diestel: -~zono (movita al zon/)
 
 versio 1.90 2021/05/11 05:54:13
-Wolfram Diestel: movis ~tromon al trem/
-
-versio 1.89 2020/04/25 15:10:20
-Eko Nur Syah Hidayat: +trd id 2
-
-Revision 1.88  2020/03/21 20:10:19  revo
-Wolfram Diestel: +~kulturo (jam estas en kultur')
-
-Revision 1.87  2020/03/20 16:10:21  revo
-Wolfram Diestel: ~pomo..~zono: ekz-oj, +bld-oj
-
-Revision 1.86  2020/03/20 15:10:20  revo
-Wolfram Diestel: ~kulturo...~peco: ekz-oj, germ. trd-oj
-
-Revision 1.85  2020/03/20 07:10:15  revo
-Wolfram Diestel: Nov~o..~kapo: ekz-oj
-
-Revision 1.84  2020/03/19 21:10:21  revo
 -->
 </vortaro>

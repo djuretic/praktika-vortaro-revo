@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: organ.xml,v 1.71 2021/06/19 06:38:29 revo Exp $">
+<art mrk="$Id: organ.xml,v 1.103 2022/10/07 18:48:19 revo Exp $">
 <kap>
 <ofc>1</ofc>
 <rad>organ</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,18 +10,30 @@
   <kap><tld/>o</kap>
   <snc mrk="organ.0o.KOMUNE">
     <dif>
-      Ero plenumanta apartan funkcion ene de tuto.
+      Ero plenumanta apartan <ref cel="funkci.0o.tasko">funkcio</ref>n ene de tuto.
     </dif>
     <subsnc mrk="organ.0o.BIO">
       <uzo tip="fak">ANA</uzo>
       <uzo tip="fak">BIO</uzo>
       <dif>
-        Difinita &ccirc;elaro en vivanta <ref tip="malprt" cel="korp.0o.ANA">korpo</ref> plenumanta specialan funkcion:
+        Difinita &ccirc;elaro en vivanta <ref tip="malprt" cel="korp.0o.ANA">korpo</ref>, t.e. 
+        (<ref tip="malprt" cel="organi1.0o">organismo</ref>) plenumanta 
+        specialan funkcion:
         <ekz>
-          okulo estas la <tld/>o de la vidado;
-        </ekz>
-        <ekz>
-          la <tld/>oj de la parolo.
+          la dentoj, <ref tip="sub" cel="stomak.0o">stomako</ref>, intestaro de la 
+          viandoman&gcirc;anta leono estas esence malegalaj
+          je la samaj <tld/>oj de la kreska&jcirc;oman&gcirc;anta elefanto
+          <fnt><bib>FK</bib></fnt>;
+        </ekz><ekz>
+          la helpantoj de Tifono <klr>[&#8230;]</klr> en &ccirc;iun el la urnoj
+          metis iun internan <tld/>on de l' mortinto
+          <fnt><bib>Far3</bib> <lok>&Ccirc;apitro IV</lok></fnt>;
+        </ekz><ekz>
+          iliaj vo&ccirc;aj <tld/>oj tute ne montris ian grandan anta&ubreve;kapablon por la kantarto
+          <fnt><bib>Fab2</bib> <lok>La najtingalo</lok></fnt>;
+        </ekz><ekz>
+          la <tld/>oj de parolo <klr>(lango, gor&gcirc;o, vo&ccirc;kordo...)</klr>
+          <fnt><bib>EE</bib></fnt>.
         </ekz>
       </dif>
       <trd lng="de">Organ</trd>
@@ -29,6 +41,23 @@
       <trd lng="nl">orgaan</trd>
       <trd lng="ru">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
       <trd lng="sv">organ</trd>
+    </subsnc>
+    <subsnc mrk="organ.0o.POL">
+      <uzo tip="fak">POL</uzo>
+      <dif>
+        Grupo da komisiitoj kaja&ubreve; oficistoj, plenumantaj apartajn
+        funkciojn en organizo, partio a&ubreve; &scirc;tato:
+        <ekz>
+          Dum pli ol 130 jaroj la Esperanto-movado estas batalanta
+          <klr>&#8230;</klr> por ke la decid<tld/>oj (politikaj kaj
+          sciencaj) ne konsideru &gcirc;in kiel fenomenon negravan kaj
+          hobian
+          <fnt><aut>Zlatko TISLJAR</aut>:
+            <vrk>&Scirc;tata agnosko de Esperanto-kulturo</vrk>.
+            <bib>Monato</bib> <lok>&#8470;012450</lok></fnt>.
+        </ekz>
+      </dif>
+      <trd lng="ru">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
     </subsnc>
     <subsnc mrk="organ.0o.TEK">
       <uzo tip="fak">TEK</uzo>
@@ -62,26 +91,43 @@
     <dif>
       Iu a&ubreve; io esprimanta la pensojn de grupo da homoj:
       <ekz>
-        tiu oratoro estis nur la <tld/>o de la reakciuloj;
-      </ekz>
-      <ekz>
-        &jcirc;urnalo, kiu estas la <tld/>o de la registaro;
-      </ekz>
-      <ekz>
-        la Oficiala Bulteno estas la <tld/>o de la L. K.
+        la fondo de centra <tld/>o hilelista
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz><ekz>
+        la Gazeto estis <klr>[&#8230;]</klr> oficiala <tld/>o grava por advokatoj, militistoj,
+        k.t.p.
+        <fnt><bib>BdV</bib></fnt>;
+      </ekz><ekz>
+        la SAT-<tld/>oj anka&ubreve; ebligas objektivan, seninsultan diskutadon pri &ccirc;iuj
+        teorioj, pri &ccirc;iuj vidpunktoj
+        <fnt><bib>Lanti</bib></fnt>;
+      </ekz><ekz>
+        paroli anta&ubreve; difinita ju&gcirc;a <tld/>o
+        <fnt><bib>Ret</bib></fnt>;
+      </ekz><ekz>
+        la internaj regularoj de lokaj a&ubreve; provincaj konsilantaroj, de parlamentoj, de
+        diversaj <tld/>oj de Unui&gcirc;intaj Nacioj <klr>[&#8230;]</klr> kutime anta&ubreve;vidas kiu
+        rajtas paroli, kiam oni rajtas paroli, e&ccirc; kiom oni povas paroli seninterrompe
+        <fnt><bib>Ret</bib></fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Organ</trd>
+    <trdgrp lng="de">
+      <trd>Organ <klr>(einer Organisation)</klr></trd>,
+      <trd>Sprachrohr</trd>
+    </trdgrp>
     <trd lng="hu">org&aacute;num</trd>
     <trd lng="nl">orgaan</trd>
     <trd lng="ru">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
   </snc>
   <trd lng="af">orrel</trd>
   <trd lng="am">&#x12A0;&#x12AB;&#x120D;</trd>
-  <trd lng="ar">&#x639;&#x636;&#x648;</trd>
+  <trd lng="ar">&a_ayn;&a_D;&a_w;</trd>
   <trd lng="az">orqan</trd>
-  <trd lng="be">&c_a;&c_r;&c_g;&c_a;&c_n;</trd>
-  <trd lng="bn">&#x985;&#x999;&#x9CD;&#x997;</trd>
+  <trd lng="be">&c_v;&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trd lng="bn">&#2437;&#2457;&#x9CD;&#2455;</trd>
   <trd lng="bs">organ</trd>
   <trd lng="co">organi</trd>
   <trdgrp lng="cs">
@@ -95,46 +141,73 @@
   <trd lng="eu">organoaren</trd>
   <trd lng="fr">organe</trd>
   <trd lng="fy">orgaan</trd>
-  <trd lng="gl">&#xF3;rgano</trd>
+  <trd lng="ga">org&aacute;n</trd>
+  <trd lng="gl">&oacute;rgano</trd>
   <trd lng="gu">&#xA85;&#xA82;&#xA97;</trd>
   <trd lng="ha">sashin jiki</trd>
-  <trd lng="hi">&#x905;&#x902;&#x917;</trd>
+  <trd lng="hi">&#2309;&#2306;&#2327;</trd>
+  <trd lng="hmn">hloov</trd>
   <trd lng="hr">orgulje</trd>
-  <trd lng="hy">&#x574;&#x561;&#x580;&#x574;&#x56B;&#x576;</trd>
+  <trd lng="ht">&ograve;g&agrave;n</trd>
+  <trd lng="hy">&#1396;&#1377;&#1408;&#1396;&#x56B;&#1398;</trd>
+  <trd lng="ig">ngwa</trd>
   <trd lng="is">orgel</trd>
   <trd lng="it">organo</trd>
   <trd lng="ja">&#x30AA;&#x30EB;&#x30AC;&#x30F3;</trd>
   <trd lng="ka">&#x10DD;&#x10E0;&#x10D2;&#x10D0;&#x10DC;&#x10DD;&#x10E1;</trd>
-  <trd lng="km">&#x179F;&#x179A;&#x17B8;&#x179A;&#x17B6;&#x1784;&#x17D2;&#x1782;</trd>
+  <trd lng="kk">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trd lng="km">&#x179F;&#x179A;&#x17B8;&#x179A;&#x17B6;&#6020;&#x17D2;&#6018;</trd>
+  <trd lng="kn">&#xC85;&#xC82;&#xC97;</trd>
   <trd lng="ko">&#xAE30;&#xAD00;</trd>
+  <trd lng="ku">per&ccedil;e</trd>
+  <trd lng="ky">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trd lng="lat">organo</trd>
   <trd lng="lo">&#xEAD;&#xEB0;&#xEC4;&#xEA7;&#xE8D;&#xEB0;&#xEA7;&#xEB0;</trd>
+  <trd lng="lt">organas</trd>
+  <trd lng="lv">&#5603;r&#5619;eles</trd>
+  <trd lng="mg">taova</trd>
+  <trd lng="mi">wh&#5603;kau</trd>
+  <trd lng="mk">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
   <trd lng="ml">&#xD36;&#xD30;&#xD40;&#xD30;&#xD3E;&#xD35;&#xD2F;&#xD35;&#xD02;</trd>
-  <trd lng="mr">&#x936;&#x930;&#x940;&#x930;&#x93E;&#x91A;&#x93E; &#x905;&#x935;&#x92F;&#x935;</trd>
-  <trd lng="my">&#x1000;&#x102D;&#x102F;&#x101A;&#x103A;&#x1021;&#x1004;&#x103A;&#x1039;&#x1002;&#x102B;</trd>
-  <trd lng="ne">&#x905;&#x902;&#x917;</trd>
+  <trd lng="mn">&c_b;&c_a;&c_j;&c_g;&c_u;&c_u;&c_l;&c_l;&c_a;&c_g;&c_a;</trd>
+  <trd lng="mr">&#2358;&#2352;&#2368;&#2352;&#x93E;&#x91A;&#x93E; &#2309;&#2357;&#x92F;&#2357;</trd>
+  <trd lng="mt">organu</trd>
+  <trd lng="my">&#4096;&#x102D;&#x102F;&#x101A;&#x103A;&#4129;&#4100;&#x103A;&#4153;&#4098;&#x102B;</trd>
+  <trd lng="ne">&#2309;&#2306;&#2327;</trd>
   <trd lng="ny">limba</trd>
   <trd lng="pa">&#xA05;&#xA70;&#xA17;</trd>
   <trdgrp lng="pl">
     <trd>narz&aogonek;d</trd>,
     <trd>organ</trd>,
   </trdgrp>
-  <trd lng="ps">&#x627;&#x631;&#x6AB;&#x627;&#x646;</trd>
+  <trd lng="ps">&a_A;&a_r;&#x6AB;&a_A;&a_n;</trd>
   <trd lng="pt">&oacute;rg&atilde;o</trd>
-  <trd lng="sd">&#x639;&#x636;&#x648;&#x648;</trd>
+  <trd lng="rw">urugingo</trd>
+  <trd lng="sd">&a_ayn;&a_D;&a_w;&a_w;</trd>
   <trd lng="si">&#xD89;&#xDB1;&#xDCA;&#xDAF;&#xDCA;&#xDBB;&#xDD2;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>in&scaron;tit&uacute;cia</trd>,
     <trd>org&aacute;n</trd>
   </trdgrp>
+  <trd lng="sl">organov</trd>
+  <trd lng="sm">t&#x14D;t&#x14D;ga</trd>
+  <trd lng="sn">nhego</trd>
+  <trd lng="so">xubin</trd>
   <trd lng="sq">organ</trd>
   <trd lng="st">le lekala</trd>
+  <trd lng="sw">chombo</trd>
   <trd lng="ta">&#xB89;&#xBB1;&#xBC1;&#xBAA;&#xBCD;&#xBAA;&#xBC1;</trd>
   <trd lng="te">&#xC05;&#xC35;&#xC2F;&#xC35;</trd>
+  <trd lng="tg">&c_m;&c_a;&#x45C;&c_o;&c_m;&c_o;&c_t;&c_i;</trd>
   <trd lng="th">&#xE2D;&#xE27;&#xE31;&#xE22;&#xE27;&#xE30;</trd>
   <trd lng="tl">organ</trd>
-  <trd lng="ur">&#x639;&#x636;&#x648;</trd>
+  <trd lng="tt">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trd lng="uk">&c_o;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trd lng="ur">&a_ayn;&a_D;&a_w;</trd>
   <trd lng="vi">c&#x1A1; quan</trd>
-  <trd lng="yi">&#x5D0;&#x5B8;&#x5E8;&#x5D2;&#x5D0;&#x5B7;&#x5DF;</trd>
+  <trd lng="xh">ilungu lomzimba</trd>
+  <trd lng="yi">&alef;&#x5B8;&resh;&gimel;&alef;&#x5B7;&fnun;</trd>
+  <trd lng="yo">ara eniyan</trd>
   <trd lng="zu">sitho</trd>
 </drv>
 
@@ -144,12 +217,17 @@
     <dif>
       Rilata al <tld/>o:
       <ekz>
-        <tld/>a malsano, difekto;
-      </ekz>
-      <ekz>
+        se mi havus saman <tld/>an leza&jcirc;on kiel mia onklino, &scirc;i pensis, mi povus morti
+        subite
+        <fnt><bib>ChL</bib></fnt>;
+      </ekz><ekz>
+        la nekuracista laiko ne povis rimarki la <tld/>an mankon
+        <fnt><bib>VaK</bib></fnt>;
+      </ekz><ekz>
         ili kredigas, kvaza&ubreve; lingvo estas objekto natura,
         <tld/>a, kiu dependas de apartaj fiziologiaj ecoj
-        de la <tld/>oj de parolo<fnt>Z</fnt>.
+        de la <tld/>oj de parolo
+        <fnt><bib>EE</bib></fnt>.
       </ekz>
     </dif>
     <trd lng="de">organisch</trd>
@@ -161,14 +239,13 @@
     <dif>
       <tld lit="O"/>hava, posedanta <tld/>ojn:
       <ekz>
-        viva <tld/>a kreita&jcirc;o.
+        en la Malviva Maro, kiel oni almena&ubreve; pensis &gcirc;is nun, nenia
+        viva <tld/>a kreita&jcirc;o povas ekzisti
+        <fnt><bib>FK</bib></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_a;&c_r;&c_g;&c_a;&c_n;&c_n;&c_y;</trd>,
-    <trd>&c_a;&c_r;&c_g;&c_a;&c_n;&c_ib;&c_ch;&c_n;&c_y;</trd>
-  </trdgrp>
+  <trd lng="be">&c_a;&c_r;&c_g;&c_a;&c_n;&c_ib;&c_ch;&c_n;&c_y;</trd>
   <trd lng="cs">organick&yacute;</trd>
   <trd lng="en">organic</trd>
   <trd lng="fr">organique</trd>
@@ -184,6 +261,7 @@
     <trd>organick&yacute;</trd>,
     <trd>&uacute;strojn&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43E;&c_r;&c_g;&c_a;&#x43D;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="organ.0aro">
@@ -195,11 +273,20 @@
       Tuto de <tld/>oj, ordinare kun komuna rolo a&ubreve; utilo;
       <ref tip="sin" cel="aparat.0o.BIO">aparato<sncref/></ref>:
       <ekz>
-        la digesta <tld/>aro inflami&gcirc;is
-      <fnt>
-        <aut>Vikipedio</aut>,
-        <vrk><url ref="http://eo.wikipedia.org/wiki/&Hcirc;olero">&Hcirc;olero</url></vrk>
-      </fnt>.
+        li havas iujn problemojn pri la digesta <tld/>aro
+        <fnt>
+          <vrk><url
+          ref="http://aea.esperanto.org.au/wp-content/uploads/2014/04/AE-17.pdf">A&ubreve;straliaj
+          Esperantistoj</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        per tio estas korpo limigita nur al pure materia karaktero: &gcirc;i estas nura
+        <tld/>aro, funkciaro kaj fortaro, kiujn oni uzadas nur la&ubreve; postuloj de &gcirc;uo
+        kaj povumo
+        <fnt>
+          <lok><url ref="http://www.ikue.org/cz/arkivo/a-109-1-18.htm">Dio Benu 109-1/2018 -
+          IKUE</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -207,7 +294,9 @@
       <ref cel="sistem.0o.FIZL">sistemo<sncref/></ref>
     </refgrp>        
   </snc>
+  <trd lng="be">&c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_a; &c_v;&c_o;&c_r;&c_g;&c_a;&c_n;&c_a;&c_w;</trd>
   <trd lng="cs">soubor org&aacute;n&uring;</trd>
+  <trd lng="de">Organsystem</trd>
   <trd lng="en">system<klr tip="amb"> (biological)</klr></trd>
   <trdgrp lng="fr">
     <trd>appareil<klr tip="amb"> (anatomie)</klr></trd>,
@@ -219,6 +308,11 @@
     <trd>apparato<klr> (sistema di organi)</klr></trd>
   </trdgrp>
   <trd lng="sk">s&uacute;bor org&aacute;nov</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_u;&#x43A;&c_u;&#x43F;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&c_s;&c_i;&c_s;&c_t;&c_je;&#x43C;&c_a; &#x43E;&c_r;&c_g;&c_a;&#x43D;&c_ib;&c_v;</trd>,
+    <trd>&#x43E;&c_r;&c_g;&c_a;&#x43D;&c_ib;&c_z;&#x43C;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="organ.0eto">
@@ -237,14 +331,36 @@
           <vrk>Proterozoika Erao</vrk>,
           <lok><url ref="http://groups.yahoo.com/group/aeko/message/845">
           aeko</url>, 2002-06-20</lok>
+        </fnt>;
+      </ekz><ekz>
+        restas nur kelkaj genoj, kiuj necesas por la reproduktado kaj la funkciado de la
+        <tld/>eto
+        <fnt>
+          <vrk><url
+          ref="http://verkoj.com/lauteme/scienco/scivolemo/heredo-funkcias-ne-kiel-pensite/">Heredo
+          funkcias ne kiel pensite</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        la <ref tip="sub" cel="ribosom.0o">ribosomo</ref>j estas etaj en&ccirc;elaj <tld/>etoj,
+        <klr>[kiuj]</klr> konstruas la
+        proteinan &ccirc;enon la&ubreve; la <klr>[&#8230;]</klr> vicordo de la nukleotidoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Vivo &dash; Riboj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_r;&c_g;&c_a;&c_n;&c_e;&c_l;&c_a;</trd>
+  <trd lng="de">Organell</trd>
   <trd lng="fr">organite</trd>
   <trdgrp lng="it">
     <trd>organello</trd>,
     <trd>organulo</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&c_r;&c_g;&c_a;&#x43D;&#x43E;&c_ji;&c_d;</trd>,
+    <trd>&#x43E;&c_r;&c_g;&c_a;&#x43D;&c_je;&#x43B;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -256,10 +372,18 @@
     <dif>
       Ne posedanta <tld/>ojn:
       <ekz>
-        sen<tld/>aj bestetoj de la maro.
+        farita el &scirc;tono, el sen<tld/>a materio
+        <fnt>
+          <aut>S&aacute;ndor Szathm&aacute;ri</aut>
+          <vrk><url ref="http://www.autodidactproject.org/other/szathmari_urania.html">Urania &dash;
+          Novelo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="organi.0a.KEM">organika</ref>
   </snc>
+  <trd lng="be">&c_b;&c_ja;&c_z; <ind>&c_v;&c_o;&c_r;&c_g;&c_a;&c_n;&c_a;&c_w;</ind></trd>
+  <trd lng="de">organlos</trd>
   <trd lng="fr">anorganique</trd>
   <trd lng="hu">szervetlen</trd>
   <trd lng="nl">orgaanloos</trd>
@@ -273,11 +397,12 @@
       <tld lit="O"/>o nature lumanta, trovebla precipe &ccirc;e fi&scirc;oj kaj 
       cefalopodoj de profunda maro:
       <ekz>
-        tiu <klr>...</klr> markankreto posedas, kiel 
-        <em>Acanthephyra</em> kaj aliaj, lum<tld/>ojn
+        tiu <klr>[&#8230;]</klr> markankreto posedas, kiel 
+        <nom>Acanthephyra</nom> kaj aliaj, lum<tld/>ojn
         <fnt>
           <aut>J. Richard</aut>,
-          <vrk><url ref="http://www.forgottenbooks.com/readbook_text/Bulletin_de_LInstitut_OceYanographique_1905_1200159697/299">
+          <vrk><url
+          ref="http://www.forgottenbooks.com/readbook_text/Bulletin_de_LInstitut_OceYanographique_1905_1200159697/299">
           Scienca krozado de la &scirc;ipo Princesse Alice dum
           1904</url></vrk>,
           <lok>Bulletin du Mus&eacute;e Oc&eacute;anographique de Monaco, 1905-06-25 
@@ -285,7 +410,9 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="malprt" cel="lampir.0o">lampiro</ref>
   </snc>
+  <trd lng="de">Leuchtorgan</trd>
   <trd lng="fr">photophore<klr> (organe)</klr></trd>
 </drv>
 
@@ -294,8 +421,15 @@
   <snc mrk="organ.sens0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Organo kun sensa funkcio:
+      <tld lit="O"/>o kun sensa funkcio:
       <ekz>
+        beda&ubreve;rinde ni ne povas tiel fidi niajn proprajn sens<tld/>ojn
+        <fnt>
+          <bib>Kon11</bib>
+          <aut>Wendel Pontes</aut>
+          <vrk>Scienco kaj Scienca Metodo</vrk>
+        </fnt>;
+      </ekz><ekz>
         bhik&scirc;uo restadas inter la a&jcirc;oj, observante
         la a&jcirc;ojn, nome la ses sens<tld/>ojn
         <fnt>
@@ -309,12 +443,23 @@
       <ref cel="sens.0ilo.BIO">sensilo<sncref/></ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_v;&c_o;&c_r;&c_g;&c_a;&c_n; &c_p;&c_a;&c_ch;&c_u;&c_c;&c_mol;&c_c;&c_ja;&c_w;</trd>
   <trd lng="de">Sinnesorgan</trd>
   <trd lng="fr">organe des sens</trd>
+  <trd lng="uk">&#x43E;&c_r;&c_g;&c_a;&#x43D; &c_ch;&c_u;&c_t;&c_t;&#x44F;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.103 2022/10/07 18:48:19
+Sergio Pokrovskij: +0o.POL
+
+versio 1.102 2022/04/05 07:29:11
+Dmitri Gabinski: + trd be
+
+versio 1.99 2021/07/03 15:33:08
+Wolfram Diestel: ekz-oj, trd de
+
 Revision 1.28  2018/06/08 11:10:14  revo
 Jeromo Vasxe: + sens~o
 
@@ -328,11 +473,5 @@ Revision 1.25  2015/06/29 16:33:21  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.24  2015/01/10 06:11:02  revo
-Alain Gerard: +fnt
-
-Revision 1.23  2014/12/30 21:10:15  revo
-Alain Gerard: +trd (en,fr)
-
-Revision 1.22  2010/12/05 17:30:30  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: soif.xml,v 1.25 2021/05/29 14:33:16 revo Exp $">
+<art mrk="$Id: soif.xml,v 1.28 2022/05/05 05:09:57 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>soif</rad>/i <fnt><bib>PV</bib></fnt>
@@ -62,6 +62,7 @@
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_m;&c_a;&c_g;&c_n;&c_u;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_g;&c_n;&c_u;&c_c;&c_mol;</trd>,
     <trd>&c_h;&c_a;&c_c;&c_je;&c_c;&c_mol; &c_p;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="cs">
@@ -75,6 +76,11 @@
     <trd>by&tcaron; sm&auml;dn&yacute;</trd>,
     <trd>prahn&uacute;&tcaron;</trd>,
     <trd>sm&auml;di&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x445;&#x43E;&#x442;&#x456;&#x442;&#x438; &#x43F;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x447;&#x443;&#x432;&#x430;&#x442;&#x438; &#x441;&#x43F;&#x440;&#x430;&#x433;&#x443;</trd>,
+    <trd>&#x436;&#x430;&#x434;&#x430;&#x442;&#x438;</trd>
   </trdgrp>
 </drv>
 
@@ -111,7 +117,12 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_m;&c_a;&c_g;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_g;&c_a;</trd>
+  </trdgrp>
   <trd lng="fr">soif</trd>
+  <trd lng="uk">&#x441;&#x43F;&#x440;&#x430;&#x433;&#x430;</trd>
 </drv>
 
 <drv mrk="soif.0a">
@@ -121,6 +132,10 @@
       Sentanta <tld/>on.
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_a;&c_s;&c_m;&c_a;&c_g;&c_l;&c_y;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_g;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="bo">&#xF41;&#xF0B;&#xF66;&#xF90;&#xF7C;&#xF58;&#xF0B;</trd>
   <trd lng="cs">&zcaron;&iacute;zniv&yacute;</trd>
   <trd lng="de">durstig</trd>
@@ -139,6 +154,7 @@
   </trdgrp>
   <trd lng="ru">&c_zh;&c_a;&c_zh;&c_d;&c_u;&c_shch;&c_i;&c_j;</trd>
   <trd lng="sk">sm&auml;dn&yacute;</trd>
+  <trd lng="uk">&#x441;&#x43F;&#x440;&#x430;&#x433;&#x43B;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="soif.0igi">
@@ -156,7 +172,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_v;&c_y;&c_k;&c_l;&c_ib;&c_k;&c_a;&c_c;&c_mol; <ind>&c_s;&c_m;&c_a;&c_g;&c_u;</ind></trd>
   <trd lng="fr">assoiffer</trd>
+  <trd lng="uk">&#x432;&#x438;&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x438; &#x441;&#x43F;&#x440;&#x430;&#x433;&#x443;</trd>
 </drv>
 
 <drv mrk="soif.sen0igi">
@@ -176,7 +194,16 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_t;&c_a;&c_l;&c_ib;&c_c;&c_mol; <klr>(&c_s;&c_m;&c_a;&c_g;&c_u;)</klr></trd>,
+    <trd>&c_s;&c_p;&c_a;&c_t;&c_o;&c_l;&c_ib;&c_c;&c_mol; <klr>(&c_s;&c_m;&c_a;&c_g;&c_u;)</klr></trd>,
+    <trd>&c_z;&c_a;&c_d;&c_a;&c_v;&c_o;&c_l;&c_ib;&c_c;&c_mol; <klr>(&c_s;&c_m;&c_a;&c_g;&c_u;)</klr></trd>
+  </trdgrp>
   <trd lng="fr">d&eacute;salt&eacute;rer</trd>
+  <trdgrp lng="uk">
+    <trd>&#x443;&#x433;&#x430;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438; &#x441;&#x43F;&#x440;&#x430;&#x433;&#x443; (&#x447;&#x438;&#x44E;&#x441;&#x44C;)</trd>,
+    <trd>&#x43D;&#x430;&#x43F;&#x43E;&#x457;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="soif.sen0igxi">
@@ -190,17 +217,24 @@
         vintre
         <fnt>
           <aut>Vikipedio</aut>,
-          <vrk><url ref="http://eo.wikipedia.org/wiki/Gruntbovo">Gruntbovo</url></vrk>
+          <vrk><url ref="&Viki;/Gruntbovo">Gruntbovo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_p;&c_a;&c_t;&c_o;&c_l;&c_ib;&c_c;&c_c;&c_a;</trd>
   <trd lng="fr">se d&eacute;salt&eacute;rer</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.28 2022/05/05 05:09:57
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.26 2021/10/05 08:34:35
+Dmitri Gabinski: + trd be
+
 Revision 1.23  2015/12/23 14:10:17  revo
 Jeromo Vasxe: ~igi kor dif
 
@@ -217,8 +251,5 @@ Revision 1.19  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.18  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2013/04/21 18:10:12  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: ort.xml,v 1.41 2020/02/22 20:10:29 revo Exp $">
+<art mrk="$Id: ort.xml,v 1.47 2022/10/11 22:39:18 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>ort</rad>/o <fnt><bib>PV</bib></fnt>
@@ -15,7 +14,7 @@
   <snc mrk="ort.0o.angulo">
     <dif>
       <ref tip="super" cel="angul.0o.figuro">Angulo</ref>
-      je <frm>90&#730;</frm>:
+      je <frm>90&#x2DA;</frm>:
       <ekz>
         se du rektoj <ref cel="kruc.0igxi.MAT">kruci&gcirc;as</ref> tiel, ke
         du
@@ -24,8 +23,7 @@
         <fnt>
           <aut>Akademio de Esperanto</aut>,
           <vrk>Oka Oficiala Aldono al la Universala Vortaro</vrk>,
-          <lok><url
-          ref="http://www.akademio-de-esperanto.org/aktoj/aktoj2/8oa.html">
+          <lok><url ref="&AdE;/aktoj/aktoj2/8oa.html">
           Oficiala Bulteno de la Akademio de Esperanto, 
           [1974] (10)</url></lok>
         </fnt>;
@@ -35,8 +33,7 @@
         kvar anguloj estas <tld/>oj
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=197177">Kvarlatero</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=197177">Kvarlatero</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -45,8 +42,7 @@
         <tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=37220">Graduso</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=37220">Graduso</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -59,6 +55,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_y; &c_v;&c_u;&c_g;&c_a;&c_l;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_y; &c_k;&c_u;&c_t;</trd>
+  </trdgrp>
   <trd lng="ca"><ind>angle</ind> recte</trd>
   <trdgrp lng="cs">
     <trd>kolmost</trd>,
@@ -72,6 +72,7 @@
   <trd lng="nl">rechte <ind>hoek</ind></trd>
   <trd lng="pl">k&aogonek;t prosty</trd>
   <trd lng="pt">&acirc;ngulo reto</trd>
+  <trd lng="ro">unghi drept</trd>
   <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
   <trdgrp lng="sk">
     <trd>kolmos&tcaron;</trd>,
@@ -86,7 +87,7 @@
     <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt>
     <dif>
       <klr>(p.p. <ref cel="angul.0o.figuro">angulo</ref>)</klr>
-      Estanta <tld/>o; kies mezuro egalas al <frm>90&#730;</frm>:
+      Estanta <tld/>o; kies mezuro egalas al <frm>90&#x2DA;</frm>:
       <ekz>
         rektangulo oni nomas paralelogramon, de kiu almena&ubreve; 
         unu angulo estas <tld/>a;
@@ -96,12 +97,12 @@
         anguloj estas akutaj
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=4167">Teoremo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=4167">Teoremo</url></lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="rekt.0a.orta">rekta.</ref>
+    <trd lng="be">&c_p;&c_r;&c_o;&c_s;&c_t;&c_y; <klr>(&c_v;&c_u;&c_g;&c_a;&c_l;, &c_k;&c_u;&c_t;)</klr></trd>
     <trd lng="de">recht<klr tip="ind">(-er Winkel)</klr></trd>
     <trd lng="en">right<klr tip="ind"> (angle)</klr></trd>
     <trd lng="es"><klr>(&aacute;ngulo) </klr><ind>recto</ind></trd>
@@ -111,6 +112,7 @@
     <trd lng="nl">rechte<klr tip="amb"> (hoek)</klr></trd>
     <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>prosty</trd>
     <trd lng="pt">reto</trd>
+    <trd lng="ro"><klr tip="ind">(unghi) </klr>drept</trd>
     <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
   </snc>
   <snc mrk="ort.0a.plurlatero">
@@ -140,6 +142,10 @@
       </ekz>
       &Gcirc;i tamen restas malofta kaj evitinda.
     </rim>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_r;&c_a;&c_s;&c_t;&c_a;&c_k;&c_u;&c_t;&c_n;&c_y;</trd>,
+      <trd>&c_p;&c_r;&c_a;&c_m;&c_a;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
+    </trdgrp>
     <trd lng="de">rechtwinklig</trd>
     <trd lng="en">right-angled</trd>
     <trd lng="es">rect&aacute;ngulo<klr> (adj.)</klr></trd>
@@ -147,6 +153,7 @@
     <trd lng="hu">der&eacute;ksz&ouml;g&udblac;</trd>    
     <trd lng="nl">rechthoekig</trd>
     <trd lng="pl">prostok&aogonek;tny</trd>
+    <trd lng="ro">dreptunghiular</trd>
     <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="ort.0a.specialaj">
@@ -183,8 +190,7 @@
       <rim>
         Eblas diri sendistinge <ctl><frm am="a"><k>a</k></frm> estas
         <tld/>a al
-        <frm am="b"><k>b</k></frm></ctl>, a&ubreve; <ctl><frm
-        am="a"><k>a</k></frm> 
+        <frm am="b"><k>b</k></frm></ctl>, a&ubreve; <ctl><frm am="a"><k>a</k></frm> 
         kaj <frm am="b"><k>b</k></frm> estas (inter si) <tld/>aj</ctl>.
         Por
         &ccirc;i-lasta senco ekzistas anka&ubreve; la pli preciza termino
@@ -193,7 +199,8 @@
       <ref tip="sin" cel="perpen1.0a">perpendikulara.</ref>
       <trd lng="es">perpendicular</trd>
       <trd lng="hu">mer&odblac;leges</trd>
-      <trd lng="nl">loodrecht</trd>      
+      <trd lng="nl">loodrecht</trd>
+      <trd lng="pl">prostopad&lstroke;y</trd>      
     </subsnc>
     <subsnc mrk="ort.0a.vektoroj">
       <fnt><bib>EKV</bib><lok>&para;316</lok></fnt>
@@ -206,8 +213,7 @@
           se <frm am="x"><k>x</k></frm> estas <tld/>a al 
           <frm am="y"><k>y</k></frm>,
           validas la pitagora teoremo:
-          <frm am="||x+y||^2=||x||^2+||y||^2"
-          >||<k>x</k>+<k>y</k>||<sup>2</sup> =
+          <frm am="||x+y||^2=||x||^2+||y||^2">||<k>x</k>+<k>y</k>||<sup>2</sup> =
           ||<k>x</k>||<sup>2</sup>+||<k>y</k>||<sup>2</sup></frm>;
         </ekz>
         <ekz>
@@ -258,8 +264,7 @@
       <dif>
         <klr>(p.p. elemento <frm am="x"><k>x</k></frm> de
         <ref cel="spac.vektora0o">vektora spaco</ref> kaj elemento
-        <frm am="f"><k>f</k></frm> de ties <ref
-        cel="dual.0o.MAT">dualo</ref>)</klr>
+        <frm am="f"><k>f</k></frm> de ties <ref cel="dual.0o.MAT">dualo</ref>)</klr>
         Tiaj, ke <frm am="f(x)=0"><k>f</k>(<k>x</k>) = 0</frm>.
       </dif>
       <trdgrp lng="es">
@@ -296,6 +301,7 @@
       <trdgrp lng="pl">
         <trd><klr tip="amb">(macierz) </klr>ortogonalna</trd>
       </trdgrp>
+      <trd lng="ro">matrice ortogonal&abreve;</trd>
       <trdgrp lng="ru">
         <trd>&c_o;&c_r;&c_t;&c_o;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;<klr tip="amb">
         (&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;)</klr></trd>
@@ -336,11 +342,19 @@
       <trd>ortogonalny</trd>
     </trdgrp>
     <trd lng="pt">ortogonal</trd>
+    <trdgrp lng="ro">
+      <trd>perpendicular</trd>,
+      <trd>ortogonal</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_o;&c_r;&c_t;&c_o;&c_g;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_p;&c_je;&c_r;&c_p;&c_je;&c_n;&c_d;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_e;&c_r;&c_p;&c_e;&c_n;&c_d;&c_y;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;</trd>,
+    <trd>&c_a;&c_r;&c_t;&c_a;&c_g;&c_a;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>ortogonal</trd>,
     <trd>perpendicular</trd>,
@@ -372,8 +386,8 @@
       <ref tip="super" cel="rekt.0o.elementa">Rekto</ref> <tld/>a al iu
       alia figuro:
       <ekz>
-        la longo de la <tld/>anto de la pinto al la bazo nomi&gcirc;as <ref
-        tip="sub" cel="alt.0o.MAT">alto</ref>
+        la longo de la <tld/>anto de la pinto al la bazo nomi&gcirc;as <ref tip="sub"
+        cel="alt.0o.MAT">alto</ref>
         de la piramido
         <fnt>
           <bib>Viki</bib>
@@ -400,11 +414,14 @@
     <rim>
       Tiu &ccirc;i termino aperis anka&ubreve; &ccirc;e Bricard,
       <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
-      sed kun malpli vasta senco, nome: <ref
-      cel="alt.0o.MAT">alto</ref>.
+      sed kun malpli vasta senco, nome: <ref cel="alt.0o.MAT">alto</ref>.
       La malnova senco konservi&gcirc;is &gcirc;is en <fnt><bib>PV</bib></fnt>.
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_e;&c_r;&c_p;&c_e;&c_n;&c_d;&c_y;&c_k;&c_u;&c_l;&c_ja;&c_r;</trd>,
+    <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>perpendicular</trd>,
     <trd>normal <klr>(subst.)</klr></trd>
@@ -436,11 +453,16 @@
     <trd>normalna</trd>
   </trdgrp>
   <trd lng="pt">perpendicular</trd>
+  <trdgrp lng="ro">
+    <trd>drept perpendicular</trd>,
+    <trd>normal</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_je;&c_r;&c_p;&c_je;&c_n;&c_d;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_r;</trd>,
     <trd>&c_n;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">v&yacute;&scaron;ka <klr>(v trojuholn&iacute;ku)</klr></trd>
+  <trd lng="uk">&#x43F;&c_je;&c_r;&#x43F;&c_je;&#x43D;&c_d;&c_i;&#x43A;&c_u;&#x43B;&#x44F;&c_r;</trd>
 </drv>
 
 <drv mrk="ort.0ilo">
@@ -477,6 +499,10 @@
       uzo, ekz-e formo de <tld/>a triangulo a&ubreve; de litero T.
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_v;&c_u;&c_g;&c_l;&c_a;&c_v;&c_ib;&c_k;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>cartab&oacute;</trd>,
     <trd>escaire</trd>
@@ -485,7 +511,10 @@
     <trd>troj&uacute;heln&iacute;k</trd>,
     <trd>&uacute;heln&iacute;k <klr>(kresli&ccaron;sk&yacute;)</klr></trd>
   </trdgrp>
-  <trd lng="de">Rei&szlig;dreieck</trd>
+  <trdgrp lng="de">
+    <trd>Geodreieck</trd>,
+    <trd>Rei&szlig;dreieck</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>set square</trd>,
     <trd>triangle<klr tip="ind"> (set square)</klr></trd>
@@ -497,6 +526,7 @@
   <trd lng="fr">&eacute;querre</trd>
   <trd lng="hu">der&eacute;ksz&ouml;g&udblac; <ind>vonalz&oacute;</ind></trd>
   <trd lng="pl">ekierka</trd>
+  <trd lng="ro">echer</trd>
   <trd lng="ru">&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">uholn&iacute;k</trd>
 </drv>
@@ -514,12 +544,10 @@
   <snc mrk="ort.O0ilo.AST">
     <uzo tip="fak">AST</uzo>
     <dif>
-      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
-      lst="voko:stelfiguroj">stelfiguro</ref>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">stelfiguro</ref>
       (<trd lng="la">Norma</trd>):
       <ekz>
-        NGC 5999 estas malfermita stelamaso en konstelacio <tld
-        lit="O"/>ilo
+        NGC 5999 estas malfermita stelamaso en konstelacio <tld lit="O"/>ilo
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=119128">NGC
@@ -535,6 +563,9 @@
     <trd>Norma<klr tip="ind"> (constelaci&oacute;n)</klr></trd>
   </trdgrp>
   <trd lng="fr">R&egrave;gle<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="pl">W&eogonek;gielnica  <klr>(gwiazdozbi&oacute;r)</klr></trd>
+  <trd lng="ro">Echerul  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="uk">&#x43F;&c_r;&c_i;&c_z;&#x43C;&#x43E;&c_v;&c_i;&c_j; &c_je;&#x43A;&c_je;&c_r;</trd>
 </drv>
 
 <drv mrk="ort.mez0anto">
@@ -570,13 +601,27 @@
   <trd lng="hu">szakaszfelel&odblac; <ind>mer&odblac;leges</ind></trd>
   <trd lng="pl">symetralna</trd>
   <trd lng="pt">mediatriz</trd>
+  <trd lng="ro">mediatoare</trd>
   <trd lng="ru">&c_m;&c_je;&c_d;&c_i;&c_a;&c_t;&c_r;&c_i;&c_s;&c_a;
   <klr tip="ind"> (&c_o;&c_t;&c_r;&c_je;&c_z;&c_k;&c_a;)</klr></trd>
   <trd lng="sk">os &uacute;se&ccaron;ky</trd>
+  <trd lng="uk">&c_v;&c_i;&c_s;&#x43E;&c_t;&c_a; (&c_t;&c_r;&c_i;&#x43A;&c_u;&c_t;&#x43D;&c_i;&#x43A;&c_a;)</trd>
 </drv>
 </art>
 <!--
-$Log: ort.xml,v $
+$Log$
+versio 1.47 2022/10/11 22:39:18
+Vito Redsky: +trd pl + trd ro
+
+versio 1.46 2022/07/11 20:52:05
+Ulrich Fellmann: ortilo: +1 plia DE trd
+
+versio 1.45 2022/05/01 17:17:01
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.42 2021/11/19 07:29:12
+Dmitri Gabinski: + trd be
+
 versio 1.41 2020/02/22 20:10:29
 Wolfram Diestel: svg anst. gif
 
@@ -587,17 +632,5 @@ Revision 1.39  2018/08/20 09:10:13  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.38  2018/08/06 22:11:02  revo
-Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
-
-Revision 1.37  2018/01/23 20:10:17  revo
-Wolfram Diestel: ekz-oj
-
-Revision 1.36  2017/05/26 16:10:23  revo
-Ludoviko Francisco: +drv +ekz ilo
-
-Revision 1.35  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.34  2015/06/29 16:33:22  revo
 -->
 </vortaro>

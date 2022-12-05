@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kod.xml,v 1.44 2021/06/18 09:32:34 revo Exp $">
+<art mrk="$Id: kod.xml,v 1.49 2022/10/13 11:33:54 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>kod</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -27,8 +26,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj'</aut>
-          <vrk><url
-          ref="&Monato;/2015/011355.php">Komunika&jcirc;o de
+          <vrk><url ref="&Monato;/2015/011355.php">Komunika&jcirc;o de
           Ikaro</url></vrk>
           <lok>2015</lok>
         </fnt>;
@@ -55,8 +53,7 @@
         a&ubreve;tomobilindustrio
         <fnt>
           <bib>Monato</bib>
-          <vrk><url
-          ref="&Monato;/2012/010579.php">QR-kodo</url></vrk>
+          <vrk><url ref="&Monato;/2012/010579.php">QR-kodo</url></vrk>
           <lok>2012</lok>
         </fnt>;
       </ekz>
@@ -65,10 +62,9 @@
         sepbita <tld/>o;
       </ekz>
       <ekz>
-        <klr>[li]</klr> klarigas, kio estas signo<tld/>oj, <ref
-        tip="sub" cel="aski.0o">Askio</ref>, <tld/>pa&gcirc;oj <klr>[&#8230;]</klr> 
-        kaj donas praktikajn konsilojn, kiel uzi <ref tip="sub"
-        cel="unikod.0o">Uni<tld/>o</ref>n
+        <klr>[li]</klr> klarigas, kio estas signo<tld/>oj, <ref tip="sub" cel="aski.0o">Askio</ref>,
+        <tld/>pa&gcirc;oj <klr>[&#8230;]</klr> 
+        kaj donas praktikajn konsilojn, kiel uzi <ref tip="sub" cel="unikod.0o">Uni<tld/>o</ref>n
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
@@ -114,8 +110,7 @@
   </snc>
   <snc mrk="kod.0o.itajxo">
     <dif>
-      Grupo da signoj, identiganta ion la&ubreve; iu <tld/>o <sncref
-      ref="kod.0o.SCI"/>:
+      Grupo da signoj, identiganta ion la&ubreve; iu <tld/>o <sncref ref="kod.0o.SCI"/>:
      <ekz>
         komizoj portos porteblajn skanilojn por legi stri<tld/>on, kiuj
         poste inter&scirc;an&gcirc;os 
@@ -185,15 +180,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url
-          ref="&Monato;/2010/009999.php">Interlingvo:
+          <vrk><url ref="&Monato;/2010/009999.php">Interlingvo:
           komparo inter du solvoj</url></vrk>
           <lok>2010</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="numer.0o">numero</ref>
+      <ref cel="mark.0o.signo">marko</ref>,
+      <ref cel="numer.0o">numero</ref>,
+      <ref cel="signatur.0o">signaturo</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>Kennung</trd>,
@@ -229,8 +225,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franck Arnaud</aut>
-          <vrk><url
-          ref="https://www.monato.be/2004/007797.html">Mikrosofto
+          <vrk><url ref="&Monato;/2004/007797.html">Mikrosofto
           ektimas Linukson</url></vrk>
           <lok>2004</lok>
         </fnt>.
@@ -262,8 +257,12 @@
     <trd>&c_k;&c_o;&c_d;</trd>,
     <trd>&c_k;&c_a;&c_d;&c_o;&c_w;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="en">code</trd>
+  <trdgrp lng="en">
+    <trd>code</trd>,
+    <trd>encryption</trd>
+  </trdgrp>
   <trd lng="pt">c&oacute;digo</trd>
+  <trd lng="uk">&#x43A;&#x43E;&c_d;&c_je;&#x43A;&c_s;</trd>
 </drv>
 
 <drv mrk="kod.0i">
@@ -293,8 +292,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jorge Montanari</aut>
-          <vrk><url
-          ref="&Monato;/2013/011064.php">Telomero: &ccirc;u
+          <vrk><url ref="&Monato;/2013/011064.php">Telomero: &ccirc;u
           rimedo kontra&ubreve; kancero?</url></vrk>
           <lok>2013</lok>
         </fnt>;
@@ -322,7 +320,8 @@
     </trdgrp>
     <trdgrp lng="en">
       <trd>code</trd>,
-      <trd>encode</trd>
+      <trd>encode</trd>,
+    <trd>encrypt</trd>
     </trdgrp>
     <trd lng="es">codificar</trd>
     <trdgrp lng="fr">
@@ -347,6 +346,10 @@
        Grupo da signoj, prezentanta koditan informon
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>code</trd>,
+    <trd>encoded message</trd>
+  </trdgrp>
 </drv>
       
 <drv mrk="kod.0ero">
@@ -363,8 +366,7 @@
         por la ege ofta litero E
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=364542">Literofteco</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=364542">Literofteco</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -394,6 +396,11 @@
   <trd lng="pl">element <ind>kodu</ind></trd>
   <trd lng="sk">jednotliv&yacute; znak k&oacute;du</trd>
   <trd lng="cs">jednotliv&yacute; znak k&oacute;du</trd>
+  <trdgrp lng="uk">
+    <trd>&c_ch;&c_a;&c_s;&c_t;&c_i;&#x43D;&c_a; &#x43A;&#x43E;&c_d;&c_u;</trd>,
+    <trd>&#x43A;&#x43E;&c_d;&#x43E;&#x43D;</trd>,
+    <trd>&c_t;&c_r;&c_i;&#x43F;&#x43B;&c_je;&c_t;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kod.0igi">
@@ -407,8 +414,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Marko Naoki Lins</aut>
-          <vrk><url
-          ref="https://www.monato.be/2003/008051.html">Bruselo-Babelo:
+          <vrk><url ref="&Monato;/2003/008051.html">Bruselo-Babelo:
           lingvo-kulturo en E&ubreve;ropa Unio</url></vrk>
           <lok>2003</lok>
         </fnt>.
@@ -441,6 +447,10 @@
     <trd>nechat zak&oacute;dovat</trd>
   </trdgrp>
   <trd lng="sk">kodifikova&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&c_d;&c_i;&c_f;&c_ib;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43A;&#x43E;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kod.mal0i">
@@ -452,7 +462,7 @@
       mal&ccirc;ifri:
       <ekz>
         sciencistoj de la universitato de Vieno mal<tld/>is la &leftquot;sekretan
-        lingvon&#8221; de elefantoj
+        lingvon&#x201D; de elefantoj
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
@@ -467,7 +477,11 @@
       <trd>entkodieren</trd>,
       <trd>entschl&uuml;sseln</trd>
     </trdgrp>
-    <trd lng="en">decode</trd>
+    <trdgrp lng="en">
+    <trd>decode</trd>,
+    <trd>decipher</trd>,
+    <trd>decrypt</trd>
+  </trdgrp>
     <trd lng="es">descifrar</trd>
     <trd lng="fr">d&eacute;coder</trd>
     <trdgrp lng="hu">
@@ -487,6 +501,10 @@
       &c_d;&c_je;&c_k;&c_o;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;
       </trd>
     </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&#x43E;&c_z;&#x43A;&#x43E;&c_d;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_sh;&c_i;&c_f;&c_r;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kod.0oprezento">
@@ -509,8 +527,7 @@
         <frm>RcSlb8WdYW7EnW8gxIlpdcS1YcWtZGU=</frm>
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=92209">MIME</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=92209">MIME</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -518,8 +535,7 @@
         8-bitaj kodoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=290552">Egalsigna
+          <lok><url ref="https://eo.wikipedia.org/?curid=290552">Egalsigna
           askiigo</url></lok>
         </fnt>.
       </ekz>
@@ -613,6 +629,10 @@
     (&c_k;&c_o;&c_m;&c_p;&c_mol;&c_ju;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;)
     </klr></trd>
   </snc>
+  <trdgrp lng="en">
+    <trd>codebreaker</trd>,
+    <trd>hacker</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kod.morsa0o">
@@ -639,6 +659,7 @@
     <ref tip="vid" cel="mors.0o">Morso</ref>
   </snc>
   <trd lng="de">Morsecode</trd>
+  <trd lng="en">morse code</trd>
   <trd lng="es">c&oacute;digo morse</trd>
   <trdgrp lng="fr">
     <trd>code Morse</trd>,
@@ -675,6 +696,10 @@
     <trd>Postleitzahl</trd>,
     <trd>PLZ</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>postal code</trd>,
+    <trd>zip code</trd>
+  </trdgrp>
   <trd lng="es">c&oacute;digo postal</trd>
   <trd lng="fr">code postal</trd>
   <trd lng="hu">
@@ -700,8 +725,7 @@
         pluson (&leftquot;+&rightquot;) &#8208; kiu esence estas tute la sama
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=103732">Telefona
+          <lok><url ref="https://eo.wikipedia.org/?curid=103732">Telefona
           landokodo</url></lok>
         </fnt>.
       </ekz>
@@ -709,6 +733,7 @@
   </snc>
   <trd lng="bg">&c_k;&c_o;&c_d;</trd>
   <trd lng="de">Vorwahl</trd>
+  <trd lng="en">calling code</trd>
   <trd lng="es">prefijo<klr tip="ind"> (telef&oacute;nico)</klr></trd>
   <trd lng="nl">kengetal<klr tip="ind"> (telefoon)</klr></trd>
   <trd lng="pl"><klr>numer </klr>kierunkowy</trd>
@@ -728,8 +753,7 @@
         <fnt>
           <aut>-</aut>,
           <vrk>semajnfino en Aylesford</vrk>,
-          <lok><url
-          ref="http://www.esperanto-gb.org/eab/eab_update/gxisdate40.pdf">
+          <lok><url ref="http://www.esperanto-gb.org/eab/eab_update/gxisdate40.pdf">
           EAB Update, 2008-01 &gcirc;is 03</url></lok>
         </fnt>.
       </ekz>
@@ -738,11 +762,14 @@
   </snc>
   <trd lng="be">&c_sh;&c_t;&c_r;&c_y;&c_h;-&c_k;&c_o;&c_d;</trd>
   <trd lng="cs">&ccaron;&aacute;rkov&yacute; k&oacute;d</trd>
+  <trd lng="en">barcode</trd>
   <trd lng="es">c&oacute;digo de barras</trd>
   <trd lng="fr">code-barre</trd>
   <trd lng="nl">streepjescode</trd>
   <trd lng="pl"><ind>kod</ind> paskowy</trd>
   <trd lng="sk">&ccaron;iarov&yacute; k&oacute;d</trd>
+  <trd lng="uk">&c_sh;&c_t;&c_r;&c_i;&c_h;&#x43A;&#x43E;&c_d; (&#x43D;&c_a; &c_je;&c_t;&c_i;&#x43A;&c_je;&c_t;&#x43A;&c_a;&c_h; &c_t;&#x43E;&c_v;&c_a;&c_r;&c_ib;&c_v; &c_ib;
+  &c_t;.&#x43F;.)</trd>
 </drv>
 
 <adm>
@@ -753,6 +780,15 @@
 </art>
 <!--
 $Log$
+versio 1.49 2022/10/13 11:33:54
+Wolfram Diestel: ~o: +ref
+
+versio 1.48 2022/05/01 08:09:24
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.45 2022/02/14 07:40:28
+Noam Mohr: +trd en kod-
+
 versio 1.44 2021/06/18 09:32:34
 Dmitri Gabinski: + trd be
 
@@ -766,13 +802,5 @@ Revision 1.40  2019/05/06 22:10:20  revo
 Vito Redsky: kor trd pl
 
 Revision 1.39  2018/08/07 22:10:17  revo
-Michel Cantigneaux: aperas unue en PV (1934) k PIV1 (1970), oficialaj en
-9OA (2007)
-
-Revision 1.38  2017/09/15 07:10:19  revo
-Damien Brucker: -eraro cxe cel en ref
-
-Revision 1.37  2017/09/14 20:10:15  revo
-Wolfram Diestel: forigis snc JUR, kiu nun estas en kod1.xml
 -->
 </vortaro>

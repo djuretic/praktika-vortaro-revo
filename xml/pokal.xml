@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: pokal.xml,v 1.23 2020/10/25 22:35:17 revo Exp $">
+<art mrk="$Id: pokal.xml,v 1.28 2022/10/09 14:34:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pokal</rad>/o
@@ -62,6 +61,7 @@
       <trd>goblet</trd>
     </trdgrp>
     <trd lng="nl">bokaal</trd>
+    <trd lng="pl">puchar  <klr>(naczynie)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_b;&c_o;&c_k;&c_a;&c_l;</trd>,
       <trd>&c_r;&c_ju;&c_m;&c_k;&c_a;</trd>
@@ -89,6 +89,7 @@
       <trd>beker<klr tip="ind"> (trofee)</klr></trd>,
       <trd>trofee</trd>
     </trdgrp>
+    <trd lng="pl">puchar</trd>
     <trd lng="ru">&c_k;&c_u;&c_b;&c_o;&c_k;</trd>
   </subsnc>
   </snc>
@@ -104,12 +105,13 @@
         pasa&gcirc;eroj superis tiun de la periodo de la mond<tld/>o en 2018
         <fnt>
           <aut>H. Gorecka</aut>
-          <vrk><url ref="http://radio.esperanto-ondo.ru/Arkivoj/podkasto/55"
-              >Okcidente de Ruslando: Kaliningrada regiono turisme</url></vrk>
+          <vrk><url ref="http://radio.esperanto-ondo.ru/Arkivoj/podkasto/55">Okcidente de Ruslando:
+          Kaliningrada regiono turisme</url></vrk>
           <lok>Radio Esperanto, 2020-10-18 (55)</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_k;&c_u;&c_b;&c_a;&c_k; <klr>(&c_s;&c_p;&c_a;&c_b;&c_o;&c_r;&c_n;&c_ib;&c_c;&c_t;&c_v;&c_a;)</klr></trd>
   </snc>
   <trdgrp lng="cs">
     <trd>kalich</trd>,
@@ -120,6 +122,7 @@
   <trd lng="de">Pokal</trd>
   <trd lng="fr">coupe</trd>
   <trd lng="pt">ta&ccedil;a</trd>
+  <trd lng="ro">cea&#537;c&abreve;</trd>
   <trdgrp lng="sk">
     <trd>kalich</trd>,
     <trd>poh&aacute;r</trd>,
@@ -139,11 +142,14 @@
   <snc mrk="pokal.P0o.AST">
     <uzo tip="fak">AST</uzo>
     <dif>
-      Sud-hemisfera <ref tip="lst"
-      cel="stel.0figuro" lst="voko:stelfiguroj">stelfiguro</ref>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro" lst="voko:stelfiguroj">stelfiguro</ref>
       (<trd lng="la">Crater</trd>).
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_K;&c_je;&c_l;&c_ib;&c_h; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>,
+    <trd>&c_Ch;&c_a;&c_sh;&c_a; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>kalich</trd>,
     <trd>poh&aacute;r</trd>,
@@ -155,16 +161,34 @@
   <trd lng="es">Copa</trd>
   <trd lng="fr">Coupe<klr tip="ind"> (constellation)</klr></trd>
   <trd lng="nl">Beker<klr tip="ind"> (sterrenbeeld)</klr></trd>
+  <trd lng="pl">Puchar  <klr>(gwiazdozbi&oacute;r)</klr></trd>
+  <trd lng="ro">Cupa  <klr>(constela&#539;ie)</klr></trd>
   <trdgrp lng="sk">
     <trd>kalich</trd>,
     <trd>poh&aacute;r</trd>,
     <trd>&ccaron;a&scaron;a</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_je;&#x43B;&c_i;&c_h;</trd>,
+    <trd>&#x43A;&c_u;&c_b;&#x43E;&#x43A;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.28 2022/10/09 14:34:18
+Vito Redsky: +trd pl + trd ro
+
+versio 1.27 2022/04/27 06:38:24
+Dmitri Gabinski: + trd be
+
+versio 1.26 2022/04/17 21:27:16
+Vito Redsky: + trd pl + trd ro 
+
+versio 1.25 2022/04/11 09:39:57
+Dmitri Gabinski: + trd be
+
 versio 1.23 2020/10/25 22:35:17
 Jeromo Vasxe: + snc konkurso
 
@@ -175,17 +199,5 @@ Revision 1.20  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.19  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2014/04/06 18:10:18  revo
-Wolfram Diestel: kor. sud-hemisfera stelfiguro
-
-Revision 1.17  2013/08/25 08:10:40  revo
-Wolfram Diestel: referenco al listo stelfiguroj
-
-Revision 1.16  2009/10/25 17:31:27  revo
-Paul Peeraerts: +nl
-
-Revision 1.15  2008/11/23 19:12:07  revo
 -->
 </vortaro>

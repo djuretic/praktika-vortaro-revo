@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: il.xml,v 1.67 2021/06/19 05:58:34 revo Exp $">
+<art mrk="$Id: il.xml,v 1.102 2022/08/10 08:36:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   -<rad>il</rad>/ <fnt><bib>PV</bib></fnt>
@@ -131,9 +131,9 @@ Samsignifa radiko:
     </dif>
   </snc>
   <trd lng="af">hulpmiddel</trd>
-  <trd lng="am">&#x1218;&#x1223;&#x122A;&#x12EB;</trd>
-  <trd lng="ar">&#x623;&#x62F;&#x627;&#x629;</trd>
-  <trd lng="az">al&#x259;t</trd>
+  <trd lng="am">&#4632;&#4643;&#x122A;&#x12EB;</trd>
+  <trd lng="ar">&a_A_hamza_sure;&#x62F;&a_A;&a_t_marbuta;</trd>
+  <trd lng="az">al&#601;t</trd>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</trd>,
@@ -148,6 +148,7 @@ Samsignifa radiko:
     <trd>n&aacute;stroj</trd>,
     <trd>za&rcaron;&iacute;zen&iacute;</trd>
   </trdgrp>
+  <trd lng="cy">offeryn</trd>
   <trd lng="da">v&#xE6;rkt&#xF8;j</trd>
   <trdgrp lng="de">
     <trd>Werkzeug</trd>,
@@ -161,32 +162,51 @@ Samsignifa radiko:
     <trd>outil</trd>
   </trdgrp>
   <trd lng="fy">helpmiddel</trd>
+  <trd lng="ga">uirlis</trd>
+  <trd lng="gd">inneal</trd>
   <trd lng="gl">ferramenta</trd>
   <trd lng="gu">&#xAB8;&#xABE;&#xAA7;&#xAA8;</trd>
   <trd lng="ha">kayan aiki</trd>
-  <trd lng="hi">&#x909;&#x92A;&#x915;&#x930;&#x923;</trd>
+  <trd lng="hi">&#2313;&#x92A;&#2325;&#2352;&#2339;</trd>
+  <trd lng="hmn">cuab tam</trd>
   <trd lng="hr">alat</trd>
+  <trd lng="ht">zouti</trd>
   <trdgrp lng="hu">
     <trd>eszk&ouml;z</trd>,
     <trd>szersz&aacute;m</trd>
   </trdgrp>
-  <trd lng="hy">&#x563;&#x578;&#x580;&#x56E;&#x56B;&#x584;</trd>
+  <trd lng="hy">&#1379;&#1400;&#1408;&#x56E;&#x56B;&#1412;</trd>
   <trdgrp lng="id">
     <trd>alat</trd>,
     <trd>instrumen</trd>
   </trdgrp>
+  <trd lng="ig">ngw&#xE1; &#x1ECD;r&#x1EE5;</trd>
   <trd lng="io">utensilo</trd>
   <trd lng="is">t&#xF3;l</trd>
   <trd lng="ja">&#x30C4;&#x30FC;&#x30EB;</trd>
-  <trd lng="jw">alat</trd>
-  <trd lng="ka">&#x10D8;&#x10DC;&#x10E1;&#x10E2;&#x10E0;&#x10E3;&#x10DB;&#x10D4;&#x10DC;&#x10E2;&#x10D8;</trd>
-  <trd lng="km">&#x17A7;&#x1794;&#x1780;&#x179A;&#x178E;&#x17CD;</trd>
+  <trd lng="jv">alat</trd>
+  <trd
+  lng="ka">&#x10D8;&#x10DC;&#x10E1;&#x10E2;&#x10E0;&#x10E3;&#x10DB;&#x10D4;&#x10DC;&#x10E2;&#x10D8;</trd>
+  <trd lng="kk">&c_a;&c_s;&#x43F;&c_a;&#x43F;</trd>
+  <trd lng="km">&#x17A7;&#6036;&#6016;&#x179A;&#x178E;&#x17CD;</trd>
+  <trd lng="kn">&#xCB8;&#xCBE;&#xCA7;&#xCA8;</trd>
   <trd lng="ko">&#xB3C4;&#xAD6C;</trd>
+  <trd lng="ku">hacet</trd>
+  <trd lng="ky">&#x43A;&c_u;&c_r;&c_a;&#x43B;</trd>
+  <trd lng="lat">ferramentum</trd>
   <trd lng="lo">&#xEC0;&#xE84;&#xEB7;&#xEC8;&#xEAD;&#xE87;&#xEA1;&#xEB7;</trd>
+  <trd lng="lt">priemon&#279;</trd>
+  <trd lng="lv">r&#x12B;ks</trd>
+  <trd lng="mg">fitaovana</trd>
+  <trd lng="mi">taputapu</trd>
+  <trd lng="mk">&c_a;&#x43B;&c_a;&c_t;&#x43A;&c_a;</trd>
   <trd lng="ml">&#xD09;&#xD2A;&#xD15;&#xD30;&#xD23;&#xD02;</trd>
-  <trd lng="mr">&#x938;&#x93E;&#x927;&#x928;</trd>
-  <trd lng="my">&#x1012;&#x102E; tool</trd>
-  <trd lng="ne">&#x909;&#x92A;&#x915;&#x930;&#x923;</trd>
+  <trd lng="mn">&c_a;&c_r;&c_g;&c_a; &c_h;&#x44D;&c_r;&#x44D;&c_g;&c_s;&#x44D;&#x43B;</trd>
+  <trd lng="mr">&#2360;&#x93E;&#2343;&#2344;</trd>
+  <trd lng="ms">alat</trd>
+  <trd lng="mt">g&#295;odda</trd>
+  <trd lng="my">&#4114;&#x102E; tool</trd>
+  <trd lng="ne">&#2313;&#x92A;&#2325;&#2352;&#2339;</trd>
   <trdgrp lng="nl">
     <trd>werktuig</trd>,
     <trd>instrument</trd>,
@@ -194,7 +214,7 @@ Samsignifa radiko:
   </trdgrp>
   <trd lng="ny">chida</trd>
   <trd lng="pa">&#xA38;&#xA70;&#xA26; &#xA39;&#xA48;</trd>
-  <trd lng="ps">&#x648;&#x633;&#x6CC;&#x644;&#x647;</trd>
+  <trd lng="ps">&a_w;&a_s;&#x6CC;&a_l;&a_h;</trd>
   <trdgrp lng="pt">
    <trd>instrumento</trd>,
    <trd>ferramenta</trd>
@@ -205,22 +225,35 @@ Samsignifa radiko:
     <trd>&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_a;&c_p;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
   </trdgrp>
-  <trd lng="sd">&#x627;&#x648;&#x632;&#x627;&#x631;</trd>
+  <trd lng="rw">igikoresho</trd>
+  <trd lng="sd">&a_A;&a_w;&a_z;&a_A;&a_r;</trd>
   <trd lng="si">&#xDB8;&#xDD9;&#xDC0;&#xDBD;&#xDB8;&#xD9A;&#xDCA;</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;stroj</trd>,
     <trd>zaridenie</trd>
   </trdgrp>
+  <trd lng="sl">orodje</trd>
+  <trd lng="sm">mea faig&amacron;luega</trd>
+  <trd lng="sn">turusi</trd>
+  <trd lng="so">aalad</trd>
   <trd lng="sq">mjet</trd>
   <trd lng="st">sesebelisoa</trd>
+  <trd lng="su">alat</trd>
+  <trd lng="sw">chombo</trd>
   <trd lng="ta">&#xB95;&#xBB0;&#xBC1;&#xBB5;&#xBBF;</trd>
   <trd lng="te">&#xC38;&#xC3E;&#xC27;&#xC28;&#xC02;</trd>
+  <trd lng="tg">&c_v;&#x43E;&c_s;&c_i;&c_t;&c_a;&c_i;</trd>
   <trd lng="th">&#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE21;&#xE37;&#xE2D;</trd>
   <trd lng="tl">kasangkapan</trd>
-  <trd lng="tp">ilo</trd>
-  <trd lng="ur">&#x622;&#x644;&#x6D2;</trd>
+  <trd lng="tok">ilo</trd>
+  <trd lng="tt">&#x43A;&#x43E;&c_r;&c_a;&#x43B;</trd>
+  <trd lng="uk">&c_ib;&#x43D;&c_s;&c_t;&c_r;&c_u;&#x43C;&c_je;&#x43D;&c_t;</trd>
+  <trd lng="ur">&a_A_madda;&a_l;&#x6D2;</trd>
+  <trd lng="uz">asbob</trd>
   <trd lng="vi">c&#xF4;ng c&#x1EE5;</trd>
+  <trd lng="xh">isixhobo</trd>
   <trd lng="yi">&#x5D2;&#x5E2;&#x5E6;&#x5D9;&#x5D9;&#x5B7;&#x5D2;</trd>
+  <trd lng="yo">&#x1ECD;pa</trd>
   <trd lng="zu">ithuluzi</trd>
 </drv>
 
@@ -240,6 +273,10 @@ Samsignifa radiko:
       <ref cel="garnit.0o.KOMUNE">garnituro</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_b;&c_o;&c_r; &c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_a;&c_w;</trd>,
+    <trd>&c_ib;&c_n;&c_s;&c_t;&c_r;&c_u;&c_m;&c_e;&c_n;&c_t;&c_a;&c_r;&c_y;&c_j;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>n&aacute;&ccaron;in&iacute;</trd>,
     <trd>n&aacute;&rcaron;ad&iacute;</trd>
@@ -259,11 +296,25 @@ Samsignifa radiko:
     <trd>&c_i;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">n&aacute;radie</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_b;&c_ib;&c_r;&#x43D;. &c_z;&#x43D;&c_a;&c_r;&#x44F;&c_d;&c_d;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&#x43B;&c_a;&c_d;&c_d;&#x44F;</trd>,
+    <trd>&c_ib;&#x43D;&c_s;&c_t;&c_r;&c_u;&#x43C;&c_je;&#x43D;&c_t;&c_i;</trd>,
+    <trd>&c_a;&#x43F;&c_a;&c_r;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>,
+    <trd>&#x43D;&c_a;&c_ch;&c_i;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_r;&c_je;&#x43C;&c_a;&#x43D;&c_je;&#x43D;&c_t; &c_ib; &c_t;.&#x43F;.</trd>
+  </trdgrp>
 </drv>
 </subart>
 </art>
 <!--
 $Log$
+versio 1.102 2022/08/10 08:36:47
+Dmitri Gabinski: + trd be
+
+versio 1.101 2022/04/30 08:42:42
+aktualigo lingvokodoj kaj URL-unuoj
+
 Revision 1.21  2016/11/24 18:10:15  revo
 Robin van der Vliet: +trd
 
@@ -280,8 +331,5 @@ Revision 1.17  2014/02/04 15:10:23  revo
 Damien Brucker: +kap
 
 Revision 1.16  2008/12/21 17:30:20  revo
-J. Pablo Fernandez: Uzi <tld/>
-
-Revision 1.15  2006/09/11 18:41:18  revo
 -->
 </vortaro>

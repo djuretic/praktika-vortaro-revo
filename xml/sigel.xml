@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: sigel.xml,v 1.23 2020/12/23 10:47:52 revo Exp $">
+<art mrk="$Id: sigel.xml,v 1.26 2022/05/05 05:09:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sigel</rad>/i
@@ -79,6 +78,11 @@
       <trd>&c_o;&c_p;&c_je;&c_ch;&c_a;&c_t;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_p;&c_ja;&c_ch;&c_a;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_p;&c_ja;&c_ch;&c_a;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_p;&c_ja;&c_ch;&c_a;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>opat&rcaron;it pe&ccaron;et&iacute;</trd>,
     <trd>pe&ccaron;etit</trd>,
@@ -110,6 +114,15 @@
     <trd>&c_z;&c_a;&c_k;&c_l;&c_je;&c_j;&c_m;&c_i;&c_t;&c_mol;<klr> (&c_p;&c_je;&c_r;&c_je;&c_n;.)</klr></trd>
   </trdgrp>
   <trd lng="sk">zape&ccaron;ati&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x438; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x43A;&#x443;</trd>,
+    <trd>&#x441;&#x43A;&#x440;&#x456;&#x43F;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x43A;&#x43E;&#x44E;</trd>,
+    <trd>&#x437;&#x430;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x438; &#x43A;&#x43B;&#x435;&#x439;&#x43C;&#x43E;</trd>,
+    <trd>&#x43A;&#x43B;&#x435;&#x439;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x438; &#x442;&#x430;&#x432;&#x440;&#x43E;</trd>,
+    <trd>&#x442;&#x430;&#x432;&#x440;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sigel.0o">
@@ -152,12 +165,14 @@
           </fnt>;
         </ekz>
         <ekz>
-          venis al Konstanco nova petletero kun <tld/>oj de 250 &ccirc;e&hcirc;aj nobeloj, ke <nom>Hus</nom> estu
+          venis al Konstanco nova petletero kun <tld/>oj de 250 &ccirc;e&hcirc;aj nobeloj, ke <nom>Hus</nom>
+          estu
           denove liberigita
           <fnt>
             <bib>Monato</bib>
             <aut>Gerrit Berveling</aut>
-            <vrk><url ref="http://steloj.de/esperanto/monato2/007031.html">Katolikismo: Johano Hus &dash; &ccirc;u ne plu herezulo?</url></vrk>
+            <vrk><url ref="&Steloj;monato2/007031.html">Katolikismo: Johano Hus &dash;
+            &ccirc;u ne plu herezulo?</url></vrk>
           </fnt>.
         </ekz>
       </dif>
@@ -230,6 +245,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_ja;&c_ch;&c_a;&c_t;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_ja;&c_ch;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>pe&ccaron;etn&iacute; prsten</trd>,
     <trd>sekret</trd>,
@@ -252,6 +271,11 @@
   </trdgrp>
   <trd lng="ru">&c_p;&c_je;&c_ch;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">pe&ccaron;atn&yacute; prste&ncaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x447;&#x430;&#x442;&#x43A;&#x430;</trd>,
+    <trd>&#x43A;&#x43B;&#x435;&#x439;&#x43C;&#x43E;</trd>,
+    <trd>&#x442;&#x430;&#x432;&#x440;&#x43E; (&#x437;&#x43D;&#x430;&#x43A;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sigel.0ilo">
@@ -285,15 +309,26 @@
     </dif>
   </snc>
   <ref tip="vid" cel="stamp.0ilo">stampilo</ref>
+  <trd lng="be">&c_p;&c_ja;&c_r;&c_s;&c_mol;&c_c;&c_jo;&c_n;&c_a;&c_k; &c_z;&c_mol; &c_p;&c_ja;&c_ch;&c_a;&c_t;&c_k;&c_a;&c_j;</trd>
   <trdgrp lng="de">
     <trd>Siegelstempel</trd>,
     <trd>Siegelring</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x440;&#x441;&#x442;&#x435;&#x43D;&#x44C; &#x437; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x43A;&#x43E;&#x44E;</trd>,
+    <trd>&#x43F;&#x435;&#x447;&#x430;&#x442;&#x43A;&#x430;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.26 2022/05/05 05:09:56
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.24 2021/11/02 06:35:58
+Dmitri Gabinski: + trd be
+
 versio 1.23 2020/12/23 10:47:52
 Wolfram Diestel: ~i kiel unua drv
 
@@ -310,10 +345,5 @@ kompreneble
 Revision 1.18  2018/05/21 13:10:13  revo
 Michel Cantigneaux: sigeli, baza radikvorto laux la tradukoj de l'U.V.
 
-Revision 1.17  2015/09/15 13:10:16  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.16  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
 -->
 </vortaro>

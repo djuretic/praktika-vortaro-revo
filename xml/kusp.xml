@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kusp.xml,v 1.13 2018/10/20 19:10:13 revo Exp $">
+<art mrk="$Id: kusp.xml,v 1.16 2022/04/24 20:40:27 revo Exp $">
 <kap>
   <rad>kusp</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,16 +10,24 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="kusp.0i.KOMUNE">
     <dif>
-      Klini a&ubreve; faldi ion kontra&ubreve; la natura direkto:
+      <ref tip="super" cel="klin.0i.MOV">Klini</ref> a&ubreve; <ref tip="super" cel="fald.0i">faldi</ref> 
+      ion kontra&ubreve; la natura direkto:
       <ekz>
         <tld/>i la harojn de kato, la randojn de &ccirc;apelo, sian
         pantalonon;
       </ekz>
       <ekz>
-        la malvarmo <tld/>as la foliojn;
+        mi vagis tien kaj reen sur la ferdeko, kun <tld/>ita kolumo kaj la manoj enpo&scirc;e
+        <fnt>
+          <bib>Kiso</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        brosi <tld/>e &ccirc;apelon, veluron;
+        <nom>Kasem</nom> <tld/>is la manikojn, malfermis tenajlon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 3 (101)</lok>
+        </fnt>;
       </ekz>
       <ekz>
         &scirc;i ofte surhavis jakon strikte zonitan,
@@ -31,7 +38,9 @@
     <ref tip="vid" cel="tauxz.0i.malordige">ta&ubreve;zi<sncref/></ref>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_z;&c_g;&c_ib;&c_n;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_u; &c_a;&c_d;&c_v;&c_a;&c_r;&c_o;&c_t;&c_n;&c_y;&c_m; &c_n;&c_a;&c_p;&c_r;&c_a;&c_m;&c_k;&c_u;)</klr></trd>,
+    <trd>&c_z;&c_g;&c_ib;&c_n;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_u;
+    &c_a;&c_d;&c_v;&c_a;&c_r;&c_o;&c_t;&c_n;&c_y;&c_m;
+    &c_n;&c_a;&c_p;&c_r;&c_a;&c_m;&c_k;&c_u;)</klr></trd>,
     <trd>&c_z;&c_a;&c_k;&c_a;&c_s;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="cs">
@@ -41,10 +50,16 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>knicken</trd>,
-    <trd>krempeln</trd>,
     <trd>aufkrempeln</trd>,
+    <trd>zur&uuml;ckschlagen</trd>,
     <trd>aufschlagen</trd>,
     <trd>umschlagen</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>curl back</trd>,
+    <trd>turn up</trd>,
+    <trd>to brush against the grain</trd>,
+    <trd>roll up</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>aller &agrave; <ind>rebrousse-poil</ind></trd>,
@@ -68,12 +83,31 @@
     <trd>de&#537;ira</trd>,
     <trd>&icirc;nf&abreve;&#537;ura</trd>
   </trdgrp>   
-  <trd lng="ru">&c_s;&c_g;&c_i;&c_b;&c_a;&c_t;&c_mol; &c_v; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_o;&c_m; &c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_i;</trd>
+  <trd lng="ru">&c_s;&c_g;&c_i;&c_b;&c_a;&c_t;&c_mol; &c_v; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_o;&c_m;
+  &c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_i;</trd>
   <trdgrp lng="sk">
     <trd>1.hladi&tcaron;</trd>,
     <trd>kefova&tcaron; protismerne; 2.vyhrn&uacute;&tcaron; <klr>(nohavice,
     golier)</klr></trd>,
     <trd>&ccaron;esa&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_a;&c_s;&c_u;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>(&c_p;&c_o;)&c_z;&c_a;&c_k;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_k;&c_o;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_k;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_r;&c_u;&c_k;&c_a;&c_v;</trd>,
+    <trd>&c_sh;&c_t;&c_a;&c_n;&c_i;&c_n;&c_u;)</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_g;&c_o;&c_r;&c_t;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_v;&c_je;&c_r;&c_t;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_s;&c_m;&c_i;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_p;&c_o;&c_d;&c_ib;&c_l;</trd>,
+    <trd>&c_p;&c_o;&c_l;&c_u; &c_ib; &c_t;.&c_p;.)</trd>,
+    <trd>&c_g;&c_l;&c_a;&c_d;&c_i;&c_t;&c_i; &c_p;&c_r;&c_o;&c_t;&c_i; &c_sh;&c_je;&c_r;&c_s;&c_t;&c_ib;</trd>,
+    <trd>&c_k;&c_u;&c_j;&c_o;&c_v;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_k;&c_o;&c_sh;&c_l;&c_a;&c_t;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_ch;&c_ib;&c_s;&c_u;&c_v;&c_a;&c_t;&c_i; &c_d;&c_o;&c_g;&c_o;&c_r;&c_i;</trd>,
+    <trd>&c_ch;&c_i;&c_s;&c_t;&c_i;&c_t;&c_i; (&c_shch;&c_ib;&c_t;&c_k;&c_o;&c_ju;) &c_p;&c_r;&c_o;&c_t;&c_i; &c_sh;&c_je;&c_r;&c_s;&c_t;&c_ib;</trd>,
+    <trd>&c_v;&c_o;&c_r;&c_s;&c_u;</trd>
   </trdgrp>
 </drv>
 
@@ -94,6 +128,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">gl&auml;tten</trd>
   <trd lng="fr">d&eacute;froisser</trd>
   <trd lng="pl">wyg&lstroke;adza&cacute;</trd>     
   <trd lng="ro">neted </trd>
@@ -101,6 +136,12 @@
 </art>
 <!--
 $Log$
+versio 1.16 2022/04/24 20:40:27
+Noam Mohr: +trd en kuspi
+
+versio 1.14 2021/12/28 09:30:00
+Wolfram Diestel: +ekz-oj, ref, trd de
+
 Revision 1.12  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -117,8 +158,5 @@ Revision 1.8  2004/03/30 16:33:05  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7  2002/12/03 19:54:11  revo
-Jeromo Vasxe: + 1 ekz, + trd fr
-
-Revision 1.6 2002/02/23 19:56:48 revo
 -->
 </vortaro>

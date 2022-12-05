@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gramat.xml,v 1.41 2021/05/28 12:15:00 revo Exp $">
+<art mrk="$Id: gramat.xml,v 1.45 2022/04/30 08:42:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gramatik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -39,6 +39,8 @@
        <ref cel="modal.0o.GRA_modo">modalo</ref>,
        <ref cel="liter.0o.propra">litero</ref>,
        <ref cel="predik2.0o">predikativo</ref>,
+       <ref cel="apozic.0o">apozicio</ref>,
+       <ref cel="nominac.0o">nominacio</ref>,
        <ref cel="artiko.0o.GRA">artikolo</ref>,
        <ref cel="verb.0o">verbo</ref>,
        <ref cel="substa1.0o">substantivo</ref>,
@@ -76,7 +78,7 @@
         a&ccirc;eti latinan <tld/>on.
       </ekz>
     </dif>
-    <url ref="http://www.steloj.de/esperanto/fundamento/">La Fundamento
+    <url ref="&Steloj;fundamento/">La Fundamento
     de Esperanto</url>
     <url ref="http://www.bertilow.com/pmeg/">Plena Manlibro de Esperanta
     Gramatiko</url>
@@ -104,6 +106,10 @@
   <trd lng="sk">gramatika</trd>
   <trd lng="sv">grammatik</trd>
   <trd lng="tr">dilbilgisi</trd>
+  <trdgrp lng="uk">
+    <trd>&#x456;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x447;&#x43D;&#x430;</trd>,
+    <trd>&#x43F;&#x43E;&#x440;&#x456;&#x432;&#x43D;&#x44F;&#x43B;&#x44C;&#x43D;&#x430;/&#x437;&#x456;&#x441;&#x442;&#x430;&#x432;&#x43D;&#x430;&#xA0;&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x43A;&#x430;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gramat.0a">
@@ -141,6 +147,7 @@
     <trd>gram&aacute;tico<klr tip="ind"> (adj.)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="uk">&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="gramat.0ilo">
@@ -189,6 +196,7 @@
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;</trd>
   <trd lng="sk">gramatik&aacute;r</trd>
+  <trd lng="uk">&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x441;&#x442;</trd>
 </drv>
 
 <drv mrk="gramat.dependo0o">
@@ -204,7 +212,7 @@
         la iniciatintoj de dependo<tld/>oj 
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Lucien_Tesni%C3%A8re">
+          <lok><url ref="&Viki;/Lucien_Tesni%C3%A8re">
           Lucien Tesni&egrave;re</url>, 2010-11-09</lok>
         </fnt>.
       </ekz>
@@ -305,6 +313,10 @@
     </refgrp>
   </snc>
   <trd lng="fr">agrammatical</trd>
+  <trdgrp lng="uk">
+    <trd>&#x44F;&#x43A;&#x438;&#x439; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454;</trd>,
+    <trd>&#x441;&#x443;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x438;&#x442;&#x44C; &#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x446;&#x456;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gramat.laux0a">
@@ -330,7 +342,9 @@
       <ref cel="gramat.kontraux0a.LIN">kontra&ubreve;gramatika</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a; &c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="fr">grammatical<klr> (correct)</klr></trd>
+  <trd lng="uk">&#x44F;&#x43A;&#x438;&#x439; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454; &#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x446;&#x456;</trd>
 </drv>
 
 <drv mrk="gramat.preskriba0o">
@@ -421,7 +435,7 @@
         generisma skolo de lingvoscienco
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Vortgrupaj_gramatikoj">
+          <lok><url ref="&Viki;/Vortgrupaj_gramatikoj">
           Vortgrupaj gramatikoj</url>, 2006-07-07</lok>
         </fnt>.
       </ekz>
@@ -433,6 +447,15 @@
 </art>
 <!--
 $Log$
+versio 1.45 2022/04/30 08:42:40
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.43 2021/11/10 08:35:13
+Dmitri Gabinski: + trd be
+
+versio 1.42 2021/11/05 12:46:12
+Damien Brucker: +ref en ~o
+
 Revision 1.39  2017/12/23 23:10:19  revo
 Wolfram Diestel: kor. mrk
 
@@ -445,12 +468,6 @@ Wolfram Diestel: korektis ligon al PMEG, +ekz-oj ~a
 Revision 1.36  2016/02/20 11:10:21  revo
 Wolfram Diestel: du referencoj al gramatikaj verkoj, forigis tro longan,
 enciklopedian rimarkon
-
-Revision 1.35  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.34  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
 
 -->
 </vortaro>

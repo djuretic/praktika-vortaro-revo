@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: diagra.xml,v 1.61 2021/06/18 20:41:30 revo Exp $">
+<art mrk="$Id: diagra.xml,v 1.91 2022/04/26 17:11:48 revo Exp $">
 <kap>
   <rad>diagram</rad>/o
 </kap>
@@ -21,7 +21,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hektor Alos I Font</aut>
-          <vrk><url ref="https://www.monato.be/2003/008062.html">Spektantoj spektataj</url></vrk>
+          <vrk><url ref="&Monato;/2003/008062.html">Spektantoj spektataj</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -30,7 +30,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="https://www.monato.be/2008/009505.php">Kreditkrizo da&ubreve;ras</url></vrk>
+          <vrk><url ref="&Monato;/2008/009505.php">Kreditkrizo da&ubreve;ras</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -54,7 +54,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Werner Fu&szlig;</aut>
-          <vrk><url ref="https://www.monato.be/2011/010272.php">Nekontentiga progreso en
+          <vrk><url ref="&Monato;/2011/010272.php">Nekontentiga progreso en
           klimatopolitiko</url></vrk>
           <lok>2011</lok>
         </fnt>.
@@ -84,6 +84,7 @@
     <trd>diagram</trd>,
     <trd>n&aacute;kres</trd>
   </trdgrp>
+  <trd lng="cy">siart</trd>
   <trd lng="da">diagram</trd>
   <trdgrp lng="de">
     <trd>Schaubild</trd>,
@@ -100,23 +101,39 @@
   <trd lng="eu">taula</trd>
   <trd lng="fr">diagramme</trd>
   <trd lng="fy">chart</trd>
+  <trd lng="ga">chairt</trd>
   <trd lng="gl">gr&#xE1;fico</trd>
   <trd lng="gu">&#xA9A;&#xABE;&#xAB0;&#xACD;&#xA9F;</trd>
   <trd lng="ha">ginshi&#x199;i</trd>
   <trd lng="he">&#x5EA;&#x5E8;&#x5E9;&#x5D9;&#x5DD;</trd>
   <trd lng="hi">&#x91A;&#x93E;&#x930;&#x94D;&#x91F;</trd>
+  <trd lng="hmn">daim ntawv</trd>
   <trd lng="hr">grafikon</trd>
+  <trd lng="ht">tablo</trd>
   <trd lng="hu">diagram</trd>
   <trd lng="hy">&#x561;&#x572;&#x575;&#x578;&#x582;&#x57D;&#x561;&#x56F;&#x568;</trd>
   <trd lng="is">mynd</trd>
   <trd lng="ja">&#x30C1;&#x30E3;&#x30FC;&#x30C8;</trd>
-  <trd lng="jw">grafik</trd>
+  <trd lng="jv">grafik</trd>
   <trd lng="ka">&#x10D2;&#x10E0;&#x10D0;&#x10E4;&#x10D8;&#x10D9;&#x10D8;</trd>
+  <trd lng="kk">&#x43A;&#x435;&#x441;&#x442;&#x435;</trd>
   <trd lng="km">&#x178F;&#x17B6;&#x179A;&#x17B6;&#x1784;</trd>
+  <trd lng="kn">&#xC9A;&#xCBE;&#xCB0;&#xCCD;&#xC9F;&#xCCD;</trd>
   <trd lng="ko">&#xCC28;&#xD2B8;</trd>
+  <trd lng="ku">qebale</trd>
+  <trd lng="ky">&#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430;</trd>
+  <trd lng="lat">cursus</trd>
   <trd lng="lo">&#xE95;&#xEB2;&#xE95;&#xEB0;&#xEA5;&#xEB2;&#xE87;</trd>
+  <trd lng="lt">schema</trd>
+  <trd lng="lv">diagramma</trd>
+  <trd lng="mg">tabilao</trd>
+  <trd lng="mi">t&#x16B;tohi</trd>
+  <trd lng="mk">&#x448;&#x435;&#x43C;&#x430;</trd>
   <trd lng="ml">&#xD1A;&#xD3E;&#xD7C;&#xD1F;&#xD4D;&#xD1F;&#xD4D;</trd>
+  <trd lng="mn">&#x437;&#x443;&#x440;&#x430;&#x433;</trd>
   <trd lng="mr">&#x91A;&#x93E;&#x930;&#x94D;&#x91F;</trd>
+  <trd lng="ms">carta</trd>
+  <trd lng="mt">grafika</trd>
   <trd lng="my">&#x1007;&#x101A;&#x102C;&#x1038;</trd>
   <trd lng="ne">&#x91A;&#x93E;&#x930;&#x94D;&#x91F;</trd>
   <trd lng="ny">tchati</trd>
@@ -128,26 +145,41 @@
   <trd lng="ps">&#x686;&#x627;&#x631;&#x62A;</trd>
   <trd lng="pt">diagrama</trd>
   <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;</trd>
+  <trd lng="rw">imbonerahamwe</trd>
   <trd lng="sd">&#x686;&#x627;&#x631;&#x67D;</trd>
   <trd lng="si">&#xDC3;&#xDA7;&#xDC4;&#xDB1;</trd>
   <trdgrp lng="sk">
     <trd>diagram</trd>,
     <trd>n&aacute;kres</trd>
   </trdgrp>
+  <trd lng="sl">grafikon</trd>
+  <trd lng="sm">siata</trd>
+  <trd lng="sn">chati</trd>
+  <trd lng="so">shaxda</trd>
   <trd lng="sq">tabel&#xEB;</trd>
   <trd lng="st">chate</trd>
+  <trd lng="su">grapik</trd>
+  <trd lng="sw">chati</trd>
   <trd lng="ta">&#xBB5;&#xBBF;&#xBB3;&#xB95;&#xBCD;&#xB95;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBAE;&#xBCD;</trd>
   <trd lng="te">&#xC1A;&#xC3E;&#xC30;&#xC4D;&#xC1F;&#xC4D;</trd>
+  <trd lng="tg">&#x414;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430;&#x438;</trd>
   <trd lng="th">&#xE41;&#xE1C;&#xE19;&#xE20;&#xE39;&#xE21;&#xE34;</trd>
   <trd lng="tl">tsart</trd>
+  <trd lng="tt">&#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430;</trd>
+  <trd lng="uk">&#x434;&#x456;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x430;</trd>
   <trd lng="ur">&#x686;&#x627;&#x631;&#x679;</trd>
+  <trd lng="uz">sxema</trd>
   <trd lng="vi">bi&#x1EC3;u &#x111;&#x1ED3;</trd>
+  <trd lng="xh">itshathi</trd>
   <trd lng="yi">&#x5D8;&#x5E9;&#x5D0;&#x5B7;&#x5E8;&#x5D8;</trd>
   <trd lng="zu">ishadi</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.91 2022/04/26 17:11:48
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.20 2021/05/29 08:14:40
 Wolfram Diestel: -tajperaro
 
@@ -167,8 +199,5 @@ Revision 1.12  2007/07/24 19:11:38  revo
 Tulio Flores: +tr pt
 
 Revision 1.11  2003/12/13 17:32:33  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/09/28 16:38:11  revo
 -->
 </vortaro>

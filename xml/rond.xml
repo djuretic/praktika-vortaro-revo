@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rond.xml,v 1.77 2021/06/18 18:20:08 revo Exp $">
+<art mrk="$Id: rond.xml,v 1.115 2022/05/04 19:19:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rond</rad>/o
@@ -81,7 +81,7 @@
         karusel' <klr>[&#x2026;]</klr> centrifuga <tld/>o
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
+          <vrk><url ref="&Steloj;butiko">La Stranga
           Butiko</url></vrk>
         </fnt>;
       </ekz>
@@ -124,7 +124,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Guido Van Damme</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006958.html">Psiko sen
+          <vrk><url ref="&Steloj;monato2/006958.html">Psiko sen
           karno</url></vrk>
         </fnt>;
       </ekz>
@@ -242,7 +242,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007031.html">Katolikismo:
+          <vrk><url ref="&Steloj;monato2/007031.html">Katolikismo:
            Johano Hus &#x2010; &ccirc;u ne plu herezulo?</url></vrk>
         </fnt>.
       </ekz>
@@ -255,6 +255,10 @@
       <trd>k&oacute;&lstroke;ko</trd>,
       <trd>kr&aogonek;g</trd>
     </trdgrp>
+    <trdgrp lng="th">
+      <trd>&#xE27;&#xE07;&#xE01;&#xE32;&#xE23;</trd>,
+      <trd>&#xE01;&#xE25;&#xE38;&#xE48;&#xE21;&#xE04;&#xE19;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="rond.0o.rundo">
     <dif>
@@ -265,7 +269,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Istv&aacute;n Ertl</aut>
-          <vrk><url ref="https://www.monato.be/2003/007869.html">Vo&ccirc;o de
+          <vrk><url ref="&Monato;/2003/007869.html">Vo&ccirc;o de
           vo&ccirc;donantoj</url></vrk>
         </fnt>;
       </ekz>
@@ -309,6 +313,14 @@
     <trd>kruhov&yacute; tvar</trd>,
     <trd>okruh</trd>,
     <trd>zdru&zcaron;enie</trd>
+  </trdgrp>
+<trd lng="th">&#xE27;&#xE07;&#xE01;&#xE25;&#xE21;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&#x43B;&#x43E;</trd>,
+    <trd>&#x43A;&#x440;&#x443;&#x433;</trd>,
+    <trd>&#x43A;&#x440;&#x443;&#x433;&#x43B;&#x438;&#x439; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;</trd>,
+    <trd>&#x43E;&#x442;&#x43E;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x441;&#x435;&#x440;&#x435;&#x434;&#x43E;&#x432;&#x438;&#x449;&#x435;</trd>
   </trdgrp>
 </drv>
 
@@ -389,6 +401,10 @@
     </trdgrp>
     <trd lng="pl">okr&aogonek;g&lstroke;y</trd>
     <trd lng="ru">&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_j;</trd>
+    <trdgrp lng="th">
+      <trd>&#xE17;&#xE23;&#xE07;&#xE01;&#xE25;&#xE21;</trd>,
+      <trd>&#xE01;&#xE25;&#xE21;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="rond.0a.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -408,57 +424,91 @@
   </snc>
   <trd lng="af">ronde</trd>
   <trd lng="am">&#x12AD;&#x1265;</trd>
-  <trd lng="ar">&#x62C;&#x648;&#x644;&#x629;</trd>
+  <trd lng="ar">&a_j;&a_w;&a_l;&a_t_marbuta;</trd>
   <trd lng="az">d&#x259;yirmi</trd>
+  <trd lng="be">&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;</trd>
   <trd lng="bn">&#x9AC;&#x9C3;&#x9A4;&#x9CD;&#x9A4;&#x9BE;&#x995;&#x9BE;&#x9B0;</trd>
-  <trd lng="bo">&#xF66;&#xF92;&#xF7C;&#xF62;&#xF0B;&#xF66;&#xF92;&#xF7C;&#xF62;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_gata;&t_naro;&t_ra;&t_tsheg;&t_sa;&t_gata;&t_naro;&t_ra;&t_tsheg;</trd>
   <trd lng="bs">okrugli</trd>
   <trd lng="co">intornu</trd>
   <trdgrp lng="cs">
     <trd>kruhov&yacute;</trd>,
     <trd>okrouhl&yacute;</trd>
   </trdgrp>
+  <trd lng="cy">rownd</trd>
   <trd lng="da">runde</trd>
   <trd lng="de">rund</trd>
   <trd lng="et">ringi</trd>
   <trd lng="eu">txandan</trd>
   <trd lng="fr">rond<klr tip="ind"> (adj.)</klr></trd>
-  <trd lng="fy">r&#xFB;n</trd>
+  <trd lng="fy">r&ucirc;n</trd>
+  <trd lng="ga">bhabhta</trd>
+  <trd lng="gd">timcheall</trd>
   <trd lng="gl">rolda</trd>
   <trd lng="gu">&#xAB0;&#xABE;&#xA89;&#xAA8;&#xACD;&#xAA1;</trd>
   <trd lng="ha">zagaye</trd>
   <trd lng="hi">&#x926;&#x94C;&#x930;</trd>
+  <trd lng="hmn">puag ncig</trd>
   <trd lng="hr">okrugli</trd>
+  <trd lng="ht">wonn</trd>
   <trd lng="hy">&#x56F;&#x56C;&#x578;&#x580;</trd>
+  <trd lng="ig">gburugburu</trd>
   <trd lng="is">umfer&#xF0;</trd>
   <trd lng="ja">&#x30E9;&#x30A6;&#x30F3;&#x30C9;</trd>
-  <trd lng="jw">babak</trd>
+  <trd lng="jv">babak</trd>
   <trd lng="ka">&#x10E0;&#x10D0;&#x10E3;&#x10DC;&#x10D3;&#x10D8;</trd>
+  <trd lng="kk">&c_d;&#x4E9;&#x4A3;&c_g;&c_je;&c_l;&c_je;&c_k;</trd>
   <trd lng="km">&#x1787;&#x17BB;&#x17C6;</trd>
+  <trd lng="kn">&#xCB8;&#xCC1;&#xCA4;&#xCCD;&#xCA4;&#xCBF;&#xCA8;&#xCB2;&#xCCD;&#xCB2;&#xCBF;</trd>
   <trd lng="ko">&#xB465;&#xADFC;</trd>
+  <trd lng="ku">girrover</trd>
+  <trd lng="ky">&c_t;&c_je;&c_g;&c_je;&c_r;&c_je;&c_k;</trd>
+  <trd lng="lat">per</trd>
   <trd lng="lo">&#xEC4;&#xE94;&#xEC9;&#xE95;&#xEB0;&#xEAB;&#xEBC;&#xEAD;&#xE94;</trd>
+  <trd lng="lt">turas</trd>
+  <trd lng="lv">k&amacron;rta</trd>
+  <trd lng="mg">manodidina</trd>
+  <trd lng="mi">tawhio</trd>
+  <trd lng="mk">&c_k;&c_r;&c_u;&c_g;</trd>
   <trd lng="ml">&#xD1A;&#xD41;&#xD31;&#xD4D;&#xD31;&#xD41;&#xD02;</trd>
+  <trd lng="mn">&c_d;&c_u;&c_g;&c_u;&c_j;</trd>
   <trd lng="mr">&#x917;&#x94B;&#x932;</trd>
+  <trd lng="ms">pusingan</trd>
+  <trd lng="mt">rawnd</trd>
   <trd lng="my">&#x101C;&#x103E;&#x100A;&#x1037;&#x103A;&#x101C;&#x100A;&#x103A;</trd>
   <trd lng="ne">&#x917;&#x94B;&#x932;</trd>
   <trd lng="ny">wozungulira</trd>
   <trd lng="pa">&#xA26;&#xA4C;&#xA30;</trd>
   <trd lng="pl">okr&aogonek;g&lstroke;y</trd>
-  <trd lng="ps">&#x67E;&#x693;&#x627;&#x648;</trd>
-  <trd lng="sd">&#x644;&#x6A9;&#x64A;&#x646;</trd>
+  <trd lng="ps">&f_p;&#x693;&a_A;&a_w;</trd>
+  <trd lng="rw">kuzenguruka</trd>
+  <trd lng="sd">&a_l;&f_k;&a_y;&a_n;</trd>
   <trd lng="si">&#xDC0;&#xDA7;&#xDBA;&#xDDA;</trd>
   <trdgrp lng="sk">
     <trd>kruhovit&yacute;</trd>,
     <trd>okr&uacute;hly</trd>
   </trdgrp>
+  <trd lng="sl">krog</trd>
+  <trd lng="sm">faataamilo</trd>
+  <trd lng="sn">denderedzwa</trd>
+  <trd lng="so">wareega</trd>
   <trd lng="sq">rreth</trd>
+  <trd lng="st">pota</trd>
+  <trd lng="su">buleud</trd>
+  <trd lng="sw">pande zote</trd>
   <trd lng="ta">&#xB9A;&#xBC1;&#xBB1;&#xBCD;&#xBB1;&#xBC1;</trd>
   <trd lng="te">&#xC30;&#xC4C;&#xC02;&#xC21;&#xC4D;</trd>
-  <trd lng="th">&#xE23;&#xE2D;&#xE1A;</trd>
+  <trd lng="tg">&c_g;&c_i;&c_r;&c_d;</trd>
+  
   <trd lng="tl">pag-ikot</trd>
-  <trd lng="ur">&#x6AF;&#x648;&#x644;</trd>
+  <trd lng="tt">&c_t;&#x4AF;&c_g;&#x4D9;&c_r;&#x4D9;&c_k;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_u;&c_g;&c_l;&c_i;&c_j;</trd>
+  <trd lng="ur">&f_g;&a_w;&a_l;</trd>
+  <trd lng="uz">dumaloq</trd>
   <trd lng="vi">chung quanh</trd>
-  <trd lng="yi">&#x5E7;&#x5D9;&#x5D9;&#x5B7;&#x5DC;&#x5E2;&#x5DB;&#x5D9;&#x5E7;</trd>
+  <trd lng="xh">ngqukuva</trd>
+  <trd lng="yi">&qof;&yod;&yod;&#x5B7;&lamed;&ayin;&kaf;&yod;&qof;</trd>
+  <trd lng="yo">yika</trd>
   <trd lng="zu">nxazonke</trd>
 </drv>
 
@@ -498,7 +548,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006813.html">Sa&gcirc;a kapo
+          <vrk><url ref="&Steloj;monato2/006813.html">Sa&gcirc;a kapo
           duonvorton komprenas</url></vrk>
         </fnt>.
       </ekz>
@@ -553,6 +603,10 @@
     <trd>&c_o;&c_k;&c_r;&c_u;&c_g;&c_l;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">zagu&lcaron;acova&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x43A;&#x440;&#x443;&#x433;&#x43B;&#x44F;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x430;&#x43E;&#x43A;&#x440;&#x443;&#x433;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rond.trafik0o">
@@ -571,6 +625,7 @@
       <ref cel="kruc.voj0igxo.TRA">vojkruci&gcirc;o</ref>,
       <ref cel="nod.voj0o.TRA">vojnodo</ref>
     </refgrp>
+    <trd lng="th">&#xE27;&#xE07;&#xE40;&#xE27;&#xE35;&#xE22;&#xE19;</trd>
   </snc>
   <trd lng="be">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;&c_v;&c_a;&c_je; <ind>&c_s;&c_k;&c_r;&c_y;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
   <trd lng="da">rundk&oslash;rsel</trd>
@@ -620,13 +675,26 @@
       <ref cel="cirkl.trafik0eto.TRA">trafikcirkleto</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;&c_v;&c_a;&c_je; &c_s;&c_k;&c_r;&c_y;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="fr">rond-point</trd>
   <trd lng="pl">rondo</trd>
   <trd lng="pt">minirrotat&oacute;ria</trd>
 </drv>
 </art>
 <!--
-$Log: rond.xml,v $
+$Log$
+versio 1.115 2022/05/04 19:19:16
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.113 2021/12/15 15:41:16
+Warut Bunprasert: red th
+
+versio 1.112 2021/12/14 17:41:16
+Warut Bunprasert: red th
+
+versio 1.111 2021/12/01 07:28:20
+Dmitri Gabinski: + trd be
+
 versio 1.34 2020/02/16 00:10:52
 Wolfram Diestel: formuloj per am
 
@@ -637,17 +705,5 @@ Revision 1.32  2019/06/30 07:43:29  revo
 adaptis URL de Monato
 
 Revision 1.31  2018/04/18 19:10:14  revo
-Wolfram Diestel: +snc fermita vojo, ~igi: ekz-oj
-
-Revision 1.30  2018/04/12 19:10:14  revo
-Wolfram Diestel: ~a: ekz-oj
-
-Revision 1.29  2018/04/11 20:10:15  revo
-Wolfram Diestel: ~o: +snc ciklo, snc rundo; ekz-oj
-
-Revision 1.28  2016/12/04 18:10:16  revo
-Wolfram Diestel: ekz-oj, lst formoj
-
-Revision 1.27  2015/07/04 08:37:42  revo
 -->
 </vortaro>

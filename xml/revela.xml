@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: revela.xml,v 1.17 2017/12/21 17:10:39 revo Exp $">
+<art mrk="$Id: revela.xml,v 1.21 2022/11/08 22:33:33 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>revelaci</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,7 +11,8 @@
   <snc mrk="revela.0o.REL">
   <uzo tip="fak">REL</uzo>
     <dif>
-      Inspiro, per kiu Dio sciigas al homo pri siaj misteroj a&ubreve; voloj:
+      <ref tip="super" cel="inspir.0o">Inspiro</ref>, per kiu Dio sciigas al homo pri siaj misteroj
+      a&ubreve; voloj:
       <ekz>
         anta&ubreve; vi Ni sendis nur virojn,
         al kiuj Ni donis la <tld/>on
@@ -20,6 +20,44 @@
           <aut>trad. I. Chiussi</aut>,
           <vrk>La Nobla Korano</vrk>,
           <lok>1970</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sub tiuj vortoj de la vero li fermadis la okulojn, la dormo venadis kaj venadis
+        la son&gcirc;o, la spirita <tld/>o en Dio
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Ccirc;e la plej ekstrema maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi kredas je neniu el la ekzistantaj <tld/>aj religioj, mi ne devas resti en iu
+        el ili
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="revela.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Emocia, inspira <ref cel="rivel.0i">rivelo</ref>:
+      <ekz>
+        restis nur intensa sento de io subtila kaj delikate bela, kio anta&ubreve;e ne ekzistis
+        por li, kaj kio nun kvaza&ubreve; <tld/>e aperis al li
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniam anta&ubreve;e li vidis knabinon, tiel altaniman, tiel nature virtan,
+        <klr>[&#8230;]</klr> &scirc;i estis por li <tld/>o, okulmalfermo
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro IX</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -37,9 +75,19 @@
   <trd lng="fr">r&eacute;v&eacute;lation</trd>
   <trd lng="hu">kinyilatkoztat&aacute;s</trd>
   <trd lng="nl">openbaring</trd>
+  <trdgrp lng="pl">
+    <trd>rewelacja</trd>,
+    <trd>objawienie</trd>,
+    <trd>odkrycie</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>revela&#539;ie</trd>,
+    <trd>descoperire</trd>
+  </trdgrp>
   <trd lng="pt">revela&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_o;&c_t;&c_k;&c_r;&c_o;&c_v;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">zjavenie</trd>
+  <trd lng="uk">&#x43E;&c_d;&#x43A;&c_r;&#x43E;&c_v;&c_je;&#x43D;&#x43D;&#x44F;</trd>
 </drv>
 
 <drv mrk="revela.0i">
@@ -49,12 +97,13 @@
     <dif>
       <ref tip="sin" cel="rivel.0i">Riveli</ref>, malka&scirc;i per <tld/>o:
       <ekz>
-        ankora&ubreve; ne estis <tld/>ita al <klr>[Samuel]</klr>
+        ankora&ubreve; ne estis <tld/>ita al <klr>[<nom>Samuel</nom>]</klr>
         la vorto de la Eternulo
         <fnt><bib>MT</bib>, <lok>&Sa1; 3:7</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_d;&c_k;&c_r;&c_y;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_p;&c_r;&c_a;&c_w;&c_d;&c_u;, &c_v;&c_je;&c_d;&c_y;)</klr></trd>
   <trd lng="ca">revelar</trd>
   <trdgrp lng="cs">
     <trd>odhalit</trd>,
@@ -64,11 +113,30 @@
   <trd lng="fr">r&eacute;v&eacute;ler</trd>
   <trd lng="hu">kinyilatkoztat</trd>
   <trd lng="nl">openbaren</trd>
+  <trdgrp lng="pl">
+    <trd>objawia&cacute;</trd>,
+    <trd>ujawnia&cacute;</trd>,
+    <trd>odkrywa&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>manifesta</trd>,
+    <trd>descoperi</trd>
+  </trdgrp>
   <trd lng="sk">zjavi&tcaron;</trd>
+  <trd lng="uk">&#x43E;&c_b;&#8217;&#x44F;&c_v;&#x43B;&#x44F;&c_t;&c_i;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2022/11/08 22:33:33
+Vito Redsky: +trd pl + trd ro
+
+versio 1.20 2022/04/27 07:31:08
+Dmitri Gabinski: + trd be
+
+versio 1.18 2022/03/07 16:44:23
+Wolfram Diestel: +snc FIG, ekz-oj
+
 Revision 1.16  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -82,11 +150,5 @@ Revision 1.13  2014/03/24 17:10:33  revo
 Damien Brucker: +trd fr
 
 Revision 1.12  2012/01/02 10:10:24  revo
-Marc Rausell: ++ trd ca
-
-Revision 1.11  2006/02/20 17:34:03  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2005/04/10 16:34:06  revo
 -->
 </vortaro>

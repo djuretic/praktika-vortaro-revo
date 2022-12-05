@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: asperg.xml,v 1.20 2021/03/04 17:56:54 revo Exp $">
+<art mrk="$Id: asperg.xml,v 1.23 2022/10/27 10:36:53 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>asperg</rad>/i
@@ -27,7 +27,7 @@
       </ekz>
       <ekz>
         la pastro trempos sian dekstran fingron en la oleo
-        <klr>[&#x2026;]</klr> kaj li
+        <klr>[&#8230;]</klr> kaj li
         <tld/>os per la oleo de sia fingro sep fojojn anta&ubreve; la Eternulo
         <fnt>
           <bib>MT</bib>
@@ -119,13 +119,19 @@
     <trd>bespr&uuml;hen</trd>,
     <trd>bespr&auml;nkeln</trd>
   </trdgrp>
-  <trd lng="he">&#x5DC;&#x5D8;&#x5E4;&#x5D8;&#x5E3; (&#x5D1;&#x5D0;&#x5D9;&#x5E8;&#x5D5;&#x5E2; &#x5D3;&#x5EA;&#x5D9;)</trd>
+  <trd lng="he">&#x5DC;&#x5D8;&#x5E4;&#x5D8;&#x5E3; (&#x5D1;&#x5D0;&#x5D9;&#x5E8;&#x5D5;&#x5E2;
+  &#x5D3;&#x5EA;&#x5D9;)</trd>
   <trdgrp lng="sk">
     <trd>kropi&tcaron;</trd>,
     <trd>pof&racute;ka&tcaron;</trd>,
     <trd>postrekova&tcaron;</trd>
   </trdgrp>
   <trd lng="th">&#xE1E;&#xE23;&#xE21;&#xE19;&#xE49;&#xE33;&#xE21;&#xE19;&#xE15;&#xE23;&#xE4C;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_r;&#x43E;&#x43F;&c_i;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&c_b;&#x43F;&c_r;&c_i;&c_s;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_b;&c_r;&c_i;&c_z;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="asperg.0o">
@@ -149,13 +155,17 @@
         <fnt>
           <bib>Monato</bib>
           <aut>G&eacute;rard Mansel</aut>
-          <vrk><url ref="https://www.monato.be/2014/011366.php">&Ccirc;arma
+          <vrk><url ref="&Monato;/2014/011366.php">&Ccirc;arma
           insulo en Pacifiko</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_k;&c_r;&c_a;&c_p;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_a;&c_p;&c_y;&c_r;&c_s;&c_k;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
 <trd lng="de">Weihe</trd>
 </drv>
 
@@ -165,9 +175,10 @@
     <dif>
       Ilo por <ref cel="asperg.0i.REL">aspergi<sncref/></ref>:
       <ekz>
-        la misiisto, <tld/>ilo enmane, benis la <klr>[&#x2026;]</klr> akvon
+        la misiisto, <tld/>ilo enmane, benis la <klr>[&#8230;]</klr> akvon
         <fnt>
-          <vrk><url ref="http://wallydutemple.com/wp/2015/12/30/k-antologio-ok-kebekiaj-kaj-kanada-rakontoj-verkita-kaj-tradu/">K.
+          <vrk><url
+          ref="http://wallydutemple.com/wp/2015/12/30/k-antologio-ok-kebekiaj-kaj-kanada-rakontoj-verkita-kaj-tradu/">K.
           Antologio / Ok Rakontoj</url></vrk>
         </fnt>.
       </ekz>
@@ -218,10 +229,20 @@
     <trd>kropeni&ccaron;ka</trd>,
     <trd>krop&aacute;&ccaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_r;&#x43E;&#x43F;&c_i;&#x43B;&#x43E;</trd>,
+    <trd>&#x43F;&#x43E;&#x43B;&c_i;&c_v;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_c;&#x44F;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2022/10/27 10:36:53
+Dmitri Gabinski: + trd be
+
+versio 1.22 2022/04/25 15:11:00
+aktualigo ligvokodoj kaj URL-unuoj
+
 Revision 1.18  2019/11/01 08:10:14  revo
 Wolfram Diestel: +~o,ado, ekz-oj, kor. germ trd
 
@@ -238,8 +259,5 @@ Revision 1.14  2013/01/26 02:10:08  revo
 Carlos Garcia: +trd es -o -il
 
 Revision 1.13  2012/01/31 18:10:40  revo
-Antonio Codazzi: +trd it
-
-Revision 1.12  2004/06/24 16:33:39  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: profil.xml,v 1.17 2015/07/04 08:37:42 revo Exp $">
+<art mrk="$Id: profil.xml,v 1.23 2022/06/29 07:31:30 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>profil</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,22 +10,81 @@
   <kap><tld/>o</kap>
   <snc mrk="profil.0o.vizagxo">
     <dif>
-      Aspekto de viza&gcirc;o flanke rigardata.
+      <ref tip="super" cel="aspekt.0o">Aspekto</ref> de viza&gcirc;o flanke rigardata:
+      <ekz>
+        leona korpo, grandega kapo <klr>[&#8230;]</klr> kvaza&ubreve; homa <tld/>o
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eleganta kaj gracia <ref cel="siluet.0o">silueto</ref>, 
+        lia <tld/>o kun delikataj brovoj kaj kun maldikaj
+        lipoj
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        du turnojsaj monfuntoj, markitaj per la <tld/>o de Karlo IXa
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ia <tld/>o sur la ru&gcirc;eta fono de la flamo estis serioza
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iumomente &scirc;i kredis, ke nigra <tld/>o <klr>(silueto)</klr> 
+        aperas malsupre de &scirc;ia fenestro
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="kontur.0o">konturo</ref>
     <trd lng="en">profile</trd>
     <trdgrp lng="hu">
       <trd>arc&eacute;l</trd>,
       <trd>profil</trd>
     </trdgrp>
   </snc>
-  <snc mrk="profil.0o.ARKI">
+  <snc mrk="profil.0o.sekco">
     <uzo tip="fak">ARKI</uzo>
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      Desegno prezentanta perpendikularan tran&ccirc;on de objekto:
+      Vertikala <ref tip="dif" cel="sekc.0o.TEK">sekco</ref> de objekto:
       <ekz>
-        <tld/>o de konstruo, listelo.
+        <tld/>o de konstruo, listelo, topografio;
+      </ekz>
+      <ekz>
+        T-<tld/>o, U-<tld/>o, V-<tld/>o;
+      </ekz>
+      <ekz>
+        astragalo <klr>[&#8230;]</klr> estas modlura <tld/>o komponita de duon-ronda surfaco
+        &ccirc;irka&ubreve;ita de du ebenaj tavoloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=597294"
+              >Astragalo (arkitekturo)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="relief.0o.FORM">reliefo<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Schnitt <klr>(Profil)</klr></trd>,
+      <trd>Querschnitt</trd>,
+      <trd>L&auml;ngsschnitt</trd>
+    </trdgrp>
     <trd lng="en">cross-sectional view</trd>
     <trdgrp lng="hu">
       <trd>oldaln&eacute;zet</trd>
@@ -35,19 +93,134 @@
       <trd>profil</trd>
     </trdgrp>
   </snc>
+  <snc mrk="profil.0o.ecaro">
+    <dif>
+      Karakteriza <ref tip="super" cel="ec.0aro">ecaro</ref>; formala priskribo de
+      tia ecaro:
+      <ekz>
+        900 kilometra longeco, 26&#8239;000 altecmetroj, 14 etapoj &dash; &ccirc;io &ccirc;i estas akordigita
+        al la <tld/>o de bicikla montkonkurso kaj estas defio por &ccirc;iu montbiciklisto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007151.html"
+              >900 km tra montbicikla paradizo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ar mi havis &gcirc;is nun aliajn projektojn verkistajn, mi kiel redaktoro de Leteroj
+        en Monato tenis malaltan <tld/>on pri tiu posteno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Aimo Rantanen</aut>
+          <vrk><url ref="https://www.monato.be/2004/008379.html"
+              >Senkura&gcirc;o malbonas kiel konsilanto</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la jurmedicinisto <klr>[&#8230;]</klr> diris, ke lia psikologia <tld/>o estas nekutima
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2006/009093.php"
+              >Postulataj: pli severaj punoj</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ofteco de la kontroloj <klr>[&#8230;]</klr> dependas de la propra riska <tld/>o kaj
+        de eventualaj simptomoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/011124.php"
+              >Atentu la koron</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iuj statinoj de lasta generacio <klr>[&#8230;]</klr> havas sekurec-<tld/>on praktike
+        egalan al tiu de placebo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/011124.php"
+              >Atentu la koron</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu gazeto havas siajn neripeteblajn <tld/>on kaj fizionomion
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 7 (57)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la regantaj politikistoj de Rusio dum la lasta tempo konstante ser&ccirc;as eksterajn
+        malamikojn, <klr>[&#8230;]</klr> por altigi sian <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Kalle Kniivil&auml;</aut>
+          <vrk><url ref="https://www.monato.be/2007/009251.php"
+              >Monumenta krizo</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Hungario devas prezenti la&ubreve;eble plej bonan <tld/>on al la e&ubreve;ropaj politikistoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Karlo Juh&aacute;sz</aut>
+          <vrk><url ref="https://www.monato.be/2010/010088.php"
+              >Nova vento</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u tiuj lingvoj per si mem spegulas la kulturan kaj lingvan <tld/>on de Ameriko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Maritza Guti&eacute;rrez</aut>
+          <vrk><url ref="https://www.monato.be/2009/009768.php"
+              >Kia lingva ekologio por da&ubreve;ripova evoluo?</url></vrk>
+          <lok>2009</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="fason.0o">fasono</ref>,
+      <ref cel="form.0ajxo">forma&jcirc;o</ref>,
+      <ref cel="hxarakt.0o">&hcirc;araktero</ref>,
+      <ref cel="manife.0i">manifesti</ref>&gcirc;o,
+      <ref cel="trajt.0o">trajt</ref>aro
+    </refgrp>
+  <trd lng="de">Eckdaten</trd>
+  </snc>
   <snc mrk="profil.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
-      Registritaj informoj pri uzanto de programo:
+      Registritaj <ref tip="prt" cel="inform.0o.KOMP">informo</ref>j 
+      pri <ref tip="malprt" cel="uz.0anto">uzanto</ref> de programo:
       <ekz>
         oni ka&scirc;u sian <tld/>on de nekonatoj kaj evitu, ke programoj 
         montru vian aktualan lokon
         <fnt>
           <aut>Arono kaj Karlina</aut>,
-          <vrk><url
-          ref="http://radioverda.com/programoj/2010/3/14/rv161-20100314.html">
+          <vrk><url ref="http://radioverda.com/programoj/2010/3/14/rv161-20100314.html">
           Radio Verda</url></vrk>,
           <lok>RV161, 2010-03-14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Simonsen</nom> <klr>[&#8230;]</klr> &gcirc;isdatigis sian Fejsbuk-<tld/>on per nova foto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011218.php"
+              >Sen besto-testoj mi estus mortinta ...</url></vrk>
+          <lok>2014</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -57,23 +230,79 @@
   <trdgrp lng="cs">
     <trd>obrys</trd>,
     <trd>profil</trd>,
-    <trd>průřez</trd>
+    <trd>pr&uring;&rcaron;ez</trd>
   </trdgrp>
   <trd lng="de">Profil</trd>
   <trd lng="es">perfil</trd>
   <trd lng="fr">profil</trd>
   <trd lng="nl">profiel</trd>
+  <trd lng="pl">profil</trd>
   <trd lng="pt">perfil</trd>
+  <trd lng="ro">mulur&abreve;</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_f;&c_i;&c_l;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>bokorys</trd>,
     <trd>profil</trd>
   </trdgrp>
   <trd lng="sv">profil</trd>
+  <trd lng="uk">&c_p;&c_r;&c_o;&c_f;&c_ib;&c_l;&c_mol;</trd>
 </drv>
+
+<drv mrk="profil.0e">
+  <kap>
+    <tld/>e
+  </kap>
+  <snc>
+    <dif>
+      <klr>(pri viza&gcirc;o)</klr> De la flanko:
+      <ekz>
+        la personoj, kiuj interparolis en la salono <klr>[&#8230;]</klr> estis turnitaj
+        <tld/>e al la pordo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vitalij</nom> observis ilin <tld/>e
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Ligia</nom>, kiu, turnita al &scirc;i <tld/>e, kun levita kapo kaj manoj, rigardis la &ccirc;ielon
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_u; <ind>&c_p;&c_r;&c_o;&c_f;&c_ib;&c_l;&c_mol;</ind></trd>
+  <trd lng="de">im <ind>Profil</ind></trd>
+</drv>
+
+
+
+
+
 </art>
 <!--
 $Log$
+versio 1.23 2022/06/29 07:31:30
+Dmitri Gabinski: + trd be
+
+versio 1.22 2022/06/13 09:31:59
+Damien Brucker: -eraro cxe uzo
+
+versio 1.21 2022/06/10 19:22:38
+Wolfram Diestel: +ekz-oj, ref, dif-adapto; +~e
+
+versio 1.20 2022/06/10 17:30:43
+Wolfram Diestel: +ekz-oj, ref-oj, trd de; +snc ecaro
+
+versio 1.19 2022/03/31 21:28:33
+Vito Redsky: + trd pl + trd ro 
+
 Revision 1.16  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -81,23 +310,5 @@ Revision 1.15  2013/09/23 15:10:12  revo
 Joop Eggen: +trd bg
 
 Revision 1.14  2012/05/06 17:10:11  revo
-Agustin Garcia Lopez: +trd(es)
-
-Revision 1.13  2010/03/19 17:30:46  revo
-Jeromo Vasxe: + snc komp, + trd fr
-
-Revision 1.12  2006/03/21 17:32:00  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2004/08/24 16:32:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/07/20 18:16:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/01/03 17:34:08  revo
-Karlo Freeman: +trd=en
-
-Revision 1.8  2001/12/25 17:32:42  revo
 -->
 </vortaro>

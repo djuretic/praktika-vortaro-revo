@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: femal.xml,v 1.8 2019/10/04 12:10:23 revo Exp $">
+<art mrk="$Id: femal.xml,v 1.11 2022/04/27 17:19:11 revo Exp $">
 <kap>
   <rad>femal</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -26,8 +25,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Christian Declerck</aut>
-          <vrk><url ref="https://www.monato.be/2005/008772.php"
-              >Atestas viktimo de honorkrimo</url></vrk>
+          <vrk><url ref="&Monato;/2005/008772.php">Atestas viktimo de honorkrimo</url></vrk>
           <lok>2005</lok>
         </fnt>;
       </ekz>
@@ -37,8 +35,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Sergej Derevjanny&hcirc;</aut>
-          <vrk><url ref="https://www.monato.be/2004/008512.html"
-              >Horora</url></vrk>
+          <vrk><url ref="&Monato;/2004/008512.html">Horora</url></vrk>
           <lok>2004</lok>
         </fnt>.
       </ekz>
@@ -46,12 +43,17 @@
     <ref tip="sin" cel="vir.0ino">virino</ref>
     <ref tip="ant" cel="maskl.0o">masklo</ref>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_a;&c_m;&c_k;&c_a;</trd>,
+    <trd>&c_zh;&c_a;&c_n;&c_ch;&c_y;&c_n;&c_a;</trd>
+  </trdgrp>
   <trd lng="cs">samice</trd>
   <trd lng="de">Weibchen</trd>
   <trd lng="fr">femelle</trd>
   <trd lng="pt">f&ecirc;mea</trd>
   <trd lng="sk">&zcaron;ena</trd>
-  <trd lng="tp">meli</trd>
+  <trd lng="tok">meli</trd>
+  <trd lng="uk">&#x441;&#x430;&#x43C;&#x43A;&#x430;</trd>
 </drv>
 
 <drv mrk="femal.0a">
@@ -64,8 +66,7 @@
         &gcirc;i povas esti maskla, &gcirc;i povas esti <tld/>a: unu &scirc;anco el du
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006937.html"
-              >Genroj En La Franca: Sinjorino &leftquot;Le secr&eacute;taire&rightquot; (la sekretario)</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006937.html">Genroj En La Franca: Sinjorino &leftquot;Le secr&eacute;taire&rightquot; (la sekretario)</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -73,13 +74,13 @@
         al la aliro de la virinoj al la diritaj postenoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006937.html"
-              >Genroj En La Franca: Sinjorino &leftquot;Le secr&eacute;taire&rightquot; (la sekretario)</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006937.html">Genroj En La Franca: Sinjorino &leftquot;Le secr&eacute;taire&rightquot; (la sekretario)</url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="ant" cel="maskl.0a">maskla</ref>
   </snc>
+  <trd lng="be">&c_zh;&c_a;&c_n;&c_o;&c_ch;&c_y;</trd>
   <trdgrp lng="cs">
     <trd>sami&ccaron;&iacute;</trd>,
     <trd>&zcaron;ensk&yacute;</trd>
@@ -91,12 +92,22 @@
     <trd>sami&ccaron;&iacute;</trd>,
     <trd>&zcaron;ensk&yacute;</trd>
   </trdgrp>
-  <trd lng="tp">meli</trd>
+  <trd lng="tok">meli</trd>
+  <trdgrp lng="uk">
+    <trd>&#x436;&#x456;&#x43D;&#x43E;&#x447;&#x438;&#x439;</trd>,
+    <trd>&#x436;&#x456;&#x43D;&#x43E;&#x447;&#x43E;&#x457; &#x441;&#x442;&#x430;&#x442;&#x456;</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.11 2022/04/27 17:19:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.9 2022/03/09 10:33:34
+Dmitri Gabinski: + trd be
+
 Revision 1.7  2017/04/05 08:10:17  revo
 Ludoviko Francisco: +trd fr
 
@@ -113,8 +124,5 @@ Revision 1.3  2007/05/20 16:31:15  revo
 Tulio Flores: +tr pt
 
 Revision 1.2  2006/10/22 18:03:55  revo
-Axel Rousseau: +trd tp
-
-Revision 1.1  2006/08/05 16:31:07  revo
 -->
 </vortaro>

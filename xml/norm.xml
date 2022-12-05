@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: norm.xml,v 1.52 2021/05/28 14:15:35 revo Exp $">
+<art mrk="$Id: norm.xml,v 1.57 2022/11/11 09:32:14 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>norm</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,21 +11,21 @@
   <snc mrk="norm.0o.KOMUNE">
     <uzo tip="stl">KOMUNE</uzo>
     <dif>
-      Principo a&ubreve; tipo starigita kiel regulo a&ubreve; modelo; ordinara
-      la&ubreve;regula stato:
+      <!-- Principo a&ubreve; tipo starigita kiel regulo a&ubreve; modelo; -->
+      Ordinara, la&ubreve;regula <ref tip="super" cel="stat.0o.atributa">stato</ref>:
       <ekz>
-        ne deklini&gcirc;i de la <tld/>o.
+        mil talentoj <klr>[&#8230;]</klr> la&ubreve; la &gcirc;isnuna <tld/>o de l' elspezoj povis sufi&ccirc;i
+        por sep &gcirc;is dek tagoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
       <trd>&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
       <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>Norm</trd>,
-      <trd>Vorschrift</trd>,
-      <trd>Regel</trd>
-    </trdgrp>
+    </trdgrp>    
     <trdgrp lng="en">
       <trd>norm</trd>,
       <trd>standard</trd>
@@ -46,27 +46,158 @@
       <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="norm.0o.TEK">
-    <uzo tip="fak">TEK</uzo>
+  <snc mrk="norm.0o.konvencio">
     <dif>
-      Metia, te&hcirc;nika regulo difinanta komune observatajn
-      procedojn, mezurojn, ecarojn:
+      <ref tip="dif" cel="konven1.0o.gxenerale">Konvencio</ref>; 
+      kondutoj, formoj konsiderataj modelaj, akcepteblaj en iu socio:
       <ekz>
-        <ind>sam<tld/>igi</ind> &ccirc;iujn fabrika&jcirc;ojn, laborilojn.
-        <trd lng="ca">normalitzar</trd>
-        <trd lng="hu">szabv&aacute;nyos&iacute;t</trd>
+        kiel &scirc;i travivos la proceduron en rusa lingvo la&ubreve; <tld/>oj kaj kutimoj, pri kiuj
+        &scirc;i konas nenion
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne ekzistas difinitaj <tld/>oj pri beleco
+        <fnt>
+          <bib>ChM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iom tro mankis karno, la&ubreve; <tld/>oj stefanaj
+        <fnt>
+          <bib>ChR</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lingva uzo devas kiel eble plej proksimi&gcirc;i al socia <tld/>o, por ke &gcirc;ia
+        efikeco (komprenateco) estu maksimuma
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen la skriba literaturo <klr>[&#8230;]</klr> kultura kaj tradicia <tld/>oj neniam
+        estus povintaj ekesti
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="kutim.0o.MOR">kutimo<sncref/></ref>,
+      <ref cel="mezur.0o.FIG">mezuro<sncref/></ref>,
+      <ref cel="uzanc.0o">uzanco</ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>,
+      <trd>&c_z;&c_v;&c_y;&c_ch;&c_a;&c_j;</trd>,
+      <trd>&c_k;&c_a;&c_n;&c_v;&c_e;&c_n;&c_c;&c_y;&c_ja;</trd>
+    </trdgrp>
+    <trd lng="de">Konvention</trd>
+  </snc>
+  <snc mrk="norm.0o.TEK">
+    <uzo tip="fak">TEK</uzo><uzo tip="fak">EKON</uzo>
+    <dif>
+      Metia, te&hcirc;nika <ref tip="super" cel="regul.0o">regulo</ref> 
+      difinanta komune observatajn
+      procedojn, mezurojn, ecarojn:
+      <ekz>
+        <ind>sam<tld/>igi</ind> &ccirc;iujn fabrika&jcirc;ojn, laborilojn;
+        <trd lng="ca">normalitzar</trd>
+        <trd lng="hu">szabv&aacute;nyos&iacute;t</trd>
+      </ekz>
+      <ekz>
+        li proponis <klr>[&#8230;]</klr> pligrandigon de la 
+        labor<tld/>oj <klr>(kp <ref cel="discip.0o.metodo">disciplino<sncref/></ref>)</klr> 
+        &ccirc;e la sama salajro, a&ubreve; malpligrandigon de la salajro &ccirc;e la samaj <tld/>oj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekde 1925 la aperigon de la &scirc;losiloj prizorgis <nom>ICK</nom>, poste UEA, la&ubreve; la <tld/>o de
+        <nom>ICK</nom> &gcirc;is 1933 aperis &scirc;losiloj en 26 lingvoj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        internacia listo, pretigita la&ubreve; la kondi&ccirc;oj de la &Gcirc;enerala Regularo kaj la&ubreve; la
+        <tld/>o: unu komitatano B je 250 delegitoj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">JUR</uzo>
+        sistemo de juraj <tld/>oj
+        <klr>(kp <ref cel="kodeks.0o.JUR">kodekso<sncref/></ref>)</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Steloj;monato2/007279.html">Anta&ubreve;merkantilisma ekonomia
+          pensado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        librotenaj <tld/>oj
+        <fnt>
+          <bib>MD02</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>oj de <nom>World Wide Web Consortium</nom> 
+        <klr>(W3C)</klr>
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kuracista institucio havanta avangardan teknologion por trakti la
+        Ebolo-pacientojn kaj sekurecajn <tld/>ojn superajn al la postulataj de MOS
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dizelaj veturiloj, kiuj plenumas la poluajn <tld/>ojn
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        200-oble pli granda ol la <tld/>oj 
+        <klr>(t.e. <ref cel="valor.lim0o">limvaloro</ref>)</klr> 
+        (3-5 milirentgenoj)
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la planeda semajnsistemo <klr>[en]</klr> la 20a jarcento <klr>[&#8230;]</klr> fari&gcirc;is
+        internacia <tld/>o
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kanon.0o.listo">kanono<sncref/></ref>,
       <ref cel="model.0o">modelo</ref>,
       <ref cel="sxablo.0o">&scirc;ablono</ref>,
-      <ref cel="tip.0o">tipo</ref>.
+      <ref cel="tip.0o">tipo</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_n;&c_o;&c_r;&c_m;&c_a;</trd>,
       <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;</trd>
     </trdgrp>
-    <trdgrp lng="en">
+    <trdgrp lng="de">
+      <trd>Vorschrift</trd>,
+      <trd>Vorgabe</trd>,
+      <trd>Regel</trd>
+    </trdgrp><trdgrp lng="en">
       <trd>norm</trd>,
       <trd>standard</trd>
     </trdgrp>
@@ -94,11 +225,11 @@
       <frm am="x"><k>x</k>, <k>y</k></frm>, kaj por &ccirc;iu ajn
       <ref cel="skalar.0o.MAT">skalaro</ref> <frm am="alpha">&alfa;</frm>
       veras:
-      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#x2265; 0</frm>;
+      (1) <frm am="p(x) ge 0"><k>p</k>(<k>x</k>) &#8805; 0</frm>;
       (2) <frm am="p(x)=0"><k>p</k>(<k>x</k>) = 0</frm>,
         se kaj nur se <frm am="x=0"><k>x</k> = 0</frm>;
-      (3) <frm am="p(alpha*x)=|alpha|p(x)"><k>p</k>(&alfa;&#x2219;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
-      kaj (4) <frm am="p(x+y) le p(x)+p(y)"><k>p</k>(<k>x</k>+<k>y</k>) &#x2264;
+      (3) <frm am="p(alpha*x)=|alpha|p(x)"><k>p</k>(&alfa;&#8729;<k>x</k>)=|&alfa;|<k>p</k>(<k>x</k>)</frm>;
+      kaj (4) <frm am="p(x+y) le p(x)+p(y)"><k>p</k>(<k>x</k>+<k>y</k>) &#8804;
       <k>p</k>(<k>x</k>)+<k>p</k>(<k>y</k>)</frm>:
       <ekz>
         la <tld/>on de vektoro <frm am="x"><k>x</k></frm> oni ofte
@@ -113,7 +244,7 @@
       <ekz>
         por <tld/>oj super <ref cel="algebr.lineara0o.strukturo">algebroj</ref>
         oni plie postulas, ke
-        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#xD7;<k>y</k>) &#x2264;
+        <frm am="p(x xx y) le p(x)*p(y)"><k>p</k>(<k>x</k>&#xD7;<k>y</k>) &#8804;
         <k>p</k>(<k>x</k>)&middot;<k>p</k>(<k>y</k>)</frm>;
       </ekz>
       <ekz>
@@ -128,17 +259,15 @@
         <ref cel="metrik.0o.MAT">metriko</ref>.
       </ekz>
     </dif>
-    <trd lng="be">&c_n;&c_o;&c_r;&c_m;&c_a;
-<klr>(&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_a;)</klr></trd>
+    <trd lng="be">&c_n;&c_o;&c_r;&c_m;&c_a; <klr>(&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_a;)</klr></trd>
     <trd lng="de">Norm</trd>
     <trd lng="en">norm</trd>
     <trd lng="fr">norme<klr tip="ind"> (d'un vecteur)</klr></trd>
     <trd lng="hu">norma</trd>
     <trd lng="pl">norma<klr tip="ind"> (wektora)</klr></trd>
-    <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind">
-(&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
+    <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_a;)</klr></trd>
   </snc>
-  <trd lng="bo">&#xF5A;&#xF51;&#xF0B;&#xF63;&#xFA1;&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_tsha;&t_da;&t_tsheg;&t_la;&t_data;&t_na;&t_tsheg;</trd>
   <trd lng="ca">norma</trd>
   <trdgrp lng="cs">
     <trd>norma</trd>,
@@ -146,6 +275,7 @@
     <trd>p&rcaron;edpis</trd>,
     <trd>standard</trd>
   </trdgrp>
+  <trd lng="de">Norm</trd>
   <trd lng="es">norma</trd>
   <trd lng="pt">norma</trd>
   <trdgrp lng="sk">
@@ -154,14 +284,53 @@
     <trd>predpis</trd>,
     <trd>&scaron;tandard</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&#x43E;&c_r;&#x43C;&c_a;</trd>,
+    <trd>&c_je;&c_t;&c_a;&#x43B;&#x43E;&#x43D;</trd>,
+    <trd>&c_z;&c_r;&c_a;&c_z;&#x43E;&#x43A;</trd>,
+    <trd>&c_s;&c_t;&c_a;&#x43D;&c_d;&c_a;&c_r;&c_t;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="norm.0a">
   <kap><tld/>a</kap>
   <snc mrk="norm.0a.0rilata">
     <dif>
-      Koncernanta la <tld/>on.
+      Koncernanta la <tld/>on; <tld/>anta:
+      <ekz>
+        Sennacieca Asocio Tutmonda lan&ccirc;is verkon, kiu estas jam ekde tiam
+        konsiderata lingvo-<tld/>a referenco en nia lingvo
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi fidis <klr>[&#8230;]</klr> trovi la faktojn en unu-du <tld/>aj fakverkoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 5 (103)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Valencia Lingvo-Akademio <klr>[&#8230;]</klr> interakordis pasintlunde agnoski kiel
+        &#x201A;&ccirc;iucelan oficialan <tld/>an referencon&#8216; la valencian uzitan ekde 1983 de la
+        Departemento pri Klerigo kaj Kulturo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok> 2002, &#8470;7</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <rim>
+      Por distingi tiun sencon disde &#x201A;normkonforma&#8216; oni povas uzi anka&ubreve; &#x201A;<tld/>iga&#8216;:
+      <ekz>
+        anta&ubreve;nelonge aperis internaciaj <tld/>igaj dokumentoj pri doganaj aferoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2004, &#8470; 4 (114)</lok>
+        </fnt>.
+      </ekz>
+    </rim>
     <trd lng="ca">normatiu</trd>
     <trd lng="de">Norm-</trd>
     <trdgrp lng="hu">
@@ -172,16 +341,71 @@
   </snc>
   <snc mrk="norm.0a.0konforma">
     <dif>
-      Konforma al <tld/>o, la&ubreve;<tld/>a, normala.
+      <ref tip="super" cel="konfor.0a.KOMUNE">Konforma</ref> al <tld/>o, <tld/>ita, 
+      la&ubreve;<tld/>a, <ref cel="normal.0a.KOMUNE">normala</ref>:
+      <ekz>
+        <tld/>a lingvo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        revizio de 118&#x202F;800 <tld/>aj pa&gcirc;oj en 5 lingvoj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la romianoj anstata&ubreve;is la egiptan &leftquot;<tld/>an grenon&rightquot; per sia propra valuto
+        <fnt>
+          <bib>Kon11</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; <tld/>a prononco de la germana lingvo la menciitaj nomoj efektive fini&gcirc;as
+        per -er
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Steloj;monato2/007118.html">Fantaziaj prononcindikoj (3)</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        presiloj havas nur <tld/>ajn paperformatojn, do anka&ubreve; deklinia notico foruzas
+        folion A4
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url ref="&Steloj;monato2/007176.html">&Steloj;monato2/007176.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nur tio atingas la rulbendon, kio estas <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2010/009930.php">Ni fosu nian konton!</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pavilono el <tld/>aj EU-paledoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Rita R&ouml;ssler-Buckel</aut>
+          <vrk><url ref="&Monato;/2007/009174.php">Metio kaj formo tradicio kaj progreso</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la salajronivelo tie apena&ubreve; kompareblas kun tiuj <tld/>aj en la unio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="&Monato;/2003/008140.html">Pri orienti&gcirc;o kaj okcidenti&gcirc;o</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trdgrp lng="be">
-      <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
-      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;</trd>,
-      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y;
-<ind>&c_n;&c_o;&c_r;&c_m;&c_je;</ind></trd>;
-      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y;
-<ind>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_u;</ind></trd>.
-    </trdgrp>
     <trd lng="ca">normal</trd>
     <trdgrp lng="de">
       <trd>normgerecht</trd>,
@@ -205,6 +429,12 @@
       <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
+      <trd>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_n;&c_y;</trd>,
+      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y; <ind>&c_n;&c_o;&c_r;&c_m;&c_je;</ind></trd>;
+      <trd>&c_a;&c_d;&c_p;&c_a;&c_v;&c_je;&c_d;&c_n;&c_y; <ind>&c_s;&c_t;&c_a;&c_n;&c_d;&c_a;&c_r;&c_t;&c_u;</ind></trd>.
+    </trdgrp>
   <trdgrp lng="cs">
     <trd>noremn&iacute;</trd>,
     <trd>normov&yacute;</trd>,
@@ -224,6 +454,11 @@
   <trdgrp lng="sk">
     <trd>normov&yacute;</trd>,
     <trd>predpisov&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_ib;&c_d;&#x43F;&#x43E;&c_v;&c_ib;&c_d;&#x43D;&c_i;&c_j; &#x43D;&#x43E;&c_r;&#x43C;&c_ib;</trd>,
+    <trd>&#x43D;&#x43E;&c_r;&#x43C;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_t;&c_a;&#x43D;&c_d;&c_a;&c_r;&c_t;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -279,11 +514,13 @@
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
   <snc>
-    <ref tip="dif" cel="norm.unu0igi">unu<tld/>igi.</ref>
+    <ref tip="dif" cel="norm.unu0igi">unu<tld/>igi</ref>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="cs">normalizovat</trd>
   <trd lng="hu">norm&aacute;l</trd>
   <trd lng="sk">normalizova&tcaron;</trd>
+  <trd lng="uk">&#x43D;&#x43E;&c_r;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="norm.0umita">
@@ -291,8 +528,9 @@
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>EKV</bib><lok>&para;298</lok></fnt>
   <snc>
-    <ref tip="dif" cel="norm.unu0a.vektoro">unu<tld/>a <sncref/>.</ref>
+    <ref tip="dif" cel="norm.unu0a.vektoro">unu<tld/>a<sncref/></ref>
   </snc>
+  <trd lng="be">&c_u;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
 </drv>
 
 <drv mrk="norm.0hava">
@@ -310,10 +548,13 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="algebr.banahxa0o">bana&hcirc;a algebro</ref>,
-      <ref cel="spac.normohava0o"><tld/>ohava spaco</ref>.
+      <ref cel="spac.normohava0o"><tld/>ohava spaco</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_u;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="ca">normat</trd>
   <trd lng="de">normiert</trd>
   <trd lng="en">normed</trd>
@@ -349,6 +590,7 @@
       la germana kaj la rusa.
     </rim>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_w;&c_n;&c_o;&c_r;&c_m;&c_a;</trd>
   <trd lng="ca">seminorma</trd>
   <trdgrp lng="de">
     <trd>Halbnorm</trd>,
@@ -388,6 +630,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_je;&c_w;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+      <trd>&c_a;&c_d;&c_s;&c_u;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol; <ind>&c_n;&c_o;&c_r;&c_m;&c_a;&c_w;</ind></trd>
+    </trdgrp>
     <trd lng="fr">pagaille</trd>
   </snc>
 </drv>
@@ -438,6 +684,10 @@
       a&ubreve; <ctl>dekbaza</ctl><fnt><bib>PIV2</bib></fnt>).
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_u;&c_n;&c_a;&c_r;&c_m;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="ca">normalitzat</trd>
   <trd lng="pt">normal</trd>
 </drv>
@@ -480,10 +730,23 @@
   <trd lng="pt">normalizar</trd>
   <trd lng="ru">&c_n;&c_o;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">normalizova&tcaron;</trd>
+  <trd lng="uk">&#x43D;&#x43E;&c_r;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 </art>
 <!--
-$Log: norm.xml,v $
+$Log$
+versio 1.57 2022/11/11 09:32:14
+Dmitri Gabinski: + trd be
+
+versio 1.56 2022/05/01 16:20:54
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.54 2022/01/15 14:26:29
+Wolfram Diestel: ~a: dif-precizigo, ekz-oj, ref-oj
+
+versio 1.53 2022/01/15 12:46:52
+Wolfram Diestel: ~o: +snc "konvencio"; ekz-oj, ref-oj, trd de
+
 versio 1.51 2020/02/15 22:10:17
 Wolfram Diestel: formuloj per am
 
@@ -494,17 +757,5 @@ Revision 1.49  2015/10/20 05:10:16  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.48  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.47  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.46  2012/01/01 23:10:22  revo
-Marc Rausell: +trd ca
-
-Revision 1.45  2010/11/01 17:30:31  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.44  2010/07/10 16:30:58  revo
 -->
 </vortaro>

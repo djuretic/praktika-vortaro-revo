@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: suflor.xml,v 1.19 2019/10/19 12:10:16 revo Exp $">
+<art mrk="$Id: suflor.xml,v 1.23 2022/05/05 14:43:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>suflor</rad>/o
@@ -24,12 +23,12 @@
         lia patro estis drama aktoro kaj lia patrino estis teatra <tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=1978"
-              >Julio Baghy</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1978">Julio Baghy</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_u;&c_f;&c_l;&c_jo;&c_r;</trd>
   <trdgrp lng="cs">
     <trd>n&aacute;pov&ecaron;da <klr>(osoba)</klr></trd>,
     <trd>sufl&eacute;r</trd>
@@ -43,9 +42,10 @@
   <trd lng="hu">s&uacute;g&oacute;<klr tip="ind">(sz&iacute;nh&aacute;zi)</klr></trd>
   <trd lng="it">suggeritore</trd>
   <trd lng="nl">souffleur</trd>
-  <trd lng="pl">s ufler</trd>
+  <trd lng="pl">sufler</trd>
   <trd lng="ru">&c_s;&c_u;&c_f;&c_l;&c_jo;&c_r;</trd>
   <trd lng="sk">&scaron;epk&aacute;r</trd>
+  <trd lng="uk">&c_s;&c_u;&c_f;&#x43B;&c_je;&c_r;</trd>
 </drv>
 
 <drv mrk="suflor.0i">
@@ -65,7 +65,11 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="slip.suflor0eto"><tld/>slipeto</ref>
-    <trd lng="de">soufflieren</trd>
+    <trd lng="be">&c_s;&c_u;&c_f;&c_l;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>vorsagen</trd>,
+    <trd>souffleur</trd>
+  </trdgrp>
     <trd lng="ru">&c_s;&c_u;&c_f;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="suflor.0i.FIG">
@@ -77,7 +81,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Alejandro Cossavella</aut>
-          <vrk><url ref="https://www.monato.be/2005/008766.php">Poemoj de Alejandro Cossavella</url></vrk>
+          <vrk><url ref="&Monato;/2005/008766.php">Poemoj de Alejandro
+          Cossavella</url></vrk>
           <lok>2005</lok>
         </fnt>;
       </ekz>
@@ -88,7 +93,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="https://www.monato.be/2010/010136.php">Strato de la e&ubreve;ropa kulturo</url></vrk>
+          <vrk><url ref="&Monato;/2010/010136.php">Strato de la e&ubreve;ropa
+          kulturo</url></vrk>
           <lok>2010</lok>
         </fnt>;
       </ekz>
@@ -99,6 +105,10 @@
         <bib>Monato</bib><lok>jaro 2002a, numero 4a, p. 18a</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_a;&c_d;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_n;&c_a;&c_sh;&c_e;&c_p;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
     <trd lng="de">einfl&uuml;stern</trd>
     <trd lng="ru">&c_p;&c_o;&c_d;&c_s;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
@@ -129,10 +139,23 @@
     <trd>vnukn&uacute;&tcaron; (pren.)</trd>,
     <trd>&scaron;epka&tcaron; <klr>(div.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_u;&c_f;&#x43B;&c_ib;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_ib;&c_d;&#x43A;&c_a;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2022/05/05 14:43:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.22 2022/04/26 14:38:04
+Ulrich Fellmann: suflor: +1 DE trd
+
+versio 1.21 2022/04/13 07:29:44
+Dmitri Gabinski: + trd be
+
 Revision 1.18  2019/04/06 13:10:19  revo
 Santiago Amposta: +trd=es
 
@@ -146,11 +169,5 @@ Revision 1.15  2015/07/04 08:37:44  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.14  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.13  2009/10/10 16:30:31  revo
-Antonio Codazzi: +trd it
-
-Revision 1.12  2008/10/30 19:26:12  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: nepr.xml,v 1.20 2015/11/11 16:10:16 revo Exp $">
+<art mrk="$Id: nepr.xml,v 1.29 2022/07/01 13:48:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>nepr</rad>/a <fnt><bib>PV</bib></fnt>
@@ -11,11 +10,74 @@
   <kap><ofc>*</ofc><tld/>a</kap>
   <snc mrk="nepr.0a.KOMUNE">
     <dif>
-      Tute certa, absolute necesa, tute neevitebla, tute deviga:
+      Tute <ref tip="super" cel="cert.0a.nedubebla">certa<sncref/></ref>, 
+      absolute <ref tip="super" cel="neces.0a.KOMUNE">necesa</ref>, 
+      tute <ref tip="super" cel="evit.ne0ebla">neevitebla</ref>, 
+      tute <ref tip="super" cel="dev.0iga">deviga</ref>:
       <ekz>
-        <tld/>a ordono, regulo, volo, devo, bezono.
+        <tld/>a ordono, regulo, volo, devo, bezono;
+      </ekz>
+      <ekz>
+        la aferoj de la granda diino postulas <tld/>an sekretecon
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post prepozicio oni uzu la akuzativon nur en okazoj de <tld/>a bezono
+        <fnt>
+          <bib>LR</bib>
+          <lok>Dua Parto &ndash; Gramatiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konsideri la <tld/>an bankroton
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvara &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        certa krudeco kaj severa plenumado de la postuloj oficaj devis esti liaj
+        <tld/>aj ecoj por sukcesi en lia &scirc;tata kariero
+        <fnt>
+          <bib>Zam</bib>
+          <lok>Zamenhofa juna&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la unua ekzerco, <tld/>a etapo, tra kiu pasas en sia evoluo &ccirc;iu arta sistemo,
+        estas dinamiki&gcirc;o
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VII. Gimnastiko por artaj sistemoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        scioj estas <tld/>a, vive necesa elemento por kompreni ajnan artan sistemon
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VIII. &Scirc;tupoj al idealo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por ke la mondo estu pli bona, estas <tld/>a amo kaj toleremo al &ccirc;iu homo
+        sendepende de raso, religio kaj nacieco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zofia Banet-Fornalowa</aut>
+          <vrk><url ref="&Monato;/2004/008391.html"
+              >Listo de Sendler</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="absolu.0a">absoluta</ref>,
+      <ref cel="hav.nemal0ebla">nemalhavebla</ref>,
+      <ref cel="kondic1.sen0a">senkondi&ccirc;a</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_b;&c_a;&c_v;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_y;</trd>
   <trdgrp lng="cs">
@@ -26,8 +88,9 @@
     <trd>ur&ccaron;it&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
-    <trd>unbedingt notwendig</trd>,
-    <trd>unabdingbar</trd>
+    <trd><ind>unbedingt</ind> notwendig</trd>,
+    <trd>unabdingbar</trd>,
+    <trd>unsausweichlich</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>absolutely necessary</trd>,
@@ -52,6 +115,11 @@
     <trd>noodzakelijk</trd>,
     <trd>onvermijdelijk</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>nieunikniony</trd>,
+    <trd>konieczny</trd>,
+    <trd>nieodzowny</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>absolutamente <ind>necess&aacute;rio</ind></trd>,
     <trd>infal&iacute;vel</trd>,
@@ -60,11 +128,20 @@
     <trd>inevit&aacute;vel</trd>,
     <trd>indeclin&aacute;vel</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>inevitabil</trd>,
+    <trd>necesar</trd>,
+    <trd>indispensabil</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_p;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_b;&c_ja;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">&uacute;plne nutn&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_o;&c_d;&c_m;&c_ib;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nepr.0e">
@@ -72,32 +149,70 @@
   <snc mrk="nepr.0e.KOMUNE">
     <dif>
       Necese, la&ubreve;deve,
-      <ref tip="vid" cel="mank.sen0e.KOMUNE">senmanke</ref>:
+      <ref cel="mank.sen0e.KOMUNE">senmanke</ref>:
       <ekz>
-        mi <tld/>e venos;
+        vi <tld/>e devas trinki
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 25:28</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>e iru;
+        vi <tld/>e mortos
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 2:37</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mi <tld/>e deziras ekscii vian opinion;
+        <tld/>e observu Miajn sabatojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 31:13</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        vi <tld/>e devas anonci vin;
+        <tld/>e ne
+        <klr>(en neniu kazo, <ref cel="neniam.0">neniam</ref>)</klr>
+        <fnt>
+          <bib>NT</bib>
+          <lok>Romanoj 3:4</lok>
+        </fnt>!
       </ekz>
       <ekz>
-        la kunveno <tld/>e okazos &ccirc;e la fiksita horo;
+        li <tld/>e volis, ke tio estu vera
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Re&gcirc;idino sur pizo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        via &ccirc;eesto estas <tld/>e bezonata;
+        pli da loko, ol estis nepre necesa por ili
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        vi <tld/>e devas pagi;
+        prenu &gcirc;in, vi devas <tld/>e &gcirc;in preni
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>!
       </ekz>
       <ekz>
-        la le&gcirc;o <tld/>e postulas, ke...
+        la maljuna virino malsani&gcirc;is <klr>[tiel, ke]</klr> flegado kaj vartado estis
+        <tld/>e necesa
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="cert.0e">certe</ref>,
+      <ref cel="dub.sen0e">sendube</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_b;&c_a;&c_v;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_a;</trd>
   <trdgrp lng="cs">
@@ -107,6 +222,12 @@
     <trd>rozhodn&ecaron;</trd>,
     <trd>ur&ccaron;it&ecaron;</trd>,
     <trd>zcela ur&ccaron;it&ecaron;</trd>
+  </trdgrp>
+  <trd lng="de">unbedingt</trd>
+  <trdgrp lng="en">
+    <trd>definitely</trd>,
+    <trd>necessarily</trd>,
+    <trd>without fail</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>inevitablemente</trd>,
@@ -120,6 +241,8 @@
     <trd>okvetlen&uuml;l</trd>,
     <trd>felt&eacute;telen&uuml;l</trd>
   </trdgrp>
+  <trd lng="pl">koniecznie</trd>
+  <trd lng="ro">neap&abreve;rat</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_p;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_o;</trd>,
     <trd>&c_o;&c_b;&c_ja;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;</trd>
@@ -129,13 +252,199 @@
     <trd>rozhodne</trd>,
     <trd>ur&ccaron;ite</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_o;&c_d;&c_m;&c_ib;&c_n;&c_n;&c_o;</trd>,
+    <trd>&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_o;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="nepr.0i">
+  <kap>
+    <tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Esti <ref cel="neces.0a.KOMUNE">necesa</ref>, <ref cel="dev.0i">devi</ref>:
+      <ekz>
+        <tld/>as, ke granda parto de tiuj pristudaj klopodoj direkti&gcirc;u al la objektoj,
+        pere de kiuj oni laboras: &scirc;tono, koloro, sono, vorto
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        le&gcirc;oj <klr>[&#8230;]</klr> <tld/>as kaj ili ta&ubreve;gas por &ccirc;iu rango de artaj sistemoj
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VII. Gimnastiko por artaj sistemoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>as, ke ni unue solvu la problemon de la ekzisto
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        subskriboj <klr>[de kuracistoj]</klr> <tld/>as por kompletigi morto-atestilon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006872.html"
+              >Britio: Doktoro Morto</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="u1.0">-u</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de"><ind>notwendig</ind> sein</trd>
+  <trd lng="en"><ind>have</ind> to</trd>
+</drv>
+
+<drv mrk="nepr.0o">
+  <kap>
+    <tld/>o, <var><kap><tld/>eco</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      La fakto, ke io estas <tld/>a:
+      <ekz>
+        kiam do la <tld/>eco kaj la simpla prudento subtenis la ka&scirc;itan tenton, &scirc;i &ccirc;esis
+        heziti
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        realan fakton mi bezonas, <tld/>on, pruvatestan, palpeblan fakton!
+        <fnt>
+          <bib>SkandalJozef</bib>
+          <lok>Korpogvardia veterano</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Renato Corsetti</nom>, anka&ubreve; italo, substrekas la kulturan kaj lingvan <tld/>econ ke
+        e&ubreve;ropaj lingvoj restu oficialaj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;2</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="neces.0eco">neceseco</ref>,
+      <ref cel="evit.ne0eblo">neevitebleco</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Unabdingbarkeit</trd>,
+    <trd>Unausweichlichkeit</trd>,
+    <trd>Notwendigkeit</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="nepr.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+      Io, kion oni ne povas eviti a&ubreve; kion oni ne povas malhavi:
+      <ekz>
+        se la morto venus al vi subite, <klr>[&#8230;]</klr> mi akceptus &gcirc;in kiel <tld/>a&jcirc;on
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        da&ubreve;re mankas al ili soldataj <tld/>a&jcirc;oj, kiujn ili estas devigataj pruntepreni
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2003/008086.html"
+              >Taglibro de l' (anta&ubreve;)milito ... el la lando de &Scirc;ekspiro (2)</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mankas e&ccirc; bazaj <tld/>a&jcirc;oj, kiel pano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2003/008199.html"
+              >Novaj direktoj al la estonto</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akumulatoro estas <tld/>a&jcirc;o por la koncepto &leftquot;tabula komputilo&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="https://www.monato.be/2010/010076.php"
+              >Parto 3: Apple iPad - &ccirc;u revolucio a&ubreve; evolucio?</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="neces.0ajxo.KOMUNE">necesa&jcirc;o</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Unabdingbares</trd>,
+    <trd>Unvermeidliches</trd>,
+    <trd>Notwendiges</trd>
+  </trdgrp>
+</drv>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <drv mrk="nepr.0igi">
   <kap><tld/>igi</kap>
   <snc mrk="nepr.0igi.KOMUNE">
     <dif>
-      Absolute necesigi.
+      Absolute <ref tip="super" cel="neces.0igi">necesigi</ref>:
+      <ekz>
+        tion diktas <klr>[&#8230;]</klr> la lingvouzantoj, kies pensokapacito <tld/>igas la
+        kreon de adekvata esprimo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[plia]</klr> kunlaboranto nun <tld/>igas, kompreneble, la luadon de oficejo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> rivera sistemo el navigeblaj vojoj <klr>[&#8230;]</klr>, por akcepti
+        1350-tunajn &scirc;ipojn, <tld/>igis la konstruadon de kabla &scirc;iplifto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Maxime Lechien</aut>
+          <vrk><url ref="&Monato;/2003/007206.html"
+              >La parko de kanaloj en La Louvi&egrave;re</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="kondam.0i">kondamni</ref>,
@@ -143,11 +452,16 @@
       <ref cel="trud.0i">trudi</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_z;&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <ind>&c_a;&c_b;&c_a;&c_v;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_y;&c_m;</ind></trd>
+  <trd lng="be">&c_z;&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
+  <ind>&c_a;&c_b;&c_a;&c_v;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_y;&c_m;</ind></trd>
   <trd lng="cs">u&ccaron;init nutn&yacute;m</trd>
   <trdgrp lng="de">
-    <trd>zwingend nach sich ziehen</trd>,
-    <trd>unabdingbar machen</trd>
+    <trd><ind>zwingend</ind> nach sich ziehen</trd>,
+    <trd><ind>unabdingbar</ind> machen</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>require</trd>,
+    <trd>necessitate</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>hacer necesario algo</trd>,
@@ -160,11 +474,21 @@
   </trdgrp>
   <trd lng="hu">okvetlen&uuml;l <ind>sz&uuml;ks&eacute;gess&eacute;</ind> tesz</trd>
   <trd lng="nl">noodzakelijk maken</trd>
+  <trd lng="pl">uczyni&cacute; nieuniknionym</trd>
+  <trd lng="ro">face inevitabilul</trd>
   <trdgrp lng="ru">
-    <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; &c_n;&c_je;&c_p;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_m;</trd>,
-    <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; &c_o;&c_b;&c_ja;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_m;</trd>
+    <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;
+    &c_n;&c_je;&c_p;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_m;</trd>,
+    <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;
+    &c_o;&c_b;&c_ja;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_m;</trd>
   </trdgrp>
   <trd lng="sk">urobi&tcaron; nutn&yacute;m</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_r;&c_o;&c_b;&c_i;&c_t;&c_i;
+    &c_n;&c_je;&c_o;&c_d;&c_m;&c_ib;&c_n;&c_n;&c_i;&c_m;</trd>,
+    <trd>&c_o;&c_b;&c_o;&c_v;&#8217;&c_ja;&c_z;&c_k;&c_o;&c_v;&c_i;&c_m;</trd>,
+    <trd>&c_n;&c_je;&c_m;&c_i;&c_n;&c_u;&c_ch;&c_i;&c_m;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nepr.mal0a">
@@ -188,17 +512,29 @@
         sufi&ccirc;a
         <fnt>
           <aut>mondanisto</aut>,
-          <vrk><url
-          ref="http://pagesperso-orange.fr/mondanisto/kreu.htm">
+          <vrk><url ref="http://pagesperso-orange.fr/mondanisto/kreu.htm">
           Kreu vian TTTejon</url>, 7</vrk>,
           <lok>2005</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="dev.ne0iga">nedeviga</ref>
+      <ref cel="fakultativ.0a">fakultativa</ref>,
+      <ref cel="las.for0ebla">forlasebla</ref>,
+      <ref cel="hav.mal0i">malhav</ref>ebla,
+      <ref cel="dev.ne0iga">nedeviga</ref>,
+      <ref cel="rezign.0ebla">rezignebla</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>optional</trd>,
+    <trd>fakultativ</trd>,
+    <trd>verzichtbar</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>unnecessary</trd>,
+    <trd>optional</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>accidental<klr> (no esencial)</klr></trd>,
     <trd>facultativo</trd>,
@@ -213,28 +549,33 @@
     <trd>facultatief</trd>,
     <trd>overbodig</trd>
   </trdgrp>
+  <trd lng="pl">opcjonalny</trd>
+  <trd lng="ro">op&tcedil;ional</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.19  2015/07/16 06:10:16  revo
-Guillermo Molleda Jimena: trd es
+versio 1.29 2022/07/01 13:48:36
+Wolfram Diestel: +~ajxo
 
-Revision 1.18  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.28 2022/07/01 05:40:48
+Wolfram Diestel: +~(ec)o
 
-Revision 1.17  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.27 2022/06/26 09:26:36
+Wolfram Diestel: +~i
 
-Revision 1.16  2015/01/09 21:11:14  revo
-Jeromo Vasxe: + ~e
+versio 1.26 2022/05/01 16:20:54
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.15  2009/10/15 16:31:25  revo
-Paul Peeraerts: sintaksa korekto
+versio 1.25 2022/04/23 04:41:15
+Noam Mohr: +trd en nepr-
 
-Revision 1.14  2007/11/19 17:30:33  revo
-Jeromo Vasxe: + mal~a
+versio 1.24 2022/04/14 06:35:13
+Wolfram Diestel: ref
 
-Revision 1.13  2006/07/19 16:32:03  revo
+versio 1.23 2022/04/13 20:30:04
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
+versio 1.21 2022/03/19 23:29:58
 -->
 </vortaro>

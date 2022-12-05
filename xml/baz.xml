@@ -1,35 +1,69 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: baz.xml,v 1.105 2021/06/18 20:41:24 revo Exp $">
+<art mrk="$Id: baz.xml,v 1.146 2022/04/26 15:00:33 revo Exp $">
 <kap>
    <ofc>1</ofc>
-   <rad>baz</rad>/o <fnt><bib>PIV1</bib></fnt>
+   <rad>baz</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="baz.0o">
-   <kap><tld/>o</kap>
-   <snc mrk="baz.0o.postamento">
-     <dif>
-       Malsupra subportanta parto de objekto:
-       <ekz>
+  <kap><tld/>o</kap>
+  <snc mrk="baz.0o.postamento">
+    <dif>
+      Malsupra subportanta parto de <ref tip="malprt" cel="objekt.0o">objekto</ref>:
+      <ekz>
          <tld/>o de turo, de vazo, de
-         statuo, de monto, de triangulo, de vegeta&jcirc;o;
-       </ekz>
-       <ekz>
+         statuo, de monto, de vegeta&jcirc;o;
+      </ekz>
+      <ekz>
+        deklivo, &ccirc;e kies <tld/>o brue fluis torento
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili stari&gcirc;is anta&ubreve; la <tld/>o de la monto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 19:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj kolonoj <klr>[havu]</klr> <tld/>ojn el kupro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 27:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
          ar&gcirc;entajn <tld/>ojn li faris sub la dudek tabuloj
          <fnt><bib>MT</bib>, <lok>&Eli; 36:24</lok></fnt>;
-       </ekz>
-       <ekz>
-         el malnova <tld/>o novaj plantidoj kreskas<fnt>Z</fnt>.
-       </ekz>
-     </dif>
+      </ekz>
+      <ekz>
+        &ccirc;e la <tld/>o de la alta&jcirc;o, sub la &scirc;irmo de altaj arboj, staris malgranda domo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el malnova <tld/>o plantidoj novaj &ccirc;arme kreskis supren
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>.
+      </ekz>
+    </dif>
      <refgrp tip="vid">
        <ref cel="fond">fondo</ref>,
        <ref cel="fund.0o">fundo</ref>,
        <ref cel="fundam.0o">fundamento</ref>,
        <ref cel="grund.0o">grundo</ref>,
+       <ref cel="pied.0o.FIG">piedo<sncref/></ref>
+     </refgrp>    
+     <refgrp tip="sub">
        <ref cel="piedes.0o">piedestalo</ref>,
-       <ref cel="sokl.0o">soklo</ref>.
+       <ref cel="sokl.0o">soklo</ref>
      </refgrp>
      <trdgrp lng="de">
        <trd>Fu&szlig;</trd>, <trd>Basis</trd>
@@ -51,49 +85,146 @@
        <trd>&c_p;&c_o;&c_d;&c_n;&c_o;&c_zh;&c_i;&c_je;</trd>,
        <trd>&c_b;&c_a;&c_z;&c_a;</trd>
      </trdgrp>
-   </snc>
-   <snc mrk="baz.0o.principo">
-     <uzo tip="stl">FIG</uzo>	
-     <dif>
-       Esenca, fundamenta principo:
-       <ekz>
-         <tld/>o de teorio;
-       </ekz>
-       <ekz>
-         la justeco estas la <tld/>o de socio;
-       </ekz>
-       <ekz>
-         volo, laboro, obstino estas la <tld/>oj de sukceso.
-       </ekz>
-     </dif>
-  <refgrp tip="sin">
-    <ref cel="esenc.0o">esenco</ref>,
-    <ref cel="fund.0o.esenco">fundo</ref>,
-    <ref cel="fundam.0o.FIG">fundamento</ref>,
-    <ref cel="kern.0o.esenco">kerno</ref>,
-    <ref cel="kvinte.0o">kvintesenco</ref>
-  </refgrp>
-     <trd lng="de">Basis</trd>
+  </snc>
+  <snc mrk="baz.0o.principo">
+    <uzo tip="stl">FIG</uzo>	
+    <dif>
+      Spirita <ref tip="super" cel="fundam.0o.FIG">fundamento</ref> de io;
+      io, sur kiu estas konstruita verko, argumentado, organizo ktp:
+      <ekz>
+         justeco estu la <tld/>o de socio;
+      </ekz>
+      <ekz>
+        <nom>Carl Jung</nom> <klr>[&#x2026;]</klr> uzis la filozofion de 
+        Kantio kiel <tld/>on por Analiza Psikologio
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne ekzistas <klr>[&#x2026;]</klr> fakto sen <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu parto <klr>[&#x2026;]</klr> en la dirita verko estas prenita kiel <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rakontitaj faktoj &ndash; oni scias neniam, kion oni aldonis kaj deprenis &ndash; ne
+        prezentas sufi&ccirc;an <tld/>on por seneraraj konkludoj
+        <fnt>
+          <bib>IKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homoj &ccirc;iugentaj frate kunvivantaj sur ne&ubreve;trala <tld/>o
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konstanta komuniki&gcirc;ado ilin edukos sur la <tld/>o de ne&ubreve;trala lingvo, ne&ubreve;tralaj
+        moroj kaj principoj religiaj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;unueco inter la esperantistoj&rightquot; <klr>[&#x2026;]</klr> &scirc;ajnas al mi ebla nur sur la
+        <tld/>o de la Bulonja Deklaracio
+        <fnt>
+          <bib>LR</bib>
+          <lok>3. Lingvaj Institucioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        virino povas tiome perdi la moralan <tld/>on, ke &scirc;i preferu la korpajn
+        instinktojn al la animaj celoj
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ne povas kompreni &gcirc;is hodia&ubreve;, sur kiu <tld/>o ili tamen povas diskuti pri &gcirc;i
+        dum tagoj
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="esenc.0o">esenco</ref>,
+      <ref cel="fund.0o.esenco">fundo</ref>,
+      <ref cel="kern.0o.esenco">kerno</ref>,
+      <ref cel="kvinte.0o">kvintesenco</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Grundlage</trd>,
+      <trd>Basis</trd>
+    </trdgrp>
      <trd lng="hu">alap</trd>
      <trd lng="pl">podstawa</trd>
      <trd lng="ro">baz&abreve;</trd>
      <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;</trd>
    </snc>
-   <snc mrk="baz.0o.KEM">
-     <uzo tip="fak">KEM</uzo>
-     <dif>
-       Substanco, kiu naskas salon per kombini&gcirc;ado kun acido.
-     </dif>
-     <trd lng="de">Base</trd>
-     <trdgrp lng="hu">
+  <snc mrk="baz.0o.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      Fortikigita loko uzata kiel operacia <ref tip="super" cel="centr.0o.cxefajxo">centro</ref> en iu regiono:
+      <ekz>
+        tie <klr>[&#x2026;]</klr> la usonaj trupoj havas sian <tld/>on
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne multaj &ccirc;uk&ccirc;oj lo&gcirc;is en la <tld/>o mem a&ubreve; apude, sed ili ofte venis tien jen
+        al la <tld/>malsanulejo, jen por ion a&ccirc;eti
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="fortik.0ajxo">fortika&jcirc;o</ref>
+    </refgrp>
+    <trd lng="de">St&uuml;tzpunkt</trd>
+  </snc>
+  <snc mrk="baz.0o.KEM">
+    <uzo tip="fak">KEM</uzo>
+    <dif>
+      <ref tip="super" cel="kombin.0ajxo.KEM">Kombina&jcirc;o</ref>, 
+      kiu naskas salon per kombini&gcirc;ado kun acido:
+      <ekz>
+        molekuloj po unu de ribozo, de organika <tld/>o kaj de fosfata acido kombini&gcirc;as
+        kemie por fari tiel nomatan nukleotidon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Steloj;monato2/007157.html">Vivo: Riboj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekzistas kvin nitrogenaj <tld/>oj: adenino, guanino, timino, citozino kaj uracilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=10523">Nitrogena bazo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Base</trd>
+    <trdgrp lng="hu">
        <trd>b&aacute;zis</trd>,
        <trd>l&uacute;g</trd>
-     </trdgrp>
-     <trd lng="pl">zasada</trd>
-     <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;
-     <klr>(&c_h;&c_i;&c_m;.)</klr></trd>
-   </snc>
-   <snc mrk="baz.0o.MAT">
+    </trdgrp>
+    <trd lng="pl">zasada</trd>
+    <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;
+    <klr>(&c_h;&c_i;&c_m;.)</klr></trd>
+  </snc>
+  <snc mrk="baz.0o.MAT">
      <uzo tip="fak">MAT</uzo>
      <subsnc mrk="baz.0o.nombrosistema">
        <uzo tip="fak">KOMP</uzo>
@@ -142,10 +273,10 @@
            <trd lng="en">base of natural logarithms</trd>
            <trd lng="fr">base des logarithmes naturels</trd>
            <trd lng="hu">term&eacute;szetes logaritmus
-<ind>alapja</ind></trd>
+             <ind>alapja</ind></trd>
            <trd lng="pl">podstawa logarytmu naturalnego</trd>
            <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; 
-&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_h;
+             &c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_h;
            &c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;</trd>
          </ekz>
        </dif>
@@ -157,7 +288,7 @@
        <trd lng="pl">podstawa<klr tip="ind"> (logarytmu lub
        pot&eogonek;gi)</klr></trd>
        <trd lng="ru">&c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;<klr tip="ind"> 
-(&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;)</klr></trd>
+       (&c_l;&c_o;&c_g;&c_a;&c_r;&c_i;&c_f;&c_m;&c_a;)</klr></trd>
      </subsnc>
      <subsnc mrk="baz.0o.figuro">
        <fnt><bib>MatTerm</bib><lok>p. 7, p.p. triangulo</lok></fnt>
@@ -166,8 +297,15 @@
          figuro</ref>)</klr>
          Konvencie elektita <ref tip="super" cel="later.0o">latero</ref>
          a&ubreve; <ref tip="super" cel="fac.0o.pluredro">faco</ref>, kiu
-limas
-         la figuron; la longo de tia latero a&ubreve; la areo de tia faco:
+         limas la figuron; la longo de tia latero a&ubreve; la areo de tia faco:
+        <ekz>
+          &ccirc;i tiu triangulo, nomata Delta de Nilo, havas kiel <tld/>on la bordon de
+          Mediteraneo
+          <fnt>
+            <bib>Far1</bib>
+            <lok>Anta&ubreve;parolo</lok>
+          </fnt>;
+        </ekz>
          <ekz>
            <tld/>o de
            <refgrp tip="malprt">
@@ -179,8 +317,7 @@ limas
          </ekz>
          <ekz>
            <tld/>oj de <ref tip="malprt" cel="prism.0o">prismo</ref>
-           <klr>(&ccirc;iu el &gcirc;iaj du paralelaj kaj samareaj
-facoj)</klr>;
+           <klr>(&ccirc;iu el &gcirc;iaj du paralelaj kaj samareaj facoj)</klr>;
          </ekz>
          <ekz>
            areo de <ref cel="parale2.0o">paralelogramo</ref>
@@ -279,10 +416,10 @@ facoj)</klr>;
    </snc>
   <trd lng="af">basis</trd>
   <trd lng="am">&#x1218;&#x1220;&#x1228;&#x1275;</trd>
-  <trd lng="ar">&#x642;&#x627;&#x639;&#x62F;&#x629;</trd>
+  <trd lng="ar">&a_q;&a_A;&a_ayn;&a_d;&a_t_marbuta;</trd>
   <trd lng="az">baza</trd>
   <trd lng="bn">&#x998;&#x9BE;&#x981;&#x99F;&#x9BF;</trd>
-  <trd lng="bo">&#xF62;&#xFA8;&#xF44;&#xF0B;&#xF42;&#xF5E;&#xF72;&#xF0B;</trd>
+  <trd lng="bo">&t_ra;&t_mata;&t_nga;&t_tsheg;&t_ga;&t_zha;&t_gigu;&t_tsheg;</trd>
   <trd lng="bs">baza</trd>
   <trd lng="co">suttastratu</trd>
   <trdgrp lng="cs">
@@ -291,84 +428,160 @@ facoj)</klr>;
     <trd>panel</trd>,
     <trd>z&aacute;kladna</trd>
   </trdgrp>
+  <trd lng="cy">sylfaen</trd>
   <trd lng="da">basen</trd>
   <trd lng="en">base</trd>
   <trd lng="es">base</trd>
   <trd lng="et">alus</trd>
   <trd lng="fr">base</trd>
   <trd lng="fy">basis</trd>
+  <trd lng="ga">bonn</trd>
+  <trd lng="gd">bunait</trd>
   <trd lng="gu">&#xA86;&#xAA7;&#xABE;&#xAB0;</trd>
   <trd lng="ha">tushe</trd>
-  <trd lng="he">&#x5D1;&#x5E1;&#x5D9;&#x5E1;</trd>
+  <trd lng="he">&bet;&samekh;&yod;&samekh;</trd>
   <trd lng="hi">&#x906;&#x927;&#x93E;&#x930;</trd>
+  <trd lng="hmn">paus</trd>
   <trd lng="hr">baza</trd>
+  <trd lng="ht">baz</trd>
   <trd lng="hy">&#x562;&#x561;&#x566;&#x561;</trd>
-  <trd lng="is">st&#xF6;&#xF0;</trd>
+  <trd lng="ig">isi</trd>
+  <trd lng="is">st&ouml;&#xF0;</trd>
   <trd lng="ja">&#x30D9;&#x30FC;&#x30B9;</trd>
-  <trd lng="jw">dasar</trd>
+  <trd lng="jv">dasar</trd>
   <trd lng="ka">&#x10D1;&#x10D0;&#x10D6;&#x10D0;</trd>
+  <trd lng="kk">&c_b;&c_a;&c_z;&c_a;</trd>
   <trd lng="km">&#x1798;&#x17BC;&#x179B;&#x178A;&#x17D2;&#x178B;&#x17B6;&#x1793;</trd>
+  <trd lng="kn">&#xCAE;&#xCC2;&#xCB2;</trd>
   <trd lng="ko">&#xAE30;&#xBCF8;</trd>
+  <trd lng="ku">bingeh</trd>
+  <trd lng="ky">&c_b;&c_a;&c_z;&c_a;</trd>
+  <trd lng="lat">basi</trd>
   <trd lng="lo">&#xE96;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">baz&#x117;</trd>
+  <trd lng="lv">b&amacron;ze</trd>
+  <trd lng="mg">fototra</trd>
+  <trd lng="mi">turanga</trd>
+  <trd lng="mk">&c_b;&c_a;&c_z;&c_a;</trd>
   <trd lng="ml">&#xD05;&#xD1F;&#xD3F;&#xD24;&#xD4D;&#xD24;&#xD31;</trd>
+  <trd lng="mn">&#x4AF;&c_n;&c_d;&c_s;&c_e;&c_n;</trd>
   <trd lng="mr">&#x92C;&#x947;&#x938;</trd>
+  <trd lng="ms">asas</trd>
+  <trd lng="mt">ba&zdot;i</trd>
   <trd lng="my">&#x1021;&#x1001;&#x103C;&#x1031;&#x1005;&#x102D;&#x102F;&#x1000;&#x103A;&#x1005;&#x1001;&#x1014;&#x103A;&#x1038;</trd>
   <trd lng="ne">&#x906;&#x927;&#x93E;&#x930;</trd>
   <trd lng="ny">m&#x2019;munsi</trd>
   <trd lng="pa">&#xA05;&#xA27;&#xA3E;&#xA30;</trd>
-  <trd lng="ps">&#x627;&#x689;&#x647;</trd>
-  <trd lng="sd">&#x628;&#x646;&#x64A;&#x627;&#x62F;&#x64A; &#x637;&#x648;&#x631;</trd>
+  <trd lng="ps">&a_A;&#x689;&a_h;</trd>
+  <trd lng="rw">shingiro</trd>
+  <trd lng="sd">&a_b;&a_n;&a_y;&a_A;&a_d;&a_y; &a_T;&a_w;&a_r;</trd>
   <trd lng="si">&#xDB4;&#xDAF;&#xDB1;&#xDB8;</trd>
   <trdgrp lng="sk">
     <trd>podklad</trd>,
     <trd>z&aacute;klad</trd>
   </trdgrp>
-  <trd lng="sq">baz&#xEB;</trd>
+  <trd lng="sl">baza</trd>
+  <trd lng="sm">muli</trd>
+  <trd lng="sn">hwaro</trd>
+  <trd lng="so">saldhig</trd>
+  <trd lng="sq">baz&euml;</trd>
   <trd lng="st">botlaaseng</trd>
+  <trd lng="su">dasar</trd>
+  <trd lng="sw">msingi</trd>
   <trd lng="ta">&#xB85;&#xB9F;&#xBBF;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBC8;</trd>
   <trd lng="te">&#xC2C;&#xC47;&#xC38;&#xC4D;</trd>
+  <trd lng="tg">&c_b;&c_a;&c_z;&c_a;</trd>
   <trd lng="th">&#xE10;&#xE32;&#xE19;</trd>
-  <trd lng="ur">&#x628;&#x646;&#x6CC;&#x627;&#x62F;</trd>
+  <trd lng="tt">&c_n;&c_i;&c_g;&c_je;&c_z;</trd>
+  <trd lng="uk">&c_b;&c_a;&c_z;&c_a;</trd>
+  <trd lng="ur">&a_b;&a_n;&f_y;&a_A;&a_d;</trd>
+  <trd lng="uz">asos</trd>
   <trd lng="vi">c&#x1A1; s&#x1EDF;</trd>
-  <trd lng="yi">&#x5D1;&#x5D0;&#x5B7;&#x5D6;&#x5E2;</trd>
+  <trd lng="xh">isiseko</trd>
+  <trd lng="yi">&bet;&alef;&#x5B7;&zayin;&ayin;</trd>
+  <trd lng="yo">mim&#x1ECD;</trd>
   <trd lng="zu">isiza</trd>
 </drv>
 
 <drv mrk="baz.0a">
   <kap><tld/>a</kap>
-  <snc mrk="baz.0a.SNC">
+  <snc mrk="baz.0a.rilata">
     <dif>
-      Rilata al bazo:
+      Rilata al <tld/>o:
       <ekz>
-        la baza tavolo de epidermo
+        la <tld/>a tavolo de epidermo
         <fnt>
           <aut>Vikipedio</aut>,
-          <vrk><url ref="http://eo.wikipedia.org/wiki/Efelido">Efelido</url></vrk>
+          <vrk><url ref="&Viki;/Efelido">Efelido</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la <tld/>a komunman&gcirc;ejo ili staradis kontra&ubreve; ni kaj fikse rigardante niajn
+        bu&scirc;ojn
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
         </fnt>.
       </ekz>
     </dif>
-  <trd lng="fr">basal</trd>
+    <refgrp tip="vid">
+      <ref cel="fund.0a.space">funda<sncref/></ref>,
+      <ref cel="fundam.0a.KON">fundamenta<sncref/></ref>,
+      <ref cel="supr.mal0a">malsupra</ref>
+    </refgrp>
+    <trd lng="de">Basis-</trd>
+    <trd lng="fr">basal</trd>
   </snc>
   <snc mrk="baz.0a.KOMUNE">
     <dif>
       Kiu konsistigas <tld/>on, unuan &scirc;tupon,
       kiu estas <ref tip="vid" cel="elemen.0a">elementa</ref>:
       <ekz>
-        la bazaj principoj de la lingvo
+        la <tld/>aj principoj de la lingvo
         <fnt>
           <aut>Ivo Lapenna</aut>,
           <vrk><url ref="http://www.angelfire.com/ny2/ts/lapenna.html">Por pli
-          efika informado</url></vrk>,
-          <bib/>,
-          <lok/>
+          efika informado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la gramatiko konsistas el 16 mallongaj <tld/>aj reguloj
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj motivoj
+        <fnt>
+          <bib>LGA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia <tld/>a tezo sonis jene <klr>[&#x2026;]</klr>
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la animo estas la <tld/>a ka&ubreve;zo de la sen&ccirc;esa rabado kaj batalo
+        <fnt>
+          <bib>VaK</bib>
         </fnt>.
       </ekz>
     </dif>
-  <trd lng="fr">basique</trd>
+    <refgrp tip="vid">
+      <ref cel="esenc.0a">esenca</ref>,
+      <ref cel="fundam.0a.FIG">fundamenta<sncref/></ref>,
+      <ref cel="kern.0a">kerna</ref>,
+      <ref cel="origin.0a">origina</ref>,
+      <ref cel="radik.0a.FIG">radika<sncref/></ref>
+    </refgrp>
+    <trd lng="de">grundlegend</trd>
+    <trd lng="en">basic</trd>
+    <trd lng="fr">basique</trd>
   </snc>
   <trd lng="af">basiese</trd>
   <trd lng="am">&#x1218;&#x1230;&#x1228;&#x1273;&#x12CA;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x623;&#x633;&#x627;&#x633;&#x64A;&#x629;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_A_hamza_sure;&a_s;&a_A;&a_s;&a_y;&a_t_marbuta;</trd>
   <trd lng="az">&#x259;sas</trd>
   <trdgrp lng="be">
     <trd>&c_b;&c_a;&c_z;&c_a;&c_v;&c_y;</trd>,
@@ -386,26 +599,45 @@ facoj)</klr>;
     <trd>kmenov&yacute;</trd>,
     <trd>z&aacute;kladn&iacute;</trd>
   </trdgrp>
-  <trd lng="da">grundl&#xE6;ggende</trd>
-  <trd lng="et">p&#xF5;hi</trd>
+  <trd lng="cy">sylfaenol</trd>
+  <trd lng="da">grundl&aelig;ggende</trd>
+  <trd lng="et">p&otilde;hi</trd>
   <trd lng="eu">oinarrizko</trd>
   <trd lng="fr">de <ind>base</ind></trd>
-  <trd lng="gl">b&#xE1;sico</trd>
+  <trd lng="ga">bun&uacute;sach</trd>
+  <trd lng="gd">bunaiteach</trd>
+  <trd lng="gl">b&aacute;sico</trd>
   <trd lng="gu">&#xAAE;&#xAC2;&#xAB3;&#xAAD;&#xAC2;&#xAA4;</trd>
   <trd lng="ha">na asali</trd>
-  <trd lng="he">&#x5D1;&#x5E1;&#x5D9;&#x5E1;&#x5D9;</trd>
+  <trd lng="he">&bet;&samekh;&yod;&samekh;&yod;</trd>
   <trd lng="hi">&#x92C;&#x941;&#x928;&#x93F;&#x92F;&#x93E;&#x926;&#x940;</trd>
+  <trd lng="hmn">yooj yim</trd>
   <trd lng="hr">osnovna</trd>
+  <trd lng="ht">debaz</trd>
   <trd lng="hy">&#x570;&#x56B;&#x574;&#x576;&#x561;&#x56F;&#x561;&#x576;</trd>
-  <trd lng="is">undirst&#xF6;&#xF0;u</trd>
+  <trd lng="ig">isi</trd>
+  <trd lng="is">undirst&ouml;&#xF0;u</trd>
   <trd lng="ja">&#x57FA;&#x672C;</trd>
-  <trd lng="jw">dhasar</trd>
+  <trd lng="jv">dhasar</trd>
   <trd lng="ka">&#x10EB;&#x10D8;&#x10E0;&#x10D8;&#x10D7;&#x10D0;&#x10D3;&#x10D8;</trd>
+  <trd lng="kk">&c_n;&c_je;&c_g;&c_ib;&c_z;&c_g;&c_ib;</trd>
   <trd lng="km">&#x1798;&#x17BC;&#x179B;&#x178A;&#x17D2;&#x178B;&#x17B6;&#x1793;</trd>
+  <trd lng="kn">&#xCAE;&#xCC2;&#xCB2;</trd>
   <trd lng="ko">&#xAE30;&#xBCF8;</trd>
+  <trd lng="ku">bingeh&icirc;n</trd>
+  <trd lng="ky">&c_n;&c_je;&c_g;&c_i;&c_z;&c_g;&c_i;</trd>
+  <trd lng="lat">prima</trd>
   <trd lng="lo">&#xE82;&#xEB1;&#xEC9;&#xE99;&#xE9E;&#xEB7;&#xEC9;&#xE99;&#xE96;&#xEB2;&#xE99;</trd>
+  <trd lng="lt">pagrindinis</trd>
+  <trd lng="lv">b&amacron;zes</trd>
+  <trd lng="mg">fototra</trd>
+  <trd lng="mi">taketake</trd>
+  <trd lng="mk">&c_o;&c_s;&c_n;&c_o;&c_v;&c_n;&c_i;&c_t;&c_je;</trd>
   <trd lng="ml">&#xD05;&#xD1F;&#xD3F;&#xD38;&#xD4D;&#xD25;&#xD3E;&#xD28;&#xD2A;&#xD30;&#xD2E;&#xD3E;&#xD2F;</trd>
+  <trd lng="mn">&#x4AF;&c_n;&c_d;&c_s;&c_e;&c_n;</trd>
   <trd lng="mr">&#x92E;&#x942;&#x932;&#x92D;&#x942;&#x924;</trd>
+  <trd lng="ms">asas</trd>
+  <trd lng="mt">ba&zdot;iku</trd>
   <trd lng="my">&#x1021;&#x1001;&#x103C;&#x1031;&#x1001;&#x1036;&#x1015;&#x100A;&#x102C;</trd>
   <trd lng="ne">&#x906;&#x927;&#x93E;&#x930;&#x92D;&#x942;&#x924;</trd>
   <trd lng="ny">zoyambirira</trd>
@@ -415,49 +647,106 @@ facoj)</klr>;
     <trd>elementarny</trd>,
     <trd>kluczowy</trd>,
   </trdgrp>
-  <trd lng="ps">&#x62F; &#x627;&#x633;&#x627;&#x633;&#x64A;</trd>
+  <trd lng="ps">&a_d; &a_A;&a_s;&a_A;&a_s;&a_y;</trd>
   <trd lng="ro">cheie</trd>
-  <trd lng="sd">&#x628;&#x646;&#x64A;&#x627;&#x62F;&#x64A;</trd>
+  <trd lng="rw">shingiro</trd>
+  <trd lng="sd">&a_b;&a_n;&a_y;&a_A;&a_d;&a_y;</trd>
   <trd lng="si">&#xDB8;&#xDD6;&#xDBD;&#xDD2;&#xD9A;</trd>
   <trdgrp lng="sk">
     <trd>k&lcaron;&uacute;&ccaron;ov&yacute;</trd>,
     <trd>z&aacute;kladn&yacute;</trd>
   </trdgrp>
+  <trd lng="sl">osnovni</trd>
+  <trd lng="sm">faavae</trd>
+  <trd lng="sn">zvinokosha</trd>
+  <trd lng="so">aasaasiga ah</trd>
   <trd lng="sq">themelore</trd>
   <trd lng="st">tsa motheo tsa</trd>
+  <trd lng="su">dasar</trd>
+  <trd lng="sw">msingi</trd>
   <trd lng="ta">&#xB85;&#xB9F;&#xBBF;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBC8;</trd>
   <trd lng="te">&#xC2A;&#xC4D;&#xC30;&#xC3E;&#xC25;&#xC2E;&#xC3F;&#xC15;</trd>
+  <trd lng="tg">&c_a;&c_s;&c_o;&c_s;&#x4E3;</trd>
   <trd lng="th">&#xE02;&#xE31;&#xE49;&#xE19;&#xE1E;&#xE37;&#xE49;&#xE19;&#xE10;&#xE32;&#xE19;</trd>
   <trd lng="tl">pangunahing</trd>
-  <trd lng="ur">&#x628;&#x646;&#x6CC;&#x627;&#x62F;&#x6CC;</trd>
+  <trd lng="tt">&c_t;&#x4E9;&c_p;</trd>
+  <trd lng="uk">&c_o;&c_s;&c_n;&c_o;&c_v;&c_n;&c_i;&c_j;</trd>
+  <trd lng="ur">&a_b;&a_n;&f_y;&a_A;&a_d;&f_y;</trd>
+  <trd lng="uz">asosiy</trd>
   <trd lng="vi">c&#x1A1; b&#x1EA3;n</trd>
-  <trd lng="yi">&#x5D9;&#x5E7;&#x5E2;&#x5E8;&#x5D3;&#x5D9;&#x5E7;</trd>
+  <trd lng="xh">ezisisiseko</trd>
+  <trd lng="yi">&yod;&qof;&ayin;&resh;&dalet;&yod;&qof;</trd>
+  <trd lng="yo">ipil&#x1EB9;</trd>
   <trd lng="zu">eziyisisekelo</trd>
 </drv>
 
 <drv mrk="baz.0i">
-   <kap><tld/>i, <var><kap>sur<tld/>igi</kap></var></kap>
-   <gra><vspec>tr</vspec></gra>
-   <snc>
-     <dif>
-       Apogi sur, fundamenti sur, doni kiel <tld/>on al io:
-       <ekz>
-         <tld/>i konstruon sur la roko;
-       </ekz>
-       <ekz>
-         <tld/>i sian opinion, rifuzon sur iu<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         sin <tld/>i sur la kutimo;
-       </ekz>
+  <kap><tld/>i, <var><kap>sur<tld/>igi</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      <ref tip="sin" cel="apog.0i">Apogi</ref> sur, fundamenti sur, doni kiel <tld/>on al io:
+      <ekz>
+        &scirc;i ekvidis grandegan, sur dika nuko bazitan kapon
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        grekaj astronomoj ne sukcesis interakordigi lun-<tld/>itan kaj sun-<tld/>itan
+        kalendarojn
+        <fnt>
+          <bib>Rsp</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia scio estas <tld/>ita sur mia propra pensado
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tuta esenco de lingvo estas <tld/>ita anta&ubreve; &ccirc;io sur interkonsento
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. Vortuzo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        religia &scirc;ovinismo <klr>[&#x2026;]</klr> <tld/>ita sur malvero
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la religioj sin <tld/>as sur fabeloj porinfanaj
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mondo <tld/>as sin sur trompo, kaj la vivo estas iluzio
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili ne konas la ordon, do mi <tld/>is sur tio miajn kalkulojn, kaj mi ne eraris
+        <fnt>
+          <bib>VaK</bib>
+        </fnt>;
+      </ekz>
        <ekz>
          por ili la tuta vivo estas <tld/>ita sur la mona profito
-         <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 18</lok></fnt>;
-       </ekz>
-       <ekz>
-         tiu regulo estas <tld/>ita sur praktikaj konsideroj.
+         <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 18</lok></fnt>.
        </ekz>
      </dif>
+    <refgrp tip="vid">
+       <ref cel="fond.0i">fondi</ref>,
+       <ref cel="star.0igi.fondi">starigi<sncref/></ref>
+    </refgrp>
    </snc>
    <trdgrp lng="be">
      <trd>&c_a;&c_s;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -475,7 +764,7 @@ facoj)</klr>;
    </trdgrp>
   <trd lng="en">base</trd>
   <trd lng="fr">baser</trd>
-  <trd lng="he">&#x5DC;&#x5D1;&#x5E1;&#x5E1;</trd>
+  <trd lng="he">&lamed;&bet;&samekh;&samekh;</trd>
   <trd lng="hu">alapoz</trd>
   <trdgrp lng="pl">
      <trd>bazowa&cacute;<klr> (na czym&sacute;)</klr></trd>,
@@ -493,24 +782,65 @@ facoj)</klr>;
     <trd>postavi&tcaron;</trd>,
     <trd>zalo&zcaron;i&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x441;&#x43D;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x431;&#x430;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="baz.0igxi">
-   <kap><tld/>i&gcirc;i</kap>
-   <gra><vspec>ntr</vspec></gra>
-   <snc>
-     <dif>
-       Havi kiel <tld/>on:
-       <ekz>
-         la turo <tld/>i&gcirc;as sur dika
-         masona&jcirc;o;
-       </ekz>
-       <ekz>
-         nia metodo <tld/>i&gcirc;as sur la
-         praktiko.
-       </ekz>
-     </dif>
-   </snc>
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc>
+    <dif>
+      Havi kiel <tld/>on:
+      <ekz>
+        viaj suspektoj <tld/>i&gcirc;as sur la dira&jcirc;oj de viro kun malpreciza memoro
+        <fnt>
+          <bib>CKv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la germana eldono el la jaro 1926 <tld/>i&gcirc;as sur tiu teksto
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Leibniz</nom> anka&ubreve; atentigis, ke la prilingvaj esploroj kaj teoriaj konkludoj devus
+        <tld/>i&gcirc;i sur la faktoj
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rusa lingvo <tld/>i&gcirc;as sur la dialekto de Moskvo
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tia akompano <tld/>i&gcirc;as ne nur sur simpatio, multe pli sur atendeblaj karameloj
+        <klr>[&#x2026;]</klr> en la butiko
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>.
+      </ekz>
+      <ekz>
+        la &scirc;ogrena alfabeto <tld/>i&gcirc;is sur la cirila, sed enhavis plurajn specialajn
+        simbolojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vja&ccirc;eslav (Slavik) Ivanov</aut>
+          <vrk><url ref="&Monato;/2003/007865.html">La oseta lingvo</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="apog.0igxi">apogi&gcirc;i</ref>
+    </refgrp>
+  </snc>
    <trdgrp lng="be">
      <trd>&c_a;&c_s;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
      <trd>&c_b;&c_a;&c_z;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
@@ -519,7 +849,7 @@ facoj)</klr>;
    <trd lng="de">sich <ind>gr&uuml;nden</ind> (auf)</trd>
    <trd lng="en">be <ind>based</ind> (upon)</trd>
    <trd lng="fr">se <ind>baser</ind></trd>
-   <trd lng="he">&#x5DC;&#x5D4;&#x5EA;&#x5D1;&#x5E1;&#x5E1;</trd>
+   <trd lng="he">&lamed;&he;&tav;&bet;&samekh;&samekh;</trd>
   <trd lng="hu">alapul</trd>
    <trdgrp lng="pl">
      <trd>bazowa&cacute;<klr> (na czym&sacute;)</klr></trd>,
@@ -531,30 +861,64 @@ facoj)</klr>;
      <trd>&c_b;&c_a;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
    </trdgrp>
    <trd lng="sk">zaklada&tcaron; sa</trd>
+  <trdgrp lng="uk">
+    <trd>&#x491;&#x440;&#x443;&#x43D;&#x442;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F; &#x43D;&#x430;...</trd>,
+    <trd>&#x431;&#x430;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F; &#x43D;&#x430;..</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="baz.sen0a">
-   <kap>sen<tld/>a</kap>
-   <snc>
-     <dif>
-       Al kiu mankas <tld/>o,
-       fundamento, pravigo:
-       <ekz>
-         sen<tld/>aj teorioj, pretendoj.
-       </ekz>
+  <kap>sen<tld/>a</kap>
+  <snc>
+    <dif>
+      Al kiu mankas <tld/>o, fundamento, pravigo:
+      <ekz>
+        li sentis, ke lia opinio estis anta&ubreve;ju&gcirc;o kaj ke lia malamikeco estis sen<tld/>a
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        piramido de kulpigoj <klr>[&#x2026;]</klr> sen<tld/>aj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi ne plu havos sen<tld/>ajn viziojn kaj ne faros anta&ubreve;dirojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 13:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sub influo de senbazaj kredoj
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>.
+      </ekz>
      </dif>
      <refgrp tip="vid">
        <ref cel="aer.0a">aera</ref>,
        <ref cel="prav">nepravigita</ref>,
-       <ref cel="serioz">neserioza</ref>
+       <ref cel="serioz">neserioza</ref>,
+       <ref cel="fond.sen0a">senfonda</ref>,
+       <ref cel="kauxz.sen0e">senka&ubreve;za</ref>
      </refgrp>
-   </snc>
-   <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_n;&c_y;</trd>
+  </snc>
+  <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_n;&c_y;</trd>
   <trdgrp lng="cs">
     <trd>bez podkladu <klr>(b&yacute;t)</klr></trd>,
     <trd>bezd&uring;vodn&yacute;</trd>,
     <trd>neopodstatn&ecaron;n&yacute;</trd>,
     <trd>plan&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>grundlos</trd>,
+    <trd>unbegr&uuml;ndet</trd>,
+    <trd>ohne <ind>Grund</ind></trd>
   </trdgrp>
   <trd lng="en">baseless</trd>
   <trdgrp lng="fr">
@@ -570,6 +934,11 @@ facoj)</klr>;
     <trd>neopodstatnen&yacute;</trd>,
     <trd>nepodlo&zcaron;en&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x435;&#x437;&#x43F;&#x456;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43D;&#x435;&#x43E;&#x431;&#x491;&#x440;&#x443;&#x43D;&#x442;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x433;&#x43E;&#x43B;&#x43E;&#x441;&#x43B;&#x456;&#x432;&#x43D;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="baz.sur0ede">
@@ -580,32 +949,57 @@ facoj)</klr>;
      <dif>
        <ref tip="super" cel="laux.0.referencajxo">La&ubreve;<sncref/></ref>,
        uzante kiel <tld/>on, kiel modelon:
+      <ekz>
+        vi havas etan terpecon kaj vi volas havi prunton <tld/>e de tiu, vi deziras
+        hipotekon
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
        <ekz>
-         sur<tld/>e de tiu &ccirc;i dokumento, oni povus <klr>...</klr>
+         sur<tld/>e de tiu &ccirc;i dokumento, oni povus <klr>[&#x2026;]</klr>
          elverki  specifajn planojn
          <fnt><vrk>Strategia Plano de Universala Esperanto-Asocio</vrk>,
          <bib>Esperanto</bib>, <lok>1988:10 (994), p.
          168a</lok></fnt>;
        </ekz>
       <ekz>
-        <tld/>e de &ccirc;i tiuj konsideroj <klr>...</klr>
+        la meritplena lingvisto faris multajn vere sciencajn konkludojn sur<tld/>e de
+        objektive esploritaj faktoj
         <fnt>
-          <bib>OriginoDeSpecioj</bib>,
-          <lok>Enkonduko</lok>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        certe trovi&gcirc;is, <tld/>e de tiu reago, ia geedza konflikto
+        <fnt>
+          <bib>BonaLingvo</bib>
         </fnt>.
-       </ekz>
-     </dif>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="fund.0ede">funde de</ref>
+    </refgrp>
    </snc>
    <trdgrp lng="be">
      <trd>&c_n;&c_a; <ind>&c_b;&c_a;&c_z;&c_je;</ind></trd>,
      <trd>&c_n;&c_a; <ind>&c_a;&c_s;&c_n;&c_o;&c_v;&c_je;</ind></trd>
    </trdgrp>
   <trd lng="cs">na z&aacute;klad&ecaron; <klr>(&ccaron;eho)</klr></trd>
+  <trdgrp lng="de">
+    <trd>auf der <ind>Basis</ind> von</trd>,
+    <trd>auf <ind>Grundlage</ind> von</trd>
+  </trdgrp>
   <trdgrp lng="fr">
      <trd>&agrave; partir de<klr> (en prenant pour base)</klr></trd>,
      <trd>sur la base de</trd>
    </trdgrp>
   <trd lng="sk">na z&aacute;klade</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&#x430; &#x431;&#x430;&#x437;&#x456;</trd>,
+    <trd>&#x43D;&#x430; &#x43F;&#x456;&#x434;&#x441;&#x442;&#x430;&#x432;&#x456;</trd>,
+    <trd>&#x437;&#x433;&#x456;&#x434;&#x43D;&#x43E; &#x437;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="baz.duala0o">
@@ -618,7 +1012,7 @@ facoj)</klr>;
        <frm><g>E</g></frm>)</klr>
        Tia <ref cel="baz.0o.vektoraspaco"><tld/>o <sncref/></ref>
        <frm am="(e^i)">(<g>e</g><sup><k>i</k></sup>)</frm> de la
-       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb        e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
+       <ref cel="dual.0o.MAT">dualo</ref> de <frm am="bb        E"><g>E</g></frm>, ke <frm am="bb               e^i(bb e_j)"><g>e</g><sup><k>i</k></sup>(<g>e</g><sub><k>j</k></sub>)</frm>
        egalas al <frm>1</frm>, se <frm am="i=j"><k>i</k> = <k>j</k></frm>, kaj al <frm>0</frm>
        aliokaze.
      </dif>
@@ -646,7 +1040,7 @@ facoj)</klr>;
        <frm am="bb K^n"><g>K</g><sup><k>n</k></sup></frm>) </klr>
        <ref tip="super" cel="baz.0o.vektoraspaco">Bazo</ref> konsistanta
        el la opoj, kies &ccirc;iuj <ref cel="term.0o.opo">termoj</ref> egalas
-       alla nulo de <frm am="bb K"><g>K</g></frm>, krom unu, kiu egalas
+       al la nulo de <frm am="bb K"><g>K</g></frm>, krom unu, kiu egalas
        al &gcirc;ia
        unuo:
        <ekz>
@@ -671,27 +1065,27 @@ facoj)</klr>;
 </art>
 <!--
 $Log$
+versio 1.146 2022/04/26 15:00:33
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.142 2021/11/23 07:26:48
+Wolfram Diestel: ~i..sur~e de: ekz-oj, ref-oj, trd de
+
+versio 1.141 2021/11/22 20:29:50
+Wolfram Diestel: ~a: ekz-oj, ref-oj, trd de
+
+versio 1.140 2021/11/22 17:35:28
+Wolfram Diestel: ~o: +snc MIL; pliaj ekz-oj
+
+versio 1.139 2021/11/22 08:35:19
+Wolfram Diestel: +trd de
+
+versio 1.138 2021/11/22 07:26:51
+Wolfram Diestel: ~o: ekz-oj; ~o FIG: pligheneraligis dif
+
 versio 1.60 2021/05/15 09:58:21
 Dmitri Gabinski: + trd be
 
 versio 1.58 2020/02/13 20:10:18
-Wolfram Diestel: formuloj per am
-
-Revision 1.57  2017/12/20 23:10:20  revo
-Vito Redsky: +trd ro
-
-Revision 1.56  2017/08/25 22:10:19  revo
-Vito Redsky: +trd ro +trd pl
-
-Revision 1.55  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.54  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.53  2015/02/10 14:10:15  revo
-Sergio Pokrovskij: malfermitaj globoj
-
-Revision 1.52  2015/02/01 18:10:15  revo
 -->
 </vortaro>

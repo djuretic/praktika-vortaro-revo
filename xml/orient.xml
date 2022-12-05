@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: orient.xml,v 1.90 2021/06/19 06:38:30 revo Exp $">
+<art mrk="$Id: orient.xml,v 1.126 2022/05/01 17:17:01 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>orient</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,11 +11,14 @@
     <dif>
       Unu el la kvar geografiaj &ccirc;efpunktoj, difinata per tiu
       parto de la horizonto, kie oni vidas la sunon levi&gcirc;i, kaj
-      kontra&ubreve;a al la <ref tip="ant" cel="okcide.0o.horizonta">okcidento</ref>; la direkto difinata per
+      kontra&ubreve;a al la <ref tip="ant" cel="okcide.0o.horizonta">okcidento</ref>; la direkto difinata
+      per
       tiu &ccirc;efpunkto:
       <ekz>
-        supreniru sur la supron de Pisga, kaj direktu viajn okulojn al
-        okcidento kaj al nordo kaj al sudo kaj al <tld/>o
+        supreniru sur la supron de <nom>Pisga</nom>, kaj direktu viajn okulojn al
+        <ref cel="okcide.0o.horizonta">okcidento</ref> kaj 
+        al <ref cel="nord.0o.horizonta">nordo</ref> 
+        kaj al <ref cel="sud.0o.horizonta">sudo</ref> kaj al <tld/>o
         <fnt><bib>MT</bib>, <lok>&Rea; 3:27</lok></fnt>;
       </ekz>
       <ekz>
@@ -39,38 +42,19 @@
   <snc mrk="orient.0o.absoluta">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      Terparto ku&scirc;anta <tld/>e de la hejmo de koncerna civilizo:
+      Terparto ku&scirc;anta <tld/>e de la hejmo de koncerna a&ubreve;toro:
+      <ekz>
+        kaj tiu homo estis pli eminenta, ol &ccirc;iuj filoj de la
+        <tld/>o
+        <fnt><bib>MT</bib>, <lok>&Ijo; 1:3</lok></fnt>;
+      </ekz>
+      <ekz>
+        jen sa&gcirc;uloj el la <tld/>o venis al Jerusalem,
+        dirante: kie estas tiu, kiu estas naskita
+        Re&gcirc;o de la Judoj
+        <fnt><bib>NT</bib>, <lok>&Mat; 2:1,2</lok></fnt>?
+      </ekz>
     </dif>
-    <subsnc mrk="orient.0o.euxropocentrisme">
-      <dif>
-        La landoj ku&scirc;antaj <tld/>e de Okcidenta E&ubreve;ropo:
-        <ekz>
-          tapi&scirc;oj el <tld lit="O"/>o.
-        </ekz>
-      </dif>
-    </subsnc>
-    <subsnc mrk="orient.0o.BIB">
-      <uzo tip="fak">BIB</uzo>
-      <dif>
-        La landoj ku&scirc;antaj <tld/>e de Palestino:
-        <ekz>
-          kaj tiu homo estis pli eminenta, ol &ccirc;iuj filoj de la
-          <tld/>o
-          <fnt><bib>MT</bib>, <lok>&Ijo; 1:3</lok></fnt>;
-        </ekz>
-        <ekz>
-          jen sa&gcirc;uloj el la <tld/>o venis al Jerusalem,
-          dirante: Kie estas tiu, kiu estas naskita
-          Re&gcirc;o de la Judoj?
-          <fnt><bib>NT</bib>, <lok>&Mat; 2:1,2</lok></fnt>
-        </ekz>
-      </dif>
-    </subsnc>
-    <trdgrp lng="br">
-      <trd>ar <ind>Reter</ind></trd>,
-      <trd>ar <ind>Sav-Heol</ind></trd>
-    </trdgrp>
-    <trd lng="de">Orient</trd>
   </snc>
   <snc mrk="orient.0o.FRA">
     <dif>
@@ -79,14 +63,20 @@
   </snc>
   <trd lng="af">oos</trd>
   <trd lng="am">&#x121D;&#x1235;&#x122B;&#x1245;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x634;&#x631;&#x642;</trd>
-  <trd lng="az">&#x15F;&#x259;rq</trd>
+  <trd lng="ar">&a_A;&a_l;&a_sh;&a_r;&a_q;</trd>
+  <trd lng="az">&scedil;&#x259;rq</trd>
   <trd lng="be">&c_u;&c_s;&c_h;&c_o;&c_d;</trd>
   <trd lng="bn">&#x9AA;&#x9C2;&#x9B0;&#x9CD;&#x9AC;</trd>
-  <trd lng="bo">&#xF64;&#xF62;&#xF0B;</trd>
+  <trd lng="bo">&t_sha;&t_ra;&t_tsheg;</trd>
   <trd lng="co">este</trd>
   <trd lng="cs">v&yacute;chod <klr>(sv&ecaron;t.strana)</klr></trd>
-  <trd lng="da">&#xF8;st</trd>
+  <trd lng="cy">ddwyrain</trd>
+  <trd lng="da">&oslash;st</trd>
+  <trdgrp lng="de">
+    <trd>Orient</trd>,
+    <trd>der <ind>Osten</ind></trd>,
+    <trd>Morgenland</trd>
+  </trdgrp>
   <trd lng="el">&alfa;&ny;&alfa;&tau;&omikron;&lambda;&eta_ton;</trd>
   <trd lng="en">east</trd>
   <trdgrp lng="es">
@@ -99,32 +89,50 @@
     <trd>est</trd>,
     <trd>orient</trd>
   </trdgrp>
+  <trd lng="ga">soir</trd>
+  <trd lng="gd">ear</trd>
   <trd lng="gl">leste</trd>
   <trd lng="gu">&#xAAA;&#xAC2;&#xAB0;&#xACD;&#xAB5;</trd>
   <trd lng="hi">&#x92A;&#x942;&#x930;&#x94D;&#x935;</trd>
-  <trd lng="hr">isto&#x10D;no</trd>
+  <trd lng="hmn">sab hnub tuaj</trd>
+  <trd lng="hr">isto&ccaron;no</trd>
+  <trd lng="ht">b&ograve; sol&egrave;y leve</trd>
   <trdgrp lng="hu">
     <trd>kelet</trd>,
     <trd>napkelet</trd>
   </trdgrp>
   <trd lng="hy">&#x561;&#x580;&#x565;&#x582;&#x565;&#x56C;&#x584;</trd>
   <trd lng="id">timur</trd>
+  <trd lng="ig">n&#x2019;ebe &#x1ECD;w&#x1EE5;wa anyanw&#x1EE5;</trd>
   <trd lng="is">austur</trd>
   <trd lng="ja">&#x6771;</trd>
-  <trd lng="jw">w&#xE9;tan</trd>
+  <trd lng="jv">w&eacute;tan</trd>
   <trd lng="ka">&#x10D0;&#x10E6;&#x10DB;&#x10DD;&#x10E1;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D7;&#x10D8;&#x10D7;</trd>
+  <trd lng="kk">&c_sh;&c_y;&#x493;&c_y;&c_s;</trd>
   <trd lng="km">&#x1781;&#x17B6;&#x1784;&#x1780;&#x17BE;&#x178F;</trd>
+  <trd lng="kn">&#xCAA;&#xCC2;&#xCB0;&#xCCD;&#xCB5;</trd>
   <trd lng="ko">&#xB3D9;&#xCABD;</trd>
+  <trd lng="ku">rohilat</trd>
+  <trd lng="ky">&c_ch;&c_y;&c_g;&c_y;&c_sh;</trd>
+  <trd lng="lat">orientem</trd>
   <trd lng="lo">&#xE9E;&#xEB2;&#xE81;&#xE95;&#xEB2;&#xEC0;&#xEA7;&#xEB1;&#xE99;&#xEAD;&#xEAD;&#xE81;</trd>
+  <trd lng="lt">&#x12F; rytus</trd>
+  <trd lng="lv">austrumiem</trd>
+  <trd lng="mg">atsinanana</trd>
+  <trd lng="mi">rawhiti</trd>
+  <trd lng="mk">&c_i;&c_s;&c_t;&c_o;&c_k;</trd>
   <trd lng="ml">&#xD15;&#xD3F;&#xD34;&#xD15;&#xD4D;&#xD15;&#xD4D;</trd>
+  <trd lng="mn">&c_z;&#x4AF;&#x4AF;&c_n;</trd>
   <trd lng="mr">&#x92A;&#x942;&#x930;&#x94D;&#x935;&#x947;&#x932;&#x93E;</trd>
+  <trd lng="ms">timur</trd>
+  <trd lng="mt">lvant</trd>
   <trd lng="my">&#x1021;&#x101B;&#x103E;&#x1031;&#x1037;</trd>
   <trd lng="ne">&#x92A;&#x942;&#x930;&#x94D;&#x935;</trd>
   <trd lng="nl">oosten<klr tip="ind"> (zn.)</klr></trd>
   <trd lng="ny">kum&#x2019;mawa</trd>
   <trd lng="pa">&#xA2A;&#xA42;&#xA30;&#xA2C;</trd>
   <trd lng="pl">wsch&oacute;d</trd>
-  <trd lng="ps">&#x62E;&#x62A;&#x64A;&#x681;</trd>
+  <trd lng="ps">&a_kh;&a_t;&a_y;&#x681;</trd>
   <trdgrp lng="pt">
     <trd>oriente</trd>,
     <trd>este</trd>,
@@ -133,26 +141,113 @@
     <trd>levante <klr tip="amb">(geogr.)</klr></trd>    
   </trdgrp>
   <trd lng="ru">&c_v;&c_o;&c_s;&c_t;&c_o;&c_k;</trd>
-  <trd lng="sd">&#x627;&#x648;&#x680;&#x631;</trd>
+  <trd lng="rw">iburasirazuba</trd>
+  <trd lng="sd">&a_A;&a_w;&#x680;&a_r;</trd>
   <trd lng="si">&#xDB1;&#xDD0;&#xD9C;&#xDD9;&#xDB1;&#xDC4;&#xDD2;&#xDBB;</trd>
   <trd lng="sk">v&yacute;chod</trd>
+  <trd lng="sl">vzhod</trd>
+  <trd lng="sm">sase</trd>
+  <trd lng="sn">mabvazuva</trd>
+  <trd lng="so">bari</trd>
   <trd lng="sq">lindje</trd>
   <trd lng="st">ka bochabela</trd>
+  <trd lng="su">wetan</trd>
   <trd lng="sv">&ouml;st</trd>
+  <trd lng="sw">mashariki</trd>
   <trd lng="ta">&#xB95;&#xBBF;&#xBB4;&#xB95;&#xBCD;&#xB95;&#xBC1;</trd>
   <trd lng="te">&#xC24;&#xC42;&#xC30;&#xC4D;&#xC2A;&#xC41;</trd>
+  <trd lng="tg">&c_sh;&c_a;&c_r;&#x49B;</trd>
   <trd lng="th">&#xE17;&#xE32;&#xE07;&#xE17;&#xE34;&#xE28;&#xE15;&#xE30;&#xE27;&#xE31;&#xE19;&#xE2D;&#xE2D;&#xE01;</trd>
   <trd lng="tl">silangan</trd>
-  <trd lng="ur">&#x648;&#x633;&#x637;&#x6CC;</trd>
-  <trd lng="vi">&#x111;&#xF4;ng</trd>
+  <trd lng="tt">&c_k;&#x4E9;&c_n;&c_ch;&c_y;&c_g;&c_y;&c_sh;</trd>
+  <trd lng="uk">&c_s;&c_h;&c_ib;&c_d;</trd>
+  <trd lng="ur">&a_w;&a_s;&a_T;&f_y;</trd>
+  <trd lng="uz">sharq</trd>
+  <trd lng="vi">&#x111;&ocirc;ng</trd>
   <trd lng="vo">lef&uuml;d</trd>
-  <trd lng="yi">&#x5DE;&#x5D6;&#x5E8;&#x5D7;</trd>
+  <trd lng="xh">bucala ngasekhohlo</trd>
+  <trd lng="yi">&mem;&zayin;&resh;&het;</trd>
+  <trd lng="yo">&otilde;r&ugrave;n</trd>
   <trdgrp lng="zh">
-    <trd>&#x4E1C; <klr>(tr. &#x6771;)</klr> [<ind>d&#x14D;ng</ind>]</trd>,
-    <trd>&#x4E1C;&#x65B9; <klr>(tr. &#x6771;&#x65B9;)</klr> [<ind>d&#x14D;ngf&#x101;ng</ind>]</trd>
+    <trd>&#x4E1C; <klr>(tr. &#x6771;)</klr> [<ind>d&omacron;ng</ind>]</trd>,
+    <trd>&#x4E1C;&#x65B9; <klr>(tr. &#x6771;&#x65B9;)</klr> [<ind>d&omacron;ngf&amacron;ng</ind>]</trd>
   </trdgrp>
   <trd lng="zu">empumalanga</trd>
 </drv>
+
+<drv mrk="orient.O0o">
+  <kap>
+    <tld lit="O"/>o
+  </kap>
+  <snc>
+    <dif>
+      La mondoparto oriente de antikva Grekujo, 
+      pli malpli ampleksanta <ref tip="prt" cel="azi.A0o">Azio</ref>n kaj eventuale <tld/>an
+      E&ubreve;ropon:
+      <ekz>
+        Dio la Eternulo plantis &gcirc;ardenon en <nom>Eden</nom> en la <tld lit="O"/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 2:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nelonge post la resurekto de Jesuo Kristo, li eniris unu el la kutimaj &scirc;ipoj,
+        kiuj transportis feron, &scirc;talon, oron kaj spicojn el <tld lit="O"/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Rafaela Urue&ntilde;a</aut>
+          <vrk><url ref="&Steloj;monato2/006809.html">Hispanio: Vojoj al la sankta urbo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la spirito de la <tld lit="O"/>o kaj la te&hcirc;niko de la <ref cel="okcide.O0o">Okcidento</ref>
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Steloj;monato2/006909.html">Japanio: Takasugi Sinsaku: Novjara kla&ccirc;o super konjako</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la 70aj jaroj, kiam okazis granda ekspluatado en la Meza <tld lit="O"/>o,
+        laborantoj el diversaj landoj amase kaj konkure eniris la golfan regionon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="&Steloj;monato2/007046.html">&Ccirc;inio: Eksporto de laboristoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        e&ubreve;ropanoj pli bone komprenu la kompleksecon de Proksima <tld lit="O"/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2004/008331.html">Judaj premgrupoj en Bruselo</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    La antikva mediteranea civilizacio (palestina, greka, roma) vidis sin 
+    &dash; same kiel la &ccirc;ina &dash; en la centro de la mondo kaj do &ccirc;io <tld/>e de 
+    &gcirc;i oni nomis &leftquot;la <tld lit="O"/>o&rightquot;. Pro komuna
+    historia, religia kaj kultura-politika fono oni plu uzas tiun dividon de la
+    mondo, kvankam la limoj ene de E&ubreve;ropo &scirc;ovi&gcirc;is okcidenten ekz-e en la tempo de Malvarma
+    Milito.
+  </rim>
+  <trd lng="be">&c_U;&c_s;&c_h;&c_o;&c_d;</trd>
+  <trdgrp lng="br">
+    <trd>ar <ind>Reter</ind></trd>,
+    <trd>ar <ind>Sav-Heol</ind></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Orient</trd>,
+    <trd>der <ind>Osten</ind></trd>,
+    <trd>Morgenland</trd>
+  </trdgrp>
+  <trd lng="uk">&#x441;&#x445;&#x456;&#x434;</trd>
+</drv>
+
 
 <drv mrk="orient.0a">
   <kap><tld/>a</kap>
@@ -212,6 +307,7 @@
   <trd lng="pt">oriental</trd>
   <trd lng="ru">&c_v;&c_o;&c_s;&c_t;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">v&yacute;chodn&yacute;</trd>
+  <trd lng="uk">&#x441;&#x445;&#x456;&#x434;&#x43D;&#x438;&#x439;</trd>
   <trd lng="vo">lef&uuml;dik</trd>
 </drv>
 
@@ -235,6 +331,10 @@
   <trd lng="pt">a <ind>leste</ind></trd>
   <trd lng="ru">&c_n;&c_a; <ind>&c_v;&c_o;&c_s;&c_t;&c_o;&c_k;&c_je;</ind></trd>
   <trd lng="sk">na v&yacute;chode</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43D;&#x430; &#x441;&#x445;&#x43E;&#x434;&#x456;</trd>,
+    <trd>&#x434;&#x43E; &#x441;&#x445;&#x43E;&#x434;&#x443;</trd>
+  </trdgrp>
   <trd lng="vo">lef&uuml;diko</trd>
 </drv>
 
@@ -252,6 +352,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a; &c_w;&c_s;&c_h;&c_o;&c_d;</trd>,
+    <trd>&c_v;&c_a; &c_w;&c_s;&c_h;&c_o;&c_d;&c_n;&c_ib;&c_m; &c_k;&c_ib;&c_r;&c_u;&c_n;&c_k;&c_u;</trd>
+  </trdgrp>
   <trd lng="br">war-zu ar <ind>reter</ind></trd>
   <trd lng="cs">na v&yacute;chod</trd>
   <trd lng="en">eastward</trd>
@@ -262,6 +366,7 @@
   <trd lng="pt">para <ind>leste</ind></trd>
   <trd lng="ru">&c_n;&c_a; <ind>&c_v;&c_o;&c_s;&c_t;&c_o;&c_k;</ind></trd>
   <trd lng="sk">na v&yacute;chod</trd>
+  <trd lng="uk">&#x43D;&#x430; &#x441;&#x445;&#x456;&#x434;</trd>
 </drv>
 
 <drv mrk="orient.0ede">
@@ -281,6 +386,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_n;&c_a; &c_w;&c_s;&c_h;&c_o;&c_d;&c_z;&c_je;</trd>
     <trd lng="br">e <ind>reter</ind></trd>
     <trd lng="de">im <ind>Osten</ind> von</trd>
     <trd lng="hu"><klr tip="amb">(vmi)</klr> keleti r&eacute;sz&eacute;n</trd>
@@ -293,6 +399,7 @@
     <dif>
       <ref tip="super" cel="ekster.0.kie">Ekster</ref>, pli <tld/>e ol.
     </dif>
+    <trd lng="be">&c_n;&c_a; &c_w;&c_s;&c_h;&c_o;&c_d; &c_a;&c_d;</trd>
     <trd lng="br">er <ind>reter</ind> da</trd>
     <trd lng="de">&ouml;stlich von</trd>
     <trd lng="hu"><klr tip="amb">(vmit&odblac;l)</klr> keletre</trd>
@@ -304,6 +411,7 @@
     </trdgrp>
   </snc>
   <trd lng="fr">&agrave; l'est de</trd>
+  <trd lng="uk">&#x43D;&#x430; &#x441;&#x445;&#x456;&#x434; &#x432;&#x456;&#x434;..</trd>
 </drv>
 
 <drv mrk="orient.0i">
@@ -392,6 +500,7 @@
     <trd>usmer&ncaron;ova&tcaron;</trd>,
     <trd>zamera&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43E;&#x440;&#x456;&#x454;&#x43D;&#x442;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
   <trd lng="vo">lef&uuml;d&ouml;n</trd>
 </drv>
 
@@ -407,7 +516,6 @@
         la aviadistoj ne povis plu sin <tld/>i pro la densa nebulo.
       </ekz>
     </dif>
-    <trd lng="be">&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
     <trd lng="br">en em <ind>reteri&ntilde;</ind></trd>
     <trd lng="de"><klr>sich </klr>orientieren</trd>
     <trdgrp lng="hu">
@@ -429,6 +537,7 @@
     <trd lng="hu">eligazodik</trd>
     <trd lng="nl">beslissen</trd>
   </snc>
+      <trd lng="be">&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>orientovat</trd>,
     <trd>sm&ecaron;&rcaron;ovat na v&yacute;chod</trd>
@@ -475,10 +584,10 @@
     <dif>
       <klr>(de <ref cel="baz.0o.vektoraspaco">bazo</ref>
       <frm am="bb B"><g>B</g></frm>
-      rilate al bazo <frm am="bb B&#x2032;"><g>B</g>'</frm>)</klr>
+      rilate al bazo <frm am="bb B&minute;"><g>B</g>'</frm>)</klr>
       La <ref cel="sign.0o.MAT">signo</ref> de la
       <ref cel="determ.0anto.vektoroj">determinanto</ref> de &gcirc;iaj
-      vektoroj rilate al <frm am="bb B&#x2032;"><g>B</g>'</frm>:
+      vektoroj rilate al <frm am="bb B&minute;"><g>B</g>'</frm>:
       <ekz>
         pozitiva a&ubreve; negativa <tld/>i&gcirc;o;
       </ekz>
@@ -486,7 +595,7 @@
         aksa simetrio en ebeno modifas la <tld/>i&gcirc;on <klr>(la
         <tld/>i&gcirc;o
         de bildo de bazo <frm am="bb B"><g>B</g></frm> rilate al
-        <frm am="bb B&#x2032;"><g>B</g></frm>
+        <frm am="bb B&minute;"><g>B</g></frm>
         estas negativa)</klr>.
       </ekz>
     </dif>
@@ -507,6 +616,8 @@
     <trd lng="nl">ori&euml;ntatie</trd>
     <trd lng="ru">&c_o;&c_r;&c_i;&c_je;&c_n;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>
   </snc>
+    <trd lng="be">&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="uk">&#x43E;&#x440;&#x456;&#x454;&#x43D;&#x442;&#x430;&#x446;&#x456;&#x44F;</trd>
 </drv>
 
 <drv mrk="orient.0ilo">
@@ -538,6 +649,7 @@
     <trd>ukazovate&lcaron; smeru</trd>,
     <trd>zna&ccaron;ka</trd>
   </trdgrp>
+  <trd lng="uk">&#x43E;&#x440;&#x456;&#x454;&#x43D;&#x442;&#x438;&#x440;</trd>
 </drv>
 
 <drv mrk="orient.mal0igxi">
@@ -570,7 +682,7 @@
         <fnt><bib>Fab4</bib>, <lok>Filino de la mar&ccirc;a re&gcirc;o</lok></fnt>;
       </ekz>
       <ekz>
-        socio &scirc;ajnas sen<tld/>i&gcirc;i kaj <klr>...</klr> fari&gcirc;as viktimo de 
+        socio &scirc;ajnas sen<tld/>i&gcirc;i kaj <klr>[&#x2026;]</klr> fari&gcirc;as viktimo de 
         la &gcirc;emelaj malsanoj, malri&ccirc;o kaj krimeco
         <fnt>
           <aut>Hectoralos</aut>,
@@ -581,6 +693,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_u;&c_b;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_d;&c_e;&c_z;&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_g;&c_u;&c_b;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_c;&c_y;&c_ju;</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&ecirc;tre <ind>d&eacute;sorient&eacute;</ind></trd>,
     <trd>&ecirc;tre <ind>perdu</ind><klr> (d&eacute;sorient&eacute;)</klr></trd>
@@ -627,6 +744,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_u;&c_b;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_d;&c_e;&c_z;&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_g;&c_u;&c_b;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_a;&c_r;&c_y;&c_je;&c_n;&c_t;&c_a;&c_c;&c_y;&c_ju;</ind></trd>
+  </trdgrp>
   <trd lng="fr">se <ind>fourvoyer</ind></trd>
   <trdgrp lng="pl">
     <trd>gubi&cacute; si&eogonek;</trd>,
@@ -638,7 +760,7 @@
 <drv mrk="orient.ekstrem0o">
   <kap>Ekstrem<tld/>o</kap>
   <uzo tip="fak">GEOG</uzo>
-  <snc>
+  <snc mrk="orient.ekstrem0o.orienta">
     <ref tip="dif" cel="azi.OrientaA0o">Orienta Azio</ref>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_l;&c_jo;&c_k;&c_ib; &c_w;&c_s;&c_h;&c_o;&c_d;</trd>
@@ -670,6 +792,15 @@
 </art>
 <!--
 $Log$
+versio 1.126 2022/05/01 17:17:01
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.124 2021/12/14 07:29:40
+Dmitri Gabinski: + trd be
+
+versio 1.123 2021/07/23 06:37:09
+Wolfram Diestel: apartigo de O~o (majuskla)
+
 versio 1.49 2020/05/04 11:10:30
 Eko Nur Syah Hidayat: korekteto
 
@@ -683,13 +814,5 @@ Revision 1.46  2020/02/15 23:10:29  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.45  2019/07/05 08:10:25  revo
-Aleks Andre: zh: indekso
-
-Revision 1.44  2016/02/28 19:10:48  revo
-Wolfram Diestel: riparo: adm forighis per skripto de M.Laer pro
-interlokita traduko
-
-Revision 1.43  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
 -->
 </vortaro>

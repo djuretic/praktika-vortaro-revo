@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: suspend.xml,v 1.6 2015/07/04 08:37:44 revo Exp $">
+<art mrk="$Id: suspend.xml,v 1.10 2022/05/05 14:43:49 revo Exp $">
 <kap>
   <rad>suspend</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -14,17 +13,44 @@
     <dif>
       Portempe senfunkciigi, tamen ne eksigante a&ubreve; nuligante:
       <ekz>
-        la estrino <klr>...</klr> <tld/>is la instruiston
+        la estrino <klr>[&#x2026;]</klr> <tld/>is la instruiston
         <fnt>
           <aut>J. J. Santos</aut>,
           <vrk>Diantoj ... kaj dornoj</vrk>,
           <bib>Monato</bib>,
           <lok>jaro 2007a, numero 8-9a, p. 8-9a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la brita registaro <tld/>is la a&ubreve;tonoman parlamenton demokratie elektitan de la
+        nordirlanda popolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>PGubbins</aut>
+          <vrk><url ref="&Steloj;monato2/006913.html">Irlando: Karuselo de seniluzii&gcirc;o</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Monda Federacio de Futbalo portempe <tld/>is la albanan nacian futbalteamon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2008/009475.php">Pun&scirc;oto</url></vrk>
+          <lok>2008</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="halt.0igi">haltigi</ref>,
+      <ref cel="romp.inter0i.cxesigi">interrompi<sncref/></ref>,
+      <ref cel="pauxz.0igi">pa&ubreve;zigi</ref>
+    </refgrp>
   </snc>
   <trd lng="cs">suspendovat</trd>
+  <trdgrp lng="de">
+    <trd>suspendieren</trd>,
+    <trd>entheben</trd>
+  </trdgrp>
   <trd lng="en">suspend<klr tip="amb"> (legal)</klr></trd>
   <trdgrp lng="fr">
     <trd>relever de ses fonctions</trd>,
@@ -32,7 +58,11 @@
   </trdgrp>
   <trd lng="it">sospendere<klr tip="amb"> (giur.)</klr></trd>
   <trd lng="pt">suspender</trd>
-  <trd lng="sk">suspendovať</trd>
+  <trd lng="sk">suspendova&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x438;&#x43C;&#x447;&#x430;&#x441;&#x43E;&#x432;&#x43E; &#x432;&#x456;&#x434;&#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x438;&#x442;&#x438; &#x432;&#x456;&#x434; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x438;</trd>,
+    <trd>&#x43F;&#x440;&#x438;&#x437;&#x443;&#x43F;&#x438;&#x43D;&#x438;&#x442;&#x438; (&#x447;&#x438;&#x43D;&#x43D;&#x456;&#x441;&#x442;&#x44C; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x443;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="suspend.0o">
@@ -45,17 +75,54 @@
         Rusio ne kunlaboros plu kun NATO
         <fnt>
           <aut>&Ccirc;ina Radio Internacia</aut>,
-          <vrk><url
-          ref="http://esperanto.cri.cn/161/2007/07/27/1@66432.htm">
+          <vrk><url ref="&CRI;161/2007/07/27/1@66432.htm">
           Rusio montras sin necedema...</url></vrk>,
           <lok>2007-07-27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ar plejparte nordirlandanaj elektantoj vo&ccirc;donis por la nova parlamento
+        <klr>[&#x2026;]</klr>, la <tld/>o aspektas maldemokratie kaj maljuste
+        <fnt>
+          <bib>Monato</bib>
+          <aut>PGubbins</aut>
+          <vrk><url ref="&Steloj;monato2/006913.html">Irlando: Karuselo de seniluzii&gcirc;o</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ministrejo pri edukado nuligis la <tld/>on, sed irigis la instruiston al la
+        mezgrada lernejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jo&atilde;o Jos&eacute; Santos</aut>
+          <vrk><url ref="&Monato;/2007/009262.php">Diantoj ... kaj dornoj</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        na&ubreve; esplor-ju&gcirc;istoj kaj kvar prokuroroj <klr>[&#x2026;]</klr> ankora&ubreve; atingis decidon
+        nek pri akuzado, nek pri <tld/>o de la esploro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos i Font</aut>
+          <vrk><url ref="&Monato;/2011/010471.php">Koruptado demisiigas prezidanton</url></vrk>
+          <lok>2011</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="interm.0o">intermito</ref>,
+      <ref cel="moratori.0o.POL">moratorio<sncref/></ref>,
+      <ref cel="prokra.0o">prokrasto</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="cs">
-    <trd>pozastavení výkonu funkce</trd>,
+    <trd>pozastaven&iacute; v&yacute;konu funkce</trd>,
     <trd>suspendace</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Suspendierung</trd>,
+    <trd>Enthebung</trd>
   </trdgrp>
   <trd lng="en">suspension<klr tip="amb"> (legal)</klr></trd>
   <trdgrp lng="fr">
@@ -64,12 +131,21 @@
   </trdgrp>
   <trd lng="it">sospensione<klr tip="amb"> (giur.)</klr></trd>
   <trd lng="pt">suspens&atilde;o</trd>
-  <trd lng="sk">pozastavenie výkonu funkcie</trd>
+  <trd lng="sk">pozastavenie v&yacute;konu funkcie</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.10 2022/05/05 14:43:49
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.8 2022/03/17 20:29:38
+Wolfram Diestel: ekz-oj, ref-oj
+
+versio 1.7 2021/09/14 07:27:54
+Wolfram Diestel: +trd de
+
 Revision 1.5  2015/06/29 16:33:25  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -83,7 +159,5 @@ Revision 1.2  2007/09/09 16:30:20  revo
 Tulio Flores: +tr pt
 
 Revision 1.1  2007/09/03 16:30:13  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

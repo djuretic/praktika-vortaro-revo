@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: mistifik.xml,v 1.16 2021/02/13 21:10:32 revo Exp $">
+<art mrk="$Id: mistifik.xml,v 1.19 2022/05/20 07:31:00 revo Exp $">
 <kap>
   <ofc>8</ofc><rad>mistifik</rad>/i <fnt><bib>PV</bib></fnt>,
   <var><kap><rad var="f">mistif</rad>/i <fnt><bib>PV</bib></fnt></kap></var>
@@ -18,7 +17,7 @@
         kiu kiun <tld/>as
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html">Reago: Eks-Jugoslavio: kiu
+          <vrk><url ref="&Steloj;monato2/006947.html">Reago: Eks-Jugoslavio: kiu
           kiun mistifikas?</url></vrk>
         </fnt>?
       </ekz>    
@@ -28,7 +27,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Hektor Alos i Font</aut>
-          <vrk><url ref="https://www.monato.be/2004/008300.html">Kronologio de kanajla
+          <vrk><url ref="&Monato;/2004/008300.html">Kronologio de kanajla
           mistifikado</url></vrk>
           <lok>2004</lok>
         </fnt>;
@@ -112,6 +111,10 @@
     <trd>podv&aacute;dza&tcaron;</trd>,
     <trd>zm&aacute;mi&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43C;&c_ib;&c_s;&c_t;&c_i;&c_f;&c_ib;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_ib;&c_g;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mistifik.0a">
@@ -129,6 +132,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_ib;&c_s;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_a;&c_r;&c_s;&c_k;&c_ib;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_m;&c_a;&c_n;&c_l;&c_ib;&c_v;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>klamn&yacute;</trd>,
     <trd>nepochopiteln&yacute;</trd>
@@ -168,7 +175,7 @@
         kun a&ubreve;reol' de <tld/>-mistiko / alflugu do, estrino de l' pedeloj
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
           <lok>Oni Malfermas La Butikon</lok>
         </fnt>;
       </ekz>
@@ -177,7 +184,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Pejno Simono</aut>
-          <vrk><url ref="https://www.monato.be/2013/011040.php">Toter Lehrer, guter
+          <vrk><url ref="&Monato;/2013/011040.php">Toter Lehrer, guter
           Lehrer</url></vrk>
           <lok>2013</lok>
         </fnt>;
@@ -196,7 +203,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Platteau</aut>
-          <vrk><url ref="https://www.monato.be/2014/011376.php">&Scirc;ira retaksado de la
+          <vrk><url ref="&Monato;/2014/011376.php">&Scirc;ira retaksado de la
           konceptoj</url></vrk>
           <lok>2014</lok>
         </fnt>.
@@ -236,18 +243,25 @@
   <trdgrp lng="ro">
     <trd>cioara vopsita</trd>,
     <trd>&icirc;n&#537;el&abreve;ciune</trd>,
-    <trd>seduc&#539;ie</trd>
+    <trd>seduc&#x21B;ie</trd>
   </trdgrp>
   <trd lng="ru">&c_m;&c_i;&c_s;&c_t;&c_i;&c_f;&c_i;&c_k;&c_a;&c_c;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
     <trd>klamanie</trd>,
     <trd>podv&aacute;dzanie</trd>
   </trdgrp>
+  <trd lng="uk">&#x43C;&c_ib;&c_s;&c_t;&c_i;&c_f;&c_ib;&#x43A;&c_a;&c_c;&c_ib;&#x44F;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.19 2022/05/20 07:31:00
+Dmitri Gabinski: + trd be
+
+versio 1.18 2022/05/01 12:05:12
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.16 2021/02/13 21:10:32
 Vito Redsky: +trd pl +trd ro
 
@@ -264,11 +278,5 @@ Revision 1.11  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.10  2015/06/29 16:33:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.9  2011/04/29 19:10:22  revo
-Russ Williams: +ofc 8
-
-Revision 1.8  2008/11/29 17:30:39  revo
 -->
 </vortaro>

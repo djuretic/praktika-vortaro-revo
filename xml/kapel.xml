@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kapel.xml,v 1.24 2019/12/10 20:10:21 revo Exp $">
+<art mrk="$Id: kapel.xml,v 1.27 2022/09/22 08:43:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kapel</rad>/o
@@ -55,9 +54,8 @@
         <fnt>
           <aut>J. Mura&scirc;kovskij kaj I. Mura&scirc;kovska</aut>:
           <vrk>Kien fluas roj' Castalie?</vrk>
-          <lok><url
-   ref="http://www.esperanto.mv.ru/Arkivoj/index.html"
-              >Literatura Skatolo/Survoje</url></lok>
+          <lok><url ref="http://www.esperanto.mv.ru/Arkivoj/index.html">Literatura
+          Skatolo/Survoje</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -118,6 +116,12 @@
   </trdgrp>
   <trd lng="cs">kapela, mal&yacute; orchestr</trd>
   <trd lng="ro">capel&abreve;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_a;&#x43F;&c_je;&#x43B;&c_a;</trd>,
+    <trd>&#x43A;&c_a;&#x43F;&#x43B;&c_i;&c_c;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_t;&c_v;&#x43E;&c_r;</trd>,
+    <trd>&#x43A;&c_a;&#x43F;&c_je;&#x43B;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kapel.0estro">
@@ -141,6 +145,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_p;&c_e;&c_l;&c_mol;&c_m;&c_a;&c_j;&c_s;&c_t;&c_a;&c_r;</trd>,
+    <trd>&c_h;&c_o;&c_r;&c_m;&c_a;&c_j;&c_s;&c_t;&c_a;&c_r; <klr>(&c_k;&c_a;&c_p;&c_e;&c_l;&c_y;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>dirigent ch&oacute;ru</trd>,
     <trd>kapeln&iacute;k</trd>
@@ -159,6 +167,7 @@
     <trd>dirigent</trd>,
     <trd>kapeln&iacute;k</trd>
   </trdgrp>
+  <trd lng="uk">&#x43A;&c_a;&#x43F;&c_je;&#x43B;&#x44C;&#x43C;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>
 </drv>
 
 <drv mrk="kapel.0ano">
@@ -168,7 +177,8 @@
   <snc mrk="kapel.0ano.KAT">
     <uzo tip="fak">KAT</uzo>
     <dif>
-      Helpanto kaj anstata&ubreve;anto de pastro prizorganta diservojn; <ref tip="dif" cel="vikari.0o">vikario</ref>,
+      Helpanto kaj anstata&ubreve;anto de pastro prizorganta diservojn; <ref tip="dif"
+      cel="vikari.0o">vikario</ref>,
       <ref tip="dif" cel="diakon.0o">diakono</ref>:
       <ekz>
         paro&hcirc;oj kaj lernejoj, pre&gcirc;grupoj kaj katolikaj societoj, <klr>[&#8230;]</klr> volas
@@ -176,8 +186,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>last</aut>
-          <vrk><url ref="https://www.monato.be/2005/008641.php"
-              >Katolika eklezio ne havas pastrojn</url></vrk>
+          <vrk><url ref="&Monato;/2005/008641.php">Katolika eklezio ne havas pastrojn</url></vrk>
           <lok>2005</lok>
         </fnt>.
       </ekz>
@@ -207,6 +216,12 @@
 </art>
   <!--
   $Log$
+versio 1.27 2022/09/22 08:43:12
+Dmitri Gabinski: + trd be
+
+versio 1.26 2022/05/01 08:09:23
+aktualigo lingvokodoj kaj URL-unuoj
+
   Revision 1.23  2019/03/02 17:10:23  revo
   Vito Redsky: +trd ro +trd pl
 
@@ -223,30 +238,5 @@
   Paul Peeraerts: +trd nl
 
   Revision 1.18  2006/02/06 17:31:19  revo
-  Sergio Pokrovskij: kor krom/altarejo
-
-  Revision 1.17  2005/01/26 17:32:20  revo
-  Wieland Pusch: +trd de
-
-  Revision 1.16  2004/10/31 17:34:06  revo
-  Marc Bavant: +trd fr, sxovis ref ekster dif, sxovis fak-indikojn
-  gxustaloken; +adm
-
-  Revision 1.15 2003/05/26 16:31:13 revo
-  Alejandro Mejia Greene: ald 1 his trd
-
-  Revision 1.14 2003/03/11 17:31:38 revo
-  Sergio Pokrovskij: Akuz.
-
-  Revision 1.13 2003/03/10 17:33:33 revo
-  Sergio Pokrovskij: dif, rim, snc-mrk
-
-  Revision 1.12 2002/10/17 16:32:29 revo
-  Dmitri Gabinski: +trd be
-
-  Revision 1.11 2002/08/03 18:52:52 revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.10 2001/10/25 18:48:22 revo
-  -->
+-->
 </vortaro>

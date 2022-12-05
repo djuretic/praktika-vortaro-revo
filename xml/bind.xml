@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-  <art mrk="$Id: bind.xml,v 1.21 2021/06/07 20:07:00 revo Exp $">
+  <art mrk="$Id: bind.xml,v 1.24 2022/11/10 09:33:47 revo Exp $">
   <kap>
     <ofc>*</ofc>
     <rad>bind</rad>/i
@@ -161,6 +160,7 @@
   <trd lng="en">bind</trd>
   <trd lng="he">&lamed;&kaf;&resh;&vav;&fkaf; (&samekh;&pe;&resh;)</trd>
   <trd lng="sk">viaza&tcaron; <klr>(knihy)</klr></trd>
+  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&#x43F;&#x43B;&c_ib;&c_t;&c_a;&c_t;&c_i;&#xA0;(&#x43A;&#x43D;&c_i;&c_g;&c_u; &c_ib; &c_t;. &#x43F;.)</trd>
 </drv>
   
 <drv mrk="bind.0ajxo">
@@ -216,6 +216,10 @@
   </trdgrp>
   <trd lng="ro">acoperi</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_l;&c_jo;&c_t;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x43F;&c_r;&c_a;&c_v;&c_a;</trd>,
+    <trd>&#x43F;&c_a;&#x43B;&c_ib;&c_t;&c_u;&c_r;&#x43A;&c_a;</trd>
+  </trdgrp>
 </drv>
   
 <drv mrk="bind.0ilo">
@@ -232,6 +236,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_je;&c_r;&c_a;&c_p;&c_l;&c_jo;&c_t;&c_n;&c_a;&c_ja; &c_m;&c_a;&c_sh;&c_y;&c_n;&c_a;</trd>,
+      <trd>&c_b;&c_r;&c_a;&c_sh;&c_u;&c_r;&c_o;&c_v;&c_a;&c_ch;&c_n;&c_a;&c_ja; &c_m;&c_a;&c_sh;&c_y;&c_n;&c_a;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Bindemaschine</trd>,
       <trd>Heftmaschine</trd>
@@ -251,7 +259,11 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="sxarg.0ilo">&scirc;argilo</ref>    
+    <ref tip="vid" cel="sxarg.0ilo">&scirc;argilo</ref>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_o;&c_w;&c_sh;&c_ch;&c_y;&c_k; <klr tip="amb">(&c_p;&c_r;&c_a;&c_g;&c_r;.)</klr></trd>,
+      <trd>&c_l;&c_ib;&c_n;&c_k;&c_je;&c_r;</trd>
+    </trdgrp>
     <trd lng="de">Binder <klr>(Software)</klr></trd>
     <trdgrp lng="en">
       <trd>linker</trd>,
@@ -270,6 +282,10 @@
   <trd lng="cs">spojovac&iacute; program</trd>
   <trd lng="he">&kaf;&resh;&yod;&kaf;&he;</trd>
   <trd lng="sk">spojovac&iacute; program</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&#x43C;&#x43F;&#x43E;&#x43D;&c_u;&c_v;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>,
+    <trd>&#x43B;&c_ib;&#x43D;&#x43A;&c_je;&c_r;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bind.0isto">
@@ -294,7 +310,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_p;&c_l;&c_jo;&c_t;&c_n;&c_ib;&c_k;</trd>
   <trd lng="de">Buchbinder</trd>
+  <trd lng="uk">&#x43F;&c_a;&#x43B;&c_ib;&c_t;&c_u;&c_r;&#x43D;&c_i;&#x43A;</trd>
 </drv>
 
 
@@ -302,6 +320,12 @@
 
 <!--
 $Log$
+versio 1.24 2022/11/10 09:33:47
+Dmitri Gabinski: + trd be
+
+versio 1.23 2022/07/12 08:42:06
+Dmitri Gabinski: + trd be
+
 versio 1.21 2021/06/07 20:07:00
 Wolfram Diestel: +~o, ~isto, ekz-oj, ref-oj, trd de
 
@@ -318,12 +342,6 @@ Revision 1.15  2015/06/29 16:29:35  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.14  2009/03/12 17:30:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2005/08/05 16:31:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2005/02/25 17:34:25  revo
 -->
 
 </vortaro>

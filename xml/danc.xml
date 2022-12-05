@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: danc.xml,v 1.92 2021/06/17 05:29:18 revo Exp $">
+<art mrk="$Id: danc.xml,v 1.136 2022/11/19 17:26:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>danc</rad>/i <fnt><bib>PV</bib></fnt>
@@ -22,7 +22,7 @@
       <ekz>
         kiam vi vidos, ke la knabinoj de &Scirc;ilo eliras, por <tld/>i
         en
-        rondoj, tiam <klr>...</klr> kaptu al vi &ccirc;iu edzinon el la
+        rondoj, tiam <klr>[&#8230;]</klr> kaptu al vi &ccirc;iu edzinon el la
         knabinoj
         <fnt><bib>MT</bib>, <lok>&Jug; 21:21</lok></fnt>;
       </ekz>
@@ -60,16 +60,16 @@
     </refgrp>
   </snc>
   <trd lng="af">dans</trd>
-  <trd lng="am">&#x1218;&#x12F0;&#x1290;&#x1235;</trd>
-  <trd lng="ar">&#x631;&#x642;&#x635;</trd>
+  <trd lng="am">&#4632;&#4848;&#4752;&#4661;</trd>
+  <trd lng="ar">&a_r;&a_q;&a_S;</trd>
   <trdgrp lng="be">
     <trd>&c_t;&c_a;&c_n;&c_c;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_t;&c_a;&c_n;&c_ch;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_k;&c_a;&c_k;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="bg">&c_t;&c_a;&c_n;&c_c;&c_u;&c_v;&c_a;&c_m;</trd>
-  <trd lng="bn">&#x9A8;&#x9BE;&#x99A;</trd>
-  <trd lng="bo">&#xF5E;&#xF56;&#xF66;&#xF0B;&#xF56;&#xFB2;&#xF7C;&#xF0B;&#xF62;&#xF92;&#xFB1;&#xF42;&#xF0B;</trd>
+  <trd lng="bn">&#2472;&#2494;&#2458;</trd>
+  <trd lng="bo">&t_zha;&t_ba;&t_sa;&t_tsheg;&t_ba;&t_rata;&t_naro;&t_tsheg;&t_ra;&t_gata;&t_yata;&t_ga;&t_tsheg;</trd>
   <trdgrp lng="br">
     <trd>da&ntilde;sal</trd>,
     <trd>korolli&ntilde;</trd>
@@ -81,6 +81,7 @@
   </trdgrp>
   <trd lng="co">ballari</trd>
   <trd lng="cs">tan&ccaron;it</trd>
+  <trd lng="cy">dawns</trd>
   <trd lng="da">dans</trd>
   <trd lng="de">tanzen</trd>
   <trd lng="en">dance</trd>
@@ -88,34 +89,52 @@
   <trd lng="et">tants</trd>
   <trd lng="eu">dantza</trd>
   <trd lng="fr">danser</trd>
-  <trd lng="fy">d&#xFB;nsje</trd>
+  <trd lng="fy">d&ucirc;nsje</trd>
+  <trd lng="ga">rince</trd>
+  <trd lng="gd">dannsa</trd>
   <trd lng="gl">danza</trd>
-  <trd lng="gu">&#xAA8;&#xAC3;&#xAA4;&#xACD;&#xAAF;</trd>
-  <trd lng="he">&#x5DC;&#x5B4;&#x5E8;&#x5B0;&#x5E7;&#x5D5;&#x5B9;&#x5D3;</trd>
-  <trd lng="hi">&#x928;&#x943;&#x924;&#x94D;&#x92F;</trd>
+  <trd lng="gu">&#2728;&#2755;&#2724;&#2765;&#2735;</trd>
+  <trd lng="he">&lamed;&#1460;&resh;&#1456;&qof;&vav;&#1465;&dalet;</trd>
+  <trd lng="hi">&#2344;&#2371;&#2340;&#2381;&#2351;</trd>
+  <trd lng="hmn">seev cev</trd>
   <trd lng="hr">ples</trd>
+  <trd lng="ht">dans</trd>
   <trd lng="hu">t&aacute;ncol</trd>
-  <trd lng="hy">&#x57A;&#x561;&#x580;&#x56B;</trd>
+  <trd lng="hy">&#1402;&#1377;&#1408;&#1387;</trd>
   <trd lng="id"><baz>tari</baz>menari</trd>
+  <trd lng="ig">agba egw&uacute;</trd>
   <trd lng="is">dans</trd>
-  <trd lng="ja">&#x30C0;&#x30F3;&#x30B9;</trd>
-  <trd lng="jw">tari</trd>
-  <trd lng="ka">&#x10EA;&#x10D4;&#x10D9;&#x10D5;&#x10D0;</trd>
-  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x179A;&#x17B6;&#x17C6;</trd>
-  <trd lng="ko">&#xB304;&#xC2A4;</trd>
-  <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xEC0;&#xE95;&#xEB1;&#xEC9;&#xE99;</trd>
-  <trd lng="ml">&#xD28;&#xD43;&#xD24;&#xD4D;&#xD24;&#xD02;</trd>
-  <trd lng="mr">&#x928;&#x943;&#x924;&#x94D;&#x92F;</trd>
-  <trd lng="my">&#x1021;&#x1000;&#x1021;&#x1001;&#x102F;&#x1014;&#x103A;</trd>
-  <trd lng="ne">&#x928;&#x943;&#x924;&#x94D;&#x92F;</trd>
+  <trd lng="ja">&#12480;&#12531;&#12473;</trd>
+  <trd lng="jv">tari</trd>
+  <trd lng="ka">&#4330;&#4308;&#4313;&#4309;&#4304;</trd>
+  <trd lng="kk">&c_b;&c_i;</trd>
+  <trd lng="km">&#6016;&#6070;&#6042;&#6042;&#6070;&#6086;</trd>
+  <trd lng="kn">&#3240;&#3267;&#3236;&#3277;&#3247;</trd>
+  <trd lng="ko">&#45828;&#49828;</trd>
+  <trd lng="ku">dans</trd>
+  <trd lng="ky">&c_b;&c_i;&c_j;</trd>
+  <trd lng="lat">chorea</trd>
+  <trd lng="lo">&#3713;&#3762;&#3737;&#3776;&#3733;&#3761;&#3785;&#3737;</trd>
+  <trd lng="lt">&scaron;okis</trd>
+  <trd lng="lv">deja</trd>
+  <trd lng="mg">dihy</trd>
+  <trd lng="mi">kanikani</trd>
+  <trd lng="mk">&c_t;&c_a;&c_n;&c_c;</trd>
+  <trd lng="ml">&#3368;&#3395;&#3364;&#3405;&#3364;&#3330;</trd>
+  <trd lng="mn">&c_b;&#1199;&c_zh;&c_g;&c_i;&c_j;&c_n;</trd>
+  <trd lng="mr">&#2344;&#2371;&#2340;&#2381;&#2351;</trd>
+  <trd lng="ms">tarian</trd>
+  <trd lng="mt">&zdot;fin</trd>
+  <trd lng="my">&#4129;&#4096;&#4129;&#4097;&#4143;&#4116;&#4154;</trd>
+  <trd lng="ne">&#2344;&#2371;&#2340;&#2381;&#2351;</trd>
   <trd lng="nl">dansen</trd>
   <trd lng="ny">kuvina</trd>
-  <trd lng="pa">&#xA28;&#xA3E;&#xA1A;</trd>
+  <trd lng="pa">&#2600;&#2622;&#2586;</trd>
   <trdgrp lng="pl">
     <trd>ta&nacute;czy&cacute;</trd>,
     <trd>pl&aogonek;sa&cacute;</trd>
   </trdgrp>
-  <trd lng="ps">&#x646;&#x685;&#x627;</trd>
+  <trd lng="ps">&a_n;&#1669;&a_A;</trd>
   <trdgrp lng="pt">
     <trd>dan&ccedil;ar</trd>,
     <trd>bailar</trd>
@@ -124,19 +143,35 @@
     <trd>&c_t;&c_a;&c_n;&c_c;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_l;&c_ja;&c_s;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x646;&#x627;&#x686;</trd>
-  <trd lng="si">&#xDB1;&#xDD0;&#xDA7;&#xDD4;&#xDB8;&#xDCA;</trd>
+  <trd lng="rw">kubyina</trd>
+  <trd lng="sd">&a_n;&a_A;&f_ch;</trd>
+  <trd lng="si">&#3505;&#3536;&#3495;&#3540;&#3512;&#3530;</trd>
   <trd lng="sk">tancova&tcaron;</trd>
+  <trd lng="sl">ples</trd>
+  <trd lng="sm">siva</trd>
+  <trd lng="sn">matambiro</trd>
+  <trd lng="so">qoob ka ciyaarka</trd>
   <trd lng="sq">valle</trd>
+  <trd lng="su">tari</trd>
   <trd lng="sv">dansa</trd>
-  <trd lng="ta">&#xBA8;&#xB9F;&#xBA9;</trd>
-  <trd lng="te">&#xC21;&#xC4D;&#xC2F;&#xC3E;&#xC28;&#xC4D;&#xC38;&#xC4D;</trd>
-  <trd lng="th">&#xE01;&#xE32;&#xE23;&#xE40;&#xE15;&#xE49;&#xE19;&#xE23;&#xE33;</trd>
+  <trd lng="sw">ngoma</trd>
+  <trd lng="ta">&#2984;&#2975;&#2985;</trd>
+  <trd lng="te">&#3105;&#3149;&#3119;&#3134;&#3112;&#3149;&#3128;&#3149;</trd>
+  <trd lng="tg">&c_r;&c_a;&c_shch;&c_s;</trd>
+  <trdgrp lng="th">
+    <trd>&#3648;&#3605;&#3657;&#3609;</trd>,
+    <trd>&#3648;&#3605;&#3657;&#3609;&#3619;&#3635;</trd>
+  </trdgrp>
   <trd lng="tl">sayaw</trd>
   <trd lng="tr">dansetmek</trd>
-  <trd lng="ur">&#x631;&#x642;&#x635;</trd>
-  <trd lng="vi">khi&#xEA;u v&#x169;</trd>
-  <trd lng="yi">&#x5D8;&#x5D0;&#x5B7;&#x5E0;&#x5E6;&#x5DF;</trd>
+  <trd lng="tt">&c_b;&c_i;&c_ju;</trd>
+  <trd lng="uk">&c_t;&c_a;&c_n;&c_je;&c_c;&c_mol;</trd>
+  <trd lng="ur">&a_r;&a_q;&a_S;</trd>
+  <trd lng="uz">raqs</trd>
+  <trd lng="vi">khi&ecirc;u v&#361;</trd>
+  <trd lng="xh">umdaniso</trd>
+  <trd lng="yi">&tet;&alef;&#1463;&nun;&tsadi;&fnun;</trd>
+  <trd lng="yo">ij&oacute;</trd>
 </drv>
 
 <drv mrk="danc.0o">
@@ -148,7 +183,109 @@
       <ekz>
         ili gloru Lian nomon en <tld/>o, per tamburino kaj harpo ili
         muziku al Li
-        <fnt><bib>MT</bib>, <lok>&Psa; 149:3</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Psa; 149:3</lok></fnt>;
+      </ekz>
+      <ekz>
+        balda&ubreve; espereble <klr>[iu]</klr> invitos &scirc;in al <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni vidis iliajn kamparajn <tld/>ojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komenci&gcirc;is la arto<tld/>o, a&ubreve;, kiel ili tion nomis, la <tld/>eli&gcirc;ado
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la patrino <klr>[&#8230;]</klr> rigardis religiajn <tld/>ojn
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &hcirc;oro de pastrinoj plenumis solenan <tld/>on
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        duonnudaj knabinoj komencis kolektivan <tld/>on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>osaltas kiel falko, sed rilate al la plat<tld/>o mi tute ne sukcesas
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        greka milit<tld/>o
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LXXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        folkloraj <tld/>oj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> fleksis la gambojn kvaza&ubreve; preparante sin al ka&ubreve;r<tld/>o
+        <fnt>
+          <bib>MkM</bib>
+          <lok>20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la diafanaj niksinoj interrompis sian surriveran <ind>rondo<tld/>o</ind>n
+        <fnt>
+          <bib>MkM</bib>
+          <lok>21</lok>
+        </fnt>;
+        <trd lng="de">Reigen</trd>
+      </ekz>
+      <ekz>
+        la furiozo de la vivo estas nur vegrinco, <ind>morto<tld/>o</ind>, al kiu la malri&ccirc;o tordas
+        la gurdon
+        <fnt>
+          <bib>SatirRak</bib>
+          <lok>Liriko</lok>
+        </fnt>;
+        <trd lng="de">Totentanz</trd>
+      </ekz>
+      <ekz>
+        <nom>Gustav</nom> saltis sur se&gcirc;on kaj aran&gcirc;is tambure intensan <ind>pa&scirc;<tld/>o</ind>n
+        <fnt>
+          <bib>VRA</bib>
+          <lok>Lars Ahlin</lok>
+        </fnt>;
+        <trd lng="de">Schreittanz</trd>
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la muta fantoma <tld/>o de la ma&scirc;inoj
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dua &Ccirc;apitro</lok>
+        </fnt>.
       </ekz>
     </dif>
     <lstref lst="voko:dancoj"><tld/>oj</lstref>
@@ -156,17 +293,12 @@
       <ref cel="balet.0o">baleto</ref>
     </refgrp>
   </snc>
-  <adm>
-    Indus kompletigi la liston de dancoj per io pli moderna... kun la
-    koncernaj artikoloj.
-    <aut>MB</aut>
-  </adm>
   <trdgrp lng="be">
     <trd>&c_t;&c_a;&c_n;&c_je;&c_c;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_k;&c_ib;</trd>
   </trdgrp>
   <trd lng="bg">&c_t;&c_a;&c_n;&c_c;</trd>
-  <trd lng="bo">&#xF5E;&#xF56;&#xF66;&#xF0B;&#xF56;&#xFB2;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_zha;&t_ba;&t_sa;&t_tsheg;&t_ba;&t_rata;&t_naro;&t_tsheg;</trd>
   <trdgrp lng="br">
     <trd>da&ntilde;s</trd>,
     <trd>koroll</trd>
@@ -184,7 +316,7 @@
   </trdgrp>
   <trd lng="fr">danse<klr tip="ind"> (action, mani&egrave;re de
   danser)</klr></trd>
-  <trd lng="he">&#x5E8;&#x5D9;&#x5E7;&#x5D5;&#x5D3;</trd>
+  <trd lng="he">&resh;&yod;&qof;&vav;&dalet;</trd>
   <trd lng="hu">t&aacute;nc</trd>
   <trdgrp lng="id">
     <trd>tari</trd>,
@@ -201,7 +333,9 @@
   </trdgrp>
   <trd lng="sk">tanec</trd>
   <trd lng="sv">dans</trd>
+  <trd lng="th">&#3585;&#3634;&#3619;&#3648;&#3605;&#3657;&#3609;&#3619;&#3635;</trd>
   <trd lng="tr">dans</trd>
+  <trd lng="uk">&c_t;&c_a;&c_n;&c_je;&c_c;&c_mol;</trd>
 </drv>
 
 <drv mrk="danc.0ado">
@@ -211,13 +345,46 @@
     <dif>
       Ago de <tld/>i:
       <ekz>
-        ad' denotes duration of action; e. g. danc' = dance &#x2010;&gt; danc'ad'
-        =
-        dancing
-        <fnt><bib>F</bib>, <lok>Universala Vortaro, -ad'</lok></fnt>
+        li a&ubreve;dis muzikon kaj <tld/>adon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 15:25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li alproksimi&gcirc;is al la tendaro kaj ekvidis la bovidon kaj la <tld/>adon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 32:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tor&ccirc;oj en la granda salono de <tld/>ado estis estingitaj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li premadis al mi la manon dum <tld/>ado, poste li kisadis amba&ubreve; miajn manojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la muziko efektive estis tiel rapida kaj tiel pene konkuradis kun la <tld/>ado
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">dancing</trd>
+  <trdgrp lng="uk">
+    <trd>&c_t;&c_a;&c_n;&c_c;&c_ju;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_t;&c_a;&c_n;&c_c;&c_ib;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="danc.0ejo">
@@ -226,12 +393,35 @@
     <uzo tip="fak">MUZ</uzo>
     <dif>
       Loko a&ubreve; <ref tip="super" cel="konstr.0ajxo">konstrua&jcirc;o</ref> uzata
-      por <tld/>i, kun ta&ubreve;ga areno:
+      por <tld/>i, kun ta&ubreve;ga <ref cel="aren.0o.SPO">areno</ref>:
       <ekz>
-        sub&ccirc;iela <tld/>ejo;
+        en <tld/>ejo malbona orkestro pene a&ubreve;digis &leftquot;<nom>Pas d&#8217;Espagne</nom>&rightquot;
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        geja <tld/>ejo.
+        junaj homoj <klr>[&#8230;]</klr> pasigis sian libertempon <klr>[&#8230;]</klr> sur la
+        dancejo a&ubreve; en rondo de kartludantoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        knabinoj iras al <tld/>ejo kaj kino multe pli ol mi
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fervoraj admirantoj &scirc;ajne elektis por si lokojn apud la <tld/>ejo por inter&scirc;an&gcirc;i
+        rigardojn kun la virinoj
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -278,7 +468,7 @@
     <trd>discoth&egrave;que<klr tip="ind"> (dancing)</klr></trd>,
     <trd>bo&icirc;te<klr tip="ind"> (dancing)</klr></trd>
   </trdgrp>
-  <trd lng="he">&#x5E8;&#x5D7;&#x5D1;&#x5EA; &#x5E8;&#x5D9;&#x5E7;&#x5D5;&#x5D3;&#x5D9;&#x5DD;</trd>
+  <trd lng="he">&resh;&het;&bet;&tav; &resh;&yod;&qof;&vav;&dalet;&yod;&fmem;</trd>
   <trdgrp lng="hu">
     <trd>t&aacute;nchelyis&eacute;g</trd>,
     <trd>t&aacute;ncterem</trd>
@@ -306,6 +496,10 @@
     <trd>tane&ccaron;n&yacute; lok&aacute;l</trd>
   </trdgrp>
   <trd lng="tr">diskotek</trd>
+  <trdgrp lng="uk">
+    <trd>&c_t;&c_a;&c_n;&c_c;&c_ju;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_z;&c_a;&c_l;</trd>,
+    <trd>&c_d;&c_a;&c_n;&c_s;&c_i;&c_n;&c_gu;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="danc.0isto">
@@ -315,8 +509,8 @@
     <dif>
       Iu, kiu profesie <tld/>as:
       <ekz>
-        kiel majesta estis hodia&ubreve; la re&gcirc;o de Izrael, kiu
-        elmontris sin <klr>...</klr>, kiel sin elmontras iu el la
+        kiel majesta estis hodia&ubreve; la re&gcirc;o de <nom>Izrael</nom>, kiu
+        elmontris sin <klr>[&#8230;]</klr>, kiel sin elmontras iu el la
         publikaj <tld/>istoj!
         <fnt><bib>MT</bib>, <lok>&Sa2; 6:20</lok></fnt>.
       </ekz>
@@ -337,7 +531,7 @@
     <trd>danseur</trd>,
     <trd>danseuse</trd>
   </trdgrp>
-  <trd lng="he">&#x5E8;&#x5B7;&#x5E7;&#x5D3;&#x5B8;&#x5DF;</trd>
+  <trd lng="he">&resh;&#1463;&qof;&dalet;&#1464;&fnun;</trd>
   <trd lng="hu">t&aacute;ncos</trd>
   <trd lng="id"><baz>tari</baz>penari<klr tip="amb">
   (laki-laki)</klr></trd>
@@ -348,6 +542,8 @@
     <trd>&c_p;&c_l;&c_ja;&c_s;&c_u;&c_n;</trd>
   </trdgrp>
   <trd lng="sk">tane&ccaron;n&iacute;k</trd>
+  <trd lng="th">&#3609;&#3633;&#3585;&#3648;&#3605;&#3657;&#3609;&#3619;&#3635;</trd>
+  <trd lng="uk">&c_t;&c_a;&c_n;&c_c;&c_ib;&c_v;&c_n;&c_i;&c_k;</trd>
 </drv>
 
 <drv mrk="danc.0istino">
@@ -379,10 +575,42 @@
       <trd>&c_b;&c_a;&c_l;&c_je;&c_r;&c_i;&c_n;&c_a;</trd>
     </trdgrp>
   </snc>
-  <trd lng="he">&#x5E8;&#x5B7;&#x5E7;&#x5D3;&#x5B8;&#x5E0;&#x5D9;&#x5EA;</trd>
+  <trd lng="en">female dancer</trd>
+  <trd lng="he">&resh;&#1463;&qof;&dalet;&#1464;&nun;&yod;&tav;</trd>
   <trd lng="sk">tane&ccaron;n&iacute;&ccaron;ka</trd>
 </drv>
 
+
+<drv mrk="danc.for0i">
+  <kap>for<tld/>i</kap>
+  <snc mrk="danc.for0i.KOMUNE">
+    <dif>
+      <tld lit="D"/>e foriri:
+      <ekz>
+        &leftquot;tuj, sinjorino, tuj&rightquot;, li fordancis, <nom>Fanny</nom> rigardis post lin kun rideto
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">abtanzen</trd>
+  </snc>
+  <snc>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Forigi (pasigi, mal&scirc;pari, forgesi) <tld/>ante, amuzi&gcirc;ante.
+    </dif>
+    <trd lng="cs">prohr&aacute;t</trd>
+    <trdgrp lng="de">
+      <trd>vertanzen</trd>,
+      <trd>vert&auml;ndeln</trd>
+    </trdgrp>
+    <trd lng="es">perder</trd>
+    <trd lng="sk">prehra&tcaron;<klr> (v hre)</klr></trd>
+    <trd lng="uk">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_v;&c_a;&c_t;&c_i; (&c_g;&c_r;&c_o;&c_sh;&c_ib; &c_ib; &c_t;.&c_p;.)</trd>
+  </snc>
+</drv>
 <drv mrk="danc.klak0o">
   <kap>klak<tld/>o</kap>
   <snc mrk="danc.klak0o.MUZ">
@@ -400,6 +628,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_ch;&c_a;&c_ch;&c_o;&c_t;&c_k;&c_a; <klr>(&c_t;&c_a;&c_n;&c_je;&c_c;)</klr></trd>
   <trd lng="bg">&c_t;&c_a;&c_n;&c_c; &c_n;&c_a;
   &c_s;&c_t;&c_je;&c_p;</trd>
   <trd lng="ca">claqu&eacute;</trd>
@@ -413,14 +642,31 @@
   <trd lng="nl">stepdans</trd>
   <trd lng="pl">stepowanie</trd>
   <trd lng="sk">step</trd>
+  <trd lng="uk">&c_ch;&c_je;&c_ch;&c_ib;&c_t;&c_k;&c_a;</trd>
 </drv>
 
 <drv mrk="danc.sxnur0isto">
   <kap>&scirc;nur<tld/>isto</kap>
   <snc mrk="danc.sxnur0isto.BELA">
     <dif>
-      Akrobato, kiu pa&scirc;as kaj <tld/>as sur stre&ccirc;ita
-      &scirc;nuro.
+      <ref tip="super" cel="akroba.0o">Akrobato</ref>, kiu pa&scirc;as kaj <tld/>as sur stre&ccirc;ita
+      &scirc;nuro:      
+      <ekz>
+        apud la kvadrigoj &scirc;nur<tld/>istoj skuis tirsojn, ornamitajn per rubandoj, aliaj
+        batis tamburetojn
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Afrika Komisiono pri Homrajtoj <klr>[&#8230;]</klr> trairis la du lastajn jardekojn
+        kvaza&ubreve; &scirc;nur<tld/>isto
+        <fnt>
+          <bib>MD08</bib>
+          <vrk> Afriko movi&gcirc;as &#8208; Rajtoj de la homo kaj ... de la popoloj</vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_n;&c_a;&c_t;&c_a;&c_h;&c_o;&c_d;&c_z;&c_je;&c_c;</trd>
@@ -441,31 +687,32 @@
   <trd lng="nl">koorddanser</trd>
   <trd lng="pl">linoskoczek</trd>
   <trd lng="ru">&c_k;&c_a;&c_n;&c_a;&c_t;&c_o;&c_h;&c_o;&c_d;&c_je;&c_c;</trd>
+  <trd lng="uk">&c_k;&c_a;&c_n;&c_a;&c_t;&c_o;&c_h;&c_o;&c_d;&c_je;&c_c;&c_mol;</trd>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.52 2021/04/11 15:58:52
-Wolfram Diestel: +lst dancoj anst. enartikola listo
+versio 1.136 2022/11/19 17:26:28
+Wolfram Diestel: for~i: plibonigo
 
-versio 1.50 2020/05/06 14:10:25
-Eko Nur Syah Hidayat: korekteto
+versio 1.135 2022/11/19 16:40:14
+Wolfram Diestel: +for~i (el for/)
 
-Revision 1.48  2017/01/09 19:10:15  revo
-Guillermo Molleda Jimena: trd es
+versio 1.134 2022/05/21 15:31:46
+Warut Bunprasert: -red th, +trd th
 
-Revision 1.47  2016/08/22 11:10:17  revo
-Carlos Garcia: +trd es -o -ejo -isto -istino klak-o sxnur-isto
+versio 1.133 2022/05/02 05:41:59
+Wolfram Diestel: -adm
 
-Revision 1.46  2015/09/21 09:10:27  revo
-Sebastian Cyprych: kor trd pl
+versio 1.132 2022/05/01 10:31:45
+Wolfram Diestel: ~o, ~ado, ~ejo: ekz-oj
 
-Revision 1.45  2015/08/24 08:10:15  revo
-Damien Brucker: + 2 ref cxe ~o
+versio 1.131 2022/04/26 17:11:47
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.44  2015/07/04 08:37:32  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.130 2022/04/13 06:40:28
+Noam Mohr: +trd en danc-
 
-Revision 1.43  2015/06/29 16:29:36  revo
+versio 1.126 2021/12/13 09:32:15
 -->
 </vortaro>

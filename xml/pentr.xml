@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pentr.xml,v 1.73 2021/06/19 06:38:32 revo Exp $">
+<art mrk="$Id: pentr.xml,v 1.110 2022/10/12 22:37:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pentr</rad>/i <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="pentr.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
+  <gra><vspec>x</vspec></gra>
   <snc mrk="pentr.0i.reprezenti">
     <uzo tip="fak">BELA</uzo>
     <dif>
@@ -20,7 +20,16 @@
         sur la kolonoj estis <tld/>itaj palmoj
         <fnt>
           <bib>MT</bib>
-          <lok>Je&hcirc;ezkel 40:16</lok>
+          <lok>&Jeh; 40:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tutan someron <nom>Bavink</nom> <tld/>is en tiu ventoplena insulara provinco
+        <fnt>
+          <aut>J. H. F. Gr&ouml;nloh, trad. M. Meeuwissen</aut>
+          <vrk><url ref="https://meeuw.org/profitulo/"
+              >La profitulo</url></vrk>
+          <lok>2021-06-08</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -63,14 +72,14 @@
         ar&gcirc;ento, rubenoj
         <fnt>
           <bib>Far1</bib>
-          <lok>&Ccirc;apitro III</lok>
+          <lok>&ccirc;apitro 3a</lok>
         </fnt>;
       </ekz>
       <ekz>
         grandega galerio de pentra&jcirc;oj, barbare designitaj, trobrile <tld/>itaj
         <fnt>
           <bib>Far3</bib>
-          <lok>&Ccirc;apitro IX</lok>
+          <lok>&ccirc;apitro 9a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -94,7 +103,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        li sidis kvaza&ubreve; en la mezo de <klr>[&#x2026;]</klr> speguloj <klr>[kiuj]</klr> donis ne
+        li sidis kvaza&ubreve; en la mezo de <klr>[&#8230;]</klr> speguloj <klr>[kiuj]</klr> donis ne
         tre flatan re<tld/>on de li
         <fnt>
           <bib>BdV</bib>
@@ -113,7 +122,6 @@
       <ref cel="skiz.0i">skizi</ref>.
     </refgrp>
     <trd lng="br">penta&ntilde;</trd>
-    
     <trdgrp lng="es">
       <trd>pintar</trd>,
       <trd>dise&ntilde;ar</trd>
@@ -130,7 +138,7 @@
     <dif>
       <ref tip="super" cel="skrib.pri0i">Priskribi</ref> karakterojn a&ubreve; scenojn per vortoj:
       <ekz>
-        ni tute ne estas tiaj fantaziistoj kaj utopiistoj, <klr>[&#x2026;]</klr> kiajn nin
+        ni tute ne estas tiaj fantaziistoj kaj utopiistoj, <klr>[&#8230;]</klr> kiajn nin
         <tld/>as multaj gazetoj
         <fnt>
           <bib>EE</bib>
@@ -189,18 +197,19 @@
     <trd lng="ru">&c_zh;&c_i;&c_v;&c_o; &c_p;&c_r;&c_je;&c_d;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
   </snc>
   <trd lng="af">verf</trd>
-  <trd lng="am">&#x1240;&#x1208;&#x121D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x637;&#x644;&#x627;&#x621;</trd>
+  <trd lng="am">&#4672;&#4616;&#4637;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_T;&a_l;&a_A;&a_hamza;</trd>
   <trd lng="az">boya</trd>
   <trdgrp lng="be">
     <trd>&c_m;&c_a;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_n;&c_a;&c_m;&c_a;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bn">&#x986;&#x981;&#x995;&#x9BE;</trd>
-  <trd lng="bo">&#xF5A;&#xF7C;&#xF53;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bn">&#2438;&#2433;&#2453;&#2494;</trd>
+  <trd lng="bo">&t_tsha;&t_naro;&t_na;&t_tsheg;&t_ga;&t_ta;&t_naro;&t_nga;&t_tsheg;</trd>
   <trd lng="bs">bojiti</trd>
   <trd lng="co">dipinze</trd>
   <trd lng="cs">malovat</trd>
+  <trd lng="cy">paent</trd>
   <trd lng="da">maling</trd>
   <trdgrp lng="de">
     <trd>malen</trd>,
@@ -212,42 +221,78 @@
   <trd lng="eu">margotzeko</trd>
   <trd lng="fr">peindre</trd>
   <trd lng="fy">fervje</trd>
+  <trd lng="ga">p&eacute;int</trd>
+  <trd lng="gd">a &#8216;peantadh</trd>
   <trd lng="gl">pintar</trd>
-  <trd lng="gu">&#xAB0;&#xA82;&#xA97;</trd>
+  <trd lng="gu">&#2736;&#2690;&#2711;</trd>
   <trd lng="ha">fenti</trd>
-  <trd lng="hi">&#x930;&#x902;&#x917;</trd>
+  <trd lng="hi">&#2352;&#2306;&#2327;</trd>
+  <trd lng="hmn">xim</trd>
   <trd lng="hr">slikati</trd>
-  <trd lng="hy">&#x576;&#x56F;&#x561;&#x580;&#x565;&#x56C;</trd>
-  <trd lng="is">m&#xE1;la</trd>
-  <trd lng="ja">&#x30DA;&#x30A4;&#x30F3;&#x30C8;</trd>
-  <trd lng="ka">&#x10EE;&#x10D0;&#x10E2;&#x10D0;&#x10D5;&#x10E1;</trd>
-  <trd lng="km">&#x1782;&#x17BC;&#x179A;</trd>
-  <trd lng="ko">&#xD398;&#xC778;&#xD2B8;</trd>
-  <trd lng="lo">&#xE97;&#xEB2;&#xEAA;&#xEB5;</trd>
-  <trd lng="ml">&#xD1A;&#xD3E;&#xD2F;&#xD02;</trd>
-  <trd lng="mr">&#x930;&#x902;&#x917;&#x935;&#x93F;&#x923;&#x94D;&#x92F;&#x93E;&#x938;&#x93E;&#x920;&#x940;</trd>
-  <trd lng="my">&#x1006;&#x1031;&#x1038;&#x101E;&#x102F;&#x1010;&#x103A;</trd>
-  <trd lng="ne">&#x909;&#x924;&#x93E;&#x930;&#x94D;&#x928;</trd>
+  <trd lng="ht">penti</trd>
+  <trd lng="hy">&#1398;&#1391;&#1377;&#1408;&#1381;&#1388;</trd>
+  <trd lng="ig">agba</trd>
+  <trd lng="is">m&aacute;la</trd>
+  <trd lng="ja">&#12506;&#12452;&#12531;&#12488;</trd>
+  <trd lng="ka">&#4334;&#4304;&#4322;&#4304;&#4309;&#4321;</trd>
+  <trd lng="kk">&c_b;&c_o;&c_ja;&c_u;</trd>
+  <trd lng="km">&#6018;&#6076;&#6042;</trd>
+  <trd lng="kn">&#3244;&#3235;&#3277;&#3235;</trd>
+  <trd lng="ko">&#54168;&#51064;&#53944;</trd>
+  <trd lng="ku">reng</trd>
+  <trd lng="ky">&c_b;&c_o;&c_je;&c_k;</trd>
+  <trd lng="lat">pingere</trd>
+  <trd lng="lo">&#3735;&#3762;&#3754;&#3765;</trd>
+  <trd lng="lt">da&zcaron;ai</trd>
+  <trd lng="lv">gleznot</trd>
+  <trd lng="mg">nandoko</trd>
+  <trd lng="mi">peita</trd>
+  <trd lng="mk">&c_s;&c_l;&c_i;&c_k;&c_a;</trd>
+  <trd lng="ml">&#3354;&#3390;&#3375;&#3330;</trd>
+  <trd lng="mn">&c_b;&c_u;&c_d;&c_a;&c_g;</trd>
+  <trd lng="mr">&#2352;&#2306;&#2327;&#2357;&#2367;&#2339;&#2381;&#2351;&#2366;&#2360;&#2366;&#2336;&#2368;</trd>
+  <trd lng="ms">cat</trd>
+  <trd lng="mt">&zdot;ebg&#295;a</trd>
+  <trd lng="my">&#4102;&#4145;&#4152;&#4126;&#4143;&#4112;&#4154;</trd>
+  <trd lng="ne">&#2313;&#2340;&#2366;&#2352;&#2381;&#2344;</trd>
   <trd lng="nl">schilderen</trd>
   <trd lng="ny">kujambula</trd>
-  <trd lng="pa">&#xA1A;&#xA3F;&#xA71;&#xA24;&#xA30;&#xA15;&#xA3E;&#xA30;&#xA40;</trd>
-  <trd lng="ps">&#x627;&#x646;&#x681;&#x648;&#x631;&#x6AB;&#x631;&#x64A;</trd>
-  <trd lng="sd">&#x631;&#x646;&#x6AF;</trd>
-  <trd lng="si">&#xDAD;&#xDD3;&#xDB1;&#xDCA;&#xDAD;</trd>
+  <trd lng="pa">&#2586;&#2623;&#2673;&#2596;&#2608;&#2581;&#2622;&#2608;&#2624;</trd>
+  <trd lng="pl">malowa&cacute;</trd>
+  <trd lng="ps">&a_A;&a_n;&#1665;&a_w;&a_r;&#1707;&a_r;&a_y;</trd>
+  <trdgrp lng="ro">
+    <trd>picta</trd>,
+    <trd>zugr&abreve;vi</trd>
+  </trdgrp>
+  <trd lng="rw">irangi</trd>
+  <trd lng="sd">&a_r;&a_n;&f_g;</trd>
+  <trd lng="si">&#3501;&#3539;&#3505;&#3530;&#3501;</trd>
   <trdgrp lng="sk">
     <trd>ma&lcaron;ova&tcaron;</trd>,
     <trd>poma&lcaron;ova&tcaron;</trd>
   </trdgrp>
-  <trd lng="sq">boj&#xEB;</trd>
+  <trd lng="sl">barve</trd>
+  <trd lng="sm">vali</trd>
+  <trd lng="sn">penda</trd>
+  <trd lng="so">rinji</trd>
+  <trd lng="sq">boj&euml;</trd>
   <trd lng="st">pente</trd>
+  <trd lng="su">cet</trd>
   <trd lng="sv">m&aring;la</trd>
-  <trd lng="ta">&#xBB5;&#xBA3;&#xBCD;&#xBA3;&#xBAE;&#xBCD;</trd>
-  <trd lng="te">&#xC2A;&#xC46;&#xC2F;&#xC3F;&#xC02;&#xC1F;&#xC4D;</trd>
-  <trd lng="th">&#xE17;&#xE32;&#xE2A;&#xE35;</trd>
+  <trd lng="sw">rangi</trd>
+  <trd lng="ta">&#2997;&#2979;&#3021;&#2979;&#2990;&#3021;</trd>
+  <trd lng="te">&#3114;&#3142;&#3119;&#3135;&#3074;&#3103;&#3149;</trd>
+  <trd lng="tg">&c_r;&c_a;&c_n;&c_g;</trd>
+  <trd lng="th">&#3607;&#3634;&#3626;&#3637;</trd>
   <trd lng="tl">pintahan</trd>
-  <trd lng="ur">&#x67E;&#x6CC;&#x646;&#x679;</trd>
-  <trd lng="vi">s&#x1A1;n</trd>
-  <trd lng="yi">&#x5E4;&#x5D0;&#x5B7;&#x5E8;&#x5D1;</trd>
+  <trd lng="tt">&c_b;&c_u;&c_ja;&c_u;</trd>
+  <trd lng="uk">&c_f;&c_a;&c_r;&c_b;&c_a;</trd>
+  <trd lng="ur">&f_p;&f_y;&a_n;&#1657;</trd>
+  <trd lng="uz">bo&#8217;yoq</trd>
+  <trd lng="vi">s&#417;n</trd>
+  <trd lng="xh">ukupeyinta</trd>
+  <trd lng="yi">&pe;&alef;&#1463;&resh;&bet;</trd>
+  <trd lng="yo">kun</trd>
   <trd lng="zu">ukupenda</trd>
 </drv>
 
@@ -293,7 +338,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        sur la brile verdaj kovriloj de la fenestroj <klr>[&#x2026;]</klr> estis tu&scirc;anta
+        sur la brile verdaj kovriloj de la fenestroj <klr>[&#8230;]</klr> estis tu&scirc;anta
         <tld/>a&jcirc;o de bruna &scirc;a&ubreve;ma biera kru&ccirc;o
         <fnt>
           <bib>BdV</bib>
@@ -308,7 +353,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        &ccirc;e la subiro de la suno <klr>[&#x2026;]</klr> sin sternis anta&ubreve; ili eksterordinara
+        &ccirc;e la subiro de la suno <klr>[&#8230;]</klr> sin sternis anta&ubreve; ili eksterordinara
         <tld/>a&jcirc;o
         <fnt>
           <bib>Far2</bib>
@@ -329,7 +374,7 @@
     <trd>&c_m;&c_a;&c_l;&c_ju;&c_n;&c_a;&c_k;</trd>,
     <trd>&c_k;&c_a;&c_r;&c_c;&c_ib;&c_n;&c_a;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF62;&#xF72;&#xF0B;&#xF58;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_ra;&t_gigu;&t_tsheg;&t_ma;&t_naro;&t_tsheg;</trd>
   <trd lng="br">livadur</trd>
   <trd lng="de">Gem&auml;lde</trd>
   <trdgrp lng="es">
@@ -339,8 +384,11 @@
   <trd lng="fr">peinture<klr> (&oelig;uvre picturale)</klr></trd>
   <trd lng="hu">festm&eacute;ny</trd>
   <trd lng="nl">schilderij</trd>
+  <trd lng="pl">obraz</trd>
+  <trd lng="ro">pictur&abreve;</trd>
   <trd lng="ru">&c_k;&c_a;&c_r;&c_t;&c_i;&c_n;&c_a;</trd>
   <trd lng="sv">m&aring;lning</trd>
+  <trd lng="uk">&c_k;&c_a;&c_r;&c_t;&c_i;&c_n;&c_a;</trd>
 </drv>
 
 <drv mrk="pentr.0inda">
@@ -356,7 +404,7 @@
         edzino</lok></fnt>;
       </ekz>
       <ekz>
-        vegeta&jcirc;oj <klr>[&#x2026;]</klr> kreskis la&ubreve; sia propra impulso, formante neregulajn,
+        vegeta&jcirc;oj <klr>[&#8230;]</klr> kreskis la&ubreve; sia propra impulso, formante neregulajn,
         sed <tld/>indajn arojn
         <fnt>
           <bib>Far3</bib>
@@ -379,8 +427,17 @@
   <trd lng="fr">pittoresque</trd>
   <trd lng="hu">fest&odblac;i</trd>
   <trd lng="nl">schilderachtig</trd>
+  <trdgrp lng="pl">
+    <trd>malowniczy</trd>,
+    <trd>barwny</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>pitoresc</trd>,
+    <trd>colorat</trd>
+  </trdgrp>
   <trd lng="ru">&c_zh;&c_i;&c_v;&c_o;&c_p;&c_i;&c_s;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">malebn&yacute;</trd>
+  <trd lng="uk">&c_m;&c_a;&c_l;&c_mol;&c_o;&c_v;&c_n;&c_i;&c_ch;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="pentr.0isto">
@@ -399,7 +456,7 @@
       </ekz>
       <ekz>
         la poeto povas &gcirc;in prikanti, la <tld/>isto povas &gcirc;in prezenti en luksaj bildoj,
-        sed la aromon de la realeco <klr>[&#x2026;]</klr> ili ne povas transdoni
+        sed la aromon de la realeco <klr>[&#8230;]</klr> ili ne povas transdoni
         <fnt>
           <bib>Fab1</bib>
           <lok>Ligo de amikeco</lok>
@@ -419,7 +476,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007014.html">A&ubreve;strio: Orfi&gcirc;inta beleco</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007014.html">A&ubreve;strio: Orfi&gcirc;inta beleco</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -427,7 +484,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Dmitrij Cibulevskij</aut>
-          <vrk><url ref="https://www.monato.be/2004/008012.html">Katedralo renaski&gcirc;anta</url></vrk>
+          <vrk><url ref="&Monato;/2004/008012.html">Katedralo renaski&gcirc;anta</url></vrk>
           <lok>2004</lok>
         </fnt>;
       </ekz>
@@ -436,12 +493,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan MacGill</aut>
-          <vrk><url ref="https://www.monato.be/2006/008748.php">Ruzo en rifuzo</url></vrk>
+          <vrk><url ref="&Monato;/2006/008748.php">Ruzo en rifuzo</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_a;&c_s;&c_t;&c_a;&c_k;</trd>,
+    <trd>&c_zh;&c_y;&c_v;&c_a;&c_p;&c_ib;&c_s;&c_je;&c_c;</trd>
+  </trdgrp>
   <trd lng="cs">mal&iacute;&rcaron;</trd>
   <trd lng="de">Maler</trd>
   <trd lng="es">pintor</trd>
@@ -450,6 +511,8 @@
     <trd>schilder<klr tip="ind"> (kunstschilder)</klr></trd>,
     <trd>kunstschilder</trd>
   </trdgrp>
+  <trd lng="pl">malarz</trd>
+  <trd lng="ro">pictor</trd>
   <trdgrp lng="ru">
     <trd>&c_h;&c_u;&c_d;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_zh;&c_i;&c_v;&c_o;&c_g;&c_i;&c_s;&c_je;&c_c;</trd>
@@ -481,6 +544,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_Zh;&c_y;&c_v;&c_a;&c_p;&c_ib;&c_s;&c_je;&c_c; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
   <trd lng="de">Maler <klr>(Sternbild)</klr></trd>
   <trd lng="en">Pictor</trd>
   <trdgrp lng="es">
@@ -489,14 +553,21 @@
     <trd>Pictor<klr tip="ind"> (constelaci&oacute;n)</klr></trd>
   </trdgrp>
   <trd lng="fr">Peintre<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="pl">Malarz  <klr>(gwiazdozbi&oacute;r)</klr></trd>
+  <trd lng="ro">Pictorul  <klr>(constela&#539;ie)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&c_h;&c_u;&c_d;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_zh;&c_i;&c_v;&c_o;&c_p;&c_i;&c_s;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_a;&c_l;&c_ja;&c_r;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pentr.ajx0ajxo">
       <kap>a&jcirc;<tld/>a&jcirc;o
         <fnt>
           <aut>S. Pokrovskij</aut>:
-          <vrk><url ref="http://esperanto-ondo.ru/L-sp193.htm">Muta naturo</url></vrk>.
-          <bib>LOdE</bib>, <lok>2010:11 n&#x2011;ro 193</lok>
+          <vrk><url ref="&LOdE;L-sp193.htm">Muta naturo</url></vrk>.
+          <bib>LOdE</bib>, <lok>2010:11 n&#8209;ro 193</lok>
         </fnt>
       </kap>
   <snc mrk="pentr.ajx0ajxo.BELA">
@@ -516,10 +587,13 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_t;&c_u;&c_r;&c_m;&c_o;&c_r;&c_t;</trd>
   <trd lng="de">Stilleben</trd>
   <trd lng="en">still life</trd>
   <trd lng="es">naturaleza muerta</trd>
   <trd lng="fr">nature morte</trd>
+  <trd lng="pl">martwa natura</trd>
+  <trd lng="ro">natura static&abreve;</trd>
   <trd lng="ru">&c_n;&c_a;&c_t;&c_ju;&c_r;&c_m;&c_o;&c_r;&c_t;</trd>
 </drv>
 
@@ -532,20 +606,23 @@
       enmiksa&jcirc;oj.
     </dif>
   </snc>
+  <trd lng="be">&c_e;&c_n;&c_k;&c_a;&c_w;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>
   <trd lng="de">Wachsmalerei</trd>
   <trdgrp lng="es">
     <trd>encausto</trd>,
     <trd>enc&aacute;ustica</trd>
   </trdgrp>
   <trd lng="fr">encaustique<klr> (proc&eacute;d&eacute;)</klr></trd>
-  <trdgrp lng="nl">
-    <trd>wasschilderkunst</trd>,
-    <trd>encaustiek</trd>
-  </trdgrp>
   <trdgrp lng="it">
     <trd>encausto</trd>,
     <trd>encaustica</trd>
   </trdgrp>
+  <trdgrp lng="nl">
+    <trd>wasschilderkunst</trd>,
+    <trd>encaustiek</trd>
+  </trdgrp>
+  <trd lng="pl">enkaustyka</trd>
+  <trd lng="ro">encaustic&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_e;&c_n;&c_k;&c_a;&c_u;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>,
     <trd>&c_zh;&c_i;&c_v;&c_o;&c_p;&c_i;&c_s;&c_mol; <ind>&c_v;&c_o;&c_s;&c_k;&c_o;&c_v;&c_y;&c_m;&c_i; &c_k;&c_r;&c_a;&c_s;&c_k;&c_a;&c_m;&c_i;</ind></trd>
@@ -553,7 +630,19 @@
 </drv>
 </art>
 <!--
-$Log: pentr.xml,v $
+$Log$
+versio 1.110 2022/10/12 22:37:56
+Vito Redsky: +trd pl + trd ro
+
+versio 1.109 2022/09/08 12:58:25
+Dmitri Gabinski: + trd be
+
+versio 1.108 2022/07/16 18:33:04
+Jeromo Vasxe: ~i x, + 1 ekz
+
+versio 1.107 2022/05/01 17:51:19
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.30 2020/04/07 11:10:28
 Wolfram Diestel: ekz-oj, germ trd-oj
 
@@ -564,17 +653,5 @@ Revision 1.28  2017/05/29 13:10:12  revo
 Ludoviko Francisco: kor ekz +drv
 
 Revision 1.27  2016/05/26 10:10:21  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.26  2015/08/09 16:10:14  revo
-Agustin Garcia Lopez: +trd(es) -i
-
-Revision 1.25  2015/07/04 08:37:41  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.24  2015/06/29 16:40:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.23  2014/07/01 05:10:11  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: traged.xml,v 1.29 2019/08/30 05:10:15 revo Exp $">
+<art mrk="$Id: traged.xml,v 1.32 2022/05/05 17:08:11 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>7</ofc>
   <rad>tragedi</rad>/o
@@ -34,7 +33,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        gaja kaj &gcirc;ojiga historio, komencita per edzi&gcirc;festo, subite <tld/>i&gcirc;as: forpasas amata senkulpa filo de la protagonisto
+        gaja kaj &gcirc;ojiga historio, komencita per edzi&gcirc;festo, subite <tld/>i&gcirc;as: forpasas amata
+        senkulpa filo de la protagonisto
         <fnt>
           <bib>Monato</bib>
           <aut>Firdaus Shukurov</aut>
@@ -73,7 +73,7 @@
         &ccirc;iujn niajn akceptitajn ideojn pri la mondo, pri E&ubreve;ropo kaj niaj najbaroj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9310-sarajevo.txt">La
+          <vrk><url ref="&Steloj;monato1/monato-9310-sarajevo.txt">La
           Fino de la Mondo komenci&gcirc;as en Sarajevo</url></vrk>
         </fnt>;
       </ekz>
@@ -81,7 +81,7 @@
         personaj <tld/>oj: sinmortigojn, dis&scirc;iritajn familiojn, perdon de talentoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9401-kanado.txt">Kanado</url></vrk>
+          <vrk><url ref="&Steloj;monato1/monato-9401-kanado.txt">Kanado</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -107,6 +107,7 @@
     <trd>trag&eacute;dia</trd>,
     <trd>tr&uacute;chlohra</trd>
   </trdgrp>
+  <trd lng="uk">&#x442;&#x440;&#x430;&#x433;&#x435;&#x434;&#x456;&#x44F;</trd>
 </drv>
 
 <drv mrk="traged.0a">
@@ -151,7 +152,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Alexander Gofen</aut>
-          <vrk><url ref="https://www.monato.be/2003/008002.html">Brave, prezidanto Putin!</url></vrk>
+          <vrk><url ref="&Monato;/2003/008002.html">Brave, prezidanto
+          Putin!</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -177,6 +179,10 @@
   <trd lng="nl">tragisch</trd>
   <trd lng="pt">tr&aacute;gico</trd>
   <trd lng="sk">tragick&yacute;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x442;&#x440;&#x430;&#x433;&#x435;&#x434;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x442;&#x440;&#x430;&#x433;&#x456;&#x447;&#x43D;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="traged.0isto">
@@ -187,24 +193,24 @@
     <dif>
       Verkisto de <tld/>oj:
       <ekz>
-        Sofoklo <klr>[estas]</klr> inter Es&hcirc;ilo kaj E&ubreve;ripido <klr>[&#8230;]</klr> unu el tri
+        Sofoklo <klr>[estas]</klr> inter Es&hcirc;ilo kaj E&ubreve;ripido <klr>[&#x2026;]</klr> unu el tri
         klasikaj <tld/>istoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=55093"
-              >Sofoklo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=55093">Sofoklo</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         &scirc;ipoj, sur kiuj tamen, la&ubreve; la <tld/>isto, sin riskis nur kura&gcirc;aj a&ubreve;dacaj viroj
         <fnt>
-          <vrk><url ref="http://www.autodidactproject.org/other/wilkins_luno.html"
-              >Ebleco de Voja&gcirc;o al la Luno</url></vrk>
+          <vrk><url ref="http://www.autodidactproject.org/other/wilkins_luno.html">Ebleco de Voja&gcirc;o al la Luno</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_r;&c_a;&c_g;&c_ib;&c_k;</trd>
   <trd lng="de">Trag&ouml;diendichter</trd>
+  <trd lng="uk">&#x442;&#x440;&#x430;&#x433;&#x456;&#x43A; (&#x430;&#x43A;&#x442;&#x43E;&#x440;)</trd>
 </drv>
 
 
@@ -212,6 +218,12 @@
 
 <!--
 $Log$
+versio 1.32 2022/05/05 17:08:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.30 2021/10/07 08:34:17
+Dmitri Gabinski: + trd be
+
 Revision 1.28  2019/06/30 18:21:50  revo
 adaptis URL de Monato
 
@@ -228,8 +240,5 @@ Revision 1.24  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.23  2015/06/29 16:40:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2012/08/14 12:10:34  revo
 -->
 </vortaro>

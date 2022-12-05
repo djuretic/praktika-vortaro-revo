@@ -1,66 +1,173 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: promes.xml,v 1.20 2021/05/29 14:33:08 revo Exp $">
+<art mrk="$Id: promes.xml,v 1.26 2022/05/04 18:30:34 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>promes</rad>/i
 </kap>
 <drv mrk="promes.0i">
-   <kap><ofc>*</ofc><tld/>i</kap>
-   <gra><vspec>tr</vspec></gra>
-   <snc>
-     <dif>
-       Certigi, ke oni faros a&ubreve; donos:
-       <ekz>
-         <tld/>i ludilon al infano;
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="promes.0i.certigi">
+    <dif>
+      <ref tip="super" cel="cert.0igi.aserti">Certigi</ref>, ke oni faros a&ubreve; donos:
+      <ekz>
+        mi <tld/>as al vi &ccirc;ion, kion vi volas, se vi nur <klr>[&#x2026;]</klr>
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Re&gcirc;o rano a&ubreve; fera Henriko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la re&gcirc;o <tld/>is donaci al li la vivon <klr>[&#x2026;]</klr>, se li
+        forrabos la princinon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La ora birdo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi al mi ne <tld/>os instrui al li &ccirc;ion, kion li devas scii, <klr>[&#x2026;]</klr>
+        mi ne povos trankvile fermi miajn okulojn
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fidela Johano</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj kvar konfesis, ke ili &scirc;telis la monon, ili <tld/>is redoni &gcirc;in
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Doktoro &Ccirc;ioscia</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi ne <tld/>is, ke anta&ubreve; via veno aperos viaj senditoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La senditoj de morto</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        ni kontrakte <tld/>as liveri al li samvaloran kvanton da trunkoj en la venonta
+        vintro
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Mi venigos vin en la landon, pri kiu Mi, levinte Mian manon, 
+        <tld/>is <klr>(vd <ref tip="sub" cel="jxur.0i">&jcirc;uri</ref>)</klr>, 
+        ke Mi donos &gcirc;in al <nom>Abraham</nom>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 6:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni <tld/>is al mi laboron, kiu, mi esperas, donos al mi rimedojn por vivado
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li anta&ubreve; la altaro sankte <tld/>is <klr>[&#x2026;]</klr> &gcirc;ismortan
+        fidelecon kaj amon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>ofte mano forgesas, kion bu&scirc;o <tld/>as</ind>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+        <trd lng="hu">&iacute;g&eacute;rettel nem lehet j&oacute;llakni</trd>
+      </ekz>
+      <ekz>
+        <ind><tld/>i orajn montojn</ind>
+        <fnt><bib>PrV</bib></fnt>.
+        <trd lng="hu">eget-f&ouml;ldet &iacute;g&eacute;r</trd>       
+        <trd lng="ru">&c_s;&c_u;&c_l;&c_i;&c_t;&c_mol; 
+        &c_z;&c_o;&c_l;&c_o;&c_t;&c_y;&c_je; &c_g;&c_o;&c_r;&c_y;</trd>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="pren.sur0i.FIG">surpreni<sncref/></ref>,
+      <ref cel="sxargx.0igxi">&scirc;ar&gcirc;i&gcirc;i</ref>,
+      <ref cel="sxuld.0igxi">&scirc;uldi&gcirc;i</ref>,
+      <ref cel="task.0igxi">taski&gcirc;i</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="dev.0ontigi">devontigi</ref>
+    </refgrp>
+    <trd lng="de">zusagen</trd>
+    <trd lng="fa">&a_q;&a_w;&a_l; &a_d;&a_A;&a_d;&a_n;</trd>
+  </snc>
+  <snc mrk="promes.0i.esperigi">
+    <dif>
+      Doni motivon por <ref cel="esper.0i">esperi</ref>:
+      <ekz>
+        <klr>[tiu]</klr> afero <tld/>as al la homoj grandegan kaj senduban utilon
+        <fnt>
+          <bib>EE</bib>
+          <lok>IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia sano kaj sobreca vivmaniero <tld/>as multajn jarojn da vivo
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kredo <tld/>is al &scirc;i kuni&gcirc;on kun tiuj, 
+        pri kiuj sopiris &scirc;ia vundita koro
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi ne dubas ja pri transmorta vivo? <klr>[&#x2026;]</klr>, la kredo tion <tld/>as
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la greno <tld/>is ri&ccirc;an kaj benitan rikolton
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Poligono</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tuta epizodo <tld/>as plezuron, forgesigan, feli&ccirc;an, ekscitan aventureton
+        <fnt>
+          <bib>LGA</bib>
+          <lok>II.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mult<tld/>aj frazoj
+        <fnt>
+          <bib>EE</bib>
+          <lok>VI</lok>
+        </fnt>.
        </ekz>
-       <ekz>
-         mi <tld/>as observi, kion le&gcirc;o ordonas;
-       </ekz>
-       <ekz>
-         <ind>ofte mano forgesas, kion bu&scirc;o <tld/>is</ind><fnt>Z</fnt>;
-         <trd lng="hu">&iacute;g&eacute;rettel nem lehet j&oacute;llakni</trd>
-       </ekz>
-       <ekz><ind><tld/>i orajn montojn</ind>,
-       <trd lng="hu">eget-f&ouml;ldet &iacute;g&eacute;r</trd>       
-         <trd lng="ru">&c_s;&c_u;&c_l;&c_i;&c_t;&c_mol; 
-&c_z;&c_o;&c_l;&c_o;&c_t;&c_y;&c_je; &c_g;&c_o;&c_r;&c_y;</trd>
-<fnt><bib>PrV</bib></fnt></ekz>
-       <ekz>
-         pirojn sur saliko
-         (<ref tip="vid" cel="brik.0o">briko</ref>).
-       </ekz>
-     </dif>
-     <ref tip="sin" cel="esper.0iga">esperigi</ref>
-     <ref tip="vid" cel="sxmir.0i">&scirc;miri</ref>
-     <trd lng="fa">&a_q;&a_w;&a_l; &a_d;&a_A;&a_d;&a_n;</trd>
-   </snc>
-   <snc>
-     <dif>
-       Doni motivon por esperi:
-       <ekz>
-         la ekspozicio <tld/>as profiton, <tld/>as esti grandioza;
-       </ekz>
-       <ekz>
-         tiuj preparoj <tld/>as grandan sukceson;
-       </ekz>
-       <ekz>
-         la jam anoncitaj paroladoj <tld/>as interesan pritraktadon de
-         la
-         temoj;
-       </ekz>
-       <ekz>
-         mult<tld/>aj frazoj<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         la vetero <tld/>is esti favora.
-       </ekz>
-     </dif>
-     <trd lng="fa">&a_n;&a_w;&f_y;&a_d; &a_d;&a_A;&a_d;&a_n;</trd>
-   </snc>
+    </dif>
+    <ref tip="sin" cel="esper.0iga">esperigi</ref>
+    <refgrp tip="vid">
+      <ref cel="anonc.0i.antausciigi">anonci<sncref/></ref>,
+      <ref cel="auxgur.0i">a&ubreve;guri</ref>
+    </refgrp>
+    <trd lng="fa">&a_n;&a_w;&f_y;&a_d; &a_d;&a_A;&a_d;&a_n;</trd>
+  </snc>
   <trd lng="be">&c_a;&c_b;&c_ja;&c_c;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="bo">&#xF41;&#xF66;&#xF0B;&#xF63;&#xF7A;&#xF53;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_sa;&t_tsheg;&t_la;&t_drengbu;&t_na;&t_tsheg;&t_ba;&t_yata;&t_drengbu;&t_da;&t_tsheg;</trd>
   <trd lng="ca">prometre</trd>
   <trdgrp lng="cs">
     <trd>br&aacute;t si jako &uacute;kol</trd>,
@@ -85,52 +192,160 @@
     <trd>s&lcaron;&uacute;bi&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">lova</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x431;&#x456;&#x446;&#x44F;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x43E;&#x431;&#x43E;&#x432;&#x2019;&#x44F;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
+    <trd>&#x43F;&#x440;&#x43E;&#x432;&#x456;&#x449;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x430;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
+<drv mrk="promes.0a">
+  <kap>
+    <tld/>a,
+    <var><kap>sukces<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="P"/>anta sukcesi:
+      <ekz>
+        ekzistas diversaj pli a&ubreve; malpli sukces<tld/>aj trukoj solvi la problemon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="&Steloj;monato2/006813.html">Sa&gcirc;a kapo duonvorton komprenas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej <tld/>a &scirc;anco por eviti homfarotajn konfliktojn estas do profilaktiko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>PGubbins</aut>
+          <vrk><url ref="&Steloj;monato2/006953.html">Opinio: Bezonata: nova "fremdula legio"</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la kverkoj, diris kun <tld/>a koketeco la knabino
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni nepre demandas sin, kial iuj aliaj <klr>[&#x2026;]</klr>, kiuj havis pli <tld/>an
+        komencan kapitalon, kontra&ubreve;e &gcirc;isfunde enkotigis sin mem
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smedt</aut>
+          <vrk><url ref="&Monato;/2011/010296.php">Socia dokumento pri nia larmovalo</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">erfolgversprechend</trd>
+  <trd lng="en">promising</trd>
+</drv>
+
+
+
+
+
+
 <drv mrk="promes.0o">
-   <kap><tld/>o</kap>
-   <snc>
-     <dif>
-       Io <tld/>ita:
-       <ekz>
-         disdoni<fnt>Z</fnt>,
-       </ekz>
-       <ekz>
-         fari<fnt>Z</fnt>,
-       </ekz>
-       <ekz>
-         plenumi<fnt>Z</fnt>,
-       </ekz>
-       <ekz>
-         repreni, forgesi<fnt>Z</fnt>
-       </ekz>
-       <ekz>
-         <tld/>ojn;
-       </ekz>
-       <ekz>
-         regali, nutri iun per <tld/>oj<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         per <tld/>oj estus pavimita la infero<fnt>Z</fnt>;
-       </ekz>
-       <ekz><tld/>o estas lar&gcirc;a, plenumo estas &scirc;ar&gcirc;a
-<fnt><bib>PrV</bib></fnt>;</ekz>
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      Io <tld/>ita:
+      <ekz>
+        <nom>Jakob</nom> faris sanktan <tld/>on
+        <klr>(vd <ref tip="sub" cel="vot.0o">voto</ref>)</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 28:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o devas esti plenumita
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ursa Felo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estis ligita de <tld/>o
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi donis solenan <klr>[promeson]</klr>, ke mi silentos
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi redonas al vi vian <tld/>on, sed mi ne reprenas la mian
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de geedzi&gcirc;o
+        <klr>(vd <ref cel="fiancx.0igxo">gefian&ccirc;i&gcirc;o</ref>)</klr>
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekkvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nutri per <tld/>oj
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sub seruro <tld/>ojn tenu, sed doninte ne reprenu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per <tld/>oj estus pavimita la infero
+        <fnt>
+          <bib>PrV</bib>
+          <lok>P</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li faras princan <tld/>on, sed ne havas e&ccirc; speson
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o estas lar&gcirc;a, plenumo estas &scirc;ar&gcirc;a
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+<!--
        <ekz>
          <ind>mult<tld/>a</ind> elpensa&jcirc;o;
          <trd lng="be">&c_sh;&c_m;&c_a;&c_t;&c_a;&c_b;&c_ja;&c_c;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
          <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_o;&c_b;&c_je;&c_shch;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>
        </ekz>
-       <ekz>
-         sankt(a)<tld/>o
-         (<ref tip="sin" cel="vot.0o">voto</ref>).
-       </ekz>
+-->
      </dif>
-   </snc>
+    <refgrp tip="vid">
+      <ref cel="dev.sin0igo">sindevigo</ref>
+    </refgrp>
+  </snc>
   <trdgrp lng="be">
      <trd>&c_a;&c_b;&c_ja;&c_c;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
      <trd>&c_a;&c_b;&c_ja;&c_c;&c_a;&c_n;&c_k;&c_a;</trd>
    </trdgrp>
-  <trd lng="bo">&#xF41;&#xF66;&#xF0B;&#xF63;&#xF7A;&#xF53;&#xF0B;&#xF54;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_sa;&t_tsheg;&t_la;&t_drengbu;&t_na;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trd lng="ca">promesa</trd>
   <trdgrp lng="cs">
     <trd>promise</trd>,
@@ -152,10 +367,130 @@
   <trd lng="ru">&c_o;&c_b;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">s&lcaron;ub</trd>
   <trd lng="sv">l&ouml;fte</trd>
+  <trd lng="uk">&#x43E;&#x431;&#x456;&#x446;&#x44F;&#x43D;&#x43A;&#x430;</trd>
 </drv>
+
+
+
+
+<drv mrk="promes.0plena">
+  <kap>
+    <tld/>plena,
+    <var><kap>bon<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Tre <ref tip="sin" cel="esper.0iga">esperiga</ref>, 
+      <ref tip="sin" cel="auxgur.bon0a">bona&ubreve;gura</ref>:
+      <ekz>
+        la nova&jcirc;o jam &scirc;ajnis al <nom>Ajna</nom> pli bon<tld/>a, 
+        sed subite alia penso &jcirc;etis ombron
+        en &scirc;ian animon
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mencio pri &leftquot;la fi-agoj kiujn vi faris en 1952&rightquot; <klr>[&#x2026;]</klr> aspektis
+        <tld/>plena, kaj <nom>Izabela</nom>, la polica referencistino, <klr>[&#x2026;]</klr> konas
+        parkere &ccirc;iujn esencajn faktojn pri &ccirc;iu kaj &ccirc;io grava
+        <fnt>
+          <bib>ChB</bib>
+          <lok>18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej lasta aperis sur la belartkonkursa kampo la talenta kaj <tld/>plena 
+        <nom>Kuroda masayuki</nom>
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nazia invado de &Ccirc;e&hcirc;oslovakio kaj la posta milito detruis tiujn <tld/>plenajn
+        komenci&gcirc;ojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili perdas postenojn kaj ke por iliaj infanoj perspektivoj ne estas tre
+        <tld/>plenaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2005/008521.php">Pledo por mondcivitana partio</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la esploroj estis <tld/>plenaj: la nova trafikilo ta&ubreve;gis por longaj distancoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2007/009349.php">Superflua rapidego</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>vielversprechend</trd>,
+    <trd>verhei&szlig;ungsvoll</trd>
+  </trdgrp>
+</drv>
+<drv mrk="promes.mult0a">
+  <kap>
+    mult<tld/>a,
+    <var><kap>multe<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="P"/>anta multe:
+      <ekz>
+        dikaj libroj kun <klr>[&#x2026;]</klr> multe<tld/>aj frazoj
+        <fnt>
+          <bib>EE</bib>
+          <lok>VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu mult<tld/>a stato kontrastas kun preska&ubreve; ignorema sinteno de la registaro
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>vielversprechend</trd>
+  </trdgrp>
+  <trd lng="en">much <ind>promising</ind></trd>
+  <trd lng="uk">&#x431;&#x430;&#x433;&#x430;&#x442;&#x43E;&#x43E;&#x431;&#x456;&#x446;&#x44F;&#x44E;&#x447;&#x438;&#x439;</trd>
+</drv>
+
+
+
 </art>
 <!--
-$Log: promes.xml,v $
+$Log$
+versio 1.26 2022/05/04 18:30:34
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.24 2022/02/08 19:22:39
+Wolfram Diestel: +~a, sukces~a; bon~a; mult(e)~a
+
+versio 1.23 2022/02/08 18:30:22
+Wolfram Diestel: ~o: ekz-oj, ref-oj; +~plena
+
+versio 1.22 2022/02/08 07:25:43
+Wolfram Diestel: ~i: ekz-oj, ref-oj, trd de
+
+versio 1.21 2022/02/07 19:23:19
+Wolfram Diestel: +snc-mrk
+
 versio 1.19 2020/03/28 20:10:23
 James Rezende Piton: +trd pt
 
@@ -163,20 +498,5 @@ Revision 1.18  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.17  2015/06/29 16:40:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.16  2011/09/29 20:10:15  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.15  2006/06/25 16:32:35  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.14  2006/03/31 10:24:04  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2004/08/19 16:32:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2004/01/08 17:30:48  revo
 -->
 </vortaro>

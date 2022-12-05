@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: insid.xml,v 1.22 2021/05/29 10:57:03 revo Exp $">
+<art mrk="$Id: insid.xml,v 1.25 2022/04/30 08:42:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>insid</rad>/i <fnt><bib>MT</bib></fnt>
@@ -11,7 +11,8 @@
   <gra><vspec>x</vspec></gra>
   <snc mrk="insid.0i.KOMUNE">
     <dif>
-      Prepari sekretan ruzan kombina&jcirc;on por trompi kaj malutili iun:
+      Prepari sekretan ruzan kombina&jcirc;on por <ref cel="tromp.0i">trompi</ref> 
+      kaj <ref cel="util.mal0i">malutili</ref> iun:
       <ekz>
         ne <tld/>u, ho malvirtulo, kontra&ubreve; la domo de virtulo
         <fnt><bib>MT</bib>, <lok>&Sen; 24:15</lok></fnt>;
@@ -36,12 +37,15 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2003/008119.html">Taglibro de l' milito ... el la lando de &Scirc;ekspiro</url></vrk>
+          <vrk><url ref="&Monato;/2003/008119.html">Taglibro de l' milito ... el la lando de &Scirc;ekspiro</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="intrig.0i">intrigi</ref>
+    <refgrp tip="vid">
+      <ref cel="intrig.0i">intrigi</ref>
+      <ref cel="ruz.0i">ruzi</ref>
+    </refgrp>
     <trdgrp lng="ca">
       <trd>ordir</trd>,
       <trd>insidiar</trd>,
@@ -121,6 +125,14 @@
     &c_k;&c_o;&c_g;&c_o;-&c_l;.)</klr></trd>
   </trdgrp>
   <trd lng="sk">chysta&tcaron; pascu</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x456;&#x434;&#x441;&#x442;&#x435;&#x440;&#x456;&#x433;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x447;&#x438;&#x433;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x430;&#x437;&#x456;&#x445;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x43E;&#x441;&#x44F;&#x433;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x430;&#x43C;&#x438;&#x448;&#x43B;&#x44F;&#x442;&#x438; &#x437;&#x43C;&#x43E;&#x432;&#x443;</trd>,
+    <trd>&#x43F;&#x456;&#x434;&#x441;&#x438;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="insid.0o">
@@ -149,9 +161,10 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="artifi.0o">artifiko</ref>,
-      <ref tip="vid" cel="intrig.0o.komploto">intrigo<sncref/></ref>,
+      <ref cel="intrig.0o.komploto">intrigo<sncref/></ref>,
       <ref cel="ret.0o">reto</ref>,
-      <ref cel="kapt.0ilo">kaptilo</ref>.
+      <ref cel="ruz.0o0ajxo">ruza&jcirc;o</ref>,
+      <ref cel="kapt.0ilo">kaptilo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="ca">
@@ -193,6 +206,12 @@
     <trd>&c_z;&c_a;&c_s;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_l;&c_o;&c_v;&c_u;&c_sh;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x437;&#x456;&#x445;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x43F;&#x43E;&#x441;&#x44F;&#x433;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&#x437;&#x43C;&#x43E;&#x432;&#x430;</trd>,
+    <trd>&#x43F;&#x456;&#x434;&#x441;&#x442;&#x443;&#x43F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="insid.0a">
@@ -215,7 +234,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Clair Mah&eacute;</aut>
-          <vrk><url ref="https://www.monato.be/2006/008904.php">La okcitana lingvo</url></vrk>
+          <vrk><url ref="&Monato;/2006/008904.php">La okcitana lingvo</url></vrk>
           <lok>2006</lok>
         </fnt>;
       </ekz>
@@ -223,7 +242,7 @@
         <tld/>a kaptilo
         <fnt>
           <bib>Monato</bib>
-          <lok><url ref="http://steloj.de/esperanto/monato2/007050.html">http://steloj.de/esperanto/monato2/007050.html</url></lok>
+          <lok><url ref="&Steloj;monato2/007050.html">&Steloj;monato2/007050.html</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -231,7 +250,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="https://www.monato.be/2011/010244.php">Mitralo en la kuirejo</url></vrk>
+          <vrk><url ref="&Monato;/2011/010244.php">Mitralo en la kuirejo</url></vrk>
           <lok>2011</lok>
         </fnt>;
       </ekz>
@@ -244,6 +263,10 @@
       la resta&jcirc;on de la Jehova-kulto
       <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 9</lok></fnt>.
     </ekz>
+    <refgrp tip="vid">
+      <ref cel="ruz.0a">ruza</ref>,
+      <ref cel="tromp.0a">trompa</ref>
+    </refgrp>
   </snc>
   <trd lng="bo">&#xF58;&#xF42;&#xF7C;&#xF0B;&#xF56;&#xF51;&#xF7A;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trdgrp lng="ca">
@@ -265,7 +288,7 @@
     <trd>insidious</trd>,
     <trd>treacherous</trd>
   </trdgrp>
-  <trd lng="fa">&a_d;&a_s;&f_y;&a_s;&a_h;&zwnj;&a_A_madda;&a_m;&f_y;&a_z;</trd>
+  <trd lng="fa">&a_d;&a_s;&f_y;&a_s;&a_h;&#x200C;&a_A_madda;&a_m;&f_y;&a_z;</trd>
   <trdgrp lng="fr">
     <trd>insidieux<klr tip="ind"> (plein d'embuches)</klr></trd>,
     <trd>pi&eacute;g&eacute;<klr tip="ind"> (insidieux)</klr></trd>,
@@ -287,6 +310,7 @@
     <trd>pl&iacute;&zcaron;iv&yacute;</trd>,
     <trd>pozvo&lcaron;n&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43F;&#x456;&#x434;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="insid.0ema">
@@ -305,7 +329,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Angela Tellier</aut>
-          <vrk><url ref="https://www.monato.be/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
+          <vrk><url ref="&Monato;/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
           <lok>2004</lok>
         </fnt>;
       </ekz>
@@ -337,7 +361,7 @@
     <trd>insidious</trd>,
     <trd>treacherous</trd>
   </trdgrp>
-  <trd lng="fa">&a_d;&a_s;&f_y;&a_s;&a_h;&zwnj;&a_j;&a_w;</trd>
+  <trd lng="fa">&a_d;&a_s;&f_y;&a_s;&a_h;&#x200C;&a_j;&a_w;</trd>
   <trdgrp lng="fr">
     <trd>insidieux<klr tip="ind"> (qui dresse des embuches)</klr></trd>,
     <trd>sournois<klr tip="ind"> (qui dresse des embuches)</klr></trd>,
@@ -351,10 +375,17 @@
   insidiar)</klr></trd>
   <trd lng="ru">&c_k;&c_o;&c_v;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">&uacute;kladn&yacute;</trd>
+  <trd lng="uk">&#x43F;&#x456;&#x434;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x438;&#x439;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2022/04/30 08:42:42
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.23 2022/02/22 17:30:53
+Wolfram Diestel: +ref-oj
+
 Revision 1.20  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -371,8 +402,5 @@ Revision 1.16  2006/10/31 17:30:43  revo
 Jeromo Vasxe: + var en kap
 
 Revision 1.15 2006/09/17 16:30:56 revo
-Russ Williams: +trd en (kaj "insidious" estas adjektivo, ne verbo)
-
-Revision 1.14 2005/11/03 17:31:26 revo
 -->
 </vortaro>

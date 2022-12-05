@@ -1,111 +1,216 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: membr.xml,v 1.30 2021/05/29 14:32:54 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>membr</rad>/o
-    </kap>
+  <art mrk="$Id: membr.xml,v 1.38 2022/10/30 16:41:47 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>membr</rad>/o
+</kap>
 
-    <drv mrk="membr.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc mrk="membr.0o.ANA">
-        <uzo tip="fak">ANA</uzo>
-        <dif>
-          &Ccirc;iu el la moveblaj pecoj de la
-          <ref tip="malprt" cel="korp.0o.ANA">korpo</ref>
-          &#x2010; krom kapo &#x2010; kunigitaj kun la trunko per artiko:
-          <ekz>
-            la superaj (brakoj) kaj malsuperaj (kruroj) <tld/>oj de
-            homo.
-          </ekz>
-        </dif>
-        <trd lng="de">Glied</trd>
-        <trd lng="es">miembro<klr> (del cuerpo)</klr></trd>
-        <trd lng="id"><ind>anggota</ind> gerak</trd>
-        <trd lng="nl">lidmaat</trd>
-        <trd lng="pl">ko&nacute;czyna</trd>
-        <trd lng="ro">membru</trd>
-      </snc>
-      <snc mrk="membr.0o.ano">
-        <uzo tip="stl">FIG</uzo>
-        <dif>
-          <ref tip="dif" cel="an.0o">Ano</ref> de societo, partio,
-          familio kc.
-        </dif>
-        <trdgrp lng="be">
-          <trd>&c_u;&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
-          <trd>&c_ch;&c_a;&c_l;&c_je;&c_c;</trd>
-        </trdgrp>
-        <trd lng="de">Mitglied</trd>
-        <trd lng="es">miembro<klr> (de un grupo humano)</klr></trd>
-        <trd lng="id">anggota</trd>
-        <trd lng="nl">lid</trd>
-        <trd lng="pl">cz&lstroke;onek<klr> (grupy)</klr></trd>
-      </snc>
-      <snc>
-        <uzo tip="stl">FIG</uzo>
-        <dif>
-          Aparta difinita ero de tuta&jcirc;o:
-          <ekz>
-            <tld/>o de frazo.
-          </ekz>
-        </dif>
-        <trd lng="de">Glied</trd>
-        <trd lng="es">part&iacute;cula<klr> (de un todo)</klr></trd>
-        <trd lng="nl">deel</trd>
-        <trd lng="pl">cz&eogonek;&sacute;&cacute;</trd>
-      </snc>
-      <snc mrk="membr.0o.ekvacio">
-        <uzo tip="fak">MAT</uzo>
-        <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
-        <dif>
-          <klr>(de <ref cel="egal.0ajxo">egala&jcirc;o</ref>,
-            <ref cel="egal.ne0ajxo">neegala&jcirc;o</ref> a&ubreve;
-            <ref cel="ekvaci.0o">ekvacio</ref>)</klr>
-          &Ccirc;iu el la du <ref tip="super" cel="esprim.0o.KOMP">esprimoj</ref>,
-          situantaj amba&ubreve;flanke de la signo de egaleco a&ubreve; neegaleco:
-          <ekz>
-            &scirc;ovu la konstantan termon de la unua <tld/>o de la ekvacio 
-            al la dua, &scirc;an&gcirc;inte ties signon;
-          </ekz><ekz>
-            dividi amba&ubreve; <tld/>ojn de la neegala&jcirc;o per la nekonato.
-          </ekz>
-        </dif>
-        <rim>
-          Kvankam tiu tre fakeca termino trovi&gcirc;as anka&ubreve; en
-          modernaj fontoj kiel
-          <fnt><bib>MatStokTerm</bib><lok>p. 34</lok></fnt>, ne estus
-          absurde preferi la pli ordinaran kaj klaran
-          <ref cel="flank.0o.ekvacio">flanko</ref>n.
-        </rim>
-        <trdgrp lng="de">
-          <trd>Seite</trd>,
-          <trd>Glied</trd>
-        </trdgrp>
-        <trdgrp lng="en">
-          <trd>member<klr tip="ind"> (of an equation)</klr></trd>,
-          <trd>term<klr tip="ind"> (of an equation)</klr></trd>
-        </trdgrp>
-        <trd lng="es">miembro<klr> (a cada lado de una
-        igualdad)</klr></trd>
-        <trdgrp lng="fr">
-          <trd>terme<klr tip="ind"> (d'une &eacute;galit&eacute;)</klr></trd>,
-          <trd>membre<klr tip="ind"> (d'une &eacute;galit&eacute;)</klr></trd>
-        </trdgrp>
-        <trd lng="pl">strona<klr tip="ind"> (r&oacute;wnania)</klr></trd>
-        <trdgrp lng="ru">
-          <trd>&c_ch;&c_a;&c_s;&c_t;&c_mol;<klr tip="ind">
-              (&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;: &c_l;&c_je;&c_v;&c_a;&c_ja;, &c_p;&c_r;&c_a;&c_v;&c_a;&c_ja;)</klr>
-          </trd>
-        </trdgrp>
-      </snc>
+<drv mrk="membr.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="membr.0o.ANA">
+    <uzo tip="fak">ANA</uzo>
+    <dif>
+      &Ccirc;iu el la moveblaj pecoj de la
+      <ref tip="malprt" cel="korp.0o.ANA">korpo</ref>
+      &dash; krom kapo &dash; kunigitaj kun la trunko per artiko:
+      <ekz>
+        la superaj (<ref tip="sub" cel="brak.0o.homa_membro">brako</ref>j) 
+        kaj malsuperaj (<ref tip="sub" cel="krur.0o.tuto">kruro</ref>j) <tld/>oj de
+        homo;
+      </ekz>
+      <ekz>
+        &scirc;afon, kiu havas tro longajn a&ubreve; tro mallongajn <tld/>ojn, vi povas alporti kiel
+        oferon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 22:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pupo <klr>[&#8230;]</klr> povis mem movadi &ccirc;iujn siajn <tld/>ojn, oni tute ne
+        bezonis plu tiri la &scirc;nuron
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        du belegaj virinaj bildoj! la belajn ne vualitajn <tld/>ojn ili etendis sur la
+        molaj kusenoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malbonegan veteron de ekstere li longan tempon anta&ubreve;e sentis en siaj <tld/>oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Glied</trd>,
+      <trd>Extremit&auml;t</trd>
+    </trdgrp>
+    
+    <trd lng="es">miembro<klr> (del cuerpo)</klr></trd>
+    <trd lng="id"><ind>anggota</ind> gerak</trd>
+    <trd lng="nl">lidmaat</trd>
+    <trd lng="pl">ko&nacute;czyna</trd>
+    <trd lng="ro">membru</trd>
+  </snc>
+  <snc mrk="membr.0o.korpoparto">
+    <dif>
+      &Ccirc;iu movebla parto de korpo, krom kapo:
+      <ekz>
+        kiu havas dispremitajn testikojn a&ubreve; detran&ccirc;itan seksan <tld/>on, tiu ne povas
+        eniri en la komunumon de la Eternulo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 23:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni havas multajn <tld/>ojn en unu korpo, kaj ne &ccirc;iuj <tld/>oj havas la saman
+        funkcion
+        <fnt>
+          <bib>NT</bib>
+          <lok>Romanoj 12:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lango estas malgranda <tld/>o, kaj fanfaronas granda&jcirc;ojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>Jakobo 3:5</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trd lng="de">Glied</trd>
+  </snc>
+  <snc mrk="membr.0o.ano">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="dif" cel="an.0o">Ano</ref> de societo, partio,
+      familio kc:
+      <ekz>
+        &ccirc;iuj <tld/>oj de tiu familio havis akrajn orelojn, ili a&ubreve;dis &ccirc;iun vorton
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Estas tute certe</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la princo estis <klr>[&#8230;]</klr> <tld/>o de la plej alta aristokrataro
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la faraono a&ubreve;skultis la opiniojn de la <tld/>oj de la privata konsilantaro
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>oj de la kunveno konsentis
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        verda eks<tld/>o de la E&ubreve;ropa Parlamento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2007/009291.php">La mallonga politika kariero de
+          Hortensia Kvinke</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_u;&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+      <trd>&c_ch;&c_a;&c_l;&c_je;&c_c;</trd>
+    </trdgrp>
+    <trd lng="de">Mitglied</trd>
+    <trd lng="es">miembro<klr> (de un grupo humano)</klr></trd>
+    <trd lng="id">anggota</trd>
+    <trd lng="nl">lid</trd>
+    <trd lng="pl">cz&lstroke;onek<klr> (grupy)</klr></trd>
+  </snc>
+  <snc>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Aparta difinita ero de tuta&jcirc;o:
+      <ekz>
+        <tld/>o de frazo.
+      </ekz>
+    </dif>
+    <trd lng="de">Glied</trd>
+    <trd lng="es">part&iacute;cula<klr> (de un todo)</klr></trd>
+    <trd lng="nl">deel</trd>
+    <trd lng="pl">cz&eogonek;&sacute;&cacute;</trd>
+  </snc>
+  <snc mrk="membr.0o.ekvacio">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
+    <dif>
+      <klr>(de <ref cel="egal.0ajxo">egala&jcirc;o</ref>,
+        <ref cel="egal.ne0ajxo">neegala&jcirc;o</ref> a&ubreve;
+        <ref cel="ekvaci.0o">ekvacio</ref>)</klr>
+      &Ccirc;iu el la du <ref tip="super" cel="esprim.0o.KOMP">esprimoj</ref>,
+      situantaj amba&ubreve;flanke de la signo de egaleco a&ubreve; neegaleco:
+      <ekz>
+        &scirc;ovu la konstantan termon de la unua <tld/>o de la ekvacio 
+        al la dua, &scirc;an&gcirc;inte ties signon;
+      </ekz><ekz>
+        dividi amba&ubreve; <tld/>ojn de la neegala&jcirc;o per la nekonato.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="term.0o">termo</ref>
+    <rim>
+      Kvankam tiu tre fakeca termino trovi&gcirc;as anka&ubreve; en
+      modernaj fontoj kiel
+      <fnt><bib>MatStokTerm</bib><lok>p. 34</lok></fnt>, ne estus
+      absurde preferi la pli ordinaran kaj klaran
+      <ref cel="flank.0o.ekvacio">flanko</ref>n.
+    </rim>
+    <trdgrp lng="de">
+      <trd>Seite</trd>,
+      <trd>Glied</trd>,
+      <trd>Term</trd>
+    </trdgrp>    
+    <trdgrp lng="en">
+      <trd>member<klr tip="ind"> (of an equation)</klr></trd>,
+      <trd>term<klr tip="ind"> (of an equation)</klr></trd>
+    </trdgrp>
+    <trd lng="es">miembro<klr> (a cada lado de una
+    igualdad)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>terme<klr tip="ind"> (d'une &eacute;galit&eacute;)</klr></trd>,
+      <trd>membre<klr tip="ind"> (d'une &eacute;galit&eacute;)</klr></trd>
+    </trdgrp>
+    <trd lng="pl">strona<klr tip="ind"> (r&oacute;wnania)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_ch;&c_a;&c_s;&c_t;&c_mol;<klr tip="ind">
+          (&c_u;&c_r;&c_a;&c_v;&c_n;&c_je;&c_n;&c_i;&c_ja;: &c_l;&c_je;&c_v;&c_a;&c_ja;, &c_p;&c_r;&c_a;&c_v;&c_a;&c_ja;)</klr>
+      </trd>
+    </trdgrp>
+  </snc>
   <trd lng="be">&c_ch;&c_l;&c_je;&c_n;</trd>
-  <trd lng="bo">&#xF62;&#xF90;&#xF44;&#xF0B;&#xF63;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_ra;&t_kata;&t_nga;&t_tsheg;&t_la;&t_ga;&t_tsheg;</trd>
   <trdgrp lng="br">                                        
-        <trd>ezel</trd>,                       
-        <trd>mempr</trd>,                                   
-      </trdgrp>
+    <trd>ezel</trd>,                       
+    <trd>mempr</trd>,                                   
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>&ccaron;len</trd>,
     <trd>kon&ccaron;etina</trd>,
@@ -130,30 +235,166 @@
     <trd>&ccaron;len</trd>,
     <trd>&ccaron;l&aacute;nok</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_ch;&c_l;&c_je;&c_n;</trd>,
+    <trd>&c_k;&c_ib;&c_n;&c_c;&c_ib;&c_v;&c_k;&c_a;</trd>
+  </trdgrp>
 </drv>
 
-    <drv mrk="membr.dis0igi">
-      <kap>dis<tld/>igi</kap>
-      <snc>
-        <dif>
-          Dividi la&ubreve; difinitaj partoj:
-          <ekz>
-            dis<tld/>igi beston, frazon, vorton;
-          </ekz><ekz>
-            mi aran&gcirc;is plenan dis<tld/>igon de la ideoj en memstarajn
-            vortojn<fnt>Z</fnt>;
-          </ekz><ekz>
-            mi alkonformigis la dis<tld/>i&gcirc;on de la lingvo al la
-            spirito de la lingvoj E&ubreve;ropaj<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-      </snc>
+<drv mrk="membr.0i">
+  <kap>
+    <tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Esti <tld/>o en io; <ref cel="aparte.0i.partoDe">aparteni<sncref/></ref> al iu grupo:
+      <ekz>
+        li <tld/>is kaj aktivis en la dekstrega Progresa Partio, sed mem eksi&gcirc;is
+        <klr>[poste]</klr>, &ccirc;ar li trovis &gcirc;in tro modera
+        <fnt>
+          <vrk><url ref="https://www.monato.be/2011/010493.php"
+              >Floroj, ne armiloj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en tiu &ccirc;i epoko ekzistis piedpilka teamo kies nomo est<klr>[i]</klr>s Esperanto
+        F.C., en kiu <tld/>is studentoj de Universitato de &Ccirc;ilio
+        <fnt>
+          <bib>Viki</bib>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/%C4%88ilia_Esperanto-Asocio"
+              >&Ccirc;ilia Esperanto-Asocio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de"><ind>Mitglied</ind> sein</trd>
+  <trd lng="en">be a <ind>member</ind> of</trd>
+</drv>
+
+
+
+
+
+
+
+
+
+<drv mrk="membr.0igxi">
+  <kap>
+    <tld/>i&gcirc;i
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="al.0igxi">Ali&gcirc;i</ref> al iu organiza&jcirc;o kiel 
+      <ref cel="membr.0o.ano">membro<sncref/></ref>:
+      <ekz>
+        <tld/>i&gcirc;i en E&ubreve;ropa Unio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Steloj;monato2/006910.html">Post morto &dash; nova
+          sorto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homoj maldekstremaj preferis <tld/>i&gcirc;i en SAT anstata&ubreve; en aliaj Esperanto-asocioj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i beda&ubreve;rinde ne volas <tld/>i&gcirc;i en nia nove fondita junulara Esperanto-grupo
+        <fnt>
+          <bib>FSI</bib>
+          <lok>III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se la ekssovetiaj respublikoj kaj satelitaj landoj sukcesos <tld/>i&gcirc;i en NATO,
+        ili eble konstatos, ke ili liberi&gcirc;is de unu hegemonio sed subi&gcirc;is al alia
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="&Steloj;monato2/007003.html">Internaciaj Rilatoj: El
+          flamo en fajron</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_a;&c_l;&c_u;&c_ch;&c_y;&c_c;&c_c;&c_a; <klr>(&c_u; &c_ja;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ib; &c_ch;&c_a;&c_l;&c_mol;&c_c;&c_a;, &c_u;&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;&c_a;)</klr></trd>,
+    <trd>&c_u;&c_s;&c_t;&c_u;&c_p;&c_ib;&c_c;&c_mol; <klr>(&c_u; &c_a;&c_r;&c_g;&c_a;&c_n;&c_ib;&c_z;&c_a;&c_c;&c_y;&c_ju;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>eintreten <klr>(Verein)</klr></trd>,
+    <trd><ind>Mitglied</ind> werden</trd>
+  </trdgrp>
+  
+  
+</drv>
+
+
+
+
+
+
+<drv mrk="membr.dis0igi">
+  <kap>dis<tld/>igi</kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="divid.0i.partigi">Dividi</ref> la&ubreve; difinitaj partoj:
+      <ekz>
+        dis<tld/>igi beston, frazon, vorton;
+      </ekz><ekz>
+        mi aran&gcirc;is plenan dis<tld/>igon de la ideoj en memstarajn
+        vortojn
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per tiu dis<tld/>igo de la lingvoelementoj <nom>Zamenhof</nom> donis al nova lingvo
+        karakteron aglutinan
+        <fnt>
+          <bib>Zam</bib>
+          <lok>Aglutina karaktero de esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la dis<tld/>igo de &Ccirc;e&hcirc;oslovakio kaj la posta invado de tiu lando fare de nazia
+        Germanio &ccirc;esigis <klr>[&#8230;]</klr> gravan atingon en la sfero de perradia teatro
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kvar dama&gcirc;itaj reaktoroj estas plu malvarmigataj, sed ilia dis<tld/>igo
+        ankora&ubreve; ne komenci&gcirc;is
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="&Monato;/2012/010852.php">Fandi&gcirc;is konsciencoj, fandi&gcirc;is
+          reaktorkernoj</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_s;&c_ch;&c_l;&c_ja;&c_n;&c_ib;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_ch;&c_l;&c_je;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_mol;&c_d;&c_z;&c_ja;&c_l;&c_ib;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="br">diempra&ntilde;</trd>
   <trdgrp lng="cs">
     <trd>d&ecaron;lit na &ccaron;leny</trd>,
     <trd>d&ecaron;lit na &ccaron;&aacute;sti</trd>,
     <trd>roz&ccaron;l&aacute;nkovat</trd>
   </trdgrp>
+  <trd lng="de">zergliedern</trd>
   <trdgrp lng="es">
     <trd>desmembrar</trd>,
     <trd>diseccionar</trd>
@@ -172,12 +413,32 @@
   <trd lng="pl">rozcz&lstroke;onkowa&cacute;</trd>
   <trd lng="ru">&c_r;&c_a;&c_s;&c_ch;&c_l;&c_je;&c_n;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">roz&ccaron;l&aacute;nkova&tcaron;</trd>
+  <trd lng="uk">&c_r;&c_o;&c_z;&c_ch;&c_l;&c_je;&c_n;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
   </art>
   <!--
   $Log$
-versio 1.29 2020/05/03 05:10:21
-Eko Nur Syah Hidayat: korekteto
+versio 1.38 2022/10/30 16:41:47
+Wolfram Diestel: +~i
 
+versio 1.37 2022/05/01 12:05:12
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.36 2022/04/26 19:25:46
+Dmitri Gabinski: + trd be
+
+versio 1.34 2022/02/21 08:32:36
+Wolfram Diestel: +~i&gcirc;i
+
+versio 1.33 2022/02/20 17:26:17
+Wolfram Diestel: ~igi: ekz, trd de
+
+versio 1.32 2022/02/19 19:21:07
+Wolfram Diestel: +snc 2; ekz-oj, ref-oj
+
+versio 1.31 2022/01/10 08:38:38
+Dmitri Gabinski: + trd be
+
+versio 1.29 2020/05/03 05:10:21
 -->
 </vortaro>

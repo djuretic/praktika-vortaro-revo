@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: disk.xml,v 1.51 2021/05/11 14:52:28 revo Exp $">
+<art mrk="$Id: disk.xml,v 1.57 2022/04/26 17:11:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>disk</rad>/o <fnt><bib>PV</bib></fnt>
@@ -50,6 +50,7 @@
         </ekz>
       </dif>
       <trd lng="de">Diskus</trd>
+      <trd lng="es">disco <klr>(volador)</klr></trd>
       <trd lng="hu">diszkosz</trd>
       <trd lng="nl">discus</trd>
       <trd lng="pl">dysk</trd>
@@ -92,7 +93,13 @@
       <trdgrp lng="de">
         <trd>Platte</trd>,
         <trd>Diskette</trd>,
-        <trd>CD</trd> ktp.
+        <trd>CD</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>disco</trd>,
+        <trd>disquete</trd>,
+        <trd>CD</trd>,
+        <trd>DVD</trd>
       </trdgrp>
       <trd lng="hu">lemez</trd>
       <trdgrp lng="nl">
@@ -121,7 +128,7 @@
       <fnt><bib>PIV2</bib>, <lok>disko</lok></fnt>
       <dif>
         Ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, limata
-        de <tld/>o<sncref ref="cirkl.0o.linio"/>:
+        de <ref cel="cirkl.0o.linio">cirklo<sncref ref="cirkl.0o.linio"/></ref>:
         <ekz>
           la areo de <tld/>o, havanta la radiuson <frm am="R">R</frm>,
           estas <frm am="pi R^2">&pi;R&quadrat;</frm>.
@@ -152,6 +159,7 @@
         <trd>circle</trd>,
         <trd>disk</trd>
       </trdgrp>
+      <trd lng="es">c&iacute;rculo</trd>
       <trdgrp lng="fr">
         <trd>cercle</trd>,
         <trd>disque</trd>
@@ -174,6 +182,7 @@
         <trd>circle</trd>
       </trdgrp>
       <trd lng="de">Kreis</trd>
+      <trd lng="es">disco</trd>
       <trdgrp lng="fr">
         <trd>disque</trd>,
         <trd>cercle</trd>
@@ -206,6 +215,10 @@
     <trd>disk</trd>,
     <trd>kot&uacute;&ccaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_i;&c_s;&#x43A;</trd>,
+    <trd>&#x43A;&c_r;&c_u;&c_g;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="disk.0i">
@@ -228,6 +241,7 @@
     fizikan a&ubreve; virtualan. <aut>WD</aut></rim>
   </snc>
   <trd lng="en">dial<klr tip="amb"> (telephone)</klr></trd>
+  <trd lng="es">marcar en el dial<klr tip="amb"> (del antiguo aparato de tel&eacute;fono)</klr></trd>
 </drv>
 
 <drv mrk="disk.0eto">
@@ -270,7 +284,10 @@
   <trdgrp lng="en">
     <trd>floppy disk</trd>, <trd>diskette</trd>
   </trdgrp>
-  <trd lng="es"><ind>disco</ind> flexible</trd>
+  <trdgrp lng="es">
+    <trd><ind>disco</ind> flexible</trd>,
+    <trd>disquete</trd>
+  </trdgrp>
   <trd lng="fr">disquette</trd>
   <trd lng="he">&#x5EA;&#x5E7;&#x5DC;&#x5D9;&#x5D8;&#x5D5;&#x5DF;</trd>
   <trdgrp lng="hu">
@@ -284,6 +301,7 @@
     <trd>&c_g;&c_i;&c_b;&c_k;&c_i;&c_j; &c_d;&c_i;&c_s;&c_k;</trd>
   </trdgrp>
   <trd lng="sk">disketa</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&#x43A;&c_je;&c_t;&c_a;</trd>
 </drv>
 
 <drv mrk="disk.0ingo">
@@ -311,6 +329,10 @@
   <trd lng="cs">&scaron;t&ecaron;rbina v diskov&eacute; aparatu&rcaron;e pro vkl&aacute;d&aacute;n&iacute; disku</trd>
   <trd lng="de">Laufwerk <klr>(Disketten-, Laserdisk-)</klr></trd>
   <trd lng="en">disk drive</trd>
+  <trdgrp lng="es">
+    <trd>lector de discos</trd>,
+    <trd>disquetera</trd>
+  </trdgrp>
   <trd lng="fr">lecteur de disque</trd>
   <trd lng="he">&#x5E0;&#x5E8;&#x5EA;&#x5D9;&#x5E7; &#x5DC;&#x5D3;&#x5D9;&#x5E1;&#x5E7;</trd>
   <trd lng="hu">lemezmeghajt&oacute;-ny&iacute;l&aacute;s</trd>
@@ -319,6 +341,7 @@
   <trd lng="ru">&c_shch;&c_je;&c_l;&c_mol;
   <ind>&c_d;&c_i;&c_s;&c_k;&c_o;&c_v;&c_o;&c_d;&c_a;</ind></trd>
   <trd lng="sk">priestor na vkladanie disku</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&#x43A;&#x43E;&c_v;&#x43E;&c_d;</trd>
 </drv>
 
 <drv mrk="disk.bluradia0o">
@@ -333,7 +356,7 @@
         same kiel DVD kaj KD
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Blu-radia_disko">
+          <lok><url ref="&Viki;/Blu-radia_disko">
           Blu-radia disko</url>, 2010-11-30</lok>
         </fnt>.
       </ekz>
@@ -459,7 +482,10 @@
     <trd>kompaktn&iacute; disk</trd>
   </trdgrp>
   <trd lng="de">CD</trd>
-  <trd lng="es">disco compacto</trd>
+  <trdgrp lng="es">
+    <trd>disco compacto</trd>,
+    <trd>CD</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>CD</trd>,
     <trd>disque compact</trd>
@@ -553,6 +579,10 @@
     <trd>kompaktn&iacute; disk</trd>
   </trdgrp>
   <trd lng="en">optical disc</trd>
+  <trdgrp lng="es">
+    <trd>disco &oacute;ptico</trd>,
+    <trd>CD</trd>
+  </trdgrp>
   <trd lng="fr">disque optique</trd>
   <trdgrp lng="hu">
     <trd>l&eacute;zerlemez</trd>,
@@ -567,6 +597,7 @@
     <trd>CD</trd>,
     <trd>kompaktn&yacute; disk</trd>
   </trdgrp>
+  <trd lng="uk">&#x43A;&#x43E;&#x43C;&#x43F;&c_a;&#x43A;&c_t;-&c_d;&c_i;&c_s;&#x43A;</trd>
 </drv>
 
 <drv mrk="disk.lum0ego">
@@ -609,6 +640,7 @@
   </trdgrp>
   <trd lng="de">DVD</trd>
   <trd lng="en">DVD</trd>
+  <trd lng="es">DVD</trd>
   <trd lng="fr">DVD</trd>
   <trdgrp lng="hu">
     <trd>DVD</trd>,
@@ -650,6 +682,7 @@
   <trd lng="be">&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_y; <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
   <trd lng="de">Magnetplatte</trd>
   <trd lng="en">magnetic disk</trd>
+  <trd lng="es">disco magn&eacute;tico</trd>
   <trd lng="fr">disque magn&eacute;tique</trd>
   <trd lng="he">&#x5D3;&#x5D9;&#x5E1;&#x5E7; &#x5DE;&#x5D2;&#x5E0;&#x5D8;&#x5D9;</trd>
   <trd lng="hu">m&aacute;gneslemez</trd>  
@@ -669,11 +702,13 @@
   <ind>&c_p;&c_l;&c_a;&c_s;&c_t;</ind></trd>
   <trd lng="de">Kugelschicht</trd>
   <trd lng="en">spherical <ind>layer</ind></trd>
+  <trd lng="es">segmento esf&eacute;rico</trd>
   <trd lng="fr">segment sph&eacute;rique &agrave; deux bases</trd>
   <trd lng="hu">g&ouml;mbr&eacute;teg</trd>  
   <trd lng="pl">warstwa kuli</trd>
   <trd lng="ru">&c_sh;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j;
   <ind>&c_s;&c_l;&c_o;&c_j;</ind></trd>
+  <trd lng="uk">&#x43A;&c_u;&#x43B;&#x44C;&#x43E;&c_v;&c_i;&c_j; &c_s;&c_je;&c_gu;&#x43C;&c_je;&#x43D;&c_t;</trd>
 </drv>
 
 <drv mrk="disk.sub0o">
@@ -716,6 +751,7 @@
   <trd lng="be">&c_r;&c_a;&c_z;&c_mol;&c_d;&c_z;&c_je;&c_l; <klr tip="amb">(&c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_y;)</klr></trd>
   <trd lng="de">Partition <klr tip="amb"> (einer Festplatte)</klr></trd>
   <trd lng="en">a <ind>partition</ind> <klr>(of a disk)</klr></trd>
+  <trd lng="es">una <ind>partici&oacute;n</ind> <klr>(de un disco)</klr></trd>
   <trdgrp lng="fr">
     <trd>partition<klr tip="amb"> (de disque informatique)</klr></trd>
   </trdgrp>
@@ -745,6 +781,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">disco de vinilo</trd>
   <trdgrp lng="fr">
     <trd>disque microsillon</trd>,
     <trd>disque vinyle</trd>
@@ -764,7 +801,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jean Pierre VandenDaele</aut>
-          <vrk><url ref="https://www.monato.be/2012/010697.php">De analogo al cifereco: evoluo de
+          <vrk><url ref="&Monato;/2012/010697.php">De analogo al cifereco: evoluo de
           persona
               historio</url></vrk>
           <lok>2012</lok>
@@ -779,7 +816,10 @@
      <trd>Plattenspieler</trd>
   </trdgrp>
   <trd lng="en">disk unit</trd>
-  <trd lng="es">unidad de <ind>disco</ind></trd>
+  <trdgrp lng="es">
+    <trd>unidad de <ind>disco</ind></trd>,
+    <trd>tocadisco</trd>
+  </trdgrp>
   <trd lng="fr">lecteur</trd>
   <trd lng="he">&#x5E4;&#x5BC;&#x5B8;&#x5D8;&#x5B5;&#x5D9;&#x5E4;&#x5D5;&#x5B9;&#x5DF;</trd>
   <trd lng="hu">lemezmeghajt&oacute;</trd>
@@ -836,10 +876,20 @@
   <trd lng="ru">&c_zh;&c_jo;&c_s;&c_t;&c_k;&c_i;&c_j;
   &c_d;&c_i;&c_s;&c_k;</trd>
   <trd lng="sk">diskov&aacute; jednotka</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&#x43A;&#x43E;&c_v;&#x43E;&c_d;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.57 2022/04/26 17:11:48
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.56 2022/04/16 06:35:26
+Wolfram Diestel: kor. ref
+
+versio 1.52 2022/02/07 11:25:07
+Guillermo Molleda Jimena: +trd es
+
 versio 1.51 2021/05/11 14:52:28
 Wolfram Diestel: +kor. ref-cel
 
@@ -853,14 +903,5 @@ Revision 1.47  2020/02/14 12:10:20  revo
 Wolfram Diestel: formuloj per am
 
 Revision 1.46  2019/11/13 19:10:14  revo
-Wolfram Diestel: fnt-oj, sintakso
-
-Revision 1.45  2018/06/29 09:10:13  revo
-Jeromo Vasxe: + vinil/gramofon~o, flug~o: relokis k kor trd fr
-
-Revision 1.44  2017/03/12 11:10:15  revo
-Damien Brucker: -eraro cxe cel en ref
-
-Revision 1.43  2017/03/10 20:10:13  revo
 -->
 </vortaro>

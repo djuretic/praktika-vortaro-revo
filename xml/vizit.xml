@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vizit.xml,v 1.77 2021/06/18 18:20:20 revo Exp $">
+<art mrk="$Id: vizit.xml,v 1.111 2022/05/06 12:17:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vizit</rad>/i 
@@ -70,7 +70,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Geraldo Mattos</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006863.html">Kio estas Amo?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006863.html">Kio estas Amo?</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -108,7 +108,7 @@
         <tld/>i butikan kvartalon
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9402-filmotondro.txt">Filmotondro</url></vrk>
+          <vrk><url ref="&Steloj;monato1/monato-9402-filmotondro.txt">Filmotondro</url></vrk>
           <lok>94/02</lok>
         </fnt>;
       </ekz><ekz>
@@ -128,7 +128,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Izabel C. O. Santiago</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no: La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola
+          <vrk><url ref="&Steloj;monato2/006900.html">Fa&ubreve;no: La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola
               insulo</url></vrk>
         </fnt>.
       </ekz>
@@ -183,7 +183,7 @@
         mondo pri sia &leftquot;lando&rightquot;
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa lando?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa lando?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -220,6 +220,14 @@
     <trd>zav&iacute;ta&tcaron;</trd>,
     <trd>&iacute;s&tcaron; na n&aacute;v&scaron;tevu</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x432;&#x456;&#x434;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43D;&#x430;&#x432;&#x456;&#x434;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x432;&#x456;&#x437;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x445;&#x43E;&#x434;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x440;&#x438;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x438;</trd>
+  </trdgrp>
   <trd lng="vo">visit&ouml;n</trd>
 </drv>
 
@@ -255,6 +263,7 @@
     </dif>
   </snc>
   <trd lng="de">zu Besuch</trd>
+  <trd lng="uk">&#x437; &#x432;&#x456;&#x437;&#x438;&#x442;&#x43E;&#x43C;</trd>
 </drv>
 
 <drv mrk="vizit.0o">
@@ -295,7 +304,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jo&atilde;o Jos&eacute; Santos</aut>
-          <vrk><url ref="https://www.monato.be/2007/009360.php">La sa&gcirc;eco de S&oacute;crates</url></vrk>
+          <vrk><url ref="&Monato;/2007/009360.php">La sa&gcirc;eco de S&oacute;crates</url></vrk>
           <lok>2007</lok>
         </fnt>;
       </ekz>
@@ -314,7 +323,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Petro De Smet'</aut>
-          <vrk><url ref="https://www.monato.be/2008/009292.php">Sidante en pudingo, mi alvokas miajn
+          <vrk><url ref="&Monato;/2008/009292.php">Sidante en pudingo, mi alvokas miajn
               savantojn!</url></vrk>
           <lok>2008</lok>
         </fnt>.
@@ -375,6 +384,7 @@
   <trd lng="ca">visita</trd>
   <trd lng="co">&#xEC;sita</trd>
   <trd lng="cs">n&aacute;v&scaron;t&ecaron;va</trd>
+  <trd lng="cy">ymweliad</trd>
   <trd lng="da">bes&#xF8;g</trd>
   <trd lng="de">Besuch</trd>
   <trd lng="el">&epsilon;&pi;&jota_ton;&sigma;&kappa;&epsilon;&psi;&eta;</trd>
@@ -384,27 +394,44 @@
   <trd lng="eu">bisita</trd>
   <trd lng="fr">visite</trd>
   <trd lng="fy">besite</trd>
+  <trd lng="ga">cuairt a thabhairt ar</trd>
+  <trd lng="gd">turas</trd>
   <trd lng="gl">visita</trd>
   <trd lng="gu">&#xAAE;&#xAC1;&#xAB2;&#xABE;&#xA95;&#xABE;&#xAA4;</trd>
   <trd lng="ha">ziyarar</trd>
   <trd lng="he">&bet;&yod;&qof;&vav;&resh;</trd>
   <trd lng="hi">&#x92F;&#x93E;&#x924;&#x94D;&#x930;&#x93E;</trd>
+  <trd lng="hmn">mus ntsib</trd>
   <trd lng="hr">posjet</trd>
+  <trd lng="ht">vizit</trd>
   <trdgrp lng="hu">
     <trd>l&aacute;togat&aacute;s</trd>,
     <trd>megtekint&eacute;s</trd>
   </trdgrp>
   <trd lng="hy">&#x574;&#x578;&#x582;&#x57F;&#x584;&#x568;</trd>
   <trd lng="id"><ind>kunjung</ind>an</trd>
+  <trd lng="ig">nleta</trd>
   <trd lng="is">heims&#xF3;kn</trd>
   <trd lng="ja">&#x8A2A;&#x554F;</trd>
-  <trd lng="jw">riko</trd>
+  <trd lng="jv">riko</trd>
   <trd lng="ka">&#x10E8;&#x10D4;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</trd>
+  <trd lng="kk">&#x431;&#x430;&#x440;&#x443;</trd>
   <trd lng="km">&#x178A;&#x17C6;&#x178E;&#x17BE;&#x179A;&#x1791;&#x179F;&#x17D2;&#x179F;&#x1793;&#x1780;&#x17B7;&#x1785;&#x17D2;&#x1785;</trd>
+  <trd lng="kn">&#xCAD;&#xCC7;&#xC9F;&#xCBF;</trd>
   <trd lng="ko">&#xBC29;&#xBB38;</trd>
+  <trd lng="ku">serdan</trd>
+  <trd lng="ky">&#x431;&#x430;&#x440;&#x443;&#x443;</trd>
   <trd lng="lo">&#xE81;&#xEB2;&#xE99;&#xEA2;&#xEC9;&#xEBD;&#xEA1;&#xEA2;&#xEB2;&#xEA1;</trd>
+  <trd lng="lt">apsilankymas</trd>
+  <trd lng="lv">apmekl&#x113;jums</trd>
+  <trd lng="mg">fitsidihana</trd>
+  <trd lng="mi">haerenga</trd>
+  <trd lng="mk">&#x43F;&#x43E;&#x441;&#x435;&#x442;&#x430;</trd>
   <trd lng="ml">&#xD38;&#xD28;&#xD4D;&#xD26;&#xD30;&#xD4D;&#xD36;&#xD28;&#xD02;</trd>
+  <trd lng="mn">&#x430;&#x439;&#x43B;&#x447;&#x43B;&#x430;&#x43B;</trd>
   <trd lng="mr">&#x92D;&#x947;&#x91F;</trd>
+  <trd lng="ms">lawatan</trd>
+  <trd lng="mt">&#x17C;jara</trd>
   <trd lng="my">&#x1021;&#x101C;&#x100A;&#x103A;&#x1021;&#x1015;&#x1010;&#x103A;</trd>
   <trd lng="ne">&#x92D;&#x94D;&#x930;&#x92E;&#x923;</trd>
   <trd lng="nl">bezoek</trd>
@@ -416,19 +443,33 @@
     <trd>&c_v;&c_i;&c_z;&c_i;&c_t;</trd>,
     <trd>&c_p;&c_o;&c_s;&c_je;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="rw">gusura</trd>
   <trd lng="sd">&#x62F;&#x648;&#x631;&#x64A;</trd>
   <trd lng="si">&#xDC3;&#xD82;&#xDA0;&#xDCF;&#xDBB;&#xDBA;</trd>
+  <trd lng="sl">obisk</trd>
+  <trd lng="sm">asi</trd>
+  <trd lng="sn">kushanya</trd>
+  <trd lng="so">booqasho</trd>
   <trd lng="sq">vizit&#xEB;</trd>
+  <trd lng="st">etela</trd>
+  <trd lng="su">nganjang</trd>
   <trd lng="sv">bes&ouml;k</trd>
+  <trd lng="sw">ziara</trd>
   <trd lng="ta">&#xBB5;&#xBB0;&#xBC1;&#xB95;&#xBC8;</trd>
   <trd lng="te">&#xC2A;&#xC30;&#xC4D;&#xC2F;&#xC1F;&#xC28;</trd>
+  <trd lng="tg">&#x431;&#x43E;&#x437;&#x434;&#x438;&#x434;</trd>
   <trd lng="th">&#xE01;&#xE32;&#xE23;&#xE40;&#xE22;&#xE35;&#xE48;&#xE22;&#xE21;&#xE0A;&#xE21;</trd>
   <trd lng="tl">pagbisita</trd>
+  <trd lng="tt">&#x43A;&#x438;&#x43B;&#x4AF;</trd>
+  <trd lng="uk">&#x432;&#x456;&#x437;&#x438;&#x442;</trd>
   <trd lng="ur">&#x62F;&#x648;&#x631;&#x6C1;</trd>
+  <trd lng="uz">tashrif</trd>
   <trd lng="vi">l&#x1EA7;n</trd>
   <trd lng="vo">visit</trd>
   <trd lng="sk">n&aacute;v&scaron;teva</trd>
+  <trd lng="xh">utyelelo</trd>
   <trd lng="yi">&#x5D1;&#x5D0;&#x5B7;&#x5D6;&#x5D5;&#x5DB;&#x5DF;</trd>
+  <trd lng="yo">ibewo</trd>
   <trd lng="zu">ukuvakasha</trd>
 </drv>
 
@@ -485,6 +526,7 @@
   </snc>
   <ref tip="sin" cel="frekve2.0i.KOMUNE">frekventi</ref>
   <trd lng="fr">fr&eacute;quenter</trd>
+  <trd lng="uk">&#x432;&#x456;&#x434;&#x432;&#x456;&#x434;&#x443;&#x432;&#x430;&#x442;&#x438; (&#x448;&#x43A;&#x43E;&#x43B;&#x443; &#x456; &#x442;.&#x43F;.)</trd>
 </drv>
 
 <drv mrk="vizit.0anto">
@@ -532,6 +574,10 @@
   <trd lng="bo">&#xF58;&#xF42;&#xFB2;&#xF7C;&#xF53;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trd lng="de">Besucher</trd>
   <trd lng="en">visitor</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x432;&#x456;&#x434;&#x443;&#x432;&#x430;&#x447;</trd>,
+    <trd>&#x432;&#x456;&#x437;&#x438;&#x442;&#x435;&#x440;</trd>
+  </trdgrp>
 </drv>
 
 
@@ -547,7 +593,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
-          <vrk><url ref="https://www.monato.be/2008/009566.php">Malkovru Napolon!</url></vrk>
+          <vrk><url ref="&Monato;/2008/009566.php">Malkovru Napolon!</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -567,7 +613,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Marc Gassion</aut>
-          <vrk><url ref="https://www.monato.be/2003/007934.html">Aude</url></vrk>
+          <vrk><url ref="&Monato;/2003/007934.html">Aude</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -578,8 +624,10 @@
 </art>
 <!--
 $Log$
+versio 1.111 2022/05/06 12:17:22
+aktualigo lingvokodoj kaj URL-unuoj
+
 versio 1.33 2020/05/03 07:10:23
 Eko Nur Syah Hidayat: korekteto
-
 -->
 </vortaro>

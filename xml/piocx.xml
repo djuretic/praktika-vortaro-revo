@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: piocx.xml,v 1.20 2019/06/30 18:21:48 revo Exp $">
+<art mrk="$Id: piocx.xml,v 1.24 2022/05/06 09:41:14 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>pio&ccirc;</rad>/o
@@ -50,18 +49,13 @@
         <fnt>
           <bib>Monato</bib>
           <aut>S. Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html"
-              >La&ubreve; ritmo de la rizejoj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006831.html">La&ubreve; ritmo de la rizejoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
-    <bld
-      lok="&WCU;/thumb/d/d3/Pickaxe.jpg/307px-Pickaxe.jpg"
-      prm="PD"
-      ><tld/>o
+    <bld lok="&WCU;/thumb/d/d3/Pickaxe.jpg/307px-Pickaxe.jpg" prm="PD"><tld/>o
         <fnt>
-          <lok><url ref="&WCW;/File:Pickaxe.jpg"
-              >https://commons.wikimedia.org/wiki/File:Pickaxe.jpg</url></lok>
+          <lok><url ref="&WCW;/File:Pickaxe.jpg">&WCW;/File:Pickaxe.jpg</url></lok>
         </fnt>
     </bld>
   </snc>
@@ -88,14 +82,25 @@
   <trd lng="nl">houweel</trd>
   <trd lng="hu">cs&aacute;k&aacute;ny</trd>
   <trd lng="it">piccone</trd>
+  <trdgrp lng="pl">
+    <trd>oskard</trd>,
+    <trd>kilof</trd>
+  </trdgrp>
    <trdgrp lng="pt">
     <trd>alvi&atilde;o</trd>,
     <trd>picareta</trd>
   </trdgrp>
+  <trd lng="ro">t&acirc;rn&abreve;cop</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_i;&c_r;&c_k;&c_a;</trd>,
     <trd>&c_m;&c_o;&c_t;&c_y;&c_g;&c_a;</trd>,
     <trd>&c_z;&c_a;&c_s;&c_t;&c_u;&c_p;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_i;&c_r;&#x43A;&c_a;</trd>,
+    <trd>&#x43A;&c_a;&c_j;&#x43B;&#x43E;</trd>,
+    <trd>&#x43C;&#x43E;&c_t;&c_i;&#x43A;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_t;&c_u;&#x43F;</trd>
   </trdgrp>
 </drv>
 
@@ -112,22 +117,43 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="&Monato;/2012/010686.php"
-              >Mizeriga petrolo</url></vrk>
+          <vrk><url ref="&Monato;/2012/010686.php">Mizeriga petrolo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_p;&c_a;&c_c;&c_mol; <klr>(&c_k;&c_ib;&c_r;&c_k;&c_a;&c_j;, &c_m;&c_a;&c_t;&c_y;&c_k;&c_a;&c_j;)</klr></trd>,
+    <trd>&c_a;&c_b;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_b;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_y;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="es">picar</trd>
   <trd lng="ca">picar</trd>
   <trd lng="fa">&f_k;&a_l;&a_n;&f_g; &a_z;&a_d;&a_n;</trd>
   <trd lng="fr">piocher</trd>
   <trd lng="hu">cs&aacute;k&aacute;nyoz</trd>
   <trd lng="it">picconare</trd>
+  <trd lng="pl">kopa&cacute;  <ind>oskardem</ind></trd>
+  <trd lng="ro">lovi cu un  <ind>t&acirc;rn&abreve;cop</ind></trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_i;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&c_b;&c_r;&#x43E;&c_b;&#x43B;&#x44F;&c_t;&c_i; &#x43A;&c_i;&c_r;&#x43A;&#x43E;&#x44E;</trd>,
+    <trd>&#x43C;&#x43E;&c_t;&c_i;&#x43A;&#x43E;&#x44E;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_t;&c_u;&#x43F;&#x43E;&#x43C;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2022/05/06 09:41:14
+Dmitri Gabinski: + trd be
+
+versio 1.23 2022/05/01 17:51:19
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.21 2022/03/13 23:30:27
+Vito Redsky: + trd pl + trd ro 
+
 Revision 1.19  2019/02/18 19:10:26  revo
 Wolfram Diestel: +ekz-oj, +bld
 
@@ -141,14 +167,5 @@ Revision 1.16  2012/07/20 13:10:25  revo
 Marc Rausell: + trd ca
 
 Revision 1.15  2012/01/26 11:10:14  revo
-Antonio Codazzi: +trd it
-
-Revision 1.14  2009/06/24 16:30:56  revo
-Russ Williams: +trd en
-
-Revision 1.13  2009/06/05 16:30:47  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.12  2006/03/04 17:31:57  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: polu.xml,v 1.16 2015/07/04 08:37:41 revo Exp $">
+<art mrk="$Id: polu.xml,v 1.19 2022/05/15 22:31:36 revo Exp $">
 <kap>
   <rad>polu</rad>/i
   <fnt><bib>SPIV</bib></fnt>
@@ -27,9 +26,8 @@ vegetare!</url></vrk>,
       </ekz>
     </dif>
   </snc>
-  <trd 
-lng="be">&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="cs">znečišťovat život. prostř.</trd>
+  <trd lng="be">&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">zne&#x10D;i&scaron;&tcaron;ovat &#x17E;ivot. prost&rcaron;.</trd>
   <trd lng="de">verschmutzen</trd>
   <trd lng="en">pollute</trd>
   <trdgrp lng="fa">
@@ -44,12 +42,20 @@ lng="be">&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trd>verontreinigen</trd>,
     <trd>vervuilen</trd>
   </trdgrp>
+  <trd lng="pl">zanieczyszcza&cacute;</trd>
   <trd lng="pt">poluir</trd>
+  <trd lng="ro">polua</trd>
   <trd lng="ru">&c_z;&c_a;&c_g;&c_r;&c_ja;&c_z;&c_n;&c_ja;&c_t;&c_mol; 
 <klr>(&c_o;&c_k;&c_r;&c_u;&c_zh;&c_a;&c_ju;&c_shch;&c_u;&c_ju; 
 &c_s;&c_r;&c_je;&c_d;&c_u;)</klr></trd>
-  <trd lng="sk">znečisťovať životné prostredie</trd>
-  <trd lng="tp">jaki</trd>
+  <trd lng="sk">zne&#x10D;is&tcaron;ova&tcaron; &#x17E;ivotn&#xE9; prostredie</trd>
+  <trd lng="tok">jaki</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&#x43D;&c_je;&c_ch;&c_i;&c_shch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&c_t;&c_r;&c_u;&#x44E;&c_v;&c_a;&c_t;&c_i; (&c_d;&#x43E;&c_v;&#x43A;&c_ib;&#x43B;&#x43B;&#x44F;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="polu.0ado">
@@ -72,11 +78,10 @@ polenero</url></vrk>,
   <refgrp tip="sin">
     <ref cel="poluci.0o.medi">polucio</ref>
   </refgrp>
-  <trd 
-lng="be">&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd lng="be">&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="de">Verschmutzung</trd>
   <trd lng="en">pollution</trd>
-  <trd lng="fa">&a_A_madda;&a_l;&a_w;&a_d;&a_h;&zwnj;&a_s;&a_A;&a_z;&f_y;</trd>
+  <trd lng="fa">&a_A_madda;&a_l;&a_w;&a_d;&a_h;&#8204;&a_s;&a_A;&a_z;&f_y;</trd>
   <trd lng="fr">pollution</trd>
   <trd lng="hu">k&ouml;rnyezetszennyez&eacute;s</trd>
   <trdgrp lng="nl">
@@ -84,14 +89,21 @@ lng="be">&c_z;&c_a;&c_b;&c_r;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</
     <trd>pollutie</trd>,
     <trd>verontreiniging</trd>
   </trdgrp>
-  <trd 
-lng="ru">&c_z;&c_a;&c_g;&c_r;&c_ja;&c_z;&c_n;&c_je;&c_n;&c_i;&c_je; 
+  <trd lng="pl">zanieczyszczenie &sacute;rodowiska</trd>
+  <trd lng="ro">poluare</trd>
+  <trd lng="ru">&c_z;&c_a;&c_g;&c_r;&c_ja;&c_z;&c_n;&c_je;&c_n;&c_i;&c_je; 
 &c_o;&c_k;&c_r;&c_u;&c_zh;&c_a;&c_ju;&c_shch;&c_je;&c_j; 
 &c_s;&c_r;&c_je;&c_d;&c_y;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2022/05/15 22:31:36
+Vito Redsky: + trd pl + trd ro 
+
+versio 1.18 2022/05/01 17:51:19
+aktualigo lingvokodoj kaj URL-unuoj
+
 Revision 1.15  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -108,14 +120,5 @@ Revision 1.11  2006/03/09 17:31:15  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2006/02/08 17:31:52  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.9 2003/07/17 16:37:45 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2002/08/09 19:34:17 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7 2001/12/21 17:31:39 revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-  <art mrk="$Id: london.xml,v 1.17 2020/11/02 11:11:03 revo Exp $">
+  <art mrk="$Id: london.xml,v 1.20 2022/05/01 12:04:34 revo Exp $">
     <kap>
      <ofc>*</ofc><ofc>7</ofc>
      <rad>London</rad>/o
@@ -14,7 +13,7 @@
     <dif>
       <ref tip="lst" cel="urb.cxef0o" lst="voko:&ccirc;efurboj">&Ccirc;efurbo</ref> 
       kaj plej grava urbo de <ref tip="malprt" cel="brit.B0ujo">Britujo</ref> 
-      (<frm>0&#730;04'W, 51&#730;30'N</frm>):
+      (<frm>0&#x2DA;04'W, 51&#x2DA;30'N</frm>):
       <ekz>
         post paso de unu semajno la ju&gcirc;isto estis vokita <tld/>on
         <fnt>
@@ -61,6 +60,7 @@
   </snc>
   <trd lng="cs">Lond&yacute;n</trd>
   <trd lng="sk">Lond&yacute;n</trd>
+  <trd lng="uk">&#x41B;&#x43E;&#x43D;&c_d;&#x43E;&#x43D;</trd>
 </drv>
 
 <drv mrk="london.0a">
@@ -75,8 +75,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2003/008052.html"
-              >Taglibro de l' (anta&ubreve;)milito ... el la lando de &Scirc;ekspiro</url></vrk>
+          <vrk><url ref="&Monato;/2003/008052.html">Taglibro de l' (anta&ubreve;)milito ... el
+          la lando de &Scirc;ekspiro</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -85,8 +85,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="https://www.monato.be/2005/008521.php"
-              >Pledo por mondcivitana partio</url></vrk>
+          <vrk><url ref="&Monato;/2005/008521.php">Pledo por mondcivitana
+          partio</url></vrk>
           <lok>2005</lok>
         </fnt>;
       </ekz>
@@ -95,8 +95,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jomo Ipfelkofer</aut>
-          <vrk><url ref="https://www.monato.be/2008/009438.php"
-              >Fosilioj en suda Germanio</url></vrk>
+          <vrk><url ref="&Monato;/2008/009438.php">Fosilioj en suda
+          Germanio</url></vrk>
           <lok>2008</lok>
         </fnt>;
       </ekz>
@@ -105,8 +105,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="https://www.monato.be/2011/010363.php"
-              >Vakso vokas ...</url></vrk>
+          <vrk><url ref="&Monato;/2011/010363.php">Vakso vokas ...</url></vrk>
           <lok>2011</lok>
         </fnt>;
       </ekz>
@@ -128,6 +127,7 @@
            <trd>Londoni <ind>&Eacute;rt&eacute;kt&odblac;zsde</ind></trd>,
            <trd>LSE</trd>,
         </trdgrp>
+        <trd lng="be">&c_L;&c_jo;&c_n;&c_d;&c_a;&c_n;&c_s;&c_k;&c_a;&c_ja; &c_f;&c_o;&c_n;&c_d;&c_a;&c_v;&c_a;&c_ja; &c_b;&c_ib;&c_r;&c_zh;&c_a;</trd>
         <trd lng="fr">bourse de Londres</trd>
         <trd lng="nl">Londense beurs</trd>
         <trd lng="pl">Gie&lstroke;da Londy&nacute;ska</trd>
@@ -135,6 +135,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_l;&c_jo;&c_n;&c_d;&c_a;&c_n;&c_s;&c_k;&c_ib;</trd>
   <trdgrp lng="es">
     <trd>londinense</trd>,
     <trd>de Londres</trd>
@@ -145,6 +146,12 @@
 
 <!--
 $Log$
+versio 1.20 2022/05/01 12:04:34
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.19 2022/04/28 13:07:16
+Dmitri Gabinski: + trd be
+
 versio 1.17 2020/11/02 11:11:03
 Guillermo Molleda Jimena: trd es
 
@@ -161,10 +168,5 @@ Michel Cantigneaux: aldonita per la 1a OA kaj klarige fundamenta per la
 Revision 1.12  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.10  2015/01/09 21:10:43  revo
-Wolfram Diestel: dividstreko inter rad kaj fin
 -->
 </vortaro>

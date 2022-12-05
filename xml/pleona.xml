@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: pleona.xml,v 1.18 2019/06/30 18:21:48 revo Exp $">
+<art mrk="$Id: pleona.xml,v 1.22 2022/04/04 22:30:52 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>pleonasm</rad>/o
@@ -13,7 +12,8 @@
   <uzo tip="fak">LIN</uzo>
   <uzo tip="fak">GRA</uzo>
     <dif>
-      Uzo de vortoj superfluaj, kiuj senutile denove esprimas jam
+      <ref tip="super" cel="figur.stil0o">Stilfiguro</ref> uzanta vortojn superfluajn, kiuj senutile
+      denove esprimas jam
       esprimatan ideon:
       <ekz>
         la fundaj faktoj, la veraj faktoj (pardonu la <tld/>on) 
@@ -21,10 +21,28 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="&Monato;/2005/008763.php">Faktoj senfaktaj kaj murdo en la metroo</url></vrk>
+          <vrk><url ref="&Monato;/2005/008763.php">Faktoj senfaktaj kaj murdo en la
+          metroo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o, do, estas kontra&ubreve;a al elipso
+        <fnt>
+          <bib>Ret</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la ordinara, &ccirc;iutaga vivo, la uzo de <tld/>oj estas plej ofte rezulto de
+        nesufi&ccirc;a kono de la lingvo a&ubreve; de simpla neglekto
+        <fnt>
+          <bib>Ret</bib>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="ant">
+      <ref cel="elips.0o.ellaso">elipso<sncref/></ref>,
+      <ref cel="oksimor.0o">oksimoro</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_l;&c_je;&c_a;&c_n;&c_a;&c_z;&c_m;</trd>
   <trd lng="ca">pleonasme</trd>
@@ -44,13 +62,25 @@
   <trd lng="fr">pl&eacute;onasme</trd>
   <trd lng="hu">pleonazmus</trd>
   <trd lng="nl">pleonasme</trd>
+  <trd lng="pl">pleonazm</trd>
   <trd lng="pt">pleonasmo</trd>
+  <trd lng="ro">pleonasm</trd>
   <trd lng="ru">&c_p;&c_l;&c_je;&c_o;&c_n;&c_a;&c_z;&c_m;</trd>
   <trd lng="sk">pleonazmus</trd>
+  <trd lng="uk">&#x43F;&#x43B;&c_je;&#x43E;&#x43D;&c_a;&c_z;&#x43C;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/04/04 22:30:52
+Vito Redsky: + trd pl + trd ro 
+
+versio 1.20 2022/01/23 08:31:03
+Wolfram Diestel: +ekz, ref
+
+versio 1.19 2022/01/22 19:20:56
+Wolfram Diestel: +ref-oj
+
 Revision 1.17  2018/11/27 19:10:15  revo
 Wolfram Diestel: +ekz
 
@@ -64,14 +94,5 @@ Revision 1.14  2014/03/24 17:10:23  revo
 Damien Brucker: +trd fr
 
 Revision 1.13  2010/01/14 18:26:49  revo
-Russ Williams: +trd en (sxangxo 1.4 mismarkis hispanan
-
-Revision 1.12  2006/03/07 17:31:36  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2005/04/07 16:33:02  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2004/09/23 19:46:49  revo
 -->
 </vortaro>

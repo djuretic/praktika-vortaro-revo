@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: rikur.xml,v 1.4 2020/02/15 23:10:49 revo Exp $">
+<art mrk="$Id: rikur.xml,v 1.7 2022/11/08 22:33:32 revo Exp $">
 <kap>
   <rad>rikur</rad>/o <fnt><bib>EKV</bib></fnt>
 </kap>
@@ -21,8 +20,7 @@
         la teorio de <tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=3871"
-              >Stephen Kleene</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3871">Stephen Kleene</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -30,28 +28,26 @@
       <dif>
         <tld lit="R"/>o de la ordo <frm am="k"><k>k</k></frm> estas
         difino de la
-        formo <frm am="a_n=f(n,a_(n-1),a_(n-2),...,a_(n-k))"
-        >a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
+        formo <frm am="a_n=f(n,a_(n-1),a_(n-2),...,a_(n-k))">a<sub>n</sub> = f(n, a<sub>n&#8722;1</sub>,
         a<sub>n&#8722;2</sub>, &#8230; a<sub>n&#8722;<k>k</k></sub>)</frm>, kie
-        <frm am="n ge k+1 ge 0">n&#8239;&#8805;&#8239;<k>k</k>+1&#8239;&#8805;&#8239;0</frm>:
+        <frm am="n ge k+1 ge 0">n&#x202F;&#8805;&#x202F;<k>k</k>+1&#x202F;&#8805;&#x202F;0</frm>:
         <ekz>
           la difino de Fibona&ccirc;ia vico ekde la 3-a ano
           <frm am="(n ge 3)">(n&#8805;3)</frm> uzas <tld/>on de la 2-a ordo:
-          <frm am="f_n=f_(n-2)+f_(n-1)"
-          >f<sub>n</sub>&#8239;=&#8239;f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
+          <frm
+          am="f_n=f_(n-2)+f_(n-1)">f<sub>n</sub>&#x202F;=&#x202F;f<sub>n&#8722;2</sub>+f<sub>n&#8722;1</sub></frm>;
         </ekz><ekz>
           difino de la iteraciilo <frm>&#8721;</frm> per <tld/>o:
-          <frm am="sum_(i=0)^0=a_0, sum_(i=0)^(k+1)=sum_(i=0)^k+a_(k+1)"
-          >&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
+          <frm am="sum_(i=0)^0=a_0,
+          sum_(i=0)^(k+1)=sum_(i=0)^k+a_(k+1)">&#8721;<sup>0</sup><sub>i=0</sub>=a<sub>0</sub>,
             &#8721;<sup>k+1</sup><sub>i=0</sub>=&#8721;<sup>k</sup><sub>i=0</sub>+a<sub>k+1</sub>;
           </frm>
         </ekz><ekz>
-          por solvi la ekvacion <frm am="f(x)=0">f(x)&#8239;=&#8239;0</frm> ofte
+          por solvi la ekvacion <frm am="f(x)=0">f(x)&#x202F;=&#x202F;0</frm> ofte
           eblas uzi
           la iteracian <em>metodon Ne&ubreve;tonan</em>, difinitan per
           la <tld/>o
-           <frm am="x_(n+1)=x_n-f(x_n)//f&#8242;(x_n)"
-           >x<sub>n+1</sub>&#8239;=
+           <frm am="x_(n+1)=x_n-f(x_n)//f&minute;(x_n)">x<sub>n+1</sub>&#x202F;=
 x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         </ekz>
       </dif>
@@ -82,13 +78,12 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
             ref="http://bertilow.com/div/komputada_leksikono/RI.html#RIKURA">rikura</url></lok></fnt>;
         </ekz><ekz>
           la E&ubreve;klida algoritmo por trovi la plej grandan komunan
-          divizoron (PGKD) de <frm am="a,b in
-          NN_0">a,b&#8712;N<sub>0</sub></frm> uzas
-          <tld/>on: <frm am='"PGKD"(a,b)="PGKD"(a mod b,b)'
-          >PGKD(a,b)=PGKD(a <g>mod</g> b,b)</frm>,
+          divizoron (PGKD) de <frm am="a,b in           NN_0">a,b&#8712;N<sub>0</sub></frm> uzas
+          <tld/>on: <frm am="&quot;PGKD&quot;(a,b)=&quot;PGKD&quot;(a mod b,b)">PGKD(a,b)=PGKD(a
+          <g>mod</g> b,b)</frm>,
           kie <frm am="a mod b">a <g>mod</g> b</frm> estas la
           <ref cel="rest.0o.MAT">resto<sncref/></ref> de 
-          <frm am="a-:b">a&#247;b</frm>.
+          <frm am="a-:b">a&#xF7;b</frm>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -98,6 +93,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
       </trdgrp>
     </subsnc>
     <ref tip="super" cel="rekursi.0o">rekursio</ref>
+    <trd lng="be">&c_r;&c_e;&c_k;&c_u;&c_r;&c_e;&c_n;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
     <trdgrp lng="en">
       <trd>recurrence</trd>,
       <trd>recursion</trd>
@@ -109,6 +105,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
     <uzo tip="fak">KOMP</uzo>
     <fnt><bib>PIV2</bib></fnt>
     <ref tip="dif" cel="rekursi.0o">rekursio</ref>
+    <trd lng="be">&c_r;&c_e;&c_k;&c_u;&c_r;&c_s;&c_ib;&c_ja;</trd>
     <trd lng="en">recursion</trd>
     <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_ja;</trd>
   </snc>
@@ -143,6 +140,9 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
     rekursiajn. <aut>Sergio Pokrovskij</aut>
   </rim>
    <trd lng="de">Rekursion</trd>
+   <trd lng="pl">rekurencja</trd>
+   <trd lng="ro">recursivitate</trd>
+  <trd lng="uk">&c_ib;&#x43D;&c_d;&c_u;&#x43A;&c_c;&c_ib;&#x44F;</trd>
 </drv>
 
 <drv mrk="rikur.0a">
@@ -156,23 +156,20 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
       <ekz>
         Tapi&scirc;o de <nom>Sjerpinski</nom> <klr>[&#8230;]</klr> ekestas per
         <tld/>a divido de kvadrato al
-        3&#8239;&#215;&#8239;3 subkvadratoj kaj forpreno de la mezaj subkvadratoj
+        3&#x202F;&#xD7;&#x202F;3 subkvadratoj kaj forpreno de la mezaj subkvadratoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=132886"
-              >Tapi&scirc;o de Sjerpinski</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=132886">Tapi&scirc;o de Sjerpinski</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>a difino de la faktorialo estas jena:
         (1) La faktorialo de 1 estas 1,
         (2) Se <frm am="n">n</frm> estas natura nombro, la faktorialo de
-        <frm am="(n+1)">(n+1)</frm> estas <frm
-        am="(n+1)*n!">(n+1)&middot;n!</frm>
+        <frm am="(n+1)">(n+1)</frm> estas <frm am="(n+1)*n!">(n+1)&middot;n!</frm>
         <fnt>
           <aut>Reinhard F&ouml;ssmeier</aut>:
-          <vrk><url
-          ref="www.ais-sanmarino.org/kursoj/s1/edp2/2005/l01.html">Enkonduko
+          <vrk><url ref="www.ais-sanmarino.org/kursoj/s1/edp2/2005/l01.html">Enkonduko
           en la a&ubreve;tomatan daten-prilaboradon (2)</url></vrk>
         </fnt>;
       </ekz><ekz>
@@ -191,8 +188,8 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         speco <frm am="T_n">T<sub>n</sub></frm> estas ligitaj per
         <tld/>a
         formulo de la 2a ordo:
-        <frm am="T_n(x)=2*x*T_(n-1)(x)-T_(n-2)(x)"
-        >T<sub>n</sub>(x) = 2&#8901;x&#8901;T<sub>n&#8722;1</sub>(x) &#8722;
+        <frm am="T_n(x)=2*x*T_(n-1)(x)-T_(n-2)(x)">T<sub>n</sub>(x) =
+        2&#x22C5;x&#x22C5;T<sub>n&#8722;1</sub>(x) &#8722;
         T<sub>n&#8722;2</sub>(x)</frm>
         <fnt><bib>KompLeks</bib>,
           <lok><url
@@ -200,6 +197,7 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
       </ekz>
     </dif>
     <ref tip="super" cel="rekursi.0a">rekursia</ref>
+    <trd lng="be">&c_r;&c_e;&c_k;&c_u;&c_r;&c_e;&c_n;&c_t;&c_n;&c_y;</trd>
     <trd lng="de">induktiv</trd>
     <trdgrp lng="en">
       <trd>recurrent</trd>, <trd>recursive</trd>
@@ -217,20 +215,32 @@ x<sub>n</sub>&#8722;f(x<sub>n</sub>)/f&minute;(x<sub>n</sub>)</frm>.
         mallongigata nomo
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=32241"
-              >Akronimo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=32241">Akronimo</url></lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_r;&c_e;&c_k;&c_u;&c_r;&c_s;&c_ib;&c_w;&c_n;&c_y;</trd>
     <trd lng="en">recursive</trd>
     <trd lng="ru">&c_r;&c_je;&c_k;&c_u;&c_r;&c_s;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
   </snc>
     <trd lng="de">rekursiv</trd>
+    <trd lng="pl">rekurencyjny</trd>
+    <trd lng="ro">recurent</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_je;&#x43A;&c_u;&c_r;&c_je;&#x43D;&c_t;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_z;&c_v;&#x43E;&c_r;&#x43E;&c_t;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
-$Log: rikur.xml,v $
+$Log$
+versio 1.7 2022/11/08 22:33:32
+Vito Redsky: +trd pl + trd ro
+
+versio 1.6 2022/07/07 07:30:20
+Dmitri Gabinski: + trd be
+
 versio 1.4 2020/02/16 00:10:50
 Wolfram Diestel: formuloj per am
 

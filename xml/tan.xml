@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: tan.xml,v 1.21 2015/07/04 08:37:44 revo Exp $">
+<art mrk="$Id: tan.xml,v 1.23 2022/08/22 08:39:31 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tan</rad>/i
@@ -44,11 +43,11 @@
   <trdgrp lng="cs">
     <trd>tvrdit</trd>,
     <trd>utvrzovat</trd>,
-    <trd>vydělat kůži</trd>,
-    <trd>vydělávat kůži</trd>,
-    <trd>vyčinit kůži</trd>,
-    <trd>vyčiňovat kůže</trd>,
-    <trd>činit kůži</trd>
+    <trd>vyd&#x11B;lat k&#x16F;&#x17E;i</trd>,
+    <trd>vyd&#x11B;l&#xE1;vat k&#x16F;&#x17E;i</trd>,
+    <trd>vy&#x10D;init k&#x16F;&#x17E;i</trd>,
+    <trd>vy&#x10D;i&ncaron;ovat k&#x16F;&#x17E;e</trd>,
+    <trd>&#x10D;init k&#x16F;&#x17E;i</trd>
   </trdgrp>
   <trd lng="de">gerben</trd>
   <trd lng="en">tan</trd>
@@ -62,8 +61,9 @@
    <trd>surrar</trd>
   </trdgrp>
   <trd lng="ru">&c_d;&c_u;&c_b;&c_i;&c_t;&c_mol;</trd>
-  <trd lng="sk">vypracovať kožu činidlom</trd>
+  <trd lng="sk">vypracova&tcaron; ko&#x17E;u &#x10D;inidlom</trd>
   <trd lng="sv">garva</trd>
+  <trd lng="uk">&c_d;&c_u;&c_b;&c_i;&c_t;&c_i; (&c_sh;&#x43A;&c_ib;&c_r;&c_u;)</trd>
 </drv>
 
 <drv mrk="tan.0ilo">
@@ -84,9 +84,9 @@
     <trd>tan&iacute;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>tříslivo</trd>,
-    <trd>tříslovina</trd>,
-    <trd>činící látka</trd>
+    <trd>t&rcaron;&#xED;slivo</trd>,
+    <trd>t&rcaron;&#xED;slovina</trd>,
+    <trd>&#x10D;in&#xED;c&#xED; l&#xE1;tka</trd>
   </trdgrp>
   <trd lng="de">Gerbstoff</trd>
   <trd lng="en">tannin</trd>
@@ -99,7 +99,11 @@
   &c_d;&c_u;&c_b;&c_i;&c_l;&c_mol;&c_n;&c_o;&c_je;
   &c_v;&c_je;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;
   </trd>
-  <trd lng="sk">garbiarske činidlo</trd>
+  <trd lng="sk">garbiarske &#x10D;inidlo</trd>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_u;&c_b;&c_i;&#x43B;&#x44C;&#x43D;&c_a; &c_r;&c_je;&c_ch;&#x43E;&c_v;&c_i;&#x43D;&c_a;</trd>,
+    <trd>&c_d;&c_u;&c_b;&c_i;&#x43B;&#x44C;&#x43D;&c_a; &#x43A;&#x43E;&c_r;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tan.0isto">
@@ -110,14 +114,23 @@
       Homo, kiu profesie <tld/>as.
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_u;&c_b;&c_ib;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_g;&c_a;&c_r;&c_b;&c_a;&c_r;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>blanquer</trd>,
     <trd>adobador</trd>
   </trdgrp>
-  <trd lng="cs">koželuh</trd>
+  <trd lng="cs">ko&#x17E;eluh</trd>
   <trd lng="en">tanner</trd>
   <trd lng="pl">garbarz</trd>
   <trd lng="sk">garbiar</trd>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_u;&c_b;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>,
+    <trd>&c_sh;&#x43A;&c_ib;&c_r;&#x44F;&#x43D;&c_i;&#x43A;</trd>,
+    <trd>&#x43A;&#x43E;&c_zh;&c_u;&#x43C;&#8217;&#x44F;&#x43A;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tan.0ejo">
@@ -128,15 +141,20 @@
       Loko, kie oni <tld/>as.
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_u;&c_b;&c_ib;&c_l;&c_mol;&c_n;&c_ja;</trd>
   <trd lng="ca">adoberia</trd>
-  <trd lng="cs">koželužna</trd>
+  <trd lng="cs">ko&#x17E;elu&#x17E;na</trd>
   <trd lng="en">tannery</trd>
   <trd lng="pl">garbarnia</trd>
-  <trd lng="sk">garbiareň</trd>
+  <trd lng="sk">garbiare&ncaron;</trd>
+  <trd lng="uk">&c_d;&c_u;&c_b;&c_i;&#x43B;&#x44C;&#x43D;&#x44F;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2022/08/22 08:39:31
+Dmitri Gabinski: + trd be
+
 Revision 1.20  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -156,11 +174,5 @@ Revision 1.15  2006/01/09 17:33:57  revo
 Raul Salinas Monteagudo: +trd es
 
 Revision 1.14  2004/11/17 19:24:51  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2004/09/30 16:31:19  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/11/30 17:34:12  revo
 -->
 </vortaro>

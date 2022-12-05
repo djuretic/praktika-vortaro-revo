@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: volont.xml,v 1.26 2015/07/04 08:37:45 revo Exp $">
+<art mrk="$Id: volont.xml,v 1.32 2022/06/08 08:39:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>volont</rad>/e <fnt><bib>PV</bib></fnt>
@@ -11,15 +10,76 @@
   <kap><ofc>*</ofc><tld/>e</kap>
   <snc mrk="volont.0e.KOMUNE">
     <dif>
-      Konsente kaj kontente, la&ubreve; volo kaj pla&ccirc;o:
+      <ref cel="konsen.0i.fordoni">Konsente</ref> kaj <ref cel="konten.0a">kontente</ref>, 
+      la&ubreve; volo kaj <ref cel="placx.0i">pla&ccirc;o</ref>:
       <ekz>
         mi <tld/>e plenumis lian deziron
         <fnt><bib>F</bib>, <lok>&FE; 42</lok></fnt>;
       </ekz>
       <ekz>
-        mi akceptas <tld/>e vian inviton.
+        &scirc;i <klr>[&#8230;]</klr> <tld/>e laboras per siaj manoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 31:13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas viro justa <klr>[&#8230;]</klr> kaj <klr>[li]</klr> a&ubreve;skultis lin <tld/>e
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 6:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <tld/>e ricevis lin en la &scirc;ipon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 6:21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nun mi <tld/>e mortos, vidinte vian viza&gcirc;on, &ccirc;ar vi vivas ankora&ubreve;
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 46:30</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiom multe el sia ri&ccirc;eco li plej <tld/>e fordonus, por posedi ankora&ubreve; siajn
+        infanojn
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        matene &scirc;i <tld/>e restadis pli longe en la lito
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>&leftquot;Bela&rightquot;</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sata stomako ne lernas <tld/>e
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ju pli frue, des pli certe &dash; ju pli <tld/>e, des pli lerte
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="vol.bon0i">bonvoli</ref>,
+      <ref cel="em.0a">ema</ref>,
+      <ref cel="inklin.0a">inklina</ref>,
+      <ref cel="vol.liber0a">libervola</ref>,
+      <ref cel="prefer.0e">prefere</ref>,
+      <ref cel="pret.0a">preta</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_h;&c_v;&c_o;&c_t;&c_n;&c_a;</trd>,
@@ -32,9 +92,9 @@
     <trd>de bon grau</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>beze všeho</trd>,
+    <trd>beze v&scaron;eho</trd>,
     <trd>ochotn&ecaron;</trd>,
-    <trd>ochotně</trd>,
+    <trd>ochotn&ecaron;</trd>,
     <trd>r&aacute;d</trd>
   </trdgrp>
   <trdgrp lng="de">
@@ -64,8 +124,12 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>ochotne</trd>,
-    <trd>rád</trd>,
-    <trd>vďačne</trd>
+    <trd>r&aacute;d</trd>,
+    <trd>v&dcaron;a&ccaron;ne</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_o;&c_h;&c_o;&c_ch;&c_je;</trd>,
+    <trd>&c_ib;&c_z; &c_z;&c_a;&c_d;&c_o;&c_v;&c_o;&c_l;&c_je;&c_n;&c_n;&c_ja;&c_m;</trd>
   </trdgrp>
 </drv>
 
@@ -75,10 +139,35 @@
     <dif>
       Volo agi kompleze la&ubreve; ies deziro:
       <ekz>
+        kun <tld/>eco mi faros al Vi oferdonon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 54:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kie ekzistas la <tld/>eco, &gcirc;i estos akceptita la&ubreve; la havo, ne la&ubreve; la nehavo
+        <fnt>
+          <bib>NT</bib>
+          <lok>II. Korintanoj 8:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &ccirc;iu ellernadus tiun internacian lingvon kun la plej granda
-        <tld/>eco kaj fervoreco<fnt>Z</fnt>.
+        <tld/>eco kaj fervoreco
+        <fnt>
+          <bib>EE</bib>
+          <lok>III</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="pret.0eco">preteco</ref>,
+      <ref cel="komple4.0ema">komplezemo</ref>,
+      <ref cel="konsen.0ema">konsentemo</ref>,
+      <ref cel="obe.0ema">obeemo</ref>,
+      <ref cel="serv.0ema">servemo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_h;&c_v;&c_o;&c_t;&c_a;</trd>,
@@ -96,6 +185,7 @@
     <trd>ochota</trd>
   </trdgrp>
   <trdgrp lng="de">
+    <trd>Bereitwilligkeit</trd>,
     <trd>Freiwilligkeit</trd>
   </trdgrp>
   <trd lng="en">willingness</trd>
@@ -115,7 +205,7 @@
     &c_k;&c_o;&c_g;&c_o;-&c_l;.)</klr></trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>dobrovoľnosť</trd>,
+    <trd>dobrovo&lcaron;nos&tcaron;</trd>,
     <trd>ochota</trd>
   </trdgrp>
 </drv>
@@ -126,6 +216,21 @@
   <snc mrk="volont.0i.KOMUNE">
     <dif>
       Bonvoli, esti favore humoranta por io, sin proponi por &gcirc;i:
+      <ekz>
+        praavo <nom>Abraham</nom>, <klr>[&#8230;]</klr> &ndash; obea al la ordono de Eternulo &ndash; <tld/>is
+        ofermortigi sian propran fileton
+        <fnt>
+          <bib>SkandalJozef</bib>
+          <lok>Plendoj de Jozefo arestita</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>u ekspliki al mi <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 12</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         mi <tld/>as &ndash; tute <tld/>as &ndash; demeti &ccirc;iujn miajn &gcirc;ojojn en
         tiu &ccirc;i vivo, por helpi konservi tiun &ccirc;i Registaron
@@ -138,13 +243,17 @@
       <ref cel="inklin.0o">inklini</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_y;&c_c;&c_mol; <ind>&c_a;&c_h;&c_v;&c_o;&c_t;&c_n;&c_y;&c_m;</ind></trd>,
+    <trd>&c_p;&c_r;&c_a;&c_ja;&c_w;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_g;&c_a;&c_t;&c_o;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>afanyar-se</trd>,
     <trd>estar disposat <klr>(inclinat)</klr> a</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>být ochotný</trd>,
-    <trd>ráčit</trd>
+    <trd>b&yacute;t ochotn&yacute;</trd>,
+    <trd>r&aacute;&ccaron;it</trd>
   </trdgrp>
   <trd lng="en">be willing</trd>
   <trdgrp lng="fr">
@@ -154,7 +263,7 @@
     <trd>sz&iacute;vesen tesz</trd>
   </trdgrp>
   <trd lng="nl">graag doen</trd>
-  <trd lng="sk">byť ochotný</trd>
+  <trd lng="sk">by&tcaron; ochotn&yacute;</trd>
 </drv>
 
 <drv mrk="volont.0igi">
@@ -179,8 +288,8 @@
   </trdgrp>
   <trd lng="nl">iem. <ind>overhalen</ind></trd>
   <trdgrp lng="sk">
-    <trd>nakloniť</trd>,
-    <trd>naladiť <klr>(niekoho na niečo)</klr></trd>
+    <trd>nakloni&tcaron;</trd>,
+    <trd>naladi&tcaron; <klr>(niekoho na nie&ccaron;o)</klr></trd>
   </trdgrp>
 </drv>
 
@@ -193,14 +302,45 @@
         mi <tld/>ulas en antropozofia lernejo
         <fnt>
           <aut>Tali</aut>,
-          <vrk>en: <url
-          ref="http://bertosch.free.fr/iik2006/alighintoj.html">
+          <vrk>en: <url ref="http://bertosch.free.fr/iik2006/alighintoj.html">
           37a Internacia Infana Kongreseto</url></vrk>,
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        multaj irlandanoj <tld/>ulis kaj militservis en armeoj kaj sanservoj britaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="&Monato;/2003/008003.html"
+              >Amnezio-amnestio</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        du policistoj <tld/>ulis fari&gcirc;i atestantoj kaj oni plenumis &ccirc;iujn pa&scirc;ojn de la
+        geedziga proceduro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2003/008133.html"
+              >Amo-proceso</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i venis al E&ubreve;ropo por <tld/>uli &ccirc;e Universala Esperanto-Asocio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>pluraj amikoj de Izabel</aut>
+          <vrk><url ref="&Monato;/2006/008978.php"
+              >Mortis Izabel Santiago</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_a;&c_a;&c_h;&c_v;&c_o;&c_t;&c_n;&c_a; &c_p;&c_r;&c_a;&c_c;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="fr">travailler comme <ind>b&eacute;n&eacute;vole</ind></trd>
 </drv>
 
@@ -210,6 +350,20 @@
     <dif>
       Iu, kiu faras ion propravole, sen devigo a&ubreve; rekompenco;
       memvolulo:
+      <ekz>
+        <tld/>ula komsomola ripoztaglaboro
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ta&ccirc;mento da pretorianoj, romane vestitaj, konsistanta ekskluzive el italaj
+        soldatoj-<tld/>uloj
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXXVI</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         organizo ser&ccirc;as <tld/>ulojn partopreni porinfanan tendaron
         <fnt>
@@ -228,8 +382,8 @@
   </trdgrp>
   <trd lng="ca">voluntari</trd>
   <trdgrp lng="cs">
-    <trd>dobrovolník</trd>,
-    <trd>volontér</trd>
+    <trd>dobrovoln&iacute;k</trd>,
+    <trd>volont&eacute;r</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Freiwillige</trd>,
@@ -244,7 +398,11 @@
   <trd lng="hu">&ouml;nk&eacute;ntes</trd>
   <trd lng="nl">vrijwilliger</trd>
   <trd lng="ru">&c_d;&c_o;&c_b;&c_r;&c_o;&c_v;&c_o;&c_l;&c_je;&c_c;</trd>
-  <trd lng="sk">dobrovoľník</trd>
+  <trd lng="sk">dobrovo&lcaron;n&iacute;k</trd>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_o;&c_b;&c_r;&c_o;&c_v;&c_o;&c_l;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_v;&c_o;&c_l;&c_o;&c_n;&c_t;&c_je;&c_r;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="volont.mal0e">
@@ -265,12 +423,16 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_a;&c_h;&c_v;&c_o;&c_t;&c_n;&c_a;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_mol; <ind>&c_v;&c_o;&c_l;&c_ib;</ind></trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>a contracor</trd>,
     <trd>de mala gana</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>neochotně</trd>,
+    <trd>neochotn&ecaron;</trd>,
     <trd>velice nerad</trd>
   </trdgrp>
   <trd lng="de">unfreiwillig</trd>
@@ -289,6 +451,21 @@
 </art>
 <!--
 $Log$
+versio 1.32 2022/06/08 08:39:30
+Dmitri Gabinski: + trd be
+
+versio 1.31 2022/05/27 12:58:33
+Ulrich Fellmann: volonteco: +1 plia DE trd
+
+versio 1.30 2022/05/06 12:17:22
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.29 2022/04/12 07:27:32
+Wolfram Diestel: ~eco..~ulo: ekz-oj, ref
+
+versio 1.27 2021/11/29 07:27:32
+Wolfram Diestel: ~e: ekz-oj, ref-oj
+
 Revision 1.25  2015/06/28 12:03:50  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -296,23 +473,5 @@ Revision 1.24  2013/06/24 13:10:10  revo
 Jeromo Vasxe: + ~uli
 
 Revision 1.23  2012/07/13 00:10:09  revo
-Carlos Garcia: +trd es -e -eco -ulo
-
-Revision 1.22  2011/11/22 17:10:08  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.21  2008/11/23 19:12:49  revo
-Russ Williams: +trd: en
-
-Revision 1.20  2006/08/01 16:32:34  revo
-Wieland Pusch: +trd de
-
-Revision 1.19  2005/03/19 17:32:00  revo
-Jeromo Vasxe: + 3 ekz, + 1 trd fr
-
-Revision 1.18 2005/02/22 17:32:37 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.17 2005/02/08 17:31:05 revo
 -->
 </vortaro>

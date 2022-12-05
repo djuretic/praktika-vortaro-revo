@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kultur.xml,v 1.39 2021/05/28 14:15:29 revo Exp $">
+<art mrk="$Id: kultur.xml,v 1.47 2022/05/01 08:09:25 revo Exp $">
 <kap>
   <ofc>1</ofc><rad>kultur</rad>/o 
 </kap>
@@ -17,20 +17,28 @@
       <uzo tip="fak">AGR</uzo>
       <dif>
         Prilabori la teron, por fari &gcirc;in fruktodona,
-        <ref tip="prt" cel="plug.0i.AGR">plugi</ref>,
-        <ref tip="prt" cel="sterk.0i.AGR">sterki</ref>
+        <refgrp tip="prt">
+          <ref cel="plug.0i.AGR">plugi</ref>,
+          <ref cel="sterk.0i.AGR">sterki</ref>
+        </refgrp>
         kaj tiel plu:
         <ekz>
-          <tld/>i kampon, sian &gcirc;ardenon;
-        </ekz>
-        <ekz>
+          <tld/>i kampon;
+        </ekz><ekz>
           la kamparano <tld/>as la teron
           <fnt>
             <bib>Far1</bib>
             <lok>&Ccirc;apitro IV</lok>
           </fnt>;
+        </ekz><ekz>
+          Tio estas bele dirita, respondis Kandid, sed ni devas <tld/>i nian &gcirc;ardenon
+          <fnt><aut>Voltero, trad. Lanti</aut>:
+             <vrk>Kandid a&ubreve; la Optimismo</vrk>.
+             <lok>SAT: Paris, 1929</lok>
+          </fnt>.
         </ekz>
       </dif>
+      <ref tip="sin" cel="kultiv.0i.teron">kultivi<sncref/></ref>
       <trdgrp lng="be">
         <trd>&c_k;&c_u;&c_l;&c_mol;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
         <trd>&c_a;&c_p;&c_r;&c_a;&c_c;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_z;&c_ja;&c_m;&c_l;&c_ju;)</klr></trd>,
@@ -44,45 +52,31 @@
       <trd lng="hu">m&udblac;vel</trd>
       <trd lng="nl">bebouwen</trd>
       <trdgrp lng="ru">
-        <trd>&c_k;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_o;&c_b;&c_r;&c_a;&c_b;&c_a;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_z;&c_je;&c_m;&c_l;&c_ju;)</klr></trd>,
-        <trd>&c_v;&c_o;&c_z;&c_d;&c_je;&c_l;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
+        <trd>&c_v;&c_o;&c_z;&c_d;&c_je;&c_l;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_o;&c_b;&c_r;&c_a;&c_b;&c_a;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol;<klr> (&c_z;&c_je;&c_m;&c_l;&c_ju;)</klr></trd>
       </trdgrp>
     </subsnc>
     <subsnc mrk="kultur.0i.flegi">
+      <uzo tip="fak">AGR</uzo>
       <dif>
-        Speciale flegi viva&jcirc;ojn, aparte vegeta&jcirc;ojn por favori kaj
+        Speciale flegi viva&jcirc;ojn, precipe vegeta&jcirc;ojn, por favori kaj
         perfektigi ilian evoluon:
         <ekz>
           <tld/>i florojn
-          <fnt>
-            <bib>Fab3</bib>
-            <lok>Historio de unu patrino</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
+          <fnt><bib>Fab3</bib> <lok>Historio de unu patrino</lok></fnt>;
+        </ekz><ekz>
           oni <tld/>is plej belajn rozojn, kies oleon oni dissendis
-          <fnt>
-            <bib>Far3</bib>
-            <lok>&Ccirc;apitro VII</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
+          <fnt><bib>Far3</bib> <lok>&Ccirc;apitro VII</lok></fnt>;
+        </ekz><ekz>
           <tld/>ado de grenoj kaj legomoj
-          <fnt>
-            <bib>Far1</bib>
-            <lok>&Ccirc;apitro IX</lok>
-          </fnt>;
-        </ekz>
-        <ekz>
-          malgranda &gcirc;ardeno, en kiu oni <tld/>is malgrandajn aloojn, palmojn, oran&gcirc;arbojn
-          kaj cedrojn
-          <fnt>
-            <bib>Far1</bib>
-            <lok>&Ccirc;apitro VI</lok>
-          </fnt>.
+          <fnt><bib>Far1</bib> <lok>&Ccirc;apitro IX</lok></fnt>;
+        </ekz><ekz>
+          malgranda &gcirc;ardeno, en kiu oni <tld/>is malgrandajn aloojn,
+          palmojn, oran&gcirc;arbojn kaj cedrojn
+          <fnt><bib>Far1</bib> <lok>&Ccirc;apitro VI</lok> </fnt>.
         </ekz>
       </dif>
+      <ref tip="sin" cel="kultiv.0i.vegetalojn">kultivi<sncref/></ref>
       <rim>
         Rilate al bestoj oni prefere diras <ref tip="sub" cel="bred.0i">bredi</ref>.
       </rim>
@@ -103,7 +97,10 @@
         <trd>teny&eacute;szt</trd>
       </trdgrp>
       <trd lng="nl">kweken</trd>
-      <trd lng="ru">&c_k;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_y;&c_r;&c_a;&c_shch;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_k;&c_u;&c_l;&c_mol;&c_t;&c_i;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;<klr> (&c_s;/&c_h; &c_k;&c_u;&c_l;&c_mol;&c_t;&c_u;&c_r;&c_y;)</klr></trd>
+      </trdgrp>
     </subsnc>
   </snc>
   <snc mrk="kultur.0i.spirite">
@@ -116,25 +113,17 @@
           <bib>Homaranismo</bib>
           <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo.</vrk>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>i la komunan senton
-        <fnt>
-          <bib>VivZam</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
+        <fnt><bib>VivZam</bib></fnt>;
+      </ekz><ekz>
         &ccirc;u ne parolis greke la tuta mondo <tld/>ita en epoko aleksandra
         <fnt>
           <bib>VivZam</bib>
         </fnt>?
-      </ekz>
-      <ekz>
-        kultura&jcirc;o de malvirtuloj estas peko
-        <fnt>
-          <bib>MT</bib>
-          <lok>Sentencoj 21:4</lok>
-        </fnt>.
+      </ekz><ekz>
+        <tld/>a&jcirc;o de malvirtuloj estas peko
+        <fnt><bib>MT</bib> <lok>&Sen; 21:4</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -177,13 +166,23 @@
   <trdgrp lng="ro">
     <trd>cultiva</trd>,
     <trd>forma</trd>,
-    <trd>cre&#x219;te</trd>
+    <trd>cre&#537;te</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>obr&aacute;ba&tcaron;</trd>,
     <trd>pestova&tcaron;</trd>,
     <trd>vypestova&tcaron;</trd>,
     <trd>vzdel&aacute;va&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&c_b;&c_r;&#x43E;&c_b;&#x43B;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_v;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_r;&#x43E;&c_shch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43A;&c_u;&#x43B;&#x44C;&c_t;&c_i;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&#x43A;&c_u;&#x43B;&#x44C;&c_t;&c_u;&c_r;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_v;&c_i;&c_v;&c_a;&c_t;&c_i; (&c_z;&c_d;&c_ib;&c_b;&#x43D;&#x43E;&c_s;&c_t;&c_ib;</trd>,
+    <trd>&#x43D;&c_a;&c_v;&c_i;&#x43A;&c_i; &c_ib; &c_t;.&#x43F;.)</trd>,
+    <trd>&#x43E;&c_s;&c_v;&c_ib;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -199,8 +198,7 @@
         <fnt>
           <bib>EE</bib>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         cent milionoj da <tld/>aj amerikanoj estas fremduloj en sia hejmo, homoj sen
         patrujo, &ccirc;ar ankora&ubreve; anta&ubreve; kelkaj jarcentoj iliaj prapatroj lo&gcirc;is ne en
         Ameriko
@@ -219,16 +217,14 @@
         <fnt>
           <bib>VivZam</bib>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         fama <tld/>a &ccirc;efurbo
         <fnt>
           <bib>Paroloj</bib>
           <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto
           1908</vrk>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         li da&ubreve;re partoprenis en la sveda <tld/>a vivo
         <fnt><bib>Kiso</bib>, <lok>anta&ubreve;parolo</lok></fnt>.
       </ekz>
@@ -258,6 +254,7 @@
     <trd>clar</trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_u;&c_l;&c_mol;&c_t;&c_u;&c_r;&c_n;&c_y;&c_j;</trd>
+  <trd lng="uk">&#x43A;&c_u;&#x43B;&#x44C;&c_t;&c_u;&c_r;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="kultur.0o">
@@ -270,7 +267,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>S. Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html">La&ubreve; ritmo de la
+          <vrk><url ref="&Steloj;monato2/006831.html">La&ubreve; ritmo de la
           rizejoj</url></vrk>
         </fnt>.
       </ekz>
@@ -322,22 +319,20 @@
         en vila&gcirc;o de montaroj, for de l' bruo de l' <tld/>o
         <fnt>
           <aut>Raymond Schwartz</aut>
-          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <vrk><url ref="&Steloj;butiko">La Stranga Butiko</url></vrk>
           <lok>Vila&gcirc;anino</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ili rajtas havi propran centron de <tld/>o
         <fnt>
           <bib>VivZam</bib>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         parlamenta diskut<tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Marko Naoki Lins</aut>
-          <vrk><url ref="https://www.monato.be/2003/008051.html">Bruselo-Babelo: lingvo-kulturo en
+          <vrk><url ref="&Monato;/2003/008051.html">Bruselo-Babelo: lingvo-kulturo en
           E&ubreve;ropa Unio</url></vrk>
           <lok>2003</lok>
         </fnt>.
@@ -359,7 +354,7 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Boris Kolker</aut>
-            <vrk><url ref="http://steloj.de/esperanto/monato2/006807.html">Fascina
+            <vrk><url ref="&Steloj;monato2/006807.html">Fascina
             gazeto</url></vrk>
           </fnt>.
         </ekz>
@@ -396,17 +391,15 @@
         Tuto de transgeneraciaj moroj, artoj, ideoj kaj
         vivmanieroj flegataj de iu popolo:
         <ekz>
-          la tutan nian altan <tld/>on kaj civilizacion ni dankas nur al <klr>[&#x2026;]</klr>
+          la tutan nian altan <tld/>on kaj civilizacion ni dankas nur al <klr>[&#8230;]</klr>
           la posedado de lingvo
           <fnt>
             <bib>EE</bib>
           </fnt>;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
           la azteka <tld/>o
           <fnt><bib>SatirRak</bib>, <lok>la guarbo</lok></fnt>;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
           oni diris al mi: dank' al tradukado, la plej
           malproksimaj <tld/>oj nun alireblas al &ccirc;iu
           <fnt>
@@ -420,6 +413,9 @@
       <refgrp tip="vid">
         <ref cel="tradic.0o.ado">tradicio</ref>
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Kultur</trd>
+      </trdgrp>
     </subsnc>
   </snc>
   <trd lng="be">&c_k;&c_u;&c_l;&c_mol;&c_t;&c_u;&c_r;&c_a;</trd>
@@ -441,6 +437,10 @@
     <trd>kult&uacute;ra</trd>,
     <trd>pestovanie</trd>,
     <trd>vzdelanos&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&c_u;&#x43B;&#x44C;&c_t;&c_u;&c_r;&c_a;</trd>,
+    <trd>&#x43E;&c_b;&c_r;&#x43E;&c_b;&c_ib;&c_t;&#x43E;&#x43A;</trd>
   </trdgrp>
 </drv>
 
@@ -480,20 +480,19 @@
       <ref tip="vid" cel="gimnas1.0o.SPO">gimnastika</ref>
       a&ubreve; alia:
       <ekz>
-        neni<klr>[o&#x2026;]</klr> faros el homo superhomon, tion oni ne povas
+        neni<klr>[o&#8230;]</klr> faros el homo superhomon, tion oni ne povas
         atingi sole per la fizika <tld/>o
         <fnt>
           <aut>Lidia Zamenhof</aut>
           <vrk>La vojo al superhomo</vrk>
           <lok>La Praktiko, 1936:12 (60)</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         li &scirc;an&gcirc;is sian fakon al la alia &ndash; korp<tld/>a
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Stra&zcaron;nickas</aut>
-          <vrk><url ref="https://www.monato.be/2007/008977.php">Mia estrino estas
+          <vrk><url ref="&Monato;/2007/008977.php">Mia estrino estas
           vampiro</url></vrk>
           <lok>2007</lok>
         </fnt>.
@@ -518,7 +517,7 @@
     <dif>
       Intensa <tld/>o de vegeta&jcirc;oj en &gcirc;ardenoj:
       <ekz>
-        estas belaj la floroj de la kampoj kaj arbaroj <klr>[&#x2026;]</klr>
+        estas belaj la floroj de la kampoj kaj arbaroj <klr>[&#8230;]</klr>
         tamen la &gcirc;arden<tld/>o povas perfektigi ilian belecon
         <fnt>
           <aut>A. Giesswein</aut>,
@@ -526,13 +525,12 @@
           kaj mondliteraturo</url></vrk>,
           <lok>Literatura Mondo, 1922, p. 21a-22a</lok>
         </fnt>;
-      </ekz>
-      <ekz>
-        bone konata &gcirc;arden<tld/>isto <klr>[&#x2026;]</klr> estis elektita kiel la &ccirc;efinstruisto
+      </ekz><ekz>
+        bone konata &gcirc;arden<tld/>isto <klr>[&#8230;]</klr> estis elektita kiel la &ccirc;efinstruisto
         por &gcirc;arden<tld/>o
         <fnt>
-          <vrk><url ref="https://www.gutenberg.org/files/38240/38240-h/vol2/e204.htm">The
-          Esperantist, Vol. 2, No. 4 &#x2010; Balo De La Enmaskigitoj</url></vrk>
+          <vrk><url ref="&Gutenberg;files/38240/38240-h/vol2/e204.htm">The
+          Esperantist, Vol. 2, No. 4 &#8208; Balo De La Enmaskigitoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -548,6 +546,7 @@
     <trd>horticultur&abreve;</trd>,
     <trd>gr&abreve;din&abreve;rit</trd>
   </trdgrp>
+  <trd lng="uk">&c_s;&c_a;&c_d;&c_ib;&c_v;&#x43D;&c_i;&c_c;&c_t;&c_v;&#x43E;</trd>
 </drv>
 
 <drv mrk="kultur.kontraux0o">
@@ -562,18 +561,17 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
-          <vrk><url ref="https://www.monato.be/2003/007837.html">Ne al &ccirc;iuj pla&ccirc;os &ccirc;i literatura
+          <vrk><url ref="&Monato;/2003/007837.html">Ne al &ccirc;iuj pla&ccirc;os &ccirc;i literatura
           gemeto</url></vrk>
           <lok>2003</lok>
         </fnt>;
-      </ekz>
-      <ekz>
-        granda procento de Idistoj estas eks-Esperantistoj &#x2010;
+      </ekz><ekz>
+        granda procento de Idistoj estas eks-Esperantistoj &#8208;
         &ccirc;iu <tld/>o havas sian kontra&ubreve;<tld/>on, &ccirc;u ne
         <fnt>
           <aut>K. Lendon</aut>,
           <vrk>Pretendoj martenaj</vrk>,
-          <lok><url ref="http://groups.google.be/group/soc.culture.esperanto?hl=eo">
+          <lok><url ref="&SCE;">
           soc.culture.esperanto</url>, 1998-10-12</lok>
         </fnt>?
       </ekz>
@@ -601,7 +599,7 @@
       <ref tip="vid" cel="divers.0eco.KOMUNE">diverseco</ref>,
       <ref tip="vid" cel="bunt.0eco.FIG">bunteco<sncref/></ref>:
       <ekz>
-        Itala Esperantista Junularo invitas <klr>[&#x2026;]</klr> al evento 
+        Itala Esperantista Junularo invitas <klr>[&#8230;]</klr> al evento 
         kiu celas prezenti plur<tld/>econ en lernejoj
         <fnt>
           <aut>Tejo</aut>,
@@ -609,13 +607,12 @@
           Semajno de Kulturo Internacia</url></vrk>,
           <lok>2008-05-14</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         plur<tld/>eco havu limojn, opiniis 60&#x202F;% de la enketitoj
         <fnt>
           <bib>Monato</bib>
           <aut>Marko Naoki Lins</aut>
-          <vrk><url ref="https://www.monato.be/2005/008603.php">Toleremo ankora&ubreve; ne
+          <vrk><url ref="&Monato;/2005/008603.php">Toleremo ankora&ubreve; ne
           tolerata</url></vrk>
           <lok>2005</lok>
         </fnt>.
@@ -669,13 +666,12 @@
         sen<tld/>aj ekscentraj esperantistoj
         <fnt><bib>Plumamikoj</bib>, <lok>kie komencu
         komencanto?</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         fiartefarita&ccirc;a&jcirc;o, kiu sen<tld/>igus la homaron
         <fnt>
           <bib>Monato</bib>
           <aut>Thierry Salomon</aut>
-          <vrk><url ref="https://www.monato.be/2003/008016.html">La mondolingvo</url></vrk>
+          <vrk><url ref="&Monato;/2003/008016.html">La mondolingvo</url></vrk>
           <lok>2003</lok>
         </fnt>!
       </ekz>
@@ -702,6 +698,10 @@
     </trdgrp>
   </snc>
   <trd lng="fr">inculte</trd>
+  <trdgrp lng="uk">
+    <trd>&c_b;&c_u;&c_z;&#x43A;&c_u;&#x43B;&#x44C;&c_t;&c_u;&c_r;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je;&#x43A;&c_u;&#x43B;&#x44C;&c_t;&c_u;&c_r;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kultur.sen0ejo">
@@ -717,18 +717,22 @@
           <vrk>Soleco</vrk>,
           <lok>1967</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la vojo kondukis tra sen<tld/>ejo
         <fnt>
           <vrk>Stanis&lstroke;aw Sosabowski</vrk>
-          <lok><url ref="https://eo.wikipedia.org/wiki/Stanis%C5%82aw_Sosabowski">https://eo.wikipedia.org/wiki/Stanis%C5%82aw_Sosabowski</url></lok>
+          <lok><url
+          ref="&Viki;/Stanis%C5%82aw_Sosabowski">&Viki;/Stanis%C5%82aw_Sosabowski</url></lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Brache</trd>
     <trd lng="fr">friche</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_w;&c_z;&c_a;&c_r;&c_a;&c_n;&c_a;&c_je; &c_p;&c_o;&c_l;&c_je;</trd>,
+    <trd>&c_n;&c_ja;&c_w;&c_r;&c_o;&c_b;&c_l;&c_je;&c_n;&c_a;&c_ja; &c_z;&c_ja;&c_m;&c_l;&c_ja;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>neobd&ecaron;lan&eacute; pole</trd>,
     <trd>&uacute;hor</trd>
@@ -762,21 +766,19 @@
         = lingvonaciismo!</url></vrk>,
         <lok>2004-03-07</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         usona sub<tld/>o kolaa, burgera kaj dolara
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007002.html">Muziko: Kanzonoj por
+          <vrk><url ref="&Steloj;monato2/007002.html">Muziko: Kanzonoj por
           interna konsumo</url></vrk>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la verkaro de <nom>Tolkien</nom> <klr>[estas]</klr> bazo de aparta sub<tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Nikolao Gudskov</aut>
-          <vrk><url ref="https://www.monato.be/2009/009744.php">Renkonti&gcirc;o de du
+          <vrk><url ref="&Monato;/2009/009744.php">Renkonti&gcirc;o de du
           (sub)kulturoj</url></vrk>
           <lok>2009</lok>
         </fnt>.
@@ -784,6 +786,7 @@
     </dif>
     <trd lng="de">Subkultur</trd>
   </snc>
+  <trd lng="be">&c_s;&c_u;&c_b;&c_k;&c_u;&c_l;&c_mol;&c_t;&c_u;&c_r;&c_a;</trd>
   <trd lng="fr">sous-culture</trd>
   <trd lng="pl">subkultura</trd>     
   <trd lng="ro">subcultur&abreve;</trd>
@@ -803,22 +806,20 @@
           <bib>Far1</bib>
           <lok>Anta&ubreve;parolo</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         nordaj landoj plu subvencias sian ter<tld/>on en grado, kiu malhelpas disvolvi&gcirc;on
         <fnt>
           <bib>Monato</bib>
           <aut>Claude Piron</aut>
-          <vrk><url ref="https://www.monato.be/2003/008141.html">Francio invitas, Svislando
+          <vrk><url ref="&Monato;/2003/008141.html">Francio invitas, Svislando
           suferas</url></vrk>
           <lok>2003</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la dioksina skandalo en majo 1999 la belga ter<tld/>a industrio forte suferis
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007272.html">Reen al la edena
+          <vrk><url ref="&Steloj;monato2/007272.html">Reen al la edena
           paradizo</url></vrk>
         </fnt>.
       </ekz>
@@ -833,6 +834,10 @@
     <trd>uprawa ziemi</trd>
   </trdgrp>  
   <trd lng="ro">agricultur&abreve;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_je;&#x43C;&#x43B;&c_je;&c_r;&#x43E;&c_b;&c_s;&c_t;&c_v;&#x43E;</trd>,
+    <trd>&c_r;&c_ib;&#x43B;&#x44C;&#x43D;&c_i;&c_c;&c_t;&c_v;&#x43E;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kultur.ter0isto">
@@ -850,17 +855,15 @@
           <bib>Far1</bib>
           <lok>Anta&ubreve;parolo</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ter<tld/>isto en la tria mondo devas vivi per enspezo de 500 dolaroj jare
         <fnt>
           <bib>Monato</bib>
           <aut>Josef Mendl</aut>
-          <vrk><url ref="https://www.monato.be/2004/008326.html">Kien evoluas la mondo?</url></vrk>
+          <vrk><url ref="&Monato;/2004/008326.html">Kien evoluas la mondo?</url></vrk>
           <lok>2004</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         &ccirc;u vi a&ubreve;dis pri ter<tld/>isto, kiu printempe semas siajn 
         kampojn, sed a&ubreve;tune, kiam la greno maturi&gcirc;is, ne rikoltas &gcirc;in  
         <fnt>
@@ -885,10 +888,29 @@
     <trd>fermier</trd>,
     <trd>agricultor</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_z;&c_je;&#x43C;&#x43B;&c_je;&c_r;&#x43E;&c_b;</trd>,
+    <trd>&c_r;&c_ib;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.47 2022/05/01 08:09:25
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.46 2022/04/29 11:28:25
+Sergio Pokrovskij: disduigo de ~i
+
+versio 1.44 2022/03/28 01:58:55
+Ulrich Fellmann: kulturo 2b: + DE traduk
+
+versio 1.41 2021/07/27 07:27:24
+Dmitri Gabinski: + trd be
+
+versio 1.40 2021/06/19 15:34:29
+Sergio Pokrovskij: +ekz
+
 versio 1.37 2020/11/22 06:11:27
 Amir Naor: Aldono de mankanta traduko (cultuur) en la nederlana
 
@@ -896,20 +918,5 @@ Revision 1.36  2020/03/21 21:10:19  revo
 Wolfram Diestel: fizika ~o..ter~isto: ekz-oj
 
 Revision 1.35  2020/03/21 15:10:28  revo
-Wolfram Diestel: ~i..~o: ekz-oj
-
-Revision 1.34  2020/01/05 23:10:19  revo
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.33  2018/03/15 15:10:15  revo
-Jeromo Vasxe: ~i ~o rearangx. snc, + fizika ~o
-
-Revision 1.32  2018/03/12 17:10:15  revo
-Jeromo Vasxe: ~o + snc his
-
-Revision 1.31  2016/07/30 05:10:26  revo
-Sergio Pokrovskij: Oficiale (OA1) la radiko estas substantiva
-
-Revision 1.30  2015/12/25 04:10:19  revo
 -->
 </vortaro>

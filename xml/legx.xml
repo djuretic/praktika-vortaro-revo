@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: legx.xml,v 1.84 2021/06/19 05:58:46 revo Exp $">
+<art mrk="$Id: legx.xml,v 1.119 2022/05/01 12:04:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>le&gcirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -147,7 +147,7 @@
   </snc>
   <trd lng="af">wet</trd>
   <trd lng="am">&#x1215;&#x130D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x642;&#x627;&#x646;&#x648;&#x646;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_q;&a_A;&a_n;&a_w;&a_n;</trd>
   <trd lng="az">h&#xFC;quq</trd>
   <trd lng="be">&c_z;&c_a;&c_k;&c_o;&c_n;</trd>
   <trd lng="bg">&c_z;&c_a;&c_k;&c_o;&c_n;</trd>
@@ -157,6 +157,7 @@
   <trd lng="bs">zakon</trd>
   <trd lng="co">ghjustizia</trd>
   <trd lng="cs">z&aacute;kon</trd>
+  <trd lng="cy">gyfraith</trd>
   <trd lng="da">lov</trd>
   <trd lng="de">Gesetz</trd>
   <trd lng="el">&ny;&omikron_ton;&my;&omikron;&sigma_fina;</trd>
@@ -167,23 +168,41 @@
   <trd lng="eu">legea</trd>
   <trd lng="fr">loi</trd>
   <trd lng="fy">wet</trd>
+  <trd lng="ga">dl&#xED;</trd>
+  <trd lng="gd">lagh</trd>
   <trd lng="gl">dereito</trd>
   <trd lng="gu">&#xA95;&#xABE;&#xAAF;&#xAA6;&#xACB;</trd>
   <trd lng="ha">shari&#x2019;a</trd>
   <trd lng="hi">&#x915;&#x93E;&#x928;&#x942;&#x928;</trd>
+  <trd lng="hmn">txoj cai lij choj</trd>
   <trd lng="hr">zakon</trd>
+  <trd lng="ht">lalwa</trd>
   <trd lng="hu">t&ouml;rv&eacute;ny</trd>
   <trd lng="hy">&#x585;&#x580;&#x565;&#x576;&#x584;</trd>
   <trd lng="id">hukum</trd>
+  <trd lng="ig">iwu</trd>
   <trd lng="is">l&#xF6;g</trd>
   <trd lng="ja">&#x6CD5;&#x5247;</trd>
-  <trd lng="jw">hukum</trd>
+  <trd lng="jv">hukum</trd>
   <trd lng="ka">&#x10D9;&#x10D0;&#x10DC;&#x10DD;&#x10DC;&#x10D8;</trd>
+  <trd lng="kk">&c_z;&c_a;&#x4A3;</trd>
   <trd lng="km">&#x1785;&#x17D2;&#x1794;&#x17B6;&#x1794;&#x17CB;</trd>
+  <trd lng="kn">&#xC95;&#xCBE;&#xCA8;&#xCC2;&#xCA8;&#xCC1;</trd>
   <trd lng="ko">&#xBC95;</trd>
+  <trd lng="ku">qan&#xFB;n</trd>
+  <trd lng="ky">&#x43C;&#x44B;&c_j;&c_z;&c_a;&#x43C;</trd>
+  <trd lng="lat">legem</trd>
   <trd lng="lo">&#xE81;&#xEBB;&#xE94;&#xEAB;&#xEA1;&#xEB2;&#xE8D;</trd>
+  <trd lng="lt">teis&#x117;</trd>
+  <trd lng="lv">likums</trd>
+  <trd lng="mg">lal&#xE0;na</trd>
+  <trd lng="mi">te ture</trd>
+  <trd lng="mk">&c_z;&c_a;&#x43A;&#x43E;&#x43D;</trd>
   <trd lng="ml">&#xD28;&#xD3F;&#xD2F;&#xD2E;&#xD02;</trd>
+  <trd lng="mn">&c_h;&c_u;&c_u;&#x43B;&#x44C;</trd>
   <trd lng="mr">&#x915;&#x93E;&#x92F;&#x926;&#x93E;</trd>
+  <trd lng="ms">undang-undang</trd>
+  <trd lng="mt">li&#x121;i</trd>
   <trd lng="my">&#x1015;&#x100A;&#x1010;&#x1039;&#x1010;&#x102D;&#x1000;&#x103B;&#x1019;&#x103A;&#x1038;</trd>
   <trd lng="ne">&#x935;&#x94D;&#x92F;&#x935;&#x938;&#x94D;&#x925;&#x93E;</trd>
   <trd lng="nl">wet</trd>
@@ -193,24 +212,37 @@
     <trd>prawo</trd>,
     <trd>ustawa</trd>
   </trdgrp>
-  <trd lng="ps">&#x642;&#x627;&#x646;&#x648;&#x646;</trd>
+  <trd lng="ps">&a_q;&a_A;&a_n;&a_w;&a_n;</trd>
   <trd lng="pt">lei</trd>
   <trdgrp lng="ro">
     <trd>drept</trd>,
     <trd>lege</trd>
   </trdgrp> 
   <trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n;</trd>
-  <trd lng="sd">&#x642;&#x627;&#x646;&#x648;&#x646;</trd>
+  <trd lng="rw">amategeko</trd>
+  <trd lng="sd">&a_q;&a_A;&a_n;&a_w;&a_n;</trd>
   <trd lng="si">&#xDB1;&#xDD3;&#xDAD;&#xDD2;&#xDBA;</trd>
+  <trd lng="sl">pravo</trd>
+  <trd lng="sm">tulafono</trd>
+  <trd lng="sn">mutemo</trd>
+  <trd lng="so">sharciga</trd>
   <trd lng="sq">ligji</trd>
   <trd lng="st">molao</trd>
+  <trd lng="su">hukum</trd>
+  <trd lng="sw">sheria</trd>
   <trd lng="ta">&#xB9A;&#xB9F;&#xBCD;&#xB9F;</trd>
   <trd lng="te">&#xC1A;&#xC1F;&#xC4D;&#xC1F;&#xC02;</trd>
+  <trd lng="tg">&#x49B;&#x43E;&#x43D;&c_u;&#x43D;&c_i;</trd>
   <trd lng="th">&#xE01;&#xE0E;&#xE2B;&#xE21;&#xE32;&#xE22;</trd>
   <trd lng="tl">batas</trd>
-  <trd lng="ur">&#x642;&#x627;&#x646;&#x648;&#x646;</trd>
+  <trd lng="tt">&c_z;&c_a;&#x43A;&#x43E;&#x43D;</trd>
+  <trd lng="uk">&c_a;&#x43A;&#x43E;&#x43D;</trd>
+  <trd lng="ur">&a_q;&a_A;&a_n;&a_w;&a_n;</trd>
+  <trd lng="uz">qonun</trd>
   <trd lng="vi">ph&#xE1;p lu&#x1EAD;t</trd>
+  <trd lng="xh">umthetho</trd>
   <trd lng="yi">&#x5D2;&#x5E2;&#x5D6;&#x5E2;&#x5E5;</trd>
+  <trd lng="yo">ofin</trd>
   <trd lng="zu">umthetho</trd>
 </drv>
 
@@ -298,6 +330,7 @@
   <trd lng="pt">lei</trd>
   <trd lng="ro">legal</trd>
   <trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="uk">&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="legx.0aro">
@@ -359,6 +392,10 @@
     <trd>legisla&#x21B;ie</trd>
   </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_k;&c_o;&c_n;&c_o;&c_d;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x432;&#x456;&#x434; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x456;&#x432;</trd>,
+    <trd>&#x43A;&#x43E;&#x434;&#x435;&#x43A;&#x441;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="legx.0isto">
@@ -410,6 +447,10 @@
     <trd>&c_z;&c_a;&c_k;&c_o;&c_n;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_ju;&c_r;&c_i;&c_s;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x437;&#x43D;&#x430;&#x432;&#x435;&#x446;&#x44C;</trd>,
+    <trd>&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43D;&#x438;&#x43A;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="legx.0igi">
@@ -457,7 +498,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jiri Proskovec</aut>
-          <vrk><url ref="https://www.monato.be/2003/008206.html">Sklaveco en
+          <vrk><url ref="&Monato;/2003/008206.html">Sklaveco en
           Germanio</url></vrk>
         </fnt>;
       </ekz>
@@ -466,7 +507,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>D. E. Rogers</aut>
-          <vrk><url ref="https://www.monato.be/2003/008188.html">Jes kaj
+          <vrk><url ref="&Monato;/2003/008188.html">Jes kaj
           ne</url></vrk>
         </fnt>.
       </ekz>
@@ -503,6 +544,11 @@
   <trdgrp lng="ro">
     <trd>legaliza</trd>,
     <trd>valida</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x443;&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43B;&#x435;&#x491;&#x430;&#x43B;&#x456;&#x437;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x440;&#x438;&#x439;&#x43C;&#x430;&#x442;&#x438; &#x437;&#x430;&#x43A;&#x43E;&#x43D;</trd>
   </trdgrp>
 </drv>
 
@@ -583,6 +629,11 @@
     <trd>&c_n;&c_je;&c_z;&c_a;&c_k;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_n;&c_je;&c_l;&c_je;&c_g;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43D;&#x435;&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43D;&#x435;&#x43B;&#x435;&#x491;&#x456;&#x442;&#x438;&#x43C;&#x43D;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="legx.laux0a">
@@ -655,6 +706,11 @@
     <trd>&c_z;&c_a;&c_k;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_l;&c_je;&c_g;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43B;&#x435;&#x491;&#x456;&#x442;&#x438;&#x43C;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x43D;&#x438;&#x439; &#x434;&#x43E; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x443;</trd>,
+    <trd>&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43D;&#x438;&#x439;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="legx.laux0igi">
@@ -723,7 +779,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gilbert LEDON</aut>
-          <vrk><url ref="https://www.monato.be/2003/008040.html">Kvina povo</url></vrk>
+          <vrk><url ref="&Monato;/2003/008040.html">Kvina povo</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -733,7 +789,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Marko Naoki Lins</aut>
-          <vrk><url ref="https://www.monato.be/2004/008365.html">Civitanoj perdas intereson pri E&ubreve;ropo</url></vrk>
+          <vrk><url ref="&Monato;/2004/008365.html">Civitanoj perdas intereson pri
+          E&ubreve;ropo</url></vrk>
           <lok>2004</lok>
         </fnt>;
       </ekz>
@@ -743,13 +800,14 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2012/010756.php">Pika partio</url></vrk>
+          <vrk><url ref="&Monato;/2012/010756.php">Pika partio</url></vrk>
           <lok>2012</lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="legx.0igi.legxofari">le&gcirc;igi<sncref/></ref>
   </snc>
+  <trd lng="be">&c_z;&c_a;&c_k;&c_a;&c_n;&c_a;&c_d;&c_a;&c_w;&c_ch;&c_y;</trd>
   <trdgrp lng="de">
     <trd>legislativ</trd>,
     <trd>gesetzgebend</trd>
@@ -783,6 +841,11 @@
   <trd lng="pl">z mocy <ind>prawa</ind></trd>     
   <trd lng="ro">de <ind>jure</ind></trd>
   <trd lng="ru">&c_i;&c_m;&c_je;&c_ju;&c_shch;&c_i;&c_j; &c_s;&c_i;&c_l;&c_u; <ind>&c_z;&c_a;&c_k;&c_o;&c_n;&c_a;</ind></trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x430;&#x432;&#x43E;&#x43C;&#x43E;&#x447;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43D;&#x430; &#x440;&#x456;&#x432;&#x43D;&#x456; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x443;</trd>,
+    <trd>&#x44F;&#x43A;&#x438;&#x439; &#x43C;&#x430;&#x454; &#x441;&#x438;&#x43B;&#x443; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x443;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="legx.0oscienco">
@@ -827,6 +890,7 @@
     <trd>&c_z;&c_a;&c_k;&c_o;&c_n;&c_o;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_v;&c_o;<klr tip="amb"> (&c_n;&c_a;&c_u;&c_k;&c_a;)</klr></trd>
   </trdgrp>
+  <trd lng="uk">&#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x437;&#x43D;&#x430;&#x432;&#x441;&#x442;&#x432;&#x43E;</trd>
 </drv>
 
 <drv mrk="legx.kepleraj0oj">
@@ -885,7 +949,7 @@
         el ili ja konformas al la natura <tld/>o
         <fnt>
           <aut>&Ccirc;ina Radio Internacia</aut>,
-          <vrk><url ref="http://esperanto.cri.cn/1/2004/10/11/1@15854.htm">
+          <vrk><url ref="&CRI;1/2004/10/11/1@15854.htm">
           Proverboj en la &ccirc;ina lingvo</url></vrk>,
           <lok>2004-10-11</lok>
         </fnt>.
@@ -901,6 +965,12 @@
 </art>
 <!--
 $Log$
+versio 1.119 2022/05/01 12:04:34
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.117 2021/08/11 11:26:28
+Dmitri Gabinski: + trd be
+
 versio 1.40 2021/05/15 09:58:18
 Dmitri Gabinski: + trd be
 
@@ -917,11 +987,5 @@ Revision 1.34  2019/06/30 07:42:48  revo
 adaptis URL de Monato
 
 Revision 1.33  2017/11/30 21:10:37  revo
-Wolfram Diestel: plua prilaborado de ekz-oj
-
-Revision 1.32  2017/11/28 21:10:14  revo
-Wolfram Diestel: prilaboris ekz-ojn
-
-Revision 1.31  2014/12/19 23:10:20  revo
 -->
 </vortaro>

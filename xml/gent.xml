@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gent.xml,v 1.24 2021/05/23 13:17:19 revo Exp $">
+<art mrk="$Id: gent.xml,v 1.28 2022/10/07 20:36:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gent</rad>/o <fnt><bib>PV</bib></fnt>
@@ -27,14 +26,14 @@
         <klr>(kp <ref cel="sxem.0ido">&scirc;emido</ref>)</klr>
         <fnt>
           <bib>MT</bib>
-          <lok>Genezo 10:31</lok>
+          <lok>&Gen; 10:31</lok>
         </fnt>;
       </ekz>
       <ekz>
         la <tld/>oj de la filoj de <nom>Noa</nom>, la&ubreve; siaj generacioj
         <fnt>
           <bib>MT</bib>
-          <lok>Genezo 10:32</lok>
+          <lok>&Gen; 10:32</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -95,8 +94,7 @@
         la elmigro de la hebrea <tld/>o el Egiptio
         <fnt>
           <aut>M. Halvelik</aut>,
-          <vrk>(Andr&eacute; Cherpillod, Kaj la suno
-          haltis...)</vrk>,
+          <vrk>(Andr&eacute; Cherpillod, Kaj la suno haltis...)</vrk>,
           <bib>Monato</bib>,
           <lok>1993:11, p. 23a</lok>
         </fnt>;
@@ -154,8 +152,7 @@
   </trdgrp>
   <trd lng="es">estirpe</trd>
   <trdgrp lng="fr">
-    <trd>gens<klr tip="ind"> (ensemble de familles
-romaines)</klr></trd>,
+    <trd>gens<klr tip="ind"> (ensemble de familles romaines)</klr></trd>,
     <trd>lign&eacute;e</trd>,
     <trd>peuplade</trd>
   </trdgrp>
@@ -167,6 +164,35 @@ romaines)</klr></trd>,
     <trd>plemeno</trd>,
     <trd>rod</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_ib;&c_d;</trd>,
+    <trd>&c_p;&c_l;&c_je;&c_m;&#8217;&c_ja;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="gent.0estro">
+  <kap>
+    <tld/>estro
+  </kap>
+  <snc mrk="gent.0estro.ETN">
+    <dif>
+      Estro, gvidanto de <tld/>o:
+      <ekz>
+        la <tld/>estro, kiu gvidis la komunumon, estis elektita de la <tld/>anoj, kaj la
+        gravaj aferoj estis diskutataj en kunveno
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="http://www.espero.com.cn/old/epch/07k/07k-4h/03-7-4-1c.htm"
+              >Legendo pri Huangdi, Yao, Shun kaj Yu</url></vrk>
+          <lok>El Popola &Ccirc;inio, [2009?]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="patria.0o.maljunulo">patriarko<sncref/></ref>,
+    <ref cel="trib.0estro">tribestro</ref>
+  </refgrp>
 </drv>
 
 <drv mrk="gent.ali0ulo">
@@ -201,12 +227,12 @@ romaines)</klr></trd>,
         ali<tld/>anoj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html"
-              >Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_ib;&c_n;&c_sh;&c_a;&c_p;&c_l;&c_ja;&c_m;&c_je;&c_n;&c_n;&c_ib;&c_k;</trd>
 </drv>
 
 <drv mrk="gent.sam0ano">
@@ -244,18 +270,27 @@ romaines)</klr></trd>,
         estas pafi kontra&ubreve; ilin
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html"
-              >Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_d;&c_n;&c_a;&c_p;&c_l;&c_ja;&c_m;&c_je;&c_n;&c_n;&c_ib;&c_k;</trd>
   <trd lng="cs">soukmenovec</trd>
   <trd lng="sk">s&uacute;kme&ncaron;ovec</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2022/10/07 20:36:23
+Jeromo Vasxe: + ~estro
+
+versio 1.27 2022/04/30 08:42:40
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.25 2022/02/07 07:27:32
+Dmitri Gabinski: + trd be
+
 versio 1.24 2021/05/23 13:17:19
 Wolfram Diestel: ref-hom
 
@@ -269,14 +304,5 @@ Revision 1.20  2014/09/27 01:10:12  revo
 Norbert Luckhardt: +trd ES
 
 Revision 1.19  2014/02/23 02:10:17  revo
-Jeromo Vasxe: + sam~ano
-
-Revision 1.18  2012/08/18 20:10:13  revo
-Marc Rausell: + trd ca
-
-Revision 1.17  2009/02/24 17:30:40  revo
-Russ Williams: +trd en
-
-Revision 1.16  2007/12/09 17:30:24  revo
 -->
 </vortaro>

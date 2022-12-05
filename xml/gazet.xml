@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gazet.xml,v 1.80 2021/06/18 20:41:39 revo Exp $">
+<art mrk="$Id: gazet.xml,v 1.116 2022/06/08 08:39:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gazet</rad>/o <fnt><bib>PV</bib></fnt>
@@ -51,7 +51,7 @@
     <trd>&c_ch;&c_a;&c_s;&c_o;&c_p;&c_ib;&c_s;</trd>
   </trdgrp>
   <trd lng="bg">&c_v;&c_je;&c_s;&c_t;&c_n;&c_i;&c_k;</trd>
-  <trd lng="bo">&#xF5A;&#xF42;&#xF66;&#xF0B;&#xF54;&#xF62;&#xF0B;</trd>
+  <trd lng="bo">&t_tsha;&t_ga;&t_sa;&t_tsheg;&t_pa;&t_ra;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>&ccaron;asopis</trd>,
     <trd>list</trd>,
@@ -102,8 +102,15 @@
     <trd>&c_p;&c_je;&c_r;&c_i;&c_o;&c_d;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_i;&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
   <trd lng="sk">&ccaron;asopis</trd>
+  <trd lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;</trd>
   <trd lng="tr">gazete</trd>
-  <trd lng="zh">&#x6742;&#x5FD7;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_ch;&c_a;&c_s;&#x43E;&#x43F;&c_i;&c_s;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_ib;&#x43E;&c_d;&c_i;&c_ch;&#x43D;&c_je; &c_v;&c_i;&c_d;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_zh;&c_u;&c_r;&#x43D;&c_a;&#x43B;</trd>,
+    <trd>&c_g;&c_a;&c_z;&c_je;&c_t;&c_a;</trd>
+  </trdgrp>
+  <trd lng="zh">&#26434;&#x5FD7;</trd>
 </drv>
 
 <drv mrk="gazet.0a">
@@ -127,20 +134,27 @@
         la <tld/>a kiosko
         <fnt>
           <aut>A. Conan Doyle, trad. Darold Booton</aut>:
-          <vrk><url ref="http://members.cox.net/esperanto/ligo/rugxkap.htm">La ligo de la ru&gcirc;kapuloj</url></vrk>
+          <vrk><url ref="http://members.cox.net/esperanto/ligo/rugxkap.htm">La ligo de la
+          ru&gcirc;kapuloj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>a a&ubreve;tomato
         <fnt>
           <aut>V. Rybakov, trad. J. Finkel</aut>:
-          <vrk><url ref="http://www.esperanto.mv.ru/Gravitavio/08.html">Gravitavio &#xAB;Carido&#xBB;</url></vrk>
+          <vrk><url ref="http://www.esperanto.mv.ru/Gravitavio/08.html">Gravitavio
+          &#xAB;Carido&#xBB;</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_z;&c_e;&c_t;&c_n;&c_y;</trd>
   <trd lng="pl">gazetowy</trd>
   <trd lng="ru">&c_g;&c_a;&c_z;&c_je;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_g;&c_a;&c_z;&c_je;&c_t;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_zh;&c_u;&c_r;&#x43D;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gazet.0aro">
@@ -155,9 +169,9 @@
    </dif>
   </snc>
   <trd lng="af">pers</trd>
-  <trd lng="am">&#x12ED;&#x132B;&#x1291;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x635;&#x62D;&#x627;&#x641;&#x629;</trd>
-  <trd lng="az">m&#x259;tbuat</trd>
+  <trd lng="am">&#x12ED;&#x132B;&#4753;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_S;&a_H;&a_A;&a_f;&a_t_marbuta;</trd>
+  <trd lng="az">m&#601;tbuat</trd>
   <trd lng="be">&c_p;&c_r;&c_e;&c_s;&c_a;
     <klr>(&c_p;&c_e;&c_r;&c_y;&c_ja;&c_d;&c_y;&c_ch;&c_n;&c_y;&c_ja;
       &c_v;&c_y;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_ib;)</klr></trd>
@@ -167,6 +181,7 @@
     <trd>noviny</trd>,
     <trd>tisk</trd>
  </trdgrp>
+  <trd lng="cy">wasg</trd>
   <trd lng="da">presse</trd>
   <trdgrp lng="de">
     <trd>Presse</trd>,
@@ -181,47 +196,77 @@
   </trdgrp>
   <trd lng="fr">presse<klr tip="ind"> (les journaux)</klr></trd>
   <trd lng="fy">parse</trd>
+  <trd lng="ga">preas</trd>
+  <trd lng="gd">naidheachd</trd>
   <trd lng="gl">prensa</trd>
   <trd lng="gu">&#xAAA;&#xACD;&#xAB0;&#xAC7;&#xAB8;</trd>
   <trd lng="ha">latsa</trd>
-  <trd lng="hi">&#x92A;&#x94D;&#x930;&#x947;&#x938;</trd>
+  <trd lng="hi">&#x92A;&#x94D;&#2352;&#2375;&#2360;</trd>
+  <trd lng="hmn">xovxwm</trd>
   <trd lng="hr">pritisnite</trd>
+  <trd lng="ht">lapr&egrave;s</trd>
   <trd lng="hu">sajt&oacute;<klr tip="ind"> (az &uacute;js&aacute;gok)
   </klr></trd>
-  <trd lng="hy">&#x574;&#x561;&#x574;&#x578;&#x582;&#x56C;</trd>
+  <trd lng="hy">&#1396;&#1377;&#1396;&#1400;&#1410;&#x56C;</trd>
+  <trd lng="ig">akuko</trd>
   <trd lng="is">stutt</trd>
   <trd lng="ja">&#x30D7;&#x30EC;&#x30B9;</trd>
-  <trd lng="jw">penet</trd>
+  <trd lng="jv">penet</trd>
   <trd lng="ka">&#x10DE;&#x10E0;&#x10D4;&#x10E1;</trd>
-  <trd lng="km">&#x179F;&#x17B6;&#x179A;&#x1796;&#x178F;&#x17CC;&#x1798;&#x17B6;&#x1793;</trd>
+  <trd lng="kk">&c_b;&c_a;&c_s;&c_p;&c_a;&c_s;&#x4E9;&c_z;</trd>
+  <trd lng="km">&#x179F;&#x17B6;&#x179A;&#6038;&#x178F;&#x17CC;&#6040;&#x17B6;&#6035;</trd>
+  <trd lng="kn">&#xCAA;&#xCA4;&#xCCD;&#xCB0;&#xCBF;&#xC95;&#xCBE;</trd>
   <trd lng="ko">&#xD0A4;&#xB97C; &#xB204;&#xB985;&#xB2C8;&#xB2E4;</trd>
+  <trd lng="ku">rojnamevan&icirc;</trd>
+  <trd lng="ky">&c_b;&c_a;&c_s;&c_m;&c_a; &c_s;&#x4E9;&c_z;</trd>
+  <trd lng="lat">turba</trd>
   <trd lng="lo">&#xEAB;&#xE99;&#xEB1;&#xE87;&#xEAA;&#xEB7;&#xE9E;&#xEB4;&#xEA1;</trd>
+  <trd lng="lt">paspauskite</trd>
+  <trd lng="lv">nospiediet</trd>
+  <trd lng="mg">mpanao gazety</trd>
+  <trd lng="mk">&c_p;&c_r;&c_je;&c_s;-</trd>
   <trd lng="ml">&#xD05;&#xD2E;&#xD7C;&#xD24;&#xD4D;&#xD24;&#xD41;&#xD15;</trd>
-  <trd lng="mr">&#x926;&#x93E;&#x92C;&#x93E;</trd>
-  <trd lng="my">&#x1005;&#x102C;&#x1014;&#x101A;&#x103A;&#x1007;&#x1004;&#x103A;&#x1038;&#x1019;&#x103B;&#x102C;&#x1038;</trd>
+  <trd lng="mn">&c_g;&c_e;&c_zh; &c_s;&c_o;&c_n;&c_g;&c_o;&c_o;&c_d;</trd>
+  <trd lng="mr">&#2342;&#x93E;&#x92C;&#x93E;</trd>
+  <trd lng="ms">akhbar</trd>
+  <trd lng="mt">istampa</trd>
+  <trd lng="my">&#4101;&#x102C;&#4116;&#x101A;&#x103A;&#4103;&#4100;&#x103A;&#4152;&#4121;&#x103B;&#x102C;&#4152;</trd>
   <trd lng="nl">pers<klr tip="ind"> (de kranten)</klr></trd>
   <trd lng="ny">osindikizira</trd>
   <trd lng="pa">&#xA2A;&#xA4D;&#xA30;&#xA48;&#xA71;&#xA38;</trd>
   <trd lng="pl">prasa</trd>
-  <trd lng="ps">&#x645;&#x637;&#x628;&#x648;&#x639;&#x627;&#x62A;&#x64A;</trd>
+  <trd lng="ps">&a_m;&a_T;&a_b;&a_w;&a_ayn;&a_A;&a_t;&a_y;</trd>
   <trd lng="pt">imprensa<klr tip="amb"> (os jornais)</klr></trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_s;&c_s;&c_a;</trd>
-  <trd lng="sd">&#x67E;&#x631;&#x64A;&#x633;</trd>
+  <trd lng="rw">kanda</trd>
+  <trd lng="sd">&f_p;&a_r;&a_y;&a_s;</trd>
   <trd lng="si">&#xDB8;&#xDCF;&#xDB0;&#xDCA;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>noviny</trd>,
     <trd>tla&ccaron;</trd>
   </trdgrp>
+  <trd lng="sl">pritisnite</trd>
+  <trd lng="sm">nusipepa</trd>
+  <trd lng="sn">dzvanya</trd>
+  <trd lng="so">-saxaafadeed</trd>
   <trd lng="sq">shtypi</trd>
   <trd lng="st">tobetsa</trd>
+  <trd lng="su">pers</trd>
+  <trd lng="sw">vyombo vya habari</trd>
   <trd lng="ta">&#xB9A;&#xBC6;&#xBAF;&#xBCD;&#xBA4;&#xBBF;</trd>
   <trd lng="te">&#xC2A;&#xC24;&#xC4D;&#xC30;&#xC3F;&#xC15;&#xC3E;</trd>
-  <trd lng="th">&#xE01;&#xE14;</trd>
+  <trd lng="tg">&c_m;&c_a;&c_t;&c_b;&c_u;&c_o;&c_t;</trd>
+  
   <trd lng="tl">pindutin ang</trd>
   <trd lng="tr">bas&inodot;n</trd>
-  <trd lng="ur">&#x67E;&#x631;&#x6CC;&#x633;</trd>
-  <trd lng="vi">b&#xE1;o ch&#xED;</trd>
-  <trd lng="yi">&#x5D3;&#x5E8;&#x5D9;&#x5E7;&#x5DF;</trd>
+  <trd lng="tt">&c_b;&c_a;&c_s;&c_y;&c_g;&c_y;&c_z;</trd>
+  <trd lng="uk">&c_n;&c_a;&c_t;&c_i;&c_s;&c_n;&c_ib;&c_t;&c_mol;</trd>
+  <trd lng="ur">&f_p;&a_r;&f_y;&a_s;</trd>
+  <trd lng="uz">matbuot</trd>
+  <trd lng="vi">b&aacute;o ch&iacute;</trd>
+  <trd lng="xh">cinezela</trd>
+  <trd lng="yi">&dalet;&resh;&yod;&qof;&fnun;</trd>
+  <trd lng="yo">t&#x1EB9;</trd>
   <trd lng="zu">cindezela</trd>
 </drv>
 
@@ -240,7 +285,7 @@
      </ekz>
      <ekz>
         komentis kun beda&ubreve;ro <tld/>isto en unu el la
-        noblaj &#x2010; kaj sendependaj &#x2010;
+        noblaj &#8208; kaj sendependaj &#8208;
         diman&ccirc;o-&jcirc;urnaloj:
         britoj estas <ctl>kondamnitaj sen&ccirc;ese partoprenadi
           karikaturan version de la dua mondomilito</ctl>
@@ -291,6 +336,10 @@
   </trdgrp>
   <trd lng="sk">novin&aacute;r</trd>
   <trd lng="tr">gazeteci</trd>
+  <trdgrp lng="uk">
+    <trd>&c_zh;&c_u;&c_r;&#x43D;&c_a;&#x43B;&c_ib;&c_s;&c_t;</trd>,
+    <trd>&c_g;&c_a;&c_z;&c_je;&c_t;&#x44F;&c_r;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gazet.0istaro">
@@ -333,10 +382,16 @@
      </ekz>
    </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_u;&c_l;&c_mol;&c_v;&c_a;&c_r;&c_n;&c_a;&c_ja; <ind>&c_g;&c_a;&c_z;&c_e;&c_t;&c_a;</ind></trd>,
+    <trd>&c_t;&c_a;&c_b;&c_l;&c_jo;&c_ib;&c_d;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>journal &agrave; scandale</trd>,
     <trd>tablo&iuml;de</trd>
   </trdgrp>
+<trd
+lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&#xE0B;&#xE34;&#xE1A;</trd>
 </drv>
 
 <drv mrk="gazet.mod0o">
@@ -358,6 +413,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_m;&c_o;&c_d;&c_n;&c_y; &c_ch;&c_a;&c_s;&c_o;&c_p;&c_ib;&c_s;</trd>
   <trd lng="fr">magazine de mode</trd>
 </drv>
 
@@ -380,6 +436,7 @@
      </ekz>
    </dif>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_s;&c_mol;&c_c;&c_je;&c_n;&c_g;&c_a;&c_z;&c_e;&c_t;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>n&aacute;st&ecaron;nka</trd>,
     <trd>n&aacute;st&ecaron;nn&eacute; noviny</trd>
@@ -388,6 +445,7 @@
   &a_d;&f_y;&a_w;&a_A;&a_r;&f_y;</trd>
   <trd lng="fr">journal mural</trd>
   <trd lng="sk">n&aacute;stenn&eacute; noviny</trd>
+  <trd lng="uk">&c_s;&c_t;&c_ib;&#x43D;&c_g;&c_a;&c_z;&c_je;&c_t;&c_a;</trd>
 </drv>
 
 <drv mrk="gazet.tag0o">
@@ -411,13 +469,15 @@
         <fnt>
           <aut>Lord Byron, trad. W. Auld</aut>,
           <vrk>El la I-a kanto de &#xAB;Don Johano&#xBB;</vrk>,
-          <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5702/johanou.                      html">
+          <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5702/johanou.    
+                           html">
               Norda Prismo, 57:2</url></lok>
        </fnt>.
      </ekz>
    </dif>
  </snc>
   <ref tip="sin" cel="jxurna.0o">&jcirc;urnalo</ref>
+  <trd lng="be">&c_sh;&c_t;&c_o;&c_d;&c_z;&c_jo;&c_n;&c_n;&c_a;&c_ja; &c_g;&c_a;&c_z;&c_e;&c_t;&c_a;</trd>
   <trd lng="de">Tageszeitung</trd>
   <trd lng="fa">&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;</trd>
   <trd lng="fr">quotidien<klr tip="amb"> (presse)</klr></trd>
@@ -426,6 +486,8 @@
   <trd lng="pt">jornal</trd>
   <trd lng="ru">&c_g;&c_a;&c_z;&c_je;&c_t;&c_a;<klr>
       (&c_je;&c_zh;&c_je;&c_d;&c_n;&c_je;&c_v;&c_n;&c_a;&c_ja;)</klr></trd>
+<trd
+lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE23;&#xE32;&#xE22;&#xE27;&#xE31;&#xE19;</trd>
 </drv>
 
 <drv mrk="gazet.viva0o">
@@ -436,6 +498,7 @@
       Improviza teatro, sceniganta aktuala&jcirc;ojn, plej ofte satire.
    </dif>
   </snc>
+  <trd lng="be">&c_zh;&c_y;&c_v;&c_a;&c_ja; <ind>&c_g;&c_a;&c_z;&c_e;&c_t;&c_a;</ind></trd>
   <trd lng="es"><ind>revista</ind> teatral</trd>
   <trd lng="fa">&a_w;&a_A;&a_r;&f_y;&a_t;&a_h;<klr tip="amb">
   (&a_n;&a_m;&a_A;&f_y;&a_sh;)</klr></trd>
@@ -444,6 +507,15 @@
 </art>
 <!--
 $Log$
+versio 1.116 2022/06/08 08:39:33
+Dmitri Gabinski: + trd be
+
+versio 1.115 2022/04/30 08:42:40
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.112 2021/12/05 15:41:14
+Warut Bunprasert: +trd th
+
 Revision 1.37  2016/11/19 12:10:13  revo
 Darcy Shen: + trd zh
 
@@ -457,11 +529,5 @@ Revision 1.34  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.33  2014/11/19 15:10:20  revo
-Damien Brucker: -tajperaro
-
-Revision 1.32  2014/06/02 15:10:27  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.31  2014/02/20 02:10:13  revo
 -->
  </vortaro>

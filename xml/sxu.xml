@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxu.xml,v 1.88 2021/06/18 04:36:01 revo Exp $">
+<art mrk="$Id: sxu.xml,v 1.128 2022/05/05 14:43:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;u</rad>/o
@@ -15,23 +15,73 @@
       <ref tip="lst" lst="voko:vesta&jcirc;oj" cel="vest.pied0o">Piedvesto</ref> kun solida
       plandumo, ta&ubreve;ga por uzo eksterhejma:
       <ekz>
+        paro da <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Amos 2:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la botisto faras <ref tip="vid" cel="bot.0o">boto</ref>jn kaj <tld/>ojn
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 37</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        deprenu viajn <tld/>ojn de viaj piedoj, &ccirc;ar la loko <klr>[&#x2026;]</klr> estas tero
+        sankta
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 3:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la akvo fluis de &scirc;iaj haroj kaj vestoj, kaj ver&scirc;i&gcirc;is en &scirc;iajn <tld/>ojn kaj elen
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Re&gcirc;idino sur pizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ordigis siajn <ref tip="sub" cel="pantof.0o">pantoflo</ref>jn, &ccirc;ar tio estis <tld/>oj, kiujn li estis
+        tretplatiginta
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tisto de porkoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <ind>&ccirc;e botisto la <tld/>o estas &ccirc;iam kun truo</ind>
         <trd lng="fr">c'est le cordonnier le plus mal
         chauss&ecirc;</trd>
         <fnt><bib>PrV</bib></fnt>;
+        <trd lng="de">der Schuster tr&auml;gt die schlechtesten Schuhe</trd>
+      </ekz>
+      <ekz>
+        &scirc;i havis sur si belegajn ru&gcirc;ajn marokenajn <tld/>ojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        klakbruo de <ind>klak<tld/>o</ind>j 
+        <klr>(ligna <ref tip="sub" cel="sandal.0o">sandalo</ref>)</klr>
+        sur asfalto
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>Pafiloj kaj kas-kalkuliloj</vrk>
+        </fnt>;
+        <trd lng="de">Klapperlatsche</trd>
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
         <ind>esti sub la <tld/>o de</ind> sia edzino
         <trd lng="fr">&ecirc;tre &agrave; la botte de</trd>
         <klr>(humile kaj sklave obei)</klr>
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        <ind>trovi &gcirc;ustmezuran <tld/>on</ind>
-        <klr>(trovi ion a&ubreve; iun konforman al siaj deziroj)</klr>
-        <trd lng="fr">trouver chaussure &agrave; son pied</trd>.
+        <fnt><bib>PrV</bib></fnt>.
+        <trd lng="de">unter dem <ind>Pantoffel</ind> stehen</trd>
       </ekz>
     </dif>
   </snc>
@@ -41,7 +91,7 @@
   &a_j;
   &a_A_hamza_sure;&a_fatha;&a_H;&a_sukun;&a_dh;&a_kasra_y;&a_fatha;&a_t_marbuta;&a_dammatan;
 </trd>
-  <trd lng="az">ayaqqab&#x131;</trd>
+  <trd lng="az">ayaqqab&inodot;</trd>
   <trdgrp lng="be">
     <trd>&c_ch;&c_a;&c_r;&c_a;&c_v;&c_ib;&c_k;</trd>,
     <trd>&c_t;&c_u;&c_f;&c_je;&c_l;&c_mol;</trd>,
@@ -49,7 +99,7 @@
   </trdgrp>
   <trd lng="bg">&c_o;&c_b;&c_u;&c_v;&c_k;&c_a;</trd>
   <trd lng="bn">&#x99C;&#x9C1;&#x9A4;&#x9CB;</trd>
-  <trd lng="bo">&#xF63;&#xFB7;&#xF58;&#xF0B;</trd>
+  <trd lng="bo">&t_la;&t_hata;&t_ma;&t_tsheg;</trd>
   <trd lng="bs">cipela</trd>
   <trd lng="ca">sabata</trd>
   <trd lng="co">scarpa</trd>
@@ -58,6 +108,7 @@
     <trd>st&rcaron;ev&iacute;c</trd>,
     <trd>polobotka</trd>
   </trdgrp>
+  <trd lng="cy">esgid</trd>
   <trd lng="da">sko</trd>
   <trd lng="de">Schuh</trd>
   <trd lng="el">
@@ -71,24 +122,42 @@
     <trd>chaussure</trd>
   </trdgrp>
   <trd lng="fy">shoe</trd>
+  <trd lng="ga">br&oacute;g</trd>
+  <trd lng="gd">br&ograve;g</trd>
   <trd lng="gl">zapatos</trd>
   <trd lng="gu">&#xA9C;&#xAC2;&#xAA4;&#xABE;</trd>
   <trd lng="he">&nun;&ayin;&lamed;</trd>
   <trd lng="hi">&#x91C;&#x942;&#x924;&#x93E;</trd>
+  <trd lng="hmn">khau</trd>
   <trd lng="hr">cipela</trd>
+  <trd lng="ht">soulye</trd>
   <trd lng="hu">cip&odblac;</trd>
   <trd lng="hy">&#x57A;&#x561;&#x575;&#x57F;</trd>
   <trd lng="id">sepatu</trd>
-  <trd lng="is">sk&#xF3;r</trd>
+  <trd lng="ig">akp&#x1EE5;kp&#x1ECD; &#x1EE5;kw&#x1EE5;</trd>
+  <trd lng="is">sk&oacute;r</trd>
   <trd lng="it">scarpa</trd>
   <trd lng="ja">&#x9774;</trd>
-  <trd lng="jw">spatu</trd>
+  <trd lng="jv">spatu</trd>
   <trd lng="ka">&#x10E4;&#x10D4;&#x10EE;&#x10E1;&#x10D0;&#x10EA;&#x10DB;&#x10DA;&#x10D8;&#x10E1;</trd>
+  <trd lng="kk">&c_t;&c_u;&c_f;&c_l;&c_i;</trd>
   <trd lng="km">&#x179F;&#x17D2;&#x1794;&#x17C2;&#x1780;&#x1787;&#x17BE;&#x1784;</trd>
+  <trd lng="kn">&#xCB6;&#xCC2;</trd>
   <trd lng="ko">&#xC2E0;&#xBC1C;</trd>
+  <trd lng="ku">p&ecirc;lav</trd>
+  <trd lng="ky">&c_b;&c_u;&c_t; &c_k;&c_i;&c_j;&c_i;&c_m;</trd>
+  <trd lng="lat">calceum</trd>
   <trd lng="lo">&#xE99;&#xEB2;&#xEA1;</trd>
+  <trd lng="lt">bat&#x173;</trd>
+  <trd lng="lv">apavu</trd>
+  <trd lng="mg">kiraro</trd>
+  <trd lng="mi">hu</trd>
+  <trd lng="mk">&c_ch;&c_je;&c_v;&c_l;&c_i;</trd>
   <trd lng="ml">&#xD1A;&#xD46;&#xD30;&#xD41;&#xD2A;&#xD4D;&#xD2A;&#xD4D;</trd>
+  <trd lng="mn">&c_g;&c_u;&c_t;&c_a;&c_l;</trd>
   <trd lng="mr">&#x91C;&#x94B;&#x921;&#x93E;</trd>
+  <trd lng="ms">kasut</trd>
+  <trd lng="mt">&zdot;arbun</trd>
   <trd lng="my">&#x1016;&#x102D;&#x1014;&#x1015;&#x103A;</trd>
   <trd lng="ne">&#x91C;&#x942;&#x924;&#x93E;</trd>
   <trd lng="nl">schoen</trd>
@@ -100,40 +169,60 @@
     <trd>p&oacute;&lstroke;but</trd>,
     <trd>trzewik</trd>
   </trdgrp>
-  <trd lng="ps">&#x628;&#x648;&#x67C;</trd>
+  <trd lng="ps">&a_b;&a_w;&#x67C;</trd>
   <trd lng="pt">sapato</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_o;&c_t;&c_i;&c_n;&c_o;&c_k;</trd>,
     <trd>&c_b;&c_a;&c_sh;&c_m;&c_a;&c_k;</trd>,
     <trd>&c_t;&c_u;&c_f;&c_l;&c_ja;</trd>
   </trdgrp>
-  <trd lng="sd">&#x628;&#x648;&#x67D;&#x646;</trd>
+  <trd lng="rw">inkweto</trd>
+  <trd lng="sd">&a_b;&a_w;&#x67D;&a_n;</trd>
   <trd lng="si">&#xDC3;&#xDB4;&#xDAD;&#xDCA;&#xDAD;&#xDD4;</trd>
-  <trd lng="sq">k&#xEB;puc&#xEB;ve</trd>
+  <trd lng="sl">&ccaron;evelj</trd>
+  <trd lng="sm">se&#x2BB;evae</trd>
+  <trd lng="sn">shangu</trd>
+  <trd lng="so">kabaha</trd>
+  <trd lng="sq">k&euml;puc&euml;ve</trd>
+  <trd lng="st">boots</trd>
+  <trd lng="su">sapatu</trd>
   <trd lng="sv">sko</trd>
+  <trd lng="sw">kiatu</trd>
   <trd lng="ta">&#xB95;&#xBBE;&#xBB2;&#xBA3;&#xBBF;</trd>
   <trd lng="te">&#xC37;&#xC42;</trd>
+  <trd lng="tg">&c_k;&c_a;&c_f;&c_sh;</trd>
   <trd lng="th">&#xE23;&#xE2D;&#xE07;&#xE40;&#xE17;&#xE49;&#xE32;</trd>
   <trd lng="tl">sapatos</trd>
   <trd lng="tr">ayakkab&inodot;</trd>
-  <trd lng="ur">&#x62C;&#x648;&#x62A;&#x627;</trd>
-  <trd lng="vi">gi&#xE0;y</trd>
+  <trd lng="tt">&c_a;&c_ja;&c_k; &c_k;&c_i;&c_je;&c_m;&c_je;</trd>
+  <trd lng="uk">&c_v;&c_z;&c_u;&c_t;&c_t;&c_ja;</trd>
+  <trd lng="ur">&a_j;&a_w;&a_t;&a_A;</trd>
+  <trd lng="uz">tufli</trd>
+  <trd lng="vi">gi&agrave;y</trd>
   <trd lng="vo">juk</trd>
-  <trd lng="yi">&#x5E9;&#x5D5;&#x5DA;</trd>
+  <trd lng="xh">isihlangu</trd>
+  <trd lng="yi">&shin;&vav;&fkaf;</trd>
+  <trd lng="yo">bata</trd>
   <trd lng="zh">&#x978B;<klr> [xi&eacute;]</klr></trd>
   <trd lng="zu">izicathulo</trd>
 </drv>
 
 <drv mrk="sxu.danc0o">
-  <kap>danc<tld/>o</kap>
+  <kap>danc<tld/>o, <var><kap>bal<tld/>o</kap></var></kap>
   <snc mrk="sxu.danc0o.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
       <ref tip="super" cel="sxu.0o.TEKS"><tld lit="&Scirc;"/>o</ref>
-      speciale farita por danco:
+      speciale farita por dancado:
       <ekz>
-        &leftquot;vidu, kiaj belegaj danc<tld/>oj!&rightquot;
-        <fnt><bib>Fab2</bib>, <lok>ru&gcirc;aj &scirc;uoj</lok></fnt>.
+        vidu, kiaj belegaj danc<tld/>oj!
+        <fnt><bib>Fab2</bib>, <lok>ru&gcirc;aj &scirc;uoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi do estas pli deca en bal<tld/>oj?
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -160,6 +249,10 @@
     <trd>baletki<klr> (buty do baletu)</klr></trd>
   </trdgrp>
   <trd lng="tr">dans ayakkab&inodot;s&inodot;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x431;&#x430;&#x43B;&#x44C;&#x43D;&#x435; &#x432;&#x437;&#x443;&#x442;&#x442;&#x44F;</trd>,
+    <trd>&#x431;&#x430;&#x43B;&#x44C;&#x43D;&#x456; &#x442;&#x443;&#x444;&#x43B;&#x456;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxu.glit0o">
@@ -168,8 +261,27 @@
     <uzo tip="fak">SPO</uzo>
     <dif>
       &Scirc;uo a&ubreve; fiksebla plandumo kun suba lameno por glitado
-      sur glacio.
+      sur glacio:
+      <ekz>
+        infanoj <klr>[&#x2026;]</klr> &scirc;ajne neniam laci&gcirc;is gliti <klr>[&#x2026;]</klr> sur siaj
+        neakrigitaj glitum<tld/>oj
+        <fnt>
+          <bib>HsT</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi, kiel &scirc;atanto, spertos plezuron gliti kvaza&ubreve; sur grandega glit<tld/>o
+        <fnt>
+          <vrk><url ref="https://www.rulit.me/books/kuranta-sur-ondoj-read-292384-9.html">Kuranta sur ondoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld lok="&WCU;/thumb/3/33/Figure-skates-1.jpg/360px-Figure-skates-1.jpg" prm="PD">glit<tld/>oj
+        <fnt>
+          <aut>en:User:Dr.frog, en:Image:Figure-skates-1.jpg</aut>
+          <lok><url ref="&WCW;/File:Figure-skates-1.jpg">&WCW;/File:Figure-skates-1.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_n;&c_jo;&c_k;</trd>
   <trd lng="ca">pat&iacute; <klr>(de gel)</klr></trd>
@@ -191,7 +303,37 @@
   <trd lng="pt">patim</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_jo;&c_k;</trd>
   <trd lng="sv">skridsko</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43A;&#x43E;&#x432;&#x437;&#x430;&#x43D;&#x44F;&#x440;&#x441;&#x44C;&#x43A;&#x438;&#x439; &#x447;&#x435;&#x440;&#x435;&#x432;&#x438;&#x43A;</trd>,
+    <trd>&#x43B;&#x438;&#x436;&#x43D;&#x438;&#x439; &#x447;&#x435;&#x440;&#x435;&#x432;&#x438;&#x43A;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="sxu.labor0o">
+  <kap>
+    labor<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Tre firma <tld/>o por protekti la piedon kontra&ubreve; falantaj peza&jcirc;oj ks:
+      <ekz>
+        iliaj laborvestoj kaj labor<tld/>oj en la kuirejo malbonodoris
+        <fnt>
+          <bib>ViV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li jam pentis, ke li ne prenis paron da malpli delikataj, sed pli fortikaj
+        labor<tld/>oj
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Arbeitsschuh</trd>
+</drv>
+
 
 <drv mrk="sxu.ligno0o">
   <kap>ligno<tld/>o, <var><kap>ligna <tld/>o</kap></var></kap>
@@ -199,8 +341,21 @@
     <uzo tip="fak">TEKS</uzo>
     <dif>
       <ref tip="super" cel="sxu.0o.TEKS"><tld lit="&Scirc;"/>o</ref>
-      farita tute
-      el ligno:
+      farita tute el ligno:
+      <ekz>
+        li <klr>[&#x2026;]</klr> disbatis la glacion per sia ligna <tld/>o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ligna <tld/>o forna&gcirc;is, en la akvo estis sufi&ccirc;e rimarkebla fluado
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sterkskarabo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         li estis lerta ligno<tld/>isto
         <fnt><bib>Fab3</bib>, <lok>Ib kaj malgranda
@@ -242,61 +397,114 @@
     <trd>mokasyny</trd>
   </trdgrp>
   <trd lng="tr">takunya</trd>
+  <trd lng="uk">&#x432;&#x437;&#x443;&#x442;&#x442;&#x44F; &#x43D;&#x430; &#x434;&#x435;&#x440;&#x435;&#x432;&#x2019;&#x44F;&#x43D;&#x456;&#x439; &#x43F;&#x456;&#x434;&#x43E;&#x448;&#x432;&#x456;</trd>
 </drv>
+
+<drv mrk="sxu.monto0o">
+  <kap>
+    monto<tld/>o
+  </kap>
+  <snc>
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Tre firma kaj alta <tld/>o por protekti la piedon en montaro de &scirc;tonoj, akvo ktp:
+      <ekz>
+        e&ccirc; kun la monto<tld/>oj &scirc;i sukcesas beli, <nom>Bob</nom> pensis, dum li pa&scirc;is malanta&ubreve;
+        <nom>Veronika</nom> la&ubreve; kruta arbara vojeto
+        <fnt>
+          <bib>ChV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Bergschuh</trd>
+</drv>
+
 
 <drv mrk="sxu.negx0o">
   <kap>ne&gcirc;<tld/>o</kap>
   <snc mrk="sxu.negx0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-    Rakedforma ilo por promeni sur ne&gcirc;o.
+      Rakedforma ilo por promeni sur ne&gcirc;o:
+      <ekz>
+        vestita en longa trikita jaketo kaj &scirc;alo kaj malnovaj, duon&ccirc;ifonaj ne&gcirc;<tld/>oj
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>.
+      </ekz>
     </dif>
-  <trd lng="en">snowshoe</trd>
-  <trd lng="es">raqueta de nieve</trd>
-   <trdgrp lng="it">
-    <trd>ciaspola</trd>,
-    <trd><ind>racchetta</ind> da neve</trd>
-  </trdgrp>
+    <bld lok="&WCU;/thumb/3/34/Raquettes_&agrave;_neige_-_20150802_13h01_(10683).jpg/180px-Raquettes_&agrave;_neige_-_20150802_13h01_(10683).jpg" prm="CC BY-SA 4.0">tradiciaj ne&gcirc;<tld/>oj
+        <fnt>
+          <aut>&#xA9; William Crochot, propra verko</aut>
+          <lok><url ref="&WCW;/File:Raquettes_%C3%A0_neige_-_20150802_13h01_(10683).jpg">&WCW;/File:Raquettes_&agrave;_neige_-_20150802_13h01_(10683).jpg</url></lok>
+        </fnt>
+    </bld>
+    <trd lng="en">snowshoe</trd>
+    <trd lng="es">raqueta de nieve</trd>
+    <trdgrp lng="it">
+      <trd>ciaspola</trd>,
+      <trd><ind>racchetta</ind> da neve</trd>
+    </trdgrp>
     </snc>
   <trd lng="cs">sn&ecaron;&zcaron;nice</trd>
+  <trd lng="de">Schneeschuh</trd>
   <trd lng="tr">kar ayakkab&inodot;s&inodot;</trd>
 </drv>
-    
-<drv mrk="sxu.rad0o">
-  <kap>rad<tld/>o</kap>
-  <snc mrk="sxu.rad0o.rulsxuo">
+
+<drv mrk="sxu.sport0o">
+  <kap>
+    sport<tld/>o, <var><kap>kur<tld/>o</kap></var>
+  </kap>
+  <snc>
     <uzo tip="fak">SPO</uzo>
-    <ref tip="dif" cel="sxu.rul0o.SPO">rul<tld/>o</ref>
+    <dif>
+      Malpeza <tld/>o faciliganta kuradon, saltadon ktp:
+      <ekz>
+        <klr>[li]</klr> surhavis buntan &ccirc;emizon, &ccirc;ifitan blankan pantalonon kaj nigrajn
+        sporto<tld/>ojn
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li vestas sin kiel junulo, per lana &ccirc;apo, T-&ccirc;emizo, sakforma pantalono kaj
+        kanvasaj sport<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2009/009680.php">Proksimaj kaj malproksimaj najbaroj</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;atata vesta&jcirc;o: kurvesto kaj kur<tld/>oj
+        <fnt>
+          <bib>Kon11</bib>
+          <vrk>Mark Fettes &ndash; Enami&gcirc;inta al UEA</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="be">&c_r;&c_o;&c_l;&c_ib;&c_k;&c_a;&c_v;&c_y;
-  &c_k;&c_a;&c_n;&c_jo;&c_k;</trd>
-  <trd lng="ca">pat&iacute; <klr>(de rodes)</klr></trd>
-  <trd lng="cs">kole&ccaron;kov&aacute; brusle</trd>
-  <trd lng="de">Rollschuh</trd>
-  <trd lng="en">roller skate</trd>
-  <trd lng="es">pat&iacute;n <klr>(de ruedas)</klr></trd>
- <trdgrp lng="fr">
-    <trd>patin &agrave; roulettes</trd>,
-    <trd>roller</trd>
-  </trdgrp>
-  <trd lng="he">&#x2137;&lamed;&#x2137;&yod;&lamed;&yod;&tav;</trd>
-  <trd lng="hu">g&ouml;rkorcsolya</trd>
-  <trd lng="id"><ind>sepatu</ind> roda</trd>
-  <trd lng="it">pattino<klr> a rotelle</klr></trd>
-  <trd lng="nl">rolschaats</trd>
-  <trd lng="pl">wrotka<klr> z butem</klr></trd>
-  <trd lng="ru">&c_r;&c_o;&c_l;&c_i;&c_k;&c_o;&c_v;&c_y;&c_j;
-  &c_k;&c_o;&c_n;&c_jo;&c_k;</trd>
-  <trd lng="sv">rullskridsko</trd>
+  <trd lng="de">Sportschuh</trd>
 </drv>
 
+    
 <drv mrk="sxu.rul0o">
-  <kap>rul<tld/>o</kap>
+  <kap>rul<tld/>o, <var><kap>rad<tld/>o</kap></var></kap>
   <snc mrk="sxu.rul0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
       &Scirc;uo a&ubreve; fiksebla plandumo kun radetoj, por glitado sur
       glata grundo:
+      <ekz>
+        la laboristoj <klr>[&#x2026;]</klr> luprenas rul<tld/>ojn, por pli bone malstre&ccirc;i&gcirc;i sur
+        la &ccirc;efplaco
+        <fnt>
+          <bib>MD11</bib>
+          <vrk>La fabriko-urboj de Foxconn</vrk>
+        </fnt>;
+      </ekz>
       <ekz>
         uzo de rultabuloj, skutiloj kaj rul<tld/>oj estas malpermesata
         en la &gcirc;ardenaro
@@ -311,6 +519,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <bld lok="&WCU;/thumb/5/5d/Roller-skate.jpg/320px-Roller-skate.jpg" prm="CC-BY-SA-3.0">rul<tld/>oj
+        <fnt>
+          <lok><url ref="&WCW;/File:Roller-skate.jpg">&WCW;/File:Roller-skate.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_r;&c_o;&c_l;&c_ib;&c_k;&c_a;&c_v;&c_y;
   &c_k;&c_a;&c_n;&c_jo;&c_k;</trd>
@@ -332,6 +545,11 @@
   <trd lng="ru">&c_r;&c_o;&c_l;&c_i;&c_k;&c_o;&c_v;&c_y;&c_j;
   &c_k;&c_o;&c_n;&c_jo;&c_k;</trd>
   <trd lng="sv">rullskridsko</trd>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x43E;&#x43B;&#x438;&#x43A;&#x43E;&#x432;&#x435; &#x432;&#x437;&#x443;&#x442;&#x442;&#x44F;</trd>,
+    <trd>&#x432;&#x437;&#x443;&#x442;&#x442;&#x44F; &#x43D;&#x430; &#x440;&#x43E;&#x43B;&#x438;&#x43A;&#x430;&#x445;</trd>,
+    <trd>&#x440;&#x43E;&#x43B;&#x438;&#x43A;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxu.tol0o">
@@ -343,15 +561,23 @@
       tute
       a&ubreve; grandparte el tolo:
       <ekz>
-        La viroj kun falditaj pantalonoj, &ccirc;emizoj de konataj
-        markoj,
-        <klr>...</klr> tol<tld/>oj anka&ubreve; de konataj markoj
+        la viroj kun falditaj pantalonoj, &ccirc;emizoj de konataj
+        markoj,  <klr>[&#x2026;]</klr> tol<tld/>oj anka&ubreve; de konataj markoj
         <fnt>
         <aut>-</aut>,
         <vrk>
 <url ref="http://www.vilaweb.com/www/especials/cronica?p_idcmp=570421">
 Mogao-grotoj</url></vrk>,
         <lok>vilaweb, [vidita je 2006-01-31]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili portas bazopilkajn &ccirc;apojn kaj blankajn palmopied-similajn tol<tld/>ojn: kiel
+        sencerbaj anasoj ili aspektas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="&Steloj;monato2/007076.html">Ho, tempoj! Ho, moroj!</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -392,10 +618,20 @@ Mogao-grotoj</url></vrk>,
   </trdgrp>
   </snc>
   <trd lng="cs">pl&aacute;t&ecaron;nka</trd>
+<trd lng="de">Stoffschuh</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.128 2022/05/05 14:43:49
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.123 2021/10/05 19:21:53
+Wolfram Diestel: +monto~o, sport~o; ekz-oj, bld-oj, trd de
+
+versio 1.122 2021/10/05 06:33:06
+Wolfram Diestel: ~o: +ekz-oj
+
 versio 1.47 2020/07/19 13:10:31
 Wolfram Diestel: lst vestajhoj
 
@@ -409,14 +645,5 @@ Revision 1.43  2016/01/02 11:10:16  revo
 Bora Can Asli: +trd tr
 
 Revision 1.42  2015/05/25 02:10:17  revo
-Erik Pedersen: aldonis anglaj egalvaloraj vortoj
-
-Revision 1.41  2015/04/11 23:10:14  revo
-Carlos Garcia: +tre es ligno- negxo
-
-Revision 1.40  2014/05/30 09:10:25  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.39  2013/10/24 01:10:15  revo
 -->
 </vortaro>

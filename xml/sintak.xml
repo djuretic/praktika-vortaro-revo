@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: sintak.xml,v 1.23 2020/12/06 18:38:36 revo Exp $">
+<art mrk="$Id: sintak.xml,v 1.26 2022/05/05 05:09:56 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>sintaks</rad>/o
@@ -18,13 +17,12 @@
       tio estas al la ordo, klasoj, rilataj funkcioj de vortoj kaj
       vortgrupoj en frazoj:
       <ekz>
-        oni instruas lingvistikon kutime <klr>[&#8230;]</klr> la&ubreve; specifaj fakoj (fonetiko,
+        oni instruas lingvistikon kutime <klr>[&#x2026;]</klr> la&ubreve; specifaj fakoj (fonetiko,
         morfologio, <tld/>o)
         <fnt>
           <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
-          <vrk><url ref="https://www.monato.be/2005/008471.php"
-              >Utila po&scirc;vortaro pri lingvistiko</url></vrk>
+          <vrk><url ref="&Monato;/2005/008471.php">Utila po&scirc;vortaro pri lingvistiko</url></vrk>
           <lok>2005</lok>
         </fnt>;
       </ekz>
@@ -41,13 +39,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Christian Declerck</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006843.html"
-              >Kiun vojon?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006843.html">Kiun vojon?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="semant.0o">semantiko</ref>
-    <trd lng="be">&c_s;&c_ib;&c_n;&c_t;&c_a;&c_k;&c_s;&c_ib;&c_s;</trd>
+    <trd lng="be">&c_s;&c_y;&c_n;&c_t;&c_a;&c_k;&c_s;&c_y;&c_s;</trd>
     <trd lng="pl">sk&lstroke;adnia</trd>
     <trd lng="pt">sintaxe</trd>
   </snc>
@@ -55,9 +52,12 @@
     <dif>
       Lernolibro instruanta tiun parton de la gramatiko.
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_y;&c_n;&c_t;&c_a;&c_k;&c_s;&c_y;&c_s;</trd>,
+      <trd>&c_s;&c_y;&c_n;&c_t;&c_a;&c_k;&c_s;&c_y;&c_ch;&c_n;&c_y; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_zh;&c_n;&c_ib;&c_k;</trd>
+    </trdgrp>
     <trd lng="pt">livro de <ind>sintaxe</ind></trd>
   </snc>
-  <trd lng="be">&c_s;&c_ib;&c_n;&c_t;&c_a;&c_k;&c_s;&c_ib;&c_s;</trd>
   <trd lng="ca">sintaxi</trd>
   <trdgrp lng="cs">
     <trd>skladba</trd>,
@@ -81,6 +81,7 @@
     <trd>vetn&aacute; skladba</trd>,
     <trd>vetoslovie</trd>
   </trdgrp>
+  <trd lng="uk">&#x441;&#x438;&#x43D;&#x442;&#x430;&#x43A;&#x441;&#x438;&#x441;</trd>
 </drv>
 
 <drv mrk="sintak.0a">
@@ -97,19 +98,17 @@
           <lok>jaro 2002a, numero 2a, p. 26a</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>aj malsimilecoj inter <klr>[&#8230;]</klr> du lingvoj
+        <tld/>aj malsimilecoj inter <klr>[&#x2026;]</klr> du lingvoj
         <fnt>
           <bib>Monato</bib>
           <aut>H&egrave;ctor Al&ograve;s i Font</aut>
-          <vrk><url ref="https://www.monato.be/2013/011015.php"
-              >La turka: pli granda, pli diversa familio</url></vrk>
+          <vrk><url ref="&Monato;/2013/011015.php">La turka: pli granda, pli diversa familio</url></vrk>
           <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">
-      &c_s;&c_ib;&c_n;&c_t;&c_a;&c_k;&c_s;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="be">&c_s;&c_y;&c_n;&c_t;&c_a;&c_k;&c_s;&c_y;&c_ch;&c_n;&c_y;</trd>
   <trd lng="ca">sint&agrave;ctic</trd>
   <trdgrp lng="cs">
     <trd>skladebn&iacute;</trd>,
@@ -134,10 +133,17 @@
 &c_s;&c_i;&c_n;&c_t;&c_a;&c_k;&c_s;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
   </trd>
   <trd lng="sk">syntaktick&yacute;</trd>
+  <trd lng="uk">&#x441;&#x438;&#x43D;&#x442;&#x430;&#x43A;&#x441;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
 </drv>
   </art>
   <!--
   $Log$
+versio 1.26 2022/05/05 05:09:56
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.24 2021/10/15 06:35:35
+Dmitri Gabinski: +trd be
+
 versio 1.23 2020/12/06 18:38:36
 Wolfram Diestel: ekz-oj, ref semantiko
 
@@ -154,11 +160,5 @@ Wolfram Diestel: ekz-oj, ref semantiko
   Paul Peeraerts: +trd nl
 
   Revision 1.17  2009/06/21 16:31:08  revo
-  Behnam Tabatabai: +trd fa
-
-  Revision 1.16  2008/06/11 16:48:25  revo
-  Sebastian Cyprych: +trd pl
-
-  Revision 1.15  2008/06/06 16:30:18  revo
 -->
 </vortaro>

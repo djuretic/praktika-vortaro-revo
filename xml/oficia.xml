@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: oficia.xml,v 1.28 2019/08/25 12:10:28 revo Exp $">
+<art mrk="$Id: oficia.xml,v 1.31 2022/05/01 17:17:00 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>8</ofc>
   <rad>oficial</rad>/a
@@ -45,7 +44,7 @@
       <ekz>
         nur la supre nomitaj tri verkoj publikigitaj en la libro 
         Fundamento de Esperanto, devas esti rigardataj kiel <tld/>aj, 
-        &ccirc;io alia <klr>[&#8230;]</klr> estas nur verkoj privataj
+        &ccirc;io alia <klr>[&#x2026;]</klr> estas nur verkoj privataj
         <fnt>
           <bib>F</bib>
           <lok>Anta&ubreve;parolo</lok>
@@ -94,14 +93,22 @@
   <trd lng="hu">hivatalos</trd>
   <trd lng="it">ufficiale</trd>
   <trd lng="nl">officieel</trd>
-  <trd lng="pl">oficjalny</trd>
+  <trdgrp lng="pl">
+    <trd>oficjalny</trd>,
+    <trd>urz&eogonek;dowy</trd>
+  </trdgrp>
   <trd lng="pt">oficial</trd>
+  <trdgrp lng="ro">
+    <trd>oficial</trd>,
+    <trd>formal</trd>
+  </trdgrp>
   <trd lng="ru">&c_o;&c_f;&c_i;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>ofici&aacute;lne</trd>,
     <trd>&uacute;radn&yacute;</trd>
   </trdgrp>
   <trd lng="sv">officiell</trd>
+  <trd lng="uk">&#x43E;&#x444;&#x456;&#x446;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>
   <trd lng="vo">calik</trd>
 </drv>
 
@@ -130,7 +137,7 @@
       </ekz>
       <ekz>
         kiam nia lingvo estos <tld/>e akceptita de la registaroj de la
-        plej &ccirc;efaj regnoj <klr>[&#8230;]</klr>
+        plej &ccirc;efaj regnoj <klr>[&#x2026;]</klr>
         <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>.
       </ekz>
     </dif>
@@ -138,7 +145,16 @@
   <trd lng="en">officially</trd>
   <trd lng="es">oficialmente</trd>
   <trd lng="fr">officiellement</trd>
+  <trdgrp lng="pl">
+    <trd>oficjalnie</trd>,
+    <trd>urz&eogonek;dowo</trd>
+  </trdgrp>
   <trd lng="pt">oficialmente</trd>
+  <trdgrp lng="ro">
+    <trd>oficial&abreve;</trd>,
+    <trd>formal</trd>
+  </trdgrp>
+  <trd lng="uk">&#x43E;&#x444;&#x456;&#x446;&#x456;&#x439;&#x43D;&#x43E;</trd>
 </drv>
 
 <drv mrk="oficia.0igi">
@@ -161,7 +177,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>MAUL Stefan</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007121.html">Malbona venko</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007121.html">Malbona venko</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -181,7 +197,15 @@
   <trd lng="hu">hivataloss&aacute; tesz</trd>
   <trd lng="it">ufficializzare</trd>
   <trd lng="nl">officieel maken</trd>
+  <trdgrp lng="pl">
+    <trd>ustanawia&cacute;</trd>,
+    <trd>wyznacza&cacute;</trd>
+  </trdgrp>
   <trd lng="pt">oficializar</trd>
+  <trdgrp lng="ro">
+    <trd>stabili</trd>,
+    <trd>desemna</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_z;&c_n;&c_a;&c_t;&c_mol; &c_o;&c_f;&c_i;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_m;</trd>,
     <trd>&c_o;&c_f;&c_i;&c_c;&c_i;&c_a;&c_l;&c_i;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -191,6 +215,7 @@
     <trd>urobi&tcaron; ofici&aacute;lnym</trd>
   </trdgrp>
   <trd lng="sv">g&ouml;ra <ind>officiell</ind></trd>
+  <trd lng="uk">&#x432;&#x438;&#x437;&#x43D;&#x430;&#x432;&#x430;&#x442;&#x438; &#x43E;&#x444;&#x456;&#x446;&#x456;&#x439;&#x43D;&#x438;&#x43C;</trd>
 </drv>
 
 <drv mrk="oficia.0ulo">
@@ -219,20 +244,20 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Michael Gerenrot</aut>
-          <vrk><url ref="https://www.monato.be/2003/008083.html">Tankojn
+          <vrk><url ref="&Monato;/2003/008083.html">Tankojn
            venki eblas; gazetaron venki ne</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        ka&scirc;o de la vero fare de la rusaj <tld/>uloj pri la &leftquot;stirata demokratio&#8221; de <nom>Putin</nom>
+        ka&scirc;o de la vero fare de la rusaj <tld/>uloj pri la &leftquot;stirata demokratio&#x201D; de <nom>Putin</nom>
         <fnt>
           <bib>Monato</bib>
           <aut>Sergej Derevjanny&hcirc;</aut>
-          <vrk><url ref="https://www.monato.be/2004/008512.html">Horora</url></vrk>
+          <vrk><url ref="&Monato;/2004/008512.html">Horora</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        tio gravas <klr>[&#8230;]</klr> por vera impreso pri ni flanke de
+        tio gravas <klr>[&#x2026;]</klr> por vera impreso pri ni flanke de
         <tld/>uloj, flanke de la neesperantista publiko
         <fnt><bib>Jamburg</bib>, <lok>&ccirc;apitro 14a, p. 81a</lok></fnt>.
       </ekz>
@@ -244,12 +269,25 @@
     <trd>officiel<klr tip="amb"> (subst.)</klr></trd>,
     <trd>responsable<klr tip="amb"> (subst.)</klr></trd>
   </trdgrp>
+  <trd lng="pl">autorytet</trd>
+  <trd lng="ro">autoritate</trd>
   <trd lng="sk">&uacute;radn&aacute; osoba</trd>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x431;&#x43E;&#x432;&#x430;/&#x443;&#x440;&#x44F;&#x434;&#x43E;&#x432;&#x430; &#x43E;&#x441;&#x43E;&#x431;&#x430;</trd>,
+    <trd>&#x441;&#x43B;&#x443;&#x436;&#x431;&#x43E;&#x432;&#x435;&#x446;&#x44C;</trd>,
+    <trd>&#x443;&#x440;&#x44F;&#x434;&#x43E;&#x432;&#x435;&#x446;&#x44C;</trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.31 2022/05/01 17:17:00
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.29 2021/12/22 14:29:15
+Vito Redsky: + trd pl + trd ro
+
 Revision 1.27  2019/06/30 18:21:48  revo
 adaptis URL de Monato
 
@@ -266,8 +304,5 @@ Revision 1.23  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.22  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.21  2014/05/08 18:10:59  revo
 -->
 </vortaro>

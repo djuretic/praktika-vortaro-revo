@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: krust.xml,v 1.29 2019/12/27 21:10:16 revo Exp $">
+<art mrk="$Id: krust.xml,v 1.33 2022/05/29 07:29:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>krust</rad>/o <fnt><bib>PV</bib></fnt>
@@ -17,17 +16,70 @@
         <tld/>o de pano, kuko, vundo, kankro, ovo;
       </ekz>
       <ekz>
-        <ind>ter<tld/>o</ind>;
-        <trd lng="ca">escor&ccedil;a terrestre</trd>
+        a&ccirc;a ne&gcirc;o por skiado <klr>[&#8230;]</klr> la <tld/>o ankora&ubreve; ne portas por piediro
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kalka <tld/>o <klr>(lasita de akvo en kaldrono)</klr>;
+        la akvo <klr>[&#8230;]</klr> formigas dikan <tld/>on interne de kaldronoj
+        <fnt>
+          <bib>KrM</bib>
+          <lok>5. Petro Kornojn Tenas, Pa&ubreve;lo Lakton Prenas.</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        ni devas dividi kun ili la lastan pan<tld/>on.
+        la valoj <klr>[&#8230;]</klr> konsistigas grandegan fendon en la marsa <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.be/2010/009989.php"
+              >Voja&gcirc;o unudirekta</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;afa bulfroma&gcirc;o <klr>[&#8230;]</klr> devas iom post iom maturi&gcirc;i <klr>[&#8230;]</klr>, poste
+        oni devas forigi la supran <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2013/011027.php"
+              >Oro blanka</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiom da polvo desolvi&gcirc;as de la kaldron<tld/>o
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 43</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        iuj aviadiloj dronis en maro, &ccirc;ar la pilotoj opiniis, ke ili estas sur la &ccirc;ielo,
+        kiu estas spegulata de la glaci<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alice Liu</aut>
+          <vrk><url ref="https://www.monato.be/2013/011057.php"
+              >Nerezisteble altira poluso</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        nun la supra&jcirc;a <tld/>o estis tratran&ccirc;ita, kaj montri&gcirc;is la kor&scirc;ira vundo
+        interna, ke &scirc;i amis Pa&ubreve;lon ne estis teatre
+        <fnt>
+          <bib>ChC</bib>
+          <lok>5</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="karapa.0o.ZOO">karapaco<sncref/></ref>,
       <ref cel="tavol.0o">tavolo</ref>,
       <ref cel="surfac.0o">surfaco</ref>
     </refgrp>
@@ -50,7 +102,11 @@
     <trd>ztvrdl&yacute; povrch</trd>,
     <trd>&scaron;kraloup</trd>
   </trdgrp>
-  <trd lng="de">Kruste</trd>
+  <trdgrp lng="de">
+    <trd>Kruste</trd>,
+    <trd>Schorf</trd>,
+    <trd>Grind</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>crust<klr> (&gcirc;enerale, kaj p.p. pano)</klr></trd>,
     <trd>casing</trd>,
@@ -92,6 +148,14 @@
     <trd>&c_k;&c_o;&c_r;&c_k;&c_a;</trd>
   </trdgrp>
   <trd lng="sk">m&racute;tve tkanivo</trd>
+  <trdgrp lng="uk">
+    <trd>&c_k;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_k;&c_ib;&c_r;&c_k;&c_a;</trd>,
+    <trd><klr>(&c_h;&c_l;&c_ib;&c_b;&c_a; &c_ib; &c_t;.&c_p;.)</klr> &c_s;&c_k;&c_o;&c_r;&c_i;&c_n;&c_a;</trd>,
+    <trd>&c_s;&c_k;&c_o;&c_r;&c_i;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_sh;&c_k;&c_u;&c_r;&c_i;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_u;&c_p;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="krust.0ulo">
@@ -118,15 +182,23 @@
     <dif>
       Bestoj kovritaj de karapaco
       kaj spirantaj per brankoj, plej ofte vivantaj en akvo,
-      <ref tip="lst" cel="grup.0o.BIO"
-      lst="voko:zoologiaj_grupoj">grupo</ref> de <ref tip="malprt"
+      <ref tip="lst" cel="grup.0o.BIO" lst="voko:zoologiaj_grupoj">grupo</ref> de <ref tip="malprt"
       cel="artik.0uloj">artikuloj</ref>
       (<trd lng="la">Crustacea</trd>), al kiu apartenas i.a. la klaso
       <trd lng="la">Malacostraca</trd>:
       <ekz>
-        <tld/>ulo <klr>...</klr> havas ekstreme kompleksan bu&scirc;on
+        <tld/>ulo <klr>[&#8230;]</klr> havas ekstreme kompleksan bu&scirc;on
         konsistantan de multaj partoj
-        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 13a</lok></fnt>.
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 13a</lok></fnt>;
+      </ekz>      
+      <ekz>
+        a&ubreve;ko <klr>[&#8230;]</klr> nutras sin &ccirc;efe per fi&scirc;oj, <klr>[&#8230;]</klr> anka&ubreve; kelkaj
+        krustuloj kaj marvermoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18811"
+              >A&ubreve;ko</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -148,6 +220,7 @@
   <trd lng="ro">crustacee</trd>
   <trd lng="ru">&c_r;&c_a;&c_k;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;</trd>
   <trd lng="sk">k&ocirc;rovce</trd>
+  <trd lng="uk">&c_r;&c_a;&c_k;&c_o;&c_p;&c_o;&c_d;&c_ib;&c_b;&c_n;&c_ib;</trd>
 </drv>
 
 <drv mrk="krust.en0i">
@@ -168,6 +241,7 @@
   <trd lng="ro">&icirc;ncrusta</trd>
   <trd lng="ru">&c_i;&c_n;&c_k;&c_r;&c_u;&c_s;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">inkrustova&tcaron;</trd>
+  <trd lng="uk">&c_ib;&c_n;&c_k;&c_r;&c_u;&c_s;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="krust.dekpiedaj0uloj">
@@ -175,8 +249,7 @@
   <snc mrk="krust.dekpiedaj0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="lst" cel="ord.0o.BIO"
-      lst="voko:zoologiaj_ordoj">Ordo</ref> de <ref tip="malprt"
+      <ref tip="lst" cel="ord.0o.BIO" lst="voko:zoologiaj_ordoj">Ordo</ref> de <ref tip="malprt"
       cel="krust.0uloj"><tld/>uloj</ref>
       kun dek piedoj (<trd lng="la">Decapoda</trd>).
     </dif>
@@ -196,7 +269,31 @@
   <kap>ter<tld/>o</kap>
   <snc mrk="krust.ter0o.GEOL">
     <uzo tip="fak">GEOL</uzo>
-    <ref tip="dif" cel="sxel.ter0o.GEOL">ter&scirc;elo</ref>
+    <dif>
+      <ref tip="dif" cel="sxel.ter0o.GEOL">Ter&scirc;elo</ref>:
+      <ekz>
+        vulkanoj tipe esti&gcirc;as tie, kie la substanco de la ter<tld/>o estas premata de
+        kontinent-deloki&gcirc;oj en la profundo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007234.html"
+              >Vulkanoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        siluroj <klr>[&#8230;]</klr> kaptas la frekvencojn de rompi&gcirc;onta ter<tld/>o kaj pro
+        tio reagas al la elektro eligata dum tertremo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>HORI Yasuo</aut>
+          <vrk><url ref="https://www.monato.be/2003/008060.html"
+              >Siluroj, &ccirc;u supersti&ccirc;o a&ubreve; scienco?</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="mantel.ter0o">termantelo</ref>
   </snc>
   <trd lng="be">&c_z;&c_ja;&c_m;&c_n;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_a;</trd>
   <trd lng="cs">zemsk&aacute; k&uring;ra</trd>
@@ -212,10 +309,17 @@
   <trd lng="ro">scoar&#539;a terestr&abreve;</trd>
   <trd lng="ru">&c_z;&c_je;&c_m;&c_n;&c_a;&c_ja; &c_k;&c_o;&c_r;&c_a;</trd>
   <trd lng="sk">zemsk&aacute; k&ocirc;ra</trd>
+  <trd lng="uk">&c_z;&c_je;&c_m;&c_n;&c_a; &c_k;&c_o;&c_r;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2022/05/29 07:29:47
+Wolfram Diestel: +trd de, ekz
+
+versio 1.32 2022/05/28 18:34:47
+Wolfram Diestel: ~o, ter~o: +ekz-oj, ref-oj
+
 Revision 1.28  2016/01/03 10:10:21  revo
 Damien Brucker: +trd fr
 
@@ -232,8 +336,5 @@ Revision 1.24  2013/11/02 12:10:26  revo
 Wolfram Diestel: ~ulo
 
 Revision 1.23  2013/08/31 17:10:34  revo
-Wolfram Diestel: 10piedaj ~uloj: referenco al listo zoo ordoj
-
-Revision 1.22  2013/01/15 08:10:11  revo
 -->
 </vortaro>

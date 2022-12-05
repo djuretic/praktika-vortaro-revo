@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: regist.xml,v 1.24 2021/05/28 17:04:26 revo Exp $">
+<art mrk="$Id: regist.xml,v 1.34 2022/07/02 20:28:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>registr</rad>/i <fnt><bib>PV</bib></fnt>
@@ -10,14 +10,65 @@
   <kap><tld/>o</kap>
   <snc mrk="regist.0o.dokumento">
     <dif>
-      Listo, pa&gcirc;o, libro, dosiero... en kiu oni <tld/>as:
+      <ref cel="list.0o.KOMUNE">Listo</ref>, pa&gcirc;o, libro, dosiero... 
+      en kiu oni <tld/>as:
       <ekz>
-        alfabeta
-        <tld/>o de temoj<fnt>Z</fnt>.
+        en la fino de la verko estos presita alfabeta <tld/>o de temoj
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
-    </dif><refgrp tip="vid">
+      <ekz>
+        ili havis apartan genealogian <tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. kroniko 4:33</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi enskribas &ccirc;iujn naskitajn infanojn, post kiam mi baptis ilin <klr>[&#8230;en]</klr>
+        la pre&gcirc;ejan <tld/>on
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;i estas tro granda kalkula problemo, se oni volus kunmeti plenan <tld/>on de
+        liaj bonaj ecoj
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[mi]</klr> iris rekte al la po&scirc;toficejo kaj enrigardis la <tld/>on de urbaj
+        komercaj adresoj
+        <fnt>
+          <bib>KrM</bib>
+          <lok>29. Sorto Flatas, Sorto Batas.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni konas el la <tld/>o la diversajn en- kaj elvenojn
+        <fnt>
+          <bib>CKv</bib>
+          <lok>23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[vi]</klr> ne trovi&gcirc;as en la <tld/>oj de balotintoj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
       <ref cel="etat.0o">etato</ref>,
-      <ref cel="matrik.0o">matrikulo</ref>
+      <ref cel="indeks.0o">indekso</ref>,
+      <ref cel="matrik.0o">matrikulo</ref>,
+      <ref cel="statis.0o.statistikajxo">statistiko<sncref/></ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_r;&c_e;&c_je;&c_s;&c_t;&c_a;&c_r;</trd>,
@@ -33,6 +84,10 @@
       <trd>record</trd>,
       <trd>roll</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>registro</trd>,
+      <trd>cartilla</trd>
+    </trdgrp>
     <trd lng="ru">&c_r;&c_je;&c_je;&c_s;&c_t;&c_r;</trd>
   </snc>
   <snc mrk="regist.0o.MUZ">
@@ -40,15 +95,32 @@
     <dif>
       Absoluta amplekso de vo&ccirc;o a&ubreve; muzikilo
       de plej malalta al plej alta tonoj, kiujn &gcirc;i
-      kapablas sonigi.
+      kapablas sonigi:
+      <ekz>
+        la mezaj <tld/>oj estas baritono &ccirc;e viroj kaj mezosoprano &ccirc;e virinoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kantisto, kies vo&ccirc;a <tld/>o estis kvin oktavoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="vocx.0o.registro">vo&ccirc;o<sncref/></ref>
     <trd lng="be">&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;</trd>
     <trdgrp lng="de">
       <trd>Register</trd>,
       <trd>Stimmumfang</trd>
     </trdgrp>
+    <trd lng="es">registro</trd>
     <trd lng="ru">&c_r;&c_je;&c_g;&c_i;&c_s;&c_t;&c_r;</trd>
   </snc>
+<ref tip="hom" cel="regxistr.0o">re&gcirc;istro</ref>
   <trdgrp lng="cs">
     <trd>kniha z&aacute;znam&uring;</trd>,
     <trd>registra&ccaron;n&iacute; kniha</trd>,
@@ -57,6 +129,7 @@
   <trdgrp lng="en">
     <trd>register</trd>
   </trdgrp>
+  <trd lng="es">registro</trd>
   <trd lng="fr">registre</trd>
   <trd lng="nl">register</trd>
   <trdgrp lng="sk">
@@ -65,6 +138,12 @@
     <trd>registr&aacute;cia</trd>,
     <trd>z&aacute;pis</trd>,
     <trd>z&aacute;znam</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_l;&c_ib;&c_k;</trd>,
+    <trd>&c_r;&c_je;&c_jeu;&c_s;&c_t;&c_r;</trd>,
+    <trd>&c_s;&c_p;&c_i;&c_s;&c_o;&c_k;</trd>,
+    <trd>&c_r;&c_je;&c_gu;&c_ib;&c_s;&c_t;&c_r;</trd>
   </trdgrp>
 </drv>
 
@@ -77,24 +156,113 @@
       notojn pri faktoj, dokumentoj ks, pri kiuj oni volas konservi
       memoron:
       <ekz>
-        la resta&jcirc;o de la urboj estos malgranda kaj knabo
-        povos ilin registri<fnt>Z</fnt>;
+        la resta&jcirc;o de la arboj <klr>[&#8230;]</klr> estos malgrandnombra, kaj knabo povos ilin
+        <tld/>i
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 10:19</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i la popolon<fnt>Z</fnt>;
+        la popolon <klr>[&#8230;]</klr> <tld/>i
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ne&hcirc;emja 7:5</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ind><tld/>ita letero</ind>;
+        &ccirc;iuj iris, por esti <tld/>itaj, &ccirc;iu al sia urbo
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 2:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj ili estis <tld/>itaj la&ubreve; siaj nomoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ezra 8:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu ankora&ubreve; ne en<tld/>is sin
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
+        la paka&jcirc;ojn oni n<klr>[&#8230;]</klr>registris en notlibroj
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvara &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li promesis zorge <tld/>i &ccirc;iujn kritikojn kaj post ilia esploro enkonduki en la
+        lingvon &ccirc;iujn &scirc;an&gcirc;ojn necesajn
+        <fnt>
+          <bib>Zam</bib>
+          <lok>Zamenhof kaj reformoj en esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tiu kreska&jcirc;o]</klr> estas varia&jcirc;o! li diris <klr>[&#8230;]</klr>, &gcirc;i ne estas
+        <tld/>ita en la sistemo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Folio el la &ccirc;ielo</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        nenie estis <tld/>ita lia alveno, al neniu li prezentis sian pasporton a&ubreve; alian
+        paperon
+        <fnt>
+          <bib>MkM</bib>
+          <lok>27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>ita letero</ind>
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+        <trd lng="de">Einschreiben</trd>
         <trd lng="ru">&c_z;&c_a;&c_k;&c_a;&c_z;&c_n;&c_o;&c_je;
         &c_p;&c_i;&c_s;&c_mol;&c_m;&c_o;</trd>
       </ekz>
       <ekz>
-        en<tld/>adi militistojn<fnt>Z</fnt>, novajn abonantojn;
+        &scirc;i sendis sian koverton en pli granda koverto <ind>per <tld/>ita po&scirc;to</ind>
+        <fnt>
+          <bib>ChV</bib>
+          <lok>23</lok>
+        </fnt>;
+        <trd lng="de">als <ind>Einschreiben</ind></trd>
       </ekz>
       <ekz>
-        <tld/>igi siajn paka&jcirc;ojn en la ekspedejo.
+        la kvanto de <tld/>itaj TTT-ejoj atingis 101&#8239;435&#8239;253
+        <fnt>
+          <bib>Monato</bib>
+          <aut>AMik</aut>
+          <vrk><url ref="https://www.monato.be/2007/009119.php"
+              >Kiom grandas la virtuala mondo?</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malsano estas <tld/>ata preska&ubreve; en &ccirc;iuj kontinentoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2007/009243.php"
+              >Epidemiaj sekvoj en E&ubreve;ropo</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="list.en0igi">enlistigi</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>registrieren</trd>,
       <trd>verzeichnen</trd>,
@@ -107,6 +275,10 @@
       <trd>register</trd>,
       <trd>record</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>registrar</trd>,
+      <trd>inscribir</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>consigner<klr> (enregistrer)</klr></trd>
     </trdgrp>
@@ -116,13 +288,38 @@
     <dif>
       Atenti por memori pri io:
       <ekz>
-        tiun &ccirc;i jaron ni povis <tld/>i la uzadon de Esperanto en pluraj
-        internaciaj kongresoj
+        la lingvo <klr>[&#8230;]</klr> estas produkto, kiun la individuo <tld/>as pasive
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li rigardis &scirc;ian viza&gcirc;on, sed ne sukcesis <tld/>i tremeton en &scirc;ia mieno
+        <fnt>
+          <bib>ViV</bib>
+          <lok>VII.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jano <tld/>is tiujn faktojn sen granda surprizo, li pri tio interesi&gcirc;is nur pro
+        kompleteco
+        <fnt>
+          <bib>ChV</bib>
+          <lok>17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tion mi duonkonscie mense <tld/>is, kiam mi legis la leteron
+        <fnt>
+          <bib>ChV</bib>
+          <lok>29</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="rimark.0i">rimarki</ref>,
-      <ref cel="not.0i">noti</ref>.
+      <ref cel="not.0i">noti</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>registrieren</trd>,
@@ -133,15 +330,16 @@
       <trd>note</trd>,
       <trd>notice</trd>
     </trdgrp>
+    <trd lng="es">anotar</trd>
   </snc>
   <snc mrk="regist.0i.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      A&ubreve;tomate ekkonservi per spuroj, signoj a&ubreve; kodoj.
+      A&ubreve;tomate ek<ref cel="konser.0i.protekti">konservi</ref> per spuroj, signoj a&ubreve; kodoj.
     </dif>
     <subsnc mrk="regist.0i.TEK_spuron">
       <dif>
-        Tiel spuri la variojn de iu fenomeno:
+        Tiel <ref cel="spur.0i">spuri</ref> la variojn de iu fenomeno:
         <ekz>
           per videa kamerao oni registras la ir-vojojn de la vezikoj
           <fnt>
@@ -150,15 +348,63 @@
             Mezurado de malgrandaj aeraj velocitoj...</url></vrk>,
             <bib/>,
             <lok>La Domo, 1996-10 (12)</lok>
-          </fnt>.
+          </fnt>;
+        </ekz>
+        <ekz>
+          la skanilo <tld/>is la respondan cerban aktivecon, mezurante la sangan fluon
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Oliver Kim</aut>
+            <vrk><url ref="https://www.monato.be/2007/009176.php"
+                >Robota mano regata de pensoj</url></vrk>
+            <lok>2007</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &gcirc;ian eksplodon <tld/>is e&ccirc; sismografoj en Bavario
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url ref="https://www.monato.be/2009/009837.php"
+                >Monstra atompotenco</url></vrk>
+            <lok>2009</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          tiujare en Britio staris 4,2 gvataparatoj, do unu kamerao por 14 lo&gcirc;antoj, &ccirc;iu
+          civitano estas <tld/>ata meznombre 300 fojojn tage
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url ref="https://www.monato.be/2008/009525.php"
+                >Fratego fiaskas</url></vrk>
+            <lok>2008</lok>
+          </fnt>!
         </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="detekt.0i">detekti</ref>
+      </refgrp>
     </subsnc>
     <subsnc mrk="regist.0i.TEK_datumojn">
       <dif>
-        Tiel fiksi ricevatajn datumojn:
+        Tiel <ref cel="fiks.0i">fiksi</ref> ricevatajn datumojn:  
         <ekz>
-          la parolistoj <klr>[&#x2026;]</klr> <tld/>is tiujn sondosierojn
+          Onezimo certe estis <tld/>anta sur kasedon sian tamtaman dancprogramon
+          <fnt>
+            <bib>ChR</bib>
+            <lok>Ne nur tamtamado</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          sonbende <tld/>itaj prelegoj, radioelsendoj, kantoj
+          <fnt>
+            <bib>EeP</bib>
+            <lok>Tria Parto</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la parolistoj <klr>[&#8230;]</klr> <tld/>is tiujn sondosierojn
           <fnt>
             <aut>E. Cid</aut>,
             <vrk><url ref="http://www.esperantofre.com/eroj/ilo01e.htm">
@@ -169,18 +415,21 @@
       </dif>
     </subsnc>
     <refgrp tip="vid">
-      <ref cel="skrib.0i.TEK">skribi<sncref/></ref>
+      <ref cel="film.0i">filmi</ref>,
+      <ref cel="skrib.0i.TEK">skribi<sncref/></ref>,
+      <ref cel="bend.sur0igi">surbendigi</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>aufzeichnen</trd>,
       <trd>aufnehmen</trd>
     </trdgrp>
+    <trd lng="es">registrar</trd>
     <trdgrp lng="fr">
       <trd>relever<klr> (enregistrer)</klr></trd>
     </trdgrp>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="bo">&#xF66;&#xF90;&#xF51;&#xF0B;&#xF54;&#xF62;&#xF0B;&#xF56;&#xF5F;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_kata;&t_da;&t_tsheg;&t_pa;&t_ra;&t_tsheg;&t_ba;&t_za;&t_naro;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>evidovat</trd>,
     <trd>knihovat</trd>,
@@ -193,8 +442,18 @@
     <trd>register</trd>,
     <trd>record</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>registrar</trd>,
+    <trd>inscribir</trd>,
+    <trd>matricular</trd>,
+    <trd>grabar</trd>,
+    <trd>archivar</trd>,
+    <trd>alistar</trd>,
+    <trd>facturar<klr> (equipaje)</klr></trd>,
+    <trd>recopilar<klr> (datos)</klr></trd>
+  </trdgrp>
   <trd lng="fr">enregistrer</trd>
-  <trd lng="ne">&#x930;&#x947;&#x915;&#x930;&#x94D;&#x921;</trd>
+  <trd lng="ne">&#2352;&#2375;&#2325;&#2352;&#2381;&#2337;</trd>
   <trd lng="nl">registreren</trd>
   <trd lng="ru">&c_r;&c_je;&c_g;&c_i;&c_s;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
@@ -202,13 +461,51 @@
     <trd>zaknihova&tcaron;</trd>,
     <trd>zap&iacute;sa&tcaron; do registra</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_je;&c_jeu;&c_s;&c_t;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_i;&c_s;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_n;&c_o;&c_s;&c_i;&c_t;&c_i; &c_d;&c_o; &c_s;&c_p;&c_i;&c_s;&c_k;&c_u;</trd>,
+    <trd>&c_r;&c_je;&c_jeu;&c_s;&c_t;&c_r;&c_u;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="regist.0ado">
   <kap><tld/>ado</kap>
   <snc>
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i:
+      <ekz>
+        eliris dekreto de Cezaro A&ubreve;gusto, ke la tuta mondo estu registrita,
+        &ccirc;i tiu estis la unua <tld/>ado, farita, kiam Kirenio estis reganto de Sirio
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 2:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Berg</nom> eksigis tri laboristojn, agitintajn kontra&ubreve; nova formo de labor<tld/>ado
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en pli ol dudek jaroj da atenta a&ubreve;skultado kaj da <tld/>ado de parola esperanto
+        mi neniam spertis unu miskomprenon &scirc;ulditan al mal-
+        <fnt>
+          <bib>BonaLingvo</bib>
+          <lok>3. Natura Sin-esprimado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        po&scirc;komputiloj ebligas e&ccirc; <tld/>adon de sono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zoran &Cacute;iri&cacute;</aut>
+          <vrk><url ref="https://www.monato.be/2003/008165.html"
+              >A&ccirc;eti tekokomputilon</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_r;&c_a;&c_c;&c_y;&c_ja;</trd>
@@ -224,6 +521,10 @@
   <trdgrp lng="en">
     <trd>registration</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>registro</trd>,
+    <trd>grabaci&oacute;n</trd>
+  </trdgrp>
   <trd lng="fr">enregistrement</trd>
   <trd lng="ru">&c_r;&c_je;&c_g;&c_i;&c_s;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
@@ -233,6 +534,7 @@
     <trd>z&aacute;pis</trd>,
     <trd>z&aacute;znam</trd>
   </trdgrp>
+  <trd lng="uk">&c_r;&c_je;&c_jeu;&c_s;&c_t;&c_r;&c_a;&c_c;&c_ib;&c_ja;</trd>
 </drv>
 
 <drv mrk="regist.0igxi">
@@ -247,7 +549,7 @@
       en liston, en <tld/>on por konservo;
       enskribi&gcirc;i:
       <ekz>
-        enigu vian retpo&scirc;t&#xAD;adreson per kiu vi <tld/>i&gcirc;is
+        enigu vian retpo&scirc;t­adreson per kiu vi <tld/>i&gcirc;is
         kaj ni retpo&scirc;te sendos instrukciojn
         <fnt>
           <aut>-</aut>
@@ -260,13 +562,23 @@
         por loka konkurso de legado de la Korano
         <fnt>
           <aut>G. P. Savio</aut>
-          <vrk><url ref="http://esperantaretradio.blogspot.com/2016/07/kial-oni-malpermesas-al-knabinoj-bicikli.html">Kial oni malpermesas al knabinoj bicikli?</url></vrk>
+          <vrk><url ref="http://esperantaretradio.blogspot.com/2016/07/kial-oni-malpermesas-al-knabinoj-bicikli.html">Kial
+          oni malpermesas al knabinoj bicikli?</url></vrk>
           <lok>Esperanta Retradio, 2016-07-15</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-<trd lng="fr">s'<ind>enregistrer</ind></trd>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_ib;&c_s;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>inscribirse</trd>,
+    <trd>registrarse</trd>
+  </trdgrp>
+  <trd lng="fr">s'<ind>enregistrer</ind></trd>
 </drv>
 
 <drv mrk="regist.son0ilo">
@@ -289,9 +601,17 @@
       <ref cel="magnetofon.0o.SON">magnetofono</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_g;&c_u;&c_k;&c_a;&c_z;&c_a;&c_p;&c_ib;&c_s;&c_n;&c_y; &c_a;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
   <trd lng="cs">magnetofon</trd>
+  <trdgrp lng="es">
+    <trd>magnet&oacute;fono</trd>,
+    <trd>magnetof&oacute;n</trd>,
+    <trd>grabadora</trd>,
+    <trd>registradora</trd>
+  </trdgrp>
   <trd lng="fr">enregistreur<klr> (magn&eacute;tophone)</klr></trd>
   <trd lng="sk">magnetof&oacute;n</trd>
+  <trd lng="uk">&c_z;&c_v;&c_u;&c_k;&c_o;&c_z;&c_a;&c_p;&c_i;&c_s;&c_u;&c_ju;&c_ch;&c_i;&c_j; &c_p;&c_r;&c_i;&c_s;&c_t;&c_r;&c_ib;&c_j;</trd>
 </drv>
 
 <drv mrk="regist.teren0o">
@@ -306,7 +626,7 @@
         juro: la proprieton transdonas la enskribo en teren<tld/>on
         <fnt>
           <aut>J. Duthilleul</aut>,
-          <vrk><url ref="https://www.eventoj.hu/steb/juro/domhavo/domo.htm#franca">La
+          <vrk><url ref="&STEB;juro/domhavo/domo.htm#franca">La
           rajto havi domon</url></vrk>,
           <lok>Internacia Jura Revuo, 1977:1-1977:2</lok>
         </fnt>.
@@ -338,6 +658,7 @@
   <trd lng="nl">kadaster<klr tip="ind"> (register)</klr></trd>
   <trd lng="ru">&c_k;&c_a;&c_d;&c_a;&c_s;&c_t;&c_r;</trd>
   <trd lng="sk">kataster nehnute&lcaron;nost&iacute;</trd>
+  <trd lng="uk">&c_k;&c_a;&c_d;&c_a;&c_s;&c_t;&c_r;</trd>
 </drv>
 
 <drv mrk="regist.vide0ilo">
@@ -348,7 +669,7 @@
     <dif>
       Aparato a&ubreve; parto de aparato por videa <tld/>ado de bildoj:
       <ekz>
-        fabrikanto inventis aparaton, kiu <klr>[&#x2026;]</klr> malebligas
+        fabrikanto inventis aparaton, kiu <klr>[&#8230;]</klr> malebligas
         rapidigi video<tld/>ilon dum la reproduktado de reklamoj
         <fnt>
           <aut>Vastalto</aut>,
@@ -368,6 +689,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_v;&c_ib;&c_d;&c_e;&c_a;&c_r;&c_e;&c_g;&c_ib;&c_s;&c_t;&c_r;&c_a;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="es">
+    <trd>videoc&aacute;mara</trd>,
+    <trd>filmadora</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>cam&eacute;scope<klr> (enregistreur)</klr></trd>,
     <trd>magn&eacute;toscope</trd>
@@ -379,7 +705,22 @@
   <snc>
     <dif>
       Libro uzata kiel
-      <ref tip="super" cel="regist.0o.dokumento"><tld/>o<sncref/></ref>.
+      <ref tip="super" cel="regist.0o.dokumento"><tld/>o<sncref/></ref>:
+      <ekz>
+        la hotelmastro <klr>[&#8230;]</klr> montris al mi sur sia <tld/>olibro la nomojn de du
+        voja&gcirc;antoj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        personoj listigitaj en la <tld/>olibro kiel elirintaj inter la 17-a kaj la 19-a
+        <fnt>
+          <bib>CKv</bib>
+          <lok>23</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_je;&c_s;&c_t;&c_a;&c_r;</trd>
@@ -390,7 +731,8 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>Verzeichnis</trd>,
-    <trd>Register</trd>
+    <trd>Register</trd>,
+    <trd>Kladde <klr>(Register)</klr></trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>list</trd>,
@@ -398,34 +740,43 @@
     <trd>record</trd>,
     <trd>roll</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>registro</trd>,
+    <trd>cartilla</trd>
+  </trdgrp>
   <trd lng="fr">registre<klr> (livre)</klr></trd>
   <trd lng="ru">&c_r;&c_je;&c_je;&c_s;&c_t;&c_r;</trd>
   <trd lng="sk">kniha z&aacute;znamov</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_je;&c_jeu;&c_s;&c_t;&c_r;&c_a;&c_c;&c_ib;&c_j;&c_n;&c_a; &c_k;&c_n;&c_i;&c_g;&c_a;</trd>,
+    <trd>&c_ib;&c_s;&c_t;. &c_r;&c_je;&c_jeu;&c_s;&c_t;&c_r;</trd>,
+    <trd>&c_r;&c_je;&c_gu;&c_ib;&c_s;&c_t;&c_r;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2022/07/02 20:28:50
+Wolfram Diestel: ~ado, ~olibro: +ekz-oj
+
+versio 1.33 2022/07/02 18:32:07
+Wolfram Diestel: ~i: +ekz-oj, ref-oj
+
+versio 1.32 2022/07/02 17:27:28
+Wolfram Diestel: ~o: +ekz-oj, ref-oj
+
+versio 1.31 2022/05/04 19:19:16
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.27 2021/12/08 22:31:43
+Guillermo Molleda Jimena: +trd es
+
+versio 1.26 2021/12/08 19:26:00
+Guillermo Molleda Jimena: +trd es
+
+versio 1.25 2021/11/03 07:28:53
+Dmitri Gabinski: + trd be
+
 versio 1.22 2020/11/15 20:32:26
-Jeromo Vasxe: + ~igxi
-
-Revision 1.21  2020/01/06 16:10:16  revo
-Robin van der Vliet: ligilo riparita
-
-Revision 1.20  2015/07/04 08:37:42  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.19  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2013/07/25 19:10:13  revo
-Jeromo Vasxe: + son~ilo
-
-Revision 1.17  2011/02/15 12:10:08  revo
-Jeromo Vasxe: restrukt. snc tek
-
-Revision 1.16  2010/11/25 17:30:30  revo
-Jeromo Vasxe: + vide~o
-
-Revision 1.15  2008/11/23 19:12:54  revo
 -->
 </vortaro>

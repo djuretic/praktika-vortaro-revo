@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: forges.xml,v 1.33 2021/05/29 10:56:53 revo Exp $">
+<art mrk="$Id: forges.xml,v 1.41 2022/08/23 22:32:02 revo Exp $">
 <kap><ofc>*</ofc>
   <rad>forges</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,7 +11,7 @@
   <gra><vspec>x</vspec></gra>
   <snc mrk="forges.0i.ne_memori">
     <dif>
-      Ne plu memori pri; ne plu konservi memoron pri,
+      Ne plu <ref tip="ant" cel="memor.0i">memori</ref> pri; ne plu konservi memoron pri,
       <ref tip="sin" cel="memor.mal0i.KOMUNE">malmemori</ref>:
       <ekz>
         <tld/>i la pasintan malfeli&ccirc;on, instruon, ies
@@ -64,7 +64,9 @@
   </snc>
   <snc mrk="forges.0i.neglekti">
     <dif>
-      Ne atenti pri, ne zorgi pri, preterlasi:
+      Ne <ref tip="ant" cel="atent.0i.gravigi">atenti</ref> pri, ne 
+      <ref tip="ant" cel="zorg.0i.pri_io_bone">zorgi</ref> pri, <ref tip="sin"
+      cel="las.preter0i">preterlasi</ref>:
       <ekz>
         <tld/>i nomon en la listo;
       </ekz>
@@ -75,7 +77,7 @@
         oni facile <tld/>as la ricevitajn bonfarojn;
       </ekz>
       <ekz>
-        Ramzes estis tiel ekscitita, ke li jam <tld/>is pri sia rango
+        <nom>Ramzes</nom> estis tiel ekscitita, ke li jam <tld/>is pri sia rango
         kaj pri siaj devoj
         <fnt>
           <bib>Far2</bib>
@@ -93,11 +95,12 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="tomb.en0igi">entombigi</ref>,
-      <ref cel="ter.en0igi">enterigi</ref>.
+      <ref cel="ter.en0igi">enterigi</ref>,
+      <ref cel="atent.preter0i">preteratenti</ref>
     </refgrp>
     <refgrp tip="vid">
       <ref cel="arhxiv.0o">arkivo</ref>,
-      <ref cel="kalend">kalendo</ref>.
+      <ref cel="kalend">kalendo</ref>
     </refgrp>
     <trdgrp lng="pt">
       <trd>esquecer</trd>,
@@ -106,7 +109,8 @@
   </snc>
   <snc mrk="forges.0i.ne_kunporti">
     <dif>
-      Lasi, restigi objekton pro malatento:
+      <ref tip="super" cel="las.0i.restigi">Lasi</ref>, 
+      <ref tip="super" cel="rest.0igi">restigi</ref> objekton pro malatento:
       <ekz>
         mi <tld/>is hejme la monujon;
       </ekz>
@@ -122,6 +126,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">liegen <ind>lassen</ind></trd>
     <trdgrp lng="hu">
       <trd>ottfelejt</trd>,
       <trd>otthagy</trd>
@@ -132,7 +137,7 @@
     <trd>&c_z;&c_a;&c_b;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="bg">&c_z;&c_a;&c_b;&c_r;&c_a;&c_v;&c_ja;&c_m;</trd>
-  <trd lng="bo">&#xF56;&#xF62;&#xF97;&#xF7A;&#xF51;&#xF0B;&#xF54;&#xF0B;</trd>
+  <trd lng="bo">&t_ba;&t_ra;&t_jata;&t_drengbu;&t_da;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trdgrp lng="ca">
     <trd>oblidar</trd>,
     <trd>oblidar-se</trd>
@@ -152,9 +157,11 @@
   <trd lng="ia">oblidar</trd>
   <trd lng="nl">vergeten</trd>
   <trd lng="pl">zapomnie&cacute;</trd>
-  <trd lng="ro">a uita</trd>
+  <trd lng="ro">uita</trd>
   <trd lng="ru">&c_z;&c_a;&c_b;&c_y;&c_t;&c_mol;</trd>
   <trd lng="sk">zabudn&uacute;&tcaron;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_b;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+  <trd lng="zh">&#x5FD8;&#x8BB0;</trd>
 </drv>
 
 <drv mrk="forges.0o">
@@ -186,7 +193,7 @@
   </snc>
   <snc mrk="forges.0o.neglekto">
     <dif>
-      Nezorgo, preterlaso, neglekto:
+      Nezorgo, preterlaso, <ref cel="neglek.0o">neglekto</ref>:
       <ekz>
         plej facile promeso rimi&gcirc;as kun <tld/>o
         <fnt>
@@ -201,14 +208,20 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_a;&c_b;&c_y;&c_c;&c_mol;&c_c;&c_jo;</trd>
   <trdgrp lng="cs">
     <trd>zapomenut&iacute;</trd>,
     <trd>zapomn&ecaron;n&iacute;</trd>
   </trdgrp>
+  <trd lng="de">Vergessen</trd>
+  <trd lng="en">forgetting</trd>
   <trd lng="es">olvido</trd>
   <trd lng="fr">oubli</trd>
+  <trd lng="pl">zapomnienie</trd>
+  <trd lng="ro">uitare</trd>
   <trd lng="ru">&c_z;&c_a;&c_b;&c_v;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">zabudnutie</trd>
+  <trd lng="uk">&c_z;&c_a;&c_b;&c_u;&c_t;&c_t;&#x44F;</trd>
 </drv>
 
 <drv mrk="forges.0ema">
@@ -235,7 +248,13 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_b;&c_y;&c_w;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_n;&c_ja;&c_d;&c_b;&c_a;&c_j;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="cs">zapom&ecaron;tliv&yacute;</trd>
+  <trd lng="de">vergesslich</trd>
+  <trd lng="en">forgetful</trd>
   <trdgrp lng="es">
     <trd>olvidadizo</trd>,
     <trd>desmemoriado</trd>
@@ -244,7 +263,10 @@
     <trd>&eacute;tourdi</trd>,
     <trd>oublieux</trd>
   </trdgrp>
+  <trd lng="pl">zapominalski</trd>
+  <trd lng="ro">uituc</trd>
   <trd lng="sk">z&aacute;budliv&yacute;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_b;&c_u;&c_d;&#x44C;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="forges.mem0o">
@@ -278,6 +300,11 @@
       <trd>oddanie</trd>,
       <trd>abnegacja</trd>
     </trdgrp>
+    <trdgrp lng="ro">
+      <trd>sacrificiu</trd>,
+      <trd>dedicare</trd>,
+      <trd>abnega&#539;ie</trd>
+    </trdgrp>
     <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_z;&c_a;&c_b;&c_v;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
   <snc mrk="forges.mem0o.PSI">
@@ -293,7 +320,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &scirc;i <klr>...</klr> eliris, malrapide transirante de vitrino
+        &scirc;i <klr>[&#8230;]</klr> eliris, malrapide transirante de vitrino
         al vitrino kaj pririgardante kun grandega plezuro
         montratajn tie a&jcirc;ojn, en kion &scirc;i sin<tld/>e absorbi&gcirc;is
         <fnt>
@@ -304,9 +331,14 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="obsed.0o">obsedo</ref>
+    </refgrp>
     <trd lng="es">distracci&oacute;n</trd>
     <trd lng="fr">distraction</trd>
   </snc>
+  <trd lng="en">abnegation</trd>
+  <trd lng="uk">&c_s;&c_a;&#x43C;&#x43E;&c_z;&c_a;&c_b;&c_u;&c_t;&c_t;&#x44F;</trd>
 </drv>
 
 <drv mrk="forges.ne0ebla">
@@ -335,7 +367,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        nia ne<tld/>ebla amiko Javal plu ne ekzistas
+        nia ne<tld/>ebla amiko <nom>Javal</nom> plu ne ekzistas
         <fnt>
           <bib>Paroloj</bib>
           <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge
@@ -343,9 +375,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        dank' al la ne<tld/>ebla granda merito de la pastro Johann
-        Martin Schleyer, 
-        nia ideo ricevis sian unuan disvolvi&gcirc;on
+        dank' al la ne<tld/>ebla granda merito de la pastro <nom>Johann
+        Martin Schleyer</nom>, nia ideo ricevis sian unuan disvolvi&gcirc;on
         <fnt>
           <bib>Paroloj</bib>
           <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden
@@ -372,6 +403,7 @@
     <trd>&c_n;&c_je;&c_z;&c_a;&c_b;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">nezabudnute&lcaron;n&yacute;</trd>
+  <trd lng="uk">&#x43D;&c_je;&c_z;&c_a;&c_b;&c_u;&c_t;&#x43D;&c_ib;&c_j;</trd>
 </drv>
 
 <drv mrk="forges.ne0umino">
@@ -382,9 +414,18 @@
       Florherbo kun radiformaj, plej ofte bluaj floroj;
       genro <trd lng="la">Mysotis</trd>:
       <ekz>
-        La&ubreve; la papiliaj moroj,
-        Lia flirt' sen elimin'
-        Karesadis &ccirc;iujn florojn &mdash;
+        aleo bordata de florantaj ne<tld/>uminojn gvidas la vizitanton &gcirc;is ornamita
+        ferpordego
+        <fnt>
+          <bib>MD14</bib>
+          <vrk>Adorata de la lo&gcirc;antaro, la industrio de hamburger kaj de fritita kokida&jcirc;o malsatigas
+          siajn laboristojn</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        La&ubreve; la papiliaj moroj, //
+        Lia flirt' sen elimin' //
+        Karesadis &ccirc;iujn florojn &mdash; //
         Krom la ne<tld/>umin'.
         <fnt>
           <aut>Boufflers</aut>, <vrk>Bagatela&jcirc;oj</vrk>,
@@ -395,6 +436,7 @@
     </dif>
     <ref tip="sin" cel="miozot.0o">miozoto</ref>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_b;&c_u;&c_d;&c_k;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>nezabudka</trd>,
     <trd>pom&ecaron;nka</trd>
@@ -409,9 +451,15 @@
     <trd>nomeolvides</trd>
   </trdgrp>
   <trd lng="fr">myosotis</trd>
+  <trdgrp lng="pl">
+    <trd>niezapominajka</trd>,
+    <trd>u&lstroke;udka</trd>
+  </trdgrp>
+  <trd lng="ro">nu-m&abreve;-uita</trd>
   <trd lng="ru">&c_n;&c_je;&c_z;&c_a;&c_b;&c_u;&c_d;&c_k;&c_a;</trd>
   <trd lng="sk">nez&aacute;budka</trd>
   <trd lng="tr">unutma beni</trd>
+  <trd lng="uk">&#x43D;&c_je;&c_z;&c_a;&c_b;&c_u;&c_d;&#x43A;&c_a;</trd>
 </drv>
 
 <drv mrk="forges.sen0e">
@@ -432,13 +480,36 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="akurat.0e">akurate</ref>
+    <trd lng="de">gewissenhaft</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_b;&c_a;&c_j;&c_n;&c_a;</trd>,
+    <trd>&c_n;&c_je; &c_z;&c_a;&c_b;&c_y;&c_v;&c_a;&c_ju;&c_ch;&c_y;&c_s;&c_ja;</trd>
+  </trdgrp>
   <trd lng="es">sin olvidar</trd>
   <trd lng="fr">sans oubli</trd>
+  <trd lng="pl">nie zapominaj&aogonek;c </trd>
+  <trd lng="ro">f&abreve;r&abreve; a uita</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.41 2022/08/23 22:32:02
+Vito Redsky:  +trd pl  + kor trd ro 
+
+versio 1.37 2022/02/23 08:33:44
+Dmitri Gabinski: + trd be
+
+versio 1.36 2021/12/29 09:32:02
+Dmitri Gabinski: + trd be
+
+versio 1.35 2021/11/04 15:40:27
+Noam Mohr: +trd en,zh
+
+versio 1.34 2021/11/01 19:22:45
+Wolfram Diestel: +ref-oj, trd de, ekz
+
 Revision 1.31  2019/08/07 09:10:16  revo
 Guillermo Molleda Jimena: trd es
 
@@ -446,17 +517,5 @@ Revision 1.30  2017/06/04 09:10:13  revo
 Wolfram Diestel: kor. mrk, prilaboris ekz-ojn
 
 Revision 1.29  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.28  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2015/01/09 21:10:45  revo
-Jeromo Vasxe: + sen~e
-
-Revision 1.26  2014/08/23 01:10:11  revo
-Jeromo Vasxe: + ~ema
-
-Revision 1.25  2011/07/05 04:10:08  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vaku.xml,v 1.21 2019/06/30 18:21:50 revo Exp $">
+<art mrk="$Id: vaku.xml,v 1.24 2022/09/07 16:49:20 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>vaku</rad>/o
 </kap>
@@ -42,6 +42,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="plen.mal0o">malpleno</ref>,
+      <ref cel="neni.0o">nenio</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_a;&c_k;&c_u;&c_m;</trd>,
@@ -76,6 +80,11 @@
     <trd>&c_v;&c_a;&c_k;&c_u;&c_u;&c_m;</trd>,
     <trd>&c_p;&c_u;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_a;&#x43A;&c_u;&c_u;&#x43C;</trd>,
+    <trd>&#x43F;&#x43E;&c_r;&#x43E;&c_zh;&#x43D;&c_je;&c_ch;&c_a;</trd>,
+    <trd>&#x43F;&c_u;&c_s;&c_t;&#x43E;&c_t;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vaku.0igi">
@@ -94,7 +103,13 @@
     <trd>&c_a;&c_p;&c_a;&c_r;&c_a;&c_zh;&c_n;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="ca">buidar</trd>
-  <trd lng="de">leerpumpen</trd>
+  <trdgrp lng="de">
+     <trd>leeren</trd>,
+     <trd>entleeren</trd>,
+     <trd>leer machen</trd>,
+     <trd>leerpumpen</trd>,
+     <trd>evakuieren</trd>
+  </trdgrp>
   <trd lng="en">make a vacuum</trd>
   <trd lng="es">vaciar</trd>
   <trdgrp lng="fr">
@@ -114,10 +129,17 @@
    <trd>fazer v&aacute;cuo</trd>, 
    <trd>esvaziar</trd>
   </trdgrp>
+  <trd lng="uk">&c_s;&c_t;&c_v;&#x43E;&c_r;&c_i;&c_t;&c_i; &c_v;&c_a;&#x43A;&c_u;&c_u;&#x43C;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2022/09/07 16:49:20
+Wolfram Diestel: +ref
+
+versio 1.22 2022/03/14 16:48:35
+Ulrich Fellmann: vakuigi: +4 novaj DE tradukoj
+
 Revision 1.20  2018/08/15 19:10:16  revo
 Wolfram Diestel: +ekz-oj
 
@@ -134,11 +156,5 @@ Revision 1.16  2009/07/14 16:30:48  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.15  2009/03/01 17:34:15  revo
-Russ Williams: +trd en 9OA
-
-Revision 1.14  2005/05/16 17:49:32  revo
-Luiz Portella: +kor trd pt
-
-Revision 1.13  2003/04/29 16:31:28  revo
 -->
 </vortaro>

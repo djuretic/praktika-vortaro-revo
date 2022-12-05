@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: auxt.xml,v 1.86 2021/06/18 20:41:22 revo Exp $">
+<art mrk="$Id: auxt.xml,v 1.122 2022/05/31 21:28:20 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>a&ubreve;t</rad>/o <fnt><bib>PV</bib></fnt>
@@ -15,7 +15,8 @@
     <uzo tip="fak">TRA</uzo>
     <dif>
       <ref tip="lst" lst="voko:veturiloj" cel="vetur.0ilo">Veturilo</ref> por surgrunda
-      transporto de varoj a&ubreve; homoj, movata de motoro:
+      transporto de varoj a&ubreve; homoj, movata de motoro;
+      <ref tip="sin" cel="auxtom1.0o">a&ubreve;tomobilo</ref>:
       <ekz>
         kelkaj <tld/>oj kuris sur la stratoj
         <fnt><bib>InfanTorent2</bib>, <lok>unua parto, 2</lok></fnt>;
@@ -23,9 +24,9 @@
       <ekz>
         dekono de la familioj balda&ubreve; a&ccirc;etos <tld/>on
         <fnt>
-          <aut>Mu Binghua</aut>,
-          <vrk>Dekono de la familioj balda&ubreve; a&ccirc;etos a&ubreve;ton</vrk>, 
-          <bib>Monato</bib>,
+          <aut>Mu Binghua</aut>
+          <vrk>Dekono de la familioj balda&ubreve; a&ccirc;etos a&ubreve;ton</vrk>,
+          <bib>Monato</bib>
           <lok>2001:6, p. 6a</lok>
         </fnt>;
       </ekz>
@@ -52,7 +53,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007052.html">Verda
+          <vrk><url ref="&Steloj;monato2/007052.html">Verda
           nature, science, socie</url></vrk>
         </fnt>;
       </ekz>
@@ -88,17 +89,14 @@
         kiam patrino haltigis sian a&ubreve;ton anta&ubreve; semaforo, viro el la
         sekva a&ubreve;to elsaltis,
         kuris al &scirc;ia a&ubreve;to, malfermis malanta&ubreve;an pordon kaj
-        <klr>[&#x2026;]</klr>
+        <klr>[&#8230;]</klr>
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9309-noticoj.txt">Esperanto
+          <vrk><url ref="&Steloj;monato1/monato-9309-noticoj.txt">Esperanto
           sen peno</url></vrk>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="auxtom1.0o">a&ubreve;tomobilo</ref>.
-    </refgrp>
     <rim>
       La radiko &leftquot;<esc>a&ubreve;t</esc>&rightquot; estas nun pli ofte uzata en
       &ccirc;iutaga lingva&jcirc;o, ol &leftquot;<esc>a&ubreve;tomobil</esc>&rightquot;, kies mallongigo &gcirc;i
@@ -109,14 +107,14 @@
     </rim>
   </snc>
   <trd lng="af">motor</trd>
-  <trd lng="am">&#x1218;&#x12AA;&#x1293;</trd>
-  <trd lng="ar">&#x633;&#x64A;&#x627;&#x631;&#x629;</trd>
+  <trd lng="am">&#4632;&#4778;&#4755;</trd>
+  <trd lng="ar">&a_s;&a_y;&a_A;&a_r;&a_t_marbuta;</trd>
   <trd lng="az">avtomobil</trd>
   <trd lng="be">&c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_b;&c_ib;&c_l;&c_mol;
   </trd>
   <trd lng="bg">&c_k;&c_o;&c_l;&c_a;</trd>
-  <trd lng="bn">&#x997;&#x9BE;&#x9A1;&#x9BC;&#x9C0;</trd>
-  <trd lng="bo">&#xF58;&#xF7C;&#xF0B;&#xF4A;&#xF0B;</trd>
+  <trd lng="bn">&#2455;&#2494;&#2465;&#2492;&#2496;</trd>
+  <trd lng="bo">&t_ma;&t_naro;&t_tsheg;&#3914;&t_tsheg;</trd>
   <trd lng="bs">auto</trd>
   <trdgrp lng="ca">
     <trd>auto</trd>,
@@ -144,62 +142,92 @@
     <trd>voiture</trd>
   </trdgrp>
   <trd lng="fy">auto</trd>
+  <trd lng="ga">carr</trd>
+  <trd lng="gd">c&agrave;r</trd>
   <trd lng="gl">coche</trd>
-  <trd lng="gu">&#xA95;&#xABE;&#xAB0;</trd>
-  <trd lng="he">&#x5DE;&#x5DB;&#x5D5;&#x5E0;&#x5D9;&#x5EA;</trd>
-  <trd lng="hi">&#x915;&#x93E;&#x930;</trd>
+  <trd lng="gu">&#2709;&#2750;&#2736;</trd>
+  <trd lng="he">&mem;&kaf;&vav;&nun;&yod;&tav;</trd>
+  <trd lng="hi">&#2325;&#2366;&#2352;</trd>
+  <trd lng="hmn">tsheb</trd>
   <trd lng="hr">automobil</trd>
+  <trd lng="ht">machin</trd>
   <trdgrp lng="hu">
     <trd>kocsi</trd>,
     <trd>aut&oacute;</trd>
   </trdgrp>
-  <trd lng="hy">&#x561;&#x57E;&#x57F;&#x578;&#x574;&#x565;&#x584;&#x565;&#x576;&#x561;</trd>
+  <trd lng="hy">&#1377;&#1406;&#1407;&#1400;&#1396;&#1381;&#1412;&#1381;&#1398;&#1377;</trd>
   <trd lng="id">mobil</trd>
+  <trd lng="ig">&#7909;gb&#7885; ala</trd>
   <trd lng="io">automobilo</trd>
-  <trd lng="is">b&#xED;ll</trd>
+  <trd lng="is">b&iacute;ll</trd>
   <trdgrp lng="it">
     <trd>auto<klr> (vettura)</klr></trd>,
     <trd>macchina<klr> (vettura)</klr></trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x81EA;&#x52D5;&#x8ECA; [<ind>&#x3058;&#x3069;&#x3046;&#x3057;&#x3083;</ind>]</trd>,
-    <trd>&#x8ECA; [<ind>&#x304F;&#x308B;&#x307E;</ind>]</trd>
+    <trd>&#33258;&#21205;&#36554; [<ind>&#12376;&#12393;&#12358;&#12375;&#12419;</ind>]</trd>,
+    <trd>&#36554; [<ind>&#12367;&#12427;&#12414;</ind>]</trd>
   </trdgrp>
-  <trd lng="jw">montor</trd>
-  <trd lng="ka">&#x10DB;&#x10D0;&#x10DC;&#x10E5;&#x10D0;&#x10DC;&#x10D8;&#x10E1;</trd>
-  <trd lng="km">&#x179A;&#x1790;&#x1799;&#x1793;&#x17D2;&#x178F;</trd>
-  <trd lng="ko">&#xC790;&#xB3D9;&#xCC28;</trd>
-  <trd lng="lo">&#xEA5;&#xEBB;&#xE94;</trd>
-  <trd lng="ml">&#xD15;&#xD3E;&#xD30;&#xD4D;</trd>
-  <trd lng="mr">&#x915;&#x93E;&#x930;</trd>
-  <trd lng="my">&#x1000;&#x102C;&#x1038;</trd>
-  <trd lng="ne">&#x915;&#x93E;&#x930;</trd>
+  <trd lng="jv">montor</trd>
+  <trd lng="ka">&#4315;&#4304;&#4316;&#4325;&#4304;&#4316;&#4312;&#4321;</trd>
+  <trd lng="kk">&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_mol;</trd>
+  <trd lng="km">&#6042;&#6032;&#6041;&#6035;&#6098;&#6031;</trd>
+  <trd lng="kn">&#3221;&#3262;&#3248;&#3265;</trd>
+  <trd lng="ko">&#51088;&#46041;&#52264;</trd>
+  <trd lng="ku">trimb&ecirc;l</trd>
+  <trd lng="ky">&c_u;&c_n;&c_a;&c_a;</trd>
+  <trd lng="lo">&#3749;&#3771;&#3732;</trd>
+  <trd lng="lt">automobili&#371;</trd>
+  <trd lng="lv">auto</trd>
+  <trd lng="mg">fiara</trd>
+  <trd lng="mi">motok&amacron;</trd>
+  <trd lng="mk">&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;</trd>
+  <trd lng="ml">&#3349;&#3390;&#3376;&#3405;</trd>
+  <trd lng="mn">&c_m;&c_a;&c_sh;&c_i;&c_n;&c_y;</trd>
+  <trd lng="mr">&#2325;&#2366;&#2352;</trd>
+  <trd lng="ms">kereta</trd>
+  <trd lng="mt">karozza</trd>
+  <trd lng="my">&#4096;&#4140;&#4152;</trd>
+  <trd lng="ne">&#2325;&#2366;&#2352;</trd>
   <trd lng="nl">auto</trd>
   <trd lng="ny">galimoto</trd>
   <trd lng="oc">auto</trd>
-  <trd lng="pa">&#xA15;&#xA3E;&#xA30; &#xA28;&#xA42;&#xA70;</trd>
+  <trd lng="pa">&#2581;&#2622;&#2608; &#2600;&#2626;&#2672;</trd>
   <trdgrp lng="pl">
-    <trd>a&ubreve;to</trd>,
+    <trd>auto</trd>,
     <trd>samoch&oacute;d</trd>
   </trdgrp>
-  <trd lng="ps">&#x645;&#x648;&#x67C;&#x631;</trd>
+  <trd lng="ps">&a_m;&a_w;&#1660;&a_r;</trd>
   <trd lng="ru">&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_mol;
   </trd>
-  <trd lng="sd">&#x6AA;&#x627;&#x631;</trd>
-  <trd lng="si">&#xDB8;&#xDDD;&#xDA7;&#xDBB;&#xDCA; &#xDBB;&#xDAE;</trd>
+  <trd lng="rw">imodoka</trd>
+  <trd lng="sd">&#1706;&a_A;&a_r;</trd>
+  <trd lng="si">&#3512;&#3549;&#3495;&#3515;&#3530; &#3515;&#3502;</trd>
   <trd lng="sk">auto</trd>
-  <trd lng="sq">makin&#xEB;</trd>
+  <trd lng="sl">avto</trd>
+  <trd lng="sm">ta&#699;avale</trd>
+  <trd lng="sn">motokari</trd>
+  <trd lng="so">baabuur</trd>
+  <trd lng="sq">makin&euml;</trd>
   <trd lng="st">koloi</trd>
+  <trd lng="su">mobil</trd>
   <trd lng="sv">bil</trd>
-  <trd lng="ta">&#xB95;&#xBBE;&#xBB0;&#xBCD;</trd>
-  <trd lng="te">&#xC15;&#xC3E;&#xC30;&#xC41;</trd>
-  <trd lng="th">&#xE23;&#xE16;</trd>
+  <trd lng="sw">gari</trd>
+  <trd lng="ta">&#2965;&#3006;&#2992;&#3021;</trd>
+  <trd lng="te">&#3093;&#3134;&#3120;&#3137;</trd>
+  <trd lng="tg">&c_m;&c_o;&c_sh;&c_i;&c_n;&c_i;</trd>
+  <trd lng="th">&#3619;&#3606;</trd>
   <trd lng="tl">kotse</trd>
-  <trd lng="tp">tomo tawa</trd>
+  <trd lng="tok">tomo tawa</trd>
   <trd lng="tr">oto</trd>
-  <trd lng="ur">&#x6A9;&#x627;&#x631;</trd>
+  <trd lng="tt">&c_m;&c_a;&c_sh;&c_i;&c_n;&c_a;</trd>
+  <trd lng="uk">&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_ib;&c_l;&c_mol;</trd>
+  <trd lng="ur">&f_k;&a_A;&a_r;</trd>
+  <trd lng="uz">avtomobil</trd>
   <trd lng="vi">xe</trd>
-  <trd lng="yi">&#x5DE;&#x5D0;&#x5B7;&#x5E9;&#x5D9;&#x5DF;</trd>
+  <trd lng="xh">imoto</trd>
+  <trd lng="yi">&mem;&alef;&#1463;&shin;&yod;&fnun;</trd>
+  <trd lng="yo">ay&#7885;k&#7865;l&#7865;</trd>
   <trd lng="zu">imoto</trd>
 </drv>
 
@@ -210,9 +238,9 @@
       Rilata al <tld/>oj:
       <ekz>
         parkinto po&scirc;telefone sendas sian <tld/>an identigilon
-        <fnt><aut>M. Belosevi&ccirc;</aut>, 
-        <vrk>Parkilo en la po&scirc;o</vrk>,
-        <bib>Monato</bib>, <lok>2002:5, p. 17a</lok>
+        <fnt><aut>M. Belosevi&ccirc;</aut>
+        <vrk>Parkilo en la po&scirc;o</vrk>
+        <bib>Monato</bib> <lok>2002:5, p. 17a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -220,7 +248,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>LAST</aut>
-          <vrk><url ref="https://www.monato.be/2003/007662.html">Nesolidaj
+          <vrk><url ref="&Monato;/2003/007662.html">Nesolidaj
           soldatoj</url></vrk>
         </fnt>.
       </ekz>
@@ -254,11 +282,11 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="auxt.0i.AUT">
     <dif>
-      Veturi per <tld/>o:
+      <ref tip="super" cel="vetur.0i.TRA">Veturi<sncref/></ref> per <tld/>o:
       <ekz>
         vi <tld/>us en Finnlando la&ubreve; la &scirc;oseo E75
-        <fnt><aut>Saliko</aut>, <vrk>Kolekti sonorilojn</vrk>,
-        <bib>Monato</bib>, <lok>2001:2, p.
+        <fnt><aut>Saliko</aut> <vrk>Kolekti sonorilojn</vrk>
+        <bib>Monato</bib> <lok>2001:2, p.
         24a</lok></fnt>;
       </ekz>
       <ekz>
@@ -267,18 +295,18 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2011/010446.php">Lingvo
+          <vrk><url ref="&Monato;/2011/010446.php">Lingvo
           a&ubreve;to-didakta</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la tagon anta&ubreve;e <nom>Albert</nom> sola <tld/>is de
-        <klr>[&#x2026;]</klr> lia lo&gcirc;loko en la regiono
+        <klr>[&#8230;]</klr> lia lo&gcirc;loko en la regiono
         de Nurenbergo, al Hamburgo
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="https://www.monato.be/2011/010500.php">Kiam
+          <vrk><url ref="&Monato;/2011/010500.php">Kiam
           montopado fari&gcirc;is mortopado</url></vrk>
         </fnt>.
       </ekz>
@@ -304,8 +332,8 @@
     <trd>guidare<klr> (viaggiare in automobile)</klr></trd>,
     <trd>viaggiare in <ind>automobile</ind></trd>
   </trdgrp>
-  <trd lng="ja">&#x8ECA;&#x3067;&#x884C;&#x304F;
-  <ind>&#x304F;&#x308B;&#x307E;&#x3067;&#x3044;&#x304F;</ind>]</trd>
+  <trd lng="ja">&#36554;&#12391;&#34892;&#12367;
+  <ind>&#12367;&#12427;&#12414;&#12391;&#12356;&#12367;</ind>]</trd>
   <trd lng="nl">rijden<klr tip="ind"> (per auto)</klr></trd>
   <trdgrp lng="pl">
    <trd>jecha&cacute;<klr tip="ind"> autem</klr></trd>,
@@ -328,11 +356,11 @@
         la supra eta&gcirc;o estis sufi&ccirc;e granda por ludi tablotenison
         <fnt>
           <vrk><url ref="https://legacy.esperanto.org.uk/lbe/arkivo/983/01.html">Redaktore
-          &#x2010; LBE a&ubreve;tuno 2017</url></vrk>
+          &#8208; LBE a&ubreve;tuno 2017</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        iru <klr>[&#x2026;]</klr> aliflanke de la <tld/>ejo
+        iru <klr>[&#8230;]</klr> aliflanke de la <tld/>ejo
         <fnt>
           <vrk><url ref="http://www.literaturo.org/Harlow-Don/originaloj/donh.best.vwh.net/donh.best.vwh.net/Outdoors/hike.010616.html">Mt.
           Saint Helens: Sheep Canyon - literaturo</url></vrk>
@@ -370,7 +398,7 @@
     <trd>box<klr tip="ind"> (pour voiture)</klr></trd>,
     <trd>garage<klr tip="ind"> (pour voiture)</klr></trd>
   </trdgrp>
-  <trd lng="he">&#x5D7;&#x5E0;&#x5D9;&#x5D5;&#x5DF;</trd>
+  <trd lng="he">&het;&nun;&yod;&vav;&fnun;</trd>
   <trd lng="hu">gar&aacute;zs</trd>
   <trd lng="id">garasi</trd>
   <trdgrp lng="it">
@@ -386,6 +414,7 @@
   <trd lng="sk">gar&aacute;&zcaron;</trd>
   <trd lng="sv">garage</trd>
   <trd lng="tr">garaj</trd>
+  <trd lng="uk">&c_gu;&c_a;&c_r;&c_a;&c_zh;</trd>
 </drv>
 
 <drv mrk="auxt.0isto">
@@ -411,8 +440,10 @@
       Atentu, ke anka&ubreve; <ref cel="auxtism.0ulo">a&ubreve;tismulon</ref> oni
       nomas fojfoje &leftquot;a&ubreve;tisto&rightquot;.
     </rim>
-  <trd lng="be">
-  &c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_b;&c_ib;&c_l;&c_ib;&c_s;&c_t;</trd>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_b;&c_ib;&c_l;&c_ib;&c_s;&c_t;</trd>,
+      <trd>&c_k;&c_ib;&c_r;&c_o;&c_w;&c_c;&c_a; <klr>(&c_p;&c_r;&c_a;&c_f;&c_e;&c_s;&c_ib;&c_j;&c_n;&c_y;)</klr></trd>
+    </trdgrp>
   <trd lng="ca">automobilista</trd>
   <trd lng="de">Autofahrer</trd>
   <trdgrp lng="en">
@@ -421,7 +452,7 @@
   </trdgrp>
   <trd lng="es">automovilista</trd>
   <trd lng="fr">automobiliste</trd>
-  <trd lng="he">&#x5E0;&#x5D4;&#x5D2;</trd>
+  <trd lng="he">&nun;&he;&gimel;</trd>
   <trd lng="hu">aut&oacute;s</trd>
   <trdgrp lng="id">
     <trd><baz>kemudi</baz> pengemudi</trd>,
@@ -440,6 +471,11 @@
   <trd lng="ru">
   &c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_i;&c_s;&c_t;</trd>
   <trd lng="sv">bilf&ouml;rare</trd>
+  <trdgrp lng="uk">
+    <trd>&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_ib;&c_l;&c_ib;&c_s;&c_t;</trd>,
+    <trd>&c_v;&c_o;&c_d;&c_ib;&c_j;</trd>,
+    <trd>&c_sh;&c_o;&c_f;&c_je;&c_r;</trd>
+  </trdgrp>
   <adm>
     La originala redakto difinis "~isto" per "motoristo", kio la&ubreve;
     mi estas anglismo. En la &scirc;an&gcirc;ita difino mi preferus 
@@ -462,12 +498,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj</aut>
-          <vrk><url ref="https://www.monato.be/2013/010959.php">Malpaco
+          <vrk><url ref="&Monato;/2013/010959.php">Malpaco
           flagranta</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        sindefendantoj <klr>[&#x2026;]</klr> sur kiras<tld/>oj okupis plej 
+        sindefendantoj <klr>[&#8230;]</klr> sur kiras<tld/>oj okupis plej 
         gravajn lokojn en la duoninsulo
         <fnt>
           <aut>S. Belov</aut>,
@@ -479,6 +515,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_r;&c_o;&c_n;&c_je;&c_a;&c_w;&c_t;&c_a;&c_m;&c_a;&c_b;&c_ib;&c_l;&c_mol;</trd>,
+    <trd>&c_b;&c_r;&c_o;&c_n;&c_je;&c_m;&c_a;&c_sh;&c_y;&c_n;&c_a;</trd>,
+    <trd>&c_b;&c_r;&c_a;&c_n;&c_ja;&c_v;&c_ib;&c_k;</trd>
+  </trdgrp>
   <trd lng="de">Panzerwagen</trd>
   <trdgrp lng="en">
     <trd>armored car</trd>,
@@ -486,10 +527,16 @@
   </trdgrp>
   <trd lng="fr">voiture <ind>blind&eacute;</ind>e</trd>
   <trd lng="id"><ind>mobil</ind> lapis baja</trd>
-  <trd lng="ja">&#x88C5;&#x7532;&#x8ECA;
-  [<ind>&#x305D;&#x3046;&#x3053;&#x3046;&#x3057;&#x3083;</ind>]</trd>
+  <trd lng="ja">&#35013;&#30002;&#36554;
+  [<ind>&#12381;&#12358;&#12371;&#12358;&#12375;&#12419;</ind>]</trd>
   <trd lng="nl">pantserwagen</trd>
   <trd lng="tr">z&inodot;rhl&inodot; ta&scedil;&inodot;t</trd>
+  <trdgrp lng="uk">
+    <trd>&c_b;&c_r;&c_o;&c_n;&c_je;&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_ib;&c_l;&c_mol;</trd>,
+    <trd>&c_b;&c_r;&c_o;&c_n;&c_mol;&c_o;&c_v;&c_i;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_n;&c_c;&c_je;&c_r;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_n;&c_c;&c_i;&c_r;&c_n;&c_i;&c_k;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="auxt.logx0o">
@@ -509,7 +556,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        aldona tranokto en propra tendo a&ubreve; lo&gcirc;<tld/>o kostas 5&#x202F;&#x20AC;
+        aldona tranokto en propra tendo a&ubreve; lo&gcirc;<tld/>o kostas 5&#8239;&#8364;
         <fnt>
           <vrk><url ref="https://ses.ikso.net/2019/es/kotizoj.php">Cuotas - Curso
           de Esperanto de Verano 2019</url></vrk>
@@ -537,8 +584,8 @@
     <trd>camper</trd>,
     <trd>caravan</trd>
   </trdgrp>
-  <trd lng="ja">&#x30AD;&#x30E3;&#x30F3;&#x30D4;&#x30F3;&#x30B0;&#x30AB;&#x30FC;
-  [<ind>&#x304D;&#x3083;&#x3093;&#x3074;&#x3093;&#x3050;&#x304B;&#x30FC;</ind>]</trd>
+  <trd lng="ja">&#12461;&#12515;&#12531;&#12500;&#12531;&#12464;&#12459;&#12540;
+  [<ind>&#12365;&#12419;&#12435;&#12404;&#12435;&#12368;&#12363;&#12540;</ind>]</trd>
   <trdgrp lng="nl">
     <trd>kampeerauto</trd>,
     <trd>camper</trd>,
@@ -579,7 +626,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Straznickas</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006830.html">Litovio &#x2010;
+          <vrk><url ref="&Steloj;monato2/006830.html">Litovio &#8208;
           Britio: Kontrabanditaj cigaredoj invadas Brition</url></vrk>
         </fnt>;
       </ekz>
@@ -590,12 +637,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006857.html">Trafiko:
+          <vrk><url ref="&Steloj;monato2/006857.html">Trafiko:
           Danuba &scirc;iptrafiko paralizita</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        mi <klr>[&#x2026;]</klr> kun kortu&scirc;o memoras pri amiko mia, 
+        mi <klr>[&#8230;]</klr> kun kortu&scirc;o memoras pri amiko mia, 
         portugala &scirc;ar&gcirc;<tld/>o-kondukisto
         <fnt><bib>Plumamikoj</bib></fnt>.
       </ekz>
@@ -621,9 +668,9 @@
     <trd>furgone</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x30C8;&#x30E9;&#x30C3;&#x30AF; [<ind>&#x3068;&#x3089;&#x3063;&#x304F;</ind>]</trd>,
-    <trd>&#x8CA8;&#x7269;&#x81EA;&#x52D5;&#x8ECA;
-    [<ind>&#x304B;&#x3082;&#x3064;&#x3058;&#x3069;&#x3046;&#x3057;&#x3083;</ind>]</trd>
+    <trd>&#12488;&#12521;&#12483;&#12463; [<ind>&#12392;&#12425;&#12387;&#12367;</ind>]</trd>,
+    <trd>&#36008;&#29289;&#33258;&#21205;&#36554;
+    [<ind>&#12363;&#12418;&#12388;&#12376;&#12393;&#12358;&#12375;&#12419;</ind>]</trd>
   </trdgrp>
   <trd lng="nl">vrachtwagen</trd>
   <trd lng="pl">ci&eogonek;&zdot;ar&oacute;wka</trd>
@@ -644,6 +691,7 @@
       <trd>Lastwagenfahrer</trd>
     </trdgrp>
   </snc>
+  <trd lng="be">&c_k;&c_ib;&c_r;&c_o;&c_w;&c_c;&c_a; &c_g;&c_r;&c_u;&c_z;&c_a;&c_v;&c_ib;&c_k;&c_a;</trd>
   <trd lng="en">truck driver</trd>
   <trd lng="fr">camionneur</trd>
   <trd lng="hu">kamionsof&odblac;r</trd>
@@ -661,6 +709,18 @@
 </art>
 <!--
 $Log$
+versio 1.122 2022/05/31 21:28:20
+Jeromo Vasxe: ~i: + 1 ref
+
+versio 1.121 2022/04/26 14:57:17
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.120 2022/04/25 15:11:00
+aktualigo ligvokodoj kaj URL-unuoj
+
+versio 1.118 2022/03/16 09:30:12
+Dmitri Gabinski: + trd be
+
 versio 1.44 2021/01/30 16:11:14
 Aleks Andre: +trd bo
 

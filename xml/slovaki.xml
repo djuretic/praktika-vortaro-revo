@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: slovaki.xml,v 1.7 2019/06/30 18:21:49 revo Exp $">
+<art mrk="$Id: slovaki.xml,v 1.9 2022/03/27 17:06:36 revo Exp $">
 <kap>
   <rad>Slovaki</rad>/o
 </kap>
@@ -29,7 +28,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        ekde majo 2004 <tld/>o <klr>[&#8230;]</klr> estos membro de E&ubreve;ropa Unio
+        ekde majo 2004 <tld/>o <klr>[&#x2026;]</klr> estos membro de E&ubreve;ropa Unio
         <fnt>
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
@@ -41,11 +40,12 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Monato;/2004/008396.html">Profunda struktur&scirc;an&gcirc;o en meza kaj orienta E&ubreve;ropo</url></vrk>
+          <vrk><url ref="&Monato;/2004/008396.html">Profunda struktur&scirc;an&gcirc;o en meza kaj orienta
+          E&ubreve;ropo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        al la ekesto de slovakaj popolaj kostumoj kontribuis <klr>[&#8230;]</klr> la klimataj
+        al la ekesto de slovakaj popolaj kostumoj kontribuis <klr>[&#x2026;]</klr> la klimataj
         kaj geografiaj kondi&ccirc;oj en <tld/>o, kiu havas kaj ebena&jcirc;ojn kaj altmontarojn
         <fnt>
           <bib>Monato</bib>
@@ -56,6 +56,10 @@
     </dif>
     <trd lng="de">Slowakei</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_S;&c_l;&c_a;&c_v;&c_a;&c_k;&c_ib;&c_ja;</trd>,
+    <trd>&c_S;&c_l;&c_a;&c_v;&c_a;&c_ch;&c_ch;&c_y;&c_n;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>Slovaquie</trd>,
     <trd>R&eacute;publique slovaque</trd>
@@ -65,12 +69,16 @@
     <trd>S&lstroke;owacja</trd>,
     <trd>Republika <ind>S&lstroke;owacji</ind></trd>
   </trdgrp>
+  <trd lng="uk">&#x421;&#x43B;&#x43E;&#x432;&#x430;&#x447;&#x447;&#x438;&#x43D;&#x430;</trd>
 </drv>
 
 </art>
 
 <!--
 $Log$
+versio 1.8 2022/01/24 08:34:55
+Dmitri Gabinski: + trd be, ru
+
 Revision 1.6  2019/02/07 17:10:25  revo
 Wolfram Diestel: +ekz-oj
 
@@ -88,6 +96,5 @@ Luiz Portella: kor. ref k mrk
 
 Revision 1.1  2009/05/07 16:31:06  revo
 Sebastian Cyprych: nova artikolo
-
 -->
 </vortaro>

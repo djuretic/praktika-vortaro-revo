@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kolor.xml,v 1.83 2021/06/19 05:58:41 revo Exp $">
+<art mrk="$Id: kolor.xml,v 1.126 2022/05/01 08:09:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kolor</rad>/o <fnt><bib>PV</bib></fnt>
@@ -75,7 +75,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la ruso havis &ccirc;evalon <klr>[&#x2026;]</klr> de <tld/>o blanka, la
+        la ruso havis &ccirc;evalon <klr>[&#8230;]</klr> de <tld/>o blanka, la
         tataro havis bonan
         nigran &ccirc;evalon
         <fnt>
@@ -103,7 +103,7 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Gilbert Ledon</aut>
-            <vrk><url ref="https://www.monato.be/2003/008040.html">Kvina
+            <vrk><url ref="&Monato;/2003/008040.html">Kvina
             povo</url></vrk>
             <lok>2003</lok>
           </fnt>;
@@ -114,8 +114,8 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Christian Fabossou</aut>
-            <vrk><url ref="http://steloj.de/esperanto/monato2/007042.html">Afriko:
-            &Scirc;an&gcirc;oj &#x2010; ankora&ubreve; ne sufi&ccirc;aj</url></vrk>
+            <vrk><url ref="&Steloj;monato2/007042.html">Afriko:
+            &Scirc;an&gcirc;oj &#8208; ankora&ubreve; ne sufi&ccirc;aj</url></vrk>
           </fnt>.
         </ekz>
       </dif>
@@ -185,13 +185,18 @@
       <trd lng="ru">&c_o;&c_k;&c_r;&c_a;&c_s;&c_k;&c_a;</trd>
     </subsnc>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_o;&c_l;&c_je;&c_r;</trd>,
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;</trd>,
+    <trd>&c_a;&c_f;&c_a;&c_r;&c_b;&c_o;&c_w;&c_k;&c_a;</trd>
+  </trdgrp>
   <trd lng="af">kleur</trd>
-  <trd lng="am">&#x1240;&#x1208;&#x121D;</trd>
-  <trd lng="ar">&#x644;&#x648;&#x646;</trd>
-  <trd lng="az">r&#x259;ng</trd>
+  <trd lng="am">&#4672;&#4616;&#x121D;</trd>
+  <trd lng="ar">&a_l;&a_w;&a_n;</trd>
+  <trd lng="az">r&#601;ng</trd>
   <trd lng="bg">&c_c;&c_v;&c_ja;&c_t;</trd>
-  <trd lng="bn">&#x9B0;&#x999;</trd>
-  <trd lng="bo">&#xF5A;&#xF7C;&#xF53;&#xF0B;&#xF58;&#xF51;&#xF7C;&#xF42;&#xF0B;</trd>
+  <trd lng="bn">&#x9B0;&#2457;</trd>
+  <trd lng="bo">&t_tsha;&t_naro;&t_na;&t_tsheg;&t_ma;&t_da;&t_naro;&t_ga;&t_tsheg;</trd>
   <trd lng="br">liv</trd>
   <trd lng="bs">u boji</trd>
   <trd lng="co">culore</trd>
@@ -200,11 +205,15 @@
     <trd>instrukce pro nastaven&iacute; barevn&eacute;ho
     v&yacute;stupu</trd>
   </trdgrp>
+  <trd lng="cy">lliw</trd>
   <trd lng="da">farve</trd>
   <trd lng="de">Farbe</trd>
-  <trd lng="en">color</trd>
+  <trdgrp lng="en">
+    <trd>color</trd>,
+    <trd>colour</trd>
+  </trdgrp>
   <trd lng="es">color</trd>
-  <trd lng="et">v&#xE4;rv</trd>
+  <trd lng="et">v&auml;rv</trd>
   <trd lng="eu">kolorea</trd>
   <trdgrp lng="fr">
     <trd>couleur</trd>,
@@ -213,48 +222,79 @@
     <trd>ton<klr tip="ind"> (coloris)</klr></trd>
   </trdgrp>
   <trd lng="fy">kleur</trd>
+  <trd lng="ga">dath</trd>
+  <trd lng="gd">dath</trd>
   <trd lng="gl">cor</trd>
   <trd lng="gu">&#xAB0;&#xA82;&#xA97;</trd>
   <trd lng="ha">launi</trd>
-  <trd lng="hi">&#x930;&#x902;&#x917;</trd>
+  <trd lng="hi">&#2352;&#2306;&#2327;</trd>
+  <trd lng="hmn">xim nqaij daim tawv</trd>
   <trd lng="hr">boja</trd>
-  <trd lng="hy">&#x563;&#x578;&#x582;&#x575;&#x576;</trd>
+  <trd lng="ht">koul&egrave;</trd>
+  <trd lng="hy">&#1379;&#1400;&#1410;&#1397;&#1398;</trd>
   <trd lng="id">warna</trd>
+  <trd lng="ig">agba</trd>
   <trd lng="is">lit</trd>
   <trd lng="ja">&#x30AB;&#x30E9;&#x30FC;</trd>
-  <trd lng="jw">werna</trd>
+  <trd lng="jv">werna</trd>
   <trd lng="ka">&#x10E4;&#x10D4;&#x10E0;&#x10D8;</trd>
-  <trd lng="km">&#x1796;&#x178E;&#x17CC;</trd>
+  <trd lng="kk">&c_t;&#x4AF;&c_s;</trd>
+  <trd lng="km">&#6038;&#x178E;&#x17CC;</trd>
+  <trd lng="kn">&#xCAC;&#xCA3;&#xCCD;&#xCA3;</trd>
   <trd lng="ko">&#xC0C9;</trd>
+  <trd lng="ku">reng</trd>
+  <trd lng="ky">&c_t;&#x4AF;&c_s;</trd>
+  <trd lng="lat">colorem</trd>
   <trd lng="lo">&#xEAA;&#xEB5;</trd>
+  <trd lng="lt">spalva</trd>
+  <trd lng="lv">kr&amacron;su</trd>
+  <trd lng="mg">loko</trd>
+  <trd lng="mi">te tae</trd>
+  <trd lng="mk">&c_b;&c_o;&#1112;&c_a;</trd>
   <trd lng="ml">&#xD28;&#xD3F;&#xD31;&#xD02;</trd>
-  <trd lng="mr">&#x930;&#x902;&#x917;</trd>
-  <trd lng="my">&#x1021;&#x101B;&#x1031;&#x102C;&#x1004;&#x103A;</trd>
-  <trd lng="ne">&#x930;&#x919;</trd>
+  <trd lng="mn">&#x4E9;&c_n;&c_g;&#x4E9;</trd>
+  <trd lng="mr">&#2352;&#2306;&#2327;</trd>
+  <trd lng="ms">warna</trd>
+  <trd lng="mt">kulur</trd>
+  <trd lng="my">&#4129;&#x101B;&#4145;&#x102C;&#4100;&#x103A;</trd>
+  <trd lng="ne">&#2352;&#2329;</trd>
   <trd lng="nl">kleur</trd>
   <trd lng="ny">mtundu</trd>
   <trd lng="pa">&#xA30;&#xA70;&#xA17; &#xA39;&#xA48;</trd>
-  <trd lng="ps">&#x631;&#x646;&#x6AB;</trd>
+  <trd lng="ps">&a_r;&a_n;&#x6AB;</trd>
   <trdgrp lng="pt">
     <trd>cor</trd>,
     <trd>colorido</trd>,    
     <trd>timbre <klr tip="amb">(de voz)</klr></trd>
   </trdgrp>
-  <trd lng="sd">&#x631;&#x646;&#x6AF;</trd>
+  <trd lng="rw">ibara</trd>
+  <trd lng="sd">&a_r;&a_n;&f_g;</trd>
   <trd lng="si">&#xDC0;&#xDBB;&#xDCA;&#xDAB;</trd>
   <trd lng="sk">farebn&yacute; odtie&ncaron;</trd>
+  <trd lng="sl">barva</trd>
+  <trd lng="sm">lanu</trd>
+  <trd lng="sn">ruvara</trd>
+  <trd lng="so">midabka</trd>
   <trd lng="sq">ngjyra</trd>
   <trd lng="st">mmala</trd>
+  <trd lng="su">warna</trd>
   <trd lng="sv">f&auml;rg</trd>
+  <trd lng="sw">rangi</trd>
   <trd lng="ta">&#xBB5;&#xBA3;&#xBCD;&#xBA3;</trd>
   <trd lng="te">&#xC30;&#xC02;&#xC17;&#xC41;</trd>
+  <trd lng="tg">&c_r;&c_a;&c_n;&c_g;</trd>
   <trd lng="th">&#xE2A;&#xE35;</trd>
   <trd lng="tl">kulay</trd>
-  <trd lng="tp">kule</trd>
+  <trd lng="tok">kule</trd>
   <trd lng="tr">renk</trd>
-  <trd lng="ur">&#x631;&#x646;&#x6AF;&#x6CC;&#x646;</trd>
-  <trd lng="vi">m&#xE0;u</trd>
-  <trd lng="yi">&#x5E7;&#x5D0;&#x5B8;&#x5DC;&#x5D9;&#x5E8;</trd>
+  <trd lng="tt">&c_t;&#x4E9;&c_s;</trd>
+  <trd lng="uk">&c_k;&c_o;&c_l;&c_ib;&c_r;</trd>
+  <trd lng="ur">&a_r;&a_n;&f_g;&f_y;&a_n;</trd>
+  <trd lng="uz">rang</trd>
+  <trd lng="vi">m&agrave;u</trd>
+  <trd lng="xh">umbala</trd>
+  <trd lng="yi">&qof;&alef;&#x5B8;&lamed;&yod;&resh;</trd>
+  <trd lng="yo">aw&#x1ECD;</trd>
   <trd lng="zu">umbala</trd>
 </drv>
 
@@ -354,6 +394,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_l;&c_ja;&c_r;&c_o;&c_v;&c_y;</trd>
   <trdgrp lng="bg">
     <trd>&c_o;&c_c;&c_v;&c_je;&c_t;&c_je;&c_n;</trd>,
     <trd>&c_c;&c_v;&c_je;&c_t;&c_n;&c_o;&c_k;&c_o;&c_zh;</trd>
@@ -364,7 +405,10 @@
     <trd>barvit&yacute;</trd>
   </trdgrp>
   <trd lng="de">farbig</trd>
-  <trd lng="en">colored</trd>
+  <trdgrp lng="en">
+    <trd>colored</trd>,
+    <trd>coloured</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>color&eacute;</trd>
   </trdgrp>
@@ -384,11 +428,12 @@
     <trd>pestr&yacute;</trd>,
     <trd>viacfarebn&yacute;</trd>
   </trdgrp>
-  <trd lng="tp">kule</trd>
+  <trd lng="tok">kule</trd>
   <trdgrp lng="tr">
     <trd>renkli</trd>,
     <trd>boyal&inodot;</trd>
   </trdgrp>
+  <trd lng="uk">&#x43A;&#x43E;&#x43B;&#x44C;&#x43E;&c_r;&#x43E;&c_v;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="kolor.0i">
@@ -420,11 +465,15 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_f;&c_a;&c_r;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_o;&c_c;&c_v;&c_je;&c_t;&c_ja;&c_v;&c_a;&c_m;</trd>
   <trd lng="ca">colorar</trd>
   <trd lng="cs">kolorovat</trd>
   <trd lng="de">f&auml;rben</trd>
-  <trd lng="en">color</trd>
+  <trdgrp lng="en">
+    <trd>color</trd>,
+    <trd>colour</trd>
+  </trdgrp>
   <trd lng="fr">colorer</trd>
   <trd lng="id">me<ind>warna</ind>i</trd>
   <trdgrp lng="nl">
@@ -443,10 +492,15 @@
   </trdgrp>
   <trd lng="sk">kolorova&tcaron;</trd>
   <trd lng="sv">f&auml;rga</trd>
-  <trd lng="tp">kule</trd>
+  <trd lng="tok">kule</trd>
   <trdgrp lng="tr">
     <trd>boyamak</trd>,
     <trd>renk vermek</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_b;&c_a;&c_r;&c_v;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_b;&c_a;&c_r;&c_v;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43D;&c_a;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a;&c_b;&c_a;&c_r;&c_v;&#x43B;&c_je;&#x43D;&#x43D;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -491,6 +545,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_f;&c_a;&c_r;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_b;&c_o;&c_ja;&c_d;&c_i;&c_s;&c_v;&c_a;&c_m;</trd>
   <trd lng="br">liva&ntilde;</trd>
   <trd lng="ca">acolorir</trd>
@@ -499,7 +554,10 @@
     <trd>nechat omalovat</trd>
   </trdgrp>
   <trd lng="de">bemalen</trd>
-  <trd lng="en">color</trd>
+  <trdgrp lng="en">
+    <trd>color</trd>,
+    <trd>colour</trd>
+  </trdgrp>
   <trd lng="fr">colorier</trd>
   <trd lng="id">menge<ind>cat</ind></trd>
   <trdgrp lng="nl">
@@ -524,6 +582,10 @@
   <trdgrp lng="tr">
     <trd>renklendirmek</trd>,
     <trd>boyamak</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_f;&c_a;&c_r;&c_b;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -550,12 +612,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Robert Roze</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006945.html">Francio:
+          <vrk><url ref="&Steloj;monato2/006945.html">Francio:
           Flagrantaj koloroj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;</trd>
+  </trdgrp>
   <trd lng="bg">&c_b;&c_o;&c_ja;</trd>
   <trdgrp lng="ca">
     <trd>pintura</trd>,
@@ -563,7 +629,14 @@
   </trdgrp>
   <trd lng="cs">barva</trd>
   <trd lng="de">Farbe</trd>
-  <trd lng="en">paint</trd>
+  <trdgrp lng="en">
+    <trd>paint</trd>,
+    <trd>colourant</trd>,
+    <trd>colour</trd>,
+    <trd>dye</trd>,
+    <trd>color</trd>,
+    <trd>colorant</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>peinture<klr tip="ind"> (produit &agrave; base de
     pigments)</klr></trd>,
@@ -577,6 +650,10 @@
   </trdgrp>
   <trd lng="sk">farba</trd>
   <trd lng="tr">boya</trd>
+  <trdgrp lng="uk">
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;</trd>,
+    <trd>&c_r;&c_ib;&c_d;&c_sh;&c_je; &#x43A;&c_r;&c_a;&c_s;&#x43A;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolor.0igisto">
@@ -618,7 +695,7 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Franz-Georg R&ouml;ssler</aut>
-            <vrk><url ref="https://www.monato.be/2013/010812.php">Po&scirc;to
+            <vrk><url ref="&Monato;/2013/010812.php">Po&scirc;to
             perdita</url></vrk>
             <lok>2013</lok>
           </fnt>.
@@ -630,13 +707,13 @@
       <dif>
         <ref tip="dif" cel="farb.0isto">Farbisto</ref>:
         <ekz>
-          li ellernis la farbistan metion <klr>[&#x2026;]</klr> kaj poste
+          li ellernis la farbistan metion <klr>[&#8230;]</klr> kaj poste
           laboris kiel
           farbisto-<tld/>igisto en diversaj konstrufirmaoj en Vieno
           <fnt>
             <bib>Monato</bib>
             <aut>Julius Hauser</aut>
-            <vrk><url ref="https://www.monato.be/2014/011335.php">Pentristo de la
+            <vrk><url ref="&Monato;/2014/011335.php">Pentristo de la
             homo kaj de la naturo</url></vrk>
             <lok>2014</lok>
           </fnt>.
@@ -646,12 +723,20 @@
     <trd lng="de">Illustrator</trd>
   </snc>
   <trd lng="cs">mal&iacute;&rcaron; pokoj&uring;</trd>
+  <trdgrp lng="en">
+    <trd>painter</trd>,
+    <trd>dyer</trd>
+  </trdgrp>
   <trdgrp lng="id">
     <trd>penge<ind>cat</ind></trd>,
     <trd><ind>tukang</ind> cat</trd>
   </trdgrp>
   <trd lng="nl">verver</trd>
   <trd lng="sk">maliar izieb</trd>
+  <trdgrp lng="uk">
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;&c_r;</trd>,
+    <trd>&#x43A;&c_r;&c_a;&c_s;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolor.0ilo">
@@ -675,6 +760,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_f;&c_a;&c_r;&c_b;&c_a;</trd>
+  </trdgrp>
   <trd lng="ca">pintura</trd>
   <trd lng="cs">barva <klr>(n&aacute;t&ecaron;r.hmota)</klr></trd>
   <trd lng="de">Farbe</trd>
@@ -696,6 +785,7 @@
   </trdgrp>
   <trd lng="sk">farba <klr>(n&aacute;terov&aacute; hmota)</klr></trd>
   <trd lng="tr">boya</trd>
+  <trd lng="uk">&c_b;&c_a;&c_r;&c_v;&#x43D;&c_i;&#x43A;</trd>
 </drv>
 
 <drv mrk="kolor.0isto">
@@ -724,14 +814,19 @@
       <trd>Colorist</trd>
     </trdgrp>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_l;&c_ja;&c_r;&c_y;&c_s;&c_t;</trd>
   <trd lng="br">liver</trd>
   <trd lng="ca">colorista</trd>
   <trd lng="cs">mal&iacute;&rcaron; pokoj&uring;</trd>
-  <trd lng="en">colorist</trd>
+  <trdgrp lng="en">
+    <trd>colorist</trd>,
+    <trd>colourist</trd>
+  </trdgrp>
   <trd lng="fr">coloriste</trd>
   <trd lng="nl">colorist</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_o;&c_r;&c_i;&c_s;&c_t;</trd>
   <trd lng="sk">maliar izieb</trd>
+  <trd lng="uk">&#x43A;&#x43E;&#x43B;&#x43E;&c_r;&c_i;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="kolor.divers0a">
@@ -774,6 +869,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_sh;&c_m;&c_a;&c_t;&c_k;&c_o;&c_l;&c_je;&c_r;&c_n;&c_y;</trd>,
+    <trd>&c_sh;&c_m;&c_a;&c_t;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_o;&c_v;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>policrom</trd>,
     <trd>virolat</trd>
@@ -783,6 +882,12 @@
     <trd>strakat&yacute;</trd>
   </trdgrp>
   <trd lng="de">verschiedenfarbig</trd>
+  <trdgrp lng="en">
+    <trd>multicoloured</trd>,
+    <trd>multicolored</trd>,
+    <trd>colorful</trd>,
+    <trd>colourful</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>multicolore</trd>,
     <trd>polychrome</trd>
@@ -807,6 +912,11 @@
     <trd>&ccedil;ok renkli</trd>,
     <trd>reng&acirc;renk</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_ib;&c_z;&#x43D;&#x43E;&#x43A;&#x43E;&#x43B;&#x44C;&#x43E;&c_r;&#x43E;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_r;&c_ib;&c_z;&#x43D;&#x43E;&c_b;&c_a;&c_r;&c_v;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_r;&c_ib;&c_z;&#x43D;&#x43E;&#x43A;&#x43E;&#x43B;&c_ib;&c_r;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolor.dom0igisto">
@@ -816,6 +926,7 @@
     <uzo tip="fak">KON</uzo>
     <ref tip="dif" cel="farb.0isto">farbisto</ref>
   </snc>
+  <trd lng="be">&c_m;&c_a;&c_l;&c_ja;&c_r;</trd>
   <trd lng="ca">pintor <klr>(de parets)</klr></trd>
   <trd lng="de">Maler <klr>(Handwerker)</klr></trd>
   <trd lng="en">housepainter</trd>
@@ -842,7 +953,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la duonpatrino <klr>[&#x2026;]</klr> montris la&ccirc;on plektitan el
+        la duonpatrino <klr>[&#8230;]</klr> montris la&ccirc;on plektitan el
         mult<tld/>a silko
         <fnt><bib>ElektFab</bib>, <lok>Ne&gcirc;ulino</lok></fnt>;
       </ekz>
@@ -851,13 +962,17 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Laimius Stra&zcaron;nickas</aut>
-          <vrk><url ref="https://www.monato.be/2004/008267.html">Estigi
+          <vrk><url ref="&Monato;/2004/008267.html">Estigi
           lagetojn</url></vrk>
           <lok>2004</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_sh;&c_m;&c_a;&c_t;&c_k;&c_o;&c_l;&c_je;&c_r;&c_n;&c_y;</trd>,
+    <trd>&c_sh;&c_m;&c_a;&c_t;&c_k;&c_a;&c_l;&c_ja;&c_r;&c_o;&c_v;&c_y;</trd>
+  </trdgrp>
   <trd lng="bg">&c_k;&c_o;&c_l;&c_o;&c_r;&c_i;&c_t;&c_je;&c_n;</trd>
   <trd lng="ca">multicolor</trd>
   <trdgrp lng="cs">
@@ -865,6 +980,10 @@
     <trd>pestrobarevn&yacute;</trd>
   </trdgrp>
   <trd lng="de">bunt</trd>
+  <trdgrp lng="en">
+    <trd>multicolored</trd>,
+    <trd>multicoloured</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>chamarr&eacute;</trd>,
     <trd>multicolore</trd>,
@@ -883,6 +1002,12 @@
     <trd>pestrofarebn&yacute;</trd>,
     <trd>pestr&yacute;</trd>,
     <trd>viacfarebn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_b;&c_a;&c_r;&c_v;&c_i;&c_s;&c_t;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&#x43E;&c_b;&c_a;&c_r;&c_v;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&#x43E;&#x43A;&#x43E;&#x43B;&#x44C;&#x43E;&c_r;&#x43E;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_t;&c_r;&#x43E;&#x43A;&c_a;&c_t;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -912,6 +1037,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_b;&c_ja;&c_s;&c_k;&c_o;&c_l;&c_je;&c_r;&c_n;&c_y;</trd>
   <trd lng="bg">&c_b;&c_je;&c_z;&c_c;&c_v;&c_je;&c_t;&c_je;&c_n;</trd>
   <trd lng="ca">incolor</trd>
   <trd lng="cs">bezbarv&yacute;</trd>
@@ -926,6 +1052,7 @@
   <trd lng="nl">kleurloos</trd>
   <trd lng="pl">bezbarwny</trd>
   <trd lng="sk">bezfarebn&yacute;</trd>
+  <trd lng="uk">&c_b;&c_je;&c_z;&c_b;&c_a;&c_r;&c_v;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="kolor.son0o">
@@ -935,14 +1062,20 @@
     <dif>
       <ref tip="dif" cel="tembr.0o.MUZ">Tembro</ref>:
       <ekz>
-        efektdampiloj <klr>[&#x2026;]</klr> &scirc;an&gcirc;as precipe la son<tld/>on
+        efektdampiloj <klr>[&#8230;]</klr> &scirc;an&gcirc;as precipe la son<tld/>on
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=282654">Dampilo (muzikinstrumento)</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=282654">Dampilo
+          (muzikinstrumento)</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_f;&c_a;&c_r;&c_b;&c_o;&c_w;&c_k;&c_a; <klr>(&c_g;&c_u;&c_k;&c_u;,
+    &c_g;&c_o;&c_l;&c_a;&c_s;&c_u;)</klr></trd>,
+    <trd>&c_t;&c_e;&c_m;&c_b;&c_r;</trd>
+  </trdgrp>
   <trd lng="bg">&c_t;&c_je;&c_m;&c_b;&c_malmol;&c_r;</trd>
   <trd lng="ca">timbre</trd>
   <trdgrp lng="cs">
@@ -969,6 +1102,10 @@
     <trd>farba hlasu</trd>,
     <trd>farba zvuku</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_t;&c_je;&#x43C;&c_b;&c_r;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_t;&c_ib;&#x43D;&#x43E;&#x43A; &c_z;&c_v;&c_u;&#x43A;&c_u;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolor.sxangx0a">
@@ -988,9 +1125,11 @@
       </ekz>     
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_l;&c_ib;&c_v;&c_ib;&c_s;&c_t;&c_y; <klr>(&c_p;&c_r;&c_a; &c_k;&c_o;&c_l;&c_je;&c_r;)</klr></trd>
   <trd lng="ca">tornassolat</trd>
   <trd lng="fr">chatoyant</trd>
   <trd lng="nl">kleurrijk</trd>
+  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&#x43B;&c_i;&c_v;&c_ch;&c_a;&c_s;&c_t;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="kolor.tri0eto">
@@ -1013,13 +1152,13 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj'</aut>
-          <vrk><url ref="https://www.monato.be/2015/011315.php">La
+          <vrk><url ref="&Monato;/2015/011315.php">La
           islanda: revo de ne plu juna lernemulo</url></vrk>
           <lok>2015</lok>
         </fnt>;
       </ekz>
       <ekz>
-        li <klr>[&#x2026;]</klr> veturis sur la tri<tld/>etoj
+        li <klr>[&#8230;]</klr> veturis sur la tri<tld/>etoj
         &ccirc;irka&ubreve; la monumento 
         <fnt>
           <aut>A. Gregor, trad. J. Chvosta</aut>,
@@ -1031,6 +1170,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_b;&c_r;&c_a;&c_t;&c_k;&c_ib; <klr>(&c_k;&c_v;&c_je;&c_t;&c_k;&c_a;)</klr></trd>
   <trd lng="bg">&c_t;&c_je;&c_m;&c_je;&c_n;&c_u;&c_g;&c_i;</trd>
   <trdgrp lng="cs">
     <trd>mace&scaron;ka</trd>,
@@ -1055,6 +1195,7 @@
   </trdgrp>
   <trd lng="sk">sir&ocirc;tka</trd>
   <trd lng="sv">styvmorsviol</trd>
+  <trd lng="uk">&c_b;&c_r;&c_a;&c_t;&#x43A;&c_i;</trd>
 </drv>
 
 <drv mrk="kolor.tri0o">
@@ -1075,41 +1216,92 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jozefo Horv&aacute;th</aut>
-          <vrk><url ref="https://www.monato.be/2006/009060.php">Tra
+          <vrk><url ref="&Monato;/2006/009060.php">Tra
           infanaj okuloj: memoroj pri la eventoj de '56</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_r;&c_y;&c_k;&c_a;&c_l;&c_jo;&c_r;</trd>
   <trd lng="de">Trikolore</trd>
+  <trdgrp lng="en">
+    <trd>tricolour</trd>,
+    <trd>tricolor</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kolor.vaks0a">
+  <kap>
+    vaks<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="pal.0a.vizagxe">Pala</ref>, sensanga:
+      <ekz>
+        sur liaj vaks<tld/>aj vangoj ekbrulis ru&gcirc;aj makuloj
+        <fnt>
+          <bib>KKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        blanke uniformitaj homoj, kun vaks<tld/>aj viza&gcirc;oj
+        <fnt>
+          <bib>KrM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la komandanto nur retrovis malfeli&ccirc;an knabinon palan, sensangan, vakso<tld/>an,
+        pli bezonantan flegistinon ol amanton
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kolor.sen0a">senkolora</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_l;&c_je;&c_d;&c_n;&c_y;</trd>,
+    <trd>&c_b;&c_ja;&c_s;&c_k;&c_r;&c_o;&c_w;&c_n;&c_y;</trd>,
+    <trd>&c_v;&c_a;&c_s;&c_k;&c_o;&c_v;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>w&auml;chsern</trd>,
+    <trd>bleich</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_v;&#x43E;&c_shch;&c_a;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_b;&#x43B;&c_ib;&c_d;&#x43E;-&c_zh;&#x43E;&c_v;&c_t;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 
 </art>
 <!--
 $Log$
+versio 1.126 2022/05/01 08:09:24
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.125 2022/04/22 07:29:47
+Dmitri Gabinski: + trd be
+
+versio 1.119 2021/11/16 14:38:23
+Dmitri Gabinski: + trd be
+
+versio 1.118 2021/11/10 15:41:11
+Noam Mohr: +trd en kolor-
+
+versio 1.117 2021/08/22 08:30:01
+Wolfram Diestel: +vaks~a
+
+versio 1.116 2021/07/09 07:27:20
+Dmitri Gabinski: + trd be
+
 versio 1.39 2021/04/11 17:29:52
 Wolfram Diestel: +lst ~oj
 
 versio 1.38 2020/05/06 15:10:28
-Eko Nur Syah Hidayat: korekteto
-
-Revision 1.36  2019/11/21 18:10:16  revo
-Wolfram Diestel: ~o: dif; ~o,~a: ekz-oj; + tri~o (flago)
-
-Revision 1.35  2018/05/20 22:10:20  revo
-Dusan Jureti&cacute;: +trd es
-
-Revision 1.34  2018/05/03 08:10:16  revo
-Jeromo Vasxe: memstar. miks~a sxangx~a, roz~a -> roz.xml
-
-Revision 1.33  2018/04/28 05:10:15  revo
-Eko Nur Syah Hidayat: +trd id kaj kelkaj korektoj
-
-Revision 1.32  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.31  2015/06/29 16:33:17  revo
 -->
 </vortaro>

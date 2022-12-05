@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: afiks.xml,v 1.29 2021/02/28 12:05:15 revo Exp $">
+<art mrk="$Id: afiks.xml,v 1.34 2022/04/26 14:57:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>afiks</rad>/o <fnt><bib>LR</bib></fnt>
@@ -17,7 +17,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
-          <vrk><url ref="https://www.monato.be/2003/007928.html">E&ccirc; se
+          <vrk><url ref="&Monato;/2003/007928.html">E&ccirc; se
           vi ne estas aviadisto ...</url></vrk>
           <lok>2003</lok>
         </fnt>;
@@ -45,16 +45,15 @@
       <ekz>
         la derivado per <tld/>oj estas en Esperanto eble la plej
         grava metodo de la kreado de unuvortaj terminoj
-        <fnt><bib>TermKurs</bib>, <lok>&para;6.3</lok></fnt>;
+        <fnt><bib>TermKurs</bib> <lok>&para;6.3</lok></fnt>;
       </ekz>
       <ekz>
         pro kiu diabla ka&ubreve;zo devas havi Esperanto simplan
-        <tld/>o-sistemon, se neniu
-        alia havas
+        <tld/>o-sistemon, se neniu alia havas
         <fnt>
           <bib>Monato</bib>
           <aut>Yamasaki Seik&ocirc;</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006803.html">Reago:
+          <vrk><url ref="&Steloj;monato2/006803.html">Reago:
           Supersignoj, pro kiu diabla ka&ubreve;zo?</url></vrk>
         </fnt>?
       </ekz>
@@ -67,7 +66,7 @@
     <ref tip="vid" cel="fleksi.0o">fleksio</ref>
   </snc>
   <trd lng="be">&c_a;&c_f;&c_ib;&c_k;&c_s;</trd>
-  <trd lng="he">&#x5E7;&#x5D9;&#x5D3;&#x5D5;&#x5DE;&#x5EA; &#x5D0;&#x5D5; &#x5E1;&#x5D9;&#x5D5;&#x5DE;&#x5EA;</trd>
+  <trd lng="he">&qof;&yod;&dalet;&vav;&mem;&tav; &alef;&vav; &samekh;&yod;&vav;&mem;&tav;</trd>
   <trd lng="ms">imbuhan</trd>
   <trdgrp lng="bg">
     <trd>&c_a;&c_f;&c_i;&c_k;&c_s;</trd>,
@@ -110,6 +109,10 @@
   <trdgrp lng="sv">
     <trd>affix</trd>,
     <trd>till&auml;ggsstavelse</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x430;&#x444;&#x456;&#x43A;&#x441;</trd>,
+    <trd>&#x441;&#x43B;&#x43E;&#x432;&#x43E;&#x442;&#x432;&#x43E;&#x440;&#x447;&#x430; &#x447;&#x430;&#x441;&#x442;&#x43A;&#x430;</trd>
   </trdgrp>
 </drv>
 
@@ -168,19 +171,44 @@
   <trd lng="ru">&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
 </drv>
 
+<drv mrk="afiks.cxirkaux0o">
+  <kap>
+    &ccirc;irka&ubreve;<tld/>o
+  </kap>
+  <snc mrk="afiks.cxirkaux0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      Duparta <ref cel="afiks.0o.GRA">afikso</ref>
+      &ccirc;irka&ubreve;anta la vortparton, kiun &gcirc;i modifas:
+      <ekz>
+        en la germana multaj pasintaj participoj uzas la &ccirc;irka&ubreve;<tld/>on
+        <esc>ge- -t</esc> kiel <nac>gesagt</nac> (dirita)
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="https://lingvo.info/eo/babylon/morphology">Morfologio</url></vrk>
+          <lok>lingvo.info, 2022</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">circumfix</trd>
+  <trd lng="fr">circonfixe</trd>
+  <trd lng="it">circonfisso</trd>
+</drv>
+
 <drv mrk="afiks.en0o">
   <kap>en<tld/>o</kap>
   <snc mrk="afiks.en0o.GRA">
     <uzo tip="fak">GRA</uzo>
     <dif>
       <ref tip="super" cel="afiks.0o.GRA">Afikso</ref>
-      kiu enmeti&gcirc;as en la &ccirc;efparton de modifita vorto:
+      kiu enmeti&gcirc;as en la &ccirc;efparton de modifata vorto:
       <ekz>
         la morfologio uzas <klr>[&#x2026;]</klr> multajn <tld/>ojn 
         (anta&ubreve;<tld/>oj, post<tld/>oj, en<tld/>oj<klr>[&#x2026;]</klr>)
         <fnt>
           <bib>Viki</bib>,
-          <lok><url ref="http://eo.wikipedia.org/wiki/Ithkuil">
+          <lok><url ref="&Viki;/Ithkuil">
           Ithkuil</url>, 2010-11-14</lok>
         </fnt>.
       </ekz>
@@ -258,9 +286,44 @@
   <trd lng="ru">&c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
   <trd lng="sk">pr&iacute;pona</trd>
 </drv>
+
+<drv mrk="afiks.sxajn0o">
+  <kap>
+    &scirc;ajn<tld/>o
+  </kap>
+  <snc mrk="afiks.sxajn0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      Vortoparto, kiu samformas kun ekzistanta a&ubreve; supozebla <tld/>o,
+      sed ne funkcias kiel tia en la vorto:
+      <ekz>
+        &scirc;ajn<tld/>o [...] estas bona materialo por vortludoj
+        kaj &scirc;ercoj, sed ili anka&ubreve; povas ka&ubreve;zi problemojn,
+        precipe por komencantoj
+        <fnt>
+          <aut>B. Wennergren</aut>
+          <vrk><url ref="&PMEG;vortfarado/principoj/shajnkunmetajhoj.html">PMEG 2020</url></vrk>
+          <lok>2020</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.34 2022/04/26 14:57:17
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.33 2022/04/25 15:10:59
+aktualigo ligvokodoj kaj URL-unuoj
+
+versio 1.31 2022/03/02 21:29:07
+Jeromo Vasxe: + cxirkaux~o
+
+versio 1.30 2022/03/01 20:34:03
+Jeromo Vasxe: + sxajn~o
+
 Revision 1.26  2017/01/28 12:10:20  revo
 Adam Eng: + trd
 
@@ -271,14 +334,5 @@ Revision 1.24  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.23  2015/05/27 17:10:15  revo
-Joop Eggen: +trd bg
-
-Revision 1.22  2015/05/26 10:10:17  revo
-Joop Eggen: +trd bg en nl
-
-Revision 1.21  2014/05/08 18:10:41  revo
-Damien Brucker: +trd fr
-
-Revision 1.20  2013/04/09 10:10:41  revo
 -->
 </vortaro>

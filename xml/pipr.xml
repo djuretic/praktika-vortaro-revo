@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: pipr.xml,v 1.31 2020/04/30 15:10:30 revo Exp $">
+<art mrk="$Id: pipr.xml,v 1.33 2022/04/19 12:40:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pipr</rad>/o
@@ -76,6 +75,7 @@
   <trd lng="pl">pieprz</trd>
   <trd lng="pt">pimenta</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_c;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_c;&c_mol;</trd>
 </drv>
 
 <drv mrk="pipr.0arbeto">
@@ -94,10 +94,16 @@
   <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>  
   <trd lng="br">pebrenn</trd>
   <trd lng="de">Pfefferstrauch</trd>
+  <trdgrp lng="en">
+    <trd>black pepper plant</trd>,
+    <trd>peppercorn plant</trd>,
+    <trd>pepper tree</trd>
+  </trdgrp>
   <trd lng="es">pimentero</trd>
   <trd lng="nl">peperstruik</trd>
   <trd lng="hu">bors<klr tip="amb"> (cserje)</klr></trd>
-  <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_c; <klr tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_c; <klr
+  tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
 </drv>
 
 <drv mrk="pipr.0ujo">
@@ -107,8 +113,7 @@
   <snc mrk="pipr.0ujo.genro">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      <ref tip="lst" cel="genr.0o"
-      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      <ref tip="lst" cel="genr.0o" lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
       tip="malprt" cel="pipruj.0oj"><tld/>ujacoj</ref>
       (<trd lng="la">Piper</trd>), vegeta&jcirc;o produktanta la
       <tld/>on.
@@ -122,7 +127,8 @@
     <trd lng="en">pepper tree</trd>
     <trd lng="hu">bors<klr tip="amb"> (cserje)</klr></trd>
     <trd lng="nl">peperboom</trd>
-    <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_c; <klr tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+    <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_c; <klr
+    tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
   </snc>
   <snc mrk="pipr.0ujo.mangxilo">
     <uzo tip="fak">KUI</uzo>
@@ -135,8 +141,7 @@
         nombro a&ubreve; diametro de la eliraj truoj
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=505960">Salujo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=505960">Salujo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -149,7 +154,9 @@
   
   <trdgrp lng="en">
     <trd>pepper shaker</trd>,
-    <trd>pepper cellar</trd>
+    <trd>pepper cellar</trd>,
+    <trd>black pepper plant</trd>,
+    <trd>peppercorn plant</trd>
   </trdgrp>
   <trd lng="es">pimentero</trd>
   <trd lng="fr">poivri&egrave;re</trd>
@@ -160,6 +167,7 @@
   <trd lng="nl">peperbus</trd>
   <trd lng="pl">pieprzniczka</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_ch;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_ch;&c_n;&c_i;&c_c;&c_ja;</trd>
 </drv>
 
 <drv mrk="pipr.0i">
@@ -184,6 +192,7 @@
   <trd lng="nl">peperen</trd>
   <trd lng="pl">pieprzy&cacute;</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_ch;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_ch;&c_i;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="pipr.rugxa0o">
@@ -211,6 +220,11 @@
   <ind>&c_p;&c_je;&c_r;&c_a;&c_c;</ind></trd>  
   <trd lng="br">paprika</trd>
   <trd lng="de">Paprikagew&uuml;rz</trd>
+  <trdgrp lng="en">
+    <trd>red pepper</trd>,
+    <trd>Cayenne pepper</trd>,
+    <trd>paprika</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>piment&oacute;n</trd>,
     <trd>paprika</trd>
@@ -224,6 +238,9 @@
 </art>
 <!--
 $Log$
+versio 1.33 2022/04/19 12:40:27
+Noam Mohr: +trd en pipr-
+
 Revision 1.29  2016/09/01 11:10:13  revo
 Guillermo Molleda Jimena: trd es
 

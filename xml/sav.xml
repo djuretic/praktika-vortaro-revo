@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sav.xml,v 1.68 2021/06/18 18:20:09 revo Exp $">
+<art mrk="$Id: sav.xml,v 1.105 2022/05/05 05:09:56 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sav</rad>/i
@@ -110,7 +110,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Marc Vanden Bempt kaj Paul Peeraerts</aut>
-          <vrk><url ref="https://www.monato.be/2009/009714.php">Savintoj ne savitaj</url></vrk>
+          <vrk><url ref="&Monato;/2009/009714.php">Savintoj ne savitaj</url></vrk>
           <lok>2009</lok>
         </fnt>;
       </ekz>
@@ -126,7 +126,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berverling</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006808.html">Etnaj Rilatoj: Kiam honoro fari&gcirc;as hororo</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006808.html">Etnaj Rilatoj: Kiam honoro fari&gcirc;as hororo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -134,7 +134,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Edmund Grimley Evans</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006801.html">Interreto: Uniksulo ekspertas Unikodon</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006801.html">Interreto: Uniksulo ekspertas Unikodon</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -154,7 +154,7 @@
   </snc>
   <trd lng="af">red</trd>
   <trd lng="am">&#x12A0;&#x1235;&#x1240;&#x121D;&#x1325;</trd>
-  <trd lng="ar">&#x62D;&#x641;&#x638;</trd>
+  <trd lng="ar">&a_H;&a_f;&a_Z;</trd>
   <trd lng="az">yadda saxla</trd>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -162,7 +162,7 @@
     <trd>&c_z;&c_a;&c_h;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="bn">&#x9B8;&#x982;&#x9B0;&#x995;&#x9CD;&#x9B7;&#x9A3;</trd>
-  <trd lng="bo">&#xF66;&#xF90;&#xFB1;&#xF7C;&#xF56;&#xF0B;&#xF54;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_kata;&t_yata;&t_naro;&t_ba;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trd lng="bs">spasiti</trd>
   <trd lng="ca">salvar</trd>
   <trd lng="co">sarvari</trd>
@@ -172,57 +172,90 @@
     <trd>vkl&aacute;dat</trd>,
     <trd>zapsat do pam&ecaron;ti</trd>
   </trdgrp>
+  <trd lng="cy">arbed</trd>
   <trd lng="da">spare</trd>
   <trd lng="de">retten</trd>
   <trd lng="en">save</trd>
   <trd lng="es">salvar</trd>
-  <trd lng="et">s&#xE4;&#xE4;sta</trd>
+  <trd lng="et">s&auml;&auml;sta</trd>
   <trd lng="eu">salbatu</trd>
   <trd lng="fr">sauver</trd>
-  <trd lng="fy">r&#xEA;de</trd>
+  <trd lng="fy">r&ecirc;de</trd>
+  <trd lng="ga">sh&aacute;bh&aacute;il</trd>
+  <trd lng="gd">s&agrave;bhail</trd>
   <trd lng="gl">gardar</trd>
   <trd lng="gu">&#xAB8;&#xAC7;&#xAB5;</trd>
   <trd lng="ha">ajiye</trd>
   <trd lng="hi">&#x92C;&#x91A;&#x93E;</trd>
+  <trd lng="hmn">txuag</trd>
   <trd lng="hr">spasiti</trd>
+  <trd lng="ht">sove</trd>
   <trd lng="hu">megment</trd>
   <trd lng="hy">&#x57A;&#x561;&#x570;&#x565;&#x56C;</trd>
+  <trd lng="ig">az&#x1ECD;p&#x1EE5;ta</trd>
   <trd lng="is">vista</trd>
   <trd lng="it">salvare</trd>
   <trd lng="ja">&#x4FDD;&#x5B58;</trd>
-  <trd lng="jw">nyimpen</trd>
+  <trd lng="jv">nyimpen</trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E0;&#x10E9;&#x10D4;&#x10DC;&#x10D0;</trd>
+  <trd lng="kk">&#x49B;&#x4B1;&c_t;&#x49B;&c_a;&c_r;&c_u;</trd>
   <trd lng="km">&#x179A;&#x1780;&#x17D2;&#x179F;&#x17B6;&#x1791;&#x17BB;&#x1780;</trd>
+  <trd lng="kn">&#xC89;&#xCB3;&#xCBF;&#xCB8;&#xCB2;&#xCC1;</trd>
   <trd lng="ko">&#xC800;&#xC7A5;</trd>
+  <trd lng="ku">rizgarkirin</trd>
+  <trd lng="ky">&c_k;&c_u;&c_t;&c_k;&c_a;&c_r;&c_u;&c_u;</trd>
+  <trd lng="lat">salvum</trd>
   <trd lng="lo">&#xE8A;&#xEC8;&#xEA7;&#xE8D;&#xE9B;&#xEB0;&#xEA2;&#xEB1;&#xE94;</trd>
+  <trd lng="lt">i&scaron;saugoti</trd>
+  <trd lng="lv">gl&#x101;bt</trd>
+  <trd lng="mg">afa</trd>
+  <trd lng="mi">whakaora</trd>
+  <trd lng="mk">&c_s;&c_p;&c_a;&c_s;&c_i;</trd>
   <trd lng="ml">&#xD05;&#xD32;&#xD4D;&#xD32;&#xD3E;&#xD24;&#xD46;</trd>
+  <trd lng="mn">&c_h;&c_a;&c_d;&c_g;&c_a;&c_l;&c_a;&c_h;</trd>
   <trd lng="mr">&#x91C;&#x924;&#x928;</trd>
+  <trd lng="ms">menyelamatkan</trd>
+  <trd lng="mt">jiffranka</trd>
   <trd lng="my">&#x1000;&#x101A;&#x103A;&#x1006;&#x101A;&#x103A;</trd>
   <trd lng="ne">&#x92C;&#x91A;&#x924;</trd>
   <trd lng="nl">redden</trd>
   <trd lng="ny">kupulumutsa</trd>
   <trd lng="pa">&#xA28;&#xA42;&#xA70; &#xA2C;&#xA1A;&#xA3E;</trd>
-  <trd lng="ps">&#x648;&#x698;&#x63A;&#x648;&#x631;&#x64A;</trd>
+  <trd lng="ps">&a_w;&f_zh;&a_gh;&a_w;&a_r;&a_y;</trd>
   <trd lng="pt">salvar</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_p;&c_a;&c_s;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_s;&c_t;&c_i;</trd>
   </trdgrp>
-  <trd lng="sd">&#x645;&#x62D;&#x641;&#x648;&#x638;</trd>
+  <trd lng="rw">kuzigama</trd>
+  <trd lng="sd">&a_m;&a_H;&a_f;&a_w;&a_Z;</trd>
   <trd lng="si">&#xDB6;&#xDDA;&#xDBB;&#xDCF;</trd>
   <trdgrp lng="sk">
     <trd>ulo&zcaron;i&tcaron;</trd>,
     <trd>zap&iacute;sa&tcaron; do pam&auml;te</trd>
   </trdgrp>
+  <trd lng="sl">shranite</trd>
+  <trd lng="sm">fa&#x2BB;aola</trd>
+  <trd lng="sn">kunze</trd>
+  <trd lng="so">badbaadin</trd>
   <trd lng="sq">ruani</trd>
+  <trd lng="st">pholosa</trd>
+  <trd lng="su">nyalametkeun</trd>
+  <trd lng="sw">kuokoa</trd>
   <trd lng="ta">&#xB95;&#xBBE;&#xBAA;&#xBCD;&#xBAA;&#xBBE;&#xBB1;&#xBCD;&#xBB1;</trd>
   <trd lng="te">&#xC38;&#xC47;&#xC35;&#xC4D;</trd>
+  <trd lng="tg">&c_n;&c_a;&#x4B7;&c_o;&c_t;</trd>
   <trd lng="th">&#xE1A;&#xE31;&#xE19;&#xE17;&#xE36;&#xE01;</trd>
   <trd lng="tl">i-save ang</trd>
-  <trd lng="ur">&#x6A9;&#x648; &#x628;&#x686;&#x627;&#x646;&#x6D2; &#x6A9;&#x6D2;</trd>
+  <trd lng="tt">&c_s;&c_a;&c_k;&c_l;&c_a;&c_g;&c_y;&c_z;</trd>
+  <trd lng="uk">&c_je;&c_k;&c_o;&c_n;&c_o;&c_m;&c_i;&c_t;&c_i;</trd>
+  <trd lng="ur">&f_k;&a_w; &a_b;&f_ch;&a_A;&a_n;&#x6D2; &f_k;&#x6D2;</trd>
+  <trd lng="uz">saqlash</trd>
   <trd lng="vi">l&#x1B0;u</trd>
   <trd lng="vo">sav&ouml;n</trd>
-  <trd lng="yi">&#x5E8;&#x5D0;&#x5B7;&#x5D8;&#x5E2;&#x5D5;&#x5D5;&#x5E2;&#x5DF;</trd>
+  <trd lng="xh">gcina</trd>
+  <trd lng="yi">&resh;&alef;&#x5B7;&tet;&ayin;&vav;&vav;&ayin;&fnun;</trd>
+  <trd lng="yo">fi</trd>
   <trd lng="zu">ukusindisa</trd>
 </drv>
 
@@ -247,7 +280,7 @@
         la <tld/>o de judaj tombejoj en E&ubreve;ropo
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007207.html">La mezepokaj judaj mortintoj fine trankvilaj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007207.html">La mezepokaj judaj mortintoj fine trankvilaj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -255,7 +288,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007217.html">Programaro</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007217.html">Programaro</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -263,7 +296,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007190.html">Trompitaj dizertintoj</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007190.html">Trompitaj dizertintoj</url></vrk>
         </fnt>;
         <trd lng="de">Notarzt</trd>
       </ekz>
@@ -272,7 +305,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Christian Bertin</aut>
-          <vrk><url ref="https://www.monato.be/2004/008255.html">Re&gcirc;ino de la maroj</url></vrk>
+          <vrk><url ref="&Monato;/2004/008255.html">Re&gcirc;ino de la maroj</url></vrk>
           <lok>2004</lok>
         </fnt>;
       </ekz>
@@ -281,7 +314,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Saliko</aut>
-          <vrk><url ref="https://www.monato.be/2009/009629.php">Vintra banado</url></vrk>
+          <vrk><url ref="&Monato;/2009/009629.php">Vintra banado</url></vrk>
           <lok>2009</lok>
         </fnt>.
         <trd lng="de">Rettungsring</trd>
@@ -319,7 +352,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Antonio Cappello</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007300.html">Antisemitismo kaj antijudismo</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007300.html">Antisemitismo kaj antijudismo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -356,6 +389,10 @@
     <trd>sp&aacute;sa</trd>,
     <trd>z&aacute;chrana</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x440;&#x44F;&#x442;&#x443;&#x43D;&#x43E;&#x43A;</trd>,
+    <trd>&#x43F;&#x43E;&#x440;&#x44F;&#x442;&#x443;&#x43D;&#x43E;&#x43A;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sav.0ado">
@@ -381,13 +418,14 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Izabel C. O. Santiago</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no: La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola insulo</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006900.html">Fa&ubreve;no: La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola insulo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">Rettung</trd>
   <trd lng="fr">sauvetage</trd>
+  <trd lng="uk">&#x440;&#x44F;&#x442;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>
 </drv>
 
 <drv mrk="sav.0igxi">
@@ -407,7 +445,7 @@
         naturprotektita arbaro
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006938.html">Arkitekturo: Friedensreich Hundertwasser 1928 - 2000</url></vrk>
+          <vrk><url ref="&Steloj;monato2/006938.html">Arkitekturo: Friedensreich Hundertwasser 1928 - 2000</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -415,7 +453,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007031.html">Katolikismo: Johano Hus &dash; &ccirc;u ne plu herezulo?</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007031.html">Katolikismo: Johano Hus &dash; &ccirc;u ne plu herezulo?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -463,10 +501,114 @@
     <trd>&c_p;&c_r;&c_je;&c_d;&c_o;&c_s;&c_t;&c_je;&c_r;&c_je;&c_ch;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_d;&c_o;&c_h;&c_r;&c_a;&c_n;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43E;&#x445;&#x43E;&#x440;&#x43E;&#x43D;&#x44F;&#x442;&#x438;</trd>,
+    <trd>&#x43E;&#x431;&#x435;&#x440;&#x456;&#x433;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="sav.for0i">
+  <kap>
+    for<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="fugx.0i">Fu&gcirc;i</ref> el dan&gcirc;ero:
+      <ekz>
+        <nom>Jotam</nom> forkuris kaj for<tld/>is sin
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 9:21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili for<tld/>is sin en la urbojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 14:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi alvenis kun la soldataro kaj for<tld/>is lin, scii&gcirc;inte, ke li estas Romano
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 23:27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eble li trovos truon ie, tra kiu li povos sin for<tld/>i
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kompatinda virino fari&gcirc;is strange maltrankvile en la animo kaj &scirc;i penis
+        for<tld/>i sin de la malagrabla parolado
+        <fnt>
+          <bib>RBa</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="evaku.0i">evakui</ref>,
+      <ref cel="rifugx.0i">rifu&gcirc;i</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">in <ind>Sicherheit</ind> bringen</trd>
+  <trd lng="uk">&#x432;&#x438;&#x440;&#x44F;&#x442;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+</drv>
+
+
+
+<drv mrk="sav.hom0a">
+  <kap>
+    hom<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Helpanta al homoj <tld/>i sian vivon el dan&gcirc;eraj kaj katastrofaj situacioj
+      (malsatoj, &scirc;ippereoj, akcidentoj, milito kc):
+      <ekz>
+        la hom<tld/>an aktivadon de <nom>Langlet</nom> <klr>[&#x2026;]</klr> volas forgesigi organizitaj
+        grupoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=23470">Hungaria Esperanto-Asocio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;tatsekretario pri hom<tld/>a agado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=291523">Ministraro de &Eacute;dith Cresson</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+       <ref cel="filant2.0a">filantropia</ref>,
+       <ref cel="hom.0ama">homama</ref>,
+       <ref cel="human.0a">humana</ref>,
+       <ref cel="karit.0a">kari(ta)ta</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">humanit&auml;r</trd>
+  <trd lng="en">humanitarian </trd>
+  <trd lng="fr">humanitaire </trd>
+</drv>
+
+
 </art>
 <!--
-$Log: sav.xml,v $
+$Log$
+versio 1.105 2022/05/05 05:09:56
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.103 2021/12/31 21:26:29
+Wolfram Diestel: +for~i
+
+versio 1.102 2021/08/23 12:44:39
+Wolfram Diestel: +hom~a
+
 versio 1.26 2020/02/06 17:10:19
 Wolfram Diestel: ekz-oj, germ trd-oj
 
@@ -480,14 +622,5 @@ Revision 1.23  2015/06/29 16:33:23  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2015/05/12 19:10:16  revo
-Damien Brucker: +~ado
-
-Revision 1.21  2015/03/14 23:10:15  revo
-Jeromo Vasxe: + ~igxi
-
-Revision 1.20  2015/02/10 07:10:14  revo
-Alain Gerard: +trd (fr)
-
-Revision 1.19  2013/04/08 06:10:19  revo
 -->
 </vortaro>

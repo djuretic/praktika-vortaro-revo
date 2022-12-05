@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: hospic.xml,v 1.7 2017/02/16 17:10:27 revo Exp $">
+<art mrk="$Id: hospic.xml,v 1.9 2022/03/20 17:24:56 revo Exp $">
 <kap>
   <rad>hospic</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -31,13 +30,14 @@
         filo
         <fnt>
           <aut>&Ccirc;ina Interreta Informa Centro</aut>,
-          <vrk><url
-          ref="http://fuzhou.china.com.cn/world/shi-living/kalejdoskopo/33.htm">
+          <vrk><url ref="http://fuzhou.china.com.cn/world/shi-living/kalejdoskopo/33.htm">
           Hospica servo en &Ccirc;inio</url></vrk>,
           <lok>2001</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="paliat.0i">paliativi</ref>
+    <trd lng="de">Hospiz</trd>
     <trdgrp lng="hu">
       <trd>&aacute;pol&aacute;si otthon</trd>,
       <trd>menhely</trd>,
@@ -54,18 +54,17 @@
         <tld/>o
         <fnt>
           <aut>Esperanto-Ligo en Israelo</aut>,
-          <vrk><url
-          ref="http://www.esperanto.org.il/israelo/biblia.php">
+          <vrk><url ref="http://www.esperanto.org.il/israelo/biblia.php">
           Israelo, Lando de la Biblio</url></vrk>,
           <lok>[vidita en 2009]</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="karava.0ejo.TUR">karavanejo</ref>
+    </refgrp>
     <trd lng="hu">zar&aacute;ndoksz&aacute;ll&aacute;s</trd>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="karava.0ejo.TUR">karavanejo</ref>
-  </refgrp>
   <trd lng="en">hospice</trd>
   <trd lng="fr">hospice</trd>
   <trd lng="it">ospizio</trd>
@@ -75,11 +74,18 @@
     <trd>hospit&aacute;l</trd>,
     <trd>&scaron;pit&aacute;l</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x440;&#x438;&#x442;&#x443;&#x43B;&#x43E;&#x43A;</trd>,
+    <trd>&#x431;&#x43E;&#x433;&#x430;&#x434;&#x456;&#x43B;&#x44C;&#x43D;&#x44F;</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.8 2022/01/02 16:49:10
+Wolfram Diestel: +ref, trd de
+
 Revision 1.6  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -97,6 +103,5 @@ Antonio Codazzi: +trd it
 
 Revision 1.1  2009/05/19 17:00:36  revo
 Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

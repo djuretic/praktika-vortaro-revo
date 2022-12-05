@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: vertik.xml,v 1.25 2020/02/16 12:10:20 revo Exp $">
+<art mrk="$Id: vertik.xml,v 1.28 2022/03/28 11:08:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vertikal</rad>/a
@@ -70,6 +69,7 @@
   <trd lng="be">&c_v;&c_e;&c_r;&c_t;&c_y;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="ca">vertical<klr> (adj.)</klr></trd>
   <trd lng="de">vertikal</trd>
+  <trd lng="es">vertical<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="fr">vertical<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="hu">f&uuml;gg&odblac;leges</trd>
   <trd lng="nl">verticaal</trd>
@@ -78,6 +78,10 @@
   <trdgrp lng="sv">
     <trd>vertikal</trd>,
     <trd>lodr&auml;t</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x435;&#x440;&#x442;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43F;&#x440;&#x44F;&#x43C;&#x43E;&#x432;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>
   </trdgrp>
 </drv>
 
@@ -97,6 +101,7 @@
         ke &ccirc;iuj &gcirc;iaj <tld/>oj estas paralelaj.
       </ekz>
     </dif>
+    <trd lng="es">vertical<klr tip="ind"> (de un lugar)</klr></trd>
     <trd lng="fr">verticale<klr tip="ind"> (d'un lieu)</klr></trd>
     <trd lng="pt">vertical</trd>
     <trd lng="ru">&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;</trd>
@@ -112,6 +117,7 @@
         movi la turon sur la re&gcirc;an <tld/>on.
       </ekz>
     </dif>
+    <trd lng="es">columna</trd>
     <trdgrp lng="fr">
       <trd>rang&eacute;e verticale<klr tip="ind"> (dans un
       tableau)</klr></trd>,
@@ -129,8 +135,7 @@
         direkto <klr>(ofte tiu de la <ctl>lasta</ctl> kartezia
         akso)</klr>:
         <ekz>
-          la ekvacio de la <tld/>o trairanta punkton <frm
-          am="(5,7)">(5,7)</frm>
+          la ekvacio de la <tld/>o trairanta punkton <frm am="(5,7)">(5,7)</frm>
           estas <frm am="x=5"><k>x</k> = 5</frm>.
         </ekz>
       </dif>
@@ -139,6 +144,7 @@
         <trd>Vertikale</trd>
       </trdgrp>
       <trd lng="en">vertical line</trd>
+      <trd lng="es">vertical</trd>
       <trd lng="fr">verticale<klr tip="ind"> (math., droite)</klr></trd>
       <trd lng="pt">vertical</trd>
       <trd lng="ru">&c_v;&c_je;&c_r;&c_t;&c_i;&c_k;&c_a;&c_l;&c_mol;</trd>
@@ -158,6 +164,11 @@
         <trd>column<klr tip="ind"> (of a matrix)</klr></trd>,
         <trd>vertical <ind>row</ind><klr tip="ind"> (of a
         matrix)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>columna<klr tip="ind"> (de una matriz)</klr></trd>,
+        <trd><ind>fila</ind> vertical<klr tip="ind"> (de una
+        matriz)</klr></trd>
       </trdgrp>
       <trdgrp lng="fr">
         <trd>colonne<klr tip="ind"> (d'une matrice)</klr></trd>,
@@ -189,6 +200,7 @@
       </adm>
       <trd lng="de">Spaltenmatrix</trd>
       <trd lng="en">column <ind>matrix</ind></trd>
+      <trd lng="es"><ind>matriz</ind> columna</trd>
       <trd lng="fr">matrice-colonne</trd>
       <trd lng="pl">macierz [jedno]kolumnowa</trd>
       <trd lng="pt">matriz coluna</trd>
@@ -212,6 +224,8 @@
   </snc>
   <trd lng="ca">vertical<klr> (subst.)</klr></trd>
   <trd lng="be">&c_v;&c_e;&c_r;&c_t;&c_y;&c_k;&c_a;&c_l;&c_mol;</trd>
+  <trd lng="es">vertical<klr> (subst.)</klr></trd>
+  <trd lng="uk">&#x432;&#x435;&#x440;&#x442;&#x438;&#x43A;&#x430;&#x43B;&#x44C;</trd>
 </drv>
 
 <drv mrk="vertik.0ilo">
@@ -227,8 +241,7 @@
       kontroli <tld/>econ.
     </dif>
     <refgrp tip="sin">
-      <ref cel="vertik.0o.0ilo"><tld/>o <sncref
-      ref="vertik.0o.0ilo"/></ref>,
+      <ref cel="vertik.0o.0ilo"><tld/>o <sncref ref="vertik.0o.0ilo"/></ref>,
       <ref cel="faden.plumbo0o">plumbofadeno</ref>.
     </refgrp>
   </snc>
@@ -241,16 +254,29 @@
   anstataux "nivelilo"...
   <aut>MB</aut>
   </adm>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_r;&c_u;&c_n;&c_t;&c_v;&c_a;&c_g;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_a;&c_v;&c_je;&c_s;</trd>,
+    <trd>&c_v;&c_e;&c_r;&c_t;&c_y;&c_k;&c_a;&c_l;&c_mol; <klr>(&c_ib;&c_n;&c_s;&c_t;&c_r;&c_u;&c_m;&c_e;&c_n;&c_t;)</klr></trd>
+  </trdgrp>
   <trd lng="ca">plom</trd>
+  <trd lng="es">plomada</trd>
   <trd lng="fr">fil &agrave; plomb</trd>
   <trd lng="hu">f&uuml;gg&odblac;&oacute;n</trd>
   <trd lng="nl">schietlood</trd>
   <trd lng="pt">fio de prumo</trd>
   <trd lng="ru">&c_o;&c_t;&c_v;&c_je;&c_s;</trd>
+  <trd lng="uk">&#x432;&#x438;&#x441;&#x43E;&#x43A; (&#x43F;&#x440;&#x438;&#x43B;&#x430;&#x434;)</trd>
 </drv>
 </art>
 <!--
-$Log: vertik.xml,v $
+$Log$
+versio 1.27 2022/01/03 21:28:53
+Guillermo Molleda Jimena: +trd es
+
+versio 1.26 2021/08/25 07:27:34
+Dmitri Gabinski: + trd be
+
 versio 1.25 2020/02/16 12:10:20
 Wolfram Diestel: formuloj per am
 
@@ -267,11 +293,5 @@ Revision 1.21  2003/05/05 16:32:21  revo
 Marc Bavant: ~o MAT: +trd de
 
 Revision 1.20  2003/04/21 16:35:21  revo
-Marc Bavant: ~o (de matrico): mod trd en; ~o (rekto): +trd ru
-Revision 1.19  2003/04/07 16:36:59  revo
-Marc Bavant: ~o (matrico): mod trd pl; ~o (rekto): +trd en
-Revision 1.18  2003/01/13 17:34:51  revo
-Marc Bavant: ~o (rekto): kor trd fr
-Revision 1.17  2002/11/30 17:39:18  revo
 -->
 </vortaro>

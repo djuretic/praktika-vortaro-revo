@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: salt.xml,v 1.76 2021/06/18 18:20:08 revo Exp $">
+<art mrk="$Id: salt.xml,v 1.115 2022/05/05 05:09:55 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>salt</rad>/i <fnt><bib>PV</bib></fnt>
@@ -11,19 +11,44 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="salt.0i.sin_levi">
     <dif>
-      Rapide sin levi tutkorpe de tero per pu&scirc;o de kruroj kaj
-      refali sur saman lokon a&ubreve; pli malproksimen:
+      Rapide sin levi tutkorpe de tero per pu&scirc;o de kruroj (a&ubreve; vosto) 
+      kaj refali sur saman lokon a&ubreve; pli malproksimen:
       <ekz>
-        <ind>kiu tro rapide <tld/>as, tiu balda&ubreve; haltas</ind>
-        <trd lng="hu">aki siet, elk&eacute;sik</trd>
-        <fnt><bib>PrV</bib></fnt>;
+        <tld/>i kiel bovidino sur herbo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 50:11</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la montoj <tld/>is kiel &scirc;afoj, montetoj kiel
-        &scirc;afidoj <fnt><bib>MT</bib>, <lok>&Psa; 114:4</lok></fnt>;
+        subite la &ccirc;evaloj <tld/>is flanken, la glitveturilo haltis
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        &scirc;i <tld/>is posten kun teruro<fnt>B</fnt>;
+        hundeto <klr>[&#x2026;]</klr> <tld/>is sur la tablon kaj komencis <tld/>adi anta&ubreve; la
+        malgranda knabo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> prenis la malgrandan knabon sur la genuojn <klr>[sed tiu]</klr>
+        saltis malsupren sur la plankon kaj komencis danci
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malbonkonduta knabo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Rozulino ekkriis kaj <tld/>is posten
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino kaj Rozulino</lok>
+        </fnt>;
       </ekz>
       <ekz>
         sur la vojo <tld/>adis <klr>[...]</klr>
@@ -31,27 +56,78 @@
         <fnt><bib>Fab1</bib>, <lok>Elinjo-fingreto</lok></fnt>;
       </ekz>
       <ekz>
-        li <tld/>is <klr>[...]</klr> en la veturilon <klr>[...]</klr>
-        kaj forveturis
-        <fnt><bib>Fab1</bib>, <lok>Malgranda Niko kaj granda 
-        Niko</lok></fnt>;
+        la fi&scirc;oj <tld/>is super la akvon de la torento
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de la jaro</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        birdoj <tld/>adis de bran&ccirc;o sur bran&ccirc;on<fnt><bib>Fab1</bib>, 
+        birdoj <tld/>adis de bran&ccirc;o sur bran&ccirc;on
+        <fnt><bib>Fab1</bib>, 
         <lok>Galo&scirc;oj de feli&ccirc;o</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>e levi&gcirc;i de la kanapo<fnt><bib>Far1</bib>, 
-        <lok>&ccirc;ap. 5</lok></fnt>;
+        pulo, akrido kaj cerambiko volis iam vidi, kiu el ili povas <tld/>i plej alte
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Konkurso de saltado</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ind><tld/>levi&gcirc;i</ind><fnt><bib>Fab4</bib>, <lok>Filino de la
-        mar&ccirc;a re&gcirc;o</lok></fnt>.
+        <ind>kiu tro rapide <tld/>as, tiu balda&ubreve; haltas</ind>
+        <trd lng="hu">aki siet, elk&eacute;sik</trd>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e levi&gcirc;i de la kanapo
+        <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 5</lok></fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>levi&gcirc;i</ind>
+        <fnt><bib>Fab4</bib>, <lok>Filino de la mar&ccirc;a re&gcirc;o</lok></fnt>.
         <trd lng="hu">felugrik <klr tip="amb">(&uuml;lt&eacute;b&odblac;l)</klr></trd>
       </ekz>
     </dif>
+    <ref tip="sub" cel="hop.0i">hopi</ref>
     <refgrp tip="vid">
       <ref cel="danc.0i">danci</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="salt.0i.kuregi">
+    <dif>
+      Rapide sin movi per unu a&ubreve; pluraj tiaj movoj; kuregi:
+      <ekz>
+        el la apoteko li <tld/>is rekte en la veturilon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i la&ubreve;te ekkriis <klr>[&#x2026;]</klr> kaj &scirc;i saltis en iliajn brakojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la hundo, ne tenata <klr>[plu]</klr> <tld/>is en la teatron
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la knaboj devis <tld/>i en la domon kaj alporti ovon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Najbaraj familioj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kur.trans0i.KOMUNE">transkuri<sncref/></ref>
     </refgrp>
   </snc>
   <snc mrk="salt.0i.movigxi">
@@ -59,18 +135,41 @@
     <dif>
       Rapide movi&gcirc;i diversflanken:
       <ekz>
-        la ondoj <tld/>is furioze sur la kruta&jcirc;on<fnt>B</fnt>;
+        la ondoj <tld/>is furioze sur la kruta&jcirc;on
+        <fnt>
+          <aut>Henryk Sienkiewicz, trad. Kabe</aut>
+          <vrk><url ref="https://www.you-books.com/book/H-Sienkiewicz/La-lanternisto">La lanternisto</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        fajreroj <tld/>as &ccirc;irka&ubreve;en  <fnt><bib>Fab2</bib>, 
-        <lok>Sambuka virineto</lok></fnt>,
-      </ekz>
-      <ekz>
-        el sub la hufoj<fnt>B</fnt>
+        en malproksimo li vidis &scirc;ipojn, kiuj <klr>[&#x2026;]</klr> <tld/>is kaj dancis sur la
+        ondoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fi&scirc;kaptisto kaj lia edzino</lok>
+        </fnt>;
       </ekz>
       <ekz>
         &scirc;ia mantelo <tld/>adis en la aero kiel granda velo de
-        &scirc;ipo<fnt><bib>Fab1</bib>, <lok>Vojkamarado</lok></fnt>
+        &scirc;ipo
+        <fnt><bib>Fab1</bib>, <lok>Vojkamarado</lok></fnt>
+      </ekz>
+      <ekz>
+        <tld/>anta lumo <klr>[de fajro]</klr> faladis sur la mallumajn foliojn
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fajreroj <tld/>as &ccirc;irka&ubreve;en 
+        <fnt><bib>Fab2</bib>, 
+        <lok>Sambuka virineto</lok></fnt>,
+      </ekz>
+      <ekz>
+        ili <tld/>as kiel pufmaizo
+        <fnt>
+          <vrk><url ref="https://scivolemo.wordpress.com/2019/04/03/la-patkukoj-de-la-maro/">La patkukoj de la maro - Scivolemo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -79,56 +178,62 @@
   </snc>
   <snc mrk="salt.0i.malproksima">
     <uzo tip="stl">FIG</uzo>
-    <uzo tip="klr">(iu)</uzo>
     <dif>
-      Rapide senpere pasi de iu afero al alia tute malproksima kaj
-      diferenca, ne sin okupante pri la interaj aferoj:
+      Rapide senpere <ref tip="super" cel="pas.0i">pasi</ref> 
+      de iu afero al neproksima alia, de unu stato al distanca 
+      alia sen interpa&scirc;oj:
       <ekz>
-        estas mirinde, kiajn pensajn <tld/>ojn oni povas
-        fari<fnt><bib>Fab2</bib>, <lok>Malnova strata
-        lanterno</lok></fnt>;
+        oni <tld/>as de unu penso al alia pli bela
+        <fnt>
+          <bib>Rabistoj</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        fari <tld/>on en la historio
-        <klr>(transiri senpere de iu tempo al alia malproksima
-        tempo)</klr>;
+        plenajn pa&gcirc;ojn kun nur teksto legantoj kutime trans<tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Steloj;monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        la evoluo de la arto ofte faras <tld/>ojn de unu ekstremo
-        &gcirc;is la alia;
+        post la 90aj jaroj <tld/>is la nombro de sinmortigoj, certe pro ekonomiaj
+        problemoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>HORI Yasuo/pg</aut>
+          <vrk><url ref="&Monato;/2003/008113.html">Forpaso-forumo</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        flanken<tld/>i el la logiko.
+        la komputila erao signifas por la homaro similan <tld/>on, kian havis la kombino
+        de transportevoluo kaj la invento de la vaporma&scirc;ino
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="&Monato;/2009/009783.php">Kiel eliri el la krizo?</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akcioj de &ccirc;iaj tiuspecaj entreprenoj anta&ubreve; kelka tempo <tld/>egis supren, sed
+        &gcirc;uste nun ili falegas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Maul Stefan</aut>
+          <vrk><url ref="&Steloj;monato2/007123.html">Defio a&ubreve; devio de politiko</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-  </snc>
-  <snc mrk="salt.0i.preterlasi">
-    <uzo tip="stl">FIG</uzo>
-    <uzo tip="klr">(iu)</uzo>
-    <dif>
-      Intence preterlasi:
-      <ekz>
-        la tedita leganto <tld/>as super la moralpredikantajn pa&gcirc;ojn.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="salt.0i.kreski">
-    <uzo tip="stl">FIG</uzo>
-    <uzo tip="klr">(pri kvanto)</uzo>
-    <dif>
-      Subite kreski:
-      <ekz>
-        la nombro de la kongresanoj <tld/>is
-        dum unu monato de 300 &gcirc;is 800;
-      </ekz>
-      <ekz>
-        la gradoj de varmo <tld/>is de 8 &gcirc;is 25.
-      </ekz>
-    </dif>
+    <refgrp tip="vid">
+       <ref cel="abrupt.0a">abrupta</ref>,
+       <ref cel="drast.0a">drasta</ref>,
+       <ref cel="subit.0a">subita</ref>
+    </refgrp>
   </snc>
   <trd lng="af">spring</trd>
   <trd lng="am">&#x12DD;&#x1208;&#x120D;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x642;&#x641;&#x632;&#x629;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_q;&a_f;&a_z;&a_t_marbuta;</trd>
   <trdgrp lng="be">
     <trd>&c_s;&c_k;&c_a;&c_k;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_k;&c_n;&c_u;&c_c;&c_mol;</trd>,
@@ -136,13 +241,14 @@
     <trd>&c_p;&c_a;&c_d;&c_s;&c_k;&c_o;&c_ch;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="bn">&#x99D;&#x9BE;&#x981;&#x9AA;</trd>
-  <trd lng="bo">&#xF58;&#xF46;&#xF7C;&#xF44;&#xF0B;</trd>
-  <trd lng="bs">sko&#x10D;iti</trd>
+  <trd lng="bo">&t_ma;&t_cha;&t_naro;&t_nga;&t_tsheg;</trd>
+  <trd lng="bs">sko&ccaron;iti</trd>
   <trd lng="co">santari</trd>
   <trdgrp lng="cs">
     <trd>sko&ccaron;it</trd>,
     <trd>sk&aacute;kat</trd>
   </trdgrp>
+  <trd lng="cy">neidio</trd>
   <trd lng="da">hoppe</trd>
   <trd lng="de">springen</trd>
   <trdgrp lng="en">
@@ -151,18 +257,22 @@
     <trd>spring</trd>
   </trdgrp>
   <trd lng="es">saltar</trd>
-  <trd lng="et">h&#xFC;pata</trd>
+  <trd lng="et">h&uuml;pata</trd>
   <trd lng="eu">salto</trd>
   <trdgrp lng="fr">
     <trd>bondir</trd>,
     <trd>sauter</trd>
   </trdgrp>
   <trd lng="fy">springe</trd>
+  <trd lng="ga">l&eacute;im</trd>
+  <trd lng="gd">leumadh</trd>
   <trd lng="gl">ir</trd>
   <trd lng="gu">&#xA86;&#xAB5;&#xACB;</trd>
   <trd lng="ha">yi tsalle</trd>
   <trd lng="hi">&#x915;&#x942;&#x926;</trd>
-  <trd lng="hr">sko&#x10D;iti</trd>
+  <trd lng="hmn">dhia</trd>
+  <trd lng="hr">sko&ccaron;iti</trd>
+  <trd lng="ht">sote</trd>
   <trd lng="hu">ugrik</trd>
   <trd lng="hy">&#x531;&#x576;&#x581;&#x576;&#x565;&#x56C;,</trd>
   <trdgrp lng="id">
@@ -171,25 +281,39 @@
     <trd>me<ind>lompat</ind></trd>,
     <trd>me<ind>loncat</ind></trd>
   </trdgrp>
+  <trd lng="ig">na-aw&#x1EE5;likwa elu</trd>
   <trd lng="is">hoppa</trd>
   <trdgrp lng="it">
     <trd>saltare</trd>,
     <trd>balzare</trd>
   </trdgrp>
   <trd lng="ja">&#x30B8;&#x30E3;&#x30F3;&#x30D7;</trd>
-  <trd lng="jw">mlumpat</trd>
+  <trd lng="jv">mlumpat</trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</trd>
+  <trd lng="kk">&c_s;&c_je;&c_k;&c_ib;&c_r;&c_u;</trd>
   <trd lng="km">&#x179B;&#x17C4;&#x178F;</trd>
+  <trd lng="kn">&#xC9C;&#xCBF;&#xC97;&#xCBF;&#xCA4;&#xCB5;&#xCA8;&#xCCD;&#xCA8;&#xCC1;</trd>
   <trd lng="ko">&#xC810;&#xD504;</trd>
+  <trd lng="ku">helperk&icirc;n</trd>
+  <trd lng="ky">&c_s;&c_je;&c_k;&c_i;&c_r;&#x4AF;&#x4AF;</trd>
+  <trd lng="lat">salire</trd>
   <trd lng="lo">&#xEC0;&#xE95;&#xEB1;&#xEC9;&#xE99;&#xEC4;&#xE9B;&#xEAB;&#xEB2;</trd>
+  <trd lng="lt">&scaron;uolis</trd>
+  <trd lng="lv">l&#x113;kt</trd>
+  <trd lng="mg">hitsambikina</trd>
+  <trd lng="mi">peke</trd>
+  <trd lng="mk">&c_s;&c_k;&c_o;&c_k;</trd>
   <trd lng="ml">&#xD15;&#xD41;&#xD24;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
+  <trd lng="mn">&#x4AF;&c_s;&c_r;&c_e;&c_h;</trd>
   <trd lng="mr">&#x909;&#x921;&#x940;</trd>
+  <trd lng="ms">melompat</trd>
+  <trd lng="mt">jaqb&zdot;u</trd>
   <trd lng="my">&#x1001;&#x102F;&#x1014;&#x103A;</trd>
   <trd lng="ne">&#x939;&#x93E;&#x92E;&#x92B;&#x93E;&#x932;&#x94D;&#x928;&#x941;</trd>
   <trd lng="nl">springen</trd>
   <trd lng="ny">kudumpha</trd>
   <trd lng="pa">&#xA1B;&#xA3E;&#xA32;</trd>
-  <trd lng="ps">&#x67C;&#x648;&#x67E;</trd>
+  <trd lng="ps">&#x67C;&a_w;&f_p;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_y;&c_g;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_g;&c_n;&c_u;&c_t;&c_mol;</trd>,
@@ -197,21 +321,35 @@
     <trd>&c_p;&c_o;&c_d;&c_s;&c_k;&c_a;&c_k;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_s;&c_k;&c_o;&c_ch;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x67D;&#x67E;&#x648; &#x68F;&#x626;&#x64A;</trd>
+  <trd lng="rw">gusimbuka</trd>
+  <trd lng="sd">&#x67D;&f_p;&a_w; &#x68F;&a_y_hamza;&a_y;</trd>
   <trd lng="si">&#xDC0;&#xDD9;&#xDAD; &#xDB4;&#xDB1;&#xDD2;&#xDB1;&#xDCA;&#xDB1;</trd>
   <trdgrp lng="sk">
     <trd>sko&ccaron;i&tcaron;</trd>,
     <trd>sk&aacute;ka&tcaron;</trd>
   </trdgrp>
-  <trd lng="sq">k&#xEB;rcejn&#xEB;</trd>
+  <trd lng="sl">skok</trd>
+  <trd lng="sm">oso</trd>
+  <trd lng="sn">janhuka</trd>
+  <trd lng="so">boodaan</trd>
+  <trd lng="sq">k&euml;rcejn&euml;</trd>
+  <trd lng="st">qhomela</trd>
+  <trd lng="su">ngaluncat</trd>
   <trd lng="sv">hoppa</trd>
+  <trd lng="sw">kuruka</trd>
   <trd lng="ta">&#xB95;&#xBC1;&#xBA4;&#xBBF;&#xB95;&#xBCD;&#xB95;</trd>
   <trd lng="te">&#xC1C;&#xC02;&#xC2A;&#xC4D;</trd>
+  <trd lng="tg">&c_p;&c_a;&c_r;&c_i;&c_d;&c_a;&c_n;</trd>
   <trd lng="th">&#xE01;&#xE23;&#xE30;&#xE42;&#xE14;&#xE14;</trd>
   <trd lng="tl">tumalon</trd>
-  <trd lng="ur">&#x6A9;&#x648;&#x62F;</trd>
+  <trd lng="tt">&c_s;&c_i;&c_k;&c_je;&c_r;&#x4AF;</trd>
+  <trd lng="uk">&c_s;&c_t;&c_r;&c_i;&c_b;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&f_k;&a_w;&a_d;</trd>
+  <trd lng="uz">sakramoq</trd>
   <trd lng="vi">nh&#x1EA3;y</trd>
-  <trd lng="yi">&#x5E9;&#x5E4;&#x5BC;&#x5E8;&#x5D9;&#x5E0;&#x5D2;&#x5E2;&#x5DF;</trd>
+  <trd lng="xh">xhuma</trd>
+  <trd lng="yi">&shin;&pe;&#x5BC;&resh;&yod;&nun;&gimel;&ayin;&fnun;</trd>
+  <trd lng="yo">s&iacute;</trd>
   <trd lng="zu">eqa</trd>
 </drv>
 
@@ -219,27 +357,53 @@
   <kap><tld/>o</kap>
   <snc mrk="salt.0o.KOMUNE">
     <dif>
-      Subita sinlevo en aero kaj refalo:
+      Ago <tld/>i:
       <ekz>
         sin prepari por <tld/>o
         <fnt><bib>Fab2</bib>, <lok>Dano Holger</lok></fnt>;
       </ekz>
       <ekz>
-        per kelke da <tld/>oj li transpasis la &scirc;tuparon<fnt>Z</fnt>;
+        Ale&ccirc;jo per kelke da <tld/>oj transpasis la &scirc;tuparon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
         pro raviteco li faris transkapi&gcirc;an <tld/>on
         <fnt><bib>Fab1</bib>, <lok>Vojkamarado</lok></fnt>;
       </ekz>
       <ekz>
-        la &ccirc;evalo <klr>...</klr> post kelkaj <tld/>oj de&jcirc;etis
+        la &ccirc;evalo ektrotis rapide, post kelkaj <tld/>oj de&jcirc;etis
         sian rajdanton en foson
-        <fnt><bib>ElektFab</bib>, <lok>feli&ccirc;a Jo&ccirc;jo</lok></fnt>.
+        <fnt><bib>ElektFab</bib>, <lok>feli&ccirc;a Jo&ccirc;jo</lok></fnt>;
+      </ekz>
+      <ekz>
+        la pa&scirc;o estas tiel facila, <klr>[&#x2026;]</klr> kiel la <tld/>o de publikulino al
+        bigotulino
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas mirinde, kiajn pensajn <tld/>ojn oni povas fari
+        <fnt><bib>Fab2</bib>, <lok>Malnova strata
+        lanterno</lok></fnt>;
+      </ekz>
+      <ekz>
+        ne diru hop anta&ubreve; la <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sub" cel="saltomortal.0o">saltomortalo</ref>
   </snc>
   <trd lng="cs">skok</trd>
-  <trd lng="de">Sprung</trd>
+  <trdgrp lng="de">
+    <trd>Sprung</trd>,
+    <trd>Satz <klr>(Sprung)</klr></trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>jump</trd>,
     <trd>leap</trd>,
@@ -260,6 +424,7 @@
   </trdgrp>
   <trd lng="sk">go to - pr&iacute;kaz k nepodmiene&ccaron;n&eacute;mu skoku</trd>
   <trd lng="sv">hopp</trd>
+  <trd lng="uk">&#x441;&#x442;&#x440;&#x438;&#x431;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="salt.de0i">
@@ -267,11 +432,38 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="salt.de0i.KOMUNE">
     <dif>
-      <tld lit="S"/>i de alte:
+      <tld lit="S"/>i de io, de ie:
       <ekz>
-        la rajdanto de<tld/>is teren.
+        <klr>[&scirc;i]</klr> desaltis de la kamelo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 24:64</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> transrampis la muron, de<tld/>is sur la dua flanko
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li kuris tiel rapide, ke unu pantoflo de<tld/>is
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fajrilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        subite de<tld/>is la kovrilo de la flartabakujo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Persista stana soldato</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="las.for0i">forlasi</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_s;&c_k;&c_o;&c_ch;&c_y;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
@@ -296,6 +488,15 @@
   </trdgrp>
   <trd lng="sk">zosko&ccaron;i&tcaron;</trd>
   <trd lng="sv">hoppa ner</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x43F;&#x43B;&#x438;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x456;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x456;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x437;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x441;&#x43F;&#x43B;&#x438;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salt.dis0i">
@@ -306,14 +507,40 @@
     <dif>
       Rapide disrompi&gcirc;i:
       <ekz>
+        kelkaj fenestrovitroj dis<tld/>is
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Monato;/2003/007991.html">Espero</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> de&ccirc;enigis eksplodon, kiu dis<tld/>igis la supran protektoplaton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2015/011522.php">La akcidento de &Ccirc;ernobilo 30 jarojn poste</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         dis<tld/>os la obstinaj baroj 
-        <klr>[inter la popoloj]</klr><fnt>(<aut>Zamenhof</aut>: 
+        <klr>[inter la popoloj]</klr>
+        <fnt>(<aut>Zamenhof</aut>: 
         <vrk>La Espero</vrk>)</fnt>;
       </ekz>
       <ekz>
-        dis<tld/>igi la malnovajn katenojn de la spirito<fnt>Z</fnt>.
+        dis<tld/>is eternaj montoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Hcirc;abakuk 3:6</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="frakas.0igxi">frakasi&gcirc;i</ref>,
+      <ref cel="krev.0i">krevi</ref>
+    </refgrp>
     <trdgrp lng="ru">
       <trd>&c_r;&c_a;&c_z;&c_l;&c_je;&c_t;&c_je;&c_t;&c_mol;&c_s;&c_ja;</trd>,
       <trd>&c_r;&c_a;&c_s;&c_s;&c_y;&c_p;&c_a;&c_t;&c_mol;&c_s;&c_ja; &c_v; &c_p;&c_r;&c_a;&c_h;</trd>
@@ -328,6 +555,10 @@
     <trd>rozlomit se</trd>,
     <trd>rozpadnout se</trd>,
     <trd>rozsko&ccaron;it se</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>zerspringen</trd>,
+    <trd>bersten</trd>
   </trdgrp>
   <trd lng="en">fly asunder</trd>
   <trdgrp lng="hu">
@@ -347,6 +578,11 @@
     <trd>roztrieska&tcaron; sa</trd>
   </trdgrp>
   <trd lng="sv">flyga is&auml;r</trd>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x442;&#x440;&#x438;&#x431;&#x430;&#x442;&#x438;/&#x441;&#x43A;&#x430;&#x43A;&#x430;&#x442;&#x438; &#x432; &#x440;&#x456;&#x437;&#x43D;&#x456; &#x431;&#x43E;&#x43A;&#x438;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x43B;&#x435;&#x442;&#x456;&#x442;&#x438;&#x441;&#x44F;</trd>,
+    <trd>&#x440;&#x43E;&#x437;&#x432;&#x456;&#x44F;&#x442;&#x438;&#x441;&#x44F; &#x432; &#x43F;&#x43E;&#x440;&#x43E;&#x445;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salt.ek0i">
@@ -356,16 +592,51 @@
     <dif>
       Subite <tld/>i:
       <ekz>
-        ek<tld/>i de &gcirc;ojo <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a
-        re&gcirc;ino</lok></fnt>;
+        ek<tld/>i de &gcirc;ojo 
+        <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>;
       </ekz>
       <ekz>
-        ek<tld/>i de surprizo  <fnt><bib>F</bib>, <lok>Ekzercaro, &para;
-        40</lok></fnt>;
+        ek<tld/>i de surprizo  
+        <fnt><bib>F</bib>, <lok>Ekzercaro, &para;40</lok></fnt>;
       </ekz>
       <ekz>
-        muelejo haltas, muelisto ek<tld/>as <fnt><bib>PrV</bib></fnt>
-        <klr>(subite skui&gcirc;as pro forta emocio)</klr>.
+        jen sur la ne&gcirc;o <klr>[&#x2026;]</klr> ek<tld/>is granda korniko, kiu jam anta&ubreve;e tie
+        sidis
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i, tremante de malvarmo, ek<tld/>e levi&gcirc;is
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de unu patrino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la infaneto ek<tld/>is en &scirc;ia ventro
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 1:41</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lamulo ek<tld/>os kiel cervo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 35:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        hoko ek<tld/>is, afero haltis
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        muelejo haltas, muelisto ek<tld/>as 
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -398,6 +669,13 @@
   </trdgrp>
   <trd lng="sk">vysko&ccaron;i&tcaron; zo sedu</trd>
   <trd lng="sv">hoppa till</trd>
+  <trdgrp lng="uk">
+    <trd>&#x441;&#x43A;&#x43E;&#x447;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x456;&#x434;&#x441;&#x43A;&#x43E;&#x447;&#x438;&#x442;&#x438;</trd>,
+    <trd>&#x441;&#x442;&#x440;&#x438;&#x431;&#x43D;&#x443;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x456;&#x434;&#x441;&#x442;&#x440;&#x438;&#x431;&#x43D;&#x443;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x43B;&#x438;&#x433;&#x43D;&#x443;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salt.el0i">
@@ -407,24 +685,62 @@
     <dif>
       Subite kaj rapide eliri a&ubreve; eli&gcirc;i:
       <ekz>
-        hoko el<tld/>is, afero haltis<fnt><bib>PrV</bib></fnt>;
+        Niko el<tld/>is tra la pordo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li el<tld/>is el la lito
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malgranda Tuk</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fi&scirc;oj kun ar&gcirc;entaj kaj oraj skvamoj <klr>[&#x2026;]</klr> el<tld/>is super la akvon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la korko brue el<tld/>is
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kolo de botelo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se el<tld/>as la okazo, &gcirc;i rompi&gcirc;as kiel vazo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
         kio el la dentoj el<tld/>as, en la lipoj ne haltas
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        ni ne povas el<tld/>i el nia propra ha&ubreve;to
-        <klr>(naturo)</klr>.
+        <uzo tip="stl">FIG</uzo>
+        vizitantoj preska&ubreve; el<tld/>as el sia ha&ubreve;to, kiam ni faras tiun bruon
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ir.el0i">eliri</ref>,
+      <ref cel="las.for0i">forlasi</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_s;&c_k;&c_a;&c_ch;&c_y;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>vyskakovat</trd>,
     <trd>vysko&ccaron;it</trd>
   </trdgrp>
-  <trd lng="de">rausspringen</trd>
+  <trd lng="de">heraus <ind>springen</ind></trd>
   <trd lng="en">jump out</trd>
   <trd lng="fr">sauter<klr> (hors de sa position)</klr></trd>
   <trd lng="hu">kiugrik</trd>
@@ -443,8 +759,15 @@
     <trd>vysko&ccaron;i&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">hoppa ut</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x438;&#x43F;&#x43B;&#x438;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x438;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x438;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 
+<!-- ne vere uzata, &ccirc;u? Ni bezonas veran ekzemplon por kompreni la signifon kiu &scirc;ajnas dubinda...
+&ccirc;u ne elsaltulo estas nekonformisto, kiu elsaltas el la vico ...?
 <drv mrk="salt.el0ulo">
   <kap>el<tld/>ulo</kap>
   <snc mrk="salt.el0ulo.novricxulo">
@@ -492,6 +815,7 @@
     <trd>nyrik</trd>
   </trdgrp>
 </drv>
+-->
 
 <drv mrk="salt.en0i">
   <kap>en<tld/>i</kap>
@@ -500,17 +824,51 @@
     <dif>
       <tld lit="S"/>i al la interno de...:
       <ekz>
+        tra la fenestro <klr>[&#x2026;]</klr> en<tld/>is malbela bufo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la homoj en<tld/>is en la boaton
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pla&ubreve;! &scirc;i en<tld/>is en la akvon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekkonu anta&ubreve;e la profundecon de la abismo, anta&ubreve; ol vi en<tld/>as en &gcirc;in
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
         tiu viro, kiu en<tld/>is la kanalon por savi infanon,
         ne unue demandis sin, al kies familio &scirc;i apartenas
         <fnt>
           <aut>J. Francis</aut>,
-          <vrk>La Granda Kaldrono</vrk>,
+          <vrk><url ref="http://novajhoj.weebly.com/uploads/8/2/9/5/8295099/la_granda_kaldrono_-_john_francis.pdf">La Granda Kaldrono</url></vrk>,
           <lok>1978</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">hinein <ind>springen</ind></trd>
   <trd lng="fr">sauter dans</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x441;&#x442;&#x440;&#x438;&#x431;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438; (&#x434;&#x43E; &#x441;&#x435;&#x440;&#x435;&#x434;&#x438;&#x43D;&#x438;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salt.for0i">
@@ -518,9 +876,35 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="salt.for0i.KOMUNE">
     <dif>
-      Rapide deklini&gcirc;i:
+      Rapide <ref tip="sin" cel="fugx.0i">fu&gcirc;i</ref>:
       <ekz>
-        ne for<tld/>u de mia komisio<fnt>Z</fnt>.
+        hu!, li ekkriis kaj for<tld/>is
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la leono nur unu fojon ekblekis, kaj &ccirc;iuj for<tld/>is
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        laboro ne estas leporo &dash; &gcirc;i haltos, ne for<tld/>os
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        metu kelkan ordon en vian paroladon kaj ne for<tld/>u 
+        <klr>(rapide <ref cel="devi.0i">deviu</ref>)</klr>
+        de mia komisio
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -538,6 +922,13 @@
   <trd lng="nl">wegspringen</trd>
   <trd lng="ru">&c_u;&c_s;&c_k;&c_a;&c_k;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">odsko&ccaron;i&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x43F;&#x43B;&#x438;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x43E;&#x441;&#x442;&#x440;&#x438;&#x431;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x43E;&#x441;&#x43A;&#x430;&#x43A;&#x430;&#x442;&#x438; (&#x433;&#x435;&#x442;&#x44C;)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salt.re0i">
@@ -548,13 +939,48 @@
       <tld lit="S"/>i a&ubreve; esti rapide resendita
       de iu loko al alia:
       <ekz>
+        bastono batas, bastono re<tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sago &ccirc;i tiun fojon ekbatis la akvon kaj re<tld/>inte kelke da fojoj de &gcirc;ia
+        supra&jcirc;o, malaperis
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la potenca metala sono trakuris la kortojn, re<tld/>is de la dikaj muroj de l'
+        templo kaj forflugis
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         mi estas nur la centra punkto, en kiu kolekti&gcirc;as &ccirc;iuj
         gratuloj por
-        re<tld/>i de tie al &ccirc;iuj flankoj de la mondo<fnt>Z</fnt>.
+        re<tld/>i de tie al &ccirc;iuj flankoj de la mondo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="reflek.0i">reflekti</ref>&gcirc;i,
+       <ref cel="pusx.re0i">repu&scirc;i</ref>&gcirc;i
+    </refgrp>
   </snc>
-  <trd lng="de">zur&uuml;ckspringen</trd>
+  <trdgrp lng="de">
+    <trd>zur&uuml;ck <ind>springen</ind></trd>,
+    <trd>abprallen</trd>,
+    <trd><ind>zur&uuml;ck</ind> geworfen werden</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>bounce</trd>,
     <trd>rebound</trd>,
@@ -573,6 +999,10 @@
     <trd>rimpallare<klr> (fig.)</klr></trd>,
   </trdgrp>
   <trd lng="nl">terugspringen</trd>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x456;&#x434;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x432;&#x456;&#x434;&#x431;&#x438;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F; (&#x432;&#x456;&#x434; &#x447;&#x43E;&#x433;&#x43E;-&#x43D;.)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salt.trans0i">
@@ -582,16 +1012,38 @@
     <dif>
       Transpasi <tld/>ante:
       <ekz>
-        trans<tld/>i muron<fnt>Z</fnt>;
+        mi trans<tld/>as muron
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 22:30</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi punos <klr>[&#x2026;]</klr> &ccirc;iujn, kiuj trans<tld/>as la sojlon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Cefanja 1:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la grandaj nigraj okuloj de la knabineto trans<tld/>adis jen sur la lumitan
+        profundon de la kameno, jen sur la pecon da pano
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nu, la sekvantan tagon ni povas trans<tld/>i
+        <klr>(<ref cel="las.preter0i">preterlasi</ref>)</klr>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova strata lanterno</lok>
+        </fnt>;
       </ekz>
       <ekz>
         trans<tld/>e senhalte
         <klr>(nur pasante)</klr>
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        ni povas trans<tld/>i <klr>(preterlasi)</klr> la sekvantan
-        tagon<fnt>Z</fnt>.
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -623,10 +1075,30 @@
     <trd>&c_p;&c_je;&c_r;&c_je;&c_s;&c_k;&c_o;&c_ch;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">presko&ccaron;i&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x440;&#x438;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x43F;&#x43B;&#x438;&#x433;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
+    <trd>&#x43F;&#x435;&#x440;&#x435;&#x441;&#x43A;&#x430;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.115 2022/05/05 05:09:55
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.113 2021/06/24 18:31:51
+Wolfram Diestel: ek~i..trans~i: ekz-oj, ref-oj, trd de; -el~ulo (manke de citajho)
+
+versio 1.112 2021/06/24 06:33:32
+Wolfram Diestel: ref-oj, ~o..dis~i: ekz-oj
+
+versio 1.111 2021/06/23 18:32:20
+Wolfram Diestel: ~i FIG: kunigis chiujn tri snc, ekz-oj
+
+versio 1.88 2021/06/20 15:32:27
+Wolfram Diestel: +snc kuregi; ekz-oj
+
 versio 1.34 2020/05/08 10:10:20
 Eko Nur Syah Hidayat: +trd id
 
@@ -634,20 +1106,5 @@ Revision 1.32  2017/10/04 14:10:15  revo
 Jeromo Vasxe: + en~i
 
 Revision 1.31  2015/08/20 20:10:14  revo
-Jeromo Vasxe: - tajperaro, + kk trd fr
-
-Revision 1.30  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.29  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.28  2015/04/23 19:10:19  revo
-Damien Brucker: -eraro cxe ref
-
-Revision 1.27  2013/07/06 01:10:09  revo
-Wolfram Diestel: fontindikoj
-
-Revision 1.26  2011/01/01 21:10:09  revo
 -->
 </vortaro>

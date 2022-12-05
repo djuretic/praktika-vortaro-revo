@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: pragma.xml,v 1.14 2013/04/10 09:10:16 revo Exp $">
+<art mrk="$Id: pragma.xml,v 1.18 2022/05/04 18:30:33 revo Exp $">
 <kap>
   <rad>pragmat</rad>/a
 </kap>
@@ -10,34 +9,32 @@
   <kap><tld/>a <fnt><bib>PIV1</bib></fnt></kap>
   <snc mrk="pragma.0a.KOMUNE">
     <dif>
-      Celanta efikon en la realo:
+      Celanta efikon en la realo; <ref tip="sin" cel="prakti.0ema">praktikema</ref>:
       <ekz>
         la tria nivelo de la problemo estas la <tld/>a, tio estas la 
         demando pri tio, &ccirc;u tiuj tri ekzekutoj utilas al la kuba 
         revolucio a&ubreve; &ccirc;u ili malutilas al &gcirc;i  
         <fnt>
           <aut>H. D. Steffan</aut>,
-          <vrk><url
-          ref="http://membres.lycos.fr/vilhelmo/mortpuno.html">Tri
+          <vrk><url ref="http://membres.lycos.fr/vilhelmo/mortpuno.html">Tri
           mortpafoj en Kubo</url></vrk>,
           <lok>2003-04-14</lok>
         </fnt>;
       </ekz>
       <ekz>
-        Anne-Sophie estas <tld/>a. &Scirc;i ne komprenas la eduk-sistemon. 
-        &leftquot;Oni petas de vi studi kaj elekti <em>vian</em> metion. Sed se  
-             
+        <nom>Anne-Sophie</nom> estas <tld/>a, &scirc;i ne komprenas la eduk-sistemon, 
+        &leftquot;oni petas de vi studi kaj elekti <em>vian</em> metion, sed se               
         vi provis  nenion, kiel vi povas scii, kio pla&ccirc;os al vi        
         a&ubreve; ne?&rightquot;
         <fnt>
           <aut>D. Kishegy</aut>,
-          <vrk><url
-          ref="http://hades-presse.com/archives/n1/sve.shtml">SVE</url></vrk>,
+          <vrk><url ref="http://hades-presse.com/archives/n1/sve.shtml">SVE</url></vrk>,
           <lok>Hades, 2004, numero 1a</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">pragmatisch</trd>
   <trd lng="en">pragmatic</trd>
   <trdgrp lng="fa">
     <trd>&a_ayn;&a_m;&a_l;&zwnj;&f_g;&a_r;&a_A;&f_y;&a_A;&a_n;&a_h;</trd>,
@@ -46,16 +43,47 @@
   <trd lng="fr">pragmatique<klr> (adj.)</klr></trd>
   <trd lng="nl">pragmatisch</trd>
   <trd lng="pl">pragmatyczny</trd>
+  <trd lng="uk">&#x43F;&#x440;&#x430;&#x433;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="pragma.0ismo">
   <kap><tld/>ismo <fnt><bib>PV</bib></fnt></kap>
+  <snc mrk="pragma.0ismo.KOMUNE">
+    <dif>
+      <ref tip="super" cel="kondut.0o">Konduto</ref> celanta precipe praktikan utilon:
+      <ekz>
+        <tld/>ismo por iu unuavice signifas gajni monon per Esperanto, ricevi turisman
+        informon a&ubreve; legi menuon en la Internacia Lingvo &ndash; kio ja sendube estas utila
+        &ndash;, sed por alia &gcirc;i povas anta&ubreve; &ccirc;io signifi la eblecon legi bonan
+        originala&jcirc;on, a&ubreve; literaturan tradukon, a&ubreve; fakan verkon
+        <fnt>
+          <bib>EeP</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tro <tld/>isma sinteno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="&Monato;/2006/008993.php">La unua Zamenhof-monumento de la 21a jarcento: dika Pomego!</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu decido respegulas la kreskantan <tld/>ismon en &Ccirc;inio &ndash; iom-post-ioma
+        malgravi&gcirc;o de la ideologiaj motivoj kaj prioritati&gcirc;o de la faktoroj ekonomiaj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok> 2000, No 11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="pragma.0ismo.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-      Doktrino, kiu akceptas kiel kriterion de l' vereco nur la
-      praktikan
-      valoron.
+      <ref tip="super" cel="doktri.0o">Doktrino</ref>, kiu akceptas kiel kriterion de l' vereco nur la
+      praktikan valoron.
     </dif>
     <refgrp tip="vid">
       <ref cel="empiri.0ismo">empiriismo</ref>,
@@ -76,10 +104,20 @@
   <trd lng="pl">pragmatyzm</trd>
   <trd lng="pt">pragmatismo</trd>
   <trd lng="ru">&c_p;&c_r;&c_a;&c_g;&c_m;&c_a;&c_t;&c_i;&c_z;&c_m;</trd>
+  <trd lng="uk">&#x43F;&#x440;&#x430;&#x433;&#x43C;&#x430;&#x442;&#x438;&#x437;&#x43C;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.18 2022/05/04 18:30:33
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.16 2022/01/24 07:26:35
+Wolfram Diestel: ~ismo: +snc KOMUNE
+
+versio 1.15 2022/01/23 09:28:53
+Wolfram Diestel: +ref, trd de
+
 Revision 1.13  2011/10/05 22:10:09  revo
 Behnam Tabatabai: +trd fa
 
@@ -93,11 +131,5 @@ Revision 1.10  2006/06/25 16:31:51  revo
 Jeromo Vasxe: sxangxas la art de pragmatism al pragmat
 
 Revision 1.9  2006/03/17 17:32:09  revo
-Tulio Flores: +tr pt
-
-Revision 1.8  2003/07/29 16:30:52  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2002/12/19 17:31:44  revo
 -->
 </vortaro>

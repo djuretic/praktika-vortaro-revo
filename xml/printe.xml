@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: printe.xml,v 1.79 2021/06/19 06:38:35 revo Exp $">
+<art mrk="$Id: printe.xml,v 1.113 2022/03/26 15:53:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>printemp</rad>/o <fnt><bib>PV</bib></fnt>
@@ -62,15 +62,16 @@
   </snc>
   <trd lng="af">die lente</trd>
   <trd lng="am">&#x1340;&#x12F0;&#x12ED;</trd>
-  <trd lng="ar">&#x627;&#x644;&#x631;&#x628;&#x64A;&#x639;</trd>
+  <trd lng="ar">&a_A;&a_l;&a_r;&a_b;&#x64A;&a_ayn;</trd>
   <trd lng="az">yaz</trd>
   <trd lng="be">&c_v;&c_ja;&c_s;&c_n;&c_a;</trd>
   <trd lng="bg">&c_p;&c_r;&c_o;&c_l;&c_je;&c_t;</trd>
   <trd lng="bn">&#x9AC;&#x9B8;&#x9A8;&#x9CD;&#x9A4;</trd>
   <trd lng="bo">&#xF51;&#xF54;&#xFB1;&#xF72;&#xF51;&#xF0B;&#xF40;&#xF0B;</trd>
-  <trd lng="bs">prolje&#x107;e</trd>
+  <trd lng="bs">prolje&cacute;e</trd>
   <trd lng="co">primavera</trd>
   <trd lng="cs">jaro</trd>
+  <trd lng="cy">gwanwyn</trd>
   <trd lng="da">fjeder</trd>
   <trdgrp lng="de">
     <trd>Fr&uuml;hling</trd>,
@@ -83,22 +84,40 @@
   <trd lng="eu">udaberrian</trd>
   <trd lng="fr">printemps</trd>
   <trd lng="fy">maitiid</trd>
+  <trd lng="ga">earrach</trd>
+  <trd lng="gd">as t-earrach</trd>
   <trd lng="gl">primavera</trd>
   <trd lng="gu">&#xAB5;&#xAB8;&#xA82;&#xAA4;</trd>
   <trd lng="he">&alef;&bet;&yod;&bet;</trd>
   <trd lng="hi">&#x935;&#x938;&#x902;&#x924;</trd>
-  <trd lng="hr">prolje&#x107;e</trd>
+  <trd lng="hmn">caij nplooj ntoos hlav</trd>
+  <trd lng="hr">prolje&cacute;e</trd>
+  <trd lng="ht">sezon prentan</trd>
   <trd lng="hu">tavasz</trd>
   <trd lng="hy">&#x563;&#x561;&#x580;&#x578;&#x582;&#x576;</trd>
   <trd lng="id"><ind>musim</ind> semi</trd>
+  <trd lng="ig">mmiri</trd>
   <trd lng="is">vor</trd>
   <trd lng="ja">&#x6625; [<ind>&#x306F;&#x308B;</ind>]</trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10D6;&#x10D0;&#x10E4;&#x10EE;&#x10E3;&#x10DA;&#x10D6;&#x10D4;</trd>
+  <trd lng="kk">&#x43A;&#x4E9;&#x43A;&c_t;&c_je;&#x43C;</trd>
   <trd lng="km">&#x1793;&#x17B7;&#x1791;&#x17B6;&#x1783;&#x179A;&#x178A;&#x17BC;&#x179C;</trd>
+  <trd lng="kn">&#xCB5;&#xCB8;&#xC82;&#xCA4;</trd>
   <trd lng="ko">&#xBD04;</trd>
+  <trd lng="ku">bihar</trd>
+  <trd lng="ky">&c_zh;&c_a;&c_z;</trd>
+  <trd lng="lat">ver</trd>
   <trd lng="lo">&#xE9E;&#xEB2;&#xE81;&#xEAE;&#xEBD;&#xE99;</trd>
+  <trd lng="lt">pavasaris</trd>
+  <trd lng="lv">pavasaris</trd>
+  <trd lng="mg">lohataona</trd>
+  <trd lng="mi">puna</trd>
+  <trd lng="mk">&#x43F;&c_r;&#x43E;&#x43B;&c_je;&c_t;</trd>
   <trd lng="ml">&#xD05;&#xD30;&#xD41;&#xD35;&#xD3F;</trd>
+  <trd lng="mn">&c_h;&c_a;&c_v;&c_a;&c_r;</trd>
   <trd lng="mr">&#x938;&#x94D;&#x92A;&#x94D;&#x930;&#x93F;&#x902;&#x917;</trd>
+  <trd lng="ms">musim bunga</trd>
+  <trd lng="mt">rebbieg&#x127;a</trd>
   <trd lng="my">&#x1005;&#x102D;&#x1019;&#x1037;&#x103A;&#x1005;&#x1019;&#x103A;&#x1038;</trd>
   <trd lng="ne">&#x935;&#x938;&#x928;&#x94D;&#x924;</trd>
   <trdgrp lng="nl">
@@ -109,28 +128,41 @@
   <trd lng="ny">masika</trd>
   <trd lng="pa">&#xA2C;&#xA38;&#xA70;&#xA24;</trd>
   <trd lng="pl">wiosna</trd>
-  <trd lng="ps">&#x67E;&#x633;&#x631;&#x644;&#x6CC;</trd>
+  <trd lng="ps">&#x67E;&a_s;&a_r;&a_l;&#x6CC;</trd>
   <trd lng="pt">primavera</trd>
   <trd lng="ro">prim&abreve;var&abreve;</trd>
   <trd lng="ru">&c_v;&c_je;&c_s;&c_n;&c_a;</trd>
-  <trd lng="sd">&#x628;&#x647;&#x627;&#x631; &#x62C;&#x64A;</trd>
+  <trd lng="rw">isoko</trd>
+  <trd lng="sd">&a_b;&a_h;&a_A;&a_r; &#x62C;&#x64A;</trd>
   <trd lng="si">&#xDC0;&#xDC3;&#xDB1;&#xDCA;&#xDAD;</trd>
   <trd lng="sk">jar</trd>
+  <trd lng="sl">pomlad</trd>
+  <trd lng="sm">vaipuna</trd>
+  <trd lng="sn">chitubu</trd>
+  <trd lng="so">gu &#x2018;</trd>
   <trd lng="sq">pranver&#xEB;</trd>
   <trd lng="st">selemo</trd>
+  <trd lng="su">cinyusu</trd>
   <trd lng="sv">v&aring;r</trd>
+  <trd lng="sw">chemchemi</trd>
   <trd lng="ta">&#xBB5;&#xB9A;&#xBA8;&#xBCD;&#xBA4;</trd>
   <trd lng="te">&#xC35;&#xC38;&#xC02;&#xC24;</trd>
+  <trd lng="tg">&c_b;&c_a;&#x4B3;&#x43E;&c_r;</trd>
   <trd lng="th">&#xE24;&#xE14;&#xE39;&#xE43;&#xE1A;&#xE44;&#xE21;&#xE49;&#xE1C;&#xE25;&#xE34;</trd>
   <trd lng="tl">tagsibol</trd>
   <trdgrp lng="tr">
     <trd>ilkbahar</trd>,
     <trd>bahar</trd>
   </trdgrp>
-  <trd lng="ur">&#x645;&#x648;&#x633;&#x645; &#x628;&#x6C1;&#x627;&#x631;</trd>
+  <trd lng="tt">&#x44F;&c_z;</trd>
+  <trd lng="uk">&c_v;&c_je;&c_s;&#x43D;&c_a;</trd>
+  <trd lng="ur">&a_m;&a_w;&a_s;&a_m; &a_b;&#x6C1;&a_A;&a_r;</trd>
+  <trd lng="uz">bahor</trd>
   <trd lng="vi">m&#xF9;a xu&#xE2;n</trd>
   <trd lng="vo">flolatim</trd>
+  <trd lng="xh">intlakohlaza</trd>
   <trd lng="yi">&#x5E4;&#x5E8;&#x5D9;&#x5DC;&#x5D9;&#x5E0;&#x5D2;</trd>
+  <trd lng="yo">orisun</trd>
   <trd lng="zh">&#x6625;</trd>
   <trd lng="zu">entwasahlobo</trd>
 </drv>
@@ -165,6 +197,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_ja;&c_s;&c_n;&c_o;&c_v;&c_y;</trd>,
+    <trd>&c_v;&c_je;&c_s;&c_n;&c_a;&c_v;&c_y;</trd>
+  </trdgrp>
   <trd lng="es">primaveral</trd>
   <trd lng="fr">printanier</trd>
   <trd lng="ja">&#x6625;&#x306E; [<ind>&#x306F;&#x308B;&#x306E;</ind>]</trd>
@@ -173,6 +209,7 @@
     <trd>voorjaars-</trd>
   </trdgrp>
   <trd lng="pl">wiosenny</trd>
+  <trd lng="uk">&#x432;&#x435;&#x441;&#x43D;&#x44F;&#x43D;&#x438;&#x439;</trd>
 </drv>
 
 <drv mrk="printe.0i">
@@ -219,6 +256,7 @@
     </dif>
     <trd lng="de">Prager Fr&uuml;hling</trd>
   </snc>
+  <trd lng="be">&c_P;&c_r;&c_a;&c_s;&c_k;&c_a;&c_ja; &c_v;&c_ja;&c_s;&c_n;&c_a;</trd>
   <trd lng="es">Primavera de Praga</trd>
   <trd lng="fr">Printemps de Prague</trd>
   <trd lng="nl">Praagse Lente</trd>
@@ -226,6 +264,9 @@
 </art>
 <!--
 $Log$
+versio 1.112 2021/08/23 12:47:18
+Dmitri Gabinski: + trd be
+
 versio 1.38 2021/03/22 20:48:57
 Wolfram Diestel: +ekz-oj
 
@@ -245,8 +286,5 @@ Revision 1.32  2014/06/03 15:10:22  revo
 Eko Nur Syah Hidayat: +id
 
 Revision 1.31  2013/09/23 07:10:21  revo
-Wolfram Diestel: +val
-
-Revision 1.30  2013/08/23 07:10:13  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: luncx.xml,v 1.14 2020/02/28 21:10:36 revo Exp $">
+<art mrk="$Id: luncx.xml,v 1.16 2022/03/22 18:26:52 revo Exp $">
 <kap>
   <rad>lun&ccirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,14 +10,29 @@
   <snc mrk="luncx.0o.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Malpeza, rapida
+      Malabunda, rapida
       <ref tip="super" cel="mangx.0o.regula">tagman&gcirc;o</ref>:
       <ekz>
-        la tuta klubo revenis en la 
-        &gcirc;ardenon nur post <tld/>o
-        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 70a, p. 485a</lok></fnt>.
+        la tuta klubo revenis en la &gcirc;ardenon nur post <tld/>o
+        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 70a, p. 485a</lok></fnt>;
+      </ekz>      
+      <ekz>
+        oni servis al li la lun&ccirc;on, sed li ne faris ian progreson pri la plano
+        <fnt>
+          <bib>KKl</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la koktelojn sekvas lun&ccirc;o, &ccirc;ampano, konjako, dol&ccirc;a muziko
+        <fnt>
+          <bib>KrB</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="mangx.inter0eto">interman&gcirc;eto</ref>,
+      <ref cel="mangx.te0o">teman&gcirc;o</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_l;&c_a;&c_n;&c_ch;</trd>
   <trdgrp lng="de">
@@ -51,10 +65,19 @@
     <trd>&c_l;&c_je;&c_n;&c_ch;</trd>,
     <trd>&c_v;&c_t;&c_o;&c_r;&c_o;&c_j; &c_z;&c_a;&c_v;&c_t;&c_r;&c_a;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x43B;&#x435;&#x43D;&#x447;</trd>,
+    <trd>&#x43B;&#x430;&#x43D;&#x447;</trd>,
+    <trd>&#x43F;&#x43E;&#x43B;&#x443;&#x434;&#x435;&#x43D;&#x43E;&#x43A;</trd>,
+    <trd>&#x434;&#x440;&#x443;&#x433;&#x438;&#x439; &#x441;&#x43D;&#x456;&#x434;&#x430;&#x43D;&#x43E;&#x43A;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
-$Log: luncx.xml,v $
+$Log$
+versio 1.15 2021/07/16 20:31:03
+Wolfram Diestel: +ekz-oj, ref-oj
+
 versio 1.14 2020/02/28 21:10:36
 Vito Redsky: +trd pl +trd ro  
 
@@ -74,8 +97,5 @@ Revision 1.9  2003/01/08 17:32:54  revo
 Jeromo Vasxe: + ekz, ref dif, + trd fr
 
 Revision 1.8 2002/10/21 16:35:37 revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.7 2002/09/13 16:37:31 revo
 -->
 </vortaro>

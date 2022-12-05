@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: frid.xml,v 1.18 2019/11/17 19:10:17 revo Exp $">
+<art mrk="$Id: frid.xml,v 1.22 2022/11/22 14:09:07 revo Exp $">
 <kap>
   <rad>frid</rad>/a  <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -23,7 +22,7 @@
         subite penso kaptis lin per <tld/>a mano
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="https://www.monato.be/2003/007991.html">Espero</url></vrk>
+          <vrk><url ref="&Monato;/2003/007991.html">Espero</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -60,7 +59,8 @@
     <trd>frigidn&yacute;</trd>,
     <trd>studen&yacute;</trd>
   </trdgrp>
-  <trd lng="tp">lete</trd>
+  <trd lng="tok">lete</trd>
+  <trd lng="uk">&c_h;&#x43E;&#x43B;&#x43E;&c_d;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="frid.0i">
@@ -126,7 +126,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode van de Velde</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007144.html">Bierlando Belgio</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007144.html">Bierlando Belgio</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -134,7 +134,7 @@
         en iliaj rigardoj kaj gestoj estis <tld/>o <klr>(senkompato)</klr>
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007140.html">de Julian Modest</url></vrk>
+          <vrk><url ref="&Steloj;monato2/007140.html">de Julian Modest</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -142,12 +142,13 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Julia Sigmond kaj Sen Rodin</aut>
-          <vrk><url ref="https://www.monato.be/2010/009988.php">La mal&jcirc;aluzo de Klorinda</url></vrk>
+          <vrk><url ref="&Monato;/2010/009988.php">La mal&jcirc;aluzo de Klorinda</url></vrk>
           <lok>2010</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_h;&c_o;&c_l;&c_a;&c_d;</trd>
   <trdgrp lng="de">
     <trd>K&auml;lte</trd>,
     <trd>K&uuml;hle</trd>
@@ -168,7 +169,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode van de Velde</aut>
-          <vrk><url ref="https://www.monato.be/2004/008405.html">Kuirita tomato estas morta tomato</url></vrk>
+          <vrk><url ref="&Monato;/2004/008405.html">Kuirita tomato estas morta tomato</url></vrk>
           <lok>2004</lok>
         </fnt>;
       </ekz>
@@ -177,7 +178,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Saliko</aut>
-          <vrk><url ref="https://www.monato.be/2006/008760.php">En fremda lando</url></vrk>
+          <vrk><url ref="&Monato;/2006/008760.php">En fremda lando</url></vrk>
           <lok>2006</lok>
         </fnt>;
       </ekz>
@@ -197,7 +198,7 @@
       &leftquot;fridujo&rightquot; enpenetris la &ccirc;iutagan vivon.
     </rim>
     <refgrp tip="vid">
-      <ref cel="frost.0ofako">frostofako</ref>,
+      <ref cel="frost.0igilo">frostofako</ref>,
       <ref cel="frost.0ujo">frostujo</ref>.
     </refgrp>
   </snc>
@@ -241,10 +242,23 @@
   </trdgrp>
   <trd lng="ru">&c_h;&c_o;&c_l;&c_o;&c_d;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">chladni&ccaron;ka</trd>
+  <trdgrp lng="uk">
+    <trd>&c_h;&#x43E;&#x43B;&#x43E;&c_d;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&#x43A;</trd>,
+    <trd>&c_r;&c_je;&c_f;&c_r;&c_i;&c_zh;&c_je;&c_r;&c_a;&c_t;&#x43E;&c_r;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/11/22 14:09:07
+Damien Brucker: -eraro cxe cel en ref
+
+versio 1.21 2022/11/08 08:41:27
+Dmitri Gabinski: + trd be
+
+versio 1.20 2022/04/27 17:19:11
+aktualigo lingvokodoj kaj URL-unuoj
+
 Revision 1.17  2018/05/23 05:10:13  revo
 Julian Lacomba: +trd pt,it,es,gl
 
@@ -258,11 +272,5 @@ Revision 1.14  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.13  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.12  2010/07/15 16:30:20  revo
-Agustin Garcia Lopez: +trd es (-i)
-
-Revision 1.11  2009/06/23 16:31:06  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: fung.xml,v 1.36 2021/04/11 17:29:49 revo Exp $">
+<art mrk="$Id: fung.xml,v 1.43 2022/05/31 07:31:20 revo Exp $">
 <kap><ofc>*</ofc>
 <rad>fung</rad>/o</kap>
 
@@ -14,11 +13,27 @@
       Iu el <ref tip="malprt" cel="fung.0oj"><tld/>oj</ref>,
       viva&jcirc;o plur&ccirc;ela, nutri&gcirc;anta de
       organika materialo kaj reprodukti&gcirc;anta plej
-      ofte per sporoj.
+      ofte per sporoj:
       <ekz>
-        &scirc;imo estas <tld/>o.
+        li estis evoluiginta specion de tritiko, kiu rezistis al la <tld/>o &#x201A;nigra rusto&#8216;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Joyce Bunting</aut>
+          <vrk><url ref="&Monato;/2013/010846.php">Taktiko por noveca tritiko</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la putradon ka&ubreve;zis la <tld/>o <nom>Neofabraea alba</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>D. E. Rogers</aut>
+          <vrk><url ref="&Monato;/2014/011160.php">Kiam nutra&jcirc;o ka&scirc;as putra&jcirc;on</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="sub" cel="sxim.0fungo">&scirc;imfungo</ref>
     <trd lng="en">fungus</trd>
     <trd lng="es">hongo</trd>
   </snc>
@@ -26,7 +41,40 @@
     <uzo tip="stl">KOMUNE</uzo>
     <dif>
       Fruktokorpo de <ref tip="malprt" cel="fung.0o.BIO"><tld/>o
-      <sncref ref="fung.0o.BIO"/></ref>.
+      <sncref ref="fung.0o.BIO"/></ref>:            
+      <ekz>
+        rompebla kiel <ind>fajro<tld/>o</ind>
+        <klr>(<ref cel="tindr.0o">tindro</ref>)</klr>
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Pa&scirc;tistino de anseroj apud puto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por la <tld/>oj la kamparaninoj ricevis kvardek du kuprajn kopekojn
+        <fnt>
+          <bib>PatrojFiloj</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi mense vidas &scirc;in miksi siajn venenajn <tld/>ojn
+        <fnt>
+          <bib>ChC</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la <tld/>oj mi ankora&ubreve; trinkos
+        <fnt>
+          <bib>IKr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        novaj artaj lingvoj elkreskadas kiel <tld/>oj post pluvo
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
+      </ekz>          
     </dif>
     <trdgrp lng="en">
       <trd>mushroom</trd>,
@@ -70,7 +118,8 @@
     <trd>huba</trd>,
     <trd>plese&ncaron;</trd>
   </trdgrp>
-  <trd lng="tp">kili</trd>
+  <trd lng="tok">kili</trd>
+  <trd lng="uk">&c_g;&c_r;&c_i;&c_b;</trd>
 </drv>
 
 <drv mrk="fung.0oj">
@@ -79,9 +128,16 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Unu el la <ref tip="lst" cel="regn.0o.BIO"
-      lst="voko:biologiaj_regnoj">regnoj</ref>
-      de la viva&jcirc;oj (<trd lng="la">Fungi</trd>).
+      Unu el la <ref tip="lst" cel="regn.0o.BIO" lst="voko:biologiaj_regnoj">regnoj</ref>
+      de la viva&jcirc;oj (<trd lng="la">Fungi</trd>):
+      <ekz>
+        &ccirc;iuj &ccirc;elhavaj organismoj (bakterioj, ameboj, <tld/>oj, gistoj, plantoj kaj
+        animaloj) uzas DNA-on por konservi la genetikan informon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Steloj;monato2/007157.html">Vivo: Riboj</url></vrk>
+        </fnt>.
+      </ekz>      
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_y;&c_b;&c_y; <klr tip="amb">(&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
@@ -100,6 +156,7 @@
   <trd lng="pl">grzyby</trd>
   <trd lng="ru">&c_g;&c_r;&c_i;&c_b;&c_y;</trd>
   <trd lng="sk">huby</trd>
+  <trd lng="uk">&#x43D;&c_je;&c_z;&c_a;&c_v;&c_je;&c_r;&c_sh;&c_je;&#x43D;&c_ib; &c_g;&c_r;&c_i;&c_b;&c_i;</trd>
 </drv>
 
 <drv mrk="fung.klab0oj">
@@ -134,6 +191,7 @@
     </dif>
   </snc>
   <ref tip="malprt" cel="agarik1.0oj">agarikacoj</ref>
+  <trd lng="be">&c_p;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_ib;&c_n;&c_ib;&c_s;&c_t;&c_y; <ind>&c_g;&c_r;&c_y;&c_b;</ind></trd>
   <trd lng="de">Bl&auml;tterpilz</trd>
   <trd lng="es">ag&aacute;rico</trd>
   <trd lng="fr">agaric</trd>
@@ -141,6 +199,7 @@
   <trd lng="hu">lemezes <ind>gomba</ind></trd>
   <trd lng="pl">grzyb blaszkowy</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_n;&c_ch;&c_a;&c_t;&c_y;&c_j; &c_g;&c_r;&c_i;&c_b;</trd>
+  <trd lng="uk">&#x43F;&#x43B;&c_a;&c_s;&c_t;&c_i;&#x43D;&c_ch;&c_a;&c_s;&c_t;&c_i;&c_j; &c_g;&c_r;&c_i;&c_b;</trd>
 </drv>
 
 <drv mrk="fung.musx0o">
@@ -150,10 +209,19 @@
     <dif>
       Venena <ref tip="lst" cel="fung.0o.fruktokorpo" lst="voko:fungoj">
       <tld/>o</ref> kun ru&gcirc;a &ccirc;apo, blanke makulita;
-      <ref tip="lst" cel="speci.0o.BIO" 
-      lst="voko:botanikaj_specioj">specio</ref>
+      <ref tip="lst" cel="speci.0o.BIO" lst="voko:botanikaj_specioj">specio</ref>
        de <ref tip="super" cel="amanit.0o">amanito</ref>
-      (<trd lng="la">Amanita muscaria</trd>).
+      (<trd lng="la">Amanita muscaria</trd>):
+      <ekz>
+        a&ubreve;dinte pri la morta dan&gcirc;ero de mu&scirc;<tld/>oj, <klr>[li]</klr>
+        decidis mem elprovi, &ccirc;u tio ne estas nur kla&ccirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2010/010185.php">Malbonan apetiton</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>      
     </dif>
   </snc>
   <bld lok="../bld/musxfung.jpg">
@@ -174,6 +242,7 @@
   <trd lng="hu">l&eacute;gy&ouml;l&odblac; gal&oacute;ca</trd>
   <trd lng="pl">muchomor czerwony</trd>
   <trd lng="ru">&c_m;&c_u;&c_h;&c_o;&c_m;&c_o;&c_r;</trd>
+  <trd lng="uk">&#x43C;&c_u;&c_h;&#x43E;&#x43C;&#x43E;&c_r;</trd>
 </drv>
 
 <drv mrk="fung.sak0oj">
@@ -186,6 +255,7 @@
       a&ubreve; pli ofte ok sporojn en sakformaj sporujoj.
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_o;&c_r;&c_b;&c_a;&c_ch;&c_k;&c_a;&c_v;&c_y;&c_ja; <ind>&c_g;&c_r;&c_y;&c_b;&c_y;</ind></trd>
   <trd lng="de">Schlauchpilze</trd>
   <trd lng="en">sac fungi</trd>
   <trd lng="es">ascomicetos</trd>
@@ -205,6 +275,7 @@
     </dif>
   </snc>
   <ref tip="malprt" cel="boleta.0oj">boletacoj</ref>
+  <trd lng="be">&c_t;&c_r;&c_u;&c_b;&c_ch;&c_a;&c_t;&c_y; <ind>&c_g;&c_r;&c_y;&c_b;</ind></trd>
   <trd lng="cs">h&rcaron;&iacute;bek</trd>
   <trd lng="de">R&ouml;hrling</trd>
   <trd lng="en">bolete</trd>
@@ -212,10 +283,23 @@
   <trd lng="nl">boleet</trd>
   <trd lng="hu">cs&ouml;ves gomba</trd>
   <trd lng="pl">grzyb rurkowy</trd>
+  <trdgrp lng="uk">
+    <trd>&c_g;&c_u;&c_b;&c_ch;&c_a;&c_t;&c_i;&c_j;/&c_g;&c_u;&c_b;&c_ch;&c_a;&c_s;&c_t;&c_i;&c_j; &c_g;&c_r;&c_i;&c_b;</trd>,
+    <trd>&c_b;&#x43E;&#x43B;&c_je;&c_t;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.43 2022/05/31 07:31:20
+Dmitri Gabinski: + trd be
+
+versio 1.42 2022/04/27 17:19:11
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.37 2022/01/07 16:52:07
+Wolfram Diestel: +ekz-oj
+
 versio 1.36 2021/04/11 17:29:49
 Wolfram Diestel: +lst reptilioj
 
@@ -229,14 +313,5 @@ Revision 1.31  2016/08/31 09:10:22  revo
 Guillermo Molleda Jimena: trd es
 
 Revision 1.30  2015/07/04 08:37:34  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.29  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.28  2014/11/09 04:10:20  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.27  2013/10/27 14:10:17  revo
 -->
 </vortaro>

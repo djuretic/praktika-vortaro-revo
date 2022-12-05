@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: geneal.xml,v 1.24 2015/07/04 08:37:35 revo Exp $">
+<art mrk="$Id: geneal.xml,v 1.26 2022/06/29 08:39:57 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>genealogi</rad>/o <fnt><bib>PV</bib></fnt>
@@ -43,7 +42,10 @@
     <trd lng="hu">csal&aacute;dfa</trd>
     <trd lng="pl">drzewo <ind>genealogiczne</ind></trd>
   </snc>
-  <trd lng="be">&c_g;&c_je;&c_n;&c_e;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_je;&c_n;&c_e;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>,
+    <trd>&c_r;&c_a;&c_d;&c_a;&c_v;&c_o;&c_d;</trd>
+  </trdgrp>
   <trd lng="bg">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
   <trd lng="ca">genealogia</trd>
   <trdgrp lng="cs">
@@ -63,12 +65,16 @@
   <trd lng="pt">genealogia</trd>
   <trd lng="ru">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
-    <trd>rodokmeň</trd>,
+    <trd>rodokme&ncaron;</trd>,
     <trd>rodopis</trd>
   </trdgrp>
   <trdgrp lng="tr">
     <trd>soybilim</trd>,
     <trd>jeneoloji</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_g;&c_je;&#x43D;&c_je;&c_a;&#x43B;&#x43E;&c_g;&c_ib;&#x44F;</trd>,
+    <trd>&c_r;&#x43E;&c_d;&#x43E;&c_v;&c_ib;&c_d;</trd>
   </trdgrp>
 </drv>
 
@@ -85,7 +91,7 @@
   <trd lng="be">&c_g;&c_je;&c_n;&c_e;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
   <trd lng="bg">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_n;</trd>
   <trd lng="ca">geneal&ograve;gic</trd>
-  <trd lng="cs">rodopisný</trd>
+  <trd lng="cs">rodopisn&#xFD;</trd>
   <trd lng="de">genealogisch</trd>
   <trd lng="en">genealogical</trd>
   <trd lng="fa">&a_t;&a_b;&a_A;&a_r;&a_sh;&a_n;&a_A;&a_kh;&a_t;&f_y;</trd>
@@ -97,7 +103,11 @@
   <trd lng="nl">genealogisch</trd>
   <trd lng="pt">geneal&oacute;gico<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="ru">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
-  <trd lng="sk">rodopisný</trd>
+  <trd lng="sk">rodopisn&#xFD;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_g;&c_je;&#x43D;&c_je;&c_a;&#x43B;&#x43E;&c_g;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_r;&#x43E;&c_d;&#x43E;&c_v;&c_ib;&c_d;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="geneal.0isto">
@@ -108,6 +118,7 @@
       Fakulo pri <ref tip="vid" cel="geneal.0o.SCI"><tld/>o</ref>.
     </dif>
   </snc>
+  <trd lng="be">&c_r;&c_a;&c_d;&c_a;&c_v;&c_o;&c_d;&c_c;&c_a;</trd>
   <trd lng="bg">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;</trd>
   <trd lng="ca">genealogista</trd>
   <trd lng="de">Genealog</trd>
@@ -120,6 +131,9 @@
 </art>
 <!--
 $Log$
+versio 1.26 2022/06/29 08:39:57
+Dmitri Gabinski: + trd be
+
 Revision 1.23  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -139,11 +153,5 @@ Revision 1.18  2009/08/24 16:31:28  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.17  2009/06/23 16:31:53  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.16  2009/06/09 16:30:56  revo
-Wieland Pusch: +trd bg
-
-Revision 1.15  2009/06/06 16:30:52  revo
 -->
 </vortaro>

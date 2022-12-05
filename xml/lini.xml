@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lini.xml,v 1.75 2021/06/19 05:58:47 revo Exp $">
+<art mrk="$Id: lini.xml,v 1.109 2022/10/09 15:38:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lini</rad>/o <fnt><bib>PV</bib></fnt>
@@ -43,7 +43,8 @@
     </trdgrp>
     <trdgrp lng="de">
       <trd>Linie</trd>,
-      <trd>Kurve</trd>
+      <trd>Kurve</trd>,
+      <trd>Kurvenzug</trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>line</trd>,
@@ -66,6 +67,56 @@
       <trd>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <snc mrk="lini.0o.BELA">
+      <uzo tip="fak">BELA</uzo>
+      <dif>
+        Kontinua <ref tip="vid" cel="strek.0o.KOMUNE">streko</ref>
+        videbla sur surfaco:
+        <ekz>
+          la belforma kaj delikata <tld/>o de tiu bu&scirc;o
+          <fnt><bib>Marta</bib></fnt>;
+        </ekz>
+        <ekz>
+          <tld/>oj de desegno, de la viza&gcirc;o, de la mano;
+        </ekz>
+        <ekz>
+          konduki, streki, desegni, tiri <tld/>on;
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="kontur.0o">konturo</ref>
+      </refgrp>
+    <trdgrp lng="de">
+      <trd>Linie</trd>,
+      <trd>Konturlinie</trd>
+    </trdgrp>
+      <trd lng="hu">vonal</trd>
+  </snc>
+  <snc mrk="lini.0o.TRA">
+      <tezrad fak="TRA"/>	  
+      <uzo tip="fak">TRA</uzo>
+      <dif>
+        Difinita serio de <ref tip="prt" cel="voj.0o.TRA">vojoj</ref>
+        kiun transportiloj regule trairas:
+        <ekz>
+          marvetura, trafika <tld/>o;
+        </ekz>
+        <ekz>
+          organizi, aran&gcirc;i <tld/>ojn de busoj, de avioj.
+        </ekz>
+      </dif>
+    <refgrp tip="vid">
+      <ref cel="kurs.0o.voja">kurso<sncref/></ref>,
+      <ref cel="rauxt.0o">ra&ubreve;to</ref>.
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Linie</trd>,
+      <trd>Strecke</trd>,
+      <trd>Verkehrsverbindung</trd>
+    </trdgrp>
+      <trd lng="hu">&uacute;tvonal</trd>
+      <trd lng="th">&#3626;&#3634;&#3618;</trd>
+  </snc>
   <snc mrk="lini.0o.KOMUNE">
     <dif>
       Strio, <ref tip="super" cel="vic.0o.spaca">vico</ref> de sinsekvaj a&jcirc;oj.
@@ -81,47 +132,9 @@
           armeo ordigita la&ubreve; tri <tld/>oj.
         </ekz>
       </dif>
-    </subsnc>
-    <subsnc mrk="lini.0o.BELA">
-      <uzo tip="fak">BELA</uzo>
-      <dif>
-        Kontinua <ref tip="vid" cel="strek.0o.KOMUNE">streko</ref>
-        montranta difinitan direkton:
-        <ekz>
-          la belforma kaj delikata <tld/>o de tiu bu&scirc;o
-          <fnt><bib>Marta</bib></fnt>;
-        </ekz>
-        <ekz>
-          <tld/>oj de desegno, de la viza&gcirc;o, de la mano;
-        </ekz>
-        <ekz>
-          konduki, streki, desegni, tiri <tld/>on;
-        </ekz>
-      </dif>
-      <refgrp tip="vid">
-        <ref cel="kontur.0o">konturo</ref>
-      </refgrp>
-      <trd lng="hu">vonal</trd>
-    </subsnc>
-    <subsnc mrk="lini.0o.TRA">
-      <tezrad fak="TRA"/>	  
-      <uzo tip="fak">TRA</uzo>
-      <dif>
-        Sinsekvo de <ref tip="prt" cel="voj.0o.TRA">vojoj</ref>
-        trairotaj:
-        <ekz>
-          marvetura, trafika <tld/>o;
-        </ekz>
-        <ekz>
-          organizi, aran&gcirc;i <tld/>ojn de busoj, de avioj;
-        </ekz>
-        <ekz>
-          sekvu la fervoj<tld/>on, &gcirc;is vi alvenos la stacion
-          <fnt><bib>Mortul&Scirc;ip</bib>, <lok>unua libro, &ccirc;apitro
-          8a</lok></fnt>.
-        </ekz>
-      </dif>
-      <trd lng="hu">&uacute;tvonal</trd>
+    <trdgrp lng="de">
+      <trd>Reihe</trd>
+    </trdgrp>
     </subsnc>
     <subsnc mrk="lini.0o.TIP">
       <uzo tip="fak">TIP</uzo>
@@ -135,7 +148,8 @@
           </fnt>;
         </ekz>
         <ekz>
-          <tld/>o <klr>(<ref tip="sub" cel="horizo1.0o.linio">horizontalo<sncref/></ref>)</klr> de tabelo;
+          <tld/>o <klr>(<ref tip="sub" cel="horizo1.0o.linio">horizontalo<sncref/></ref>)</klr> de
+          tabelo;
         </ekz>
         <ekz>
           iom pensinte, &scirc;i skribis la sekvantajn <tld/>ojn
@@ -147,12 +161,17 @@
           <fnt>
             <bib>Monato</bib>
             <aut>Wolfram Rohloff</aut>
-            <vrk><url ref="https://www.monato.be/2004/008428.html">Kantaro kun fluaj tekstoj</url></vrk>
+            <vrk><url ref="&Monato;/2004/008428.html">Kantaro kun fluaj tekstoj</url></vrk>
             <lok>2004</lok>
           </fnt>.
         </ekz>
       </dif>
       <ref tip="vid" cel="kolumn.0o.TIP">kolumno<sncref/></ref>
+    <trdgrp lng="de">
+      <trd>Linie</trd>,
+      <trd>Zeile</trd>,
+      <trd>Textzeile</trd>
+    </trdgrp>
     </subsnc>
     <subsnc mrk="lini.0o.GEN">
       <uzo tip="fak">GEN</uzo>
@@ -169,14 +188,18 @@
         </ekz>
       </dif>
       <trd lng="fr">lign&eacute;e</trd>
+    <trdgrp lng="de">
+      <trd>Linie</trd>,
+      <trd>Verwandtschaftslinie</trd>
+    </trdgrp>
     </subsnc>    
   </snc>
   <trd lng="af">lyn</trd>
-  <trd lng="am">&#x1218;&#x1235;&#x1218;&#x122D;</trd>
-  <trd lng="ar">&#x62E;&#x637;</trd>
+  <trd lng="am">&#4632;&#4661;&#4632;&#4653;</trd>
+  <trd lng="ar">&a_kh;&a_T;</trd>
   <trd lng="be">&c_l;&c_ib;&c_n;&c_ib;&c_ja;</trd>
-  <trd lng="bn">&#x9B2;&#x9BE;&#x987;&#x9A8;</trd>
-  <trd lng="bo">&#xF50;&#xF72;&#xF42;&#xF0B;</trd>
+  <trd lng="bn">&#2482;&#2494;&#2439;&#2472;</trd>
+  <trd lng="bo">&t_tha;&t_gigu;&t_ga;&t_tsheg;</trd>
   <trd lng="co">linia</trd>
   <trdgrp lng="cs">
     <trd>hrana</trd>,
@@ -188,55 +211,83 @@
     <trd>&ccaron;&aacute;ra</trd>,
     <trd>&rcaron;&aacute;dek</trd>
   </trdgrp>
+  <trd lng="cy">llinell</trd>
   <trd lng="da">linje</trd>
   <trd lng="en">line</trd>
   <trd lng="es">l&iacute;nea</trd>
   <trd lng="et">line</trd>
   <trd lng="fr">ligne</trd>
   <trd lng="fy">rigel</trd>
-  <trd lng="gl">li&#xF1;a</trd>
-  <trd lng="gu">&#xAB0;&#xAC7;&#xA96;&#xABE;</trd>
-  <trd lng="hi">&#x930;&#x947;&#x916;&#x93E;</trd>
+  <trd lng="ga">l&iacute;ne</trd>
+  <trd lng="gd">loidhne</trd>
+  <trd lng="gl">li&ntilde;a</trd>
+  <trd lng="gu">&#2736;&#2759;&#2710;&#2750;</trd>
+  <trd lng="hi">&#2352;&#2375;&#2326;&#2366;</trd>
+  <trd lng="hmn">kab</trd>
   <trd lng="hr">linija</trd>
+  <trd lng="ht">liy</trd>
   <trdgrp lng="hu">
     <trd>vonal</trd>,
     <trd>sor</trd>
   </trdgrp>
-  <trd lng="hy">&#x563;&#x56B;&#x56E;</trd>
-  <trd lng="is">l&#xED;na</trd>
-  <trd lng="ja">&#x30E9;&#x30A4;&#x30F3;</trd>
-  <trd lng="jw">baris</trd>
-  <trd lng="ka">&#x10DD;&#x10DC;&#x10DA;&#x10D0;&#x10D8;&#x10DC;</trd>
-  <trd lng="km">&#x1794;&#x1793;&#x17D2;&#x1791;&#x17B6;&#x178F;&#x17CB;</trd>
-  <trd lng="ko">&#xC628;&#xB77C;&#xC778;</trd>
-  <trd lng="lo">&#xEC0;&#xEAA;&#xEB1;&#xEC9;&#xE99;</trd>
-  <trd lng="ml">&#xD35;&#xD30;</trd>
-  <trd lng="mr">&#x913;&#x933;</trd>
-  <trd lng="my">&#x101C;&#x102D;&#x102F;&#x1004;&#x103A;&#x1038;</trd>
-  <trd lng="ne">&#x928;&#x92F;&#x93E;&#x901;</trd>
+  <trd lng="hy">&#1379;&#1387;&#1390;</trd>
+  <trd lng="ig">akara</trd>
+  <trd lng="is">l&iacute;na</trd>
+  <trd lng="ja">&#12521;&#12452;&#12531;</trd>
+  <trd lng="jv">baris</trd>
+  <trd lng="ka">&#4317;&#4316;&#4314;&#4304;&#4312;&#4316;</trd>
+  <trd lng="kk">&c_s;&c_y;&c_z;&c_y;&#1179;</trd>
+  <trd lng="km">&#6036;&#6035;&#6098;&#6033;&#6070;&#6031;&#6091;</trd>
+  <trd lng="kn">&#3256;&#3262;&#3250;&#3265;</trd>
+  <trd lng="ko">&#50728;&#46972;&#51064;</trd>
+  <trd lng="ku">xet</trd>
+  <trd lng="ky">&c_s;&c_y;&c_z;&c_y;&c_k;</trd>
+  <trd lng="lo">&#3776;&#3754;&#3761;&#3785;&#3737;</trd>
+  <trd lng="lt">linija</trd>
+  <trd lng="lv">l&imacron;nija</trd>
+  <trd lng="mg">tsipika</trd>
+  <trd lng="mi">raina</trd>
+  <trd lng="mk">&c_l;&c_i;&c_n;&c_i;&#1112;&c_a;</trd>
+  <trd lng="ml">&#3381;&#3376;</trd>
+  <trd lng="mn">&c_m;&#1257;&c_r; &c_n;&c_mol;</trd>
+  <trd lng="mr">&#2323;&#2355;</trd>
+  <trd lng="ms">talian</trd>
+  <trd lng="my">&#4124;&#4141;&#4143;&#4100;&#4154;&#4152;</trd>
+  <trd lng="ne">&#2344;&#2351;&#2366;&#2305;</trd>
   <trd lng="nl">lijn</trd>
   <trd lng="ny">mzere</trd>
-  <trd lng="pa">&#xA32;&#xA3E;&#xA08;&#xA28;</trd>
-  <trd lng="ps">&#x62E;&#x637;</trd>
+  <trd lng="pa">&#2610;&#2622;&#2568;&#2600;</trd>
+  <trd lng="ps">&a_kh;&a_T;</trd>
   <trd lng="pt">linha</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_i;&c_ja;</trd>
-  <trd lng="sd">&#x644;&#x64A;&#x6AA;</trd>
-  <trd lng="si">&#xDB8;&#xDCF;&#xDBB;&#xDCA;&#xD9C;&#xDBA;</trd>
+  <trd lng="rw">umurongo</trd>
+  <trd lng="sd">&a_l;&a_y;&#1706;</trd>
+  <trd lng="si">&#3512;&#3535;&#3515;&#3530;&#3484;&#3514;</trd>
   <trdgrp lng="sk">
     <trd>linka</trd>,
     <trd>l&iacute;nia</trd>,
     <trd>riadok</trd>,
     <trd>&ccaron;iara</trd>
   </trdgrp>
-  <trd lng="sq">linj&#xEB;</trd>
+  <trd lng="sl">vrstica</trd>
+  <trd lng="sm">laina</trd>
+  <trd lng="sn">mutsetse</trd>
+  <trd lng="sq">linj&euml;</trd>
   <trd lng="st">line line</trd>
-  <trd lng="ta">&#xBB5;&#xBB0;&#xBBF;</trd>
-  <trd lng="te">&#xC32;&#xC48;&#xC28;&#xC4D;</trd>
-  <trd lng="th">&#xE2A;&#xE32;&#xE22;</trd>
+  <trd lng="su">garis</trd>
+  <trd lng="ta">&#2997;&#2992;&#3007;</trd>
+  <trd lng="te">&#3122;&#3144;&#3112;&#3149;</trd>
+  <trd lng="tg">&c_h;&c_a;&c_t;&c_i;</trd>
+  <trd lng="th">&#3648;&#3626;&#3657;&#3609;</trd>
   <trd lng="tl">linya</trd>
-  <trd lng="ur">&#x644;&#x627;&#x626;&#x646;</trd>
-  <trd lng="vi">d&#xF2;ng</trd>
-  <trd lng="yi">&#x5E9;&#x5D5;&#x5E8;&#x5D4;</trd>
+  <trd lng="tt">&c_s;&c_y;&c_z;&c_y;&c_k;</trd>
+  <trd lng="uk">&c_l;&c_ib;&c_n;&c_ib;&c_ja;</trd>
+  <trd lng="ur">&a_l;&a_A;&a_y_hamza;&a_n;</trd>
+  <trd lng="uz">chiziq</trd>
+  <trd lng="vi">d&ograve;ng</trd>
+  <trd lng="xh">umgca</trd>
+  <trd lng="yi">&shin;&vav;&resh;&he;</trd>
+  <trd lng="yo">ila</trd>
 </drv>
 
 <drv mrk="lini.0a">
@@ -289,6 +340,7 @@
   <trd lng="pt">linear</trd>
   <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">line&aacute;rny</trd>
+  <trd lng="uk">&c_l;&c_ib;&c_n;&c_ib;&c_j;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="lini.0e">
@@ -311,6 +363,7 @@
     <trd>&c_v; <ind>&c_l;&c_i;&c_n;&c_i;&c_ju;</ind></trd>,
     <trd>&c_p;&c_o; <ind>&c_l;&c_i;&c_n;&c_i;&c_i;</ind></trd>
   </trdgrp>
+  <trd lng="uk">&c_l;&c_ib;&c_n;&c_ib;&c_j;&c_n;&c_o;</trd>
 </drv>
 
 <drv mrk="lini.0i">
@@ -342,6 +395,10 @@
     <trd>linkova&tcaron;</trd>,
     <trd>riadkova&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_l;&c_ib;&c_n;&c_ib;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_i;&c_t;&c_i; &c_l;&c_ib;&c_n;&c_ib;&c_ji;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lini.0ilo">
@@ -350,7 +407,7 @@
     <dif>
       Ilo por streki <tld/>ojn:
       <ekz>
-        kion tiuj homoj farus <klr>[&#x2026;]</klr> se ne plu estus krajonoj?
+        kion tiuj homoj farus <klr>[&#8230;]</klr> se ne plu estus krajonoj?
         Sed
         tiukaze certe estus <tld/>ilo a&ubreve; inksorbilo
         <fnt><bib>Mortul&Scirc;ip</bib>, <lok>unua libro, &ccirc;apitro
@@ -359,7 +416,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_n;&c_je;&c_j;&c_k;&c_a;</trd>
-  <trd lng="bo">&#xF50;&#xF72;&#xF42;&#xF0B;&#xF64;&#xF72;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&t_tha;&t_gigu;&t_ga;&t_tsheg;&t_sha;&t_gigu;&t_nga;&t_tsheg;</trd>
   <trd lng="cs">prav&iacute;tko</trd>
   <trd lng="fr">r&egrave;gle<klr tip="ind"> (pour tracer des
   traits)</klr></trd>
@@ -374,6 +431,7 @@
     <trd>line&aacute;r</trd>,
     <trd>prav&iacute;tko</trd>
   </trdgrp>
+  <trd lng="uk">&c_l;&c_ib;&c_n;&c_ib;&c_j;&c_k;&c_a;</trd>
 </drv>
 
 <drv mrk="lini.0aro">
@@ -404,6 +462,7 @@
   <trd lng="nl">notenbalk</trd>
   <trd lng="ru">&c_n;&c_o;&c_t;&c_n;&c_y;&c_j; &c_s;&c_t;&c_a;&c_n;</trd>
   <trd lng="sk">elektrick&aacute; sie&tcaron;</trd>
+  <trd lng="uk">&c_n;&c_o;&c_t;&c_n;&c_i;&c_j; &c_s;&c_t;&c_a;&c_n;</trd>
 </drv>
 
 <drv mrk="lini.laux0igi">
@@ -441,16 +500,90 @@
   </trdgrp>
 </drv>
 
+<drv mrk="lini.bus0o">
+  <kap>
+    bus<tld/>o,
+    <var><kap>a&ubreve;tobus<tld/>o</kap></var>
+  </kap>
+  <snc mrk="lini.bus0o.TRA">
+    <uzo tip="fak">TRA</uzo>
+    <dif>
+      <ref tip="super" cel="lini.0o.TRA"><tld lit="L"/>o<sncref/></ref>
+      la&ubreve; kiu veturas busoj:
+      <ekz>
+        la bela historia urbeto situas 16 km nordokcidente de la urbo Bjalistoko kaj
+        atingeblas per bus<tld/>oj urbaj 3 kaj 16
+        <fnt>
+          <aut>B. Schumann</aut>
+          <vrk><url ref="http://bertosch.free.fr/iik2009/"
+              >40a Internacia Infana-junula Kongreseto</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        longdistancaj a&ubreve;tobus<tld/>oj
+        <fnt>
+          <aut>J. Tom&iacute;&scaron;ek</aut>
+          <vrk><url ref="http://ifef.free.fr/spip/IMG/doc/g9.doc"
+              >Diskuto pri longdistancaj a&ubreve;tobuslinioj</url></vrk>
+          <lok>El fervoja mondo, 2016:9</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">ligne de bus</trd>
+</drv>
+
+<drv mrk="lini.fervoj0o">
+  <kap>
+    fervoj<tld/>o,
+    <var><kap>fervoja <tld/>o</kap></var>,
+    <var><kap>trajno<tld/>o</kap></var>,
+    <var><kap>trajn<tld/>o</kap></var>
+  </kap>
+  <snc mrk="lini.fervoj0o.TRA">
+    <uzo tip="fak">TRA</uzo>
+    <dif>
+      <ref tip="super" cel="lini.0o.TRA"><tld lit="L"/>o<sncref/></ref>
+      la&ubreve; kiu veturas trajnoj:
+      <ekz>
+        oni traveturis preska&ubreve; tutan et&scirc;puran reton de la Tatra Fervojo, uzis dentradan
+        fervojon, kiu kunligas Tatrojn kun la &ccirc;efa fervoj<tld/>o
+        <fnt>
+          <aut>M. Ferfi&ccaron;ov&aacute;</aut>
+          <vrk><url ref="https://esperanto-ondo.ru/78-lode.htm"
+              >Fervojista skisemajno</url></vrk>
+          <lok>La Ondo de Esperanto, 2001:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de Hanovro &ccirc;. &ccirc;iujn 30 minutojn trajno de la urba trajn<tld/>o S5 veturas al
+        Hameleno
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="https://www.esperanto.de/eo/gek2015/alveno"
+              >[gek 2015] Alveno</url></vrk>
+          <lok>Esperanto en Germanio, 2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>ligne ferroviaire</trd>,
+    <trd>ligne de chemin de fer</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="lini.gvid0o">
   <kap>gvid<tld/>o</kap>
   <snc mrk="lini.gvid0o.desegnita">
     <dif>
-      Linio anta&ubreve;desegnita por gvidi dum posta skribado, inkado,
+      <ref tip="super" cel="lini.0o.BELA">linio<sncref/></ref>
+      anta&ubreve;desegnita por gvidi dum posta skribado, inkado,
       kolorigo...:
       <ekz>
-        J&aacute;nos, sen helpo de krajono a&ubreve; gvid<tld/>oj, tute nature kreas
-        la&ubreve;
-        bildo en sia kapo
+        <nom>J&aacute;nos</nom>, sen helpo de krajono a&ubreve; gvid<tld/>oj, tute nature kreas
+        la&ubreve; bildo en sia kapo
         <fnt>
         <aut>E. Tantin Ackermann</aut>,
         <vrk>Akvareloj de J&aacute;nos T&oacute;th en Triesto/Italio</vrk>,
@@ -473,7 +606,7 @@
       &Gcirc;enerala <ref tip="super" cel="instru1.0o.KOMUNE">instrukcio</ref>
       entenanta &ccirc;efajn, ne detalajn kaj ne tute devigajn regulojn:
       <ekz>
-        Politikaj Gvid<tld/>oj de la E&ubreve;ropa Federacio de Verdaj Partioj
+        politikaj gvid<tld/>oj de la e&ubreve;ropa federacio de verdaj partioj
         <fnt>
         <aut>M. P. Sion</aut>,
         <vrk>AVE seminario</vrk>,
@@ -494,6 +627,30 @@
   <trd lng="nl">richtlijn</trd>
 </drv>
 
+<drv mrk="lini.tram0o">
+  <kap>
+    tram<tld/>o
+  </kap>
+  <snc mrk="lini.tram0o.TRA">
+    <uzo tip="fak">TRA</uzo>
+    <dif>
+      <ref tip="super" cel="lini.0o.TRA"><tld lit="L"/>o<sncref/></ref>
+      la&ubreve; kiu veturas tramoj:
+      <ekz>
+        en la 1960aj jaroj en multaj urboj estis anstata&ubreve;igitaj tram<tld/>oj per
+        buslinioj
+        <fnt>
+          <aut>W. Klag</aut>
+          <vrk><url ref="https://www.monato.be/2015/011454.php"
+              >Tramo-amo</url></vrk>
+          <lok>Monato, 2015:04, p. 13a</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">ligne de tram</trd>
+</drv>
+
 <drv mrk="lini.lim0o">
   <kap>lim<tld/>o</kap>
   <snc mrk="lini.lim0o.KOMUNE">
@@ -502,14 +659,12 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         en &gcirc;i ku&scirc;as la lim<tld/>o de la prudento, kaj tiun lim<tld/>on
-        
         oni ne devas transpa&scirc;i
-        <fnt><bib>Fab4</bib>, <lok>Turgardisto Ole</lok></fnt>;
+        <fnt><bib>Fab4</bib> <lok>Turgardisto Ole</lok></fnt>;
       </ekz>
       <ekz>
-        la kvar lim<tld/>oj nomi&gcirc;as &leftquot;la unua linio&rightquot; <klr>[&#x2026;]</klr>
-        la 
-        dua linio, la tria linio ktp
+        la kvar lim<tld/>oj nomi&gcirc;as &leftquot;la unua linio&rightquot; <klr>[&#8230;]</klr>
+        la dua linio, la tria linio ktp
         <fnt>
           <aut>Tigro</aut>,
           <vrk><url ref="http://www.espero.com.cn/06s/06s-4/socio4-1.htm">
@@ -535,6 +690,10 @@
     <trd>demarcatielijn</trd>
   </trdgrp>
   <trd lng="sk">demarka&ccaron;n&aacute; &ccaron;iara</trd>
+  <trdgrp lng="uk">
+    <trd>&c_l;&c_ib;&c_n;&c_ib;&c_ja; &c_k;&c_o;&c_r;&c_d;&c_o;&c_n;&c_u;</trd>,
+    <trd>&c_d;&c_je;&c_m;&c_a;&c_r;&c_k;&c_a;&c_c;&c_ib;&c_j;&c_n;&c_a; &c_l;&c_ib;&c_n;&c_ib;&c_ja;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lini.rompita0o">
@@ -563,9 +722,60 @@
   <trd lng="ru">&c_l;&c_o;&c_m;&c_a;&c_n;&c_a;&c_ja;</trd>
   <trd lng="sk">lomen&aacute; &ccaron;iara</trd>
 </drv>
+
+<drv mrk="lini.subtrajna_0o">
+  <kap>
+    subtrajna <tld/>o,
+    <var><kap>metro<tld/>o</kap></var>
+  </kap>
+  <snc mrk="lini.subtrajna_0o.TRA">
+    <uzo tip="fak">TRA</uzo>
+    <dif>
+      <ref tip="super" cel="lini.0o.TRA"><tld lit="L"/>o<sncref/></ref>
+      la&ubreve; kiu veturas subtrajnoj:
+      <ekz>
+        fine de aprilo ektrafikis en <nom>&Ccirc;ang&scirc;a</nom>
+        la unua subtrajna <tld/>o (N 2) 22 km-ojn longa
+        <fnt>
+          <aut>B. Henry</aut>
+          <vrk><url
+          ref="https://docplayer.fr/118586831-U-a-i-c-f-a-f-c-e-association-francaise-des-cheminots-pour-l-esperanto-san-benedetto-del-tronto.html"
+              >Voja&gcirc;oj tra &Ccirc;inio</url></vrk>
+          <lok>Esperanto-Fervojisto, 2014 (676)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alia projekto estas specialaj unurelaj metro<tld/>oj, kiujn ekspluatos kompanio
+        Jakarta Monorail
+        <fnt>
+          <aut>J. Tom&iacute;&scaron;ek</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/ingxenierado/trafiko/fervojo/EFM-2015-03.pdf"
+              >&Gcirc;akarto investas en fervojon</url></vrk>
+          <lok>El fervoja mondo, 2015:3</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">ligne de m&eacute;tro</trd>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.109 2022/10/09 15:38:11
+Ulrich Fellmann: linio: + 12 DE trdj
+
+versio 1.108 2022/08/16 21:27:30
+Jeromo Vasxe: + bus~o k. a. trafik~oj
+
+versio 1.107 2022/07/03 09:27:32
+Jeromo Vasxe: ~o: rearangx snc
+
+versio 1.106 2022/05/01 12:04:34
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.105 2022/03/29 18:31:07
+Warut Bunprasert: red th, +trd th
+
 versio 1.36 2021/04/11 09:55:23
 Wolfram Diestel: ~o 2d: +ekz, ref
 
@@ -573,20 +783,5 @@ Revision 1.34  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.33  2015/06/29 16:33:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.32  2009/11/12 17:30:20  revo
-Jeromo Vasxe: ~o + snc gen
-
-Revision 1.31  2009/10/08 16:31:12  revo
-Paul Peeraerts: +nl
-
-Revision 1.30  2007/04/20 16:30:44  revo
-Jeromo Vasxe: + lim~o
-
-Revision 1.29  2006/09/22 20:22:40  revo
-Wolfram Diestel: +tezrad(TRA)
-
-Revision 1.28  2006/03/13 17:32:15  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: rezidu.xml,v 1.4 2015/07/04 08:37:42 revo Exp $">
+<art mrk="$Id: rezidu.xml,v 1.10 2022/10/31 20:35:17 revo Exp $">
 <kap>
   <rad>rezidu</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,49 +10,116 @@
   <snc mrk="rezidu.0o.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      Resta&jcirc;o, rubo, neutila produkto de reakcio:
+      <ref tip="super" cel="rest.0ajxo">Resta&jcirc;o</ref> de 
+      <ref tip="malprt" cel="reakci.0o.KEM">reakcio</ref>:
       <ekz>
-        la afero de la radiaktivaj <klr>...</klr> <tld/>oj estas 
+        fum-<tld/>o <klr>[&#8230;]</klr> neflareble restas sur muroj, meblaro kaj &ccirc;iaj
+        objektoj de la hejmo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011291.php"
+              >Kie fumo levi&gcirc;as, tie fajro (kaj malsanoj) trovi&gcirc;as</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la afero de la radiaktivaj <klr>[&#8230;]</klr> <tld/>oj estas 
         serioza kialo kontra&ubreve; atomenergiaj elektrocentraloj
         <fnt>
           <aut>L. G. Restrepo Rivas</aut>,
-          <vrk><url
-          ref="http://www.delbarrio.eu/blo/2011/03/timo-sento/#comment-468">
+          <vrk><url ref="http://www.delbarrio.eu/blo/2011/03/timo-sento/#comment-468">
           Timo kaj aliaj sentoj</url></vrk>,
           <lok>2011-03-24</lok>
         </fnt>.
       </ekz>
     </dif>
-    <rim mrk="rezidu.0o.RIM_SIN">
-      Alternative oni povas vastigi la sencon de la pli malnova
-      <ref tip="vid" cel="skori.0o.TEK">skorio</ref>.
-      <aut>&jcirc;v</aut>
-    </rim>
     <refgrp tip="vid">
       <ref cel="fecx.0o.AGR">fe&ccirc;o</ref>,
-      <ref cel="rekrem.0o.AGR">rekremento</ref>
+      <ref cel="precip1.0ajxo">precipita&jcirc;o</ref>,
+      <ref cel="rekrem.0o.AGR">rekremento</ref>,
+      <ref cel="skori.0o">skorio</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_s;&c_a;&c_d;&c_a;&c_k;</trd>,
+      <trd>&c_a;&c_p;&c_a;&c_d;&c_a;&c_k;</trd>,
+      <trd>&c_r;&c_e;&c_sh;&c_t;&c_k;&c_a;</trd>
+    </trdgrp>
+    <trdgrp lng="cs">
+      <trd>reziduum</trd>,
+      <trd>zbytek</trd>,
+      <trd>z&uring;statek</trd>
+    </trdgrp>
+    <trd lng="de">R&uuml;ckstand</trd>
     <trdgrp lng="en">
       <trd>bottoms</trd>,
       <trd>residue</trd>
     </trdgrp>
     <trd lng="fr">r&eacute;sidu<klr> (chimie)</klr></trd>
-    <trd lng="id">residu</trd>
+    <trd lng="id">residu</trd> 
+    <trdgrp lng="sk">
+      <trd>rez&iacute;duum</trd>,
+      <trd>zostatok</trd>
+    </trdgrp>
+    <trdgrp lng="uk">
+      <trd>&c_z;&c_a;&c_l;&c_i;&c_sh;&c_o;&c_k;</trd>,
+      <trd>&c_o;&c_s;&c_a;&c_d;</trd>,
+      <trd>&c_o;&c_s;&c_a;&c_d;&c_o;&c_k;</trd>,
+      <trd>&c_v;&c_ib;&c_d;&c_s;&c_t;&c_ib;&c_j;</trd>,
+      <trd>&c_sh;&c_l;&c_a;&c_m;</trd>,
+      <trd>&c_z;&c_a;&c_l;&c_i;&c_sh;&c_o;&c_k;</trd>,
+      <trd>&c_r;&c_je;&c_sh;&c_t;&c_a;</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="cs">
-    <trd>reziduum</trd>,
-    <trd>zbytek</trd>,
-    <trd>zůstatek</trd>
+  <snc mrk="rezidu.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Tio kio restas post fino de iu procezo natura, socia ktp:
+      <ekz>
+        spioni &ccirc;e sakstrato <tld/>ojn de sordido
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007198.html"
+              >Poezio sed ne poemoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la spirita a&ubreve;ro de la moderna civilizo fatale <tld/>as, redukti&gcirc;as
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 12 (110)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_e;&c_sh;&c_t;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_r;&c_e;&c_sh;&c_t;&c_k;&c_ib;</trd>
   </trdgrp>
-  <trdgrp lng="sk">
-    <trd>rezíduum</trd>,
-    <trd>zostatok</trd>
-  </trdgrp>
+  </snc>
+  <trd lng="de">Residuum</trd>
+  <trd lng="pl">osad</trd>
+  <trd lng="ro">sediment</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.10 2022/10/31 20:35:17
+Vito Redsky: +trd pl + trd ro
+
+versio 1.9 2022/09/08 12:58:26
+Dmitri Gabinski: + trd be
+
+versio 1.8 2022/07/15 20:32:48
+Wolfram Diestel: snc 2 FIG, pli &gcirc;enerale vortigita
+
+versio 1.7 2022/07/15 16:46:14
+Wolfram Diestel: +snc PSI, +ekz
+
+versio 1.6 2022/07/15 07:30:30
+Dmitri Gabinski: + trd be
+
 Revision 1.3  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -61,7 +127,5 @@ Revision 1.2  2014/11/12 09:10:34  revo
 Eko Nur Syah Hidayat: +trd id
 
 Revision 1.1  2013/08/29 01:10:20  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

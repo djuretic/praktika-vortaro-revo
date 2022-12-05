@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: relief.xml,v 1.21 2021/04/09 07:53:53 revo Exp $">
+<art mrk="$Id: relief.xml,v 1.29 2022/09/16 08:39:45 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>relief</rad>/o <fnt><bib>PV</bib></fnt> 
@@ -13,27 +12,60 @@
     <dif>
       Elstareco de io sur ebena surfaco.
     </dif>
+    <ref tip="vid" cel="profil.0o.sekco">profilo</ref>
+  </snc>
+  <snc mrk="relief.0o.BELA">
+    <fnt><bib>EdE</bib></fnt>
+    <uzo tip="fak">BELA</uzo>
+    <dif>
+      Elstara bildo (skulpta&jcirc;o) sur plata fono:
+      <ekz>
+        <klr>pastro <nom>Sleymer</nom></klr> malfermis en <nom>Konstanz</nom> monumenton &mdash;
+        marmoran tabulon kun <tld/>o kaj subskriboj en la volap&uuml;ka kaj
+        germana lingvoj &mdash; sur la domo, en kiu vivis, laboris kaj
+        mortis <nom>J.M. Schleyer</nom>
+        <fnt>
+          <aut>E. Drezen, tr. N. Hohlov kaj N. Nekrasov</aut>:
+          <vrk>Mondolingvo: Tri jarcentoj da sercado</vrk>.
+          <lok>Leipzig: EKRELO, 1931</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="relief.alt0o">alt<tld/>o</ref>,
+      <ref cel="bareli.0o">bareliefo</ref>,
+      <ref cel="kame.0o">kameo</ref>
+    </refgrp>
     <refgrp tip="vid">
       <ref cel="modl.0i">modli</ref>,
       <ref cel="plasti.0a">plastika</ref>
     </refgrp>
   </snc>
+  <snc mrk="relief.0o.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      Formo de la tersurfaco en iu regiono:
+      <ekz>
+        Okcidenta Balkanio konsistas el landoj, kies <tld/>o estas
+        relative montara
+        <fnt><aut>Bardhyl SELIMI</aut>:
+          <vrk>Balkanio: Montaraj a&ubreve;tovojoj</vrk>. <bib>Monato</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="relief.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Atentiga videbleco:
+      Atentokapta videbleco:
       <ekz>
         la lastaj balotoj elmontris tute <ind><tld/>e</ind> tiun
-        situacion;
+        situacion.
         <trd lng="hu">kitapinthat&oacute;an</trd>
         <trdgrp lng="ru">
           <trd>&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;&c_n;&c_o;</trd>,
           <trd>&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_o;</trd>
         </trdgrp>
-      </ekz>
-      <ekz>
-        <tld/>igi
-        <klr>(f: akcenti, insisti, rimarkigi)</klr>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -43,7 +75,10 @@
   <trd lng="be">&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;</trd>
   <trd lng="bg">&c_r;&c_je;&c_l;&c_je;&c_f;</trd>
   <trd lng="cs">kontrast</trd>
-  <trd lng="de">Relief</trd>
+  <trdgrp lng="de">
+    <trd>Relief</trd>,
+    <trd>Profil</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>relief</trd>,
     <trd>outstanding representation</trd>
@@ -52,12 +87,14 @@
   <trd lng="fr">relief</trd>
   <trdgrp lng="hu">
     <trd>domborm&udblac;</trd>,
-    <trd>relief</trd></trdgrp>
+    <trd>relief</trd>
+  </trdgrp>
   <trd lng="it">rilievo</trd>
   <trd lng="nl">reli&euml;f</trd>
   <trd lng="pt">relevo</trd>
   <trd lng="ru">&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;</trd>
   <trd lng="sk">kontrast</trd>
+  <trd lng="uk">&c_r;&c_je;&#x43B;&#x44C;&c_jeu;&c_f;</trd>
 </drv>
 
 <drv mrk="relief.0a">
@@ -68,8 +105,7 @@
       <ekz>
         li montris al mi <tld/>an portreton
         <fnt>
-          <aut>V. Sadler</aut>,
-          <vrk>Azia Strategio</vrk>,
+          <aut>V. Sadler</aut>: <vrk>Azia Strategio</vrk>
           <lok>Esperanto, 1963-01</lok>
         </fnt>.
       </ekz>
@@ -84,10 +120,68 @@
     <trd>vypoukl&yacute;</trd>
   </trdgrp>
   <trd lng="fr">en <ind>relief</ind></trd>
+  <trd lng="ru">&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>kontrastn&yacute;</trd>,
     <trd>vypukl&yacute;</trd>,
     <trd>v&yacute;razn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_je;&#x43B;&#x44C;&c_jeu;&c_f;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&#x43D;. &c_v;&c_i;&c_r;&c_a;&c_z;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x44F;&c_s;&#x43A;&c_r;&c_a;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="relief.0igi">
+  <kap>
+    <tld/>igi
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="relief.0igi.FIZ">
+    <dif>
+      Formi a&ubreve; evidentigi <tld/>on de objekto:
+      <ekz>
+        kontrasto <klr>[&#8230;]</klr> <tld/>igas la formojn kaj akcentas la kolorojn
+        <fnt>
+          <aut>I. Lapenna</aut>: <vrk>Retoriko</vrk>. <lok>1950</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <ind>&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;&c_n;&c_y;&c_m;</ind></trd>
+  </snc>
+  <snc mrk="relief.0igi.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Atentigi pri...,
+      <ref tip="vid" cel="emfaz.0i">emfazi</ref>,
+      <ref tip="vid" cel="akcent.0i.KOMUNE">akcenti<sncref/></ref>:
+      <ekz>
+        la 65 partoprenintoj en la seminario <klr>[&#8230;]</klr> <tld/>igis
+        la sekvajn temojn
+        <klr>[&#8230;]</klr>
+        <fnt>
+          <aut>D. Charters</aut>
+          <vrk><url ref="https://www.ilei.info/novajxoj/simpozio2011_raporto.php">Raporto pri la
+          simpozio</url></vrk>
+          <lok>[2011]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_y;&c_p;&c_ib;&c_n;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_p;&c_a;&c_d;&c_k;&c_r;&c_e;&c_s;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="fr">mettre en <ind>relief</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;&c_n;&c_y;&c_m;</ind></trd>,
+    <trd><klr>&c_p;&c_je;&c_r;&c_je;&c_n;. </klr>&c_v;&c_y;&c_p;&c_ja;&c_t;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_r;&#x43E;&c_b;&c_i;&c_t;&c_i; &c_r;&c_je;&#x43B;&#x44C;&c_jeu;&c_f;&#x43D;&c_i;&#x43C;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&#x43D;. &c_v;&c_i;&c_d;&c_ib;&#x43B;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_ib;&c_d;&#x43A;&c_r;&c_je;&c_s;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -98,9 +192,6 @@
     <dif>
       Skulpta&jcirc;o, kies figuroj tre elstaras el surfaco.
     </dif>
-    <refgrp tip="vid">
-      <ref cel="bareli.0o">bareliefo</ref>.
-    </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;</trd>
   <trd lng="cs">hlubok&yacute; reli&eacute;f</trd>
@@ -113,6 +204,79 @@
   <trd lng="nl">haut-reli&euml;f</trd>
   <trd lng="ru">&c_g;&c_o;&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;</trd>
   <trd lng="sk">hlbok&yacute; reli&eacute;f</trd>
+</drv>
+
+<drv mrk="relief.malalt0o">
+  <kap>
+    malalt<tld/>o
+  </kap>
+  <snc mrk="relief.malalt0o.BELA">
+    <uzo tip="fak">BELA</uzo>
+    <dif>
+      <ref tip="super" cel="skulpt.0ajxo.BELA">Skulpta&jcirc;o</ref>,
+      kies figuroj malmulte elstaras el ebena fono kaj estas iom platigitaj;
+      <ref tip="sin" cel="bareli.0o">bareliefo</ref>:
+      <ekz>
+        la malalt<tld/>oj de l' Partenono
+        <fnt>
+          <aut>E. About, trad. G. Moch</aut>
+          <vrk><url ref="&Gutenberg;files/65835/65835-0.txt">La Re&gcirc;o de la Montoj</url></vrk>
+          <lok>1909</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malalt<tld/>o <klr>[&#8230;]</klr> prezentas la Herkulajn penlaborojn
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="http://www.ueci.it/k_sento/ks_2002/ks_2002_n3.htm">Baziliko de Sankta Marko
+          en Venecio</url></vrk>
+          <lok>Katolika Sento, 2002:3</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_a;&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;</trd>
+  <trd lng="ca">baix <ind>relleu</ind></trd>
+  <trd lng="cs">basreli&eacute;f</trd>
+  <trd lng="de">Flachrelief</trd>
+  <trd lng="en">bas-relief</trd>
+  <trd lng="es">bajo <ind>relieve</ind></trd>
+  <trd lng="fr">bas-relief</trd>
+  <trd lng="hu">lapos <ind>domborm&udblac;</ind></trd>
+  <trd lng="nl">bas-relief</trd>
+  <trd lng="pl">p&lstroke;askorze&zacute;ba</trd>
+  <trd lng="ru">&c_b;&c_a;&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;</trd>
+  <trd lng="sk">basreli&eacute;f</trd>
+  <trdgrp lng="sv">
+    <trd>planrelief</trd>,
+    <trd>m&aring;lerisk <ind>relief</ind></trd>,
+    <trd>l&aring;grelief</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="relief.mal0o">
+  <kap>mal<tld/>o</kap>
+  <snc mrk="relief.mal0o.BELA">
+    <uzo tip="fak">BELA</uzo>
+    <dif>
+      Skulpta&jcirc;o, kies figuroj estas konkave gravuritaj en surfaco:
+      <ekz>
+        <nom>Stejskal</nom> legis brajlon sur la mal<tld/>a flanko
+        <fnt>
+          <lok>Historio de la Esperanto-movado inter la blinduloj
+          1888&ndash;2015. Vol. 4, p. 282</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+     <ref cel="gravur.0ajxo">gravura&jcirc;o</ref>
+  </refgrp>
+  <ref tip="sub" cel="intajl.0o">intajlo</ref>
+  <trd lng="be">&c_k;&c_o;&c_n;&c_t;&c_a;&c_r;&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;</trd>
+  <trd lng="en">counter-relief</trd>
+  <trd lng="pl">wkl&eogonek;s&lstroke;orze&zacute;ba</trd>
+  <trd lng="ru">&c_k;&c_o;&c_n;&c_t;&c_r;&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;</trd>
 </drv>
 
 <drv mrk="relief.sen0a">
@@ -174,27 +338,27 @@
 </art>
 <!--
 $Log$
-versio 1.21 2021/04/09 07:53:53
+versio 1.29 2022/09/16 08:39:45
 Dmitri Gabinski: + trd be
 
-Revision 1.19  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.28 2022/06/10 19:24:47
+Wolfram Diestel: +ref, trd de
 
-Revision 1.18  2014/08/15 01:10:09  revo
-Carlos Garcia: +trd es -o alt-o
+versio 1.27 2022/05/04 19:19:16
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.17  2011/01/13 15:10:08  revo
-Jeromo Vasxe: + ~a, + trd fr
+versio 1.25 2021/11/16 23:28:43
+Jeromo Vasxe: + malalt~o
 
-Revision 1.16  2010/05/24 16:30:35  revo
-Antonio Codazzi: +trd it
+versio 1.24 2021/10/13 17:34:04
+Sergio Pokrovskij: -tajperaro
 
-Revision 1.15  2009/08/11 16:30:42  revo
-Wieland Pusch: +trd bg
+versio 1.23 2021/10/11 04:38:35
+Sergio Pokrovskij: +BELE, +GEOG, +mal~o
 
-Revision 1.14  2009/08/09 16:30:21  revo
-Russ Williams: +trd en
+versio 1.22 2021/09/14 22:28:05
+Jeromo Vasxe: + ~igi
 
-Revision 1.13  2006/02/19 17:32:45  revo
+versio 1.21 2021/04/09 07:53:53
 -->
 </vortaro>

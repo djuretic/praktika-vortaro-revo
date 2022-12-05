@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: flustr.xml,v 1.19 2015/07/04 08:37:34 revo Exp $">
+<art mrk="$Id: flustr.xml,v 1.21 2022/10/09 21:32:48 revo Exp $">
 <kap><ofc>3</ofc>
 <rad>flustr</rad>/i</kap>
 <drv mrk="flustr.0i">
@@ -33,7 +32,10 @@
       <ref cel="suflor.0i">suflori</ref>.
     </refgrp>
     <trd lng="be">&c_sh;&c_a;&c_p;&c_t;&c_a;&c_c;&c_mol;</trd>
-    <trd lng="de">fl&uuml;stern</trd>
+    <trdgrp lng="de">
+      <trd>fl&uuml;stern</trd>,
+      <trd>leise <ind>sprechen</ind></trd>
+    </trdgrp>
   <trdgrp lng="es">
     <trd>cuchichear</trd>,
     <trd>susurrar</trd>,
@@ -83,10 +85,10 @@
   </snc>
   <trdgrp lng="cs">
     <trd>&scaron;eptat</trd>,
-    <trd>pošeptat</trd>,
-    <trd>zašeptat</trd>,
-    <trd>šeptnout</trd>,
-    <trd>šustit</trd>
+    <trd>po&scaron;eptat</trd>,
+    <trd>za&scaron;eptat</trd>,
+    <trd>&scaron;eptnout</trd>,
+    <trd>&scaron;ustit</trd>
   </trdgrp>
   <trd lng="en">whisper</trd>
   <trdgrp lng="fr">
@@ -102,8 +104,16 @@
   </trdgrp>
   <trd lng="ru">&c_sh;&c_je;&c_p;&c_t;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>pošuškávať</trd>,
-    <trd>šepkať</trd>
+    <trd>po&scaron;u&scaron;k&#xE1;va&tcaron;</trd>,
+    <trd>&scaron;epka&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_sh;&c_je;&#x43F;&#x43E;&c_t;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_sh;&c_je;&#x43F;&#x43E;&c_t;&c_ib;&c_t;&c_i;</trd>,
+    <trd>&c_sh;&c_je;&#x43F;&c_t;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_sh;&c_je;&#x43B;&c_je;&c_s;&c_t;&c_ib;&c_t;&c_i;</trd>,
+    <trd>&c_sh;&c_a;&c_r;&c_u;&c_d;&c_ib;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_z;&#x44E;&c_r;&c_ch;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -129,9 +139,9 @@
   </snc>
   <trd lng="be">&c_sh;&c_e;&c_p;&c_t;</trd>
   <trdgrp lng="cs">
-    <trd>šelest</trd>,
-    <trd>šepot</trd>,
-    <trd>šustění</trd>
+    <trd>&scaron;elest</trd>,
+    <trd>&scaron;epot</trd>,
+    <trd>&scaron;ust&#x11B;n&#xED;</trd>
   </trdgrp>
   <trd lng="de">Fl&uuml;stern</trd><trd lng="de">murmullo</trd>
   <trdgrp lng="es">
@@ -143,8 +153,14 @@
   <trd lng="nl">het <ind>fluisteren</ind></trd>
   <trd lng="ru">&c_sh;&c_jo;&c_p;&c_o;&c_t;</trd>
   <trdgrp lng="sk">
-    <trd>šelest</trd>,
-    <trd>šepot</trd>
+    <trd>&scaron;elest</trd>,
+    <trd>&scaron;epot</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_sh;&c_je;&#x43F;&c_ib;&c_t;</trd>,
+    <trd>&c_sh;&c_je;&#x43F;&#x43E;&c_t;&c_ib;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_sh;&c_a;&c_r;&c_u;&c_d;&c_ib;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_d;&c_z;&#x44E;&c_r;&c_ch;&c_a;&#x43D;&#x43D;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -167,6 +183,9 @@
 </art>
 <!--
 $Log$
+versio 1.21 2022/10/09 21:32:48
+Ulrich Fellmann: flustri: + 1 DE trd
+
 Revision 1.18  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -186,11 +205,5 @@ Revision 1.13  2003/12/23 17:39:58  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2002/11/21 17:31:39  revo
-Paul Peeraerts: ald trd nl + belarangho
-
-Revision 1.11 2002/11/14 17:31:58 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10 2001/09/05 19:02:45 revo
 -->
 </vortaro>

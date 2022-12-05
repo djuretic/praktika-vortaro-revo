@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxirka.xml,v 1.51 2021/05/29 10:56:43 revo Exp $">
+<art mrk="$Id: cxirka.xml,v 1.53 2022/03/20 21:28:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;irka&ubreve;</rad>
@@ -51,7 +51,7 @@
             </ekz>
           </dif>
           <trd lng="be">&c_v;&c_a;&c_k;&c_o;&c_l;</trd>
-          <trd lng="de">um</trd>
+          <trd lng="de">herum</trd>
           <trd lng="he">&samekh;&bet;&yod;&bet;</trd>
           <trd lng="hu">k&ouml;r&uuml;l</trd>
           <trd lng="it">intorno</trd>
@@ -80,6 +80,7 @@
           Pri uzo de <em><tld/></em> kun akuzativo,
           vd <ref cel="cxirka.al0">al <tld/>, <tld/> ...-n</ref>.
         </rim>
+        <trd lng="de">um</trd>
         <trdgrp lng="es">
           <trd>al rededor de</trd>,
           <trd>en torno de</trd>
@@ -293,7 +294,12 @@
         </trdgrp>
       </snc>
     </subdrv>
-  </drv>
+    <trdgrp lng="uk">
+    <trd>&#x43F;&c_r;&c_i;&c_j;&#x43C;. &#x43D;&c_a;&c_v;&#x43A;&#x43E;&#x43B;&#x43E;</trd>,
+    <trd>&#x43D;&c_a;&c_v;&#x43A;&c_r;&c_u;&c_g;&c_i;</trd>,
+    <trd>&c_b;&c_ib;&#x43B;&#x44F; (&#x43F;&c_r;&c_i;&c_b;&#x43B;&c_i;&c_z;&#x43D;&#x43E;)</trd>
+  </trdgrp>
+</drv>
 
   <drv mrk="cxirka.al0">
     <kap>al <tld/>, <var><kap><tld/> ...-n</kap></var></kap>
@@ -537,7 +543,11 @@
        </trd>
       </trdgrp>
     </snc>
-  </drv>
+    <trdgrp lng="uk">
+    <trd>&#x43D;&c_a;&c_v;&#x43A;&#x43E;&#x43B;&#x43E;</trd>,
+    <trd>&#x43D;&c_a;&c_v;&#x43A;&c_r;&c_u;&c_g;&c_i; (&#x43F;&c_r;&c_i;&c_s;&#x43B;.)</trd>
+  </trdgrp>
+</drv>
 
   <drv mrk="cxirka.0ede">
     <kap><tld/>e de</kap>
@@ -682,7 +692,11 @@
     </rim>
     <trd lng="he">&#x5E1;&#x5D1;&#x5D9;&#x5D1;&#x5D4;</trd>
   <trd lng="it">perimetro<klr> (contorno)</klr></trd>
-  </drv>
+    <trdgrp lng="uk">
+    <trd>&#x43E;&c_t;&#x43E;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_s;&c_je;&c_r;&c_je;&c_d;&#x43E;&c_v;&c_i;&c_shch;&c_je;</trd>
+  </trdgrp>
+</drv>
 
   <drv mrk="cxirka.0ajxo">
     <kap><ofc>*</ofc><tld/>a&jcirc;o</kap>
@@ -779,7 +793,8 @@
         <trd>presso<klr> (dintorni)</klr></trd>,
         <trd>paraggi</trd>
      </trdgrp>
-  </drv>
+    <trd lng="uk">&#x43E;&#x43A;&#x43E;&#x43B;&c_i;&c_c;&#x44F;</trd>
+</drv>
 
   <drv mrk="cxirka.0ejo">
     <kap><tld/>ejo</kap>
@@ -853,7 +868,8 @@
     </trdgrp>
     <trd lng="ru">&c_o;&c_k;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;
       <klr>(&c_ch;&c_je;&c_m;-&c_l;.)</klr></trd>
-  </drv>
+    <trd lng="uk">&#x43E;&c_t;&#x43E;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+</drv>
 
   <drv mrk="cxirka.0umi">
     <kap><tld/>umi</kap>
@@ -1113,6 +1129,9 @@
 </art>
 <!--
 $Log$
+versio 1.53 2022/03/20 21:28:18
+Ulrich Fellmann: cxirkaux: du sxangxoj en la DE tradukoj
+
 versio 1.50 2021/05/15 16:02:27
 Wolfram Diestel: -ref
 
@@ -1132,8 +1151,5 @@ Revision 1.43  2017/07/14 18:10:20  revo
 Vito Redsky: +trd ro
 
 Revision 1.42  2017/03/04 20:10:13  revo
-Wolfram Diestel: ekz-oj kund fontoj, stila adapto de subart prefikso
-
-Revision 1.41  2013/06/30 18:10:09  revo
 -->
 </vortaro>

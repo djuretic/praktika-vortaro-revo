@@ -1,186 +1,299 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: plen.xml,v 1.80 2021/06/19 06:38:33 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>plen</rad>/a
-    </kap>
+  <art mrk="$Id: plen.xml,v 1.126 2022/09/07 16:49:20 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>plen</rad>/a
+</kap>
 
-    <drv mrk="plen.0a">
-      <kap><ofc>*</ofc><tld/>a</kap>
-      <snc mrk="plen.0a.tuta">
-        <dif>
-          Enhavanta la tutan enhaveblan kvanton:
-          <ekz>
-            glaso <tld/>a je vino
-            <fnt><bib>F</bib>, <lok>&FE; 32</lok></fnt>;
-          </ekz><ekz>
-            <ind><tld/>blovi</ind> ion;
-            <trd lng="hu">felf&uacute;j</trd>
-          </ekz><ekz>
-            da puntoj, rubandoj, tuloj, atlasoj <tld/>e estis en la
-            &scirc;rankoj<fnt>B</fnt>;
-          </ekz><ekz>
-            ni fari&gcirc;os <tld/>a de ebrieco kaj mal&gcirc;ojo<fnt>Z</fnt>;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            koro tro <tld/>a, bu&scirc;o parolas
-            <fnt><bib>PrV</bib></fnt>.
-          </ekz>
-        </dif>
-        <rim>
-          La radiko <em>plen</em> estas ofte uzata kiel prefikso kun la
-          signifo, ke la montrata entenanta&jcirc;o estas konsiderata kiel
-          mezurunuo:
-          <ekz>
-            <ind><tld/>bu&scirc;o</ind><fnt>Z</fnt>,
-            <trd lng="hu">teli sz&aacute;j</trd>
-          </ekz><ekz>
-            <ind><tld/>mano da</ind> io<fnt>Z</fnt>;
-            <trd lng="hu">maroknyi</trd>
-          </ekz><ekz>
-            li prenu <ref cel="man.plen0o"><tld/>manon</ref> el la
-            faruno<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>kulero;
-          </ekz><ekz>
-            <ind><tld/>brako</ind>;
-            <trd lng="hu">&ouml;lnyi</trd>
-          </ekz><ekz>
-            <tld/>gor&gcirc;o, <ref cel="busx.plen0o"><tld/>bu&scirc;o</ref> da
-            lakto;
-          </ekz><ekz>
-            24 horoj faras unu <tld/>tagon<fnt>Z</fnt>.
-          </ekz>
-        </rim>
-        <trd lng="ca">ple</trd>
-        <trd lng="es">lleno</trd>
-        <trd lng="hu">teli</trd>
-        <trd lng="nl">vol</trd>
-        <trd lng="sv">full</trd>
-      </snc>
-      <snc mrk="plen.0a.kompleta">
-        <dif>
-          Kompleta; al kiu mankas nenia necesa parto a&ubreve; eco:
-          <ekz>
-            la pli juna filino <klr>[&#x2026;]</klr> estis la <tld/>a
-            portreto de sia patro
-            <fnt><bib>F</bib>, <lok>&FE; 11</lok></fnt>;
-          </ekz><ekz>
-            <tld/>a vortaro;
-          </ekz><ekz>
-            lumo levi&gcirc;anta, kiu &ccirc;iam pli lumas &gcirc;is
-            <tld/>a tagi&gcirc;o<fnt>Z</fnt>;
-          </ekz><ekz>
-            malvera pesilo estas abomena&jcirc;o por Dio, sed <tld/>a pezo
-            pla&ccirc;as al li<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>a mallumeco, malri&ccirc;eco<fnt>Z</fnt>;
-          </ekz><ekz>
-            perfekta, en la <tld/>a senco de l' vorto;
-          </ekz><ekz>
-            <tld/>kuiri viandon<fnt>Z</fnt>;
-          </ekz><ekz>
-            <ind><tld/>a&gcirc;a</ind>;
-            <trdgrp lng="be">
-              <trd>&c_p;&c_a;&c_w;&c_n;&c_a;&c_l;&c_je;&c_t;&c_n;&c_ib;</trd>,
-              <trd>&c_d;&c_a;&c_r;&c_o;&c_s;&c_l;&c_y;</trd>,
-              <trd>&c_s;&c_t;&c_a;&c_l;&c_y;</trd>
-            </trdgrp>
-            <trd lng="de">vollj&auml;hrig</trd>
-            <trdgrp lng="ru">
-              <trd>&c_v;&c_z;&c_r;&c_o;&c_s;&c_l;&c_y;&c_j;</trd>,
-              <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_n;&c_o;&c_l;&c_je;&c_t;&c_n;&c_i;&c_j;</trd>
-            </trdgrp>
-          </ekz><ekz>
-            <tld/>kreska knabino<fnt>Z</fnt>;
-          </ekz><ekz>
-            mastreco en tuta <tld/>eco<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="ca">
-          <trd>complet</trd>,
-          <trd>enter</trd>
+<drv mrk="plen.0a">
+  <kap><ofc>*</ofc><tld/>a</kap>
+  <snc mrk="plen.0a.tuta">
+    <dif>
+      Enhavanta la tutan enhaveblan kvanton:
+      <ekz>
+        glaso <tld/>a je vino
+        <fnt><bib>F</bib>, <lok>&FE; 32</lok></fnt>;
+      </ekz><ekz>
+        jen sep spikoj elkreskis sur unu spiktrunko, <tld/>aj kaj bonaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 41:22</lok>
+        </fnt>;
+      </ekz><ekz>
+        niaj grenejoj estas <tld/>aj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 144:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        li prenos <tld/>an incensujon da ardantaj karboj de la altaro, <klr>[&#8230;]</klr>
+        kaj <tld/>ajn <tld/>manojn da bonodora pistita incenso
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 16:12</lok>
+        </fnt>;
+      </ekz><ekz>
+        <ind><tld/>blovi</ind> sin
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Lekanto</lok>
+        </fnt>,
+        la lipojn
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="hu">felf&uacute;j</trd>
+      </ekz><ekz>
+        ni fari&gcirc;os <tld/>a de ebrieco kaj mal&gcirc;ojo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 23:33</lok>
+        </fnt>;
+      </ekz><ekz>
+        apud <tld/>a man&gcirc;otablo &ccirc;iu estas tre afabla
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        koro tro <tld/>a &dash; bu&scirc;o parolas
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      La radiko <em>plen</em> estas ofte uzata kiel prefikso kun la
+      signifo, ke la montrata entenanta&jcirc;o estas konsiderata kiel
+      mezurunuo:
+      <ekz>
+        <ind><tld/>bu&scirc;o</ind>
+        <fnt><bib>ChL</bib></fnt>,
+        <trd lng="hu">teli sz&aacute;j</trd>
+      </ekz><ekz>
+        <ind><tld/>mano da</ind> <klr>[io]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 4:6</lok>
+        </fnt>;
+        <trd lng="hu">maroknyi</trd>
+      </ekz><ekz>
+        prenu <klr>[&#8230;]</klr> <ref cel="man.plen0o"><tld/>manon</ref> 
+        el la faruno
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 2:2</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>kulero;
+      </ekz><ekz>
+        <ind><tld/>brako</ind>
+        <fnt><bib>PatrojFiloj</bib></fnt>;
+        <trd lng="hu">&ouml;lnyi</trd>
+      </ekz><ekz>
+        <tld/>gor&gcirc;o
+        <fnt><bib>KPr</bib></fnt>, <ref cel="busx.plen0o"><tld/>bu&scirc;o</ref> da
+        lakto;
+      </ekz><ekz>
+        dudek kvar horoj faras unu <tld/>tagon
+        <fnt><bib>DL</bib></fnt>.
+      </ekz>
+    </rim>
+    <trd lng="ca">ple</trd>
+    <trd lng="en">full</trd>
+    <trd lng="es">lleno</trd>
+    <trd lng="hu">teli</trd>
+    <trd lng="nl">vol</trd>
+    <trd lng="sv">full</trd>
+  </snc>
+  <snc mrk="plen.0a.kompleta">
+    <dif>
+      Kompleta; al kiu mankas nenia necesa parto a&ubreve; eco:
+      <ekz>
+        la pli juna filino <klr>[&#8230;]</klr> estis la <tld/>a
+        portreto de sia patro
+        <fnt><bib>F</bib>, <lok>&FE; 11</lok></fnt>;
+      </ekz><ekz>
+        sabato de <tld/>a ripozo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 16:31</lok>
+        </fnt>;
+      </ekz><ekz>
+        kalkulu al vi de post la morga&ubreve;a tago 
+        <klr>[&#8230;]</klr> sep <tld/>ajn semajnojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 23:15</lok>
+        </fnt>;
+      </ekz><ekz>
+        la kreado de tute <tld/>a vortaro estas laboro ne ebla por unu homo
+        <fnt><bib>DL</bib></fnt>;
+      </ekz><ekz>
+        lumo levi&gcirc;anta, kiu &ccirc;iam pli lumas &gcirc;is
+        <tld/>a tagi&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 4:18</lok>
+        </fnt>;
+      </ekz><ekz>
+        malvera pesilo estas abomena&jcirc;o por la Eternulo, 
+        sed <tld/>a pezo pla&ccirc;as al Li
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 11:1</lok>
+        </fnt>;
+      </ekz><ekz>
+        sur la trotuaroj lar&gcirc;aj partoj estis en <tld/>a mallumo
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz><ekz>
+        <tld/>a malri&ccirc;eco
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 28:19</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>kuiru la viandon, bone spicu
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 24:10</lok>
+        </fnt>;
+      </ekz><ekz>
+        mi jam estas <ind><tld/>a&gcirc;a</ind> kaj sendependa
+        <fnt><bib>IK</bib></fnt>;
+        <trdgrp lng="be">
+          <trd>&c_p;&c_a;&c_w;&c_n;&c_a;&c_l;&c_je;&c_t;&c_n;&c_ib;</trd>,
+          <trd>&c_d;&c_a;&c_r;&c_o;&c_s;&c_l;&c_y;</trd>,
+          <trd>&c_s;&c_t;&c_a;&c_l;&c_y;</trd>
         </trdgrp>
-        <trdgrp lng="es">
-          <trd>completo</trd>,
-          <trd>entero</trd>
+        <trd lng="de">vollj&auml;hrig</trd>
+        <trdgrp lng="ru">
+          <trd>&c_v;&c_z;&c_r;&c_o;&c_s;&c_l;&c_y;&c_j;</trd>,
+          <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_n;&c_o;&c_l;&c_je;&c_t;&c_n;&c_i;&c_j;</trd>
         </trdgrp>
-        <trdgrp lng="fr">
-          <trd>complet</trd>,
-          <trd>entier</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>teljes</trd>,
-          <trd>eg&eacute;sz</trd>
-        </trdgrp>
-        <trd lng="nl">volledig</trd>
-        <trd lng="sv">fullst&auml;ndig</trd>
-      </snc>
-      <snc mrk="plen.0a.multa">
-        <dif>
-          Enhavanta grandan kvanton:
-          <ekz>
-            la haveno estas <tld/>a de &scirc;ipoj;
-          </ekz><ekz>
-            teksto <tld/>a de eraroj;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            kapo <tld/>a je ideoj, projektoj;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            inter <tld/>e da kadavroj<fnt>Z</fnt>
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="sat.0a">sata</ref>,
-          <ref cel="satur">saturita</ref>,
-          <ref cel="suficx.0a">sufi&ccirc;a</ref>.
-        </refgrp>
-        <trd lng="es">lleno</trd>
-        <trd lng="hu">tele</trd>
-        <trd lng="nl">vol</trd>
-        <trd lng="sv">full</trd>
-      </snc>
-      <snc mrk="plen.0a.angulo">
-        <uzo tip="fak">MAT</uzo>
-        <fnt><bib>MatVort</bib></fnt>
-        <dif>
-          <klr>(p.p. <ref cel="angul.0o.figuro">angulo</ref>)</klr>
-          Situanta ekster du egalaj lateroj, do ampleksanta la tutan
-          ebenon;
-          kies mezuro egalas al 360&#x2DA;.
-        </dif>
-        <trd lng="ca">ple <klr>(angle)</klr></trd>
-        <trd lng="cs">pln&yacute;</trd>
-        <trdgrp lng="de">
-          <trd>Voll-<klr tip="amb">(winkel)</klr></trd>,
-          <trd>voll<klr tip="ind"> (-er Winkel)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="en">
-          <trd>perigon</trd>,
-          <trd>full<klr tip="ind"> (angle)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="es">
-          <trd>lleno</trd>,
-          <trd>perigonal</trd>
-        </trdgrp>
-        <trdgrp lng="fr">
-          <trd>plein</trd>,
-          <trd>total</trd>
-        </trdgrp>
-        <trd lng="hu">teljes <klr tip="amb">(sz&ouml;g)</klr></trd>
-        <trd lng="pl">pe&lstroke;ny</trd>
-        <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_y;&c_j;</trd>
-      </snc>
+      </ekz><ekz>
+        <tld/>kreska knabino
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz><ekz>
+        mastreco <klr>[&#8230;]</klr> en tuta <tld/>eco
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso 
+          Esperantista en Krakow en la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;iuj enterigitoj estas <tld/>aj de meritoj
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ca">
+      <trd>complet</trd>,
+      <trd>enter</trd>
+    </trdgrp>
+    <trd lng="en">complete</trd>
+    <trdgrp lng="es">
+      <trd>completo</trd>,
+      <trd>entero</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>complet</trd>,
+      <trd>entier</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>teljes</trd>,
+      <trd>eg&eacute;sz</trd>
+    </trdgrp>
+    <trd lng="nl">volledig</trd>
+    <trd lng="sv">fullst&auml;ndig</trd>
+  </snc>
+  <snc mrk="plen.0a.multa">
+    <dif>
+      Enhavanta grandan kvanton:
+      <ekz>
+        Nilo, <tld/>a de &scirc;ipetoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz><ekz>
+        la domo estis <tld/>a de viroj kaj virinoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 16:27</lok>
+        </fnt>;
+      </ekz><ekz>
+        teksto <tld/>a de eraroj;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        &scirc;ia viza&gcirc;o estis <tld/>a de feli&ccirc;o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Avineto</lok>
+        </fnt>;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        kapo <tld/>a je ideoj, projektoj;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        inter <tld/>e da kadavroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 110:6</lok>
+        </fnt>;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        matena horo estas <tld/>a de oro
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="sat.0a">sata</ref>,
+      <ref cel="satur">saturita</ref>,
+      <ref cel="suficx.0a">sufi&ccirc;a</ref>.
+    </refgrp>
+    <trd lng="en">full</trd>
+    <trd lng="es">lleno</trd>
+    <trd lng="hu">tele</trd>
+    <trd lng="nl">vol</trd>
+    <trd lng="sv">full</trd>
+  </snc>
+  <snc mrk="plen.0a.angulo">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <dif>
+      <klr>(p.p. <ref cel="angul.0o.figuro">angulo</ref>)</klr>
+      Situanta ekster du egalaj lateroj, do ampleksanta la tutan
+      ebenon;
+      kies mezuro egalas al 360&#x2DA;.
+    </dif>
+    <trd lng="ca">ple <klr>(angle)</klr></trd>
+    <trd lng="cs">pln&yacute;</trd>
+    <trdgrp lng="de">
+      <trd>Voll-<klr tip="amb">(winkel)</klr></trd>,
+      <trd>voll<klr tip="ind"> (-er Winkel)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>perigon</trd>,
+      <trd>full<klr tip="ind"> (angle)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>lleno</trd>,
+      <trd>perigonal</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>plein</trd>,
+      <trd>total</trd>
+    </trdgrp>
+    <trd lng="hu">teljes <klr tip="amb">(sz&ouml;g)</klr></trd>
+    <trd lng="pl">pe&lstroke;ny</trd>
+    <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_y;&c_j;</trd>
+  </snc>
   <trd lng="af">volle</trd>
-  <trd lng="am">&#x1219;&#x1209;</trd>
+  <trd lng="am">&#4633;&#4617;</trd>
   <trd lng="ar">&a_k;&a_A;&a_m;&a_l;</trd>
-  <trd lng="az">dol&#x11F;un</trd>
+  <trd lng="az">dol&gbreve;un</trd>
   <trd lng="be">&c_p;&c_o;&c_w;&c_n;&c_y;</trd>
   <trd lng="bn">&#x9AA;&#x9C2;&#x9B0;&#x9CD;&#x9A3;</trd>
-  <trd lng="bo">&#xF41;&#xF7A;&#xF44;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_drengbu;&t_nga;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">punu</trd>
   <trd lng="co">chinu</trd>
   <trdgrp lng="cs">
@@ -191,41 +304,61 @@
     <trd>vrchovat&yacute;</trd>,
     <trd>&uacute;pln&yacute;</trd>
   </trdgrp>
+  <trd lng="cy">llawn</trd>
   <trd lng="da">fuld</trd>
   <trd lng="de">voll</trd>
   <trd lng="en">full</trd>
-  <trd lng="et">t&#xE4;is</trd>
+  <trd lng="et">t&auml;is</trd>
   <trd lng="eu">osoa</trd>
   <trd lng="fr">plein</trd>
   <trd lng="fy">fol</trd>
+  <trd lng="ga">l&aacute;n</trd>
+  <trd lng="gd">l&agrave;n</trd>
   <trd lng="gl">completo</trd>
   <trd lng="gu">&#xAB8;&#xA82;&#xAAA;&#xAC2;&#xAB0;&#xACD;&#xAA3;</trd>
-  <trd lng="hi">&#x92A;&#x942;&#x930;&#x94D;&#x923;</trd>
+  <trd lng="hi">&#x92A;&#2370;&#2352;&#x94D;&#2339;</trd>
+  <trd lng="hmn">tag nrho</trd>
   <trd lng="hr">puna</trd>
-  <trd lng="hy">&#x56C;&#x580;&#x56B;&#x57E;</trd>
+  <trd lng="ht">plen</trd>
+  <trd lng="hy">&#x56C;&#1408;&#x56B;&#x57E;</trd>
+  <trd lng="ig">zuru</trd>
   <trd lng="is">fullur</trd>
   <trd lng="ja">&#x30D5;&#x30EB;</trd>
-  <trd lng="jw">lengkap</trd>
+  <trd lng="jv">lengkap</trd>
   <trd lng="ka">&#x10E1;&#x10E0;&#x10E3;&#x10DA;&#x10D8;</trd>
-  <trd lng="km">&#x1796;&#x17C1;&#x1789;&#x179B;&#x17C1;&#x1789;</trd>
+  <trd lng="kk">&c_t;&c_o;&c_l;&c_y;&#x49B;</trd>
+  <trd lng="km">&#6038;&#x17C1;&#6025;&#x179B;&#x17C1;&#6025;</trd>
+  <trd lng="kn">&#xCAA;&#xCC2;&#xCB0;&#xCCD;&#xCA3;</trd>
   <trd lng="ko">&#xC804;&#xCCB4;</trd>
+  <trd lng="ku">tije</trd>
+  <trd lng="ky">&c_t;&c_o;&c_l;&c_u;&c_k;</trd>
+  <trd lng="lat">pleni</trd>
   <trd lng="lo">&#xEA2;&#xEC8;&#xEB2;&#xE87;&#xEC0;&#xE95;&#xEB1;&#xEA1;&#xE97;&#xEB5;&#xEC8;</trd>
+  <trd lng="lt">pilnas</trd>
+  <trd lng="lv">pilns</trd>
+  <trd lng="mg">feno</trd>
+  <trd lng="mi">tonu</trd>
+  <trd lng="mk">&c_c;&c_je;&c_l;&c_o;&c_s;&c_n;&c_a;</trd>
   <trd lng="ml">&#xD28;&#xD3F;&#xD31;&#xD1E;&#xD4D;&#xD1E;</trd>
-  <trd lng="mr">&#x92A;&#x942;&#x930;&#x94D;&#x923;</trd>
-  <trd lng="my">&#x1015;&#x103C;&#x100A;&#x1037;&#x103A;&#x101E;&#x1031;&#x102C;</trd>
-  <trd lng="ne">&#x92A;&#x942;&#x930;&#x94D;&#x923;</trd>
+  <trd lng="mn">&c_b;&#x4AF;&c_r;&c_e;&c_n;</trd>
+  <trd lng="mr">&#x92A;&#2370;&#2352;&#x94D;&#2339;</trd>
+  <trd lng="ms">penuh</trd>
+  <trd lng="mt">s&#295;i&#295;a</trd>
+  <trd lng="my">&#4117;&#x103C;&#x100A;&#4151;&#x103A;&#x101E;&#4145;&#x102C;</trd>
+  <trd lng="ne">&#x92A;&#2370;&#2352;&#x94D;&#2339;</trd>
   <trd lng="ny">zonse</trd>
   <trd lng="pa">&#xA2A;&#xA42;&#xA30;&#xA47;</trd>
-  <trd lng="ps">&a_b;&a_sh;&#x67E;&#x693;</trd>
+  <trd lng="ps">&a_b;&a_sh;&f_p;&#1683;</trd>
   <trdgrp lng="pt">
-        <trd>pleno</trd>,
-        <trd>cheio</trd>,
-        <trd>completo</trd>,
-        <trd>total</trd>,
-        <trd>cabal</trd>,
-        <trd>inteiro</trd>
-      </trdgrp>
+    <trd>pleno</trd>,
+    <trd>cheio</trd>,
+    <trd>completo</trd>,
+    <trd>total</trd>,
+    <trd>cabal</trd>,
+    <trd>inteiro</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_y;&c_j;</trd>
+  <trd lng="rw">byuzuye</trd>
   <trd lng="sd">&a_m;&#x6AA;&a_m;&a_l;</trd>
   <trd lng="si">&#xDB4;&#xDD6;&#xDBB;&#xDCA;&#xDAB;</trd>
   <trdgrp lng="sk">
@@ -233,132 +366,233 @@
     <trd>ucelen&yacute;</trd>,
     <trd>&uacute;pln&yacute;</trd>
   </trdgrp>
-  <trd lng="sq">plot&#xEB;</trd>
+  <trd lng="sl">polno</trd>
+  <trd lng="sm">tumu</trd>
+  <trd lng="sn">azere</trd>
+  <trd lng="so">buuxa</trd>
+  <trd lng="sq">plot&euml;</trd>
   <trd lng="st">feletseng</trd>
+  <trd lng="su">pinuh</trd>
   <trd lng="ta">&#xBAE;&#xBC1;&#xBB4;&#xBC1;</trd>
   <trd lng="te">&#xC2A;&#xC42;&#xC30;&#xC4D;&#xC24;&#xC3F;</trd>
+  <trd lng="tg">&c_p;&c_u;&c_r;</trd>
   <trd lng="th">&#xE40;&#xE15;&#xE47;&#xE21;</trd>
   <trd lng="tl">ganap</trd>
-  <trd lng="ur">&a_m;&#x6A9;&a_m;&a_l;</trd>
-  <trd lng="vi">&#x111;&#x1EA7;y &#x111;&#x1EE7;</trd>
-  <trd lng="yi">&#x5E4;&#x5D5;&#x5DC;</trd>
+  <trd lng="tt">&c_t;&c_u;&c_l;&c_y;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_v;&c_n;&c_i;&c_j;</trd>
+  <trd lng="ur">&a_m;&f_k;&a_m;&a_l;</trd>
+  <trd lng="uz">to&#8217;liq</trd>
+  <trd lng="vi">&#273;&#x1EA7;y &#273;&#x1EE7;</trd>
+  <trd lng="xh">ngokupheleleyo</trd>
+  <trd lng="yi">&pe;&vav;&lamed;</trd>
+  <trd lng="yo">ni kikun</trd>
   <trd lng="zu">egcwele</trd>
 </drv>
 
-    <drv mrk="plen.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="plen.0o.KOMUNE">
-        <dif>
-          La tuta, kompleta enhavo de io:
-          <ekz>
-            mi ne povas postuli de unu eldona&jcirc;o, ke &gcirc;i prezentu la
-            <tld/>on de la vivo
-            <fnt>
-              <aut>Alen Kris</aut>: <vrk>Redakcie</vrk>.
-              <bib>LOdE</bib>, <lok>2002:1</lok>
-            </fnt>;
-          </ekz><ekz>
-            anta&ubreve; ducent-tricent jaroj oni flate nomis la popolon
-            fonto de potenco, la demagogoj modestmiene petis &gcirc;in
-            delegi al ili peceton el la <tld/>o de siaj rajtoj
-            <fnt>
-              <aut>Alen Kris</aut>: <vrk>Redakcie</vrk>.
-              <bib>LOdE</bib>, <lok>2004:2</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-        <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_o;&c_t;&c_a;</trd>
-      </snc>
-      <snc mrk="plen.0o.POL">
-        <uzo tip="fak">JUR</uzo>
-        <uzo tip="fak">POL</uzo>
-        <dif>
-          Speciale, kunsido a&ubreve; alia aran&gcirc;o kiun partoprenas &ccirc;iuj anoj
-          de organiza&jcirc;o a&ubreve; ties supera instanco:
-          <ekz>
-            specialaj raportoj de la Komisiono informas la
-            <tld lit="P"/>on pri &gcirc;ia agado
-            <fnt>
-              <vrk><url ref="http://www.akademio-de-esperanto.org/faktoj/statuto.html">Statuto de la
-              Akademio de Esperanto</url></vrk>.
-              <lok>Art. 17a: Komisionoj</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-        <trd lng="ru">&c_p;&c_l;&c_je;&c_n;&c_u;&c_m;</trd>
-      </snc>
+<drv mrk="plen.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="plen.0o.KOMUNE">
+    <dif>
+      La tuta, kompleta <ref tip="super" cel="hav.en0o">enhavo</ref> de io:
+      <ekz>
+        En brusto kura&gcirc;o kaj forto bolanta, // Espero kaj kredo en <tld/>o
+        <fnt><bib>FK</bib></fnt>;
+      </ekz><ekz>
+        mi ne povas postuli de unu eldona&jcirc;o, ke &gcirc;i prezentu la
+        <tld/>on de la vivo
+        <fnt>
+          <aut>Alen Kris</aut>: <vrk>Redakcie</vrk>.
+          <bib>LOdE</bib>, <lok>2002:1</lok>
+        </fnt>;
+      </ekz><ekz>
+        la pa&gcirc;oj en interreto ofte estas valoraj, sed en <tld/>o ne plu travideblaj, ne
+        el&ccirc;erpe utiligeblaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2010/010136.php">Strato de la e&ubreve;ropa
+          kulturo</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz><ekz>
+        anta&ubreve; ducent-tricent jaroj oni flate nomis la popolon
+        fonto de potenco, la demagogoj modestmiene petis &gcirc;in
+        delegi al ili peceton el la <tld/>o de siaj rajtoj
+        <fnt>
+          <aut>Alen Kris</aut>: <vrk>Redakcie</vrk>.
+          <bib>LOdE</bib>, <lok>2004:2</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="cxio.0">&ccirc;io</ref>,
+      <ref cel="komple2.0o.KOMUNE">kompleto<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>F&uuml;lle</trd>,
+      <trd>G&auml;nze</trd>
+    </trdgrp><trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_o;&c_t;&c_a;</trd>
+  </snc>
+  <snc mrk="plen.0o.POL">
+    <uzo tip="fak">JUR</uzo>
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Speciale, <ref tip="super" cel="sid.kun0o">kunsido</ref> a&ubreve; alia aran&gcirc;o kiun partoprenas &ccirc;iuj
+      anoj
+      de organiza&jcirc;o a&ubreve; ties supera instanco:
+      <ekz>
+        la laboro <klr>[&#8230;]</klr> nun efektivi&gcirc;as en la kunvenoj de la <tld/>o, en
+        sekcioj a&ubreve; en apartaj laborkunsidoj, depende de la karaktero de la traktotaj
+        demandoj
+        <fnt><bib>EeP</bib></fnt>;
+      </ekz><ekz>
+        anta&ubreve; la <tld/>o estas proklamataj la gajnintoj de diversaj konkursoj
+        <fnt><bib>EeP</bib></fnt>;
+      </ekz><ekz>
+        specialaj raportoj de la Komisiono informas la
+        <tld lit="P"/>on pri &gcirc;ia agado
+        <fnt>
+          <vrk><url ref="&AdE;/faktoj/statuto.html">Statuto de la
+          Akademio de Esperanto</url></vrk>.
+          <lok>Art. 17a: Komisionoj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="konvent.0o.POL">konvento<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Plenum</trd>
+    <trd lng="ru">&c_p;&c_l;&c_je;&c_n;&c_u;&c_m;</trd>
+  </snc>
   <trd lng="cs">v&scaron;echno <klr>(v n&ecaron;&ccaron;em obsa&zcaron;en&eacute;)</klr></trd>
+  <trd lng="en">fullness</trd>
   <trd lng="sk">v&scaron;etko</trd>
 </drv>
 
-    <drv mrk="plen.0igi">
-      <kap><tld/>igi</kap>
-      <gra><vspec>tr</vspec></gra>
-      <dif>
-        Fari ion <tld/>a:
-      </dif>
-      <snc mrk="plen.0igi.ujon">
-        <ekz>
-          <tld/>igi sakon je sablo;
-        </ekz><ekz>
-          <tld/>igi trezorejon<fnt>Z</fnt>;
-        </ekz><ekz>
-          nubo <tld/>igis la korton<fnt>Z</fnt>;
-        </ekz><ekz>
-          provi <tld/>igi la barelon de la Danaidinoj <klr>(vane
-          klopodi,
-            kvaza&ubreve; iu, kiu provas <tld/>igi senfundan barelon)</klr>;
-        </ekz><ekz>
-          viaj grenejoj <tld/>i&gcirc;os<fnt>Z</fnt>;
-        </ekz><ekz>
-          mi <tld/>i&gcirc;is de mirego
-        </ekz>
-        <refgrp tip="vid">
-          <ref cel="satur.0i">saturi</ref>,
-          <ref cel="sorb">trasorbigi</ref>,
-          <ref cel="penetr.0i">penetri</ref>.
-        </refgrp>
-        <refgrp tip="vid">
-          <ref cel="spir.0i">spiri</ref>.
-        </refgrp>
-      </snc>
-      <snc mrk="plen.0igi.kontingenton">
-        <ekz>
-          <tld/>igi kontingenton;
-        </ekz><ekz>
-          <tld/>igi mal<tld/>on, bre&ccirc;on;
-        </ekz><ekz>
-          <uzo tip="stl">FIG</uzo>
-          <tld/>igi mankon
-        </ekz>
-        <refgrp tip="vid">
-          <ref cel="mank.0o">manko</ref>,
-          <ref cel="neni.0igi">neniigi</ref>.
-        </refgrp>
-      </snc>
-      <snc mrk="plen.0igi.ejon">
-        <ekz>
-          <tld/>igi sian domon per raba&jcirc;o<fnt>Z</fnt>;
-        </ekz><ekz>
-          la hospitaloj super<tld/>i&gcirc;as je malsanuloj.
-        </ekz>
-      </snc>
+<drv mrk="plen.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="plen.0igi.ujon">
+    <dif>
+      Meti ion en ujon &gcirc;is &gcirc;i estas <tld/>a:
+      <ekz>
+        &scirc;i iris kaj <tld/>igis la felsakon per akvo kaj trinkigis la knabon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 21:19</lok>
+        </fnt>;
+      </ekz><ekz>
+        krakas veturilo, <tld/>igita de garboj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Amos 2:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>igi trezorejon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz><ekz>
+        nubo <tld/>igis la internan korton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 10:3</lok>
+        </fnt>;
+      </ekz><ekz>
+        provi <tld/>igi la barelon de la Danaidinoj <klr>(vane
+        klopodi, kvaza&ubreve; iu, kiu provas <tld/>igi senfundan barelon)</klr>;
+      </ekz><ekz>
+        <tld/>igi sian domon per raba&jcirc;o
+          <fnt>
+            <bib>MT</bib>
+            <lok>Sentencoj 1:13</lok>
+          </fnt>;
+      </ekz><ekz>
+        unu sola <klr>(fina)</klr> guto la glason <tld/>igas
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        sakon kun truo vi neniam <tld/>igos
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        plendoj stomakon ne <tld/>igas
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="satur.0i">saturi</ref>,
+      <ref cel="sorb">trasorbigi</ref>,
+      <ref cel="penetr.0i">penetri</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="spir.0i">spiri</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="plen.0igi.kompletigi">
+    <dif>
+      <ref tip="super" cel="komple2.0igi">Kompletigi</ref> ion, eksvarmigi ie:
+      <ekz>
+        multi&gcirc;u, kaj <tld/>igu la teron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 1:28</lok>
+        </fnt>;
+      </ekz><ekz>
+        liaj koresponda&jcirc;oj <tld/>igas 12 volumojn
+        <fnt><bib>EeP</bib></fnt>;
+      </ekz><ekz>
+        li <tld/>igis la &ccirc;ambron per pipfuma nebulspiralo
+        <fnt><bib>KKr</bib></fnt>;
+      </ekz><ekz>
+        <tld/>igi mankon.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="mank.0o">manko</ref>,
+      <ref cel="neni.0igi">neniigi</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="plen.0igi.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Igi iun <tld/>a je sentoj ks:
+      <ekz>
+        ili <tld/>i&gcirc;is de mirego
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 3:10</lok>
+        </fnt>;
+      </ekz><ekz>
+        Jo&ccirc;jo a&gcirc;as 21 jarojn, kaj <klr>[&#8230;]</klr> du pasioj plenigas lian vivon
+        <fnt><bib>ChV</bib></fnt>;
+      </ekz><ekz>
+        espero &scirc;in <tld/>igis
+        <fnt><bib>ChV</bib></fnt>;
+      </ekz><ekz>
+        melankolia etoso <tld/>igis la &ccirc;ambron
+        <fnt><bib>ChR</bib></fnt>;
+      </ekz><ekz>
+        nevidebla forto pu&scirc;is lin anta&ubreve;en kaj sendube <tld/>igis lin per plezuro
+        <fnt><bib>KKr</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="af">vul</trd>
-  <trd lng="am">&#x12E8;&#x1205;&#x12DD;&#x1265; &#x1265;&#x12DB;&#x1275;</trd>
+  <trd lng="am">&#x12E8;&#4613;&#x12DD;&#4709; &#4709;&#x12DB;&#4725;</trd>
   <trd lng="ar">&a_A_hamza_sure;&a_h;&a_l;</trd>
-  <trd lng="az">ya&#x15F;ay&inodot;r</trd>
+  <trd lng="az">ya&scedil;ay&inodot;r</trd>
   <trdgrp lng="be">
-        <trd>&c_n;&c_a;&c_p;&c_o;&c_w;&c_n;&c_ib;&c_c;&c_mol;</trd>,
-        <trd>&c_z;&c_a;&c_p;&c_o;&c_w;&c_n;&c_ib;&c_c;&c_mol;</trd>
-      </trdgrp>
+    <trd>&c_n;&c_a;&c_p;&c_o;&c_w;&c_n;&c_ib;&c_c;&c_mol;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_o;&c_w;&c_n;&c_ib;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="bn">&#x9AA;&#x9C2;&#x9B0;&#x9A3;</trd>
-  <trd lng="bo">&#xF41;&#xF7A;&#xF44;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_drengbu;&t_nga;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">naseliti</trd>
   <trdgrp lng="ca">
-        <trd>emplenar</trd>,
-        <trd>omplir</trd>
-      </trdgrp>
-  <trd lng="co">gh&#xEC;nchinu</trd>
+    <trd>emplenar</trd>,
+    <trd>omplir</trd>
+  </trdgrp>
+  <trd lng="co">gh&igrave;nchinu</trd>
   <trdgrp lng="cs">
     <trd>naplnit</trd>,
     <trd>napl&ncaron;ovat</trd>,
@@ -367,6 +601,7 @@
     <trd>vypl&ncaron;ovat</trd>,
     <trd>zapl&ncaron;ovat</trd>
   </trdgrp>
+  <trd lng="cy">boblogi</trd>
   <trd lng="da">befolke</trd>
   <trd lng="de">f&uuml;llen</trd>
   <trd lng="en">fill</trd>
@@ -374,194 +609,280 @@
   <trd lng="et">asustada</trd>
   <trd lng="eu">populatu</trd>
   <trdgrp lng="fr">
-        <trd>emplir</trd>,
-        <trd>remplir</trd>
-      </trdgrp>
+    <trd>emplir</trd>,
+    <trd>remplir</trd>
+  </trdgrp>
+  <trd lng="gd">dh&#8217;fhuireach ann</trd>
   <trd lng="gl">cubrir</trd>
   <trd lng="gu">&#xAB0;&#xA9A;&#xAA8;&#xABE;</trd>
-  <trd lng="hi">&#x906;&#x92C;&#x93E;&#x926;</trd>
+  <trd lng="hi">&#2310;&#x92C;&#x93E;&#2342;</trd>
   <trd lng="hr">naseliti</trd>
+  <trd lng="ht">peple</trd>
   <trdgrp lng="hu">
-        <trd>t&ouml;lt</trd>,
-        <trd>megt&ouml;lt</trd>,
-        <trd>felt&ouml;lt</trd>
-        <trd>kit&ouml;lt</trd>,
-        <trd>tel&iacute;t</trd>,
-        <trd>telerak</trd>
-      </trdgrp>
-  <trd lng="hy">&#x562;&#x576;&#x561;&#x56F;&#x565;&#x581;&#x576;&#x565;&#x56C;</trd>
+    <trd>t&ouml;lt</trd>,
+    <trd>megt&ouml;lt</trd>,
+    <trd>felt&ouml;lt</trd>
+    <trd>kit&ouml;lt</trd>,
+    <trd>tel&iacute;t</trd>,
+    <trd>telerak</trd>
+  </trdgrp>
+  <trd lng="hy">&#1378;&#1398;&#1377;&#x56F;&#1381;&#1409;&#1398;&#1381;&#x56C;</trd>
   <trd lng="is">byggja</trd>
-  <trd lng="ja">&#x6295;&#x5165;&#x3059;&#x308B;</trd>
+  <trd lng="ja">&#25237;&#20837;&#12377;&#x308B;</trd>
   <trd lng="ka">&#x10DB;&#x10DD;&#x10D4;&#x10E7;&#x10D5;&#x10D0;&#x10DC;&#x10D0;</trd>
-  <trd lng="km">&#x1795;&#x17D2;&#x1791;&#x17BB;&#x1780;</trd>
+  <trd lng="kk">&c_t;&c_o;&c_l;&c_t;&c_y;&c_r;&c_u;</trd>
+  <trd lng="km">&#6037;&#x17D2;&#6033;&#x17BB;&#6016;</trd>
+  <trd
+  lng="kn">&#xC9C;&#xCA8;&#xCAA;&#xCCD;&#xCB0;&#xCBF;&#xCAF;&#xC97;&#xCCA;&#xCB3;&#xCBF;&#xCB8;&#xCC1;&#xCB5;&#xCC1;&#xCA6;&#xC95;&#xCCD;&#xC95;&#xCC6;</trd>
   <trd lng="ko">&#xC6C1;&#xB2C8;&#xB2E4;</trd>
+  <trd lng="ku">m&ucirc;</trd>
+  <trd lng="ky">&c_t;&c_o;&c_l;&c_t;&c_u;&c_r;&c_u;&c_sh;</trd>
+  <trd lng="lat">frequentare</trd>
   <trd lng="lo">&#xEB2;&#xEA5;&#xEB0;&#xE99;&#xEB2;</trd>
-  <trd lng="ml">&#xD1C;&#xD28;&#xD2A;&#xD4D;&#xD30;&#xD3F;&#xD2F;&#xD2E;&#xD3E;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD28;&#xD4D;&#xD28;&#xD24;&#xD3F;&#xD28;&#xD4D;</trd>
-  <trd lng="mr">&#x935;&#x938;&#x93E;&#x939;&#x924;</trd>
-  <trd lng="my">&#x1014;&#x1031;&#x1011;&#x102D;&#x102F;&#x1004;&#x103A;&#x1005;&#x1031;</trd>
-  <trd lng="ne">&#x906;&#x92C;&#x93E;&#x926;</trd>
+  <trd lng="lt">u&zcaron;pildyti</trd>
+  <trd lng="lv">apdz&#x12B;vot</trd>
+  <trd lng="mg">hameno</trd>
+  <trd lng="mi">huri</trd>
+  <trd lng="mk">&c_d;&c_o;&c_v;&c_je;&c_r;&c_a;&c_t;</trd>
+  <trd
+  lng="ml">&#xD1C;&#xD28;&#xD2A;&#xD4D;&#xD30;&#xD3F;&#xD2F;&#xD2E;&#xD3E;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD28;&#xD4D;&#xD28;&#xD24;&#xD3F;&#xD28;&#xD4D;</trd>
+  <trd lng="mn">&c_n;&c_u;&c_t;&c_a;&c_g;&c_sh;&c_u;&c_u;&c_l;&c_a;&c_h;</trd>
+  <trd lng="mr">&#2357;&#2360;&#x93E;&#2361;&#2340;</trd>
+  <trd lng="ms">mempopulasikan</trd>
+  <trd lng="mt">timla</trd>
+  <trd lng="my">&#4116;&#4145;&#4113;&#x102D;&#x102F;&#4100;&#x103A;&#4101;&#4145;</trd>
+  <trd lng="ne">&#2310;&#x92C;&#x93E;&#2342;</trd>
   <trd lng="nl">vullen</trd>
   <trd lng="ny">azikakhala</trd>
   <trd lng="pa">&#xA24;&#xA3F;&#xA06;&#xA30;</trd>
   <trd lng="ps">&a_sh;&a_y_hamza;&f_ch;&#x6D0;</trd>
   <trdgrp lng="ru">
-        <trd>&c_n;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_z;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>
-      </trdgrp>
-  <trd lng="sd">&#x680;&a_r;&#x64A;</trd>
+    <trd>&c_n;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="rw">gutura</trd>
+  <trd lng="sd">&#1664;&a_r;&a_y;</trd>
   <trd lng="si">&#xDB4;&#xDD2;&#xDBB;&#xDC0;&#xDD2;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>naplni&tcaron;</trd>,
     <trd>vyplni&tcaron;</trd>,
     <trd>zapl&ncaron;ova&tcaron;</trd>
   </trdgrp>
+  <trd lng="sl">zapolnijo</trd>
+  <trd lng="sm">faa&#x2BB;ain&#5585;ina</trd>
+  <trd lng="sn">vazadze</trd>
+  <trd lng="so">dad</trd>
   <trd lng="sq">populloj</trd>
   <trd lng="st">tlatse</trd>
   <trd lng="sv">fylla</trd>
-  <trd lng="ta">&#xBB5;&#xBBF;&#xBB0;&#xBBF;&#xBB5;&#xBC1;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBC1;&#xBA4;&#xBCD;&#xBA4;</trd>
+  <trd lng="sw">idadi ya</trd>
+  <trd
+  lng="ta">&#xBB5;&#xBBF;&#xBB0;&#xBBF;&#xBB5;&#xBC1;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBC1;&#xBA4;&#xBCD;&#xBA4;</trd>
   <trd lng="te">&#xC1C;&#xC28;&#xC38;&#xC3E;&#xC02;&#xC26;&#xC4D;&#xC30;&#xC24;</trd>
   <trd lng="th">&#xE40;&#xE15;&#xE34;&#xE21;</trd>
   <trd lng="tl">mapuno</trd>
-  <trd lng="ur">&a_A_madda;&a_b;&a_A;&#x62F;</trd>
+  <trd lng="tt">&c_h;&c_a;&c_l;&c_y;&c_k;</trd>
+  <trd lng="uk">&c_a;&c_p;&c_o;&c_v;&c_n;&c_je;&c_n;&c_n;&c_ja;</trd>
+  <trd lng="ur">&a_A_madda;&a_b;&a_A;&a_d;</trd>
+  <trd lng="uz">aholining</trd>
   <trd lng="vi">c&#x1B0;</trd>
-  <trd lng="yi">&#x5D1;&#x5D0;&#x5B7;&#x5E4;&#x5E2;&#x5DC;&#x5E7;&#x5E2;&#x5E8;&#x5DF;</trd>
+  <trd lng="xh">bazalise</trd>
+  <trd lng="yi">&bet;&alef;&#x5B7;&pe;&ayin;&lamed;&qof;&ayin;&resh;&fnun;</trd>
+  <trd lng="yo">bado</trd>
 </drv>
 
-    <drv mrk="plen.0umi">
-      <kap><ofc>*</ofc><tld/>umi</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="plen.0umi.efektivigi">
-        <dif>
-          <tld lit="P"/>e efektivigi, kion oni devas:
-          <ekz>
-            <ind>multe komencite, malmulte <tld/>umite</ind>
-            <trd lng="hu">sokat akar a szarka, de nem b&iacute;rja a
-            farka</trd>
-            <fnt><bib>PrV</bib></fnt>;
-          </ekz><ekz>
-            <tld/>umi sian taskon, oficon;
-          </ekz><ekz>
-            <tld/>umi ordonon, promeson, komision, devon,
-            &scirc;uldon<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>umi <klr>(obei, observi)</klr> le&gcirc;on<fnt>Z</fnt>,
-          </ekz><ekz>
-            instruon, konsilon;
-          </ekz><ekz>
-            <tld/>umi la peton, la deziron<fnt>Z</fnt>,
-          </ekz><ekz>
-            ian bezonon, la mendon de iu<fnt>Z</fnt>;
-          </ekz><ekz>
-            tio perfekte <tld/>umas &ccirc;iujn miajn revojn<fnt>B</fnt>,
-          </ekz><ekz>
-            tiujn postulojn;
-          </ekz><ekz>
-            lingvo <tld/>umas sian difinon nur tiam, se tiuj uzas &gcirc;in
-            severe
-            egale<fnt>Z</fnt>;
-          </ekz><ekz>
-            dum la milito Esperanto, malgra&ubreve; tre malfavoraj
-            kondi&ccirc;oj, <tld/>umis
-            sian grandegan destinon rilate la homaron.
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="plen.0umi.fari">
-        <dif>
-          Fari:
-          <ekz>
-            mi volonte <tld/>umis lian deziron
-            <fnt><bib>F</bib>, <lok>&FE; 42</lok></fnt>;
-          </ekz><ekz>
-            <tld/>umi laboron, batalon, rolon, kanton<fnt>Z</fnt>,
-          </ekz><ekz>
-            dancon;
-          </ekz><ekz>
-            sekretario <tld/>umas la korespondadon<fnt>Z</fnt>;
-          </ekz><ekz>
-            la <tld/>umado de plej diversaj gestoj<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-      </snc>
-  <trdgrp lng="be">
-        <trd>&c_v;&c_y;&c_k;&c_o;&c_n;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_z;&c_mol;&c_d;&c_z;&c_ja;&c_j;&c_s;&c_mol;&c_n;&c_ja;&c_c;&c_mol;</trd>,
-        <trd>&c_z;&c_mol;&c_d;&c_z;&c_je;&c_j;&c_s;&c_mol;&c_n;&c_ib;&c_c;&c_mol;</trd>
-      </trdgrp>
+<drv mrk="plen.0umi">
+  <kap><ofc>*</ofc><tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="plen.0umi.efektivigi">
+    <dif>
+      <tld lit="P"/>e, konsekvence <ref tip="sin" cel="efekti.0igi">efektivigi</ref> 
+      tion, kion oni devas fari:
+      <ekz>
+        mi volonte <tld/>umis lian deziron
+        <fnt><bib>F</bib>, <lok>&FE; 42</lok></fnt>;
+      </ekz><ekz>
+        <tld/>umi ordonon
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>,
+        promeson
+        <fnt><bib>MT</bib> <lok>&Lev; 22:21</lok></fnt>;
+      </ekz><ekz>
+        <tld/>uminte mian &scirc;uldon <klr>(devon?)</klr>
+        <fnt><bib>Hamlet</bib></fnt>;
+      </ekz><ekz>
+        oni <tld/>umis la <klr>[&#8230;]</klr> le&gcirc;on
+        <fnt><bib>NT</bib> <lok>&Rom; 13:8</lok></fnt>;
+      </ekz><ekz>
+        mi ne rajtas drinki dum mi <tld/>umas oficialan funkcion
+        <fnt><bib>ChB</bib></fnt>;
+      </ekz><ekz>
+        ta&ubreve;ge <tld/>umi siajn instrukciojn
+        <fnt><bib>ChV</bib></fnt>;
+      </ekz><ekz>
+        efike <tld/>umi sian rolon
+        <fnt><bib>EeP</bib></fnt>;
+      </ekz><ekz>
+        la plej malagrablajn taskojn <klr>[&#8230;]</klr> &scirc;i <tld/>umis kun pedanta perfektemo
+        <fnt><bib>ChV</bib></fnt>;
+      </ekz><ekz>
+        la decido estis firma en li, sed nun, kiam la tempo &gcirc;in <tld/>umi alvenis, speco
+        de &scirc;topa bulo formi&gcirc;is engor&gcirc;e, kaj li sentis sin senhelpa
+        <fnt><bib>ChV</bib></fnt>;
+      </ekz><ekz>
+        kun la sala gusto de l&#8217; larmoj miksi&gcirc;is la pla&ccirc;a gusto de <tld/>umita ven&gcirc;o
+        <fnt><bib>CKv</bib></fnt>;
+      </ekz><ekz>
+        <ind>la afero estas <tld/>umita</ind>
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="de">es ist <ind>vollbracht</ind></trd>
+      </ekz><ekz>
+        <ind>multe komencite, malmulte <tld/>umite</ind>
+        <trd lng="hu">sokat akar a szarka, de nem b&iacute;rja a
+        farka</trd>
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="real.0igi">realigi</ref>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_y;&c_k;&c_o;&c_n;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_z;&c_mol;&c_d;&c_z;&c_ja;&c_j;&c_s;&c_mol;&c_n;&c_ja;&c_c;&c_mol;</trd>,
+      <trd>&c_z;&c_mol;&c_d;&c_z;&c_je;&c_j;&c_s;&c_mol;&c_n;&c_ib;&c_c;&c_mol;</trd>
+    </trdgrp>
+    <trdgrp lng="ca">
+      <trd>complir</trd>,
+      <trd>dur a terme</trd>
+    </trdgrp>
+    <trdgrp lng="cs">
+      <trd>prov&eacute;st</trd>,
+      <trd>realizovat</trd>,
+      <trd>splnit</trd>,
+      <trd>vykonat</trd>,
+      <trd>vyplnit</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>ausf&uuml;hren</trd>,
+      <trd>leisten</trd>,
+      <trd>erf&uuml;llen</trd>,
+      <trd>umsetzen</trd>,
+      <trd><ind>Gen&uuml;ge</ind> tun</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>accomplish</trd>,
+      <trd>fulfil</trd>
+    </trdgrp>
+    <trd lng="es">cumplir</trd>
+    <trdgrp lng="fr">
+      <trd>accomplir</trd>,
+      <trd>effectuer</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>teljes&iacute;t</trd>,
+      <trd>megcsin&aacute;l</trd>,
+      <trd>v&eacute;grehajt</trd>
+    </trdgrp>
+    <trd lng="nl">vervullen</trd>
+    <trdgrp lng="ru">
+      <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol;</trd>,
+      <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol;</trd>
+    </trdgrp>
+    <trdgrp lng="sk">
+      <trd>previes&tcaron;</trd>,
+      <trd>splni&tcaron;</trd>,
+      <trd>vykona&tcaron;</trd>,
+      <trd>vyplni&tcaron;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="plen.0umi.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <uzo tip="fak">TEA</uzo>
+    <dif>
+      Vidigi a&ubreve; a&ubreve;digi artan verkon (muzikpecon, poezia&jcirc;on, dancon ktp):
+      <ekz>
+        Kelkajn el la muzika&jcirc;oj sur la disko <nom>Jacques Yvart</nom>
+        ne nur <tld/>umis (kante kaj gitar-akompane), sed anka&ubreve; a&ubreve;toris
+        <fnt><aut>Alexander SHLAFER</aut>:
+          <vrk>Plia sukceso de Jacques Yvart</vrk>. <bib>Monato</bib></fnt>;
+      </ekz><ekz>
+        eksonis malla&ubreve;ta, sed bela muziko, dum kiu &hcirc;oro de pastrinoj
+        <tld/>umis solenan dancon
+        <fnt><bib>Far3</bib>, <lok>&ccirc;ap. 8&#170;.</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="interp2.0i.BELA">interpreti<sncref/></ref>,
+      <ref cel="lud.0i.BELA">ludi<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>auff&uuml;hren</trd>,
+      <trd>geben</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>perform</trd>,
+      <trd>execute</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="uk">&c_v;&c_i;&c_k;&c_o;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+</drv>
+
+<drv mrk="plen.0umigxi">
+  <kap><tld/>umi&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="plen.0umigxi.realigxi">
+    <dif>
+      Reali&gcirc;i konforme al plano, intenco, anta&ubreve;diro:
+      <ekz>
+        &ccirc;io <tld/>umi&gcirc;is
+        <fnt><bib>MT</bib> <lok>&Jos; 21:45</lok></fnt>;
+      </ekz><ekz>
+        tio okazas, por ke <tld/>umi&gcirc;u la vorto skribita en ilia le&gcirc;o
+        <fnt><bib>NT</bib>, <lok>&Joh; 15:25</lok></fnt>;
+      </ekz><ekz>
+        la plano sukcese <tld/>umi&gcirc;is
+        <fnt><bib>ChV</bib></fnt>;
+      </ekz><ekz>
+        ni financis projekton, kiu la&ubreve;dire <tld/>umi&gcirc;is dum tri jaroj, <klr>[&#8230;]</klr>
+        sed &ccirc;io estis falsa, nenio estis reale efektivigita
+        <fnt><bib>CKv</bib></fnt>;
+      </ekz><ekz>
+        <tld/>umi&gcirc;is la profeta&jcirc;o
+        <fnt><bib>Kon11</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="efekti.0igxi">efektivi&gcirc;i</ref>
+    </refgrp>
+  </snc>
   <trdgrp lng="ca">
-        <trd>complir</trd>,
-        <trd>dur a terme</trd>
-      </trdgrp>
-  <trdgrp lng="cs">
-    <trd>prov&eacute;st</trd>,
-    <trd>realizovat</trd>,
-    <trd>splnit</trd>,
-    <trd>vykonat</trd>,
-    <trd>vyplnit</trd>
+    <trd>complir-se</trd>,
+    <trd>dur-se a terme</trd>
   </trdgrp>
-  <trd lng="de">erf&uuml;llen</trd>
-  <trdgrp lng="en">
-        <trd>accomplish</trd>,
-        <trd>fulfil</trd>
-      </trdgrp>
-  <trd lng="es">cumplir</trd>
+  <trd lng="de">sich <ind>erf&uuml;llen</ind></trd>
+  <trd lng="es">cumplirse</trd>
   <trdgrp lng="fr">
-        <trd>accomplir</trd>,
-        <trd>effectuer</trd>
-      </trdgrp>
-  <trdgrp lng="hu">
-        <trd>teljes&iacute;t</trd>,
-        <trd>megcsin&aacute;l</trd>,
-        <trd>v&eacute;grehajt</trd>
-      </trdgrp>
-  <trd lng="nl">vervullen</trd>
-  <trdgrp lng="ru">
-        <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol;</trd>,
-        <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol;</trd>
-      </trdgrp>
-  <trdgrp lng="sk">
-    <trd>previes&tcaron;</trd>,
-    <trd>splni&tcaron;</trd>,
-    <trd>vykona&tcaron;</trd>,
-    <trd>vyplni&tcaron;</trd>
+    <trd>advenir</trd>,
+    <trd>s'<ind>accomplir</ind></trd>
   </trdgrp>
+  <trdgrp lng="hu">
+    <trd>teljes&uuml;l</trd>,
+    <trd>megval&oacute;sul</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="uk">&c_s;&c_p;&c_o;&c_v;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
 </drv>
-
-    <drv mrk="plen.0umigxi">
-      <kap><tld/>umi&gcirc;i</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <snc mrk="plen.0umigxi.realigxi">
-        <dif>
-          Reali&gcirc;i konforme al plano, intenco, anta&ubreve;diro:
-          <ekz>
-            tio okazas, por ke <tld/>umi&gcirc;u la vorto skribita en ilia
-            le&gcirc;o
-            <fnt><bib>NT</bib>, <lok>&Joh; 15:25</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="ca">
-        <trd>complir-se</trd>,
-        <trd>dur-se a terme</trd>
-      </trdgrp>
-      <trd lng="es">cumplirse</trd>
-      <trdgrp lng="fr">
-        <trd>advenir</trd>,
-        <trd>s'<ind>accomplir</ind></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>teljes&uuml;l</trd>,
-        <trd>megval&oacute;sul</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-        <trd>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
-      </trdgrp>
-    </drv>
 
 <drv mrk="plen.antaux0umi">
   <kap>anta&ubreve;<tld/>umi</kap>
@@ -569,32 +890,85 @@
   <snc mrk="plen.antaux0umi.KOMUNE">
     <dif>
       <tld lit="P"/>umi anta&ubreve; la planita a&ubreve; normala tempo,
-      ekzemple ies deziron anta&ubreve; ol &gcirc;i estas esprimita.
+      ekzemple ies deziron anta&ubreve; ol &gcirc;i estas esprimita:
+      <ekz>
+        &ccirc;iam preta anta&ubreve;<tld/>umi niajn dezirojn kaj forgesi la proprajn
+        <fnt><bib>BdV</bib></fnt>;
+      </ekz><ekz>
+        li &scirc;in flegis kun zorgemo kortu&scirc;anta, kaj &ccirc;iujn deziretojn &scirc;iajn li
+        anta&ubreve;<tld/>umis delikate
+        <fnt><bib>VivZam</bib></fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ven.antaux0i">anta&ubreve;veni</ref>,
+      <ref cel="antici.0i">anticipi</ref>
+    </refgrp>
   </snc>
+  <trd lng="de"><klr>(einen Wunsch) </klr>vorwegnehmen</trd>
   <trd lng="fr">devancer<klr tip="ind"> (un d&eacute;sir)</klr></trd>
   <trd lng="hu">el&odblac;re <ind>teljes&iacute;t</ind></trd>
-  <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_u;&c_p;&c_r;&c_je;&c_d;&c_i;&c_t;&c_mol;<klr tip="amb"> (&c_zh;&c_je;&c_l;&c_a;&c_n;&c_i;&c_je;)</klr></trd>
+  <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_u;&c_p;&c_r;&c_je;&c_d;&c_i;&c_t;&c_mol;<klr tip="amb">
+  (&c_zh;&c_je;&c_l;&c_a;&c_n;&c_i;&c_je;)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&c_v;&c_i;&c_k;&c_o;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a;&c_z;&c_d;&c_a;&c_l;&c_je;&c_g;&c_ib;&c_d;&c_mol;</trd>,
+    <trd>&c_v;&c_i;&c_k;&c_o;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i; &c_n;&c_a;&c_p;&c_je;&c_r;&c_je;&c_d;</trd>
+  </trdgrp>
 </drv>
 
-    <drv mrk="plen.mal0a">
-      <kap>mal<tld/>a</kap>
-      <snc mrk="plen.mal0a.KOMUNE">
-        <dif>
-          Enhavanta nenion:
-          <ekz>
-            mal<tld/>a kesto, &ccirc;ambro, stomako, monujo;
-          </ekz>
-          <ekz>
-            &scirc;i neniam foriras kun mal<tld/>aj manoj;
-          </ekz>
-          <ekz>
-            mal<tld/>kapulo<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-      </snc>
+<drv mrk="plen.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="plen.mal0a.KOMUNE">
+    <dif>
+      Enhavanta nenion:
+      <ekz>
+        la puto estis mal<tld/>a, akvo ne estis en &gcirc;i
+        <fnt><bib>MT</bib> <lok>&Gen; 37:24</lok></fnt>;
+      </ekz><ekz>
+        ne forsendu lin kun mal<tld/>aj manoj
+        <fnt><bib>MT</bib> <lok>&Rea; 15:13</lok></fnt>;
+      </ekz><ekz>
+        mal<tld/>a &ccirc;ambro, kie estis nur malgranda tablo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
+      </ekz><ekz>
+        &scirc;i havis la senton, kvaza&ubreve; &scirc;iaj intestoj sin mem forman&gcirc;as kaj &scirc;i fari&gcirc;as
+        interne tute mal<tld/>a, terure mal<tld/>a
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Knabino, kiu pa&scirc;is sur panon</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>a de kolero li eltiris sian glavon, sed li batis nur la mal<tld/>an aeron,
+        la kulojn li ne povis trafi
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Malbona princo (Legendo)</lok>
+        </fnt>;
+      </ekz><ekz>
+        la skribo ofte aperas tiel pala, <klr>[&#8230;kvaza&ubreve;]</klr> oni havas anta&ubreve; si
+        mal<tld/>an folion
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz><ekz>
+        almozpetanto sin&gcirc;ena restas kun sako mal<tld/>a
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        barelo mal<tld/>a sonas plej la&ubreve;te
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kav.0a">kava</ref>,
+      <ref cel="hav.senen0a">senenhava</ref>
+    </refgrp>
+  </snc>
   <trd lng="be">&c_p;&c_u;&c_s;&c_t;&c_y;</trd>
-  <trd lng="bo">&#xF66;&#xF9F;&#xF7C;&#xF44;&#xF0B;&#xF54;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_tata;&t_naro;&t_nga;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trd lng="ca">buit</trd>
   <trd lng="cs">pr&aacute;zdn&yacute;</trd>
   <trd lng="de">leer</trd>
@@ -606,6 +980,10 @@
   <trd lng="ru">&c_p;&c_u;&c_s;&c_t;&c_o;&c_j;</trd>
   <trd lng="sk">pr&aacute;zdny</trd>
   <trd lng="sv">tom</trd>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_ib;&c_j;</trd>,
+    <trd>&c_p;&c_u;&c_s;&c_t;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.mal0o">
@@ -614,13 +992,42 @@
     <dif>
       Manko de enhavo, manko de &ccirc;iaj atendeblaj a&jcirc;oj:
       <ekz>
-        vi timas la mal<tld/>on, kiu &ccirc;irka&ubreve;prenos vin,
-        kiam la karaj rememora&jcirc;oj estingi&gcirc;os
-        <fnt>B</fnt>.
+        li sentas, kvaza&ubreve; li falegas en senfinan mal<tld/>on
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>En la lasta tago</lok>
+        </fnt>;
+      </ekz><ekz>
+        ili grimpis sur la supron de alta amaso de disrompitaj &scirc;tonegoj <klr>[&#8230;]</klr>
+        kaj rigardis al la mal<tld/>o de la oceano
+        <fnt><bib>Lasta</bib></fnt>;
+      </ekz><ekz>
+        pufaj promesoj ne &scirc;topas mal<tld/>on
+        <fnt><bib>LSB</bib></fnt>;
+      </ekz><ekz>
+        animo <klr>[&#8230;]</klr> <tld/>a de mal<tld/>o
+        <fnt><bib>DKM</bib></fnt>;
+      </ekz><ekz>
+        la manko de tiu al &scirc;i fremda vivenhavo ka&ubreve;zis la malgajon kaj senton de
+        mal<tld/>o, kiuj regis en lia interno
+        <fnt><bib>HsT</bib></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="abism.0o.profundo">abismo</ref>,
+      <ref cel="dezert.0o">dezerto</ref>,
+      <ref cel="profun.0o.profundajxo">profundo</ref>,
+      <ref cel="tru.0o.kavo">truo</ref>,
+      <ref cel="vaku.0o">vakuo</ref>
+    </refgrp>
   </snc>
+  <trd lng="de">Leere</trd>
+  <trd lng="en">emptiness</trd>
   <trd lng="fr">vide<klr> (subst.)</klr></trd>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_je;&c_ch;&c_a;</trd>,
+    <trd>&c_p;&c_u;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.mal0igi">
@@ -629,7 +1036,37 @@
     <dif>
       Igi mal<tld/>a, senigi je &gcirc;ia enhavo:
       <ekz>
-        mal<tld/>igi sian sakon<fnt>Z</fnt>.
+        kiam ili mal<tld/>igis siajn sakojn, montri&gcirc;is, ke &ccirc;iu el ili havas sian liga&jcirc;on
+        da mono en sia sako
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 42:35</lok>
+        </fnt>;
+      </ekz><ekz>
+        por la sano de la fian&ccirc;igita pareto! diris la patro, kaj &ccirc;iu glaso estis
+        mal<tld/>igita &gcirc;isfunde
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kolo de botelo</lok>
+        </fnt>;
+      </ekz><ekz>
+        Grenjo mal<tld/>igis sian anta&ubreve;tukon kaj la dis&scirc;utitaj perloj kaj multekostaj
+        &scirc;tonoj saltis en la &ccirc;ambro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ha&ccirc;jo kaj Grenjo</lok>
+        </fnt>;
+      </ekz><ekz>
+        sur la tablo staris ankora&ubreve; <klr>[&#8230;]</klr> duone mal<tld/>igitaj fruktujoj
+        <fnt><bib>IKr</bib></fnt>;
+      </ekz><ekz>
+        la cezaro <klr>[&#8230;]</klr> ordonis mal<tld/>igi &ccirc;iujn malliberejojn
+        <fnt><bib>QuV</bib></fnt>;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        iom post iom oni mal<tld/>igas mian esta&jcirc;on, &ccirc;iutage oni el&ccirc;erpas mian animon,
+        guton post guto
+        <fnt><bib>ChL</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -637,44 +1074,71 @@
     <trd>&c_s;&c_p;&c_u;&c_s;&c_t;&c_a;&c_sh;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_r;&c_a;&c_zh;&c_n;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="de">leeren</trd>
+  <trd lng="en">empty</trd>
   <trd lng="fr">vider</trd>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_ja;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_p;&c_u;&c_s;&c_t;&c_o;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.mal0umi">
-      <kap>mal<tld/>umi</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="plen.mal0umi.KOMUNE">
-        <dif>
-          Ne fari tion, kion oni devus:
-          <ekz>
-            mal<tld/>umi sian promeson, devon;
-          </ekz>
-          <ekz>
-            Miajn decidojn ili mal<tld/>umos kaj Miajn ordonojn ili ne
-            observos
-            <fnt><bib>MT</bib> <lok>&Psa; 89:31</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
+  <kap>mal<tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="plen.mal0umi.KOMUNE">
+    <dif>
+      Ne fari tion, kion oni devus:
+      <ekz>
+        mal<tld/>umi sian promeson;
+      </ekz><ekz>
+        li mal<tld/>umas siajn patriotajn kaj soldatajn devojn
+        <fnt><bib>SatirRak</bib></fnt>;
+      </ekz><ekz>
+        la instrusistemo grandparte mal<tld/>umis la atendojn de instruistoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2011/010291.php">Tigro, kiu ne plu roras</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz><ekz>
+        Miajn decidojn ili mal<tld/>umos kaj Miajn ordonojn ili ne
+        observos
+        <fnt><bib>MT</bib> <lok>&Psa; 89:31</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="atent.mal0i">malatenti</ref>,
+      <ref cel="respek.mal0i">malrespekti</ref>,
+      <ref cel="observ.mal0i">malobservi</ref>,
+      <ref cel="romp.0i.difekti">rompi<sncref/></ref>
+    </refgrp>
+  </snc>
   <trd lng="be">&c_n;&c_ja;
-        <ind>&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_c;&c_mol;</ind></trd>
+    <ind>&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_c;&c_mol;</ind></trd>
   <trd lng="ca">incomplir</trd>
   <trdgrp lng="cs">
     <trd>neplnit</trd>,
     <trd>poru&scaron;it</trd>
   </trdgrp>
-  <trd lng="de">nicht <ind>erf&uuml;llen</ind></trd>
+  <trdgrp lng="de">
+    <trd>nicht <ind>erf&uuml;llen</ind></trd>,
+    <trd>brechen<klr> (Versprechen)</klr></trd>,
+    <trd>verletzen<klr> (Pflicht)</klr></trd>
+  </trdgrp>
   <trd lng="es">incumplir</trd>
   <trdgrp lng="fr">
-        <trd>omettre<klr> (une chose &agrave; faire)</klr></trd>,
-        <trd>n&eacute;gliger<klr> (une chose &agrave; faire)</klr></trd>
-      </trdgrp>
+    <trd>omettre<klr> (une chose &agrave; faire)</klr></trd>,
+    <trd>n&eacute;gliger<klr> (une chose &agrave; faire)</klr></trd>
+  </trdgrp>
   <trd lng="hu">nem <ind>teljes&iacute;t</ind></trd>
   <trd lng="ru">&c_n;&c_je; <ind>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</ind></trd>
   <trdgrp lng="sk">
     <trd>neplni&tcaron;</trd>,
     <trd>poru&scaron;i&tcaron;</trd>
   </trdgrp>
+  <trd lng="uk">&c_n;&c_je; <ind>&c_v;&c_i;&c_k;&c_o;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</ind></trd>
 </drv>
 
 <drv mrk="plen.ne0umebla">
@@ -685,6 +1149,21 @@
     <dif>
       Kiun oni ne povas <tld/>umi, fari, atingi:
       <ekz>
+        la afero proponata al ili estas ne<tld/>umebla
+        <fnt><bib>EE</bib></fnt>;
+      </ekz><ekz>
+        via deziro estas absolute ne<tld/>umebla
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz><ekz>
+        <klr>[ili]</klr> starigas &scirc;ajne ne<tld/>umeblajn postulojn
+        <fnt><bib>Voja&gcirc;Imp</bib></fnt>;
+      </ekz><ekz>
+        kio teorie &scirc;ajnis bona, en la praktiko eble montri&gcirc;os ne<tld/>umebla
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz><ekz>
         multaj virinoj trovas tion ne<tld/>umebla tasko fari
         sian hejmon tia, ke &gcirc;in prilumas rideto radianta,
         kien ajn oni rigardas
@@ -695,23 +1174,73 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="hximer.0o.FIG">&hcirc;imero<sncref/></ref>,
+      <ref cel="iluzi.0a">iluzia</ref>
+      <ref cel="rev.0o">revo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
     <trd>&c_n;&c_je;&c_z;&c_d;&c_z;&c_ja;&c_j;&c_s;&c_n;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="de">unerf&uuml;llbar</trd>
+  <trdgrp lng="en">
+    <trd>infeasible</trd>,
+    <trd>unfeasible</trd>
+  </trdgrp>
   <trd lng="fr">impossible (&agrave; accomplir)</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_z;&c_d;&c_ib;&c_j;&c_s;&c_n;&c_je;&c_n;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_z;&c_d;&c_ib;&c_j;&c_s;&c_n;&c_i;&c_m;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.00a">
-  <kap><tld/><tld/>a</kap>
+  <kap><tld/><tld/>a, 
+    <var><kap><tld/>ega</kap></var>, 
+    <var><kap>tro <tld/>a</kap></var>
+  </kap>
   <snc mrk="plen.00a.KOMUNE">
     <dif>
       Tro <tld/>igita, &scirc;topita:
       <ekz>
-        li <klr>[&#x2026;]</klr> eliris <klr>[&#x2026;]</klr> portante paperan
+        la stratoj de la urbo <klr>[&#8230;]</klr> estas <tld/>plenaj de balaa&jcirc;oj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Turgardisto Ole</lok>
+        </fnt>;
+      </ekz><ekz>
+        la guto, kiu tro<tld/>igis jam la <tld/>egan pokalon
+        <fnt><bib>QuV</bib></fnt>;
+      </ekz><ekz>
+        koro <klr>[&#8230;]</klr> estas <tld/>plena de mal&gcirc;ojo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz><ekz>
+        <nom>Adaha</nom> &ccirc;esis paroli <klr>[&#8230;]</klr> pro tro<tld/>eco de la koro
+        <fnt><bib>I&scirc;tar</bib></fnt>;
+      </ekz><ekz>
+        &ccirc;ambro, <tld/>plena de netakseblaj materioj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz><ekz>
+        ve al vi, murdisto! tro<tld/>i&gcirc;is via mezuro kaj proksimi&gcirc;as via horo
+        <fnt><bib>QuV</bib></fnt>!
+      </ekz><ekz>
+        li <klr>[&#8230;]</klr> eliris <klr>[&#8230;]</klr> portante paperan
         sakon, kiu aspektis <tld/><tld/>a
-        <fnt><bib>Gerda</bib> <lok>&ccirc;apitro 15a</lok></fnt>.
+        <fnt><bib>Gerda</bib> <lok>&ccirc;apitro 15a</lok></fnt>;
+      </ekz><ekz>
+        ili estis amikoj <tld/>plene
+        <fnt><bib>HsT</bib></fnt>;
+      </ekz><ekz>
+        &ccirc;ar estis <tld/>plene da proponoj dum tiuj jaroj, li ne rapidis
+        <fnt><bib>HsT</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -727,48 +1256,54 @@
     <trd>vrchovat&yacute;</trd>,
     <trd>&uacute;pln&yacute;</trd>
   </trdgrp>
+  <trd lng="de">&uuml;bervoll</trd>
   <trdgrp lng="en">
-        <trd>crammed</trd>,
-        <trd>full</trd>
-      </trdgrp>
+    <trd>crammed</trd>,
+    <trd>full</trd>
+  </trdgrp>
   <trdgrp lng="es">
-        <trd>atestado</trd>,
-        <trd>atiborrado</trd>
-      </trdgrp>
+    <trd>atestado</trd>,
+    <trd>atiborrado</trd>
+  </trdgrp>
   <trdgrp lng="fr">
-        <trd>bond&eacute;</trd>,
-        <trd>plein comme un &oelig;uf</trd>
-      </trdgrp>
+    <trd>bond&eacute;</trd>,
+    <trd>plein comme un &oelig;uf</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>pln&yacute;</trd>,
     <trd>ucelen&yacute;</trd>,
     <trd>&uacute;pln&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_u;&c_zh;&c_je; <ind>&c_p;&c_o;&c_v;&c_n;&c_i;&c_j;</ind></trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_o;&c_v;&c_n;&c_je;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_p;&c_o;&c_v;&c_n;&c_ib;&c_s;&c_ib;&c_n;&c_mol;&c_k;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
-  </art>
+</art>
   <!--
   $Log$
-versio 1.76 2021/06/16 12:46:26
-Dmitri Gabinski: + trd be
+versio 1.126 2022/09/07 16:49:20
+Wolfram Diestel: ref
 
-versio 1.35 2020/12/06 22:38:10
-Jeromo Vasxe: + ne~umebla
+versio 1.125 2022/07/10 12:49:37
+Ulrich Fellmann: plenumi: +4 pliaj DE tradj
 
-  Revision 1.33  2015/07/04 08:37:41  revo
-  aldono de trd cs per skripto de M. von Laer
+versio 1.124 2022/07/01 09:31:33
+Sergio Pokrovskij: + ~umi.MUZ
 
-  Revision 1.32  2015/06/29 16:40:18  revo
-  aldono de trd sk per skripto de M. von Laer
+versio 1.123 2022/05/01 17:51:19
+aktualigo lingvokodoj kaj URL-unuoj
 
-  Revision 1.31  2013/09/15 11:10:18  revo
-  Wolfram Diestel: ref al plenbusxo, plenmano
+versio 1.122 2022/03/30 16:42:24
+Wolfram Diestel: kor. trd uk
 
-  Revision 1.30  2011/12/21 12:10:16  revo
-  Eduardo Iriarte Gahete: +trd es
+versio 1.120 2022/01/01 16:47:39
+Wolfram Diestel: +ref-oj
 
-  Revision 1.29  2008/06/25 16:30:16  revo
-  Sergio Pokrovskij: -tajperaro
+versio 1.119 2022/01/01 10:31:40
+Wolfram Diestel: mal~igi..~~a: ekz-oj, var, trd de
 
-  Revision 1.28  2008/06/24 16:30:16  revo
+versio 1.118 2022/01/01 08:34:32
 -->
 </vortaro>

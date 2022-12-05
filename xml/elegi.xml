@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: elegi.xml,v 1.19 2021/03/09 17:45:36 revo Exp $">
+<art mrk="$Id: elegi.xml,v 1.22 2022/04/27 14:38:54 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>elegi</rad>/o
@@ -13,7 +13,22 @@
     <uzo tip="fak">POE</uzo>
     <dif>
       Malgranda lirika <ref tip="super" cel="poem.0o.POE">poemo</ref>,
-      kun melankolia a&ubreve; sopira karaktero.
+      kun <ref cel="melank.0o">melankolia</ref> a&ubreve; 
+      <ref cel="sopir.0o.sento">sopira</ref> karaktero:
+      <ekz>
+        la kanto &scirc;an&gcirc;adis sin iom post iom en plendan, dolorplenan <tld/>on
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lingvo ta&ubreve;gas plene por &ccirc;iuj poeziaj taskoj: epopeo, satiro, liriko,
+        didaktika versa eseo, epigramo, medita&jcirc;o, <tld/>o, poezia dramo, psikologia
+        monologo, kabareda kanzono
+        <fnt>
+          <bib>Plumamikoj</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_e;&c_l;&c_je;&c_g;&c_ib;&c_ja;</trd>
@@ -22,7 +37,7 @@
     <trd>duma</trd>,
     <trd>dumka</trd>,
     <trd>elegie</trd>,
-    <trd>&#x17E;alozp&#x11B;v</trd>
+    <trd>&zcaron;alozp&ecaron;v</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Elegie</trd>,
@@ -36,9 +51,10 @@
   <trd lng="pt">elegia</trd>
   <trd lng="ru">&c_e;&c_l;&c_je;&c_g;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
-    <trd>el&#xE9;gia</trd>,
-    <trd>&#x17E;alospev</trd>
+    <trd>el&eacute;gia</trd>,
+    <trd>&zcaron;alospev</trd>
   </trdgrp>
+  <trd lng="uk">&#x435;&#x43B;&#x435;&#x433;&#x456;&#x44F;</trd>
 </drv>
 
 <drv mrk="elegi.0a">
@@ -47,7 +63,13 @@
     <dif>
       Rilata al <tld/>o:
       <ekz>
-        <tld/>a poezio.
+        Solono verkis siajn poemojn grandparte en <tld/>aj disti&hcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>D-ro Winfried Schumacher</aut>
+          <vrk><url ref="&Monato;/2012/010605.php">Filozofio metio ideologio</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">elegisch</trd>
@@ -57,9 +79,18 @@
     <dif>
       Plorema kiel <tld/>o:
       <ekz>
-        <tld/>a tono.
+        la deklamanto <klr>[&#x2026;]</klr> kantas kun tamburado <tld/>ajn kantojn pri la
+        martira morto de imamo <nom>Husejn</nom>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#x2116; 3 (101)</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="nostal.0a">nostalgia</ref>,
+<ref cel="melank.0a">melankolia</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>schwerm&uuml;tig</trd>,
       <trd>wehm&uuml;tig</trd>
@@ -73,28 +104,41 @@
   <trd lng="be">&c_e;&c_l;&c_je;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
   <trd lng="ca">eleg&iacute;ac</trd>
   <trdgrp lng="cs">
-    <trd>elegick&#xFD;</trd>,
-    <trd>smutn&#xFD;</trd>,
-    <trd>tkliv&#xFD;</trd>,
-    <trd>&#x17E;alostiv&#xFD;</trd>
+    <trd>elegick&yacute;</trd>,
+    <trd>smutn&yacute;</trd>,
+    <trd>tkliv&yacute;</trd>,
+    <trd>&zcaron;alostiv&yacute;</trd>
   </trdgrp>
   <trd lng="en">elegaic</trd>
   <trd lng="fr">&eacute;l&eacute;giaque</trd>
   <trdgrp lng="he">
-    <trd>&#x5E2;&#x5E6;&#x5D5;&#x5D1;</trd>,
-    <trd>&#x5E7;&#x5D9;&#x5E0;&#x5EA;&#x5D9;</trd>
+    <trd>&ayin;&tsadi;&vav;&bet;</trd>,
+    <trd>&qof;&yod;&nun;&tav;&yod;</trd>
   </trdgrp>
   <trd lng="hu">el&eacute;gikus</trd>
   <trdgrp lng="sk">
-    <trd>elegick&#xFD;</trd>,
-    <trd>smutn&#xFD;</trd>,
-    <trd>tr&#xFA;chliv&#xFD;</trd>,
-    <trd>&#x17E;ia&#x13E;ny</trd>
+    <trd>elegick&yacute;</trd>,
+    <trd>smutn&yacute;</trd>,
+    <trd>tr&uacute;chliv&yacute;</trd>,
+    <trd>&zcaron;ia&lcaron;ny</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x435;&#x43B;&#x435;&#x433;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x43C;&#x435;&#x43B;&#x430;&#x43D;&#x445;&#x43E;&#x43B;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>,
+    <trd>&#x442;&#x443;&#x436;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
+    <trd>&#x441;&#x443;&#x43C;&#x43E;&#x432;&#x438;&#x442;&#x438;&#x439;</trd>,
+    <trd>&#x436;&#x443;&#x440;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2022/04/27 14:38:54
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.20 2022/01/26 20:28:09
+Wolfram Diestel: +ekz-oj, ref-oj
+
 Revision 1.17  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -111,14 +155,5 @@ Revision 1.13  2007/06/27 16:31:20  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2005/08/13 16:33:52  revo
-Jeromo Vasxe: + tez
-
-Revision 1.11 2005/03/28 17:13:02 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10 2003/12/16 17:33:00 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/08/21 17:31:53 revo
 -->
 </vortaro>

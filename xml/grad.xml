@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: grad.xml,v 1.87 2021/06/18 20:41:40 revo Exp $">
+<art mrk="$Id: grad.xml,v 1.126 2022/12/01 22:25:44 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>grad</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,50 +10,97 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="grad.0o.KOMUNE">
     <dif>
-      Mezuro de kvalito, forto, intenso:
+      <ref tip="super" cel="mezur.0o.valoro">Mezuro</ref> de kvalito, 
+      forto, intenso:
       <ekz>
-        krimo, kiel virto, havas siajn <tld/>ojn;
+        la <tld/>o de lia bonstato
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Lev; 14:30</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        eleganteco de alta <tld/>o;
+        fajro ekflamadis <klr>[&#8230;]</klr> en tiel forta <tld/>o, ke io simila neniam estis
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Eli; 9:24</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la plej alta <tld/>o de amo, teruro;
+        la ju&gcirc;isto ordonu ku&scirc;igi lin kaj bati lin <klr>[&#8230;]</klr> la&ubreve; la <tld/>o de lia
+        kulpeco
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Rea; 25:2</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o da bonstato, da perfekteco, da kapableco<fnt>Z</fnt>;
+        &ccirc;iufoje kiam mi pensas la kanto estas finita, mi &gcirc;uste levi&gcirc;as al <tld/>o multe
+        pli alta
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Lino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        malforta <tld/>o<fnt>Z</fnt>;
+        li sciis &ccirc;ion, kion homo povas scii, kiel ajn altan <tld/>on de klereco li povas
+        atingi
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        sufi&ccirc;a <tld/>o<fnt>Z</fnt>;
+        unu rigardo instruos vin, kia <tld/>o estas precizaj la raportoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro 18a</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        &gcirc;is kia <tld/>o<fnt>Z</fnt>;
+        la miro de la policestro &scirc;ajnis atingi la plej altan <tld/>on
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro 16a</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li malsani&gcirc;is en tia <tld/>o, ke oni malesperas lin savi;
+        mi devas scii la <tld/>on de via artisma klereco, por ke mi povu trovi rimedon
+        fari de &gcirc;i konforman uzon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>o post <tld/>o
-        <klr>(iom post iom)</klr>;
-      </ekz>
-      <ekz>
-        <tld/>oj <klr>(rango, sed plilar&gcirc;sence)</klr>
-        de ofico, de honoroj;
+        pri la lingvo germana vi diris al mi, ke vi scias &gcirc;in en tre malforta <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="fak">GRA</uzo>
-        <ind><tld/>oj de komparo</ind> <klr>(pozitivo, komparativo kaj
-        superlativo)</klr>.
-        <trd lng="nl">trappen van vergelijking</trd>
+        la <tld/>oj de komparo <klr>(pozitivo, <ref cel="kompar2.0o">komparativo</ref>, 
+        <ref cel="superl.0o">superlativo</ref>)</klr>
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o post <tld/>o
+        <klr>(iom post iom)</klr>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="sxtup.0o">&scirc;tupo</ref>.
+      <ref cel="nuanc.0o">nuanco</ref>
     </refgrp>
-    <trd lng="de">Stufe</trd>
+    <trd lng="be">&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_mol;</trd>
+    <trdgrp lng="de">
+      <trd>Grad<klr> [m]</klr></trd>,
+      <trd>Umfang</trd>,
+      <trd>Stufe</trd>,
+      <trd>Intensit&auml;t</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>grado</trd>,
       <trd>proporci&oacute;n</trd>,
@@ -68,24 +115,99 @@
     <trd lng="ru">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</trd>
     <trd lng="tr">derece</trd>
   </snc>
+  <snc mrk="grad.0o.sxtupo">
+    <dif>
+      <ref tip="super" cel="sxtup.0o.FIG">&Scirc;tupo</ref> de <ref tip="malprt"
+      cel="hierar.0o">hierar&hcirc;io</ref>, 
+      <ref tip="sin" cel="rang.0o.hierarkia">rango</ref>:
+      <ekz>
+        tiuj, kiuj bone servadis kiel diakonoj, akiras al si bonan <tld/>on kaj grandan
+        kura&gcirc;on en la fido, kiu estas en Kristo Jesuo
+        <fnt>
+          <bib>NT</bib>
+          <lok>I. Timoteo 3:13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li povis doni pruvon nur pri sepdek unu <tld/>oj da nobeleco
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro 1a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ordeno de Vladimiro de kvara <tld/>o
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        atendante &ccirc;iutage sian elekton al la komandanta <tld/>o
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam ekparolas kun mi persono, kiu havas  
+        <ref tip="sub" cel="rang.0o.hierarkia">rango</ref>n per unu 
+        pli altan, <klr>[&#8230;]</klr> mia lango englui&gcirc;as
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kuzo je la tria <tld/>o
+        <fnt>
+          <bib>PIV1</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        preparseminario por la ekzameno de la tria <tld/>o
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2004:4 (114)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="distin.0o.pro_merito">distingo<sncref/></ref>
+    <trdgrp lng="de">
+      <trd>Stufe</trd>,
+      <trd>Rang</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="grad.0o.SCI">
     <dif>
-      &Ccirc;iu el la egalaj dividoj de skalo, termometro, kc:
+      &Ccirc;iu el la egalaj dividoj de <ref tip="malprt" cel="skal.0o.mezura">skalo</ref>, 
+      termometro, kc:
+      <ekz>
+        la hormontra ombro iru anta&ubreve;en je dek <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Re2; 20:9</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         en januaro oni havas 10 <tld/>ojn super la nulo
         <fnt><bib>Far1</bib>, <lok>Anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
-        39 <tld/>oj de febro;
-      </ekz>
-      <ekz>
-        kioma <tld/>o da malvarmo estas?
+        en la kamparo <klr>[&#8230;]</klr> frostis ankora&ubreve; kelke da <tld/>oj pli ol en la urbo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de la jaro</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="difin.0i.TEK">difino<sncref/></ref>
+    <trd lng="be">&c_g;&c_r;&c_a;&c_d;&c_u;&c_s;</trd>
     <trdgrp lng="es">
       <trd>nivel</trd>,
       <trd>rango</trd>
     </trdgrp>
+    <trd lng="de">Grad<klr>[n] (Celsius, Fahrenheit, Reaumur)</klr></trd>
     <trd lng="hu">fok</trd>
     <trd lng="pl">stopie&nacute;</trd>
     <trdgrp lng="ru">
@@ -103,12 +225,15 @@
       <dif>
         Komunuza <ref tip="lst" cel="unu.mezur0o" lst="voko:mezurunuoj">mezurunuo</ref> de
         <ref cel="angul.ebena0o">ebena angulo</ref>, egala al la
-        180a parto de stre&ccirc;ita angulo; simb. <frm>&#x2DA;</frm>:
+        180a parto de stre&ccirc;ita angulo; simb. <frm>&#730;</frm>:
         <ekz>
           <tld/>o egalas al <frm am="pi//180">&pi;/180</frm><klr> </klr>
           <ref cel="radian.0o">radianoj</ref>.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Winkelgrad</trd>
+      </trdgrp>
       <trdgrp lng="ru">
         <trd>&c_g;&c_r;&c_a;&c_d;&c_u;&c_s;<klr tip="ind">
         (&c_u;&c_g;&c_l;&c_a;)</klr></trd>
@@ -126,6 +251,9 @@
           polinomo estas <frm>0</frm>.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Grad <klr> [n] (eines Polynoms)</klr></trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="grad.0o.ekvacio">
       <fnt><bib>MatStokTerm</bib><lok>p. 18</lok></fnt>
@@ -134,21 +262,24 @@
         La <tld/>o <sncref ref="grad.0o.polinomo"/> de la polinomo
         &gcirc;in difinanta.
       </dif>
+      <trdgrp lng="de">
+        <trd>Grad <klr> [n] (einer Gleichung)</klr></trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="grad.0o.superkorpo">
       <fnt><bib>EKV</bib><lok>&para;342</lok></fnt>
       <dif>
         <klr>(de <ref cel="korp.0o.MAT">korpo</ref> 
-        <frm am="bb K&#x2032;"><g>K'</g></frm>
+        <frm am="bb K&minute;"><g>K'</g></frm>
         rilate al subkorpo <frm am="bb K"><g>K</g></frm>) </klr>
         <ref cel="dimens.0o.vektoraspaco">Dimensio</ref> de
-        <frm am="bb K&#x2032;"><g>K'</g></frm>, konsiderata kiel
+        <frm am="bb K&minute;"><g>K'</g></frm>, konsiderata kiel
         <ref cel="spac.vektora0o">vektora spaco</ref> super
         <frm am="bb K"><g>K</g></frm>:
         <ekz>
-          la <tld/>on de <frm am="bb K&#x2032;"><g>K'</g></frm> rilate al
+          la <tld/>on de <frm am="bb K&minute;"><g>K'</g></frm> rilate al
           <frm am="bb K"><g>K</g></frm> oni
-          signas per <frm am="[bb K&#x2032;:bb K]">[<g>K'</g>:<g>K</g>]</frm>;
+          signas per <frm am="[bb K&minute;:bb K]">[<g>K'</g>:<g>K</g>]</frm>;
         </ekz>
         <ekz>
           la grado de la korpo de kompleksoj rilate al tiu de reeloj
@@ -176,65 +307,100 @@
         <ref cel="grad.eliraduon0o">elira duon<tld/>o</ref>,
         <ref cel="grad.eniraduon0o">enira duon<tld/>o</ref>.
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Grad</trd>,
+        <trd>Knotengrad</trd>,
+        <trd>Valenz</trd>
+      </trdgrp>
     </subsnc>
+    <trd lng="be">&c_g;&c_r;&c_a;&c_d;&c_u;&c_s;</trd>
     <trd lng="en">degree</trd>
     <trd lng="es">grado</trd>
     <trd lng="hu">fok</trd>
     <trd lng="pl">stopie&nacute;</trd>
   </snc>
   <trd lng="af">graad</trd>
-  <trd lng="am">&#x12F2;&#x130D;&#x122A;</trd>
-  <trd lng="ar">&#x62F;&#x631;&#x62C;&#x629;</trd>
-  <trd lng="az">d&#x259;r&#x259;c&#x259;</trd>
-  <trd lng="bn">&#x9A1;&#x9BF;&#x997;&#x9CD;&#x9B0;&#x9C0;</trd>
-  <trd lng="bo">&#xF51;&#xFB2;&#xF7C;&#xF51;&#xF0B;&#xF5A;&#xF51;&#xF0B;</trd>
+  <trd lng="am">&#4850;&#4877;&#4650;</trd>
+  <trd lng="ar">&a_d;&a_r;&a_j;&a_t_marbuta;</trd>
+  <trd lng="az">d&#601;r&#601;c&#601;</trd>
+  <trd lng="bn">&#2465;&#2495;&#2455;&#2509;&#2480;&#2496;</trd>
+  <trd lng="bo">&t_da;&t_rata;&t_naro;&t_da;&t_tsheg;&t_tsha;&t_da;&t_tsheg;</trd>
   <trd lng="bs">stupanj</trd>
   <trd lng="cs">stupe&ncaron;</trd>
+  <trd lng="cy">gradd</trd>
   <trd lng="da">grad</trd>
-  <trd lng="de">Grad</trd>
   <trd lng="et">aste</trd>
   <trd lng="eu">maila</trd>
   <trd lng="fr">degr&eacute;</trd>
   <trd lng="fy">graad</trd>
+  <trd lng="ga">c&eacute;im</trd>
+  <trd lng="gd">ceum</trd>
   <trd lng="gl">grao</trd>
-  <trd lng="gu">&#xAA1;&#xABF;&#xA97;&#xACD;&#xAB0;&#xAC0;</trd>
+  <trd lng="gu">&#2721;&#2751;&#2711;&#2765;&#2736;&#2752;</trd>
   <trd lng="ha">digiri</trd>
-  <trd lng="hi">&#x921;&#x93F;&#x917;&#x94D;&#x930;&#x940;</trd>
+  <trd lng="hi">&#2337;&#2367;&#2327;&#2381;&#2352;&#2368;</trd>
   <trd lng="hr">stepen</trd>
-  <trd lng="hy">&#x561;&#x57D;&#x57F;&#x56B;&#x573;&#x561;&#x576;</trd>
+  <trd lng="ht">degre</trd>
+  <trd lng="hy">&#1377;&#1405;&#1407;&#1387;&#1395;&#1377;&#1398;</trd>
   <trd lng="id">derajat</trd>
-  <trd lng="is">gr&#xE1;&#xF0;u</trd>
-  <trd lng="ja">&#x5EA6;</trd>
-  <trd lng="jw">sarjana</trd>
-  <trd lng="ka">&#x10EE;&#x10D0;&#x10E0;&#x10D8;&#x10E1;&#x10EE;&#x10D8;</trd>
-  <trd lng="km">&#x179F;&#x1789;&#x17D2;&#x1789;&#x17B6;&#x1794;&#x17D0;&#x178F;&#x17D2;&#x179A;</trd>
-  <trd lng="ko">&#xB3C4;</trd>
-  <trd lng="lo">&#xEA5;&#xEB0;&#xE94;&#xEB1;&#xE9A;</trd>
-  <trd lng="ml">&#xD2C;&#xD3F;&#xD30;&#xD41;&#xD26;&#xD02;</trd>
-  <trd lng="mr">&#x92A;&#x926;&#x935;&#x940;</trd>
-  <trd lng="my">&#x1012;&#x102E;&#x1002;&#x101B;&#x102E;</trd>
-  <trd lng="ne">&#x924;&#x939;</trd>
+  <trd lng="ig">n&#8217;&oacute;k&egrave;</trd>
+  <trd lng="is">gr&aacute;ðu</trd>
+  <trd lng="ja">&#24230;</trd>
+  <trd lng="jv">sarjana</trd>
+  <trd lng="ka">&#4334;&#4304;&#4320;&#4312;&#4321;&#4334;&#4312;</trd>
+  <trd lng="kk">&c_g;&c_r;&c_a;&c_d;&c_u;&c_s;</trd>
+  <trd lng="km">&#6047;&#6025;&#6098;&#6025;&#6070;&#6036;&#6096;&#6031;&#6098;&#6042;</trd>
+  <trd lng="kn">&#3242;&#3238;&#3253;&#3263;</trd>
+  <trd lng="ko">&#46020;</trd>
+  <trd lng="ku">derece</trd>
+  <trd lng="ky">&c_d;&c_a;&c_r;&c_a;&c_zh;&c_a;&c_s;&c_y;</trd>
+  <trd lng="lat">gradum</trd>
+  <trd lng="lo">&#3749;&#3760;&#3732;&#3761;&#3738;</trd>
+  <trd lng="lt">laipsnis</trd>
+  <trd lng="lv">pak&amacron;pe</trd>
+  <trd lng="mg">diplaoma</trd>
+  <trd lng="mi">tohu</trd>
+  <trd lng="mk">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;</trd>
+  <trd lng="ml">&#3372;&#3391;&#3376;&#3393;&#3366;&#3330;</trd>
+  <trd lng="mn">&c_z;&c_e;&c_r;&c_e;&c_g;</trd>
+  <trd lng="mr">&#2346;&#2342;&#2357;&#2368;</trd>
+  <trd lng="ms">ijazah</trd>
+  <trd lng="mt">grad</trd>
+  <trd lng="my">&#4114;&#4142;&#4098;&#4123;&#4142;</trd>
+  <trd lng="ne">&#2340;&#2361;</trd>
   <trdgrp lng="nl">
     <trd>graad</trd>,
     <trd>trap</trd>
   </trdgrp>
   <trd lng="ny">digiri</trd>
-  <trd lng="pa">&#xA26;&#xA40; &#xA21;&#xA3F;&#xA17;&#xA30;&#xA40;</trd>
-  <trd lng="ps">&#x62F;&#x631;&#x62C;&#x648;</trd>
+  <trd lng="pa">&#2598;&#2624; &#2593;&#2623;&#2583;&#2608;&#2624;</trd>
+  <trd lng="ps">&a_d;&a_r;&a_j;&a_w;</trd>
   <trd lng="pt">grau</trd>
   <trd lng="ru">&c_s;&c_t;&c_je;&c_p;&c_je;&c_n;&c_mol;</trd>
-  <trd lng="sd">&#x648;&#x68F;&#x627;</trd>
-  <trd lng="si">&#xD8B;&#xDB4;&#xDCF;&#xDB0;&#xDD2;&#xDBA;</trd>
+  <trd lng="rw">impamyabumenyi</trd>
+  <trd lng="sd">&a_w;&#1679;&a_A;</trd>
+  <trd lng="si">&#3467;&#3508;&#3535;&#3504;&#3538;&#3514;</trd>
   <trd lng="sk">stupe&ncaron;</trd>
-  <trd lng="sq">shkall&#xEB;</trd>
+  <trd lng="sl">stopnja</trd>
+  <trd lng="sm">tiker&imacron;</trd>
+  <trd lng="sn">dhigirii</trd>
+  <trd lng="sq">shkall&euml;</trd>
   <trd lng="st">tekanyo e</trd>
-  <trd lng="ta">&#xBAA;&#xB9F;&#xBCD;&#xB9F;&#xBAE;&#xBCD;</trd>
-  <trd lng="te">&#xC21;&#xC3F;&#xC17;&#xC4D;&#xC30;&#xC40;</trd>
-  <trd lng="th">&#xE2D;&#xE07;&#xE28;&#xE32;</trd>
+  <trd lng="su">darajat</trd>
+  <trd lng="sw">shahada ya</trd>
+  <trd lng="ta">&#2986;&#2975;&#3021;&#2975;&#2990;&#3021;</trd>
+  <trd lng="te">&#3105;&#3135;&#3095;&#3149;&#3120;&#3136;</trd>
+  <trd lng="tg">&c_d;&c_a;&c_r;&c_a;&#1207;&c_a;&c_i;</trd>
+  <trd lng="th">&#3629;&#3591;&#3624;&#3634;</trd>
   <trd lng="tl">digri</trd>
-  <trd lng="ur">&#x688;&#x6AF;&#x631;&#x6CC;</trd>
-  <trd lng="vi">m&#x1EE9;c &#x111;&#x1ED9;</trd>
-  <trd lng="yi">&#x5D3;&#x5D9;&#x5E4;&#x5BC;&#x5DC;&#x5D0;&#x5B8;&#x5DD;</trd>
+  <trd lng="tt">&c_d;&#1241;&c_r;&#1241;&#1175;&#1241;&c_s;&c_je;</trd>
+  <trd lng="uk">&c_s;&c_t;&c_u;&c_p;&c_ib;&c_n;&c_mol;</trd>
+  <trd lng="ur">&#1672;&f_g;&a_r;&f_y;</trd>
+  <trd lng="uz">gradus</trd>
+  <trd lng="vi">m&#7913;c &#273;&#7897;</trd>
+  <trd lng="xh">iqondo</trd>
+  <trd lng="yi">&dalet;&yod;&pe;&#1468;&lamed;&alef;&#1464;&fmem;</trd>
+  <trd lng="yo">&igrave;y&iacute;</trd>
   <trd lng="zu">ibanga</trd>
 </drv>
 
@@ -242,21 +408,45 @@
   <kap><tld/>aro</kap>
   <snc mrk="grad.0aro.KOMUNE">
     <dif>
-      Sistemo de mezuraj <tld/>oj;
+      Sistemo de mezuraj a&ubreve; rangaj <tld/>oj;
       <ref tip="vid" cel="skal.0o.absoluta">skalo<sncref/></ref>:
       <ekz>
+        la suno retiri&gcirc;is je dek <tld/>oj la&ubreve; la <tld/>aro, la&ubreve; kiu &gcirc;i malsupri&gcirc;is
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Jes; 38:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         kiam mi vizitis la lernejon, ni ricevis atestojn
-        la&ubreve; kvingrada <tld/>aro
+        la&ubreve; kvin<tld/>a <tld/>aro
         <fnt>
           <aut>L. Ganman</aut>,
           <vrk><url ref="http://linusganman.se/y3p.htm">
           Kvadrata kufa skribo</url></vrk>,
           <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> ricevis la universitatan <tld/>on de kandidato pri kulturologio
+        (la&ubreve; la okcidenta universitata <tld/>aro &gcirc;i similas al la doktora)
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 11</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="eskal.0o.FIG">eskalo<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="cs">d&ecaron;len&yacute; kruh</trd>
+  <trdgrp lng="de">
+    <trd>Graduierung</trd>,
+    <trd>Gradeinteilung</trd>,
+    <trd>Abstufung</trd>,
+    <trd>Gradation</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>escala<klr> (de medida)</klr></trd>,
     <trd>graduaci&oacute;n</trd>
@@ -267,17 +457,51 @@
   </trdgrp>
   <trd lng="id">skala</trd>
   <trd lng="sk">delen&yacute; kruh</trd>
+  <trd lng="uk">&c_p;&c_o;&c_d;&c_ib;&c_l;&c_k;&c_i;</trd>
 </drv>
 
 <drv mrk="grad.0igi">
   <kap><tld/>igi</kap>
   <snc>
     <dif>
-      Distribui la&ubreve; la <tld/>oj de io, vicigi;
+      <ref tip="super" cel="distri.0i">Distribui</ref> la&ubreve; la <tld/>oj de io:
       <ekz>
-        <tld/>igi la ekzercojn en lernolibro.
+        <tld/>igi la ekzercojn en lernolibro;
+      </ekz>
+      <ekz>
+        la ju&gcirc;isto <tld/>igis siajn kulpigrimedojn, li konservis por la fino sian plej
+        bonan argumenton
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li pli &scirc;atis <tld/>igi la dozojn kaj nur veki sian sciemon, ne intervenante tro
+        peze
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        provu anstata&ubreve; &leftquot;fama&rightquot; la malpli absolutan &leftquot;konata&rightquot;, <klr>[&#8230;]</klr> tiel eblas
+        <tld/>igi la famon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2013/010996.php"
+              >Fama? Ne, dankon.</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="doz.0i">dozi</ref>,
+      <ref cel="nuanc.0i">nuanci</ref>,
+      <ref cel="klas.0igi">klasigi</ref>,
+      <ref cel="vic.0igi">vicigi</ref>
+    </refgrp>
     <trdgrp lng="hu">
       <trd>fokoz</trd>,
       <trd>fokozatokra oszt</trd>
@@ -293,7 +517,7 @@
   </snc>
   <snc>
     <dif>
-      Dividi per <tld/>oj, marki <tld/>ojn sur io:
+      <ref tip="super" cel="divid.0i.partigi">Dividi</ref> per <tld/>oj, marki <tld/>ojn sur io:
       <ekz>
         <tld/>igi termometron.
       </ekz>
@@ -314,6 +538,11 @@
     <trd>zesilovat</trd>,
     <trd>zv&ecaron;t&scaron;ovat</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>abstufen</trd>,
+    <trd>gradieren</trd>,
+    <trd>einteilen</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>graduar</trd>,
     <trd>escalonar</trd>
@@ -329,17 +558,45 @@
     <trd>derecelemek</trd>,
     <trd>kerte kerte y&uuml;kseltmek</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_o;&c_s;&c_t;&c_u;&c_p;&c_o;&c_v;&c_o; &c_p;&c_o;&c_s;&c_i;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_b;&c_ib;&c_l;&c_mol;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i; &c_d;&c_ib;&c_ju;</trd>,
+    <trd>&c_p;&c_o;&c_s;&c_l;&c_ib;&c_d;&c_o;&c_v;&c_n;&c_o; &c_r;&c_o;&c_z;&c_m;&c_ib;&c_shch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_gu;&c_r;&c_a;&c_d;&c_u;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_ib;&c_l;&c_i;&c_t;&c_i; &c_n;&c_a; &c_gu;&c_r;&c_a;&c_d;&c_u;&c_s;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="grad.0a">
-  <kap><tld/>a<fnt>Z</fnt></kap>
+  <kap><tld/>a</kap>
   <snc mrk="grad.0a.kvanta">
     <dif>
       Rilata al <tld/>o:
       <ekz>
-        diferenco ne esenca, sed <tld/>a <klr>(la diferenco ne
-        tu&scirc;as la esencon de la afero, sed &gcirc;ian <tld/>on)
-        </klr>.
+        estas nur <tld/>a diferenco <klr>(la diferenco ne
+        tu&scirc;as la esencon de la afero, sed &gcirc;ian <tld/>on)</klr>
+        inter la komunumoj de eble 100 mil esperantistoj kaj
+        500 idistoj (la precizaj ciferoj ne gravas)
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2001, &#8470;11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la manlaboraj aktiva&jcirc;oj <klr>[&#8230;]</klr> postulis alt-<tld/>an a&ubreve;skult- kaj
+        kompren-kapablon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000:8-9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Katedro rajtas aran&gcirc;i kursojn por komencantoj (1a-<tld/>ajn), por
+        progresintoj (2a-<tld/>ajn) kaj por instruontoj (3a-<tld/>ajn)
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002:5</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="es">gradual</trd>
@@ -359,13 +616,36 @@
   </snc>
   <snc mrk="grad.0a.iompostioma">
     <dif>
-      Iompostioma, malsubita; <klr>(adv.)</klr>
-      la&ubreve;<tld/>e kiel (a&ubreve; kiom); proporcie kiel:
+      <ref tip="dif" cel="iom.0post0a">Iompostioma</ref>, <ref cel="drast.mal0a">maldrasta</ref>,
+      <ref cel="abrupt.mal0a">malabrupta</ref>:
+      <ekz>
+        la pastro <klr>[&#8230;]</klr> ordonis estingi la tor&ccirc;ojn kaj lasi nur la bruletantan
+        &scirc;nuron, kiu <klr>[&#8230;]</klr> montris la horojn per sia <tld/>a brulado
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro 19a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la trovita substanco &ndash; &hcirc;alkomfalino &ndash; <klr>[&#8230;]</klr> agas en la da&ubreve;ro de tri,
+        kvar horoj per malfortigo kaj fina paralizo de la kardia muskolo, kun <tld/>a
+        endormigo
+        <fnt>
+          <bib>ChC</bib>
+          <lok>13</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         oni rimarkis en li <tld/>an &scirc;an&gcirc;i&gcirc;on
-        <fnt>PIV1</fnt>.
+        <fnt><bib>PIV1</bib></fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="progresiv.0a.progresema">progresiva<sncref/></ref>
+    <trdgrp lng="de">
+      <trd>allm&auml;hlich</trd>,
+      <trd>schrittweise</trd>,
+      <trd><ind>nach</ind> und nach</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>paulatino</trd>,
       <trd>progresivo</trd>
@@ -391,11 +671,17 @@
     <trd>stup&ncaron;ovit&yacute;</trd>,
     <trd>stup&ncaron;ov&yacute;</trd>
   </trdgrp>
+  <trd lng="de">graduell</trd>
   <trd lng="nl">gradueel</trd>
   <trd lng="pl">stopniowy</trd>
   <trdgrp lng="sk">
     <trd>stup&ncaron;ovit&yacute;</trd>,
     <trd>stup&ncaron;ov&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_je;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_gu;&c_r;&c_a;&c_d;&c_u;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -466,7 +752,22 @@
   <kap>ia<tld/>e</kap>
   <snc mrk="grad.ia0e.KOMUNE">
     <dif>
-      &Gcirc;is ia <tld/>o, parte, <ref tip="vid" cel="iom.0">iom</ref>:
+      &Gcirc;is ia <tld/>o, <ref cel="part.0e">parte</ref>, 
+      <ref tip="vid" cel="iom.0">iom</ref>:
+      <ekz>
+        mi estis kontenta ia<tld/>e liberi&gcirc;i je &scirc;i
+        <fnt>
+          <bib>ChB</bib>
+          <lok>14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lin baris diversaj faktoroj, la konkurenco, ia<tld/>e anka&ubreve; anta&ubreve;ju&gcirc;oj
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la plej eminentaj viroj rilate al virto kaj talento estis 
         devigitaj ia<tld/>e al&gcirc;ustigi siajn principojn al sia rango
@@ -475,10 +776,18 @@
           <vrk><url ref="http://www.freewebs.com/bahaakredo/persujo.html">
           La Herooj de la Nova Tagi&gcirc;o</url></vrk>,
           <lok>[vidita en 2011]</lok>
-        </fnt>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_u; &c_p;&c_e;&c_w;&c_n;&c_a;&c_j; <ind>&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_ib;</ind></trd>,
+    <trd>&c_u; &c_p;&c_e;&c_w;&c_n;&c_a;&c_j; <ind>&c_m;&c_je;&c_r;&c_y;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>in <ind>gewiss</ind>em Ma&szlig;e</trd>,
+    <trd>etwas</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>hasta un cierto punto</trd>,
     <trd>por una parte</trd>
@@ -489,6 +798,7 @@
   </trdgrp>
 </drv>
 
+<!--
 <drv mrk="grad.kelvina0o">
   <kap>kelvina <tld/>o</kap>
   <uzo tip="fak">FIZ</uzo>
@@ -496,8 +806,9 @@
   <snc>
     <ref tip="dif" cel="kelvin.k0o">kelvino</ref>
   </snc>
-  <!-- formon evitindan prefere ne traduku -->
+  - - formon evitindan prefere ne traduku - -
 </drv>
+-->
 
 <drv mrk="grad.laux0ekiel">
   <kap>la&ubreve;<tld/>e kiel</kap>
@@ -506,6 +817,14 @@
       En proporcio kun tio ke...,
       <ref tip="vid" cel="mezur.laux0ekiel.KOMUNE">la&ubreve;mezure
       kiel</ref>...:
+      <ekz>
+        <nom>Vinicius</nom> fikse rigardis la gracian figuron de Ligia, kiu, la&ubreve;<tld/>e kiel la
+        matenlumo kreskis, i&gcirc;adis &ccirc;iam pli ar&gcirc;enta
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la&ubreve;<tld/>e kiel la agrikulturo progresis,
         oni sukcesis kulturi plantojn for de ilia
@@ -522,6 +841,7 @@
       <ref cel="kiom.0">kiom</ref>
     </refgrp>
   </snc>
+  <trd lng="de">im gleichen <ind>Ma&szlig;e</ind> wie</trd>
   <trd lng="es">a medida que</trd>
   <trd lng="fr">&agrave; mesure que</trd>
 </drv>
@@ -574,43 +894,59 @@
       <ref tip="vid" cel="suficx.0e.KOMUNE">Sufi&ccirc;e</ref>,
       en sufi&ccirc;a kvanto, kun sufi&ccirc;a forto, intenso...:
       <ekz>
+        mi scias la desegnadon en sufi&ccirc;a <tld/>o, por povi pretigi <klr>[&#8230;]</klr> la
+        necesajn modelojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         &ccirc;i tiu kutimo, dehaki al amataj parencoj la kapon, &scirc;ajnis al 
         mi, verdire, sufi&ccirc;a<tld/>e terura
         <fnt>
           <aut>Wilhelm Hauff, trad. J. W. Eggleton</aut>,
-          <vrk><url ref="http://www.gutenberg.org/files/22070/22070-h/22070-h.htm">
+          <vrk><url ref="&Gutenberg;files/22070/22070-h/22070-h.htm">
           La Karavano</url></vrk>,
           <lok>1921</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_u; &c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_k;&c_o;&c_v;&c_a;&c_j; <ind>&c_s;&c_t;&c_u;&c_p;&c_je;&c_n;&c_ib;</ind></trd>,
+    <trd>&c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_k;&c_o;&c_v;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>in <ind>ausreichend</ind>em Ma&szlig;e</trd>,
+    <trd>hinreiohend</trd>,
+    <trd>ziemlich</trd>
+  </trdgrp>
   <trd lng="fr">dans une mesure suffisante</trd>
 </drv>
 </art>
 <!--
-$Log: grad.xml,v $
-versio 1.44 2020/02/14 17:10:31
-Wolfram Diestel: formuloj per am
+$Log$
+versio 1.126 2022/12/01 22:25:44
+Jeromo Vasxe: ~a: - adv. mencio
 
-Revision 1.43  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.125 2022/10/11 21:36:35
+Ulrich Fellmann: grado: - 1 DE trd, + 7 DE trdj
 
-Revision 1.42  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.124 2022/10/09 20:37:37
+Ulrich Fellmann: grado: + 6 DE trdj
 
-Revision 1.41  2015/03/25 00:10:13  revo
-Jeromo Vasxe: + suficxa~e
+versio 1.123 2022/05/15 09:29:41
+Wolfram Diestel: ~a..sufi&ccirc;a~e: ekz-oj, ref-oj, trd de
 
-Revision 1.40  2014/10/26 15:10:24  revo
-Eko Nur Syah Hidayat: +trd id
+versio 1.122 2022/05/15 08:34:02
+Wolfram Diestel: ~o: apartigis snc "&scirc;tupo"; ~o, ~aro: ekz-oj, ref-oj, trd de
 
-Revision 1.39  2014/10/19 08:10:12  revo
-Guillermo Molleda Jimena: trd es
+versio 1.121 2022/05/14 16:43:45
+Wolfram Diestel: ~igi: +ekz-oj, ref-oj, trd de
 
-Revision 1.38  2013/12/14 18:10:44  revo
-Jeromo Vasxe: + ~aro, laux~e kiel
+versio 1.120 2022/04/30 08:42:40
+aktualigo lingvokodoj kaj URL-unuoj
 
-Revision 1.37  2013/09/15 11:10:26  revo
+versio 1.118 2021/11/15 08:36:07
 -->
 </vortaro>

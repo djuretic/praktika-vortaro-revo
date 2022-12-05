@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cir.xml,v 1.22 2021/03/06 06:20:01 revo Exp $">
+<art mrk="$Id: cir.xml,v 1.24 2022/03/14 15:25:39 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>cir</rad>/o
@@ -53,7 +53,7 @@
   </trdgrp>
   <trd lng="es">bet&uacute;n</trd>
   <trd lng="fr">cirage</trd>
-  <trd lng="he">&#x5DE;&#x5E9;&#x5D7;&#x5EA; &#x5E0;&#x5E2;&#x5DC;&#x5D9;&#x5D9;&#x5DD;</trd>
+  <trd lng="he">&mem;&shin;&het;&tav; &nun;&ayin;&lamed;&yod;&yod;&fmem;</trd>
   <trdgrp lng="hu">
     <trd>boksz</trd>,
     <trd>cip&odblac;ken&odblac;cs</trd>,
@@ -74,6 +74,10 @@
     <trd>kr&eacute;m na top&aacute;nky</trd>,
     <trd>pasta</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&#x432;&#x430;&#x43A;&#x441;&#x430;</trd>,
+    <trd>&#x43F;&#x430;&#x441;&#x442;&#x430; &#x434;&#x43E; &#x432;&#x437;&#x443;&#x442;&#x442;&#x44F;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cir.0i">
@@ -81,10 +85,22 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      &Scirc;miri per <tld/>o.
+      &Scirc;miri per <tld/>o:
+      <ekz>
+        <nom>Ejnar</nom> <klr>[&#x2026;]</klr> prenis broson kaj <tld/>on por <tld/>i siajn &scirc;uojn
+        <fnt>
+          <bib>InfanTorent2</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mastrino bonfavore permesis al mi uzi la kvaza&ubreve; <tld/>itan fortepianon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
     </dif>
+<ref tip="sin" cel="vaks.0i">vaksi</ref>
   </snc>
-
   <rim>
      Ciro estas anka&ubreve; persa re&gcirc;o en la Malnova Testamento:
      <ekz>
@@ -104,7 +120,11 @@
     <trd>vyle&scaron;tit</trd>,
     <trd>&ccaron;istit <klr>(obuv)</klr></trd>
   </trdgrp>
-  <trd lng="el">&lambda;&omikron;&ypsilon;&sigma;&tau;&rho;&alfa_ton;&rho;&omega;</trd>
+  <trdgrp lng="de">
+    <trd>Schuhe <ind>putzen</ind></trd>,
+    <trd>wienern</trd>,
+    <trd>wichsen <klr>(Schuhe)</klr></trd>
+  </trdgrp><trd lng="el">&lambda;&omikron;&ypsilon;&sigma;&tau;&rho;&alfa_ton;&rho;&omega;</trd>
   <trd lng="en">polish</trd>
   <trd lng="es">embetunar</trd>
   <trd lng="fr">cirer</trd>
@@ -124,10 +144,17 @@
     &c_o;&c_b;&c_u;&c_v;&c_mol; &c_v;&c_a;&c_k;&c_s;&c_o;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">le&scaron;ti&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x447;&#x438;&#x441;&#x442;&#x438;&#x442;&#x438; &#x432;&#x437;&#x443;&#x442;&#x442;&#x44F; &#x432;&#x430;&#x43A;&#x441;&#x43E;&#x44E;</trd>,
+    <trd>&#x43F;&#x430;&#x441;&#x442;&#x443;&#x432;&#x430;&#x442;&#x438; &#x432;&#x437;&#x443;&#x442;&#x442;&#x44F;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2022/01/17 17:38:15
+Wolfram Diestel: ~i: ekz-oj, ref, trd de
+
 Revision 1.20  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sent.xml,v 1.88 2021/06/18 18:20:09 revo Exp $">
+<art mrk="$Id: sent.xml,v 1.129 2022/10/02 11:29:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sent</rad>/i <fnt><bib>PV</bib></fnt>
@@ -11,76 +11,207 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="sent.0i.sensi">
     <dif>
-      Ricevi per iu el la kvin tiucelaj organoj impreson, kiu sciigas
+      Ricevi per iu el la sensorganoj precipa la palpa, impreson, kiu sciigas
       nin pri la ekzisto kaj la ecoj de la eksteraj objektoj:
       <ekz>
-        mi <tld/>as agrablan odoron;
+        <klr>[ili]</klr>i sentis la fre&scirc;an aeron, la unuan radion de la suno
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Abio</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        oni <tld/>as neniun bloveton de l' vento;
+        &ccirc;u vi povas <tld/>i la odoron de la floroj <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Poligono</lok>
+        </fnt>?
       </ekz>
       <ekz>
-        &ccirc;iuj internaciaj organiza&jcirc;oj <tld/>as tute klare la
-        lingvajn barojn.
+        de tempo al tempo oni <tld/>is pu&scirc;on, kvaza&ubreve; oni veturus super kavojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="palp.0i">palpi</ref>,
+      <ref cel="percep.0i">percepti</ref>,
+      <ref cel="sens.0i">sensi</ref>
+    </refgrp>
+  <trd lng="de">merken</trd>
   </snc>
   <snc mrk="sent.0i.konscii">
     <dif>
-      Konscii pri io, kion oni ne precize imagas a&ubreve; konceptas:
+      <ref tip="super" cel="konsci.0i.sente">Konscii</ref> pri io, kion oni ne precize 
+      povas klarigi racie:
       <ekz>
-        vi &ccirc;iuj <tld/>as, ke la verda standardo estas io pli ol
-        simpla signo de lingvo<fnt>Z</fnt>;
+        granda korniko <klr>[&#8230;]</klr> diris: kra, kra! <klr>[&#8230;]</klr> la vorton sola
+        <nom>Gerda</nom> komprenis tro bone, kaj &gcirc;ian tutan enhavon &scirc;i <tld/>is tre profunde
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        ni <tld/>as nin kiel samgentanoj<fnt>Z</fnt>.
+        oni tuj povas a&ubreve;di, ke rakontas virino, oni <tld/>as ion pureman
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        mi sentas min spirite tute transportita al la <klr>[&#8230;]</klr> kuirejo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu ne <tld/>os foreston de alia
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 34:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ar kvankam ili e&ccirc; multe &scirc;an&gcirc;i&gcirc;is, &scirc;i tamen <klr>[&#8230;]</klr> <tld/>is, ke tio
+        devis esti ili
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Marta</nom> mem <tld/>is ke &scirc;in kaptas efektiva inspiro, ke la penso de la majstro
+        speguli&gcirc;as en &scirc;iaj vortoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>is ke Fradeko &scirc;in malpardonas pro &scirc;ia venko
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Heleno, dank&#8217; al tiu neerarema instinkto de patrinoj, <tld/>is ke &scirc;ia filo al &scirc;i
+        ka&scirc;as la veron
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Kvara</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="diven.0i">diveni</ref>,
+      <ref cel="konjek.0i">konjekti</ref>,
+      <ref cel="rimark.0i.mense">rimarki<sncref/></ref>,
+      <ref cel="supoz.0i">supozi</ref>
+    </refgrp>
   </snc>
   <snc mrk="sent.0i.impreso">
     <dif>
       Ricevi agrablan a&ubreve; malagrablan korpan a&ubreve; spiritan
       impreson:
       <ekz>
-        ili batis min, sed mi ne <tld/>is<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>i doloron, suferon, turmenton, &gcirc;uon, volupton.
-      </ekz>
-      <ekz>
-        <tld/>i &gcirc;ojon, plezuron, feli&ccirc;on, enuon,
-        &gcirc;enon, kordoloron;
-      </ekz>
-      <ekz>
-        <tld/>i la bezonon de io<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        ek<tld/>i timon<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>i sin bonege<fnt>Z</fnt>,
-      </ekz>
-      <ekz>
-        <tld/>i kvaza&ubreve; hejme;
-      </ekz>
-      <ekz>
         li <tld/>is sin tiel malfeli&ccirc;a, ke li malbenis la tagon,
         en kiu li estis naskita
         <fnt><bib>F</bib>, <lok>&FE; 33</lok></fnt>;
       </ekz>
       <ekz>
-        vi <tld/>igis al via popolo pezan sorton<fnt>Z</fnt>.
+        &ccirc;iu el ili <tld/>os malfeli&ccirc;on en sia koro
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 8:38</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estu kura&gcirc;aj kaj fortaj, ne timu, kaj ne <tld/>u teruron anta&ubreve; la re&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 32:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili batis min, <klr>[&#8230;]</klr> sed mi ne <tld/>is
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 23:35</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i malpli <tld/>is la malvarmon kaj iris rapide
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>os tute koran &gcirc;ojon pri mia tuta belegeco
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Abio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <tld/>is sin kiel hejme
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi ne <tld/>as vin sufi&ccirc;e forta, tiam iru returne
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la bordo estis tre solece, sed &scirc;i tion ne <tld/>is, &ccirc;ar la maro prezentis
+        konstantajn &scirc;an&gcirc;i&gcirc;ojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;io staras klare <klr>[&#8230;]</klr> anta&ubreve; mia animo, mi <tld/>as min tiel vigla
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se malsato turmentas, lupo timon ne <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de fremda dento ni doloron ne <tld/>as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="emoci.0igxi">emocii&gcirc;i</ref>,
+      <ref cel="kor.0tusxigxi">kortu&scirc;i&gcirc;i</ref>
+    </refgrp>
   </snc>
   <trd lng="af">voel</trd>
-  <trd lng="am">&#x1235;&#x121C;&#x1275;</trd>
-  <trd lng="ar">&#x625;&#x62D;&#x633;&#x627;&#x633;</trd>
-  <trd lng="az">hiss etm&#x259;k</trd>
+  <trd lng="am">&#4661;&#4636;&#4725;</trd>
+  <trd lng="ar">&a_A_hamza_sube;&a_H;&a_s;&a_A;&a_s;</trd>
+  <trd lng="az">hiss etm&#601;k</trd>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="bn">&#x9AE;&#x9A8;&#x9C7;</trd>
-  <trd lng="bo">&#xF60;&#xF5A;&#xF7C;&#xF62;&#xF0B;&#xF56;&#xF0B;</trd>
-  <trd lng="bs">osje&#x107;aju</trd>
+  <trd lng="bn">&#2478;&#2472;&#2503;</trd>
+  <trd lng="bo">&t_-a;&t_tsha;&t_naro;&t_ra;&t_tsheg;&t_ba;&t_tsheg;</trd>
+  <trd lng="bs">osje&cacute;aju</trd>
   <trd lng="co">sentimu</trd>
   <trdgrp lng="cs">
     <trd>c&iacute;tit</trd>,
@@ -88,7 +219,8 @@
     <trd>poc&iacute;tit</trd>,
     <trd>uc&iacute;tit</trd>
   </trdgrp>
-  <trd lng="da">f&#xF8;ler</trd>
+  <trd lng="cy">teimlo</trd>
+  <trd lng="da">f&oslash;ler</trd>
   <trd lng="de">f&uuml;hlen</trd>
   <trd lng="en">feel</trd>
   <trd lng="es">sentir</trd>
@@ -99,51 +231,83 @@
     <trd>sentir</trd>
   </trdgrp>
   <trd lng="fy">fiele</trd>
+  <trd lng="ga">bhraitheann</trd>
+  <trd lng="gd">a &#8216;faireachdainn</trd>
   <trd lng="gl">sentir</trd>
-  <trd lng="gu">&#xAB2;&#xABE;&#xA97;&#xAC7;</trd>
+  <trd lng="gu">&#2738;&#2750;&#2711;&#2759;</trd>
   <trd lng="ha">ji</trd>
-  <trd lng="hi">&#x932;&#x917; &#x930;&#x939;&#x93E; &#x939;&#x948;</trd>
-  <trd lng="hr">osje&#x107;ati</trd>
+  <trd lng="hi">&#2354;&#2327; &#2352;&#2361;&#2366; &#2361;&#2376;</trd>
+  <trd lng="hmn">xav</trd>
+  <trd lng="hr">osje&cacute;ati</trd>
+  <trd lng="ht">santi</trd>
   <trd lng="hu">(meg)<ind>&eacute;rez</ind></trd>
-  <trd lng="hy">&#x566;&#x563;&#x561;&#x56C;</trd>
+  <trd lng="hy">&#1382;&#1379;&#1377;&#1388;</trd>
+  <trd lng="ig">na-eche</trd>
   <trd lng="is">finnst</trd>
-  <trd lng="ja">&#x611F;&#x3058;&#x308B;</trd>
-  <trd lng="jw">aran</trd>
-  <trd lng="ka">&#x10D5;&#x10D2;&#x10E0;&#x10EB;&#x10DC;&#x10DD;&#x10D1;</trd>
-  <trd lng="km">&#x1798;&#x17B6;&#x1793;&#x17A2;&#x17B6;&#x179A;&#x1798;&#x17D2;&#x1798;&#x178E;&#x17CD;&#x1790;&#x17B6;</trd>
-  <trd lng="ko">&#xB290;&#xB08C;</trd>
-  <trd lng="lo">&#xE84;&#xEA7;&#xEB2;&#xEA1;&#xEAE;&#xEB9;&#xEC9;&#xEAA;&#xEB6;&#xE81;</trd>
-  <trd lng="ml">&#xD38;&#xD4D;&#xD2A;&#xD30;&#xD4D;&#xD36;&#xD3F;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;</trd>
-  <trd lng="mr">&#x935;&#x93E;&#x91F;&#x924;</trd>
-  <trd lng="my">&#x1001;&#x1036;&#x1005;&#x102C;&#x1038;</trd>
-  <trd lng="ne">&#x92E;&#x939;&#x938;&#x941;&#x938;</trd>
+  <trd lng="ja">&#24863;&#12376;&#12427;</trd>
+  <trd lng="jv">aran</trd>
+  <trd lng="ka">&#4309;&#4306;&#4320;&#4331;&#4316;&#4317;&#4305;</trd>
+  <trd lng="kk">&c_s;&c_je;&c_z;&c_u;</trd>
+  <trd lng="km">&#6040;&#6070;&#6035;&#6050;&#6070;&#6042;&#6040;&#6098;&#6040;&#6030;&#6093;&#6032;&#6070;</trd>
+  <trd lng="kn">&#3205;&#3245;&#3263;&#3242;&#3277;&#3248;&#3262;&#3247;</trd>
+  <trd lng="ko">&#45712;&#45196;</trd>
+  <trd lng="ku">hiskirin</trd>
+  <trd lng="ky">&c_s;&c_je;&c_z;&#1199;&#1199;</trd>
+  <trd lng="lat">sentio</trd>
+  <trd lng="lo">&#3716;&#3751;&#3762;&#3745;&#3758;&#3769;&#3785;&#3754;&#3766;&#3713;</trd>
+  <trd lng="lt">jausti</trd>
+  <trd lng="lv">justies</trd>
+  <trd lng="mg">mahatsapa</trd>
+  <trd lng="mi">ite</trd>
+  <trd lng="mk">&c_s;&c_je; &c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_u;&c_v;&c_a;&c_a;&c_t;</trd>
+  <trd lng="ml">&#3384;&#3405;&#3370;&#3376;&#3405;&#3382;&#3391;&#3349;&#3405;&#3349;&#3393;&#3349;</trd>
+  <trd lng="mn">&c_m;&c_e;&c_d;&c_r;&c_e;&c_h;</trd>
+  <trd lng="mr">&#2357;&#2366;&#2335;&#2340;</trd>
+  <trd lng="ms">berasa</trd>
+  <trd lng="mt">j&#295;ossu</trd>
+  <trd lng="my">&#4097;&#4150;&#4101;&#4140;&#4152;</trd>
+  <trd lng="ne">&#2350;&#2361;&#2360;&#2369;&#2360;</trd>
   <trd lng="nl">voelen</trd>
   <trd lng="no">f&oslash;le</trd>
   <trd lng="ny">ndikumverera</trd>
-  <trd lng="pa">&#xA32;&#xA71;&#xA17;&#xA26;&#xA3E; &#xA39;&#xA48;</trd>
+  <trd lng="pa">&#2610;&#2673;&#2583;&#2598;&#2622; &#2617;&#2632;</trd>
   <trdgrp lng="pl">
     <trd>czu&cacute;</trd>,
     <trd>odczuwa&cacute;</trd>
   </trdgrp>
-  <trd lng="ps">&#x627;&#x62D;&#x633;&#x627;&#x633;</trd>
+  <trd lng="ps">&a_A;&a_H;&a_s;&a_A;&a_s;</trd>
   <trdgrp lng="ru">
     <trd>&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_shch;&c_u;&c_shch;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sd">&#x644;&#x6B3;&#x64A;</trd>
-  <trd lng="si">&#xDC4;&#xDD2;&#xDAD;&#xDD9;&#xDB1;&#xDC0;&#xDCF;</trd>
+  <trd lng="rw">umva</trd>
+  <trd lng="sd">&a_l;&#1715;&a_y;</trd>
+  <trd lng="si">&#3524;&#3538;&#3501;&#3545;&#3505;&#3520;&#3535;</trd>
   <trdgrp lng="sk">
     <trd>uc&iacute;ti&tcaron;</trd>,
     <trd>zac&iacute;ti&tcaron;</trd>
   </trdgrp>
-  <trd lng="sq">t&#xEB; ndjehen t&#xEB;</trd>
-  <trd lng="ta">&#xB89;&#xBA3;&#xBB0;</trd>
-  <trd lng="te">&#xC05;&#xC28;&#xC41;&#xC2D;&#xC42;&#xC24;&#xC3F;</trd>
-  <trd lng="th">&#xE23;&#xE39;&#xE49;&#xE2A;&#xE36;&#xE01;</trd>
+  <trd lng="sl">po&ccaron;utijo</trd>
+  <trd lng="sm">lagona</trd>
+  <trd lng="sn">nzwa</trd>
+  <trd lng="so">dareemaan</trd>
+  <trd lng="sq">t&euml; ndjehen t&euml;</trd>
+  <trd lng="st">ikutloa</trd>
+  <trd lng="su">ngarasa</trd>
+  <trd lng="sw">kujisikia</trd>
+  <trd lng="ta">&#2953;&#2979;&#2992;</trd>
+  <trd lng="te">&#3077;&#3112;&#3137;&#3117;&#3138;&#3108;&#3135;</trd>
+  <trd lng="tg">&c_f;&c_i;&c_k;&c_r;</trd>
+  <trd lng="th">&#3619;&#3641;&#3657;&#3626;&#3638;&#3585;</trd>
   <trd lng="tl">pakiramdam</trd>
-  <trd lng="ur">&#x645;&#x62D;&#x633;&#x648;&#x633;</trd>
-  <trd lng="vi">c&#x1EA3;m th&#x1EA5;y</trd>
-  <trd lng="yi">&#x5E4;&#x5D9;&#x5DC;&#x5DF;</trd>
+  <trd lng="tt">&c_t;&c_o;&c_ju;</trd>
+  <trd lng="uk">&c_v;&c_ib;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_m;&a_H;&a_s;&a_w;&a_s;</trd>
+  <trd lng="uz">his</trd>
+  <trd lng="vi">c&#7843;m th&#7845;y</trd>
+  <trd lng="xh">bazive</trd>
+  <trd lng="yi">&pe;&yod;&lamed;&fnun;</trd>
+  <trd lng="yo">lero</trd>
   <trd lng="zu">bazizwa</trd>
 </drv>
 
@@ -153,13 +317,53 @@
     <dif>
       Rilata al la <tld/>oj:
       <ekz>
-        vidado kaj a&ubreve;dado &ccirc;iam estis rigardataj de la homo
-        kiel la plej gravaj <tld/>aj kapabloj
+        <tld/>aj kapabloj
         <fnt><bib>Fab3</bib>, <lok>&scirc;tono de la sa&gcirc;uloj</lok>
-        </fnt>.
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a esprimo.
+        <klr>[tio]</klr> speciale direktis &scirc;ian <tld/>an kaj intelektan vivadon
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        primitiva <tld/>a pririgardado
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Viktoro tre &ccirc;efis siajn <tld/>ajn elmontrojn, tamen li ne povis haltigi eksalton
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        feli&ccirc;a pro tiu <tld/>a delikateco, la dukino &ccirc;iutage montris al sia bofilino
+        amikemon
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Sepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur tiu <tld/>a kampo li uzas nelingvajn esprimilojn
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi zorgis praktike nur pri personoj ne kun materia, sed kun <tld/>a motivo: amo,
+        &jcirc;aluzo, samseksemo
+        <fnt>
+          <bib>ChC</bib>
+          <lok>24</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -197,16 +401,74 @@
       Kapablo <tld/>i korpe a&ubreve; morale; <tld/>okapablo
       &gcirc;enerala:
       <ekz>
-        Esperanto estas filo ne de logika spirito, sed de agema <tld/>o.
+        fari&gcirc;i poetino <klr>[&#8230;]</klr>, por tio oni bezonas tri aferojn: sa&gcirc;on, fantazion
+        kaj <tld/>on
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vidado kaj a&ubreve;dado &ccirc;iam estis rigardataj de la homo kiel la plej gravaj
+        <klr>[&#8230;]</klr>, la tri aliaj <tld/>oj estas rigardataj kiel malpli gravaj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio, kion ni nun nomas la kvin <tld/>oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        apena&ubreve; li reakiris la <tld/>ojn, <klr>[&#8230;]</klr> la tero kvaza&ubreve; malfermi&gcirc;as
+        sub liaj piedoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu vivas la&ubreve; sia prudento kaj <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="sens.0o">senso</ref>
+    </refgrp>
     <trd lng="en">perception</trd>
     <trd lng="pl">czucie</trd>
   </snc>
   <snc mrk="sent.0o.impreso">
     <dif>
       Agrabla a&ubreve; malagrabla stato de la konscio, estigita de
-      fizikaj ka&ubreve;zoj
+      fizikaj ka&ubreve;zoj:
+      <ekz>
+        mi havas tian senton kvaza&ubreve; mi kisus mian patrinon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        li havis la <tld/>on, kvaza&ubreve; li tuj mortos
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj <tld/>is doloron en la artikoj kaj tute perdis la <tld/>on de la varmego
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="dolor.0o">doloro</ref>,
@@ -229,8 +491,8 @@
   <snc mrk="sent.0o.emocio">
     <dif>
       Agrabla a&ubreve; malagrabla stato de la konscio, estigita de
-      nemateriaj moralaj ka&ubreve;zoj (
-      <refgrp tip="ekz">
+      nemateriaj moralaj ka&ubreve;zoj 
+      (<refgrp tip="ekz">
         <ref cel="gxoj.0o">&gcirc;ojo</ref>, 
         <ref cel="gxoj.mal0o">mal&gcirc;ojo</ref>,
         <ref cel="enu.0o">enuo</ref>, 
@@ -243,27 +505,72 @@
         <ref cel="admir.0o">admiro</ref>, 
         <ref cel="am.0o">amo</ref>, 
         <ref cel="am.mal0o">malamo</ref> 
-       </refgrp> ktp.); 
-       <ref tip="sin" cel="sentim.0o.FIL">sentimento <sncref/></ref>:
+      </refgrp> ktp); 
+      <ref tip="sin" cel="sentim.0o.FIL">sentimento<sncref/></ref>:
       <ekz>
-        maldol&ccirc;a <tld/>o de neplenumita espero<fnt>Z</fnt>;
+        li havis la <tld/>on, kvaza&ubreve; pro mal&gcirc;ojo tuj krevos al li la koro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li deziris komuniki al &ccirc;iuj la <tld/>ojn, kiuj plenigis
-        lian animon;
+        lia unua <tld/>o estis &ccirc;agreno, la dua estis absoluta perdo de humoro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tiam strangaj <tld/>oj enigas nian animon;
+        li povoscias konservi la ideojn kaj <tld/>ojn, &gcirc;is ili klare kaj precize ricevas
+        la formon de vortoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        liaj <tld/>oj el&scirc;prucas en lia parolmaniero;
+        &scirc;i havis la <tld/>on, ke &scirc;i estas forlasita de &ccirc;iuj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li estas tre sinretena en la esprimo de siaj <tld/>oj;
+        estis ja vespero de Silvestro, kaj tiu penso okupis &ccirc;iujn <tld/>ojn de la
+        malgranda knabino
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Knabineto kun alumetoj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        iliaj paroloj estas kontra&ubreve;aj al iliaj propraj
-        <tld/>oj<fnt>Z</fnt>
+        kion tio signifas, <klr>[&#8230;]</klr> ili ne povis prezenti al si, sed ia neklara
+        <tld/>o diris al ili, ke tio kredeble estas io belega
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Feli&ccirc;a familio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        naski&gcirc;is en li stranga <tld/>o: miksa&jcirc;o de deziro, sopiro kaj &jcirc;aluzo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        disbati la malbonojn, kreitajn de la blinda <tld/>o, de la stulta tradicio
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        maldol&ccirc;a <tld/>o de envio
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -291,7 +598,43 @@
     <dif>
       Ama a&ubreve; malama inklino al iu; kor<tld/>o:
       <ekz>
-        esprimi al iu la <tld/>ojn, kiujn oni havas por li<fnt>Z</fnt>
+        <klr>[min]</klr> vi prenis, ne demandinte miajn <tld/>ojn, mi pretendas, ke mi
+        ne havas la devon sklave submeti min al viaj deziroj
+        <fnt>
+          <bib>GDn</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; nelonge <klr>[li]</klr> festis la okdekjaran datrevenon de sia naski&gcirc;o,
+        <klr>[do ni uzu]</klr> la okazon <klr>[&#8230;]</klr>, por esprimi al li tiujn
+        <tld/>ojn, kiujn ni &ccirc;iuj havas por li
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sepa Kongreso Esperantista en Antwerpen en la 21a de a&ubreve;gusto 1911</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> konfuzis la imagon, koron kaj <tld/>ojn de Klaro en momento,
+        kiam la bela viro genuis anta&ubreve; &scirc;i kaj rigardis en la profundon de &scirc;iaj okuloj
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ofendi la religian <tld/>on de persono, havanta alian religion
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo.</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la esperantisma ideo prezentas <klr>[&#8230;]</klr> fratecan <tld/>on kaj esperon
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -314,7 +657,7 @@
     &c_p;&c_je;&c_r;&c_a;&c_zh;&c_y;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;
     </trd>
   </trdgrp>
-  <trd lng="bo">&#xF5A;&#xF7C;&#xF62;&#xF0B;&#xF56;&#xF0B;</trd>
+  <trd lng="bo">&t_tsha;&t_naro;&t_ra;&t_tsheg;&t_ba;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>cit</trd>,
     <trd>citlivost</trd>,
@@ -339,22 +682,37 @@
     <trd>cit</trd>,
     <trd>pocit</trd>
   </trdgrp>
+  <trd lng="uk">&c_p;&c_o;&c_ch;&c_u;&c_t;&c_t;&c_ja;</trd>
 </drv>
 
 <drv mrk="sent.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="sent.0ajxo.KOMUNE">
     <dif>
-     <ref tip="dif" cel="sent.0umajxo"><tld lit="S"/>uma&jcirc;o</ref>:
-     <ekz>
-        li asertis, ke tio estis la plej terura nokto de lia vivo; por
-        la plej granda sumo da mono li ne volus ankora&ubreve; unu fojon
-        havi tian <tld/>a&jcirc;on
-        <fnt><bib>Fab1</bib>, <lok>galo&scirc;oj de feli&ccirc;o</lok></fnt>.
+      <ref tip="dif" cel="sent.0umajxo"><tld lit="S"/>uma&jcirc;o</ref>:
+      <ekz>
+        tio estis la plej terura nokto de lia vivo <klr>[&#8230;]</klr> li ne volus ankora&ubreve;
+        unu fojon havi tian <tld/>a&jcirc;on
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        principoj entute ne ekzistas, <klr>[&#8230;]</klr> ekzistas nur <tld/>a&jcirc;oj, &ccirc;io
+        dependas de ili
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XXI</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="de">
+    <trd>Sinneseindruck</trd>,
+    <trd>Gef&uuml;hl</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>feeling</trd>,
     <trd>sensation</trd>
@@ -373,6 +731,36 @@
     <dif>
       Sufi&ccirc;e intensa, klara por esti <tld/>ata:
       <ekz>
+        supre en la aero la malvarmo fari&gcirc;is <tld/>ebla
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tero balda&ubreve; kovri&gcirc;is de <klr>[&#8230;]</klr> narcisoj kaj violoj,
+        ilia odoro estis pli kaj pli <tld/>ebla inter la krudaj odoroj de la tero
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en liaj vortoj estis <tld/>ebla ia protesto kontra&ubreve; &ccirc;io suferita
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj malsimila&jcirc;oj ekzistis nur kompare: ili estis <tld/>eblaj nur kiam la du
+        junuloj montri&gcirc;is unu apud la alia
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekdua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         atako kontra&ubreve; la elektronikaj &scirc;altcentraloj de
         &scirc;tato efikas multe pli dramajn kaj pli longe <tld/>eblajn
         rezultojn
@@ -389,6 +777,7 @@
     <trd>patrn&yacute;</trd>,
     <trd>poc&iacute;titeln&yacute;</trd>
   </trdgrp>
+  <trd lng="de">f&uuml;hlbare</trd>
   <trd lng="en">perceptible</trd>
   <trd lng="es">sensible</trd>
   <trdgrp lng="fr">
@@ -410,6 +799,7 @@
     <trd>cite&lcaron;n&yacute;</trd>,
     <trd>v&yacute;razn&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&c_v;&c_ib;&c_d;&c_ch;&c_u;&c_t;&c_n;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="sent.0eble">
@@ -417,6 +807,28 @@
   <snc mrk="sent.0eble.KOMUNE">
     <dif>
       Sufi&ccirc;e intense, rapide por ke oni rimarku:
+      <ekz>
+        la flugado estis <tld/>eble malpli rapida ol ordinare
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la lastaj monatoj lia vivelvido jam <tld/>eble alii&gcirc;is
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iliaj proviza&jcirc;oj estas tiom grandaj, ke cent, a&ubreve; mil friponoj ne povus ilin
+        <tld/>eble difekti
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekna&ubreve;a &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &scirc;ajnas al mi, ke dum la nuna jarcento <tld/>eble
         komenci&gcirc;is kriza dekadenco de la angla lingvo
@@ -428,6 +840,10 @@
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_a;
   </trd>
+  <trdgrp lng="de">
+    <trd>f&uuml;hlbar</trd>,
+    <trd>merklich</trd>
+  </trdgrp>
   <trd lng="en">perceptibly</trd>
   <trdgrp lng="fr">
     <trd>sensiblement</trd>
@@ -450,12 +866,50 @@
   <kap><tld/>ema</kap>
   <snc mrk="sent.0ema.KOMUNE">
     <dif>
-      Facile impresebla:
+      Facile <ref tip="sin" cel="impres.0ebla.PSI">impresebla</ref>:
       <ekz>
-        tiuj misteraj sonoj, ne a&ubreve;deblaj por la orelo, estas
-        <tld/>eblaj por &ccirc;iu animo <tld/>ema<fnt>Z</fnt>.
+        sonoj tre malla&ubreve;taj, ne a&ubreve;deblaj por la orelo, sed <tld/>eblaj por &ccirc;iu animo
+        <tld/>ema
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi akiris sperton, mia vidado fari&gcirc;is pli <tld/>ema, mi e&ccirc; ekamis tiun inferan
+        landon
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sor&ccirc;istinoj <klr>[&#8230;]</klr> ne povas vidi malproksimen, sed ili havas
+        <tld/>eman flaradon, kiel la bestoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ha&ccirc;jo kaj Grenjo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la komenco li estis ekstreme <tld/>ema kaj naiva, li kredis la amikecon,
+        amon, feli&ccirc;on
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estas tre <tld/>ema al beleco
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="delika.0a.iu">delikata<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_ch;&c_u;&c_l;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>,
@@ -465,6 +919,11 @@
   <trdgrp lng="cs">
     <trd>bolestiv&yacute;</trd>,
     <trd>citliv&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>feinf&uuml;hlig</trd>,
+    <trd>einf&uuml;hlsam</trd>,
+    <trd>sensibel</trd>
   </trdgrp>
   <trd lng="en">sensitive</trd>
   <trd lng="es">sensible</trd>
@@ -486,13 +945,43 @@
     <trd>citliv&yacute;</trd>,
     <trd>vn&iacute;mav&yacute;</trd>
   </trdgrp>
+  <trd lng="uk">&c_ch;&c_u;&c_t;&c_l;&c_i;&c_v;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="sent.0emo">
-  <kap><tld/>emo</kap>
+  <kap><tld/>emo, <var><kap><tld/>emeco</kap></var></kap>
   <snc mrk="sent.0emo.KOMUNE">
     <dif>
-      Emo sperti situaciojn kun <tld/>oj, emocioj:
+      Preteco impresi&gcirc;i, emocii&gcirc;i:
+      <ekz>
+        la malfeli&ccirc;a blinda infano <klr>[havis]</klr> profundan <tld/>emecon, kiu estis
+        en &scirc;i tiel forta, ke &scirc;i kvaza&ubreve; havis okulojn sur la pintoj de la fingroj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la junulo kisis senpeke la manon de la juna fra&ubreve;lino kun viveco, <tld/>emo kaj
+        tute aparta afabla pla&ccirc;emo
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lastajn vortojn li eldiris kun efektiva <tld/>emeco en la vo&ccirc;o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Marta enprofundi&gcirc;is <klr>[&#8230;]</klr> en la kortu&scirc;antan <tld/>emecon kaj poeziecon
+        de la bildo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         e&ccirc; viktorianoj &ndash; neniel notindaj pro sia
         <tld/>emo &ndash; postulis, ke tia nehumana, sendigna
@@ -503,6 +992,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="afekt.0o">afekto</ref>,
+      <ref cel="emoci.0o.PSI">emocio</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_ch;&c_u;&c_l;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
@@ -510,6 +1003,10 @@
     <trd>&c_u;&c_r;&c_a;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="cs">citlivost</trd>
+  <trdgrp lng="de">
+    <trd>Feinf&uuml;hligkeit</trd>,
+    <trd>Sensibilit&auml;t</trd>
+  </trdgrp>
   <trd lng="en">sensitivity</trd>
   <trd lng="es">sensibilidad</trd>
   <trdgrp lng="fr">
@@ -524,6 +1021,7 @@
   </trdgrp>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">citlivos&tcaron;</trd>
+  <trd lng="uk">&c_ch;&c_u;&c_t;&c_l;&c_i;&c_v;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="sent.0igi">
@@ -536,15 +1034,55 @@
         la ru&gcirc;eta sunlumo sur brunaj trunkoj kaj verdaj
         bran&ccirc;oj <tld/>igis la vesperi&gcirc;on
         <fnt><bib>InfanTorent2</bib>, <lok>dua parto, &ccirc;apitro
-        2a</lok></fnt>.
+        2a</lok></fnt>;
+      </ekz>
+      <ekz>
+        Vi <tld/>igis al Via popolo pezan sorton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 60:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ke dan&gcirc;ere malsana, forlasita, &scirc;i ku&scirc;is en mizera &ccirc;ambreto, <klr>[&#8230;]</klr>
+        treege <tld/>igis al &scirc;i &scirc;ian mizeron
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>igos sian skur&gcirc;on, li kra&ccirc;os al vi en la viza&gcirc;on
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la memoro pri ili ankora&ubreve; hodia&ubreve; <tld/>igas al mi spiritan na&ubreve;zon
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jam en la dua tago malsato <tld/>igis sin al tiu homamaso
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XLVI</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_c;&c_mol;
   <ind>&c_a;&c_d;&c_ch;&c_u;&c_c;&c_mol;</ind></trd>
   <trd lng="cs">d&aacute;t poc&iacute;tit</trd>
+  <trdgrp lng="de">
+    <trd><ind>f&uuml;hlen</ind> lassen</trd>,
+    <trd><ind>merken</ind> lassen</trd>
+  </trdgrp>
   <trdgrp lng="en">
-    <trd>to affect</trd>,
+    <trd>to <ind>affect</ind></trd>,
     <trd>impress</trd>
   </trdgrp>
   <trdgrp lng="fr">
@@ -558,6 +1096,12 @@
   <trd lng="pl">dawa&cacute; <ind>odczu&cacute;</ind></trd>
   <trd lng="ru">&c_d;&c_a;&c_t;&c_mol; <ind>&c_p;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</ind></trd>
   <trd lng="sk">da&tcaron; poc&iacute;ti&tcaron;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_ch;&c_u;&c_t;&c_l;&c_i;&c_v;&c_i;&c_m;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_ch;&c_u;&c_l;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_a;&c_t;&c_i; &c_v;&c_ib;&c_d;&c_ch;&c_u;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_a;&c_t;&c_i; &c_z;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0igxi">
@@ -567,12 +1111,38 @@
     <dif>
       I&gcirc;i rimarkebla, <tld/>ebla al homa konscio:
       <ekz>
+        malvarmo <klr>[&#8230;]</klr> tiam <tld/>i&gcirc;as plej forte
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la fre&scirc;a aero <tld/>i&gcirc;is la odoroj de frua printempo
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         en iliaj okuloj <tld/>i&gcirc;is decidemo kaj certeco pri la
         estonto
         <fnt><aut>B. Selimi</aut>, <vrk>Voja&gcirc;impresoj, somero
         2000</vrk>, <bib>Monato</bib>, <lok>2001:1, p.
         26a</lok></fnt>;
       </ekz>
+      <ekz>
+        malvarmega letero, en kiu <tld/>i&gcirc;is nerevokebla decido
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekdua</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="sent.0igxi.sin">
+    <dif>
+      <tld lit="S"/>i sin; percepti iajn <tld/>ojn en sia interno:
       <ekz>
         elirante el la klubejo, li <tld/>i&gcirc;is kontenta
         <fnt><aut>R. Da&scirc;o</aut>, <vrk>Ne-atenditaj sekvoj</vrk>,
@@ -615,6 +1185,9 @@
     <dif>
       <ref tip="dif" cel="sens.0ilo.BIO">Sensilo<sncref/></ref>.
     </dif>
+    <refgrp tip="vid">
+      <ref cel="anten.0o.ZOO">anteno<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_r;&c_e;&c_c;&c_e;&c_p;&c_t;&c_a;&c_r;</trd>
     <trd lng="en">sensory receptor</trd>
     <trd lng="fr">r&eacute;cepteur sensoriel</trd>
@@ -634,11 +1207,27 @@
         la <tld/>iloj de roboto;
       </ekz>
       <ekz>
-        la printila bloko posedas <tld/>ilon testantan,
-        &ccirc;u fini&gcirc;is la paperfolio;
+        strataj kameraoj <klr>[&#8230;]</klr> ekipitaj per diversaj <tld/>iloj
+        <fnt>
+          <vrk><url ref="https://groups.google.com/g/soc.culture.esperanto/c/WV6mDZD9Mpw"
+              >Grandan observantan sistemon timas la polaj civitanoj</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a forto;
+        &ccirc;e la zebrostrioj estis instalitaj <tld/>iloj kun artefarita inteligenteco, ili
+        povas a&ubreve;tomate analizi la trafikan situacion
+        <fnt>
+          <vrk><url ref="http://esperanto.china.org.cn/2018-07/05/content_55017325.htm"
+              >Brilaj zebrostrioj kun AI-funkcioj aperis en Hangzhou, &Ccirc;inio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        teksa&jcirc;o <klr>[&#8230;]</klr> ekipita per elastaj <tld/>iloj ebligantaj difini
+        kiomgrade &gcirc;i estas stre&ccirc;ita
+        <fnt>
+          <vrk><url ref="https://pola-retradio.org/2021/11/vestajoj-el-nova-fibro-helpos-trejni-la-spiradon/"
+              >Vesta&jcirc;oj el nova fibro helpos trejni la spiradon</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>lum<tld/>ilo</ind>.
@@ -689,6 +1278,10 @@
     <trd>senzor</trd>,
     <trd>sn&iacute;ma&ccaron;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_d;&c_a;&c_t;&c_ch;&c_i;&c_k;</trd>,
+    <trd>&c_shch;&c_u;&c_p;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0umo">
@@ -705,12 +1298,34 @@
           <aut>L. Couperus, trad. G. Berveling</aut>,
           <vrk>Pri maljunuloj, la a&jcirc;oj kiuj pasas...</vrk>,
           <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve;grade liaj <tld/>umoj revenis kaj li &ccirc;irka&ubreve; si palpser&ccirc;is la libron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="https://www.monato.be/2010/009883.php"
+              >Trancporto</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vidpovo <klr>[&#8230;]</klr>, perdo de tiu &ccirc;i <tld/>umo rekte kaj kompreneble influas
+        la anim-staton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;lo Sergio Viana</aut>
+          <vrk><url ref="https://www.monato.be/2013/011162.php"
+              >Kataraktotrakto revivigas</url></vrk>
+          <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_ch;&c_u;&c_c;&c_mol;&c_c;&c_jo;</trd>
   <trd lng="cs">smysl <klr>(vn&iacute;mac&iacute;)</klr></trd>
+  <trd lng="de">Sinn</trd>
   <trd lng="en">sense</trd>
   <trd lng="es">sentido</trd>
   <trd lng="fr">sens<klr> (perceptif)</klr></trd>
@@ -727,16 +1342,33 @@
     <trd>zmyslov&yacute; org&aacute;n</trd>,
     <trd>&uacute;stroj</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_ch;&c_u;&c_t;&c_t;&c_ja;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_ch;&c_u;&c_t;&c_t;&c_ja;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0umajxo">
   <kap><tld/>uma&jcirc;o</kap>
   <snc mrk="sent.0umajxo.SEN">
     <dif>
-      <ref tip="dif" cel="sens.0ajxo.SEN">Sensa&jcirc;o</ref>.
+      <ref tip="dif" cel="sens.0ajxo.SEN">Sensa&jcirc;o</ref>:
+      <ekz>
+        la diferenco inter <ref cel="emoci.0o">emocio</ref> kaj <tld/>uma&jcirc;o estas, ke <tld/>uma&jcirc;o ne estigas
+        reagan manifestacion
+        <fnt>
+          <vrk><url ref="https://eo.wikipedia.org/wiki/Emocio"
+              >Emocio - Vikipedio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="de">
+    <trd>Sinneswahrnehmung</trd>,
+    <trd>Wahrnehmung</trd>,
+    <trd>Sinneseindruck</trd>
+  </trdgrp>
   <trd lng="en">sensation</trd>
   <trd lng="fr">sensation</trd>
   <trd lng="hu">&eacute;rzet</trd>
@@ -760,7 +1392,37 @@
         <fnt><bib>Fab3</bib>, <lok>sub la saliko</lok></fnt>;
       </ekz>
       <ekz>
-        post horo li estos en la vila&gcirc;o kaj jam anta&ubreve;sentis
+        tie ekstere io ekzistas, ia anta&ubreve;<tld/>o tion diras al ni
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kvin en unu silikvo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de la alto de l' trono oni vidas tiajn aferojn, kiujn e&ccirc; ne anta&ubreve;<tld/>as
+        simplaj homoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i neniam anta&ubreve;<tld/>is, ke tiu sinpelado enhavas en si tiom da maltrankvileco,
+        turmentoj, trompi&gcirc;oj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Nun vi time, sorton-anta&ubreve;<tld/>e &parsl; Min observas kaj demandas &scirc;tele: &parsl; &Ccirc;u dum vintro
+        anka&ubreve;, vi konsente &parsl; Amos min fidele
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Amo &Ccirc;iama</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        post horo li estos en la vila&gcirc;o kaj jam anta&ubreve;<tld/>is
         la plezuron de la ripozo
         <fnt><aut>J. Modest</aut>, <vrk>La ikono</vrk>,
         <bib>Monato</bib>, <lok>2001:12, p.
@@ -774,6 +1436,11 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>ahnen</trd>,
+    <trd>voraus <ind>ahnen</ind></trd>,
+    <trd>vorher <ind>sehen</ind></trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>to anticipate</trd>,
     <trd>to have a feeling <klr>(I had a feeling that you would
@@ -785,6 +1452,7 @@
   <trd lng="pl">przeczuwa&cacute;</trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="es">presentir</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="sent.devo0o">
@@ -792,6 +1460,24 @@
   <snc mrk="sent.devo0o.KOMUNE">
     <dif>
       Interna <tld/>o pri devoj, pri morale necesaj sintenoj kaj agoj:
+      <ekz>
+        La devo<tld/>o igas lin ankora&ubreve;foje rekomenci, sed poste li rezignas
+        <fnt>
+          <bib>ViV</bib>
+          <lok>III.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iel revokis &scirc;in hejmen la devo<tld/>o kaj la certeco, ke en la malfacilo &scirc;i
+        devas esti &ccirc;e la siaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2009/009583.php"
+              >Honesta portreto pri granda homo</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la devo<tld/>o &ccirc;iam dum la vivo estis por mi ia feti&ccirc;o
         <fnt>
@@ -803,6 +1489,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Pflichtgef&uuml;hl</trd>
   <trd lng="en">sense of obligation</trd>
   <trd lng="fr">sens du devoir</trd>
   <trd lng="nl">plichtsgevoel</trd>
@@ -820,6 +1507,42 @@
         <lok>&ccirc;apitro 1a, renkonto</lok></fnt>;
       </ekz>
       <ekz>
+        la ri&ccirc;a grandsinjoro <nom>Medinaceli</nom>, <klr>[&#8230;]</klr> kvankam e&ccirc; kun<tld/>as al li, ne
+        povas armi ekspedicion
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio estus ja facila maniero, &ndash; kun<tld/>is Kristoforo kaj &scirc;ajnis interesita
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi profunde kun<tld/>as kun vi pro via malfeli&ccirc;ega spiritstato
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili kun<tld/>as kun mi kaj <klr>[&#8230;]</klr> volas helpi
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vitalij</nom> kompatis &scirc;in, kun<tld/>is, sed e&ccirc; timis montri al &scirc;i tiun ofendan
+        kun<tld/>on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         ili verkis libron pri siaj lingvistikaj esploroj, esperante
         ke ni kun<tld/>os ilian fascini&gcirc;on pri lingva
         tempoekskurso
@@ -829,7 +1552,9 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="konsen.0i">konsenti</ref>
+      <ref cel="kompat.0i">kompati</ref>,
+      <ref cel="konsen.0i">konsenti</ref>,
+      <ref cel="simpat.0i">simpatii</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -840,6 +1565,7 @@
     <trd>c&iacute;tit s n&ecaron;k&yacute;m</trd>,
     <trd>m&iacute;t soucit</trd>
   </trdgrp>
+  <trd lng="de">mitf&uuml;hlen</trd>
   <trdgrp lng="en">
     <trd>to empathize <klr>(usone)</klr></trd>,
     <trd>to empathise <klr>(brite)</klr></trd>, <trd>relate to</trd>
@@ -852,6 +1578,7 @@
   <trd lng="pl">wsp&oacute;&lstroke;czu&cacute;</trd>
   <trd lng="ru">&c_s;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">ma&tcaron; s&uacute;cit</trd>
+  <trd lng="uk">&c_s;&c_p;&c_ib;&c_v;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="sent.kulpo0o">
@@ -867,11 +1594,34 @@
           <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
           Princino de Marso</url></vrk>,
           <lok>1938</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u al tiu gajulo la filino atribuas turmentan kulpo<tld/>on? nekredeble
+        <fnt>
+          <bib>ChB</bib>
+          <lok>20</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        &scirc;i estis ege tolerema, eble tro kulpo<tld/>a
+        <fnt>
+          <bib>ChB</bib>
+          <lok>14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi preferus vidi &scirc;in de malproksime por ne devi paroli kun &scirc;i, mi ne scias kial
+        mi sentis kulpo<tld/>on
+        <fnt>
+          <bib>OIP</bib>
+          <lok>Ombro sur interna pejza&gcirc;o</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="cs">pocit viny</trd>
+  <trd lng="de">Schuldgef&uuml;hl</trd>
   <trdgrp lng="en">
     <trd>guilty conscience</trd>,
     <trd>compunction</trd>
@@ -893,10 +1643,41 @@
       <ekz>
         ili man&gcirc;is kun li en lia domo, kaj esprimis al li sian
         kun<tld/>on, kaj konsolis lin
-        <fnt><bib>MT</bib>, <lok>&Ijo; 42:11</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Ijo; 42:11</lok></fnt>;
+      </ekz>
+      <ekz>
+        nu, nu, respondis la pli maljuna per tono, en kiu krom kun<tld/>o sonis anka&ubreve;
+        kordo de forte sentata propra plialteco
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>as la devon anta&ubreve; &ccirc;io danki la legantan publikon por la viva
+        kun<tld/>o, kiun &gcirc;i montris por mia afero
+        <fnt>
+          <bib>DL</bib>
+          <lok>Dua Libro de l' Lingvo Internacia</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li demandis kun mieno kaj per vo&ccirc;tono, kiuj &scirc;ajnigis kortu&scirc;an kun<tld/>on
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li forlasis lin en la momento, kiam li pleje bezonis liajn kun<tld/>on kaj helpon
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="kompat.0o">kompato</ref>,
+      <ref cel="kompre.0o">kompreno</ref>,
       <ref cel="simpat.0o">simpatio</ref>
     </refgrp>
   </snc>
@@ -904,7 +1685,7 @@
     <trd>&c_s;&c_p;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_g;&c_a;&c_d;&c_a;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF66;&#xF99;&#xF72;&#xF44;&#xF0B;&#xF62;&#xF97;&#xF7A;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_nyata;&t_gigu;&t_nga;&t_tsheg;&t_ra;&t_jata;&t_drengbu;&t_tsheg;</trd>
   <trd lng="cs">soucit</trd>
   <trd lng="de">Mitgef&uuml;hl</trd>
   <trdgrp lng="en">
@@ -921,6 +1702,7 @@
   <trd lng="pl">wsp&oacute;&lstroke;czucie</trd>
   <trd lng="ru">&c_s;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
   <trd lng="sk">s&uacute;cit</trd>
+  <trd lng="uk">&c_p;&c_o;&c_ch;&c_u;&c_t;&c_t;&c_ja;</trd>
 </drv>
 
 <drv mrk="sent.kun0emo">
@@ -931,15 +1713,32 @@
       Kapablo diveni kaj proprigi sentojn de aliaj homoj:
       <ekz>
         kompatemo kaj kun<tld/>emo estas pli humanaj ol senanima 
-        <klr>...</klr> ignorado
+        <klr>[&#8230;]</klr> ignorado
         <fnt><aut>U. Matthias</aut>, <vrk><url ref="http://www.u-matthias.de/verko/fajron.htm">Fajron sentas 
-        mi interne</url></vrk>, <lok>Pro Esperanto, 1990</lok></fnt>.
+        mi interne</url></vrk>, <lok>Pro Esperanto, 1990</lok></fnt>;
+      </ekz>
+      <ekz>
+        la knabino ekrigardis la viza&gcirc;ojn <klr>[&#8230;]</klr> kaj, leginte en ili bonvolon
+        kaj kun<tld/>emon, &scirc;i diris plue
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="intuic.0o">intuicio</ref>
+      <ref cel="intuic.0o">intuicio</ref>,
+      <ref cel="kompat.0emo">kompatemo</ref>,
+      <ref cel="kompre.0emo.indulgemo">komprenemo<sncref/></ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_e;&c_m;&c_p;&c_a;&c_t;&c_y;&c_ja;</trd>
+  <trdgrp lng="de">
+    <trd>Einf&uuml;hlsamkeit</trd>,
+    <trd>Mitgef&uuml;hl</trd>,
+    <trd>Feingef&uuml;hl</trd>,
+    <trd>Einf&uuml;hlungsverm&ouml;gen</trd>
+  </trdgrp>
   <trd lng="en">empathy</trd>
   <trd lng="fr">empathie</trd>
   <trd lng="nl">empathie</trd>
@@ -957,6 +1756,21 @@
     <dif>
       Intuo de parolanto pri la &gcirc;usteco, konveneco de
       parolmaniero:
+      <ekz>
+        tion li faris kun sia kutima lingvo<tld/>o kaj profunda lingvomajstrado
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi uzis mian hungaran lingvo<tld/>on kaj ververe mi volis nur ekscii, &ccirc;u mi ne
+        tedas miajn gelernantojn
+        <fnt>
+          <bib>KKr</bib>
+          <lok>II</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &ccirc;ar &ccirc;iuj menciitaj formoj estas bona Esperanto, oni
         uzu ilin la&ubreve; sia lingvo<tld/>o
@@ -991,14 +1805,37 @@
       Tiom malforte, diskrete a&ubreve; grade, ke oni apena&ubreve;
       <tld/>as:
       <ekz>
+        Beatrico estis kortu&scirc;ita, kaj ne<tld/>eble delasis ion da sia kutima severeco
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne<tld/>ebla sed reala barilo jam staris inter la novaj geedzoj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         a&ubreve;gusto forpasis ne<tld/>eble
         <fnt><aut>J. Modest</aut>, <vrk>En la ombro de la
         silento</vrk>, <bib>Monato</bib>, <lok>1997:3, p.
-        14a</lok></fnt>.
+        14a</lok></fnt>;
+      </ekz>
+      <ekz>
+        ne<tld/>eble la memoro de okazintaj fari&gcirc;oj estos la neevitebla konsekvenco de
+        tiu reveno al vivo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_je;&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_a;</trd>
+  <trd lng="de">unmerklich</trd>
   <trd lng="en">imperceptibly</trd>
   <trdgrp lng="fr">
     <trd>insensiblement</trd>
@@ -1038,39 +1875,75 @@
   <snc mrk="sent.sen0a.KOMUNE">
     <dif>
       Ne havanta <tld/>on,
-      <ref tip="vid" cel="indife.0a">indiferenta</ref>,
-      <ref tip="vid" cel="morn.0a">morna</ref>:
+      <ref tip="vid" cel="indife.0a">indiferenta</ref>:
     </dif>
     <subsnc mrk="sent.sen0a.PSI">
       <dif>
         Ne havanta <tld/>on emocian a&ubreve; animan:
-      <ekz>
-        &ccirc;u la multaj zorgoj jam faris &scirc;in sen<tld/>a kaj pri doloro
-        kaj 
-        pri &gcirc;ojo?
-        <fnt><aut>S. Engholm</aut>, <vrk>Homoj sur la tero</vrk>, 
-        <lok>1932</lok></fnt>.
-      </ekz>
+        <ekz>
+          ilia koro estis sen<tld/>a
+          <fnt>
+            <bib>NT</bib>
+            <lok>Marko 6:52</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ili mutaj kaj sen<tld/>aj eliris <klr>[&#8230;]</klr> el sia malgaja laborejo
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &ccirc;u la multaj zorgoj jam faris &scirc;in sen<tld/>a kaj pri doloro
+          kaj pri &gcirc;ojo
+          <fnt><aut>S. Engholm</aut>, <vrk>Homoj sur la tero</vrk>, 
+          <lok>1932</lok></fnt>?
+        </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="hebet.0a">hebeta</ref>,
+        <ref cel="obtuz.0a.sente">obtuza<sncref/></ref>,
+        <ref cel="stupor.0a">stupora</ref>
+      </refgrp>
     </subsnc>
     <subsnc mrk="sent.sen0a.MED">
       <dif>
         Ne havanta <tld/>on korpan:
-      <ekz>
-        miaj fingroj estis sen<tld/>aj, kaj mia nazo gutis pro 
-        la malvarmo
-        <fnt><aut>A. L&ouml;wenstein</aut>, <vrk>La &scirc;tona urbo</vrk>, 
-        <lok>1999</lok></fnt>.
-      </ekz>
+        <ekz>
+          brrr! Januaro! la manoj estas bluaj kaj rigidaj <klr>[&#8230;]</klr>, la &scirc;tonkuboj
+          mar&scirc;adas sub miaj sen<tld/>aj piedoj
+          <fnt>
+            <bib>LGA</bib>
+            <lok>I.</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          miaj fingroj estis sen<tld/>aj, kaj mia nazo gutis pro 
+          la malvarmo
+          <fnt><aut>A. L&ouml;wenstein</aut>, <vrk>La &scirc;tona urbo</vrk>, 
+          <lok>1999</lok></fnt>.
+        </ekz>
       </dif>
     </subsnc>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_ch;&c_u;&c_l;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_e;&c_m;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>gef&uuml;hllos</trd>,
+    <trd>taub <klr>(gef&uuml;hllos)</klr></trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>unfeeling</trd>,
     <trd>insensitive</trd>, <trd>insensate</trd>
   </trdgrp>
   <trd lng="fr">insensible<klr> (qui ne sent pas)</klr></trd>
   <trd lng="es">insensible</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_je;&c_ch;&c_u;&c_l;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_d;&c_u;&c_sh;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.sen0eco">
@@ -1079,18 +1952,45 @@
     <dif>
       Foresto de <tld/>oj animaj a&ubreve; korpaj:
       <ekz>
+        mi estis en tia stato el malforto kaj sen<tld/>eco, inter la morto kaj la vivo
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         multaj e&ccirc; ripro&ccirc;as al li la severecon de lia karaktero kaj 
         vidas en &gcirc;i signon de fiereco a&ubreve; de sen<tld/>eco
         <fnt><aut>H. Sienkewicz, trad. L. Zamenhof</aut>, <vrk>Quo 
-        vadis?</vrk>, <lok>1933</lok></fnt>.
+        vadis?</vrk>, <lok>1933</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>Zalmuna</nom> staris anta&ubreve; la altarotablo, fikse rigardante en obtuza sen<tld/>eco la
+        sanktfiguron
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la memoreco pri la &jcirc;us okazintaj aferoj balda&ubreve; revenos <klr>[&#8230;]</klr> se
+        perforta emocio subite vekus el ilia sen<tld/>eco la cerbajn &ccirc;elojn
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="indife.0eco">indiferenteco</ref>,
+      <ref cel="dolor.sen0eco">sendoloreco</ref>,
+      <ref cel="sven.0o">sveno</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="indife.0eco">indiferenteco</ref>,
-    <ref cel="dolor.sen0eco">sendoloreco</ref>,
-    <ref cel="sven.0o">sveno</ref>
-  </refgrp>
+   <trdgrp lng="de">
+     <trd>Gef&uuml;hllosigkeit</trd>,
+     <trd>Taubheit <klr>(Gef&uuml;hllosigkeit)</klr></trd>
+   </trdgrp>
    <trdgrp lng="en">
       <trd>insensitivity</trd>,
       <trd>insensibility</trd>
@@ -1107,16 +2007,16 @@
     <dif>
       Senigi momente a&ubreve; da&ubreve;re je <tld/>opovo:
       <ekz>
-        pliparton de tiuj homoj regis unu penso <klr>...</klr>, kiu jam 
+        pliparton de tiuj homoj regis unu penso <klr>[&#8230;]</klr>, kiu jam 
         dum la vivo sen<tld/>igis ilin al &ccirc;io, kio okazis &ccirc;irka&ubreve; ili 
         <fnt><aut>H. Sienkewicz, trad. L. Zamenhof</aut>, <vrk>Quo 
         vadis?</vrk>, <lok>1933</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="aneste.0i">anestezi</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="aneste.0i">anestezi</ref>
-  </refgrp>
   <trd lng="en">desensitize</trd>
   <trdgrp lng="fr">
     <trd>couper toute <ind>&eacute;motion</ind> &agrave;</trd>,
@@ -1125,6 +2025,7 @@
   <trd lng="es">insensibilizar</trd>
   <trd lng="sk">znecitlivi&tcaron;</trd>
   <trd lng="cs">znecitliv&ecaron;t</trd>
+<trd lng="de">abstumpfen</trd>
 </drv>
 
 <drv mrk="sent.tro0ema">
@@ -1144,29 +2045,37 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">hypersensibel</trd>
   <trd lng="fr">hypersensible</trd>
+  <trdgrp lng="uk">
+    <trd>&c_n;&c_a;&c_d;&c_t;&c_o; &c_ch;&c_u;&c_t;&c_l;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_je;&c_n;&c_t;&c_i;&c_m;&c_je;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.129 2022/10/02 11:29:47
+Wolfram Diestel: sen~a/-eco: ekz-oj, ref-oj
+
+versio 1.128 2022/10/01 10:36:11
+Wolfram Diestel: ~igi..ne~eble: +ekz-oj, ref, trd de
+
+versio 1.127 2022/10/01 07:36:01
+Wolfram Diestel: ~ebla..~emo: +ekz-oj, ref, +var ~emeco
+
+versio 1.126 2022/09/30 20:36:10
+Wolfram Diestel: +trd de; ~o: +ekz-oj
+
+versio 1.125 2022/09/30 18:44:49
+Wolfram Diestel: ~i, ~a: +ekz-oj, ref-oj
+
+versio 1.124 2022/05/05 05:09:56
+aktualigo lingvokodoj kaj URL-unuoj
+
+versio 1.122 2021/07/29 12:49:14
+Dmitri Gabinski: + trd be
+
 Revision 1.43  2018/06/13 15:10:15  revo
-Jeromo Vasxe: ~ilo renvers. prioritaton kun sensilo
-
-Revision 1.42  2018/06/01 15:10:13  revo
-Jeromo Vasxe: sentum* ref dif sens*
-
-Revision 1.41  2017/03/29 13:10:16  revo
-Ludoviko Francisco: +trd fr
-
-Revision 1.40  2016/03/12 16:10:13  revo
-Wolfram Diestel: +ref-oj
-
-Revision 1.39  2015/10/16 02:10:14  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.38  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.37  2015/06/29 16:33:23  revo
 -->
 </vortaro>
