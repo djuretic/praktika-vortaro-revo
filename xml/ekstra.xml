@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekstra.xml,v 1.24 2022/04/27 14:38:53 revo Exp $">
+<art mrk="$Id: ekstra.xml,v 1.27 2023/11/07 19:22:36 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>ekstrakt</rad>/o <fnt><bib>PV</bib></fnt>
@@ -62,7 +62,11 @@
       <trd>&c_e;&c_k;&c_s;&c_t;&c_r;&c_a;&c_k;&c_t;</trd>,
       <trd>&c_v;&c_y;&c_t;&c_ja;&c_zh;&c_k;&c_a;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x62BD;&#x51FA;&#x7269; <pr>ch&#x14D;uch&#x16B;w&#xF9;</pr></trd>,
+    <trd>&#x63D0;&#x53D6;&#x7269; <pr>t&#xED;q&#x1D4;w&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="ekstra.0o.TIP">
     <dif>
       <ref tip="super" cel="tir.el0ajxo">Eltira&jcirc;o</ref> el libro, verko:
@@ -129,7 +133,11 @@
       <trd>&c_i;&c_z;&c_v;&c_l;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_o;&c_t;&c_r;&c_y;&c_v;&c_o;&c_k;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7247;&#x6BB5; <pr>pi&#xE0;ndu&#xE0;n</pr></trd>,
+    <trd>&#x7BC0;&#x9078; <pr>ji&#xE9;xu&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>extrakt</trd>,
     <trd>v&yacute;luh</trd>,
@@ -141,6 +149,12 @@
   </trdgrp>
   <trd lng="en">extract</trd>
   <trd lng="hu">kivonat</trd>
+  <trdgrp lng="ja">
+    <trd>&#x62BD;&#x51FA;&#x7269;  <pr>&#x3061;&#x3085;&#x3046;&#x3057;&#x3085;&#x3064;&#x3076;&#x3064;</pr></trd>,
+    <trd>&#x30A8;&#x30AD;&#x30B9;</trd>,
+    <trd>&#x629C;&#x7C8B;  <pr>&#x3070;&#x3063;&#x3059;&#x3044;</pr></trd>,
+    <trd>&#x5F15;&#x7528;&#x6587;  <pr>&#x3044;&#x3093;&#x3088;&#x3046;&#x3076;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>extrakt</trd>,
     <trd>tres&tcaron;</trd>,
@@ -325,6 +339,11 @@
   </trdgrp>
   <trd lng="en">extract</trd>
   <trd lng="he">&lamed;&het;&lamed;&ftsadi;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x62BD;&#x51FA;&#x3059;&#x308B;  <pr>&#x3061;&#x3085;&#x3046;&#x3057;&#x3085;&#x3064;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x629C;&#x7C8B;&#x3059;&#x308B;  <pr>&#x3070;&#x3063;&#x3059;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x5F15;&#x7528;&#x3059;&#x308B;  <pr>&#x3044;&#x3093;&#x3088;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">extraheren</trd>
   <trdgrp lng="sk">
     <trd>vybera&tcaron;</trd>,
@@ -337,10 +356,17 @@
     <trd>&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x432;&#x438;&#x43F;&#x438;&#x441;&#x43A;&#x438;</trd>,
     <trd>&#x434;&#x43E;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43A;&#x43E;&#x440;&#x456;&#x43D;&#x44C;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x63D0;&#x70BC; <pr>t&#xED;li&#xE0;n</pr></trd>,
+    <trd>&#x8403;&#x53D6; <pr>cu&#xEC;q&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/14 15:34:42
+revo: transskribo per <pr>
+
 versio 1.24 2022/04/27 14:38:53
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -360,8 +386,5 @@ Revision 1.16  2011/04/20 08:10:09  revo
 Jeromo Vasxe: - num + mrk
 
 Revision 1.15  2010/01/13 17:30:48  revo
-Sebastian Cyprych: kor trd pl
-
-Revision 1.14  2009/09/26 16:31:09  revo
 -->
 </vortaro>

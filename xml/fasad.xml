@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fasad.xml,v 1.25 2022/03/18 13:01:59 revo Exp $">
+<art mrk="$Id: fasad.xml,v 1.28 2023/11/09 19:13:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>fasad</rad>/o <fnt><bib>PV</bib></fnt>
@@ -51,7 +51,12 @@
       <trd>portada</trd>
     </trdgrp>
     <trd lng="ru">&c_f;&c_a;&c_s;&c_a;&c_d;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5E97;&#x5934; <pr>di&#xE0;nt&#xF3;u</pr></trd>,
+    <trd>&#x5E97;&#x9762; <pr>di&#xE0;nmi&#xE0;n</pr></trd>,
+    <trd>&#x623F;&#x5C4B;&#x6B63;&#x9762; <pr>f&#xE1;ngw&#x16B;zh&#xE8;ngmi&#xE0;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="fasad.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
@@ -92,6 +97,11 @@
   <trdgrp lng="cs">
     <trd>fas&aacute;da</trd>,
     <trd>pr&uring;&ccaron;el&iacute; budovy</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6B63;&#x9762;  <pr>&#x307E;&#x3068;&#x3082;</pr></trd>,
+    <trd>&#x30D5;&#x30A1;&#x30B5;&#x30FC;&#x30C9;</trd>,
+    <trd>&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30D5;&#x30A7;&#x30FC;&#x30B9;</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>fas&aacute;da</trd>,
@@ -140,12 +150,17 @@
       <trd>&c_g;&c_r;&c_a;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
       &c_o;&c_b;&c_o;&c_l;&c_o;&c_ch;&c_k;&c_a;</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x56FE;&#x5F62;&#x7528;&#x6237;&#x754C;&#x9762; <pr>t&#xFA;x&#xED;ngy&#xF2;ngh&#xF9;ji&#xE8;mi&#xE0;n</pr></trd>
+</snc>
+  <trd lng="ja">&#x30B0;&#x30E9;&#x30D5;&#x30A3;&#x30AB;&#x30EB;&#x30FB;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30D5;&#x30A7;&#x30FC;&#x30B9;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
 Revision 1.23  2017/02/17 15:10:15  revo
 Jeromo Vasxe: diponigante ->  disponigante
 

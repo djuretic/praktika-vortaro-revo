@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: staci.xml,v 1.110 2022/08/19 20:30:57 revo Exp $">
+<art mrk="$Id: staci.xml,v 1.120 2024/01/24 09:22:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>staci</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>staci</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="staci.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -69,9 +69,14 @@
         <trd>&c_p;&c_r;&c_y;&c_p;&c_y;&c_n;&c_a;&c_k;</trd>,
         <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_n;&c_mol;</trd>
       </trdgrp>
+      <trdgrp lng="de">
+        <trd>Station</trd>,
+        <trd>Haltestelle</trd>,
+        <trd>Halt</trd>
+      </trdgrp>
       <trd lng="nl">station</trd>
       <trd lng="pl">stacja</trd>
-      <trd lng="ro">sta&tcedil;ie</trd>
+      <trd lng="ro">sta&tcomma;ie</trd>
       <trdgrp lng="ru">
         <trd>&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>,
         <trd>&c_o;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_a;</trd>,
@@ -95,6 +100,10 @@
         <trd>vakantieoord</trd>,
         <trd>kuuroord</trd>
       </trdgrp>
+      <trdgrp lng="de">
+        <trd>Pausenstation</trd>,
+        <trd>Zwischenhalt</trd>
+      </trdgrp>
       <trd lng="pl">stacja</trd>
     </subsnc>
 -->
@@ -109,6 +118,12 @@
           <fnt><bib>Marta</bib></fnt>.
         </ekz>
       </dif>
+      <trdgrp lng="de">
+        <trd>Station</trd>,
+        <trd>Kreuzwegstation</trd>,
+        <trd>Fu&szlig;fallstation</trd>
+      </trdgrp>
+      <trd lng="pl">stacja drogi krzy&zdot;owej</trd>
     </subsnc>
   </snc>
   <snc mrk="staci.0o.TEK">
@@ -137,6 +152,9 @@
       <refgrp tip="vid">
         <ref cel="centra1.0o">centralo</ref>
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Kraftwerk</trd>
+      </trdgrp>
       <trd lng="nl">station</trd>
       <trd lng="ru">&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
     </subsnc>
@@ -159,12 +177,12 @@
         </ekz>
         <ekz>
           pluraj <tld/>oj, kiuj dissendas samhore per la sama frekvenco
-          <fnt>
-            <bib>Monato</bib>
-            <aut>Pejno Simono</aut>
-            <vrk><url ref="&Steloj;monato2/007219.html">Prefere
-            pakete</url></vrk>
-          </fnt>;
+         <fnt>
+          <aut>Pejno Simono</aut>:
+          <vrk><url ref="&Monato;/2001/007219.html">Prefere pakete</url></vrk>,
+          <bib>Monato</bib>,
+          <lok>2001/02, p. 13</lok>
+        </fnt>;
         </ekz>
         <ekz>
           televida <tld/>o
@@ -177,6 +195,11 @@
         </ekz>
       </dif>
     </subsnc>
+      <trdgrp lng="de">
+        <trd>Station</trd>,
+        <trd>Forschungsstation</trd>,
+        <trd>Sendestation</trd>
+      </trdgrp>
   </snc>
   <snc mrk="staci.0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -194,6 +217,12 @@
       <ref cel="faz.0o.KOMUNE">fazo <sncref/></ref>,
       <ref cel="sxtup.0o.FIG">&scirc;tupo <sncref/></ref>
     </refgrp>
+      <trdgrp lng="de">
+        <trd>Zwischenstation</trd>,
+        <trd>Zwischenschritt</trd>,
+        <trd>Etappe</trd>,
+        <trd>Stufe</trd>
+      </trdgrp>
     <trd lng="nl">statie</trd>
     <trd lng="pl">stacja</trd>
     <trd lng="ru">&c_o;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_a;</trd>
@@ -210,10 +239,6 @@
   <trd lng="cs">stanice</trd>
   <trd lng="cy">orsaf</trd>
   <trd lng="da">stationen</trd>
-  <trdgrp lng="de">
-    <trd>Station</trd>,
-    <trd>Haltestelle</trd>
-  </trdgrp>
   <trd lng="en">station</trd>
   <trd lng="es">estaci&oacute;n</trd>
   <trd lng="et">jaama</trd>
@@ -234,9 +259,10 @@
   <trd lng="ht">estasyon</trd>
   <trd lng="hu">&aacute;llom&aacute;s</trd>
   <trd lng="hy">&#1391;&#1377;&#1397;&#1377;&#1398;</trd>
+  <trd lng="id">stasiun</trd>
   <trd lng="ig">ebe</trd>
   <trd lng="is">st&ouml;ð</trd>
-  <trd lng="ja">&#39365;</trd>
+  <trd lng="ja">&#39365; <pr>&#12360;&#12365;</pr></trd>
   <trd lng="jv">stasiun</trd>
   <trd lng="ka">&#4321;&#4304;&#4307;&#4306;&#4323;&#4320;&#4312;</trd>
   <trd lng="kk">&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
@@ -315,6 +341,7 @@
   <trd lng="be">&c_v;&c_a;&c_d;&c_a;&c_n;&c_a;&c_p;&c_o;&c_r;&c_n;&c_a;&c_ja; &c_v;&c_je;&c_zh;&c_a;</trd>
   <trd lng="de">Zapfstelle</trd>
   <trd lng="fr">ch&acirc;teau d'eau</trd>
+  <trd lng="pl">wie&zdot;a ci&sacute;nie&nacute;</trd>
 </drv>
 
 <drv mrk="staci.akvopuriga_0o">
@@ -337,7 +364,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja; &c_v;&c_o;&c_d;&c_a;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_k;&c_ib;</trd>
   <trd lng="fr">station d'&eacute;puration</trd>
+  <trd lng="pl">stacja uzdatniania wody</trd>
 </drv>
 
 <drv mrk="staci.bus0o">
@@ -376,7 +405,7 @@
         <fnt>
           <aut>Universala Esperanto-Asocio</aut>
           <vrk>Elstaraj agadoj 2001</vrk>
-          <lok><url ref="http://www.uea.org/dokumentoj/komunikoj/gaz145.html">Gazetaraj
+          <lok><url ref="&UEA;dokumentoj/komunikoj/gaz145.html">Gazetaraj
           Komunikoj</url>, jaro 2002a, numero 145a</lok>
         </fnt>.
       </ekz>
@@ -391,6 +420,10 @@
   <trd lng="be">&c_a;&c_w;&c_t;&c_a;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>
   <trd lng="de">Bushaltestelle</trd>
   <trd lng="fr">gare routi&egrave;re</trd>
+  <trdgrp lng="id">
+    <trd>halte</trd>,
+    <trd><ind>halte</ind> bus</trd>
+  </trdgrp>
   <trd lng="pl">dworzec autobusowy</trd>
   <trd lng="pt">esta&ccedil;&atilde;o rodovi&aacute;ria</trd>
 </drv>
@@ -430,6 +463,8 @@
   <trd lng="cs">elektr&aacute;rna</trd>
   <trd lng="de">Kraftwerk</trd>
   <trd lng="fr">centrale &eacute;lectrique</trd>
+  <trd lng="id"><baz>bangkit</baz>pembangkit listrik</trd>
+  <trd lng="pl">elektrownia</trd>
   <trd lng="sk">elektr&aacute;re&ncaron;</trd>
 </drv>
 
@@ -441,9 +476,9 @@
       Iom granda, longe da&ubreve;ra konstrua&jcirc;o en la kosmo,
       eventuale lo&gcirc;ebla:
       <ekz>
-        anstata&ubreve; en metalaj kosmo<tld/>oj astrona&ubreve;toj povus orbiti la 
-        teron en balonoj la&ubreve; novaj planoj anoncitaj de usona 
-        kosmagentejo NASA 
+        anstata&ubreve; en metalaj kosmo<tld/>oj astrona&ubreve;toj povus orbiti la
+        teron en balonoj la&ubreve; novaj planoj anoncitaj de usona
+        kosmagentejo NASA
         <fnt>
           <aut>Arono kaj Karlina</aut>,
           <vrk><url ref="http://radioverda.com/programoj/2010/3/14/rv161-20100314.html">
@@ -466,6 +501,10 @@
   <trd lng="be">&c_k;&c_a;&c_s;&c_mol;&c_m;&c_ib;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</ind></trd>
   <trd lng="de">Raumstation</trd>
   <trd lng="fr">station spatiale</trd>
+  <trd lng="id"><ind>stasiun</ind> luar angkasa</trd>
+  <trd lng="ja">&#23431;&#23449;&#12473;&#12486;&#12540;&#12471;&#12519;&#12531;
+  <pr>&#12358;&#12385;&#12421;&#12358;&#12473;&#12486;&#12540;&#12471;&#12519;&#12531;</pr></trd>
+   <trd lng="pl">stacja kosmiczna</trd>
 </drv>
 
 <drv mrk="staci.metro0o">
@@ -506,7 +545,7 @@
         <lok><url ref="http://bertilow.com/blogo/index.php?p=38">BBBlogo
         </url></lok>
       </fnt>.
-    </ekz>      
+    </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja; &c_m;&c_e;&c_t;&c_r;&c_o;</trd>
@@ -516,6 +555,11 @@
     <trd>U-Bahnstation</trd>
   </trdgrp>
   <trd lng="fr">station de m&eacute;tro</trd>
+  <trdgrp lng="id">
+    <trd><ind>stasiun</ind> metro</trd>,
+    <trd><ind>stasiun</ind> kereta bawah tanah</trd>
+  </trdgrp>
+  <trd lng="ja">&#22320;&#19979;&#37444;&#39365;  <pr>&#12385;&#12363;&#12390;&#12388;&#12360;&#12365;</pr></trd>
   <trd lng="pl">stacja metra</trd>
   <trd lng="pt">esta&ccedil;&atilde;o de metr&ocirc;</trd>
   <trd lng="sk">stanica metra</trd>
@@ -541,6 +585,7 @@
   </snc>
   <trd lng="de">Poststation</trd>
   <trd lng="fr">relai de poste</trd>
+  <trd lng="pl">stacja pocztowa</trd>
 </drv>
 
 <drv mrk="staci.radi0o">
@@ -574,6 +619,13 @@
   </trdgrp>
   <trd lng="fr">station radiophonique</trd>
   <trd lng="hu">r&aacute;di&oacute;&aacute;llom&aacute;s</trd>
+  <trd lng="id"><ind>stasiun</ind> radio</trd>
+  <trd lng="ja">&#12521;&#12472;&#12458;&#25918;&#36865;&#23616;
+  <pr>&#12425;&#12376;&#12362;&#12411;&#12358;&#12381;&#12358;&#12365;&#12423;&#12367;</pr></trd>
+   <trdgrp lng="pl">
+     <trd>radiostacja</trd>,
+     <trd>rozg&lstroke;o&sacute;nia</trd>
+   </trdgrp>
 </drv>
 
 <drv mrk="staci.televid0o">
@@ -606,31 +658,67 @@
     <trd>Fernsehsender</trd>
   </trdgrp>
   <trd lng="fr">station de t&eacute;l&eacute;vision</trd>
+  <trd lng="id"><ind>stasiun</ind> televisi</trd>
+  <trd lng="ja">&#12486;&#12524;&#12499;&#25918;&#36865;&#23616;
+  <pr>&#12390;&#12428;&#12403;&#12411;&#12358;&#12381;&#12358;&#12365;&#12423;&#12367;</pr></trd>
+   <trd lng="pl">stacja telewizyjna</trd>
 </drv>
+
+<drv mrk="staci.veter0o">
+  <kap>
+    veter<tld/>o, <var><kap>meteorologia <tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o mezuranta diversajn parametrojn de la vetero:
+      <ekz>
+        <klr>[ili]</klr> instalis meteorologian <tld/>on &ccirc;e la norda poluso
+        <fnt>
+          <bib>KrB</bib>
+          <lok>La alaska stafeto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kanada veter<tld/>o &ccirc;e <nom>Alert</nom>, 842 kilometrojn de la Norda Poluso, registris
+        temperaturon de 21&deg;&#8239;C
+        <fnt>
+          <aut>Baccaro-Sandrine &amp; Philippe Descamps  </aut>
+          <vrk><url ref="https://eo.mondediplo.com/2020/04/article2827.html"
+              >Geopolitiko de la glacirompilo</url></vrk>
+          <lok>Le Monde diplomatique en Esperanto, apr 2020</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Wetterstation</trd>
+  <trd lng="en">waether station</trd>
+  <trd lng="fr">station m&eacute;t&eacute;orologique</trd>
+</drv>
+
 </art>
 <!--
 $Log$
-versio 1.110 2022/08/19 20:30:57
-Jeromo Vasxe: + akvopuriga ~o, kor. kk internaj ref
+versio 1.120 2024/01/24 09:22:52
+Wolfram Diestel: +veter~o
 
-versio 1.109 2022/05/05 14:43:48
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.119 2024/01/05 01:35:40
+Eko Nur Syah Hidayat: +trd id
 
-versio 1.107 2022/02/09 08:34:10
-Dmitri Gabinski: + trd be
+versio 1.118 2023/10/21 07:46:48
+revo: transskribo per <pr>
 
-Revision 1.30  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.117 2023/10/08 22:25:03
+Vito Redsky: +trd pl
 
-Revision 1.29  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.115 2023/08/29 12:44:22
+Wolfram Diestel: ja: +prononco
 
-Revision 1.28  2012/06/18 09:10:07  revo
-Jeromo Vasxe: + posxt~o
+versio 1.114 2023/05/18 20:26:43
+Ulrich Fellmann: stacio: +15 DE trdj
 
-Revision 1.27  2011/02/18 16:10:17  revo
-Jeromo Vasxe: + 1 fak rad
+versio 1.113 2023/05/06 14:26:05
+revo: aktualigo URL-unuoj
 
-Revision 1.26  2010/06/15 16:30:57  revo
+versio 1.112 2023/04/26 08:31:44
 -->
 </vortaro>

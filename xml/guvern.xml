@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: guvern.xml,v 1.26 2022/08/22 08:39:34 revo Exp $">
+<art mrk="$Id: guvern.xml,v 1.31 2023/12/18 07:25:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>guvern</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>guvern</rad>/i <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="guvern.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -13,7 +13,7 @@
     <uzo tip="fak">PED</uzo>
     <dif>
       <ref tip="super" cel="direkt.0i.ies_konduton">Direkti</ref> kaj prizorgi la edukadon de
-      infano, 
+      infano,
       ordinare kunvivante kun &gcirc;i:
       <ekz>
         <klr>[ili]</klr> <tld/>as per korespondado: la profesoroj plenumas siajn devojn
@@ -73,7 +73,7 @@
   <snc mrk="guvern.0i.direkti">
     <uzo tip="stl">ARK</uzo>
     <dif>
-      <ref tip="super" cel="direkt.0i.ies_konduton">Direkti</ref> 
+      <ref tip="super" cel="direkt.0i.ies_konduton">Direkti</ref>
       <sncref ref="direkt.0i.ies_konduton"/> a&ubreve; <sncref ref="direkt.0i.funkciadon_de_io"/>:
       <ekz>
         regi oni povas super la lando, <tld/>i oni povas ian provincon
@@ -98,6 +98,10 @@
       <trd><ofc>*</ofc>rule</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x990A;&#x80B2;&#12377;&#x308B;  <pr>&#12424;&#12358;&#12356;&#x304F;&#12377;&#x308B;</pr></trd>,
+    <trd>&#12375;&#12388;&#12369;&#x308B;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="guvern.0anto">
@@ -130,6 +134,12 @@
     <trd>Tutor</trd>,
     <trd>Aufpasser</trd>
   </trdgrp>
+<trdgrp lng="en">
+  <trd>tutor</trd>,
+  <trd>governess</trd>
+</trdgrp>
+  <trd lng="zh">&#25945;&#x80B2;&#x5DE5;&#x4F5C;&#32773;
+  <pr>ji&#xE0;oy&#xF9;g&#x14D;ngzu&#xF2;zh&#x11B;</pr></trd>
 </drv>
 
 <drv mrk="guvern.0antino">
@@ -163,8 +173,12 @@
       <trd>Aufpasserin</trd>
     </trdgrp>
   </snc>
+<trd lng="en">governess</trd>
+  <trdgrp lng="zh">
+    <trd>&#x59E5; <pr>m&#x1D4;</pr></trd>,
+    <trd>&#x59C6; <pr>m&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="guvern.0isto">
   <kap><tld/>isto</kap>
@@ -244,6 +258,10 @@
     <trd>nevel&odblac;(n&odblac;)<klr tip="ind"> (h&aacute;zitan&iacute;t&oacute;)</klr></trd>,
     <trd>h&aacute;zitan&iacute;t&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5BB6;&#x5EAD;&#25945;&#x5E2B;  <pr>&#x304B;&#12390;&#12356;&#x304D;&#12423;&#12358;&#12375;</pr></trd>,
+    <trd>&#x990A;&#x80B2;&#x4FC2;  <pr>&#12424;&#12358;&#12356;&#x304F;&#x304B;&#x304B;&#x308A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">gouvernante</trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_u;&c_v;&c_je;&c_r;&c_n;&c_jo;&c_r;</trd>,
@@ -251,6 +269,11 @@
   </trdgrp>
   <trd lng="sk">vychov&aacute;vate&lcaron;ka</trd>
   <trd lng="uk">&c_gu;&c_u;&c_v;&c_je;&c_r;&c_n;&c_je;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8A13;&#x7DF4;&#x54E1; <pr>x&#xF9;nli&#xE0;nyu&#xE1;n</pr></trd>,
+    <trd>&#x5BB6;&#x5EAD;&#25945;&#x5E08; <pr>ji&amacron;t&#xED;ngji&#xE0;osh&#x12B;</pr></trd>,
+    <trd>&#x5BB6;&#25945; <pr>ji&amacron;ji&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="guvern.0istino">
@@ -301,10 +324,23 @@
   <trd lng="ru">&c_g;&c_u;&c_v;&c_je;&c_r;&c_n;&c_a;&c_n;&c_t;&c_k;&c_a;</trd>
   <trd lng="sk">vychov&aacute;vate&lcaron;ka</trd>
   <trd lng="uk">&c_gu;&c_u;&c_v;&c_je;&c_r;&c_n;&c_a;&c_n;&c_t;&c_k;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x59E5; <pr>m&#x1D4;</pr></trd>,
+    <trd>&#x59C6; <pr>m&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2023/12/18 07:25:22
+Wolfram Diestel: UV
+
+versio 1.29 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.27 2023/07/01 16:32:17
+Christian Siefkes: +trd en
+
 versio 1.26 2022/08/22 08:39:34
 Dmitri Gabinski: + trd be
 
@@ -318,14 +354,5 @@ versio 1.23 2022/06/19 18:31:42
 Wolfram Diestel: +snc ARK kun ekz
 
 versio 1.22 2022/04/30 08:42:41
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.20 2020/02/27 11:10:19
-Robin van der Vliet: ~istino
-
-Revision 1.19  2017/11/14 07:10:13  revo
-Andrew Sly: + ekz
-
-Revision 1.18  2015/07/04 08:37:35  revo
 -->
 </vortaro>

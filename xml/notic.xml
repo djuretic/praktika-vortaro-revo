@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: notic.xml,v 1.11 2022/05/01 16:20:54 revo Exp $">
+<art mrk="$Id: notic.xml,v 1.17 2024/01/29 15:59:31 revo Exp $">
 <kap>
   <rad>notic</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,7 +11,7 @@
     <uzo tip="fak">TIP</uzo>
     <dif>
       Mallonga publika informteksto ofte farita la&ubreve; &scirc;ablono;
-      plej konciza &ccirc;irka&ubreve; deklinia <ref tip="super" cel="artiko.0o.gazeta">artikolo</ref> 
+      plej konciza &ccirc;irka&ubreve; deklinia <ref tip="super" cel="artiko.0o.gazeta">artikolo</ref>
       el du, tri frazoj:
       <ekz>
         mi ne povis kompreni la sencon de gazet<tld/>o
@@ -22,34 +22,34 @@
       <ekz>
         deklinia <tld/>o
         <fnt>
-          <bib>Monato</bib>
-          <aut>S. Maul</aut>
-          <lok><url
-          ref="&Steloj;monato2/007176.html">&Steloj;monato2/007176.html</url></lok>
-        </fnt>;
+          <aut>Stefan Maul</aut>
+            <vrk><url ref="&Monato;/2000/007176.php">Estimataj gelegantoj,</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 3</lok>
+          </fnt>;
       </ekz>
       <ekz>
         aperis en la revuo Esperanto <tld/>o pri refera&jcirc;o, kiun mi, matematikisto,
         prezentis en Bratislavo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
+          <aut>Garbhan MacAoidh</aut>
           <vrk><url ref="&Monato;/2003/007921.html">Ho, mistera pi!</url></vrk>
-          <lok>2003</lok>
+          <bib>Monato</bib>
+          <lok>2003/06, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
         <tld lit="N"/>oj el la kelo estas la plej filozofia verko en tiu &ccirc;i volumo
         <fnt>
-          <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
           <vrk><url ref="&Monato;/2004/008219.html">Penetrante en la profundon de la
           homanimo</url></vrk>
-          <lok>2004</lok>
+          <bib>Monato</bib>
+          <lok>2004/06, p. 25</lok>
         </fnt>;
-      </ekz>      
+      </ekz>
       <ekz>
-        la retejo &Gcirc;angalo proponas senpage la legadon de <tld/>oj 
+        la retejo &Gcirc;angalo proponas senpage la legadon de <tld/>oj
         <klr>...</klr> per po&scirc;telefono
         <fnt>
           <aut>L. Domm&eacute;e</aut>,
@@ -58,7 +58,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Vikipedio ne estas la &gcirc;usta loko por listigi <klr>...</klr> 
+        Vikipedio ne estas la &gcirc;usta loko por listigi <klr>...</klr>
         biografiajn <tld/>ojn
         <fnt>
           <aut>V. Markov</aut>
@@ -70,11 +70,11 @@
     </dif>
     <refgrp tip="super">
       <ref cel="komuni1.0o">komuniko</ref>,
-      <ref cel="sci.0igo">sciigo</ref>      
+      <ref cel="sci.0igo">sciigo</ref>
     </refgrp>
     <refgrp tip="vid">
       <ref cel="aviz.0o">avizo</ref>,
-      <ref cel="koment.0o">komento</ref>,
+      <ref cel="koment1.0o">komento</ref>,
       <ref cel="not.pri0o">prinoto</ref>
     </refgrp>
   </snc>
@@ -104,6 +104,10 @@
     <trd>notice</trd>
   </trdgrp>
   <trd lng="it">notizia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7565;&#x8FF0;  <pr>&#x308A;&#x3083;&#x304F;&#x3058;&#x3085;&#x3064;</pr></trd>,
+    <trd>&#x77ED;&#x8A55;  <pr>&#x305F;&#x3093;&#x3074;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>notatka</trd>,
     <trd>zapisek</trd>
@@ -119,11 +123,32 @@
     <trd>&#x43D;&#x43E;&c_t;&c_a;&c_t;&#x43A;&c_a;</trd>,
     <trd>&c_z;&c_a;&#x43F;&c_i;&c_s;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x77ED;&#x4FE1;&#x606F; <pr>du&#x1CE;nx&#xEC;nx&#x12B;</pr></trd>,
+    <trd>&#x901A;&#x77E5;&#x5355; <pr>t&#x14D;ngzh&#x12B;d&#x101;n</pr></trd>,
+    <trd>&#x901A;&#x77E5;&#x55AE; <pr>t&#x14D;ngzh&#x12B;d&#x101;n</pr></trd>,
+    <trd>&#x77E5;&#x4F1A; <pr>zh&#x12B;hu&#xEC;</pr></trd>,
+    <trd>&#x77E5;&#x6703; <pr>zh&#x12B;hu&#xEC;</pr></trd>,
+    <trd>&#x4E00;&#x53E5;&#x8A71;&#x65B0;&#x805E; <pr>y&#x12B;j&#xF9;hu&#xE0;x&#x12B;nw&#xE9;n</pr></trd>,
+    <trd>&#x4E00;&#x53E5;&#x8BDD;&#x65B0;&#x95FB; <pr>y&#x12B;j&#xF9;hu&#xE0;x&#x12B;nw&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.16 2023/12/21 06:31:49
+Wolfram Diestel: kor. ref
+
+versio 1.15 2023/10/20 05:22:00
+revo: transskribo per <pr>
+
+versio 1.13 2023/05/09 13:24:20
+Paul Peeraerts: + lok
+
+versio 1.12 2023/05/01 06:31:57
+Paul Peeraerts: Steloj -> monato
+
 versio 1.11 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -134,17 +159,5 @@ versio 1.8 2021/07/01 06:41:12
 Wolfram Diestel: +ekz, precizigo dif
 
 versio 1.7 2021/06/30 12:47:40
-Wolfram Diestel: +ekz, ref-oj, trd de
-
-versio 1.6 2021/04/16 20:51:29
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.4  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.3  2014/09/19 12:10:09  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.2  2012/01/02 11:10:24  revo
 -->
 </vortaro>

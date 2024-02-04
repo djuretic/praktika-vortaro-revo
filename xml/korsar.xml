@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: korsar.xml,v 1.18 2020/10/11 08:33:58 revo Exp $">
+<art mrk="$Id: korsar.xml,v 1.21 2023/10/18 17:23:25 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>korsar</rad>/o <fnt><bib>FK</bib></fnt>
@@ -18,6 +17,15 @@
         kun sia kutima kura&gcirc;o li kondukas siajn &scirc;ipojn kontra&ubreve; la sova&gcirc;aj <tld/>oj
         <fnt>
           <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        niaj soldatoj sin defendas kiel la soldatoj de l' papo: ili &ccirc;iuj surgenui&gcirc;is,
+        for&jcirc;etante siajn armilojn kaj petante al la <tld/>o absolvon <klr>[&#x2026;]</klr>
+        en la horo de la morto
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XI</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -31,7 +39,7 @@
         <trd>Kaperschiffkapit&auml;n</trd>,
         <trd>Kapit&auml;n eines Korsarschiffs</trd>
       </trdgrp>
-      <trd lng="hu">kal&oacute;zkapit&aacute;ny</trd>    
+      <trd lng="hu">kal&oacute;zkapit&aacute;ny</trd>
       <trd lng="nl">kaperkapitein</trd>
       <trd lng="pt">cors&aacute;rio</trd>
     </subsnc>
@@ -43,7 +51,7 @@
         <trd>Freibeuter</trd>,
         <trd>Korsar</trd>
       </trdgrp>
-      <trd lng="hu">kal&oacute;z</trd>    
+      <trd lng="hu">kal&oacute;z</trd>
       <trdgrp lng="nl">
         <trd>kaper</trd>,
         <trd>piraat</trd>,
@@ -52,8 +60,9 @@
     </subsnc>
     -->
     <refgrp tip="sin">
-      <ref cel="kaper.0isto.MAR">kaperisto</ref>,
+      <ref cel="kaper.0isto.MAR">kaperisto</ref>
     </refgrp>
+    <ref tip="sub" cel="flibustr.0o">flibustro</ref>
     <refgrp tip="vid">
       <ref cel="pirat.0o.MAR">pirato</ref>
     </refgrp>
@@ -61,7 +70,7 @@
       <trd>Freibeuter</trd>,
       <trd>Korsar</trd>
     </trdgrp>
-    <trd lng="hu">kal&oacute;z</trd>    
+    <trd lng="hu">kal&oacute;z</trd>
     <trdgrp lng="nl">
       <trd>kaper</trd>,
       <trd>piraat</trd>,
@@ -72,7 +81,7 @@
   <snc mrk="korsar.0o.MAR_sxipo">
     <uzo tip="fak">MAR</uzo>
     <dif>
-      <tld lit="K"/>&scirc;ipo:
+      <tld lit="K"/><ref tip="super" cel="sxip.0o">&scirc;ipo</ref>:
       <ekz>
         apena&ubreve; ni estis du tagojn sur la maro, forte armita <tld/>o
         komencis &ccirc;asi nin
@@ -85,7 +94,7 @@
       <trd>Kaperschiff</trd>,
       <trd>Korsarschiff</trd>
     </trdgrp>
-    <trd lng="hu">kal&oacute;zhaj&oacute;</trd>    
+    <trd lng="hu">kal&oacute;zhaj&oacute;</trd>
     <trdgrp lng="nl">
       <trd>kaperschip</trd>,
       <trd>kaapvaarder</trd>
@@ -105,6 +114,10 @@
     <trd>privateer</trd>
   </trdgrp>
   <trd lng="fr">corsaire</trd>
+  <trdgrp lng="ja">
+    <trd>&#x79C1;&#x63A0;&#x8239;&#x8239;&#x9577;  <pr>&#x3057;&#x308A;&#x3083;&#x304F;&#x305B;&#x3093;&#x305B;&#x3093;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x79C1;&#x63A0;&#x8239;&#x4E57;&#x7D44;&#x54E1;  <pr>&#x3057;&#x308A;&#x3083;&#x304F;&#x305B;&#x3093;&#x306E;&#x308A;&#x304F;&#x307F;&#x3044;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>statek <ind>korsarski</ind></trd>,
     <trd>statek <ind>piracki</ind></trd>
@@ -121,6 +134,12 @@
 </art>
 <!--
 $Log$
+versio 1.21 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.19 2023/08/25 21:20:18
+Wolfram Diestel: +ref, ekz
+
 versio 1.18 2020/10/11 08:33:58
 Wolfram Diestel: +fnt, +ekz, forkomentis subsnc
 
@@ -137,11 +156,5 @@ Revision 1.13  2010/08/05 16:30:18  revo
 Jeromo Vasxe: + rearangx. snc + fak mar + trd fr
 
 Revision 1.12  2009/08/23 16:32:04  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.11  2006/11/14 17:30:32  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2004/04/28 16:31:37  revo
 -->
 </vortaro>

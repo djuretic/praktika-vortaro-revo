@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: musked.xml,v 1.13 2020/11/26 23:10:50 revo Exp $">
+<art mrk="$Id: musked.xml,v 1.16 2024/01/26 19:05:54 revo Exp $">
 <kap>
   <rad>musked</rad>/o <fnt><bib>PV</bib></fnt>,
   <var><kap><rad var="t">musket</rad>/o <fnt><bib>PV</bib></fnt></kap></var>
@@ -37,6 +36,7 @@
   </trdgrp>
   <trd lng="hu">musk&eacute;ta</trd>
   <trd lng="it">moschetto</trd>
+  <trd lng="ja">&#x30DE;&#x30B9;&#x30B1;&#x30C3;&#x30C8;&#x9283;  <pr>&#x30DE;&#x30B9;&#x30B1;&#x30C3;&#x30C8;&#x3058;&#x3085;&#x3046;</pr></trd>
   <trd lng="nl">musket</trd>
   <trdgrp lng="pl">
     <trd>muszkiet</trd>,
@@ -92,8 +92,7 @@
       <fnt>
         <aut>C. Perrault, trad. P. Sarpy</aut>,
         <vrk>La Blua-Barbo</vrk>, 
-        <lok><url
-        ref="http://eo.wikibooks.org/wiki/Rakontoj_pri_Feinoj">
+        <lok><url ref="http://eo.wikibooks.org/wiki/Rakontoj_pri_Feinoj">
         Rakontoj pri feinoj</url>, Hachette, 1904</lok>
       </fnt>. 
     </ekz>
@@ -108,6 +107,10 @@
   <trd lng="fr">mousquetaire</trd>
   <trd lng="hu">musk&eacute;t&aacute;s</trd>
   <trd lng="it">moschettiere</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30DE;&#x30B9;&#x30B1;&#x30C3;&#x30C8;&#x9283;&#x5175;  <pr>&#x30DE;&#x30B9;&#x30B1;&#x30C3;&#x30C8;&#x3058;&#x3085;&#x3046;&#x3078;&#x3044;</pr></trd>,
+    <trd>&#x9283;&#x58EB;  <pr>&#x3058;&#x3085;&#x3046;&#x3057;</pr></trd>
+  </trdgrp>
   <trd lng="nl">musketier</trd>
   <trd lng="pl">muszkieter</trd>
   <trd lng="ro">muschetar</trd>
@@ -115,10 +118,19 @@
   <trd lng="uk">&c_m;&c_u;&c_sh;&c_k;&c_je;&c_t;&c_je;&c_r;</trd>
   <trd lng="sk">mu&scaron;ketier</trd>
   <trd lng="cs">mu&scaron;ket&yacute;r</trd>
+  <trdgrp lng="zh">
+    <trd>&#x706B;&#x67AA;&#x624B; <pr>hu&#x1D2;qi&#x101;ngsh&#x1D2;u</pr></trd>,
+    <trd>&#x706B;&#x69CD;&#x624B; <pr>hu&#x1D2;qi&#x101;ngsh&#x1D2;u</pr></trd>,
+    <trd>&#x6301;&#x6B65;&#x67AA;&#x7684;&#x58EB;&#x5175; <pr>ch&#xED;b&#xF9;qi&#x101;ngd&#xEC;sh&#xEC;b&#x12B;ng</pr></trd>,
+    <trd>&#x6301;&#x6B65;&#x69CD;&#x7684;&#x58EB;&#x5175; <pr>ch&#xED;b&#xF9;qi&#x101;ngd&#xEC;sh&#xEC;b&#x12B;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.15 2023/10/19 18:36:53
+revo: transskribo per <pr>
+
 versio 1.13 2020/11/26 23:10:50
 Vito Redsky: +trd pl +trd ro
 
@@ -138,8 +150,5 @@ Revision 1.7  2010/06/20 16:30:28  revo
 Antonio Codazzi: +trd it
 
 Revision 1.6  2009/02/19 20:27:08  revo
-Russ Williams: +trd en
-
-Revision 1.5  2007/02/09 17:30:21  revo
 -->
 </vortaro>

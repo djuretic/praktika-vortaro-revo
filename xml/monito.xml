@@ -1,15 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: monito.xml,v 1.18 2022/07/01 21:25:40 revo Exp $">
+<art mrk="$Id: monito.xml,v 1.23 2024/01/26 19:05:53 revo Exp $">
 <kap>
-  <rad>monitor</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>monitor</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="monito.0o">
   <kap><tld/>o</kap>
   <snc mrk="monito.0o.PED">
-    <fnt><aut>P. Christaller</aut>, <vrk>Deutsch-Esperanto
-    W&ouml;rterbuch</vrk>, <lok>1910</lok></fnt>
+    <fnt><bib>JED</bib></fnt>
     <uzo tip="fak">PED</uzo>
     <dif>
       Lernanto servanta kiel helpa instruanto:
@@ -24,12 +23,16 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="repetitor.0o">repetitoro</ref>
+    <trd lng="be">&c_p;&c_a;&c_m;&c_o;&c_ch;&c_n;&c_ib;&c_k; &c_n;&c_a;&c_s;&c_t;&c_a;&c_w;&c_n;&c_ib;&c_k;&c_a;</trd>
+    <trd lng="en">student who assists a teacher</trd>
     <trd lng="hu">felvigy&aacute;z&oacute; <klr tip="amb">(di&aacute;k)</klr></trd>
     <trd lng="fr">moniteur<klr> (formateur)</klr></trd>
     <trd lng="nl">monitor<klr tip="ind"> (onderwijzer)</klr></trd>
     <trd lng="pt">monitor <klr>(estudante)</klr></trd>
   </snc>
   <snc mrk="monito.0o.KOMP">
+    <fnt><bib>KompLeks</bib></fnt>
     <uzo tip="fak">KOMP</uzo>
     <uzo tip="fak">TEK</uzo>
     <dif>
@@ -41,7 +44,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Yazaki Yoko</aut>
-          <vrk><url ref="&Monato;/2015/011442.php">Fuku&scirc;ima kvar jarojn post la granda tertremo</url></vrk>
+          <vrk><url ref="&Monato;/2015/011442.php">Fuku&scirc;ima kvar jarojn post la granda
+          tertremo</url></vrk>
           <lok>2015</lok>
         </fnt>;
       </ekz>
@@ -58,14 +62,22 @@
     </dif>
     <ref tip="sub" cel="ekran.0bloko.KOMP">ekranbloko</ref>
     <ref tip="vid" cel="protok.0o.KOMP_raporto">protokolo<sncref/></ref>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_n;&c_ib;&c_t;&c_o;&c_r;</trd>,
+      <trd>&c_d;&c_y;&c_s;&c_p;&c_l;&c_je;&c_j;</trd>,
+      <trd>&c_e;&c_k;&c_r;&c_a;&c_n;</trd>
+    </trdgrp>
+    <trd lng="en">monitor</trd>
     <trd lng="pl">monitor</trd>
   </snc>
   <snc mrk="monito.0o.MAR">
-    <fnt>B</fnt>
+    <fnt><bib>PVEF</bib></fnt>
     <uzo tip="fak">MAR</uzo>
     <dif>
-      Malnova speco de forte kirasita batal&scirc;ipo.  
-    </dif>    
+      Malnova speco de forte kirasita batal&scirc;ipo.
+    </dif>
+    <trd lng="be">&c_m;&c_a;&c_n;&c_ib;&c_t;&c_o;&c_r; <klr>(&c_k;&c_a;&c_r;&c_a;&c_b;&c_je;&c_l;&c_mol;)</klr></trd>
+    <trd lng="en">monitor (warship)</trd>
     <trd lng="fr">moniteur<klr> (vaisseau)</klr></trd>
     <trd lng="hu">monitor<klr tip="ind"> (haj&oacute;)</klr></trd>
     <trd lng="nl">monitor<klr tip="ind"> (vaartuig)</klr></trd>
@@ -73,17 +85,20 @@
     <trd lng="pt">monitor<klr>(navio)</klr></trd>
   </snc>
   <snc mrk="monito.0o.ZOO">
+    <fnt><bib>PVEF</bib></fnt>
     <uzo tip="stl">ARK</uzo>
     <uzo tip="fak">ZOO</uzo>
     <dif>
       <ref tip="dif" cel="varan.0o.ZOO">Varano</ref>:
       <ekz>
         jen, kio estas malpura por vi inter la rampa&jcirc;oj:
-        <klr>[&#8230;]</klr> la talpo kaj la muso kaj la lacerto
+        <klr>[&#x2026;]</klr> la talpo kaj la muso kaj la lacerto
         kun &gcirc;ia speco kaj la geko kaj la <tld/>o
         <fnt><bib>MT</bib>, <lok>&Lev;, 11:29-30</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_v;&c_a;&c_r;&c_a;&c_n;</trd>
+    <trd lng="en">monitor lizard</trd>
     <trd lng="fr">l&eacute;zard moniteur<klr> (varan)</klr></trd>
     <trd lng="hu">n&iacute;lusi <ind>var&aacute;nusz</ind></trd>
     <trd lng="nl">nijlvaraan</trd>
@@ -110,6 +125,12 @@
     <trd>&c_p;&c_o;&c_m;&c_ib;&c_ch;&c_n;&c_i;&c_k; &c_u;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_ja;</trd>,
     <trd>&c_u;&c_ch;&c_je;&c_n;&c_mol;-&c_r;&c_je;&c_p;&c_je;&c_t;&c_i;&c_t;&c_o;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76D1;&#x89C6;&#x5668; <pr>ji&#x101;nsh&#xEC;q&#xEC;</pr></trd>,
+    <trd>&#x76E3;&#x8996;&#x5668; <pr>ji&#x101;nsh&#xEC;q&#xEC;</pr></trd>,
+    <trd>&#x663E;&#x793A;&#x5668; <pr>xi&#x1CE;nsh&#xEC;q&#xEC;</pr></trd>,
+    <trd>&#x986F;&#x793A;&#x5668; <pr>xi&#x1CE;nsh&#xEC;q&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="monito.0i">
@@ -121,7 +142,7 @@
       Kontinue <ref tip="super" cel="kontro.0i.konformecon">kontroli</ref>
       per tiucela rimedo:
       <ekz>
-        &ccirc;iuj itineroj estos strikte <tld/>ataj <klr>[&#8230;]</klr> kaj voja&gcirc;o tra la tuta
+        &ccirc;iuj itineroj estos strikte <tld/>ataj <klr>[&#x2026;]</klr> kaj voja&gcirc;o tra la tuta
         lando estas ver&scirc;ajne nepermesebla
         <fnt>
           <bib>Monato</bib>
@@ -154,16 +175,37 @@
        <ref cel="rigard.super0i.FIG">superrigardi<sncref/></ref>,
        <ref cel="inspek.0i">inspekti</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_n;&c_ib;&c_t;&c_o;&c_r;&c_y;&c_c;&c_mol;</trd>,
+      <trd>&c_k;&c_a;&c_n;&c_t;&c_r;&c_a;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="de">
     <trd>monitoren</trd>,
     <trd>&uuml;berwachen</trd>
+  </trdgrp>
+<trd lng="en">monitor</trd>
+  <trd lng="ja">&#x30E2;&#x30CB;&#x30BF;&#x30EA;&#x30F3;&#x30B0;&#x3059;&#x308B;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x76D1;&#x6D4B; <pr>ji&#x101;nc&#xE8;</pr></trd>,
+    <trd>&#x76E3;&#x6E2C; <pr>ji&#x101;nc&#xE8;</pr></trd>,
+    <trd>&#x76D1;&#x63A7; <pr>ji&#x101;nk&#xF2;ng</pr></trd>,
+    <trd>&#x76E3;&#x63A7; <pr>ji&#x101;nk&#xF2;ng</pr></trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.22 2023/12/18 07:23:22
+Wolfram Diestel: +fnt JED, PVEF
+
+versio 1.20 2023/08/21 01:20:20
+David Dichelle: +trd en
+
+versio 1.19 2023/07/05 07:28:39
+Dmitri Gabinski: + trd be
+
 versio 1.18 2022/07/01 21:25:40
 Jeromo Vasxe: reordig. snc
 
@@ -177,14 +219,5 @@ Revision 1.13  2015/07/04 08:37:39  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.12  2015/06/29 16:33:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.11  2011/06/29 05:10:16  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.10  2011/06/07 10:10:10  revo
-Jeromo Vasxe: ref dif varano
-
-Revision 1.9  2011/06/07 08:10:08  revo
 -->
 </vortaro>

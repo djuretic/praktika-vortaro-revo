@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kredit1.xml,v 1.17 2022/03/22 15:44:13 revo Exp $">
+<art mrk="$Id: kredit1.xml,v 1.21 2023/12/03 09:59:00 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>kreditor</rad>/o <fnt>Z</fnt>
@@ -13,13 +13,52 @@
     <dif>
       Tiu, al kiu oni &scirc;uldas sumon:
       <ekz>
+        kiam <klr>[&#x2026;]</klr> la <tld/>oj komencos vin
+        viziti je preteksto honori vin, vi
+        estos kiel cervo, persekutata de hundoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Parencoj de l&#x2019; patrina flank&#x2019; heredis parte, &parsl;
+        Kreditoroj la reston dividis
+        aparte
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro I.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kulpas anka&ubreve; la <tld/>oj, kiuj pruntedonis monon,
+        sciante pri &gcirc;ia onta misuzo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Schad</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007311.html">Putrantaj demokratioj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &Ccirc;inio <klr>[&#x2026;]</klr> kiel plej granda <tld/>o
+        de Usono <klr>[&#x2026;]</klr> posedas
+        usonajn &scirc;uldatestojn en valoro de 1,7 miliardoj da dolaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2008/009572.php">Perdata influo</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         ne helpas plendo nek ploro kontra&ubreve; <tld/>o
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
+    <refgrp tip="ant">
       <ref cel="debito.0o">debitoro</ref>
     </refgrp>
+    <ref tip="vid" cel="kredit.0o.mono">kredito</ref>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_e;&c_d;&c_y;&c_t;&c_o;&c_r;</trd>
   <trd lng="ca">creditor</trd>
@@ -40,6 +79,7 @@
   <trd lng="es">acreedor</trd>
   <trd lng="fr">cr&eacute;diteur</trd>
   <trd lng="hu">hitelez&odblac;</trd>
+  <trd lng="ja">&#x50B5;&#x6A29;&#x8005;  <pr>&#x3055;&#x3044;&#x3051;&#x3093;&#x3057;&#x3083;</pr></trd>
   <trdgrp lng="nl">
     <trd>schuldeiser</trd>,
     <trd>crediteur</trd>
@@ -49,11 +89,23 @@
   <trd lng="ro">creditor</trd>
   <trd lng="ru">&c_k;&c_r;&c_je;&c_d;&c_i;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">verite&lcaron;</trd>
-  <trd lng="uk">&#x43A;&#x440;&#x435;&#x434;&#x438;&#x442;&#x43E;&#x440;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_je;&c_d;&c_i;&c_t;&c_o;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x503A;&#x6743;&#x4EBA; <pr>zh&#xE0;iqu&#xE1;nr&#xE9;n</pr></trd>,
+    <trd>&#x50B5;&#x6B0A;&#x4EBA; <pr>zh&#xE0;iqu&#xE1;nr&#xE9;n</pr></trd>,
+    <trd>&#x503A;&#x4E3B; <pr>zh&#xE0;izh&#x1D4;</pr></trd>,
+    <trd>&#x50B5;&#x4E3B; <pr>zh&#xE0;izh&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.18 2023/06/22 16:29:16
+Wolfram Diestel: +ekz-oj, ref
+
 Revision 1.15  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -70,8 +122,5 @@ Revision 1.11  2006/05/28 16:32:03  revo
 Jeromo Vasxe: kor mrk, + trd fr
 
 Revision 1.10 2005/04/12 16:33:16 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9 2002/12/17 20:11:39 revo
 -->
 </vortaro>

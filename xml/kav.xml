@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kav.xml,v 1.40 2022/07/01 21:25:39 revo Exp $">
+<art mrk="$Id: kav.xml,v 1.48 2023/12/13 12:45:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kav</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kav</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="kav.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="kav.0o.KOMUNE">
     <dif>
-      Malplena&jcirc;o en solida materio a&ubreve; en organo:
+      <ref tip="super" cel="plen.mal0ajxo">Malplena&jcirc;o</ref> en solida materio a&ubreve; en organo:
       <ekz>
         <tld/>oj en tero, en arbo, en pano, en froma&gcirc;o;
       </ekz>
@@ -102,7 +102,9 @@
     <trd>&c_r;&c_o;&c_w;</trd>,
     <trd>&c_u;&c_p;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_a;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_a;</trd>,
-    <trd>&c_p;&c_je;&c_r;&c_a;&c_h;&c_l;&c_ja;&c_b;&c_ib;&c_n;&c_a;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_h;&c_l;&c_ja;&c_b;&c_ib;&c_n;&c_a;</trd>,
+    <trd>&c_p;&c_ja;&c_ch;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_n;&c_ib;&c_sh;&c_a;</trd>
   </trdgrp>
   <trd lng="cs">v&yacute;mol na cest&ecaron;</trd>
   <trdgrp lng="de">
@@ -111,6 +113,7 @@
     <trd>Hohlraum</trd>,
     <trd>Grube</trd>,
     <trd>Senke</trd>,
+    <trd>Mulde</trd>,
     <trd>Vertiefung</trd>
   </trdgrp>
   <trdgrp lng="en">
@@ -138,6 +141,15 @@
     <trd>&uuml;reg</trd>,
     <trd>g&ouml;d&ouml;r</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7A74;  <pr>&#12417;&#12393;</pr></trd>,
+    <trd>&#x7A7A;&#x6D1E;  <pr>&#x304F;&#12358;&#12393;&#12358;</pr></trd>,
+    <trd>&#x304F;&#x307C;&#x307F;</trd>,
+    <trd>&#12408;&#12371;&#x307F;</trd>,
+    <trd>&#33108;  <pr>&#12371;&#12358;</pr></trd>,
+    <trd>&#x7AA9; <pr>&#x304B;</pr></trd>,
+    <trd>&#x8C37;  <pr>&#x305F;&#x306B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>holte</trd>,
     <trd>kuil</trd>
@@ -162,7 +174,7 @@
     <trd>fund</trd>,
     <trd>groap&abreve;</trd>,
     <trd>pe&#537;tera</trd>,
-    <trd>&#537;an&#539;</trd>
+    <trd>&#537;an&#x21B;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_ja;&c_m;&c_a;</trd>,
@@ -180,6 +192,22 @@
     <trd>&c_d;&c_u;&c_p;&c_l;&c_o;</trd>,
     <trd>&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_ja;&c_m;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7ABF; <pr>l&#xF3;ng</pr></trd>,
+    <trd>&#22528; <pr>k&#x16B;</pr></trd>,
+    <trd>&#x5C47; <pr>ti&#xE1;n</pr></trd>,
+    <trd>&#x574E; <pr>k&#x1CE;n</pr></trd>,
+    <trd>&#x7A9F;&#x7ABF; <pr>k&#x16B;long</pr></trd>,
+    <trd>&#30800; <pr>d&#xF2;ng</pr></trd>,
+    <trd>&#x7A7A;&#x6D1E; <pr>k&#x14D;ngd&#xF2;ng</pr></trd>,
+    <trd>&#x51F9;&#x6D1E; <pr>&amacron;od&#xF2;ng</pr></trd>,
+    <trd>&#x7A9F; <pr>k&#x16B;</pr></trd>,
+    <trd>&#33108; <pr>qi&amacron;ng</pr></trd>,
+    <trd>&#x51FC; <pr>d&#xE0;ng</pr></trd>,
+    <trd>&#22344; <pr>k&emacron;ng</pr></trd>,
+    <trd>&#22387; <pr>&#xE0;o</pr></trd>,
+    <trd>&#x5CAB; <pr>xi&#xF9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -236,11 +264,12 @@
       <ekz>
         dum la pontokonstruado la ligna&jcirc;isto elfosis rondan <tld/>a&jcirc;on je la suda
         fosa&jcirc;limo
-        <fnt>
+       <fnt>
+          <aut>M&aacute;ire NicAoidh</aut>
+          <vrk><url ref="&Monato;/2000/006878.php">&Gcirc;ardenumi</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006878.html">Dommastrumo:
-          &Gcirc;ardenumi</url></vrk>
-        </fnt>.
+          <lok>2000/04, p. 20</lok>
+          </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -263,6 +292,11 @@
     <trd>odvas</trd>,
     <trd>k&aacute;ty&uacute;s</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4E2D;&#x7A7A;&#x306E;  <pr>&#12385;&#12421;&#12358;&#x304F;&#12358;&#x306E;</pr></trd>,
+    <trd>&#x7A7A;&#x6D1E;&#x306E;  <pr>&#x304F;&#12358;&#12393;&#12358;&#x306E;</pr></trd>,
+    <trd>&#x304F;&#x307C;&#12435;&#12384;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>hol</trd>,
     <trd>concaaf</trd>
@@ -271,7 +305,7 @@
     <trd>pusty</trd>,
     <trd>wkl&eogonek;s&lstroke;y</trd>,
     <trd>zag&lstroke;&eogonek;biony</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>vazio</trd>,
     <trd>oco</trd>,
@@ -291,6 +325,14 @@
     <trd>&c_d;&c_u;&c_p;&c_l;&c_i;&c_s;&c_t;&c_i;&c_j;</trd>,
     <trd>&c_v;&c_i;&c_b;&c_o;&c_ji;&c_s;&c_t;&c_i;&c_j;</trd>,
     <trd>&c_v;&c_p;&c_a;&c_l;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7A7A;&#x5FC3; <pr>k&#x14D;ngx&#x12B;n</pr></trd>,
+    <trd>&#x4E2D;&#x7A7A; <pr>zh&#x14D;ngk&#x14D;ng</pr></trd>,
+    <trd>&#x865A;&#x7A7A; <pr>x&#x16B;k&#x14D;ng</pr></trd>,
+    <trd>&#x7A7A;&#x6D1E; <pr>k&#x14D;ngd&#xF2;ng</pr></trd>,
+    <trd>&#x82A4; <pr>k&#x14D;u</pr></trd>,
+    <trd>&#x6D6E; <pr>f&#xFA;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -313,11 +355,16 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_je;&c_w;&c_r;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_d;&c_k;&c_r;&c_y;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_b;&c_y;&c_c;&c_mol; <ind>&c_r;&c_a;&c_s;&c_k;&c_r;&c_y;&c_t;&c_y;&c_m;</ind></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>b&yacute;t dut&yacute;</trd>,
     <trd>zet</trd>
   </trdgrp>
-  
+
   <trd lng="en">to be hollow</trd>
   <trd lng="es">estar cavado</trd>
   <trdgrp lng="fr">
@@ -330,11 +377,15 @@
     <trd>&uuml;reges</trd>,
     <trd>g&ouml;dr&ouml;s</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7A7A;&#x6D1E;&#12391;&#12354;&#x308B;  <pr>&#x304F;&#12358;&#12393;&#12358;&#12391;&#12354;&#x308B;</pr></trd>,
+    <trd>&#x304F;&#x307C;&#12435;&#12391;&#12356;&#x308B;</trd>
+  </trdgrp>
   <trd lng="nl"><ind>hol</ind> zijn</trd>
   <trdgrp lng="pl">
     <trd>kopa&cacute;</trd>,
     <trd>dr&aogonek;&zdot;y&cacute;</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="pt">ser <ind>cavado</ind></trd>
   <trdgrp lng="ro">
     <trd>s&abreve;pa</trd>,
@@ -391,6 +442,10 @@
     </dif>
     <trd lng="de">aush&ouml;hlen</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <ind>&c_p;&c_a;&c_r;&c_o;&c_zh;&c_n;&c_ib;&c_m;</ind></trd>,
+    <trd>&c_p;&c_a;&c_g;&c_l;&c_y;&c_b;&c_l;&c_ja;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>hloubit</trd>,
     <trd>prohloubit</trd>
@@ -402,6 +457,10 @@
     <trd>kiv&aacute;j</trd>,
     <trd>homor&iacute;t</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7A7A;&#x6D1E;&#x306B;&#12377;&#x308B;  <pr>&#x304F;&#12358;&#12393;&#12358;&#x306B;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x304F;&#x307C;&#x307E;&#x305B;&#x308B;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd><ind>hol</ind> maken</trd>,
     <trd>uithollen</trd>
@@ -410,7 +469,7 @@
     <trd>dr&aogonek;&zdot;y&cacute;</trd>,
     <trd>wydr&aogonek;&zdot;y&cacute;</trd>,
     <trd>wy&zdot;&lstroke;abia&cacute;</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="pt">cavar</trd>
   <trdgrp lng="ro">
     <trd>foraj</trd>,
@@ -422,6 +481,13 @@
     <trd>&c_u;&c_g;&c_l;&c_u;&c_b;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">vyh&lacute;bi&tcaron; <klr>(dutinu)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x638F;&#x7A7A; <pr>t&amacron;ok&#x14D;ng</pr></trd>,
+    <trd>&#25171;&#x6D1E; <pr>d&#x1CE;d&#xF2;ng</pr></trd>,
+    <trd>&#x7A7A;&#x5FC3; <pr>k&#x14D;ngx&#x12B;n</pr></trd>,
+    <trd>&#x51F9;&#38519; <pr>&amacron;oxi&#xE0;n</pr></trd>,
+    <trd>&#25366; <pr>w&amacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kav.en0a">
@@ -440,6 +506,7 @@
       <trd>tiefliegend</trd>
     </trdgrp>
   </snc>
+  <trd lng="be">&c_z;&c_a;&c_p;&c_a;&c_l;&c_y;</trd>
   <trdgrp lng="en">
     <trd>depressed</trd>,
     <trd>sunken</trd>
@@ -459,7 +526,7 @@
   <trdgrp lng="pl">
     <trd>zag&lstroke;&eogonek;biony</trd>,
     <trd>wkl&eogonek;s&lstroke;y</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>cavado</trd>,
     <trd>fundo <klr tip="amb">(olhos, bochechas)</klr></trd>
@@ -473,6 +540,10 @@
     <trd>&c_v;&c_p;&c_a;&c_l;&c_y;&c_j;</trd>,
     <trd>&c_g;&c_l;&c_u;&c_b;&c_o;&c_k;&c_o;
     &c_p;&c_o;&c_s;&c_a;&c_zh;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x51F9; <pr>&amacron;o</pr></trd>,
+    <trd>&#x6D3C; <pr>w&amacron;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -492,12 +563,17 @@
       <ekz>
         la homo kun en<tld/>i&gcirc;inta frunto ekteruris
         <fnt>
-          <vrk><url ref="https://www.rulit.me/books/sinjoro-vanek-en-parizo-en-esperanto-read-258436-38.html">Sinjoro
+          <vrk><url
+          ref="https://www.rulit.me/books/sinjoro-vanek-en-parizo-en-esperanto-read-258436-38.html">Sinjoro
           Vanek en Parizo...</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_g;&c_l;&c_y;&c_b;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>collapse</trd>,
     <trd>cave in</trd>
@@ -551,6 +627,11 @@
     <refgrp tip="vid">
       <ref cel="fos.0ajxo">fosa&jcirc;o</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_r;&c_o;&c_w;</trd>,
+      <trd>&c_t;&c_r;&c_a;&c_sh;&c_e;&c_ja;</trd>,
+      <trd>&c_k;&c_a;&c_p;&c_a;&c_n;&c_ib;&c_c;&c_a;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Graben</trd>,
       <trd>Grube</trd>
@@ -570,6 +651,10 @@
     <trd>foss&eacute;</trd>
   </trdgrp>
   <trd lng="hu">&aacute;sott <ind>g&ouml;d&ouml;r</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#22528;  <pr>&#x307B;&#x308A;</pr></trd>,
+    <trd>&#25496;&#21106;  <pr>&#x307B;&#x308A;&#x308F;&#x308A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>greppel</trd>,
     <trd>sloot</trd>
@@ -579,7 +664,7 @@
     <trd>fosso</trd>,
     <trd>fossa</trd>
   </trdgrp>
-  <trd lng="ro">&#537;an&#539;</trd>
+  <trd lng="ro">&#537;an&#x21B;</trd>
   <trd lng="ru">&c_r;&c_o;&c_v;</trd>
   <trdgrp lng="sk">
     <trd>dren&aacute;&zcaron;na ryha</trd>,
@@ -588,6 +673,12 @@
   <trdgrp lng="uk">
     <trd>&c_r;&c_ib;&c_v;</trd>,
     <trd>&c_t;&c_r;&c_a;&c_n;&c_sh;&c_je;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#22545; <pr>qi&#xE0;n</pr></trd>,
+    <trd>&#x58D1;&#x6C9F; <pr>h&#xE8;g&#x14D;u</pr></trd>,
+    <trd>&#x58D5; <pr>h&#xE1;o</pr></trd>,
+    <trd>&#x51FC; <pr>d&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -624,6 +715,7 @@
     <trd>dombor&uacute;</trd>,
     <trd>konvex</trd>
   </trdgrp>
+  <trd lng="ja">&#x51F8;&#x578B;&#x306E;  <pr>&#12392;&#12388;&#x304B;&#x305F;&#x306E;</pr></trd>
   <trdgrp lng="nl">
     <trd>bol</trd>,
     <trd>convex</trd>
@@ -633,6 +725,7 @@
   <trd lng="ro">convex</trd>
   <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;&c_j;</trd>
   <trd lng="sk">vypukl&yacute;</trd>
+  <trd lng="zh">&#x51F8;&#x8D77; <pr>t&#x16B;q&#x1D0;</pr></trd>
 </drv>
 
 <drv mrk="kav.man0o">
@@ -671,6 +764,8 @@
   <trd lng="en">cupped palm</trd>
   <trd lng="fr">creux de la <ind>main</ind></trd>
   <trd lng="hu">marok</trd>
+  <trd lng="ja">&#x624B;&#x306E;&#12402;&#12425;&#x306E;&#x304F;&#x307C;&#x307F;
+  <pr>&#12390;&#x306E;&#12402;&#12425;&#x306E;&#x304F;&#x307C;&#x307F;</pr></trd>
   <trdgrp lng="nl">
     <trd>handpalm</trd>,
     <trd>palm<klr tip="ind"> (v.d.hand)</klr></trd>
@@ -714,7 +809,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;e la ekstera parieto de &ccirc;iu naz<tld/>o trovi&gcirc;as tri volvi&gcirc;intaj       
+        &ccirc;e la ekstera parieto de &ccirc;iu naz<tld/>o trovi&gcirc;as tri volvi&gcirc;intaj
         ostlamenoj <klr>[&#8230;]</klr> supra, meza kaj suba
         <fnt>
           <bib>Viki</bib>,
@@ -723,13 +818,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_p;&c_o;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol; &c_n;&c_o;&c_s;&c_a;</trd>
     <trd lng="de">Nasenh&ouml;hle</trd>
     <trd lng="en">nasal cavity</trd>
     <trdgrp lng="fr">
       <trd>cavit&eacute; nasale</trd>,
       <trd>fosse nasale</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x9F3B;&#33108; <pr>b&#xED;qi&amacron;ng</pr></trd>
+</snc>
   <snc mrk="kav.naz0o.KOMUNE">
     <uzo tip="stl">KOMUNE</uzo>
     <dif>
@@ -743,9 +840,14 @@
           <lok>1956</lok>
         </fnt>.
       </ekz>
-    </dif> 
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_n;&c_a;&c_z;&c_d;&c_r;&c_a;</trd>,
+      <trd>&c_n;&c_o;&c_z;&c_d;&c_r;&c_a;</trd>
+    </trdgrp>
     <trd lng="en">nostril</trd>
   </snc>
+  <trd lng="ja">&#x9F3B;&#33108;  <pr>&#12403;&#12371;&#12358;</pr></trd>
   <trd lng="pl">jama nosowa</trd>
   <trd lng="ro">cavitate nazal&abreve;</trd>
 </drv>
@@ -764,13 +866,14 @@
         ofer<tld/>oj en &ccirc;i tiu loko ekde 2020.
         <fnt>
           <aut>Lucia</aut>
-          <vrk><url ref="https://tubaro.aperu.net/v/ytb_1qaWxlQMHmI/"
-              >Novaj malkovroj &ccirc;e Sanxingdui</url></vrk>
+          <vrk><url ref="https://tubaro.aperu.net/v/ytb_1qaWxlQMHmI/">Novaj malkovroj &ccirc;e
+          Sanxingdui</url></vrk>
           <lok>2022-06-23</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_ja;&c_ch;&c_o;&c_r;&c_a; &c_d;&c_l;&c_ja; &c_a;&c_h;&c_v;&c_ja;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;&c_w;</trd>
   <trd lng="fr">fosse sacrificielle</trd>
 </drv>
 
@@ -807,6 +910,7 @@
   <trd lng="en">cavity of the <ind>eye</ind></trd>
   <trd lng="fr">orbite<klr tip="ind"> (de l'&oelig;il)</klr></trd>
   <trd lng="hu">szemg&ouml;d&ouml;r</trd>
+  <trd lng="ja">&#x773C;&#x7AA9;  <pr>&#x304C;&#12435;&#x304B;</pr></trd>
   <trd lng="nl">oogkas</trd>
   <trd lng="pl">jama oczna</trd>
   <trd lng="pt">&oacute;rbita <klr tip="amb">(ocular)</klr></trd>
@@ -823,6 +927,10 @@
     <trd>&c_o;&c_ch;&c_n;&c_a; &c_ja;&c_m;&c_k;&c_a;</trd>,
     <trd>&c_o;&c_ch;&c_n;&c_a; &c_z;&c_a;&c_p;&c_a;&c_d;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_o;&c_r;&c_b;&c_ib;&c_t;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x773C;&#30518; <pr>y&#x1CE;nku&#xE0;ng</pr></trd>,
+    <trd>&#30518; <pr>ku&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -861,6 +969,7 @@
   <trd lng="en">rut</trd>
   <trd lng="fr">orni&egrave;re</trd>
   <trd lng="hu">k&aacute;ty&uacute;</trd>
+  <trd lng="ja">&#x308F;&#12384;&#12385;</trd>
   <trd lng="nl">karrenspoor</trd>
   <trd lng="pl">koleina</trd>
   <trdgrp lng="pt">
@@ -869,31 +978,36 @@
   </trdgrp>
   <trd lng="ro">brazd&abreve;</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_je;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8F4D; <pr>ch&#xE8;</pr></trd>,
+    <trd>&#x8F4D; <pr>zh&#xE9;</pr></trd>,
+    <trd>&#x822A;&#36947; <pr>h&#xE1;ngd&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.48 2023/12/13 12:45:01
+Dmitri Gabinski: + trd be
+
+versio 1.46 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.45 2023/10/14 15:23:26
+Wolfram Diestel: UV, ref
+
+versio 1.44 2023/09/13 18:30:34
+Wolfram Diestel: pr. ja
+
+versio 1.42 2023/08/06 20:25:04
+Wolfram Diestel: +trd de
+
+versio 1.41 2023/04/15 10:28:49
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.40 2022/07/01 21:25:39
 Jeromo Vasxe: + ofer~o
 
 versio 1.39 2022/06/28 21:25:30
-Jeromo Vasxe: rado~o + var rad~ajxo
-
-versio 1.38 2022/05/01 08:09:24
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.33 2022/02/03 08:33:42
-Dmitri Gabinski: + trd be
-
-versio 1.32 2021/10/26 21:25:26
-Shep Moore-Berg: +trd en
-
-versio 1.31 2020/03/03 08:10:20
-Wolfram Diestel: ekz-oj
-
-Revision 1.30  2020/02/03 08:10:19  revo
-Wolfram Diestel: ~o, ~a: ekz-oj
-
-Revision 1.29  2019/05/14 22:10:16  revo
 -->
 </vortaro>

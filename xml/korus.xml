@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: korus.xml,v 1.21 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: korus.xml,v 1.27 2023/12/03 09:58:59 revo Exp $">
 <kap>
   <rad>korus</rad>/o
   <fnt>V</fnt>
@@ -17,19 +16,18 @@
       <ekz>
         ekleziaj <tld/>oj
         <fnt>
-          <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007012.html"
-              >Grekio: Jarmila festego ortodoksa</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007012.php">Jarmila festego ortodoksa</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/08, p. 22</lok>
+          </fnt>;
       </ekz>
       <ekz>
         trivo&ccirc;a infan<tld/>o
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="&Monato;/2011/010210.php"
-              >Junaj arbetoj post 70 jaroj</url></vrk>
+          <vrk><url ref="&Monato;/2011/010210.php">Junaj arbetoj post 70 jaroj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -37,8 +35,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="&Monato;/2013/010944.php"
-              >Kanto de la montoj</url></vrk>
+          <vrk><url ref="&Monato;/2013/010944.php">Kanto de la montoj</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -46,18 +43,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Francisko Lorrain</aut>
-          <vrk><url ref="&Monato;/2015/011537.php"
-              >Fa&ubreve;sto hodia&ubreve;</url></vrk>
+          <vrk><url ref="&Monato;/2015/011537.php">Fa&ubreve;sto hodia&ubreve;</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
-        akademiaj <tld/>oj <klr>[&#8230;]</klr> kvankam ili kantas tradicia&jcirc;ojn, sonas tro
+        akademiaj <tld/>oj <klr>[&#x2026;]</klr> kvankam ili kantas tradicia&jcirc;ojn, sonas tro
         profesie kaj seke
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
-          <vrk><url ref="&Monato;/2005/008811.php"
-              >Katalunio, Okcitanio Kaj Tiel Plu</url></vrk>
+          <vrk><url ref="&Monato;/2005/008811.php">Katalunio, Okcitanio Kaj Tiel Plu</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -70,6 +65,10 @@
   <trd lng="be">&c_h;&c_o;&c_r;</trd>
   <trd lng="cs">ch&oacute;r</trd>
   <trd lng="de">Chor</trd>
+  <trdgrp lng="en">
+    <trd>choir</trd>,
+    <trd>chorus</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>choeur<klr> (troupe)</klr></trd>
   </trdgrp>
@@ -78,12 +77,20 @@
     <trd>k&oacute;rus</trd>,
     <trd>kar <klr tip="ind">(sz&iacute;npadi)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5408;&#x5531;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x5408;&#x5531;&#x56E3;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">koor</trd>
   <trd lng="pl">ch&oacute;r</trd>
   <trd lng="pt">coro <klr tip="amb">(&ocirc;)</klr></trd>
   <trd lng="ru">&c_h;&c_o;&c_r;</trd>
   <trd lng="sk">ch&oacute;r</trd>
   <trd lng="sv">k&ouml;r<klr tip="ind"> (mus.)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x5408;&#x5531;&#x56E2; <pr>h&#xE9;ch&#xE0;ngtu&#xE1;n</pr></trd>,
+    <trd>&#x5531;&#x8A69;&#x73ED; <pr>ch&#xE0;ngsh&#x12B;b&#x101;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="korus.0ano">
@@ -100,7 +107,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_h;&c_a;&c_r;&c_y;&c_s;&c_t;</trd>
   <trd lng="de">Chors&auml;nger</trd>
+  <trd lng="en">choir singer</trd>
   <trdgrp lng="fr">
     <trd>choriste</trd>
   </trdgrp>
@@ -110,6 +119,7 @@
     <trd>&eacute;nekkari tag</trd>,
     <trd>k&oacute;rustag</trd>
   </trdgrp>
+  <trd lng="ja">&#x5408;&#x5531;&#x56E3;&#x54E1;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;&#x3044;&#x3093;</pr></trd>
   <trd lng="nl">koorzanger</trd>
   <trd lng="pl">ch&oacute;rzysta</trd>
   <trd lng="ru">&c_h;&c_o;&c_r;&c_i;&c_s;&c_t;</trd>
@@ -118,6 +128,18 @@
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.24 2023/06/18 11:19:42
+Christian Siefkes: +trd de, en
+
+versio 1.23 2023/06/16 10:31:12
+Dmitri Gabinski: + trd be
+
+versio 1.22 2023/04/27 18:31:12
+Paul Peeraerts: Steloj -> monato
+
 versio 1.21 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -128,17 +150,5 @@ Revision 1.18  2015/06/29 16:33:18  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.17  2015/01/15 20:10:16  revo
-Damien Brucker: +ref
-
-Revision 1.16  2013/04/19 05:10:17  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2009/09/13 16:57:02  revo
-Paul Peeraerts: +nl
-
-Revision 1.14  2008/11/16 17:30:43  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.13  2006/11/11 17:30:43  revo
 -->
 </vortaro>

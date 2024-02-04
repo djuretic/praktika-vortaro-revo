@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: polus.xml,v 1.30 2022/03/26 12:56:10 revo Exp $">
+<art mrk="$Id: polus.xml,v 1.35 2024/01/09 21:22:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>polus</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>polus</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="polus.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -17,11 +17,35 @@
       <ref cel="aks.0o.rotacia">akso</ref> de sfero sekcas &gcirc;ian
       surfacon:
       <ekz>
-        suda <tld/>o de la tero.
+        suda <tld/>o de la tero;
+      </ekz>
+      <ekz>
+        grandaj &scirc;ipoj estis elsenditaj malproksimen al la norda <tld/>o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Ccirc;e la plej ekstrema maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de <tld/>o al <tld/>o
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        monda varmi&gcirc;o ne &scirc;paras la plej altan monton de la planedo, Evereston
+        <klr>[&#8230;]</klr>, fojfoje nomata &leftquot;tria <tld/>o&rightquot; de la tero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2013/011067.php"
+              >Everesto mem blovospiras</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="bg">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
-    <trd lng="de">Pol</trd>
     <trd lng="en">pole</trd>
     <trd lng="fr">p&ocirc;le<klr tip="ind"> (g&eacute;og.)</klr></trd>
     <trdgrp lng="hu">
@@ -38,12 +62,41 @@
       &Ccirc;iu el la du punktoj de pilo, baterio, magneto, &ccirc;e kiuj
       aperas kontra&ubreve;aj fortoj.
     </dif>
+    <refgrp tip="vid">
+      <ref cel="born.0o">borno</ref>,
+      <ref cel="elektr3.0o">elektrodo</ref>
+    </refgrp>
     <trd lng="bg">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
     <trd lng="fr">p&ocirc;le<klr tip="ind"> (phys.)</klr></trd>
     <trdgrp lng="hu">
       <trd>sarok</trd>,
       <trd>p&oacute;lus</trd>
     </trdgrp>
+  </snc>
+  <snc mrk="polus.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      &Ccirc;iu el du <ref tip="super" cel="ekstre.0o.eco">ekstremo</ref>j, inter kiuj etendi&gcirc;as la
+      <ref tip="malprt" cel="spektr.0o.FIG">spektro</ref> de eblaj gradoj de io:
+      <ekz>
+        la lingva&jcirc;o trovebla en la tradukoj de Diego <klr>[&#8230;]</klr> situas &ccirc;e unu
+        <tld/>o, pro la abundo de neologismoj <klr>[&#8230;]</klr> dum tiu de Mondo kaj Ni
+        situas &ccirc;e la alia, pro aparte persista uzado de derivitaj kaj kunmetitaj
+        formoj
+        <fnt>
+          <bib>BonaLingvo</bib>
+          <lok>6. Ies Malfido, Fido Mia</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej multaj <klr>[esperantistoj]</klr> elektas mezan pozicion inter la du <tld/>oj <klr>[ra&ubreve;mismo
+        kaj finvenkismo]</klr>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <snc mrk="polus.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -62,18 +115,17 @@
       <fnt><bib>MatTerm</bib><lok>p. 21</lok></fnt>
       <dif>
         <klr>(de kompleksa <ref cel="funkci.0o.MAT">funkcio</ref>
-        <frm><k>f</k></frm>)</klr>
+        <frm am="f"><k>f</k></frm>)</klr>
         Tia <ref cel="ordina.ne0a.punkto_de_funkcio">neordinara</ref>
-        punkto <frm><k>a</k></frm> de <frm><k>f</k></frm>, ke por iu
-        entjero <frm><k>n</k></frm> la funkcio
-        <frm>(<k>z</k>-<k>a</k>)<sup><k>n</k></sup><k>f</k>(<k>z</k>)</frm>
+        punkto <frm am="a"><k>a</k></frm> de <frm am="f"><k>f</k></frm>, ke por iu
+        entjero <frm am="n"><k>n</k></frm> la funkcio
+        <frm am="(z-a)^n f(z)">(<k>z</k>-<k>a</k>)<sup><k>n</k></sup><k>f</k>(<k>z</k>)</frm>
         estas <ref cel="holomo.0a.cxepunkto">holomorfa</ref>
-        &ccirc;e punkto <frm><k>a</k></frm>.
+        &ccirc;e punkto <frm am="a"><k>a</k></frm>.
       </dif>
-      <ref tip="vid" cel="meromo.0a">meromorfa.</ref>
+      <ref tip="vid" cel="meromo.0a">meromorfa</ref>
       <trd lng="hu">p&oacute;lus<klr tip="ind"> (f&uuml;ggv&eacute;ny&eacute;)</klr></trd>
     </subsnc>
-    <trd lng="de">Pol</trd>
     <trd lng="en">pole</trd>
     <trd lng="fr">p&ocirc;le<klr tip="ind"> (math.)</klr></trd>
     <trd lng="nl">pool</trd>
@@ -81,22 +133,68 @@
     <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
   </snc>
   <trd lng="be">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
-  <trd lng="bo">&#xF40;&#xF0B;&#xF62;&#xF92;&#xFB1;&#xF74;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_ka;&t_tsheg;&t_ra;&t_gata;&t_yata;&t_shabchu;&t_ga;&t_tsheg;</trd>
   <trd lng="ca">pol</trd>
   <trdgrp lng="cs">
-    <trd>p&#xF3;l</trd>,
-    <trd>to&#x10D;na</trd>
+    <trd>p&oacute;l</trd>,
+    <trd>to&ccaron;na</trd>
   </trdgrp>
+  <trd lng="de">Pol</trd>
   <trd lng="es">polo</trd>
   <trd lng="id">kutub</trd>
+  <trdgrp lng="ja">
+    <trd>&#26997; <pr>&#12399;&#12383;&#12390;</pr></trd>,
+    <trd>&#38651;&#26997; <pr>&#12391;&#12435;&#12365;&#12423;&#12367;</pr></trd>,
+    <trd>&#30913;&#26997; <pr>&#12376;&#12365;&#12423;&#12367;</pr></trd>,
+    <trd>&#26997;&#28857; <pr>&#12365;&#12423;&#12367;&#12390;&#12435;</pr></trd>,
+    <trd>&#23550;&#26997; <pr>&#12383;&#12356;&#12365;&#12423;&#12367;</pr></trd>,
+    <trd>&#20013;&#24515; <pr>&#12394;&#12363;&#12372;</pr></trd>
+  </trdgrp>
   <trd lng="nl">pool</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
-  <trd lng="sk">p&#xF3;l <klr>(geogr.| astr.| fyz.| el.tech.)</klr></trd>
-  <trd lng="uk">&#x43F;&#x43E;&#x43B;&#x44E;&#x441;</trd>
+  <trd lng="sk">p&oacute;l <klr>(geogr.| astr.| fyz.| el.tech.)</klr></trd>
+  <trd lng="uk">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
 </drv>
+
+<drv mrk="polus.du0o">
+  <kap>
+    du<tld/>o
+    <fnt><bib>PIV1</bib></fnt>
+  </kap>
+  <snc>
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      Aran&gcirc;o de du kontra&ubreve;aj samgrandaj <tld/>oj (elektraj &scirc;argoj, magnetaj <tld/>oj) je
+      certa distanco:
+      <ekz>
+        la tera magneta du<tld/>o
+        <fnt>
+          <vrk><url ref="http://www.eventoj.hu/steb/miksitaj/iku2013.pdf"
+              >A&ubreve;roro &ndash; la nordia lumo</url></vrk>
+          <lok>Internacia Kongresa Universitato, 20-27 julio 2013, p. 99</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Dipol</trd>
+  <trd lng="en">dipole</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.35 2024/01/09 21:22:28
+Wolfram Diestel: +du~o
+
+versio 1.34 2024/01/03 20:25:13
+Wolfram Diestel: +ekz, snc FIG
+
+versio 1.33 2023/12/30 16:30:31
+Wolfram Diestel: +ekz, +ref
+
+versio 1.32 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
 Revision 1.27  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -107,20 +205,5 @@ Revision 1.25  2013/08/01 15:10:09  revo
 Joop Eggen: +trd bg
 
 Revision 1.24  2012/08/10 14:11:41  revo
-Jeromo Vasxe: - polusa ~o -> stel.xml, + fak ele
-
-Revision 1.23  2011/12/02 12:10:12  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.22  2010/08/31 16:30:24  revo
-Wieland Pusch: +trd bg
-
-Revision 1.21  2010/08/29 16:30:25  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.20  2006/03/09 17:31:18  revo
-Tulio Flores: +tr pt
-
-Revision 1.19  2004/05/17 16:31:49  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gazet.xml,v 1.116 2022/06/08 08:39:33 revo Exp $">
+<art mrk="$Id: gazet.xml,v 1.121 2023/11/16 09:27:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gazet</rad>/o <fnt><bib>PV</bib></fnt>
@@ -78,7 +78,20 @@
     <trd>h&iacute;rlap</trd>,
     <trd>&uacute;js&aacute;g</trd>
   </trdgrp>
-  <trd lng="id">majalah</trd>
+  <trdgrp lng="id">
+    <trd>majalah</trd>,
+    <trd><baz>lembar</baz>lembaran negara</trd>,
+    <trd><ind>surat</ind> kabar</trd>,
+    <trd>koran</trd>,
+    <trd>jurnal</trd>,
+    <trd>publikasi</trd>,
+    <trd><baz>terbit</baz>terbitan berkala</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x96D1;&#x8A8C;  <pr>&#12374;&#12387;&#12375;</pr></trd>,
+    <trd>&#x65B0;&#x805E;  <pr>&#12375;&#12435;&#12406;&#12435;</pr></trd>,
+    <trd>&#x5B9A;&#x671F;&#x520A;&#x884C;&#29289;  <pr>&#12390;&#12356;&#x304D;&#x304B;&#12435;&#12371;&#12358;&#12406;&#12388;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>krant</trd>,
     <trd>tijdschrift</trd>
@@ -102,6 +115,7 @@
     <trd>&c_p;&c_je;&c_r;&c_i;&c_o;&c_d;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_i;&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
   <trd lng="sk">&ccaron;asopis</trd>
+  <trd lng="sw">gazeti</trd>
   <trd lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;</trd>
   <trd lng="tr">gazete</trd>
   <trdgrp lng="uk">
@@ -128,7 +142,7 @@
       <ekz>
         ili faris &scirc;ipeton el <tld/>a papero
         <fnt><bib>Fab1</bib>,
-          <lok>Persista stana soldato</lok></fnt>; 
+          <lok>Persista stana soldato</lok></fnt>;
       </ekz>
       <ekz>
         la <tld/>a kiosko
@@ -208,6 +222,7 @@
   <trd lng="hu">sajt&oacute;<klr tip="ind"> (az &uacute;js&aacute;gok)
   </klr></trd>
   <trd lng="hy">&#1396;&#1377;&#1396;&#1400;&#1410;&#x56C;</trd>
+  <trd lng="id">pers</trd>
   <trd lng="ig">akuko</trd>
   <trd lng="is">stutt</trd>
   <trd lng="ja">&#x30D7;&#x30EC;&#x30B9;</trd>
@@ -256,7 +271,7 @@
   <trd lng="ta">&#xB9A;&#xBC6;&#xBAF;&#xBCD;&#xBA4;&#xBBF;</trd>
   <trd lng="te">&#xC2A;&#xC24;&#xC4D;&#xC30;&#xC3F;&#xC15;&#xC3E;</trd>
   <trd lng="tg">&c_m;&c_a;&c_t;&c_b;&c_u;&c_o;&c_t;</trd>
-  
+
   <trd lng="tl">pindutin ang</trd>
   <trd lng="tr">bas&inodot;n</trd>
   <trd lng="tt">&c_b;&c_a;&c_s;&c_y;&c_g;&c_y;&c_z;</trd>
@@ -267,6 +282,7 @@
   <trd lng="xh">cinezela</trd>
   <trd lng="yi">&dalet;&resh;&yod;&qof;&fnun;</trd>
   <trd lng="yo">t&#x1EB9;</trd>
+  <trd lng="zh">&#x4F20;&#x5A92; <pr>chu&#xE1;nm&#xE9;i</pr></trd>
   <trd lng="zu">cindezela</trd>
 </drv>
 
@@ -311,7 +327,7 @@
   </trdgrp>
   <trd lng="es">periodista</trd>
   <trdgrp lng="fa">
-    <trd>&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;&zwnj;&a_n;&f_g;&a_A;&a_r;</trd>,
+    <trd>&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;&#8204;&a_n;&f_g;&a_A;&a_r;</trd>,
     <trd>&f_zh;&a_w;&a_r;&a_n;&a_A;&a_l;&f_y;&a_s;&a_t;</trd>
   </trdgrp>
   <trd lng="fr">journaliste de presse</trd>
@@ -319,6 +335,14 @@
     <trd>&uacute;js&aacute;g&iacute;r&oacute;</trd>,
     <trd>h&iacute;rlap&iacute;r&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>jurnalis</trd>,
+    <trd>wartawan</trd>,
+    <trd><ind>insan</ind> pers</trd>,
+    <trd>reporter</trd>
+  </trdgrp>
+  <trd lng="ja">&#x30B8;&#x30E3;&#x30FC;&#x30CA;&#x30EA;&#x30B9;&#x30C8; 
+  <pr>&#12376;&#12419;&#x30FC;&#x306A;&#x308A;&#12377;&#12392;</pr></trd>
   <trdgrp lng="nl">
     <trd>redacteur</trd>,
     <trd>journalist</trd>
@@ -340,6 +364,10 @@
     <trd>&c_zh;&c_u;&c_r;&#x43D;&c_a;&#x43B;&c_ib;&c_s;&c_t;</trd>,
     <trd>&c_g;&c_a;&c_z;&c_je;&c_t;&#x44F;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x65B0;&#x805E;&#x8A18;&#32773; <pr>x&#x12B;nw&#xE9;nj&#xEC;zh&#x11B;</pr></trd>,
+    <trd>&#x8A18;&#32773; <pr>j&#xEC;zh&#x11B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gazet.0istaro">
@@ -353,13 +381,16 @@
       &c_zh;&c_u;&c_r;&c_n;&c_a;&c_l;&c_ib;&c_s;&c_t;&c_a;&c_w;)</klr></trd>
   <trd lng="es">prensa</trd>
   <trdgrp lng="fa">
-    <trd>&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;&zwnj;&a_n;&f_g;&a_A;&a_r;&a_A;&a_n;</trd>,
+    <trd>&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;&#8204;&a_n;&f_g;&a_A;&a_r;&a_A;&a_n;</trd>,
     <trd>&a_A;&a_r;&a_b;&a_A;&a_b;
     <ind>&a_j;&a_r;&a_A;&f_y;&a_d;</ind></trd>
   </trdgrp>
   <trd lng="fr">presse<klr tip="ind"> (les journalistes)</klr></trd>
   <trd lng="hu">sajt&oacute;<klr tip="ind">
       (az &uacute;js&aacute;g&iacute;r&oacute;k)</klr></trd>
+  <trd lng="id">pers</trd>
+  <trd lng="ja">&#x30B8;&#x30E3;&#x30FC;&#x30CA;&#x30EA;&#x30B9;&#x30C8;&#x754C; 
+  <pr>&#12376;&#12419;&#x30FC;&#x306A;&#x308A;&#12377;&#12392;&#x304B;&#12356;</pr></trd>
   <trd lng="nl">pers<klr tip="ind"> (de journalisten)</klr></trd>
   <trd lng="pt">imprensa<klr tip="amb"> (os jornalistas)</klr></trd>
 </drv>
@@ -390,8 +421,17 @@
     <trd>journal &agrave; scandale</trd>,
     <trd>tablo&iuml;de</trd>
   </trdgrp>
-<trd
-lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&#xE0B;&#xE34;&#xE1A;</trd>
+<trd lng="id">tabloid</trd>
+<trd lng="ja">&#x30B4;&#x30B7;&#x30C3;&#x30D7;&#x96D1;&#x8A8C; 
+<pr>&#x30B4;&#x30B7;&#x30C3;&#x30D7;&#12374;&#12387;&#12375;</pr></trd>
+  <trd
+  lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&#xE0B;&#xE34;&#xE1A;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5C0F;&#x578B;&#x753B;&#x62A5; <pr>xi&#x1CE;ox&#xED;nghu&#xE0;b&#xE0;o</pr></trd>,
+    <trd>&#34903;&#22836;&#x5C0F;&#x62A5; <pr>ji&emacron;t&#xF3;uxi&#x1CE;ob&#xE0;o</pr></trd>,
+    <trd>&#x5C0F;&#22577; <pr>xi&#x1CE;ob&#xE0;o</pr></trd>,
+    <trd>&#25991;&#25688; <pr>w&#xE9;nzh&amacron;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gazet.mod0o">
@@ -401,7 +441,7 @@ lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&
       <tld lit="G"/>o kiu prezentas bilde kaj tekste
       modajn vestojn kaj objektojn:
       <ekz>
-        tie prosperas transportaj kompanioj, man&gcirc;ejoj, kaj e&ccirc; vendado 
+        tie prosperas transportaj kompanioj, man&gcirc;ejoj, kaj e&ccirc; vendado
         de mod<tld/>oj
         <fnt>
           <aut>Vanisa Wei, red. Usui Hiroyuki</aut>
@@ -415,6 +455,7 @@ lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&
   </snc>
   <trd lng="be">&c_m;&c_o;&c_d;&c_n;&c_y; &c_ch;&c_a;&c_s;&c_o;&c_p;&c_ib;&c_s;</trd>
   <trd lng="fr">magazine de mode</trd>
+<trd lng="id"><ind>majalah</ind> mode</trd>
 </drv>
 
 <drv mrk="gazet.mur0o">
@@ -444,8 +485,20 @@ lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&
   <trd lng="fa">&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;&a_hamza_sure;
   &a_d;&f_y;&a_w;&a_A;&a_r;&f_y;</trd>
   <trd lng="fr">journal mural</trd>
+  <trdgrp lng="id">
+    <trd><ind>koran</ind> dinding</trd>,
+    <trd><ind>koran</ind> tembok</trd>,
+    <trd><ind>majalah</ind> dinding</trd>,
+    <trd><ind>majalah</ind> tempel</trd>,
+    <trd>mading</trd>
+  </trdgrp>
+  <trd lng="ja">&#x58C1;&#x65B0;&#x805E;  <pr>&#x304B;&#12409;&#12375;&#12435;&#12406;&#12435;</pr></trd>
   <trd lng="sk">n&aacute;stenn&eacute; noviny</trd>
   <trd lng="uk">&c_s;&c_t;&c_ib;&#x43D;&c_g;&c_a;&c_z;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x58C1;&#22577; <pr>b&#xEC;b&#xE0;o</pr></trd>,
+    <trd>&#22681;&#x62A5; <pr>qi&#xE1;ngb&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gazet.tag0o">
@@ -470,7 +523,7 @@ lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&
           <aut>Lord Byron, trad. W. Auld</aut>,
           <vrk>El la I-a kanto de &#xAB;Don Johano&#xBB;</vrk>,
           <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5702/johanou.    
-                           html">
+                                     html">
               Norda Prismo, 57:2</url></lok>
        </fnt>.
      </ekz>
@@ -482,12 +535,14 @@ lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE0B;&#xE38;&#xE1A;&
   <trd lng="fa">&a_r;&a_w;&a_z;&a_n;&a_A;&a_m;&a_h;</trd>
   <trd lng="fr">quotidien<klr tip="amb"> (presse)</klr></trd>
   <trd lng="hu">napilap</trd>
+  <trd lng="id">harian <klr>(surat kabar)</klr></trd>
   <trd lng="pl">dziennik</trd>
   <trd lng="pt">jornal</trd>
   <trd lng="ru">&c_g;&c_a;&c_z;&c_je;&c_t;&c_a;<klr>
       (&c_je;&c_zh;&c_je;&c_d;&c_n;&c_je;&c_v;&c_n;&c_a;&c_ja;)</klr></trd>
 <trd
 lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE23;&#xE32;&#xE22;&#xE27;&#xE31;&#xE19;</trd>
+  <trd lng="zh">&#x65E5;&#22577; <pr>r&#xEC;b&#xE0;o</pr></trd>
 </drv>
 
 <drv mrk="gazet.viva0o">
@@ -507,6 +562,12 @@ lng="th">&#xE19;&#xE34;&#xE15;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE23;&#xE32;&#xE22;&
 </art>
 <!--
 $Log$
+versio 1.121 2023/11/16 09:27:18
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.119 2023/10/15 06:07:00
+revo: transskribo per <pr>
+
 versio 1.116 2022/06/08 08:39:33
 Dmitri Gabinski: + trd be
 
@@ -523,11 +584,5 @@ Revision 1.36  2016/04/06 06:10:21  revo
 Sergio Pokrovskij: +~a
 
 Revision 1.35  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.34  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.33  2014/11/19 15:10:20  revo
 -->
  </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: skot.xml,v 1.20 2022/05/05 05:09:57 revo Exp $">
+<art mrk="$Id: skot.xml,v 1.25 2023/10/21 07:46:47 revo Exp $">
 <kap>
   <rad>skot</rad>/o
 </kap>
@@ -33,15 +33,15 @@
         en la simpla frazo &leftquot;<nac>Can I land?</nac>&rightquot; (&leftquot;&Ccirc;u mi rajtas/povas
         alteri&gcirc;i?&rightquot;),
         &ccirc;iu el la tri vortoj estos malsame prononcata de, ekzemple,
-        sudanglo, 
+        sudanglo,
         nordanglo, <tld/>o, nordusonano, sudusonano, a&ubreve;straliano,
         baratano (hindo), ktp
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007159.html">Flugilhavaj
-          vortoj</url></vrk>
-        </fnt>;
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007159.php">Flugilhavaj vortoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 22</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <nom>Jeanie Johnson</nom> tiam estis konsiderata kiel modela
@@ -50,7 +50,7 @@
         en Kebekio
         <fnt>
           <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
+          <aut>Garbhan MacAoidh</aut>
           <vrk><url ref="&Monato;/2004/008277.html">Renaski&gcirc;o
           de vel&scirc;ipo Jeanie Johnson</url></vrk>
         </fnt>.
@@ -65,10 +65,12 @@
   <trd lng="es">escoc&eacute;s</trd>
   <trd lng="fr">Ecossais<klr> (habitant)</klr></trd>
   <trd lng="fy">Skot</trd>
+  <trd lng="ja">&#x30B9;&#x30B3;&#x30C3;&#x30C8;&#x30E9;&#x30F3;&#x30C9;&#x4EBA;
+  <pr>&#x30B9;&#x30B3;&#x30C3;&#x30C8;&#x30E9;&#x30F3;&#x30C9;&#12376;&#12435;</pr></trd>
   <trd lng="nl">Schot</trd>
   <trd lng="pl">Szkot</trd>
   <trd lng="sk">&Scaron;k&oacute;t</trd>
-  <trd lng="uk">&#x448;&#x43E;&#x442;&#x43B;&#x430;&#x43D;&#x434;&#x435;&#x446;&#x44C;</trd>
+  <trd lng="uk">&c_sh;&#x43E;&c_t;&#x43B;&c_a;&#x43D;&c_d;&c_je;&c_c;&#x44C;</trd>
   <trd lng="vo">Skot&auml;nan</trd>
 </drv>
 
@@ -79,6 +81,7 @@
       Rilata al <tld/>oj a&ubreve; <tld lit="S"/>lando.
     </dif>
   </snc>
+  <trd lng="be">&c_sh;&c_a;&c_t;&c_l;&c_ja;&c_n;&c_d;&c_z;&c_k;&c_ib;</trd>
   <trd lng="de">schottisch</trd>
   <trdgrp lng="en">
     <trd>Scottish</trd>,
@@ -88,8 +91,15 @@
   <trd lng="es">escoc&eacute;s</trd>
   <trd lng="fr">&eacute;cossais<klr> (adj.)</klr></trd>
   <trd lng="fy">Skotsk</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30B3;&#x30C3;&#x30C8;&#x30E9;&#x30F3;&#x30C9;&#x306E;
+    <pr>&#12377;&#12371;&#12387;&#12392;&#12425;&#12435;&#12393;&#x306E;</pr></trd>,
+    <trd>&#x30B9;&#x30B3;&#x30C3;&#x30C8;&#x30E9;&#x30F3;&#x30C9;&#x8A9E;&#x306E;
+    <pr>&#x30B9;&#x30B3;&#x30C3;&#x30C8;&#x30E9;&#x30F3;&#x30C9;&#12372;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">Schots</trd>
-  <trd lng="uk">&#x448;&#x43E;&#x442;&#x43B;&#x430;&#x43D;&#x434;&#x441;&#x44C;&#x43A;&#x438;&#x439;</trd>
+  <trd lng="pl">szkocki</trd>
+  <trd lng="uk">&c_sh;&#x43E;&c_t;&#x43B;&c_a;&#x43D;&c_d;&c_s;&#x44C;&#x43A;&c_i;&c_j;</trd>
   <trd lng="vo">Skot&auml;nik</trd>
 </drv>
 
@@ -141,17 +151,26 @@
     <trd lng="fr">Ecosse</trd>
     <trd lng="fy">Skotl&acirc;n</trd>
     <trd lng="nl">Schotland</trd>
-    <trdgrp lng="pl">
-      <trd>Szkocja</trd>
-    </trdgrp>
+    <trd lng="pl">Szkocja</trd>
     <trd lng="pt">Esc&oacute;cia</trd>
     <trd lng="vo">Skot&auml;n</trd>
 </drv>
-
 </art>
 
 <!--
 $Log$
+versio 1.25 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.24 2023/09/11 12:42:23
+Dmitri Gabinski: + trd be
+
+versio 1.23 2023/09/05 21:23:17
+Vito Redsky: +trd pl
+
+versio 1.21 2023/05/01 14:27:33
+Paul Peeraerts: Steloj -> monato
+
 versio 1.20 2022/05/05 05:09:57
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -162,17 +181,5 @@ versio 1.17 2021/12/21 09:32:34
 Dmitri Gabinski: + trd be
 
 Revision 1.15  2019/06/30 07:43:29  revo
-adaptis URL de Monato
-
-Revision 1.14  2019/06/01 22:10:16  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.13  2018/09/01 18:10:14  revo
-Wolfram Diestel: +ekz-oj, var ~ujo
-
-Revision 1.12  2018/05/23 03:10:28  revo
-Dusan Juretic: +trd es
-
-Revision 1.11  2015/07/04 08:37:43  revo
 -->
 </vortaro>

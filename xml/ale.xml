@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ale.xml,v 1.25 2022/03/11 13:58:40 revo Exp $">
+<art mrk="$Id: ale.xml,v 1.28 2023/10/28 08:33:04 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>ale</rad>/o
@@ -43,7 +43,11 @@
     </trdgrp>
     <trd lng="nl">pad</trd>
     <trd lng="pl">aleja</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6797;&#x836B;&#x9053; <pr>l&#xED;ny&#xEC;nd&#xE0;o</pr></trd>,
+    <trd>&#x6797;&#x852D;&#x9053; <pr>l&#xED;ny&#xEC;nd&#xE0;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="ale.0o.TRA">
     <uzo tip="fak">TRA</uzo>
     <dif>
@@ -99,6 +103,11 @@
   <trd lng="es">alameda</trd>
   <trd lng="fr">all&eacute;e</trd>
   <trd lng="he">&shin;&dalet;&resh;&he;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E26;&#x6728;&#x9053;  <pr>&#x306A;&#x307F;&#x304D;&#x307F;&#x3061;</pr></trd>,
+    <trd>&#x5C0F;&#x9053;  <pr>&#x3053;&#x307F;&#x3061;</pr></trd>,
+    <trd>&#x904A;&#x6B69;&#x9053;  <pr>&#x3086;&#x3046;&#x307B;&#x3069;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">laan</trd>
   <trdgrp lng="pt">
     <trd>alameda</trd>,
@@ -115,6 +124,9 @@
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/12 18:05:09
+revo: transskribo per <pr>
+
 versio 1.24 2021/05/16 11:49:48
 Wolfram Diestel: ekz-oj, ref-oj
 
@@ -134,8 +146,5 @@ Revision 1.17  2008/05/09 19:11:43  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.16  2007/05/20 16:30:46  revo
-Wieland Pusch: +trd de
-
-Revision 1.15  2003/11/06 17:30:46  revo
 -->
 </vortaro>

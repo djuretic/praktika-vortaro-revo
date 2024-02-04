@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gvardi.xml,v 1.23 2022/04/15 04:41:16 revo Exp $">
+<art mrk="$Id: gvardi.xml,v 1.26 2023/11/11 11:36:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gvardi</rad>/o <fnt><bib>PV</bib></fnt>
@@ -55,7 +55,8 @@
       <trd>Leibstandarte</trd>
     </trdgrp>
     <trd lng="hu">g&aacute;rda</trd>
-  </snc>
+    <trd lng="zh">&#x864E;&#x8CC1; <pr>h&#x1D4;b&#x113;n</pr></trd>
+</snc>
   <adm>
     Referenci al &leftquot;gardistaro&rightquot;. <aut>MB</aut>
   </adm>
@@ -64,6 +65,10 @@
   <trd lng="es">guardia</trd>
   <trd lng="fr">garde<klr tip="ind"> (soldats)</klr></trd>
   <trd lng="it">guardia<klr> (gruppo)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x89AA;&#x885B;&#x968A;  <pr>&#x3057;&#x3093;&#x3048;&#x3044;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x8FD1;&#x885B;&#x9023;&#x968A;  <pr>&#x3053;&#x306E;&#x3048;&#x308C;&#x3093;&#x305F;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">wacht</trd>
   <trd lng="pt">guarda<klr tip="amb"> (tropa)</klr></trd>
   <trd lng="ru">&c_g;&c_v;&c_a;&c_r;&c_d;&c_i;&c_ja;</trd>
@@ -110,6 +115,11 @@
   <trd lng="nl">voorhoede</trd>
   <trd lng="pt">vanguarda<klr tip="amb"> (tropa)</klr></trd>
   <trd lng="ru">&c_a;&c_v;&c_a;&c_n;&c_g;&c_a;&c_r;&c_d;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5148;&#x92D2;&#x968A; <pr>xi&#x101;nf&#x113;ngdu&#xEC;</pr></trd>,
+    <trd>&#x5148;&#x9A45; <pr>xi&#x101;nq&#x16B;</pr></trd>,
+    <trd>&#x5148;&#x92D2; <pr>xi&#x101;nf&#x113;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gvardi.post0o">
@@ -136,13 +146,22 @@
   <trd lng="fr">arri&egrave;re-garde</trd>
   <trd lng="hu">h&aacute;tv&eacute;d</trd>
   <trd lng="it">retroguardia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F8C;&#x885B;  <pr>&#x3053;&#x3046;&#x3048;&#x3044;</pr></trd>,
+    <trd>&#x5F8C;&#x885B;&#x90E8;&#x968A;  <pr>&#x3053;&#x3046;&#x3048;&#x3044;&#x3076;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x6BBF;&#x8ECD;  <pr>&#x3067;&#x3093;&#x3050;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">achterhoede</trd>
   <trd lng="pt">retaguarda<klr tip="amb"> (tropa)</klr></trd>
   <trd lng="ru">&c_a;&c_r;&c_mol;&c_je;&c_r;&c_g;&c_a;&c_r;&c_d;</trd>
+  <trd lng="zh">&#x540E;&#x536B; <pr>h&#xF2;uw&#xE8;i</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
 versio 1.23 2022/04/15 04:41:16
 Noam Mohr: +trd en gvardi-
 
@@ -162,8 +181,5 @@ Revision 1.16  2011/03/23 14:10:12  revo
 Jeromo Vasxe: + mrk
 
 Revision 1.15  2010/06/03 16:30:24  revo
-Antonio Codazzi: +trd it
-
-Revision 1.14  2005/10/11 16:31:16  revo
 -->
 </vortaro>

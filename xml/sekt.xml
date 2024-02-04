@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sekt.xml,v 1.28 2022/05/05 05:09:56 revo Exp $">
+<art mrk="$Id: sekt.xml,v 1.33 2023/11/12 15:25:25 revo Exp $">
 <kap>
    <ofc>2</ofc>
    <rad>sekt</rad>/o <fnt><bib>PV</bib></fnt>
@@ -39,7 +39,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;e la argilaj kolonoj de altaro de <nom>Kala Pir</nom>, <klr>[&#x2026;]</klr> la <nom>&Jcirc;ogis</nom>&#x2019;oj, nebula
+        &ccirc;e la argilaj kolonoj de altaro de <nom>Kala Pir</nom>, <klr>[&#8230;]</klr> la
+        <nom>&Jcirc;ogis</nom>&#8217;oj, nebula
         <tld/>o de sanktuloj, akceptis lin kiel homon
         <fnt>
           <bib>IKr</bib>
@@ -81,7 +82,8 @@
        </ekz>
      </dif>
     <refgrp tip="vid">
-      <ref cel="guru.0o">guruo</ref>
+      <ref cel="guru.0o">guruo</ref>,
+      <ref cel="klik.0o">kliko</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_e;&c_k;&c_t;&c_a;</trd>
@@ -94,12 +96,22 @@
   <trd lng="fr">secte</trd>
   <trd lng="hu">szekta</trd>
   <trd lng="it">setta</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5B97;&#x6D3E;  <pr>&#12375;&#12421;&#12358;&#x306F;</pr></trd>,
+    <trd>&#25945;&#x6D3E;  <pr>&#x304D;&#12423;&#12358;&#x306F;</pr></trd>,
+    <trd>&#x5B66;&#x6D3E;  <pr>&#x304C;&#x304F;&#x306F;</pr></trd>,
+    <trd>&#x515A;&#x6D3E;  <pr>&#12392;&#12358;&#x306F;</pr></trd>,
+    <trd>&#x6D3E;&#x95A5;  <pr>&#x306F;&#12400;&#12388;</pr></trd>,
+    <trd>&#20998;&#x6D3E;  <pr>&#12406;&#12435;&#12401;</pr></trd>,
+    <trd>&#x30BB;&#x30AF;&#x30C8;</trd>
+  </trdgrp>
   <trd lng="nl">sekte</trd>
+  <trd lng="pl">sekta</trd>
   <trd lng="pt">seita</trd>
   <trd lng="ru">&c_s;&c_je;&c_k;&c_t;&c_a;</trd>
   <trd lng="sk">sekta</trd>
   <trd lng="sv">sekt</trd>
-  <trd lng="uk">&#x441;&#x435;&#x43A;&#x442;&#x430;</trd>
+  <trd lng="uk">&c_s;&c_je;&#x43A;&c_t;&c_a;</trd>
 </drv>
 
 <drv mrk="sekt.0ano">
@@ -111,7 +123,7 @@
         ni absolute devas eviti ke esperantistoj aspektu kiel <tld/>anoj
         <fnt>
           <bib>LOdE</bib>
-          <lok>2004, &#x2116; 2 (112)</lok>
+          <lok>2004, &#8470; 2 (112)</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -119,7 +131,8 @@
         kun<tld/>anoj de mia edzino
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="&Monato;/2003/008041.html">La aristarka raporto de Albisturo Kvinke</url></vrk>
+          <vrk><url ref="&Monato;/2003/008041.html">La aristarka raporto de Albisturo
+          Kvinke</url></vrk>
           <lok>2003</lok>
         </fnt>?
       </ekz>
@@ -140,9 +153,15 @@
   <trd lng="fr">membre d'une secte</trd>
   <trd lng="hu">szektatag</trd>
   <trd lng="it">adepto<klr> (di setta)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x5B97;&#x6D3E;&#x306E;&#x4EBA;  <pr>&#12375;&#12421;&#12358;&#x306F;&#x306E;&#12376;&#12435;</pr></trd>,
+    <trd>&#x515A;&#x6D3E;&#x306E;&#x4EBA;  <pr>&#12392;&#12358;&#x306F;&#x306E;&#12376;&#12435;</pr></trd>,
+    <trd>&#20998;&#x6D3E;&#x306E;&#x4EBA;  <pr>&#12406;&#12435;&#12401;&#x306E;&#12376;&#12435;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">cz&lstroke;onek  <ind>sekty</ind></trd>
   <trd lng="pt">membro de uma seita</trd>
   <trd lng="sk">sekt&aacute;r</trd>
-  <trd lng="uk">&#x441;&#x435;&#x43A;&#x442;&#x430;&#x43D;&#x442;</trd>
+  <trd lng="uk">&c_s;&c_je;&#x43A;&c_t;&c_a;&#x43D;&c_t;</trd>
 </drv>
 
 <drv mrk="sekt.0eca">
@@ -183,16 +202,25 @@
       <ref cel="parohx.0ismo">paro&hcirc;ismo</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_s;&c_e;&c_k;&c_t;&c_a;&c_n;&c_c;&c_k;&c_ib;</trd>
   <trd lng="de">sektiererisch</trd>
+  <trd lng="pl">sekciarski</trd>
 </drv>
-
-
-
-
-
 </art>
 <!--
 $Log$
+versio 1.33 2023/11/12 15:25:25
+Dmitri Gabinski: + trd be
+
+versio 1.32 2023/10/21 06:31:44
+revo: transskribo per <pr>
+
+versio 1.30 2023/08/06 22:27:07
+Vito Redsky: +trd pl
+
+versio 1.29 2023/02/02 11:25:09
+Wolfram Diestel: +ref
+
 versio 1.28 2022/05/05 05:09:56
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -203,17 +231,5 @@ versio 1.25 2021/12/07 12:51:04
 Dmitri Gabinski: + trd be
 
 Revision 1.22  2015/06/29 16:33:23  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.21  2011/02/11 20:10:08  revo
-Luiz Portella: +trd pt : ~o, ~ano
-
-Revision 1.20  2011/01/07 12:10:10  revo
-Jeromo Vasxe: kor 1 fusxitan fnt
-
-Revision 1.19  2009/10/24 16:31:37  revo
-Antonio Codazzi: +trd it
-
-Revision 1.18  2009/09/02 16:30:55  revo
 -->
 </vortaro>

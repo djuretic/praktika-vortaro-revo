@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tiom.xml,v 1.27 2022/03/28 14:44:11 revo Exp $">
+<art mrk="$Id: tiom.xml,v 1.30 2023/09/04 19:01:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tiom</rad> 
@@ -70,10 +70,14 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paulo S&eacute;rgio Viana</aut>
-          <vrk><url ref="https://www.monato.net/2014/011194.php">Juglando (kaj aliaj nuksoj): survoje al longviveco</url></vrk>
+          <vrk><url ref="&Monato;/2014/011194.php">Juglando (kaj aliaj nuksoj): survoje al longviveco</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>that amount</trd>,
+      <trd>that many</trd>
+    </trdgrp>
     <trd lng="pl">tyle</trd>
     <trdgrp lng="ru">
       <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>,
@@ -95,7 +99,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="https://www.monato.net/2013/010777.php">&Gcirc;is la tero tremas</url></vrk>
+          <vrk><url ref="&Monato;/2013/010777.php">&Gcirc;is la tero tremas</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -117,6 +121,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="en">that much</trd>
     <trdgrp lng="pl">
       <trd>tyle</trd>,
       <trd>tylu</trd>
@@ -169,6 +174,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>as many</trd>,
+      <trd>as much</trd>
+    </trdgrp>
     <trd lng="pl">tyle</trd>
     <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>
   </snc>
@@ -204,6 +213,10 @@
     <trd>tant <klr>(de)</klr></trd>
   </trdgrp>
   <trd lng="id">se<ind>banyak</ind> itu</trd>
+  <trdgrp lng="ja">
+    <trd>&#x305D;&#x308C;&#x307B;&#x3069;</trd>,
+    <trd>&#x305D;&#x3093;&#x306A;&#x306B;</trd>
+  </trdgrp>
   <trd lng="nl">zoveel</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>,
@@ -216,8 +229,8 @@
   </trdgrp>
   <trd lng="cs">tolik</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x442;&#x456;&#x43B;&#x44C;&#x43A;&#x438;</trd>,
-    <trd>&#x43D;&#x430;&#x441;&#x442;&#x456;&#x43B;&#x44C;&#x43A;&#x438;</trd>
+    <trd>&c_s;&c_t;&c_ib;&c_l;&c_mol;&c_k;&c_i;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_ib;&c_l;&c_mol;&c_k;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -283,6 +296,8 @@
     <trd>tan</trd>,
     <trd><klr>(un)</klr> tal</trd>
   </trdgrp>
+<trd lng="en">such a<klr> (adj, for number, quantity or degree)</klr> </trd>
+  <trd lng="ja">&#x305D;&#x308C;&#x307B;&#x3069;&#x306E;</trd>
 </drv>
 
 <drv mrk="tiom.0ke">
@@ -317,6 +332,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>so much, that ...</trd>,
+    <trd>so much ..., that ...</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>si ... que</trd>,
     <trd>tellement ... que</trd>,
@@ -343,11 +362,21 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>to such a degree, that ...</trd>,
+    <trd>to such an amount, that ...</trd>
+  </trdgrp>
   <trd lng="fr">&agrave; tel point que</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.29 2023/04/11 19:23:02
+aktualigo Monato-URL
+
+versio 1.28 2023/02/26 22:27:31
+Robert Baruch: +trd: en
+
 Revision 1.25  2017/11/17 23:10:31  revo
 Vito Redsky: +trd pl+trd ro
 
@@ -364,8 +393,5 @@ Revision 1.21  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2015/05/09 13:10:17  revo
-Jeromo Vasxe: + ~ ke
-
-Revision 1.19  2014/10/28 04:10:35  revo
 -->
 </vortaro>

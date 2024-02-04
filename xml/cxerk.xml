@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxerk.xml,v 1.28 2022/03/14 15:25:39 revo Exp $">
+<art mrk="$Id: cxerk.xml,v 1.36 2023/11/29 09:27:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;erk</rad>/o <fnt><bib>PV</bib></fnt>
@@ -36,6 +36,10 @@
   <trd lng="he">&#x5D0;&#x5E8;&#x5D5;&#x5DF; &#x5DE;&#x5EA;&#x5D9;&#x5DD;</trd>
   <trd lng="hu">kopors&oacute;</trd>
   <trd lng="it">bara</trd>
+  <trdgrp lng="ja">
+    <trd>&#x68FA;  <pr>&#x304B;&#12435;</pr></trd>,
+    <trd>&#x67E9;  <pr>&#x304B;&#12435;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>lijkkist</trd>,
     <trd>kist<klr tip="ind"> (lijkkist)</klr></trd>
@@ -48,8 +52,14 @@
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_o;&c_b;</trd>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x43E;&#x43C;&#x43E;&#x432;&#x438;&#x43D;&#x430;</trd>,
-    <trd>&#x442;&#x440;&#x443;&#x43D;&#x430;</trd>
+    <trd>&c_d;&#x43E;&#x43C;&#x43E;&c_v;&c_i;&#x43D;&c_a;</trd>,
+    <trd>&c_t;&c_r;&c_u;&#x43D;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x58FD;&#26448; <pr>sh&#xF2;uc&#xE1;i</pr></trd>,
+    <trd>&#x68FA; <pr>gu&amacron;n</pr></trd>,
+    <trd>&#x68FA;&#26408; <pr>gu&amacron;nm&#xF9;</pr></trd>,
+    <trd>&#x69E5; <pr>hu&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -59,17 +69,22 @@
     <dif>
       De <tld/>o.
     </dif>
+    <trd lng="be">&c_t;&c_r;&c_u;&c_n;&c_n;&c_y;</trd>
     <trd lng="hu">kopors&oacute;-</trd>
     <trd lng="pl">trumienny</trd>
   </snc>
   <snc mrk="cxerk.0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Funebra, mal&gcirc;ojiga: 
+      Funebra, mal&gcirc;ojiga:
       <ekz>
         <tld/>a tono.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_g;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>,
+      <trd>&c_z;&c_a;&c_m;&c_a;&c_g;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Sarg-</trd>,
       <trd>Beerdigungs-</trd>
@@ -82,13 +97,46 @@
     <trd lng="hu">s&iacute;ri</trd>
     <trdgrp lng="it">
       <trd>funebre</trd>,
-      <trd>funereo</trd>, 
+      <trd>funereo</trd>,
       <trd>sepolcrale</trd>
     </trdgrp>
     <trd lng="pl">pogrzebowy</trd>
     <trd lng="pt">f&uacute;nebre</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#12402;&#12388;&#x304E;&#x306E;</trd>,
+    <trd>&#38512;&#x6C17;&#x306A;  <pr>&#12356;&#12435;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#38512;&#x9B31;&#x306A;  <pr>&#x304B;&#12370;&#12358;&#12388;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_o;&c_b;&c_o;&c_v;&c_o;&c_j;</trd>
+</drv>
+
+<drv mrk="cxerk.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="cxerk.0isto.FUN">
+    <dif>
+      Metiisto faranta a&ubreve; komercisto vendanta <tld/>ojn:
+      <ekz>
+        la <tld/>isto invitis la &scirc;uiston sidi&gcirc;i kaj tetrinki, kaj dank' al la aperta
+        karaktero de <nom>Gottlieb Schulz</nom>, ili balda&ubreve; konversaciis amike
+        <fnt>
+           <aut>A. Pu&scirc;kin, trad. N. Lozga&ccirc;ev</aut>
+          <vrk><url ref="https://esperanto-ondo.ru/Rn-pusk1.htm">
+          &Ccirc;erkisto</url></vrk>
+          <lok>La Ondo de Esperanto, 1999:6 (56)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="funebr.0isto.FUN">funebristo</ref>,
+    <ref cel="tomb.0isto.FUN">tombisto</ref>
+  </refgrp>
+  <trd lng="be">&c_t;&c_r;&c_u;&c_n;&c_a;&c_r;</trd>
+  <trdgrp lng="fr">
+    <trd>fabricant de cercueils</trd>,
+    <trd>marchand de cercueils</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cxerk.0ujo">
@@ -104,11 +152,16 @@
         Por vin el&jcirc;eti?
         <fnt><aut>&Scirc;ekspiro, tr. &Z;</aut>:
           <vrk>Hamleto, Re&gcirc;ido de Danujo</vrk>. <lok>1:3</lok>.
-        </fnt>.    
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="kript.0o">kripto</ref>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_r;&c_y;&c_p;&c_t;&c_a;</trd>,
+    <trd>&c_m;&c_a;&c_g;&c_ib;&c_l;&c_mol;&c_n;&c_ja;</trd>,
+    <trd>&c_s;&c_k;&c_l;&c_je;&c_p;</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>sepulchre</trd>,
     <trd>crypt</trd>,
@@ -119,6 +172,7 @@
     <trd>s&eacute;pulcre</trd>
   </trdgrp>
   <trd lng="he">&#x5D0;&#x5E8;&#x5D5;&#x5DF; &#x5DE;&#x5EA;&#x5D9;&#x5DD;</trd>
+  <trd lng="ja">&#x7D0D;&#x68FA;&#x5BA4;  <pr>&#x306E;&#12358;&#x304B;&#12435;&#12375;&#12388;</pr></trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_k;&c_l;&c_je;&c_p;</trd>,
     <trd>&c_g;&c_r;&c_o;&c_b;&c_n;&c_i;&c_c;&c_a;</trd>
@@ -129,13 +183,14 @@
   <kap><tld/>veturilo</kap>
   <snc>
     <dif>
-      <ref tip="super" cel="vetur.0ilo">Veturilo</ref> por 
+      <ref tip="super" cel="vetur.0ilo">Veturilo</ref> por
       transporti la mortintojn.
     </dif>
     <refgrp tip="vid">
       <ref cel="cxar1.0o">&ccirc;aro</ref>.
     </refgrp>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_t;&c_a;&c_f;&c_a;&c_l;&c_k;</trd>
   <trd lng="bg">&c_p;&c_o;&c_g;&c_r;&c_je;&c_b;&c_a;&c_l;&c_n;&c_a; &c_k;&c_o;&c_l;&c_a;</trd>
   <trdgrp lng="de">
     <trd>Leichenwagen</trd>,
@@ -144,13 +199,14 @@
   <trd lng="el">&ny;&epsilon;&kappa;&rho;&omikron;&phi;&omikron_ton;&rho;&alfa;</trd>
   <trd lng="en">hearse</trd>
   <trd lng="es">coche <ind>f&uacute;nebre</ind></trd>
-  <trd lng="fa">&a_n;&a_ayn;&a_sh;&zwnj;&f_k;&a_sh;</trd>
+  <trd lng="fa">&a_n;&a_ayn;&a_sh;&#x200C;&f_k;&a_sh;</trd>
   <trd lng="fr">corbillard</trd>
   <trdgrp lng="hu">
     <trd>halottaskocsi</trd>,
     <trd>gy&aacute;szkocsi</trd>
   </trdgrp>
   <trd lng="it"><ind>carro</ind> funebre</trd>
+  <trd lng="ja">&#x970A;&#x67E9;&#x8ECA;  <pr>&#x308C;&#12356;&#x304D;&#12421;&#12358;&#12375;&#12419;</pr></trd>
   <trd lng="nl">lijkwagen</trd>
   <trd lng="pl">karawan</trd>
   <trdgrp lng="pt">
@@ -161,31 +217,37 @@
     <trd>&c_p;&c_o;&c_g;&c_r;&c_je;&c_b;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_k;&c_o;&c_l;&c_je;&c_s;&c_n;&c_i;&c_c;&c_a;</trd>,
     <trd>&c_k;&c_a;&c_t;&c_a;&c_f;&c_a;&c_l;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8F34; <pr>ch&#x16B;n</pr></trd>,
+    <trd>&#x8F00; <pr>&#xE9;r</pr></trd>,
+    <trd>&#x8F40; <pr>w&emacron;n</pr></trd>,
+    <trd>&#x67E9;&#x8ECA; <pr>ji&#xF9;ch&emacron;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.36 2023/11/29 09:27:12
+Dmitri Gabinski: + trd be
+
+versio 1.34 2023/10/14 11:10:02
+revo: transskribo per <pr>
+
+versio 1.33 2023/09/14 21:21:51
+Jeromo Vasxe: + ~isto
+
+versio 1.32 2023/09/13 16:30:20
+Wolfram Diestel: pr. ja
+
+versio 1.30 2023/05/14 19:21:04
+Dmitri Gabinski: kor de trd be
+
+versio 1.29 2023/04/28 07:24:37
+Dmitri Gabinski: + trd be
+
 versio 1.26 2020/08/11 13:10:31
 Damien Brucker: +vid
 
 versio 1.25 2020/08/08 19:10:39
-Damien Brucker: +trd fr
-
-versio 1.24 2020/08/07 08:10:33
-Sergio Pokrovskij: +~ujo
-
-Revision 1.23  2020/03/21 00:10:46  revo
-James Rezende Piton: forigo de balasta ;
-
-Revision 1.22  2011/03/24 10:10:09  revo
-Jeromo Vasxe: - num + mrk
-
-Revision 1.21  2010/04/24 17:07:49  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.20  2009/04/29 16:30:50  revo
-Wieland Pusch: +trd bg
-
-Revision 1.19  2009/04/28 16:30:51  revo
 -->
 </vortaro>

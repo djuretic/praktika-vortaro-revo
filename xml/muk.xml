@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: muk.xml,v 1.30 2022/06/09 08:40:55 revo Exp $">
+<art mrk="$Id: muk.xml,v 1.33 2024/01/26 19:05:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>muk</rad>/o <fnt><bib>PV</bib></fnt>
@@ -46,6 +46,7 @@
   <trd lng="fa">&a_m;&a_kh;&a_A;&a_T;</trd>
   <trd lng="fr">mucus</trd>
   <trd lng="it">muco</trd>
+  <trd lng="ja">&#x7C98;&#x6DB2;  <pr>&#x306D;&#x3093;&#x3048;&#x304D;</pr></trd>
   <trd lng="nl">slijm</trd>
   <trd lng="pl">&sacute;luz</trd>
   <trd lng="pt">muco</trd>
@@ -58,6 +59,13 @@
   <trdgrp lng="uk">
     <trd>&c_s;&#x43B;&c_i;&c_z;</trd>,
     <trd>&c_s;&#x43B;&c_i;&c_z;&#x43E;&c_v;&c_ib; &c_v;&c_i;&c_d;&c_ib;&#x43B;&c_je;&#x43D;&#x43D;&#x44F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6F26; <pr>l&#xED;</pr></trd>,
+    <trd>&#x9ECF;&#x6DB2; <pr>ni&#xE1;ny&#xE8;</pr></trd>,
+    <trd>&#x9F3B;&#x6D95; <pr>b&#xED;t&#xEC;</pr></trd>,
+    <trd>&#x6D1F; <pr>t&#xEC;</pr></trd>,
+    <trd>&#x7C98;&#x6DB2; <pr>ni&#xE1;ny&#xE8;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -91,6 +99,12 @@
   <trd lng="sk">hlienov&yacute;</trd>
   <trd lng="sv">slemmig</trd>
   <trd lng="uk">&c_s;&#x43B;&c_i;&c_z;&#x43E;&c_v;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6CE5;&#x6CDE; <pr>n&#xED;n&#xEC;ng</pr></trd>,
+    <trd>&#x6CE5;&#x6FD8; <pr>n&#xED;n&#xEC;ng</pr></trd>,
+    <trd>&#x7C98;&#x6DB2;&#x6027; <pr>ni&#xE1;ny&#xE8;x&#xEC;ng</pr></trd>,
+    <trd>&#x7C98;&#x6DB2;&#x7684; <pr>zh&#x101;ny&#xE8;de</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="muk.naz0o">
@@ -131,6 +145,10 @@
   </trdgrp>
   <trd lng="fr">morve</trd>
   <trd lng="it">moccolo<klr> (di naso)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x9F3B;&#x6C41;  <pr>&#x306F;&#x306A;&#x3058;&#x308B;</pr></trd>,
+    <trd>&#x9F3B;&#x6C34;  <pr>&#x306F;&#x306A;&#x307F;&#x305A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">snot</trd>
   <trdgrp lng="pl">
     <trd>smark</trd>.
@@ -142,6 +160,10 @@
   <trdgrp lng="uk">
     <trd>&c_s;&#x43E;&#x43F;&#x43B;&#x44F;</trd>,
     <trd>&c_sh;&#x43C;&c_a;&c_r;&#x43A;&#x43B;&c_ib;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x9F3B;&#x5C4E; <pr>b&#xED;sh&#x1D0;</pr></trd>,
+    <trd>&#x9F3B;&#x6D95; <pr>b&#xED;t&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -163,11 +185,16 @@
     <trd lng="be">&c_s;&c_a;&c_p;&c_l;&c_ja;&c_k;</trd>
     <trd lng="es">mocoso<klr> (subst.)</klr></trd>
     <trd lng="fr">morveux<klr> (subst.)</klr></trd>
-  </snc>
+    <trd lng="zh">&#x5C0F;&#x7956;&#x5B97; <pr>xi&#x1CE;oz&#x1D4;z&#x14D;ng</pr></trd>
+</snc>
+  <trd lng="ja">&#x306F;&#x306A;&#x305F;&#x308C;&#x5C0F;&#x50E7;  <pr>&#x306F;&#x306A;&#x305F;&#x308C;&#x3053;&#x305E;&#x3046;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/19 18:36:53
+revo: transskribo per <pr>
+
 versio 1.30 2022/06/09 08:40:55
 Dmitri Gabinski: + trd be
 
@@ -187,8 +214,5 @@ Revision 1.21  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2011/05/11 15:10:09  revo
-Jeromo Vasxe: + naz~ulo
-
-Revision 1.19  2009/09/12 16:30:57  revo
 -->
 </vortaro>

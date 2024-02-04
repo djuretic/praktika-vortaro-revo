@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: afabl.xml,v 1.48 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: afabl.xml,v 1.53 2023/10/28 08:32:44 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>afabl</rad>/a
@@ -108,7 +108,7 @@
        <ref cel="amik.0ema">amikema</ref>,
        <ref cel="gast.0igi">gastig</ref>ema,
       <ref cel="societ.0ema">societema</ref>.
-    </refgrp> 
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_p;&c_r;&c_y;&c_ja;&c_z;&c_n;&c_y;</trd>,
       <trd>&c_v;&c_je;&c_t;&c_l;&c_ib;&c_v;&c_y;</trd>,
@@ -148,6 +148,10 @@
       <trd>kedves</trd>,
       <trd>ny&aacute;jas</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd><ind>baik</ind> hati</trd>,
+      <trd>ramah</trd>
+    </trdgrp>
     <trd lng="it">affabile</trd>
     <trd lng="nl">vriendelijk</trd>
     <trd lng="oc">aimable</trd>
@@ -167,7 +171,13 @@
       <trd>&#xE40;&#xE1B;&#xE47;&#xE19;&#xE21;&#xE34;&#xE15;&#xE23;</trd>,
       <trd>&#xE2D;&#xE31;&#xE18;&#xE22;&#xE32;&#xE28;&#xE31;&#xE22;&#xE14;&#xE35;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x548C;&#x6C14; <pr>h&#xE9;qi</pr></trd>,
+    <trd>&#x548C;&#x6C23; <pr>h&#xE9;qi</pr></trd>,
+    <trd>&#x548C;&#x853C;&#x5730; <pr>h&#xE9;&#x1CE;ide</pr></trd>,
+    <trd>&#x548C;&#x85F9;&#x5730; <pr>h&#xE9;&#x1CE;ide</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="afabl.0a.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
@@ -179,9 +189,11 @@
         en Unikso <klr>[&#x2026;]</klr> programoj estu la&ubreve;eble malgrandaj, faru la&ubreve;eble
         precizan taskon, kaj <tld/>e kunlaboru kun aliaj programoj
         <fnt>
+          <aut>E. Grimley Evans</aut>,
+          <vrk><url ref="&Monato;/2000/006801.html">
+          Interreto: uniksulo ekspertas Unikodon</url></vrk>,
           <bib>Monato</bib>
-          <aut>Edmund Grimley Evans</aut>
-          <vrk><url ref="&Steloj;monato2/006801.html">Interreto: Uniksulo ekspertas Unikodon</url></vrk>
+          <lok>2000/02, p. 20</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -196,6 +208,7 @@
       <trd>convivial<klr tip="ind"> (info.)</klr></trd>,
       <trd>intuitif<klr tip="ind"> (info.)</klr></trd>
     </trdgrp>
+    <trd lng="id"><ind>ramah</ind> pengguna</trd>
     <trd lng="it">user-friendly</trd>
     <trdgrp lng="pl">
       <trd>przyjazny</trd>,
@@ -207,17 +220,30 @@
       <trd>&#xE43;&#xE0A;&#xE49;&#xE07;&#xE48;&#xE32;&#xE22;</trd>,
       <trd>&#xE43;&#xE0A;&#xE49;&#xE2A;&#xE30;&#xE14;&#xE27;&#xE01;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5BB9;&#x6613;&#x4F7F;&#x7528; <pr>r&#xF3;ngy&#xEC;sh&#x1D0;y&#xF2;ng</pr></trd>,
+    <trd>&#x5BF9;&#x7528;&#x6237;&#x53CB;&#x597D; <pr>du&#xEC;y&#xF2;ngh&#xF9;y&#x1D2;uh&#x1CE;o</pr></trd>,
+    <trd>&#x5C0D;&#x7528;&#x6236;&#x53CB;&#x597D; <pr>du&#xEC;y&#xF2;ngh&#xF9;y&#x1D2;uh&#x1CE;o</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="bo">&#xF51;&#xF42;&#xF60;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
   <trd lng="he">&#x5D0;&#x5D3;&#x5D9;&#x5D1;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x611B;&#x60F3;&#x306E;&#x3088;&#x3044;  <pr>&#x3042;&#x3044;&#x305D;&#x306E;&#x3044;&#x3044;</pr></trd>,
+    <trd>&#x89AA;&#x5207;&#x306A;  <pr>&#x3057;&#x3093;&#x305B;&#x3064;&#x306A;</pr></trd>,
+    <trd>&#x3082;&#x306E;&#x3084;&#x308F;&#x3089;&#x304B;&#x306A;</trd>,
+    <trd>&#x3066;&#x3044;&#x306D;&#x3044;&#x306A;</trd>,
+    <trd>&#x4F7F;&#x3044;&#x3084;&#x3059;&#x3044;  <pr>&#x3064;&#x304B;&#x3044;&#x3084;&#x3059;&#x3044;</pr></trd>,
+    <trd>&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x30D5;&#x30EC;&#x30F3;&#x30C9;&#x30EA;&#x30FC;&#x306A;</trd>
+  </trdgrp>
   <trd lng="sk">u&zcaron;&iacute;vate&lcaron;sky
   pr&iacute;jemn&yacute;</trd>
   <trd lng="tok">pona</trd>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x44E;&#x431;&#x2019;&#x44F;&#x437;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43B;&#x430;&#x441;&#x43A;&#x430;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x432;&#x456;&#x442;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x432;&#x432;&#x456;&#x447;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>
+    <trd>&#x43B;&#x44E;&c_b;&#x2019;&#x44F;&c_z;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43B;&c_a;&c_s;&#x43A;&c_a;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_v;&c_ib;&c_t;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_v;&c_v;&c_ib;&c_ch;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -271,14 +297,14 @@
       <ref cel="agrabl.mal0a">malagrabla</ref>,
       <ref cel="placx.mal0i">malpla&ccirc;</ref>a,
       <ref cel="simpat.mal0i">malsimpati</ref>a,
-      <ref cel="pacien.mal0a">malpacienca</ref>, 
+      <ref cel="pacien.mal0a">malpacienca</ref>,
       <ref cel="grumbl.0ema">grumblema</ref>,
       <ref cel="acid.0a.FIG">acida<sncref/></ref>,
       <ref cel="abrupt.0a">abrupta</ref>,
       <ref cel="lakon.0a">lakona</ref>,
       <ref cel="varm.mal0a.senemocia">malvarma<sncref/></ref>,
       <ref cel="societ.mal0ema">malsocietema</ref>,
-      <ref cel="mizant.0a">mizantropa</ref>. 
+      <ref cel="mizant.0a">mizantropa</ref>.
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_ja;&c_z;&c_n;&c_y;</trd>,
@@ -301,6 +327,7 @@
       <trd>mal <ind>embouch&eacute;</ind></trd>,
       <trd>malcommode<klr tip="ind"> (pas aimable)</klr></trd>
     </trdgrp>
+    <trd lng="id"><ind>kasar</ind> (tidak ramah)</trd>
     <trdgrp lng="it">
       <trd>scorbutico</trd>,
       <trd>scortese</trd>,
@@ -328,30 +355,51 @@
       <trd>&c_n;&c_je;&c_l;&c_ju;&c_b;&c_je;&c_z;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
     <trd lng="th">&#xE44;&#xE21;&#xE48;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE21;&#xE34;&#xE15;&#xE23;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x9AD8;&#x5174;&#x5730; <pr>b&#xF9;g&#x101;ox&#xEC;ngde</pr></trd>,
+    <trd>&#x4E0D;&#x9AD8;&#x8208;&#x5730; <pr>b&#xF9;g&#x101;ox&#xEC;ngde</pr></trd>,
+    <trd>&#x54ED;&#x4E27;&#x7740;&#x8138; <pr>k&#x16B;sangzheli&#x1CE;n</pr></trd>,
+    <trd>&#x54ED;&#x55AA;&#x8457;&#x81C9; <pr>k&#x16B;sangzheli&#x1CE;n</pr></trd>,
+    <trd>&#x4E0D;&#x53CB;&#x597D; <pr>b&#xF9;y&#x1D2;uh&#x1CE;o</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>mrzut&yacute;</trd>,
     <trd>nep&rcaron;&iacute;v&ecaron;tiv&yacute;</trd>,
     <trd>nevl&iacute;dn&yacute;</trd>,
     <trd>nevrl&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x90AA;&#x967A;&#x306A;  <pr>&#x3058;&#x3083;&#x3051;&#x3093;&#x306A;</pr></trd>,
+    <trd>&#x3064;&#x3063;&#x3051;&#x3093;&#x3069;&#x3093;&#x306A;</trd>,
+    <trd>&#x611B;&#x60F3;&#x306E;&#x60AA;&#x3044;  <pr>&#x3042;&#x3044;&#x305D;&#x306E;&#x308F;&#x308B;&#x3044;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>nev&lcaron;&uacute;dny</trd>,
     <trd>nev&lcaron;&uacute;dny, nevrl&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x43F;&#x440;&#x438;&#x432;&#x456;&#x442;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x435;&#x432;&#x432;&#x456;&#x447;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x432;&#x443;&#x440;&#x43A;&#x43E;&#x442;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x441;&#x432;&#x430;&#x440;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43E;&#x445;&#x43C;&#x443;&#x440;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43E;&#x43D;&#x443;&#x440;&#x438;&#x439;</trd>
+    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_v;&c_ib;&c_t;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je;&c_v;&c_v;&c_ib;&c_ch;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_v;&c_u;&c_r;&#x43A;&#x43E;&c_t;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_v;&c_a;&c_r;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43E;&c_h;&#x43C;&c_u;&c_r;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43E;&#x43D;&c_u;&c_r;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 
 $Log$
+versio 1.52 2023/10/23 06:31:15
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.51 2023/10/12 16:57:42
+revo: transskribo per <pr>
+
+versio 1.49 2023/04/14 15:26:03
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.48 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -365,15 +413,6 @@ Revision 1.40  2017/12/21 15:10:18  revo
 Michel Cantigneaux: aldono de fontaj ligiloj (al Universala Vortaro)
 
 Revision 1.39  2017/08/18 18:10:21  revo
-Vito Redsky: +trd ro
-
-Revision 1.38  2017/07/10 06:10:18  revo
-Warut Bunprasert: +trd th
-
-Revision 1.37  2016/10/04 11:10:13  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.36  2015/07/04 08:37:29  revo
 -->
 
 </vortaro>

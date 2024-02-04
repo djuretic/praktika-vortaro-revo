@@ -1,24 +1,41 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: katafa.xml,v 1.14 2022/03/21 17:51:57 revo Exp $">
+<art mrk="$Id: katafa.xml,v 1.19 2023/11/24 18:31:06 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>katafalk</rad>/o <fnt><bib>PV</bib></fnt> 
+  <rad>katafalk</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="katafa.0o">
-  <kap><ofc>1</ofc><tld/>o</kap>
+  <kap><tld/>o</kap>
   <snc mrk="katafa.0o.FUN">
     <dif>
-      Funebra parada podio, sur kiu oni metas la &ccirc;erkon de mortinto,
-      kiun oni volas honori: 
+      Funebra parada <ref tip="super" cel="podi.0o">podio</ref>, sur kiu oni metas la &ccirc;erkon de
+      mortinto,
+      kiun oni volas honori:
       <ekz>
         la &ccirc;erko staris sur pompa <tld/>o sub velura baldakeno
         <fnt>
           <aut>A. Pu&scirc;kin, trad. A. Kor&jcirc;enkov</aut>,
-          <vrk><url ref="http://www.esperanto-ondo.ru/Libroj/V_bibl01.pdf">
+          <vrk><url ref="&LOdE;Libroj/V_bibl01.pdf">
           La pika damo</url></vrk>,
           <lok>2003-2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estis devigita plenumi funebran ceremonion <klr>[&#8230;]</klr> anta&ubreve; malplena
+        <tld/>o
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deksepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni metu la mortintojn alte &#11005; Sur katafalkon anta&ubreve; la popolo
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -26,8 +43,10 @@
   <trd lng="be">&c_k;&c_a;&c_t;&c_a;&c_f;&c_a;&c_l;&c_k;</trd>
   <trd lng="ca">cadafal</trd>
   <trdgrp lng="de">
-     <trd>Katafalk</trd>,
-     <trd>Trauerger&uuml;st</trd>
+    <trd>Katafalk</trd>,
+    <trd>Toten<ind>bahre</ind></trd>,
+    <trd>Schaubett</trd>,
+    <trd>Trauerger&uuml;st</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>catafalque</trd>,
@@ -36,14 +55,27 @@
   <trd lng="es">catafalco</trd>
   <trd lng="fr">catafalque</trd>
   <trd lng="hu">ravatal</trd>
+  <trd lng="ja">&#26874;&#21488;  <pr>&#12402;&#12388;&#12366;&#12384;&#12356;</pr></trd>
   <trd lng="nl">katafalk</trd>
   <trd lng="pl">katafalk</trd>
   <trd lng="ru">&c_k;&c_a;&c_t;&c_a;&c_f;&c_a;&c_l;&c_k;</trd>
-  <trd lng="uk">&#x43A;&#x430;&#x442;&#x430;&#x444;&#x430;&#x43B;&#x43A;</trd>
+  <trd lng="uk">&c_k;&c_a;&c_t;&c_a;&c_f;&c_a;&c_l;&c_k;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2023/11/24 18:31:06
+Wolfram Diestel: +trd de
+
+versio 1.18 2023/11/23 21:21:39
+Wolfram Diestel: fnt JED, +ekz-oj
+
+versio 1.17 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.15 2023/05/04 16:53:14
+revo: aktualigo URL-unuoj
+
 Revision 1.12  2014/10/28 20:10:15  revo
 Jeromo Vasxe: + ekz
 
@@ -54,14 +86,5 @@ Revision 1.10  2004/12/05 17:33:53  revo
 Marc Bavant: +trd fr
 
 Revision 1.9  2002/10/27 17:12:03  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2001/11/07 19:15:44  revo
-Ulrich Fellmann: + 2 germ trdj
-
-Revision 1.7  2001/09/10 18:11:26  revo
-Yury Finkel: +trd ru
-
-Revision 1.6  2001/06/13 18:14:01  revo
 -->
 </vortaro>

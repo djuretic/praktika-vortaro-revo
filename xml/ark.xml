@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ark.xml,v 1.64 2022/04/25 15:11:00 revo Exp $">
+<art mrk="$Id: ark.xml,v 1.75 2024/01/09 21:24:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ark</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,7 +11,7 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="ark.0o.KOMUNE">
     <dif>
-      Objekto havanta <ref tip="lst" lst="voko:formoj" cel="form.0o.aspekto">formon<sncref/></ref> 
+      Objekto havanta <ref tip="lst" lst="voko:formoj" cel="form.0o.aspekto">formon<sncref/></ref>
       de parto de cirklo a&ubreve; de simila kurbo:
       <ekz>
         <tld/>o de volbo, de fenestro;
@@ -29,12 +29,13 @@
       </ekz>
     </dif>
     <trd lng="de">Bogen</trd>
-    <trd lng="en">arch</trd>
+    <trd lng="en">arch<klr> (noun)</klr></trd>
     <trd lng="id">busur</trd>
     <trd lng="hu">&iacute;v</trd>
     <trd lng="pt">arco</trd>
     <trd lng="sv">b&aring;ge</trd>
-  </snc>
+    <trd lng="zh">&#x5F13; <pr>g&#x14D;ng</pr></trd>
+</snc>
   <snc mrk="ark.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="ark.0o.segmento">
@@ -69,7 +70,7 @@
         <trd>Bogenlinie</trd>,
         <trd>Kr&uuml;mmung</trd>
       </trdgrp>
-      <trd lng="en">arc<klr tip="ind"> (of a curve)</klr></trd>
+      <trd lng="en">arc<klr tip="ind"> (noun, of a curve)</klr></trd>
       <trd lng="fr">arc<klr tip="ind"> (de courbe)</klr></trd>
       <trd lng="hu">k&ouml;r&iacute;v</trd>
       <trd lng="nl">boog</trd>
@@ -148,9 +149,10 @@
       <trd>Bogen</trd>,
       <trd>Lichtbogen</trd>
     </trdgrp>
-    <trd lng="en">arc</trd>
+    <trd lng="en">arc<klr> (noun, electrical)</klr></trd>
     <trd lng="sv">ljusb&aring;ge</trd>
-  </snc>
+    <trd lng="zh">&#20809;&#x5F27; <pr>gu&amacron;ngh&#xFA;</pr></trd>
+</snc>
   <trd lng="be">&c_d;&c_u;&c_g;&c_a;</trd>
   <trd lng="bg">&c_d;&c_malmol;&c_g;&c_a;</trd>
   <trd lng="ca">arc</trd>
@@ -161,12 +163,19 @@
   <trd lng="he">&qof;&#x5B6;&shin;&#x5C1;&#x5B6;&tav;</trd>
   <trd lng="hu">f&eacute;ny&iacute;v</trd>
   <trd lng="it">arco</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F13;&#x5F62;  <pr>&#12422;&#x307F;&#x306A;&#x308A;</pr></trd>,
+    <trd>&#x5F13;  <pr>&#x305F;&#12425;&#12375;</pr></trd>,
+    <trd>&#x5F27;  <pr>&#12371;</pr></trd>,
+    <trd>&#x30A2;&#x30FC;&#x30C1;  <pr>&#12354;&#x30FC;&#12385;</pr></trd>,
+    <trd>&#x96FB;&#x5F27;  <pr>&#12356;&#x306A;&#x305A;&#x307E;&#12371;</pr></trd>
+  </trdgrp>
   <trd lng="nl">boog</trd>
   <trd lng="ru">&c_d;&c_u;&c_g;&c_a;</trd>
   <trd lng="sk">obl&uacute;k</trd>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x443;&#x433;&#x430;</trd>,
-    <trd>&#x430;&#x440;&#x43A;&#x430;</trd>
+    <trd>&c_d;&c_u;&c_g;&c_a;</trd>,
+    <trd>&c_a;&c_r;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -176,15 +185,23 @@
     <dif>
       Stari la&ubreve; formo de <tld/>o:
       <ekz>
-        vasta kavo <klr>[&#x2026;]</klr> <tld/>is alte super iliaj kapoj
+        vasta kavo <klr>[&#8230;]</klr> <tld/>is alte super iliaj kapoj
         <fnt><bib>DOz</bib>, <lok>&leftquot;la kavo de la
         draketoj&rightquot;</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_y;&c_g;&c_ib;&c_n;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_v;&c_a;&c_r;&c_a;&c_c;&c_mol; <ind>&c_a;&c_r;&c_k;&c_u;</ind></trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>arquejar-se</trd>,
     <trd>tindre forma d'arc</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>arc<klr> (vi)</klr></trd>,
+    <trd>arch<klr> (vi)</klr></trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>tener forma de arco</trd>,
@@ -217,9 +234,7 @@
       <ekz>
         tio &ccirc;i estas speco de ponto kun grandega <tld/>a&jcirc;o
         <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj, la
-        lo&gcirc;ejoj
-        de
-        la termitoj</lok></fnt>;
+        lo&gcirc;ejoj  de la termitoj</lok></fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -230,7 +245,7 @@
     <trd lng="be">&c_a;&c_r;&c_k;&c_a;</trd>
     <trd lng="ca">arc <klr>(arq.)</klr></trd>
     <trd lng="de">Bogen</trd>
-    <trd lng="en">arch</trd>
+    <trd lng="en">arch<klr> (noun)</klr></trd>
     <trdgrp lng="fr">
       <trd>arc<klr tip="ind"> (archi.)</klr></trd>,
       <trd>arche<klr tip="ind"> (d'un pont)</klr></trd>,
@@ -243,10 +258,16 @@
     <trd lng="nl">boog</trd>
     <trd lng="ru">&c_a;&c_r;&c_k;&c_a;</trd>
     <trd lng="sv">b&aring;ge</trd>
-  </snc>
+    <trd lng="zh">&#x5F13; <pr>g&#x14D;ng</pr></trd>
+</snc>
   <trd lng="bg">&c_a;&c_r;&c_k;&c_a;</trd>
   <trd lng="he">&qof;&#x5B6;&shin;&#x5C1;&#x5B6;&tav;</trd>
-  <trd lng="uk">&#x441;&#x43A;&#x43B;&#x435;&#x43F;&#x456;&#x43D;&#x43D;&#x44F;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F13;&#x5F62;&#x306E;&#12418;&#x306E; 
+    <pr>&#12422;&#x307F;&#x304B;&#x305F;&#x306E;&#12418;&#x306E;</pr></trd>,
+    <trd>&#x30A2;&#x30FC;&#x30C1;  <pr>&#12354;&#x30FC;&#12385;</pr></trd>
+  </trdgrp>
+  <trd lng="uk">&c_s;&c_k;&c_l;&c_je;&c_p;&c_ib;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="ark.0ajxaro">
@@ -270,11 +291,12 @@
       <trd>Bogenreihe</trd>
     </trdgrp>
     <trd lng="en">arcade</trd>
-    <trd lng="es">arcada <klr>(arquitectura)</klr></trd> 
+    <trd lng="es">arcada <klr>(arquitectura)</klr></trd>
     <trd lng="hu">&aacute;rk&aacute;dsor</trd>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_k;&c_a;&c_d;&c_a;</trd>
   <trd lng="bg">&c_a;&c_r;&c_k;&c_a;&c_d;&c_a;</trd>
+  <trd lng="fr">arcade</trd>
   <trd lng="he">&qof;&#x5B7;&shin;&#x5C1;&tav;&vav;&#x5BC;&tav;</trd>
   <trd lng="nl">arcade</trd>
   <trd lng="ru">&c_a;&c_r;&c_k;&c_a;&c_d;&c_a;</trd>
@@ -305,7 +327,11 @@
     <refgrp tip="vid">
       <ref cel="gxib.0o">&gcirc;ibo</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4F7F;&#x5F2F;&#x66F2; <pr>sh&#x1D0;w&amacron;nq&#x1D4;</pr></trd>,
+    <trd>&#x4F7F;&#x5F4E;&#x66F2; <pr>sh&#x1D0;w&amacron;nq&#x1D4;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_a;&c_g;&c_n;&c_u;&c_c;&c_mol; &c_u;
     &c_d;&c_u;&c_g;&c_u;</trd>,
@@ -322,11 +348,11 @@
     <trd>biegen</trd>
   </trdgrp>
   <trdgrp lng="en">
-    <trd>arch</trd>,
-    <trd>bend</trd>,
-    <trd>camber</trd>,
-    <trd>curve</trd>,
-    <trd>hump</trd>
+    <trd>arch<klr> (vt)</klr></trd>,
+    <trd>bend<klr> (vt)</klr></trd>,
+    <trd>camber<klr> (vt)</klr></trd>,
+    <trd>curve<klr> (vt)</klr></trd>,
+    <trd>hump<klr> (vt)</klr></trd>
   </trdgrp>
   <trd lng="es">arquear</trd>
   <trd lng="fr">arquer</trd>
@@ -340,6 +366,12 @@
     <trd>arcuare</trd>,
     <trd>archeggiare<klr> (tr.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5F13;&#x306A;&#x308A;&#x306B;&#x66F2;&#12370;&#x308B; 
+    <pr>&#12422;&#x307F;&#x306A;&#x308A;&#x306B;&#x307E;&#12370;&#x308B;</pr></trd>,
+    <trd>&#x30A2;&#x30FC;&#x30C1;&#x5F62;&#x306B;&#12377;&#x308B; 
+    <pr>&#x30A2;&#x30FC;&#x30C1;&#x304B;&#x305F;&#x306B;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>krommen</trd>,
     <trd>buigen</trd>
@@ -347,9 +379,57 @@
   <trd lng="sk">ohn&uacute;&tcaron; do obl&uacute;ka</trd>
   <trd lng="sv">b&ouml;ja</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x433;&#x438;&#x43D;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x433;&#x43D;&#x443;&#x442;&#x438;</trd>
+    <trd>&c_z;&c_g;&c_i;&c_n;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_g;&c_n;&c_u;&c_t;&c_i;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="ark.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="ark.0igxi.KOMUNE">
+    <dif>
+      I&gcirc;i <tld/>oforma:
+      <ekz>
+        miaj brovoj <tld/>i&gcirc;is
+        <fnt>
+          <aut>T. Steele</aut>
+          <vrk>Aventuroj de naivulo en la oceano de literatura business</vrk>
+          <lok>Beletra Almanako, 2008-09 (3)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se <ind>vouter</ind></trd>
+</drv>
+
+<drv mrk="ark.0ileto">
+  <kap>
+    <tld/>ileto
+  </kap>
+  <snc mrk="ark.0ileto.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Eta portebla ilo por veldi per elektra <tld/>o:
+      <ekz>
+        dum &gcirc;i komencis glitfermi&gcirc;i, mi prenis la <tld/>ileton el mia sako, kaj fulme
+        turnis min, tuj kiam &gcirc;i estis sin plene ferminta
+        <fnt>
+          <aut>Harry Harrison (tr. R. F&ouml;ssmeier, E. Grimley Evans, R. Helm k. a.)</aut>
+          <vrk><url ref="&LOdE;Rato01.htm">Naski&gcirc;o de la Rustimuna &Scirc;talrato</url></vrk>
+          <lok>&Ccirc;ap. 1</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+      La "termino" aperas kiel hapakso en unuopa verko kaj pro nespecifeco eble ne ta&ubreve;gus kiel
+      faktermino.
+      Aliaj kandidatoj estus "arkografo", "veldskribilo", "elektra veldileto", "elektra gravurilo".
+  </adm>
+  <trd lng="be">&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_a;&c_l;&c_o;&c_v;&c_a;&c_k;</trd>
+  <trd lng="de">Elektroschreiber</trd>
+  <trd lng="en">arc pen</trd>
 </drv>
 
 <drv mrk="ark.apog0o">
@@ -377,6 +457,10 @@
     </dif>
   </snc>
   <trd lng="bg">&c_p;&c_o;&c_d;&c_p;&c_o;&c_r;&c_n;&c_a; &c_a;&c_r;&c_k;&c_a;</trd>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_d;&c_p;&c_o;&c_r;&c_n;&c_a;&c_ja; <ind>&c_a;&c_r;&c_k;&c_a;</ind></trd>,
+    <trd>&c_a;&c_r;&c_k;&c_b;&c_u;&c_t;&c_a;&c_n;</trd>
+  </trdgrp>
   <trd lng="ca">arcbotant</trd>
   <trd lng="cs">op&ecaron;rn&yacute; oblouk</trd>
   <trdgrp lng="de"><trd>Bogenst&uuml;tze</trd>,
@@ -385,6 +469,7 @@
   <trd lng="fr">arc-boutant</trd>
   <trd lng="hu">t&aacute;m&iacute;v</trd>
   <trd lng="it">contrafforte</trd>
+  <trd lng="ja">&#x98DB;&#26753;  <pr>&#12392;&#x306F;&#x308A;</pr></trd>
   <trd lng="nl">steunbeer</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_d;&c_p;&c_o;&c_r;&c_n;&c_a;&c_ja;
@@ -394,14 +479,15 @@
   </trdgrp>
   <trd lng="sk">oporn&yacute; obl&uacute;k</trd>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x440;&#x43A;&#x431;&#x443;&#x442;&#x430;&#x43D;</trd>,
-    <trd>&#x437;&#x43E;&#x432;&#x43D;&#x456;&#x448;&#x43D;&#x44F; &#x43E;&#x43F;&#x43E;&#x440;&#x43D;&#x430;&#xA0;&#x430;&#x440;&#x43A;&#x430;</trd>
+    <trd>&c_a;&c_r;&c_k;&c_b;&c_u;&c_t;&c_a;&c_n;</trd>,
+    <trd>&c_z;&c_o;&c_v;&c_n;&c_ib;&c_sh;&c_n;&c_ja; &c_o;&c_p;&c_o;&c_r;&c_n;&c_a;&nbsp;&c_a;&c_r;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="ark.cxiel0o">
   <kap><ofc>*</ofc>&ccirc;iel<tld/>o
-  <fnt><bib>F</bib>, <lok>Universala Vortaro, <url ref="&AdE;/fundamento/universala_vortaro.html#av-4990">&ccirc;iel'ark'</url></lok></fnt></kap>
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, <url
+  ref="&AdE;/fundamento/universala_vortaro.html#av-4990">&ccirc;iel'ark'</url></lok></fnt></kap>
   <snc mrk="ark.cxiel0o.MET">
     <uzo tip="fak">MET</uzo>
     <dif>
@@ -414,25 +500,34 @@
         <fnt><bib>NT</bib>, <lok>&Apo; 10:1</lok></fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5F69;&#34425; <pr>c&#x1CE;ih&#xF3;ng</pr></trd>,
+    <trd>&#34425; <pr>ji&#xE0;ng</pr></trd>,
+    <trd>&#34600;&#34624; <pr>di&#xE8;d&#xF2;ng</pr></trd>,
+    <trd>&#34600;&#34624; <pr>ti&#x11B;d&#xF2;ng</pr></trd>,
+    <trd>&#34678;&#34624; <pr>di&#xE8;d&#xF2;ng</pr></trd>,
+    <trd>&#34425; <pr>h&#xF3;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_v;&c_ja;&c_s;&c_jo;&c_l;&c_k;&c_a;</trd>
   <trd lng="bg">&c_d;&c_malmol;&c_g;&c_a; (&c_v; &c_n;&c_je;&c_b;&c_je;&c_t;&c_o;)</trd>
   <trd lng="bo">&t_-a;&t_ja;&t_-a;&t_tsheg;</trd>
   <trd lng="ca">arc de Sant Mart&iacute;</trd>
   <trd lng="de">Regenbogen</trd>
   <trd lng="en">rainbow</trd>
-  <trd lng="es">arco&iacute;ris</trd> 
+  <trd lng="es">arco&iacute;ris</trd>
   <trd lng="fr">arc-en-ciel</trd>
   <trd lng="hu">sziv&aacute;rv&aacute;ny</trd>
   <trd lng="id">pelangi</trd>
   <trd lng="it">arcobaleno</trd>
+  <trd lng="ja">&#34425;  <pr>&#x306B;&#12376;</pr></trd>
   <trd lng="nl">regenboog</trd>
   <trd lng="ru">&c_r;&c_a;&c_d;&c_u;&c_g;&c_a;</trd>
   <trd lng="sk">d&uacute;ha</trd>
   <trd lng="sv">regnb&aring;ge</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x435;&#x441;&#x435;&#x43B;&#x43A;&#x430;</trd>,
-    <trd>&#x440;&#x430;&#x439;&#x434;&#x443;&#x433;&#x430;</trd>
+    <trd>&c_v;&c_je;&c_s;&c_je;&c_l;&c_k;&c_a;</trd>,
+    <trd>&c_r;&c_a;&c_j;&c_d;&c_u;&c_g;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -442,10 +537,10 @@
     <uzo tip="fak">AST</uzo>
     <dif>
       Aspekto de la luno, kiam videblas eta, <tld/>oforma parto de
-      &gcirc;i 
+      &gcirc;i
       komence a&ubreve; fine de &gcirc;ia ciklo:
       <ekz>
-        nun restis nur eta parto de la Luno lumigita, nur eta 
+        nun restis nur eta parto de la Luno lumigita, nur eta
         lun<tld/>o
         <fnt>
           <aut>W. Cayzac</aut>,
@@ -458,7 +553,8 @@
     <refgrp tip="vid">
       <ref cel="kresce.0o">krescento</ref>
     </refgrp>
-  </snc>
+    <trd lng="zh">&#x534A;&#26376;&#x5F62; <pr>b&#xE0;nyu&#xE8;x&#xED;ng</pr></trd>
+</snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_w;&c_m;&c_je;&c_s;&c_ja;&c_c;</trd>,
     <trd>&c_s;&c_je;&c_r;&c_p; &c_m;&c_je;&c_s;&c_ja;&c_c;&c_a;</trd>
@@ -474,6 +570,7 @@
     <trd>Mondsichel</trd>,
     <trd>Halbmond</trd>
   </trdgrp>
+  <trd lng="en">crescent moon</trd>
   <trd lng="fr">croissant<klr tip="ind"> (de lune)</klr></trd>
   <trd lng="hu">holdsarl&oacute;</trd>
   <trdgrp lng="id">
@@ -481,6 +578,10 @@
     <trd>bulan sabit</trd>
   </trdgrp>
   <trd lng="it">mezzaluna</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E09;&#x65E5;&#26376;  <pr>&#x307F;&#x304B;&#12389;&#x304D;</pr></trd>,
+    <trd>&#x5F26;&#26376;  <pr>&#12370;&#12435;&#12370;&#12388;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>sierp <ind>ksi&eogonek;&zdot;yca</ind></trd>,
     <trd>rogal<klr> ksi&eogonek;&zdot;yca</klr></trd>
@@ -493,11 +594,11 @@
   </trdgrp>
   <trd lng="sv">m&aring;nsk&auml;ra</trd>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x43F;&#x43E;&#x432;&#x43D;&#x438;&#x439; &#x43C;&#x456;&#x441;&#x44F;&#x446;&#x44C;</trd>,
-    <trd>&#x43C;&#x456;&#x441;&#x44F;&#x447;&#x43D;&#x430; &#x434;&#x443;&#x433;&#x430;</trd>,
-    <trd>&#x440;&#x456;&#x436;&#x43E;&#x43A; &#x43C;&#x456;&#x441;&#x44F;&#x446;&#x44F;</trd>,
-    <trd>&#x43C;&#x456;&#x441;&#x44F;&#x447;&#x43D;&#x438;&#x439; &#x441;&#x435;&#x440;&#x43F;</trd>,
-    <trd>&#x43F;&#x456;&#x432;&#x43C;&#x456;&#x441;&#x44F;&#x446;&#x44C;</trd>
+    <trd>&c_n;&c_je;&c_p;&c_o;&c_v;&c_n;&c_i;&c_j; &c_m;&c_ib;&c_s;&c_ja;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_ib;&c_s;&c_ja;&c_ch;&c_n;&c_a; &c_d;&c_u;&c_g;&c_a;</trd>,
+    <trd>&c_r;&c_ib;&c_zh;&c_o;&c_k; &c_m;&c_ib;&c_s;&c_ja;&c_c;&c_ja;</trd>,
+    <trd>&c_m;&c_ib;&c_s;&c_ja;&c_ch;&c_n;&c_i;&c_j; &c_s;&c_je;&c_r;&c_p;</trd>,
+    <trd>&c_p;&c_ib;&c_v;&c_m;&c_ib;&c_s;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
 </drv>
 
@@ -527,18 +628,20 @@
     <trd>Schie&szlig;bogen</trd>,
     <trd>Flitzebogen</trd>
   </trdgrp>
-  <trd lng="en">bow</trd>
+  <trd lng="en">bow<klr> (noun)</klr></trd>
   <trd lng="es">arco <klr>(arma)</klr></trd>
   <trd lng="fr">arc<klr tip="ind"> (arme)</klr></trd>
   <trd lng="hu">&iacute;j</trd>
   <trd lng="id">busur panah</trd>
   <trd lng="it">arco<klr> (arma)</klr></trd>
+  <trd lng="ja">&#x5F13;  <pr>&#x305F;&#12425;&#12375;</pr></trd>
   <trd lng="nl">boog<klr tip="ind"> (wapen)</klr></trd>
   <trd lng="ru">&c_l;&c_u;&c_k;<klr tip="amb">
   (&c_o;&c_r;&c_u;&c_zh;&c_i;&c_je;)</klr></trd>
   <trd lng="sk">luk</trd>
   <trd lng="sv">pilb&aring;ge</trd>
-  <trd lng="uk">&#x43B;&#x443;&#x43A;</trd>
+  <trd lng="uk">&c_l;&c_u;&c_k;</trd>
+  <trd lng="zh">&#x5F13;&#x7BAD; <pr>g&#x14D;ngji&#xE0;n</pr></trd>
 </drv>
 
 <drv mrk="ark.pint0o">
@@ -550,7 +653,7 @@
       meza
       pinto:
       <ekz>
-        pre&gcirc;ejoj <klr>[&#x2026;]</klr> kun altaj turoj kaj pint<tld/>aj
+        pre&gcirc;ejoj <klr>[&#8230;]</klr> kun altaj turoj kaj pint<tld/>aj
         fenestroj
         <fnt><bib>Fab1</bib>, <lok>sova&gcirc;aj cignoj</lok></fnt>.
       </ekz>
@@ -559,6 +662,7 @@
       <ref cel="ogiv.0o">ogivo</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_ch;&c_a;&c_s;&c_t;&c_a;&c_je; <ind>&c_s;&c_k;&c_l;&c_ja;&c_p;&c_je;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
   <trd lng="ca">ogiva</trd>
   <trdgrp lng="cs">
     <trd>gotick&yacute; oblouk</trd>,
@@ -572,12 +676,14 @@
     <trd>costolone</trd>,
     <trd>ogiva<klr> (arch.)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#x5C16;&#x982D;&#x30A2;&#x30FC;&#x30C1; 
+  <pr>&#12392;&#x304C;&#12354;&#x305F;&#x307E;&#12354;&#x30FC;&#12385;</pr></trd>
   <trd lng="nl">spitsboog</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_y;&c_j;
   &c_s;&c_v;&c_o;&c_d;</trd>
   <trd lng="sk">gotick&yacute; obl&uacute;k</trd>
   <trd lng="sv">spetsb&aring;ge</trd>
-  <trd lng="uk">&#x448;&#x43F;&#x438;&#x43B;&#x44C;&#x447;&#x430;&#x441;&#x442;&#x430; &#x430;&#x440;&#x43A;&#x430;</trd>
+  <trd lng="uk">&c_sh;&c_p;&c_i;&c_l;&c_mol;&c_ch;&c_a;&c_s;&c_t;&c_a; &c_a;&c_r;&c_k;&c_a;</trd>
 </drv>
 
 <drv mrk="ark.pluv0o">
@@ -595,7 +701,15 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5F69;&#34425; <pr>c&#x1CE;ih&#xF3;ng</pr></trd>,
+    <trd>&#34425; <pr>ji&#xE0;ng</pr></trd>,
+    <trd>&#34600;&#34624; <pr>di&#xE8;d&#xF2;ng</pr></trd>,
+    <trd>&#34600;&#34624; <pr>ti&#x11B;d&#xF2;ng</pr></trd>,
+    <trd>&#34678;&#34624; <pr>di&#xE8;d&#xF2;ng</pr></trd>,
+    <trd>&#34425; <pr>h&#xF3;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_v;&c_ja;&c_s;&c_jo;&c_l;&c_k;&c_a;</trd>
   <trd lng="bg">&c_d;&c_malmol;&c_g;&c_a; (&c_v; &c_n;&c_je;&c_b;&c_je;&c_t;&c_o;)</trd>
   <trd lng="ca">arc de Sant Mart&iacute;</trd>
@@ -633,7 +747,9 @@
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_r;&c_y;&c_ju;&c_m;&c_f;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_a;&c_r;&c_k;&c_a;</trd>
+  <trd lng="en">triumphal arch</trd>
   <trd lng="fr">arc de triomphe</trd>
+  <trd lng="ja">&#x51F1;&#x65CB;&#38272;  <pr>&#x304C;&#12356;&#x305B;&#12435;&#12418;&#12435;</pr></trd>
 </drv>
 
 <drv mrk="ark.vest0o">
@@ -645,7 +761,7 @@
       provizita per hoko, por pendigo de vestoj:
       <ekz>
         li tamen faligis kelkajn vest<tld/>ojn, li &ccirc;iam faligis
-        ilin 
+        ilin
         kiam li klopodis esti silenta
         <fnt>
           <aut>T. Jansson, trad. A. Nordstr&ouml;m</aut>,
@@ -657,19 +773,25 @@
     </dif>
   </snc>
   <trd lng="bg">&c_z;&c_a;&c_k;&c_a;&c_ch;&c_a;&c_l;&c_k;&c_a;</trd>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_l;&c_je;&c_ch;&c_k;&c_ib; <klr tip="amb">(&c_d;&c_l;&c_ja; &c_a;&c_d;&c_z;&c_je;&c_n;&c_mol;&c_n;&c_ja;)</klr></trd>,
+    <trd>&c_v;&c_je;&c_sh;&c_a;&c_l;&c_k;&c_a;</trd>
+  </trdgrp>
   <trd lng="ca">penja-robes</trd>
   <trd lng="cs">ram&iacute;nko na &scaron;aty</trd>
   <trd lng="de">Kleiderb&uuml;gel</trd>
+  <trd lng="en">hanger<klr> (for clothes)</klr></trd>
   <trd lng="es">percha</trd>
   <trd lng="fr">cintre<klr> (&agrave; v&ecirc;tements)</klr></trd>
   <trdgrp lng="it">
     <trd>attaccapanni</trd>,
     <trd>gruccia<klr> (appendiabiti)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#x30CF;&#x30F3;&#x30AC;&#x30FC;</trd>
   <trd lng="sk">ve&scaron;iak</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43B;&#x456;&#x447;&#x43A;&#x430;</trd>,
-    <trd>&#x432;&#x456;&#x448;&#x430;&#x43B;&#x43A;&#x430;</trd>
+    <trd>&c_p;&c_l;&c_ib;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_v;&c_ib;&c_sh;&c_a;&c_l;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -679,7 +801,7 @@
   </kap>
   <snc>
     <dif>
-      Unu el internaciaj ne&scirc;tataj <ref tip="super" cel="organi2.0o">organizo</ref>j 
+      Unu el internaciaj ne&scirc;tataj <ref tip="super" cel="organi2.0o">organizo</ref>j
       laborantaj sub simbolo de (<ref tip="sin" cel="kruc.Rugxa_0o">ru&gcirc;a kruco</ref> kaj)
       ru&gcirc;a <ref cel="ark.lun0o">lun<tld/>o</ref> helpantaj al homoj &ccirc;e malsanoj, akcidentoj, malsato
       ks:
@@ -700,34 +822,33 @@
   <trd lng="de">Roter Halbmond</trd>
   <trd lng="en">Red Crescent</trd>
   <trd lng="fr">Croissant-Rouge</trd>
-  <trd lng="uk">&#x427;&#x435;&#x440;&#x432;&#x43E;&#x43D;&#x438;&#x439; &#x41F;&#x456;&#x432;&#x43C;&#x456;&#x441;&#x44F;&#x446;&#x44C;</trd>
+  <trd lng="uk">&c_Ch;&c_je;&c_r;&c_v;&c_o;&c_n;&c_i;&c_j; &c_P;&c_ib;&c_v;&c_m;&c_ib;&c_s;&c_ja;&c_c;&c_mol;</trd>
 </drv>
-
 
 </art>
 <!--
 $Log$
-versio 1.64 2022/04/25 15:11:00
-aktualigo ligvokodoj kaj URL-unuoj
+versio 1.75 2024/01/09 21:24:23
+Jeromo Vasxe: + ~igxi
 
-versio 1.56 2021/08/20 13:33:46
+versio 1.73 2023/10/13 16:46:48
+revo: transskribo per <pr>
+
+versio 1.71 2023/07/13 10:34:12
 Dmitri Gabinski: + trd be
 
-versio 1.55 2021/07/04 08:32:09
-Damien Brucker: -eraro cxe cel en ref
+versio 1.70 2023/05/02 15:56:28
+revo: aktualigo URL-unuoj
 
-versio 1.54 2021/07/03 19:20:13
-Wolfram Diestel: +Rugha Lun~o
+versio 1.69 2023/02/25 04:32:06
+Robert Baruch: +trd: en
 
-versio 1.52 2020/12/29 10:10:36
-Aleks Andre: bo
+versio 1.68 2023/02/24 19:22:18
+Robert Baruch: +trd: en
 
-Revision 1.50  2017/12/19 14:10:26  revo
-Michel Cantigneaux: "cxiel/ark/o" fundamenta kunmetajxo el la U.V.
+versio 1.67 2023/02/07 16:39:11
+Wolfram Diestel: arkileto: +adm, kor. trd de
 
-Revision 1.49  2017/02/17 09:10:15  revo
-Lyubomir Vasilev: +trd bg
-
-Revision 1.48  2016/11/26 18:10:15  revo
+versio 1.66 2023/02/07 07:25:47
 -->
 </vortaro>

@@ -1,38 +1,47 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kejl.xml,v 1.23 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: kejl.xml,v 1.36 2024/01/21 13:49:05 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>kejl</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kejl</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
 
 <drv mrk="kejl.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TEK</uzo>
-  <snc>
+  <snc mrk="kejl.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      Ligna a&ubreve; metala peco, &gcirc;enerale <ref tip="vid" cel="kojn.0o">kojno</ref>forma, uzata anstata&ubreve; najlo,
-      por perforte &scirc;topi truon a&ubreve; rigide kunfiksi du partopecojn:
+      <ref tip="super" cel="pec.0o.rompajxo">Peco</ref> el
+      firma materialo (ligno, metalo k.a.),
+      &gcirc;enerale <ref tip="sin" cel="konus.0o.KOMUNE">konus-</ref>
+      a&ubreve; <ref cel="kojn.0o">kojno</ref>forma, uzata por perforte &scirc;topi truon
+      a&ubreve; rigide kunfiksi du partopecojn:
       <ekz>
-        al&gcirc;ustiga, duobla, kalkana, konkava, kvadrata, ronda <tld/>o;
+        al&gcirc;ustiga,
+        <!-- duobla (&ccirc;u fendostifto?), kalkana (&ccirc;u kalkana kojno a&ubreve; nazokejlo?), -->
+        konkava, kvadrata, ronda <tld/>o;
       </ekz>
       <ekz>
+        aks<tld/>o <fnt><bib>PVEF</bib></fnt>,
+        &scirc;top<tld/>o <klr>(vd <ref tip="sin" cel="sxtop.0ilo.ferm">&scirc;topilo<sncref/></ref>)</klr>
+        <fnt><bib>PIV1</bib></fnt>,
+        agordo<tld/>o <klr>(vd <ref tip="sin" cel="agord.0ilo.parto">agordilo<sncref/></ref>)</klr>
+        <fnt><bib>PIV2</bib></fnt>;
+      </ekz>
+      <ekz>
+        en la mezepoko oni konstruis malmultekoste domojn el ligno, sen najloj la&ubreve; la tekniko de la
+        tenono kaj mortezo,
         la trabkuni&gcirc;o funkciis nur per <tld/>oj
         <fnt>
-          <bib>Monato</bib>
           <aut>Elisabeth Le Dru</aut>
-          <vrk><url ref="&Monato;/2010/009948.php"
-              >Vizito al Vannes</url></vrk>
-          <lok>2010</lok>
+          <vrk><url ref="&Monato;/2010/009948.php">Vizito al Vannes</url></vrk>
+              <bib>Monato</bib> <lok>2010/06, p. 14</lok>
         </fnt>;
       </ekz>
       <ekz>
         tie kaj tie &scirc;i vidis mapojn kaj bildojn pendantajn de <tld/>oj
-        <fnt>
-          <bib>LOdE</bib>
-          <lok>1999, No 10 (60)</lok>
-        </fnt>.
+        <fnt><bib>LOdE</bib> <lok>1999, &#8470; 10 (60)</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -41,57 +50,134 @@
       <ref cel="sxtop.0ilo">&scirc;topilo</ref>,
       <ref cel="tenon.0o">tenono</ref>
     </refgrp>
+    <rim>
+      Ofte estas prefereble paroli distinge pri lignonajlo, aksfiksilo, tendonajlo,
+      barel&scirc;topilo por klare esprimi la koncernan objekton.
+      <aut>Wolfram Diestel</aut>
+    </rim>
+    <bld
+      lok="&WCU;/thumb/a/a5/Schloss_Weitra_1979.JPG/640px-Schloss_Weitra_1979.JPG"
+      prm="CC BY-SA 4.0"
+      >lignaj <tld/>oj (elstarantaj el trabtruoj) sekurigantaj la juntojn inter traboj
+        <fnt>
+          <aut>1=WikiCommons/Karl Gruber, propra verko</aut>
+          <lok><url ref="&WCW;/File:Schloss_Weitra_1979.JPG"
+              >https://commons.wikimedia.org/wiki/File:Schloss_Weitra_1979.JPG</url></lok>
+        </fnt>
+        <mrk stl="top:26.5%;left:21.2%;height:30px;width:30px;border-radius: 50%;
+         border: 2px solid rgb(200,200,0); background: none"/>
+         <mrk stl="top:40.2%;left:42.2%;height:30px;width:30px;border-radius: 50%;
+         border: 2px solid rgb(200,200,0); background: none"/>
+         <mrk stl="top:71.8%;left:38.8%;height:30px;width:30px;border-radius: 50%;
+         border: 2px solid rgb(200,200,0); background: none"/>
+    </bld>
+    <trdgrp lng="be">
+      <trd>&c_z;&c_a;&c_g;&c_v;&c_a;&c_z;&c_d;&c_k;&c_a;</trd>,
+      <trd>&c_k;&c_a;&c_l;&c_o;&c_k;</trd>,
+      <trd>&c_sh;&c_y;&c_p;</trd>
+    </trdgrp>
+    <trd lng="br">ibil</trd>
+    <trdgrp lng="cs">
+      <trd>kl&iacute;n</trd>,
+      <trd>kol&iacute;k</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Stopfen</trd>,
+      <trd>Pfropfen</trd>,
+      <trd>Spund</trd>,
+      <trd>Keil</trd>,
+      <trd>Holznagel</trd>,
+      <trd>Hering <klr>(Zeltnagel)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>peg</trd>,
+      <trd>pin</trd>,
+      <trd>dowel</trd>
+    </trdgrp>
+    <trd lng="fr">cheville<klr tip="ind"> (de fixation)</klr></trd>
+    <trdgrp lng="hu">
+      <trd>&eacute;k</trd>,
+      <trd>csap</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>spie</trd>,
+      <trd>pin</trd>
+    </trdgrp>
+    <trd lng="pl">klin</trd>
+    <trd lng="ro">pan&abreve;</trd>
+    <trdgrp lng="ru">
+      <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
+      <trd>&c_k;&c_o;&c_l;&c_y;&c_sh;&c_je;&c_k;</trd>,
+      <trd>&c_sh;&c_i;&c_p;</trd>
+    </trdgrp>
+    <trdgrp lng="sk">
+      <trd>klin <klr>(sp&aacute;jac&iacute;, upev&ncaron;ovac&iacute;)</klr></trd>,
+      <trd>klin <klr>(sp&aacute;jac&iacute;| upev&ncaron;ovac&iacute;)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="uk">
+      <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
+      <trd>&c_z;&c_a;&c_g;&c_v;&c_ib;&c_z;&c_d;&c_o;&c_k;</trd>,
+      <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&#8217;&c_ja;&c_n;&c_i;&c_j; &c_c;&c_v;&c_ja;&c_h;</trd>,
+      <trd>&c_k;&c_ib;&c_l;&c_o;&c_ch;&c_o;&c_k;</trd>,
+      <trd>&c_sh;&c_i;&c_p;</trd>,
+      <trd>&c_z;&c_a;&c_j;&c_v;&c_ib; &c_s;&c_l;&c_o;&c_v;&c_a;</trd>,
+      <trd>&c_r;&c_o;&c_z;&c_t;&c_ja;&c_g;&c_n;&c_u;&c_t;&c_ib;&c_s;&c_t;&c_mol; (&c_u; &c_v;&c_ib;&c_r;&c_sh;&c_ib;)</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_z;&c_a;&c_g;&c_v;&c_a;&c_z;&c_d;&c_k;&c_a;</trd>,
-    <trd>&c_k;&c_a;&c_l;&c_o;&c_k;</trd>,
-    <trd>&c_sh;&c_y;&c_p;</trd>
+  <snc mrk="kejl.0o.figure">
+    <uzo tip="fak">POE</uzo>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="dif" cel="sxtop.0vorto.POE">&Scirc;topvorto<sncref/></ref>:
+      <ekz>
+        ripetata apostrofado <klr>[&#8230;]</klr> &gcirc;enas se tro persista, des pli se kombine kun unusilabaj
+        <tld/>oj kiel &leftquot;ja&rightquot;, &leftquot;jen&rightquot;, &leftquot;do&rightquot;
+        <fnt>
+          <aut>Jorge Camacho</aut>
+          <vrk><url ref="&Monato;/2000/006767.php">Pretas jen monument&#8217;!</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/01, p. 6</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">F&uuml;llwort</trd>
+    <trd lng="es">muletilla</trd>
+    <trd lng="nl">stopwoord</trd>
+  </snc>
+  <snc mrk="kejl.0o.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Bildo, sentenco, anonceto ks uzata por plenigi truon esti&gcirc;intan dum enpa&gcirc;igo:
+      <ekz>
+        la redaktoroj sugestu al la grafikisto kelkajn <tld/>ojn por &scirc;topi truojn dum la enpa&gcirc;igo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="&Monato;/red/xml.php">Teknikaj konvencioj</url></vrk>,
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>F&uuml;ller <klr>(Textsatz)</klr></trd>,
+      <trd>Platzhalter</trd>
+    </trdgrp>
+    <trd lng="nl">bladvulsel</trd>
+  </snc>
+  <trdgrp lng="ja">
+    <trd>&#26408;&#37336;  <pr>&#12365;&#12367;&#12366;</pr></trd>,
+    <trd>&#26643;  <pr>&#12379;&#12435;</pr></trd>,
+    <trd>&#12367;&#12373;&#12403;</trd>,
+    <trd>&#12461;&#12540;  <pr>&#12365;&#12540;</pr></trd>,
+    <trd>&#12500;&#12531;</trd>,
+    <trd>&#20887;&#35486;  <pr>&#12376;&#12423;&#12358;&#12372;</pr></trd>,
+    <trd>&#34394;&#36766;  <pr>&#12365;&#12423;&#12376;</pr></trd>
   </trdgrp>
-  <trd lng="br">ibil</trd>
-  <trdgrp lng="cs">
-    <trd>kl&iacute;n</trd>,
-    <trd>kol&iacute;k</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Stopfen</trd>,
-    <trd>Pfropfen</trd>,
-    <trd>Stift</trd>,
-    <trd>Keil</trd>,
-    <trd>Holznagel</trd>,
-    <trd>Hering <klr>(Zeltnagel)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>peg</trd>,
-    <trd>pin</trd>
-  </trdgrp>
-  <trd lng="fr">cheville<klr tip="ind"> (de fixation)</klr></trd>
-  <trdgrp lng="hu">
-    <trd>&eacute;k</trd>,
-    <trd>csap</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>spie</trd>,
-    <trd>pin</trd>
-  </trdgrp>
-  <trd lng="pl">klin</trd>     
-  <trd lng="ro">pan&abreve;</trd>
-  <trdgrp lng="ru">
-    <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
-    <trd>&c_k;&c_o;&c_l;&c_y;&c_sh;&c_je;&c_k;</trd>,
-    <trd>&c_sh;&c_i;&c_p;</trd>
-  </trdgrp>
-  <trdgrp lng="sk">
-    <trd>klin <klr>(sp&aacute;jac&iacute;, upev&ncaron;ovac&iacute;)</klr></trd>,
-    <trd>klin <klr>(sp&aacute;jac&iacute;| upev&ncaron;ovac&iacute;)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="uk">
-    <trd>&c_ch;&c_je;&c_k;&c_a;</trd>,
-    <trd>&c_z;&c_a;&c_g;&c_v;&c_ib;&c_z;&c_d;&c_o;&c_k;</trd>,
-    <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&#8217;&c_ja;&c_n;&c_i;&c_j; &c_c;&c_v;&c_ja;&c_h;</trd>,
-    <trd>&c_k;&c_ib;&c_l;&c_o;&c_ch;&c_o;&c_k;</trd>,
-    <trd>&c_sh;&c_i;&c_p;</trd>,
-    <trd>&c_z;&c_a;&c_j;&c_v;&c_ib; &c_s;&c_l;&c_o;&c_v;&c_a;</trd>,
-    <trd>&c_r;&c_o;&c_z;&c_t;&c_ja;&c_g;&c_n;&c_u;&c_t;&c_ib;&c_s;&c_t;&c_mol; (&c_u; &c_v;&c_ib;&c_r;&c_sh;&c_ib;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#26988; <pr>ji&eacute;</pr></trd>,
+    <trd>&#26535; <pr>ji&#462;n</pr></trd>,
+    <trd>&#26408;&#37336; <pr>m&ugrave;d&imacron;ng</pr></trd>,
+    <trd>&#26964; <pr>xi&egrave;</pr></trd>,
+    <trd>&#37559; <pr>xi&#5585;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -99,7 +185,16 @@
   <kap><tld/>i</kap>
   <snc>
     <dif>
-      Ligi a&ubreve; fiksi per <tld/>o.
+      Ligi a&ubreve; fiksi per <tld/>o:
+      <ekz>
+        sekigado sur horizontala <tld/>ita kadro
+        <fnt>
+          <aut>Genevi&egrave;ve kaj Maurice Gourichon</aut>
+          <vrk><url ref="http://www.esperanto-angers.fr/spip/IMG/pdf/Folio_23.pdf">Vizito al la
+          Centro de la pergameno kaj miniatur-arto</url></vrk>
+          <lok>La An&gcirc;eva Folio, n-ro 23, majo 2012, p. 3 </lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -117,57 +212,60 @@
   </trdgrp>
   <trdgrp lng="en">
     <trd>peg</trd>,
-    <trd>pin</trd>
+    <trd>pin</trd>,
+    <trd>connect with a dowel (furniture)</trd>
   </trdgrp>
   <trd lng="fr">cheviller</trd>
   <trdgrp lng="hu">
     <trd>&ouml;ssze&eacute;kel</trd>,
     <trd>&ouml;csapol</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#26408;&#37336;&#12434;&#25171;&#12388;  <pr>&#12365;&#12367;&#12366;&#12434;&#12358;&#12388;</pr></trd>,
+    <trd>&#12367;&#12373;&#12403;&#12391;&#27490;&#12417;&#12427;  <pr>&#12367;&#12373;&#12403;&#12391;&#12392;&#12393;&#12417;&#12427;</pr></trd>
+  </trdgrp>
   <trd lng="nl">vastpinnen</trd>
   <trdgrp lng="pl">
     <trd>klinowa&cacute;</trd>,
     <trd>mocowa&cacute;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>bloca</trd>,
     <trd>fixa</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_r;&c_je;&c_p;&c_l;&c_ja;&c_t;&c_mol; <ind>&c_k;&c_o;&c_l;&c_y;&c_sh;&c_k;&c_o;&c_m;</ind></trd>
   <trdgrp lng="sk">
     <trd>sp&aacute;ja&tcaron;</trd>,
     <trd>upev&ncaron;ova&tcaron; pomocou klinov</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_s;&c_k;&c_r;&c_ib;&c_p;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i; (&c_sh;&c_i;&c_p;&c_a;&c_m;&c_i;</trd>,
-    <trd>&c_c;&c_v;&c_ja;&c_h;&c_a;&c_m;&c_i;</trd>,
-    <trd>&c_ch;&c_je;&c_k;&c_o;&c_ju; &c_ib; &c_t;.&c_p;.)</trd>
+    <trd>&c_s;&c_k;&c_r;&c_ib;&c_p;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;<klr> (&c_sh;&c_i;&c_p;&c_a;&c_m;&c_i;, &c_c;&c_v;&c_ja;&c_h;&c_a;&c_m;&c_i;, &c_ch;&c_je;&c_k;&c_o;&c_ju; &c_ib; &c_t;.&c_p;.)</klr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.23 2022/05/01 08:09:24
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.36 2024/01/21 13:49:05
+Wolfram Diestel: +bld-mrk
 
-versio 1.22 2022/04/07 20:29:39
-Wolfram Diestel: +ekz-oj, ref-oj, trd de
+versio 1.35 2024/01/07 19:21:49
+Wolfram Diestel: +bld/mrk (prepare)
 
-versio 1.21 2022/03/30 09:33:02
-Dmitri Gabinski: + trd be
+versio 1.34 2023/12/17 09:22:41
+Wolfram Diestel: +rim, vortaraj kunmetoj, adapto dif
 
-Revision 1.18  2018/08/06 22:10:33  revo
-Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+versio 1.33 2023/12/16 15:23:22
+Wolfram Diestel: +bld
 
-Revision 1.17  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.32 2023/12/16 14:27:58
+Matt Brooks: + en tradukojn
 
-Revision 1.16  2015/06/29 16:40:17  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.31 2023/12/15 15:27:25
+Wolfram Diestel: +trd de
 
-Revision 1.15  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.30 2023/12/14 08:31:22
+Sergio Pokrovskij: TEZ
 
-Revision 1.14  2007/07/15 16:31:12  revo
+versio 1.28 2023/11/29 21:22:27
 -->
 </vortaro>

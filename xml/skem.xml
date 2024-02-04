@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: skem.xml,v 1.103 2022/07/14 09:32:34 revo Exp $">
+<art mrk="$Id: skem.xml,v 1.106 2023/12/28 13:31:46 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>skem</rad>/o
@@ -12,7 +12,7 @@
   <snc mrk="skem.0o.modelo">
     <dif>
       Teoria simpligita figura&jcirc;o, prezentanta maldetale ne la
-      formon sed la <ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>n kaj la 
+      formon sed la <ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>n kaj la
       <ref tip="prt" cel="rilat.0o.interligo">rilato</ref>jn de io:
       <ekz>
         <tld/>o &ccirc;iam sama por la sama okazo
@@ -34,8 +34,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        la eventoj kutime sekvas jenan iom longan <tld/>on: unue, propono <klr>[&#8230;]</klr>, 
-        sekvas malobservo <klr>[&#8230;]</klr>, paralele disvolvi&gcirc;as senprincipaj atakoj <klr>[&#8230;]</klr>, 
+        la eventoj kutime sekvas jenan iom longan <tld/>on: unue, propono <klr>[&#8230;]</klr>,
+        sekvas malobservo <klr>[&#8230;]</klr>, paralele disvolvi&gcirc;as senprincipaj atakoj <klr>[&#8230;]</klr>,
         la lastan stadion markas plena malsukceso
         <fnt>
           <bib>EeP</bib>
@@ -274,6 +274,10 @@
   </trdgrp>
   <trd lng="fr">sch&eacute;matique</trd>
   <trd lng="it">schematico<klr> (a schema)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x56F3;&#x5F0F;&#x306E;  <pr>&#x305A;&#12375;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#27010;&#35201;&#x306E;  <pr>&#x304C;&#12356;&#12424;&#12358;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="sk">schematick&yacute;</trd>
   <trd lng="uk">&c_s;&c_h;&c_je;&#x43C;&c_a;&c_t;&c_i;&c_ch;&#x43D;&c_i;&c_j;</trd>
 </drv>
@@ -356,6 +360,10 @@
       <trd>&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x56F3;&#x5F0F;&#x8AD6;  <pr>&#x305A;&#12375;&#x304D;&#x308D;&#12435;</pr></trd>,
+    <trd>&#x56F3;&#x5F0F;&#x4E3B;&#x7FA9;  <pr>&#x305A;&#12375;&#x304D;&#12375;&#12421;&#x304E;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="skem.flu0o">
@@ -370,11 +378,16 @@
       <ref cel="instru1.0o.KOMUNE">instrukcio</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_b;&c_l;&c_jo;&c_k;-&c_s;&c_h;&c_je;&c_m;&c_a;</trd>
   <trdgrp lng="de">
     <trd>Flussdiagramm</trd>,
     <trd>Ablaufplan</trd>
   </trdgrp>
   <trd lng="fr">diagramme de flux</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6D41;&#x308C;&#x56F3;  <pr>&#x306A;&#x304C;&#x308C;&#x305A;</pr></trd>,
+    <trd>&#x30D5;&#x30ED;&#x30FC;&#x30C1;&#x30E3;&#x30FC;&#x30C8;</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>schemat blokowy</trd>,
     <trd>diagram blokowy</trd>,
@@ -401,11 +414,19 @@
     <trd lng="de">Schaltplan</trd>
     <trd lng="pl">schemat elektryczny</trd>
   </snc>
+  <trd lng="be">&c_s;&c_h;&c_je;&c_m;&c_a; &c_z;&c_l;&c_u;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_ja;&c_w; <klr>(&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y;&c_h;)</klr></trd>
+  <trd lng="ja">&#x914D;&#x7DDA;&#x56F3;  <pr>&#x306F;&#12356;&#x305B;&#12435;&#x305A;</pr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.106 2023/12/28 13:31:46
+Dmitri Gabinski: + trd be
+
+versio 1.105 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
 versio 1.103 2022/07/14 09:32:34
 Wolfram Diestel: +kor. ref
 
@@ -422,11 +443,5 @@ Revision 1.23  2015/06/29 16:33:23  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2012/08/14 09:10:16  revo
-Neil Roberts: Korektis la nomon de la dosiero en la ligilo al 'strukturo'
-
-Revision 1.21  2012/01/08 11:10:08  revo
-Wolfram Diestel: tipigo de kelkaj referencoj
-
-Revision 1.20  2012/01/03 20:10:08  revo
 -->
 </vortaro>

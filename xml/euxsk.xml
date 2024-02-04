@@ -1,15 +1,25 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: euxsk.xml,v 1.14 2022/04/27 14:38:54 revo Exp $">
-<kap><rad>e&ubreve;sk</rad>/o <fnt><bib>PIV2</bib></fnt></kap>
+<art mrk="$Id: euxsk.xml,v 1.19 2023/11/07 20:34:12 revo Exp $">
+<kap><ofc>10</ofc><rad>e&ubreve;sk</rad>/o <fnt><bib>PIV2</bib></fnt></kap>
 <drv mrk="euxsk.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>10</ofc><tld/>o</kap>
   <snc>
     <dif>
       Ano de popolo vivanta en okcidenta Pirenea Montaro, pliparte en
-      Hispanujo, parte en Francujo, de antikva tempo parolanta ne
-      hinde&ubreve;ropan lingvon.
+      Hispanujo, parte en Francujo, de antikva tempo parolanta
+      ne hinde&ubreve;ropan lingvon:
+      <ekz>
+        tiam la osetoj i&gcirc;is &leftquot;disdividita&rightquot; popolo (kiel nun <tld/>oj, koreoj, ujguroj,
+        kurdoj kaj aliaj)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vja&ccirc;eslav (Slavik) IVANOV</aut>
+          <vrk><url ref="&Monato;/2003/007865.html">La oseta lingvo</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="vask.0o">vasko</ref>
   </snc>
@@ -42,22 +52,35 @@
   <trd lng="ru">&c_b;&c_a;&c_s;&c_k;</trd>
   <trd lng="tok">jan Esuka</trd>
   <trd lng="sk">n&aacute;dr&zcaron; vodometu</trd>
-  <trd lng="uk">&#x431;&#x430;&#x441;&#x43A;&#x441;&#x44C;&#x43A;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_b;&c_a;&c_s;&c_k;&c_s;&c_mol;&c_k;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4F4D;&#x4E8E;&#x897F;&#x73ED;&#x7259; <pr>w&#xE8;iy&#xFA;x&#x12B;b&#x101;ny&#xE1;</pr></trd>,
+    <trd>&#x5DF4;&#x65AF;&#x514B;&#x4EBA; <pr>b&#x101;s&#x12B;k&#xE8;r&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="euxsk.0a">
-  <kap><tld/>a</kap>
+  <kap><ofc>10</ofc><tld/>a</kap>
   <snc>
     <dif>
       Rilata al <tld/>oj, al ilia kulturo a&ubreve; moroj:
+      <ekz>
+        <nom>Egunkaria</nom> estis la sola &jcirc;urnalo verkita nur en la <tld/>a lingvo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url ref="&Monato;/2003/008082.html">Kiam arestoj pruvas terorismajn ligojn ...</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la balotado por la <tld/>a parlamento en januaro
+        2001<fnt><aut>Hektor Alos i Font</aut>: <vrk>Nur etaj esperoj pri
+        balda&ubreve;a solvo</vrk>, <bib>Monato</bib><lok>jaro 2002a,
+        numero 8a,
+        p. 11a</lok></fnt>.
+      </ekz>
     </dif>
-    <ekz>
-      la balotado por la <tld/>a parlamento en januaro
-      2001<fnt><aut>Hektor Alos i Font</aut>: <vrk>Nur etaj esperoj pri
-      balda&ubreve;a solvo</vrk>, <bib>Monato</bib><lok>jaro 2002a,
-      numero 8a,
-      p. 11a</lok></fnt>.
-    </ekz>
     <ref tip="sin" cel="vask.0a">vaska</ref>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_s;&c_k;&c_ib;</trd>
@@ -84,7 +107,7 @@
 </drv>
 
 <drv mrk="euxsk.K0ujo">
-   <kap><tld lit="E"/>ujo</kap>
+   <kap><ofc>10</ofc><tld lit="E"/>ujo</kap>
    <snc>
    <uzo tip="fak">GEOG</uzo>
    <uzo tip="fak">POL</uzo>
@@ -102,11 +125,31 @@
   <trd lng="fy">Baskel&acirc;n</trd>
   <trd lng="io">Baskia</trd>
   <trd lng="nl">Baskenland</trd>
+  <trdgrp lng="ru">
+     <trd>&c_S;&c_t;&c_r;&c_a;&c_n;&c_a; &c_b;&c_a;&c_s;&c_k;&c_o;&c_v;</trd>,
+     <trd>&c_B;&c_a;&c_s;&c_k;&c_o;&c_n;&c_i;&c_ja;</trd>
+   </trdgrp>
   <trd lng="tok">ma Esuka</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5DF4;&#x65AF;&#x514B; <pr>b&#x101;s&#x12B;k&#xE8;</pr></trd>,
+    <trd>&#x5DF4;&#x65AF;&#x514B;&#x5730;&#x533A; <pr>b&#x101;s&#x12B;k&#xE8;deq&#x16B;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.18 2023/10/09 06:32:47
+Wolfram Diestel: +ofc
+
+versio 1.17 2023/10/03 08:10:38
+Sergio Pokrovskij: trd=ru
+
+versio 1.16 2023/05/04 16:16:09
+revo: aktualigo URL-unuoj
+
+versio 1.15 2023/04/17 20:25:02
+Wolfram Diestel: +ekz
+
 versio 1.14 2022/04/27 14:38:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -117,17 +160,5 @@ Revision 1.10  2015/01/13 12:10:23  revo
 Damien Brucker: +korekto cxe ref
 
 Revision 1.9  2012/08/02 08:10:27  revo
-Marc Rausell: + trd ca
-
-Revision 1.8  2010/04/09 16:31:36  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.7  2007/07/11 16:31:07  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2005/05/12 16:31:44  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2004/11/05 17:32:10  revo
 -->
 </vortaro>

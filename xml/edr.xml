@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: edr.xml,v 1.36 2022/03/26 12:55:26 revo Exp $">
+<art mrk="$Id: edr.xml,v 1.39 2023/11/07 19:21:48 revo Exp $">
 <kap>
   <rad>edr</rad>/o
 </kap>
@@ -41,12 +41,14 @@
   <trd lng="hu">lap<klr tip="ind"> (m&eacute;rtani
   test&eacute;)</klr></trd>
   <trd lng="it">faccia</trd>
+  <trd lng="ja">&#x9762;  <pr>&#x3065;&#x3089;</pr></trd>
   <trd lng="nl">vlak<klr tip="ind"> (z.nw.)</klr></trd>
   <trd lng="pl">&sacute;ciana</trd>
   <trd lng="pt">face</trd>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_mol;</trd>
   <trd lng="sk">stena telesa</trd>
   <trd lng="uk">&#x433;&#x440;&#x430;&#x43D;&#x44C;</trd>
+  <trd lng="zh">&#x66F2;&#x9762; <pr>q&#x16B;mi&#xE0;n</pr></trd>
 </drv>
 
 <drv mrk="edr.du0o">
@@ -83,6 +85,7 @@
     <trd>k&eacute;tlap</trd>
   </trdgrp>
   <trd lng="it">diedro</trd>
+  <trd lng="ja">&#x4E8C;&#x9762;&#x4F53;  <pr>&#x3075;&#x305F;&#x304A;&#x3082;&#x3066;&#x305F;&#x3044;</pr></trd>
   <trdgrp lng="nl">
     <trd>tweevlak</trd>,
     <trd>di&euml;der</trd>
@@ -92,6 +95,7 @@
     <trd>k&aogonek;t dwu&sacute;cienny</trd></trdgrp>
   <trd lng="ru">&c_d;&c_v;&c_u;&c_g;&c_r;&c_a;&c_n;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">dvojsten</trd>
+  <trd lng="zh">&#x4E8C;&#x9762;&#x4F53; <pr>&#xE8;rmi&#xE0;nt&#x1D0;</pr></trd>
 </drv>
 
 <drv mrk="edr.tri0o">
@@ -145,6 +149,7 @@
     <trd>h&aacute;romlap</trd>
   </trdgrp>
   <trd lng="it">triedro</trd>
+  <trd lng="ja">&#x4E09;&#x9762;&#x4F53;  <pr>&#x307F;&#x3063;&#x304A;&#x3082;&#x3066;&#x305F;&#x3044;</pr></trd>
   <trdgrp lng="nl">
     <trd>drievlak</trd>,
     <trd>tri&euml;der</trd>
@@ -198,7 +203,13 @@
     <trd>&ccaron;ty&rcaron;st&ecaron;n</trd>
   </trdgrp>
   <trd lng="he">&#x5D0;&#x5B7;&#x5E8;&#x5B0;&#x5D1;&#x5BC;&#x5B8;&#x5E2;&#x5D5;&#x5B9;&#x5DF;</trd>
+  <trd lng="ja">&#x56DB;&#x9762;&#x4F53;  <pr>&#x3057;&#x3081;&#x3093;&#x305F;&#x3044;</pr></trd>
   <trd lng="sk">&scaron;tvorsten</trd>
+  <trdgrp lng="zh">
+    <trd>&#x56DB;&#x9762;&#x4F53; <pr>s&#xEC;mi&#xE0;nt&#x1D0;</pr></trd>,
+    <trd>&#x56DB;&#x9762;&#x5F62; <pr>s&#xEC;mi&#xE0;nx&#xED;ng</pr></trd>,
+    <trd>&#x6B63;&#x56DB;&#x9762;&#x4F53; <pr>zh&#xE8;ngs&#xEC;mi&#xE0;nt&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edr.plur0o">
@@ -263,6 +274,7 @@
     <trd>soklap</trd>
   </trdgrp>
   <trd lng="it">poliedro</trd>
+  <trd lng="ja">&#x591A;&#x9762;&#x4F53;  <pr>&#x305F;&#x3081;&#x3093;&#x305F;&#x3044;</pr></trd>
   <trd lng="nl">veelvlak</trd>
   <trd lng="pl">wielo&sacute;cian</trd>
   <trdgrp lng="ru">
@@ -271,6 +283,7 @@
   </trdgrp>
   <trd lng="sk">mnohosten</trd>
   <trd lng="uk">&#x431;&#x430;&#x433;&#x430;&#x442;&#x43E;&#x433;&#x440;&#x430;&#x43D;&#x43D;&#x438;&#x43A;</trd>
+  <trd lng="zh">&#x591A;&#x9762;&#x4F53; <pr>du&#x14D;mi&#xE0;nt&#x1D0;</pr></trd>
 </drv>
 
 <drv mrk="edr.n0o">
@@ -520,7 +533,10 @@
 </drv>
 </art>
 <!--
-$Log: edr.xml,v $
+$Log$
+versio 1.38 2023/10/14 15:34:33
+revo: transskribo per <pr>
+
 versio 1.33 2020/02/15 17:10:25
 Wolfram Diestel: formuloj per am
 
@@ -540,8 +556,5 @@ Revision 1.28  2009/09/01 04:53:35  revo
 Sebastian Cyprych: sxovo de 4-edro al propra drv; +trd pl
 
 Revision 1.27  2009/08/26 16:31:27  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.26  2008/08/25 18:15:43  revo
 -->
 </vortaro>

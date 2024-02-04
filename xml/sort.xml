@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sort.xml,v 1.26 2022/04/15 08:36:04 revo Exp $">
+<art mrk="$Id: sort.xml,v 1.29 2023/10/21 07:46:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sort</rad>/o <fnt><bib>PV</bib></fnt>
@@ -68,8 +68,8 @@
     </refgrp>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_l;&c_jo;&c_s;</trd>, 
-    <trd>&c_d;&c_o;&c_l;&c_ja;</trd>, 
+    <trd>&c_l;&c_jo;&c_s;</trd>,
+    <trd>&c_d;&c_o;&c_l;&c_ja;</trd>,
     <trd>&c_n;&c_a;&c_k;&c_a;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
   <trdgrp lng="cs">
@@ -96,13 +96,25 @@
     <trd>v&eacute;gzet</trd>
   </trdgrp>
   <trd lng="id">nasib</trd>
+  <trdgrp lng="ja">
+    <trd>&#x904B;  <pr>&#12358;&#12435;</pr></trd>,
+    <trd>&#x904B;&#x547D;  <pr>&#12358;&#12435;&#12417;&#12356;</pr></trd>,
+    <trd>&#22825;&#x904B;  <pr>&#12390;&#12435;&#12358;&#12435;</pr></trd>,
+    <trd>&#x5DE1;&#x308A;&#21512;&#x308F;&#x305B;  <pr>&#12417;&#12368;&#x308A;&#12354;&#x308F;&#x305B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">lot</trd>
+  <trdgrp lng="pl">
+    <trd>dola</trd>,
+    <trd>los</trd>,
+    <trd>dopust</trd>,
+    <trd>fortuna</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>sorte</trd>,
     <trd>sina</trd>,
     <trd>fado</trd>,
     <trd>destino</trd>,
-    <trd>fad&aacute;rio</trd>,        
+    <trd>fad&aacute;rio</trd>,
     <trd>estrela</trd>
   </trdgrp>
   <trdgrp lng="ru">
@@ -139,6 +151,7 @@
     <trd>chance<klr> (bonheur)</klr></trd>,
     <trd>fortune<klr> (chance)</klr></trd>
   </trdgrp>
+  <trd lng="pl">szcz&eogonek;&sacute;liwo&sacute;&cacute;</trd>
 </drv>
 
 <drv mrk="sort.bon0ulo">
@@ -147,7 +160,7 @@
     <dif>
       Tiu, kiun bona sorto trafas:
       <ekz>
-        bonzi&gcirc;as ne nobeloj, ri&ccirc;uloj kaj bon<tld/>uloj, sed 
+        bonzi&gcirc;as ne nobeloj, ri&ccirc;uloj kaj bon<tld/>uloj, sed
         malbon<tld/>uloj kaj vivmalsukcesintoj
         <fnt>
           <aut>-</aut>,
@@ -167,6 +180,7 @@
     <trd>chanceux<klr> (subst.)</klr></trd> ,
     <trd>veinard<klr> (subst.)</klr></trd>
   </trdgrp>
+  <trd lng="pl">szcz&eogonek;&sacute;ciarz</trd>
 </drv>
 
 <drv mrk="sort.malbon0o">
@@ -176,7 +190,7 @@
       Malfeli&ccirc;iga, malfavora <tld/>o:
       <ekz>
         laboremo malbon<tld/>on venkas
-        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep
         fratoj</vrk>, <lok>1947</lok></fnt>.
       </ekz>
     </dif>
@@ -190,6 +204,10 @@
     <trd>adversit&eacute;</trd>,
     <trd>malchance</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>niedola</trd>,
+    <trd>nieszcz&eogonek;&sacute;cie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sort.malbon0ulo">
@@ -199,13 +217,14 @@
       Tiu, kiun malbona sorto trafas:
       <ekz>
         li traktis &ccirc;iam milde kaj bone suferantajn malbon<tld/>ulojn
-        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep
         fratoj</vrk>, <lok>1947</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_je;&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_v;&c_je;&c_c;</trd>
   <trd lng="fr">malchanceux<klr> (subst.)</klr></trd>
+  <trd lng="pl">nieszcz&eogonek;&sacute;nik</trd>
 </drv>
 
 <drv mrk="sort.sam0ulo">
@@ -233,11 +252,23 @@
   </snc>
   <trd lng="be">&c_t;&c_a;&c_v;&c_a;&c_r;&c_y;&c_sh; &c_u; &c_n;&c_ja;&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
   <trd lng="fr">compagnon d'infortune</trd>
+  <trd lng="ja">&#x904B;&#x547D;&#12434;&#20849;&#x306B;&#12377;&#x308B;&#x4EBA; 
+  <pr>&#12358;&#12435;&#12417;&#12356;&#12434;&#12392;&#12418;&#x306B;&#12377;&#x308B;&#12376;&#12435;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>wsp&oacute;&lstroke;towarzysz losu</trd>,
+    <trd>wsp&oacute;&lstroke;towarzysz doli</trd>
+  </trdgrp>
   <trd lng="uk">&c_t;&#x43E;&c_v;&c_a;&c_r;&c_i;&c_sh; &#x43F;&#x43E; &#x43D;&c_je;&c_shch;&c_a;&c_s;&c_t;&#x44E;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.28 2023/09/13 21:18:53
+Vito Redsky: +trd pl 
+
 versio 1.26 2022/04/15 08:36:04
 Dmitri Gabinski: + trd be
 
@@ -254,11 +285,5 @@ Revision 1.20  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.19  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2014/07/22 01:10:14  revo
-Jeromo Vasxe: + bon/malbon~ulo
-
-Revision 1.17  2014/07/07 01:10:18  revo
 -->
 </vortaro>

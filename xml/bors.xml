@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bors.xml,v 1.26 2022/04/26 15:00:33 revo Exp $">
+<art mrk="$Id: bors.xml,v 1.34 2023/10/29 19:11:03 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bors</rad>/o <fnt><bib>PV</bib></fnt>
@@ -43,7 +43,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Fradeko <klr>[&#8230;]</klr> vizitis tagmeze en <tld lit="B"/>o la aliajn financistojn
+        Fradeko <klr>[&#x2026;]</klr> vizitis tagmeze en <tld lit="B"/>o la aliajn financistojn
         <fnt>
           <bib>ChL</bib>
           <lok>&Ccirc;apitro Na&ubreve;a</lok>
@@ -66,8 +66,7 @@
     <uzo tip="fak">EKON</uzo>  
     <dif>
       La spekulaciaj operacioj kaj la reguloj la&ubreve; kiuj oni
-      komercas per ili, t.e. <ref tip="super" 
-      cel="merkat.0o">merkato</ref> por valorpaperoj:
+      komercas per ili, t.e. <ref tip="super" cel="merkat.0o">merkato</ref> por valorpaperoj:
       <ekz>
         la <tld/>o estas firma, malvigla;
       </ekz>
@@ -80,21 +79,24 @@
         </fnt>;
       </ekz>
       <ekz>
-        la financmerkatoj spite al entuziasmo <klr>[&#8230;]</klr> restis retenemaj,
+        la financmerkatoj spite al entuziasmo <klr>[&#x2026;]</klr> restis retenemaj,
         trankvilaj, preska&ubreve; ignoraj, la <tld/>oj reagis treege modere
         <fnt>
-          <bib>Monato</bib>
-          <aut>Maul Stefan</aut>
-          <vrk><url ref="&Steloj;monato2/007123.html"
-              >Defio a&ubreve; devio de politiko</url></vrk>
-        </fnt>;
+          <aut>MAUL Stefan</aut>
+            <vrk><url ref="&Monato;/2000/007123.html">Defio a&ubreve; devio de politiko</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 6</lok>
+          </fnt>;
       </ekz>
       <ekz>
         la usona <tld/>o rekreskas
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/006821.html">E&ubreve;ropa Unio:
+          
+          <aut>Marc Vanden Bempt</aut>
+          <vrk><url ref="&Monato;/2000/006821.php">E&ubreve;ropa Unio:
           E&ubreve;ro unujara</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/03, p. 9</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -122,11 +124,23 @@
     <trd>t&odblac;zsde</trd>,
     <trd>b&ouml;rze</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x682A;&#x5F0F;&#x53D6;&#x5F15;&#x6240;  <pr>&#x304B;&#x3076;&#x3057;&#x304D;&#x3068;&#x308A;&#x3072;&#x304D;&#x3058;&#x3087;</pr></trd>,
+    <trd>&#x8A3C;&#x5238;&#x53D6;&#x5F15;&#x6240;  <pr>&#x3057;&#x3087;&#x3046;&#x3051;&#x3093;&#x3068;&#x308A;&#x3072;&#x304D;&#x3058;&#x3087;</pr></trd>,
+    <trd>&#x682A;&#x5F0F;&#x53D6;&#x5F15;  <pr>&#x304B;&#x3076;&#x3057;&#x304D;&#x3068;&#x308A;&#x3072;&#x304D;</pr></trd>
+  </trdgrp>
   <trd lng="nl">beurs</trd>
   <trd lng="pt">bolsa<klr> (de valores)</klr></trd>
   <trd lng="ru">&c_b;&c_i;&c_r;&c_zh;&c_a;</trd>
   <trd lng="sk">burza</trd>
   <trd lng="uk">&c_b;&c_ib;&c_r;&c_zh;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x80A1;&#x5E02; <pr>g&#x1D4;sh&#xEC;</pr></trd>,
+    <trd>&#x4EA4;&#x6613;&#x6240; <pr>ji&#x101;oy&#xEC;su&#x1D2;</pr></trd>,
+    <trd>&#x8B49;&#x5238;&#x4EA4;&#x6613; <pr>zh&#xE8;ngqu&#xE0;nji&#x101;oy&#xEC;</pr></trd>,
+    <trd>&#x5916;&#x532F;&#x8CB7;&#x8CE3; <pr>w&#xE0;ihu&#xEC;m&#x1CE;im&#xE0;i</pr></trd>,
+    <trd>&#x80A1;&#x7968;&#x4EA4;&#x6613; <pr>g&#x1D4;pi&#xE0;oji&#x101;oy&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
   
 <drv mrk="bors.0ejo">
@@ -149,47 +163,53 @@
       <ekz>
         tiu palaco estis pli granda ol la tiama <tld/>ejo en Amsterdamo
         <fnt>
-          <bib>Monato</bib>
           <aut>Ren&eacute;e Triolle</aut>
-          <vrk><url ref="&Monato;/2006/008835.php"
-              >500 &ccirc;efverkoj en Monako</url></vrk>
-          <lok>2006</lok>
+          <vrk><url ref="&Monato;/2006/008835.php">500 &ccirc;efverkoj en Monako</url></vrk>
+              <bib>Monato</bib>
+          <lok>2006/02, p. 14</lok>
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trd lng="zh">&#x8B49;&#x5238;&#x4EA4;&#x6613;&#x6240; <pr>zh&#xE8;ngqu&#xE0;nji&#x101;oy&#xEC;su&#x1D2;</pr></trd>
+</snc>
+  <trd lng="be">&c_b;&c_ib;&c_r;&c_zh;&c_a; <klr>(&c_b;&c_u;&c_d;&c_y;&c_n;&c_a;&c_k;)</klr></trd>
   <trd lng="cs">burza</trd>
   <trdgrp lng="de">
     <trd>B&ouml;rsenplatz</trd>,
     <trd>Handelsplatz <klr>(B&ouml;rse)</klr></trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>stock exchange</trd>,
+    <trd>bourse<klr> (place)</klr></trd>
+  </trdgrp>
   <trd lng="fr">bourse<klr> (lieu, b&acirc;timent)</klr></trd>
+  <trd lng="nl">beursgebouw</trd>
   <trd lng="sk">burza</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.31 2023/05/22 18:30:00
+Paul Peeraerts: + trd nl + lok
+
+versio 1.30 2023/05/18 14:24:42
+Christian Siefkes: +trd en
+
+versio 1.29 2023/05/12 08:29:48
+Dmitri Gabinski: + trd be
+
+versio 1.28 2023/04/29 17:25:45
+Paul Peeraerts: Steloj -> monato
+
+versio 1.27 2023/03/29 15:07:29
+Paul Peeraerts: &Monato;
+
 versio 1.26 2022/04/26 15:00:33
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.25 2022/03/21 06:35:09
-Wolfram Diestel: adapto vortigo
-
-versio 1.24 2022/03/20 21:26:16
-Wolfram Diestel: redukto al du snc: ejo k merkato; ekz-oj, dif-vortigo, trd de, ref-oj
-
-Revision 1.21  2017/02/25 17:10:23  revo
-Wolfram Diestel: dif chirkau ref-dif, ekz-oj
-
-Revision 1.20  2015/10/06 03:10:18  revo
-Evandro Avellar: +trd pt
-
-Revision 1.19  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:29:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2015/05/06 15:10:16  revo
 -->
 </vortaro>

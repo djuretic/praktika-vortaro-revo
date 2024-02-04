@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kurier.xml,v 1.28 2022/05/01 08:09:26 revo Exp $">
+<art mrk="$Id: kurier.xml,v 1.32 2023/12/03 09:59:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kurier</rad>/o
@@ -113,7 +113,14 @@
       <trd>&c_r;&c_a;&c_s;&c_s;&c_y;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
     <trd lng="nl">koerier</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4FE1;&#x4F7F; <pr>x&#xEC;nsh&#x1D0;</pr></trd>,
+    <trd>&#x901F;&#x9012; <pr>s&#xF9;d&#xEC;</pr></trd>,
+    <trd>&#x901F;&#x905E; <pr>s&#xF9;d&#xEC;</pr></trd>,
+    <trd>&#x4F20;&#x9012;&#x8005; <pr>chu&#xE1;nd&#xEC;zh&#x11B;</pr></trd>,
+    <trd>&#x50B3;&#x905E;&#x8005; <pr>chu&#xE1;nd&#xEC;zh&#x11B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kurier.0o.sxaka">
     <uzo tip="fak">SPO</uzo>
     <dif>
@@ -150,7 +157,8 @@
     <trd lng="sk">strelec v &scaron;achu</trd>
     <trd lng="ru">&c_s;&c_l;&c_o;&c_n; <klr>(&c_sh;&c_a;&c_h;&c_m;.)
     </klr></trd>
-  </snc>
+    <trd lng="zh">&#x8C61; <pr>xi&#xE0;ng</pr></trd>
+</snc>
   <snc mrk="kurier.0o.novajxletero">
     <uzo tip="fak">TIP</uzo>
     <dif>
@@ -172,17 +180,30 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_ib;&c_n;&c_f;&c_a;&c_r;&c_m;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y; <ind>&c_b;&c_ju;&c_l;&c_je;&c_t;&c_e;&c_n;&c_mol;</ind></trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x6025;&#x4F7F;  <pr>&#x304D;&#x3085;&#x3046;&#x3057;</pr></trd>,
+    <trd>&#x98DB;&#x811A;  <pr>&#x3072;&#x304D;&#x3083;&#x304F;</pr></trd>,
+    <trd>&#x30D3;&#x30B7;&#x30E7;&#x30C3;&#x30D7;</trd>,
+    <trd>&#x89D2;&#x884C;  <pr>&#x304B;&#x304F;&#x304E;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x443;&#x440;&#x2019;&#x454;&#x440;</trd>,
-    <trd>&#x433;&#x43E;&#x43D;&#x435;&#x446;&#x44C;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x441;&#x438;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x441;&#x43B;&#x43E;&#x43D;</trd>
+    <trd>&#x43A;&c_u;&c_r;&#x2019;&c_jeu;&c_r;</trd>,
+    <trd>&c_g;&#x43E;&#x43D;&c_je;&c_c;&#x44C;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_s;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_s;&#x43B;&#x43E;&#x43D;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.29 2023/05/10 12:44:32
+Dmitri Gabinski: + trd be
+
 versio 1.28 2022/05/01 08:09:26
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -199,11 +220,5 @@ Revision 1.21  2010/07/20 16:30:25  revo
 Antonio Codazzi: +trd it + fako
 
 Revision 1.20  2010/05/07 16:30:49  revo
-Agustin Garcia Lopez: +trd (mod.) es
-
-Revision 1.19  2008/06/17 16:30:29  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2005/04/30 16:32:08  revo
 -->
 </vortaro>

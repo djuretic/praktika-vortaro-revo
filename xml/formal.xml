@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: formal.xml,v 1.25 2022/11/25 07:26:14 revo Exp $">
+<art mrk="$Id: formal.xml,v 1.29 2023/11/10 06:07:59 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>formal</rad>/a <fnt><bib>PV</bib></fnt>
@@ -37,7 +37,11 @@
         <ref cel="konven1.0a">konvencia</ref>,
         <ref cel="regul.0a.konforma">regula<sncref/></ref>
       </refgrp>
-      <trd lng="de">formal</trd>
+      <trdgrp lng="de">
+        <trd>gew&ouml;hnlich</trd>,
+        <trd>vorgeschrieben</trd>,
+        <trd>konventionell</trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="formal.0a.ceremonia">
       <dif>
@@ -56,7 +60,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          administraj komplika&jcirc;oj, <tld/>aj kunsidoj kaj kunvenoj <klr>[&#8230;]</klr> nur &gcirc;enus
+          administraj komplika&jcirc;oj, <tld/>aj kunsidoj kaj kunvenoj <klr>[&#x2026;]</klr> nur &gcirc;enus
           la efikecon
           <fnt>
             <bib>EeP</bib>
@@ -93,8 +97,8 @@
         </ekz>
       </dif>
       <trdgrp lng="de">
-        <trd>formell</trd>,
-        <trd>f&ouml;rmlich</trd>
+        <trd>f&ouml;rmlich</trd>,
+        <trd>offiziell</trd>
       </trdgrp>
     </subsnc>
     <subsnc mrk="formal.0a.malesenca">
@@ -108,13 +112,13 @@
           </fnt>;
         </ekz>
         <ekz>
-          tia <tld/>a koncepto <klr>[&#8230;]</klr> neniel kontentigas la postulojn de retoriko
+          tia <tld/>a koncepto <klr>[&#x2026;]</klr> neniel kontentigas la postulojn de retoriko
           <fnt>
             <bib>Ret</bib>
           </fnt>;
         </ekz>
         <ekz>
-          oni instruis <klr>[&#8230;]</klr> dialektikon (fakte <tld/>an logikon) kaj retorikon
+          oni instruis <klr>[&#x2026;]</klr> dialektikon (fakte <tld/>an logikon) kaj retorikon
           <fnt>
             <bib>Ret</bib>
           </fnt>;
@@ -126,7 +130,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          la stilo de liaj verkoj elstaras per la atingita <tld/>a fajneco dank&#8217; al
+          la stilo de liaj verkoj elstaras per la atingita <tld/>a fajneco dank&#x2019; al
           pacienca laboro de fajlado
           <fnt>
             <bib>EeP</bib>
@@ -144,7 +148,13 @@
         &leftquot;pri/forma&rightquot; uzataj en la difino.
         <aut>MB</aut>
       </adm>
-      <trd lng="de">formal</trd>
+      <trdgrp lng="de">
+        <trd>formal</trd>,
+        <trd>offiziell</trd>,
+        <trd>nach Vorschrift</trd>,
+        <trd>vorschriftsm&auml;&szlig;ig</trd>,
+        <trd>vorschriftsgem&auml;&szlig;</trd>
+      </trdgrp>
     </subsnc>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
@@ -168,6 +178,15 @@
     <trd>szok&aacute;sos</trd>,
     <trd>hivatalos</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5916;&#x5F62;&#x7684;&#x306A;  <pr>&#x304C;&#x3044;&#x3051;&#x3044;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x5F62;&#x5F0F;&#x4E0A;&#x306E;  <pr>&#x3051;&#x3044;&#x3057;&#x304D;&#x3058;&#x3087;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x6B63;&#x5F0F;&#x306E;  <pr>&#x305B;&#x3044;&#x3057;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#x6B63;&#x898F;&#x306E;  <pr>&#x305B;&#x3044;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#x5100;&#x793C;&#x7684;&#x306A;  <pr>&#x304E;&#x308C;&#x3044;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x660E;&#x78BA;&#x306A;  <pr>&#x3081;&#x3044;&#x304B;&#x304F;&#x306A;</pr></trd>,
+    <trd>&#x660E;&#x8A00;&#x3055;&#x308C;&#x305F;  <pr>&#x3081;&#x3044;&#x3052;&#x3093;&#x3055;&#x308C;&#x305F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">formeel</trd>
   <trd lng="pl">formalny</trd>
   <trd lng="pt">formal</trd>
@@ -179,6 +198,7 @@
     <trd>&c_f;&#x43E;&c_r;&#x43C;&c_je;&#x43D;&c_i;&c_j;</trd>,
     <trd>&c_z;&c_r;&#x43E;&c_b;&#x43B;&c_je;&#x43D;&c_i;&c_j; &c_z;&c_a; &c_f;&#x43E;&c_r;&#x43C;&#x43E;&#x44E;</trd>
   </trdgrp>
+  <trd lng="zh">&#x5F62;&#x5F0F;&#x4E0A; <pr>x&#xED;ngsh&#xEC;sh&#xE0;ng</pr></trd>
 </drv>
 
 <drv mrk="formal.0ajxo">
@@ -203,7 +223,7 @@
       </ekz>
       <ekz>
         la glora &ccirc;efpastro de &ccirc;i tiu templo, <nom>Herhor</nom>, alvokis vin, por ke vi
-        <klr>[&#8230;]</klr> rifuzu a&ubreve; donu al li la rajton de l' enterigo... tio estis nur
+        <klr>[&#x2026;]</klr> rifuzu a&ubreve; donu al li la rajton de l' enterigo... tio estis nur
         <tld/>a&jcirc;o, tiel antikva, kiel la egiptaj dinastioj
         <fnt>
           <bib>Far3</bib>
@@ -232,6 +252,12 @@
     <trd>k&uuml;ls&odblac;s&eacute;g</trd>,
     <trd>formas&aacute;g</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x69D8;&#x5F0F;  <pr>&#x3088;&#x3046;&#x3057;&#x304D;</pr></trd>,
+    <trd>&#x6B63;&#x5F0F;&#x306A;&#x624B;&#x7D9A;&#x304D;  <pr>&#x305B;&#x3044;&#x3057;&#x304D;&#x306A;&#x3066;&#x3064;&#x3065;&#x304D;</pr></trd>,
+    <trd>&#x5F62;&#x5F0F;&#x7684;&#x884C;&#x70BA;  <pr>&#x3051;&#x3044;&#x3057;&#x304D;&#x3066;&#x304D;&#x3053;&#x3046;&#x3044;</pr></trd>,
+    <trd>&#x5100;&#x793C;  <pr>&#x304E;&#x308C;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">formaliteit</trd>
   <trdgrp lng="pl">
     <trd>formalno&sacute;&cacute;</trd>,
@@ -242,6 +268,15 @@
   <trd lng="pt">formalidade</trd>
   <trd lng="ru">&c_f;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="uk">&c_f;&#x43E;&c_r;&#x43C;&c_a;&#x43B;&#x44C;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6B63;&#x5F0F;&#x6D41;&#x7A0B; <pr>zh&#xE8;ngsh&#xEC;li&#xFA;ch&#xE9;ng</pr></trd>,
+    <trd>&#x793C;&#x4EEA; <pr>l&#x1D0;y&#xED;</pr></trd>,
+    <trd>&#x6280;&#x672F;&#x7EC6;&#x8282; <pr>j&#xEC;sh&#xF9;x&#xEC;ji&#xE9;</pr></trd>,
+    <trd>&#x4E13;&#x95E8;&#x7684;&#x4E8B;&#x9879; <pr>zhu&#x101;nm&#xE9;ndesh&#xEC;xi&#xE0;ng</pr></trd>,
+    <trd>&#x4E13;&#x95E8;&#x6027; <pr>zhu&#x101;nm&#xE9;nx&#xEC;ng</pr></trd>,
+    <trd>&#x793C;&#x8282; <pr>l&#x1D0;ji&#xE9;</pr></trd>,
+    <trd>&#x624B;&#x7E8C; <pr>sh&#x1D2;ux&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="formal.0ismo">
@@ -264,7 +299,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <nom>Hans Kelsen</nom>, &ccirc;efteoriulo de la jura <tld/>ismo <klr>[&#8230;]</klr> suverene
+        <nom>Hans Kelsen</nom>, &ccirc;efteoriulo de la jura <tld/>ismo <klr>[&#x2026;]</klr> suverene
         elblovetis: &leftquot;mi estas juristo, ne moralisto&rightquot;
         <fnt>
           <bib>Monato</bib>
@@ -282,7 +317,7 @@
         <tld/>ismo de vo&ccirc;dono
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#8470; 8-9 (106-107)</lok>
+          <lok>2003, &#x2116; 8-9 (106-107)</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -294,6 +329,7 @@
   <trd lng="es">formalismo</trd>
   <trd lng="fr">formalisme</trd>
   <trd lng="hu">formalizmus</trd>
+  <trd lng="ja">&#x5F62;&#x5F0F;&#x4E3B;&#x7FA9;  <pr>&#x3051;&#x3044;&#x3057;&#x304D;&#x3057;&#x3085;&#x304E;</pr></trd>
   <trd lng="nl">formalisme</trd>
   <trd lng="pl">formalizm</trd>
   <trd lng="pt">formalismo</trd>
@@ -340,10 +376,25 @@
     <trd>informel</trd>,
     <trd>n&eacute;glig&eacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7565;&#x5F0F;&#x306E;  <pr>&#x308A;&#x3083;&#x304F;&#x3057;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#x5F62;&#x5F0F;&#x5F35;&#x3089;&#x306A;&#x3044;  <pr>&#x3051;&#x3044;&#x3057;&#x304D;&#x306F;&#x3089;&#x306A;&#x3044;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6C92;&#x6709;&#x5F62;&#x72C0; <pr>m&#xE9;iy&#x1D2;ux&#xED;ngzhu&#xE0;ng</pr></trd>,
+    <trd>&#x65E0;&#x5B9A;&#x5F62; <pr>w&#xFA;d&#xEC;ngx&#xED;ng</pr></trd>,
+    <trd>&#x975E;&#x6B63;&#x5F0F; <pr>f&#x113;izh&#xE8;ngsh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/14 19:15:45
+revo: transskribo per <pr>
+
+versio 1.26 2023/05/18 22:27:56
+Ulrich Fellmann: formala: +8 pliaj DE trdj
+
 versio 1.25 2022/11/25 07:26:14
 Dmitri Gabinski: + trd be
 
@@ -360,11 +411,5 @@ Revision 1.17  2015/06/29 16:29:38  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.16  2013/04/05 20:10:09  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2007/06/05 16:30:52  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2007/01/12 17:30:57  revo
 -->
 </vortaro>

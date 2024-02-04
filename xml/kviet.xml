@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kviet.xml,v 1.109 2022/05/01 08:09:26 revo Exp $">
+<art mrk="$Id: kviet.xml,v 1.116 2023/12/03 09:59:05 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kviet</rad>/a <fnt><bib>FK</bib></fnt>
@@ -56,10 +56,11 @@
       <ekz>
         venis la <tld/>a horo, en kiu la naturo <klr>[&#x2026;]</klr> preparis sin ekdormi
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007140.html">de Julian
-          Modest</url></vrk>
-        </fnt>;
+          <aut>Julian Modest</aut>
+            <vrk><url ref="&Monato;/2001/007140.html">Vetiha</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 26</lok>
+          </fnt>;
       </ekz>
       <ekz>
         tiuj marbluaj akvospeguloj, <klr>[&#x2026;]</klr> tiu <tld/>a akvo kun la profunda
@@ -156,10 +157,11 @@
       <ekz>
         <tld/>e humura ironio
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/007023.html">Knaba maturi&gcirc;o</url></vrk>
-        </fnt>;
+          <aut>Stefan MacGill</aut>
+            <vrk><url ref="&Monato;/2000/007023.php">Knaba maturi&gcirc;o</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 31</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <tld/>anime
@@ -255,7 +257,7 @@
   <trd lng="hy">&#x570;&#x561;&#x576;&#x563;&#x56B;&#x57D;&#x57F;</trd>
   <trd lng="ig">j&#x1EE5;&#x1EE5;</trd>
   <trd lng="is">r&#xF3;legur</trd>
-  <trd lng="ja">&#x9759;&#x304B;&#x306A;</trd>
+  <trd lng="ja">&#x9759;&#x304B;&#x306A; <pr>&#x3057;&#x305A;&#x304B;&#x306A;</pr></trd>
   <trd lng="jv">sepi</trd>
   <trd lng="ka">&#x10DB;&#x10E8;&#x10D5;&#x10D8;&#x10D3;&#x10D8;</trd>
   <trd lng="kk">&c_t;&#x44B;&#x43D;&#x44B;&c_sh;</trd>
@@ -288,18 +290,18 @@
     <trd>cichy</trd>,
     <trd>&lstroke;agodny</trd>,
     <trd>spokojny</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="ps">&a_A;&a_r;&a_A;&a_m;</trd>
   <trdgrp lng="pt">
     <trd>quieto</trd>,
-    <trd>calmo</trd>,    
-    <trd>sereno<klr tip="ind">(adj.)</klr></trd>,    
-    <trd>sossegado</trd>,    
-    <trd>manso</trd>,    
+    <trd>calmo</trd>,
+    <trd>sereno<klr tip="ind">(adj.)</klr></trd>,
+    <trd>sossegado</trd>,
+    <trd>manso</trd>,
     <trd>pacato</trd>,
     <trd>quedo</trd>,
     <trd>calmoso</trd>,
-    <trd>ch&atilde;o <klr tip="ind">(adj., o mar)</klr></trd>    
+    <trd>ch&atilde;o <klr tip="ind">(adj., o mar)</klr></trd>
   </trdgrp>
   <trdgrp lng="ro">
     <trd>&icirc;ncet</trd>,
@@ -340,6 +342,23 @@
   <trd lng="xh">zolile</trd>
   <trd lng="yi">&#x5E9;&#x5D8;&#x5D9;&#x5DC;</trd>
   <trd lng="yo">idak&#x1EB9;j&#x1EB9;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5B89; <pr>&#x101;n</pr></trd>,
+    <trd>&#x7D8F; <pr>su&#xED;</pr></trd>,
+    <trd>&#x7EE5; <pr>su&#xED;</pr></trd>,
+    <trd>&#x9756; <pr>j&#xEC;ng</pr></trd>,
+    <trd>&#x6C89;&#x7740; <pr>ch&#xE9;nzhu&#xF3;</pr></trd>,
+    <trd>&#x6C89;&#x8457; <pr>ch&#xE9;nzhu&#xF3;</pr></trd>,
+    <trd>&#x5013; <pr>t&#xE1;n</pr></trd>,
+    <trd>&#x51B7;&#x9759; <pr>l&#x11B;ngj&#xEC;ng</pr></trd>,
+    <trd>&#x51B7;&#x975C; <pr>l&#x11B;ngj&#xEC;ng</pr></trd>,
+    <trd>&#x548C;&#x5E73; <pr>h&#xE9;p&#xED;ng</pr></trd>,
+    <trd>&#x5B89;&#x7136; <pr>&#x101;nr&#xE1;n</pr></trd>,
+    <trd>&#x5B89;&#x8A73; <pr>&#x101;nxi&#xE1;ng</pr></trd>,
+    <trd>&#x5B89;&#x8BE6; <pr>&#x101;nxi&#xE1;ng</pr></trd>,
+    <trd>&#x5B89;&#x9759; <pr>&#x101;nj&#xEC;ng</pr></trd>,
+    <trd>&#x5B89;&#x975C; <pr>&#x101;nj&#xEC;ng</pr></trd>
+  </trdgrp>
   <trd lng="zu">onokuthula</trd>
 </drv>
 
@@ -409,7 +428,12 @@
       <trd>sosiego</trd>,
       <trd>tranquilidad</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x93AE;&#x975C; <pr>zh&#xE8;nj&#xEC;ng</pr></trd>,
+    <trd>&#x9547;&#x9759; <pr>zh&#xE8;nj&#xEC;ng</pr></trd>,
+    <trd>&#x5E73;&#x5E38;&#x5FC3; <pr>p&#xED;ngch&#xE1;ngx&#x12B;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kviet.0o.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
@@ -446,7 +470,14 @@
       <trd>&c_s;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;
       &c_p;&c_o;&c_k;&c_o;&c_ja;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5B89; <pr>&#x101;n</pr></trd>,
+    <trd>&#x5B89;&#x5B81; <pr>&#x101;nn&#xED;ng</pr></trd>,
+    <trd>&#x5B89;&#x5BE7; <pr>&#x101;nn&#xED;ng</pr></trd>,
+    <trd>&#x5B81;&#x8C27; <pr>n&#xED;ngm&#xEC;</pr></trd>,
+    <trd>&#x5BE7;&#x8B10; <pr>n&#xED;ngm&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_p;&c_a;&c_k;&c_o;&c_j;</trd>,
     <trd>&c_s;&c_u;&c_p;&c_a;&c_k;&c_o;&c_j;</trd>
@@ -461,11 +492,17 @@
     <trd>nyugalom</trd>,
     <trd>nyugalmi &aacute;llapot</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9759;&#x3051;&#x3055;  <pr>&#x3057;&#x305A;&#x3051;&#x3055;</pr></trd>,
+    <trd>&#x9759;&#x5BC2;  <pr>&#x3057;&#x3058;&#x307E;</pr></trd>,
+    <trd>&#x5E73;&#x9759;  <pr>&#x3078;&#x3044;&#x305B;&#x3044;</pr></trd>,
+    <trd>&#x5E73;&#x7A4F;  <pr>&#x3078;&#x3044;&#x304A;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>bezruch</trd>,
     <trd>cicho&sacute;&cacute;</trd>,
     <trd>spok&oacute;j</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>imobilizat</trd>,
     <trd>lini&#x219;te</trd>,
@@ -473,9 +510,9 @@
   </trdgrp>
   <trd lng="sk">pokoj <klr>(stav du&scaron;e)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x438;&#x448;&#x430;</trd>,
-    <trd>&#x441;&#x43F;&#x43E;&#x43A;&#x456;&#x439;</trd>,
-    <trd>&#x43B;&#x430;&#x433;&#x456;&#x434;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
+    <trd>&c_t;&c_i;&c_sh;&c_a;</trd>,
+    <trd>&c_s;&#x43F;&#x43E;&#x43A;&c_ib;&c_j;</trd>,
+    <trd>&#x43B;&c_a;&c_g;&c_ib;&c_d;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -522,7 +559,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="sovagx.mal0igi.KOMUNE">malsova&gcirc;igi</ref>
+    <ref tip="vid" cel="sovagx.mal0igi.sentimigi">malsova&gcirc;igi</ref>
     <trdgrp lng="be">
       <trd>&c_s;&c_u;&c_p;&c_a;&c_k;&c_o;&c_j;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_n;&c_a;&c_t;&c_a;&c_l;&c_ja;&c_c;&c_mol;</trd>,
@@ -553,13 +590,25 @@
       <trd>&c_u;&c_t;&c_o;&c_l;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_u;&c_s;&c_p;&c_o;&c_k;&c_o;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7D8F; <pr>su&#xED;</pr></trd>,
+    <trd>&#x7EE5; <pr>su&#xED;</pr></trd>,
+    <trd>&#x93AE;&#x975C; <pr>zh&#xE8;nj&#xEC;ng</pr></trd>,
+    <trd>&#x9547;&#x9759; <pr>zh&#xE8;nj&#xEC;ng</pr></trd>,
+    <trd>&#x7DE9;&#x548C; <pr>hu&#x1CE;nh&#xE9;</pr></trd>,
+    <trd>&#x7F13;&#x548C; <pr>hu&#x1CE;nh&#xE9;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>konej&scaron;it</trd>,
     <trd>m&iacute;rnit <klr>(nap&ecaron;t&iacute;)</klr></trd>,
     <trd>uklid&ncaron;ovat</trd>,
     <trd>uti&scaron;ovat</trd>,
     <trd>zm&iacute;rnit</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9759;&#x3081;&#x308B;  <pr>&#x3057;&#x305A;&#x3081;&#x308B;</pr></trd>,
+    <trd>&#x306A;&#x3060;&#x3081;&#x308B;</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>temmen</trd>,
@@ -574,22 +623,22 @@
     <trd>ukoi&cacute;</trd>,
     <trd>uspokaja&cacute;</trd>,
     <trd>u&sacute;mierza&cacute;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>stinge</trd>,
     <trd>&icirc;neca</trd>,
     <trd>potoli</trd>,
     <trd>alina</trd>
-  </trdgrp>        
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>upokoji&tcaron;</trd>,
     <trd>ut&iacute;&scaron;i&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x430;&#x441;&#x43F;&#x43E;&#x43A;&#x43E;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x433;&#x430;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x443;&#x433;&#x430;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x431;&#x43E;&#x440;&#x43A;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_z;&c_a;&c_s;&#x43F;&#x43E;&#x43A;&#x43E;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_g;&c_a;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_u;&c_g;&c_a;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_b;&#x43E;&c_r;&#x43A;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -637,20 +686,30 @@
     <trd>sosegarse</trd>
   </trdgrp>
   <trd lng="fr">se <ind>calmer</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x9759;&#x307E;&#x308B;  <pr>&#x3057;&#x305A;&#x307E;&#x308B;</pr></trd>,
+    <trd>&#x304A;&#x3068;&#x306A;&#x3057;&#x304F;&#x306A;&#x308B;</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>och&lstroke;on&aogonek;&cacute;</trd>,
     <trd>wycisza&cacute; si&eogonek;</trd>,
     <trd>zel&zdot;e&cacute;</trd>,
     <trd>zes&lstroke;abn&aogonek;&cacute;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>restabili</trd>,
     <trd>mutul</trd>,
-    <trd>lini&scedil;ti</trd>
+    <trd>lini&#x219;ti</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x430;&#x441;&#x43F;&#x43E;&#x43A;&#x43E;&#x457;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x443;&#x433;&#x430;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
+    <trd>&c_z;&c_a;&c_s;&#x43F;&#x43E;&#x43A;&#x43E;&c_ji;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_u;&c_g;&c_a;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5B89;&#x795E; <pr>&#x101;nsh&#xE9;n</pr></trd>,
+    <trd>&#x5E73;&#x590D; <pr>p&#xED;ngf&#xF9;</pr></trd>,
+    <trd>&#x5E73;&#x5FA9; <pr>p&#xED;ngf&#xF9;</pr></trd>,
+    <trd>&#x5E73;&#x606F; <pr>p&#xED;ngx&#x12B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -678,12 +737,17 @@
   <trd lng="es">quietismo</trd>
   <trd lng="fr">qui&eacute;tisme</trd>
   <trd lng="hu">kvietizmus</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9759;&#x5BC2;&#x4E3B;&#x7FA9;  <pr>&#x305B;&#x3044;&#x3058;&#x3083;&#x304F;&#x3057;&#x3085;&#x304E;</pr></trd>,
+    <trd>&#x30AD;&#x30A8;&#x30C6;&#x30A3;&#x30B9;&#x30E0;</trd>
+  </trdgrp>
   <trd lng="nl">quietisme</trd>
-  <trd lng="pl">kwietyzm</trd>     
+  <trd lng="pl">kwietyzm</trd>
   <trd lng="ro">chietism</trd>
   <trd lng="ru">&c_k;&c_v;&c_i;&c_je;&c_t;&c_i;&c_z;&c_m;</trd>
   <trd lng="sk">kvietizmus</trd>
-  <trd lng="uk">&#x43A;&#x432;&#x456;&#x454;&#x442;&#x438;&#x437;&#x43C; (&#x440;&#x435;&#x43B;&#x456;&#x433;&#x456;&#x439;&#x43D;&#x43E;-&#x435;&#x442;&#x438;&#x447;&#x43D;&#x435; &#x432;&#x447;&#x435;&#x43D;&#x43D;&#x44F;)</trd>
+  <trd lng="uk">&#x43A;&c_v;&c_ib;&c_jeu;&c_t;&c_i;&c_z;&#x43C; (&c_r;&c_je;&#x43B;&c_ib;&c_g;&c_ib;&c_j;&#x43D;&#x43E;-&c_je;&c_t;&c_i;&c_ch;&#x43D;&c_je;
+  &c_v;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;)</trd>
 </drv>
 
 <drv mrk="kviet.mal0a">
@@ -741,25 +805,58 @@
     <trd>izgatott</trd>,
     <trd>h&aacute;borg&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9A12;&#x304C;&#x3057;&#x3044;  <pr>&#x3055;&#x308F;&#x304C;&#x3057;&#x3044;</pr></trd>,
+    <trd>&#x8352;&#x3005;&#x3057;&#x3044;  <pr>&#x3042;&#x3089;&#x3042;&#x3089;&#x3057;&#x3044;</pr></trd>,
+    <trd>&#x843D;&#x7740;&#x304B;&#x306A;&#x3044;  <pr>&#x304A;&#x3061;&#x3064;&#x304B;&#x306A;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">onrustig</trd>
   <trd lng="pl">niespokojny</trd>
   <trdgrp lng="ro">
     <trd>agitat&abreve;</trd>,
     <trd>nelini&#x219;tit</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_b;&c_je;&c_s;&c_p;&c_o;&c_k;&c_o;&c_j;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_t;&c_r;&c_je;&c_v;&c_o;&c_zh;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">nepokojn&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x441;&#x43F;&#x43E;&#x43A;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x442;&#x440;&#x438;&#x432;&#x43E;&#x436;&#x43D;&#x438;&#x439;</trd>
+    <trd>&#x43D;&c_je;&c_s;&#x43F;&#x43E;&#x43A;&c_ib;&c_j;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_t;&c_r;&c_i;&c_v;&#x43E;&c_zh;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x70E6;&#x8E81; <pr>f&#xE1;nz&#xE0;o</pr></trd>,
+    <trd>&#x7169;&#x8E81; <pr>f&#xE1;nz&#xE0;o</pr></trd>,
+    <trd>&#x6145; <pr>s&#x101;o</pr></trd>,
+    <trd>&#x614C; <pr>hu&#x101;ng</pr></trd>,
+    <trd>&#x5FD0;&#x5FD1;&#x4E0D;&#x5B89; <pr>t&#x1CE;nt&#xE8;b&#xF9;&#x101;n</pr></trd>,
+    <trd>&#x4E0D;&#x5B89; <pr>b&#xF9;&#x101;n</pr></trd>,
+    <trd>&#x4F00; <pr>zh&#x14D;ng</pr></trd>,
+    <trd>&#x597D;&#x52A8; <pr>h&#xE0;od&#xF2;ng</pr></trd>,
+    <trd>&#x597D;&#x52D5; <pr>h&#xE0;od&#xF2;ng</pr></trd>,
+    <trd>&#x5F78; <pr>zh&#x14D;ng</pr></trd>,
+    <trd>&#x5FEA; <pr>zh&#x14D;ng</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.115 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.114 2023/09/11 19:20:12
+Wolfram Diestel: kor. ref-cel
+
+versio 1.113 2023/09/11 07:23:01
+Damien Brucker: -eraro cxe cel en ref
+
+versio 1.111 2023/08/29 16:35:24
+Wolfram Diestel: ja: prononco
+
+versio 1.110 2023/04/30 16:32:21
+Paul Peeraerts: Steloj -> monato
+
 versio 1.109 2022/05/01 08:09:26
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -767,20 +864,5 @@ versio 1.107 2022/01/04 09:32:37
 Dmitri Gabinski: + trd be
 
 versio 1.30 2020/06/19 15:10:31
-Wolfram Diestel: -superflua snc, pliaj ekz-oj
-
-versio 1.29 2020/06/19 06:10:37
-Wolfram Diestel: ~a: ekz-oj
-
-versio 1.28 2020/06/13 05:10:35
-Aleks Andre: en
-
-Revision 1.27  2020/03/08 08:14:03  revo
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.26  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
-
-Revision 1.25  2018/06/06 16:10:16  revo
 -->
 </vortaro>

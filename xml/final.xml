@@ -1,23 +1,53 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: final.xml,v 1.22 2022/04/27 17:19:11 revo Exp $">
+<art mrk="$Id: final.xml,v 1.32 2023/11/09 20:48:32 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>final</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>final</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="final.0o">
   <kap><tld/>o</kap>
   <snc mrk="final.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Fina parto de muzika&jcirc;o.
+      Fina parto de <ref tip="malprt" cel="muzik.0ajxo">muzika&jcirc;o</ref>:
+      <ekz>
+        apena&ubreve; formortis la <tld/>o, apla&ubreve;dado eksplodis en la salono
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        el la malvarma novembra aero aperis proksimeco de la <tld/>o
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la amo trovis, fine, sian <tld/>on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>&Ccirc;ajkovskij</nom>, neniom dubante, kreis la&ubreve; tiu temo la <tld/>on de sia 4-a simfonio
+        <fnt>
+          <bib>KFl</bib>
+          <lok>III. Atomoj de evoluo</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_f;&c_ib;&c_n;&c_a;&c_l; <klr tip="amb">(&c_m;&c_u;&c_z;&c_y;&c_ch;&c_n;&c_a;&c_g;&c_a;
     &c_t;&c_v;&c_o;&c_r;&c_a;)</klr></trd>
     <trdgrp lng="de">
        <trd>Finale</trd>,
-       <trd>Abschluss</trd></trdgrp>
+       <trd>Schlussszene</trd>,
+       <trd>Abschluss</trd>
+    </trdgrp>
     <trd lng="en">finale</trd>
     <trdgrp lng="fr">
       <trd>final<klr tip="ind"> (mus.)</klr></trd>,
@@ -32,13 +62,18 @@
       <trd>&c_f;&c_i;&c_n;&c_a;&c_l;</trd>,
       <trd>&c_z;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_ch;&c_a;&c_s;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x715E;&#x5C3E; <pr>sh&#x101;w&#x11B;i</pr></trd>,
+    <trd>&#x7D42;&#x66F2; <pr>zh&#x14D;ngq&#x1D4;</pr></trd>,
+    <trd>&#x7D42;&#x5834; <pr>zh&#x14D;ngch&#x1CE;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="final.0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
       Fina <ref tip="super" cel="macx1.0o.SPO">ma&ccirc;o</ref>
       en konkurso, kiu difinas la rangojn de la lastaj
-      partoprenantoj:
+      partoprenantoj; <ref tip="sin" cel="lud.fin0o">finludo</ref>:
       <ekz>
         en la <tld/>o la du venkintoj batalis por la
         1-a kaj 2-a lokoj, kaj la du venkitoj por la
@@ -48,18 +83,95 @@
           <vrk><url ref="&STEB;sportalingvo.rtf">
           La Sporta Lingvo en Esperanto</url></vrk>,
           <lok>1972</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la konkurso oni luktis por du specialaj premioj <klr>[&#x2026;]</klr> la <tld/>o
+        estis en norvega &ccirc;efurbo Oslo
+        <fnt>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="&Monato;/2000/007097.php">Konkurso: Per malnovaj a&ubreve;toj &ccirc;irka&ubreve; Balta
+          Maro</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/11, p. 25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mat&ccirc;o okazis <klr>[&#x2026;]</klr> samtage kun la &leftquot;granda&rightquot; <tld/>o inter Germanio
+        kaj Brazilo en Japanio dum la lasta mond&ccirc;ampionado
+        <fnt>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2004/008364.html">Plej malforta futbalnacio</url></vrk>
+              <bib>Monato</bib>
+          <lok>2004/11, p. 17</lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_f;&c_ib;&c_n;&c_a;&c_l; <klr>(&c_s;&c_p;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a;&c_j; &c_g;&c_u;&c_l;&c_mol;&c_n;&c_ib;)</klr></trd>
+    <trdgrp lng="de">
+       <trd>Finale</trd>,
+       <trd>Endrunde</trd>,
+       <trd>Endspiel</trd>,
+       <trd>Endausscheidung</trd>
+    </trdgrp>
     <trd lng="fr">finale<klr> (sport)</klr></trd>
   </snc>
   <trd lng="ca">final</trd>
-  <trd lng="cs">fin&#xE1;le</trd>
+  <trd lng="cs">fin&aacute;le</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30D5;&#x30A3;&#x30CA;&#x30FC;&#x30EC;</trd>,
+    <trd>&#x6700;&#x7D42;&#x697D;&#x7AE0;  <pr>&#x3055;&#x3044;&#x7D42;&#x697D;&#x7AE0;</pr></trd>,
+    <trd>&#x7D42;&#x66F2;  <pr>&#x3057;&#x3085;&#x3046;&#x304D;&#x3087;&#x304F;</pr></trd>,
+    <trd>&#x6C7A;&#x52DD;&#x6226;  <pr>&#x3051;&#x3063;&#x3057;&#x3087;&#x3046;&#x305B;&#x3093;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">finale</trd>
   <trd lng="sk">dohra</trd>
   <trdgrp lng="uk">
-    <trd>&#x444;&#x456;&#x43D;&#x430;&#x43B;</trd>,
-    <trd>&#x437;&#x430;&#x43A;&#x43B;&#x44E;&#x447;&#x43D;&#x430; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43D;&#x430;</trd>
+    <trd>&c_f;&c_ib;&c_n;&c_a;&c_l;</trd>,
+    <trd>&c_z;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_n;&c_a; &c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="final.0ano">
+  <kap><tld/>ano</kap>
+  <snc mrk="final.0ano.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Konkuranto en <tld/>o; finludanto:
+      <ekz>
+        <klr>[la]</klr> <tld/>anoj estis bone preparitaj kaj ege atente a&ubreve;skultis dum la
+        pasintaj semajnoj la konkurson
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2001, &#x2116;6</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    Oni foje trovas la naturalisman formon &leftquot;<ref tip="sin" cel="finalist.0o">finalist&middot;o</ref>&rightquot;:
+    <ekz>
+      nun tamen mortis homo pro sa&ubreve;nado, <klr>[&#x2026;]</klr> &ccirc;i-jare rusa finalisto mortis,
+      kuirita &ccirc;e 110 gradoj
+      <fnt>
+        <aut>Stefan Maul</aut>
+        <vrk><url ref="&Monato;/2010/010189.php">Du mil dek</url></vrk>
+        <bib>Monato</bib>
+        <lok>2010/12, p. 7</lok>
+      </fnt>;
+    </ekz> kiun <fnt><bib>PIV1</bib></fnt> prezentas kiel deriva&jcirc;on, sed kiun mi
+    konsideras pruntvorton la&ubreve; la 15a regulo fundamenta. Partopreno en <tld/>o
+    ja ne estas profesio, nek regula okupo a&ubreve; subteno de doktrino!
+    <aut>Wolfram Diestel</aut>
+  </rim>
+  <trd lng="be">&c_f;&c_ib;&c_n;&c_a;&c_l;&c_ib;&c_s;&c_t;</trd>
+  <trd lng="de">Finalist</trd>
+  <trd lng="en">finalist</trd>
+  <trd lng="fr">finaliste</trd>
+  <trd lng="nl">finalist</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5165;&#x56F4;&#x8005; <pr>r&#xF9;w&#xE9;izh&#x11B;</pr></trd>,
+    <trd>&#x51B3;&#x8D5B;&#x9009;&#x624B; <pr>ju&#xE9;s&#xE0;ixu&#x1CE;nsh&#x1D2;u</pr></trd>
   </trdgrp>
 </drv>
 
@@ -85,10 +197,17 @@
   </snc>
   <trd lng="be">&c_p;&c_a;&c_w;&c_f;&c_ib;&c_n;&c_a;&c_l;</trd>
   <trd lng="ca">semifinal</trd>
-  <trd lng="cs">polofin&#xE1;le</trd>
+  <trd lng="cs">polofin&aacute;le</trd>
+  <trd lng="de">Halbfinale</trd>
   <trd lng="fr">demi-finale</trd>
-  <trd lng="he">&#x5D7;&#x5E6;&#x5D9; &#x5D2;&#x5DE;&#x5E8;</trd>
-  <trd lng="sk">polofin&#xE1;le</trd>
+  <trd lng="he">&het;&tsadi;&yod; &gimel;&mem;&resh;</trd>
+  <trd lng="ja">&#x6E96;&#x6C7A;&#x52DD;&#x6226;  <pr>&#x3058;&#x3085;&#x3093;&#x3051;&#x3063;&#x3057;&#x3087;&#x3046;&#x305B;&#x3093;</pr></trd>
+  <trd lng="nl">halve <ind>finale</ind></trd>
+  <trd lng="sk">polofin&aacute;le</trd>
+  <trdgrp lng="zh">
+    <trd>&#x534A;&#x51B3;&#x8D5B; <pr>b&#xE0;nju&#xE9;s&#xE0;i</pr></trd>,
+    <trd>&#x51C6;&#x51B3;&#x8D5B; <pr>zh&#x1D4;nju&#xE9;s&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="final.kvaron0o">
@@ -114,34 +233,42 @@
   </snc>
   <trd lng="be">&c_ch;&c_v;&c_e;&c_r;&c_c;&c_mol;&c_f;&c_ib;&c_n;&c_a;&c_l;</trd>
   <trd lng="ca">quarts de final</trd>
-  <trd lng="cs">&#x10D;tvrtfin&#xE1;le</trd>
+  <trd lng="cs">&ccaron;tvrtfin&aacute;le</trd>
+  <trd lng="de">Virtelfinale</trd>
   <trd lng="fr">quart de finale</trd>
-  <trd lng="sk">&scaron;tvr&tcaron;fin&#xE1;le</trd>
+  <trd lng="ja">&#x6E96;&#x3005;&#x6C7A;&#x52DD;  <pr>&#x3058;&#x3085;&#x3093;&#x3058;&#x3085;&#x3093;&#x3051;&#x3063;&#x3057;&#x3087;&#x3046;</pr></trd>
+  <trd lng="nl">kwartfinale</trd>
+  <trd lng="sk">&scaron;tvr&tcaron;fin&aacute;le</trd>
+  <trdgrp lng="zh">
+    <trd>&#x56DB;&#x5206;&#x4E4B;&#x4E00;&#x51B3;&#x8D5B; <pr>s&#xEC;f&#x113;nzh&#x12B;y&#x12B;ju&#xE9;s&#xE0;i</pr></trd>,
+    <trd>&#x534A;&#x6E96;&#x6C7A;&#x8CFD; <pr>b&#xE0;nzh&#x1D4;nju&#xE9;s&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
+
 </art>
 <!--
 $Log$
-versio 1.22 2022/04/27 17:19:11
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.31 2023/10/14 18:06:41
+revo: transskribo per <pr>
 
-versio 1.20 2021/12/02 07:29:36
+versio 1.30 2023/09/27 10:29:29
 Dmitri Gabinski: + trd be
 
-Revision 1.17  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.29 2023/09/24 15:23:16
+Paul Peeraerts: + trd nl + lok + url
 
-Revision 1.16  2012/07/31 14:10:20  revo
-Marc Rausell: ++ trd ca
+versio 1.28 2023/09/13 06:27:35
+Wolfram Diestel: ref finalist/o
 
-Revision 1.15  2012/02/24 12:10:11  revo
-Jeromo Vasxe: + snc spo, + duon/kvaron~o
+versio 1.27 2023/09/09 15:20:05
+Wolfram Diestel: +ekz-oj, ref; ~ano + rim
 
-Revision 1.14  2011/12/11 16:10:15  revo
-Marc Rausell: +trd ca
+versio 1.26 2023/09/09 07:20:54
+Wolfram Diestel: +adm
 
-Revision 1.13  2009/02/11 19:42:24  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+versio 1.25 2023/09/07 21:22:03
+Matt Brooks: Aldoni la formon '~isto' laux PIV
 
-Revision 1.12  2008/10/30 19:26:04  revo
+versio 1.23 2023/04/29 19:21:19
 -->
 </vortaro>

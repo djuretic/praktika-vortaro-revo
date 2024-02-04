@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: oktobr.xml,v 1.42 2022/05/01 17:17:00 revo Exp $">
+<art mrk="$Id: oktobr.xml,v 1.46 2023/10/20 13:11:47 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>Oktobr</rad>/o,
   <var><kap><rad var="o">oktobr</rad>/o</kap></var>
@@ -99,7 +99,7 @@
   <trd lng="is">okt&oacute;ber</trd>
   <trd lng="it">ottobre</trd>
   <trd lng="iu">&#5125;&#5251;&#5200;&#5171;&#5446;</trd>
-  <trd lng="ja">&#21313;&#26376; [<ind>&#12376;&#12421;&#12358;&#x304C;&#12388;</ind>]</trd>
+  <trd lng="ja">&#21313;&#26376; <pr>&#12376;&#12421;&#12358;&#x304C;&#12388;</pr></trd>
   <trdgrp lng="jbo">
     <trd>pavnonma'i</trd>,
     <trd>laxma'i</trd>
@@ -122,13 +122,13 @@
   <trd lng="lt">spalis</trd>
   <trd lng="lv">oktobris</trd>
   <trd lng="mg">Oktobra</trd>
-  <trd lng="mi">Whiringa-&amacron;-nuku</trd>
+  <trd lng="mi">Whiringa-&#5585;-nuku</trd>
   <trd lng="mk">&c_o;&c_k;&c_t;&c_o;&c_m;&c_v;&c_r;&c_i;</trd>
   <trd lng="ml">&#3346;&#3349;&#3405;&#3359;&#3403;&#3372;&#3376;&#3405;&#8205;</trd>
   <trd lng="mr">&#2321;&#2325;&#2381;&#2335;&#2379;&#2348;&#2352;</trd>
   <trd lng="mt">Ottubru</trd>
   <trd lng="my">&#4129;&#4145;&#4140;&#4096;&#4154;&#4112;&#4141;&#4143;&#4120;&#4140;</trd>
-  <trd lng="na">Tlamahtl&amacron;cti</trd>
+  <trd lng="na">Tlamahtl&#5585;cti</trd>
   <trd lng="ne">&#2309;&#2325;&#2381;&#2335;&#2379;&#2348;&#2352;</trd>
   <trd lng="nl">oktober</trd>
   <trd lng="no">oktober</trd>
@@ -200,18 +200,21 @@
       </ekz>
       <ekz>
         la <tld lit="o"/>an revolucion ili jam ne festas en novembro
-        <fnt>
+       <fnt>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="&Monato;/2000/006852.php">&Ccirc;u vere kristana erao?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006852.html">Reago: &Ccirc;u vere kristana
-          erao?</url></vrk>
-        </fnt>;
+          <lok>2000/04, p. 17</lok>
+          </fnt>;
       </ekz>
       <ekz>
         la <tld lit="o"/>aj komunumaj elektoj en Belgio
         <fnt>
+          
+          <aut>Guido van Damme</aut>
+          <vrk><url ref="&Monato;/2001/007259.php">Belgio: Demokratio blokita</url></vrk>
           <bib>Monato</bib>
-          <aut>Guido Van Damme</aut>
-          <vrk><url ref="&Steloj;monato2/007259.html">Belgio</url></vrk>
+          <lok>2001/01, p. 8</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -228,7 +231,7 @@
   <trd lng="fr">d'<ind>octobre</ind></trd>
   <trd lng="io">oktobrala</trd>
   <trd lng="it">di <ind>ottobre</ind></trd>
-  <trd lng="ja">&#21313;&#26376;&#x306E; [<ind>&#12376;&#12421;&#12358;&#x304C;&#12388;&#x306E;</ind>]</trd>
+  <trd lng="ja">&#21313;&#26376;&#x306E; <pr>&#12376;&#12421;&#12358;&#x304C;&#12388;&#x306E;</pr></trd>
   <trd lng="pl">pa&zacute;dziernikowy</trd>
   <trd lng="ru">&c_o;&c_k;&c_t;&c_ja;&c_b;&c_r;&c_mol;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="vo">tobulik</trd>
@@ -236,6 +239,18 @@
 </art>
 <!--
 $Log$
+versio 1.46 2023/10/20 13:11:47
+revo: transskribo per <pr>
+
+versio 1.45 2023/04/18 09:26:22
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.44 2023/04/09 13:26:17
+Paul Peeraerts: &Monato;/
+
+versio 1.43 2023/03/26 22:27:56
+Paul Peeraerts: &Monato;
+
 versio 1.42 2022/05/01 17:17:00
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -246,17 +261,5 @@ versio 1.39 2021/03/23 18:04:42
 Wolfram Diestel: ambaj maj* k min kiel var
 
 Revision 1.37  2018/08/17 19:10:20  revo
-Wolfram Diestel: pliaj ekz-oj
-
-Revision 1.36  2016/11/25 21:10:41  revo
-Robin van der Vliet: kohereco, +trd
-
-Revision 1.35  2016/04/21 12:10:19  revo
-Jessica Grasso: +tr en
-
-Revision 1.34  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.33  2015/06/29 16:33:21  revo
 -->
 </vortaro>

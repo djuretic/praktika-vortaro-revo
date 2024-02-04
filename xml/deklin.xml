@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: deklin.xml,v 1.25 2022/03/15 15:50:54 revo Exp $">
+<art mrk="$Id: deklin.xml,v 1.29 2023/10/14 11:26:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>deklinaci</rad>/i <fnt><bib>PV</bib></fnt>
@@ -22,8 +22,10 @@
       <ekz>
         polaj numeraloj <tld/>i&gcirc;as
         <fnt>
+          <aut>Bradley Kendal</aut>
+          <vrk><url ref="&Monato;/2002/007888.html">La pola, la lingvo de Zamenhof</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Lingvo slava</url></vrk>
+          <lok>2002/11, p. 20</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -43,6 +45,7 @@
   <trd lng="fr">d&eacute;cliner</trd>
   <trd lng="he">&nun;&tet;&yod;&yod;&he;</trd>
   <trd lng="hu">ragoz (n&eacute;vsz&oacute;t)</trd>
+  <trd lng="ja">&#x683C;&#x5909;&#x5316;&#x3055;&#x305B;&#x308B;  <pr>&#x304B;&#x304F;&#x3078;&#x3093;&#x304B;&#x3055;&#x305B;&#x308B;</pr></trd>
   <trd lng="nl">verbuigen<klr tip="ind"> (taalk.)</klr></trd>
   <trdgrp lng="pl">
     <trd>odmienia&cacute;<klr> przez przypadki</klr></trd>,
@@ -52,8 +55,9 @@
   <trd lng="ru">&c_s;&c_k;&c_l;&c_o;&c_n;&c_ja;&c_t;&c_mol;</trd>
   <trd lng="sk">sklo&ncaron;ova&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x456;&#x434;&#x43C;&#x456;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x441;&#x43B;&#x43E;&#x432;&#x43E; &#x437;&#x430; &#x432;&#x456;&#x434;&#x43C;&#x456;&#x43D;&#x43A;&#x430;&#x43C;&#x438;</trd>,
-    <trd>&#x432;&#x456;&#x434;&#x445;&#x438;&#x43B;&#x44F;&#x442;&#x438;&#x441;&#x44F;</trd>
+    <trd>&c_v;&c_ib;&c_d;&#x43C;&c_ib;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i; &c_s;&#x43B;&#x43E;&c_v;&#x43E; &c_z;&c_a;
+    &c_v;&c_ib;&c_d;&#x43C;&c_ib;&#x43D;&#x43A;&c_a;&#x43C;&c_i;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_h;&c_i;&#x43B;&#x44F;&c_t;&c_i;&c_s;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -104,6 +108,11 @@
     <trd>n&eacute;vsz&oacute;ragoz&aacute;s</trd>,
     <trd>deklin&aacute;ci&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x683C;&#x5909;&#x5316;  <pr>&#x304B;&#x304F;&#x3078;&#x3093;&#x304B;</pr></trd>,
+    <trd>&#x8D64;&#x7DEF;  <pr>&#x305B;&#x304D;&#x3044;</pr></trd>,
+    <trd>&#x504F;&#x89D2;  <pr>&#x3078;&#x3093;&#x304B;&#x304F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>verbuiging</trd>,
     <trd>declinatie</trd>,
@@ -121,14 +130,23 @@
     <trd>sklon</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x456;&#x434;&#x43C;&#x456;&#x43D;&#x430;</trd>,
-    <trd>&#x432;&#x456;&#x434;&#x445;&#x438;&#x43B;&#x435;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_v;&c_ib;&c_d;&#x43C;&c_ib;&#x43D;&c_a;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_h;&c_i;&#x43B;&c_je;&#x43D;&#x43D;&#x44F;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/14 11:26:53
+revo: transskribo per <pr>
+
+versio 1.27 2023/05/19 12:43:12
+Paul Peeraerts: + aut k lok
+
+versio 1.26 2023/05/03 16:39:01
+revo: aktualigo URL-unuoj
+
 versio 1.24 2021/10/09 17:30:16
 Wolfram Diestel: +ekz-oj, ref-oj
 
@@ -142,14 +160,5 @@ Revision 1.19  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.18  2012/09/04 09:10:14  revo
-Marc Rausell: + trd ca
-
-Revision 1.17  2009/07/08 16:31:23  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.16  2009/04/27 16:31:03  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2007/07/19 16:31:17  revo
 -->
 </vortaro>

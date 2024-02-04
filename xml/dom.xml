@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dom.xml,v 1.139 2022/08/17 19:23:51 revo Exp $">
+<art mrk="$Id: dom.xml,v 1.152 2024/01/31 18:21:03 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dom</rad>/o
@@ -14,7 +14,7 @@
     <dif>
       Tuta <ref tip="super" cel="konstr.0ajxo.domo">konstrua&jcirc;o</ref>,
       destinita por homa lo&gcirc;ado (<tld/>o kun unu a&ubreve; pluraj
-      lo&gcirc;ejoj), por oficejoj (urbo<tld/>o) a&ubreve; publikaj 
+      lo&gcirc;ejoj), por oficejoj (urbo<tld/>o) a&ubreve; publikaj
       servoj (staci<tld/>o, Esperanto-<tld/>o):
       <ekz>
         anta&ubreve; la <tld/>o staras arbo
@@ -76,36 +76,38 @@
       <ekz>
         <tld/>fasado
         <fnt>
-          <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007014.html">A&ubreve;strio: Orfi&gcirc;inta
-          beleco</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007014.php">Orfi&gcirc;inta beleco</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/07, p. 12</lok>
+          </fnt>;
       </ekz>
       <ekz>
         plenokupaj <tld/>mastrinoj
         <fnt>
+          <aut>Gianfranco Cazzaro</aut>
+          <vrk><url ref="&Monato;/1995/A950101.php">La modo de fiksokuloj</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9501-sterogramoj.txt">Stereogramoj</url></vrk>
-          <lok>95/01</lok>
+          <lok>1995/01, p. 12</lok>
         </fnt>;
       </ekz>
       <ekz>
         <ref cel="best.dom0o">dombesto</ref>
         <fnt>
+       <aut>Jean-Yves Santerre</aut>
+          <vrk><url ref="&Monato;/2000/006864.php">&Ccirc;evalrasoj</url></vrk>
           <bib>Monato</bib>
-          <aut>Jean-Yves Santerre</aut>
-          <vrk><url ref="&Steloj;monato2/006864.html">Dombestoj:
-          &Ccirc;evalrasoj</url></vrk>
+          <lok>2000/05, p. 18</lok>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>plantoj
         <fnt>
+          <aut>M&aacute;ire NicAoidh</aut>
+          <vrk><url ref="&Monato;/2000/006878.php">&Gcirc;ardenumi</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006878.html">Dommastrumo:
-          &Gcirc;ardenumi</url></vrk>
-        </fnt>.
+          <lok>2000/04, p. 20</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -120,6 +122,11 @@
     </trdgrp>
     <trd lng="br">ti</trd>
     <trd lng="ca">casa</trd>
+    <trdgrp lng="de">
+      <trd>Haus</trd>,
+      <trd>Geb&auml;ude</trd>,
+      <trd>H&uuml;tte</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>maison<klr tip="ind"> (construction)</klr></trd>,
       <trd>b&acirc;timent</trd>
@@ -135,7 +142,7 @@
     <trd lng="pt">casa</trd>
     <trdgrp lng="ro">
       <trd>cas&abreve;</trd>,
-      <trd>locuin&tcedil;&abreve;</trd>,
+      <trd>locuin&tcomma;&abreve;</trd>,
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_d;&c_o;&c_m;</trd>,
@@ -143,7 +150,11 @@
       <trd>&c_i;&c_z;&c_b;&c_a;</trd>
     </trdgrp>
     <trd lng="tok">tomo</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#25151;&#23627; <pr>f&aacute;ngw&umacron;</pr></trd>,
+    <trd>&#25151; <pr>f&aacute;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="dom.0o.GEN">
     <tezrad fak="GEN"/>
     <uzo tip="fak">GEN</uzo>
@@ -172,6 +183,11 @@
     </refgrp>
     <trd lng="be">&c_d;&c_o;&c_m;</trd>
     <trd lng="br">tiegezh<klr tip="ind"> (lignez)</klr></trd>
+    <trdgrp lng="de">
+      <trd>Haus</trd>,
+      <trd>Dynastie</trd>,
+      <trd>Sippe<klr> [ark]</klr></trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>maison<klr tip="ind"> (lign&eacute;e)</klr></trd>,
       <trd>lign&eacute;e</trd>
@@ -180,7 +196,8 @@
     <trd lng="pl">dom</trd>
     <trd lng="pt">casa</trd>
     <trd lng="ru">&c_d;&c_o;&c_m;</trd>
-  </snc>
+    <trd lng="zh">&#26397; <pr>ch&aacute;o</pr></trd>
+</snc>
   <snc mrk="dom.0o.hejmo">
     <uzo tip="stl">ARK</uzo>
     <dif>
@@ -203,6 +220,10 @@
       <trd>k&ecirc;r<klr tip="ind"> (annez)</klr></trd>,
       <trd>annez</trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>Heim</trd>
+      <trd>trautes <ind>Heim</ind></trd>
+    </trdgrp>
     <trd lng="en">home</trd>
     <trd lng="fr">domicile</trd>
     <trd lng="hu">otthon</trd>
@@ -213,7 +234,13 @@
       <trd>domic&iacute;lio</trd>
     </trdgrp>
     <trd lng="ru">&c_d;&c_o;&c_m;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#23433;&#20048;&#31389; <pr>&amacron;nl&egrave;w&omacron;</pr></trd>,
+    <trd>&#23621;&#25152; <pr>j&umacron;su&#466;</pr></trd>,
+    <trd>&#25925;&#20065; <pr>g&ugrave;xi&amacron;ng</pr></trd>,
+    <trd>&#28809;&#36793; <pr>l&uacute;bi&amacron;n</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="af">huis</trd>
   <trd lng="am">&#4708;&#4725;</trd>
   <trd lng="ar">&a_m;&a_n;&a_z;&a_l;</trd>
@@ -229,7 +256,6 @@
   </trdgrp>
   <trd lng="cy">t&ycirc;</trd>
   <trd lng="da">hus</trd>
-  <trd lng="de">Haus</trd>
   <trd lng="en">house</trd>
   <trd lng="es">casa</trd>
   <trd lng="et">maja</trd>
@@ -248,7 +274,7 @@
   <trd lng="id">rumah</trd>
   <trd lng="ig">&#7909;l&#7885;</trd>
   <trd lng="is">h&uacute;s</trd>
-  <trd lng="ja">&#23478;</trd>
+  <trd lng="ja">&#23478; <pr>&#12385;</pr></trd>
   <trd lng="ka">&#4321;&#4304;&#4334;&#4314;&#4312;</trd>
   <trd lng="kk">&#1199;&c_j;</trd>
   <trd lng="km">&#6037;&#6098;&#6033;&#6087;</trd>
@@ -336,6 +362,11 @@
     <trd>masure</trd>
   </trdgrp>
   <trd lng="he">&bet;&yod;&tav; &mem;&tet; &lamed;&nun;&pe;&vav;&lamed;</trd>
+  <trdgrp lng="id">
+    <trd>gubuk</trd>,
+    <trd>teratak</trd>
+  </trdgrp>
+  <trd lng="ja">&#12354;&#12400;&#12425;&#12420;</trd>
   <trdgrp lng="nl">
     <trd>hut</trd>,
     <trd>krot</trd>
@@ -363,6 +394,7 @@
         la fajrogrigado savis &ccirc;iujn <tld/>anojn.
       </ekz>
     </dif>
+    <trd lng="id">peng<ind>huni</ind> rumah</trd>
     <trd lng="ru">&c_zh;&c_i;&c_l;&c_je;&c_c;<klr tip="amb">
 (&c_d;&c_o;&c_m;&c_a;)</klr></trd>
   </snc>
@@ -371,7 +403,7 @@
       Kunvivanto en iu hejmo, samhejmano, eventuale kontraste al la
       <tld/>mastro:
       <ekz>
-        <nom>Esav</nom> prenis siajn edzinojn kaj siajn filojn kaj siajn filinojn 
+        <nom>Esav</nom> prenis siajn edzinojn kaj siajn filojn kaj siajn filinojn
         kaj &ccirc;iujn siajn <tld/>anojn <klr>[&#8230;]</klr> kaj foriris en
         alian landon
         <fnt><bib>MT</bib> <lok>&Gen; 36:6</lok></fnt>;
@@ -386,8 +418,16 @@
       </ekz>
     </dif>
     <trd lng="de">Mitbewohner</trd>
+    <trdgrp lng="id">
+      <trd><ind>teman</ind> serumah</trd>,
+      <trd><ind>teman</ind> sekamar</trd>
+    </trdgrp>
     <trd lng="ru">&c_d;&c_o;&c_m;&c_o;&c_ch;&c_a;&c_d;&c_je;&c_c;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#23460;&#21451; <pr>sh&igrave;y&#466;u</pr></trd>,
+    <trd>&#20303;&#25142; <pr>zh&ugrave;h&ugrave;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_d;&c_a;&c_m;&c_a;&c_ch;&c_a;&c_d;&c_z;&c_je;&c_c;
   </trd>
   <trd lng="cs">obyvatel domu</trd>
@@ -402,6 +442,7 @@
   </trdgrp>
   <trd lng="he">&dalet;&yod;&yod;&resh;</trd>
   <trd lng="hu">lak&oacute;t&aacute;rs</trd>
+  <trd lng="ja">&#23478;&#20154;  <pr>&#12369;&#12395;&#12435;</pr></trd>
   <trd lng="nl">medebewoner</trd>
   <trd lng="pl">domownik</trd>
   <trd lng="sk">obyvate&lcaron; domu</trd>
@@ -411,7 +452,7 @@
   <kap><tld/>anaro</kap>
   <snc mrk="dom.0anaro.KOMUNE">
     <dif>
-      La tuto de lo&gcirc;antoj en unu <tld/>o, anoj de kunlo&gcirc;a 
+      La tuto de lo&gcirc;antoj en unu <tld/>o, anoj de kunlo&gcirc;a
       familio:
       <ekz>
         <nom>Adaha</nom> tuj gajnis la sinceran korinklinon de la tuta <tld/>anaro
@@ -428,6 +469,7 @@
   <trd lng="en">household</trd>
   <trd lng="fr">maisonn&eacute;e</trd>
   <trd lng="he">&bet;&nun;&yod; &bet;&yod;&tav;</trd>
+  <trd lng="id"><ind>rumah</ind> tangga</trd>
   <trd lng="nl">bewoners</trd>
   <trd lng="pl">domownicy</trd>
   <trdgrp lng="ru">
@@ -446,7 +488,7 @@
   <snc mrk="dom.0ego.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
-      Granda <ref tip="super" cel="dom.0o.konstruajxo"><tld/>o</ref> 
+      Granda <ref tip="super" cel="dom.0o.konstruajxo"><tld/>o</ref>
       ofte entenanta multajn lo&gcirc;ejojn a&ubreve; oficejojn:
       <ekz>
         magazenoj, fabrikoj kaj laboristaj <tld/>egoj
@@ -465,12 +507,23 @@
     <trd>batisse</trd>,
     <trd>immeuble</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>bangun</ind>an</trd>,
+    <trd>gedung</trd>,
+    <trd><ind>rumah</ind> besar</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#22823;&#12365;&#12356;&#23478;  <pr>&#12362;&#12362;&#12365;&#12356;&#12356;&#12360;</pr></trd>,
+    <trd>&#39208;  <pr>&#12416;&#12429;&#12388;&#12415;</pr></trd>,
+    <trd>&#12499;&#12523;  <pr>&#12403;&#12427;</pr></trd>
+  </trdgrp>
   <trd lng="nl">gebouw</trd>
   <trdgrp lng="pl">
     <trd>gmach</trd>,
     <trd>blok<klr> (np. mieszkalny)</klr></trd>
   </trdgrp>
   <trd lng="ro">cl&abreve;dire</trd>
+  <trd lng="sw">jumba</trd>
   <trd lng="tr">bina</trd>
 </drv>
 
@@ -502,15 +555,12 @@
     <trd>Hausherr</trd>,
     <trd>Hausverwalter</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>pe<ind>milik</ind> rumah</trd>,
+    <trd><ind>tuan</ind> rumah</trd>
+  </trdgrp>
+  <trd lng="zh">&#19996;&#23478; <pr>d&omacron;ngji&amacron;</pr></trd>
 </drv>
-
-
-
-
-
-
-
-
 
 <drv mrk="dom.0eto">
   <kap><tld/>eto</kap>
@@ -525,7 +575,7 @@
       </ekz>
     </dif>
   </snc>
-  
+
   <trdgrp lng="de">
     <trd>H&auml;uschen</trd>,
     <trd>H&uuml;tte</trd>
@@ -537,13 +587,29 @@
     <trd>maisonnette</trd>
   </trdgrp>
   <trd lng="he">&bet;&qof;&tav;&he;</trd>
+  <trdgrp lng="id">
+    <trd>bungalo</trd>,
+    <trd>pondok</trd>,
+    <trd><ind>rumah</ind> kecil</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#23567;&#12373;&#12356;&#23478;  <pr>&#12385;&#12356;&#12373;&#12356;&#12356;&#12360;</pr></trd>,
+    <trd>&#23567;&#23627;  <pr>&#12371;&#12420;</pr></trd>
+  </trdgrp>
   <trd lng="nl">huisje</trd>
   <trd lng="pl">domek</trd>
   <trd lng="ru">&c_d;&c_o;&c_m;&c_i;&c_k;</trd>
+  <trd lng="sw">kijumba</trd>
   <trdgrp lng="uk">
     <trd>&c_b;&c_u;&c_d;&c_i;&c_n;&c_o;&c_ch;&c_o;&c_k;</trd>,
     <trd>&c_h;&c_a;&c_t;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_h;&c_a;&c_t;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#31389;&#26842; <pr>w&omacron;peng</pr></trd>,
+    <trd>&#26842;&#23627; <pr>p&eacute;ngw&umacron;</pr></trd>,
+    <trd>&#23534; <pr>li&aacute;o</pr></trd>,
+    <trd>&#33541;&#23627; <pr>m&aacute;ow&umacron;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -556,7 +622,7 @@
       a&ubreve; dometo aran&gcirc;ita kiel
       <ref tip="super" cel="ban.0ejo">banejo</ref>:
       <ekz>
-        kiam <klr>[&#8230;]</klr> la princino iris en la ban<tld/>on, li 
+        kiam <klr>[&#8230;]</klr> la princino iris en la ban<tld/>on, li
         saltis al &scirc;i
         <fnt><bib>ElektFab</bib> <lok>La ora birdo</lok></fnt>.
       </ekz>
@@ -570,6 +636,7 @@
     <trd>hammam</trd>
   </trdgrp>
   <trd lng="he">&bet;&yod;&tav; &resh;&het;&tsadi;&he;</trd>
+  <trd lng="id">pe<ind>mandi</ind>an umum</trd>
   <trd lng="nl">badhuis</trd>
   <trd lng="pl">&lstroke;a&zacute;nia</trd>
   <trd lng="ru">&c_b;&c_a;&c_n;&c_ja;<klr tip="amb">
@@ -577,6 +644,11 @@
   <trd lng="sk">k&uacute;pele <klr>(budova)</klr></trd>
   <trd lng="sv">badhus</trd>
   <trd lng="tr">hamam</trd>
+  <trdgrp lng="zh">
+    <trd>&#28020;&#22530; <pr>y&ugrave;t&aacute;ng</pr></trd>,
+    <trd>&#20844;&#20849;&#28020;&#23460; <pr>g&omacron;ngg&ograve;ngy&ugrave;sh&igrave;</pr></trd>,
+    <trd>&#22530;&#23376; <pr>t&aacute;ngzi</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dom.cxas0o">
@@ -584,13 +656,13 @@
   <snc mrk="dom.cxas0o.CXAS">
     <dif>
       <ref tip="super" cel="dom.0o.konstruajxo"><tld lit="D"/>o</ref>
-      en sova&gcirc;ejo, por restado dum plurtaga &ccirc;asado a&ubreve; 
+      en sova&gcirc;ejo, por restado dum plurtaga &ccirc;asado a&ubreve;
       plezurekskurso:
       <ekz>
-        &scirc;i eltrovis, ke la vojo <klr>[&#8230;]</klr> kondukas nur al 
-        re&gcirc;a &ccirc;as<tld/>o; kaj ke tiu <tld/>o trovi&gcirc;as 
+        &scirc;i eltrovis, ke la vojo <klr>[&#8230;]</klr> kondukas nur al
+        re&gcirc;a &ccirc;as<tld/>o; kaj ke tiu <tld/>o trovi&gcirc;as
         en la mezo de vasta arbaro
-        <fnt><bib>I&scirc;tar</bib> <lok>&ccirc;apitro 17a, Adaha 
+        <fnt><bib>I&scirc;tar</bib> <lok>&ccirc;apitro 17a, Adaha
         ser&ccirc;as Omaron</lok></fnt>.
       </ekz>
     </dif>
@@ -601,6 +673,7 @@
   </trdgrp>
   <trd lng="fr">pavillon de chasse</trd>
   <trd lng="he">&bet;&qof;&tav;&tav; &tsadi;&yod;&dalet;</trd>
+  <trd lng="id"><ind>pondok</ind> berburu</trd>
   <trd lng="nl">jachthuisje</trd>
   <trdgrp lng="pl">
     <trd>chatka my&sacute;liwska</trd>,
@@ -632,6 +705,7 @@
   <trd lng="fr">r&eacute;sidence</trd>
   <trd lng="he">&bet;&#1468;&#1461;&yod;&tav;
   &mem;&#1456;&gimel;&vav;&#1468;&resh;&#1460;&yod;&fmem;</trd>
+  <trd lng="id"><ind>tempat</ind> tinggal</trd>
   <trd lng="nl">woonhuis</trd>
   <trdgrp lng="pl">
     <trd>dom mieszkalny</trd>,
@@ -642,6 +716,37 @@
   </trd>
   <trd lng="sv">bostadshus</trd>
   <trd lng="uk">&c_zh;&c_i;&c_t;&c_l;&c_o;&c_v;&c_i;&c_j; &c_b;&c_u;&c_d;&c_i;&c_n;&c_o;&c_k;</trd>
+  <trdgrp lng="zh">
+    <trd>&#27665;&#23429; <pr>m&iacute;nzh&aacute;i</pr></trd>,
+    <trd>&#20303;&#25151; <pr>zh&ugrave;f&aacute;ng</pr></trd>,
+    <trd>&#23429;&#23376; <pr>zh&aacute;izi</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="dom.palis0o">
+  <kap>
+    palis<tld/>o
+  </kap>
+  <snc>
+    <uzo tip="fak">ARKI</uzo>
+    <dif>
+      <tld lit="D"/>o starigita sur palisoj, kutime super akvo a&ubreve; mar&ccirc;o; <ref tip="sin" cel="palafi.0o">palafito</ref>:
+      <ekz>
+        Sur la insulo <nom>Wolin</nom> trovitaj estis palis<tld/>oj, karakterizaj por la norda
+        parto de E&ubreve;ropo
+        <fnt>
+          <aut>Karolina Czonstke, trad. Henryk Kosicki	</aut>
+          <vrk><url ref="https://sites.google.com/prod/view/triurbo/esperanto-sur-la-strando/esls-2020/esls-2020-prelego"
+              >Kontaktoj en la regiono de la Balta Maro en la frua mezepoko</url></vrk>
+          <lok>Esperanto Sopot, 2020</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Pfahlbau</trd>
+  <trd lng="en">stilt house</trd>
+  <trd lng="fr">palafitte</trd>
+  <trd lng="ru">&c_s;&c_v;&c_a;&c_j;&c_n;&c_o;&c_je; &c_zh;&c_i;&c_l;&c_i;&c_shch;&c_je;</trd>
 </drv>
 
 <drv mrk="dom.panel0o">
@@ -698,6 +803,8 @@
   <trd lng="es">caravana</trd>
   <trd lng="fr">caravane<klr tip="amb"> (v&eacute;hicule)</klr></trd>
   <trd lng="he">&qof;&#1464;&resh;&vav;&#1465;&fnun;</trd>
+  <trd lng="id">karavan</trd>
+  <trd lng="ja">&#12488;&#12524;&#12540;&#12521;&#12540;&#12495;&#12454;&#12473;</trd>
   <trdgrp lng="nl">
     <trd>caravan</trd>,
     <trd>sleurhut</trd>
@@ -726,6 +833,7 @@
     <trd>&c_b;&c_u;&c_d;&c_i;&c_n;&c_o;&c_ch;&c_o;&c_k; &c_n;&c_a; &c_k;&c_o;&c_l;&c_je;&c_s;&c_a;&c_h;</trd>,
     <trd>&c_k;&c_a;&c_r;&c_a;&c_v;&c_a;&c_n;&c_ib;&c_n;&c_g;</trd>
   </trdgrp>
+  <trd lng="zh">&#25151;&#36554; <pr>f&aacute;ngch&emacron;</pr></trd>
 </drv>
 
 <drv mrk="dom.somer0o">
@@ -734,10 +842,10 @@
     <uzo tip="fak">ARKI</uzo>
     <dif>
       Eksterurba privata <ref tip="super" cel="dom.0o.konstruajxo">domo</ref>, por pli agrabla
-      somera 
+      somera
       lo&gcirc;ado:
       <ekz>
-        La roma imperiestro Kla&ubreve;dio havis en Pompejo 
+        La roma imperiestro Kla&ubreve;dio havis en Pompejo
         somer<tld/>on
         <fnt><bib>IntArkeol</bib>, <lok>p. 24a</lok></fnt>.
       </ekz>
@@ -759,6 +867,11 @@
     <trd>r&eacute;sidence secondaire</trd>
   </trdgrp>
   <trd lng="he">&bet;&yod;&tav; &qof;&yod;&ftsadi;</trd>
+  <trd lng="id"><ind>rumah</ind> musim panas</trd>
+  <trdgrp lng="ja">
+    <trd>&#21029;&#33624;  <pr>&#12409;&#12387;&#12381;&#12358;</pr></trd>,
+    <trd>&#12469;&#12510;&#12540;&#12495;&#12454;&#12473;</trd>
+  </trdgrp>
   <trd lng="nl">zomerhuisje</trd>
   <trdgrp lng="pl">
     <trd>domek kempingowy</trd>,
@@ -786,14 +899,13 @@
 
 <drv mrk="dom.staci0o">
   <kap><ofc>*</ofc>staci<tld/>o <fnt><bib>F</bib>, <lok>Universala
-  Vortaro, <url
-  ref="&AdE;/fundamento/universala_vortaro.html#av-5206">staci'dom'</url></lok></fnt></kap>
+  Vortaro, <url ref="&AdE;/fundamento/universala_vortaro.html#av-5206">staci'dom'</url></lok></fnt></kap>
   <snc mrk="dom.staci0o.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <uzo tip="fak">FER</uzo>
     <dif>
       <ref tip="super" cel="konstr.0ajxo">Konstrua&jcirc;o</ref>
-      por halto de vagonaroj, eli&gcirc;ado kaj eni&gcirc;ado de 
+      por halto de vagonaroj, eli&gcirc;ado kaj eni&gcirc;ado de
       pasa&gcirc;eroj a&ubreve; komerca&jcirc;oj:
       <ekz>
         la vagonaro brue venis al la <klr>[&#8230;]</klr> staci<tld/>o
@@ -824,6 +936,7 @@
   <trd lng="he">&tav;&#1463;&het;&#1458;&nun;&#1464;&he;</trd>
   <trd lng="hu">&aacute;llom&aacute;s&eacute;p&uuml;let</trd>
   <trd lng="id">stasiun</trd>
+  <trd lng="ja">&#39365;&#33294;  <pr>&#12360;&#12365;&#12375;&#12419;</pr></trd>
   <trd lng="nl">stationsgebouw</trd>
   <trd lng="oc">gara</trd>
   <trdgrp lng="pl">
@@ -845,6 +958,7 @@
   </trdgrp>
   <trd lng="uk">&c_n;&c_a; &c_v;&c_o;&c_k;&c_z;&c_a;&c_l;&c_ib;</trd>
   <trd lng="vo">stejen</trd>
+  <trd lng="zh">&#39376;&#22320; <pr>zh&ugrave;d&igrave;</pr></trd>
 </drv>
 
 <drv mrk="dom.urbo0o">
@@ -853,7 +967,7 @@
     <uzo tip="fak">ARKI</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      <ref tip="super" cel="konstr.0ajxo">Konstrua&jcirc;o</ref> 
+      <ref tip="super" cel="konstr.0ajxo">Konstrua&jcirc;o</ref>
       funkcianta kiel &ccirc;efoficejo kaj solenejo de urba administro:
       <ekz>
         la mikskolora blazono sur la malnova urbo<tld/>o
@@ -878,6 +992,10 @@
   <trd lng="he">&bet;&yod;&tav; &he;&ayin;&yod;&resh;&yod;&yod;&he;</trd>
   <trd lng="hu">v&aacute;rosh&aacute;za</trd>
   <trd lng="id">balai kota</trd>
+  <trdgrp lng="ja">
+    <trd>&#24066;&#24441;&#25152;  <pr>&#12375;&#12420;&#12367;&#12375;&#12423;</pr></trd>,
+    <trd>&#30010;&#24441;&#22580;  <pr>&#12414;&#12385;&#12420;&#12367;&#12400;</pr></trd>
+  </trdgrp>
   <trd lng="nl">stadhuis</trd>
   <trd lng="oc">comuna, ostal comunal</trd>
   <trd lng="pl">ratusz</trd>
@@ -900,6 +1018,12 @@
     <trd>&c_m;&c_je;&c_r;&c_ib;&c_ja;</trd>,
     <trd>&c_m;&c_u;&c_n;&c_ib;&c_c;&c_i;&c_p;&c_a;&c_l;&c_ib;&c_t;&c_je;&c_t;</trd>,
     <trd>&c_m;&c_ib;&c_s;&c_mol;&c_k;&c_a; &c_r;&c_a;&c_d;&c_a; (&c_b;&c_u;&c_d;&c_i;&c_n;&c_o;&c_k;)</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#31038;&#21306;&#20250;&#22530; <pr>sh&egrave;q&umacron;ku&agrave;it&aacute;ng</pr></trd>,
+    <trd>&#24066;&#25919;&#21381; <pr>sh&igrave;zh&egrave;ngt&imacron;ng</pr></trd>,
+    <trd>&#24066;&#25919;&#22823;&#21381; <pr>sh&igrave;zh&egrave;ngd&agrave;t&imacron;ng</pr></trd>,
+    <trd>&#31038;&#21306;&#20250;&#22530; <pr>sh&egrave;q&umacron;hu&igrave;t&aacute;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -925,33 +1049,37 @@
   </snc>
   <trd lng="de">Reihenhaus</trd>
   <trd lng="fr">maison en bande</trd>
+  <trdgrp lng="zh">
+    <trd>&#25490;&#23627; <pr>p&aacute;iw&umacron;</pr></trd>,
+    <trd>&#36830;&#25151; <pr>li&aacute;nf&aacute;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 
 $Log$
-versio 1.139 2022/08/17 19:23:51
-Wolfram Diestel: +~estro
+versio 1.152 2024/01/31 18:21:03
+Wolfram Diestel: +palis~o
 
-versio 1.138 2022/08/07 20:32:01
-Ulrich Fellmann: dometo: + 2 DE trdj
+versio 1.151 2023/12/12 19:23:57
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.137 2022/04/26 17:11:48
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.149 2023/10/14 14:40:07
+revo: transskribo per <pr>
 
-versio 1.131 2021/09/17 12:46:46
-Dmitri Gabinski: +trd be
+versio 1.148 2023/10/10 07:23:08
+Eko Nur Syah Hidayat: +trd id
 
-versio 1.57 2021/01/18 02:14:39
-Jeromo Vasxe: + vic~o
+versio 1.146 2023/08/29 12:44:39
+Wolfram Diestel: ja: +prononco
 
-versio 1.56 2020/12/29 10:10:36
-Aleks Andre: +trd bo
+versio 1.145 2023/04/30 06:30:40
+Paul Peeraerts: Steloj -> monato
 
-Revision 1.54  2019/06/29 19:10:14  revo
-Jeromo Vasxe: + panel~o
+versio 1.144 2023/04/25 06:32:11
+Paul Peeraerts: @Steloj -> @Monato
 
-Revision 1.53  2017/12/20 14:10:20  revo
+versio 1.143 2023/04/15 10:28:41
 -->
 
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: marsx.xml,v 1.29 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: marsx.xml,v 1.33 2024/01/25 20:10:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mar&scirc;</rad>/i
@@ -51,7 +51,7 @@
       </ekz>
     </dif>                          
     <trd lng="be">&c_m;&c_a;&c_r;&c_sh;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-    <trd lng="en">march</trd>
+    <trd lng="en">march<klr> (vi)</klr></trd>
     <trd lng="es">marchar</trd>
     <trdgrp lng="hu">
       <trd>menetel</trd>,
@@ -108,7 +108,7 @@
       <trd>&c_s;&c_t;&c_u;&c_p;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_h;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>
     </trdgrp>
-    <trd lng="en">walk</trd>
+    <trd lng="en">walk<klr> (vi)</klr></trd>
     <trd lng="es">caminar</trd>
     <trdgrp lng="hu">
       <trd>gyalogol</trd>,
@@ -132,7 +132,7 @@
     </trdgrp>
     <trd lng="sv">stega</trd>
   </snc>                       
-  <trd lng="bo">&#xF41;&#xFB2;&#xF7C;&#xF58;&#xF0B;&#xF56;&#xF66;&#xF90;&#xF7C;&#xF62;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_rata;&t_naro;&t_ma;&t_tsheg;&t_ba;&t_sa;&t_kata;&t_naro;&t_ra;&t_tsheg;&t_ba;&t_yata;&t_drengbu;&t_da;&t_tsheg;</trd>
   <trd lng="br">bale<klr tip="ind"> (v.)</klr></trd>
   <trd lng="cs">pochodovat</trd>
    <trdgrp lng="de">
@@ -144,12 +144,21 @@
     <trd>marcher</trd>
   </trdgrp>
   <trd lng="he">&lamed;&lamed;&kaf;&tav; \<ind>&he;&vav;&lamed;&fkaf;</ind>\</trd>
+  <trdgrp lng="ja">
+    <trd>&#x884C;&#x9032;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3057;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x524D;&#x9032;&#x3059;&#x308B;  <pr>&#x305C;&#x3093;&#x3057;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x6B69;&#x3044;&#x3066;&#x884C;&#x304F;  <pr>&#x3042;&#x308B;&#x3044;&#x3066;&#x3044;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="pl">maszerowa&cacute;</trd>
   <trd lng="ro">m&abreve;r&#x219;ui</trd>
   <trdgrp lng="uk">
-    <trd>&#x445;&#x43E;&#x434;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x43A;&#x440;&#x43E;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43C;&#x430;&#x440;&#x448;&#x438;&#x440;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_k;&c_r;&c_o;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_m;&c_a;&c_r;&c_sh;&c_i;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x884C;&#x519B; <pr>x&#xED;ngj&#x16B;n</pr></trd>,
+    <trd>&#x884C;&#x8ECD; <pr>x&#xED;ngj&#x16B;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -183,8 +192,10 @@
     <trd>&c_k;&c_r;&c_o;&c_k;&c_a;&c_m; &c_r;&c_u;&c_sh;!</trd>
   </trdgrp>
   <trd lng="de">Marsch!</trd>
+  <trd lng="en">march!<klr> (command)</klr></trd>
   <trd lng="pl">marsz!</trd>
-  <trd lng="ro">mar&scedil;!</trd>
+  <trd lng="ro">mar&#x219;!</trd>
+  <trd lng="zh">&#x6B63;&#x6B65;&#x8D70; <pr>zh&#xE8;ngb&#xF9;z&#x1D2;u</pr></trd>
 </drv>
 
 
@@ -234,6 +245,7 @@
       </ekz>
     </dif>      
     <trd lng="br">bale<klr tip="ind"> (ak.)</klr></trd>
+    <trd lng="en">march<klr> (noun)</klr></trd>
     <trdgrp lng="fr">
       <trd>marche<klr> (d&eacute;placement)</klr></trd>
     </trdgrp>
@@ -269,6 +281,7 @@
       </ekz>
     </dif>        
     <trd lng="br">ton-bale</trd>
+    <trd lng="en">march<klr> (noun, music)</klr></trd>
     <trdgrp lng="fr">
       <trd>marche<klr> (musicale)</klr></trd>
     </trdgrp>
@@ -277,19 +290,31 @@
       <trd>mars</trd>
     </trdgrp>
   <trd lng="pt">marcha <klr tip="amb">(m&uacute;s.)</klr></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8FDB;&#x884C;&#x66F2; <pr>j&#xEC;nx&#xED;ngq&#x1D4;</pr></trd>,
+    <trd>&#x9032;&#x884C;&#x66F2; <pr>j&#xEC;nx&#xED;ngq&#x1D4;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_m;&c_a;&c_r;&c_sh;</trd>
   <trd lng="es">marcha</trd>
   <trd lng="de">Marsch</trd>
+  <trdgrp lng="ja">
+    <trd>&#x884C;&#x9032;  <pr>&#x3053;&#x3046;&#x3057;&#x3093;</pr></trd>,
+    <trd>&#x884C;&#x8ECD;  <pr>&#x3053;&#x3046;&#x3050;&#x3093;</pr></trd>,
+    <trd>&#x6B69;&#x884C;  <pr>&#x304B;&#x3061;</pr></trd>,
+    <trd>&#x884C;&#x9032;&#x66F2;  <pr>&#x3053;&#x3046;&#x3057;&#x3093;&#x304D;&#x3087;&#x304F;</pr></trd>,
+    <trd>&#x30DE;&#x30FC;&#x30C1;</trd>,
+    <trd>&#x7AF6;&#x6B69;  <pr>&#x304D;&#x3087;&#x3046;&#x307B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">mars</trd>
   <trd lng="pl">marsz</trd>
-  <trd lng="ro">mar&scedil;</trd>
+  <trd lng="ro">mar&#x219;</trd>
   <trd lng="ru">&c_m;&c_a;&c_r;&c_sh;</trd>
   <trd lng="sv">marsch</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x430;&#x440;&#x430;&#x434;&#x43D;&#x438;&#x439; &#x43C;&#x430;&#x440;&#x448;</trd>,
-    <trd>&#x43C;&#x430;&#x440;&#x448;</trd>,
-    <trd>&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x432;&#x43D;&#x430; &#x445;&#x43E;&#x434;&#x44C;&#x431;&#x430;</trd>
+    <trd>&c_p;&c_a;&c_r;&c_a;&c_d;&c_n;&c_i;&c_j; &c_m;&c_a;&c_r;&c_sh;</trd>,
+    <trd>&c_m;&c_a;&c_r;&c_sh;</trd>,
+    <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_i;&c_v;&c_n;&c_a; &c_h;&c_o;&c_d;&c_mol;&c_b;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -332,6 +357,12 @@
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.30 2023/03/09 05:28:34
+Robert Baruch: +trd: en
+
 versio 1.29 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -348,11 +379,5 @@ Revision 1.22  2018/05/17 20:10:15  revo
 Benoit Soubeyran: + he
 
 Revision 1.21  2011/01/02 15:25:09  revo
-Mireille Corobu: +drv por bastonmarsxado
-
-Revision 1.20  2009/09/01 04:54:09  revo
-Emmanuel Debanne: +trd ku
-
-Revision 1.19  2006/07/29 16:35:01  revo
 -->
 </vortaro>

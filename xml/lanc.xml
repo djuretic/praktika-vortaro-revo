@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lanc.xml,v 1.27 2022/05/01 12:04:34 revo Exp $">
+<art mrk="$Id: lanc.xml,v 1.31 2024/01/15 16:14:08 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>lanc</rad>/o
@@ -77,6 +77,11 @@
   </trdgrp>
   <trd lng="fr">lance</trd>
   <trd lng="hu">l&aacute;ndzsa</trd>
+  <trdgrp lng="ja">
+    <trd>&#x69CD;  <pr>&#x307B;&#x3053;</pr></trd>,
+    <trd>&#x929B;  <pr>&#x3082;&#x308A;</pr></trd>,
+    <trd>&#x9999;&#x8ECA;  <pr>&#x304D;&#x3087;&#x3046;&#x3057;&#x3083;</pr></trd>
+  </trdgrp>
   <trd lng="nl">lans</trd>
   <trdgrp lng="pl">
     <trd>lanca</trd>,
@@ -97,6 +102,7 @@
     <trd>&#x434;&#x440;&#x43E;&#x442;&#x438;&#x43A;</trd>,
     <trd>&#x440;&#x43E;&#x433;&#x430;&#x442;&#x438;&#x43D;&#x430;</trd>
   </trdgrp>
+  <trd lng="zh">&#x77DB; <pr>m&#xE1;o</pr></trd>
 </drv>
 
 <drv mrk="lanc.0eto">
@@ -119,7 +125,7 @@
         sub la <tld/>et&#x2019; de la naturo, arto, menso, torturas karnon kaj spiriton la aku&scirc;&#x2019;
         <fnt>
           <aut>Nikolaj Gumiljov</aut>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">La sesa senso</url></vrk>
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">La sesa senso</url></vrk>
           <lok>La Ondo de Esperanto 2001 &ndash; 2004</lok>
         </fnt>.
       </ekz>
@@ -146,6 +152,7 @@
   <trd lng="fa">&a_n;&f_y;&a_sh;&a_t;&a_r;</trd>
   <trd lng="fr">lancette</trd>
   <trd lng="hu">lancetta</trd>
+  <trd lng="ja">&#x30E9;&#x30F3;&#x30BB;&#x30C3;&#x30C8;  <pr>&#x3089;&#x3093;&#x305B;&#x3063;&#x3068;</pr></trd>
   <trd lng="nl">lancet</trd>
   <trdgrp lng="pl">
     <trd>lancet</trd>,
@@ -157,6 +164,12 @@
   </trdgrp>
   <trd lng="ru">&c_l;&c_a;&c_n;&c_c;&c_je;&c_t;</trd>
   <trd lng="uk">&#x43B;&#x430;&#x43D;&#x446;&#x435;&#x442;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x67F3;&#x53F6;&#x5200; <pr>li&#x1D4;y&#xE8;d&#x101;o</pr></trd>,
+    <trd>&#x67F3;&#x8449;&#x5200; <pr>li&#x1D4;y&#xE8;d&#x101;o</pr></trd>,
+    <trd>&#x523A;&#x8840;&#x91DD; <pr>c&#xEC;xi&#x11B;zh&#x113;n</pr></trd>,
+    <trd>&#x523A;&#x8840;&#x9488; <pr>c&#xEC;xi&#x11B;zh&#x113;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lanc.jxet0o">
@@ -205,7 +218,14 @@
     </trdgrp>
     <trd lng="ru">&c_k;&c_o;&c_p;&c_mol;&c_jo;</trd>
     <trd lng="it">giavellotto</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x68AD;&#x93E2; <pr>su&#x14D;bi&#x101;o</pr></trd>,
+    <trd>&#x68AD;&#x9556; <pr>su&#x14D;bi&#x101;o</pr></trd>,
+    <trd>&#x622D; <pr>y&#x1CE;n</pr></trd>,
+    <trd>&#x77E0; <pr>z&#xE9;</pr></trd>
+  </trdgrp>
+</snc>
+  <trd lng="ja">&#x6295;&#x3052;&#x3084;&#x308A;  <pr>&#x306A;&#x3052;&#x3084;&#x308A;</pr></trd>
   <trdgrp lng="uk">
     <trd>&#x434;&#x440;&#x43E;&#x442;&#x438;&#x43A;</trd>,
     <trd>&#x43C;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439; &#x441;&#x43F;&#x438;&#x441;</trd>,
@@ -217,6 +237,12 @@
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/19 05:15:34
+revo: transskribo per <pr>
+
+versio 1.28 2023/05/05 17:57:58
+revo: aktualigo URL-unuoj
+
 versio 1.27 2022/05/01 12:04:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -233,11 +259,5 @@ Revision 1.20  2014/06/03 13:10:21  revo
 Damien Brucker: +trd fr
 
 Revision 1.19  2012/09/03 09:10:16  revo
-Marc Rausell: + trd ca
-
-Revision 1.18  2009/07/13 16:30:48  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.17  2008/11/14 17:31:25  revo
 -->
 </vortaro>

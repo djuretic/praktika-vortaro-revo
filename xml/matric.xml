@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: matric.xml,v 1.42 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: matric.xml,v 1.49 2024/01/25 20:10:35 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>matric</rad>/o
-  <fnt><bib>PV</bib></fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="matric.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
@@ -12,7 +12,7 @@
   <snc mrk="matric.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Reliefa <ref tip="super" cel="model.0o.KOMUNE">modelo</ref>: 
+      Reliefa <ref tip="super" cel="model.0o.KOMUNE">modelo</ref>:
       bulo, peco a&ubreve; muldilo, per kiu oni povas
       fabriki similajn pecojn per fandado, frapo, giso, premo:
       <ekz>
@@ -29,7 +29,7 @@
     <subsnc mrk="matric.0o.kartona">
       <dif>
         Kartona formo preme reproduktita de komposta&jcirc;o, per kiu oni
-        povas gisi 
+        povas gisi
         <ref tip="vid" cel="stereo3.0o.TIP">stereotipon<sncref/></ref>.
       </dif>
       <ref tip="vid" cel="klisx.0o.TIP">kli&scirc;o<sncref/></ref>
@@ -59,7 +59,7 @@
     <dif>
       <ref tip="dif" cel="klisx.0o.FOT">Kli&scirc;o<sncref/></ref>:
       <ekz>
-        iu el la produktantoj &scirc;atas akiri pli 
+        iu el la produktantoj &scirc;atas akiri pli
         da profito kaj ka&scirc;e ofertas al kopiemuloj la <tld/>on de la
         filmo
         <fnt>
@@ -67,6 +67,16 @@
           <aut>Fidilalao Henriel</aut>
           <vrk><url ref="&Monato;/2006/008921.php">Kontra&ubreve;le&gcirc;a
           kopiado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aperis duvoluma Katalogo <klr>[&#x2026;]</klr>,
+        kies <klr>(<ref cel="hektograf.0o">hektografajn</ref>)</klr>
+        <tld/>ojn, por 554 pa&gcirc;oj,
+        <nom>Steiner</nom> skribis mem
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -74,6 +84,7 @@
   </snc>
 
   <snc mrk="matric.0o.GEOL">
+    <uzo tip="fak">GEOL</uzo>
     <dif>
       Grundomaso, de rokoj, konsistanta el grajnetaj kristaloj,
       &ccirc;irka&ubreve;anta pli grandajn kristalojn:
@@ -87,6 +98,7 @@
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="de">Matrix</trd>
   </snc>
   <snc mrk="matric.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -95,7 +107,7 @@
       <klr>(kun <frm am="n"><k>n</k></frm> horizontaloj kaj
       <frm><k>p</k></frm> vertikaloj)</klr>:
       <ekz>
-        en lineara algebro, determinanto estas funkcio kiu asociigas 
+        en lineara algebro, determinanto estas funkcio kiu asociigas
         skalaron <frm am="det(A)"><k>det</k>(<k>A</k>)</frm> al &ccirc;iu
         <frm am="n xx n"><k>n</k>&#xD7;<k>n</k></frm> kvadrata <tld/>o
         <fnt>
@@ -105,7 +117,7 @@
       </ekz>
       <ekz>
         memadjunkta matrico a&ubreve; hermita <tld/>o estas kvadrata <tld/>o
-        kun kompleksaj 
+        kun kompleksaj
         elementoj kiu estas egala al sia konjugita transpono
         <fnt>
           <bib>Viki</bib>
@@ -130,35 +142,63 @@
     <dif>
       Dudimensia <ref tip="super" cel="tabel.0o.KOMP">tabelo</ref>:
       <ekz>
-        usonaj filmoj kiel &leftquot;La <tld/>o&rightquot; a&ubreve; &leftquot;Okuloj lar&gcirc;e fermitaj&rightquot; 
-        levas la demandon pri la svagaj limoj inter realo kaj son&gcirc;o, 
+        tiun analizon oni povas prezenti per la <tld/>o (6), en kiu la simbolo + indikas
+        pozitivan valoron de la koncerna trajto binara, la simbolo &ndash; negativan
+        (malan) valoron
+        <fnt>
+          <bib>LAE</bib>
+          <lok>2. Fonetiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        usonaj filmoj kiel &leftquot;La <tld/>o&rightquot; a&ubreve; &leftquot;Okuloj lar&gcirc;e fermitaj&rightquot;
+        levas la demandon pri la svagaj limoj inter realo kaj son&gcirc;o,
         inter efektivo kaj imago, inter frenezo kaj racio
         <fnt>
+       <aut>Jorge Camacho</aut>
+          <vrk><url ref="&Monato;/2000/006836.php">Pri realo kaj la malo</url></vrk>
           <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/006836.html">Pri realo
-          kaj la malo</url></vrk>
+          <lok>2000/09, p. 23</lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="vektor.0o.KOMP">vektoro</ref>
+    <trd lng="de">Tabelle</trd>
     <trd lng="nl">matrix</trd>
     <trd lng="pt">matriz</trd>
   </snc>
-  <refgrp tip="vid">
+  <rim>
     Ne konfuzu kun:
-    <ref cel="uter.0o">utero</ref>.
-  </refgrp>
+    <ref cel="uter.0o">utero</ref> (latine: <nac>matrix</nac>).
+  </rim>
   <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
-  
   <trd lng="en">matrix</trd>
   <trd lng="es">matriz</trd>
   <trd lng="hu">m&aacute;trix</trd>
+  <trdgrp lng="ja">
+    <trd>&#x92F3;&#x578B;  <pr>&#x3044;&#x304C;&#x305F;</pr></trd>,
+    <trd>&#x91D1;&#x578B;  <pr>&#x304B;&#x306A;&#x304C;&#x305F;</pr></trd>,
+    <trd>&#x629C;&#x304D;&#x578B;  <pr>&#x306C;&#x304D;&#x304C;&#x305F;</pr></trd>,
+    <trd>&#x6BCD;&#x578B;  <pr>&#x307C;&#x3051;&#x3044;</pr></trd>,
+    <trd>&#x884C;&#x5217;  <pr>&#x304E;&#x3087;&#x3046;&#x308C;&#x3064;</pr></trd>,
+    <trd>&#x77F3;&#x57FA;  <pr>&#x305B;&#x3063;&#x304D;</pr></trd>,
+    <trd>&#x57FA;&#x8CEA;  <pr>&#x304D;&#x3057;&#x3064;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x430;&#x442;&#x440;&#x438;&#x446;&#x44F;</trd>,
-    <trd>&#x43C;&#x430;&#x442;&#x435;&#x440;&#x438;&#x43D;&#x441;&#x44C;&#x43A;&#x430; &#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x430;</trd>,
-    <trd>&#x436;&#x438;&#x43B;&#x44C;&#x43D;&#x430; &#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x430;</trd>
+    <trd>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_ja;</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_n;&c_s;&c_mol;&c_k;&c_a; &c_p;&c_o;&c_r;&c_o;&c_d;&c_a;</trd>,
+    <trd>&c_zh;&c_i;&c_l;&c_mol;&c_n;&c_a; &c_p;&c_o;&c_r;&c_o;&c_d;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6A21; <pr>m&#xFA;</pr></trd>,
+    <trd>&#x6A21;&#x5177; <pr>m&#xFA;j&#xF9;</pr></trd>,
+    <trd>&#x6A21;&#x578B; <pr>m&#xF3;x&#xED;ng</pr></trd>,
+    <trd>&#x6A21;&#x5B50; <pr>m&#xFA;zi</pr></trd>,
+    <trd>&#x77E9;&#x9635; <pr>j&#x1D4;zh&#xE8;n</pr></trd>,
+    <trd>&#x77E9;&#x9663; <pr>j&#x1D4;zh&#xE8;n</pr></trd>,
+    <trd>&#x65B9;&#x9635; <pr>f&#x101;ngzh&#xE8;n</pr></trd>,
+    <trd>&#x65B9;&#x9663; <pr>f&#x101;ngzh&#xE8;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -172,11 +212,17 @@
         li transdonis al sinjoro <nom>Povondra</nom> vizitkarton, sur
         kiu estis
         <tld/>ita ankro
-        <fnt><bib>Salamandroj</bib>, <lok>libro 1a, &ccirc;apitro 
+        <fnt><bib>Salamandroj</bib>, <lok>libro 1a, &ccirc;apitro
         3a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_u;&c_t;&c_v;&c_a;&c_r;&c_a;&c_c;&c_mol; <ind>&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_u;</ind></trd>
+  <trdgrp lng="de">
+    <trd>eine <ind>Matrix</ind> bilden</trd>,
+    <trd>eine <ind>Matrix</ind> formen</trd>
+  </trdgrp>
+  <trd lng="en">form a matrix</trd>
   <trd lng="es">formar una matriz</trd>
   <trd lng="fr">matricer</trd>
 </drv>
@@ -189,7 +235,7 @@
       <klr>(super <ref cel="komut.0eca.ringo">komuteca</ref>
       <ref cel="korp.0o.MAT">korpo</ref> <frm am="bb             K"><g>K</g></frm>) </klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm am="bb I xx bb J"><g>I</g>&#xD7;<g>J</g></frm> al 
+      <frm am="bb I xx bb J"><g>I</g>&#xD7;<g>J</g></frm> al
       <frm am="bb K"><g>K</g></frm>, kie
       <frm am="bb I={1,2,...,n}"><g>I</g> = {1, 2,..., <k>n</k>}</frm>
       kaj
@@ -197,7 +243,7 @@
       <ekz>
         <tld/>on <frm am="A">A</frm> oni kutime signas kiel
         <ref tip="super" cel="famili.0o.bildigo">familion</ref>, t.e.
-        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb         J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#x2208;<g>I</g>&#xD7;<g>J</g></sub></frm>,
+        per skriba&jcirc;o <frm am="(a_(ij))_(i,j in bb I xx bb                 J)">(a<sub><k>i</k><k>j</k></sub>)<sub>(<k>i</k>,<k>j</k>)&#x2208;<g>I</g>&#xD7;<g>J</g></sub></frm>,
         kie <frm am="a_(ij)">a<sub><k>i</k><k>j</k></sub></frm> signas
         la bildon de
         <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm> per <frm am="A">A</frm> kaj estas nomata
@@ -275,6 +321,7 @@
   <bld lok="../bld/matric.gif">
     (n,p)-<tld/>o
   </bld>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a; &c_p;&c_a;&c_m;&c_je;&c_r;&c_a;&c_m; n&#xD7;p</trd>
   <trd lng="de">(n,p)-<ind>Matrix</ind></trd>
   <trd lng="en">n-by-p <ind>matrix</ind></trd>
   <trd lng="fr">matrice n&#xD7;p</trd>
@@ -299,12 +346,17 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_u;&c_l;&c_mol;-&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
   <trd lng="de">Nullmatrix</trd>
   <trd lng="en">null <ind>matrix</ind></trd>
   <trd lng="fr">matrice nulle</trd>
   <trd lng="hu">nullm&aacute;trix</trd>
   <trd lng="pl">macierz zerowa</trd>
   <trd lng="ru">&c_n;&c_u;&c_l;&c_mol;-&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x96F6;&#x77E9;&#x9635; <pr>l&#xED;ngj&#x1D4;zh&#xE8;n</pr></trd>,
+    <trd>&#x96F6;&#x77E9;&#x9663; <pr>l&#xED;ngj&#x1D4;zh&#xE8;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="matric.sub0o">
@@ -346,6 +398,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a;</trd>
   <trd lng="cs">submatice</trd>
   <trd lng="de">Untermatrix</trd>
   <trd lng="en">submatrix</trd>
@@ -374,6 +427,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_c;&c_a; &c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a;&c_v;&c_a;&c_ja;</trd>
   <trd lng="de">Einheitsmatrix</trd>
   <trd lng="en">unit <ind>matrix</ind></trd>
   <trd lng="fr">matrice unit&eacute;</trd>
@@ -387,6 +441,10 @@
     de elementoj. Mi preferis terminon paralelan al "nulmatrico",
     "nulvektoro". <aut>MB</aut>
   </adm>
+  <trdgrp lng="zh">
+    <trd>&#x5355;&#x4F4D;&#x77E9;&#x9635; <pr>d&#x101;nw&#xE8;ij&#x1D4;zh&#xE8;n</pr></trd>,
+    <trd>&#x55AE;&#x4F4D;&#x77E9;&#x9663; <pr>d&#x101;nw&#xE8;ij&#x1D4;zh&#xE8;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="matric.jakobia0o">
@@ -425,6 +483,10 @@
   </trdgrp>
   <trd lng="ru">&c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
   <ind>&c_m;&c_a;&c_t;&c_r;&c_i;&c_c;&c_a;</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x96C5;&#x53EF;&#x6BD4;&#x77E9;&#x9635; <pr>y&#x1CE;k&#x11B;b&#x1D0;j&#x1D4;zh&#xE8;n</pr></trd>,
+    <trd>&#x96C5;&#x53EF;&#x6BD4;&#x77E9;&#x9663; <pr>y&#x1CE;k&#x11B;b&#x1D0;j&#x1D4;zh&#xE8;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="matric.0o_de_homomorfio">
@@ -466,7 +528,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">Matrix einer linearer Abbildung</trd>
+  <trd lng="de"><ind>Matrix</ind> einer linearer Abbildung</trd>
   <trd lng="en">matrix of a linear mapping</trd>
   <trd lng="fr">matrice d'application lin&eacute;aire</trd>
   <trd lng="hu">vektor-homomorfizmus <ind>m&aacute;trixa</ind></trd>
@@ -477,6 +539,21 @@
 </art>
 <!--
 $Log$
+versio 1.48 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.47 2023/09/19 20:23:11
+Wolfram Diestel: fnt JED, +ekz
+
+versio 1.45 2023/05/11 09:25:21
+Dmitri Gabinski: + trd be
+
+versio 1.44 2023/05/01 12:41:37
+Christian Siefkes: +trd de, en
+
+versio 1.43 2023/04/24 14:28:19
+Paul Peeraerts: @Steloj -> @Monato
+
 versio 1.42 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -484,20 +561,5 @@ versio 1.40 2020/04/29 06:10:15
 Wolfram Diestel: kor. ref-cel
 
 versio 1.39 2020/04/26 20:10:22
-Wolfram Diestel: snc-mrk, germ trd
-
-Revision 1.38  2020/02/15 17:10:34  revo
-Wolfram Diestel: formuloj per am
-
-Revision 1.37  2020/02/14 23:10:47  revo
-Wolfram Diestel: formuloj per am
-
-Revision 1.36  2019/06/30 18:21:47  revo
-adaptis URL de Monato
-
-Revision 1.35  2018/08/06 22:11:43  revo
-Michel Cantigneaux: aperas unue en PV (1934), oficiala en 9OA (2007)
-
-Revision 1.34  2017/12/14 20:10:14  revo
 -->
 </vortaro>

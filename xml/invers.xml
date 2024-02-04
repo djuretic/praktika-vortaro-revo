@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: invers.xml,v 1.41 2022/04/30 08:42:42 revo Exp $">
+<art mrk="$Id: invers.xml,v 1.49 2023/11/19 10:22:14 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>invers</rad>/a
@@ -16,7 +16,7 @@
       </ekz>
       <ekz>
         <tld/>a bildo <klr>(&gcirc;i povas esti ekz spegulita a&ubreve; turnita tiel,
-        ke la dorsflanko vidi&gcirc;as 
+        ke la dorsflanko vidi&gcirc;as
         a&ubreve; kun inversigitaj koloroj, t.e. nigro anstata&ubreve; blanko, ru&gcirc;o
         anstata&ubreve; verdo ktp.)</klr>;
       </ekz>
@@ -40,7 +40,7 @@
       </ekz>
       <ekz>
         en <klr>[...]</klr> la hispana lingvo demandaj &ccirc;effrazoj estu
-        komencataj per 
+        komencataj per
         <tld/>a (surkapa, turnita) demandosigno (&#xBF;) kaj finataj per la
         tradicia demandosigno
         <fnt>
@@ -50,7 +50,7 @@
       </ekz>
       <ekz>
         <tld/>a pola notacio <klr>(maniero noti matematikajn formulojn
-        kun la operatoro 
+        kun la operatoro
         post la argumentoj, <tld/>e al la pola notacio, kie oni notas la
         operatoron anta&ubreve; la argumentoj)</klr>
         <fnt>
@@ -78,14 +78,14 @@
       Estanta <ref cel="invers.0o.MAT"><tld/>o <sncref/></ref>:
       <ekz>
         la <tld/>a rilato de funkcio
-        <frm am="f: X to Y"><k>f</k>:<k>X</k>&#x27F6;<k>Y</k></frm> 
+        <frm am="f: X to Y"><k>f</k>:<k>X</k>&#x27F6;<k>Y</k></frm>
         estas la duargumenta rilato
-        <frm am="f^-1 sube Y xx X"><k>f</k><sup>-1</sup>&#x2286;<k>Y</k>&#xD7;<k>X</k></frm> 
+        <frm am="f^-1 sube Y xx X"><k>f</k><sup>-1</sup>&#x2286;<k>Y</k>&#xD7;<k>X</k></frm>
         difinita per
         <frm am="f^-1={(y,x): (x,y) in f}"><k>f</k><sup>-1</sup>={(<k>y</k>,<k>x</k>):
-        (<k>x</k>,<k>y</k>)&#x2208;<k>f</k>}</frm>        
-        <klr> [...]</klr> en la okazo ke &gcirc;i estas funkcio, &gcirc;i        
-        nomi&gcirc;as <klr>[...]</klr> <tld/>a funkcio 
+        (<k>x</k>,<k>y</k>)&#x2208;<k>f</k>}</frm>
+        <klr> [...]</klr> en la okazo ke &gcirc;i estas funkcio, &gcirc;i
+        nomi&gcirc;as <klr>[...]</klr> <tld/>a funkcio
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=83352">Inversa
@@ -94,8 +94,8 @@
       </ekz>
       <ekz>
         logaritmo kun bazo a <klr>[<frm am="y=log_a x">y=log<sub>a</sub>x</frm>]</klr>
-        estas la <tld/>a 
-        funkcio de eksponenta funkcio kun la sama bazo 
+        estas la <tld/>a
+        funkcio de eksponenta funkcio kun la sama bazo
         <frm am="y=a^x">y = a<sup>x</sup></frm>
         <fnt>
           <bib>Viki</bib>
@@ -110,6 +110,11 @@
     <trd lng="pl">odwrotny</trd>
     <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_g;&c_l;&c_y;</trd>,
+      <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_zh;&c_n;&c_y;</trd>,
+      <trd>&c_a;&c_d;&c_v;&c_a;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
+    </trdgrp>
   <trd lng="bo">&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;&#xF66;&#xFB3;&#xF7C;&#xF42;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>inverzn&iacute;</trd>,
@@ -122,6 +127,10 @@
     <trd>invers</trd>
   </trdgrp>
   <trd lng="es">inverso</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x306E;  <pr>&#x304E;&#x3083;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x53CD;&#x5BFE;&#x306E;  <pr>&#x306F;&#x3093;&#x305F;&#x3044;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">omgekeerd</trd>
   <trd lng="pt">inverso</trd>
   <trdgrp lng="ru">
@@ -134,8 +143,16 @@
     <trd>prevr&aacute;ten&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x432;&#x43E;&#x440;&#x43E;&#x442;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x43B;&#x435;&#x436;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_z;&c_v;&#x43E;&c_r;&#x43E;&c_t;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_t;&c_i;&#x43B;&c_je;&c_zh;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76F8;&#x53CD; <pr>xi&#x101;ngf&#x1CE;n</pr></trd>,
+    <trd>&#x53CD; <pr>f&#x1CE;n</pr></trd>,
+    <trd>&#x53CD;&#x8FC7;&#x6765; <pr>f&#x1CE;nguol&#xE1;i</pr></trd>,
+    <trd>&#x76F8;&#x53CD;&#x5730; <pr>xi&#x101;ngf&#x1CE;nd&#xEC;</pr></trd>,
+    <trd>&#x9006;&#x53CD; <pr>n&#xEC;f&#x1CE;n</pr></trd>,
+    <trd>&#x9006;&#x8F49; <pr>n&#xEC;zhu&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -281,20 +298,31 @@
     </subsnc>
   </snc>
   <adm>
-    PIV konas trian sencon, sinoniman de "reverso" (ne en REVO), 
+    PIV konas trian sencon, sinoniman de "reverso" (ne en REVO),
     neologismo el la sama familio kiel "averso" kaj "roverso"...
     Valoras esplori, cxu tiu senco vere ekzistas (cxi-okaze aldonendas
     francaj tradukoj: envers, verso) kaj kiel eventuale gxin
     esprimi pli precize sen neologismo.
     <aut>MB</aut>
   </adm>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_v;&c_a;&c_r;&c_o;&c_t;&c_n;&c_a;&c_je; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>,
+    <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_c;&c_ib;&c_l;&c_je;&c_g;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9006;  <pr>&#x3055;&#x304B;</pr></trd>,
+    <trd>&#x53CD;&#x5BFE;  <pr>&#x306F;&#x3093;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x9006;&#x6570;  <pr>&#x304E;&#x3083;&#x304F;&#x3059;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="sk">inverzn&eacute; zobrazenie</trd>
   <trd lng="cs">inverzn&iacute; zobrazen&iacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x432;&#x43E;&#x440;&#x43E;&#x442;&#x43D;&#x435;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x43B;&#x435;&#x436;&#x43D;&#x435; (&#x456;&#x43C;.)</trd>,
-    <trd>&#x432;&#x438;&#x432;&#x43E;&#x440;&#x456;&#x442;</trd>
+    <trd>&c_z;&c_v;&#x43E;&c_r;&#x43E;&c_t;&#x43D;&c_je;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_t;&c_i;&#x43B;&c_je;&c_zh;&#x43D;&c_je; (&c_ib;&#x43C;.)</trd>,
+    <trd>&c_v;&c_i;&c_v;&#x43E;&c_r;&c_ib;&c_t;</trd>
   </trdgrp>
+  <trd lng="zh">&#x5012;&#x53CD; <pr>d&#xE0;of&#x1CE;n</pr></trd>
 </drv>
 
 <drv mrk="invers.0e">
@@ -312,10 +340,11 @@
         la angla posedas 6000 idiomajn esprimojn kaj avera&gcirc;e 5 signifojn
         por &ccirc;iu vorto a&ubreve; <tld/>e 5 vortojn por &ccirc;iu signifo
         <fnt>
-          <bib>Monato</bib>
-          <aut>S. Maul</aut>
-          <vrk><url>&Steloj;monato2/007089.html</url></vrk>
-        </fnt>;
+          <aut>Gilbert Ledon</aut>
+            <vrk><url ref="&Monato;/2000/007089.php">&Ccirc;u ni mortu miskomprene?</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/08, p. 5</lok>
+          </fnt>;
       </ekz>
       <ekz>
         Svislando devas akcepti gigantan trafikon de nordo al sudo kaj
@@ -335,6 +364,7 @@
       <ref cel="senc.kontraux0e">kontra&ubreve;sence</ref>.
     </refgrp>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_a;&c_d;&c_v;&c_a;&c_r;&c_o;&c_t;</trd>
   <trdgrp lng="cs">
     <trd>naopak</trd>,
     <trd>obr&aacute;cen&ecaron;</trd>
@@ -349,6 +379,10 @@
     <trd>&agrave; <ind>rebours</ind></trd>
   </trdgrp>
   <trd lng="hu">ford&iacute;tva</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x306B;  <pr>&#x304E;&#x3083;&#x304F;&#x306B;</pr></trd>,
+    <trd>&#x3042;&#x3079;&#x3053;&#x3079;&#x306B;</trd>
+  </trdgrp>
   <trd lng="nl">omgekeerd</trd>
   <trdgrp lng="pt">
     <trd>inversamente</trd>,
@@ -358,6 +392,10 @@
   <trdgrp lng="sk">
     <trd>naopak</trd>,
     <trd>naruby</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5012; <pr>d&#xE0;o</pr></trd>,
+    <trd>&#x53CD; <pr>f&#x1CE;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -389,6 +427,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>turn upside down</trd>,
+      <trd>invert</trd>
+      <trd>flip around</trd>
+      <trd>reverse</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>umkehren</trd>,
       <trd>invertieren</trd>
@@ -403,7 +447,14 @@
       <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_i;&c_n;&c_v;&c_je;&c_r;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x985B;&#x5012;&#x904E;&#x4F86; <pr>di&#x101;nd&#x1CE;ogu&#xF2;l&#xE1;i</pr></trd>,
+    <trd>&#x53CD;&#x8F49; <pr>f&#x1CE;nzhu&#x1CE;n</pr></trd>,
+    <trd>&#x7FFB;&#x8F49; <pr>f&#x101;nzhu&#x1CE;n</pr></trd>,
+    <trd>&#x985B;&#x5012; <pr>di&#x101;nd&#x1CE;o</pr></trd>,
+    <trd>&#x5411;&#x540E;&#x8F6C; <pr>xi&#xE0;ngh&#xF2;uzhu&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="invers.0igi.MAT">
     <uzo tip="fak">MAT</uzo>
     <uzo tip="klr">(fakula &jcirc;argono)</uzo>
@@ -423,14 +474,23 @@
     <trd lng="hu">invert&aacute;l</trd>
     <trd lng="ru">&c_i;&c_n;&c_v;&c_je;&c_r;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_ib;&c_n;&c_v;&c_e;&c_r;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_b;&c_a;&c_r;&c_a;&c_ch;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>oto&ccaron;it do protism&ecaron;ru</trd>,
     <trd>zvr&aacute;tit</trd>
   </trdgrp>
   <trd lng="es">invertir</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x306B;&#x3059;&#x308B;  <pr>&#x304E;&#x3083;&#x304F;&#x306B;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x9006;&#x8EE2;&#x3055;&#x305B;&#x308B;  <pr>&#x304E;&#x3083;&#x304F;&#x3066;&#x3093;&#x3055;&#x305B;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pt">inverter</trd>
   <trd lng="sk">vypo&ccaron;&iacute;ta&tcaron; inverziu</trd>
-  <trd lng="uk">&#x437;&#x43C;&#x456;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x43C;&#x43E;&#x43A; (&#x441;&#x442;&#x440;&#x443;&#x43C;&#x443; &#x456; &#x442;.&#x43F;.)</trd>
+  <trd lng="uk">&c_z;&#x43C;&c_ib;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i; &#x43D;&c_a;&#x43F;&c_r;&#x44F;&#x43C;&#x43E;&#x43A;
+  (&c_s;&c_t;&c_r;&c_u;&#x43C;&c_u; &c_ib; &c_t;.&#x43F;.)</trd>
 </drv>
 
 <drv mrk="invers.0igo">
@@ -446,7 +506,8 @@
     </trdgrp>
     <trd lng="pl">odwracanie</trd>
     <trd lng="pt">invers&atilde;o</trd>
-  </snc>
+    <trd lng="zh">&#x53CD;&#x8F49; <pr>f&#x1CE;nzhu&#x1CE;n</pr></trd>
+</snc>
   <snc mrk="invers.0igo.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="invers.0igo.gxenerale">
@@ -464,10 +525,10 @@
         <ref cel="spac.euxklida0o">e&ubreve;klida spaco</ref>, kun centro
         <frm am="O">O</frm> kaj potenco <frm am="lambda^2">&lambda;<sup>2</sup></frm>) </klr>
         <ref tip="super" cel="form.trans0o.MAT">Transformo</ref>, kiu
-        &jcirc;etas punkton <frm am="M">M</frm> al tia punkto 
-        <frm am="M&#x2032;">M'</frm> de
+        &jcirc;etas punkton <frm am="M">M</frm> al tia punkto
+        <frm am="M&minute;">M'</frm> de
         la duonrekto <frm am="OM">OM</frm>, ke
-        <frm am="OM*OM&#x2032;=lambda^2">OM&middot;OM' =
+        <frm am="OM*OM&minute;=lambda^2">OM&middot;OM' =
         &lambda;<sup>2</sup></frm>:
         <ekz>
           &ccirc;iu punkto de la cirklo kun centro en <frm am="O">O</frm> kaj
@@ -496,7 +557,7 @@
       </dif>
       <rim>
         Tian transformon oni anka&ubreve; nomas <ctl><tld/>igo rilate al cirklo
-        kun centro en <frm am="O">O</frm> kaj radiuso 
+        kun centro en <frm am="O">O</frm> kaj radiuso
         <frm am="lambda">&lambda;</frm></ctl>.
         Troveblas sinonima termino <ctl>inversio</ctl> en
         <fnt><bib>MatVort</bib></fnt>, sed neniu el niaj
@@ -517,6 +578,10 @@
       <trd>inverzi&oacute;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_ib;&c_n;&c_v;&c_e;&c_r;&c_s;&c_ib;&c_ja;</trd>,
+    <trd>&c_a;&c_b;&c_a;&c_r;&c_a;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
   <trd lng="ru">&c_i;&c_n;&c_v;&c_je;&c_r;&c_s;&c_i;&c_ja;</trd>
 </drv>
 
@@ -560,10 +625,15 @@
     <trd lng="pl">odwracalny</trd>
     <trd lng="ru">&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   </snc>
+  <trd lng="be">&c_a;&c_b;&c_a;&c_r;&c_a;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="cs">reverzibiln&iacute; <klr>(turb&iacute;na)</klr></trd>
   <trd lng="de">umkehrbar</trd>
   <trd lng="es">invertible</trd>
   <trd lng="fr">inversible</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x8EE2;&#x3067;&#x304D;&#x308B;  <pr>&#x304E;&#x3083;&#x304F;&#x3066;&#x3093;&#x3067;&#x304D;&#x308B;</pr></trd>,
+    <trd>&#x53EF;&#x9006;&#x306E; <pr>&#x304B;&#x304E;&#x3083;&#x304F;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">omkeerbaar</trd>
   <trd lng="pt">invert&iacute;vel</trd>
   <trdgrp lng="sk">
@@ -611,11 +681,16 @@
       Ne <ref cel="invers.0igebla.MAT"><tld/>igebla<sncref/></ref>.
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_a;&c_b;&c_a;&c_r;&c_a;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="cs">neinverzibiln&iacute;</trd>
   <trd lng="de">unumkehrbar</trd>
   <trd lng="en">non-inversible</trd>
   <trd lng="fr">non inversible</trd>
   <trd lng="hu">nem invert&aacute;lhat&oacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9006;&#x8EE2;&#x3067;&#x304D;&#x306A;&#x3044;  <pr>&#x304E;&#x3083;&#x304F;&#x3066;&#x3093;&#x3067;&#x304D;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x4E0D;&#x53EF;&#x9006;&#x306E;  <pr>&#x3075;&#x304B;&#x304E;&#x3083;&#x304F;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">onomkeerbaar</trd>
   <trd lng="pl">nieodwracalny</trd>
   <trd lng="pt">n&atilde;o invert&iacute;vel</trd>
@@ -624,6 +699,7 @@
     <trd>&c_n;&c_je;&c_o;&c_b;&c_r;&c_a;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">neinverzibiln&yacute;</trd>
+  <trd lng="zh">&#x4E0D;&#x53EF;&#x9006;&#x8F49; <pr>b&#xF9;k&#x11B;n&#xEC;zhu&#xE0;n</pr></trd>
 </drv>
 
 <drv mrk="invers.0hava">
@@ -641,6 +717,10 @@
   <trd lng="pl">odwracalny</trd>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="pt">invert&iacute;vel</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CD;&#x8F49; <pr>f&#x1CE;nzhu&#x1CE;n</pr></trd>,
+    <trd>&#x53EF;&#x9006;&#x6027; <pr>k&#x11B;n&#xEC;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="invers.ne0hava">
@@ -656,31 +736,32 @@
   <trd lng="pl">nieodwracalny</trd>
   <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_p;&c_u;&c_s;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_j; &c_o;&c_b;&c_r;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="pt">n&atilde;o invert&iacute;vel</trd>
+  <trd lng="zh">&#x4E0D;&#x53EF;&#x9006;&#x8F49; <pr>b&#xF9;k&#x11B;n&#xEC;zhu&#xE0;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.48 2023/11/13 15:28:05
+Matt Brooks: + tr en
+
+versio 1.47 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.46 2023/09/15 05:26:00
+Wolfram Diestel: pr. ja
+
+versio 1.45 2023/09/12 16:31:23
+Wolfram Diestel: pr. ja
+
+versio 1.43 2023/04/30 13:26:21
+Paul Peeraerts: Steloj -> monato
+
+versio 1.42 2022/12/30 08:31:51
+Dmitri Gabinski: + trd be
+
 versio 1.41 2022/04/30 08:42:42
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.38 2020/02/15 00:10:43
-Wolfram Diestel: formuloj per am
-
-Revision 1.37  2019/06/30 18:21:02  revo
-adaptis URL de Monato
-
-Revision 1.36  2019/05/19 08:10:15  revo
-Alain Gerard: +trd fr
-
-Revision 1.35  2017/08/08 19:10:13  revo
-Wolfram Diestel: pliaj ekz-oj
-
-Revision 1.34  2017/08/06 12:10:17  revo
-Wolfram Diestel: korektetoj
-
-Revision 1.33  2017/07/13 08:10:13  revo
-Wolfram Diestel: prilaboris ekz-oj por ~o, ~igo, ~e
-
-Revision 1.32  2017/07/12 19:10:14  revo
 -->
 </vortaro>

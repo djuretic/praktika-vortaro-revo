@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mis.xml,v 1.31 2022/11/07 07:28:11 revo Exp $">
+<art mrk="$Id: mis.xml,v 1.39 2024/01/26 17:40:07 revo Exp $">
 <kap>
   <ofc>1929</ofc>
   <rad>mis</rad>- <fnt><bib>PV</bib></fnt>
@@ -28,41 +28,24 @@
       </ekz>      
       <ekz>
         <ref cel="auxd.mis0i"><tld/>a&ubreve;di</ref>,
-      </ekz>
-      <ekz>
-        <ind><tld/>kompreno</ind>,
-        <trd lng="en">misunderstanding</trd>
-        <trd lng="hu">f&eacute;lre&eacute;rt&eacute;s</trd>
-        <trd lng="nl">misverstand</trd>
-        <trdgrp lng="pl">
-          <trd>nieporozumienie</trd>,
-          <trd>scysja</trd>,
-          <trd>niesnaska</trd>
-        </trdgrp>   
-        <trdgrp lng="ro">
-          <trd>confuzie</trd>,
-          <trd>ne&icirc;n&#539;elegere</trd>,
-          <trd>ceart&abreve;</trd>,
-          <trd>diferend</trd>
-        </trdgrp>   
-        <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_n;&c_i;&c_je;</trd>
+        <ref cel="kompre.mis0o">miskompreno</ref>;
       </ekz>
       <ekz>
         <ind><tld/>edzi&gcirc;o</ind>;
         <trd lng="pl">mezalians</trd>
-        <trd lng="ro">mezalian&tcedil;&abreve;</trd>
+        <trd lng="ro">mezalian&#x21B;&abreve;</trd>
       </ekz>      
       <ekz>
         <ref cel="cit.mis0i"><tld/>citi</ref>,
         <ref cel="inform.mis0i">misinformi</ref>,
         <ref cel="nom.mis0i"><tld/>nomi</ref>,        
-        <ref cel="raport.mis0o"><tld/>raporto</ref>,
+        <ref cel="raport.mis0o"><tld/>raporto</ref>;
       </ekz>     
       <ekz>       
         <ref cel="pronon.mis0i"><tld/>prononci</ref>,        
         <ref cel="ortogr.mis0i"><tld/>ortografii</ref>,
         <ref cel="skrib.mis0i">misskribi</ref>,
-        <ref cel="traduk.mis0i"><tld/>traduki</ref>;        
+        <ref cel="traduk.mis0i"><tld/>traduki</ref>,   
         <ref cel="kompos.mis0ajxo"><tld/>komposta&jcirc;o</ref>;         
       </ekz>  
       <ekz>
@@ -109,6 +92,8 @@
       <ref cel="lam">lame</ref>
     </refgrp>
   </snc>
+  <url ref="&AdE;/akademia_vortaro/klarigoj.html#decido-1929">Akademia
+  Vortaro, MIS/</url>
   <trd lng="en">mis-</trd>
   <trdgrp lng="fr">
     <trd>mal-<klr> (pr&eacute;fixe d'erreur)</klr></trd>,
@@ -117,7 +102,7 @@
   <trd lng="io">mis-</trd>
   <trd lng="nl">mis-</trd>
   <trd lng="pl">prefiks oznaczaj&aogonek;cy &zacute;le albo b&lstroke;&eogonek;dnie</trd>
-  <trd lng="ro">prefix care &icirc;nseamn&abreve; gre&#537;it</trd>
+  <trd lng="ro">prefix care &icirc;nseamn&abreve; gre&#x219;it</trd>
 </drv>
 </subart>
 
@@ -186,6 +171,11 @@
     <trd>imperfecto</trd>
   </trdgrp>
   <trd lng="fr">rat&eacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9593;&#x9055;&#x3063;&#x305F;  <pr>&#x307E;&#x3061;&#x304C;&#x3063;&#x305F;</pr></trd>,
+    <trd>&#x5931;&#x6557;&#x306E;  <pr>&#x3057;&#x3063;&#x3071;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x4E0D;&#x5F53;&#x306A;  <pr>&#x3075;&#x3068;&#x3046;&#x306A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>nie w porz&aogonek;dku</trd>,
     <trd>niedobry</trd>,
@@ -193,7 +183,7 @@
   </trdgrp>   
   <trdgrp lng="ro">
     <trd>nu corect</trd>,
-    <trd>gre&#537;it</trd>,
+    <trd>gre&#x219;it</trd>,
     <trd>ratat</trd>
   </trdgrp>  
   <trdgrp lng="ru">
@@ -209,6 +199,14 @@
   <trdgrp lng="uk">
     <trd>&c_p;&c_o;&c_m;&c_i;&c_l;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>,
     <trd>&c_n;&c_je;&c_p;&c_r;&c_a;&c_v;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x5BF9; <pr>b&#xF9;du&#xEC;</pr></trd>,
+    <trd>&#x4E0D;&#x5C0D; <pr>b&#xF9;du&#xEC;</pr></trd>,
+    <trd>&#x4E0D;&#x5BF9;&#x5934; <pr>b&#xF9;du&#xEC;t&#xF3;u</pr></trd>,
+    <trd>&#x4E0D;&#x5C0D;&#x982D; <pr>b&#xF9;du&#xEC;t&#xF3;u</pr></trd>,
+    <trd>&#x4E0D;&#x662F;&#x5473;&#x513F; <pr>b&#xF9;sh&#xEC;w&#xE8;ir</pr></trd>,
+    <trd>&#x4E0D;&#x662F;&#x5473;&#x5152; <pr>b&#xF9;sh&#xEC;w&#xE8;ir</pr></trd>
   </trdgrp>
 </drv><drv mrk="mis.0e">
   <kap><tld/>e</kap>
@@ -230,14 +228,14 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[li]</klr> parkeras komercajn terminojn, <klr>[&#8230;]</klr> kaj
+        <klr>[li]</klr> parkeras komercajn terminojn, <klr>[&#x2026;]</klr> kaj
         &ccirc;e &ccirc;iu okazo li uzas ilin, &gcirc;uste a&ubreve; <tld/>e
         <fnt>
           <bib>KrM</bib>
         </fnt>;
       </ekz>
       <ekz>
-        la gajulo <klr>[&#8230;]</klr> <tld/>e parolis la anglan
+        la gajulo <klr>[&#x2026;]</klr> <tld/>e parolis la anglan
         <fnt>
           <bib>Mortul&Scirc;ip</bib>
         </fnt>;
@@ -273,13 +271,18 @@
     <trd>imperfectamente</trd>
   </trdgrp>
   <trd lng="fr">de travers</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9593;&#x9055;&#x3063;&#x3066;  <pr>&#x307E;&#x3061;&#x304C;&#x3063;&#x3066;</pr></trd>,
+    <trd>&#x8AA4;&#x3063;&#x3066;  <pr>&#x3042;&#x3084;&#x307E;&#x3063;&#x3066;</pr></trd>,
+    <trd>&#x4E0D;&#x5F53;&#x306B;  <pr>&#x3075;&#x3068;&#x3046;&#x306B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>b&lstroke;&eogonek;dnie</trd>,
     <trd>omy&lstroke;kowo</trd>,
     <trd>niew&lstroke;a&sacute;ciwie</trd>
   </trdgrp>   
   <trdgrp lng="ro">
-    <trd>gre&#537;it</trd>,
+    <trd>gre&#x219;it</trd>,
     <trd>&icirc;n mod eronat</trd>,
     <trd>din greseala</trd>,
     <trd>necorespunz&abreve;tor</trd>  
@@ -313,12 +316,12 @@
         celis &scirc;in
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#8470; 6 (104)</lok>
+          <lok>2003, &#x2116; 6 (104)</lok>
         </fnt>;
       </ekz>
       <ekz>
         dum la tago li por &ccirc;iam ion <tld/>is, ke nun la <tld/>on li volas &gcirc;ustigi per
-        agoj bagatelaj, vantaj kaj <klr>[&#8230;]</klr> tro malfruaj
+        agoj bagatelaj, vantaj kaj <klr>[&#x2026;]</klr> tro malfruaj
         <fnt>
           <bib>MkM</bib>
           <lok>26</lok>
@@ -329,8 +332,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Pejno Simono</aut>
-          <vrk><url ref="https://www.monato.be/2011/010411.php"
-              >La gramatikiloj de Esperanto la&ubreve; ABC</url></vrk>
+          <vrk><url ref="&Monato;/2011/010411.php">La gramatikiloj de Esperanto la&ubreve; ABC</url></vrk>
           <lok>2011</lok>
         </fnt>;
       </ekz>
@@ -340,8 +342,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Pejno Simono</aut>
-          <vrk><url ref="https://www.monato.be/2013/011040.php"
-              >Toter Lehrer, guter Lehrer</url></vrk>
+          <vrk><url ref="&Monato;/2013/011040.php">Toter Lehrer, guter Lehrer</url></vrk>
           <lok>2013</lok>
         </fnt>;
       </ekz>
@@ -349,7 +350,7 @@
         mia unua vizito al Kaliningrad en 1994 estis fiasko, preska&ubreve; &ccirc;io <tld/>is
         <fnt>
           <bib>LOdE</bib>
-          <lok>2002, &#8470; 8-9</lok>
+          <lok>2002, &#x2116; 8-9</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -363,11 +364,11 @@
         pluraj membroj de la du regantaj partioj en la irlanda koalicio konsentas, ke la
         kandidatigo de <nom>O'Flaherty</nom> <tld/>as
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007134.html"
-              >Malbona investo</url></vrk>
-        </fnt>.
+          <aut>Garbhan MacAoidh/pg</aut>
+            <vrk><url ref="&Monato;/2000/007134.php">Malbona investo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 12</lok>
+          </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -383,6 +384,12 @@
     <trd><ind>schief</ind> laufen</trd>
   </trdgrp>
   <trd lng="en">fail</trd>
+  <trdgrp lng="zh">
+    <trd>&#x601D;&#x604B; <pr>s&#x12B;li&#xE0;n</pr></trd>,
+    <trd>&#x601D;&#x6200; <pr>s&#x12B;li&#xE0;n</pr></trd>,
+    <trd>&#x672A;&#x6253;&#x4E2D; <pr>w&#xE8;id&#x1CE;zh&#x14D;ng</pr></trd>,
+    <trd>&#x6F0F;&#x9776; <pr>l&#xF2;ub&#x1CE;</pr></trd>
+  </trdgrp>
 </drv>
 
 
@@ -438,14 +445,18 @@
       <trd>fallo</trd>
     </trdgrp>
     <trd lng="fr">action <ind>rat&eacute;e</ind></trd>
-    <trdgrp lng="pl">
+    <trdgrp lng="ja">
+    <trd>&#x9593;&#x9055;&#x3044;  <pr>&#x307E;&#x3061;&#x304C;&#x3044;</pr></trd>,
+    <trd>&#x30DF;&#x30B9;  <pr>&#x307F;&#x3059;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
       <trd>gafa</trd>,
       <trd>g&lstroke;upi b&lstroke;&aogonek;d</trd>,
       <trd>wpadka</trd>
     </trdgrp>   
     <trdgrp lng="ro">
       <trd>gaf&abreve;</trd>,
-      <trd>gre&#537;eal&abreve; prosteasc&abreve;</trd>
+      <trd>gre&#x219;eal&abreve; prosteasc&abreve;</trd>
     </trdgrp>  
     <trdgrp lng="ru">
       <trd>&c_o;&c_sh;&c_i;&c_b;&c_k;&c_a;</trd>,
@@ -464,27 +475,27 @@
 </art>
 <!--
 $Log$
+versio 1.38 2023/10/19 16:45:37
+revo: transskribo per <pr>
+
+versio 1.36 2023/05/05 17:57:59
+revo: aktualigo URL-unuoj
+
+versio 1.35 2023/05/01 05:27:44
+Paul Peeraerts: Steloj -> monato
+
+versio 1.34 2023/04/11 16:10:38
+aktualigo Monato-URL
+
+versio 1.33 2023/03/25 08:30:50
+Wolfram Diestel: +ref AdE-mis/
+
+versio 1.32 2022/12/28 16:37:18
+Wolfram Diestel: anst. ekz "~kompreno" per ref
+
 versio 1.31 2022/11/07 07:28:11
 Wolfram Diestel: +~i
 
 versio 1.30 2022/05/01 12:05:12
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.28 2022/01/24 19:24:43
-Wolfram Diestel: ~-: ref-oj, kunarangxo de referencitaj ekz-oj
-
-versio 1.27 2022/01/24 06:38:39
-Wolfram Diestel: ~-: anst. ind per ref, trdj sxovitaj al cel-art
-
-versio 1.26 2022/01/23 11:24:31
-Wolfram Diestel: ~e, ~a: ekz-oj
-
-versio 1.25 2021/12/09 18:35:05
-Wolfram Diestel: kelkaj ref-oj
-
-versio 1.23 2021/02/24 23:11:16
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.21  2016/12/04 15:10:15  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lat.xml,v 1.28 2022/09/22 16:50:34 revo Exp $">
+<art mrk="$Id: lat.xml,v 1.31 2024/01/15 16:14:08 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>lat</rad>/o 
@@ -51,7 +51,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        tra <klr>[&#8230;]</klr> maldikaj verdaj latoj oni povis rigardi malsupren, en la
+        tra <klr>[&#x2026;]</klr> maldikaj verdaj latoj oni povis rigardi malsupren, en la
         malsupran aparta&jcirc;on de la sinagogo
         <fnt>
           <bib>RBa</bib>
@@ -64,7 +64,7 @@
       </ekz>
     </dif>
     <rim>
-      La&ubreve; iuj normoj, <tld/>o estas dika &gcirc;is maksimume 4 x 8&#8239;cm, pli lar&gcirc;ajn pecojn
+      La&ubreve; iuj normoj, <tld/>o estas dika &gcirc;is maksimume 4 x 8&#x202F;cm, pli lar&gcirc;ajn pecojn
       oni nomas <ref cel="bret.0o">breto</ref> a&ubreve; <ref cel="tabul.0o">tabulo</ref>; 
       pecoj dikaj &gcirc;is 16mm nomi&gcirc;as <ref cel="listel.0o">listelo</ref>.
       Duonpalison, do platan unuflanke, uzatajn por bariloj oni nomas jen <ref cel="palis.0o">paliso</ref>
@@ -93,6 +93,11 @@
   </trdgrp>
   <trd lng="hu">l&eacute;c</trd>
   <trd lng="it">stecca</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6728;&#x647A;&#x308A;  <pr>&#x304D;&#x305A;&#x308A;</pr></trd>,
+    <trd>&#x6728;&#x821E;  <pr>&#x3053;&#x307E;&#x3044;</pr></trd>,
+    <trd>&#x8CAB;&#x677F;  <pr>&#x306C;&#x304D;&#x3044;&#x305F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">lat</trd>
   <trdgrp lng="pl">
     <trd>deska parkietowa</trd>,
@@ -125,6 +130,10 @@
     <trd>&c_d;&c_r;&c_a;&c_n;&c_k;&c_a;</trd>,
     <trd>&c_r;&c_je;&c_j;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x677F;&#x6761; <pr>b&#x1CE;nti&#xE1;o</pr></trd>,
+    <trd>&#x677F;&#x689D; <pr>b&#x1CE;nti&#xE1;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lat.0i">
@@ -144,6 +153,7 @@
     <trd>bel&eacute;cez</trd>
   </trdgrp>
   <trd lng="it">steccare</trd>
+  <trd lng="ja">&#x6728;&#x647A;&#x308A;&#x3092;&#x6253;&#x3061;&#x3064;&#x3051;&#x308B;  <pr>&#x304D;&#x647A;&#x308A;&#x3092;&#x3046;&#x3061;&#x3064;&#x3051;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>belatten</trd>,
     <trd>latten</trd>,
@@ -206,6 +216,16 @@
   <trd lng="de">Lattenzaun</trd>
   <trd lng="en">paling</trd>
   <trd lng="fr">palissade</trd>
+  <trdgrp lng="zh">
+    <trd>&#x56F4;&#x7BF1; <pr>w&#xE9;il&#xED;</pr></trd>,
+    <trd>&#x570D;&#x7C6C; <pr>w&#xE9;il&#xED;</pr></trd>,
+    <trd>&#x56F4;&#x680F; <pr>w&#xE9;il&#xE1;n</pr></trd>,
+    <trd>&#x570D;&#x6B04; <pr>w&#xE9;il&#xE1;n</pr></trd>,
+    <trd>&#x6728;&#x5934;&#x505A;&#x7684;&#x6805;&#x680F; <pr>m&#xF9;touzu&#xF2;d&#xEC;zh&#xE0;l&#xE1;n</pr></trd>,
+    <trd>&#x6728;&#x982D;&#x505A;&#x7684;&#x67F5;&#x6B04; <pr>m&#xF9;touzu&#xF2;d&#xEC;zh&#xE0;l&#xE1;n</pr></trd>,
+    <trd>&#x7BF1;&#x7B06; <pr>l&#xED;ba</pr></trd>,
+    <trd>&#x7C6C;&#x7B06; <pr>l&#xED;ba</pr></trd>
+  </trdgrp>
 </drv>
 
 
@@ -214,6 +234,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/19 05:15:34
+revo: transskribo per <pr>
+
 versio 1.28 2022/09/22 16:50:34
 Wolfram Diestel: anst. var latkardo per ref
 
@@ -233,8 +256,5 @@ Revision 1.21  2012/07/31 14:10:28  revo
 Marc Rausell: + trd ca
 
 Revision 1.20  2009/09/27 16:30:28  revo
-Paul Peeraerts: +nl
-
-Revision 1.19  2009/04/26 09:27:57  revo
 -->
 </vortaro>

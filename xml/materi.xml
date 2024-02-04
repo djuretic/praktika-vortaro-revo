@@ -1,13 +1,77 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: materi.xml,v 1.30 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: materi.xml,v 1.36 2024/01/25 20:10:35 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>materi</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="materi.0o">
   <kap><tld/>o</kap>
+  <snc mrk="materi.0o.materialo">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      &Ccirc;io, kio okupas spacon kaj havas mason; tio, el kio
+      konsistas <ref tip="sub" cel="substa.0o.FIZ">substanco</ref>j:
+      <ekz>
+        la viva, malviva <tld/>o;
+      </ekz>
+      <ekz>
+        flueca, solida <tld/>o;
+      </ekz>
+      <ekz>
+        &scirc;nuroj, saturitaj per flamigeblaj <tld/>oj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malpeza <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kio estis la <tld/>o, kiun li havis en siaj testikoj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o oni nomas &ccirc;iujn partiklojn kun spino 1/2, t.e. <ref tip="prt" cel="kvark.0o">kvarko</ref>j
+        kaj <ref tip="prt" cel="lepton.0o">leptono</ref>j, kaj
+        &ccirc;ion, kion ili konsistigas, t.e. <ref tip="prt" cel="atom.0o.KEM">atomo</ref>j, <ref tip="prt" cel="moleku.0o">molekulo</ref>j,
+        solidaj, likvaj kaj gasaj
+        substancoj.
+      </ekz>
+    </dif>
+    <rim>
+      Oni uzas la terminon &leftquot;<tld/>o&rightquot; en fiziko kaj &hcirc;emio, kiam oni priparolas la science
+      interesajn ecojn de substancoj kaj la partiklojn, el kiuj ili konsistas. Kiam
+      oni parolas pri la substancoj, kiujn oni uzas en la produktado de objektoj, el
+      kiuj konsistas teknikaj iloj ktp. oni preferas la vorton &leftquot;materialo&rightquot;, kiu
+      emfazas la teknike interesajn ecojn.
+      <aut>Wolfram Diestel</aut>
+    </rim>
+    <refgrp tip="sin">
+      <ref cel="materi1.0o">materialo</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="stat.0o.FIZ">stato</ref> de materio
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;</trd>,
+      <trd>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>,
+      <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_ja;</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="materi.0o.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
@@ -34,49 +98,6 @@
     <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;</trd>
     <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_ja;</trd>
   </snc>
-  <snc mrk="materi.0o.materialo">
-    <dif>
-      Ia, precipe substanca, formo de <tld/>o:
-      <ekz>
-        la viva, malviva <tld/>o;
-      </ekz>
-      <ekz>
-        flueca, solida <tld/>o;
-      </ekz>
-      <ekz>
-        &scirc;nuroj, saturitaj per flamigeblaj <tld/>oj
-        <fnt>
-          <bib>Far2</bib>
-          <lok>&Ccirc;apitro XIX</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        malpeza <tld/>o
-        <fnt>
-          <bib>Fab1</bib>
-          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        kio estis la <tld/>o, kiun li havis en siaj testikoj
-        <fnt>
-          <bib>Rabistoj</bib>
-          <lok>Akto Unua</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="materi1.0o">materialo</ref>.
-    </refgrp>
-    <trdgrp lng="be">
-      <trd>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;</trd>,
-      <trd>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>,
-      <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_ja;</trd>
-    </trdgrp>
-  </snc>
   <trdgrp lng="cs">
     <trd>hmota</trd>,
     <trd>hmotn&aacute; podstata</trd>,
@@ -90,6 +111,11 @@
   <trd lng="es">materia</trd>
   <trd lng="fr">mati&egrave;re</trd>
   <trd lng="hu">anyag</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7269;&#x8CEA;  <pr>&#x3076;&#x3063;&#x3057;&#x3064;</pr></trd>,
+    <trd>&#x7269;&#x4F53;  <pr>&#x3082;&#x3063;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x8CEA;&#x6599;  <pr>&#x3057;&#x3064;&#x308A;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>stof<klr tip="ind"> (materie)</klr></trd>,
     <trd>materie</trd>
@@ -103,8 +129,12 @@
     <trd>materi&aacute;l</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x430;&#x442;&#x435;&#x440;&#x456;&#x44F;</trd>,
-    <trd>&#x440;&#x435;&#x447;&#x43E;&#x432;&#x438;&#x43D;&#x430;</trd>
+    <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_ib;&c_ja;</trd>,
+    <trd>&c_r;&c_je;&c_ch;&c_o;&c_v;&c_i;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7269;&#x8CEA; <pr>w&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x7269;&#x8D28; <pr>w&#xF9;zh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -159,6 +189,11 @@
     <trd>anyagi</trd>,
     <trd>t&aacute;rgyi</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7269;&#x8CEA;&#x306E;  <pr>&#x3076;&#x3063;&#x3057;&#x3064;&#x306E;</pr></trd>,
+    <trd>&#x7269;&#x8CEA;&#x7684;&#x306A;  <pr>&#x3076;&#x3063;&#x3057;&#x3064;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x7269;&#x7684;&#x306A;  <pr>&#x3076;&#x3063;&#x3066;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>materieel</trd>,
     <trd>stoffelijk</trd>
@@ -175,8 +210,17 @@
   </trdgrp>
   <trd lng="sk">hmotn&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x430;&#x442;&#x435;&#x440;&#x456;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x440;&#x435;&#x447;&#x43E;&#x432;&#x438;&#x43D;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_ib;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_r;&c_je;&c_ch;&c_o;&c_v;&c_i;&c_n;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7269;&#x8CEA; <pr>w&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x7269;&#x8D28; <pr>w&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x8CEA;&#x6599; <pr>zh&#xEC;li&#xE0;o</pr></trd>,
+    <trd>&#x8D28;&#x6599; <pr>zh&#xEC;li&#xE0;o</pr></trd>,
+    <trd>&#x6709;&#x5F62; <pr>y&#x1D2;ux&#xED;ng</pr></trd>,
+    <trd>&#x5B9E;&#x8D28;&#x6027; <pr>sh&#xED;zh&#xEC;x&#xEC;ng</pr></trd>,
+    <trd>&#x5BE6;&#x8CEA;&#x6027; <pr>sh&#xED;zh&#xEC;x&#xEC;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -238,12 +282,17 @@
   <trd lng="es">materialismo</trd>
   <trd lng="fr">mat&eacute;rialisme</trd>
   <trd lng="hu">materializmus</trd>
+  <trd lng="ja">&#x552F;&#x7269;&#x8AD6;  <pr>&#x3086;&#x3044;&#x3076;&#x3064;&#x308D;&#x3093;</pr></trd>
   <trd lng="nl">materialisme</trd>
   <trd lng="pl">materializm</trd>
   <trd lng="ro">materialism</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_z;&c_m; <klr>(&c_f;&c_i;&c_l;&c_o;&c_s;.)</klr></trd>
   <trd lng="sk">materializmus</trd>
-  <trd lng="uk">&#x43C;&#x430;&#x442;&#x435;&#x440;&#x456;&#x430;&#x43B;&#x456;&#x437;&#x43C;</trd>
+  <trd lng="uk">&c_m;&c_a;&c_t;&c_je;&c_r;&c_ib;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x552F;&#x7269;&#x4E3B;&#x4E49; <pr>w&#xE9;iw&#xF9;zh&#x1D4;y&#xEC;</pr></trd>,
+    <trd>&#x552F;&#x7269;&#x4E3B;&#x7FA9; <pr>w&#xE9;iw&#xF9;zh&#x1D4;y&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="materi.0isto">
@@ -279,13 +328,15 @@
     </dif>
     <trd lng="de">Materialist</trd>
   </snc>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_s;&c_t;</trd>
   <trd lng="cs">materialista</trd>
   <trd lng="en">materialist</trd>
   <trd lng="fr">mat&eacute;rialiste<klr tip="amb"> (phil.)</klr></trd>
+  <trd lng="ja">&#x552F;&#x7269;&#x8AD6;&#x8005;  <pr>&#x3086;&#x3044;&#x3076;&#x3064;&#x308D;&#x3093;&#x3057;&#x3083;</pr></trd>
   <trd lng="pl">materialista</trd>
   <trd lng="ro">materialist</trd>
   <trd lng="sk">materialista</trd>
-  <trd lng="uk">&#x43C;&#x430;&#x442;&#x435;&#x440;&#x456;&#x430;&#x43B;&#x456;&#x441;&#x442;</trd>
+  <trd lng="uk">&c_m;&c_a;&c_t;&c_je;&c_r;&c_ib;&c_a;&c_l;&c_ib;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="materi.kontraux0o">
@@ -320,6 +371,12 @@
   <trd lng="en">anti matter</trd>
   <trd lng="pl">antymateria</trd>
   <trd lng="ro">antimaterie</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CD;&#x7269;&#x8CEA; <pr>f&#x1CE;nw&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x53CD;&#x7269;&#x8D28; <pr>f&#x1CE;nw&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x53CD;&#x7269;&#x8CEA; <pr>f&#x1CE;nw&#xF9;zh&#xED;</pr></trd>,
+    <trd>&#x53CD;&#x7269;&#x8D28; <pr>f&#x1CE;nw&#xF9;zh&#xED;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="materi.blanka0o">
@@ -329,8 +386,8 @@
     <dif>
       <ref tip="dif" cel="substa.blanka0o.FIZL">Blanka substanco</ref>:
       <ekz>
-        hipokampo <klr>[&#x2026;]</klr> konsistas el griza <tld/>o, kovrita en 
-        la ventrikla surfaco de blanka <tld/>o 
+        hipokampo <klr>[&#x2026;]</klr> konsistas el griza <tld/>o, kovrita en
+        la ventrikla surfaco de blanka <tld/>o
         <fnt>
           <aut>R. Feldman Gonzalez, trad. N. Kalusky k. a.</aut>,
           <vrk><url ref="http://percepcionunitaria.org/eo/doku/850000_la_nov_para_en_psiko.pdf">
@@ -341,6 +398,7 @@
     </dif>
     <trd lng="de">wei&szlig;e Masse <klr>(Gehirn)</klr></trd>
   </snc>
+  <trd lng="be">&c_b;&c_je;&c_l;&c_a;&c_je; <ind>&c_r;&c_e;&c_ch;&c_y;&c_v;&c_a;</ind></trd>
   <trd lng="en">white matter</trd>
   <trdgrp lng="fr">
     <trd>mati&egrave;re blanche</trd>,
@@ -368,6 +426,7 @@
     </dif>
     <trd lng="de">graue Masse <klr>(Gehirn)</klr></trd>
   </snc>
+  <trd lng="be">&c_sh;&c_e;&c_r;&c_a;&c_je; <ind>&c_r;&c_e;&c_ch;&c_y;&c_v;&c_a;</ind></trd>
   <trd lng="en">gray matter</trd>
   <trdgrp lng="fr">
     <trd>mati&egrave;re grise</trd>,
@@ -396,7 +455,7 @@
     </dif>
     <trd lng="de">dunkle Materie</trd>
   </snc>
-  <trd lng="be">&c_c;&c_jo;&c_m;&c_n;&c_a;&c_ja; &c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;</trd>
+  <trd lng="be">&c_c;&c_jo;&c_m;&c_n;&c_a;&c_ja; <ind>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;</ind></trd>
   <trd lng="en">dark matter</trd>
   <trd lng="fr">mati&egrave;re noire</trd>
   <trd lng="pl">materia ciemna</trd>
@@ -408,7 +467,6 @@
   <snc mrk="materi.historia0ismo.FIL">
     <uzo tip="fak">FIL</uzo>
     <uzo tip="fak">HIS</uzo>
-    <uzo tip="fak">MAH</uzo>
     <dif>
       Doktrino, la&ubreve; kiu ekonomia bazo, plie ol ideoj,
       determinas la evoluon de la socia vivo:
@@ -424,23 +482,42 @@
     </dif>
     <ref tip="malprt" cel="marks.m0ismo">markismo</ref>
   </snc>
-  <trd lng="be">&c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;&c_y;&c_ch;&c_n;&c_y;
-  <ind>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</ind></trd>
+  <trd lng="be">&c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;&c_y;&c_ch;&c_n;&c_y; <ind>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</ind></trd>
   <trd lng="ca">materialisme hist&ograve;ric</trd>
   <trd lng="de">Historischer <ind>Materialismus</ind></trd>
   <trd lng="en">historical materialism</trd>
   <trd lng="es">materialismo hist&oacute;rico</trd>
   <trd lng="fr">mat&eacute;rialisme historique</trd>
   <trd lng="hu">t&ouml;rt&eacute;nelmi <ind>materializmus</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x53F2;&#x7684;&#x552F;&#x7269;&#x8AD6;  <pr>&#x3057;&#x3066;&#x304D;&#x3086;&#x3044;&#x3076;&#x3064;&#x308D;&#x3093;</pr></trd>,
+    <trd>&#x552F;&#x7269;&#x53F2;&#x89B3;  <pr>&#x3086;&#x3044;&#x3076;&#x3064;&#x3057;&#x304B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">historisch <ind>materialisme</ind></trd>
   <trd lng="pl">materializm historyczny</trd>
   <trd lng="ro">materialism istoric</trd>
   <trd lng="ru">&c_i;&c_s;&c_t;&c_o;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
   <trd lng="sk">historick&yacute; <ind>materializmus</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x5386;&#x53F2;&#x552F;&#x7269;&#x4E3B;&#x4E49; <pr>l&#xEC;sh&#x1D0;w&#xE9;iw&#xF9;zh&#x1D4;y&#xEC;</pr></trd>,
+    <trd>&#x6B77;&#x53F2;&#x552F;&#x7269;&#x4E3B;&#x7FA9; <pr>l&#xEC;sh&#x1D0;w&#xE9;iw&#xF9;zh&#x1D4;y&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2024/01/01 15:26:15
+Wolfram Diestel: +kor. 
+
+versio 1.34 2023/12/19 07:22:33
+Wolfram Diestel: fnt JED, revortigo dif, snc FIZ unue, +rim, ekz
+
+versio 1.33 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.31 2023/06/09 14:28:33
+Dmitri Gabinski: + trd be
+
 versio 1.30 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -451,17 +528,5 @@ versio 1.27 2020/12/19 23:10:41
 Vito Redsky: +trd pl +trd ro
 
 versio 1.26 2020/05/17 16:35:32
-Wolfram Diestel: pliaj ekz-oj, germ trd-oj
-
-versio 1.25 2020/05/17 10:35:13
-Wolfram Diestel: ~o, ~a: +kelkaj ekz-oj
-
-Revision 1.23  2017/02/14 16:10:19  revo
-Jeromo Vasxe: entrikla -> ventrikla
-
-Revision 1.22  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.21  2015/06/29 16:33:19  revo
 -->
 </vortaro>

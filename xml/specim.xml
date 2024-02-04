@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: specim.xml,v 1.20 2022/09/21 17:42:51 revo Exp $">
+<art mrk="$Id: specim.xml,v 1.27 2023/10/21 07:46:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>specimen</rad>/o
@@ -14,7 +14,7 @@
       a&ubreve; koninda&jcirc;oj montrataj por veki scivolon, informi,
       reklami, ebligi takson, studon:
       <ekz>
-        mi permesas al mi adresi al vi <klr>[&#8230;]</klr> kelkajn <tld/>ojn de la
+        mi permesas al mi adresi al vi <klr>[&#x2026;]</klr> kelkajn <tld/>ojn de la
         vendobjektoj paperaj kaj kartonaj, kiujn mi havas ordinare en mia magazeno
         <fnt>
           <bib>FK</bib>
@@ -22,7 +22,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        mielkuko<klr>[j&#8230;]</klr> ku&scirc;is kiel <tld/>oj sur la tablo
+        mielkuko<klr>[j&#x2026;]</klr> ku&scirc;is kiel <tld/>oj sur la tablo
         <fnt>
           <bib>Fab3</bib>
           <lok>Sub la saliko</lok>
@@ -67,18 +67,22 @@
       </ekz>
       <ekz>
         li forportis la sango<tld/>on
-        <fnt><aut>David Curtis</aut>:
-          <vrk>Koratako</vrk>, <bib>Monato</bib>
-          <lok>jaro 2002a, numero 1a, p. 28a</lok>
+        <fnt>
+          <aut>David Curtis</aut>
+          <vrk><url ref="&Monato;/2002/pdf/monato200201.pdf#page=28">Koratako</url></vrk>
+          <bib>Monato</bib>
+          <lok>2002/01, p. 28</lok>
         </fnt>;
       </ekz>
       <ekz>
         tiaj kolektoj pruvas kiel la kolektantoj de naturaj <tld/>oj
         stimulis la botanikon, kiu dum la renesanco apartigis sin de la
         medicino
-        <fnt><aut>Johan Van Eenoo</aut>: 
-          <vrk>La bru&gcirc;a Centuriae plantarum rariorum retrovita en Krakovo</vrk>,
-          <bib>Monato</bib><lok>jaro 1998a, numero 1a, p. 16a</lok>
+        <fnt><aut>Johan van Eenoo</aut>
+          <vrk><url ref="&Monato;/1998/005856.html">La bru&gcirc;a Centuriae plantarum rariorum retrovita
+          en Krakovo</url></vrk>
+          <bib>Monato</bib>
+          <lok>1998/01, p. 16</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -108,6 +112,11 @@
   <trdgrp lng="hu">
     <trd>minta</trd>,
     <trd>&aacute;ruminta</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x898B;&#x672C;  <pr>&#x307F;&#x307B;&#x3093;</pr></trd>,
+    <trd>&#x30B5;&#x30F3;&#x30D7;&#x30EB;  <pr>&#x3055;&#x3093;&#x3077;&#x308B;</pr></trd>,
+    <trd>&#x6A19;&#x672C;  <pr>&#x3072;&#x3087;&#x3046;&#x307B;&#x3093;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>specimen</trd>,
@@ -161,10 +170,11 @@
       <ekz>
         &ccirc;ie konataj estis liaj botanikaj &gcirc;ardenoj kaj naturaj
         <tld/>aroj
-        <fnt>
-          <aut>Johan Van Eenoo</aut>: <vrk>La bru&gcirc;a Centuriae
-          plantarum rariorum retrovita en Krakovo</vrk>,
-          <bib>Monato</bib><lok>jaro 1998a, numero 1a, p. 16a</lok>
+        <fnt><aut>Johan van Eenoo</aut>
+          <vrk><url ref="&Monato;/1998/005856.html">La bru&gcirc;a Centuriae plantarum rariorum retrovita
+          en Krakovo</url></vrk>
+          <bib>Monato</bib>
+          <lok>1998/01, p. 16</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -173,7 +183,15 @@
       <ref cel="kolekt.0o.art">kolekto<sncref ref="kolekt.0o.art"/></ref>,
       <ref cel="muze.0o.kolekto">muzeo<sncref ref="muze.0o.kolekto"/></ref>
     </refgrp>
+    <rim>
+      Por la statistike esplorita ono de <ref tip="malprt" cel="populaci.0o">populacio</ref>
+      iuj uzas la neologismojn <ref cel="sampl.0o.SCI">samplo resp. muestro</ref>.
+    </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_l;&c_je;&c_k;&c_c;&c_y;&c_ja;</trd>,
+    <trd>&c_z;&c_b;&c_o;&c_r;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>col&middot;lecci&oacute;</trd>,
     <trd>mostrari</trd>
@@ -183,7 +201,11 @@
     <trd>Stichprobe</trd>,
     <trd>Kollektion</trd>
   </trdgrp>
-  <trd lng="en">collection</trd>
+  <trdgrp lng="en">
+    <trd>sample</trd>,
+    <trd>collection</trd>
+  </trdgrp>
+  <trd lng="es">muestra</trd>
   <trdgrp lng="fr">
     <trd>collection</trd>
   </trdgrp>
@@ -204,27 +226,27 @@
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/21 07:46:48
+revo: transskribo per <pr>
+
+versio 1.25 2023/08/16 14:28:49
+Dmitri Gabinski: + trd be
+
+versio 1.24 2023/05/14 06:29:38
+Paul Peeraerts: + aut + lok + url
+
+versio 1.23 2023/02/26 14:27:40
+Wolfram Diestel: rim-vortigo
+
+versio 1.22 2023/02/26 13:30:31
+Wolfram Diestel: +rim
+
+versio 1.21 2023/02/24 20:31:37
+Wolfram Diestel: +trd en, es
+
 versio 1.20 2022/09/21 17:42:51
 Wolfram Diestel: +ekz-oj, ref, trd de
 
 versio 1.19 2022/08/05 21:29:08
-Ulrich Fellmann: specimenaro: + 1 DE trad
-
-Revision 1.16  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.15  2013/04/19 05:10:18  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.14  2011/12/06 13:10:15  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.13  2009/06/02 18:47:29  revo
-Russ Williams: +trd en
-
-Revision 1.12  2005/06/28 20:26:56  revo
-Yury Finkel: +trd ru
-
-Revision 1.11  2004/10/21 16:31:59  revo
 -->
 </vortaro>

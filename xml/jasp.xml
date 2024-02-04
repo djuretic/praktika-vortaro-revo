@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: jasp.xml,v 1.26 2022/03/21 17:23:46 revo Exp $">
+<art mrk="$Id: jasp.xml,v 1.31 2023/12/03 07:09:06 revo Exp $">
 <kap>
   <rad>jasp</rad>/o <fnt><bib>PV</bib></fnt>,
   <var><kap><rad var="is">jaspis</rad>/o <fnt><bib>MT</bib></fnt></kap></var>
@@ -11,7 +11,7 @@
   <uzo tip="fak">MIN</uzo>
   <snc mrk="jasp.0o.sxtono">
     <dif>
-      Malmola kaj nediafana &scirc;tono, simila al agato, havanta 
+      Malmola kaj nediafana &scirc;tono, simila al agato, havanta
       multkolorajn striojn kaj makulojn:
       <ekz>
         multekostaj &scirc;tonoj vin kovris: rubeno, topazo, diamanto, sukceno,
@@ -42,12 +42,13 @@
         la Sankta Kapelo <klr>[estas]</klr> realigita per noblaj materialoj: bronzo,
         <tld/>o kaj marmoro
         <fnt>
-          <vrk><url ref="https://sites.google.com/site/fratecoesperanto/1970-1985---6/1983---baziliko-n-s-pilar">1983 - Baziliko NiaSinjorino Pilar - Frateco</url></vrk>
+          <vrk><url ref="https://sites.google.com/site/fratecoesperanto/1970-1985---6/1983---baziliko-n-s-pilar">1983
+          - Baziliko NiaSinjorino Pilar - Frateco</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la pre&gcirc;ejan fasadon kaj internon ornamas pli ol 500 antikvaj kolonoj el marmoro,
-        porfiro, <tld/>o, serpenteno kaj alabasto
+        porfiro, <tld/>o, serpenteno kaj alabast<klr>[r]</klr>o
         <fnt>
           <vrk><url ref="http://www.literatura.bucek.name/brno/trzosova-venecio.pdf">Esperanto-Brno</url></vrk>
         </fnt>.
@@ -66,12 +67,20 @@
   <trd lng="he">&yod;&shin;&pe;&he;</trd>
   <trd lng="hu">j&aacute;spis</trd>
   <trd lng="it">diaspro</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B8;&#x30E3;&#x30B9;&#x30D1;&#x30FC;</trd>,
+    <trd>&#x78A7;&#x7389;  <pr>&#x3078;&#x304D;&#x304E;&#x3087;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">jaspis</trd>
   <trd lng="pt">jaspe</trd>
   <trd lng="ru">&c_ja;&c_sh;&c_m;&c_a;</trd>
   <trd lng="sk">jaspis</trd>
   <trd lng="sv">jaspis</trd>
-  <trd lng="uk">&#x44F;&#x448;&#x43C;&#x430;</trd>
+  <trd lng="uk">&#x44F;&c_sh;&#x43C;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x78A7;&#x7389; <pr>b&#xEC;y&#xF9;</pr></trd>,
+    <trd>&#x78A7;&#x7389; <pr>b&#xEC;y&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="jasp.0i">
@@ -82,16 +91,28 @@
     <ekz><tld/>i la randojn de libro.</ekz>
    </dif>
   </snc>
+  <trd lng="be">&c_f;&c_a;&c_r;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;, &c_ib;&c_m;&c_ib;&c_t;&c_u;&c_ju;&c_ch;&c_y; &c_ja;&c_sh;&c_m;&c_u;</trd>
   <trd lng="ca">jaspiar</trd>
    <trd lng="fr">jasper</trd>
    <trd lng="hu">m&aacute;rv&aacute;nyoz</trd>
    <trd lng="it">marmorizzare</trd>
-  <trd lng="uk">&#x440;&#x43E;&#x437;&#x444;&#x430;&#x440;&#x431;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x456;&#x434; &#x44F;&#x448;&#x43C;&#x443;</trd>
+  <trd lng="ja">&#x7E1E;&#x6A21;&#x69D8;&#x3092;&#x3064;&#x3051;&#x308B;  <pr>&#x3057;&#x307E;&#x3082;&#x3088;&#x3046;&#x3092;&#x3064;&#x3051;&#x308B;</pr></trd>
+  <trd lng="uk">&c_r;&#x43E;&c_z;&c_f;&c_a;&c_r;&c_b;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i; &#x43F;&c_ib;&c_d; &#x44F;&c_sh;&#x43C;&c_u;</trd>
+  <trd lng="zh">&#x78A7;&#x7389; <pr>b&#xEC;y&#xF9;</pr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.30 2023/10/18 05:25:55
+revo: transskribo per <pr>
+
+versio 1.28 2023/08/09 07:24:50
+Dmitri Gabinski: + trd be
+
+versio 1.27 2023/08/09 06:31:52
+Wolfram Diestel: +korekteto
+
 versio 1.25 2020/09/09 06:10:37
 Wolfram Diestel: +tld-var
 
@@ -105,14 +126,5 @@ Revision 1.21  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2012/01/01 19:10:15  revo
-Marc Rausell: +trd ca
-
-Revision 1.19  2009/03/18 17:31:20  revo
-Wieland Pusch: +trd bg
-
-Revision 1.18  2009/03/15 17:31:07  revo
-Antonio Codazzi: +trd it
-
-Revision 1.17  2005/08/25 16:33:42  revo
 -->
 </vortaro>

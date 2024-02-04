@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fazan.xml,v 1.18 2022/03/20 10:19:21 revo Exp $">
+<art mrk="$Id: fazan.xml,v 1.23 2023/11/09 19:13:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fazan</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,13 +11,29 @@
   <snc mrk="fazan.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Granda birdo kun longaj vostplumoj kaj belkolora plumaro
-      &ccirc;e la viro;
-      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> el familio <ref tip="malprt" cel="fazane.0oj"><tld/>edoj</ref>
+      Granda <ref tip="super" cel="bird.0o">birdo</ref> kun longaj vostplumoj kaj belkolora plumaro
+      &ccirc;e la viro; <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> 
+      el familio <ref tip="malprt" cel="fazane.0oj"><tld/>edoj</ref>
       (<trd lng="la">Phasianus</trd>):
       <ekz>
+        ili ekvidis la <nom>minaul</nom>&#x2019;on, himalajan <tld/>on, kies belegaj koloroj brilis anta&ubreve;
+        la statuo
+        <fnt>
+          <bib>IKr</bib>
+          <lok>La Miraklo De Purun Bhagat</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili havas en siaj birdejoj <tld/>ojn, sed ne man&gcirc;as ilin, akceptinte la
+        principon, ke forman&gcirc;o de &ccirc;iu <tld/>o proksimigas la finon de la roma potenco
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         oni konstruis luksan hotelon, basenon, faris belan parkon kaj
-        denove oni komencis bredi fazanojn por &ccirc;asado
+        denove oni komencis bredi <tld/>ojn por &ccirc;asado
         <fnt>
           <aut>J. Modest</aut>,
           <vrk><url ref="http://verkoj.com/verkistoj/julian-modest/fazancasado/">
@@ -26,6 +42,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <bld lok="&WCU;/thumb/7/78/Common_Pheasant_RWD2.jpg/640px-Common_Pheasant_RWD2.jpg" prm="CC BY-SA 3.0"><tld/>o (Phasianus colchicus), Skotujo
+        <fnt>
+          <aut>DickDaniels (http://theworldbirds.org/), propra verko</aut>
+          <lok><url ref="&WCW;/File:Common_Pheasant_RWD2.jpg">&WCW;/File:Common_Pheasant_RWD2.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_z;&c_a;&c_n;</trd>
   <trdgrp lng="cs">
@@ -37,17 +59,33 @@
   <trd lng="en">pheasant</trd>
   <trd lng="fr">faisan</trd>
   <trd lng="hu">f&aacute;c&aacute;n</trd>
+  <trd lng="ja">&#x30AD;&#x30B8;  <pr>&#x304D;&#x3058;</pr></trd>
   <trd lng="nl">fazant</trd>
   <trd lng="pl">ba&zdot;ant</trd>
   <trd lng="pt">fais&atilde;o</trd>
   <trd lng="ru">&c_f;&c_a;&c_z;&c_a;&c_n;</trd>
   <trd lng="sk">ba&zcaron;ant</trd>
-  <trd lng="uk">&#x444;&#x430;&#x437;&#x430;&#x43D;</trd>
+  <trd lng="uk">&c_f;&c_a;&c_z;&c_a;&c_n;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9D6B; <pr>zh&#xE0;o</pr></trd>,
+    <trd>&#x7FDA; <pr>hu&#x12B;</pr></trd>,
+    <trd>&#x9D57; <pr>x&#x12B;</pr></trd>,
+    <trd>&#x96C9;&#x96DE; <pr>zh&#xEC;j&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
+versio 1.20 2023/05/04 16:16:09
+revo: aktualigo URL-unuoj
+
+versio 1.19 2022/12/17 09:22:43
+Wolfram Diestel: +ekz, bld
+
 Revision 1.16  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -61,11 +99,5 @@ Revision 1.13  2007/05/19 17:02:33  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2003/12/23 17:37:56  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2001/10/07 18:19:04  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.10  2001/05/05 12:41:58  revo
 -->
 </vortaro>

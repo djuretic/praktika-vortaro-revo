@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: konvalesk.xml,v 1.10 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: konvalesk.xml,v 1.12 2023/12/03 09:58:57 revo Exp $">
 <kap>
   <rad>konvalesk</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -19,7 +18,7 @@
         665a</lok></fnt>;
       </ekz>
       <ekz>
-        apena&ubreve; la rabisto <klr>[&#8230;]</klr> estos <tld/>inta, atendos lin proceso
+        apena&ubreve; la rabisto <klr>[&#x2026;]</klr> estos <tld/>inta, atendos lin proceso
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
@@ -28,7 +27,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        topinamburo<klr>[n&#8230;]</klr> oni rekomendas <klr>[&#8230;]</klr> al <tld/>antoj
+        topinamburo<klr>[n&#x2026;]</klr> oni rekomendas <klr>[&#x2026;]</klr> al <tld/>antoj
         <fnt>
           <bib>Monato</bib>
           <aut>Julius Hauser</aut>
@@ -38,6 +37,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_ch;&c_u;&c_n;&c_mol;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_a;&c_d; &c_h;&c_v;&c_a;&c_r;&c_o;&c_b;&c_y;)</klr></trd>,
+    <trd>&c_z;&c_d;&c_a;&c_r;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_p;&c_r;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="cs">zotavovat se</trd>
   <trd lng="de">sich von einer Krankheit <ind>erholen</ind></trd>
   <trdgrp lng="es">
@@ -49,10 +53,17 @@
   <trdgrp lng="pl">
     <trd>zdrowie&cacute;</trd>,
     <trd>dochodzi&cacute; do zdrowia</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="pt">convalescer</trd>
   <trd lng="ro">merge spre vindecare </trd>
   <trd lng="sk">zotavova&tcaron; sa</trd>
+  <trdgrp lng="zh">
+    <trd>&#x517B;&#x75C5; <pr>y&#x1CE;ngb&#xEC;ng</pr></trd>,
+    <trd>&#x5EB7;&#x590D; <pr>k&#x101;ngf&#xF9;</pr></trd>,
+    <trd>&#x7597;&#x517B; <pr>li&#xE1;oy&#x1CE;ng</pr></trd>,
+    <trd>&#x7625; <pr>ch&#xE0;i</pr></trd>,
+    <trd>&#x517B;&#x4F24; <pr>y&#x1CE;ngsh&#x101;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="konvalesk.0o">
@@ -62,13 +73,18 @@
     <dif>
       Resaniga <ref tip="super" cel="ripoz.0o">ripozo</ref>:
       <ekz>
-       li forlasis unuafoje la balanc-se&gcirc;on, kiun <nom>&Uacute;rsula</nom> a&ccirc;etis por lia 
+       li forlasis unuafoje la balanc-se&gcirc;on, kiun <nom>&Uacute;rsula</nom> a&ccirc;etis por lia
        <tld/>o
-       <fnt><aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>, <vrk>Cent 
+       <fnt><aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>, <vrk>Cent
        Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_z;&c_d;&c_a;&c_r;&c_a;&c_v;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_p;&c_a;&c_p;&c_r;&c_a;&c_w;&c_k;&c_a;</trd>,
+    <trd>&c_a;&c_ch;&c_u;&c_n;&c_mol;&c_v;&c_a;&c_n;&c_mol;&c_je;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>konvalescence</trd>,
     <trd>rekonvalescence</trd>,
@@ -77,8 +93,8 @@
   <trd lng="de">Rekonvaleszenz</trd>
   <trd lng="fr">convalescence</trd>
   <trd lng="hu">l&aacute;badoz&aacute;s</trd>
-  <trd lng="pl">rekonwalescencja</trd>     
-  <trd lng="ro">convalescen&#539;&abreve;</trd>
+  <trd lng="pl">rekonwalescencja</trd>
+  <trd lng="ro">convalescen&#x21B;&abreve;</trd>
   <trdgrp lng="sk">
     <trd>rekonvalescencia</trd>,
     <trd>zotavenie</trd>
@@ -88,6 +104,9 @@
 
 <!--
 $Log$
+versio 1.11 2023/11/27 09:27:56
+Dmitri Gabinski: + trd be
+
 versio 1.10 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -107,8 +126,5 @@ Revision 1.4  2006/11/18 17:30:32  revo
 Tulio Flores: +tr pt
 
 Revision 1.3  2005/04/05 16:34:36  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.2  2004/05/06 16:33:05  revo
 -->
 </vortaro>

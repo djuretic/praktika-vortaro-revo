@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: koordi.xml,v 1.31 2020/02/13 22:10:17 revo Exp $">
+<art mrk="$Id: koordi.xml,v 1.36 2023/12/03 09:58:58 revo Exp $">
 <kap>
   <rad>koordinat</rad>/o
   <fnt>Z</fnt>
@@ -28,14 +27,11 @@
       <ref cel="koordi.cilindra0o">cilindra <tld/>o</ref>,
       <ref cel="koordi.sfera0o">sfera <tld/>o</ref>.
     </refgrp>
-    <trd lng="de">Koordinate</trd>
-    <trd lng="en">coordinate</trd>
   </snc>
   <snc mrk="koordi.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      <ref tip="vid" cel="longit.0o.GEOG">Longitudo</ref> a&ubreve; <ref
-      tip="vid" cel="latitu.0o.GEOG_AST">latitudo</ref>:
+      <ref tip="vid" cel="longit.0o.GEOG">Longitudo</ref> a&ubreve; <ref tip="vid" cel="latitu.0o.GEOG_AST">latitudo</ref>:
       <ekz>
         &ccirc;e la rivernomoj, la <tld/>oj difinas la situon de la
         enfluejo
@@ -50,15 +46,22 @@
     <trd>kart&eacute;zsk&aacute; sou&rcaron;adnicov&aacute; soustava</trd>,
     <trd>kart&eacute;zsk&yacute; sou&rcaron;adnicov&yacute; syst&eacute;m</trd>
   </trdgrp>
+  <trd lng="de">Koordinate</trd>
+  <trd lng="en">coordinate</trd>
   <trd lng="es">coordenada</trd>
   <trd lng="fr">coordonn&eacute;e</trd>
   <trd lng="hu">koordin&aacute;ta</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5EA7;&#x6A19;  <pr>&#x3056;&#x3072;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x7D4C;&#x7DEF;&#x5EA6;  <pr>&#x3051;&#x3044;&#x3044;&#x3069;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>wsp&oacute;&lstroke;rz&eogonek;dna</trd>,
     <trd>koordynata</trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</trd>
   <trd lng="sk">kart&eacute;zsky s&uacute;radnicov&yacute; syst&eacute;m</trd>
+  <trd lng="zh">&#x5750;&#x6807; <pr>zu&#xF2;bi&#x101;o</pr></trd>
 </drv>
 
 <drv mrk="koordi.0sistemo">
@@ -97,10 +100,15 @@
     <trd>rep&egrave;re</trd>
   </trdgrp>
   <trd lng="hu">koordin&aacute;tarendszer</trd>
+  <trd lng="ja">&#x5EA7;&#x6A19;&#x7CFB;  <pr>&#x3056;&#x3072;&#x3087;&#x3046;&#x3051;&#x3044;</pr></trd>
   <trd lng="pl">uk&lstroke;ad wsp&oacute;&lstroke;rz&eogonek;dnych</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;
   &c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;</trd>
   <trd lng="sk">s&uacute;radnicov&yacute; syst&eacute;m</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5EA7;&#x6807;&#x7CFB;&#x7EDF; <pr>zu&#xF2;bi&#x101;ox&#xEC;t&#x1D2;ng</pr></trd>,
+    <trd>&#x5750;&#x6807;&#x7CFB; <pr>zu&#xF2;bi&#x101;ox&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="koordi.cilindra0o">
@@ -123,11 +131,11 @@
       <frm am="(O,bb i,bb j)">(O, <g>i</g>, <g>j</g>)</frm>, kaj
       <frm am="z"><k>z</k></frm> estas
       la
-      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de <frm
-      am="M">M</frm>.
+      <ref cel="koordi.kartezia0o">z-<tld/>o</ref> de <frm am="M">M</frm>.
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
   </snc>
+  <trd lng="be">&c_c;&c_y;&c_l;&c_ib;&c_n;&c_d;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_k;&c_a;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="cs">cylindrick&aacute; sou&rcaron;adnice</trd>
   <trdgrp lng="de">
     <trd>Zylinderkoordinate</trd>,
@@ -154,6 +162,7 @@
     <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   </trdgrp>
   <trd lng="sk">cylindrick&aacute; s&uacute;radnica</trd>
+  <trd lng="zh">&#x5706;&#x67F1;&#x5750;&#x6807;&#x7CFB; <pr>yu&#xE1;nzh&#xF9;zu&#xF2;bi&#x101;ox&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="koordi.kartezia0o">
@@ -162,14 +171,11 @@
   <fnt><bib>MatTerm</bib>, <lok>p. 31</lok></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm am="M">M</frm> en <ref
-      cel="spac.afina0o">afina
+      <klr>(de punkto <frm am="M">M</frm> en <ref cel="spac.afina0o">afina
       spaco</ref>
-      rilate al <ref
-      cel="origin.0o.de_kartezia_koordinatsistemo">origino</ref>
+      rilate al <ref cel="origin.0o.de_kartezia_koordinatsistemo">origino</ref>
       <frm am="O">O</frm> la&ubreve;
-      <ref cel="baz.0o.vektoraspaco">bazo</ref> <frm
-      am="B">B</frm>)</klr>
+      <ref cel="baz.0o.vektoraspaco">bazo</ref> <frm am="B">B</frm>)</klr>
       &Ccirc;iu el la <ref cel="kompon.0anto.MAT">komponantoj</ref>
       de vektoro <frm am="OM">OM</frm> (t.e. <frm am="M-O">M-O</frm>)
       la&ubreve;
@@ -177,11 +183,9 @@
       <ekz>
         en la tridimensia reela afina spaco, kiu figuras la fizikan
         spacon, oni ofte signas la karteziajn <tld/>ojn de punkto
-        per la triopo <frm am="(x,y,z)"
-        >(<k>x</k>, <k>y</k>, <k>z</k>)</frm> kaj la
+        per la triopo <frm am="(x,y,z)">(<k>x</k>, <k>y</k>, <k>z</k>)</frm> kaj la
         <ref cel="koordi.0sistemo"><tld/>sistemon</ref>
-        mem per kvaropo <frm am="(O,bb i,bb j,bb k)"
-        >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>;
+        mem per kvaropo <frm am="(O,bb i,bb j,bb k)">(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>;
       </ekz>
       <ekz>
         <ind>x-<tld/>o</ind>
@@ -304,6 +308,7 @@
       multe pli ol de <ctl>ordinato</ctl> kun <ctl>ordini</ctl>.
     </rim>
   </snc>
+  <trd lng="be">&c_d;&c_e;&c_k;&c_a;&c_r;&c_t;&c_a;&c_v;&c_a; <ind>&c_k;&c_a;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="de">kartesische <ind>Koordinate</ind></trd>
   <trd lng="en">Cartesian <ind>coordinate</ind></trd>
   <trd lng="es">coordenada cartesiana</trd>
@@ -313,6 +318,10 @@
   kartezja&nacute;ska</trd>
   <trd lng="ru">&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a;
   <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x76F4;&#x89D2;&#x5750;&#x6807; <pr>zh&#xED;ji&#x1CE;ozu&#xF2;bi&#x101;o</pr></trd>,
+    <trd>&#x7B1B;&#x5361;&#x513F;&#x5750;&#x6807; <pr>d&#xED;k&#x1CE;&#xE9;rzu&#xF2;bi&#x101;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="koordi.pezocentra0o">
@@ -320,25 +329,20 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de punkto <frm am="M">M</frm> en <frm
-      am="n"><k>n</k></frm>-dimensia
+      <klr>(de punkto <frm am="M">M</frm> en <frm am="n"><k>n</k></frm>-dimensia
       <ref cel="spac.afina0o">afina spaco</ref>
       rilate al <frm am="n+1"><k>n</k>+1</frm> punktoj
-      <frm am="(A_i)_(0 le i le n)"
-      >(A<sub><k>i</k></sub>)<sub>0&#8804;<k>i</k>&#8804;<k>n</k></sub></frm>
+      <frm am="(A_i)_(0 le i le n)">(A<sub><k>i</k></sub>)<sub>0&#x2264;<k>i</k>&#x2264;<k>n</k></sub></frm>
       ne apartenantaj al la sama hiperebeno)</klr>
-      &Ccirc;iu el la termoj de iu ajn tia <frm
-      am="n+1">(<k>n</k>+1)</frm>-opo
-      <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm
-      am="M">M</frm>
+      &Ccirc;iu el la termoj de iu ajn tia <frm am="n+1">(<k>n</k>+1)</frm>-opo
+      <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>, ke <frm am="M">M</frm>
       estas la <ref cel="centr.pezo0o">pezocentro</ref> de la punktoj
       <frm am="(A_i)">(A<sub><k>i</k></sub>)</frm> kun la koeficientoj
       <frm am="(alpha_i)">(&alfa;<sub><k>i</k></sub>)</frm>.
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
     <rim>
-      Tiuj koordinatoj estas <ref
-      cel="homoge.0a.koordinatoj">homogenaj</ref>.
+      Tiuj koordinatoj estas <ref cel="homoge.0a.koordinatoj">homogenaj</ref>.
       Trovi&gcirc;as aliaj difinoj, kiuj <ctl>malhomogeneigas</ctl>
       ilin,
       postulante ekzemple, ke <frm am="alpha_0=1">&alfa;<sub>0</sub> =
@@ -348,6 +352,7 @@
   <adm>
     Trovi fnt. <aut>MB</aut>
   </adm>
+  <trd lng="be">&c_b;&c_a;&c_r;&c_y;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_k;&c_a;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="de">baryzentrische <ind>Koordinate</ind></trd>
   <trd lng="en">barycentric <ind>coordinate</ind></trd>
   <trd lng="fr">coordonn&eacute;e barycentrique</trd>
@@ -358,8 +363,7 @@
     <ind>koordin&aacute;ta</ind></trd>
   </trdgrp>
   <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna barycentryczna</trd>
-  <trd
-  lng="ru">&c_b;&c_a;&c_r;&c_i;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+  <trd lng="ru">&c_b;&c_a;&c_r;&c_i;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
   <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">barycentrick&aacute; s&uacute;radnica</trd>
   <trd lng="cs">barycentrick&aacute; sou&rcaron;adnice</trd>
@@ -387,14 +391,13 @@
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
     <rim>
       La koncernan ebenon oni samtempe provizas per orta kaj ununorma
-      koordinatsistemo <frm am="(O,bb i,bb j)"
-      >(O, <g>i</g>, <g>j</g>)</frm>, kie
+      koordinatsistemo <frm am="(O,bb i,bb j)">(O, <g>i</g>, <g>j</g>)</frm>, kie
       <frm am="O">O</frm>
-      estas la origino de la polusa akso kaj <frm am="bb
-      i"><g>i</g></frm>
+      estas la origino de la polusa akso kaj <frm am="bb       i"><g>i</g></frm>
       &gcirc;ia ununorma direktanta vektoro.
     </rim>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; <ind>&c_k;&c_a;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="cs">pol&aacute;rn&iacute; sou&rcaron;adnice</trd>
   <trd lng="de">Polarkoordinate</trd>
   <trd lng="en">polar <ind>coordinate</ind></trd>
@@ -405,6 +408,7 @@
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja;
   <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">pol&aacute;rne s&uacute;radnice</trd>
+  <trd lng="zh">&#x6781;&#x5750;&#x6807; <pr>j&#xED;zu&#xF2;bi&#x101;o</pr></trd>
 </drv>
 
 <drv mrk="koordi.sfera0o">
@@ -416,8 +420,7 @@
       <klr>(de punkto <frm am="M">M</frm> en tridimensia reela e&ubreve;klida
       <ref cel="spac.afina0o">afina spaco</ref> provizita per orta
       ununorma koordinatsistemo
-      <frm am="(O,bb i,bb j,bb k)"
-      >(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
+      <frm am="(O,bb i,bb j,bb k)">(O, <g>i</g>, <g>j</g>, <g>k</g>)</frm>)</klr>
       &Ccirc;iu el la tri reeloj
       <ref cel="distan.polusa0o">polusa distanco</ref>,
       <ref cel="longit.0o.MAT">longitudo</ref> kaj
@@ -429,6 +432,7 @@
     </dif>
     <ref tip="vid" cel="koordi.0o"><tld/>o.</ref>
   </snc>
+  <trd lng="be">&c_s;&c_f;&c_e;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_k;&c_a;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="cs">sf&eacute;rick&aacute; sou&rcaron;adnice</trd>
   <trdgrp lng="de">
     <trd>Kugelkoordinate</trd>,
@@ -439,14 +443,22 @@
   <trd lng="fr">coordonn&eacute;e sph&eacute;rique</trd>
   <trd lng="hu">g&ouml;mbi <ind>koordin&aacute;ta</ind></trd>
   <trd lng="pl">wsp&oacute;&lstroke;rz&eogonek;dna sferyczna</trd>
-  <trd
-  lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
-  <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
+  <trd lng="ru">&c_s;&c_f;&c_je;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_k;&c_o;&c_o;&c_r;&c_d;&c_i;&c_n;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="sk">sf&eacute;rick&aacute; s&uacute;radnica</trd>
+  <trd lng="zh">&#x7403;&#x9762;&#x5750;&#x6807; <pr>qi&#xFA;mi&#xE0;nzu&#xF2;bi&#x101;o</pr></trd>
 </drv>
 </art>
 <!--
-$Log: koordi.xml,v $
+$Log$
+versio 1.35 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.33 2023/06/09 14:28:30
+Dmitri Gabinski: + trd be
+
+versio 1.32 2023/05/20 11:19:05
+Christian Siefkes: +trd de, en
+
 versio 1.31 2020/02/13 22:10:17
 Wolfram Diestel: formuloj per am
 
@@ -460,14 +472,5 @@ Revision 1.28  2018/06/11 02:10:17  revo
 Dusan Juretic: +trd es
 
 Revision 1.27  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.26  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.25  2005/10/31 17:31:30  revo
-Jeromo Vasxe: ~o geog + ekz
-
-Revision 1.24 2004/05/02 16:32:09 revo
 -->
 </vortaro>

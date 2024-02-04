@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: etik.xml,v 1.19 2022/06/26 13:33:21 revo Exp $">
+<art mrk="$Id: etik.xml,v 1.23 2023/11/07 20:34:12 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>etik</rad>/o
@@ -38,7 +38,7 @@
         la kristana <tld/>o;
       </ekz>
       <ekz>
-        ilia literaturo <klr>[&#8230;]</klr> havas tiun saman <tld/>on kaj tiujn samajn
+        ilia literaturo <klr>[&#x2026;]</klr> havas tiun saman <tld/>on kaj tiujn samajn
         idealojn kiel nia
         <fnt>
           <bib>Paroloj</bib>
@@ -73,6 +73,10 @@
     <trd>etika</trd>,
     <trd>erk&ouml;lcstan</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x502B;&#x7406;&#x5B66;  <pr>&#x308A;&#x3093;&#x308A;&#x304C;&#x304F;</pr></trd>,
+    <trd>&#x502B;&#x7406;  <pr>&#x308A;&#x3093;&#x308A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ethiek</trd>
   <trd lng="pl">etyka</trd>
   <trd lng="pt">&eacute;tica</trd>
@@ -82,6 +86,7 @@
     <trd>mravoveda</trd>
   </trdgrp>
   <trd lng="uk">&c_je;&c_t;&c_i;&c_k;&c_a;</trd>
+  <trd lng="zh">&#x4F26;&#x7406; <pr>l&#xFA;nl&#x1D0;</pr></trd>
 </drv>
 
 <drv mrk="etik.0a">
@@ -104,7 +109,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la verkoj de la grandaj instruintoj de la homaro pri <klr>[&#8230;]</klr> la universo
+        la verkoj de la grandaj instruintoj de la homaro pri <klr>[&#x2026;]</klr> la universo
         kaj al la eterneco, filozofie-<tld/>ajn interparolojn
         <fnt>
           <bib>Homaranismo</bib>
@@ -135,8 +140,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Lode Van de Velde kaj Roland Rotsaert</aut>
-          <vrk><url ref="https://www.monato.be/2014/011347.php"
-              >Konsumantoj agiti&gcirc;as kaj konscii&gcirc;as</url></vrk>
+          <vrk><url ref="&Monato;/2014/011347.php">Konsumantoj agiti&gcirc;as kaj konscii&gcirc;as</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
@@ -163,6 +167,10 @@
   </trdgrp>
   <trd lng="en">ethical</trd>
   <trd lng="es">&eacute;tico</trd>
+  <trdgrp lng="ja">
+    <trd>&#x502B;&#x7406;&#x5B66;&#x306E;  <pr>&#x308A;&#x3093;&#x308A;&#x304C;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x502B;&#x7406;&#x7684;&#x306A;  <pr>&#x308A;&#x3093;&#x308A;&#x3066;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ethisch</trd>
   <trdgrp lng="sk">
     <trd>etick&yacute;</trd>,
@@ -172,10 +180,20 @@
     <trd>&c_je;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_m;&c_o;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x79CD; <pr>r&#xE9;nzh&#x1D2;ng</pr></trd>,
+    <trd>&#x6C11;&#x65CF; <pr>m&#xED;nz&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/14 15:49:05
+revo: transskribo per <pr>
+
+versio 1.20 2023/04/11 14:37:22
+aktualigo Monato-URL
+
 versio 1.19 2022/06/26 13:33:21
 Wolfram Diestel: +ekz-oj
 
@@ -192,11 +210,5 @@ Revision 1.13  2009/06/29 18:06:57  revo
 Russ Williams: +trd en
 
 Revision 1.12  2007/07/09 16:30:53  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2007/06/25 16:30:22  revo
-Wieland Pusch: +trd de
-
-Revision 1.10  2003/12/21 17:31:00  revo
 -->
 </vortaro>

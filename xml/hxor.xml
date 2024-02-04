@@ -1,246 +1,436 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: hxor.xml,v 1.45 2022/09/22 08:43:14 revo Exp $">
-      <kap>
-        <ofc>*</ofc>
-        <rad>&hcirc;or</rad>/o
-      </kap>
+<art mrk="$Id: hxor.xml,v 1.51 2023/11/15 17:08:02 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>&hcirc;or</rad>/o
+</kap>
 
-      <drv mrk="hxor.0o">
-        <kap><ofc>*</ofc><tld/>o</kap>
-        <snc mrk="hxor.0o.kantistaro">
-          <uzo tip="fak">MUZ</uzo>
-          <dif>
-            Grupo da homoj, unusone a&ubreve; plurvo&ccirc;e kantantaj:
-            <ekz>
-              vira, virina, gea, knaba <tld/>o;
-            </ekz><ekz>
-              la <tld/>o de Bol&scirc;oj-teatro;
-            </ekz><ekz>
-              membroj de mia <tld/>o
-              <fnt><aut>David Curtis</aut>:
-                <vrk>Koratako</vrk>,
-                <bib>Monato</bib><lok>jaro 2002a, 
-n-ro 1a, p.28-34a</lok></fnt>.
-            </ekz>
-          </dif>
-          <refgrp tip="sin">
-            <ref cel="korus.0o">koruso</ref>
-          </refgrp>
-        </snc>
-        <snc mrk="hxor.0o.MUZverko">
-          <uzo tip="fak">MUZ</uzo>
-            <ref tip="dif" cel="hxor.0ajxo">&Hcirc;ora&jcirc;o</ref>
-        </snc>
-        <snc mrk="hxor.0o.TEA">
-          <uzo tip="fak">TEA</uzo>
-          <dif>
-En la antikvaj teatra&jcirc;oj, kolektiva rolulo kiu prezentas la 
-            publikan opinion a&ubreve; emocion:
-            <ekz>
-              <tld/>oj de nimfoj;
-            </ekz><ekz>
-              vi prenis sur vin la rolon de la antikva <tld/>o
-<fnt><aut>&Z;</aut> <lok>citita la&ubreve; PIV2, p. 455</lok></fnt>.
-            </ekz>
-          </dif>
-        </snc>
-        <trd lng="be">&c_h;&c_o;&c_r;</trd>
-        <trd lng="ca">cor<klr tip="ind"> (m&uacute;s)</klr></trd>
-        <trd lng="bg">&c_h;&c_o;&c_r;</trd>
-        <trd lng="de">Chor</trd>
-        <trdgrp lng="en">
-          <trd>choir</trd>,
-          <trd>chorus</trd>
-        </trdgrp>
-        <trd lng="es">coro</trd>
-        <trd lng="fi">kuoro</trd>
-        <trd lng="fr">ch&oelig;ur<klr tip="ind"> (troupe)</klr></trd>
-        <trd lng="he">&mem;<ind>&qof;&he;&lamed;</ind>&he;</trd>
-        <trd lng="hu">k&oacute;rus</trd>
-        <trd lng="id">koor</trd>
-        <trd lng="nl">koor</trd>
-        <trd lng="pl">ch&oacute;r</trd>
-        <trd lng="pt">coro<klr tip="amb"> (m&uacute;sica)</klr></trd>
-        <trd lng="ru">&c_h;&c_o;&c_r;</trd>
-        <trd lng="sv">k&ouml;r<klr tip="ind"> (mus.)</klr></trd>
-        <trd lng="it">coro</trd>
-        <trd lng="uk">&c_h;&#x43E;&c_r;</trd>
-</drv>
-
-      <drv mrk="hxor.0ajxo">
-        <kap><tld/>a&jcirc;o</kap>
-        <snc>
-        <uzo tip="fak">MUZ</uzo>
-          <dif>
-<ref tip="super" cel="muzik.0ajxo">Muzika&jcirc;o</ref> verkita 
-por esti kantata de <tld/>o.
-          </dif>
-        </snc>
-        <trd lng="be">&c_h;&c_a;&c_r;&c_a;&c_l;</trd>
-        <trd lng="ca">coral<klr tip="ind"> (composici&oacute;)</klr></trd>
-        <trd lng="de">Choral</trd>
-        <trdgrp lng="en">
-          <trd>choral</trd>,
-          <trd>carol</trd>
-        </trdgrp>
-        <trdgrp lng="fi">
-          <trd>kuoroteos</trd>,
-          <trd>kuoros&auml;vellys</trd>
-        </trdgrp>
-        <trd lng="fr">ch&oelig;ur<klr tip="ind"> 
-(pi&egrave;ce musicale)</klr></trd>
-        <trd lng="hu">k&oacute;rusm&udblac;</trd>
-        <trd lng="nl">koorlied</trd>
-        <trd lng="pl">ch&oacute;ra&lstroke;</trd>
-        <trd lng="pt">coro
-<klr tip="amb"> (composi&ccedil;&atilde;o musical)</klr></trd>
-         <trd lng="it">corale <klr tip="ind"> (componimento)</klr></trd>
-        <trd lng="uk">&c_h;&#x43E;&c_r;&#x43E;&c_v;&c_i;&c_j; &c_t;&c_v;&c_ib;&c_r;</trd>
-</drv>
-
-      <drv mrk="hxor.0ano">
-        <kap><tld/>ano</kap>
-        <snc>
-        <uzo tip="fak">MUZ</uzo>
-          <dif>
-<ref tip="super" cel="kant.0isto.profesio">Kantisto</ref>, kiu
-partoprenas en 
-<tld/>o.
-          </dif>
-          <refgrp tip="sin">
-            <ref cel="korus.0ano">korusano</ref>
-          </refgrp>
-        </snc>
-        <trd lng="be">&c_h;&c_a;&c_r;&c_y;&c_s;&c_t;</trd>
-        <trd lng="ca">corista</trd>
-        <trd lng="de">Chors&auml;nger</trd>
-        <trdgrp lng="en">
-          <trd>choir singer</trd>,
-          <trd>choirboy</trd>,
-          <trd>choirgirl</trd>
-        </trdgrp>
-        <trd lng="es">corista</trd>
-        <trd lng="fi">kuorolainen</trd>
-        <trdgrp lng="fr">
-          <trd>choriste</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>kar&eacute;nekes</trd>,
-          <trd>k&oacute;rustag</trd>,
-          <trd>k&oacute;rista</trd>
-        </trdgrp>
-        <trd lng="pl">ch&oacute;rzysta</trd>
-        <trd lng="pt">corista</trd>
-        <trdgrp lng="ru">
-          <trd>&c_h;&c_o;&c_r;&c_i;&c_s;&c_t;</trd>,
-          <trd>&c_p;&c_je;&c_v;&c_ch;&c_i;&c_j;
-<klr tip="amb"> (en pre&gcirc;ejo)</klr></trd>
-        </trdgrp>
-        <trd lng="sv">k&ouml;rs&aring;ngare</trd>
-        <trd lng="it">corista</trd>
-        <trd lng="uk">&c_h;&#x43E;&c_r;&c_i;&c_s;&c_t;</trd>
-</drv>
-
-      <drv mrk="hxor.0ejo">
-        <kap><tld/>ejo</kap>
-        <snc>
-        <uzo tip="fak">ARKI</uzo>
-        <uzo tip="fak">KRI</uzo>
-          <dif>
-Loko de <ref tip="malprt" cel="pregx.0ejo">pre&gcirc;ejo</ref> kie kantas 
-ordinare la pre&gcirc;eja <tld/>o.
-          </dif>
-        <rim>
-          PV, la&ubreve; la franca kutimo, lokas <tld/>ejon en la 
-          <ref cel="altar.0ejo">altarejon</ref> 
-          (<ctl>malanta&ubreve; la altaro</ctl>).  Tio ne &ccirc;iam 
-&gcirc;ustas e&ccirc; por la 
-          romkatolikaj kirkoj (kie la <tld/>ejo povas esti, ekz-e, en la
-          
-          mezo de la navo), kaj &ccirc;iam mal&gcirc;ustas por la 
-ortodoksaj kirkoj, kie la <tld/>ejo nepre estas ekster la altarejo 
-          (anta&ubreve; la ikonostazo kaj en okcidenta galerio).  Cetere, 
-<tld/>ejon povas havi anka&ubreve; senaltaraj pre&gcirc;ejoj (kapeloj).
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-        </snc>
-        <trd lng="be">&c_h;&c_o;&c_r;&c_y; <klr>(&c_g;&c_a;&c_l;&c_je;&c_r;&c_e;&c_ja; &c_c;&c_a;&c_r;&c_k;&c_v;&c_y;)</klr></trd>
-        <trd lng="ca">cor
-<klr tip="ind"> (d'una esgl&eacute;sia)</klr></trd>
-        <trd lng="de">Chor</trd>
-        <trdgrp lng="en">
-          <trd>choir loft</trd>
-        </trdgrp>
-        <trd lng="es">coro <klr>(lugar en una iglesia)</klr></trd>
-        <trd lng="fi">kuoron paikka <klr tip="amb">
-        (kirkossa)</klr></trd>
-        <trd lng="fr">ch&oelig;ur
-<klr tip="ind"> (d'une &eacute;glise)</klr></trd>
-        <trd lng="hu">k&oacute;rus
-<klr tip="ind"> (olt&aacute;r m&ouml;g&ouml;tt)</klr></trd>
-        <trd lng="nl">koor<klr tip="ind"> (deel v.kerk)</klr></trd>
-        <trd lng="pl">ch&oacute;r</trd>
-        <trd lng="pt">coro<klr tip="amb"> (galeria)</klr></trd>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_l;&c_i;&c_r;&c_o;&c_s;<klr tip="amb"> 
-(anta&ubreve;altareja)</klr></trd>;
-          <trd>&c_h;&c_o;&c_r;&c_y;<klr tip="amb"> (galerio)</klr></trd>
-        </trdgrp>
-<trd lng="it">coro
-<klr tip="ind"> (parte d'una chiesa)</klr></trd>
-        <trd lng="uk">&c_h;&#x43E;&c_r;&c_i;</trd>
-</drv>
-
-      <drv mrk="hxor.0estro">
-        <kap><tld/>estro</kap>
-        <snc>
-        <uzo tip="fak">MUZ</uzo>
-          <dif>
-<ref tip="super" cel="muzik.0isto">Muzikisto</ref>, kiu trejnas kaj
-gvidas 
-<tld/>on.
-          </dif>
-        </snc>
-        <trd lng="be">&c_h;&c_o;&c_r;&c_m;&c_a;&c_j;&c_s;&c_t;&c_a;&c_r;</trd>
-        <trdgrp lng="en">
-          <trd>choirmaster</trd>,
-          <trd>choir director</trd>
-        </trdgrp>
-        <trd lng="fi">kuoronjohtaja</trd>
-        <trdgrp lng="fr">
-          <trd>ma&icirc;tre de chapelle</trd>,
-          <trd>chef de ch&oelig;ur</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>koordirigent</trd>,
-          <trd>dirigent<klr tip="ind"> (v.koor)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>karnagy</trd>,
-          <trd>k&oacute;rusvezet&odblac;</trd>
-        </trdgrp>
-        <trd lng="de">Chorleiter</trd>
-        <trd lng="pl">dyrygent</trd>
-        <trd lng="pt">regente de <ind>coro</ind></trd>
-        <trdgrp lng="ru">
-          <trd>&c_h;&c_o;&c_r;&c_m;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>,
-          <trd>&c_r;&c_je;&c_g;&c_je;&c_n;&c_t;</trd>
-        </trdgrp>
-       <trdgrp lng="it">
-          <trd>direttore del coro</trd>,
-          <trd>maestro del coro</trd>,
-          <trd>maestro di cappella</trd>
-        </trdgrp>
-        <trdgrp lng="uk">
-    <trd>&c_h;&#x43E;&c_r;&#x43C;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>,
-    <trd>&c_r;&c_je;&c_gu;&c_je;&#x43D;&c_t;</trd>
+<drv mrk="hxor.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="hxor.0o.kantistaro">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Grupo da homoj, unusone a&ubreve; plurvo&ccirc;e kantantaj:
+      <ekz>
+        virina, knaba <tld/>o;
+      </ekz>
+      <ekz>
+        la miksita <tld/>o alkantadis a&ubreve; respondadis &ccirc;e la destinitaj lokoj
+        <fnt>
+          <bib>RBa</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la orgeno ludis, kaj la <tld/>o de la infanaj vo&ccirc;oj sonis milde kaj &ccirc;arme
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi starigis du grandajn <tld/>ojn kaj procesiojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ne&hcirc;emja 12:31</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ektondris ie alte, de sub la &ccirc;ielo, kvaza&ubreve; e&hcirc;o de an&gcirc;ela <tld/>o
+        <fnt>
+          <bib>Lasta</bib>
+          <lok>La Lasta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        neniam anta&ubreve;e &scirc;i a&ubreve;dis tian ravan <tld/>on de birdoj
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        senkura&gcirc;aj vo&ccirc;oj perdi&gcirc;as en la la&ubreve;tega <tld/>o de la kriistoj kaj mokistoj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        milvo&ccirc;a <tld/>o de susurantaj kaj trumpetantaj a&ubreve;toj kantadas sian himnon al la
+        veki&gcirc;o de nova tago
+        <fnt>
+          <bib>Tor</bib>
+          <lok>VI.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        membroj de mia <tld/>o
+        <fnt>
+          <aut>David Curtis</aut>
+          <vrk><url ref="&Monato;/2002/pdf/monato200201.pdf#page=28">Koratako</url></vrk>
+          <bib>Monato</bib>
+          <lok>2002/01, p. 28-34</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="korus.0o">koruso</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="hxor.0o.MUZverko">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <ref tip="dif" cel="hxor.0ajxo">&Hcirc;ora&jcirc;o</ref>:
+      <ekz>
+        sinjoro kapelestro, mi devas diri al vi, ke la <tld/>oj estis hodia&ubreve; ekstreme
+        malbonaj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Beethoven</nom> enigis &scirc;an&gcirc;on &ndash; en lia 9-a simfonio sonas <tld/>o
+        <fnt>
+          <bib>KFl</bib>
+          <lok>III. Atomoj de evoluo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <tld/>o de vo&ccirc;oj subtenis lian vortojn
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        &ccirc;iuj gratulas per brua <tld/>o
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="hxor.0o.TEA">
+    <uzo tip="fak">TEA</uzo>
+    <dif>
+      En la antikvaj teatra&jcirc;oj, kolektiva rolulo kiu prezentas la 
+      publikan opinion a&ubreve; emocion:
+      <ekz>
+        <tld/>oj de nimfoj;
+      </ekz>
+      <ekz>
+        <tld/>o de pastrinoj plenumis solenan dancon
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj estis necesa parto de la rolantaro en la klasikaj dramoj
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Du</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi prenis sur vin la rolon de la antikva <tld/>o
+        <fnt><aut>&Z;</aut> <lok>citita la&ubreve; PIV2, p. 455</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_h;&c_o;&c_r;</trd>
+  <trd lng="ca">cor<klr tip="ind"> (m&uacute;s)</klr></trd>
+  <trd lng="bg">&c_h;&c_o;&c_r;</trd>
+  <trd lng="de">Chor</trd>
+  <trdgrp lng="en">
+    <trd>choir</trd>,
+    <trd>chorus</trd>
   </trdgrp>
+  <trd lng="es">coro</trd>
+  <trd lng="fi">kuoro</trd>
+  <trd lng="fr">ch&oelig;ur<klr tip="ind"> (troupe)</klr></trd>
+  <trd lng="he">&mem;<ind>&qof;&he;&lamed;</ind>&he;</trd>
+  <trd lng="hu">k&oacute;rus</trd>
+  <trd lng="id">koor</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5408;&#x5531;&#x56E3;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;</pr></trd>,
+    <trd>&#x5408;&#x5531;&#x968A;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x5408;&#x5531;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x5408;&#x5531;&#x66F2;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x304D;&#x3087;&#x304F;</pr></trd>,
+    <trd>&#x30B3;&#x30ED;&#x30B9;</trd>
+  </trdgrp>
+  <trd lng="nl">koor</trd>
+  <trd lng="pl">ch&oacute;r</trd>
+  <trd lng="pt">coro<klr tip="amb"> (m&uacute;sica)</klr></trd>
+  <trd lng="ru">&c_h;&c_o;&c_r;</trd>
+  <trd lng="sv">k&ouml;r<klr tip="ind"> (mus.)</klr></trd>
+  <trd lng="it">coro</trd>
+  <trd lng="uk">&c_h;&c_o;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5408;&#x5531;&#x56E2; <pr>h&#xE9;ch&#xE0;ngtu&#xE1;n</pr></trd>,
+    <trd>&#x5408;&#x5531; <pr>h&#xE9;ch&#xE0;ng</pr></trd>,
+    <trd>&#x5531;&#x8A69;&#x73ED; <pr>ch&#xE0;ngsh&#x12B;b&#x101;n</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="hxor.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="hxor.0ajxo.MUZ">
+  <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <ref tip="super" cel="muzik.0ajxo">Muzika&jcirc;o</ref> verkita 
+      por esti kantata de <tld/>o.
+    </dif>
+    <ref tip="sub" cel="hxoral.0o">&hcirc;oralo</ref>
+  </snc>
+  <trd lng="be">&c_h;&c_a;&c_r;&c_a;&c_l;</trd>
+  <trd lng="ca">coral<klr tip="ind"> (composici&oacute;)</klr></trd>
+  <trd lng="de">Choral</trd>
+  <trdgrp lng="en">
+    <trd>choral</trd>,
+    <trd>carol</trd>
+  </trdgrp>
+  <trdgrp lng="fi">
+    <trd>kuoroteos</trd>,
+    <trd>kuoros&auml;vellys</trd>
+  </trdgrp>
+  <trd lng="fr">ch&oelig;ur<klr tip="ind"> 
+    (pi&egrave;ce musicale)</klr></trd>
+  <trd lng="hu">k&oacute;rusm&udblac;</trd>
+  <trd lng="ja">&#x5408;&#x5531;&#x66F2;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x304D;&#x3087;&#x304F;</pr></trd>
+  <trd lng="nl">koorlied</trd>
+  <trd lng="pl">ch&oacute;ra&lstroke;</trd>
+  <trd lng="pt">coro
+    <klr tip="amb"> (composi&ccedil;&atilde;o musical)</klr></trd>
+   <trd lng="it">corale <klr tip="ind"> (componimento)</klr></trd>
+  <trd lng="uk">&c_h;&c_o;&c_r;&c_o;&c_v;&c_i;&c_j; &c_t;&c_v;&c_ib;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x980C;&#x6B4C; <pr>s&#xF2;ngg&#x113;</pr></trd>,
+    <trd>&#x4F17;&#x8D5E;&#x6B4C; <pr>zh&#xF2;ngz&#xE0;ng&#x113;</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="hxor.0ano">
+  <kap><tld/>ano</kap>
+  <snc>
+  <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <ref tip="super" cel="kant.0isto.profesio">Kantisto</ref>, kiu
+      partoprenas en <tld/>o:
+      <ekz>
+        la direktanto, alestante &ccirc;e la provo de la <tld/>anoj, diras: &mdash; vi kriegis
+        hiera&ubreve; kiel brutaro
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="korus.0ano">korusano</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_h;&c_a;&c_r;&c_y;&c_s;&c_t;</trd>
+  <trd lng="ca">corista</trd>
+  <trd lng="de">Chors&auml;nger</trd>
+  <trdgrp lng="en">
+    <trd>choir singer</trd>,
+    <trd>choirboy</trd>,
+    <trd>choirgirl</trd>
+  </trdgrp>
+  <trd lng="es">corista</trd>
+  <trd lng="fi">kuorolainen</trd>
+  <trdgrp lng="fr">
+    <trd>choriste</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>kar&eacute;nekes</trd>,
+    <trd>k&oacute;rustag</trd>,
+    <trd>k&oacute;rista</trd>
+  </trdgrp>
+  <trd lng="pl">ch&oacute;rzysta</trd>
+  <trd lng="pt">corista</trd>
+  <trdgrp lng="ru">
+    <trd>&c_h;&c_o;&c_r;&c_i;&c_s;&c_t;</trd>,
+    <trd>&c_p;&c_je;&c_v;&c_ch;&c_i;&c_j;
+    <klr tip="amb"> (en pre&gcirc;ejo)</klr></trd>
+  </trdgrp>
+  <trd lng="sv">k&ouml;rs&aring;ngare</trd>
+  <trd lng="it">corista</trd>
+  <trd lng="uk">&c_h;&c_o;&c_r;&c_i;&c_s;&c_t;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6B4C;&#x5531;&#x5BB6; <pr>g&#x113;ch&#xE0;ngji&#x101;</pr></trd>,
+    <trd>&#x6B4C;&#x624B; <pr>g&#x113;sh&#x1D2;u</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="hxor.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="hxor.0ejo.ARKI">
+    <uzo tip="fak">ARKI</uzo>
+    <uzo tip="fak">KRI</uzo>
+    <dif>
+      Loko de <ref tip="malprt" cel="pregx.0ejo">pre&gcirc;ejo</ref> kie kantas 
+      ordinare la pre&gcirc;eja <tld/>o:
+      <ekz>
+        trans la sojlon de la pre&gcirc;ejo &scirc;i eniris al la <tld/>ejo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        restis nur en la <tld/>ejo la paro&hcirc;estro, kiu sin senvestigis kaj la filo de
+        Valentino, kiu da&ubreve;rigis sian nevekeblan dormadon
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>ejo, &scirc;tuparoj, partero, amfiteatro, muroj, &ccirc;io, kio estis kun mi, super
+        mi kaj sub mi, &ccirc;io ektondris en potenca kriego
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en malnovaj kasteloj oni starigis sur <tld/>ejo orgenon
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro II.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      <fnt><bib>PV</bib></fnt>, la&ubreve; la franca kutimo, lokas <tld/>ejon en la 
+      <ref cel="altar.0ejo">altarejon</ref> (<ctl>malanta&ubreve; la altaro</ctl>).  
+      Tio ne &ccirc;iam &gcirc;ustas e&ccirc; por la romkatolikaj kirkoj (kie la <tld/>ejo 
+      povas esti, ekz-e, en la mezo de la navo), kaj &ccirc;iam mal&gcirc;ustas por la 
+      ortodoksaj kirkoj, kie la <tld/>ejo nepre estas ekster la altarejo 
+      (anta&ubreve; la ikonostazo kaj en okcidenta galerio).  Cetere, 
+      <tld/>ejon povas havi anka&ubreve; senaltaraj pre&gcirc;ejoj (kapeloj).
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+    </snc>
+    <trd lng="be">&c_h;&c_o;&c_r;&c_y; <klr>(&c_g;&c_a;&c_l;&c_je;&c_r;&c_e;&c_ja; &c_c;&c_a;&c_r;&c_k;&c_v;&c_y;)</klr></trd>
+    <trd lng="ca">cor
+      <klr tip="ind"> (d'una esgl&eacute;sia)</klr></trd>
+    <trd lng="de">Chor</trd>
+    <trdgrp lng="en">
+      <trd>choir loft</trd>
+    </trdgrp>
+    <trd lng="es">coro <klr>(lugar en una iglesia)</klr></trd>
+    <trd lng="fi">kuoron paikka <klr tip="amb">
+    (kirkossa)</klr></trd>
+    <trd lng="fr">ch&oelig;ur
+      <klr tip="ind"> (d'une &eacute;glise)</klr></trd>
+    <trd lng="hu">k&oacute;rus
+      <klr tip="ind"> (olt&aacute;r m&ouml;g&ouml;tt)</klr></trd>
+    <trd lng="ja">&#x8056;&#x6B4C;&#x968A;&#x5E2D;  <pr>&#x305B;&#x3044;&#x304B;&#x305F;&#x3044;&#x305B;&#x304D;</pr></trd>
+  <trd lng="nl">koor<klr tip="ind"> (deel v.kerk)</klr></trd>
+    <trd lng="pl">ch&oacute;r</trd>
+    <trd lng="pt">coro<klr tip="amb"> (galeria)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_l;&c_i;&c_r;&c_o;&c_s;<klr tip="amb"> 
+        (anta&ubreve;altareja)</klr></trd>;
+      <trd>&c_h;&c_o;&c_r;&c_y;<klr tip="amb"> (galerio)</klr></trd>
+    </trdgrp>
+    <trd lng="it">coro
+      <klr tip="ind"> (parte d'una chiesa)</klr></trd>
+    <trd lng="uk">&c_h;&c_o;&c_r;&c_i;</trd>
+</drv>
+
+<drv mrk="hxor.0estro">
+  <kap><tld/>estro
+    <fnt><bib>MT</bib> <lok>Psalmaro 4</lok></fnt>
+  </kap>
+  <snc>
+  <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <ref tip="super" cel="muzik.0isto">Muzikisto</ref>, kiu trejnas kaj
+      gvidas <tld/>on:
+      <ekz>
+        citristoj kaj atenaj kantistoj atendis la signon de sia <tld/>estro
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LXXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malsanis la <tld/>estro, kaj la ekzercado ne okazis
+        <fnt>
+          <bib>ChB</bib>
+          <lok>23</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_h;&c_o;&c_r;&c_m;&c_a;&c_j;&c_s;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="en">
+    <trd>choirmaster</trd>,
+    <trd>choir director</trd>
+  </trdgrp>
+  <trd lng="fi">kuoronjohtaja</trd>
+  <trdgrp lng="fr">
+    <trd>ma&icirc;tre de chapelle</trd>,
+    <trd>chef de ch&oelig;ur</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5408;&#x5531;&#x56E3;&#x9577;  <pr>&#x304C;&#x3063;&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x8056;&#x6B4C;&#x968A;&#x6307;&#x63EE;&#x8005;  <pr>&#x305B;&#x3044;&#x304B;&#x305F;&#x3044;&#x3057;&#x304D;&#x3057;&#x3083;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>koordirigent</trd>,
+    <trd>dirigent<klr tip="ind"> (v.koor)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>karnagy</trd>,
+    <trd>k&oacute;rusvezet&odblac;</trd>
+  </trdgrp>
+  <trd lng="de">Chorleiter</trd>
+  <trd lng="pl">dyrygent</trd>
+  <trd lng="pt">regente de <ind>coro</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_h;&c_o;&c_r;&c_m;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>,
+    <trd>&c_r;&c_je;&c_g;&c_je;&c_n;&c_t;</trd>
+  </trdgrp>
+ <trdgrp lng="it">
+    <trd>direttore del coro</trd>,
+    <trd>maestro del coro</trd>,
+    <trd>maestro di cappella</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_h;&c_o;&c_r;&c_m;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>,
+    <trd>&c_r;&c_je;&c_gu;&c_je;&c_n;&c_t;</trd>
+  </trdgrp>
+  <trd lng="zh">&#x9818;&#x5531; <pr>l&#x1D0;ngch&#xE0;ng</pr></trd>
 </drv>
     </art>
     <!--
     $Log$
+versio 1.50 2023/10/17 16:45:07
+revo: transskribo per <pr>
+
+versio 1.48 2023/05/14 12:41:15
+Paul Peeraerts: + aut + lok + url
+
+versio 1.47 2023/03/19 13:28:53
+Wolfram Diestel: ~ano..~estro: +ekz-oj
+
+versio 1.46 2023/03/18 20:25:33
+Wolfram Diestel: ~o: +ekz-oj
+
 versio 1.45 2022/09/22 08:43:14
 Dmitri Gabinski: + trd be
 
@@ -251,17 +441,5 @@ Dmitri Gabinski: + trd be
     Dmitri Gabinski: redakto: +trd be
 
     Revision 1.40  2013/02/05 16:10:12  revo
-    Dmitri Gabinski: redakto: +trd be
-
-    Revision 1.39  2012/03/25 19:10:09  revo
-    Wieland Pusch: +trd bg
-
-    Revision 1.38  2012/03/25 18:10:08  revo
-    Alejandro Mejia Greene: ald his trd
-
-    Revision 1.37  2011/09/03 22:10:12  revo
-    Carlos Garcia: +trd es
-
-    Revision 1.36  2009/02/22 17:30:51  revo
 -->
 </vortaro>

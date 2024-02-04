@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mandar.xml,v 1.18 2022/10/30 08:35:58 revo Exp $">
+<art mrk="$Id: mandar.xml,v 1.21 2024/01/25 20:10:34 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>mandaren</rad>/o <fnt><bib>PV</bib></fnt>,
@@ -35,7 +35,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;irka&ubreve; 300&#8239;000&#8239;000 el ili parolas la lingvon <tld var="i" lit="M"/>an, &ccirc;iuj <tld var="i"/>oj devas
+        &ccirc;irka&ubreve; 300&#x202F;000&#x202F;000 el ili parolas la lingvon <tld var="i" lit="M"/>an, &ccirc;iuj <tld var="i"/>oj devas
         koni tiun &ccirc;i lingvon, kaj &ccirc;iuj, kiuj &gcirc;in ankora&ubreve; ne parolas, devas &gcirc;in lerni
         <fnt>
           <bib>FK</bib>
@@ -63,15 +63,23 @@
   <trd lng="es">mandar&iacute;n</trd>
   <trd lng="fr">mandarin</trd>
   <trd lng="hu">mandarin<klr tip="ind"> (hivatalnok)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x30DE;&#x30F3;&#x30C0;&#x30EA;&#x30F3;</trd>,
+    <trd>&#x30DF;&#x30AB;&#x30F3;  <pr>&#x307F;&#x304B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">mandarijn<klr tip="ind"> (Chinees ambtenaar)</klr></trd>
   <trd lng="pl">mandaryn</trd>
   <trd lng="ru">&c_m;&c_a;&c_n;&c_d;&c_a;&c_r;&c_i;&c_n; <klr tip="amb">(&c_k;&c_i;&c_t;&c_a;&c_j;&c_s;&c_k;&c_i;&c_j; &c_v;&c_je;&c_l;&c_mol;&c_m;&c_o;&c_zh;&c_a;)</klr></trd>
   <trd lng="sk">mandar&iacute;n</trd>
   <trd lng="uk">&c_m;&c_a;&c_n;&c_d;&c_a;&c_r;&c_i;&c_n;</trd>
+  <trd lng="zh">&#x6587;&#x5B98; <pr>w&#xE9;ngu&#x101;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
 versio 1.18 2022/10/30 08:35:58
 Wolfram Diestel: +var FK, ref, ekz-oj
 
@@ -91,8 +99,5 @@ Revision 1.11  2003/05/14 16:30:53  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10  2003/01/04 17:32:36  revo
-Viliam Bur: +trd sk
-
-Revision 1.9  2002/08/28 17:31:47  revo
 -->
 </vortaro>

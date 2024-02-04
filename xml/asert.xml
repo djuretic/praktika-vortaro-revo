@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: asert.xml,v 1.25 2022/03/16 18:34:11 revo Exp $">
+<art mrk="$Id: asert.xml,v 1.28 2023/10/13 17:08:38 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>asert</rad>/i
@@ -75,16 +75,24 @@
   <trd lng="en">assert</trd>
   <trd lng="es">afirmar</trd>
   <trd lng="fr">affirmer</trd>
-  <trd lng="he">&lamed;&#1460;&tet;&ayin;&vav;&#1465;&fnun;</trd>
+  <trd lng="he">&lamed;&#x5B4;&tet;&ayin;&vav;&#x5B9;&fnun;</trd>
   <trd lng="hu">&aacute;ll&iacute;t</trd>
   <trdgrp lng="it">
     <trd>affermare</trd>,
     <trd>asserire</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x65AD;&#x8A00;&#x3059;&#x308B;  <pr>&#x3060;&#x3093;&#x3052;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x4E3B;&#x5F35;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3061;&#x3087;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">beweren</trd>
   <trdgrp lng="pl">
   <trd>twierdzi&cacute;</trd>,
   <trd>utrzymywa&cacute; <klr>(&zdot;e)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>afirma</trd>,
+    <trd>asigura</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_u;&c_v;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>,
@@ -119,7 +127,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la&ubreve; ilia <tld/>o mirigis ilin, <klr>[&#8230;]</klr> ke ili facile komprenis la lingvon
+        la&ubreve; ilia <tld/>o mirigis ilin, <klr>[&#x2026;]</klr> ke ili facile komprenis la lingvon
         <fnt>
           <bib>Fab2</bib>
           <lok>Monteto de elfoj</lok>
@@ -156,7 +164,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la nova kuracisto <klr>[&#8230;]</klr> jesigis la <tld/>on de <nom>Bazarov</nom>, ke neniu dan&gcirc;ero
+        la nova kuracisto <klr>[&#x2026;]</klr> jesigis la <tld/>on de <nom>Bazarov</nom>, ke neniu dan&gcirc;ero
         minacas
         <fnt>
           <bib>PatrojFiloj</bib>
@@ -199,17 +207,27 @@
     <trd>assertion</trd>,
     <trd>affirmation</trd>
   </trdgrp>
-  <trd lng="he">&tet;&#1463;&ayin;&#1458;&nun;&#1464;&he;</trd>
+  <trd lng="he">&tet;&#x5B7;&ayin;&#x5B2;&nun;&#x5B8;&he;</trd>
   <trd lng="hu">&aacute;ll&iacute;t&aacute;s</trd>
   <trdgrp lng="it">
     <trd>affermazione</trd>,
     <trd>asserzione</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4E3B;&#x5F35;  <pr>&#x3057;&#x3085;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x65AD;&#x8A00;  <pr>&#x3060;&#x3093;&#x3052;&#x3093;</pr></trd>
   </trdgrp>
   <trd lng="nl">bewering</trd>
   <trdgrp lng="pl">
     <trd>twierdzenie</trd>,
     <trd>zapewnienie</trd>,
     <trd>asercja</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>teorem&abreve;</trd>,
+    <trd>declara&#x21B;ie</trd>,
+    <trd>asigurarea</trd>,
+    <trd>afirma&#x21B;ie</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>,
@@ -229,6 +247,12 @@
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.26 2023/02/04 22:28:12
+Vito Redsky: +trd pl + trd ro
+
 versio 1.25 2022/03/16 18:34:11
 Wolfram Diestel: ekz-oj, ref-oj, trd de
 
@@ -245,11 +269,5 @@ Revision 1.18  2015/06/12 18:10:12  revo
 Joop Eggen: +trd bg nl
 
 Revision 1.17  2013/04/10 11:10:15  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.16  2012/02/01 01:10:35  revo
-Antonio Codazzi: +trd it
-
-Revision 1.15  2005/12/06 17:33:15  revo
 -->
 </vortaro>

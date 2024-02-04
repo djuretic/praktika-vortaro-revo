@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kajer.xml,v 1.28 2022/03/21 17:51:56 revo Exp $">
+<art mrk="$Id: kajer.xml,v 1.33 2023/12/02 21:20:04 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>kajer</rad>/o
@@ -96,8 +96,10 @@
           <klr>[la]</klr> proverboj en la lingvoj rusa, pola, franca, germana
           <klr>[&#x2026;]</klr> komencis aperi <ind>po<tld/>e</ind> en 1905
           <fnt>
+            <aut>Pejno Simono</aut>
+            <vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
             <bib>Monato</bib>
-            <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Venas proverbo el popola la cerbo</url></vrk>
+          <lok>2000/06, p. 33-34</lok>
           </fnt>;
           <trd lng="de">heftweise</trd>
         </ekz>
@@ -107,7 +109,7 @@
           fakprogramoj en <ind>krom<tld/>o</ind>j
           <fnt>
             <bib>LOdE</bib>
-            <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">10a konferenco de GIL</url></vrk>
+            <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">10a konferenco de GIL</url></vrk>
           </fnt>.
           <trd lng="de">Beilage <klr>(Heft)</klr></trd>
         </ekz>
@@ -135,13 +137,18 @@
   <trd lng="fr">cahier</trd>
   <trd lng="he">&het;&vav;&bet;&resh;&tav;</trd>
   <trd lng="hu">f&udblac;zet</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30CE;&#x30FC;&#x30C8;  <pr>&#x306E;&#x30FC;&#x3068;</pr></trd>,
+    <trd>&#x5E33;&#x9762;  <pr>&#x3061;&#x3087;&#x3046;&#x3081;&#x3093;</pr></trd>,
+    <trd>&#x5206;&#x518A;  <pr>&#x3076;&#x3093;&#x3055;&#x3064;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>zeszyt</trd>,
     <trd>kajet</trd>
   </trdgrp>
   <trd lng="pt">caderno</trd>
   <trdgrp lng="ro">
-    <trd>carne&tcedil;el</trd>,
+    <trd>carne&#x21B;el</trd>,
      <trd>caiet</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_t;&c_r;&c_a;&c_d;&c_mol;</trd>
@@ -152,13 +159,28 @@
   <trd lng="sv">h&auml;fte</trd>
   <trd lng="tr">defter</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x43E;&#x448;&#x438;&#x442;</trd>,
-    <trd>&#x432;&#x438;&#x43F;&#x443;&#x441;&#x43A; (&#x447;&#x430;&#x441;&#x442;&#x438;&#x43D;&#x430; &#x442;&#x432;&#x43E;&#x440;&#x443;)</trd>
+    <trd>&c_z;&#x43E;&c_sh;&c_i;&c_t;</trd>,
+    <trd>&c_v;&c_i;&#x43F;&c_u;&c_s;&#x43A; (&c_ch;&c_a;&c_s;&c_t;&c_i;&#x43D;&c_a; &c_t;&c_v;&#x43E;&c_r;&c_u;)</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x672C;&#x5B50; <pr>b&#x11B;nzi</pr></trd>,
+    <trd>&#x7C3F; <pr>b&#xF9;</pr></trd>,
+    <trd>&#x7B14;&#x8BB0;&#x672C; <pr>b&#x1D0;j&#xEC;b&#x11B;n</pr></trd>,
+    <trd>&#x5C0F;&#x518A;&#x5B50; <pr>xi&#x1CE;oc&#xE8;zi</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
+versio 1.30 2023/05/16 08:30:12
+Paul Peeraerts: + lok, bib, aut ...
+
+versio 1.29 2023/05/04 16:53:13
+revo: aktualigo URL-unuoj
+
 versio 1.27 2021/06/07 20:07:00
 Wolfram Diestel: ekz-oj, + ...de revuo, ref-oj, trd de
 
@@ -172,14 +194,5 @@ Revision 1.23  2012/02/01 19:10:08  revo
 Cristian Vincenzini: Aldono de hispana traduko
 
 Revision 1.22  2009/08/25 16:32:19  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.21  2009/08/23 16:32:17  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.20  2008/01/04 17:30:19  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
-
-Revision 1.19  2007/07/11 16:31:23  revo
 -->
 </vortaro>

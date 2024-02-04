@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mark.xml,v 1.121 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: mark.xml,v 1.130 2024/01/25 20:10:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mark</rad>/o
@@ -55,12 +55,13 @@
     <trdgrp lng="fr">
       <trd>marque</trd>
       <trd>rep&egrave;re</trd>
-    </trdgrp>    
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>jegy</trd>,
       <trd>m&aacute;rka</trd>
     </trdgrp>
-    <trd lng="nl">merkteken</trd> 
+    <trd lng="id">tanda</trd>
+    <trd lng="nl">merkteken</trd>
     <trd lng="pt">marca</trd>
     <trdgrp lng="ru">
       <trd>&c_m;&c_a;&c_r;&c_k;&c_a;</trd>,
@@ -75,10 +76,12 @@
         en la 18a jarcento, kiam ankora&ubreve; ne ekzistis glueblaj <tld/>oj, ekfloris la
         &leftquot;kulturo de la stampoj&rightquot;
         <fnt>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2000/007065.php">VIPE 2000, a&ubreve; &ccirc;u la po&scirc;tmarkoj
+          malaperos?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007065.html">Filatelo: VIPE 2000, a&ubreve; &ccirc;u
-          la po&scirc;tmarkoj malaperos?</url></vrk>
-        </fnt>;
+          <lok>2000/09, p. 18</lok>
+          </fnt>;
       </ekz>
       <ekz>
         la a&ubreve;stra po&scirc;to eldonis po&scirc;t<tld/>blokon el kvar <tld/>oj
@@ -99,7 +102,11 @@
     </trdgrp>
     <trd lng="hu">b&eacute;lyeg</trd>
     <trd lng="nl">zegel</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x724C;&#x53F7; <pr>p&#xE1;ih&#xE0;o</pr></trd>,
+    <trd>&#x724C;&#x865F; <pr>p&#xE1;ih&#xE0;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="mark.0o.produkto">
     <uzo tip="fak">EKON</uzo>
     <dif>
@@ -108,19 +115,20 @@
       <ekz>
         fumanto pagas po 3,7 pundojn por paketo de popularaj <tld/>oj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Laimius Straznickas</aut>
-          <vrk><url ref="&Steloj;monato2/006830.html">Litovio &dash; Britio:
-          Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<aut>Laimius Stra&zcaron;nickas</aut>
+	<vrk><url ref="&Monato;/2000/006830.php">Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 13</lok>
         </fnt>;
       </ekz>
       <ekz>
         la raketo &dash; <tld/>o &leftquot;<nom>to&ccirc;ka</nom>&rightquot; &dash; trafis ja sian celon &ccirc;e ekzercejo
         <fnt>
-          <bib>Monato</bib>
           <aut>Araneo</aut>
-          <vrk><url ref="&Steloj;monato2/007026.html">Mis-ilo</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007026.php">Mis-ilo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 12</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <klr>[la]</klr> entreprenoj <klr>[&#x2026;]</klr> produktas kaj vendas varojn kun fama
@@ -134,7 +142,16 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_g;&c_a;&c_n;&c_d;&c_l;&c_jo;&c_v;&c_a;&c_ja; <ind>&c_m;&c_a;&c_r;&c_k;&c_a;</ind></trd>,
+      <trd>&c_t;&c_a;&c_v;&c_a;&c_r;&c_n;&c_y; <ind>&c_z;&c_n;&c_a;&c_k;</ind></trd>
+    </trdgrp>
     <trd lng="de">Marke</trd>
+  <trdgrp lng="id">
+    <trd>merek</trd>,
+    <trd>cap</trd>,
+    <trd>jenama</trd>
+  </trdgrp>
   </snc>
   <rim mrk="mark.0o.RIM_HOM">
     <ref tip="hom" cel="mark1.0o">Marko</ref> estas anka&ubreve;
@@ -198,13 +215,13 @@
     <trd>etykieta</trd>,
     <trd>marka</trd>,
     <trd>znak</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ps">&a_n;&#x69A;&a_h;</trd>
   <trdgrp lng="ro">
     <trd>etichet&abreve;</trd>,
     <trd>marc&abreve;</trd>,
     <trd>semn</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ru">&c_m;&c_a;&c_r;&c_k;&c_a;</trd>
   <trd lng="rw">akamenyetso</trd>
   <trd lng="sd">&a_n;&a_sh;&a_A;&a_n;</trd>
@@ -242,6 +259,16 @@
   <trd lng="xh">uphawu</trd>
   <trd lng="yi">&#x5E6;&#x5D9;&#x5D9;&#x5DB;&#x5DF;</trd>
   <trd lng="yo">aami</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6807; <pr>bi&#x101;o</pr></trd>,
+    <trd>&#x6A19; <pr>bi&#x101;o</pr></trd>,
+    <trd>&#x6807;&#x8BB0; <pr>bi&#x101;oj&#xEC;</pr></trd>,
+    <trd>&#x6A19;&#x8A18; <pr>bi&#x101;oj&#xEC;</pr></trd>,
+    <trd>&#x70D9;&#x5370; <pr>l&#xE0;oy&#xEC;n</pr></trd>,
+    <trd>&#x7622; <pr>b&#x101;n</pr></trd>,
+    <trd>&#x5FD7; <pr>zh&#xEC;</pr></trd>,
+    <trd>&#x8A8C; <pr>zh&#xEC;</pr></trd>
+  </trdgrp>
   <trd lng="zu">uphawu</trd>
 </drv>
 
@@ -268,10 +295,10 @@
       <ekz>
         reto de <tld/>itaj <klr>[&#x2026;]</klr> montbiciklaj vojoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007151.html">900 km tra montbicikla
-          paradizo</url></vrk>
+          <vrk><url ref="&Monato;/2000/007151.php">900 km tra montbicikla paradizo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/12, p. 20</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -358,6 +385,11 @@
     <trd>megjel&ouml;l</trd>,
     <trd>kijel&ouml;l</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>tanda</baz>menandai</trd>,
+    <trd><baz>tanda</baz>menandakan</trd>
+  </trdgrp>
+  <trd lng="ja">&#x5370;&#x3092;&#x3064;&#x3051;&#x308B;  <pr>&#x3044;&#x3093;&#x3092;&#x3064;&#x3051;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>aanduiden</trd>,
     <trd>aanstrepen</trd>
@@ -385,10 +417,20 @@
     <trd>zna&ccaron;kova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x456;&#x442;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x438; &#x43A;&#x43B;&#x435;&#x439;&#x43C;&#x43E;</trd>,
-    <trd>&#x43C;&#x430;&#x440;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43C;&c_ib;&c_t;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_z;&#x43D;&c_a;&c_ch;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_i; &#x43A;&#x43B;&c_je;&c_j;&#x43C;&#x43E;</trd>,
+    <trd>&#x43C;&c_a;&c_r;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6807; <pr>bi&#x101;o</pr></trd>,
+    <trd>&#x6A19; <pr>bi&#x101;o</pr></trd>,
+    <trd>&#x5212;&#x4E0B; <pr>hu&#xE0;xi&#xE0;</pr></trd>,
+    <trd>&#x5283;&#x4E0B; <pr>hu&#xE0;xi&#xE0;</pr></trd>,
+    <trd>&#x6253;&#x9264; <pr>d&#x1CE;g&#x14D;u</pr></trd>,
+    <trd>&#x6253;&#x94A9; <pr>d&#x1CE;g&#x14D;u</pr></trd>,
+    <trd>&#x6807;&#x660E; <pr>bi&#x101;om&#xED;ng</pr></trd>,
+    <trd>&#x6A19;&#x660E; <pr>bi&#x101;om&#xED;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -444,13 +486,19 @@
   <trd lng="fr">marquer au fer</trd>
   <trd lng="hu">megb&eacute;lyegez<klr tip="ind">
   (billoggal)</klr></trd>
+  <trd lng="ja">&#x713C;&#x304D;&#x5370;&#x3092;&#x62BC;&#x3059;  <pr>&#x3084;&#x304D;&#x3044;&#x3093;&#x3092;&#x304A;&#x3059;</pr></trd>
   <trd lng="nl">brandmerken</trd>
   <trd lng="pl">pi&eogonek;tnowa&cacute; rozpalonym &zdot;elazem</trd>
   <trd lng="pt">marcar a fogo</trd>
   <trd lng="ro">marca cu fier fierbinte</trd>
   <trd lng="ru">&c_k;&c_l;&c_je;&c_j;&c_m;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">vyp&aacute;li&tcaron; zna&ccaron;ku</trd>
-  <trd lng="uk">&#x442;&#x430;&#x432;&#x440;&#x443;&#x432;&#x430;&#x442;&#x438;&#xA0;(&#x445;&#x443;&#x434;&#x43E;&#x431;&#x443; &#x456; &#x442;.&#x43F;.)</trd>
+  <trd lng="uk">&c_t;&c_a;&c_v;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;&#xA0;(&c_h;&c_u;&c_d;&#x43E;&c_b;&c_u; &c_ib; &c_t;.&#x43F;.)</trd>
+  <trdgrp lng="zh">
+    <trd>&#x70D9;&#x5370; <pr>l&#xE0;oy&#xEC;n</pr></trd>,
+    <trd>&#x5382;&#x724C; <pr>ch&#x1CE;ngp&#xE1;i</pr></trd>,
+    <trd>&#x5EE0;&#x724C; <pr>ch&#x1CE;ngp&#xE1;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mark.brul0o">
@@ -486,6 +534,7 @@
     <trd>&c_t;&c_a;&c_v;&c_r;&c_o;</trd>
   </trdgrp>
   <trd lng="sk">vyp&aacute;len&aacute; zna&ccaron;ka</trd>
+  <trd lng="zh">&#x70D9;&#x5370; <pr>l&#xE0;oy&#xEC;n</pr></trd>
 </drv>
 
 <drv mrk="mark.glu0o">
@@ -524,6 +573,11 @@
   </trdgrp>
   <trd lng="es">pegatina</trd>
   <trd lng="fr">autocollant</trd>
+  <trd lng="id">stiker</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30C6;&#x30C3;&#x30AB;&#x30FC;</trd>,
+    <trd>&#x30B7;&#x30FC;&#x30EB;  <pr>&#x3057;&#x30FC;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>naklejka</trd>
     <trd>nalepka</trd>
@@ -532,7 +586,23 @@
     <trd>autocolant</trd>
     <trd>viniet&abreve;</trd>
   </trdgrp>
-  <trd lng="uk">&#x43D;&#x430;&#x43A;&#x43B;&#x435;&#x439;&#x43A;&#x430;</trd>
+  <trd lng="uk">&#x43D;&c_a;&#x43A;&#x43B;&c_je;&c_j;&#x43A;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62DB;&#x724C;&#x7D19; <pr>zh&#x101;op&#xE1;izh&#x1D0;</pr></trd>,
+    <trd>&#x62DB;&#x724C;&#x7EB8; <pr>zh&#x101;op&#xE1;izh&#x1D0;</pr></trd>,
+    <trd>&#x8CBC;&#x7D19; <pr>ti&#x113;zh&#x1D0;</pr></trd>,
+    <trd>&#x8D34;&#x7EB8; <pr>ti&#x113;zh&#x1D0;</pr></trd>,
+    <trd>&#x5373;&#x65F6;&#x8D34; <pr>j&#xED;sh&#xED;ti&#x113;</pr></trd>,
+    <trd>&#x5373;&#x6642;&#x8CBC; <pr>j&#xED;sh&#xED;ti&#x113;</pr></trd>,
+    <trd>&#x5E26;&#x4E0D;&#x5E72;&#x80F6;&#x7684;&#x4FBF;&#x6761; <pr>d&#xE0;ib&#xF9;g&#x101;nji&#x101;odebi&#xE0;nti&#xE1;o</pr></trd>,
+    <trd>&#x5E36;&#x4E0D;&#x5E72;&#x81A0;&#x7684;&#x4FBF;&#x689D; <pr>d&#xE0;ib&#xF9;g&#x101;nji&#x101;odebi&#xE0;nti&#xE1;o</pr></trd>,
+    <trd>&#x6807;&#x8D34; <pr>bi&#x101;oti&#x113;</pr></trd>,
+    <trd>&#x6A19;&#x8CBC; <pr>bi&#x101;oti&#x113;</pr></trd>,
+    <trd>&#x80F6;&#x7EB8; <pr>ji&#x101;ozh&#x1D0;</pr></trd>,
+    <trd>&#x81A0;&#x7D19; <pr>ji&#x101;ozh&#x1D0;</pr></trd>,
+    <trd>&#x6807;&#x7B7E; <pr>bi&#x101;oqi&#x101;n</pr></trd>,
+    <trd>&#x6A19;&#x7C3D; <pr>bi&#x101;oqi&#x101;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mark.posxt0o">
@@ -549,26 +619,30 @@
       <ekz>
         unu&scirc;ilinga a&ubreve;stria po&scirc;t<tld/>o, eldonita en 1947
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007060.html">Latino: Utilo a&ubreve;
-          malutilo?</url></vrk>
-        </fnt>;
+          <aut>Walter Klag</aut>
+            <vrk><url ref="&Monato;/2001/007060.php">Utilo a&ubreve; malutilo?</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/01, p. 23</lok>
+          </fnt>;
       </ekz>
       <ekz>
         20-gro&scirc;a Esperanto-po&scirc;t<tld/>o
         <fnt>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2000/007065.php">VIPE 2000, a&ubreve; &ccirc;u la po&scirc;tmarkoj
+          malaperos?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007065.html">Filatelo: VIPE 2000, a&ubreve; &ccirc;u
-          la po&scirc;tmarkoj malaperos?</url></vrk>
-        </fnt>;
+          <lok>2000/09, p. 18</lok>
+          </fnt>;
       </ekz>
       <ekz>
         kolekti po&scirc;t<tld/>ojn
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007297.html">Kolekti
-          sonorilojn</url></vrk>
-        </fnt>;
+          <aut>Saliko</aut>
+            <vrk><url ref="&Monato;/2001/007297.html">Kolekti sonorilojn</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 24</lok>
+          </fnt>;
       </ekz>
       <ekz>
         sur &ccirc;iuj britaj po&scirc;t<tld/>oj, oni aldonis la bildon de la re&gcirc;ina
@@ -577,7 +651,7 @@
           <aut>H. Palmer</aut>
           <vrk>Pri &Gcirc;oli Ro&gcirc;ar</vrk>
           <bib>Monato</bib>
-          <lok>2009:02, p. 7a</lok>
+          <lok>2009/02, p. 7</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -603,34 +677,40 @@
       </trdgrp>
       <trd lng="ro">marc&abreve; po&#x219;tal&abreve;</trd>
       <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_a;&c_ja; <ind>&c_m;&c_a;&c_r;&c_k;&c_a;</ind></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x90AE;&#x7968; <pr>y&#xF3;upi&#xE0;o</pr></trd>,
+    <trd>&#x90F5;&#x7968; <pr>y&#xF3;upi&#xE0;o</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="bo">&#xF66;&#xFA6;&#xFB2;&#xF42;&#xF0B;&#xF60;&#xF5B;&#xF72;&#xF53;&#xF0B;</trd>
-  <trd lng="uk">&#x43F;&#x43E;&#x448;&#x442;&#x43E;&#x432;&#x430; &#x43C;&#x430;&#x440;&#x43A;&#x430;</trd>
+  <trd lng="id">prangko</trd>
+  <trd lng="ja">&#x90F5;&#x4FBF;&#x5207;&#x624B;  <pr>&#x3086;&#x3046;&#x3073;&#x3093;&#x304D;&#x3063;&#x3066;</pr></trd>
+  <trd lng="uk">&#x43F;&#x43E;&c_sh;&c_t;&#x43E;&c_v;&c_a; &#x43C;&c_a;&c_r;&#x43A;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.121 2022/05/01 12:05:12
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.116 2021/07/02 10:32:39
+versio 1.129 2023/12/31 09:24:21
 Dmitri Gabinski: + trd be
 
-versio 1.42 2020/12/12 00:10:41
-Vito Redsky: +trd pl +trd ro
+versio 1.128 2023/11/20 06:33:26
+Eko Nur Syah Hidayat: +trd id
 
-versio 1.41 2020/10/13 12:41:16
-Wolfram Diestel: +snc produkto, ~i: +snc (io)..., ekz-oj
+versio 1.127 2023/10/19 15:13:16
+revo: transskribo per <pr>
 
-Revision 1.39  2019/08/07 08:10:15  revo
-Alain Gerard: +trd fr
+versio 1.125 2023/04/30 18:29:19
+Paul Peeraerts: Steloj -> monato
 
-Revision 1.38  2019/06/11 08:10:14  revo
-Guillermo Molleda Jimena: trd es fr
+versio 1.124 2023/04/23 16:33:07
+Paul Peeraerts: &Steloj -> &Monato
 
-Revision 1.37  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
+versio 1.123 2023/04/18 11:23:20
+Paul Peeraerts: Steloj -> monato.be
 
-Revision 1.36  2018/04/09 13:10:15  revo
+versio 1.122 2023/04/14 14:27:21
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.121 2022/05/01 12:05:12
 -->
 </vortaro>

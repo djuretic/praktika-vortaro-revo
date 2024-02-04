@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bel.xml,v 1.127 2022/04/26 15:00:33 revo Exp $">
+<art mrk="$Id: bel.xml,v 1.137 2023/10/29 19:11:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bel</rad>/a <fnt><bib>PV</bib></fnt>
@@ -78,7 +78,11 @@
       <ref cel="elegan.0a">eleganta</ref>,
       <ref cel="rav">rava</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6807;&#x81F4; <pr>bi&#x101;ozhi</pr></trd>,
+    <trd>&#x534E;&#x4E3D; <pr>hu&#xE1;l&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_g;&c_o;&c_zh;&c_y;</trd>,
     <trd>&c_g;&c_o;&c_zh;&c_y;</trd>,
@@ -114,7 +118,20 @@
   <trd lng="fr">beau</trd>
   <trd lng="he">&yod;&pe;&he;</trd>
   <trd lng="hu">sz&eacute;p</trd>
+  <trdgrp lng="id">
+    <trd>cantik</trd>,
+    <trd>ganteng</trd>,
+    <trd>indah</trd>,
+    <trd>tampan</trd>
+  </trdgrp>
   <trd lng="io">bela</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7F8E;&#x3057;&#x3044;  <pr>&#x3046;&#x3064;&#x304F;&#x3057;&#x3044;</pr></trd>,
+    <trd>&#x304D;&#x308C;&#x3044;&#x306A;</trd>,
+    <trd>&#x7ACB;&#x6D3E;&#x306A;  <pr>&#x308A;&#x3063;&#x3071;&#x306A;</pr></trd>,
+    <trd>&#x3059;&#x3070;&#x3089;&#x3057;&#x3044;</trd>,
+    <trd>&#x6674;&#x308C;&#x305F;  <pr>&#x306F;&#x308C;&#x305F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">mooi</trd>
   <trdgrp lng="no">
     <trd>vakker</trd>,
@@ -134,13 +151,14 @@
     <trd>kr&aacute;sny</trd>,
     <trd>pekn&yacute;</trd>
   </trdgrp>
+  <trd lng="sw">-zuri</trd>
   <trdgrp lng="uk">
-    <trd>&#x433;&#x430;&#x440;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43A;&#x440;&#x430;&#x441;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x445;&#x43E;&#x440;&#x43E;&#x448;&#x438;&#x439;</trd>,
-    <trd>&#x432;&#x440;&#x43E;&#x434;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x433;&#x43E;&#x436;&#x438;&#x439;</trd>,
-    <trd>&#x43A;&#x440;&#x430;&#x441;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_g;&c_a;&c_r;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43A;&c_r;&c_a;&c_s;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_h;&#x43E;&c_r;&#x43E;&c_sh;&c_i;&c_j;</trd>,
+    <trd>&c_v;&c_r;&#x43E;&c_d;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_g;&#x43E;&c_zh;&c_i;&c_j;</trd>,
+    <trd>&#x43A;&c_r;&c_a;&c_s;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
   <trd lng="vo">j&ouml;nik</trd>
 </drv>
@@ -160,6 +178,7 @@
   <rim>
     Cetere <ref tip="hom" cel="bel1.0o">belo</ref> estas anka&ubreve; mezurunuo de sonintenso.
   </rim>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_g;&c_a;&c_zh;&c_o;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trdgrp lng="br">
     <trd>kened</trd>,
     <trd>brav<klr tip="ind"> (ak.)</klr></trd>
@@ -178,10 +197,17 @@
   </trdgrp>
   <trdgrp lng="fr">
     <trd>beau<klr tip="amb"> (subst.)</klr></trd>,
-    <trd>beaut&eacute;<klr tip="amb"> (la beaut&eacute;, 
+    <trd>beaut&eacute;<klr tip="amb"> (la beaut&eacute;,
     propri&eacute;t&eacute;)</klr></trd>
   </trdgrp>
   <trd lng="he">&yod;&vav;&pe;&yod;</trd>
+  <trdgrp lng="id">
+    <trd>ke<ind>cantik</ind>an</trd>,
+    <trd>ke<ind>indah</ind>an</trd>,
+    <trd>ke<ind>tampan</ind>an</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7F8E;  <pr>&#x307F;</pr></trd>
+  <trd lng="nl">schoonheid</trd>
   <trdgrp lng="pl">
     <trd>uroda</trd>,
     <trd>krasa</trd>,
@@ -205,7 +231,7 @@
         la <tld/>a&jcirc;oj de la naturo;
       </ekz>
       <ekz>
-        per mantelo de justeco Li min kovris, kiel fian&ccirc;on, kiu 
+        per mantelo de justeco Li min kovris, kiel fian&ccirc;on, kiu
         sin ornamas per <tld/>a&jcirc;o
         <fnt><bib>MT</bib>, <lok>&Jes; 61:10</lok></fnt>.
       </ekz>
@@ -221,19 +247,20 @@
   <trd lng="fr">beaut&eacute;<klr tip="amb"> (une beaut&eacute;
   concr&egrave;te)</klr></trd>
   <trd lng="he">&dalet;&bet;&resh; &yod;&pe;&he;</trd>
+  <trd lng="nl">iets <ind>moois</ind></trd>
   <trdgrp lng="pl">
     <trd>cacko</trd>,
     <trd>pi&eogonek;kno&sacute;&cacute;</trd>
   </trdgrp>
-  <trd lng="ro">frumuse&tcedil;e</trd>
+  <trd lng="ro">frumuse&#x21B;e</trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_s;&c_o;&c_t;&c_a;<klr tip="amb">
   (&c_n;&c_je;&c_ch;&c_t;&c_o;
   &c_k;&c_r;&c_a;&c_s;&c_i;&c_v;&c_o;&c_je;)
   </klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x440;&#x430;&#x441;&#x430;</trd>,
-    <trd>&#x43F;&#x440;&#x435;&#x43A;&#x440;&#x430;&#x441;&#x43D;&#x435;&#xA0;(&#x456;&#x43C;.)</trd>,
-    <trd>&#x432;&#x440;&#x43E;&#x434;&#x430;</trd>
+    <trd>&#x43A;&c_r;&c_a;&c_s;&c_a;</trd>,
+    <trd>&#x43F;&c_r;&c_je;&#x43A;&c_r;&c_a;&c_s;&#x43D;&c_je;&#xA0;(&c_ib;&#x43C;.)</trd>,
+    <trd>&c_v;&c_r;&#x43E;&c_d;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -259,7 +286,13 @@
         </fnt>?
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7F8E;&#x4E3D;&#x7684;&#x4E1C;&#x897F; <pr>m&#x11B;il&#xEC;ded&#x14D;ngxi</pr></trd>,
+    <trd>&#x5A07;&#x6EF4;&#x6EF4; <pr>ji&#x101;od&#x12B;d&#x12B;</pr></trd>,
+    <trd>&#x7F8E;&#x4E3D;&#x7684;&#x4EBA; <pr>m&#x11B;il&#xEC;der&#xE9;n</pr></trd>,
+    <trd>&#x8273;&#x8272; <pr>y&#xE0;ns&#xE8;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="af">skoonheid</trd>
   <trd lng="am">&#x12CD;&#x1260;&#x1275;</trd>
   <trd lng="ar">&a_A;&a_l;&a_j;&a_m;&a_A;&a_l;</trd>
@@ -299,10 +332,15 @@
   <trd lng="hr">ljepota</trd>
   <trd lng="ht">bote</trd>
   <trd lng="hy">&#x563;&#x565;&#x572;&#x565;&#x581;&#x56F;&#x578;&#x582;&#x569;&#x575;&#x578;&#x582;&#x576;</trd>
+  <trdgrp lng="id">
+    <trd>ke<ind>cantik</ind>an</trd>,
+    <trd>ke<ind>indah</ind>an</trd>,
+    <trd>ke<ind>tampan</ind>an</trd>
+  </trdgrp>
   <trd lng="ig">&#x1ECB;ma mma</trd>
   <trd lng="io">beleso</trd>
   <trd lng="is">fegur&#xF0;</trd>
-  <trd lng="ja">&#x7F8E;&#x3057;&#x3055;</trd>
+  <trd lng="ja">&#x7F8E;&#x3057;&#x3055; <pr>&#x3046;&#x3064;&#x304F;&#x3057;&#x3055;</pr></trd>
   <trd lng="jv">kaendahan</trd>
   <trd lng="ka">&#x10E1;&#x10D8;&#x10DA;&#x10D0;&#x10DB;&#x10D0;&#x10D6;&#x10D8;&#x10E1;</trd>
   <trd lng="kk">&c_s;&#x4B1;&c_l;&c_u;&c_l;&c_y;&#x49B;</trd>
@@ -335,7 +373,7 @@
     <trd>pi&eogonek;kno</trd>
   </trdgrp>
   <trd lng="ps">&#x69A;&f_k;&a_l;&a_A;</trd>
-  <trd lng="ro">frumuse&tcedil;e</trd>
+  <trd lng="ro">frumuse&#x21B;e</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_r;&c_a;&c_s;&c_o;&c_t;&c_a;<klr tip="amb">
     (&c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>,
@@ -384,7 +422,12 @@
       <ref cel="grandi.0a">grandioza</ref>,
       <ref cel="pomp.0a">pompa</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6781;&#x7F8E; <pr>j&#xED;m&#x11B;i</pr></trd>,
+    <trd>&#x7CBE;&#x5F69; <pr>j&#x12B;ngc&#x1CE;i</pr></trd>,
+    <trd>&#x52DD;&#x666F; <pr>sh&#xE8;ngj&#x1D0;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_je;&c_l;&c_mol;&c_m;&c_ib;
     &c_p;&c_r;&c_y;&c_g;&c_o;&c_zh;&c_y;</trd>,
@@ -414,6 +457,10 @@
   <trd lng="he">&yod;&pe;&he;&pe;&he;</trd>
   <trd lng="hu">gy&ouml;ny&ouml;r&udblac;</trd>
   <trd lng="io">belega</trd>
+  <trdgrp lng="ja">
+    <trd>&#x305F;&#x3044;&#x3078;&#x3093;&#x7F8E;&#x3057;&#x3044;  <pr>&#x305F;&#x3044;&#x3078;&#x3093;&#x3046;&#x3064;&#x304F;&#x3057;&#x3044;</pr></trd>,
+    <trd>&#x3059;&#x3070;&#x3089;&#x3057;&#x3044;</trd>
+  </trdgrp>
   <trd lng="nl">wondermooi</trd>
   <trd lng="no">smellvakker</trd>
   <trdgrp lng="pl">
@@ -436,10 +483,10 @@
   <kap><tld/>eta</kap>
   <snc mrk="bel.0eta.KOMUNE">
     <dif>
-      Iom <tld/>a, pli pla&ccirc;a ol konforma al la reguloj de 
+      Iom <tld/>a, pli pla&ccirc;a ol konforma al la reguloj de
       <tld/>eco:
       <ekz>
-        en la dometo &ccirc;io estis malgranda, sed tiel <tld/>eta kaj 
+        en la dometo &ccirc;io estis malgranda, sed tiel <tld/>eta kaj
         pura, ke
         ne eble estas tion priskribi
         <fnt><bib>ElektFab</bib>, <lok>Ne&gcirc;ulino</lok></fnt>.
@@ -500,6 +547,7 @@
   <trd lng="ht">b&egrave;l</trd>
   <trd lng="hu">csinos</trd>
   <trd lng="hy">&#x562;&#x561;&#x57E;&#x561;&#x56F;&#x561;&#x576;&#x56B;&#x576;</trd>
+  <trd lng="id">imut</trd>
   <trd lng="ig">mara mma</trd>
   <trd lng="io">beleta</trd>
   <trd lng="is">nokku&#xF0;</trd>
@@ -529,7 +577,7 @@
   <trd lng="ny">wokongola</trd>
   <trd lng="pa">&#xA2A;&#xA30;&#xA48;&#xA1F;&#xA40;</trd>
   <trdgrp lng="pl">
-    <trd>&lstroke;adny</trd>   
+    <trd>&lstroke;adny</trd>
   </trdgrp>
   <trd lng="ps">&#x69A;&a_A;&f_y;&a_s;&a_t;&a_h;</trd>
   <trdgrp lng="ru">
@@ -573,7 +621,7 @@
     <dif>
       Ero intence metita por <tld/>igi tuton:
       <ekz>
-        perloj, el kiuj &ccirc;iu sola jam estus efektiva 
+        perloj, el kiuj &ccirc;iu sola jam estus efektiva
         <tld/>iga&jcirc;o en la krono de re&gcirc;ino
         <fnt><bib>Fab1</bib>, <lok>la virineto de maro</lok></fnt>.
       </ekz>
@@ -582,6 +630,7 @@
       <ref cel="ornam.0ajxo">ornama&jcirc;o</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_a;&c_z;&c_d;&c_o;&c_b;&c_a;</trd>
   <trd lng="br">kinkladur</trd>
   <trd lng="en">ornament</trd>
   <trdgrp lng="fr">
@@ -589,6 +638,8 @@
     <trd>ornement</trd>
   </trdgrp>
   <trd lng="he">&he;&tav;&yod;&yod;&pe;&yod;&yod;&pe;&vav;&tav;</trd>
+  <trd lng="id">ornamen</trd>
+  <trd lng="ja">&#x5316;&#x7CA7;&#x54C1;  <pr>&#x3051;&#x3057;&#x3087;&#x3046;&#x3072;&#x3093;</pr></trd>
   <trd lng="nl">versiering</trd>
   <trd lng="no">pynt</trd>
   <trdgrp lng="pl">
@@ -615,9 +666,11 @@
   </trdgrp>
   <trd lng="he">&yod;&pe;&he;&pe;&he;</trd>
   <trd lng="io">belo</trd>
+  <trd lng="ja">&#x7F8E;&#x7537;&#x5B50;  <pr>&#x3073;&#x3060;&#x3093;&#x3057;</pr></trd>
+  <trd lng="nl">knapperd</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x440;&#x430;&#x441;&#x435;&#x43D;&#x44C;</trd>,
-    <trd>&#x432;&#x440;&#x43E;&#x434;&#x43B;&#x438;&#x432;&#x435;&#x446;&#x44C;</trd>
+    <trd>&#x43A;&c_r;&c_a;&c_s;&c_je;&#x43D;&#x44C;</trd>,
+    <trd>&c_v;&c_r;&#x43E;&c_d;&#x43B;&c_i;&c_v;&c_je;&c_c;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -636,10 +689,17 @@
       <ref cel="abomen.0a">abomena</ref>,
       <ref cel="nauxz.0a">na&ubreve;za</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E11;&#x964B; <pr>ch&#x1D2;ul&#xF2;u</pr></trd>,
+    <trd>&#x96BE;&#x770B; <pr>n&#xE1;nk&#xE0;n</pr></trd>,
+    <trd>&#x96BE;&#x770B;&#x7684; <pr>n&#xE1;nk&#xE0;nde</pr></trd>,
+    <trd>&#x4E11; <pr>ch&#x1D2;u</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_g;&c_o;&c_zh;&c_y;</trd>,
-    <trd>&c_a;&c_g;&c_ib;&c_d;&c_n;&c_y;</trd>
+    <trd>&c_a;&c_g;&c_ib;&c_d;&c_n;&c_y;</trd>,
+    <trd>&c_b;&c_r;&c_y;&c_d;&c_k;&c_ib;</trd>
   </trdgrp>
   <trd lng="bg">&c_g;&c_r;&c_o;&c_z;&c_je;&c_n;</trd>
   <trd lng="bo">&#xF58;&#xF51;&#xF7C;&#xF42;&#xF0B;&#xF49;&#xF7A;&#xF66;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
@@ -653,6 +713,14 @@
   <trd lng="en">ugly</trd>
   <trd lng="fr">laid</trd>
   <trd lng="io">leda</trd>
+  <trdgrp lng="ja">
+    <trd>&#x919C;&#x3044;  <pr>&#x307F;&#x306B;&#x304F;&#x3044;</pr></trd>,
+    <trd>&#x898B;&#x82E6;&#x3057;&#x3044;  <pr>&#x307F;&#x3050;&#x308B;&#x3057;&#x3044;</pr></trd>,
+    <trd>&#x3072;&#x3069;&#x3044;</trd>,
+    <trd>&#x5351;&#x52A3;&#x306A;  <pr>&#x3072;&#x308C;&#x3064;&#x306A;</pr></trd>,
+    <trd>&#x60AA;&#x3044;  <pr>&#x306B;&#x304F;&#x3044;</pr></trd>
+  </trdgrp>
+  <trd lng="id">jelek</trd>
   <trd lng="nl">lelijk</trd>
   <trd lng="no">stygg</trd>
   <trdgrp lng="pl">
@@ -668,12 +736,12 @@
     <trd>&scaron;patn&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x433;&#x430;&#x440;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x435;&#x43A;&#x440;&#x430;&#x441;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x435;&#x432;&#x440;&#x43E;&#x434;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43E;&#x433;&#x430;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x431;&#x440;&#x438;&#x434;&#x43A;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43E;&#x442;&#x432;&#x43E;&#x440;&#x43D;&#x438;&#x439;</trd>
+    <trd>&#x43D;&c_je;&c_g;&c_a;&c_r;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je;&#x43A;&c_r;&c_a;&c_s;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je;&c_v;&c_r;&#x43E;&c_d;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43E;&c_g;&c_a;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_r;&c_i;&c_d;&#x43A;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43E;&c_t;&c_v;&#x43E;&c_r;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
   <trd lng="vo">nej&ouml;nik</trd>
 </drv>
@@ -685,7 +753,7 @@
     <dif>
       Aran&gcirc;i tiel, ke io aspektu pli <tld/>e:
       <ekz>
-        niaj komercistoj kolektas la trezorojn el &ccirc;iu parto de la 
+        niaj komercistoj kolektas la trezorojn el &ccirc;iu parto de la
         mondo por pli<tld/>igi la urbon
         <fnt><bib>SatirRak</bib>, <lok>Pythagoras, 5</lok></fnt>.
       </ekz>
@@ -707,6 +775,10 @@
   </trdgrp>
   <trd lng="en">beautify</trd>
   <trd lng="fr">embellir</trd>
+  <trdgrp lng="id">
+    <trd>memper<ind>cantik</ind></trd>,
+    <trd>memper<ind>indah</ind></trd>
+  </trdgrp>
   <trd lng="nl">versieren</trd>
   <trd lng="no">pynte</trd>
   <trdgrp lng="pl">
@@ -721,36 +793,43 @@
   </trdgrp>
   <trd lng="sk">skr&aacute;&scaron;li&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x438;&#x43A;&#x440;&#x430;&#x448;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x433;&#x430;&#x440;&#x43D;&#x456;&#x448;&#x438;&#x43C;</trd>
+    <trd>&#x43F;&c_r;&c_i;&#x43A;&c_r;&c_a;&c_sh;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_b;&c_i;&c_t;&c_i; &c_g;&c_a;&c_r;&#x43D;&c_ib;&c_sh;&c_i;&#x43C;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7F8E;&#x5316;&#x4E86; <pr>m&#x11B;ihu&#xE0;li&#x1CE;o</pr></trd>,
+    <trd>&#x4FEE;&#x98FE; <pr>xi&#x16B;sh&#xEC;</pr></trd>,
+    <trd>&#x7F8E;&#x5316; <pr>m&#x11B;ihu&#xE0;</pr></trd>,
+    <trd>&#x88C5;&#x9970; <pr>zhu&#x101;ngsh&#xEC;</pr></trd>,
+    <trd>&#x4FEE; <pr>xi&#x16B;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 
 $Log$
+versio 1.136 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.135 2023/10/06 08:29:46
+Dmitri Gabinski: + trd be
+
+versio 1.134 2023/09/13 03:24:57
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.132 2023/08/29 20:26:50
+Wolfram Diestel: ja: prononco
+
+versio 1.131 2023/05/23 10:31:14
+Paul Peeraerts: + trd nl
+
+versio 1.130 2023/05/15 07:26:19
+Dmitri Gabinski: + trd be
+
+versio 1.129 2023/05/12 08:29:52
+Dmitri Gabinski: + trd be
+
 versio 1.127 2022/04/26 15:00:33
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.123 2022/02/12 13:40:28
-Noam Mohr: +trd en bel-
-
-versio 1.122 2021/08/25 08:33:43
-Dmitri Gabinski: + trd be
-
-versio 1.121 2021/07/22 08:33:09
-Dmitri Gabinski: + trd be
-
-versio 1.42 2021/05/22 14:50:55
-Wolfram Diestel: +rim ref-hom
-
-Revision 1.39  2017/12/18 23:10:22  revo
-Michel Cantigneaux: "bel/ul/o" : ekzemplo de ul' en la Universala
-Vortaro, do fundamenta kunmetajxo
-
-Revision 1.38  2017/08/26 20:10:15  revo
-Vito Redsky: +trd ro
-
 -->
 
 </vortaro>

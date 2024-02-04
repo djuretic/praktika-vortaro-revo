@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: slovak.xml,v 1.16 2022/05/05 05:09:57 revo Exp $">
+<art mrk="$Id: slovak.xml,v 1.19 2023/10/21 07:46:47 revo Exp $">
 <kap>
   <rad>slovak</rad>/o
 </kap>
@@ -81,6 +81,7 @@
     <trd>Slovakiano</trd>,
     <trd>Slovako</trd>
   </trdgrp>
+  <trd lng="ja">&#x30B9;&#x30ED;&#x30D0;&#x30AD;&#x30A2;&#x4EBA;  <pr>&#x30B9;&#x30ED;&#x30D0;&#x30AD;&#x30A2;&#x3058;&#x3093;</pr></trd>
   <trdgrp lng="nl">
     <trd>Slowaak</trd>,
     <trd>Slovaak</trd>
@@ -89,7 +90,7 @@
   <trd lng="pt">eslovaco <klr tip="ind"> (subst.)</klr></trd>
   <trd lng="sk">Slov&aacute;k</trd>
   <trd lng="tok">jan pi ma Lowenki</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x43E;&#x432;&#x430;&#x43A;</trd>
+  <trd lng="uk">&c_s;&#x43B;&#x43E;&c_v;&c_a;&#x43A;</trd>
   <trd lng="vo">Slovakiy&auml;nan</trd>
 </drv>
 
@@ -120,11 +121,11 @@
         bazitaj sur ekzistantaj lingvoj a&ubreve; dialektoj de la popolo
         <klr>[&#x2026;]</klr> inter aliaj estas la novhebrea, la indonezia kaj
         la <tld/>a
-        <fnt>
+       <fnt>
+       <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2000/006880.php">Ne &ccirc;iuj lingvoj estas langaj</url></vrk>
           <bib>Monato</bib>
-          <aut>Yamasaki Seik&ocirc;</aut>
-          <vrk><url ref="&Steloj;monato2/006880.html">Ne &ccirc;iuj
-          lingvoj estas langaj</url></vrk>
+          <lok>2000/06, p. 14</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -143,6 +144,7 @@
     <trd>Slovakiana</trd>,
     <trd>Slovaka</trd>
   </trdgrp>
+  <trd lng="ja">&#x30B9;&#x30ED;&#x30D0;&#x30AD;&#x30A2;&#x306E;  <pr>&#x3059;&#x308D;&#x3070;&#x304D;&#x3042;&#x306E;</pr></trd>
   <trdgrp lng="nl">
     <trd>Slowaaks</trd>,
     <trd>Slovaaks</trd>
@@ -151,7 +153,7 @@
   <trd lng="pt">eslovaco <klr tip="ind"> (adj.)</klr></trd>
   <trd lng="sk">slovensk&yacute;</trd>
   <trd lng="tok">pi ma Lowenki</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x43E;&#x432;&#x430;&#x446;&#x44C;&#x43A;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_s;&#x43B;&#x43E;&c_v;&c_a;&c_c;&#x44C;&#x43A;&c_i;&c_j;</trd>
   <trd lng="vo">Slovakiy&auml;nik</trd>
 </drv>
 
@@ -179,7 +181,8 @@
       <ref tip="vid" cel="ukrajn.U0ujo">Ukrainujo</ref>:
       <ekz>
         <nom>Josef Friedrich</nom> <klr>[&#x2026;]</klr> de&#x202F;post 1919 gvidis la
-        Esperanto-laboron en <nom>Ko&scaron;ice</nom> kaj en orienta <tld lit="S"/>ujo, &ccirc;ar li fari&gcirc;is fervojista juristo en
+        Esperanto-laboron en <nom>Ko&scaron;ice</nom> kaj en orienta <tld lit="S"/>ujo, &ccirc;ar li fari&gcirc;is
+        fervojista juristo en
         <nom>Ko&scaron;ice</nom>
         <fnt>
           <bib>Viki</bib>
@@ -225,6 +228,12 @@
 
 <!--
 $Log$
+versio 1.19 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.17 2023/04/25 12:45:44
+Paul Peeraerts: @Steloj -> @Monato
+
 versio 1.16 2022/05/05 05:09:57
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -241,11 +250,5 @@ Revision 1.11  2018/11/20 21:10:16  revo
 Wolfram Diestel: +ekz-oj
 
 Revision 1.10  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.9  2015/06/29 16:33:23  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.8  2014/06/14 03:10:19  revo
 -->
 </vortaro>

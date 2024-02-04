@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: prefer.xml,v 1.25 2022/03/26 15:53:37 revo Exp $">
+<art mrk="$Id: prefer.xml,v 1.30 2023/10/20 16:38:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>prefer</rad>/i
@@ -71,7 +71,7 @@
     <trd>&c_a;&c_d;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol; <ind>&c_p;&c_je;&c_r;&c_a;&c_v;&c_a;&c_g;&c_u;</ind></trd>,
     <trd>&c_l;&c_ib;&c_ch;&c_y;&c_c;&c_mol; &c_z;&c_a; &c_l;&c_je;&c_p;&c_sh;&c_a;&c_je;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF42;&#xF51;&#xF58;&#xF0B;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_ga;&t_da;&t_ma;&t_tsheg;&t_ga;&t_tsheg;</trd>
   <trd lng="ca">preferir</trd>
   <trdgrp lng="de">
     <trd>bevorzugen</trd>,
@@ -85,16 +85,22 @@
     <trd>el&odblac;nyben r&eacute;szes&iacute;t</trd>,
     <trd>prefer&aacute;l</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#xFF5E;<ind>&#x306E;&#x65B9;&#12434;&#x597D;&#12416; 
+    </ind><pr>&#x306E;&#x307B;&#12358;&#12434;&#12371;&#x306E;&#12416;</pr></trd>,
+    <trd>&#12416;&#12375;&#x308D;&#xFF5E;&#12434;&#36984;&#12406;  <pr>&#12416;&#12375;&#x308D;&#xFF5E;&#12434;&#12360;&#12425;&#12406;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>voorkeur geven</trd>,
     <trd>prefereren</trd>,
     <trd>verkiezen</trd>
   </trdgrp>
+  <trd lng="pl">preferowa&cacute;</trd>
   <trdgrp lng="pt">
     <trd>preferir</trd>,
     <trd>dar <ind>prefer&ecirc;ncia</ind></trd>,
     <trd>gostar mais de</trd>,
-    <trd>escolher</trd>    
+    <trd>escolher</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_ch;&c_je;&c_s;&c_t;&c_mol;</trd>,
@@ -102,19 +108,19 @@
   </trdgrp>
   <trd lng="sv">f&ouml;redra</trd>
   <trdgrp lng="sk">
-    <trd>d&#xE1;va&#x165; prednos&#x165;</trd>,
-    <trd>preferova&#x165;</trd>
+    <trd>d&aacute;va&tcaron; prednos&tcaron;</trd>,
+    <trd>preferova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>cht&#xED;t rad&#x11B;ji</trd>,
-    <trd>d&#xE1;vat p&#x159;ednost</trd>,
-    <trd>m&#xED;t rad&#x11B;ji</trd>,
+    <trd>cht&iacute;t rad&ecaron;ji</trd>,
+    <trd>d&aacute;vat p&rcaron;ednost</trd>,
+    <trd>m&iacute;t rad&ecaron;ji</trd>,
     <trd>preferovat</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x456;&#x434;&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x432;&#x430;&#x433;&#x443;</trd>,
-    <trd>&#x432;&#x43E;&#x43B;&#x456;&#x442;&#x438;</trd>,
-    <trd>&#x443;&#x432;&#x430;&#x436;&#x430;&#x442;&#x438;/&#x432;&#x438;&#x437;&#x43D;&#x430;&#x432;&#x430;&#x442;&#x438; &#x437;&#x430; &#x43A;&#x440;&#x430;&#x449;&#x435;</trd>
+    <trd>&c_v;&c_ib;&c_d;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_p;&c_je;&c_r;&c_je;&c_v;&c_a;&c_g;&c_u;</trd>,
+    <trd>&c_v;&c_o;&c_l;&c_ib;&c_t;&c_i;</trd>,
+    <trd>&c_u;&c_v;&c_a;&c_zh;&c_a;&c_t;&c_i;/&c_v;&c_i;&c_z;&c_n;&c_a;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a; &c_k;&c_r;&c_a;&c_shch;&c_je;</trd>
   </trdgrp>
 </drv>
 
@@ -148,13 +154,14 @@
   <trd lng="ca">prefer&egrave;ncia</trd>
   <trdgrp lng="cs">
     <trd>preference</trd>,
-    <trd>p&#x159;ednost</trd>,
-    <trd>up&#x159;ednostn&#x11B;n&#xED;</trd>
+    <trd>p&rcaron;ednost</trd>,
+    <trd>up&rcaron;ednostn&ecaron;n&iacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Vorzug</trd>,
     <trd>Vorliebe</trd>
   </trdgrp>
+  <trd lng="en">preference</trd>
   <trd lng="es">preferencia</trd>
   <trd lng="fr">pr&eacute;f&eacute;rence</trd>
   <trdgrp lng="hu">
@@ -162,10 +169,15 @@
     <trd>preferencia</trd>,
     <trd>el&odblac;ny<klr tip="ind"> (el&odblac;szeretet)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#36984;&#x629E;  <pr>&#x305B;&#12435;&#x305F;&#x304F;</pr></trd>,
+    <trd>&#x597D;&#x307F;  <pr>&#12372;&#x306E;&#x307F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">voorkeur</trd>
+  <trd lng="pl">preferencja</trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_ch;&c_t;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">uprednostnenie</trd>
-  <trd lng="uk">&#x43F;&#x435;&#x440;&#x435;&#x432;&#x430;&#x433;&#x430;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_v;&c_a;&c_g;&c_a;</trd>
 </drv>
 
 <drv mrk="prefer.0e">
@@ -195,13 +207,13 @@
   </trdgrp>
   <trd lng="ca">preferentment</trd>
   <trdgrp lng="cs">
-    <trd>nejrad&#x11B;ji</trd>,
-    <trd>preferen&#x10D;n&#x11B;</trd>,
-    <trd>p&#x159;ednostn&#x11B;</trd>,
-    <trd>rad&#x11B;ji</trd>,
-    <trd>sp&#xED;&#x161;e</trd>,
-    <trd>vhodn&#x11B;ji</trd>,
-    <trd>zvl&#xE1;&#x161;t&#x11B;</trd>
+    <trd>nejrad&ecaron;ji</trd>,
+    <trd>preferen&ccaron;n&ecaron;</trd>,
+    <trd>p&rcaron;ednostn&ecaron;</trd>,
+    <trd>rad&ecaron;ji</trd>,
+    <trd>sp&iacute;&scaron;e</trd>,
+    <trd>vhodn&ecaron;ji</trd>,
+    <trd>zvl&aacute;&scaron;t&ecaron;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>vorzugsweise</trd>,
@@ -213,7 +225,13 @@
     <trd>plut&ocirc;t<klr> (de pr&eacute;f&eacute;rence)</klr></trd>
   </trdgrp>
   <trd lng="hu">ink&aacute;bb</trd>
+  <trdgrp lng="ja">
+    <trd>&#12416;&#12375;&#x308D;</trd>,
+    <trd>&#x306A;&#x308B;&#12409;&#x304F;</trd>,
+    <trd>&#x597D;&#12435;&#12391;  <pr>&#12371;&#x306E;&#12435;&#12391;</pr></trd>
+  </trdgrp>
   <trd lng="nl">liever</trd>
+  <trd lng="pl">preferencyjnie</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_ch;&c_t;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_i;&c_m;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;</trd>,
@@ -221,14 +239,14 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>prednostne</trd>,
-    <trd>rad&#x161;ej</trd>,
-    <trd>zvl&#xE1;&#x161;&#x165;</trd>
+    <trd>rad&scaron;ej</trd>,
+    <trd>zvl&aacute;&scaron;&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x430;&#x434;&#x448;&#x435;</trd>,
-    <trd>&#x43A;&#x440;&#x430;&#x449;&#x435;</trd>,
-    <trd>&#x441;&#x43A;&#x43E;&#x440;&#x448;&#x435;</trd>,
-    <trd>&#x43E;&#x445;&#x43E;&#x447;&#x456;&#x448;&#x435;</trd>
+    <trd>&c_r;&c_a;&c_d;&c_sh;&c_je;</trd>,
+    <trd>&c_k;&c_r;&c_a;&c_shch;&c_je;</trd>,
+    <trd>&c_s;&c_k;&c_o;&c_r;&c_sh;&c_je;</trd>,
+    <trd>&c_o;&c_h;&c_o;&c_ch;&c_ib;&c_sh;&c_je;</trd>
   </trdgrp>
 </drv>
 
@@ -248,17 +266,25 @@
   </snc>
   <trd lng="ca">preferible</trd>
   <trdgrp lng="cs">
-    <trd>maj&#xED;c&#xED; p&#x159;ednost</trd>,
-    <trd>p&#x159;ednostn&#xED;</trd>
+    <trd>maj&iacute;c&iacute; p&rcaron;ednost</trd>,
+    <trd>p&rcaron;ednostn&iacute;</trd>
   </trdgrp>
   <trd lng="fr">pr&eacute;f&eacute;rable</trd>
+  <trdgrp lng="ja">
+    <trd>&#12424;&#x308A;&#x597D;&#x307E;&#12375;&#12356;  <pr>&#12424;&#x308A;&#12371;&#x306E;&#x307E;&#12375;&#12356;</pr></trd>,
+    <trd>&#x671B;&#x307E;&#12375;&#12356;  <pr>&#x306E;&#x305E;&#x307E;&#12375;&#12356;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>verkieslijk</trd>,
     <trd>te <ind>verkiezen</ind></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>preferowany</trd>,
+    <trd>uprzywilejowany</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_ch;&c_t;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">v&#xFD;hodn&#xFD;</trd>
-  <trd lng="uk">&#x43A;&#x440;&#x430;&#x449;&#x438;&#x439;</trd>
+  <trd lng="sk">v&yacute;hodn&yacute;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_a;&c_shch;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="prefer.0indajxo">
@@ -276,12 +302,32 @@
   <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_v;&c_a;&c_g;&c_a;</trd>
   <trd lng="fr">meilleur choix</trd>
   <trd lng="hu">kedvenc</trd>
+  <trdgrp lng="ja">
+    <trd>&#38263;&#25152;  <pr>&#12385;&#12423;&#12358;&#12375;&#12423;</pr></trd>,
+    <trd>&#21033;&#x70B9;  <pr>&#x308A;&#12390;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="nl">wat de <ind>voorkeur</ind> wegdraagt</trd>
+  <trdgrp lng="pl">
+    <trd>rzecz  <ind>preferowana</ind></trd>,
+    <trd>ulubiony przedmiot</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_i;&c_m;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.29 2023/09/04 18:29:47
+Wolfram Diestel: kor. ja ind
+
+versio 1.27 2023/08/11 22:25:13
+Matt Brooks: Aldonis anglan tradukon de prefero
+
+versio 1.26 2023/03/24 22:28:11
+Vito Redsky: +trd pl
+
 Revision 1.22  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -292,20 +338,5 @@ Revision 1.20  2009/10/28 17:30:29  revo
 Paul Peeraerts: +nl
 
 Revision 1.19  2006/03/18 17:31:59  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2005/04/28 16:34:08  revo
-Raul Salinas Monteagudo: +trd ca; korekto trd es
-
-Revision 1.17  2004/12/18 19:19:27  revo
-Jeromo Vasxe: - () en kap, + trd fr
-
-Revision 1.16 2004/05/06 16:31:52 revo
-Sergio Pokrovskij: +rim +ekz
-
-Revision 1.15 2004/05/02 16:31:56 revo
-Sergio Pokrovskij: dif, ekz; +~inda
-
-Revision 1.14 2003/08/03 16:30:45 revo
 -->
 </vortaro>

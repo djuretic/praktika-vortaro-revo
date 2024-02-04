@@ -1,50 +1,84 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: devon.xml,v 1.15 2018/12/02 10:10:20 revo Exp $">
+<art mrk="$Id: devon.xml,v 1.20 2023/11/04 13:16:27 revo Exp $">
 <kap>
-  <rad>devon</rad>/o
+  <rad>devon</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad var="i">devoni</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="devon.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">MIN</uzo>
-  <snc>
+  <kap><tld/>o, <var><kap><tld var="i"/>o</kap></var></kap>
+  <uzo tip="fak">GEOL</uzo>
+  <snc mrk="devon.0o.GEOL">
     <dif>
-      La kvara <ref tip="lst" val="-420000000" lst="voko:geologiaj_periodoj" 
-      cel="period.0o.dauxro">periodo</ref> de la
+      La kvara <ref tip="lst" val="-420000000" lst="voko:geologiaj_periodoj" cel="period.0o.dauxro">periodo</ref> de la
       <ref tip="malprt" cel="paleozoik.0o">paleozoiko</ref>
       da&ubreve;ranta de anta&ubreve; 420 &gcirc;is 360 milionoj jaroj
       <ekz>
-        la kavernon kreis nekonata subtera fluo <klr>[&#8230;]</klr> de la&jcirc;anecaj kalka&scirc;tonoj
-        de meza <tld/>o de moravia-silezia paleozoiko
+        la kavernon kreis nekonata subtera fluo <klr>[&#x2026;en]</klr>
+        meza <tld/>o de moravia-silezia paleozoiko
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=34565"
-              >Katarina kaverno</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=34565">Katarina kaverno</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la sekvaj periodoj de paleozoiko, nome silurio kaj <tld var="i"/>o, la praga
+        teritorio migris norden, do al la zono ekvatora
+        <fnt>
+          <aut>Josef Kavka</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/miksitaj/sovagxsar/sovagxsar.htm">La protektata naturparko Divok&aacute; &Scaron;&aacute;rka (Sova&gcirc;a &Scirc;aro)</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; 374 milionoj da jaroj, en la <tld var="i"/>o, la Tero konis rapidan kaj grandskalan
+        koloniadon
+        de la prakontinento de teraj plantoj sub varma kaj tropika klimato
+        <fnt>
+          <aut>A. Lucas</aut>
+          <vrk><url ref="https://teamoisae.wixsite.com/isae/single-post/2018/01/12/La-Devonia-grandskala-estingi%C4%9Do-estas-iomete-plibone-komprenata">
+          La Devonia grandskala estingi&gcirc;o estas iomete
+          plibone komprenata</url></vrk>
+          <lok>ISAE, 2018-01-15</lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_d;&c_e;&c_v;&c_a;&c_n;</trd>
     <trd lng="ca">devoniano</trd>
+    <trd lng="cs">devon</trd>
     <trd lng="de">Devon</trd>
     <trd lng="es">dev&oacute;nico</trd>
-    <trd lng="fr">d&eacute;vonien</trd>
+    <trd lng="fr">d&eacute;vonien<klr> (subst.)</klr></trd>
     <trd lng="hu">devon</trd>
     <trd lng="nl">devoon</trd>
     <trd lng="pl">Dewon</trd>
     <trd lng="pt">Devoniano</trd>
     <trd lng="ru">&c_d;&c_je;&c_v;&c_o;&c_n;</trd>
-  </snc>
-  <trd lng="cs">devon</trd>
-  <trd lng="sk">dev&oacute;n</trd>
+    <trd lng="sk">dev&oacute;n</trd>
+    <trdgrp lng="uk">
+      <trd>&c_d;&c_je;&c_v;&#x43E;&#x43D;</trd>,
+      <trd>&c_d;&c_je;&c_v;&#x43E;&#x43D;&c_s;&#x44C;&#x43A;&c_a; &c_s;&c_i;&c_s;&c_t;&c_je;&#x43C;&c_a;</trd>
+    </trdgrp>
+    <trd lng="zh">&#x6CE5;&#x76C6;&#x7D00; <pr>n&#xED;p&#xE9;nj&#xEC;</pr></trd>
+</snc>
+  <trdgrp lng="ja">
+    <trd>&#x30C7;&#x30DC;&#x30F3;&#x7D00;  <pr>&#x30C7;&#x30DC;&#x30F3;&#x304D;</pr></trd>,
+    <trd>&#x30C7;&#x30DC;&#x30F3;&#x7CFB;  <pr>&#x30C7;&#x30DC;&#x30F3;&#x3051;&#x3044;</pr></trd>
+  </trdgrp>
 </drv>
-<adm>
-  PIV1 havas "devonio". <aut>MB</aut>
-</adm>
+
 </art>
 <!--
 $Log$
+versio 1.19 2023/10/14 11:26:53
+revo: transskribo per <pr>
+
+versio 1.17 2023/08/21 08:30:38
+Wolfram Diestel: +ekz, trd el devoni/
+
+versio 1.16 2023/08/20 14:23:30
+Wolfram Diestel: +var, +ekz
+
 Revision 1.14  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -58,11 +92,5 @@ Revision 1.11  2009/06/09 16:31:13  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.10  2007/07/23 16:31:31  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2005/04/04 16:33:47  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.8  2003/12/13 17:32:15  revo
 -->
 </vortaro>

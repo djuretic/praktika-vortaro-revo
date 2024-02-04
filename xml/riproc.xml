@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: riproc.xml,v 1.27 2022/05/12 18:38:12 revo Exp $">
+<art mrk="$Id: riproc.xml,v 1.33 2023/10/30 09:28:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ripro&ccirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -116,9 +116,9 @@
     </refgrp>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_p;&c_a;&c_p;&c_ib;&c_k;&c_a;&c_c;&c_mol;</trd>, 
+    <trd>&c_p;&c_a;&c_p;&c_ib;&c_k;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_u;&c_p;&c_ib;&c_k;&c_a;&c_c;&c_mol;</trd>,
-    <trd>&c_d;&c_a;&c_k;&c_a;&c_r;&c_a;&c_c;&c_mol;</trd>, 
+    <trd>&c_d;&c_a;&c_k;&c_a;&c_r;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_a;&c_p;&c_r;&c_a;&c_k;&c_a;&c_c;&c_mol;</trd>
     <trd>&c_a;&c_s;&c_u;&c_d;&c_zh;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
@@ -148,17 +148,28 @@
     <trd>szem&eacute;re h&aacute;ny</trd>,
     <trd>el&iacute;t&eacute;l</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12392;&#x304C;&#12417;&#x308B;</trd>,
+    <trd>&#12375;&#x304B;&#x308B;</trd>,
+    <trd>&#x975E;&#x96E3;&#12377;&#x308B;  <pr>&#12402;&#x306A;&#12435;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>verwijten</trd>,
     <trd>berispen</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>gani&cacute;</trd>,
+    <trd>karci&cacute;</trd>,
+    <trd>wini&cacute;</trd>,
+    <trd>wypomina&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>censurar</trd>,
     <trd>repreender</trd>,
-    <trd>incriminar</trd>,    
-    <trd>ralhar</trd>,    
-    <trd>acoimar</trd>,    
-    <trd>exprobar</trd>    
+    <trd>incriminar</trd>,
+    <trd>ralhar</trd>,
+    <trd>acoimar</trd>,
+    <trd>exprobar</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_u;&c_p;&c_r;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>,
@@ -206,9 +217,18 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_a;&c_k;&c_o;&c_r;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_a;&c_s;&c_u;&c_d;&c_zh;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>tadelnd</trd>,
     <trd>vorwurfsvoll</trd>
+  </trdgrp>
+  <trd lng="ja">&#12392;&#x304C;&#12417;&#x308B;&#12424;&#12358;&#x306A;</trd>
+  <trdgrp lng="pl">
+    <trd>gani&aogonek;cy</trd>,
+    <trd>karc&aogonek;cy</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_o;&c_s;&c_u;&c_d;&c_l;&c_i;&c_v;&c_i;&c_j;</trd>,
@@ -272,7 +292,7 @@
     </refgrp>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_d;&c_a;&c_k;&c_o;&c_r;</trd>, 
+    <trd>&c_d;&c_a;&c_k;&c_o;&c_r;</trd>,
     <trd>&c_p;&c_a;&c_p;&c_r;&c_o;&c_k;</trd>
   </trdgrp>
   <trdgrp lng="de">
@@ -295,7 +315,17 @@
     <trd>szemreh&aacute;ny&aacute;s</trd>,
     <trd>kifog&aacute;s</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x53F1;&#x8CAC;  <pr>&#12375;&#12387;&#x305B;&#x304D;</pr></trd>,
+    <trd>&#x975E;&#x96E3;  <pr>&#12402;&#x306A;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verwijt</trd>
+  <trdgrp lng="pl">
+    <trd>bura</trd>,
+    <trd>nagana</trd>,
+    <trd>reprymenda</trd>,
+    <trd>upomnienie</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_u;&c_p;&c_r;&c_jo;&c_k;</trd>,
     <trd>&c_u;&c_k;&c_o;&c_r;</trd>
@@ -331,7 +361,8 @@
         malica homo, portanta <tld/>indajn malvirtojn
         <fnt>
           <aut>A. Nurak</aut>,
-          <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr15/spiritismo.html">
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr15/spiritismo.html">
           Brazilo kaj Spiritismo</url></vrk>,
           <lok>Nica literatura revuo, 1956-05 &gcirc;is 06 (1/5), p.
           189-192</lok>
@@ -344,6 +375,11 @@
       <ref cel="ind.mal0a">malinda</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_s;&c_u;&c_d;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_s;&c_a;&c_m;&c_a;&c_v;&c_ib;&c_t;&c_y;</trd>,
+    <trd>&c_g;&c_a;&c_n;&c_je;&c_b;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>verwerflich</trd>,
     <trd>tadelnswert</trd>
@@ -353,6 +389,11 @@
     <trd>condamnable</trd>,
     <trd>r&eacute;pr&eacute;hensible</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x975E;&#x96E3;&#12377;&#12409;&#x304D;  <pr>&#12402;&#x306A;&#12435;&#12377;&#12409;&#x304D;</pr></trd>,
+    <trd>&#x4E0D;&#x5C4A;&#x304D;&#x306A;  <pr>&#12405;&#12392;&#12393;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">naganny</trd>
 </drv>
 
 <drv mrk="riproc.ne0inda">
@@ -360,7 +401,7 @@
   <var><kap>sen<tld/>a</kap></var></kap>
   <snc mrk="riproc.ne0inda.KOMUNE">
     <dif>
-      Kiu ne meritas <tld/>on, estas <ref cel="mank.sen0a.sendifekta">senmanka</ref>, 
+      Kiu ne meritas <tld/>on, estas <ref cel="mank.sen0a.sendifekta">senmanka</ref>,
       <ref cel="makul.sen0a">senmakula</ref>:
       <ekz>
         estu senkulpaj kaj simplaj, filoj de Dio, ne<tld/>indaj
@@ -378,7 +419,7 @@
       </ekz>
       <ekz>
         ilia legoscio estas ne<tld/>inda
-        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep
         fratoj</vrk>, <lok>1947</lok></fnt>;
       </ekz>
       <ekz>
@@ -395,38 +436,83 @@
       <ref cel="perfek.0a.siaspece">perfekta<sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_je;&c_z;&c_g;&c_a;&c_n;&c_je;&c_b;&c_n;&c_y;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_z;&c_a;&c_g;&c_a;&c_n;&c_n;&c_y;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_z;&c_a;&c_v;&c_a;&c_d;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="de">untadelig</trd>
   <trd lng="es">irreprochable</trd>
   <trdgrp lng="fr">
     <trd>impeccable</trd>,
     <trd>irr&eacute;prochable</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25991;&#x53E5;&#x306A;&#12375;&#x306E;  <pr>&#12418;&#12435;&#x304F;&#x306A;&#12375;&#x306E;</pr></trd>,
+    <trd>&#x975E;&#x306E;&#25171;&#12385;&#25152;&#x306E;&#x306A;&#12356;  <pr>&#12402;&#x306E;&#12358;&#12385;&#12393;&#12371;&#x308D;&#x306E;&#x306A;&#12356;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>nienaganny</trd>,
+    <trd>nieskazitelny</trd>
+  </trdgrp>
   <trd lng="uk">&c_b;&c_je;&c_z;&c_d;&c_o;&c_g;&c_a;&c_n;&c_n;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="riproc.konscienc0o">
+  <kap>konscienc<tld/>o</kap>
+  <snc>
+    <dif>
+      Imagata ripro&ccirc;o de sia konscienco al si mem:
+      <ekz>
+        <klr>[li]</klr> sentis kelkajn konsicenc<tld/>ojn pro tio, ke li faris unu
+        malfidelon al F-ino <nom>Kunegond</nom>
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="sent.kulpo0o">kulposento</ref>,
+      <ref cel="pent.0o">pento</ref>
+    </refgrp>
+    <trd lng="de">Gewissensbiss</trd>
+    <trd lng="en">pangs of conscience</trd>
+    <trd lng="fr">affres de conscience</trd>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_a;&c_k;&c_o;&c_r;&c_y; &c_s;&c_u;&c_m;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_ja;</trd>,
+    <trd>&c_z;&c_g;&c_r;&c_y;&c_z;&c_o;&c_t;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x826F;&#x5FC3;&#x306E;&#21621;&#x8CAC;  <pr>&#x308A;&#12423;&#12358;&#12375;&#12435;&#x306E;&#x304B;&#12375;&#12419;&#x304F;</pr></trd>,
+    <trd>&#x81EA;&#x8CAC;&#x306E;&#x5FF5;  <pr>&#12376;&#x305B;&#x304D;&#x306E;&#x306D;&#12435;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/30 09:28:00
+Dmitri Gabinski: + trd be
+
+versio 1.32 2023/10/21 05:38:06
+revo: transskribo per <pr>
+
+versio 1.30 2023/08/29 06:32:05
+Wolfram Diestel: +konscienc~o
+
+versio 1.29 2023/07/04 19:24:27
+Vito Redsky: +trd pl
+
+versio 1.28 2023/02/27 07:27:08
+Dmitri Gabinski: + trd be
+
 versio 1.27 2022/05/12 18:38:12
-Wolfram Diestel: ~æ..ne~inda: ekz, ref, trd de
+Wolfram Diestel: ~&aelig;..ne~inda: ekz, ref, trd de
 
 versio 1.26 2022/05/11 20:30:13
 Wolfram Diestel: ~i, ~o: ekz-oj, ref
 
 Revision 1.22  2014/08/17 20:10:10  revo
-Jeromo Vasxe: + ~a
-
-Revision 1.21  2014/08/07 01:10:12  revo
-Jeromo Vasxe: + ~inda, ne~inda
-
-Revision 1.20  2009/10/24 16:33:01  revo
-Russ Williams: +trd en
-
-Revision 1.19  2006/02/21 17:32:57  revo
-Tulio Flores: +trd pt
-
-Revision 1.18  2004/09/16 16:32:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2003/11/08 08:20:24  revo
 -->
 </vortaro>

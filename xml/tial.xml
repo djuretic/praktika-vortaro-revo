@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tial.xml,v 1.28 2022/10/04 20:41:35 revo Exp $">
+<art mrk="$Id: tial.xml,v 1.33 2023/10/03 20:24:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tial</rad>
 </kap>
+<subart>
 <drv mrk="tial.0">
   <kap><ofc>*</ofc><tld/></kap>
   <gra><vspec>adverbo</vspec></gra>
@@ -36,7 +37,7 @@
           1907</vrk>
         </fnt>;
       </ekz>
-      <ekz> 
+      <ekz>
         &ccirc;ar <klr>[&#8230;]</klr> vi for&jcirc;etis &ccirc;iujn miajn konsilojn,
         <klr>[&#8230;]</klr> <tld/> anka&ubreve; mi ridos &ccirc;e via malfeli&ccirc;o
         <fnt>
@@ -82,8 +83,12 @@
     <trd>az&eacute;rt</trd>
   </trdgrp>
   <trd lng="id"><ind>karena</ind> itu</trd>
+  <trdgrp lng="ja">
+    <trd>&#x305D;&#x308C;&#12422;&#12360;</trd>,
+    <trd>&#12384;&#x304B;&#12425;</trd>
+  </trdgrp>
   <trd lng="nl">daarom</trd>
-  <trd lng="ro">de aceea <klr>(ca &scedil;i cauza, motiv)</klr></trd>
+  <trd lng="ro">de aceea <klr>(ca &#537;i cauza, motiv)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_t;&c_o;&c_m;&c_u;</trd>,
     <trd>&c_p;&c_o;&c_e;&c_t;&c_o;&c_m;&c_u;</trd>
@@ -164,6 +169,10 @@
     <trd>&c_shch;&#x43E;&#8230;</trd>
   </trdgrp>
 </drv>
+</subart>
+
+<subart>
+  <dif>Radiko kun la signifo &leftquot;tial&rightquot;.</dif>
 
 <drv mrk="tial.0o">
   <kap><tld/>o</kap>
@@ -175,10 +184,10 @@
         averte, mankovras la okulojn
         <fnt>
           <aut>Simono Pejno</aut>,
-          <vrk><url ref="&Monato;/rec/subt.html">Foliaro
+          <vrk><url ref="&Monato;/1999/subt.html">Foliaro
           plukinda</url></vrk>,
           <bib>Monato</bib>,
-          <lok>numero 1999-12</lok>
+          <lok>1999/12, p. 24</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -272,9 +281,52 @@
     <trd>zd&ocirc;vodni&tcaron;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="tial.ekzisto0o">
+  <kap>ekzisto<tld/>o</kap>
+  <snc mrk="tial.ekzisto0o.KOMUNE">
+    <dif>
+      <ref tip="dif" cel="kial.ekzisto0o">Ekzistokialo</ref>:
+      <ekz>
+        servi la homaron estu la ekzisto<tld/>o tiom de la individua
+        vivo kiom de la socia organizado
+        <fnt>
+          <lok><url ref="http://www.bahai.de/bahaaeligo/H-tekstoj/Prospero_Homaro.html">Mesa&gcirc;o de la
+          Universala Domo de Justeco, Bahaa Monda Centro, La 23an de januaro
+                  1995</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_s;&c_t;&c_a;&c_v;&c_a; &c_d;&c_l;&c_ja; &c_ib;&c_s;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</trd>
+  <trd lng="ca">ra&oacute; de ser <klr>(d'&eacute;sser)</klr></trd>
+  <trd lng="de">Existenzgrundlage</trd>
+  <trd lng="fr">raison d'&ecirc;tre</trd>
+  <trd lng="he">&samekh;&yod;&bet;&he; &qof;&yod;&vav;&mem;&yod;&tav;</trd>
+  <trdgrp lng="pl">
+    <trd>pow&oacute;d istnienia</trd>,
+    <trd>przyczyna istnienia</trd>
+  </trdgrp>
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_u;&c_m;&c_n;&c_o;&c_je;
+  &c_o;&c_s;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+</drv>
+
+</subart>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/03 20:24:54
+Wolfram Diestel: +subart I, II
+
+versio 1.31 2023/05/15 17:26:56
+Wolfram Diestel: ekzisto~o (el kial/)
+
+versio 1.30 2023/05/02 21:23:51
+Paul Peeraerts: esperanto.be -> &Monato;
+
+versio 1.29 2023/04/10 12:43:42
+Paul Peeraerts: kor de erara ref
+
 versio 1.28 2022/10/04 20:41:35
 Ulrich Fellmann: tial: + 1 DE trd
 
@@ -285,17 +337,5 @@ versio 1.25 2020/02/12 16:10:17
 Wolfram Diestel: fnt-oj, ekz-oj, germ trd-oj
 
 Revision 1.24  2017/11/12 01:10:11  revo
-Vito Redsky: +trd ro
-
-Revision 1.23  2016/02/10 21:10:19  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.22  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.21  2015/06/29 16:40:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.20  2014/10/28 04:10:31  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: silik.xml,v 1.22 2022/03/27 17:06:34 revo Exp $">
+<art mrk="$Id: silik.xml,v 1.25 2023/10/21 07:46:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>silik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -36,26 +36,28 @@
             </fnt>.
           </ekz>
     </dif>
-    <trd lng="be">&c_k;&c_r;&c_e;&c_m;&c_je;&c_n;&c_mol;</trd>  
+    <trd lng="be">&c_k;&c_r;&c_e;&c_m;&c_je;&c_n;&c_mol;</trd>
     <trdgrp lng="de">
       <trd><ofc>*</ofc>Kieselstein</trd>,
       <trd>Feuerstein</trd>
     </trdgrp>
-    <trd lng="en"><ofc>*</ofc>flint</trd>    
+    <trd lng="en"><ofc>*</ofc>flint</trd>
     <trdgrp lng="fr">
       <trd><ofc>*</ofc>silex</trd>,
       <trd><ofc>*</ofc>caillou</trd>
     </trdgrp>
-    <trd lng="hu">kovak&odblac;</trd>    
+    <trd lng="hu">kovak&odblac;</trd>
     <trd lng="pl"><ofc>*</ofc>krzemie&nacute;</trd>
     <trd lng="ru"><ofc>*</ofc>&c_k;&c_r;&c_je;&c_m;&c_je;&c_n;&c_mol;</trd>
   </snc>
   <snc mrk="silik.0o.silico">
-    <ref tip="dif" cel="silic.0o.GEOL">silico<sncref/></ref>
-    <ekz>
-      en la tertavoloj, en la <tld/>oj, en &ccirc;iuj periodoj de la tero
-      <fnt><bib>Fab4</bib> <lok>Turgardisto Ole</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="silic.0o.GEOL">Silico<sncref/></ref>:
+      <ekz>
+        en la tertavoloj, en la <tld/>oj, en &ccirc;iuj periodoj de la tero
+        <fnt><bib>Fab4</bib> <lok>Turgardisto Ole</lok></fnt>.
+      </ekz>
+    </dif>
     <trd lng="be">&c_k;&c_r;&c_e;&c_m;&c_n;&c_ja;&c_z;&c_jo;&c_m;</trd>
     <trdgrp lng="de">
       <trd>Flint</trd>,
@@ -71,20 +73,30 @@
     <trd>k&rcaron;emen</trd>,
     <trd>pazourek</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30B1;&#x30A4;&#x77F3;  <pr>&#x3051;&#x3044;&#x305B;&#x304D;</pr></trd>,
+    <trd>&#x706B;&#x6253;&#x77F3;  <pr>&#x3072;&#x3046;&#x3061;&#x3044;&#x3057;</pr></trd>
+  </trdgrp>
   <trd lng="nl">vuursteen</trd>
   <trdgrp lng="sk">
     <trd>kreme&ncaron;</trd>,
     <trd>paz&uacute;rik</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x440;&#x435;&#x43C;&#x456;&#x43D;&#x44C;</trd>,
-    <trd>&#x43A;&#x440;&#x435;&#x43C;&#x43D;&#x435;&#x437;&#x435;&#x43C;</trd>
+    <trd>&c_k;&c_r;&c_je;&c_m;&c_ib;&c_n;&c_mol;</trd>,
+    <trd>&c_k;&c_r;&c_je;&c_m;&c_n;&c_je;&c_z;&c_je;&c_m;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.23 2023/08/22 20:23:34
+Wolfram Diestel: dif ĉirkaŭ dif-ref
+
 versio 1.21 2022/02/25 06:36:03
 Sergio Pokrovskij: adm
 
@@ -101,11 +113,5 @@ Revision 1.16  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.15  2015/06/29 16:33:23  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.14  2010/12/28 08:46:47  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.13  2009/06/29 18:04:40  revo
 -->
 </vortaro>

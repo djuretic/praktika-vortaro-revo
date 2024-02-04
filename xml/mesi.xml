@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: mesi.xml,v 1.27 2022/03/23 14:01:46 revo Exp $">
+  <art mrk="$Id: mesi.xml,v 1.31 2024/01/25 20:10:36 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>mesi</rad>/o
@@ -57,7 +57,7 @@
         <trd lng="nl">messias</trd>
         <trd lng="pt">messias</trd>
       </snc>
-      <trd lng="be">&c_m;&c_e;&c_s;&c_ib;&c_ja;</trd>
+      <trd lng="be">&c_m;&c_e;&c_s;&c_y;&c_ja;</trd>
       <trd lng="ca">messies</trd>
       <trd lng="de">Messias</trd>
       <trdgrp lng="fa">
@@ -68,7 +68,11 @@
       </trdgrp>
       <trd lng="fr">Messie</trd>
       <trd lng="ru">&c_m;&c_je;&c_s;&c_s;&c_i;&c_ja;</trd>
-    </drv>
+      <trdgrp lng="zh">
+    <trd>&#x5F25;&#x8D5B;&#x4E9A; <pr>m&#xED;s&#xE0;iy&#xE0;</pr></trd>,
+    <trd>&#x5F4C;&#x8CFD;&#x4E9E; <pr>m&#xED;s&#xE0;iy&#xE0;</pr></trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="mesi.0anismo">
       <kap><tld/>anismo <fnt><bib>PIV2</bib></fnt></kap>
@@ -78,13 +82,15 @@
           Kredo je <tld/>o<sncref ref="mesi.0o.REL"/>.
         </dif>
       </snc>
+      <trd lng="be">&c_m;&c_e;&c_s;&c_y;&c_ja;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>
       <trd lng="ca">messianisme</trd>
       <trd lng="en">messianism</trd>
-      <trd lng="nl">messianisme</trd>
+      <trd lng="ja">&#x30E1;&#x30B7;&#x30A2;&#x4FE1;&#x4EF0;  <pr>&#x30E1;&#x30B7;&#x30A2;&#x3057;&#x3093;&#x3053;&#x3046;</pr></trd>
+  <trd lng="nl">messianisme</trd>
       <trd lng="ru">&c_m;&c_je;&c_s;&c_s;&c_i;&c_a;&c_n;&c_i;&c_z;&c_m;</trd>
       <trdgrp lng="uk">
-    <trd>&#x43C;&#x435;&#x441;&#x456;&#x430;&#x43D;&#x456;&#x437;&#x43C;</trd>,
-    <trd>&#x43C;&#x435;&#x441;&#x456;&#x430;&#x43D;&#x441;&#x442;&#x432;&#x43E;</trd>
+    <trd>&#x43C;&c_je;&c_s;&c_ib;&c_a;&#x43D;&c_ib;&c_z;&#x43C;</trd>,
+    <trd>&#x43C;&c_je;&c_s;&c_ib;&c_a;&#x43D;&c_s;&c_t;&c_v;&#x43E;</trd>
   </trdgrp>
 </drv>
 
@@ -114,12 +120,14 @@
             <fnt>
               <aut>Domenico Del Rio, tr. A. D. S.</aut>:
               <vrk>La papo, kiu venkobatis Markson</vrk>.
-              <lok><url ref="http://www.esperokatolika.org/ek19861990/ek1990_02.htm">Espero Katolika. 1990:2</url></lok>
+              <lok><url ref="http://www.esperokatolika.org/ek19861990/ek1990_02.htm">Espero
+              Katolika. 1990:2</url></lok>
             </fnt>.
           </ekz>
         </dif>
         <trd lng="ru">&c_m;&c_je;&c_s;&c_s;&c_i;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
       </snc>
+      <trd lng="be">&c_m;&c_e;&c_s;&c_y;&c_ja;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>
   <trd lng="ca">messianisme</trd>
   <trd lng="cs">mesianizmus</trd>
   <trd lng="en">messianism</trd>
@@ -130,6 +138,12 @@
   </art>
   <!--
   $Log$
+versio 1.30 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.28 2023/07/17 13:37:05
+Dmitri Gabinski: + trd be
+
   Revision 1.25  2015/06/29 16:33:20  revo
   aldono de trd sk per skripto de M. von Laer
 
@@ -146,35 +160,5 @@
   Behnam Tabatabai: +trd fa
 
   Revision 1.20  2009/02/23 17:30:50  revo
-  Russ Williams: +trd en
-
-  Revision 1.19  2008/06/23 16:30:15  revo
-  Sergio Pokrovskij: -tajperaroj
-
-  Revision 1.18  2008/06/20 16:30:19  revo
-  Sergio Pokrovskij: +~(an)ismo
-
-  Revision 1.17  2006/08/01 16:32:06  revo
-  Tulio Flores: +tr pt
-
-  Revision 1.16  2006/01/02 17:33:22  revo
-  Jeromo Vasxe: kor 1 bib N -> NT
-
-  Revision 1.15 2005/04/28 16:34:00 revo
-  Raul Salinas Monteagudo: korekto trd es
-
-  Revision 1.14 2005/04/10 16:33:44 revo
-  Alan ar Gall: +trd br
-
-  Revision 1.13 2004/01/31 17:31:34 revo
-  Emmanuel Debanne: +trd fr
-
-  Revision 1.12 2003/11/08 08:19:55 revo
-  Alejandro Mejia Greene: ald 2 his trd
-
-  Revision 1.11 2003/05/25 17:02:33 revo
-  Dmitri Gabinski: +trd be
-
-  Revision 1.10 2002/08/02 10:13:26 revo
-  -->
+-->
 </vortaro>

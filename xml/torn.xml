@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: torn.xml,v 1.26 2022/05/05 17:08:11 revo Exp $">
+<art mrk="$Id: torn.xml,v 1.30 2023/12/22 08:30:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>torn</rad>/i
@@ -22,7 +22,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        senmove staris la cikonio-patro <klr>[&#x2026;]</klr>, oni povus pensi, ke li estas
+        senmove staris la cikonio-patro <klr>[&#8230;]</klr>, oni povus pensi, ke li estas
         <tld/>ita el ligno
         <fnt>
           <bib>Fab1</bib>
@@ -30,7 +30,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        el mahagona ligno <klr>[&#x2026;li]</klr> la turbon <klr>[&#x2026;]</klr> tornis, li posedas
+        el mahagona ligno <klr>[&#8230;li]</klr> la turbon <klr>[&#8230;]</klr> tornis, li posedas
         propran <tld/>ostablon
         <fnt>
           <bib>Fab2</bib>
@@ -43,7 +43,7 @@
       </ekz>
     </dif>
     <trdgrp lng="be">
-      <trd>&c_t;&c_a;&c_ch;&c_y;&c_c;&c_mol;</trd>, 
+      <trd>&c_t;&c_a;&c_ch;&c_y;&c_c;&c_mol;</trd>,
       <trd>&c_v;&c_y;&c_t;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
     <trdgrp lng="de">
@@ -76,10 +76,10 @@
       Rondforme prilabori argilon fiksitan sur speciala turni&gcirc;anta
       plato por fari poton, vazon, kru&ccirc;on ks.
     </dif>
-    <trd lng="be">&c_l;&c_ja;&c_p;&c_ib;&c_c;&c_mol; <klr tip="amb">(&c_n;&c_a; &c_g;&c_a;&c_n;&c_ch;&c_a;&c_r;&c_n;&c_y;&c_m; &c_k;&c_r;&c_u;&c_z;&c_je;)</klr></trd>
+    <trd lng="be">&c_l;&c_ja;&c_p;&c_ib;&c_c;&c_mol; <klr tip="amb">(&c_n;&c_a; &c_g;&c_a;&c_n;&c_ch;&c_a;&c_r;&c_n;&c_y;&c_m; &c_k;&c_o;&c_l;&c_je;)</klr></trd>
     <trd lng="de">t&ouml;pfern</trd>
     <trd lng="en">turn<klr> (on a potter's wheel)</klr></trd>
-    <trd lng="fa">&a_s;&a_f;&a_A;&a_l;&zwnj;&f_g;&a_r;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
+    <trd lng="fa">&a_s;&a_f;&a_A;&a_l;&#8204;&f_g;&a_r;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
     <trd lng="pl">toczy&cacute; <klr> (lepi&cacute;) garnki</klr></trd>
     <trd lng="ru">&c_l;&c_je;&c_p;&c_i;&c_t;&c_mol; <klr tip="amb">(&c_n;&c_a; &c_g;&c_o;&c_n;&c_ch;&c_a;&c_r;&c_n;&c_o;&c_m; &c_k;&c_r;&c_u;&c_g;&c_je;)</klr></trd>
   </snc>
@@ -92,6 +92,12 @@
     <trd>form&aacute;z <klr tip="amb">(korongon)</klr></trd>,
     <trd>korongol</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x65CB;&#x524A;&#12377;&#x308B; <pr>&#12379;&#12435;&#12373;&#12367;&#12377;&#12427;</pr></trd>,
+    <trd>&#x308D;&#x304F;&#x308D;&#x306B;&#x304B;&#12369;&#x308B;</trd>,
+    <trd>&#x5DE7;&#x307F;&#x306B;&#12371;&#12375;&#12425;&#12360;&#x308B;
+    <pr>&#x305F;&#x304F;&#x307F;&#x306B;&#12371;&#12375;&#12425;&#12360;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">draaien<klr tip="ind"> (op draaibank of
   schijf)</klr></trd>
   <trdgrp lng="sk">
@@ -100,8 +106,8 @@
     <trd>to&ccaron;i&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x43E;&#x447;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x432;&#x438;&#x442;&#x43E;&#x447;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_t;&#x43E;&c_ch;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_t;&#x43E;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -127,6 +133,7 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="frez.0ilo">frezilo</ref>
+    <trd lng="be">&c_t;&c_a;&c_k;&c_a;&c_r;&c_n;&c_y; &c_s;&c_t;&c_a;&c_n;&c_o;&c_k;</trd>
     <trdgrp lng="de">
       <trd>Drehbank</trd>,
       <trd>Drechselbank</trd>
@@ -141,15 +148,19 @@
       Turni&gcirc;anta aparato konsistanta el plato por (mane) <tld/>i argilon
       en formon de poto, vazo, kru&ccirc;o ks.
     </dif>
+    <trd lng="be">&c_g;&c_a;&c_n;&c_ch;&c_a;&c_r;&c_n;&c_a;&c_je; &c_k;&c_o;&c_l;&c_a;</trd>
     <trd lng="de">T&ouml;pferscheibe</trd>
     <trd lng="en">potter's wheel</trd>
-    <trd lng="fa">&f_ch;&a_r;&a_kh; &a_s;&a_f;&a_A;&a_l;&zwnj;&f_g;&a_r;&f_y;</trd>
+    <trd lng="fa">&f_ch;&a_r;&a_kh; &a_s;&a_f;&a_A;&a_l;&#8204;&f_g;&a_r;&f_y;</trd>
     <trd lng="pl">ko&lstroke;o garncarskie</trd>
   </snc>
 
-  <trd lng="uk">&#x442;&#x43E;&#x43A;&#x430;&#x440;&#x43D;&#x438;&#x439; &#x432;&#x435;&#x440;&#x441;&#x442;&#x430;&#x442;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x65CB;&#x76E4;  <pr>&#x305B;&#12435;&#12400;&#12435;</pr></trd>,
+    <trd>&#x308D;&#x304F;&#x308D;</trd>
+  </trdgrp>
+  <trd lng="uk">&c_t;&#x43E;&#x43A;&c_a;&c_r;&#x43D;&c_i;&c_j; &c_v;&c_je;&c_r;&c_s;&c_t;&c_a;&c_t;</trd>
 </drv>
-
 
 <drv mrk="torn.pot0ilo">
   <kap>pot<tld/>ilo</kap>
@@ -166,9 +177,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_n;&c_ch;&c_a;&c_r;&c_n;&c_a;&c_je; &c_k;&c_o;&c_l;&c_a;</trd>
   <trd lng="de">T&ouml;pferscheibe</trd>
   <trd lng="en">potter's wheel</trd>
-  <trd lng="fa">&f_ch;&a_r;&a_kh; &a_s;&a_f;&a_A;&a_l;&zwnj;&f_g;&a_r;&f_y;</trd>
+  <trd lng="fa">&f_ch;&a_r;&a_kh; &a_s;&a_f;&a_A;&a_l;&#8204;&f_g;&a_r;&f_y;</trd>
   <trd lng="pl">ko&lstroke;o garncarskie</trd>
   <trd lng="cs">hrn&ccaron;&iacute;&rcaron;sk&yacute; kruh</trd>
   <trd lng="sk">hrn&ccaron;iarsky kruh</trd>
@@ -195,17 +207,32 @@
       <trd>Drechsler</trd>
     </trdgrp>
   </snc>
+  <trd lng="be">&c_t;&c_o;&c_k;&c_a;&c_r;</trd>
     <trdgrp lng="en">
       <trd>turner</trd>
     </trdgrp>
     <trd lng="fa">&a_t;&a_r;&a_A;&a_sh;&f_k;&a_A;&a_r;</trd>
     <trd lng="fr">tourneur</trd>
-    <trd lng="pl">tokarz</trd>
-  <trd lng="uk">&#x442;&#x43E;&#x43A;&#x430;&#x440;</trd>
+    <trdgrp lng="ja">
+    <trd>&#x65CB;&#x76E4;&#x5DE5;  <pr>&#x305B;&#12435;&#12400;&#12435;&#12371;&#12358;</pr></trd>,
+    <trd>&#x308D;&#x304F;&#x308D;&#32887;&#x4EBA;
+    <pr>&#x308D;&#x304F;&#x308D;&#12375;&#12423;&#x304F;&#x306B;&#12435;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">tokarz</trd>
+  <trd lng="uk">&c_t;&#x43E;&#x43A;&c_a;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.30 2023/12/22 08:30:29
+Dmitri Gabinski: + trd be
+
+versio 1.29 2023/10/21 14:37:42
+revo: transskribo per <pr>
+
+versio 1.28 2023/09/12 19:20:09
+Wolfram Diestel: pr. ja
+
 versio 1.26 2022/05/05 17:08:11
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -219,14 +246,5 @@ Revision 1.21  2015/07/04 08:37:45  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.20  2015/06/29 16:40:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.19  2013/04/08 07:10:11  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2012/03/26 10:10:11  revo
-Dominique Pelle: por torn -> por torni
-
-Revision 1.17  2011/01/03 15:25:09  revo
 -->
 </vortaro>

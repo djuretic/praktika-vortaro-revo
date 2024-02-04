@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kokos.xml,v 1.26 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: kokos.xml,v 1.30 2023/12/03 09:58:52 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kokos</rad>/o
@@ -71,16 +71,24 @@
   </trdgrp>
   <trd lng="hu">k&oacute;kusz(di&oacute;)</trd>
   <trd lng="id">kelapa</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30E4;&#x30B7;&#x306E;&#x5B9F;  <pr>&#x30E4;&#x30B7;&#x306E;&#x307F;</pr></trd>,
+    <trd>&#x30B3;&#x30B3;&#x30CA;&#x30C3;&#x30C4;</trd>
+  </trdgrp>
   <trd lng="nl">kokosnoot</trd>
   <trdgrp lng="pl">
     <trd>kokos</trd>,
     <trd>orzech kokosowy</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ro">nuc&abreve; de cocos</trd>
   <trd lng="ru">&c_k;&c_o;&c_k;&c_o;&c_s;</trd>
   <trdgrp lng="sk">
     <trd>kokos</trd>,
     <trd>kokosov&yacute; orech</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6930;&#x5B50; <pr>y&#x113;zi</pr></trd>,
+    <trd>&#x6930;&#x5B50; <pr>y&#xE9;zi</pr></trd>
   </trdgrp>
 </drv>
 
@@ -102,7 +110,8 @@
         </fnt>.
       </ekz>
     </dif>
-    <bld lok="&WCU;/thumb/2/20/Coconuttree.JPG/640px-Coconuttree.JPG" prm="CC-BY-SA-3.0"><tld/>arbo (Cocos nucifera)
+    <bld lok="&WCU;/thumb/2/20/Coconuttree.JPG/640px-Coconuttree.JPG" prm="CC-BY-SA-3.0"><tld/>arbo
+    (Cocos nucifera)
         <fnt>
           <lok><url ref="&WCW;/File:Coconuttree.JPG">&WCW;/File:Coconuttree.JPG</url></lok>
         </fnt>
@@ -111,7 +120,7 @@
   <trd lng="be">&c_k;&c_a;&c_k;&c_o;&c_s;&c_a;&c_v;&c_a;&c_ja; &c_p;&c_a;&c_l;&c_mol;&c_m;&c_a;</trd>
   <trd lng="bg">&c_k;&c_o;&c_k;&c_o;&c_s;&c_o;&c_v;&c_a; &c_p;&c_a;&c_l;&c_m;&c_a;</trd>
   <trdgrp lng="br">
-    <trd>gwezenn-gokoz</trd>, 
+    <trd>gwezenn-gokoz</trd>,
     <trd>kokozenn<klr tip="ind"> (gwezenn)</klr></trd>
   </trdgrp>
   <trd lng="ca">cocoter</trd>
@@ -121,20 +130,35 @@
   <trd lng="es">cocotero</trd>
   <trd lng="fr">cocotier</trd>
   <trd lng="hu">k&oacute;kuszp&aacute;lma</trd>
+  <trd lng="id"><ind>pohon</ind> kelapa</trd>
+  <trd lng="ja">&#x30B3;&#x30B3;&#x30E4;&#x30B7;</trd>
   <trd lng="nl">kokospalm</trd>
-  <trd lng="pl">palma kokosowa</trd>     
+  <trd lng="pl">palma kokosowa</trd>
   <trd lng="ro">palmele nuc&abreve; de cocos </trd>
   <trd lng="ru">&c_k;&c_o;&c_k;&c_o;&c_s;&c_o;&c_v;&c_a;&c_ja;
 &c_p;&c_a;&c_l;&c_mol;&c_m;&c_a;</trd>
   <trd lng="sk">kokosovn&iacute;k</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x43A;&#x43E;&#x441;</trd>,
-    <trd>&#x43A;&#x43E;&#x43A;&#x43E;&#x441;&#x43E;&#x432;&#x430; &#x43F;&#x430;&#x43B;&#x44C;&#x43C;&#x430;</trd>
+    <trd>&#x43A;&#x43E;&#x43A;&#x43E;&c_s;</trd>,
+    <trd>&#x43A;&#x43E;&#x43A;&#x43E;&c_s;&#x43E;&c_v;&c_a; &#x43F;&c_a;&#x43B;&#x44C;&#x43C;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6930; <pr>y&#x113;</pr></trd>,
+    <trd>&#x6930;&#x5B50; <pr>y&#x113;zi</pr></trd>,
+    <trd>&#x6930; <pr>y&#xE9;</pr></trd>,
+    <trd>&#x6930;&#x5B50; <pr>y&#xE9;zi</pr></trd>,
+    <trd>&#x6930;&#x5B50;&#x6811; <pr>y&#x113;zish&#xF9;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/28 09:25:00
+Eko Nur Syah Hidayat: +trd id 2
+
+versio 1.28 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
 versio 1.26 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -151,11 +175,5 @@ Revision 1.20  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.19  2014/06/04 03:10:46  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.18  2013/07/16 09:10:16  revo
-Marc Rausell: + trd ca
-
-Revision 1.17  2012/02/08 20:10:07  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: merg.xml,v 1.19 2022/06/10 08:35:49 revo Exp $">
+<art mrk="$Id: merg.xml,v 1.23 2024/01/25 20:10:36 revo Exp $">
 <kap>
    <rad>merg</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -75,7 +75,12 @@
      <trd>bemer&iacute;t</trd>,
      <trd>lemer&iacute;t</trd>
    </trdgrp>
-   <trd lng="nl">onderdompelen</trd>
+   <trdgrp lng="ja">
+    <trd>&#x3064;&#x3051;&#x308B;</trd>,
+    <trd>&#x3072;&#x305F;&#x3059;</trd>,
+    <trd>&#x6C88;&#x3081;&#x308B;  <pr>&#x3057;&#x305A;&#x3081;&#x308B;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">onderdompelen</trd>
    <trdgrp lng="pl">
      <trd>zanurza&cacute;</trd>,
      <trd>pogr&aogonek;&zdot;a&cacute;</trd>
@@ -97,6 +102,11 @@
     <trd>&c_z;&c_a;&#x43D;&c_u;&c_r;&#x44F;&c_t;&c_i;</trd>,
     <trd>&c_u;&c_s;&c_t;&c_r;&#x43E;&#x43C;&#x43B;&#x44F;&c_t;&c_i; (&c_v; &c_r;&c_ib;&c_d;&c_i;&#x43D;&c_u;)</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6C89;&#x6D78; <pr>ch&#xE9;nj&#xEC;n</pr></trd>,
+    <trd>&#x6D78;&#x6CE1; <pr>j&#xEC;np&#xE0;o</pr></trd>,
+    <trd>&#x6D78;&#x6D17; <pr>j&#xEC;nx&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="merg.0igxi">
@@ -117,15 +127,15 @@
       </ekz>
       <ekz>
         li <tld/>i&gcirc;is en subkonscian lagon de emocioj
-        <fnt>
+       <fnt>
+          <aut>Konstanten Krysakov</aut>
+          <vrk><url ref="&Monato;/2000/006805.php">Kota akvo</url></vrk>
           <bib>Monato</bib>
-          <aut>Geraldo Mattos</aut>
-          <vrk><url ref="&Steloj;monato2/006805.html">Kota Akvo: Konstanten
-          Krysakov</url></vrk>
-        </fnt>;
+          <lok>2000/03, p. 28</lok>
+          </fnt>;
       </ekz>
       <ekz>
-        la veraj faktoj <tld/>i&gcirc;as en mar&ccirc;o de <klr>[&#8230;]</klr> duonfaktoj
+        la veraj faktoj <tld/>i&gcirc;as en mar&ccirc;o de <klr>[&#x2026;]</klr> duonfaktoj
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
@@ -160,7 +170,11 @@
      <trd>belemer&uuml;l</trd>
      <trd>els&uuml;llyed</trd>
    </trdgrp>
-   <trd lng="nl">zinken</trd>
+   <trdgrp lng="ja">
+    <trd>&#x3064;&#x304B;&#x308B;</trd>,
+    <trd>&#x6C88;&#x3080;  <pr>&#x3057;&#x305A;&#x3080;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">zinken</trd>
    <trdgrp lng="pl">
      <trd>pogr&aogonek;&zdot;a&cacute; si&eogonek;</trd>,
      <trd>ton&aogonek;&cacute;</trd>
@@ -228,7 +242,8 @@
   </rim>
    <trd lng="be">&c_v;&c_y;&c_n;&c_u;&c_c;&c_mol; <klr tip="amb">(&c_z; &c_v;&c_a;&c_d;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ib;)</klr>
    </trd>
-   <trdgrp lng="nl">
+   <trd lng="ja">&#x5F15;&#x304D;&#x4E0A;&#x3052;&#x308B;  <pr>&#x3072;&#x304D;&#x3042;&#x3052;&#x308B;</pr></trd>
+  <trdgrp lng="nl">
      <trd>ophalen</trd>,
      <trd>uittrekken</trd>
    </trdgrp>
@@ -275,10 +290,15 @@
   </trdgrp>
   <trd lng="de">auftauchen</trd>
   <trd lng="fr">&eacute;merger</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9854;&#x3092;&#x51FA;&#x3059;  <pr>&#x304B;&#x304A;&#x3092;&#x3060;&#x3059;</pr></trd>,
+    <trd>&#x6D6E;&#x304B;&#x3073;&#x51FA;&#x308B;  <pr>&#x3046;&#x304B;&#x3073;&#x3067;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">oprijzen</trd>
   <trd lng="hu">
    felbukkan <klr tip="amb">(folyad&eacute;kb&oacute;l)</klr></trd>
   <trd lng="pl">wynurza&cacute; si&eogonek;</trd>
+  <trd lng="zh">&#x6D6E;&#x51FA; <pr>f&#xFA;ch&#x16B;</pr></trd>
 </drv>
 
 <drv mrk="merg.sub0eblasxipo">
@@ -288,7 +308,7 @@
       &Scirc;ipo ks, povanta veturi surakve kaj enakve:
       <ekz>
         la unua superprofundakva <ind>duon-sub<tld/>ebla</ind> drilo-platformo de &Ccirc;inio
-        <klr>[&#8230;]</klr> ekfunkciis en &Scirc;anhajo
+        <klr>[&#x2026;]</klr> ekfunkciis en &Scirc;anhajo
         <fnt>
           <aut>Niu Xueqin</aut>
           <lok><url ref="http://www.espero.com.cn/se/txt/2011-05/24/content_360224.htm">Espero,
@@ -321,6 +341,12 @@
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.20 2023/04/17 15:28:24
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.19 2022/06/10 08:35:49
 Dmitri Gabinski: + trd be
 
@@ -337,11 +363,5 @@ versio 1.14 2021/08/18 18:34:25
 Wolfram Diestel: +ekz-oj
 
 Revision 1.12  2008/06/05 16:30:23  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.11  2008/05/25 18:38:40  revo
-Mireille Corobu: +trd fr
-
-Revision 1.10  2006/07/31 16:33:07  revo
 -->
 </vortaro>

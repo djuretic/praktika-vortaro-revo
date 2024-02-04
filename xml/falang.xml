@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: falang.xml,v 1.27 2022/11/22 09:31:03 revo Exp $">
+<art mrk="$Id: falang.xml,v 1.30 2023/11/09 19:13:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>falang</rad>/o <fnt><bib>PV</bib></fnt>
@@ -70,7 +70,11 @@
     <trd lng="hu">falanx</trd>
     <trd lng="pl">falanga</trd>
     <trd lng="pt">falange</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4F5C;&#x6218;&#x5E8F;&#x5217; <pr>zu&#xF2;zh&#xE0;nx&#xF9;li&#xE8;</pr></trd>,
+    <trd>&#x9635; <pr>zh&#xE8;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="falang.0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
@@ -86,7 +90,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        kiaj estos por &scirc;i tiuj homaj ekzista&jcirc;oj, kiuj tie bruas <klr>[&#8230;]</klr> &ccirc;u ili
+        kiaj estos por &scirc;i tiuj homaj ekzista&jcirc;oj, kiuj tie bruas <klr>[&#x2026;]</klr> &ccirc;u ili
         estos por &scirc;i justaj a&ubreve; kruelaj, favorkoraj a&ubreve; senkompataj? &ccirc;u malfermi&gcirc;os
         anta&ubreve; &scirc;iaj pa&scirc;oj tiuj dense fermitaj falangoj, kiuj pu&scirc;i&gcirc;as al la feli&ccirc;o kaj
         bonstato, a&ubreve; &ccirc;u ili fermi&gcirc;os ankora&ubreve; pli dense, por ke la novevenintino ne
@@ -126,6 +130,11 @@
   </trdgrp>
   <trd lng="fr">phalange</trd>
   <trd lng="it">falange</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5BC6;&#x96C6;&#x65B9;&#x9663;  <pr>&#x307F;&#x3063;&#x3057;&#x3085;&#x3046;&#x307B;&#x3046;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x30D5;&#x30A1;&#x30E9;&#x30F3;&#x30AF;&#x30B9;</trd>,
+    <trd>&#x6307;&#x7BC0;&#x9AA8;  <pr>&#x3086;&#x3073;&#x305B;&#x3064;&#x3053;&#x3064;</pr></trd>
+  </trdgrp>
   <trd lng="pt">falange</trd>
   <trd lng="ru">&c_f;&c_a;&c_l;&c_a;&c_n;&c_g;&c_a;</trd>
   <trdgrp lng="sk">
@@ -168,6 +177,9 @@
 
 <!--
 $Log$
+versio 1.29 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
 versio 1.27 2022/11/22 09:31:03
 Dmitri Gabinski: + trd be
 
@@ -187,8 +199,5 @@ Revision 1.20  2013/05/08 11:10:10  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.19  2012/08/22 00:10:20  revo
-Marc Rausell: + trd ca
-
-Revision 1.18  2011/04/29 19:10:26  revo
 -->
 </vortaro>

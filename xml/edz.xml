@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: edz.xml,v 1.148 2022/06/29 07:31:29 revo Exp $">
+<art mrk="$Id: edz.xml,v 1.158 2023/11/07 19:21:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>edz</rad>/o <fnt><bib>PV</bib></fnt>
@@ -25,7 +25,7 @@
     <trd>&c_s;&c_malmol;&c_p;&c_r;&c_u;&c_g;</trd>,
     <trd>&c_m;&c_malmol;&c_zh;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF41;&#xFB1;&#xF7C;&#xF0B;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_kha;&t_yata;&t_naro;&t_tsheg;&t_ga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>cho&tcaron;</trd>,
     <trd>man&zcaron;el</trd>,
@@ -48,8 +48,12 @@
     <trd>mari</trd>
   </trdgrp>
   <trd lng="hu">f&eacute;rj</trd>
-  <trd lng="id">suami</trd>
+  <trdgrp lng="id">
+    <trd>laki</trd>,
+    <trd>suami</trd>
+  </trdgrp>
   <trd lng="io">spozulo</trd>
+  <trd lng="ja">&#x592B;  <pr>&#x3064;&#x307E;</pr></trd>
   <trd lng="ku">bijin</trd>
   <trdgrp lng="nl">
     <trd>echtgenoot</trd>,
@@ -73,14 +77,23 @@
     <trd>mo&zcaron;</trd>,
     <trd>soprog</trd>
   </trdgrp>
+  <trd lng="sw">mume</trd>
   <trd lng="tok">mije</trd>
   <trdgrp lng="tr">
     <trd>koca</trd>,
     <trd>e&scedil;</trd>,
      <trd>evli</trd>
   </trdgrp>
-  <trd lng="uk">&c_ch;&#x43E;&#x43B;&#x43E;&c_v;&c_ib;&#x43A; (&c_u; &c_sh;&#x43B;&#x44E;&c_b;&c_ib;)</trd>
+  <trd lng="uk">&c_ch;&c_o;&c_l;&c_o;&c_v;&c_ib;&c_k; (&c_u; &c_sh;&c_l;&c_ju;&c_b;&c_ib;)</trd>
   <trd lng="vo">himatan</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E08;&#x592B; <pr>zh&#xE0;ngfu</pr></trd>,
+    <trd>&#x592B; <pr>f&#x16B;</pr></trd>,
+    <trd>&#x5148;&#x751F; <pr>xi&#x101;nsh&#x113;ng</pr></trd>,
+    <trd>&#x826F;&#x4EBA; <pr>li&#xE1;ngr&#xE9;n</pr></trd>,
+    <trd>&#x5148;&#x751F; <pr>xi&#x101;nsheng</pr></trd>,
+    <trd>&#x611B;&#x4EBA; <pr>&#xE0;ir&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edz.0ino">
@@ -110,7 +123,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>in' admirata &#8208; <tld/>o malsata
+        <tld/>in' admirata &#x2010; <tld/>o malsata
         <fnt>
           <bib>PrV</bib>
         </fnt>;
@@ -121,8 +134,8 @@
     </dif>
   </snc>
   <trd lng="af">vrou</trd>
-  <trd lng="am">&#x121A;&#4661;&#4725;</trd>
-  <trd lng="ar">&a_z;&a_w;&#x62C;&a_t_marbuta;</trd>
+  <trd lng="am">&#x121A;&#x1235;&#x1275;</trd>
+  <trd lng="ar">&a_z;&a_w;&a_j;&a_t_marbuta;</trd>
   <trd lng="az">arvad</trd>
   <trd lng="be">&c_zh;&c_o;&c_n;&c_k;&c_a;</trd>
   <trdgrp lng="bg">
@@ -130,7 +143,7 @@
     <trd>&c_zh;&c_je;&c_n;&c_a;</trd>
   </trdgrp>
   <trd lng="bn">&#x9B8;&#x9CD;&#x9A4;&#x9CD;&#x9B0;&#x9C0;</trd>
-  <trd lng="bo">&#xF66;&#xF90;&#xFB1;&#xF7A;&#xF66;&#xF0B;&#xF51;&#xF58;&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_kata;&t_yata;&t_drengbu;&t_sa;&t_tsheg;&t_da;&t_ma;&t_na;&t_tsheg;</trd>
   <trd lng="bs">supruga</trd>
   <trd lng="co">moglia</trd>
   <trdgrp lng="cs">
@@ -159,7 +172,7 @@
     <trd>femme<klr tip="ind"> (&eacute;pouse)</klr></trd>
   </trdgrp>
   <trd lng="fy">frou</trd>
-  <trd lng="ga">bean ch&#xE9;ile</trd>
+  <trd lng="ga">bean ch&eacute;ile</trd>
   <trd lng="gd">bhean</trd>
   <trd lng="gl">esposa</trd>
   <trd lng="gu">&#xAAA;&#xAA4;&#xACD;&#xAA8;&#xAC0;</trd>
@@ -168,39 +181,42 @@
     <trd>&bet;&tav; &zayin;&vav;&gimel;</trd>,
     <trd>&resh;&ayin;&yod;&he;</trd>
   </trdgrp>
-  <trd lng="hi">&#x92A;&#2340;&#x94D;&#2344;&#2368;</trd>
+  <trd lng="hi">&#x92A;&#x924;&#x94D;&#x928;&#x940;</trd>
   <trd lng="hmn">tus poj niam</trd>
-  <trd lng="hr">&#x17E;ena</trd>
+  <trd lng="hr">&zcaron;ena</trd>
   <trd lng="ht">madanm</trd>
   <trd lng="hu">feles&eacute;g</trd>
-  <trd lng="hy">&#x56F;&#x56B;&#1398;</trd>
-  <trd lng="id">istri</trd>
+  <trd lng="hy">&#x56F;&#x56B;&#x576;</trd>
+  <trdgrp lng="id">
+    <trd>bini</trd>,
+    <trd>istri</trd>
+  </trdgrp>
   <trd lng="ig">nwunye</trd>
   <trd lng="io">spozino</trd>
   <trd lng="is">kona</trd>
-  <trd lng="ja">&#x59BB;</trd>
+  <trd lng="ja">&#x59BB; <pr>&#x3064;&#x307E;</pr></trd>
   <trd lng="jv">bojo</trd>
   <trd lng="ka">&#x10EA;&#x10DD;&#x10DA;&#x10D8;</trd>
-  <trd lng="kk">&#x4D9;&c_j;&c_je;&#x43B;</trd>
-  <trd lng="km">&#6036;&#x17D2;&#x179A;&#6038;&#6035;&#x17D2;&#6034;</trd>
+  <trd lng="kk">&#x4D9;&c_j;&c_je;&c_l;</trd>
+  <trd lng="km">&#x1794;&#x17D2;&#x179A;&#x1796;&#x1793;&#x17D2;&#x1792;</trd>
   <trd lng="kn">&#xCAA;&#xCA4;&#xCCD;&#xCA8;&#xCBF;</trd>
   <trd lng="ko">&#xC544;&#xB0B4;</trd>
   <trd lng="ku">bim&ecirc;r</trd>
-  <trd lng="ky">&c_a;&#x44F;&#x43B;</trd>
+  <trd lng="ky">&c_a;&c_ja;&c_l;</trd>
   <trd lng="lat">uxorem</trd>
   <trd lng="lo">&#xE9E;&#xEB1;&#xE99;&#xEA5;&#xEB0;&#xE8D;&#xEB2;&#xE82;&#xEAD;&#xE87;</trd>
-  <trd lng="lt">&#x17E;mona</trd>
+  <trd lng="lt">&zcaron;mona</trd>
   <trd lng="lv">sieva</trd>
   <trd lng="mg">vadiny</trd>
   <trd lng="mi">wahine</trd>
-  <trd lng="mk">&c_s;&#x43E;&#x43F;&c_r;&c_u;&c_g;&c_a;</trd>
+  <trd lng="mk">&c_s;&c_o;&c_p;&c_r;&c_u;&c_g;&c_a;</trd>
   <trd lng="ml">&#xD2D;&#xD3E;&#xD30;&#xD4D;&#xD2F;</trd>
-  <trd lng="mn">&#x44D;&c_h;&#x43D;&#x44D;&c_r;</trd>
-  <trd lng="mr">&#x92A;&#2340;&#x94D;&#2344;&#2368;</trd>
+  <trd lng="mn">&c_e;&c_h;&c_n;&c_e;&c_r;</trd>
+  <trd lng="mr">&#x92A;&#x924;&#x94D;&#x928;&#x940;</trd>
   <trd lng="ms">isteri</trd>
   <trd lng="mt">mara</trd>
-  <trd lng="my">&#4103;&#4116;&#x102E;&#4152;</trd>
-  <trd lng="ne">&#x92A;&#2340;&#x94D;&#2344;&#2368;</trd>
+  <trd lng="my">&#x1007;&#x1014;&#x102E;&#x1038;</trd>
+  <trd lng="ne">&#x92A;&#x924;&#x94D;&#x928;&#x940;</trd>
   <trdgrp lng="nl">
     <trd>echtgenote</trd>,
     <trd>vrouw<klr tip="ind"> (echtgenote)</klr></trd>
@@ -211,7 +227,7 @@
     <trd>&zdot;ona</trd>,
     <trd>ma&lstroke;&zdot;onka</trd>
   </trdgrp>
-  <trd lng="ps">&#x69A;&#1665;&a_h;</trd>
+  <trd lng="ps">&#x69A;&#x681;&a_h;</trd>
   <trdgrp lng="pt">
     <trd>mulher <klr tip="amb">(esposa)</klr></trd>,
     <trd>esposa</trd>,
@@ -238,7 +254,7 @@
   <trd lng="sw">mke</trd>
   <trd lng="ta">&#xBAE;&#xBA9;&#xBC8;&#xBB5;&#xBBF;</trd>
   <trd lng="te">&#xC2D;&#xC3E;&#xC30;&#xC4D;&#xC2F;</trd>
-  <trd lng="tg">&c_z;&c_a;&#x43D;&c_i;</trd>
+  <trd lng="tg">&c_z;&c_a;&c_n;&c_i;</trd>
   <trd lng="th">&#xE20;&#xE23;&#xE23;&#xE22;&#xE32;</trd>
   <trd lng="tl">asawa</trd>
   <trd lng="tok">meli</trd>
@@ -247,15 +263,28 @@
     <trd>e&scedil;</trd>,
     <trd>evli</trd>
   </trdgrp>
-  <trd lng="tt">&c_h;&c_a;&c_t;&#x44B;&#x43D;&#x44B;</trd>
-  <trd lng="uk">&c_d;&c_r;&c_u;&c_zh;&c_i;&#x43D;&c_a;</trd>
-  <trd lng="ur">&a_b;&#x6CC;&a_w;&#x6CC;</trd>
+  <trd lng="tt">&c_h;&c_a;&c_t;&c_y;&c_n;&c_y;</trd>
+  <trd lng="uk">&c_d;&c_r;&c_u;&c_zh;&c_i;&c_n;&c_a;</trd>
+  <trd lng="ur">&a_b;&f_y;&a_w;&f_y;</trd>
   <trd lng="uz">rafiqa</trd>
   <trd lng="vi">v&#x1EE3;</trd>
   <trd lng="vo">jimatan</trd>
   <trd lng="xh">inkosikazi</trd>
-  <trd lng="yi">&#x5E4;&#x5E8;&#x5D5;&#x5D9;</trd>
+  <trd lng="yi">&pe;&resh;&vav;&yod;</trd>
   <trd lng="yo">iyawo</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5AB3;&#x513F; <pr>x&#xED;r</pr></trd>,
+    <trd>&#x592A;&#x592A; <pr>t&#xE0;itai</pr></trd>,
+    <trd>&#x5987;&#x4EBA; <pr>f&#xF9;r&#xE9;n</pr></trd>,
+    <trd>&#x5167;&#x52A9; <pr>n&#xE8;izh&#xF9;</pr></trd>,
+    <trd>&#x8001;&#x5A46; <pr>l&#x1CE;opo</pr></trd>,
+    <trd>&#x59BB; <pr>q&#x12B;</pr></trd>,
+    <trd>&#x5AB3;&#x5987; <pr>x&#xED;f&#xF9;</pr></trd>,
+    <trd>&#x5AE1;&#x914D; <pr>d&#xED;p&#xE8;i</pr></trd>,
+    <trd>&#x5BB6;&#x5BA4; <pr>ji&#x101;sh&#xEC;</pr></trd>,
+    <trd>&#x4F09; <pr>k&#xE0;ng</pr></trd>,
+    <trd>&#x5987; <pr>f&#xF9;</pr></trd>
+  </trdgrp>
   <trd lng="zu">umkakho</trd>
 </drv>
 
@@ -291,9 +320,13 @@
       <trd>prendre en <ind>mariage</ind></trd>
     </trdgrp>
     <trd lng="de">heiraten</trd>
-    <trd lng="hu">elvesz<klr tip="ind"> 
+    <trd lng="hu">elvesz<klr tip="ind">
     (f&eacute;rj&uuml;l/feles&eacute;g&uuml;l)</klr></trd>
-    <trd lng="id">me<ind>nikah</ind>i</trd>
+    <trdgrp lng="id">
+      <trd>me<ind>nikah</ind>i</trd>,
+      <trd><baz>kawin</baz>mengawini</trd>,
+      <trd>memper<ind>suami</ind></trd>
+    </trdgrp>
     <trd lng="tr">evlendirmek</trd>
   </snc>
   <snc mrk="edz.0igi.doni">
@@ -303,7 +336,7 @@
         la familio volis <tld/>igi lin al unu kuzino, kies
         firma karaktero estis bone konata
         <fnt>
-          <aut>G. Waringhien</aut>, 
+          <aut>G. Waringhien</aut>,
           <vrk>Pa&ubreve;lo Verlaine</vrk>.
           <lok>Nica Literatura Revuo, 1957-11 &gcirc;is 13 (3:2)</lok>
         </fnt>.
@@ -319,12 +352,18 @@
       <trd>donner en <ind>mariage</ind></trd>
     </trdgrp>
     <trdgrp lng="hu">
-      <trd>megh&aacute;zas&iacute;t<klr tip="ind"> 
+      <trd>megh&aacute;zas&iacute;t<klr tip="ind">
       (f&eacute;rfit/n&odblac;t)</klr></trd>,
-      <trd>hozz&aacute;ad<klr tip="ind"> 
+      <trd>hozz&aacute;ad<klr tip="ind">
       (f&eacute;rj&uuml;l/n&odblac;&uuml;l)</klr></trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="id">
+      <trd>me<ind>nikah</ind>kan</trd>,
+      <trd><baz>kawin</baz>mengawinkan</trd>,
+      <trd>memper<ind>suami</ind>kan</trd>
+    </trdgrp>
+    <trd lng="zh">&#x4E3E;&#x529E;&#x5A5A;&#x793C; <pr>j&#x1D4;b&#xE0;nh&#x16B;nl&#x1D0;</pr></trd>
+</snc>
   <trdgrp lng="cs">
     <trd>oddat <klr>(s n&ecaron;k&yacute;m)</klr></trd>,
     <trd>o&zcaron;enit</trd>,
@@ -332,9 +371,13 @@
   </trdgrp>
   <trd lng="en">marry</trd>
   <trd lng="es">casar (a un hombre)</trd>
-  <trd lng="id">me<ind>nikah</ind>kan</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D50;&#x5A5A;&#x3055;&#x305B;&#x308B;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5A7F;&#x306B;&#x3084;&#x308B;  <pr>&#x3080;&#x3053;&#x306B;&#x3084;&#x308B;</pr></trd>,
+    <trd>&#x592B;&#x306B;&#x3059;&#x308B;  <pr>&#x304A;&#x3063;&#x3068;&#x306B;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">uithuwelijken</trd>
-  <trdgrp lng="pl"> 
+  <trdgrp lng="pl">
     <trd>&zdot;eni&cacute;</trd>,
     <trd>o&zdot;eni&cacute;</trd>,
     <trd>swata&cacute;</trd>,
@@ -342,7 +385,7 @@
   </trdgrp>
   <trd lng="ru">&c_zh;&c_je;&c_n;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">o&zcaron;eni&tcaron; <klr>(z niek&yacute;m)</klr></trd>
-  <trd lng="uk">&c_zh;&c_je;&#x43D;&c_i;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_zh;&c_je;&c_n;&c_i;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="edz.0iga">
@@ -387,6 +430,15 @@
     <trd>&c_sh;&c_l;&c_ju;&c_b;&c_n;&c_y;</trd>,
     <trd>&c_v;&c_ja;&c_s;&c_je;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Ehe-, </trd>,
+    <trd>Heirats-</trd>
+  </trdgrp>
+  <trd lng="en">marriage</trd>
+  <trdgrp lng="id">
+    <trd>per<ind>nikah</ind>an</trd>,
+    <trd>per<ind>kawin</ind>an</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>weselny</trd>,
     <trd>&sacute;lubny</trd>
@@ -398,16 +450,16 @@
   <kap><tld/>inigi</kap>
   <snc mrk="edz.0inigi.doni">
     <dif>
-      Fari iun ies <tld/>ino per la&ubreve;le&gcirc;a a&ubreve; 
+      Fari iun ies <tld/>ino per la&ubreve;le&gcirc;a a&ubreve;
       religia ligo:
       <ekz>
-        &scirc;iaj gepatroj volis &scirc;in <tld/>inigi kun alia 
+        &scirc;iaj gepatroj volis &scirc;in <tld/>inigi kun alia
         persono
         <fnt><bib>F</bib>, <lok>&FE;39.</lok></fnt>;
       </ekz>
       <ekz>
         tial la onklino konstante paroladis: al Eminjo mi
-        donos bonan edukon kaj poste mi &scirc;in bone 
+        donos bonan edukon kaj poste mi &scirc;in bone
         <tld/>inigos
         <fnt><bib>Marta</bib></fnt>;
       </ekz>
@@ -423,7 +475,7 @@
         <fnt><bib>MT</bib>, <lok>&Jer; 29:6</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>igu filon, kiam vi volas &#8208; <tld/>inigu filinon, kiam vi
+        <tld/>igu filon, kiam vi volas &#x2010; <tld/>inigu filinon, kiam vi
         povas
         <fnt>
           <bib>PrV</bib>
@@ -444,10 +496,15 @@
       <trd>donner en <ind>mariage</ind></trd>
     </trdgrp>
     <trdgrp lng="hu">
-      <trd>megh&aacute;zas&iacute;t<klr tip="ind"> 
+      <trd>megh&aacute;zas&iacute;t<klr tip="ind">
       (f&eacute;rfit/n&odblac;t)</klr></trd>,
-      <trd>hozz&aacute;ad<klr tip="ind"> 
+      <trd>hozz&aacute;ad<klr tip="ind">
       (f&eacute;rj&uuml;l/n&odblac;&uuml;l)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd>me<ind>nikah</ind>kan</trd>,
+      <trd><baz>kawin</baz>mengawinkan</trd>,
+      <trd>memper<ind>istri</ind>kan</trd>
     </trdgrp>
     <trd lng="es">casar (a una mujer)</trd>
     <trdgrp lng="pl">
@@ -493,8 +550,13 @@
       <trd>prendre en <ind>mariage</ind></trd>
     </trdgrp>
     <trd lng="de">heiraten</trd>
-    <trd lng="hu">elvesz<klr tip="ind"> 
+    <trd lng="hu">elvesz<klr tip="ind">
     (f&eacute;rj&uuml;l/feles&eacute;g&uuml;l)</klr></trd>
+    <trdgrp lng="id">
+      <trd>me<ind>nikah</ind></trd>,
+      <trd>kawin</trd>,
+      <trd>memper<ind>istri</ind></trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>bra&cacute; za &zdot;on&eogonek;</trd>,
       <trd>pojmowa&cacute; za &zdot;on&eogonek;</trd>
@@ -506,9 +568,14 @@
     <trd>vd&aacute;t</trd>
   </trdgrp>
   <trd lng="en">marry</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D50;&#x5A5A;&#x3055;&#x305B;&#x308B;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5AC1;&#x306B;&#x3084;&#x308B;  <pr>&#x3088;&#x3081;&#x306B;&#x3084;&#x308B;</pr></trd>,
+    <trd>&#x59BB;&#x306B;&#x3059;&#x308B;  <pr>&#x3064;&#x307E;&#x306B;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">uithuwelijken</trd>
   <trd lng="sk">vyda&tcaron; <klr>(za niekoho)</klr></trd>
-  <trd lng="uk">&c_v;&c_i;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a;&#x43C;&c_ib;&c_zh;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_z;&c_a;&c_m;&c_ib;&c_zh;</trd>
 </drv>
 
 <drv mrk="edz.0igxi">
@@ -519,8 +586,8 @@
     <dif>
       I&gcirc;i <tld/>o:
       <ekz>
-        la re&gcirc;ido <klr>[&#8230;]</klr> forkondukis &scirc;in
-        al la palaco de sia patro <klr>[&#8230;]</klr>, kie li 
+        la re&gcirc;ido <klr>[&#x2026;]</klr> forkondukis &scirc;in
+        al la palaco de sia patro <klr>[&#x2026;]</klr>, kie li
         <tld/>i&gcirc;is je &scirc;i
         <fnt><bib>F</bib>, <lok>&FE; 23</lok></fnt>.
       </ekz>
@@ -573,7 +640,7 @@
     <trd>&c_a;&c_zh;&c_a;&c_n;&c_ib;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_b;&c_r;&c_a;&c_c;&c_c;&c_a; <klr>(&c_z; &c_k;&c_ib;&c_m;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
   </trdgrp>
-  <trd lng="bo">&#xF46;&#xF44;&#xF0B;&#xF66;&#xF0B;&#xF62;&#xF92;&#xFB1;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_cha;&t_nga;&t_tsheg;&t_sa;&t_tsheg;&t_ra;&t_gata;&t_yata;&t_ga;&t_tsheg;</trd>
   <trd lng="de">heiraten</trd>
   <trd lng="en">get married</trd>
   <trd lng="es">casarse</trd>
@@ -583,13 +650,17 @@
   </trdgrp>
   <trd lng="he">&lamed;&he;&tav;&het;&tav;&fnun;</trd>
   <trdgrp lng="hu">
-    <trd>hozz&aacute;megy<klr tip="ind"> 
+    <trd>hozz&aacute;megy<klr tip="ind">
     (f&eacute;rj&uuml;l/n&odblac;&uuml;l)</klr></trd>,
     <trd>megn&odblac;s&uuml;l</trd>,
     <trd>f&eacute;rjhez megy</trd>,
     <trd>megh&aacute;zasodik</trd>,
   </trdgrp>
-  <trd lng="id">me<ind>nikah</ind></trd>
+  <trdgrp lng="id">
+    <trd>me<ind>nikah</ind></trd>,
+    <trd>kawin</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7D50;&#x5A5A;&#x3059;&#x308B;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x3059;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>huwen</trd>,
     <trd>trouwen</trd>
@@ -601,8 +672,15 @@
   <trd lng="ru">&c_zh;&c_je;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trd lng="tr">evlenmek</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_d;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&#x43E;&c_zh;&c_je;&#x43D;&c_i;&c_t;&c_i;&c_s;&#x44F;</trd>
+    <trd>&c_o;&c_d;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_o;&c_zh;&c_je;&c_n;&c_i;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8DDF; <pr>g&#x113;n</pr></trd>,
+    <trd>&#x5A5A; <pr>h&#x16B;n</pr></trd>,
+    <trd>&#x7D50;&#x5A5A; <pr>ji&#xE9;h&#x16B;n</pr></trd>,
+    <trd>&#x7D50;&#x89AA; <pr>ji&#xE9;q&#x12B;n</pr></trd>,
+    <trd>&#x5A5A;&#x914D; <pr>h&#x16B;np&#xE8;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -644,13 +722,17 @@
   </trdgrp>
   <trd lng="he">&lamed;&he;&tav;&het;&tav;&fnun;</trd>
   <trdgrp lng="hu">
-    <trd>hozz&aacute;megy<klr tip="ind"> 
+    <trd>hozz&aacute;megy<klr tip="ind">
     (f&eacute;rj&uuml;l/n&odblac;&uuml;l)</klr></trd>,
     <trd>megn&odblac;s&uuml;l</trd>,
     <trd>f&eacute;rjhez megy</trd>,
     <trd>megh&aacute;zasodik</trd>,
   </trdgrp>
-  <trd lng="id">me<ind>nikah</ind></trd>
+  <trdgrp lng="id">
+    <trd>me<ind>nikah</ind></trd>,
+    <trd>kawin</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7D50;&#x5A5A;&#x3059;&#x308B;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x3059;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>huwen</trd>,
     <trd>trouwen</trd>
@@ -659,7 +741,14 @@
     <trd>wychodzi&cacute; za m&aogonek;&zdot;</trd>
   </trdgrp>
   <trd lng="ru">&c_v;&c_y;&c_j;&c_t;&c_i; &c_z;&c_a;&c_m;&c_u;&c_zh;</trd>
-  <trd lng="uk">&c_v;&c_i;&c_j;&c_t;&c_i; &c_z;&c_a;&#x43C;&c_ib;&c_zh;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_j;&c_t;&c_i; &c_z;&c_a;&c_m;&c_ib;&c_zh;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5A5A; <pr>h&#x16B;n</pr></trd>,
+    <trd>&#x8DDF; <pr>g&#x113;n</pr></trd>,
+    <trd>&#x7D50;&#x89AA; <pr>ji&#xE9;q&#x12B;n</pr></trd>,
+    <trd>&#x5A5A;&#x914D; <pr>h&#x16B;np&#xE8;i</pr></trd>,
+    <trd>&#x7D50;&#x5A5A; <pr>ji&#xE9;h&#x16B;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edz.0igxo">
@@ -706,7 +795,10 @@
         <trd lng="fr">noce</trd>
         <trd lng="es">fiesta de bodas</trd>
         <trd lng="hu">h&aacute;zasod&aacute;s</trd>
-        <trd lng="id">per<ind>nikah</ind>an</trd>
+        <trdgrp lng="id">
+           <trd><ind>pesta</ind> pernikahan</trd>,
+           <trd><ind>pesta</ind> perkawinan</trd>
+        </trdgrp>
         <trd lng="nl">huwelijksfeest</trd>
         <trd lng="pl">wesele</trd>
         <trd lng="ru">&c_s;&c_v;&c_a;&c_d;&c_mol;&c_b;&c_a;</trd>
@@ -723,21 +815,29 @@
     </dif>
     <ref tip="sin" cel="matrim.0o.edzigxo">matrimonio</ref>
     <trd lng="en">Holy Matrimony</trd>
-    <trd lng="id">Per<ind>nikah</ind>an Kudus</trd>
+    <trd lng="id">pem<ind>berkat</ind>an nikah</trd>
   </snc>
   <trd lng="be">&c_sh;&c_l;&c_ju;&c_b;</trd>
   <trdgrp lng="de">
     <trd>Heirat</trd>,
     <trd>Verm&auml;hlung</trd>
   </trdgrp>
-  <trd lng="en">Holy Matrimony</trd>
+  <trdgrp lng="en">
+    <trd>marriage</trd>,
+    <trd>wedding</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>mariage</trd>,
     <trd>noces<klr tip="ind"> (mariage)</klr></trd>
   </trdgrp>
   <trd lng="he">&het;&#x5B2;&tav;&vav;&#x5BC;&nun;&#x5B8;&he;</trd>
-  <trd lng="hu">h&aacute;zass&aacute;g<klr tip="ind"> 
+  <trd lng="hu">h&aacute;zass&aacute;g<klr tip="ind">
   (szents&eacute;g)</klr></trd>
+  <trdgrp lng="id">
+    <trd>per<ind>nikah</ind>an</trd>,
+    <trd>per<ind>kawin</ind>an</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7D50;&#x5A5A;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;</pr></trd>
   <trd lng="nl">huwelijk</trd>
   <trd lng="pl">&sacute;lub</trd>
   <trdgrp lng="es">
@@ -750,8 +850,14 @@
     <trd>&c_b;&c_r;&c_a;&c_k;&c_o;&c_s;&c_o;&c_ch;&c_je;&c_t;&c_a;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_d;&c_r;&c_u;&c_zh;&c_je;&#x43D;&#x43D;&#x44F; (&c_ch;&#x43E;&#x43B;&#x43E;&c_v;&c_ib;&#x43A;&c_a;)</trd>,
-    <trd>&c_sh;&#x43B;&#x44E;&c_b;</trd>
+    <trd>&c_o;&c_d;&c_r;&c_u;&c_zh;&c_je;&c_n;&c_n;&c_ja; (&c_ch;&c_o;&c_l;&c_o;&c_v;&c_ib;&c_k;&c_a;)</trd>,
+    <trd>&c_sh;&c_l;&c_ju;&c_b;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5A5A;&#x5AC1; <pr>h&#x16B;nji&#xE0;</pr></trd>,
+    <trd>&#x5A5A;&#x4E8B; <pr>h&#x16B;nsh&#xEC;</pr></trd>,
+    <trd>&#x5AC1;&#x5A36; <pr>ji&#xE0;q&#x1D4;</pr></trd>,
+    <trd>&#x4EB2;&#x4E8B; <pr>q&#x12B;nsh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -784,7 +890,7 @@
       <ekz>
         la formo lin senprudentigis, li rigardis la &scirc;elon kaj ne la
         kernon, kaj tio
-        estas <klr>[&#8230;]</klr> granda malfeli&ccirc;o en la <tld/>eco
+        estas <klr>[&#x2026;]</klr> granda malfeli&ccirc;o en la <tld/>eco
         <fnt>
           <bib>Fab4</bib>
           <lok>&leftquot;Bela&rightquot;</lok>
@@ -802,15 +908,28 @@
     <trd>union<klr> (conjugale)</klr></trd>
   </trdgrp>
   <trd lng="he">&nun;&yod;&shin;&vav;&alef;&yod;&fmem;</trd>
-  <trd lng="hu">h&aacute;zass&aacute;g<klr tip="ind"> 
+  <trd lng="hu">h&aacute;zass&aacute;g<klr tip="ind">
   (&aacute;llapot)</klr></trd>
+  <trdgrp lng="id">
+    <trd>per<ind>nikah</ind>an</trd>,
+    <trd>per<ind>kawin</ind>an</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x592B;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;  <pr>&#x304A;&#x3063;&#x3068;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;</pr></trd>,
+    <trd>&#x7D50;&#x5A5A;&#x751F;&#x6D3B;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x305B;&#x3044;&#x304B;&#x3064;</pr></trd>
+  </trdgrp>
   <trd lng="pl">ma&lstroke;&zdot;e&nacute;stwo</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_u;&c_p;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_b;&c_r;&c_a;&c_k;</trd>
   </trdgrp>
   <trd lng="sk">man&zcaron;elstvo</trd>
-  <trd lng="uk">&c_sh;&#x43B;&#x44E;&c_b;</trd>
+  <trd lng="uk">&c_sh;&c_l;&c_ju;&c_b;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5A5A;&#x59FB;&#x5173;&#x7CFB; <pr>h&#x16B;ny&#x12B;ngu&#x101;nxi</pr></trd>,
+    <trd>&#x5A5A;&#x59FB;&#x8054;&#x7ED3; <pr>h&#x16B;ny&#x12B;nli&#xE1;nji&#xE9;</pr></trd>,
+    <trd>&#x5A5A;&#x59FB;&#x751F;&#x6D3B; <pr>h&#x16B;ny&#x12B;nsh&#x113;nghu&#xF3;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edz.0eca">
@@ -844,6 +963,7 @@
   <trd lng="fr">conjugal</trd>
   <trd lng="he">&nun;&#x5B8;&shin;&#x5C2;&vav;&#x5BC;&yod;</trd>
   <trd lng="hu">h&aacute;zass&aacute;gi</trd>
+  <trd lng="id">marital</trd>
   <trd lng="nl">huwelijks-</trd>
   <trdgrp lng="pl">
     <trd>ma&lstroke;&zdot;e&nacute;ski</trd>,
@@ -855,6 +975,10 @@
     <trd>&c_b;&c_r;&c_a;&c_ch;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">man&zcaron;elsk&eacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x592B;&#x5987;&#x95F4; <pr>f&#x16B;f&#xF9;ji&#x101;n</pr></trd>,
+    <trd>&#x5A5A;&#x751F; <pr>h&#x16B;nsh&#x113;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edz.ge0oj">
@@ -882,23 +1006,22 @@
       <ekz>
         ge<tld/>a paro
         <fnt>
+       <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2000/007013.php">Ekspozicio de famaj artistoj</url></vrk>
           <bib>Monato</bib>
-          <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007013.html">A&ubreve;strio:
-          Ekspozicio de famaj artistoj</url></vrk>
+          <lok>2000/07, p. 15</lok>
         </fnt>;
       </ekz>
       <ekz>
         devoj kaj rajtoj de la ge<tld/>a stato
         <fnt>
-          <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url ref="&Steloj;monato2/007192.html">Edzi&gcirc;oj
-          anka&ubreve; por samseksaj paroj</url></vrk>
-        </fnt>.
+            <vrk><url ref="&Monato;/2000/007192.html">Edzi&gcirc;oj anka&ubreve; por samseksaj paroj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/12, p. 14</lok>
+          </fnt>.
       </ekz>
     </dif>
-    <trd lng="en">husbands and wifes</trd>
     <trd lng="io">gespozi</trd>
   </snc>
   <trdgrp lng="be">
@@ -906,9 +1029,27 @@
     <trd>&c_m;&c_u;&c_zh; &c_ib; &c_zh;&c_o;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
 <trd lng="de">Eheleute</trd>
+  <trdgrp lng="en">
+    <trd>spouse</trd>,
+    <trd>husband and wife</trd>,
+    <trd>husbands and wives</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>pasutri</trd>,
+    <trd><ind>pasang</ind>an suami istri</trd>
+    <trd><ind>suami</ind> istri</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x592B;&#x59BB;  <pr>&#x3075;&#x3055;&#x3044;</pr></trd>,
+    <trd>&#x592B;&#x5A66;  <pr>&#x3081;&#x304A;&#x3068;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&c_d;&c_r;&c_u;&c_zh;&c_zh;&#x44F;</trd>,
-    <trd>&c_ch;&#x43E;&#x43B;&#x43E;&c_v;&c_ib;&#x43A; &c_ib; &c_zh;&c_ib;&#x43D;&#x43A;&c_a;</trd>
+    <trd>&c_p;&c_o;&c_d;&c_r;&c_u;&c_zh;&c_zh;&c_ja;</trd>,
+    <trd>&c_ch;&c_o;&c_l;&c_o;&c_v;&c_ib;&c_k; &c_ib; &c_zh;&c_ib;&c_n;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x592B;&#x5987; <pr>f&#x16B;f&#xF9;</pr></trd>,
+    <trd>&#x592B;&#x59BB; <pr>f&#x16B;q&#x12B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -945,6 +1086,7 @@
   </snc>
   <trd lng="be">&c_s;&c_u;&c_zh;&c_e;&c_n;&c_je;&c_c;</trd>
   <trd lng="da">&aelig;gtef&aelig;lle</trd>
+  <trd lng="de">Ehepartner</trd>
   <trd lng="en">spouse</trd>
   <trd lng="fa">&a_h;&a_m;&a_s;&a_r;</trd>
   <trdgrp lng="fi">
@@ -956,6 +1098,7 @@
     <trd>oarehelte</trd>
   </trdgrp>
   <trd lng="hu">h&aacute;zast&aacute;rs</trd>
+  <trd lng="id"><ind>pasang</ind>an</trd>
   <trd lng="io">spozo</trd>
   <trd lng="ko">&#xBC30;&#xC6B0;&#xC790;</trd>
   <trdgrp lng="nl">
@@ -988,14 +1131,14 @@
       <ekz>
         1105 paroj ge<tld/>i&gcirc;is sub &scirc;ia svatado
         <fnt>
+
+          <vrk><url ref="&Monato;/1993/A930902.php">Noticoj</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9309-noticoj.txt">Esperanto
-          sen peno</url></vrk>
-          <lok>93/09</lok>
+          <lok>1993/09, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
-        ne gravas kiom malproksimaj ili estas, <klr>[&#8230;]</klr> fine 
+        ne gravas kiom malproksimaj ili estas, <klr>[&#x2026;]</klr> fine
         ili havas la &scirc;ancon ge<tld/>i&gcirc;i
         <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 57a, p. 270a
         </lok></fnt>.
@@ -1011,13 +1154,23 @@
   </trdgrp>
   <trd lng="fr">se <ind>marier</ind></trd>
   <trd lng="hu">&ouml;sszeh&aacute;zasodik</trd>
-  <trd lng="id">me<ind>nikah</ind></trd>
+  <trdgrp lng="id">
+    <trd>me<ind>nikah</ind></trd>,
+    <trd>kawin</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7D50;&#x5A5A;&#x3059;&#x308B;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">huwen</trd>
   <trdgrp lng="pl">
     <trd>pobiera&cacute; si&eogonek;</trd>,
     <trd>bra&cacute; &sacute;lub</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8DDF; <pr>g&#x113;n</pr></trd>,
+    <trd>&#x5A5A; <pr>h&#x16B;n</pr></trd>,
+    <trd>&#x7D50;&#x89AA; <pr>ji&#xE9;q&#x12B;n</pr></trd>,
+    <trd>&#x5A5A;&#x914D; <pr>h&#x16B;np&#xE8;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edz.eks0igxi">
@@ -1049,11 +1202,13 @@
     <trd>&c_r;&c_a;&c_z;&c_zh;&c_e;&c_n;&c_mol;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
   <trd lng="cs">rozv&eacute;st se</trd>
+  <trd lng="de">sich scheiden lassen</trd>
   <trd lng="en">divorce</trd>
   <trd lng="es">divorciarse</trd>
   <trd lng="fr">divorcer</trd>
   <trd lng="hu">elv&aacute;lik<klr tip="ind"> (h&aacute;zast&aacute;rst&oacute;l)</klr></trd>
   <trd lng="id">ber<ind>cerai</ind></trd>
+  <trd lng="ja">&#x96E2;&#x5A5A;&#x3059;&#x308B;  <pr>&#x308A;&#x3053;&#x3093;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">scheiden<klr tip="ind"> (huwelijk)</klr></trd>
   <trdgrp lng="pl">
     <trd>rozwodzi&cacute; si&eogonek;</trd>,
@@ -1083,8 +1238,13 @@
   <trd lng="de">Scheidung</trd>
   <trd lng="en">divorce</trd>
   <trd lng="fr">divorce</trd>
+  <trdgrp lng="id">
+    <trd>per<ind>cerai</ind>an</trd>,
+    <trd>talak</trd>
+  </trdgrp>
+  <trd lng="ja">&#x96E2;&#x5A5A;  <pr>&#x308A;&#x3053;&#x3093;</pr></trd>
   <trd lng="pl">rozw&oacute;d</trd>
-  <trd lng="uk">&c_r;&#x43E;&c_z;&#x43B;&c_u;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_r;&c_o;&c_z;&c_l;&c_u;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="edz.krom0ino">
@@ -1102,7 +1262,7 @@
       </ekz>
       <ekz>
         &ccirc;iu ja scias, ke mi estas naskita de krom<tld/>ino
-        <fnt><bib>RugxDom</bib>, 
+        <fnt><bib>RugxDom</bib>,
         <lok>&ccirc;apitro 55a, p. 228a</lok></fnt>.
       </ekz>
     </dif>
@@ -1110,6 +1270,10 @@
   <trd lng="be">&c_d;&c_r;&c_u;&c_g;&c_a;&c_ja;, &c_t;&c_r;&c_e;&c_c;&c_ja;&c_ja; &c_ib; &c_d;&c_a; &c_g;. &c_p;. <ind>&c_zh;&c_o;&c_n;&c_k;&c_a;</ind> &c_w; &c_p;&c_a;&c_l;&c_ib;&c_g;&c_a;&c_m;&c_n;&c_y;&c_m; &c_sh;&c_l;&c_ju;&c_b;&c_je;</trd>
   <trd lng="cs">v polygamn&iacute;m syst&eacute;mu druh&aacute; a dal&scaron;&iacute; man&zcaron;elka</trd>
   <trd lng="de">Nebenfrau</trd>
+  <trdgrp lng="en">
+    <trd>concubine</trd>,
+    <trd>secondary wife</trd>
+  </trdgrp>
   <trd lng="es">esposa secundaria</trd>
   <trd lng="fr">concubine<klr> (polygamie)</klr></trd>
   <trd lng="he">&pe;&#x5BC;&#x5B4;&yod;&lamed;&#x5B6;&gimel;&#x5B6;&shin;&#x5C1;</trd>
@@ -1117,14 +1281,16 @@
     <trd>gundik</trd>,
     <trd>selir</trd>
   </trdgrp>
+  <trd lng="ja">&#x3081;&#x304B;&#x3051;</trd>
   <trd lng="pl">druga <ind>&zdot;ona</ind></trd>
   <trd lng="ro">so&#x21B;ia  <klr>(poligamia)</klr></trd>
   <trd lng="ru">&c_m;&c_l;&c_a;&c_d;&c_sh;&c_a;&c_ja; &c_zh;&c_je;&c_n;&c_a;</trd>
   <trd lng="sk">v polygamnom syst&eacute;me druh&aacute; man&zcaron;elka</trd>
   <trdgrp lng="uk">
-    <trd>&c_d;&c_r;&c_u;&c_g;&c_a; (&c_t;&c_r;&c_je;&c_t;&#x44F; &c_ib; &c_t;.&c_d;.) &c_zh;&c_ib;&#x43D;&#x43A;&c_a; (&c_u; &#x43F;&#x43E;&#x43B;&c_ib;&c_g;&c_a;&#x43C;&c_ib;&c_ji;)</trd>,
-    <trd>&#x43A;&#x43E;&c_h;&c_a;&#x43D;&#x43A;&c_a;</trd>
+    <trd>&c_d;&c_r;&c_u;&c_g;&c_a; (&c_t;&c_r;&c_je;&c_t;&c_ja; &c_ib; &c_t;.&c_d;.) &c_zh;&c_ib;&c_n;&c_k;&c_a; (&c_u; &c_p;&c_o;&c_l;&c_ib;&c_g;&c_a;&c_m;&c_ib;&c_ji;)</trd>,
+    <trd>&c_k;&c_o;&c_h;&c_a;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="zh">&#x5C0F;&#x5976;&#x5976; <pr>xi&#x1CE;on&#x1CE;in&#x1CE;i</pr></trd>
 </drv>
 
 <drv mrk="edz.nov0o">
@@ -1133,7 +1299,7 @@
     <dif>
       &Jcirc;us <tld/>i&gcirc;inta viro:
       <ekz>
-        la gepatroj de la nov<tld/>o <klr>[&#8230;]</klr> devas 
+        la gepatroj de la nov<tld/>o <klr>[&#x2026;]</klr> devas
         alporti ora&jcirc;ojn kaj vesta&jcirc;ojn por sia bofilino
         <fnt>
           <aut>Saeed</aut>,
@@ -1149,9 +1315,18 @@
   </trdgrp>
   <trd lng="cs">novoman&zcaron;el</trd>
   <trd lng="de">Br&auml;utigam</trd>
+  <trdgrp lng="en">
+    <trd>newlywed</trd>,
+    <trd>bridegroom</trd>,
+    <trd>groom</trd>
+  </trdgrp>
   <trd lng="es">reci&eacute;n casado</trd>
   <trd lng="he">&het;&#x5B8;&tav;&#x5B8;&fnun;</trd>
   <trd lng="id"><ind>pengantin</ind> baru</trd>
+  <trdgrp lng="ja">
+    <trd>&#x65B0;&#x90CE;  <pr>&#x3057;&#x3093;&#x308D;&#x3046;</pr></trd>,
+    <trd>&#x82B1;&#x5A7F;  <pr>&#x306F;&#x306A;&#x3080;&#x3053;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>pan m&lstroke;ody</trd>,
     <trd>nowo&zdot;eniec</trd>
@@ -1164,7 +1339,8 @@
     <trd>novo &zcaron;en&aacute;&ccaron;</trd>,
     <trd>novoman&zcaron;el</trd>
   </trdgrp>
-  <trd lng="uk">&#x43C;&#x43E;&#x43B;&#x43E;&c_d;&c_i;&c_j; (&c_ib;&#x43C;.)</trd>
+  <trd lng="uk">&c_m;&c_o;&c_l;&c_o;&c_d;&c_i;&c_j; (&c_ib;&c_m;.)</trd>
+  <trd lng="zh">&#x65B0;&#x90CE; <pr>x&#x12B;nl&#xE1;ng</pr></trd>
 </drv>
 
 <drv mrk="edz.nov0ino">
@@ -1189,9 +1365,18 @@
   </trdgrp>
   <trd lng="cs">novoman&zcaron;elka</trd>
   <trd lng="de">Braut</trd>
+  <trdgrp lng="en">
+    <trd>newlywed</trd>,
+    <trd>bride</trd>
+  </trdgrp>
   <trd lng="es">reci&eacute;n casada</trd>
   <trd lng="he">&kaf;&#x5BC;&#x5B7;&lamed;&#x5B8;&he;</trd>
   <trd lng="id"><ind>pengantin</ind> baru</trd>
+  <trdgrp lng="ja">
+    <trd>&#x65B0;&#x5A66;  <pr>&#x3057;&#x3093;&#x3077;</pr></trd>,
+    <trd>&#x65B0;&#x59BB;  <pr>&#x306B;&#x3044;&#x3065;&#x307E;</pr></trd>,
+    <trd>&#x82B1;&#x5AC1;  <pr>&#x306F;&#x306A;&#x3088;&#x3081;</pr></trd>
+  </trdgrp>
   <trd lng="pl">panna m&lstroke;oda</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_o;&c_v;&c_o;&c_b;&c_r;&c_a;&c_ch;&c_n;&c_a;&c_ja;</trd>,
@@ -1199,8 +1384,12 @@
   </trdgrp>
   <trd lng="sk">novoman&zcaron;elka</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x43E;&#x43B;&#x43E;&c_d;&c_a; (&c_ib;&#x43C;.)</trd>,
-    <trd>&#x43C;&#x43E;&#x43B;&#x43E;&c_d;&c_i;&c_c;&#x44F;</trd>
+    <trd>&c_m;&c_o;&c_l;&c_o;&c_d;&c_a; (&c_ib;&c_m;.)</trd>,
+    <trd>&c_m;&c_o;&c_l;&c_o;&c_d;&c_i;&c_c;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x65B0;&#x5A18; <pr>x&#x12B;nni&#xE1;ng</pr></trd>,
+    <trd>&#x672A;&#x5A5A;&#x59BB; <pr>w&#xE8;ih&#x16B;nq&#x12B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1216,7 +1405,7 @@
         forveturis el Ruslando
         <fnt>
           <aut>A. Kor&jcirc;enkov</aut>:
-          <vrk>Enkonduko al &leftquot;Krimo kaj puno&rightquot; de 
+          <vrk>Enkonduko al &leftquot;Krimo kaj puno&rightquot; de
           F. Dostojevskij</vrk>.
           <lok>1993</lok>.
         </fnt>.
@@ -1226,6 +1415,7 @@
   <trd lng="be">&c_n;&c_a;&c_v;&c_a;&c_zh;&c_e;&c_n;&c_c;&c_y;</trd>
   <trd lng="cs">novoman&zcaron;el&eacute;</trd>
   <trd lng="de">Neuverm&auml;hlte</trd>
+  <trd lng="en">newlyweds</trd>
   <trd lng="es">reci&eacute;n casados</trd>
   <trd lng="he">&shin;&#x5C1;&#x5B6;&zayin;&#x5B6;&he; &ayin;&#x5B7;&tav;&#x5B8;&he;
   &nun;&#x5B4;&shin;&#x5C2;&alef;&vav;&#x5BC;</trd>
@@ -1239,6 +1429,10 @@
     <trd>&c_m;&c_o;&c_l;&c_o;&c_d;&c_o;&c_zh;&c_jo;&c_n;&c_y;</trd>
   </trdgrp>
   <trd lng="sk">novoman&zcaron;elia</trd>
+  <trdgrp lng="zh">
+    <trd>&#x65B0;&#x90CE;&#x548C;&#x65B0;&#x5A18; <pr>x&#x12B;nl&#xE1;ngh&#xE9;x&#x12B;nni&#xE1;ng</pr></trd>,
+    <trd>&#x672A;&#x5A5A;&#x592B;&#x5987; <pr>w&#xE8;ih&#x16B;nf&#x16B;f&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="edz.plur0eco">
@@ -1248,8 +1442,8 @@
     <dif>
       <ref tip="dif" cel="poliandri.0o.GEN">Poliandrio</ref>:
       <ekz>
-        kvankam multaj sektoj subtenas plur<tld/>inecon, ili ne 
-        subtenas plur<tld/>econ        
+        kvankam multaj sektoj subtenas plur<tld/>inecon, ili ne
+        subtenas plur<tld/>econ
         <fnt>
           <aut>Jonatan</aut>,
           <vrk><url ref="http://groups.yahoo.com/group/esperanto-l/message/73317">
@@ -1264,13 +1458,20 @@
     <trd>mnohomu&zcaron;stv&iacute;</trd>,
     <trd>polyandrie</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Polyandrie</trd>,
+    <trd>Vielm&auml;nnerei</trd>
+  </trdgrp>
+  <trd lng="en">polyandry</trd>
   <trd lng="es">poliandria</trd>
   <trd lng="fr">polyandrie</trd>
   <trd lng="id">poliandri</trd>
+  <trd lng="ja">&#x4E00;&#x59BB;&#x591A;&#x592B;  <pr>&#x3044;&#x3063;&#x3055;&#x3044;&#x305F;&#x3075;</pr></trd>
   <trdgrp lng="sk">
     <trd>mnohomu&zcaron;stvo</trd>,
     <trd>plyandria</trd>
   </trdgrp>
+  <trd lng="zh">&#x4E00;&#x59BB;&#x591A;&#x592B;&#x5236; <pr>y&#x12B;q&#x12B;du&#x14D;f&#x16B;zh&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="edz.plur0ineco">
@@ -1295,16 +1496,26 @@
     <trd>mnoho&zcaron;enstv&iacute;</trd>,
     <trd>polygamie</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Polygynie</trd>,
+    <trd>Vielweiberei</trd>
+  </trdgrp>
+  <trd lng="en">polygyny</trd>
   <trd lng="es">poliginia</trd>
   <trd lng="fr">polygynie</trd>
   <trd lng="id">poligini</trd>
+  <trd lng="ja">&#x4E00;&#x592B;&#x591A;&#x59BB;  <pr>&#x3044;&#x3063;&#x3077;&#x305F;&#x3055;&#x3044;</pr></trd>
   <trdgrp lng="sk">
     <trd>mnoho&zcaron;enstvo</trd>,
     <trd>polygamia</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x43B;&c_ib;&c_g;&c_a;&#x43C;&c_ib;&#x44F;</trd>,
-    <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&#x43E;&c_sh;&#x43B;&#x44E;&c_b;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
+    <trd>&c_p;&c_o;&c_l;&c_ib;&c_g;&c_a;&c_m;&c_ib;&c_ja;</trd>,
+    <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&c_o;&c_sh;&c_l;&c_ju;&c_b;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E00;&#x592B;&#x591A;&#x59BB; <pr>y&#x12B;f&#x16B;du&#x14D;q&#x12B;</pr></trd>,
+    <trd>&#x591A;&#x59BB;&#x4E3B;&#x7FA9; <pr>du&#x14D;q&#x12B;zh&#x1D4;y&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1315,7 +1526,7 @@
     <dif>
       <ref tip="dif" cel="poliga.0o.GEN">Poligamio</ref>:
       <ekz>
-        la katolikisma eklezio permesas la <tld/>econ de pastroj kaj la 
+        la katolikisma eklezio permesas la <tld/>econ de pastroj kaj la
         plurge<tld/>econ de konvertitoj en esceptaj okazoj
         <fnt>
           <aut>M. Rauhamaa</aut>,
@@ -1327,7 +1538,12 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_l;&c_ib;&c_g;&c_a;&c_m;&c_ib;&c_ja;</trd>
-  <trd lng="de">Mehrehe</trd>
+  <trdgrp lng="de">
+    <trd>Mehrehe</trd>,
+    <trd>Vielehe</trd>,
+    <trd>Polygamie</trd>
+  </trdgrp>
+  <trd lng="en">polygamy</trd>
   <trd lng="fr">polygamie</trd>
   <trd lng="id">poligami</trd>
   <trd lng="es">poligamia</trd>
@@ -1355,7 +1571,12 @@
     <trd>Probeehe</trd>,
     <trd>Wilde Ehe</trd>
   </trdgrp>
+  <trd lng="en">trial marriage</trd>
   <trd lng="fr">mariage &agrave; l'essai</trd>
+  <trdgrp lng="id">
+    <trd>per<ind>nikah</ind>an percobaan</trd>,
+    <trd>per<ind>kawin</ind>an percobaan</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>&zdot;ycie przedma&lstroke;&zdot;e&nacute;skie</trd>,
     <trd>&zdot;ycie na "koci&aogonek; &lstroke;ap&eogonek;"</trd>
@@ -1372,16 +1593,22 @@
         la sen<tld/>eco de kristanaj pastroj
         <fnt>
           <vrk><url ref="https://neciklopedio.org/wiki/Aleister_Crowley">Aleister
-          Crowley &#8208; Neciklopedio</url></vrk>
+          Crowley &#x2010; Neciklopedio</url></vrk>
         </fnt>.
       </ekz>
-    </dif>    
+    </dif>
   </snc>
   <trd lng="be">&c_b;&c_ja;&c_s;&c_sh;&c_l;&c_ju;&c_b;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="de">Ledigkeit</trd>
+  <trdgrp lng="en">
+    <trd>bachelorhood</trd>,
+    <trd>unmarried state</trd>,
+    <trd><klr>(the state of) </klr>being unwed</trd>
+  </trdgrp>
   <trd lng="fr">c&eacute;libat</trd>
   <trd lng="he">&resh;&vav;&vav;&qof;&vav;&tav;</trd>
   <trd lng="id">selibat</trd>
+  <trd lng="ja">&#x72EC;&#x8EAB;  <pr>&#x3069;&#x304F;&#x3057;&#x3093;</pr></trd>
   <trd lng="nl">celibaat</trd>
   <trdgrp lng="pl">
     <trd>bez&zdot;e&nacute;stwo</trd>,
@@ -1391,34 +1618,34 @@
   <trd lng="ru">&c_b;&c_je;&c_z;&c_b;&c_r;&c_a;&c_ch;&c_i;&c_je;</trd>
   <trd lng="es">solter&iacute;a</trd>
   <trdgrp lng="uk">
-    <trd>&c_b;&c_je;&c_z;&c_sh;&#x43B;&#x44E;&c_b;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
-    <trd>&#x43D;&c_je;&c_z;&c_a;&#x43C;&c_ib;&c_zh;&c_zh;&#x44F;</trd>
+    <trd>&c_b;&c_je;&c_z;&c_sh;&c_l;&c_ju;&c_b;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_n;&c_je;&c_z;&c_a;&c_m;&c_ib;&c_zh;&c_zh;&c_ja;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.157 2023/10/14 15:34:33
+revo: transskribo per <pr>
+
+versio 1.156 2023/10/10 08:30:19
+Eko Nur Syah Hidayat: +trd id 2
+
+versio 1.154 2023/08/29 15:27:55
+Wolfram Diestel: ja: prononco
+
+versio 1.153 2023/05/30 17:24:16
+Christian Siefkes: +trd de, en
+
+versio 1.152 2023/04/30 06:30:47
+Paul Peeraerts: Steloj -> monato
+
+versio 1.151 2023/04/22 19:21:06
+
+versio 1.150 2023/04/12 18:31:55
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.148 2022/06/29 07:31:29
 Dmitri Gabinski: + trd be
-
-versio 1.147 2022/04/27 14:38:53
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.140 2022/03/11 08:35:00
-Dmitri Gabinski: + trd be
-
-versio 1.64 2021/05/24 14:03:35
-Wolfram Diestel: krom~ino: kunigo kun duobla el krom/
-
-versio 1.63 2021/05/08 20:49:48
-Guillermo Molleda Jimena: +trd es
-
-versio 1.61 2020/05/01 10:10:34
-Eko Nur Syah Hidayat: korekteto
-
-versio 1.60 2020/04/13 18:10:57
-Peter Garami: aldono de slovenaj tradokajhoj
-
-Revision 1.59  2020/01/29 11:10:14  revo
 -->
 </vortaro>

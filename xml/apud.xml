@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: apud.xml,v 1.52 2022/04/14 04:40:27 revo Exp $">
+<art mrk="$Id: apud.xml,v 1.66 2024/01/26 09:24:27 revo Exp $">
 <kap>
-  <ofc>*</ofc> <rad>apud</rad> <fnt><bib>PV</bib></fnt>
+  <ofc>*</ofc> <rad>apud</rad>
+  <fnt> <bib>PV</bib></fnt>
 </kap>
 <subart>
   <dif>
@@ -13,22 +14,60 @@
     <kap><ofc>*</ofc><tld/></kap>
     <snc>
       <dif>
-        Proksimecon, pli-malpli grandan najbarecon:
+        proksimecon, pli-malpli grandan najbarecon:
         <ekz>
           li staris tutan horon <tld/> la fenestro
           <fnt><bib>F</bib><lok>&FE; 26</lok></fnt>;
-          <trd lng="pl">sta&lstroke; ca&lstroke;&aogonek; 
+          <trd lng="pl">sta&lstroke; ca&lstroke;&aogonek;
           godzin&eogonek; <ind>przy</ind> oknie</trd>
         </ekz>
         <ekz>
-          <tld/> propra domo &scirc;telisto ne &scirc;telas
-          <fnt><bib>PrV</bib></fnt>;
+          la gefian&ccirc;oj staris <tld/> la altaro
+          <fnt>
+            <bib>F</bib>
+            <lok>&FE; 36</lok>
+          </fnt>;
         </ekz>
         <ekz>
-          la batalo <tld/> Solferino.
-          <trd lng="pl">bitwa <ind>nad</ind> Solferino</trd>
+          promenante <tld/> la reloj de fervojo
+          <fnt>
+            <bib>F</bib>
+            <lok>&FE; 39</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          jen estas puto sur la kampo, kaj tri gregoj da &scirc;afoj ku&scirc;as <tld/> &gcirc;i
+          <fnt>
+            <bib>MT</bib>
+            <lok>Genezo 29:2</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          vi partoprenis kun mia frato en la batalo <tld/> Prago
+          <fnt>
+            <bib>Rabistoj</bib>
+            <lok>Akto Dua</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          &ccirc;u ne estas por vi pli konsolinde senti, ke li trovi&gcirc;as <tld/> vi, vidi lin
+          &ccirc;iutage
+          <fnt>
+            <bib>ChL</bib>
+            <lok>&Ccirc;apitro Oka</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/> propra domo &scirc;telisto ne &scirc;telas
+          <fnt><bib>PrV</bib></fnt>.
         </ekz>
       </dif>
+      <refgrp tip="vid">
+        <ref cel="cxe.0">&ccirc;e</ref>,
+        <ref cel="cxirka.0">&ccirc;irka&ubreve;</ref>,
+        <ref cel="proksi.0ede">proksime de</ref>
+      </refgrp>
       <rim>
         Pri uzo de <em><tld/></em> kun akuzativo,
         vd <ref cel="apud.al0">al <tld/>, <tld/> ...-n</ref>.
@@ -48,12 +87,12 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>neben</trd>, <trd>bei</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="en">
     <trd>next to</trd>,
     <trd>alongside</trd>,
     <trd>beside</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="es">junto a</trd>
   <trdgrp lng="fr">
       <trd>pr&egrave;s de</trd>,
@@ -65,6 +104,7 @@
       <trd>presso</trd>,
       <trd>vicino</trd>
     </trdgrp>
+  <trd lng="ja">&#xFF5E;<ind>&#x306E;&#x305D;&#12400;&#x306B;</ind></trd>
   <trd lng="la">apud</trd>
   <trdgrp lng="nl">
       <trd>bij</trd>,
@@ -94,10 +134,11 @@
     <trd>pri</trd>,
     <trd>ved&lcaron;a</trd>
   </trdgrp>
+  <trd lng="sw">karibu na</trd>
   <trdgrp lng="th">
-      <trd>&#3586;&#3657;&#3634;&#3591;</trd>,
-      <trd>&#3586;&#3657;&#3634;&#3591; &#3654;</trd>,
-      <trd>&#3606;&#3633;&#3604;&#3592;&#3634;&#3585;</trd>
+      <trd>&#xE02;&#xE49;&#xE32;&#xE07;</trd>,
+      <trd>&#xE02;&#xE49;&#xE32;&#xE07; &#xE46;</trd>,
+      <trd>&#xE16;&#xE31;&#xE14;&#xE08;&#xE32;&#xE01;</trd>
     </trdgrp>
     <trdgrp lng="uk">
     <trd>&c_p;&c_r;&c_i;&c_j;&c_m;.&nbsp;&c_k;&c_o;&c_l;&c_o;</trd>,
@@ -109,15 +150,22 @@
   </trdgrp>
   <trd lng="vo">neb</trd>
 </drv>
-  
+
   <drv mrk="apud.mal0">
     <kap>mal<tld/></kap>
     <uzo tip="stl">RAR</uzo>
     <snc mrk="apud.mal0.KOMUNE">
       <dif>
-        En ioma distanco de;
+        En ioma <ref cel="distan.0o.SPA">distanco</ref> de;
         <ref tip="vid" cel="proksi.mal0ede.KOMUNE">malproksime
         de</ref>:
+        <ekz>
+          mi estis mal<tld/> la vojkuro de &scirc;ipoj
+          <fnt>
+            <bib>Rob</bib>
+            <lok>Parto II</lok>
+          </fnt>;
+        </ekz>
         <ekz>
           mal<tld/> mi, ne parolu
           <fnt>
@@ -128,7 +176,25 @@
           </fnt>.
         </ekz>
       </dif>
-    </snc>
+      <refgrp tip="vid">
+        <ref cel="for.0.malproksimeco">for</ref>
+      </refgrp>
+      <trdgrp lng="zh">
+    <trd>&#x504F;&#x8FDC; <pr>pi&amacron;nyu&#x1CE;n</pr></trd>,
+    <trd>&#x504F;&#36960; <pr>pi&amacron;nyu&#x1CE;n</pr></trd>,
+    <trd>&#x504F;&#x50FB;&#30340; <pr>pi&amacron;np&#xEC;de</pr></trd>
+  </trdgrp>
+</snc>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_o;&c_d;&c_d;&c_a;&c_l;&c_mol;</trd>,
+      <trd>&c_n;&c_a; <ind>&c_a;&c_d;&c_l;&c_je;&c_g;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_ib;</ind></trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>fern</trd>,
+      <trd><ind>fern</ind> von</trd>,
+      <trd><ind>entfernt</ind> von</trd>,
+      <trd><ind>abseits</ind> von</trd>
+    </trdgrp>
     <trd lng="en">away from</trd>
     <trdgrp lng="fr">
       <trd>&agrave; quelque distance de</trd>,
@@ -137,7 +203,7 @@
     <trd lng="nl">ver van</trd>
     <trd lng="no">langt fra</trd>
   </drv>
-  
+
   <drv mrk="apud.al0">
     <kap>al <tld/>, <var><kap><tld/> ...-n</kap></var></kap>
     <snc>
@@ -155,6 +221,12 @@
         <ref cel="cxe.al0.kunajxo_kun_al">al &ccirc;e</ref>.
       </rim>
     </snc>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_a;&c_l;&c_ja;</trd>,
+      <trd>&c_p;&c_o;&c_b;&c_a;&c_ch;</trd>,
+      <trd>&c_b;&c_l;&c_ib;&c_z;&c_k;&c_a; &c_d;&c_a;</trd>
+    </trdgrp>
+    <trd lng="de">neben</trd>
     <trdgrp lng="en">
       <trd>to beside</trd>,
       <trd>to next to</trd>
@@ -162,17 +234,17 @@
     <trdgrp lng="fr">
       <trd>pr&egrave;s de<klr tip="ind"> (avec mouvement vers)</klr>
       </trd>,
-      <trd>&agrave; c&ocirc;t&eacute; de<klr tip="ind"> 
+      <trd>&agrave; c&ocirc;t&eacute; de<klr tip="ind">
       (avec mouvement vers)</klr></trd>
     </trdgrp>
     <trd lng="nl">bij<klr tip="amb"> (richting)</klr></trd>
     <trd lng="no">ved<klr tip="amb"> (retning)</klr></trd>
     <trdgrp lng="ru">
-      <trd>&c_v;&c_o;&c_z;&c_l;&c_je;<klr tip="ind"> 
+      <trd>&c_v;&c_o;&c_z;&c_l;&c_je;<klr tip="ind">
       (&c_k;&c_u;&c_d;&c_a;)</klr></trd>,
-      <trd>&c_o;&c_k;&c_o;&c_l;&c_o;<klr tip="ind"> 
+      <trd>&c_o;&c_k;&c_o;&c_l;&c_o;<klr tip="ind">
       (&c_k;&c_u;&c_d;&c_a;)</klr></trd>,
-      <trd>&c_r;&c_ja;&c_d;&c_o;&c_m; &c_s;<klr tip="amb"> 
+      <trd>&c_r;&c_ja;&c_d;&c_o;&c_m; &c_s;<klr tip="amb">
       (&c_k;&c_u;&c_d;&c_a;)</klr></trd>
     </trdgrp>
   </drv>
@@ -191,148 +263,221 @@
         </ekz>
       </dif>
     </snc>
+    <trdgrp lng="de">
+      <trd>von <ind>neben</ind></trd>,
+      <trd>von <ind>bei</ind></trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>from beside</trd>,
       <trd>from next to</trd>
     </trdgrp>
   </drv>
+
+<drv mrk="apud.unu_0_alia">
+  <kap>
+    unu <tld/> alia
+  </kap>
+  <uzo tip="stl">FRAZ</uzo>
+  <snc>
+    <dif>
+      <ref tip="sin" cel="flank.0o_cxe_0o">Flanko &ccirc;e flanko</ref> &ccirc;e flanko,
+      orientita samdirekte:
+      <ekz>
+        la du homoj mar&scirc;is silente unu <tld/> alia
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en du vicoj, unu <tld/> alia, ku&scirc;is kvar grandegaj kvadratoj, kunmetitaj el ru&gcirc;a
+        fazeolo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej malsamaj popoloj staras unu <tld/> alia ne kiel fremduloj, ne kiel
+        konkurantoj, sed kiel fratoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur Mer en la 5a de a&ubreve;gusto
+          1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la flankaj galerioj, unu <tld/> la alia, havis la longon de tridek tri futoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 41:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homoj, kiuj restis ankora&ubreve; vivaj, faladis amase unu <tld/> aliaj
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LVI</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_a;&c_d;&c_z;&c_ib;&c_n; &c_k;&c_a;&c_l;&c_ja; &c_a;&c_d;&c_n;&c_a;&c_g;&c_o;</trd>
+  <trd lng="de">nebeneinander</trd>
+  <trd lng="en">side by side</trd>
+  <trd lng="fr">cote &agrave; cote</trd>
+</drv>
+
 </subart>
 
 <subart>
   <dif>
     Memstara vortero kun tiu signifo:
   </dif>
-  <drv mrk="apud.0a">
-    <kap><tld/>a</kap>
-    <snc mrk="apud.0a.KOMUNE">
-      <dif>
-        Estanta proksime:
-        <ekz>
-          li lo&gcirc;as en la <ind><tld/>a</ind> domo;
-          <trd lng="ru">&c_s;&c_o;&c_s;&c_je;&c_d;&c_n;&c_i;&c_j;</trd>
-        </ekz>
-        <ekz>
-          la &ccirc;apelo staras sur la tablo, kaj la gantoj
-          ku&scirc;as <ind><tld/>e</ind>;
-          <trd lng="ru">&c_r;&c_ja;&c_d;&c_o;&c_m;</trd>
-        </ekz>
-        <ekz>
-          li sidis &ccirc;e <tld/>a tablo
-          <fnt>
-            <bib>Monato</bib>
-            <vrk><url ref="http://www.esperanto.be/fel/mon/006805.html">Kota Akvo:
-            Konstanten Krysakov</url></vrk>
-          </fnt>;
-        </ekz>
-        <ekz>
-          ni iru en la <tld/>an &ccirc;ambron
-          <fnt>
-            <aut>Michael Ende, trad. Wolfram Diestel</aut>
-            <vrk>La Sen&ccirc;esa Rakonto</vrk>
-            <lok>Sinjorino Ajuolo</lok>
-          </fnt>.
-        </ekz>
-      </dif>
-      <trdgrp lng="be">
-        <trd>&c_s;&c_u;&c_s;&c_je;&c_d;&c_n;&c_ib;</trd>,
-        <trd>&c_b;&c_l;&c_ib;&c_z;&c_k;&c_ib;</trd>,
-        <trd>&c_s;&c_u;&c_m;&c_je;&c_zh;&c_n;&c_y;</trd>
-      </trdgrp>
-      <trdgrp lng="de">
-        <trd>Nachbar...</trd>,
-        <trd>benachbart</trd>,
-        <trd>angrenzend</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>next to</trd>,
-        <trd>adjacent</trd>
-      </trdgrp>
-      <trd lng="es">contiguo</trd>
-      <trdgrp lng="fr">
-        <trd>tout <ind>proche</ind></trd>,
-        <trd>voisin<klr tip="ind"> (adj.)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>mellette l&eacute;v&odblac;</trd>,
-        <trd>szomsz&eacute;dos</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>nabij</trd>,
-        <trd>naburig</trd>
-      </trdgrp>
-      <trd lng="no">like <ind>ved</ind></trd>
-      <trdgrp lng="pl">
-        <trd>przyleg&lstroke;y</trd>,
-        <trd>s&aogonek;siedni</trd>,
-        <trd>bliski</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_s;&c_o;&c_s;&c_je;&c_d;&c_n;&c_i;&c_j;</trd>,
-        <trd>&c_b;&c_l;&c_i;&c_zh;&c_n;&c_i;&c_j;</trd>,
-        <trd>
-        &c_n;&c_a;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja; 
-        <ind>&c_r;&c_ja;&c_d;&c_o;&c_m;</ind>
-        </trd>,
-        <trd>&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
-      </trdgrp>
-    </snc>
-    <snc mrk="apud.0a.angulo">
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
-      <dif>
-        <klr>(p.p. du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
-        <ref cel="later.sam0a.angulo">Samlateraj</ref> kaj
-        <ref cel="suplem.0a.angulo">suplementaj</ref>:
-        <ekz>
-          se du <ref cel="kruc.0igxi.MAT">kruci&gcirc;antaj</ref> rektoj
-          difinas du egalajn <tld/>ajn angulojn, tiam ili estas ortaj.
-        </ekz>
-      </dif>
-      <rim>
-        Kvankam tiu &ccirc;i termino aperas jam &ccirc;e Bricard, 
-        &gcirc;ia tiama senco estas nur <ctl>samlatera</ctl>. La saman 
-        sencon ni retrovas en 
-        <fnt><bib>PIV1</bib><lok>angulo</lok></fnt>, 
-        nerekte konfirmitan en la geometria plato
-        <fnt><bib>PIV1</bib><lok>plato: XVIII, 13-d</lok></fnt>,
-        kiu tekstas <ctl>apudaj suplementaj</ctl>.
-        Tamen la terminologio jam &scirc;an&gcirc;i&gcirc;is, kiel 
-        konfirmas <fnt><bib>MatVort</bib></fnt> kaj
-        <fnt><bib>PIV2</bib><lok>angulo</lok></fnt>, kiujn
-        ni sekvis por la difinoj de <ctl>samlatera</ctl> kaj
-        <ctl><tld/>a</ctl>.
-      </rim>
-      <trd lng="be">&c_p;&c_r;&c_y;&c_l;&c_je;&c_g;&c_l;&c_y; 
-      <klr tip="amb">(&c_v;&c_u;&c_g;&c_a;&c_l;)</klr></trd>
-      <trd lng="de">Neben-<klr tip="amb">(winkel)</klr></trd>
-      <trd lng="en">adjacent supplementary<klr tip="ind"> (angle)</klr>
-      </trd>
-      <trd lng="fr"><klr tip="ind">(angle) </klr>
-      adjacent suppl&eacute;mentaire</trd>
-      <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>
-      przyleg&lstroke;y</trd>
-      <trd lng="ru">&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j;
-      <klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
-    </snc>
-    <trdgrp lng="cs">
-      <trd>p&rcaron;idru&zcaron;en&yacute;</trd>,
-      <trd>p&rcaron;ilehl&yacute;</trd>,
-      <trd>sousedn&iacute;</trd>,
-      <trd>stoj&iacute;c&iacute; vedle</trd>,
-      <trd>vedlej&scaron;&iacute;</trd>
+<drv mrk="apud.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="apud.0a.KOMUNE">
+    <dif>
+      Estanta proksime:
+      <ekz>
+        la muljuna viro iris en la <tld/>an &ccirc;ambron
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova domo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li lo&gcirc;as en la <ind><tld/>a</ind> domo;
+        <trd lng="ru">&c_s;&c_o;&c_s;&c_je;&c_d;&c_n;&c_i;&c_j;</trd>
+      </ekz>
+      <ekz>
+        la &ccirc;apelo staras sur la tablo, kaj la gantoj
+        ku&scirc;as <ind><tld/>e</ind>;
+        <trd lng="ru">&c_r;&c_ja;&c_d;&c_o;&c_m;</trd>
+      </ekz>
+      <ekz>
+        li sidis &ccirc;e <tld/>a tablo
+        <fnt>
+          <aut>Konstanten Krysakov</aut>
+          <vrk><url ref="&Monato;/2000/006805.php">KOTA AKVO
+         </url></vrk>
+         <bib>Monato</bib>
+         <lok>2000/03, p. 28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni iru en la <tld/>an &ccirc;ambron
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Sinjorino Ajuolo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_u;&c_s;&c_je;&c_d;&c_n;&c_ib;</trd>,
+      <trd>&c_b;&c_l;&c_ib;&c_z;&c_k;&c_ib;</trd>,
+      <trd>&c_s;&c_u;&c_m;&c_je;&c_zh;&c_n;&c_y;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Nachbar...</trd>,
+      <trd>benachbart</trd>,
+      <trd>angrenzend</trd>
     </trdgrp>
     <trdgrp lng="en">
+      <trd>next to</trd>,
+      <trd>adjacent</trd>
+    </trdgrp>
+    <trd lng="es">contiguo</trd>
+    <trdgrp lng="fr">
+      <trd>tout <ind>proche</ind></trd>,
+      <trd>voisin<klr tip="ind"> (adj.)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>mellette l&eacute;v&odblac;</trd>,
+      <trd>szomsz&eacute;dos</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>nabij</trd>,
+      <trd>naburig</trd>
+    </trdgrp>
+    <trd lng="no">like <ind>ved</ind></trd>
+    <trdgrp lng="pl">
+      <trd>przyleg&lstroke;y</trd>,
+      <trd>s&aogonek;siedni</trd>,
+      <trd>bliski</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_o;&c_s;&c_je;&c_d;&c_n;&c_i;&c_j;</trd>,
+      <trd>&c_b;&c_l;&c_i;&c_zh;&c_n;&c_i;&c_j;</trd>,
+      <trd>
+      &c_n;&c_a;&c_h;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;&c_s;&c_ja;
+      <ind>&c_r;&c_ja;&c_d;&c_o;&c_m;</ind>
+      </trd>,
+      <trd>&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
+    </trdgrp>
+    <trd lng="zh">&#x4EA4;&#x754C;&#22320; <pr>ji&amacron;oji&#xE8;de</pr></trd>
+</snc>
+  <snc mrk="apud.0a.angulo">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
+    <dif>
+      <klr>(p.p. du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
+      <ref cel="later.sam0a.angulo">Samlateraj</ref> kaj
+      <ref cel="suplem.0a.angulo">suplementaj</ref>:
+      <ekz>
+        se du <ref cel="kruc.0igxi.MAT">kruci&gcirc;antaj</ref> rektoj
+        difinas du egalajn <tld/>ajn angulojn, tiam ili estas ortaj.
+      </ekz>
+    </dif>
+    <rim>
+      Kvankam tiu &ccirc;i termino aperas jam &ccirc;e <nom>Bricard</nom>,
+      &gcirc;ia tiama senco estas nur <ctl>samlatera</ctl>. La saman
+      sencon ni retrovas en
+      <fnt><bib>PIV1</bib><lok>angulo</lok></fnt>,
+      nerekte konfirmitan en la geometria plato
+      <fnt><bib>PIV1</bib><lok>plato: XVIII, 13-d</lok></fnt>,
+      kiu tekstas <ctl>apudaj suplementaj</ctl>.
+      Tamen la terminologio jam &scirc;an&gcirc;i&gcirc;is, kiel
+      konfirmas <fnt><bib>MatVort</bib></fnt> kaj
+      <fnt><bib>PIV2</bib><lok>angulo</lok></fnt>, kiujn
+      ni sekvis por la difinoj de <ctl>samlatera</ctl> kaj
+      <ctl><tld/>a</ctl>.
+    </rim>
+    <trd lng="be">&c_p;&c_r;&c_y;&c_l;&c_je;&c_g;&c_l;&c_y;
+    <klr tip="amb">(&c_v;&c_u;&c_g;&c_a;&c_l;)</klr></trd>
+    <trd lng="de">Neben-<klr tip="amb">(winkel)</klr></trd>
+    <trdgrp lng="en">
       <trd>adjacent</trd>,
-      <trd>adjoining</trd>,
-      <trd>abutting</trd>,
-      <trd>alongside</trd>
+      <trd>supplementary<klr tip="ind"> (angle)</klr></trd>
     </trdgrp>
-    <trd lng="he">&samekh;&mem;&vav;&fkaf;</trd>
+    <trd lng="fr"><klr tip="ind">(angle) </klr>
+    adjacent suppl&eacute;mentaire</trd>
+    <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>
+    przyleg&lstroke;y</trd>
+    <trd lng="ru">&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j;
+    <klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;idru&zcaron;en&yacute;</trd>,
+    <trd>p&rcaron;ilehl&yacute;</trd>,
+    <trd>sousedn&iacute;</trd>,
+    <trd>stoj&iacute;c&iacute; vedle</trd>,
+    <trd>vedlej&scaron;&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>adjacent</trd>,
+    <trd>adjoining</trd>,
+    <trd>abutting</trd>,
+    <trd>alongside</trd>
+  </trdgrp>
+  <trd lng="he">&samekh;&mem;&vav;&fkaf;</trd>
+  <trd lng="ja">&#x304B;&#x305F;&#x308F;&#12425;&#x306E;</trd>
   <trdgrp lng="sk">
-      <trd>pri&lcaron;ahl&yacute;</trd>,
-      <trd>ved&lcaron;aj&scaron;&iacute;</trd>
-    </trdgrp>
-    <trdgrp lng="uk">
+    <trd>pri&lcaron;ahl&yacute;</trd>,
+    <trd>ved&lcaron;aj&scaron;&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="uk">
     <trd>&c_t;&c_o;&c_j;</trd>,
     <trd>&c_shch;&c_o; &c_z;&c_n;&c_a;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_p;&c_o;&c_r;&c_u;&c_ch;/&c_p;&c_o;&c_b;&c_l;&c_i;&c_z;&c_u;</trd>,
     <trd>&c_b;&c_l;&c_i;&c_zh;&c_n;&c_ib;&c_j;</trd>,
@@ -353,16 +498,16 @@
           Sonetoj</vrk>, <lok>XLIX</lok></fnt>;
         </ekz>
         <ekz>
-          Margarita sentis la proksimecon de akvo kaj komprenis, ke la 
+          <nom>Margarita</nom> sentis la proksimecon de akvo kaj komprenis, ke la
           celo <tld/>as
-          <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 21a, 
+          <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 21a,
           p. 212a</lok></fnt>.
         </ekz>
       </dif>
     </snc>
   <trdgrp lng="be">
       <trd>&c_s;&c_u;&c_s;&c_je;&c_d;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>,
-      <trd>&c_z;&c_n;&c_a;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a; 
+      <trd>&c_z;&c_n;&c_a;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a;
       <ind>&c_p;&c_o;&c_b;&c_a;&c_ch;</ind></trd>
     </trdgrp>
   <trdgrp lng="cs">
@@ -396,28 +541,67 @@
   </drv>
 
   <drv mrk="apud.0eco">
-    <kap><tld/>eco, <var><kap><tld/>o</kap></var></kap>
-    <snc mrk="apud.0eco.KOMUNE">
-      <dif>
-        Proksima &ccirc;eesto:
-        <ekz>
-          refoje li regustumis la tiklan plezuron de &scirc;ia <tld/>o
-          <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-          <lok>1982</lok></fnt>.
-        </ekz>
-      </dif>
-    </snc>
-    <trdgrp lng="de">
-       <trd>N&auml;he</trd>,
-       <trd>Beisein</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>proximit&eacute;</trd>,
-      <trd>voisinage<klr> (proximit&eacute;)</klr></trd>
-    </trdgrp>
-    <trd lng="he">&qof;&#1460;&resh;&bet;&#1464;&he;</trd>
+  <kap><tld/>o, <var><kap><tld/>eco</kap></var></kap>
+  <snc mrk="apud.0eco.KOMUNE">
+    <dif>
+      Proksima &ccirc;eesto:
+      <ekz>
+        refoje li regustumis la tiklan plezuron de &scirc;ia <tld/>o
+        <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>,
+        <lok>1982</lok></fnt>;
+      </ekz>
+      <ekz>
+        tiu amindumo aliformi&gcirc;is en &ccirc;iutagajn geedzajn kuni&gcirc;ojn, kiujn pruvis la
+        <tld/>eco de du apartamentoj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        galantoj kaj kandeloj mildigis la litan <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.be/2013/011130.php">Morto de elstara irlanda poeto kaj
+          homaramanto</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="zh">
+    <trd>&#21608;&#x56F4; <pr>zh&#x14D;uw&#xE9;i</pr></trd>,
+    <trd>&#21608;&#x570D; <pr>zh&#x14D;uw&#xE9;i</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_l;&c_ib;&c_z;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_u;&c_s;&c_je;&c_d;&c_z;&c_t;&c_v;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+     <trd>N&auml;he</trd>,
+     <trd>Beisein</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>proximity</trd>,
+    <trd>closeness</trd>,
+    <trd>vicinity</trd>,
+    <trd>adjacency</trd>,
+    <trd>adjacence</trd>,
+    <trd>presence</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>proximit&eacute;</trd>,
+    <trd>voisinage<klr> (proximit&eacute;)</klr></trd>
+  </trdgrp>
+  <trd lng="he">&qof;&#x5B4;&resh;&bet;&#x5B8;&he;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8FD1;&#12373;  <pr>&#12385;&#x304B;&#12373;</pr></trd>,
+    <trd>&#x305D;&#12400;&#x306B;&#12356;&#x308B;&#12371;&#12392;</trd>,
+    <trd>&#x96A3;&#x63A5;  <pr>&#x308A;&#12435;&#x305B;&#12388;</pr></trd>
+  </trdgrp>
   <trd lng="nl">nabijheid</trd>
-  </drv>
+</drv>
 
   <drv mrk="apud.0ede">
     <kap><tld/>e de</kap>
@@ -430,14 +614,29 @@
           <fnt><bib>Fab3</bib>, <lok>Sub la Saliko</lok></fnt>.
         </ekz>
       </dif>
-    </snc>
+      <trdgrp lng="zh">
+    <trd>&#20999;&#x8FD1; <pr>qi&#xE8;j&#xEC;n</pr></trd>,
+    <trd>&#x4E00;&#x65C1; <pr>y&#x12B;p&#xE1;ng</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="be">
+      <trd>&c_l;&c_ja;</trd>,
+      <trd>&c_k;&c_a;&c_l;&c_ja;</trd>,
+      <trd>&c_p;&c_o;&c_b;&c_a;&c_ch; &c_z;</trd>,
+      <trd>&c_p;&c_a;&c_b;&c_l;&c_ib;&c_z;&c_u; &c_z;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>neben</trd>,
+      <trd>bei</trd>,
+      <trd>in der <ind>N&auml;he</ind> von</trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>next to</trd>,
       <trd>beside</trd>,
       <trd>alongside</trd>
     </trdgrp>
     <trd lng="fr">non loin de</trd>
-  </drv>  
+  </drv>
 
   <drv mrk="apud.cxi0a">
     <kap>&ccirc;i-<tld/>a</kap>
@@ -461,7 +660,16 @@
         <ref cel="supr.cxi0a.TIP">&ccirc;i-supra</ref>
       </refgrp>
     </snc>
+    <trdgrp lng="be">
+      <trd>&c_b;&c_l;&c_ib;&c_z;&c_k;&c_ib;</trd>,
+      <trd>&c_s;&c_u;&c_s;&c_je;&c_d;&c_n;&c_ib;</trd>,
+      <trd>&c_n;&c_a;&c_s;&c_t;&c_u;&c_p;&c_n;&c_y;</trd>
+    </trdgrp>
     <trd lng="de">nebenstehend</trd>
+    <trdgrp lng="en">
+      <trd>adjacent</trd>,
+      <trd>adjoining</trd>
+    </trdgrp>
     <trd lng="fr">ci-contre<klr> (adj.)</klr></trd>
   </drv>
 
@@ -470,12 +678,8 @@
 <subart>
   <dif>
     Prefikso kun tiu signifo:
-    <ekz>
-      li <tld/>estas al sia patro;
-    </ekz>
-    <ekz>
-      <tld/>meti;
-    </ekz>
+  </dif>
+  <snc>
     <ekz>
       la <tld/>maraj mar&ccirc;oj de Malsupra Egipto
       <fnt>
@@ -498,39 +702,43 @@
       </fnt>.
     </ekz>
     <refgrp tip="vid">
-      <ref cel="cxe">&ccirc;e</ref>,
-      <ref cel="en">en</ref>.
+      <ref cel="est.al0i">apudesti</ref>,
+      <ref cel="met.apud0i">apudmeti</ref>
     </refgrp>
-  </dif>
-  <trdgrp lng="hu">
-    <trd>mell&eacute;-</trd>,
-    <trd>mellette</trd>
-  </trdgrp>
+    <refgrp tip="vid">
+      <ref cel="cxe">&ccirc;e</ref>,
+      <ref cel="en">en</ref>
+    </refgrp>
+    <trdgrp lng="hu">
+      <trd>mell&eacute;-</trd>,
+      <trd>mellette</trd>
+    </trdgrp>
+  </snc>
 </subart>
 </art>
 <!--
 $Log$
-versio 1.52 2022/04/14 04:40:27
-Noam Mohr: +trd en apud
+versio 1.66 2024/01/26 09:24:27
+Dmitri Gabinski: + trd be
 
-versio 1.50 2021/12/10 03:40:27
-Warut Bunprasert: +trd th
+versio 1.64 2023/10/13 16:46:48
+revo: transskribo per <pr>
 
-Revision 1.46  2016/12/23 10:10:13  revo
-Wolfram Diestel: ekz-oj, plibonigis aranghon iom, germ trd de ~eco
+versio 1.63 2023/09/03 18:27:39
+Wolfram Diestel: kor. ja ind
 
-Revision 1.45  2015/09/16 11:10:18  revo
-Evandro Avellar: +trd pt
+versio 1.61 2023/06/04 20:22:45
+Wolfram Diestel: +ekz, ref; ~ III anst. 2 ekz per ref
 
-Revision 1.44  2015/07/04 08:37:30  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.60 2023/05/30 09:25:11
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.43  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.59 2023/05/27 18:27:00
+Wolfram Diestel: ~, mal~: +ekz, ref
 
-Revision 1.42  2014/12/21 15:10:24  revo
-Filip van Laenen: +trd(nl,no)
+versio 1.58 2023/05/27 07:20:23
+Wolfram Diestel: +unu ~ alia
 
-Revision 1.41  2012/10/22 01:10:11  revo
+versio 1.57 2023/05/07 08:25:38
 -->
 </vortaro>

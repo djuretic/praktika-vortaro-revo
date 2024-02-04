@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tritik.xml,v 1.28 2022/03/28 14:44:12 revo Exp $">
+<art mrk="$Id: tritik.xml,v 1.33 2023/10/21 14:37:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tritik</rad>/o
@@ -13,26 +13,75 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      <ref tip="lst" cel="genr.0o" lst="voko:botanikaj_genroj">Genro</ref> el familio <ref tip="malprt" cel="poac.0oj">poacoj</ref>
-      (<trd lng="la">Triticum</trd>), greno el kies grajnoj oni
-      faras blankan farunon:
+      <ref tip="super" cel="gren.0o">Greno</ref> el kies grajnoj oni faras blankan farunon,
+      <ref tip="lst" cel="genr.0o" lst="voko:botanikaj_genroj">genro</ref> el familio <ref tip="malprt" cel="poac.0oj">poacoj</ref>
+      (<trd lng="la">Triticum</trd>):
       <ekz>
-        hordeo kaj <tld/>o bone kreskas sub tiu klimato<fnt><aut>Lode
-Van
-        De Velde</aut>: <vrk>Bierlando Belgio</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 1a, p. 18a</lok></fnt>.
+        <ind>unugrajna <tld/>o</ind>;
+        <trd lng="de">Einkorn</trd>
+      </ekz>
+      <ekz>
+        <ind>dugrajna <tld/>o</ind>;
+        <trd lng="de">Emmer</trd>
+      </ekz>
+      <ekz>
+        la <tld/>o kaj la spelto ne estis batdifektitaj, &ccirc;ar ili estis malfrusezonaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 9:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[por]</klr> viaj servantoj mi destinis dudek mil kor'ojn da dra&scirc;ita <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Kroniko 2:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia edzino pistis per &scirc;tono <tld/>on por plata kuko
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        virino kun <klr>[&#x2026;]</klr> harplekta&jcirc;oj blondaj kiel matura <tld/>o
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Lambiko devas esti farata per nemalti&gcirc;inta <tld/>o, aveno kaj hordea malto, kun
+        aldono de plurjara (malpli amara) lupolo
+        <fnt>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="&Monato;/2001/007144.php">Bierlando Belgio</url></vrk>
+          <bib>Monato</bib>
+          <lok>2001/01, p. 18</lok>
+        </fnt>.
       </ekz>
     </dif>
-  <ref tip="sub" cel="spelt.0o">spelto</ref>
+    <ref tip="sub" cel="spelt.0o">spelto</ref>
+    <refgrp tip="vid">
+      <ref cel="tritikal.0o">tritikalo</ref>
+    </refgrp>
+    <bld lok="&WCU;/thumb/b/b4/Wheat_close-up.JPG/640px-Wheat_close-up.JPG" prm="CC-BY-SA-3.0">spikoj de <tld/>o
+        <fnt>
+          <aut>User:Bluemoose, propra verko</aut>
+          <lok><url ref="&WCW;/File:Wheat_close-up.JPG">&WCW;/File:Wheat_close-up.JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_p;&c_sh;&c_a;&c_n;&c_ib;&c_c;&c_a;</trd>
   <trd lng="bg">&c_p;&c_sh;&c_je;&c_n;&c_i;&c_c;&c_a;</trd>
-  <trd lng="bo">&#xF42;&#xFB2;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_ga;&t_rata;&t_naro;&t_tsheg;</trd>
   <trdgrp lng="ca">
     <trd>blat</trd>,
     <trd>forment <klr>(reg)</klr></trd>
   </trdgrp>
-  <trd lng="cs">p&#x161;enice</trd>
+  <trd lng="cs">p&scaron;enice</trd>
   <trd lng="de">Weizen</trd>
   <trd lng="en">wheat</trd>
   <trd lng="es">trigo</trd>
@@ -47,19 +96,35 @@ Van
     <trd>frumento</trd>,
     <trd>tritico</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#x9EA6;  <pr>&#x3053;&#x3080;&#x304E;</pr></trd>,
+    <trd>&#x30B3;&#x30E0;&#x30AE;</trd>
+  </trdgrp>
   <trd lng="nl">tarwe</trd>
   <trd lng="oc">blat</trd>
   <trd lng="pl">pszenica</trd>
   <trd lng="pt">trigo</trd>
   <trd lng="ru">&c_p;&c_sh;&c_je;&c_n;&c_i;&c_c;&c_a;</trd>
-  <trd lng="sk">p&#x161;enica</trd>
+  <trd lng="sk">p&scaron;enica</trd>
   <trd lng="sv">vete</trd>
   <trd lng="tr">bu&gbreve;day</trd>
-  <trd lng="uk">&#x43F;&#x448;&#x435;&#x43D;&#x438;&#x446;&#x44F;</trd>
+  <trd lng="uk">&c_p;&c_sh;&c_je;&c_n;&c_i;&c_c;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/21 14:37:42
+revo: transskribo per <pr>
+
+versio 1.31 2023/05/06 15:11:57
+revo: aktualigo URL-unuoj
+
+versio 1.30 2023/04/14 06:31:46
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.29 2023/01/05 21:24:10
+Wolfram Diestel: +ekz-oj, bld
+
 Revision 1.25  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -70,20 +135,5 @@ Revision 1.23  2013/10/12 01:10:33  revo
 Benito Subejrano: + trd oc
 
 Revision 1.22  2013/08/28 16:10:17  revo
-Wolfram Diestel: referencoj al bot genroj, trd la, de
-
-Revision 1.21  2010/12/28 08:46:52  revo
-Antonio Codazzi: +trd it
-
-Revision 1.20  2010/01/18 17:30:42  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.19  2008/01/02 17:30:35  revo
-Wieland Pusch: +trd bg
-
-Revision 1.18  2007/10/22 16:30:19  revo
-Sebastian Cyprych: +trd pl +ref spelto
-
-Revision 1.17  2006/02/16 17:35:06  revo
 -->
 </vortaro>

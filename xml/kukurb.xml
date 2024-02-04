@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kukurb.xml,v 1.34 2022/11/19 19:24:14 revo Exp $">
+<art mrk="$Id: kukurb.xml,v 1.38 2024/01/18 21:22:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kukurb</rad>/o <fnt><bib>Far1</bib></fnt>
+  <rad>kukurb</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="kukurb.0o">
@@ -67,7 +67,10 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_g;&c_a;&c_r;&c_b;&c_u;&c_z;</trd>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_a;&c_r;&c_b;&c_u;&c_z;</trd>,
+    <trd>&c_k;&c_a;&c_b;&c_a;&c_ch;&c_o;&c_k; <klr tip="amb">(&c_g;&c_a;&c_r;&c_o;&c_d;&c_n;&c_ib;&c_n;&c_a;)</klr></trd>
+  </trdgrp>
   <trd lng="bg">&c_m;&c_i;&c_k;&c_v;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>d&yacute;n&ecaron;</trd>,
@@ -83,6 +86,7 @@
   <trd lng="fr">courge</trd>
   <trd lng="hu">t&ouml;k</trd>
   <trd lng="id">labu</trd>
+  <trd lng="ja">&#x30AB;&#x30DC;&#x30C1;&#x30E3;</trd>
   <trd lng="nl">pompoen</trd>
   <trd lng="pl">kabaczek</trd>
   <trd lng="ro">dovleac</trd>
@@ -90,6 +94,11 @@
   <trd lng="sk">tekvica jedl&aacute;</trd>
   <trd lng="tr">kabak</trd>
   <trd lng="uk">&c_g;&c_a;&c_r;&c_b;&c_u;&c_z;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x74DC; <pr>gu&amacron;</pr></trd>,
+    <trd>&#21335;&#x74DC; <pr>n&#xE1;ngu&amacron;</pr></trd>,
+    <trd>&#x502D;&#x74DC; <pr>w&#x14D;gu&amacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kukurb.0eto">
@@ -109,7 +118,7 @@
   <snc mrk="kukurb.0eto.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Frukto de <tld/>etoplanto plej ofte verda, longforma, 
+      Frukto de <tld/>etoplanto plej ofte verda, longforma,
       kiun oni man&gcirc;as nematura:
       <ekz>
         telero da <tld/>etoj je petroselo
@@ -131,6 +140,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_c;&c_u;&c_k;&c_ib;&c_n;&c_ib;</trd>
   <trd lng="bg">&c_t;&c_i;&c_k;&c_v;&c_i;&c_ch;&c_k;&c_a;</trd>
     <trdgrp lng="de">
       <trd>Zucchini</trd>,
@@ -139,15 +149,32 @@
   <trd lng="en">zucchini</trd>
   <trd lng="fr">courgette</trd>
   <trd lng="id">zukini</trd>
+  <trd lng="ja">&#x30BA;&#x30C3;&#x30AD;&#x30FC;&#x30CB;</trd>
   <trd lng="nl">courgette</trd>
   <trd lng="pl">cukinia</trd>
   <trd lng="ro">dovlecel</trd>
   <trd lng="uk">&#x43A;&c_a;&c_b;&c_a;&c_ch;&#x43E;&#x43A;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x610F;&#22823;&#21033;&#38738;&#x74DC; <pr>Y&#xEC;d&#xE0;l&#xEC;q&#x12B;nggu&amacron;</pr></trd>,
+    <trd>&#x590F;&#21335;&#x74DC; <pr>xi&#xE0;n&#xE1;ngu&amacron;</pr></trd>,
+    <trd>&#x5C0F;&#x74DC; <pr>xi&#x1CE;ogu&amacron;</pr></trd>,
+    <trd>&#x5C0F;&#x80E1;&#x74DC; <pr>xi&#x1CE;oh&#xFA;gu&amacron;</pr></trd>,
+    <trd>&#x897F;&#x846B;&#x82A6; <pr>x&#x12B;h&#xFA;l&#xFA;</pr></trd>,
+    <trd>&#x897F;&#x846B;&#34310; <pr>x&#x12B;h&#xFA;l&#xFA;</pr></trd>,
+    <trd>&#x897F;&#x846B;&#x82A6; <pr>x&#x12B;h&#xFA;l&#x1D4;</pr></trd>,
+    <trd>&#x897F;&#x846B;&#34310; <pr>x&#x12B;h&#xFA;l&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.38 2024/01/18 21:22:48
+Wolfram Diestel: fnt UV
+
+versio 1.35 2023/07/06 12:55:39
+Dmitri Gabinski: + trd be
+
 versio 1.34 2022/11/19 19:24:14
 Ulrich Fellmann: kukurbeto: korekto de 1 DE trd + 1 plia DE trd
 
@@ -164,11 +191,5 @@ Revision 1.27  2018/02/26 21:10:45  revo
 Vito Redsky: +trd ro
 
 Revision 1.26  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.25  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.24  2014/04/08 20:10:12  revo
 -->
 </vortaro>

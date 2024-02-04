@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fest.xml,v 1.53 2022/11/24 12:54:16 revo Exp $">
+<art mrk="$Id: fest.xml,v 1.63 2023/11/09 19:13:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fest</rad>/i <fnt><bib>PV</bib></fnt>
@@ -74,7 +74,7 @@
           <lok>Vojkamarado</lok>
         </fnt>;
       </ekz><ekz>
-        Damono edzi&gcirc;on de frato for<tld/>is, &#11005;
+        Damono edzi&gcirc;on de frato for<tld/>is, &#x2AFD;
         En tria mateno tre frue sin vestis
         <fnt>
           <bib>FK</bib>
@@ -88,11 +88,11 @@
       </ekz><ekz>
         la lo&gcirc;antaro de Bamako <tld/>is lin kiel heroon
         <fnt>
-          <bib>Monato</bib>
+
           <aut>Yves Nicolas</aut>
-          <vrk><url ref="https://www.monato.be/2013/010985.php"
-              >Malio kaj la granda mutulo</url></vrk>
-          <lok>2013</lok>
+          <vrk><url ref="&Monato;/2013/010985.php">Malio kaj la granda mutulo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2013/04, p. 7</lok>
         </fnt>;
       </ekz><ekz>
         fian&ccirc;i&gcirc;on <tld/>as nevo mia
@@ -125,6 +125,7 @@
   <trd lng="fr">f&ecirc;ter</trd>
   <trd lng="hu">&uuml;nnepel</trd>
   <trd lng="id">ber<ind>pesta</ind></trd>
+  <trd lng="ja">&#x795D;&#x3046;  <pr>&#x3044;&#x308F;&#x3046;</pr></trd>
   <trd lng="nl">feesten</trd>
   <trd lng="pl">&sacute;wi&eogonek;towa&cacute;</trd>
   <trd lng="pt">festejar</trd>
@@ -139,8 +140,8 @@
   </trdgrp>
   <trd lng="uk">&c_s;&c_v;&c_ja;&c_t;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   <trdgrp lng="zh">
-    <trd>&#24198;&#31069; [<ind>q&igrave;ng zh&ugrave;</ind>]</trd>
-    <trd>&#36807;<klr>(&#33410;)</klr> [<ind>gu&ograve;</ind>]</trd>
+    <trd>&#x5E86;&#x795D; <pr>q&igrave;ng zh&ugrave;</pr></trd>
+    <trd>&#x8FC7;<klr>(&#x8282;)</klr> <pr>gu&ograve;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -160,25 +161,25 @@
         <ref cel="fest.geedzigxo0o">geedzi&gcirc;a <tld/>o</ref>;
       </ekz><ekz>
         tri fojojn <tld/>u al Mi dum la jaro, la <tld/>on de la macoj
-        <klr>[&#8230;]</klr>, la <tld/>on de la rikolto <klr>[&#8230;]</klr> kaj
+        <klr>[&#x2026;]</klr>, la <tld/>on de la rikolto <klr>[&#x2026;]</klr> kaj
         la <tld/>on de kolekto en la fino de la jaro
         <fnt><bib>MT</bib> <lok>&Eli; 23:14</lok></fnt>;
       </ekz><ekz>
         terpomoj kaj malforta biero fari&gcirc;os regala&jcirc;o por <tld/>oj
         <fnt><bib>Rabistoj</bib> <lok>Akto Dua</lok></fnt>;
       </ekz><ekz>
-        du fra&ubreve;linoj <klr>[&#8230;]</klr> rigardis almena&ubreve; kvardekan fojon
+        du fra&ubreve;linoj <klr>[&#x2026;]</klr> rigardis almena&ubreve; kvardekan fojon
         la <tld/>on de &Ccirc;ieliro
         <fnt><bib>IKr</bib> <lok>Neniam Plu!</lok></fnt>;
       </ekz><ekz>
-        ili alvenis <klr>[&#8230;]</klr> la anta&ubreve;tagon de la Sankt&#8217; Johana <tld/>o
+        ili alvenis <klr>[&#x2026;]</klr> la anta&ubreve;tagon de la Sankt&#x2019; Johana <tld/>o
         <fnt><bib>DKM</bib> <lok>&Ccirc;apitro LXI</lok></fnt>;
       </ekz><ekz>
         la <tld/>o de Anunciacio falos sur la Grandan Vendredon
         <fnt><bib>FK</bib></fnt>;
       </ekz><ekz>
         <ind><tld/>otago</ind>.
-        <trd lng="zh">&#33410;&#26085; [<ind>ji&eacute; r&igrave;</ind>]</trd>
+        <trd lng="zh">&#x8282;&#x65E5; <pr>ji&eacute; r&igrave;</pr></trd>
       </ekz><ekz>
         pri laboroj maldiligenta, pri <tld/>oj plej kompetenta
         <fnt><bib>PrV</bib></fnt>;
@@ -214,6 +215,11 @@
   <trd lng="hu">&uuml;nnep</trd>
   <trd lng="id">pesta</trd>
   <trd lng="it">festa</trd>
+  <trdgrp lng="ja">
+    <trd>&#x795D;&#x3044;  <pr>&#x3044;&#x308F;&#x3044;</pr></trd>,
+    <trd>&#x795D;&#x796D;  <pr>&#x3057;&#x3085;&#x304F;&#x3055;&#x3044;</pr></trd>,
+    <trd>&#x796D;  <pr>&#x307E;&#x3064;&#x308A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">feest</trd>
   <trd lng="pl">&sacute;wi&eogonek;to</trd>
   <trdgrp lng="pt">
@@ -248,19 +254,19 @@
       </ekz><ekz>
         televidaj kaj radiaj steluloj kuni&gcirc;u por koncerte kun<tld/>i la datrevenon
         <fnt>
+          <aut>Pa&ubreve;lo Gubbins</aut>
+          <vrk><url ref="&Monato;/1994/A940601.php">Revivi&gcirc;as la fantomoj -- de 1944</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9405-britio.txt"
-              >Britio</url></vrk>
-          <lok>94/05</lok>
+          <lok>1994/06, p. 11</lok>
         </fnt>;
       </ekz><ekz>
-        <tld/>u, se vi volas, la alvenon de la nova jarmilo <klr>[&#8230;]</klr>, mi ne
+        <tld/>u, se vi volas, la alvenon de la nova jarmilo <klr>[&#x2026;]</klr>, mi ne
         kun<tld/>os
         <fnt>
+       <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2000/006847.php">Sobraj pensoj de sobrulo</url></vrk>
           <bib>Monato</bib>
-          <aut>Albisturo Kvinke</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006847.html"
-              >OPINIO: Sobraj pensoj de sobrulo</url></vrk>
+          <lok>2000/03, p. 22</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -292,7 +298,7 @@
   <trd lng="be">&c_s;&c_mol;&c_v;&c_ja;&c_t;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_z;&c_mol; &c_n;&c_je;&c_k;&c_a;&c_j; &c_n;&c_a;&c_g;&c_o;&c_d;&c_y;)</klr></trd>
   <trd lng="de">feiern <klr>(etwas)</klr></trd>
   <trd lng="es">homenajear</trd>
-  <trdgrp lng="fr">   
+  <trdgrp lng="fr">
     <trd>c&eacute;l&eacute;brer</trd>,
     <trd>f&ecirc;ter<klr> (tr. qqch, qqun)</klr></trd>
   </trdgrp>
@@ -320,7 +326,7 @@
   <trd lng="de">Kirchenjahr</trd>
   </snc>
   <!-- tez tip="listo" mrk="fest.dekduopaj0oj"
-  cel="krist.0anismo">La dekduopaj festoj</tez --> 
+  cel="krist.0anismo">La dekduopaj festoj</tez -->
   <trd lng="be">&c_d;&c_v;&c_a;&c_n;&c_a;&c_d;&c_z;&c_ja;&c_s;&c_ja;&c_t;&c_a;&c_je; <ind>&c_s;&c_mol;&c_v;&c_ja;&c_t;&c_a;</ind></trd>
   <trd lng="fr">douze grandes f&ecirc;tes</trd>
   <trd lng="ru">&c_d;&c_v;&c_u;&c_n;&c_a;&c_d;&c_je;&c_s;&c_ja;&c_t;&c_y;&c_j; &c_p;&c_r;&c_a;&c_z;&c_d;&c_n;&c_i;&c_k;</trd>
@@ -381,7 +387,7 @@
         tiel maljunaj, ke tia geedzi&gcirc;o tro similus ar&gcirc;entan edzi&gcirc;<tld/>on
         <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Deka</lok></fnt>;
       </ekz><ekz>
-        nia geedzi&gcirc;<tld/>o estis organizita en la domo de 
+        nia geedzi&gcirc;<tld/>o estis organizita en la domo de
         miaj bogepatroj
         <fnt>
           <aut>Jianhuo</aut>
@@ -391,16 +397,24 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_v;&c_ja;&c_s;&c_je;&c_l;&c_mol;&c_l;&c_je;</trd>
   <trd lng="fr">noce</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5A5A;&#x793C;  <pr>&#x3053;&#x3093;&#x308C;&#x3044;</pr></trd>,
+    <trd>&#x7D50;&#x5A5A;&#x795D;&#x3044;  <pr>&#x3051;&#x3063;&#x3053;&#x3093;&#x3044;&#x308F;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_v;&c_a;&c_d;&c_mol;&c_b;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5A5A;&#x5178;&#x793C; <pr>h&#x16B;ndi&#x1CE;nl&#x1D0;</pr></trd>,
+    <trd>&#x559C;&#x9152; <pr>x&#x1D0;ji&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="fest.masko0o">
   <kap>masko<tld/>o</kap>
   <snc mrk="fest.masko0o.KOMUNE">
     <dif>
-      <ref tip="lst" cel="fest.0o" lst="voko:festoj"><tld lit="F"/>o</ref> 
+      <ref tip="lst" cel="fest.0o" lst="voko:festoj"><tld lit="F"/>o</ref>
       en kiu homoj surhavas maskojn, alivestojn:
       <ekz>
         ha, kion? Masko<tld/>o?
@@ -411,12 +425,12 @@
         <lok>1914</lok>
         </fnt>;
       </ekz><ekz>
-        tri knaboj <klr>[&#8230;]</klr> vizitas fantazian masko<tld/>on en kiu
+        tri knaboj <klr>[&#x2026;]</klr> vizitas fantazian masko<tld/>on en kiu
         okazas strangaj aferoj: la lo&gcirc;antoj de la domo estas
         spirito, diablo kaj aliaj fantomoj
         <fnt>
         <aut>UEA</aut>
-        <vrk><url ref="http://uea.org/kongresoj/2002/kl-arto.html">87a
+        <vrk><url ref="&UEA;kongresoj/2002/kl-arto.html">87a
         Universala Kongreso...</url></vrk>
         <lok>2003-03-15</lok>
         </fnt>.
@@ -440,6 +454,10 @@
   <trd lng="es">mascarada</trd>
   <trd lng="fr">mascarade</trd>
   <trd lng="id"><ind>pesta</ind> topeng</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4EEE;&#x88C5;&#x306E;&#x4F1A;  <pr>&#x304B;&#x305D;&#x3046;&#x306E;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x4EEE;&#x88C5;&#x884C;&#x5217;  <pr>&#x304B;&#x305D;&#x3046;&#x304E;&#x3087;&#x3046;&#x308C;&#x3064;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>bal maskowy</trd>,
     <trd>maskarada</trd>
@@ -448,6 +466,7 @@
     <trd>ma&scaron;karn&yacute; ples</trd>,
     <trd>ma&scaron;kar&aacute;da</trd>
   </trdgrp>
+  <trd lng="zh">&#x5316;&#x88C5;&#x821E;&#x4F1A; <pr>hu&#xE0;zhu&#x101;ngw&#x1D4;hu&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="fest.nom0o">
@@ -456,9 +475,9 @@
     <uzo tip="fak">KAL</uzo>
     <dif>
       En iuj landoj
-      <ref tip="lst" cel="fest.0o" lst="voko:festoj"><tld/>o</ref> 
-      al homoj kun sama persona nomo, okazanta en jartago 
-      dedi&ccirc;ita al tiu nomo: 
+      <ref tip="lst" cel="fest.0o" lst="voko:festoj"><tld/>o</ref>
+      al homoj kun sama persona nomo, okazanta en jartago
+      dedi&ccirc;ita al tiu nomo:
       <ekz>
         lia nom<tld/>o estas en la tago de la sankta Antono
         <fnt><bib>Revizoro</bib> <lok>akto 4a, sceno 10a</lok></fnt>;
@@ -485,8 +504,8 @@
   <trd lng="es">onom&aacute;stica</trd>
   <trd lng="fr">f&ecirc;te<klr> (d'un pr&eacute;nom)</klr></trd>
   <trd lng="it">onomastico</trd>
-  <trd lng="ja">&#32854;&#21517;&#31069;&#26085;</trd>
-  <trd lng="ko">&#50689;&#47749; &#52629;&#51068;</trd>
+  <trd lng="ja">&#x8056;&#x540D;&#x795D;&#x65E5; <pr>&#x305B;&#x3044;&#x3081;&#x3044;&#x3057;&#x3085;&#x304F;&#x3058;&#x3064;</pr></trd>
+  <trd lng="ko">&#xC601;&#xBA85; &#xCD95;&#xC77C;</trd>
   <trd lng="nl">naamdag</trd>
   <trd lng="pl">imieniny</trd>
   <trd lng="ro">zi onomastic&abreve;</trd>
@@ -494,9 +513,8 @@
   <trd lng="sk">meniny</trd>
   <trd lng="tr">isim g&uuml;n&uuml;</trd>
   <trd lng="uk">&c_ib;&c_m;&c_je;&c_n;&c_i;&c_n;&c_i;</trd>
-  <trd lng="zh">&#21629;&#21517;&#26085;</trd>
+  <trd lng="zh">&#x547D;&#x540D;&#x65E5;</trd>
 </drv>
-
 
 <drv mrk="fest.Auxtunmeza_0o">
   <kap>
@@ -522,42 +540,42 @@
         en Japanio oni festas Lunan <tld/>on en a&ubreve;tuno la&ubreve; japana malnova kalendaro
         <fnt>
           <aut>Kuromaru Karasutengu</aut>
-          <vrk><url ref="http://www.ipernity.com/doc/356345/48570220"
-              >&#12304;&#26376;&#35211;&#12305;Luna festo</url></vrk>
+          <vrk><url ref="http://www.ipernity.com/doc/356345/48570220">&#x3010;&#x6708;&#x898B;&#x3011;Luna
+          festo</url></vrk>
           <lok>2019-05-05</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_S;&c_mol;&c_v;&c_ja;&c_t;&c_a; &c_s;&c_ja;&c_r;&c_e;&c_d;&c_z;&c_ib;&c_n;&c_y; &c_v;&c_o;&c_s;&c_je;&c_n;&c_ib;</trd>
   <trd lng="de">Mondfest</trd>
   <trd lng="fr">F&ecirc;te de la mi-automne</trd>
   <trd lng="it">Festa di met&agrave; autunno</trd>
   <trdgrp lng="zh">
-    <trd>&#20013;&#31179;&#31680;</trd>,
-    <trd>&#20013;&#31179;&#33410;</trd>
+    <trd>&#x4E2D;&#x79CB;&#x7BC0;</trd>,
+    <trd>&#x4E2D;&#x79CB;&#x8282;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="fest.Danko0o">
   <kap>Danko<tld/>o <fnt><bib>CEE</bib></fnt></kap>
   <snc mrk="fest.Danko0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
-      <ref tip="lst" cel="fest.0o" lst="voko:festoj"><tld lit="F"/>o</ref> kutime okazigita en 
+      <ref tip="lst" cel="fest.0o" lst="voko:festoj"><tld lit="F"/>o</ref> kutime okazigita en
       a&ubreve;tuno por danki Dion pro la rikolto:
       <ekz>
         la Nordamerikan Danko<tld/>on oni celebras je la 4a &jcirc;a&ubreve;do de novembro en Usono,
         kaj je la 2a lundo de oktobro en Kanado;
       </ekz><ekz>
-        la 7an de septembro <klr>[&#8230;]</klr> &ccirc;i tie pre&gcirc;is papo Johano Pa&ubreve;lo la 2a
-        <klr>[&#8230;]</klr>, la solena&jcirc;o en <nom>&Scaron;iluva</nom> fini&gcirc;is per dank<tld/>o
+        la 7an de septembro <klr>[&#x2026;]</klr> &ccirc;i tie pre&gcirc;is papo Johano Pa&ubreve;lo la 2a
+        <klr>[&#x2026;]</klr>, la solena&jcirc;o en <nom>&Scaron;iluva</nom> fini&gcirc;is per dank<tld/>o
         <fnt>
-          <bib>Monato</bib>
+
           <aut>last</aut>
-          <vrk><url ref="https://www.monato.be/2008/009647.php"
-              >Dia Filo estu glorata dum jarcentoj</url></vrk>
-          <lok>2008</lok>
+          <vrk><url ref="&Monato;/2008/009647.php">Dia Filo estu glorata dum jarcentoj</url></vrk>
+          <bib>Monato</bib>
+          <lok>2008/12, p. 20</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -582,8 +600,14 @@
   <trd lng="pl">&Sacute;wi&eogonek;to Dzi&eogonek;kczynienia</trd>
   <trd lng="pt">Dia de ac&ccedil;&atilde;o de gra&ccedil;as</trd>
   <trd lng="ru">&c_D;&c_je;&c_n;&c_mol; &c_B;&c_l;&c_a;&c_g;&c_o;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x611F;&#x6069; <pr>g&#x1CE;n&#x113;n</pr></trd>,
+    <trd>&#x6536;&#x7A6B;&#x7BC0; <pr>sh&#x14D;uhu&#xF2;ji&#xE9;</pr></trd>,
+    <trd>&#x6536;&#x7A6B;&#x611F;&#x6069;&#x7BC0; <pr>sh&#x14D;uhu&#xF2;g&#x1CE;n&#x113;nji&#xE9;</pr></trd>,
+    <trd>&#x611F;&#x6069;&#x7BC0; <pr>g&#x1CE;n&#x113;nji&#xE9;</pr></trd>,
+    <trd>&#x4E30;&#x5E74;&#x796D; <pr>f&#x113;ngni&#xE1;nj&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="fest.0o_de_Duobla_Kvino">
   <kap>
@@ -600,28 +624,30 @@
         zongzi-o estas tradicia man&gcirc;a&jcirc;o de la <tld lit="F"/>o de Duobla Kvino
         <fnt>
           <aut>&Gcirc;oja</aut>
-          <vrk><url ref="https://esperanto.cri.cn/recomended1/3841/20220531/760571.html"
-              >Zongzi-o</url></vrk>
+          <vrk><url ref="&CRI;recomended1/3841/20220531/760571.html">Zongzi-o</url></vrk>
           <lok>&Ccirc;ina Radio Internacia, 2022-05-31</lok>
         </fnt>;
       </ekz><ekz>
-        la kvina tago de la kvina monato la&ubreve; la &ccirc;ina kalendaro estas la Drakboata <tld
-        lit="F"/>o
+        la kvina tago de la kvina monato la&ubreve; la &ccirc;ina kalendaro estas la Drakboata <tld lit="F"/>o
         <fnt>
           <aut>-</aut>
-          <vrk><url ref="http://esperanto.china.org.cn/2022-06/15/content_78272313.htm"
-              >Dol&ccirc;a? Sala? Kian zongzi-on vi preferas?</url></vrk>
+          <vrk><url ref="http://esperanto.china.org.cn/2022-06/15/content_78272313.htm">Dol&ccirc;a? Sala?
+          Kian zongzi-on vi preferas?</url></vrk>
           <lok>Esperanto.china.org.cn, 2022-06-15</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_S;&c_mol;&c_v;&c_ja;&c_t;&c_a; &c_ch;&c_o;&c_w;&c_n;&c_a;&c_w;-&c_c;&c_m;&c_o;&c_k;&c_a;&c_w;</trd>,
+    <trd>&c_S;&c_mol;&c_v;&c_ja;&c_t;&c_a; &c_ch;&c_o;&c_w;&c_n;&c_a;&c_w;-&c_d;&c_r;&c_a;&c_k;&c_o;&c_n;&c_a;&c_w;</trd>
+  </trdgrp>
   <trd lng="de">Drachenbootfest</trd>
   <trd lng="fr">F&ecirc;te des bateaux-dragons</trd>
   <trd lng="it">Festa delle barche drago</trd>
 <trdgrp lng="zh">
-  <trd>&#31471;&#21320;&#31680;</trd>,
-  <trd>&#31471;&#21320;&#33410;</trd>
+  <trd>&#x7AEF;&#x5348;&#x7BC0;</trd>,
+  <trd>&#x7AEF;&#x5348;&#x8282;</trd>
 </trdgrp>
 </drv>
 
@@ -630,12 +656,12 @@
   <snc mrk="fest.0odelauxboj.JUD">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Septaga judisma vintra <ref tip="lst" cel="fest.0o" lst="voko:festoj">festo</ref>, 
+      Septaga judisma vintra <ref tip="lst" cel="fest.0o" lst="voko:festoj">festo</ref>,
       dum kiu oni tradicie restas sub la&ubreve;bo a&ubreve; en kabano
       memorige pri la bibliaj Eliro kaj migrado tra la dezerto;
       anka&ubreve; nomata <ref tip="sin" cel="sukot.0o.JUD">Sukoto</ref>:
       <ekz>
-        diru al la Izraelidoj jene: Komencante de la dek-kvina tago de 
+        diru al la Izraelidoj jene: Komencante de la dek-kvina tago de
         tiu sepa monato estu <tld/>o de la&ubreve;boj dum sep tagoj
         <fnt><bib>MT</bib> <lok>&Lev; 23:34</lok></fnt>.
       </ekz>
@@ -659,6 +685,7 @@
     <trd>Sukkot</trd>,
     <trd>Kuczki</trd>
   </trdgrp>
+  <trd lng="zh">&#x4F4F;&#x68DA;&#x7BC0; <pr>zh&#xF9;p&#xE9;ngji&#xE9;</pr></trd>
 </drv>
 
 <drv mrk="fest.0o_de_Semajnoj">
@@ -670,7 +697,7 @@
       La juda <ref cel="fest.Danko0o">dankofesto</ref> 50 tagoj post Pasko:
       <ekz>
         tri fojojn en la jaro &ccirc;iu via virseksulo devas aperi anta&ubreve; la Eternulo, via Dio
-        <klr>[&#8230;]</klr>: en la festo de macoj kaj en la festo de semajnoj kaj en la
+        <klr>[&#x2026;]</klr>: en la festo de macoj kaj en la festo de semajnoj kaj en la
         festo de la&ubreve;boj
         <fnt>
           <bib>MT</bib>
@@ -682,17 +709,18 @@
       <ref cel="pentek.0o">Pentekosto</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_Sh;&c_a;&c_v;&c_u;&c_o;&c_t;</trd>,
+    <trd>&c_Sh;&c_v;&c_u;&c_e;&c_s;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Wochenfest</trd>,
     <trd>Schawuot</trd>
   </trdgrp>
   <trd lng="en">Shavuot</trd>
-  <trd lng="he">&shin;&#1464;&#1473;&bet;&vav;&#1468;&ayin;&vav;&#1465;&tav;</trd>
+  <trd lng="he">&shin;&#x5B8;&#x5C1;&bet;&vav;&#x5BC;&ayin;&vav;&#x5B9;&tav;</trd>
   <trd lng="fr">Chavouot</trd>
 </drv>
-
-
-
 
 <drv mrk="fest.Lanterno0o">
   <kap>
@@ -709,9 +737,8 @@
         resti &gcirc;is 21:30 por vidi la fajroteknika&jcirc;ojn en la sama loko
         <fnt>
           <aut>Y&ucirc;iti Sawaya</aut>
-          <vrk><url
-          ref="https://ru-ru.facebook.com/groups/102299479924434/permalink/737393523081690/"
-              >Bunta vespero...</url></vrk>
+          <vrk><url ref="https://ru-ru.facebook.com/groups/102299479924434/permalink/737393523081690/">Bunta
+          vespero...</url></vrk>
           <lok>2017-01-31</lok>
         </fnt>;
       </ekz><ekz>
@@ -720,19 +747,20 @@
         povis eliri kaj ludi tutan nokton
         <fnt>
           <aut>Shanny</aut>
-          <vrk><url ref="https://www.youtube.com/watch?v=RMLb0HzDduw"
-              >Lanterna Festo estas &ccirc;ina &rightquot;Valentena Tago&#8221;!</url></vrk>
+          <vrk><url ref="https://www.youtube.com/watch?v=RMLb0HzDduw">Lanterna Festo estas &ccirc;ina
+          &rightquot;Valentena Tago&#x201D;!</url></vrk>
           <lok>YouTube, 2022-02-15</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_S;&c_mol;&c_v;&c_ja;&c_t;&c_a; &c_l;&c_ib;&c_h;&c_t;&c_a;&c_r;&c_o;&c_w;</trd>
   <trd lng="de">Laternenfest</trd>
   <trd lng="fr">F&ecirc;te des lanternes</trd>
   <trd lng="it">Festa delle lanterne</trd>
 <trdgrp lng="zh">
-  <trd>&#20803;&#23477;&#31680; &#29128;&#31680;</trd>,
-  <trd>&#20803;&#23477;&#33410; &#28783;&#33410;</trd>
+  <trd>&#x5143;&#x5BB5;&#x7BC0; &#x71C8;&#x7BC0;</trd>,
+  <trd>&#x5143;&#x5BB5;&#x8282; &#x706F;&#x8282;</trd>
 </trdgrp>
 </drv>
 
@@ -752,13 +780,17 @@
         de Simio
         <fnt>
           <aut>Chen Ji</aut>
-          <vrk><url ref="http://espero.chinareports.org.cn/2016-02/02/content_37720031.htm"
-              >Printempa Festo en aliaj landoj</url></vrk>
+          <vrk><url ref="http://espero.chinareports.org.cn/2016-02/02/content_37720031.htm">Printempa Festo en
+          aliaj landoj</url></vrk>
           <lok>El Popola &Ccirc;inio, 2016-02-02</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_S;&c_mol;&c_v;&c_ja;&c_t;&c_a; &c_v;&c_ja;&c_s;&c_n;&c_y;</trd>,
+    <trd>&c_K;&c_ib;&c_t;&c_a;&c_j;&c_s;&c_k;&c_ib; &c_n;&c_o;&c_v;&c_y; &c_g;&c_o;&c_d;</trd>
+  </trdgrp>
   <trd lng="de">Chinesisches <ind>Neujahrsfest</ind></trd>
   <trdgrp lng="fr">
     <trd>F&ecirc;te du printemps</trd>,
@@ -769,11 +801,10 @@
     <trd>capodanno cinese</trd>
   </trdgrp>
 <trdgrp lng="zh">
-  <trd>&#36786;&#26310;&#26032;&#24180; &#26149;&#31680;</trd>,
-  <trd>&#20892;&#21382;&#26032;&#24180; &#26149;&#33410;</trd>
+  <trd>&#x8FB2;&#x66C6;&#x65B0;&#x5E74; &#x6625;&#x7BC0;</trd>,
+  <trd>&#x519C;&#x5386;&#x65B0;&#x5E74; &#x6625;&#x8282;</trd>
 </trdgrp>
 </drv>
-
 
 <drv mrk="fest.saturno0o">
   <kap>Saturno<tld/>o, <var><kap>Saturna <tld lit="F"/>o</kap></var></kap>
@@ -781,8 +812,8 @@
     <uzo tip="fak">HIS</uzo>
     <uzo tip="fak">KAL</uzo>
     <dif>
-      Romia karnavala <ref tip="lst" cel="fest.0o" lst="voko:festoj">festo</ref> 
-      dedi&ccirc;ita al la dio Saturno, kun konfuzo de sociaj roloj kaj 
+      Romia karnavala <ref tip="lst" cel="fest.0o" lst="voko:festoj">festo</ref>
+      dedi&ccirc;ita al la dio Saturno, kun konfuzo de sociaj roloj kaj
       dibo&ccirc;o:
       <ekz>
         longe anta&ubreve; la komenco de la Saturna <tld/>o, mi jam
@@ -793,7 +824,7 @@
           <lok>1999</lok>
         </fnt>;
       </ekz><ekz>
-        la moderna lotumo <klr>[&#8230;]</klr> enradiki&gcirc;as en la romiaj 
+        la moderna lotumo <klr>[&#x2026;]</klr> enradiki&gcirc;as en la romiaj
         saturno<tld/>oj
         <fnt>
           <aut>M. Pancorbo Castro</aut>,
@@ -819,27 +850,27 @@
 </art>
 <!--
 $Log$
-versio 1.53 2022/11/24 12:54:16
-Sergio Pokrovskij: +trd=ru
+versio 1.62 2023/10/14 18:06:40
+revo: transskribo per <pr>
 
-versio 1.52 2022/11/10 07:27:55
-Wolfram Diestel: ~i, ~o, kun~i: +ekz-oj; geedzi&gcirc;~o: +var, ekz
+versio 1.61 2023/10/10 06:31:31
+Paul Peeraerts: + lok 
 
-versio 1.51 2022/11/09 18:35:56
-Wolfram Diestel: +Danko~o (movita el dank/), dif pli &gcirc;enerala
+versio 1.59 2023/08/29 16:35:20
+Wolfram Diestel: ja: prononco
 
-versio 1.50 2022/11/09 07:29:10
-Wolfram Diestel: +~o de Semajnoj; kelkaj trd de, zh
+versio 1.58 2023/05/04 16:16:09
+revo: aktualigo URL-unuoj
 
-versio 1.49 2022/06/18 18:32:52
-Jeromo Vasxe: + printempa k lanterna ~o
+versio 1.57 2023/04/22 11:22:17
+Paul Peeraerts: &steloj -> monato.be
 
-versio 1.48 2022/06/17 18:38:22
-Jeromo Vasxe: + auxtunmeza ~o
+versio 1.56 2023/04/12 07:24:42
+Paul Peeraerts: Steloj -> monato.be
 
-versio 1.47 2022/06/16 22:28:50
-Jeromo Vasxe: + ~o de duobla kvino
+versio 1.55 2023/04/11 14:37:22
+aktualigo Monato-URL
 
-versio 1.46 2022/04/25 11:28:49
+versio 1.54 2023/04/07 14:25:52
 -->
 </vortaro>

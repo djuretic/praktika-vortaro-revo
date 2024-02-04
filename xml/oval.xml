@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: oval.xml,v 1.28 2022/05/06 06:39:57 revo Exp $">
+<art mrk="$Id: oval.xml,v 1.32 2024/01/30 16:09:26 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>oval</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -33,6 +33,7 @@
     <trd>ov&aacute;lis</trd>,
     <trd>toj&aacute;sg&ouml;rbe</trd>
   </trdgrp>
+  <trd lng="ja">&#x5375;&#x5F62;&#x7DDA;  <pr>&#x3089;&#x3093;&#x3051;&#x3044;&#x305B;&#x3093;</pr></trd>
   <trd lng="nl">ovaal</trd>
   <trd lng="pl">owal</trd>
   <trd lng="pt">oval</trd>
@@ -40,6 +41,12 @@
   <trd lng="sk">ov&aacute;l</trd>
   <trd lng="cs">ov&aacute;l</trd>
   <trd lng="uk">&#x43E;&c_v;&c_a;&#x43B;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x692D;&#x5706;&#x5F62; <pr>tu&#x1D2;yu&#xE1;nx&#xED;ng</pr></trd>,
+    <trd>&#x6A62;&#x5713;&#x5F62; <pr>tu&#x1D2;yu&#xE1;nx&#xED;ng</pr></trd>,
+    <trd>&#x5375;&#x5706; <pr>lu&#x1CE;nyu&#xE1;n</pr></trd>,
+    <trd>&#x5375;&#x5713; <pr>lu&#x1CE;nyu&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="oval.0a">
@@ -60,12 +67,20 @@
     <trd>obl&yacute;</trd>,
     <trd>ov&aacute;ln&yacute;</trd>
   </trdgrp>
-  <trd lng="de">oval</trd>
+    <trdgrp lng="de">
+      <trd>oval</trd>,
+      <trd>eif&ouml;rmig</trd>,
+      <trd>eirund</trd>
+    </trdgrp>
   <trd lng="en">oval</trd>
   <trd lng="fr">ovale<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="hu">
     <trd>ov&aacute;lis</trd>,
     <trd>toj&aacute;sdad</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5375;&#x5F62;&#x7DDA;&#x306E;  <pr>&#x3089;&#x3093;&#x3051;&#x3044;&#x305B;&#x3093;&#x306E;</pr></trd>,
+    <trd>&#x5375;&#x5F62;&#x306E;  <pr>&#x3089;&#x3093;&#x3051;&#x3044;&#x306E;</pr></trd>
   </trdgrp>
   <trd lng="nl">ovaal</trd>
   <trd lng="pt">oval</trd>
@@ -75,6 +90,20 @@
     <trd>ov&aacute;lny</trd>
   </trdgrp>
   <trd lng="uk">&#x43E;&c_v;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5375;&#x5F62; <pr>lu&#x1CE;nx&#xED;ng</pr></trd>,
+    <trd>&#x692D;&#x5706; <pr>tu&#x1D2;yu&#xE1;n</pr></trd>,
+    <trd>&#x6A62;&#x5713; <pr>tu&#x1D2;yu&#xE1;n</pr></trd>,
+    <trd>&#x692D;&#x5706;&#x5F62; <pr>tu&#x1D2;yu&#xE1;nx&#xED;ng</pr></trd>,
+    <trd>&#x6A62;&#x5713;&#x5F62; <pr>tu&#x1D2;yu&#xE1;nx&#xED;ng</pr></trd>,
+    <trd>&#x692D; <pr>tu&#x1D2;</pr></trd>,
+    <trd>&#x6A62; <pr>tu&#x1D2;</pr></trd>,
+    <trd>&#x5375;&#x5706; <pr>lu&#x1CE;nyu&#xE1;n</pr></trd>,
+    <trd>&#x5375;&#x5713; <pr>lu&#x1CE;nyu&#xE1;n</pr></trd>,
+    <trd>&#x5375;&#x5706;&#x5F62; <pr>lu&#x1CE;nyu&#xE1;nx&#xED;ng</pr></trd>,
+    <trd>&#x5375;&#x5713;&#x5F62; <pr>lu&#x1CE;nyu&#xE1;nx&#xED;ng</pr></trd>,
+    <trd>&#x86CB;&#x5F62; <pr>d&#xE0;nx&#xED;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="oval.kartezia0o">
@@ -118,6 +147,12 @@
 </art>
 <!--
 $Log$
+versio 1.31 2023/10/20 13:11:48
+revo: transskribo per <pr>
+
+versio 1.29 2022/12/28 21:25:07
+Ulrich Fellmann: ovala: +2 pliaj DE trdj
+
 versio 1.28 2022/05/06 06:39:57
 Dmitri Gabinski: + trd be
 
@@ -134,11 +169,5 @@ Revision 1.23  2012/07/22 16:10:13  revo
 Marc Rausell: ++ trd ca
 
 Revision 1.22  2010/01/18 17:31:51  revo
-Russ Williams: +trd en
-
-Revision 1.21  2007/07/22 16:30:50  revo
-Jeromo Vasxe: + 1 ekz
-
-Revision 1.20 2007/06/05 16:31:06 revo
 -->
 </vortaro>

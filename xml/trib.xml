@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trib.xml,v 1.22 2022/10/24 14:15:49 revo Exp $">
+<art mrk="$Id: trib.xml,v 1.25 2023/10/21 14:37:42 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>trib</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -62,6 +62,13 @@
   <trd lng="hu">t&ouml;rzs</trd>
   <trd lng="it">trib&ugrave;</trd>
   <trd lng="ca">tribu</trd>
+  <trdgrp lng="ja">
+    <trd>&#x90E8;&#x65CF;  <pr>&#x3076;&#x305E;&#x304F;</pr></trd>,
+    <trd>&#x7A2E;&#x65CF;  <pr>&#x3057;&#x3085;&#x305E;&#x304F;</pr></trd>,
+    <trd>&#x652F;&#x65CF;  <pr>&#x3057;&#x305E;&#x304F;</pr></trd>,
+    <trd>&#x65CF;  <pr>&#x3046;&#x304B;&#x3089;</pr></trd>,
+    <trd>&#x9023;  <pr>&#x3080;&#x3089;&#x3058;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>stam</trd>,
     <trd>volksstam</trd>
@@ -79,7 +86,7 @@
     <klr tip="ind"> (&c_r;&c_o;&c_d;)</klr></trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43B;&c_je;&#x43C;&#8217;&#x44F;</trd>,
+    <trd>&#x43F;&#x43B;&c_je;&#x43C;&#x2019;&#x44F;</trd>,
     <trd>&c_t;&c_r;&c_i;&c_b;&c_a;</trd>
   </trdgrp>
 </drv>
@@ -93,7 +100,7 @@
       <ekz>
         la <tld/>estro lin atendis staranta
         <fnt><aut>E. de Zilah</aut>, <vrk>La Princo &ccirc;e la
-        Hunoj</vrk>, 
+        Hunoj</vrk>,
         <lok>2011</lok></fnt>.
       </ekz>
     </dif>
@@ -105,12 +112,24 @@
   </trdgrp>
   <trd lng="es">jefe de tribu</trd>
   <trd lng="fr">chef de tribu</trd>
+  <trdgrp lng="ja">
+    <trd>&#x90E8;&#x65CF;&#x9577;  <pr>&#x3076;&#x305E;&#x304F;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x914B;&#x9577;  <pr>&#x3057;&#x3085;&#x3046;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x9996;&#x9577;  <pr>&#x3057;&#x3085;&#x3061;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">stamhoofd</trd>
   <trd lng="sk">n&#xE1;&#x10D;eln&#xED;k kme&ncaron;a</trd>
   <trd lng="uk">&c_v;&#x43E;&c_zh;&c_d;&#x44C; &#x43F;&#x43B;&c_je;&#x43C;&c_je;&#x43D;&c_ib;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/21 14:37:42
+revo: transskribo per <pr>
+
+versio 1.23 2023/07/01 18:32:16
+Paul Peeraerts:  + trd nl + lok
+
 versio 1.22 2022/10/24 14:15:49
 Dmitri Gabinski: + trd be
 
@@ -127,11 +146,5 @@ Revision 1.16  2014/06/10 19:10:12  revo
 Jeromo Vasxe: + ~estro
 
 Revision 1.15  2012/10/24 00:10:09  revo
-Jeromo Vasxe: + snc bio
-
-Revision 1.14  2012/10/20 16:10:09  revo
-Jeromo Vasxe: snc / subsnc, + fak, + trd fr
-
-Revision 1.13  2009/03/18 17:31:26  revo
 -->
 </vortaro>

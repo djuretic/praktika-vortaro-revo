@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: preten.xml,v 1.102 2022/05/04 18:30:33 revo Exp $">
+<art mrk="$Id: preten.xml,v 1.109 2023/10/20 16:38:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>pretend</rad>/i 
+  <rad>pretend</rad>/i
 </kap>
 
 <drv mrk="preten.0i">
@@ -12,7 +12,7 @@
   <gra><vspec>x</vspec></gra>
   <snc mrk="preten.0i.postuli">
     <dif>
-      <ref tip="super" cel="postul.0i">Postuli</ref> ion, pri kio oni 
+      <ref tip="super" cel="postul.0i">Postuli</ref> ion, pri kio oni
       <ref tip="super" cel="asert.0i">asertas</ref>, ke oni havas rajton super &gcirc;i:
       <ekz>
         <tld/>i re&gcirc;econ pro hereda rajto;
@@ -70,7 +70,7 @@
       <trd>pretendowa&cacute; <klr>(do czego&sacute;)</klr></trd>,
       <trd>ubiega&cacute; si&eogonek; <klr>(o co&sacute;)</klr></trd>,
       <trd>ro&sacute;ci&cacute; sobie prawo <klr>(do czego&sacute;)</klr></trd>,
-      <trd>mie&cacute; pretensj&eogonek; <klr>(do czego&sacute;)</klr></trd>
+      <trd>mie&cacute; pretensje <klr>(do czego&sacute;)</klr></trd>
     </trdgrp>
   </snc>
   <snc mrk="preten.0i.parole">
@@ -132,7 +132,7 @@
     <trdgrp lng="hu">
       <trd>azt <ind>hiszi</ind> mag&aacute;r&oacute;l</trd>,
       <trd>felv&aacute;g</trd>,
-    </trdgrp>     
+    </trdgrp>
     <trdgrp lng="nl">
       <trd><ind>pretentie</ind> hebben</trd>,
       <trd>beweren</trd>,
@@ -153,11 +153,19 @@
   </trdgrp>
   <trd lng="en">claim</trd>
   <trd lng="fr">pr&eacute;tendre</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8981;&#x6C42;&#x3059;&#x308B;  <pr>&#x3088;&#x3046;&#x304D;&#x3085;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x4E3B;&#x5F35;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3061;&#x3087;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8A00;&#x3044;&#x5F35;&#x308B;  <pr>&#x3044;&#x3044;&#x306F;&#x308B;</pr></trd>,
+    <trd>&#x81EA;&#x79F0;&#x3059;&#x308B;  <pr>&#x3058;&#x3057;&#x3087;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x81EA;&#x6162;&#x3059;&#x308B;  <pr>&#x3058;&#x307E;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x516C;&#x8A00;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3052;&#x3093;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="ne">&#x926;&#x93E;&#x92C;&#x940;</trd>
   <trdgrp lng="pt">
     <trd>pretender</trd>,
     <trd>alegar</trd>,
-    <trd>ter a <ind>pretens&atilde;o</ind> de</trd>    
+    <trd>ter a <ind>pretens&atilde;o</ind> de</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_t;&c_je;&c_n;&c_d;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
@@ -167,12 +175,11 @@
     <trd>&zcaron;iada&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x435;&#x434;&#x2019;&#x44F;&#x432;&#x43B;&#x44F;&#x442;&#x438; &#x43F;&#x440;&#x430;&#x432;&#x430;</trd>,
-    <trd>&#x43F;&#x440;&#x435;&#x442;&#x435;&#x43D;&#x437;&#x456;&#x457;</trd>,
-    <trd>&#x43F;&#x440;&#x435;&#x442;&#x435;&#x43D;&#x434;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43F;&c_r;&c_je;&c_d;&#x2019;&#x44F;&c_v;&#x43B;&#x44F;&c_t;&c_i; &#x43F;&c_r;&c_a;&c_v;&c_a;</trd>,
+    <trd>&#x43F;&c_r;&c_je;&c_t;&c_je;&#x43D;&c_z;&c_ib;&c_ji;</trd>,
+    <trd>&#x43F;&c_r;&c_je;&c_t;&c_je;&#x43D;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="preten.0o">
   <kap>
@@ -180,7 +187,7 @@
   </kap>
   <snc>
     <dif>
-      <tld lit="P"/>a <ref cel="postul.0o.nepra">postulo</ref>, <ref cel="asert.0o">aserto</ref>, 
+      <tld lit="P"/>a <ref cel="postul.0o.nepra">postulo</ref>, <ref cel="asert.0o">aserto</ref>,
       fanfarono:
       <ekz>
         mi ne havas <tld/>on je indulga agado de via
@@ -232,7 +239,7 @@
   <trd lng="hy">&#x57A;&#x561;&#x570;&#x561;&#x576;&#x57B;&#x568;</trd>
   <trd lng="ig">mgbarakwa</trd>
   <trd lng="is">krafa</trd>
-  <trd lng="ja">&#x8ACB;&#x6C42;</trd>
+  <trd lng="ja">&#x8ACB;&#x6C42; <pr>&#x305B;&#x3044;&#x304D;&#x3085;&#x3046;</pr></trd>
   <trd lng="jv">pratelan</trd>
   <trd lng="ka">&#x10E1;&#x10D0;&#x10E0;&#x10E9;&#x10D4;&#x10DA;&#x10D8;</trd>
   <trd lng="kk">&c_t;&c_a;&#x43B;&c_a;&#x43F;</trd>
@@ -256,6 +263,7 @@
   <trd lng="my">&#x1010;&#x1031;&#x102C;&#x1004;&#x103A;&#x1038;&#x1006;&#x102D;&#x102F;&#x1019;&#x103E;&#x102F;</trd>
   <trd lng="ny">funsani</trd>
   <trd lng="pa">&#xA26;&#xA3E;&#xA05;&#xA35;&#xA3E;</trd>
+  <trd lng="pl">pretensja</trd>
   <trd lng="ps">&a_A;&a_d;&a_ayn;&a_A;</trd>
   <trd lng="rw">ikirego</trd>
   <trd lng="sd">&a_d;&a_ayn;&a_w;&a_y;</trd>
@@ -299,19 +307,21 @@
       <ekz>
         <tld/>ema instruistino
         <fnt>
-          <bib>Monato</bib>
           <aut>Eduardo Novembro</aut>
           <vrk><url ref="&Monato;/2015/011401.php">&Gcirc;emelaj desegna&jcirc;oj</url></vrk>
-          <lok>2015</lok>
+          <bib>Monato</bib>
+          <lok>2015/05, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
         <klr>[mi]</klr> &scirc;atus aldoni kelkajn pensojn miajn al la menciita eseo, se tio
         estas tro <tld/>ema
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Hilelaj influoj sur
+        <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2001/pdf/monato200105.pdf#page=22">Hilelaj influoj sur
           Esperanto</url></vrk>
+          <bib>Monato</bib>
+          <lok>2001/05, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -331,13 +341,18 @@
   </snc>
   <trd lng="be">&c_p;&c_r;&c_e;&c_t;&c_e;&c_n;&c_c;&c_y;&c_jo;&c_z;&c_n;&c_y;</trd>
   <trd lng="de">anspruchsvoll</trd>
+  <trdgrp lng="ja">
+    <trd>&#x62BC;&#x3057;&#x306E;&#x5F37;&#x3044;  <pr>&#x304A;&#x3057;&#x306E;&#x3064;&#x3088;&#x3044;</pr></trd>,
+    <trd>&#x539A;&#x304B;&#x307E;&#x3057;&#x3044;  <pr>&#x3042;&#x3064;&#x304B;&#x307E;&#x3057;&#x3044;</pr></trd>,
+    <trd>&#x3046;&#x306C;&#x307C;&#x308C;&#x306E;&#x5F37;&#x3044;  <pr>&#x3046;&#x306C;&#x307C;&#x308C;&#x306E;&#x3064;&#x3088;&#x3044;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">pretensjonalny</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x43C;&#x43E;&#x433;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x432;&#x438;&#x431;&#x430;&#x433;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x440;&#x435;&#x442;&#x435;&#x43D;&#x437;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_v;&c_i;&#x43C;&#x43E;&c_g;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_v;&c_i;&c_b;&c_a;&c_g;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&c_r;&c_je;&c_t;&c_je;&#x43D;&c_z;&c_ib;&c_j;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="preten.mal0i">
   <kap>mal<tld/>i</kap>
@@ -375,6 +390,10 @@
   </trdgrp>
   <trd lng="fr">renoncer &agrave;</trd>
   <trd lng="hu">nem tart r&aacute; <ind>ig&eacute;nyt</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x653E;&#x68C4;&#x3059;&#x308B;  <pr>&#x307B;&#x3046;&#x304D;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x68C4;&#x6A29;&#x3059;&#x308B;  <pr>&#x304D;&#x3051;&#x3093;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl"><ind>afstand</ind> doen</trd>
   <trdgrp lng="pl">
     <trd>rezygnowa&cacute;</trd>,
@@ -411,7 +430,11 @@
   </trdgrp>
   <trd lng="en">disclaimer</trd>
   <trd lng="fr">renonciation</trd>
-  <trd lng="nl">afstand<klr tip="ind"> (v.rechten)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x653E;&#x68C4;  <pr>&#x307B;&#x3046;&#x304D;</pr></trd>,
+    <trd>&#x68C4;&#x6A29;  <pr>&#x304D;&#x3051;&#x3093;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">afstand<klr tip="ind"> (v. rechten)</klr></trd>
   <trdgrp lng="pl">
     <trd>rezygnacja</trd>,
     <trd>zrzeczenie si&eogonek; <ind>pretensji</ind> <klr>(do
@@ -432,10 +455,8 @@
       Ne montrante <tld/>on, ne <tld/>anta:
       <ekz>
         li <klr>[&#x2026;]</klr> staris la manoj en la po&scirc;oj kaj la piedoj
-        sufi&ccirc;e
-        disstarigitaj, por esprimi fidon <klr>[&#x2026;]</klr> &mdash; tro trankvilan
-        kaj
-        sen<tld/>an, por fari&gcirc;i fanfaronado
+        sufi&ccirc;e disstarigitaj, por esprimi fidon <klr>[&#x2026;]</klr> &mdash; tro trankvilan
+        kaj sen<tld/>an, por fari&gcirc;i fanfaronado
         <fnt>
           <bib>BdV</bib>
         </fnt>;
@@ -447,6 +468,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="facil.0a.eltenebla">facila</ref>,
+      <ref cel="legxer.0a">le&gcirc;era</ref>,
+      <ref cel="modest.0a">modesta</ref>
+    </refgrp>
+    <refgrp tip="ant">
+      <ref cel="aplomb.0a">aplomba</ref>,
+      <ref cel="postul.0ema">postulema</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_p;&c_r;&c_e;&c_t;&c_e;&c_n;&c_c;&c_y;&c_jo;&c_z;&c_n;&c_y;</trd>,
@@ -457,34 +487,34 @@
     <trd>un&#xAD;pr&auml;&#xAD;ten&#xAD;ti&#xAD;&ouml;s</trd>,
     <trd>anspruchslos</trd>
   </trdgrp>
-  <trd lng="uk">&#x431;&#x435;&#x437;&#x43F;&#x440;&#x435;&#x442;&#x435;&#x43D;&#x437;&#x456;&#x439;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="ja">&#x63A7;&#x3048;&#x3081;&#x306A;  <pr>&#x3072;&#x304B;&#x3048;&#x3081;&#x306A;</pr></trd>
+  <trd lng="pl">bezpretensjonalny</trd>
+  <trd lng="uk">&c_b;&c_je;&c_z;&#x43F;&c_r;&c_je;&c_t;&c_je;&#x43D;&c_z;&c_ib;&c_j;&#x43D;&c_i;&c_j;</trd>
 </drv>
-
-
   </art>
   <!--
   $Log$
+versio 1.109 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.107 2023/08/29 16:35:23
+Wolfram Diestel: ja: prononco
+
+versio 1.106 2023/05/14 16:31:50
+Paul Peeraerts: + lok + url + aut
+
+versio 1.105 2023/05/07 07:23:57
+Wolfram Diestel: sen~a: +ref-oj
+
+versio 1.104 2023/05/06 14:26:04
+revo: aktualigo URL-unuoj
+
+versio 1.103 2023/04/27 22:27:18
+Vito Redsky: +trd pl
+
 versio 1.102 2022/05/04 18:30:33
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.100 2022/03/16 18:36:18
-Wolfram Diestel: +ref
-
-versio 1.99 2021/11/26 07:28:58
-Dmitri Gabinski: + trd be
-
-versio 1.72 2021/06/20 07:39:18
-Wolfram Diestel: +kelkaj ekz-oj, ref-oj
-
-versio 1.22 2020/05/11 13:10:21
-Damien Brucker: +trd fr
-
-  Revision 1.20  2019/03/19 09:10:15  revo
-  Bart Demeyere: +trd nl
-
-  Revision 1.19  2015/07/04 08:37:42  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.18  2015/06/29 16:40:18  revo
 -->
 </vortaro>

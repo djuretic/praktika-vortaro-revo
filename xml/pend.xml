@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pend.xml,v 1.145 2022/08/13 22:30:57 revo Exp $">
+<art mrk="$Id: pend.xml,v 1.155 2023/10/20 14:25:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pend</rad>/i
@@ -48,10 +48,14 @@
         </fnt>;
       </ekz>
       <ekz>
-        orel<tld/>a&jcirc;o;
+        <ind>orel<tld/>a&jcirc;o</ind>;
         <trdgrp lng="de">
           <trd>Ohrring</trd>,
           <trd>Ohranh&auml;nger</trd>
+        </trdgrp>
+        <trdgrp lng="nl">
+          <trd>oorring</trd>,
+          <trd>oorbel</trd>
         </trdgrp>
       </ekz><ekz>
         liaj manoj <tld/>is senforte sur la nigra vesto
@@ -218,6 +222,11 @@
     <trd>pendre<klr tip="ind"> (&ecirc;tre suspendu)</klr></trd>,
     <trd>&ecirc;tre <ind>suspendu</ind></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x639B;&#12387;&#12390;&#12356;&#x308B;  <pr>&#x304B;&#x304B;&#12387;&#12390;&#12356;&#x308B;</pr></trd>,
+    <trd>&#12406;&#12425;&#12373;&#x304C;&#12387;&#12390;&#12356;&#x308B;</trd>,
+    <trd>&#x5B99;&#x306B;&#x6D6E;&#12356;&#12390;&#12356;&#x308B;  <pr>&#12385;&#12421;&#12358;&#x306B;&#12358;&#12356;&#12390;&#12356;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">hangen</trd>
   <trdgrp lng="pl">
     <trd>dynda&cacute;</trd>,
@@ -309,12 +318,19 @@
     <trd>suspendre</trd>
   </trdgrp>
   <trd lng="hu">felakaszt</trd>
+  <trdgrp lng="ja">
+    <trd>&#x639B;&#12369;&#x308B;  <pr>&#x304B;&#12369;&#x308B;</pr></trd>,
+    <trd>&#12388;&#x308B;&#12377;</trd>,
+    <trd>&#12388;&#x308A;&#x4E0B;&#12370;&#x308B;  <pr>&#12388;&#x308A;&#12373;&#12370;&#x308B;</pr></trd>,
+    <trd>&#12406;&#12425;&#12373;&#12370;&#x308B;</trd>,
+    <trd>&#x7D5E;&#39318;&#21009;&#x306B;&#12377;&#x308B;  <pr>&#12371;&#12358;&#12375;&#12421;&#12369;&#12356;&#x306B;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ophangen</trd>
   <trdgrp lng="pl">
     <trd>powiesi&cacute;</trd>,
     <trd>wiesza&cacute;</trd>
   </trdgrp>
-  <trd lng="ro">ag&abreve;&#539;a</trd>
+  <trd lng="ro">ag&abreve;&#x21B;a</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_je;&c_sh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_v;&c_je;&c_s;&c_i;&c_t;&c_mol;</trd>
@@ -371,6 +387,11 @@
   <trdgrp lng="hu">
     <trd>akaszt&oacute;fa</trd>,
     <trd>bit&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30B5;&#x30B9;&#x30DA;&#x30F3;&#x30B7;&#x30E7;&#x30F3;</trd>,
+    <trd>&#x61F8;&#x67B6;&#x88C5;&#x7F6E; 
+    <pr>&#x304B;&#x304B;&#x304B;&#x304B;&#x305D;&#12358;&#12385;</pr></trd>
   </trdgrp>
   <trd lng="nl">galg</trd>
   <trdgrp lng="pl">
@@ -439,7 +460,7 @@
   <snc mrk="pend.0umi.KOMUNE">
     <dif>
       <ref tip="super" cel="mort.0igi.malvivigi">Mortigi</ref>
-      pendigante per 
+      pendigante per
       &ccirc;irka&ubreve;kola &scirc;nuro; <ref tip="sin" cel="pend.0igi.pendumi">pendigi<sncref/></ref>:
       <ekz>
         <tld/>umi krimulon;
@@ -453,21 +474,22 @@
         jarcento kondamnis
         kaj <tld/>umis sian propran filon je la fenestro de turo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Monato;/2004/008094.html">Galway
-          &#8208;
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2004/008094.html">Galway &#8208;
           urbo de triboj</url></vrk>
+          <bib>Monato</bib>
+          <lok>2004/01, p. 18</lok>
         </fnt>;
       </ekz>
       <ekz>
         li tiom suferis de depresio, ke post unu tago li provis
         <tld/>umi sin en la karcero
         <fnt>
-          <bib>Monato</bib>
           <aut>Albisturo Kvinke</aut>
           <vrk><url ref="&Monato;/2009/009680.php">Proksimaj kaj
           malproksimaj najbaroj</url></vrk>
+          <bib>Monato</bib>
+          <lok>2009/04, p. 20</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -496,6 +518,7 @@
     <trd>felakaszt</trd>,
     <trd>fell&oacute;gat</trd>
   </trdgrp>
+  <trd lng="ja">&#x7D5E;&#39318;&#21009;&#x306B;&#12377;&#x308B;  <pr>&#12371;&#12358;&#12375;&#12421;&#12369;&#12356;&#x306B;&#12377;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>ophangen<klr tip="ind"> (als straf)</klr></trd>,
     <trd>opknopen</trd>
@@ -550,6 +573,7 @@
     <trd>akaszt&oacute;fa</trd>,
     <trd>bit&oacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x7D5E;&#39318;&#x53F0;  <pr>&#12371;&#12358;&#12375;&#12421;&#12384;&#12356;</pr></trd>
   <trd lng="nl">galg</trd>
   <trd lng="pl">szubienica</trd>
   <trdgrp lng="ro">
@@ -579,9 +603,10 @@
         la lo&gcirc;antaro de tiuj landoj i&gcirc;as pli kaj pli
         de<tld/>a de nutra&jcirc;liverado el okcidento
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007272.html">Reen al
-          la edena paradizo</url></vrk>
+	<aut>Guido van Damme</aut>
+	<vrk><url ref="&Monato;/2001/007272.php">Reen al la edena paradizo</url></vrk>
+	<bib>Monato</bib>
+	<lok>2001/02, p. 20</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -612,6 +637,10 @@
     <trd>z&aacute;visl&yacute;</trd>
   </trdgrp>
   <trd lng="es">dependiente</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4F9D;&#x5B58;&#12375;&#x305F;  <pr>&#12356;&#x305E;&#12435;&#12375;&#x305F;</pr></trd>,
+    <trd>&#x5F93;&#x5C5E;&#30340;&#x306A;  <pr>&#12376;&#12421;&#12358;&#x305E;&#x304F;&#12390;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="ro">dependent</trd>
   <trd lng="sk">z&aacute;visl&yacute;</trd>
   <trd lng="uk">&c_z;&c_a;&#x43B;&c_je;&c_zh;&#x43D;&c_i;&c_j;</trd>
@@ -660,14 +689,22 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a; &c_a;&c_d;</trd>,
+    <trd>&c_u; <ind>&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_ib;</ind> &c_a;&c_d;</trd>
+  </trdgrp>
   <trd lng="bg">&c_v; &c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_o;&c_s;&c_t;
   &c_o;&c_t;</trd>
   <trdgrp lng="fr">
     <trd>selon</trd>,
     <trd>en fonction de</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#xFF5E;<ind>&#x306B;&#x4F9D;&#12387;&#12390;  </ind><pr>&#x306B;&#12424;&#12387;&#12390;</pr></trd>,
+    <trd>&#xFF5E;<ind>&#x6B21;&#x7B2C;&#12391;  </ind><pr>&#12375;&#12384;&#12356;&#12391;</pr></trd>
+  </trdgrp>
   <trd lng="pl">zale&zdot;nie</trd>
-  <trd lng="ro">&icirc;n func&#539;ie de</trd>
+  <trd lng="ro">&icirc;n func&#x21B;ie de</trd>
 </drv>
 
 <drv mrk="pend.de0i">
@@ -844,7 +881,7 @@
   <trd lng="hy">&#x56F;&#1377;&#x56D;&#x57E;&#1377;&#x56E;</trd>
   <trd lng="ig">na-adabere</trd>
   <trd lng="is">r&#xE1;&#xF0;ast</trd>
-  <trd lng="ja">&#x6C7A;&#x307E;&#x308B;</trd>
+  <trd lng="ja">&#x6C7A;&#x307E;&#x308B; <pr>&#x304D;&#x307E;&#x308B;</pr></trd>
   <trd lng="jv">gumantung</trd>
   <trd
   lng="ka">&#x10D3;&#x10D0;&#x10DB;&#x10DD;&#x10D9;&#x10D8;&#x10D3;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8;</trd>
@@ -919,13 +956,13 @@
       <ref tip="vid" cel="sxild.0o.butika">&scirc;ildo<sncref/></ref>:
       <ekz>
         La ru&gcirc;eta el<tld/>a&jcirc;o elrigardis kun siaj oraj, en
-        la suno 
+        la suno
         brilantaj literoj
         <fnt>
           <aut>C. Dickens, trad. L. L. Zamenhof</aut>,
           <vrk>La Batalo de l' Vivo</vrk>,
           <lok>1891</lok>
-        </fnt>;        
+        </fnt>;
       </ekz><ekz>
         la el<tld/>a&jcirc;o, fleksita super la enirejo en la angulo
         &ccirc;e amba&ubreve; flankoj de la fasado, estis montranta
@@ -938,11 +975,16 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Aush&auml;ngeschild</trd>
+    <trdgrp lng="de">
+      <trd>Ladenschild</trd>,
+      <trd>Aush&auml;ngeschild<klr> [hist][ark]</klr></trd>
+    </trdgrp>
     <trd lng="fr">enseigne</trd>
     <trd lng="nl">uithangbord</trd>
   </snc>
+  <trd lng="be">&c_sh;&c_y;&c_l;&c_mol;&c_d;&c_a;</trd>
   <trd lng="bg">&c_v;&c_i;&c_s;&c_ja;&c_shch;&c_a; &c_t;&c_a;&c_b;&c_je;&c_l;&c_a;</trd>
+  <trd lng="ja">&#x770B;&#x677F;  <pr>&#x304B;&#12435;&#12400;&#12435;</pr></trd>
   <trdgrp lng="pl">
     <trd>szyld</trd>,
     <trd>wywieszka</trd>
@@ -994,7 +1036,7 @@
         <ref cel="komun.0ajxo.aro">komuna&jcirc;o</ref> egalas al
         la produto de iliaj probabloj:
         <ekz>
-          se <frm am="bb a"><g>a</g></frm> kaj <frm am="bb           b"><g>b</g></frm> 
+          se <frm am="bb a"><g>a</g></frm> kaj <frm am="bb           b"><g>b</g></frm>
           estas okazoj nede<tld/>aj kun nenula probablo,
           la <ref cel="probab.kondicxa0o">kondi&ccirc;a probablo</ref>
           de
@@ -1118,6 +1160,7 @@
   <trd lng="es">independiente</trd>
   <trd lng="fr">ind&eacute;pendant</trd>
   <trd lng="hu">f&uuml;ggetlen <klr tip="amb">(szabad)</klr></trd>
+  <trd lng="ja">&#x72EC;&#x7ACB;&#x306E;  <pr>&#12393;&#x304F;&#x308A;&#12388;&#x306E;</pr></trd>
   <trd lng="nl">onafhankelijk</trd>
   <trdgrp lng="pl">
     <trd>dowolny</trd>,
@@ -1133,7 +1176,7 @@
 </drv>
 
 <drv mrk="pend.sende0ecxu">
-  <kap>sende<tld/>e &ccirc;u</kap>
+  <kap>sende<tld/>e, &ccirc;u</kap>
   <gra>dependiga <vspec>konjunkcio</vspec></gra>
   <snc mrk="pend.sende0ecxu.KOMUNE">
     <dif>
@@ -1141,7 +1184,7 @@
       kia ajn estas la tiurilata situacio:
       <ekz>
         la estraro klopodas sekvi &ccirc;ion, kio okazas favore al
-        Esperanto, 
+        Esperanto,
         sende<tld/>e &ccirc;u tio estas atribuebla a&ubreve; ne al la
         propra
         organiza&jcirc;o
@@ -1154,6 +1197,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a; &c_a;&c_d; &c_t;&c_a;&c_g;&c_o;, &c_c;&c_ib;</trd>
   <trd lng="bg">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_o; &c_d;&c_a;&c_l;&c_i;</trd>
   <trd lng="fr">que (+subj.)... ou non</trd>
   <trd lng="pl">niezale&zdot;nie czy</trd>
@@ -1168,7 +1212,7 @@
     <dif>
       Sen influo de, ne regate de, memstare:
       <ekz>
-        sen<tld/>e de la situacio, kiun homo havas en la 
+        sen<tld/>e de la situacio, kiun homo havas en la
         mondo <klr>[&#8230;]</klr> &ccirc;iuj estas egalaj
         <fnt>
           <aut>L. Tolstoj, trad. A. &Scirc;aparov</aut>,
@@ -1178,9 +1222,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a; &c_a;&c_d;</trd>
   <trd lng="bg">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_o;
   &c_o;&c_t;</trd>
   <trd lng="fr">ind&eacute;pendamment de</trd>
+  <trd lng="ja">&#xFF5E;<ind>&#x306B;&#12424;&#12425;&#x305A;</ind></trd>
   <trd lng="pl">niezale&zdot;nie od</trd>
   <trd lng="ro">independent</trd>
 </drv>
@@ -1198,11 +1244,11 @@
         Hindia sende<tld/>eco reali&gcirc;is sen armiloj, alfrontinte
         potencegan britan armeon
         <fnt>
-          <bib>Monato</bib>
-          <aut>Michel MARKO</aut>
-          <vrk><url ref="&Steloj;monato2/007265.html">Senperforta
-          respondo</url></vrk>
-        </fnt>.
+          <aut>Michel Marko</aut>
+            <vrk><url ref="&Monato;/2000/007265.php">Senperforta respondo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/12, p. 4</lok>
+          </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -1216,9 +1262,11 @@
       <trd>autonomie</trd>
     </trdgrp>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_o;&c_s;&c_t;</trd>
   <trd lng="cs">nez&aacute;vislost</trd>
   <trd lng="fr">ind&eacute;pendance</trd>
+  <trd lng="ja">&#x72EC;&#x7ACB;  <pr>&#12393;&#x304F;&#x308A;&#12388;</pr></trd>
   <trdgrp lng="pl">
     <trd>niezale&zdot;no&sacute;&cacute;</trd>,
     <trd>niepodleg&lstroke;o&sacute;&cacute;</trd>,
@@ -1252,6 +1300,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_e;&c_p;&c_a;&c_r;&c_a;&c_t;&c_y;&c_z;&c_m;</trd>
   <trd lng="bg">&c_s;&c_je;&c_p;&c_a;&c_r;&c_a;&c_t;&c_i;&c_z;&c_malmol;&c_m;</trd>
   <trdgrp lng="en">
     <trd>separatism</trd>,
@@ -1265,7 +1314,7 @@
   <trd lng="pt">separatismo</trd>
   <trdgrp lng="ro">
     <trd>autonomie</trd>,
-    <trd>independen&#539;&abreve;</trd>
+    <trd>independen&#x21B;&abreve;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_je;&c_p;&c_a;&c_r;&c_a;&c_t;&c_i;&c_z;&c_m;</trd>,
@@ -1293,12 +1342,14 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_e;&c_p;&c_a;&c_r;&c_a;&c_t;&c_y;&c_s;&c_t;</trd>
   <trd lng="bg">&c_s;&c_je;&c_p;&c_a;&c_r;&c_a;&c_t;&c_i;&c_s;&c_t;</trd>
   <trdgrp lng="en">
     <trd>separatist</trd>,
     <trd>secessionist</trd>
   </trdgrp>
   <trd lng="fr">ind&eacute;pendantiste</trd>
+  <trd lng="ja">&#x72EC;&#x7ACB;&#x4E3B;&#x7FA9;&#32773;  <pr>&#12393;&#x304F;&#x308A;&#12388;&#12375;&#12421;&#x304E;&#12375;&#12419;</pr></trd>
   <trdgrp lng="pl">
     <trd>separatysta</trd>,
     <trd>secesjonista</trd>
@@ -1319,7 +1370,7 @@
       <tld lit="P"/>i, resti senmove super:
       <ekz>
         el fendoj kaj truoj kreskis siringaj arbeta&jcirc;oj, kiuj
-        super<tld/>igis siajn 
+        super<tld/>igis siajn
         bran&ccirc;ojn super la malgrandaj malaltaj domoj &ccirc;e la
         interna flanko de la urba murego
         <fnt>
@@ -1328,7 +1379,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la malpli granda luno aperis post la 
+        la malpli granda luno aperis post la
         super<tld/>antaj tegmentoj
         <fnt>
           <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
@@ -1341,8 +1392,19 @@
     <trd lng="de">&uuml;berh&auml;ngen</trd>
     <trd lng="nl">overhangen</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_ib;&c_s;&c_je;&c_c;&c_mol; <klr>(&c_n;&c_a;&c_d; &c_ch;&c_y;&c_m;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>,
+    <trd>&c_n;&c_a;&c_v;&c_ib;&c_s;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="cs">b&yacute;t p&rcaron;evisl&yacute;</trd>
   <trd lng="fr">suplomber</trd>
+  <trd lng="hu">kil&oacute;g</trd>
+  <trdgrp lng="ja">
+    <trd>&#35206;&#12356;&#x304B;&#12406;&#12373;&#x308B;&#12424;&#12358;&#x306B;&#x5F35;&#x308A;&#x51FA;&#12377; 
+    <pr>&#x304A;&#x304A;&#12356;&#x304B;&#12406;&#12373;&#x308B;&#12424;&#12358;&#x306B;&#x306F;&#x308A;&#12384;&#12377;</pr></trd>,
+    <trd>&#x4E0A;&#x306B;&#x7A81;&#x304D;&#x51FA;&#12390;&#12356;&#x308B; 
+    <pr>&#12358;&#12360;&#x306B;&#12388;&#x304D;&#12391;&#12390;&#12356;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">wisie&cacute; ponad czym&sacute;</trd>
   <trd lng="ro">at&acirc;rn&acirc;nd peste ceva</trd>
   <trd lng="sk">by&tcaron; previsnut&yacute;</trd>
@@ -1538,27 +1600,27 @@
 </art>
 <!--
 $Log$
-versio 1.145 2022/08/13 22:30:57
-Vito Redsky:  +trd pl  + trd ro 
+versio 1.155 2023/10/20 14:25:20
+revo: transskribo per <pr>
 
-versio 1.144 2022/05/01 17:51:19
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.154 2023/09/04 18:29:25
+Wolfram Diestel: kor. ja ind
 
-versio 1.64 2021/05/13 14:51:37
-Wolfram Diestel: kor. drv@mrk
+versio 1.152 2023/08/29 13:30:37
+Wolfram Diestel: ja: prononco
 
-versio 1.63 2020/02/15 18:10:25
-Wolfram Diestel: formuloj per am
+versio 1.151 2023/05/09 09:29:29
+Paul Peeraerts: + lok
 
-Revision 1.62  2019/09/21 17:10:19  revo
-Wolfram Diestel: fnt-oj de ekz-oj
+versio 1.150 2023/05/01 07:25:35
+Paul Peeraerts: Steloj -> monato
 
-Revision 1.61  2019/06/30 18:21:48  revo
-adaptis URL de Monato
+versio 1.149 2023/04/24 06:32:32
+Paul Peeraerts: &Steloj -> &Monato
 
-Revision 1.60  2019/06/30 07:43:29  revo
-adaptis URL de Monato
+versio 1.148 2023/04/06 08:32:10
+Dmitri Gabinski: + trd be
 
-Revision 1.59  2018/08/04 13:10:13  revo
+versio 1.147 2023/02/11 18:31:57
 -->
 </vortaro>

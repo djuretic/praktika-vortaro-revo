@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fulm.xml,v 1.41 2022/10/31 09:36:27 revo Exp $">
+<art mrk="$Id: fulm.xml,v 1.44 2023/11/10 06:08:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fulm</rad>/o
@@ -130,11 +130,25 @@
     <trd>&eacute;clair</trd>
   </trdgrp>
   <trd lng="hu">vill&aacute;m</trd>
+  <trdgrp lng="ja">
+    <trd>&#x96F7;  <pr>&#x306A;&#x308B;&#x304B;&#x307F;</pr></trd>,
+    <trd>&#x7A32;&#x59BB;  <pr>&#x3044;&#x306A;&#x305A;&#x307E;</pr></trd>,
+    <trd>&#x96F7;&#x5149;  <pr>&#x3089;&#x3044;&#x3053;&#x3046;</pr></trd>,
+    <trd>&#x3072;&#x3089;&#x3081;&#x304D;</trd>
+  </trdgrp>
   <trd lng="nl">bliksem</trd>
   <trd lng="no">lyn</trd>
   <trd lng="ru">&c_m;&c_o;&c_l;&c_n;&c_i;&c_ja;</trd>
   <trd lng="sk">blesk</trd>
   <trd lng="uk">&c_b;&#x43B;&c_i;&c_s;&#x43A;&c_a;&c_v;&#x43A;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x96F7;&#x9583; <pr>l&#xE9;ish&#x1CE;n</pr></trd>,
+    <trd>&#x5929;&#x706B; <pr>ti&#x101;nhu&#x1D2;</pr></trd>,
+    <trd>&#x7535;&#x95EA; <pr>di&#xE0;nsh&#x1CE;n</pr></trd>,
+    <trd>&#x975D;&#x706B; <pr>ti&#x101;nhu&#x1D2;</pr></trd>,
+    <trd>&#x9583;&#x96FB; <pr>sh&#x1CE;ndi&#xE0;n</pr></trd>,
+    <trd>&#x9583; <pr>sh&#x1CE;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fulm.0i">
@@ -159,7 +173,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        aspektis <klr>[&#8230;]</klr> kvaza&ubreve; la tuta mondo staris en flamoj, tiel
+        aspektis <klr>[&#x2026;]</klr> kvaza&ubreve; la tuta mondo staris en flamoj, tiel
         forte <tld/>is
         <fnt>
           <bib>Fab2</bib>
@@ -219,6 +233,10 @@
   <trd lng="de">blitzen</trd>
   <trd lng="es">relampaguear</trd>
   <trd lng="hu">vill&aacute;mlik</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7A32;&#x59BB;&#x304C;&#x8D70;&#x308B;  <pr>&#x3044;&#x306A;&#x305A;&#x307E;&#x304C;&#x306F;&#x3057;&#x308B;</pr></trd>,
+    <trd>&#x3072;&#x3089;&#x3081;&#x304F;</trd>
+  </trdgrp>
   <trd lng="nl">bliksemen</trd>
   <trd lng="no">lyne</trd>
   <trd lng="pl">b&lstroke;yska&cacute;</trd>
@@ -226,6 +244,7 @@
   <trd lng="sk">bl&yacute;ska&tcaron; sa</trd>
   <trd lng="sv">blixtra</trd>
   <trd lng="uk">&c_b;&#x43B;&c_i;&c_s;&#x43A;&c_a;&c_t;&c_i;</trd>
+  <trd lng="zh">&#x5612; <pr>hu&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="fulm.0obati0ofrapi">
@@ -256,6 +275,7 @@
   </trdgrp>
   <trd lng="fr">foudroyer</trd>
   <trd lng="hu">vill&aacute;m s&uacute;jtja</trd>
+  <trd lng="ja">&#x96F7;&#x3067;&#x6253;&#x3064;  <pr>&#x304B;&#x307F;&#x306A;&#x308A;&#x3067;&#x3046;&#x3064;</pr></trd>
   <trdgrp lng="nl">
     <trd>neerbliksemen</trd>,
     <trd>doodbliksemen</trd>
@@ -311,12 +331,23 @@
   </trdgrp>
   <trd lng="en">flash</trd>
   <trd lng="fr">flash</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30D5;&#x30E9;&#x30C3;&#x30B7;&#x30E5;</trd>,
+    <trd>&#x30B9;&#x30C8;&#x30ED;&#x30DC;</trd>
+  </trdgrp>
   <trd lng="nl">flits</trd>  
   <trd lng="sk">blesk <klr>(pr&iacute;stroj)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x9583;&#x5149; <pr>sh&#x1CE;ngu&#x101;ng</pr></trd>,
+    <trd>&#x9583;&#x5149;&#x71C8; <pr>sh&#x1CE;ngu&#x101;ngd&#x113;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.43 2023/10/14 19:15:46
+revo: transskribo per <pr>
+
 versio 1.41 2022/10/31 09:36:27
 Dmitri Gabinski: + trd be
 
@@ -336,8 +367,5 @@ Revision 1.33  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.32  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.31  2014/10/22 18:10:13  revo
 -->
 </vortaro>

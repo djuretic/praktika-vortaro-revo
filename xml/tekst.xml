@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tekst.xml,v 1.38 2022/05/05 17:08:11 revo Exp $">
+<art mrk="$Id: tekst.xml,v 1.49 2023/10/21 13:02:26 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>8</ofc>
   <rad>tekst</rad>/o
@@ -11,8 +11,8 @@
   <kap><tld/>o</kap>
   <snc mrk="tekst.0o.KOMUNE">
     <dif>
-      Vorta konsisto de dokumento, ordinare de skriba&jcirc;o, precipe
-      &gcirc;ia precipa parto, aparte de la aldonitaj krommaterialoj
+      Vorta konsisto de <ref tip="malprt" cel="dokume.0o">dokumento</ref>,
+      ordinare de skriba&jcirc;o, precipe  &gcirc;ia precipa parto, aparte de la aldonitaj krommaterialoj
       (komentoj, tradukoj, ilustra&jcirc;oj ktp):
       <ekz>
         tio estas la originala <tld/>o;
@@ -68,15 +68,17 @@
       </ekz>
       <ekz>
         <ind><tld/>oprilaborilo</ind>
-        <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9505-cxapelil.txt">Windows</url></vrk>
-          <lok>95/05</lok>
-        </fnt>.
+       <fnt>
+            <aut>Pa&ubreve;l Peeraerts</aut>
+            <vrk><url ref="&Monato;/1995/A950501.php">Ni levu la &ccirc;apelon!</url></vrk>
+            <bib>Monato</bib>
+            <lok>1995/05, p. 16</lok>
+          </fnt>.
         <trd lng="de">Textverarbeitungsprogramm</trd>
+        <trd lng="nl">tekstverwerker</trd>
       </ekz>
     </dif>
-    <subsnc mrk="tekst.0o.de.kanto">
+    <subsnc mrk="tekst.0o.de_kanto">
       <dif>
         Akompanaj vortoj por muziko a&ubreve; desegna&jcirc;oj:
         <ekz>
@@ -95,7 +97,7 @@
       </trdgrp>
       <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_a;</trd>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="tekst.0o.biblia_verso">
       <uzo tip="fak">KRI</uzo>
       <dif>
         Cita&jcirc;o, frazo a&ubreve; verso el Biblio, uzata
@@ -114,6 +116,12 @@
   <trd lng="es">texto</trd>
   <trd lng="fr">texte</trd>
   <trd lng="hu">sz&ouml;veg</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30C6;&#x30AD;&#x30B9;&#x30C8;</trd>,
+    <trd>&#x672C;&#25991;  <pr>&#x307B;&#12435;&#12406;&#12435;</pr></trd>,
+    <trd>&#x539F;&#25991;  <pr>&#12370;&#12435;&#12406;&#12435;</pr></trd>,
+    <trd>&#x6B4C;&#x8A5E;  <pr>&#12358;&#x305F;&#12371;&#12392;&#12400;</pr></trd>
+  </trdgrp>
   <trd lng="nl">tekst</trd>
   <trd lng="pl">tekst</trd>
   <trdgrp lng="pt">
@@ -125,7 +133,7 @@
     <trd>znenie</trd>
   </trdgrp>
   <trd lng="sv">text</trd>
-  <trd lng="uk">&#x442;&#x435;&#x43A;&#x441;&#x442;</trd>
+  <trd lng="uk">&c_t;&c_je;&#x43A;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="tekst.0i">
@@ -158,21 +166,21 @@
       <ekz>
         tiel <tld/>as la titolo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/006813.html">Sa&gcirc;a kapo duonvorton
-          komprenas</url></vrk>
+	<aut>Pejno Simono</aut>
+	<vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/06, p. 33</lok>
         </fnt>;
       </ekz>
       <ekz>
         la gloso por &leftquot;televidi&rightquot; <tld/>as: &leftquot;vidi programon per malproksima elektromagneta
         dissendado&rightquot;
         <fnt>
-          <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
           <vrk><url ref="&Monato;/2004/008443.html">Interesa rakonto, tre
           facila</url></vrk>
-          <lok>2004</lok>
+          <bib>Monato</bib>
+          <lok>2004/12, p. 28</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -183,6 +191,10 @@
       <ref cel="vort.0umi">vortumi</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_a;&c_v;&c_a;&c_r;&c_y;&c_c;&c_c;&c_a; <klr>(&c_a;&c_b; &c_t;&c_e;&c_k;&c_s;&c_mol;&c_c;&c_je;)</klr></trd>,
+    <trd>&c_g;&c_u;&c_ch;&c_a;&c_c;&c_mol; <klr>(&c_a;&c_b; &c_f;&c_r;&c_a;&c_z;&c_je;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>m&iacute;t text</trd>,
     <trd>m&iacute;t zn&ecaron;n&iacute;</trd>,
@@ -190,6 +202,7 @@
   </trdgrp>
   <trd lng="de">lauten</trd>
   <trd lng="hu">sz&oacute;l<klr tip="ind"> (sz&ouml;veg)</klr></trd>
+  <trd lng="ja">&#xFF5E;<ind>&#12392;&#x66F8;&#12356;&#12390;&#12354;&#x308B;  </ind><pr>&#12392;&#x304B;&#12356;&#12390;&#12354;&#x308B;</pr></trd>
   <trd lng="nl">luiden<klr tip="ind"> (v.tekst)</klr></trd>
   <trdgrp lng="pl">
     <trd>brzmie&cacute;</trd>,
@@ -205,9 +218,9 @@
     <trd>znie&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x430;&#x437;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x432;&#x443;&#x447;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43C;&#x430;&#x442;&#x438; (&#x43D;&#x430;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x438;&#x439;) &#x437;&#x43C;&#x456;&#x441;&#x442;</trd>
+    <trd>&#x43A;&c_a;&c_z;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_v;&c_u;&c_ch;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43C;&c_a;&c_t;&c_i; (&#x43D;&c_a;&c_s;&c_t;&c_u;&#x43F;&#x43D;&c_i;&c_j;) &c_z;&#x43C;&c_ib;&c_s;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -218,13 +231,13 @@
     <dif>
       Prezenti ion en formo de <tld/>o:
       <ekz>
-        la formikan penon <tld/>igi la interparolon <klr>[&#x2026;]</klr>
+        la formikan penon <tld/>igi la interparolon <klr>[&#8230;]</klr>
         entreprenis d-ro <nom>Hideki Harada</nom>, dezirante tiun
         interparolon aparte proksimigi al la&ubreve;eble multaj
         japanaj esperantistoj
         <fnt>
           <vrk><url ref="http://www.polskieradio.pl/eo/dokument.aspx?iid=38451">Trarigardo de la
-          E-Gazetaro &#x2010; 27.06.06</url></vrk>.
+          E-Gazetaro &#8208; 27.06.06</url></vrk>.
           <lok>Pola Radio</lok>
         </fnt>;
       </ekz><ekz>
@@ -256,11 +269,11 @@
       <ekz>
         el tiu <tld/>aro multe &ccirc;erpis anka&ubreve; la redaktinto de &ccirc;i tiu kolekto
         <fnt>
-          <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
           <vrk><url ref="&Monato;/2004/008193.html">Pri indi&gcirc;enaj
           meksikanoj</url></vrk>
-          <lok>2004</lok>
+          <bib>Monato</bib>
+          <lok>2004/02, p. 21</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -268,28 +281,31 @@
         rabenoj en la unua jarcento p.K., tiu <tld/>aro eksplicite ellasas la
         frukristanajn verkojn <klr>(vd <ref tip="sub" cel="kanon.0o.listo">kanono</ref>)</klr>
         <fnt>
+         <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Tekstaro;?nomo=artikoloj-el-monato">Spirokapta historia
+          fresko</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Spirokapta historia fresko</url></vrk>
+          <lok>2001/12, p. 28</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la <klr>[&#x2026;]</klr> kompleksa <tld/>aro de <ref cel="purgat.0o">Purgatorio</ref>
+        la <klr>[&#8230;]</klr> kompleksa <tld/>aro de <ref cel="purgat.0o">Purgatorio</ref>
         <fnt>
-          <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
           <vrk><url ref="&Monato;/2004/008327.html">Pozitivaj kaj negativaj aspektoj de
           Dante</url></vrk>
-          <lok>2004</lok>
+          <bib>Monato</bib>
+          <lok>2004/06, p. 28</lok>
         </fnt>;
       </ekz>
       <ekz>
         eble neniu esperanta <tld/>aro estis tiom studita kaj eldonita kiom la
         zamenhofa, tamen mankis sinteza kolekto de liaj multaj tekstoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
           <vrk><url ref="&Monato;/2007/009079.php">Mi estas homo</url></vrk>
-          <lok>2007</lok>
+          <bib>Monato</bib>
+          <lok>2007/05, p. 19</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -302,11 +318,11 @@
         la kompilinto <nom>Aleksander Kor&jcirc;enkov</nom> &ccirc;erpis tekstaron, aperintan sub la rubriko
         &leftquot;Nia Trezoro&rightquot;
         <fnt>
-          <bib>Monato</bib>
           <aut>Orlando Raola</aut>
           <vrk><url ref="&Monato;/2013/010150.php">Du gvidiloj al plua
           legado</url></vrk>
-          <lok>2013</lok>
+          <bib>Monato</bib>
+          <lok>2013/06, p. 24</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -324,6 +340,7 @@
   <trd lng="es">cuerpo del <ind>texto</ind></trd>
   <trd lng="fr">corpus<klr> (de textes)</klr></trd>
   <trd lng="hu">sz&ouml;veggy&udblac;jtem&eacute;ny</trd>
+  <trd lng="ja">&#25991;&#x7AE0;&#x96C6;  <pr>&#12406;&#12435;&#12375;&#12423;&#12358;&#12375;&#12421;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>zbi&oacute;r <ind>tekst&oacute;w</ind></trd>,
     <trd>korpus<klr> tekst&oacute;w</klr></trd>
@@ -341,18 +358,18 @@
     <dif>
       Parto de <tld/>o rigardata aparte:
       <ekz>
-        atente legi &ccirc;iun <klr>[&#x2026;]</klr> <tld/>eron kaj &gcirc;ian kun<tld/>on
+        atente legi &ccirc;iun <klr>[&#8230;]</klr> <tld/>eron kaj &gcirc;ian kun<tld/>on
         <fnt>
-          <bib>Monato</bib>
           <aut>Wolfram Rohloff</aut>
           <vrk><url ref="&Monato;/2006/008776.php">Abortigo kaj la biblio
           (2)</url></vrk>
-          <lok>2006</lok>
+          <bib>Monato</bib>
+          <lok>2006/02, p. 13</lok>
         </fnt>;
       </ekz>
       <ekz>
-        se iuj ajn <tld/>eroj de la nuna rakonto konsternas la 
-        kredpovon de la leganto, mi bonvole konsentu fi-nomi&gcirc;i 
+        se iuj ajn <tld/>eroj de la nuna rakonto konsternas la
+        kredpovon de la leganto, mi bonvole konsentu fi-nomi&gcirc;i
         &leftquot;mensogfabrikanto&rightquot;
         <fnt><aut>N. Hawthorne, trad. E. Grobe</aut>,
           <vrk>La Eksperimento de d-ro Hejdegero</vrk>,
@@ -417,30 +434,32 @@
       <ekz>
         la juneco disvolvi&gcirc;as en malri&ccirc;a, kampara supersti&ccirc;e religia kun<tld/>o
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/007023.html">Knaba maturi&gcirc;o</url></vrk>
-        </fnt>;
+          <aut>Stefan MacGill</aut>
+            <vrk><url ref="&Monato;/2000/007023.php">Knaba maturi&gcirc;o</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 31</lok>
+          </fnt>;
       </ekz>
       <ekz>
-        kulturo manifesti&gcirc;as <klr>[&#x2026;]</klr> per historiaj a&ubreve; religiaj kun<tld/>oj,
+        kulturo manifesti&gcirc;as <klr>[&#8230;]</klr> per historiaj a&ubreve; religiaj kun<tld/>oj,
         specifaj al unu grupo
         <fnt>
-          <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
           <vrk><url ref="&Monato;/2006/008843.php">Valora pripensinda&jcirc;aro</url></vrk>
-          <lok>2006</lok>
+          <bib>Monato</bib>
+          <lok>2006/03, p. 20</lok>
         </fnt>;
       </ekz>
       <ekz>
-        radikaluloj volas situigi la temon de homaj rajtoj en la kun<tld/>on 
+        radikaluloj volas situigi la temon de homaj rajtoj en la kun<tld/>on
         <klr>(<ref cel="cirkon1.0aro">cirkonstancaro</ref>n)</klr>
         de politika manipulado
         <fnt>
+          <aut>Hamza Baksi&cacute;</aut>
+          <vrk><url ref="&Monato;/1993/A931001.php">La fino de la mondo komenci&gcirc;as en
+          Sarajevo</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9310-sarajevo.txt">La Fino de la
-          Mondo Komenci&gcirc;as en Sarajevo</url></vrk>
-          <lok>93/10</lok>
+          <lok>1993/10, p. 8</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -460,6 +479,7 @@
     <trd>sz&ouml;veg&ouml;sszef&uuml;gg&eacute;s</trd>,
     <trd>kontextus</trd>
   </trdgrp>
+  <trd lng="ja">&#25991;&#33032;  <pr>&#12406;&#12435;&#x307F;&#12419;&#x304F;</pr></trd>
   <trdgrp lng="nl">
     <trd>context</trd>,
     <trd>zinsverband</trd>
@@ -471,7 +491,7 @@
     <trd>s&uacute;visl&yacute; text</trd>,
     <trd>textov&aacute; s&uacute;vislos&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;</trd>
+  <trd lng="uk">&#x43A;&#x43E;&#x43D;&c_t;&c_je;&#x43A;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="tekst.sub0o">
@@ -480,18 +500,18 @@
     <uzo tip="fak">KIN</uzo>
     <dif>
       Skriba traduko de fremdlingva filmo, aperanta en la malsupra
-      parto de la bildoj: 
+      parto de la bildoj:
       <ekz>
         multaj italaj filmoj disponas sub<tld/>ojn por fremduloj en aliaj lingvoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
           <vrk><url ref="&Monato;/2011/010341.php">Kiom da homoj, tiom da gustoj</url></vrk>
-          <lok>2011</lok>
+          <lok>2011/08, p. 12</lok>
+          <bib>Monato</bib>
         </fnt>;
       </ekz>
       <ekz>
-        vespere ni <klr>[&#x2026;]</klr> spektis filmon
+        vespere ni <klr>[&#8230;]</klr> spektis filmon
         <ctl>&Scirc;tormido</ctl>, faritan en A&ubreve;stralio kun Esperanta
         sub<tld/>o
         <fnt>
@@ -508,6 +528,8 @@
   <trd lng="be">&c_s;&c_u;&c_b;&c_t;&c_y;&c_t;&c_r;&c_y;</trd>
   <trd lng="cs">subtext</trd>
   <trd lng="de">Untertitel</trd>
+  <trd lng="ja">&#x5B57;&#x5E55;  <pr>&#12376;&#x307E;&#x304F;</pr></trd>
+  <trd lng="nl">ondertitel</trd>
   <trd lng="sk">subtext</trd>
 </drv>
 
@@ -518,27 +540,27 @@
 </art>
   <!--
   $Log$
-versio 1.38 2022/05/05 17:08:11
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.49 2023/10/21 13:02:26
+revo: transskribo per <pr>
 
-versio 1.36 2021/11/10 08:35:17
-Dmitri Gabinski: + trd be
+versio 1.48 2023/09/05 18:30:10
+Wolfram Diestel: kor. ja ind.
 
-versio 1.35 2021/06/26 07:25:35
-Wolfram Diestel: +2 ekz, +ref
+versio 1.46 2023/06/26 05:33:40
+Wolfram Diestel: subsnc-mrk
 
-versio 1.34 2020/12/10 20:36:27
-Wolfram Diestel: +ekz-oj; +kun~o snc cirkonstancaro
+versio 1.45 2023/05/13 08:29:22
+Paul Peeraerts: + lok
 
-versio 1.33 2020/12/06 22:38:10
-Wolfram Diestel: trd-oj de, ~aro: ekz-oj
+versio 1.44 2023/05/06 15:11:57
+revo: aktualigo URL-unuoj
 
-  Revision 1.31  2015/06/29 16:40:19  revo
-  aldono de trd sk per skripto de M. von Laer
+versio 1.43 2023/05/01 12:44:38
+Paul Peeraerts: Steloj -> monato
 
-  Revision 1.30  2015/03/07 13:10:15  revo
-  Wolfram Diestel: shovas hiperteksto al aparta artikolo
+versio 1.42 2023/04/24 10:31:49
+Paul Peeraerts: @Sxteloj -> @Monato
 
-  Revision 1.29  2015/02/06 16:10:16  revo
+versio 1.41 2023/04/11 11:23:40
 -->
 </vortaro>

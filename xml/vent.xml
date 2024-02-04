@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vent.xml,v 1.131 2022/05/06 12:17:21 revo Exp $">
+<art mrk="$Id: vent.xml,v 1.141 2023/12/12 20:10:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>vent</rad>/o 
+  <rad>vent</rad>/o
 </kap>
 
 <drv mrk="vent.0o">
@@ -95,25 +95,24 @@
   <snc mrk="vent.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      &Gcirc;enerala disvasti&gcirc;anta tendenco:
+      &Gcirc;enerala disvasti&gcirc;anta <ref cel="tenden1.0o">tendenco</ref>:
       <ekz>
         blovis afrika <tld/>o;
       </ekz>
       <ekz>
         Kroatoj jam longe estas ege malkontentaj pro la regmaniero
-        <klr>[&#8230;]</klr> kaj
-        fine la morto de la diktatoro ebligis novan <tld/>on
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Paul Gubbins</aut>
-          <vrk><url ref="&Steloj;monato2/006910.html">Post
-          morto &#8208; nova sorto</url></vrk>
+        <klr>[&#8230;]</klr> kaj fine la morto de la diktatoro ebligis novan <tld/>on
+        <fnt><aut>Zlatko Ti&scaron;ljar</aut>,
+        <vrk><url ref="&Monato;/2000/006910.php">Post morto -- nova sorto</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/04, p. 10</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="atmosf.0o">atmosfero</ref>,
-      <ref cel="flu.0o">fluo</ref>.
+      <ref cel="etos.0o">etoso</ref>,
+      <ref cel="flu.0o">fluo</ref>
     </refgrp>
     <trd lng="pl">wiatr</trd>
   </snc>
@@ -153,7 +152,7 @@
   <trd lng="ig">ifufe</trd>
   <trd lng="is">vindur</trd>
   <trd lng="it">vento</trd>
-  <trd lng="ja">&#x98A8;</trd>
+  <trd lng="ja">&#x98A8; <pr>&#12405;&#12358;</pr></trd>
   <trd lng="jv">angin</trd>
   <trd lng="ka">&#x10E5;&#x10D0;&#x10E0;&#x10D8;</trd>
   <trd lng="kk">&c_zh;&c_je;&#x43B;</trd>
@@ -165,7 +164,7 @@
   <trd lng="lat">spiritus</trd>
   <trd lng="lo">&#xE9E;&#xEB0;&#xEA5;&#xEB1;&#xE87;&#xE87;&#xEB2;&#xE99;&#xEA5;&#xEBB;&#xEA1;</trd>
   <trd lng="lt">v&#279;jas</trd>
-  <trd lng="lv">v&#5603;j&scaron;</trd>
+  <trd lng="lv">v&#275;j&scaron;</trd>
   <trd lng="mg">rivotra</trd>
   <trd lng="mi">hau</trd>
   <trd lng="mk">&c_V;&c_je;&c_t;&c_je;&c_r;</trd>
@@ -210,7 +209,7 @@
   <trd lng="xh">umoya</trd>
   <trd lng="yi">&#x5D5;&#x5D5;&#x5D9;&#x5E0;&#x5D8;</trd>
   <trd lng="yo">af&#x1EB9;f&#x1EB9;</trd>
-  <trd lng="zh">&#x98CE; [<ind>f&#5603;ng</ind>]</trd>
+  <trd lng="zh">&#x98CE; <pr>f&#275;ng</pr></trd>
   <trd lng="zu">ovunguzayo</trd>
 </drv>
 
@@ -263,7 +262,8 @@
   <snc mrk="vent.0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Senbaza, senvalora, malfirma, aera:
+      <ref cel="baz.sen0a">Senbaza</ref>,  <ref cel="firm.mal0a">malfirma</ref>,
+      <ref cel="valor.sen0a">senvalora</ref>, <ref cel="aer.0a.malfirma">aera</ref>:
       <ekz>
         &ccirc;io estas vanta&jcirc;o kaj entreprenoj <tld/>aj
         <fnt>
@@ -286,9 +286,6 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="fum.0o.FIG">fumo <sncref/></ref>
-    </refgrp>
     <trd lng="be">&c_l;&c_je;&c_g;&c_k;&c_a;&c_d;&c_u;&c_m;&c_n;&c_y;</trd>
     <trd lng="ru">&c_v;&c_je;&c_t;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
@@ -303,6 +300,11 @@
     <trd>fumo<klr> (fig.)</klr></trd>,
     <trd>vento<klr> (fig.)</klr></trd>,
     <trd>aria<klr> (fig.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x98A8;&#x306E;  <pr>&#x304B;&#x305C;&#x306E;</pr></trd>,
+    <trd>&#x98A8;&#x306E;&#12424;&#12358;&#x306A;  <pr>&#x304B;&#x305C;&#x306E;&#12424;&#12358;&#x306A;</pr></trd>,
+    <trd>&#x7A7A;&#x865A;&#x306A;  <pr>&#x304F;&#12358;&#x304D;&#12423;&#x306A;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>vetern&yacute;</trd>,
@@ -338,7 +340,7 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_d;&c_z;&c_mol;&c_m;&c_u;&c_c;&c_mol; 
+  <trd lng="be">&c_d;&c_z;&c_mol;&c_m;&c_u;&c_c;&c_mol;
     <klr tip="amb">(&c_p;&c_r;&c_a; &c_v;&c_je;&c_c;&c_je;&c_r;)</klr></trd>
   <trdgrp lng="cs">
     <trd>b&yacute;t v&ecaron;trno</trd>,
@@ -348,11 +350,13 @@
   <trd lng="de">wehen <klr>(Wind)</klr></trd>
   <trd lng="fr">venter</trd>
   <trd lng="hu">f&uacute;j a <ind>sz&eacute;l</ind></trd>
+  <trd lng="id">ber<ind>embus</ind></trd>
   <trd lng="it">soffiare<klr> (di vento)</klr></trd>
+  <trd lng="ja">&#x98A8;&#x304C;&#21561;&#x304F;  <pr>&#x304B;&#x305C;&#x304C;&#12405;&#x304F;</pr></trd>
   <trd lng="nl">waaien</trd>
   <trd lng="pl">wia&cacute; <klr>(o wietrze)</klr></trd>
   <trd lng="pt">ventar</trd>
-  <trd lng="ru">&c_d;&c_u;&c_t;&c_mol; <klr tip="amb">(&c_b;&c_je;&c_z;&c_l;. &c_o; 
+  <trd lng="ru">&c_d;&c_u;&c_t;&c_mol; <klr tip="amb">(&c_b;&c_je;&c_z;&c_l;. &c_o;
 &c_v;&c_je;&c_t;&c_r;&c_je;)</klr></trd>
   <trdgrp lng="sk">
     <trd>f&uacute;ka&tcaron;</trd>,
@@ -447,6 +451,10 @@
     <trd>tempesta</trd>,
     <trd>tormenta</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x66B4;&#x98A8;  <pr>&#x307C;&#12358;&#12405;&#12358;</pr></trd>,
+    <trd>&#22823;&#x98A8;  <pr>&#x304A;&#x304A;&#12405;&#12358;</pr></trd>
+  </trdgrp>
   <trd lng="nl">storm</trd>
   <trd lng="pt">ventania</trd>
   <trd lng="ru">&c_u;&c_r;&c_a;&c_g;&c_a;&c_n;</trd>
@@ -516,7 +524,6 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="drasx.0i.AGR">dra&scirc;i<sncref/></ref>
-    <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_je;&c_j;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trdgrp lng="de">
       <trd>windsichten</trd>,
       <trd>die <ind>Spreu</ind> vom Weizen trennen</trd>,
@@ -529,7 +536,7 @@
     </trdgrp>
     <trd lng="nl">wannen</trd>
     <trd lng="pl">wia&cacute; <klr>(zbo&zdot;e)</klr></trd>
-    <trd lng="ru">&c_p;&c_r;&c_o;&c_v;&c_je;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>   
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_v;&c_je;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_a;&c_v;&c_je;&c_t;&c_r;&c_y;&c_v;&c_a;&c_c;&c_mol;</trd>,
@@ -551,6 +558,11 @@
     <trd>sventagliare</trd>,
     <trd>pulare</trd>,
     <trd>dare <ind>aria</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12354;&#x304A;&#12368;</trd>,
+    <trd>&#x98A8;&#12434;&#36865;&#x308B;  <pr>&#x304B;&#x305C;&#12434;&#x304A;&#x304F;&#x308B;</pr></trd>,
+    <trd>&#x7B95;&#12391;&#12354;&#x304A;&#x308B; <pr>&#12415;&#12391;&#12354;&#12362;&#12427;</pr></trd>
   </trdgrp>
   <trd lng="pt">ventilar</trd>
   <trdgrp lng="ru">
@@ -576,7 +588,7 @@
   <kap><tld/>umilo</kap>
   <snc mrk="vent.0umilo.TUA">
     <dif>
-      Ilo a&ubreve; aparato por <tld/>umi, precipe portebla duondisko 
+      Ilo a&ubreve; aparato por <tld/>umi, precipe portebla duondisko
       refaldebla, kiun oni mane svingas:
       <ekz>
         <tld/>umilo el eburo;
@@ -613,6 +625,7 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="ventol.0ilo">ventolilo</ref>
+    <trd lng="be">&c_v;&c_je;&c_je;&c_r;</trd>
     <trd lng="de">F&auml;cher</trd>
     <trd lng="pl">wachlarz</trd>
     <trd lng="ru">&c_v;&c_je;&c_je;&c_r;</trd>
@@ -648,8 +661,8 @@
       <trd>gabonarosta</trd>
     </trdgrp>
     <trd lng="nl">wan</trd>
-    <trd lng="pl">wialnia</trd> 
-    <trd lng="ru">&c_v;&c_je;&c_ja;&c_l;&c_k;&c_a;</trd>    
+    <trd lng="pl">wialnia</trd>
+    <trd lng="ru">&c_v;&c_je;&c_ja;&c_l;&c_k;&c_a;</trd>
   </snc>
   <trd lng="bo">&#xF62;&#xFB3;&#xF74;&#xF44;&#xF0B;&#xF42;&#xF61;&#xF56;&#xF0B;</trd>
   <trd lng="cs">v&ecaron;j&iacute;&rcaron;</trd>
@@ -662,6 +675,13 @@
     <trd>ventola</trd>,
     <trd>ventaglio</trd>,
     <trd>ventilabro</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25159;  <pr>&#x304A;&#12358;&#x304E;</pr></trd>,
+    <trd>&#25159;&#x5B50;  <pr>&#x305B;&#12435;&#12377;</pr></trd>,
+    <trd>&#12358;&#12385;&#x308F;</trd>,
+    <trd>&#x5E83;&#12370;&#x305F;&#x5C3E;&#x7FBD;
+    <pr>&#12402;&#x308D;&#12370;&#x305F;&#x304A;&#x306F;&#x306D;</pr></trd>
   </trdgrp>
   <trd lng="sk">vej&aacute;r</trd>
   <trdgrp lng="uk">
@@ -712,6 +732,10 @@
     <trd>stordito<klr> (sciocco)</klr></trd>,
     <trd>scervellato</trd>,
     <trd>sventato</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x79FB;&#x308A;&#x6C17;&#x306A;  <pr>&#12358;&#12388;&#x308A;&#x304E;&#x306A;</pr></trd>,
+    <trd>&#x6D6E;&#x6C17;&#x306A;  <pr>&#12358;&#x308F;&#x304D;&#x306A;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>lekkomy&sacute;lny</trd>
@@ -765,6 +789,10 @@
     <trd>sz&eacute;thullik</trd>
   </trdgrp>
   <trd lng="it">disperdersi</trd>
+  <trdgrp lng="ja">
+    <trd>&#21561;&#x304D;&#25955;&#12425;&#12377;  <pr>&#12405;&#x304D;&#12385;&#12425;&#12377;</pr></trd>,
+    <trd>&#x8FFD;&#12356;&#25955;&#12425;&#12377;  <pr>&#x304A;&#12356;&#12385;&#12425;&#12377;</pr></trd>
+  </trdgrp>
   <trd lng="pl">rozwiewa&cacute;</trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_v;&c_je;&c_ja;&c_t;&c_mol;&c_s;&c_ja; &c_p;&c_o; &c_v;&c_je;&c_t;&c_r;&c_u;</trd>
 </drv>
@@ -798,7 +826,7 @@
           <vrk>Skarlataj veloj</vrk>.
           <lok><url ref="http://esperanto-mv.narod.ru/Grin/skarlataj_05.html">&Ccirc;ap.
           5&#xAA;.</url></lok>
-        </fnt>. 
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">R&uuml;ckenwind</trd>
@@ -806,36 +834,35 @@
   <trd lng="be">&c_s;&c_p;&c_a;&c_d;&c_a;&c_r;&c_o;&c_zh;&c_n;&c_y; <ind>&c_v;&c_je;&c_c;&c_je;&c_r;</ind></trd>
   <trd lng="en">fair wind</trd>
   <trd lng="fr">vent arri&egrave;re</trd>
+  <trd lng="ja">&#x8FFD;&#12356;&#x98A8;  <pr>&#x304A;&#12356;&#x304B;&#x305C;</pr></trd>
   <trd lng="ru">&c_p;&c_o;&c_p;&c_u;&c_t;&c_n;&c_y;&c_j; &c_v;&c_je;&c_t;&c_je;&c_r;</trd>
   <trd lng="uk">&#x43F;&#x43E;&#x43F;&c_u;&c_t;&#x43D;&c_i;&c_j; &c_v;&c_ib;&c_t;&c_je;</trd>
 </drv>
 
-
-
   </art>
   <!--
   $Log$
-versio 1.131 2022/05/06 12:17:21
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.141 2023/12/12 20:10:29
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.130 2022/04/24 17:31:51
-Wolfram Diestel: ~umi/~umilo: dif/trd el ventoli/-ilo AGR forigonte tie
+versio 1.140 2023/10/23 03:24:48
+Eko Nur Syah Hidayat: +trd id 2
 
-versio 1.129 2022/03/31 16:46:00
-Wolfram Diestel: kor. trd uk
+versio 1.139 2023/10/21 16:50:36
+revo: transskribo per <pr>
 
-versio 1.126 2021/11/10 08:35:15
+versio 1.138 2023/09/13 16:30:53
+Wolfram Diestel: pr. ja
+
+versio 1.137 2023/09/10 15:34:10
+revo: korekto de transskribo
+
+versio 1.135 2023/08/29 20:27:02
+Wolfram Diestel: ja: prononco
+
+versio 1.134 2023/07/07 08:34:37
 Dmitri Gabinski: + trd be
 
-versio 1.125 2021/10/19 12:46:51
-Wolfram Diestel: movis vent~ilo al montr'
-
-versio 1.124 2021/07/03 13:30:16
-Wolfram Diestel: kor. snc-mrk
-
-versio 1.123 2021/06/28 15:55:27
-Wolfram Diestel: ~kapa: var -> ref-sin
-
-versio 1.45 2020/05/03 05:10:35
+versio 1.133 2023/05/09 13:24:18
 -->
 </vortaro>

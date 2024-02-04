@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: katoli.xml,v 1.27 2022/03/21 17:51:57 revo Exp $">
+<art mrk="$Id: katoli.xml,v 1.30 2023/12/03 08:00:25 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>katolik</rad>/a
@@ -71,7 +71,8 @@
       <trd>katolicki</trd>,
       <trd>chrze&sacute;cija&nacute;ski</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x5929;&#x4E3B;&#x6559; <pr>ti&#x101;nzh&#x1D4;ji&#xE0;o</pr></trd>
+</snc>
   <snc mrk="katoli.0a.POL">
     <uzo tip="fak">KAT</uzo>
     <uzo tip="fak">POL</uzo>
@@ -122,6 +123,7 @@
   <trd lng="be">&c_k;&c_a;&c_t;&c_a;&c_l;&c_ib;&c_c;&c_k;&c_ib;</trd>
   <trd lng="es">cat&oacute;lico</trd>
   <trd lng="it">cattolico<klr> (agg.)</klr></trd>
+  <trd lng="ja">&#x30AB;&#x30C8;&#x30EA;&#x30C3;&#x30AF;&#x306E;  <pr>&#x304B;&#x3068;&#x308A;&#x3063;&#x304F;&#x306E;</pr></trd>
   <trd lng="uk">&#x43A;&#x430;&#x442;&#x43E;&#x43B;&#x438;&#x446;&#x44C;&#x43A;&#x438;&#x439;</trd>
 </drv>
 
@@ -161,12 +163,17 @@
   <trd lng="hu">katolikus <klr tip="ind"> (h&iacute;v&odblac;)</klr>
   </trd>
   <trd lng="it">cattolico<klr> (sost.)</klr></trd>
+  <trd lng="ja">&#x30AB;&#x30C8;&#x30EA;&#x30C3;&#x30AF;&#x6559;&#x5F92;  <pr>&#x304B;&#x3068;&#x308A;&#x3063;&#x304F;&#x304D;&#x3087;&#x3046;&#x3068;</pr></trd>
   <trd lng="nl">katholiek<klr tip="ind"> (zn.)</klr></trd>
   <trd lng="pl">katolik</trd>
   <trd lng="ro">catolic</trd>
   <trd lng="ru">&c_k;&c_a;&c_t;&c_o;&c_l;&c_i;&c_k;</trd>
   <trd lng="sk">katol&iacute;k</trd>
   <trd lng="uk">&#x43A;&#x430;&#x442;&#x43E;&#x43B;&#x438;&#x43A;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5929;&#x4E3B;&#x6559;&#x5F92; <pr>ti&#x101;nzh&#x1D4;ji&#xE0;ot&#xFA;</pr></trd>,
+    <trd>&#x5929;&#x4E3B;&#x6559;&#x5F92; <pr>Ti&#x101;nzh&#x1D4;ji&#xE0;ot&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="katoli.0ismo">
@@ -203,6 +210,10 @@
   </snc>
   <trd lng="cs">katolicismus</trd>
   <trd lng="es">catolicismo</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30AB;&#x30C8;&#x30EA;&#x30C3;&#x30AF;&#x6559;  <pr>&#x30AB;&#x30C8;&#x30EA;&#x30C3;&#x30AF;&#x304D;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x30AB;&#x30C8;&#x30EA;&#x30B7;&#x30BA;&#x30E0;</trd>
+  </trdgrp>
   <trd lng="pl">katolicyzm</trd>
   <trd lng="ro">catolicism</trd>
   <trdgrp lng="ru">
@@ -211,6 +222,7 @@
   </trdgrp>
   <trd lng="sk">katolicizmus</trd>
   <trd lng="uk">&#x43A;&#x430;&#x442;&#x43E;&#x43B;&#x438;&#x446;&#x438;&#x437;&#x43C;</trd>
+  <trd lng="zh">&#x5929;&#x4E3B;&#x6559; <pr>Ti&#x101;nzh&#x1D4;ji&#xE0;o</pr></trd>
 </drv>
 
 <drv mrk="katoli.rom0a">
@@ -254,6 +266,7 @@
     <trd>cattolico-romano</trd>,
     <trd>cattolico apostolico romano<klr> (agg.)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#x30ED;&#x30FC;&#x30DE;&#x30AB;&#x30C8;&#x30EA;&#x30C3;&#x30AF;&#x306E;  <pr>&#x308D;&#x30FC;&#x307E;&#x304B;&#x3068;&#x308A;&#x3063;&#x304F;&#x306E;</pr></trd>
   <trd lng="nl">rooms-katholiek</trd>
   <trd lng="pl">rzymsko-katolicki</trd>
   <trdgrp lng="ru">
@@ -261,10 +274,14 @@
     <trd>&c_k;&c_a;&c_t;&c_o;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">r&iacute;msko-katol&iacute;cky</trd>
+  <trd lng="zh">&#x7F57;&#x9A6C;&#x516C;&#x6559; <pr>Lu&#xF3;m&#x1CE;G&#x14D;ngji&#xE0;o</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
 versio 1.26 2021/04/08 08:58:43
 Dmitri Gabinski: kor de trd be
 
@@ -284,8 +301,5 @@ Revision 1.20  2014/02/08 17:10:21  revo
 Damien Brucker: -eraro cxe ref
 
 Revision 1.19  2014/02/08 16:10:23  revo
-Damien Brucker: -eraro cxe ref
-
-Revision 1.18  2010/11/04 17:30:40  revo
 -->
 </vortaro>

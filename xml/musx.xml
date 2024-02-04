@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: musx.xml,v 1.46 2022/10/03 22:38:22 revo Exp $">
+<art mrk="$Id: musx.xml,v 1.50 2024/01/26 19:05:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mu&scirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -16,8 +16,7 @@
       <ref tip="lst" cel="insekt.0o" lst="voko:mu&scirc;oj">insekto</ref>, 
       kies diversaj specioj estas tre komunaj
       kaj vivas en lokoj lo&gcirc;ataj de homoj kaj bestoj;
-      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
-      tip="malprt" cel="musxed.0oj"><tld/>edoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> el familio <ref tip="malprt" cel="musxed.0oj"><tld/>edoj</ref>
       (<trd lng="la">Musca</trd>):
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -81,6 +80,12 @@
   <trd lng="ro">musc&abreve;</trd>
   <trd lng="ru">&c_m;&c_u;&c_h;&c_a;</trd>
   <trd lng="tr">sinek</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8747; <pr>y&#xED;ng</pr></trd>,
+    <trd>&#x8805; <pr>y&#xED;ng</pr></trd>,
+    <trd>&#x82CD;&#x8747; <pr>c&#x101;ngying</pr></trd>,
+    <trd>&#x84BC;&#x8805; <pr>c&#x101;ngying</pr></trd>
+  </trdgrp>
 </drv>
 <drv mrk="musx.M0o">
   <kap><tld lit="M"/>o
@@ -99,13 +104,22 @@
       (<trd lng="la">Musca</trd>).
     </dif>
   </snc>
+  <trd lng="be">&c_M;&c_u;&c_h;&c_a; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#x2019;&c_je;)</klr></trd>
   <trd lng="en">Musca</trd>
   <trd lng="fr">Mouche<klr tip="ind"> (constellation)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x30CF;&#x30A8;</trd>,
+    <trd>&#x3061;&#x3087;&#x3073;&#x3072;&#x3052;</trd>
+  </trdgrp>
   <trd lng="pl">Mucha  <klr>(gwiazdozbi&oacute;r)</klr></trd>
-  <trd lng="ro">Musc&abreve;  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="ro">Musc&abreve;  <klr>(constela&#x21B;ie)</klr></trd>
   <trdgrp lng="uk">
     <trd>&#x43C;&c_u;&c_h;&c_a;</trd>,
     <trd>&#x43C;&c_u;&c_sh;&#x43A;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x82CD;&#x8747;&#x5EA7; <pr>C&#x101;ngyingzu&#xF2;</pr></trd>,
+    <trd>&#x84BC;&#x8805;&#x5EA7; <pr>C&#x101;ngyingzu&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -144,6 +158,10 @@
       <ref cel="drozofil.0o.ZOO">drozofilo</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_r;&c_a;&c_z;&c_a;&c_f;&c_ib;&c_l;&c_a;</trd>,
+    <trd>&c_p;&c_l;&c_a;&c_d;&c_o;&c_v;&c_a;&c_ja; <ind>&c_m;&c_u;&c_sh;&c_k;&c_a;</ind></trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>dros&ograve;fila</trd>,
     <trd>mosca del vinagre</trd>
@@ -156,6 +174,7 @@
   <trd lng="en">fruit fly</trd>
   <trd lng="fr">drosophile</trd>
   <trd lng="id"><ind>lalat</ind> buah</trd>
+  <trd lng="ja">&#x30B7;&#x30E7;&#x30A6;&#x30B8;&#x30E7;&#x30A6;&#x30D0;&#x30A8;</trd>
   <trdgrp lng="pl">
     <trd>muszka owocowa</trd>,
     <trd>muszka owoc&oacute;wka<klr> (pot.)</klr></trd>,
@@ -163,10 +182,20 @@
   </trdgrp>
   <trd lng="ro">drosophila melanogaster</trd>
   <trd lng="uk">&c_d;&c_r;&#x43E;&c_z;&#x43E;&c_f;&c_ib;&#x43B;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x679C;&#x8747; <pr>gu&#x1D2;y&#xED;ng</pr></trd>,
+    <trd>&#x679C;&#x8805; <pr>gu&#x1D2;y&#xED;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.48 2023/04/19 07:24:58
+Dmitri Gabinski: + trd be
+
+versio 1.47 2023/01/10 09:29:20
+Dmitri Gabinski: + trd be
+
 versio 1.46 2022/10/03 22:38:22
 Vito Redsky: +trd pl + trd ro
 
@@ -183,11 +212,5 @@ Revision 1.39  2017/02/14 17:10:14  revo
 Jeromo Vasxe: Kelkmimiletra -> Kelkmilimetra
 
 Revision 1.38  2015/12/06 16:10:17  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.37  2014/06/01 15:10:24  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.36  2014/02/08 14:10:23  revo
 -->
 </vortaro>

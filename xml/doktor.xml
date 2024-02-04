@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: doktor.xml,v 1.28 2022/03/16 11:42:20 revo Exp $">
+  <art mrk="$Id: doktor.xml,v 1.33 2023/11/24 21:23:23 revo Exp $">
     <kap>
       <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
       <rad>doktor</rad>/o
@@ -11,6 +11,7 @@
       <kap><tld/>o</kap>
       <mlg>d-ro</mlg>
       <snc mrk="doktor.0o.SCI">
+        <uzo tip="fak">PED</uzo>
         <uzo tip="fak">SCI</uzo>
         <dif>
           Sciencista grado, atribuata al sciencisto fare de universitata
@@ -25,7 +26,8 @@
             almena&ubreve; 2 postbakala&ubreve;raj studjaroj, kaj
             &leftquot;habilita <tld/>o&rightquot; pro posta esplorlaboro
             <fnt>
-              <lok><url ref="http://www.ais-sanmarino.org/org/eo/respond/eo_resp.html">Respondoj al la plej oftaj demandoj pri
+              <lok><url ref="http://www.ais-sanmarino.org/org/eo/respond/eo_resp.html">Respondoj al
+              la plej oftaj demandoj pri
                   AIS</url></lok>
             </fnt>;
           </ekz>
@@ -76,11 +78,55 @@
   <trd lng="es">doctor</trd>
   <trd lng="he">&dalet;&vav;&qof;&tet;&vav;&resh;</trd>
   <trd lng="it">dottore</trd>
+  <trdgrp lng="ja">
+    <trd>&#x535A;&#x58EB;  <pr>&#x306F;&#x304F;&#12375;</pr></trd>,
+    <trd>&#20808;&#x751F;  <pr>&#x305B;&#12435;&#12376;&#12423;&#12358;</pr></trd>
+  </trdgrp>
   <trd lng="nl">doctor</trd>
   <trd lng="pl">doktor</trd>
   <trd lng="ru">&c_d;&c_o;&c_k;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">doktor</trd>
-  <trd lng="uk">&#x434;&#x43E;&#x43A;&#x442;&#x43E;&#x440; (&#x443;&#x447;&#x435;&#x43D;&#x438;&#x439; &#x441;&#x442;&#x443;&#x43F;&#x456;&#x43D;&#x44C;)</trd>
+  <trd lng="uk">&c_d;&#x43E;&#x43A;&c_t;&#x43E;&c_r; (&c_u;&c_ch;&c_je;&#x43D;&c_i;&c_j; &c_s;&c_t;&c_u;&#x43F;&c_ib;&#x43D;&#x44C;)</trd>
+  <trd lng="zh">&#x535A;&#x58EB; <pr>b&#xF3;sh&#xEC;</pr></trd>
+</drv>
+
+<drv mrk="doktor.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="doktor.0eco.PED">
+    <dif>
+      Rango, funkcio de <tld/>o:
+      <ekz>
+        en 1999 li akiris trian doktorecon pri klasikaj literaturoj
+        <fnt>
+          <aut>C. Minnaja</aut>
+          <vrk>Post dudek tri jaroj</vrk>
+          <lok>Monato, 2001/09, p.28a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">doctorat</trd>
+</drv>
+
+<drv mrk="doktor.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="doktor.0igxi.PED">
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      Ricevi la rangon <tld/>o:
+      <ekz>
+        mi decidis <tld/>i&gcirc;i en &Ccirc;inio, &ccirc;ar mi jam vivis kaj havis laboron &ccirc;i tie
+        <fnt>
+          <aut>G. Corsetti</aut>
+          <vrk>en: <url ref="http://www.espero.com.cn/2014-01/10/content_31149580.htm">
+          Itala esperantisto doktori&gcirc;os en Pekino</url></vrk>
+          <lok>El Popola &Ccirc;inio, 2014-01-10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">passer sa th&egrave;se</trd>
 </drv>
 
     <drv mrk="doktor.0odeEklezio">
@@ -121,6 +167,15 @@
   </art>
   <!--
   $Log$
+versio 1.33 2023/11/24 21:23:23
+Jeromo Vasxe: + ~eco
+
+versio 1.32 2023/11/16 21:24:32
+Jeromo Vasxe: + ~igxi
+
+versio 1.30 2023/10/14 14:40:07
+revo: transskribo per <pr>
+
   Revision 1.26  2017/12/11 15:10:15  revo
   Michel Cantigneaux: aldonita per la 1a OA kaj fundamentita per la 7a
   OA + fr
@@ -133,46 +188,5 @@
 
   Revision 1.23  2011/11/20 16:10:08  revo
   Glavkos Xaon: greka signifo de vorto
-
-  Revision 1.22  2010/05/04 16:31:07  revo
-  Antonio Codazzi: +trd it
-
-  Revision 1.21  2009/07/09 16:31:33  revo
-  Paul Peeraerts: +trd nl
-
-  Revision 1.20  2009/02/28 17:31:01  revo
-  Marcus Curdeius: +pl
-
-  Revision 1.19  2007/09/23 16:30:46  revo
-  Tulio Flores: +tr pt
-
-  Revision 1.18  2007/08/11 16:30:43  revo
-  Tulio Flores: +tr pt
-
-  Revision 1.17  2007/04/25 16:30:33  revo
-  Sergio Pokrovskij: reverkita
-
-  Revision 1.16  2007/03/07 17:30:24  revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.15  2006/09/13 16:30:47  revo
-  Wieland Pusch: +trd de
-
-  Revision 1.14  2004/03/17 17:30:42  revo
-  Dmitri Gabinski: +trd be
-
-  Revision 1.13  2003/10/11 16:30:33  revo
-  Jeromo Vasxe: kor. ref
-
-  Revision 1.12  2003/08/17 17:28:23  revo
-  Jeromo Vasxe: + mlg, + fak ped, + mrk
-
-  Revision 1.11 2002/07/29 18:15:00 revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.10 2002/05/27 17:20:50 revo
-  Alejandro Mejia Greene: ald 1 his trd
-
-  Revision 1.9 2002/05/12 16:34:40 revo
-  -->
+-->
 </vortaro>

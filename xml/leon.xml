@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: leon.xml,v 1.46 2022/10/03 22:38:24 revo Exp $">
+<art mrk="$Id: leon.xml,v 1.52 2024/01/22 01:39:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>leon</rad>/o
@@ -14,7 +14,7 @@
       <ref tip="lst" cel="speci.0o.BIO" lst="voko:zoologiaj_specioj">Specio</ref>
        de <ref tip="super" cel="panter.0o.genro">pantero</ref>
       (<trd lng="la">Panther leo</trd>),
-      <ref tip="lst" cel="best.rabo0o" lst="voko:rabobestoj">rabobesto</ref> 
+      <ref tip="lst" cel="best.rabo0o" lst="voko:rabobestoj">rabobesto</ref>
       el Afriko kaj Okcidenta Azio,
       kies virseksulo portas densan kolhararon:
       <ekz>
@@ -69,6 +69,7 @@
   </snc>
   <trd lng="be">&c_l;&c_je;&c_w;</trd>
   <trd lng="bg">&c_l;&c_malmol;&c_v;</trd>
+  <trd lng="bo">&t_sa;&t_drengbu;&t_nga;&t_tsheg;&t_ga;&t_drengbu;&t_tsheg;</trd>
   <trd lng="br">leon</trd>
   <trd lng="ca">lle&oacute;</trd>
   <trd lng="cs">lev</trd>
@@ -89,6 +90,12 @@
   <trd lng="sk">lev</trd>
   <trd lng="sv">lejon</trd>
   <trd lng="tr">aslan</trd>
+  <trdgrp lng="zh">
+    <trd>&#x72EE;&#x5B50; <pr>sh&#x12B;zi</pr></trd>,
+    <trd>&#29509;&#x5B50; <pr>sh&#x12B;zi</pr></trd>,
+    <trd>&#x72EE; <pr>sh&#x12B;</pr></trd>,
+    <trd>&#29509; <pr>sh&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="leon.L0o">
@@ -126,7 +133,7 @@
       <trd>Singa</trd>
     </trdgrp>
     <trd lng="pl">Lew  <klr>(gwiazdozbi&oacute;r)</klr></trd>
-    <trd lng="ro">Leul  <klr>(constela&#539;ie)</klr></trd>
+    <trd lng="ro">Leul  <klr>(constela&#x21B;ie)</klr></trd>
   </snc>
   <snc mrk="leon.L0o.NOM">
     <uzo tip="fak">NOM</uzo>
@@ -143,6 +150,8 @@
     <trd lng="de">Leo<klr tip="amb"> (Name)</klr></trd>
     <trd lng="es">Le&oacute;n</trd>
     <trd lng="fr">L&eacute;on</trd>
+    <trd lng="pl">Lew</trd>
+    <trd lng="ro">Leon</trd>
   </snc>
   <trd lng="be">&c_L;&c_je;&c_w;</trd>
   <trd lng="bo">&#xF66;&#xF7A;&#xF44;&#xF0B;&#xF42;&#xF7A;&#xF0B;</trd>
@@ -154,10 +163,12 @@
   <trd lng="he">&mem;&zayin;&lamed; &alef;&resh;&yod;&he;</trd>
   <trd lng="hu">Oroszl&aacute;n</trd>
   <trd lng="it">Leone</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30E9;&#x30A4;&#x30AA;&#x30F3;</trd>,
+    <trd>&#29509;&#x5B50;  <pr>&#12375;&#12375;</pr></trd>
+  </trdgrp>
   <trd lng="nl">leeuw</trd>
-  <trd lng="pl">Lew</trd>
   <trd lng="pt">Le&atilde;o</trd>
-  <trd lng="ro">Leon</trd>
   <trd lng="ru">&c_L;&c_je;&c_v;</trd>
   <trd lng="sk">lev</trd>
   <trd lng="sv">Lejonet</trd>
@@ -188,10 +199,15 @@
     </dif>
     <trd lng="de">Kleiner <ind>L&ouml;we</ind> <klr>(Sternbild)</klr></trd>
   </snc>
+  <trd lng="be">&c_M;&c_a;&c_l;&c_y; &c_L;&c_je;&c_w; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
   <trd lng="en">Leo Minor</trd>
   <trd lng="fr">Petit Lion<klr tip="ind"> (constellation)</klr></trd>
   <trd lng="pl">Ma&lstroke;y Lew  <klr>(gwiazdozbi&oacute;r)</klr></trd>
-  <trd lng="ro">Leul Mic  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="ro">Leul Mic  <klr>(constela&#x21B;ie)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x5C0F;&#x72EE;&#x5EA7; <pr>Xi&#x1CE;osh&#x12B;zu&#xF2;</pr></trd>,
+    <trd>&#x5C0F;&#29509;&#x5EA7; <pr>Xi&#x1CE;osh&#x12B;zu&#xF2;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="leon.0fauxko">
@@ -236,6 +252,18 @@
 </art>
 <!--
 $Log$
+versio 1.52 2024/01/22 01:39:24
+Vito Redsky: +trd pl 
+
+versio 1.50 2023/10/19 05:15:34
+revo: transskribo per <pr>
+
+versio 1.48 2023/01/25 10:30:57
+Dmitri Gabinski: + trd be
+
+versio 1.47 2022/12/07 17:27:32
+Aleks Andre: +trd bo
+
 versio 1.46 2022/10/03 22:38:24
 Vito Redsky: +trd pl + trd ro
 
@@ -246,17 +274,5 @@ Revision 1.42  2018/11/09 23:10:42  revo
 Wolfram Diestel: kontrau-emoji-signo
 
 Revision 1.41  2018/05/30 20:10:25  revo
-Dusan Juretic: +trd es
-
-Revision 1.40  2017/06/06 17:10:17  revo
-Ludoviko Francisco: +tip ind
-
-Revision 1.39  2017/05/02 11:10:16  revo
-Ludoviko Francisco: +drv +ekz
-
-Revision 1.38  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.37  2015/06/29 16:33:19  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: redakc.xml,v 1.20 2022/08/24 22:32:27 revo Exp $">
+<art mrk="$Id: redakc.xml,v 1.23 2023/10/20 19:20:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>redakci</rad>/o
@@ -15,6 +15,10 @@
         &scirc;an&gcirc;o en la Esperanto-<tld/>o de la Pola Radio.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Redaktionsteam</trd>,
+      <trd>Redakteure</trd>
+    </trdgrp>
     <trd lng="en">editorial staff</trd>
     <trd lng="fr">r&eacute;daction<klr> (&eacute;quipe de)</klr></trd>
     <trd lng="hu">szerkeszt&odblac;s&eacute;g</trd>
@@ -23,6 +27,9 @@
     <dif>
       <ref tip="dif" cel="redakt.0ejo">Redaktejo</ref>.
     </dif>
+    <trdgrp lng="de">
+      <trd>Redaktionsb&uuml;ro</trd>
+    </trdgrp>
     <trd lng="en">editorial office</trd>
     <trd lng="fr">r&eacute;daction<klr> (bureau de)</klr></trd>
     <trd lng="hu">szerkeszt&odblac;s&eacute;g</trd>
@@ -43,6 +50,10 @@
       <ref cel="leg.0o.versio">lego</ref>,
       <ref cel="varian.0o">varianto</ref>.
     </refgrp>
+    <trdgrp lng="de">
+      <trd>Redaktionsstand</trd>,
+      <trd>redaktioneller Bearbeitungsstand</trd>
+    </trdgrp>
     <trd lng="nl">versie</trd>
     <trd lng="en">edition</trd>
     <trd lng="fr">r&eacute;daction<klr> (d'un texte)</klr></trd>
@@ -55,12 +66,13 @@
     <trd>upravov&#xE1;n&#xED;</trd>
   </trdgrp>
   <trd lng="de">Redaktion</trd>
+  <trd lng="ja">&#x7DE8;&#x96C6;&#x90E8;  <pr>&#x3078;&#x3093;&#x3057;&#x3085;&#x3046;&#x3076;</pr></trd>
   <trd lng="nl">redactie</trd>
   <trdgrp lng="pl">
     <trd>redakcja</trd>,
     <trd>wydawnictwo</trd>
   </trdgrp>
-  <trd lng="ro">redac&#539;ie</trd>
+  <trd lng="ro">redac&#x21B;ie</trd>
   <trd lng="ru">&c_r;&c_je;&c_d;&c_a;&c_k;&c_c;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
     <trd>modifik&#xE1;cia</trd>,
@@ -75,6 +87,12 @@
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/20 19:20:37
+revo: transskribo per <pr>
+
+versio 1.21 2023/03/04 22:29:17
+Ulrich Fellmann: redakcio: +5 DE trdj
+
 versio 1.20 2022/08/24 22:32:27
 Vito Redsky:  +trd pl  + trd ro 
 
@@ -91,11 +109,5 @@ Revision 1.14  2003/02/05 17:31:11  revo
 Ulrich Fellmann: alilokigo de trd = de
 
 Revision 1.13  2003/02/04 17:31:15  revo
-Bart Demeyere: plibonigo trd nl
-
-Revision 1.12  2002/11/10 11:42:48  revo
-Christopher Zervic: sxngx ang -> `edition', ne `wording'
-
-Revision 1.11  2002/10/31 12:51:04  revo
 -->
 </vortaro>

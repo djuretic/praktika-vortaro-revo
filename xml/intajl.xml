@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: intajl.xml,v 1.14 2022/10/04 16:54:31 revo Exp $">
+<art mrk="$Id: intajl.xml,v 1.17 2023/10/17 16:46:14 revo Exp $">
 <kap>
   <rad>intajl</rad>/o
 </kap>
@@ -14,7 +14,7 @@
       <ref cel="glipti.0o">Gliptika&jcirc;o</ref> kun konkava gravuro; 
       <ref tip="sin" cel="gem.0o.intajlo">gemo<sncref/></ref>:
       <ekz>
-        ametisto<klr>[n oni]</klr> uzas <klr>[&#8230;]</klr> ekzemple por <tld/>oj
+        ametisto<klr>[n oni]</klr> uzas <klr>[&#x2026;]</klr> ekzemple por <tld/>oj
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=157333">Ametisto</url></lok>
@@ -36,6 +36,10 @@
       <ref cel="kame.0o">kameo</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_ib;&c_n;&c_t;&c_a;&c_l;&c_ib;&c_ja;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_n;&c_y; <ind>&c_k;&c_a;&c_m;&c_je;&c_n;&c_mol;</ind></trd>
+  </trdgrp>
   <trdgrp lng="bg">
     <trd>&c_d;&c_malmol;&c_l;&c_b;&c_o;&c_k; &c_p;&c_je;&c_ch;&c_a;&c_t;</trd>,
     <trd>&c_g;&c_je;&c_m;&c_a;</trd>
@@ -47,6 +51,7 @@
   <trd lng="en">intaglio</trd>
   <trd lng="fr">intaille</trd>
   <trd lng="hu">intaglio</trd>
+  <trd lng="ja">&#x6C88;&#x307F;&#x5F6B;&#x308A;  <pr>&#x3057;&#x305A;&#x307F;&#x307B;&#x308A;</pr></trd>
   <trd lng="nl">intaglio</trd>
   <trd lng="pl">intaglio</trd>
   <trd lng="pt">entalho<klr tip="amb"> (pe&ccedil;a entalhada)</klr>
@@ -56,6 +61,12 @@
 </art>
 <!--
 $Log$
+versio 1.17 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.15 2023/04/20 10:30:32
+Dmitri Gabinski: + trd be
+
 versio 1.14 2022/10/04 16:54:31
 Wolfram Diestel: +sinonimo
 
@@ -72,11 +83,5 @@ Revision 1.8  2005/11/03 17:32:09  revo
 Luiz Portella: +trd pt
 
 Revision 1.7  2004/02/09 17:30:57  revo
-Marc Bavant: +trd fr, +ref al gliptiko, +uzo BELA
-
-Revision 1.6  2004/02/05 17:30:45  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5 2002/08/11 17:33:16 revo
 -->
 </vortaro>

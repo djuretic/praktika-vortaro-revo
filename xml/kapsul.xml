@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kapsul.xml,v 1.30 2022/06/07 20:32:55 revo Exp $">
+<art mrk="$Id: kapsul.xml,v 1.35 2023/12/03 08:00:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kapsul</rad>/o <fnt><bib>PV</bib></fnt>
@@ -37,9 +37,9 @@
       <uzo tip="fak">MED</uzo>
       <fnt><bib>VdE</bib></fnt>
       <dif>
-        Ujeto el gelateno a&ubreve; oblato, uzata por enteni medikamentojn:
+        Ujeto el gelateno uzata por enteni medikamenton:
         <ekz>
-          Roche kapablas produkti 400 milionojn da dozoj (po dek
+          <nom>Roche</nom> kapablas produkti 400 milionojn da dozoj (po dek
           <tld/>oj) jare
           <fnt>
             <bib>Monato</bib>
@@ -62,9 +62,7 @@
         <trd>Medikamentenkapsel</trd>
       </trdgrp>
       <trd lng="en">capsule</trd>
-      <trdgrp lng="fr">
-        <trd>capsule<klr tip="ind"> (m&eacute;dicament)</klr></trd>
-      </trdgrp>
+      <trd lng="fr">g&eacute;lule<klr tip="ind"> (pharm.)</klr></trd>
       <trdgrp lng="hu">
         <trd>kapszula</trd>,
         <trd>ostyatok</trd>
@@ -84,9 +82,9 @@
         &ccirc;e maturi&gcirc;o per fendoj (hiperiko, irido),
         kovrilo (hiskiamo) a&ubreve; truetoj (papavo, kampanulo):
         <ekz>
-          opio estas narkota substanco, <klr>[&#8230;]</klr> kiun oni
+          opio estas narkota substanco, <klr>[&#x2026;]</klr> kiun oni
           ekstraktas el la sekigita laktosuko de opiopapava verda
-          <tld/>o 
+          <tld/>o
           <fnt>
             <bib>Viki</bib>
             <lok><url ref="https://eo.wikipedia.org/?curid=22009">Opio</url></lok>
@@ -143,9 +141,9 @@
         </fnt>;
       </ekz>
       <ekz>
-        Lajka <klr>[&#8230;]</klr> estis la unua besto, kiu atingis unuafoje
-        la kosmon        
-        <klr>[&#8230;]</klr> &gcirc;i mortis 5 horojn post la lan&ccirc;o, plej ver&scirc;ajne
+        <nom>Lajka</nom> <klr>[&#x2026;]</klr> estis la unua besto, kiu atingis unuafoje
+        la kosmon
+        <klr>[&#x2026;]</klr> &gcirc;i mortis 5 horojn post la lan&ccirc;o, plej ver&scirc;ajne
         pro tro-varmi&gcirc;o de la <tld/>o
         <fnt>
           <bib>Viki</bib>
@@ -154,7 +152,7 @@
       </ekz>
       <ekz>
         tempa <tld/>o a&ubreve; letero al estonto estas mesa&gcirc;o, kiun oni foje
-        sendas al si mem, 
+        sendas al si mem,
         a&ubreve; al siaj posteuloj, a&ubreve; al iu ajn, kiu retrovos la mesa&gcirc;on post
         paso de tempo
         <fnt>
@@ -166,7 +164,7 @@
     </dif>
     <adm>
       &Ccirc;u &scirc;ovi la sencon TEK ujo kiel subsencon al snc 1? &Ccirc;u distingi
-      historian sencon "skatoleto" de 
+      historian sencon "skatoleto" de
       modernaj sencoj en scienco kaj tekniko?
       <aut>WD</aut>
     </adm>
@@ -202,13 +200,24 @@
     <trd lng="nl">capsule</trd>
     <trd lng="pl">kapsu&lstroke;ka</trd>
     <trd lng="ru">&c_k;&c_a;&c_p;&c_s;&c_u;&c_l;&c_a;</trd>
-  </snc>
+    <trd lng="zh">&#x84B4; <pr>shu&#xF2;</pr></trd>
+</snc>
+  <trd lng="be">&c_k;&c_a;&c_p;&c_s;&c_u;&c_l;&c_a;</trd>
   <trd lng="ca">c&agrave;psula</trd>
   <trdgrp lng="cs">
     <trd>kapsle</trd>,
     <trd>uz&aacute;v&ecaron;r <klr>(lahve)</klr></trd>
   </trdgrp>
   <trd lng="es">c&aacute;psula</trd>
+  <trdgrp lng="ja">
+    <trd>&#x738B;&#x51A0;  <pr>&#x304A;&#x3046;&#x304B;&#x3093;</pr></trd>,
+    <trd>&#x84B8;&#x767A;&#x76BF;  <pr>&#x3058;&#x3087;&#x3046;&#x306F;&#x3064;&#x3056;&#x3089;</pr></trd>,
+    <trd>&#x30AB;&#x30D7;&#x30BB;&#x30EB;</trd>,
+    <trd>&#x3055;&#x304F;&#x679C;  <pr>&#x3055;&#x304F;&#x304B;</pr></trd>,
+    <trd>&#x88AB;&#x819C;  <pr>&#x3072;&#x307E;&#x304F;</pr></trd>,
+    <trd>&#x56A2;  <pr>&#x3075;&#x304F;&#x308D;</pr></trd>,
+    <trd>&#x5305;  <pr>&#x30D1;&#x30AA;</pr></trd>
+  </trdgrp>
   <trd lng="ro">capsul&abreve;</trd>
   <trdgrp lng="sk">
     <trd>kapsula</trd>,
@@ -216,16 +225,25 @@
     <trd>tobolka</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&c_a;&#x43F;&c_s;&c_u;&#x43B;&c_a;</trd>,
-    <trd>&#x43A;&c_a;&#x43F;&c_s;&c_u;&#x43B;&#x44C;</trd>,
-    <trd>&#x43A;&#x43E;&c_r;&#x43E;&c_b;&#x43E;&c_ch;&#x43A;&c_a;</trd>,
-    <trd>&c_s;&c_u;&#x43C;&#x43A;&c_a;</trd>,
-    <trd>&#x43E;&c_b;&#x43B;&c_a;&c_t;&#x43A;&c_a;</trd>
+    <trd>&c_k;&c_a;&c_p;&c_s;&c_u;&c_l;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_p;&c_s;&c_u;&c_l;&c_mol;</trd>,
+    <trd>&c_k;&c_o;&c_r;&c_o;&c_b;&c_o;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_s;&c_u;&c_m;&c_k;&c_a;</trd>,
+    <trd>&c_o;&c_b;&c_l;&c_a;&c_t;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2023/11/13 12:45:14
+Dmitri Gabinski: + trd be
+
+versio 1.33 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.31 2023/04/02 21:20:05
+Jeromo Vasxe: kor trd fr en snc MED
+
 versio 1.30 2022/06/07 20:32:55
 Ulrich Fellmann: kapsulo 1a: +2 DE trdj
 
@@ -239,14 +257,5 @@ Revision 1.25  2017/08/03 20:10:13  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.24  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.23  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2013/11/08 19:10:39  revo
-Jeromo Vasxe: snc/subsnc
-
-Revision 1.21  2012/08/03 13:10:31  revo
 -->
 </vortaro>

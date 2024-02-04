@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akroba.xml,v 1.27 2022/04/25 15:10:59 revo Exp $">
+<art mrk="$Id: akroba.xml,v 1.30 2023/10/28 08:33:04 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>akrobat</rad>/o <fnt><bib>PV</bib></fnt>
@@ -48,7 +48,15 @@
        <ref cel="cirk.0isto">cirkisto</ref>,
        <ref cel="jxongl.0isto">&jcirc;onglisto</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6742;&#x6280; <pr>z&#xE1;j&#xEC;</pr></trd>,
+    <trd>&#x96DC;&#x6280; <pr>z&#xE1;j&#xEC;</pr></trd>,
+    <trd>&#x8868;&#x6F14;&#x7279;&#x6280;&#x8005; <pr>bi&#x1CE;oy&#x1CE;nt&#xE8;j&#xEC;zh&#x11B;</pr></trd>,
+    <trd>&#x6742;&#x6280;&#x6F14;&#x5458; <pr>z&#xE1;j&#xEC;y&#x1CE;nyu&#xE1;n</pr></trd>,
+    <trd>&#x96DC;&#x6280;&#x6F14;&#x54E1; <pr>z&#xE1;j&#xEC;y&#x1CE;nyu&#xE1;n</pr></trd>,
+    <trd>&#x5168;&#x6B66;&#x884C; <pr>qu&#xE1;nw&#x1D4;h&#xE1;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_a;&c_k;&c_r;&c_a;&c_b;&c_a;&c_t;</trd>
   <trd lng="bg">&c_a;&c_k;&c_r;&c_o;&c_b;&c_a;&c_t;</trd>
   <trdgrp lng="cs">
@@ -65,6 +73,10 @@
   <trd lng="fr">acrobate</trd>
   <trd lng="he">&alef;&#x5B7;&qof;&resh;&vav;&#x5B9;&bet;&#x5BC;&#x5B8;&tet;</trd>
   <trd lng="hu">akrobata</trd>
+  <trdgrp lng="ja">
+    <trd>&#x66F2;&#x82B8;&#x5E2B;  <pr>&#x304D;&#x3087;&#x304F;&#x3052;&#x3044;&#x3057;</pr></trd>,
+    <trd>&#x8EFD;&#x696D;&#x5E2B;  <pr>&#x304B;&#x308B;&#x308F;&#x3056;&#x3057;</pr></trd>
+  </trdgrp>
   <trd lng="nl">acrobaat</trd>
   <trdgrp lng="pt">
     <trd>acrobata</trd>,
@@ -126,7 +138,11 @@
       <trd>zirkusreife &Uuml;bung</trd>,
       <trd>Akrobatik</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7279;&#x6280;&#x8868;&#x6F14; <pr>t&#xE8;j&#xEC;bi&#x1CE;oy&#x1CE;n</pr></trd>,
+    <trd>&#x6B66;&#x6253; <pr>w&#x1D4;d&#x1CE;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="akroba.0ajxo.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -156,6 +172,10 @@
     <trd>akobata mutatv&aacute;ny</trd>,
     <trd>akrobatika</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x66F2;&#x82B8;  <pr>&#x304D;&#x3087;&#x304F;&#x3052;&#x3044;</pr></trd>,
+    <trd>&#x8EFD;&#x696D;  <pr>&#x304B;&#x308B;&#x308F;&#x3056;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_a;&c_k;&c_r;&c_o;&c_b;&c_a;&c_t;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">akrobacia</trd>
   <trd lng="uk">&#x430;&#x43A;&#x440;&#x43E;&#x431;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x439;&#x43E;&#x43C;</trd>
@@ -163,6 +183,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
 versio 1.27 2022/04/25 15:10:59
 aktualigo ligvokodoj kaj URL-unuoj
 
@@ -182,8 +205,5 @@ Revision 1.19  2008/07/31 17:48:06  revo
 Wieland Pusch: +trd bg
 
 Revision 1.18  2005/06/09 17:40:55  revo
-Yury Finkel: +trd ru
-
-Revision 1.17  2003/10/30 17:31:25  revo
 -->
 </vortaro>

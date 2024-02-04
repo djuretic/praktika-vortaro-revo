@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: noci.xml,v 1.21 2022/11/15 15:33:28 revo Exp $">
+<art mrk="$Id: noci.xml,v 1.24 2024/01/29 15:59:31 revo Exp $">
 <kap>
   <rad>noci</rad>/o
 </kap>
@@ -58,6 +58,11 @@
   </trdgrp>
   <trd lng="fr">notion</trd>
   <trd lng="hu">fogalom</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6982;&#x5FF5;  <pr>&#x304C;&#x3044;&#x306D;&#x3093;</pr></trd>,
+    <trd>&#x89B3;&#x5FF5;  <pr>&#x304B;&#x3093;&#x306D;&#x3093;</pr></trd>,
+    <trd>&#x77E5;&#x8B58;  <pr>&#x3061;&#x3057;&#x304D;</pr></trd>
+  </trdgrp>
   <trd lng="nl">begrip</trd>
   <trdgrp lng="pl">
     <trd>poj&eogonek;cie  <klr>(filozof.)</klr></trd>,
@@ -66,11 +71,12 @@
   <trd lng="pt">no&ccedil;&atilde;o</trd>
   <trdgrp lng="ro">
     <trd>concept  <klr>(filosof.)</klr></trd>,
-    <trd>no&#539;iune</trd>
+    <trd>no&#x21B;iune</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>
   <trd lng="sk">pojem</trd>
   <trd lng="uk">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_t;&c_ja;</trd>
+  <trd lng="zh">&#x6982;&#x5FF5; <pr>g&#xE0;ini&#xE0;n</pr></trd>
 </drv>
 
 <drv mrk="noci.0aro">
@@ -83,8 +89,7 @@
         la &Ccirc;ina Anar&hcirc;i<klr>[i]</klr>sma tradicio ... parto de <klr>[kies]</klr> <tld/>aro estis la
         elimino de etna, rasa, kaj nacia identecoj favore al internaciisma identeco
         <fnt>
-          <vrk><url ref="https://libcom.org/article/sifo-1884-1915"
-              >Sifo (1884-1915) | libcom.org</url></vrk>
+          <vrk><url ref="https://libcom.org/article/sifo-1884-1915">Sifo (1884-1915) | libcom.org</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -97,7 +102,7 @@
   <trd lng="de">Begriffssystem</trd>
   <trd lng="hu">fogalomrendszer</trd>
   <trd lng="pl">siatka poj&eogonek;ciowa</trd>
-  <trd lng="ro">re&#539;eaua conceptual&abreve;</trd>
+  <trd lng="ro">re&#x21B;eaua conceptual&abreve;</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_j;</trd>
 </drv>
 
@@ -117,10 +122,8 @@
         kompreneble ne necesas ke &ccirc;iu <tld/>o estu dividata ekzakte en
         dek sub<tld/>ojn
         <fnt><aut>Rudolf Haferkorn</aut>:
-          <vrk><url
- ref="https://eo.wikisource.org/wiki/Scienca_Revuo/vol._1,_n-ro._1/La_dekuma_klasado"
-          >La Dekuma Klasado</url></vrk>
-          <lok>Scienca Revuo. vol. 1, &#8470;1</lok></fnt>.
+          <vrk><url ref="https://eo.wikisource.org/wiki/Scienca_Revuo/vol._1,_n-ro._1/La_dekuma_klasado">La Dekuma Klasado</url></vrk>
+          <lok>Scienca Revuo. vol. 1, &#x2116;1</lok></fnt>.
         </ekz>
     </dif>
     <ref tip="vid" cel="spec.sub0o">subspeco</ref>
@@ -190,10 +193,17 @@
     <trd>&c_n;&c_a;&c_d;&c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>,
     <trd>&c_r;&c_o;&c_d;&c_o;&c_v;&c_o;&c_je; &c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x672F;&#x8BED; <pr>sh&#xF9;y&#x1D4;</pr></trd>,
+    <trd>&#x8853;&#x8A9E; <pr>sh&#xF9;y&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/20 05:22:00
+revo: transskribo per <pr>
+
 versio 1.21 2022/11/15 15:33:28
 Sergio Pokrovskij: +ekz
 
@@ -213,8 +223,5 @@ Revision 1.14  2009/10/15 16:31:51  revo
 Paul Peeraerts: +nl
 
 Revision 1.13  2005/02/06 17:32:00  revo
-Marc Bavant: +ref al komprenajxo, +trd fr
-
-Revision 1.12 2004/06/22 16:30:05 revo
 -->
 </vortaro>

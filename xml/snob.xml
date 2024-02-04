@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: snob.xml,v 1.15 2022/03/27 17:06:36 revo Exp $">
+<art mrk="$Id: snob.xml,v 1.21 2023/10/21 07:46:47 revo Exp $">
 <kap>
   <rad>snob</rad>/o
 </kap>
@@ -9,8 +9,41 @@
   <kap><tld/>o</kap>
   <snc mrk="snob.0o.KOMUNE">
     <dif>
-      Homo, kiu sendistinge imitas &ccirc;ion modan a&ubreve; altklasan, kaj sentigas
-      malestimon al aliaj aferoj.
+      <ref tip="super" cel="hom.0o.unu">Homo</ref>, kiu sendistinge imitas &ccirc;ion modan a&ubreve; altklasan,
+      kaj sentigas
+      malestimon al aliaj aferoj:
+      <ekz>
+        li alvenis je la &gcirc;usta momento, kiam la <tld/>oj komencis laci&gcirc;i de la kutima
+        stilo
+        <fnt>
+          <bib>ChV</bib>
+          <lok>19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni ne estas <tld/>oj, kaj sekve &scirc;atas simplajn vortojn
+        <fnt>
+          <bib>ChC</bib>
+          <lok>21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ne estis <tld/>o, sed li estis pedanta pri siaj vestoj
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la malpli altaj tavoloj svarmas la <tld/>oj, kiuj klopodas imiti la supran
+        tavolon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Thierry Salomon</aut>
+          <vrk><url ref="&Monato;/2003/008016.html">La mondolingvo</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="afekt.0ulo">afektulo</ref>,
@@ -29,16 +62,70 @@
   <trd lng="es">esnob</trd>
   <trd lng="fr">snob</trd>
   <trd lng="hu">sznob</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30CE;&#x30C3;&#x30D6;</trd>,
+    <trd>&#x7D33;&#x58EB;&#x6C17;&#x53D6;&#x308A;&#x306E;&#x4FD7;&#x7269;  <pr>&#x3057;&#x3093;&#x3057;&#x304D;&#x3069;&#x308A;&#x306E;&#x305E;&#x304F;&#x3076;&#x3064;</pr></trd>
+  </trdgrp>
   <trd lng="nl">snob</trd>
+  <trd lng="pl">snob</trd>
   <trd lng="ru">&c_s;&c_n;&c_o;&c_b;</trd>
   <trdgrp lng="sk">
     <trd>pov&yacute;&scaron;ene</trd>,
     <trd>snob</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x43D;&#x43E;&#x431;</trd>,
-    <trd>&#x444;&#x440;&#x430;&#x43D;&#x442;</trd>
+    <trd>&c_s;&c_n;&c_o;&c_b;</trd>,
+    <trd>&c_f;&c_r;&c_a;&c_n;&c_t;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="snob.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Impresanta kiel <tld/>o; konvena al <tld/>o:
+      <ekz>
+        memfida kaj <tld/>a, kiel &scirc;atata de la imperiestro, magnato
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;di&gcirc;is iom da &ccirc;io &ndash; gajaj bonhumoraj ridoj, <tld/>a pedanteco, politikaj
+        kvereloj,
+        <fnt>
+          <bib>CKv</bib>
+          <lok>19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Esperanta Civito <klr>[&#x2026;]</klr> &scirc;ajnas pli <tld/>a kaj elitisma ol la
+        &leftquot;hierarkiisma&rightquot; UEA
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2000, No 10</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="arogan.0a">aroganta</ref>,
+      <ref cel="fier.tro0a">trofiera</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_s;&c_n;&c_a;&c_b;&c_ib;&c_s;&c_c;&c_k;&c_ib;</trd>
+  <trdgrp lng="de">
+    <trd>versnobt</trd>,
+    <trd>snobistisch</trd>
+  </trdgrp>
+  <trd lng="en">snobby</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30CE;&#x30C3;&#x30D6;&#x306A;</trd>,
+    <trd>&#x4E0A;&#x6D41;&#x3076;&#x3063;&#x305F;  <pr>&#x3058;&#x3087;&#x3046;&#x308A;&#x3085;&#x3046;&#x3076;&#x3063;&#x305F;</pr></trd>,
+    <trd>&#x4FD7;&#x7269;&#x306E;  <pr>&#x305E;&#x304F;&#x3076;&#x3064;&#x306E;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">snobistyczny</trd>
 </drv>
 
 <drv mrk="snob.0i">
@@ -46,7 +133,7 @@
   <gra><vspec>x</vspec></gra>
   <snc mrk="snob.0i.KOMUNE">
     <dif>
-      Afekti superecon kontra&ubreve; aliuloj:
+      <ref tip="super" cel="afekt.0i.sxajnigi">Afekti</ref> superecon kontra&ubreve; aliuloj:
       <ekz>
         oni <tld/>as aliajn homojn per la kulto de la <ctl>&gcirc;usta
         vorto</ctl>
@@ -58,20 +145,50 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_b;&c_y;&c_c;&c_mol; <ind>&c_s;&c_n;&c_o;&c_b;&c_a;&c_m;</ind></trd>
   <trd lng="fr">snober</trd>
+  <trd lng="pl">snobowa&cacute; si&eogonek;</trd>
 </drv>
 
 <drv mrk="snob.0ismo">
   <kap><tld/>ismo</kap>
   <snc mrk="snob.0ismo.KOMUNE">
     <dif>
-      <tld lit="S"/>a kutima sinteno:
+      <tld lit="S"/>a kutima <ref tip="super" cel="ten.sin0o">sinteno</ref>:
+      <ekz>
+        &ccirc;efurba <tld/>ismo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 8-9 (58-59)</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <tld/>ismo eble estas influa fenomeno en la brita kulturo
         <fnt>
-        <aut>M. Rauhamaa</aut>,
-        <vrk>Re: Nomoj de lingvoj</vrk>,
-        <lok>soc.culture.esperanto, 1996-05-12</lok>
+          <aut>M. Rauhamaa</aut>,
+          <vrk>Re: Nomoj de lingvoj</vrk>,
+          <lok>soc.culture.esperanto, 1996-05-12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        multaj arta&jcirc;oj havus lokon en la &ccirc;efaj mondaj muzeoj pri nuntempa arto, sed
+        beda&ubreve;rinde, nekono a&ubreve; <tld/>ismo lasas ilin en privataj kolektoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ren&eacute;e Triolle</aut>
+          <vrk><url ref="&Monato;/2006/008835.php">500 &ccirc;efverkoj en Monako</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas kritikuloj, kiuj nomas tiun fenomenon nura <tld/>ismo, sed estas
+        konstateble, ke studentoj, kiuj majstras la gaelan facile kaj rapide lernas
+        aliajn lingvojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2006/008854.php">Lingva Davido kontra&ubreve; Goljato</url></vrk>
+          <lok>2006</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -82,16 +199,34 @@
     <trd>snobizmus</trd>,
     <trd>snobstv&iacute;</trd>
   </trdgrp>
+  <trd lng="de">Snobismums</trd>
   <trd lng="fr">snobisme</trd>
+  <trd lng="ja">&#x30B9;&#x30CE;&#x30D3;&#x30BA;&#x30E0;</trd>
+  <trd lng="pl">snobizm</trd>
   <trdgrp lng="sk">
     <trd>pov&yacute;&scaron;enos&tcaron;</trd>,
     <trd>snobizmus</trd>
   </trdgrp>
-  <trd lng="uk">&#x441;&#x43D;&#x43E;&#x431;&#x456;&#x437;&#x43C;</trd>
+  <trd lng="uk">&c_s;&c_n;&c_o;&c_b;&c_ib;&c_z;&c_m;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.19 2023/08/27 20:25:12
+Vito Redsky: +trd pl 
+
+versio 1.18 2023/04/14 09:25:52
+Dmitri Gabinski: + trd be
+
+versio 1.17 2023/04/11 18:56:02
+aktualigo Monato-URL
+
+versio 1.16 2023/02/01 06:32:06
+Wolfram Diestel: +ekz-oj, ref; +~a
+
 versio 1.14 2021/08/12 15:34:18
 Dmitri Gabinski: + trd be
 
@@ -99,20 +234,5 @@ Revision 1.12  2015/06/29 16:33:23  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.11  2006/01/25 17:31:10  revo
-Jeromo Vasxe: + ~i ~ismo, ~o nuancigis dif.
-
-Revision 1.10 2005/04/05 16:35:33 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9 2003/03/11 17:32:57 revo
-Axel Rousseau: +trd fr
-
-Revision 1.8 2003/01/17 17:32:04 revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.7 2002/02/13 17:34:01 revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/10/15 18:22:23 revo
 -->
 </vortaro>

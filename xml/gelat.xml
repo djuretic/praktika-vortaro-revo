@@ -1,23 +1,38 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: gelat.xml,v 1.14 2019/04/06 13:10:14 revo Exp $">
-<kap><rad>gelat</rad>/o</kap>
+<art mrk="$Id: gelat.xml,v 1.16 2024/01/08 18:30:07 revo Exp $">
+<kap>
+  <rad>gelat</rad>/o
+  <fnt><bib>PVEF</bib></fnt>
+</kap>
 <drv mrk="gelat.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">KEM</uzo>
-  <snc>
+  <uzo tip="fak">KUI</uzo>
+  <snc mrk="gelat.0o.KUI">
     <dif>
-      Duonsolida, tremanta maso, kiu konsistas el malvarmigitaj solva&jcirc;oj
-      de gelateno a&ubreve; el iuj plantaj substancoj:
+      <ref tip="dif" cel="gelate.0ajxo">Gelatena&jcirc;o</ref>:
+      <ekz>
+        &scirc;i &ccirc;irka&ubreve;mordis kotleton, kaj metinte sur telereton violkoloran <tld/>on, &scirc;i
+        vi&scirc;is la malpurigitajn manojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Kisjel</nom>, (acida&jcirc;o), estas litva man&gcirc;a&jcirc;o, speco de <tld/>o, preparata el avena
+        pasto, kiun oni lavas per akvo, &gcirc;is kiam &ccirc;iuj farun-partetoj estas forigitaj
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro VI.</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         por nutri la abelre&gcirc;inon ili preparas specialan nutra&jcirc;on tiel nomatan re&gcirc;an
         <tld/>on
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=226365"
-              >Abelterapio</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=226365">Abelterapio</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -26,32 +41,27 @@
         hororo
         <fnt>
           <aut>H.P. Lovecraft, trad. Charlotte Burton kaj Tim Rice</aut>
-          <vrk><url ref="https://books.google.de/books?id=GYrFBgAAQBAJ&amp;lpg=PA9&amp;ots=sSlVuO0-dt&amp;pg=PA9#v=onepage&amp;q=gelato&amp;f=false"
-              >La Voko de &Hcirc;tulho</url></vrk>
+          <vrk><url ref="https://books.google.de/books?id=GYrFBgAAQBAJ&amp;lpg=PA9&amp;ots=sSlVuO0-dt&amp;pg=PA9#v=onepage&amp;q=gelato&amp;f=false">La Voko de &Hcirc;tulho</url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="gelate.0o">gelateno</ref>,
-      <ref cel="jxele.0o">&jcirc;eleo</ref>.
+      <ref cel="jxele.0o">&jcirc;eleo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_je;&c_l;&c_mol;</trd>,
     <trd>&c_zh;&c_e;&c_l;&c_je;</trd>
   </trdgrp>
-  <trd lng="ca">gel<klr> (qu&iacute;m.)</klr></trd>
   <trdgrp lng="cs">
     <trd>gel</trd>,
     <trd>rosol</trd>
   </trdgrp>
   <trdgrp lng="de">
-    <trd>Gel</trd>,
     <trd>Gelee</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>gel<klr tip="ind"> (chim.)</klr></trd>,
-    <trd>gel&eacute;e<klr tip="ind"> (chim.)</klr></trd>
+    <trd>gel&eacute;e</trd>
   </trdgrp>
   <trd lng="hu">g&eacute;l</trd>
   <trdgrp lng="nl">
@@ -71,7 +81,7 @@
 
 <drv mrk="gelat.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="gelat.0igxi.KUI">
     <dif>
       Fari&gcirc;i <tld/>o.
     </dif>
@@ -88,10 +98,17 @@
   <trd lng="fr">se <ind>g&eacute;lifier</ind></trd>
   <trd lng="hu">g&eacute;lesedik</trd>
   <trd lng="nl">indikken</trd>
+  <trdgrp lng="zh">
+    <trd>&#22615;&#20957;&#33184;&#29289; <pr>t&uacute;n&iacute;ngji&amacron;ow&ugrave;</pr></trd>,
+    <trd>&#20957;&#25104;&#33014;&#29366; <pr>n&iacute;ngch&eacute;ngji&amacron;ozhu&agrave;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.16 2024/01/08 18:30:07
+Wolfram Diestel: fnt PVEF, ŝanĝis al KUI gelatenaĵo laŭ tiu; +2 ekz
+
 Revision 1.13  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: grinc.xml,v 1.23 2022/04/09 07:26:01 revo Exp $">
+<art mrk="$Id: grinc.xml,v 1.27 2023/11/11 11:36:37 revo Exp $">
 <kap><ofc>*</ofc>
   <rad>grinc</rad>/i
 </kap>
@@ -13,7 +13,7 @@
       <ref tip="super" cel="bru.0i.soni">Brui</ref> akre, malagrable
       kaj tre akute pro kunfroti&gcirc;o kun alia malmola objekto:
       <ekz>
-        <tld/>u per la dentoj, &scirc;prucigu fajron <klr>[&#8230;]</klr> &mdash; min amuzas la kolerego
+        <tld/>u per la dentoj, &scirc;prucigu fajron <klr>[&#x2026;]</klr> &mdash; min amuzas la kolerego
         de virino
         <fnt>
           <bib>Rabistoj</bib>
@@ -21,8 +21,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        <nom>Likon</nom> komencis <tld/>i 
-        <klr>(prefere <ref cel="grinc.0igi">grincigi</ref>)</klr> la dentojn 
+        <nom>Likon</nom> komencis <tld/>i
+        <klr>(prefere <ref cel="grinc.0igi">grincigi</ref>)</klr> la dentojn
         en senforta kolero
         <fnt>
           <bib>Far3</bib>
@@ -45,7 +45,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la granda industriejo <klr>[&#8230;]</klr> mu&gcirc;is kaj siblis, zumis kaj sonoris,
+        la granda industriejo <klr>[&#x2026;]</klr> mu&gcirc;is kaj siblis, zumis kaj sonoris,
         <tld/>is kaj tintis
         <fnt>
           <bib>InfanTorent2</bib>
@@ -117,6 +117,7 @@
     <trd>csikorog</trd>,
     <trd>nyikorog</trd>
   </trdgrp>
+  <trd lng="ja">&#x304D;&#x3057;&#x3080;</trd>
   <trd lng="nl">knarsen</trd>
   <trd lng="pt">ranger</trd>
   <trdgrp lng="ru">
@@ -128,6 +129,10 @@
     <trd>&c_s;&c_k;&c_r;&c_je;&c_g;&c_o;&c_t;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_s;&c_k;&c_r;&c_je;&c_g;&c_o;&c_t;&c_ib;&c_t;&c_i;</trd>,
     <trd>&c_s;&c_k;&c_r;&c_i;&c_p;&c_ib;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7259;&#x9F52;&#x54AC;&#x5F97;&#x54AF;&#x54AF;&#x97FF; <pr>y&#xE1;ch&#x1D0;y&#x1CE;od&#xE9;g&#x113;g&#x113;xi&#x1CE;ng</pr></trd>,
+    <trd>&#x54AC;&#x7259;&#x5207;&#x9F52; <pr>y&#x1CE;oy&#xE1;qi&#xE8;ch&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -162,16 +167,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_k;&c_r;&c_o;&c_g;&c_a;&c_t;</trd>,
+    <trd>&c_s;&c_k;&c_r;&c_y;&c_g;&c_a;&c_t;</trd>,
+    <trd>&c_r;&c_y;&c_p;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Knirschen</trd>,
     <trd>Kreischen</trd>
   </trdgrp>
+  <trd lng="ja">&#x304D;&#x3057;&#x3080;&#x97F3;  <pr>&#x304D;&#x3057;&#x3080;&#x304A;&#x3068;</pr></trd>
 </drv>
-
-
-
-
-
 
 <drv mrk="grinc.0igi">
   <kap><tld/>igi</kap>
@@ -193,7 +199,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        li rapide <klr>[&#8230;]</klr> eliris tre &gcirc;entile:&ndash; humilan saluton! (sed interne li
+        li rapide <klr>[&#x2026;]</klr> eliris tre &gcirc;entile:&ndash; humilan saluton! (sed interne li
         <tld/>igis siajn impulsojn)
         <fnt>
           <bib>KKr</bib>
@@ -213,12 +219,19 @@
     <trd>csikorogat</trd>,
     <trd>nyikorogat</trd>
   </trdgrp>
+  <trd lng="ja">&#x304D;&#x3057;&#x307E;&#x305B;&#x308B;</trd>
   <trd lng="nl">doen <ind>knarsen</ind></trd>
   <trd lng="pt">fazer algo <ind>ranger</ind></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.24 2023/08/03 07:25:02
+Dmitri Gabinski: + trd be
+
 versio 1.23 2022/04/09 07:26:01
 Wolfram Diestel: +ekz-oj, ref-oj; ~o
 
@@ -235,11 +248,5 @@ Revision 1.17  2008/11/21 17:57:44  revo
 Wieland Pusch: entoj por unikodo
 
 Revision 1.16  2008/10/31 17:30:24  revo
-Russ Williams: +trd en
-
-Revision 1.15  2005/08/26 16:32:24  revo
-Luiz Portella: +trd pt
-
-Revision 1.14  2005/04/14 16:35:01  revo
 -->
 </vortaro>

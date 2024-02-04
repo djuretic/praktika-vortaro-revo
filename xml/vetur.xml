@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vetur.xml,v 1.69 2022/11/21 09:31:04 revo Exp $">
+<art mrk="$Id: vetur.xml,v 1.78 2023/12/12 20:10:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vetur</rad>/i <fnt><bib>PV</bib></fnt>
@@ -99,6 +99,11 @@
       <trd>megy <klr tip="ind">(j&aacute;rm&udblac;vel)</klr></trd>,
       <trd>utazik</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>ber<ind>kendara</ind></trd>,
+      <trd>ber<ind>kemudi</ind></trd>,
+      <trd>be<ind>pergi</ind>an</trd>
+    </trdgrp>
   </snc>
   <snc mrk="vetur.0i.TRA_veturilo">
     <dif>
@@ -133,9 +138,13 @@
       </ekz>
     </dif>
     <trd lng="hu">k&ouml;zlekedik</trd>
+    <trdgrp lng="id">
+      <trd>ber<ind>jalan</ind> (utk kendaraan)</trd>,
+      <trd>ber<ind>gerak</ind> (utk kendaraan)</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_je;&c_h;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="bo">&t_ma;&t_naro;&t_tsheg;&#3914;&t_tsheg;&t_ga;&t_ta;&t_naro;&t_nga;&t_tsheg;</trd>
+  <trd lng="bo">&t_ma;&t_naro;&t_tsheg;&#xF4A;&t_tsheg;&t_ga;&t_ta;&t_naro;&t_nga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>jet</trd>,
     <trd>v&eacute;zt se <klr>(&ccaron;&iacute;m, kam)</klr></trd>
@@ -153,11 +162,10 @@
     <trd>aller<klr> (en v&eacute;hicule)</klr></trd>,
     <trd>se d&eacute;placer<klr> (en v&eacute;hicule)</klr></trd>
   </trdgrp>
-  <trd lng="id">ber<ind>kendara</ind></trd>
   <trd lng="io">vehar</trd>
-  <trd lng="ja"><klr tip="amb">&#65288;&#20055;&#12426;&#29289;&#12391;&#65289;</klr>&#34892;&#12367;
-  [<ind>&#12356;&#12367;</ind>]</trd>
-  <trd lng="ne">&#2337;&#2381;&#2352;&#2366;&#2311;&#2357;</trd>
+  <trd lng="ja"><klr tip="amb">&#xFF08;&#x4E57;&#x308A;&#29289;&#12391;&#xFF09;</klr>&#x884C;&#x304F;
+  <pr>&#12356;&#x304F;</pr></trd>
+  <trd lng="ne">&#2337;&#x94D;&#2352;&#x93E;&#2311;&#2357;</trd>
   <trdgrp lng="nl">
     <trd>reizen<klr tip="amb"> (in een voertuig)</klr></trd>,
     <trd>rijden<klr tip="ind"> (in een voertuig)</klr></trd>
@@ -228,7 +236,7 @@
           <lok>&Ccirc;apitro XIX</lok>
         </fnt>;
       </ekz>
-      <ekz> 
+      <ekz>
         kiam nokte li <tld/>igis virinojn, li kutime atendis
         anta&ubreve; la enirejo &gcirc;is ili eniros en la lo&gcirc;ejon, por ke iu
         ulo ne embusku ilin
@@ -255,9 +263,14 @@
       <trd>sz&aacute;ll&iacute;t</trd>,
       <trd>fuvaroz</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>meng<ind>angkut</ind></trd>,
+      <trd>men<ind>transpor</ind></trd>,
+      <trd><baz>pindah</baz>memindahkan</trd>
+    </trdgrp>
     <trd lng="io">vehigar</trd>
-    <trd lng="ja"><klr tip="amb">&#65288;&#20055;&#12426;&#29289;&#12391;&#65289;</klr>&#36939;&#12406;
-      [<ind>&#12399;&#12371;&#12406;</ind>]</trd>
+    <trd lng="ja"><klr tip="amb">&#xFF08;&#x4E57;&#x308A;&#29289;&#12391;&#xFF09;</klr>&#x904B;&#12406;
+      <pr>&#x306F;&#12371;&#12406;</pr></trd>
     <trd lng="nl">vervoeren</trd>
     <trd lng="pl">wozi&cacute;</trd>
     <trdgrp lng="ru">
@@ -290,11 +303,11 @@
       <ekz>
         li simple trorapide <tld/>igis la a&ubreve;ton sur la <klr>[kurbo]</klr>plena vojo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007079.html"
-              >Inter la dek plej bonaj romanoj</url></vrk>
-        </fnt>.
+          <aut>Donald Broadribb</aut>
+            <vrk><url ref="&Monato;/2000/007079.php">Inter la dek plej bonaj romanoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 26</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -312,8 +325,9 @@
     </trdgrp>
     <trd lng="hu">vezet<klr tip="ind">
       (j&aacute;rm&udblac;vet)</klr></trd>
-    <trd lng="ja"><klr>&#65288;&#20055;&#12426;&#29289;&#12434;&#65289;</klr>&#36939;&#36578;&#12377;&#12427;
-      [<ind>&#12358;&#12435;&#12390;&#12435;&#12377;&#12427;</ind>]</trd>
+      <trd lng="id"><baz>kendara</baz>mengendarai</trd>
+    <trd lng="ja"><klr>&#xFF08;&#x4E57;&#x308A;&#29289;&#12434;&#xFF09;</klr>&#x904B;&#x8EE2;&#12377;&#x308B;
+      <pr>&#12358;&#12435;&#12390;&#12435;&#12377;&#x308B;</pr></trd>
     <trd lng="nl">besturen</trd>
     <trdgrp lng="pl">
       <trd>prowadzi&cacute;</trd>,
@@ -421,7 +435,15 @@
     <trd>(j&aacute;rm&udblac;)<ind>vezet&odblac;</ind></trd>,
     <trd>kocsis</trd>
   </trdgrp>
-<trdgrp lng="pl">
+  <trdgrp lng="id">
+    <trd><baz>kendara</baz>pengendara</trd>,
+    <trd><baz>kemudi</baz>pengemudi</trd>
+  </trdgrp>
+<trdgrp lng="ja">
+    <trd>&#x904B;&#x8EE2;&#x624B;  <pr>&#12358;&#12435;&#12390;&#12435;&#12375;&#12421;</pr></trd>,
+    <trd>&#x5FA1;&#32773;  <pr>&#x304E;&#12423;&#12375;&#12419;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
     <trd>kierowca</trd>,
     <trd>przewo&zacute;nik</trd>,
     <trd>wo&zacute;nica<klr>
@@ -444,8 +466,6 @@
     <trd>&c_i;&c_z;&c_v;&c_o;&c_z;&c_ch;&c_i;&c_k;</trd>,
     <trd>&c_v;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   </trdgrp>
-  <trd lng="id"><baz>kendara</baz>pengendara</trd>
-  <trd lng="id"><baz>kemudi</baz>pengemudi</trd>
 <trd lng="sk">povozn&iacute;k</trd>
 <trdgrp lng="sv">
     <trd>f&ouml;rare</trd>,
@@ -549,7 +569,7 @@
       </ekz>
       <ekz>
         mi translo&gcirc;igis la lo&gcirc;antaron al <nom>Syrakusai</nom>, &ccirc;ar ili estis lertaj industriistoj,
-        kiuj fabrikis por nia armeo &scirc;ildojn kaj batal<tld/>ilojn 
+        kiuj fabrikis por nia armeo &scirc;ildojn kaj batal<tld/>ilojn
         <klr>(kp <ref tip="sub" cel="cxar1.batal0o">batal&ccirc;aro</ref>)</klr>
         <fnt>
           <bib>SatirRak</bib>
@@ -564,7 +584,7 @@
       </ekz>
       <ekz>
         jen &scirc;i prenas la infan<tld/>ilon <klr>(vd <ref tip="sub"
-        cel="cxar1.infan0eto">infan&ccirc;areto</ref>)</klr> 
+        cel="cxar1.infan0eto">infan&ccirc;areto</ref>)</klr>
         kaj rapidas sur la &scirc;oseo
         <fnt>
           <bib>VRA</bib>
@@ -580,7 +600,7 @@
         <trd lng="de">Heuwagen</trd>
       </ekz>
       <ekz>
-        stratvendistoj kun pu&scirc;<tld/>iloj 
+        stratvendistoj kun pu&scirc;<tld/>iloj
         <klr>(vd <ref tip="sub" cel="cxar1.0umo">pu&scirc;&ccirc;aro, &ccirc;arumo</ref>)</klr>
         <fnt>
           <bib>I&scirc;tar</bib>
@@ -606,10 +626,10 @@
         oni <klr>[&#8230;]</klr> likvidis 93 tankojn, 153 blenditajn transportilojn kaj 339
         milit<tld/>ilojn
         <fnt>
-          <bib>Monato</bib>
-          <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007007.html"
-              >Jugoslavio: Atenco ne preteratentita</url></vrk>
+	<aut>Evgeni Georgiev</aut>
+	<vrk><url ref="&Monato;/2000/007007.php">Atenco ne preteratentita</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/06, p. 8</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -617,8 +637,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jozefo Horv&aacute;th</aut>
-          <vrk><url ref="https://www.monato.be/2006/009060.php"
-              >Tra infanaj okuloj: memoroj pri la eventoj de '56</url></vrk>
+          <vrk><url ref="&Monato;/2006/009060.php">Tra infanaj okuloj: memoroj pri la eventoj de
+          '56</url></vrk>
           <lok>2006</lok>
         </fnt>;
         <trd lng="de">Panzerfahrzeug</trd>
@@ -628,8 +648,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Jozefo Horv&aacute;th</aut>
-          <vrk><url ref="https://www.monato.be/2006/009060.php"
-              >Tra infanaj okuloj: memoroj pri la eventoj de '56</url></vrk>
+          <vrk><url ref="&Monato;/2006/009060.php">Tra infanaj okuloj: memoroj pri la eventoj de
+          '56</url></vrk>
           <lok>2006</lok>
         </fnt>;
         <trd lng="de">Raupenfahrzeug</trd>
@@ -640,8 +660,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="https://www.monato.be/2011/010517.php"
-              >Veturilo elstara</url></vrk>
+          <vrk><url ref="&Monato;/2011/010517.php">Veturilo elstara</url></vrk>
           <lok>2011</lok>
         </fnt>;
         <trd lng="de">Stehroller</trd>
@@ -663,7 +682,7 @@
     <trd>&c_k;&c_a;&c_l;&c_jo;&c_s;&c_y;</trd>,
     <trd>&c_p;&c_a;&c_v;&c_o;&c_z;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="bo">&t_tha;&t_drengbu;&t_ga;&t_tsheg;&t_pa;&t_tsheg;</trd>  
+  <trd lng="bo">&t_tha;&t_drengbu;&t_ga;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trdgrp lng="cs">
   <trd>dopravn&iacute; prost&rcaron;edek</trd>,
   <trd>povoz</trd>,
@@ -685,7 +704,7 @@
   <trd lng="hu">j&aacute;rm&udblac;</trd>
   <trd lng="id"><ind>kendara</ind>an</trd>
   <trd lng="io">vehilo</trd>
-  <trd lng="ja">&#20055;&#12426;&#29289; [<ind>&#12398;&#12426;&#12418;&#12398;</ind>]</trd>
+  <trd lng="ja">&#x4E57;&#x308A;&#29289; <pr>&#x306E;&#x308A;&#12418;&#x306E;</pr></trd>
   <trd lng="nl">voertuig</trd>
   <trdgrp lng="pl">
       <trd>pojazd</trd>,
@@ -717,9 +736,110 @@
     <trd>&c_k;&c_a;&c_r;&c_je;&c_t;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#36710;</trd>,
-    <trd><klr>tr. </klr>&#36554; [<ind>ch&emacron;</ind>]</trd>
+    <trd>&#x8F66;</trd>,
+    <trd><klr>tr. </klr>&#x8ECA; <pr>ch&#275;</pr></trd>
   </trdgrp>
+</drv>
+
+<drv mrk="vetur.0ilaro">
+  <kap>
+    <tld/>ilaro
+  </kap>
+  <snc>
+    <dif>
+      Aro da <tld/>iloj de kunvoja&gcirc;antoj, militiro ktp:
+      <ekz>
+        frumatene <tld/>iloj kunveturis apud fortika&jcirc;o, akompanontaj soldatoj eliris,
+        <klr>[&#8230;]</klr> <nom>&Jcirc;ilin</nom> rajdis, <tld/>ilo kun liaj hava&jcirc;oj <tld/>is en
+        <tld/>ilaro
+        <fnt>
+          <aut>L. Tolstoj, trad. N. Kabanov</aut>
+          <vrk><url ref="http://cw.kul.lublin.pl/Content/46756/52048.pdf">Ka&ubreve;kaza
+          Militkaptito</url></vrk>
+          <lok>Tutmonda Biblioteko je la memoro de L. Tolstoj, Moskvo, 1912</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li, sepdekjarulo, decidi&gcirc;is ali&gcirc;i al la soldatoj de la armea <tld/>ilaro
+        <fnt>
+          <aut>Trifon &Hcirc;ristovski</aut>
+          <vrk><url ref="https://eduinf.waw.pl/esp/lern/librejo/0367/0006.php">Mia Vivo</url></vrk>
+          <lok>&ccirc;ap. 4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anstata&ubreve; standardoj vi portus mortotukojn kaj sur la <tld/>ilaro transportus
+        &ccirc;erkojn
+        <fnt>
+          <aut>August Strindberg, trad. G. H. Backman</aut>
+          <vrk><url ref="https://dvd.ikso.net/libro/Strindberg/La_konscienco_riprocxas.pdf">La
+          Konscienco Ripro&ccirc;as</url></vrk>
+          <lok>p. 23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu supereco estas la sama, kiel <klr>[&#8230;]</klr> tiu de la fervojoj kompare kun
+        la iama malkomforta kaj malrapida <tld/>ilaro
+        <fnt>
+          <aut>Parolado de frato Izidoro</aut>
+          <vrk><url
+          ref="https://upload.wikimedia.org/wikipedia/commons/2/29/Belga_Esperantisto_-_Majo_1909.pdf">Graveco
+          de Esperanto en la Blinduledukado</url></vrk>
+          <lok>Belga Esperantisto, n-ro 7, Majo 1909, p. 148</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homhelpa <tld/>ilaro atingas <nom>Rukban</nom>-o, Sirio <klr>[&#8230;]</klr> kaj helpos &ccirc;irka&ubreve;
+        50&#x202F;000 homojn
+        <fnt>
+          <lok><url ref="https://twitter.com/unesperante/status/1059027765771546626?lang=bg">UN
+          Esperante, 2018-11-04</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;di&gcirc;as la kanto Cigana <tld lit="V"/>ilaro
+        <fnt>
+          <lok><url ref="https://retradio1.rssing.com/chan-6796782/all_p5.html">Pola Retradio en
+          Esperanto, 2013-07-05</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="karava.0o">karavano</ref>,
+      <ref cel="konvoj.0o">konvojo</ref>,
+      <ref cel="vagon.0aro">vagonaro</ref>
+    </refgrp>
+    <trd lng="be">&c_a;&c_b;&c_o;&c_z;</trd>
+    <trdgrp lng="de">
+      <trd>Train</trd>,
+      <trd>Tross</trd>,
+      <trd>Konvoi</trd>,
+      <trd>Fuhrpark</trd>
+    </trdgrp>
+    <trd lng="en">column</trd>
+    <trd lng="es">columna<klr> (militar)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>train<klr> (militaire)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>tr&eacute;n</trd>,
+      <trd>sz&aacute;ll&iacute;t&oacute;oszlop</trd>
+    </trdgrp>
+    <trd lng="id">konvoi</trd>
+    <trdgrp lng="it">
+      <trd>colonna<klr> (mil.)</klr></trd>,
+      <trd>convoglio<klr> (mil.)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">legertros</trd>
+    <trd lng="ru">&c_o;&c_b;&c_o;&c_z;</trd>
+  </snc>
+  <snc mrk="vetur.0ilaro.kompania">
+    <dif>
+      &Ccirc;iuj <tld/>iloj kiuj apartenas al entrepreno.
+    </dif>
+    <trd lng="de">Fuhrpark</trd>
+    <trd lng="id">armada</trd>
+  </snc>
 </drv>
 
 <drv mrk="vetur.cxirkaux0i">
@@ -759,6 +879,7 @@
       <trd>megker&uuml;l
         <klr tip="ind">(j&aacute;rm&udblac;vel)</klr></trd>
     </trdgrp>
+    <trd lng="id"><baz>keliling</baz>mengelilingi (dgn kendaraan)</trd>
     <trd lng="pl">obje&zdot;d&zdot;a&cacute;</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_b;&c_malmol;&c_je;&c_h;&c_a;&c_t;&c_mol;</trd>,
@@ -781,6 +902,7 @@
     <trd lng="en">to drive around</trd>
     <trd lng="hu">ker&uuml;l egyet
       <klr tip="ind">(j&aacute;rm&udblac;vel)</klr></trd>
+    <trd lng="id">ber<ind>putar</ind>-putar (dgn kendaraan)</trd>
     <trdgrp lng="pl">
       <trd>przeje&zdot;d&zdot;a&cacute; si&eogonek;</trd>,
       <trd>karn&aogonek;&cacute; si&eogonek;<klr> (pot.)</klr></trd>
@@ -842,6 +964,15 @@
   <trd>silnice</trd>,
   <trd>vozovka</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>area</ind> lalu lintas</trd>,
+    <trd><ind>wilayah</ind> lalu lintas</trd>,
+    <trd><ind>badan</ind> jalan</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8ECA;&#36947;  <pr>&#12375;&#12419;&#12393;&#12358;</pr></trd>,
+    <trd>&#x8ECA;&#x7DDA;  <pr>&#12375;&#12419;&#x305B;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="sk">jazdn&aacute; dr&aacute;ha</trd>
 </drv>
 
@@ -877,10 +1008,10 @@
       <ekz>
         la ma&scirc;ino estis tro alta kaj ne povis el<tld/>i la halon
         <fnt>
-          <bib>Monato</bib>
-          <aut>Walter KLAG</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006891.html"
-              >Batita kremo kaj akvo&jcirc;etiloj</url></vrk>
+	<aut>Walter Klag</aut>
+	<vrk><url ref="&Monato;/2000/006891.php">Batita kremo kaj akvo&jcirc;etiloj</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 34</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -913,7 +1044,15 @@
     </trdgrp>
   </snc>
 <trd lng="cs">vyjet <klr>(z)</klr></trd>
-<trd lng="sk">vycestova&tcaron;</trd>
+<trdgrp lng="id">
+  <trd>ber<ind>kendara</ind> keluar</trd>,
+  <trd>be<ind>pergi</ind>an keluar</trd>
+</trdgrp>
+<trdgrp lng="ja">
+    <trd>&#x51FA;&#12390;&#12356;&#x304F;  <pr>&#12391;&#12390;&#12356;&#x304F;</pr></trd>,
+    <trd>&#x51FA;&#x304B;&#12369;&#x308B;  <pr>&#12391;&#x304B;&#12369;&#x308B;</pr></trd>
+  </trdgrp>
+  <trd lng="sk">vycestova&tcaron;</trd>
   <trd lng="uk">&c_v;&c_i;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i;</trd>
 </drv>
 
@@ -976,8 +1115,9 @@
     <trd>behajt <klr tip="ind">(j&aacute;rm&udblac;vel)</klr></trd>,
     <trd>bej&aacute;r <klr tip="ind">(j&aacute;rm&udblac;vel)</klr></trd>
   </trdgrp>
-  <trd lng="ja">&#20055;&#12426;&#20837;&#12428;&#12427;
-  [<ind>&#12398;&#12426;&#12356;&#12428;&#12427;</ind>]</trd>
+  <trd lng="id"><ind>tiba</ind> (dgn kendaraan)</trd>
+  <trd lng="ja">&#x4E57;&#x308A;&#20837;&#x308C;&#x308B;
+  <pr>&#x306E;&#x308A;&#12356;&#x308C;&#x308B;</pr></trd>
   <trd lng="pl">wje&zdot;d&zdot;a&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_malmol;&c_je;&c_h;&c_a;&c_t;&c_mol;</trd>,
@@ -990,15 +1130,6 @@
   <trd lng="uk">&c_v;&#8217;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i;</trd>
 </drv>
 
-
-
-
-
-
-
-
-
-
 <drv mrk="vetur.en0igi">
   <kap>en<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
@@ -1006,7 +1137,7 @@
     <dif>
       <tld lit="V"/>e enirigi:
       <ekz>
-        polaj doganistoj malebligis diman&ccirc;e, ke en Pollandon estu 
+        polaj doganistoj malebligis diman&ccirc;e, ke en Pollandon estu
         en<tld/>igitaj kortbirdoj <klr>[&#8230;]</klr> el Rumanio
         <fnt>
           <aut>-</aut>,
@@ -1019,10 +1150,11 @@
         britaj instancoj enkondukis rigorajn kontrolojn kune kun pligrandigitaj monpunoj
         por tiuj, kiuj provis kontra&ubreve;le&gcirc;e en<tld/>igi homojn
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007163.html"
-              >Ruze eniri, akuze eliri</url></vrk>
-        </fnt>.
+          <aut>Antanas Grincevi&ccaron;ius</aut>
+            <vrk><url ref="&Monato;/2000/007163.html">Ruze eniri, akuze eliri</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 6</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_u;&c_v;&c_o;&c_z;&c_ib;&c_c;&c_mol;</trd>
@@ -1033,12 +1165,16 @@
     <trd lng="en">bring in</trd>
     <trd lng="fr">faire <ind>p&eacute;n&eacute;trer</ind><klr> (en
     v&eacute;hicule)</klr></trd>
+    <trdgrp lng="id">
+      <trd>mem<ind>bawa</ind> masuk (dgn kendaraan)</trd>,
+      <trd>men<ind>datang</ind>kan (dgn kendaraan)</trd>
+    </trdgrp>
   </snc>
   <snc mrk="vetur.en0igi.enveturiligi">
     <dif>
       Enpreni en <tld/>ilon:
       <ekz>
-        ni en<tld/>igis la prezidanton S-ro <nom>Sanou Moussie</nom>, kiu venis por        
+        ni en<tld/>igis la prezidanton S-ro <nom>Sanou Moussie</nom>, kiu venis por
         atendi nin en <nom>Barre</nom>, por gvidi nin &gcirc;is la bieno
         <fnt>
           <aut>E. G&eacute;niteau</aut>,
@@ -1061,6 +1197,7 @@
       <trd>embarquer</trd>,
       <trd>faire <ind>monter</ind><klr> (dans un v&eacute;hicule)</klr></trd>
     </trdgrp>
+    <trd lng="id">men<ind>jemput</ind> (dgn kendaraan)</trd>
   </snc>
 </drv>
 
@@ -1111,14 +1248,16 @@
   </trdgrp>
   <trd lng="es">partir<klr> (de viaje)</klr></trd>
   <trd lng="fr">partir</trd>
+  <trd lng="id"><ind>pergi</ind> jauh (dgn kendaraan)</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7ACB;&#12385;&#x53BB;&#x308B;  <pr>&#x305F;&#12385;&#12373;&#x308B;</pr></trd>,
+    <trd>&#x8D70;&#x308A;&#x53BB;&#x308B;  <pr>&#x306F;&#12375;&#x308A;&#12373;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">wegrijden</trd>
   <trd lng="ru">&c_u;&c_je;&c_h;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">odcestova&tcaron;</trd>
   <trd lng="uk">&c_v;&c_i;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i; (&c_g;&c_je;&c_t;&c_mol;)</trd>
 </drv>
-
-
-
 
 <drv mrk="vetur.glit0ilo">
   <kap><ofc>*</ofc>glit<tld/>ilo</kap>
@@ -1162,7 +1301,7 @@
   </trdgrp>
   <trdgrp lng="en">
     <trd>sled</trd>,
-    <trd>sleigh</trd>, 
+    <trd>sleigh</trd>,
     <trd>snowmobile</trd>
   </trdgrp>
   <trd lng="es">trineo<klr tip="amb"> (veh&iacute;culo sobre
@@ -1174,7 +1313,7 @@
     <trd>sz&aacute;nk&oacute;</trd>
   </trdgrp>
   <trd lng="id"><ind>mobil</ind> salju</trd>
-  <trd lng="ja">&#12381;&#12426;</trd>
+  <trd lng="ja">&#x305D;&#x308A;</trd>
   <trdgrp lng="nl">
     <trd>slee</trd>,
     <trd>slede</trd>
@@ -1183,7 +1322,7 @@
     <trd>sanie</trd>,
     <trd>&sacute;lizgacz</trd>,
     <trd>skuter &sacute;nie&zdot;ny</trd>
-  </trdgrp>    
+  </trdgrp>
   <trd lng="pt">tren&oacute;</trd>
   <trdgrp lng="ru">
     <trd><ofc>*</ofc>&c_s;&c_a;&c_n;&c_i;</trd>,
@@ -1223,8 +1362,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj</aut>
-          <vrk><url ref="https://www.monato.be/2010/009989.php"
-              >Voja&gcirc;o unudirekta</url></vrk>
+          <vrk><url ref="&Monato;/2010/009989.php">Voja&gcirc;o unudirekta</url></vrk>
           <lok>2010</lok>
         </fnt>.
       </ekz>
@@ -1243,9 +1381,9 @@
     <trd>wantariksa</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#23431;&#23449;&#33337;
-    [<ind>&#12358;&#12385;&#12421;&#12358;&#12379;&#12435;</ind>]</trd>,
-    <trd>&#23431;&#23449;&#27231; [<ind>&#12358;&#12385;&#12421;&#12358;&#12365;</ind>]</trd>
+    <trd>&#x5B87;&#x5B99;&#33337;
+    <pr>&#12358;&#12385;&#12421;&#12358;&#x305B;&#12435;</pr></trd>,
+    <trd>&#x5B87;&#x5B99;&#x6A5F; <pr>&#12358;&#12385;&#12421;&#12358;&#x304D;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>ruimtevaartuig</trd>,
@@ -1306,9 +1444,12 @@
     <trd>voyager en <ind>stop</ind></trd>
   </trdgrp>
   <trd lng="hu">aut&oacute;stopozik</trd>
-  <trd lng="id">mem<ind>bonceng</ind></trd>
-  <trd lng="ja">&#12498;&#12483;&#12481;&#12495;&#12452;&#12463;&#12377;&#12427;
-  [<ind>&#12402;&#12387;&#12385;&#12399;&#12356;&#12367;&#12377;&#12427;</ind>]</trd>
+  <trdgrp lng="id">
+    <trd>mem<ind>bonceng</ind></trd>,
+    <trd><baz>tumpang</baz>menumpang</trd>
+  </trdgrp>
+  <trd lng="ja">&#x30D2;&#x30C3;&#x30C1;&#x30CF;&#x30A4;&#x30AF;&#12377;&#x308B;
+  <pr>&#12402;&#12387;&#12385;&#x306F;&#12356;&#x304F;&#12377;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>liften</trd>
   </trdgrp>
@@ -1361,6 +1502,10 @@
       <trd>p&oacute;tkocsi</trd>
     </trdgrp>
     <trd lng="id"><ind>kereta</ind> gandeng</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30C8;&#x30EC;&#x30FC;&#x30E9;&#x30FC;</trd>,
+    <trd>&#x4ED8;&#x968F;&#x8ECA;  <pr>&#12405;&#x305A;&#12356;&#12375;&#12419;</pr></trd>
+  </trdgrp>
   <trd lng="pl">przyczepa</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_c;&c_je;&c_p;</trd>
   <trd lng="sk">pr&iacute;ves <klr>(vozidlo)</klr></trd>
@@ -1388,8 +1533,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="https://www.monato.be/2015/011521.php"
-              >Festanta la revenon de Astrosamantha</url></vrk>
+          <vrk><url ref="&Monato;/2015/011521.php">Festanta la revenon de Astrosamantha</url></vrk>
           <lok>2015</lok>
         </fnt>;
       </ekz>
@@ -1399,8 +1543,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Marko Naoki LINS</aut>
-          <vrk><url ref="https://www.monato.be/2003/008051.html"
-              >Bruselo-Babelo: lingvo-kulturo en E&ubreve;ropa Unio</url></vrk>
+          <vrk><url ref="&Monato;/2003/008051.html">Bruselo-Babelo: lingvo-kulturo en E&ubreve;ropa
+          Unio</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -1414,8 +1558,16 @@
     <trd>Lastwagen</trd>,
     <trd>LKW</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>kendara</ind>an berat</trd>,
+    <trd>truk</trd>,
+    <trd>prahoto</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8CA8;&#29289;&#x8ECA;  <pr>&#x304B;&#12418;&#12388;&#12375;&#12419;</pr></trd>,
+    <trd>&#x30C8;&#x30E9;&#x30C3;&#x30AF;  <pr>&#12392;&#12425;&#12387;&#x304F;</pr></trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="vetur.re0i">
   <kap>re<tld/>i</kap>
@@ -1465,6 +1617,14 @@
   <trd lng="be">&c_v;&c_ja;&c_r;&c_n;&c_u;&c_c;&c_c;&c_a;</trd>
   <trd lng="de">zur&uuml;ck <ind>fahren</ind></trd>
   <trd lng="hu">visszautazik</trd>
+  <trdgrp lng="id">
+    <trd><ind>kembali</ind> (dgn kendaraan)</trd>,
+    <trd><ind>pulang</ind> (dgn kendaraan)</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x623B;&#x308B;  <pr>&#12418;&#12392;&#x308B;</pr></trd>,
+    <trd>&#x5E30;&#x308B;  <pr>&#x304B;&#12360;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>wraca&cacute;</trd>,
     <trd>powraca&cacute;</trd>
@@ -1538,6 +1698,14 @@
     <trd>parcourir<klr> (en v&eacute;hicule)</klr></trd>
   </trdgrp>
   <trd lng="hu">&aacute;tutazik <klr tip="ind">(vmin)</klr></trd>
+  <trdgrp lng="id">
+    <trd>ber<ind>kendara</ind> melalui</trd>,
+    <trd>be<ind>pergi</ind>an melalui</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x901A;&#x308A;&#x629C;&#12369;&#x308B;  <pr>&#12392;&#x304A;&#x308A;&#x306C;&#12369;&#x308B;</pr></trd>,
+    <trd>&#x99C6;&#12369;&#12417;&#12368;&#x308B;  <pr>&#x304B;&#12369;&#12417;&#12368;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">przeje&zdot;d&zdot;a&cacute;</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_h;&c_a;&c_t;&c_mol;<klr>
       (&c_c;&c_je;&c_l;&c_i;&c_k;&c_o;&c_m;, &c_ch;&c_je;&c_r;&c_je;&c_z;)
@@ -1609,6 +1777,14 @@
     <trd>d&eacute;passer<klr tip="amb"> (en v&eacute;hicule)</klr></trd>
   </trdgrp>
   <trd lng="hu">&aacute;tutazik<klr tip="ind"> (vhova)</klr></trd>
+  <trdgrp lng="id">
+    <trd>ber<ind>kendara</ind> menyeberangi</trd>,
+    <trd>be<ind>pergi</ind>an menyeberangi</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8D8A;&#12360;&#x308B;  <pr>&#12371;&#12360;&#x308B;</pr></trd>,
+    <trd>&#x6E21;&#x308B;  <pr>&#x308F;&#x305F;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">przeje&zdot;d&zdot;a&cacute;</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_je;&c_h;&c_a;&c_t;&c_mol;
     <klr>(&c_ch;&c_je;&c_r;&c_je;&c_z; &c_ch;&c_t;&c_o;-&c_l;.)</klr>
@@ -1633,7 +1809,7 @@
         neniam iu triumfanto sur<tld/>is tiel fiere Kapitolon
         <fnt>
           <aut>H. Sienkewicz, tr. Lidia Zamenhof</aut>:
-          <vrk>Quo vadis?</vrk>. <lok>&Ccirc;ap. 49&#170;</lok>
+          <vrk>Quo vadis?</vrk>. <lok>&Ccirc;ap. 49&#xAA;</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1647,7 +1823,7 @@
       <ekz>
         vidu, kia grava evento: &ccirc;efredaktoro de beletra revuo
         sur<tld/>ita de tramo
-        <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 11&#170;</lok></fnt>!
+        <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 11&#xAA;</lok></fnt>!
       </ekz>
       <ekz>
         akcidento? &ccirc;u lin sur<tld/>is a&ubreve;to? &ccirc;u li estas vundita
@@ -1663,6 +1839,11 @@
       <trd>&eacute;craser<klr tip="amb"> (en v&eacute;hicule)</klr></trd>,
       <trd>renverser<klr tip="amb"> (en v&eacute;hicule)</klr></trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>menggelek</trd>,
+      <trd>menggilas</trd>,
+      <trd>melindas</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_z;&c_a;&c_d;&c_a;&c_v;&c_i;&c_t;&c_mol;<klr tip="amb"> (&c_o; &c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;&c_n;&c_o;&c_m;
       &c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_je;)</klr></trd>,
@@ -1677,6 +1858,7 @@
     <trd>&c_u;&c_z;&c_mol;&c_ja;&c_zh;&c_d;&c_zh;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_a;&c_ja;&c_zh;&c_d;&c_zh;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="ja">&#12402;&#x304F;</trd>
   <trdgrp lng="uk">
     <trd>&c_n;&c_a;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_ji;&c_h;&c_a;&c_t;&c_i;</trd>
@@ -1685,27 +1867,27 @@
 </art>
 <!--
 $Log$
-versio 1.69 2022/11/21 09:31:04
-Dmitri Gabinski: + trd be
+versio 1.78 2023/12/12 20:10:29
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.68 2022/11/20 20:28:42
-Wolfram Diestel: for~i: +trdj
+versio 1.77 2023/10/21 16:50:36
+revo: transskribo per <pr>
 
-versio 1.67 2022/11/20 11:23:23
-Wolfram Diestel: +for~i
+versio 1.76 2023/09/30 16:28:27
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
 
-versio 1.66 2022/11/14 08:40:56
-Dmitri Gabinski: + trd be
+versio 1.74 2023/08/14 06:28:28
+Wolfram Diestel: +~ilaro
 
-versio 1.65 2022/06/24 18:36:02
-Wolfram Diestel: pet~i..sur~i: +ekz-oj, trd de
+versio 1.73 2023/05/01 12:45:09
+Paul Peeraerts: Steloj -> monato
 
-versio 1.64 2022/06/23 20:29:57
-Wolfram Diestel: *-veturilo: +ekz-oj, trd de
+versio 1.72 2023/04/23 18:29:48
 
-versio 1.63 2022/06/23 17:32:10
-Wolfram Diestel: &ccirc;irka&ubreve;~i..en~i: +ekz-oj, ref-oj, trd de
+versio 1.71 2023/04/23 09:25:24
 
-versio 1.62 2022/06/23 06:36:38
+versio 1.70 2023/04/11 19:23:02
+aktualigo Monato-URL
+
 -->
 </vortaro>

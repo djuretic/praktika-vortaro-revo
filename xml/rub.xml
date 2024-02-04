@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rub.xml,v 1.33 2022/05/04 19:19:16 revo Exp $">
+<art mrk="$Id: rub.xml,v 1.40 2023/10/21 05:38:07 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>rub</rad>/o
@@ -25,7 +25,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        en barelo de balaa&jcirc;oj <klr>[&#8230;]</klr> ku&scirc;is diversaj for&jcirc;eta&jcirc;oj: trunketoj de
+        en barelo de balaa&jcirc;oj <klr>[&#x2026;]</klr> ku&scirc;is diversaj for&jcirc;eta&jcirc;oj: trunketoj de
         brasiko, balaa&jcirc;o, anka&ubreve; musko kaj <tld/>o, kiuj defalis de la tegmento
         <fnt>
           <bib>Fab2</bib>
@@ -64,11 +64,10 @@
   </snc>
   <snc mrk="rub.0o.forjxetajxoj">
     <dif>
-      <ref tip="sin" cel="jxet.for0ajxo">For&jcirc;eta&jcirc;o</ref>j; <ref tip="super"
-      cel="romp.0itajxo">rompita&jcirc;o</ref>j el iu ajn objekto:
+      <ref tip="sin" cel="jxet.for0ajxo">For&jcirc;eta&jcirc;o</ref>j; <ref tip="super" cel="romp.0itajxo">rompita&jcirc;o</ref>j el iu ajn objekto:
       <ekz>
         vizitinte la subterajn galeriojn de la kastelo, li trovis en amaso da <tld/>oj
-        kupran vazon plenan da <klr>[&#8230;]</klr> moneroj
+        kupran vazon plenan da <klr>[&#x2026;]</klr> moneroj
         <fnt>
           <bib>KPr</bib>
         </fnt>;
@@ -90,38 +89,42 @@
       <ekz>
         aluminia <tld/>o
         <fnt>
-          <bib>Monato</bib>
-          <aut>Laimius Straznickas</aut>
-          <vrk><url ref="&Steloj;monato2/006830.html">Litovio &dash; Britio:
-          Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<aut>Laimius Stra&zcaron;nickas</aut>
+	<vrk><url ref="&Monato;/2000/006830.php">Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 13</lok>
         </fnt>;
       </ekz>
       <ekz>
         <ind>nuklea <tld/>o</ind>
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato"> Nuklea energio: ne fidu
+        <lok>Jan Werner</lok>
+          <vrk><url ref="&Monato;/2002/007909.html">Nuklea energio: ne fidu
           la respondeculojn</url></vrk>
+          <bib>Monato</bib>
+          <lok>2002/10, p. 19</lok>
         </fnt>;
         <trd lng="de">Atomm&uuml;ll</trd>
+        <trd lng="nl">nucleair <ind>afval</ind></trd>
       </ekz>
       <ekz>
         <ind><tld/>odeponejo</ind> <klr>(vd <ref cel="rub.0ejo">rubejo</ref>)</klr>
         <fnt>
-          <bib>Monato</bib>
           <aut>Jacques Tuinder</aut>
           <vrk><url ref="&Monato;/2011/010356.php">Fonda&jcirc;o E-vid-E-nt-E jam 45 jarojn
           aktivadas</url></vrk>
-          <lok>2011</lok>
+          <bib>Monato</bib>
+          <lok>2011/06, p. 19</lok>
         </fnt>;
         <trd lng="de">M&uuml;llhalde</trd>
       </ekz>
       <ekz>
         <ind><tld/>obruligejo</ind>
-        <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006938.html">Arkitekturo: Friedensreich
-          Hundertwasser 1928 - 2000</url></vrk>
+        <fnt><aut>Walter Klag</aut>,
+        <vrk><url ref="&Monato;/2000/006938.php">Friedensreich Hundertwasser 1928 -
+        2000</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/07, p. 12</lok>
         </fnt>;
         <trd lng="de">M&uuml;llverbrennungsanlage</trd>
       </ekz>
@@ -131,9 +134,10 @@
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
           <vrk><url ref="&Monato;/2005/008409.php">Rubo neniu dubo!</url></vrk>
-          <lok>2005</lok>
+          <lok>2005/01, p. 16</lok>
         </fnt>.
         <trd lng="de">Altpapier</trd>
+        <trd lng="nl">papierafval</trd>
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -159,8 +163,7 @@
   <snc mrk="rub.0o.senvalorajxoj">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      <ref cel="valor.sen0ajxo">Senvalora&jcirc;o</ref>j, <ref tip="sin"
-      cel="bala.0ajxo.senvalorajxo">balaa&jcirc;o<sncref/></ref> ks:
+      <ref cel="valor.sen0ajxo">Senvalora&jcirc;o</ref>j, <ref tip="sin" cel="bala.0ajxo.senvalorajxo">balaa&jcirc;o<sncref/></ref> ks:
       <ekz>
         <klr>[mi]</klr> rigardas &ccirc;ion kiel <tld/>on, por ke mi gajnu Kriston
         <fnt>
@@ -212,6 +215,15 @@
     <trd>&a_z;&a_b;&a_A;&a_l;&a_h;</trd>,
     <trd>&a_A_madda;&a_sh;&a_gh;&a_A;&a_l;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x74E6;&#x792B;  <pr>&#x304C;&#x308C;&#x304D;</pr></trd>,
+    <trd>&#x6B8B;&#x9AB8;  <pr>&#x3056;&#x3093;&#x304C;&#x3044;</pr></trd>,
+    <trd>&#x304C;&#x3089;&#x304F;&#x305F;</trd>,
+    <trd>&#x304F;&#x305A;</trd>,
+    <trd>&#x5CA9;&#x5C51;  <pr>&#x304C;&#x3093;&#x305B;&#x3064;</pr></trd>,
+    <trd/>,
+    <trd>&#x7121;&#x4FA1;&#x5024;&#x306A;&#x3082;&#x306E;  <pr>&#x3080;&#x304B;&#x3061;&#x306A;&#x3082;&#x306E;</pr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_m;&c_u;&c_s;&c_o;&c_r;</trd>,
     <trd>&c_h;&c_l;&c_a;&c_m;</trd>
@@ -238,21 +250,22 @@
     <dif>
       Loko, kien oni for&jcirc;etas la <tld/>on:
       <ekz>
-        nerecikligeblajn ruba&jcirc;ojn <klr>[&#8230;]</klr> oni forportas al regiona <tld/>ejo
+        nerecikligeblajn ruba&jcirc;ojn <klr>[&#x2026;]</klr> oni forportas al regiona <tld/>ejo
         <fnt>
-          <bib>Monato</bib>
           <aut>John Gobourne</aut>
           <vrk><url ref="&Monato;/2012/010556.php">Tiam ... kaj nun</url></vrk>
-          <lok>2012</lok>
+          <bib>Monato</bib>
+          <lok>2012/01, p. 12</lok>
         </fnt>;
       </ekz>
       <ekz>
         &ccirc;iujare en Japanio estas produktataj 450 milionoj da tunoj da <tld/>o:
         <tld/>ejoj tre rapide pleni&gcirc;as
         <fnt>
+       <aut>HORI Jasuo/pg</aut>
+          <vrk><url ref="&Monato;/2000/006893.php">Rubo-ruzo</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006893.html">Japanio:
-          Rubo-ruzo</url></vrk>
+          <lok>2000/11, p. 14</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -282,14 +295,15 @@
     <trd>basurero</trd>
   </trdgrp>
   <trdgrp lng="fa">
-    <trd>&a_z;&a_b;&a_A;&a_l;&a_h;&#8204;&a_d;&a_A;&a_n;&f_y;</trd>,
-    <trd>&a_A_madda;&a_sh;&a_gh;&a_A;&a_l;&#8204;&a_d;&a_A;&a_n;&f_y;</trd>
+    <trd>&a_z;&a_b;&a_A;&a_l;&a_h;&#x200C;&a_d;&a_A;&a_n;&f_y;</trd>,
+    <trd>&a_A_madda;&a_sh;&a_gh;&a_A;&a_l;&#x200C;&a_d;&a_A;&a_n;&f_y;</trd>
   </trdgrp>
   <trd lng="fr">d&eacute;charge</trd>
   <trdgrp lng="hu">
     <trd>szem&eacute;tdomb</trd>,
     <trd>szem&eacute;ttelep</trd>
   </trdgrp>
+  <trd lng="ja">&#x3054;&#x307F;&#x6368;&#x3066;&#x5834;  <pr>&#x30B4;&#x30DF;&#x3059;&#x3066;&#x3070;</pr></trd>
   <trd lng="nl">stortplaats</trd>
   <trdgrp lng="pl">
     <trd>&sacute;mietnik</trd>,
@@ -326,22 +340,22 @@
         vi tre ver&scirc;ajne preferus &jcirc;eti la libron en la <tld/>ujon, anstata&ubreve; legi post la
         unuaj kelkaj pa&gcirc;oj
         <fnt>
-          <bib>Monato</bib>
           <aut>Donald Broadribb</aut>
           <vrk><url ref="&Monato;/2009/009745.php">Bizara romano ...
           blaisecendrarseska</url></vrk>
-          <lok>2009</lok>
+          <bib>Monato</bib>
+          <lok>2009/09, p. 28</lok>
         </fnt>;
       </ekz>
       <ekz>
         iuj traser&ccirc;as <tld/>ujojn de &ccirc;iovendejoj kaj vivas de for&jcirc;etitaj sed ankora&ubreve;
         konsumeblaj man&gcirc;a&jcirc;oj
         <fnt>
-          <bib>Monato</bib>
           <aut>Ivo Durwael</aut>
           <vrk><url ref="&Monato;/2012/010623.php">For&jcirc;etu la dezirojn, ne la
           pirojn</url></vrk>
-          <lok>2012</lok>
+          <bib>Monato</bib>
+          <lok>2012/05, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -351,7 +365,7 @@
           <bib>Monato</bib>
           <aut>Princo Henriko Oguinye</aut>
           <vrk><url ref="&Monato;/2005/008764.php">Dronanta diktatoro</url></vrk>
-          <lok>2005</lok>
+          <lok>2005/10, p. 8</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -384,14 +398,15 @@
     <trd>cubo de la basura</trd> 
   </trdgrp>
   <trdgrp lng="fa">
-    <trd>&a_z;&a_b;&a_A;&a_l;&a_h;&#8204;&a_d;&a_A;&a_n;</trd>,
-    <trd>&a_A_madda;&a_sh;&a_gh;&a_A;&a_l;&#8204;&a_d;&a_A;&a_n;</trd>
+    <trd>&a_z;&a_b;&a_A;&a_l;&a_h;&#x200C;&a_d;&a_A;&a_n;</trd>,
+    <trd>&a_A_madda;&a_sh;&a_gh;&a_A;&a_l;&#x200C;&a_d;&a_A;&a_n;</trd>
   </trdgrp>
   <trd lng="fr">poubelle</trd>
   <trdgrp lng="hu">
     <trd>szem&eacute;ttart&oacute;</trd>,
     <trd>kuka</trd>
   </trdgrp>
+  <trd lng="ja">&#x3054;&#x307F;&#x7BB1;  <pr>&#x30B4;&#x30DF;&#x3070;&#x3053;</pr></trd>
   <trd lng="nl">vuilnisemmer</trd>
   <trdgrp lng="pl">
     <trd>&sacute;mietnik</trd>,
@@ -420,7 +435,7 @@
       <ref tip="super" cel="rub.0o.forjxetajxoj"><tld lit="R"/>o</ref>
       konsistanta precipe el <ref tip="prt" cel="fer.0ajxo">fera&jcirc;oj</ref>:
       <ekz>
-        li eniris <klr>[&#8230;]</klr> &scirc;ar&gcirc;ita per tintanta fer<tld/>o
+        li eniris <klr>[&#x2026;]</klr> &scirc;ar&gcirc;ita per tintanta fer<tld/>o
         <fnt>
           <bib>LOdE</bib>
           <aut>Boris Vian</aut>
@@ -430,11 +445,11 @@
       <ekz>
         post la dua mondmilito oni vendis amba&ubreve; kanonojn por fer<tld/>o
         <fnt>
-          <bib>Monato</bib>
           <aut>Henry Broadbent</aut>
           <vrk><url ref="&Monato;/2014/011364.php">La unua pafo okazis en
           A&ubreve;stralio</url></vrk>
-          <lok>2014</lok>
+          <bib>Monato</bib>
+          <lok>2014/08, p. 33</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -449,6 +464,7 @@
   <trd lng="es">chatarra</trd>
   <trd lng="fr">ferraille</trd>
   <trd lng="hu">vashullad&eacute;k</trd>
+  <trd lng="ja">&#x304F;&#x305A;&#x9244;  <pr>&#x304F;&#x305A;&#x3066;&#x3064;</pr></trd>
   <trd lng="nl">schroot</trd>
   <trd lng="pl">z&lstroke;om<klr> &zdot;elazny</klr></trd>
   <trdgrp lng="ru">
@@ -466,27 +482,27 @@
 </art>
 <!--
 $Log$
+versio 1.40 2023/10/21 05:38:07
+revo: transskribo per <pr>
+
+versio 1.38 2023/05/13 18:29:41
+Paul Peeraerts: + lok + url
+
+versio 1.37 2023/05/06 14:26:04
+revo: aktualigo URL-unuoj
+
+versio 1.36 2023/04/27 06:34:07
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.35 2023/04/26 06:31:58
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.34 2023/04/23 16:33:13
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.33 2022/05/04 19:19:16
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.32 2022/04/21 16:51:32
-Wolfram Diestel: trd uk: +klr
-
-versio 1.29 2021/10/23 10:32:44
-Damien Brucker: -eraro cxe cel en ref
-
-versio 1.28 2021/10/22 11:24:33
-Wolfram Diestel: +ref
-
-versio 1.27 2021/10/22 10:31:06
-Wolfram Diestel: +ekz-oj, ref-oj, trd de
-
-versio 1.26 2021/10/21 11:24:41
-Wolfram Diestel: +fer~o
-
-Revision 1.23  2015/10/06 14:10:20  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.22  2015/08/21 12:10:25  revo
 -->
 </vortaro>

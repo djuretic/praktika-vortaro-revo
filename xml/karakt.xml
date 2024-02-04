@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: karakt.xml,v 1.103 2022/05/01 08:09:23 revo Exp $">
+<art mrk="$Id: karakt.xml,v 1.107 2023/12/03 08:00:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>karakter</rad>/o
@@ -92,7 +92,11 @@
   </trdgrp>
   <trd lng="cy">cymeriad</trd>
   <trd lng="da">karakter</trd>
-  <trd lng="de">Charakter</trd>
+  <trdgrp lng="de">
+    <trd>Charakter</trd>,
+    <trd>Anlage <klr>(Charakter)</klr></trd>,
+    <trd>Veranlagung</trd>
+  </trdgrp>
   <trd lng="en">character</trd>
   <trd lng="es">car&aacute;cter</trd>
   <trd lng="et">m&#xE4;rgi</trd>
@@ -131,7 +135,7 @@
   <trd lng="lt">charakteris</trd>
   <trd lng="lv">raksturs</trd>
   <trd lng="mg">toetra</trd>
-  <trd lng="mi">p&#x16B;&amacron;hua</trd>
+  <trd lng="mi">p&#x16B;&#x15D1;hua</trd>
   <trd lng="mk">&#x43A;&c_a;&c_r;&c_a;&#x43A;&c_t;&c_je;&c_r;</trd>
   <trd lng="ml">&#xD2A;&#xD4D;&#xD30;&#xD24;&#xD40;&#xD15;&#xD02;</trd>
   <trd lng="mn">&c_t;&#x44D;&#x43C;&c_d;&#x44D;&c_g;&c_t;</trd>
@@ -142,7 +146,7 @@
   <trd lng="nl">karakter</trd>
   <trd lng="ny">khalidwe</trd>
   <trd lng="pa">&#xA05;&#xA71;&#xA16;&#xA30; &#xA28;&#xA42;&#xA70;</trd>
-  <trd lng="pl">charakter</trd> 
+  <trd lng="pl">charakter</trd>
   <trd lng="ps">&a_l;&a_w;&#x69A;&a_h;</trd>
   <trdgrp lng="ro">
     <trd>caracter</trd>,
@@ -179,6 +183,18 @@
   <trd lng="xh">umlinganiswa</trd>
   <trd lng="yi">&#x5E4;&#x5BC;&#x5D0;&#x5B7;&#x5E8;&#x5E9;&#x5D5;&#x5D9;&#x5DF;</trd>
   <trd lng="yo">ohun kik&#x1ECD;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6027;&#x683C; <pr>x&#xEC;ngg&#xE9;</pr></trd>,
+    <trd>&#x8CEA; <pr>zh&#xEC;</pr></trd>,
+    <trd>&#x4EBA;&#x6C14; <pr>r&#xE9;nq&#xEC;</pr></trd>,
+    <trd>&#x6027; <pr>x&#xEC;ng</pr></trd>,
+    <trd>&#x54C1;&#x8CEA; <pr>p&#x1D0;nzh&#xEC;</pr></trd>,
+    <trd>&#x6027;&#x60C5; <pr>x&#xEC;ngq&#xED;ng</pr></trd>,
+    <trd>&#x98A8;&#x8ABF; <pr>f&#x113;ngdi&#xE0;o</pr></trd>,
+    <trd>&#x6027;&#x72B6; <pr>x&#xEC;ngzhu&#xE0;ng</pr></trd>,
+    <trd>&#x4E2A;&#x6027; <pr>g&#xE8;x&#xEC;ng</pr></trd>,
+    <trd>&#x7279;&#x5FB5; <pr>t&#xE8;zh&#x113;ng</pr></trd>
+  </trdgrp>
   <trd lng="zu">uhlamvu</trd>
 </drv>
 
@@ -245,13 +261,18 @@
     <trd>distinctif</trd>,
     <trd>typique</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6027;&#x683C;&#x306E;  <pr>&#x305B;&#x3044;&#x304B;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x500B;&#x6027;&#x7684;&#x306A;  <pr>&#x3053;&#x305B;&#x3044;&#x3066;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>karakter-</trd>,
     <trd>karakteristiek</trd>
   </trdgrp>
-  <trd lng="pl">charakterowy</trd>     
+  <trd lng="pl">charakterowy</trd>
   <trd lng="ro">caracteristic&abreve;</trd>
   <trd lng="ru">&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
+  <trd lng="zh">&#x7279;&#x6709; <pr>t&#xE8;y&#x1D2;u</pr></trd>
 </drv>
 
 <drv mrk="karakt.sen0a">
@@ -325,11 +346,15 @@ d'originalit&eacute;)</klr></trd>,
     <trd>falto de car&aacute;cter</trd>,
     <trd>desaborido</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7279;&#x6027;&#x306E;&#x7121;&#x3044;  <pr>&#x3068;&#x304F;&#x305B;&#x3044;&#x306E;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x5E73;&#x51E1;&#x306A;  <pr>&#x3078;&#x3044;&#x307C;&#x3093;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">karakterloos</trd>
   <trdgrp lng="pl">
     <trd>s&lstroke;aby</trd>,
     <trd>bez wyrazu</trd>
-  </trdgrp>   
+  </trdgrp>
 <trdgrp lng="ro">
     <trd>slab</trd>,
     <trd>neexpresiv</trd>
@@ -337,14 +362,20 @@ d'originalit&eacute;)</klr></trd>,
   <trd lng="ru">&c_b;&c_je;&c_s;&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">bezcharaktern&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x435;&#x437;&#x445;&#x430;&#x440;&#x430;&#x43A;&#x442;&#x435;&#x440;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x435; &#x445;&#x430;&#x440;&#x430;&#x43A;&#x442;&#x435;&#x440;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x435; &#x43E;&#x440;&#x438;&#x491;&#x456;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_b;&c_je;&c_z;&c_h;&c_a;&c_r;&c_a;&#x43A;&c_t;&c_je;&c_r;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je; &c_h;&c_a;&c_r;&c_a;&#x43A;&c_t;&c_je;&c_r;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43D;&c_je; &#x43E;&c_r;&c_i;&c_gu;&c_ib;&#x43D;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.106 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.104 2023/08/14 20:27:00
+Wolfram Diestel: +trd de
+
 versio 1.103 2022/05/01 08:09:23
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -361,11 +392,5 @@ Revision 1.27  2016/12/10 08:10:14  revo
 Warut Bunprasert: +trd th
 
 Revision 1.26  2015/09/11 17:10:14  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.25  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.24  2015/06/29 16:33:16  revo
 -->
 </vortaro>

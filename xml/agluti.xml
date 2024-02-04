@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: agluti.xml,v 1.24 2022/03/11 12:50:04 revo Exp $">
+<art mrk="$Id: agluti.xml,v 1.29 2023/10/28 08:32:44 revo Exp $">
 <kap>
   <rad>aglutin</rad>/i
-  <fnt>Z</fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="agluti.0i">
   <kap><tld/>i</kap>
@@ -20,7 +20,11 @@
       <trd>&c_s;&c_k;&c_l;&c_je;&c_j;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_p;&c_r;&c_y;&c_k;&c_l;&c_je;&c_j;&c_v;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
-    <trd lng="de">verkleben</trd>
+    <trdgrp lng="de">
+      <trd>agglutinieren</trd>,
+      <trd>verkleben</trd>,
+      <trd>verklumpen <klr>(Blut)</klr></trd>
+    </trdgrp>
     <trd lng="en">agglutinate</trd>
     <trd lng="es">aglutinar</trd>
     <trd lng="it">agglutinare</trd>
@@ -30,6 +34,10 @@
       <trd>skleja&cacute;</trd>
     </trdgrp>
     <trd lng="pt">aglutinar</trd>
+    <trdgrp lng="ro">
+      <trd>aglutin&abreve;</trd>,
+      <trd>lipi</trd>
+    </trdgrp>
     <trd lng="ru">&c_s;&c_k;&c_l;&c_je;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
     <trdgrp lng="sv">
       <trd><ind>klistra</ind> ihop</trd>,
@@ -39,7 +47,11 @@
       <trd>yap&inodot;&scedil;t&inodot;rmak</trd>,
       <trd>biti&scedil;tirmek</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5757;&#x591A; <pr>ku&#xE0;idu&#x14D;</pr></trd>,
+    <trd>&#x584A;&#x591A; <pr>ku&#xE0;idu&#x14D;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>aglutinovat</trd>,
     <trd>shlukovat se</trd>,
@@ -47,8 +59,12 @@
   </trdgrp>
   <trd lng="fr">agglutiner</trd>
   <trd lng="he">&#x5DC;&#x5E6;&#x5D1;&#x5D5;&#x5E8;</trd>
-  <trd lng="sk">sp&#xE1;ja&#x165; nemenn&#xE9; morf&#xE9;my</trd>
-  <trd lng="uk">&#x441;&#x43A;&#x43B;&#x435;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x81A0;&#x7740;&#x3055;&#x305B;&#x308B;  <pr>&#x3053;&#x3046;&#x3061;&#x3083;&#x304F;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x51DD;&#x96C6;&#x3055;&#x305B;&#x308B; [&#x304E;<ind>&#x3087;&#x3046;&#x3057;&#x3085;&#x3046;&#x3055;&#x305B;&#x308B;</ind>]</trd>
+  </trdgrp>
+  <trd lng="sk">sp&#xE1;ja&tcaron; nemenn&#xE9; morf&#xE9;my</trd>
+  <trd lng="uk">&c_s;&#x43A;&#x43B;&c_je;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="agluti.0a">
@@ -61,15 +77,29 @@
       ke unue, la limoj de la kunmetitaj elementoj restas evidentaj
       kaj klare konsciataj:
       <ekz>
+        &ccirc;iu elemento ricevis difinitan signifon kaj la tuta lingvo <klr>[Esperanto]</klr> <tld/>an
+        karakteron
+        kun la plej simpla gramatika strukturo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> ne &gcirc;uste prezentis al si la <tld/>an karakteron de la
+        tatar-turkaj lingvoj
+        <fnt>
+          <bib>Zam</bib>
+          <lok>Aglutina karaktero de esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la uzbeka <klr>lingvo</klr> perdis la vokalan harmonion
         kutiman por la lingvoj <tld/>aj
         <fnt>
         <aut>Sergio Pokrovskij</aut>,
         <bib>LOdE</bib>, <lok>1999, numero 7 (57).</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        Esperanto estas <tld/>a lingvo.
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="ant" cel="fand.kun0o">kunfando</ref>
@@ -89,20 +119,32 @@
     <trd lng="nl">agglutinerend</trd>
     <trd lng="pl">aglutynacyjny</trd>
     <trd lng="pt">aglutinante</trd>
+    <trd lng="ro">aglutinant</trd>
     <trd lng="ru">&c_a;&c_g;&c_g;&c_l;&c_ju;&c_t;&c_i;&c_n;&c_a;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
     <trd lng="sv">agglutinerande</trd>
-  </snc>
+    <trd lng="zh">&#x51DD;&#x96C6;&#x7684; <pr>n&#xED;ngj&#xED;de</pr></trd>
+</snc>
   <trdgrp lng="cs">
     <trd>aglutina&#x10D;n&#xED;</trd>,
     <trd>slu&#x10D;ovac&#xED; <klr>(jazykov&#x11B;)</klr></trd>
   </trdgrp>
   <trd lng="fr">agglutinatif</trd>
   <trd lng="he">&#x5DE;&#x5E6;&#x5D8;&#x5D1;&#x5E8;</trd>
+  <trd lng="ja">&#x81A0;&#x7740;&#x6027;&#x306E;  <pr>&#x3053;&#x3046;&#x3061;&#x3083;&#x304F;&#x305B;&#x3044;&#x306E;</pr></trd>
   <trd lng="sk">aglutina&#x10D;n&#xFD; <klr>(jazyk)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.27 2023/09/09 15:23:17
+Wolfram Diestel: fnt JED, ja prononco
+
+versio 1.25 2023/01/13 22:29:09
+Vito Redsky: +trd pl + trd ro
+
 Revision 1.21  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -116,17 +158,5 @@ Revision 1.18  2009/08/25 16:32:38  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.17  2009/03/02 17:30:36  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.16  2005/08/18 16:31:15  revo
-Jeromo Vasxe: lok trd fr
-
-Revision 1.15 2002/10/24 19:29:45 revo
-reenmetis erare forigitajn aut, vrk, OndEsp al LOdE
-
-Revision 1.14 2002/10/23 20:37:29 revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.13 2002/09/22 08:15:04 revo
 -->
 </vortaro>

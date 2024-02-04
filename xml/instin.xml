@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: instin.xml,v 1.20 2022/08/07 20:29:57 revo Exp $">
+<art mrk="$Id: instin.xml,v 1.24 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>instinkt</rad>/o
@@ -20,7 +20,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        lia <tld/>o <klr>[&#8230;]</klr> avertis lin pri la katastrofo
+        lia <tld/>o <klr>[&#x2026;]</klr> avertis lin pri la katastrofo
         <fnt>
           <bib>IKr</bib>
           <lok>La Miraklo De Purun Bhagat</lok>
@@ -61,7 +61,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        sub influo de la konstantaj intrigoj <klr>[&#8230;]</klr> komencis naski&gcirc;i <tld/>o de
+        sub influo de la konstantaj intrigoj <klr>[&#x2026;]</klr> komencis naski&gcirc;i <tld/>o de
         la hipokriteco
         <fnt>
           <bib>Far2</bib>
@@ -89,7 +89,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Heleno, dank&#8217; al tiu neerarema <tld/>o <klr>(intuicio)</klr> de patrinoj, 
+        Heleno, dank&#x2019; al tiu neerarema <tld/>o <klr>(intuicio)</klr> de patrinoj, 
         sentis ke &scirc;ia filo al &scirc;i ka&scirc;as la veron
         <fnt>
           <bib>KPr</bib>
@@ -97,7 +97,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        subite veki&gcirc;is en li la <tld/>o de la vivemo, <klr>[&#8230;]</klr> volon oni ne plu
+        subite veki&gcirc;is en li la <tld/>o de la vivemo, <klr>[&#x2026;]</klr> volon oni ne plu
         havis, tio estis longe malanta&ubreve; ili, sed ia <tld/>a kaj &scirc;ajne ne motivita,
         malfrue veki&gcirc;inta reago
         <fnt>
@@ -123,6 +123,10 @@
   <trd lng="fa">&a_gh;&a_r;&f_y;&a_z;&a_h;</trd>
   <trd lng="fr">instinct</trd>
   <trd lng="hu">&ouml;szt&ouml;n</trd>
+  <trdgrp lng="ja">
+    <trd>&#x672C;&#x80FD;  <pr>&#x307B;&#x3093;&#x306E;&#x3046;</pr></trd>,
+    <trd>&#x76F4;&#x89B3;  <pr>&#x3061;&#x3087;&#x3063;&#x304B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">instinct</trd>
   <trd lng="pl">instynkt</trd>
   <trd lng="pt">instinto</trd>
@@ -132,6 +136,7 @@
     <trd>pud</trd>
   </trdgrp>
   <trd lng="uk">&c_ib;&c_n;&c_s;&c_t;&c_i;&c_n;&c_k;&c_t;</trd>
+  <trd lng="zh">&#x672C;&#x80FD; <pr>b&#x11B;nn&#xE9;ng</pr></trd>
 </drv>
 
 <drv mrk="instin.0a">
@@ -170,7 +175,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        mia kredo do estas bazita ne nur sur persona sperto, sed <klr>[&#8230;]</klr> <tld/>a
+        mia kredo do estas bazita ne nur sur persona sperto, sed <klr>[&#x2026;]</klr> <tld/>a
         ju&gcirc;o, kiuj estas kvaza&ubreve; hereda poseda&jcirc;o
         <fnt>
           <bib>MrA</bib>
@@ -187,7 +192,17 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_ib;&c_n;&c_s;&c_t;&c_y;&c_n;&c_k;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
   <trd lng="de">instinktiv</trd>
+  <trdgrp lng="ja">
+    <trd>&#x672C;&#x80FD;&#x306E;  <pr>&#x307B;&#x3093;&#x306E;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x672C;&#x80FD;&#x7684;&#x306A;  <pr>&#x307B;&#x3093;&#x306E;&#x3046;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x76F4;&#x89B3;&#x7684;&#x306A;  <pr>&#x3061;&#x3087;&#x3063;&#x304B;&#x3093;&#x3066;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x51ED;&#x76F4;&#x89C9; <pr>p&#xED;ngzh&#xED;ju&#xE9;</pr></trd>,
+    <trd>&#x672C;&#x80FD; <pr>b&#x11B;nn&#xE9;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 
@@ -196,6 +211,12 @@
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.21 2023/05/02 13:30:27
+Dmitri Gabinski: + trd be
+
 versio 1.20 2022/08/07 20:29:57
 Wolfram Diestel: dif reverkita, +ekz-oj; +~a
 
@@ -212,11 +233,5 @@ Revision 1.14  2005/11/03 17:31:51  revo
 Luiz Portella: +trd pt
 
 Revision 1.13  2004/05/13 17:39:51  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2004/02/05 17:30:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2003/08/17 17:33:25  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: okular.xml,v 1.14 2022/03/24 15:12:21 revo Exp $">
+<art mrk="$Id: okular.xml,v 1.18 2024/01/30 16:09:26 revo Exp $">
 <kap>
   <rad>okulari</rad>/o
 </kap>
@@ -28,7 +28,13 @@
   <trd lng="fi">okulaari</trd>
   <trd lng="fr">oculaire</trd>
   <trd lng="hu">szemlencse</trd>
+  <trd lng="id"><ind>lensa</ind> okuler</trd>
   <trd lng="it">oculare</trd>
+  <trdgrp lng="ja">
+    <trd>&#x63A5;&#x773C;&#x30EC;&#x30F3;&#x30BA; 
+    <pr>&#x305B;&#x3064;&#x304C;&#x3093;&#x30EC;&#x30F3;&#x30BA;</pr></trd>,
+    <trd>&#x63A5;&#x773C;&#x93E1;  <pr>&#x305B;&#x3064;&#x304C;&#x3093;&#x304D;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
    <trd>oculair</trd>,
    <trd>ooglens</trd>
@@ -41,11 +47,23 @@
    <trd>ok&uuml;ler</trd>,
    <trd>g&ouml;z merce&gbreve;i</trd>
   </trdgrp>
-  <trd lng="uk">&#x43E;&#x43A;&#x443;&#x43B;&#x44F;&#x440;</trd>
+  <trd lng="uk">&#x43E;&#x43A;&c_u;&#x43B;&#x44F;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x76EE;&#x93E1; <pr>m&#xF9;j&#xEC;ng</pr></trd>,
+    <trd>&#x76EE;&#x955C; <pr>m&#xF9;j&#xEC;ng</pr></trd>,
+    <trd>&#x63A5;&#x76EE;&#x93E1; <pr>ji&#x113;y&#x1CE;nj&#xEC;ng</pr></trd>,
+    <trd>&#x63A5;&#x76EE;&#x955C; <pr>ji&#x113;y&#x1CE;nj&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.17 2023/10/20 13:11:47
+revo: transskribo per <pr>
+
+versio 1.16 2023/10/11 04:28:56
+Eko Nur Syah Hidayat: +trd id
+
 Revision 1.12  2011/12/05 10:10:21  revo
 Marc Rausell: kataluna traduko
 
@@ -62,11 +80,5 @@ Revision 1.8  2002/08/12 17:31:16  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7  2001/09/29 18:12:18  revo
-Helio Jaques: trd-oj cs, en, fi, fr, it, pl, pt, tr
-
-Revision 1.6  2001/09/26 20:37:37  revo
-Slavik Ivanov: Aldonita la rusa traduko.
-
-Revision 1.5  2001/03/30 17:18:38  revo
 -->
 </vortaro>

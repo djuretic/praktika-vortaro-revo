@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pastin.xml,v 1.21 2022/04/18 06:41:13 revo Exp $">
+<art mrk="$Id: pastin.xml,v 1.24 2023/10/31 21:21:17 revo Exp $">
 <kap>
    <ofc>*</ofc>
-   <rad>pastinak</rad>/o <fnt><bib>PV</bib></fnt>
+   <rad>pastinak</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="pastin.0o">
    <kap><ofc>*</ofc><tld/>o</kap>
@@ -13,24 +13,38 @@
      <uzo tip="fak">KUI</uzo>
      <dif>
        Dujara herbo el malvarmaj kaj mezvarmaj landoj
-       kun radiko man&gcirc;ata kiel <ref tip="super" cel="legom.0o.KUI">legomo</ref>, 
-       <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">genro</ref> el familio <ref
-       tip="malprt" cel="apiac.0oj">apiacoj</ref>
+       kun radiko man&gcirc;ata kiel <ref tip="super" cel="legom.0o.KUI">legomo</ref>,
+       <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">genro</ref> el familio <ref tip="malprt" cel="apiac.0oj">apiacoj</ref>
        (<trd lng="la">Pastinaca</trd>):
        <ekz>
          mi sidis sur la rando de la trotuaro por tran&ccirc;i <tld/>ojn
-         <fnt><aut>A. L&ouml;wenstein</aut>, <vrk>La &scirc;tona urbo</vrk>, 
+         <fnt><aut>A. L&ouml;wenstein</aut>, <vrk>La &scirc;tona urbo</vrk>,
          <lok>FEL, 1999</lok></fnt>.
        </ekz>
      </dif>
-   </snc>
+    <bld
+      lok="&WCU;/thumb/d/d6/Pastinaca_sativa_Sturm28.jpg/320px-Pastinaca_sativa_Sturm28.jpg"
+      prm="PD"
+      >botanika tabulo de <tld/>o (Pastinaca sativa)
+        <fnt>
+          <aut>Johann Georg Sturm (desegno: Jacob Sturm), el &leftquot;Deutschlands Flora in Abbildungen&rightquot;</aut>
+          <lok><url ref="&WCW;/File:Pastinaca_sativa_Sturm28.jpg"
+              >https://commons.wikimedia.org/wiki/File:Pastinaca_sativa_Sturm28.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_t;&c_a;&c_r;&c_n;&c_a;&c_k;</trd>
   <trd lng="br">panezenn</trd>
   <trdgrp lng="cs">
     <trd>pastin&aacute;k</trd>,
     <trd>pastrn&aacute;k</trd>
   </trdgrp>
-  <trd lng="de">Pastinak</trd>
+  <trdgrp lng="de">
+    <trd>Pastinake</trd>,
+    <trd>Pastinak</trd>,
+    <trd>Pastinakenwurzel</trd>,
+    <trd>Germanenwurzel</trd>
+  </trdgrp>
   <trd lng="en">parsnip</trd>
    <trd lng="fa">&a_sh;&a_q;&a_A;&a_q;&a_l;</trd>
   <trd lng="fr">panais</trd>
@@ -38,6 +52,10 @@
      <trd>pasztin&aacute;k</trd>,
      <trd>pasztern&aacute;k</trd>
    </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12450;&#12513;&#12522;&#12459;&#12508;&#12454;&#12501;&#12454;</trd>,
+    <trd>&#12497;&#12540;&#12473;&#12491;&#12483;&#12503;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
      <trd>pastinaak</trd>,
      <trd>witte <ind>peen</ind></trd>
@@ -51,6 +69,12 @@
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/31 21:21:17
+Wolfram Diestel: +bld
+
+versio 1.22 2023/01/10 22:30:32
+Ulrich Fellmann: pastinako: +3 pliaj DE trdj
+
 versio 1.21 2022/04/18 06:41:13
 Noam Mohr: +trd en pastinako
 
@@ -67,11 +91,5 @@ Revision 1.15  2009/06/27 16:30:43  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.14  2007/08/20 16:30:20  revo
-Jeromo Vasxe: + fak kui + mrk + ekz
-
-Revision 1.13  2006/02/25 17:33:08  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2005/07/02 16:31:51  revo
 -->
 </vortaro>

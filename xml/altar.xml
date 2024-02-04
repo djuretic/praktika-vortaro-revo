@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: altar.xml,v 1.40 2022/09/15 14:02:57 revo Exp $">
+  <art mrk="$Id: altar.xml,v 1.44 2023/10/28 08:33:05 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>altar</rad>/o
@@ -79,7 +79,15 @@
         <trd lng="be">&c_a;&c_l;&c_t;&c_a;&c_r;</trd>
         <trd lng="nl">altaar</trd>
         <trd lng="ru">&c_a;&c_l;&c_t;&c_a;&c_r;&c_mol;</trd>
-      </snc>
+        <trdgrp lng="zh">
+    <trd>&#x5723;&#x575B; <pr>sh&#xE8;ngt&#xE1;n</pr></trd>,
+    <trd>&#x8056;&#x58C7; <pr>sh&#xE8;ngt&#xE1;n</pr></trd>,
+    <trd>&#x796D;&#x575B; <pr>j&#xEC;t&#xE1;n</pr></trd>,
+    <trd>&#x796D;&#x58C7; <pr>j&#xEC;t&#xE1;n</pr></trd>,
+    <trd>&#x795E;&#x575B; <pr>sh&#xE9;nt&#xE1;n</pr></trd>,
+    <trd>&#x795E;&#x58C7; <pr>sh&#xE9;nt&#xE1;n</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="br">aoter</trd>
   <trd lng="cs">olt&aacute;&rcaron;</trd>
   <trd lng="de">Altar</trd>
@@ -111,6 +119,7 @@
           (<trd lng="la">Ara</trd>).
         </dif>
       </snc>
+      <trd lng="be">&c_A;&c_h;&c_v;&c_ja;&c_r;&c_n;&c_ib;&c_k; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#x2019;&c_je;)</klr></trd>
   <trd lng="bo">&#xF58;&#xF46;&#xF7C;&#xF51;&#xF0B;&#xF64;&#xF7C;&#xF58;&#xF66;&#xF0B;</trd>
   <trd lng="cs">olt&aacute;&rcaron;</trd>
   <trd lng="de">Altar</trd>
@@ -119,9 +128,10 @@
   <trd lng="fr">Autel<klr tip="ind"> (constellation)</klr></trd>
   <trd lng="he">&#x5DE;&#x5B4;&#x5D6;&#x5D1;&#x5BC;&#x5B5;&#x5D7;&#x5B7;</trd>
   <trd lng="hu">Olt&aacute;r</trd>
+  <trd lng="ja">&#x796D;&#x58C7;  <pr>&#x3055;&#x3044;&#x3060;&#x3093;</pr></trd>
   <trd lng="nl">Altaar<klr tip="ind"> (sterrenbeeld)</klr></trd>
   <trd lng="pl">O&lstroke;tarz  <klr>(gwiazdozbi&oacute;r)</klr></trd>
-  <trd lng="ro">Altar  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="ro">Altar  <klr>(constela&#x21B;ie)</klr></trd>
   <trd lng="ru">&c_Zh;&c_je;&c_r;&c_t;&c_v;&c_je;&c_n;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">olt&aacute;r</trd>
   <trdgrp lng="uk">
@@ -220,6 +230,12 @@
   </art>
   <!--
   $Log$
+versio 1.43 2023/10/12 18:05:09
+revo: transskribo per <pr>
+
+versio 1.41 2023/03/13 10:33:33
+Dmitri Gabinski: + trd be
+
 versio 1.40 2022/09/15 14:02:57
 Vito Redsky:  +trd pl  + trd ro  
 
@@ -236,11 +252,5 @@ Vito Redsky:  +trd pl  + trd ro
   Ludoviko Francisco: +ref lst stelfiguroj
 
   Revision 1.31  2015/07/04 08:37:30  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.30  2015/06/28 12:03:35  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.29  2009/08/18 19:18:58  revo
 -->
 </vortaro>

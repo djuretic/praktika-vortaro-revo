@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aerosol.xml,v 1.11 2022/03/11 12:15:12 revo Exp $">
+<art mrk="$Id: aerosol.xml,v 1.16 2023/10/27 13:42:09 revo Exp $">
 <kap>
   <rad>aerosol</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,7 +10,8 @@
   <snc mrk="aerosol.0o.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      Substanco el subtilaj eroj &scirc;vebantaj en gaso:
+      <ref tip="super" cel="disper.0ajxo.KEM">Dispersa&jcirc;o</ref> el subtilaj 
+      eroj &scirc;vebantaj en gaso:
       <ekz>
         mi kun amiko ebrii&gcirc;is <klr>...</klr> &scirc;prucis 
         &ccirc;irka&ubreve;sidantojn per kontra&ubreve;skabia <tld/>o kaj kriis "mi cin 
@@ -32,7 +33,21 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <refgrp tip="sub">
+      <ref cel="fum.0o">fumo</ref>,
+      <ref cel="nebul.0o.MET">nebulo</ref>
+    </refgrp>
+    <trdgrp lng="zh">
+    <trd>&#x6C14;&#x6EB6;&#x80F6; <pr>q&#xEC;r&#xF3;ngji&#x101;o</pr></trd>,
+    <trd>&#x6C23;&#x6EB6;&#x81A0; <pr>q&#xEC;r&#xF3;ngji&#x101;o</pr></trd>,
+    <trd>&#x55B7;&#x96FE;&#x80F6; <pr>p&#x113;nw&#xF9;ji&#x101;o</pr></trd>,
+    <trd>&#x5674;&#x9727;&#x81A0; <pr>p&#x113;nw&#xF9;ji&#x101;o</pr></trd>,
+    <trd>&#x55B7;&#x96FE;&#x6C14; <pr>p&#x113;nw&#xF9;q&#xEC;</pr></trd>,
+    <trd>&#x5674;&#x9727;&#x6C23; <pr>p&#x113;nw&#xF9;q&#xEC;</pr></trd>,
+    <trd>&#x6C14;&#x96FE;&#x5242; <pr>q&#xEC;w&#xF9;j&#xEC;</pr></trd>,
+    <trd>&#x6C23;&#x9727;&#x5291; <pr>q&#xEC;w&#xF9;j&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_a;&c_e;&c_r;&c_a;&c_z;&c_o;&c_l;&c_mol;</trd>
   <trd lng="ca">aerosol</trd>
   <trd lng="cs">aerosol</trd>
@@ -40,15 +55,30 @@
   <trd lng="en">aerosol</trd>
   <trd lng="fr">a&eacute;rosol</trd>
   <trd lng="it">aerosol</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30A8;&#x30FC;&#x30ED;&#x30BE;&#x30EB;</trd>,
+    <trd>&#x7159;&#x9727;&#x8CEA;  <pr>&#x3048;&#x3093;&#x3080;&#x3057;&#x3064;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">aerosol</trd>
   <trd lng="pl">aerozol</trd>
-  <trd lng="sk">aeros&#xF3;l</trd>
+  <trd lng="ro">aerosol</trd>
+  <trd lng="sk">aeros&oacute;l</trd>
   <trd lng="sv">aerosol</trd>
-  <trd lng="uk">&#x430;&#x435;&#x440;&#x43E;&#x437;&#x43E;&#x43B;&#x44C;</trd>
+  <trd lng="uk">&c_a;&c_je;&c_r;&c_o;&c_z;&c_o;&c_l;&c_mol;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.15 2023/10/12 16:57:42
+revo: transskribo per <pr>
+
+versio 1.13 2023/05/04 17:24:59
+Wolfram Diestel: +ref
+
+versio 1.12 2023/03/22 06:32:17
+Paul Peeraerts: + trd nl
+
 Revision 1.9  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -62,17 +92,5 @@ Revision 1.6  2011/11/02 11:10:15  revo
 Antonio Codazzi: +trd it
 
 Revision 1.5  2010/10/20 16:30:35  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.4  2010/04/16 16:31:03  revo
-Russ Williams: +trd en
-
-Revision 1.3  2010/04/15 16:30:40  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.2  2010/04/14 06:05:21  revo
-Wieland Pusch: +trd de
-
-Revision 1.1  2010/04/12 16:30:19  revo
 -->
 </vortaro>

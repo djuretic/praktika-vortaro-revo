@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: konker.xml,v 1.28 2022/12/01 18:35:01 revo Exp $">
+  <art mrk="$Id: konker.xml,v 1.32 2023/12/03 09:58:56 revo Exp $">
     <kap>
       <ofc>4</ofc>
       <rad>konker</rad>/i
@@ -14,7 +14,7 @@
       <snc mrk="konker.0i.militakiri">
       <uzo tip="fak">MIL</uzo>
         <dif>
-          <ref tip="super" cel="milit.0akiri">Militakiri</ref> iun lokon
+          <ref tip="super" cel="akir.milit0i">Militakiri</ref> iun lokon
 	  kaj ekregi tie:
           <ekz>
             ili ne povis <tld/>i Jerusalemon<fnt>Z</fnt>;
@@ -60,8 +60,7 @@
         <trd>&c_z;&c_a;&c_v;&c_a;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
         <trd>&c_z;&c_d;&c_a;&c_b;&c_y;&c_c;&c_mol;</trd>
       </trdgrp>
-  <trd
-  lng="bo">&#xF51;&#xF56;&#xF44;&#xF0B;&#xF66;&#xF92;&#xFB1;&#xF74;&#xF62;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&#xF51;&#xF56;&#xF44;&#xF0B;&#xF66;&#xF92;&#xFB1;&#xF74;&#xF62;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
   <trd lng="ca">conquerir</trd>
   <trdgrp lng="cs">
     <trd>dob&yacute;t <klr>(v&aacute;lkou)</klr></trd>,
@@ -72,6 +71,12 @@
   <trd lng="es">conquistar</trd>
   <trd lng="fr">conqu&eacute;rir</trd>
   <trd lng="id"><baz>takluk</baz>menaklukkan</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F81;&#x670D;&#x3059;&#x308B;  <pr>&#x305B;&#x3044;&#x3075;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x6226;&#x3044;&#x53D6;&#x308B;  <pr>&#x305F;&#x305F;&#x304B;&#x3044;&#x3068;&#x308B;</pr></trd>,
+    <trd>&#x52DD;&#x3061;&#x53D6;&#x308B;  <pr>&#x304B;&#x3061;&#x3068;&#x308B;</pr></trd>,
+    <trd>&#x514B;&#x670D;&#x3059;&#x308B;  <pr>&#x3053;&#x304F;&#x3075;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">veroveren</trd>
   <trdgrp lng="pl">
     <trd>zawojowywa&cacute;</trd>,
@@ -83,6 +88,13 @@
   <trdgrp lng="sk">
     <trd>doby&tcaron;</trd>,
     <trd>zmocni&tcaron; sa</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x593A;&#x5F97; <pr>du&#xF3;d&#xE9;</pr></trd>,
+    <trd>&#x653B;&#x514B; <pr>g&#x14D;ngk&#xE8;</pr></trd>,
+    <trd>&#x5F81;&#x670D; <pr>zh&#x113;ngf&#xFA;</pr></trd>,
+    <trd>&#x8D0F;&#x5F97; <pr>y&#xED;ngd&#xE9;</pr></trd>,
+    <trd>&#x6253;&#x4E0B; <pr>d&#x1CE;xi&#xE0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -118,6 +130,12 @@
     sentimental)</klr></trd>
   <trd lng="fr">conqu&ecirc;te (aquisition)</trd>
   <trd lng="id"><baz>takluk</baz>penaklukan</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F81;&#x670D;  <pr>&#x305B;&#x3044;&#x3075;&#x304F;</pr></trd>,
+    <trd>&#x7372;&#x5F97;  <pr>&#x304B;&#x304F;&#x3068;&#x304F;</pr></trd>,
+    <trd>&#x514B;&#x670D;  <pr>&#x3053;&#x304F;&#x3075;&#x304F;</pr></trd>,
+    <trd>&#x9B45;&#x4E86;  <pr>&#x307F;&#x308A;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="pl">podb&oacute;j</trd>
   <trd lng="sk">dob&yacute;vanie</trd>
 </drv>
@@ -125,6 +143,12 @@
   </art>
   <!--
   $Log$
+versio 1.31 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.29 2023/08/25 14:01:29
+revo: movu drv milit.0akiri al akir/
+
 versio 1.28 2022/12/01 18:35:01
 Dmitri Gabinski: + trd be
 
@@ -141,11 +165,5 @@ Eko Nur Syah Hidayat: korekteto
   aldono de trd sk per skripto de M. von Laer
 
   Revision 1.21  2014/04/15 10:10:20  revo
-  Damien Brucker: +trd fr
-
-  Revision 1.20  2013/05/12 14:10:19  revo
-  Eko Nur Syah Hidayat: korekto de verba skribformo
-
-  Revision 1.19  2013/05/10 16:10:15  revo
 -->
 </vortaro>

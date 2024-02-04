@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kurato.xml,v 1.26 2022/05/01 08:09:26 revo Exp $">
+<art mrk="$Id: kurato.xml,v 1.33 2023/12/03 09:59:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kurator</rad>/o <fnt><bib>PV</bib></fnt>
@@ -41,7 +41,11 @@
       <trd>&c_p;&c_o;&c_p;&c_je;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
     </trdgrp>
     <trd lng="sv">f&ouml;rmyndare</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x536B;&#x58EB; <pr>w&#xE8;ish&#xEC;</pr></trd>,
+    <trd>&#x885B;&#x58EB; <pr>w&#xE8;ish&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kurato.0o.JUR_postmorta">
     <uzo tip="fak">JUR</uzo>
     <dif>
@@ -82,7 +86,7 @@
       </ekz>
       <ekz>
         &ccirc;ar UEA ne havis personecon la&ubreve; la brita juro, la domo estis prizorgata de C. C.
-        Goldsmith kaj A. C. Oliver kiel <tld/>oj
+        <nom>Goldsmith</nom> kaj <nom>A. C. Oliver</nom> kiel <tld/>oj
         <fnt>
           <bib>EeP</bib>
         </fnt>;
@@ -91,10 +95,11 @@
         la ju&gcirc;isto nomumis tri <tld/>ojn kiuj, &gcirc;is la definitiva decido pri konkordato
         a&ubreve; bankroto, zorgu ke ne estas aktiva&jcirc;oj ka&scirc;e vendataj
         <fnt>
-          <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Steloj;monato2/007334.html">Belgio: Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
-        </fnt>.
+          <vrk><url ref="&Monato;/2001/007334.php">Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
+          <bib>Monato</bib>
+          <lok>2001/02, p. 8</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -111,16 +116,16 @@
   <snc mrk="kurato.0o.BELA">
     <uzo tip="fak">BELA</uzo><uzo tip="fak">KIN</uzo>
     <dif>
-      &Ccirc;efa <ref tip="super" cel="zorg.0anto">zorganto</ref> a&ubreve; konsilanto 
+      &Ccirc;efa <ref tip="super" cel="zorg.0anto">zorganto</ref> a&ubreve; konsilanto
       de <ref cel="ekspoz1.0o">ekspozicio</ref>:
       <ekz>
         la <tld/>a komitato de la muzeo fieras, ke &leftquot;&gcirc;i konservas gravan <klr>[&#x2026;]</klr>
         parton de la kultura kaj historia hereda&jcirc;o de Irlando&rightquot;
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
+          <aut>Garbhan MacAoidh</aut>
           <vrk><url ref="&Monato;/2003/008105.html">Renkonti&gcirc;o kun &scirc;rumpanta komunumo</url></vrk>
-          <lok>2003</lok>
+          <bib>Monato</bib>
+          <lok>2003/11, p. 12</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -159,21 +164,33 @@
     <trd>poru&ccaron;n&iacute;k</trd>
   </trdgrp>
   <trd lng="de">Kurator</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F8C;&#x898B;&#x4EBA;  <pr>&#x3053;&#x3046;&#x3051;&#x3093;&#x306B;&#x3093;</pr></trd>,
+    <trd>&#x8CA1;&#x7523;&#x7BA1;&#x7406;&#x4EBA;  <pr>&#x3056;&#x3044;&#x3055;&#x3093;&#x304B;&#x3093;&#x308A;&#x306B;&#x3093;</pr></trd>,
+    <trd>&#x5B66;&#x82B8;&#x54E1;  <pr>&#x304C;&#x304F;&#x3052;&#x3044;&#x3044;&#x3093;</pr></trd>,
+    <trd>&#x30AD;&#x30E5;&#x30EC;&#x30FC;&#x30BF;&#x30FC;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>kur&aacute;tor</trd>,
     <trd>opatrovn&iacute;k</trd>,
     <trd>poru&ccaron;n&iacute;k</trd>,
     <trd>t&uacute;tor</trd>
   </trdgrp>
-    <adm>
-      Eble kunigi la sencojn 2-4 kiel subsencoj sub unu senco: zorganto de valora&jcirc;oj...
-      <aut>WD</aut>
-    </adm>
-  <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x43F;&#x435;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;</trd>,
-    <trd>&#x43E;&#x43F;&#x456;&#x43A;&#x443;&#x43D;</trd>,
-    <trd>&#x43A;&#x443;&#x440;&#x430;&#x442;&#x43E;&#x440;</trd>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_u;&c_r;&c_a;&c_t;&c_a;&c_r;</trd>,
+    <trd>&c_a;&c_p;&c_je;&c_k;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_a;&c_p;&c_ja;&c_k;&c_u;&c_n;</trd>,
+    <trd>&c_p;&c_a;&c_p;&c_ja;&c_ch;&c_y;&c_c;&c_je;&c_l;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_p;&c_o;&c_p;&c_je;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>,
+    <trd>&c_o;&c_p;&c_ib;&c_k;&c_u;&c_n;</trd>,
+    <trd>&c_k;&c_u;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
+  </trdgrp>
+  <adm>
+    Eble kunigi la sencojn 2-4 kiel subsencoj sub unu senco: zorganto de valora&jcirc;oj...
+    <aut>WD</aut>
+  </adm>
 </drv>
 
 <drv mrk="kurato.0i">
@@ -194,8 +211,13 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_u;&c_r;&c_y;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_p;&c_je;&c_k;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="cs">opatrovat</trd>
   <trd lng="fr">&ecirc;tre <ind>curateur de</ind></trd>
+  <trd lng="ja">&#x5F8C;&#x898B;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3051;&#x3093;&#x3059;&#x308B;</pr></trd>
   <trd lng="sk">opatrova&tcaron;</trd>
 </drv>
 
@@ -211,10 +233,11 @@
       <ekz>
         la registaro senigis lin de memstareco kaj metis lin sub <tld/>econ
         <fnt>
-          <bib>Monato</bib>
           <aut>Jomo Ipfelkofer</aut>
-          <vrk><url ref="&Monato;/2006/009006.php">Monar&hcirc;o-mistero: &ccirc;u murdo a&ubreve; sinmortigo?</url></vrk>
-          <lok>2006</lok>
+          <vrk><url ref="&Monato;/2006/009006.php">Monar&hcirc;o-mistero: &ccirc;u murdo a&ubreve;
+          sinmortigo?</url></vrk>
+          <bib>Monato</bib>
+          <lok>2006/08, p. 13</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -231,6 +254,10 @@
        <ref cel="sekvestr.0o">sekvestro</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_u;&c_r;&c_a;&c_t;&c_a;&c_r;&c_s;&c_t;&c_v;&c_a;</trd>,
+    <trd>&c_a;&c_p;&c_ja;&c_k;&c_u;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>
+  </trdgrp>
   <trd lng="br">kulaterezh</trd>
   <trdgrp lng="cs">
     <trd>kuratela</trd>,
@@ -245,6 +272,11 @@
   <trdgrp lng="hu">
     <trd>gondnoks&aacute;g</trd>,
     <trd>gy&aacute;ms&aacute;g</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5F8C;&#x898B;  <pr>&#x3053;&#x3046;&#x3051;&#x3093;</pr></trd>,
+    <trd>&#x8CA1;&#x7523;&#x7BA1;&#x7406;  <pr>&#x3056;&#x3044;&#x3055;&#x3093;&#x304B;&#x3093;&#x308A;</pr></trd>,
+    <trd>&#x4FE1;&#x8A17;&#x7D71;&#x6CBB;  <pr>&#x3057;&#x3093;&#x305F;&#x304F;&#x3068;&#x3046;&#x3061;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>curatele</trd>,
@@ -261,14 +293,35 @@
     <trd>opatrovn&iacute;ctvo</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x43F;&#x435;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E;</trd>,
-    <trd>&#x43E;&#x43F;&#x456;&#x43A;&#x443;&#x43D;&#x441;&#x442;&#x432;&#x43E;</trd>,
-    <trd>&#x43A;&#x443;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x441;&#x442;&#x432;&#x43E;</trd>
+    <trd>&c_p;&c_o;&c_p;&c_je;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_o;&c_p;&c_ib;&c_k;&c_u;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_k;&c_u;&c_r;&c_a;&c_t;&c_o;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76D1;&#x62A4;&#x6743; <pr>ji&#x101;nh&#xF9;qu&#xE1;n</pr></trd>,
+    <trd>&#x76E3;&#x8B77;&#x6B0A; <pr>ji&#x101;nh&#xF9;qu&#xE1;n</pr></trd>,
+    <trd>&#x76D1;&#x62A4;&#x804C;&#x8D23; <pr>ji&#x101;nh&#xF9;zh&#xED;z&#xE9;</pr></trd>,
+    <trd>&#x76E3;&#x8B77;&#x8077;&#x8CAC; <pr>ji&#x101;nh&#xF9;zh&#xED;z&#xE9;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.30 2023/08/24 20:24:26
+Wolfram Diestel: ŝoveto
+
+versio 1.29 2023/05/10 14:40:51
+Paul Peeraerts: + lok + url
+
+versio 1.28 2023/04/15 12:43:15
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.27 2022/12/26 08:33:06
+Dmitri Gabinski: + trd be
+
 versio 1.26 2022/05/01 08:09:26
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -276,20 +329,5 @@ versio 1.24 2021/06/09 21:27:59
 Wolfram Diestel: ekz-oj, ref-oj, trd de, snc "de ekspozicio"
 
 Revision 1.22  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.21  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.20  2015/04/10 20:10:18  revo
-Vito Redsky: trd pl trd ro
-
-Revision 1.19  2011/06/28 12:10:11  revo
-Jeromo Vasxe: + ~i
-
-Revision 1.18  2009/09/20 16:30:51  revo
-Paul Peeraerts: +nl
-
-Revision 1.17  2005/05/12 16:32:25  revo
 -->
 </vortaro>

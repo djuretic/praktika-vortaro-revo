@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: apoge.xml,v 1.28 2022/04/25 15:10:59 revo Exp $">
+<art mrk="$Id: apoge.xml,v 1.34 2023/10/28 08:33:07 revo Exp $">
 <kap>
    <ofc>1</ofc>
-   <rad>apoge</rad>/o <fnt><bib>PV</bib></fnt>
+   <rad>apoge</rad>/o
+   <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="apoge.0o">
    <kap><tld/>o</kap>
@@ -12,11 +13,16 @@
      <uzo tip="fak">AST</uzo>
      <dif>
        Tiu punkto de la orbito de
-       ter-&ccirc;irka&ubreve;anta objekto, &ccirc;e kiu 
+       ter-&ccirc;irka&ubreve;anta objekto, &ccirc;e kiu
        tiu estas plej malproksima de la tero.
      </dif>
      <ref tip="ant" cel="perige.0o">perigeo</ref>
      <ref tip="vid" cel="zenit.0o">zenito</ref>
+     <trdgrp lng="de">
+       <trd>erdfernster Punkt</trd>,
+       <trd>Erdferne</trd>,
+       <trd>Apog&auml;um</trd>
+     </trdgrp>
      <trdgrp lng="hu">
        <trd>f&ouml;ldt&aacute;vol</trd>,
        <trd>apogeum</trd>
@@ -39,9 +45,11 @@
           la 13a jarcento signifas la <tld/>on, kaj Tomaso la Akvinano
           (1225-1274) estas la plej konata reprezentanto
           <fnt>
-            <bib>Monato</bib>
-            <vrk><url ref="http://www.esperanto.be/fel/mon/007279.html">Anta&ubreve;merkantilisma
+            <aut>Bo Sandelin</aut>
+            <vrk><url ref="&Monato;/2001/007279.php">Anta&ubreve;merkantilisma
             ekonomia pensado</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 16</lok>
           </fnt>;
        </ekz>
        <ekz>
@@ -53,9 +61,8 @@
       </ekz>
      </dif>
      <trdgrp lng="de">
-       <trd>erdfernster Punkt</trd>,
-       <trd>Erdferne</trd>,
-       <trd>Apog&auml;um</trd>
+       <trd>H&ouml;hepunkt</trd>,
+       <trd>Gipfel</trd>
      </trdgrp>
      <trdgrp lng="en">
        <trd>apogee</trd>,
@@ -63,10 +70,6 @@
        <trd>pinnacle</trd>,
        <trd>acme</trd>,
        <trd>apex</trd>
-     </trdgrp>
-     <trdgrp lng="de">
-       <trd>H&ouml;hepunkt</trd>,
-       <trd>Gipfel</trd>
      </trdgrp>
      <trdgrp lng="hu">
        <trd>cs&uacute;cs</trd>,
@@ -82,7 +85,8 @@
        <trd>&c_a;&c_p;&c_o;&c_g;&c_je;&c_j;</trd>,
        <trd>&c_r;&c_a;&c_s;&c_c;&c_v;&c_je;&c_t;</trd>
      </trdgrp>
-   </snc>
+     <trd lng="zh">&#x5347;&#x9650; <pr>sh&#x113;ngxi&#xE0;n</pr></trd>
+</snc>
   <trd lng="be">&c_a;&c_p;&c_a;&c_g;&c_je;&c_j;</trd>
   <trd lng="ca">apogeu</trd>
   <trdgrp lng="cs">
@@ -96,19 +100,36 @@
     <trd>&#x5E9;&#x5D9;&#x5D0;</trd>,
     <trd>&#x5E4;&#x5E1;&#x5D2;&#x5D4;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9060;&#x5730;&#x70B9;  <pr>&#x3048;&#x3093;&#x3061;&#x3066;&#x3093;</pr></trd>,
+    <trd>&#x6700;&#x9AD8;&#x70B9;  <pr>&#x3055;&#x3044;&#x3053;&#x3046;&#x3066;&#x3093;</pr></trd>,
+    <trd>&#x7D76;&#x9802;  <pr>&#x305C;&#x3063;&#x3061;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="pt">apogeu</trd>
   <trdgrp lng="sk">
     <trd>apogeum</trd>,
     <trd>odzemie</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x43F;&#x43E;&#x433;&#x435;&#x439;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x43A;&#x432;&#x456;&#x442;</trd>
+    <trd>&c_a;&#x43F;&#x43E;&c_g;&c_je;&c_j;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&#x43A;&c_v;&c_ib;&c_t;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/13 16:46:48
+revo: transskribo per <pr>
+
+versio 1.32 2023/09/21 06:30:47
+Wolfram Diestel: +fnt JED
+
+versio 1.30 2023/03/29 12:51:42
+Paul Peeraerts: &Monato;
+
+versio 1.29 2023/01/01 22:27:50
+Ulrich Fellmann: apogeo: alilokigo de 3 DE trdj (korekto)
+
 versio 1.28 2022/04/25 15:10:59
 aktualigo ligvokodoj kaj URL-unuoj
 
@@ -119,17 +140,5 @@ Revision 1.23  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.22  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.21  2012/07/16 12:10:18  revo
-Marc Rausell: + trd ca
-
-Revision 1.20  2011/07/13 19:11:22  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2005/08/15 16:31:32  revo
-Marc Bavant: mod dif, mod ref tip al perigeo
-
-Revision 1.18  2003/11/10 17:30:54  revo
 -->
 </vortaro>

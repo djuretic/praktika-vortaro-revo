@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: epok.xml,v 1.39 2022/04/27 14:38:54 revo Exp $">
+<art mrk="$Id: epok.xml,v 1.44 2023/11/07 20:34:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>epok</rad>/o <fnt><bib>PV</bib></fnt>
@@ -19,7 +19,7 @@
         <fnt><bib>PIV2</bib></fnt>.
       </ekz>
       <ekz>
-        &scirc;i anta&ubreve;rigardis la <tld/>on en kiu <klr>[&#8230;]</klr> &scirc;ia gravedo fari&gcirc;os videbla
+        &scirc;i anta&ubreve;rigardis la <tld/>on en kiu <klr>[&#x2026;]</klr> &scirc;ia gravedo fari&gcirc;os videbla
         <fnt>
           <bib>ChL</bib>
           <lok>&Ccirc;apitro Dekunua</lok>
@@ -65,11 +65,11 @@
         la <tld/>o de la Roma Imperio
         <fnt>
           <bib>Kandid</bib>
-          <lok>&Ccirc;apitro XXII</lok>
+          <lok>&Ccirc;apitro 22a</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la monda historio <klr>[&#8230;]</klr> sur la malluma fono de la <tld/>o montras al
+        la monda historio <klr>[&#x2026;]</klr> sur la malluma fono de la <tld/>o montras al
         ni, kiel la bonfarantoj de la homaro, la martiroj de la genio, iras la&ubreve; la
         dorna vojo de la honoro
         <fnt>
@@ -87,7 +87,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la terciaro <klr>(t.e. <ref cel="period.0o.GEOL">periodo</ref>)</klr> 
+        la terciaro <klr>(t.e. <ref cel="period.0o.GEOL">periodo</ref>)</klr>
         komenci&gcirc;is anta&ubreve; sesdeko da jarmilionoj kaj en tiu <tld/>o vaste
         evoluis la mamuloj
         <fnt>
@@ -116,7 +116,7 @@
   <snc mrk="epok.0o.fazo">
     <uzo tip="stl">EVI</uzo>
     <dif>
-      <ref tip="dif" cel="faz.0o.KOMUNE">Fazo</ref>, 
+      <ref tip="dif" cel="faz.0o.KOMUNE">Fazo</ref>,
       <ref cel="temp.0o.KAL">tempo</ref> en ies vivo:
       <ekz>
         lia krea <tld/>o
@@ -142,14 +142,24 @@
   <snc mrk="epok.0o.GEOL">
     <uzo tip="fak">GEOL</uzo>
     <dif>
-      En geokronologio, tempintervalo, ampleksanta plurajn a&gcirc;ojn, 
+      En geokronologio, tempintervalo, ampleksanta plurajn a&gcirc;ojn,
       responda al serio en kronostratigrafio.
     </dif>
     <ref tip="malprt" cel="period.0o.GEOL">periodo<sncref/></ref>
   </snc>
   <trd lng="be">&c_e;&c_p;&c_o;&c_h;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>epocha</trd>,
+    <trd>&eacute;ra</trd>,
+    <trd>&uacute;dob&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Epoche</trd>
   <trd lng="en">epoch</trd>
   <trd lng="es">&eacute;poca</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6642;&#x4EE3;  <pr>&#x3058;&#x3060;&#x3044;</pr></trd>,
+    <trd>&#x4E16;  <pr>&#x305B;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="pl">epoka</trd>
   <trd lng="pt">&eacute;poca</trd>
   <trd lng="ro">epoc&abreve;</trd>
@@ -159,13 +169,11 @@
     <trd>epocha</trd>,
     <trd>obdobie</trd>
   </trdgrp>
-  <trdgrp lng="cs">
-    <trd>epocha</trd>,
-    <trd>&eacute;ra</trd>,
-    <trd>&uacute;dob&iacute;</trd>
-  </trdgrp>
-  <trd lng="de">Epoche</trd>
   <trd lng="uk">&c_je;&c_p;&c_o;&c_h;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x51FA;&#x73B0;&#x65F6;&#x95F4; <pr>ch&#x16B;xi&#xE0;nsh&#xED;ji&#x101;n</pr></trd>,
+    <trd>&#x7D00;&#x5143; <pr>j&#xEC;yu&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="epok.glaci0o">
@@ -207,9 +215,16 @@
   glacaire)</klr></trd>
   <trd lng="he">&ayin;&yod;&dalet;&fnun; &he;&qof;&resh;&het;</trd>
   <trd lng="hu">j&eacute;gkor</trd>
+  <trd lng="ja">&#x6C37;&#x6CB3;&#x6642;&#x4EE3;  <pr>&#x3072;&#x3087;&#x3046;&#x304C;&#x3058;&#x3060;&#x3044;</pr></trd>
   <trd lng="pl">epoka lodowcowa</trd>
   <trd lng="ru">&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;&c_o;&c_v;&c_y;&c_j; &c_p;&c_je;&c_r;&c_i;&c_o;&c_d;</trd>
   <trd lng="sk">doba &lcaron;adov&aacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x51B0;&#x6CB3;&#x671F; <pr>b&#x12B;ngh&#xE9;q&#x12B;</pr></trd>,
+    <trd>&#x51B0;&#x96EA;&#x65F6;&#x4EE3; <pr>b&#x12B;ngxu&#x11B;sh&#xED;d&#xE0;i</pr></trd>,
+    <trd>&#x51B0;&#x6CB3;&#x671F; <pr>b&#x12B;ngh&#xE9;q&#x12B;</pr></trd>,
+    <trd>&#x51B0;&#x96EA;&#x65F6;&#x4EE3; <pr>b&#x12B;ngxu&#x11B;sh&#xED;d&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="epok.malnov0o">
@@ -221,6 +236,11 @@
   <trd lng="cs">starov&ecaron;k</trd>
   <trd lng="de">Altertum</trd>
   <trd lng="sk">starovek</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53E4;&#x8463; <pr>g&#x1D4;d&#x1D2;ng</pr></trd>,
+    <trd>&#x53E4;&#x4EE3;&#x53F2; <pr>g&#x1D4;d&#xE0;ish&#x1D0;</pr></trd>,
+    <trd>&#x53E4;&#x4EE3; <pr>g&#x1D4;d&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="epok.sam0a">
@@ -238,7 +258,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        tiu monstro tamen <klr>[&#8230;]</klr> &ndash; la&ubreve; sam<tld/>aj notoj &ndash; tre bone amuzis lian
+        tiu monstro tamen <klr>[&#x2026;]</klr> &ndash; la&ubreve; sam<tld/>aj notoj &ndash; tre bone amuzis lian
         dommastron
         <fnt>
           <bib>VaK</bib>
@@ -246,51 +266,14 @@
         </fnt>.
       </ekz>
     </dif>
-<ref tip="vid" cel="temp.sam0a">samtempa</ref>
+  <ref tip="vid" cel="temp.sam0a">samtempa</ref>
   </snc>
   <trd lng="de">zeitgen&ouml;ssisch</trd>
   <trd lng="fr">de m&ecirc;me &eacute;poque</trd>
-</drv>
-
-<drv mrk="epok.sxton0o">
-  <kap>&scirc;ton<tld/>o</kap>
-  <snc mrk="epok.sxton0o.PRA">
-    <uzo tip="fak">ARKE</uzo>
-    <uzo tip="fak">PRA</uzo>
-    <dif>
-      La plej antikva parto de la homa <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>,
-      kiam la iloj estis farataj nur el &scirc;tono, ligno kaj ostoj:
-      <ekz>
-        la tempo, kiam la &scirc;ton<tld/>o sin tiris al fino
-        <fnt>
-        <aut>J. London, trad. R. Rossetti</aut>,
-        <vrk>Dio de liaj prapatroj</vrk>,
-        <lok>La nica literatura revuo, 1:4</lok>.
-        </fnt>;
-      </ekz>
-      <ekz>
-        jam en la &scirc;ton<tld/>o oni man&gcirc;is fragojn, sed tiam la fruktoj estis malgrandaj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Walter Klag</aut>
-          <vrk><url ref="&Monato;/2015/011520.php"
-              >Bera paradizo</url></vrk>
-          <lok>2015</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="ru">&c_k;&c_a;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j; &c_v;&c_je;&c_k;</trd>
-  </snc>
-  <trd lng="en">stone age</trd>
-  <trd lng="fr">&acirc;ge de la pierre</trd>
-  <trd lng="de">Steinzeit</trd>
-  <trd lng="he">&tav;&qof;&vav;&pe;&tav; &alef;&bet;&fnun;</trd>
-  <trd lng="hu">k&odblac;kor</trd>
-  <trd lng="pl">epoka kamienna</trd>
-  <trd lng="es">edad de piedra</trd>
-  <trdgrp lng="uk">
-    <trd>&c_k;&c_a;&c_m;&#8217;&c_ja;&c_n;&c_a; &c_je;&c_p;&c_o;&c_h;&c_a;</trd>,
-    <trd>&c_k;&c_a;&c_m;&#8217;&c_ja;&c_n;&c_i;&c_j; &c_p;&c_je;&c_r;&c_ib;&c_o;&c_d;</trd>
+  <trd lng="ja">&#x540C;&#x6642;&#x4EE3;&#x306E;  <pr>&#x3069;&#x3046;&#x3058;&#x3060;&#x3044;&#x306E;</pr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x8F29; <pr>b&#xE8;i</pr></trd>,
+    <trd>&#x73B0;&#x4EE3; <pr>xi&#xE0;nd&#xE0;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -301,20 +284,37 @@
     <uzo tip="fak">PRA</uzo>
     <dif>
       Tiu antikva parto de la homa <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>, kiam disvasti&gcirc;is
-      la iloj faritaj el kupro:
+      la iloj faritaj el kupro; <ref tip="sin" cel="hxalkolitik.0o">&hcirc;alkolitiko</ref>:
       <ekz>
-        la kupr<tld/>o situas inter &scirc;ton<tld/>o kaj bronz<tld/>o.
+        la kupr<tld/>o situas inter &scirc;ton<tld/>o kaj bronz<tld/>o;
+      </ekz>
+      <ekz>
+        la kupr<tld/>o okazis je diversaj tempoj la&ubreve; la geografia regiono, en
+        sudorienta E&ubreve;ropo kaj okcidenta Azio en la periodo 5500 &gcirc;is 2200 a.K.
       </ekz>
     </dif>
-    <trd lng="ru">&c_m;&c_je;&c_d;&c_n;&c_y;&c_j; &c_v;&c_je;&c_k;</trd>
   </snc>
+  <trd lng="be">&c_m;&c_je;&c_d;&c_n;&c_y; &c_v;&c_je;&c_k;</trd>
+  <trd lng="br">oadvezh an <ind>arem</ind></trd>
+  <trd lng="cs">doba m&ecaron;d&ecaron;n&aacute;</trd>
   <trd lng="de">Kupferzeit</trd>
+  <trd lng="es">edad del cobre</trd>
   <trd lng="fr">&acirc;ge du cuivre</trd>
   <trd lng="en">copper age</trd>
   <trd lng="he">&ayin;&yod;&dalet;&fnun; &he;&nun;&het;&vav;&shin;&tav;</trd>
-  <trd lng="hu">r&eacute;zkor</trd>
+  <trdgrp lng="hu">
+    <trd>r&eacute;zkor</trd>,
+    <trd>r&eacute;zkorszak</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>kopertijd</trd>,
+    <trd>kopersteentijd</trd>
+  </trdgrp>
   <trd lng="pl">epoka miedzi</trd>
-  <trd lng="es">edad del cobre</trd>
+  <trd lng="ru">&c_m;&c_je;&c_d;&c_n;&c_y;&c_j; &c_v;&c_je;&c_k;</trd>
+  <trd lng="sk">doba meden&aacute;</trd>
+  <trd lng="uk">&#x43C;&c_ib;&c_d;&#x43D;&c_a; &c_je;&#x43F;&#x43E;&c_h;&c_a;</trd>
+  <trd lng="zh">&#x7D05;&#x9285;&#x6642;&#x4EE3; <pr>h&#xF3;ngt&#xF3;ngsh&#xED;d&#xE0;i</pr></trd>
 </drv>
 
 <drv mrk="epok.bronz0o">
@@ -323,8 +323,9 @@
     <uzo tip="fak">ARKE</uzo>
     <uzo tip="fak">PRA</uzo>
     <dif>
-      Tiu antikva parto de la homa 
-      <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>, kiam disvasti&gcirc;is
+      Tiu antikva parto de la homa
+      <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>, kiam
+      disvasti&gcirc;is
       la iloj faritaj el bronzo:
       <ekz>
         la bronz<tld/>o situas inter kupr<tld/>o kaj fer<tld/>o;
@@ -336,14 +337,11 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="&Monato;/2014/011357.php"
-              >Kio estas la kipra silabaro?</url></vrk>
+          <vrk><url ref="&Monato;/2014/011357.php">Kio estas la kipra silabaro?</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="ru">&c_b;&c_r;&c_o;&c_n;&c_z;&c_o;&c_v;&c_y;&c_j;
-    &c_v;&c_je;&c_k;</trd>
   </snc>
   <trd lng="cs">doba bronzov&aacute;</trd>
   <trd lng="de">Bronzezeit</trd>
@@ -352,12 +350,15 @@
   <trd lng="fr">&acirc;ge du bronze</trd>
   <trd lng="he">&ayin;&yod;&dalet;&fnun; &he;&bet;&resh;&vav;&nun;&zayin;&he;</trd>
   <trd lng="hu">bronzkor</trd>
+  <trd lng="ja">&#x9752;&#x9285;&#x5668;&#x6642;&#x4EE3;  <pr>&#x305B;&#x3044;&#x3069;&#x3046;&#x304D;&#x3058;&#x3060;&#x3044;</pr></trd>
   <trd lng="pl">epoka br&aogonek;zu</trd>
+  <trd lng="ru">&c_b;&c_r;&c_o;&c_n;&c_z;&c_o;&c_v;&c_y;&c_j; &c_v;&c_je;&c_k;</trd>
   <trd lng="sk">doba bronzov&aacute;</trd>
   <trdgrp lng="uk">
     <trd>&c_b;&c_r;&c_o;&c_n;&c_z;&c_o;&c_v;&c_a; &c_je;&c_p;&c_o;&c_h;&c_a;</trd>,
     <trd>&c_b;&c_r;&c_o;&c_n;&c_z;&c_o;&c_v;&c_i;&c_j; &c_v;&c_ib;&c_k;</trd>
   </trdgrp>
+  <trd lng="zh">&#x9752;&#x9285;&#x6642;&#x4EE3; <pr>q&#x12B;ngt&#xF3;ngsh&#xED;d&#xE0;i</pr></trd>
 </drv>
 
 <drv mrk="epok.fer0o">
@@ -366,7 +367,7 @@
     <uzo tip="fak">ARKE</uzo>
     <uzo tip="fak">PRA</uzo>
     <dif>
-      Tiu parto de la homa <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>, 
+      Tiu parto de la homa <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>,
       kiam disvasti&gcirc;is la iloj faritaj el fero:
       <ekz>
         la fer<tld/>o venis post la bronz<tld/>o;
@@ -376,7 +377,7 @@
         la fero ankora&ubreve; estis perceptata kiel fremda nova&jcirc;o
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#8470; 2 (100)</lok>
+          <lok>2003, &#x2116; 2 (100)</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -386,8 +387,6 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_y;&c_j;
-    &c_v;&c_je;&c_k;</trd>
   </snc>
   <trd lng="cs">doba &zcaron;elezn&aacute;</trd>
   <trd lng="de">Eisenzeit</trd>
@@ -396,8 +395,11 @@
   <trd lng="fr">&acirc;ge du fer</trd>
   <trd lng="he">&tav;&qof;&vav;&pe;&tav; &he;&bet;&resh;&zayin;&lamed;</trd>
   <trd lng="hu">vaskor</trd>
+  <trd lng="ja">&#x9244;&#x5668;&#x6642;&#x4EE3;  <pr>&#x3066;&#x3063;&#x304D;&#x3058;&#x3060;&#x3044;</pr></trd>
   <trd lng="pl">epoka &zdot;elaza</trd>
+  <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_y;&c_j; &c_v;&c_je;&c_k;</trd>
   <trd lng="sk">doba &zcaron;elezn&aacute;</trd>
+  <trd lng="zh">&#x9435;&#x5668;&#x6642;&#x4EE3; <pr>ti&#x11B;q&#xEC;sh&#xED;d&#xE0;i</pr></trd>
 </drv>
 
 <drv mrk="epok.mez0o">
@@ -405,8 +407,9 @@
   <snc mrk="epok.mez0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      En la e&ubreve;ropa <ref tip="lst" cel="histor.0o.okazajxoj" lst="voko:historiaj_epokoj">historio</ref>, 
-      la periodo ekde la falo de la Okcidenta Romio &gcirc;is la pereo de Bizancio (do, proksimume la jarmilo
+      En la e&ubreve;ropa <ref tip="lst" cel="histor.0o.okazajxoj" lst="voko:historiaj_epokoj">historio</ref>,
+      la periodo ekde la falo de la Okcidenta Romio &gcirc;is la pereo de Bizancio (do, proksimume la
+      jarmilo
       inter la jaroj 476a &ndash; 1453a):
       <ekz>
         la mez<tld/>o estas sentata en la akropintaj tegolaj tegmentoj, en feraj
@@ -423,7 +426,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <nom>Dinan</nom> <klr>[&#8230;]</klr> posedas ankora&ubreve; <klr>[&#8230;]</klr> siajn antikvajn fortika&jcirc;ojn
+        <nom>Dinan</nom> <klr>[&#x2026;]</klr> posedas ankora&ubreve; <klr>[&#x2026;]</klr> siajn antikvajn fortika&jcirc;ojn
         datumantajn de Mez<tld/>o kaj perfekte konservitajn
         <fnt>
           <bib>ChL</bib>
@@ -438,6 +441,7 @@
   </refgrp>
   <trd lng="be">&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ja;&c_v;&c_je;&c_ch;&c_ch;&c_a;</trd>
   <trd lng="br">krennamzer</trd>
+  <trd lng="cs">st&rcaron;edov&ecaron;k</trd>
   <trd lng="de">Mittelalter</trd>
   <trdgrp lng="en">
     <trd>middle ages</trd>
@@ -446,12 +450,16 @@
   <trd lng="fr">moyen-&acirc;ge</trd>
   <trd lng="he">&yod;&mem;&yod; &he;&bet;&yod;&nun;&yod;&yod;&fmem;</trd>
   <trd lng="hu">k&ouml;z&eacute;pkor</trd>
+  <trd lng="ja">&#x4E2D;&#x4E16;  <pr>&#x3061;&#x3085;&#x3046;&#x305B;&#x3044;</pr></trd>
   <trd lng="nl">Middeleeuwen</trd>
   <trd lng="pl">&sacute;redniowiecze</trd>
   <trd lng="ro">Evul Mediu</trd>
   <trd lng="ru">&c_s;&c_r;&c_je;&c_d;&c_n;&c_je;&c_v;&c_je;&c_k;&c_o;&c_v;&c_mol;&c_je;</trd>
   <trd lng="sk">stredovek</trd>
-  <trd lng="cs">st&rcaron;edov&ecaron;k</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E2D;&#x4E16; <pr>zh&#x14D;ngsh&#xEC;</pr></trd>,
+    <trd>&#x4E2D;&#x4E16;&#x7D00; <pr>zh&#x14D;ngsh&#xEC;j&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="epok.nova0o">
@@ -479,18 +487,19 @@
         kvaza&ubreve;-kvantumteorio, kaj &gcirc;enerala nov<tld/>ismo
         <fnt>
           <aut>Joey JoJo</aut>
-          <vrk><url ref="https://medium.com/@Joe_Fumai/recenzo-de-kartaro-la-flika-taroko-the-patch-tarot-27f436f770d">Recenzo de Kartaro &mdash; La Flika Taroko</url></vrk>
+          <vrk><url ref="https://medium.com/@Joe_Fumai/recenzo-de-kartaro-la-flika-taroko-the-patch-tarot-27f436f770d">Recenzo
+          de Kartaro &mdash; La Flika Taroko</url></vrk>
           <lok>2017-12-19</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <rim mrk="epok.nova0o.RIM">
-    Iafoje anka&ubreve; <em>Nova Tempo</em>, <em>Amfora Epoko</em> (pro 
+    Iafoje anka&ubreve; <em>Nova Tempo</em>, <em>Amfora Epoko</em> (pro
     zodiaka signo Amforo), <em>Nova Erao</em>:
     <ekz>
-      la adeptoj de la Nova Erao <klr>[&#8230;]</klr> kontaktas aliajn
-      estulojn lo&gcirc;antajn en la universala Tuto  
+      la adeptoj de la Nova Erao <klr>[&#x2026;]</klr> kontaktas aliajn
+      estulojn lo&gcirc;antajn en la universala Tuto
       <fnt>
         <aut>P. B. Cadei</aut>,
         <vrk><url ref="http://www.ikue.org/tit78_02.html">New Age a&ubreve;
@@ -501,13 +510,19 @@
   </rim>
   <trd lng="de">New Age</trd>
   <trd lng="en">New Age</trd>
+  <trdgrp lng="es">
+    <trd>New Age</trd>,
+    <trd>Nueva era</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>New Age</trd>,
     <trd>Nouvel &acirc;ge<klr> (New Age)</klr></trd>
   </trdgrp>
-  <trdgrp lng="es">
-    <trd>New Age</trd>,
-    <trd>Nueva era</trd>
+  <trdgrp lng="zh">
+    <trd>&#x65B0;&#x7D00;&#x5143; <pr>x&#x12B;nj&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x65B0;&#x7D00;&#x5143;&#x904B;&#x52D5; <pr>x&#x12B;nj&#xEC;yu&#xE1;ny&#xF9;nd&#xF2;ng</pr></trd>,
+    <trd>&#x65B0;&#x7D00;&#x5143; <pr>x&#x12B;nj&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x65B0;&#x7D00;&#x5143;&#x904B;&#x52D5; <pr>x&#x12B;nj&#xEC;yu&#xE1;ny&#xF9;nd&#xF2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -540,10 +555,14 @@
   <trd lng="he">&tav;&qof;&vav;&pe;&tav; &he;&zayin;&he;&bet;</trd>
   <trd lng="ru">&c_z;&c_o;&c_l;&c_o;&c_t;&c_o;&c_j; &c_v;&c_je;&c_k;</trd>
   <trd lng="en">golden age</trd>
+  <trd lng="es">edad de oro</trd>
   <trd lng="fr">&acirc;ge d'or</trd>
   <trd lng="hu">aranykor</trd>
   <trd lng="pl">z&lstroke;ota <ind>era</ind></trd>
-  <trd lng="es">edad de oro</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9EC3;&#x91D1;&#x6642;&#x4EE3; <pr>hu&#xE1;ngj&#x12B;nsh&#xED;d&#xE0;i</pr></trd>,
+    <trd>&#x9EC3;&#x91D1;&#x6642;&#x9593; <pr>hu&#xE1;ngj&#x12B;nsh&#xED;ji&#x101;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="epok.pra0o">
@@ -564,19 +583,57 @@
       <ekz>
         skiza analizo de la juda historio &dash; ekde la pra<tld/>o &gcirc;is la 20-a jarcento
         <fnt>
-          <vrk><url ref="https://uea.org/teko/IKU/2021/Broshtejn"
-              >Universala Esperanto-Asocio</url></vrk>
+          <vrk><url ref="&UEA;teko/IKU/2021/Broshtejn">Universala Esperanto-Asocio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="de">Urzeit</trd>
+  <trd lng="zh">&#x539F;&#x59CB;&#x65F6;&#x4EE3; <pr>yu&#xE1;nsh&#x1D0;sh&#xED;d&#xE0;i</pr></trd>
 </drv>
 
-
-
-
-
+<drv mrk="epok.sxton0o">
+  <kap>&scirc;ton<tld/>o</kap>
+  <snc mrk="epok.sxton0o.PRA">
+    <uzo tip="fak">ARKE</uzo>
+    <uzo tip="fak">PRA</uzo>
+    <dif>
+      La plej antikva parto de la homa <ref tip="lst" cel="histor.0o.SCI" lst="voko:historiaj_epokoj">historio</ref>,
+      kiam la iloj estis farataj nur el &scirc;tono, ligno kaj ostoj:
+      <ekz>
+        la tempo, kiam la &scirc;ton<tld/>o sin tiris al fino
+        <fnt>
+        <aut>J. London, trad. R. Rossetti</aut>,
+        <vrk>Dio de liaj prapatroj</vrk>,
+        <lok>La nica literatura revuo, 1:4</lok>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        jam en la &scirc;ton<tld/>o oni man&gcirc;is fragojn, sed tiam la fruktoj estis malgrandaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2015/011520.php">Bera paradizo</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">stone age</trd>
+  <trd lng="fr">&acirc;ge de la pierre</trd>
+  <trd lng="de">Steinzeit</trd>
+  <trd lng="es">edad de piedra</trd>
+  <trd lng="he">&tav;&qof;&vav;&pe;&tav; &alef;&bet;&fnun;</trd>
+  <trd lng="hu">k&odblac;kor</trd>
+  <trd lng="ja">&#x77F3;&#x5668;&#x6642;&#x4EE3;  <pr>&#x305B;&#x3063;&#x304D;&#x3058;&#x3060;&#x3044;</pr></trd>
+  <trd lng="pl">epoka kamienna</trd>
+  <trd lng="ru">&c_k;&c_a;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j; &c_v;&c_je;&c_k;</trd>
+  <trdgrp lng="uk">
+    <trd>&c_k;&c_a;&c_m;&#x2019;&c_ja;&c_n;&c_a; &c_je;&c_p;&c_o;&c_h;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_m;&#x2019;&c_ja;&c_n;&c_i;&c_j; &c_p;&c_je;&c_r;&c_ib;&c_o;&c_d;</trd>
+  </trdgrp>
+  <trd lng="zh">&#x77F3;&#x5668;&#x65F6;&#x4EE3; <pr>sh&#xED;q&#xEC;sh&#xED;d&#xE0;i</pr></trd>
+</drv>
 
 <drv mrk="epok.0fara">
   <kap><tld/>fara</kap>
@@ -588,11 +645,11 @@
         en la homa historio;
       </ekz>
       <ekz>
-        tri epokfaraj eltrovoj <klr>[&#8230;]</klr> determinis la kurson de la antikva
+        tri epokfaraj eltrovoj <klr>[&#x2026;]</klr> determinis la kurson de la antikva
         historio: la bronzo, la malsova&gcirc;igo de la &ccirc;evalo kaj la fero
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#8470; 2 (100)</lok>
+          <lok>2003, &#x2116; 2 (100)</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -621,15 +678,33 @@
     <trd>geschichtlich <ind>bedeutsam</ind></trd>
   </trdgrp>
   <trd lng="en">epoch-making</trd>
+  <trd lng="es">que produce un antes y un despu&eacute;s</trd>
   <trd lng="fr">historique<klr tip="amb"> (faisant date)</klr></trd>
   <trd lng="hu">korszakalkot&oacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x753B;&#x671F;&#x7684;&#x306A;  <pr>&#x304B;&#x3063;&#x304D;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x4E00;&#x6642;&#x4EE3;&#x3092;&#x753B;&#x3059;&#x308B;  <pr>&#x3072;&#x3068;&#x3058;&#x3060;&#x3044;&#x3092;&#x304B;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">epokowy</trd>
   <trd lng="ru">&c_e;&c_p;&c_o;&c_h;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  <trd lng="es">que produce un antes y un despu&eacute;s</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5212;&#x65F6;&#x4EE3; <pr>hu&#xE0;sh&#xED;d&#xE0;i</pr></trd>,
+    <trd>&#x5212;&#x65F6;&#x4EE3;&#x7684; <pr>hu&#xE0;sh&#xED;d&#xE0;ide</pr></trd>,
+    <trd>&#x6709;&#x5386;&#x53F2;&#x6027; <pr>y&#x1D2;ul&#xEC;sh&#x1D0;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.43 2023/10/14 15:49:04
+revo: transskribo per <pr>
+
+versio 1.42 2023/09/17 21:20:36
+Jeromo Vasxe: kupr~o + elementoj el kupr.xml
+
+versio 1.40 2023/05/04 16:16:08
+revo: aktualigo URL-unuoj
+
 versio 1.39 2022/04/27 14:38:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -643,14 +718,5 @@ versio 1.33 2021/11/07 11:24:03
 Jeromo Vasxe: + nov~ismo
 
 versio 1.32 2021/10/21 10:33:58
-Wolfram Diestel: +ekz
-
-Revision 1.29  2015/07/04 08:37:33  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.28  2015/06/29 16:29:37  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2013/10/06 16:10:12  revo
 -->
 </vortaro>

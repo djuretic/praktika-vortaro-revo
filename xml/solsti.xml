@@ -1,20 +1,50 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: solsti.xml,v 1.14 2022/03/29 14:19:45 revo Exp $">
+<art mrk="$Id: solsti.xml,v 1.21 2023/11/06 01:35:45 revo Exp $">
 <kap>
   <rad>solstic</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="solsti.0o">
   <kap><tld/>o</kap>
   <snc>
   <uzo tip="fak">AST</uzo>
     <dif>
-      Tempo, kiam la suno estas plej malproksime de la ekvatoro:
+      <ref tip="super" cel="temp.0o.KAL">Tempo</ref>, kiam la suno estas plej malproksime de la
+      ekvatoro:
       <ekz>
-        somera, vintra <tld/>o.
+        somera, vintra <tld/>o;
+      </ekz>
+      <ekz>
+        niaj junulinoj sekrete kunvenas &ccirc;e la somera <tld/>o
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu jaro estas la tempo, kiu pasas inter unu vintra <tld/>o (plej ofte okazanta
+        la 21an de decembro) kaj la sekva
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2015/011452.php">Alia kalendaro eblas</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la solargrafo <klr>[&#8230;]</klr> fotas la sunon en la &ccirc;ielo inter du <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2012/010750.php">Rivelita: la movado de la
+          suno</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="ant" cel="ekvino.0o">ekvinokso</ref>
   </snc>
   <trd lng="be">&c_s;&c_o;&c_n;&c_c;&c_a;&c_s;&c_t;&c_a;&c_ja;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trdgrp lng="cs">
@@ -22,15 +52,18 @@
     <trd>solsticium</trd>
   </trdgrp>
   <trd lng="de">Sonnenwende</trd>
+  <trd lng="en">solstice</trd>
   <trd lng="fr">solstice</trd>
   <trd lng="hu">napfordul&oacute;</trd>
+  <trd lng="ja">&#x81F3;  <pr>&#12375;</pr></trd>
   <trdgrp lng="nl">
     <trd>solstitium</trd>,
     <trd>dag-en-nachtevening</trd>
   </trdgrp>
+  <trd lng="pl">przesilenie dnia z noc&aogonek;</trd>
   <trd lng="ru">&c_s;&c_o;&c_l;&c_n;&c_c;&c_je;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">slnovrat</trd>
-  <trd lng="uk">&#x441;&#x43E;&#x43D;&#x446;&#x435;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_s;&c_o;&c_n;&c_c;&c_je;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="solsti.0a">
@@ -39,41 +72,57 @@
     <dif>
       Rilatanta al <tld/>oj:
       <ekz>
-        <tld/>aj punktoj.
+        <tld/>aj punktoj;
+      </ekz>
+      <ekz>
+        la vetero, kiu &gcirc;is nun estis belega, subite kaj minace &scirc;an&gcirc;i&gcirc;is, kiel tio ofte
+        okazas dum la <tld/>aj epokoj
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Na&ubreve;a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Jula rito, pli antikva ol la homo kaj destinita pluvivi lin, la praa <tld/>a
+        rito de l&#8217; printempa promeso post la ne&gcirc;oj
+        <fnt>
+          <bib>Sol</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">obratn&#xED;kov&#xFD;</trd>
+  <trd lng="be">&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_a;&c_n;&c_y; &c_z; <ind>&c_s;&c_o;&c_n;&c_c;&c_a;&c_s;&c_t;&c_a;&c_ja;&c_n;&c_mol;&c_n;&c_je;&c_m;</ind></trd>
+  <trd lng="cs">obratn&iacute;kov&yacute;</trd>
+  <trd lng="de">Sonnenwend-</trd>
   <trd lng="fr">solsticial</trd>
-  <trd lng="sk">obratn&#xED;kov&#xFD;</trd>
+  <trd lng="ja">&#x81F3;&#x306E;  <pr>&#12356;&#x305F;&#x308B;&#x306E;</pr></trd>
+  <trd lng="pl">przesileniowy</trd>
+  <trd lng="sk">obratn&iacute;kov&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/11/06 01:35:45
+Vito Redsky: +trd pl 
+
+versio 1.20 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.18 2023/08/11 08:29:45
+Dmitri Gabinski: + trd be
+
+versio 1.17 2023/08/11 03:25:46
+Mahaer Mahmud: linio-ajxo
+
+versio 1.16 2023/08/10 21:23:07
+Mahaer Mahmud: aldonis anglajn tradukojn
+
+versio 1.15 2023/05/30 06:28:19
+Wolfram Diestel: +ekz-oj, ref
+
 Revision 1.12  2015/06/29 16:33:24  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.11  2014/04/09 13:10:17  revo
-Damien Brucker: +trd fr
-
-Revision 1.10  2003/01/17 17:33:17  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.9  2002/08/16 17:31:12  revo
-Jozefo Horvath: kor. trd. hu
-
-Revision 1.8  2002/08/15 17:31:11  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/02/14 17:35:16  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/10/03 18:15:27 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.5 2001/08/02 18:13:16 revo
-Paul Peeraerts: kor de tajperaro
-
-Revision 1.4 2001/08/01 18:12:14 revo
 -->
 </vortaro>

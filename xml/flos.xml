@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: flos.xml,v 1.23 2022/04/27 17:19:11 revo Exp $">
+<art mrk="$Id: flos.xml,v 1.27 2023/11/09 20:48:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>flos</rad>/o
@@ -91,10 +91,18 @@
     <trd>radeau</trd>,
     <trd>train de bois</trd>
   </trdgrp>
+  <trd lng="ja">&#x3044;&#x304B;&#x3060;</trd>
   <trd lng="nl">vlot<klr tip="ind"> (z.nw.)</klr></trd>
   <trd lng="ru">&c_p;&c_l;&c_o;&c_t;</trd>
   <trd lng="sk">pl&tcaron;</trd>
-  <trd lng="uk">&#x43F;&#x43B;&#x456;&#x442; (&#x434;&#x43B;&#x44F; &#x441;&#x43F;&#x43B;&#x430;&#x432;&#x443; &#x430;&#x431;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;)</trd>
+  <trd lng="uk">&#x43F;&#x43B;&c_ib;&c_t; (&c_d;&#x43B;&#x44F; &c_s;&#x43F;&#x43B;&c_a;&c_v;&c_u; &c_a;&c_b;&#x43E;
+  &#x43F;&c_je;&c_r;&c_je;&#x43F;&c_r;&c_a;&c_v;&c_i;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7B4F; <pr>f&#xE1;</pr></trd>,
+    <trd>&#x7B4F;&#x5B50; <pr>f&#xE1;zi</pr></trd>,
+    <trd>&#x6CED; <pr>f&#xFA;</pr></trd>,
+    <trd>&#x68D1; <pr>p&#xE1;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="flos.0i">
@@ -193,7 +201,8 @@
     <trd lng="ru">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_t;&c_mol;&c_s;&c_ja;
     &c_n;&c_a; &c_p;&c_l;&c_a;&c_v;&c_u;</trd>
     <trd lng="sk">pl&aacute;va&tcaron;</trd>
-    <trd lng="th">&#xE25;&#xE2D;&#xE22; (&#xE2D;&#xE22;&#xE39;&#xE48;&#xE1A;&#xE19;&#xE19;&#xE49;&#xE33;)</trd>
+    <trd lng="th">&#xE25;&#xE2D;&#xE22;
+    (&#xE2D;&#xE22;&#xE39;&#xE48;&#xE1A;&#xE19;&#xE19;&#xE49;&#xE33;)</trd>
   </snc>
   <snc mrk="flos.0i.sxvebi">
     <uzo tip="stl">FIG</uzo>
@@ -224,9 +233,10 @@
     </dif>
     <trd lng="de">gleiten</trd>
   </snc>
+  <trd lng="ja">&#x6D6E;&#x3044;&#x3066;&#x3044;&#x308B;  <pr>&#x3046;&#x3044;&#x3066;&#x3044;&#x308B;</pr></trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43B;&#x430;&#x432;&#x430;&#x442;&#x438; (&#x43D;&#x430; &#x43F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x456; &#x432;&#x43E;&#x434;&#x438;)</trd>,
-    <trd>&#x441;&#x43F;&#x43B;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;&#x441;&#x44F; (&#x43F;&#x440;&#x43E; &#x434;&#x435;&#x440;&#x435;&#x432;&#x438;&#x43D;&#x443;)</trd>
+    <trd>&#x43F;&#x43B;&c_a;&c_v;&c_a;&c_t;&c_i; (&#x43D;&c_a; &#x43F;&#x43E;&c_v;&c_je;&c_r;&c_h;&#x43D;&c_ib; &c_v;&#x43E;&c_d;&c_i;)</trd>,
+    <trd>&c_s;&#x43F;&#x43B;&c_a;&c_v;&#x43B;&#x44F;&c_t;&c_i;&c_s;&#x44F; (&#x43F;&c_r;&#x43E; &c_d;&c_je;&c_r;&c_je;&c_v;&c_i;&#x43D;&c_u;)</trd>
   </trdgrp>
 </drv>
 
@@ -247,17 +257,22 @@
       <ekz>
         <tld/>igado estis en Karintio grava transportmaniero inter 1200 kaj 1940
         <fnt>
-          <bib>Monato</bib>
           <aut>Walter Klag</aut>
-          <vrk><url ref="&Steloj;monato2/007186.html">Vakeroj de Alpoj</url></vrk>
-        </fnt>.
+            <vrk><url ref="&Monato;/2001/007186.html">Vakeroj de Alpoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/01, p. 10</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trd lng="de">fl&ouml;&szlig;en</trd>
     <trd lng="ru">&c_s;&c_p;&c_l;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;
     <klr>(&c_p;&c_o;
     &c_t;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_ju;)</klr></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x98C4;&#x6D6E; <pr>pi&#x101;of&#xFA;</pr></trd>,
+    <trd>&#x6C67; <pr>qi&#x101;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="flos.0igi.nagxigi">
     <dif>
       Fari ke io <ref cel="flos.0i.maldroni">flosu<sncref/></ref>, meti en <tld/>an staton:
@@ -275,13 +290,17 @@
   <trd lng="en">float<klr tip="ind"> (tr.)</klr></trd>
   <trd lng="es">hacer <ind>flotar</ind></trd>
   <trd lng="fr">flotter<klr tip="ind"> (tr.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x6D6E;&#x304B;&#x3079;&#x308B;  <pr>&#x3046;&#x304B;&#x3079;&#x308B;</pr></trd>,
+    <trd>&#x3044;&#x304B;&#x3060;&#x306B;&#x7D44;&#x3093;&#x3067;&#x6D41;&#x3059;  <pr>&#x3044;&#x304B;&#x3060;&#x306B;&#x304F;&#x3093;&#x3067;&#x306A;&#x304C;&#x3059;</pr></trd>
+  </trdgrp>
   <trd lng="nl">doen <ind>vlotten</ind></trd>
   <trd lng="sk">plavi&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x43F;&#x43B;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x432;&#x43E;&#x437;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x443;&#x441;&#x442;&#x438;&#x442;&#x438; &#x43D;&#x430; &#x432;&#x43E;&#x43B;&#x44E; &#x445;&#x432;&#x438;&#x43B;&#x44C;</trd>
+    <trd>&c_s;&#x43F;&#x43B;&c_a;&c_v;&#x43B;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&c_v;&#x43E;&c_z;&c_i;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&#x43F;&c_r;&c_a;&c_v;&#x43B;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_u;&c_s;&c_t;&c_i;&c_t;&c_i; &#x43D;&c_a; &c_v;&#x43E;&#x43B;&#x44E; &c_h;&c_v;&c_i;&#x43B;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -327,7 +346,8 @@
         pro la buntaj koloroj kaj gracia <tld/>ado de balono, multaj grandaj entreprenoj
         prenis balonon kiel sian propagandilon
         <fnt>
-          <vrk><url ref="https://www.onyc.hu/uploads/dokumentumtar/file_exercise/6/ESZPERANT%C3%93_C1_Olvas%C3%A1sk%C3%A9szs%C3%A9g_feladatok.pdf">I. Olvas&aacute;sk&eacute;szs&eacute;g</url></vrk>
+          <vrk><url ref="https://www.onyc.hu/uploads/dokumentumtar/file_exercise/6/ESZPERANT%C3%93_C1_Olvas%C3%A1sk%C3%A9szs%C3%A9g_feladatok.pdf">I.
+          Olvas&aacute;sk&eacute;szs&eacute;g</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -338,9 +358,10 @@
     flotter)</klr></trd>
   </snc>
   <trd lng="cs">voroplavba</trd>
+  <trd lng="ja">&#x6D6E;&#x904A;  <pr>&#x3075;&#x3086;&#x3046;</pr></trd>
   <trd lng="nl">vlotten<klr tip="ind"> (z.nw.)</klr></trd>
   <trd lng="sk">plavba na plti</trd>
-  <trd lng="uk">&#x43F;&#x43B;&#x430;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&#x43F;&#x43B;&c_a;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>
 </drv>
 
 <drv mrk="flos.0isto">
@@ -351,10 +372,11 @@
       <ekz>
         ofte sur <tld/>o staris kabano kun forno, kvar a&ubreve; kvin <tld/>istoj stiris
         <fnt>
-          <bib>Monato</bib>
           <aut>Walter Klag</aut>
-          <vrk><url ref="&Steloj;monato2/007186.html">Vakeroj de Alpoj</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2001/007186.html">Vakeroj de Alpoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/01, p. 10</lok>
+          </fnt>;
       </ekz>
       <ekz>
         la arbohakisto intense kunlaboris &gcirc;is en la komenco de la 20-a jarcento kun la
@@ -372,6 +394,7 @@
   la madera)</klr></trd>
   <trd lng="fr">flotteur<klr tip="ind"> (ouvrier qui flotte le
   bois)</klr></trd>
+  <trd lng="ja">&#x3044;&#x304B;&#x3060;&#x4E57;&#x308A;  <pr>&#x3044;&#x304B;&#x3060;&#x306E;&#x308A;</pr></trd>
   <trdgrp lng="nl">
     <trd>vlotter</trd>,
     <trd>houtvlotter</trd>,
@@ -380,9 +403,9 @@
   <trd lng="ru">&c_s;&c_p;&c_l;&c_a;&c_v;&c_shch;&c_i;&c_k;</trd>
   <trd lng="sk">pltn&iacute;k</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x43F;&#x43B;&#x430;&#x432;&#x43D;&#x438;&#x43A;</trd>,
-    <trd>&#x43F;&#x43B;&#x43E;&#x442;&#x43E;&#x433;&#x43E;&#x43D;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x432;&#x456;&#x437;&#x43D;&#x438;&#x43A;</trd>
+    <trd>&c_s;&#x43F;&#x43B;&c_a;&c_v;&#x43D;&c_i;&#x43A;</trd>,
+    <trd>&#x43F;&#x43B;&#x43E;&c_t;&#x43E;&c_g;&#x43E;&#x43D;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&c_v;&c_ib;&c_z;&#x43D;&c_i;&#x43A;</trd>
   </trdgrp>
 </drv>
 
@@ -396,7 +419,8 @@
         flanka <tld/>ilo de kanuo;
       </ekz>
       <ekz>
-        fi&scirc;o kaptis la hokon de <nom>Anne</nom>, la <tld/>ilo sinkis en la akvon, kaj <nom>Anne</nom> levis
+        fi&scirc;o kaptis la hokon de <nom>Anne</nom>, la <tld/>ilo sinkis en la akvon, kaj
+        <nom>Anne</nom> levis
         perkon aeren
         <fnt>
           <vrk><url ref="https://tombonokto.vuodatus.net/">Tombonokto</url></vrk>
@@ -449,6 +473,10 @@
   </trdgrp>
   <trd lng="es">flotador<klr tip="ind"> (objeto)</klr></trd>
   <trd lng="fr">flotteur<klr tip="ind"> (objet)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x6D6E;&#x304D;  <pr>&#x3046;&#x304D;</pr></trd>,
+    <trd>&#x30D5;&#x30ED;&#x30FC;&#x30C8;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>dobber</trd>,
     <trd>vlotter</trd>,
@@ -479,13 +507,21 @@
   <trd lng="en">waterline<klr tip="amb"> (ship)</klr></trd>
   <trd lng="es">l&iacute;nea de flotaci&oacute;n</trd>
   <trd lng="fr">ligne de flottaison</trd>
+  <trd lng="ja">&#x55AB;&#x6C34;&#x7DDA;  <pr>&#x304D;&#x3063;&#x3059;&#x3044;&#x305B;&#x3093;</pr></trd>
   <trd lng="ru">&c_v;&c_a;&c_t;&c_je;&c_r;&c_l;&c_i;&c_n;&c_i;&c_ja;</trd>
   <trd lng="sk">ponorov&aacute; &ccaron;iara</trd>
-  <trd lng="uk">&#x432;&#x430;&#x442;&#x435;&#x440;&#x43B;&#x456;&#x43D;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_v;&c_a;&c_t;&c_je;&c_r;&#x43B;&c_ib;&#x43D;&c_ib;&#x44F;</trd>
+  <trd lng="zh">&#x822F; <pr>zh&#x14D;ng</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/14 19:15:45
+revo: transskribo per <pr>
+
+versio 1.24 2023/04/30 08:29:09
+Paul Peeraerts: Steloj -> monato
+
 versio 1.23 2022/04/27 17:19:11
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -502,11 +538,5 @@ Revision 1.17  2015/07/04 08:37:34  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.16  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.15  2015/06/22 18:10:16  revo
-Erik Pedersen: ald 5 en trd
-
-Revision 1.14  2014/11/24 00:10:29  revo
 -->
 </vortaro>

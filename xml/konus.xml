@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: konus.xml,v 1.25 2022/09/16 09:36:55 revo Exp $">
+<art mrk="$Id: konus.xml,v 1.29 2023/12/03 09:58:57 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konus</rad>/o <fnt><bib>PV</bib></fnt>
@@ -22,8 +21,7 @@
         la
         <tld/>o)</klr>, kaj sekcas fiksan linion
         <klr>(&gcirc;ian
-        <ref tip="prt"
-        cel="direkt.0anto.linio">direktanton</ref>)</klr>:
+        <ref tip="prt" cel="direkt.0anto.linio">direktanton</ref>)</klr>:
         <ekz>
           cirkla, elipsa, kvadrata ks <tld/>o <klr>(kies direktanto
           estas
@@ -126,11 +124,10 @@
       </ekz>
       <ekz>
         vulkanmontoj plej ofte havas la formon de plataj <tld/>oj
-        <fnt>
+        <fnt><aut>Evgeni Georgiev</aut>: 
+          <vrk><url ref="&Monato;/2001/007234.html">Vulkanoj</url></vrk>,
           <bib>Monato</bib>
-          <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007234.html"
-              >Vulkanoj</url></vrk>
+          <lok>2001/02, p. 22</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -168,6 +165,11 @@
   </trdgrp>
   <trd lng="en">cone</trd>
   <trd lng="fr">c&ocirc;ne</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5186;&#x9310;  <pr>&#x307E;&#x308B;&#x304E;&#x308A;</pr></trd>,
+    <trd>&#x5186;&#x9310;&#x5F62;&#x306E;&#x3082;&#x306E;  <pr>&#x3048;&#x3093;&#x3059;&#x3044;&#x304B;&#x305F;&#x306E;&#x3082;&#x306E;</pr></trd>,
+    <trd>&#x7403;&#x679C;  <pr>&#x304D;&#x3085;&#x3046;&#x304B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>conus</trd>,
     <trd>kegel<klr tip="ind"> (conus)</klr></trd>
@@ -177,6 +179,12 @@
   <trdgrp lng="sk">
     <trd>ku&zcaron;e&lcaron;</trd>,
     <trd>&scaron;i&scaron;ka stromu</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x9310; <pr>zhu&#x12B;</pr></trd>,
+    <trd>&#x5706;&#x9525; <pr>yu&#xE1;nzhu&#x12B;</pr></trd>,
+    <trd>&#x5706;&#x9525;&#x4F53; <pr>yu&#xE1;nzhu&#x12B;t&#x1D0;</pr></trd>,
+    <trd>&#x9310;&#x9762; <pr>zhu&#x12B;mi&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -194,8 +202,7 @@
         bastonetoj
         <fnt>
           <aut>R. F&ouml;ssmeier</aut>
-          <vrk><url
-          ref="http://www.ais-sanmarino.org/kursoj/s1/koloroj/koloroj1.html">
+          <vrk><url ref="http://www.ais-sanmarino.org/kursoj/s1/koloroj/koloroj1.html">
           Komputila kodado de koloraj bildoj</url></vrk>
           <lok>[vidita en 2018]</lok>
         </fnt>.
@@ -208,10 +215,17 @@
   <trd lng="de">Zapfen <klr>(Netzhaut)</klr></trd>
   </snc>
   <trd lng="fr">c&ocirc;ne<klr> (cellule visuelle)</klr></trd>
+  <trd lng="ja">&#x9310;&#x72B6;&#x4F53;  <pr>&#x304D;&#x308A;&#x3058;&#x3087;&#x3046;&#x305F;&#x3044;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.26 2023/04/19 11:24:09
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.25 2022/09/16 09:36:55
 Dmitri Gabinski: + trd be
 
@@ -228,11 +242,5 @@ Revision 1.20  2009/09/10 16:33:03  revo
 Paul Peeraerts: +nl
 
 Revision 1.19  2005/03/28 17:14:30  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.18  2004/05/07 16:31:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2003/04/23 16:31:46  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: visx.xml,v 1.41 2022/05/26 09:31:08 revo Exp $">
+<art mrk="$Id: visx.xml,v 1.47 2024/01/31 12:37:58 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vi&scirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -16,7 +16,8 @@
     </dif>
     <subsnc>
       <dif>
-        <ref tip="super" cel="pur.0igi">Purigi</ref> objekton, frotante &gcirc;in per io, kio forigas polvon a&ubreve;
+        <ref tip="super" cel="pur.0igi">Purigi</ref> objekton, frotante &gcirc;in per io, kio forigas
+        polvon a&ubreve;
         malsekecon:
         <ekz>
           &scirc;i man&gcirc;as, <tld/>as la bu&scirc;on
@@ -138,7 +139,12 @@
     </trdgrp>
     <trd lng="id">menge<ind>lap</ind></trd>
     <trd lng="id"><baz>seka</baz>menyeka</trd>
-    <trd lng="ku">paqijkirin</trd>
+    <trdgrp lng="ja">
+    <trd>&#12405;&#x304F;</trd>,
+    <trd>&#x306C;&#12368;&#12358;</trd>,
+    <trd>&#12405;&#x304D;&#x53D6;&#x308B;  <pr>&#12405;&#x304D;&#12392;&#x308B;</pr></trd>
+  </trdgrp>
+  <trd lng="ku">paqijkirin</trd>
   <trdgrp lng="nl">
     <trd>wissen</trd>,
     <trd>afvegen</trd>
@@ -181,6 +187,7 @@
     </dif>
   </snc>
   <trd lng="de">abwischen</trd>
+  <trd lng="en">wipe off</trd>
   <trd lng="es">quitar</trd>
   <trdgrp lng="fa">
     <trd>&f_p;&a_A;&f_k; &f_k;&a_r;&a_d;&a_n;<klr tip="amb"> (&a_l;&f_k;&a_h;)</klr></trd>,
@@ -260,6 +267,7 @@
     <trd lng="de">wegwischen</trd>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_c;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="en">wipe out</trd>
   <trd lng="es">borrar</trd>
   <trdgrp lng="fa">
     <trd>&a_m;&a_H;&a_w; &f_k;&a_r;&a_d;&a_n;</trd>,
@@ -267,6 +275,7 @@
   </trdgrp>
   <trd lng="fr">effacer</trd>
   <trd lng="hu">kit&ouml;r&ouml;l</trd>
+  <trd lng="ja">&#12405;&#x304D;&#x53D6;&#x308B;  <pr>&#12405;&#x304D;&#12392;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>wissen</trd>,
     <trd>uitwissen</trd>,
@@ -357,6 +366,7 @@
     <trd>&c_s;&c_mol;&c_c;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="de">wegwischen</trd>
+  <trd lng="en">wipe away</trd>
   <trd lng="es">borrar</trd>
   <trdgrp lng="fa">
     <trd>&a_m;&a_H;&a_w; &f_k;&a_r;&a_d;&a_n;</trd>,
@@ -367,7 +377,11 @@
     <trd>elt&ouml;r&ouml;l</trd>,
     <trd>kit&ouml;r&ouml;l</trd>
   </trdgrp>
-   <trdgrp lng="nl">
+   <trdgrp lng="ja">
+    <trd>&#12405;&#x304D;&#x53D6;&#x308B;  <pr>&#12405;&#x304D;&#12392;&#x308B;</pr></trd>,
+    <trd>&#x306C;&#12368;&#12356;&#x53BB;&#x308B;  <pr>&#x306C;&#12368;&#12356;&#12373;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="nl">
     <trd>wissen</trd>,
     <trd>uitwissen</trd>,
     <trd>wegvegen</trd>,
@@ -398,8 +412,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.be/2010/010173.php"
-              >Centjari&gcirc;o de Patrino Tereza</url></vrk>
+          <vrk><url ref="&Monato;/2010/010173.php">Centjari&gcirc;o de Patrino Tereza</url></vrk>
           <lok>2010</lok>
         </fnt>.
       </ekz>
@@ -424,8 +437,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url ref="https://www.monato.be/2003/008021.html"
-              >Suno kaj ombroj</url></vrk>
+          <vrk><url ref="&Monato;/2003/008021.html">Suno kaj ombroj</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -437,6 +449,7 @@
     </trdgrp>
   </snc>
   <trd lng="de">unausl&ouml;schlich</trd>
+  <trd lng="en">indelible</trd>
   <trdgrp lng="uk">
     <trd>&c_ja;&c_k;&c_i;&c_j; &c_n;&c_je; &c_m;&c_o;&c_zh;&c_n;&c_a; &c_s;&c_t;&c_je;&c_r;&c_t;&c_i;</trd>,
     <trd>&c_v;&c_ib;&c_ch;&c_n;&c_i;&c_j;</trd>
@@ -466,17 +479,17 @@
         </fnt>.
       </ekz>
    </dif>
-    <refgrp tip="sub"> 
+    <refgrp tip="sub">
       <ref cel="tuk.ban0o">bantuko</ref>,
       <ref cel="tuk.man0o">mantuko</ref>,
-      <ref cel="tuk.naz0o">naztuko</ref>
-    </refgrp> 
+      <ref cel="tuk.posx0o">naztuko</ref>
+    </refgrp>
     <trd lng="de">Handtuch</trd>
     <trd lng="en">towel</trd>
     <trdgrp lng="fr">
       <trd>serviette <klr> (pour s'essuyer)</klr></trd>
       <trd>essuie-main</trd>
-    </trdgrp>      
+    </trdgrp>
     <trd lng="id">lap</trd>
     <trd lng="pl">r&eogonek;cznik</trd>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_o;&c_t;&c_je;&c_n;&c_c;&c_o;</trd>
@@ -487,8 +500,7 @@
       <ekz>
         plum<tld/>ilo
         <fnt>
-          <vrk><url ref="https://eo.wikipedia.org/wiki/Plumvi%C5%9Dilo"
-              >Plumvi&scirc;ilo</url></vrk>
+          <vrk><url ref="&Viki;/Plumvi%C5%9Dilo">Plumvi&scirc;ilo</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -496,8 +508,7 @@
         vitroplatojn
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=9051"
-              >Ledo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=9051">Ledo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -510,7 +521,13 @@
     <trd>Wischtuch</trd>,
     <trd>Wischer</trd>
   </trdgrp>
+  <trd lng="en">wiping implement</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#12405;&#x304F;&#36947;&#20855;  <pr>&#12405;&#x304F;&#12393;&#12358;&#12368;</pr></trd>,
+    <trd>&#x9ED2;&#x677F;&#12405;&#x304D;  <pr>&#12371;&#x304F;&#12400;&#12435;&#12405;&#x304D;</pr></trd>,
+    <trd>&#x30EF;&#x30A4;&#x30D1;&#x30FC;</trd>
+  </trdgrp>
   <trd lng="uk">&c_r;&c_u;&c_sh;&c_n;&c_i;&c_k;</trd>
 </drv>
 
@@ -532,8 +549,9 @@
     </dif>
   </snc>
   <trd lng="de">Scheibenwischer</trd>
+  <trd lng="en">windshield wiper</trd>
   <trd lng="es">limpiaparabrisas</trd>
-  <trd lng="fa">&a_b;&a_r;&a_f;&zwnj;&f_p;&a_A;&f_k;&zwnj;&f_k;&a_n;</trd>
+  <trd lng="fa">&a_b;&a_r;&a_f;&#8204;&f_p;&a_A;&f_k;&#8204;&f_k;&a_n;</trd>
   <trd lng="fr">essuie-glace</trd>
   <trdgrp lng="id">
     <trd>peng<ind>hapus</ind> kaca</trd>,
@@ -580,6 +598,21 @@
 </art>
 <!--
 $Log$
+versio 1.47 2024/01/31 12:37:58
+Damien Brucker: -eraro cxe cel en ref
+
+versio 1.46 2023/10/21 16:50:36
+revo: transskribo per <pr>
+
+versio 1.44 2023/05/06 15:12:06
+revo: aktualigo URL-unuoj
+
+versio 1.43 2023/04/11 19:23:02
+aktualigo Monato-URL
+
+versio 1.42 2023/02/04 20:25:18
+Robert Baruch: +trd: en
+
 versio 1.41 2022/05/26 09:31:08
 Wolfram Diestel: +ekz-oj, ref-oj, trd de
 
@@ -587,12 +620,5 @@ versio 1.40 2022/05/06 12:17:22
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.37 2020/11/23 18:34:21
-Wolfram Diestel: +kelkaj fnt-oj
-
-versio 1.36 2020/05/05 09:10:30
-Eko Nur Syah Hidayat: korekteto
-
-versio 1.35 2020/05/01 14:10:17
-Eko Nur Syah Hidayat: korekteto
 -->
 </vortaro>

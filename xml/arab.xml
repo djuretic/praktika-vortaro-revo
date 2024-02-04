@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: arab.xml,v 1.30 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: arab.xml,v 1.33 2023/10/28 08:33:08 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>arab</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -54,6 +54,7 @@ Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
   <trd lng="fr">Arabe<klr> (subst.)</klr></trd>
   <trd lng="he">&ayin;&resh;&bet;&yod;</trd>
   <trd lng="hu">arab</trd>
+  <trd lng="ja">&#x30A2;&#x30E9;&#x30D3;&#x30A2;&#x4EBA;  <pr>&#x30A2;&#x30E9;&#x30D3;&#x30A2;&#x3058;&#x3093;</pr></trd>
   <trd lng="ms">Arab</trd>
   <trd lng="nl">Arabier</trd>
   <trd lng="pl">Arab</trd>
@@ -61,6 +62,7 @@ Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
   <trd lng="sk">arabsk&yacute; k&ocirc;&ncaron;</trd>
   <trd lng="uk">&#x430;&#x440;&#x430;&#x431;</trd>
   <trd lng="vo">Larab&auml;nan</trd>
+  <trd lng="zh">&#x963F;&#x62C9;&#x4F2F;&#x4EBA; <pr>&#x101;l&#x101;b&#xF3;r&#xE9;n</pr></trd>
 </drv>
 
 <drv mrk="arab.0a">
@@ -119,6 +121,7 @@ Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
   </trdgrp>
   <trd lng="he">&ayin;&resh;&bet;&yod;</trd>
   <trd lng="hu">arab</trd>
+  <trd lng="ja">&#x30A2;&#x30E9;&#x30D3;&#x30A2;&#x306E;  <pr>&#x3042;&#x3089;&#x3073;&#x3042;&#x306E;</pr></trd>
   <trd lng="nl">Arabisch</trd>
   <trd lng="pl">arabski</trd>
   <trd lng="ru">&c_a;&c_r;&c_a;&c_b;&c_s;&c_k;&c_i;&c_j;</trd>
@@ -143,7 +146,11 @@ Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
       <trd>&c_a;&c_r;&c_a;&c_b;&c_s;&c_k;&c_i;&c_je; &c_s;&c_t;&c_r;&c_a;&c_n;&c_y;</trd>,
       <trd>&c_a;&c_r;&c_a;&c_b;&c_s;&c_k;&c_i;&c_j; &c_m;&c_i;&c_r;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5927;&#x98DF; <pr>d&#xE0;sh&#xED;</pr></trd>,
+    <trd>&#x963F;&#x62C9;&#x4F2F;&#x4E16;&#x754C; <pr>&#x101;l&#x101;b&#xF3;sh&#xEC;ji&#xE8;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="arab.A0ujo.duoninsulo">
     <dif>
       <ref tip="sin" cel="arab.A0aDuoninsulo"><tld lit="A"/>a
@@ -174,13 +181,21 @@ Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
     <trd lng="be">&c_A;&c_r;&c_a;&c_b;&c_ib;&c_j;&c_s;&c_k;&c_ib; &c_p;&c_a;&c_w;&c_v;&c_o;&c_s;&c_t;&c_r;&c_a;&c_w;</trd>
     <trd lng="pl">Arabia</trd>
     <trd lng="ru">&c_A;&c_r;&c_a;&c_v;&c_i;&c_ja;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x963F;&#x62C9;&#x4F2F;&#x534A;&#x5C9B; <pr>&#x101;l&#x101;b&#xF3;b&#xE0;nd&#x1CE;o</pr></trd>,
+    <trd>&#x963F;&#x62C9;&#x4F2F;&#x534A;&#x5CF6; <pr>&#x101;l&#x101;b&#xF3;b&#xE0;nd&#x1CE;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="arab.A0ujo.lando">
     <ref tip="sin" cel="arab.SaudaA0ujo">Sauda <tld lit="A"/>ujo</ref>
     <trd lng="be">&c_S;&c_a;&c_v;&c_u;&c_d;&c_a;&c_w;&c_s;&c_k;&c_a;&c_ja; &c_A;&c_r;&c_a;&c_b;&c_ib;&c_ja;</trd>
     <trd lng="pl">Arabia Saudyjska</trd>
     <trd lng="ru">&c_S;&c_a;&c_u;&c_d;&c_o;&c_v;&c_s;&c_k;&c_a;&c_ja; &c_A;&c_r;&c_a;&c_v;&c_i;&c_ja;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6C99;&#x7279; <pr>sh&#x101;t&#xE8;</pr></trd>,
+    <trd>&#x6C99;&#x7279;&#x963F;&#x62C9;&#x4F2F; <pr>sh&#x101;t&#xE8;&#x101;l&#x101;b&#xF3;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="ca">Ar&agrave;bia</trd>
   <trd lng="de">Arabien</trd>
   <trd lng="en">Arabia</trd>
@@ -320,6 +335,9 @@ Informo 12</url>, Listo de Rekomendataj Landnomoj</vrk></fnt>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/13 16:46:48
+revo: transskribo per <pr>
+
 versio 1.30 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -339,8 +357,5 @@ versio 1.23 2020/02/27 20:10:38
 Robin van der Vliet: +trd, koherigo kun aliaj landoartikoloj
 
 Revision 1.22  2018/05/24 02:10:13  revo
-Dusan Juretic: trd es Arabia
-
-Revision 1.21  2017/12/23 00:10:49  revo
 -->
 </vortaro>

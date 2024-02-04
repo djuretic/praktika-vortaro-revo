@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: san.xml,v 1.90 2022/11/26 21:25:39 revo Exp $">
+<art mrk="$Id: san.xml,v 1.105 2024/02/02 01:22:55 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>san</rad>/a
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="san.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
@@ -80,7 +81,7 @@
       <ref tip="dif" cel="favor.san0a.MED"><tld lit="S"/>favora</ref>:
       <ekz>
          el la tuta bestaro nenia speco da bestoj man&gcirc;as bakitan panon,
-         <klr>[pro kio iu]</klr> venis al la logika konvinko, ke &gcirc;i ne 
+         <klr>[pro kio iu]</klr> venis al la logika konvinko, ke &gcirc;i ne
          estas <tld/>a kaj bongusta, kaj komencis sin nutradi je kampaj
          herboj kaj kruda viando
         <fnt>
@@ -91,9 +92,10 @@
       <ekz>
         transdoni <tld/>an, puran frukton
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007272.html">Reen al
-          la edena paradizo</url></vrk>
+	<aut>Guido van Damme</aut>
+	<vrk><url ref="&Monato;/2001/007272.php">Reen al la edena paradizo</url></vrk>
+	<bib>Monato</bib>
+	<lok>2001/02, p. 20</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -101,7 +103,7 @@
         nutrado
         <fnt>
           <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
+          <aut>Garbhan MacAoidh</aut>
           <vrk><url ref="&Monato;/2003/008020.html">Man&gcirc;u
           por sano, samideano!</url></vrk>
         </fnt>.
@@ -114,9 +116,10 @@
       <ekz>
         klerigadaj kaj <tld/>aj servoj
         <fnt>
+       <aut>Zofia BANET-FORNALOWA/pg</aut>
+          <vrk><url ref="&Monato;/2000/006882.php">Kiam orkestro fari&gcirc;as orkesto</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006882.html">Pollando:
-          Kiam orkestro fari&gcirc;as orkesto</url></vrk>
+          <lok>2000/05, p. 12</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -152,7 +155,7 @@
         </fnt>;
       </ekz>
       <ekz>
-         li povu admoni pri la <tld/>a doktrino 
+         li povu admoni pri la <tld/>a doktrino
         <fnt>
           <bib>NT</bib>
           <lok>Tito 1:9</lok>
@@ -171,18 +174,17 @@
         okuloj
         de la mondo, evitante kian ajn eksceson, konforme al sia <tld/>a
         kaj pozitiva morala tradicio
-        <fnt>
+        <fnt><aut>Bardhyl Selimi</aut>:
+          <vrk><url ref="&Monato;/2001/007205.html">Voja&gcirc;impresoj, somero 2000</url></vrk>,
           <bib>Monato</bib>
-          <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Steloj;monato2/007205.html">Kosovo:
-          Voja&gcirc;impresoj, somero 2000</url></vrk>
+          <lok>2001/01, p. 26</lok>
         </fnt>.
       </ekz>
    </dif>
   </snc>
   <trd lng="be">&c_z;&c_d;&c_a;&c_r;&c_o;&c_v;&c_y;</trd>
   <trd lng="bg">&c_z;&c_d;&c_r;&c_a;&c_v;</trd>
-  <trd lng="bo">&#xF50;&#xF44;&#xF0B;&#xF54;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_tha;&t_nga;&t_tsheg;&t_pa;&t_naro;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>zdrav&yacute;</trd>,
     <trd>zdrav&yacute; <klr>(maj&iacute;c&iacute; neporu&scaron;en&eacute; zdrav&iacute;)</klr></trd>
@@ -197,6 +199,13 @@
   <trd lng="hu">eg&eacute;szs&eacute;ges</trd>
   <trd lng="id">sehat</trd>
   <trd lng="it">sano</trd>
+  <trdgrp lng="ja">
+    <trd>&#20581;&#24247;&#12394;  <pr>&#12369;&#12435;&#12371;&#12358;&#12394;</pr></trd>,
+    <trd>&#20581;&#12420;&#12363;&#12394;  <pr>&#12377;&#12371;&#12420;&#12363;&#12394;</pr></trd>,
+    <trd>&#19976;&#22827;&#12394;  <pr>&#12376;&#12423;&#12358;&#12406;&#12394;</pr></trd>,
+    <trd>&#20803;&#27671;&#12394;  <pr>&#12370;&#12435;&#12365;&#12394;</pr></trd>,
+    <trd>&#20581;&#20840;&#12394;  <pr>&#12369;&#12435;&#12380;&#12435;&#12394;</pr></trd>
+  </trdgrp>
   <trd lng="nl">gezond</trd>
   <trd lng="pl">zdrowy</trd>
   <trdgrp lng="pt">
@@ -209,7 +218,7 @@
     <trd>vid god <ind>h&auml;lsa</ind></trd>
   </trdgrp>
   <trd lng="tr">sa&gbreve;l&inodot;kl&inodot;</trd>
-  <trd lng="uk">&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_i;&c_j;</trd>
   <trd lng="vo">saunik</trd>
 </drv>
 
@@ -247,7 +256,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        nenio pli grandan mizeron prezentas, ol se <tld/>o mankas 
+        nenio pli grandan mizeron prezentas, ol se <tld/>o mankas
         kaj &scirc;uldoj turmentas
         <fnt>
           <bib>PrV</bib>
@@ -270,8 +279,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_d;&c_a;&c_r;&c_o;&c_w;&c_je;</trd>
-  <trd
-  lng="bo">&#xF60;&#xF55;&#xFB2;&#xF7C;&#xF51;&#xF0B;&#xF56;&#xF66;&#xF9F;&#xF7A;&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_-a;&t_pha;&t_rata;&t_naro;&t_da;&t_tsheg;&t_ba;&t_sa;&t_tata;&t_drengbu;&t_na;&t_tsheg;</trd>
   <trd lng="cs">zdrav&iacute;</trd>
   <trd lng="de">Gesundheit</trd>
   <trd lng="en">health</trd>
@@ -280,17 +288,18 @@
   </trdgrp>
   <trd lng="he">&bet;&resh;&yod;&alef;&vav;&tav;</trd>
   <trd lng="hu">eg&eacute;szs&eacute;g</trd>
-  <trd lng="id">ke<ind>sehat</ind>an</trd>
+  <trd lng="id"><baz>sehat</baz>kesehatan</trd>
   <trd lng="it">salute</trd>
+  <trd lng="ja">&#20581;&#24247;  <pr>&#12369;&#12435;&#12371;&#12358;</pr></trd>
   <trd lng="nl">gezondheid</trd>
   <trd lng="pl">zdrowie</trd>
   <trd lng="ru">&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_mol;&c_je;</trd>
   <trd lng="sk">zdravie</trd>
   <trd lng="sv">h&auml;lsa</trd>
   <trd lng="tr">sa&gbreve;l&inodot;k</trd>
-  <trd lng="uk">&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&#8217;&#x44F;</trd>
+  <trd lng="uk">&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&#8217;&c_ja;</trd>
   <trd lng="vo">saun</trd>
-  <trd lng="zh">&#20581;&#x5EB7; [<ind>ji&agrave;nk&#5585;ng</ind>]</trd>
+  <trd lng="zh">&#20581;&#24247; <pr>ji&agrave;nk&amacron;ng</pr></trd>
 </drv>
 
 <drv mrk="san.0iga">
@@ -316,10 +325,10 @@
         &ccirc;inoj subtaksas lakton kaj sin turnas al <tld/>igaj produktoj
         enhavantaj kalcion
         <fnt>
+       <aut>Mu Binghua</aut>
+          <vrk><url ref="&Monato;/2000/007169.php">Lakto ne &scirc;atata</url></vrk>
           <bib>Monato</bib>
-          <aut>MU Binghua</aut>
-          <vrk><url ref="&Steloj;monato2/007169.html">Lakto ne
-          &scirc;atata</url></vrk>
+          <lok>2000/12, p. 11</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -327,7 +336,7 @@
         ingrediencoj, kiujn &scirc;i uzas
         <fnt>
           <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
+          <aut>Garbhan MacAoidh</aut>
           <vrk><url ref="&Monato;/2003/008020.html">Man&gcirc;u
           por sano, samideano!</url></vrk>
         </fnt>.
@@ -356,7 +365,7 @@
   <trdgrp lng="fr">
     <trd>sain<klr> (favorable &agrave; la sant&eacute;)</klr></trd>,
     <trd>sanitaire</trd>,
-    <trd>salubre</trd>    
+    <trd>salubre</trd>
   </trdgrp>
   <trdgrp lng="he">
     <trd>&bet;&resh;&yod;&alef;</trd>,
@@ -368,6 +377,10 @@
   <trdgrp lng="it">
     <trd>salutare</trd>,
     <trd>salubre</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#20581;&#24247;&#12395;&#12424;&#12356;  <pr>&#12369;&#12435;&#12371;&#12358;&#12395;&#12424;&#12356;</pr></trd>,
+    <trd>&#20581;&#24247;&#22679;&#36914;&#12398;  <pr>&#12369;&#12435;&#12371;&#12358;&#12382;&#12358;&#12375;&#12435;&#12398;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>gezond</trd>,
@@ -386,10 +399,10 @@
   <trd lng="sk">prospe&scaron;n&yacute; zdraviu</trd>
   <trd lng="tr">sa&gbreve;l&inodot;&gbreve;a yararl&inodot;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&c_ch;&c_i;&c_j;</trd>,
-    <trd>&c_c;&c_ib;&#x43B;&#x44E;&c_shch;&c_i;&c_j;</trd>,
-    <trd>&#x43B;&c_ib;&#x43A;&c_u;&c_v;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&#x43A;&#x43E;&c_r;&c_i;&c_s;&#x43D;&c_i;&c_j; &c_d;&#x43B;&#x44F; &c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&#8217;&#x44F;</trd>
+    <trd>&c_o;&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_ch;&c_i;&c_j;</trd>,
+    <trd>&c_c;&c_ib;&c_l;&c_ju;&c_shch;&c_i;&c_j;</trd>,
+    <trd>&c_l;&c_ib;&c_k;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_k;&c_o;&c_r;&c_i;&c_s;&c_n;&c_i;&c_j; &c_d;&c_l;&c_ja; &c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&#8217;&c_ja;</trd>
   </trdgrp>
 </drv>
 
@@ -440,7 +453,7 @@
     <trd>&c_v;&c_y;&c_l;&c_ja;&c_ch;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_z;&c_d;&c_a;&c_r;&c_a;&c_v;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF51;&#xFB2;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_rata;&t_ga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>l&eacute;&ccaron;it</trd>,
     <trd>uzdravit</trd>,
@@ -466,6 +479,7 @@
     <trd>guarire<klr> (tr)</klr></trd>,
     <trd>sanare</trd>
   </trdgrp>
+  <trd lng="ja">&#20581;&#24247;&#12395;&#12377;&#12427;  <pr>&#12369;&#12435;&#12371;&#12358;&#12395;&#12377;&#12427;</pr></trd>
   <trdgrp lng="pl">
     <trd>leczy&cacute;</trd>,
     <trd>uzdrawia&cacute;</trd>
@@ -478,9 +492,9 @@
   </trdgrp>
   <trd lng="tr">i&gbreve;le&scedil;tirmek</trd>
   <trdgrp lng="uk">
-    <trd>&c_r;&#x43E;&c_b;&c_i;&c_t;&c_i; &c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&c_i;&#x43C;</trd>,
-    <trd>&#x43E;&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43E;&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&#x43B;&#x44F;&c_t;&c_i;</trd>
+    <trd>&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_i;&c_m;</trd>,
+    <trd>&c_o;&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_o;&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_l;&c_ja;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -538,6 +552,7 @@
   <trd lng="hu">gy&oacute;gy&aacute;szati eszk&ouml;z</trd>
   <trd lng="id">obat</trd>
   <trd lng="it">medicina<klr> (farmaco)</klr></trd>
+  <trd lng="ja">&#20581;&#24247;&#22679;&#36914;&#21092;  <pr>&#12369;&#12435;&#12371;&#12358;&#12382;&#12358;&#12375;&#12435;&#12374;&#12356;</pr></trd>
   <trdgrp lng="nl">
     <trd>geneesmiddel</trd>,
     <trd>medicijn</trd>
@@ -552,12 +567,10 @@
     <trd>ila&ccedil;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&c_ch;&c_i;&c_j; &c_z;&c_a;&c_s;&c_ib;&c_b;</trd>,
-    <trd>&#x43B;&c_ib;&#x43A;&c_i;</trd>
+    <trd>&c_o;&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_ch;&c_i;&c_j; &c_z;&c_a;&c_s;&c_ib;&c_b;</trd>,
+    <trd>&c_l;&c_ib;&c_k;&c_i;</trd>
   </trdgrp>
 </drv>
-
-
 
 <drv mrk="san.mal0a">
   <kap><ofc>*</ofc>mal<tld/>a</kap>
@@ -616,7 +629,7 @@
       </ekz>
       <ekz>
         la duone acida, duone apatia mieno montris homon &hcirc;ronike
-        mal<tld/>an 
+        mal<tld/>an
         <fnt>
           <bib>IK</bib>
         </fnt>;
@@ -674,7 +687,7 @@
   </snc>
   <trd lng="be">&c_h;&c_v;&c_o;&c_r;&c_y;</trd>
   <trd lng="bg">&c_b;&c_o;&c_l;&c_je;&c_n;</trd>
-  <trd lng="bo">&#xF53;&#xF0B;</trd>
+  <trd lng="bo">&t_na;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>marod (hovor.)</trd>,
     <trd>nemocn&yacute; <klr>(&ccaron;l.)</klr></trd>
@@ -698,6 +711,10 @@
     <trd>malato<klr> (agg.)</klr></trd>,
     <trd>infermo<klr> (agg.)</klr></trd>,
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#30149;&#27671;&#12398;  <pr>&#12403;&#12423;&#12358;&#12365;&#12398;</pr></trd>,
+    <trd>&#19981;&#20581;&#20840;&#12394;  <pr>&#12405;&#12369;&#12435;&#12380;&#12435;&#12394;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>ziek</trd>,
     <trd>ongezond</trd>
@@ -708,11 +725,11 @@
   <trd lng="tok">ike</trd>
   <trd lng="tr">hasta</trd>
   <trdgrp lng="uk">
-    <trd>&c_h;&c_v;&#x43E;&c_r;&c_i;&c_j;</trd>,
-    <trd>&#x43D;&c_je;&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&c_i;&c_j;</trd>,
-    <trd>&#x43D;&c_je;&#x43C;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>
+    <trd>&c_h;&c_v;&c_o;&c_r;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_m;&c_ib;&c_ch;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
-  <trd lng="zh">&#x751F;&#x75C5; [<ind>sh&#5603;ngb&igrave;ng</ind>]</trd>
+  <trd lng="zh">&#29983;&#30149; <pr>sh&emacron;ngb&igrave;ng</pr></trd>
 </drv>
 
 <drv mrk="san.mal0o">
@@ -769,20 +786,22 @@
       <ekz>
         alpistoj, bezonantaj medicinan priservadon rezulte de
         altecmal<tld/>o
-        <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007116.html">Sir
-          Edmund Hillary: Vivo dedi&ccirc;e al la &scirc;erpoj</url></vrk>
+        <fnt><aut>E. Georgiev</aut>,
+        <vrk><url ref="&Monato;/2000/007116.html">Sir Edmund Hillary: Vivo
+        dedi&ccirc;e al
+        la &scirc;erpoj</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/10, p. 18-19</lok>
         </fnt>;
       </ekz>
       <ekz>
         mal<tld/>o de moderna japana socio estas tuberkulozo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Hori Jasuo</aut>
-          <vrk><url ref="&Steloj;monato2/007148.html">Ne mortis
-          mortiga malsano</url></vrk>
-        </fnt>;
+          <aut>HORI Jasuo/pg</aut>
+            <vrk><url ref="&Monato;/2001/007148.html">Ne mortis mortiga malsano</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 14</lok>
+          </fnt>;
       </ekz>
       <ekz>
         gripo (influenco) estas al &ccirc;iu konata mal<tld/>o
@@ -795,7 +814,7 @@
       </ekz>
       <ekz>
         kiom dan&gcirc;era vere estas la nova grava mal<tld/>o &leftquot;netipa
-        pne&ubreve;monio&#x201D;
+        pne&ubreve;monio&#8221;
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
@@ -809,12 +828,12 @@
         <aut>J. Ipfelkofer</aut>,
         <vrk>Esploroj kortu&scirc;aj</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 2001a, numero 9a, p. 12a</lok>
+        <lok>2001/09, p. 12</lok>
         </fnt>;
       </ekz>
       <ekz>
         pacientoj kadre de la &scirc;tata mal<tld/>asekuro &gcirc;uas kontentigan
-        medicinan servon 
+        medicinan servon
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
@@ -829,7 +848,7 @@
     <trd>&c_h;&c_v;&c_a;&c_r;&c_o;&c_b;&c_a;</trd>,
     <trd>&c_n;&c_je;&c_m;&c_a;&c_ch;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF53;&#xF0B;&#xF5A;&#xF0B;</trd>
+  <trd lng="bo">&t_na;&t_tsheg;&t_tsha;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>choroba</trd>,
     <trd>nemoc</trd>
@@ -857,6 +876,11 @@
     <trd>malattia</trd>,
     <trd>malanno</trd>, <trd>morbo</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#30149;&#27671;  <pr>&#12420;&#12414;&#12356;&#12369;</pr></trd>,
+    <trd>&#30142;&#30149;  <pr>&#12375;&#12387;&#12410;&#12356;</pr></trd>,
+    <trd>&#30142;&#24739;  <pr>&#12375;&#12387;&#12363;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ziekte</trd>
   <trd lng="pl">choroba</trd>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_mol;</trd>
@@ -867,9 +891,9 @@
   </trdgrp>
   <trd lng="tr">hastal&inodot;k</trd>
   <trdgrp lng="uk">
-    <trd>&c_h;&c_v;&#x43E;&c_r;&#x43E;&c_b;&c_a;</trd>,
-    <trd>&#x43D;&c_je;&c_d;&c_u;&c_g;&c_a;</trd>,
-    <trd>&#x43D;&c_je;&#x43C;&c_ib;&c_ch;</trd>
+    <trd>&c_h;&c_v;&c_o;&c_r;&c_o;&c_b;&c_a;</trd>,
+    <trd>&c_n;&c_je;&c_d;&c_u;&c_g;&c_a;</trd>,
+    <trd>&c_n;&c_je;&c_m;&c_ib;&c_ch;</trd>
   </trdgrp>
 </drv>
 
@@ -882,7 +906,7 @@
       Kiu ofte kaj facile mal<tld/>i&gcirc;as:
       <ekz>
         estis malfacile rekoni en &scirc;i la anta&ubreve;an mal<tld/>eman, palan
-        Malanja'n
+        <nom>Malanja</nom>'n
         <fnt>
           <bib>FK</bib>
         </fnt>;
@@ -902,7 +926,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[li estis]</klr> iom pli mal<tld/>ema ol aliaj maljunuloj 
+        <klr>[li estis]</klr> iom pli mal<tld/>ema ol aliaj maljunuloj
         <fnt>
           <bib>Far1</bib>
           <lok>&Ccirc;apitro XIV</lok>
@@ -933,10 +957,17 @@
     <trd>maladif</trd>
   </trdgrp>
   <trd lng="id"><baz>sakit</baz>berpenyakit</trd>
-  <trd lng="id"><ind>sakit</ind>-sakitan</trd>
+  <trdgrp lng="id">
+    <trd><baz>sakit</baz>sakit-sakitan</trd>,
+    <trd><baz>sakit</baz>berpenyakit</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>cagionevole</trd>,
     <trd>malaticcio</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#30149;&#24369;&#12398;  <pr>&#12403;&#12423;&#12358;&#12376;&#12419;&#12367;&#12398;</pr></trd>,
+    <trd>&#30149;&#27671;&#12364;&#12385;&#12398;  <pr>&#12403;&#12423;&#12358;&#12365;&#12364;&#12385;&#12398;</pr></trd>
   </trdgrp>
   <trd lng="nl">ziekelijk</trd>
   <trd lng="pl">chorowity</trd>
@@ -946,7 +977,48 @@
     <trd>nedu&zcaron;iv&yacute;</trd>
   </trdgrp>
   <trd lng="tr">sa&gbreve;l&inodot;&gbreve;&inodot; hasas</trd>
-  <trd lng="uk">&c_h;&c_v;&#x43E;&c_r;&#x43E;&c_b;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_h;&c_v;&c_o;&c_r;&c_o;&c_b;&c_l;&c_i;&c_v;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="san.mal0iga">
+  <kap>
+    mal<tld/>iga
+  </kap>
+  <snc>
+    <dif>
+      Ka&ubreve;zanta mal<tld/>i&gcirc;on:
+      <ekz>
+        la mal<tld/>iga laboro da&ubreve;ris, min profunde konsumante
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekdua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        man&gcirc;i mal<tld/>igajn man&gcirc;a&jcirc;ojn
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Sano</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej grandan parton de tiu mal<tld/>iga mikropolvo (&ccirc;iujare <klr>[&#8230;]</klr>
+        mortas pluraj dekmiloj da homoj pro &gcirc;i) ka&ubreve;zas dizeloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2005/008633.php"
+              >Polvo</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>krankmachend</trd>,
+    <trd>krankheitsausl&ouml;send</trd>
+  </trdgrp>
+  <trd lng="en">pathogenic</trd>
 </drv>
 
 <drv mrk="san.mal0igxi">
@@ -1012,7 +1084,7 @@
         <aut>E. Georgiev</aut>,
         <vrk>Pli maljunaj, pli sa&gcirc;aj, pli flekseblaj</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1999a, numero 3a, p. 18a</lok>
+        <lok>1999/03, p. 18</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1029,6 +1101,7 @@
   </trdgrp>
   <trd lng="id"><ind>jatuh</ind> sakit</trd>
   <trd lng="it">ammalarsi</trd>
+  <trd lng="ja">&#30149;&#27671;&#12395;&#12394;&#12427;  <pr>&#12403;&#12423;&#12358;&#12365;&#12395;&#12394;&#12427;</pr></trd>
   <trd lng="nl"><ind>ziek</ind> worden</trd>
   <trd lng="pl">zachorowa&cacute;</trd>
   <trd lng="ru">&c_z;&c_a;&c_b;&c_o;&c_l;&c_je;&c_t;&c_mol;</trd>
@@ -1067,17 +1140,19 @@
         la ebriuloj estos veturigitaj a&ubreve; al policejoj a&ubreve; al
         mal<tld/>ulejoj
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007066.html">Litovio:
-          Sobriga propono</url></vrk>
-        </fnt>;
+          <aut>Antanas Grincevi&ccaron;ius</aut>
+            <vrk><url ref="&Monato;/2000/007066.php">Sobriga propono</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/12, p. 15</lok>
+          </fnt>;
       </ekz>
       <ekz>
-        Natalia estis flegistino en la urba mal<tld/>ulejo
+        <nom>Natalia</nom> estis flegistino en la urba mal<tld/>ulejo
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007215.html">La peko
-          de Ros</url></vrk>
+	<aut>Julian Modest</aut>
+	<vrk><url ref="&Monato;/2001/007215.php">La peko de Ros</url></vrk>
+	<bib>Monato</bib>
+	<lok>2001/01, p. 24</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -1087,7 +1162,7 @@
         <aut>E. Georgiev</aut>,
         <vrk>Sir Edmund Hillary</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 2000a, numero 10a, p. 18a</lok>
+        <lok>2000/10, p. 18</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1105,7 +1180,7 @@
     <trd>&c_b;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_c;&c_a;</trd>
   </trdgrp>
   <trd lng="bg">&c_b;&c_o;&c_l;&c_n;&c_i;&c_c;&c_a;</trd>
-  <trd lng="bo">&#xF66;&#xFA8;&#xF53;&#xF0B;&#xF41;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_mata;&t_na;&t_tsheg;&t_kha;&t_nga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>marodka</trd>,
     <trd>nemocnice</trd>
@@ -1120,15 +1195,16 @@
   </trdgrp>
   <trd lng="he">&bet;&yod;&tav; &het;&vav;&lamed;&yod;&fmem;</trd>
   <trd lng="hu">k&oacute;rh&aacute;z</trd>
-  <trd lng="id">rumah sakit</trd>
+  <trd lng="id"><ind>rumah</ind> sakit</trd>
   <trd lng="it">ospedale</trd>
+  <trd lng="ja">&#30149;&#38498;  <pr>&#12403;&#12423;&#12358;&#12356;&#12435;</pr></trd>
   <trd lng="nl">ziekenhuis</trd>
   <trd lng="pl">szpital</trd>
   <trd lng="pt">hospital</trd>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="sk">nemocnica</trd>
   <trd lng="tr">hastahane</trd>
-  <trd lng="uk">&#x43B;&c_ib;&#x43A;&c_a;&c_r;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_l;&c_ib;&c_k;&c_a;&c_r;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="san.re0igi">
@@ -1138,7 +1214,7 @@
       Redoni la <tld/>on al iu, sukcese <ref tip="sin" cel="kurac.0i.MED">kuraci</ref>:
       <ekz>
         oni alkondukis al li &ccirc;iujn malsanulojn, malfortigitajn de
-        diversaj malsanoj 
+        diversaj malsanoj
         kaj turmentoj, demonhavantojn, epilepsiulojn, kaj paralizulojn,
         kaj li re<tld/>igis ilin
         <fnt>
@@ -1171,11 +1247,11 @@
       <ekz>
         re<tld/>igi la entreprenon
         <fnt>
-          <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Steloj;monato2/007334.html">Belgio:
-          Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
-        </fnt>;
+          <vrk><url ref="&Monato;/2001/007334.php">Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
+          <bib>Monato</bib>
+          <lok>2001/02, p. 8</lok>
+          </fnt>;
       </ekz>
       <ekz>
         re<tld/>igi la &scirc;taton
@@ -1215,6 +1291,11 @@
     <trd>guarire<klr> (tr.)</klr></trd>,
     <trd>risanare</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#30149;&#27671;&#12434;&#27835;&#12377;  <pr>&#12403;&#12423;&#12358;&#12365;&#12434;&#12394;&#12362;&#12377;</pr></trd>,
+    <trd>&#20581;&#24247;&#12434;&#22238;&#24489;&#12377;&#12427;  <pr>&#12369;&#12435;&#12371;&#12358;&#12434;&#12363;&#12356;&#12405;&#12367;&#12377;&#12427;</pr></trd>,
+    <trd>&#30290;&#12420;&#12377;  <pr>&#12356;&#12420;&#12377;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>genezen<klr tip="ind"> (tr.)</klr></trd>,
   </trdgrp>
@@ -1231,9 +1312,9 @@
   </trdgrp>
   <trd lng="tr">iyle&scedil;tirmek</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_z;&c_d;&#x43E;&c_r;&#x43E;&c_v;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_z;&c_c;&c_ib;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_v;&c_i;&#x43B;&c_ib;&#x43A;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_o;&c_z;&c_d;&c_o;&c_r;&c_o;&c_v;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_c;&c_ib;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_l;&c_ib;&c_k;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1251,7 +1332,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        kelkaj Usonanoj pensas ke Donald Trump estas la re<tld/>igilo
+        kelkaj Usonanoj pensas ke <nom>Donald Trump</nom> estas la re<tld/>igilo
         por la mal<tld/>o de avareco kaj korupteco
         <fnt>
           <vrk><url ref="https://lernu.net/en/forumo/temo/23090/6">Trump
@@ -1281,6 +1362,7 @@
   <trd lng="hu">gy&oacute;gy&aacute;szati eszk&ouml;z</trd>
   <trd lng="id">obat</trd>
   <trd lng="it">medicina<klr> (farmaco)</klr></trd>
+  <trd lng="ja">&#27835;&#30274;&#34220;  <pr>&#12385;&#12426;&#12423;&#12358;&#12420;&#12367;</pr></trd>
   <trdgrp lng="nl">
     <trd>geneesmiddel</trd>,
     <trd>medicijn</trd>
@@ -1296,8 +1378,8 @@
   </trdgrp>
   <trd lng="tr">ila&ccedil;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&c_je;&c_d;&c_i;&#x43A;&c_a;&#x43C;&c_je;&#x43D;&c_t;</trd>,
-    <trd>&#x43B;&c_ib;&#x43A;&c_i;</trd>
+    <trd>&c_m;&c_je;&c_d;&c_i;&c_k;&c_a;&c_m;&c_je;&c_n;&c_t;</trd>,
+    <trd>&c_l;&c_ib;&c_k;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1341,7 +1423,7 @@
     <trd>&c_a;&c_z;&c_d;&c_a;&c_r;&c_je;&c_v;&c_je;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_ch;&c_u;&c_n;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF51;&#xFB2;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_rata;&t_ga;&t_tsheg;</trd>
   <trdgrp lng="de">
     <trd>heilen</trd>,
     <trd>gesunden</trd>,
@@ -1355,10 +1437,17 @@
   </trdgrp>
   <trd lng="fr">gu&eacute;rir<klr tip="amb"> (intr.)</klr></trd>
   <trd lng="hu">meggy&oacute;gyul</trd>
-  <trd lng="id">sembuh</trd>
+  <trdgrp lng="id">
+    <trd>sembuh</trd>,
+    <trd>pulih</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>guarire<klr> (ntr.)</klr></trd>,
     <trd>risanarsi</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#30149;&#27671;&#12364;&#12394;&#12362;&#12427;  <pr>&#12403;&#12423;&#12358;&#12365;&#12364;&#12394;&#12362;&#12427;</pr></trd>,
+    <trd>&#20581;&#24247;&#12364;&#22238;&#24489;&#12377;&#12427;  <pr>&#12369;&#12435;&#12371;&#12358;&#12364;&#12363;&#12356;&#12405;&#12367;&#12377;&#12427;</pr></trd>
   </trdgrp>
   <trd lng="nl">genezen<klr tip="ind"> (ntr.)</klr></trd>
   <trdgrp lng="pl">
@@ -1418,6 +1507,7 @@
   <trd lng="hu">s&aacute;rgas&aacute;g</trd>
   <trd lng="id"><ind>sakit</ind> kuning</trd>
   <trd lng="it">epatite<klr> acuta tipo A</klr></trd>
+  <trd lng="ja">&#40644;&#12384;&#12435;  <pr>&#12365;&#12384;&#12435;</pr></trd>
   <trd lng="nl">geelzucht</trd>
   <trd lng="pl">&zdot;&oacute;&lstroke;taczka</trd>
   <trdgrp lng="ru">
@@ -1429,8 +1519,8 @@
   <trd lng="sv">gulsot</trd>
   <trd lng="tr">sar&inodot;l&inodot;k</trd>
   <trdgrp lng="uk">
-    <trd>&c_zh;&#x43E;&c_v;&c_t;&#x44F;&#x43D;&c_i;&c_c;&#x44F;</trd>,
-    <trd>&c_zh;&#x43E;&c_v;&c_t;&c_u;&c_h;&c_a;</trd>
+    <trd>&c_zh;&c_o;&c_v;&c_t;&c_ja;&c_n;&c_i;&c_c;&c_ja;</trd>,
+    <trd>&c_zh;&c_o;&c_v;&c_t;&c_u;&c_h;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -1445,7 +1535,7 @@
         homo <klr>[&#8230;]</klr> povas suferi de
         mankomal<tld/>o, ka&ubreve;zita de deficito
         de proteinoj, de vitaminoj a&ubreve; de mineraloj
-        <fnt><aut>W. F. Rolt</aut>, <vrk>El la Polvo de la Tero</vrk>, 
+        <fnt><aut>W. F. Rolt</aut>, <vrk>El la Polvo de la Tero</vrk>,
         <lok>1967</lok></fnt>.
       </ekz>
     </dif>
@@ -1453,6 +1543,10 @@
   <trd lng="cs">nemoc z podv&yacute;&zcaron;ivy</trd>
   <trd lng="de">Mangelerkrankung</trd>
   <trd lng="fr">carence<klr> (m&eacute;d.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>niedobory pokarmowe</trd>,
+    <trd>niedo&zdot;ywienie</trd>
+  </trdgrp>
   <trd lng="sk">choroba z podv&yacute;&zcaron;ivy</trd>
 </drv>
 
@@ -1471,7 +1565,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Mooney, kiu devenis de la Orkadoj, rapide rezignis kaj el&scirc;ipi&gcirc;is
+        <nom>Mooney</nom>, kiu devenis de la Orkadoj, rapide rezignis kaj el&scirc;ipi&gcirc;is
         en Madejron pro kronika marmal<tld/>o
         <fnt>
           <bib>Viki</bib>
@@ -1505,11 +1599,12 @@
   <trd lng="fr">mal de mer</trd>
   <trd lng="id"><ind>mabuk</ind> laut</trd>
   <trd lng="it">mal di mare</trd>
+  <trd lng="ja">&#33337;&#37204;&#12356;  <pr>&#12405;&#12394;&#12424;&#12356;</pr></trd>
   <trd lng="nl">zeeziekte</trd>
   <trd lng="pl">choroba morska</trd>
   <trd lng="ru">&c_m;&c_o;&c_r;&c_s;&c_k;&c_a;&c_ja; &c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_mol;</trd>
   <trd lng="sk">morsk&aacute; nemoc</trd>
-  <trd lng="uk">&#x43C;&#x43E;&c_r;&c_s;&#x44C;&#x43A;&c_a; &c_h;&c_v;&#x43E;&c_r;&#x43E;&c_b;&c_a;</trd>
+  <trd lng="uk">&c_m;&c_o;&c_r;&c_s;&c_mol;&c_k;&c_a; &c_h;&c_v;&c_o;&c_r;&c_o;&c_b;&c_a;</trd>
 </drv>
 
 <drv mrk="san.mensmal0o">
@@ -1550,7 +1645,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Lorenzo Celsi mortis, oficiale frapita de mensmal<tld/>o sen
+        <nom>Lorenzo Celsi</nom> mortis, oficiale frapita de mensmal<tld/>o sen
         pluaj difinoj
         <fnt>
           <bib>Viki</bib>
@@ -1574,12 +1669,16 @@
   </trdgrp>
   <trd lng="id"><baz>sakit</baz>penyakit jiwa</trd>
   <trd lng="it"><ind>malattia</ind> mentale</trd>
+  <trdgrp lng="ja">
+    <trd>&#31934;&#31070;&#30149;  <pr>&#12379;&#12356;&#12375;&#12435;&#12403;&#12423;&#12358;</pr></trd>,
+    <trd>&#31934;&#31070;&#30142;&#24739;  <pr>&#12379;&#12356;&#12375;&#12435;&#12375;&#12387;&#12363;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="nl">geestesziekte</trd>
   <trd lng="pl">choroba psychiczna</trd>
   <trd lng="ru">&c_p;&c_s;&c_i;&c_h;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
   &c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
   <trd lng="sk">du&scaron;evn&aacute; nemoc</trd>
-  <trd lng="uk">&c_d;&c_u;&c_sh;&c_je;&c_v;&#x43D;&c_a; &c_h;&c_v;&#x43E;&c_r;&#x43E;&c_b;&c_a;</trd>
+  <trd lng="uk">&c_d;&c_u;&c_sh;&c_je;&c_v;&c_n;&c_a; &c_h;&c_v;&c_o;&c_r;&c_o;&c_b;&c_a;</trd>
 </drv>
 
 <drv mrk="san.mensmal0ulo">
@@ -1590,9 +1689,9 @@
     <dif>
       Homo, kiu anime ne bone fartas, ne <tld/>e rezonas, sentas...:
       <ekz>
-        se homoj vomas kaj abomenas la religiojn, kaj e&ccirc; Dion, tio 
-        estas &gcirc;uste pro tiaj ekscesoj de religiuloj sencerbaj kaj 
-        senkoraj, de mensmal<tld/>uloj, kiuj pensas nur per siaj tripoj 
+        se homoj vomas kaj abomenas la religiojn, kaj e&ccirc; Dion, tio
+        estas &gcirc;uste pro tiaj ekscesoj de religiuloj sencerbaj kaj
+        senkoraj, de mensmal<tld/>uloj, kiuj pensas nur per siaj tripoj
         <fnt>
         <aut>H. Masson</aut>,
         <vrk>Esperanto serve al la vivo...</vrk>,
@@ -1604,15 +1703,14 @@
         servoj por mensmal<tld/>uloj estas nesufi&ccirc;aj
         <fnt>
           <bib>Monato</bib>
-          <aut>Garvan Makaj</aut>
+          <aut>Garvan Makaj'</aut>
           <vrk><url ref="&Monato;/2011/010291.php">Tigro, kiu ne plu
           roras</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         ni ne rajtas forstreki la krimegon kiel misfaron de
-        mensmal<tld/>ulo, 
-        Breivik estas produkto de politika medio kun longa historio
+        mensmal<tld/>ulo, <nom>Breivik</nom> estas produkto de politika medio kun longa historio
         <fnt>
           <bib>Monato</bib>
           <aut>Douglas Draper</aut>
@@ -1629,6 +1727,10 @@
   <trdgrp lng="fr">
     <trd>malade mental</trd>,
     <trd>psychopathe</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#31934;&#31070;&#30149;&#24739;&#32773;  <pr>&#12379;&#12356;&#12375;&#12435;&#12403;&#12423;&#12358;&#12363;&#12435;&#12376;&#12419;</pr></trd>,
+    <trd>&#31934;&#31070;&#30149;&#32773;  <pr>&#12379;&#12356;&#12375;&#12435;&#12403;&#12423;&#12358;&#12375;&#12419;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>geesteszieke</trd>,
@@ -1660,11 +1762,11 @@
         sciencan
         bazon
         <fnt><aut>Peng Juan</aut>,
-        <vrk><url ref="&Monato;/007379.html">Alkohola&jcirc;o &ndash;
+        <vrk><url ref="&Monato;/2001/007379.html">Alkohola&jcirc;o &ndash;
         &ccirc;iam
         dan&gcirc;era</url></vrk>,
         <bib>Monato</bib>,
-        <lok>numero 04/2001</lok>
+        <lok>2001/04</lok>
         </fnt>.
       </ekz>
       <ekz>
@@ -1741,27 +1843,27 @@
 </art>
 <!--
 $Log$
-versio 1.90 2022/11/26 21:25:39
-Ulrich Fellmann: resanigi, resanigxi: +4 pliaj DE trdj
+versio 1.105 2024/02/02 01:22:55
+Eko Nur Syah Hidayat: +trd id 2
 
-versio 1.89 2022/05/05 05:09:56
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.104 2024/01/12 07:24:15
+Wolfram Diestel: +mal~iga
 
-versio 1.84 2021/11/04 09:41:13
-Noam Mohr: +trd en malsano
+versio 1.103 2023/10/21 06:31:28
+revo: transskribo per <pr>
 
-versio 1.79 2021/04/08 07:51:33
-Dmitri Gabinski: + trd be
+versio 1.102 2023/09/10 15:34:09
+revo: korekto de transskribo
 
-versio 1.78 2021/01/19 09:11:13
-Aleks Andre: +trd bo
+versio 1.100 2023/07/16 21:25:42
+Vito Redsky: +trd pl
 
-versio 1.77 2020/10/12 20:33:23
-Wolfram Diestel: mal~ulejo: +ref-oj
+versio 1.99 2023/05/01 13:28:09
+Paul Peeraerts: Steloj -> monato
 
-versio 1.76 2020/05/05 09:10:21
-Eko Nur Syah Hidayat: korekteto
+versio 1.98 2023/04/26 12:45:57
 
-versio 1.75 2020/05/04 11:10:29
+versio 1.97 2023/04/25 15:27:38
+Paul Peeraerts: @Steloj -> @Monato
 -->
 </vortaro>

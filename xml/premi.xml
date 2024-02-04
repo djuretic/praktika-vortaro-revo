@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: premi.xml,v 1.24 2022/03/26 15:53:37 revo Exp $">
+<art mrk="$Id: premi.xml,v 1.27 2023/10/20 16:38:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>premi</rad>/o
@@ -87,6 +87,11 @@
     <trd>jutalom</trd>,
     <trd>d&iacute;j</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8CDE;  <pr>&#x3057;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x8CDE;&#x54C1;  <pr>&#x3057;&#x3087;&#x3046;&#x3072;&#x3093;</pr></trd>,
+    <trd>&#x666F;&#x54C1;  <pr>&#x3051;&#x3044;&#x3072;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>premia</trd>,
     <trd>nagroda</trd>,
@@ -104,9 +109,9 @@
     <trd>pr&eacute;mia</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x435;&#x43C;&#x456;&#x44F;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x437;</trd>,
-    <trd>&#x43D;&#x430;&#x433;&#x43E;&#x440;&#x43E;&#x434;&#x430;</trd>
+    <trd>&#x43F;&c_r;&c_je;&#x43C;&c_ib;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_z;</trd>,
+    <trd>&#x43D;&c_a;&c_g;&#x43E;&c_r;&#x43E;&c_d;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -164,6 +169,7 @@
     <trd>jutalmaz</trd>,
     <trd>d&iacute;jaz</trd>
   </trdgrp>
+  <trd lng="ja">&#x8CDE;&#x3092;&#x4E0E;&#x3048;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x3092;&#x3042;&#x305F;&#x3048;&#x308B;</pr></trd>
   <trd lng="nl">bekronen</trd>
   <trdgrp lng="pl">
     <trd>premiowa&cacute;</trd>,
@@ -175,8 +181,8 @@
     <trd>udeli&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x435;&#x43C;&#x456;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43D;&#x430;&#x433;&#x43E;&#x440;&#x43E;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43F;&c_r;&c_je;&#x43C;&c_ib;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43D;&c_a;&c_g;&#x43E;&c_r;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -198,6 +204,7 @@
       </refgrp>
     </dif>
   </snc>
+  <trd lng="de">Preistr&auml;ger</trd>
   <trd lng="en">prizewinner</trd>
   <trd lng="be">&c_l;&c_ja;&c_w;&c_r;&c_e;&c_a;&c_t; &c_p;&c_r;&c_e;&c_m;&c_ib;&c_ib;</trd>
   <trd lng="cs">nositel ceny</trd>
@@ -211,18 +218,25 @@
     <trd>laur&eacute;at</trd>
   </trdgrp>
   <trd lng="hu">d&iacute;jazott</trd>
+  <trd lng="ja">&#x53D7;&#x8CDE;&#x8005;  <pr>&#x3058;&#x3085;&#x3057;&#x3087;&#x3046;&#x3057;&#x3083;</pr></trd>
   <trd lng="nl">laureaat</trd>
   <trd lng="pl">laureat <klr>(nagrody)</klr></trd>
   <trd lng="ru">&c_l;&c_a;&c_u;&c_r;&c_je;&c_a;&c_t; &c_p;&c_r;&c_je;&c_m;&c_i;&c_i;</trd>
   <trd lng="sk">nosite&lcaron; ceny <klr>(pr&eacute;mie)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x438;&#x437;&#x435;&#x440;</trd>,
-    <trd>&#x43B;&#x430;&#x443;&#x440;&#x435;&#x430;&#x442;</trd>
+    <trd>&#x43F;&c_r;&c_i;&c_z;&c_je;&c_r;</trd>,
+    <trd>&#x43B;&c_a;&c_u;&c_r;&c_je;&c_a;&c_t;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.25 2023/02/16 20:29:59
+Ulrich Fellmann: premiito: +1 DE trd
+
 Revision 1.22  2015/09/23 07:10:14  revo
 Sebastian Cyprych: +trd pl
 
@@ -239,8 +253,5 @@ Revision 1.18  2013/01/30 09:10:09  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.17  2009/10/28 17:30:31  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2006/03/20 17:31:42  revo
 -->
 </vortaro>

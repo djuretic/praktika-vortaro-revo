@@ -1,15 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: kore.xml,v 1.20 2022/05/01 08:09:25 revo Exp $">
+  <art mrk="$Id: kore.xml,v 1.26 2023/12/03 09:58:58 revo Exp $">
     <kap><rad>kore</rad>/o</kap>
     
 <drv mrk="kore.0o">
   <kap><tld/>o</kap>
   <snc mrk="kore.0o.homo">
     <dif>
-      Ano de etno kies historia lo&gcirc;loko estas <tld
-      lit="K"/>ujo:
+      Ano de etno kies historia lo&gcirc;loko estas <tld lit="K"/>ujo:
       <ekz>
         anta&ubreve; <nom>Gutenberg</nom> <tld/>oj uzis moveblajn literetojn
         por presi
@@ -23,12 +22,10 @@
       <ekz>
         170 <tld/>oj el Suda Koreio ricevis kunvokon al tribunalo por
         ju&gcirc;o la 4an de januaro 1900
-        <fnt>
-          <bib>Monato</bib>
-          <aut>S. Maul</aut>
-          <vrk><url
-          ref="&Steloj;monato2/006916.html">Bugra
-          bug-insekto</url></vrk>
+        <fnt><aut>Gilbert Ledon</aut>,
+        <vrk><url ref="&Monato;/2000/006916.php">Bugra bug-insekto</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/05, p. 5</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -82,11 +79,19 @@
       <trd>jan Soson</trd>
     </trdgrp>
     <trd lng="vo">Korey&auml;nan</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x97D3;&#x570B;&#x4EBA; <pr>h&#xE1;ngu&#xF3;r&#xE9;n</pr></trd>,
+    <trd>&#x97D3;&#x570B;&#x4EBA; <pr>H&#xE1;ngu&#xF3;r&#xE9;n</pr></trd>
+  </trdgrp>
+</snc>
   <ref tip="hom" cel="hxore.0o">&hcirc;oreo, koreo (malsano)</ref>
   <trdgrp lng="cs">
     <trd>posun&ccaron;ina</trd>,
     <trd>tanec sv. V&iacute;ta</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x671D;&#x9BAE;&#x4EBA;  <pr>&#x3061;&#x3087;&#x3046;&#x305B;&#x3093;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x97D3;&#x56FD;&#x4EBA;  <pr>&#x304B;&#x3093;&#x3053;&#x304F;&#x3058;&#x3093;</pr></trd>
   </trdgrp>
   <trd lng="sk">tanec sv. V&iacute;ta</trd>
 </drv>
@@ -98,23 +103,23 @@
       Rilatanta al <tld/>oj, ilia nacieco a&ubreve; &scirc;tatoj:
       <ekz>
         pli ol 150 lingvoj, inter kiuj la afrikansa kaj la albana, la
-        &ccirc;ina, <tld/>a kaj japana, <klr>[&#8230;]</klr>
+        &ccirc;ina, <tld/>a kaj japana, <klr>[&#x2026;]</klr>
         <fnt>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="&Monato;/1995/004514.php">Por lingvemaj
+          komputilemuloj ...</url></vrk>
           <bib>Monato</bib>
-          <vrk><url
-          ref="&Steloj;monato1/monato-9506-lingvema.txt">Por
-          lingvemaj komputilemuloj...</url></vrk>
+          <lok>1995/06, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
         la eltrovinto de la <tld/>a fama tizano <nom>&Gcirc;insen son&gcirc;e</nom>
         <fnt>
-          <bib>Monato</bib>
-          <aut>Reza Kheir-khah</aut>
-          <vrk><url
-          ref="&Steloj;monato2/007087.html">Son&gcirc;o:
-          Mirinda dimensio de nia vivo</url></vrk>
-        </fnt>;
+          <aut>Reza Kheir-Khah</aut>
+            <vrk><url ref="&Monato;/2000/007087.php">Mirinda dimensio de nia vivo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 16</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <tld/>aj turismaj organiza&jcirc;oj kunlaboras kun &ccirc;inaj bankoj
@@ -129,7 +134,7 @@
         post la <tld/>a milito sekvis la vjetnama
         <fnt>
           <bib>Monato</bib>
-          <aut>Garvan Makaj</aut>
+          <aut>Garvan Makaj'</aut>
           <vrk><url ref="&Monato;/2012/010869.php">Mond' eterne
           militanta</url></vrk>
         </fnt>;
@@ -150,6 +155,7 @@
   <trd lng="cs">korejsk&yacute;</trd>
   <trd lng="fr">cor&eacute;en<klr> (adjectif)</klr></trd>
   <trd lng="io">Koreana</trd>
+  <trd lng="ja">&#x671D;&#x9BAE;&#x30FB;&#x97D3;&#x56FD;&#x306E;  <pr>&#x3061;&#x3087;&#x3046;&#x305B;&#x3093;&#x30FB;&#x304B;&#x3093;&#x3053;&#x304F;&#x306E;</pr></trd>
   <trd lng="nl">Koreaans</trd>
   <trd lng="pt">coreano <klr tip="ind"> (adj.)</klr></trd>
   <trd lng="sk">k&oacute;rejsk&yacute;</trd>
@@ -219,12 +225,11 @@
       <ekz>
         <tld lit="K"/>a Respubliko, alinomata anka&ubreve; Sud-Koreio a&ubreve;
         Sud-<tld lit="K"/>ujo 
-        <klr>[&#8230;]</klr> havas nur unu terlimon, kiu estas 243 km longa
+        <klr>[&#x2026;]</klr> havas nur unu terlimon, kiu estas 243 km longa
         kaj dividas Sud-Koreion de norda parto Nord-Koreio
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=3752">Sud-Koreio</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3752">Sud-Koreio</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -240,7 +245,12 @@
     <trd lng="pt">Coreia do Sul</trd>
     <trd lng="tok">ma Anku</trd>
     <trd lng="vo">Sul&uuml;da-Korey&auml;n</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5357;&#x97D3; <pr>N&#xE1;nh&#xE1;n</pr></trd>,
+    <trd>&#x5357;&#x97D3; <pr>n&#xE1;nh&#xE1;n</pr></trd>,
+    <trd>&#x5357;&#x671D;&#x9BAE; <pr>N&#xE1;nCh&#xE1;oxi&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
 </drv>
 
 <drv mrk="kore.NordK0ujo">
@@ -259,14 +269,13 @@
       sur la norda parto de la <tld lit="K"/>a Duoninsulo:
       <ekz>
         Nord-Koreio a&ubreve; Nord-<tld lit="K"/>ujo, oficiale <tld lit="K"/>a 
-        Demokratia Popola Respubliko <klr>[&#8230;]</klr> limas la &Ccirc;inan
+        Demokratia Popola Respubliko <klr>[&#x2026;]</klr> limas la &Ccirc;inan
         Popolan 
-        Respublikon en la nordo <klr>[&#8230;]</klr> kaj Rusion en la
+        Respublikon en la nordo <klr>[&#x2026;]</klr> kaj Rusion en la
         nordoriento
         <fnt>
           <bib>Viki</bib>
-          <lok><url
-          ref="https://eo.wikipedia.org/?curid=3058">Nord-Koreio</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3058">Nord-Koreio</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -282,7 +291,11 @@
     <trd lng="pt">Coreia do Norte</trd>
     <trd lng="tok">ma Soson</trd>
     <trd lng="vo">Nol&uuml;da-Korey&auml;n</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5317;&#x671D;&#x9BAE; <pr>b&#x11B;ich&#xE1;oxi&#x1CE;n</pr></trd>,
+    <trd>&#x5317;&#x671D;&#x9BAE; <pr>B&#x11B;iCh&#xE1;oxi&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
 </drv>
 
 <drv mrk="kore.0a_Duoninsulo">
@@ -292,8 +305,7 @@
   <snc>
     <dif>
        Duoninsulo en orienta <ref tip="malprt" cel="azi.A0o">Azio</ref>
-       inter la Japana Maro kaj la <ref tip="malprt"
-       cel="mar.FlavaM0o">Flava Maro</ref>:
+       inter la Japana Maro kaj la <ref tip="malprt" cel="mar.FlavaM0o">Flava Maro</ref>:
       <ekz>
         la <tld/>a duoninsulo restas duonigita inter norda kaj suda
         partoj kaj da&ubreve;re minacas nuklea konflikto
@@ -318,6 +330,8 @@
   </snc>
   <trd lng="be">&c_K;&c_a;&c_r;&c_e;&c_j;&c_s;&c_k;&c_ib; &c_p;&c_a;&c_w;&c_v;&c_o;&c_s;&c_t;&c_r;&c_a;&c_w;</trd>
   <trd lng="de">Koreanische Halbinsel</trd>
+  <trd lng="nl">Koreaans schiereiland</trd>
+  <trd lng="zh">&#x671D;&#x9BAE;&#x534A;&#x5CF6; <pr>ch&#xE1;oxi&#x101;nb&#xE0;nd&#x1CE;o</pr></trd>
 </drv>
 
 
@@ -327,6 +341,18 @@
 
 <!--
 $Log$
+versio 1.25 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.23 2023/04/30 15:25:52
+Paul Peeraerts: Steloj -> monato
+
+versio 1.22 2023/04/26 13:30:16
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.21 2023/04/11 15:28:25
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.20 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -337,17 +363,5 @@ versio 1.18 2021/04/28 08:58:00
 Dmitri Gabinski: +trd be
 
 Revision 1.16  2019/06/30 18:21:03  revo
-adaptis URL de Monato
-
-Revision 1.15  2018/09/11 19:10:16  revo
-Wolfram Diestel: + ~a duoninsulo, ekz-oj, movas snc MED al hhoreo var
-
-Revision 1.14  2016/12/02 00:10:15  revo
-Robin van der Vliet: +trd
-
-Revision 1.13  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.12  2015/06/29 16:33:18  revo
 -->
 </vortaro>

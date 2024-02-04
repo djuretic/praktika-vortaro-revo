@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: unu.xml,v 1.189 2022/05/06 12:17:08 revo Exp $">
+<art mrk="$Id: unu.xml,v 1.199 2024/01/10 07:24:46 revo Exp $">
   <kap>
     <ofc>*</ofc>
     <rad>unu</rad>
@@ -9,11 +9,11 @@
 
 <drv mrk="unu.0">
   <kap><ofc>*</ofc><tld/></kap>
- 
+
   <snc mrk="unu.0.num">
     <mlg>1</mlg>
-    <dif>unu 
-      Numeralo esprimanta la elementan 
+    <dif>unu
+      Numeralo esprimanta la elementan
       <ref tip="lst" cel="nombr.0o.MAT" lst="voko:nombroj" val="1">nombron</ref>:
       <ekz>
         mi havas nur <tld/> bu&scirc;on, sed mi havas du orelojn
@@ -54,7 +54,7 @@
    <trd lng="hi">&#x90F;&#2325; [<ind>&emacron;k</ind>]</trd>
    <trd lng="pl">jeden</trd>
    <trd lng="ru">&c_o;&c_d;&c_i;&c_n;</trd>
-   <trd lng="zh">&#x4E00; [<ind>y&imacron;</ind>]</trd>
+   <trd lng="zh">&#x4E00; <pr>y&imacron;</pr></trd>
  </snc>
  <snc mrk="unu.0.ununura">
     <gra>senfleksia <vspec>adjektivo</vspec></gra>
@@ -246,7 +246,7 @@
     <rim num="2">
       Anka&ubreve; en &ccirc;i tiu signifo oni evitas la akuzativan
       formon
-      <tld/>n, kaj e&ccirc; la plurnombran formon <tld/>j; 
+      <tld/>n, kaj e&ccirc; la plurnombran formon <tld/>j;
       anstata&ubreve;e oni preferas uzi la sinonimon
       <ref tip="sin" cel="cert.0a.difinebla">certa(j)(n)<sncref/></ref>.
       <aut>Sergio Pokrovskij</aut>
@@ -307,7 +307,7 @@
   <trd lng="is">einn</trd>
   <trd lng="it">uno</trd>
   <trd lng="iu">&#x140A;&#5205;&#5125;&#x14EF;&#5509;</trd>
-  <trd lng="ja">&#x4E00; [<ind>&#12356;&#12385;</ind>]</trd>
+  <trd lng="ja">&#x4E00; <pr>&#12356;&#12385;</pr></trd>
   <trd lng="jv">siji</trd>
   <trd lng="ka">&#x10D4;&#x10E0;&#x10D7;&#x10D8;</trd>
   <trd lng="kek">jun</trd>
@@ -457,7 +457,7 @@
   <trd lng="hy">&#1377;&#x57C;&#1377;&#x57B;&#x56B;&#1398;</trd>
   <trd lng="ig">mb&#x1EE5;</trd>
   <trd lng="is">fyrst</trd>
-  <trd lng="ja">&#26368;&#x521D;&#x306E;</trd>
+  <trd lng="ja">&#26368;&#x521D;&#x306E; <pr>&#12373;&#12356;&#12375;&#12423;&#x306E;</pr></trd>
   <trd lng="jv">pisanan</trd>
   <trd lng="ka">&#x10DE;&#x10D8;&#x10E0;&#x10D5;&#x10D4;&#x10DA;&#x10D8;</trd>
   <trd lng="kek">xb&#789;een</trd>
@@ -544,28 +544,94 @@
   <trd lng="xh">ekuqaleni</trd>
   <trd lng="yi">&ayin;&resh;&shin;&tet;&ayin;&resh;</trd>
   <trd lng="yo">ak&#x1ECD;k&#x1ECD;</trd>
-  <trd lng="zh">&#x7B2C;&#x4E00;<klr> [d&igrave;y&imacron;]</klr></trd>
+  <trd lng="zh">&#x7B2C;&#x4E00;<klr> [d&igrave;y&#x15FB;]</klr></trd>
   <trd lng="zu">okokuqala</trd>
 </drv>
 
-
 <drv mrk="unu.0e">
   <kap><ofc>*</ofc><tld/>e</kap>
-  <snc>
+  <snc mrk="unu.0e.antaux_cxio">
     <dif>
-      En la <tld/>a loko:
+      En la <tld/>a loko; <ref tip="sin" cel="antaux.0cxio">anta&ubreve; &ccirc;io</ref> alia,
+      <ref tip="sin" cel="prioritat.0e">prioritate</ref>:
       <ekz>
         <tld/>e mi redonas al vi la monon, kiun vi pruntis al mi;
         due mi dankas vin por la prunto
-        <fnt><bib>F</bib>, <lok>&FE; 14</lok></fnt>.
-     </ekz>
+        <fnt><bib>F</bib>, <lok>&FE; 14</lok></fnt>;
+      </ekz>
+      <ekz>
+        foriru, <tld/>e paci&gcirc;u kun via frato, kaj <ref tip="ant" cel="post.0e">poste</ref>
+        venu kaj prezentu vian oferon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 5:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eligu <tld/>e la trabon el via okulo, kaj tiam vi klare vidos, por eltiri la
+        lignereton el la okulo de via frato
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 7:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;efa merito de fratoj <nom>Grimm</nom> estas <tld/>e, ke ili sukcesis kolekti tiel
+        grandan nombron da fabeloj, kaj due, ke ili efektive kolektis ilin
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu venis <tld/>e, muelas pli frue
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
     </dif>
+  </snc>
+  <snc mrk="unu.0e.unuafoje">
+    <dif>
+      <tld lit="U"/>afoje, <tld/>amomente:
+      <ekz>
+        pasis jam &gcirc;uste tridek jaroj de la momento, kiam Esperanto <tld/>e aperis anta&ubreve;
+        malgranda rondo da amikoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto
+          1908</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam Fernando ricevis tiun leteron, kiu estis nek subskribita nek e&ccirc;
+        manuskripta, li <tld/>e miregis, ne komprenante
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fenomeno, kiu <tld/>e &scirc;ajnis tute ne akordigebla kun &ccirc;iuj fiziologiaj kaj
+        naturaj le&gcirc;oj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  <trd lng="de">ersmalig</trd>
   </snc>
   <trdgrp lng="en">
     <trd>first</trd>,
     <trd>firstly</trd>,
     <trd>first of all</trd>,
     <trd>originally</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7B2C;&#x4E00;&#x306B;  <pr>&#12384;&#12356;&#12402;&#12392;&#x306B;</pr></trd>,
+    <trd>&#26368;&#x521D;&#x306B;  <pr>&#12373;&#12356;&#12375;&#12423;&#x306B;</pr></trd>,
+    <trd>&#x307E;&#x305A;</trd>
   </trdgrp>
   <trd lng="kek">xb&#789;eenwa</trd>
   <trd lng="be">&c_p;&c_a;-&c_p;&c_je;&c_r;&c_sh;&c_a;&c_je;</trd>
@@ -582,8 +648,9 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>zuerst</trd>,
-    <trd>als erstes</trd>,
-    <trd>erstens</trd>
+    <trd>als <ind>erstes</ind></trd>,
+    <trd>erstens</trd>,
+    <trd>zun&auml;chst</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>en primer lugar</trd>,
@@ -620,7 +687,7 @@
     <trd><ind>f&ouml;rst</ind> <klr>(och fr&auml;mst)</klr></trd>,
     <trd>f&ouml;r det <ind>f&ouml;rsta</ind></trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x43E;-&#x43F;&c_je;&c_r;&c_sh;&c_je;</trd>
+  <trd lng="uk">&c_p;&c_o;-&c_p;&c_je;&c_r;&c_sh;&c_je;</trd>
 </drv>
 
 <drv mrk="unu.0o">
@@ -723,7 +790,7 @@
     <fnt><bib>KompLeks</bib>, <lok>ne&ubreve;tra
     elemento</lok></fnt>
     <dif>
-      <ref tip="super" cel="neuxtr.0aelemento">Ne&ubreve;tra 
+      <ref tip="super" cel="neuxtr.0aelemento">Ne&ubreve;tra
         elemento</ref>
       rilate al multiplike signata
       <ref cel="operac.0o.MAT">operacio</ref>.
@@ -802,9 +869,9 @@
   <trd
   lng="lo">&#xEAB;&#xE99;&#xEC8;&#xEA7;&#xE8D;&#xE9A;&#xECD;&#xEA5;&#xEB4;&#xE81;&#xEB2;&#xE99;</trd>
   <trd lng="lt">vienetas</trd>
-  <trd lng="lv">vien&#x12B;ba</trd>
+  <trd lng="lv">vien&imacron;ba</trd>
   <trd lng="mg">vondrona</trd>
-  <trd lng="mi">k&#x14D;wae</trd>
+  <trd lng="mi">k&#5661;wae</trd>
   <trd lng="mk">&c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="ml">&#xD18;&#xD1F;&#xD15;&#xD02;</trd>
   <trd lng="mn">&c_n;&c_e;&c_g;&c_zh;</trd>
@@ -841,7 +908,6 @@
   <trd lng="yi">&alef;&#x5B7;&pe;&#x5BC;&alef;&#x5B7;&resh;&alef;&#x5B7;&tet;</trd>
   <trd lng="yo">kuro</trd>
 </drv>
-
 
 <drv mrk="unu.0ajxo">
   <kap>
@@ -880,13 +946,16 @@
   <trd lng="de">Ganzes</trd>
   <trd lng="en">unit</trd>
   <trd lng="es">unidad<klr> (que engloba todo)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E00;&#x584A;  <pr>&#12356;&#12387;&#x304B;&#12356;</pr></trd>,
+    <trd>&#x4E00;&#35201;&#x7D20;  <pr>&#12356;&#12385;&#12424;&#12358;&#x305D;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_jeu;&c_d;&c_i;&#x43D;&c_je; &c_c;&c_ib;&#x43B;&c_je;</trd>,
-    <trd>&c_b;&#x43B;&#x43E;&#x43A;</trd>,
-    <trd>&#x43C;&#x43E;&#x43D;&#x43E;&#x43B;&c_ib;&c_t;</trd>
+    <trd>&c_jeu;&c_d;&c_i;&c_n;&c_je; &c_c;&c_ib;&c_l;&c_je;</trd>,
+    <trd>&c_b;&c_l;&c_o;&c_k;</trd>,
+    <trd>&c_m;&c_o;&c_n;&c_o;&c_l;&c_ib;&c_t;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="unu.0eco">
   <kap><tld/>eco</kap>
@@ -961,13 +1030,19 @@
     <trd>per<ind>satu</ind>an</trd>
   </trdgrp>
   <trd lng="it">unit&agrave;<klr tip="amb"> (unione)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D71;&#x4E00;&#24615;  <pr>&#12392;&#12358;&#12356;&#12388;&#x305B;&#12356;</pr></trd>,
+    <trd>&#x4E00;&#x81F4;  <pr>&#12356;&#12387;&#12385;</pr></trd>,
+    <trd>&#x4E00;&#x8CAB;&#24615;  <pr>&#12356;&#12387;&#x304B;&#12435;&#x305B;&#12356;</pr></trd>,
+    <trd>&#21336;&#x4E00;&#24615;  <pr>&#x305F;&#12435;&#12356;&#12388;&#x305B;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="nl">eenheid<klr tip="ind"> (samenhorigheid)</klr></trd>
   <trd lng="no">enighet</trd>
   <trdgrp lng="sk">
     <trd>jednota</trd>,
     <trd>jednotnos&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&c_jeu;&c_d;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
+  <trd lng="uk">&c_jeu;&c_d;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="unu.0igi">
@@ -1052,6 +1127,12 @@
   <trd lng="id"><baz>satu</baz>menyatukan</trd>
   <trd lng="id">memper<ind>satu</ind>kan</trd>
   <trd lng="it">unire</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E00;&#12388;&#x306B;&#12377;&#x308B;  <pr>&#12402;&#12392;&#12388;&#x306B;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x7D50;&#21512;&#12373;&#x305B;&#x308B;  <pr>&#12369;&#12388;&#12372;&#12358;&#12373;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x7D71;&#x4E00;&#12377;&#x308B;  <pr>&#12392;&#12358;&#12356;&#12388;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x7D71;&#21512;&#12377;&#x308B;  <pr>&#12392;&#12358;&#12372;&#12358;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>verenigen</trd>,
     <trd>eenmaken</trd>
@@ -1068,9 +1149,9 @@
     <trd>zl&uacute;&ccaron;i&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_b;&#8217;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_jeu;&c_d;&#x43D;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&#x43E;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_o;&c_b;&#8217;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_jeu;&c_d;&c_n;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_o;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1079,7 +1160,7 @@
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      Kuni&gcirc;i en unu tuton:
+      <ref tip="super" cel="kun.0igxi">Kuni&gcirc;i</ref> en unu tuton:
       <ekz>
         la oksigeno <tld/>i&gcirc;as kun hidrogeno por naski akvon.
      </ekz>
@@ -1104,9 +1185,9 @@
           <bib>Homaranismo</bib>
           <vrk>Homaranismo</vrk>
         </fnt>;
-     </ekz><ekz>
+      </ekz><ekz>
         la Po&scirc;ta <tld/>i&gcirc;o;
-     </ekz><ekz>
+      </ekz><ekz>
         tio alkondukos eble al la <ind><tld/>i&gcirc;o</ind> de la
         homaro
         <fnt>
@@ -1163,6 +1244,12 @@
   <trd lng="hu">egyes&uuml;l</trd>
   <trd lng="id">ber<ind>satu</ind></trd>
   <trd lng="it">unirsi</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E00;&#12388;&#x306B;&#x306A;&#x308B;  <pr>&#12402;&#12392;&#12388;&#x306B;&#x306A;&#x308B;</pr></trd>,
+    <trd>&#x7D50;&#12403;&#12388;&#x304F;  <pr>&#12416;&#12377;&#12403;&#12388;&#x304F;</pr></trd>,
+    <trd>&#x56E3;&#x7D50;&#12377;&#x308B;  <pr>&#12384;&#12435;&#12369;&#12388;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x540C;&#x76DF;&#12377;&#x308B;  <pr>&#12393;&#12358;&#12417;&#12356;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">zich <ind>verenigen</ind></trd>
   <trd lng="no">forene seg</trd>
   <trdgrp lng="ru">
@@ -1173,15 +1260,126 @@
   </trdgrp>
   <trd lng="sv">f&ouml;renas</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_b;&#8217;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&c_jeu;&c_d;&#x43D;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&#x43F;&#x43E;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&c_z;&#8217;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+    <trd>&c_o;&c_b;&#8217;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_jeu;&c_d;&c_n;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_p;&c_o;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_z;&#8217;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="unu.0igxo">
+  <kap>
+    <tld/>i&gcirc;o
+  </kap>
+  <snc>
+    <dif>
+      Kuni&gcirc;o al <tld/> tuto:
+      <ekz>
+        ni disi&gcirc;is en paco kaj amo, same ni renkontos unu la alian anta&ubreve; Dio...
+        <klr>[&#8230;]</klr> &dash; ekzistas do sur la tero tiaj poemoj &dash; tiaj <tld/>i&gcirc;oj kaj
+        rememora&jcirc;oj...
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter la esperantistoj trovi&gcirc;as personoj, kiuj <klr>[&#8230;]</klr> revas, ke
+        <klr>[Esperanto]</klr> alkondukos eble al <tld/>i&gcirc;o de la homaro
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Nefermita letero al s-ro de Beaufront.</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        slavofiloj <klr>[&#8230;]</klr> oni nomis en Rusujo la partianojn de l&#8217; <tld/>i&gcirc;o de
+        &ccirc;iuj slavaj popoloj
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post dekkvar jaroj de senfrukta <tld/>i&gcirc;o, iliajn dezirojn fine estis realiginta
+        la nasko de filino
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Zalmuna</nom> forte penis imagi ian ekstazon, kiun &scirc;i sentos <klr>[&#8230;]</klr> anta&ubreve; la
+        statueto de la amata diino, kaj &ccirc;e la penso pri balda&ubreve;a <tld/>i&gcirc;o kun &scirc;i
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kion &scirc;i pensas: <klr>[&#8230;]</klr> la <tld/>i&gcirc;o de la animoj, el kio &scirc;i plue
+        opiniis, ke la&ubreve; tio la vorto &leftquot;animo&rightquot; signifas la seksajn organojn
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Sepa &Ccirc;apitro</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="unu.0igxo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Kuni&gcirc;o pro komuna politika celo:
+      <ekz>
+        armita <tld/>i&gcirc;o de nobelaro
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro VII.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="U"/>i&gcirc;o de Instruistoj organizis la unuajn oficialajn kursojn de
+        Esperanto
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="U"/>i&gcirc;o Internacia de Marionetistoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni proponis la starigon de Internacia <tld lit="U"/>i&gcirc;o de Esperantistaj
+        Societoj, kiel nura federacio, kun la CO kiel sidejo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="asoci.0o.societo">asocio<sncref/></ref>,
+      <ref cel="lig.0o.asocio">ligo<sncref/></ref>,
+      <ref cel="societ.0o.institucio">societo<sncref/></ref>
+    </refgrp>
+    <trd lng="en">union</trd>
+  </snc>
+  <trd lng="de">Vereinigung</trd>
+  <trd lng="en">unification</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D71;&#x4E00;  <pr>&#12392;&#12358;&#12356;&#12388;</pr></trd>,
+    <trd>&#x56E3;&#x7D50;  <pr>&#12384;&#12435;&#12369;&#12388;</pr></trd>,
+    <trd>&#21512;&#x540C;  <pr>&#12372;&#12358;&#12393;&#12358;</pr></trd>,
+    <trd>&#36899;&#21512;  <pr>&#x308C;&#12435;&#12372;&#12358;</pr></trd>,
+    <trd>&#x540C;&#x76DF;  <pr>&#12393;&#12358;&#12417;&#12356;</pr></trd>
   </trdgrp>
 </drv>
 
 <drv mrk="unu.0aajxo">
-  <kap><tld/>aa&jcirc;o    
+  <kap><tld/>aa&jcirc;o
   </kap>
   <snc mrk="unu.0aajxo.AGR">
     <dif>
@@ -1206,13 +1404,16 @@
     <trd>els&odblac; term&eacute;s</trd>
   </trdgrp>
   <trd lng="it">primizia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x521D;&#29289;  <pr>&#x306F;&#12388;&#12418;&#x306E;</pr></trd>,
+    <trd>&#x521D;&#x7A42;  <pr>&#x306F;&#12388;&#x307B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">primeur<klr tip="ind"> (fruit b.v.)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_je;&c_r;&c_sh;&c_i;&c_j; &#x43F;&#x43B;&c_ib;&c_d;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_sh;&c_i;&c_j; &#x43F;&c_r;&c_i;&#x43F;&#x43B;&c_ib;&c_d;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_sh;&c_i;&c_j; &c_p;&c_l;&c_ib;&c_d;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_sh;&c_i;&c_j; &c_p;&c_r;&c_i;&c_p;&c_l;&c_ib;&c_d;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="unu.0aeco">
   <kap><tld/>aeco<fnt>Z</fnt></kap>
@@ -1249,15 +1450,19 @@
  </trdgrp>
   <trd lng="fr">primaut&eacute;</trd>
   <trd lng="hu">els&odblac;s&eacute;g</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7B2C;&#x4E00;&#x4F4D;  <pr>&#12384;&#12356;&#12356;&#12385;&#12356;</pr></trd>,
+    <trd>&#x512A;&#20808;&#x6A29;  <pr>&#12422;&#12358;&#x305B;&#12435;&#12369;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
   <trdgrp lng="sk">
     <trd>prednos&tcaron;</trd>,
     <trd>priorita</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_je;&c_r;&c_sh;&c_ib;&c_s;&c_t;&#x44C;</trd>,
-    <trd>&c_r;&c_ib;&c_d;&c_sh;&c_je; &#x43F;&c_je;&c_r;&c_sh;&c_je;&#x43D;&c_s;&c_t;&c_v;&#x43E;</trd>,
-    <trd>&#x43F;&c_r;&c_ib;&#x43E;&c_r;&c_i;&c_t;&c_je;&c_t;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_sh;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_r;&c_ib;&c_d;&c_sh;&c_je; &c_p;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_p;&c_r;&c_ib;&c_o;&c_r;&c_i;&c_t;&c_je;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -1297,15 +1502,16 @@
     <trd>&eacute;lenj&aacute;r&oacute;</trd>,
     <trd>els&odblac; ember</trd>
   </trdgrp>
+  <trd lng="ja">&#x7B2C;&#x4E00;&#x4EBA;&#32773;  <pr>&#12384;&#12356;&#12356;&#12385;&#x306B;&#12435;&#12375;&#12419;</pr></trd>
   <trd lng="nl">eersteling</trd>
-  <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_y;&c_j;<klr> (&c_v; 
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_y;&c_j;<klr> (&c_v;
 &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.)</klr></trd>
   <trd lng="sk">popredn&aacute; osobnos&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_je;&c_r;&c_sh;&c_i;&c_j; (&c_u; &c_z;&#x43D;&c_a;&c_ch;. &c_ib;&#x43C;.)</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_sh;&c_i;&c_j; (&c_u; &c_z;&c_n;&c_a;&c_ch;. &c_ib;&c_m;.)</trd>,
     <trd>&c_c;&c_a;&c_r;</trd>,
-    <trd>&c_v;&#x43E;&#x43B;&#x43E;&c_d;&c_a;&c_r;</trd>,
-    <trd>&c_v;&#x43B;&c_a;&c_d;&c_i;&#x43A;&c_a;</trd>
+    <trd>&c_v;&c_o;&c_l;&c_o;&c_d;&c_a;&c_r;</trd>,
+    <trd>&c_v;&c_l;&c_a;&c_d;&c_i;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -1332,6 +1538,10 @@
     <trd>els&odblac; term&eacute;s</trd>
   </trdgrp>
   <trd lng="it">primizia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x521D;&#29289;  <pr>&#x306F;&#12388;&#12418;&#x306E;</pr></trd>,
+    <trd>&#x521D;&#x7A42;  <pr>&#x306F;&#12388;&#x307B;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_ch;&c_a;&c_t;&c_k;&c_i;</trd>
 </drv>
 
@@ -1355,7 +1565,7 @@
   <trd lng="it">unifero<klr> (mat.)</klr></trd>
   <trd lng="pl"><klr tip="ind">(pier&sacute;cie&nacute;) </klr>z
     <ind>jedynk&aogonek;</ind></trd>
-  <trd lng="ru">&c_s; 
+  <trd lng="ru">&c_s;
 <ind>&c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_je;&c_j;</ind><klr>
       (&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o; &c_i;
       &c_t;.&c_p;.)</klr></trd>
@@ -1487,7 +1697,7 @@
   &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ja;</trd>
   <trd lng="sk">mern&aacute; jednotka</trd>
 <trd lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE27;&#xE31;&#xE14;</trd>
-  <trd lng="uk">&#x43E;&c_d;&c_i;&#x43D;&c_i;&c_c;&#x44F; &c_v;&c_i;&#x43C;&c_ib;&c_r;&c_u;</trd>
+  <trd lng="uk">&c_o;&c_d;&c_i;&c_n;&c_i;&c_c;&c_ja; &c_v;&c_i;&c_m;&c_ib;&c_r;&c_u;</trd>
 </drv>
 
 <drv mrk="unu.mon0o">
@@ -1542,6 +1752,10 @@
   <trd lng="hu">p&eacute;nzegys&eacute;g</trd>
   <trd lng="id"><ind>mata</ind> uang</trd>
   <trd lng="it"><ind>unit&agrave;</ind> monetaria</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8CA8;&#x5E63;&#21336;&#x4F4D;  <pr>&#x304B;&#12408;&#12356;&#x305F;&#12435;&#12356;</pr></trd>,
+    <trd>&#x901A;&#x8CA8;&#21336;&#x4F4D;  <pr>&#12388;&#12358;&#x304B;&#x305F;&#12435;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="nl">munteenheid</trd>
   <trd lng="no">myntenhet</trd>
   <trd lng="ru">&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_a;&c_ja;
@@ -1549,7 +1763,7 @@
   <trd lng="sk">pe&ncaron;a&zcaron;n&aacute; jednotka</trd>
 <trd
 lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&#xE23;&#xE32;</trd>
-  <trd lng="uk">&c_g;&c_r;&#x43E;&c_sh;&#x43E;&c_v;&c_a; &#x43E;&c_d;&c_i;&#x43D;&c_i;&c_c;&#x44F;</trd>
+  <trd lng="uk">&c_g;&c_r;&c_o;&c_sh;&c_o;&c_v;&c_a; &c_o;&c_d;&c_i;&c_n;&c_i;&c_c;&c_ja;</trd>
 </drv>
 
 <drv mrk="unu.monasub0o">
@@ -1564,6 +1778,10 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_r;&c_o;&c_b;&c_n;&c_a;&c_ja; &c_g;&c_r;&c_a;&c_sh;&c_o;&c_v;&c_a;&c_ja; &c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_mol;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja; <ind>&c_m;&c_a;&c_n;&c_e;&c_t;&c_a;</ind></trd>
+  </trdgrp>
   <trd lng="br">isunanenn voneiz</trd>
   <trd lng="ca">subunitat monet&agrave;ria</trd>
   <trdgrp lng="en">
@@ -1575,7 +1793,7 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   <trd lng="fr">sous-unit&eacute; mon&eacute;taire</trd>
   <trd lng="hu">v&aacute;lt&oacute;p&eacute;nz</trd>
   <trdgrp lng="it">
-    <trd><ind>sottounit&agrave;</ind> monetaria</trd>, 
+    <trd><ind>sottounit&agrave;</ind> monetaria</trd>,
     <trd>sottomultiplo<klr> (di unit&agrave; monetaria)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;
@@ -1658,19 +1876,76 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a; <klr>(&c_v;&c_y;&c_m;&c_ja;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_ja;)</klr></trd>
   <trd lng="ca">m&uacute;ltiple</trd>
   <trd lng="es">m&uacute;ltiplo<klr> (de unidad de medida)
   </klr></trd>
   <trdgrp lng="fi">
-    <trd>kerrannaisyksikk&ouml; <klr tip="amb"> (yksik&ouml;n
-        monikerta)</klr></trd>
+    <trd>kerrannaisyksikk&ouml; <klr tip="amb"> (yksik&ouml;n monikerta)</klr></trd>
   </trdgrp>
   <trd lng="fr">multiple<klr> (d'unit&eacute; de mesure)</klr></trd>
   <trd lng="hu">t&ouml;bbsz&ouml;r&ouml;s egys&eacute;g</trd>
   <trd lng="it">multiplo<klr> (di misura)</klr></trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;
   &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ja;</trd>
- </drv>
+</drv>
+
+<drv mrk="unu.0_la_alian">
+  <kap>
+    <tld/> la alian,
+    <var><kap><tld/> al la alia</kap></var>
+  </kap>
+  <uzo tip="stl">FRAZ</uzo>
+  <snc>
+    <dif>
+      Unu agante a&ubreve; efikante al iu alia same, kiel tiu al la unua;
+      <ref tip="sin" cel="recipr.0e">reciproke</ref>:
+      <ekz>
+        ne malprofitigu <tld/> la alian
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 25:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        du knaboj jam &ccirc;irka&ubreve;prenas <tld/> la alian
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili diris <tld/> al la alia: kial ni sidas &ccirc;i tie, &gcirc;is ni mortos
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 7:3</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        &ccirc;iuminute oni penis korekti <tld/> la alian
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        apogante sin reciproke <tld/> al la alia
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="si.inter0">inter si</ref>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_z;&c_ib;&c_n; &c_a;&c_d;&c_n;&c_a;&c_g;&c_o;</trd>,
+    <trd>&c_a;&c_d;&c_z;&c_ib;&c_n; &c_a;&c_d;&c_n;&c_a;&c_m;&c_u;</trd>
+  </trdgrp>
+  <trd lng="de">einadner</trd>
+  <trd lng="en">each other</trd>
+  <trd lng="fr">l'un l'autre</trd>
+  <trd lng="ja">&#x304A;&#x4E92;&#12356;&#x306B;  <pr>&#x304A;&#x305F;&#x304C;&#12356;&#x306B;</pr></trd>
+</drv>
 
 <drv mrk="unu.0_post_la_alia">
   <kap><tld/> post la alia,
@@ -1704,32 +1979,33 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   <trd lng="be">&c_a;&c_d;&c_z;&c_ib;&c_n; &c_z;&c_a; &c_a;&c_d;&c_n;&c_y;&c_m;</trd>
   <trd lng="es">el uno despu&eacute;s del otro</trd>
   <trd lng="fr">l'un apr&egrave;s l'autre</trd>
+  <trd lng="ja">&#x6B21;&#12293;&#x306B;  <pr>&#12388;&#x304E;&#12388;&#x304E;&#x306B;</pr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
-versio 1.189 2022/05/06 12:17:08
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.188 2022/05/04 08:37:15
+versio 1.199 2024/01/10 07:24:46
 Dmitri Gabinski: + trd be
 
-versio 1.184 2022/02/12 13:40:28
-Noam Mohr: +trd en unu-
+versio 1.198 2023/12/12 20:10:29
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.183 2021/12/11 17:41:16
-Warut Bunprasert: red th
-
-versio 1.182 2021/08/20 12:48:06
+versio 1.197 2023/11/27 09:28:00
 Dmitri Gabinski: + trd be
 
-versio 1.181 2021/07/28 14:26:26
-Dmitri Gabinski: + trd be
+versio 1.196 2023/10/21 16:50:28
+revo: transskribo per <pr>
 
-versio 1.104 2021/05/08 10:54:32
-Guillermo Molleda Jimena: +trd es
+versio 1.195 2023/09/10 15:34:10
+revo: korekto de transskribo
 
-versio 1.103 2020/10/06 20:10:54
+versio 1.193 2023/08/29 15:27:53
+Wolfram Diestel: ja: prononco
+
+versio 1.192 2023/06/14 06:29:06
+Wolfram Diestel: +~i&gcirc;o
+
+versio 1.191 2023/06/03 08:25:49
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: asperg.xml,v 1.23 2022/10/27 10:36:53 revo Exp $">
+<art mrk="$Id: asperg.xml,v 1.26 2023/10/28 08:33:09 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>asperg</rad>/i
@@ -27,7 +27,7 @@
       </ekz>
       <ekz>
         la pastro trempos sian dekstran fingron en la oleo
-        <klr>[&#8230;]</klr> kaj li
+        <klr>[&#x2026;]</klr> kaj li
         <tld/>os per la oleo de sia fingro sep fojojn anta&ubreve; la Eternulo
         <fnt>
           <bib>MT</bib>
@@ -113,7 +113,17 @@
       <trd>&c_o;&c_p;&c_r;&c_y;&c_s;&c_k;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_o;&c_b;&c_r;&c_y;&c_z;&c_g;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x55B7;&#x96FE;&#x7ED9;&#x6E7F; <pr>p&#x113;nw&#xF9;g&#x11B;ish&#x12B;</pr></trd>,
+    <trd>&#x5674;&#x9727;&#x7D66;&#x6FD5; <pr>p&#x113;nw&#xF9;g&#x11B;ish&#x12B;</pr></trd>,
+    <trd>&#x55B7;&#x6D12; <pr>p&#x113;ns&#x1CE;</pr></trd>,
+    <trd>&#x5674;&#x7051; <pr>p&#x113;ns&#x1CE;</pr></trd>,
+    <trd>&#x55B7;&#x5C04; <pr>p&#x113;nsh&#xE8;</pr></trd>,
+    <trd>&#x5674;&#x5C04; <pr>p&#x113;nsh&#xE8;</pr></trd>,
+    <trd>&#x4F7F;&#x7C98;&#x4E0A;&#x6591;&#x70B9; <pr>sh&#x1D0;zh&#x101;nsh&#xE0;ngb&#x101;ndi&#x1CE;n</pr></trd>,
+    <trd>&#x4F7F;&#x7C98;&#x4E0A;&#x6591;&#x9EDE; <pr>sh&#x1D0;zh&#x101;nsh&#xE0;ngb&#x101;ndi&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="cs">kropit</trd>
   <trdgrp lng="de">
     <trd>bespr&uuml;hen</trd>,
@@ -121,6 +131,10 @@
   </trdgrp>
   <trd lng="he">&#x5DC;&#x5D8;&#x5E4;&#x5D8;&#x5E3; (&#x5D1;&#x5D0;&#x5D9;&#x5E8;&#x5D5;&#x5E2;
   &#x5D3;&#x5EA;&#x5D9;)</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6C34;&#x3092;&#x3084;&#x308B;  <pr>&#x307F;&#x305A;&#x3092;&#x3084;&#x308B;</pr></trd>,
+    <trd>&#x8056;&#x6C34;&#x3092;&#x632F;&#x308A;&#x304B;&#x3051;&#x308B;  <pr>&#x3072;&#x3058;&#x308A;&#x3059;&#x3044;&#x3092;&#x3075;&#x308A;&#x304B;&#x3051;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>kropi&tcaron;</trd>,
     <trd>pof&racute;ka&tcaron;</trd>,
@@ -175,10 +189,9 @@
     <dif>
       Ilo por <ref cel="asperg.0i.REL">aspergi<sncref/></ref>:
       <ekz>
-        la misiisto, <tld/>ilo enmane, benis la <klr>[&#8230;]</klr> akvon
+        la misiisto, <tld/>ilo enmane, benis la <klr>[&#x2026;]</klr> akvon
         <fnt>
-          <vrk><url
-          ref="http://wallydutemple.com/wp/2015/12/30/k-antologio-ok-kebekiaj-kaj-kanada-rakontoj-verkita-kaj-tradu/">K.
+          <vrk><url ref="http://wallydutemple.com/wp/2015/12/30/k-antologio-ok-kebekiaj-kaj-kanada-rakontoj-verkita-kaj-tradu/">K.
           Antologio / Ok Rakontoj</url></vrk>
         </fnt>.
       </ekz>
@@ -221,6 +234,10 @@
     <trd>aspersorio</trd>,
     <trd>nebulizzatore</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x3058;&#x3087;&#x308D;</trd>,
+    <trd>&#x8056;&#x6C34;&#x5668;  <pr>&#x3072;&#x3058;&#x308A;&#x3059;&#x3044;&#x3046;&#x3064;&#x308F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_r;&c_o;&c_p;&c_i;&c_l;&c_o;</trd>,
     <trd>&c_l;&c_je;&c_j;&c_k;&c_a;</trd>
@@ -237,6 +254,9 @@
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
 versio 1.23 2022/10/27 10:36:53
 Dmitri Gabinski: + trd be
 
@@ -256,8 +276,5 @@ Revision 1.15  2015/06/28 12:03:36  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.14  2013/01/26 02:10:08  revo
-Carlos Garcia: +trd es -o -il
-
-Revision 1.13  2012/01/31 18:10:40  revo
 -->
 </vortaro>

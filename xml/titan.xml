@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: titan.xml,v 1.20 2022/03/28 14:44:11 revo Exp $">
+<art mrk="$Id: titan.xml,v 1.23 2023/10/21 13:52:03 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>titan</rad>/o
@@ -56,9 +56,7 @@
     </dif>
   </snc>
   <ref tip="hom" cel="titan1.0o">titano (metalo)</ref>
-  <trd lng="be">
-    &c_t;&c_y;&c_t;&c_a;&c_n; <klr>(&c_v;&c_o;&c_l;&c_a;&c_t;)</klr>
-  </trd>
+  <trd lng="be"> &c_t;&c_y;&c_t;&c_a;&c_n; <klr tip="amb">(&c_v;&c_o;&c_l;&c_a;&c_t;)</klr></trd>
   <trd lng="ca">tit&agrave;</trd>
   <trdgrp lng="cs">
     <trd>Ti</trd>,
@@ -102,22 +100,23 @@
     </dif>
     <trd lng="ca">Tit&agrave;</trd>
   </snc>
+  <trd lng="be">&c_T;&c_y;&c_t;&c_a;&c_n; <klr>(&c_s;&c_p;&c_a;&c_d;&c_a;&c_r;&c_o;&c_zh;&c_n;&c_ib;&c_k; &c_S;&c_a;&c_t;&c_u;&c_r;&c_n;&c_a;)</klr></trd>
   <trd lng="de">Titan <klr>(Saturnmond)</klr></trd>
+  <trd lng="ja">&#x30C1;&#x30BF;&#x30F3;</trd>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x438;&#x442;&#x430;&#x43D;</trd>,
-    <trd>&#x433;&#x456;&#x433;&#x430;&#x43D;&#x442;</trd>,
-    <trd>&#x432;&#x435;&#x43B;&#x435;&#x442;&#x435;&#x43D;&#x44C;</trd>
+    <trd>&c_t;&c_i;&c_t;&c_a;&#x43D;</trd>,
+    <trd>&c_g;&c_ib;&c_g;&c_a;&#x43D;&c_t;</trd>,
+    <trd>&c_v;&c_je;&#x43B;&c_je;&c_t;&c_je;&#x43D;&#x44C;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="titan.T0oj">
   <kap><tld lit="T"/>oj</kap>
   <snc mrk="titan.T0oj.MIT">
   <uzo tip="fak">MIT</uzo>
     <dif>
-      En la helena mitaro, kolektiva nomo de la ses filoj de 
-      <ref tip="vid" cel="uran.0o.MIT">Urano</ref> kaj 
+      En la helena mitaro, kolektiva nomo de la ses filoj de
+      <ref tip="vid" cel="uran.0o.MIT">Urano</ref> kaj
       <ref tip="vid" cel="ge1.0o">Geo</ref> (Oceano, Ceo, Krio,
       Iperiono, &Gcirc;iapeto, <ref tip="vid" cel="kron1.0o">Krono</ref>), gigantaj
       esta&jcirc;oj dotitaj per superhoma forto. Oni ne konfuzu la
@@ -129,6 +128,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_t;&c_y;&c_t;&c_a;&c_n;&c_y;</trd>
     <trd lng="ca">els titans</trd>
     <trd lng="it">Titani</trd>
     <trd lng="en">Titans</trd>
@@ -182,16 +182,26 @@
     <trd>obrovsk&yacute;</trd>,
     <trd>tit&aacute;nsk&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5DE8;&#x5927;&#x306A;  <pr>&#x304D;&#x3087;&#x3060;&#x3044;&#x306A;</pr></trd>,
+    <trd>&#x8D85;&#x4EBA;&#x7684;&#x306A;  <pr>&#x3061;&#x3087;&#x3046;&#x3058;&#x3093;&#x3066;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>nad&lcaron;udsk&yacute;</trd>,
     <trd>obrovsk&yacute;</trd>,
     <trd>titansk&yacute;</trd>
   </trdgrp>
-  <trd lng="uk">&#x442;&#x438;&#x442;&#x430;&#x43D;&#x456;&#x447;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_t;&c_i;&c_t;&c_a;&#x43D;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/21 13:52:03
+revo: transskribo per <pr>
+
+versio 1.21 2023/07/21 07:24:08
+Dmitri Gabinski: + trd be
+
 versio 1.19 2021/06/18 18:35:48
 Wolfram Diestel: +ekz-oj, ref-oj
 
@@ -208,11 +218,5 @@ Revision 1.14  2008/11/05 17:31:51  revo
 Marc Bavant: ~oj: kor mrk, uzo de tld, kor ref al Geo, +adm
 
 Revision 1.13  2008/09/12 16:30:24  revo
-Sebastian Cyprych: +trd pl
-Revision 1.12  2008/09/04 19:07:57  revo
-Antonio Codazzi: aldono itala kaj angla traduko; plibonigo de la difino
-kaj aldono plurala signifo kaj de fako AST.
-Revision 1.11  2006/02/15 17:35:08  revo
-Tulio Flores: +trd pt
 -->
 </vortaro>

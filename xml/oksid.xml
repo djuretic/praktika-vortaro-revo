@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: oksid.xml,v 1.27 2022/03/24 15:12:21 revo Exp $">
+<art mrk="$Id: oksid.xml,v 1.32 2024/01/30 16:09:26 revo Exp $">
 <kap>
-  <ofc>4</ofc><rad>oksid</rad>/o <fnt>Z</fnt> <fnt><bib>VdE</bib></fnt> 
+  <ofc>4</ofc><rad>oksid</rad>/o <fnt>Z</fnt> <fnt><bib>VdE</bib></fnt>
 </kap>
 <drv mrk="oksid.0o">
   <kap><tld/>o</kap>
@@ -41,7 +41,7 @@
     <aut>Sergio Pokrovskij</aut>
   </rim>
   <trdgrp lng="be">
-    <trd>&c_a;&c_k;&c_s;&c_ib;&c_d;</trd>,
+    <trd>&c_a;&c_k;&c_s;&c_y;&c_d;</trd>,
     <trd>&c_v;&c_o;&c_k;&c_ib;&c_s;</trd>
   </trdgrp>
   <trdgrp lng="cs">
@@ -58,6 +58,7 @@
   <trd lng="fr">oxyde</trd>
   <trd lng="hu">oxid</trd>
   <trd lng="id">oksida</trd>
+  <trd lng="ja">&#x9178;&#x5316;&#x7269;  <pr>&#x3055;&#x3093;&#x304B;&#x3076;&#x3064;</pr></trd>
   <trd lng="nl">oxyde</trd>
   <trd lng="pl">tlenek</trd>
   <trd lng="pt">&oacute;xido</trd>
@@ -69,10 +70,15 @@
   </trdgrp>
   <trd lng="sk">oxid</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x43A;&#x441;&#x438;&#x434;</trd>,
-    <trd>&#x43E;&#x43A;&#x438;&#x441;&#x435;&#x43D;&#x44C;</trd>
+    <trd>&#x43E;&#x43A;&c_s;&c_i;&c_d;</trd>,
+    <trd>&#x43E;&#x43A;&c_i;&c_s;&c_je;&#x43D;&#x44C;</trd>
   </trdgrp>
   <trd lng="vo">x&uuml;d</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6C27;&#x5316;&#x7269; <pr>y&#x1CE;nghu&#xE0;w&#xF9;</pr></trd>,
+    <trd>&#x6C27;&#x5316;&#x76D0; <pr>y&#x1CE;nghu&#xE0;y&#xE1;n</pr></trd>,
+    <trd>&#x6C27;&#x5316;&#x9E7D; <pr>y&#x1CE;nghu&#xE0;y&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="oksid.0igi">
@@ -122,6 +128,7 @@
   <trd lng="es">oxidar</trd>
   <trd lng="fr">oxyder</trd>
   <trd lng="hu">oxid&aacute;l</trd>
+  <trd lng="ja">&#x9178;&#x5316;&#x3055;&#x305B;&#x308B;  <pr>&#x3055;&#x3093;&#x304B;&#x3055;&#x305B;&#x308B;</pr></trd>
   <trdgrp lng="pl">
     <trd>utlenia&cacute;</trd>
     <trd>oksydowa&cacute;<klr> (pokrywa&cacute; tlenkami)</klr></trd>
@@ -137,11 +144,13 @@
     <trd>okysli&ccaron;ovat</trd>,
     <trd>oxidovat</trd>
   </trdgrp>
+  <trd lng="id"><baz>oksidasi</baz>mengoksidasi</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x43A;&#x438;&#x441;&#x43D;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x43E;&#x43A;&#x438;&#x441;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43E;&#x43A;&#x441;&#x438;&#x434;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43E;&#x43A;&c_i;&c_s;&#x43D;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&#x43A;&c_i;&c_s;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&#x43A;&c_s;&c_i;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x6C27;&#x5316; <pr>y&#x1CE;nghu&#xE0;</pr></trd>
 </drv>
 
 <drv mrk="oksid.ne0igebla">
@@ -155,8 +164,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_a;&c_k;&c_ib;&c_s;&c_mol;&c_l;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="en">inoxydable</trd>
   <trd lng="fr">inoxydable</trd>
+  <trd lng="id">tak ter<ind>oksidasi</ind></trd>
   <trd lng="pl">nieutlenialny</trd>
   <trd lng="ro">neoxidant</trd>
   <trdgrp lng="ru">
@@ -187,12 +198,15 @@
         Katalizeca Malkombini&gcirc;o de Karbono Unuoksida
         <klr>(bro&scirc;urtitolo)</klr>
         <fnt><lok>Referencoj en &leftquot;Brita esperantisto&rightquot;,
-          <url ref="https://archive.org/stream/britaesperantisto_1929_n289_apr/britaesperantisto_1929_n289_apr_djvu.txt">n-ro 289, 1929:4</url> kaj &leftquot;Amerika esperantisto&rightquot;,
+          <url ref="https://archive.org/stream/britaesperantisto_1929_n289_apr/britaesperantisto_1929_n289_apr_djvu.txt">n-ro
+          289, 1929:4</url> kaj &leftquot;Amerika esperantisto&rightquot;,
           vol. 42 (1930), p. 49</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_m;&c_o;&c_n;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">monoxide</trd>
+  <trd lng="id">monoksida</trd>
   <trd lng="pl">monotlenek</trd>
   <trd lng="ro">monoxid</trd>
   <trdgrp lng="ru">
@@ -229,11 +243,14 @@
         por elimini la sulfuran du<tld/>on estas necesa relative
         malalta koncentriteco de hidrogenaj jonoj
         <fnt><aut>B. Kolker</aut>: <vrk>Esperanto en 16 tagoj</vrk>.
-        <lok><url ref="http://esperanto-mv.narod.ru/Esp16/X10.html">Leciono 10&#xAA;</url></lok></fnt>.
+        <lok><url ref="http://esperanto-mv.narod.ru/Esp16/X10.html">Leciono
+        10&#xAA;</url></lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_y;&c_ja;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">dioxide</trd>
+  <trd lng="id">dioksida</trd>
   <trdgrp lng="pl">
     <trd>dwutlenek</trd>,
     <trd>ditlenek</trd>
@@ -243,6 +260,7 @@
     <trd>&c_d;&c_v;&c_u;&c_o;&c_k;&c_i;&c_s;&c_mol;</trd>,
     <trd>&c_d;&c_i;&c_o;&c_k;&c_s;&c_i;&c_d;</trd>
   </trdgrp>
+  <trd lng="zh">&#x4E8C;&#x6C27;&#x5316;&#x7269; <pr>&#xE8;ry&#x1CE;nghu&#xE0;w&#xF9;</pr></trd>
 </drv>
 
 <drv mrk="oksid.tri0o">
@@ -259,7 +277,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_r;&c_y;&c_ja;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">trioxide</trd>
+  <trd lng="id">trioksida</trd>
   <trd lng="pl">tritlenek</trd>
   <trd lng="ro">trioxid</trd>
   <trdgrp lng="ru">
@@ -277,11 +297,14 @@
       <ekz>
         osmia kvar<tld/>o <klr>(<frm>OsO<sub>4</sub></frm>) </klr>
         <fnt><aut>B. Kolker</aut>: <vrk>Esperanto en 16 tagoj</vrk>.
-          <lok><url ref="http://esperanto-mv.narod.ru/Esp16/X06.html">Leciono 6&#xAA;</url></lok></fnt>.
+          <lok><url ref="http://esperanto-mv.narod.ru/Esp16/X06.html">Leciono
+          6&#xAA;</url></lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_e;&c_t;&c_r;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">tetroxide</trd>
+  <trd lng="id">tetroksida</trd>
   <trd lng="pl">tetratlenek</trd>
   <trd lng="ro">tetroxid</trd>
   <trdgrp lng="ru">
@@ -302,7 +325,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_e;&c_n;&c_t;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">pentoxide</trd>
+  <trd lng="id">pentoksida</trd>
   <trd lng="pl">pentatlenek</trd>
   <trd lng="ro">pentoxid</trd>
   <trdgrp lng="ru">
@@ -324,7 +349,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_je;&c_k;&c_s;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">hexoxide</trd>
+  <trd lng="id">heksoksida</trd>
   <trd lng="pl">heksatlenek</trd>
   <trd lng="ro">hexoxid</trd>
   <trdgrp lng="ru">
@@ -350,7 +377,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_je;&c_p;&c_t;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">heptoxide</trd>
+  <trd lng="id">heptoksida</trd>
   <trd lng="pl">heptatlenek</trd>
   <trd lng="ro">heptoxid</trd>
   <trdgrp lng="ru">
@@ -372,7 +401,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_k;&c_t;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">octoxide</trd>
+  <trd lng="id">oktoksida</trd>
   <trd lng="pl">oktatlenek</trd>
   <trd lng="ro">octaoxid</trd>
   <trdgrp lng="ru">
@@ -395,7 +426,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_o;&c_n;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">nonoxide</trd>
+  <trd lng="id">nonoksida</trd>
   <trd lng="pl">nonatlenek</trd>
   <trd lng="ro">nonoxid</trd>
   <trd lng="ru">&c_n;&c_o;&c_n;&c_a;&c_o;&c_k;&c_s;&c_i;&c_d;</trd>
@@ -414,7 +447,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_e;&c_k;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">decoxide</trd>
+  <trd lng="id">dekoksida</trd>
   <trd lng="pl">dekatlenek</trd>
   <trd lng="ro">decaoxid</trd>
 </drv>
@@ -432,7 +467,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_u;&c_n;&c_d;&c_e;&c_k;&c_a;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">undecaoxide</trd>
+  <trd lng="id">undekaoksida</trd>
   <trd lng="pl">undekatlenek</trd>
   <trd lng="ro">undecaoxid</trd>
   <trd lng="ru">&c_u;&c_n;&c_d;&c_je;&c_k;&c_a;&c_o;&c_k;&c_s;&c_i;&c_d;</trd>
@@ -452,7 +489,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_o;&c_l;&c_ib;&c_a;&c_k;&c_s;&c_y;&c_d;</trd>
   <trd lng="en">polyoxide</trd>
+  <trd lng="id">polioksida</trd>
   <trd lng="pl">politlenek</trd>
   <trd lng="ro">polioxid</trd>
   <trdgrp lng="ru">
@@ -464,8 +503,17 @@
 </art>
 <!--
 $Log$
+versio 1.31 2023/11/21 09:27:27
+Dmitri Gabinski: + trd be
+
+versio 1.30 2023/10/26 03:25:04
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.29 2023/10/20 13:11:47
+revo: transskribo per <pr>
+
 versio 1.26 2022/02/27 22:29:42
-Vito Redsky: + trd pl + trd ro 
+Vito Redsky: + trd pl + trd ro
 
 versio 1.25 2020/11/27 07:10:32
 Sergio Pokrovskij: 6,7,8~o
@@ -477,14 +525,5 @@ versio 1.23 2020/11/27 03:10:38
 Sergio Pokrovskij: +4,5~o
 
 versio 1.22 2020/11/26 12:11:03
-Sergio Pokrovskij: +11~o
-
-versio 1.21 2020/11/26 05:11:01
-Sergio Pokrovskij: +rim
-
-versio 1.20 2020/11/25 09:11:02
-Sergio Pokrovskij: +trd=ru, +unu~o, +du~o
-
-Revision 1.18  2015/07/04 08:37:40  revo
 -->
 </vortaro>

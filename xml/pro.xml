@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pro.xml,v 1.35 2022/05/28 18:37:14 revo Exp $">
+<art mrk="$Id: pro.xml,v 1.41 2023/10/20 16:38:17 revo Exp $">
 <kap>
    <ofc>*</ofc> <rad>pro</rad>
 </kap>
@@ -39,7 +39,7 @@
         </fnt>;
       </ekz>
      <ekz>
-       li demandis &scirc;in <klr>[&#8230;]</klr> <ind><tld/> kio</ind> 
+       li demandis &scirc;in <klr>[&#8230;]</klr> <ind><tld/> kio</ind>
        <klr>(vd <ref cel="kial.0">kial</ref>)</klr>
        &scirc;i ploras
         <fnt>
@@ -252,7 +252,7 @@
     <trdgrp lng="de">
      <trd>f&uuml;r</trd>,
      <trd>statt</trd>
-   </trdgrp> 
+   </trdgrp>
   <trdgrp lng="fr">
      <trd>contre<klr tip="ind"> (en &eacute;change de)</klr></trd>,
      <trd>en &eacute;change de</trd>
@@ -261,7 +261,14 @@
      <trd>miatt</trd>,
      <trd>-<ind>&eacute;rt</ind></trd>
    </trdgrp>
-   <trd lng="nl">tegen</trd>
+   <trdgrp lng="ja">
+    <trd>&#xFF5E;<ind>&#x306E;&#x305B;&#12356;&#12391;</ind></trd>,
+    <trd>&#xFF5E;<ind>&#x306E;&#x305F;&#12417;&#x306B;</ind></trd>,
+    <trd>&#xFF5E;<ind>&#x306E;&#x4EE3;&#x4FA1;&#12392;&#12375;&#12390;  </ind><pr>&#x306E;&#12384;&#12356;&#x304B;&#12392;&#12375;&#12390;</pr></trd>,
+    <trd>&#xFF5E;<ind>&#12392;&#x5F15;&#x304D;&#x63DB;&#12360;&#x306B;
+    </ind><pr>&#12392;&#12402;&#x304D;&#x304B;&#12360;&#x306B;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">tegen</trd>
    <trdgrp lng="pl">
      <trd>dla  <klr>(z powodu)</klr></trd>,
      <trd>gwoli  <klr>(wskutek)</klr></trd>,
@@ -327,10 +334,12 @@
       <ekz>
         oni devas pagi jaran imposton al la urba administracio nur <tld/> tio, ke oni la
         domon posedas
-        <fnt>
+       <fnt>
+          <aut>Remigiusz Mielcarek</aut>
+
+          <vrk><url ref="&Monato;/1994/A940101.php">Enmigrintoj en ora ka&gcirc;o</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9401-kanado.txt">Kanado</url></vrk>
-          <lok>94/01</lok>
+          <lok>1994/01, p. 15</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -345,6 +354,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_o;</trd>,
+    <trd>&c_t;&c_a;&c_m;&c_u; &c_sh;&c_t;&c_o;</trd>,
+    <trd>&c_z; &c_t;&c_o;&c_j; &c_p;&c_r;&c_y;&c_ch;&c_y;&c_n;&c_y; &c_sh;&c_t;&c_o;</trd>
+  </trdgrp>
   <trd lng="de">deshalb, weil</trd>
   <trd lng="en">because of</trd>
   <trd lng="pl">bo</trd>
@@ -431,27 +445,27 @@
 </art>
 <!--
 $Log$
+versio 1.41 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.40 2023/10/06 08:29:41
+Dmitri Gabinski: + trd be
+
+versio 1.39 2023/09/08 14:26:48
+Wolfram Diestel: kor. ja ind.
+
+versio 1.38 2023/09/04 18:29:45
+Wolfram Diestel: kor. ja ind
+
+versio 1.36 2023/04/11 16:34:22
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.35 2022/05/28 18:37:14
-Vito Redsky: + trd pl + trd ro 
+Vito Redsky: + trd pl + trd ro
 
 versio 1.34 2022/05/04 18:30:34
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.32 2021/06/02 20:36:02
-Wolfram Diestel: + ~ tio ke
-
-versio 1.31 2020/07/23 12:32:27
-Wolfram Diestel: +fnt-oj, ref-oj, germ trd-oj
-
-Revision 1.29  2015/07/04 08:37:42  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.28  2015/06/29 16:40:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2014/07/31 06:10:12  revo
-Agustin Garcia Lopez: +trd(es)
-
-Revision 1.26  2013/10/16 08:10:19  revo
 -->
 </vortaro>

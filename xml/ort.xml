@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ort.xml,v 1.47 2022/10/11 22:39:18 revo Exp $">
+<art mrk="$Id: ort.xml,v 1.51 2024/01/30 16:09:26 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>ort</rad>/o <fnt><bib>PV</bib></fnt>
@@ -24,7 +24,7 @@
           <aut>Akademio de Esperanto</aut>,
           <vrk>Oka Oficiala Aldono al la Universala Vortaro</vrk>,
           <lok><url ref="&AdE;/aktoj/aktoj2/8oa.html">
-          Oficiala Bulteno de la Akademio de Esperanto, 
+          Oficiala Bulteno de la Akademio de Esperanto,
           [1974] (10)</url></lok>
         </fnt>;
       </ekz>
@@ -38,7 +38,7 @@
       </ekz>
       <ekz>
         <ref tip="prt" cel="gradus.0o.unuo">graduso<sncref/></ref>
-        estas <klr>[&#8230;]</klr> mezurunuo por anguloj, egala al centono de
+        estas <klr>[&#x2026;]</klr> mezurunuo por anguloj, egala al centono de
         <tld/>o
         <fnt>
           <bib>Viki</bib>
@@ -69,6 +69,7 @@
   <trd lng="es">&aacute;ngulo recto</trd>
   <trd lng="fr">angle droit</trd>
   <trd lng="hu">der&eacute;ksz&ouml;g</trd>
+  <trd lng="ja">&#x76F4;&#x89D2;  <pr>&#x3061;&#x3087;&#x3063;&#x304B;&#x304F;</pr></trd>
   <trd lng="nl">rechte <ind>hoek</ind></trd>
   <trd lng="pl">k&aogonek;t prosty</trd>
   <trd lng="pt">&acirc;ngulo reto</trd>
@@ -77,6 +78,10 @@
   <trdgrp lng="sk">
     <trd>kolmos&tcaron;</trd>,
     <trd>pravouhlos&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76F4;&#x89D2; <pr>zh&#xED;ji&#x1CE;o</pr></trd>,
+    <trd>&#x6B63;&#x89D2; <pr>zh&#xE8;ngju&#xE9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -89,7 +94,7 @@
       <klr>(p.p. <ref cel="angul.0o.figuro">angulo</ref>)</klr>
       Estanta <tld/>o; kies mezuro egalas al <frm>90&#x2DA;</frm>:
       <ekz>
-        rektangulo oni nomas paralelogramon, de kiu almena&ubreve; 
+        rektangulo oni nomas paralelogramon, de kiu almena&ubreve;
         unu angulo estas <tld/>a;
       </ekz>
       <ekz>
@@ -108,13 +113,14 @@
     <trd lng="es"><klr>(&aacute;ngulo) </klr><ind>recto</ind></trd>
     <trd lng="fr"><klr tip="ind">(angle) </klr><ind>droit</ind></trd>
     <trd lng="hu">kilencven <ind>fokos</ind><klr tip="ind">(sz&ouml;g)
-    </klr></trd>    
+    </klr></trd>
     <trd lng="nl">rechte<klr tip="amb"> (hoek)</klr></trd>
     <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>prosty</trd>
     <trd lng="pt">reto</trd>
     <trd lng="ro"><klr tip="ind">(unghi) </klr>drept</trd>
     <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j;<klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
-  </snc>
+    <trd lng="zh">&#x76F4;&#x89D2; <pr>zh&#xED;ji&#x1CE;o</pr></trd>
+</snc>
   <snc mrk="ort.0a.plurlatero">
     <uzo tip="stl">EVI</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 30, pri paralelepipedo</lok></fnt>
@@ -150,7 +156,7 @@
     <trd lng="en">right-angled</trd>
     <trd lng="es">rect&aacute;ngulo<klr> (adj.)</klr></trd>
     <trd lng="fr">rectangle<klr tip="ind"> (adj.)</klr></trd>
-    <trd lng="hu">der&eacute;ksz&ouml;g&udblac;</trd>    
+    <trd lng="hu">der&eacute;ksz&ouml;g&udblac;</trd>
     <trd lng="nl">rechthoekig</trd>
     <trd lng="pl">prostok&aogonek;tny</trd>
     <trd lng="ro">dreptunghiular</trd>
@@ -165,14 +171,14 @@
         al alia)</klr>
         Tiaj, ke ili sin intersekcas formante <tld/>on:
         <ekz>
-          rekto orta al alia rekto, 
+          rekto orta al alia rekto,
         </ekz>
         <ekz>
-          al kurbo <klr>(al ties 
-          <ref cel="tangx.0anto">tan&gcirc;anto</ref>)</klr>, 
+          al kurbo <klr>(al ties
+          <ref cel="tangx.0anto">tan&gcirc;anto</ref>)</klr>,
         </ekz>
         <ekz>
-          al ebeno, 
+          al ebeno,
         </ekz>
         <ekz>
           al surfaco;
@@ -190,7 +196,7 @@
       <rim>
         Eblas diri sendistinge <ctl><frm am="a"><k>a</k></frm> estas
         <tld/>a al
-        <frm am="b"><k>b</k></frm></ctl>, a&ubreve; <ctl><frm am="a"><k>a</k></frm> 
+        <frm am="b"><k>b</k></frm></ctl>, a&ubreve; <ctl><frm am="a"><k>a</k></frm>
         kaj <frm am="b"><k>b</k></frm> estas (inter si) <tld/>aj</ctl>.
         Por
         &ccirc;i-lasta senco ekzistas anka&ubreve; la pli preciza termino
@@ -200,7 +206,7 @@
       <trd lng="es">perpendicular</trd>
       <trd lng="hu">mer&odblac;leges</trd>
       <trd lng="nl">loodrecht</trd>
-      <trd lng="pl">prostopad&lstroke;y</trd>      
+      <trd lng="pl">prostopad&lstroke;y</trd>
     </subsnc>
     <subsnc mrk="ort.0a.vektoroj">
       <fnt><bib>EKV</bib><lok>&para;316</lok></fnt>
@@ -210,7 +216,7 @@
         Tiaj, ke ilia <ref cel="produt.skalara0o">skalara produto</ref>
         egalas al nulo:
         <ekz>
-          se <frm am="x"><k>x</k></frm> estas <tld/>a al 
+          se <frm am="x"><k>x</k></frm> estas <tld/>a al
           <frm am="y"><k>y</k></frm>,
           validas la pitagora teoremo:
           <frm am="||x+y||^2=||x||^2+||y||^2">||<k>x</k>+<k>y</k>||<sup>2</sup> =
@@ -258,7 +264,7 @@
       <trdgrp lng="hu">
         <trd>mer&odblac;leges</trd>,
         <trd>ortogon&aacute;lis</trd>
-      </trdgrp>      
+      </trdgrp>
     </subsnc>
     <subsnc mrk="ort.0a.vektoro_formo">
       <dif>
@@ -274,7 +280,7 @@
       <trdgrp lng="hu">
         <trd>mer&odblac;leges</trd>,
         <trd>ortogon&aacute;lis</trd>
-      </trdgrp>      
+      </trdgrp>
     </subsnc>
     <subsnc mrk="ort.0a.matrico">
       <fnt><bib>EKV</bib><lok>&para;316</lok></fnt>
@@ -297,7 +303,7 @@
       <trdgrp lng="fr">
         <trd><klr tip="amb">(matrice) </klr>orthogonale</trd>
       </trdgrp>
-      <trd lng="hu">ortogon&aacute;lis<klr tip="amb">(m&aacute;trix) </klr></trd>   
+      <trd lng="hu">ortogon&aacute;lis<klr tip="amb">(m&aacute;trix) </klr></trd>
       <trdgrp lng="pl">
         <trd><klr tip="amb">(macierz) </klr>ortogonalna</trd>
       </trdgrp>
@@ -371,6 +377,7 @@
     <trd>perpendicular</trd>,
     <trd>normal</trd>
   </trdgrp>
+  <trd lng="ja">&#x76F4;&#x89D2;&#x306E;  <pr>&#x3061;&#x3087;&#x3063;&#x304B;&#x304F;&#x306E;</pr></trd>
   <trdgrp lng="sk">
     <trd>norm&aacute;lov&yacute;</trd>,
     <trd>prav&yacute; <klr>(uhol)</klr></trd>
@@ -386,8 +393,7 @@
       <ref tip="super" cel="rekt.0o.elementa">Rekto</ref> <tld/>a al iu
       alia figuro:
       <ekz>
-        la longo de la <tld/>anto de la pinto al la bazo nomi&gcirc;as <ref tip="sub"
-        cel="alt.0o.MAT">alto</ref>
+        la longo de la <tld/>anto de la pinto al la bazo nomi&gcirc;as <ref tip="sub" cel="alt.0o.MAT">alto</ref>
         de la piramido
         <fnt>
           <bib>Viki</bib>
@@ -397,7 +403,7 @@
       </ekz>
       <ekz>
         surfaca <ref tip="sub" cel="normal.0o">normalo</ref>
-        (a&ubreve; normalo, a&ubreve; prefereble <tld/>anto) al surfaco estas 
+        (a&ubreve; normalo, a&ubreve; prefereble <tld/>anto) al surfaco estas
         tri-dimensia vektoro, kiu estas perpendikulara al la surfaco en
         donita punkto
         <fnt>
@@ -448,6 +454,7 @@
       <trd>mer&odblac;leges</trd>,
       <trd>norm&aacute;lis<klr tip="ind"> (mer&odblac;leges)</klr></trd>
     </trdgrp>
+  <trd lng="ja">&#x5782;&#x7DDA;  <pr>&#x3059;&#x3044;&#x305B;&#x3093;</pr></trd>
   <trdgrp lng="pl">
     <trd>prosta prostopad&lstroke;a</trd>,
     <trd>normalna</trd>
@@ -481,7 +488,7 @@
         &ccirc;iu havis en la mano dikan bastonon a&ubreve; lignan cirkelon, a&ubreve;
         <tld/>ilon
         <fnt>
-          <bib>Far1</bib>, 
+          <bib>Far1</bib>,
           <lok>&ccirc;apitro 24a</lok>
         </fnt>;
       </ekz>
@@ -529,6 +536,7 @@
   <trd lng="ro">echer</trd>
   <trd lng="ru">&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">uholn&iacute;k</trd>
+  <trd lng="zh">&#x4E09;&#x89D2;&#x5C3A; <pr>s&#x101;nji&#x1CE;och&#x1D0;</pr></trd>
 </drv>
 
 <drv mrk="ort.O0ilo">
@@ -557,14 +565,16 @@
     </dif>
     <trd lng="de">Winkelma&szlig; Sternbild</trd>
   </snc>
+  <trd lng="be">&c_N;&c_a;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_ib;&c_k; <klr tip="amb">(&c_s;&c_u;&c_z;&c_o;&c_r;&#x2019;&c_je;)</klr></trd>
   <trd lng="en">Norma</trd>
   <trdgrp lng="es">
     <trd>la Escuadra<klr tip="ind"> (constelaci&oacute;n)</klr></trd>,
     <trd>Norma<klr tip="ind"> (constelaci&oacute;n)</klr></trd>
   </trdgrp>
   <trd lng="fr">R&egrave;gle<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="ja">&#x76F4;&#x89D2;&#x5B9A;&#x898F;  <pr>&#x3061;&#x3087;&#x3063;&#x304B;&#x304F;&#x3058;&#x3087;&#x3046;&#x304E;</pr></trd>
   <trd lng="pl">W&eogonek;gielnica  <klr>(gwiazdozbi&oacute;r)</klr></trd>
-  <trd lng="ro">Echerul  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="ro">Echerul  <klr>(constela&#x21B;ie)</klr></trd>
   <trd lng="uk">&#x43F;&c_r;&c_i;&c_z;&#x43C;&#x43E;&c_v;&c_i;&c_j; &c_je;&#x43A;&c_je;&c_r;</trd>
 </drv>
 
@@ -588,6 +598,10 @@
       mez<tld/>antoj de triangulo
     </bld>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_ja;&c_r;&c_e;&c_d;&c_z;&c_ib;&c_n;&c_n;&c_y; <ind>&c_p;&c_e;&c_r;&c_p;&c_e;&c_n;&c_d;&c_y;&c_k;&c_u;&c_l;&c_ja;&c_r;</ind></trd>,
+    <trd>&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib; <ind>&c_p;&c_e;&c_r;&c_p;&c_e;&c_n;&c_d;&c_y;&c_k;&c_u;&c_l;&c_ja;&c_r;</ind></trd>
+  </trdgrp>
   <trd lng="ca">mediatriu</trd>
   <trdgrp lng="cs">
     <trd>osa strany <klr>(troj&uacute;heln&iacute;ku)</klr></trd>,
@@ -610,6 +624,12 @@
 </art>
 <!--
 $Log$
+versio 1.50 2023/10/20 13:11:48
+revo: transskribo per <pr>
+
+versio 1.49 2023/10/16 15:24:28
+Dmitri Gabinski: + trd be
+
 versio 1.47 2022/10/11 22:39:18
 Vito Redsky: +trd pl + trd ro
 
@@ -626,11 +646,5 @@ versio 1.41 2020/02/22 20:10:29
 Wolfram Diestel: svg anst. gif
 
 Revision 1.40  2020/02/15 23:10:30  revo
-Wolfram Diestel: formuloj per am
-
-Revision 1.39  2018/08/20 09:10:13  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.38  2018/08/06 22:11:02  revo
 -->
 </vortaro>

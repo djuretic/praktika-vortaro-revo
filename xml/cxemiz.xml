@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxemiz.xml,v 1.35 2022/03/28 12:02:35 revo Exp $">
+<art mrk="$Id: cxemiz.xml,v 1.39 2023/10/31 13:37:03 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;emiz</rad>/o <fnt><bib>PV</bib></fnt>
@@ -42,10 +42,15 @@
   <trd lng="fr">chemise</trd>
   <trd lng="he">&het;&vav;&lamed;&tsadi;&he;</trd>
   <trd lng="id">kemeja</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B7;&#x30E3;&#x30C4;  <pr>&#x3057;&#x3083;&#x3064;</pr></trd>,
+    <trd>&#x30EF;&#x30A4;&#x30B7;&#x30E3;&#x30C4;</trd>,
+    <trd>&#x30B7;&#x30E5;&#x30DF;&#x30FC;&#x30BA;</trd>
+  </trdgrp>
   <trd lng="nl">hemd</trd>
   <trd lng="pt">camisa</trd>
   <trd lng="pl">koszula</trd>
-  <trd lng="ro">c&abreve;ma&scedil;&abreve;</trd>
+  <trd lng="ro">c&abreve;ma&#x219;&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_u;&c_b;&c_a;&c_h;&c_a;</trd>,
     <trd>&c_r;&c_u;&c_b;&c_a;&c_sh;&c_k;&c_a;</trd>,
@@ -53,7 +58,11 @@
   </trdgrp>
   <trd lng="tr">g&ouml;mlek</trd>
   <trd lng="it">camicia</trd>
-  <trd lng="uk">&#x441;&#x43E;&#x440;&#x43E;&#x447;&#x43A;&#x430;</trd>
+  <trd lng="uk">&c_s;&#x43E;&c_r;&#x43E;&c_ch;&#x43A;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x886B; <pr>sh&#x101;n</pr></trd>,
+    <trd>&#x886C;&#x886B; <pr>ch&#xE8;nsh&#x101;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cxemiz.nokto0o">
@@ -68,16 +77,20 @@
         haroj kaj blanka nokto<tld/>o
         <fnt>
           <aut>A. Lindgren, trad. I. Krotova</aut>,
-          <vrk>La infanoj &c_s;he la strato Brufarantoj</vrk>,
+          <vrk>La infanoj che la strato Brufarantoj</vrk>,
           <lok>[sen dato]</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="fr">chemise de nuit</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5BDD;&#x9593;&#x7740;  <pr>&#x306D;&#x307E;&#x304D;</pr></trd>,
+    <trd>&#x30CD;&#x30B0;&#x30EA;&#x30B8;&#x30A7;</trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x456;&#x447;&#x43D;&#x430; &#x441;&#x43E;&#x440;&#x43E;&#x447;&#x43A;&#x430;</trd>,
-    <trd>&#x441;&#x43F;&#x430;&#x43B;&#x44C;&#x43D;&#x430; &#x441;&#x43E;&#x440;&#x43E;&#x447;&#x43A;&#x430;</trd>
+    <trd>&#x43D;&c_ib;&c_ch;&#x43D;&c_a; &c_s;&#x43E;&c_r;&#x43E;&c_ch;&#x43A;&c_a;</trd>,
+    <trd>&c_s;&#x43F;&c_a;&#x43B;&#x44C;&#x43D;&c_a; &c_s;&#x43E;&c_r;&#x43E;&c_ch;&#x43A;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -102,6 +115,7 @@
     </dif>
   </snc>
   <trd lng="fr">chemise <ind>polo</ind></trd>
+  <trd lng="ja">&#x30DD;&#x30ED;&#x30B7;&#x30E3;&#x30C4;</trd>
 </drv>
 
 <drv mrk="cxemiz.to0o">
@@ -156,13 +170,24 @@
     <trd>&c_f;&c_u;&c_t;&c_b;&c_o;&c_l;&c_k;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x444;&#x443;&#x442;&#x431;&#x43E;&#x43B;&#x43A;&#x430;</trd>,
-    <trd>&#x431;&#x435;&#x437;&#x440;&#x443;&#x43A;&#x430;&#x432;&#x43A;&#x430;</trd>
+    <trd>&c_f;&c_u;&c_t;&c_b;&#x43E;&#x43B;&#x43A;&c_a;</trd>,
+    <trd>&c_b;&c_je;&c_z;&c_r;&c_u;&#x43A;&c_a;&c_v;&#x43A;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x77ED;&#x8896;&#x5706;&#x9886;&#x886B; <pr>du&#x1CE;nxi&#xF9;yu&#xE1;nl&#x1D0;ngsh&#x101;n</pr></trd>,
+    <trd>&#x4F53;&#x6064;&#x886B; <pr>t&#x1D0;x&#xF9;sh&#x101;n</pr></trd>,
+    <trd>&#x6C57;&#x886B; <pr>h&#xE0;nsh&#x101;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.38 2023/10/14 11:10:02
+revo: transskribo per <pr>
+
+versio 1.36 2023/05/04 22:28:10
+Robin van der Vliet: cirila litero sxangxita al latina litero, en esperanta teksto
+
 versio 1.31 2020/07/19 11:10:38
 Wolfram Diestel: lst vestajxoj
 
@@ -179,11 +204,5 @@ Revision 1.26  2012/07/17 10:10:24  revo
 Marc Rausell: + trd ca
 
 Revision 1.25  2009/04/24 16:31:02  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.24  2009/03/02 17:30:45  revo
-Antonio Codazzi: +trd it
-
-Revision 1.23  2007/12/22 17:30:32  revo
 -->
 </vortaro>

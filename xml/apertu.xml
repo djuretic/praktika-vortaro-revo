@@ -1,46 +1,76 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: apertu.xml,v 1.22 2022/03/12 10:47:30 revo Exp $">
+<art mrk="$Id: apertu.xml,v 1.25 2023/10/13 16:46:48 revo Exp $">
 <kap>
    <ofc>6</ofc>
    <rad>apertur</rad>/o
-   <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+   <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="apertu.0o">
-   <kap><tld/>o</kap>
-   <snc>
-     <dif>
-       Malferma&jcirc;o:
-       <ekz>
-         la fenestra <tld/>o fermi&gcirc;is<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="ferm.mal0ajxo.KOMUNE">Malferma&jcirc;o</ref>:
+      <ekz>
+        la fenestra <tld/>o denove fermi&gcirc;is
+        <fnt>
+          <bib>RBa</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
          alrulu grandajn &scirc;tonojn al la <tld/>o de la kaverno
          <fnt><bib>MT</bib>, <lok>&Jos; 10:18</lok></fnt>;
-       </ekz>
-       <ekz>
+      </ekz>
+      <ekz>
          gardu la <tld/>on de via bu&scirc;o
          <fnt><bib>MT</bib>, <lok>&Mih; 7:5</lok></fnt>;
-       </ekz>
-       <ekz>
+      </ekz>
+      <ekz>
          <tld/>o de sako
          <fnt><bib>MT</bib>, <lok>&Gen; 43:21</lok></fnt>;
-       </ekz>
-       <ekz>
-         <tld/>o de tubo, de puto<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
+      </ekz>
+      <ekz>
+        granda &scirc;tono estis sur la <tld/>o de la puto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 29:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
          <tld/>o por la kapo en mezo de tuniko
-         <fnt><bib>MT</bib>, <lok>&Eli; 28:32</lok></fnt>.
-       </ekz>
-     </dif>
-   </snc>
+         <fnt><bib>MT</bib>, <lok>&Eli; 28:32</lok></fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> almetis la bu&scirc;on al la <tld/>o de tubo, kondukanta al la supraj
+        eta&gcirc;oj la vo&ccirc;on, parolantan malsupre
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lasta en la vico metis la grenfaskon supren al la <tld/>a tablo
+        <fnt>
+          <bib>VRA</bib>
+          <lok>Ivar Lo-johansson</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="apert.0ajxo">aperta&jcirc;o</ref>
+    <refgrp tip="vid">
+      <ref cel="brecx.0o.KOMUNE">bre&ccirc;o</ref>,
+      <ref cel="fauxk.0o.malfermajxo">fa&ubreve;ko<sncref/></ref>,
+      <ref cel="fend.0o.KOMUNE">fendo</ref>,
+      <ref cel="mank.0loko">mankloko</ref>,
+      <ref cel="tru.0o.bestahejmo">truo</ref>
+    </refgrp>
+  </snc>
   <trdgrp lng="be">
      <trd>&c_a;&c_d;&c_t;&c_u;&c_l;&c_ib;&c_n;&c_a;</trd>,
      <trd>&c_d;&c_z;&c_ib;&c_r;&c_k;&c_a;</trd>,
      <trd>&c_zh;&c_a;&c_r;&c_a;&c_l;&c_o;</trd>
-   </trdgrp>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>apertura</trd>,
     <trd>d&iacute;ra</trd>,
@@ -50,35 +80,50 @@
     <trd>ventil</trd>
   </trdgrp>
   <trdgrp lng="de">
-        <trd>&Ouml;ffnung</trd>,
-        <trd>Lochweite</trd>,
-        <trd>Apertur</trd>
-   </trdgrp>
+    <trd>&Ouml;ffnung</trd>,
+    <trd>Lochweite</trd>,
+    <trd>Apertur</trd>,
+    <trd>Ausschnitt <klr>(&Ouml;ffnung)</klr></trd>,
+    <trd>Aussparung</trd>
+  </trdgrp>
   <trd lng="en">aperture</trd>
   <trd lng="es">abertura</trd>
   <trdgrp lng="fr">
-     <trd>ouverture</trd>,
-     <trd>entr&eacute;e</trd>
-     <trd>orifice</trd>
-   </trdgrp>
+    <trd>ouverture</trd>,
+    <trd>entr&eacute;e</trd>
+    <trd>orifice</trd>
+  </trdgrp>
   <trdgrp lng="he">
-    <trd>&#x5E6;&#x5D5;&#x5B9;&#x5D4;&#x5B7;&#x5E8;</trd>,
-    <trd>&#x5E4;&#x5EA;&#x5D7;</trd>
+    <trd>&tsadi;&vav;&#x5B9;&he;&#x5B7;&resh;</trd>,
+    <trd>&pe;&tav;&het;</trd>
   </trdgrp>
   <trd lng="hu">ny&iacute;l&aacute;s</trd>
   <trd lng="it">apertura</trd>
+  <trdgrp lng="ja">
+    <trd>&#x958B;&#x53E3;&#x90E8;  <pr>&#x304B;&#x3044;&#x3053;&#x3046;&#x3076;</pr></trd>,
+    <trd>&#x53E3;  <pr>&#x304F;</pr></trd>,
+    <trd>&#x7A74;  <pr>&#x3081;&#x3069;</pr></trd>,
+    <trd>&#x51FA;&#x5165;&#x308A;&#x53E3;  <pr>&#x3067;&#x3044;&#x308A;&#x3050;&#x3061;</pr></trd>,
+    <trd>&#x53E3;&#x5F84;  <pr>&#x3053;&#x3046;&#x3051;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">opening</trd>
   <trd lng="ru">&c_o;&c_t;&c_v;&c_je;&c_r;&c_s;&c_t;&c_i;&c_je;</trd>
   <trd lng="sk">stupe&ncaron; otvorenia clony</trd>
   <trd lng="sv">&ouml;ppning</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x442;&#x432;&#x456;&#x440;</trd>,
-    <trd>&#x430;&#x43F;&#x435;&#x440;&#x442;&#x443;&#x440;&#x430;</trd>
+    <trd>&c_o;&c_t;&c_v;&c_ib;&c_r;</trd>,
+    <trd>&c_a;&c_p;&c_je;&c_r;&c_t;&c_u;&c_r;&c_a;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/13 16:46:48
+revo: transskribo per <pr>
+
+versio 1.23 2023/05/03 20:24:03
+Wolfram Diestel: +ref-oj, fnt, trd de
+
 Revision 1.19  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -95,8 +140,5 @@ Revision 1.15  2008/04/29 16:30:25  revo
 Mireille Corobu: +trd fr
 
 Revision 1.14  2007/03/06 17:31:13  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2004/02/13 17:30:39  revo
 -->
 </vortaro>

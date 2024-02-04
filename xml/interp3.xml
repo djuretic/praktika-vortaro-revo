@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: interp3.xml,v 1.27 2022/03/21 15:27:49 revo Exp $">
+<art mrk="$Id: interp3.xml,v 1.33 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>interpunkci</rad>/o
 </kap>
 <drv mrk="interp3.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="interp3.0o.TIP">
   <uzo tip="fak">TIP</uzo>
   <uzo tip="fak">GRA</uzo>
     <dif>
@@ -35,7 +35,7 @@
       <ref cel="kom.0o">komo</ref>,
       <ref cel="kom.punkto0o">punktokomo</ref>,
       <ref cel="kramp.0o.TIP">krampo</ref>,
-      <ref cel="kri.0signo">krisigno</ref>,
+      <ref cel="sign.kri0o">krisigno</ref>,
       <ref cel="punkt.0o.interpunkcia">punkto</ref>,
       <ref cel="punkt.tri0o">tripunkto</ref>,
       <ref cel="parent.0o.subfrazo">parentezo</ref>,
@@ -46,8 +46,8 @@
     </refgrp>
   <rim>
   Ne ekzistas devigaj reguloj pri la uzado de helposignoj (<tld/>o) en
-  Esperanto.
-  Tial ili estas &ccirc;i tie supra&jcirc;e klarigitaj<fnt><bib>PMEG</bib></fnt>.
+  Esperanto. Tial ili estas &ccirc;i tie supra&jcirc;e klarigitaj
+  <fnt><bib>PMEG</bib></fnt>.
   </rim>
   </snc>
   <trd lng="be">&c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_y;&c_ja;</trd>
@@ -59,20 +59,26 @@
   </trdgrp>
   <trd lng="en">punctuation</trd>
   <trd lng="es">puntuaci&oacute;n</trd>
-  <trd lng="fa">&a_n;&a_q;&a_T;&a_h;&zwnj;&f_g;&a_dh;&a_A;&a_r;&f_y;</trd>
+  <trd lng="fa">&a_n;&a_q;&a_T;&a_h;&#x200C;&f_g;&a_dh;&a_A;&a_r;&f_y;</trd>
   <trd lng="fr">ponctuation</trd>
   <trdgrp lng="hu">
     <trd>k&ouml;zpontoz&aacute;s</trd>,
     <trd>interpunkci&oacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x53E5;&#x8AAD;&#x6CD5;  <pr>&#x304F;&#x3068;&#x3046;&#x307B;&#x3046;</pr></trd>
   <trd lng="nl">interpunctie</trd>
+  <trdgrp lng="pl">
+    <trd>interpunkcja</trd>,
+    <trd>przestankowanie</trd>
+  </trdgrp>
   <trd lng="pt">pontua&ccedil;&atilde;o<klr tip="amb"> (gram&aacute;tica)</klr></trd>
   <trd lng="ru">&c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_i;&c_ja;</trd>
   <trd lng="sk">interpunkcia</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x443;&#x43D;&#x43A;&#x442;&#x443;&#x430;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x434;&#x456;&#x43B;&#x43E;&#x432;&#x456; &#x437;&#x43D;&#x430;&#x43A;&#x438;</trd>
+    <trd>&c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_d;&c_ib;&c_l;&c_o;&c_v;&c_ib; &c_z;&c_n;&c_a;&c_k;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x6807;&#x70B9; <pr>bi&#x101;odi&#x1CE;n</pr></trd>
 </drv>
 
 <drv mrk="interp3.0i">
@@ -91,30 +97,46 @@
   </trdgrp>
   <trd lng="es">puntuar<klr> (poner los signos de
   puntuaci&oacute;n)</klr></trd>
-  <trd lng="fa">&a_n;&a_q;&a_T;&a_h;&zwnj;&f_g;&a_dh;&a_A;&a_r;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
+  <trd lng="fa">&a_n;&a_q;&a_T;&a_h;&#x200C;&f_g;&a_dh;&a_A;&a_r;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
   <trd lng="fr">ponctuer<klr tip="ind"> (placer la
   ponctuation)</klr></trd>
   <trdgrp lng="hu">
     <trd>k&ouml;zpontoz</trd>,
     <trd>pontot, vessz&odblac;t tesz</trd>
   </trdgrp>
+  <trd lng="ja">&#x53E5;&#x8AAD;&#x70B9;&#x3092;&#x6253;&#x3064;  <pr>&#x304F;&#x3068;&#x3046;&#x3066;&#x3093;&#x3092;&#x3046;&#x3064;</pr></trd>
   <trdgrp lng="nl">
     <trd>interpungeren</trd>,
     <trd>van <ind>leestekens</ind> voorzien</trd>
   </trdgrp>
+  <trd lng="pl">rozdzieli&cacute; za pomoc&aogonek; znak&oacute;w  <ind>interpunkcji</ind></trd>
   <trd lng="pt">pontuar<klr tip="amb"> (gram&aacute;tica)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol; &c_z;&c_n;&c_a;&c_k;&c_i; &c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_i;&c_i;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol; &c_z;&c_n;&c_a;&c_k;&c_i; &c_p;&c_u;&c_n;&c_k;&c_t;&c_u;&c_a;&c_c;&c_i;&c_i;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x456;&#x434;&#x43E;&#x43A;&#x440;&#x435;&#x43C;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x440;&#x43E;&#x437;&#x434;&#x456;&#x43B;&#x43E;&#x432;&#x438;&#x43C;&#x438; &#x437;&#x43D;&#x430;&#x43A;&#x430;&#x43C;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438; &#x440;&#x43E;&#x437;&#x434;&#x456;&#x43B;&#x43E;&#x432;&#x456; &#x437;&#x43D;&#x430;&#x43A;&#x438;</trd>
+    <trd>&c_v;&c_ib;&c_d;&c_o;&c_k;&c_r;&c_je;&c_m;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i; &c_r;&c_o;&c_z;&c_d;&c_ib;&c_l;&c_o;&c_v;&c_i;&c_m;&c_i;
+    &c_z;&c_n;&c_a;&c_k;&c_a;&c_m;&c_i;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_i; &c_r;&c_o;&c_z;&c_d;&c_ib;&c_l;&c_o;&c_v;&c_ib; &c_z;&c_n;&c_a;&c_k;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x6807;&#x70B9; <pr>bi&#x101;odi&#x1CE;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.31 2023/08/31 20:26:08
+Vito Redsky: +trd pl 
+
+versio 1.29 2023/06/11 19:19:41
+Wolfram Diestel: +spaco, snc-mrk
+
+versio 1.28 2023/06/11 08:29:58
+Damien Brucker: -eraro cxe cel en ref
+
 versio 1.26 2021/05/15 16:02:38
 Wolfram Diestel: kor. ref-cel
 
@@ -125,17 +147,5 @@ Revision 1.23  2014/05/03 19:10:19  revo
 Damien Brucker: +ekz
 
 Revision 1.22  2014/01/02 18:10:14  revo
-Damien Brucker: +rim
-
-Revision 1.21  2014/01/02 09:10:11  revo
-Damien Brucker: +ref haltostreko apostrofo steleto
-
-Revision 1.20  2013/12/24 02:10:11  revo
-Damien Brucker: +fak
-
-Revision 1.19  2013/12/03 14:10:13  revo
-Damien Brucker: +ref punktokomo parentezo dividstreko
-
-Revision 1.18  2009/09/14 16:31:13  revo
 -->
 </vortaro>

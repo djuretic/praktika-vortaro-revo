@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: patr.xml,v 1.168 2022/05/13 14:37:30 revo Exp $">
+<art mrk="$Id: patr.xml,v 1.179 2023/12/12 20:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>patr</rad>/o
@@ -60,17 +60,21 @@
     <trd lng="bo">&t_ya;&t_ba;&t_tsheg;</trd>
     <trd lng="eu">aita</trd>
     <trd lng="hu">apa</trd>
-    <trd lng="id">ayah</trd>
-    <trd lng="pt">pai</trd>    
+    <trdgrp lng="id">
+      <trd>ayah</trd>,
+      <trd>bapak</trd>,
+      <trd>papa</trd>
+    </trdgrp>
+    <trd lng="pt">pai</trd>
     <trdgrp lng="th">
-      <trd>&#3614;&#3656;&#3629;</trd>,
-      <trd>&#3610;&#3636;&#3604;&#3634;</trd>
+      <trd>&#xE1E;&#xE48;&#xE2D;</trd>,
+      <trd>&#xE1A;&#xE34;&#xE14;&#xE32;</trd>
     </trdgrp>
   </snc>
   <snc mrk="patr.0o.praulo">
     <uzo tip="fak">BIB</uzo>
     <dif>
-      <ref tip="dif" cel="pra.0ulo">Praulo</ref>, 
+      <ref tip="dif" cel="pra.0ulo">Praulo</ref>,
       <ref tip="sin" cel="patr.pra0o">prapatro</ref>,
       generinto de gento:
       <ekz>
@@ -83,8 +87,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a; <klr>(&c_p;&c_r;&c_o;&c_d;&c_a;&c_k;)</klr></trd>,
+      <trd>&c_p;&c_r;&c_a;&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</trd>
+    </trdgrp>
     <trd lng="de">Urvater</trd>
-    <trd lng="th">&#3610;&#3636;&#3604;&#3634;</trd>
+    <trd lng="th">&#xE1A;&#xE34;&#xE14;&#xE32;</trd>
   </snc>
   <snc mrk="patr.0o.triunua">
     <uzo tip="fak">KRI</uzo>
@@ -93,10 +101,10 @@
       personoj de la <ref tip="malprt" cel="tri.0unuo">Triunuo</ref>:
       <ekz>
         vi estu filoj de via <tld lit="P"/>o, kiu estas en la
-        &ccirc;ielo, 
+        &ccirc;ielo,
         &ccirc;ar Li levas Sian sunon sur la malbonulojn kaj bonulojn,
-        kaj 
-        sendas pluvon sur la justulojn kaj la maljustulojn  
+        kaj
+        sendas pluvon sur la justulojn kaj la maljustulojn
         <fnt>
           <bib>NT</bib>
           <lok>Mateo 5:45</lok>
@@ -123,7 +131,7 @@
     <trd lng="hu">Atya</trd>
     <trd lng="id">Bapa</trd>
     <trd lng="pt">o <ind>Pai</ind></trd>
-    <trd lng="th">&#3614;&#3619;&#3632;&#3610;&#3636;&#3604;&#3634;</trd>
+    <trd lng="th">&#xE1E;&#xE23;&#xE30;&#xE1A;&#xE34;&#xE14;&#xE32;</trd>
   </snc>
   <snc mrk="patr.0o.pastro">
     <uzo tip="fak">KRI</uzo>
@@ -143,14 +151,14 @@
       <trd>&c_b;&c_a;&c_t;&c_ju;&c_sh;&c_k;&c_a;</trd>,
       <trd>&c_p;&c_a;&c_d;&c_r;&c_je;</trd>
     </trdgrp>
-    <trd lng="hu">atya</trd>    
-    <trd lng="th">&#3588;&#3640;&#3603;&#3614;&#3656;&#3629;</trd>
+    <trd lng="hu">atya</trd>
+    <trd lng="th">&#xE04;&#xE38;&#xE13;&#xE1E;&#xE48;&#xE2D;</trd>
   </snc>
   <trd lng="af">vader</trd>
-  <trd lng="am">&#4768;&#4707;&#4725;</trd>
+  <trd lng="am">&#x12A0;&#4707;&#4725;</trd>
   <trd lng="az">ata</trd>
   <trd lng="bg">&c_b;&c_a;&c_shch;&c_a;</trd>
-  <trd lng="bn">&#2476;&#2494;&#2476;&#2494;</trd>
+  <trd lng="bn">&#x9AC;&#x9BE;&#x9AC;&#x9BE;</trd>
   <trd lng="br">tad</trd>
   <trd lng="bs">otac</trd>
   <trd lng="co">babbu</trd>
@@ -166,40 +174,40 @@
   <trd lng="ga">athair</trd>
   <trd lng="gd">athair</trd>
   <trd lng="gl">pai</trd>
-  <trd lng="gu">&#2730;&#2751;&#2724;&#2750;</trd>
+  <trd lng="gu">&#xAAA;&#xABF;&#xAA4;&#xABE;</trd>
   <trd lng="ha">uba</trd>
-  <trd lng="he">&alef;&#64305;&alef;</trd>
-  <trd lng="hi">&#2346;&#2367;&#2340;&#2366;</trd>
+  <trd lng="he">&alef;&#xFB31;&alef;</trd>
+  <trd lng="hi">&#x92A;&#x93F;&#2340;&#x93E;</trd>
   <trd lng="hmn">txiv</trd>
   <trd lng="hr">otac</trd>
   <trd lng="ht">papa</trd>
   <trd lng="hy">&#1392;&#1377;&#1397;&#1408;</trd>
   <trd lng="ig">nna</trd>
-  <trd lng="is">faðir</trd>
+  <trd lng="is">fa&#xF0;ir</trd>
   <trd lng="it">padre</trd>
-  <trd lng="ja">&#29238;</trd>
+  <trd lng="ja">&#29238; <pr>&#12385;&#12385;</pr></trd>
   <trd lng="jv">rama</trd>
-  <trd lng="ka">&#4315;&#4304;&#4315;&#4304;</trd>
-  <trd lng="kk">&#1241;&c_k;&c_je;</trd>
-  <trd lng="km">&#6058;&#6038;&#6075;&#6016;</trd>
-  <trd lng="kn">&#3236;&#3202;&#3238;&#3270;</trd>
-  <trd lng="ko">&#50500;&#48260;&#51648;</trd>
+  <trd lng="ka">&#x10DB;&#x10D0;&#x10DB;&#x10D0;</trd>
+  <trd lng="kk">&#x4D9;&c_k;&c_je;</trd>
+  <trd lng="km">&#x17AA;&#6038;&#x17BB;&#6016;</trd>
+  <trd lng="kn">&#xCA4;&#xC82;&#xCA6;&#xCC6;</trd>
+  <trd lng="ko">&#xC544;&#xBC84;&#xC9C0;</trd>
   <trd lng="ku">bav</trd>
   <trd lng="ky">&c_a;&c_t;&c_a;</trd>
   <trd lng="lat">pater</trd>
-  <trd lng="lo">&#3742;&#3789;&#3784;</trd>
+  <trd lng="lo">&#xE9E;&#xECD;&#xEC8;</trd>
   <trd lng="lt">t&#279;vas</trd>
   <trd lng="lv">t&#275;vs</trd>
   <trd lng="mg">ray</trd>
   <trd lng="mi">papa</trd>
   <trd lng="mk">&c_t;&c_a;&c_t;&c_k;&c_o;</trd>
-  <trd lng="ml">&#3370;&#3391;&#3364;&#3390;&#3381;&#3405;</trd>
+  <trd lng="ml">&#xD2A;&#xD3F;&#xD24;&#xD3E;&#xD35;&#xD4D;</trd>
   <trd lng="mn">&c_a;&c_a;&c_v; &c_n;&c_mol;</trd>
   <trd lng="mr">&#2357;&#2337;&#2368;&#2354;</trd>
   <trd lng="ms">bapa</trd>
   <trd lng="mt">missier</trd>
-  <trd lng="my">&#4118;&#4097;&#4100;&#4154;</trd>
-  <trd lng="ne">&#2346;&#2367;&#2340;&#2366;</trd>
+  <trd lng="my">&#4118;&#4097;&#4100;&#x103A;</trd>
+  <trd lng="ne">&#x92A;&#x93F;&#2340;&#x93E;</trd>
   <trdgrp lng="nl">
     <trd>vader</trd>,
     <trd>papa</trd>,
@@ -208,13 +216,13 @@
   </trdgrp>
   <trd lng="no">far</trd>
   <trd lng="ny">bambo</trd>
-  <trd lng="pa">&#2602;&#2623;&#2596;&#2622; &#2600;&#2626;&#2672;</trd>
+  <trd lng="pa">&#xA2A;&#xA3F;&#xA24;&#xA3E; &#xA28;&#xA42;&#xA70;</trd>
   <trd lng="pl">ojciec</trd>
   <trd lng="ps">&f_p;&a_l;&a_A;&a_r;</trd>
   <trd lng="ru">&c_o;&c_t;&c_je;&c_c;</trd>
   <trd lng="rw">se</trd>
   <trd lng="sd">&f_p;&a_y;&a_hamza;&a_damma;</trd>
-  <trd lng="si">&#3508;&#3538;&#3514;&#3535;</trd>
+  <trd lng="si">&#xDB4;&#xDD2;&#xDBA;&#xDCF;</trd>
   <trd lng="sk">otec</trd>
   <trd lng="sl">o&ccaron;e</trd>
   <trd lng="sm">tama</trd>
@@ -225,14 +233,14 @@
   <trd lng="su">bapa</trd>
   <trd lng="sv">fader</trd>
   <trd lng="sw">baba</trd>
-  <trd lng="ta">&#2980;&#2984;&#3021;&#2980;&#3016;</trd>
-  <trd lng="te">&#3108;&#3074;&#3105;&#3149;&#3120;&#3135;</trd>
+  <trd lng="ta">&#xBA4;&#xBA8;&#xBCD;&#xBA4;&#xBC8;</trd>
+  <trd lng="te">&#xC24;&#xC02;&#xC21;&#xC4D;&#xC30;&#xC3F;</trd>
   <trd lng="tg">&c_p;&c_a;&c_d;&c_a;&c_r;</trd>
-  
+
   <trd lng="tl">ama</trd>
   <trd lng="tok">mama mije</trd>
   <trd lng="tr">baba</trd>
-  <trd lng="tt">&#1241;&c_t;&c_i;&c_s;&c_je;</trd>
+  <trd lng="tt">&#x4D9;&c_t;&c_i;&c_s;&c_je;</trd>
   <trd lng="uk">&c_b;&c_a;&c_t;&c_mol;&c_k;&c_o;</trd>
   <trd lng="ur">&a_w;&a_A;&a_l;&a_d;</trd>
   <trd lng="uz">ota</trd>
@@ -246,8 +254,8 @@
   <trd lng="yo">baba</trd>
   <trdgrp lng="zh">
     <trd>&#29238;<klr> [f&ugrave;]</klr></trd>,
-    <trd>&#29238;&#20146;</trd>,
-    <trd><klr>tr. </klr>&#29238;&#35242;<klr> [f&ugrave;qin]</klr></trd>
+    <trd>&#29238;&#x4EB2;</trd>,
+    <trd><klr>tr. </klr>&#29238;&#x89AA;<klr> [f&ugrave;qin]</klr></trd>
   </trdgrp>
   <trd lng="zu">ubaba</trd>
 </drv>
@@ -256,7 +264,7 @@
   <kap><tld/>eco</kap>
   <snc mrk="patr.0eco.KOMUNE">
     <dif>
-      <ref tip="super" cel="stat.0o.atributa">Stato</ref> de 
+      <ref tip="super" cel="stat.0o.atributa">Stato</ref> de
       <ref cel="vir.0o">viro</ref>, kiu estas <tld/>o:
       <ekz>
         dum sia restado en Egiptujo Cezaro havis amrilaton al Kleopatra,
@@ -308,8 +316,8 @@
     </trdgrp>
    <trdgrp lng="en">
       <trd>fatherhood</trd>
-      <trd>paternity</trd>   
-    </trdgrp> 
+      <trd>paternity</trd>
+    </trdgrp>
     <trd lng="pl">ojcostwo</trd>
   </snc>
   <snc mrk="patr.0eco.FIG">
@@ -332,7 +340,12 @@
     <trd>paternit&eacute;</trd>
   </trdgrp>
   <trd lng="hu">apas&aacute;g</trd>
+  <trdgrp lng="id">
+    <trd>ke<ind>ayah</ind>an</trd>,
+    <trd>ke<ind>bapak</ind>an</trd>
+  </trdgrp>
   <trd lng="it">paternit&agrave;</trd>
+  <trd lng="ja">&#29238;&#24615;  <pr>&#12405;&#x305B;&#12356;</pr></trd>
   <trd lng="nl">vaderschap</trd>
   <trd lng="no">farskap</trd>
   <trd lng="ru">&c_o;&c_t;&c_c;&c_o;&c_v;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -379,25 +392,25 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        senlaboremo estas <tld/>ino de &ccirc;iuj 
+        senlaboremo estas <tld/>ino de &ccirc;iuj
         malvirtoj<fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="lst">
       <ref cel="parenc.0o" lst="voko:parencoj">parencino</ref>
-    </refgrp>        
+    </refgrp>
     <trdgrp lng="th">
-      <trd>&#3649;&#3617;&#3656;</trd>,
-      <trd>&#3617;&#3634;&#3619;&#3604;&#3634;</trd>
+      <trd>&#xE41;&#xE21;&#xE48;</trd>,
+      <trd>&#xE21;&#xE32;&#xE23;&#xE14;&#xE32;</trd>
     </trdgrp>
   </snc>
   <trd lng="af">ma</trd>
-  <trd lng="am">&#4773;&#4755;&#4725;</trd>
+  <trd lng="am">&#x12A5;&#4755;&#4725;</trd>
   <trd lng="ar">&a_A_hamza_sure;&a_m;</trd>
   <trd lng="az">ana</trd>
   <trd lng="be">&c_m;&c_a;&c_c;&c_ib;</trd>
   <trd lng="bg">&c_m;&c_a;&c_j;&c_k;&c_a;</trd>
-  <trd lng="bn">&#2478;&#2494;</trd>
+  <trd lng="bn">&#x9AE;&#x9BE;</trd>
   <trd lng="bo">&t_a;&t_tsheg;&t_ma;&t_tsheg;</trd>
   <trd lng="br">mamm</trd>
   <trd lng="bs">majka</trd>
@@ -418,45 +431,49 @@
   <trd lng="ga">m&aacute;thair</trd>
   <trd lng="gd">m&agrave;thair</trd>
   <trd lng="gl">nai</trd>
-  <trd lng="gu">&#2734;&#2750;&#2724;&#2750;</trd>
+  <trd lng="gu">&#xAAE;&#xABE;&#xAA4;&#xABE;</trd>
   <trd lng="ha">uwar</trd>
   <trd lng="he">&alef;&yod;&mem;&alef;</trd>
-  <trd lng="hi">&#2350;&#2366;&#2306;</trd>
+  <trd lng="hi">&#x92E;&#x93E;&#2306;</trd>
   <trd lng="hmn">niam</trd>
   <trd lng="hr">majka</trd>
   <trd lng="ht">manman</trd>
   <trd lng="hu">anya</trd>
   <trd lng="hy">&#1396;&#1377;&#1397;&#1408;</trd>
-  <trd lng="id">ibu</trd>
+  <trdgrp lng="id">
+    <trd>ibu</trd>,
+    <trd>mak</trd>,
+    <trd>mama</trd>
+  </trdgrp>
   <trd lng="ig">nne</trd>
-  <trd lng="is">m&oacute;ðir</trd>
+  <trd lng="is">m&oacute;&#xF0;ir</trd>
   <trd lng="it">madre</trd>
-  <trd lng="ja">&#27597;</trd>
+  <trd lng="ja">&#x6BCD; <pr>&#x306F;&#x306F;</pr></trd>
   <trd lng="jv">ibune</trd>
-  <trd lng="ka">&#4307;&#4308;&#4307;&#4304;</trd>
+  <trd lng="ka">&#x10D3;&#x10D4;&#x10D3;&#x10D0;</trd>
   <trd lng="kk">&c_a;&c_n;&c_a;</trd>
-  <trd lng="km">&#6040;&#6098;&#6031;&#6070;&#6041;</trd>
-  <trd lng="kn">&#3236;&#3262;&#3247;&#3263;</trd>
-  <trd lng="ko">&#50612;&#47672;&#45768;</trd>
+  <trd lng="km">&#6040;&#x17D2;&#x178F;&#x17B6;&#6041;</trd>
+  <trd lng="kn">&#xCA4;&#xCBE;&#xCAF;&#xCBF;</trd>
+  <trd lng="ko">&#xC5B4;&#xBA38;&#xB2C8;</trd>
   <trdgrp lng="ku">
     <trd>da</trd>,
     <trd>d&ecirc;</trd>
   </trdgrp>
   <trd lng="ky">&c_e;&c_n;&c_je;</trd>
   <trd lng="lat">mater</trd>
-  <trd lng="lo">&#3777;&#3745;&#3784;</trd>
+  <trd lng="lo">&#xEC1;&#xEA1;&#xEC8;</trd>
   <trd lng="lt">motina</trd>
   <trd lng="lv">m&#257;te</trd>
   <trd lng="mg">ny reniny</trd>
   <trd lng="mi">whaea</trd>
   <trd lng="mk">&c_m;&c_a;&#1112;&c_k;&c_a;</trd>
-  <trd lng="ml">&#3333;&#3374;&#3405;&#3374;</trd>
+  <trd lng="ml">&#xD05;&#xD2E;&#xD4D;&#xD2E;</trd>
   <trd lng="mn">&c_e;&c_e;&c_zh; &c_n;&c_mol;</trd>
   <trd lng="mr">&#2310;&#2312;</trd>
   <trd lng="ms">ibu</trd>
   <trd lng="mt">omm</trd>
-  <trd lng="my">&#4121;&#4141;&#4097;&#4100;&#4154;</trd>
-  <trd lng="ne">&#2310;&#2350;&#2366;</trd>
+  <trd lng="my">&#4121;&#x102D;&#4097;&#4100;&#x103A;</trd>
+  <trd lng="ne">&#2310;&#x92E;&#x93E;</trd>
   <trdgrp lng="nl">
     <trd>moeder</trd>,
     <trd>mama</trd>,
@@ -465,14 +482,14 @@
   </trdgrp>
   <trd lng="no">mor</trd>
   <trd lng="ny">mayi</trd>
-  <trd lng="pa">&#2606;&#2622;&#2596;&#2622;</trd>
+  <trd lng="pa">&#xA2E;&#xA3E;&#xA24;&#xA3E;</trd>
   <trd lng="pl">matka</trd>
   <trd lng="ps">&a_m;&a_w;&a_r;</trd>
   <trd lng="pt">m&atilde;e</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_mol;</trd>
   <trd lng="rw">nyina</trd>
   <trd lng="sd">&a_m;&a_A;&a_hamza;&a_damma;</trd>
-  <trd lng="si">&#3512;&#3520;</trd>
+  <trd lng="si">&#xDB8;&#xDC0;</trd>
   <trd lng="sk">matka</trd>
   <trd lng="sl">mati</trd>
   <trd lng="sm">tina</trd>
@@ -483,18 +500,18 @@
   <trd lng="su">indung</trd>
   <trd lng="sv">moder</trd>
   <trd lng="sw">mama</trd>
-  <trd lng="ta">&#2949;&#2990;&#3021;&#2990;&#3006;</trd>
-  <trd lng="te">&#3108;&#3122;&#3149;&#3122;&#3135;</trd>
+  <trd lng="ta">&#xB85;&#xBAE;&#xBCD;&#xBAE;&#xBBE;</trd>
+  <trd lng="te">&#xC24;&#xC32;&#xC4D;&#xC32;&#xC3F;</trd>
   <trd lng="tg">&c_m;&c_o;&c_d;&c_a;&c_r;</trd>
-  
+
   <trd lng="tl">nanay</trd>
   <trd lng="tok">mama meli</trd>
   <trd lng="tr">anne</trd>
-  <trd lng="tt">&#1241;&c_n;&c_i;</trd>
+  <trd lng="tt">&#x4D9;&c_n;&c_i;</trd>
   <trd lng="uk">&c_m;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="ur">&a_m;&a_A;&#1722;</trd>
+  <trd lng="ur">&a_m;&a_A;&#x6BA;</trd>
   <trd lng="uz">ona</trd>
-  <trd lng="vi">m&#7865;</trd>
+  <trd lng="vi">m&#x1EB9;</trd>
   <trdgrp lng="vo">
     <trd>mot</trd>,
     <trd>jipal</trd>
@@ -503,9 +520,9 @@
   <trd lng="yi">&mem;&vav;&tet;&ayin;&resh;</trd>
   <trd lng="yo">iya</trd>
   <trdgrp lng="zh">
-    <trd>&#27597;<klr> [m&#468;]</klr></trd>,
-    <trd>&#27597;&#20146;</trd>,
-    <trd><klr>tr.. </klr>&#27597;&#35242;<klr> [m&#468;qin]</klr></trd>
+    <trd>&#x6BCD;<klr> [m&#x1D4;]</klr></trd>,
+    <trd>&#x6BCD;&#x4EB2;</trd>,
+    <trd><klr>tr.. </klr>&#x6BCD;&#x89AA;<klr> [m&#x1D4;qin]</klr></trd>
   </trdgrp>
   <trd lng="zu">umama</trd>
 </drv>
@@ -514,7 +531,7 @@
   <kap><tld/>ineco</kap>
   <snc mrk="patr.0ineco.KOMUNE">
     <dif>
-      <ref tip="super" cel="stat.0o.atributa">Stato</ref> de 
+      <ref tip="super" cel="stat.0o.atributa">Stato</ref> de
       <ref cel="vir.0ino">virino</ref>, kiu estas <tld/>ino:
       <ekz>
         la <tld/>ineco lacigis vin, Sara
@@ -552,8 +569,8 @@
     </trdgrp>
    <trdgrp lng="en">
       <trd>motherhood</trd>
-      <trd>maternity</trd>   
-    </trdgrp>        
+      <trd>maternity</trd>
+    </trdgrp>
     <trd lng="pl">macierzy&nacute;stwo</trd>
   </snc>
   <snc mrk="patr.0ineco.FIG">
@@ -571,7 +588,9 @@
     m&egrave;re)</klr></trd>
   </trdgrp>
   <trd lng="hu">anyas&aacute;g</trd>
+  <trd lng="id">ke<ind>ibu</ind>an</trd>
   <trd lng="it">maternit&agrave;</trd>
+  <trd lng="ja">&#x6BCD;&#24615;  <pr>&#x307C;&#x305B;&#12356;</pr></trd>
   <trd lng="nl">moederschap</trd>
   <trd lng="no">morskap</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -587,16 +606,37 @@
     <dif>
       Agi kiel <tld/>o al...:
       <ekz>
+        &scirc;i bezonis, ke iu okupi&gcirc;u pri &scirc;i, <tld/>u al &scirc;i
+        <fnt>
+          <bib>ChC</bib>
+          <lok>17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         li eble mem konsentos lin <tld/>i pro inklino
         <fnt>
           <aut>J. Racine, trad. G. Lagrange</aut>,
           <vrk>Fedra</vrk>,
           <lok>1991</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la estrara kunsidejo scias, &ccirc;u tiun miskalkulon <tld/>is <nom>Corsetti</nom> mem a&ubreve; liaj
+        kunestraranoj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 6 (104)</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_y;&c_c;&c_mol; <ind>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;&c_m;</ind></trd>,
+    <trd>&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a; <ind>&c_p;&c_a;-&c_b;&c_a;&c_c;&c_mol;&c_k;&c_o;&c_w;&c_s;&c_k;&c_u;</ind></trd>
+  </trdgrp>
   <trd lng="cs">b&yacute;t otcem <klr>(n&ecaron;komu)</klr></trd>
+  <trd lng="de">wie ein Vater <ind>umsorgen</ind></trd>
   <trd lng="fr">se conduire comme un <ind>p&egrave;re</ind>
   pour...</trd>
   <trd lng="sk">by&tcaron; otcom</trd>
@@ -627,7 +667,7 @@
       </ekz>
       <ekz>
         en mian landon kaj en mian <tld/>ujon vi iros kaj vi prenos
-        edzinon por mia filo <nom>Isaak</nom> 
+        edzinon por mia filo <nom>Isaak</nom>
         <fnt>
           <bib>MT</bib>
           <lok>Genezo 24:4</lok>
@@ -712,6 +752,10 @@
   </trdgrp>
   <trd lng="id"><ind>tanah</ind> air</trd>
   <trd lng="it">patria</trd>
+  <trdgrp lng="ja">
+    <trd>&#31062;&#x56FD;  <pr>&#x305D;&#12371;&#x304F;</pr></trd>,
+    <trd>&#x6BCD;&#x56FD;  <pr>&#x307C;&#12371;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">vaderland</trd>
   <trd lng="no">fedreland</trd>
   <trd lng="pl">ojczyzna</trd>
@@ -741,11 +785,11 @@
   <snc mrk="patr.bo0o.aledza">
     <uzo tip="fak">GEN</uzo>
     <dif>
-      <ref tip="super" cel="patr.0o"><tld lit="P"/>o</ref> de la 
+      <ref tip="super" cel="patr.0o"><tld lit="P"/>o</ref> de la
       edzo respektive la edzino:
       <ekz>
         la <tld/>o de mia edzino estas mia bo<tld/>o, mi estas lia
-        bofilo, 
+        bofilo,
         kaj mia <tld/>o estas la bo<tld/>o de mia edzino
         <fnt>
           <bib>F</bib>
@@ -785,16 +829,16 @@
         15a</lok></fnt>.
       </ekz>
     </dif>
-  </snc>                     
+  </snc>
   <ref tip="lst" cel="parenc.0o" lst="voko:parencoj">parenco</ref>
   <trdgrp lng="be">
     <trd>&c_c;&c_je;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_mol;&c_v;&c_jo;&c_k;&c_a;&c_r;</trd>
   </trdgrp>
-  <trdgrp lng="br">     
+  <trdgrp lng="br">
     <trd>tadeg</trd>
     <trd>tad-kaer</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="de">Schwiegervater</trd>
   <trd lng="en">father-in-law</trd>
   <trd lng="es">suegro</trd>
@@ -805,7 +849,12 @@
     <trd>ap&oacute;s</trd>,
     <trd>ipa</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>ayah</ind> mertua</trd>,
+    <trd><ind>bapak</ind> mertua</trd>
+  </trdgrp>
   <trd lng="it">suocero</trd>
+  <trd lng="ja">&#12375;&#12421;&#12358;&#12392;</trd>
   <trd lng="nl">schoonvader</trd>
   <trd lng="no">svigerfar</trd>
   <trdgrp lng="pl">
@@ -873,12 +922,12 @@
   <ref tip="lst" cel="parenc.0ino" lst="voko:parencoj">parencino</ref>
   <trdgrp lng="be">
     <trd>&c_c;&c_je;&c_sh;&c_ch;&c_a;</trd>,
-    <trd lng="be">&c_s;&c_mol;&c_v;&c_ja;&c_k;&c_r;&c_o;&c_w;</trd>
+    <trd>&c_s;&c_mol;&c_v;&c_ja;&c_k;&c_r;&c_o;&c_w;</trd>
   </trdgrp>
-  <trdgrp lng="br">     
+  <trdgrp lng="br">
     <trd>mammeg</trd>
     <trd>mamm-gaer</trd>
-  </trdgrp>               
+  </trdgrp>
   <trd lng="de">Schwiegermutter</trd>
   <trd lng="en">mother-in-law</trd>
   <trd lng="es">suegra</trd>
@@ -889,7 +938,9 @@
     <trd>any&oacute;s</trd>,
     <trd>napa</trd>
   </trdgrp>
+  <trd lng="id"><ind>ibu</ind> mertua</trd>
   <trd lng="it">suocera</trd>
+  <trd lng="ja">&#12375;&#12421;&#12358;&#12392;&#12417;</trd>
   <trd lng="nl">schoonmoeder</trd>
   <trd lng="no">svigermor</trd>
   <trdgrp lng="pl">
@@ -940,7 +991,13 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>    
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_je;&c_s;&c_mol;&c_c;&c_mol; &c_ib; &c_c;&c_je;&c_sh;&c_ch;&c_a;</trd>,
+    <trd>&c_s;&c_mol;&c_v;&c_jo;&c_k;&c_a;&c_r; &c_ib; &c_s;&c_mol;&c_v;&c_ja;&c_k;&c_r;&c_o;&c_w;</trd>,
+    <trd>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_ib; &c_zh;&c_o;&c_n;&c_k;&c_ib; <klr>(&c_d;&c_l;&c_ja; &c_m;&c_u;&c_zh;&c_a;)</klr></trd>,
+    <trd>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_ib; &c_m;&c_u;&c_zh;&c_a; <klr>(&c_d;&c_l;&c_ja; &c_zh;&c_o;&c_n;&c_k;&c_ib;)</klr></trd>
+  </trdgrp>
   <trd lng="br">tud-kaer</trd>
   <trd lng="de">Schwiegereltern</trd>
   <trd lng="en">in-laws</trd>
@@ -974,7 +1031,8 @@
 
 <drv mrk="patr.duon0o">
   <kap><ofc>*</ofc>duon<tld/>o <fnt><bib>F</bib>, <lok>Universala
-  Vortaro, <url ref="&AdE;/fundamento/universala_vortaro.html#av-5273">du'on'patr'</url></lok></fnt></kap>
+  Vortaro, <url
+  ref="&AdE;/fundamento/universala_vortaro.html#av-5273">du'on'patr'</url></lok></fnt></kap>
   <snc mrk="patr.duon0o.GEN">
     <uzo tip="fak">GEN</uzo>
     <dif>
@@ -1019,7 +1077,15 @@
   <trd lng="es">padrastro</trd>
   <trd lng="fr">beau-p&egrave;re<klr> (&eacute;poux de la m&egrave;re)</klr></trd>
   <trd lng="hu">mostohaapa</trd>
+  <trdgrp lng="id">
+    <trd><ind>ayah</ind> tiri</trd>,
+    <trd><ind>bapak</ind> tiri</trd>
+  </trdgrp>
   <trd lng="it">patrigno</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D99;&#29238;  <pr>&#12369;&#12356;&#12405;</pr></trd>,
+    <trd>&#x307E;&#x307E;&#29238;  <pr>&#x307E;&#x307E;&#12385;&#12385;</pr></trd>
+  </trdgrp>
   <trd lng="nl">stiefvader</trd>
   <trd lng="no">stefar</trd>
   <trd lng="pl">ojczym</trd>
@@ -1057,7 +1123,7 @@
         mia duon<tld/>ino jam de la unuaj tagoj de nia kuna lo&gcirc;ado
         komencis min malami kaj balda&ubreve; ekscitis kontra&ubreve;
         min mian
-        <tld/>on, 
+        <tld/>on,
         kiu &scirc;in senfine amis kaj plenumadis &ccirc;iujn
         &scirc;iajn kapricojn
         <fnt>
@@ -1083,7 +1149,12 @@
   <trd lng="es">madrastra</trd>
   <trd lng="fr">belle-m&egrave;re<klr> (&eacute;pouse du p&egrave;re)</klr></trd>
   <trd lng="hu">mostohaanya</trd>
+  <trd lng="id"><ind>ibu</ind> tiri</trd>
   <trd lng="it">matrigna</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D99;&#x6BCD;  <pr>&#12369;&#12356;&#x307C;</pr></trd>,
+    <trd>&#x307E;&#x307E;&#x6BCD;  <pr>&#x307E;&#x307E;&#x306F;&#x306F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">stiefmoeder</trd>
   <trd lng="no">stemor</trd>
   <trd lng="pl">macocha</trd>
@@ -1101,7 +1172,7 @@
   <snc mrk="patr.ge0oj.tradicie">
     <uzo tip="fak">GEN</uzo>
     <dif>
-      <tld lit="P"/>o kaj <tld/>ino; en pli vasta senco 
+      <tld lit="P"/>o kaj <tld/>ino; en pli vasta senco
       anka&ubreve; iu paro a&ubreve; grupo de homoj plenumantaj tiun
       rolon:
       <ekz>
@@ -1109,7 +1180,7 @@
        <fnt><bib>F</bib>, <lok>&FE; 36</lok></fnt>;
       </ekz>
       <ekz>
-        vi forlasis viajn ge<tld/>ojn kaj vian naski&gcirc;landon, 
+        vi forlasis viajn ge<tld/>ojn kaj vian naski&gcirc;landon,
         kaj iris al popolo, kiun vi ne konis hiera&ubreve; nek
         anta&ubreve;hiera&ubreve;
         <fnt>
@@ -1150,8 +1221,8 @@
           <bib>PrV</bib>
         </fnt>.
       </ekz>
-    </dif>          
-    <trdgrp lng="br">                            
+    </dif>
+    <trdgrp lng="br">
       <trd>kerent<klr> (tad ha mamm)</klr></trd>,
       <trd>tud<klr> (tad ha mamm)</klr></trd>
     </trdgrp>
@@ -1173,13 +1244,14 @@
     <trd lng="sk">rodi&ccaron;ia</trd>
     <trd lng="sv">f&ouml;r&auml;ldrar</trd>
     <trdgrp lng="th">
-      <trd>&#3612;&#3641;&#3657;&#3611;&#3585;&#3588;&#3619;&#3629;&#3591;</trd>,
-      <trd>&#3614;&#3656;&#3629;&#3649;&#3621;&#3632;&#3649;&#3617;&#3656;</trd>
+      <trd>&#xE1C;&#xE39;&#xE49;&#xE1B;&#xE01;&#xE04;&#xE23;&#xE2D;&#xE07;</trd>,
+      <trd>&#xE1E;&#xE48;&#xE2D;&#xE41;&#xE25;&#xE30;&#xE41;&#xE21;&#xE48;</trd>
     </trdgrp>
     <trd lng="vo">pals</trd>
-    <trd lng="zh">&#29238;&#27597;<klr> [f&ugrave;m&#468;]</klr></trd>
+    <trd lng="zh">&#29238;&#x6BCD;<klr> [f&ugrave;m&#x1D4;]</klr></trd>
   </snc>
   <trd lng="bo">&t_pha;&t_tsheg;&t_ma;&t_tsheg;</trd>
+  <trd lng="ja">&#x4E21;&#x89AA;  <pr>&#x308A;&#12423;&#12358;&#12375;&#12435;</pr></trd>
   <trd lng="uk">&c_b;&c_a;&c_t;&c_mol;&c_k;&c_i;</trd>
 </drv>
 
@@ -1189,25 +1261,26 @@
   <snc mrk="patr.ge0o.GEN">
     <uzo tip="fak">GEN</uzo>
     <dif>
-      <tld lit="P"/>o, <tld/>ino a&ubreve; <ref tip="vid" cel="du.ne0umulo">neduumulo</ref> en tia parenco-rilato; <ref tip="sin" cel="parent1.0o.GEN">parento</ref>:
+      <tld lit="P"/>o, <tld/>ino a&ubreve; <ref tip="vid" cel="du.ne0umulo">neduumulo</ref> en tia
+      parenco-rilato; <ref tip="sin" cel="parent1.0o.GEN">parento</ref>:
       <ekz>
         se oni heredas normalan genon de la alia ge<tld/>o, oni tamen
         povas produkti sufi&ccirc;e de la normala p16-proteino
         <fnt>
-          <aut>S. Norvell</aut>
+          <aut>Ste&ccirc;jo Norvell</aut>
           <vrk>&Ccirc;u anka&ubreve; genoj responsas pri melanomo?</vrk>
           <bib>Monato</bib>
-          <lok>1997:7, p. 14a</lok>
+          <lok>1997/07, p. 14</lok>
         </fnt>;
       </ekz>
       <ekz>
         jen ebla tasko, sendube pens-instiga, por ge<tld/>o kaj gefilo:
         kundiskuti la verkon
-        <fnt>
-          <aut>J. Camacho</aut>
-          <vrk><url ref="&Steloj;monato2/006810.html">Diskutige
-          kaj diskutinde</url></vrk>
-          <bib>Monato</bib>
+       <fnt>
+	<aut>Jorge Camacho</aut>
+	<vrk><url ref="&Monato;/2000/006810.php">Diskutige kaj diskutinde</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/08, p. 25</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -1219,13 +1292,14 @@
       akceptas &gcirc;in. Vidu la <ref cel="ge.0.ununombro">duan sencon de
       &leftquot;ge-&rightquot;</ref>.
     </rim>
-    <trd lng="th">&#3614;&#3656;&#3629;&#3627;&#3619;&#3639;&#3629;&#3649;&#3617;&#3656;</trd>
+    <trd lng="th">&#xE1E;&#xE48;&#xE2D;&#xE2B;&#xE23;&#xE37;&#xE2D;&#xE41;&#xE21;&#xE48;</trd>
   </snc>
   <trd lng="af">ouer</trd>
-  <trd lng="am">&#4808;&#4619;&#4869;</trd>
+  <trd lng="am">&#x12C8;&#x120B;&#4869;</trd>
   <trd lng="ar">&a_A;&a_l;&a_A_hamza_sure;&a_m;</trd>
   <trd lng="az">valideyn</trd>
-  <trd lng="bn">&#2474;&#2495;&#2468;&#2494; &#2476;&#2494; &#2478;&#2494;&#2468;&#2494;</trd>
+  <trd lng="be">&c_a;&c_d;&c_z;&c_ib;&c_n; &c_z; <ind>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_o;&c_w;</ind></trd>
+  <trd lng="bn">&#x9AA;&#x9BF;&#x9A4;&#x9BE; &#x9AC;&#x9BE; &#x9AE;&#x9BE;&#x9A4;&#x9BE;</trd>
   <trd lng="br">unan eus ar gerent</trd>
   <trd lng="bs">roditelj</trd>
   <trd lng="co">female</trd>
@@ -1241,53 +1315,53 @@
   <trd lng="ga">tuismitheoir</trd>
   <trd lng="gd">p&agrave;rant</trd>
   <trd lng="gl">pai</trd>
-  <trd lng="gu">&#2730;&#2751;&#2724;&#2755;</trd>
+  <trd lng="gu">&#xAAA;&#xABF;&#xAA4;&#xAC3;</trd>
   <trd lng="ha">iyaye</trd>
   <trd lng="he">&he;&vav;&resh;&he;</trd>
-  <trd lng="hi">&#2350;&#2366;&#2340;&#2366; &#2346;&#2367;&#2340;&#2366;</trd>
+  <trd lng="hi">&#x92E;&#x93E;&#2340;&#x93E; &#x92A;&#x93F;&#2340;&#x93E;</trd>
   <trd lng="hmn">niam txiv</trd>
   <trd lng="hr">roditelj</trd>
   <trd lng="ht">paran</trd>
   <trd lng="hu">sz&uuml;l&odblac;</trd>
-  <trd lng="hy">&#1390;&#1398;&#1400;&#1394;</trd>
+  <trd lng="hy">&#x56E;&#1398;&#1400;&#1394;</trd>
   <trd lng="ig">nne na nna</trd>
   <trd lng="is">foreldri</trd>
   <trd lng="it">genitore</trd>
-  <trd lng="ja">&#35242;</trd>
+  <trd lng="ja">&#x89AA; <pr>&#12375;&#12435;</pr></trd>
   <trd lng="jv">tiyang sepah</trd>
-  <trd lng="ka">&#4315;&#4328;&#4317;&#4305;&#4308;&#4314;&#4321;</trd>
+  <trd lng="ka">&#x10DB;&#x10E8;&#x10DD;&#x10D1;&#x10D4;&#x10DA;&#x10E1;</trd>
   <trd lng="kk">&c_a;&c_t;&c_a;-&c_a;&c_n;&c_a;&c_l;&c_a;&c_r;</trd>
-  <trd lng="km">&#6040;&#6081;</trd>
-  <trd lng="kn">&#3246;&#3266;&#3250;</trd>
-  <trd lng="ko">&#48512;&#47784;</trd>
+  <trd lng="km">&#6040;&#x17C1;</trd>
+  <trd lng="kn">&#xCAE;&#xCC2;&#xCB2;</trd>
+  <trd lng="ko">&#xBD80;&#xBAA8;</trd>
   <trd lng="ku">d&ecirc; &ucirc; bav</trd>
   <trd lng="ky">&c_a;&c_t;&c_a;-&c_e;&c_n;&c_je;</trd>
   <trd lng="lat">parente</trd>
-  <trd lng="lo">&#3742;&#3789;&#3784;&#3777;&#3745;&#3784;</trd>
+  <trd lng="lo">&#xE9E;&#xECD;&#xEC8;&#xEC1;&#xEA1;&#xEC8;</trd>
   <trd lng="lt">t&#279;v&#371;</trd>
   <trd lng="lv">vec&#257;ks</trd>
   <trd lng="mg">ray aman-dreny</trd>
   <trd lng="mi">matua</trd>
   <trd lng="mk">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;</trd>
-  <trd lng="ml">&#3370;&#3390;&#3376;&#3368;&#3405;&#3377;&#3405;</trd>
+  <trd lng="ml">&#xD2A;&#xD3E;&#xD30;&#xD28;&#xD4D;&#xD31;&#xD4D;</trd>
   <trdgrp lng="mn">
     <trd>&c_e;&c_c;&c_e;&c_g;</trd>,
     <trd>&c_e;&c_h;</trd>
   </trdgrp>
-  <trd lng="mr">&#2346;&#2366;&#2354;&#2325;</trd>
+  <trd lng="mr">&#x92A;&#x93E;&#2354;&#2325;</trd>
   <trd lng="ms">ibu bapa</trd>
   <trd lng="mt">&#289;enitur</trd>
-  <trd lng="my">&#4121;&#4141;&#4120;&#4112;&#4101;&#4154;</trd>
-  <trd lng="ne">&#2310;&#2350;&#2366;</trd>
+  <trd lng="my">&#4121;&#x102D;&#4120;&#4112;&#4101;&#x103A;</trd>
+  <trd lng="ne">&#2310;&#x92E;&#x93E;</trd>
   <trd lng="nl">ouder</trd>
   <trd lng="ny">kholo</trd>
-  <trd lng="pa">&#2606;&#2622;&#2596;&#2622;</trd>
+  <trd lng="pa">&#xA2E;&#xA3E;&#xA24;&#xA3E;</trd>
   <trd lng="pl">rodzic</trd>
   <trd lng="ps">&a_m;&a_w;&a_r; &a_A;&a_w; &f_p;&a_l;&a_A;&a_r;</trd>
   <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   <trd lng="rw">umubyeyi</trd>
   <trd lng="sd">&a_w;&a_A;&a_l;&a_d;&a_y;&a_n;</trd>
-  <trd lng="si">&#3512;&#3520;&#3530;</trd>
+  <trd lng="si">&#xDB8;&#xDC0;&#xDCA;</trd>
   <trd lng="sk">rodi&ccaron;</trd>
   <trd lng="sl">mati&ccaron;na</trd>
   <trd lng="sm">matua</trd>
@@ -1298,20 +1372,20 @@
   <trd lng="su">indungna</trd>
   <trd lng="sv">f&ouml;r&auml;lder</trd>
   <trd lng="sw">mzazi</trd>
-  <trd lng="ta">&#2986;&#3014;&#2993;&#3021;&#2993;&#3019;&#2992;&#3021;</trd>
-  <trd lng="te">&#3114;&#3143;&#3120;&#3142;&#3074;&#3103;&#3149;</trd>
+  <trd lng="ta">&#xBAA;&#xBC6;&#xBB1;&#xBCD;&#xBB1;&#xBCB;&#xBB0;&#xBCD;</trd>
+  <trd lng="te">&#xC2A;&#xC47;&#xC30;&#xC46;&#xC02;&#xC1F;&#xC4D;</trd>
   <trd lng="tg">&c_v;&c_o;&c_l;&c_i;&c_d;&c_a;&c_j;&c_n;</trd>
-  
+
   <trd lng="tl">magulang</trd>
   <trd lng="tok">mama</trd>
   <trd lng="tt">&c_a;&c_t;&c_a;-&c_a;&c_n;&c_a;</trd>
   <trd lng="uk">&c_b;&c_a;&c_t;&c_mol;&c_k;&c_o;</trd>
   <trd lng="ur">&a_w;&a_A;&a_l;&a_d;&f_y;&a_n;</trd>
   <trd lng="uz">ota-</trd>
-  <trd lng="vi">m&#7865;</trd>
+  <trd lng="vi">m&#x1EB9;</trd>
   <trd lng="vo">pal</trd>
   <trd lng="xh">umzali</trd>
-  <trd lng="yi">&pe;&alef;&#1464;&tet;&ayin;&resh;</trd>
+  <trd lng="yi">&pe;&alef;&#x5B8;&tet;&ayin;&resh;</trd>
   <trd lng="yo">obi</trd>
   <trd lng="zu">umzali</trd>
 </drv>
@@ -1354,21 +1428,29 @@
     <trd>p&rcaron;edek</trd>,
     <trd>vzd&aacute;len&yacute; p&rcaron;edek</trd>
   </trdgrp>
-  <trd lng="de">Vorfahre</trd>
+  <trdgrp lng="de">
+    <trd>Vorfahre</trd>,
+    <trd>Urvater</trd>
+  </trdgrp>
   <trd lng="en">forefather</trd>
   <trdgrp lng="fr">
     <trd>a&iuml;eul<klr> (anc&ecirc;tre masculin)</klr></trd>,
     <trd>anc&ecirc;tre<klr> (masculin)</klr></trd>
   </trdgrp>
   <trd lng="hu">&odblac;sapa</trd>
+  <trdgrp lng="id">
+    <trd>leluhur</trd>,
+    <trd><ind>nenek</ind> moyang</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>antenato</trd>, <trd>avo<klr> (antenato)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#20808;&#31062;  <pr>&#x305B;&#12435;&#x305E;</pr></trd>
   <trd lng="nl">voorvader</trd>
   <trd lng="no">forfar</trd>
-  <trdgrp lng="pl">                                        
-    <trd>praojciec</trd>,                       
-    <trd>protoplasta</trd>,                                   
+  <trdgrp lng="pl">
+    <trd>praojciec</trd>,
+    <trd>protoplasta</trd>,
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_a;&c_o;&c_t;&c_je;&c_c;</trd>,
@@ -1388,7 +1470,8 @@
   <snc>
     <uzo tip="fak">KRI</uzo>
     <dif>
-      Kristana <ref tip="super" cel="pregx.0o">pre&gcirc;o</ref>, komenci&gcirc;anta per la vortoj &leftquot;<tld/>o nia...&rightquot;,
+      Kristana <ref tip="super" cel="pregx.0o">pre&gcirc;o</ref>, komenci&gcirc;anta per la vortoj &leftquot;<tld/>o
+      nia...&rightquot;,
       la&ubreve; la Nova Testamento transdonita de Jesuo al la dis&ccirc;iploj:
       <ekz>
         la knabo estis tute terurita, li volis ekpre&gcirc;i <tld lit="P"/>onian, sed li
@@ -1403,24 +1486,20 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Albisturo Kvinke</aut>
-          <vrk><url ref="https://www.monato.be/2013/010838.php"
-              >Bernardo la Simpligisto</url></vrk>
+          <vrk><url ref="&Monato;/2013/010838.php">Bernardo la Simpligisto</url></vrk>
           <lok>2013</lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="kadisx.0o">kadi&scirc;o</ref>
   </snc>
+  <trd lng="be">&c_O;&c_j;&c_ch;&c_a; &c_n;&c_a;&c_sh;</trd>
   <trd lng="de">Vaterunser</trd>
   <trd lng="en">Lord's Prayer</trd>
   <trd lng="fr">Notre P&egrave;re</trd>
+  <trd lng="id"><ind>Doa</ind> Bapa Kami</trd>
   <trd lng="lat">Pater noster</trd>
 </drv>
-
-
-
-
-
 
 <drv mrk="patr.pra0ino">
   <kap>pra<tld/>ino</kap>
@@ -1431,7 +1510,7 @@
       imagata fondintino de popolo, tribo a&ubreve; gento (familio):
       <ekz>
         la&ubreve; lokaj onidiroj, en la urbo &Gcirc;ido (Sauda Arabio)
-        trovi&gcirc;as 
+        trovi&gcirc;as
         la tombo de Evo, la biblia pra<tld/>ino de la homaro
         <fnt>
           <bib>Viki</bib>
@@ -1442,12 +1521,20 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_c;&c_ib;</trd>
+  <trdgrp lng="de">
+    <trd>Vorfahrin</trd>,
+    <trd>Urmutter</trd>
+  </trdgrp>
   <trd lng="en">foremother</trd>
   <trdgrp lng="fr">
     <trd>a&iuml;eule<klr> (anc&ecirc;tre f&eacute;minin)</klr></trd>,
     <trd>anc&ecirc;tre<klr> (f&eacute;minin)</klr></trd>
   </trdgrp>
   <trd lng="hu">&odblac;sanya</trd>
+  <trdgrp lng="id">
+    <trd>leluhur</trd>,
+    <trd><ind>nenek</ind> moyang</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>antenata</trd>, <trd>ava<klr> (antenata)</klr></trd>
   </trdgrp>
@@ -1471,16 +1558,25 @@
         zono de <nom>Binh Dinh</nom>; tie li instali&gcirc;is kaj faris la
         metion de sia adopta <tld/>o
         <fnt>
-          <aut>Nguyen Thi Ng&#7885;c Lan</aut>
-          <vrk><url ref="http://www.kunlaboro.pro.br/esperanto/fabeloj/la-roko-de-la-edzino-atendanta-sian-edzon/">
+          <aut>Nguyen Thi Ng&#x1ECD;c Lan</aut>
+          <vrk><url
+          ref="http://www.kunlaboro.pro.br/esperanto/fabeloj/la-roko-de-la-edzino-atendanta-sian-edzon/">
           La Roko de la Edzino atendanta sian Edzon</url></vrk>
           <lok>2007-03-25</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="vic.0.GEN">vic-<sncref/></ref>
   </snc>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_jo;&c_m;&c_n;&c_y; <ind>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</ind></trd>
+  <trd lng="de">Adoptivvater</trd>
   <trd lng="en">adoptive father</trd>
+  <trdgrp lng="id">
+    <trd><ind>ayah</ind> angkat</trd>,
+    <trd><ind>bapak</ind> angkat</trd>
+  </trdgrp>
   <trd lng="fr">p&egrave;re adoptif</trd>
+  <trd lng="ja">&#x990A;&#29238;  <pr>&#12424;&#12358;&#12405;</pr></trd>
   <trd lng="nl">adoptievader</trd>
 </drv>
 
@@ -1502,34 +1598,38 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_jo;&c_m;&c_n;&c_a;&c_ja; <ind>&c_m;&c_a;&c_c;&c_ib;</ind></trd>
+  <trd lng="de">Adoptivmutter</trd>
   <trd lng="en">adoptive mother</trd>
   <trd lng="fr">m&egrave;re adoptive</trd>
+  <trd lng="id"><ind>ibu</ind> angkat</trd>
+  <trd lng="ja">&#x990A;&#x6BCD;  <pr>&#12424;&#12358;&#x307C;</pr></trd>
   <trd lng="nl">adoptiemoeder</trd>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.168 2022/05/13 14:37:30
-Wolfram Diestel: +Patronia, sintakso
+versio 1.179 2023/12/12 20:10:25
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.167 2022/05/01 17:51:19
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.178 2023/10/20 14:25:20
+revo: transskribo per <pr>
 
-versio 1.163 2021/12/12 17:41:16
-Warut Bunprasert: red th
+versio 1.177 2023/09/07 06:29:26
+Eko Nur Syah Hidayat: +trd id 2
 
-versio 1.85 2020/12/29 07:11:19
-Aleks Andre: bo
+versio 1.175 2023/08/30 06:31:34
+Wolfram Diestel: ja: prononco
 
-versio 1.84 2020/07/20 13:10:32
-Wolfram Diestel: +germ trd
+versio 1.174 2023/08/29 20:28:18
+Wolfram Diestel: ja: prononco
 
-versio 1.83 2020/04/13 18:11:03
-Peter Garami: aldono de slovenaj tradokajhoj
+versio 1.173 2023/08/29 16:35:05
+Wolfram Diestel: ja: prononco
 
-Revision 1.82  2020/01/05 15:10:15  revo
-Robin van der Vliet: dif, trd
+versio 1.172 2023/06/08 12:41:42
+Wolfram Diestel: ~i: +ekz; +trd de
 
-Revision 1.81  2019/06/30 18:21:48  revo
+versio 1.171 2023/04/24 09:26:44
 -->
 </vortaro>

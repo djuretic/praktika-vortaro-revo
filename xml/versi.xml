@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: versi.xml,v 1.14 2022/05/06 12:17:21 revo Exp $">
+<art mrk="$Id: versi.xml,v 1.19 2023/10/21 16:50:36 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>versi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -21,9 +21,11 @@
       <ekz>
         en Interreto ekzistas kelkaj <tld/>oj pri la historio de Seborgo
         <fnt>
+       <aut>Thomas Eccardt</aut>
+          <vrk><url ref="&Monato;/2000/006859.php">Urbeto a&ubreve; sendependa lando?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa lando?</url></vrk>
-        </fnt>
+          <lok>2000/05, p. 8</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -49,24 +51,25 @@
       <ekz>
         Internacia &Ccirc;ambro de Komerco eldonis, komence de &ccirc;i tiu
         jaro, novan <tld/>on de <ctl>Inkotermoj</ctl><fnt><aut>-</aut>:
-        <vrk>Inkotermoj 2000</vrk>, <bib>Monato</bib><lok>jaro 2001a,
-        numero 3a, p. 29a</lok></fnt>;
+        <vrk>Inkotermoj 2000</vrk>, <bib>Monato</bib><lok>2001/03, p. 29</lok></fnt>;
       </ekz>
       <ekz>
         la nuna <tld/>o de &Ccirc;apelilo
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9505-cxapelil.txt">Windows</url></vrk>
-          <lok>95/05</lok>
-        </fnt>;
+            <aut>Pa&ubreve;l Peeraerts</aut>
+            <bib>Monato</bib>
+            <vrk><url ref="&Monato;/1995/A950501.php">Ni levu la &ccirc;apelon!</url></vrk>
+            <lok>1995/05, p. 16</lok>
+          </fnt>;
       </ekz>
       <ekz>
         korektita <tld/>o
         <fnt>
-          <bib>Monato</bib>
           <aut>Anna L&ouml;wenstein</aut>
-          <vrk><url ref="&Steloj;monato2/006800.html">Funebro sen dio</url></vrk>
-        </fnt>.
+            <vrk><url ref="&Monato;/2000/006800.php">Funebro sen dio</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/02, p. 4</lok>
+          </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="revizi.0i.verkon">revizii<sncref/></ref>
@@ -89,20 +92,37 @@
   <trdgrp lng="fr">
     <trd>version</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x898B;&#x89E3;  <pr>&#x3051;&#x3093;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x7248;  <pr>&#x306F;&#x3093;</pr></trd>,
+    <trd>&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;</trd>
+  </trdgrp>
   <trd lng="nl">uitgave<klr tip="ind"> (versie)</klr></trd>
   <trdgrp lng="it">
     <trd>versione</trd>
   </trdgrp>
   <trd lng="ru">&c_v;&c_je;&c_r;&c_s;&c_i;&c_ja;</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x435;&#x440;&#x441;&#x456;&#x44F;</trd>,
-    <trd>&#x442;&#x43B;&#x443;&#x43C;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x440;&#x435;&#x434;&#x430;&#x43A;&#x446;&#x456;&#x44F;</trd>
+    <trd>&c_v;&c_je;&c_r;&c_s;&c_ib;&#x44F;</trd>,
+    <trd>&c_t;&#x43B;&c_u;&#x43C;&c_a;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
+    <trd>&c_r;&c_je;&c_d;&c_a;&#x43A;&c_c;&c_ib;&#x44F;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2023/10/21 16:50:36
+revo: transskribo per <pr>
+
+versio 1.17 2023/04/27 12:44:10
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.16 2023/04/24 16:35:03
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.15 2023/04/11 11:23:45
+Paul Peeraerts: Steloj -> monato
+
 versio 1.14 2022/05/06 12:17:21
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -113,17 +133,5 @@ Revision 1.10  2012/07/22 16:10:25  revo
 Marc Rausell: + trd ca
 
 Revision 1.9  2009/03/01 17:34:18  revo
-Russ Williams: +trd en 9OA
-
-Revision 1.8  2008/07/16 16:30:55  revo
-Jozefo Horvath: kor. trd hu
-
-Revision 1.7  2005/06/26 16:32:46  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2005/02/02 17:32:39 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5 2004/02/06 17:30:59 revo
 -->
 </vortaro>

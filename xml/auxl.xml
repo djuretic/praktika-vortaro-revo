@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: auxl.xml,v 1.18 2022/03/12 15:33:56 revo Exp $">
+<art mrk="$Id: auxl.xml,v 1.22 2023/10/28 08:33:10 revo Exp $">
 <kap>
   <rad>a&ubreve;l</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,8 +11,8 @@
     <uzo tip="fak">ARKI</uzo>
     <uzo tip="fak">PED</uzo>
     <dif>
-      <ref tip="super" cel="solen.0ejo">Solenejo</ref>, festo&ccirc;ambrego &ccirc;e 
-      <ref tip="malprt" cel="univer2.0o">universitato</ref>:
+      <ref tip="super" cel="solen.0ejo">Solenejo</ref>, festo&ccirc;ambrego &ccirc;e
+      <ref tip="malprt" cel="univer2.0o">universitato</ref> a&ubreve; supera lernejo:
       <ekz>
         la gimnazianoj en militserva a&gcirc;o estas kunvokitaj akurate je la
         8a kaj duono, en la granda <tld/>o
@@ -23,14 +23,19 @@
         gratulis kaj bondeziris al la komuna iniciato de <nom>ULBS</nom> kaj <nom>AIS</nom>
         <fnt>
           <bib>LOdE</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">AIS fondis departementon kun la universitato de Sibiu-Hermannstadt </url></vrk>
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">AIS fondis departementon kun la
+          universitato de Sibiu-Hermannstadt </url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="auxdit.0o">a&ubreve;ditorio</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x793C;&#x5802; <pr>l&#x1D0;t&#xE1;ng</pr></trd>,
+    <trd>&#x79AE;&#x5802; <pr>l&#x1D0;t&#xE1;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_k;&c_t;&c_a;&c_v;&c_a;&c_ja; &c_z;&c_a;&c_l;&c_ja;</trd>,
     <trd>&c_k;&c_a;&c_n;&c_f;&c_e;&c_r;&c_e;&c_n;&c_c;-&c_z;&c_a;&c_l;&c_ja;</trd>
@@ -51,6 +56,10 @@
     <trd>aula</trd>,
     <trd>d&iacute;szterem</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>auditorium</trd>,
+    <trd>aula</trd>
+  </trdgrp>
   <trd lng="it"><ind>aula</ind> magna</trd>
   <trd lng="pl">aula</trd>
   <trd lng="ro">hala de asamblare</trd>
@@ -60,14 +69,23 @@
   </trdgrp>
   <trd lng="sk">aula</trd>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x43A;&#x442;&#x43E;&#x432;&#x438;&#x439; &#x437;&#x430;&#x43B;</trd>,
-    <trd>&#x43A;&#x43E;&#x43D;&#x444;&#x435;&#x440;&#x435;&#x43D;&#x446;-&#x437;&#x430;&#x43B;</trd>,
-    <trd>&#x430;&#x432;&#x43B;&#x44F;</trd>
+    <trd>&c_a;&#x43A;&c_t;&#x43E;&c_v;&c_i;&c_j; &c_z;&c_a;&#x43B;</trd>,
+    <trd>&#x43A;&#x43E;&#x43D;&c_f;&c_je;&c_r;&c_je;&#x43D;&c_c;-&c_z;&c_a;&#x43B;</trd>,
+    <trd>&c_a;&c_v;&#x43B;&#x44F;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/10/25 09:25:00
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.20 2023/10/19 18:30:08
+Wolfram Diestel: precizigo
+
+versio 1.19 2023/05/02 15:56:28
+revo: aktualigo URL-unuoj
+
 versio 1.17 2021/09/23 16:44:23
 Wolfram Diestel: +ekz, ref
 
@@ -81,14 +99,5 @@ Revision 1.12  2007/11/19 17:30:39  revo
 Jeromo Vasxe: + fak arki + trd fr
 
 Revision 1.11 2007/06/10 16:32:21 revo
-Wieland Pusch: +trd de
-
-Revision 1.10 2002/11/01 09:18:11 revo
-Christopher Zervic: + ang
-
-Revision 1.9 2002/09/24 16:32:17 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2002/09/09 19:50:21 revo
 -->
 </vortaro>

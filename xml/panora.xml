@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: panora.xml,v 1.21 2022/05/01 17:51:18 revo Exp $">
+<art mrk="$Id: panora.xml,v 1.25 2023/12/26 09:25:20 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>panoram</rad>/o <fnt><bib>Fab2</bib></fnt>
@@ -20,7 +20,7 @@
         kamentubisto</lok></fnt>;
       </ekz>
       <ekz>
-        sur la plej alta pinto <klr>[&#x2026;]</klr> ni &gcirc;uis belegan <tld/>on de la urbo kaj
+        sur la plej alta pinto <klr>[&#8230;]</klr> ni &gcirc;uis belegan <tld/>on de la urbo kaj
         ties plej malnovaj kvartaloj
         <fnt>
           <bib>Monato</bib>
@@ -53,7 +53,7 @@
       <ref cel="horizo.0o">horizonto</ref>
     </refgrp>
     <trdgrp lng="fa">
-      <trd>&f_ch;&a_sh;&a_m;&zwnj;&a_A;&a_n;&a_d;&a_A;&a_z;</trd>,
+      <trd>&f_ch;&a_sh;&a_m;&#x200C;&a_A;&a_n;&a_d;&a_A;&a_z;</trd>,
       <trd>&a_d;&a_w;&a_r;&a_n;&a_m;&a_A;</trd>,
       <trd>&a_m;&a_n;&a_Z;&a_r;&a_h;</trd>
     </trdgrp>
@@ -72,7 +72,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Monato;/2007/009224.php">Canaletto: Imponaj pentra&jcirc;oj de e&ubreve;ropaj urbvida&jcirc;oj</url></vrk>
+          <vrk><url ref="&Monato;/2007/009224.php">Canaletto: Imponaj pentra&jcirc;oj de e&ubreve;ropaj
+          urbvida&jcirc;oj</url></vrk>
           <lok>2007</lok>
         </fnt>;
       </ekz>
@@ -146,6 +147,10 @@
   <trdgrp lng="fr">
     <trd>panorama</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30D1;&#x30CE;&#x30E9;&#x30DE;</trd>,
+    <trd>&#20840;&#x666F;  <pr>&#x305C;&#12435;&#12369;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="nl">panorama</trd>
   <trd lng="pl">panorama</trd>
   <trd lng="pt">panorama</trd>
@@ -154,7 +159,7 @@
     <trd>poh&lcaron;ad</trd>,
     <trd>rozh&lcaron;ad</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x430;&#x43D;&#x43E;&#x440;&#x430;&#x43C;&#x430;</trd>
+  <trd lng="uk">&#x43F;&c_a;&#x43D;&#x43E;&c_r;&c_a;&#x43C;&c_a;</trd>
 </drv>
 
 <drv mrk="panora.0i">
@@ -173,6 +178,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_a;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_c;&c_mol; <ind>&c_p;&c_a;&c_n;&c_a;&c_r;&c_a;&c_m;&c_u;</ind></trd>
     <trd lng="ca">veure panor&agrave;micament</trd>
     <trd lng="fr">embrasser du regard</trd>
   </snc>
@@ -181,11 +187,13 @@
     <dif>
       Prezenti multperspektive, multaspekte, tutspektre:
       <ekz>
-        la dek KD-oj de &leftquot;Kolekto 2000&rightquot; <klr>[&#x2026;]</klr> <tld/>as la nuntempan muzikon en
+        la dek KD-oj de &leftquot;Kolekto 2000&rightquot; <klr>[&#8230;]</klr> <tld/>as la nuntempan muzikon en
         Esperanto
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007002.html">Muziko: Kanzonoj por interna konsumo</url></vrk>
+	<aut>Jorge Camacho</aut>
+	<vrk><url ref="&Monato;/2000/007002.php">Kanzonoj por interna konsumo</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/07, p. 15</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -193,13 +201,28 @@
        <ref cel="amplek.0i">ampleksi</ref>,
        <ref cel="spektr.0o.FIG">spektro<sncref/></ref>
     </refgrp>
+    <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_mol; <ind>&c_p;&c_a;&c_n;&c_a;&c_r;&c_a;&c_m;&c_u;</ind></trd>
     <trd lng="de">ein <ind>Panorama</ind> aufspannen</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x30D1;&#x30CE;&#x30E9;&#x30DE;&#x64AE;&#x5F71;&#12434;&#12377;&#x308B; 
+    <pr>&#x30D1;&#x30CE;&#x30E9;&#x30DE;&#12373;&#12388;&#12360;&#12356;&#12434;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x30D1;&#x30F3;&#12377;&#x308B;  <pr>&#12401;&#12435;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.25 2023/12/26 09:25:20
+Dmitri Gabinski: + trd be
+
+versio 1.24 2023/10/20 14:25:19
+revo: transskribo per <pr>
+
+versio 1.22 2023/04/23 07:23:26
+Paul Peeraerts: &Steloj -> monato.be
+
 versio 1.21 2022/05/01 17:51:18
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -213,14 +236,5 @@ Revision 1.16  2012/01/04 00:10:11  revo
 Marc Rausell: +trd ca
 
 Revision 1.15  2011/04/29 19:10:35  revo
-Jeromo Vasxe: + ~i
-
-Revision 1.14  2009/09/11 16:31:04  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.13  2009/02/15 14:19:05  revo
-Russ Williams: +trd en pl
-
-Revision 1.12  2006/02/24 17:35:49  revo
 -->
 </vortaro>

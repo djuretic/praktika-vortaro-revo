@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: kolekt.xml,v 1.125 2022/05/01 08:09:24 revo Exp $">
+  <art mrk="$Id: kolekt.xml,v 1.133 2023/12/12 19:24:45 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>kolekt</rad>/i
@@ -225,6 +225,10 @@
         <trd>lesen <klr>(Wein)</klr></trd>
       </trdgrp>
       <trd lng="es">recolectar</trd>
+      <trdgrp lng="id">
+        <trd><baz>petik</baz>memetik</trd>,
+        <trd><baz>panen</baz>memanen</trd>
+      </trdgrp>
       <trdgrp lng="nl">
         <trd>oogsten</trd>,
         <trd>plukken</trd>
@@ -258,6 +262,7 @@
         <trd>eintreiben</trd>
       </trdgrp>
       <trd lng="es">recaudar</trd>
+      <trd lng="id"><baz>koleksi</baz>mengoleksi</trd>
       <trd lng="nl">innen</trd>
     </subsnc>
     <trdgrp lng="de">
@@ -323,9 +328,13 @@
     <trd>&ouml;sszeszed</trd>
   </trdgrp>
   <trd lng="hy">&#x570;&#x561;&#x57E;&#x561;&#x584;&#x565;&#x56C;</trd>
+  <trdgrp lng="id">
+    <trd><baz>kumpul</baz>mengumpulkan</trd>,
+    <trd><baz>himpun</baz>menghimpun</trd>
+  </trdgrp>
   <trd lng="ig">akp&#x1ECD;k&#x1ECD;ta</trd>
   <trd lng="is">safna</trd>
-  <trd lng="ja">&#x96C6;&#x307E;&#x308B;</trd>
+  <trd lng="ja">&#x96C6;&#x307E;&#x308B; <pr>&#x3042;&#x3064;&#x307E;&#x308B;</pr></trd>
   <trd lng="jv">klumpukne</trd>
   <trd lng="ka">&#x10E8;&#x10D4;&#x10D5;&#x10D8;&#x10D9;&#x10E0;&#x10D8;&#x10D1;&#x10DD;&#x10D7;</trd>
   <trd lng="kk">&c_zh;&c_i;&c_n;&c_a;&c_u;</trd>
@@ -337,7 +346,7 @@
   <trd lng="lat">congregate</trd>
   <trd lng="lo">&#xEC0;&#xE81;&#xEB1;&#xE9A;</trd>
   <trd lng="lt">surinkti</trd>
-  <trd lng="lv">sav&amacron;kt</trd>
+  <trd lng="lv">sav&#257;kt</trd>
   <trd lng="mg">hanangona</trd>
   <trd lng="mi">kohikohi</trd>
   <trd lng="mk">&c_s;&c_o;&c_b;&c_je;&c_r;&c_a;&c_t;</trd>
@@ -354,12 +363,12 @@
     <trd>gromadzi&cacute;</trd>,
     <trd>nazbiera&cacute;</trd>,
     <trd>zbiera&cacute;</trd>
-  </trdgrp>     
+  </trdgrp>
   <trd lng="ps">&a_r;&a_A;&#x67C;&a_w;&a_l;</trd>
   <trdgrp lng="ro">
     <trd>colecta</trd>,
     <trd>&icirc;nghesui</trd>
-  </trdgrp>    
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>
@@ -392,6 +401,17 @@
   <trd lng="xh">ndibahlanganise</trd>
   <trd lng="yi">&dalet;&resh;&yod;&nun;&#x2137;&ayin;&fnun;</trd>
   <trd lng="yo">k&oacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x641C;&#x7F57; <pr>s&#x14D;ulu&#xF3;</pr></trd>,
+    <trd>&#x7F57; <pr>lu&#xF3;</pr></trd>,
+    <trd>&#x6512;&#x805A; <pr>cu&#xE1;nj&#xF9;</pr></trd>,
+    <trd>&#x6512;&#x96C6; <pr>cu&#xE1;nj&#xED;</pr></trd>,
+    <trd>&#x52DF; <pr>m&#xF9;</pr></trd>,
+    <trd>&#x4E1B;&#x96C6; <pr>c&#xF3;ngj&#xED;</pr></trd>,
+    <trd>&#x5F59;&#x7E3D; <pr>hu&#xEC;z&#x1D2;ng</pr></trd>,
+    <trd>&#x6343; <pr>j&#xF9;n</pr></trd>,
+    <trd>&#x51D1; <pr>c&#xF2;u</pr></trd>
+  </trdgrp>
   <trd lng="zu">hlangana</trd>
 </drv>
 
@@ -413,7 +433,7 @@
       <trd>colecta</trd>,
       <trd>recolecci&oacute;n</trd>
     </trdgrp>
-    <trd lng="hu">gy&udblac;jt&eacute;s</trd>    
+    <trd lng="hu">gy&udblac;jt&eacute;s</trd>
   </snc>
   <snc>
     <dif>
@@ -434,9 +454,9 @@
         <fnt>
           <bib>EE</bib>
         </fnt>;
-      </ekz> 
+      </ekz>
       <ekz>
-        en la komenco <klr>[&#x2026;]</klr> estis preta gramatiko, estis 
+        en la komenco <klr>[&#x2026;]</klr> estis preta gramatiko, estis
         granda <tld/>o da vortoj, sed multaj vortoj ankora&ubreve; malestis
         <fnt>
           <bib>DL</bib>
@@ -637,6 +657,7 @@
       <ref tip="super" cel="seri.0ajho">seria&jcirc;o</ref>
       <ref tip="sin" cel="biblio1.0o.serio">biblioteko<sncref/></ref>
         <trd lng="de">Serie</trd>
+    <trd lng="id">seri</trd>
     </subsnc>
     <subsnc mrk="kolekt.0o.gazet">
       <uzo tip="fak">TIP</uzo>
@@ -702,16 +723,25 @@
         <trd>gy&udblac;jtem&eacute;ny</trd>,
         <trd>gy&uuml;lekezet</trd>
       </trdgrp>
+  <trdgrp lng="id">
+    <trd>koleksi</trd>,
+    <trd><baz>kumpul</baz>kumpulan</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x53CE;&#x96C6;&#x54C1;  <pr>&#x3057;&#x3085;&#x3046;&#x3057;&#x3085;&#x3046;&#x3072;&#x3093;</pr></trd>,
+    <trd>&#x30B3;&#x30EC;&#x30AF;&#x30B7;&#x30E7;&#x30F3;  <pr>&#x3053;&#x308C;&#x304F;&#x3057;&#x3087;&#x3093;</pr></trd>,
+    <trd>&#x96C6;&#x307E;&#x308A;  <pr>&#x3042;&#x3064;&#x307E;&#x308A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verzameling</trd>
   <trdgrp lng="pl">
     <trd>kolekcja</trd>,
     <trd>zbi&oacute;r</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="ro">
-    <trd>colec&tcedil;ie</trd>,
+    <trd>colec&#x21B;ie</trd>,
     <trd>colecta</trd>,
     <trd>str&acirc;ngere <klr>(de ajutoare)</klr></trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_r;&c_a;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>kolekcia</trd>,
@@ -719,8 +749,15 @@
     <trd>zbierka</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x431;&#x456;&#x440;&#x43A;&#x430;</trd>,
-    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x43A;&#x446;&#x456;&#x44F;</trd>
+    <trd>&c_z;&c_b;&c_ib;&c_r;&c_k;&c_a;</trd>,
+    <trd>&c_k;&c_o;&c_l;&c_je;&c_k;&c_c;&c_ib;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x96C6; <pr>j&#xED;</pr></trd>,
+    <trd>&#x5178;&#x85CF; <pr>di&#x1CE;nc&#xE1;ng</pr></trd>,
+    <trd>&#x5408;&#x96C6; <pr>h&#xE9;j&#xED;</pr></trd>,
+    <trd>&#x9009;&#x8403; <pr>xu&#x1CE;ncu&#xEC;</pr></trd>,
+    <trd>&#x532F;&#x7DE8; <pr>hu&#xEC;bi&#x101;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -777,6 +814,7 @@
       </ekz>
     </dif>
     <trd lng="de">Eintreiber <klr>(von Steuern)</klr></trd>
+  <trd lng="id"><baz>pungut</baz>pemungut pajak</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_b;&c_o;&c_r;&c_c;&c_a;</trd>,
@@ -795,12 +833,22 @@
   <trd lng="es">recaudador</trd>
   <trd lng="fr">receveur<klr tip="ind"> (des imp&ocirc;ts)</klr></trd>
   <trd lng="hu">ad&oacute;szed&odblac;</trd>
+  <trdgrp lng="id">
+    <trd><baz>koleksi</baz>pengoleksi</trd>,
+    <trd><baz>kumpul</baz>pengumpul</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x91D1;&#x4EBA;  <pr>&#x3057;&#x3085;&#x3046;&#x304D;&#x3093;&#x306B;&#x3093;</pr></trd>,
+    <trd>&#x5FB4;&#x7A0E;&#x4EBA;  <pr>&#x3061;&#x3087;&#x3046;&#x305C;&#x3044;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x53CE;&#x96C6;&#x5BB6;  <pr>&#x3057;&#x3085;&#x3046;&#x3057;&#x3085;&#x3046;&#x304B;</pr></trd>,
+    <trd>&#x30B3;&#x30EC;&#x30AF;&#x30BF;&#x30FC;</trd>
+  </trdgrp>
   <trd lng="nl">ontvanger</trd>
   <trdgrp lng="pl">
     <trd>kolekcjoner</trd>,
     <trd>zbieracz</trd>
-  </trdgrp>   
-  <trd lng="ro">colec&tcedil;ionar</trd>
+  </trdgrp>
+  <trd lng="ro">colec&#x21B;ionar</trd>
   <trd lng="ru">&c_s;&c_b;&c_o;&c_r;&c_shch;&c_i;&c_k;
         &c_n;&c_a;&c_l;&c_o;&c_g;&c_o;&c_v;</trd>
   <trdgrp lng="sk">
@@ -808,9 +856,13 @@
     <trd>zberate&lcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x447;</trd>,
-    <trd>&#x456;&#x43D;&#x43A;&#x430;&#x441;&#x430;&#x442;&#x43E;&#x440;</trd>,
-    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x43A;&#x442;&#x43E;&#x440;</trd>
+    <trd>&c_z;&c_b;&c_i;&c_r;&c_a;&c_ch;</trd>,
+    <trd>&c_ib;&c_n;&c_k;&c_a;&c_s;&c_a;&c_t;&c_o;&c_r;</trd>,
+    <trd>&c_k;&c_o;&c_l;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6536;&#x85CF;&#x5BB6; <pr>sh&#x14D;uc&#xE1;ngji&#x101;</pr></trd>,
+    <trd>&#x8CAF;&#x6DB2;&#x5668; <pr>zh&#xF9;y&#xE8;q&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -886,15 +938,31 @@
     <trd>&ouml;sszegy&udblac;lik</trd>,
     <trd>gy&uuml;lekezik</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>himpun</baz>berhimpun</trd>,
+    <trd><baz>himpun</baz>terhimpun</trd>,
+    <trd><baz>kumpul</baz>berkumpul</trd>,
+    <trd><baz>kumpul</baz>terkumpul</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x307E;&#x308B;  <pr>&#x3042;&#x3064;&#x307E;&#x308B;</pr></trd>,
+    <trd>&#x5BC4;&#x308A;&#x96C6;&#x307E;&#x308B;  <pr>&#x3088;&#x308A;&#x3042;&#x3064;&#x307E;&#x308B;</pr></trd>,
+    <trd>&#x96C6;&#x5408;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x3054;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>bijeenkomen</trd>,
     <trd>zich <ind>verzamelen</ind></trd>
   </trdgrp>
-  <trd lng="pl">zbiera&cacute; si&eogonek;</trd>     
+  <trd lng="pl">zbiera&cacute; si&eogonek;</trd>
   <trd lng="ro">aduna</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;&c_s;&c_ja;
     <klr>(&c_v;&c_m;&c_je;&c_s;&c_t;&c_je;)</klr></trd>
-  <trd lng="uk">&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
+  <trd lng="uk">&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4F1A;&#x805A; <pr>hu&#xEC;j&#xF9;</pr></trd>,
+    <trd>&#x805A;&#x96C6; <pr>j&#xF9;j&#xED;</pr></trd>,
+    <trd>&#x76F8;&#x805A; <pr>xi&#x101;ngj&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolekt.0ujo">
@@ -950,13 +1018,16 @@
     <trd>Sammelbecken</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x43A;&#x442;&#x43E;&#x440;</trd>,
-    <trd>&#x441;&#x43A;&#x430;&#x440;&#x431;&#x43D;&#x438;&#x447;&#x43A;&#x430;</trd>,
-    <trd>&#x441;&#x43A;&#x430;&#x440;&#x431;&#x43E;&#x43D;&#x430;</trd>,
-    <trd>&#x43A;&#x430;&#x440;&#x43D;&#x430;&#x432;&#x43A;&#x430;</trd>
+    <trd>&c_k;&c_o;&c_l;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>,
+    <trd>&c_s;&c_k;&c_a;&c_r;&c_b;&c_n;&c_i;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_s;&c_k;&c_a;&c_r;&c_b;&c_o;&c_n;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_r;&c_n;&c_a;&c_v;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8CAF;&#x6C34;&#x8655; <pr>zh&#x1D4;shu&#x1D0;ch&#xF9;</pr></trd>,
+    <trd>&#x9642; <pr>p&#xED;</pr></trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="kolekt.en0i">
   <kap>en<tld/>i</kap>
@@ -979,7 +1050,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        ili en<tld/>is tre multe da vino kaj da someraj fruktoj  
+        ili en<tld/>is tre multe da vino kaj da someraj fruktoj
         <fnt>
           <bib>MT</bib>
           <lok>Jeremia 40:12</lok>
@@ -1003,16 +1074,26 @@
   <trd lng="es">recolectar</trd>
   <trd lng="fr">rentrer<klr tip="ind"> (une r&eacute;colte)</klr></trd>
   <trd lng="hu">begy&udblac;jt</trd>
+  <trdgrp lng="ja">
+    <trd>&#x53D6;&#x308A;&#x8FBC;&#x3080;  <pr>&#x3068;&#x308A;&#x3053;&#x3080;</pr></trd>,
+    <trd>&#x53CE;&#x7D0D;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x306E;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">inzamelen</trd>
-  <trd lng="pl">grupowa&cacute;</trd>     
+  <trd lng="pl">grupowa&cacute;</trd>
   <trd lng="ro">s&abreve; colecteze</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol;
         <klr>(&c_ch;&c_t;&c_o;-&c_l;.
           &c_v;&c_m;&c_je;&c_s;&c_t;&c_je;)</klr></trd>
   <trd lng="sk">uskladni&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43D;&#x430;&#x433;&#x440;&#x43E;&#x43C;&#x430;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_n;&c_a;&c_g;&c_r;&c_o;&c_m;&c_a;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8490; <pr>s&#x14D;u</pr></trd>,
+    <trd>&#x805A;&#x79EF; <pr>j&#xF9;j&#x12B;</pr></trd>,
+    <trd>&#x6271; <pr>x&#x12B;</pr></trd>,
+    <trd>&#x532F;&#x9F4A; <pr>hu&#xEC;q&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1038,8 +1119,13 @@
   </trdgrp>
   <trd lng="es"><ind>recoger</ind> (para llevar)</trd>
   <trd lng="hu">(hi&aacute;nytalanul) <ind>&ouml;sszeszed</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x3081;&#x53BB;&#x308B;  <pr>&#x3042;&#x3064;&#x3081;&#x3055;&#x308B;</pr></trd>,
+    <trd>&#x304B;&#x3063;&#x3055;&#x3089;&#x3046;</trd>,
+    <trd>&#x53CE;&#x596A;&#x3059;&#x308B;  <pr>&#x304A;&#x3055;&#x3080;&#x3060;&#x3064;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">alles <ind>meenemen</ind></trd>
-  <trd lng="pl">zebra&cacute;</trd>     
+  <trd lng="pl">zebra&cacute;</trd>
   <trd lng="ro">culege</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol; <klr>(&c_i;
           &c_u;&c_n;&c_je;&c_s;&c_t;&c_i;)</klr></trd>
@@ -1079,9 +1165,16 @@
     <trd>b&ouml;ng&eacute;sz&eacute;s</trd>,
     <trd>tall&oacute;z&aacute;s</trd>
   </trdgrp>
+  <trd lng="id"><baz>pungut</baz>pungutan tambahan</trd>
   <trd lng="nl">naoogst<klr tip="ind"> (arch.)</klr></trd>
-  <trd lng="pl">zbieranie resztek</trd>     
+  <trd lng="pl">zbieranie resztek</trd>
   <trd lng="ro">colectarea rezidual&abreve;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62FE;&#x843D;&#x7A57; <pr>sh&#xED;lu&#xF2;su&#xEC;</pr></trd>,
+    <trd>&#x96F6;&#x661F;&#x77E5;&#x8B58; <pr>l&#xED;ngx&#x12B;ngzh&#x12B;shi</pr></trd>,
+    <trd>&#x70B9;&#x6EF4;&#x6536;&#x96C6; <pr>di&#x1CE;nd&#x12B;sh&#x14D;uj&#xED;</pr></trd>,
+    <trd>&#x70B9;&#x6EF4;&#x77E5;&#x8BC6; <pr>di&#x1CE;nd&#x12B;zh&#x12B;shi</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolekt.herbo0o">
@@ -1103,11 +1196,16 @@
         <trd>n&ouml;v&eacute;nygy&udblac;jtem&eacute;ny</trd>,
         <trd>herb&aacute;rium</trd>
       </trdgrp>
+  <trd lng="id">herbarium</trd>
+  <trdgrp lng="ja">
+    <trd>&#x690D;&#x7269;&#x6A19;&#x672C;  <pr>&#x3057;&#x3087;&#x304F;&#x3076;&#x3064;&#x3072;&#x3087;&#x3046;&#x307B;&#x3093;</pr></trd>,
+    <trd>&#x62BC;&#x3057;&#x82B1;  <pr>&#x304A;&#x3057;&#x3070;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">herbarium</trd>
   <trdgrp lng="pl">
     <trd>zielnik</trd>,
     <trd>herbarium</trd>
-  </trdgrp>       
+  </trdgrp>
   <trd lng="ro">ierbar</trd>
   <trd lng="ru">&c_g;&c_je;&c_r;&c_b;&c_a;&c_r;&c_i;&c_j;</trd>
   <trd lng="sk">herb&aacute;r</trd>
@@ -1174,16 +1272,83 @@
 p&eacute;riodique)</klr></trd>
   <trd lng="hu">&eacute;vfolyam<klr tip="ind"> (pl.
       foly&oacute;irat&eacute;)</klr></trd>
+  <trd lng="ja">&#x5408;&#x672C;  <pr>&#x304C;&#x3063;&#x307D;&#x3093;</pr></trd>
   <trd lng="nl">jaargang</trd>
-  <trd lng="pl">rocznik</trd>     
+  <trd lng="pl">rocznik</trd>
   <trd lng="ro">anuar</trd>
   <trd lng="ru">&c_g;&c_o;&c_d;&c_o;&c_v;&c_a;&c_ja;
         &c_p;&c_o;&c_d;&c_sh;&c_i;&c_v;&c_k;&c_a;</trd>
   <trd lng="sk">ro&ccaron;n&iacute;k <klr>(&ccaron;asopisu)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x456;&#x447;&#x43D;&#x438;&#x43A;</trd>,
-    <trd>&#x440;&#x456;&#x447;&#x43D;&#x438;&#x439; &#x43A;&#x43E;&#x43C;&#x43F;&#x43B;&#x435;&#x43A;&#x442; (&#x433;&#x430;&#x437;&#x435;&#x442;</trd>,
-    <trd>&#x436;&#x443;&#x440;&#x43D;&#x430;&#x43B;&#x456;&#x432;)</trd>
+    <trd>&c_r;&c_ib;&c_ch;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_r;&c_ib;&c_ch;&c_n;&c_i;&c_j; &c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_t; (&c_g;&c_a;&c_z;&c_je;&c_t;</trd>,
+    <trd>&c_zh;&c_u;&c_r;&c_n;&c_a;&c_l;&c_ib;&c_v;)</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kolekt.mon0o">
+  <kap>
+    mon<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="K"/>ado de mono, ordinare por iu bonafara celo, projekto ks:
+      <ekz>
+        la mon<tld/>o pro la sanktuloj, kiel mi ordonis al la eklezioj de Galatujo
+        <klr>[&#x2026;]</klr>
+        <fnt>
+          <bib>NT</bib>
+          <lok>I. Korintanoj 16:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estas bonfaremaj, ke vi partoprenas en &ccirc;iuj mon<tld/>oj, filantropiaj
+        projektoj kaj aran&gcirc;oj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>mon<tld/>ujo</ind>n mi ne vidis
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dua &Ccirc;apitro</lok>
+        </fnt>;
+        <trd lng="de">Spendenb&uuml;chse</trd>
+        <trd lng="id"><ind>kotak</ind> amal</trd>
+      </ekz>
+      <ekz>
+        mi priparolis <klr>[&#x2026;]</klr> la teruran malsategon, nuntempe okazantan en
+        Hindujo sekve de longa senpluveco, tiam, subite, venis al mi la penso aran&gcirc;i
+        mon<tld/>on por tiuj malfeli&ccirc;uloj
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="almoz.0kesto">almozkesto</ref>,
+      <ref cel="benefi.0o">benefico</ref>,
+      <ref cel="kvest1.0o">kvesto</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_b;&c_o;&c_r; &c_g;&c_r;&c_o;&c_sh;&c_a;&c_w;</trd>,
+    <trd>&c_z;&c_b;&c_o;&c_r; &c_a;&c_h;&c_v;&c_ja;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;&c_w; <klr>(&c_g;&c_r;&c_a;&c_sh;&c_o;&c_v;&c_y;&c_h;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Kollekte</trd>,
+    <trd>Spendensammlung</trd>
+  </trdgrp>
+  <trd lng="en">offertory</trd>
+  <trdgrp lng="id">
+    <trd>amal</trd>,
+    <trd><baz>sembah</baz>persembahan <klr>(uang)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x52DF;&#x91D1;  <pr>&#x307C;&#x304D;&#x3093;</pr></trd>,
+    <trd>&#x96C6;&#x91D1;  <pr>&#x3057;&#x3085;&#x3046;&#x304D;&#x3093;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1237,44 +1402,54 @@ p&eacute;riodique)</klr></trd>
   <trd lng="de">pfl&uuml;cken</trd>
   <trd lng="es">recolectar</trd>
   <trd lng="fr">cueillir</trd>
-  <trd lng="hu">szed <klr tip="amb">(term&eacute;st)</klr></trd>  
+  <trd lng="hu">szed <klr tip="amb">(term&eacute;st)</klr></trd>
+  <trd lng="id"><baz>petik</baz>memetik <klr>(buah, bunga, dsb.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x6458;&#x307F;&#x96C6;&#x3081;&#x308B;  <pr>&#x3064;&#x307E;&#x307F;&#x3042;&#x3064;&#x3081;&#x308B;</pr></trd>,
+    <trd>&#x53CE;&#x7A6B;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x304B;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">plukken</trd>
-  <trd lng="pl">zbiera&cacute; <klr>(zrywa&cacute;)</klr></trd>     
+  <trd lng="pl">zbiera&cacute; <klr>(zrywa&cacute;)</klr></trd>
   <trd lng="ro">recolta</trd>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;
     <klr>(&c_s;&c_r;&c_y;&c_v;&c_a;&c_ja;, &c_n;&c_a;&c_p;&c_r;.
       &c_c;&c_v;&c_je;&c_t;&c_y;)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x440;&#x438;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_r;&c_i;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x63A1;&#x6458; <pr>c&#x1CE;izh&#x101;i</pr></trd>,
+    <trd>&#x6458; <pr>zh&#x101;i</pr></trd>,
+    <trd>&#x63A1; <pr>c&#x1CE;i</pr></trd>
   </trdgrp>
 </drv>
 
 </art>
   <!--
   $Log$
+versio 1.133 2023/12/12 19:24:45
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.131 2023/11/20 06:33:32
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.130 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.129 2023/10/18 09:24:22
+Dmitri Gabinski: + trd be
+
+versio 1.127 2023/08/29 16:34:21
+Wolfram Diestel: ja: prononco
+
+versio 1.126 2023/03/07 19:22:33
+Wolfram Diestel: +mon~o
+
 versio 1.125 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.121 2022/02/14 15:40:26
-Noam Mohr: +trd en kolekt-
-
-versio 1.120 2021/09/16 12:47:52
-Dmitri Gabinski: +trd be
-
-versio 1.119 2021/08/20 16:45:58
-Wolfram Diestel: +~ujo
-
-versio 1.42 2021/05/20 05:57:50
-Wolfram Diestel: kor. ref-cel
-
-  Revision 1.40  2018/08/26 13:10:13  revo
-  Vito Redsky: +trd pl +trd ro
-
-  Revision 1.39  2018/04/27 09:10:18  revo
-  Jeromo Vasxe: + 1 ref + reordig 1 drv
-
-  Revision 1.38  2017/09/17 16:10:13  revo
 -->
 </vortaro>

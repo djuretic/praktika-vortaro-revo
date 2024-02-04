@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: magist.xml,v 1.27 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: magist.xml,v 1.33 2024/01/25 20:10:33 revo Exp $">
 <kap>
   <rad>magistr</rad>/o <fnt>Z</fnt>
 </kap>
@@ -12,23 +12,28 @@
     <dif>
       Universitata <ref tip="super" cel="titol.0o.RANG">titolo</ref>
       ekzistanta en pluraj landoj kaj ranganta inter
-      bakala&ubreve;ro a&ubreve; abituriento kaj doktoro:
+      <ref cel="bakala.0o">bakala&ubreve;ro</ref> a&ubreve; abituriento kaj <ref cel="doktor.0o.SCI">doktoro</ref>:
       <ekz>
-        ekde 1390 li studis en la praga universitato, en 1393 li fari&gcirc;is
-        bakala&ubreve;ro, 
-        en 1396 <tld/>o de liberaj artoj, ekde 1398 li prelegis en la
-        artisma fakultato 
-        de la universitato, en 1400 li estis ordinita pastro
+        pleje ruinigitaj butikistoj, forpelitaj <tld/>oj kaj skribistoj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Gerrit Berveling</aut>
-          <vrk><url ref="&Steloj;monato2/007031.html">Katolikismo: Johano Hus &#x2010; &ccirc;u ne plu herezulo?</url></vrk>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
         </fnt>;
       </ekz>
       <ekz>
+        ekde 1390 li studis en la praga universitato, en 1393 li fari&gcirc;is
+        bakala&ubreve;ro, en 1396 <tld/>o de liberaj artoj, ekde 1398 li prelegis en la
+        artisma fakultato de la universitato, en 1400 li estis ordinita pastro
+        <fnt>
+          <aut>Ji&rcaron;&iacute; Patera</aut>
+            <vrk><url ref="&Monato;/2000/007031.php">Johano Hus &ndash; &ccirc;u ne plu herezulo?</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/08, p. 19</lok>
+          </fnt>;
+      </ekz>
+      <ekz>
         la novaj universitataj gradoj estu bakala&ubreve;ro (ses-semestra
-        studado), <tld/>o
-        (pliaj du a&ubreve; kvar semestroj) kaj doktoro
+        studado), <tld/>o  (pliaj du a&ubreve; kvar semestroj) kaj doktoro
         <fnt>
           <bib>Monato</bib>
           <aut>Walter Klag</aut>
@@ -36,10 +41,14 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="diplom.0o">diplomo</ref>
     <trd lng="ca">m&agrave;ster</trd>
-    <trd lng="de">Magister</trd>
+    <trdgrp lng="de">
+      <trd>Magister</trd>,
+      <trd>Master</trd>
+    </trdgrp>
     <trdgrp lng="fr">
-      <trd>ma&icirc;tre<klr> (titre univ.)</klr></trd>
+      <trd>maitre<klr> (titre univ.)</klr></trd>
     </trdgrp>
     <trd lng="en">master's degree</trd>
     <trdgrp lng="fa">
@@ -49,7 +58,13 @@
     <trd lng="hu">magiszter<klr tip="ind"> (tudom&aacute;nyos
     fokozat)</klr></trd>
     <trd lng="pl">magister</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7855;&#x58EB; <pr>shu&#xF2;sh&#xEC;</pr></trd>,
+    <trd>&#x78A9;&#x58EB; <pr>shu&#xF2;sh&#xEC;</pr></trd>,
+    <trd>&#x7855;&#x58EB;&#x5B66;&#x4F4D; <pr>shu&#xF2;sh&#xEC;xu&#xE9;w&#xE8;i</pr></trd>,
+    <trd>&#x78A9;&#x58EB;&#x5B78;&#x4F4D; <pr>shu&#xF2;sh&#xEC;xu&#xE9;w&#xE8;i</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="magist.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <ref tip="dif" cel="pedant.0ulo">Pedanto</ref>
@@ -71,15 +86,77 @@
     <trd>m&aacute;ster</trd>,
     <trd>maestro</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4FEE;&#x58EB;  <pr>&#x3057;&#x3085;&#x3046;&#x3057;</pr></trd>,
+    <trd>&#x5B66;&#x58EB;  <pr>&#x304C;&#x304F;&#x3057;</pr></trd>
+  </trdgrp>
   <trd lng="nl">licentiaat</trd>
   <trd lng="pt">mestre <klr>(t&iacute;t. univers.)</klr></trd>
   <trd lng="ru">&c_m;&c_a;&c_g;&c_i;&c_s;&c_t;&c_r;</trd>
   <trd lng="sk">magister</trd>
-  <trd lng="uk">&#x43C;&#x430;&#x491;&#x456;&#x441;&#x442;&#x440;</trd>
+  <trd lng="uk">&#x43C;&c_a;&c_gu;&c_ib;&c_s;&c_t;&c_r;</trd>
+</drv>
+
+<drv mrk="magist.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="magist.0eco.PED">
+    <dif>
+      Rango, funkcio de <tld/>o:
+      <ekz>
+        kiuj havas nur <tld/>econ a&ubreve; licencion devas trapasi ekzamenon
+        <fnt>
+          <aut>X. Month&eacute;ard, trad.  J.-M. Cash</aut>
+          <vrk><url ref="https://eo.mondediplo.com/2012/04/article1823.html">
+          Esti studento en Vjetnamujo</url></vrk>
+          <lok>Le Monde diplomatique, 2012-04</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>maitrise<klr> (titre univ.)</klr></trd>,
+    <trd>master</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="magist.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="magist.0igxi.PED">
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      Ricevi la rangon <tld/>o:
+      <ekz>
+        Zofia Banet-Fornalowa <klr>[&#x2026;]</klr> <tld/>i&gcirc;is pri historio en la Universitato de Varsovio
+        en 1954
+        <fnt>
+          <aut>-</aut>
+          <vrk>Forpasoj</vrk>
+          <lok>Esperanto, 2012/11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>passer sa maitrise</trd>,
+    <trd>passer son master</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/11/24 21:23:21
+Jeromo Vasxe: + ~eco ~igxi
+
+versio 1.31 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.29 2023/04/30 18:29:02
+Paul Peeraerts: Steloj -> monato
+
+versio 1.28 2023/01/10 20:30:30
+Wolfram Diestel: +ekz, ref, trd de
+
 versio 1.27 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -90,17 +167,5 @@ Revision 1.23  2018/12/07 18:10:20  revo
 Wolfram Diestel: +ekz-oj
 
 Revision 1.22  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.21  2013/08/06 09:10:16  revo
-Joop Eggen: +trd bg
-
-Revision 1.20  2011/12/12 11:10:22  revo
-Marc Rausell: +trd ca
-
-Revision 1.19  2011/12/07 18:10:17  revo
-Eduardo Navas: +trad es
-
-Revision 1.18  2011/09/22 08:10:08  revo
 -->
 </vortaro>

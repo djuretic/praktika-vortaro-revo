@@ -1,26 +1,42 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: slav.xml,v 1.16 2022/03/28 14:44:09 revo Exp $">
+<art mrk="$Id: slav.xml,v 1.21 2023/10/21 07:46:47 revo Exp $">
 <kap>
-   <rad>slav</rad>/o<fnt>Z</fnt>
+   <rad>slav</rad>/o
+   <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="slav.0o">
-   <kap><tld/>o</kap>
-   <snc>
-     <dif>
-       Ano de <tld/>lingva nacio:
-       <ekz>
-         estas vero, ke <tld/>oj ofte posedas en Esperanto pli
-         bonan stilon, ol germanoj a&ubreve; romanoj; sed tio &ccirc;i 
-venas ne
-         de tio, ke la stilo en Esperanto estas <tld/>a, sed nur de
-         tio, ke la <tld/>aj lingvoj havas vortordon pli simplan kaj
-         sekve anka&ubreve; pli proksiman al la vortordo en Esperanto
-         <fnt><bib>LR</bib>, <lok>Resp. n-ro 1 (1906).</lok></fnt>.
-       </ekz>
-     </dif>
-   </snc>
+  <kap><tld/>o</kap>
+  <snc mrk="slav.0o.ETN">
+    <dif>
+      Ano de <tld/>lingva nacio:
+      <ekz>
+         germanoj kaj <tld/>oj, naskitaj kaj lo&gcirc;antaj en la sama regno, rigardas sin
+         reciproke kiel fremdulojn
+         <fnt>
+           <aut>L. L. Zamenhof</aut>
+           <vrk>Gentoj kaj Lingvo Internacia</vrk>
+           <lok>1911</lok>
+         </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj ofte posedas en Esperanto pli bonan stilon, ol germanoj a&ubreve; romanoj
+        <fnt>
+          <bib>LR</bib>
+          <lok>Tria Parto &ndash; Jurisprudenco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kelkaj <tld lit="S"/>oj komencis sian literaturan agadon nur post 1900, kaj, do,
+        aperigis siajn verkojn samtempe kun la verkistoj de la franca skolo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_ib;&c_n;</trd>
   <trd lng="bg">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_i;&c_n;</trd>
   <trd lng="ca">eslau</trd>
@@ -30,19 +46,50 @@ venas ne
   <trd lng="es">eslavo</trd>
   <trd lng="fr">Slave</trd>
   <trd lng="hu">szl&aacute;v</trd>
+  <trd lng="ja">&#x30B9;&#x30E9;&#x30D6;&#x4EBA;  <pr>&#x30B9;&#x30E9;&#x30D6;&#x3058;&#x3093;</pr></trd>
   <trd lng="nl">Slaaf</trd>
   <trd lng="ru">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_i;&c_n;</trd>
   <trd lng="sk">Slovan</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x43E;&#x432;&#x2019;&#x44F;&#x43D;&#x438;&#x43D;</trd>
+  <trd lng="uk">&c_s;&c_l;&c_o;&c_v;&#x2019;&c_ja;&c_n;&c_i;&c_n;</trd>
 </drv>
 
 <drv mrk="slav.0a">
-   <kap><tld/>a</kap>
-   <snc>
-     <dif>
-       Rilata al <tld/>oj, ilia historio kaj lingvoj.
-     </dif>
-   </snc>
+  <kap><tld/>a</kap>
+  <snc mrk="slav.0a.ETN">
+    <dif>
+      Rilata al <tld/>oj, ilia historio kaj lingvoj:
+      <ekz>
+        la <tld/>ofiloj, <klr>[&#x2026;]</klr> tiaj en la 4-a jardeko de la 19-a jarcento oni
+        nomis en Rusujo la partianojn de l&#x2019; unui&gcirc;o de &ccirc;iuj <tld/>aj popoloj
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li anka&ubreve; volis krei novan lingvon, kiu enhavus en si multajn vortojn <tld/>ajn
+        <fnt>
+          <bib>LR</bib>
+          <lok>Unua Parto &ndash; Leksikologio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Rask</nom> prezentis eksterordinare korektan komparan gramatikon de la gotaj,
+        <tld/>aj, litova, latina kaj greka lingvoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kelkaj esperantistoj pensas ke mi uzas en miaj verkoj stilon <tld/>an
+        <fnt>
+          <bib>Zam</bib>
+          <lok>Zamenhof stilisto kaj kreinto de lingvoformoj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_s;&c_k;&c_ib;</trd>
   <trd lng="bg">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_s;&c_k;&c_i;</trd>
   <trd lng="ca">eslau</trd>
@@ -50,42 +97,105 @@ venas ne
   <trd lng="de">slawisch</trd>
   <trd lng="en">Slav</trd>
   <trd lng="es">eslavo</trd>
-  <trd lng="fr">slave</trd>
+  <trd lng="fr">slave<klr> (adj.)</klr></trd>
   <trd lng="hu">szl&aacute;v</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30E9;&#x30D6;&#x306E;  <pr>&#x3059;&#x3089;&#x3076;&#x306E;</pr></trd>,
+    <trd>&#x30B9;&#x30E9;&#x30D6;&#x98A8;&#x306E;  <pr>&#x3059;&#x3089;&#x3076;&#x304B;&#x305C;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">Slavisch</trd>
   <trd lng="ru">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="sk">slovansk&yacute;</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x43E;&#x432;&#x2019;&#x44F;&#x43D;&#x441;&#x44C;&#x43A;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_s;&c_l;&c_o;&c_v;&#x2019;&c_ja;&c_n;&c_s;&c_mol;&c_k;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="slav.0ismo">
+  <kap>
+    <tld/>ismo
+  </kap>
+  <snc mrk="slav.0ismo.LIN">
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      <tld lit="S"/>lingva aparta <ref tip="super" cel="manier.dir0o.KOMUNE">dirmaniero</ref>:
+      <ekz>
+        kelkaj el la Esperantaj idiotismoj estas prenitaj anka&ubreve; el la lingvoj <tld/>aj
+        <klr>[&#x2026;]</klr>, ili tamen estas ne <tld/>ismoj,
+        sed esperantismoj, &ccirc;ar ili fari&gcirc;is parto de la lingvo
+         <fnt><bib>LR</bib> <lok>Resp. n-ro 149 (1906).</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Slawismus</trd>
+    <trd lng="fr">slavisme</trd>
+     <trd lng="nl">slavisme</trd>
+  </snc>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30E9;&#x30D6;&#x8A9E;&#x6CD5;  <pr>&#x3059;&#x3089;&#x3076;&#x3054;&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x30B9;&#x30E9;&#x30D6;&#x4EBA;&#x6C17;&#x8CEA;  <pr>&#x3059;&#x3089;&#x3076;&#x306B;&#x3093;&#x304D;&#x3057;&#x3061;</pr></trd>,
+    <trd>&#x30B9;&#x30E9;&#x30D6;&#x4E3B;&#x7FA9;  <pr>&#x3059;&#x3089;&#x3076;&#x3057;&#x3085;&#x304E;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="slav.0isto">
-   <kap><tld/>isto</kap>
-   <snc>
-     <dif>
-       Fakulo pri filologiaj, historiaj a&ubreve; etnografiaj studoj de la
-       <tld/>a mondo.
-     </dif>
-   </snc>
+  <kap><tld/>isto</kap>
+  <snc mrk="slav.0isto.SCI">
+    <dif>
+      Fakulo pri filologiaj, historiaj a&ubreve; etnografiaj studoj de la
+      <tld/>a mondo:
+      <ekz>
+        mi estas <tld/>isto <klr>[&#x2026;]</klr> mia intereskampo estis do &ccirc;iam Oriente&ubreve;ropo
+        <fnt>
+          <aut>K. Tytgat</aut>
+          <vrk><url ref="https://tubaro.aperu.net/v/ytb_GefM_FHPZoI/">Epizodo 12 &ndash; Kristin Tytgat</url></vrk>
+          <lok>tubaro, Esku, 2022-05</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Aleksandr Duli&ccirc;enko</nom>, renoma lingvisto kaj <tld/>isto distingita en 2005 per
+        esplorpremio de la Fonda&jcirc;o <nom>Alexander-von-Humboldt</nom>
+        <fnt>
+          <aut>Reinaldo Marcelo Ferreira</aut>
+          <vrk><url ref="&Monato;/2007/009078.php">Interlingvistiko por &ccirc;iuj</url></vrk>
+              <bib>Monato</bib>
+          <lok>2007/06, p. 23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Carsten Fledelius</nom>, kiu estas konata <tld/>isto kaj respektata komentisto pri
+        oriente&ubreve;ropaj aferoj aperigis <klr>[&#x2026;]</klr> siajn personajn spertojn kaj
+        impresojn pri <nom>Kaliningrad</nom>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#x2116; 1</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_s;&c_l;&c_a;&c_v;&c_ib;&c_s;&c_t;</trd>
   <trd lng="bg">&c_s;&c_l;&c_a;&c_v;&c_i;&c_s;&c_t;</trd>
   <trd lng="ca">eslavista</trd>
   <trd lng="cs">slavista</trd>
   <trd lng="de">Slawist</trd>
   <trd lng="es">eslavista</trd>
-  <trd lng="fr">slavisant</trd>
+  <trdgrp lng="fr">
+    <trd>slavisant</trd>,
+    <trd>slaviste</trd>
+  </trdgrp>
   <trd lng="hu">szlavista</trd>
   <trd lng="nl">slavist</trd>
   <trd lng="ru">&c_s;&c_l;&c_a;&c_v;&c_i;&c_s;&c_t;</trd>
   <trd lng="sk">slavista</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x430;&#x432;&#x456;&#x441;&#x442;</trd>
+  <trd lng="uk">&c_s;&c_l;&c_a;&c_v;&c_ib;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="slav.tut0ismo">
-   <kap>tut<tld/>ismo<fnt>PIV</fnt></kap>
-   <snc>
+   <kap>tut<tld/>ismo
+     <fnt><bib>PIV1</bib></fnt>
+    </kap>
+   <snc mrk="slav.tut0ismo.POL">
+     <uzo tip="fak">POL</uzo>
      <dif>
-       Kultura kaj politika movado celanta unuigi la <tld/>ojn
-       (18-19 jc).
+       Kultura kaj politika movado celanta unuigi la <tld/>ojn,
+       aktiva en la 18a kaj 19a jarcentoj.
      </dif>
    </snc>
   <trd lng="be">&c_p;&c_a;&c_n;&c_s;&c_l;&c_a;&c_v;&c_ib;&c_z;&c_m;</trd>
@@ -100,25 +210,35 @@ venas ne
   <trd lng="es">paneslavismo</trd>
   <trd lng="fr">panslavisme</trd>
   <trd lng="hu">p&aacute;nszl&aacute;vizmus</trd>
+  <trd lng="ja">&#x6C4E;&#x30B9;&#x30E9;&#x30D6;&#x4E3B;&#x7FA9;  <pr>&#x306F;&#x3093;&#x30B9;&#x30E9;&#x30D6;&#x3057;&#x3085;&#x304E;</pr></trd>
   <trd lng="nl">panslavisme</trd>
   <trd lng="ru">&c_p;&c_a;&c_n;&c_s;&c_l;&c_a;&c_v;(&c_ja;&c_n;)&c_i;&c_z;&c_m;</trd>
   <trdgrp lng="sk">
     <trd>panslavizmus</trd>,
     <trd>v&scaron;eslovanstvo</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x430;&#x43D;&#x441;&#x43B;&#x430;&#x432;&#x456;&#x437;&#x43C;</trd>
+  <trd lng="uk">&c_p;&c_a;&c_n;&c_s;&c_l;&c_a;&c_v;&c_ib;&c_z;&c_m;</trd>
 </drv>
 
 <drv mrk="slav.0a_lingvo">
    <kap><tld/>a lingvo</kap>
-   <uzo tip="fak">LIN</uzo>
-   <snc>
+   <snc mrk="slav.0a_lingvo.LIN">
+     <uzo tip="fak">LIN</uzo>
      <dif>
        Lingvo apartenanta al la <tld/>a bran&ccirc;o de la
        <ref tip="malprt" cel="hind.0euxropa">hinde&ubreve;ropa</ref>
        lingvofamilio: la <ref cel="rus.0a">rusa</ref>,
        la pola, la bulgara,
-       <ref tip="prt" cel="slavon.0o">Slavono</ref> k.a.
+       <ref tip="prt" cel="slavon.0o">Slavono</ref> k.a.:
+       <ekz>
+         estas vero, ke <tld/>oj ofte posedas en Esperanto pli
+         bonan stilon, ol germanoj a&ubreve; romanoj; sed tio &ccirc;i
+         venas ne
+         de tio, ke la stilo en Esperanto estas <tld/>a, sed nur de
+         tio, ke la <tld/>aj lingvoj havas vortordon pli simplan kaj
+         sekve anka&ubreve; pli proksiman al la vortordo en Esperanto
+         <fnt><bib>LR</bib> <lok>Resp. n-ro 1 (1906).</lok></fnt>.
+       </ekz>
      </dif>
    </snc>
    <trd lng="be">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_s;&c_k;&c_a;&c_ja; &c_m;&c_o;&c_v;&c_a;</trd>
@@ -127,6 +247,7 @@ venas ne
    <trd lng="de">slawische Sprache</trd>
    <trd lng="en">Slavic language</trd>
    <trd lng="es">lengua eslava</trd>
+   <trd lng="fr">langue slave</trd>
    <trd lng="hu">szl&aacute;v nyelv</trd>   
    <trd lng="nl">Slavische taal</trd>
    <trd lng="ru">&c_s;&c_l;&c_a;&c_v;&c_ja;&c_n;&c_s;&c_k;&c_i;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
@@ -135,6 +256,18 @@ venas ne
 
 <!--
 $Log$
+versio 1.21 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.19 2023/05/28 15:25:23
+Paul Peeraerts:  + lok + trd nl
+
+versio 1.18 2023/05/09 16:32:42
+Wolfram Diestel: +ekz-oj, trd de
+
+versio 1.17 2023/05/07 14:23:17
+Jeromo Vasxe: + ~ismo, + kk ekz
+
 versio 1.14 2021/05/09 18:08:03
 Wolfram Diestel: kor. derv@mrk
 
@@ -145,17 +278,5 @@ Revision 1.11  2013/07/29 16:10:16  revo
 Joop Eggen: +trd bg
 
 Revision 1.10  2005/03/28 17:13:31  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9  2004/10/18 16:32:34  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/01/21 19:01:29  revo
-Emmanuel Debanne: + 3 trd fr
-
-Revision 1.7  2003/01/15 17:31:29  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1..6  2002/10/24 21:19:30  revo
 -->
 </vortaro>

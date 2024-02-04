@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kolokv.xml,v 1.17 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: kolokv.xml,v 1.20 2023/12/03 09:58:52 revo Exp $">
 <kap>
   <rad>kolokv</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -74,12 +74,16 @@
   <trd lng="fr">colloque</trd>
   <trd lng="hu">kollokvium<klr tip="amb">
   (tan&aacute;cskoz&aacute;s)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C02;&#x9580;&#x5BB6;&#x4F1A;&#x8B70;  <pr>&#x305B;&#x3093;&#x3082;&#x3093;&#x304B;&#x304B;&#x3044;&#x304E;</pr></trd>,
+    <trd>&#x8A0E;&#x8AD6;&#x96C6;&#x4F1A;  <pr>&#x3068;&#x3046;&#x308D;&#x3093;&#x3057;&#x3085;&#x3046;&#x304B;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">colloquium</trd>
   <trd lng="pl">sympozium</trd>     
   <trd lng="pt">col&oacute;quio</trd>
   <trdgrp lng="ro">
     <trd>simpozion</trd>,
-    <trd>conferin&tcedil;a</trd>
+    <trd>conferin&#x21B;a</trd>
   </trdgrp>                                                         
   <trd lng="ru">&c_s;&c_i;&c_m;&c_p;&c_o;&c_z;&c_i;&c_u;&c_m;</trd>
   <trdgrp lng="sk">
@@ -94,10 +98,19 @@
     <trd>&#x43D;&#x435;&#x432;&#x435;&#x43B;&#x438;&#x43A;&#x438;&#x439; &#x441;&#x438;&#x43C;&#x43F;&#x43E;&#x437;&#x456;&#x443;&#x43C;</trd>,
     <trd>&#x43A;&#x43E;&#x43B;&#x43E;&#x43A;&#x432;&#x456;&#x443;&#x43C;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x53E3;&#x5934;&#x6D4B;&#x9A8C; <pr>k&#x1D2;ut&#xF3;uc&#xE8;y&#xE0;n</pr></trd>,
+    <trd>&#x5B66;&#x672F;&#x7814;&#x8BA8;&#x4F1A; <pr>xu&#xE9;sh&#xF9;y&#xE1;nt&#x1CE;ohu&#xEC;</pr></trd>,
+    <trd>&#x4E13;&#x9898;&#x8BA8;&#x8BBA;&#x4F1A; <pr>zhu&#x101;nt&#xED;t&#x1CE;ol&#xF9;nhu&#xEC;</pr></trd>,
+    <trd>&#x8AB2;&#x5802;&#x8A0E;&#x8AD6; <pr>k&#xE8;t&#xE1;ngt&#x1CE;ol&#xF9;n</pr></trd>
+  </trdgrp>
 </drv>
   </art>
   <!--
   $Log$
+versio 1.19 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
 versio 1.17 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -117,8 +130,5 @@ aktualigo lingvokodoj kaj URL-unuoj
   Paul Peeraerts: +trd nl
 
   Revision 1.9  2006/04/06 16:31:08  revo
-  Sergio Pokrovskij: dif, rim, kor trd=ru
-
-  Revision 1.8  2005/12/03 19:15:46  revo
 -->
 </vortaro>

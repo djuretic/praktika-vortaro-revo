@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekster2.xml,v 1.15 2022/03/17 13:47:18 revo Exp $">
+<art mrk="$Id: ekster2.xml,v 1.19 2023/11/07 19:22:36 revo Exp $">
 <kap>
   <rad>eksterpol</rad>/i <fnt><bib>MatTerm</bib><lok>p. 20</lok></fnt>,
   <var><kap><rad var="ra">ekstrapol</rad>/i <fnt><bib>SPV</bib></fnt></kap></var>
@@ -16,7 +16,7 @@
   <snc>
     <dif>
       <klr>(<ref cel="funkci.0o.MAT">funkcion</ref>)</klr>
-      Aproksimi &gcirc;in ekster la intervalo entenanta la jam konatajn 
+      Aproksimi &gcirc;in ekster la intervalo entenanta la jam konatajn
       valorojn per funkcio konstruita surbaze de tiuj konataj valoroj:
       <ekz>
         mezurado de la televid-spektantaro baze ne malsamas al aliaj statistikaj
@@ -42,17 +42,17 @@
     <rim>
       La  termino &leftquot;<tld/>i&rightquot; aperas en &ccirc;iuj niaj fontoj (konantaj la
       nocion) malgra&ubreve; la kripligo, kiun &gcirc;i prezentas rilate
-      la internacian radikon <ctl>ekstrapol</ctl>, tamen aperanta 
+      la internacian radikon <ctl>ekstrapol</ctl>, tamen aperanta
       &ccirc;i-sence en <fnt><bib>PIV1</bib></fnt>. La paralelo kun
       <ctl>interpoli</ctl> evidentas kaj instigis kelkajn malderivi
       verbon
       <ctl>poli</ctl>, kiun eblus difini kiel <ctl>aproksimi nekonatan
-      funkcion 
+      funkcion
       per funkcio konstruita surbaze de iuj konataj valoroj de la
       aproksimota
       funkcio</ctl>. Ni konsideras, ke &ccirc;i-lasta vorto estas senutila,
       sed, pli grave, ke la preciza senco de <ctl>eksterpoli</ctl> kaj
-      <ctl>interpoli</ctl> ne evidente derivi&gcirc;as de la senco de la 
+      <ctl>interpoli</ctl> ne evidente derivi&gcirc;as de la senco de la
       vortpartoj. Do tiuj du terminoj prefere restu parencaj nur
       etimologie.
     </rim>
@@ -62,20 +62,31 @@
   <trd lng="de">extrapolieren</trd>
   <trd lng="en">extrapolate</trd>
   <trd lng="es">extrapolar</trd>
-  <trd lng="fa">&a_b;&a_r;&a_w;&a_n;&zwnj;&f_y;&a_A;&a_b;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
+  <trd lng="fa">&a_b;&a_r;&a_w;&a_n;&#x200C;&f_y;&a_A;&a_b;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
   <trd lng="fr">extrapoler</trd>
   <trd lng="hu">extrapol&aacute;l</trd>
+  <trdgrp lng="ja">
+    <trd>&#x88DC;&#x5916;&#x3059;&#x308B; <pr>&#x307B;&#x304C;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x5916;&#x633F;&#x3059;&#x308B; <pr>&#x304C;&#x3044;&#x305D;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">extrapoleren</trd>
   <trd lng="pl">ekstrapolowa&cacute;</trd>
   <trd lng="pt">extrapolar</trd>
   <trd lng="ru">&c_e;&c_k;&c_s;&c_t;&c_r;&c_a;&c_p;&c_o;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">extrapolova&tcaron;</trd>
-  <trd lng="uk">&#x435;&#x43A;&#x441;&#x442;&#x440;&#x430;&#x43F;&#x43E;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_je;&#x43A;&c_s;&c_t;&c_r;&c_a;&#x43F;&#x43E;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trd lng="zh">&#x63A8;&#x7B97; <pr>tu&#x12B;su&#xE0;n</pr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.18 2023/10/14 15:34:42
+revo: transskribo per <pr>
+
+versio 1.17 2023/09/12 16:31:26
+Wolfram Diestel: pr. ja
+
 versio 1.14 2020/09/09 18:10:35
 Wolfram Diestel: +tld-var
 
@@ -92,11 +103,5 @@ Revision 1.9  2015/06/29 16:29:37  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.8  2011/09/24 17:10:09  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.7  2007/06/23 16:31:16  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2005/02/18 17:35:51  revo
 -->
 </vortaro>

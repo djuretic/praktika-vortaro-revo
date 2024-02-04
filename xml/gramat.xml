@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gramat.xml,v 1.45 2022/04/30 08:42:40 revo Exp $">
+<art mrk="$Id: gramat.xml,v 1.53 2023/11/11 11:36:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gramatik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -59,6 +59,7 @@
        <ref cel="interp3.0o">interpunkcio</ref>,
        <ref cel="interj.0o.GRA">interjekcio</ref>
     </refgrp>
+    <trd lng="en">grammar</trd>
     <trd lng="es">gram&aacute;tica</trd>
     <trd lng="hu">nyelvtan</trd>
     <trd lng="nl">grammatica</trd>
@@ -71,7 +72,7 @@
       Pri<tld/>a verko a&ubreve; lernilo, prezentanta tiajn lingvajn regulojn:
       <ekz>
         la sekvantaj tri verkoj estas rigardataj kiel fundamento de
-        Esperanto:   
+        Esperanto:
         la 16-regula <tld/>o, la Universala Vortaro, la Ekzercaro
         <fnt><bib>F</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
       </ekz><ekz>
@@ -80,8 +81,9 @@
     </dif>
     <url ref="&Steloj;fundamento/">La Fundamento
     de Esperanto</url>
-    <url ref="http://www.bertilow.com/pmeg/">Plena Manlibro de Esperanta
+    <url ref="&PMEG;">Plena Manlibro de Esperanta
     Gramatiko</url>
+    <trd lng="en">grammar book</trd>
     <trd lng="hu">nyelvtank&ouml;nyv</trd>
     <trdgrp lng="nl">
       <trd>grammatica</trd>,
@@ -91,7 +93,7 @@
     <trd lng="vo">glamatabuk</trd>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;</trd>
-  <trd lng="bo">&#xF56;&#xF62;&#xFA1;&#xF0B;&#xF66;&#xFA4;&#xFB2;&#xF7C;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&t_ba;&t_ra;&t_data;&t_tsheg;&t_sa;&t_pata;&t_rata;&t_naro;&t_da;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>gramatika</trd>,
     <trd>mluvnice</trd>
@@ -101,14 +103,23 @@
     <trd>Sprachlehre</trd>
   </trdgrp>
   <trd lng="fr">grammaire</trd>
-  <trd lng="lat">grammatica, ae</trd>  
+  <trdgrp lng="ja">
+    <trd>&#x6587;&#x6CD5;  <pr>&#x3076;&#x3093;&#x307D;&#x3046;</pr></trd>,
+    <trd>&#x6587;&#x6CD5;&#x5B66;  <pr>&#x3076;&#x3093;&#x307D;&#x3046;&#x304C;&#x304F;</pr></trd>,
+    <trd>&#x6587;&#x6CD5;&#x66F8;  <pr>&#x3076;&#x3093;&#x307D;&#x3046;&#x3057;&#x3087;</pr></trd>
+  </trdgrp>
+  <trd lng="lat">grammatica, ae</trd>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">gramatika</trd>
   <trd lng="sv">grammatik</trd>
   <trd lng="tr">dilbilgisi</trd>
   <trdgrp lng="uk">
-    <trd>&#x456;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x447;&#x43D;&#x430;</trd>,
-    <trd>&#x43F;&#x43E;&#x440;&#x456;&#x432;&#x43D;&#x44F;&#x43B;&#x44C;&#x43D;&#x430;/&#x437;&#x456;&#x441;&#x442;&#x430;&#x432;&#x43D;&#x430;&#xA0;&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x43A;&#x430;</trd>
+    <trd>&c_ib;&c_s;&c_t;&c_o;&c_r;&c_i;&c_ch;&c_n;&c_a;</trd>,
+    <trd>&c_p;&c_o;&c_r;&c_ib;&c_v;&c_n;&c_ja;&c_l;&c_mol;&c_n;&c_a;/&c_z;&c_ib;&c_s;&c_t;&c_a;&c_v;&c_n;&c_a;&nbsp;&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6587;&#x6CD5; <pr>w&#xE9;nf&#x1CE;</pr></trd>,
+    <trd>&#x8A9E;&#x6CD5; <pr>y&#x1D4;f&#x1CE;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -133,21 +144,28 @@
       </ekz>
       <ekz>
          en Volapuk <klr>[...]</klr> vokaloj en la komenco a&ubreve; fino de
-         vorto ne 
+         vorto ne
          povas esti uzataj &ccirc;ar ili estas signoj <tld/>aj
          <fnt><bib>EE</bib>, <lok>&ccirc;ap. 6</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
+  <trdgrp lng="de">
+    <trd>grammatisch</trd>,
+    <trd>grammatikalisch</trd>
+  </trdgrp>
+  <trd lng="en">grammar<klr> (adj)</klr></trd>
   <trd lng="fr">grammatical</trd>
+  <trd lng="ja">&#x6587;&#x6CD5;&#x4E0A;&#x306E;  <pr>&#x3076;&#x3093;&#x307D;&#x3046;&#x3058;&#x3087;&#x3046;&#x306E;</pr></trd>
   <trd lng="pl">gramatyczny</trd>
   <trdgrp lng="pt">
     <trd>gramatical</trd>,
     <trd>gram&aacute;tico<klr tip="ind"> (adj.)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
-  <trd lng="uk">&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
+  <trd lng="zh">&#x6587;&#x6CD5; <pr>w&#xE9;nf&#x1CE;</pr></trd>
 </drv>
 
 <drv mrk="gramat.0ilo">
@@ -169,25 +187,47 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>Funktionswort</trd>,
+    <trd>Synsemantikum</trd>,
+    <trd>Synsemantikon</trd>,
+    <trd>Synkategorem</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>function word</trd>,
+    <trd>functor<klr> (grammar)</klr></trd>
+  </trdgrp>
   <trd lng="fr">mot grammatical</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_zh;&c_je;&c_b;&c_n;&c_o;&c_je; &c_s;&c_l;&c_o;&c_v;&c_o;</trd>
+  <trd lng="zh">&#x529F;&#x80FD;&#x8A5E; <pr>g&#x14D;ngn&#xE9;ngc&#xED;</pr></trd>
 </drv>
 
 <drv mrk="gramat.0isto">
   <kap><tld/>isto</kap>
   <snc mrk="gramat.0isto.LIN">
     <dif>
-      Spertulo en <tld/>a scienco.
+      Spertulo en <tld/>a scienco:
+      <ekz>
+        la klasika formo de Sanskrito estis normigita de la fama <tld/>isto
+        <nom>P&#x101;&#x1E47;ini</nom> kelkcent jarojn anta&ubreve; nia erao
+        <fnt>
+          <aut>J. Lindstedt</aut>
+          <vrk><url ref="https://lingvatereno.blogspot.com/2021/03/cu-venis-fino-al-cia-latino.html">&Ccirc;u venis fino al &ccirc;ia Latino?</url></vrk>
+          <lok>Lingva Tereno, 2021-03-24</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_k;</trd>
   <trd lng="cs">gramatik&aacute;&rcaron;</trd>
   <trd lng="de">Grammatiker</trd>
+  <trd lng="en">grammarian</trd>
   <trd lng="fr">grammairien</trd>
   <trdgrp lng="hu">
     <trd>grammatikus</trd>,
     <trd>nyelvtan&iacute;r&oacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x6587;&#x6CD5;&#x5B66;&#x8005;  <pr>&#x3076;&#x3093;&#x307D;&#x3046;&#x304C;&#x304F;&#x3057;&#x3083;</pr></trd>
   <trd lng="nl">grammaticus</trd>
   <trd lng="pl">gramatyk</trd>
   <trdgrp lng="pt">
@@ -196,7 +236,12 @@
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;</trd>
   <trd lng="sk">gramatik&aacute;r</trd>
-  <trd lng="uk">&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x441;&#x442;</trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_s;&c_t;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6587;&#x6CD5;&#x5BB6; <pr>w&#xE9;nf&#x1CE;ji&#x101;</pr></trd>,
+    <trd>&#x8A9E;&#x6CD5;&#x6559;&#x5E2B; <pr>y&#x1D4;f&#x1CE;ji&#xE0;osh&#x12B;</pr></trd>,
+    <trd>&#x6587;&#x6CD5;&#x5B66;&#x8005; <pr>w&#xE9;nf&#x1CE;xu&#xE9;zh&#x11B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gramat.dependo0o">
@@ -208,8 +253,8 @@
       strukturojn de frazoj per dependorilatoj
       inter vortoj:
       <ekz>
-        Lucien Tesni&egrave;re <klr>...</klr> estas precipe konata kiel iu el 
-        la iniciatintoj de dependo<tld/>oj 
+        <nom>Lucien Tesni&egrave;re</nom> <klr>[&#x2026;]</klr> estas precipe konata kiel iu el
+        la iniciatintoj de dependo<tld/>oj
         <fnt>
           <bib>Viki</bib>,
           <lok><url ref="&Viki;/Lucien_Tesni%C3%A8re">
@@ -218,6 +263,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Dependenzgrammatik</trd>
   <trd lng="en">dependency grammar</trd>
   <trd lng="fr">grammaire de d&eacute;pendance</trd>
 </drv>
@@ -231,8 +277,8 @@
       per vortaro, povas generi &ccirc;iujn validajn frazojn de
       difinita lingvo a&ubreve; sublingvo:
       <ekz>
-        en 2003 la nuntempe plej fama lingvisto Noam Chomsky respondis 
-        al demando &ccirc;u Esperanto havas generan <tld/>on, dirante 
+        en 2003 la nuntempe plej fama lingvisto <nom>Noam Chomsky</nom> respondis
+        al demando &ccirc;u Esperanto havas generan <tld/>on, dirante
         interalie ke &leftquot;Esperanto ne estas lingvo&rightquot;
         <fnt>
           <aut>J. S. Larsen</aut>,
@@ -243,6 +289,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">generative Grammatik</trd>
+  <trdgrp lng="en">
+    <trd>generative grammar</trd>,
+    <trd>generativism</trd>
+  </trdgrp>
   <trd lng="fr">gramaire g&eacute;n&eacute;rative</trd>
 </drv>
 
@@ -254,7 +305,10 @@
       Scienco pri la reguloj komunaj al &ccirc;iuj lingvoj.
     </dif>
   </snc>
+  <trd lng="de">allgemeine Grammatik</trd>
+  <trd lng="en">general grammar</trd>
   <trd lng="fr">grammaire g&eacute;n&eacute;rale</trd>
+  <trd lng="ja">&#x666E;&#x904D;&#x6587;&#x6CD5;  <pr>&#x3075;&#x3078;&#x3093;&#x3076;&#x3093;&#x307D;&#x3046;</pr></trd>
   <trd lng="pt">gram&aacute;tica geral</trd>
   <trd lng="ru">&c_o;&c_b;&c_shch;&c_a;&c_ja; <ind>&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</ind></trd>
 </drv>
@@ -269,7 +323,10 @@
       per alia.
     </dif>
   </snc>
+  <trd lng="de">vergleichende Grammatik</trd>
+  <trd lng="en">comparitive grammar</trd>
   <trd lng="fr">grammaire compar&eacute;e</trd>
+  <trd lng="ja">&#x6BD4;&#x8F03;&#x6587;&#x6CD5;  <pr>&#x3072;&#x304B;&#x304F;&#x3076;&#x3093;&#x307D;&#x3046;</pr></trd>
   <trd lng="pt">gram&aacute;tica comparada</trd>
   <trd lng="ru">&c_s;&c_r;&c_a;&c_v;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
     <ind>&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</ind></trd>
@@ -283,7 +340,13 @@
       Scienco studanta la historion de la &scirc;an&gcirc;oj en lingvaj reguloj.
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>historische Grammatik</trd>,
+    <trd>geschichtliche Grammatik</trd>
+  </trdgrp>
+  <trd lng="en">history of grammar</trd>
   <trd lng="fr">grammaire historique</trd>
+  <trd lng="ja">&#x6B74;&#x53F2;&#x6587;&#x6CD5;  <pr>&#x308C;&#x304D;&#x3057;&#x3076;&#x3093;&#x307D;&#x3046;</pr></trd>
   <trd lng="pt">gram&aacute;tica hist&oacute;rica</trd>
   <trd lng="ru">&c_i;&c_s;&c_t;&c_o;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
     <ind>&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</ind></trd>
@@ -298,9 +361,8 @@
       <ekz>
         mi ja rekomendas uzi &leftquot;mialande&rightquot; prefere al &leftquot;milande&rightquot;, ne
         &ccirc;ar tiu
-        lasta estus kontra&ubreve;<tld/>a <klr>...</klr> sed &ccirc;ar la alia
-        estas
-        sankciita de la uzado
+        lasta estus kontra&ubreve;<tld/>a <klr>[&#x2026;]</klr> sed &ccirc;ar la alia
+        estas sankciita de la uzado
         <fnt>
           <aut>A. J. Mechelynck</aut>,
           <vrk>Re: Opera 7.03 finfine en esperanto!</vrk>,
@@ -312,10 +374,17 @@
       <ref cel="gramat.laux0a.LIN">la&ubreve;gramatika</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>ungrammatisch</trd>,
+    <trd>ungrammatikalisch</trd>,
+    <trd>grammatisch falsch</trd>,
+    <trd>grammatikalisch falsch</trd>
+  </trdgrp>
+  <trd lng="en">ungrammatical</trd>
   <trd lng="fr">agrammatical</trd>
   <trdgrp lng="uk">
-    <trd>&#x44F;&#x43A;&#x438;&#x439; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454;</trd>,
-    <trd>&#x441;&#x443;&#x43F;&#x435;&#x440;&#x435;&#x447;&#x438;&#x442;&#x44C; &#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x446;&#x456;</trd>
+    <trd>&c_ja;&c_k;&c_i;&c_j; &c_n;&c_je; &c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_jeu;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_je;&c_r;&c_je;&c_ch;&c_i;&c_t;&c_mol; &c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_c;&c_ib;</trd>
   </trdgrp>
 </drv>
 
@@ -329,7 +398,7 @@
       <ekz>
         ekzistas du la&ubreve;<tld/>aj pronomoj por indiki la necertecon pri
         la
-        sekso de unu individuo <klr>...</klr> &leftquot;li&rightquot;<klr>...</klr>
+        sekso de unu individuo <klr>[&#x2026;]</klr> &leftquot;li&rightquot; <klr>[&#x2026;]</klr>
         &leftquot;&gcirc;i&rightquot;
         <fnt>
           <aut>M. M. Campagna</aut>,
@@ -343,8 +412,35 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a; &c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trdgrp lng="de">
+    <trd>grammatisch</trd>,
+    <trd>grammatikalisch</trd>
+  </trdgrp>
+  <trd lng="en">grammatical</trd>
   <trd lng="fr">grammatical<klr> (correct)</klr></trd>
-  <trd lng="uk">&#x44F;&#x43A;&#x438;&#x439; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454; &#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x438;&#x446;&#x456;</trd>
+  <trd lng="uk">&c_ja;&c_k;&c_i;&c_j; &c_v;&c_ib;&c_d;&c_p;&c_o;&c_v;&c_ib;&c_d;&c_a;&c_jeu; &c_g;&c_r;&c_a;&c_m;&c_a;&c_t;&c_i;&c_c;&c_ib;</trd>
+  <trd lng="zh">&#x7B26;&#x5408;&#x8A9E;&#x6CD5;&#x898F;&#x5247; <pr>f&#xFA;h&#xE9;y&#x1D4;f&#x1CE;gu&#x12B;z&#xE9;</pr></trd>
+</drv>
+
+<drv mrk="gramat.mis0ajxo">
+  <kap>
+    mis<tld/>a&jcirc;o
+  </kap>
+  <snc mrk="gramat.mis0ajxo.LIN">
+    <dif>
+      Kontra&ubreve;gramatika vorto a&ubreve; frazo en verko:
+      <ekz>
+        ser&ccirc;i preserarojn kaj mis<tld/>a&jcirc;ojn en ia Esperanta teksto
+        <fnt>
+          <aut>J. R. R. Tolkien (tr. Christopher Gledhill, Patrick H. Wynne)</aut>
+          <vrk>La Hobito (2015)</vrk>
+          <lok>p. v</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Grammatikfehler</trd>
+  <trd lng="en">grammatical error</trd>
 </drv>
 
 <drv mrk="gramat.preskriba0o">
@@ -356,7 +452,7 @@
       <tld lit="G"/>a teorio kiu gravigas la
       distingon inter &gcirc;usta kaj erara uzo de lingvo:
       <ekz>
-        normon starigas la t.n. preskriba <tld/>o, kies &ccirc;efa celo estas 
+        normon starigas la t.n. preskriba <tld/>o, kies &ccirc;efa celo estas
         instruo de la &gcirc;usta lingva&jcirc;o
         <fnt>
           <aut>C. Brosch</aut>,
@@ -377,6 +473,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>pr&auml;skriptive Grammatik</trd>,
+    <trd>normative Grammatik</trd>
+  </trdgrp>
+  <trd lng="en">prescriptive grammar</trd>
   <trd lng="fr">grammaire normative</trd>
 </drv>
 
@@ -389,7 +490,14 @@
     </dif>
   </snc>
   <trd lng="cs">popisn&aacute; gramatika</trd>
+  <trdgrp lng="de">
+    <trd>deskriptive Linguistik</trd>,
+    <trd>Deskriptivismus</trd>,
+    <trd>beschreibende Grammatik</trd>
+  </trdgrp>
+  <trd lng="en">descriptive grammar</trd>
   <trd lng="fr">grammaire descriptive</trd>
+  <trd lng="ja">&#x8A18;&#x8FF0;&#x6587;&#x6CD5;  <pr>&#x304D;&#x3058;&#x3085;&#x3064;&#x3076;&#x3093;&#x307D;&#x3046;</pr></trd>
   <trd lng="pt">gram&aacute;tica descritiva</trd>
   <trd lng="ru">&c_o;&c_p;&c_i;&c_s;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
     <ind>&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</ind></trd>
@@ -405,19 +513,21 @@
       rezultojn de transformadoj de baza strukturo tra
       forigoj, enmetoj, &scirc;an&gcirc;oj en sonoj, en vortordo...:
       <ekz>
-        &leftquot;Mi trovis la libron bona&rightquot; <klr>...</klr> oni povas konsideri 
-        <klr>...</klr> la&ubreve; la transforma gramatiko kiel aliformi&gcirc;on de 
+        &leftquot;Mi trovis la libron bona&rightquot; <klr>[&#x2026;]</klr> oni povas konsideri
+        <klr>[&#x2026;]</klr> la&ubreve; la transforma gramatiko kiel aliformi&gcirc;on de
         &leftquot;Mi trovis, ke la libro estas bona&rightquot;
         <fnt>
           <aut>D. Charters</aut>,
           <vrk>&Ccirc;u Akuzi la Akuzativon?</vrk>,
           <lok><url ref="http://www.angelfire.com/mo2/bulteno/0999.html">
-          Elektronika Bulteno de la Esperanto-Asocio de Sankta-Luiso, 
+          Elektronika Bulteno de la Esperanto-Asocio de Sankta-Luiso,
           1999-09</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Transformationsgrammatik</trd>
+  <trd lng="en">transformational grammar</trd>
   <trd lng="fr">grammaire transformationnelle</trd>
 </drv>
 
@@ -431,7 +541,7 @@
       strukturojn de frazoj per hierarkia grupigo
       de vortoj:
       <ekz>
-        vortgrupaj <tld/>oj estas la tipa klasika modelo de la 
+        vortgrupaj <tld/>oj estas la tipa klasika modelo de la
         generisma skolo de lingvoscienco
         <fnt>
           <bib>Viki</bib>,
@@ -441,33 +551,34 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Phrasenstrukturgrammatik</trd>
   <trd lng="en">phrase structure grammar</trd>
   <trd lng="fr">grammaire syntagmatique</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.52 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.51 2023/09/03 09:20:12
+Christian Siefkes: +trd de, en
+
+versio 1.49 2023/08/04 20:23:22
+Jeromo Vasxe: ~isto + ekz
+
+versio 1.48 2023/05/04 16:16:10
+revo: aktualigo URL-unuoj
+
+versio 1.47 2023/02/07 16:39:09
+Wolfram Diestel: mis~ajxo: koncizigo, +trd de
+
+versio 1.46 2023/02/04 19:19:56
+Robert Baruch: +trd: en, +drv: misgramatika&jcirc;o
+
 versio 1.45 2022/04/30 08:42:40
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.43 2021/11/10 08:35:13
-Dmitri Gabinski: + trd be
-
-versio 1.42 2021/11/05 12:46:12
-Damien Brucker: +ref en ~o
-
-Revision 1.39  2017/12/23 23:10:19  revo
-Wolfram Diestel: kor. mrk
-
-Revision 1.38  2017/04/10 09:10:15  revo
-Axel Rousseau: +trd lat
-
-Revision 1.37  2016/02/20 13:10:15  revo
-Wolfram Diestel: korektis ligon al PMEG, +ekz-oj ~a
-
-Revision 1.36  2016/02/20 11:10:21  revo
-Wolfram Diestel: du referencoj al gramatikaj verkoj, forigis tro longan,
-enciklopedian rimarkon
-
 -->
 </vortaro>

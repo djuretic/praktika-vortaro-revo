@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pas.xml,v 1.118 2022/07/06 22:31:22 revo Exp $">
+<art mrk="$Id: pas.xml,v 1.131 2023/12/12 20:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pas</rad>/i
@@ -66,6 +66,14 @@
         </fnt>?
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>durchqueren</trd>,
+      <trd>hindurchgehen</trd>,
+      <trd>entlanggehen</trd>,
+      <trd>hin&uuml;bergehen</trd>,
+      <trd>dar&uuml;bergehen</trd>,
+      <trd>passieren<klr> [r&auml;umlich]</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>halad</trd>,
       <trd>&aacute;thalad</trd>,
@@ -75,11 +83,6 @@
     <trdgrp lng="ru">
       <trd>&c_p;&c_r;&c_o;&c_j;&c_t;&c_i;</trd>,
       <trd>&c_p;&c_r;&c_o;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>entlanggehen</trd>,
-      <trd>durchqueren</trd>
-      <trd>passieren <klr>(r&auml;umlich)</klr></trd>
     </trdgrp>
   </snc>
   <snc mrk="pas.0i.aliigxi">
@@ -96,28 +99,36 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>&uuml;bergehen <klr>(zu)</klr></trd>,
+      <trd>&uuml;bergehen <klr>(in)</klr></trd>
+    </trdgrp>
     <trd lng="hu">&aacute;tmegy <klr tip="amb">(&aacute;llapotba)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_je;&c_r;&c_je;&c_j;&c_t;&c_i;</trd>,
       <trd>&c_p;&c_je;&c_r;&c_je;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
-    <trd lng="de">in etw. <ind>&uuml;bergehen</ind></trd>
   </snc>
   <snc mrk="pas.0i.forpasi">
     <gra><vspec>ntr</vspec></gra>
     <dif>
-      <ref tip="dif" cel="pas.for0i.KOMUNE">For<tld/>i<sncref/></ref>:
+      Iri de iu momento al alia, nehaltante;
+      <ref tip="dif" cel="pas.for0i.KOMUNE">for<tld/>i<sncref/></ref>:
       <ekz>
-        aperas prudento, kiam <tld/>is la momento
-        <fnt><bib>PrV</bib></fnt>;
+        en la ser&ccirc;ado <tld/>is pli ol tuta jaro
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>&Ccirc;apitro  IV, Nokto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvar semajnoj <tld/>as por la bonigado de la karaveloj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
       </ekz><ekz>
-        kiam <tld/>is la a&gcirc;o, aperas la sa&gcirc;o
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        kio estis kaj <tld/>is, tion tempo frakasis
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
-        kiam <tld/>is la sep tagoj, la diluva akvo venis sur la teron.  
+        kiam <tld/>is la sep tagoj, la diluva akvo venis sur la teron
         <fnt>
           <bib>MT</bib>
           <lok>Genezo 7:10</lok>
@@ -128,37 +139,51 @@
           <bib>MT</bib>
           <lok>Genezo 16:3</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         <tld/>is jam longa tempo kaj &ccirc;io fari&gcirc;is alia
         <fnt><bib>BdV</bib></fnt>;
-      </ekz><ekz>
-        kio <tld/>is ne revenos
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la soleno <tld/>is tute silente
         <fnt>
           <bib>Fab2</bib>
           <lok>Feli&ccirc;a familio</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         la tuta sekvanta tago <tld/>is en senfrukta ser&ccirc;ado
         <fnt>
           <bib>Fab4</bib>
           <lok>Anneto</lok>
         </fnt>;
-      </ekz><ekz>
-        ebrieco <tld/>as post dormo, malsa&gcirc;eco neniam
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         kiel <tld/>anta ventego, tiel malpiulo rapide malaperas
         <fnt><bib>MT</bib>, <lok>&Sen; 10:25</lok></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         kun komika mieno de <tld/>anta meditado
         <fnt>
           <bib>BdV</bib>
         </fnt>;
-      </ekz><ekz>
-        le&gcirc;o <ind><tld/>inta&jcirc;o</ind>n ne tu&scirc;as;
+      </ekz>
+      <ekz>
+        sen <ind><tld/>inteco</ind> ne fari&gcirc;as estonteco,
+        diras &ccirc;ina proverbo;
+        <trd lng="hu">m&uacute;lt</trd>
+        <trdgrp lng="ru">
+          <trd>&c_p;&c_r;&c_o;&c_sh;&c_l;&c_o;&c_je;</trd>,
+          <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_je;&c_je;</trd>
+        </trdgrp>
+      </ekz>
+      <ekz>
+        <ind><tld/>intjara ne&gcirc;o</ind>;
+        <trd lng="hu">tavalyi h&oacute;</trd>
+      </ekz>
+      <ekz>
+        le&gcirc;o <ind><tld/>inta&jcirc;o</ind>n ne tu&scirc;as
+        <klr>(ne plu povas &scirc;an&gcirc;i)</klr>;
         <trdgrp lng="hu">
           <trd>m&uacute;lbeli esem&eacute;ny</trd>,
           <trd>ami <ind>elm&uacute;lt</ind></trd>
@@ -168,17 +193,24 @@
           <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_je;&c_je;</trd>
         </trdgrp>
         <fnt><bib>PrV</bib></fnt>
+      </ekz>
+      <ekz>
+        kio <tld/>is ne revenos
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ebrieco <tld/>as post dormo, malsa&gcirc;eco neniam
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        aperas prudento, kiam <tld/>is la momento
+        <fnt><bib>PrV</bib></fnt>;
       </ekz><ekz>
-        sen <ind><tld/>inteco</ind> ne fari&gcirc;as estonteco,
-        diras &ccirc;ina proverbo;
-        <trd lng="hu">m&uacute;lt</trd>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_o;&c_sh;&c_l;&c_o;&c_je;</trd>,
-          <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_je;&c_je;</trd>
-        </trdgrp>
+        kiam <tld/>is la a&gcirc;o, aperas la sa&gcirc;o
+        <fnt><bib>PrV</bib></fnt>;
       </ekz><ekz>
-        <ind><tld/>intjara ne&gcirc;o</ind>
-        <trd lng="hu">tavalyi h&oacute;</trd>
+        kio estis kaj <tld/>is, tion tempo frakasis
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -187,7 +219,14 @@
       <ref cel="glit.0i">gliti</ref>,
       <ref cel="kur.0i">kuri</ref>
     </refgrp>
-    <trd lng="de">vergehen <klr>(zeitlich)</klr></trd>
+    <trdgrp lng="de">
+      <trd>vorbeigehen <klr> (zeitlich)</klr></trd>,
+      <trd>vergehen<klr> (zeitlich)</klr></trd>,
+      <trd>verlaufen <klr>(vergehen)</klr></trd>,
+      <trd>entschlafen<klr> (sterben)</klr></trd>,
+      <trd>sterben</trd>
+    </trdgrp>
+    <trd lng="en">pass<klr> (ntr, with time as subject)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_r;&c_o;&c_j;&c_t;&c_i;</trd>,
       <trd>&c_p;&c_r;&c_o;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
@@ -212,6 +251,14 @@
         <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>hindurchgehen</trd>,
+      <trd>durchqueren</trd>,
+      <trd>durchschreiten</trd>,
+      <trd>durchgehen</trd>,
+      <trd>durchstehen</trd>,
+      <trd>durchleben</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>&aacute;tkel</trd>,
       <trd>&aacute;tmegy</trd>
@@ -223,8 +270,8 @@
   </snc>
   <trd lng="af">slaag</trd>
   <trd lng="am">&#x121B;&#4616;&#x134D;</trd>
-  <trd lng="ar">&#x62A;&a_m;&a_r;</trd>
-  <trd lng="az">ke&#xE7;m&#601;k</trd>
+  <trd lng="ar">&a_t;&a_m;&a_r;</trd>
+  <trd lng="az">ke&ccedil;m&#601;k</trd>
   <trd lng="bn">&#x9AA;&#x9BE;&#x9B8;</trd>
   <trdgrp lng="br">
     <trd>paseal<klr tip="ind"> (v.g.)</klr></trd>,
@@ -249,7 +296,7 @@
   <trd lng="eu">gainditu</trd>
   <trd lng="fr">passer<klr tip="amb"> (intr.)</klr></trd>
   <trd lng="fy">pas</trd>
-  <trd lng="ga">pas a fh&#xE1;il</trd>
+  <trd lng="ga">pas a fh&aacute;il</trd>
   <trd lng="gd">seachad</trd>
   <trd lng="gl">pasar</trd>
   <trd lng="gu">&#xAAA;&#xAB8;&#xABE;&#xAB0;</trd>
@@ -259,9 +306,16 @@
   <trd lng="hr">pro&cacute;i</trd>
   <trd lng="ht">pase</trd>
   <trd lng="hy">&#1377;&#1398;&#1409;&#1398;&#1381;&#x56C;</trd>
+  <trdgrp lng="id">
+    <trd>lalu</trd>,
+    <trd>lewat</trd>,
+    <trd><baz>lalu</baz>melalui</trd>,
+    <trd><baz>lewat</baz>melewati</trd>,
+    <trd><baz>lintas</baz>melintas</trd>
+  </trdgrp>
   <trd lng="ig">gafere</trd>
   <trd lng="is">fara</trd>
-  <trd lng="ja">&#21512;&#x683C;</trd>
+  <trd lng="ja">&#21512;&#x683C; <pr>&#12372;&#12358;&#x304B;&#x304F;</pr></trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10D8;&#x10D5;&#x10DA;&#x10D8;&#x10E1;</trd>
   <trd lng="kk">&#x4E9;&c_t;&c_u;</trd>
   <trd lng="km">&#x17A0;&#x17BB;&#6021;</trd>
@@ -275,9 +329,9 @@
   <trd lng="lv">caurlaide</trd>
   <trd lng="mg">nitranga</trd>
   <trd lng="mi">haere</trd>
-  <trd lng="mk">&#x43F;&#x43E;&#x43C;&c_i;&#x43D;&c_je;</trd>
+  <trd lng="mk">&c_p;&c_o;&c_m;&c_i;&c_n;&c_je;</trd>
   <trd lng="ml">&#xD1A;&#xD41;&#xD30;&#xD02;</trd>
-  <trd lng="mn">&#x4E9;&#x43D;&c_g;&#x4E9;&c_r;&#x4E9;&c_h;</trd>
+  <trd lng="mn">&#x4E9;&c_n;&c_g;&#x4E9;&c_r;&#x4E9;&c_h;</trd>
   <trd lng="mr">&#x92A;&#x93E;&#2360;</trd>
   <trd lng="ms">lulus</trd>
   <trd lng="mt">jg&#295;addu</trd>
@@ -294,7 +348,7 @@
     <trd>mija&cacute;</trd>,
     <trd>przechodzi&cacute;</trd>,
   </trdgrp>
-  <trd lng="ps">&#x67E;&a_A;&a_s;</trd>
+  <trd lng="ps">&f_p;&a_A;&a_s;</trd>
   <trd lng="pt">passar</trd>
   <trd lng="ro">trece</trd>
   <trd lng="sd">&a_l;&#x6AA;</trd>
@@ -315,16 +369,16 @@
   <trd lng="sw">kupita</trd>
   <trd lng="ta">&#xB95;&#xB9F;&#xBA8;&#xBCD;&#xBA4;&#xBC1;</trd>
   <trd lng="te">&#xC2A;&#xC3E;&#xC38;&#xC4D;</trd>
-  <trd lng="tg">&c_g;&c_u;&c_z;&c_a;&c_sh;&c_t;&c_a;&#x43D;</trd>
+  <trd lng="tg">&c_g;&c_u;&c_z;&c_a;&c_sh;&c_t;&c_a;&c_n;</trd>
   <trd lng="th">&#xE1C;&#xE48;&#xE32;&#xE19;</trd>
   <trd lng="tl">pumasa</trd>
   <trd lng="tt">&c_u;&c_z;&c_u;</trd>
-  <trd lng="uk">&#x43F;&c_r;&#x43E;&c_j;&c_t;&c_i;</trd>
-  <trd lng="ur">&#x67E;&a_A;&a_s;</trd>
+  <trd lng="uk">&c_p;&c_r;&c_o;&c_j;&c_t;&c_i;</trd>
+  <trd lng="ur">&f_p;&a_A;&a_s;</trd>
   <trd lng="uz">o&#8217;tishi</trd>
   <trd lng="vi">v&#x1B0;&#x1EE3;t qua</trd>
   <trd lng="xh">kwathi</trd>
-  <trd lng="yi">&#x5E4;&#x5D0;&#x5B8;&#x5E8;&#x5DF;</trd>
+  <trd lng="yi">&pe;&alef;&#x5B8;&resh;&fnun;</trd>
   <trd lng="yo">&#x1E63;e</trd>
   <trd lng="zu">kudlula</trd>
 </drv>
@@ -372,10 +426,100 @@
     <trd>fut&oacute;lag</trd>,
     <trd>&aacute;tmenetileg</trd>
   </trdgrp>
+  <trd lng="id"><ind>sambil</ind> lalu</trd>
+  <trd lng="ja">&#x4E00;&#26178;&#30340;&#x306B;  <pr>&#12356;&#12385;&#12376;&#12390;&#x304D;&#x306B;</pr></trd>
   <trd lng="nl">zijdelings</trd>
   <trd lng="pl">przej&sacute;ciowo</trd>
   <trd lng="ro">temporar</trd>
   <trd lng="sk">letmo</trd>
+</drv>
+
+<drv mrk="pas.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Ago <tld/>i:
+      <ekz>
+        la <tld/>o de la vo&ccirc;o tra la plila&ubreve;tiga aparato parte konfuzas la sonojn kaj
+        malklarigas la vorton
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la <tld/>o de la sep jaroj la virino revenis
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Re&gcirc;oj 8:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; la <tld/>o de la jaroj &scirc;i &gcirc;is certa grado adapti&gcirc;is al la vidpunktoj de la
+        filino
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de lia vivo estis <klr>[&#8230;]</klr> tre trankvila
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekluktis aliaj paroj, post kies <tld/>o ekflamis nur la batalo de la tutaj
+        ta&ccirc;mentoj
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LVI</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="dauxr.0o">da&ubreve;ro</ref>,
+      <ref cel="fin.0o.cxeso">fino<sncref/></ref>
+    </refgrp>
+  </snc>
+  <snc mrk="pas.0o.pasejo">
+    <uzo tip="stl">ARK</uzo>
+    <dif>
+      <tld lit="P"/>ejo:
+      <ekz>
+        la parto lo&gcirc;ata enhavas <klr>[&#8230;]</klr> sennombrajn irojn, <tld/>ojn kaj
+        malplenajn lokojn, aran&gcirc;itajn la&ubreve; la sekvanta plano
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <trd lng="de">Passage</trd>
+    <trd lng="en">passage</trd>
+    <trd lng="fr">passage</trd>
+  <trdgrp lng="id">
+    <trd><baz>lintas</baz>lintasan</trd>,
+    <trd>gang</trd>,
+    <trd>koridor</trd>
+  </trdgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Verlauf</trd>,
+    <trd>Vergehen</trd>,
+    <trd>Durchlaufen</trd>,
+    <trd>Vorr&uuml;bergehen</trd>
+  </trdgrp>
+  <trd lng="en">passing</trd>
+  <trdgrp lng="ja">
+    <trd>&#x901A;&#x884C;  <pr>&#12388;&#12358;&#12371;&#12358;</pr></trd>,
+    <trd>&#x901A;&#x904E;  <pr>&#12388;&#12358;&#x304B;</pr></trd>,
+    <trd>&#x63A8;&#x79FB;  <pr>&#12377;&#12356;&#12356;</pr></trd>,
+    <trd>&#x7D4C;&#x904E;  <pr>&#12369;&#12356;&#x304B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pas.0ado">
@@ -387,7 +531,7 @@
         la <tld/>ado tra la arbaro estas malfacila;
       </ekz><ekz>
         mi vidas <klr>[&#8230;]</klr> per via maltrankvila <tld/>ado
-        kaj senorda svingado de l' manoj, ke en la nuna momento 
+        kaj senorda svingado de l' manoj, ke en la nuna momento
         vi sentas malesperon
         <fnt>
           <bib>Far1</bib>
@@ -424,8 +568,8 @@
   <trd lng="ru">&c_p;&c_r;&c_o;&c_h;&c_o;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">ch&ocirc;dza</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_h;&c_ib;&c_d;</trd>,
-    <trd>&#x43F;&c_r;&#x43E;&c_h;&#x43E;&c_d;&c_zh;&c_je;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_h;&c_ib;&c_d;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_h;&c_o;&c_d;&c_zh;&c_je;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
@@ -457,13 +601,14 @@
     <trd>esem&eacute;ny</trd>,
     <trd>t&ouml;rt&eacute;n&eacute;s</trd>
   </trdgrp>
+  <trd lng="ja">&#12405;&#12356;&#x306E;&#x51FA;&#26469;&#x4E8B;  <pr>&#12405;&#12356;&#x306E;&#12391;&#x304D;&#12372;&#12392;</pr></trd>
   <trd lng="nl">gebeurtenis</trd>
   <trd lng="pl">pasa&zdot;</trd>
   <trd lng="ro">pasaj</trd>
   <trdgrp lng="uk">
-    <trd>&c_v;&c_i;&#x43F;&c_a;&c_d;&#x43E;&#x43A;</trd>,
-    <trd>&#x43F;&#x43E;&c_d;&c_ib;&#x44F;</trd>,
-    <trd>&c_ib;&#x43D;&c_c;&c_i;&#x43D;&c_d;&c_je;&#x43D;&c_t;</trd>
+    <trd>&c_v;&c_i;&c_p;&c_a;&c_d;&c_o;&c_k;</trd>,
+    <trd>&c_p;&c_o;&c_d;&c_ib;&c_ja;</trd>,
+    <trd>&c_ib;&c_n;&c_c;&c_i;&c_n;&c_d;&c_je;&c_n;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -480,6 +625,7 @@
         <fnt>
           <bib>PrV</bib>
         </fnt>;
+        <trd lng="id"><ind>anjing</ind> menggonggong, kafilah berlalu</trd>
       </ekz><ekz>
         kiu dungas <tld/>antojn, tiu dungas malsa&gcirc;ulojn
         <fnt>
@@ -506,7 +652,7 @@
           <lok>Fingreto</lok>
         </fnt>;
       </ekz><ekz>
-        ondo da <tld/>antoj, sen&ccirc;ese fluanta sur la trotuaro, 
+        ondo da <tld/>antoj, sen&ccirc;ese fluanta sur la trotuaro,
         kovris anta&ubreve; &scirc;i la personon, kiun &scirc;i volis kuratingi
         <fnt>
           <bib>Marta</bib>
@@ -527,12 +673,17 @@
   <trd lng="en">passerby</trd>
   <trd lng="fr">passant<klr tip="amb"> (subst.)</klr></trd>
   <trd lng="hu">j&aacute;r&oacute;kel&odblac;</trd>
+  <trdgrp lng="id">
+    <trd><ind>orang</ind> lewat</trd>,
+    <trd><baz>lintas</baz>pelintas</trd>
+  </trdgrp>
+  <trd lng="ja">&#x901A;&#x884C;&#x4EBA;  <pr>&#12388;&#12358;&#12371;&#12358;&#x306B;&#12435;</pr></trd>
   <trd lng="nl">voorbijganger</trd>
   <trd lng="pl">przechodzie&nacute;</trd>
   <trd lng="ro">pieton</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_h;&c_o;&c_zh;&c_i;&c_j;</trd>
   <trd lng="sk">chodec</trd>
-  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&c_h;&#x43E;&c_zh;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_h;&c_o;&c_zh;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="pas.0ejo">
@@ -553,12 +704,13 @@
           <lok>I. Samuel 14:4</lok>
         </fnt>;
       </ekz><ekz>
-        fervoja tunelo 50 km longa sub la Brenner-monto<tld/>ejo solvus la problemon
+        fervoja tunelo 50 km longa sub la <nom>Brenner</nom>-monto<tld/>ejo solvus la problemon
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007102.html">Protestas
-          najbaroj</url></vrk>
-        </fnt>;
+          <aut>Walter Klag</aut>
+            <vrk><url ref="&Monato;/2000/007102.php">Protestas naj-baroj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 13</lok>
+          </fnt>;
       </ekz><ekz>
         tri arbaraj regionoj &ccirc;irka&ubreve; la alpa <tld/>ejo Gotardo
         <fnt>
@@ -609,6 +761,15 @@
   <trd lng="es">pasaje</trd>
   <trd lng="fr">passage<klr tip="amb"> (lieu)</klr></trd>
   <trd lng="hu">&aacute;tj&aacute;r&oacute;</trd>
+  <trdgrp lng="id">
+    <trd><baz>lintas</baz>lintasan</trd>,
+    <trd>gang</trd>,
+    <trd>koridor</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x901A;&#x8DEF;  <pr>&#12388;&#12358;&#x308D;</pr></trd>,
+    <trd>&#x901A;&#x308A;&#36947;  <pr>&#12392;&#x304A;&#x308A;&#x307F;&#12385;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>pas</trd>,
     <trd>passage</trd>,
@@ -618,7 +779,7 @@
   <trd lng="ro">trecere</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_h;&c_o;&c_d;</trd>
   <trd lng="sk">priechod</trd>
-  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&c_h;&c_ib;&c_d;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_h;&c_ib;&c_d;</trd>
 </drv>
 
 <drv mrk="pas.0ema">
@@ -630,14 +791,14 @@
         &scirc;an&gcirc;i&gcirc;emaj kaj <tld/>emaj kiel akvaj ondoj
         <fnt><bib>Marta</bib></fnt>;
       </ekz><ekz>
-         filozofoj <klr>[&#8230;]</klr> sugestas ke la koncepto de 
+         filozofoj <klr>[&#8230;]</klr> sugestas ke la koncepto de
          &leftquot;materio&rightquot; estas <tld/>ema kaj nebone difinita
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=2914">Materialismo</url></lok>
         </fnt>;
       </ekz><ekz>
-        la homa nescieco alligi&gcirc;as al tio, kio fakte estas 
+        la homa nescieco alligi&gcirc;as al tio, kio fakte estas
         <tld/>ema kaj trovi&gcirc;as en sen&ccirc;esa re&scirc;an&gcirc;ado
         <fnt>
           <bib>Viki</bib>
@@ -665,6 +826,11 @@
   </trdgrp>
   <trd lng="fr">passager<klr tip="amb"> (adj.)</klr></trd>
   <trd lng="hu">m&uacute;l&eacute;kony</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E00;&#26178;&#30340;&#x306A;  <pr>&#12356;&#12385;&#12376;&#12390;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#12388;&#x304B;&#x306E;&#38291;&#x306E;  <pr>&#12388;&#x304B;&#x306E;&#x307E;&#x306E;</pr></trd>,
+    <trd>&#x79FB;&#x308D;&#12356;&#12420;&#12377;&#12356;  <pr>&#12358;&#12388;&#x308D;&#12356;&#12420;&#12377;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="nl">voorbijgaand</trd>
   <trdgrp lng="pl">
     <trd>przej&sacute;ciowy</trd>,
@@ -677,8 +843,8 @@
   </trdgrp>
   <trd lng="sk">pominute&lcaron;n&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&c_s;&#x43A;&#x43E;&c_r;&#x43E;&#x43C;&c_i;&#x43D;&c_u;&c_shch;&c_i;&c_j;</trd>,
-    <trd>&#x43A;&#x43E;&c_r;&#x43E;&c_t;&#x43A;&#x43E;&c_t;&c_r;&c_i;&c_v;&c_a;&#x43B;&c_i;&c_j;</trd>
+    <trd>&c_s;&c_k;&c_o;&c_r;&c_o;&c_m;&c_i;&c_n;&c_u;&c_shch;&c_i;&c_j;</trd>,
+    <trd>&c_k;&c_o;&c_r;&c_o;&c_t;&c_k;&c_o;&c_t;&c_r;&c_i;&c_v;&c_a;&c_l;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -690,7 +856,7 @@
       <ekz>
         la pramisto <tld/>igis nin trans la rivero;
       </ekz><ekz>
-        Ji&scirc;aj vokis Abinadabon, kaj <tld/>igis lin anta&ubreve; Samuel
+        <nom>Ji&scirc;aj</nom> vokis <nom>Abinadab</nom>on, kaj <tld/>igis lin anta&ubreve; <nom>Samuel</nom>
         <fnt>
           <bib>MT</bib>
           <lok>I. Samuel 16:8</lok>
@@ -701,7 +867,7 @@
       </ekz><ekz>
         bonvolu <tld/>igi al mi la salon;
       </ekz><ekz>
-        la malgranda knabino eltiris longan tran&ccirc;ilon el fendo 
+        la malgranda knabino eltiris longan tran&ccirc;ilon el fendo
         de la muro kaj <tld/>igis &gcirc;in super la kolo de la cervo
         <fnt>
           <bib>Fab2</bib>
@@ -723,6 +889,12 @@
       <trd>&aacute;tvisz</trd>,
       <trd>&aacute;tad</trd>,
       <trd>&aacute;tny&uacute;jt</trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd><baz>beri</baz>memberi jalan</trd>,
+      <trd><baz>jalan</baz>menjalankan</trd>,
+      <trd><baz>lewat</baz>melewati</trd>,
+      <trd><baz>seberang</baz>menyeberangkan</trd>
     </trdgrp>
     <trd lng="nl">laten <ind>doortrekken</ind></trd>
   </snc>
@@ -763,6 +935,7 @@
       <trd>t&ouml;lt <klr tip="ind">(id&odblac;t)</klr></trd>,
       <trd>elt&ouml;lt</trd>
     </trdgrp>
+    <trd lng="id"><baz>habis</baz>menghabiskan (waktu)</trd>
     <trd lng="nl">doorbrengen</trd>
   </snc>
   <trd lng="br">tremen<klr tip="ind"> (v.k..)</klr></trd>
@@ -771,6 +944,13 @@
     <trd>tr&aacute;vit</trd>
   </trdgrp>
   <trd lng="fr">passer<klr tip="amb"> (tr.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x901A;&#12377;  <pr>&#12392;&#x304A;&#12377;</pr></trd>,
+    <trd>&#x901A;&#x904E;&#12373;&#x305B;&#x308B;  <pr>&#12388;&#12358;&#x304B;&#12373;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x624B;&#x6E21;&#12377;  <pr>&#12390;&#x308F;&#x305F;&#12377;</pr></trd>,
+    <trd>&#x904E;&#12372;&#12377;  <pr>&#12377;&#12372;&#12377;</pr></trd>,
+    <trd>&#x30D1;&#x30B9;&#12377;&#x308B;  <pr>&#12401;&#12377;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>przeprawi&cacute;</trd>,
     <trd>przeprowadzi&cacute;</trd>
@@ -787,7 +967,7 @@
     <trd>&c_p;&c_r;&c_o;&c_v;&c_je;&c_s;&c_t;&c_i;</trd>
   </trdgrp>
   <trd lng="sk">str&aacute;vi&tcaron; &ccaron;as</trd>
-  <trd lng="uk">&#x43F;&c_r;&#x43E;&c_v;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="pas.0inta">
@@ -816,8 +996,8 @@
   <trd lng="bn">&#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9B8;&#x9CD;&#x9AC;&#x9BE;&#x9A8;&#x9CD;&#x9A4;</trd>
   <trd lng="co">stilettu</trd>
   <trd lng="cy">wedi mynd</trd>
-  <trd lng="da">v&#xE6;k</trd>
-  <trd lng="et">m&#xF6;&#xF6;das</trd>
+  <trd lng="da">v&aelig;k</trd>
+  <trd lng="et">m&ouml;&ouml;das</trd>
   <trd lng="ga">imithe</trd>
   <trd lng="gl">gone</trd>
   <trd lng="gu">&#xA97;&#xAAF;&#xACB;</trd>
@@ -827,26 +1007,27 @@
   <trd lng="hr">oti&scaron;li</trd>
   <trd lng="ht">ale</trd>
   <trd lng="hy">&#1379;&#1398;&#1377;&#1409;&#1381;&#x56C;</trd>
+  <trd lng="id">telah (ber)<ind>lalu</ind></trd>
   <trd lng="ig">gawara</trd>
   <trd lng="is">farinn</trd>
   <trd lng="ja">&#12356;&#x306A;&#x304F;&#x306A;&#12387;&#x305F;</trd>
   <trd lng="jv">ical</trd>
   <trd lng="ka">&#x10EC;&#x10D0;&#x10E1;&#x10E3;&#x10DA;&#x10D8;</trd>
-  <trd lng="kk">&#x43A;&c_je;&c_t;&#x43A;&c_je;&#x43D;</trd>
+  <trd lng="kk">&c_k;&c_je;&c_t;&c_k;&c_je;&c_n;</trd>
   <trd lng="km">&#6036;&#x17B6;&#6035;&#6041;&#x17B6;&#6020;&#6021;&#x17B6;&#6016;&#6021;&#x17C1;&#6025;&#6033;&#x17C5;</trd>
   <trd lng="kn">&#xCB9;&#xCCB;&#xCA6;</trd>
   <trd lng="ko">&#xC0AC;&#xB77C;</trd>
-  <trd lng="ky">&#x43A;&c_je;&c_t;&c_t;&c_i;</trd>
+  <trd lng="ky">&c_k;&c_je;&c_t;&c_t;&c_i;</trd>
   <trd lng="lat">abiit</trd>
   <trd lng="lo">&#xEAB;&#xEA1;&#xEBB;&#xE94;</trd>
   <trd lng="lt">dingo</trd>
-  <trd lng="lv">aizg&#5585;ju&scaron;i</trd>
+  <trd lng="lv">aizg&#257;ju&scaron;i</trd>
   <trd lng="mg">lasa</trd>
   <trd lng="mi">riro</trd>
-  <trd lng="mk">&#x41F;&#x43E;&#x43C;&c_i;&#x43D;&c_a;&c_a;</trd>
+  <trd lng="mk">&c_P;&c_o;&c_m;&c_i;&c_n;&c_a;&c_a;</trd>
   <trd
   lng="ml">&#xD2E;&#xD3E;&#xD31;&#xD3F;&#xD2A;&#xD4D;&#xD2A;&#xD4B;&#xD2F;&#xD32;&#xD4D;&#xD32;&#xD4B;</trd>
-  <trd lng="mn">&c_i;&#x43B;&c_a;&c_a;&c_r;&c_sh;&c_s;&c_a;&#x43D;</trd>
+  <trd lng="mn">&c_i;&c_l;&c_a;&c_a;&c_r;&c_sh;&c_s;&c_a;&c_n;</trd>
   <trd lng="mr">&#2327;&#2375;&#2354;&#x93E;</trd>
   <trd lng="ms">pergi</trd>
   <trd lng="mt">marret</trd>
@@ -868,7 +1049,7 @@
     <trd>ultim</trd>
   </trdgrp>
   <trd lng="rw">yagiye</trd>
-  <trd lng="sd">&#x67F;&#x64A; &f_ch;&#x6AA;&#x64A;</trd>
+  <trd lng="sd">&#x67F;&a_y; &f_ch;&#x6AA;&a_y;</trd>
   <trd lng="si">&#xD9C;&#xDD2;&#xDC4;&#xDD2;&#xDB1;&#xDCA;</trd>
   <trd lng="sl">od&scaron;li</trd>
   <trd lng="sm">mavae</trd>
@@ -881,16 +1062,16 @@
   <trd lng="ta">&#xB9A;&#xBC6;&#xBA9;&#xBCD;&#xBB1;&#xBC1;</trd>
   <trd
   lng="te">&#xC35;&#xC46;&#xC33;&#xC4D;&#xC32;&#xC3F;&#xC2A;&#xC4B;&#xC35;&#xC21;&#xC02;&#xC24;&#xC4B;</trd>
-  <trd lng="tg">&c_G;&#x43E;&#x43D;</trd>
+  <trd lng="tg">&c_G;&c_o;&c_n;</trd>
   <trd lng="th">&#xE2B;&#xE32;&#xE22;&#xE44;&#xE1B;</trd>
   <trd lng="tl">nawala</trd>
-  <trd lng="tt">&#x43A;&c_i;&c_t;&c_t;&c_je;</trd>
-  <trd lng="uk">&#x43F;&c_ib;&c_sh;&#x43E;&c_v;</trd>
-  <trd lng="ur">&f_ch;&a_l;&a_A; &#x6AF;&#x6CC;&a_A;</trd>
+  <trd lng="tt">&c_k;&c_i;&c_t;&c_t;&c_je;</trd>
+  <trd lng="uk">&c_p;&c_ib;&c_sh;&c_o;&c_v;</trd>
+  <trd lng="ur">&f_ch;&a_l;&a_A; &f_g;&f_y;&a_A;</trd>
   <trd lng="uz">ketganimda</trd>
   <trd lng="vi">ra &#273;i</trd>
   <trd lng="xh">phelile</trd>
-  <trd lng="yi">&#x5E0;&#x5D9;&#x5D8;&#x5D0;&#x5B8;</trd>
+  <trd lng="yi">&nun;&yod;&tet;&alef;&#x5B8;</trd>
   <trd lng="yo">l&#x1ECD;</trd>
   <trd lng="zu">esehambile</trd>
 </drv>
@@ -902,7 +1083,7 @@
       <ref tip="super" cel="temp.0o.KAL">Tempo</ref> pasinta; <ref tip="sin"
       cel="est.0inteco">estinteco</ref>:
       <ekz>
-        la <ref tip="ant" cel="est.0onteco">estonteco</ref> 
+        la <ref tip="ant" cel="est.0onteco">estonteco</ref>
         ne ekzistas por ilia penso, la <tld/>inteco rapide elvi&scirc;i&gcirc;as el ilia
         memoro
         <fnt>
@@ -939,12 +1120,17 @@
         <fnt>
           <bib>KKl</bib>
         </fnt>.
-      </ekz>      
+      </ekz>
     </dif>
   </snc>
+  <trd lng="id"><ind>masa</ind> lalu</trd>
+  <trdgrp lng="ja">
+    <trd>&#x904E;&#x53BB;  <pr>&#x304B;&#12371;</pr></trd>,
+    <trd>&#26132;  <pr>&#12416;&#x304B;&#12375;</pr></trd>
+  </trdgrp>
   <trd lng="pl">przesz&lstroke;o&sacute;&cacute;</trd>
   <trd lng="ro">trecut</trd>
-  <trd lng="uk">&#x43C;&c_i;&#x43D;&c_u;&#x43B;&c_je; (&#x43F;&c_r;&#x43E; &c_ch;&c_a;&c_s;)</trd>
+  <trd lng="uk">&c_m;&c_i;&c_n;&c_u;&c_l;&c_je; (&c_p;&c_r;&c_o; &c_ch;&c_a;&c_s;)</trd>
 </drv>
 
 <drv mrk="pas.for0i">
@@ -1018,6 +1204,12 @@
       <ref cel="mort.0i">morti</ref>,
       <ref cel="velk.0i.FIG">velki<sncref/></ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>entschlafen</trd>,
+      <trd>den Weg alles Irdischen gehen<klr> [ugs.]</klr></trd>,
+      <trd>heimgehen<klr> [christl. Ausdruck]</klr></trd>
+    </trdgrp>
+    <trd lng="id"><baz>tinggal</baz>meninggal <klr>(dunia)</klr></trd>
     <trd lng="ru">&c_s;&c_k;&c_o;&c_n;&c_ch;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
   <trd lng="br">tremen<klr tip="amb"> (mont da get)</klr></trd>
@@ -1042,6 +1234,10 @@
     <trd>v&eacute;get &eacute;r</trd>,
     <trd>elh&uacute;ny</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x904E;&#x304E;&#x53BB;&#x308B;  <pr>&#12377;&#x304E;&#12373;&#x308B;</pr></trd>,
+    <trd>&#x6B7B;&#x53BB;&#12377;&#x308B;  <pr>&#12375;&#x304D;&#12423;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>vergaan</trd>,
     <trd>sterven</trd>,
@@ -1059,12 +1255,12 @@
     <trd>vypr&scaron;a&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_v;&c_ib;&c_d;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_r;&#x43E;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&#x43F;&c_i;&#x43D;&#x44F;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&#x43F;&c_r;&#x43E;&#x43C;&c_i;&#x43D;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&c_u;&#x43C;&c_je;&c_r;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&#x43E;&#x43C;&c_je;&c_r;&c_t;&c_i;</trd>
+    <trd>&c_v;&c_ib;&c_d;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_p;&c_i;&c_n;&c_ja;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_m;&c_i;&c_n;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_u;&c_m;&c_je;&c_r;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_o;&c_m;&c_je;&c_r;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1092,6 +1288,10 @@
         vi preter<tld/>is <klr>(evitis)</klr> gravan dan&gcirc;eron.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>vorbeigehen</trd>
+      <trd>passieren<klr> [r&auml;umlich]</klr></trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>to pass by</trd>,
       <trd>move past</trd>
@@ -1114,7 +1314,7 @@
       <ekz>
         preter<tld/>i detalon, linion, mirindan okazon;
       </ekz><ekz>
-        mi preter<tld/>as multajn malpli gravajn aferojn 
+        mi preter<tld/>as multajn malpli gravajn aferojn
         <klr>(por transiri al grava)</klr>
         <fnt>
           <bib>Far3</bib>
@@ -1125,6 +1325,13 @@
     <refgrp tip="sin">
       <ref cel="las.preter0i">preterlasi</ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>liegen lassen</trd>,
+      <trd>links liegen lassen</trd>,
+      <trd>unbeachtet lassen</trd>,
+      <trd>ignorieren</trd>,
+      <trd>keine Beachtung schenken</trd>
+    </trdgrp>
     <trdgrp lng="en">
       <trd>to pass over</trd>,
       <trd>overlook</trd>
@@ -1142,8 +1349,13 @@
     <trd>uplynout</trd>,
     <trd>vypr&scaron;et</trd>
   </trdgrp>
-  <trd lng="de">vorbeigehen</trd>
   <trd lng="fr">passer &agrave; c&ocirc;t&eacute; de</trd>
+  <trdgrp lng="ja">
+    <trd>&#x901A;&#x308A;&#x904E;&#x304E;&#x308B; 
+    <pr>&#12392;&#x304A;&#x308A;&#12377;&#x304E;&#x308B;</pr></trd>,
+    <trd>&#x8FFD;&#12356;&#x8D8A;&#12377;  <pr>&#x304A;&#12356;&#12371;&#12377;</pr></trd>,
+    <trd>&#x898B;&#x904E;&#12372;&#12377;  <pr>&#x307F;&#12377;&#12372;&#12377;</pr></trd>
+  </trdgrp>
   <trd lng="nl">voorbijgaan</trd>
   <trdgrp lng="pl">
     <trd>opuszcza&cacute;</trd>,
@@ -1162,9 +1374,9 @@
     <trd>vypr&scaron;a&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43E;&c_b;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
-    <trd>&#x43E;&c_b;&#8217;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43E;&c_b;&#x43C;&c_i;&#x43D;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_o;&c_b;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_o;&c_b;&#8217;&c_ji;&c_zh;&c_d;&c_zh;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_o;&c_b;&c_m;&c_i;&c_n;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1177,7 +1389,7 @@
       <ekz>
         tra<tld/>i riveron, urbon, pordon, homamason;
       </ekz><ekz>
-        Jozef foriris de Faraono kaj tra<tld/>is la tutan Egiptan landon
+        <nom>Jozef</nom> foriris de Faraono kaj tra<tld/>is la tutan Egiptan landon
         <fnt>
           <bib>MT</bib>
           <lok>Genezo 41:46</lok>
@@ -1214,6 +1426,14 @@
         bataladon, dan&gcirc;eran krizon.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>hindurchgehen</trd>,
+      <trd>durchqueren</trd>,
+      <trd>durchschreiten</trd>,
+      <trd>durchgehen</trd>,
+      <trd>durchstehen</trd>,
+      <trd>durchleben</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="br">
     <trd>treizha&ntilde;</trd>,
@@ -1223,15 +1443,17 @@
     <trd>absolvovat</trd>,
     <trd>proch&aacute;zet <klr>(n&ecaron;co)</klr></trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>hindurchgehen</trd>,
-    <trd>durchqueren</trd>
-  </trdgrp>
   <trd lng="en">to pass through</trd>
   <trd lng="fr">traverser</trd>
   <trdgrp lng="hu">
     <trd>&aacute;tmegy</trd>,
     <trd>&aacute;thalad</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x901A;&#x308A;&#x629C;&#12369;&#x308B;  <pr>&#12392;&#x304A;&#x308A;&#x306C;&#12369;&#x308B;</pr></trd>,
+    <trd>&#x304F;&#12368;&#x308A;&#x629C;&#12369;&#x308B;  <pr>&#x304F;&#12368;&#x308A;&#x306C;&#12369;&#x308B;</pr></trd>,
+    <trd>&#x7D4C;&#x308B;  <pr>&#12408;&#x308B;</pr></trd>,
+    <trd>&#x7D4C;&#x9A13;&#12377;&#x308B;  <pr>&#12369;&#12356;&#12369;&#12435;&#12377;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">doortrekken</trd>
   <trd lng="pl">przeby&cacute;</trd>
@@ -1244,9 +1466,9 @@
     <trd>sk&uacute;si&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
-    <trd>&#x43E;&c_b;&c_h;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_r;&#x43E;&#x43C;&c_i;&#x43D;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_o;&c_b;&c_h;&c_o;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_m;&c_i;&c_n;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1262,7 +1484,7 @@
         <uzo tip="stl">FIG</uzo>
         trans<tld/>i la mezuron, la limojn de la le&gcirc;eco<fnt>B</fnt>;
       </ekz><ekz>
-        li trans<tld/>is la riveron kaj direkti&gcirc;is al la monto Gilead
+        li trans<tld/>is la riveron kaj direkti&gcirc;is al la monto <nom>Gilead</nom>
         <fnt>
           <bib>MT</bib>
           <lok>Genezo 31:21</lok>
@@ -1310,7 +1532,7 @@
           <aut>Last</aut>
         </fnt>;
       </ekz><ekz>
-        la respondo trans<tld/>is miajn esperojn, mi ne nur estis 
+        la respondo trans<tld/>is miajn esperojn, mi ne nur estis
         komprenita, sed krom tio <klr>[&#8230;]</klr>
         <fnt>
           <bib>Monato</bib>
@@ -1335,7 +1557,7 @@
         li trans<tld/>is en Amerikon;
       </ekz><ekz>
         <uzo tip="stl">FIG</uzo>
-        la povo <klr>...</klr> trans<tld/>as en la manojn de Herhor
+        la povo <klr>[&#8230;]</klr> trans<tld/>as en la manojn de <nom>Herhor</nom>
         <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 12a</lok></fnt>;
       </ekz><ekz>
         grekaj limgardistoj tuj malhelpis al centoj da albanoj
@@ -1385,6 +1607,12 @@
   </trdgrp>
   <trd lng="de">&uuml;berqueren</trd>
   <trd lng="fr">d&eacute;passer</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8D8A;&#12360;&#x308B;  <pr>&#12371;&#12360;&#x308B;</pr></trd>,
+    <trd>&#x8D85;&#12360;&#x308B;  <pr>&#12371;&#12360;&#x308B;</pr></trd>,
+    <trd>&#x79FB;&#x308B;  <pr>&#12358;&#12388;&#x308B;</pr></trd>,
+    <trd>&#x79FB;&#x884C;&#12377;&#x308B;  <pr>&#12356;&#12371;&#12358;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">przekroczy&cacute;</trd>
   <trd lng="ro">dep&abreve;&#537;i</trd>
   <trdgrp lng="ru">
@@ -1395,7 +1623,7 @@
     <trd>prejs&tcaron;</trd>,
     <trd>prekro&ccaron;i&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&c_h;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="pas.tempo0igilo">
@@ -1405,7 +1633,7 @@
     <dif>
       Amuza&jcirc;o kiu forigas enuon dum senokupo:
       <ekz>
-        kiel tempo<tld/>igilo, la ma&gcirc;ango trovi&gcirc;as en tetrinkejoj, klubejoj 
+        kiel tempo<tld/>igilo, la ma&gcirc;ango trovi&gcirc;as en tetrinkejoj, klubejoj
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=44714">Ma&gcirc;ango</url></lok>
@@ -1439,27 +1667,27 @@
 </art>
 <!--
 $Log$
-versio 1.118 2022/07/06 22:31:22
-Vito Redsky: + trd pl + trd ro 
+versio 1.131 2023/12/12 20:10:25
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.117 2022/05/22 20:32:45
-Ulrich Fellmann: pasigi1: +4 DE trdj; pasigi 2: +1 DE trd
+versio 1.130 2023/10/30 06:32:54
+Eko Nur Syah Hidayat: +trd id
 
-versio 1.116 2022/05/01 17:51:19
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.129 2023/10/20 14:25:20
+revo: transskribo per <pr>
 
-versio 1.114 2021/09/19 15:31:45
-Wolfram Diestel: +~inteco
+versio 1.127 2023/08/29 15:27:34
+Wolfram Diestel: ja: prononco
 
-versio 1.113 2021/08/22 09:30:53
-Sergio Pokrovskij: +TEZ
+versio 1.126 2023/05/08 19:19:48
+Wolfram Diestel: +~o
 
-versio 1.112 2021/08/22 04:39:23
-Sergio Pokrovskij: pas.for0i.FIG
+versio 1.125 2023/05/01 07:25:33
+Paul Peeraerts: Steloj -> monato
 
-versio 1.35 2021/04/13 17:34:54
-Wolfram Diestel: +ref Rubikono
+versio 1.124 2023/04/25 17:27:18
+Wolfram Diestel: +trd de
 
-Revision 1.33  2019/02/22 17:10:16  revo
+versio 1.123 2023/04/24 06:32:38
 -->
 </vortaro>

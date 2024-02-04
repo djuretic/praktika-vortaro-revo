@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kavali.xml,v 1.25 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: kavali.xml,v 1.31 2024/01/17 09:25:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kavalir</rad>/o
@@ -15,7 +15,7 @@
       <ref tip="vid" cel="galant1.0">galanta</ref> kun virinoj;
       <ref tip="vid" cel="gxentl.0o">&gcirc;entlemano</ref>:
       <ekz>
-        li estis ri&ccirc;a <klr>[&#x2026;]</klr> kaj ricevis multe da amikoj, kiuj
+        li estis ri&ccirc;a <klr>[&#8230;]</klr> kaj ricevis multe da amikoj, kiuj
         &ccirc;iuj diris, ke li estas brava homo, vera <tld/>o
         <fnt>
           <bib>Fab1</bib>
@@ -23,7 +23,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        silentu <klr>[&#x2026;]</klr>, la <tld/>o de Klaro venas
+        silentu <klr>[&#8230;]</klr>, la <tld/>o de Klaro venas
         <fnt>
           <bib>IK</bib>
         </fnt>;
@@ -43,6 +43,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_a;&c_v;&c_a;&c_l;&c_je;&c_r;</trd>,
+      <trd>&c_sh;&c_l;&c_ja;&c_h;&c_t;&c_u;&c_n;</trd>
+    </trdgrp>
     <trd lng="de">Kavalier</trd>
   </snc>
   <snc mrk="kavali.0o.HIS">
@@ -58,7 +62,7 @@
     <trd lng="de">Ritter</trd>
     <trd lng="es">caballero <klr>(medieval, ciudadano romano, figura del
     ajedrez)
-    </klr></trd> 
+    </klr></trd>
     <trd lng="fr">chevalier<klr tip="ind"> (romain)</klr></trd>
     <trd lng="hu">lovag</trd>
     <trd lng="pl">ekwita</trd>
@@ -78,8 +82,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;iuj kortegaj sinjorinoj kun siaj servistinoj kaj <klr>[&#x2026;]</klr>
-        &ccirc;iuj <tld/>oj kun siaj servistoj <klr>[&#x2026;]</klr> staris en ordo
+        &ccirc;iuj kortegaj sinjorinoj kun siaj servistinoj kaj <klr>[&#8230;]</klr>
+        &ccirc;iuj <tld/>oj kun siaj servistoj <klr>[&#8230;]</klr> staris en ordo
         <fnt>
           <bib>Fab2</bib>
           <lok>Ne&gcirc;a re&gcirc;ino</lok>
@@ -124,10 +128,11 @@
       <ekz>
         en la 13a jarcento la terlangon okupis germanaj kruc<tld/>oj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Laimius Straznickas</aut>
-          <vrk><url ref="&Steloj;monato2/007273.html">Terlango &#x2010; natura valoro</url></vrk>
-        </fnt>;
+          <aut>Laimius Stra&zcaron;nickas</aut>
+            <vrk><url ref="&Monato;/2001/007273.php">Terlango -- natura valoro</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 21</lok>
+          </fnt>;
       </ekz>
       <ekz>
         en Meza&gcirc;o te&ubreve;tonaj <tld/>oj tiun landon almilitis
@@ -191,57 +196,29 @@
     <trd>kaval&iacute;r</trd>,
     <trd>ryt&iacute;&rcaron;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9A0E;&#x58EB;  <pr>&#x304D;&#12375;</pr></trd>,
+    <trd>&#x30CA;&#x30A4;&#x30C8;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>gavalier</trd>,
     <trd>rytier</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x438;&#x446;&#x430;&#x440;</trd>,
-    <trd>&#x440;&#x438;&#x446;&#x430;&#x440;</trd>,
-    <trd>&#x43A;&#x430;&#x432;&#x430;&#x43B;&#x435;&#x440;</trd>,
-    <trd>&#x43A;&#x456;&#x43D;&#x44C;</trd>
+    <trd>&#x43B;&c_i;&c_c;&c_a;&c_r;</trd>,
+    <trd>&c_r;&c_i;&c_c;&c_a;&c_r;</trd>,
+    <trd>&#x43A;&c_a;&c_v;&c_a;&#x43B;&c_je;&c_r;</trd>,
+    <trd>&#x43A;&c_ib;&#x43D;&#x44C;</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="kavali.0eco">
-  <kap><tld/>eco</kap>
-    <snc mrk="kavali.0eco.karaktero">
-    <dif>
-      Karaktero konvena al <tld/>o:
-      <ekz>
-        mi konfidas al via <tld/>eco
-        <fnt>
-          <bib>FK</bib>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">Ritterlichkeit</trd>
-    <trd lng="hu">lovagiass&aacute;g</trd>
-  </snc>
-  <snc mrk="kavali.0eco.militista">
-    <dif>
-      Militista institucio, kun religia kaj heroa karaktero,
-      starigita &ccirc;e la fe&ubreve;da nobelaro, kaj trudanta al siaj
-      anoj maltimon anta&ubreve; la dan&gcirc;ero, lojalecon,
-      protektadon al malfortuloj kaj &gcirc;entilecon al virinoj.
-    </dif>
-    <trd lng="hu">lovagrend</trd>
-  </snc>
-  <trd lng="be">&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_a;</trd>
-  <trd lng="br">marc'hegiezh</trd>
-    <trdgrp lng="en">
-      <trd>knighthood</trd>,
-      <trd>chivalry</trd>
-    </trdgrp>
-  <trd lng="es">caballer&iacute;a <klr>(orden militar/religiosa o
-  t&iacute;tulo)</klr></trd> 
-  <trd lng="fr">chevalerie</trd>
-  <trd lng="pl">rycerstwo</trd>
-  <trd lng="ru">&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
-  <trdgrp lng="uk">
-    <trd>&#x43B;&#x438;&#x446;&#x430;&#x440;&#x441;&#x442;&#x432;&#x43E;</trd>,
-    <trd>&#x440;&#x438;&#x446;&#x430;&#x440;&#x441;&#x442;&#x432;&#x43E;</trd>,
-    <trd>&#x448;&#x43B;&#x44F;&#x445;&#x435;&#x442;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9A0E;&#x58EB; <pr>q&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#22823;&#x4FA0; <pr>d&#xE0;xi&#xE1;</pr></trd>,
+    <trd>&#x8DF3;&#x8FDC;&#x8FD0;&#x52A8;&#21592;
+    <pr>ti&#xE0;oyu&#x1CE;ny&#xF9;nd&#xF2;ngyu&#xE1;n</pr></trd>,
+    <trd>&#x8DF3;&#x9AD8;&#x8FD0;&#x52A8;&#21592; <pr>ti&#xE0;og&amacron;oy&#xF9;nd&#xF2;ngyu&#xE1;n</pr></trd>,
+    <trd>&#x4FA0;&#x58EB; <pr>xi&#xE1;sh&#xEC;</pr></trd>,
+    <trd>&#x4FA0;&#x5BA2; <pr>xi&#xE1;k&#xE8;</pr></trd>,
+    <trd>&#x6E38;&#x4FA0; <pr>y&#xF3;uxi&#xE1;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -296,12 +273,46 @@
     </trd>
   </trdgrp>
   <trd lng="hu">lovagi</trd>
+  <trd lng="ja">&#x9A0E;&#x58EB;&#x306E;  <pr>&#x304D;&#12375;&#x306E;</pr></trd>
   <trd lng="pl">rycerski</trd>
   <trd lng="ru">&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x438;&#x446;&#x430;&#x440;&#x441;&#x44C;&#x43A;&#x438;&#x439;</trd>,
-    <trd>&#x440;&#x438;&#x446;&#x430;&#x440;&#x441;&#x44C;&#x43A;&#x438;&#x439;</trd>
+    <trd>&#x43B;&c_i;&c_c;&c_a;&c_r;&c_s;&#x44C;&#x43A;&c_i;&c_j;</trd>,
+    <trd>&c_r;&c_i;&c_c;&c_a;&c_r;&c_s;&#x44C;&#x43A;&c_i;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4FA0; <pr>xi&#xE1;</pr></trd>,
+    <trd>&#x4FA0;&#x5BA2; <pr>xi&#xE1;k&#xE8;</pr></trd>,
+    <trd>&#x4EFB;&#x4FA0; <pr>r&#xE8;nxi&#xE1;</pr></trd>,
+    <trd>&#x77EB;&#x77EB; <pr>ji&#x1CE;oji&#x1CE;o</pr></trd>,
+    <trd>&#x82F1;&#x52C7; <pr>y&#x12B;ngy&#x1D2;ng</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kavali.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="kavali.0ajxo.insigno">
+    <uzo tip="stl">ARK</uzo>
+    <dif>
+      Insigno de <tld/>o, <ref tip="dif" cel="orden.0o.insigno">ordeno</ref>,
+      <ref cel="skarp.0o.insigno">skarpo</ref>:
+      <ekz>
+        <tld/>a&jcirc;on oni metas al vi trans la &scirc;ultron <klr>[&#8230;]</klr>
+        kia <tld/>a&jcirc;o estas preferinda, <nom>Anna Andrejevna</nom>, ru&gcirc;a
+        a&ubreve; blua
+        <fnt><bib>Revizoro</bib><lok>5:1</lok></fnt>?
+      </ekz>
+    </dif>
+    <trdgrp lng="en">
+      <trd>gallant act</trd>,
+      <trd>gallant deed</trd>
+    </trdgrp>
+    <trd lng="fr">acte de <ind>chevalerie</ind></trd>
+    <trd lng="hu">lovagi fokozat
+    <klr tip="ind">(kit&uuml;ntet&eacute;s&eacute;)</klr></trd>
+  </snc>
+  <trd lng="ja">&#x9A0E;&#x58EB;&#36947;&#30340;&#x884C;&#x52D5;  <pr>&#x304D;&#12375;&#12393;&#12358;&#12390;&#x304D;&#12371;&#12358;&#12393;&#12358;</pr></trd>
+  <trd lng="uk">&#x43B;&c_i;&c_c;&c_a;&c_r;&c_s;&#x44C;&#x43A;&c_i;&c_j; &c_v;&c_ch;&c_i;&#x43D;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="kavali.0eca">
@@ -323,7 +334,10 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_k;&c_ib;</trd>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_k;&c_ib;</trd>,
+    <trd>&c_sh;&c_l;&c_ja;&c_h;&c_je;&c_t;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="br">-<ind>marc'heg</ind></trd>
   <trdgrp lng="cs">
     <trd>kaval&iacute;rsk&yacute;</trd>,
@@ -338,6 +352,12 @@
   <trd lng="fr">chevaleresque<klr tip="ind"> (digne d'un chevalier)
   </klr></trd>
   <trd lng="hu">lovagias</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9A0E;&#x58EB;&#x306B;&#12405;&#12373;&#x308F;&#12375;&#12356;  <pr>&#x304D;&#12375;&#x306B;&#12405;&#12373;&#x308F;&#12375;&#12356;</pr></trd>,
+    <trd>&#x9A0E;&#x58EB;&#36947;&#x306B;&#x304B;&#x306A;&#12387;&#x305F;
+    <pr>&#x304D;&#12375;&#12393;&#12358;&#x306B;&#x304B;&#x306A;&#12387;&#x305F;</pr></trd>,
+    <trd>&#x7FA9;&#x4FA0;&#x5FC3;&#x306B;&#x5BCC;&#12435;&#12384;  <pr>&#x304E;&#x304D;&#12423;&#12358;&#12375;&#12435;&#x306B;&#12392;&#12435;&#12384;</pr></trd>
+  </trdgrp>
   <trd lng="pl">rycerski</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>,
@@ -350,35 +370,77 @@
     <trd>rytiersky</trd>,
     <trd>ve&lcaron;komyse&lcaron;n&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4FA0;&#x4E49; <pr>xi&#xE1;y&#xEC;</pr></trd>,
+    <trd>&#x4FA0; <pr>xi&#xE1;</pr></trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="kavali.0ajxo">
-  <kap><tld/>a&jcirc;o</kap>
-  <snc mrk="kavali.0ajxo.insigno">
-    <uzo tip="stl">ARK</uzo>
+<drv mrk="kavali.0eco">
+  <kap><tld/>eco</kap>
+    <snc mrk="kavali.0eco.karaktero">
     <dif>
-      Insigno de <tld/>o, <ref tip="dif" cel="orden.0o.insigno">ordeno</ref>,
-      <ref cel="skarp.0o.insigno">skarpo</ref>:
+      Karaktero konvena al <tld/>o:
       <ekz>
-        <tld/>a&jcirc;on oni metas al vi trans la &scirc;ultron <klr>[&#x2026;]</klr> 
-        kia <tld/>a&jcirc;o estas preferinda, <nom>Anna Andrejevna</nom>, ru&gcirc;a
-        a&ubreve; blua
-        <fnt><bib>Revizoro</bib><lok>5:1</lok></fnt>?
+        mi konfidas al via <tld/>eco
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="en">
-      <trd>gallant act</trd>,
-      <trd>gallant deed</trd>
-    </trdgrp>
-    <trd lng="fr">acte de <ind>chevalerie</ind></trd>
-    <trd lng="hu">lovagi fokozat
-    <klr tip="ind">(kit&uuml;ntet&eacute;s&eacute;)</klr></trd>
+    <trd lng="de">Ritterlichkeit</trd>
+    <trd lng="hu">lovagiass&aacute;g</trd>
   </snc>
-  <trd lng="uk">&#x43B;&#x438;&#x446;&#x430;&#x440;&#x441;&#x44C;&#x43A;&#x438;&#x439; &#x432;&#x447;&#x438;&#x43D;&#x43E;&#x43A;</trd>
+  <snc mrk="kavali.0eco.militista">
+    <dif>
+      Militista institucio, kun religia kaj heroa karaktero,
+      starigita &ccirc;e la fe&ubreve;da nobelaro, kaj trudanta al siaj
+      anoj maltimon anta&ubreve; la dan&gcirc;ero, lojalecon,
+      protektadon al malfortuloj kaj &gcirc;entilecon al virinoj.
+    </dif>
+    <trd lng="hu">lovagrend</trd>
+  </snc>
+  <trd lng="be">&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_a;</trd>
+  <trd lng="br">marc'hegiezh</trd>
+    <trdgrp lng="en">
+      <trd>knighthood</trd>,
+      <trd>chivalry</trd>
+    </trdgrp>
+  <trd lng="es">caballer&iacute;a <klr>(orden militar/religiosa o
+  t&iacute;tulo)</klr></trd>
+  <trd lng="fr">chevalerie</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9A0E;&#x58EB;&#x306E;&#x8EAB;&#20998;  <pr>&#x304D;&#12375;&#x306E;&#x307F;&#12406;&#12435;</pr></trd>,
+    <trd>&#x9A0E;&#x58EB;&#36947;  <pr>&#x304D;&#12375;&#12393;&#12358;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">rycerstwo</trd>
+  <trd lng="ru">&c_r;&c_y;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trdgrp lng="uk">
+    <trd>&#x43B;&c_i;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&#x43E;</trd>,
+    <trd>&c_r;&c_i;&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&#x43E;</trd>,
+    <trd>&c_sh;&#x43B;&#x44F;&c_h;&c_je;&c_t;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4FA0;&#x4E49; <pr>xi&#xE1;y&#xEC;</pr></trd>,
+    <trd>&#x4FA0;&#x6C14; <pr>xi&#xE1;q&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
+
 </art>
 <!--
 $Log$
+versio 1.31 2024/01/17 09:25:18
+Dmitri Gabinski: + trd be
+
+versio 1.29 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.28 2023/09/12 16:31:30
+Wolfram Diestel: pr. ja; drv-ordo
+
+versio 1.26 2023/04/30 14:25:44
+Paul Peeraerts: Steloj -> monato
+
 versio 1.25 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -389,17 +451,5 @@ versio 1.22 2020/03/05 20:10:17
 Wolfram Diestel: kor. ref-cel
 
 Revision 1.21  2020/03/03 08:10:20  revo
-Wolfram Diestel: iom da ordigo
-
-Revision 1.20  2020/02/03 10:10:30  revo
-Wolfram Diestel: aldonis ekz-ojn
-
-Revision 1.19  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2013/04/15 11:10:31  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: intere.xml,v 1.107 2022/11/06 12:50:43 revo Exp $">
+<art mrk="$Id: intere.xml,v 1.115 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>interes</rad>/i <fnt><bib>PV</bib></fnt>
@@ -148,6 +148,7 @@
       </dif>
     <trd lng="de">k&uuml;mmern</trd>
     </subsnc>
+    <trd lng="id">ter<ind>tarik</ind></trd>
     <trdgrp lng="pl">
       <trd>interesowa&cacute;</trd>,
       <trd>zaciekawia&cacute;</trd>,
@@ -178,6 +179,11 @@
     <trd lng="de">beteiligen</trd>
     <trd lng="pl">interesowa&cacute;</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_ib;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_n;&c_ib;&c_m;&c_a;&c_c;&c_mol; <ind>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>,
+    <trd>&c_p;&c_r;&c_a;&c_d;&c_s;&c_t;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_ib;&c_n;&c_t;&c_a;&c_r;&c_e;&c_s;</ind></trd>
+  </trdgrp>
   <trd lng="cs">zaj&iacute;mat</trd>
   <trd lng="en">interest</trd>
   <trd lng="es">interesar</trd>
@@ -196,6 +202,14 @@
     <trd>&eacute;rdekli</trd>,
     <trd>&eacute;rdekelt <klr tip="amb">(vmiben)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8208;&#x5473;&#x3092;&#x3072;&#x304F;  <pr>&#x304D;&#x3087;&#x3046;&#x307F;&#x3092;&#x3072;&#x304F;</pr></trd>,
+    <trd>&#x95A2;&#x5FC3;&#x3092;&#x6301;&#x305F;&#x305B;&#x308B; 
+    <pr>&#x304B;&#x3093;&#x3057;&#x3093;&#x3092;&#x3082;&#x305F;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x95A2;&#x4FC2;&#x3055;&#x305B;&#x308B;  <pr>&#x304B;&#x3093;&#x3051;&#x3044;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5229;&#x5BB3;&#x95A2;&#x4FC2;&#x304C;&#x3042;&#x308B; 
+    <pr>&#x308A;&#x304C;&#x3044;&#x304B;&#x3093;&#x3051;&#x3044;&#x304C;&#x3042;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">interesseren</trd>
   <trd lng="pt">interessar</trd>
   <trd lng="ru">
@@ -210,6 +224,7 @@
     <trd>&c_v;&c_i;&c_k;&c_l;&c_i;&c_k;&c_a;&c_t;&c_i; &c_ib;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;</trd>,
     <trd>(&c_p;&c_r;&c_i; &c_z;&c_a;&c_p;&c_je;&c_r;&c_je;&c_ch;&c_je;&c_n;&c_n;&c_ib; &c_shch;&c_je;) &c_o;&c_b;&c_h;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x5174;&#x81F4; <pr>x&#xEC;ngzh&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="intere.0o">
@@ -218,7 +233,7 @@
     <dif>
       Eco de tio, kio
     </dif>
-    <subsnc>
+    <subsnc mrk="intere.0o.scivolo">
       <dif>
         <tld/>as <sncref ref="intere.0i.per_scivolo"/>:
         <ekz>
@@ -233,14 +248,14 @@
         </ekz>
       </dif>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="intere.0o.partopreno">
       <dif>
         <tld/>as <sncref ref="intere.0i.pro_graveco"/>:
         <ekz>
           tio estas sen <tld/>o por mia decido;
         </ekz>
         <ekz>
-          &scirc;i pensis pri <klr>[&#8230;]</klr> juna gefian&ccirc;a paro, kiu havis por &scirc;i tre grandan
+          &scirc;i pensis pri <klr>[&#x2026;]</klr> juna gefian&ccirc;a paro, kiu havis por &scirc;i tre grandan
           <tld/>on, &ccirc;ar &scirc;i mem ja estis duono de tiu paro
           <fnt>
             <bib>Fab3</bib>
@@ -264,16 +279,25 @@
         </ekz>
       </dif>
     </subsnc>
+    <trdgrp lng="be">
+      <trd>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+      <trd>&c_ib;&c_n;&c_t;&c_a;&c_r;&c_e;&c_s;</trd>,
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd>minat</trd>,
+      <trd>keter<ind>tarik</ind>an</trd>,
+      <trd>ke<ind>penting</ind>an</trd>
+    </trdgrp>
   </snc>
   <snc mrk="intere.0o.sento">
     <dif>
       Sento de tiu, kiu estas
     </dif>
-    <subsnc>
+    <subsnc mrk="intere.0o.atento">
       <dif>
         <tld/>ata <sncref ref="intere.0i.per_scivolo"/>:
         <ekz>
-          la legendo <klr>[&#8230;]</klr> estis vo&ccirc;legita <klr>[kaj]</klr> &ccirc;iuj a&ubreve;skultis kun
+          la legendo <klr>[&#x2026;]</klr> estis vo&ccirc;legita <klr>[kaj]</klr> &ccirc;iuj a&ubreve;skultis kun
           stre&ccirc;ita atento kaj <tld/>o
           <fnt>
             <bib>Fab3</bib>
@@ -291,7 +315,8 @@
           lando
           <fnt>
             <bib>Paroloj</bib>
-            <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en la 28a de a&ubreve;gusto 1906</vrk>
+            <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en la 28a de a&ubreve;gusto
+            1906</vrk>
           </fnt>;
         </ekz>
         <ekz>
@@ -303,7 +328,7 @@
         </ekz>
       </dif>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="intere.0o.intenco">
       <dif>
         <tld/>ata <sncref ref="intere.0i.pro_graveco"/>:
         <ekz>
@@ -325,7 +350,7 @@
         </ekz>
       </dif>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="intere.0o.bonvolo">
       <dif>
         <tld/>ata <sncref ref="intere.0i.per_bonfaremo"/>:
         <ekz>
@@ -342,6 +367,11 @@
       </dif>
     </subsnc>
     <ref tip="sin" cel="intere.0igxo"><tld/>i&gcirc;o</ref>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_ib;&c_n;&c_t;&c_a;&c_r;&c_e;&c_s;</trd>,
+    <trd>&c_z;&c_a;&c_c;&c_ib;&c_k;&c_a;&c_w;&c_l;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
     <trdgrp lng="pl">
       <trd>zainteresowanie</trd>,
       <trd>zaciekawienie</trd>
@@ -385,7 +415,7 @@
         <fnt><bib>Lanti</bib><lok>Kio estas bur&gcirc;o?</lok></fnt>;
       </ekz>
       <ekz>
-        <nom>Volter</nom> opiniis necesa la kredon je dio, <klr>[sed tio]</klr> 
+        <nom>Volter</nom> opiniis necesa la kredon je dio, <klr>[sed tio]</klr>
         eble estis nur simpla klasa <tld/>o de ri&ccirc;ulo, kiu volas certigi al si la posedon
         <fnt>
           <bib>Kandid</bib>
@@ -410,13 +440,17 @@
       <ref cel="vol.0o">volo</ref>,
       <ref cel="zorg.0o.peno">zorgo<sncref/></ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_ib;&c_n;&c_t;&c_a;&c_r;&c_e;&c_s;</trd>,
+      <trd>&c_k;&c_a;&c_r;&c_y;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    </trdgrp>
     <trd lng="pl">interes</trd>
   </snc>
   <trd lng="af">belangstelling</trd>
-  <trd lng="am">&#4941;&#4619;&#4878;&#4725;</trd>
+  <trd lng="am">&#x134D;&#x120B;&#x130E;&#x1275;</trd>
   <trd lng="ar">&a_m;&a_S;&a_l;&a_H;&a_t_marbuta;</trd>
   <trd lng="az">faiz</trd>
-  <trd lng="bn">&#2488;&#2497;&#2470;</trd>
+  <trd lng="bn">&#x9B8;&#x9C1;&#x9A6;</trd>
   <trd lng="bs">interesa</trd>
   <trd lng="co">intaressu</trd>
   <trd lng="cs">interes</trd>
@@ -443,9 +477,9 @@
   <trd lng="ga">&uacute;s</trd>
   <trd lng="gd">&ugrave;idh</trd>
   <trd lng="gl">interese</trd>
-  <trd lng="gu">&#2736;&#2744;</trd>
+  <trd lng="gu">&#xAB0;&#xAB8;</trd>
   <trd lng="ha">amfani</trd>
-  <trd lng="hi">&#2348;&#2381;&#2351;&#2366;&#2332;</trd>
+  <trd lng="hi">&#x92C;&#x94D;&#x92F;&#x93E;&#x91C;</trd>
   <trd lng="hmn">paj</trd>
   <trd lng="hr">interes</trd>
   <trd lng="ht">enter&egrave;</trd>
@@ -454,43 +488,43 @@
     <trd>&eacute;rdekel&odblac;d&eacute;s</trd>,
     <trd>&eacute;rdekelts&eacute;g</trd>
   </trdgrp>
-  <trd lng="hy">&#1392;&#1381;&#1407;&#1377;&#1412;&#1408;&#1412;&#1408;&#1400;&#1410;&#1385;&#1397;&#1400;&#1410;&#1398;</trd>
-  <trd lng="ig">mmas&#7883;</trd>
+  <trd lng="hy">&#x570;&#x565;&#x57F;&#x561;&#x584;&#x580;&#x584;&#x580;&#x578;&#x582;&#x569;&#x575;&#x578;&#x582;&#x576;</trd>
+  <trd lng="ig">mmas&#x1ECB;</trd>
   <trd lng="is">vextir</trd>
-  <trd lng="ja">&#38306;&#24515;</trd>
+  <trd lng="ja">&#x95A2;&#x5FC3; <pr>&#x304B;&#x3093;&#x3057;&#x3093;</pr></trd>
   <trd lng="jv">kapentingan</trd>
-  <trd lng="ka">&#4312;&#4316;&#4322;&#4308;&#4320;&#4308;&#4321;&#4312;</trd>
-  <trd lng="kk">&#1179;&c_y;&c_z;&c_y;&#1171;&c_u;&c_sh;&c_y;&c_l;&c_y;&#1179;</trd>
-  <trd lng="km">&#6016;&#6070;&#6042;&#6036;&#6098;&#6042;&#6070;&#6016;&#6091;</trd>
-  <trd lng="kn">&#3206;&#3256;&#3221;&#3277;&#3236;&#3263;</trd>
-  <trd lng="ko">&#44288;&#49900;</trd>
+  <trd lng="ka">&#x10D8;&#x10DC;&#x10E2;&#x10D4;&#x10E0;&#x10D4;&#x10E1;&#x10D8;</trd>
+  <trd lng="kk">&#x49B;&c_y;&c_z;&c_y;&#x493;&c_u;&c_sh;&c_y;&c_l;&c_y;&#x49B;</trd>
+  <trd lng="km">&#x1780;&#x17B6;&#x179A;&#x1794;&#x17D2;&#x179A;&#x17B6;&#x1780;&#x17CB;</trd>
+  <trd lng="kn">&#xC86;&#xCB8;&#xC95;&#xCCD;&#xCA4;&#xCBF;</trd>
+  <trd lng="ko">&#xAD00;&#xC2EC;</trd>
   <trd lng="ku">zem</trd>
   <trd lng="ky">&c_p;&c_a;&c_j;&c_y;&c_z;&c_d;&c_y;&c_k;</trd>
-  <trd lng="lo">&#3745;&#3765;&#3716;&#3751;&#3762;&#3745;&#3754;&#3771;&#3737;&#3779;&#3720;</trd>
-  <trd lng="lt">pal&#363;kanos</trd>
+  <trd lng="lo">&#xEA1;&#xEB5;&#xE84;&#xEA7;&#xEB2;&#xEA1;&#xEAA;&#xEBB;&#xE99;&#xEC3;&#xE88;</trd>
+  <trd lng="lt">pal&#x163B;kanos</trd>
   <trd lng="lv">procenti</trd>
   <trd lng="mg">mahaliana</trd>
-  <trd lng="mi">p&#257;nga</trd>
+  <trd lng="mi">p&#x15D1;nga</trd>
   <trd lng="mk">&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;</trd>
-  <trd lng="ml">&#3370;&#3378;&#3391;&#3382;</trd>
-  <trd lng="mn">&c_h;&#1199;&#1199;</trd>
-  <trd lng="mr">&#2357;&#2381;&#2351;&#2366;&#2332;</trd>
+  <trd lng="ml">&#xD2A;&#xD32;&#xD3F;&#xD36;</trd>
+  <trd lng="mn">&c_h;&#x4AF;&#x4AF;</trd>
+  <trd lng="mr">&#x935;&#x94D;&#x92F;&#x93E;&#x91C;</trd>
   <trd lng="ms">kepentingan</trd>
   <trd lng="mt">interess</trd>
-  <trd lng="my">&#4125;&#4139;&#4126;&#4116;&#4140;</trd>
-  <trd lng="ne">&#2330;&#2366;&#2360;&#2379;</trd>
+  <trd lng="my">&#x101D;&#x102B;&#x101E;&#x1014;&#x102C;</trd>
+  <trd lng="ne">&#x91A;&#x93E;&#x938;&#x94B;</trd>
   <trdgrp lng="nl">
     <trd>belang</trd>,
     <trd>belangstelling</trd>
   </trdgrp>
   <trd lng="ny">chidwi</trd>
-  <trd lng="pa">&#2613;&#2623;&#2566;&#2588;</trd>
-  <trd lng="ps">&#1707;&#1660;&a_h;</trd>
+  <trd lng="pa">&#xA35;&#xA3F;&#xA06;&#xA1C;</trd>
+  <trd lng="ps">&#x6AB;&#x67C;&a_h;</trd>
   <trd lng="pt">interesse</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;</trd>
   <trd lng="rw">inyungu</trd>
   <trd lng="sd">&a_f;&a_A;&a_y_hamza;&a_d;&a_y;</trd>
-  <trd lng="si">&#3508;&#3548;&#3517;&#3539;</trd>
+  <trd lng="si">&#xDB4;&#xDDC;&#xDBD;&#xDD3;</trd>
   <trd lng="sk">interes</trd>
   <trd lng="sl">obresti</trd>
   <trd lng="sm">tului</trd>
@@ -500,10 +534,10 @@
   <trd lng="st">thahasello</trd>
   <trd lng="su">bunga</trd>
   <trd lng="sw">maslahi</trd>
-  <trd lng="ta">&#2997;&#2975;&#3021;&#2975;&#3007;</trd>
-  <trd lng="te">&#3125;&#3105;&#3149;&#3105;&#3136;</trd>
+  <trd lng="ta">&#xBB5;&#xB9F;&#xBCD;&#xB9F;&#xBBF;</trd>
+  <trd lng="te">&#xC35;&#xC21;&#xC4D;&#xC21;&#xC40;</trd>
   <trd lng="tg">&c_m;&c_a;&c_n;&c_f;&c_i;&c_a;&c_t;</trd>
-  <trd lng="th">&#3607;&#3637;&#3656;&#3609;&#3656;&#3634;&#3626;&#3609;&#3651;&#3592;</trd>
+  <trd lng="th">&#xE17;&#xE35;&#xE48;&#xE19;&#xE48;&#xE32;&#xE2A;&#xE19;&#xE43;&#xE08;</trd>
   <trd lng="tl">interes</trd>
   <trd lng="tt">&c_k;&c_y;&c_z;&c_y;&c_k;&c_s;&c_y;&c_n;&c_u;</trd>
   <trd lng="uk">&c_ib;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;</trd>
@@ -513,6 +547,15 @@
   <trd lng="xh">umdla</trd>
   <trd lng="yi">&alef;&yod;&nun;&tet;&ayin;&resh;&ayin;&samekh;</trd>
   <trd lng="yo">anfani</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5229;&#x76CA; <pr>l&#xEC;y&#xEC;</pr></trd>,
+    <trd>&#x5174; <pr>x&#xEC;ng</pr></trd>,
+    <trd>&#x5174;&#x8DA3; <pr>x&#xEC;ngq&#xF9;</pr></trd>,
+    <trd>&#x5174;&#x81F4; <pr>x&#xEC;ngzh&#xEC;</pr></trd>,
+    <trd>&#x8DA3;&#x5473; <pr>q&#xF9;w&#xE8;i</pr></trd>,
+    <trd>&#x5229;&#x5BB3;&#x5173;&#x7CFB; <pr>l&#xEC;h&#xE0;igu&#x101;nx&#xEC;</pr></trd>,
+    <trd>&#x5174;&#x5473; <pr>x&#xEC;ngw&#xE8;i</pr></trd>
+  </trdgrp>
   <trd lng="zu">isithakazelo</trd>
   <adm>
      Pro la reverkado mi devis grupigi la tradukojn hu, nl, de
@@ -527,7 +570,7 @@
     <dif>
       <tld lit="I"/>anta:
       <ekz>
-        &ccirc;i tiu malofta&jcirc;a folio <klr>[&#8230;]</klr> estas tre <tld/>a, kvankam &gcirc;i estas nur
+        &ccirc;i tiu malofta&jcirc;a folio <klr>[&#x2026;]</klr> estas tre <tld/>a, kvankam &gcirc;i estas nur
         fabelo
         <fnt>
           <bib>Fab1</bib>
@@ -564,7 +607,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        e&ccirc; se &scirc;i ne pla&ccirc;is al li, &scirc;i tamen estis pli <tld/>a ol la aliaj homoj 
+        e&ccirc; se &scirc;i ne pla&ccirc;is al li, &scirc;i tamen estis pli <tld/>a ol la aliaj homoj
         <fnt>
           <bib>HsT</bib>
           <lok>La nepo</lok>
@@ -581,12 +624,20 @@
       <ref cel="spic.0a.FIG">spica<sncref/></ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_c;&c_ib;&c_k;&c_a;&c_v;&c_y;</trd>
   <trd lng="bo">&t_sa;&t_nyata;&t_na;&t_tsheg;&t_pa;&t_naro;&t_tsheg;</trd>
   <trd lng="cs">zaj&iacute;mav&yacute;</trd>
   <trd lng="de">interessant</trd>
   <trd lng="es">interesante</trd>
   <trd lng="fr">int&eacute;ressant</trd>
   <trd lng="hu">&eacute;rdekes</trd>
+  <trd lng="id"><baz>tarik</baz>menarik</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8208;&#x5473;&#x6DF1;&#x3044;  <pr>&#x304D;&#x3087;&#x3046;&#x307F;&#x3076;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x304A;&#x3082;&#x3057;&#x308D;&#x3044;</trd>,
+    <trd>&#x95A2;&#x4FC2;&#x306E;&#x3042;&#x308B;  <pr>&#x304B;&#x3093;&#x3051;&#x3044;&#x306E;&#x3042;&#x308B;</pr></trd>,
+    <trd>&#x305F;&#x3081;&#x306B;&#x306A;&#x308B;</trd>
+  </trdgrp>
   <trd lng="nl">interessant</trd>
   <trdgrp lng="pl">
     <trd>interesuj&aogonek;cy</trd>,
@@ -600,6 +651,12 @@
   <trdgrp lng="uk">
     <trd>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_i;&c_j;</trd>,
     <trd>&c_ib;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8DA3; <pr>q&#xF9;</pr></trd>,
+    <trd>&#x6709;&#x5174;&#x8DA3; <pr>y&#x1D2;ux&#xEC;ngq&#xF9;</pr></trd>,
+    <trd>&#x6709;&#x8DA3; <pr>y&#x1D2;uq&#xF9;</pr></trd>,
+    <trd>&#x8DA3;&#x5473; <pr>q&#xF9;w&#xE8;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -621,11 +678,11 @@
         estis <tld/>ege vidi la rapidan dismembri&gcirc;on
         <fnt>
           <bib>KrM</bib>
-          <lok>16. Malsa&gcirc;uloj Kreskas Mem, Sen Plugo Kaj Sem&#8217;</lok>
+          <lok>16. Malsa&gcirc;uloj Kreskas Mem, Sen Plugo Kaj Sem&#x2019;</lok>
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;iuj esprimis <klr>[&#8230;]</klr> kore dankis la princidon pro lia <tld/>ega parolado
+        &ccirc;iuj esprimis <klr>[&#x2026;]</klr> kore dankis la princidon pro lia <tld/>ega parolado
         <fnt>
           <bib>MrA</bib>
           <lok>&Ccirc;apitro VII</lok>
@@ -633,17 +690,31 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_h;&c_a;&c_p;&c_l;&c_ja;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_y;&c_m;&c_a;&c_c;&c_mol; &c_m;&c_o;&c_c;&c_n;&c_y; <ind>&c_ib;&c_n;&c_t;&c_a;&c_r;&c_e;&c_s;</ind></trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>apasionar</trd>,
     <trd>cautivar</trd>,
     <trd>fascinar</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>passionner<klr tip="ind"> (captiver)</klr></trd>,
     <trd>captiver<klr tip="ind"> (passionner)</klr></trd>,
     <trd>fasciner<klr tip="ind"> (passionner)</klr></trd>
   </trdgrp>
   <trd lng="hu">roppant <ind>&eacute;rdekli</ind></trd>
+  <trdgrp lng="id">
+    <trd>meng<ind>gairah</ind>kan</trd>
+    <trd><baz>pesona</baz>memesona</trd>,
+    <trd><baz>pikat</baz>memikat</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8208;&#x5473;&#x3092;&#x304B;&#x304D;&#x305F;&#x3066;&#x308B; 
+    <pr>&#x304D;&#x3087;&#x3046;&#x307F;&#x3092;&#x304B;&#x304D;&#x305F;&#x3066;&#x308B;</pr></trd>,
+    <trd>&#x308F;&#x304F;&#x308F;&#x304F;&#x3055;&#x305B;&#x308B;</trd>
+  </trdgrp>
   <trd lng="nl">belang inboezemen</trd>
   <trdgrp lng="pl">
     <trd>pasjonowa&cacute; si&eogonek;</trd>,
@@ -656,6 +727,10 @@
   &c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_o;&c_v;&c_a;&c_t;&c_mol;)
   </klr>
   </trd>
+  <trdgrp lng="zh">
+    <trd>&#x591A;&#x60C5; <pr>du&#x14D;q&#xED;ng</pr></trd>,
+    <trd>&#x8FF7;&#x4F4F; <pr>m&#xED;zhu</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="intere.0igi">
@@ -691,12 +766,11 @@
       </ekz>
     </dif>
     <rim>
-      La sendiferenco disde
-      "<tld/>i <sncref ref="intere.0i.tenadi_atenton"/>"
-      estas apena&ubreve; perceptebla, kio riskas sugesti,
-      ke <ctl><tld/>i</ctl> estas netransitiva. Eble tial
-      &ccirc;i tiu formo mankas en PIV.
+      &Ccirc;e &leftquot;<tld/>i&rightquot; la subjekto estas la ka&ubreve;zo <em>kaj</em> la celo de intereso,
+      sed &ccirc;e &leftquot;<tld/>igi&rightquot; la subjekto estas nur &gcirc;ia ka&ubreve;zo dum la celon oni
+      indikas per la prepozicio &leftquot;pri&rightquot;. Do temas &ccirc;i tie pri <em>tri</em>-argumenta rilato.
     </rim>
+    <trd lng="de"><ind>Interesse</ind> wecken <klr>(f&uuml;r etwas)</klr></trd>
     <trdgrp lng="fr">
       <trd>susciter l'<ind>int&eacute;r&ecirc;t</ind></trd>,
       <trd>int&eacute;resser<klr tip="ind"> (faire s'int&eacute;resser)
@@ -726,12 +800,22 @@
       Mi dubas, cxu ~igi sola havas la montritan signifon.
       <aut>MB</aut>
     </adm>
+    <trd lng="be">&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <ind>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_y;&c_m;</ind></trd>
     <trd lng="hu">&eacute;rdekess&eacute; tesz</trd>
     <trd lng="nl">interessant maken</trd>
     <trd lng="pl">uatrakcyjnia&cacute;</trd>
     <trd lng="ru">&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_n;&c_y;&c_m;</ind>
     </trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6709;&#x5173; <pr>y&#x1D2;ugu&#x101;n</pr></trd>,
+    <trd>&#x5173;&#x7CFB; <pr>gu&#x101;nxi</pr></trd>,
+    <trd>&#x5174;&#x81F4; <pr>x&#xEC;ngzh&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="ja">
+    <trd>&#x304A;&#x3082;&#x3057;&#x308D;&#x304F;&#x3059;&#x308B;</trd>,
+    <trd>&#x95A2;&#x5FC3;&#x3092;&#x6301;&#x3064;&#x3088;&#x3046;&#x4ED5;&#x5411;&#x3051;&#x308B;  <pr>&#x304B;&#x3093;&#x3057;&#x3093;&#x3092;&#x3082;&#x3064;&#x3088;&#x3046;&#x3057;&#x3080;&#x3051;&#x308B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="intere.0igxisin0i">
@@ -774,6 +858,10 @@
       </fnt>.
     </ekz>
     <ref tip="vid" cel="sekv.0i">sekvi</ref>
+    <trdgrp lng="be">
+      <trd>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a;</trd>,
+      <trd>&c_s;&c_a;&c_ch;&c_y;&c_c;&c_mol;</trd>
+    </trdgrp>
     <trd lng="nl">zich <ind>interesseren</ind> voor</trd>
     <trdgrp lng="pl">
       <trd>interesowa&cacute; si&eogonek;</trd>,
@@ -784,7 +872,7 @@
   <snc ref="intere.0i.per_bonfaremo">
     <ekz>
       vi amas kaj persekutas iun junan personon, kiu estas mia filino, kaj pri kiu mi
-      <tld/>i&gcirc;as tiel same, kiel pri <klr>[&#8230;]</klr> mia bofilo
+      <tld/>i&gcirc;as tiel same, kiel pri <klr>[&#x2026;]</klr> mia bofilo
       <fnt>
         <bib>GDn</bib>
         <lok>Akto Unua</lok>
@@ -804,6 +892,7 @@
         <lok>&Ccirc;apitro Kvina</lok>
       </fnt>.
     </ekz>
+    <trd lng="be">&c_b;&c_y;&c_c;&c_mol; <ind>&c_z;&c_a;&c_c;&c_ib;&c_k;&c_a;&c_w;&c_l;&c_je;&c_n;&c_y;&c_m;</ind></trd>
     <trd lng="nl">zich <ind>interesseren</ind> voor</trd>
     <trdgrp lng="pl">
       <trd>interesowa&cacute; si&eogonek;</trd>,
@@ -829,6 +918,7 @@
         <lok>Veli morten</lok>
       </fnt>.
     </ekz>
+    <trd lng="be">&c_c;&c_ib;&c_k;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a;</trd>
     <trd lng="nl">zich <ind>interesseren</ind> in</trd>
     <trdgrp lng="pl">
       <trd>interesowa&cacute; si&eogonek;</trd>,
@@ -845,6 +935,11 @@
     (avoir de l'int&eacute;r&ecirc;t pour)</klr></trd>
   </trdgrp>
   <trd lng="hu">&eacute;rdekl&odblac;dik</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8208;&#x5473;&#x3092;&#x6301;&#x3064;  <pr>&#x304D;&#x3087;&#x3046;&#x307F;&#x3092;&#x3082;&#x3064;</pr></trd>,
+    <trd>&#x95A2;&#x5FC3;&#x3092;&#x6301;&#x3064;  <pr>&#x304B;&#x3093;&#x3057;&#x3093;&#x3092;&#x3082;&#x3064;</pr></trd>,
+    <trd>&#x95A2;&#x4FC2;&#x3059;&#x308B;  <pr>&#x304B;&#x3093;&#x3051;&#x3044;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pt">interessar-se</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trdgrp lng="sk">
@@ -893,6 +988,7 @@
     </dif>
     <ref tip="sin" cel="intere.0o.sento"><tld/>o<sncref/></ref>
   </snc>
+  <trd lng="be">&c_z;&c_a;&c_c;&c_ib;&c_k;&c_a;&c_w;&c_l;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="de">Interesse</trd>
   <trdgrp lng="fr">
     <trd>int&eacute;r&ecirc;t<klr tip="ind">
@@ -905,6 +1001,10 @@
     <trd>attention<klr tip="ind"> (pour qc ou qn)</klr></trd>.
   </trdgrp>
   <trd lng="hu">&eacute;rdekl&odblac;d&eacute;s</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8208;&#x5473;  <pr>&#x304D;&#x3087;&#x3046;&#x307F;</pr></trd>,
+    <trd>&#x95A2;&#x5FC3;  <pr>&#x304B;&#x3093;&#x3057;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">interesse</trd>
   <trdgrp lng="pl">
     <trd>zainteresowanie</trd>,
@@ -914,6 +1014,7 @@
   <trd lng="pt">interesse</trd>
   <trd lng="ru">&c_z;&c_a;&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="uk">&c_z;&c_a;&c_c;&c_ib;&c_k;&c_a;&c_v;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>
+  <trd lng="zh">&#x5174; <pr>x&#xEC;ng</pr></trd>
 </drv>
 
 <drv mrk="intere.ne0one0igxo">
@@ -936,14 +1037,19 @@
         allogis lian atenton
         <fnt>
         <aut>M. C. d'Aulnoy, trad. D. J. Harlow</aut>,
-        <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/blua/flava_gnomo.html">La flava gnomo</url></vrk>,
+        <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/blua/flava_gnomo.html">La flava
+        gnomo</url></vrk>,
         <lok>[2000?]</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_z;&c_a;&c_c;&c_ib;&c_k;&c_a;&c_w;&c_l;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_b;&c_y;&c_ja;&c_k;&c_a;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="de">Desinteresse</trd>
-  <trd lng="es">desinter&eacute;s</trd> 
+  <trd lng="es">desinter&eacute;s</trd>
   <trdgrp lng="fr">
    <trd>d&eacute;sint&eacute;r&ecirc;t</trd>
    <trd>incurie</trd>
@@ -970,6 +1076,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol; <ind>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_je;&c_j;&c_sh;&c_y;&c_m;</ind></trd>
   <trdgrp lng="fr">
     <trd>rendre plus <ind>int&eacute;ressant</ind></trd>,
     <trd>int&eacute;resser<klr tip="amb"> (le jeu)</klr></trd>
@@ -1030,6 +1137,7 @@
       <ref cel="gurd">gurdita</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_n;&c_je;&c_c;&c_ib;&c_k;&c_a;&c_v;&c_y;</trd>
   <trdgrp lng="cs">
     <trd>bez z&aacute;jmu</trd>,
     <trd>f&aacute;dn&iacute;</trd>
@@ -1038,7 +1146,7 @@
   <trdgrp lng="es">
     <trd>vulgar<klr> (en el sentido de com&uacute;n)</klr></trd>,
     <trd>insulso</trd>,
-    <trd>indiferente</trd> 
+    <trd>indiferente</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>inint&eacute;ressant</trd>,
@@ -1050,6 +1158,13 @@
     <trd>quelconque<klr tip="ind"> (inint&eacute;ressant)</klr></trd>
   </trdgrp>
   <trd lng="hu">&eacute;rdektelen</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8208;&#x5473;&#x306E;&#x306A;&#x3044;  <pr>&#x304D;&#x3087;&#x3046;&#x307F;&#x306E;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x9762;&#x767D;&#x5473;&#x306E;&#x306A;&#x3044; 
+    <pr>&#x304A;&#x3082;&#x3057;&#x308D;&#x307F;&#x306E;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x5229;&#x5BB3;&#x95A2;&#x4FC2;&#x306E;&#x306A;&#x3044; 
+    <pr>&#x308A;&#x304C;&#x3044;&#x304B;&#x3093;&#x3051;&#x3044;&#x306E;&#x306A;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">onbelangrijk</trd>
   <trdgrp lng="pl">
     <trd>nieinteresuj&aogonek;cy</trd>,
@@ -1062,6 +1177,11 @@
   <trdgrp lng="uk">
     <trd>&c_n;&c_je;&c_c;&c_ib;&c_k;&c_a;&c_v;&c_i;&c_j;</trd>,
     <trd>&c_n;&c_je;&c_ib;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6C92;&#x610F;&#x601D; <pr>m&#xE9;iy&#xEC;si</pr></trd>,
+    <trd>&#x5E73;&#x5E73; <pr>p&#xED;ngp&#xED;ng</pr></trd>,
+    <trd>&#x5EB8; <pr>y&#x14D;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1089,8 +1209,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_u;&c_b;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_c;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>
   <trd lng="de">desinteressiert sein</trd>
-  <trd lng="es">desinteresarse</trd> 
+  <trd lng="es">desinteresarse</trd>
   <trd lng="fr">se <ind>d&eacute;sint&eacute;resser</ind><klr tip="ind">
   (montrer du d&eacute;sint&eacute;r&ecirc;t)</klr></trd>
   <trd lng="pt">desinteressar-se</trd>
@@ -1104,7 +1225,7 @@
     <dif>
       Stato de iu sen<tld/>inta:
       <ekz>
-        pri tio ne kulpas la demokrateco de UEA, <klr>[&#8230;]</klr> sed ne<tld/>i&gcirc;o kaj
+        pri tio ne kulpas la demokrateco de UEA, <klr>[&#x2026;]</klr> sed ne<tld/>i&gcirc;o kaj
         inerteco
         <fnt>
           <bib>EeP</bib>
@@ -1120,12 +1241,14 @@
       <ref cel="fervor">senfervoreco</ref>
     </refgrp>
   </snc>
-  <trd lng="de">Desinteresse</trd>  
+  <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_c;&c_ib;&c_k;&c_a;&c_w;&c_l;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="de">Desinteresse</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;sint&eacute;r&ecirc;t grandissant</trd>,
     <trd>tendance &agrave; l'indiff&eacute;rence</trd>
     <trd>tendance &agrave; la banalisation</trd>
   </trdgrp>
+  <trd lng="ja">&#x7121;&#x95A2;&#x5FC3;  <pr>&#x3080;&#x304B;&#x3093;&#x3057;&#x3093;</pr></trd>
   <trd lng="nl">onverschilligheid</trd>
   <trd lng="pt">desinteresse<klr tip="amb"> (subst.)</klr></trd>
   <trd lng="ru">&c_n;&c_je;&c_z;&c_a;&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
@@ -1133,26 +1256,27 @@
 </art>
 <!--
 $Log$
+versio 1.114 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.113 2023/10/10 11:21:54
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.111 2023/08/29 13:29:58
+Wolfram Diestel: ja: +prononco
+
+versio 1.110 2023/03/28 16:44:02
+Wolfram Diestel: ~igi 1: nova rim forigante la malnovan, trd de
+
+versio 1.109 2023/03/23 07:24:50
+Wolfram Diestel: +subsnc-mrk
+
+versio 1.108 2022/12/08 07:25:36
+Dmitri Gabinski: + trd be
+
 versio 1.107 2022/11/06 12:50:43
-Wolfram Diestel: ~egi..sen~iĝo: +ekz-oj, ref-oj
+Wolfram Diestel: ~egi..sen~i&gcirc;o: +ekz-oj, ref-oj
 
 versio 1.106 2022/11/06 10:31:19
-Wolfram Diestel: ~a: +ekz-oj, ref-oj
-
-versio 1.105 2022/11/06 08:34:02
-Wolfram Diestel: ~o: +fnt, ekz, ref; adaptita dif snc 3
-
-versio 1.104 2022/04/30 08:42:42
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.102 2022/03/14 21:30:30
-Wolfram Diestel: ~i: +ekz-oj, trd de
-
-Revision 1.25  2017/02/16 16:10:17  revo
-Jeromo Vasxe: attenton -> atenton
-
-Revision 1.24  2016/02/28 19:10:39  revo
-Wolfram Diestel: riparo: adm forighis per skripto de M.Laer pro
-interlokita traduko
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gvat.xml,v 1.20 2022/10/16 20:37:55 revo Exp $">
+<art mrk="$Id: gvat.xml,v 1.26 2023/11/11 11:36:37 revo Exp $">
 <kap>
   <rad>gvat</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -19,10 +19,11 @@
       <ekz>
         rabobirdoj elektas la altan konstrua&jcirc;on kiel <tld/>ejon
         <fnt>
-          <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Steloj;monato2/007052.html">Verda nature, science,
-          socie</url></vrk>
+          <vrk><url ref="&Monato;/2000/007052.php">Verda
+          nature, science, socie</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/08, p. 8</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -47,10 +48,11 @@
       <ekz>
         &ccirc;ie <tld/>is timo kaj prema senespero
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007140.html">de Julian
-          Modest</url></vrk>
-        </fnt>.
+          <aut>Julian Modest</aut>
+            <vrk><url ref="&Monato;/2001/007140.html">Vetiha</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 26</lok>
+          </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -114,7 +116,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la registaro <klr>[&#8230;]</klr> <tld/>as dum pli ol unu jaro la akuzitojn kaj jam
+        la registaro <klr>[&#x2026;]</klr> <tld/>as dum pli ol unu jaro la akuzitojn kaj jam
         posedas detalojn pri la komploto
         <fnt>
           <bib>Monato</bib>
@@ -168,6 +170,10 @@
     <trd>tajn&ecaron; pozorovat</trd>,
     <trd>&ccaron;&iacute;hat</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x69D8;&#x5B50;&#x3092;&#x3046;&#x304B;&#x304C;&#x3046;  <pr>&#x3088;&#x3046;&#x3059;&#x3092;&#x3046;&#x304B;&#x304C;&#x3046;</pr></trd>,
+    <trd>&#x898B;&#x5F35;&#x308B;  <pr>&#x307F;&#x306F;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_l;&c_je;&c_d;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>striehnu&tcaron;</trd>,
@@ -213,6 +219,13 @@
        <ref cel="gvardi.0o.MIL_gardistaro">gvardio<sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_z;&c_ib;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_n;&c_a;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_n;&c_a;&c_z;&c_o;&c_r;&c_c;&c_a;</trd>,
+    <trd>&c_v;&c_a;&c_r;&c_t;&c_a;&c_w;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_a;&c_zh;&c_n;&c_ib;&c_k;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Beobachter</trd>,
     <trd>Beschatter</trd>,
@@ -229,10 +242,27 @@
     <trd>homme de guet</trd>,
     <trd>vigie</trd>
   </trdgrp>
+  <trd lng="ja">&#x76E3;&#x8996;&#x5175;  <pr>&#x304B;&#x3093;&#x3057;&#x3078;&#x3044;</pr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x5B88;&#x62A4;&#x8005; <pr>sh&#x1D2;uh&#xF9;zh&#x11B;</pr></trd>,
+    <trd>&#x76D1; <pr>ji&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.23 2023/04/30 09:24:32
+Paul Peeraerts: Steloj -> monato
+
+versio 1.22 2023/04/13 14:27:44
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.21 2023/02/01 08:34:00
+Dmitri Gabinski: + trd be
+
 versio 1.20 2022/10/16 20:37:55
 Ulrich Fellmann: gvatisto: +4 DE trdj
 
@@ -243,17 +273,5 @@ versio 1.18 2022/04/15 04:41:16
 Noam Mohr: +trd en gvatisto
 
 versio 1.16 2020/11/12 14:32:22
-Wolfram Diestel: +ekz-oj, ref-oj
-
-Revision 1.14  2016/02/13 23:10:17  revo
-Jeromo Vasxe: + ~isto
-
-Revision 1.13  2015/07/04 08:37:35  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.12  2015/06/29 16:29:39  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.11  2013/12/01 20:10:21  revo
 -->
 </vortaro>

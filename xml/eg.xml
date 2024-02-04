@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: eg.xml,v 1.28 2021/03/09 15:43:50 revo Exp $">
+<art mrk="$Id: eg.xml,v 1.32 2023/11/07 19:22:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   -<rad>eg</rad>/
@@ -151,7 +151,11 @@
       <trd>intenz&iacute;v</trd>
     </trdgrp>
     <trd lng="io">granda</trd>
-    <trd lng="nl">groot</trd>
+    <trdgrp lng="ja">
+    <trd>&#x305F;&#x3044;&#x3078;&#x3093;&#x306A;</trd>,
+    <trd>&#x3072;&#x3069;&#x3044;</trd>
+  </trdgrp>
+  <trd lng="nl">groot</trd>
     <trdgrp lng="pl">
       <trd>ogromny</trd>,
       <trd>olbrzymi</trd>,
@@ -166,7 +170,14 @@
       <trd>ve&lcaron;k&yacute;</trd>
     </trdgrp>
     <trd lng="vo">gretik</trd>
-  </drv>
+    <trdgrp lng="zh">
+    <trd>&#x5DE8; <pr>j&#xF9;</pr></trd>,
+    <trd>&#x4E15; <pr>p&#x12B;</pr></trd>,
+    <trd>&#x8AA7; <pr>p&#x1D4;</pr></trd>,
+    <trd>&#x9AD8;&#x5927; <pr>g&#x101;od&#xE0;</pr></trd>,
+    <trd>&#x6D69;&#x5927; <pr>h&#xE0;od&#xE0;</pr></trd>
+  </trdgrp>
+</drv>
   <drv mrk="eg.0eco">
     <kap><tld/>eco</kap>
     <snc>
@@ -184,6 +195,11 @@
         <ref cel="kulmin.0o">kulmino</ref>
       </refgrp>
     </snc>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_je;&c_l;&c_ib;&c_z;&c_a;&c_r;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+      <trd>&c_v;&c_je;&c_l;&c_ib;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+      <trd>&c_g;&c_r;&c_a;&c_n;&c_d;&c_y;&c_jo;&c_z;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    </trdgrp>
     <trdgrp lng="ca">
       <trd>grandiositat</trd>,
       <trd>vastitud</trd>,
@@ -212,7 +228,11 @@
       <trd>er&odblac;ss&eacute;g</trd>
     </trdgrp>
     <trd lng="io">grandeso</trd>
-    <trdgrp lng="pl">
+    <trdgrp lng="ja">
+    <trd>&#x5DE8;&#x5927;&#x3055;  <pr>&#x304D;&#x3087;&#x3060;&#x3044;&#x3055;</pr></trd>,
+    <trd>&#x91CD;&#x5927;&#x3055;  <pr>&#x3058;&#x3085;&#x3046;&#x3060;&#x3044;&#x3055;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
       <trd>ogromno&sacute;&cacute;</trd>,
       <trd>olbrzymio&sacute;&cacute;</trd>,
       <trd>wielko&sacute;&cacute;</trd>
@@ -230,6 +250,12 @@
 </art>
 <!--
 $Log$
+versio 1.31 2023/10/20 09:24:08
+Dmitri Gabinski: + trd be
+
+versio 1.30 2023/10/14 15:34:33
+revo: transskribo per <pr>
+
 Revision 1.26  2015/12/05 21:10:23  revo
 Evandro Avellar: +klr trd pt
 
@@ -246,8 +272,5 @@ Revision 1.22  2014/05/08 18:11:02  revo
 Damien Brucker: +ekz
 
 Revision 1.21  2014/02/05 10:10:17  revo
-Damien Brucker: +kap
-
-Revision 1.20  2011/12/06 15:10:12  revo
 -->
 </vortaro>

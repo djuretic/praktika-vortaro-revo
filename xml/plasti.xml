@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: plasti.xml,v 1.23 2022/05/01 17:51:19 revo Exp $">
+<art mrk="$Id: plasti.xml,v 1.28 2023/11/14 09:25:26 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>plastik</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>plastik</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="plasti.0o">
   <kap><tld/>o</kap>
@@ -37,10 +37,11 @@
     </refgrp>
     <rim>
       Iuj limigas la nocion &#8218;plastiko&#8216; al modlado kontraste kun skulptado, aliaj
-      komprenas amba&ubreve; artojn kiel plastiko. Distingo &scirc;ajnas vana, se artisto 
+      komprenas amba&ubreve; artojn kiel plastiko. Distingo &scirc;ajnas vana, se artisto
       kombinas amba&ubreve; teknikojn.
     </rim>
   </snc>
+  <trd lng="be">&c_p;&c_l;&c_ja;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>
   <trdgrp lng="ca">
     <trd>pl&agrave;stica</trd>,
     <trd>modelatge</trd>
@@ -61,6 +62,7 @@
   </trdgrp>
   <trd lng="fr">arts plastiques</trd>
   <trd lng="hu">plasztika</trd>
+  <trd lng="ja">&#36896;&#24418;&#33464;&#34899;  <pr>&#12382;&#12358;&#12369;&#12356;&#12370;&#12356;&#12376;&#12421;&#12388;</pr></trd>
   <trdgrp lng="nl">
     <trd>plastiek</trd>,
     <trd>boetseerkunst</trd>,
@@ -128,7 +130,7 @@
   <snc mrk="plasti.0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Reliefa kiel la reala&jcirc;o; havanta reliefajn formojn precize
+      <ref cel="relief.0a">Reliefa</ref> kiel la reala&jcirc;o; havanta reliefajn formojn precize
       similantajn la naturon; same impresanta kiel la reala&jcirc;o:
       <ekz>
         ju <tld/>e tamen li imagis la perfidecon de <nom>Kama</nom>, des pli forte li deziris &scirc;in
@@ -166,12 +168,18 @@
     <trd lng="pl">plastyczny</trd>
   </snc>
   <ref tip="vid" cel="plast.0a">plasta</ref>
+  <trd lng="be">&c_p;&c_l;&c_ja;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
   <trdgrp lng="ca">
     <trd>pl&agrave;stic</trd>,
     <trd>modelable</trd>,
     <trd>deformable</trd>
   </trdgrp>
   <trd lng="hu">plasztikus</trd>
+  <trdgrp lng="ja">
+    <trd>&#36896;&#24418;&#12398;  <pr>&#12382;&#12358;&#12369;&#12356;&#12398;</pr></trd>,
+    <trd>&#36896;&#24418;&#32654;&#12398;  <pr>&#12382;&#12358;&#12369;&#12356;&#12403;&#12398;</pr></trd>,
+    <trd>&#24418;&#12398;&#32654;&#12375;&#12356;  <pr>&#12363;&#12383;&#12398;&#12358;&#12388;&#12367;&#12375;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="nl">plastisch</trd>
   <trd lng="uk">&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
 </drv>
@@ -179,33 +187,55 @@
 <drv mrk="plasti.galvano0o">
   <kap>galvano<tld/>o</kap>
   <uzo tip="fak">TEK</uzo>
-  <snc>
+  <snc mrk="plasti.galvano0o.arto">
     <dif>
       Arto kaj procedo apliki galvanan kurenton por kovri
-      objekton per maldika tavolo de metalo.
+      objekton per maldika tavolo de metalo:
+      <ekz>
+        Espero por la mondo: spirita galvano<tld/>o <klr>(librotitolo)</klr>
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 5 (55)</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="elektr19.0o">elektrotipio</ref>,
+      <ref cel="galvan.0ajxo">galvana&jcirc;o</ref>
+    </refgrp>
   </snc>
-  <trd
-  lng="be">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_a;&c_p;&c_l;&c_ja;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>
+  <trd lng="be">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_a;&c_p;&c_l;&c_ja;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>
   <trd lng="ca">galvanopl&agrave;stia</trd>
   <trd lng="de">Galvanoplastik</trd>
   <trd lng="el">&gamma;&alfa;&lambda;&beta;&alfa;&ny;&omikron;&pi;&lambda;&alfa;&sigma;&tau;&jota;&kappa;&eta_ton;</trd>
   <trd lng="en">electroplating</trd>
   <trd lng="fr">galvanoplastie</trd>
   <trd lng="hu">galvanoplasztika</trd>
+  <trd lng="ja">&#38651;&#27671;&#12513;&#12483;&#12461;&#27861;  <pr>&#12391;&#12435;&#12365;&#12417;&#12387;&#12365;&#12411;&#12358;</pr></trd>
   <trd lng="nl">galvanoplastiek</trd>
   <trdgrp lng="pt">
     <trd>galvanoplastia</trd>,
     <trd>galvanopl&aacute;stica</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_o;&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>
+  <trd lng="ru">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_o;&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>
   <trd lng="uk">&c_G;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_o;&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.28 2023/11/14 09:25:26
+Wolfram Diestel: fnt JED, ref
+
+versio 1.27 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.25 2023/08/24 07:21:12
+Wolfram Diestel: +ekz
+
+versio 1.24 2023/01/06 07:25:06
+Dmitri Gabinski: + trd be
+
 versio 1.23 2022/05/01 17:51:19
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -216,17 +246,5 @@ versio 1.19 2021/08/28 13:28:52
 Wolfram Diestel: ekz-oj, rim, ref-oj
 
 Revision 1.17  2019/07/14 17:10:15  revo
-Wolfram Diestel: +galvano~o (forigonte apartan artikolon)
-
-Revision 1.16  2015/07/04 08:37:41  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.14  2011/12/05 13:10:22  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.13  2011/01/13 16:10:09  revo
 -->
 </vortaro>

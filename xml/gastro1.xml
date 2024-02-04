@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gastro1.xml,v 1.18 2022/04/30 08:42:40 revo Exp $">
+<art mrk="$Id: gastro1.xml,v 1.24 2023/11/11 10:00:39 revo Exp $">
 <kap><rad>gastronomi</rad>/o</kap>
 <drv mrk="gastro1.0o">
   <kap><tld/>o</kap>
@@ -14,10 +14,11 @@
       <ekz>
         la nunaj voja&gcirc;antoj <klr>[&#x2026;]</klr> trovos belajn malnovajn monumentojn, bonegan
         <tld/>on kaj komfortajn gastejojn por pilgrimantoj
-        <fnt>
-          <bib>Monato</bib>
+       <fnt>
           <aut>Rafaela Urue&ntilde;a</aut>
-          <vrk><url ref="&Steloj;monato2/006809.html">Hispanio: Vojoj al la sankta urbo</url></vrk>
+          <vrk><url ref="&Monato;/2000/006809.php">Vojoj al la sankta urbo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/03, p. 24</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -25,10 +26,11 @@
         <klr>[&#x2026;]</klr> vidu mem, promenante tra niaj urboj, <klr>[&#x2026;]</klr> vi povas
         man&gcirc;i itale, turke, greke, jugoslave, sed ne germane
         <fnt>
-          <bib>Monato</bib>
-          <aut>S. Maul</aut>
-          <vrk><url ref="&Steloj;monato2/007174.html">Kiel savi la germanan kulturon</url></vrk>
-        </fnt>;
+          <aut>Stefan Maul</aut>
+            <vrk><url ref="&Monato;/2000/007174.php">Kiel savi la germanan kulturon</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 30</lok>
+          </fnt>;
       </ekz>
       <ekz>
         multaj aliaj alloga&jcirc;oj troveblas &ccirc;i tie: ri&ccirc;a folkloro kaj <tld/>o, en kiuj
@@ -55,6 +57,7 @@
       <ref cel="gastro.0o">gastronomo</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_s;&c_t;&c_r;&c_a;&c_n;&c_o;&c_m;&c_ib;&c_ja;</trd>
   <trd lng="ca">gastronomia</trd>
   <trdgrp lng="de">
     <trd>Gastronomie</trd>,
@@ -75,6 +78,10 @@
     <trd>&eacute;tkez&eacute;si <ind>kult&uacute;ra</ind></trd>,
     <trd>gasztron&oacute;mia</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6599;&#x7406;&#x6CD5;  <pr>&#x308A;&#x3087;&#x3046;&#x308A;&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x7F8E;&#x98DF;&#x5B66;  <pr>&#x3073;&#x3057;&#x3087;&#x304F;&#x304C;&#x304F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>gastronomie</trd>,
     <trd>eetcultuur</trd>,
@@ -86,11 +93,30 @@
     <trd>iyi yemek merak&inodot;</trd>,
     <trd>gastronomi</trd>
   </trdgrp>
-  <trd lng="uk">&#x433;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x43D;&#x43E;&#x43C;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_g;&c_a;&c_s;&c_t;&c_r;&#x43E;&#x43D;&#x43E;&#x43C;&c_ib;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x70F9;&#x98EA;&#x5B78; <pr>p&#x113;ngr&#xE8;nxu&#xE9;</pr></trd>,
+    <trd>&#x53A8;&#x827A; <pr>ch&#xFA;y&#xEC;</pr></trd>,
+    <trd>&#x9910;&#x98F2;&#x696D; <pr>c&#x101;ny&#x1D0;ny&#xE8;</pr></trd>,
+    <trd>&#x70F9;&#x98EA;&#x8853; <pr>p&#x113;ngr&#xE8;nsh&#xF9;</pr></trd>,
+    <trd>&#x9910;&#x98F2; <pr>c&#x101;ny&#x1D0;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/15 06:07:00
+revo: transskribo per <pr>
+
+versio 1.21 2023/04/30 09:24:25
+Paul Peeraerts: Steloj -> monato
+
+versio 1.20 2023/04/13 18:31:10
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.19 2023/03/17 07:26:30
+Dmitri Gabinski: + trd be
+
 versio 1.18 2022/04/30 08:42:40
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -101,17 +127,5 @@ Revision 1.14  2018/12/20 19:10:16  revo
 Wolfram Diestel: pli vastigis dif, +ekz-oj
 
 Revision 1.13  2011/12/05 00:10:26  revo
-Marc Rausell: kataluna traduko
-
-Revision 1.12  2010/03/03 17:31:11  revo
-Russ Williams: +trd en
-
-Revision 1.11  2009/08/24 16:31:13  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.10  2002/09/19 16:33:50  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.9  2002/08/05 17:31:25  revo
 -->
 </vortaro>

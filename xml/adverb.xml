@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: adverb.xml,v 1.34 2022/05/25 08:39:04 revo Exp $">
+<art mrk="$Id: adverb.xml,v 1.38 2023/10/27 13:42:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>adverb</rad>/o
@@ -48,19 +48,21 @@
     </refgrp>
     <rim>
       Z. klarigis, ke &leftquot;kiam la senco tion postulas, ni tre bone
-      povas uzi <tld/>on en la senco de <ref cel="prepoz.0o.GRA">prepozicio</ref> <klr>[&#8230;]</klr>. Se
-      la <tld/>o
-      devenas de verbo transira (kiu postulas akuzativon), tiam anka&ubreve;
+      povas uzi <tld/>on en la senco de <ref cel="prepoz.0o.GRA">prepozicio</ref> <klr>[&#x2026;]</klr>. Se
+      la <tld/>o devenas de verbo transira (kiu postulas akuzativon), tiam anka&ubreve;
       la <tld/>o-prepozicio konservas tiun saman econ kaj estas uzata
       kun la akuzativo:<ekz> koncerne tion = kio koncernas tion;
-      rilate
-      tion = kio rilatas tion</ekz>; se la <tld/>o anstata&ubreve;as vorton,
+      rilate tion = kio rilatas tion</ekz>; se la <tld/>o anstata&ubreve;as vorton,
       kiu povas ligi&gcirc;i kun substantivo nur per ia prepozicio, tiam
       anka&ubreve; la <tld/>o akceptas post si tiun prepozicion:<ekz> ka&ubreve;ze
       de tio = pro la ka&ubreve;zo de tio; responde al via demando = kiel
       respondo al via demando</ekz>&rightquot;<fnt><bib>LR</bib></fnt>.
     </rim>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x526F;&#x8A5E; <pr>f&#xF9;c&#xED;</pr></trd>,
+    <trd>&#x526F;&#x8BCD; <pr>f&#xF9;c&#xED;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_s;&c_l;&c_o;&c_w;&c_je;</trd>
   <trd lng="br">adverb</trd>
   <trdgrp lng="cs">
@@ -81,9 +83,11 @@
     <trd><ind>kata</ind> keterangan</trd>
   </trdgrp>
   <trd lng="it">avverbio</trd>
+  <trd lng="ja">&#x526F;&#x8A5E;  <pr>&#x3075;&#x304F;&#x3057;</pr></trd>
   <trd lng="nl">bijwoord</trd>
   <trd lng="pl">przys&lstroke;&oacute;wek</trd>
   <trd lng="pt">adv&eacute;rbio</trd>
+  <trd lng="ro">adverb</trd>
   <trd lng="ru">&c_n;&c_a;&c_r;&c_je;&c_ch;&c_i;&c_je;</trd>
   <trd lng="sk">pr&iacute;slovka</trd>
   <trd lng="sv">adverb</trd>
@@ -102,15 +106,14 @@
         eblas <tld/>igi la prepozicion al &leftquot;pere&rightquot;, kaj uzi &gcirc;in en la
         esprimo &leftquot;pere de&rightquot;
         <fnt>
-          <vrk><url
-          ref="https://esperanto.stackexchange.com/questions/2347/far-fare-de-per-pere-de-%C4%89u-oni-povus-apliki-%C4%89i-tiun-regulon-al-aliaj-v">&ccirc;u
+          <vrk><url ref="https://esperanto.stackexchange.com/questions/2347/far-fare-de-per-pere-de-%C4%89u-oni-povus-apliki-%C4%89i-tiun-regulon-al-aliaj-v">&ccirc;u
           oni povus apliki &ccirc;i tiun ...</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         estas strange, ke oni tiom respektas la prepozicion
         <ctl>po</ctl>, kaj oni ne kura&gcirc;as &gcirc;in <tld/>igi 
-        <klr>[&#8230;]</klr>, kial ne <tld/>igi &gcirc;in, kaj diri:
+        <klr>[&#x2026;]</klr>, kial ne <tld/>igi &gcirc;in, kaj diri:
         &leftquot;la filoj heredis poe kvinonon de la bieno&#x201D;
         <fnt>
           <aut>K. Kalocsay</aut>
@@ -123,6 +126,14 @@
   </snc>
   <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_w;&c_t;&c_v;&c_a;&c_r;&c_y;&c_c;&c_mol; &c_u; <ind>&c_p;&c_r;&c_y;&c_s;&c_l;&c_o;&c_w;&c_je;</ind></trd>
   <trd lng="fr">convertir en <ind>adverbe</ind></trd>
+  <trdgrp lng="pl">
+    <trd>przys&lstroke;&oacute;wki tworzy&cacute;</trd>,
+    <trd>zmieni&cacute; w <ind>przys&lstroke;&oacute;wek</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>adverbe crea&#x21B;i</trd>,
+    <trd>se transform&abreve; &icirc;ntr-un <ind>adverb</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="adverb.lok0o">
@@ -149,11 +160,18 @@
   <trd lng="en">local adverb</trd>
   <trd lng="fr">adverbe de lieu</trd>
   <trd lng="pl">przys&lstroke;&oacute;wek miejsca</trd>
+  <trd lng="ro">adverb de loc</trd>
   <trd lng="ru">&c_n;&c_a;&c_r;&c_je;&c_ch;&c_i;&c_je; &c_m;&c_je;&c_s;&c_t;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.37 2023/10/12 16:57:42
+revo: transskribo per <pr>
+
+versio 1.35 2023/01/15 18:30:49
+Vito Redsky: +trd pl + trd ro
+
 versio 1.34 2022/05/25 08:39:04
 Dmitri Gabinski: + trd be
 
@@ -170,11 +188,5 @@ Revision 1.26  2015/07/04 08:37:29  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.25  2014/02/06 16:10:14  revo
-Damien Brucker: +ref (dauxrigo)
-
-Revision 1.24  2014/01/08 11:10:13  revo
-Damien Brucker: +ref
-
-Revision 1.23  2013/12/09 13:10:21  revo
 -->
 </vortaro>

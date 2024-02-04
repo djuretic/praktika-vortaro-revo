@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: naz.xml,v 1.122 2022/05/01 16:20:54 revo Exp $">
+<art mrk="$Id: naz.xml,v 1.130 2024/01/29 15:21:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>naz</rad>/o <fnt><bib>PV</bib></fnt>
@@ -153,7 +153,7 @@
   <trd lng="ig">imi</trd>
   <trd lng="is">nef</trd>
   <trd lng="it">naso</trd>
-  <trd lng="ja">&#x9F3B;</trd>
+  <trd lng="ja">&#x9F3B; <pr>&#x306F;&#x306A;</pr></trd>
   <trd lng="jv">irung</trd>
   <trd lng="ka">&#x10EA;&#x10EE;&#x10D5;&#x10D8;&#x10E0;&#x10D8;</trd>
   <trd lng="kk">&c_m;&#x4B1;&c_r;&c_y;&c_n;</trd>
@@ -234,15 +234,26 @@
       </ekz>
     </dif>
     <ref tip="ant" cel="busx.0a.FON">bu&scirc;a<sncref/></ref>
+  <trdgrp lng="id">
+    <trd>nasal</trd>,
+    <trd>sengau</trd>
+  </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_o;&c_s;&c_a;&c_v;&c_y;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_a;&c_v;&c_y;</trd>,
+    <trd>&c_n;&c_a;&c_z;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>nosn&iacute;</trd>,
     <trd>nosov&yacute;</trd>
   </trdgrp>
   <trd lng="en">nasal</trd>
-  <trd lng="ru">&c_n;&c_o;&c_s;o&c_v;&c_o;&c_j;</trd>
+  <trd lng="ja">&#x9F3B;&#x306E;  <pr>&#x306F;&#x306A;&#x306E;</pr></trd>
+  <trd lng="ru">&c_n;&c_o;&c_s;&c_o;&c_v;&c_o;&c_j;</trd>
   <trd lng="sk">nosn&yacute;</trd>
-  <trd lng="uk">&#x43D;&#x43E;&#x441;&#x43E;&#x432;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_n;&c_o;&c_s;&c_o;&c_v;&c_i;&c_j;</trd>
+  <trd lng="zh">&#x9F49; <pr>n&#xE0;ng</pr></trd>
 </drv>
 
 <drv mrk="naz.0ego">
@@ -261,6 +272,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_ja;&c_l;&c_ib;&c_k;&c_ib; <ind>&c_n;&c_o;&c_s;</ind></trd>
+    <trd>&c_ja;&c_n;&c_d;&c_o;&c_w;&c_k;&c_a; <klr tip="amb">(&c_n;&c_o;&c_s;)</klr></trd>,
+    <trd>&c_b;&c_u;&c_l;&c_mol;&c_b;&c_ib;&c_n;&c_a; <klr tip="amb">(&c_n;&c_o;&c_s;)</klr></trd>
+  </trdgrp>
   <trd lng="ca">musell</trd>
   <trdgrp lng="cs">
     <trd>&ccaron;enich</trd>,
@@ -275,6 +291,12 @@
         <trd>mufle</trd>
         <trd>museau</trd>
       </trdgrp>
+  <trdgrp lng="id">
+    <trd>moncong</trd>,
+    <trd>congor</trd>,
+    <trd>cungur</trd>,
+    <trd>jungur</trd>
+  </trdgrp>
   <trd lng="pt">focinho</trd>
   <trdgrp lng="ru">
         <trd>&c_n;&c_o;&c_s;&c_i;&c_shch;&c_je;</trd>,
@@ -286,10 +308,11 @@
   </trdgrp>
   <trd lng="sv">nos</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x435;&#x43B;&#x438;&#x43A;&#x438;&#x439; &#x43D;&#x456;&#x441;</trd>,
-    <trd>&#x43D;&#x43E;&#x441;&#x438;&#x449;&#x435;</trd>,
-    <trd>&#x43D;&#x43E;&#x441;&#x44F;&#x440;&#x430;</trd>
+    <trd>&c_v;&c_je;&c_l;&c_i;&c_k;&c_i;&c_j; &c_n;&c_ib;&c_s;</trd>,
+    <trd>&c_n;&c_o;&c_s;&c_i;&c_shch;&c_je;</trd>,
+    <trd>&c_n;&c_o;&c_s;&c_ja;&c_r;&c_a;</trd>
   </trdgrp>
+  <trd lng="zh">&#x543B;&#x90E8; <pr>w&#x11B;nb&#xF9;</pr></trd>
 </drv>
 
 <drv mrk="naz.0umo">
@@ -302,13 +325,13 @@
       sur la <tld/>o per pin&ccirc;a risorto;
       <ref tip="sin" cel="pincx.naz0ilo">nazpin&ccirc;ilo</ref>:
       <ekz>
-        li elprenis <tld/>umon el ora ingo, vi&scirc;is &gcirc;in per ne&gcirc;blanka 
-        naztuko, metis &gcirc;in sur la nazon kaj kun vigle memkontenta 
+        li elprenis <tld/>umon el ora ingo, vi&scirc;is &gcirc;in per ne&gcirc;blanka
+        naztuko, metis &gcirc;in sur la nazon kaj kun vigle memkontenta
         rideto &ccirc;irka&ubreve;rigardis &ccirc;iujn sidantojn
         <fnt>
           <aut>I. G. &Scirc;irjaev</aut>,
-          <vrk>Sen titolo</vrk>, 
-          <lok>[1898?]</lok></fnt>. 
+          <vrk>Sen titolo</vrk>,
+          <lok>[1898?]</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -319,7 +342,13 @@
     <trd>cvikr</trd>,
     <trd>sk&rcaron;ipec</trd>
   </trdgrp>
-  <trd lng="de">Kneifer</trd>
+    <trdgrp lng="de">
+      <trd>Kneifer</trd>,
+      <trd>Zwicker</trd>,
+      <trd>Klemmer</trd>,
+      <trd>Nasenklemmer</trd>,
+      <trd>Zwickel</trd>
+    </trdgrp>
   <trd lng="en">pince-nez</trd>
   <trd lng="fr">pince-nez</trd>
   <trdgrp lng="hu">
@@ -327,12 +356,13 @@
         <trd>cvikker</trd>
       </trdgrp>
   <trd lng="it">occhiali <ind>pince-nez</ind></trd>
+  <trd lng="ja">&#x9F3B;&#x3081;&#x304C;&#x306D;  <pr>&#x306F;&#x306A;&#x3081;&#x304C;&#x306D;</pr></trd>
   <trd lng="nl">neusknijper</trd>
   <trd lng="pl">binokle</trd>
   <trd lng="pt">pincen&ecirc;</trd>
   <trd lng="ru">&c_p;&c_je;&c_n;&c_s;&c_n;&c_je;</trd>
   <trd lng="sk">cviker</trd>
-  <trd lng="uk">&#x43F;&#x435;&#x43D;&#x441;&#x43D;&#x435;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_n;&c_s;&c_n;&c_je;</trd>
 </drv>
 
 <drv mrk="naz.alt0a">
@@ -345,7 +375,7 @@
       <ref tip="vid" cel="modest.mal0a.PSI">malmodesta</ref>:
       <ekz>
         la pse&ubreve;dofilozofo estas <klr>...</klr>
-        despota kaj alt<tld/>a 
+        despota kaj alt<tld/>a
         <fnt>
           <aut>V. O&scaron;lak</aut>,
           <vrk>Foje e&ccirc; pensi estas &gcirc;uo</vrk>,
@@ -354,6 +384,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z; &c_z;&c_a;&c_d;&c_z;&c_jo;&c_r;&c_t;&c_y;&c_m; <ind>&c_n;&c_o;&c_s;&c_a;&c_m;</ind></trd>,
+    <trd>&c_p;&c_y;&c_h;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_f;&c_a;&c_n;&c_a;&c_b;&c_e;&c_r;&c_y;&c_s;&c_t;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="en"><trd>nose-in-the-air</trd></trdgrp>
   <trd lng="fr">pr&eacute;tentiard</trd>
   <trdgrp lng="ru">
@@ -382,6 +417,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_ib;&c_r;&c_p;&c_a;&c_n;&c_o;&c_s;&c_y;</trd>,
+    <trd>&c_k;&c_ib;&c_r;&c_p;&c_a;&c_t;&c_y;</trd>
+  </trdgrp>
   <trd lng="ca">de nas arreveixinat</trd>
   <trd lng="en">snub-nosed</trd>
   <trd lng="fr">au <ind>nez en trompette</ind></trd>
@@ -412,6 +451,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_l;&c_ja;&c_r;&c_n;&c_e;&c_t;</trd>
   <trd lng="en">lorgnette</trd>
   <trdgrp lng="fr">
     <trd>face &agrave; main</trd>,
@@ -434,7 +474,7 @@
   </snc>
   <trd lng="cs">s tup&yacute;m nosem <klr>(adj.)</klr></trd>
   <trd lng="sk">s tup&yacute;m nosom</trd>
-  <trd lng="uk">&#x43A;&#x438;&#x440;&#x43F;&#x430;&#x442;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_k;&c_i;&c_r;&c_p;&c_a;&c_t;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="naz.0sono">
@@ -472,15 +512,17 @@
       </trdgrp>
   <trd lng="en">nasal</trd>
   <trd lng="es">nasal</trd>
-  <trd lng="fr">nasale<klr> (subst., consonne ou
-      voyelle)</klr></trd>
+  <trd lng="fr">nasale<klr> (subst., consonne ou voyelle)</klr></trd>
   <trdgrp lng="hu">
         <trd>orrhang</trd>,
         <trd>naz&aacute;lis</trd>
       </trdgrp>
+  <trd lng="id">nasal</trd>
+  <trd lng="ja">&#x9F3B;&#x97F3;  <pr>&#x3073;&#x304A;&#x3093;</pr></trd>
   <trd lng="nl">neusklank</trd>
   <trd lng="ru">&c_n;&c_o;&c_s;&c_o;&c_v;&c_o;&c_j; &c_z;&c_v;&c_u;&c_k;</trd>
   <trd lng="sk">nosovka</trd>
+  <trd lng="zh">&#x9F3B;&#x97F3; <pr>b&#xED;y&#x12B;n</pr></trd>
 </drv>
 
 <drv mrk="naz.0akonsonanto">
@@ -501,11 +543,15 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_s;&c_a;&c_v;&c_y; &c_z;&c_y;&c_ch;&c_n;&c_y;</trd>
   <trd lng="en">nasal consonant</trd>
   <trd lng="fr">consonne nasale</trd>
+  <trdgrp lng="id">
+    <trd><ind>konsonan</ind> nasal</trd>,
+    <trd><ind>konsonan</ind> sengau</trd>
+  </trdgrp>
   <trd lng="pl">sp&oacute;&lstroke;g&lstroke;oska nosowa</trd>
-  <trd lng="ru">&c_n;&c_o;&c_s;&c_o;&c_v;&c_o;&c_j;
-  &c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_n;&c_o;&c_s;&c_o;&c_v;&c_o;&c_j; &c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="naz.0avokalo">
@@ -526,37 +572,43 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_n;&c_a;&c_s;&c_a;&c_v;&c_y; &c_g;&c_a;&c_l;&c_o;&c_s;&c_n;&c_y;</trd>
   <trd lng="de">Nasalvokal</trd>
   <trd lng="en">nasal vowel</trd>
   <trd lng="fr">voyelle nasale</trd>
+  <trdgrp lng="id">
+    <trd><ind>vokal</ind> nasal</trd>,
+    <trd><ind>vokal</ind> sengau</trd>
+  </trdgrp>
   <trd lng="pl">samog&lstroke;oska nosowa</trd>
   <trd lng="ru">&c_n;&c_o;&c_s;&c_o;&c_v;&c_o;&c_j; &c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
+  <trd lng="zh">&#x9F3B;&#x5316;&#x5143;&#x97F3; <pr>b&#xED;hu&#xE0;yu&#xE1;ny&#x12B;n</pr></trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.129 2023/11/22 06:33:01
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.128 2023/10/19 20:12:29
+revo: transskribo per <pr>
+
+versio 1.126 2023/08/29 20:26:51
+Wolfram Diestel: ja: prononco
+
+versio 1.125 2023/06/21 14:30:02
+Dmitri Gabinski: + trd be
+
+versio 1.124 2023/05/14 17:27:00
+Sergio Pokrovskij: + ru o
+
+versio 1.123 2022/12/24 20:27:35
+Ulrich Fellmann: nazumo: +4 pliaj DE trdj
+
 versio 1.122 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.119 2021/11/04 15:40:28
-Noam Mohr: +trd en,zh
-
-versio 1.42 2021/05/13 14:51:56
-Wolfram Diestel: kor. snc@mrk
-
-Revision 1.40  2019/03/03 19:10:16  revo
-Jeromo Vasxe: + man~umo
-
-Revision 1.39  2017/12/20 01:10:18  revo
-Michel Cantigneaux: "naz/um/o" fundamenta kunmetajxo el la U.V.
-
-Revision 1.38  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.37  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.36  2015/01/02 05:10:14  revo
 -->
 </vortaro>

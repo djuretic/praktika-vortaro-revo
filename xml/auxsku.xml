@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: auxsku.xml,v 1.118 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: auxsku.xml,v 1.124 2023/10/28 08:33:10 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>a&ubreve;skult</rad>/i
@@ -76,7 +76,20 @@
       <trd>hallgat</trd>,
       <trd>figyel</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6D17;&#x8033;&#x800C;&#x542C; <pr>x&#x1D0;&#x11B;r&#xE9;rt&#x12B;ng</pr></trd>,
+    <trd>&#x6D17;&#x8033;&#x800C;&#x807D; <pr>x&#x1D0;&#x11B;r&#xE9;rt&#x12B;ng</pr></trd>,
+    <trd>&#x6D17;&#x8033;&#x606D;&#x542C; <pr>x&#x1D0;&#x11B;rg&#x14D;ngt&#x12B;ng</pr></trd>,
+    <trd>&#x6D17;&#x8033;&#x606D;&#x807D; <pr>x&#x1D0;&#x11B;rg&#x14D;ngt&#x12B;ng</pr></trd>,
+    <trd>&#x8046; <pr>l&#xED;ng</pr></trd>,
+    <trd>&#x6240;&#x805E; <pr>su&#x1D2;w&#xE9;n</pr></trd>,
+    <trd>&#x6240;&#x95FB; <pr>su&#x1D2;w&#xE9;n</pr></trd>,
+    <trd>&#x542C;&#x5141; <pr>t&#x12B;ngy&#x1D4;n</pr></trd>,
+    <trd>&#x807D;&#x5141; <pr>t&#x12B;ngy&#x1D4;n</pr></trd>,
+    <trd>&#x6CE8;&#x610F;&#x542C; <pr>zh&#xF9;y&#xEC;t&#x12B;ng</pr></trd>,
+    <trd>&#x6CE8;&#x610F;&#x807D; <pr>zh&#xF9;y&#xEC;t&#x12B;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="auxsku.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -124,15 +137,31 @@
       <trd>s&lstroke;ucha&cacute;</trd>,
       <trd>pos&lstroke;ucha&cacute;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6536;&#x542C; <pr>sh&#x14D;ut&#x12B;ng</pr></trd>,
+    <trd>&#x6536;&#x807D; <pr>sh&#x14D;ut&#x12B;ng</pr></trd>,
+    <trd>&#x8046; <pr>l&#xED;ng</pr></trd>,
+    <trd>&#x6240;&#x805E; <pr>su&#x1D2;w&#xE9;n</pr></trd>,
+    <trd>&#x6240;&#x95FB; <pr>su&#x1D2;w&#xE9;n</pr></trd>,
+    <trd>&#x542C;&#x5141; <pr>t&#x12B;ngy&#x1D4;n</pr></trd>,
+    <trd>&#x807D;&#x5141; <pr>t&#x12B;ngy&#x1D4;n</pr></trd>,
+    <trd>&#x6CE8;&#x610F;&#x542C; <pr>zh&#xF9;y&#xEC;t&#x12B;ng</pr></trd>,
+    <trd>&#x6CE8;&#x610F;&#x807D; <pr>zh&#xF9;y&#xEC;t&#x12B;ng</pr></trd>,
+    <trd>&#x503E;&#x542C; <pr>q&#x12B;ngt&#x12B;ng</pr></trd>,
+    <trd>&#x50BE;&#x807D; <pr>q&#x12B;ngt&#x12B;ng</pr></trd>,
+    <trd>&#x5C5E;&#x4E8E; <pr>sh&#x1D4;y&#xFA;</pr></trd>,
+    <trd>&#x5C6C;&#x65BC; <pr>sh&#x1D4;y&#xFA;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="af">luister</trd>
   <trd lng="am">&#x1235;&#x121B;</trd>
-  <trd lng="ar">&#x627;&#x633;&#x62A;&#x645;&#x639;</trd>
+  <trd lng="ar">&a_A;&a_s;&#x62A;&a_m;&a_ayn;</trd>
   <trd lng="az">qulaq asmaq</trd>
   <trd lng="be">&c_s;&c_l;&c_u;&c_h;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bn">&#x9B6;&#x9C1;&#x9A8;&#x9A4;&#x9C7;</trd>
-  <trd lng="bo">&#xF49;&#xF53; &#xF58;&#xF49;&#xF53; &#xF58;&#xF49;&#xF53; &#xF49;&#xF7C;&#xF53;&#xF0B;</trd>
-  <trd lng="bs">slu&#x161;ati</trd>
+  <trd lng="bo">&#xF49;&#xF53; &#xF58;&#xF49;&#xF53; &#xF58;&#xF49;&#xF53;
+  &#xF49;&#xF7C;&#xF53;&#xF0B;</trd>
+  <trd lng="bs">slu&scaron;ati</trd>
   <trd lng="co">canta</trd>
   <trd lng="cs">poslouchat</trd>
   <trd lng="cy">gwrando</trd>
@@ -151,30 +180,30 @@
   <trd lng="he">&#x5DC;&#x5D4;&#x5E7;&#x5E9;&#x5D9;&#x5D1;</trd>
   <trd lng="hi">&#x938;&#x941;&#x928;&#x94B;</trd>
   <trd lng="hmn">mloog</trd>
-  <trd lng="hr">slu&#x161;aj</trd>
+  <trd lng="hr">slu&scaron;aj</trd>
   <trd lng="ht">koute</trd>
   <trd lng="hy">&#x56C;&#x57D;&#x565;&#x56C;</trd>
   <trd lng="ig">nt&#x1ECB;</trd>
   <trd lng="is">hlusta</trd>
   <trd lng="it">ascoltare</trd>
-  <trd lng="ja">&#x805E;&#x304F;</trd>
+  <trd lng="ja">&#x805E;&#x304F; <pr>&#x304D;&#x304F;</pr></trd>
   <trd lng="jv">ngrungokake</trd>
   <trd lng="ka">&#x10DB;&#x10DD;&#x10E3;&#x10E1;&#x10DB;&#x10D8;&#x10DC;&#x10DD;&#x10E1;</trd>
-  <trd lng="kk">&#x442;&#x44B;&#x4A3;&#x434;&#x430;&#x443;</trd>
+  <trd lng="kk">&c_t;&#x44B;&#x4A3;&c_d;&c_a;&c_u;</trd>
   <trd lng="km">&#x179F;&#x17D2;&#x178F;&#x17B6;&#x1794;&#x17CB;</trd>
   <trd lng="kn">&#xC95;&#xCC7;&#xCB3;&#xCB2;&#xCC1;</trd>
   <trd lng="ko">&#xCCAD;&#xCDE8;</trd>
   <trd lng="ku">g&#xFB;hdarkirin</trd>
-  <trd lng="ky">&#x443;&#x433;&#x443;&#x443;</trd>
+  <trd lng="ky">&c_u;&c_g;&c_u;&c_u;</trd>
   <trd lng="lat">audite</trd>
   <trd lng="lo">&#xEAE;&#xEB1;&#xE9A;&#xE9F;&#xEB1;&#xE87;</trd>
   <trd lng="lt">klausyti</trd>
   <trd lng="lv">klaus&#x12B;ties</trd>
   <trd lng="mg">mihaino</trd>
   <trd lng="mi">whakarongo</trd>
-  <trd lng="mk">&#x441;&#x43B;&#x443;&#x448;&#x430;&#x442;&#x435;</trd>
+  <trd lng="mk">&c_s;&#x43B;&c_u;&c_sh;&c_a;&c_t;&c_je;</trd>
   <trd lng="ml">&#xD15;&#xD47;&#xD7E;&#xD15;&#xD4D;&#xD15;&#xD3E;&#xD7B;</trd>
-  <trd lng="mn">&#x441;&#x43E;&#x43D;&#x441;&#x43E;&#x445;</trd>
+  <trd lng="mn">&c_s;&#x43E;&#x43D;&c_s;&#x43E;&c_h;</trd>
   <trd lng="mr">&#x910;&#x915;&#x93E;</trd>
   <trd lng="ms">mendengar</trd>
   <trd lng="mt">jisimg&#x127;u</trd>
@@ -185,14 +214,14 @@
   <trd lng="ny">kumvetsera</trd>
   <trd lng="pa">&#xA17;&#xA71;&#xA32; &#xA38;&#xA41;&#xA23;&#xA4B;</trd>
   <trd lng="pl">s&lstroke;ucha&cacute;</trd>
-  <trd lng="ps">&#x63A;&#x648;&#x696;</trd>
+  <trd lng="ps">&#x63A;&a_w;&#x696;</trd>
   <trd lng="pt">escutar</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_sh;&c_a;&c_t;&c_mol;</trd>
   <trd lng="rw">umva</trd>
-  <trd lng="sd">&#x633;&#x646;</trd>
+  <trd lng="sd">&a_s;&a_n;</trd>
   <trd lng="si">&#xDC3;&#xDC0;&#xDB1;&#xDCA;</trd>
   <trd lng="sk">po&ccaron;&uacute;va&tcaron;</trd>
-  <trd lng="sl">poslu&#x161;ati</trd>
+  <trd lng="sl">poslu&scaron;ati</trd>
   <trd lng="sm">faalogo</trd>
   <trd lng="sn">teerera</trd>
   <trd lng="so">dhegayso</trd>
@@ -202,15 +231,15 @@
   <trd lng="sw">kusikiliza</trd>
   <trd lng="ta">&#xB95;&#xBC7;&#xB9F;&#xBCD;&#xB95;</trd>
   <trd lng="te">&#xC35;&#xC3F;&#xC28;&#xC02;&#xC21;&#xC3F;</trd>
-  <trd lng="tg">&#x433;&#x4EF;&#x448; &#x43A;&#x430;&#x440;&#x434;&#x430;&#x43D;</trd>
+  <trd lng="tg">&c_g;&#x4EF;&c_sh; &#x43A;&c_a;&c_r;&c_d;&c_a;&#x43D;</trd>
   <trd lng="th">&#xE1F;&#xE31;&#xE07;</trd>
   <trd lng="tl">makinig</trd>
   <trd lng="tok">kute</trd>
   <trd lng="tr">dinlemek</trd>
   <trd lng="kek">ab&#x315;ink</trd>
-  <trd lng="tt">&#x442;&#x44B;&#x4A3;&#x43B;&#x430;</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x443;&#x445;&#x430;&#x442;&#x438;</trd>
-  <trd lng="ur">&#x633;&#x646;&#x646;&#x627;</trd>
+  <trd lng="tt">&c_t;&#x44B;&#x4A3;&#x43B;&c_a;</trd>
+  <trd lng="uk">&c_s;&#x43B;&c_u;&c_h;&c_a;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_s;&a_n;&a_n;&a_A;</trd>
   <trd lng="uz">tinglash</trd>
   <trd lng="vi">l&#x1EAF;ng nghe</trd>
   <trd lng="xh">ukuphulaphula</trd>
@@ -265,7 +294,7 @@
       <dif>
         Iu, kiu <tld/>as la elsendojn de radistacio:
         <ekz>
-          ni reagas kaj citas el la lastaj koresponda&jcirc;oj de niaj 
+          ni reagas kaj citas el la lastaj koresponda&jcirc;oj de niaj
           <tld/>antoj
           <fnt>
             <aut>B. Pietrzak</aut>,
@@ -277,17 +306,19 @@
         <ekz>
           nekutima konkurso kaptis la atenton de <tld/>antoj de komerca radiostacio en
           Litovio
-          <fnt>
-            <bib>Monato</bib>
-            <aut>LAST</aut>
-            <lok><url ref="&Steloj;monato2/006934.html">&Steloj;monato2/006934.html</url></lok>
-          </fnt>;
+          <fnt><aut>LAST/pg</aut>,
+        <vrk><url ref="&Monato;/2000/006934.php">Nekutima konkurso</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/09, p. 12</lok>
+        </fnt>;
         </ekz>
         <ekz>
           <tld/>antoj de arabaj radiostacioj sen&ccirc;ese petas rea&ubreve;digi &scirc;iajn 280 kantojn
           <fnt>
+          <aut>Konrad Hinsen</aut>
+            <vrk><url ref="&Monato;/2000/007063.php">Um Keltum'</url></vrk>
             <bib>Monato</bib>
-            <vrk><url ref="&Steloj;monato2/007063.html">Um Keltum'</url></vrk>
+            <lok>2000/09, p. 15</lok>
           </fnt>;
         </ekz>
         <ekz>
@@ -307,10 +338,15 @@
       <trd lng="no">lytter</trd>
     </subsnc>
     <trd lng="de">Zuh&ouml;rer</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x542C;&#x8005; <pr>t&#x12B;ngzh&#x11B;</pr></trd>,
+    <trd>&#x807D;&#x8005; <pr>t&#x12B;ngzh&#x11B;</pr></trd>
+  </trdgrp>
+</snc>
+  <trd lng="be">&c_s;&c_l;&c_u;&c_h;&c_a;&c_ch;</trd>
   <trd lng="he">&#x5DE;&#x5B7;&#x5D0;&#x5B2;&#x5D6;&#x5B4;&#x5D9;&#x5DF;</trd>
   <trd lng="kek">ab&#x315;inel</trd>
-  <trd lng="uk">&#x441;&#x43B;&#x443;&#x445;&#x430;&#x447;</trd>
+  <trd lng="uk">&c_s;&#x43B;&c_u;&c_h;&c_a;&c_ch;</trd>
 </drv>
 
 <drv mrk="auxsku.0ilo">
@@ -347,6 +383,12 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_l;&c_u;&c_h;&c_a;&c_w;&c_k;&c_a;</trd>,
+    <trd>&c_n;&c_a;&c_v;&c_u;&c_sh;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_s;&c_l;&c_y;&c_h;&c_a;&c_v;&c_y; &c_t;&c_e;&c_l;&c_je;&c_f;&c_o;&c_n;</trd>,
+    <trd>&c_s;&c_l;&c_y;&c_h;&c_a;&c_v;&c_y; &c_a;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
+  </trdgrp>
   <trd lng="br">selaouell</trd>
   <trd lng="de">H&ouml;rer <klr>(Telefon)</klr></trd>
   <trd lng="fr">&eacute;couteur</trd>
@@ -360,9 +402,15 @@
     <trd>&c_sh;&c_l;&c_je;&c_m;&c_o;&c_f;&c_o;&c_n;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x43B;&#x443;&#x445;&#x430;&#x432;&#x43A;&#x430;</trd>,
-    <trd>(&#x442;&#x435;&#x43B;&#x435;&#x444;&#x43E;&#x43D;&#x43D;&#x430;) &#x442;&#x440;&#x443;&#x431;&#x43A;&#x430;</trd>,
-    <trd>&#x441;&#x442;&#x435;&#x442;&#x43E;&#x441;&#x43A;&#x43E;&#x43F;</trd>
+    <trd>&c_s;&#x43B;&c_u;&c_h;&c_a;&c_v;&#x43A;&c_a;</trd>,
+    <trd>(&c_t;&c_je;&#x43B;&c_je;&c_f;&#x43E;&#x43D;&#x43D;&c_a;) &c_t;&c_r;&c_u;&c_b;&#x43A;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_je;&c_t;&#x43E;&c_s;&#x43A;&#x43E;&#x43F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7535;&#x8BDD;&#x542C;&#x7B52; <pr>di&#xE0;nhu&#xE0;t&#x12B;ngt&#x1D2;ng</pr></trd>,
+    <trd>&#x96FB;&#x8A71;&#x807D;&#x7B52; <pr>di&#xE0;nhu&#xE0;t&#x12B;ngt&#x1D2;ng</pr></trd>,
+    <trd>&#x542C;&#x7B52; <pr>t&#x12B;ngt&#x1D2;ng</pr></trd>,
+    <trd>&#x807D;&#x7B52; <pr>t&#x12B;ngt&#x1D2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -374,9 +422,9 @@
       Sisteme <tld/>i la internajn bruojn de la korpo por
       <ref tip="vid" cel="diagno.0o.MED">diagnozo</ref>:
       <ekz>
-        la kuracisto <tld/>umas Krukon, esploras &ccirc;iujn liajn organojn 
+        la kuracisto <tld/>umas Krukon, esploras &ccirc;iujn liajn organojn
         kaj poste demandas lin pri lia seksumado
-        <fnt><aut>L. Beaucaire</aut>, <vrk>Kruko kaj Baniko el 
+        <fnt><aut>L. Beaucaire</aut>, <vrk>Kruko kaj Baniko el
         Bervalo</vrk>, <lok>1974</lok></fnt>;
       </ekz>
       <ekz>
@@ -389,6 +437,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_y;&c_s;&c_l;&c_u;&c_h;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_w;&c_s;&c_k;&c_u;&c_l;&c_mol;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="de">abh&ouml;ren <klr>(Med.)</klr></trd>
   <trd lng="fr">ausculter</trd>
   <trd lng="he">&#x5DC;&#x5D4;&#x5D0;&#x5D6;&#x5D9;&#x5DF;</trd>
@@ -440,21 +492,30 @@
         de direkto en la &gcirc;enerala kurso a&ubreve; kontra&ubreve;submarina zigzago
         <fnt>
           <aut>J. German</aut>
-          <vrk><url ref="https://esperanto.mv.ru/German/mi_responsas-12-1.html">Mi responsas pri &ccirc;io</url></vrk>
+          <vrk><url ref="https://esperanto.mv.ru/German/mi_responsas-12-1.html">Mi responsas pri
+          &ccirc;io</url></vrk>
         </fnt>?
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_u;&c_s;&c_l;&c_u;&c_h;&c_o;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_s;&c_l;&c_u;&c_h;&c_o;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="de">angespannt <ind>lauschen</ind></trd>
   <trd lng="fr">tendre l'oreille</trd>
   <trd lng="it">tendere le orecchie</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x441;&#x43B;&#x443;&#x445;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x432;&#x441;&#x43B;&#x443;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x432;&#x441;&#x43B;&#x443;&#x445;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x441;&#x43B;&#x443;&#x445;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x441;&#x43B;&#x443;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x441;&#x43B;&#x443;&#x445;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
+    <trd>&c_v;&c_s;&#x43B;&c_u;&c_h;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_v;&c_s;&#x43B;&c_u;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_v;&c_s;&#x43B;&c_u;&c_h;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_s;&#x43B;&c_u;&c_h;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_s;&#x43B;&c_u;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_s;&#x43B;&c_u;&c_h;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5782;&#x542C; <pr>chu&#xED;t&#x12B;ng</pr></trd>,
+    <trd>&#x5782;&#x807D; <pr>chu&#xED;t&#x12B;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -466,7 +527,7 @@
       <ref tip="dif" cel="auxd.kap0ilo.ELE">Kapa&ubreve;dilo</ref>
       <ekz>
         krei sian propran sonmondon? iuj faras tion &ndash; tute konkrete
-        per kap<tld/>iloj 
+        per kap<tld/>iloj
         <fnt>
           <aut>M. Sandelin</aut>,
           <vrk><url ref="http://mariasandelin.livejournal.com">[blogo]</url></vrk>,
@@ -494,7 +555,16 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8033;&#x673A; <pr>&#x11B;rj&#x12B;</pr></trd>,
+    <trd>&#x8033;&#x6A5F; <pr>&#x11B;rj&#x12B;</pr></trd>,
+    <trd>&#x8033;&#x7B52; <pr>&#x11B;rt&#x1D2;ng</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_v;&c_u;&c_sh;&c_n;&c_ib;&c_k;</trd>,
+    <trd>&c_s;&c_l;&c_y;&c_h;&c_a;&c_v;&c_y; &c_t;&c_e;&c_l;&c_je;&c_f;&c_o;&c_n;</trd>
+  </trdgrp>
   <trd lng="de">Kopfh&ouml;rer</trd>
   <trd lng="fr">casque<klr tip="ind"> (&agrave; &eacute;couteurs)</klr></trd>
   <trd lng="it">cuffia<klr> (auricolari)</klr></trd>
@@ -558,7 +628,11 @@
         </trdgrp>
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5077;&#x542C; <pr>t&#x14D;ut&#x12B;ng</pr></trd>,
+    <trd>&#x5077;&#x807D; <pr>t&#x14D;ut&#x12B;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_p;&c_a;&c_d;&c_s;&c_l;&c_u;&c_h;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="de">
     <trd>lauschen</trd>,
@@ -577,14 +651,29 @@
     <trd>&c_p;&c_o;&c_d;&c_s;&c_l;&c_u;&c_sh;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x456;&#x434;&#x441;&#x43B;&#x443;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x456;&#x434;&#x441;&#x43B;&#x443;&#x445;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x456;&#x434;&#x441;&#x43B;&#x443;&#x445;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43F;&c_ib;&c_d;&c_s;&#x43B;&c_u;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_ib;&c_d;&c_s;&#x43B;&c_u;&c_h;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_ib;&c_d;&c_s;&#x43B;&c_u;&c_h;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.123 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.122 2023/08/29 20:27:16
+Wolfram Diestel: ja: prononco
+
+versio 1.121 2023/04/29 16:32:06
+Paul Peeraerts: Steloj -> monato
+
+versio 1.120 2023/04/27 08:30:49
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.119 2022/12/28 08:32:15
+Dmitri Gabinski: + trd be
+
 versio 1.118 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -592,20 +681,5 @@ versio 1.117 2022/04/25 15:11:00
 aktualigo ligvokodoj kaj URL-unuoj
 
 Revision 1.36  2015/09/24 10:10:19  revo
-Evandro Avellar: +trd pt
-
-Revision 1.35  2014/12/25 10:10:14  revo
-Filip van Laenen: +trd(nl,no)
-
-Revision 1.34  2012/01/04 11:10:12  revo
-Antonio Codazzi: +trd it
-
-Revision 1.33  2011/11/07 01:10:25  revo
- Anchise Inzaghi: traduko q'eqchi'
-
-Revision 1.32  2011/02/18 16:10:11  revo
-Jeromo Vasxe: + ~anto
-
-Revision 1.31  2010/06/17 16:31:01  revo
 -->
 </vortaro>

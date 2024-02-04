@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: monopo.xml,v 1.25 2022/03/23 14:02:26 revo Exp $">
+<art mrk="$Id: monopo.xml,v 1.29 2024/01/26 19:05:53 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>monopol</rad>/o <fnt><bib>PV</bib></fnt> 
@@ -67,6 +67,12 @@
   <trd lng="de">Monopol</trd>
   <trd lng="es">monopolio</trd>
   <trd lng="fr">monopole</trd>
+  <trdgrp lng="ja">
+    <trd>&#x72EC;&#x5360;  <pr>&#x3069;&#x304F;&#x305B;&#x3093;</pr></trd>,
+    <trd>&#x5C02;&#x58F2;  <pr>&#x305B;&#x3093;&#x3070;&#x3044;</pr></trd>,
+    <trd>&#x5360;&#x6709;  <pr>&#x305B;&#x3093;&#x3086;&#x3046;</pr></trd>,
+    <trd>&#x72EC;&#x308A;&#x5360;&#x3081;  <pr>&#x3072;&#x3068;&#x308A;&#x3058;&#x3081;</pr></trd>
+  </trdgrp>
   <trd lng="nl">monopool</trd>
   <trd lng="pl">monopol</trd>
   <trd lng="ro">monopol</trd>
@@ -74,7 +80,11 @@
   <trd lng="sk">monopol</trd>
   <trd lng="sv">monopol</trd>
   <trd lng="tr">tekel</trd>
-  <trd lng="uk">&#x43C;&#x43E;&#x43D;&#x43E;&#x43F;&#x43E;&#x43B;&#x456;&#x44F;</trd>
+  <trd lng="uk">&#x43C;&#x43E;&#x43D;&#x43E;&#x43F;&#x43E;&#x43B;&c_ib;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5784;&#x65AD; <pr>l&#x1D2;ngdu&#xE0;n</pr></trd>,
+    <trd>&#x58DF;&#x65B7; <pr>l&#x1D2;ngdu&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="monopo.absoluta0o">
@@ -169,7 +179,17 @@
   <trd lng="ro">monopoliza</trd>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_o;&c_p;&c_o;&c_l;&c_i;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">monopolizova&tcaron;</trd>
-  <trd lng="uk">&#x43C;&#x43E;&#x43D;&#x43E;&#x43F;&#x43E;&#x43B;&#x456;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&#x43C;&#x43E;&#x43D;&#x43E;&#x43F;&#x43E;&#x43B;&c_ib;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5784;&#x65AD; <pr>l&#x1D2;ngdu&#xE0;n</pr></trd>,
+    <trd>&#x58DF;&#x65B7; <pr>l&#x1D2;ngdu&#xE0;n</pr></trd>,
+    <trd>&#x4E13;&#x8425; <pr>zhu&#x101;ny&#xED;ng</pr></trd>,
+    <trd>&#x5C08;&#x71DF; <pr>zhu&#x101;ny&#xED;ng</pr></trd>,
+    <trd>&#x5305;&#x63FD; <pr>b&#x101;ol&#x1CE;n</pr></trd>,
+    <trd>&#x5305;&#x652C; <pr>b&#x101;ol&#x1CE;n</pr></trd>,
+    <trd>&#x72EC;&#x5360; <pr>d&#xFA;zh&#xE0;n</pr></trd>,
+    <trd>&#x7368;&#x4F54; <pr>d&#xFA;zh&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="monopo.eksport0o">
@@ -182,7 +202,10 @@
   </snc>
   <trd lng="be">&c_e;&c_k;&c_s;&c_p;&c_a;&c_r;&c_t;&c_n;&c_a;&c_ja;
   <ind>&c_m;&c_a;&c_n;&c_a;&c_p;&c_o;&c_l;&c_ib;&c_ja;</ind></trd>
-  <trd lng="de">Exportmonopol</trd>
+    <trdgrp lng="de">
+      <trd>Ausfuhrmonopol</trd>,
+      <trd>Exportmonopol</trd>
+    </trdgrp>
   <trd lng="en">export monopoly</trd>
   <trd lng="pl">monopol eksportowy</trd>
   <trd lng="ro">monopolul exportului</trd>
@@ -201,7 +224,10 @@
   <trd lng="be">&c_ib;&c_m;&c_p;&c_a;&c_r;&c_t;&c_n;&c_a;&c_ja;
   <ind>&c_m;&c_a;&c_n;&c_a;&c_p;&c_o;&c_l;&c_ib;&c_ja;</ind></trd>
   <trd lng="cs">dovozn&iacute; monopol</trd>
-  <trd lng="de">Importmonopol</trd>
+    <trdgrp lng="de">
+      <trd>Einfuhrmonopol</trd>,
+      <trd>Importmonopol</trd>
+    </trdgrp>
   <trd lng="en">import monopoly</trd>
   <trd lng="pl">monopol importu</trd>
   <trd lng="ro">monopolul importurilor</trd>
@@ -227,7 +253,7 @@
   <trd lng="ro">monopol de stat</trd>
   <trd lng="ru">&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_a;&c_ja;
   <ind>&c_m;&c_o;&c_n;&c_o;&c_p;&c_o;&c_l;&c_i;&c_ja;</ind></trd>
-  <trd lng="uk">&#x434;&#x435;&#x440;&#x436;&#x430;&#x432;&#x43D;&#x430; &#x43C;&#x43E;&#x43D;&#x43E;&#x43F;&#x43E;&#x43B;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_v;&#x43D;&c_a; &#x43C;&#x43E;&#x43D;&#x43E;&#x43F;&#x43E;&#x43B;&c_ib;&#x44F;</trd>
 </drv>
 
 <drv mrk="monopo.0profitoj">
@@ -240,11 +266,18 @@
   </snc>
   <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_ja;
   &c_p;&c_r;&c_y;&c_b;&c_y;&c_t;&c_k;&c_ib;</trd>
-  <trd lng="de">Monopolprofite</trd>
+    <trdgrp lng="de">
+      <trd>Monopolgewinne</trd>,
+      <trd>Monopolprofite</trd>
+    </trdgrp>
   <trd lng="pl">zyski  <ind>monopolistyczne</ind></trd>
   <trd lng="ro">profiturile monopoliste</trd>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_o;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja;
   &c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_mol;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5784;&#x65AD;&#x5229;&#x6DA6; <pr>l&#x1D2;ngdu&#xE0;nl&#xEC;r&#xF9;n</pr></trd>,
+    <trd>&#x58DF;&#x65B7;&#x5229;&#x6F64; <pr>l&#x1D2;ngdu&#xE0;nl&#xEC;r&#xF9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="monopo.0akapitalo">
@@ -259,6 +292,7 @@
   <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_y;
   &c_k;&c_a;&c_p;&c_ib;&c_t;&c_a;&c_l;</trd>
   <trd lng="de">Monopolkapital</trd>
+  <trd lng="ja">&#x72EC;&#x5360;&#x8CC7;&#x672C;  <pr>&#x3069;&#x304F;&#x305B;&#x3093;&#x3057;&#x307B;&#x3093;</pr></trd>
   <trd lng="pl">kapita&lstroke;  <ind>monopolistyczny</ind></trd>
   <trd lng="ro">capital de monopol</trd>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_o;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;
@@ -267,6 +301,12 @@
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/19 18:36:53
+revo: transskribo per <pr>
+
+versio 1.26 2023/02/11 18:31:56
+Ulrich Fellmann: +3 pliaj DE trdj
+
 versio 1.24 2021/05/10 18:13:54
 Vito Redsky: +trd pl +trd ro
 
@@ -283,11 +323,5 @@ Revision 1.19  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.18  2010/08/03 16:31:51  revo
-Russ Williams: +trd en
-
-Revision 1.17  2009/08/28 16:30:53  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.16  2003/09/01 16:31:51  revo
 -->
 </vortaro>

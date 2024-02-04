@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: voj.xml,v 1.166 2022/11/17 09:30:23 revo Exp $">
+<art mrk="$Id: voj.xml,v 1.177 2023/10/21 16:50:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>voj</rad>/o <fnt><bib>PV</bib></fnt>
@@ -63,7 +63,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Vladimir Lemelev</aut>
-          <vrk><url ref="https://www.monato.net/2010/010071.php">Antikva, sed
+          <vrk><url ref="&Monato;/2010/010071.php">Antikva, sed
           ankora&ubreve; malica gasto</url></vrk>
         </fnt>.
       </ekz>
@@ -104,10 +104,10 @@
           la <tld/>o de tiu domo al la publika &scirc;oseo estas tre
           malbonstata privata <tld/>o
           <fnt>
+          <aut>Donald Broadribb</aut>
+            <vrk><url ref="&Monato;/2000/007079.php">Inter la dek plej bonaj romanoj</url></vrk>
             <bib>Monato</bib>
-            <aut>Boris Kolker</aut>
-            <vrk><url ref="&Steloj;monato2/007079.html">Inter
-            la dek plej bonaj romanoj</url></vrk>
+            <lok>2000/11, p. 26</lok>
           </fnt>;
         </ekz>
         <ekz>
@@ -116,7 +116,7 @@
         <ekz>
       	  <ind>mastro en <tld/>o, servantoj en &gcirc;ojo</ind>
       	  <fnt><bib>PrV</bib></fnt>;
-      	  <trd lng="fr">quand le <ind>chat</ind> n'est pas l&agrave; 
+      	  <trd lng="fr">quand le <ind>chat</ind> n'est pas l&agrave;
       	  les souris dansent</trd>
       	  <trd lng="hu">ha nincs otthon a macska, cincognak az
       	  egerek</trd>
@@ -124,7 +124,7 @@
         <ekz>
   	  <ind>kiu &ccirc;e l' <tld/>o konstruas, tiun &ccirc;iu instruas</ind>
   	  <fnt><bib>PrV</bib></fnt>;
-  	  <trd lng="hu">ki az &uacute;ton &eacute;p&iacute;t, sok 
+  	  <trd lng="hu">ki az &uacute;ton &eacute;p&iacute;t, sok
   	  b&iacute;r&oacute;ra tal&aacute;l</trd>
         </ekz>
         <ekz>
@@ -156,6 +156,7 @@
         <trd>&c_p;&c_malmol;&c_t;</trd>,
         <trd>&c_p;&c_malmol;&c_t;&c_je;&c_k;&c_a;</trd>
       </trdgrp>
+      <trd lng="en">road</trd>
       <trdgrp lng="fr">
         <trd>route</trd>
       </trdgrp>
@@ -194,7 +195,8 @@
     <trdgrp lng="fr">
       <trd>voie</trd>
     </trdgrp>
-    <trd lng="hi">&#x92E;&#x93E;&#2352;&#x94D;&#2327; [<ind>m&#5585;rg</ind>]</trd>
+    <trd lng="hi">&#x92E;&#x93E;&#2352;&#x94D;&#2327; [<ind>mārg</ind>]</trd>
+    <trd lng="id">jalan</trd>
     <trdgrp lng="it">
       <trd>via</trd>, <trd>tragitto</trd>,<trd>percorso</trd>
     </trdgrp>
@@ -271,6 +273,7 @@
       <ref cel="ten.sin0o">sinteno</ref>
     </refgrp>
     <trd lng="bo">&t_la;&t_ma;&t_tsheg;</trd>
+    <trd lng="id">cara</trd>
     <trdgrp lng="it">
       <trd>via<klr> (fig)</klr></trd>, <trd>strada<klr>
       (fig)</klr></trd>
@@ -312,7 +315,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Edmund Grimley Evans</aut>
-          <vrk><url ref="https://www.monato.net/2009/009593.php">Porte(b)la
+          <vrk><url ref="&Monato;/2009/009593.php">Porte(b)la
           Ilustrita Vortaro</url></vrk>
         </fnt>.
       </ekz>    </dif>
@@ -321,6 +324,7 @@
       <trd>&c_ch;&c_y;&c_n;</trd>
     </trdgrp>
     <trd lng="hu">m&oacute;d</trd>
+    <trd lng="id">cara</trd>
     <trdgrp lng="it">
       <trd>via<klr> (fig)</klr></trd>
     </trdgrp>
@@ -341,9 +345,9 @@
 	<klr>(en <ref cel="spac.topologia0o">topologia spaco</ref>
 	<frm am="bb E"><g>E</g></frm>) </klr>
 	<ref cel="kontin3.0a.cxie">Kontinua</ref>
-	<ref tip="super" cel="bild.0igo.MAT">bildigo</ref> 
+	<ref tip="super" cel="bild.0igo.MAT">bildigo</ref>
 	<frm am="phi">&phi;</frm> de
-	la reela <ref cel="interv.0o.MAT">intervalo</ref> 
+	la reela <ref cel="interv.0o.MAT">intervalo</ref>
 	<frm am="[0,1]">[0,1]</frm>
 	al <frm am="bb E"><g>E</g></frm>:
 	<ekz>
@@ -506,7 +510,6 @@
   <trd lng="zu">indlela</trd>
 </drv>
 
-
 <drv mrk="voj.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
@@ -519,6 +522,7 @@
 	<fnt><bib>PrV</bib></fnt>;
 	<trd lng="fr">les chiens aboient la <ind>caravane</ind> passe</trd>
 	<trd lng="hu">a kutya ugat, a karav&aacute;n halad</trd>
+        <trd lng="id"><ind>anjing</ind> menggonggong, kafilah berlalu</trd>
       </ekz>
       <ekz>
         &gcirc;i lante pasas, malrapide <tld/>as al <klr>[&#8230;]</klr> definitiva
@@ -526,7 +530,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Nicolino Rossi</aut>
-          <vrk><url ref="https://www.monato.net/2013/011144.php">Familio-sagao,
+          <vrk><url ref="&Monato;/2013/011144.php">Familio-sagao,
           kun lar&gcirc;e variigitaj psikologiaj portretoj</url></vrk>
         </fnt>.
       </ekz>
@@ -554,6 +558,11 @@
   <trdgrp lng="it">
       <trd>andare</trd>, <trd>viaggiare</trd>, <trd>camminare</trd>
     </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x305F;&#12393;&#x308B;</trd>,
+    <trd>&#36914;&#12416;  <pr>&#12377;&#12373;&#12416;</pr></trd>,
+    <trd>&#36947;&#12434;&#x884C;&#x304F;  <pr>&#12393;&#12358;&#12434;&#12356;&#x304F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>i&sacute;&cacute; drog&aogonek;</trd>,
     <trd>i&sacute;&cacute; po drodze</trd>,
@@ -581,7 +590,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garbhan MacAoidh</aut>
-          <vrk><url ref="https://www.monato.net/2006/008699.php">Kara
+          <vrk><url ref="&Monato;/2006/008699.php">Kara
           antikva malpura Dublino</url></vrk>
         </fnt>.
       </ekz>
@@ -593,9 +602,11 @@
     <trd>r&eacute;seau routier</trd>
   </trdgrp>
   <trd lng="hu">&uacute;th&aacute;l&oacute;zat</trd>
+  <trd lng="id"><ind>jaring</ind>an jalan</trd>
   <trdgrp lng="it">
       <trd><ind>rete</ind> viaria</trd>
     </trdgrp>
+  <trd lng="ja">&#36947;&#x8DEF;&#x7DB2;  <pr>&#12393;&#12358;&#x308D;&#12418;&#12358;</pr></trd>
   <trd lng="nl">wegennet</trd>
   <trd lng="pl">sie&cacute; <ind>drogowa</ind></trd>
   <trd lng="ru">&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;&c_n;&c_a;&c_ja;
@@ -659,6 +670,10 @@
       <trd>via</trd>, <trd>strada<klr> secondaria</klr></trd>,
        <trd>sentiero</trd>, <trd>stradina</trd>
     </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#36947;  <pr>&#12371;&#x307F;&#12385;</pr></trd>,
+    <trd>&#x7D30;&#36947;  <pr>&#x307B;&#x305D;&#x307F;&#12385;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
       <trd>dr&oacute;&zdot;ka</trd>,
       <trd>&sacute;cie&zdot;ka</trd>,
@@ -681,8 +696,6 @@
     <trd>&c_s;&c_t;&c_je;&c_zh;&#x43A;&c_a;</trd>
   </trdgrp>
 </drv>
-
-
 
 <drv mrk="voj.cxirkaux0o">
   <kap>&ccirc;irka&ubreve;<tld/>o</kap>
@@ -761,7 +774,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo Minnaja</aut>
-          <vrk><url ref="https://www.monato.net/2003/008067.html">Marioneto &ccirc;iam
+          <vrk><url ref="&Monato;/2003/008067.html">Marioneto &ccirc;iam
           aktuala</url></vrk>
         </fnt>;
       </ekz>
@@ -770,7 +783,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.net/2014/011237.php">Alianco
+          <vrk><url ref="&Monato;/2014/011237.php">Alianco
           kontra&ubreve; devojigoj</url></vrk>
         </fnt>.
       </ekz>
@@ -788,6 +801,15 @@
     <trd>d&eacute;praver</trd>
     <trd>d&eacute;vier<klr> (tr.)</klr></trd>,
     <trd>d&eacute;voyer</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#36947;&#x304B;&#12425;&#x305D;&#12425;&#x305B;&#x308B; 
+    <pr>&#12393;&#12358;&#x304B;&#12425;&#x305D;&#12425;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#36947;&#12434;&#x8AA4;&#12425;&#x305B;&#x308B;  <pr>&#12393;&#12358;&#12434;&#12354;&#12420;&#x307E;&#12425;&#x305B;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>simpang</baz>menyimpangkan</trd>,
+    <trd><baz>seleweng</baz>menyelewengkan</trd>
   </trdgrp>
   <trd lng="sk">zvies&tcaron; z cesty</trd>
 </drv>
@@ -833,7 +855,7 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_z;&c_mol;&c_b;&c_ib;&c_c;&c_c;&c_a; &c_z; <ind>&c_d;&c_a;&c_r;&c_o;&c_g;&c_ib;</ind></trd>
-  
+
   <trd lng="es">desviarse</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;vier<klr tip="ind"> (intr.)</klr></trd>,
@@ -842,14 +864,24 @@
   <trd lng="he">&lamed;&samekh;&tet;&vav;&tav; &mem;&he;&mem;&samekh;
   &lamed;&vav;&lamed;</trd>
   <trd lng="hu">let&eacute;r az <ind>&uacute;tr&oacute;l</ind></trd>
+  <trdgrp lng="id">
+    <trd><baz>simpang</baz>menyimpang</trd>,
+    <trd><baz>seleweng</baz>menyeleweng</trd>
+  </trdgrp>
   <trdgrp lng="it">
       <trd>deviare<klr> (intr.)</klr></trd>, <trd>perdersi</trd>
     </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x308F;&#x304D;&#36947;&#x306B;&#x305D;&#x308C;&#x308B; 
+    <pr>&#x308F;&#x304D;&#x307F;&#12385;&#x306B;&#x305D;&#x308C;&#x308B;</pr></trd>,
+    <trd>&#36947;&#12434;&#x8E0F;&#x307F;&#x306F;&#x305A;&#12377;  <pr>&#12393;&#12358;&#12434;&#12405;&#x307F;&#x306F;&#x305A;&#12377;</pr></trd>,
+    <trd>&#36920;&#33073;&#12377;&#x308B;  <pr>&#12356;&#12388;&#12384;&#12388;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>zej&sacute;&cacute; z drogi</trd>,
     <trd>zjecha&cacute; z drogi</trd>,
     <trd>zej&sacute;&cacute; na manowce</trd>,
-    <trd>wykolei&cacute; si&eogonek;<klr> 
+    <trd>wykolei&cacute; si&eogonek;<klr>
     (tak&zdot;e w przeno&sacute;ni)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_s;
@@ -888,9 +920,14 @@
     <trd>&mem;&samekh;&ayin;&fpe;</trd>
   </trdgrp>
   <trd lng="hu">&uacute;tel&aacute;gaz&aacute;s</trd>
+  <trdgrp lng="id">
+    <trd>bifurkasi</trd>,
+    <trd>per<ind>cabang</ind>an dua</trd>
+  </trdgrp>
   <trdgrp lng="it">
       <trd>bivio</trd>, <trd>biforcazione</trd>
     </trdgrp>
+  <trd lng="ja">&#20998;&#x5C90;  <pr>&#12406;&#12435;&#x304D;</pr></trd>
   <trdgrp lng="pl">
     <trd>rozdro&zdot;e</trd>,
     <trd>rozjazd</trd>,
@@ -931,7 +968,7 @@
     <trd>zej&sacute;&cacute; z drogi</trd>,
     <trd>zjecha&cacute; z drogi</trd>,
     <trd>zej&sacute;&cacute; na manowce</trd>,
-    <trd>wykolei&cacute; si&eogonek;<klr> 
+    <trd>wykolei&cacute; si&eogonek;<klr>
     (tak&zdot;e w przeno&sacute;ni)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja; &c_s; &c_p;&c_u;&c_t;&c_i;</trd>
@@ -950,7 +987,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="https://www.monato.net/2015/011481.php">Estingi
+          <vrk><url ref="&Monato;/2015/011481.php">Estingi
           fajron per sonoj</url></vrk>
         </fnt>;
       </ekz>
@@ -961,7 +998,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo MINNAJA</aut>
-          <vrk><url ref="https://www.monato.net/2003/008067.html">Marioneto &ccirc;iam
+          <vrk><url ref="&Monato;/2003/008067.html">Marioneto &ccirc;iam
           aktuala</url></vrk>
         </fnt>.
       </ekz>
@@ -995,11 +1032,15 @@
     <trd>avviare</trd>,
     <trd>incamminare</trd>
     </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#21521;&#x304B;&#x308F;&#x305B;&#x308B;  <pr>&#12416;&#x304B;&#x308F;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x8ECC;&#36947;&#x306B;&#x306E;&#x305B;&#x308B; 
+    <pr>&#x304D;&#12393;&#12358;&#x306B;&#x306E;&#x305B;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_y;&c_j;&c_t;&c_i; &c_n;&c_a; &c_p;&c_u;&c_t;&c_mol;</trd>
   <trd lng="sk">zavies&tcaron; na spr&aacute;vnu cestu</trd>
   <trd lng="uk">&c_v;&c_i;&c_v;&#x43E;&c_d;&c_i;&c_t;&c_i; &#x43D;&c_a; &#x43F;&c_r;&c_a;&c_v;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&c_j; &c_sh;&#x43B;&#x44F;&c_h;</trd>
 </drv>
-
 
 <drv mrk="voj.preter0e">
   <kap>preter<tld/>e,
@@ -1019,7 +1060,7 @@
       </ekz>
       <ekz>
         preter<tld/>e li vizitis al <nom>Han</nom> en malbonega humoro
-        kaj kun 
+        kaj kun
         delirecaj vortoj
         <fnt>
           <aut>Pu Songling, trad. guozhu</aut>
@@ -1037,8 +1078,8 @@
     <trd>&c_z;&c_a;&c_r;&c_a;&c_z;&c_o;&c_m;</trd>
   </trdgrp>
   <trd lng="fr">au passage</trd>
+  <trd lng="id"><ind>sambil</ind> lalu</trd>
 </drv>
-
 
 <drv mrk="voj.sur0i">
   <kap>sur<tld/>i</kap>
@@ -1060,7 +1101,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url ref="https://www.monato.net/2003/008061.html">Usono
+          <vrk><url ref="&Monato;/2003/008061.html">Usono
           inter Irano kaj Irako</url></vrk>
         </fnt>;
       </ekz>
@@ -1072,7 +1113,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.net/2011/010541.php">Grincantaj genuoj
+          <vrk><url ref="&Monato;/2011/010541.php">Grincantaj genuoj
           ... kaj &gcirc;entileco</url></vrk>
         </fnt>.
       </ekz>
@@ -1084,6 +1125,7 @@
     <trd>&c_b;&c_y;&c_c;&c_mol; &c_n;&c_a; <ind>&c_sh;&c_l;&c_ja;&c_h;&c_u;</ind></trd>
   </trdgrp>
   <trd lng="fr">&ecirc;tre <ind>en route</ind></trd>
+  <trd lng="ja">&#36884;&#x4E2D;&#12391;&#12354;&#x308B;  <pr>&#12392;&#12385;&#12421;&#12358;&#12391;&#12354;&#x308B;</pr></trd>
 </drv>
 
 <drv mrk="voj.sur0igxi">
@@ -1152,7 +1194,6 @@
   </trdgrp>
 </drv>
 
-
 <drv mrk="voj.akvo0o">
   <kap>akvo<tld/>o</kap>
   <snc mrk="voj.akvo0o.TRA">
@@ -1162,7 +1203,7 @@
       cel="kanal.0o.akvovojo">kanalo</ref>, a&ubreve; &ccirc;ia enlanda akvejo,
       kiu faciligas surakvan transportadon:
       <ekz>
-        dum la ekskurso oni estos portata tra rava pejza&gcirc;o 
+        dum la ekskurso oni estos portata tra rava pejza&gcirc;o
         &ccirc;e akvo<tld/>oj
         <fnt>
           <aut>-</aut>,
@@ -1179,7 +1220,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Dj&eacute;mil Kessous</aut>
-          <vrk><url ref="https://www.monato.net/2011/010326.php">Plaro,
+          <vrk><url ref="&Monato;/2011/010326.php">Plaro,
           a&ubreve; la Flava Terpomo</url></vrk>
         </fnt>.
       </ekz>
@@ -1197,6 +1238,8 @@
   <trd lng="es">canal<klr> acu&aacute;tico (destinado al
   transporte)</klr></trd>
   <trd lng="fr">voie d'eau</trd>
+  <trd lng="id"><ind>jalan</ind> air</trd>
+  <trd lng="ja">&#x6C34;&#x8DEF;  <pr>&#12377;&#12356;&#x308D;</pr></trd>
   <trd lng="pl">droga wodna</trd>
   <trdgrp lng="sk">
     <trd>plavebn&aacute; cesta</trd>,
@@ -1256,6 +1299,10 @@
   <trd lng="de">Autobahn</trd>
   <trd lng="en">highway</trd>
   <trd lng="fr">autoroute</trd>
+  <trdgrp lng="id">
+    <trd><ind>jalan</ind> tol</trd>,
+    <trd><ind>jalan</ind> bebas hambatan</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_a;&c_v;&c_t;&#x43E;&c_s;&c_t;&c_r;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_a;&c_v;&c_t;&#x43E;&c_d;&#x43E;&c_r;&#x43E;&c_g;&c_a;</trd>,
@@ -1294,7 +1341,7 @@
         biciklo<tld/>etoj, izolitaj pla&gcirc;etoj&#8230;
         <fnt>
           <bib>LOdE</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Hilelista Domo
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">Hilelista Domo
           &leftquot;&Ccaron;ervar-Porat&rightquot;</url></vrk>
         </fnt>.
       </ekz>
@@ -1303,6 +1350,7 @@
   <trd lng="be">&c_r;&c_o;&c_v;&c_a;&c_r;&c_n;&c_a;&c_ja; &c_d;&c_a;&c_r;&c_o;&c_zh;&c_k;&c_a;</trd>
   <trd lng="de">Radweg</trd>
   <trd lng="fr">piste cyclable</trd>
+  <trd lng="id"><ind>jalur</ind> sepeda</trd>
 </drv>
 
 <drv mrk="voj.fer0o">
@@ -1341,16 +1389,17 @@
     <trdgrp lng="fr">
       <trd>voie<klr tip="ind"> (de chemin de fer)</klr></trd>,
       <trd>voie ferr&eacute;e</trd>,
-      <trd><ind>chemin de fer</ind><klr tip="ind"> 
+      <trd><ind>chemin de fer</ind><klr tip="ind">
       (voie ferr&eacute;e)</klr></trd>
     </trdgrp>
     <trd lng="hu">v&aacute;g&aacute;ny</trd>
+    <trd lng="id">rel</trd>
     <trdgrp lng="it">
       <trd>ferrovia</trd>
     </trdgrp>
     <trd lng="nl">spoor</trd>
     <trdgrp lng="ru">
-      <trd>&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_a;&c_ja; 
+      <trd>&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_a;&c_ja;
       &c_d;&c_o;&c_r;&c_o;&c_g;&c_a;</trd>,
       <trd>&c_r;&c_je;&c_l;&c_mol;&c_s;&c_y;</trd>
     </trdgrp>
@@ -1379,17 +1428,18 @@
     <trd lng="de">Eisenbahn</trd>
     <trd lng="es">tren</trd>
     <trdgrp lng="fr">
-      <trd><ind>chemin de fer</ind><klr tip="ind"> 
+      <trd><ind>chemin de fer</ind><klr tip="ind">
       (moyen de transport)</klr></trd>,
       <trd>rail<klr tip="ind"> (moyen de transport)</klr></trd>,
       <trd>train<klr tip="ind"> (moyen de transport)</klr></trd>
     </trdgrp>
     <trd lng="hu">vas&uacute;t</trd>
+    <trd lng="id"><ind>transportasi</ind> rel</trd>
     <trdgrp lng="it">
       <trd>ferrovia</trd>
     </trdgrp>
     <trd lng="nl">spoorweg</trd>
-    <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_a;&c_ja; 
+    <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_a;&c_ja;
     &c_d;&c_o;&c_r;&c_o;&c_g;&c_a;</trd>
   </snc>
   <trd lng="be">&c_ch;&c_y;&c_g;&c_u;&c_n;&c_k;&c_a;</trd>
@@ -1400,6 +1450,7 @@
     <trd>&zcaron;elezni&ccaron;n&iacute; dr&aacute;ha</trd>
   </trdgrp>
   <trd lng="hu">vas&uacute;t</trd>
+  <trd lng="ja">&#37444;&#36947;  <pr>&#12390;&#12388;&#12393;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>kolej</trd>,
     <trd>droga &zdot;elazna<klr> (rzadkie)</klr></trd>
@@ -1430,9 +1481,10 @@
         A&ubreve;strio&rightquot;, kiun tamen
         posedas la regiono Suba A&ubreve;strio kaj la &scirc;tata fer<tld/>o
         <fnt>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2000/007045.php">Et&scirc;puraj spuroj</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007045.html">A&ubreve;strio:
-          Et&scirc;puraj spuroj</url></vrk>
+          <lok>2000/09, p. 11</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -1448,10 +1500,12 @@
     <trd>compagnie de <ind>chemins de fer</ind></trd>
   </trdgrp>
   <trd lng="hu">vas&uacute;tt&aacute;rsas&aacute;g</trd>
+  <trd lng="id">per<ind>usaha</ind>an kereta api</trd>
   <trdgrp lng="it">
     <trd>ferrovie<klr> (compagnia)</klr></trd>,
     <trd><ind>compagnia</ind> ferroviaria<klr> (fig)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#37444;&#36947;&#x4F1A;&#x793E;  <pr>&#12390;&#12388;&#12393;&#12358;&#x304C;&#12356;&#12375;&#12419;</pr></trd>
   <trd lng="pl">kolej</trd>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_y;&c_je; &c_d;&c_o;&c_r;&c_o;&c_g;&c_i;</trd>
 </drv>
@@ -1546,6 +1600,7 @@
     <trd>vas&uacute;ti</trd>,
     <trd>vas&uacute;t-</trd>
   </trdgrp>
+  <trd lng="ja">&#37444;&#36947;&#x306E;  <pr>&#12390;&#12388;&#12393;&#12358;&#x306E;</pr></trd>
   <trd lng="nl">spoor-</trd>
   <trd lng="pl">kolejowy</trd>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_o;&c_d;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_y;&c_j;</trd>
@@ -1561,20 +1616,21 @@
       <ekz>
         fer<tld/>istoj protestis kontra&ubreve; altigo de la pensio-a&gcirc;o
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007101.html">Pensoj
-          pensiaj</url></vrk>
-        </fnt>;
+          <aut>Walter Klag</aut>
+            <vrk><url ref="&Monato;/2000/007101.php">Pensoj pensiaj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 12</lok>
+          </fnt>;
       </ekz>
       <ekz>
         por &scirc;pari monon estis elpostenigitaj &ccirc;e privatigo tiom da ofte
         spertaj, lojalaj
         fer<tld/>istoj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Paul Gubbins</aut>
-          <vrk><url ref="&Steloj;monato2/007260.html">Politiko
-          elreligita</url></vrk>
+	<aut>Paul Gubbins</aut>
+	<vrk><url ref="&Monato;/2001/007260.php">Politiko elreligita</url></vrk>
+	<bib>Monato</bib>
+	<lok>2001/02, p. 6</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -1584,7 +1640,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="https://www.monato.net/2007/009178.php">Nekutima
+          <vrk><url ref="&Monato;/2007/009178.php">Nekutima
           uragano</url></vrk>
         </fnt>.
       </ekz>
@@ -1601,6 +1657,7 @@
   <trdgrp lng="it">
     <trd>ferroviere</trd>
   </trdgrp>
+  <trd lng="ja">&#37444;&#36947;&#x54E1;  <pr>&#12390;&#12388;&#12393;&#12358;&#12356;&#12435;</pr></trd>
   <trdgrp lng="pl">
     <trd>kolejarz</trd>
     <trd>pracownik kolei</trd>
@@ -1616,7 +1673,7 @@
   </kap>
   <snc>
     <dif>
-      Klinita glata <tld/>o, la&ubreve; kiu io povas movi&gcirc;i glite malsupren; 
+      Klinita glata <tld/>o, la&ubreve; kiu io povas movi&gcirc;i glite malsupren;
       <ref tip="sin" cel="glit.de0ejo">deglitejo</ref>:
       <ekz>
         la teleroj<klr>[&#8230;]</klr>n la vazlavistinoj mallevadis al la kuirejo per klinita
@@ -1690,18 +1747,22 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Dmitrij Cibulevskij</aut>
-          <vrk><url ref="https://www.monato.net/2012/010666.php">Krimeo</url></vrk>
+          <vrk><url ref="&Monato;/2012/010666.php">Krimeo</url></vrk>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="telfer.0o.TRA">telfero</ref>, 
+      <ref cel="telfer.0o.TRA">telfero</ref>,
       <ref cel="funikular.0o.TRA">funikularo</ref>
     </refgrp>
     <trd lng="be">&c_k;&c_a;&c_n;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_d;&c_o;&c_r;&c_o;&c_g;&c_a; <klr>(&c_p;&c_a;&c_d;&c_v;&c_je;&c_s;&c_n;&c_a;&c_ja;)</klr></trd>
     <trd lng="de">Seilbahn</trd>
     <trd lng="it">funivia</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x30ED;&#x30FC;&#x30D7;&#x30A6;&#x30A8;&#x30FC;</trd>,
+    <trd>&#x67B6;&#x7A7A;&#x7D22;&#36947;  <pr>&#x304B;&#x304F;&#12358;&#12373;&#x304F;&#12393;&#12358;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="voj.pied0o">
@@ -1712,9 +1773,9 @@
       <ref tip="super" cel="voj.0o.TRA">Vojo</ref>
       ta&ubreve;ga por piedirantoj a&ubreve; al ili rezervita:
       <ekz>
-        junuloj, ekskursante supren la&ubreve; la pied<tld/>etoj, 
+        junuloj, ekskursante supren la&ubreve; la pied<tld/>etoj,
         ekvidis renversitan a&ubreve;ton
-        <fnt><aut>C. Piron</aut>, <vrk>&Ccirc;u li bremsis 
+        <fnt><aut>C. Piron</aut>, <vrk>&Ccirc;u li bremsis
         sufi&ccirc;e?</vrk>, <lok>1979</lok></fnt>.
       </ekz>
     </dif>
@@ -1729,6 +1790,7 @@
     <trd>sentier p&eacute;destre</trd>,
     <trd>voie pi&eacute;tonne</trd>
   </trdgrp>
+  <trd lng="id">trotoar</trd>
 </drv>
 
 <drv mrk="voj.rel0o">
@@ -1753,7 +1815,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>William Simcock</aut>
-          <vrk><url ref="https://www.monato.net/2003/007873.html">Impresoj pri
+          <vrk><url ref="&Monato;/2003/007873.html">Impresoj pri
           Portugalio</url></vrk>
         </fnt>;
       </ekz>
@@ -1764,7 +1826,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Julian Modest</aut>
-          <vrk><url ref="https://www.monato.net/2013/010962.php">La
+          <vrk><url ref="&Monato;/2013/010962.php">La
           iluziisto</url></vrk>
         </fnt>.
       </ekz>
@@ -1792,9 +1854,11 @@
     ferr&eacute;e)</klr></trd>
   </trdgrp>
   <trd lng="hu">v&aacute;g&aacute;ny</trd>
+  <trd lng="id">rel</trd>
   <trdgrp lng="it">
     <trd>ferrovia</trd>
   </trdgrp>
+  <trd lng="ja">&#37444;&#36947;  <pr>&#12390;&#12388;&#12393;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>kolej</trd>,
     <trd>droga &zdot;elazna<klr> (rzadkie)</klr></trd>
@@ -1826,9 +1890,9 @@
       <tld lit="V"/>o pli mallonga ol al la normala <tld/>o,
       &scirc;paranta iradon:
       <ekz>
-	li estis kurinta tra &scirc;par-<tld/>o, por &scirc;in atendi en la 
+	li estis kurinta tra &scirc;par-<tld/>o, por &scirc;in atendi en la
 	interkonsentita loko
-	<fnt><aut>A. Manzoni, trad. B. Cadei</aut>, <vrk>La 
+	<fnt><aut>A. Manzoni, trad. B. Cadei</aut>, <vrk>La
 	Gefian&ccirc;oj</vrk>, <lok>2006</lok></fnt>;
       </ekz>
       <ekz>
@@ -1845,13 +1909,19 @@
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_a;&c_c;&c_je;&c_j;&c_sh;&c_y; <ind>&c_sh;&c_l;&c_ja;&c_h;</ind></trd>
   <trd lng="de">Abk&uuml;rzung</trd>
+  <trd lng="en">shortcut</trd>
   <trdgrp lng="es">
     <trd>atajo</trd>,
     <trd>atroche</trd>
   </trdgrp>
   <trd lng="fr">raccourci<klr> (subst.)</klr></trd>
   <trd lng="hu">r&ouml;videbb <ind>&uacute;t</ind></trd>
+  <trdgrp lng="id">
+    <trd><ind>jalan</ind> pintas</trd>,
+    <trd><ind>pintas</ind>an</trd>
+  </trdgrp>
   <trd lng="it">scorciatoia</trd>
+  <trd lng="ja">&#x8FD1;&#36947;  <pr>&#12385;&#x304B;&#x307F;&#12385;</pr></trd>
   <trd lng="uk">&#x43A;&#x43E;&c_r;&#x43E;&c_t;&c_sh;&c_a; &c_d;&#x43E;&c_r;&#x43E;&c_g;&c_a;</trd>
 </drv>
 
@@ -1881,7 +1951,7 @@
   <trdgrp lng="ru">
     <trd>&c_p;&c_je;&c_t;&c_l;&c_ja;<klr tip="ind"> (&c_m;&c_a;&c_t;.)
     </klr></trd>,
-    <trd>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_y;&c_j; 
+    <trd>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_y;&c_j;
     <ind>&c_p;&c_u;&c_t;&c_mol;</ind><klr tip="ind">
     (&c_m;&c_a;&c_t;)</klr></trd>
   </trdgrp>
@@ -1900,7 +1970,7 @@
 	tiutempe la &ccirc;efa eksporta&jcirc;o de &Ccirc;inio estis
 	silka&jcirc;oj, pro tio la e&ubreve;ropanoj nomis tiun vojon
 	Silka <tld lit="V"/>o
-	<fnt><bib>EncCxi</bib>, <lok>&ccirc;apitro &leftquot;Silka 
+	<fnt><bib>EncCxi</bib>, <lok>&ccirc;apitro &leftquot;Silka
 	Vojo&rightquot;, p. 87a</lok></fnt>;
       </ekz>
       <ekz>
@@ -1912,7 +1982,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Anatoli Ionesov</aut>
-          <vrk><url ref="https://www.monato.net/2006/008920.php">Perlo
+          <vrk><url ref="&Monato;/2006/008920.php">Perlo
           &ccirc;e la Silka Vojo</url></vrk>
         </fnt>;
       </ekz>
@@ -1923,7 +1993,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Alice Liu</aut>
-          <vrk><url ref="https://www.monato.net/2007/009268.php">Favore
+          <vrk><url ref="&Monato;/2007/009268.php">Favore
           al turismo</url></vrk>
         </fnt>;
       </ekz>
@@ -1933,7 +2003,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Alice Liu</aut>
-          <vrk><url ref="https://www.monato.net/2009/009901.php">Enigmoj
+          <vrk><url ref="&Monato;/2009/009901.php">Enigmoj
           de Sanxingdui</url></vrk>
         </fnt>.
       </ekz>
@@ -1944,6 +2014,7 @@
   <trd lng="es">ruta de la Seda</trd>
   <trd lng="fr">Route de la soie</trd>
   <trd lng="hu">Selyem&uacute;t</trd>
+  <trd lng="id"><ind>Jalur</ind> Sutra</trd>
   <trd lng="it">via della seta</trd>
   <trd lng="pl">Szlak Jedwabny</trd>
   <trd lng="ru">&c_Sh;&c_jo;&c_l;&c_k;&c_o;&c_v;&c_y;&c_j; &c_p;&c_u;&c_t;&c_mol;</trd>
@@ -1951,27 +2022,27 @@
 </art>
 <!--
 $Log$
-versio 1.166 2022/11/17 09:30:23
-Dmitri Gabinski: + trd be
+versio 1.177 2023/10/21 16:50:36
+revo: transskribo per <pr>
 
-versio 1.165 2022/05/06 12:17:22
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.176 2023/09/10 15:34:11
+revo: korekto de transskribo
 
-versio 1.164 2022/03/31 16:45:57
-Wolfram Diestel: kor. trd uk
+versio 1.175 2023/09/08 01:24:04
+Eko Nur Syah Hidayat: +trd id
 
-versio 1.157 2022/03/10 21:28:05
-Jeromo Vasxe: + sur~igxi
+versio 1.173 2023/08/10 08:31:11
+Mahaer Mahmud: aldonis anglajn tradukojn
 
-versio 1.156 2021/06/25 20:28:30
-Wolfram Diestel: ~aro: var -> ref (ret/)
+versio 1.172 2023/07/24 21:24:49
+Mahaer Mahmud: aldonis anglajn tradukojn
 
-versio 1.81 2021/05/20 05:55:42
-Wolfram Diestel: +biciklo~o
+versio 1.171 2023/05/06 15:12:06
+revo: aktualigo URL-unuoj
 
-versio 1.80 2021/05/19 16:02:19
-Dmitri Gabinski: + trd be, uz
+versio 1.170 2023/05/01 12:45:16
+Paul Peeraerts: Steloj -> monato
 
-versio 1.79 2021/05/16 11:49:48
+versio 1.169 2023/04/23 16:33:20
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: paletr.xml,v 1.24 2022/05/01 17:51:18 revo Exp $">
+<art mrk="$Id: paletr.xml,v 1.28 2023/10/20 14:25:19 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>paletr</rad>/o
 </kap>
@@ -15,13 +15,14 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         tiu vila&gcirc;o prezentas fascinan spektaklon pro sia flagranta natura kolor<tld/>o
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Robert Roze</aut>
-          <vrk><url ref="&Steloj;monato2/006945.html">Francio: Flagrantaj koloroj</url></vrk>
+        <fnt><aut>Robert Roze</aut>,
+        <vrk><url ref="&Monato;/2000/006945.php">Flagrantaj koloroj</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/06, p. 17</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Farbpalette</trd>
   </snc>
   <snc mrk="paletr.0o.figure">
     <uzo tip="stl">FIG</uzo>
@@ -52,7 +53,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Repertoir</trd>
+    <trd lng="de">Repertoire</trd>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_l;&c_ib;&c_t;&c_r;&c_a;</trd>
   <trd lng="ca">paleta</trd>
@@ -62,6 +63,10 @@
   <trd lng="es">paleta</trd>
   <trd lng="fr">palette<klr tip="ind"> (de peintre)</klr></trd>
   <trd lng="hu">paletta</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30D1;&#x30EC;&#x30C3;&#x30C8;</trd>,
+    <trd>&#x8272;&#x8ABF;  <pr>&#x3057;&#x304D;&#x3061;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">palet</trd>
   <trd lng="no">palett</trd>
   <trd lng="pl">paleta</trd>
@@ -71,11 +76,20 @@
     </trdgrp>
   <trd lng="ru">&c_p;&c_a;&c_l;&c_i;&c_t;&c_r;&c_a;</trd>
   <trd lng="sk">maliarska paleta</trd>
-  <trd lng="uk">&#x43F;&#x430;&#x43B;&#x456;&#x442;&#x440;&#x430;</trd>
+  <trd lng="uk">&#x43F;&c_a;&#x43B;&c_ib;&c_t;&c_r;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/20 14:25:19
+revo: transskribo per <pr>
+
+versio 1.26 2023/04/27 10:31:14
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.25 2023/01/03 12:50:00
+Ulrich Fellmann: paletro: +1 plia DE trd kaj korekto de 1 skriberaro
+
 versio 1.24 2022/05/01 17:51:18
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -89,14 +103,5 @@ Revision 1.19  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.18  2015/06/29 16:40:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2010/01/24 17:30:39  revo
- Filip van Laenen: Tradukoj en norvegan
-
-Revision 1.16  2009/08/08 16:34:34  revo
-Russ Williams: +trd en
-
-Revision 1.15  2008/12/15 18:54:04  revo
 -->
 </vortaro>

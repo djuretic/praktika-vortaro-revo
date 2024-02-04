@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: rot.xml,v 1.30 2022/05/04 19:19:16 revo Exp $">
+  <art mrk="$Id: rot.xml,v 1.35 2023/10/21 05:38:07 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>rot</rad>/o
@@ -15,14 +15,12 @@
       <ref tip="malprt" cel="batali.0o">bataliono</ref>,
       kutime komandata de <ref cel="kapita1.0o.MIL">kapitano</ref>:
       <ekz>
-        en mia regimento, en la sesa <tld/>o, estas kapitano Rjabkov
+        en mia regimento, en la sesa <tld/>o, estas kapitano <nom>Rjabkov</nom>
         <fnt>
-          <aut>Ivan G. &Scirc;irjaev</aut>,
-          <vrk>Sen titolo</vrk>,
+          <aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>,
           <lok>&ccirc;apitro 6a</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la registaro kaj la parlamento estis kidnapitaj de &gcirc;endarma
         <tld/>o kaj tankoj surstrati&gcirc;is en Valencio
         <fnt>
@@ -33,7 +31,10 @@
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="kompan.0o.MIL">kompanio</ref>
+    <refgrp tip="sin">
+      <ref cel="kompan.0o.MIL">kompanio<sncref/></ref>,
+      <ref cel="centuri.0o.MIL">centurio<sncref/></ref>
+    </refgrp>
     <adm>
       Ial &ccirc;i tiu senco perdi&gcirc;is en PIV-oj, favore al
       "kompanio". Tamen en UV "roto" &gcirc;uste traduki&gcirc;as
@@ -57,12 +58,11 @@
       <trd>compa&ntilde;&iacute;a<klr> (del ej&eacute;rcito)</klr></trd>,
       <trd>escuadr&oacute;n</trd>
     </trdgrp>
-    <trd lng="fr">compagnie<klr tip="ind"> (unit&eacute;
-    militaire)</klr></trd>
+    <trd lng="fr"><ofc>*</ofc>compagnie<klr tip="ind"> (unit&eacute; militaire)</klr></trd>
     <trd lng="hu">sz&aacute;zad</trd>
-    <trd lng="pl">rota</trd>
+    <trd lng="pl"><ofc>*</ofc>rota</trd>
     <trd lng="pt">companhia</trd>
-    <trd lng="ru">&c_r;&c_o;&c_t;&c_a;</trd>
+    <trd lng="ru"><ofc>*</ofc>&c_r;&c_o;&c_t;&c_a;</trd>
     <trdgrp lng="sk">
       <trd>chovn&eacute; st&aacute;do</trd>,
       <trd>k&racute;de&lcaron;</trd>,
@@ -72,7 +72,7 @@
   <snc mrk="rot.0o.de_falango">
     <uzo tip="fak">MIL</uzo>
     <dif>
-       En <ref tip="malprt" cel="falang.0o.MIL">falango<sncref/></ref>, 
+       En <ref tip="malprt" cel="falang.0o.MIL">falango<sncref/></ref>,
        vico da soldatoj irantaj unu post alia.
     </dif>
     <trdgrp lng="de">
@@ -110,21 +110,35 @@
   <snc mrk="rot.0o.aro_de_kunirantoj">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Aro da kune irantaj homoj a&ubreve; bestoj:
+      <refgrp tip="dif">
+        <ref cel="band.0o.irantaro">bando<sncref/></ref>,
+        <ref cel="band.0o.samideanoj">bando<sncref/></ref>
+      </refgrp>
       <ekz>
         <tld/>o da perdrikoj;
-      </ekz>
-      <ekz>
-        kurioze sonas la invito de Paul Gubbins al Gbeglo Koffi eniri la
+      </ekz><ekz>
+        kurioze sonas la invito de <nom>Paul Gubbins</nom> al <nom>Gbeglo Koffi</nom> eniri la
         <tld/>ojn de humanistoj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Armando Zecchin</aut>
+          <bib>Monato</bib> <aut>Armando Zecchin</aut>
           <vrk><url ref="&Monato;/2007/009187.php">Kiu
           estas humanisto?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <rim>
+      La senco <tld/>o<sncref ref="rot.0o.aro_de_kunirantoj"/> aperis
+      pro miskompreno. En UV &Z; celis nur la sencon
+      <tld/>o<sncref ref="rot.0o.kompanio"/>, kion tute klare atestas
+      la tradukoj franca, pola kaj rusa. La anglan mistradukon per
+      &leftquot;<nac>troop</nac>&rightquot; la Akademio precizigis per
+      &leftquot;<nac>company (soldiers)</nac>&rightquot;, t.e. <tld/>o<sncref ref="rot.0o.kompanio"/>.
+      La germana mistraduko &leftquot;<nac>Rotte</nac>&rightquot; estas &scirc;ajnamiko: &gcirc;i
+      <em>ekstere, forme</em> similas la vorton polan, kies etimo &gcirc;i
+      estas; tamen germane &gcirc;i ne plu (&ccirc;u iam?) havas tiun precizan signifon, en
+      kiu la pola &gcirc;in pruntis, kaj kiun &gcirc;i transdonis al la rusa.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
     <refgrp tip="vid">
        <ref cel="hord.0o">hordo</ref>,
        <ref cel="kohort.0o.FIG">kohorto<sncref/></ref>
@@ -140,16 +154,12 @@
     </trdgrp>
     <trd lng="es">compa&ntilde;&iacute;a</trd>
     <trdgrp lng="fr">
-      <trd>troupe<klr tip="ind"> (d'animaux ou de personnes qui se
-      d&eacute;placent)</klr></trd>,
+      <trd>troupe<klr tip="ind"> (d'animaux ou de personnes qui se d&eacute;placent)</klr></trd>,
       <trd>troupeau</trd>,
-      <trd>bande<klr tip="ind"> (d'animaux ou de personnes qui se
-      d&eacute;placent)</klr></trd>,
-      <trd>nu&eacute;e<klr tip="ind"> (troupe d'animaux en
-      vol)</klr></trd>,
+      <trd>bande<klr tip="ind"> (d'animaux ou de personnes qui se d&eacute;placent)</klr></trd>,
+      <trd>nu&eacute;e<klr tip="ind"> (troupe d'animaux en vol)</klr></trd>,
       <trd>vol<klr tip="ind"> (troupe d'oiseaux en vol)</klr></trd>,
-      <trd>vol&eacute;e<klr tip="ind"> (troupe d'oiseaux en
-      vol)</klr></trd>
+      <trd>vol&eacute;e<klr tip="ind"> (troupe d'oiseaux en vol)</klr></trd>
     </trdgrp>
     <trdgrp lng="nl">
       <trd>troep</trd>,
@@ -169,16 +179,20 @@
   <rim>
     <ref tip="hom" cel="rot1.0o">Roto</ref> estas anka&ubreve; greka litero.
   </rim>
-  <trd lng="uk">&c_r;&#x43E;&c_t;&c_a;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E2D;&#x968A;  <pr>&#x3061;&#x3085;&#x3046;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x4E00;&#x968A;  <pr>&#x3044;&#x3063;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x4E00;&#x7FA4;  <pr>&#x3044;&#x3061;&#x3050;&#x3093;</pr></trd>
+  </trdgrp>
+  <trd lng="uk">&c_r;&c_o;&c_t;&c_a;</trd>
 </drv>
 
 <drv mrk="rot.0estro">
-  <kap><tld/>estro</kap>
-  <snc>
-    <uzo tip="stl">RAR</uzo>
-    <fnt><bib>PV</bib><lok>kapitano 2</lok></fnt>
+  <kap><tld/>estro<fnt><bib>PV</bib><lok>kapitano 2</lok></fnt></kap>
+  <snc mrk="rot.0estro.estro">
     <dif>
-      <ref tip="dif" cel="kapita1.0o.MIL">Kapitano</ref>:
+      Komandanto de <tld/>o<sncref ref="rot.0o.kompanio"/>, tipe oficiro
+      en la rango <ref cel="kapita1.0o.MIL">kapitano<sncref/></ref>:
       <ekz>
         la hetmanoj kaj centestroj, <tld/>estroj kun
         siaj <tld/>oj, kaj dolmanoj kun siaj ta&ccirc;mentoj
@@ -189,12 +203,36 @@
           Tiel do. Rakontoj por malgrandaj infanoj</url></vrk>.
           <lok>Lelystad: Vulpo-Libroj, 1992. ISBN 90-70074-36-2</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         li a&ubreve;skultis la <tld/>estron &gcirc;isra&ubreve;ke krii ordonojn
         <fnt>
           <bib>Monato</bib>
           <vrk><url ref="&Monato;/2003/007991.html">Espero</url></vrk>
+        </fnt>.
+      </ekz>
+      <refgrp tip="vid">
+        <ref cel="kapita1.0o.MIL">kapitano<sncref/></ref>,
+        <ref cel="cent.0estro">centestro</ref>,
+        <ref cel="centuri.0estro">centuriestro</ref>
+      </refgrp>
+    </dif>
+  </snc>
+  <snc mrk="rot.0estro.rango">
+    <dif>
+      En kelkaj landoj, epokoj kaj trupspecoj, la nomo de la oficira
+      rango egala al <ref tip="sin" cel="kapita1.0o.MIL">kapitano<sncref/></ref>,
+      sendepende tion, &ccirc;u la koncernulo efektive komandas <tld/>on a&ubreve; ian
+      alian trupunuon:
+      <ekz>
+        Kaj jen el la urbet&#x2019; proksima &mdash; &parsl;
+        De l&#x2019; tuta fra&ubreve;linar&#x2019; idol&#x2019; &parsl;
+        Kaj de l&#x2019; patrinoj &gcirc;oj&#x2019; senlima &mdash; &parsl;
+        <tld lit="R"/>estro venis la&ubreve; bonvol&#x2019;
+        <klr>(&ccirc;i-okaze <tld/>estro = &#x201A;kavaleria kapitano&#x2018;
+           <trd lng="de">Rittmeister</trd>)</klr>
+        <fnt><aut>A.S. Pu&scirc;kin, tr. N.Nekrasov</aut>:
+          <vrk>E&ubreve;geno Onegin</vrk>.
+          <lok>SAT, 1931. Noto pri 5:28.</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -213,28 +251,39 @@
     <trd>capit&aacute;n<klr> (grado militar)</klr></trd>,
     <trd>comandante</trd>
   </trdgrp>
-  <trd lng="fr">capitaine<klr tip="ind"> (grade
-      militaire)</klr></trd>
+  <trd lng="fr">capitaine<klr tip="ind"> (grade militaire)</klr></trd>
   <trd lng="it"><ind>comandante</ind> di compagnia</trd>
+  <trd lng="ja">&#x4E2D;&#x968A;&#x9577;  <pr>&#x3061;&#x3085;&#x3046;&#x305F;&#x3044;&#x3061;&#x3087;&#x3046;</pr></trd>
   <trd lng="pl">rotmistrz</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_o;&c_t;&c_m;&c_i;&c_s;&c_t;&c_r;</trd>,
-    <trd>&c_r;&c_o;&c_t;&c_n;&c_y;&c_j;
-    &c_k;&c_o;&c_m;&c_a;&c_n;&c_d;&c_i;&c_r;</trd>
+    <trd>&c_r;&c_o;&c_t;&c_n;&c_y;&c_j; &c_k;&c_o;&c_m;&c_a;&c_n;&c_d;&c_i;&c_r;</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>rotmajster</trd>,
     <trd>velite&lcaron; roty</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x43C;&c_a;&#x43D;&c_d;&c_i;&c_r; &c_r;&#x43E;&c_t;&c_i;</trd>,
-    <trd>&c_r;&#x43E;&c_t;&#x43D;&c_i;&c_j; &#x43A;&#x43E;&#x43C;&c_a;&#x43D;&c_d;&c_i;&c_r;</trd>
+    <trd>&c_k;&c_o;&c_m;&c_a;&c_n;&c_d;&c_i;&c_r; &c_r;&c_o;&c_t;&c_i;</trd>,
+    <trd>&c_r;&c_o;&c_t;&c_n;&c_i;&c_j; &c_k;&c_o;&c_m;&c_a;&c_n;&c_d;&c_i;&c_r;</trd>
   </trdgrp>
 </drv>
 
-  </art>
+</art>
   <!--
   $Log$
+versio 1.35 2023/10/21 05:38:07
+revo: transskribo per <pr>
+
+versio 1.33 2023/08/17 20:23:48
+Wolfram Diestel: sintakso
+
+versio 1.32 2023/03/01 04:35:53
+Sergio Pokrovskij: TEZ, ~estro.rango
+
+versio 1.31 2023/02/26 15:28:31
+Sergio Pokrovskij: + rim
+
 versio 1.30 2022/05/04 19:19:16
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -245,17 +294,5 @@ Ulrich Fellmann: roto 3: +2 DE trd, -1 DE trd
   adaptis URL de Monato
 
   Revision 1.25  2019/06/24 18:10:15  revo
-  Guillermo Molleda Jimena: trd es
-
-  Revision 1.24  2018/05/08 18:10:16  revo
-  Wolfram Diestel: -snc tachmento, +snc vico en falango, aparta artikolo
-  rot1: greka litero, +ekz-oj
-
-  Revision 1.23  2016/02/03 21:10:24  revo
-  Filip van Laenen: +trd(nl,no)
-
-  Revision 1.22  2016/01/31 11:10:25  revo
-  Alain Gerard: +rim
-
 -->
 </vortaro>

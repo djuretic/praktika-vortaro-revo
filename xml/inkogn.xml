@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: inkogn.xml,v 1.23 2022/06/02 07:34:04 revo Exp $">
+<art mrk="$Id: inkogn.xml,v 1.28 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>inkognit</rad>/o
@@ -10,7 +10,7 @@
   <kap><tld/>o</kap>
   <snc mrk="inkogn.0o.ulo">
     <dif>
-      Persono, prezenti&gcirc;anta sub fremda nomo, a&ubreve; ne anoncanta
+      <ref tip="super" cel="person.0o.homo">Persono</ref>, prezenti&gcirc;anta sub fremda nomo, a&ubreve; ne anoncanta
       sian nomon, por eviti <ref cel="kon.re0o">rekonon</ref>, ne altiri
       al si la atenton kaj faciligi siajn taskojn:
       <ekz>
@@ -52,6 +52,10 @@
         <fnt><bib>VdE</bib></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="mask.0o">masko</ref>,
+      <ref cel="pseuxd1.0o">pse&ubreve;donimo</ref>
+    </refgrp>
     <trd lng="ca">inc&ograve;gnita</trd>
     <trd lng="de">Inkognito</trd>
     <trd lng="en">incognito</trd>
@@ -62,16 +66,16 @@
     </trdgrp>
     <trd lng="nl">incognito</trd>
     <trd lng="ru">&c_i;&c_n;&c_k;&c_o;&c_g;&c_n;&c_i;&c_t;&c_o;</trd>
+    <trdgrp lng="be">
+      <trd>&c_ib;&c_n;&c_k;&c_o;&c_g;&c_n;&c_ib;&c_t;&c_a;</trd>,
+      <trd>&c_a;&c_n;&c_a;&c_n;&c_ib;&c_m;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    </trdgrp>
     <adm>
       Mi transportis cxiujn jamajn tradukojn al la senco
       "eco", la nura, kiu ekzistis gxis nun, sed ne certas,
       cxu tio vere gxustas.
       <aut>MB</aut>
     </adm>
-    <trdgrp lng="be">
-      <trd>&c_ib;&c_n;&c_k;&c_o;&c_g;&c_n;&c_ib;&c_t;&c_a;</trd>,
-      <trd>&c_a;&c_n;&c_a;&c_n;&c_ib;&c_m;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-    </trdgrp>
   </snc>
   <rim>
     La du sencoj ne estas inter si logike akordigeblaj.
@@ -80,7 +84,11 @@
     &scirc;ajnas esti zamenhofa, kvankam la unua ekzemplo sugestas sencon
     pli proksiman al <ctl>malaltranga anonimulo</ctl>.
   </rim>
-  <trd lng="uk">&c_ib;&#x43D;&#x43A;&#x43E;&c_gu;&#x43D;&c_ib;&c_t;&#x43E; (&c_ib;&#x43C;.)</trd>
+  <trdgrp lng="ja">
+    <trd>&#x304A;&#x5FCD;&#x3073;&#x306E;&#x4EBA;  <pr>&#x304A;&#x3057;&#x306E;&#x3073;&#x306E;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x5FAE;&#x884C;&#x8005;  <pr>&#x3073;&#x304E;&#x3087;&#x3046;&#x3058;&#x3083;</pr></trd>
+  </trdgrp>
+  <trd lng="uk">&c_ib;&c_n;&c_k;&c_o;&c_gu;&c_n;&c_ib;&c_t;&c_o; (&c_ib;&c_m;.)</trd>
 </drv>
 
 <drv mrk="inkogn.0e">
@@ -101,19 +109,19 @@
         ni decidis pasigi la unuajn plene komunajn noktojn en tiu &ccirc;i hotelo, tute
         <tld/>e, for de la cetera mondo
         <fnt>
-          <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
           <vrk><url ref="&Monato;/2004/008357.html">La unua nokto</url></vrk>
-          <lok>2004</lok>
+           <bib>Monato</bib>
+          <lok>2004/11, p. 28</lok>
         </fnt>;
       </ekz>
       <ekz>
         &scirc;i voja&gcirc;is <tld/>e, defendata de nigraj okulvitroj kaj vasta &ccirc;apelranda&jcirc;o
         <fnt>
-          <bib>Monato</bib>
           <aut>Julia Sigmond kaj Sen Rodin</aut>
           <vrk><url ref="&Monato;/2010/009988.php">La mal&jcirc;aluzo de Klorinda</url></vrk>
-          <lok>2010</lok>
+          <bib>Monato</bib>
+          <lok>2010/05, p. 21</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -128,12 +136,18 @@
   <trd lng="ca">d'<ind>inc&ograve;gnit</ind></trd>
   <trd lng="de">inkognito<klr tip="ind"> (adv.)</klr></trd>
   <trd lng="fr">incognito<klr tip="ind"> (adv.)</klr></trd>
+   <trdgrp lng="ja">
+    <trd>&#x304A;&#x5FCD;&#x3073;&#x3067;  <pr>&#x304A;&#x3057;&#x306E;&#x3073;&#x3067;</pr></trd>,
+    <trd>&#x8EAB;&#x5206;&#x3092;&#x96A0;&#x3057;&#x3066;  <pr>&#x307F;&#x3076;&#x3093;&#x3092;&#x304B;&#x304F;&#x3057;&#x3066;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">incognito</trd>
   <trd lng="pt">inc&oacute;gnito<klr tip="amb"> (adv.)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_k;&c_o;&c_g;&c_n;&c_i;&c_t;&c_o;<klr tip="amb"> (&c_n;&c_a;&c_r;.)</klr></trd>,
     <trd>&c_a;&c_n;&c_o;&c_n;&c_i;&c_m;&c_n;&c_o;</trd>
   </trdgrp>
-  <trd lng="uk">&c_ib;&#x43D;&#x43A;&#x43E;&c_gu;&#x43D;&c_ib;&c_t;&#x43E; (&#x43F;&c_r;&c_i;&c_s;&#x43B;.)</trd>
+  <trd lng="uk">&c_ib;&c_n;&c_k;&c_o;&c_gu;&c_n;&c_ib;&c_t;&c_o; (&c_p;&c_r;&c_i;&c_s;&c_l;.)</trd>
+  <trd lng="zh">&#x9690;&#x540D; <pr>y&#x1D0;nm&#xED;ng</pr></trd>
 </drv>
 
 <drv mrk="inkogn.0eco">
@@ -169,16 +183,36 @@
     <trd>incognito<klr tip="ind"> (subst., &eacute;tat)</klr></trd>,
     <trd>anonymat</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x304A;&#x5FCD;&#x3073;  <pr>&#x304A;&#x3057;&#x306E;&#x3073;</pr></trd>,
+    <trd>&#x5FAE;&#x884C;  <pr>&#x3073;&#x3053;&#x3046;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">anonimiteit</trd>
   <trd lng="pt">inc&oacute;gnito<klr tip="amb"> (subst., estado)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_k;&c_o;&c_g;&c_n;&c_i;&c_t;&c_o;</trd>,
     <trd>&c_a;&c_n;&c_o;&c_n;&c_i;&c_m;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">inkognito</trd>
+  <trdgrp lng="zh">
+    <trd>&#x533F;&#x540D; <pr>n&#xEC;m&#xED;ng</pr></trd>,
+    <trd>&#x65E0;&#x540D; <pr>w&#xFA;m&#xED;ng</pr></trd>,
+    <trd>&#x533F;&#x540D;&#x6027; <pr>n&#xEC;m&#xED;ngx&#xEC;ng</pr></trd>,
+    <trd>&#x533F;&#x540D;&#x8005; <pr>n&#xEC;m&#xED;ngzh&#x11B;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.25 2023/08/23 20:22:40
+Wolfram Diestel: +ref
+
+versio 1.24 2023/07/20 06:32:08
+Paul Peeraerts: + trd nl + lok
+
 versio 1.23 2022/06/02 07:34:04
 Dmitri Gabinski: + trd be
 
@@ -192,14 +226,5 @@ Revision 1.18  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.17  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.16  2012/08/04 11:10:13  revo
-Marc Rausell: + trd ca
-
-Revision 1.15  2005/11/03 17:31:56  revo
-Luiz Portella: +trd pt
-
-Revision 1.14  2005/06/09 17:41:23  revo
 -->
 </vortaro>

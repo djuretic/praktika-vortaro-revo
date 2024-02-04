@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: indik.xml,v 1.106 2022/10/20 08:48:26 revo Exp $">
+  <art mrk="$Id: indik.xml,v 1.114 2024/01/06 17:27:12 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>indik</rad>/i
+  <fnt><bib>PVEF</bib></fnt>
 </kap>
 
 <drv mrk="indik.0i">
@@ -85,9 +86,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="kon.0igi">konigi</ref>
     <refgrp tip="vid">
-      <ref cel="sci.0igi">sciigi</ref>,
-      <ref cel="inform.0i">informi</ref>
+      <ref cel="inform.0i">informi</ref>,
+      <ref cel="sci.0igi">sciigi</ref>
     </refgrp>
   </snc>
   <snc mrk="indik.0i.supozigi">
@@ -182,7 +184,7 @@
   <trd lng="hy">&#1409;&#1400;&#1410;&#1397;&#1409; &#1407;&#1377;&#1388;</trd>
   <trd lng="ig">egosi</trd>
   <trd lng="is">benda</trd>
-  <trd lng="ja">&#31034;&#12377;</trd>
+  <trd lng="ja">&#31034;&#12377; <pr>&#12375;&#12417;&#12377;</pr></trd>
   <trd lng="jv">nunjukak&eacute;</trd>
   <trd lng="ka">&#4315;&#4312;&#4323;&#4311;&#4312;&#4311;&#4317;&#4321;</trd>
   <trd lng="kk">&c_k;&#1257;&c_r;&c_s;&c_je;&c_t;&c_u;</trd>
@@ -194,7 +196,7 @@
   <trd lng="lat">indica</trd>
   <trd lng="lo">&#3722;&#3765;&#3785;&#3738;&#3757;&#3713;</trd>
   <trd lng="lt">rodo</trd>
-  <trd lng="lv">nor&#5585;d&#5627;t</trd>
+  <trd lng="lv">nor&amacron;d&imacron;t</trd>
   <trd lng="mg">maneho</trd>
   <trd lng="mi">tohu</trd>
   <trd lng="mk">&c_u;&c_k;&c_a;&c_zh;&c_u;&c_v;&c_a;&c_a;&c_t;</trd>
@@ -245,6 +247,17 @@
   <trd lng="xh">zibonisa</trd>
   <trd lng="yi">&alef;&#1464;&nun;&vav;&vav;&yod;&yod;&#1463;&zayin;&fnun;</trd>
   <trd lng="yo">fihan</trd>
+  <trdgrp lng="zh">
+    <trd>&#25351;&#20986; <pr>zh&#464;ch&umacron;</pr></trd>,
+    <trd>&#25351; <pr>zh&#464;</pr></trd>,
+    <trd>&#25351;&#28857; <pr>zh&#464;di&#462;n</pr></trd>,
+    <trd>&#31034; <pr>sh&igrave;</pr></trd>,
+    <trd>&#34920;&#26126; <pr>bi&#462;om&iacute;ng</pr></trd>,
+    <trd>&#26631;&#26126; <pr>bi&amacron;om&iacute;ng</pr></trd>,
+    <trd>&#26631;&#31034; <pr>bi&amacron;osh&igrave;</pr></trd>,
+    <trd>&#28857;&#20986; <pr>di&#462;nch&umacron;</pr></trd>,
+    <trd>&#25351;&#26126; <pr>zh&#464;m&iacute;ng</pr></trd>
+  </trdgrp>
   <trd lng="zu">khombisa</trd>
 </drv>
 
@@ -266,8 +279,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Stefan Maul</aut>
-          <vrk><url ref="&Monato;/2004/008342.html"
-              >Bela komputila mondo</url></vrk>
+          <vrk><url ref="&Monato;/2004/008342.html">Bela komputila mondo</url></vrk>
           <lok>2004</lok>
         </fnt>.
       </ekz>
@@ -280,7 +292,7 @@
   </snc>
   <snc mrk="indik.0o.sciigo">
     <dif>
-      Unuopa <ref cel="sci.0igo">sciigo</ref>, kiun oni donas <tld/>ante; 
+      Unuopa <ref cel="sci.0igo">sciigo</ref>, kiun oni donas <tld/>ante;
       <ref tip="dif" cel="indik.0ajxo"><tld/>a&jcirc;o</ref>:
       <ekz>
         precizaj <tld/>oj pri la nomoj, datoj, titoloj de diversaj verkoj
@@ -322,8 +334,12 @@
       <ekz>
         el multaj <tld/>oj disigitaj en la poemo oni povas dedukti
         e&ccirc; la daton
-        <fnt><vrk>La Purgatorio vidita de dektriajarcentulo</vrk>.
+        <fnt>
+        <aut>Donald Broadribb</aut>
+        <vrk><url ref="&Monato;/2002/pdf/monato200205.pdf#page=27">La Purgatorio vidita de
+        dektriajarcentulo</url></vrk>.
           <bib>Monato</bib>
+          <lok>2002/05, p. 27-29</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -331,6 +347,38 @@
       <ref cel="simpto.0o">simptomo</ref>
     </refgrp>
     <trd lng="de">Indiz</trd>
+  </snc>
+  <snc mrk="indik.0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Diagnozo, simptomaro, cirkonstancoj kiuj <tld/>as aplikon de specifa kuracmetodo,
+      kuracilo ktp:
+      <ekz>
+        ju pli akutaj estas morfologiaj signoj de la malsano, des pli frue necesas
+        komenci aktivan terapion, akompana arteria hipertensio ne estas konsiderata
+        <ind>kontra&ubreve;<tld/>o</ind>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=699101"
+              >Lupuso</url></lok>
+        </fnt>;
+        <trd lng="de">Kontraindikation</trd>
+      </ekz>
+      <ekz>
+        la apliko malkovras e&ccirc; eventualajn erarojn rilate al anta&ubreve;e preskribitaj
+        medikamentoj: ekzemple &gcirc;i rimarkigas la okazojn, kiam t.n. metformino estas
+        kontra&ubreve;<tld/>ita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk>Noviga apliko je dispono de kuracistoj kaj pacientoj</vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="indikaci.0o">indikacio</ref>
+    <trd lng="de">Indikation</trd>
+    <trd lng="en">indication</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_k;&c_a;&c_z;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
@@ -359,6 +407,10 @@
     <trd>javallat</trd>,
     <trd>adat</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#34920;&#31034;  <pr>&#12402;&#12423;&#12358;&#12376;</pr></trd>,
+    <trd>&#25351;&#31034;  <pr>&#12375;&#12376;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>aanwijzing</trd>,
     <trd>aanduiding</trd>
@@ -377,6 +429,11 @@
     <trd>&c_v;&c_k;&c_a;&c_z;&c_ib;&c_v;&c_k;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#36321;&#35937; <pr>j&igrave;xi&agrave;ng</pr></trd>,
+    <trd>&#25351;&#31034;&#32773; <pr>zh&#464;sh&igrave;zh&ecaron;</pr></trd>,
+    <trd>&#25351;&#31034;&#31526; <pr>zh&#464;sh&igrave;f&uacute;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="indik.0ajxo">
@@ -391,16 +448,14 @@
         <tld/>a&jcirc;oj ne estas certaj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=347"
-              >I&scirc;tar</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=347">I&scirc;tar</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>a&jcirc;oj montras pli kompleksan rilaton inter salo kaj korvaskula malsano
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=8786"
-              >Salo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=8786">Salo</url></lok>
         </fnt>.
       </ekz>
       <trdgrp lng="de">
@@ -425,8 +480,7 @@
           konfeso, kaj ne la <tld/>a&jcirc;oj
           <fnt>
             <bib>Viki</bib>
-            <lok><url ref="https://eo.wikipedia.org/?curid=25663"
-                >Torturo</url></lok>
+            <lok><url ref="https://eo.wikipedia.org/?curid=25663">Torturo</url></lok>
           </fnt>;
         </ekz>
         <ekz>
@@ -449,6 +503,11 @@
     <trd>&c_d;&c_o;&c_k;&c_a;&c_z;</trd>
   </trdgrp>
   <trd lng="en">evidence</trd>
+  <trdgrp lng="ja">
+    <trd>&#24500;&#20505;  <pr>&#12385;&#12423;&#12358;&#12371;&#12358;</pr></trd>,
+    <trd>&#25163;&#12364;&#12363;&#12426;  <pr>&#12390;&#12364;&#12363;&#12426;</pr></trd>,
+    <trd>&#27671;&#37197;  <pr>&#12369;&#12399;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="pt">indica&ccedil;&atilde;o<klr tip="amb"> (coisa)</klr></trd>
   <trd lng="ru">&c_u;&c_k;&c_a;&c_z;&c_a;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="uk">
@@ -456,13 +515,19 @@
     <trd>&c_p;&c_o;&c_k;&c_a;&c_z;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_ib;&c_n;&c_d;&c_je;&c_k;&c_s;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#20107;&#35657; <pr>sh&igrave;zh&egrave;ng</pr></trd>,
+    <trd>&#20304;&#35657; <pr>zu&#466;zh&egrave;ng</pr></trd>,
+    <trd>&#24449; <pr>zh&emacron;ng</pr></trd>,
+    <trd>&#35657;&#25818; <pr>zh&egrave;ngj&ugrave;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="indik.0ilo">
   <kap><tld/>ilo</kap>
   <snc>
     <dif>
-      <ref tip="super" cel="montr.0ilo">Montrilo</ref>, rimedo a&ubreve; aparato 
+      <ref tip="super" cel="montr.0ilo">Montrilo</ref>, rimedo a&ubreve; aparato
       <tld/>anta &ccirc;eeston de io a&ubreve; evoluon de procezo en formo konvena por la homa percepto:
       <ekz>
         <tld/>ilo de tensio, premo;
@@ -472,15 +537,14 @@
       <ekz>
         padoj, markitaj per ne tro atentokaptaj lignaj <tld/>iloj
         <fnt>
-          <bib>Monato</bib>
           <aut>Saliko</aut>
-          <vrk><url ref="&Monato;/2005/008395.php"
-              >Vizito al la nacia parko Vanoise</url></vrk>
-          <lok>2005</lok>
+          <vrk><url ref="&Monato;/2005/008395.php">Vizito al la nacia parko Vanoise</url></vrk>
+              <bib>Monato</bib>
+          <lok>2005/02, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
-        amaso da tabuloj, <tld/>iloj, <ref cel="montr.voj0ilo">vojmontrilo</ref>j 
+        amaso da tabuloj, <tld/>iloj, <ref cel="montr.voj0ilo">vojmontrilo</ref>j
         substrekis, ke la banko estas grava
         institucio
         <fnt>
@@ -492,10 +556,11 @@
         la Komisiono de E&ubreve;ropa Unio ellaboris aron da <tld/>iloj, kiuj helpos taksi la
         kvaliton de la instruado
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007130.html"
-              >Junuloj kaj lingvoj</url></vrk>
-        </fnt>;
+          <aut>Roland Rotsaert</aut>
+            <vrk><url ref="&Monato;/2000/007130.php">Junuloj kaj lingvoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 28</lok>
+          </fnt>;
       </ekz>
       <ekz>
         la pozicio de registaro a&ubreve; politika movado al Esperanto liveras ne malofte
@@ -539,6 +604,11 @@
     <trd>jelz&odblac;berendez&eacute;s</trd>,
     <trd>indik&aacute;tor</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12452;&#12531;&#12472;&#12465;&#12540;&#12479;&#12540;</trd>,
+    <trd>&#25351;&#27161;  <pr>&#12375;&#12402;&#12423;&#12358;</pr></trd>,
+    <trd>&#27161;&#35672;  <pr>&#12402;&#12423;&#12358;&#12375;&#12365;</pr></trd>
+  </trdgrp>
   <trd lng="nl">indicator</trd>
   <trd lng="pt">indicador<klr tip="amb"> (instrumento)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_d;&c_i;&c_k;&c_a;&c_t;&c_o;&c_r;</trd>
@@ -548,8 +618,20 @@
     <trd>&c_d;&c_o;&c_v;&c_ib;&c_d;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_ib;&c_n;&c_d;&c_i;&c_k;&c_a;&c_t;&c_o;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25351;&#31034;&#31526; <pr>zh&#464;sh&igrave;f&uacute;</pr></trd>,
+    <trd>&#25351;&#31034;&#32773; <pr>zh&#464;sh&igrave;zh&ecaron;</pr></trd>,
+    <trd>&#36321;&#35937; <pr>j&igrave;xi&agrave;ng</pr></trd>,
+    <trd>&#20844;&#31034; <pr>g&omacron;ngsh&igrave;</pr></trd>,
+    <trd>&#25351;&#31034;&#29289; <pr>zh&#464;sh&igrave;w&ugrave;</pr></trd>,
+    <trd>&#32218;&#32034; <pr>xi&agrave;nsu&#466;</pr></trd>,
+    <trd>&#20316;&#26631;&#35760; <pr>zu&ograve;bi&amacron;oj&igrave;</pr></trd>,
+    <trd>&#26680;&#23545;&#26631;&#35760; <pr>h&eacute;du&igrave;bi&amacron;oj&igrave;</pr></trd>,
+    <trd>&#35352;&#34399; <pr>j&igrave;h&agrave;o</pr></trd>,
+    <trd>&#25351;&#31034;&#35336; <pr>zh&#464;sh&igrave;j&igrave;</pr></trd>
+  </trdgrp>
 </drv>
-    
+
 <drv mrk="indik.0uzo">
   <kap>uz<tld/>o</kap>
   <snc>
@@ -569,32 +651,37 @@
     <trd>mode d'emploi</trd>,
     <trd>instruction<klr> d'usage</klr></trd>
   </trdgrp>
+  <trd lng="nl">gebruiksaanwijzing</trd>
+  <trdgrp lng="zh">
+    <trd>&#20351;&#29992;&#35498;&#26126; <pr>sh&#464;y&ograve;ngshu&omacron;m&iacute;ng</pr></trd>,
+    <trd>&#20351;&#29992;&#35498;&#26126;&#26360; <pr>sh&#464;y&ograve;ngshu&omacron;m&iacute;ngsh&umacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
   <!--
   $Log$
+versio 1.114 2024/01/06 17:27:12
+Wolfram Diestel: +~o MED
+
+versio 1.113 2023/12/12 19:24:43
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.111 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.109 2023/08/29 16:33:57
+Wolfram Diestel: ja: prononco
+
+versio 1.108 2023/05/24 09:25:56
+Paul Peeraerts: + trd nl + lok + url + aut
+
+versio 1.107 2023/04/30 12:42:40
+Paul Peeraerts: Steloj -> monato
+
 versio 1.106 2022/10/20 08:48:26
 Wolfram Diestel: +trd de
 
 versio 1.105 2022/06/13 07:29:50
-Dmitri Gabinski: + trd be
-
-versio 1.104 2022/05/06 15:47:04
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.103 2022/05/02 18:40:27
-Wolfram Diestel: ~o: 3 snc; ~o..~ilo: ekz-oj, ref-oj, trd de
-
-versio 1.102 2022/05/02 11:25:55
-Wolfram Diestel: ~i: +ekz, ref, trd de
-
-versio 1.101 2022/04/30 08:42:42
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.24 2021/05/13 16:02:28
-Wolfram Diestel: kor. snc@mrk
-
-  Revision 1.22  2015/06/29 16:33:15  revo
 -->
 </vortaro>

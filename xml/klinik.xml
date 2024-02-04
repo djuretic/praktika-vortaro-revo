@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: klinik.xml,v 1.20 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: klinik.xml,v 1.25 2023/12/03 09:58:50 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>klinik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -24,20 +24,22 @@
         kunlaboranta kun
         nelegalaj <tld/>oj en Italio, al kiuj &gcirc;i liveras homajn organojn
         <fnt>
-          <bib>Monato</bib>
-          <aut>Laimius Straznickas</aut>
-          <vrk><url ref="&Steloj;monato2/007006.html">Litovio: Krimo organ-izata</url></vrk>
-        </fnt>;
+          <aut>last</aut>
+            <vrk><url ref="&Monato;/2000/007006.php">Krimo organ-izata</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 14</lok>
+          </fnt>;
       </ekz>
       <ekz>
         en iuj landoj, &ccirc;efe Usono, estas <tld/>oj, kie oni kuracas
         diversajn malsanojn
         (ne nur) psikologiajn per helpo de son&gcirc;oj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Reza Kheir-khah</aut>
-          <vrk><url ref="&Steloj;monato2/007087.html">Son&gcirc;o: Mirinda dimensio de nia vivo</url></vrk>
-        </fnt>;
+          <aut>Reza Kheir-Khah</aut>
+            <vrk><url ref="&Monato;/2000/007087.php">Mirinda dimensio de nia vivo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 16</lok>
+          </fnt>;
       </ekz>
       <ekz>
         aparte furoras &ccirc;e privataj <tld/>oj dentaj kaj
@@ -78,16 +80,39 @@
   <trd lng="es">cl&iacute;nica</trd>
   <trd lng="fr">clinique</trd>
   <trd lng="it">clinica<klr> (osped. univ.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x81E8;&#x5E8A;  <pr>&#x308A;&#x3093;&#x3057;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x81E8;&#x5E8A;&#x8B1B;&#x7FA9;  <pr>&#x308A;&#x3093;&#x3057;&#x3087;&#x3046;&#x3053;&#x3046;&#x304E;</pr></trd>,
+    <trd>&#x81E8;&#x5E8A;&#x8B1B;&#x7FA9;&#x5BA4;  <pr>&#x308A;&#x3093;&#x3057;&#x3087;&#x3046;&#x3053;&#x3046;&#x304E;&#x3057;&#x3064;</pr></trd>,
+    <trd>&#x8A3A;&#x7642;&#x6240;  <pr>&#x3057;&#x3093;&#x308A;&#x3087;&#x3046;&#x3057;&#x3087;</pr></trd>,
+    <trd>&#x533B;&#x9662;  <pr>&#x3044;&#x3044;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kliniek</trd>
   <trd lng="pl">klinika</trd>     
   <trd lng="ro">clinic&abreve;</trd>
   <trd lng="ru">&c_k;&c_l;&c_i;&c_n;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">klinika</trd>
-  <trd lng="uk">&#x43A;&#x43B;&#x456;&#x43D;&#x456;&#x43A;&#x430;</trd>
+  <trd lng="uk">&#x43A;&#x43B;&c_ib;&#x43D;&c_ib;&#x43A;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x533B;&#x52A1;&#x6240; <pr>y&#x12B;w&#xF9;su&#x1D2;</pr></trd>,
+    <trd>&#x533B;&#x52A1;&#x9662; <pr>y&#x12B;w&#xF9;yu&#xE0;n</pr></trd>,
+    <trd>&#x9580;&#x8A3A;&#x5BA4; <pr>m&#xE9;nzh&#x11B;nsh&#xEC;</pr></trd>,
+    <trd>&#x6559;&#x5B66;&#x533B;&#x9662; <pr>ji&#xE0;oxu&#xE9;y&#x12B;yu&#xE0;n</pr></trd>,
+    <trd>&#x533B;&#x52A1;&#x5BA4; <pr>y&#x12B;w&#xF9;sh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/18 16:50:28
+revo: transskribo per <pr>
+
+versio 1.22 2023/04/30 14:25:51
+Paul Peeraerts: Steloj -> monato
+
+versio 1.21 2023/04/27 15:26:46
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.20 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -101,14 +126,5 @@ Revision 1.15  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.14  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.13  2010/06/17 16:31:06  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.12  2009/09/19 16:30:44  revo
-Antonio Codazzi: +trd it
-
-Revision 1.11  2005/04/08 16:31:44  revo
 -->
 </vortaro>

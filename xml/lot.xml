@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lot.xml,v 1.28 2022/05/01 12:04:34 revo Exp $">
+<art mrk="$Id: lot.xml,v 1.32 2024/01/15 19:32:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lot</rad>/i
@@ -42,13 +42,15 @@
       </ekz>
     </dif>
   </snc>
-  <ref tip="vid" cel="loteri.0o">loterio</ref>
-  <trd lng="en">draw lots</trd>
+  <trdgrp lng="en">
+    <trd><ofc>*</ofc>cast lots</trd>,
+    <trd>draw lots</trd>
+  </trdgrp>
   <trdgrp lng="de">
-    <trd>losen</trd>
+    <trd><ofc>*</ofc>losen</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>tirer au sort</trd>,
+    <trd><ofc>*</ofc>tirer au sort</trd>,
     <trd>jeter le sort<klr tip="ind"> (tirer au sort)</klr></trd>,
     <trd>tirer &agrave; la courte-paille</trd>
   </trdgrp>
@@ -57,17 +59,26 @@
     <trd>sorsot h&uacute;z</trd>,
     <trd>sorsot vet</trd>
   </trdgrp>  
+  <trdgrp lng="ja">
+    <trd>&#x304F;&#x3058;&#x3092;&#x5F15;&#x304F;  <pr>&#x304F;&#x3058;&#x3092;&#x3072;&#x304F;</pr></trd>,
+    <trd>&#x304F;&#x3058;&#x3067;&#x6C7A;&#x3081;&#x308B;  <pr>&#x304F;&#x3058;&#x3067;&#x304D;&#x3081;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">loten</trd>
-  <trd lng="pl">losowa&cacute;</trd>
+  <trd lng="pl"><ofc>*</ofc>losowa&cacute;</trd>
   <trd lng="ro">atrage</trd>
-  <trd lng="ru">&c_b;&c_r;&c_o;&c_s;&c_a;&c_t;&c_mol; &c_zh;&c_r;&c_je;&c_b;&c_i;&c_j;</trd>
+  <trd lng="ru"><ofc>*</ofc>&c_b;&c_r;&c_o;&c_s;&c_a;&c_t;&c_mol; &c_zh;&c_r;&c_je;&c_b;&c_i;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>h&aacute;dza&tcaron;</trd>,
     <trd>&tcaron;aha&tcaron; l&oacute;s</trd>,
     <trd>&zcaron;rebova&tcaron;</trd>
   </trdgrp>
   <trd lng="cs">losovat</trd>
-  <trd lng="uk">&#x43A;&#x438;&#x434;&#x430;&#x442;&#x438; &#x436;&#x435;&#x440;&#x435;&#x431;&#x43E;&#x43A;/&#x436;&#x435;&#x440;&#x435;&#x431;</trd>
+  <trd lng="uk">&c_k;&c_i;&c_d;&c_a;&c_t;&c_i; &c_zh;&c_je;&c_r;&c_je;&c_b;&c_o;&c_k;/&c_zh;&c_je;&c_r;&c_je;&c_b;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62BD;&#x7B7E; <pr>ch&#x14D;uqi&#x101;n</pr></trd>,
+    <trd>&#x62BD;&#x7C64; <pr>ch&#x14D;uqi&#x101;n</pr></trd>,
+    <trd>&#x6478;&#x5F69; <pr>m&#x14D;c&#x1CE;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lot.0o">
@@ -79,15 +90,13 @@
         dispartigu al vi la landon per <tld/>o konforme al viaj
         familioj
         <fnt><bib>MT</bib>, <lok>&Nom; 33:54</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         per la <tld/>o oni dividu al &ccirc;iu lian poseda&jcirc;on
         <fnt>
           <bib>MT</bib>
           <lok>Nombroj 26:56</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la <tld/>o decidos;
       </ekz><ekz>
         la&ubreve; <tld/>o ili donis poseda&jcirc;on <klr>[&#x2026;]</klr> al la
@@ -107,7 +116,17 @@
       <trd>Auslosung</trd>,
       <trd>Verlosung</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6709;&#x5956;&#x7ADE;&#x8D5B; <pr>y&#x1D2;uji&#x1CE;ngj&#xEC;ngs&#xE0;i</pr></trd>,
+    <trd>&#x6709;&#x734E;&#x7AF6;&#x8CFD; <pr>y&#x1D2;uji&#x1CE;ngj&#xEC;ngs&#xE0;i</pr></trd>,
+    <trd>&#x731C;&#x9009;&#x4EEA;&#x5F0F; <pr>c&#x101;ixu&#x1CE;ny&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x731C;&#x9078;&#x5100;&#x5F0F; <pr>c&#x101;ixu&#x1CE;ny&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x7ADE;&#x9009;&#x4EEA;&#x5F0F; <pr>j&#xEC;ngxu&#x1CE;ny&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x7AF6;&#x9078;&#x5100;&#x5F0F; <pr>j&#xEC;ngxu&#x1CE;ny&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x7CBE;&#x9009;&#x4EEA;&#x5F0F; <pr>j&#x12B;ngxu&#x1CE;ny&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x7CBE;&#x9078;&#x5100;&#x5F0F; <pr>j&#x12B;ngxu&#x1CE;ny&#xED;sh&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
 
   <snc mrk="lot.0o.0ajxo">
     <dif>
@@ -128,7 +147,11 @@
       <trd>sorsol&aacute;s</trd>,
       <trd>sorsh&uacute;z&aacute;s</trd>
     </trdgrp>   
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x9604; <pr>ji&#x16B;</pr></trd>,
+    <trd>&#x9B2E; <pr>ji&#x16B;</pr></trd>
+  </trdgrp>
+</snc>
 
   <snc mrk="lot.0o.sorto">
     <uzo tip="stl">FIG</uzo>
@@ -206,6 +229,10 @@
     </ekz>
     <aut>Sergio Pokrovskij</aut>
   </rim>
+  <trdgrp lng="ja">
+    <trd>&#x304F;&#x3058;</trd>,
+    <trd>&#x904B;  <pr>&#x3046;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_zh;&c_r;&c_je;&c_b;&c_i;&c_j;</trd>
   <trd lng="sk">d&aacute;vka</trd>
   <trdgrp lng="cs">
@@ -213,10 +240,10 @@
     <trd>partie zbo&zcaron;&iacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x436;&#x435;&#x440;&#x435;&#x431;&#x43E;&#x43A;</trd>,
-    <trd>&#x436;&#x435;&#x440;&#x435;&#x431;</trd>,
-    <trd>&#x434;&#x43E;&#x43B;&#x44F;</trd>,
-    <trd>&#x442;&#x430;&#x43B;&#x430;&#x43D;</trd>
+    <trd>&c_zh;&c_je;&c_r;&c_je;&c_b;&c_o;&c_k;</trd>,
+    <trd>&c_zh;&c_je;&c_r;&c_je;&c_b;</trd>,
+    <trd>&c_d;&c_o;&c_l;&c_ja;</trd>,
+    <trd>&c_t;&c_a;&c_l;&c_a;&c_n;</trd>
   </trdgrp>
 </drv>
 
@@ -231,8 +258,7 @@
           <bib>MT</bib>
           <lok>I. Kroniko 24:5</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         Josuo faris al ili <tld/>adon <klr>[kaj]</klr> dividis tie
         la landon por la Izraelidoj la&ubreve; iliaj partoj
         <fnt><bib>MT</bib>, <lok>&Jos; 18:10</lok></fnt>.
@@ -254,6 +280,10 @@
   <trd lng="es">sorteo</trd>
   <trd lng="fr">tirage au sort</trd>
   <trd lng="hu">sorsh&uacute;z&aacute;s</trd>  
+  <trdgrp lng="ja">
+    <trd>&#x304F;&#x3058;&#x5F15;&#x304D;  <pr>&#x304F;&#x3058;&#x3073;&#x304D;</pr></trd>,
+    <trd>&#x62BD;&#x9078;  <pr>&#x3061;&#x3085;&#x3046;&#x305B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">loting</trd>
   <trdgrp lng="pl">
     <trd>ci&aogonek;gnienie</trd>,
@@ -267,7 +297,12 @@
     <trd>&zcaron;rebovanie</trd>
   </trdgrp>
   <trd lng="cs">losov&aacute;n&iacute;</trd>
-  <trd lng="uk">&#x436;&#x435;&#x440;&#x435;&#x431;&#x43A;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_zh;&c_je;&c_r;&c_je;&c_b;&c_k;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62BD;&#x7B7E; <pr>ch&#x14D;uqi&#x101;n</pr></trd>,
+    <trd>&#x62BD;&#x7C64; <pr>ch&#x14D;uqi&#x101;n</pr></trd>,
+    <trd>&#x6478;&#x5F69; <pr>m&#x14D;c&#x1CE;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lot.0ajxo">
@@ -293,6 +328,11 @@
   tirage)</klr></trd>
   <trd lng="hu">nyerem&eacute;ny<klr tip="ind">
   (sorsol&aacute;sn&aacute;l)</klr></trd>  
+  <trdgrp lng="ja">
+    <trd>&#x304F;&#x3058;&#x306E;&#x8CDE;&#x54C1;  <pr>&#x304F;&#x3058;&#x306E;&#x3057;&#x3087;&#x3046;&#x3072;&#x3093;</pr></trd>,
+    <trd>&#x666F;&#x54C1;  <pr>&#x3051;&#x3044;&#x3072;&#x3093;</pr></trd>,
+    <trd>&#x5206;&#x3051;&#x524D;  <pr>&#x308F;&#x3051;&#x307E;&#x3048;</pr></trd>
+  </trdgrp>
   <trd lng="nl">lot</trd>
   <trd lng="pl">wygrana na <ind>loterii</ind></trd>
   <trd lng="ro">c&acirc;&#x219;tig&acirc;nd la loto</trd>
@@ -301,10 +341,10 @@
     <trd>&c_s;&c_u;&c_d;&c_mol;&c_b;&c_a; <klr>(f)</klr></trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x436;&#x435;&#x440;&#x435;&#x431;&#x43E;&#x43A;</trd>,
-    <trd>&#x436;&#x435;&#x440;&#x435;&#x431;</trd>,
-    <trd>&#x434;&#x43E;&#x43B;&#x44F;</trd>,
-    <trd>&#x442;&#x430;&#x43B;&#x430;&#x43D;</trd>
+    <trd>&c_zh;&c_je;&c_r;&c_je;&c_b;&c_o;&c_k;</trd>,
+    <trd>&c_zh;&c_je;&c_r;&c_je;&c_b;</trd>,
+    <trd>&c_d;&c_o;&c_l;&c_ja;</trd>,
+    <trd>&c_t;&c_a;&c_l;&c_a;&c_n;</trd>
   </trdgrp>
 </drv>
 
@@ -326,10 +366,16 @@
     <trd>sorts<klr tip="ind"> (pour tirer au sort)</klr></trd>
   </trdgrp>
   <trd lng="hu">sorsol&aacute;s eszk&ouml;ze</trd>  
+  <trd lng="ja">&#x62BD;&#x9078;&#x5668;  <pr>&#x3061;&#x3085;&#x3046;&#x305B;&#x3093;&#x3046;&#x3064;&#x308F;</pr></trd>
   <trd lng="nl">loterijbriefje</trd>
   <trd lng="pl">loteria</trd>
   <trd lng="ro">loterie</trd>
   <trd lng="ru">&c_zh;&c_r;&c_je;&c_b;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9604; <pr>ji&#x16B;</pr></trd>,
+    <trd>&#x9B2E; <pr>ji&#x16B;</pr></trd>,
+    <trd>&#x5F69;&#x7968; <pr>c&#x1CE;ipi&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lot.0ujo">
@@ -354,8 +400,8 @@
   <trd lng="hu">urna<klr tip="ind"> (sorsol&aacute;shoz)</klr></trd>  
   <trd lng="pl">urna wyborcza</trd>
   <trd lng="ro">urn&abreve; de vot</trd>
-  <trd lng="ru">&c_u;&c_r;&c_n;&c_a;<klr tip="ind"> (&c_d;&c_l;&c_ja;
-&c_zh;&c_je;&c_r;&c_je;&c_b;&c_mol;&c_jo;&c_v;&c_k;&c_i;)</klr></trd>
+  <trd lng="ru">&c_u;&c_r;&c_n;&c_a;<klr tip="ind"> (&c_d;&c_l;&c_ja; &c_zh;&c_je;&c_r;&c_je;&c_b;&c_mol;&c_jo;&c_v;&c_k;&c_i;)</klr></trd>
+  <trd lng="zh">&#x7968;&#x7BB1; <pr>pi&#xE0;oxi&#x101;ng</pr></trd>
 </drv>
 
 <drv mrk="lot.0umi">
@@ -364,15 +410,14 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="lot.0umi.asigni">
     <dif>
-      Asigni <tld/>ante, <tld/>i pri:
+      Dividi <tld/>ante, <tld/>i pri:
       <ekz>
         oni <tld/>umis la hereda&jcirc;on inter la tri filoj;
       </ekz><ekz>
         Li mem <tld/>umis por ili, kaj Lia mano dividis por ili la&ubreve;
         rekto&scirc;nuro
         <fnt><bib>MT</bib>, <lok>&Jes; 34:17</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la <tld/>uma feli&ccirc;o &ccirc;iam preterlasis min
         <fnt>
           <bib>Monato</bib>
@@ -380,9 +425,8 @@
           <vrk><url ref="&Monato;/2012/010694.php">Dumvivaj rabatoj</url></vrk>
           <lok>2012</lok>
         </fnt>;
-      </ekz>
-      <ekz>
-        180&#x202F;000 el ili estis kvalifikitaj al lotumo por kvoto de 17&#x202F;600 a&ubreve;toj
+      </ekz><ekz>
+        180&#x202F;000 el ili estis kvalifikitaj al <tld/>umo por kvoto de 17&#x202F;600 a&ubreve;toj
         <fnt>
           <bib>Monato</bib>
           <aut>Alice Liu</aut>
@@ -391,21 +435,29 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="loteri.0o">loterio</ref>
   </snc>
   <trd lng="cs">losovat</trd>
   <trdgrp lng="de">
     <trd>auslosen</trd>,
-    <trd>verlosen</trd>
+    <trd><ofc>*</ofc>verlosen</trd>
   </trdgrp>
   <trd lng="el">&kappa;&lambda;&eta_ton;&rho;&omega;&sigma;&eta;</trd>
+  <trd lng="en"><ofc>*</ofc>allot</trd>
   <trd lng="es">sortear</trd>
   <trdgrp lng="fr">
+    <trd><ofc>*</ofc>lotir</trd>,
     <trd>tirer au sort</trd>,
     <trd>tirer &agrave; la courte-paille</trd>
   </trdgrp>
   <trd lng="hu">kisorsol</trd>
+  <trdgrp lng="ja">
+    <trd>&#x304F;&#x3058;&#x3067;&#x5206;&#x914D;&#x3059;&#x308B;  <pr>&#x304F;&#x3058;&#x3067;&#x3076;&#x3093;&#x3071;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x62BD;&#x9078;&#x3067;&#x5206;&#x3051;&#x308B;  <pr>&#x3061;&#x3085;&#x3046;&#x305B;&#x3093;&#x3067;&#x308F;&#x3051;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verloten</trd>
   <trdgrp lng="pl">
+    <trd><ofc>*</ofc>rezegra&cacute;</trd>,
     <trd>losowa&cacute;</trd>,
     <trd>przeznaczy&cacute;</trd>,
     <trd>przydzieli&cacute;</trd>,
@@ -418,16 +470,18 @@
     <trd>atribui</trd>,
     <trd>separa</trd>
   </trdgrp>
-  <trd lng="ru">&c_r;&c_a;&c_z;&c_y;&c_g;&c_r;&c_a;&c_t;&c_mol; &c_p;&c_o;
-&c_zh;&c_r;&c_je;&c_b;&c_i;&c_ju;</trd>
+  <trdgrp lng="ru">
+    <trd><ofc>*</ofc>&c_r;&c_a;&c_z;&c_y;&c_g;&c_r;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_y;&c_g;&c_r;&c_a;&c_t;&c_mol; &c_p;&c_o; &c_zh;&c_r;&c_je;&c_b;&c_i;&c_ju;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>h&aacute;dza&tcaron;</trd>,
     <trd>&tcaron;aha&tcaron; l&oacute;s</trd>,
     <trd>&zcaron;rebova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x437;&#x43D;&#x430;&#x447;&#x430;&#x442;&#x438; &#x436;&#x435;&#x440;&#x435;&#x431;&#x43A;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;&#x43C;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x456;&#x433;&#x440;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_v;&c_i;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_t;&c_i; &c_zh;&c_je;&c_r;&c_je;&c_b;&c_k;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;&c_m;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_ib;&c_g;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -467,6 +521,12 @@
   <trd lng="ro">aleatoriu</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_ch;&c_a;&c_j;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">n&aacute;hodn&yacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x968F;&#x673A; <pr>su&#xED;j&#x12B;</pr></trd>,
+    <trd>&#x96A8;&#x6A5F; <pr>su&#xED;j&#x12B;</pr></trd>,
+    <trd>&#x5076;&#x7136; <pr>&#x1D2;ur&#xE1;n</pr></trd>,
+    <trd>&#x610F;&#x5916; <pr>y&#xEC;w&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lot.0masxino">
@@ -493,11 +553,23 @@
   <trd lng="pl">maszyna <ind>losuj&aogonek;ca</ind></trd>
   <trd lng="ro">ma&#x219;in&abreve; de loterie</trd>
   <trd lng="ru">&c_l;&c_o;&c_t;&c_o;&c_t;&c_r;&c_o;&c_n;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5439;&#x7403;&#x673A; <pr>chu&#x12B;qi&#xFA;j&#x12B;</pr></trd>,
+    <trd>&#x5439;&#x7403;&#x6A5F; <pr>chu&#x12B;qi&#xFA;j&#x12B;</pr></trd>,
+    <trd>&#x6405;&#x73E0;&#x673A; <pr>ji&#x1CE;ozh&#x16B;j&#x12B;</pr></trd>,
+    <trd>&#x652A;&#x73E0;&#x6A5F; <pr>ji&#x1CE;ozh&#x16B;j&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
   <!--
   $Log$
+versio 1.31 2023/10/19 14:32:17
+revo: transskribo per <pr>
+
+versio 1.29 2023/02/28 12:51:43
+Sergio Pokrovskij: ofc
+
 versio 1.28 2022/05/01 12:04:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -514,11 +586,5 @@ Vito Redsky: +trd pl +trd ro
   Wolfram Diestel: redakto: ~i: vortumo de dif; ekz-oj, germ trd-oj
 
   Revision 1.22  2017/12/20 00:11:04  revo
-  Michel Cantigneaux: "lot/um/i" fundamenta kunmetajxo el la U.V.
-
-  Revision 1.21  2015/07/04 08:37:38  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.20  2015/06/29 16:33:19  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: justic.xml,v 1.17 2022/04/30 08:42:43 revo Exp $">
+<art mrk="$Id: justic.xml,v 1.21 2023/12/03 07:09:19 revo Exp $">
 <kap>
   <rad>justic</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -17,10 +17,11 @@
       <ekz>
         en kelkaj landoj la korupteco enrampis e&ccirc; la <tld/>on
         <fnt>
-          <bib>Monato</bib>
           <aut>Werner Schad</aut>
-          <vrk><url ref="&Steloj;monato2/007311.html">Putrantaj demokratioj</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2001/007311.html">Putrantaj demokratioj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/02, p. 7</lok>
+          </fnt>;
       </ekz>
       <ekz>
         la alta konsilio pri <tld/>o
@@ -126,6 +127,10 @@
     <trd>igazs&aacute;gszolg&aacute;ltat&aacute;s</trd>
   </trdgrp>
   <trd lng="it">giustizia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x53F8;&#x6CD5;  <pr>&#x3057;&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x6CD5;&#x52D9;  <pr>&#x307B;&#x3046;&#x3080;</pr></trd>
+  </trdgrp>
   <trd lng="nl">gerecht</trd>
   <trd lng="pt">justi&ccedil;a</trd>
   <trdgrp lng="ru">
@@ -134,13 +139,23 @@
   </trdgrp>
   <trd lng="sk">just&iacute;cia</trd>
   <trdgrp lng="uk">
-    <trd>&#x44E;&#x441;&#x442;&#x438;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x43F;&#x440;&#x430;&#x432;&#x43E;&#x441;&#x443;&#x434;&#x434;&#x44F;</trd>
+    <trd>&#x44E;&c_s;&c_t;&c_i;&c_c;&c_ib;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&c_a;&c_v;&#x43E;&c_s;&c_u;&c_d;&c_d;&#x44F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x53F8;&#x6CD5; <pr>s&#x12B;f&#x1CE;</pr></trd>,
+    <trd>&#x516C;&#x68C0;&#x6CD5;&#x53F8; <pr>g&#x14D;ngji&#x1CE;nf&#x1CE;s&#x12B;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.20 2023/10/18 05:26:26
+revo: transskribo per <pr>
+
+versio 1.18 2023/04/30 13:26:27
+Paul Peeraerts: Steloj -> monato
+
 versio 1.17 2022/04/30 08:42:43
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -157,11 +172,5 @@ Revision 1.11  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.10  2009/03/19 18:17:18  revo
-Antonio Codazzi: +trd it
-
-Revision 1.9  2009/02/19 20:26:04  revo
-Russ Williams: +trd en
-
-Revision 1.8  2004/09/26 16:32:55  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gest.xml,v 1.22 2022/03/19 16:47:06 revo Exp $">
+<art mrk="$Id: gest.xml,v 1.27 2023/11/11 10:00:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gest</rad>/o <fnt><bib>PV</bib></fnt>
@@ -39,14 +39,24 @@
   <trd lng="es">gesto</trd>
   <trd lng="fr">geste<klr tip="ind"> (mouvement du corps)</klr></trd>
   <trd lng="hu">gesztus</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8EAB;&#x3076;&#x308A;  <pr>&#x307F;&#x3076;&#x308A;</pr></trd>,
+    <trd>&#x624B;&#x3076;&#x308A;  <pr>&#x3066;&#x3076;&#x308A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">gebaar</trd>
+  <trdgrp lng="pl">
+    <trd>gest</trd>,
+    <trd>mig</trd>,
+    <trd>znak</trd>
+  </trdgrp>
   <trdgrp lng="pt">
-   <trd>gesto<klr tip="amb"> (movimento de corpo)</klr></trd>, 
-   <trd>aceno</trd> 
+   <trd>gesto<klr tip="amb"> (movimento de corpo)</klr></trd>,
+   <trd>aceno</trd>
   </trdgrp>
   <trd lng="ru">&c_zh;&c_je;&c_s;&c_t;</trd>
   <trd lng="sk">posunok</trd>
-  <trd lng="uk">&#x436;&#x435;&#x441;&#x442;</trd>
+  <trd lng="uk">&c_zh;&c_je;&c_s;&c_t;</trd>
+  <trd lng="zh">&#x59FF;&#x6001; <pr>z&#x12B;t&#xE0;i</pr></trd>
 </drv>
 
 <drv mrk="gest.0i">
@@ -74,17 +84,22 @@
   <trd lng="es">hacer <ind>gestos</ind></trd>
   <trd lng="fr">faire un <ind>geste</ind></trd>
   <trd lng="hu">gesztust tesz</trd>
+  <trd lng="ja">&#x8EAB;&#x3076;&#x308A;&#x3092;&#x3059;&#x308B;  <pr>&#x307F;&#x3076;&#x308A;&#x3092;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">een <ind>gebaar</ind> maken</trd>
+  <trdgrp lng="pl">
+    <trd>robi&cacute;  <ind>gesty</ind></trd>,
+    <trd>czyni&cacute;  <ind>gesty</ind></trd>
+  </trdgrp>
   <trdgrp lng="pt">
-   <trd>fazer um <ind>gesto</ind></trd>, 
-   <trd>fazer um <ind>aceno</ind></trd> 
+   <trd>fazer um <ind>gesto</ind></trd>,
+   <trd>fazer um <ind>aceno</ind></trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_zh;&c_je;&c_s;&c_t;</ind></trd>
   <trdgrp lng="sk">
     <trd>k&#xFD;vnu&tcaron;</trd>,
     <trd>zdravi&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&#x436;&#x435;&#x441;&#x442;&#x438;&#x43A;&#x443;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_zh;&c_je;&c_s;&c_t;&c_i;&#x43A;&c_u;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="gest.0adi">
@@ -108,16 +123,26 @@
   <trd lng="es">gesticular</trd>
   <trd lng="fr">gesticuler</trd>
   <trd lng="hu">gesztikul&aacute;l</trd>
+  <trd lng="ja">&#x3057;&#x304D;&#x308A;&#x306B;&#x8EAB;&#x3076;&#x308A;&#x3092;&#x3059;&#x308B; 
+  <pr>&#x3057;&#x304D;&#x308A;&#x306B;&#x307F;&#x3076;&#x308A;&#x3092;&#x3059;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>gebaren maken</trd>,
     <trd>gesticuleren</trd>
   </trdgrp>
+  <trd lng="pl">gestykulowa&cacute;</trd>
   <trdgrp lng="pt">
-   <trd>gesticular</trd>, 
-   <trd>acenar</trd> 
+   <trd>gesticular</trd>,
+   <trd>acenar</trd>
   </trdgrp>
   <trd lng="ru">&c_zh;&c_je;&c_s;&c_t;&c_i;&c_k;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">gestikulova&tcaron;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6BD4;&#x624B;&#x753B;&#x811A; <pr>b&#x1D0;sh&#x1D2;uhu&#xE0;ji&#x1CE;o</pr></trd>,
+    <trd>&#x63F6; <pr>y&#xE9;</pr></trd>,
+    <trd>&#x624B;&#x821E;&#x8DB3;&#x8E48; <pr>sh&#x1D2;uw&#x1D4;z&#xFA;d&#x1CE;o</pr></trd>,
+    <trd>&#x39D1; <pr>hu&#x12B;</pr></trd>,
+    <trd>&#x6325;&#x821E; <pr>hu&#x12B;w&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gest.0ema">
@@ -127,6 +152,7 @@
       Inklina <tld/>adi parolante.
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_h;&c_ib;&c_l;&c_mol;&c_n;&c_y; &c_d;&c_a; <ind>&c_zh;&c_e;&c_s;&c_t;&c_y;&c_k;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</ind></trd>
   <trd lng="cs">gestikuluj&#xED;c&#xED; p&rcaron;i &rcaron;e&#x10D;i</trd>
   <trd lng="de">gestenreich</trd>
   <trdgrp lng="en">
@@ -136,6 +162,9 @@
   <trd lng="es">gesticulador</trd>
   <trd lng="fr">gesticulateur</trd>
   <trd lng="hu">gesztikul&aacute;l&oacute;s</trd>
+  <trd lng="ja">&#x8EAB;&#x3076;&#x308A;&#x306E;&#x591A;&#x3044; 
+  <pr>&#x307F;&#x3076;&#x308A;&#x306E;&#x304A;&#x304A;&#x3044;</pr></trd>
+  <trd lng="pl">lubi&aogonek;cy  <ind>gestykulowa&cacute;</ind>  przy m&oacute;wieniu</trd>
   <trd lng="sk">gestikuluj&#xFA;ci pri re&#x10D;i</trd>
 </drv>
 
@@ -147,17 +176,30 @@
       Forpeli per <tld/>o:
       <ekz>
         Urga for<tld/>is la provoketon
-        <fnt><aut>E. de Zilah</aut>, <vrk>La Princo &ccirc;e la Hunoj</vrk>, 
+        <fnt><aut>E. de Zilah</aut>, <vrk>La Princo &ccirc;e la Hunoj</vrk>,
         <lok>2011</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_g;&c_a;&c_n;&c_ja;&c_c;&c_mol; <klr>(&c_zh;&c_e;&c_s;&c_t;&c_a;&c_m;)</klr></trd>
   <trd lng="fr">&eacute;carter d'un geste</trd>
+  <trdgrp lng="pl">
+    <trd>odjecha&cacute;  <klr>(gest)</klr></trd>,
+    <trd>odej&sacute;&cacute;   <klr>(gest)</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/20 09:24:14
+Dmitri Gabinski: + trd be
+
+versio 1.25 2023/10/15 06:07:00
+revo: transskribo per <pr>
+
+versio 1.23 2023/05/03 21:24:01
+Vito Redsky: +trd pl
+
 versio 1.21 2021/12/09 07:29:47
 Dmitri Gabinski: + trd be
 
@@ -171,14 +213,5 @@ Revision 1.16  2010/05/11 16:30:32  revo
 Russ Williams: +trd en
 
 Revision 1.15  2008/03/07 17:30:14  revo
-Wieland Pusch: +trd bg
-
-Revision 1.14  2005/08/19 19:14:02  revo
-Luiz Portella: +trd pt
-
-Revision 1.13  2004/01/04 17:35:40  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2003/09/15 16:30:51  revo
 -->
 </vortaro>

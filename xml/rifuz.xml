@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: rifuz.xml,v 1.30 2022/05/04 19:19:16 revo Exp $">
+  <art mrk="$Id: rifuz.xml,v 1.34 2023/10/21 05:38:06 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>rifuz</rad>/i
@@ -81,8 +81,8 @@
         la komitato de UEA <tld/>is akcepti la bu&gcirc;eton proponitan de la estraro
         <fnt>
           <vrk><url
-          ref="http://www.liberafolio.org/2017/12/02/la-komitato-de-uea-akceptis-bugeton-kun-enorma-deficito/"
-                >La komitato de UEA akceptis bu&gcirc;eton kun enorma deficito ...</url></vrk>
+          ref="http://www.liberafolio.org/2017/12/02/la-komitato-de-uea-akceptis-bugeton-kun-enorma-deficito/">La
+          komitato de UEA akceptis bu&gcirc;eton kun enorma deficito ...</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -97,10 +97,15 @@
     <refgrp tip="vid">
       <ref cel="surd.0a">surda</ref>
     </refgrp>
-    <trd lng="hu">megtagad</trd>    
+    <trd lng="hu">megtagad</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_t;&c_k;&c_a;&c_z;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_o;&c_t;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>ablehnen</trd>,
+      <trd>verweigern</trd>,
+      <trd>abschlagen<klr> [geh]</klr></trd>
     </trdgrp>
   </snc>
   <snc mrk="rifuz.0i.ne_povi">
@@ -120,10 +125,15 @@
       <trd/>,
       <trd/>
     </trdgrp>
-    <trd lng="hu">nem <ind>engedelmeskedik</ind></trd>    
+    <trd lng="hu">nem <ind>engedelmeskedik</ind></trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_t;&c_k;&c_a;&c_z;&c_a;&c_t;&c_mol;<klr> (&c_o; &c_ch;&c_a;&c_s;&c_t;&c_i; &c_t;&c_je;&c_l;&c_a;, &c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;)</klr></trd>,
       <trd>&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_t;&c_mol; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>versagen</trd>,
+      <trd>verweigern</trd>,
+      <trd>Dienst <ind>einstellen</ind></trd>
     </trdgrp>
   </snc>
   <snc mrk="rifuz.0i.proponon">
@@ -178,8 +188,9 @@
       <aut>Sergio Pokrovskij</aut>
     </rim>
     <trdgrp lng="de">
+      <trd>nicht annehmen</trd>,
       <trd>ablehnen</trd>,
-      <trd/>
+      <trd>dankend <ind>ablehnen</ind></trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>visszautas&iacute;t</trd>,
@@ -207,6 +218,12 @@
       </ekz>
     </dif>
     <trd lng="de">verzichten</trd>
+    <trdgrp lng="de">
+      <trd>abgeben</trd>,
+      <trd>aufgeben</trd>,
+      <trd>abdanken</trd>,
+      <trd>verzichten auf</trd>
+    </trdgrp>
     <trd lng="fr">renoncer &agrave;</trd>
     <trd lng="ru">&c_o;&c_t;&c_k;&c_a;&c_z;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr> (&c_l;&c_i;&c_sh;&c_i;&c_t;&c_mol; &c_s;&c_je;&c_b;&c_ja;)</klr></trd>
   </snc>
@@ -221,9 +238,16 @@
     <trd>odm&iacute;tnout</trd>,
     <trd>vzd&aacute;t se</trd>
   </trdgrp>
-  <trd lng="de">verweigern</trd>
   <trd lng="en">refuse</trd>
   <trd lng="fr">refuser</trd>
+  <trdgrp lng="ja">
+    <trd>&#x62D2;&#x7D76;&#12377;&#x308B;  <pr>&#x304D;&#12423;&#x305C;&#12388;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x62D2;&#21542;&#12377;&#x308B;  <pr>&#x304D;&#12423;&#12402;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x62D2;&#12416;  <pr>&#12371;&#12400;&#12416;</pr></trd>,
+    <trd>&#x65AD;&#x308B;  <pr>&#12371;&#12392;&#x308F;&#x308B;</pr></trd>,
+    <trd>&#x8F9E;&#36864;&#12377;&#x308B;  <pr>&#12376;&#x305F;&#12356;&#12377;&#x308B;</pr></trd>,
+    <trd>&#xFF5E;<ind>&#12375;&#12424;&#12358;&#12392;&#12375;&#x306A;&#12356;</ind></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>weigeren</trd>,
     <trd>afwijzen</trd>
@@ -283,6 +307,11 @@
   <trd lng="de">Weigerung</trd>
   <trd lng="en">refusal</trd>
   <trd lng="fr">refus</trd>
+  <trdgrp lng="ja">
+    <trd>&#x62D2;&#x7D76;  <pr>&#x304D;&#12423;&#x305C;&#12388;</pr></trd>,
+    <trd>&#x62D2;&#21542;  <pr>&#x304D;&#12423;&#12402;</pr></trd>,
+    <trd>&#x8F9E;&#36864;  <pr>&#12376;&#x305F;&#12356;</pr></trd>
+  </trdgrp>
   <trd lng="pl">odmowa</trd>
   <trd lng="ru">&c_o;&c_t;&c_k;&c_a;&c_z;</trd>
   <trdgrp lng="sk">
@@ -297,7 +326,7 @@
 </drv>
 
 <drv mrk="rifuz.for0i">
-  <kap>for<tld/>i, 
+  <kap>for<tld/>i,
      <var><kap><ofc>*</ofc><tld/>i&gcirc;i</kap></var>
   </kap>
   <gra><vspec>tr</vspec></gra>
@@ -367,6 +396,10 @@
     <trd>lemond <klr tip="ind">(vmir&odblac;l)</klr></trd>,
     <trd>eltasz&iacute;t <klr tip="ind">(mag&aacute;t&oacute;l)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x56FA;&#x8F9E;&#12377;&#x308B;  <pr>&#12371;&#12376;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x62D2;&#21542;&#12377;&#x308B;  <pr>&#x304D;&#12423;&#12402;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>afstaan</trd>,
     <trd>verstoten</trd>,
@@ -386,6 +419,15 @@
   </art>
   <!--
   $Log$
+versio 1.34 2023/10/21 05:38:06
+revo: transskribo per <pr>
+
+versio 1.33 2023/09/08 14:27:06
+Wolfram Diestel: kor. ja ind.
+
+versio 1.31 2023/03/11 01:48:26
+Ulrich Fellmann: rifuzi: +11 DE trdj
+
 versio 1.30 2022/05/04 19:19:16
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -399,14 +441,5 @@ Dmitri Gabinski: + trd be; forigo de fusxa kodo
   adaptis URL de Monato
 
   Revision 1.23  2018/04/21 15:10:15  revo
-  Wolfram Diestel: korektis mrk; prilaboris ekz-ojn, +rim, +adm
-
-  Revision 1.22  2017/12/20 13:10:16  revo
-  Michel Cantigneaux: "rifuz/igx/i" fundamenta kunmetajxo el la U.V.
-
-  Revision 1.21  2016/09/27 10:10:20  revo
-  Sebastian Cyprych: +trd pl
-
-  Revision 1.20  2015/11/04 15:10:17  revo
 -->
 </vortaro>

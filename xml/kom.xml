@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kom.xml,v 1.28 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: kom.xml,v 1.34 2023/12/03 09:58:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kom</rad>/o
@@ -12,18 +12,87 @@
    <uzo tip="fak">TIP</uzo>
    <uzo tip="fak">GRA</uzo>
     <dif>
-      <ref tip="dif" cel="interp3.0o">Interpunkcia</ref> <ref tip="super" cel="sign.0o">signo</ref> (,) indikanta, ke oni devas
+      <ref tip="dif" cel="interp3.0o">Interpunkcia</ref> <ref tip="super" cel="sign.0o">signo</ref>
+      (,) indikanta, ke oni devas
       apartigi partojn de propozicio a&ubreve; propoziciojn unu de la alia,
       intermetante tre mallongan pa&ubreve;zon:
+      <ekz>
+        anka&ubreve; la parolado havas siajn <tld/>ojn, punktojn, dupunktojn, citilojn,
+        punkto<tld/>ojn, demandosignojn, interjekciojn, streketojn! <tld/>on oni
+        formas per malgranda pa&ubreve;zeto
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nac>si omnes consentiunt ego non dissentio</nac> &ndash;
+        perfekte kaj sen <tld/>o
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         ha, li remalkovris <tld/>ojn kaj punktojn, sed ankora&ubreve; ne la
         majusklon
         <fnt><aut>Christian Declerck</aut>: <vrk>Dua kvaropo,
         sproniva kiel la unua</vrk>, <bib>Monato</bib><lok>jaro 1994a,
-        numero 4a, p. 22a</lok></fnt>.
+        numero 4a, p. 22a</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi eble &scirc;an&gcirc;as <tld/>on ie kaj tie
+        <fnt>
+          <bib>Kiso</bib>
+          <lok>Poetoj Kaj Homoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kura&gcirc;a &jcirc;urnalisto, kiu ne hezitis ataki <tld/>ojn potencajn, se lia konscienco
+        tion diktis
+        <fnt>
+          <bib>ChV</bib>
+          <lok>14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj dividas longan frazon en supervideblajn propoziciojn kaj, tiel
+        montrante tuj la strukturon de la tuto, faciligas la legadon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Declerck</aut>
+          <vrk>Kiun vojon?</vrk>
+        </fnt>;
       </ekz>
     </dif>
-    <rim> <tld lit="K"/>on oni uzas: 1&deg;) post vortoj de alparolo:<ekz>
+  </snc>
+  <snc mrk="kom.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Tia signo uzata kiel <ref tip="dif" cel="on.0komo">on<tld/>o</ref>:
+      <ekz>
+        la ciferoj post la <tld/>o en <nom>pi</nom> da&ubreve;ras senfine
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="&Monato;/2003/007921.html">Ho, mistera pi!</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la anglan influon oni rimarkas en la uzado de punktoj anstata&ubreve; decimalaj
+        <tld/>oj kaj en interpozicio de citiloj kaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anna kaj Mati Pentus</aut>
+          <vrk><url ref="&Monato;/2008/009567.php">Japanio tra homoj</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    <tld lit="K"/>on oni uzas: 1&deg;) post vortoj de alparolo:<ekz>
     Dio, helpu min!</ekz>; 2&deg;) anta&ubreve; kaj post apozicio:<ekz> Parizo, la
     urbo de la lumo, estis malluma</ekz>; 3&deg;) por apartigi samspecajn
     frazelementojn ne ligitajn per konjunkcio:<ekz> Petro, Pa&ubreve;lo kaj
@@ -43,10 +112,9 @@
     9&deg;) por apartigi suborditajn propoziciojn disde la
     &ccirc;efpropozicio:<ekz>
     mi vidis, ke li venas; min &gcirc;enas la bruo, kiun vi faras</ekz>;
- 10&deg;) en la matematiko, por apartigi la entjerojn disde la decimalaj
- frakcioj: <ekz> 3,14 (tri <tld/>o unu kvar)</ekz>.
-    </rim>
-  </snc>
+    10&deg;) en la matematiko, por apartigi la entjerojn disde la decimalaj
+    frakcioj: <ekz> 3,14 (tri <tld/>o unu kvar)</ekz>.
+  </rim>
   <trd lng="be">&c_k;&c_o;&c_s;&c_k;&c_a;</trd>
   <trd lng="ca">coma</trd>
   <trd lng="cs">&ccaron;&aacute;rka</trd>
@@ -58,12 +126,23 @@
   <trdgrp lng="fr">
     <trd>virgule</trd>
   </trdgrp>
+  <trd lng="id">koma</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B3;&#x30F3;&#x30DE;</trd>,
+    <trd>&#x8AAD;&#x70B9;  <pr>&#x3068;&#x3046;&#x3066;&#x3093;</pr></trd>,
+    <trd>&#x5C0F;&#x6570;&#x70B9;  <pr>&#x3057;&#x3087;&#x3046;&#x3059;&#x3046;&#x3066;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">komma</trd>
   <trd lng="pl">przecinek</trd>
   <trd lng="pt">v&iacute;rgula</trd>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_ja;&c_t;&c_a;&c_ja;</trd>
   <trd lng="sk">&ccaron;iarka</trd>
-  <trd lng="uk">&#x43A;&#x43E;&#x43C;&#x430;</trd>
+  <trd lng="uk">&c_k;&c_o;&c_m;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x9017;&#x53F7; <pr>d&#xF2;uh&#xE0;o</pr></trd>,
+    <trd>&#x8B80; <pr>d&#xF2;u</pr></trd>,
+    <trd>&#x9017;&#x70B9; <pr>d&#xF2;udi&#x1CE;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kom.punkto0o">
@@ -73,21 +152,38 @@
   <uzo tip="fak">TIP</uzo>
   <uzo tip="fak">GRA</uzo>
     <dif>
-      <ref tip="dif" cel="interp3.0o">Interpunkcia</ref> <ref tip="super" cel="sign.0o">signo</ref> (;) indikanta iom pli longan
+      <ref tip="dif" cel="interp3.0o">Interpunkcia</ref> <ref tip="super" cel="sign.0o">signo</ref>
+      (;) indikanta iom pli longan
       pa&ubreve;zon ol <tld/>o inter partoj de frazo:
+      <ekz>
+        vi ludas; mi vin petas, batu forte; &#x2AFD; Mi timas, ke vi faras kun mi
+        &scirc;ercojn
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[parolante]</klr> la punkto<tld/>on oni formas per pa&ubreve;zeto, kiu estas iom
+        pli mallonga ol tiu de la punkto, krome, la vo&ccirc;o ne mallevi&gcirc;as, kiel &ccirc;e la
+        punkto, sed &gcirc;i indikas, ke la tuta frazo ankora&ubreve; ne fini&gcirc;is
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &ccirc;e mia brita klavaro la punkto<tld/>o estas sub mia dekstra
         etfingro, do mi ne devas movi la manon
         <fnt><aut>Edmund Grimley
         Evans</aut>: <vrk>Uniksulo ekspertas Unikodon</vrk>,
-        <bib>Monato</bib><lok>jaro 2000a, numero 2a, p. 20a</lok></fnt>;
-        vi ludas; mi vin petas, batu forte; mi timas, ke vi faras kun mi
-        &scirc;ercojn<fnt>Z</fnt>.
+        <bib>Monato</bib><lok>jaro 2000a, numero 2a, p. 20a</lok></fnt>.
       </ekz>
     </dif>
-    <rim> Cetere la uzo de punkto<tld/>o ne estas strikte fiksebla; gi
-    dependas de la okaza neceso evidentigi pli klare la konstruon de la
-    frazo, kaj e&ccirc; de individuaj kutimoj.
+    <rim>
+      Cetere la uzo de punkto<tld/>o ne estas strikte fiksebla. &Gcirc;i
+      dependas de la okaza neceso evidentigi pli klare la konstruon de la
+      frazo; kaj e&ccirc; de individuaj kutimoj.
     </rim>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_o;&c_p;&c_k;&c_a; &c_z;
@@ -102,6 +198,8 @@
   <trdgrp lng="fr">
     <trd>point-virgule</trd>
   </trdgrp>
+  <trd lng="id"><ind>titik</ind> koma</trd>
+  <trd lng="ja">&#x30BB;&#x30DF;&#x30B3;&#x30ED;&#x30F3;</trd>
   <trdgrp lng="nl">
     <trd>puntkomma</trd>,
     <trd>kommapunt</trd>
@@ -111,11 +209,24 @@
   <trd lng="ru">&c_t;&c_o;&c_ch;&c_k;&c_a; &c_s;
 &c_z;&c_a;&c_p;&c_ja;&c_t;&c_o;&c_j;</trd>
   <trd lng="sk">bodko&ccaron;iarka</trd>
-  <trd lng="uk">&#x43A;&#x440;&#x430;&#x43F;&#x43A;&#x430; &#x437; &#x43A;&#x43E;&#x43C;&#x43E;&#x44E;</trd>
+  <trd lng="uk">&c_k;&c_r;&c_a;&c_p;&c_k;&c_a; &c_z; &c_k;&c_o;&c_m;&c_o;&c_ju;</trd>
+  <trd lng="zh">&#x5206;&#x53F7; <pr>f&#x113;nh&#xE0;o</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/21 06:28:45
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.32 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.31 2023/09/20 19:17:58
+Wolfram Diestel: punkto~o: +ekz, korektoj
+
+versio 1.30 2023/09/20 17:22:53
+Wolfram Diestel: +snc MAT; ekz-oj
+
 versio 1.28 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -126,17 +237,5 @@ Revision 1.23  2015/06/29 16:33:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2014/01/02 10:10:12  revo
-Damien Brucker: kompletigo
-
-Revision 1.21  2013/12/24 02:10:10  revo
-Damien Brucker: +ref
-
-Revision 1.20  2013/12/16 11:10:22  revo
-Damien Brucker: +fak
-
-Revision 1.19  2013/12/03 15:10:13  revo
-Damien Brucker: -tajperaro
-
-Revision 1.18  2013/12/03 14:10:12  revo
 -->
 </vortaro>

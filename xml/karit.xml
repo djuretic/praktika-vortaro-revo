@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: karit.xml,v 1.20 2022/05/01 08:09:23 revo Exp $">
+<art mrk="$Id: karit.xml,v 1.24 2023/12/03 08:00:23 revo Exp $">
 <kap>
   <rad>karit</rad>/o <fnt><bib>PV</bib></fnt>,
   <var><kap><rad var="at">karitat</rad>/o</kap></var>
@@ -69,6 +69,10 @@
     <trd>felebar&aacute;ti <ind>szeretet</ind></trd>,
     <trd>karit&aacute;sz</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x611B;&#x5FB3;  <pr>&#x3042;&#x3044;&#x3068;&#x304F;</pr></trd>,
+    <trd>&#x30AB;&#x30EA;&#x30BF;&#x30B9;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>naastenliefde</trd>,
     <trd>caritas</trd>
@@ -85,8 +89,14 @@
     <trd>l&aacute;ska</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x438;&#x43B;&#x43E;&#x441;&#x435;&#x440;&#x434;&#x44F;</trd>,
-    <trd>&#x43B;&#x44E;&#x431;&#x43E;&#x432; &#x434;&#x43E; &#x431;&#x43B;&#x438;&#x436;&#x43D;&#x44C;&#x43E;&#x433;&#x43E;</trd>
+    <trd>&#x43C;&c_i;&#x43B;&#x43E;&c_s;&c_je;&c_r;&c_d;&#x44F;</trd>,
+    <trd>&#x43B;&#x44E;&c_b;&#x43E;&c_v; &c_d;&#x43E; &c_b;&#x43B;&c_i;&c_zh;&#x43D;&#x44C;&#x43E;&c_g;&#x43E;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EC1;&#x611B; <pr>r&#xE9;n&#xE0;i</pr></trd>,
+    <trd>&#x4EC1;&#x672F; <pr>r&#xE9;nsh&#xF9;</pr></trd>,
+    <trd>&#x5584;&#x5FC3; <pr>sh&#xE0;nx&#x12B;n</pr></trd>,
+    <trd>&#x4EC1;&#x6148; <pr>r&#xE9;nc&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -109,11 +119,11 @@
       <ekz>
         religia <tld var="at"/>a socialhelpa medio
         <fnt>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="&Monato;/2001/007110.php">Atentokapta sed ru&gcirc;krajoninda</url></vrk>
           <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/007110.html">Atentokapta sed
-          ru&gcirc;krajoninda</url></vrk>
-        </fnt>;
+          <lok>2001/01, p. 31</lok>
+          </fnt>;
       </ekz>
       <ekz>
         humanaj kaj <tld var="at"/>aj organiza&jcirc;oj
@@ -135,15 +145,21 @@
   <trd lng="be">&c_m;&c_ib;&c_l;&c_a;&c_s;&c_e;&c_r;&c_n;&c_y;</trd>
   <trd lng="de">karitativ</trd>
   <trdgrp lng="uk">
-    <trd>&#x445;&#x430;&#x440;&#x438;&#x442;&#x430;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43C;&#x438;&#x43B;&#x43E;&#x441;&#x435;&#x440;&#x434;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x434;&#x43E;&#x431;&#x440;&#x43E;&#x447;&#x438;&#x43D;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_h;&c_a;&c_r;&c_i;&c_t;&c_a;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43C;&c_i;&#x43B;&#x43E;&c_s;&c_je;&c_r;&c_d;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_d;&#x43E;&c_b;&c_r;&#x43E;&c_ch;&c_i;&#x43D;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.21 2023/04/17 05:27:56
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.20 2022/05/01 08:09:23
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -160,11 +176,5 @@ Revision 1.14  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.13  2015/06/29 16:33:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.12  2012/09/01 20:10:21  revo
-Marc Rausell: + trd ca
-
-Revision 1.11  2006/05/04 16:32:01  revo
 -->
 </vortaro>

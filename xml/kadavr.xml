@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kadavr.xml,v 1.32 2022/03/21 17:51:56 revo Exp $">
+<art mrk="$Id: kadavr.xml,v 1.36 2023/12/02 21:20:03 revo Exp $">
 <kap>
    <ofc>1</ofc>
    <rad>kadavr</rad>/o
@@ -138,6 +138,10 @@
    <trd>holttest</trd>,
    <trd>d&ouml;g</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6B7B;&#x4F53;  <pr>&#x3057;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x6B7B;&#x9AB8;  <pr>&#x3057;&#x304C;&#x3044;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
    <trd>lijk</trd>,
    <trd>kadaver</trd>
@@ -154,7 +158,15 @@
      <trd>ceset</trd>,
      <trd>kadavra</trd>
    </trdgrp>
-  <trd lng="uk">&#x442;&#x440;&#x443;&#x43F;</trd>
+  <trd lng="uk">&c_t;&c_r;&c_u;&#x43F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6B7B;&#x5C38; <pr>s&#x1D0;sh&#x12B;</pr></trd>,
+    <trd>&#x5C38; <pr>sh&#x12B;</pr></trd>,
+    <trd>&#x5C38;&#x4F53; <pr>sh&#x12B;t&#x1D0;</pr></trd>,
+    <trd>&#x5C38;&#x9AB8; <pr>sh&#x12B;h&#xE1;i</pr></trd>,
+    <trd>&#x8E23; <pr>b&#xF3;</pr></trd>,
+    <trd>&#x9057;&#x4F53; <pr>y&#xED;t&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kadavr.0ajxo">
@@ -193,19 +205,33 @@
        <ref cel="putr.0ajxo.KOMUNE">putra&jcirc;o<sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_d;&c_y;&c_h;&c_l;&c_ib;&c_n;&c_a;</trd>,
+    <trd>&c_z;&c_d;&c_y;&c_h;&c_l;&c_ja;&c_c;&c_ib;&c_n;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Aas</trd>,
     <trd>Kadaver</trd>
   </trdgrp>
   <trd lng="en">carrion</trd>
   <trd lng="fr"> charogne</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8150;&#x3063;&#x305F;&#x6B7B;&#x9AB8;  <pr>&#x304F;&#x3055;&#x3063;&#x305F;&#x3057;&#x304C;&#x3044;</pr></trd>,
+    <trd>&#x8150;&#x8089;  <pr>&#x3075;&#x306B;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_a;&#x301;&c_d;&c_a;&c_l;&c_mol;</trd>
+  <trd lng="zh">&#x8150;&#x8089; <pr>f&#x1D4;r&#xF2;u</pr></trd>
 </drv>
-
 
 </art>
 <!--
 $Log$
+versio 1.35 2023/10/24 09:25:59
+Dmitri Gabinski: + trd be
+
+versio 1.34 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
 versio 1.31 2021/09/26 08:30:34
 Wolfram Diestel: +ref
 
@@ -222,11 +248,5 @@ Revision 1.25  2013/01/25 13:10:08  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.24  2012/08/30 09:10:25  revo
-Marc Rausell: + trd ca
-
-Revision 1.23  2010/05/07 16:30:42  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.22  2009/08/25 16:32:00  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: skatol.xml,v 1.29 2022/03/27 17:06:35 revo Exp $">
+<art mrk="$Id: skatol.xml,v 1.39 2024/01/22 12:43:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>skatol</rad>/o <fnt><bib>PV</bib></fnt>
@@ -10,16 +10,81 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="skatol.0o.KOMUNE">
     <dif>
-      Ujeto diversforma, fermebla kaj malfermebla,
-      el solida substanco kiaj ligno, kartono, plasto, metalo...:
+      <ref tip="super" cel="uj.0o">Ujo</ref> diversforma, fermebla kaj malfermebla,
+      el solida, maldika materialo kiaj ligno, kartono, plasto, metalo...:
       <ekz>
         <tld/>o, en kiu oni tenas plumojn, estas plumujo
         <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
       </ekz>
       <ekz>
-        vi trovos leterpaperon en la <tld/>o.
+        la malgranda <nom>Ida</nom> sekvis ilin kun la mortintaj floroj en Ia &ccirc;arma <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kadavron de la birdo oni metis en belan ru&gcirc;an <tld/>on
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Lekanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni forprenis la kovrilon de la <tld/>o, en kiu <klr>[ku&scirc;is]</klr> stanaj
+        soldatoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Persista stana soldato</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        &scirc;i malfermis longforman <tld/>on, en kiu trovi&gcirc;is ilaro por desegnado
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tablo kovrita de vitritaj <tld/>oj kun oraj objektoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malnova <tld/>o por sardeloj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kosmona&ubreve;to fermita en kvaza&ubreve;a sardin<tld/>o dum tiom longa soleca voja&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2010/009989.php">Voja&gcirc;o unudirekta</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alumet-<tld/>o
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> eltiras nigran strangforman <tld/>on, en kiu ku&scirc;as brilanta
+        violon&ccirc;elo
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kest.0o">kesto</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_k;&c_r;&c_y;&c_n;&c_k;&c_a;</trd>,
@@ -32,9 +97,14 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>krabice</trd>,
-    <trd>&#x161;katule <klr>(hovor.)</klr></trd>
+    <trd>&scaron;katule <klr>(hovor.)</klr></trd>
   </trdgrp>
-  <trd lng="de">Schachtel</trd>
+  <trdgrp lng="de">
+    <trd>Schachtel</trd>,
+    <trd>Dose</trd>,
+    <trd>B&uuml;chse</trd>,
+    <trd>K&auml;stchen</trd>
+  </trdgrp>
   <trd lng="en">box</trd>
   <trd lng="es">caja</trd>
   <trdgrp lng="fr">
@@ -45,10 +115,23 @@
     <trd>skatulya</trd>
   </trdgrp>
   <trd lng="it">scatola</trd>
+  <trdgrp lng="ja">
+    <trd>&#x624B;&#x7BB1;  <pr>&#12390;&#12400;&#12371;</pr></trd>,
+    <trd>&#x7BB1;  <pr>&#x306F;&#12371;</pr></trd>,
+    <trd>&#x7B52;  <pr>&#x30D4;&#x30F3;</pr></trd>,
+    <trd>&#x7F36;  <pr>&#x307B;&#12392;&#x304E;</pr></trd>,
+    <trd>&#x5BB9;&#22120;  <pr>&#12424;&#12358;&#x304D;</pr></trd>,
+    <trd>&#x30B1;&#x30FC;&#x30B9;  <pr>&#12369;&#x30FC;&#12377;</pr></trd>
+  </trdgrp>
   <trd lng="nl">doos</trd>
   <trdgrp lng="oc">
     <trd>b&oacute;stia</trd>,
     <trd>caisseta</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>pude&lstroke;ko</trd>,
+    <trd>skrzynka</trd>,
+    <trd>szkatu&lstroke;ka</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_ja;&c_shch;&c_i;&c_k;</trd>,
@@ -58,13 +141,360 @@
   </trdgrp>
   <trdgrp lng="sk">
     <trd>krabica</trd>,
-    <trd>&#x161;katu&#x13E;a</trd>
+    <trd>&scaron;katu&lcaron;a</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x440;&#x43E;&#x431;&#x43A;&#x430;</trd>,
-    <trd>&#x44F;&#x449;&#x438;&#x43A;</trd>,
-    <trd>&#x448;&#x43A;&#x430;&#x442;&#x443;&#x43B;&#x43A;&#x430;</trd>,
-    <trd>&#x441;&#x43A;&#x440;&#x438;&#x43D;&#x44C;&#x43A;&#x430;</trd>
+    <trd>&c_k;&c_o;&c_r;&c_o;&c_b;&c_k;&c_a;</trd>,
+    <trd>&c_ja;&c_shch;&c_i;&c_k;</trd>,
+    <trd>&c_sh;&c_k;&c_a;&c_t;&c_u;&c_l;&c_k;&c_a;</trd>,
+    <trd>&c_s;&c_k;&c_r;&c_i;&c_n;&c_mol;&c_k;&c_a;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="skatol.el0e">
+<kap>
+    el<tld/>e
+  </kap>
+  <snc>
+    <dif>
+    Tuj uzeble, kvaza&ubreve; veninta tuj el <tld/>o:
+    <ekz>
+    la ma&scirc;inoj de <nom>LinoType</nom> el<tld/>e havis &ccirc;ion necesan: flosantajn cirkumflekson kaj
+    hoketon
+    <fnt>
+        <aut>Pa&ubreve;l Peeraerts</aut>
+        <vrk><url ref="&Monato;/2004/008280.html">Komposta revolucio kaj presada
+        stabileco</url></vrk>
+        <bib>Monato</bib>
+        <lok>2004/05, p. 8-9</lok>
+        </fnt>;
+    </ekz>
+    <ekz>
+    danke al Unikodo kaj Vindozo &ccirc;io rilate Esperanton funkcias praktike el<tld/>e
+    <fnt>
+        <aut>Pejno Simono</aut>
+        <vrk><url ref="&Monato;/2001/007339.html">Sidi&gcirc;u kaj tajpu!</url></vrk>
+        <bib>Monato</bib>
+        <lok>2001/04, p. 18-20</lok>
+        </fnt>.
+    </ekz>
+    </dif>
+    </snc>
+    <trdgrp lng="be">
+      <trd>&#xAB;&c_s;&c_a; &c_s;&c_k;&c_r;&c_y;&c_n;&c_ib;&#xBB;</trd>,
+      <trd>&c_b;&c_je;&c_z; &c_d;&c_a;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y;&c_h; &c_z;&c_a;&c_h;&c_a;&c_d;&c_a;&c_w;</trd>
+    </trdgrp>
+   <trdgrp lng="pl">
+     <trd>jak nowe</trd>,
+     <trd>jak z  <ind>pude&lstroke;ka</ind></trd>
+   </trdgrp>
+</drv>
+
+<drv mrk="skatol.bier0o">
+  <kap>
+    bier<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Ladskatolo en kiu oni vendas bieron:
+      <ekz>
+        <nom>Chuck</nom> premplatigis la bier<tld/>on, kaj demandis <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="&Monato;/2013/010910.php">Dobos Delight</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dolorantaj manoj, <klr>[plu]</klr> nur bier<tld/>ojn ili tenas, ne skribilojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2015/011570.php">Po&scirc;komputiloj kaj klas&ccirc;ambroj</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_ib;&c_w;&c_n;&c_a;&c_ja; <ind>&c_b;&c_l;&c_ja;&c_sh;&c_a;&c_n;&c_k;&c_a;</ind></trd>
+  <trd lng="de">Bierdose</trd>
+  <trd lng="en">beer can</trd>
+  <trd lng="fr">canette de bi&egrave;re</trd>
+  <trd lng="pl">puszka piwa</trd>
+</drv>
+
+<drv mrk="skatol.biskvit0o">
+  <kap>
+    biskvit<tld/>o, <var><kap>keks<tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o por konservi biskvitojn, keksojn:
+      <ekz>
+        <klr>[ili]</klr> rigardis la biskvit<tld/>on en miaj manoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_k;&c_r;&c_y;&c_n;&c_k;&c_a; &c_z;&c_mol; &c_p;&c_je;&c_ch;&c_y;&c_v;&c_a;&c_m;</trd>
+  <trd lng="de">Keksdose</trd>
+  <trd lng="en">cookie jar</trd>
+  <trd lng="pl">pude&lstroke;ko na ciastka</trd>
+</drv>
+
+<drv mrk="skatol.cigar0o">
+  <kap>
+    cigar<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="cigar.0ujo">Cigarujo</ref>:
+      <ekz>
+        Johano posedis malnovan cigar<tld/>on
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_y;&c_g;&c_a;&c_r;&c_n;&c_ib;&c_c;&c_a; <klr tip="amb">(&c_s;&c_k;&c_r;&c_y;&c_n;&c_k;&c_a;)</klr></trd>,
+    <trd>&c_p;&c_a;&c_r;&c_t;&c_s;&c_ib;&c_g;&c_a;&c_r;</trd>,
+    <trd>&c_c;&c_y;&c_g;&c_a;&c_r;&c_e;&c_t;&c_n;&c_ib;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trd lng="de">Zigarrenschachtel</trd>
+  <trd lng="en">cigar box</trd>
+  <trd lng="fr">bo&icirc;te &agrave; cigares</trd>
+  <trd lng="pl">pude&lstroke;ko na cygara</trd>
+</drv>
+
+<drv mrk="skatol.karton0o">
+  <kap>
+    karton<tld/>o, <var><kap>paper<tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o el kartono a&ubreve; fortika papero:
+      <ekz>
+        <klr>[li]</klr> revenis kun karton<tld/>o plena je skriba&jcirc;oj
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Sepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malvarmiga &scirc;ranko, interne paper<tld/>oj, en ili diversaj kompaktaj man&gcirc;a&jcirc;oj
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvara &Ccirc;apitro</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_r;&c_d;&c_o;&c_n;&c_n;&c_a;&c_ja; <ind>&c_s;&c_k;&c_r;&c_y;&c_n;&c_k;&c_a;</ind></trd>
+  <trdgrp lng="de">
+    <trd>Pappschachtel</trd>,
+    <trd>Karton <klr>(Schachtel)</klr></trd>,
+    <trd>Pappkarton</trd>
+  </trdgrp>
+  <trd lng="en">cardboard box</trd>
+  <trd lng="fr">bo&icirc;te en carton</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D19;&#x7BB1;  <pr>&#x304B;&#x307F;&#12400;&#12371;</pr></trd>,
+    <trd>&#x30DC;&#x30FC;&#x30EB;&#x7BB1;  <pr>&#x30DC;&#x30FC;&#x30EB;&#12400;&#12371;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>karton</trd>,
+    <trd>pude&lstroke;ko kartonowe</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="skatol.kolor0o">
+  <kap>
+    kolor<tld/>o, <var><kap>farb<tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o en kiu pentristo k.a. tenas siajn kolorilojn:
+      <ekz>
+        pentrotola&jcirc;oj ne finitaj <klr>[&#8230;]</klr> &ccirc;ie, kolor<tld/>oj, pa&scirc;teloj
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_e;&c_c;&c_ju;&c_d;&c_n;&c_ib;&c_k;</trd>
+  <trdgrp lng="de">
+    <trd>Farbkasten</trd>,
+    <trd>Malkasten</trd>
+  </trdgrp>
+  <trd lng="en">color box</trd>
+  <trd lng="fr">bo&icirc;te de couleur</trd>
+  <trd lng="pl">pude&lstroke;ko na farby</trd>
+</drv>
+
+<drv mrk="skatol.kontakt0o">
+  <kap>
+    kontakt<tld/>o
+  </kap>
+  <snc mrk="skatol.kontakt0o.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <dif>
+      <tld lit="S"/>forma &scirc;topilingo:
+      <ekz>
+        hejme &scirc;argi veturilon per endoma kontakt<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/011099.php">Ne plu &scirc;ar&gcirc;i sed &scirc;argi</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_r;&c_a;&c_z;&c_e;&c_t;&c_k;&c_a; <klr tip="amb">(&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trd lng="de">Steckdose</trd>
+  <trdgrp lng="en">
+    <trd>socket</trd>,
+    <trd>outlet</trd>
+  </trdgrp>
+  <trd lng="fr">prise<klr tip="ind"> (femelle, en forme de
+  bo&icirc;te)</klr></trd>
+  <trd lng="nl">stopcontact</trd>
+  <trd lng="pl">gniazdko <klr>(elektr.)</klr></trd>
+  <trd lng="ro">priz&abreve;</trd>
+  <trd lng="ru">&c_r;&c_o;&c_z;&c_je;&c_t;&c_k;&c_a; <klr>(&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;)</klr></trd>
+  <trd lng="sk">rozvodn&aacute; skrinka</trd>
+  <trd lng="cs">rozvodn&aacute; krabice</trd>
+<trdgrp lng="de">
+  <trd>Steckdose</trd>,
+  <trd>Wallbox</trd>,
+  <trd>Ladestation</trd>
+</trdgrp>
+</drv>
+
+<drv mrk="skatol.kuracil0o">
+  <kap>
+    kuracil<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o por sukurado:
+      <ekz>
+        kie trovi&gcirc;is la kuracil<tld/>o
+        <fnt>
+          <bib>ChC</bib>
+          <lok>14</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_p;&c_t;&c_e;&c_ch;&c_k;&c_a; <klr tip="amb">(&c_s;&c_k;&c_r;&c_y;&c_n;&c_k;&c_a;)</klr></trd>,
+    <trd>&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja; &c_z;&c_mol; &c_l;&c_je;&c_k;&c_a;&c_m;&c_ib;</trd>
+  </trdgrp>
+  <trd lng="de">Sanikasten</trd>
+  <trd lng="en">medical box</trd>
+  <trd lng="fr">bo&icirc;te m&eacute;dicale</trd>
+  <trdgrp lng="pl">
+    <trd>pude&lstroke;ko na lekarstwa</trd>,
+    <trd>apteczka</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="skatol.lad0o">
+  <kap>
+    lad<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="skatol.0o"><tld lit="S"/>o</ref> el lado, ekz-e hermetike fermita
+      el stanita lado por konservi nutra&jcirc;ojn ks:
+      <ekz>
+        arlekena figuro, tenante lad<tld/>on <klr>[&#8230;]</klr> disdonadis el &gcirc;i flavajn
+        &scirc;tonerojn
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deksesa &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malplenaj boteloj kaj lad<tld/>oj
+        <fnt>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="&Monato;/2004/008236.html">La rikolto de la nova tempo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        negoci per buntaj lad<tld/>oj plenaj je aero
+        <fnt>
+         <aut>last</aut>
+          <vrk><url ref="&Monato;/2010/009845.php">Mono el aero</url></vrk>
+          <bib>Monato</bib>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="konser.0ujo">konservujo</ref>
+  </snc>
+  <trd lng="be">&c_b;&c_l;&c_ja;&c_sh;&c_a;&c_n;&c_k;&c_a;</trd>
+  <trd lng="bg">(&c_t;&c_je;&c_n;&c_je;&c_k;&c_i;&c_je;&c_n;&c_a;) <ind>&c_k;&c_u;&c_t;&c_i;&c_ja;</ind></trd>
+  <trdgrp lng="de">
+    <trd>Blechb&uuml;chse</trd>,
+    <trd>Blechdose</trd>,
+    <trd>Konserve</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>tin<klr> (brite)</klr></trd>,
+    <trd>(tin) <ind>can</ind><klr> (usone)</klr></trd>
+  </trdgrp>
+  <trd lng="es">lata</trd>
+  <trd lng="fr">bo&icirc;te de conserve</trd>
+  <trd lng="hu">hull&aacute;mlemez</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7F36;&#x8A70;  <pr>&#x304B;&#12435;&#12389;&#12417;</pr></trd>,
+    <trd>&#x30D6;&#x30EA;&#x30AD;&#x7F36;  <pr>&#x30D6;&#x30EA;&#x30AD;&#x304B;&#12435;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">blikje</trd>
+  <trd lng="pl">puszka</trd>
+  <trd lng="ru">&c_k;&c_o;&c_n;&c_s;&c_je;&c_r;&c_v;&c_n;&c_a;&c_ja; &c_b;&c_a;&c_n;&c_k;&c_a; <klr>(&c_zh;&c_je;&c_s;&c_t;&c_ja;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trd lng="uk">&c_b;&c_l;&c_ja;&c_sh;&c_a;&c_n;&c_k;&c_a;</trd>
+</drv>
+
+<drv mrk="skatol.luncx0o">
+  <kap>
+    lun&ccirc;<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o en kiu oni konservas lun&ccirc;on por la labortago, lernejo, pikniko ks:
+      <ekz>
+        oni eksponis ruina&jcirc;ojn de katedralo <nom>Urakami</nom>, deformitan akvorezervujon,
+        bruligitan lun&ccirc;o<tld/>on de lernantoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="&Monato;/2008/009358.php">Nagasako</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_k;&c_r;&c_y;&c_n;&c_k;&c_a; &c_z; &c_a;&c_b;&c_je;&c_d;&c_a;&c_m;</trd>
+  <trd lng="de">Brotb&uuml;chse</trd>
+  <trd lng="en">lunch box</trd>
+  <trd lng="fr">bo&icirc;te &agrave; d&eacute;jeuner</trd>
+  <trdgrp lng="pl">
+    <trd>pude&lstroke;ko &sacute;niadaniowe</trd>,
+    <trd>&sacute;niadani&oacute;wka</trd>
   </trdgrp>
 </drv>
 
@@ -78,18 +508,122 @@
         eksterordinaraj ludiloj: a&ubreve;tomataj dancistinoj, muzik-<tld/>oj,
         akrobataj simioj
         <fnt><aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>,
-        <vrk>Cent 
+        <vrk>Cent
         Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>...
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_m;&c_u;&c_z;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja;</ind></trd>
   <trd lng="ca">capsa de m&uacute;sica</trd>
-  <trd lng="cs">hrac&#xED; sk&#x159;&#xED;&#x148;ka</trd>
+  <trd lng="cs">hrac&iacute; sk&rcaron;&iacute;&ncaron;ka</trd>
   <trd lng="de">Spieldose</trd>
   <trd lng="fr">boite &agrave; musique</trd>
   <trd lng="it">carillon</trd>
+  <trd lng="ja">&#x30AA;&#x30EB;&#x30B4;&#x30FC;&#x30EB;</trd>
+  <trd lng="pl">pozytywka</trd>
   <trd lng="sk">hracia skrinka</trd>
-  <trd lng="uk">&#x43C;&#x443;&#x437;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x430; &#x448;&#x43A;&#x430;&#x442;&#x443;&#x43B;&#x43A;&#x430;</trd>
+  <trd lng="uk">&c_m;&c_u;&c_z;&c_i;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_a; &c_sh;&c_k;&c_a;&c_t;&c_u;&c_l;&c_k;&c_a;</trd>
+</drv>
+
+<drv mrk="skatol.pak0o">
+  <kap>
+    pak<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o en kiu estas pakitaj varoj por vendado:
+      <ekz>
+        la butikisto ekiris por alporti kartonan pak<tld/>on por la kuirilo
+        <fnt>
+          <bib>KrM</bib>
+          <lok>38. Du Botoj Faras Paron.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja;</ind></trd>
+  <trdgrp lng="de">
+    <trd>Verpackung <klr>(Schachtel)</klr></trd>,
+    <trd>Packschachtel</trd>
+  </trdgrp>
+  <trd lng="en">packing box</trd>
+  <trd lng="fr">boite d'emballage</trd>
+  <trd lng="pl">pude&lstroke;ko do pakowania</trd>
+</drv>
+
+<drv mrk="skatol.posxt0o">
+  <kap>
+    po&scirc;t<tld/>o, <var><kap>leter<tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="kest.leter0o">Leterkesto</ref>:
+      <ekz>
+        &jcirc;etinte sian leteron en la po&scirc;t<tld/>on de tiu firmo, &scirc;i revenis
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Hizbulahanoj metis kuglojn en la leter<tld/>on de la &leftquot;blasfemulo&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2011/010271.php">Malsamaj kaj disigitaj</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_sh;&c_t;&c_o;&c_v;&c_a;&c_ja; <ind>&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja;</ind></trd>
+  <trd lng="de">Briefkasten</trd>
+  <trdgrp lng="en">
+    <trd>letter box</trd>,
+    <trd>mailbox</trd>
+  </trdgrp>
+  <trd lng="fr">boites aux lettres</trd>
+  <trd lng="ja">&#x90F5;&#x4FBF;&#x53D7;&#x7BB1;  <pr>&#12422;&#12358;&#12403;&#12435;&#12376;&#12421;&#x306F;&#12371;</pr></trd>
+   <trd lng="pl">skrzynka pocztowa</trd>
+</drv>
+
+<drv mrk="skatol.pudro0o">
+  <kap>
+    pudro<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="S"/>o por konservi pudron:
+      <ekz>
+        mistera &ccirc;ambro, en sia formo similante la pudro<tld/>on
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_u;&c_d;&c_r;&c_a;&c_n;&c_ib;&c_c;&c_a;</trd>
+  <trd lng="de">Puderdose</trd>
+  <trd lng="en">powder box</trd>
+  <trd lng="fr">poudrier</trd>
+  <trd lng="pl">puderniczka</trd>
+</drv>
+
+<drv mrk="skatol.son0o">
+  <kap>son<tld/>o</kap> <fnt><bib>MuzTerm</bib></fnt>
+  <snc mrk="skatol.son0o.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <ref tip="dif" cel="kest.son0o">sonkesto</ref>
+  </snc>
+  <trd lng="be">&c_r;&c_e;&c_z;&c_a;&c_n;&c_a;&c_t;&c_a;&c_r;&c_n;&c_a;&c_ja; <ind>&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja;</ind></trd>
+  <trd lng="de">Klangk&ouml;rper</trd>
+  <trd lng="fr">caisse de r&eacute;sonance</trd>
+  <trd lng="hu">hangszekr&eacute;ny</trd>
+  <trdgrp lng="it">
+    <trd><ind>cassa</ind> di risonanza</trd>,
+    <trd><ind>cassa</ind> armonica</trd>
+  </trdgrp>
+  <trd lng="pl">pud&lstroke;o rezonansowe</trd>
 </drv>
 
 <drv mrk="skatol.nigra0o">
@@ -104,66 +638,99 @@
   <snc mrk="skatol.nigra0o.AVI">
     <uzo tip="fak">AVI</uzo>
     <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="kest.nigra0o.AVI">nigra kesto <sncref/></ref>
+    <dif>
+      <ref tip="dif" cel="kest.nigra0o.AVI">Nigra kesto<sncref/></ref>
+      <ekz>
+        <klr>[li]</klr> esploris la sekretojn de la t.n. &leftquot;nigraj <tld/>oj&rightquot; de aviadiloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="&Monato;/2007/008977.php">Mia estrino estas vampiro</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <trdgrp lng="de">
       <trd>Flugschreiber</trd>,
       <trd>Blackbox</trd>
     </trdgrp>
   </snc>
-  <trd lng="cs">&#x10D;ern&#xE1; sk&#x159;&#xED;&#x148;ka</trd>
-  <trdgrp lng="de">
-    <trd>Blackbox</trd>
-  </trdgrp>
+  <trd lng="be">&c_ch;&c_o;&c_r;&c_n;&c_a;&c_ja; <ind>&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja;</ind></trd>
+  <trd lng="cs">&ccaron;ern&aacute; sk&rcaron;&iacute;&ncaron;ka</trd>
+  <trd lng="de">Blackbox</trd>
   <trdgrp lng="fr">
     <trd>boite noire</trd>,
     <trd>bo&icirc;te noire</trd>
   </trdgrp>
   <trd lng="it"><ind>scatola</ind> nera</trd>
-  <trd lng="sk">&#x10D;ierna skrinka</trd>
-  <trd lng="uk">&#x447;&#x43E;&#x440;&#x43D;&#x438;&#x439; &#x44F;&#x449;&#x438;&#x43A;</trd>
+  <trd lng="ja">&#x30D6;&#x30E9;&#x30C3;&#x30AF;&#x30DC;&#x30C3;&#x30AF;&#x30B9;</trd>
+  <trd lng="nl">zwarte <ind>doos</ind></trd>
+  <trd lng="pl">czarna skrzynka</trd>
+  <trd lng="sk">&ccaron;ierna skrinka</trd>
+  <trd lng="uk">&c_ch;&c_o;&c_r;&c_n;&c_i;&c_j; &c_ja;&c_shch;&c_i;&c_k;</trd>
 </drv>
 
-<drv mrk="skatol.son0o">
-  <kap>son<tld/>o</kap> <fnt><bib>MuzTerm</bib></fnt>
-  <snc mrk="skatol.son0o.MUZ">
-    <uzo tip="fak">MUZ</uzo>
-    <ref tip="dif" cel="kest.son0o">sonkesto</ref>
+<drv mrk="skatol.pandora_0o">
+  <kap>
+    pandora <tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <klr>(la&ubreve; la helena mitologio, ofte uzata figurasence)</klr> <tld/>o enhavanta
+      &ccirc;iujn malbonojn kaj unufoje malfermita lasante nur la esperon:
+      <ekz>la pandora <tld/>o pri landlimaj konfliktoj estas malfermita
+        <fnt>
+         <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="&Monato;/2004/008454.html">Malfermi pandoran
+          skatolon</url></vrk>
+               <bib>Monato</bib>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        terura&jcirc;o kontra&ubreve; <nom>Abe Shinzo</nom> malfermis la <tld/>on de Pandoro
+        <fnt>
+         <aut>Hatachi Toshiko</aut>
+         <vrk><url ref="&Monato;/2023/013277.php">Terura&jcirc;o kontra&ubreve; Abe Shinzo malfermis la skatolon
+         de
+         Pandoro</url></vrk>
+         <bib>Monato</bib>
+         <lok>2023/03, p. 8</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="de">Klangk&ouml;rper</trd>
-  <trd lng="fr">caisse de r&eacute;sonance</trd>
-  <trd lng="hu">hangszekr&eacute;ny</trd>
-  <trdgrp lng="it">
-    <trd><ind>cassa</ind> di risonanza</trd>,
-    <trd><ind>cassa</ind> armonica</trd>
-  </trdgrp>
+  <trd lng="be">&c_s;&c_k;&c_r;&c_y;&c_n;&c_ja; &c_P;&c_a;&c_n;&c_d;&c_o;&c_r;&c_y;</trd>
+  <trd lng="de">B&uuml;chse der Pandora</trd>
+  <trd lng="en">Pandora's box</trd>
+  <trd lng="fr">la boite de Pandore</trd>
+  <trd lng="nl">doos van Pandora</trd>
+  <trd lng="pl">puszka Pandory</trd>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.26  2015/06/29 16:33:23  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.39 2024/01/22 12:43:30
+Dmitri Gabinski: + trd be
 
-Revision 1.25  2013/10/16 08:10:12  revo
-Benito Subejrano: + trd ca oc
+versio 1.38 2023/10/22 01:29:21
+Vito Redsky: +trd pl
 
-Revision 1.24  2009/12/23 17:30:16  revo
-Wieland Pusch: +trd de
+versio 1.37 2023/10/21 07:46:47
+revo: transskribo per <pr>
 
-Revision 1.23  2009/12/20 17:30:42  revo
-Antonio Codazzi: +trd it
+versio 1.35 2023/08/26 11:19:29
+Wolfram Diestel: + pluraj drv *~o
 
-Revision 1.22  2007/04/10 16:30:25  revo
-Jeromo Vasxe: + muzik~o
+versio 1.34 2023/06/16 14:28:38
+Dmitri Gabinski: + trd be
 
-Revision 1.21  2006/07/29 16:34:23  revo
-Jeromo Vasxe: kor *son*~o
+versio 1.33 2023/05/02 08:29:55
+Paul Peeraerts: + elskatole
 
-Revision 1.20 2006/01/09 17:34:35 revo
-Raul Salinas Monteagudo: +trd ca,es
+versio 1.32 2023/04/11 18:56:02
+aktualigo Monato-URL
 
-Revision 1.19 2005/12/05 17:31:27 revo
-Wieland Pusch: +trd de
-
-Revision 1.18 2005/09/26 16:30:57 revo
+versio 1.31 2023/04/10 13:28:29
 -->
 </vortaro>

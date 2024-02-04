@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: noktu.xml,v 1.32 2022/03/24 10:41:40 revo Exp $">
+<art mrk="$Id: noktu.xml,v 1.35 2024/01/29 15:59:31 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>noktu</rad>/o
@@ -32,7 +32,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        vizitanto povas tiel a&ubreve;di la sonojn de la regiono Maremo, la logon de <tld/>oj kaj la grilojn &ccirc;irpantajn
+        vizitanto povas tiel a&ubreve;di la sonojn de la regiono Maremo, la logon de <tld/>oj kaj la
+        grilojn &ccirc;irpantajn
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
@@ -60,6 +61,7 @@
            <lok><url ref="&WCW;/File:Athene_noctua_(portrait)_crop2.jpg">&WCW;/File:Athene_noctua_(portrait)_crop2.jpg</url></lok>
          </fnt>
     </bld>
+    <trd lng="be">&c_s;&c_y;&c_ch;-&c_s;&c_ib;&c_p;&c_je;&c_l;&c_mol;</trd>
      <trd lng="ca">mussol</trd>
     <trd lng="cs">s&yacute;c obecn&yacute;</trd>
     <trd lng="de">Steinkauz</trd>
@@ -84,7 +86,11 @@
       <trd>coruj&atilde;o</trd>
     </trdgrp>
     <trd lng="ru">&c_d;&c_o;&c_m;&c_o;&c_v;&c_y;&c_j; <ind>&c_s;&c_y;&c_ch;</ind></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7E31;&#x7D0B;&#x8179;&#x5C0F;&#x9D1E; <pr>z&#xF2;ngw&#xE9;nf&#xF9;xi&#x1CE;oxi&#x101;o</pr></trd>,
+    <trd>&#x7EB5;&#x7EB9;&#x8179;&#x5C0F;&#x9E2E; <pr>z&#xF2;ngw&#xE9;nf&#xF9;xi&#x1CE;oxi&#x101;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="noktu.0o.papilio">
     <uzo tip="fak">ZOO</uzo>
     <dif>
@@ -92,7 +98,7 @@
       (<trd lng="la">Noctua</trd>), nokta 
       <ref tip="lst" cel="papili.0o" lst="voko:papilioj">papilio</ref>.
     </dif>
-    <bld lok="&WCU;/thumb/d/d4/Noctua_&c_S;&c_o;&c_v;&c_k;&c_a;_&c_l;&c_je;&c_n;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;.jpg/272px-Noctua_&c_S;&c_o;&c_v;&c_k;&c_a;_&c_l;&c_je;&c_n;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;.jpg" prm="CC BY-SA 4.0"><tld/>o, &ccirc;e St. Peterburgo
+    <bld lok="&WCU;/thumb/d/d4/Noctua_&c_S;&c_o;&c_v;&c_k;&c_a;_&c_l;&c_je;&c_n;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;.jpg/272px-Noctua_&c_S;&c_o;&c_v;&c_k;&c_a;_&c_l;&c_je;&c_n;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;.jpg" prm="CC     BY-SA 4.0"><tld/>o, &ccirc;e St. Peterburgo
         <fnt>
           <aut>Tsyganov Sergey, propra verko</aut>
           <lok><url ref="&WCW;/File:Noctua_&c_S;&c_o;&c_v;&c_k;&c_a;_&c_l;&c_je;&c_n;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;.jpg">&WCW;/File:Noctua_&c_S;&c_o;&c_v;&c_k;&c_a;_&c_l;&c_je;&c_n;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;.jpg</url></lok>
@@ -116,13 +122,17 @@
     <trd>s&yacute;c obecn&yacute;</trd>,
     <trd>s&yacute;&ccaron;ek obecn&yacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x30B3;&#x30AD;&#x30F3;&#x30E1;&#x30D5;&#x30AF;&#x30ED;&#x30A6;</trd>
   <trd lng="sk">kuvik</trd>
-  <trd lng="uk">&#x445;&#x430;&#x442;&#x43D;&#x456;&#x439;</trd>
+  <trd lng="uk">&c_h;&c_a;&c_t;&#x43D;&c_ib;&c_j;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.33 2022/12/28 08:32:13
+Dmitri Gabinski: + trd be
+
 Revision 1.30  2018/11/16 16:10:16  revo
 Wolfram Diestel: +ekz-oj de strigo, +bld de papilio
 
@@ -142,8 +152,5 @@ Revision 1.25  2013/09/08 19:11:14  revo
 Wolfram Diestel: kor. lst-ref
 
 Revision 1.24  2013/09/01 17:10:14  revo
-Wolfram Diestel: referenco al listo zoo genroj
-
-Revision 1.23  2012/08/10 14:11:55  revo
 -->
 </vortaro>

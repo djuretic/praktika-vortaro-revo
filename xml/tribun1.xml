@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tribun1.xml,v 1.19 2022/05/05 17:08:11 revo Exp $">
+<art mrk="$Id: tribun1.xml,v 1.24 2023/10/21 14:37:42 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>tribunal</rad>/o
@@ -39,25 +39,29 @@
       <ekz>
         la supera <tld/>o de Makedonio decidis ripetigi la balotojn
         <fnt>
-          <bib>Monato</bib>
-          <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/006818.html">Balkanio: Nova &scirc;anco por &ccirc;iuj etnoj</url></vrk>
+	<aut>Evgeni Georgiev</aut>
+	<vrk><url ref="&Monato;/2000/006818.php">Nova &scirc;anco por &ccirc;iuj etnoj</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/03, p. 10</lok>
         </fnt>;
       </ekz>
       <ekz>
         <ind>la Haga Internacia <tld lit="T"/>o</ind>
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Paul Gubbins</aut>
-          <vrk><url ref="&Steloj;monato2/006910.html">Post morto &dash; nova sorto</url></vrk>
-        </fnt>;
+        <fnt><aut>Zlatko Ti&scaron;ljar</aut>,
+        <vrk><url ref="&Monato;/2000/006910.php">Post morto -- nova sorto</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/04, p. 10</lok>
+        </fnt>.
         <trd lng="de">Internationaler Gerichtshof Den Haag</trd>
+        <trd lng="nl">Internationaal Gerechtshof van Den Haag</trd>
       </ekz>
       <ekz>
         se temas pri nederlanda kontrakto, la <tld/>o ne
         kompetentas<fnt><aut>Roland Rotsaert</aut>: <vrk>Piramidaj
-        investoj: ne nur en Albanio!</vrk>, <bib>Monato</bib><lok>jaro
-        1997a, numero 7a, p. 24a</lok></fnt>.
+        investoj: ne nur en Albanio!</vrk>, 
+        <bib>Monato</bib>
+        <lok>jaro
+        1997/07, p. 24</lok></fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="kort.0umo.JUR">kortumo</ref>
@@ -105,6 +109,11 @@
     <trd>t&ouml;rv&eacute;nysz&eacute;k</trd>,
     <trd>b&iacute;r&oacute;s&aacute;g</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x88C1;&#x5224;&#x6240;  <pr>&#x3055;&#x3044;&#x3070;&#x3093;&#x3057;&#x3087;</pr></trd>,
+    <trd>&#x6CD5;&#x5EF7;  <pr>&#x307B;&#x3046;&#x3066;&#x3044;</pr></trd>,
+    <trd>&#x88C1;&#x304D;&#x306E;&#x5834;  <pr>&#x3055;&#x3070;&#x304D;&#x306E;&#x3058;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">tribunaal</trd>
   <trd lng="no">tribunal</trd>
   <trd lng="pt">tribunal</trd>
@@ -118,13 +127,25 @@
     <trd>tribun&aacute;l</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x443;&#x434;</trd>,
-    <trd>&#x442;&#x440;&#x438;&#x431;&#x443;&#x43D;&#x430;&#x43B;</trd>
+    <trd>&c_s;&c_u;&c_d;</trd>,
+    <trd>&c_t;&c_r;&c_i;&c_b;&c_u;&#x43D;&c_a;&#x43B;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/21 14:37:42
+revo: transskribo per <pr>
+
+versio 1.22 2023/04/26 14:28:43
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.21 2023/04/24 08:32:19
+Paul Peeraerts: korekto de propra fusho
+
+versio 1.20 2023/04/24 06:32:53
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.19 2022/05/05 17:08:11
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -135,17 +156,5 @@ Revision 1.15  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.14  2014/11/07 16:10:15  revo
-Filip van Laenen: +trd(no)
-
-Revision 1.13  2007/10/31 17:30:18  revo
-Sebastian Cyprych: sxangxo en dif +ref kortumo +trd pl
-
-Revision 1.12  2006/02/16 17:34:28  revo
-Tulio Flores: +trd pt
-
-Revision 1.11  2005/05/16 17:48:04  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2003/10/01 16:32:22  revo
 -->
 </vortaro>

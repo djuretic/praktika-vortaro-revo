@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: koncil.xml,v 1.26 2022/05/01 08:09:24 revo Exp $">
+<art mrk="$Id: koncil.xml,v 1.31 2023/12/03 09:58:54 revo Exp $">
 <kap>
   <rad>koncili</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="koncil.0o">
   <kap><tld/>o</kap>
-  <snc mrk="koncil.0o.KRI">
+  <snc mrk="koncil.0o.REL">
+    <uzo tip="fak">BUD</uzo>
     <uzo tip="fak">KRI</uzo>
     <dif>
       Supera eklezia <ref tip="super" cel="ven.kun0o">kunveno</ref>,
@@ -19,7 +19,7 @@
         <fnt>
           <aut>C. Minnaja</aut>,
           <vrk>Spirokapta historia fresko</vrk>,
-          <bib>Monato</bib>, <lok>2001:12, p. 28a</lok>
+          <bib>Monato</bib> <lok>2001:12, p. 28a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -27,16 +27,26 @@
         eklezio kaj tial li kunvokis
         novan <tld/>on al la sudgermana urbo Konstanco
         <fnt>
-          <bib>Monato</bib>
-          <aut>Gerrit Berveling</aut>
-          <vrk><url ref="&Steloj;monato2/007031.html">Katolikismo: Johano Hus &dash;
-          &ccirc;u ne plu herezulo?</url></vrk>
+          <aut>Ji&rcaron;&iacute; Patera</aut>
+            <vrk><url ref="&Monato;/2000/007031.php">Johano Hus &ndash; &ccirc;u ne plu herezulo?</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000:08, p. 19</lok>
+          </fnt>.
+      </ekz>
+      <ekz>
+        la&ubreve; la klasika tradicio oni recitis, redaktis kaj parkerigis <klr>[la
+        tripitakon]</klr> dum pluraj sinsekvaj <tld/>oj (palie <nac>sang&#x101;yana</nac>), el kiuj la
+        unua tuj post la morto de la Budho
+        <fnt>
+          <aut>G. G&auml;llmo</aut>
+          <vrk>Enkonduko</vrk>
+          <lok>en: <url ref="https://literaturo.weebly.com/uploads/8/2/9/5/8295099/suttanipata_atthakavagga.pdf">Suttanip&#x101;ta 4: Atthakavagga, 2016</url></lok>
         </fnt>.
-      </ekz>      
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="sinod.0o">sinodo</ref>,
-      <ref cel="konvent.0o">konvento</ref>
+      <ref cel="konvent.0o">konvento</ref>,
+      <ref cel="sinod.0o">sinodo</ref>
     </refgrp>
     <rim>
       La PIV-oj difinas konciliojn kiel episkopajn kunvenojn, kio
@@ -67,6 +77,11 @@
   <trd lng="fr">concile</trd>
   <trd lng="hu">zsinat</trd>
   <trd lng="it">concilio</trd>
+  <trdgrp lng="ja">
+    <trd>&#x516C;&#x4F1A;&#x8B70;  <pr>&#x3053;&#x3046;&#x304B;&#x3044;&#x304E;</pr></trd>,
+    <trd>&#x6559;&#x4F1A;&#x4F1A;&#x8B70;  <pr>&#x304D;&#x3087;&#x3046;&#x304B;&#x3044;&#x304B;&#x3044;&#x304E;</pr></trd>,
+    <trd>&#x5B97;&#x6559;&#x4F1A;&#x8B70;  <pr>&#x3057;&#x3085;&#x3046;&#x304D;&#x3087;&#x3046;&#x304B;&#x3044;&#x304E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">concilie</trd>
   <trdgrp lng="pl">
     <trd>koncylium</trd>,
@@ -78,6 +93,10 @@
   <trdgrp lng="sk">
     <trd>koncil</trd>,
     <trd>snem</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7406;&#x4E8B;&#x4F1A; <pr>l&#x1D0;sh&#xEC;hu&#xEC;</pr></trd>,
+    <trd>&#x8A55;&#x8B70;&#x6703; <pr>p&#xED;ngy&#xEC;hu&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -130,7 +149,7 @@
     <trd>concile g&eacute;n&eacute;ral</trd>
   </trdgrp>
   <trd lng="it">concilio ecumenico</trd>
-  <trd lng="pl">sob&oacute;r  ekumeniczny</trd>     
+  <trd lng="pl">sob&oacute;r  ekumeniczny</trd>
   <trd lng="ro">consiliu ecumenic</trd>
   <trd lng="ru">&c_v;&c_s;&c_je;&c_l;&c_je;&c_n;&c_s;&c_k;&c_i;&c_j; &c_s;&c_o;&c_b;&c_o;&c_r;</trd>
   <trd lng="sk">ekumenick&yacute; koncil</trd>
@@ -158,13 +177,22 @@
   <trd lng="de">Synode</trd>
   <trd lng="el">&tau;&omikron;&pi;&jota;&kappa;&omikron_ton;&sigma_fina; &sigma;&ypsilon_ton;&ny;&omikron;&delta;&omikron;&sigma_fina;</trd>
   <trd lng="fr">concile local</trd>
-  <trd lng="pl">sob&oacute;r narodowy</trd>     
-  <trd lng="ro">consiliul na&tcedil;ional</trd>
+  <trd lng="pl">sob&oacute;r narodowy</trd>
+  <trd lng="ro">consiliul na&#x21B;ional</trd>
   <trd lng="ru">&c_p;&c_o;&c_m;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j; &c_s;&c_o;&c_b;&c_o;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.28 2023/07/18 21:19:59
+Jeromo Vasxe: + fak bud + rilata ekz
+
+versio 1.27 2023/04/30 14:25:59
+Paul Peeraerts: Steloj -> monato
+
 versio 1.26 2022/05/01 08:09:24
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -178,14 +206,5 @@ versio 1.23 2021/02/20 14:18:55
 Wolfram Diestel: +ekz, +ref-oj/rim konsilio
 
 versio 1.22 2020/12/31 11:10:51
-Aleks Andre: +trd bo
-
-Revision 1.20  2017/02/15 15:10:19  revo
-Jeromo Vasxe: reperezentis -> reprezentis
-
-Revision 1.19  2015/07/04 08:37:37  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:33:17  revo
 -->
 </vortaro>

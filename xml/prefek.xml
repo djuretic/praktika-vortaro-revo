@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: prefek.xml,v 1.23 2022/05/04 18:30:33 revo Exp $">
+<art mrk="$Id: prefek.xml,v 1.28 2023/10/20 16:38:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>prefekt</rad>/o <fnt><bib>PV</bib></fnt>
@@ -71,11 +71,16 @@
   <trd lng="fr">pr&eacute;fet</trd>
   <trd lng="hu">prefektus</trd>
   <trd lng="it">prefetto</trd>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x4E8B;  <pr>&#x3061;&#x3058;</pr></trd>,
+    <trd>&#x5730;&#x65B9;&#x9577;&#x5B98;  <pr>&#x3061;&#x307B;&#x3046;&#x3061;&#x3087;&#x3046;&#x304B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">prefect</trd>
+  <trd lng="pl">prefekt</trd>
   <trd lng="pt">prefeito <klr tip="amb">(de uma regi&atilde;o)</klr></trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_f;&c_je;&c_k;&c_t;</trd>
   <trd lng="sk">prefekt</trd>
-  <trd lng="uk">&#x43F;&#x440;&#x435;&#x444;&#x435;&#x43A;&#x442;</trd>
+  <trd lng="uk">&#x43F;&c_r;&c_je;&c_f;&c_je;&#x43A;&c_t;</trd>
 </drv>
 
 <drv mrk="prefek.0ejo">
@@ -103,13 +108,15 @@
   <trd lng="fr">pr&eacute;fecture</trd>
   <trd lng="hu">prefekt&uacute;ra</trd>
   <trd lng="it">prefettura<klr> (edificio)</klr></trd>
+  <trd lng="ja">&#x770C;&#x5E81;  <pr>&#x3051;&#x3093;&#x3061;&#x3087;&#x3046;</pr></trd>
   <trd lng="nl">prefectuur</trd>
+  <trd lng="pl">urz&aogonek;d   <ind>prefekta</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_je;&c_f;&c_je;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>,
     <trd>&c_u;&c_p;&c_r;&c_a;&c_v;&c_a;</trd>
   </trdgrp>
   <trd lng="sk">prefekt&uacute;ra</trd>
-  <trd lng="uk">&#x43F;&#x440;&#x435;&#x444;&#x435;&#x43A;&#x442;&#x443;&#x440;&#x430;</trd>
+  <trd lng="uk">&#x43F;&c_r;&c_je;&c_f;&c_je;&#x43A;&c_t;&c_u;&c_r;&c_a;</trd>
 </drv>
 	  
 <drv mrk="prefek.0ujo">
@@ -138,7 +145,7 @@
         <tld lit="P"/>ujo Kumamoto &ccirc;e la
         <tld lit="P"/>a Domo
         <fnt>
-          <lok><url ref="http://www.uea.org/esperanto_p/dokumentoj/komunikoj_aug2000/gaz98.htm">
+          <lok><url ref="&UEA;esperanto_p/dokumentoj/komunikoj_aug2000/gaz98.htm">
           Gazetaraj Komunikoj de UEA, n-ro 98
           (2000-10-09).</url>
           </lok>
@@ -156,9 +163,11 @@
   </trdgrp>
   <trd lng="hu">prefekt&uacute;ra</trd>
   <trd lng="it">prefettura<klr> (territorio)</klr></trd>
+  <trd lng="ja">&#x770C;  <pr>&#x3042;&#x304C;&#x305F;</pr></trd>
   <trd lng="nl">prefectuur</trd>
+  <trd lng="pl">rejon   <ind>prefekta</ind></trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_f;&c_je;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>
-  <trd lng="uk">&#x434;&#x456;&#x43B;&#x44C;&#x43D;&#x438;&#x446;&#x44F; &#x43F;&#x440;&#x435;&#x444;&#x435;&#x43A;&#x442;&#x430;</trd>
+  <trd lng="uk">&c_d;&c_ib;&#x43B;&#x44C;&#x43D;&c_i;&c_c;&#x44F; &#x43F;&c_r;&c_je;&c_f;&c_je;&#x43A;&c_t;&c_a;</trd>
 </drv>
 
 <drv mrk="prefek.sub0o">
@@ -180,12 +189,26 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_u;&c_b;&c_p;&c_r;&c_e;&c_f;&c_e;&c_k;&c_t;</trd>
   <trd lng="fr">sous-pr&eacute;fet</trd>
-  <trd lng="uk">&#x441;&#x443;&#x431;&#x43F;&#x440;&#x435;&#x444;&#x435;&#x43A;&#x442;</trd>
+  <trd lng="pl">podprefekt</trd>
+  <trd lng="uk">&c_s;&c_u;&c_b;&#x43F;&c_r;&c_je;&c_f;&c_je;&#x43A;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.26 2023/05/06 14:26:03
+revo: aktualigo URL-unuoj
+
+versio 1.25 2023/03/22 23:24:13
+Vito Redsky: +trd pl 
+
+versio 1.24 2023/01/03 14:28:57
+Dmitri Gabinski: + trd be
+
 versio 1.23 2022/05/04 18:30:33
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -196,17 +219,5 @@ Revision 1.19  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.18  2012/01/01 15:10:10  revo
-Marc Rausell: +trd ca
-
-Revision 1.17  2010/11/04 17:31:10  revo
-Antonio Codazzi: +trd it
-
-Revision 1.16  2010/05/21 16:30:45  revo
-Jeromo Vasxe: ~o snc/subsnc (+ 1 subsnc kat)
-
-Revision 1.15  2009/08/12 16:30:38  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.14  2007/12/23 17:30:26  revo
 -->
 </vortaro>

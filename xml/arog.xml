@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: arog.xml,v 1.19 2022/03/16 16:54:21 revo Exp $">
+<art mrk="$Id: arog.xml,v 1.22 2023/10/13 16:46:48 revo Exp $">
 <kap>
   <rad>arog</rad>/i
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="arog.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Malhumile postuli, <ref tip="super" cel="preten.0i.postuli">pretendi</ref> pri io; nejuste
+      Malhumile <ref tip="super" cel="postul.0i.iu">postuli</ref>, 
+      <ref tip="super" cel="preten.0i.postuli">pretendi</ref> pri io; nejuste
       atribui a&ubreve; alproprigi
       al:
       <ekz>
@@ -29,7 +31,7 @@
       </ekz>
       <ekz>
         profeton, kiu <tld/>os diri en Mia nomo ion, kion Mi ne ordonis al li diri,
-        <klr>[&#8230;]</klr> oni mortigu
+        <klr>[&#x2026;]</klr> oni mortigu
         <fnt>
           <bib>MT</bib>
           <lok>Readmono 18:20</lok>
@@ -65,7 +67,10 @@
     <refgrp tip="sin">
       <ref cel="uzurp.0i">uzurpi</ref>
     </refgrp>
-    <ref tip="vid" cel="arogan.0a">aroganta</ref>
+    <refgrp tip="vid">
+      <ref cel="arogan.0a">aroganta</ref>,
+      <ref cel="modest.mal0a">malmodesta</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="ca">
     <trd>arrogar-se</trd>,
@@ -83,7 +88,7 @@
   <trd lng="en">arrogate</trd>
   <trd lng="es">arrogar</trd>
   <trd lng="fr">arroger</trd>
-  <trd lng="he">&#x5DC;&#x5EA;&#x5D1;&#x5D5;&#x5E2; &#x5D1;&#x5D7;&#x5D5;&#x5E6;&#x5E4;&#x5D4;</trd>
+  <trd lng="he">&lamed;&tav;&bet;&vav;&ayin; &bet;&het;&vav;&tsadi;&pe;&he;</trd>
   <trdgrp lng="hu">
     <trd>arrog&aacute;l</trd>,
     <trd>mag&aacute;nak <ind>k&ouml;vetel</ind></trd>,
@@ -91,6 +96,11 @@
     <trd>mer&eacute;szel<klr> (vmit tenni)</klr></trd>
   </trdgrp>
   <trd lng="it">arrogare</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E0D;&#x5F53;&#x306B;&#x8981;&#x6C42;&#x3059;&#x308B;  <pr>&#x3075;&#x3068;&#x3046;&#x306B;&#x3088;&#x3046;&#x304D;&#x3085;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x52DD;&#x624B;&#x306B;&#x308F;&#x304C;&#x7269;&#x3068;&#x3059;&#x308B;  <pr>&#x304B;&#x3063;&#x3066;&#x306B;&#x308F;&#x304C;&#x3076;&#x3064;&#x3068;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x601D;&#x3044;&#x4E0A;&#x304C;&#x3063;&#x3066;&#xFF5E;&#x3059;&#x308B;  <pr>&#x304A;&#x3082;&#x3044;&#x3042;&#x304C;&#x3063;&#x3066;&#xFF5E;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>arogowa&cacute;</trd>,
     <trd>przyw&lstroke;aszcza&cacute; sobie prawa</trd>,
@@ -106,14 +116,20 @@
     <trd>n&aacute;rokova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_b;&c_u;&c_t;&c_i; &c_z;&c_u;&c_h;&c_v;&c_a;&#x43B;&c_i;&#x43C;</trd>,
-    <trd>&#x43C;&c_a;&c_t;&c_i; &c_z;&c_u;&c_h;&c_v;&c_a;&#x43B;&c_ib;&c_s;&c_t;&#x44C; <klr>(&c_shch;&#x43E;-&#x43D;. &c_z;&c_r;&#x43E;&c_b;&c_i;&c_t;&c_i;)</klr></trd>,
-    <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&#x43E; &c_s;&#x43E;&c_b;&c_ib;&#xA0;&c_d;&#x43E;&c_z;&c_v;&#x43E;&#x43B;&#x44F;&c_t;&c_i;</trd>
+    <trd>&c_b;&c_u;&c_t;&c_i; &c_z;&c_u;&c_h;&c_v;&c_a;&c_l;&c_i;&c_m;</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_z;&c_u;&c_h;&c_v;&c_a;&c_l;&c_ib;&c_s;&c_t;&c_mol; <klr>(&c_shch;&c_o;-&c_n;. &c_z;&c_r;&c_o;&c_b;&c_i;&c_t;&c_i;)</klr></trd>,
+    <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&c_o; &c_s;&c_o;&c_b;&c_ib;&nbsp;&c_d;&c_o;&c_z;&c_v;&c_o;&c_l;&c_ja;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/13 16:46:48
+revo: transskribo per <pr>
+
+versio 1.20 2023/02/12 12:44:48
+Wolfram Diestel: +ref, fnt PV
+
 versio 1.19 2022/03/16 16:54:21
 Wolfram Diestel: kor. trd
 
@@ -130,11 +146,5 @@ Revision 1.12  2012/08/21 09:10:15  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2012/02/04 17:10:20  revo
-Antonio Codazzi: +trd it
-
-Revision 1.10  2012/01/02 18:10:24  revo
-Marc Rausell: +trd ca
-
-Revision 1.9  2005/12/15 17:31:03  revo
 -->
 </vortaro>

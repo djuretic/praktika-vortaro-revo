@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: percep.xml,v 1.20 2022/06/30 08:41:14 revo Exp $">
+<art mrk="$Id: percep.xml,v 1.23 2023/10/20 14:25:20 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>percept</rad>/o
@@ -52,11 +52,11 @@
         </fnt>;
       </ekz>
       <ekz>
-        la televida kamero <klr>[&#8230;]</klr> tuj surekranigas &gcirc;in, farante la impreson, ke
+        la televida kamero <klr>[&#x2026;]</klr> tuj surekranigas &gcirc;in, farante la impreson, ke
         la eventoj kaj ties <tld/>o samtempas
         <fnt>
           <bib>KFl</bib>
-          <lok>V. Pri unueco kaj lukto, kaj anka&ubreve; pri &rightquot;tipeco de l&#8217; disdivido&#8221;</lok>
+          <lok>V. Pri unueco kaj lukto, kaj anka&ubreve; pri &rightquot;tipeco de l&#x2019; disdivido&#x201D;</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -73,7 +73,7 @@
         sensaj impresoj produktas mensan bildon a&ubreve; <tld/>on,
         pluraj tiaspecaj <tld/>oj rezultigas &gcirc;eneralan nocion
         <klr>(t.e. koncepton)</klr>
-        <klr>[&#8230;]</klr> multaj perceptoj, kiuj la&ubreve; natura maniero prezenti&gcirc;as 
+        <klr>[&#x2026;]</klr> multaj perceptoj, kiuj la&ubreve; natura maniero prezenti&gcirc;as 
         al niaj mensoj, tamen neniam estis kolektitaj en &gcirc;eneralaj nocioj kaj, 
         sekve, ili ne ricevis ian nomon
         <fnt>
@@ -100,13 +100,14 @@
     <trd>&eacute;szlelet</trd>,
     <trd>percepci&oacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x77E5;&#x899A;  <pr>&#x3061;&#x304B;&#x304F;</pr></trd>
   <trdgrp lng="nl">
     <trd>waarneming</trd>,
     <trd>gewaarwording</trd>
   </trdgrp>
   <trd lng="pl">percepcja</trd>
   <trd lng="pt">percep&ccedil;&atilde;o</trd>
-  <trd lng="ro">percep&#539;ie</trd>
+  <trd lng="ro">percep&#x21B;ie</trd>
   <trd lng="ru">&c_v;&c_o;&c_s;&c_p;&c_r;&c_i;&c_ja;&c_t;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>prijatie</trd>,
@@ -182,6 +183,12 @@
   <trd lng="es">percibir</trd>
   <trd lng="fr">percevoir</trd>
   <trd lng="hu">&eacute;szlel</trd>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x899A;&#x3059;&#x308B;  <pr>&#x3061;&#x304B;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x611F;&#x77E5;&#x3059;&#x308B;  <pr>&#x304B;&#x3093;&#x3061;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x6C17;&#x3065;&#x304F;  <pr>&#x304D;&#x3065;&#x304F;</pr></trd>,
+    <trd>&#x305D;&#x308C;&#x3068;&#x308F;&#x304B;&#x308B;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>waarnemen</trd>,
     <trd>gewaar worden</trd>
@@ -242,7 +249,7 @@
       </ekz>
       <ekz>
         meze de &ccirc;i tiu bruo mistera kaj <tld/>ebla por nenia korpa orelo, meze de &ccirc;i tiu
-        pensa svarma&jcirc;o, <klr>[&#8230;]</klr> disvolvi&gcirc;adis la pensfadeno en humila, de
+        pensa svarma&jcirc;o, <klr>[&#x2026;]</klr> disvolvi&gcirc;adis la pensfadeno en humila, de
         neniu rimarkata virina kapo
         <fnt>
           <bib>Marta</bib>
@@ -262,10 +269,26 @@
   </snc>
   <trd lng="be">&c_z;&c_a;&c_w;&c_v;&c_a;&c_zh;&c_n;&c_y;</trd>
   <trd lng="de">wahrnehmbar</trd>
+<trdgrp lng="en">
+  <trd>perceptible</trd>,
+  <trd>discernible</trd>,
+  <trd>discernable</trd>,
+  <trd>detectable</trd>
+</trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x899A;&#x3067;&#x304D;&#x308B;  <pr>&#x3061;&#x304B;&#x304F;&#x3067;&#x304D;&#x308B;</pr></trd>,
+    <trd>&#x6C17;&#x3065;&#x304F;&#x307B;&#x3069;&#x306E;  <pr>&#x304D;&#x3065;&#x304F;&#x307B;&#x3069;&#x306E;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/20 14:25:20
+revo: transskribo per <pr>
+
+versio 1.21 2023/06/04 12:39:41
+Christian Siefkes: +trd en
+
 versio 1.20 2022/06/30 08:41:14
 Dmitri Gabinski: + trd be
 
@@ -282,11 +305,5 @@ Revision 1.14  2015/06/29 16:40:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.13  2012/12/06 12:10:07  revo
-Jozefo Horvath: kor. tr hu
-
-Revision 1.12  2006/02/27 17:34:12  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2005/03/17 17:32:26  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: konzol.xml,v 1.19 2022/08/16 10:33:57 revo Exp $">
+<art mrk="$Id: konzol.xml,v 1.22 2023/12/03 09:58:58 revo Exp $">
 <kap>
   <rad>konzol</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -118,15 +118,25 @@
       &c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
     </trdgrp>
   </snc>
-  <trd
-  lng="bo">&#xF66;&#xF7A;&#xF58;&#xF66;&#xF0B;&#xF42;&#xF66;&#xF7C;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&#xF66;&#xF7A;&#xF58;&#xF66;&#xF0B;&#xF42;&#xF66;&#xF7C;&#xF0B;&#xF42;&#xF4F;&#xF7C;&#xF44;&#xF0B;</trd>
   <trd lng="en">a <ind>console</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x6301;&#x3061;&#x9001;&#x308A;  <pr>&#x3082;&#x3061;&#x304A;&#x304F;&#x308A;</pr></trd>,
+    <trd>&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30EB;&#x30FB;&#x30C6;&#x30FC;&#x30D6;&#x30EB;  <pr>&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30EB;&#x30FB;&#x3066;&#x30FC;&#x3076;&#x308B;</pr></trd>,
+    <trd>&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30EB;</trd>,
+    <trd>&#x5236;&#x5FA1;&#x5353;  <pr>&#x305B;&#x3044;&#x304E;&#x3087;&#x305F;&#x304F;</pr></trd>,
+    <trd>&#x64CD;&#x4F5C;&#x5353;  <pr>&#x305D;&#x3046;&#x3055;&#x305F;&#x304F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>konsola</trd>,
     <trd>kroksztynek</trd>,
     <trd>wspornik</trd>
   </trdgrp>   
   <trd lng="ro">consol&abreve;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x63A7;&#x5236;&#x53F0; <pr>k&#xF2;ngzh&#xEC;t&#xE1;i</pr></trd>,
+    <trd>&#x64CD;&#x4F5C;&#x53F0; <pr>c&#x101;ozu&#xF2;t&#xE1;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="konzol.lud0o">
@@ -156,10 +166,18 @@
   <trd lng="pl">konsola do gier</trd>     
   <trd lng="ro">consol&abreve; de jocuri</trd>
   <trd lng="sk">konzola na hranie po&ccaron;&iacute;ta&ccaron;ov&yacute;ch hier</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6E38;&#x620F;&#x4E3B;&#x673A; <pr>y&#xF3;ux&#xEC;zh&#x1D4;j&#x12B;</pr></trd>,
+    <trd>&#x6E38;&#x620F;&#x673A; <pr>y&#xF3;ux&#xEC;j&#x12B;</pr></trd>,
+    <trd>&#x638C;&#x673A; <pr>zh&#x1CE;ngj&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
 versio 1.19 2022/08/16 10:33:57
 Dmitri Gabinski: + trd be
 
@@ -179,8 +197,5 @@ Revision 1.12  2006/11/18 17:30:20  revo
 Tulio Flores: +tr pt
 
 Revision 1.11  2005/11/02 17:31:46  revo
-Yury Finkel: kor tajperaron (dispogas->disponigas)
-
-Revision 1.10  2002/12/08 17:31:53  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: farm.xml,v 1.25 2022/03/18 13:01:59 revo Exp $">
+<art mrk="$Id: farm.xml,v 1.29 2023/11/09 19:13:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>farm</rad>/i <fnt><bib>PV</bib></fnt>
@@ -47,17 +47,22 @@
   </trdgrp>
   <trd lng="de">pachten (und bewirtschaften)</trd>
   <trd lng="en">lease</trd>
-  <trd lng="es"><ind>arrendar</ind> granja o finca r&uacute;stica <klr tip="amb">(tomar en alquiler)</klr></trd>
+  <trd lng="es"><ind>arrendar</ind> granja o finca r&uacute;stica <klr tip="amb">(tomar en
+  alquiler)</klr></trd>
   <trd lng="fr">affermer<klr tip="ind"> (prendre en location un bien
   rural)</klr></trd>
   <trdgrp lng="hu">
     <trd>b&eacute;rel <klr tip="ind"> (f&ouml;ldet)</klr></trd>,
     <trd>haszonb&eacute;rletbe vesz</trd></trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#x4F5C;&#x3059;&#x308B;  <pr>&#x3053;&#x3055;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8CC3;&#x501F;&#x308A;&#x3059;&#x308B;  <pr>&#x3061;&#x3093;&#x3057;&#x3083;&#x304F;&#x308A;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">pachten</trd>
   <trd lng="pt">arrendar</trd>
   <trd lng="ru">&c_a;&c_r;&c_je;&c_n;&c_d;&c_o;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_z;&c_je;&c_m;&c_l;&c_ju;)</klr></trd>
   <trd lng="sk">farm&aacute;r&ccaron;i&tcaron;</trd>
-  <trd lng="uk">&#x43E;&#x440;&#x435;&#x43D;&#x434;&#x443;&#x432;&#x430;&#x442;&#x438; (&#x437;&#x435;&#x43C;&#x43B;&#x44E;)</trd>
+  <trd lng="uk">&#x43E;&c_r;&c_je;&#x43D;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_z;&c_je;&#x43C;&#x43B;&#x44E;)</trd>
 </drv>
 
 <drv mrk="farm.0o">
@@ -160,7 +165,11 @@
       falsa amiko el la angla vorto <nac>farm</nac> = &leftquot;bieno&rightquot;.
     </rim>
   </snc>
-  <trd lng="uk">&#x43E;&#x440;&#x435;&#x43D;&#x434;&#x430; (&#x437;&#x435;&#x43C;&#x43B;&#x456;)</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#x4F5C;  <pr>&#x3053;&#x3055;&#x304F;</pr></trd>,
+    <trd>&#x8CC3;&#x501F;&#x308A;  <pr>&#x3061;&#x3093;&#x304C;&#x308A;</pr></trd>
+  </trdgrp>
+  <trd lng="uk">&#x43E;&c_r;&c_je;&#x43D;&c_d;&c_a; (&c_z;&c_je;&#x43C;&#x43B;&c_ib;)</trd>
 </drv>
 
 <drv mrk="farm.0anto">
@@ -214,6 +223,11 @@
     <trd>aparcero</trd>,
     <trd>colono</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#x4F5C;&#x4EBA;  <pr>&#x3053;&#x3055;&#x304F;&#x306B;&#x3093;</pr></trd>,
+    <trd>&#x5C0F;&#x4F5C;&#x8FB2;  <pr>&#x3053;&#x3055;&#x304F;&#x306E;&#x3046;</pr></trd>,
+    <trd>&#x501F;&#x5730;&#x8FB2;  <pr>&#x3057;&#x3083;&#x304F;&#x3061;&#x306E;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">pachter</trd>
   <trd lng="fr">fermier<klr tip="ind"> (locataire)</klr></trd>
   <trdgrp lng="hu">
@@ -228,8 +242,13 @@
   <trd lng="sk">n&aacute;jomca</trd>
   <trd lng="cs">pacht&yacute;&rcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x440;&#x435;&#x43D;&#x434;&#x430;&#x440;</trd>,
-    <trd>&#x444;&#x435;&#x440;&#x43C;&#x435;&#x440;</trd>
+    <trd>&#x43E;&c_r;&c_je;&#x43D;&c_d;&c_a;&c_r;</trd>,
+    <trd>&c_f;&c_je;&c_r;&#x43C;&c_je;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x79DF;&#x5730;&#x4EBA; <pr>z&#x16B;d&#xEC;r&#xE9;n</pr></trd>,
+    <trd>&#x519C;&#x573A;&#x96C7;&#x5DE5; <pr>n&#xF3;ngch&#x1CE;ngg&#xF9;g&#x14D;ng</pr></trd>,
+    <trd>&#x50F1;&#x8FB2; <pr>g&#xF9;n&#xF3;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -295,12 +314,17 @@
     <trd>majors&aacute;g</trd>,
     <trd>gazdas&aacute;g<klr tip="ind">
     (mez&odblac;gazdas&aacute;gi)</klr></trd></trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#x4F5C;&#x5730;  <pr>&#x3053;&#x3055;&#x304F;&#x3061;</pr></trd>,
+    <trd>&#x8FB2;&#x5712;  <pr>&#x306E;&#x3046;&#x3048;&#x3093;</pr></trd>,
+    <trd>&#x8FB2;&#x5834;  <pr>&#x306E;&#x3046;&#x3058;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">pachthoeve</trd>
   <trd lng="ru">&c_f;&c_je;&c_r;&c_m;&c_a;</trd>
   <trd lng="sk">farma</trd>
   <trdgrp lng="uk">
-    <trd>&#x444;&#x435;&#x440;&#x43C;&#x430;</trd>,
-    <trd>&#x445;&#x443;&#x442;&#x456;&#x440;</trd>
+    <trd>&c_f;&c_je;&c_r;&#x43C;&c_a;</trd>,
+    <trd>&c_h;&c_u;&c_t;&c_ib;&c_r;</trd>
   </trdgrp>
 </drv>
 
@@ -333,9 +357,9 @@
         prilaboras la teron sed <tld/>igas &gcirc;in
         <fnt>
           <aut>B. Sandelin</aut>,
-          <vrk><url ref="&Monato;/007278.html">Historio de la ekonomika pensado</url></vrk>, 
+          <vrk><url ref="&Monato;/2001/007278.html">Historio de la ekonomika pensado</url></vrk>, 
           <bib>Monato</bib>, 
-          <lok>2001:2</lok>
+          <lok>2001/02</lok>
         </fnt>.
      </ekz>  
     </dif>
@@ -352,16 +376,26 @@
   <trd lng="fr">affermer<klr tip="ind"> (donner en location un bien
   rural)</klr></trd>
   <trd lng="hu">haszonb&eacute;rletbe ad<klr tip="ind"> (f&ouml;ldet)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C0F;&#x4F5C;&#x3092;&#x3055;&#x305B;&#x308B;  <pr>&#x3053;&#x3055;&#x304F;&#x3092;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x8CC3;&#x8CB8;&#x3057;&#x3059;&#x308B;  <pr>&#x3061;&#x3093;&#x305F;&#x3044;&#x3057;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verpachten</trd>
   <trd lng="ru">&c_s;&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol; &c_v; &c_a;&c_r;&c_je;&c_n;&c_d;&c_u;
   <klr>(&c_z;&c_je;&c_m;&c_l;&c_ju;)</klr></trd>
   <trd lng="sk">prenaja&tcaron; p&ocirc;du farm&aacute;rovi</trd>
-  <trd lng="uk">&#x437;&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; &#x432; &#x43E;&#x440;&#x435;&#x43D;&#x434;&#x443; (&#x437;&#x435;&#x43C;&#x43B;&#x44E;)</trd>
+  <trd lng="uk">&c_z;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_v; &#x43E;&c_r;&c_je;&#x43D;&c_d;&c_u; (&c_z;&c_je;&#x43C;&#x43B;&#x44E;)</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
+versio 1.26 2023/04/09 19:20:54
+Paul Peeraerts: korekto de erara ref
+
 versio 1.24 2021/11/07 09:28:05
 Wolfram Diestel: +ekz-oj, ~o snc "bieno" (EVI), ref-oj
 
@@ -378,11 +412,5 @@ Revision 1.19  2015/03/27 00:10:12  revo
 Jeromo Vasxe: + ~ejo
 
 Revision 1.18  2014/02/13 21:10:15  revo
-Carlos Garcia: trd+ es -i -ulo(ktp)
-
-Revision 1.17  2012/10/23 00:12:45  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.16  2009/07/07 16:31:31  revo
 -->
 </vortaro>

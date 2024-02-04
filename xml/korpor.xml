@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: korpor.xml,v 1.22 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: korpor.xml,v 1.27 2023/12/03 09:58:58 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>korporaci</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="korpor.0o">
   <kap>
@@ -14,9 +14,9 @@
   <snc mrk="korpor.0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Societo de sammetianoj a&ubreve; samprofesianoj, posedanta la rajton
-      de le&gcirc;a persono kaj submetanta siajn anojn al kolektiva
-      disciplino:
+      <ref tip="super" cel="societ.0o">Societo</ref> de sammetianoj a&ubreve; samprofesianoj, posedanta la
+      rajton
+      de le&gcirc;a persono kaj submetanta siajn anojn al kolektiva disciplino:
       <ekz>
         metiistaj <tld/>oj
         <fnt>
@@ -32,8 +32,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        mi preferas fari&gcirc;i masonisto <klr>[&#8230;]</klr> oni estas akceptata en la <tld/>ojn
-        kaj <klr>[&#8230;]</klr> ricevas propran standardon
+        mi preferas fari&gcirc;i masonisto <klr>[&#x2026;]</klr> oni estas akceptata en la <tld/>ojn
+        kaj <klr>[&#x2026;]</klr> ricevas propran standardon
         <fnt>
           <bib>Fab3</bib>
           <lok>Io</lok>
@@ -63,7 +63,7 @@
       <ref cel="sindik1.0o">sindikato</ref>
     </refgrp>
     <trdgrp lng="de">
-      <trd>Zunft</trd>,
+      <trd><ofc>*</ofc>Zunft</trd>,
       <trd>Innung</trd>
     </trdgrp>
     <trd lng="en">company</trd>
@@ -77,11 +77,16 @@
       <trd>corpora&ccedil;&atilde;o</trd>,
       <trd>companhia</trd>,
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x884C;&#x4F1A; <pr>h&#xE1;nghu&#xEC;</pr></trd>,
+    <trd>&#x540C;&#x4E1A;&#x516C;&#x4F1A; <pr>t&#xF3;ngy&#xE8;g&#x14D;nghu&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <snc>
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Jure registrita <ref tip="super" cel="societ.0o.JUR">societo</ref> de personoj, havantaj komunan celon:
+      Jure registrita <ref tip="super" cel="societ.0o.JUR">societo</ref> de personoj, havantaj
+      komunan celon:
       <ekz>
         <klr>[li]</klr> konati&gcirc;is kun &ccirc;iuj paragrafoj de &ccirc;iuj <tld/>aj le&gcirc;oj kaj kun
         tio, kio devas scii &ccirc;iu <tld/>estro
@@ -96,17 +101,16 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Igarasi Takeo</aut>
-          <vrk><url ref="&Monato;/2005/008787.php"
-              >Post disigo po&scirc;ta privatigo</url></vrk>
+          <vrk><url ref="&Monato;/2005/008787.php">Post disigo po&scirc;ta privatigo</url></vrk>
           <lok>2005</lok>
         </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
-      <trd>K&ouml;rperschaft</trd>,
+      <trd><ofc>*</ofc>K&ouml;rperschaft</trd>,
       <trd>Korporation</trd>
     </trdgrp>
-    <trd lng="en">corporation</trd>
+    <trd lng="en"><ofc>*</ofc>corporation</trd>
     <trdgrp lng="hu">
       <trd>test&uuml;let</trd>,
       <trd>t&aacute;rsulat</trd>
@@ -123,15 +127,19 @@
     <ref cel="societ.akci0o">akcia societo</ref>
   </rim>
   <trd lng="be">&c_k;&c_a;&c_r;&c_p;&c_a;&c_r;&c_a;&c_c;&c_y;&c_ja;</trd>
-  <trd lng="fr">corporation</trd>
+  <trd lng="fr"><ofc>*</ofc>corporation</trd>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x696D;&#x7D44;&#x5408;  <pr>&#x3069;&#x3046;&#x304E;&#x3087;&#x3046;&#x304F;&#x307F;&#x3042;&#x3044;</pr></trd>,
+    <trd>&#x56E3;&#x4F53;  <pr>&#x3060;&#x3093;&#x305F;&#x3044;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>bractwo</trd>,
-    <trd>cech</trd>,
-    <trd>korporacja</trd>,
+    <trd><ofc>*</ofc>cech</trd>,
+    <trd><ofc>*</ofc>korporacja</trd>,
     <trd>gildia</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ro">breasl&abreve;</trd>
-  <trd lng="ru">&c_k;&c_o;&c_r;&c_p;&c_o;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="ru"><ofc>*</ofc>&c_k;&c_o;&c_r;&c_p;&c_o;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
 </drv>
 
 <drv mrk="korpor.0ema">
@@ -142,16 +150,16 @@
     <dif>
       Karakteriza pri la interdefendemo de la membroj de <tld/>o:
       <ekz>
-        nuntempe triumfas <klr>[&#8230;]</klr> <tld/>emo, kio egalas grupan egoismon
+        nuntempe triumfas <klr>[&#x2026;]</klr> <tld/>emo, kio egalas grupan egoismon
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=433010"
-              >86-a SAT-Kongreso 2013</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=433010">86-a SAT-Kongreso 2013</url></lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="parohx.0ismo">paro&hcirc;ismo</ref>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_r;&c_p;&c_a;&c_r;&c_a;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
   <trdgrp lng="de">
       <trd>dem <ind>Zunftgeist</ind> verhaftet</trd>
   </trdgrp>
@@ -173,12 +181,21 @@
   <trdgrp lng="ro">
     <trd>colectiv</trd>,
     <trd>de breasla</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_r;&c_p;&c_o;&c_r;&c_a;&c_t;&c_i;&c_v;&c_i;&c_s;&c_t;&c_s;&c_k;&c_i;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2023/11/30 18:32:21
+Wolfram Diestel: +fnt UV, trd ofc
+
+versio 1.25 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.23 2023/03/17 07:26:41
+Dmitri Gabinski: + trd be
+
 versio 1.22 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -192,14 +209,5 @@ Revision 1.18  2011/01/18 12:10:11  revo
 Russ Williams: +rim pri akcia kompanio/societo
 
 Revision 1.17  2009/09/13 16:56:26  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2009/09/03 16:30:35  revo
-Sergej Chlutchin: -fusxa rusa traduko
-
-Revision 1.15  2006/11/14 17:30:37  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2005/12/06 17:33:24  revo
 -->
 </vortaro>

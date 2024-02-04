@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: print.xml,v 1.18 2022/11/30 18:35:11 revo Exp $">
+  <art mrk="$Id: print.xml,v 1.21 2023/10/20 16:38:17 revo Exp $">
     <kap>
       <rad>print</rad>/i
     </kap>
@@ -84,6 +84,10 @@
   </trdgrp>
   <trd lng="en">print</trd>
   <trd lng="fr">imprimer</trd>
+  <trdgrp lng="ja">
+    <trd>&#x713C;&#x4ED8;&#x3051;&#x308B;  <pr>&#x3084;&#x304D;&#x3064;&#x3051;&#x308B;</pr></trd>,
+    <trd>&#x713C;&#x5897;&#x3057;&#x3059;&#x308B;  <pr>&#x3084;&#x304D;&#x307E;&#x3057;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>printen</trd>,
     <trd>uitprinten</trd>,
@@ -149,10 +153,11 @@
       <ekz>
         necesas adapti klavarojn, <tld/>ilojn, tekstprilaborilojn, ktp
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007082.html">Komputiko kaj
-          Esperanto</url></vrk>
-        </fnt>;
+          <aut>J.S. Brilleaud</aut>
+            <vrk><url ref="&Monato;/2000/007082.php">Komputiko kaj Esperanto</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 4</lok>
+          </fnt>;
       </ekz>
       <ekz>
         simpla A4-formata skanilo kostas maksimume 100 e&ubreve;rojn kaj ofte samtempe uzeblas kiel
@@ -232,12 +237,24 @@
     <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_je;&c_ch;&c_a;&c_t;&c_k;&c_a;</trd>
     <trd lng="fr">sortie d'imprimante</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x30D7;&#x30EA;&#x30F3;&#x30C8;&#x30A2;&#x30A6;&#x30C8;</trd>,
+    <trd>&#x30CF;&#x30FC;&#x30C9;&#x30B3;&#x30D4;&#x30FC;</trd>,
+    <trd>&#x5370;&#x753B;  <pr>&#x3044;&#x3093;&#x304C;</pr></trd>,
+    <trd>&#x30D7;&#x30EA;&#x30F3;&#x30C8;  <pr>&#x3077;&#x308A;&#x3093;&#x3068;</pr></trd>
+  </trdgrp>
 </drv>
 
   </art>
 
 <!--
 $Log$
+versio 1.21 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.19 2023/05/01 08:31:34
+Paul Peeraerts: Steloj -> monato
+
 versio 1.18 2022/11/30 18:35:11
 Dmitri Gabinski: + trd be
 
@@ -254,11 +271,5 @@ Revision 1.12  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.11  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.10  2011/07/19 13:10:13  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.9  2011/04/15 22:10:18  revo
 -->
 </vortaro>

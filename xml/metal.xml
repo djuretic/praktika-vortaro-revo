@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: metal.xml,v 1.100 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: metal.xml,v 1.107 2024/01/25 20:10:36 revo Exp $">
 <kap>
   <ofc>*</ofc><ofc>1</ofc><ofc>8</ofc>
   <rad>metal</rad>/o
@@ -12,7 +12,7 @@
   </kap>
   <snc mrk="metal.0o.KOMUNE">
     <dif>
-      <ref tip="super" cel="substa.0o.FIZ">Substanco</ref> a&ubreve; objekto konsistanta 
+      <ref tip="super" cel="substa.0o.FIZ">Substanco</ref> a&ubreve; objekto konsistanta
       precipe el unu a&ubreve; pluraj elementaj <tld/>oj<sncref ref="metal.0o.KEM"/>
       (vd <ref cel="aloj.0o">alojo</ref>):
       <ekz>
@@ -127,9 +127,12 @@
         por precizege mezuri la tempon necesas multe pli regula procezo, kia estas certa
         vibrado de la atomoj de la <tld/>o cezio
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007024.html">Tempo: Pli ekzakte ne eblas: Radi-regata horlo&gcirc;o</url></vrk>
-        </fnt>.
+          <aut>Walter Klag</aut>
+            <vrk><url ref="&Monato;/2000/007024.php">Pli ekzakte ne eblas: Radi-regata
+            horlo&gcirc;o</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 13</lok>
+          </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -142,7 +145,7 @@
   <trd lng="ar">&a_A;&a_l;&a_m;&a_ayn;&a_A;&a_d;&a_n;</trd>
   <trd lng="be">&c_m;&c_e;&c_t;&c_a;&c_l;</trd>
   <trd lng="bn">&#x9A7;&#x9BE;&#x9A4;&#x9C1;</trd>
-  <trd lng="br">metal</trd> 
+  <trd lng="br">metal</trd>
   <trd lng="bs">metala</trd>
   <trd lng="co">di metallu</trd>
   <trd lng="cy">metel</trd>
@@ -152,7 +155,7 @@
   <trd lng="es">metal</trd>
   <trd lng="et">metallist</trd>
   <trd lng="fa">&a_f;&a_l;&a_z;</trd>
-  <trd lng="fr">m&eacute;tal</trd> 
+  <trd lng="fr">m&eacute;tal</trd>
   <trd lng="fy">metaal</trd>
   <trd lng="ga">miotail</trd>
   <trd lng="gd">meatailt</trd>
@@ -170,7 +173,7 @@
   </trdgrp>
   <trd lng="ig">&iacute;gw&egrave;</trd>
   <trd lng="is">m&aacute;lmur</trd>
-  <trd lng="ja">&#x91D1;&#x5C5E;</trd>
+  <trd lng="ja">&#x91D1;&#x5C5E; <pr>&#x304D;&#x3093;&#x305E;&#x304F;</pr></trd>
   <trd lng="jv">logam</trd>
   <trd lng="ka">&#x10E0;&#x10D9;&#x10D8;&#x10DC;&#x10D8;&#x10E1;</trd>
   <trd lng="kk">&c_m;&c_je;&c_t;&c_a;&c_l;&c_l;</trd>
@@ -182,7 +185,7 @@
   <trd lng="lat">ferrum</trd>
   <trd lng="lo">&#xEC2;&#xEA5;&#xEAB;&#xEB0;</trd>
   <trd lng="lt">metalo</trd>
-  <trd lng="lv">met&amacron;la</trd>
+  <trd lng="lv">met&#x101;la</trd>
   <trd lng="mg">metaly</trd>
   <trd lng="mi">whakarewa</trd>
   <trd lng="mk">&c_m;&c_je;&c_t;&c_a;&c_l;</trd>
@@ -226,6 +229,11 @@
   <trd lng="xh">isinyithi</trd>
   <trd lng="yi">&mem;&ayin;&tet;&alef;&#x5B7;&lamed;</trd>
   <trd lng="yo">irin</trd>
+  <trdgrp lng="zh">
+    <trd>&#x91D1;&#x5C5E; <pr>j&#x12B;nsh&#x1D4;</pr></trd>,
+    <trd>&#x91D1;&#x5C6C; <pr>j&#x12B;nsh&#x1D4;</pr></trd>,
+    <trd>&#x9483; <pr>sh&#x1D4;</pr></trd>
+  </trdgrp>
   <trd lng="zu">sensimbi</trd>
 </drv>
 
@@ -278,12 +286,23 @@
   </snc>
   <trd lng="be">&c_m;&c_e;&c_t;&c_a;&c_l;&c_ib;&c_ch;&c_n;&c_y;</trd>
   <trd lng="en">metallic</trd>
+  <trdgrp lng="ja">
+    <trd>&#x91D1;&#x5C5E;&#x306E;  <pr>&#x304D;&#x3093;&#x305E;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x91D1;&#x5C5E;&#x88FD;&#x306E;  <pr>&#x304D;&#x3093;&#x305E;&#x304F;&#x305B;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x91D1;&#x5C5E;&#x8CEA;&#x306E;  <pr>&#x304D;&#x3093;&#x305E;&#x304F;&#x3057;&#x3061;&#x306E;</pr></trd>,
+    <trd>&#x91D1;&#x5C5E;&#x7684;&#x306A;  <pr>&#x304D;&#x3093;&#x305E;&#x304F;&#x3066;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x435;&#x442;&#x430;&#x43B;&#x435;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43C;&#x435;&#x442;&#x430;&#x43B;&#x456;&#x447;&#x43D;&#x438;&#x439;</trd>
+    <trd>&#x43C;&c_je;&c_t;&c_a;&#x43B;&c_je;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43C;&c_je;&c_t;&c_a;&#x43B;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x91D1;&#x5C5E; <pr>j&#x12B;nsh&#x1D4;</pr></trd>,
+    <trd>&#x91D1;&#x5C6C; <pr>j&#x12B;nsh&#x1D4;</pr></trd>,
+    <trd>&#x91D1;&#x5C5E;&#x5236; <pr>j&#x12B;nsh&#x1D4;zh&#xEC;</pr></trd>,
+    <trd>&#x91D1;&#x5C6C;&#x5236; <pr>j&#x12B;nsh&#x1D4;zh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="metal.teralkala0o">
   <kap>
@@ -293,7 +312,7 @@
     <uzo tip="fak">KEM</uzo>
     <dif>
       &Ccirc;iu elemento de la perioda tabelo el grupo 2 la&ubreve; la
-IUPAC-sistemo, nome: 
+IUPAC-sistemo, nome:
       <ref tip="sub" cel="berili.0o">berilio</ref>,
       <ref tip="sub" cel="magnez1.0o">magnezio</ref>,
       <ref tip="sub" cel="kalci.0o">kalcio</ref>,
@@ -302,19 +321,36 @@ IUPAC-sistemo, nome:
       <ref tip="sub" cel="radium.0o">radiumo</ref>
     </dif>
   </snc>
+  <trd lng="be">&c_l;&c_u;&c_zh;&c_n;&c_a;&c_z;&c_ja;&c_m;&c_je;&c_l;&c_mol;&c_n;&c_y; <ind>&c_m;&c_e;&c_t;&c_a;&c_l;</ind></trd>
   <trd lng="fa">&a_f;&a_l;&a_z; &a_q;&a_l;&f_y;&a_A;&f_y;&f_y; &a_kh;&a_A;&f_k;&f_y;</trd>
+  <trd lng="ja">&#x30A2;&#x30EB;&#x30AB;&#x30EA;&#x571F;&#x985E;&#x91D1;&#x5C5E;  <pr>&#x30A2;&#x30EB;&#x30AB;&#x30EA;&#x3069;&#x308B;&#x3044;&#x304D;&#x3093;&#x305E;&#x304F;</pr></trd>
   <trdgrp lng="pl">
     <trd>metal ziem alkalicznych</trd>,
     <trd>berylowiec</trd>,
     <trd>wapniowiec</trd>
   </trdgrp>
-  <trd lng="uk">&#x43B;&#x443;&#x436;&#x43D;&#x43E;&#x437;&#x435;&#x43C;&#x435;&#x43B;&#x44C;&#x43D;&#x438;&#x439; &#x43C;&#x435;&#x442;&#x430;&#x43B;</trd>
+  <trd lng="uk">&#x43B;&c_u;&c_zh;&#x43D;&#x43E;&c_z;&c_je;&#x43C;&c_je;&#x43B;&#x44C;&#x43D;&c_i;&c_j; &#x43C;&c_je;&c_t;&c_a;&#x43B;</trd>
 </drv>
 <adm>Mankas "metaloidoj" al kiuj referencas multaj artikoloj
 koncernantaj diversaj kemiaj elementoj: B,Si,Ge,As,Sb,Te,Po</adm>
 </art>
 <!--
 $Log$
+versio 1.106 2023/12/12 20:10:24
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.105 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.103 2023/08/29 13:30:27
+Wolfram Diestel: ja: +prononco
+
+versio 1.102 2023/05/01 05:27:37
+Paul Peeraerts: Steloj -> monato
+
+versio 1.101 2023/04/05 07:25:45
+Dmitri Gabinski: + trd be
+
 versio 1.100 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -322,20 +358,5 @@ versio 1.98 2021/11/01 12:47:45
 Dmitri Gabinski: + trd be
 
 versio 1.97 2021/08/25 05:24:59
-Wolfram Diestel: +ekz duon~o 
-
-versio 1.96 2021/08/24 20:28:59
-Wolfram Diestel: +snc KOMUNE (alojo...), ekz-oj; +~a
-
-Revision 1.22  2017/08/15 22:10:32  revo
-Vito Redsky: +trd ro
-
-Revision 1.21  2016/09/28 20:10:53  revo
-Sebastian Cyprych: kor trd pl
-
-Revision 1.20  2014/06/03 10:10:33  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.19  2009/06/29 18:05:29  revo
 -->
 </vortaro>

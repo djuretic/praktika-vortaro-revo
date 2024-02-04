@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: instan.xml,v 1.21 2022/04/30 08:42:42 revo Exp $">
+<art mrk="$Id: instan.xml,v 1.27 2023/10/17 16:46:14 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>instanc</rad>/o <fnt><bib>PV</bib></fnt>
@@ -78,35 +78,39 @@
       <ekz>
         estis proponita <klr>[&#x2026;]</klr> decimala sistemo <klr>[&#x2026;]</klr>, nun la skotoj
         edukadaj <tld/>oj enkondukas sistemon, kiu estas kvaza&ubreve; kompromiso
-        <fnt>
+       <fnt>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/1993/A931103.php">Nova gaela numerala sistemo</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9311-matematiko.txt">Matematiko</url></vrk>
-          <lok>93/11</lok>
+          <lok>1993/11, p. 21</lok>
         </fnt>;
       </ekz>
       <ekz>
         oni kunlaboru kun homoj kaj <tld/>oj aliekleziaj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Gerrit Berveling</aut>
-          <vrk><url ref="&Steloj;monato2/006823.html">Opinio: Tro Senkosta Pentemo</url></vrk>
+	<aut>Gerrit Berveling</aut>
+	<vrk><url ref="&Monato;/2000/006823.html">Tro senkosta pentemo</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/08, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
         neniu instanco ekrespondecis pri la afero
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007075.html">Pa&scirc;oj al purigado</url></vrk>
-        </fnt>;
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007075.php">Pa&scirc;oj al purigado</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 8</lok>
+          </fnt>;
       </ekz>
       <ekz>
         unu el la problemoj &ccirc;e reformado de EU-<tld/>oj estos, kiel respekti la
         grandecojn de &scirc;tatoj, ekzemple &ccirc;e la nombro de komisionanoj
         <fnt>
+       <aut>Globus</aut>
+          <vrk><url ref="&Monato;/2000/006896.php">E&ubreve;ropa Unio</url></vrk>
           <bib>Monato</bib>
-          <aut>Stefan Maul</aut>
-          <lok><url ref="&Steloj;monato2/006896.html">&Steloj;monato2/006896.html</url></lok>
+          <lok>2000/06, p. 13</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -172,14 +176,35 @@
   </trdgrp>
   <trd lng="es">instancia</trd>
   <trd lng="fr">instance<klr tip="ind"> (jur., pol.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x88C1;&#x6C7A;&#x6A5F;&#x95A2;  <pr>&#x3055;&#x3044;&#x3051;&#x3064;&#x304D;&#x304B;&#x3093;</pr></trd>,
+    <trd>&#x5F53;&#x5C40;  <pr>&#x3068;&#x3046;&#x304D;&#x3087;&#x304F;</pr></trd>,
+    <trd>&#x5B98;&#x516C;&#x5E81;  <pr>&#x304B;&#x3093;&#x3053;&#x3046;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x5BE9;&#x7D1A;  <pr>&#x3057;&#x3093;&#x304D;&#x3085;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">instantie</trd>
   <trd lng="ru">&c_i;&c_n;&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
   <trd lng="sk">in&scaron;tancia</trd>
-  <trd lng="uk">&#x456;&#x43D;&#x441;&#x442;&#x430;&#x43D;&#x446;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_ib;&#x43D;&c_s;&c_t;&c_a;&#x43D;&c_c;&c_ib;&#x44F;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.25 2023/04/30 13:26:19
+Paul Peeraerts: Steloj -> monato
+
+versio 1.24 2023/04/26 05:28:04
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.23 2023/04/24 12:46:18
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.22 2023/04/12 12:45:50
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.21 2022/04/30 08:42:42
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -187,20 +212,5 @@ Revision 1.18  2015/07/04 08:37:36  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.17  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.16  2013/10/09 01:10:19  revo
-Jeromo Vasxe: + snc evi
-
-Revision 1.15  2012/07/20 09:10:27  revo
-Marc Rausell: + trd ca
-
-Revision 1.14  2008/11/23 19:11:36  revo
-Wieland Pusch: entoj por unikodo
-
-Revision 1.13  2008/11/07 17:30:29  revo
-Russ Williams: +trd en
-
-Revision 1.12  2005/11/03 17:31:48  revo
 -->
 </vortaro>

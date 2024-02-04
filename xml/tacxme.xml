@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tacxme.xml,v 1.28 2022/05/05 17:08:11 revo Exp $">
+<art mrk="$Id: tacxme.xml,v 1.33 2023/10/21 13:02:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ta&ccirc;ment</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,7 +13,7 @@
       Aparta <ref tip="super" cel="grup.0o.personoj">grupo</ref> komisiita
       pri iu <ref cel="misi.0o.komisio">misio</ref> a&ubreve; <ref cel="task.0o.ordonita">tasko</ref>:
       <ekz>
-        <nom>Jakob</nom> <klr>[&#8230;]</klr> dividis la homojn, kiuj estis kun li, kaj la &scirc;afojn kaj la
+        <nom>Jakob</nom> <klr>[&#x2026;]</klr> dividis la homojn, kiuj estis kun li, kaj la &scirc;afojn kaj la
         bovojn kaj la kamelojn, en du <tld/>ojn
         <fnt>
           <bib>MT</bib>
@@ -53,21 +53,23 @@
         <ekz>
           partizanaj komunistaj <tld/>oj
           <fnt>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+            <vrk><url ref="&Monato;/2001/007251.php">Ordo tordita -- dekstren
+            maldekstren</url></vrk>
             <bib>Monato</bib>
-            <aut>P. Gubbins</aut>
-            <vrk><url ref="&Steloj;monato2/007251.html">Slovenio: Ordo tordita &#8208;
-            dekstren maldekstren</url></vrk>
+            <lok>2001/01, p. 7</lok>
           </fnt>;
         </ekz>
         <ekz>
           <ind>pac<tld/>oj de Unui&gcirc;intaj Nacioj</ind>
-          <fnt>
-            <bib>Monato</bib>
-            <aut>Garbhan Macaoidh</aut>
-            <vrk><url ref="&Steloj;monato2/007003.html">Internaciaj Rilatoj: El
-            flamo en fajron</url></vrk>
-          </fnt>.
+         <fnt>
+	<aut>Garbhan MacAoidh</aut>
+	<vrk><url ref="&Monato;/2000/007003.php">El flamo en fajron</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/06, p. 6</lok>
+        </fnt>.
           <trd lng="de">UN-<ind>Friedenstruppen</ind></trd>
+          <trd lng="nl">VN-<ind>vredesmacht</ind></trd>
         </ekz>
       </dif>
       <refgrp tip="vid">
@@ -107,7 +109,7 @@
       <dif>
         Aro da homoj farantaj apartan laboron:
         <ekz>
-          sur la fregato &#8218;Danujo&#8216; <klr>[&#8230;]</klr> mi servis en la &scirc;ip<tld/>o
+          sur la fregato &#x201A;Danujo&#x2018; <klr>[&#x2026;]</klr> mi servis en la &scirc;ip<tld/>o
           <fnt>
             <bib>Fab2</bib>
             <lok>Dano Holger</lok>
@@ -134,12 +136,11 @@
         </ekz>
         <ekz>
           la studentan domon eniris perforte <tld/>o da serbaj policistoj kaj arestis lin
-          <fnt>
-            <bib>Monato</bib>
-            <aut>Roland Rotsaert</aut>
-            <vrk><url ref="&Steloj;monato2/007205.html">Kosovo: Voja&gcirc;impresoj,
-            somero 2000</url></vrk>
-          </fnt>;
+          <fnt><aut>Bardhyl Selimi</aut>: 
+          <vrk><url ref="&Monato;/2001/007205.html">Voja&gcirc;impresoj, somero 2000</url></vrk>,
+          <bib>Monato</bib>
+          <lok>2001/01, p. 26</lok>
+        </fnt>;
         </ekz>
         <ekz>
           la <tld/>anoj, laborante skipe, dum unu horo fosis profundan kavon
@@ -233,6 +234,12 @@
     <trd>mission<klr tip="amb"> (&eacute;quipe)</klr></trd>
   </trdgrp>
   <trd lng="hu">csapat</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5206;&#x9063;&#x968A;  <pr>&#x3076;&#x3093;&#x3051;&#x3093;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x90E8;&#x968A;  <pr>&#x3076;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x30C1;&#x30FC;&#x30E0;  <pr>&#x3061;&#x30FC;&#x3080;</pr></trd>,
+    <trd>&#x73ED;  <pr>&#x306F;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_z;&c_a;&c_g;&c_ib;&c_n;</trd>,
     <trd>&c_b;&c_r;&c_i;&c_g;&c_a;&c_d;&c_a; (&c_r;&c_o;&c_b;&c_ib;&c_t;&c_n;&c_i;&c_k;&c_ib;&c_v;)</trd>,
@@ -264,14 +271,30 @@
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_v;&c_a;&c_r;&c_a;&c_c;&c_mol; <ind>&c_a;&c_t;&c_r;&c_a;&c_d;</ind></trd>,
-    <trd>&c_a;&c_b;&#8217;&c_ja;&c_d;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol; &c_u;
+    <trd>&c_a;&c_b;&#x2019;&c_ja;&c_d;&c_n;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol; &c_u;
     <ind>&c_a;&c_t;&c_r;&c_a;&c_d;</ind></trd>
   </trdgrp>
   <trd lng="fr">d&eacute;tacher<klr> (mil.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x5206;&#x9063;&#x3059;&#x308B;  <pr>&#x3076;&#x3093;&#x3088;&#x3053;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x6D3E;&#x9063;&#x3059;&#x308B;  <pr>&#x306F;&#x3051;&#x3093;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/21 13:02:26
+revo: transskribo per <pr>
+
+versio 1.31 2023/05/01 12:44:36
+Paul Peeraerts: Steloj -> monato
+
+versio 1.30 2023/04/23 18:29:47
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.29 2023/04/18 11:23:45
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.28 2022/05/05 17:08:11
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -282,17 +305,5 @@ versio 1.25 2021/11/07 17:34:55
 Dmitri Gabinski: + trd kk
 
 versio 1.24 2021/08/30 16:46:40
-Wolfram Diestel: +ref brigado
-
-versio 1.23 2021/08/30 15:30:39
-Wolfram Diestel: +ekz-oj, ref-oj, trd de; -snc SPO
-
-Revision 1.21  2012/08/13 15:10:32  revo
-Marc Rausell: + trd ca
-
-Revision 1.20  2012/03/17 11:10:08  revo
-Carlos Garcia: +trd es -o
-
-Revision 1.19  2010/06/11 16:30:46  revo
 -->
 </vortaro>

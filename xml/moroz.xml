@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: moroz.xml,v 1.14 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: moroz.xml,v 1.17 2024/01/26 19:05:53 revo Exp $">
 <kap>
   <rad>moroz</rad>/a <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -15,10 +15,11 @@
       <ekz>
         &ccirc;u la vizitinto tro drinkis, &ccirc;u li estis <tld/>a, distrita
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/007079.html">Inter la dek plej bonaj romanoj</url></vrk>
-        </fnt>;
+          <aut>Donald Broadribb</aut>
+            <vrk><url ref="&Monato;/2000/007079.php">Inter la dek plej bonaj romanoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 26</lok>
+          </fnt>;
       </ekz>
       <ekz>
         Jakobo estas tie morozulo, da&ubreve;re nubmiena kaj vort&scirc;parema
@@ -79,9 +80,19 @@
     <trd>nev&lcaron;&uacute;dny</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x445;&#x43C;&#x443;&#x440;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43E;&#x43D;&#x443;&#x440;&#x438;&#x439;</trd>,
-    <trd>&#x441;&#x443;&#x43C;&#x43D;&#x438;&#x439;</trd>
+    <trd>&#x43F;&#x43E;&c_h;&#x43C;&c_u;&c_r;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43E;&#x43D;&c_u;&c_r;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_u;&#x43C;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8D70;&#x8ABF; <pr>z&#x1D2;udi&#xE0;o</pr></trd>,
+    <trd>&#x8D70;&#x8C03; <pr>z&#x1D2;udi&#xE0;o</pr></trd>,
+    <trd>&#x4E0D;&#x9AD8;&#x5174;&#x5730; <pr>b&#xF9;g&#x101;ox&#xEC;ngde</pr></trd>,
+    <trd>&#x4E0D;&#x9AD8;&#x8208;&#x5730; <pr>b&#xF9;g&#x101;ox&#xEC;ngde</pr></trd>,
+    <trd>&#x54ED;&#x4E27;&#x7740;&#x8138; <pr>k&#x16B;sangzheli&#x1CE;n</pr></trd>,
+    <trd>&#x54ED;&#x55AA;&#x8457;&#x81C9; <pr>k&#x16B;sangzheli&#x1CE;n</pr></trd>,
+    <trd>&#x813E;&#x6C14;&#x574F; <pr>p&#xED;q&#xEC;hu&#xE0;i</pr></trd>,
+    <trd>&#x813E;&#x6C23;&#x58DE; <pr>p&#xED;q&#xEC;hu&#xE0;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -98,6 +109,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_h;&c_m;&c_u;&c_r;&c_n;&c_a;&c_s;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_h;&c_m;&c_u;&c_r;&c_n;&c_a;&c_s;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_n;&c_u;&c_r;&c_a;&c_s;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>mor&oacute;znost</trd>,
     <trd>mrzutost</trd>,
@@ -108,6 +124,10 @@
     <trd>Verstimmtheit</trd>
   </trdgrp>
   <trd lng="fr">morosit&eacute;</trd>
+  <trdgrp lng="nl">
+    <trd>morose</trd>,
+    <trd>droefgeestigheid</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>pos&eogonek;pno&sacute;&cacute;</trd>,
     <trd>ponuro&sacute;&cacute;</trd>
@@ -129,6 +149,12 @@
 </art>
 <!--
 $Log$
+versio 1.16 2023/05/01 06:31:37
+Paul Peeraerts: Steloj -> monato
+
+versio 1.15 2023/04/27 14:27:54
+Dmitri Gabinski: + trd be
+
 versio 1.14 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -145,11 +171,5 @@ Revision 1.8  2015/04/26 09:10:14  revo
 Peter Hauser: + trad. de
 
 Revision 1.7  2013/08/19 16:10:13  revo
-Joop Eggen: +trd bg nl
-
-Revision 1.6  2007/08/30 16:30:21  revo
-Wieland Pusch: +trd de
-
-Revision 1.5  2006/08/10 19:45:45  revo
 -->
 </vortaro>

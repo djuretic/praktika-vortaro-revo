@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kohort.xml,v 1.18 2022/03/22 15:44:11 revo Exp $">
+<art mrk="$Id: kohort.xml,v 1.23 2023/12/03 09:58:51 revo Exp $">
 <kap>
   <rad>kohort</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kohort.0o">
   <kap><tld/>o</kap>
@@ -15,13 +15,21 @@
       Dekono de romia
       <ref tip="malprt" cel="legi.0o">legio</ref>:
       <ekz>
-        kontra&ubreve; tuta <tld/>o e&ccirc; Herkulo estas malforta
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
         la <tld/>o kaj la milestro kaj la oficistoj de la Judoj
         kaptis do Jesuon kaj ligis lin
         <fnt><bib>NT</bib><lok>&Joh; 18:12</lok></fnt>.
+      </ekz>
+      <ekz>
+        en la posto de la palaco, kie, veninte al <nom>Jer&scirc;alaim</nom> kun la prokuratoro,
+        kvartiris la Unua <tld/>o de la XII Fulma legio
+        <fnt>
+          <bib>MkM</bib>
+          <lok>2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kontra&ubreve; tuta <tld/>o e&ccirc; Herkulo estas malforta
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_k;&c_a;&c_g;&c_o;&c_r;&c_t;&c_a;</trd>
@@ -30,24 +38,32 @@
     <trd lng="en">cohort</trd>
     <trd lng="fr">cohorte<klr tip="ind"> (romaine)</klr></trd>
     <trd lng="it">cohorte</trd>
-  </snc>
+    <trd lng="zh">&#x961F;&#x5217; <pr>du&#xEC;li&#xE8;</pr></trd>
+</snc>
   <snc mrk="kohort.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Multnombra aro da homoj:
+      Multnombra <ref tip="super" cel="ar.0o">aro</ref> da kunbatalantoj, subtenantoj, samideanoj:
       <ekz>
         kaj tiujn <klr>[reformistojn]</klr> sekvis kaj sekvas
         la <tld/>o de la sen&ccirc;apeligistoj
         <fnt>
-        <bib>Voja&gcirc;o</bib>
-        <aut>G. Waringhien</aut>
-        <vrk>Kaj tamen ni &gcirc;in atingis!</vrk>
-        <lok>leciono 26a</lok>
+          <bib>Voja&gcirc;o</bib>
+          <aut>G. Waringhien</aut>
+          <vrk>Kaj tamen ni &gcirc;in atingis!</vrk>
+          <lok>leciono 26a</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="band.0o.samideanoj">bando<sncref/></ref>,
+      <ref cel="rot.0o.aro_de_kunirantoj">roto<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_k;&c_a;&c_g;&c_o;&c_r;&c_t;&c_a;</trd>
-    <trd lng="de">Haufe</trd>
+    <trdgrp lng="de">
+      <trd>Haufen <klr>(Menschen)</klr></trd>,
+      <trd>Schar <klr>(Menschen)</klr></trd>
+    </trdgrp>
     <trd lng="en">cohort</trd>
     <trdgrp lng="fr">
       <trd>cohorte<klr tip="ind"> (fig.)</klr></trd>,
@@ -55,12 +71,18 @@
       <trd>foule</trd>,
       <trd>troupe</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x7FA4;&#x7D44; <pr>q&#xFA;nz&#x1D4;</pr></trd>
+</snc>
   <trd lng="ca">cohort</trd>
   <trdgrp lng="cs">
     <trd>kohortace</trd>,
     <trd>napomenut&iacute;</trd>,
     <trd>pok&aacute;r&aacute;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6B69;&#x5175;&#x968A;  <pr>&#x307B;&#x3078;&#x3044;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x4E00;&#x56E3;  <pr>&#x3044;&#x3061;&#x3060;&#x3093;</pr></trd>,
+    <trd>&#x4E00;&#x7FA4;  <pr>&#x3044;&#x3061;&#x3050;&#x3093;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>cohort</trd>,
@@ -74,11 +96,20 @@
     <trd>napomenutie</trd>,
     <trd>pokarhanie</trd>
   </trdgrp>
-  <trd lng="uk">&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x442;&#x430;</trd>
+  <trd lng="uk">&c_k;&c_o;&c_g;&c_o;&c_r;&c_t;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.20 2023/02/27 08:36:01
+Sergio Pokrovskij: TEZ
+
+versio 1.19 2023/02/24 20:28:58
+Wolfram Diestel: +ekz, ref, trd de
+
 Revision 1.16  2015/07/04 08:37:37  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -92,11 +123,5 @@ Revision 1.13  2011/12/06 10:10:17  revo
 Marc Rausell: kataluna traduko
 
 Revision 1.12  2010/06/15 16:30:41  revo
-Wieland Pusch: +trd bg
-
-Revision 1.11  2010/06/10 16:30:50  revo
-Antonio Codazzi: +trd it
-
-Revision 1.10  2004/12/26 17:33:11  revo
 -->
 </vortaro>

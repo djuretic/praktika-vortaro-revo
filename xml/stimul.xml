@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: stimul.xml,v 1.21 2022/05/20 17:33:59 revo Exp $">
+<art mrk="$Id: stimul.xml,v 1.27 2023/11/19 03:26:24 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>stimul</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>stimul</rad>/i <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="stimul.0i">
   <kap><tld/>i</kap>
@@ -77,7 +77,7 @@
   </refgrp>
   <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_y;&c_m;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
-    <trd>&c_p;&c_r;&c_y;&c_m;&c_u;&c_sh;&c_a;&c_c;&c_mol;</trd>, 
+    <trd>&c_p;&c_r;&c_y;&c_m;&c_u;&c_sh;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_a;&c_h;&c_v;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="cs">
@@ -103,9 +103,19 @@
     <trd>sarkall</trd>,
     <trd>&ouml;szt&ouml;n&ouml;z</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6FC0;&#x52B1;&#12377;&#x308B;  <pr>&#12370;&#x304D;&#x308C;&#12356;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x52B1;&#x307E;&#12377;  <pr>&#x306F;&#12370;&#x307E;&#12377;</pr></trd>,
+    <trd>&#x523A;&#x6FC0;&#12377;&#x308B;  <pr>&#12375;&#12370;&#x304D;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>stimuleren</trd>,
     <trd>aansporen</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>pobudza&cacute;</trd>,
+    <trd>stymulowa&cacute;</trd>,
+    <trd>zach&eogonek;ca&cacute;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_t;&c_i;&c_m;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -135,7 +145,8 @@
         laborado
         <fnt>
           <bib>Paroloj</bib>
-          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto
+          1907</vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -154,6 +165,10 @@
         </fnt>.
       </ekz>
     </dif>
+<trdgrp lng="en">
+  <trd>simulation</trd>,
+  <trd>stimulus</trd>
+</trdgrp>
   <trdgrp lng="de">
     <trd>Anregung</trd>,
     <trd>Ansporn</trd>,
@@ -167,7 +182,7 @@
       Ekstera apera&jcirc;o, kiu instigas al iu agado:
       <ekz>
         <nom>R. Yerkes</nom> kaj <nom>E. L. Thorndike</nom> <klr>[&#8230;]</klr>
-        esploris la respondajn agojn de bestoj kontra&ubreve; 
+        esploris la respondajn agojn de bestoj kontra&ubreve;
         simplaj fizikaj <tld/>oj
         <fnt>
           <aut>J. &Scirc;uvajev</aut>,
@@ -181,8 +196,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Garvan Makaj'</aut>
-          <vrk><url ref="https://www.monato.be/2015/011355.php"
-              >Komunika&jcirc;o de Ikaro</url></vrk>
+          <vrk><url ref="&Monato;/2015/011355.php">Komunika&jcirc;o de Ikaro</url></vrk>
           <lok>2015</lok>
         </fnt>.
       </ekz>
@@ -212,6 +226,12 @@
     <trd>stimulus</trd>
   </trdgrp>
   <trd lng="hu">&ouml;szt&ouml;nz&eacute;s</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6FC0;&#x52B1;  <pr>&#12370;&#x304D;&#x308C;&#12356;</pr></trd>,
+    <trd>&#x52B1;&#x307E;&#12375;  <pr>&#x306F;&#12370;&#x307E;&#12375;</pr></trd>,
+    <trd>&#x523A;&#x6FC0;  <pr>&#12375;&#12370;&#x304D;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">bodziec  <klr>(podnieta)</klr></trd>
   <trdgrp lng="sk">
     <trd>podnet</trd>,
     <trd>popud</trd>,
@@ -235,26 +255,50 @@
       <ref tip="vid" cel="vigl.0igxi.KOMUNE">vigli&gcirc;i</ref>,
       instigi&gcirc;i al ago a&ubreve; reago:
       <ekz>
-        la entuziasmo de la militistoj anka&ubreve; <tld/>i&gcirc;is kun la 
+        la entuziasmo de la militistoj anka&ubreve; <tld/>i&gcirc;is kun la
         proksimi&gcirc;o de la printempo
         <fnt>
           <aut>J. Francis</aut>,
-          <vrk>La Granda Kaldrono</vrk>, 
+          <vrk>La Granda Kaldrono</vrk>,
           <lok>1978</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+<trdgrp lng="en">
+  <trd>become stimulated</trd>,
+  <trd>get fired up (slang)</trd>
+</trdgrp>
   <trd lng="be">&c_s;&c_t;&c_y;&c_m;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   <trdgrp lng="de">
     <trd><ind>stimuliert</ind> werden</trd>,
     <trd><ind>angeregt</ind> werden</trd>
   </trdgrp>
   <trd lng="fr">se trouver <ind>stimul&eacute;</ind></trd>
+  <trdgrp lng="pl">
+    <trd>pobudzi&cacute; si&eogonek;</trd>,
+    <trd>stymulowa&cacute; si&eogonek;</trd>,
+    <trd>dostawa&cacute; kopa</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/11/19 03:26:24
+Matt Brooks: +en traduko
+
+versio 1.26 2023/10/29 09:24:48
+Wolfram Diestel: fnt JED
+
+versio 1.25 2023/10/21 07:46:48
+revo: transskribo per <pr>
+
+versio 1.24 2023/10/20 01:24:51
+Vito Redsky: +trd pl
+
+versio 1.22 2023/04/11 18:56:02
+aktualigo Monato-URL
+
 versio 1.21 2022/05/20 17:33:59
 Wolfram Diestel: +ekz-oj, ref-oj, trd de ; ~o snc KOMUNE
 
@@ -262,20 +306,5 @@ versio 1.20 2022/05/05 14:43:48
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.18 2021/12/21 09:32:36
-Dmitri Gabinski: + trd be
-
-versio 1.17 2021/04/30 07:03:19
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2017/09/25 13:10:14  revo
-Jeromo Vasxe: + ~i la nervojn
-
-Revision 1.14  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.13  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.12  2014/04/23 07:10:20  revo
 -->
 </vortaro>

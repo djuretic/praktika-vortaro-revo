@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lip.xml,v 1.42 2022/03/22 18:26:51 revo Exp $">
+<art mrk="$Id: lip.xml,v 1.47 2024/01/15 19:02:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lip</rad>/o
@@ -198,6 +198,11 @@
   <trd lng="hu">ajak</trd>
   <trd lng="id">bibir</trd>
   <trd lng="it">labbro</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5507;  <pr>&#x304F;&#x3061;&#x3073;&#x308B;</pr></trd>,
+    <trd>&#x53E3;  <pr>&#x304F;</pr></trd>,
+    <trd>&#x5507;&#x5F01;  <pr>&#x304F;&#x3061;&#x3073;&#x308B;&#x3079;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">lip</trd>
   <trd lng="pl">warga</trd>
   <trd lng="pt">l&aacute;bio</trd>
@@ -206,8 +211,13 @@
   <trd lng="sk">pysk</trd>
   <trd lng="sv">l&auml;pp</trd>
   <trdgrp lng="uk">
-    <trd>&#x433;&#x443;&#x431;&#x430;</trd>,
-    <trd>&#x433;&#x443;&#x431;&#x430;</trd>
+    <trd>&c_g;&c_u;&c_b;&c_a;</trd>,
+    <trd>&c_g;&c_u;&c_b;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5634;&#x5507; <pr>zu&#x1D0;ch&#xFA;n</pr></trd>,
+    <trd>&#x5507; <pr>ch&#xFA;n</pr></trd>,
+    <trd>&#x8123; <pr>ch&#xFA;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -229,14 +239,16 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">labial</trd>
   <trd lng="fr">labial</trd>
+  <trd lng="ja">&#x5507;&#x306E;  <pr>&#x304F;&#x3061;&#x3073;&#x308B;&#x306E;</pr></trd>
   <trd lng="pl">wargowy</trd>
   <trd lng="pt">labial</trd>
   <trd lng="ro">labial</trd>
   <trd lng="ru">&c_g;&c_u;&c_b;&c_n;&c_o;&c_j;</trd>
   <trdgrp lng="uk">
-    <trd>&#x433;&#x443;&#x431;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43B;&#x430;&#x431;&#x456;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_g;&c_u;&c_b;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43B;&c_a;&c_b;&c_ib;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
@@ -253,10 +265,15 @@
     <ref cel="lip.0akonsonanto"><tld/>a konsonanto</ref>,
     <ref cel="lip.0avokalo"><tld/>a vokalo</ref>
   </refgrp>
+  <trdgrp lng="de">
+      <trd>Labial</trd>,
+      <trd>Labiallaut</trd>
+  </trdgrp>
+  <trd lng="ja">&#x5507;&#x97F3;  <pr>&#x3057;&#x3093;&#x304A;&#x3093;</pr></trd>
   <trd lng="pl">sp&oacute;&lstroke;g&lstroke;oska <ind>wargowa</ind></trd>
   <trd lng="ro">consoan&abreve; labial&abreve;</trd>
   <trd lng="ru">&c_g;&c_u;&c_b;&c_n;&c_o;&c_j; &c_z;&c_v;&c_u;&c_k;</trd>
-  <trd lng="uk">&#x433;&#x443;&#x431;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x433;&#x43E;&#x43B;&#x43E;&#x441;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_g;&c_u;&c_b;&#x43D;&c_i;&c_j; &#x43F;&c_r;&c_i;&c_g;&#x43E;&#x43B;&#x43E;&c_s;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="lip.0akonsonanto">
@@ -298,7 +315,8 @@
   <trd lng="ro">consoan&abreve; labial&abreve;</trd>
   <trd lng="ru">&c_g;&c_u;&c_b;&c_n;&c_o;&c_j;
   &c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
-  <trd lng="uk">&#x433;&#x443;&#x431;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x433;&#x43E;&#x43B;&#x43E;&#x441;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_g;&c_u;&c_b;&#x43D;&c_i;&c_j; &#x43F;&c_r;&c_i;&c_g;&#x43E;&#x43B;&#x43E;&c_s;&#x43D;&c_i;&c_j;</trd>
+  <trd lng="zh">&#x5507;&#x97F3; <pr>ch&#xFA;ny&#x12B;n</pr></trd>
 </drv>
 
 <drv mrk="lip.00akonsonanto">
@@ -315,11 +333,19 @@
     </dif>
   </snc>
   <ref tip="super" cel="lip.0sono"><tld/>sono</ref>
+  <trdgrp lng="de">
+      <trd>Bilabial</trd>,
+      <trd>bilabialer Konsonant</trd>
+  </trdgrp>
   <trd lng="en">bilabial</trd>
   <trd lng="pl">sp&oacute;&lstroke;g&lstroke;oska dwuwargowa</trd>
   <trd lng="ro">consoan&abreve; bilabial&abreve;</trd>
   <trd lng="ru">&c_g;&c_u;&c_b;&c_n;&c_o;-&c_g;&c_u;&c_b;&c_n;&c_o;&c_j;
   &c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CC;&#x5507;&#x97F3; <pr>shu&#x101;ngch&#xFA;ny&#x12B;n</pr></trd>,
+    <trd>&#x96D9;&#x5507;&#x97F3; <pr>shu&#x101;ngch&#xFA;ny&#x12B;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lip.0dentakonsonanto">
@@ -337,11 +363,19 @@
     </dif>
   </snc>
   <ref tip="super" cel="lip.0sono"><tld/>sono</ref>
+  <trdgrp lng="de">
+      <trd>Labiodental</trd>,
+      <trd>labiodentaler Konsonant</trd>
+  </trdgrp>
   <trd lng="en">labiodental</trd>
   <trd lng="pl">sp&oacute;&lstroke;g&lstroke;oska wargowo-z&eogonek;bowa</trd>
   <trd lng="ro">consoan&abreve; labiodental&abreve;</trd>
   <trd lng="ru">&c_g;&c_u;&c_b;&c_n;&c_o;-&c_z;&c_u;&c_b;&c_n;&c_o;&c_j;
   &c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5507;&#x9F52;&#x97F3; <pr>ch&#xFA;nch&#x1D0;y&#x12B;n</pr></trd>,
+    <trd>&#x5507;&#x9F7F;&#x97F3; <pr>ch&#xFA;nch&#x1D0;y&#x12B;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lip.0avokalo">
@@ -359,6 +393,10 @@
     </dif>
   </snc>
   <ref tip="super" cel="lip.0sono"><tld/>sono</ref>
+    <trdgrp lng="de">
+      <trd>gerundeter Vokal</trd>,
+      <trd>labialisierter Vokal</trd>
+    </trdgrp>
   <trdgrp lng="en">
     <trd>labialized vowel</trd>,
     <trd>rounded vowel</trd>
@@ -380,19 +418,24 @@
         grandkapa, lepor<tld/>a junulo
         <fnt>
           <aut>A. &Ccirc;e&hcirc;ov, trad. A. Kor&jcirc;enkov</aut>,
-          <vrk><url ref="http://www.esperanto-ondo.ru/Libroj/V_bibl02.pdf">
+          <vrk><url ref="&LOdE;Libroj/V_bibl02.pdf">
               Sveda alumeto</url></vrk>,
           <lok>2004-2010</lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Hasenscharte</trd>
-  </snc>
+    <trd lng="zh">&#x7F3A;&#x5634; <pr>qu&#x113;zu&#x1D0;</pr></trd>
+</snc>
   <trd lng="bg">&c_z;&c_a;&c_je;&c_sh;&c_k;&c_a; &c_u;&c_s;&c_t;&c_n;&c_a;</trd>
   <trd lng="cs">zaje&ccaron;&iacute; pysk</trd>
   <trdgrp lng="fr">
     <trd>bec-de-li&egrave;vre</trd>,
     <trd>fente labiale</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x307F;&#x3064;&#x53E3;  <pr>&#x307F;&#x3064;&#x3053;&#x3046;</pr></trd>,
+    <trd>&#x514E;&#x5507;  <pr>&#x3044;&#x3050;&#x3061;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>zaj&eogonek;cza <ind>warga</ind></trd>,
@@ -400,7 +443,7 @@
   </trdgrp>
   <trd lng="ro">despic&abreve;turi labiale &#x219;i palatine</trd>
   <trd lng="sk">zaja&ccaron;ia pera</trd>
-  <trd lng="uk">&#x437;&#x430;&#x44F;&#x447;&#x430; &#x433;&#x443;&#x431;&#x430;</trd>
+  <trd lng="uk">&c_z;&c_a;&#x44F;&c_ch;&c_a; &c_g;&c_u;&c_b;&c_a;</trd>
 </drv>
 
 <drv mrk="lip.dika0o">
@@ -470,11 +513,25 @@
     <trd>&c_d;&c_u;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_d;&c_u;&c_t;&c_mol; &c_g;&c_u;&c_b;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6485;&#x5634; <pr>ju&#x113;zu&#x1D0;</pr></trd>,
+    <trd>&#x5658; <pr>ju&#x113;</pr></trd>,
+    <trd>&#x5476; <pr>n&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 
   </art>
   <!--
   $Log$
+versio 1.46 2023/10/19 14:32:17
+revo: transskribo per <pr>
+
+versio 1.44 2023/05/05 17:57:58
+revo: aktualigo URL-unuoj
+
+versio 1.43 2022/12/05 21:25:36
+Ulrich Fellmann: diversaj liprilataj vortoj: +9 DE trdj
+
 versio 1.40 2020/08/08 19:10:39
 Vito Redsky: +trd pl +trd ro
 
@@ -488,14 +545,5 @@ Vito Redsky: +trd pl +trd ro
   Alain Gerard: +trd fr
 
   Revision 1.35  2017/01/27 08:10:19  revo
-  Lyubomir Vasilev: +trd bg
-
-  Revision 1.34  2015/07/04 08:37:38  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.33  2015/06/29 16:33:19  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.32  2015/02/07 23:10:15  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: monarh1.xml,v 1.23 2022/05/28 12:48:12 revo Exp $">
+  <art mrk="$Id: monarh1.xml,v 1.28 2024/01/26 19:05:53 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>monar&hcirc;i</rad>/o, 
@@ -42,13 +42,14 @@
         </fnt>;
       </ekz>
       <ekz>
-        Japanio <klr>[&#8230;]</klr> la pli racian manieron de &leftquot;unu erao sub unu re&gcirc;o&rightquot;
-        <klr>[&#8230;]</klr> alprenis nur en 1868 post la resta&ubreve;ro de la antikveca <tld/>o
+        Japanio <klr>[&#x2026;]</klr> la pli racian manieron de &leftquot;unu erao sub unu re&gcirc;o&rightquot;
+        <klr>[&#x2026;]</klr> alprenis nur en 1868 post la resta&ubreve;ro de la antikveca <tld/>o
         <fnt>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="&Monato;/2000/006852.php">&Ccirc;u vere kristana erao?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006852.html"
-              >Reago: &Ccirc;u vere kristana erao?</url></vrk>
-        </fnt>.
+          <lok>2000/04, p. 17</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="fa">
@@ -64,13 +65,12 @@
         la &scirc;tato Vatikano estas absoluta <tld/>o elekta;
       </ekz>
       <ekz>
-        liaj anta&ubreve;uloj <klr>[&#8230;]</klr> regadis la <tld var="k"/>on A&ubreve;strio-Hungario dum preska&ubreve;
+        liaj anta&ubreve;uloj <klr>[&#x2026;]</klr> regadis la <tld var="k"/>on A&ubreve;strio-Hungario dum preska&ubreve;
         650 jaroj
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="https://www.monato.be/2011/010463.php"
-              >Forpasas granda e&ubreve;ropano</url></vrk>
+          <vrk><url ref="&Monato;/2011/010463.php">Forpasas granda e&ubreve;ropano</url></vrk>
           <lok>2011</lok>
         </fnt>.
       </ekz>
@@ -86,16 +86,39 @@
   <trd lng="de">Monarchie</trd>
   <trd lng="en">monarchy</trd>
   <trd lng="hu">monarchia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x541B;&#x4E3B;&#x5236;  <pr>&#x304F;&#x3093;&#x3057;&#x3085;&#x305B;&#x3044;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x653F;&#x6CBB;  <pr>&#x304F;&#x3093;&#x3057;&#x3085;&#x305B;&#x3044;&#x3058;</pr></trd>,
+    <trd>&#x738B;&#x653F;  <pr>&#x304A;&#x3046;&#x305B;&#x3044;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x56FD;  <pr>&#x304F;&#x3093;&#x3057;&#x3085;&#x3053;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">monarchie</trd>
   <trd lng="pl">monarchia</trd>
   <trd lng="pt">monarquia</trd>
   <trd lng="ro">monarhie</trd>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_a;&c_r;&c_h;&c_i;&c_ja;</trd>
   <trd lng="uk">&c_m;&c_o;&c_n;&c_a;&c_r;&c_h;&c_ib;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x541B;&#x4E3B;&#x5236; <pr>j&#x16B;nzh&#x1D4;zh&#xEC;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x56FD; <pr>j&#x16B;nzh&#x1D4;gu&#xF3;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x570B; <pr>j&#x16B;nzh&#x1D4;gu&#xF3;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x653F;&#x6CBB; <pr>j&#x16B;nzh&#x1D4;zh&#xE8;ngzh&#xEC;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x653F;&#x4F53; <pr>j&#x16B;nzh&#x1D4;zh&#xE8;ngt&#x1D0;</pr></trd>,
+    <trd>&#x541B;&#x4E3B;&#x653F;&#x9AD4; <pr>j&#x16B;nzh&#x1D4;zh&#xE8;ngt&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
   </art>
 <!--
 $Log$
+versio 1.27 2023/10/19 18:36:53
+revo: transskribo per <pr>
+
+versio 1.25 2023/04/18 09:26:20
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.24 2023/04/11 16:10:38
+aktualigo Monato-URL
+
 versio 1.23 2022/05/28 12:48:12
 Wolfram Diestel: +ekz-oj, sintakso var
 
@@ -109,14 +132,5 @@ Revision 1.18  2018/08/06 22:10:53  revo
 Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
 
 Revision 1.17  2017/12/21 17:10:30  revo
-Michel Cantigneaux: aldono ligilo al la 8a OA
-
-Revision 1.16  2012/10/23 00:13:04  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.15  2012/07/17 13:10:15  revo
-Marc Rausell: + trd ca
-
-Revision 1.14  2009/06/29 18:06:24  revo
 -->
 </vortaro>

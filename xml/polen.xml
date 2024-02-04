@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: polen.xml,v 1.22 2022/05/01 17:51:19 revo Exp $">
+<art mrk="$Id: polen.xml,v 1.26 2023/10/20 16:38:17 revo Exp $">
 <kap>
   <ofc>9</ofc> <rad>polen</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -39,19 +39,22 @@
   <trd lng="de">Pollen</trd>
   <trd lng="en">pollen</trd>
   <trd lng="fr">pollen</trd>
-  <trdgrp lng="nl">
-    <trd>pollen</trd>,
-    <trd>stuifmeel</trd>
-  </trdgrp>
   <trdgrp lng="hu">
     <trd>pollen</trd>,
     <trd>vir&aacute;gpor</trd>,
     <trd>h&iacute;por</trd>
+  </trdgrp> 
+  <trd lng="ja">&#x82B1;&#x7C89;  <pr>&#x304B;&#x3075;&#x3093;</pr></trd>
+  <trdgrp lng="nl">
+    <trd>pollen</trd>,
+    <trd>stuifmeel</trd>
   </trdgrp>
+  <trd lng="pl">py&lstroke;ek  <klr>(bot.)</klr></trd>
   <trd lng="pt">p&oacute;len</trd>
+  <trd lng="ro">polen</trd>
   <trd lng="ru">&c_p;&c_y;&c_l;&c_mol;&c_c;&c_a;</trd>
   <trd lng="sv">pollen</trd>
-  <trd lng="uk">&#x43F;&#x438;&#x43B;&#x43E;&#x43A;</trd>
+  <trd lng="uk">&#x43F;&c_i;&#x43B;&#x43E;&#x43A;</trd>
 </drv>
 
 <drv mrk="polen.0ero">
@@ -73,13 +76,17 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_y;&c_l;&c_k;&c_o;&c_v;&c_a;&c_je; &c_z;&c_je;&c_r;&c_n;&c_je;</trd>
   <trd lng="bg">&c_z;&c_malmol;&c_r;&c_n;&c_o; &c_n;&c_a; &c_p;&c_r;&c_a;&c_sh;&c_je;&c_c;</trd>
   <trd lng="cs">pylov&eacute; zrnko</trd>
   <trd lng="en">grain of pollen</trd>
   <trd lng="fr">grain de <ind>pollen</ind></trd>
+  <trd lng="ja">&#x82B1;&#x7C89;&#x7C92;  <pr>&#x304B;&#x3075;&#x3093;&#x3064;&#x3076;</pr></trd>
   <trd lng="nl">stuifmeelkorrel</trd>
+  <trd lng="pl">drobinka py&lstroke;ku kwiatowego</trd>
+  <trd lng="ro">o bucat&abreve; de polen de flori</trd>
   <trd lng="sk">pe&lcaron;ov&eacute; zrnko</trd>
-  <trd lng="uk">&#x43F;&#x438;&#x43B;&#x438;&#x43D;&#x43A;&#x430;</trd>
+  <trd lng="uk">&#x43F;&c_i;&#x43B;&c_i;&#x43D;&#x43A;&c_a;</trd>
 </drv>
 
 <drv mrk="polen.0ujo">
@@ -92,20 +99,33 @@
       <ref tip="prt" cel="polen.0o">poleno</ref>.
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_y;&c_l;&c_k;&c_o;&c_v;&c_a;&c_ja; &c_k;&c_a;&c_m;&c_e;&c_r;&c_a;</trd>
   <trd lng="cs">pra&scaron;n&iacute;k</trd>
   <trd lng="de">Pollensack</trd>
   <trd lng="fr">loge pollinique</trd>
   <trd lng="hu">pollenzs&aacute;k</trd>
+  <trd lng="ja">&#x82B1;&#x7C89;&#x56A2;  <pr>&#x304B;&#x3075;&#x3093;&#x56A2;</pr></trd>
   <trd lng="nl">stuifmeelzak</trd>
+  <trd lng="pl">pr&eogonek;cik  <klr>(bot.)</klr></trd>
+  <trd lng="ro">stamin&abreve;</trd>
   <trdgrp lng="sk">
     <trd>pra&scaron;n&iacute;k</trd>,
     <trd>ty&ccaron;inka</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x438;&#x43B;&#x44F;&#x43A;</trd>
+  <trd lng="uk">&#x43F;&c_i;&#x43B;&#x44F;&#x43A;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.24 2023/04/18 06:31:43
+Dmitri Gabinski: + trd be
+
+versio 1.23 2022/12/24 23:26:58
+Vito Redsky: +trd pl + trd ro
+
 versio 1.22 2022/05/01 17:51:19
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -119,14 +139,5 @@ Revision 1.17  2015/06/29 16:40:18  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.16  2014/12/20 01:10:21  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.15  2013/08/05 16:10:12  revo
-Joop Eggen: +trd bg
-
-Revision 1.14  2012/10/23 00:14:18  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.13  2009/10/25 17:31:29  revo
 -->
 </vortaro>

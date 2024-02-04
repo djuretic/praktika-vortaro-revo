@@ -1,180 +1,285 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: band.xml,v 1.98 2022/03/21 17:23:34 revo Exp $">
+<art mrk="$Id: band.xml,v 1.108 2024/01/23 12:42:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>band</rad>/o
 </kap>
 <drv mrk="band.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="band.0o.KOMUNE">
+  <snc mrk="band.0o.irantaro">
     <dif>
-      Malgranda <ref tip="super" cel="grup.0o.personoj">grupo</ref>
-      facile
-      movi&gcirc;anta:
+      Malgranda <ref tip="super" cel="grup.0o.personoj">grupo<sncref/></ref>
+      kune vaganta, facile movi&gcirc;anta:
     </dif>
-    <subsnc mrk="band.0o.irantaro">
+    <subsnc mrk="band.0o.ularo">
       <dif>
-        Irantaro:
+        Kune irantaj homoj:
         <ekz>
           <tld/>o da junuloj;
-        </ekz>
+        </ekz><ekz>
+          sekvis <tld/>o da migrantaj fra&ubreve;linoj, kiuj venis el la
+          virinejo <ctl>&ccirc;e la Azeno</ctl> en <nom>W&uuml;rzburg</nom> kaj
+          iris al la Roza Valo
+          <fnt><aut>H.Heine, &tZ;</aut>:
+          <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk></fnt>;
+        </ekz><ekz>
+          la kantoj kaj krioj de malfrui&gcirc;inta <tld/>o de dibo&ccirc;antoj
+          <fnt>
+            <aut>A. Conan Doyle, tr. Edmund Grimley Evans</aut>:
+            <vrk>La viro kun tordita lipo</vrk>
+            <lok>La aventuroj de &Scirc;erloko Holmso. Kaliningrado: Sezonoj, 2014</lok>
+            </fnt>.
+          </ekz>
+      </dif>
+      <trd lng="en">posse</trd>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_a;&c_t;&c_a;&c_g;&c_a;</trd>,
+        <trd>&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_ja;</trd>,
+        <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="band.0o.bestaro">
+      <dif>
+        Grupo da kune vivantaj kaj kune agantaj (migrantaj, &ccirc;asantaj)
+        negrandaj bestoj:
         <ekz>
           li arkpafis la sova&gcirc;ajn birdojn, kies kriemaj <tld/>oj
           rondflugis multenombre
+          <fnt><bib>Far1</bib> <lok>&Ccirc;apitro XVI</lok></fnt>;
+          </ekz><ekz>
+          li iam estis &ccirc;asita de <tld/>o da hundoj en tombejon ie sur
+          la bordoj de Gango
           <fnt>
-            <bib>Far1</bib>
-            <lok>&Ccirc;apitro XVI</lok>
-          </fnt>.
-        </ekz>
+            <aut>Hector Hugh Munro (Saki), trad. Edmund Grimley Evans</aut>
+            <vrk>La lupino kaj aliaj rakontoj, Kembri&gcirc;o, 2005</vrk>
+            <lok>La malfermita pordo, p.&nbsp;77.</lok>
+            </fnt>.
+          </ekz>
       </dif>
-      <trdgrp lng="be">
-        <trd>&c_g;&c_r;&c_u;&c_p;&c_a;</trd>,
-        <trd>&c_g;&c_u;&c_r;&c_t;</trd>
-      </trdgrp>
-      <trdgrp lng="br">
-        <trd>bagad</trd>,
-        <trd>bandenn</trd>
-      </trdgrp>
-      <trd lng="ca">colla</trd>
-      <trd lng="de">Gruppe</trd>
+      <refgrp tip="vid">
+        <ref cel="greg.0o.ZOO">grego</ref>,
+        <ref cel="rot.0o.aro_de_kunirantoj">roto<sncref/></ref>
+      </refgrp>
       <trdgrp lng="en">
-        <trd>band</trd>,
-        <trd>posse</trd>
+        <trd>flight<klr> (a group of birds)</klr></trd>,
+        <trd>flock</trd>,
+        <trd>pack<klr> (a group of animals)</klr></trd>
       </trdgrp>
-      <trd lng="hu">csapat</trd>
-      <trd lng="nl">troep</trd>
-      <trdgrp lng="pl">
-        <trd>grupa</trd>,
-        <trd>paczka<klr> (pot.)</klr></trd>,
-        <trd>dru&zdot;yna<klr> (harcerzy starszych)</klr></trd>
+      <trdgrp lng="fr">
+        <trd>nu&eacute;e<klr tip="ind"> (troupe d'animaux en vol)</klr></trd>,
+        <trd>vol<klr tip="ind"> (troupe d'oiseaux en vol)</klr></trd>,
+        <trd>vol&eacute;e<klr tip="ind"> (troupe d'oiseaux en vol)</klr></trd>
       </trdgrp>
-      <trd lng="pt">bando</trd>
-      <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
-      <trdgrp lng="it">
-        <trd>gruppo</trd>, 
-        <trd>banda</trd>
-      </trdgrp>
+      <trd lng="ru">&c_s;&c_t;&c_a;&c_ja;</trd>
     </subsnc>
-    <subsnc mrk="band.0o.MUZ">
-      <uzo tip="fak">MUZ</uzo>
-      <dif>
-        Malgranda <ref tip="super" cel="grup.muzik0o.MUZ">muzikgrupo
-        </ref>
-        kuniranta, kunlunda:
-        <ekz>
-          nova esperanta rok<tld/>o
-          <fnt>
+    <trdgrp lng="be">
+      <trd>&c_g;&c_r;&c_u;&c_p;&c_a;</trd>,
+      <trd>&c_g;&c_u;&c_r;&c_t;</trd>
+    </trdgrp>
+    <trdgrp lng="br">
+      <trd>bagad</trd>,
+      <trd>bandenn</trd>
+    </trdgrp>
+    <trd lng="ca">colla</trd>
+    <trdgrp lng="de">
+      <trd>Gruppe</trd>,
+      <trd>Schar</trd>,
+      <trd>Meute</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>troupe<klr tip="ind"> (d'animaux ou de personnes qui se d&eacute;placent)</klr></trd>,
+      <trd>troupeau</trd>
+    </trdgrp>
+    <trd lng="hu">csapat</trd>
+    <trd lng="nl">troep</trd>
+    <trdgrp lng="pl">
+      <trd>grupa</trd>,
+      <trd>paczka<klr> (pot.)</klr></trd>,
+      <trd>dru&zdot;yna<klr> (harcerzy starszych)</klr></trd>
+    </trdgrp>
+    <trd lng="pt">bando</trd>
+    <trdgrp lng="it">
+      <trd>gruppo</trd>,
+      <trd>banda</trd>
+    </trdgrp>
+    <trd lng="zh">&#x7FA4; <pr>q&#xFA;n</pr></trd>
+</snc>
+
+  <snc mrk="band.0o.samideanoj">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Aro da homoj havantajn komunajn interesojn, ideojn, celojn:
+      <ekz>
+        neniam en ia ajn urbo viglis tia <tld/>o da petoluloj, kian ni formis
+        <fnt><aut>Joh&aacute;n Valano</aut>:
+         <vrk>&Ccirc;u li bremsis sufi&ccirc;e?</vrk>. <lok>&Ccirc;ap. 20&#xAA;.</lok></fnt>;
+      </ekz><ekz>
+        li devus dum la tuta enketo labori kun <tld/>o da eksterlandaj
+        funkciuloj, pri kies metodoj, principoj kaj pensmanieroj li
+        scias nenion
+        <fnt><aut>Joh&aacute;n Balano</aut>:
+          <vrk>&Ccirc;u ni kunvenis vane?</vrk>. <lok>&Ccirc;ap. 3&#xAA;.</lok></fnt>;
+      </ekz><ekz>
+        Mi Apolonon petis, li forigu &#11005;
+        De mia flanko la teruran <tld/>on &#11005;
+        De l&#8217; ven&gcirc;fantomoj
+        <fnt>
+          <aut>Goeto, &tZ;</aut>:
+          <vrk>Ifigenio en Ta&ubreve;rido</vrk>. <lok>2:1</lok>
+        </fnt>;
+      </ekz><ekz>
+        aliaj verkoj <klr>&#8230;</klr> tiel plenas de
+        sentencoj de Aristotelo, Platono kaj la tuta <tld/>o de
+        filozofoj, ke la legantoj profunde impresi&gcirc;as <klr>[&#8230;]</klr>
+        <fnt>
+          <aut>Cervantes, tr. Fernando de Diego</aut>:
+          <vrk>La in&gcirc;enia hidalgo don Quijote de La Mancha</vrk>.
+          <lok>Parto 1&#xAA;, Prefaco</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_g;&c_u;&c_r;&c_t;&c_o;&c_k;</trd>
+    <trdgrp lng="ru">
+      <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>,
+      <trd>&c_k;&c_l;&c_i;&c_k;&c_a;</trd>,
+      <trd>&c_s;&c_b;&c_o;&c_r;&c_i;&c_shch;&c_je;</trd>,
+      <trd>&c_s;&c_o;&c_n;&c_m;</trd>
+    </trdgrp>
+    <trdgrp lng="zh">
+    <trd>&#x73ED; <pr>b&amacron;n</pr></trd>,
+    <trd>&#x961F; <pr>du&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
+
+  <snc mrk="band.0o.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Malgranda <ref tip="super" cel="grup.muzik0o.MUZ">muzikgrupo</ref>
+      kuniranta, kunlunda:
+      <ekz>
+        nova esperanta rok<tld/>o
+        <fnt>
           <aut>Manuel Pancorbo Castro</aut>,
           <vrk>Al la barikadoj! (JoMo kaj Liberecanoj)</vrk>,
           <bib>Monato</bib>,
           <lok>jaro 1999a, numero 7a, p. 24a</lok>
           </fnt>.
-        </ekz>
-      </dif>
-      <refgrp tip="vid">
-        <ref cel="trup.0o.TEA">trupo <sncref/></ref>
-      </refgrp>
-      <trdgrp lng="be">
-        <trd>&c_a;&c_r;&c_k;&c_je;&c_s;&c_t;&c_a;&c_r;</trd>,
-        <trd>&c_a;&c_n;&c_s;&c_a;&c_m;&c_b;&c_l;&c_mol;</trd>,
-        <trd>&c_g;&c_r;&c_u;&c_p;&c_a;</trd>,
-        <trd>&c_g;&c_u;&c_r;&c_t;</trd>
-      </trdgrp>
-      <trdgrp lng="br">
-        <trd>laz<klr tip="ind"> (-kana&ntilde;, -seni&ntilde;)</klr>
-        </trd>,
-        <trd>strollad<klr tip="ind"> (sonerezh)</klr></trd>,
-        <trd>bagad<klr tip="ind"> (sonerien)</klr></trd>
-      </trdgrp>
-      <trd lng="ca">grup</trd>
-      <trdgrp lng="de">
-        <trd>Band</trd>,
-        <trd>Kapelle</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>band</trd>, <trd>troop</trd>
-      </trdgrp>
-      <trd lng="hu">zenei <ind>egy&uuml;ttes</ind></trd>
-      <trdgrp lng="nl">
-        <trd>band<klr tip="ind"> (muziekgroep)</klr></trd>,
-        <trd>muziekgroep</trd>
-      </trdgrp>
-      <trdgrp lng="pl">
-        <trd>kapela<klr> (pot.)</klr></trd>
-      </trdgrp>
-      <trd lng="pt">banda</trd>
-      <trdgrp lng="it">
-        <trd>gruppo</trd>, 
-        <trd>banda</trd>
-      </trdgrp>
-      <trd lng="ro">f&acirc;&scedil;ie</trd>
-    </subsnc>
-    <subsnc mrk="band.0o.bandacxo">
-      <dif>
-        Pluraj uloj ordinare obeantaj unu &ccirc;efulon, minacaj,
-        misfaraj, 
-        <ref tip="super" cel="grup.0acxo.KOMUNE">grupa&ccirc;o</ref>:
-        <ekz>
-          tutaj <tld/>oj da rabistoj
-          <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 18a</lok></fnt>;
-        </ekz>
-        <ekz>
-          sa&gcirc;aj homoj <klr>...</klr> foriru el tiu &ccirc;i krima 
-          <tld/>o
-          <fnt>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="trup.0o.TEA">trupo <sncref/></ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_r;&c_k;&c_je;&c_s;&c_t;&c_a;&c_r;</trd>,
+      <trd>&c_a;&c_n;&c_s;&c_a;&c_m;&c_b;&c_l;&c_mol;</trd>,
+      <trd>&c_g;&c_r;&c_u;&c_p;&c_a;</trd>,
+      <trd>&c_g;&c_u;&c_r;&c_t;</trd>
+    </trdgrp>
+    <trdgrp lng="br">
+      <trd>laz<klr tip="ind"> (-kana&ntilde;, -seni&ntilde;)</klr></trd>,
+      <trd>strollad<klr tip="ind"> (sonerezh)</klr></trd>,
+      <trd>bagad<klr tip="ind"> (sonerien)</klr></trd>
+    </trdgrp>
+    <trd lng="ca">grup</trd>
+    <trdgrp lng="de">
+      <trd>Band</trd>,
+      <trd>Kapelle</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>band</trd>, <trd>troop</trd>
+    </trdgrp>
+    <trd lng="hu">zenei <ind>egy&uuml;ttes</ind></trd>
+    <trdgrp lng="nl">
+      <trd>band<klr tip="ind"> (muziekgroep)</klr></trd>,
+      <trd>muziekgroep</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>kapela<klr> (pot.)</klr></trd>
+    </trdgrp>
+    <trd lng="pt">banda</trd>
+    <trdgrp lng="it">
+      <trd>gruppo</trd>,
+      <trd>banda</trd>
+    </trdgrp>
+    <trd lng="ro">f&acirc;&#537;ie</trd>
+    <trdgrp lng="zh">
+    <trd>&#x6D41;&#x884C;&#x4E50;&#x56E2; <pr>li&#xFA;x&#xED;ngl&#xE8;tu&#xE1;n</pr></trd>,
+    <trd>&#x97F3;&#x4E50;&#x7EC4;&#21512; <pr>y&#x12B;nyu&#xE8;z&#x1D4;h&#xE9;</pr></trd>,
+    <trd>&#25622;&#x6EFE;&#x6A02;&#x968A; <pr>y&#xE1;og&#x1D4;nyu&#xE8;du&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
+
+  <snc mrk="band.0o.bandacxo">
+    <dif>
+      Pluraj uloj ordinare obeantaj unu &ccirc;efulon, minacaj,
+      misfaraj;
+      <ref tip="super" cel="grup.0acxo.KOMUNE">grupa&ccirc;o</ref>:
+      <ekz>
+        tutaj <tld/>oj da rabistoj
+        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 18a</lok></fnt>;
+      </ekz><ekz>
+        sa&gcirc;aj homoj <klr>[&#8230;]</klr> foriru el tiu &ccirc;i krima <tld/>o
+        <fnt>
           <aut>G. Squarcina</aut>,
           <vrk>esperantigita Osamo</vrk>,
           <lok>soc.culture.esperanto, 2002-11-13</lok>
           </fnt>.
-        </ekz>
-      </dif>
-      <refgrp tip="sin">
-        <ref cel="band.0acxo.bando"><tld/>a&ccirc;o</ref>
-      </refgrp>
-      <trd lng="be">&c_b;&c_a;&c_n;&c_d;&c_a;</trd>
-      <trd lng="br">bandennad</trd>
-      <trdgrp lng="ca">
-        <trd>ramat</trd>,
-        <trd>ardat</trd>
-      </trdgrp>
-      <trd lng="de">Bande</trd>
-      <trdgrp lng="en">
-        <trd>band</trd>,
-        <trd>posse</trd>
-      </trdgrp>
-      <trd lng="hu">banda</trd>
-      <trdgrp lng="pl">
-        <trd>banda</trd>,
-        <trd>szajka</trd>,
-        <trd>klika</trd>,
-        <trd>gang</trd>,
-        <trd>ha&lstroke;astra</trd>,
-        <trd>zgraja</trd>
-      </trdgrp>
-      <trd lng="pt">bando</trd>
-      <trdgrp lng="ru">
-        <trd>&c_b;&c_a;&c_n;&c_d;&c_a;</trd>,
-        <trd>&c_sh;&c_a;&c_j;&c_k;&c_a;</trd>,
-        <trd>&c_k;&c_l;&c_i;&c_k;&c_a;</trd>,
-        <trd>&c_s;&c_b;&c_o;&c_r;&c_i;&c_shch;&c_je;</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>banda</trd>, 
-        <trd>cricca</trd>, 
-        <trd>gang</trd>,
-        <trd>squadra d'azione<klr> (se fascista)</klr></trd>
-      </trdgrp>
-    </subsnc>
-  </snc>
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="band.0acxo.bando"><tld/>a&ccirc;o</ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_b;&c_a;&c_n;&c_d;&c_a;</trd>,
+      <trd>&c_sh;&c_a;&c_j;&c_k;&c_a;</trd>,
+      <trd>&c_z;&c_g;&c_r;&c_a;&c_ja; <klr tip="amb">(&c_l;&c_ju;&c_d;&c_z;&c_je;&c_j;)</klr></trd>
+    </trdgrp>
+    <trd lng="br">bandennad</trd>
+    <trdgrp lng="ca">
+      <trd>ramat</trd>,
+      <trd>ardat</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Bande</trd>,
+      <trd>Meute</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>band</trd>,
+      <trd>posse</trd>
+    </trdgrp>
+    <trd lng="hu">banda</trd>
+    <trdgrp lng="pl">
+      <trd>banda</trd>,
+      <trd>szajka</trd>,
+      <trd>klika</trd>,
+      <trd>gang</trd>,
+      <trd>ha&lstroke;astra</trd>,
+      <trd>zgraja</trd>
+    </trdgrp>
+    <trd lng="pt">bando</trd>
+    <trdgrp lng="ru">
+      <trd>&c_b;&c_a;&c_n;&c_d;&c_a;</trd>,
+      <trd>&c_sh;&c_a;&c_j;&c_k;&c_a;</trd>,
+      <trd>&c_k;&c_l;&c_i;&c_k;&c_a;</trd>,
+      <trd>&c_s;&c_b;&c_o;&c_r;&c_i;&c_shch;&c_je;</trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>banda</trd>,
+      <trd>cricca</trd>,
+      <trd>gang</trd>,
+      <trd>squadra d'azione<klr> (se fascista)</klr></trd>
+    </trdgrp>
+    <trd lng="zh">&#x5E2E; <pr>b&amacron;ng</pr></trd>
+</snc>
   <trd lng="af">groep</trd>
-  <trd lng="am">&#x1263;&#x1295;&#x12F5;</trd>
-  <trd lng="ar">&#x641;&#x631;&#x642;&#x629;</trd>
+  <trd lng="am">&#4707;&#4757;&#x12F5;</trd>
+  <trd lng="ar">&a_f;&a_r;&a_q;&a_t_marbuta;</trd>
   <trd lng="bn">&#x9AC;&#x9CD;&#x9AF;&#x9BE;&#x9A8;&#x9CD;&#x9A1;</trd>
   <trd lng="bs">band</trd>
   <trd lng="ca">banda</trd>
-  <trd lng="co">&#xE0; ruban</trd>
+  <trd lng="co">&agrave; ruban</trd>
   <trdgrp lng="cs">
     <trd>banda</trd>,
     <trd>skupina muzikant&uring;</trd>,
@@ -182,47 +287,48 @@
     <trd>tul&aacute;ck&aacute; parta</trd>
   </trdgrp>
   <trd lng="cy">mand</trd>
-  <trd lng="da">b&#xE5;nd</trd>
+  <trd lng="da">b&aring;nd</trd>
   <trd lng="de">Gruppe</trd>
+  <trd lng="en">band</trd>
   <trd lng="es">banda</trd>
-  <trd lng="et">b&#xE4;nd</trd>
-  <trd lng="fr">bande <klr tip="amb"> (groupe de personnes,
-  d'animaux)</klr></trd>
+  <trd lng="et">b&auml;nd</trd>
+  <trd lng="fr">bande <klr tip="amb"> (groupe de personnes, d'animaux)</klr></trd>
   <trd lng="ga">banna</trd>
-  <trd lng="gd">c&#xF2;mhlan</trd>
+  <trd lng="gd">c&ograve;mhlan</trd>
   <trd lng="gl">banda</trd>
   <trd lng="gu">&#xAAC;&#xAC7;&#xAA8;&#xACD;&#xAA1;</trd>
-  <trd lng="he">&#x5D7;&#x5D1;&#x5D5;&#x5E8;&#x5D4;</trd>
-  <trd lng="hi">&#x92C;&#x948;&#x902;&#x921;</trd>
+  <trd lng="he">&het;&bet;&vav;&resh;&he;</trd>
+  <trd lng="hi">&#x92C;&#2376;&#2306;&#2337;</trd>
   <trd lng="hr">bend</trd>
   <trd lng="ht">bann</trd>
-  <trd lng="hy">&#x56D;&#x578;&#x582;&#x574;&#x562;</trd>
+  <trd lng="hy">&#x56D;&#1400;&#1410;&#1396;&#1378;</trd>
   <trd lng="ig">gbalaga</trd>
   <trd lng="ja">&#x30D0;&#x30F3;&#x30C9;</trd>
   <trd lng="ka">&#x10D1;&#x10D4;&#x10DC;&#x10D3;&#x10D8;</trd>
-  <trd lng="kk">&#x442;&#x43E;&#x43F;</trd>
-  <trd lng="km">&#x1780;&#x17D2;&#x179A;&#x17BB;&#x1798;</trd>
+  <trd lng="kk">&c_t;&c_o;&c_p;</trd>
+  <trd lng="km">&#6016;&#x17D2;&#x179A;&#x17BB;&#6040;</trd>
   <trd lng="kn">&#xCAC;&#xCCD;&#xCAF;&#xCBE;&#xC82;&#xCA1;&#xCCD;</trd>
   <trd lng="ko">&#xBC34;&#xB4DC;</trd>
   <trd lng="ku">koma</trd>
-  <trd lng="ky">&#x431;&#x430;&#x43D;&#x434;&#x430;</trd>
+  <trd lng="ky">&c_b;&c_a;&c_n;&c_d;&c_a;</trd>
   <trd lng="lat">cohors</trd>
   <trd lng="lo">&#xEC1;&#xE96;&#xE9A;</trd>
-  <trd lng="lt">grup&#x117;</trd>
+  <trd lng="lt">grup&#279;</trd>
   <trd lng="lv">grupa</trd>
   <trd lng="mg">tarika</trd>
-  <trd lng="mi">p&#x113;ne</trd>
-  <trd lng="mk">&#x431;&#x435;&#x43D;&#x434;&#x43E;&#x442;</trd>
+  <trd lng="mi">p&emacron;ne</trd>
+  <trd lng="mk">&c_b;&c_je;&c_n;&c_d;&c_o;&c_t;</trd>
   <trd lng="ml">&#xD15;&#xD42;&#xD1F;&#xD4D;&#xD1F;&#xD02;</trd>
-  <trd lng="mn">&#x445;&#x430;&#x43C;&#x442;&#x43B;&#x430;&#x433;</trd>
-  <trd lng="mr">&#x92C;&#x901;&#x921;</trd>
-  <trd lng="my">&#x1010;&#x102E;&#x1038;&#x101D;&#x102D;&#x102F;&#x1004;&#x103A;&#x1038;</trd>
+  <trd lng="mn">&c_h;&c_a;&c_m;&c_t;&c_l;&c_a;&c_g;</trd>
+  <trd lng="mr">&#x92C;&#2305;&#2337;</trd>
+  <trd lng="my">&#4112;&#x102E;&#4152;&#x101D;&#x102D;&#x102F;&#4100;&#x103A;&#4152;</trd>
   <trd lng="nl">bende</trd>
   <trd lng="ny">gulu</trd>
   <trd lng="pa">&#xA2A;&#xA39;&#xA3F;&#xA30;&#xA47;&#xA26;&#xA3E;&#xA30;</trd>
-  <trd lng="ps">&#x628;&#x627;&#x646;&#x62F;</trd>
-  <trd lng="sd">&#x645;&#x648;&#x6AA;&#x644;&#x627;&#x64A;&#x648;</trd>
-  <trd lng="si">&#xDC3;&#xD82;&#xD9C;&#xDD3;&#xDAD; &#xD9A;&#xDAB;&#xDCA;&#xDA9;&#xDCF;&#xDBA;&#xDB8;</trd>
+  <trd lng="ps">&a_b;&a_A;&a_n;&a_d;</trd>
+  <trd lng="sd">&a_m;&a_w;&#x6AA;&a_l;&a_A;&a_y;&a_w;</trd>
+  <trd lng="si">&#xDC3;&#xD82;&#xD9C;&#xDD3;&#xDAD;
+  &#xD9A;&#xDAB;&#xDCA;&#xDA9;&#xDCF;&#xDBA;&#xDB8;</trd>
   <trd lng="sk">tlupa</trd>
   <trd lng="sl">pas</trd>
   <trd lng="sm">au</trd>
@@ -234,15 +340,15 @@
   <trd lng="sw">bendi</trd>
   <trd lng="ta">&#xB87;&#xB9A;&#xBC8;&#xB95;&#xBCD;&#xB95;&#xBC1;&#xBB4;&#xBC1;</trd>
   <trd lng="te">&#xC2C;&#xC4D;&#xC2F;&#xC3E;&#xC02;&#xC21;&#xC4D;</trd>
-  <trd lng="tg">&#x411;&#x430;&#x43D;&#x434;</trd>
+  <trd lng="tg">&c_B;&c_a;&c_n;&c_d;</trd>
   <trd lng="th">&#xE27;&#xE07;&#xE14;&#xE19;&#xE15;&#xE23;&#xE35;</trd>
   <trd lng="tl">band</trd>
-  <trd lng="tt">&#x442;&#x4E9;&#x440;&#x43A;&#x435;&#x43C;</trd>
-  <trd lng="uk">&#x441;&#x43C;&#x443;&#x433;&#x430;</trd>
-  <trd lng="ur">&#x628;&#x6CC;&#x646;&#x688;</trd>
+  <trd lng="tt">&c_t;&#x4E9;&c_r;&c_k;&c_je;&c_m;</trd>
+  <trd lng="uk">&c_s;&c_m;&c_u;&c_g;&c_a;</trd>
+  <trd lng="ur">&a_b;&f_y;&a_n;&#1672;</trd>
   <trd lng="uz">frans</trd>
   <trd lng="vi">ban nh&#x1EA1;c</trd>
-  <trd lng="yi">&#x5D1;&#x5D0;&#x5B7;&#x5E0;&#x5D3;&#x5E2;</trd>
+  <trd lng="yi">&bet;&alef;&#x5B7;&nun;&dalet;&ayin;</trd>
   <trd lng="yo">iye</trd>
   <trd lng="zu">ibhande</trd>
 </drv>
@@ -256,10 +362,9 @@
       <ekz>
         defendi sian organizon kontra&ubreve; fa&scirc;ista <tld/>a&ccirc;o
         <fnt><bib>Lanti</bib>, <lok>&ccirc;u unue SAT-anoj?</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la plej terura brulego de tiu urbo, komencita kaj da&ubreve;rigita de
-        la perfido kaj malico de papa <tld/>a&ccirc;o 
+        la perfido kaj malico de papa <tld/>a&ccirc;o
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=10618">Granda
@@ -288,24 +393,30 @@
       <trd>zgraja</trd>
     </trdgrp>
     <trdgrp lng="it">
-      <trd>banda</trd>, 
-      <trd>cricca</trd>, 
+      <trd>banda</trd>,
+      <trd>cricca</trd>,
       <trd>gang</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x5E2E; <pr>b&amacron;ng</pr></trd>
+</snc>
+<trdgrp lng="be">
+  <trd>&c_b;&c_a;&c_n;&c_d;&c_a;</trd>,
+  <trd>&c_sh;&c_a;&c_j;&c_k;&c_a;</trd>,
+  <trd>&c_z;&c_g;&c_r;&c_a;&c_ja; <klr tip="amb">(&c_l;&c_ju;&c_d;&c_z;&c_je;&c_j;)</klr></trd>
+</trdgrp>
 </drv>
 
 <drv mrk="band.0ano">
   <kap><tld/>ano</kap>
   <snc mrk="band.0ano.KOMUNE">
     <dif>
-      Unuopa ulo el <ref tip="malprt" cel="band.0o.KOMUNE"><tld/>o</ref>:
+      Unuopa ulo el <ref tip="malprt" cel="band.0o"><tld/>o</ref>:
     </dif>
     <subsnc mrk="band.0ano.MUZ">
       <ekz>
         &leftquot;Povus esti simple&rightquot; estas la unua vera
         rokmuzika disko
-        <klr>...</klr> verkita kaj aran&gcirc;ita de la <tld/>anoj mem
+        <klr>[&#8230;]</klr> verkita kaj aran&gcirc;ita de la <tld/>anoj mem
         <fnt>
         <aut>Bertilo Wennergren</aut>,
         <vrk>Nova albumo de Persone</vrk>,
@@ -318,11 +429,9 @@
     </subsnc>
     <subsnc mrk="band.0ano.kunularo">
       <ekz>
-        ribelemaj <tld/>anoj <klr>...</klr> asertis, ke nenia estro
-        havas la rajton tiel senigi la kunularon je tiel bela
-        kapta&jcirc;o
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 9a,
-        &leftquot;aventura voja&gcirc;o&rightquot;</lok></fnt>.
+        ribelemaj <tld/>anoj <klr>[&#8230;]</klr> asertis, ke nenia estro
+        havas la rajton tiel senigi la kunularon je tiel bela kapta&jcirc;o
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 9a</lok></fnt>.
       </ekz>
       <refgrp tip="vid">
         <ref cel="bandit.0o">bandito</ref>
@@ -344,8 +453,7 @@
   <trd lng="it">membro d'una banda</trd>
   <trd lng="sk">bandita</trd>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x430;&#x43D;&#x434;&#x438;&#x442;&#xA0;(&#x447;&#x43B;&#x435;&#x43D; &#x437;&#x433;&#x440;&#x430;&#x457;</trd>,
-    <trd>&#x431;&#x430;&#x43D;&#x434;&#x438;)</trd>
+    <trd>&c_b;&c_a;&c_n;&c_d;&c_i;&c_t;&nbsp;(&c_ch;&c_l;&c_je;&c_n; &c_z;&c_g;&c_r;&c_a;&c_ji;, &c_b;&c_a;&c_n;&c_d;&c_i;)</trd>
   </trdgrp>
 </drv>
 
@@ -358,7 +466,7 @@
     <dif>
       <ref tip="super" cel="grup.muzik0o.MUZ">Muzikgrupo</ref> ludanta
       &jcirc;azmuzikon: eta <tld/>o el unu blovisto, unu drumisto, unu
-      kontrabasisto kaj &gcirc;is 5 homoj, a&ubreve; granda <tld/>o 
+      kontrabasisto kaj &gcirc;is 5 homoj, a&ubreve; granda <tld/>o
       &gcirc;is 20 a&ubreve; 25-homa:
       <ekz>
         aperis &jcirc;az<tld/>o kaj salonorkestroj, kiuj muzikis fokstroton
@@ -368,8 +476,7 @@
           <lok><url ref="https://eo.wikipedia.org/?curid=22999">Sambo
           (muziko)</url></lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la pianon oni &scirc;losis, la &jcirc;az<tld/>o disiris
         <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 5a, p. 52a</lok></fnt>.
       </ekz>
@@ -393,6 +500,7 @@
     <trd>orchestre de jazz</trd>
   </trdgrp>
   <trd lng="hu">dzsessz-zenekar</trd>
+  <trd lng="ja">&#x30B8;&#x30E3;&#x30BA;&#x30D0;&#x30F3;&#x30C9;</trd>
   <trdgrp lng="pl">
     <trd>jazz-band</trd>,
     <trd>big-band</trd>,
@@ -405,31 +513,34 @@
   </trd>
   <trd lng="it">gruppo <ind>jazz</ind></trd>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x436;&#x430;&#x437;-&#x431;&#x430;&#x43D;&#x434;</trd>,
-    <trd>&#x434;&#x436;&#x430;&#x437;-&#x431;&#x435;&#x43D;&#x434;</trd>
+    <trd>&c_d;&c_zh;&c_a;&c_z;-&c_b;&c_a;&c_n;&c_d;</trd>,
+    <trd>&c_d;&c_zh;&c_a;&c_z;-&c_b;&c_je;&c_n;&c_d;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.31  2019/07/15 19:10:15  revo
-Wolfram Diestel: +var gxaz~o (forigonte apartan artikolon)
+versio 1.108 2024/01/23 12:42:53
+Dmitri Gabinski: + trd be
 
-Revision 1.30  2017/08/25 22:10:16  revo
-Vito Redsky: +trd ro
+versio 1.105 2023/03/09 06:33:37
+Wolfram Diestel: sintaksaj adaptetoj
 
-Revision 1.29  2017/02/19 11:10:13  revo
-Wolfram Diestel: ekz-oj kun fnt-oj, dif chirkau dif-ref
+versio 1.104 2023/02/26 16:37:09
+Sergio Pokrovskij: + ekz
 
-Revision 1.28  2015/10/02 02:10:17  revo
-Evandro Avellar: +trd pt
+versio 1.103 2023/02/26 11:24:45
+Sergio Pokrovskij: + .samideanoj
 
-Revision 1.27  2015/09/30 13:10:18  revo
-Cindy Moon McKee: +trd en
+versio 1.102 2023/02/26 10:31:25
+Sergio Pokrovskij: sncref
 
-Revision 1.26  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.101 2023/02/26 08:33:36
+Sergio Pokrovskij: rearangxo
 
-Revision 1.25  2015/06/29 16:29:35  revo
+versio 1.100 2023/02/25 17:26:58
+Wolfram Diestel: +ekz, ref, trd de
+
+versio 1.99 2023/01/06 22:28:59
 -->
 </vortaro>

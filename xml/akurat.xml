@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akurat.xml,v 1.29 2022/04/25 15:10:59 revo Exp $">
+<art mrk="$Id: akurat.xml,v 1.33 2023/10/28 08:33:04 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>akurat</rad>/e <fnt><bib>PV</bib></fnt>
@@ -31,7 +31,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;u vi anka&ubreve; povos garantii al mi <klr>[&#8230;]</klr> <tld/>econ en la venado al la
+        &ccirc;u vi anka&ubreve; povos garantii al mi <klr>[&#x2026;]</klr> <tld/>econ en la venado al la
         laboro kaj en &gcirc;ia plenumado
         <fnt>
           <bib>Marta</bib>
@@ -59,10 +59,16 @@
     </trdgrp>
     <trd lng="es">puntual</trd>
     <trdgrp lng="fa">
-      <trd>&a_w;&a_q;&a_t;&#8204;&a_sh;&a_n;&a_A;&a_s;</trd>,
-      <trd>&a_kh;&a_w;&a_sh;&#8204;&a_q;&a_w;&a_l;</trd>
+      <trd>&a_w;&a_q;&a_t;&#x200C;&a_sh;&a_n;&a_A;&a_s;</trd>,
+      <trd>&a_kh;&a_w;&a_sh;&#x200C;&a_q;&a_w;&a_l;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5B88;&#x65F6; <pr>sh&#x1D2;ush&#xED;</pr></trd>,
+    <trd>&#x5B88;&#x6642; <pr>sh&#x1D2;ush&#xED;</pr></trd>,
+    <trd>&#x5C16; <pr>ji&#x101;n</pr></trd>,
+    <trd>&#x5261; <pr>y&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="akurat.0e.ekzakte">
     <uzo tip="stl">EVI</uzo>
     <dif>
@@ -74,9 +80,10 @@
       <ekz>
         kolekto ne nur ekstreme <tld/>a, sed anka&ubreve; tre sukcesa
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007002.html">Muziko: Kanzonoj por
-          interna konsumo</url></vrk>
+	<aut>Jorge Camacho</aut>
+	<vrk><url ref="&Monato;/2000/007002.php">Kanzonoj por interna konsumo</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/07, p. 15</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -114,6 +121,7 @@
     <trd>exact</trd>
   </trdgrp>
   <trd lng="he">&mem;&#x5B0;&dalet;&vav;&#x5BC;&yod;&#x5B8;&qof;</trd>
+  <trd lng="ja">&#x6642;&#x9593;&#x3069;&#x304A;&#x308A;&#x306B;  <pr>&#x3058;&#x304B;&#x3093;&#x3069;&#x304A;&#x308A;&#x306B;</pr></trd>
   <trdgrp lng="nl">
     <trd>accuraat</trd>,
     <trd>punctueel</trd>,
@@ -137,6 +145,12 @@
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.30 2023/04/23 07:23:20
+Paul Peeraerts: &Steloj -> monato.be
+
 versio 1.29 2022/04/25 15:10:59
 aktualigo ligvokodoj kaj URL-unuoj
 
@@ -153,11 +167,5 @@ Revision 1.22  2013/08/21 16:10:13  revo
 Joop Eggen: +trd bg
 
 Revision 1.21  2010/05/04 16:30:39  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.20  2008/05/01 16:30:17  revo
-Jeromo Vasxe: relokis trd, + mrk
-
-Revision 1.19  2006/02/19 17:31:48  revo
 -->
 </vortaro>

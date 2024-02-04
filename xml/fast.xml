@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: fast.xml,v 1.35 2022/03/18 13:01:59 revo Exp $">
+<art mrk="$Id: fast.xml,v 1.38 2023/11/09 19:13:16 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>fast</rad>/i
@@ -32,6 +32,10 @@
   <trd lng="es">ayunar</trd>
   <trd lng="fr">je&ucirc;ner</trd>
   <trd lng="id">ber<ind>puasa</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x65AD;&#x98DF;&#x3059;&#x308B;  <pr>&#x3060;&#x3093;&#x3058;&#x304D;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x7D76;&#x98DF;&#x3059;&#x308B;  <pr>&#x305C;&#x3063;&#x3057;&#x3087;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">vasten</trd>
   <trd lng="pl">po&sacute;ci&cacute;</trd>
   <trd lng="pt">jejuar</trd>
@@ -42,6 +46,7 @@
     <trd>&#x43F;&#x43E;&#x441;&#x442;&#x438;&#x442;&#x438;</trd>,
     <trd>&#x43F;&#x43E;&#x441;&#x442;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
   </trdgrp>
+  <trd lng="zh">&#x7981;&#x98DF; <pr>j&#xEC;nsh&#xED;</pr></trd>
 </drv>
 
 <drv mrk="fast.0o">
@@ -65,7 +70,12 @@
       <trd>saum</trd>
     </trdgrp>
     <trd lng="nl">vasten</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x56DB;&#x65EC;&#x671F; <pr>s&#xEC;x&#xFA;nq&#x12B;</pr></trd>,
+    <trd>&#x5C01;&#x658B;&#x671F; <pr>f&#x113;ngzh&#x101;iq&#x12B;</pr></trd>,
+    <trd>&#x5927;&#x658B;&#x671F; <pr>d&#xE0;izh&#x101;iq&#x12B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="fast.0o.tempo">
     <dif>
       Tempo de la <tld/>o:
@@ -86,6 +96,11 @@
   <trd lng="en">fast<klr tip="amb"> (abstaining from food)</klr></trd>
   <trd lng="es">ayuno</trd>
   <trd lng="fr">je&ucirc;ne</trd>
+  <trdgrp lng="ja">
+    <trd>&#x65AD;&#x98DF;  <pr>&#x3060;&#x3093;&#x3058;&#x304D;</pr></trd>,
+    <trd>&#x7D76;&#x98DF;  <pr>&#x305C;&#x3063;&#x3057;&#x3087;&#x304F;</pr></trd>,
+    <trd>&#x65AD;&#x98DF;&#x671F;&#x9593;  <pr>&#x3060;&#x3093;&#x3058;&#x304D;&#x304D;&#x304B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="pl">post</trd>
   <trd lng="ru">&c_p;&c_o;&c_s;&c_t;</trd>
   <trd lng="sk">p&ocirc;st</trd>
@@ -152,7 +167,12 @@
     <trd lng="ru">&c_v;&c_je;&c_l;&c_i;&c_k;&c_i;&c_j;
     &c_p;&c_o;&c_s;&c_t;</trd>
     <trd lng="tr">h&inodot;ristiyanlarda b&uuml;y&uuml;k pehriz</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x56DB;&#x65EC;&#x671F; <pr>s&#xEC;x&#xFA;nq&#x12B;</pr></trd>,
+    <trd>&#x5C01;&#x658B;&#x671F; <pr>f&#x113;ngzh&#x101;iq&#x12B;</pr></trd>,
+    <trd>&#x5927;&#x658B;&#x671F; <pr>d&#xE0;izh&#x101;iq&#x12B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="fast.granda0o.ramadano">
     <uzo tip="fak">REL</uzo>
     <dif>
@@ -175,6 +195,9 @@
 </art>
 <!--
 $Log$
+versio 1.37 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
 versio 1.33 2020/05/05 09:10:18
 Eko Nur Syah Hidayat: korekteto
 
@@ -194,8 +217,5 @@ Revision 1.27  2011/04/29 19:10:45  revo
 Russ Williams: +trd en
 
 Revision 1.26  2009/08/24 16:32:55  revo
-Emmanuel Debanne: +kor tr
-
-Revision 1.25  2008/05/16 16:30:48  revo
 -->
 </vortaro>

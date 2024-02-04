@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gant.xml,v 1.36 2022/03/23 14:02:15 revo Exp $">
+<art mrk="$Id: gant.xml,v 1.42 2023/11/11 10:00:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gant</rad>/o
@@ -18,10 +18,37 @@
         <fnt><bib>FK</bib>, <lok>3, anekdotoj</lok></fnt>;
       </ekz>
       <ekz>
+        <klr>[ili]</klr> surtiris delikatajn <tld/>ojn sur &scirc;iajn bruligitajn fingrojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> lernis kudradon de <tld/>oj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de la mateno ili estis okupitaj per briktransportado, kaj Pa&ubreve;lo blasfemis pro
+        siaj preska&ubreve; detruitaj led<tld/>oj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
-        <ind>&jcirc;eti al iu la <tld/>on</ind>
-        <klr>(alvoki al batalo, defii)</klr>
-        <fnt><bib>VdE</bib>, <lok/></fnt>;
+        Monato fakte signifis defion en la panoramo de la tiutempa Esperanto-gazetaro,
+        <nom>Stefan Maul</nom> <ind>&jcirc;etis <tld/>on</ind> <klr>(alvokis
+        al <ref cel="defi.0i">defio</ref>)</klr>, kiun levis <nom>Torben Kehlet</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://www.monato.be/2004/008242.html">Gravaj opinioj</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
         <trd lng="ca">llan&ccedil;ar el guant a alg&uacute;</trd>
         <trd lng="fr">jeter le gant &agrave; qn</trd>
         <trd lng="nl">de <ind>handschoen</ind> toewerpen</trd>
@@ -39,7 +66,7 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="muf.0o">mufo</ref>.
+      <ref cel="muf.0o">mufo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_k;&c_a;</trd>
@@ -53,6 +80,10 @@
   <trd lng="fr">gant</trd>
   <trd lng="hu">keszty&udblac;</trd>
   <trd lng="it">guanto</trd>
+  <trdgrp lng="ja">
+    <trd>&#x624B;&#x888B;  <pr>&#x3066;&#x3076;&#x304F;&#x308D;</pr></trd>,
+    <trd>&#x30B0;&#x30ED;&#x30FC;&#x30D6;  <pr>&#x3050;&#x308D;&#x30FC;&#x3076;</pr></trd>
+  </trdgrp>
   <trd lng="nl">handschoen</trd>
   <trd lng="pt">luva</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_ch;&c_a;&c_t;&c_k;&c_a;</trd>
@@ -62,7 +93,11 @@
     <trd>vante</trd>
   </trdgrp>
   <trd lng="tr">eldiven</trd>
-  <trd lng="uk">&#x440;&#x443;&#x43A;&#x430;&#x432;&#x438;&#x447;&#x43A;&#x430;</trd>
+  <trd lng="uk">&c_r;&c_u;&c_k;&c_a;&c_v;&c_i;&c_ch;&c_k;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x624B;&#x7B20; <pr>sh&#x1D2;ul&#xEC;</pr></trd>,
+    <trd>&#x624B;&#x5957; <pr>sh&#x1D2;ut&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gant.0i">
@@ -80,19 +115,22 @@
   <ind>&c_p;&c_a;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_k;&c_u;</ind></trd>
   <trd lng="ca">enguantar</trd>
   <trd lng="cs">obl&eacute;knout rukavice</trd>
-  <trd lng="de">Handschuhe anziehen</trd>
+  <trd lng="de">Handschuhe <ind>anziehen</ind></trd>
   <trd lng="fr">ganter</trd>
   <trd lng="hu">keszty&udblac;t h&uacute;z</trd>
   <trdgrp lng="it">
     <trd>inguantare</trd>,
     <trd>mettere i guanti a</trd>
   </trdgrp>
+  <trd lng="ja">&#x624B;&#x888B;&#x3092;&#x306F;&#x3081;&#x308B; 
+  <pr>&#x3066;&#x3076;&#x304F;&#x308D;&#x3092;&#x306F;&#x3081;&#x308B;</pr></trd>
   <trd lng="nl">de <ind>handschoen(en)</ind> aantrekken</trd>
   <trd lng="pt">cal&ccedil;ar <ind>luvas</ind> a</trd>
   <trd lng="ru">&c_n;&c_a;&c_d;&c_je;&c_t;&c_mol;
   <ind>&c_p;&c_je;&c_r;&c_ch;&c_a;&c_t;&c_k;&c_u;</ind></trd>
   <trd lng="sk">natiahnu&tcaron; rukavice niekomu</trd>
-  <trd lng="uk">&#x43D;&#x430;&#x434;&#x456;&#x432;&#x430;&#x442;&#x438; &#x440;&#x443;&#x43A;&#x430;&#x432;&#x438;&#x447;&#x43A;&#x438;/&#x440;&#x443;&#x43A;&#x430;&#x432;&#x438;&#x446;&#x456;</trd>
+  <trd lng="uk">&c_n;&c_a;&c_d;&c_ib;&c_v;&c_a;&c_t;&c_i; &c_r;&c_u;&c_k;&c_a;&c_v;&c_i;&c_ch;&c_k;&c_i;/&c_r;&c_u;&c_k;&c_a;&c_v;&c_i;&c_c;&c_ib;</trd>
+  <trd lng="zh">&#x6234;&#x624B;&#x5957; <pr>d&#xE0;ish&#x1D2;ut&#xE0;o</pr></trd>
 </drv>
 
 <drv mrk="gant.0isto">
@@ -102,10 +140,28 @@
       Faristo a&ubreve; vendisto de <tld/>oj:
       <ekz>
         tio estis metiejo de <tld/>isto; ili eniris
-        <fnt><bib>Fab1</bib>, <lok>kupra porko</lok></fnt>.
+        <fnt><bib>Fab1</bib>, <lok>kupra porko</lok></fnt>;
+      </ekz>
+      <ekz>
+        brava homo, metiisto, svati&gcirc;as al vi, la <tld/>isto <nom>Erik</nom>
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;i estis tute senta&ubreve;ga</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni trovas stratojn de <tld/>isto, kombilfaristo, linteksisto, &ccirc;apelfaristo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="https://www.monato.be/2014/011095.php">Tammisaari, urbeto &ccirc;e Balta
+          Maro</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_n;&c_ib;&c_k;</trd>
   <trd lng="ca">guanter</trd>
   <trd lng="cs">rukavi&ccaron;k&aacute;&rcaron;</trd>
   <trd lng="de">Handschuhmacher</trd>
@@ -113,12 +169,12 @@
   <trd lng="it">guantaio</trd>
   <trd lng="nl">handschoenmaker</trd>
   <trdgrp lng="pt">
-   <trd>fabricante de <ind>luvas</ind></trd>, 
-   <trd>vendedor de <ind>luvas</ind></trd> 
+   <trd>fabricante de <ind>luvas</ind></trd>,
+   <trd>vendedor de <ind>luvas</ind></trd>
   </trdgrp>
   <trd lng="sk">rukavi&ccaron;k&aacute;r</trd>
   <trd lng="tr">eldivenci <klr>(eldiven yapan yada satan)</klr></trd>
-  <trd lng="uk">&#x440;&#x443;&#x43A;&#x430;&#x432;&#x438;&#x447;&#x43D;&#x438;&#x43A;</trd>
+  <trd lng="uk">&c_r;&c_u;&c_k;&c_a;&c_v;&c_i;&c_ch;&c_n;&c_i;&c_k;</trd>
 </drv>
 
 <drv mrk="gant.fer0o">
@@ -130,6 +186,7 @@
       <tld lit="G"/>o el ferlamenoj, uzata de mezepokaj kavaliroj.
     </dif>
   </snc>
+  <trd lng="be">&c_zh;&c_a;&c_l;&c_je;&c_z;&c_n;&c_a;&c_ja; <ind>&c_p;&c_a;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_k;&c_a;</ind></trd>
   <trd lng="ca">manyopla<klr> (arm.)</klr></trd>
   <trd lng="cs">&zcaron;elezn&aacute; rukavice</trd>
   <trdgrp lng="de">
@@ -143,6 +200,7 @@
     <trd>manopola<klr> (guanto di ferro)</klr></trd>,
     <trd><ind>guanto</ind> di ferro</trd>
   </trdgrp>
+  <trd lng="ja">&#x3053;&#x3066;</trd>
   <trdgrp lng="nl">
     <trd>pantserhandschoen</trd>,
     <trd>mali&euml;nhandschoen</trd>
@@ -150,7 +208,8 @@
   <trd lng="pt">guante</trd>
   <trd lng="ru">&c_l;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_p;&c_je;&c_r;&c_ch;&c_a;&c_t;&c_k;&c_a;</trd>
   <trd lng="sk">&zcaron;elezn&aacute; rukavica</trd>
-  <trd lng="uk">&#x437;&#x430;&#x43B;&#x456;&#x437;&#x43D;&#x430; &#x440;&#x443;&#x43A;&#x430;&#x432;&#x438;&#x446;&#x44F; (&#x447;&#x430;&#x441;&#x442;&#x438;&#x43D;&#x430; &#x441;&#x435;&#x440;&#x435;&#x434;&#x43D;&#x44C;&#x43E;&#x432;&#x456;&#x447;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x431;&#x43B;&#x430;&#x434;&#x443;&#x43D;&#x43A;&#x443;)</trd>
+  <trd lng="uk">&c_z;&c_a;&c_l;&c_ib;&c_z;&c_n;&c_a; &c_r;&c_u;&c_k;&c_a;&c_v;&c_i;&c_c;&c_ja; (&c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a;
+  &c_s;&c_je;&c_r;&c_je;&c_d;&c_n;&c_mol;&c_o;&c_v;&c_ib;&c_ch;&c_n;&c_o;&c_g;&c_o; &c_o;&c_b;&c_l;&c_a;&c_d;&c_u;&c_n;&c_k;&c_u;)</trd>
 </drv>
 
 <drv mrk="gant.duon0o">
@@ -160,11 +219,23 @@
     <dif>
       <ref tip="super" cel="gant.0o.TEKS"><tld lit="G"/>o</ref> kovranta
       la manon nur &gcirc;is la dua falango de la fingroj, lasanta la pintojn
-      liberaj.
+      liberaj:
+      <ekz>
+        Klaro &gcirc;oje kisis &scirc;ian manon en lana duon<tld/>o
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_p;&c_u;&c_l;&c_mol;&c_s;&c_e;&c_t;&c_k;&c_a; <klr>(&c_p;&c_a;&c_w;&c_p;&c_a;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_k;&c_a;)</klr></trd>
   <trd lng="ca">mitena</trd>
   <trd lng="cs">rukavice bez prst&uring;</trd>
+  <trdgrp lng="de">
+    <trd>Halbhandschuh</trd>,
+    <trd><ind>fingerfrei</ind>er Handschuh</trd>
+  </trdgrp>
   <trd lng="fr">mitaine</trd>
   <trdgrp lng="hu">
     <trd>f&eacute;lkeszty&udblac;</trd>,
@@ -174,6 +245,8 @@
     <trd>mitena</trd>,
     <trd>mezzo<ind>guanto</ind></trd>
   </trdgrp>
+  <trd lng="ja">&#x6307;&#x5148;&#x306E;&#x306A;&#x3044;&#x624B;&#x888B; 
+  <pr>&#x3086;&#x3073;&#x3055;&#x304D;&#x306E;&#x306A;&#x3044;&#x3066;&#x3076;&#x304F;&#x308D;</pr></trd>
   <trd lng="nl">handschoen zonder vingers</trd>
   <trdgrp lng="pt">
     <trd>meia-luva</trd>,
@@ -186,8 +259,8 @@
   </trdgrp>
   <trd lng="sk">rukavice bez prstov</trd>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x456;&#x442;&#x435;&#x43D;&#x43A;&#x430;</trd>,
-    <trd>&#x43F;&#x456;&#x432;&#x440;&#x443;&#x43A;&#x430;&#x432;&#x438;&#x447;&#x43A;&#x430;</trd>
+    <trd>&c_m;&c_ib;&c_t;&c_je;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_ib;&c_v;&c_r;&c_u;&c_k;&c_a;&c_v;&c_i;&c_ch;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -212,12 +285,17 @@
         la &scirc;losilaron en mia po&scirc;o
         <fnt>
           <aut>Erckmann-Chatrian, trad. P. J. Doumen</aut>
-          <vrk><url ref="http://esperanto-forum.org/doc/Romanoj/soldatodenapoleono.pdf">Soldato de Napoleono</url></vrk>
+          <vrk><url ref="http://esperanto-forum.org/doc/Romanoj/soldatodenapoleono.pdf">Soldato de
+          Napoleono</url></vrk>
           <lok>[vidita en 2015]</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_p;&c_o;&c_d;&c_k;&c_a;</trd>
+  </trdgrp>
   <trd lng="ca">manyopla</trd>
   <trd lng="de">F&auml;ustling</trd>
   <trdgrp lng="fr">
@@ -225,13 +303,26 @@
     <trd>moufle</trd>
   </trdgrp>
   <trd lng="it">muffola</trd>
+  <trd lng="ja">&#x30DF;&#x30C8;&#x30F3;</trd>
   <trd lng="nl">bokshandschoen</trd>
   <trd lng="tr">boks eldiveni</trd>
-  <trd lng="uk">&#x43C;&#x443;&#x444;&#x442;&#x430;</trd>
+  <trd lng="uk">&c_m;&c_u;&c_f;&c_t;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.41 2023/10/15 06:07:00
+revo: transskribo per <pr>
+
+versio 1.40 2023/09/13 12:42:32
+Dmitri Gabinski: + trd be
+
+versio 1.38 2023/06/18 18:27:30
+Wolfram Diestel: +ekz-oj
+
+versio 1.37 2023/02/08 11:25:53
+Dmitri Gabinski: + trd be
+
 versio 1.32 2020/11/29 16:51:49
 Jeromo Vasxe: + muf~o
 
@@ -242,17 +333,5 @@ Revision 1.29  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.28  2012/08/18 18:10:44  revo
-Marc Rausell: + trd ca
-
-Revision 1.27  2010/06/06 16:30:56  revo
-Antonio Codazzi: +trd it
-
-Revision 1.26  2009/08/23 16:33:18  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.25  2009/07/11 16:31:22  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.24  2008/12/11 17:30:57  revo
 -->
 </vortaro>

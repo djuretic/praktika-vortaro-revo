@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: iran.xml,v 1.21 2022/04/30 08:42:42 revo Exp $">
+<art mrk="$Id: iran.xml,v 1.26 2023/11/19 10:22:14 revo Exp $">
 <kap>
   <ofc>8</ofc><rad>Iran</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -32,19 +32,20 @@
       <ekz>
          el Sirio kaj <tld/>o, kie anka&ubreve; ekzistas tre antikvaj urboj, venis nenia reago
         <fnt>
+          
+          <vrk><url ref="&Monato;/1993/A930902.php">Noticoj</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9309-noticoj.txt">Esperanto sen
-          peno</url></vrk>
+          <lok>1993/09, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
         la&ubreve; statistikoj pereas pro a&ubreve;to-akcidentoj &ccirc;iujare en <tld/>o pli ol 15&nbsp;000 homoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Hamizeh Shafiee</aut>
-          <vrk><url ref="&Steloj;monato2/007028.html">Traf(ik)a
-          statistiko</url></vrk>
-        </fnt>.
+            <vrk><url ref="&Monato;/2001/007028.php">Traf(ik)a statistiko</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/01, p. 10</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_Ib;&c_r;&c_a;&c_n;</trd>
@@ -58,15 +59,18 @@
     </trdgrp>
     <trd lng="id">Iran</trd>
     <trd lng="it">Iran</trd>
+    <trd lng="nl">Iran</trd>
     <trdgrp lng="pl">
       <trd>Iran</trd>,
       <trd>Islamska Republika <ind>Iranu</ind></trd>
     </trdgrp>
     <trd lng="pt">Ir&atilde;</trd>
     <trd lng="uz">&c_E;&c_r;&c_o;&c_n;</trd>
-  </snc>
+    <trd lng="zh">&#x4F0A;&#x6717; <pr>Y&#x12B;l&#x1CE;ng</pr></trd>
+</snc>
   <trd lng="bo">&#xF4F;&#xF0B;&#xF5F;&#xF72;&#xF42;&#xF0B;</trd>
-  <trd lng="uk">&#x406;&#x440;&#x430;&#x43D;</trd>
+  <trd lng="ja">&#x30A4;&#x30E9;&#x30F3;  <pr>&#x3044;&#x3089;&#x3093;</pr></trd>
+  <trd lng="uk">&c_Ib;&c_r;&c_a;&#x43D;</trd>
 </drv>
 
 <drv mrk="iran.0a">
@@ -77,11 +81,11 @@
       <ekz>
         la <tld lit="i"/>a prezidanta baloto de majo 1997
         <fnt>
-          <bib>Monato</bib>
-          <aut>M. Reza Torabi</aut>
-          <vrk><url ref="&Steloj;monato2/007017.html">Vundita sed ne
-          morta</url></vrk>
-        </fnt>;
+          <aut>M. Reza Torabi/pg</aut>
+            <vrk><url ref="&Monato;/2000/007017.php">Vundita sed ne mortinta</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/07, p. 7</lok>
+          </fnt>;
       </ekz>
       <ekz>
         en aprilo estas liberigitaj 15 britaj mararmeanoj kaptitaj de <tld lit="i"/>aj 
@@ -125,12 +129,25 @@
     <trd>Iranien<klr> (subst.)</klr></trd>
     <trd>Iranienne<klr> (subst.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4F0A;&#x6717;&#x4EBA; <pr>y&#x12B;l&#x1CE;ngr&#xE9;n</pr></trd>,
+    <trd>&#x4F0A;&#x6717;&#x8A9E;&#x7CFB; <pr>y&#x12B;l&#x1CE;ngy&#x1D4;x&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 
 <!--
 $Log$
+versio 1.25 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.23 2023/04/30 13:26:22
+Paul Peeraerts: Steloj -> monato
+
+versio 1.22 2023/04/12 18:31:52
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.21 2022/04/30 08:42:42
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -144,14 +161,5 @@ Revision 1.15  2018/08/25 10:40:25  revo
 Wolfram Diestel: +ekz-oj, germ trd-oj
 
 Revision 1.14  2018/08/06 19:10:39  revo
-Michel Cantigneaux: aperas unue en PIV1 (1970), oficiala en 8OA (1974)
-
-Revision 1.13  2017/12/23 14:10:22  revo
-Robin van der Vliet: Senfonta misaldono de ina formo
-
-Revision 1.12  2017/12/22 19:10:15  revo
-Michel Cantigneaux: Pli bonaj indikoj pri 8a Oficiala Aldono kaj 12a
-Oficiala Informo (+ /ano + /a)
-
 -->
 </vortaro>

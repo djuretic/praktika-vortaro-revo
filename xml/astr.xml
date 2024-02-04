@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: astr.xml,v 1.27 2022/03/12 15:33:56 revo Exp $">
+<art mrk="$Id: astr.xml,v 1.30 2023/10/28 08:33:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>astr</rad>/o <fnt><bib>PV</bib></fnt>
@@ -45,7 +45,11 @@
     <trd lng="pl">cia&lstroke;o niebieskie</trd>
     <trd lng="ru">&c_n;&c_je;&c_b;&c_je;&c_s;&c_n;&c_o;&c_je; &c_t;&c_je;&c_l;&c_o;</trd>
     <trd lng="sk">nebesk&eacute; <ind>teleso</ind></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5929;&#x4F53; <pr>ti&#x101;nt&#x1D0;</pr></trd>,
+    <trd>&#x5929;&#x9AD4; <pr>ti&#x101;nt&#x1D0;</pr></trd>
+  </trdgrp>
+</snc>
   <!--  
   mi forkomentas cxi tiun duan sencon.
   ne estas kohere ke la senco "stelo" evitindas,
@@ -80,6 +84,7 @@
     <trd>&#x5DB;&#x5D5;&#x5DB;&#x5D1;</trd>,
     <trd>&#x5D2;&#x5E8;&#x5DD; &#x5E9;&#x5DE;&#x5D9;&#x5DE;&#x5D9;</trd>
   </trdgrp>
+  <trd lng="ja">&#x5929;&#x4F53;  <pr>&#x3066;&#x3093;&#x305F;&#x3044;</pr></trd>
   <trd lng="sk">nebesk&eacute; teleso</trd>
   <trd lng="cs">nebesk&eacute; t&ecaron;leso <klr>(hv&ecaron;zda| planeta|
   kometa)</klr></trd>
@@ -134,6 +139,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
 Revision 1.24  2015/10/13 09:10:24  revo
 Sebastian Cyprych: +trd pl
 
@@ -152,6 +160,5 @@ Antonio Codazzi: +trd it
 Revision 1.19  2010/05/21 16:31:04  revo
 Jeromo Vasxe: + nebul~o el nebul.xml, forkoment. snc 2 inkluzivitan en
 snc 1
-
 -->
 </vortaro>

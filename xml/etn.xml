@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: etn.xml,v 1.20 2022/04/13 08:46:02 revo Exp $">
+<art mrk="$Id: etn.xml,v 1.23 2023/11/07 20:34:12 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>etn</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -63,6 +63,10 @@
     <trd>etnikum</trd>,
     <trd>n&eacute;pcsoport</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6C11;&#x65CF;  <pr>&#x307F;&#x3093;&#x305E;&#x304F;</pr></trd>,
+    <trd>&#x30A8;&#x30B9;&#x30CB;&#x30C3;&#x30AF;&#x30B0;&#x30EB;&#x30FC;&#x30D7;</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>grupa <ind>etniczna</ind></trd>,
     <trd>lud</trd>
@@ -77,7 +81,11 @@
   <trd lng="sv">etnisk grupp</trd>
   <trdgrp lng="uk">
     <trd>&c_je;&c_t;&#x43D;&#x43E;&c_s;</trd>,
-    <trd>&#x43F;&#x43B;&c_je;&#x43C;&#8217;&#x44F;</trd>
+    <trd>&#x43F;&#x43B;&c_je;&#x43C;&#x2019;&#x44F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x65CF;&#x7FA4; <pr>z&#xFA;q&#xFA;n</pr></trd>,
+    <trd>&#x90E8;&#x843D; <pr>b&#xF9;lu&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -150,6 +158,7 @@
     <trd>&c_je;&c_t;&#x43D;&#x43E;&c_g;&c_je;&#x43D;&c_je;&c_z;</trd>,
     <trd>&#x43F;&#x43E;&c_h;&#x43E;&c_d;&c_zh;&c_je;&#x43D;&#x43D;&#x44F; &#x43D;&c_a;&c_r;&#x43E;&c_d;&c_ib;&c_v;</trd>
   </trdgrp>
+  <trd lng="zh">&#x79CD;&#x7CFB;&#x53D1;&#x751F; <pr>zh&#x1D2;ngx&#xEC;f&#x101;sh&#x113;ng</pr></trd>
 </drv>
 
 <drv mrk="etn.0a">
@@ -164,12 +173,20 @@
   <trd lng="en">ethnic</trd>
   <trd lng="fr">ethnique</trd>
   <trd lng="hu">etnikai</trd>
+  <trd lng="ja">&#x6C11;&#x65CF;&#x306E;  <pr>&#x307F;&#x3093;&#x305E;&#x304F;&#x306E;</pr></trd>
   <trd lng="pl">etniczny</trd>
   <trd lng="uk">&c_je;&c_t;&#x43D;&c_ib;&c_ch;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x79CD; <pr>r&#xE9;nzh&#x1D2;ng</pr></trd>,
+    <trd>&#x6C11;&#x65CF; <pr>m&#xED;nz&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/14 15:49:05
+revo: transskribo per <pr>
+
 versio 1.20 2022/04/13 08:46:02
 Dmitri Gabinski: + trd be
 
@@ -189,8 +206,5 @@ Revision 1.13  2010/04/09 16:31:08  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2009/03/01 17:31:50  revo
-Russ Williams: +trd en
-
-Revision 1.11  2009/01/12 17:30:26  revo
 -->
 </vortaro>

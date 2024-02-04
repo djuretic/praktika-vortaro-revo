@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: odise.xml,v 1.19 2022/03/24 15:12:21 revo Exp $">
+<art mrk="$Id: odise.xml,v 1.23 2024/01/30 16:09:13 revo Exp $">
 <kap><rad>Odise</rad>/o <fnt><bib>PIV1</bib></fnt></kap>
 <drv mrk="odise.0o">
   <kap><tld/>o</kap>
@@ -37,11 +37,18 @@
   <trd lng="es">Ulises</trd>
   <trd lng="fr">Ulysse</trd>
   <trd lng="hu">Od&uuml;sszeusz</trd>
+  <trd lng="ja">&#x30AA;&#x30C7;&#x30E5;&#x30C3;&#x30BB;&#x30A6;&#x30B9;</trd>
   <trd lng="nl">Odysseus</trd>
   <trd lng="pl">Odyseusz</trd>
   <trd lng="ru">&c_O;&c_d;&c_i;&c_s;&c_s;&c_je;&c_j;</trd>
   <trd lng="sk">Odyseus</trd>
-  <trd lng="uk">&#x41E;&#x434;&#x456;&#x441;&#x441;&#x435;&#x439; (&#x446;&#x430;&#x440;)</trd>
+  <trd lng="uk">&#x41E;&c_d;&c_ib;&c_s;&c_s;&c_je;&c_j; (&c_c;&c_a;&c_r;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5965;&#x5FB7;&#x4FEE;&#x65AF; <pr>&#xC0;od&#xE9;xi&#x16B;s&#x12B;</pr></trd>,
+    <trd>&#x5967;&#x5FB7;&#x4FEE;&#x65AF; <pr>&#xC0;od&#xE9;xi&#x16B;s&#x12B;</pr></trd>,
+    <trd>&#x5965;&#x8FEA;&#x4FEE;&#x65AF; <pr>&#xC0;od&#xED;xi&#x16B;s&#x12B;</pr></trd>,
+    <trd>&#x5967;&#x8FEA;&#x4FEE;&#x65AF; <pr>&#xC0;od&#xED;xi&#x16B;s&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="odise.0ado">
@@ -49,7 +56,8 @@
   <snc mrk="odise.0ado.BELE">
     <uzo tip="fak">BELE</uzo>
     <dif>
-      Antikva greklingva epopeo, sekvo de <ref tip="vid" cel="iliad.0o">Iliado</ref>, rakontanta la aventuran
+      Antikva greklingva epopeo, sekvo de <ref tip="vid" cel="iliad.0o">Iliado</ref>, rakontanta la
+      aventuran
       hejmen&scirc;ipadon de <tld/>o post la milito kontra&ubreve; Trojo,
       atribuita al
       <ref tip="vid" cel="homer.0o">Homero</ref>.
@@ -64,11 +72,10 @@
         aperis:
         <ctl>3001, La lasta <tld/>ado</ctl>
         <fnt>
-          <aut>A. Tilmont</aut>
-          <vrk>Arthur C. Clarke, kosmopolita civitano kun okulo al la
-            universo</vrk>
-          <bib>Monato</bib>
-          <lok>1998:4, p. 9a</lok>
+        <aut>Anne Tilmont</aut> <vrk><url ref="&Monato;/1998/005932.php">Kosmopolita civitano kun
+        okulo al la universo</url></vrk>
+        <bib>Monato</bib>
+        <lok>1998/04, p. 9</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -82,16 +89,31 @@
   <trd lng="fr">Odyss&eacute;e</trd>
   <trd lng="hu">Od&uuml;sszeia</trd>
   <trd lng="it">Odissea</trd>
+  <trd lng="ja">&#x300E;<ind>&#x30AA;&#x30C7;&#x30E5;&#x30C3;&#x30BB;&#x30A4;&#x30A2;</ind>&#x300F;</trd>
   <trd lng="nl">Odysseia</trd>
   <trd lng="pl">Odyseja</trd>
   <trd lng="pt">Odiss&eacute;ia</trd>
   <trd lng="ru">&c_o;&c_d;&c_i;&c_s;&c_s;&c_je;&c_ja;</trd>
   <trd lng="sk">Ilias a Odyssea</trd>
-  <trd lng="uk">&#x41E;&#x434;&#x456;&#x441;&#x441;&#x435;&#x44F; (&#x43F;&#x43E;&#x435;&#x43C;&#x430; &#x413;&#x43E;&#x43C;&#x435;&#x440;&#x430;)</trd>
+  <trd lng="uk">&#x41E;&c_d;&c_ib;&c_s;&c_s;&c_je;&#x44F; (&#x43F;&#x43E;&c_je;&#x43C;&c_a; &c_G;&#x43E;&#x43C;&c_je;&c_r;&c_a;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5965;&#x5FB7;&#x8D5B; <pr>&#xE0;od&#xE9;s&#xE0;i</pr></trd>,
+    <trd>&#x5967;&#x5FB7;&#x8CFD; <pr>&#xE0;od&#xE9;s&#xE0;i</pr></trd>,
+    <trd>&#x5965;&#x5FB7;&#x8D5B; <pr>&#xC0;od&#xE9;s&#xE0;i</pr></trd>,
+    <trd>&#x5967;&#x5FB7;&#x8CFD; <pr>&#xC0;od&#xE9;s&#xE0;i</pr></trd>,
+    <trd>&#x9577;&#x9014;&#x6F02;&#x6CCA; <pr>ch&#xE1;ngt&#xFA;pi&#x101;ob&#xF3;</pr></trd>,
+    <trd>&#x957F;&#x9014;&#x6F02;&#x6CCA; <pr>ch&#xE1;ngt&#xFA;pi&#x101;ob&#xF3;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/09/04 18:29:18
+Wolfram Diestel: kor. ja ind
+
+versio 1.20 2023/05/16 09:25:49
+Paul Peeraerts: + lok, bib, aut
+
 Revision 1.17  2015/07/04 08:37:40  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -108,8 +130,5 @@ Revision 1.13  2009/11/03 17:30:32  revo
 Wieland Pusch: +trd bg
 
 Revision 1.12  2009/11/01 17:30:34  revo
-Antonio Codazzi: +trd it
-
-Revision 1.11  2006/09/14 16:31:38  revo
 -->
 </vortaro>

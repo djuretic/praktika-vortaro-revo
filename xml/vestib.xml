@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vestib.xml,v 1.22 2022/11/21 09:31:08 revo Exp $">
+<art mrk="$Id: vestib.xml,v 1.27 2023/12/18 18:30:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vestibl</rad>/o
@@ -11,53 +11,46 @@
   <snc mrk="vestib.0o.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
-      Enira parto de <ref tip="malprt" cel="dom.0o.konstruajxo">domo</ref>, 
+      Enira parto de <ref tip="malprt" cel="dom.0o.konstruajxo">domo</ref>,
       tra kiu oni atingas la &ccirc;ambrojn:
       <ekz>
         <nom>Ehud</nom> eliris en la <tld/>on, kaj fermis post si la pordon
-        <fnt>
-          <bib>MT</bib>
-          <lok>Ju&gcirc;istoj 3:23</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
+        <fnt><bib>MT</bib> <lok>&Jug; 3:23</lok></fnt>;
+      </ekz><ekz>
         li venigis min en la <tld/>on de la domo
-        <fnt>
-          <bib>MT</bib>
-          <lok>Je&hcirc;ezkel 40:48</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
+        <fnt><bib>MT</bib> <lok>&Jeh; 40:48</lok></fnt>;
+      </ekz><ekz>
         en la <tld/>oj la fenestroj estis direktitaj &ccirc;e &ccirc;iuj flankoj internen
-        <fnt>
-          <bib>MT</bib>
-          <lok>Je&hcirc;ezkel 40:16</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
+        <fnt><bib>MT</bib> <lok>&Jeh; 40:16</lok></fnt>;
+      </ekz><ekz>
         la &ccirc;ambro havis la aspekton de Holstinia <tld/>o
         <fnt>
           <bib>Fab1</bib>
           <lok>Galo&scirc;oj de feli&ccirc;o</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ili lo&gcirc;is en kelo <klr>[&#8230;]</klr>, al kiu la eniro kondukis tra pavimita <tld/>o
         <fnt>
           <bib>Fab2</bib>
           <lok>Malnova strata lanterno</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         tio estis granda <tld/>o, &ccirc;irka&ubreve;ita per kolonaro kaj pavumita per mozaiko
         <fnt>
           <bib>Far1</bib>
           <lok>&Ccirc;apitro XXIV</lok>
         </fnt>;
+      </ekz><ekz>
+        li <klr>[&#8230;]</klr> elpu&scirc;igas sin kune kun li en la <tld/>on
+        <fnt><bib>Revizoro</bib>, <lok>akto 4a, sceno 11a</lok></fnt>;
       </ekz>
       <ekz>
-        li <klr>[&#8230;]</klr> elpu&scirc;igas sin kune kun li en la <tld/>on
-        <fnt><bib>Revizoro</bib>, <lok>akto 4a, sceno 11a</lok></fnt>.
+        post tiu &ccirc;ambro sekvis alia, <klr>[&#8230;]</klr>, kiun ni trapasis por atingi
+        <tld/>egon kun marmora baseno muntita meze de la pavimo
+        <fnt>
+          <bib>StU</bib>
+          <lok>Al Romo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -66,27 +59,33 @@
     </refgrp>
     <refgrp tip="vid">
        <ref cel="akcept.0ejo">akceptejo</ref>,
+       <ref cel="galeri.0o.ARKI">galerio<sncref/></ref>,
        <ref cel="korido.0o.ARKI">koridoro<sncref/></ref>,
        <ref cel="pas.0ejo">pasejo</ref>
     </refgrp>
+    <rim>
+      Nur tiu &ccirc;i unua senco estas fundamenta.
+    </rim>
     <trdgrp lng="be">
       <trd>&c_v;&c_e;&c_s;&c_t;&c_y;&c_b;&c_ju;&c_l;&c_mol;</trd>,
       <trd>&c_p;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib; &c_p;&c_a;&c_k;&c_o;&c_j;</trd>
     </trdgrp>
     <trd lng="ca">rebedor</trd>
     <trdgrp lng="de">
-      <trd>Vestib&uuml;l</trd>,
-      <trd>Diele <klr>(Flur)</klr></trd>,
+      <trd><ofc>*</ofc>Hausflur</trd>,
+      <trd>Diele<klr> <klr>(Flur)</klr></klr></trd>,
+      <trd>Eingangsbereich</trd>,
       <trd>Flur</trd>,
+      <trd>Korridor</trd>,
       <trd>Vorraum</trd>,
-      <trd>Korridor</trd>
+      <trd>Vestib&uuml;l<klr> (arch.)</klr></trd>
     </trdgrp>
     <trd lng="el">
       &pi;&rho;&omikron;&theta;&alfa_ton;&lambda;&alfa;&my;&omikron;&sigma_fina;
     </trd>
     <trdgrp lng="en">
-      <trd>vestibule</trd>,
-      <trd>lobby</trd>,
+      <trd><ofc>*</ofc>vestibule</trd>,
+      <trd><ofc>*</ofc>lobby</trd>,
       <trd>entrance hall</trd>
     </trdgrp>
     <trdgrp lng="es">
@@ -95,7 +94,7 @@
     </trdgrp>
     <trdgrp lng="fr">
       <trd>entr&eacute;e<klr tip="amb"> (vestibule)</klr></trd>,
-      <trd>vestibule</trd>
+      <trd><ofc>*</ofc>vestibule</trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>el&odblac;csarnok</trd>,
@@ -108,6 +107,7 @@
       <trd>vestibule</trd>
     </trdgrp>
     <trdgrp lng="pl">
+      <trd><ofc>*</ofc>sie&nacute;</trd>,
       <trd>westybul</trd>,
       <trd>hol<klr>  (pomieszczenie)</klr></trd>,
       <trd>przedsionek</trd>
@@ -118,38 +118,35 @@
       <trd>vestibul</trd>
     </trdgrp>
     <trdgrp lng="ru">
-      <trd>&c_v;&c_je;&c_s;&c_t;&c_i;&c_b;&c_ju;&c_l;&c_mol;</trd>,
-      <trd>&c_p;&c_r;&c_i;&c_h;&c_o;&c_zh;&c_a;&c_ja;</trd>
+      <trd><ofc>*</ofc>&c_v;&c_je;&c_s;&c_t;&c_i;&c_b;&c_ju;&c_l;&c_mol;</trd>,
+      <trd><ofc>*</ofc>&c_s;&c_je;&c_n;&c_i;</trd>
     </trdgrp>
   </snc>
   <snc mrk="vestib.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Enira <ref tip="super" cel="kav.0o">kavo</ref> de pli granda kavo en kelkaj organoj: 
-      <ekz><ind>vagina <tld/>o</ind>
-        <trd lng="es">vest&iacute;bulo vaginal</trd>
-        <trd lng="it">vestibolo<klr tip="amb"> (della
-        vagina)</klr></trd>
-      </ekz> 
-      <ekz><ind>naza <tld/>o</ind>
+      Enira <ref tip="super" cel="kav.0o">kavo</ref> de pli granda kavo en kelkaj organoj:
+      <ekz>
+        <ind>naza <tld/>o</ind>
         <trd lng="es">vest&iacute;bulo nasal</trd>
         <trd lng="it">vestibolo<klr tip="amb"> (nasale)</klr></trd>
-      </ekz>
-      <ekz><ind>bu&scirc;a <tld/>o</ind>
+      </ekz><ekz>
+        <ind>bu&scirc;a <tld/>o</ind>
         <trd lng="es">vest&iacute;bulo bucal</trd>
         <trd lng="it">vestibolo<klr tip="amb"> (della bocca)</klr></trd>
-      </ekz>
-      <ekz>
-        vagina <tld/>o, en kiu komenci&gcirc;as la uretro kaj la vagino
+        <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_d;&c_v;&c_je;&c_r;&c_i;&c_je; &c_n;&c_o;&c_s;&c_a;</trd>
+      </ekz><ekz>
+        <ind>vagina <tld/>o</ind>, en kiu komenci&gcirc;as la uretro kaj la vagino
         <fnt>
           <vrk><url ref="&Viki;/Vulvo">Vulvo - Vikipedio</url></vrk>
         </fnt>;
-      </ekz>
-      <ekz>
+        <trd lng="es">vest&iacute;bulo vaginal</trd>
+        <trd lng="it">vestibolo<klr tip="amb"> (della vagina)</klr></trd>
+        <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_d;&c_v;&c_je;&c_r;&c_i;&c_je; &c_v;&c_l;&c_a;&c_g;&c_a;&c_l;&c_i;&c_shch;&c_a;</trd>
+      </ekz><ekz>
         &ccirc;e la supro de la kapo estas okulpunktoj, malsupre de kiuj estas <tld/>o kaj bu&scirc;o
         <fnt>
-          <vrk><url ref="&Viki;/Brankiostomo">Brankiostomo -
-          Vikipedio</url></vrk>
+          <vrk><url ref="&Viki;/Brankiostomo">Brankiostomo - Vikipedio</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -175,6 +172,10 @@
     <trd lng="es">vest&iacute;bulo<klr tip="amb"> (&oacute;rgano)</klr></trd>
     <trd lng="fr">vestibule<klr tip="amb"> (organe)</klr></trd>
     <trd lng="it">vestibolo<klr tip="amb"> (organo)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_r;&c_je;&c_d;&c_d;&c_v;&c_je;&c_r;&c_i;&c_je; &c_l;&c_a;&c_b;&c_i;&c_r;&c_i;&c_n;&c_t;&c_a;<klr> (&c_u;&c_h;&c_a;)</klr></trd>,
+      <trd>&c_v;&c_je;&c_s;&c_t;&c_i;&c_b;&c_u;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j; &c_a;&c_p;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
+    </trdgrp>
   </snc>
   <trd lng="ca">vest&iacute;bul</trd>
   <trdgrp lng="cs">
@@ -183,22 +184,40 @@
     <trd>vestibul</trd>,
     <trd>vestibulum</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#29572;&#38306;  <pr>&#12370;&#12435;&#12363;&#12435;</pr></trd>,
+    <trd>&#20837;&#21475;&#12398;&#24195;&#38291;  <pr>&#12356;&#12426;&#12368;&#12385;&#12398;&#12402;&#12429;&#12414;</pr></trd>,
+    <trd>&#12456;&#12531;&#12488;&#12521;&#12531;&#12473;&#12507;&#12540;&#12523;</trd>,
+    <trd>&#21069;&#24237;  <pr>&#12380;&#12435;&#12390;&#12356;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>predsie&ncaron;</trd>,
     <trd>vestibul</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_v;&c_je;&c_s;&c_t;&c_i;&c_b;&c_u;&#x43B;&#x44C;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_d;&#x43F;&#x43E;&#x43A;&c_ib;&c_j;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&c_h;&#x43E;&c_zh;&c_a; (&c_u; &c_z;&#x43D;&c_a;&c_ch;. &c_ib;&#x43C;.)</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_d;&#x43D;&#x44F; (&c_u; &c_z;&#x43D;&c_a;&c_ch;. &c_ib;&#x43C;.)</trd>,
-    <trd>&c_s;&c_ib;&#x43D;&c_i;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&c_s;&c_ib;&#x43D;&#x43E;&#x43A;</trd>
+    <trd>&c_v;&c_je;&c_s;&c_t;&c_i;&c_b;&c_u;&c_l;&c_mol;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_d;&c_p;&c_o;&c_k;&c_ib;&c_j;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_h;&c_o;&c_zh;&c_a; (&c_u; &c_z;&c_n;&c_a;&c_ch;. &c_ib;&c_m;.)</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_d;&c_n;&c_ja; (&c_u; &c_z;&c_n;&c_a;&c_ch;. &c_ib;&c_m;.)</trd>,
+    <trd>&c_s;&c_ib;&c_n;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_s;&c_ib;&c_n;&c_o;&c_k;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/12/18 18:30:20
+Wolfram Diestel: +ref, rim, ekz, *trd
+
+versio 1.26 2023/10/21 16:50:36
+revo: transskribo per <pr>
+
+versio 1.24 2023/07/24 20:27:24
+Ulrich Fellmann: vestiblo: +2 pliaj DE trdj + 3 rim
+
+versio 1.23 2023/03/20 19:23:35
+Sergio Pokrovskij: +trd=ru
+
 versio 1.22 2022/11/21 09:31:08
 Dmitri Gabinski: + trd be
 
@@ -206,20 +225,8 @@ versio 1.21 2022/05/06 12:17:22
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.20 2022/03/31 22:30:45
-Vito Redsky: + trd pl + trd ro 
+Vito Redsky: + trd pl + trd ro
 
 versio 1.18 2021/03/29 19:00:04
-Wolfram Diestel: ekz-oj, ref-oj, trd de
-
-Revision 1.16  2015/07/04 08:37:45  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/28 12:03:50  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.14  2012/08/13 08:10:18  revo
-Marc Rausell: + trd ca
-
-Revision 1.13  2009/04/17 19:48:50  revo
 -->
 </vortaro>

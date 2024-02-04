@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: atribu1.xml,v 1.31 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: atribu1.xml,v 1.36 2023/10/28 08:33:10 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>atribut</rad>/o
@@ -82,9 +82,11 @@
         <ekz>
           unu el la <tld/>oj de &jcirc;iloj estas simpla balaileto el salika&jcirc;oj
           <fnt>
-            <bib>Monato</bib>
-            <vrk><url ref="&Steloj;monato2/006955.html">BELGIO: Fama karnavalo en Binche</url></vrk>
-          </fnt>;
+          <aut>Maxime Lechien</aut>
+          <vrk><url ref="&Monato;/2000/006955.php">Fama karnavalo en Binche</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/06, p. 16</lok>
+        </fnt>;
         </ekz>
         <ekz>
           la pentra&jcirc;o memorigas pri <klr>[&#x2026;]</klr> krono, &ccirc;i tiu 
@@ -119,12 +121,21 @@
       </dif>
       <trd lng="pt">propriedade</trd>
     </subsnc>
-    <trd lng="pl">atrybut</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5C5E;&#x6027; <pr>sh&#x1D4;x&#xEC;ng</pr></trd>,
+    <trd>&#x5C6C;&#x6027; <pr>sh&#x1D4;x&#xEC;ng</pr></trd>,
+    <trd>&#x6863;&#x6848;&#x5C5E;&#x6027; <pr>d&#xE0;ng&#xE0;nsh&#x1D4;x&#xEC;ng</pr></trd>,
+    <trd>&#x6A94;&#x6848;&#x5C6C;&#x6027; <pr>d&#xE0;ng&#xE0;nsh&#x1D4;x&#xEC;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="atribu1.0o.GRA">
     <uzo tip="stl">EVI</uzo>
     <ref tip="dif" cel="predik2.0o">predikativo</ref>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5B9A;&#x8A9E; <pr>d&#xEC;ngy&#x1D4;</pr></trd>,
+    <trd>&#x5B9A;&#x8BED; <pr>d&#xEC;ngy&#x1D4;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_a;&c_t;&c_r;&c_y;&c_b;&c_u;&c_t;</trd>
   <trd lng="bg">&c_a;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;</trd>
   <trd lng="ca">atribut</trd>
@@ -140,17 +151,33 @@
   <trd lng="he">&tav;&#x5B0;&kaf;&vav;&#x5BC;&nun;&#x5B8;&he;</trd>
   <trd lng="hu">attrib&uacute;tum</trd>
   <trd lng="it">attributo</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C5E;&#x6027;  <pr>&#x305E;&#x304F;&#x305B;&#x3044;</pr></trd>,
+    <trd>&#x8868;&#x5FB4;  <pr>&#x3072;&#x3087;&#x3046;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x9650;&#x5B9A;&#x8A5E;  <pr>&#x3052;&#x3093;&#x3066;&#x3044;&#x3057;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">atrybut</trd>
+  <trd lng="ro">atribut</trd>
   <trd lng="ru">&c_a;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;</trd>
   <trdgrp lng="sk">
     <trd>atrib&uacute;t</trd>,
     <trd>pr&iacute;znak</trd>,
     <trd>vlastnos&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&#x430;&#x442;&#x440;&#x438;&#x431;&#x443;&#x442;</trd>
+  <trd lng="uk">&c_a;&c_t;&c_r;&c_i;&c_b;&c_u;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.33 2023/04/14 14:27:29
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.32 2023/02/04 23:26:40
+Vito Redsky: +trd pl + trd ro
+
 versio 1.31 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -164,14 +191,5 @@ versio 1.26 2020/03/23 00:10:44
 James Rezende Piton: +trd pt
 
 Revision 1.25  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.24  2015/06/28 12:03:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.23  2014/01/10 14:10:18  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2013/08/14 11:10:12  revo
 -->
 </vortaro>

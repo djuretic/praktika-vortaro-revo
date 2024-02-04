@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: artile.xml,v 1.21 2022/03/12 13:22:01 revo Exp $">
+<art mrk="$Id: artile.xml,v 1.25 2023/10/28 08:33:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>artileri</rad>/o <fnt><bib>PV</bib></fnt>
@@ -15,17 +15,42 @@
       Diversaj <ref tip="prt" cel="paf.0ilego">pafilegoj</ref>
       kaj negrandaj raketoj servantaj por la milito:
       <ekz>
-        armeo abunde provizita per <tld/>o.
+        armeo abunde provizita per <tld/>o;
+      </ekz>
+      <ekz>
+        la soldatoj de la galeroj pafis per multnombra <tld/>o, al kiu respondadis tiuj,
+        kiuj estis en la muregoj kaj fortika&jcirc;oj de la urbo kaj la peza <tld/>o
+        rompadis la ventojn kun terura bruego, al kiu respondadis la ferdekaj kanonoj
+        de la galeroj
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu amaso estis <klr>[&#x2026;]</klr> forlasanta <klr>[&#x2026;]</klr> tiom rapide, kvaza&ubreve;
+        <klr>[&#x2026;]</klr> oni atendus <tld/>an bombardon
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trd lng="zh">&#x91CD;&#x70AE; <pr>zh&#xF2;ngp&#xE0;o</pr></trd>
+</snc>
   <snc mrk="artile.0o.MIL_trupo">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Speciala parto de armeo, provizita je <tld/>aj pecoj kaj
+      Speciala parto de <ref tip="malprt" cel="arme.0o.sxtata">armeo</ref>, provizita je <tld/>aj armiloj kaj
       priservanta ilin:
       <ekz>
         baterio de <tld/>o;
+      </ekz>
+      <ekz>
+        le&ubreve;tenanto de l&#x2019; <tld/>o
+        <fnt>
+          <bib>IKr</bib>
+          <lok>Neniam Plu!</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mia <tld/>o premplatigos vin!
@@ -37,6 +62,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="arme.ter0o">terarmeo</ref>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_t;&c_y;&c_l;&c_je;&c_r;&c_y;&c_ja;</trd>
   <trd lng="bg">&c_a;&c_r;&c_t;&c_i;&c_l;&c_je;&c_r;&c_i;&c_ja;</trd>
@@ -49,8 +75,13 @@
   <trd lng="en">artillery</trd>
   <trd lng="es">artiller&iacute;a</trd>
   <trd lng="fr">artillerie</trd>
-  <trd lng="he">&#x5D0;&#x5B8;&#x5E8;&#x5B0;&#x5D8;&#x5B4;&#x5D9;&#x5DC;&#x5B6;&#x5E8;&#x5B4;&#x5D9;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&alef;&#x5B8;&resh;&#x5B0;&tet;&#x5B4;&yod;&lamed;&#x5B6;&resh;&#x5B4;&yod;&#x5B8;&he;</trd>
   <trd lng="it">artiglieria</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7832;  <pr>&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x5927;&#x7832;  <pr>&#x305F;&#x3044;&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x7832;&#x5175;&#x968A;  <pr>&#x307B;&#x3046;&#x3078;&#x3044;&#x305F;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">artillerie</trd>
   <trd lng="ru">&c_a;&c_r;&c_t;&c_i;&c_l;&c_l;&c_je;&c_r;&c_i;&c_ja;</trd>
   <trdgrp lng="sk">
@@ -58,7 +89,7 @@
     <trd>delostrelectvo</trd>
   </trdgrp>
   <trd lng="sv">artilleri</trd>
-  <trd lng="uk">&#x432;&#x456;&#x439;&#x441;&#x44C;&#x43A;.&#xA0;&#x430;&#x440;&#x442;&#x438;&#x43B;&#x435;&#x440;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_v;&c_ib;&c_j;&c_s;&c_mol;&c_k;.&nbsp;&c_a;&c_r;&c_t;&c_i;&c_l;&c_je;&c_r;&c_ib;&c_ja;</trd>
 </drv>
 
 <drv mrk="artile.0ano">
@@ -66,9 +97,14 @@
   <snc mrk="artile.0ano.MIL">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      <tld/>a soldato.
+      <tld lit="A"/>a <ref tip="super" cel="soldat.0o.militisto">soldato</ref>.
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x70AE;&#x5175; <pr>p&#xE0;ob&#x12B;ng</pr></trd>,
+    <trd>&#x70AE;&#x624B; <pr>p&#xE0;osh&#x1D2;u</pr></trd>,
+    <trd>&#x7832;&#x624B; <pr>p&#xE0;osh&#x1D2;u</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_a;&c_r;&c_t;&c_y;&c_l;&c_je;&c_r;&c_y;&c_s;&c_t;</trd>
   <trd lng="bg">&c_a;&c_r;&c_t;&c_i;&c_l;&c_je;&c_r;&c_i;&c_s;&c_t;</trd>
   <trd lng="ca">artiller</trd>
@@ -80,8 +116,9 @@
   <trd lng="en">artilleryman</trd>
   <trd lng="es">artillero</trd>
   <trd lng="fr">artilleur</trd>
-  <trd lng="he">&#x5EA;&#x5D5;&#x5B9;&#x5EA;&#x5B0;&#x5D7;&#x5B8;&#x5DF;</trd>
+  <trd lng="he">&tav;&vav;&#x5B9;&tav;&#x5B0;&het;&#x5B8;&fnun;</trd>
   <trd lng="it">artiglieriere</trd>
+  <trd lng="ja">&#x7832;&#x5175;  <pr>&#x307B;&#x3046;&#x3078;&#x3044;</pr></trd>
   <trd lng="nl">artillerist</trd>
   <trd lng="ru">&c_a;&c_r;&c_t;&c_i;&c_l;&c_l;&c_je;&c_r;&c_i;&c_s;&c_t;</trd>
   <trd lng="sk">delostrelec</trd>
@@ -90,6 +127,12 @@
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.22 2022/12/09 07:22:52
+Wolfram Diestel: +ekz-oj, ref
+
 Revision 1.18  2015/07/04 08:37:30  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -106,8 +149,5 @@ Revision 1.14  2012/02/03 01:10:14  revo
 Antonio Codazzi: +trd it
 
 Revision 1.13  2007/05/22 16:31:04  revo
-Wieland Pusch: +trd de
-
-Revision 1.12  2004/09/06 16:39:13  revo
 -->
 </vortaro>

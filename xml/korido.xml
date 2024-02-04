@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: korido.xml,v 1.37 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: korido.xml,v 1.41 2023/12/03 09:58:58 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>koridor</rad>/o <fnt><bib>PV</bib></fnt>
@@ -164,7 +163,8 @@
        Strio de teritorio, kiu trairas la teritorion de
        alia &scirc;tato, ordinare por ebligi trairon al la maro:
         <ekz>
-          <nom>Rail Baltica</nom> estas parto de la internacia transporta <tld/>o <nom>North Sea-Baltic</nom>, 
+          <nom>Rail Baltica</nom> estas parto de la internacia transporta <tld/>o <nom>North
+          Sea-Baltic</nom>, 
           kiu kunligos la landojn de Benelukso, Germanion, Pollandon kaj Litovion, kaj 
           sekve Latvion, Estonion kaj Finnlandon
           <fnt>
@@ -273,10 +273,23 @@
     <trd>koridor</trd>
   </trdgrp>
   <trd lng="fr">couloir</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5ECA;&#x4E0B;  <pr>&#x308D;&#x3046;&#x304B;</pr></trd>,
+    <trd>&#x901A;&#x5ECA;  <pr>&#x3064;&#x3046;&#x5ECA;</pr></trd>,
+    <trd>&#x56DE;&#x5ECA;  <pr>&#x304B;&#x3044;&#x308D;&#x3046;</pr></trd>,
+    <trd>&#x56DE;&#x5ECA;&#x5730;&#x5E2F;  <pr>&#x304B;&#x3044;&#x308D;&#x3046;&#x3061;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x8ECA;&#x7DDA;  <pr>&#x3057;&#x3083;&#x305B;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>chodba</trd>,
     <trd>kulo&aacute;r</trd>,
     <trd>&uacute;zemn&yacute; p&aacute;s</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x752C;&#x9053; <pr>y&#x1D2;ngd&#xE0;o</pr></trd>,
+    <trd>&#x8D70;&#x5ECA; <pr>z&#x1D2;ul&#xE1;ng</pr></trd>,
+    <trd>&#x901A;&#x9053; <pr>t&#x14D;ngd&#xE0;o</pr></trd>,
+    <trd>&#x8FC7;&#x9053; <pr>gu&#xF2;d&#xE0;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -337,7 +350,13 @@
       </ekz>
     </dif>
     <trd lng="de">Fahrspur</trd>
-  </snc>
+    <trd lng="en">lane</trd>
+    <trdgrp lng="zh">
+    <trd>&#x5C0F;&#x8DEF; <pr>xi&#x1CE;ol&#xF9;</pr></trd>,
+    <trd>&#x5DF7; <pr>xi&#xE0;ng</pr></trd>,
+    <trd>&#x884C;&#x8ECA;&#x8ECC;&#x8DE1; <pr>x&#xED;ngch&#x113;gu&#x1D0;j&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="cs">pr&uring;jezd</trd>
   <trd lng="fr">voie<klr> (partie de chauss&eacute;e)</klr></trd>
   <trd lng="pl">pas <ind>ruchu</ind></trd>
@@ -346,6 +365,12 @@
 </art>
 <!--
 $Log$
+versio 1.40 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
+versio 1.38 2023/05/28 23:25:36
+Bradford Carl Smith: Aldonu la anglan por "veturkoridoro"
+
 versio 1.37 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -362,11 +387,5 @@ Revision 1.32  2015/07/04 08:37:38  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.31  2015/06/29 16:33:18  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.30  2013/04/11 11:10:15  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.29  2012/03/11 19:10:10  revo
 -->
 </vortaro>

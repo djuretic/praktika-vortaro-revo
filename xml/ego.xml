@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ego.xml,v 1.34 2022/04/27 14:38:53 revo Exp $">
+<art mrk="$Id: ego.xml,v 1.38 2023/11/07 19:22:22 revo Exp $">
 <!-- la varia&jcirc;oj egoism/o kaj egoist/o estas intence malsupre &ccirc;i, por
 aldoni la oficialajn
      radikojn egoism/ kaj egoist/ la&ubreve; 1a OA, kaj samtempe montri ke ni
@@ -78,11 +78,11 @@ aldoni la oficialajn
         proksimajn keltajn parencojn por &scirc;veligi siajn <tld/>ojn kaj
         bank-kontojn
         <fnt>
-          <bib>Monato</bib>
           <aut>W. H. Simcock</aut>
-          <vrk><url ref="&Steloj;monato2/007111.html">Kla(&ubreve;)nado
-          inter la montoj</url></vrk>
-        </fnt>.
+            <vrk><url ref="&Monato;/2000/007111.php">Kla(&ubreve;)nado inter la montoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 13</lok>
+          </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -96,11 +96,15 @@ aldoni la oficialajn
   </trdgrp>
   <trd lng="de">Ego</trd>
   <trd lng="he">&#x5D0;&#x5B8;&#x5E0;&#x5D5;&#x5B9;&#x5DB;&#x5B4;&#x5D9;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30A8;&#x30B4;&#x30A4;&#x30B9;&#x30C8;</trd>,
+    <trd>&#x5229;&#x5DF1;&#x4E3B;&#x7FA9;&#x8005;  <pr>&#x308A;&#x3053;&#x3057;&#x3085;&#x304E;&#x3057;&#x3083;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>ego</trd>,
     <trd>subjekt&iacute;vne ja</trd>
   </trdgrp>
-  <trd lng="uk">&#x435;&#x433;&#x43E;&#x457;&#x441;&#x442;</trd>
+  <trd lng="uk">&c_je;&c_g;&#x43E;&c_ji;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="ego.0ismo">
@@ -176,7 +180,11 @@ aldoni la oficialajn
       <trd>egoism</trd>,
       <trd>sj&auml;lviskhet</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x81EA;&#x79C1;&#x81EA;&#x5229; <pr>z&#xEC;s&#x12B;z&#xEC;l&#xEC;</pr></trd>,
+    <trd>&#x5229;&#x5DF1;&#x4E3B;&#x4E49; <pr>l&#xEC;j&#x1D0;zh&#x1D4;y&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>egoizmus</trd>,
     <trd>j&aacute;stv&iacute;</trd>,
@@ -244,6 +252,10 @@ aldoni la oficialajn
   <trdgrp lng="sk">
     <trd>samo&lcaron;&uacute;by</trd>,
     <trd>sebeck&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x79C1;&#x5FC3; <pr>s&#x12B;x&#x12B;n</pr></trd>,
+    <trd>&#x5229;&#x5DF2; <pr>l&#xEC;y&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -444,6 +456,10 @@ aldoni la oficialajn
     <trd>samo&lcaron;&uacute;by</trd>,
     <trd>sebeck&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x79C1;&#x5FC3; <pr>s&#x12B;x&#x12B;n</pr></trd>,
+    <trd>&#x5229;&#x5DF2; <pr>l&#xEC;y&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ego.mal0ismo">
@@ -488,6 +504,12 @@ aldoni la oficialajn
   <trdgrp lng="sk">
     <trd>altruizmus</trd>,
     <trd>nesebectvo</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5229;&#x4ED6;&#x4E3B;&#x4E49; <pr>l&#xEC;t&#x101;zh&#x1D4;y&#xEC;</pr></trd>,
+    <trd>&#x4E0D;&#x81EA;&#x79C1; <pr>b&#xFA;z&#xEC;s&#x12B;</pr></trd>,
+    <trd>&#x65E0;&#x6B32; <pr>w&#xFA;y&#xF9;</pr></trd>,
+    <trd>&#x65E0;&#x79C1; <pr>w&#xFA;s&#x12B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -538,6 +560,7 @@ aldoni la oficialajn
     <trd>samo&lcaron;&uacute;by</trd>,
     <trd>sebeck&yacute;</trd>
   </trdgrp>
+  <trd lng="zh">&#x81EA;&#x6211;&#x7684; <pr>z&#xEC;w&#x1D2;de</pr></trd>
 </drv>
 
 <drv mrk="ego.0centrismo">
@@ -568,6 +591,7 @@ aldoni la oficialajn
   <trd lng="pl">egocentryzm</trd>
   <trd lng="ru">&c_e;&c_g;&c_o;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_z;&c_m;</trd>
   <trd lng="sk">egocentrizmus</trd>
+  <trd lng="zh">&#x81EA;&#x6211;&#x4E2D;&#x5FC3;&#x4E3B;&#x4E49; <pr>z&#xEC;w&#x1D2;zh&#x14D;ngx&#x12B;nzh&#x1D4;y&#xEC;</pr></trd>
 </drv>
 <rim>
   &Ccirc;i tiu radiko estas sufi&ccirc;e nova krea&jcirc;o. &Gcirc;i
@@ -589,6 +613,12 @@ aldoni la oficialajn
 </art>
 <!--
 $Log$
+versio 1.37 2023/10/14 15:34:33
+revo: transskribo per <pr>
+
+versio 1.35 2023/04/30 07:23:23
+Paul Peeraerts: Steloj -> monato
+
 versio 1.34 2022/04/27 14:38:53
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -605,11 +635,5 @@ Revision 1.27  2019/11/16 06:10:14  revo
 Aleks Andre: en
 
 Revision 1.26  2018/05/13 20:10:21  revo
-Benoit Soubeyran: + he
-
-Revision 1.25  2015/07/04 08:37:33  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.24  2015/06/29 16:29:37  revo
 -->
 </vortaro>

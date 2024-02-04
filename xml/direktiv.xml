@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: direktiv.xml,v 1.8 2022/06/20 16:48:06 revo Exp $">
+<art mrk="$Id: direktiv.xml,v 1.13 2023/11/04 14:29:02 revo Exp $">
 <kap>
   <rad>direktiv</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -13,10 +13,11 @@
       <ekz>
         la EU-&scirc;tatoj papage obeas la <tld/>ojn el Bruselo
         <fnt>
-          <bib>Monato</bib>
           <aut>Bertil Englund</aut>
-          <vrk><url ref="&Steloj;monato2/007035.html">Elefanto en porcelanbutiko</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007035.php">Elefanto en porcelanbutiko</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/07, p. 4</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <tld/>o de Vatikano, kiu permesas al pastroj, kiuj ne toleras alkoholon, nur
@@ -29,8 +30,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        iam ili renkonti&gcirc;adis kaj paroladis pri sia afero, ricevante 
-        novajn <tld/>ojn, post kio ili direktadis sin en lokojn, iel 
+        iam ili renkonti&gcirc;adis kaj paroladis pri sia afero, ricevante
+        novajn <tld/>ojn, post kio ili direktadis sin en lokojn, iel
         rilatajn al ilia tasko
         <fnt>
           <aut>A. Grin, trad. J. Finkel</aut>,
@@ -65,10 +66,11 @@
         <tld/>o, <ref cel="decid.0o">decido</ref> kaj <ref cel="rekome.0o">rekomendo</ref> en
         &jcirc;urnaloj, sed ne klaras al &ccirc;iuj, kiel ili rangas inter si
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/007040.html">E&ubreve;ropa juro por &ccirc;iuj</url></vrk>
-        </fnt>.
+          <aut>Jimmy Stryhn Meyer</aut>
+            <vrk><url ref="&Monato;/2000/007040.php">E&ubreve;ropa juro por &ccirc;iuj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 26</lok>
+          </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -76,6 +78,11 @@
       <ref cel="ordon.0o">ordono</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_y;&c_r;&c_e;&c_k;&c_t;&c_y;&c_v;&c_a;</trd>,
+    <trd>&c_ib;&c_n;&c_s;&c_t;&c_r;&c_u;&c_k;&c_c;&c_y;&c_ja;</trd>,
+    <trd>&c_n;&c_a;&c_k;&c_a;&c_z;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>instrukce</trd>,
     <trd>pokyn</trd>,
@@ -89,6 +96,10 @@
     <trd>Leitfaden</trd>
   </trdgrp>
   <trd lng="fr">directive</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6307;&#x4EE4;  <pr>&#x3057;&#x308C;&#x3044;</pr></trd>,
+    <trd>&#x6307;&#x793A;  <pr>&#x3057;&#x3058;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>pokyn</trd>,
     <trd>smernica</trd>,
@@ -99,11 +110,25 @@
     <trd>&c_v;&#x43A;&c_a;&c_z;&c_ib;&c_v;&#x43A;&c_a;</trd>,
     <trd>&#x43D;&c_a;&c_s;&c_t;&c_a;&#x43D;&#x43E;&c_v;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x547D;&#x4EE4; <pr>m&#xEC;ngl&#xEC;ng</pr></trd>,
+    <trd>&#x7DDA;&#x8AD6; <pr>xi&#xE0;nl&#xF9;n</pr></trd>,
+    <trd>&#x532F;&#x7968; <pr>hu&#xEC;pi&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.12 2023/10/14 11:26:54
+revo: transskribo per <pr>
+
+versio 1.10 2023/08/01 08:30:58
+Dmitri Gabinski: + trd be
+
+versio 1.9 2023/04/30 06:30:30
+Paul Peeraerts: Steloj -> monato
+
 versio 1.8 2022/06/20 16:48:06
 Wolfram Diestel: +trd de
 
@@ -117,9 +142,5 @@ Revision 1.3  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.2  2015/06/29 16:29:37  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.1  2014/03/12 21:10:22  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

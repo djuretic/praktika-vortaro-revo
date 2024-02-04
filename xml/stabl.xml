@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: stabl.xml,v 1.26 2022/05/05 14:43:48 revo Exp $">
+<art mrk="$Id: stabl.xml,v 1.32 2024/01/25 21:21:02 revo Exp $">
 <kap>
    <ofc>*</ofc>
-   <rad>stabl</rad>/o <fnt><bib>PV</bib></fnt> 
+   <rad>stabl</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="stabl.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -12,10 +12,10 @@
     <dif>
       <ref tip="super" cel="tabl.0o">Tablo</ref> por metia laboro; metitablo:
       <ekz>
-        la potisto <klr>[&#x2026;]</klr> laboras sur la <tld/>o
+        la potisto <klr>[&#8230;]</klr> laboras sur la <tld/>o
         <fnt>
           <bib>MT</bib>
-          <lok>Jeremia 18:3</lok>
+          <lok>&Jer; 18:3</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -45,7 +45,7 @@
         <tld/>oj de teksistoj, juvelistoj, &scirc;uistoj
         <fnt>
           <bib>Far1</bib>
-          <lok>&Ccirc;apitro XIX</lok>
+          <lok>&Ccirc;apitro 19a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -55,6 +55,7 @@
           <lok>Gefian&ccirc;oj</lok>
         </fnt>.
         <trd lng="de">Drehbank</trd>
+        <trd lng="fr">tour de potier</trd>
         <trd lng="hu">esztergapad</trd>
       </ekz>
      </dif>
@@ -116,10 +117,10 @@
      </subsnc>
      <subsnc mrk="stabl.0o.pentrajxo">
        <dif>
-         Movebla tripieda a&ubreve; kvarpieda kunmeta&jcirc;o el trabetoj 
+         Movebla tripieda a&ubreve; kvarpieda kunmeta&jcirc;o el trabetoj
          por subporti prilaboratan pentra&jcirc;on; pentro<tld/>o:
         <ekz>
-          la pentristo <klr>[&#x2026;]</klr> staris la tutan tempon, kiu estis bezonata por
+          la pentristo <klr>[&#8230;]</klr> staris la tutan tempon, kiu estis bezonata por
           aran&gcirc;i la <tld/>on
           <fnt>
             <bib>Fab1</bib>
@@ -127,17 +128,19 @@
           </fnt>.
         </ekz>
        </dif>
+ <!-- kontrolinda
     <rim>
       En teksto de 1896 trovi&gcirc;as la vorto &leftquot;staflio&rightquot;:
       <ekz>
         granda amaso da pentra&jcirc;oj, kiuj kovris la stafliojn kaj starigilojn
         <fnt>
           <aut>Valdemar Langlet</aut>
-          <vrk><url ref="https://tekstaro.com/t?nomo=vojaghimpresoj">Voja&gcirc;impresoj</url></vrk>
-          <lok>&Ccirc;e A&hcirc;med&#x2019; Pa&scirc;a&#x2019;, la granda pentristo</lok>
+          <vrk><url ref="&Tekstaro;?nomo=vojaghimpresoj">Voja&gcirc;impresoj</url></vrk>
+          <lok>&Ccirc;e A&hcirc;med&#8217; Pa&scirc;a&#8217;, la granda pentristo</lok>
         </fnt>.
       </ekz>
     </rim>
+ -->
        <trd lng="be">&c_m;&c_a;&c_l;&c_mol;&c_b;&c_e;&c_r;&c_t;</trd>
        <trd lng="bg">&c_t;&c_r;&c_i;&c_n;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
        <trd lng="ca">cavallet <klr>(per a teles)</klr></trd>
@@ -157,12 +160,24 @@
     <trd>d&iacute;lensk&yacute; st&uring;l</trd>,
     <trd>koza</trd>,
     <trd>podstavec</trd>,
-    <trd>podstavec</trd>,
     <trd>pracovn&iacute; deska</trd>,
     <trd>pracovn&iacute; st&uring;l</trd>,
     <trd>stojan</trd>
   </trdgrp>
   <trd lng="es">chevalet</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4ED5;&#x4E8B;&#x53F0;  <pr>&#12375;&#12372;&#12392;&#12384;&#12356;</pr></trd>,
+    <trd>&#x4F5C;&#x696D;&#x53F0;  <pr>&#12373;&#x304E;&#12423;&#12358;&#12384;&#12356;</pr></trd>,
+    <trd>&#x53F0;  <pr>&#x305F;&#12356;</pr></trd>,
+    <trd>&#x67B6;&#x53F0;  <pr>&#x304B;&#12384;&#12356;</pr></trd>,
+    <trd>&#x69CB;&#x811A;  <pr>&#x304B;&#x307E;&#12354;&#12375;</pr></trd>,
+    <trd>&#x753B;&#x67B6;  <pr>&#x304C;&#x304B;</pr></trd>,
+    <trd>&#x30A4;&#x30FC;&#x30BC;&#x30EB;</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sztaluga</trd>,
+    <trd>warsztat  <klr>(st&oacute;&lstroke; roboczy)</klr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>le&scaron;enie</trd>,
     <trd>podstavec <klr>(hoblice)</klr></trd>,
@@ -171,10 +186,10 @@
     <trd>stojan</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x435;&#x440;&#x441;&#x442;&#x430;&#x442;</trd>,
-    <trd>&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x43A;</trd>,
-    <trd>&#x43C;&#x43E;&#x43B;&#x44C;&#x431;&#x435;&#x440;&#x442;</trd>,
-    <trd>&#x43A;&#x43E;&#x437;&#x43B;&#x438;</trd>
+    <trd>&c_v;&c_je;&c_r;&c_s;&c_t;&c_a;&c_t;</trd>,
+    <trd>&c_s;&c_t;&c_a;&#x43D;&#x43E;&#x43A;</trd>,
+    <trd>&#x43C;&#x43E;&#x43B;&#x44C;&c_b;&c_je;&c_r;&c_t;</trd>,
+    <trd>&#x43A;&#x43E;&c_z;&#x43B;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -208,12 +223,59 @@
     </dif>
     <trd lng="de">Flie&szlig;band</trd>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_n;&c_v;&c_e;&c_je;&c_r;</trd>
   <trd lng="fr">chaine de production</trd>
-  <trd lng="uk">&#x43A;&#x43E;&#x43D;&#x432;&#x435;&#x454;&#x440;</trd>
+  <trd lng="ja">&#x30D9;&#x30EB;&#x30C8;&#x30B3;&#x30F3;&#x30D9;&#x30A2;</trd>
+  <trd lng="pl">linia monta&zdot;owa</trd>
+  <trd lng="uk">&#x43A;&#x43E;&#x43D;&c_v;&c_je;&c_jeu;&c_r;</trd>
+</drv>
+
+<drv mrk="stabl.kuirej0o">
+  <kap>kuirej<tld/>o, <var><kap>kuireja <tld/>o</kap></var></kap>
+  <snc mrk="stabl.kuirej0o.KUI">
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      Stablo kun plato por pretigo de man&gcirc;a&jcirc;oj, ofte anka&ubreve; enhavanta
+      kuiraparatojn, bretojn kaj aliajn aran&gcirc;a&jcirc;ojn:
+      <ekz>
+        la terpomvendisto, granda kaj forta virego, metis keston da terpomoj sur la kuirej<tld/>on
+        <fnt>
+          <aut>T. Menge, trad. M. Kardol</aut>
+          <vrk><url ref="https://tmenger.emjeka.nl/NeTiamNeNunNeniam/cap6.html">
+          Ne Tiam, Ne Nun, Neniam</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        servistinoj <klr>[&#8230;]</klr> plenumis sian &ccirc;iutagan taskaron &ccirc;e la kuireja <tld/>o
+        <fnt>
+          <aut>M. Opri&#539;&abreve;, trad. I. One&#539;</aut>
+          <vrk>Kaliban', iru al la biblioteko!</vrk>
+          <lok>Beletra Almanako, 2016-06 (26)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">plan de travail</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2024/01/25 21:21:02
+Jeromo Vasxe: + kuirej~o
+
+versio 1.31 2023/10/21 07:46:48
+revo: transskribo per <pr>
+
+versio 1.30 2023/10/07 21:20:48
+Vito Redsky: +trd pl
+
+versio 1.28 2023/07/28 09:25:16
+Dmitri Gabinski: + trd be
+
+versio 1.27 2023/05/06 14:26:05
+revo: aktualigo URL-unuoj
+
 versio 1.26 2022/05/05 14:43:48
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -221,20 +283,5 @@ versio 1.23 2021/01/05 19:04:37
 Wolfram Diestel: +ekz-oj
 
 versio 1.22 2021/01/05 06:58:58
-Wolfram Diestel: +rim staflio
-
-Revision 1.20  2015/08/18 17:10:14  revo
-Joop Eggen: +trd bg
-
-Revision 1.19  2015/07/04 08:37:44  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2015/04/04 13:10:16  revo
-Jeromo Vasxe: snc/subsnc + 1 trd fr
-
-Revision 1.16  2011/12/05 23:10:13  revo
 -->
 </vortaro>

@@ -1,74 +1,103 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: anhel.xml,v 1.22 2022/03/12 10:16:47 revo Exp $">
+<art mrk="$Id: anhel.xml,v 1.27 2023/10/28 08:33:06 revo Exp $">
 <kap>
   <rad>anhel</rad>/i
+  <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="anhel.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="anhel.0i.KOMUNE">
     <dif>
-      Malfacile kaj forte spiri:
+      <ref tip="dif" cel="spir.0egi">Spiregi</ref> kun malfermita bu&scirc;o:
       <ekz>
-        <tld/>i pro kurado.
+        li <tld/>is, sur la monteton li ne pa&scirc;e iris sed kuris
+        <fnt>
+          <bib>MkM</bib>
+          <lok>16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>is kaj &scirc;vitis, kaj sub la &scirc;ar&gcirc;o de siaj perlo&ccirc;enoj, orgarna&jcirc;oj kaj
+        briliantbro&ccirc;oj &scirc;i &scirc;ajnis preska&ubreve; kolapsi
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 10</lok>
+        </fnt>.
       </ekz>
     </dif>
-  <trdgrp lng="be">
-    <trd>&c_c;&c_ja;&c_zh;&c_k;&c_a;
-    <ind>&c_d;&c_y;&c_h;&c_a;&c_c;&c_mol;</ind></trd>,
-    <trd>&c_z;&c_a;&c_d;&c_y;&c_h;&c_a;&c_c;&c_c;&c_a;</trd>
-  </trdgrp>
-  <trd lng="bg">&c_v;&c_l;&c_a;&c_ch;&c_a;</trd>
-  <trd lng="ca">esbufegar</trd>
-  <trdgrp lng="cs">
-    <trd>popadat dech</trd>,
-    <trd>s&iacute;pat</trd>,
-    <trd>ud&yacute;chat se</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>hecheln</trd>,
-    <trd>au&szlig;er <ind>Atem</ind> sein</trd>,
-    <trd>hyperventilieren</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>hyperventilate</trd>,
-    <trd>puff</trd>,
-    <trd>pant</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>jadear<klr> (por un ejercicio intenso)</klr></trd>,
-    <trd>hiperventilar<klr> (respirar anormalmente
-    r&aacute;pido)</klr></trd>,
-    <trd>anhelar<klr> (en desuso)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>haleter</trd>,
-    <trd>&ecirc;tre essouffl&eacute;</trd>
-  </trdgrp>
-  <trd lng="hu">liheg</trd>
-  <trd lng="nl">hijgen</trd>
-  <trdgrp lng="pl">
-    <trd>sapa&cacute;</trd>,
-    <trd>dysze&cacute;</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_t;&c_ja;&c_zh;&c_je;&c_l;&c_o;
-    &c_d;&c_y;&c_sh;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_s;&c_t;&c_r;&c_a;&c_d;&c_a;&c_t;&c_mol;
-    &c_o;&c_d;&c_y;&c_sh;&c_k;&c_o;&c_j;</trd>
-  </trdgrp>
-  <trdgrp lng="sk">
-    <trd>dych&ccaron;a&tcaron;</trd>,
-    <trd>lapa&tcaron; dych</trd>,
-    <trd>zad&yacute;cha&tcaron; sa</trd>
-  </trdgrp>
+    <refgrp tip="vid">
+      <ref cel="sterto.0o">stertori</ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_c;&c_ja;&c_zh;&c_k;&c_a;
+      <ind>&c_d;&c_y;&c_h;&c_a;&c_c;&c_mol;</ind></trd>,
+      <trd>&c_z;&c_a;&c_d;&c_y;&c_h;&c_a;&c_c;&c_c;&c_a;</trd>
+    </trdgrp>
+    <trd lng="bg">&c_v;&c_l;&c_a;&c_ch;&c_a;</trd>
+    <trd lng="ca">esbufegar</trd>
+    <trdgrp lng="cs">
+      <trd>popadat dech</trd>,
+      <trd>s&iacute;pat</trd>,
+      <trd>ud&yacute;chat se</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>keuchen</trd>,
+      <trd>hecheln</trd>,
+      <trd>au&szlig;er <ind>Atem</ind> sein</trd>,
+      <trd>japsen</trd>,
+      <trd>hyperventilieren</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>hyperventilate</trd>,
+      <trd>puff</trd>,
+      <trd>pant</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>jadear<klr> (por un ejercicio intenso)</klr></trd>,
+      <trd>hiperventilar<klr> (respirar anormalmente
+      r&aacute;pido)</klr></trd>,
+      <trd>anhelar<klr> (en desuso)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>haleter</trd>,
+      <trd>&ecirc;tre essouffl&eacute;</trd>
+    </trdgrp>
+    <trd lng="hu">liheg</trd>
+    <trd lng="nl">hijgen</trd>
+    <trdgrp lng="pl">
+      <trd>sapa&cacute;</trd>,
+      <trd>dysze&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_t;&c_ja;&c_zh;&c_je;&c_l;&c_o;
+      &c_d;&c_y;&c_sh;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_s;&c_t;&c_r;&c_a;&c_d;&c_a;&c_t;&c_mol;
+      &c_o;&c_d;&c_y;&c_sh;&c_k;&c_o;&c_j;</trd>
+    </trdgrp>
+    <trdgrp lng="sk">
+      <trd>dych&ccaron;a&tcaron;</trd>,
+      <trd>lapa&tcaron; dych</trd>,
+      <trd>zad&yacute;cha&tcaron; sa</trd>
+    </trdgrp>
   </snc>
-  <trd lng="he">&#x5DC;&#x5E0;&#x5E9;&#x5D5;&#x5DD; &#x5D1;&#x5DB;&#x5D1;&#x5D3;&#x5D5;&#x5EA;</trd>
+  <trd lng="he">&lamed;&nun;&shin;&vav;&fmem; &bet;&kaf;&bet;&dalet;&vav;&tav;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x3042;&#x3048;&#x3050;</trd>,
+    <trd>&#x606F;&#x5207;&#x308C;&#x3059;&#x308B;  <pr>&#x3044;&#x304D;&#x304E;&#x308C;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8352;&#x3044;&#x606F;&#x3092;&#x3059;&#x308B;  <pr>&#x3042;&#x3089;&#x3044;&#x3044;&#x304D;&#x3092;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x430;&#x434;&#x438;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x437;&#x430;&#x441;&#x430;&#x43F;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
+    <trd>&c_z;&c_a;&c_d;&c_i;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_a;&c_p;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5598; <pr>chu&#x1CE;n</pr></trd>,
+    <trd>&#x547C;&#x54E7; <pr>h&#x16B;ch&#x12B;</pr></trd>,
+    <trd>&#x55FD;&#x5598; <pr>s&#xF2;uchu&#x1CE;n</pr></trd>,
+    <trd>&#x54EE; <pr>xi&#x101;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -78,11 +107,22 @@
     <dif>
       Forta, a&ubreve;debla spirado:
       <ekz>
+        brua <tld/>o de ekscititaj &ccirc;evaloj
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2001, &#x2116;2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la knabo ekhaltis kun <tld/>o de admiro
         <fnt><bib>DOz</bib>, <lok>&leftquot;malnovaj amikoj
         rekunestas&rightquot;</lok></fnt>.
       </ekz>
     </dif>
+  <trdgrp lng="de">
+    <trd>Schnaufen</trd>,
+    <trd>Keuchen</trd>
+  </trdgrp>
   </snc>
   <trd lng="ca">esbufec</trd>
   <trdgrp lng="cs">
@@ -96,19 +136,32 @@
     <trd>souffle<klr tip="amb"> (audible)</klr></trd>,
     <trd>soupir<klr tip="amb"> (souffle)</klr></trd>
   </trdgrp>
-  <trd lng="he">&#x5E0;&#x5E9;&#x5D9;&#x5DE;&#x5D4; &#x5DB;&#x5D1;&#x5D3;&#x5D4;</trd>
+  <trd lng="he">&nun;&shin;&yod;&mem;&he; &kaf;&bet;&dalet;&he;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x606F;&#x5207;&#x308C;  <pr>&#x3044;&#x304D;&#x304E;&#x308C;</pr></trd>,
+    <trd>&#x547C;&#x5438;&#x5207;&#x8FEB;  <pr>&#x3053;&#x304D;&#x3085;&#x3046;&#x305B;&#x3063;&#x3071;&#x304F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>dyszenie</trd>,
     <trd>sapanie</trd>,
     <trd>zadyszka</trd>
   </trdgrp>
   <trd lng="sk">d&yacute;chavi&ccaron;nos&tcaron;</trd>
-  <trd lng="uk">&#x437;&#x430;&#x434;&#x438;&#x448;&#x43A;&#x430;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_d;&c_i;&c_sh;&c_k;&c_a;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/12 18:05:09
+revo: transskribo per <pr>
+
+versio 1.25 2023/09/26 20:22:47
+Wolfram Diestel: +fnt PVEF, ref, trd de
+
+versio 1.24 2023/09/25 20:22:50
+Wolfram Diestel: dif-ref, ekz-oj, trd de
+
 Revision 1.19  2017/07/10 08:10:17  revo
 Ian Dalton: +trd en
 
@@ -122,11 +175,5 @@ Revision 1.16  2010/08/18 16:30:16  revo
 Wieland Pusch: +trd bg
 
 Revision 1.15  2010/06/25 17:26:22  revo
-Guillem Sevilla: +trd ca
-
-Revision 1.14  2005/12/22 17:31:30  revo
-Jeromo Vasxe: + ~o
-
-Revision 1.13  2005/11/24 17:31:47  revo
 -->
 </vortaro>

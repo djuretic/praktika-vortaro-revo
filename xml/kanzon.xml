@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kanzon.xml,v 1.25 2022/03/21 17:51:56 revo Exp $">
+<art mrk="$Id: kanzon.xml,v 1.30 2023/12/07 07:22:34 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>kanzon</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kanzon</rad>/o
+  <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="kanzon.0o">
   <kap><tld/>o</kap>
@@ -12,14 +13,47 @@
   <uzo tip="fak">POE</uzo>
   <snc>
     <dif>
-      Versa&jcirc;o, plejofte gaja, sprita a&ubreve; moka, konsistanta
-      el
-      egalaj strofoj fini&gcirc;antaj per rekanta&jcirc;o kaj destinita
-      por
-      esti kantata:
-      <ekz>la <tld/>oj de B&eacute;ranger;</ekz>
-      <ekz>la vin<tld/>oj de Horacio.</ekz>
+      <ref tip="super" cel="vers.0ajxo">Versa&jcirc;o</ref> nereligia,
+      plejofte gaja, sprita a&ubreve; moka, konsistanta
+      el egalaj strofoj fini&gcirc;antaj per rekanta&jcirc;o kaj destinita
+      por esti <ref tip="super" cel="kant.0o.kantajxo">kantata</ref>:
+      <ekz>
+        deveninta el la kantoj de trobadoroj, la <tld/>o
+        estas unue formitaj de Danto kaj Petrarko;
+      </ekz>
+      <ekz>
+        la kantistino <nom>Ramona van Dalsem</nom> <klr>[&#8230;]</klr> &gcirc;enerale mem verkas siajn
+        <tld/>ojn
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Kalocsay</nom> debutis traduke en la poezia kampo per la libro
+        Kantanta Kamparo, antologio el popol<tld/>oj de Hungario
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        siajn komikajn <tld/>ojn la ruzega protagonisto &ndash; <nom>Ostap Bender</nom> &ndash; kantas, kvaza&ubreve;
+        en itala tragedio
+        <fnt>
+          <bib>KFl</bib>
+          <lok>VII. Gimnastiko por artaj sistemoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> a&ubreve;skultas klasikan muzikon kaj <tld/>ojn de <nom>Elton John</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <vrk>In-forme</vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="od.0o">odo</ref>
   </snc>
   <trd lng="be">&c_sh;&c_a;&c_n;&c_s;&c_o;&c_n;</trd>
   <trd lng="br">kanaouenn</trd>
@@ -46,6 +80,11 @@
      <trd>dal</trd>,
      <trd>n&oacute;ta</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12471;&#12515;&#12531;&#12477;&#12531;  <pr>&#12375;&#12419;&#12435;&#12381;&#12435;</pr></trd>,
+    <trd>&#27468;&#35617;&#26354;  <pr>&#12363;&#12424;&#12358;&#12365;&#12423;&#12367;</pr></trd>,
+    <trd>&#12459;&#12531;&#12484;&#12457;&#12540;&#12493;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>lied</trd>,
     <trd>luisterlied</trd>,
@@ -63,16 +102,33 @@
     <trd>&ccaron;astu&scaron;ka</trd>,
     <trd>&scaron;ans&oacute;n</trd>
   </trdgrp>
-  <trd lng="th">&#xE40;&#xE1E;&#xE25;&#xE07;</trd>
+  <trd lng="th">&#3648;&#3614;&#3621;&#3591;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x430;&#x43D;&#x446;&#x43E;&#x43D;&#x430;</trd>,
-    <trd>&#x448;&#x430;&#x43D;&#x441;&#x43E;&#x43D;&#x435;&#x442;&#x43A;&#x430;</trd>,
-    <trd>&#x43F;&#x456;&#x441;&#x43D;&#x44F;</trd>
+    <trd>&c_k;&c_a;&c_n;&c_c;&c_o;&c_n;&c_a;</trd>,
+    <trd>&c_sh;&c_a;&c_n;&c_s;&c_o;&c_n;&c_je;&c_t;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_ib;&c_s;&c_n;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#35635; <pr>&#333;u</pr></trd>,
+    <trd>&#27468; <pr>g&#275;</pr></trd>,
+    <trd>&#23665;&#27468; <pr>sh&#257;ng&#275;</pr></trd>,
+    <trd>&#27468;&#26354; <pr>g&#275;q&#468;</pr></trd>,
+    <trd>&#27468;&#35616; <pr>g&#275;y&aacute;o</pr></trd>,
+    <trd>&#23567;&#26354; <pr>xi&#462;oq&#468;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.30 2023/12/07 07:22:34
+Wolfram Diestel: fnt PVEF, +ref
+
+versio 1.29 2023/12/06 17:26:39
+Wolfram Diestel: +ekz-oj
+
+versio 1.27 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
 Revision 1.23  2018/08/06 22:10:31  revo
 Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
 
@@ -86,11 +142,5 @@ Revision 1.20  2015/09/21 12:10:21  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.19  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2012/09/01 12:10:12  revo
 -->
 </vortaro>

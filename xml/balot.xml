@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: balot.xml,v 1.27 2022/03/16 16:54:18 revo Exp $">
+<art mrk="$Id: balot.xml,v 1.34 2023/10/29 19:11:00 revo Exp $">
 <kap>
    <ofc>2</ofc>
    <rad>balot</rad>/i
@@ -21,17 +21,19 @@
        </ekz>
      </dif>
      <ref tip="super" cel="vocx.0doni">vo&ccirc;doni.</ref>
+     <trd lng="be">&c_g;&c_a;&c_l;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_b;&c_ju;&c_l;&c_je;&c_t;&c_e;&c_n;&c_je;&c_m;)</klr></trd>
      <trd lng="nl">stemmen<klr tip="ind"> (stem uitbrengen)</klr></trd>
      <trd lng="es">votar</trd>
      <trd lng="pl">g&lstroke;osowa&cacute;</trd>
      <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_s;&c_o;&c_v;&c_a;&c_t;&c_mol;<klr>
      (&c_b;&c_ju;&c_l;&c_l;&c_je;&c_t;&c_je;&c_n;&c_ja;&c_m;&c_i;)</klr></trd>
-   </snc>
+     <trd lng="zh">&#x8ABF;&#x8AE7; <pr>ti&#xE1;oxi&#xE9;</pr></trd>
+</snc>
    <snc mrk="balot.0i.tr">
      <gra><vspec>tr</vspec></gra>
      <uzo tip="klr">(iun a&ubreve; kolektivon)</uzo>
      <dif>
-       <tld lit="B"/>i <sncref ref="balot.0i.ntr"/> pri elekto de iu
+       <tld lit="B"/>i<sncref ref="balot.0i.ntr"/> pri elekto de iu
        a&ubreve; de kolektivo, plenumonta funkcion a&ubreve; okuponta
        postenon:
        <ekz>
@@ -45,6 +47,10 @@
      </dif>
      <ref tip="super" cel="elekt.0i.vocxdoni">elekti
      (iun a&ubreve; kolektivon)</ref>
+     <trdgrp lng="be">
+       <trd>&c_v;&c_y;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol; <klr>(&c_sh;&c_l;&c_ja;&c_h;&c_a;&c_m; &c_g;&c_a;&c_l;&c_a;&c_s;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;)</klr></trd>,
+       <trd>&c_a;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>
+     </trdgrp>
      <trd lng="es">elegir<klr> (por votaci&oacute;n)</klr></trd>
      <trd lng="pl">wybiera&cacute;<klr>
      (g&lstroke;osuj&aogonek;c)</klr></trd>
@@ -93,6 +99,10 @@
      <trd>szavaz<klr tip="ind"> (v&aacute;laszt&aacute;son)</klr></trd>,
      <trd>megv&aacute;laszt</trd>
    </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6295;&#x7968;&#x3059;&#x308B;  <pr>&#x3068;&#x3046;&#x3072;&#x3087;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x7968;&#x6C7A;&#x3059;&#x308B;  <pr>&#x3072;&#x3087;&#x3046;&#x3051;&#x3064;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>hlasova&tcaron;</trd>,
     <trd>voli&tcaron;</trd>
@@ -126,6 +136,7 @@
        </ekz>
      </dif>
      <ref tip="vid" cel="vocx.0o.opinio">vo&ccirc;o</ref>
+     <trd lng="be">&c_g;&c_o;&c_l;&c_a;&c_s; <klr>(&c_v;&c_y;&c_b;&c_ib;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;&c_a;)</klr></trd>
      <trdgrp lng="de">
        <trd>Stimmabgabe</trd>,
        <trd>W&auml;hlen</trd>
@@ -142,7 +153,8 @@
      </trdgrp>
      <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_s; <klr>(&c_n;&c_a;
      &c_v;&c_y;&c_b;&c_o;&c_r;&c_a;&c_h;)</klr></trd>
-   </snc>
+     <trd lng="zh">&#x6295;&#x7968; <pr>t&#xF3;upi&#xE0;o</pr></trd>
+</snc>
    <snc mrk="balot.0o.momento">
      <dif>
        Tiu momento en la vivo de lando, asocio, komunumo k.s.,
@@ -151,20 +163,24 @@
          parlamenta, estrara <tld/>o;
        </ekz>
        <ekz>
-         A. Kwa&sacute;niewski venkis dum la lasta prezidenta
+         <nom>A. Kwa&sacute;niewski</nom> venkis dum la lasta prezidenta
          <tld/>o<fnt>Pola Radio</fnt>;
        </ekz>
        <ekz>
          okazis en Slovenio la triaj <tld/>oj, ekde kiam la
          &scirc;tato fari&gcirc;is memstara.
          <fnt><aut>Zlatko TI&Scaron;LJAR</aut>:
-         <vrk><url ref="&Monato;/007251.html">Ordo tordita - dekstren
+         <vrk><url ref="&Monato;/2001/007251.html">Ordo tordita - dekstren
          maldekstren</url></vrk>,
          <bib>Monato</bib>,
-         <lok>n-ro 01/2001</lok>
+         <lok>2001/01</lok>
          </fnt>.
        </ekz>
      </dif>
+     <trdgrp lng="be">
+       <trd>&c_g;&c_a;&c_l;&c_a;&c_s;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+       <trd>&c_v;&c_y;&c_b;&c_a;&c_r;&c_y;</trd>
+     </trdgrp>
      <trdgrp lng="de">
        <trd>Wahl</trd>,
        <trd>Abstimmung</trd>
@@ -181,7 +197,11 @@
        <trd>&c_g;&c_o;&c_l;&c_o;&c_s;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
      </trdgrp>
      <trd lng="es">las elecciones<klr> (el evento)</klr></trd>
-   </snc>
+     <trdgrp lng="zh">
+    <trd>&#x8ABF;&#x5F8B; <pr>di&#xE0;ol&#xFC;</pr></trd>,
+    <trd>&#x6295;&#x7968; <pr>tu&#xF3;pi&#xE0;o</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>balot&aacute;&zcaron;</trd>,
     <trd>hlasov&aacute;n&iacute;</trd>,
@@ -189,6 +209,10 @@
   </trdgrp>
   <trd lng="he">&#x5D4;&#x5E6;&#x5D1;&#x5E2;&#x5D4;
   &#x5D1;&#x5D1;&#x5D7;&#x5D9;&#x5E8;&#x5D5;&#x5EA;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6295;&#x7968;  <pr>&#x3068;&#x3046;&#x3072;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x4E00;&#x7968;  <pr>&#x3044;&#x3063;&#x3074;&#x3087;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>hlasovanie</trd>,
     <trd>vo&lcaron;ba</trd>
@@ -214,23 +238,22 @@
        <ekz>
          en la venontaj monatoj okazos tutlanda <tld/>ado en Britio
          <fnt><aut>W. H. SIMCOCK</aut>:
-         <vrk><url ref="&Monato;/005474.html">&Ccirc;u en
+         <vrk><url ref="&Monato;/1997/005474.html">&Ccirc;u en
          Britio?</url></vrk>,
          <bib>Monato</bib>,
-         <lok>n-ro 04/1997</lok>
+         <lok>1997/04</lok>
          </fnt>;
        </ekz>
        <ekz>
-         la nova&jcirc;grupo soc.culture.esperanto, jam ekzistinte de
+         la nova&jcirc;grupo <nom>soc.culture.esperanto</nom>, jam ekzistinte de
          anta&ubreve; 1990, balda&ubreve; estos
-         oficiala nova&jcirc;grupo de Usenet pro <tld/>ado, kies
-         rezulton
-         oni anoncis la 18an de marto
+         oficiala nova&jcirc;grupo de <nom>Usenet</nom> pro <tld/>ado, kies
+         rezulton  oni anoncis la 18an de marto
          <fnt><aut>Edmund GRIMLEY EVANS</aut>:
-         <vrk><url ref="&Monato;/005599.html">Esperanto en
+         <vrk><url ref="&Monato;/1997/005599.html">Esperanto en
          Usenet</url></vrk>,
          <bib>Monato</bib>,
-         <lok>n-ro 04/1997</lok>
+         <lok>1997/04</lok>
          </fnt>.
        </ekz>
      </dif>
@@ -260,6 +283,10 @@
        <trd>wybory</trd>
      </trdgrp>
    </snc>
+     <trdgrp lng="be">
+       <trd>&c_g;&c_a;&c_l;&c_a;&c_s;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+       <trd>&c_v;&c_y;&c_b;&c_a;&c_r;&c_y;</trd>
+     </trdgrp>
   <trdgrp lng="cs">
     <trd>hlasov&aacute;n&iacute;</trd>,
     <trd>volba</trd>
@@ -278,6 +305,10 @@
     <trd>&#x5D1;&#x5D7;&#x5D9;&#x5E8;&#x5D5;&#x5EA;</trd>
   </trdgrp>
   <trd lng="hu">v&aacute;laszt&aacute;s</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6295;&#x7968;  <pr>&#x3068;&#x3046;&#x3072;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x9078;&#x6319;  <pr>&#x305B;&#x3093;&#x304D;&#x3087;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_s;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>hlasovanie</trd>,
@@ -299,10 +330,10 @@
          kutime oni manipulas <tld/>ilojn sed &ccirc;i-foje la
          registaro alimaniere agis
          <fnt><aut>Bardhyl SELIMI</aut>:
-         <vrk><url ref="&Monato;/007284.html">Listo de ruzo kaj
+         <vrk><url ref="&Monato;/2001/007284.html">Listo de ruzo kaj
          manipulado</url></vrk>,
          <bib>Monato</bib>,
-         <lok>n-ro 01/2001</lok>
+         <lok>200101</lok>
          </fnt>.
        </ekz>
      </dif>
@@ -311,6 +342,7 @@
       <ref cel="balot.0ujo">balotujo</ref>.
     </refgrp>
    </snc>
+   <trd lng="be">&c_b;&c_ju;&c_l;&c_je;&c_t;&c_e;&c_n;&c_mol; <klr>(&c_v;&c_y;&c_b;&c_a;&c_r;&c_ch;&c_y;)</klr></trd>
   <trdgrp lng="cs">
     <trd>hlasovac&iacute; l&iacute;stek</trd>,
     <trd>hlasovac&iacute; za&rcaron;&iacute;zen&iacute;</trd>
@@ -330,6 +362,10 @@
    </trdgrp>
   <trd lng="he">&#x5E4;&#x5EA;&#x5E7; &#x5D4;&#x5E6;&#x5D1;&#x5E2;&#x5D4;</trd>
   <trd lng="hu">szavaz&oacute;eszk&ouml;z</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6295;&#x7968;&#x7528;&#x7D19;  <pr>&#x3068;&#x3046;&#x3072;&#x3087;&#x3046;&#x3088;&#x3046;&#x3057;</pr></trd>,
+    <trd>&#x5C0F;&#x7403;  <pr>&#x3057;&#x3087;&#x3046;&#x304D;&#x3085;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">stemformulier</trd>
   <trd lng="pl">g&lstroke;os <ind>wyborczy</ind></trd>
   <trdgrp lng="ru">
@@ -356,14 +392,15 @@
          <tld/>ejon en kvartalo
          B de urbo N, kio malebligis partopreni la <tld/>ojn
          <fnt><aut>Bardhyl SELIMI</aut>:
-         <vrk><url ref="&Monato;/007284.html">Listo de ruzo kaj
+         <vrk><url ref="&Monato;/2001/007284.html">Listo de ruzo kaj
          manipulado</url></vrk>,
          <bib>Monato</bib>,
-         <lok>n-ro 01/2001</lok>
+         <lok>2001/01</lok>
          </fnt>.
        </ekz>
      </dif>
    </snc>
+   <trd lng="be">&c_v;&c_y;&c_b;&c_a;&c_r;&c_ch;&c_y; <ind>&c_w;&c_ch;&c_a;&c_s;&c_t;&c_a;&c_k;</ind></trd>
   <trd lng="cs">volebn&iacute; m&iacute;stnost</trd>
   <trdgrp lng="de">
      <trd>Wahllokal</trd>
@@ -373,6 +410,7 @@
   <trd lng="fr">bureau de vote</trd>
   <trd lng="he">&#x5E7;&#x5DC;&#x5E4;&#x5D9;</trd>
   <trd lng="hu">szavaz&oacute;helyis&eacute;g</trd>
+  <trd lng="ja">&#x6295;&#x7968;&#x6240;  <pr>&#x3068;&#x3046;&#x3072;&#x3087;&#x3046;&#x3057;&#x3087;</pr></trd>
   <trd lng="nl">stemlokaal</trd>
   <trd lng="pl">lokal <ind>wyborczy</ind></trd>
   <trd lng="ru">&c_i;&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
@@ -382,12 +420,23 @@
 </drv>
 
 <drv mrk="balot.0ujo">
-   <kap><tld/>ujo</kap>
-   <snc>
-     <dif>
-       Urno, en kiun oni &jcirc;etas sian <tld/>ilon.
+  <kap><tld/>ujo</kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="urn.0o.balotilo">Urno</ref>, en kiun oni &jcirc;etas sian <tld/>ilon:
+      <ekz>
+        kiam la lasta civitano tajpas la numeron de sia kandidato per la elektronika
+        <tld/>ujo, &gcirc;is la anonco de la rezulto, pasas maksimume du horoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jozefo Lej&ccirc;</aut>
+          <vrk><url ref="&Monato;/2011/010219.php">Lulita de la anta&ubreve;ulo</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
      </dif>
-   </snc>
+  </snc>
+  <trd lng="be">&c_u;&c_r;&c_n;&c_a; <klr>(&c_v;&c_y;&c_b;&c_a;&c_r;&c_ch;&c_a;&c_ja;)</klr></trd>
   <trdgrp lng="cs">
     <trd>hlasovac&iacute; urna</trd>,
     <trd>volebn&iacute; urna</trd>
@@ -399,6 +448,7 @@
   <trd lng="es">Urna<klr> (de votaci&oacute;n)</klr></trd>
   <trd lng="fr">urne (de vote)</trd>
   <trd lng="hu">szavaz&oacute;urna</trd>
+  <trd lng="ja">&#x6295;&#x7968;&#x7BB1;  <pr>&#x3068;&#x3046;&#x3072;&#x3087;&#x3046;&#x3070;&#x3053;</pr></trd>
   <trd lng="nl">stembus</trd>
   <trd lng="pl">urna <ind>wyborcza</ind></trd>
   <trdgrp lng="ru">
@@ -426,6 +476,21 @@
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.31 2023/08/14 21:23:22
+Wolfram Diestel: +ekz
+
+versio 1.30 2023/05/15 17:26:58
+Wolfram Diestel: kor. lat. literon en trd be
+
+versio 1.29 2023/04/09 18:28:54
+Paul Peeraerts: &Monato;/
+
+versio 1.28 2023/02/13 07:27:34
+Dmitri Gabinski: + trd be
+
 versio 1.27 2022/03/16 16:54:18
 Wolfram Diestel: kor. trd
 
@@ -433,19 +498,5 @@ versio 1.26 2022/03/15 22:31:34
 Ulrich Fellmann: baloto: sxangxo de unu DE vorto
 
 Revision 1.22  2018/02/07 13:10:16  revo
-Michel Cantigneaux: ligiloj en balotilo al balotbudo (bud) kaj balotujo
-(balot)
-
-Revision 1.21  2017/07/08 22:10:17  revo
-Vito Redsky: +trd ro
-
-Revision 1.20  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.19  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.18  2009/02/23 17:30:41  revo
-Sebastian Cyprych: ~rajto movita al rajto +trd pl
 -->
 </vortaro>

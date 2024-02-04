@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vend.xml,v 1.127 2022/05/06 12:17:21 revo Exp $">
+<art mrk="$Id: vend.xml,v 1.140 2023/12/12 20:10:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vend</rad>/i
@@ -56,8 +56,8 @@
   <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_m;</trd>
   <trd lng="bn">&#x9AC;&#x9BF;&#2453;&#x9CD;&#x9B0;&#x9BF;</trd>
-  <trd lng="bo">&#xF60;&#xF5A;&#xF7C;&#xF44; &#xF56;&#xF5A;&#xF7C;&#xF44;&#xF66;
-  &#xF56;&#xF59;&#xF7C;&#xF44; &#xF5A;&#xF7C;&#xF44;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_-a;&t_tsha;&t_naro;&t_nga; &t_ba;&t_tsha;&t_naro;&t_nga;&t_sa;
+  &t_ba;&t_tsa;&t_naro;&t_nga; &t_tsha;&t_naro;&t_nga;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">prodati</trd>
   <trd lng="ca">vendre</trd>
   <trd lng="co">vendenu</trd>
@@ -88,7 +88,7 @@
   <trd lng="hy">&#x57E;&#1377;&#1395;&#1377;&#x57C;&#1381;&#x56C;</trd>
   <trd lng="ig">ere</trd>
   <trd lng="is">selja</trd>
-  <trd lng="ja">&#x58F2;&#x308B;</trd>
+  <trd lng="ja">&#x58F2;&#x308B; <pr>&#12358;&#x308B;</pr></trd>
   <trd lng="jv">ngedol</trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10E7;&#x10D8;&#x10D3;&#x10D5;&#x10D0;</trd>
   <trd lng="kk">&c_s;&c_a;&c_t;&c_u;</trd>
@@ -100,7 +100,7 @@
   <trd lng="lat">vende</trd>
   <trd lng="lo">&#xE82;&#xEB2;&#xE8D;</trd>
   <trd lng="lt">parduoti</trd>
-  <trd lng="lv">p&amacron;rdot</trd>
+  <trd lng="lv">p&#257;rdot</trd>
   <trd lng="mg">mivarotra</trd>
   <trd lng="mi">hoko</trd>
   <trd lng="mk">&c_p;&c_r;&c_o;&c_d;&c_a;&c_d;&c_je;</trd>
@@ -150,8 +150,8 @@
   <trd lng="yi">&pe;&alef;&#x5B7;&resh;&qof;&vav;&yod;&pe;&fnun;</trd>
   <trd lng="yo">ta</trd>
   <trdgrp lng="zh">
-    <trd>&#21334; [<ind>m&agrave;i</ind>]</trd>
-    <trd>&#x552E; [<ind>sh&ograve;u</ind>]</trd>
+    <trd>&#21334; <pr>m&agrave;i</pr></trd>
+    <trd>&#x552E; <pr>sh&ograve;u</pr></trd>
   </trdgrp>
   <trd lng="zu">adayise</trd>
 </drv>
@@ -205,7 +205,8 @@
         <trd lng="de">Ware</trd>
       </ekz><ekz>
         pro la alta prezo <klr>[&#8230;]</klr> oni ne anta&ubreve;vidas
-        grandajn <tld/>ojn
+        grandajn <ind><tld/>oj</ind>n
+        <trd lng="en">sales<klr> (n, the amount sold)</klr></trd>
         <fnt><aut>Last</aut>: <vrk>Viraga Viagra</vrk>,
         <bib>Monato</bib><lok>jaro 1999a, numero 3a, p. 18a</lok></fnt>.
       </ekz>
@@ -219,18 +220,84 @@
     <trd>prod&aacute;v&aacute;n&iacute;</trd>
   </trdgrp>
   <trd lng="de">Verkauf</trd>
+  <trd lng="en">sale<klr> (n, the act of selling)</klr></trd>
   <trd lng="es">venta</trd>
   <trdgrp lng="fr">
     <trd>vente</trd>
   </trdgrp>
   <trd lng="hu">elad&aacute;s</trd>
+  <trdgrp lng="ja">
+    <trd>&#x58F2;&#21364;  <pr>&#12400;&#12356;&#x304D;&#12419;&#x304F;</pr></trd>,
+    <trd>&#x58F2;&#x6E21;&#12375; <pr>&#12358;&#12426;&#12431;&#12383;&#12375;</pr></trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_d;&c_a;&c_zh;&c_a;</trd>
   <trdgrp lng="sk">
     <trd>predaj</trd>,
     <trd>pred&aacute;vanie</trd>
   </trdgrp>
   <trd lng="tr">sat&inodot;&scedil;</trd>
-  <trd lng="uk">&#x43F;&c_r;&#x43E;&c_d;&c_a;&c_zh;</trd>
+  <trd lng="uk">&c_p;&c_r;&c_o;&c_d;&c_a;&c_zh;</trd>
+</drv>
+
+<drv mrk="vend.0ado">
+  <kap>
+    <tld/>ado
+  </kap>
+  <snc>
+    <dif>
+      Ripeta, regula plenumo de <tld/>oj:
+      <ekz>
+        butiko por la <tld/>ado de &ccirc;okoladoj kaj bombonoj
+        <fnt>
+          <bib>KKl</bib>
+          <lok>&Ccirc;apitro 6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne facile estis havi sukceson tiamaniere, sed li havis fidon al si mem kaj iom
+        post iom la <tld/>ado pligrandi&gcirc;is
+        <fnt>
+          <bib>KKl</bib>
+          <lok>&Ccirc;apitro 1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en nia magazeno virinoj neniam okupi&gcirc;as per <tld/>ado de komerca&jcirc;oj, tion faras
+        nur viroj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Marta plue kun granda atento rigardis la manipuladon de <tld/>ado kaj a&ccirc;etado,
+        kiu havis lokon &ccirc;e amba&ubreve; flankoj de la longa tablo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la malnova domo estis aran&gcirc;ita a&ubreve;kcia <tld/>ado
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova domo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="komerc.0o">komerco</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_o;&c_d;&c_a;&c_zh;</trd>,
+    <trd>&c_z;&c_b;&c_y;&c_t;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Verkauf <klr>(regelm&auml;&szlig;ig)</klr></trd>,
+    <trd>Vertrieb</trd>,
+    <trd>Handel</trd>
+  </trdgrp>
+  <trd lng="en">selling</trd>
+  <trd lng="ja">&#x8CA9;&#x58F2;  <pr>&#x306F;&#12435;&#12400;&#12356;</pr></trd>
 </drv>
 
 <drv mrk="vend.0ejo">
@@ -254,36 +321,37 @@
       </ekz><ekz>
         en Britio bankrotis pli ol 8&#x202F;300 kioskoj kaj <tld/>ejoj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Laimius Straznickas</aut>
-          <vrk><url ref="&Steloj;monato2/006830.html">Litovio &#8208; Britio:
-          Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<aut>Laimius Stra&zcaron;nickas</aut>
+	<vrk><url ref="&Monato;/2000/006830.php">Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 13</lok>
         </fnt>;
       </ekz><ekz>
         mi pasis preter kelkajn <tld/>ejojn
         <fnt>
+       <aut>Thomas Eccardt</aut>
+          <vrk><url ref="&Monato;/2000/006859.php">Urbeto a&ubreve; sendependa lando?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006859.html">Seborgo: Urbeto a&ubreve;
-          sendependa lando?</url></vrk>
+          <lok>2000/05, p. 8</lok>
         </fnt>;
       </ekz><ekz>
         <uzo tip="fak">RET</uzo>
         mono gajnata de ret<tld/>ejoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Edmund Grimley Evans</aut>
-          <vrk><url ref="&Steloj;monato2/007132.html">Interreto: Interreto
-          senpage</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007132.html">Interreto senpage</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 23</lok>
+          </fnt>;
       </ekz><ekz>
         ne sufi&ccirc;as, simple instali en interreto iun <tld/>ejon kun belsona nomo, necesas
         anka&ubreve; bonaj produktoj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Maul Stefan</aut>
-          <vrk><url ref="&Steloj;monato2/007123.html">Defio a&ubreve; devio de
-          politiko</url></vrk>
-        </fnt>.
+          <aut>Stefan Maul</aut>
+            <vrk><url ref="&Monato;/2000/007123.html">Defio a&ubreve; devio de politiko</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 6</lok>
+          </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -298,7 +366,7 @@
   <trd lng="be">&c_k;&c_r;&c_a;&c_m;&c_a;</trd>
   <trd lng="bg">&c_m;&c_a;&c_g;&c_a;&c_z;&c_i;&c_n;</trd>
   <trd lng="bn">&#x9A6;&#x9CB;&#2453;&#x9BE;&#x9A8;</trd>
-  <trd lng="bo">&#xF51;&#xF74;&#xF66;&#xF0B;&#xF51;&#xF7A;&#xF56;&#xF0B;</trd>
+  <trd lng="bo">&t_da;&t_shabchu;&t_sa;&t_tsheg;&t_da;&t_drengbu;&t_ba;&t_tsheg;</trd>
   <trd lng="bs">shop</trd>
   <trdgrp lng="ca">
     <trd>tenda</trd>,
@@ -314,6 +382,10 @@
   <trdgrp lng="el">
     <trd>&my;&alfa;&gamma;&alfa;&zeta;&jota_ton;</trd>,
     <trd>&kappa;&alfa;&tau;&alfa_ton;&sigma;&tau;&eta;&rho;&alfa;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>store<klr> (n, a place to sell things)</klr></trd>,
+    <trd>shop<klr> (n)</klr></trd>
   </trdgrp>
   <trd lng="es">tienda</trd>
   <trd lng="et">pood</trd>
@@ -384,7 +456,7 @@
   <trd lng="te">&#xC37;&#xC3E;&#xC2A;&#xC4D;</trd>
   <trd lng="tg">&c_s;&c_a;&c_l;&c_o;&c_n;</trd>
   <trd lng="th">&#xE23;&#xE49;&#xE32;&#xE19;&#xE02;&#xE32;&#xE22;&#xE02;&#xE2D;&#xE07;</trd>
-  <trd lng="tr">ma&gbreve;aza<klr>(sat&inodot;m yap&inodot;lan her 
+  <trd lng="tr">ma&gbreve;aza<klr>(sat&inodot;m yap&inodot;lan her
 yer)</klr></trd>
   <trd lng="tt">&c_k;&c_i;&c_b;&c_je;&c_t;</trd>
   <trd lng="uk">&c_m;&c_a;&c_g;&c_a;&c_z;&c_i;&c_n;</trd>
@@ -395,8 +467,8 @@ yer)</klr></trd>
   <trd lng="yi">&qof;&resh;&alef;&#x5B8;&fmem;</trd>
   <trd lng="yo">itaja</trd>
   <trdgrp lng="zh">
-    <trd>&#x5E97; [<ind>di&agrave;n</ind>]</trd>
-    <trd>&#21830;&#x5E97; [<ind>sh&amacron;ng di&agrave;n</ind>]</trd>
+    <trd>&#x5E97; <pr>di&agrave;n</pr></trd>
+    <trd>&#21830;&#x5E97; <pr>sh&#257;ng di&agrave;n</pr></trd>
   </trdgrp>
   <trd lng="zu">esitolo</trd>
 </drv>
@@ -439,7 +511,7 @@ yer)</klr></trd>
         </fnt>;
       </ekz><ekz>
         sur la trotuaroj svarmis kriemaj <tld/>istoj de akvo, vinberoj, daktiloj,
-        fuma&jcirc;itaj fi&scirc;oj kaj inter la <tld/>istoj 
+        fuma&jcirc;itaj fi&scirc;oj kaj inter la <tld/>istoj
         <ref tip="sub" cel="kolpor.0isto">kolportisto</ref>j
         <fnt>
           <bib>Far1</bib>
@@ -461,7 +533,10 @@ yer)</klr></trd>
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_a;&c_v;&c_je;&c_c;</trd>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_r;&c_a;&c_d;&c_a;&c_v;&c_je;&c_c;</trd>,
+    <trd>&c_g;&c_a;&c_n;&c_d;&c_l;&c_ja;&c_r;</trd>
+  </trdgrp>
   <trd lng="bg">&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_ch;</trd>
   <trdgrp lng="ca">
     <trd>venedor</trd>,
@@ -470,6 +545,10 @@ yer)</klr></trd>
   </trdgrp>
   <trd lng="cs">prodava&ccaron;</trd>
   <trd lng="de">Verk&auml;ufer</trd>
+  <trdgrp lng="en">
+    <trd>seller</trd>,
+    <trd>vendor</trd>
+  </trdgrp>
   <trd lng="es">vendedor</trd>
   <trdgrp lng="fr">
     <trd>commercial<klr> (subst.)</klr></trd>,
@@ -479,6 +558,10 @@ yer)</klr></trd>
     <trd>elad&oacute;</trd>,
     <trd>boltos</trd>,
     <trd>&eacute;rt&eacute;kes&iacute;t&odblac;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5E97;&#x54E1;  <pr>&#12390;&#12435;&#12356;&#12435;</pr></trd>,
+    <trd>&#x8CA9;&#x58F2;&#x54E1;  <pr>&#x306F;&#12435;&#12400;&#12356;&#12356;&#12435;</pr></trd>
   </trdgrp>
   <trdgrp lng="pt">
    <trd>vendedor</trd>
@@ -490,8 +573,8 @@ yer)</klr></trd>
   </trdgrp>
   <trd lng="tr">sat&inodot;c&inodot;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_d;&c_a;&c_v;&c_je;&c_c;&#x44C;</trd>,
-    <trd>&#x43A;&c_r;&c_a;&#x43C;&c_a;&c_r;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_k;&c_r;&c_a;&c_m;&c_a;&c_r;</trd>
   </trdgrp>
 </drv>
 
@@ -552,8 +635,88 @@ yer)</klr></trd>
     <trd>vegyeskeresked&eacute;s</trd>,
     <trd>vegyesbolt</trd>
   </trdgrp>
+  <trd lng="ja">&#x767E;&#x8CA8;&#x5E97;  <pr>&#12402;&#12419;&#12387;&#x304B;&#12390;&#12435;</pr></trd>
   <trd lng="nl">supermarkt</trd>
   <trd lng="ru">&c_u;&c_n;&c_i;&c_v;&c_je;&c_r;&c_m;&c_a;&c_g;</trd>
+</drv>
+
+<drv mrk="vend.dis0i">
+  <kap>
+    dis<tld/>i, <var><kap>el<tld/>i</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="V"/>i, kutime favorpreze, por malplenigi tutan stokon:
+      <ekz>
+        el la malnova malkonstruita mona&hcirc;eja pre&gcirc;ejo <klr>[&#8230;]</klr> la monumentoj kaj
+        tombaj &scirc;tonoj estis dis<tld/>itaj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Malnova tomba &scirc;tono</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi abonas la Gazeton de Anoncoj, <klr>[&gcirc;i]</klr> enhavas &ccirc;ion, kion homo bezonas
+        scii: <klr>[&#8230;]</klr> kie oni povas ricevi domojn, servistojn, vestojn kaj
+        nutra&jcirc;ojn, kiu dis<tld/>as kaj kiu forlasas la mondon
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Bona humoro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi kredas gajni almena&ubreve; mil dukatojn per tiu &ccirc;i unua eldono, kiu havos du mil
+        ekzemplerojn, kiuj el<tld/>i&gcirc;os je po ses realoj kontantaj
+        <fnt>
+          <bib>DKM</bib>
+          <lok>&Ccirc;apitro LXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&ccirc;u la]</klr> libreja firmo <klr>[&#8230;]</klr> ne donus rabaton, se &gcirc;i por tio
+        &ccirc;i ricevos la garantion, ke &gcirc;i dis<tld/>os la donitajn librojn en la nombro
+        de 20-30 miloj
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        duonhoron post la anonco <klr>[&#8230;]</klr>, &ccirc;iuj libroj de Mo estis el<tld/>itaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alice Liu</aut>
+          <vrk><url ref="https://www.monato.be/2013/010906.php">Ne parolu ... sed jes ja pri
+          presti&gcirc;a premio!</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        viajn florojn dis<tld/>u kun profito
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Liriko Kaj Praktiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u via konscienco vere permesas al vi trankvilanime dis<tld/>i tiom da stulta&jcirc;oj
+        al senpriju&gcirc;aj homoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="vend.for0i.tute">forvendi<sncref/></ref>
+    <ref tip="vid" cel="vend.rabat0i">rabatvendi</ref>
+  </snc>
+  <trd lng="be">&c_r;&c_a;&c_s;&c_p;&c_r;&c_a;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>abverkaufen</trd>,
+    <trd>ausverkaufen</trd>
+  </trdgrp>
+  <trd lng="en">sell off</trd>
+  <trd lng="ja">&#x58F2;&#x308A;&#12373;&#12400;&#x304F;  <pr>&#12358;&#x308A;&#12373;&#12400;&#x304F;</pr></trd>
 </drv>
 
 <drv mrk="vend.for0i">
@@ -567,11 +730,11 @@ yer)</klr></trd>
         tiu firmao fine devis rezigni, kaj &gcirc;i for<tld/>is sian PC-procesoran sekcion
         <klr>[&#8230;]</klr> rabate
         <fnt>
-          <bib>Monato</bib>
           <aut>Franck Arnaud</aut>
-          <vrk><url ref="&Steloj;monato2/007114.html">Intel alfrontas
-          konkurencon</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007114.html">Intel alfrontas konkurencon</url></vrk>
+           <bib>Monato</bib>
+            <lok>2000/10, p. 16</lok>
+          </fnt>;
       </ekz><ekz>
         markitan tekokomputilon oni ja malpli facile for<tld/>as
         <fnt>
@@ -614,7 +777,7 @@ yer)</klr></trd>
         </fnt>
         <klr>(ekzekutota)</klr>;
       </ekz><ekz>
-        tiuj lastaj for<tld/>as sian tutan ri&ccirc;a&jcirc;on, nur por 
+        tiuj lastaj for<tld/>as sian tutan ri&ccirc;a&jcirc;on, nur por
         liberigi siajn hejmulojn
         <fnt><aut>Bardhyl Selimi</aut>: <vrk>Voja&gcirc;impresoj,
         somero 2000</vrk>, <bib>Monato</bib><lok>jaro 2001a, numero 1a,
@@ -645,6 +808,10 @@ yer)</klr></trd>
     <trd>zpen&ecaron;&zcaron;it</trd>
   </trdgrp>
   <trd lng="de">verkaufen</trd>
+  <trdgrp lng="en">
+    <trd>sell out<klr> (vt, to sell all stock)</klr></trd>,
+    <trd>sell off<klr> (vt)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>brader</trd>,
     <trd>bazarder</trd>,
@@ -654,6 +821,10 @@ yer)</klr></trd>
     <trd>ki&aacute;rus&iacute;t</trd>,
     <trd>p&eacute;nzz&eacute; tesz</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x58F2;&#x308A;&#25173;&#12358;  <pr>&#12358;&#x308A;&#x306F;&#12425;&#12358;</pr></trd>,
+    <trd>&#x58F2;&#x308A;&#12392;&#12400;&#12377;  <pr>&#12358;&#x308A;&#12392;&#12400;&#12377;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verkopen</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_d;&c_a;&c_t;&c_mol;</trd>,
@@ -662,8 +833,8 @@ yer)</klr></trd>
   <trd lng="sk">odpreda&tcaron;</trd>
   <trd lng="tr">ucuz fiyatla elden &ccedil;&inodot;karmak</trd>
   <trdgrp lng="uk">
-    <trd>&c_s;&#x43F;&c_r;&#x43E;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&c_s;&#x43F;&c_r;&#x43E;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_s;&c_p;&c_r;&c_o;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -706,11 +877,18 @@ yer)</klr></trd>
   <trd lng="cs">kupovat z druh&eacute; ruky</trd>
   <trd lng="de">wiederverkaufen</trd>
   <trd lng="el">&my;&epsilon;&tau;&alfa;&pi;&omikron;&ypsilon;&lambda;&omega_ton;</trd>
+  <trd lng="en">resell</trd>
   <trd lng="es">revender</trd>
   <trd lng="fr">revendre</trd>
   <trdgrp lng="hu">
     <trd>&uacute;jra elad</trd>,
     <trd>&uacute;jra &eacute;rt&eacute;kes&iacute;t</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8EE2;&#x58F2;&#12377;&#x308B;  <pr>&#12390;&#12435;&#12400;&#12356;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x53D6;&#x6B21;&#x8CA9;&#x58F2;&#12377;&#x308B;
+    <pr>&#12392;&#x308A;&#12388;&#x304E;&#x306F;&#12435;&#12400;&#12356;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x58F2;&#x308A;&#x623B;&#12377;  <pr>&#12358;&#x308A;&#12418;&#12393;&#12377;</pr></trd>
   </trdgrp>
   <trd lng="nl">herverkopen</trd>
   <trd lng="pt">revender</trd>
@@ -718,8 +896,8 @@ yer)</klr></trd>
   <trd lng="sk">kupova&tcaron; z druhej ruky</trd>
   <trd lng="tr">geri satmak</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_je;&c_r;&c_je;&#x43F;&c_r;&#x43E;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_je;&c_r;&c_je;&#x43F;&c_r;&#x43E;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_r;&c_o;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -732,11 +910,11 @@ yer)</klr></trd>
       <ekz>
         mia edzino butikumis en super<tld/>ejo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007170.html">Ni hontas kaj
-          postulas</url></vrk>
-        </fnt>;
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007170.html">Ni hontas kaj postulas</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 7</lok>
+          </fnt>;
       </ekz><ekz>
         la super<tld/>ejoj trovi&gcirc;as precipe en la &ccirc;efurboj
         <fnt>
@@ -769,8 +947,10 @@ yer)</klr></trd>
     <trd>Supermarkt</trd>,
     <trd>Kaufhaus</trd>
   </trdgrp>
+  <trd lng="en">supermarket</trd>
   <trd lng="fr">supermarch&eacute;</trd>
-  <trd lng="hu">szpermarket</trd>  
+  <trd lng="hu">szpermarket</trd>
+  <trd lng="ja">&#x30B9;&#x30FC;&#x30D1;&#x30FC;&#x30DE;&#x30FC;&#x30B1;&#x30C3;&#x30C8;</trd>
   <trd lng="nl">supermarkt</trd>
   <trd lng="ru">&c_s;&c_u;&c_p;&c_je;&c_r;&c_m;&c_a;&c_r;&c_k;&c_je;&c_t;</trd>
 </drv>
@@ -781,44 +961,91 @@ yer)</klr></trd>
     <uzo tip="fak">EKON</uzo>
     <ref tip="dif" cel="detal.0isto">detalisto</ref>
   </snc>
+  <trd lng="be">&c_g;&c_a;&c_n;&c_d;&c_l;&c_ja;&c_r; &c_u; &c_r;&c_a;&c_z;&c_d;&c_r;&c_o;&c_b;</trd>
   <trd lng="ca">detallista <klr>(comer&ccedil;)</klr></trd>
   <trd lng="cs">maloobchodn&iacute;k</trd>
   <trdgrp lng="de">
     <trd>Einzelh&auml;ndler</trd>,
     <trd>Einzelhandelskaufmann</trd>
   </trdgrp>
+  <trd lng="en">retailer<klr> (n, as opposed to wholesaler)</klr></trd>
   <trd lng="fr">d&eacute;taillant</trd>
   <trd lng="hu">kiskeresked&odblac;</trd>
   <trd lng="nl">kleinhandelaar</trd>
-  <trd lng="ru">&c_r;&c_o;&c_z;&c_n;&c_i;&c_ch;&c_n;&c_y;&c_j; 
+  <trd lng="ru">&c_r;&c_o;&c_z;&c_n;&c_i;&c_ch;&c_n;&c_y;&c_j;
 &c_t;&c_o;&c_r;&c_g;&c_o;&c_v;&c_je;&c_c;</trd>
   <trd lng="sk">maloobchodn&iacute;k</trd>
+</drv>
+
+<drv mrk="vend.rabat0i">
+  <kap>
+    rabat<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="V"/>i kun rabato:
+      <ekz>
+        la magazeno komencos grandan rabat<tld/>adon, kaj oni bezonos &ccirc;iun metron
+        <fnt>
+          <bib>KrM</bib>
+          <lok>28. Tute Libera Kiel Birdo Aera.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        koleginoj enoficejaj malkovris rabat<tld/>adon de viraj puloveroj
+        <fnt>
+          <bib>OIP</bib>
+          <lok>Ombro sur interna pejza&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malpaco malinstigas turismon kaj ka&ubreve;zas gravajn ekonomiajn perdojn dum la
+        novjaraj rabat<tld/>adoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.be/2013/010959.php">Malpaco flagranta</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="vend.dis0i">disvendi</ref>,
+      <ref cel="vend.for0i.tute">forvendi<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol; &c_s;&c_a; &c_z;&c_mol;&c_n;&c_ib;&c_zh;&c_k;&c_a;&c_j;</trd>
+  <trdgrp lng="de">
+    <trd>ausverkaufen</trd>,
+    <trd>eine <ind>Rabattaktion</ind> durchf&uuml;hren</trd>
+  </trdgrp>
+  <trd lng="en">sell off</trd>
 </drv>
 
 </art>
 <!--
 $Log$
-versio 1.127 2022/05/06 12:17:21
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.140 2023/12/12 20:10:29
+revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.126 2022/05/03 08:37:02
-Ulrich Fellmann: cxiovendejo: +1 DE trd, -1 DE trd
+versio 1.139 2023/11/30 09:27:18
+Dmitri Gabinski: + trd be
 
-versio 1.124 2022/02/07 17:40:26
-Sergio Pokrovskij: ~i kontraux
+versio 1.138 2023/10/21 16:50:35
+revo: transskribo per <pr>
 
-Revision 1.45  2020/01/02 15:10:14  revo
-Wolfram Diestel: ~i..~ejo: ekz-oj
+versio 1.137 2023/09/13 16:30:22
+Wolfram Diestel: pr. ja
 
-Revision 1.44  2018/08/24 15:15:13  revo
-kor. ecaron en la chehha
+versio 1.136 2023/09/10 15:34:10
+revo: korekto de transskribo
 
-Revision 1.43  2018/06/13 03:10:24  revo
-Dusan Juretic: +trd es
+versio 1.134 2023/08/29 20:26:36
+Wolfram Diestel: ja: prononco
 
-Revision 1.42  2015/07/04 08:37:45  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.133 2023/06/24 16:34:42
+Wolfram Diestel: +~ado
 
-Revision 1.41  2015/06/28 12:03:50  revo
+versio 1.132 2023/06/24 15:27:07
 -->
 </vortaro>

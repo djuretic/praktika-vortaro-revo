@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: triv.xml,v 1.9 2022/03/28 14:44:12 revo Exp $">
+<art mrk="$Id: triv.xml,v 1.12 2024/01/25 18:30:25 revo Exp $">
 <kap>
     <rad>triv</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -14,7 +14,7 @@
       <ref tip="dif" cel="uz.el0i.foruzi">Eluzi<sncref/></ref>:
       <ekz>
         sub ni estas <tld/>ita kaj malpura littuko
-        <fnt><aut>B. Vaha</aut>, <vrk>Adolesko</vrk>, 
+        <fnt><aut>B. Vaha</aut>, <vrk>Adolesko</vrk>,
         <lok>1987</lok></fnt>;
       </ekz>
       <ekz>
@@ -36,15 +36,6 @@
           <aut>Roberto Pigro</aut>
           <vrk><url ref="&Monato;/2012/010845.php">Saturnia: Vintra
           magio</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        19a jarcento, <tld/>itraj T-formaj fenestroj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Saliko</aut>
-          <vrk><url ref="&Monato;/2014/011095.php">Tammisaari, urbeto
-          &ccirc;e Balta Maro</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -70,6 +61,10 @@
       <trd>ausleiern</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_n;&c_o;&c_sh;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_a;&c_d;&c_z;&c_je;&c_n;&c_mol;&c_n;&c_je;)</klr></trd>,
+    <trd>&c_r;&c_a;&c_z;&c_mol;&c_b;&c_ib;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_a;&c_b;&c_u;&c_t;&c_a;&c_k;, &c_d;&c_a;&c_r;&c_o;&c_g;&c_u; &c_ib; &c_d;&c_a; &c_g;. &c_p;.)</klr></trd>
+  </trdgrp>
   <trd lng="ca">desgastar</trd>
   <trdgrp lng="cs">
     <trd>obnosit</trd>,
@@ -81,6 +76,12 @@
     <trd>consumare</trd>,
     <trd>logorare</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wyciera&cacute;</trd>,
+    <trd>zdziera&cacute;</trd>,
+    <trd>zetrze&cacute;</trd>,
+    <trd>zu&zdot;ywa&cacute;  <klr>(przez tarcie)</klr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>dra&tcaron;</trd>,
     <trd>obnosi&tcaron;</trd>,
@@ -88,17 +89,26 @@
     <trd>zodra&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x43D;&#x43E;&#x448;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x440;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x432;&#x438;&#x441;&#x43D;&#x430;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x43D;&#x435;&#x441;&#x438;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x432;&#x438;&#x43C;&#x43E;&#x442;&#x443;&#x432;&#x430;&#x442;&#x438; &#x441;&#x438;&#x43B;&#x438; (&#x441;&#x443;&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x43A;&#x430;)</trd>
+    <trd>&c_z;&#x43D;&#x43E;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_t;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&c_s;&#x43D;&c_a;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&#x43D;&c_je;&c_s;&c_i;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_v;&c_i;&#x43C;&#x43E;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i; &c_s;&c_i;&#x43B;&c_i; (&c_s;&c_u;&#x43F;&c_r;&#x43E;&c_t;&c_i;&c_v;&#x43D;&c_i;&#x43A;&c_a;)</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.12 2024/01/25 18:30:25
+Vito Redsky: +trd pl
+
+versio 1.11 2023/12/14 17:29:41
+Bradford Carl Smith: forigu fusxan ekzemplon
+
+versio 1.10 2023/05/18 08:29:30
+Dmitri Gabinski: + trd be
+
 Revision 1.7  2018/08/31 12:10:11  revo
 Guillermo Molleda Jimena: trd es
 
@@ -112,13 +122,5 @@ Revision 1.4  2015/06/29 16:40:20  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.3  2012/08/14 13:10:30  revo
-Marc Rausell: + trd ca
-
-Revision 1.2  2010/06/09 16:30:31  revo
-Antonio Codazzi: +trd it
-
-Revision 1.1  2010/05/28 16:30:25  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

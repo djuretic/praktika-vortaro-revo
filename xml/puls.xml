@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: puls.xml,v 1.26 2022/05/04 18:30:34 revo Exp $">
+<art mrk="$Id: puls.xml,v 1.30 2023/10/20 16:38:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>puls</rad>/o
@@ -75,12 +75,11 @@
         <trd lng="ru">&c_t;&c_r;&c_jo;&c_h;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
       </ekz>
       <ekz>
-        en la takto &#190; &ccirc;iu mezuro havas tri <tld/>ojn
+        en la takto &#xBE; &ccirc;iu mezuro havas tri <tld/>ojn
         <fnt>
         <aut>B. </aut>:
         <vrk>Rokmuzika Terminaro</vrk>,
-        <lok><url
-        ref="http://purl.oclc.org/net/bertilow?d=roko/tuvz.php#takto">&leftquot;takto&rightquot;</url></lok>.
+        <lok><url ref="http://purl.oclc.org/net/bertilow?d=roko/tuvz.php#takto">&leftquot;takto&rightquot;</url></lok>.
         </fnt>;
       </ekz>
       <ekz>
@@ -94,8 +93,7 @@
         <trd lng="nl">eerste <ind>tel</ind> v.e. maat</trd>
       </ekz>
     </dif>
-    <trd lng="be">&c_d;&c_o;&c_l;&c_ja; <klr>(&c_u; 
-&c_m;&c_u;&c_z;&c_y;&c_c;&c_y;)</klr></trd>
+    <trd lng="be">&c_d;&c_o;&c_l;&c_ja; <klr tip="amb">(&c_u; &c_m;&c_u;&c_z;&c_y;&c_c;&c_y;)</klr></trd>
     <trd lng="ca">temps<klr> (musical)</klr></trd>
     <trd lng="de">Z&auml;hlzeit <klr>(Takt)</klr></trd>
     <trdgrp lng="en">
@@ -113,10 +111,16 @@
 <klr>(&c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_a;, 
 &c_t;&c_a;&c_k;&c_t;&c_a;)</klr></trd>
   </snc>
-  <trd lng="bo">&#3938;&#4009;&#3851;</trd>
+  <trd lng="bo">&t_ra;&t_tsata;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>puls</trd>,
     <trd>tep</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8108;&#x62CD;  <pr>&#x307F;&#x3083;&#x304F;&#x306F;&#x304F;</pr></trd>,
+    <trd>&#x8108;  <pr>&#x307F;&#x3083;&#x304F;</pr></trd>,
+    <trd>&#x62CD;  <pr>&#x306F;&#x304F;</pr></trd>,
+    <trd>&#x30D1;&#x30EB;&#x30B9;</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>pulz</trd>,
@@ -166,7 +170,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[en]</klr> la iama juda kvartalo <klr>[&#8230;]</klr> la vivo <tld/>as
+        <klr>[en]</klr> la iama juda kvartalo <klr>[&#x2026;]</klr> la vivo <tld/>as
         <fnt>
           <bib>Monato</bib>
           <aut>Zofia Banet-Fornalowa</aut>
@@ -176,14 +180,16 @@
         </fnt>;
       </ekz>
       <ekz>        
-        &scirc;ia ventro <klr>[&#8230;]</klr> <tld/>is kun la ritmo de &scirc;ia koro
+        &scirc;ia ventro <klr>[&#x2026;]</klr> <tld/>is kun la ritmo de &scirc;ia koro
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007215.html">La peko de Ros</url></vrk>
+	<aut>Julian Modest</aut>
+	<vrk><url ref="&Monato;/2001/007215.php">La peko de Ros</url></vrk>
+	<bib>Monato</bib>
+	<lok>2001/01, p. 24</lok>
         </fnt>;
       </ekz>
       <ekz>
-        oni metas anta&ubreve; nin iun universon <klr>[&#8230;]</klr> supozeble <tld/>antan de
+        oni metas anta&ubreve; nin iun universon <klr>[&#x2026;]</klr> supozeble <tld/>antan de
         sendimensia punkto al eksplodo kaj reen, a&ubreve; dancantan la&ubreve; la takto de la
         teorio de la kordoj
         <fnt>
@@ -214,6 +220,11 @@
   </trdgrp>
   <trd lng="fr">pulser</trd>
   <trd lng="hu">l&uuml;ktet</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8108;&#x3092;&#x6253;&#x3064;  <pr>&#x307F;&#x3083;&#x304F;&#x3092;&#x3046;&#x3064;</pr></trd>,
+    <trd>&#x8108;&#x52D5;&#x3059;&#x308B;  <pr>&#x307F;&#x3083;&#x304F;&#x3046;&#x3054;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8108;&#x6253;&#x3064;  <pr>&#x307F;&#x3083;&#x304F;&#x3046;&#x3064;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>pulseren</trd>,
     <trd>kloppen</trd>
@@ -245,8 +256,17 @@
       Regule intermite lumi.
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_u;&c_l;&c_mol;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_a;&c_b; &c_s;&c_mol;&c_v;&c_ja;&c_t;&c_l;&c_je;)</klr></trd>,
+    <trd>&c_m;&c_ib;&c_g;&c_c;&c_je;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="de">blinken</trd>
   <trd lng="en">blink</trd>
+  <trdgrp lng="ja">
+    <trd>&#x70B9;&#x6EC5;&#x3059;&#x308B;  <pr>&#x3066;&#x3093;&#x3081;&#x3064;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x660E;&#x6EC5;&#x3059;&#x308B;  <pr>&#x3081;&#x3044;&#x3081;&#x3064;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x30D7;&#x30EA;&#x30F3;&#x30AF;&#x3059;&#x308B;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>knipperen</trd>,
     <trd>flikkeren</trd>
@@ -264,6 +284,15 @@
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.28 2023/04/23 14:27:09
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.27 2022/12/16 12:43:03
+Dmitri Gabinski: + trd be
+
 versio 1.26 2022/05/04 18:30:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -277,14 +306,5 @@ Revision 1.20  2015/06/29 16:40:19  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.19  2014/06/10 12:10:17  revo
-Damien Brucker: +trd fr
-
-Revision 1.18  2009/11/11 17:30:19  revo
-Paul Peeraerts: +nl
-
-Revision 1.17  2006/04/17 16:33:13  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2006/03/18 17:32:12  revo
 -->
 </vortaro>

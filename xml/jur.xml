@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: jur.xml,v 1.35 2022/05/31 07:31:18 revo Exp $">
+<art mrk="$Id: jur.xml,v 1.42 2023/12/06 07:24:31 revo Exp $">
 <kap>
 <ofc>*</ofc> <ofc>3</ofc> <ofc>8</ofc>
 <rad>jur</rad>/o
@@ -12,41 +12,73 @@
   <snc mrk="jur.0o.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Aro da reguloj, kiuj difinas la 
-      <ref tip="vid" cel="rajt.0o">rajtojn</ref> kaj devojn de la
-      homoj a&ubreve; kolektiva&jcirc;oj, kaj kies malrespekto povas sekvigi socian
+      Aro da <ref tip="prt" cel="regul.0o">regulo</ref>j, kiuj difinas la
+      <ref cel="rajt.0o">rajtojn</ref> kaj devojn de la
+      homoj a&ubreve; kolektivoj, kaj kies malrespekto povas sekvigi socian
       formon de <ref tip="vid" cel="jugx.0i">ju&gcirc;o</ref> a&ubreve; puno:
       <ekz>
-        <ref cel="jur.kutim0o">kutim<tld/>o</ref>;
-      </ekz><ekz>
-        romia <tld/>o;
-      </ekz><ekz>
-        <ref cel="kanon.0a.JUR">kanona</ref> <tld/>o;
-      </ekz><ekz>
-        <ind>internacia <tld/>o</ind>
-        <trd lng="en">international law</trd>
-        <trd lng="lat">ius gentium</trd>
-        <trd lng="nl">internationaal <ind>recht</ind></trd>;
-      </ekz><ekz>
-        pozitiva <tld/>o <klr>(difinita de la 
-        <ref tip="vid" cel="legx.0o">le&gcirc;oj</ref> a&ubreve; aliaj normaj 
-        tekstoj)</klr>;
-      </ekz><ekz>
-        natura <tld/>o <klr>(principoj, valoroj, kiuj ekzistas ekster la
-        pozitiva <tld/>o, per kiuj oni povas ju&gcirc;i ion 
-<ref tip="vid" cel="just.0a">justa</ref> a&ubreve; maljusta, 
-<ref tip="vid" cel="prav.0a">prava</ref> a&ubreve; malprava: 
-<ref tip="vid" cel="moral.0o">moralo</ref>)</klr>;
-      </ekz><ekz>
-        <ind><tld/>filozofio</ind>;
-       <trd lng="it">filosofia del diritto</trd>
-       <trd lng="nl">rechtsfilosofie</trd>
-      </ekz><ekz>
-        <tld/>historio;
-      </ekz><ekz>
-        <tld/>sociologio;
-      </ekz><ekz>
-        <tld/>oscienco;
+        pozitiva <tld/>o <klr>(difinita de la
+        <ref tip="vid" cel="legx.0o">le&gcirc;oj</ref> a&ubreve; aliaj normaj
+        tekstoj, kp <ref cel="jur.natura_0o">natura <tld/>o</ref>)</klr>;
+      </ekz>
+      <ekz>
+        Konferenco pri la <tld lit="J"/>o de Traktatoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi prenis la dokumenton de a&ccirc;eto, la sigelitan la&ubreve; <tld/>o kaj le&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 32:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tiuj]</klr> estroj <klr>[&#8230;]</klr> abomenas <tld/>on kaj kurbigas &ccirc;ion
+        rektan
+        <fnt>
+          <bib>MT</bib>
+          <lok>Mi&hcirc;a 3:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; la le&gcirc;oj de la &gcirc;enerala <tld/>o
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni instruadis ne nur la parolarton, sed anka&ubreve; la filozofion kaj la <tld/>on
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li interesi&gcirc;is pri literaturo, lernis dialektikon kaj <tld/>on
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la interpretado de la <tld/>o estas unu el &ccirc;efaj kaj plej malfacilaj taskoj de
+        ju&gcirc;eja oratoro
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;an&gcirc;itaj cirkonstancoj postulis amendojn por konformigi la Statuton al
+        nederlanda <tld/>o kaj havigi al UEA sendependan <tld/>an personecon
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <tld/>medicina viza&gcirc;rekonstruo la&ubreve; la trovita kranio similegas al la portretoj
@@ -56,8 +88,32 @@
           <lok><url ref="https://eo.wikipedia.org/?curid=2100">Koperniko</url></lok>
         </fnt>.
       </ekz>
+<!-- por tiuj kreu apartajn drv-ojn en la koncernaj artikoloj! -->
+      <ekz>
+        <ind><tld/>filozofio</ind>;
+       <trd lng="it">filosofia del diritto</trd>
+       <trd lng="nl">rechtsfilosofie</trd>
+      </ekz><ekz>
+        <tld/>historio;
+      </ekz><ekz>
+        <tld/>sociologio;
+      </ekz><ekz>
+        <tld/>oscienco.
+      </ekz>
     </dif>
+    <refgrp tip="prt">
+      <ref cel="jugx.0o">ju&gcirc;o</ref>,
+      <ref cel="just.0eco">justeco</ref>,
+      <ref cel="jurisdikci.0o">jurisdikcio</ref>,
+      <ref cel="legx.0o.JUR">le&gcirc;o<sncref/></ref>,
+      <ref cel="pun.0o">puno</ref>,
+      <ref cel="verdik.0o">verdikto</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x6CD5;  <pr>&#x307B;&#12358;</pr></trd>,
+    <trd>&#x6CD5;&#x5F8B;  <pr>&#x307B;&#12358;&#x308A;&#12388;</pr></trd>
+  </trdgrp>
   <trd lng="lat">ius</trd>
   <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_a;</trd>
   <trd lng="br">gwir<klr tip="ind"> (lezenno&ugrave;)</klr></trd>
@@ -71,14 +127,18 @@
   <trd lng="fr">droit<klr> (subst., justice)</klr></trd>
   <trd lng="hu">jog</trd>
   <trdgrp lng="it">
-      <trd>diritto</trd>,
-      <trd>legge</trd>
-    </trdgrp>
+    <trd>diritto</trd>,
+    <trd>legge</trd>
+  </trdgrp>
   <trd lng="nl">recht</trd>
   <trd lng="pt">lei</trd>
   <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o;</trd>
   <trd lng="sk">pr&aacute;vo</trd>
-  <trd lng="uk">&#x43F;&c_r;&c_a;&c_v;&#x43E;</trd>
+  <trd lng="uk">&c_p;&c_r;&c_a;&c_v;&c_o;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6CD5;&#x5B66; <pr>f&#x1CE;xu&#xE9;</pr></trd>,
+    <trd>&#x6CD5; <pr>f&#x1CE;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="jur.0a">
@@ -88,16 +148,65 @@
     <dif>
       Koncernanta la <tld/>on:
       <ekz>
-        <ind><tld/>aj konsiloj</ind>;
+        <ind><tld/>aj konsiloj</ind>
+        <fnt>
+          <bib>CKv</bib>
+          <lok>15</lok>
+        </fnt>;
         <trd lng="it">consigli legali</trd>
         <trd lng="nl">rechtshulp</trd>
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        <tld/>a konsilisto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniun oni rigardu kulpa anta&ubreve; deca <tld/>a esploro
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ni]</klr> devas analizi la aferon el fakta kaj el <tld/>a vidpunktoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mortigo de homo estas krimo la&ubreve; &ccirc;iuj <tld/>aj sistemoj de la hodia&ubreve;o
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        asignisto, &ccirc;i-kaze funkcianta kiel <tld/>a konstatisto, envenis
+        <fnt>
+          <bib>ChR</bib>
+          <lok>Veli morten</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a procedo
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro VIII.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <ind><tld/>aj normoj</ind>;
         <trd lng="it">normativa<klr> (leggi)</klr></trd>
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         <tld/>aj sciencoj.
       </ekz>
     </dif>
+    <ref tip="vid" cel="jugx.0a">ju&gcirc;a</ref>
     <trd lng="de">rechtlich</trd>
     <trd lng="es">jur&iacute;dico, -a</trd>
     <trdgrp lng="pt">
@@ -112,10 +221,17 @@
       <ekz>
         <ind><tld/>a persono</ind><trd lng="fr">personnalit&eacute;
         juridique</trd>;
-        <trd lng="hu">jogi szem&eacute;ly</trd>;
+        <trd lng="hu">jogi szem&eacute;ly</trd>
       </ekz><ekz>
-        <ind><tld/>a protekto</ind>.
+        <ind><tld/>a protekto</ind>;
         <trd lng="hu">jogv&eacute;delem</trd>
+      </ekz>
+      <ekz>
+        atingi eksplicitan <tld/>an rajton instrui Esperanton en la lernejoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">juristisch</trd>
@@ -138,18 +254,23 @@
     <trd>jogi</trd>
   </trdgrp>
   <trdgrp lng="it">
-      <trd>giuridico</trd>, 
+      <trd>giuridico</trd>,
       <trd>legale</trd>
     </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6CD5;&#x306E;  <pr>&#x307B;&#12358;&#x306E;</pr></trd>,
+    <trd>&#x6CD5;&#30340;&#x306A;  <pr>&#x307B;&#12358;&#12390;&#x304D;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">juridisch</trd>
   <trd lng="pt">jur&iacute;dico</trd>
   <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o;&c_v;&c_o;&c_j;</trd>
   <trd lng="sk">pr&aacute;vny</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&c_a;&c_v;&#x43D;&c_i;&c_ch;&c_i;&c_j;</trd>,
-    <trd>&#x43F;&c_r;&c_a;&c_v;&#x43E;&c_v;&c_i;&c_j;</trd>,
-    <trd>&#x44E;&c_r;&c_i;&c_d;&c_i;&c_ch;&#x43D;&c_i;&c_j;</trd>
+    <trd>&c_p;&c_r;&c_a;&c_v;&c_n;&c_i;&c_ch;&c_i;&c_j;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_v;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_ju;&c_r;&c_i;&c_d;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="zh">&#x4F9D;&#x6CD5; <pr>y&#x12B;f&#x1CE;</pr></trd>
 </drv>
 
 <drv mrk="jur.0isto">
@@ -159,8 +280,58 @@
   <snc mrk="jur.0isto.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Fakulo pri <tld/>o.
+      Fakulo pri <tld/>o:
+      <ekz>
+        studento <tld/>isto en Neapolo
+        <fnt>
+          <bib>IKr</bib>
+          <lok>Neniam Plu!</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvankam <tld/>isto, li estas <klr>[&#8230;]</klr> sufi&ccirc;e honesta kaj sincera viro
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni, <tld/>istoj, efektive estas ne multe pli ol speguloj
+        <fnt>
+          <bib>BdV</bib>
+          <lok>La Batalo de l' Vivo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la helpo de fakuloj-<tld/>istoj estas deviga en &ccirc;iuj pli gravaj civilaj a&ubreve;
+        kriminalaj procesoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi konsultis <tld/>iston el la prokurorejo, kaj li diris, ke mi havas nur
+        &#x201A;cirkonstancajn akuzfaktojn&#8216; kontra&ubreve; vi
+        <fnt>
+          <bib>ChR</bib>
+          <lok>Veli morten</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Internacia Esperanto-Asocio de <tld lit="J"/>istoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Enhavtabelo</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="advoka.0o.JUR">advokato<sncref/></ref>,
+      <ref cel="jugx.0isto">ju&gcirc;isto</ref>,
+      <ref cel="notari.0o">notario</ref>,
+      <ref cel="prokur1.0o">prokuroro</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_ju;&c_r;&c_y;&c_s;&c_t;</trd>
   <trd lng="br">gwiraour</trd>
@@ -180,6 +351,10 @@
   <trd lng="fr">juriste</trd>
   <trd lng="hu">jog&aacute;sz</trd>
   <trd lng="it">giurista</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6CD5;&#x5B66;&#32773;  <pr>&#x307B;&#12358;&#x304C;&#x304F;&#12375;&#12419;</pr></trd>,
+    <trd>&#x6CD5;&#x5F8B;&#x5C02;&#38272;&#x5BB6;  <pr>&#x307B;&#12358;&#x308A;&#12388;&#x305B;&#12435;&#12418;&#12435;&#x304B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>jurist</trd>,
     <trd>rechtsgeleerde</trd>
@@ -191,32 +366,179 @@
   <trd lng="ru">&c_ju;&c_r;&c_i;&c_s;&c_t;</trd>
   <trd lng="sk">pr&aacute;vnik</trd>
   <trdgrp lng="uk">
-    <trd>&#x44E;&c_r;&c_i;&c_s;&c_t;</trd>,
-    <trd>&#x43F;&c_r;&c_a;&c_v;&#x43D;&c_i;&#x43A;</trd>
+    <trd>&c_ju;&c_r;&c_i;&c_s;&c_t;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_v;&c_n;&c_i;&c_k;</trd>
+  </trdgrp>
+  <trd lng="zh">&#x6CD5;&#x5B66;&#x5BB6; <pr>f&#x1CE;xu&#xE9;ji&amacron;</pr></trd>
+</drv>
+
+<drv mrk="jur.internacia_0o">
+  <kap>
+    internacia <tld/>o,
+    <var><kap>internacia publika <tld/>o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Reguloj kaj principoj regulantaj la rilatojn inter &scirc;tatoj (kaj kelkaj pliaj
+      apartaj institucioj, ekz-e Sankta Se&gcirc;o, Suverena Milita Ordeno de Malto k.a.):
+      <ekz>
+        li faris pli ol 300 prelegojn <klr>[&#8230;]</klr> pri internaciaj rilatoj kaj
+        internacia <tld/>o
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        elstaras la studoj de <nom>I. Lapenna</nom>, La Lingva Problemo en Internaciaj Rilatoj kaj
+        Kelkaj Aspektoj de la Lingva Problemo en Internacia Publika <tld lit="J"/>o
+        kaj Kompara Juro
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_m;&c_ib;&c_zh;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_a;&c_je; <ind>&c_p;&c_r;&c_a;&c_v;&c_a;</ind></trd>
+  <trd lng="de">V&ouml;lkerrecht</trd>
+  <trd lng="en">international law</trd>
+  <trd lng="ja">&#x56FD;&#x969B;&#x6CD5;  <pr>&#12371;&#x304F;&#12373;&#12356;&#x307B;&#12358;</pr></trd>
+  <trd lng="lat">ius gentium</trd>
+  <trd lng="nl">internationaal <ind>recht</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x56FD;&#38469;&#x6CD5; <pr>gu&#xF3;j&#xEC;f&#x1CE;</pr></trd>,
+    <trd>&#x4E07;&#x56FD;&#x516C;&#x6CD5; <pr>w&#xE0;ngu&#xF3;g&#x14D;ngf&#x1CE;</pr></trd>
   </trdgrp>
 </drv>
 
-    <drv mrk="jur.kutim0o">
-      <kap>kutim<tld/>o <fnt><bib>PIV1</bib></fnt></kap>
-      <snc>
-        <uzo tip="fak">JUR</uzo>
-        <dif>
-          <tld lit="J"/>o bazita ne sur skribitaj le&gcirc;oj, sed sur
-          tradicio kaj kutimoj:
-          <ekz>
-            la milit<tld/>o, fiksita en la internacia kutim<tld/>o kaj
-            en kelkaj internaciaj traktatoj
-            <fnt><bib>Viki</bib>,
-              <lok><url ref="&Viki;/Militkrimo">Militkrimo</url></lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_z;&c_v;&c_y;&c_ch;&c_a;&c_jo;&c_v;&c_a;&c_je; <ind>&c_p;&c_r;&c_a;&c_v;&c_a;</ind></trd>
-      <trd lng="de">Gewohnheitsrecht</trd>
-      <trd lng="en">common law</trd>
-      <trd lng="fr">droit coutumier</trd>
-      <trd lng="ru">&c_o;&c_b;&c_y;&c_ch;&c_n;&c_o;&c_je; &c_p;&c_r;&c_a;&c_v;&c_o;</trd>
-      <trd lng="uk">&c_z;&c_v;&c_i;&c_ch;&c_a;&c_jeu;&c_v;&c_je; &#x43F;&c_r;&c_a;&c_v;&#x43E;</trd>
+<drv mrk="jur.kanona_0o">
+  <kap>
+    kanona <tld/>o
+  </kap>
+  <snc>
+    <uzo tip="fak">JUR</uzo>
+    <uzo tip="fak">KAT</uzo>
+    <dif>
+      <tld/>o de la eklezio, pli konkrete de la romkatolika:
+      <ekz>
+        la malpermeso de interezo la&ubreve; la kanona juro enpenetris la svedan mezepokan
+        juron, sed poste &gcirc;in anstata&ubreve;is malpermeso de interezo super certa nivelo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007279.html">Anta&ubreve;merkantilisma ekonomia
+          pensado</url></vrk>
+        </fnt>;
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_n;&c_a;&c_n;&c_ib;&c_ch;&c_n;&c_a;&c_je; <ind>&c_p;&c_r;&c_a;&c_v;&c_a;</ind></trd>
+  <trd lng="ca">dret can&ograve;nic</trd>
+  <trd lng="de">kanonisches Recht</trd>
+  <trd lng="en">canon law</trd>
+  <trd lng="fr">droit canonique</trd>
+  <trd lng="hu">k&aacute;nonjog</trd>
+  <trd lng="nl">canoniek recht</trd>
+  <trd lng="ru">
+  &c_k;&c_a;&c_n;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
+  &c_p;&c_r;&c_a;&c_v;&c_o;
+  </trd>
+</drv>
+
+<drv mrk="jur.kutim0o">
+  <kap>kutim<tld/>o <fnt><bib>PIV1</bib></fnt></kap>
+  <snc>
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      <tld lit="J"/>o bazita ne sur skribitaj le&gcirc;oj, sed sur
+      tradicio kaj kutimoj:
+      <ekz>
+        la milit<tld/>o, fiksita en la internacia kutim<tld/>o kaj
+        en kelkaj internaciaj traktatoj
+        <fnt><bib>Viki</bib>,
+          <lok><url ref="&Viki;/Militkrimo">Militkrimo</url></lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_z;&c_v;&c_y;&c_ch;&c_a;&c_jo;&c_v;&c_a;&c_je; <ind>&c_p;&c_r;&c_a;&c_v;&c_a;</ind></trd>
+  <trd lng="de">Gewohnheitsrecht</trd>
+  <trd lng="en">common law</trd>
+  <trd lng="fr">droit coutumier</trd>
+  <trd lng="ja">&#24931;&#x7FD2;&#x6CD5;  <pr>&#x304B;&#12435;&#12375;&#12421;&#12358;&#x307B;&#12358;</pr></trd>
+  <trd lng="ru">&c_o;&c_b;&c_y;&c_ch;&c_n;&c_o;&c_je; &c_p;&c_r;&c_a;&c_v;&c_o;</trd>
+  <trd lng="uk">&c_z;&c_v;&c_i;&c_ch;&c_a;&c_jeu;&c_v;&c_je; &c_p;&c_r;&c_a;&c_v;&c_o;</trd>
+  <trd lng="zh">&#x4E60;&#x60EF;&#x6CD5; <pr>x&#xED;gu&#xE0;nf&#x1CE;</pr></trd>
+</drv>
+
+<drv mrk="jur.natura_0o">
+  <kap>
+    natura <tld/>o
+  </kap>
+  <snc>
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      Principoj kaj reguloj de interrilatoj derivitaj el la homa naturo:
+      <ekz>
+        la ideo pri natura <tld/>o trovi&gcirc;is jam &ccirc;e Aristotelo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007279.html">Anta&ubreve;merkantilisma ekonomia
+          pensado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la natura <tld/>o estas sistemo de juraj normoj, kies fundamento estas en la
+        ordo de la objektoj mem kaj en la naturo de la homo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007279.html">Anta&ubreve;merkantilisma ekonomia
+          pensado</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="moral.0o">moralo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_r;&c_o;&c_d;&c_n;&c_a;&c_je; <ind>&c_p;&c_r;&c_a;&c_v;&c_a;</ind></trd>
+  <trd lng="de">nat&uuml;rliches Recht</trd>
+  <trd lng="en">natural law</trd>
+  <trd lng="fr">droit naturel</trd>
+</drv>
+
+<drv mrk="jur.roma_0o">
+  <kap>
+    roma <tld/>o,
+    <var><kap>romana <tld/>o</kap></var>
+  </kap>
+  <uzo tip="fak">HIS</uzo>
+  <uzo tip="fak">JUR</uzo>
+  <snc>
+    <dif>
+      <tld lit="J"/>o fondita en la antikvo unue en Romo kaj poste aplikata
+      en la tuta roma imperio:
+      <ekz>
+        la skolastika pensado estas ofte rigardata kiel kunfandi&gcirc;o de tri spiritaj
+        tradicioj: la unua estas la filozofio de Aristotelo, la dua estas la biblio
+        kaj la tria estas la romana <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007279.html">Anta&ubreve;merkantilisma ekonomia
+          pensado</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_r;&c_y;&c_m;&c_s;&c_k;&c_a;&c_je; <ind>&c_p;&c_r;&c_a;&c_v;&c_a;</ind></trd>
+  <trd lng="de">r&ouml;misches Recht</trd>
+  <trd lng="en">roman law</trd>
+  <trd lng="fr">droit romain</trd>
+  <trd lng="ja">&#x30ED;&#x30FC;&#x30DE;&#x6CD5;  <pr>&#x30ED;&#x30FC;&#x30DE;&#x307B;&#12358;</pr></trd>
+  <trd lng="zh">&#x7F57;&#x9A6C;&#x6CD5; <pr>Lu&#xF3;m&#x1CE;f&#x1CE;</pr></trd>
 </drv>
 
 <drv mrk="jur.0oscienco">
@@ -227,7 +549,7 @@
     <dif>
       Studo pri <tld/>o, pri &gcirc;ia organizo kaj funkciado:
       <ekz>
-        <nom>Georg Heym</nom> <klr>...</klr> ekstudis sen la plej eta emo 
+        <nom>Georg Heym</nom> <klr>[&#8230;]</klr> ekstudis sen la plej eta emo
         <tld/>osciencon
         <fnt>
         <aut>Cezar</aut>,
@@ -252,8 +574,13 @@
   <trd lng="fr">droit<klr> (discipline)</klr></trd>
   <trdgrp lng="it">
     <trd>scienze giuridiche</trd>,
-    <trd>legge<klr> (disciplina)</klr></trd>, 
+    <trd>legge<klr> (disciplina)</klr></trd>,
     <trd>diritto<klr> (disciplina)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6CD5;&#x5B66;  <pr>&#x307B;&#12358;&#x304C;&#x304F;</pr></trd>,
+    <trd>&#x6CD5;&#x5F8B;&#x5B66;  <pr>&#x307B;&#12358;&#x308A;&#12388;&#x304C;&#x304F;</pr></trd>,
+    <trd>&#x6CD5;&#29702;&#x5B66;  <pr>&#x307B;&#12358;&#x308A;&#x304C;&#x304F;</pr></trd>
   </trdgrp>
   <trd lng="nl">rechtswetenschap</trd>
   <trdgrp lng="ru">
@@ -262,10 +589,11 @@
   </trdgrp>
   <trd lng="sk">pr&aacute;vna veda</trd>
   <trdgrp lng="uk">
-    <trd>&#x44E;&c_r;&c_i;&c_s;&#x43F;&c_r;&c_u;&c_d;&c_je;&#x43D;&c_c;&c_ib;&#x44F;</trd>,
-    <trd>&#x43F;&c_r;&c_a;&c_v;&#x43E;&c_z;&#x43D;&c_a;&c_v;&c_s;&c_t;&c_v;&#x43E;</trd>,
-    <trd>&#x44E;&c_r;&c_i;&c_d;&c_i;&c_ch;&#x43D;&c_ib; &#x43D;&c_a;&c_u;&#x43A;&c_i;</trd>
+    <trd>&c_ju;&c_r;&c_i;&c_s;&c_p;&c_r;&c_u;&c_d;&c_je;&c_n;&c_c;&c_ib;&c_ja;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_v;&c_o;&c_z;&c_n;&c_a;&c_v;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_ju;&c_r;&c_i;&c_d;&c_i;&c_ch;&c_n;&c_ib; &c_n;&c_a;&c_u;&c_k;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x6CD5;&#x5B66; <pr>f&#x1CE;xu&#xE9;</pr></trd>
 </drv>
 <rim>
    La 8a OA klarigas la Fundamentecon de la radiko &leftquot;jur&rightquot; el la vorto
@@ -275,6 +603,21 @@
 </art>
 <!--
 $Log$
+versio 1.42 2023/12/06 07:24:31
+Dmitri Gabinski: + trd be
+
+versio 1.40 2023/10/18 05:26:26
+revo: transskribo per <pr>
+
+versio 1.38 2023/05/29 16:33:08
+Wolfram Diestel: kanona ~o: +trd el kanon/
+
+versio 1.37 2023/05/29 07:22:50
+Wolfram Diestel: ~a, ~isto: +ekz-oj, ref-oj
+
+versio 1.36 2023/05/28 20:23:14
+Wolfram Diestel: ~o: +ekz-oj; +internacia, kanona, roma, natura ~o
+
 versio 1.35 2022/05/31 07:31:18
 Dmitri Gabinski: + trd be
 
@@ -282,19 +625,5 @@ versio 1.34 2022/05/23 06:42:29
 Dmitri Gabinski: + trd be
 
 versio 1.33 2022/04/30 08:42:43
-aktualigo lingvokodoj kaj URL-unuoj
-
-Revision 1.29  2017/12/18 20:10:16  revo
-Michel Cantigneaux: kunmetajxo "jur/ist/o" unue aldonita per 1a OA antaux "jur" per 3a OA, fund 8aOA
-
-Revision 1.28  2017/12/13 15:10:14  revo
-Michel Cantigneaux: klare fundamenta per la 8a OA + ekzemploj el la
-ekzercaro
-
-Revision 1.27  2017/09/05 22:10:16  revo
-Piet Glorieux: Aldono de ~medicino
-
-Revision 1.26  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
 -->
 </vortaro>

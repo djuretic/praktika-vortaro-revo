@@ -1,14 +1,26 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aboc.xml,v 1.32 2022/03/11 10:37:22 revo Exp $">
+<art mrk="$Id: aboc.xml,v 1.42 2023/10/12 16:57:42 revo Exp $">
 <kap>
   <rad>aboc</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="aboc.0o">
   <kap><tld/>o</kap>
   <snc mrk="aboc.0o.alfabeto">
-    <ref tip="dif" cel="alfabe.0o">alfabeto</ref>
+    <dif>
+      <ref tip="dif" cel="a1.0BC">ABC</ref>, <ref tip="hom" cel="a1.0BC">a&middot;bo&middot;co</ref>:
+      <ekz>
+        sur la monumento estas <tld/>e enskribitaj 50 familiaj nomoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2012/010407.php">Filantropa pomo</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <trdgrp lng="be">
       <trd>&c_a;&c_l;&c_mol;&c_f;&c_a;&c_b;&c_e;&c_t;</trd>,
       <trd>&c_a;&c_z;&c_b;&c_u;&c_k;&c_a;</trd>,
@@ -37,7 +49,7 @@
       <trd>abec&eacute;</trd>,
       <trd>abecedari</trd>,
       <trd>be&ccedil;ar&ograve;las</trd>
-    </trdgrp>    
+    </trdgrp>
     <trdgrp lng="pl">
      <trd>abecad&lstroke;o</trd>,
      <trd>alfabet</trd>
@@ -46,148 +58,48 @@
       <trd>alfabeto</trd>,
       <trd>abeced&aacute;rio</trd>
     </trdgrp>
+    <trd lng="ro">alfabet</trd>
     <trd lng="ru">&c_a;&c_l;&c_f;&c_a;&c_v;&c_i;&c_t;</trd>
     <trd lng="sk">abeceda</trd>
     <trd lng="sl">abeceda</trd>
     <trd lng="sv">alfabet</trd>
     <trdgrp lng="th">
-      <trd>&#xE15;&#xE31;&#xE27;&#xE2D;&#xE31;&#xE01;&#xE29;&#xE23; (&#xE2B;&#xE25;&#xE32;&#xE22;&#xE15;&#xE31;&#xE27;)</trd>,
+      <trd>&#xE15;&#xE31;&#xE27;&#xE2D;&#xE31;&#xE01;&#xE29;&#xE23;
+      (&#xE2B;&#xE25;&#xE32;&#xE22;&#xE15;&#xE31;&#xE27;)</trd>,
       <trd>&#xE0A;&#xE38;&#xE14;&#xE15;&#xE31;&#xE27;&#xE2D;&#xE31;&#xE01;&#xE29;&#xE23;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="aboc.0o.alfabetumo">
-    <dif><ref tip="dif" cel="alfabe.0umo">Alfabetumo</ref>:
-      <ekz>
-        la malnova <tld/>olibro ku&scirc;is kun la unua pa&gcirc;o supre kaj &ccirc;i 
-         tiu pa&gcirc;o estas en &gcirc;i la plej grava
-         <fnt><bib>Fab4</bib>, <lok>Abocolibro</lok></fnt>.
-      </ekz>
-    </dif>
-    <ref tip="sin" cel="libr.aboco0o"><tld/>olibro</ref>
-    <trdgrp lng="be">
-      <trd>&c_a;&c_z;&c_b;&c_u;&c_k;&c_a;</trd>,
-      <trd>&c_l;&c_je;&c_m;&c_a;&c_n;&c_t;&c_a;&c_r;</trd>
-    </trdgrp>
-    <trdgrp lng="ca">
-      <trd>abecedari</trd>,
-      <trd>beceroles <klr>(llibre)</klr></trd>
-    </trdgrp>    
-    <trd lng="da">l&aelig;rebog</trd>
-    <trdgrp lng="de">
-      <trd>Fibel</trd>,
-      <trd>Lesebuch</trd>
-    </trdgrp>
-    <trd lng="fa">&f_k;&a_t;&a_A;&a_b; <ind>&a_A;&a_l;&a_f;&a_b;&a_A;</ind></trd>
-    <trdgrp lng="fr">
-      <trd>ab&eacute;c&eacute;daire</trd>,
-      <trd>ABC<klr tip="ind"> (ab&eacute;c&eacute;daire)</klr></trd>
-    </trdgrp>
-    <trd lng="hu">&aacute;b&eacute;c&eacute;sk&ouml;nyv</trd>
-    <trd lng="hr">abecedar</trd>
-    <trd lng="pl">elementarz</trd>
-    <trd lng="pt">cartilha</trd>
-    <trdgrp lng="ru">
-      <trd>&c_a;&c_z;&c_b;&c_u;&c_k;&c_a;</trd>,
-      <trd>&c_b;&c_u;&c_k;&c_v;&c_a;&c_r;&c_mol;</trd>
-    </trdgrp>
-    <trd lng="sk">&scaron;labik&aacute;r</trd>
-    <trd lng="sl">abecednik</trd>
-    <trd lng="sv">abc-bok</trd>
-    <trd lng="th">&#xE2B;&#xE19;&#xE31;&#xE07;&#xE2A;&#xE37;&#xE2D; &#xE01;&#xE02;&#xE04;</trd>
-  </snc>
-  <snc mrk="aboc.0o.FIG">
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Elementa instruo pri iu scio:
-      <ekz>
-        <tld/>o de fiziko, de sennaciismo.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="kompen.0o">kompendio</ref>
-    <trdgrp lng="be">
-      <trd>&c_a;&c_z;&c_b;&c_u;&c_k;&c_a;</trd>,
-      <trd>&c_a;&c_s;&c_n;&c_o;&c_v;&c_y;</trd>,
-      <trd>&c_p;&c_a;&c_ch;&c_a;&c_t;&c_k;&c_ib;</trd>
-    </trdgrp>
-    <trd lng="ca">beceroles <klr>(rudiments)</klr></trd>    
-    <trdgrp lng="de">
-      <trd>Anfangsgr&uuml;nde</trd>,
-      <trd>kleines Einmaleins</trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>ABC's</trd>,
-      <trd>primer</trd>
-    </trdgrp>
-    <trdgrp lng="es">
-      <trd>ABC</trd>,
-      <trd>abec&eacute;</trd>
-    </trdgrp>
-    <trdgrp lng="fa">
-      <trd>&a_A;&a_l;&a_f;&a_b;&a_A;</trd>,
-      <trd>&a_m;&a_b;&a_A;&a_n;&f_y;</trd>,
-      <trd>&a_m;&a_q;&a_d;&a_m;&a_A;&a_t;</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>ABC<klr tip="ind"> (rudiments)</klr></trd>,
-      <trd>B-A-BA</trd>,
-      <trd><ind>base</ind>s<klr tip="ind"> (d'un savoir)</klr></trd>,
-      <trd><ind>rudiment</ind>s<klr tip="ind"> (d'un savoir)</klr></trd>
-    </trdgrp>
-    <trd lng="hu">&aacute;b&eacute;c&eacute;</trd>
-    <trd lng="hr">osnove</trd>
-    <trdgrp lng="nl">
-      <trd>ABC</trd>,
-      <trd>eerste beginselen</trd>
-    </trdgrp>  
-    <trdgrp lng="pt">
-      <trd>ABC</trd>,
-      <trd>abec&ecirc;</trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-       <trd>ABC</trd>,
-       <trd>podstawa</trd>,
-       <trd>minimum</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_a;&c_z;&c_b;&c_u;&c_k;&c_a;</trd>,
-      <trd>&c_o;&c_s;&c_n;&c_o;&c_v;&c_y;</trd>
-    </trdgrp>
-    <trd lng="sk">z&aacute;klady</trd>
-    <trd lng="sv">abc</trd>
-    <trd lng="ms">abc huruf</trd>
-  </snc>
-  <trd lng="cs">abeceda</trd>
-  <trd lng="he">&#x5D0;&#x5DC;&#x5E3; &#x5D1;&#x5D9;&#x5EA;</trd>
-  <trd lng="it">abc</trd>
-
-  <trdgrp lng="uk">
-    <trd>&#x430;&#x43B;&#x444;&#x430;&#x432;&#x456;&#x442;</trd>,
-    <trd>&#x430;&#x431;&#x435;&#x442;&#x43A;&#x430;</trd>,
-    <trd>&#x430;&#x437;&#x431;&#x443;&#x43A;&#x430;</trd>,
-    <trd>&#x431;&#x443;&#x43A;&#x432;&#x430;&#x440;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30A2;&#x30EB;&#x30D5;&#x30A1;&#x30D9;&#x30C3;&#x30C8; </trd>,
+    <trd>&#x521D;&#x6B69;  <pr>&#12375;&#12423;&#x307B;</pr></trd>,
+    <trd>&#x57FA;&#x672C;  <pr>&#x304D;&#x307B;&#12435;</pr></trd>,
+    <trd>&#x30A4;&#x30ED;&#x30CF;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
-Revision 1.28  2017/01/26 09:10:15  revo
-Adam Eng: trd ms
+versio 1.42 2023/10/12 16:57:42
+revo: transskribo per <pr>
 
-Revision 1.27  2016/10/29 19:10:16  revo
-Lars Raarup Knudsen: aldono de danaj tradukoj
+versio 1.41 2023/08/27 17:27:17
+Wolfram Diestel: ja: -prononco
 
-Revision 1.26  2016/03/11 18:32:41  revo
-Wolfram Diestel: gxustigis citajxon, strukturaj adaptoj
+versio 1.39 2023/04/10 18:22:01
+aktualigo Monato-URL
 
-Revision 1.25  2015/07/04 08:37:29  revo
-aldono de trd cs per skripto de M. von Laer
+versio 1.38 2023/02/10 13:35:02
+Wolfram Diestel: ref-hom
 
-Revision 1.24  2012/08/21 06:10:08  revo
-Sebastian Cyprych: korekto de pola traduko
+versio 1.37 2023/02/07 18:33:28
+Wolfram Diestel: kor. ref-cel
 
-Revision 1.23  2011/01/17 17:10:12  revo
-Antonio Codazzi: +trd it
+versio 1.36 2023/02/05 18:30:59
+Wolfram Diestel: movis snc 2,3 al ABC/a-bo-co
 
-Revision 1.22  2010/06/28 17:53:17  revo
+versio 1.35 2023/02/05 17:24:25
+Wolfram Diestel: dif-ref ABC
+
+versio 1.34 2023/01/30 06:34:01
 -->
 </vortaro>

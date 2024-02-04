@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: graten.xml,v 1.20 2022/03/19 19:52:44 revo Exp $">
+<art mrk="$Id: graten.xml,v 1.24 2023/11/11 11:36:36 revo Exp $">
 <kap>
 <rad>graten</rad>/i
 </kap>
@@ -41,6 +41,7 @@
     <trd>cs&odblac;ben <ind>s&uuml;t</ind></trd>,
     <trd>gratin&iacute;roz</trd>
   </trdgrp>
+  <trd lng="ja">&#x30B0;&#x30E9;&#x30BF;&#x30F3;&#x306B;&#x3059;&#x308B;  <pr>&#x3050;&#x3089;&#x305F;&#x3093;&#x306B;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">gratineren</trd>
   <trd lng="pt">preparar comida &agrave; <ind>milanesa</ind></trd>
   <trdgrp lng="ru">
@@ -49,16 +50,16 @@
   </trdgrp>
   <trd lng="tr">g&uuml;ve&ccedil;te pi&scedil;irmek </trd>
   <trdgrp lng="sk">
-    <trd>zapeka&#x165;</trd>,
-    <trd>zapiec&#x165;</trd>
+    <trd>zapeka&tcaron;</trd>,
+    <trd>zapiec&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>zap&#xE9;ci</trd>,
-    <trd>zap&#xE9;kat</trd>
+    <trd>zap&eacute;ci</trd>,
+    <trd>zap&eacute;kat</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x456;&#x434;&#x441;&#x43C;&#x430;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438; &#x432; &#x441;&#x443;&#x445;&#x430;&#x440;&#x44F;&#x445;</trd>,
-    <trd>&#x437;&#x430;&#x43F;&#x456;&#x43A;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_p;&c_ib;&c_d;&c_s;&c_m;&c_a;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i; &c_v; &c_s;&c_u;&c_h;&c_a;&c_r;&c_ja;&c_h;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_ib;&c_k;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -67,7 +68,15 @@
   <uzo tip="fak">KUI</uzo>
   <snc>
     <dif>
-      <tld lit="G"/>ita man&gcirc;a&jcirc;o.
+      <tld lit="G"/>ita man&gcirc;a&jcirc;o:
+      <ekz>
+        en <tld/>a&jcirc;oj, supoj, tortoj kaj kukoj, la partoprenantoj malkovris tradiciajn
+        a&ubreve; originalajn manierojn man&gcirc;i kukurbon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#x2116; 12</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_p;&c_ja;&c_k;&c_a;&c_n;&c_k;&c_a;</trd>
@@ -78,15 +87,27 @@
   </trdgrp>
   <trd lng="fr">gratin</trd>
   <trd lng="hu">cs&odblac;ben <ind>s&uuml;lt</ind></trd>
+  <trd lng="ja">&#x30B0;&#x30E9;&#x30BF;&#x30F3;</trd>
   <trd lng="nl">gratin</trd>
   <trd lng="pt">comida &agrave; <ind>milanesa</ind></trd>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_je;&c_k;&c_a;&c_n;&c_k;&c_a;</trd>
   <trd lng="tr">g&uuml;ve&ccedil;te pi&scedil;mi&scedil; yiyecek</trd>
-  <trd lng="uk">&#x437;&#x430;&#x43F;&#x456;&#x43A;&#x430;&#x43D;&#x43A;&#x430;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_p;&c_ib;&c_k;&c_a;&c_n;&c_k;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x86CB;&#x767D;&#x725B;&#x5976;&#x9165; <pr>d&#xE0;nb&#xE1;ini&#xFA;n&#x1CE;is&#x16B;</pr></trd>,
+    <trd>&#x9165;&#x9905; <pr>s&#x16B;b&#x1D0;ng</pr></trd>,
+    <trd>&#x9921;&#x9905; <pr>xi&#xE0;nb&#x1D0;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.21 2023/08/09 06:28:58
+Wolfram Diestel: +ekz
+
 Revision 1.18  2015/06/29 16:29:39  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -103,14 +124,5 @@ Revision 1.14  2004/01/06 17:32:11  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.13  2003/01/03 17:31:02  revo
-Wolfram Diestel: + germ trd
-
-Revision 1.12  2002/07/09 17:32:58  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.11  2002/01/17 17:31:21  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.10  2001/11/30 17:33:19  revo
 -->
 </vortaro>

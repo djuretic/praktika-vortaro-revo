@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bovl.xml,v 1.17 2022/03/28 12:02:34 revo Exp $">
+<art mrk="$Id: bovl.xml,v 1.23 2023/10/29 19:11:03 revo Exp $">
 <kap>
   <ofc>8</ofc><rad>bovl</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -25,6 +25,12 @@
         52a</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_ib;&c_s;&c_a;</trd>,
+      <trd>&c_m;&c_ib;&c_s;&c_k;&c_a;</trd>,
+      <trd>&c_m;&c_a;&c_k;&c_ib;&c_t;&c_r;&c_a;</trd>,
+      <trd>&c_l;&c_a;&c_t;&c_k;&c_a; <klr tip="amb">(&c_p;&c_o;&c_s;&c_u;&c_d;)</klr></trd>
+    </trdgrp>
     <trdgrp lng="cs">
       <trd>bowle <klr>(n&aacute;doba i n&aacute;poj)</klr></trd>,
       <trd>m&iacute;sa hlubok&aacute;</trd>
@@ -42,6 +48,7 @@
       <trd>iv&oacute;cs&eacute;sze</trd>,
       <trd>szilke</trd>
     </trdgrp>
+    <trd lng="nl">kom</trd>
     <trd lng="pl">miska</trd>
     <trd lng="pt">tigela</trd>
     <trd lng="ro">bol</trd>
@@ -66,19 +73,38 @@
         <fnt>
           <aut>J.C.Wells</aut>:
           <vrk>Supersignoj, trasignoj kaj subsignoj</vrk>.
-          <lok><url ref="http.uea.org/cgi/m.cgi?m=ghu;d=kongresoj/1996/supersignoj.html">Internacia Kongresa Universitato, Prago 1996 07 26</url>
+          <lok><url ref="https://www.phon.ucl.ac.uk/home/wells/dia/supersignoj.htm">Internacia
+          Kongresa Universitato, Prago 1996 07 26</url>
           </lok>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_b;&c_r;&c_e;&c_v;&c_ib;&c_s;</trd>,
+      <trd>&c_b;&c_r;&c_e;&c_v;&c_e;</trd>,
+      <trd>&c_p;&c_je;&c_r;&c_a;&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_a;&c_ja; <ind>&c_k;&c_a;&c_m;&c_o;&c_r;&c_a;</ind></trd>
+    </trdgrp>
     <trd lng="en">breve</trd>
+    <trd lng="nl">breve</trd>
+    <trd lng="pl">brewis</trd>
+    <trd lng="ro">breve</trd>
     <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_k;&c_a;</trd>
   </snc>
-  <trd lng="he">&#x5E7;&#x5B0;&#x5E2;&#x5B8;&#x5E8;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&qof;&#x5B0;&ayin;&#x5B8;&resh;&#x5B8;&he;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6DF1;&#x76BF;  <pr>&#x3075;&#x304B;&#x3056;&#x3089;</pr></trd>,
+    <trd>&#x7897;  <pr>&#x308F;&#x3093;</pr></trd>,
+    <trd>&#x4E3C;  <pr>&#x3069;&#x3093;&#x3076;&#x308A;</pr></trd>,
+    <trd>&#x30DC;&#x30A6;&#x30EB;  <pr>&#x307C;&#x3046;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x438;&#x441;&#x43A;&#x430;</trd>,
-    <trd>&#x447;&#x430;&#x448;&#x430;</trd>,
-    <trd>&#x447;&#x430;&#x448;&#x43A;&#x430;</trd>
+    <trd>&c_m;&c_i;&c_s;&c_k;&c_a;</trd>,
+    <trd>&c_ch;&c_a;&c_sh;&c_a;</trd>,
+    <trd>&c_ch;&c_a;&c_sh;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76CE; <pr>&#xE0;ng</pr></trd>,
+    <trd>&#x7897; <pr>w&#x1CE;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -100,13 +126,27 @@
     </dif>
     <ref tip="super" cel="trink.0ujo">trinkujo</ref>
   </snc>
+  <trd lng="be">&c_p;&c_ib;&c_ja;&c_l;&c_a;</trd>
+  <trd lng="pl">dzbanek na  <ind>herbat&eogonek;</ind></trd>
   <trd lng="ru">&c_p;&c_i;&c_a;&c_l;&c_a;</trd>
-  <trd lng="uk">&#x43F;&#x456;&#x430;&#x43B;&#x430;</trd>
+  <trd lng="uk">&c_p;&c_ib;&c_a;&c_l;&c_a;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.20 2023/05/14 18:28:52
+Vito Redsky: +trd pl 
+
+versio 1.19 2023/04/30 13:26:28
+Robin van der Vliet: korekti ligilon; trd nl
+
+versio 1.18 2023/03/22 08:31:46
+Dmitri Gabinski: + trd be
+
 versio 1.14 2020/12/14 08:10:31
 Sergio Pokrovskij: +LIN, +te~o
 
@@ -117,17 +157,5 @@ Revision 1.11  2017/08/26 20:10:20  revo
 Vito Redsky: +trd ro
 
 Revision 1.10  2015/07/28 06:10:14  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.9  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.8  2015/06/29 16:29:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.7  2011/01/27 11:10:08  revo
-Mireille Corobu: trd fr
-
-Revision 1.6  2009/10/24 16:31:32  revo
 -->
 </vortaro>

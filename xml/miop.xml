@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: miop.xml,v 1.20 2022/03/23 14:02:26 revo Exp $">
+<art mrk="$Id: miop.xml,v 1.24 2024/01/26 17:40:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>miop</rad>/a
@@ -64,9 +64,17 @@
   </trdgrp>
   <trd lng="fr">myope</trd>
   <trd lng="hu">r&ouml;vidl&aacute;t&aacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8FD1;&#x8996;&#x306E;  <pr>&#x304D;&#x3093;&#x3057;&#x306E;</pr></trd>,
+    <trd>&#x8FD1;&#x773C;&#x306E;  <pr>&#x304D;&#x3093;&#x304C;&#x3093;&#x306E;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>bijziend</trd>,
     <trd>myoop</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>miop</trd>,
+    <trd>mioap&abreve;</trd>
   </trdgrp>
   <trd lng="ru">&c_b;&c_l;&c_i;&c_z;&c_o;&c_r;&c_u;&c_k;&c_i;&c_j;</trd>
   <trd lng="sk">kr&aacute;tkozrak&yacute;</trd>
@@ -75,8 +83,13 @@
     <trd>n&auml;rsynt</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x440;&#x43E;&#x442;&#x43A;&#x43E;&#x437;&#x43E;&#x440;&#x438;&#x439;</trd>,
-    <trd>&#x431;&#x43B;&#x438;&#x437;&#x44C;&#x43A;&#x43E;&#x437;&#x43E;&#x440;&#x438;&#x439;</trd>
+    <trd>&#x43A;&#x43E;&c_r;&#x43E;&c_t;&#x43A;&#x43E;&c_z;&#x43E;&c_r;&c_i;&c_j;</trd>,
+    <trd>&c_b;&#x43B;&c_i;&c_z;&#x44C;&#x43A;&#x43E;&c_z;&#x43E;&c_r;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8FD1;&#x8996; <pr>j&#xEC;nsh&#xEC;</pr></trd>,
+    <trd>&#x8FD1;&#x89C6; <pr>j&#xEC;nsh&#xEC;</pr></trd>,
+    <trd>&#x9F20;&#x76EE;&#x5BF8;&#x5149; <pr>sh&#x1D4;m&#xF9;c&#xF9;ngu&#x101;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -106,6 +119,7 @@
   </trdgrp>
   <trd lng="fr">hyperm&eacute;trope</trd>
   <trd lng="hu">t&aacute;voll&aacute;t&aacute;</trd>
+  <trd lng="ja">&#x9060;&#x8996;&#x306E;  <pr>&#x3048;&#x3093;&#x3057;&#x306E;</pr></trd>
   <trdgrp lng="nl">
     <trd>verziend</trd>,
     <trd>hypermetroop</trd>
@@ -116,10 +130,20 @@
     <trd>&ouml;versynt</trd>,
     <trd>l&aring;ngsynt</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8FDC;&#x89C6; <pr>yu&#x1CE;nsh&#xEC;</pr></trd>,
+    <trd>&#x9060;&#x8996; <pr>yu&#x1CE;nsh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/19 16:45:37
+revo: transskribo per <pr>
+
+versio 1.21 2023/03/20 13:35:28
+Paul Peeraerts: + trd ro
+
 Revision 1.18  2018/12/05 17:10:18  revo
 Wolfram Diestel: +ekz-oj
 
@@ -136,11 +160,5 @@ Revision 1.14  2010/10/20 16:30:57  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.13  2008/11/23 19:11:50  revo
-Wieland Pusch: entoj por unikodo
-
-Revision 1.12  2008/11/14 17:31:30  revo
-Russ Williams: +trd en
-
-Revision 1.11  2005/05/25 16:32:35  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: popol.xml,v 1.25 2022/04/30 21:29:22 revo Exp $">
+<art mrk="$Id: popol.xml,v 1.34 2024/01/24 06:31:10 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>popol</rad>/o
@@ -13,14 +13,21 @@
     <dif>
       <ref tip="dif" cel="etn.0o">Etno</ref>:
       <ekz>
-      la literaturaj produktoj de aliaj <tld/>oj fari&gcirc;us por ni tiel
-      same atingeblaj, kiel la verkoj de nia propra
-      <tld/>o<fnt><aut>&Z;</aut>:
-          <vrk>El la unua libro de la lingvo Esperanto.</vrk></fnt>;
+        la literaturaj produktoj de aliaj <tld/>oj fari&gcirc;us por ni tiel
+        same atingeblaj, kiel la verkoj de nia propra
+        <tld/>o
+        <fnt><aut>&Z;</aut>:
+          <vrk>El la unua libro de la lingvo Esperanto.</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         la <tld/>oj faros en konsento unu grandan rondon
-        familian<fnt>Z</fnt>;
+        familian
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto
+          1907</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         mi kredas, ke &ccirc;iuj <tld/>oj estas egalaj kaj mi taksas
@@ -32,9 +39,18 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        formikoj, <tld/>o ne forta<fnt>Z</fnt>.
+        formikoj, <tld/>o ne forta
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 30:25</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="gent.0o">gento</ref>,
+      <ref cel="naci.0o.popolo">nacio<sncref/></ref>,
+      <ref cel="populaci.0o">populacio</ref>
+    </refgrp>
     <trd lng="ca">poble</trd>
     <trd lng="de">Volk</trd>
     <trd lng="es">pueblo</trd>
@@ -48,20 +64,45 @@
         la senato kaj la <tld/>o romaj;
       </ekz>
       <ekz>
-        grandeco de <tld/>o estas gloro de re&gcirc;o<fnt>Z</fnt>;
+        grandeco de <tld/>o estas gloro por re&gcirc;o kaj manko de <tld/>o pereigas la
+        reganton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 14:28</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kiam regas malvirtulo, la <tld/>o &gcirc;emas<fnt>Z</fnt>;
+        kiam regas malvirtulo, la <tld/>o &gcirc;emas
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 29:2</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a tumulto;
+        la cezaro mem partoprenadis la kunsidojn de la senato kaj konsilis kune kun la
+        &leftquot;patroj&rightquot; pri la bono de la <tld/>o
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LXIV</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a kunveno.
+        <tld/>a tumulto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 18:43</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kunveno
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 22:22</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="pleb.0o">plebo</ref>.
+      <ref cel="pleb.0o">plebo</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>Volk</trd>,
@@ -81,31 +122,25 @@
     <dif>
       Plimulto de nacio kontraste kun kleruloj, ri&ccirc;uloj ktp:
       <ekz>
-        <uzo tip="stl">FRAZ</uzo>
-        <ind><mll tip="kom"><tld/>o diras</mll>, Dio diras</ind>
-        <fnt><bib>PrV</bib></fnt>;
-        <trd lng="ru"><mll tip="kom">&c_g;&c_l;&c_a;&c_s; &c_n;&c_a;&c_r;&c_o;&c_d;&c_a;</mll> &#8208; &c_g;&c_l;&c_a;&c_s;
-        &c_B;&c_o;&c_zh;&c_i;&c_j;</trd>
-      </ekz>
-      <ekz>
         la <tld/>o nomas elokventeco la kapablon paroli
         la&ubreve;tege kaj longe;
       </ekz>
       <ekz>
-        <tld/>a kutimo;
-      </ekz>
-      <ekz>
-        venas proverbo el <tld/>a cerbo<fnt>Z</fnt>.
+        <uzo tip="stl">FRAZ</uzo>
+        <ind><mll tip="kom"><tld/>o diras</mll>, Dio diras</ind>
+        <fnt><bib>PrV</bib></fnt>.
+        <trd lng="ru"><mll tip="kom">&c_g;&c_l;&c_a;&c_s; &c_n;&c_a;&c_r;&c_o;&c_d;&c_a;</mll> &#8208; &c_g;&c_l;&c_a;&c_s;
+        &c_B;&c_o;&c_zh;&c_i;&c_j;</trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="amas.0o">amaso</ref>,
       <ref cel="vulgar.0a">vulgara</ref>,
-      <ref cel="krud.0a">kruda</ref>.
+      <ref cel="krud.0a">kruda</ref>
     </refgrp>
     <trdgrp lng="de">
       <trd>Volk</trd>,
-      <trd>gemeines Volk</trd>,
+      <trd>gemeines <ind>Volk</ind></trd>,
       <trd>Plebs</trd>
     </trdgrp>
     <trd lng="es">la gente</trd>
@@ -113,48 +148,473 @@
     <trd lng="nl">gepeupel</trd>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_r;&c_o;&c_d;</trd>
-  <trd lng="bo">&#xF58;&#xF72;&#xF0B;&#xF51;&#xF58;&#xF44;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_ma;&t_gigu;&t_tsheg;&t_da;&t_ma;&t_nga;&t_sa;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>lid</trd>,
-    <trd>n&#xE1;rod</trd>
+    <trd>n&aacute;rod</trd>
   </trdgrp>
   <trd lng="en">people</trd>
   <trd lng="hu">n&eacute;p</trd>
+  <trd lng="id">rakyat</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4EBA;&#x6C11;  <pr>&#x304A;&#x304A;&#x307F;&#x305F;&#x304B;&#12425;</pr></trd>,
+    <trd>&#x56FD;&#x6C11;  <pr>&#x304F;&#x306B;&#x305F;&#x307F;</pr></trd>,
+    <trd>&#x6C11;&#34886;  <pr>&#x307F;&#12435;&#12375;&#12421;&#12358;</pr></trd>,
+    <trd>&#x5EB6;&#x6C11;  <pr>&#12375;&#12423;&#x307F;&#12435;</pr></trd>
+  </trdgrp>
   <trd lng="pl">lud</trd>
   <trd lng="pt">povo</trd>
   <trd lng="ro">popor</trd>
   <trd lng="ru">&c_n;&c_a;&c_r;&c_o;&c_d;</trd>
   <trdgrp lng="sk">
-    <trd>n&#xE1;rod</trd>,
+    <trd>n&aacute;rod</trd>,
     <trd>pospolitos&tcaron;</trd>,
-    <trd>&#x13E;ud</trd>
+    <trd>&lcaron;ud</trd>
   </trdgrp>
-  <trd lng="uk">&#x43D;&c_a;&c_r;&#x43E;&c_d;</trd>
+  <trd lng="uk">&c_n;&c_a;&c_r;&c_o;&c_d;</trd>
 </drv>
+
+<drv mrk="popol.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Originanta en la <tld/>o:
+      <ekz>
+        <tld/>a tumulto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 18:43</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a <ref cel="dialek.0o">dialekto</ref>
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malalta <tld/>a deveno
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aperis <tld/>aj amasoj kun krioj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Litva <tld/>a kanto
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        litva <tld/>a festo
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro V.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a dirmaniero
+        <klr>(vd <ref cel="prover.0o">proverbo</ref>)</klr>
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kredo
+        <klr>(vd <ref cel="supers.0o">supersti&ccirc;o</ref>)</klr>
+        <fnt>
+          <bib>IKr</bib>
+          <lok>La Miraklo De Purun Bhagat</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kutimo havas valoron de le&gcirc;o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        venas proverbo el <tld/>a la cerbo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="popol.0a.apartena">
+    <dif>
+      Apartenanta al la <tld/>o; <ref cel="publik.0a.nefermita">publika</ref>:
+      <ekz>
+        <tld/>a domo
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi iras al la <tld/>a parko kaj dancas la tutan nokton
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a altlernejo
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="id">
+      <trd>publik</trd>,
+      <trd>umum</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="be">&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;</trd>
+  <trd lng="de">Volks-</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4EBA;&#x6C11;&#x306E;  <pr>&#12376;&#12435;&#x307F;&#12435;&#x306E;</pr></trd>,
+    <trd>&#x6C11;&#34886;&#x306E;  <pr>&#x307F;&#12435;&#12375;&#12421;&#12358;&#x306E;</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="popol.0acxo">
+  <kap>
+    <tld/>a&ccirc;o
+  </kap>
+  <snc>
+    <dif>
+      Popolo<sncref ref="popol.0o.amaso"/> rigardata kiel needukita, nekulturita maso:
+      <ekz>
+        <klr>[ili]</klr> varbis kelkajn malnoblulojn el la <tld/>a&ccirc;o, kaj, kolektinte
+        homamason, entumultigis la urbon
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 17:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiamaniere nokte vi trovos en la <tld/>amaso tiujn, kiuj plenumis la krimon? &ndash;
+        tio estas indiferenta por mi, &ndash; la <tld/>a&ccirc;o tion faris kaj la <tld/>a&ccirc;o
+        estos punita
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a&ccirc;o amis lin pli, ol vi supozis
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_y;&c_d;&c_l;&c_a;</trd>,
+    <trd>&c_p;&c_l;&c_je;&c_b;&c_s;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>ungehobeltes <ind>Volk</ind></trd>,
+    <trd>gemeines <ind>Volk</ind></trd>,
+    <trd>Plebs</trd>
+  </trdgrp>
+  <trd lng="ja">&#x4E0B;&#x5C64;&#x6C11;  <pr>&#x304B;&#x305D;&#12358;&#x305F;&#x307F;</pr></trd>
+</drv>
+
+<drv mrk="popol.0aro">
+  <kap>
+    <tld/>aro
+  </kap>
+  <snc>
+    <dif>
+      Aro de <tld/>oj kune lo&gcirc;antaj en iu teritorio:
+      <ekz>
+        <tld/>aro fari&gcirc;os el vi, kaj re&gcirc;oj eliros el vi
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 35:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la centra a&ubreve;toritato ekzekutiva <klr>[de
+        la <ref cel="federa.0o">federacio</ref>]</klr> reprezentas la
+        tutan <tld/>aron kaj ne apartajn &scirc;tatojn
+        <fnt>
+          <bib>FSp</bib>
+          <lok>Tria Parto: Ligo De Nacioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        granda parto de la <tld/>aro de la okcidenta mondo neniam progresis preter
+        aprezo de <nom>Mozart</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2004/008327.html">Pozitivaj kaj negativaj aspektoj de
+          Dante</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la portugala lingvo <klr>[&#8230;]</klr> ri&ccirc;i&gcirc;is sub la influo de la indi&gcirc;enoj, la
+        afrika kulturo de la anta&ubreve;aj sklavoj, <klr>[&#8230;]</klr>la inventemo kaj imago de
+        la heterogena <tld/>aro kunigita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2008/009404.php">Inspira antologio</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_r;&c_o;&c_d;&c_y;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol; &c_n;&c_a;&c_r;&c_o;&c_d;&c_a;&c_w;</trd>
+  </trdgrp>
+  <trd lng="de">Volksgruppen</trd>
+</drv>
+
+<drv mrk="popol.0eto">
+  <kap>
+    <tld/>eto
+  </kap>
+  <snc>
+    <dif>
+      Malmultnombra <tld/>o, <ref tip="sin" cel="etn.0o">etno</ref> a&ubreve; subgrupo de <tld/>o:
+      <ekz>
+        tiu arkta dekdumilpersona <tld/>eto dividi&gcirc;as en grupetojn de kelkaj individuoj,
+        kiuj lo&gcirc;as en la multmilkilometra tundro ofte je centmejlaj distancoj unu de
+        la alia
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+          <lok>1. Kakume.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        stranga <tld/>eto estas tiuj poetoj! diris la skribisto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la granda bon&scirc;anco de la provenca kripotradicio, kaj de &gcirc;ia <tld/>eto, venis kun
+        la franca revolucio de 1789
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sylvain Lelarge</aut>
+          <vrk><url ref="&Monato;/2004/008496.html">La argilaj najbaretoj de Jesuo provenca
+          tradicio</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam en 1945 fondi&gcirc;is Indonezio kun 17&#x202F;000 insuloj, sur kiuj lo&gcirc;as miloj da
+        diversaj <tld/>etoj, oni enkondukis ne&ubreve;tralan lingvon bazitan sur unu el la
+        javaj dialektoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="&Monato;/2008/009575.php">Unueco kaj diverseco</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="minoritat.0o">minoritato</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_n;&c_a;&c_r;&c_o;&c_d;&c_z;&c_je;&c_c;</trd>
+  <trdgrp lng="de">
+    <trd>V&ouml;lkchen</trd>,
+    <trd>Volksgruppe</trd>,
+    <trd>ethnische <ind>Gruppe</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="popol.0ismo">
+  <kap>
+    <tld/>ismo
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="politi.0o.POL">Politiko</ref>, ofte <ref
+      cel="demago1.0o">demagogia</ref>,
+      celanta la favoron de la maso troigante dan&gcirc;erojn:
+      <ekz>
+        la <tld/>ismo kun kamparanutopia komunisma idealo kaj labormetodoj ekstreme
+        individuismaj, iom post iom, cedis teorie kaj praktike anta&ubreve; la marksismo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la registaro ne devas resti en la nivelo de folklora <tld/>ismo, subtenante
+        siajn civitanojn nepagantajn la fakturojn, &ccirc;ar ili estas &gcirc;iaj vo&ccirc;donantoj,
+        sed &gcirc;i devas protekti la komercan sektoron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2013/010975.php">La &ccirc;e&hcirc;a elektrodistribuanto CEZ mise taksis la
+          albanan situacion</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="oportu.0ismo">oportunismo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_p;&c_u;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="de">Populismus</trd>
+  <trd lng="en">populism</trd>
+  <trd lng="fr">populisme</trd>
+  <trd lng="id">populisme</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30DD;&#x30D4;&#x30E5;&#x30EA;&#x30BA;&#x30E0;</trd>,
+    <trd>&#x6C11;&#34886;&#x4E3B;&#x7FA9;  <pr>&#x307F;&#12435;&#12375;&#12421;&#12358;&#12375;&#12421;&#x304E;</pr></trd>,
+    <trd>&#22823;&#34886;&#x8FCE;&#21512;&#x4E3B;&#x7FA9;  <pr>&#x305F;&#12356;&#12375;&#12421;&#12358;&#12370;&#12356;&#12372;&#12358;&#12375;&#12421;&#x304E;</pr></trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_o;&c_p;&c_u;&c_l;&c_i;&c_z;&c_m;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_p;&c_u;&c_l;&c_ib;&c_z;&c_m;</trd>
+</drv>
+
+<drv mrk="popol.0isto">
+  <kap>
+    <tld/>isto
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="politi.0isto">Politikisto</ref> <tld/>isma:
+      <ekz>
+        al regpotenco venis ekstremdekstruloj kun &ccirc;ekape la neprognozebla <tld/>isto
+        <nom>J&ouml;rg Haider</nom>
+        <fnt>
+       <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2000/006884.php">&Ccirc;u veneno en Vieno?</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/03, p. 6</lok>
+        </fnt>.
+      </ekz>
+      <ekz>
+        nuntempe <tld/>istoj en Rusio &scirc;atas malbeni la nomojn de la tiutempaj &leftquot;junaj
+        reformistoj&rightquot;, kaj kulpigi ilin, kune kun <nom>Mi&hcirc;ail Gorba&ccirc;ov</nom>, pri la kra&scirc;o de la
+        imperio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Kalle Kniivil&auml;</aut>
+          <vrk><url ref="&Monato;/2007/009159.php">15 jarojn post la pereo de la imperio</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="oportu.0isto">oportunisto</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_p;&c_u;&c_l;&c_ib;&c_s;&c_t;</trd>
+  <trd lng="de">Populist</trd>
+  <trd lng="id">populis</trd>
+</drv>
+
+<drv mrk="popol.inter0a">
+  <kap>
+    inter<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Koncernanta la rilatojn inter pluraj <tld/>oj:
+      <ekz>
+        inter<tld/>a justeco
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komuna lingvo por inter<tld/>a rilatado
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        terure altaj kaj dikaj estas ankora&ubreve; la inter<tld/>aj muroj, kontra&ubreve; kiuj ni
+        batalas
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lukto por inter<tld/>a amo, toleremo, vero, paco kaj homeco
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter<tld/>a frateco
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Aldono</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter<tld/>a paci&gcirc;o
+        <fnt>
+          <bib>Tor</bib>
+          <lok>III.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="naci.inter0a">internacia</ref>
+  </snc>
+<trd lng="be">&c_m;&c_ib;&c_zh;&c_n;&c_a;&c_c;&c_y;&c_ja;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+</drv>
+
 </art>
 <!--
 $Log$
-versio 1.25 2022/04/30 21:29:22
-Vito Redsky: + trd pl + trd ro 
+versio 1.34 2024/01/24 06:31:10
+Dmitri Gabinski: + trd be
 
-Revision 1.21  2015/06/29 16:40:18  revo
-aldono de trd sk per skripto de M. von Laer
+versio 1.33 2023/10/20 16:38:17
+revo: transskribo per <pr>
 
-Revision 1.20  2014/09/13 13:10:12  revo
-Norbert Luckhardt: +tra ES
+versio 1.32 2023/10/18 06:31:32
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.19  2014/07/01 12:10:15  revo
-Damien Brucker: +ekz
+versio 1.30 2023/04/25 14:28:52
+Paul Peeraerts: @Steloj -> @Monato
 
-Revision 1.18  2014/03/18 16:10:13  revo
-Damien Brucker: +trd fr
+versio 1.29 2023/04/11 18:56:01
+aktualigo Monato-URL
 
-Revision 1.17  2006/03/11 17:31:54  revo
-Tulio Flores: +tr pt
+versio 1.28 2023/02/27 19:22:51
+Wolfram Diestel: +~a, inter~a
 
-Revision 1.16  2005/12/06 17:32:47  revo
-Raul Salinas Monteagudo: +trd ca,es
+versio 1.27 2023/02/26 14:25:31
+Wolfram Diestel: +~aro, ~eto
 
-Revision 1.15  2003/07/17 16:37:57  revo
+versio 1.26 2023/02/24 21:23:44
 -->
 </vortaro>

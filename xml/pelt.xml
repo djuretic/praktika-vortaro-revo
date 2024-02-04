@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pelt.xml,v 1.19 2022/03/25 12:53:16 revo Exp $">
+<art mrk="$Id: pelt.xml,v 1.22 2023/10/20 14:25:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pelt</rad>/o
@@ -35,6 +35,11 @@
   </trdgrp>
   <trd lng="fr">fourrure</trd>
   <trd lng="hu">sz&odblac;rme</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6BDB;&#x76AE;  <pr>&#x3051;&#x304C;&#x308F;</pr></trd>,
+    <trd>&#x6BDB;&#x76AE;&#x306E;&#x670D;  <pr>&#x3051;&#x304C;&#x308F;&#x306E;&#x3075;&#x304F;</pr></trd>,
+    <trd>&#x30D5;&#x30A1;&#x30FC;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>pels</trd>,
     <trd>bont</trd>
@@ -53,8 +58,8 @@
   <trd lng="sk">ko&#x17E;u&scaron;ina</trd>
   <trd lng="tr">k&uuml;rk</trd>
   <trdgrp lng="uk">
-    <trd>&#x445;&#x443;&#x442;&#x440;&#x43E; (&#x432;&#x438;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43D;&#x435;)</trd>,
-    <trd>&#x448;&#x443;&#x431;&#x430;</trd>
+    <trd>&c_h;&c_u;&c_t;&c_r;&#x43E; (&c_v;&c_i;&c_r;&#x43E;&c_b;&#x43B;&c_je;&#x43D;&c_je;)</trd>,
+    <trd>&c_sh;&c_u;&c_b;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -71,12 +76,16 @@
     <trd>&c_f;&c_u;&c_t;&c_r;&c_a;</trd>
   </trdgrp>
   <trd lng="br">mantell <ind>feur</ind></trd>
-  <trd lng="fr">fur <klr tip="ind"> (clothing)</klr></trd>
+  <trd lng="en">fur <klr tip="ind"> (clothing)</klr></trd>
   <trd lng="fr">fourrure <klr tip="ind"> (v&ecirc;tement)</klr></trd>
   <trdgrp lng="hu">
     <trd>bunda</trd>,
     <trd>sz&odblac;rmeruha</trd>,
     <trd>sz&odblac;rme&aacute;ru</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6BDB;&#x76AE;&#x88FD;&#x54C1;  <pr>&#x3051;&#x304C;&#x308F;&#x305B;&#x3044;&#x3072;&#x3093;</pr></trd>,
+    <trd>&#x6BDB;&#x76AE;&#x306E;&#x8863;&#x670D;  <pr>&#x3051;&#x304C;&#x308F;&#x306E;&#x3044;&#x3075;&#x304F;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>bontmantel</trd>,
@@ -86,13 +95,19 @@
   <trd lng="ro">&icirc;mbr&abreve;c&abreve;minte de blan&abreve;</trd>
   <trd lng="ru">&c_sh;&c_u;&c_b;&c_a;</trd>
   <trdgrp lng="uk">
-    <trd>&#x448;&#x443;&#x431;&#x430;</trd>,
-    <trd>&#x445;&#x443;&#x442;&#x440;&#x43E;</trd>
+    <trd>&c_sh;&c_u;&c_b;&c_a;</trd>,
+    <trd>&c_h;&c_u;&c_t;&c_r;&#x43E;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/20 14:25:20
+revo: transskribo per <pr>
+
+versio 1.20 2023/03/05 20:29:08
+Jean-Marc Lugrin: Sxangi la lingvon de fr al en
+
 versio 1.18 2022/02/22 23:29:51
 Vito Redsky: + trd pl + trd ro 
 
@@ -109,11 +124,5 @@ Revision 1.12  2006/02/27 17:33:35  revo
 Tulio Flores: +tr pt
 
 Revision 1.11  2005/07/02 16:33:09  revo
-Alan ar Gall: +trd br fr
-
-Revision 1.10  2004/08/25 16:32:02  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2004/08/04 16:31:44  revo
 -->
 </vortaro>

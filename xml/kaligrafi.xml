@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kaligrafi.xml,v 1.15 2022/09/14 09:36:39 revo Exp $">
+<art mrk="$Id: kaligrafi.xml,v 1.18 2023/12/02 21:20:04 revo Exp $">
 <kap>
   <rad>kaligrafi</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -19,14 +19,15 @@
       <ekz>
         programo por lerni la &ccirc;inan <tld/>on
         <fnt>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="&Monato;/1995/004514.php">Por lingvemaj
+          komputilemuloj ...</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9506-lingvema.txt">Por lingvemaj
-          komputilemuloj...</url></vrk>
-          <lok>95/06</lok>
+          <lok>1995/06, p. 22</lok>
         </fnt>;
       </ekz>
       <ekz>
-        en la ekspozicio oni rigardas envie <klr>[&#8230;]</klr> pentra&jcirc;ojn,
+        en la ekspozicio oni rigardas envie <klr>[&#x2026;]</klr> pentra&jcirc;ojn,
         ceramika&jcirc;ojn,
         <tld/>a&jcirc;ojn
         <fnt>
@@ -37,7 +38,10 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_k;&c_a;&c_l;&c_ib;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_l;&c_ib;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_g;&c_o;&c_zh;&c_a;&c_p;&c_ib;&c_s;</trd>
+  </trdgrp>
   <trd lng="bo">&#xF61;&#xF72;&#xF42;&#xF0B;&#xF42;&#xF5F;&#xF74;&#xF42;&#xF66;&#xF0B;</trd>
   <trd lng="ca">cal&middot;ligrafia</trd>
   <trd lng="cs">krasopis</trd>
@@ -50,13 +54,18 @@
   <trdgrp lng="pl">
     <trd>kaligrafia</trd>,
     <trd>pismo pi&eogonek;kne</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="pt">caligrafia</trd>
   <trd lng="ro">caligrafie</trd>
   <trd lng="sk">krasopis</trd>
   <trdgrp lng="uk">
     <trd>&#x43A;&c_a;&#x43B;&c_ib;&c_g;&c_r;&c_a;&c_f;&c_ib;&#x44F;</trd>,
     <trd>&#x43A;&c_r;&c_a;&c_s;&#x43D;&#x43E;&#x43F;&c_i;&c_s;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E66;&#x6CD5; <pr>sh&#x16B;f&#x1CE;</pr></trd>,
+    <trd>&#x5B57;&#x753B; <pr>z&#xEC;hu&#xE0;</pr></trd>,
+    <trd>&#x58A8;&#x5B9D; <pr>m&#xF2;b&#x1CE;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -76,7 +85,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la &ccirc;efaj iloj por <tld/>isto estas la plumo <klr>[&#8230;]</klr> kaj
+        la &ccirc;efaj iloj por <tld/>isto estas la plumo <klr>[&#x2026;]</klr> kaj
         la broso
         <fnt>
           <bib>Viki</bib>
@@ -85,7 +94,10 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_k;&c_a;&c_l;&c_ib;&c_g;&c_r;&c_a;&c_f;</trd>
+    <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_l;&c_ib;&c_g;&c_r;&c_a;&c_f;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_g;&c_o;&c_zh;&c_a;&c_p;&c_ib;&c_s;&c_je;&c_c;</trd>
+  </trdgrp>
   <trd lng="ca">cal&middot;l&iacute;graf</trd>
   <trd lng="de">Kalligraf</trd>
   <trd lng="fr">calligraphe</trd>
@@ -93,11 +105,18 @@
   <trd lng="pl">kaligraf</trd>
   <trd lng="pt">cal&iacute;grafo</trd>
   <trd lng="ro">caligraf</trd>
+  <trd lng="zh">&#x4E66;&#x6CD5;&#x5BB6; <pr>sh&#x16B;f&#x1CE;ji&#x101;</pr></trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.17 2023/07/19 12:46:25
+Dmitri Gabinski: + trd be
+
+versio 1.16 2023/04/11 15:28:21
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.15 2022/09/14 09:36:39
 Dmitri Gabinski: + trd be
 
@@ -114,11 +133,5 @@ Revision 1.8  2018/11/22 23:10:18  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.7  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.6  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.5  2011/12/05 00:10:14  revo
 -->
 </vortaro>

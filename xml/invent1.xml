@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: invent1.xml,v 1.18 2022/03/21 15:27:49 revo Exp $">
+<art mrk="$Id: invent1.xml,v 1.23 2023/11/19 10:22:14 revo Exp $">
 <kap>
   <rad>inventar</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="invent1.0o">
   <kap><tld/>o</kap>
@@ -12,26 +12,55 @@
     <uzo tip="fak">EKON</uzo>
     <dif>
       <ref tip="super" cel="etat.0o.gxenerale">Etato</ref>, listiganta
-      &ccirc;iujn
-      specojn kaj kvantojn de objektoj, varoj, valoroj apartenantaj al
-      iu
-      persono, societo, firmao:
+      &ccirc;iujn specojn kaj kvantojn de objektoj, varoj, valoroj apartenantaj al
+      iu persono, societo, firmao:
       <ekz>
-        Vilela prizorgis la sepulton, la mortokultojn, kaj la <tld/>on
+        Vortaro de ludoj <klr>[&#x2026;]</klr> donacas al la leganto <klr>[&#x2026;]</klr> la unuan
+        kompletan <tld/>on de ludoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2012/010612.php">Ludema Italio</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="biblio.0o">bibliografio</ref>,
+      <ref cel="bilanc.0o.EKON">bilanco<sncref/></ref>,
+      <ref cel="cens.0o.financa">censo<sncref/></ref>,
+      <ref cel="katalo.0o.KOMUNE">katalogo</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="invent1.0o.objektaro">
+    <dif>
+      Tiuj listigitaj objektoj mem:
+      <ekz>
+        &scirc;iaj lakonaj komandotonoj, <klr>[&#x2026;]</klr> tremigis la tutan bankon, same la
+        senvivan parton de la <tld/>o, kiel la vivantojn
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Vilela</nom> prizorgis la sepulton, la mortokultojn, kaj la <tld/>on
         <fnt><aut>Machado de Assis, trad. Paulo Viana</aut>
         <vrk>La divenistino kaj aliaj rakontoj</vrk>
         <lok>Oportuno, jaro 2005a, p. 12a</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="biblio.0o">bibliografio</ref>,
-      <ref cel="katalo.0o.KOMUNE">katalogo</ref>
+      <ref cel="ekip.0ajxo">ekipa&jcirc;o</ref>,
+      <ref cel="proviz.0ajxo">proviza&jcirc;o</ref>,
+      <ref cel="stok.0o">stoko</ref>
     </refgrp>
+    <trd lng="de">Bestand</trd>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_v;&c_e;&c_n;&c_t;&c_a;&c_r;</trd>
   <trd lng="bg">&c_i;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;</trd>
   <trdgrp lng="cs">
-    <trd>invent&#xE1;&#x159;</trd>,
+    <trd>invent&aacute;&rcaron;</trd>,
     <trd>soupis</trd>
   </trdgrp>
   <trdgrp lng="de">
@@ -49,14 +78,25 @@
     <trd>r&eacute;colement</trd>
   </trdgrp>
   <trd lng="hu">lelt&aacute;r</trd>
+  <trdgrp lng="ja">
+    <trd>&#x76EE;&#x9332;  <pr>&#x3082;&#x304F;&#x308D;&#x304F;</pr></trd>,
+    <trd>&#x68DA;&#x5378;&#x3057;&#x8868;  <pr>&#x305F;&#x306A;&#x304A;&#x308D;&#x3057;&#x304A;&#x3082;&#x3066;</pr></trd>
+  </trdgrp>
   <trd lng="nl">inventaris</trd>
   <trd lng="pt">invent&aacute;rio</trd>
   <trd lng="ru">&c_i;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>invent&#xE1;r</trd>,
-    <trd>s&#xFA;pis</trd>
+    <trd>invent&aacute;r</trd>,
+    <trd>s&uacute;pis</trd>
   </trdgrp>
-  <trd lng="uk">&#x456;&#x43D;&#x432;&#x435;&#x43D;&#x442;&#x430;&#x440;</trd>
+  <trd lng="uk">&c_ib;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5B58;&#x8CA8; <pr>c&#xFA;nhu&#xF2;</pr></trd>,
+    <trd>&#x8CA1;&#x7522;&#x6E05;&#x55AE; <pr>c&#xE1;ich&#x1CE;nq&#x12B;ngd&#x101;n</pr></trd>,
+    <trd>&#x5B58;&#x8CA8;&#x6E05;&#x55AE; <pr>c&#xFA;nhu&#xF2;q&#x12B;ngd&#x101;n</pr></trd>,
+    <trd>&#x8CA1;&#x7522;&#x76EE;&#x9304; <pr>c&#xE1;ich&#x1CE;nm&#xF9;l&#xF9;</pr></trd>,
+    <trd>&#x8ABF;&#x67E5;&#x8868; <pr>di&#xE0;och&#xE1;bi&#x1CE;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="invent1.0i">
@@ -66,36 +106,87 @@
     <dif>
       Starigi <tld/>on:
       <ekz>
-        <tld/>i siajn komerca&jcirc;ojn;
+        <tld/>i siajn komerca&jcirc;ojn, la librojn de biblioteko;
       </ekz>
       <ekz>
-        <tld/>i la librojn de biblioteko.
+        <klr>[venis]</klr> momento por <tld/>i, por bilanci
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2015/011415.php">Grincantaj genuoj</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li <tld/>is: iom tro granda frunto, sed varmaj brunaj okuloj plenaj je fajro,
+        kis-invitaj lipoj, <klr>[&#x2026;]</klr> belaj kruroj
+        <fnt>
+          <bib>ChM</bib>
+          <lok>6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la tiama prezidanto de la Akademio <klr>[&#x2026;]</klr> <tld/>as la aktualajn defiojn
+        al tiu lingva institucio
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 12 (62)</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="bilanc.0i">bilanci</ref>,
+      <ref cel="cens.0o">censi</ref>,
+      <ref cel="kontro.0i">kontroli</ref>,
+      <ref cel="nombr.0i.kalkuli">nombri<sncref/></ref>,
+      <ref cel="revizi.0i.dogane">revizii<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_v;&c_e;&c_n;&c_t;&c_a;&c_r;&c_y;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_i;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;&c_i;&c_z;&c_i;&c_r;&c_a;&c_m;</trd>
   <trdgrp lng="cs">
-    <trd>d&#x11B;lat inventuru</trd>,
+    <trd>d&ecaron;lat inventuru</trd>,
     <trd>inventarizovat</trd>,
     <trd>inventovat</trd>
   </trdgrp>
-  <trd lng="de">inventarisieren</trd>
+  <trdgrp lng="de">
+    <trd>inventarisieren</trd>,
+    <trd>eine <ind>Inventur</ind> durchf&uuml;hren</trd>
+  </trdgrp>
   <trd lng="es">inventariar</trd>
   <trdgrp lng="fr">
     <trd>inventorier</trd>,
     <trd>faire l'<ind>inventaire</ind> (de)</trd>
   </trdgrp>
   <trd lng="hu">lelt&aacute;roz</trd>
+  <trdgrp lng="ja">
+    <trd>&#x76EE;&#x9332;&#x3092;&#x4F5C;&#x308B;  <pr>&#x3082;&#x304F;&#x308D;&#x304F;&#x3092;&#x3064;&#x304F;&#x308B;</pr></trd>,
+    <trd>&#x68DA;&#x5378;&#x3057;&#x3059;&#x308B;  <pr>&#x305F;&#x306A;&#x304A;&#x308D;&#x3057;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">inventariseren</trd>
   <trd lng="pt">inventariar</trd>
   <trd lng="ru">&c_i;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">robi&#x165; invent&#xFA;ru</trd>
-  <trd lng="uk">&#x456;&#x43D;&#x432;&#x435;&#x43D;&#x442;&#x430;&#x440;&#x438;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="sk">robi&tcaron; invent&uacute;ru</trd>
+  <trd lng="uk">&c_ib;&c_n;&c_v;&c_je;&c_n;&c_t;&c_a;&c_r;&c_i;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x76D8;&#x70B9; <pr>p&#xE1;ndi&#x1CE;n</pr></trd>,
+    <trd>&#x70B9;&#x8D27; <pr>di&#x1CE;nhu&#xF2;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.21 2023/09/22 06:28:07
+Wolfram Diestel: fnt JED, ekz-oj, ref-oj
+
+versio 1.20 2023/09/22 05:26:21
+Wolfram Diestel: +trd de
+
 Revision 1.16  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -109,16 +200,5 @@ Revision 1.13  2005/10/31 17:31:24  revo
 Jeromo Vasxe: + tez, preciz. dif.
 Revision 1.12 2005/07/29 19:29:00 revo
 Luiz Portella: +ezk +trd pt
-Revision 1.11 2004/09/06 16:36:54 revo
-Marc Bavant: +trd fr
-Revision 1.10 2004/03/30 16:32:45 revo
-Dmitri Gabinski: +trd be
-Revision 1.9 2004/02/16 20:48:42 revo
-Jozefo Horvath: +trd hu
-Revision 1..8 2003/04/08 16:33:17 revo
-Alejandro Mejia Greene: ald 2 his trd
-Revision 1.7 2001/11/12 19:12:45 revo
-Paul Peeraerts: ald trd nl
-Revision 1.6 2001/06/17 18:12:21 revo
 -->
 </vortaro>

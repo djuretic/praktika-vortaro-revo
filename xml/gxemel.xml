@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gxemel.xml,v 1.38 2022/09/21 22:36:40 revo Exp $">
+<art mrk="$Id: gxemel.xml,v 1.41 2023/11/11 11:36:37 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>&gcirc;emel</rad>/o
@@ -37,10 +37,10 @@
         </fnt>;
       </ekz>
       <ekz>
-        mi havis kelkafoje okazon renkonti <klr>[&#8230;]</klr> <tld/>ojn a&ubreve; <tld/>inojn
+        mi havis kelkafoje okazon renkonti <klr>[&#x2026;]</klr> <tld/>ojn a&ubreve; <tld/>inojn
         <fnt>
           <bib>ChL</bib>
-          <lok>Noto De L&#8217; A&ubreve;toro</lok>
+          <lok>Noto De L&#x2019; A&ubreve;toro</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -81,6 +81,10 @@
   <trd lng="hu">iker</trd>
   <trd lng="id">kembar</trd>
   <trd lng="it">gemello</trd>
+  <trdgrp lng="ja">
+    <trd>&#x53CC;&#x751F;&#x5150;  <pr>&#x305D;&#x3046;&#x305B;&#x3044;&#x3058;</pr></trd>,
+    <trd>&#x53CC;&#x5B50;  <pr>&#x3075;&#x305F;&#x3054;</pr></trd>
+  </trdgrp>
   <trd lng="nl">tweeling</trd>
   <trd lng="pl">bli&zacute;niak</trd>
   <trd lng="pt">g&ecirc;meo</trd>
@@ -88,13 +92,18 @@
   <trd lng="ru">&c_b;&c_l;&c_i;&c_z;&c_n;&c_je;&c_c;</trd>
   <trd lng="sv">tvilling</trd>
   <trd lng="uk">&c_b;&c_l;&c_i;&c_z;&c_n;&c_ju;&c_k;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CC;&#x6676; <pr>shu&#x101;ngj&#x12B;ng</pr></trd>,
+    <trd>&#x5B56; <pr>z&#x12B;</pr></trd>,
+    <trd>&#x53CC;&#x7B52;&#x67AA; <pr>shu&#x101;ngt&#x1D2;ngqi&#x101;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gxemel.Gx0oj">
   <kap><tld lit="&Gcirc;"/>oj</kap>
   <uzo tip="fak">AST</uzo>
   <mlg>Gem</mlg>
-  <mlg>&#9802;&#65038;</mlg>
+  <mlg>&#x264A;&#xFE0E;</mlg>
   <snc mrk="gxemel.Gx0oj.stelfiguro">
     <dif>
       <ref tip="lst" cel="stel.0figuro" lst="voko:zodiakaj_signoj" val="3">Stelfiguro</ref> kaj
@@ -104,16 +113,14 @@
         la signoj de la Zodiako en junio estas <tld lit="&Gcirc;"/>oj kaj Kankro
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=2022"
-              >Junio</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2022">Junio</url></lok>
         </fnt>;
       </ekz>
       <ekz>
         M35 estas malfermita stelamaso en konstelacio <tld lit="&Gcirc;"/>oj
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=112032"
-              >M35</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=112032">M35</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -151,13 +158,17 @@
   <trd lng="nl">tweeling</trd>
   <trd lng="pl">Bli&zacute;ni&eogonek;ta  <klr>(gwiazdozbi&oacute;r)</klr></trd>
   <trd lng="pt">G&ecirc;meos</trd>
-  <trd lng="ro">Gemenii  <klr>(constela&#539;ie)</klr></trd>
+  <trd lng="ro">Gemenii  <klr>(constela&#x21B;ie)</klr></trd>
   <trd lng="ru">&c_B;&c_l;&c_i;&c_z;&c_n;&c_je;&c_c;&c_y;</trd>
   <trd lng="sv">Tvillingarna</trd>
+  <trd lng="zh">&#x53CC;&#x5B50;&#x5EA7; <pr>shu&#x101;ngz&#x1D0;zu&#xF2;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.40 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
 versio 1.38 2022/09/21 22:36:40
 Vito Redsky: +trd pl + trd ro  
 
@@ -177,8 +188,5 @@ Revision 1.31  2013/09/04 17:10:20  revo
 Joop Eggen: +trd bg; plibonigo nl
 
 Revision 1.30  2012/01/05 16:10:17  revo
-Marc Rausell: +trd ca
-
-Revision 1.29  2010/04/24 17:07:55  revo
 -->
 </vortaro>

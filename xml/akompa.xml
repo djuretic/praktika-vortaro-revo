@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akompa.xml,v 1.35 2022/03/11 13:29:02 revo Exp $">
+<art mrk="$Id: akompa.xml,v 1.42 2023/10/28 08:33:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>akompan</rad>/i
@@ -64,7 +64,13 @@
       <trd><ind>f&ouml;lja</ind> med</trd>,
       <trd>ledsaga</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4F34;&#x53D1; <pr>b&#xE0;nf&#x101;</pr></trd>,
+    <trd>&#x4F34;&#x767C; <pr>b&#xE0;nf&#x101;</pr></trd>,
+    <trd>&#x4F34;&#x968F;&#x7684; <pr>b&#xE0;nsu&#xED;d&#xED;</pr></trd>,
+    <trd>&#x4F34;&#x96A8;&#x7684; <pr>b&#xE0;nsu&#xED;d&#xED;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="akompa.0i.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
@@ -79,9 +85,11 @@
         stereotipa a&ubreve;tomata <tld/>ado helpe de <klr>[...]</klr>
         sonsinteziloj
         <fnt>
+          <aut>Grigori Arosev</aut>
+          <vrk><url ref="&Monato;/2001/007106.php">&Ccirc;armaj kantoj por
+          infanoj</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007106.html">&Ccirc;armaj
-          kantoj por infanoj</url></vrk>
+          <lok>2001/01, p. 16</lok>
         </fnt>;
       </ekz>
     </dif>
@@ -93,7 +101,8 @@
     <trd lng="ru">&c_a;&c_k;&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     <trd lng="sk">sprev&aacute;dza&tcaron;</trd>
     <trd lng="sv">ackompanjera</trd>
-  </snc>
+    <trd lng="zh">&#x4F34;&#x594F; <pr>b&#xE0;nz&#xF2;u</pr></trd>
+</snc>
   <trdgrp lng="cs">
     <trd>doprov&aacute;zet</trd>,
     <trd>doprov&aacute;zet <klr>(n&ecaron;koho)</klr></trd>
@@ -102,7 +111,7 @@
   <trd lng="en">accompany</trd>
   <trd lng="es">acompa&ntilde;ar</trd>
   <trd lng="fr">accompagner</trd>
-  <trd lng="he">&#x5DC;&#x5D4;&#x5EA;&#x5DC;&#x5D5;&#x5D5;&#x5EA;</trd>
+  <trd lng="he">&lamed;&he;&tav;&lamed;&vav;&vav;&tav;</trd>
   <trdgrp lng="id">
     <trd>men<ind>damping</ind>i</trd>,
     <trd>meng<ind>iring</ind>i</trd>,
@@ -110,6 +119,10 @@
     <trd>[<ind>teman</ind>] menemani</trd>
   </trdgrp>
   <trd lng="it">accompagnare</trd>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x884C;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3053;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x4F34;&#x594F;&#x3059;&#x308B;  <pr>&#x3070;&#x3093;&#x305D;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">begeleiden</trd>
   <trdgrp lng="pt">
     <trd>acompanhar</trd>,
@@ -120,9 +133,9 @@
     <trd>sprev&aacute;dza&tcaron;, sprev&aacute;dza&tcaron; <klr>(hud)</klr></trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x436;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x441;&#x443;&#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x441;&#x443;&#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x438;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_zh;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_i;&c_t;&c_i;</trd>
   </trdgrp>
   <trd lng="vo">kopan&ouml;n</trd>
 </drv>
@@ -148,6 +161,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a; <ind>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_ib;&c_ju;</ind></trd>,
+    <trd>&c_r;&c_a;&c_z;&c_a;&c_m;</trd>,
+    <trd>&c_s;&c_u;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_a;</trd>
+  </trdgrp>
   <trd lng="fr">de <ind>compagnie</ind> avec</trd>
   <trdgrp lng="it">
     <trd>con</trd>,
@@ -175,6 +193,12 @@
     </dif>
     <ref tip="sin" cel="kompan.en0ode">en kompanio de</ref>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_u; <ind>&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_ib;&c_ib;</ind>
+    <klr>(&c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>,
+    <trd>&c_u;
+    <ind>&c_s;&c_u;&c_p;&c_r;&c_a;&c_v;&c_a;&c_d;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_ib;</ind></trd>
+  </trdgrp>
   <trdgrp lng="br">
     <trd>e-ser<klr tip="ind"> (ub.)</klr></trd>,
     <trd>e <ind>kompagnunezh</ind><klr tip="ind"> (ub.)</klr></trd>,
@@ -215,6 +239,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_u;&c_p;&c_r;&c_a;&c_v;&c_a;&c_d;&c_zh;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   <trdgrp lng="br">
     <trd>kompagnun<klr tip="ind"> (a zalc'h kompagnunezh)</klr></trd>,
     <trd>kavandad</trd>
@@ -228,12 +253,16 @@
     <trd>Begleiter</trd>,
     <trd>Gefolgsmann</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>iu akompananta</trd>,
+    <trd>companion</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>compagnon<klr tip="ind"> (personne qui accompagne)</klr></trd>,
     <trd>accompagnateur</trd>
     <trd>membre de la <ind>suite</ind></trd>
   </trdgrp>
-  <trd lng="he">&#x5D1;&#x5DF; &#x5DC;&#x5D5;&#x5D5;&#x5D9;&#x5D4;</trd>
+  <trd lng="he">&bet;&fnun; &lamed;&vav;&vav;&yod;&he;</trd>
   <trdgrp lng="id">
     <trd>pen<ind>damping</ind></trd>,
     <trd>peng<ind>iring</ind></trd>
@@ -241,6 +270,11 @@
   <trdgrp lng="it">
     <trd>accompagnatore</trd>,
     <trd>compagno<klr> (accompagnante)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x4F34;&#x8005;  <pr>&#x3069;&#x3046;&#x306F;&#x3093;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x968F;&#x884C;&#x8005;  <pr>&#x305A;&#x3044;&#x3053;&#x3046;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x4F34;&#x594F;&#x8005;  <pr>&#x3070;&#x3093;&#x305D;&#x3046;&#x3057;&#x3083;</pr></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_p;&c_r;&c_o;&c_v;&c_o;&c_zh;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>,
@@ -250,7 +284,7 @@
     <trd>spolo&ccaron;n&iacute;k</trd>,
     <trd>sprievodca</trd>
   </trdgrp>
-  <trd lng="uk">&#x441;&#x443;&#x43F;&#x440;&#x43E;&#x432;&#x456;&#x434;&#x43D;&#x438;&#x43A;</trd>
+  <trd lng="uk">&c_s;&c_u;&c_p;&c_r;&c_o;&c_v;&c_ib;&c_d;&c_n;&c_i;&c_k;</trd>
 </drv>
 
 <drv mrk="akompa.0antaro">
@@ -280,6 +314,7 @@
       formo <ctl><tld/>aro</ctl>, kiu tamen ne &scirc;ajnas uzata.
     </rim>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_ib;&c_ja; <klr tip="amb">(&c_s;&c_u;&c_p;&c_r;&c_a;&c_v;&c_a;&c_d;&c_zh;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;&c_ib;)</klr></trd>
   <trdgrp lng="br">
     <trd>koskoriad</trd>,
     <trd>ambrougadeg</trd>
@@ -301,7 +336,7 @@
     <trd>entourage</trd>,
     <trd>escorte</trd>
   </trdgrp>
-  <trd lng="he">&#x5E4;&#x5BC;&#x5B8;&#x5DE;&#x5B7;&#x5DC;&#x5B4;&#x5D9;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&pe;&#x5BC;&#x5B8;&mem;&#x5B7;&lamed;&#x5B4;&yod;&#x5B8;&he;</trd>
   <trdgrp lng="id">
     <trd><ind>iring</ind>-iringan</trd>,
     <trd><ind>iring</ind>an</trd>,
@@ -313,6 +348,10 @@
     <trd>scorta</trd>,
     <trd>compagnia<klr> (gruppo)</klr></trd>,
     <trd>comitiva</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x968F;&#x54E1;  <pr>&#x305A;&#x3044;&#x3044;&#x3093;</pr></trd>,
+    <trd>&#x968F;&#x884C;&#x56E3;  <pr>&#x305A;&#x3044;&#x3053;&#x3046;&#x3060;&#x3093;</pr></trd>
   </trdgrp>
   <trdgrp lng="pt">
     <trd>cortejo</trd>,
@@ -338,6 +377,21 @@
 <!--
 
 $Log$
+versio 1.41 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.40 2023/09/18 02:10:54
+Matt Brooks: +trd en
+
+versio 1.39 2023/09/12 14:26:55
+Dmitri Gabinski: + trd be
+
+versio 1.37 2023/05/12 18:30:19
+Paul Peeraerts: kor de url
+
+versio 1.36 2023/03/26 21:23:19
+Paul Peeraerts: &Monato;
+
 versio 1.34 2021/05/09 09:56:44
 Wolfram Diestel: kor. drv@mrk
 
@@ -345,21 +399,6 @@ Revision 1.30  2016/11/20 17:10:14  revo
 Wolfram Diestel: ekzoj / fnt-oj, germ trd. de ~anto / ~antaro
 
 Revision 1.29  2015/07/04 08:37:30  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.28  2015/06/29 16:39:29  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.26  2014/11/14 08:10:18  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.25  2012/10/22 01:10:10  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.24  2010/05/30 16:30:23  revo
 -->
 
 </vortaro>

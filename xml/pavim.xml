@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pavim.xml,v 1.23 2022/07/20 22:30:15 revo Exp $">
+<art mrk="$Id: pavim.xml,v 1.27 2023/10/20 14:25:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pavim</rad>/o <fnt><bib>PV</bib></fnt>
@@ -77,14 +77,12 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="mozaik.0o">mozaiko</ref>
-    <bld
-      lok="&WCU;/thumb/6/6f/Steinsetzer_1880.jpg/549px-Steinsetzer_1880.jpg"
-      prm="PD"
-      >Laborantaj <tld/>istoj je 1880
+    <bld lok="&WCU;/thumb/6/6f/Steinsetzer_1880.jpg/549px-Steinsetzer_1880.jpg" prm="PD">Laborantaj
+    <tld/>istoj je 1880
         <fnt>
           <aut>Anonima artisto, http://www.digibib.tu-bs.de/?docid=00000286</aut>
-          <lok><url ref="&WCW;/File:Steinsetzer_1880.jpg"
-              >&WCW;/File:Steinsetzer_1880.jpg</url></lok>
+          <lok><url
+          ref="&WCW;/File:Steinsetzer_1880.jpg">&WCW;/File:Steinsetzer_1880.jpg</url></lok>
         </fnt>
     </bld>
   </snc>
@@ -107,6 +105,7 @@
     <trd>&uacute;tburkolat</trd>
   </trdgrp>
   <trd lng="it">pavimento</trd>
+  <trd lng="ja">&#33303;&#x88C5;&#26448;  <pr>&#x307B;&#x305D;&#12358;&#12374;&#12356;</pr></trd>
   <trdgrp lng="nl">
     <trd>plaveisel</trd>,
     <trd>bestrating</trd>
@@ -172,11 +171,11 @@
         <uzo tip="stl">FIG</uzo>
         la unua mondmilito <klr>[&#8230;]</klr> <tld/>is la vojon por <nom>Hitler</nom>
         <fnt>
-          <bib>Monato</bib>
-          <aut>Igarasi Takeo</aut>
-          <vrk><url ref="&Steloj;monato2/007083.html"
-              >Pedante</url></vrk>
-        </fnt>;
+          <aut>IGARASI Takeo</aut>
+            <vrk><url ref="&Monato;/2000/007083.php">Pedante</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 4</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -200,6 +199,7 @@
     <trd>burkol <klr tip="ind"> (utat)</klr></trd>,
     <trd>flaszteroz</trd>
   </trdgrp>
+  <trd lng="ja">&#33303;&#x88C5;&#12377;&#x308B;  <pr>&#x307B;&#x305D;&#12358;&#12377;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>plaveien</trd>,
     <trd>bestraten</trd>
@@ -241,13 +241,16 @@
         teroristoj <klr>[&#8230;]</klr> armitaj &ccirc;ie surloke per bastonoj kaj <tld/>eroj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="&Monato;/2003/007981.html"
-              >Al la intelektuloj de Monato</url></vrk>
+          <vrk><url ref="&Monato;/2003/007981.html">Al la intelektuloj de Monato</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_r;&c_u;&c_k;&c_a;&c_v;&c_je;&c_c;</trd>,
+    <trd>&c_b;&c_r;&c_u;&c_k;&c_a;&c_v;&c_y; &c_k;&c_a;&c_m;&c_je;&c_n;&c_mol;</trd>
+  </trdgrp>
   <trd lng="br">pavez</trd>
   <trd lng="cs">dla&zcaron;dice</trd>
   <trd lng="de">Pflasterstein</trd>
@@ -257,6 +260,10 @@
   <trdgrp lng="hu">
     <trd>burkolatk&odblac;</trd>,
     <trd>flaszterk&odblac;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25975;&#x77F3;  <pr>&#12375;&#x304D;&#12356;&#12375;</pr></trd>,
+    <trd>&#26408;&#x308C;&#12435;&#x304C;  <pr>&#12418;&#x304F;&#x308C;&#12435;&#x304C;</pr></trd>
   </trdgrp>
   <trd lng="nl">straatsteen</trd>
   <trdgrp lng="pl">
@@ -279,8 +286,17 @@
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/20 14:25:20
+revo: transskribo per <pr>
+
+versio 1.26 2023/10/02 07:23:36
+Dmitri Gabinski: + trd be
+
+versio 1.24 2023/05/01 07:25:34
+Paul Peeraerts: Steloj -> monato
+
 versio 1.23 2022/07/20 22:30:15
-Vito Redsky:  +trd pl  + trd ro 
+Vito Redsky:  +trd pl  + trd ro
 
 versio 1.22 2022/05/01 17:51:19
 aktualigo lingvokodoj kaj URL-unuoj
@@ -292,13 +308,5 @@ Revision 1.18  2015/06/29 16:40:17  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.17  2009/09/10 16:32:04  revo
-Jeromo Vasxe: + fak, kor. trd fr
-
-Revision 1.16  2009/06/03 16:31:05  revo
-Russ Williams: +trd en
-
-Revision 1.15  2007/08/25 16:30:16  revo
-Federico Gobbo: aldono de itala kaj angla traduko fare de Federico
-"goberiko" Gobbo
 -->
 </vortaro>

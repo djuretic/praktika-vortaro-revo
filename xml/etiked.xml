@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: etiked.xml,v 1.18 2022/03/17 13:47:19 revo Exp $">
+<art mrk="$Id: etiked.xml,v 1.23 2023/11/07 20:34:12 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>etiked</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -10,23 +10,78 @@
   <snc mrk="etiked.0o.karteto">
     <dif>
       Peco de papero a&ubreve; alia materialo kun a&ubreve; por
-      surskribo, alfiksita
-      a&ubreve; alfiksebla sur a&ubreve; al io, por montri enhavon,
-      specon, adreson
-      ktp: 
-      <!-- Karteto, fiksita sur objekto, por montri la enhavon, prezon,
-      destinon, adreson ktp: -->
+      <ref cel="skrib.sur0o">surskribo</ref>, alfiksita a&ubreve; alfiksebla sur a&ubreve; al io,
+      por montri enhavon, specon, adreson ktp:
+      <ekz>
+        kofra <tld/>o
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li a&ccirc;etis vazojn da marmelado, deprenis la <tld/>on kaj diris, ke li konfitis la
+        marmeladon <klr>[mem]</klr>
+        <fnt>
+          <bib>KrM</bib>
+          <lok>17. Fripono &Ccirc;ie Sian Nomon Skribas.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[ili]</klr> anatemis la alitendencanojn <klr>[&#x2026;]</klr> pri &#x201A;socialfa&scirc;ismo&#x2018;,
+        <tld/>o balda&ubreve; asignota anka&ubreve; al SAT
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[ili]</klr> reklamas lingvonaciismon sub la falsa <tld/>o de &leftquot;lingva
+        demokratio&rightquot;
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#x2116; 11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la etikedo &leftquot;verda &ccirc;okolado&#x201D; ne estis uzita en komerco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Antanas Grincevi&ccaron;ius</aut>
+          <vrk><url ref="&Monato;/2003/007879.html">&Ccirc;okolada konflikto</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         tiu konjako, kiel videblas sur la <tld/>o, estis gajninta
-        konsiderindajn
-        premiojn dum la mondekspozicio en Lie&gcirc;o kaj Barcelono
+        konsiderindajn premiojn dum la mondekspozicio en Lie&gcirc;o kaj Barcelono
         <fnt>
-        <aut>Wolfgang Hildesheimer, tr. Wolfgang Kirschstein</aut>:
-        <vrk>Iom granda a&ccirc;eto</vrk>,
-        <bib>LOdE</bib>, <lok>1999. N-ro 3 (53).</lok>
+          <aut>Wolfgang Hildesheimer, tr. Wolfgang Kirschstein</aut>:
+          <vrk>Iom granda a&ccirc;eto</vrk>,
+          <bib>LOdE</bib>, <lok>1999. N-ro 3 (53).</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la uzanto &ccirc;e &ccirc;iu nova mesa&gcirc;o devas diri, &ccirc;u &gcirc;i estas rubpo&scirc;to, ekzemple per
+        butono kun la <tld/>o <klr>(surskribo)</klr> &#x201A;forvi&scirc;u&#x2018;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="&Monato;/2003/008177.html">Kia solvo por rubpo&scirc;to?</url></vrk>
+          <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="insign.0o">insigno</ref>,
+      <ref cel="kart.0o.folio">karto<sncref/></ref>,
+      <ref cel="mark.0o">marko</ref>,
+      <ref cel="nom.0o.de_io">nomo<sncref/></ref>,
+      <ref cel="sxild.nom0o">nom&scirc;ildo</ref>,
+      <ref cel="slip.0o">slipo</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_e;&c_t;&c_y;&c_k;&c_je;&c_t;&c_k;&c_a;</trd>,
       <trd>&c_ja;&c_r;&c_l;&c_y;&c_k;</trd>,
@@ -52,15 +107,16 @@
       <trd>&c_e;&c_t;&c_i;&c_k;&c_je;&c_t;&c_k;&c_a;</trd>,
       <trd>&c_ja;&c_r;&c_l;&c_y;&c_k;</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x76FE; <pr>d&#xF9;n</pr></trd>
+</snc>
   <snc mrk="etiked.0o.KOMP">
   <uzo tip="fak">KOMP</uzo>
     <dif>
       Parto (<ref tip="super" cel="kamp.0o.formulara">kampo</ref>)
       de <ref tip="malprt" cel="datum.0o.KOMP">datumo</ref>
-      priskribanta ties specon:
+      priskribanta ties <ref cel="spec.0o.klaso">speco</ref>n:
       <ekz>
-        <ind>HTML-<tld/>o</ind>.
+        <ind>HTML-<tld/>o</ind>;
         <trd lng="be">HTML-<ind>&c_t;&c_e;&c_g;</ind></trd>
         <trdgrp lng="de">
           <trd>HTML-Sprungmarke</trd>,
@@ -74,7 +130,31 @@
           <trd>etykieta HTML</trd>
         </trdgrp>
       </ekz>
+      <ekz>
+        la Semantika Reto postulas multan kleran laboradon por enmeti <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>D. E. Rogers</aut>
+          <vrk><url ref="&Monato;/2007/009123.php">Reto 2.0</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ekzistas kvindeko da tiaj <tld/>oj, kaj estas la tasko de la teknika redaktoro
+        kontroli ilin
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="&Monato;/2011/010369.php">Tekniko</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="katego.0o.klaso">kategorio<sncref/></ref>,
+      <ref cel="klas.0o.speco">klaso<sncref/></ref>,
+      <ref cel="rubrik.0o.titolo">rubriko<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_t;&c_e;&c_g;</trd>
     <trdgrp lng="de">
       <trd>Sprungmarke</trd>,
@@ -93,6 +173,11 @@
     </trdgrp>
   </snc>
   <trd lng="es">etiqueta</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30E9;&#x30D9;&#x30EB;  <pr>&#x3089;&#x3079;&#x308B;</pr></trd>,
+    <trd>&#x30EC;&#x30C3;&#x30C6;&#x30EB;</trd>,
+    <trd>&#x8377;&#x672D;  <pr>&#x306B;&#x3075;&#x3060;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>etiqueta</trd>,
     <trd>r&oacute;tulo</trd>,
@@ -100,13 +185,77 @@
     <trd>marca</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x435;&#x442;&#x438;&#x43A;&#x435;&#x442;&#x43A;&#x430;</trd>,
-    <trd>&#x44F;&#x440;&#x43B;&#x438;&#x43A;</trd>
+    <trd>&c_je;&c_t;&c_i;&c_k;&c_je;&c_t;&c_k;&c_a;</trd>,
+    <trd>&c_ja;&c_r;&c_l;&c_i;&c_k;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="etiked.0i">
+  <kap>
+    <tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Provizi per etikedo:
+      <ekz>
+        <tld/>i botelojn.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="etiked.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="super" cel="karakt1.0i">Karakterizi</ref>, ofte tro stereotipe, per kategoria nomo:
+      <ekz>
+        <klr>[li]</klr> kura&gcirc;as min etikedi &leftquot;ekstrem-dekstrulo&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Igarasi Takeo</aut>
+          <vrk>Pedante</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la esperanta movado bezonus liberigi sin de la strukturoj kiuj sin mem etikedas
+        &ccirc;u &leftquot;ra&ubreve;mismaj&rightquot; &ccirc;u &leftquot;finvenkismaj&rightquot;
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2004, &#x2116; 1 (111)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="mark.brul0i">brulmarki</ref>,
+      <ref cel="klas.en0igi">enklasigi</ref>,
+      <ref cel="epitet.0i">epiteti</ref>,
+      <ref cel="kalumn.0i">kalumnii</ref>,
+      <ref cel="klasif.0i">klasifiki</ref>,
+      <ref cel="kredit.sen0igi">miskreditigi</ref>,
+      <ref cel="sign.0i.distingigi">signi<sncref/></ref>
+    </refgrp>
+  <trdgrp lng="de">
+    <trd>einstufen</trd>,
+    <trd>abqualifizieren</trd>,
+    <trd>jemanden <ind>schimpfen</ind></trd>,
+    <trd>stigmatisieren</trd>,
+    <trd>brandmarken</trd>
+  </trdgrp>
+  </snc>
+  <trd lng="de">etikettieren</trd>
+  <trd lng="zh">&#x8CBC;&#x6A19;&#x7C64; <pr>ti&#x113;bi&#x101;oqi&#x101;n</pr></trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/14 15:49:05
+revo: transskribo per <pr>
+
+versio 1.21 2023/09/04 18:26:18
+Wolfram Diestel: +~i
+
+versio 1.20 2023/09/04 06:28:37
+Wolfram Diestel: +ekz-oj, ref-oj
+
 Revision 1.16  2016/12/22 10:10:13  revo
 Damien Brucker: +trd fr +Fak
 
@@ -120,11 +269,5 @@ Revision 1.13  2009/01/12 17:30:25  revo
 Marc Bavant: konformigis al 9OA
 
 Revision 1.12 2007/07/09 16:30:51 revo
-Tulio Flores: +tr pt
-Revision 1.11 2003/12/21 17:31:02 revo
-Dmitri Gabinski: +trd be
-Revision 1.10 2002/10/24 19:29:46 revo
-reenmetis erare forigitajn aut, vrk, OndEsp al LOdE
-Revision 1.9 2002/10/23 20:38:25 revo
 -->
 </vortaro>

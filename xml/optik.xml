@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: optik.xml,v 1.24 2022/05/01 17:17:01 revo Exp $">
+<art mrk="$Id: optik.xml,v 1.29 2024/01/30 16:09:26 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>optik</rad>/o
@@ -37,6 +37,7 @@
   <trd lng="es">&oacute;ptica</trd>
   <trd lng="fr">optique<klr> (subst.)</klr></trd>
   <trd lng="hu">optika</trd>
+  <trd lng="ja">&#x5149;&#x5B66;  <pr>&#x3053;&#x3046;&#x304C;&#x304F;</pr></trd>
   <trd lng="nl">optica</trd>
   <trd lng="pl">optyka</trd>
   <trdgrp lng="pt">
@@ -50,7 +51,13 @@
     <trd>optika</trd>
   </trdgrp>
   <trd lng="sv">optik</trd>
-  <trd lng="uk">&#x43E;&#x43F;&#x442;&#x438;&#x43A;&#x430;</trd>
+  <trd lng="uk">&#x43E;&#x43F;&c_t;&c_i;&#x43A;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5149;&#x5B66; <pr>gu&#x101;ngxu&#xE9;</pr></trd>,
+    <trd>&#x5149;&#x5B78; <pr>gu&#x101;ngxu&#xE9;</pr></trd>,
+    <trd>&#x5149;&#x5B66;&#x7CFB;&#x7EDF; <pr>gu&#x101;ngxu&#xE9;x&#xEC;t&#x1D2;ng</pr></trd>,
+    <trd>&#x5149;&#x5B78;&#x7CFB;&#x7D71; <pr>gu&#x101;ngxu&#xE9;x&#xEC;t&#x1D2;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="optik.0a">
@@ -75,18 +82,21 @@
         radiado kiun varmaj objektoj eligas <klr>[&#x2026;]</klr> en la <tld/>a spektro
         <klr>[&#x2026;]</klr> trovi&gcirc;as anta&ubreve; la ru&gcirc;a koloro
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Prefere anta&ubreve;ru&gcirc;a</url></vrk>
+          <aut>J&aacute;nos S&aacute;rk&ouml;zi</aut>
+          <vrk><url ref="&Monato;/2001/pdf/monato200104.pdf#page=4">Prefere anta&ubreve;ru&gcirc;a</url></vrk>
+           <bib>Monato</bib>
+          <lok>2001/04, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
         tiu proceduro nomi&gcirc;as <tld/>a signorekono: la komputilo analizas &ccirc;iun bildon de
         litero aparte kaj decidas, kiu litero estas
         <fnt>
-          <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Monato;/2012/010663.php">De papero al komputilo: bitigo de presitaj dokumentoj</url></vrk>
-          <lok>2012</lok>
+          <vrk><url ref="&Monato;/2012/010663.php">De papero al komputilo: bitigo de presitaj
+          dokumentoj</url></vrk>
+          <bib>Monato</bib>
+          <lok>2012/03, p. 12</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -113,6 +123,10 @@
   <trd lng="es">&oacute;ptico</trd>
   <trd lng="fr">optique<klr> (adj.)</klr></trd>
   <trd lng="hu">optikai</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5149;&#x5B66;&#x306E;  <pr>&#x3053;&#x3046;&#x304C;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x8996;&#x899A;&#x306E;  <pr>&#x3057;&#x304B;&#x304F;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">optisch</trd>
   <trd lng="pl">optyczny</trd>
   <trd lng="pt">&oacute;ptico</trd>
@@ -127,7 +141,11 @@
     <trd>zrakov&yacute;</trd>
   </trdgrp>
   <trd lng="sv">optisk</trd>
-  <trd lng="uk">&#x43E;&#x43F;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&#x43E;&#x43F;&c_t;&c_i;&c_ch;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5149;&#x7E9C; <pr>gu&#x101;ngl&#x1CE;n</pr></trd>,
+    <trd>&#x5149;&#x7F06; <pr>gu&#x101;ngl&#x1CE;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="optik.0isto">
@@ -139,10 +157,11 @@
         la plej gravaj laborterenoj jenas: misioj kun okulistoj kaj <tld/>istoj,
         instruado al infanoj vidhandikapitaj, rekapabligo kaj lo&gcirc;ado
         <fnt>
-          <bib>Monato</bib>
           <aut>Jacques Tuinder</aut>
-          <vrk><url ref="&Monato;/2011/010356.php">Fonda&jcirc;o E-vid-E-nt-E jam 45 jarojn aktivadas</url></vrk>
-          <lok>2011</lok>
+          <vrk><url ref="&Monato;/2011/010356.php">Fonda&jcirc;o E-vid-E-nt-E jam 45 jarojn
+          aktivadas</url></vrk>
+           <bib>Monato</bib>
+          <lok>2011/06, p. 19</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -158,16 +177,37 @@
   <trd lng="en">optician</trd>
   <trd lng="fr">opticien</trd>
   <trd lng="hu">optikus</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5149;&#x5B66;&#x8005;  <pr>&#x3053;&#x3046;&#x304C;&#x304F;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x773C;&#x93E1;&#x5C4B;  <pr>&#x3081;&#x304C;&#x306D;&#x3084;</pr></trd>
+  </trdgrp>
   <trd lng="nl">opticien</trd>
   <trd lng="pl">optyk</trd>
   <trd lng="ro">optician</trd>
   <trd lng="ru">&c_o;&c_p;&c_t;&c_i;&c_k;</trd>
   <trd lng="sk">optik</trd>
-  <trd lng="uk">&#x43E;&#x43F;&#x442;&#x438;&#x43A;</trd>
+  <trd lng="uk">&#x43E;&#x43F;&c_t;&c_i;&#x43A;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5149;&#x5B66;&#x4EEA;&#x5668;&#x5546; <pr>gu&#x101;ngxu&#xE9;y&#xED;q&#xEC;sh&#x101;ng</pr></trd>,
+    <trd>&#x5149;&#x5B78;&#x5100;&#x5668;&#x5546; <pr>gu&#x101;ngxu&#xE9;y&#xED;q&#xEC;sh&#x101;ng</pr></trd>,
+    <trd>&#x5149;&#x5B66;&#x4EEA;&#x5668;&#x5236;&#x9020;&#x5382; <pr>gu&#x101;ngxu&#xE9;y&#xED;q&#xEC;zh&#xEC;z&#xE0;och&#x1CE;ng</pr></trd>,
+    <trd>&#x5149;&#x5B78;&#x5100;&#x5668;&#x88FD;&#x9020;&#x5EE0; <pr>gu&#x101;ngxu&#xE9;y&#xED;q&#xEC;zh&#xEC;z&#xE0;och&#x1CE;ng</pr></trd>,
+    <trd>&#x773C;&#x93E1;&#x5546; <pr>y&#x1CE;nj&#xEC;ngsh&#x101;ng</pr></trd>,
+    <trd>&#x773C;&#x955C;&#x5546; <pr>y&#x1CE;nj&#xEC;ngsh&#x101;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/20 13:11:48
+revo: transskribo per <pr>
+
+versio 1.26 2023/05/14 18:28:54
+Paul Peeraerts: + lok + url + aut
+
+versio 1.25 2023/05/06 14:26:03
+revo: aktualigo URL-unuoj
+
 versio 1.24 2022/05/01 17:17:01
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -181,14 +221,5 @@ Revision 1.19  2018/06/13 03:10:14  revo
 Dusan Juretic: +trd es
 
 Revision 1.18  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.17  2015/06/29 16:33:21  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.16  2015/01/03 20:10:14  revo
-Alain Gerard: +ref
-
-Revision 1.15  2009/08/08 16:35:03  revo
 -->
 </vortaro>

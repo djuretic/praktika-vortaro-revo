@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ceremo.xml,v 1.35 2022/04/26 16:27:52 revo Exp $">
+<art mrk="$Id: ceremo.xml,v 1.39 2023/10/31 13:37:03 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>ceremoni</rad>/o <fnt><bib>PV</bib></fnt>
@@ -67,7 +67,12 @@
       <trd>ceremonia</trd>,
       <trd>obrz&eogonek;d</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4EEA;&#x5F0F; <pr>y&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x793C;&#x4EEA; <pr>l&#x1D0;y&#xED;</pr></trd>,
+    <trd>&#x5178;&#x793C; <pr>di&#x1CE;nl&#x1D0;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="ceremo.0o.gxentilajxo">
     <dif>
       Eksteraj formoj, iomete &gcirc;enaj, de &gcirc;entileco
@@ -132,6 +137,11 @@
     <trd>cerem&oacute;nia</trd>
   </trdgrp>
   <trd lng="it">cerimonia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5100;&#x5F0F;  <pr>&#x304E;&#x3057;&#x304D;</pr></trd>,
+    <trd>&#x5F0F;&#x5178;  <pr>&#x3057;&#x304D;&#x3066;&#x3093;</pr></trd>,
+    <trd>&#x5100;&#x793C;  <pr>&#x304E;&#x308C;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ceremonie</trd>
   <trd lng="pt">cerim&ocirc;nia</trd>
   <trd lng="ru">&c_c;&c_je;&c_r;&c_je;&c_m;&c_o;&c_n;&c_i;&c_ja;</trd>
@@ -140,7 +150,7 @@
     <trd>obrad</trd>
   </trdgrp>
   <trd lng="sv">ceremoni</trd>
-  <trd lng="uk">&#x446;&#x435;&#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_c;&c_je;&c_r;&c_je;&#x43C;&#x43E;&#x43D;&c_ib;&#x44F;</trd>
 </drv>
 
 <drv mrk="ceremo.0a">
@@ -180,7 +190,15 @@
       <ref cel="solen.0a">solena</ref>
     </refgrp>
     <trd lng="de">zeremoniell</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x793C;&#x8282; <pr>l&#x1D0;ji&#xE9;</pr></trd>,
+    <trd>&#x4EEA;&#x5F0F;&#x4E0A; <pr>y&#xED;sh&#xEC;sh&#xE0;ng</pr></trd>,
+    <trd>&#x8B1B;&#x7A76;&#x79AE;&#x7BC0; <pr>ji&#x1CE;ngjiul&#x1D0;ji&#xE9;</pr></trd>,
+    <trd>&#x5B88;&#x793C; <pr>sh&#x1D2;ul&#x1D0;</pr></trd>,
+    <trd>&#x793C;&#x4EEA; <pr>l&#x1D0;y&#xED;</pr></trd>
+  </trdgrp>
+</snc>
+  <trd lng="be">&c_c;&c_y;&c_r;&c_y;&c_m;&c_a;&c_n;&c_ib;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="bg">&c_c;&c_je;&c_r;&c_je;&c_m;&c_o;&c_n;&c_i;&c_a;&c_l;&c_je;&c_n;</trd>
   <trdgrp lng="cs">
     <trd>ceremoni&aacute;ln&iacute;</trd>,
@@ -190,13 +208,17 @@
   <trd lng="en">ceremonial</trd>
   <trd lng="fr">c&eacute;r&eacute;moniel</trd>
   <trd lng="he">&tet;&#x5B6;&qof;&#x5B6;&samekh;&yod;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5100;&#x5F0F;&#x306E;  <pr>&#x304E;&#x3057;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#x5100;&#x5F0F;&#x5F35;&#x3063;&#x305F;  <pr>&#x304E;&#x3057;&#x304D;&#x306F;&#x3063;&#x305F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ceremonieel</trd>
   <trd lng="pt">cerimonial</trd>
   <trdgrp lng="sk">
     <trd>form&aacute;lny</trd>,
     <trd>obradn&yacute;</trd>
   </trdgrp>
-  <trd lng="uk">&#x446;&#x435;&#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x456;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_c;&c_je;&c_r;&c_je;&#x43C;&#x43E;&#x43D;&c_ib;&c_a;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="ceremo.0ema">
@@ -214,12 +236,14 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_c;&c_y;&c_r;&c_y;&c_m;&c_o;&c_n;&c_n;&c_y;</trd>
   <trd lng="ca">cerimoni&oacute;s</trd>
   <trdgrp lng="fr">
     <trd>c&eacute;r&eacute;monieux</trd>,
     <trd>compass&eacute;</trd>
   </trdgrp>
   <trd lng="he">&tet;&#x5B4;&qof;&samekh;&#x5B4;&yod;</trd>
+  <trd lng="ja">&#x5100;&#x5F0F;&#x3092;&#x91CD;&#x3093;&#x3058;&#x308B;  <pr>&#x304E;&#x3057;&#x304D;&#x3092;&#x304A;&#x3082;&#x3093;&#x3058;&#x308B;</pr></trd>
 </drv>
 
 <drv mrk="ceremo.0estro">
@@ -270,7 +294,12 @@
       <trd>cerem&oacute;niamester</trd>
     </trdgrp>
     <trd lng="ru">&c_c;&c_je;&c_r;&c_je;&c_m;&c_o;&c_n;&c_i;&c_j;&c_m;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x53F8;&#x4EEA; <pr>s&#x12B;y&#xED;</pr></trd>,
+    <trd>&#x7BC0;&#x76EE;&#x4E3B;&#x6301;&#x4EBA; <pr>ji&#xE9;m&#xF9;zh&#x1D4;ch&#xED;r&#xE9;n</pr></trd>
+  </trdgrp>
+</snc>
+  <trd lng="be">&c_c;&c_y;&c_r;&c_y;&c_m;&c_o;&c_n;&c_ib;&c_j;&c_m;&c_a;&c_j;&c_s;&c_t;&c_a;&c_r;</trd>
   <trd lng="bg">&c_c;&c_je;&c_r;&c_je;&c_m;&c_o;&c_n;&c_i;&c_a;&c_l;-&c_m;&c_a;&c_j;&c_s;&c_t;&c_o;&c_r;</trd>
   <trdgrp lng="ca">
     <trd>cerimonier</trd>,
@@ -287,7 +316,7 @@
     <trd>mestre de cerim&ocirc;nias</trd>
   </trdgrp>
   <trd lng="nl">ceremoniemeester</trd>
-  <trd lng="uk">&#x446;&#x435;&#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x456;&#x439;&#x43C;&#x435;&#x439;&#x441;&#x442;&#x435;&#x440;</trd>
+  <trd lng="uk">&c_c;&c_je;&c_r;&c_je;&#x43C;&#x43E;&#x43D;&c_ib;&c_j;&#x43C;&c_je;&c_j;&c_s;&c_t;&c_je;&c_r;</trd>
 </drv>
 
 <drv mrk="ceremo.sen0a">
@@ -299,14 +328,14 @@
         sen<tld/>a vizito;
       </ekz>
       <ekz>
-        &scirc;ia honesta amiko estas tiel sen<tld/>a rilate &scirc;in, <klr>[pro kio]</klr> &scirc;i 
+        &scirc;ia honesta amiko estas tiel sen<tld/>a rilate &scirc;in, <klr>[pro kio]</klr> &scirc;i
         mem solene anoncis al &ccirc;iuj <klr>[&#x2026;]</klr>, ke &scirc;i jam estas fian&ccirc;ino
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        &ccirc;iuj viaj vortoj estas simple sen<tld/>a <klr>(<ref cel="kasx.mal0a">malka&scirc;a</ref>)</klr> 
+        &ccirc;iuj viaj vortoj estas simple sen<tld/>a <klr>(<ref cel="kasx.mal0a">malka&scirc;a</ref>)</klr>
         mensogado
         <fnt>
           <bib>EE</bib>
@@ -345,6 +374,10 @@
   <trd>discorsivo<klr> (informale)</klr></trd>,
   <trd>famigliare<klr> (informale)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5100;&#x5F0F;&#x5F35;&#x3089;&#x306A;&#x3044;  <pr>&#x304E;&#x3057;&#x304D;&#x306F;&#x3089;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x304F;&#x3064;&#x308D;&#x3044;&#x3060;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>informeel</trd>,
     <trd>ongedwongen</trd>
@@ -359,10 +392,22 @@
     <trd>bez obradov</trd>,
     <trd>jednoduch&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x52C9;&#x5F37; <pr>b&#xF9;mi&#x1CE;nqi&#x1CE;ng</pr></trd>,
+    <trd>&#x900D;&#x9059;&#x81EA;&#x5728; <pr>xi&#x101;oy&#xE1;oz&#xEC;z&#xE0;i</pr></trd>,
+    <trd>&#x65E0;&#x62D8;&#x675F; <pr>w&#xFA;j&#x16B;sh&#xF9;</pr></trd>,
+    <trd>&#x8C6A;&#x723D; <pr>h&#xE1;oshu&#x1CE;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.38 2023/10/14 11:10:02
+revo: transskribo per <pr>
+
+versio 1.36 2023/07/05 08:35:36
+Dmitri Gabinski: + trd be
+
 versio 1.35 2022/04/26 16:27:52
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -370,7 +415,7 @@ versio 1.33 2021/10/16 08:31:10
 Wolfram Diestel: ~ema, sen~a: ekz-oj, ref-oj
 
 versio 1.32 2021/10/15 15:30:38
-Wolfram Diestel: ~o,~a: ekz-oj, ref-oj 
+Wolfram Diestel: ~o,~a: ekz-oj, ref-oj
 
 versio 1.29 2020/03/21 00:10:34
 James Rezende Piton: +trd pt
@@ -379,11 +424,5 @@ Revision 1.28  2015/07/04 08:37:32  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.27  2015/06/29 16:29:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.26  2015/06/18 15:10:16  revo
-Joop Eggen: +trd bg en
-
-Revision 1.25  2014/05/31 19:10:11  revo
 -->
 </vortaro>

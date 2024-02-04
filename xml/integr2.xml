@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: integr2.xml,v 1.30 2022/09/29 07:50:13 revo Exp $">
+<art mrk="$Id: integr2.xml,v 1.33 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <rad>integral</rad>/o <fnt>Z</fnt>
 </kap>
@@ -18,8 +18,7 @@
       La diferenco <frm am="F(b)-F(a)">F(<k>b</k>)-F(<k>a</k>)</frm>, kie <frm am="F">F</frm> 
       estas ajna <ref cel="deriv.mal0ajxo.MAT">malderiva&jcirc;o</ref> 
       de <frm am="f"><k>f</k></frm>; 
-      simb. <frm
-      am="int_a^bf(x)dx">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>
+      simb. <frm am="int_a^bf(x)dx">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>
       <klr> (legu: <tld/>o de a al bo de fo de ikso do ikso)</klr>:
       <ekz>
         la <tld/>o de funkcio <ref cel="sinus.0o.funkcio">sinuso</ref>
@@ -69,12 +68,14 @@
   <trd lng="es">integral</trd>
   <trd lng="fr">int&eacute;grale<klr tip="ind"> (math.)</klr></trd>
   <trd lng="hu">integr&aacute;l</trd>
+  <trd lng="ja">&#x7A4D;&#x5206;  <pr>&#x305B;&#x304D;&#x3076;&#x3093;</pr></trd>
   <trd lng="nl">integraal</trd>
   <trd lng="pl">ca&lstroke;ka</trd>
   <trd lng="pt">integral<klr tip="amb"> (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</trd>
   <trd lng="sk">integr&aacute;l</trd>
   <trd lng="uk">&c_ib;&#x43D;&c_t;&c_je;&c_gu;&c_r;&c_a;&#x43B;</trd>
+  <trd lng="zh">&#x79EF;&#x5206; <pr>j&#x12B;f&#x113;n</pr></trd>
 </drv>
 
 <drv mrk="integr2.0i">
@@ -144,6 +145,7 @@
   <trd lng="es">integral</trd>
   <trd lng="fr">int&eacute;gral<klr tip="ind"> (math.)</klr></trd>
   <trd lng="hu">integr&aacute;l-</trd>
+  <trd lng="ja">&#x7A4D;&#x5206;&#x306E;  <pr>&#x305B;&#x304D;&#x3076;&#x3093;&#x306E;</pr></trd>
   <trd lng="nl">integraal-</trd>
   <trd lng="pl">ca&lstroke;kowy</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
@@ -273,6 +275,7 @@
     <trd>signe somme<klr tip="ind"> (signe d'int&eacute;gration)</klr></trd>
   </trdgrp>
   <trd lng="hu">integr&aacute;ljel</trd>
+  <trd lng="ja">&#x7A4D;&#x5206;&#x8A18;&#x53F7;  <pr>&#x305B;&#x304D;&#x3076;&#x3093;&#x304D;&#x3054;&#x3046;</pr></trd>
   <trd lng="nl">integraalteken</trd>
   <trd lng="pl">znak ca&lstroke;ki</trd>
   <trd lng="pt">sinal de <ind>integra&ccedil;&atilde;o</ind><klr tip="amb">
@@ -295,11 +298,13 @@
   <trd lng="en">definite <ind>integral</ind></trd>
   <trd lng="fr">int&eacute;grale d&eacute;finie</trd>
   <trd lng="hu">hat&aacute;rozott <ind>integr&aacute;l</ind></trd>
+  <trd lng="ja">&#x5B9A;&#x7A4D;&#x5206;  <pr>&#x3066;&#x3044;&#x305B;&#x304D;&#x3076;&#x3093;</pr></trd>
   <trd lng="pl">ca&lstroke;ka oznaczona</trd>
   <trd lng="pt">integral definida<klr tip="amb">
   (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
   <trd lng="sk">ur&ccaron;it&yacute; integr&aacute;l</trd>
+  <trd lng="zh">&#x5B9A;&#x79EF;&#x5206; <pr>d&#xEC;ngj&#x12B;f&#x113;n</pr></trd>
 </drv>
 
 <drv mrk="integr2.lebega0o">
@@ -309,13 +314,13 @@
     <dif>
       <klr>(de <ref cel="funkci.simpla0o">simpla funkcio</ref>
       <frm am="f=sum a_i*chi_(bb Ai)"><k>f</k> =
-      &#8721;<k>a</k><sub><k>i</k></sub>&middot;&chi;<sub><g>A</g><k>i</k></sub></frm>
+      &#x2211;<k>a</k><sub><k>i</k></sub>&middot;&chi;<sub><g>A</g><k>i</k></sub></frm>
       
       la&ubreve; <ref cel="mezur.0o.MAT">mezuro</ref> <frm am="mu">&my;</frm> 
       super <ref cel="algebr.sigma0o">&sigma;-algebro</ref> 
       <frm am="bb A"><g>A</g></frm>)</klr>
       La sumo 
-      <frm am="sum a_i*mu(A_i)">&#8721;<k>a</k><sub><k>i</k></sub>&middot;&my;(<g>A</g><sub><k>i</k></sub>)</frm>;
+      <frm am="sum a_i*mu(A_i)">&#x2211;<k>a</k><sub><k>i</k></sub>&middot;&my;(<g>A</g><sub><k>i</k></sub>)</frm>;
       simb. <frm am="int f dmu">&#x222B;<k>f</k>d&my;</frm> 
       <klr> (legu: <tld/>o de fo do mu)</klr> a&ubreve;
       <frm am="int f(x)dmu(x)">&#x222B;<k>f</k>(<k>x</k>)d&my;(<k>x</k>)</frm>:
@@ -378,6 +383,7 @@
   <trd lng="nl">Lebesgue-<ind>integraal</ind></trd>
   <trd lng="pl">ca&lstroke;ka Lebesgue'a</trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_L;&c_je;&c_b;&c_je;&c_g;&c_a;</trd>
+  <trd lng="zh">&#x52D2;&#x8C9D;&#x683C;&#x7A4D;&#x5206; <pr>l&#x113;ib&#xE8;ig&#xE9;j&#x12B;f&#x113;n</pr></trd>
 </drv>
 
 <drv mrk="integr2.nedifinita0o">
@@ -407,6 +413,7 @@
     <trd>int&eacute;grale ind&eacute;finie</trd>
   </trdgrp>
   <trd lng="hu">hat&aacute;rozatlan <ind>integr&aacute;l</ind></trd>
+  <trd lng="ja">&#x4E0D;&#x5B9A;&#x7A4D;&#x5206;  <pr>&#x3075;&#x3066;&#x3044;&#x305B;&#x304D;&#x3076;&#x3093;</pr></trd>
   <trdgrp lng="pl">
     <trd>ca&lstroke;ka nieoznaczona</trd>,
     <trd>funkcja pierwotna</trd>
@@ -419,6 +426,10 @@
     <trd>&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j; <ind>&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l;</ind></trd>
   </trdgrp>
   <trd lng="sk">neur&ccaron;it&yacute; integr&aacute;l</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x5B9A;&#x79EF;&#x5206; <pr>b&#xF9;d&#xEC;ngj&#x12B;f&#x113;n</pr></trd>,
+    <trd>&#x539F;&#x51FD;&#x6570; <pr>yu&#xE1;nh&#xE1;nsh&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="integr2.rimana0o">
@@ -428,18 +439,17 @@
     <dif>
       <klr>(de reela <ref cel="funkci.sxtupara0o">&scirc;tupara funkcio</ref>
       <frm am="f=sum a_i*chi_(bb A i)"><k>f</k> = 
-      &#8721;<k>a</k><sub><k>i</k></sub>&middot;&chi;<sub><g>A</g><k>i</k></sub></frm>
+      &#x2211;<k>a</k><sub><k>i</k></sub>&middot;&chi;<sub><g>A</g><k>i</k></sub></frm>
       en intervalo <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm>)</klr>
       La sumo 
-      <frm am="sum a_i*l_i">&#8721;<k>a</k><sub><k>i</k></sub>&middot;<k>l</k><sub><k>i</k></sub></frm>,
+      <frm am="sum a_i*l_i">&#x2211;<k>a</k><sub><k>i</k></sub>&middot;<k>l</k><sub><k>i</k></sub></frm>,
       
       kie <frm am="l_i"><k>l</k><sub>i</sub></frm> signas la
       
       longon de
       intervalo 
       <frm am="bb A_i"><g>A</g><sub><k>i</k></sub></frm>;
-      simb. <frm am="int_a^b
-      f(x)dx">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>.
+      simb. <frm am="int_a^b       f(x)dx">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>.
     </dif>
   </snc>
   <snc mrk="integr2.rimana0o.de_funkcio">
@@ -454,12 +464,11 @@
       <ref cel="infim.0o">infimo</ref> de la <tld/>oj en 
       <frm am="[a,b]">[<k>a</k>,<k>b</k>]</frm> de &scirc;tuparaj funkcioj 
       pli grandaj ol <frm am="f"><k>f</k></frm>; alidire
-      <frm am="lim_(n to oo)[(b-a)/n] sum_(i=1)^n f(a+i*(b-a)/n)">lim<sub><k>n</k>&#8594;&#x221E;</sub> 
+      <frm am="lim_(n to oo)[(b-a)/n] sum_(i=1)^n f(a+i*(b-a)/n)">lim<sub><k>n</k>&#x2192;&#x221E;</sub> 
         [(<k>b</k>-<k>a</k>)/<k>n</k>] 
-        &#8721;<sub><k>i</k>=1</sub><sup><k>n</k></sup> 
+        &#x2211;<sub><k>i</k>=1</sub><sup><k>n</k></sup> 
         <k>f</k>(<k>a</k>+<k>i</k>&middot;(<k>b</k>-<k>a</k>)/<k>n</k>)</frm>;
-      simb. <frm am="int_a^b
-      f(x)dx">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>:
+      simb. <frm am="int_a^b       f(x)dx">&#x222B;<sub><k>a</k></sub><sup><k>b</k></sup><k>f</k>(<k>x</k>)d<k>x</k></frm>:
       <ekz>
         la rimana <tld/>o, kiam &gcirc;i ekzistas, egalas al la lebega.
       </ekz>
@@ -476,10 +485,14 @@
   <trd lng="pt">integral de Riemann<klr tip="amb">
   (matem&aacute;tica)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_g;&c_r;&c_a;&c_l; &c_R;&c_i;&c_m;&c_a;&c_n;&c_a;</trd>
+  <trd lng="zh">&#x9ECE;&#x66FC;&#x79EF;&#x5206; <pr>l&#xED;m&#xE0;nj&#x12B;f&#x113;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
 versio 1.30 2022/09/29 07:50:13
 Dmitri Gabinski: + trd be
 
@@ -499,8 +512,5 @@ Revision 1.24  2005/11/03 17:32:13  revo
 Luiz Portella: +trd pt
 
 Revision 1.23  2004/11/23 17:31:15  revo
-Marc Bavant: ~ado: kor ekz
-
-Revision 1.22  2004/08/31 16:32:55  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: eflore.xml,v 1.18 2022/03/16 15:54:27 revo Exp $">
+<art mrk="$Id: eflore.xml,v 1.23 2023/11/07 19:22:22 revo Exp $">
 <kap>
   <rad>efloresk</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -13,7 +13,7 @@
     <uzo tip="fak">KEM</uzo>
     <uzo tip="fak">MIN</uzo>
     <dif>
-      Pulvori&gcirc;i sur la supra&jcirc;o de substanco:
+      Pulvori&gcirc;i, <ref cel="krista.0igxi">kristali&gcirc;i</ref> sur la supra&jcirc;o de substanco:
       <ekz>
         kun tempopaso <tld/>is sablo&scirc;tona tavolo
         <fnt>
@@ -21,9 +21,23 @@
           <vrk><url ref="http://www.espero.com.cn/2014-07/11/content_32923801.htm">
           Plej okcidentaj pasejoj</url></vrk>,
           <lok>2014-07-11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia <tld/>inta &scirc;tonviza&gcirc;o <klr>[&#x2026;]</klr> strange malgranda situis super la
+        potencaj &scirc;ultroj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Fantaziujo en Dan&gcirc;ero</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="erozi.0igxi">erozii&gcirc;i, erodi&gcirc;i</ref>,
+      <ref cel="korod.0i.KEM">korodi&gcirc;i</ref>,
+      <ref cel="sedime.0igxi">sedimenti</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_v;&c_je;&c_t;&c_r;&c_y;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   <trd lng="cs">zv&ecaron;tr&aacute;vat <klr>(o hornin&ecaron;)</klr></trd>
@@ -37,13 +51,17 @@
   </trdgrp>
   <trd lng="fr">effleurir</trd>
   <trd lng="hu">kivir&aacute;gzik<klr tip="ind"> (pl. sal&eacute;trom)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x98A8;&#x89E3;&#x3059;&#x308B;  <pr>&#x304B;&#x305C;&#x304B;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x98A8;&#x5316;&#x3059;&#x308B;  <pr>&#x3075;&#x3046;&#x304B;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verweren</trd>
   <trd lng="pt">eflorescer</trd>
   <trd lng="ru">&c_v;&c_y;&c_v;&c_je;&c_t;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trd lng="sk">zvetr&aacute;va&tcaron; <klr>(na povrchu)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x432;&#x456;&#x442;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F; (&#x43F;&#x440;&#x43E; &#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x443;)</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x43F;&#x430;&#x434;&#x430;&#x442;&#x438;&#x441;&#x44F; (&#x43F;&#x440;&#x43E; &#x441;&#x43E;&#x43B;&#x456;)</trd>
+    <trd>&c_v;&c_i;&c_v;&c_ib;&c_t;&c_r;&c_ju;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja; (&c_p;&c_r;&c_o; &c_p;&c_o;&c_r;&c_o;&c_d;&c_u;)</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_p;&c_a;&c_d;&c_a;&c_t;&c_i;&c_s;&c_ja; (&c_p;&c_r;&c_o; &c_s;&c_o;&c_l;&c_ib;)</trd>
   </trdgrp>
 </drv>
 
@@ -51,7 +69,16 @@
   <kap><tld/>o</kap>
   <snc mrk="eflore.0o.MIN">
     <dif>
-      Fenomeno <tld/>i.
+      Fenomeno <tld/>i:
+      <ekz>
+        pro longtempa senuzo kaj <tld/>o, &ccirc;e la konstrua&jcirc;oj de la kastelo <klr>[&#x2026;]</klr>
+        muroj krevis dum la pasintaj dekoj da jaroj
+        <fnt>
+          <aut>Xie Ruifeng</aut>
+          <vrk><url ref="http://www.espero.com.cn/2015-10/15/content_36819444.htm">Finita rebonigo de la kastelo &ccirc;e la pasejo Jiayu en Gansu, &Ccirc;inio</url></vrk>
+          <lok>El Popola &Ccirc;inio,  2015-10-15 </lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_v;&c_je;&c_t;&c_r;&c_y;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
@@ -69,30 +96,50 @@
     <trd>kivir&aacute;gz&aacute;s<klr tip="ind"> (vegyi)</klr></trd>,
     <trd>effloreszcencia</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x98A8;&#x89E3;  <pr>&#x3075;&#x3046;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x98A8;&#x5316;  <pr>&#x3075;&#x3046;&#x304B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verwering</trd>
   <trd lng="pt">efloresc&ecirc;ncia</trd>
   <trd lng="ru">&c_v;&c_y;&c_v;&c_je;&c_t;&c_r;&c_i;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">zvetr&aacute;vanie</trd>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x432;&#x456;&#x442;&#x440;&#x44E;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x43F;&#x430;&#x434;</trd>,
-    <trd>&#x435;&#x444;&#x43B;&#x43E;&#x440;&#x435;&#x441;&#x446;&#x435;&#x43D;&#x446;&#x456;&#x44F;</trd>
+    <trd>&c_v;&c_i;&c_v;&c_ib;&c_t;&c_r;&c_ju;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_p;&c_a;&c_d;</trd>,
+    <trd>&c_je;&c_f;&c_l;&c_o;&c_r;&c_je;&c_s;&c_c;&c_je;&c_n;&c_c;&c_ib;&c_ja;</trd>
   </trdgrp>
+  <trd lng="zh">&#x5168;&#x76DB;&#x671F; <pr>qu&#xE1;nch&#xE9;ngq&#x12B;</pr></trd>
 </drv>
 
 <drv mrk="eflore.0a">
   <kap><tld/>a</kap>
   <snc mrk="eflore.0a.MIN">
     <dif>
-      <tld lit="E"/>anta.
+      Rilata al <tld/>ado:
+      <ekz>
+        la pozitiva <frm>Ce</frm>-anomalio estas perceptebla nur en la supra parto de la <tld/>a
+        profilo
+        <fnt>
+          <aut>V&aacute;clav Proch&aacute;zka</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/geologio/etr/etr-en-marsedimentoj.htm">ETR en mar-sedimentoj </url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_v;&c_y;&c_v;&c_je;&c_t;&c_r;&c_a;&c_n;&c_y;</trd>
   <trd lng="cs">zv&ecaron;tral&yacute;</trd>
   <trdgrp lng="de">
     <trd>effloreszierend</trd>,
     <trd>ausbl&uuml;hend</trd>
   </trdgrp>
   <trd lng="fr">efflorescent</trd>
+  <trdgrp lng="ja">
+    <trd>&#x98A8;&#x89E3;&#x306E;  <pr>&#x304B;&#x305C;&#x304B;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x98A8;&#x89E3;&#x3057;&#x305F;  <pr>&#x304B;&#x305C;&#x304B;&#x3044;&#x3057;&#x305F;</pr></trd>,
+    <trd>&#x98A8;&#x5316;&#x306E;  <pr>&#x3075;&#x3046;&#x304B;&#x306E;</pr></trd>,
+    <trd>&#x98A8;&#x5316;&#x3057;&#x305F;  <pr>&#x3075;&#x3046;&#x304B;&#x3057;&#x305F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>verwerend</trd>,
     <trd>uitslaand</trd>
@@ -100,11 +147,20 @@
   <trd lng="pt">eflorescente</trd>
   <trd lng="ru">&c_v;&c_y;&c_v;&c_je;&c_t;&c_r;&c_i;&c_v;&c_a;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
   <trd lng="sk">zvetran&yacute;</trd>
-  <trd lng="uk">&#x432;&#x438;&#x432;&#x456;&#x442;&#x440;&#x435;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_v;&c_ib;&c_t;&c_r;&c_je;&c_n;&c_i;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/11/06 21:21:30
+Wolfram Diestel: +ekz-oj, ref-oj
+
+versio 1.21 2023/10/14 15:34:33
+revo: transskribo per <pr>
+
+versio 1.19 2023/04/07 09:25:34
+Dmitri Gabinski: + trd be
+
 Revision 1.16  2015/07/04 08:37:33  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -118,11 +174,5 @@ Revision 1.13  2009/08/11 16:31:11  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.12  2007/06/22 17:25:27  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2007/04/29 16:31:11  revo
-Wieland Pusch: +trd de
-
-Revision 1.10  2003/12/16 17:30:49  revo
 -->
 </vortaro>

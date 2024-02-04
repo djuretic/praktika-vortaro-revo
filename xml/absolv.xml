@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: absolv.xml,v 1.32 2022/06/13 07:29:48 revo Exp $">
+<art mrk="$Id: absolv.xml,v 1.39 2024/01/21 21:23:35 revo Exp $">
 <kap>
   <rad>absolv</rad>/i
-  <fnt><bib>PV</bib></fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="absolv.0i">
   <kap><tld/>i</kap>
@@ -12,7 +12,7 @@
   <snc mrk="absolv.0i.KAT">
     <uzo tip="fak">KAT</uzo>
     <dif>
-      <ref tip="dif" cel="pek.0liberigi">Pekliberigi</ref>:
+      <ke><ref tip="dif" cel="pek.0liberigi">Pekliberigi</ref></ke>:
       <ekz>
         per pre&gcirc;ado dum ni uzurpos kaj pekos ni persvados la Diojn <tld/>i nin de puno
         <fnt>
@@ -40,7 +40,9 @@
     <trd lng="be">&c_d;&c_a;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol; &c_g;&c_r;&c_a;&c_h;&c_ib;</trd>
     <trdgrp lng="de">
       <trd><ind>Absolution</ind> erteilen</trd>,
-      <trd>vergeben</trd>
+      <trd>vergeben</trd>,
+      <trd>lossprechen</trd>,
+      <trd>entbinden</trd>
     </trdgrp>
     <trd lng="en">absolve</trd>
     <trdgrp lng="pl">
@@ -56,7 +58,7 @@
   <snc mrk="absolv.0i.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      <ref tip="dif" cel="kondam.mal0i">Malkondamni</ref>:
+      <ke><ref tip="dif" cel="kondam.mal0i">Malkondamni</ref></ke>:
       <ekz>
         malgra&ubreve; la gestado de la surdmutulino, la ju&gcirc;isto do <tld/>as lin
         <fnt>
@@ -68,9 +70,11 @@
         pri la &ccirc;efaj punktoj, &scirc;i, tamen, estos kondamnita al plurjara ekzilo en
         Siberio
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Iom tro predikema
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="&Monato;/2001/pdf/monato200105.pdf#page=30">Iom tro predikema
           romano</url></vrk>
+          <bib>Monato</bib>
+          <lok>2001/05, p. 30</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -81,9 +85,9 @@
     </refgrp>
     <rim num="1">
       Ne&gcirc;usta estas la signifo <ctl>plenumi</ctl> (pri kurso)
-      a&ubreve; <ctl>fini</ctl> (pri ekzameno): 
+      a&ubreve; <ctl>fini</ctl> (pri ekzameno):
       <ekz>
-        kiam mi estos <tld/>inta la lernejon, mi iros al sinjoro <nom>Beyer</nom> 
+        kiam mi estos <tld/>inta la lernejon, mi iros al sinjoro <nom>Beyer</nom>
         en la montaron
         <fnt>
           <aut>B. N&ecaron;mcov&aacute;, trad. V. Tobek kaj K. Proch&aacute;zka</aut>,
@@ -123,10 +127,13 @@
   </snc>
   <trd lng="ca">absoldre</trd>
   <trd lng="cs">prohl&aacute;sit nevinn&yacute;m</trd>
-  
   <trd lng="es">absolver</trd>
   <trd lng="fr">absoudre</trd>
   <trd lng="he">&lamed;&#x5B4;&pe;&#x5B0;&tet;&vav;&#x5B9;&resh;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7F6A;&#12434;&#x8D66;&#12377;  <pr>&#12374;&#12356;&#12434;&#12422;&#12427;&#12377;</pr></trd>,
+    <trd>&#28961;&#x7F6A;&#x5BA3;&#x544A;&#12377;&#x308B;  <pr>&#12416;&#12374;&#12356;&#x305B;&#12435;&#12371;&#x304F;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">vergeven</trd>
   <trdgrp lng="sk">
     <trd>odpusti&tcaron;</trd>,
@@ -163,7 +170,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &leftquot;je-es&rightquot; bruis la homoj, kvaza&ubreve; ili ricevus <tld/>on pro sia 
+        &leftquot;je-es&rightquot; bruis la homoj, kvaza&ubreve; ili ricevus <tld/>on pro sia
         malobservo de la sankta tago
         <fnt>
           <aut>A. Strindberg, trad. S. Johansson</aut>,
@@ -184,7 +191,8 @@
       <trd>odpuszczenie<klr> (winy, grzechu)</klr></trd>
       <trd>darowanie<klr> (winy, grzechu)</klr></trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x514D;&#x7F6A; <pr>mi&#x1CE;nzu&#xEC;</pr></trd>
+</snc>
   <snc mrk="absolv.0o.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
@@ -192,9 +200,11 @@
       <ekz>
         juran <tld/>on li ja povis akiri, tamen restas &leftquot;morale kulpa&rightquot;
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018">Germanio &dash; Ne
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2014/011263.php">Germanio &dash; Ne
           kulpas la kulpanto</url></vrk>
+          <bib>Monato</bib>
+          <lok>2014/04, p. 10</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -209,7 +219,17 @@
       <trd>&lstroke;aska</trd>
       <trd>prawo <ind>&lstroke;aski</ind></trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5BA3;&#x544A;&#x65E0;&#x7F6A; <pr>xu&amacron;ng&#xE0;ow&#xFA;zu&#xEC;</pr></trd>,
+    <trd>&#x5BA3;&#x544A;&#28961;&#x7F6A; <pr>xu&amacron;ng&#xE0;ow&#xFA;zu&#xEC;</pr></trd>,
+    <trd>&#x539F;&#x8AD2; <pr>yu&#xE1;nli&#xE0;ng</pr></trd>,
+    <trd>&#x539F;&#x8C05; <pr>yu&#xE1;nli&#xE0;ng</pr></trd>,
+    <trd>&#x5BBD;&#24661; <pr>ku&amacron;nsh&#xF9;</pr></trd>,
+    <trd>&#x5BEC;&#24661; <pr>ku&amacron;nsh&#xF9;</pr></trd>,
+    <trd>&#x5FCF;&#24724;&#x5F0F; <pr>ch&#xE0;nhu&#x1D0;sh&#xEC;</pr></trd>,
+    <trd>&#x61FA;&#24724;&#x5F0F; <pr>ch&#xE0;nhu&#x1D0;sh&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="ca">absoluci&oacute;</trd>
   <trd lng="es">absoluci&oacute;n</trd>
   <trd lng="fr">absolution</trd>
@@ -223,6 +243,21 @@
 </art>
 <!--
 $Log$
+versio 1.39 2024/01/21 21:23:35
+Wolfram Diestel: fnt JED, ke
+
+versio 1.37 2023/10/12 16:57:42
+revo: transskribo per <pr>
+
+versio 1.36 2023/08/29 07:24:37
+Wolfram Diestel: ja: plibonigo prononco
+
+versio 1.34 2023/05/20 16:31:18
+Paul Peeraerts: + aut + lok
+
+versio 1.33 2023/05/02 15:56:27
+revo: aktualigo URL-unuoj
+
 versio 1.32 2022/06/13 07:29:48
 Dmitri Gabinski: + trd be
 
@@ -230,20 +265,5 @@ versio 1.30 2021/11/06 16:46:46
 Wolfram Diestel: +trd de
 
 versio 1.29 2021/11/06 10:30:28
-Wolfram Diestel: +ekz-oj, ref-oj, trd de
-
-Revision 1.26  2015/07/04 08:37:29  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.25  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.24  2014/08/10 17:10:14  revo
-Carlos Garcia: +trd es -o
-
-Revision 1.23  2014/08/04 13:10:11  revo
-Damien Brucker: +trd fr
-
-Revision 1.22  2012/08/22 10:10:19  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: argxen.xml,v 1.113 2022/05/07 10:33:44 revo Exp $">
+<art mrk="$Id: argxen.xml,v 1.118 2023/12/11 21:23:16 revo Exp $">
   <kap>
   <ofc>*</ofc>
   <rad>ar&gcirc;ent</rad>/o
@@ -90,7 +90,7 @@
   <trd lng="ig">&#x1ECD;la&#x1ECD;cha</trd>
   <trd lng="is">silfur</trd>
   <trd lng="it">argento</trd>
-  <trd lng="ja">&#37504;</trd>
+  <trd lng="ja">&#37504; <pr>&#x304E;&#12435;</pr></trd>
   <trd lng="jv">salaka</trd>
   <trd lng="ka">&#x10D5;&#x10D4;&#x10E0;&#x10EA;&#x10EE;&#x10DA;&#x10D8;&#x10E1;</trd>
   <trd lng="kk">&#x43A;&#x4AF;&#x43C;&c_ib;&c_s;</trd>
@@ -148,6 +148,10 @@
   <trd lng="xh">isilivere</trd>
   <trd lng="yi">&#x5D6;&#x5D9;&#x5DC;&#x5D1;&#x5E2;&#x5E8;</trd>
   <trd lng="yo">fadak&#xE0;</trd>
+  <trdgrp lng="zh">
+    <trd>&#37504;&#x5B50; <pr>y&#xED;nzi</pr></trd>,
+    <trd>&#x94F6;&#x5B50; <pr>y&#xED;nzi</pr></trd>
+  </trdgrp>
   <trd lng="zu">zesiliva</trd>
 </drv>
 
@@ -202,7 +206,11 @@
     <trd lng="es">de plata</trd>
     <trd lng="hu">ez&uuml;st</trd>
     <trd lng="sv">av <ind>silver</ind></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x542B;&#37504; <pr>h&#xE1;ny&#xED;n</pr></trd>,
+    <trd>&#x542B;&#x94F6; <pr>h&#xE1;ny&#xED;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="argxen.0a.FIG">
     <dif>
       Havanta econ, aspekton de <tld/>o:
@@ -231,7 +239,11 @@
     <trd lng="es">plateado</trd>
     <trd lng="hu">ez&uuml;st&ouml;s</trd>
     <trd lng="sv">silvrig</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x50CF;&#37504; <pr>xi&#xE0;ngy&#xED;n</pr></trd>,
+    <trd>&#x50CF;&#x94F6; <pr>xi&#xE0;ngy&#xED;n</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_ja;&c_r;&c_e;&c_b;&c_r;&c_a;&c_n;&c_y;</trd>,
     <trd>&c_s;&c_r;&c_e;&c_b;&c_n;&c_y;</trd>
@@ -242,6 +254,10 @@
   <trd lng="de">silbern</trd>
   <trd lng="fr">argent&eacute;</trd>
   <trd lng="he">&#x5DB;&#x5E1;&#x5D5;&#x5E3;</trd>
+  <trdgrp lng="ja">
+    <trd>&#37504;&#x306E;  <pr>&#x304E;&#12435;&#x306E;</pr></trd>,
+    <trd>&#37504;&#33394;&#x306E;  <pr>&#x304E;&#12435;&#12356;&#x308D;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">zilveren</trd>
   <trd lng="pl">srebrny</trd>
   <trd lng="ru">&c_s;&c_je;&c_r;&c_je;&c_b;&c_r;&c_ja;&c_n;&c_y;&c_j;</trd>
@@ -290,6 +306,11 @@
   <trdgrp lng="hu">
     <trd>ez&uuml;st&ouml;z</trd>,
     <trd>beez&uuml;st&ouml;z</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#37504;&#x30E1;&#x30C3;&#x30AD;&#12377;&#x308B;  <pr>&#x304E;&#12435;&#12417;&#12387;&#x304D;&#12377;&#x308B;</pr></trd>,
+    <trd>&#37504;&#x5F35;&#x308A;&#x306B;&#12377;&#x308B; 
+    <pr>&#x304E;&#12435;&#x306F;&#x308A;&#x306B;&#12377;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">verzilveren<klr tip="ind"> (zilver maken)</klr></trd>
   <trdgrp lng="pl">
@@ -346,7 +367,12 @@
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6C34;&#37504; <pr>shu&#x1D0;y&#xED;n</pr></trd>,
+    <trd>&#x6C34;&#x94F6; <pr>shu&#x1D0;y&#xED;n</pr></trd>,
+    <trd>&#x6C5E; <pr>g&#x1D2;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="de">
     <trd>Quecksilber</trd>,
     <trd>lebendiges Silber<klr> (Quecksilber)</klr></trd>
@@ -356,11 +382,21 @@
     <trd>vif-argent</trd>
   </trdgrp>
   <trd lng="nl">kwikzilver</trd>
+  <trd lng="pl">&zdot;ywe  <ind>srebro</ind>  <klr>(rt&eogonek;&cacute; pot.)</klr></trd>
   <trd lng="sv">kvicksilver</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.118 2023/12/11 21:23:16
+Vito Redsky: +trd pl 
+
+versio 1.116 2023/10/13 16:46:48
+revo: transskribo per <pr>
+
+versio 1.114 2023/08/29 13:30:28
+Wolfram Diestel: ja: +prononco
+
 versio 1.113 2022/05/07 10:33:44
 Petr Diblik: trd cs
 
@@ -374,14 +410,5 @@ Revision 1.33  2014/06/04 03:10:37  revo
 Eko Nur Syah Hidayat: +id
 
 Revision 1.32  2013/09/17 19:10:47  revo
-Wolfram Diestel: val
-
-Revision 1.31  2013/09/15 15:10:34  revo
-Wolfram Diestel: simb. laux IUPAC
-
-Revision 1.30  2013/09/14 09:10:51  revo
-Wolfram Diestel: ref al lst koloroj per ekz
-
-Revision 1.29  2013/08/24 20:10:34  revo
 -->
 </vortaro>

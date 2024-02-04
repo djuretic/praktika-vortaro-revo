@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: obscen.xml,v 1.9 2022/07/07 07:30:22 revo Exp $">
+<art mrk="$Id: obscen.xml,v 1.13 2024/01/30 16:09:13 revo Exp $">
 <kap>
   <rad>obscen</rad>/a <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -9,16 +9,21 @@
   <kap><tld/>a</kap>
   <snc mrk="obscen.0a.KOMUNE">
     <dif>
-      <ref tip="super" cel="dec.mal0a.KOMUNE">Maldec</ref>ega:
+      Maldece, vulgare, &scirc;oke malpruda (pri vorto, parolo, gesto, verko ktp):
       <ekz>
-        danco <klr>...</klr> tiutempe enmodi&gcirc;is, nome en la plej bona 
-        societo, kaj estis proklamita de episkopo Hiram kiel &leftquot;la plej 
+        danco <klr>...</klr> tiutempe enmodi&gcirc;is, nome en la plej bona
+        societo, kaj estis proklamita de episkopo Hiram kiel &leftquot;la plej
         <tld/>a danco, pri kiu entute iam li a&ubreve;dis&rightquot;
-        <fnt><bib>Salamandroj</bib>, <lok>libro 1a, &ccirc;apitro 
-        12a</lok></fnt>.
+          <fnt><bib>Salamandroj</bib>,
+          <lok>libro 1a, &ccirc;apitro 12a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <ref tip="super" cel="dec.mal0a">maldeca</ref>
+  <refgrp tip="vid">
+    <ref cel="pornografi.0o">porno</ref>,
+    <ref cel="vulgar.0a.malkonvena">vulgara<sncref/></ref>
+  </refgrp>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_s;&c_t;&c_o;&c_j;&c_n;&c_y;</trd>,
     <trd>&c_g;&c_a;&c_n;&c_je;&c_b;&c_n;&c_y;</trd>,
@@ -38,19 +43,24 @@
   <trdgrp lng="fa">
     <trd>&a_m;&a_s;&a_t;&a_h;&a_j;&a_n;</trd>,
     <trd>&a_r;&f_k;&f_y;&f_k;</trd>,
-    <trd>&a_sh;&a_r;&a_m;&#8204;&a_A_madda;&a_w;&a_r;</trd>
+    <trd>&a_sh;&a_r;&a_m;&#x200C;&a_A_madda;&a_w;&a_r;</trd>
   </trdgrp>
   <trd lng="fr">obsc&egrave;ne</trd>
+  <trdgrp lng="ja">
+    <trd>&#x308F;&#x3044;&#x305B;&#x3064;&#x306A;</trd>,
+    <trd>&#x307F;&#x3060;&#x3089;&#x306A;</trd>
+  </trdgrp>
   <trd lng="nl">obsceen</trd>
   <trdgrp lng="pl">
     <trd>obsceniczny</trd>,
     <trd>spro&sacute;ny</trd>,
     <trd>nieprzyzwoity</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>obscen</trd>,
     <trd>lasciv</trd>
   </trdgrp>
+  <trd lng="ru">&c_p;&c_o;&c_h;&c_a;&c_b;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>necudn&yacute;</trd>,
     <trd>nehanebn&yacute;</trd>,
@@ -58,9 +68,24 @@
     <trd>oplzl&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_j;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&c_s;&#x43E;&c_r;&#x43E;&#x43C;&c_ib;&c_t;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&c_s;&#x43E;&c_r;&#x43E;&#x43C;&c_ib;&c_c;&#x44C;&#x43A;&c_i;&c_j;</trd>
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_i;&c_s;&c_t;&c_o;&c_j;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_o;&c_r;&c_o;&c_m;&c_ib;&c_t;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_o;&c_r;&c_o;&c_m;&c_ib;&c_c;&c_mol;&c_k;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7325;&#x4EB5; <pr>w&#x11B;ixi&#xE8;</pr></trd>,
+    <trd>&#x7325;&#x893B; <pr>w&#x11B;ixi&#xE8;</pr></trd>,
+    <trd>&#x5A6C; <pr>y&#xED;n</pr></trd>,
+    <trd>&#x6DEB;&#x79FD; <pr>y&#xED;nhu&#xEC;</pr></trd>,
+    <trd>&#x6DEB;&#x7A62; <pr>y&#xED;nhu&#xEC;</pr></trd>,
+    <trd>&#x6DEB;&#x4EB5; <pr>y&#xED;nxi&#xE8;</pr></trd>,
+    <trd>&#x6DEB;&#x893B; <pr>y&#xED;nxi&#xE8;</pr></trd>,
+    <trd>&#x6DEB; <pr>y&#xED;n</pr></trd>,
+    <trd>&#x6EDB; <pr>y&#xED;n</pr></trd>,
+    <trd>&#x4E0D;&#x5408;&#x793C;&#x4EEA;&#x7684; <pr>b&#xF9;h&#xE9;l&#x1D0;y&#xED;de</pr></trd>,
+    <trd>&#x4E0D;&#x5408;&#x79AE;&#x5100;&#x7684; <pr>b&#xF9;h&#xE9;l&#x1D0;y&#xED;de</pr></trd>,
+    <trd>&#x4E0D;&#x6B63;&#x7D93; <pr>b&#xF9;zh&#xE8;ngjing</pr></trd>,
+    <trd>&#x4E0D;&#x6B63;&#x7ECF; <pr>b&#xF9;zh&#xE8;ngjing</pr></trd>
   </trdgrp>
 </drv>
 
@@ -68,11 +93,10 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="obscen.0ajxo.KOMUNE">
     <dif>
-      Maldecega&jcirc;o:
+      <tld lit="O"/>a a&jcirc;o &mdash; vorto, fi-&scirc;erco, ago ktp:
       <ekz>
-        la pagago ja parolas, sed la tutan tagon krias nur <tld/>a&jcirc;ojn
+        la papago ja parolas, sed la tutan tagon krias nur <tld/>a&jcirc;ojn
         <fnt>
-        <aut>-</aut>,
         <vrk>Justa puno</vrk>,
         <lok><url ref="http://miresperanto.narod.ru/humuro/anekdotoj-2.htm">Anekdotoj
         kaj &scirc;ercoj 2</url>, [vidita je 2006-09-14]</lok>
@@ -90,6 +114,10 @@
       <trd>Obsz&ouml;nit&auml;t</trd>
   </trdgrp>
   <trd lng="fr">obsc&eacute;nit&eacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x308F;&#x3044;&#x305B;&#x3064;&#x306A;&#x8A00;&#x8449;  <pr>&#x308F;&#x3044;&#x305B;&#x3064;&#x306A;&#x3053;&#x3068;&#x3070;</pr></trd>,
+    <trd>&#x308F;&#x3044;&#x305B;&#x3064;&#x306A;&#x884C;&#x70BA;  <pr>&#x308F;&#x3044;&#x305B;&#x3064;&#x306A;&#x3053;&#x3046;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">obsceniteit</trd>
   <trdgrp lng="pl">
     <trd>spro&sacute;ny napis</trd>,
@@ -99,15 +127,35 @@
     <trd>inscrip&#x21B;ie murdar&abreve;</trd>,
     <trd>lucru obscen</trd>
   </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_i;&c_s;&c_t;&c_o;&c_j;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_s;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_o;&c_h;&c_a;&c_b;&c_n;&c_shch;&c_i;&c_n;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_j;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
-    <trd>&#x43D;&c_je;&#x43F;&c_r;&c_i;&c_s;&c_t;&#x43E;&c_j;&#x43D;&c_i;&c_j; &c_v;&c_ch;&c_i;&#x43D;&#x43E;&#x43A;</trd>
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_i;&c_s;&c_t;&c_o;&c_j;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_i;&c_s;&c_t;&c_o;&c_j;&c_n;&c_i;&c_j; &c_v;&c_ch;&c_i;&c_n;&c_o;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6DEB;&#x79FD; <pr>y&#xED;nhu&#xEC;</pr></trd>,
+    <trd>&#x6DEB;&#x7A62; <pr>y&#xED;nhu&#xEC;</pr></trd>,
+    <trd>&#x597D;&#x8272; <pr>h&#x1CE;os&#xE8;</pr></trd>,
+    <trd>&#x6DEB;&#x79FD;&#x8BED;&#x8A00;&#x6216;&#x884C;&#x4E3A; <pr>y&#xED;nhu&#xEC;y&#x1D4;y&#xE1;nhu&#xF2;x&#xED;ngw&#xE9;i</pr></trd>,
+    <trd>&#x6DEB;&#x7A62;&#x8A9E;&#x8A00;&#x6216;&#x884C;&#x70BA; <pr>y&#xED;nhu&#xEC;y&#x1D4;y&#xE1;nhu&#xF2;x&#xED;ngw&#xE9;i</pr></trd>,
+    <trd>&#x810F;&#x5B57; <pr>z&#x101;ngz&#xEC;</pr></trd>,
+    <trd>&#x9AD2;&#x5B57; <pr>z&#x101;ngz&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.12 2024/01/13 19:21:21
+Sergio Pokrovskij: + dif, TEZ
+
+versio 1.11 2023/10/20 05:22:17
+revo: transskribo per <pr>
+
 versio 1.9 2022/07/07 07:30:22
 Dmitri Gabinski: + trd be
 
@@ -124,9 +172,5 @@ Revision 1.3  2010/04/24 17:07:56  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.2  2009/10/15 16:32:19  revo
-Paul Peeraerts: +nl
-
-Revision 1.1  2006/09/18 16:30:54  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: kontuz.xml,v 1.19 2022/06/03 16:43:09 revo Exp $">
+<art mrk="$Id: kontuz.xml,v 1.22 2023/12/03 09:58:57 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kontuz</rad>/i
@@ -16,7 +15,7 @@
       <ref tip="super" cel="difekt.0i">Difekti</ref> pli a&ubreve; malpli profunde organikan teksa&jcirc;on,
       ne &scirc;irvundante la ha&ubreve;ton:
       <ekz>
-        tiel mi boksas,<klr>[&#8230;]</klr> sed mi <tld/>as mian korpon
+        tiel mi boksas,<klr>[&#x2026;]</klr> sed mi <tld/>as mian korpon
         <fnt>
           <bib>NT</bib>
           <lok>I. Korintanoj 9:27</lok>
@@ -47,7 +46,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        por li la vivo estas &scirc;ar&gcirc;o, <klr>[&#8230;]</klr> kiu lin <tld/>as
+        por li la vivo estas &scirc;ar&gcirc;o, <klr>[&#x2026;]</klr> kiu lin <tld/>as
         <fnt>
           <bib>ChL</bib>
           <lok>&Ccirc;apitro Tria</lok>
@@ -96,6 +95,7 @@
      <trd>&ouml;sszez&uacute;z</trd>,
      <trd>z&uacute;z&oacute;d&aacute;st okoz</trd>
   </trdgrp>
+  <trd lng="ja">&#x6253;&#x64B2;&#x50B7;&#x3092;&#x4E0E;&#x3048;&#x308B;  <pr>&#x3060;&#x307C;&#x304F;&#x304D;&#x305A;&#x3092;&#x3042;&#x305F;&#x3048;&#x308B;</pr></trd>
   <trd lng="nl">kneuzen</trd>
   <trd lng="pl">kontuzjowa&cacute;</trd>
   <trdgrp lng="pt">
@@ -113,6 +113,12 @@
   <trdgrp lng="sk">
     <trd>odrie&tcaron;</trd>,
     <trd>pomlia&zcaron;di&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7600;&#x4F24; <pr>y&#x16B;sh&#x101;ng</pr></trd>,
+    <trd>&#x649E;&#x4F24; <pr>zhu&#xE0;ngsh&#x101;ng</pr></trd>,
+    <trd>&#x6DE4;&#x9752; <pr>y&#x16B;q&#x12B;ng</pr></trd>,
+    <trd>&#x7600;&#x9752; <pr>y&#x16B;q&#x12B;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -137,7 +143,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la maristoj <klr>[&#8230;]</klr> pligrandigis la doloron de <tld/>oj per la premado de
+        la maristoj <klr>[&#x2026;]</klr> pligrandigis la doloron de <tld/>oj per la premado de
         siaj tuberoj
         <fnt>
           <bib>KPr</bib>
@@ -174,6 +180,11 @@
   </trdgrp>
   <trd lng="fr">contusion</trd>
   <trd lng="hu">z&uacute;z&oacute;d&aacute;s</trd>
+  <trdgrp lng="ja">
+    <trd>&#x632B;&#x50B7;  <pr>&#x3056;&#x3057;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x6253;&#x64B2;&#x50B7;  <pr>&#x3060;&#x307C;&#x304F;&#x3057;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x6253;&#x3061;&#x8EAB;  <pr>&#x3046;&#x3061;&#x307F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kneuzing</trd>
   <trd lng="pl">kontuzja</trd>
   <trd lng="pt">contus&atilde;o</trd>
@@ -190,10 +201,20 @@
     <trd>podliatina</trd>,
     <trd>pomlia&zcaron;denie</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x632B;&#x4F24; <pr>cu&#xF2;sh&#x101;ng</pr></trd>,
+    <trd>&#x649E;&#x4F24; <pr>zhu&#xE0;ngsh&#x101;ng</pr></trd>,
+    <trd>&#x75CF; <pr>w&#x11B;i</pr></trd>,
+    <trd>&#x538B;&#x4F24; <pr>y&#x101;sh&#x101;ng</pr></trd>,
+    <trd>&#x8840;&#x6655; <pr>xi&#x11B;y&#x16B;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
 versio 1.19 2022/06/03 16:43:09
 Wolfram Diestel: +ekz-oj, ref-oj
 
@@ -213,8 +234,5 @@ Revision 1.13  2009/09/10 16:33:01  revo
 Paul Peeraerts: +nl
 
 Revision 1.12  2006/11/23 18:39:14  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2005/06/22 16:31:34  revo
 -->
 </vortaro>

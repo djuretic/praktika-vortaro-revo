@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: min1.xml,v 1.82 2022/09/15 08:45:25 revo Exp $">
+<art mrk="$Id: min1.xml,v 1.85 2023/10/19 16:45:37 revo Exp $">
 <kap>
   <rad>min</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -46,7 +46,21 @@
     <uzo tip="fak">HIS</uzo>
     <dif>
       Antikva <ref tip="lst" cel="unu.mon0o" lst="voko:monunuoj">monunuo</ref> 60-ono de
-      <ref tip="malprt" cel="talant.0o.monunuo">talanto</ref>.
+      <ref tip="malprt" cel="talant.0o.monunuo">talanto</ref>:
+      <ekz>
+        dek kvin <ref tip="prt" cel="sikl.0o.BIB">siklo</ref>j estu por vi unu <tld/>'o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 45:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li donis al ili dek <tld/>'ojn, kaj diris al ili: negocadu, &gcirc;is mi revenos
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 19:13</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Mine<klr tip="ind"> (M&uuml;nze)</klr></trd>
     <trd lng="pt">mina <klr tip="amb">(antiga moeda)</klr></trd>
@@ -57,12 +71,25 @@
     <ref tip="hom" cel="min.0o">mino</ref>
     signifas lokon de elfosado de &scirc;tonoj a&ubreve; mineraloj.
   </rim>
+  <trdgrp lng="ja">
+    <trd>&#x9271;&#x5C71;  <pr>&#x3053;&#x3046;&#x3056;&#x3093;</pr></trd>,
+    <trd>&#x63A1;&#x6398;&#x5751;  <pr>&#x3055;&#x3044;&#x304F;&#x3064;&#x3053;&#x3046;</pr></trd>,
+    <trd>&#x7206;&#x7834;&#x5751;  <pr>&#x3070;&#x304F;&#x306F;&#x3053;&#x3046;</pr></trd>,
+    <trd>&#x5730;&#x96F7;  <pr>&#x3058;&#x3089;&#x3044;</pr></trd>,
+    <trd>&#x6A5F;&#x96F7;  <pr>&#x304D;&#x3089;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="pl">mina</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.85 2023/10/19 16:45:37
+revo: transskribo per <pr>
+
+versio 1.83 2023/01/05 17:25:12
+Wolfram Diestel: +ekz
+
 versio 1.82 2022/09/15 08:45:25
 Dmitri Gabinski: + trd be
 
@@ -79,11 +106,5 @@ Revision 1.6  2015/06/29 16:33:20  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.5  2013/10/03 08:10:40  revo
-Wolfram Diestel: precizigis klason al voko:kvantoj
-
-Revision 1.4  2013/09/14 17:10:21  revo
-Wolfram Diestel: ref al lst mezurunuoj, monunuoj, germ trd
-
-Revision 1.3  2013/04/25 06:10:18  revo
 -->
 </vortaro>

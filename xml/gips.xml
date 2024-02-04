@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gips.xml,v 1.25 2022/07/04 14:26:02 revo Exp $">
+<art mrk="$Id: gips.xml,v 1.30 2023/11/11 11:36:35 revo Exp $">
 <kap><ofc>*</ofc>
 <rad>gips</rad>/o</kap>
 <drv mrk="gips.0o">
@@ -12,7 +12,7 @@
       <ref tip="super" cel="pulvor.0o">Pulvoro</ref>, produktita el <tld/>&scirc;tono, mineralo   
       <frm>Ca[SO<sub>4</sub>]&middot;2H<sub>2</sub>O</frm>, uzata en konstruarto kaj modlado:
       <ekz>
-        <klr>[tie]</klr> staris blankaj homoj, <klr>[&#8230;]</klr> parte el marmoro, parte el
+        <klr>[tie]</klr> staris blankaj homoj, <klr>[&#x2026;]</klr> parte el marmoro, parte el
         <tld/>o
         <fnt>
           <bib>Fab2</bib>
@@ -20,7 +20,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        per batoj de martelo li faligis kaj pulvorigis <klr>[&#8230;]</klr> la vitrajn
+        per batoj de martelo li faligis kaj pulvorigis <klr>[&#x2026;]</klr> la vitrajn
         rompa&jcirc;ojn enmetitajn en la <tld/>on
         <fnt>
           <bib>KPr</bib>
@@ -68,6 +68,11 @@
   <trd lng="fa">&f_g;&f_ch;</trd>
   <trd lng="fr">pl&acirc;tre</trd>
   <trd lng="hu">gipsz</trd>
+  <trdgrp lng="ja">
+    <trd>&#x713C;&#x77F3;&#x818F;  <pr>&#x3084;&#x305B;&#x3063;&#x3053;&#x3046;</pr></trd>,
+    <trd>&#x30AE;&#x30D7;&#x30B9;</trd>,
+    <trd>&#x77F3;&#x818F;  <pr>&#x305B;&#x3063;&#x3053;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>gips</trd>,
     <trd>plaaster</trd>
@@ -90,6 +95,10 @@
     <trd>s&aacute;dra</trd>
   </trdgrp>
   <trd lng="uk">&c_g;&c_ib;&c_p;&c_s;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x77F3;&#x818F; <pr>sh&#xED;g&#x101;o</pr></trd>,
+    <trd>&#x786B;&#x9178;&#x9223; <pr>li&#xFA;su&#x101;ng&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gips.0a">
@@ -130,6 +139,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_ib;&c_p;&c_s;&c_a;&c_v;&c_y;</trd>
 </drv>
 
 <drv mrk="gips.0i">
@@ -148,8 +158,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Carlo MINNAJA</aut>
-          <vrk><url ref="https://www.monato.be/2003/008065.html"
-              >Finaj agordoj</url></vrk>
+          <vrk><url ref="&Monato;/2003/008065.html">Finaj agordoj</url></vrk>
           <lok>2003</lok>
         </fnt>.
       </ekz>
@@ -176,7 +185,12 @@
       <trd>&c_sh;&c_t;&c_u;&c_k;&c_a;&c_t;&c_u;&c_r;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="tr">s&inodot;valamak</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5857;&#x4EE5;&#x818F;&#x6CE5; <pr>t&#xFA;y&#x1D0;g&#x101;on&#xED;</pr></trd>,
+    <trd>&#x6577;&#x818F;&#x836F; <pr>f&#x16B;g&#x101;oy&#xE0;o</pr></trd>,
+    <trd>&#x6577;&#x4EE5;&#x77F3;&#x818F; <pr>f&#x16B;y&#x1D0;sh&#xED;g&#x101;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="gips.0i.enmeti">
     <dif>
       Miksi <tld/>on al io, sur&scirc;uti per <tld/>o:
@@ -187,6 +201,7 @@
         <tld/>i kampon por &gcirc;in plibonigi.
       </ekz>
     </dif>
+    <trd lng="be">&c_z;&c_mol;&c_m;&c_je;&c_sh;&c_v;&c_a;&c_c;&c_mol; &c_z; <ind>&c_g;&c_ib;&c_p;&c_s;&c_a;&c_m;</ind></trd>
     <trd lng="de">kalken</trd>
     <trd lng="fr">chauler</trd>
     <trd lng="hu">meszez</trd>
@@ -197,6 +212,10 @@
   <trdgrp lng="cs">
     <trd>s&aacute;drovat</trd>,
     <trd>zas&aacute;drovat</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x77F3;&#x818F;&#x3092;&#x5857;&#x308B;  <pr>&#x305B;&#x3063;&#x3053;&#x3046;&#x3092;&#x306C;&#x308B;</pr></trd>,
+    <trd>&#x6F06;&#x55B0;&#x3092;&#x5857;&#x308B;  <pr>&#x3057;&#x3063;&#x304F;&#x3044;&#x3092;&#x306C;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="sk">sadrova&tcaron;</trd>
   <trdgrp lng="uk">
@@ -222,10 +241,12 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_ib;&c_p;&c_s;&c_a;&c_v;&c_a;&c_ja; &c_m;&c_a;&c_s;&c_a;</trd>
   <trdgrp lng="de">
     <trd>Gipsmasse</trd>,
     <trd>D&uuml;belmasse</trd>
   </trdgrp>
+  <trd lng="ja">&#x77F3;&#x818F;&#x7D30;&#x5DE5;  <pr>&#x305B;&#x3063;&#x3053;&#x3046;&#x3055;&#x3044;&#x304F;</pr></trd>
 </drv>
 
 
@@ -238,8 +259,17 @@
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.27 2023/06/14 09:26:49
+Dmitri Gabinski: + trd be
+
+versio 1.26 2023/04/11 14:37:23
+aktualigo Monato-URL
+
 versio 1.25 2022/07/04 14:26:02
-Wolfram Diestel: precizigo dif, +ekz-oj; +~a, ~umi, ~aĵo
+Wolfram Diestel: precizigo dif, +ekz-oj; +~a, ~umi, ~a&jcirc;o
 
 versio 1.23 2021/07/24 22:27:19
 Jeromo Vasxe: + 1 ekz, + fak kon
@@ -251,14 +281,5 @@ Revision 1.20  2014/09/02 11:10:15  revo
 Damien Brucker: +trd fr
 
 Revision 1.19  2012/08/02 09:10:56  revo
-Marc Rausell: + trd ca
-
-Revision 1.18  2009/11/09 17:30:28  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.17  2009/08/25 16:31:27  revo
-Emmanuel Debanne: kor tr
-
-Revision 1.16  2009/08/24 16:31:54  revo
 -->
 </vortaro>

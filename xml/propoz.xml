@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: propoz.xml,v 1.21 2022/05/04 18:30:34 revo Exp $">
+<art mrk="$Id: propoz.xml,v 1.26 2023/10/31 09:27:19 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>propozici</rad>/o
@@ -12,7 +12,7 @@
     <uzo tip="fak">GRA</uzo>
     <dif>
       Parto de frazo esprimanta per si mem kompletan sencon kaj
-      enhavanta verbon kun fina&jcirc;oj <nom>-as</nom>, <nom>-is</nom>, 
+      enhavanta verbon kun fina&jcirc;oj <nom>-as</nom>, <nom>-is</nom>,
       <nom>-os</nom>, <nom>-us</nom> a&ubreve; <nom>-u</nom>, akompanatan
       a&ubreve; ne de subjekto kaj predikato a&ubreve; komplemento:
       <ekz>
@@ -30,15 +30,16 @@
       </ekz><ekz>
         &leftquot;ke&rightquot; estas konjunkcio kaj ligas du <tld/>ojn
         <fnt>
-          <bib>Monato</bib>
-          <aut>Christian Declerck</aut>
-          <vrk><url ref="&Steloj;monato2/006843.html">Kiun vojon?</url></vrk>
+	<aut>Christian Declerck</aut>
+	<vrk><url ref="&Monato;/2000/006843.php">Kiun vojon?</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 4</lok>
         </fnt>;
       </ekz><ekz>
         simplaj frazoj sen subordigitaj <tld/>oj
         <fnt>
           <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
+          <aut>Garbhan MacAoidh</aut>
           <vrk><url ref="&Monato;/2004/008323.html">Le&gcirc;oj landon
           prosperigas</url></vrk>
         </fnt>.
@@ -113,12 +114,16 @@
         al si demonstri.
       </dif>
       <rim>
-        Tiu iom fakul&jcirc;argona uzo ne plu aperas en 
+        Tiu iom fakul&jcirc;argona uzo ne plu aperas en
         <fnt><bib>PIV2</bib></fnt>.
       </rim>
     </subsnc>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_y;&c_k;&c_a;&c_z;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_m;&c_a;&c_t;.)</klr></trd>,
+      <trd>&c_s;&c_mol;&c_c;&c_v;&c_ja;&c_r;&c_d;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_m;&c_a;&c_t;.)</klr></trd>
+    </trdgrp>
     <trd lng="fr">proposition<klr tip="ind"> (math.)</klr></trd>
-    <trd lng="hu">t&eacute;tel</trd>    
+    <trd lng="hu">t&eacute;tel</trd>
   </snc>
   <trdgrp lng="cs">
     <trd>tvrzen&iacute;</trd>,
@@ -126,12 +131,16 @@
     <trd>v&yacute;znamov&aacute; str&aacute;nka v&ecaron;ty</trd>,
     <trd>v&ecaron;ta</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7BC0;  <pr>&#x305B;&#12385;</pr></trd>,
+    <trd>&#x547D;&#x984C;  <pr>&#12417;&#12356;&#12384;&#12356;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>tvrdenie</trd>,
     <trd>veta</trd>,
     <trd>v&yacute;rok</trd>
   </trdgrp>
-  <trd lng="uk">&#x440;&#x435;&#x447;&#x435;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_r;&c_je;&c_ch;&c_je;&#x43D;&#x43D;&#x44F;</trd>
 </drv>
 
 <drv mrk="propoz.demanda0o">
@@ -175,7 +184,7 @@
     <uzo tip="fak">GRA</uzo>
     <dif>
       <ref cel="propoz.0o.GRA"><tld lit="P"/>o<sncref/></ref>
-      per kiu oni rakontas, diras, asertas ion:
+      per kiu oni rakontas, informas, asertas:
       <ekz>
         la predikato de indika <tld/>o plej ofte staras en
         <ref cel="indika.0o">indikativo</ref>;
@@ -197,6 +206,18 @@
 </art>
 <!--
 $Log$
+versio 1.26 2023/10/31 09:27:19
+Dmitri Gabinski: + trd be
+
+versio 1.25 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.23 2023/04/23 08:29:30
+Paul Peeraerts: &Steloj -> monato.be
+
+versio 1.22 2023/04/03 03:27:36
+Sergio Pokrovskij: +precizigo de dif
+
 versio 1.21 2022/05/04 18:30:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -207,17 +228,5 @@ versio 1.18 2021/01/11 06:10:49
 Sergio Pokrovskij: +demanda, ekkria, indika ~o
 
 Revision 1.16  2015/07/04 08:37:42  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/29 16:40:19  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.14  2013/04/09 13:10:08  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2004/08/19 16:32:23  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/07/23 17:42:06  revo
 -->
 </vortaro>

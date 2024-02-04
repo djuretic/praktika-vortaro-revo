@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lob.xml,v 1.23 2022/03/22 18:26:51 revo Exp $">
+<art mrk="$Id: lob.xml,v 1.28 2024/01/15 19:32:00 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>lob</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,7 +13,7 @@
     <dif>
       Rondforma elstara parto de iu <ref tip="malprt" cel="organ.0o.BIO">organo</ref>:
       <ekz>
-        &scirc;iaj oreloj ne estis de la sama grandeco: unu estis granda, kun 
+        &scirc;iaj oreloj ne estis de la sama grandeco: unu estis granda, kun
         longega <tld/>o, kaj la alia estis eta, kaj preska&ubreve; sen <tld/>o
         <fnt>
           <aut>D. K. Jordan</aut>,
@@ -24,7 +24,15 @@
       </ekz>
       <ekz>
         amba&ubreve; <tld/>oj de nazo
-        (<ref tip="vid" cel="al1.0o">alo</ref>);
+        <klr>(<ref tip="vid" cel="al1.0o">alo</ref>)</klr>;
+      </ekz>
+      <ekz>
+        sur la kranioj de la java homo estas rimarkeblaj komencaj strukturoj de la
+        tempiaj kaj fruntaj <tld/>oj, kiuj respondas al la cerbaj partoj de la parolo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         la <tld/>o de hepato.
@@ -47,6 +55,10 @@
     <trd>lebeny</trd>,
     <trd>cimpa</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8449;  <pr>&#x3088;&#x3046;</pr></trd>,
+    <trd>&#x88C2;&#x7247; <pr>&#x308C;&#x3063;&#x307A;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>lob</trd>,
     <trd>lel</trd>
@@ -56,7 +68,12 @@
   <trd lng="ro">bucat&abreve;</trd>
   <trd lng="ru">&c_d;&c_o;&c_l;&c_ja; <klr tip="amb">(&c_o;&c_r;&c_g;&c_a;&c_n;&c_a;)</klr></trd>
   <trd lng="sk">lalok</trd>
-  <trd lng="uk">&#x447;&#x430;&#x441;&#x442;&#x43A;&#x430; (&#x44F;&#x43A;&#x43E;&#x433;&#x43E;-&#x43D;. &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x443;)</trd>
+  <trd lng="uk">&c_ch;&c_a;&c_s;&c_t;&c_k;&c_a; (&c_ja;&c_k;&c_o;&c_g;&c_o;-&c_n;. &c_o;&c_r;&c_g;&c_a;&c_n;&c_u;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8033;&#x5782; <pr>&#x11B;rchu&#xED;</pr></trd>,
+    <trd>&#x8111;&#x53F6; <pr>n&#x1CE;oy&#xE8;</pr></trd>,
+    <trd>&#x8166;&#x8449; <pr>n&#x1CE;oy&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lob.orel0o">
@@ -67,9 +84,22 @@
       parton de ekstera homa
       <ref tip="malprt" cel="orel.0o.ANA">orelo</ref>:
       <ekz>
+        li vidis la helajn harojn, la orel<tld/>ojn kaj la detalojn de la viza&gcirc;o
+        <fnt>
+          <bib>HsT</bib>
+          <lok>La nepo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> ektiris la orel<tld/>on de iu infano
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekunua &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         li sentis, ke &scirc;ia mano transpasis al lia orelo kaj du
-        fingroj 
-        karesis lian belan orel<tld/>on
+        fingroj karesis lian belan orel<tld/>on
         <fnt>
           <aut>Mo Yan, trad. Vejdo</aut>
           <vrk>Travidebla Ru&gcirc;a Rafano</vrk>
@@ -78,8 +108,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Ohrl&auml;ppchen</trd>
   <trd lng="fr">lobe de l'oreille</trd>
+  <trd lng="ja">&#x8033;&#x305F;&#x3076;  <pr>&#x307F;&#x307F;&#x305F;&#x3076;</pr></trd>
   <trd lng="pl">p&lstroke;atek uszny</trd>
+  <trd lng="zh">&#x8033;&#x5782; <pr>&#x11B;rchu&#xED;</pr></trd>
 </drv>
 
 <drv mrk="lob.tri0ulo">
@@ -87,7 +120,7 @@
   <snc mrk="lob.tri0ulo.PAL">
     <uzo tip="fak">PAL</uzo>
     <dif>
-      Antikva besto kun tri la&ubreve;longaj lobaj partoj kaj
+      Antikva besto kun tri la&ubreve;longaj <tld/>aj partoj kaj
       multaj transversaj segmentoj, abunde trovebla inter
       paleozoikaj fosilioj;
       el multaspecia klaso de
@@ -105,14 +138,29 @@
     </dif>
   </snc>
   <trd lng="cs">trilobit</trd>
+  <trd lng="de">Trilobit</trd>
   <trd lng="fr">trilobite</trd>
+  <trd lng="ja">&#x4E09;&#x8449;&#x866B;  <pr>&#x3055;&#x3093;&#x3088;&#x3046;&#x3061;&#x3085;&#x3046;</pr></trd>
   <trd lng="pl">trylobit</trd>
   <trd lng="ro">trilobita</trd>
   <trd lng="sk">trilobit</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E09;&#x53F6;&#x866B; <pr>s&#x101;ny&#xE8;ch&#xF3;ng</pr></trd>,
+    <trd>&#x4E09;&#x8449;&#x87F2; <pr>s&#x101;ny&#xE8;ch&#xF3;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/19 14:32:17
+revo: transskribo per <pr>
+
+versio 1.26 2023/09/13 16:31:01
+Wolfram Diestel: pr. ja
+
+versio 1.24 2023/04/08 15:22:46
+Wolfram Diestel: +ekz-oj
+
 Revision 1.21  2017/11/13 08:10:14  revo
 Damien Brucker: -tajperaro
 
@@ -126,11 +174,5 @@ Revision 1.18  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.17  2013/01/09 15:10:10  revo
-Jeromo Vasxe: kor 1 ref
-
-Revision 1.16  2012/10/13 13:10:09  revo
-Jeromo Vasxe: + tri~ulo
-
-Revision 1.15  2012/07/20 08:10:27  revo
 -->
 </vortaro>

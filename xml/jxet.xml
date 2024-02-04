@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: jxet.xml,v 1.152 2022/07/15 16:48:28 revo Exp $">
+<art mrk="$Id: jxet.xml,v 1.163 2024/01/22 18:30:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&jcirc;et</rad>/i <fnt><bib>PV</bib></fnt>
@@ -299,8 +299,12 @@
       (tial la termino <ref cel="jxet.sur0o">sur<tld/>o</ref>);
       &gcirc;i <tld/>as <frm am="A"><k>A</k>&nbsp;</frm> <em>en</em> <frm am="B"><k>B</k></frm>,
       se
-      <frm am="f(A) sub B"><k>f(A)&#8834;B</k></frm>. 
+      <frm am="f(A) sub B"><k>f(A)&#8834;B</k></frm>.
     </rim>
+    <trdgrp lng="de">
+      <trd>abbilden <klr>(auf)</klr></trd>,
+      <trd>mappen <klr>(auf)</klr></trd>
+    </trdgrp>
     <trd lng="en">map<klr> (onto, into)</klr></trd>
     <trdgrp lng="es">
       <trd>aplicar</trd>,
@@ -346,7 +350,7 @@
   <trd lng="hy">&#1398;&#1381;&#x57F;&#1381;&#x56C;</trd>
   <trd lng="ig">otutu</trd>
   <trd lng="is">kasta</trd>
-  <trd lng="ja">&#25237;&#12370;&#x308B;</trd>
+  <trd lng="ja">&#25237;&#12370;&#x308B; <pr>&#x306A;&#12370;&#x308B;</pr></trd>
   <trd lng="jv">uncalan</trd>
   <trdgrp lng="ka">
     <trd>&#x10D8;&#x10DB;&#x10D8;&#x10E1;&#x10D0;&#x10D7;&#x10D5;&#x10D8;&#x10E1;</trd>,
@@ -382,7 +386,7 @@
     <trd>haj&iacute;t</trd>,
     <trd>sz&oacute;r</trd>
   </trdgrp>
-  <trd lng="id">me<ind>lempar</ind></trd>
+  <trd lng="id"><baz>lempar</baz>melempar</trd>
   <trd lng="ku">av&ecirc;tin</trd>
   <trd lng="ny">kuponyera</trd>
   <trd lng="pa">&#xA38;&#xA41;&#xA71;&#xA1F;</trd>
@@ -429,6 +433,15 @@
   <trd lng="xh">ukuphosa</trd>
   <trd lng="yi">&vav;&vav;&alef;&#x5B7;&resh;&pe;&fnun;</trd>
   <trd lng="yo">o jab&#x1ECD;</trd>
+  <trdgrp lng="zh">
+    <trd>&#25895; <pr>di&amacron;n</pr></trd>,
+    <trd>&#25172; <pr>r&emacron;ng</pr></trd>,
+    <trd>&#x64BA; <pr>cu&amacron;n</pr></trd>,
+    <trd>&#x629B; <pr>p&amacron;o</pr></trd>,
+    <trd>&#x63B7; <pr>zh&#xEC;</pr></trd>,
+    <trd>&#25237;&#x5C04; <pr>t&#xF3;ush&#xE8;</pr></trd>,
+    <trd>&#25237;&#x63B7; <pr>t&#xF3;uzh&#xEC;</pr></trd>
+  </trdgrp>
   <trd lng="zu">aphonse</trd>
 </drv>
 
@@ -462,7 +475,7 @@
       <trd>haj&iacute;t&aacute;s</trd>,
       <trd>sz&oacute;r&aacute;s</trd>
     </trdgrp>
-    <trd lng="id"><ind>lempar</ind>an</trd>
+    <trd lng="id"><baz>lempar</baz>lemparan</trd>
     <trd lng="nl">worp</trd>
     <trdgrp lng="pl">
       <trd>rzut</trd>,
@@ -500,7 +513,7 @@
     <trd lng="hu">lek&eacute;pez&eacute;s</trd>
     <trdgrp lng="id">
       <trd><ind>fungsi</ind> (matematika)</trd>,
-      <trd>[<ind>peta</ind>] pemetaan (matematika)</trd>
+      <trd><baz>peta</baz>pemetaan <klr>(matematika)</klr></trd>
     </trdgrp>
     <trd lng="nl">afbeelding</trd>
     <trdgrp lng="pl">
@@ -508,7 +521,9 @@
       <trd>funkcja</trd>
     </trdgrp>
     <trd lng="ru">&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
-  </snc>
+    <trd lng="zh">&#26144;&#x5C04; <pr>y&#xEC;ngsh&#xE8;</pr></trd>
+</snc>
+  <trd lng="ja">&#x4E00;&#25237;  <pr>&#12402;&#12392;&#12392;&#12358;</pr></trd>
   <trd lng="ne">&#x92A;&#x93F;&#x91A;</trd>
   <trd lng="uk">&#x43A;&c_i;&c_d;&#x43E;&#x43A;</trd>
 </drv>
@@ -557,6 +572,11 @@
   <trd lng="es">lanzar</trd>
   <trd lng="fr">arrojar</trd>
   <trd lng="hu">odav&aacute;g</trd>
+  <trd lng="id"><baz>lontar</baz>melontar</trd>
+  <trdgrp lng="ja">
+    <trd>&#x529B;&#12434;&#12371;&#12417;&#12390;&#25237;&#12370;&#x308B;  <pr>&#12385;&#x304B;&#12425;&#12434;&#12371;&#12417;&#12390;&#x306A;&#12370;&#x308B;</pr></trd>,
+    <trd>&#x5F37;&#x304F;&#25237;&#12370;&#12388;&#12369;&#x308B;  <pr>&#12388;&#12424;&#x304F;&#x306A;&#12370;&#12388;&#12369;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">smijten</trd>
   <trd lng="pl">cisn&aogonek;&cacute;<klr> (rzuci&cacute;)</klr></trd>
   <trd lng="ru">&c_sh;&c_v;&c_y;&c_r;&c_n;&c_u;&c_t;&c_mol;</trd>
@@ -635,7 +655,8 @@
     <trd>h&aacute;ny&oacute;dik</trd>,
     <trd>sz&oacute;r&oacute;dik</trd>
   </trdgrp>
-  <trd lng="id">ter<ind>lempar</ind></trd>
+  <trd lng="id"><baz>lempar</baz>terlempar</trd>
+  <trd lng="ja">&#25237;&#12370;&#x51FA;&#12373;&#x308C;&#x308B;  <pr>&#x306A;&#12370;&#12384;&#12373;&#x308C;&#x308B;</pr></trd>
   <trd lng="nl">zich <ind>werpen</ind></trd>
   <trdgrp lng="pl">
     <trd>rzuci&cacute; si&eogonek;</trd>
@@ -690,6 +711,10 @@
   <trdgrp lng="hu">
     <trd>verg&odblac;dik</trd>,
     <trd>h&aacute;nykol&oacute;dik</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12371;&#x308D;&#12370;&#x307E;&#x308F;&#x308B;</trd>,
+    <trd>&#x306E;&#x305F;&#12358;&#12385;&#x307E;&#x308F;&#x308B;</trd>
   </trdgrp>
   <trd lng="nl">woelen</trd>
   <trdgrp lng="pl">
@@ -789,6 +814,10 @@
       <trd>eldob mag&aacute;t&oacute;l</trd>,
       <trd>ledob</trd>
     </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25237;&#12370;&#x843D;&#12392;&#12377;  <pr>&#x306A;&#12370;&#x304A;&#12392;&#12377;</pr></trd>,
+    <trd>&#25237;&#12370;&#25448;&#12390;&#x308B;  <pr>&#x306A;&#12370;&#12377;&#12390;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">wegwerpen</trd>
   <trd lng="pl">zrzuca&cacute;</trd>
   <trd lng="ru">&c_o;&c_t;&c_b;&c_r;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
@@ -796,6 +825,10 @@
   <trdgrp lng="uk">
     <trd>&c_s;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_v;&c_ib;&c_d;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#29993; <pr>shu&#x1CE;i</pr></trd>,
+    <trd>&#25672; <pr>b&#xEC;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -834,8 +867,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        la plenluno levi&gcirc;is, balda&ubreve; &gcirc;i komencis dis<tld/>adi 
-        <klr>(<ref cel="radi.0i">radii</ref>)</klr> brilon kaj lumon
+        la plenluno levi&gcirc;is, balda&ubreve; &gcirc;i komencis dis<tld/>adi
+        <klr>(vd <ref cel="radi.0i">radii</ref>)</klr> brilon kaj lumon
         <fnt>
           <bib>Fab4</bib>
           <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
@@ -843,15 +876,15 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        la vortoj nove kreataj estos nur malofte dis<tld/>itaj 
-        <klr>(<ref cel="distr.0i.disigi">distri<sncref/></ref>)</klr>
+        la vortoj nove kreataj estos nur malofte dis<tld/>itaj
+        <klr>(vd <ref cel="distr.0i.disigi">distri<sncref/></ref>)</klr>
         inter la multo da vortoj jam konataj
         <fnt>
           <bib>DL</bib>
         </fnt>;
       </ekz>
       <ekz>
-        la membroj estas dis&jcirc;etitaj en urboj <klr>[&#8230;]</klr> de la Unuigitaj &Scirc;tatoj,
+        la membroj estas dis<tld/>itaj en urboj <klr>[&#8230;]</klr> de la Unuigitaj &Scirc;tatoj,
         Kanadujo, Meksikujo
         <fnt>
           <bib>FK</bib>
@@ -871,7 +904,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        nezorgeca mano, kiu videble kutimis dis<tld/>adi 
+        nezorgeca mano, kiu videble kutimis dis<tld/>adi
         <klr>(<ref cel="sxpar.mal0i">mal&scirc;pari</ref>, <ref cel="disip.0i">disipi</ref>)</klr>
         grandajn sumojn
         <fnt>
@@ -880,16 +913,20 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="sem">dissemi</ref>.
+      <ref cel="sem">dissemi</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_s;&c_k;&c_ib;&c_d;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="de">
+    <trd>streuen</trd>,
     <trd>verstreuen</trd>,
     <trd>umherwerfen</trd>,
     <trd>um sich <ind>werfen</ind></trd>
   </trdgrp>
-  <trd lng="en">(broad)<ind>cast</ind></trd>
+  <trdgrp lng="en">
+    <trd lng="en">(broad)<ind>cast</ind></trd>,
+    <trd>scatter</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>dispersar</trd>,
     <trd>esparcir</trd>,
@@ -906,10 +943,11 @@
     <trd>sz&eacute;tsz&oacute;r</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>[<ind>sebar</ind>] menyebarkan</trd>,
-    <trd>[<ind>siar</ind>] menyiarkan</trd>,
-    <trd>[<ind>tabur</ind>] menabur</trd>
+    <trd><baz>sebar</baz>menyebarkan</trd>,
+    <trd><baz>siar</baz>menyiarkan</trd>,
+    <trd><baz>tabur</baz>menabur</trd>
   </trdgrp>
+  <trd lng="ja">&#25237;&#12370;&#25955;&#12425;&#12377;  <pr>&#x306A;&#12370;&#12385;&#12425;&#12377;</pr></trd>
   <trd lng="nl">rondstrooien</trd>
   <trd lng="pl">rozrzuca&cacute;</trd>
   <trdgrp lng="pt">
@@ -925,6 +963,7 @@
     <trd>disperdere</trd>
   </trdgrp>
   <trd lng="uk">&c_r;&#x43E;&c_z;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>
+  <trd lng="zh">&#25746; <pr>s&#x1CE;</pr></trd>
 </drv>
 
 <drv mrk="jxet.dis0o">
@@ -938,7 +977,7 @@
       <tld lit="&Jcirc;"/>o<sncref ref="jxet.0o.MAT"/> atribuanta
       malsamajn (t.e. <em>disajn</em>) bildojn al malsamaj
       (t.e. <em>disaj</em>) elementoj
-      de la <ref cel="ar.fonto0o">fonta aro</ref>.  
+      de la <ref cel="ar.fonto0o">fonta aro</ref>.
     </dif>
     <rim num="1">
        <tld lit="&Jcirc;"/>on<sncref ref="jxet.0o.MAT"/> kiu povas diversajn
@@ -960,6 +999,10 @@
       <trd>application injective</trd>
     </trdgrp>
     <trd lng="hu">injekci&oacute;</trd>
+    <trdgrp lng="id">
+      <trd>injeksi</trd>,
+      <trd><ind>fungsi</ind> injektif</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>funkcja r&oacute;&zdot;nowarto&sacute;ciowa</trd>,
       <trd>injekcja</trd>
@@ -969,6 +1012,7 @@
       <trd>&c_i;&c_n;&c_malmol;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <trd lng="ja">&#25955;&#x4E71;  <pr>&#12373;&#12435;&#12425;&#12435;</pr></trd>
 </drv>
 
 <drv mrk="jxet.dis0a">
@@ -984,13 +1028,14 @@
         <ref cel="kern.0o.homomorfio">kerno</ref>
         redukti&gcirc;as al <frm>{0}</frm>.
       </ekz>
-    </dif> 
+    </dif>
     <ref tip="sin" cel="enjekc.0a">enjekcia</ref>
     <trd lng="en">injective</trd>
     <trd lng="de">injektiv</trd>
     <trd lng="es">inyectiva</trd>
     <trd lng="fr">injectif</trd>
     <trd lng="hu">injekt&iacute;v</trd>
+    <trd lng="id">injektif</trd>
     <trdgrp lng="pl">
       <trd>r&oacute;&zdot;nowarto&sacute;ciowy</trd>,
       <trd>injektywny</trd>
@@ -1004,6 +1049,7 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <ref tip="dif" cel="bijekc.0a">bijekcia.</ref>
+  <trd lng="id">bijektif</trd>
   </snc>
   <trdgrp lng="de">
     <trd>bijektiv</trd>,
@@ -1046,6 +1092,11 @@
   </fnt>
   <snc>
     <ref tip="dif" cel="bijekc.0o">bijekcio.</ref>
+  <trdgrp lng="id">
+    <trd>bijeksi</trd>,
+    <trd><ind>fungsi</ind> bijektif</trd>,
+    <trd>korespondensi satu-satu</trd>
+  </trdgrp>
   </snc>
   <trd lng="de">Bijektion</trd>
   <trdgrp lng="en">
@@ -1071,8 +1122,8 @@
     <trd>&c_v;&c_z;&c_a;&c_i;&c_m;&c_n;&c_o; &c_o;&c_d;&c_n;&c_o;&c_z;&c_n;&c_a;&c_ch;&c_n;&c_o;&c_je; &c_s;&c_o;&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>,
     <trd>&c_b;&c_i;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trd lng="zh">&#x53CC;&#x5C04; <pr>shu&amacron;ngsh&#xE8;</pr></trd>
 </drv>
-
 
 <drv mrk="jxet.ek0i">
   <kap>ek<tld/>i</kap>
@@ -1104,6 +1155,8 @@
     <trd>eldob</trd>,
     <trd>elhaj&iacute;t</trd>
   </trdgrp>
+  <trd lng="ja">&#12356;&#x304D;&#x306A;&#x308A;&#25237;&#12370;&#x308B;
+  <pr>&#12356;&#x304D;&#x306A;&#x308A;&#x306A;&#12370;&#x308B;</pr></trd>
   <trd lng="nl">plots <ind>werpen</ind></trd>
   <trd lng="uk">&c_zh;&c_b;&c_u;&c_r;&#x43D;&c_u;&c_t;&c_i;</trd>
 </drv>
@@ -1113,6 +1166,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="jxet.el0i.KOMUNE">
     <dif>
+      <tld lit="&Jcirc;"/>i eligante:
       <ekz>
         mi el<tld/>is &ccirc;iujn domobjektojn <klr>[&#8230;]</klr> for el la &ccirc;ambro
         <fnt>
@@ -1252,7 +1306,19 @@
     <trd>auswerfen</trd>,
     <trd>entfernen</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25237;&#12370;&#x51FA;&#12377;  <pr>&#x306A;&#12370;&#12384;&#12377;</pr></trd>,
+    <trd>&#25490;&#x51FA;&#12377;&#x308B;  <pr>&#x306F;&#12356;&#12375;&#12421;&#12388;&#12377;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="uk">&c_v;&c_i;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x629B;&#x51FA; <pr>p&amacron;och&#x16B;</pr></trd>,
+    <trd>&#x88AB;&#x8FEB;&#x4EA4;&#x51FA;&#x8D13;&#29289;
+    <pr>b&#xE8;ip&#xF2;ji&amacron;och&#x16B;z&amacron;ngw&#xF9;</pr></trd>,
+    <trd>&#x8E22;&#x5F00; <pr>t&#x12B;k&amacron;i</pr></trd>,
+    <trd>&#x53BB;&#38500; <pr>q&#xF9;ch&#xFA;</pr></trd>,
+    <trd>&#x6DD8; <pr>t&#xE1;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="jxet.el0ajxo">
@@ -1280,11 +1346,11 @@
       <ekz>
         <klr>[la]</klr> el<tld/>a&jcirc;oj sur la stratoj konstante multi&gcirc;as
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007076.html">Ho, tempoj! Ho,
-          moroj!</url></vrk>
-        </fnt>;
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007076.php">Ho, tempoj! Ho, moroj!</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 19</lok>
+          </fnt>;
       </ekz>
       <ekz>
         for<tld/>a&jcirc;on tenu tiuj, kiuj produktis &gcirc;in
@@ -1351,9 +1417,23 @@
     <trd>Abfall</trd>,
     <trd>Auswurf</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>limbah</trd>,
+    <trd>sampah</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25237;&#x68C4;&#29289;  <pr>&#12392;&#12358;&#x304D;&#12406;&#12388;</pr></trd>,
+    <trd>&#25490;&#x51FA;&#29289;  <pr>&#x306F;&#12356;&#12375;&#12421;&#12388;&#12406;&#12388;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_v;&c_ib;&c_d;&c_h;&#x43E;&c_d;&c_i;</trd>,
     <trd>&#x43F;&#x43E;&#x43A;&c_i;&c_d;&#x44C;&#x43A;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E0B;&#x811A;&#26009; <pr>xi&#xE0;ji&#x1CE;oli&#xE0;o</pr></trd>,
+    <trd>&#x526A;&#22577; <pr>ji&#x1CE;nb&#xE0;o</pr></trd>,
+    <trd>&#x5E9F;&#x65E7; <pr>f&#xE8;iji&#xF9;</pr></trd>,
+    <trd>&#x5E9F;&#26009; <pr>f&#xE8;ili&#xE0;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1361,7 +1441,7 @@
   <kap>el<tld/>ulo</kap>
   <snc mrk="jxet.el0ulo.KOMUNE">
     <dif>
-      <ref tip="super" cel="margxe.0ulo">Mar&gcirc;enulo</ref>, <ref cel="mizer.0ulo">mizerulo</ref>, 
+      <ref tip="super" cel="margxe.0ulo">Mar&gcirc;enulo</ref>, <ref cel="mizer.0ulo">mizerulo</ref>,
       kiun la ordinara socio el<tld/>as:
       <ekz>
         li mortis ie senbrue, kovrita de tuko el blanka ne&gcirc;a blova&jcirc;o...
@@ -1371,11 +1451,11 @@
         </fnt>.
       </ekz>
       <ekz>
-        unu fojon en la jaro oni devas permesi festadon e&ccirc; 
+        unu fojon en la jaro oni devas permesi festadon e&ccirc;
         al tiuj el<tld/>uloj
         <fnt>
           <aut>F. Dostojevskij, trad. A. Kor&jcirc;enkov</aut>,
-          <vrk><url ref="http://www.esperanto-ondo.ru/Libroj/V_bibl08.pdf">
+          <vrk><url ref="&LOdE;Libroj/V_bibl08.pdf">
           La kampulo Marej</url></vrk>,
           <lok>2011</lok>
         </fnt>.
@@ -1393,6 +1473,14 @@
   <trdgrp lng="fr">
     <trd>gueux</trd>,
     <trd>mis&eacute;rable<klr> (subst.)</klr></trd>
+  </trdgrp>
+<trdgrp lng="id">
+  <trd><ind>kaum</ind> marjinal</trd>,
+  <trd><ind>kaum</ind> terpinggirkan</trd>
+</trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E5E;&#x4E10; <pr>q&#x1D0;g&#xE0;i</pr></trd>,
+    <trd>&#x53EB;&#21270;&#x5B50; <pr>ji&#xE0;ohu&amacron;zi</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1419,6 +1507,10 @@
       sekvas el <ctl>en</ctl> + <ctl><tld/>o</ctl>. Tio estas ne
       nur malracia, tio estas misgvida kaj nepre evitinda.
     </rim>
+  <trdgrp lng="id">
+    <trd>injeksi</trd>,
+    <trd><ind>fungsi</ind> injektif</trd>
+  </trdgrp>
   </snc>
   <trd lng="es">inyecci&oacute;n</trd>
   <trd lng="hu">injekci&oacute;</trd>
@@ -1434,6 +1526,7 @@
       <ref cel="jxet.dis0a">dis<tld/>a</ref>,
       <ref cel="enjekc.0a">enjekcia</ref>
    </refgrp>
+  <trd lng="id">injektif</trd>
   </snc>
   <trd lng="es">inyektiva</trd>
   <trd lng="hu">injekt&iacute;v</trd>
@@ -1534,7 +1627,11 @@
     <trd>elsz&oacute;r</trd>,
     <trd>elhaj&iacute;t</trd>
   </trdgrp>
-  <trd lng="id">mem<ind>buang</ind></trd>
+  <trdgrp lng="id">
+    <trd><baz>buang</baz>membuang</trd>,
+    <trd><baz>singkir</baz>menyingkirkan</trd>
+  </trdgrp>
+  <trd lng="ja">&#25237;&#12370;&#25448;&#12390;&#x308B;  <pr>&#x306A;&#12370;&#12377;&#12390;&#x308B;</pr></trd>
   <trd lng="nl">wegwerpen</trd>
   <trd lng="pl">wyrzuca&cacute;</trd>
   <trd lng="pt">jogar fora</trd>
@@ -1547,6 +1644,14 @@
   <trdgrp lng="uk">
     <trd>&c_v;&c_ib;&c_d;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_v;&c_i;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5F03; <pr>q&#xEC;</pr></trd>,
+    <trd>&#25172; <pr>r&emacron;ng</pr></trd>,
+    <trd>&#x4E1F;&#x68C4; <pr>di&#x16B;q&#xEC;</pr></trd>,
+    <trd>&#x5F03;&#x7F6E; <pr>q&#xEC;zh&#xEC;</pr></trd>,
+    <trd>&#x629B;&#x5F03; <pr>p&amacron;oq&#xEC;</pr></trd>,
+    <trd>&#25172;&#25481; <pr>r&emacron;ngdi&#xE0;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1567,7 +1672,7 @@
       </ekz>
       <ekz>
         barelo de balaa&jcirc;oj, en kiu ku&scirc;is diversaj for<tld/>a&jcirc;oj: trunketoj de brasiko,
-        <ref tip="sub" cel="bala.0ajxo.balaitajxo">balaa&jcirc;o</ref>, anka&ubreve; musko kaj rubo, 
+        <ref tip="sub" cel="bala.0ajxo.balaitajxo">balaa&jcirc;o</ref>, anka&ubreve; musko kaj rubo,
         kiuj defalis de la tegmento
         <fnt>
           <bib>Fab2</bib>
@@ -1585,8 +1690,12 @@
     </dif>
   </snc>
   <trd lng="de">Abfall</trd>
+  <trdgrp lng="id">
+    <trd>limbah</trd>,
+    <trd>sampah</trd>
+  </trdgrp>
+  <trd lng="ja">&#x5EC3;&#x68C4;&#29289;  <pr>&#x306F;&#12356;&#x304D;&#12406;&#12388;</pr></trd>
 </drv>
-
 
 <drv mrk="jxet.for0inda">
   <kap>for<tld/>inda</kap>
@@ -1615,7 +1724,7 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">      
+    <refgrp tip="vid">
       <ref cel="temp.eks0a">ekstempa</ref>,
       <ref cel="kaduk.0a.ruinigxa">kaduka<sncref/></ref>,
       <ref cel="flu.super0a">superflua</ref>
@@ -1634,8 +1743,13 @@
     <trd>bon &agrave; jeter</trd>,
     <trd>n&eacute;gligeable</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6C92;&#x50F9;&#x503C; <pr>m&#xE9;iji&#xE0;zh&#xED;</pr></trd>,
+    <trd>&#30465;&#25481; <pr>sh&#x11B;ngdi&#xE0;o</pr></trd>,
+    <trd>&#x591A;&#x4F59; <pr>du&#x14D;y&#xFA;</pr></trd>,
+    <trd>&#x8D05; <pr>zhu&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="jxet.sur0a">
   <kap>sur<tld/>a</kap>
@@ -1643,6 +1757,7 @@
   <fnt><bib>EKV</bib><lok>&para;421</lok></fnt>
   <snc>
     <ref tip="dif" cel="surjek.0a">surjekcia.</ref>
+  <trd lng="id">surjektif</trd>
   </snc>
   <trd lng="en">surjective</trd>
   <trd lng="de">surjektiv</trd>
@@ -1655,6 +1770,7 @@
   <trd lng="pt">sobrejetora</trd>
   <trd lng="pl">surjektywny</trd>
   <trd lng="ru">&c_s;&c_ju;&c_r;&c_malmol;&c_je;&c_k;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
+  <trd lng="zh">&#x6EE1;&#x5C04; <pr>m&#x1CE;nsh&#xE8;</pr></trd>
 </drv>
 
 <drv mrk="jxet.sur0i">
@@ -1701,6 +1817,7 @@
     <ref tip="vid" cel="met.sur0i">surmeti</ref>
   </snc>
   <trd lng="de">&uuml;berwerfen</trd>
+  <trd lng="ja">&#25237;&#12370;&#x304B;&#12369;&#x308B;  <pr>&#x306A;&#12370;&#x304B;&#12369;&#x308B;</pr></trd>
   <trd lng="uk">&#x43D;&c_a;&#x43A;&c_i;&c_d;&c_a;&c_t;&c_i;</trd>
 </drv>
 
@@ -1713,6 +1830,10 @@
   </fnt>
   <snc>
     <ref tip="dif" cel="surjek.0o">surjekcio.</ref>
+  <trdgrp lng="id">
+    <trd>surjeksi</trd>,
+    <trd><ind>fungsi</ind> surjektif</trd>
+  </trdgrp>
   </snc>
   <rim>
     Por pravigi &ccirc;i tiun terminon necesas akcepti neevidentan
@@ -1749,6 +1870,7 @@
     <trd>&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je; &leftquot;&c_n;&c_a;&rightquot;</trd>,
     <trd>&c_s;&c_ju;&c_r;&c_malmol;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trd lng="zh">&#x6EE1;&#x5C04; <pr>m&#x1CE;nsh&#xE8;</pr></trd>
 </drv>
 
 <drv mrk="jxet.sxton0o">
@@ -1757,7 +1879,7 @@
   </kap>
   <snc>
     <dif>
-      <ref tip="lst" lst="voko:longoj" cel="long.0o">Longo</ref> 
+      <ref tip="lst" lst="voko:longoj" cel="long.0o">Longo</ref>
       egala al la distanco al kiu homo kapablas <tld/>i &scirc;tonon:
       <ekz>
         li iris for de ili proksimume &scirc;ton<tld/>on, kaj li genuis, kaj pre&gcirc;is
@@ -1776,6 +1898,7 @@
     </dif>
   </snc>
   <trd lng="de">Steinwurf</trd>
+<trd lng="id">se<ind>lempar</ind>an batu</trd>
 </drv>
 
 <drv mrk="jxet.akvo0ilo">
@@ -1800,16 +1923,24 @@
           &ccirc;ar oni ne disponis pri profesia akvo<tld/>ilo, oni uzis normalan fajroestingan
           veturilon de la viena fajrobrigado
           <fnt>
-            <bib>Monato</bib>
-            <aut>Walter Klag</aut>
-            <vrk><url ref="&Steloj;monato2/006891.html">Batita kremo kaj akvo&jcirc;etiloj</url></vrk>
-          </fnt>.
+	<aut>Walter Klag</aut>
+	<vrk><url ref="&Monato;/2000/006891.php">Batita kremo kaj akvo&jcirc;etiloj</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 34</lok>
+        </fnt>.
         </ekz>
       </dif>
       <ref tip="sin" cel="kanon1.akvo0o">akvokanono</ref>
    </snc>
    <trd lng="de">Wasserwerfer</trd>
   <trd lng="fr">canon &agrave; eau</trd>
+  <trd lng="id"><ind>meriam</ind> air</trd>
+  <trd lng="nl">waterkanon</trd>
+  <trdgrp lng="zh">
+    <trd>&#x55B7;&#x6C34;&#x88C5;&#x7F6E;&#x6C34;&#x67AA;
+    <pr>p&emacron;nshu&#x1D0;zhu&amacron;ngzh&#xEC;shu&#x1D0;qi&amacron;ng</pr></trd>,
+    <trd>&#38450;&#x66B4;&#x6C34;&#x67AA; <pr>f&#xE1;ngb&#xE0;oshu&#x1D0;qi&amacron;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="jxet.sxton0ilo">
@@ -1864,31 +1995,34 @@
     <trd lng="it">fionda</trd>
   </snc>
   <trd lng="de">Stein<ind>schleuder</ind></trd>
+  <trd lng="ja">&#25237;&#x77F3;&#22120;  <pr>&#12392;&#12358;&#x305B;&#x304D;&#x304D;</pr></trd>
   <trd lng="uk">&#x43F;&c_r;&c_a;&c_shch;&c_a;</trd>
+  <trd lng="zh">&#x5F39;&#x5F13; <pr>d&#xE0;ng&#x14D;ng</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
-versio 1.152 2022/07/15 16:48:28
-Wolfram Diestel: +ref
+versio 1.163 2024/01/22 18:30:11
+Mahaer Mahmud: Realdonis akcidente forigitan difinon
 
-versio 1.151 2022/04/30 08:42:43
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.161 2023/10/26 06:30:19
+Eko Nur Syah Hidayat: +trd id 2
 
-versio 1.148 2021/10/22 10:31:06
-Wolfram Diestel: +for~ajxo
+versio 1.160 2023/10/18 05:26:26
+revo: transskribo per <pr>
 
-versio 1.72 2021/03/24 11:58:18
-Wolfram Diestel: kor. ref-cel
+versio 1.158 2023/08/29 18:31:01
+Wolfram Diestel: ja: prononco
 
-versio 1.71 2021/03/02 18:50:13
-Wolfram Diestel: +2 ekz
+versio 1.157 2023/05/18 20:26:41
+Wolfram Diestel: dis~i: plia trd de, en
 
-versio 1.70 2021/03/02 17:50:13
-Wolfram Diestel: kor. ref-cel, mov ekz de akvokanono al kanon/
+versio 1.156 2023/05/04 16:53:13
+revo: aktualigo URL-unuoj
 
-versio 1.69 2021/03/02 06:50:09
-Wolfram Diestel: adaptetoj de dif-vortumo, ekz-oj sxton~ilo, formovo de akvokanono k jxetlanco al
-kanon/ k lanc/
+versio 1.155 2023/04/30 13:26:32
+Paul Peeraerts: Steloj -> monato
+
+versio 1.154 2023/04/23 09:25:19
 -->
 </vortaro>

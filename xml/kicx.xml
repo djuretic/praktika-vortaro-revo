@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kicx.xml,v 1.8 2022/06/03 17:28:58 revo Exp $">
+<art mrk="$Id: kicx.xml,v 1.13 2023/12/03 09:58:49 revo Exp $">
 <kap>
   <rad>ki&ccirc;</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -15,19 +15,20 @@
       <ref tip="super" cel="stil.0o">Stilo</ref> imitanta arton, 
       kutime aplikata al malaltkostaj produktoj por amaskonsumo:
       <ekz>
-        <nom>Salvador Dal&iacute;</nom> <klr>[&#8230;]</klr> en la ornamado de plafonoj kaj vandoj de siaj
+        <nom>Salvador Dal&iacute;</nom> <klr>[&#x2026;]</klr> en la ornamado de plafonoj kaj vandoj de siaj
         domoj, li atingis la limon inter <tld/>o kaj arto
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=20095"
-              >Salvador Dal&iacute;</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20095">Salvador Dal&iacute;</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_ib;&c_ch; <klr>(&c_s;&c_t;&c_y;&c_l;&c_mol;)</klr></trd>
   <trd lng="bg">&c_k;&c_i;&c_ch;</trd>
   <trd lng="de">Kitsch<klr tip="amb"> (Stil)</klr></trd>
   <trd lng="fr">kitsch<klr> (subst.)</klr></trd>
+  <trd lng="ja">&#x30AD;&#x30C3;&#x30C1;&#x30E5;</trd>
   <trd lng="nl">kitsch</trd>
   <trd lng="pl">kicz</trd>
   <trd lng="ru">&c_k;&c_i;&c_ch;</trd>
@@ -63,11 +64,11 @@
         <ref cel="stras.0a">strasa</ref>j, pucaj, <tld/>aj kaj malutilaj elementoj
         de tiu iam esperplena nova mondo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007076.html"
-              >Ho, tempoj! Ho, moroj!</url></vrk>
-        </fnt>;
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007076.php">Ho, tempoj! Ho, moroj!</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 19</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -92,14 +93,20 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_ib;&c_ch;&c_a;&c_v;&c_y;</trd>
   <trd lng="de">kitschig</trd>
   <trd lng="fr">kitsch<klr> (adj.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x4FD7;&#x60AA;&#x306A;  <pr>&#x305E;&#x304F;&#x3042;&#x304F;&#x306A;</pr></trd>,
+    <trd>&#x307E;&#x304C;&#x3044;&#x7269;&#x306E;  <pr>&#x307E;&#x304C;&#x3044;&#x3082;&#x306E;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kitscherig</trd>
   <trd lng="pl">kiczowaty</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_i;&c_t;&c_ch;&c_je;&c_v;&c_y;&c_j;</trd>,
     <trd>&c_b;&c_je;&c_z;&c_v;&c_k;&c_u;&c_s;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="zh">&#x602F; <pr>qi&#xE8;</pr></trd>
 </drv>
 
 <drv mrk="kicx.0ajxo">
@@ -110,12 +117,11 @@
       <ref tip="super" cel="art.0ajxo">Arta&jcirc;o</ref>, <ref tip="super" cel="produk.0o.produktajxo">produkto</ref> 
       <tld/>a:
       <ekz>
-        tio pri <tld/>a&jcirc;oj <klr>[&#8230;]</klr> ne povas ne pensigi
+        tio pri <tld/>a&jcirc;oj <klr>[&#x2026;]</klr> ne povas ne pensigi
         anka&ubreve; pri verdaj steloj, verdaj standardoj, kaj verdstelaj standardoj
         <fnt>
           <aut>Ken Miner</aut>,
-          <vrk><url ref="http://www.sunflower.com/~miner/TAGLIBRO_package/taglibro.html"
-              >taglibro</url></vrk>,
+          <vrk><url ref="http://www.sunflower.com/~miner/TAGLIBRO_package/taglibro.html">taglibro</url></vrk>,
           <lok>2003-10-05</lok>
         </fnt>.
       </ekz>
@@ -126,6 +132,10 @@
       <ref cel="um.0ilo">umilo</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_ib;&c_ch; <klr>(&c_r;&c_e;&c_ch;)</klr></trd>,
+    <trd>&c_b;&c_je;&c_z;&c_g;&c_u;&c_s;&c_t;&c_o;&c_w;&c_sh;&c_ch;&c_y;&c_n;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Kitsch<klr tip="amb"> (Objekt)</klr></trd>,
     <trd>Tand</trd>,
@@ -143,6 +153,15 @@
 
 <!--
 $Log$
+versio 1.12 2023/10/18 16:50:28
+revo: transskribo per <pr>
+
+versio 1.10 2023/04/30 14:25:48
+Paul Peeraerts: Steloj -> monato
+
+versio 1.9 2023/02/07 12:50:30
+Dmitri Gabinski: + trd be
+
 versio 1.8 2022/06/03 17:28:58
 Wolfram Diestel: pli klara dif, ekz-oj, ref-oj, trd de
 
@@ -156,9 +175,5 @@ Revision 1.3  2006/07/05 18:35:45  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.2  2006/06/18 16:34:32  revo
-Yury Finkel: +trd ru
-
-Revision 1.1  2006/05/30 18:09:20  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

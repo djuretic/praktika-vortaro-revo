@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: antici.xml,v 1.31 2022/07/18 16:48:09 revo Exp $">
+<art mrk="$Id: antici.xml,v 1.35 2023/10/28 08:33:07 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>anticip</rad>/i <fnt><bib>PV</bib></fnt>
@@ -14,7 +14,7 @@
       Fari, plenumi, preni ion anta&ubreve; la konvena, deviga a&ubreve;
       kutima tempo;  diri, fidi ion anta&ubreve; &gcirc;ia fari&gcirc;o:
       <ekz>
-        mi jam nun <tld/>as, ke <klr>[&#8230;]</klr>
+        mi jam nun <tld/>as, ke <klr>[&#x2026;]</klr>
         <fnt>
           <bib>VaK</bib>
         </fnt>;
@@ -118,6 +118,12 @@
     <trd>&lamed;&he;&qof;&dalet;&yod;&fmem;</trd>,
     <trd>&lamed;&tsadi;&pe;&vav;&tav;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5148;&#x3093;&#x3058;&#x308B;  <pr>&#x3055;&#x304D;&#x3093;&#x3058;&#x308B;</pr></trd>,
+    <trd>&#x524D;&#x3082;&#x3063;&#x3066;&#x624B;&#x914D;&#x3059;&#x308B;  <pr>&#x307E;&#x3048;&#x3082;&#x3063;&#x3066;&#x3066;&#x306F;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x898B;&#x8D8A;&#x3059;  <pr>&#x307F;&#x3053;&#x3059;</pr></trd>,
+    <trd>&#x4E88;&#x671F;&#x3059;&#x308B;  <pr>&#x3088;&#x304D;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>predbieha&tcaron;</trd>,
     <trd>predch&aacute;dza&tcaron;</trd>,
@@ -166,7 +172,7 @@
         <tld/>a interkonsento
         <fnt>
           <bib>LOdE</bib>
-          <lok>2001, &#8470;8-9</lok>
+          <lok>2001, &#x2116;8-9</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -177,7 +183,15 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x9002;&#x65F6; <pr>b&#xF9;sh&#xEC;sh&#xED;</pr></trd>,
+    <trd>&#x4E0D;&#x9069;&#x6642; <pr>b&#xF9;sh&#xEC;sh&#xED;</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_p;&c_je;&c_r;&c_a;&c_d;&c_zh;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
+    <trd>&c_d;&c_a;&c_t;&c_e;&c_r;&c_m;&c_ib;&c_n;&c_o;&c_v;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>vorzeitig</trd>,
     <trd>vorfristig</trd>
@@ -233,6 +247,12 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_g;&c_a;&c_d;&c_z;&c_ja;</trd>,
+    <trd>&c_d;&c_a;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_d;</trd>,
+    <trd>&c_n;&c_a; <ind>&c_p;&c_je;&c_r;&c_a;&c_d;&c_p;&c_a;&c_ch;&c_a;&c_t;&c_k;&c_u;</ind></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>mit <ind>Aussicht</ind> auf</trd>,
     <trd>im <ind>Angesicht</ind> von</trd>,
@@ -251,6 +271,12 @@
 </art>
 <!--
 $Log$
+versio 1.34 2023/10/12 18:05:09
+revo: transskribo per <pr>
+
+versio 1.32 2023/05/10 08:31:01
+Dmitri Gabinski: + trd be
+
 versio 1.31 2022/07/18 16:48:09
 Vito Redsky:  +trd pl  +kor trd ro 
 
@@ -267,11 +293,5 @@ Revision 1.24  2017/09/04 16:10:15  revo
 Jeromo Vasxe: + ~a, + ~e al
 
 Revision 1.23  2017/01/30 14:10:18  revo
-Adam Eng: +trd ms
-
-Revision 1.22  2015/07/04 08:37:30  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.21  2015/06/28 12:03:35  revo
 -->
 </vortaro>

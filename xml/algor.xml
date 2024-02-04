@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: algor.xml,v 1.25 2022/03/11 13:58:40 revo Exp $">
+<art mrk="$Id: algor.xml,v 1.28 2023/10/12 18:05:09 revo Exp $">
 <kap>
    <ofc>9</ofc>
    <rad>algoritm</rad>/o
@@ -23,7 +23,7 @@
        </ekz>
        <ekz>
          prezenti <tld/>on per komputila programo
-         <fnt><bib>9OA</bib></fnt>.
+         <fnt><bib>OA9</bib></fnt>.
        </ekz>
      </dif>
      <ref tip="super" cel="metod.0o">metodo</ref>
@@ -43,7 +43,11 @@
    <trd lng="he">&#x5D0;&#x5B7;&#x5DC;&#x5D2;&#x5D5;&#x5B9;&#x5E8;&#x5B4;&#x5D9;&#x5EA;&#x5B0;&#x5DD;</trd>
   <trd lng="hu">algoritumus</trd>
    <trd lng="id">algoritme</trd>
-   <trd lng="nl">algoritme</trd>
+   <trdgrp lng="ja">
+    <trd>&#x7B97;&#x6CD5;  <pr>&#x3055;&#x3093;&#x307D;&#x3046;</pr></trd>,
+    <trd>&#x30A2;&#x30EB;&#x30B4;&#x30EA;&#x30BA;&#x30E0;</trd>
+  </trdgrp>
+  <trd lng="nl">algoritme</trd>
    <trd lng="pl">algorytm</trd>
    <trd lng="pt">algoritmo</trd>
    <trd lng="ru">&c_a;&c_l;&c_g;&c_o;&c_r;&c_i;&c_t;&c_m;</trd>
@@ -84,7 +88,13 @@
 </drv>
 </art>
 <!--
-$Log: algor.xml,v $
+$Log$
+versio 1.28 2023/10/12 18:05:09
+revo: transskribo per <pr>
+
+versio 1.27 2023/10/08 18:33:34
+revo: transskribo per <pr>
+
 versio 1.23 2020/02/13 14:10:22
 Wolfram Diestel: redakto: formulo per atributo am
 
@@ -101,11 +111,5 @@ Revision 1.19  2008/11/14 17:30:38  revo
 Marc Bavant: konformigis al 9OA
 
 Revision 1.18 2006/09/22 16:30:21 revo
-Wolfram Diestel: +tzerad(MAT)
-Revision 1.17 2006/09/22 12:26:49 revo
-Wolfram Diestel: +tezrad(KOMP)
-Revision 1.16 2005/07/28 19:54:23 revo
-Jozefo Horvath: +trd hu
-Revision 1.15 2003/11/06 17:30:51 revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rib.xml,v 1.30 2022/03/26 19:19:19 revo Exp $">
+<art mrk="$Id: rib.xml,v 1.34 2023/10/21 05:38:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rib</rad>/o <fnt><bib>PV</bib></fnt>
@@ -17,7 +17,9 @@
         de Ribes rubrum, oraj <tld/>oj de Ribes aureum, grosoj de Ribes grossularia
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007157.html">Vivo: Riboj</url></vrk>
+          <aut>Ste&ccirc;jo Norvell</aut>
+          <vrk><url ref="&Monato;/2001/007157.html">Vivo: Riboj</url></vrk>
+          <lok>2000/11, p. 16</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -58,6 +60,10 @@
     <trd>ribiszke</trd>,
     <trd>ribizli</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30B0;&#x30EA;</trd>,
+    <trd>&#x30B9;&#x30B0;&#x30EA;&#x306E;&#x5B9F;  <pr>&#x30B9;&#x30B0;&#x30EA;&#x306E;&#x307F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">bes</trd>
   <trd lng="pl">porzeczka</trd>
   <trd lng="pt">groselha</trd>
@@ -65,8 +71,8 @@
   <trd lng="sk">r&iacute;bez&lcaron;a <klr>(ovocie)</klr></trd>
   <trd lng="sv">vinb&auml;r</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x440;&#x456;&#x447;&#x43A;&#x438;</trd>,
-    <trd>&#x441;&#x43C;&#x43E;&#x440;&#x43E;&#x434;&#x438;&#x43D;&#x430;</trd>
+    <trd>&#x43F;&#x43E;&c_r;&c_ib;&c_ch;&#x43A;&c_i;</trd>,
+    <trd>&c_s;&#x43C;&#x43E;&c_r;&#x43E;&c_d;&c_i;&#x43D;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -79,7 +85,9 @@
         kasiso estas franca likvoro farita el nigraj <tld/>oj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007157.html">Vivo: Riboj</url></vrk>
+          <aut>Ste&ccirc;jo Norvell</aut>
+          <vrk><url ref="&Monato;/2001/007157.html">Vivo: Riboj</url></vrk>
+          <lok>2000/11, p. 16</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -100,6 +108,11 @@
   <trd lng="de">Schwarze Johannisbeere</trd>
   <trd lng="cs">&ccaron;ern&yacute; ryb&iacute;z</trd>
   <trd lng="fr">cassis</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30AF;&#x30ED;&#x30B9;&#x30B0;&#x30EA;</trd>,
+    <trd>&#x30AB;&#x30B7;&#x30B9;</trd>
+  </trdgrp>
+  <trd lng="pl">czarna  <ind>porzeczka</ind></trd>
   <trd lng="sk">&ccaron;ierna r&iacute;bez&lcaron;a</trd>
 </drv>
 
@@ -123,6 +136,7 @@
   <trd lng="ca"><ind>riber</ind> vermell</trd>
   <trd lng="fr">groseille<klr> (rouge)</klr></trd>
   <trd lng="hu">piros <ind>ribiszke</ind></trd>
+  <trd lng="ja">&#x30A2;&#x30AB;&#x30B9;&#x30B0;&#x30EA;</trd>
   <trd lng="nl">aalbes</trd>
   <trd lng="pl">czerwona <ind>porzeczka</ind></trd>
 </drv>
@@ -152,12 +166,23 @@
     <trd>cassissier</trd>,
     <trd>groseiller</trd>
   </trdgrp>
+  <trd lng="ja">&#x30B9;&#x30B0;&#x30EA;</trd>
+  <trd lng="pl">porzeczka  <klr>(krzew)</klr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2023/10/21 05:38:06
+revo: transskribo per <pr>
+
+versio 1.32 2023/06/10 21:23:26
+Vito Redsky: +trd pl 
+
+versio 1.31 2023/03/29 06:33:08
+Paul Peeraerts: &Monato;
+
 versio 1.29 2022/01/03 11:26:03
-Wolfram Diestel: fam. grosulariacoj laŭ PIV
+Wolfram Diestel: fam. grosulariacoj la&ubreve; PIV
 
 Revision 1.27  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
@@ -169,14 +194,5 @@ Revision 1.25  2013/08/29 12:10:15  revo
 Wolfram Diestel: referenco al listo bot genroj
 
 Revision 1.24  2013/03/04 08:10:10  revo
-Joop Eggen: *bg erara latina k
-
-Revision 1.23  2012/10/09 07:10:09  revo
-Jeromo Vasxe: + ~ujo + rugxa/nigra ~o
-
-Revision 1.22  2012/08/19 09:10:19  revo
-Marc Rausell: + trd ca
-
-Revision 1.21  2009/06/23 16:30:55  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: perspe.xml,v 1.28 2022/09/17 16:46:59 revo Exp $">
+<art mrk="$Id: perspe.xml,v 1.30 2023/10/20 14:25:20 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>perspektiv</rad>/o <fnt><bib>PV</bib></fnt>
@@ -26,7 +26,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        aksonometria <tld/>o estas sistemo de bilda reprezentado <klr>[&#8230;]</klr>
+        aksonometria <tld/>o estas sistemo de bilda reprezentado <klr>[&#x2026;]</klr>
         pere de projekcio &ccirc;u paralela a&ubreve; cilindra, referencita al tri ortogonaj aksoj,
         tiele ke ili konservu siajn proporciojn en &ccirc;iu el la tri direktoj de la spaco
         <fnt>
@@ -77,7 +77,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Klaro ekvidis <klr>[&#8230;]</klr> tra la interrompo, en la fundo de la <tld/>o
+        Klaro ekvidis <klr>[&#x2026;]</klr> tra la interrompo, en la fundo de la <tld/>o
         la murojn de la palaco same mallumajn, kiel la apudaj arboj
         <fnt>
           <bib>IK</bib>
@@ -152,6 +152,15 @@
     <trd>t&aacute;vlat</trd>,
     <trd>perspekt&iacute;va</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x773A;&#x671B;  <pr>&#x3061;&#x3087;&#x3046;&#x307C;&#x3046;</pr></trd>,
+    <trd>&#x898B;&#x6674;&#x3089;&#x3057;  <pr>&#x307F;&#x306F;&#x3089;&#x3057;</pr></trd>,
+    <trd>&#x9060;&#x666F;  <pr>&#x3048;&#x3093;&#x3051;&#x3044;</pr></trd>,
+    <trd>&#x5C55;&#x671B;  <pr>&#x3066;&#x3093;&#x307C;&#x3046;</pr></trd>,
+    <trd>&#x898B;&#x901A;&#x3057;  <pr>&#x307F;&#x3068;&#x304A;&#x3057;</pr></trd>,
+    <trd>&#x9060;&#x8FD1;&#x6CD5;  <pr>&#x3048;&#x3093;&#x304D;&#x3093;&#x307B;&#x3046;</pr></trd>,
+    <trd>&#x900F;&#x8996;&#x56F3;&#x6CD5;  <pr>&#x3068;&#x3046;&#x3057;&#x305A;&#x307B;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">perspectief</trd>
   <trdgrp lng="pl">
     <trd>perspektywa</trd>,
@@ -186,8 +195,7 @@
         proponitajn far la Komisiono
         <fnt>
           <aut>-</aut>,
-          <vrk><url
-          ref="http://europacivitano.wordpress.com/2012/04/25/protekti-la-speciojn-la-eu-modifus-la-agrikulturan-subtenantan-sistemon/">
+          <vrk><url ref="http://europacivitano.wordpress.com/2012/04/25/protekti-la-speciojn-la-eu-modifus-la-agrikulturan-subtenantan-sistemon/">
           Protekti la speciojn...</url></vrk>,
           <lok>E&ubreve;ropa Civitano, 2012-04-25</lok>
         </fnt>;
@@ -259,7 +267,7 @@
         sen<tld/>a entrepreno;
       </ekz>
       <ekz>
-        ni <klr>[&#8230;]</klr> kompatu <klr>[&#8230;]</klr> sen<tld/>an popolon, 
+        ni <klr>[&#x2026;]</klr> kompatu <klr>[&#x2026;]</klr> sen<tld/>an popolon, 
         kiu falis el unu terura malbono en alian e&ccirc; pli teruran
         <fnt>
           <bib>Monato</bib>
@@ -287,6 +295,10 @@
     </trdgrp>
   </snc>
   <trd lng="cs">neperspektivn&iacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C55;&#x671B;&#x306E;&#x306A;&#x3044;  <pr>&#x3066;&#x3093;&#x307C;&#x3046;&#x306E;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x898B;&#x901A;&#x3057;&#x306E;&#x306A;&#x3044;  <pr>&#x307F;&#x3068;&#x304A;&#x3057;&#x306E;&#x306A;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="pl">bez  <ind>perspektyw</ind>  [pl]</trd>
   <trd lng="ro">f&abreve;r&abreve; perspectiv&abreve;</trd>
   <trd lng="sk">bezv&yacute;h&lcaron;adn&yacute;</trd>
@@ -295,6 +307,9 @@
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/20 14:25:20
+revo: transskribo per <pr>
+
 versio 1.28 2022/09/17 16:46:59
 Vito Redsky:  +trd pl  + trd ro  
 
@@ -314,8 +329,5 @@ Revision 1.21  2018/02/25 20:10:16  revo
 Wolfram Diestel: prilaboris ekz-ojn, germ trd-oj
 
 Revision 1.20  2015/07/04 08:37:41  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.19  2015/06/29 16:40:17  revo
 -->
 </vortaro>

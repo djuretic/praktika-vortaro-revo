@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: korsaj.xml,v 1.19 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: korsaj.xml,v 1.22 2023/12/03 09:58:59 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>korsa&jcirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -15,7 +14,7 @@
       Parto de virina <ref tip="lst" lst="voko:vesta&jcirc;oj" cel="vest.0o.TEKS">vesto</ref>, 
       kovranta la buston:
       <ekz>
-        &scirc;i fari&gcirc;is furioza, <klr>[&#8230;]</klr> dis&scirc;iris la <tld/>on kaj ekbatis la edzon per
+        &scirc;i fari&gcirc;is furioza, <klr>[&#x2026;]</klr> dis&scirc;iris la <tld/>on kaj ekbatis la edzon per
         la piedo
         <fnt>
           <bib>ElektFab</bib>
@@ -46,14 +45,10 @@
        <ref cel="bluz.0o">bluzo</ref>,
        <ref cel="kamizo.0o.manikhava">kamizolo</ref>
     </refgrp>
-    <bld
-      lok="&WCU;/thumb/b/b0/Lady_with_a_corsage_tarbell.jpg/640px-Lady_with_a_corsage_tarbell.jpg"
-      prm="PD"
-      >sinjorino kun <tld/>o, pentra&jcirc;o de Edmund Charles Tarbell, 1911
+    <bld lok="&WCU;/thumb/b/b0/Lady_with_a_corsage_tarbell.jpg/640px-Lady_with_a_corsage_tarbell.jpg" prm="PD">sinjorino kun <tld/>o, pentra&jcirc;o de Edmund Charles Tarbell, 1911
         <fnt>
           <aut>Edmund Charles Tarbell</aut>
-          <lok><url ref="&WCW;/File:Lady_with_a_corsage_tarbell.jpg"
-              >&WCW;/File:Lady_with_a_corsage_tarbell.jpg</url></lok>
+          <lok><url ref="&WCW;/File:Lady_with_a_corsage_tarbell.jpg">&WCW;/File:Lady_with_a_corsage_tarbell.jpg</url></lok>
         </fnt>
     </bld>
   </snc>
@@ -75,6 +70,13 @@
   <trd lng="fr">corsage</trd>
   <trd lng="hu">ruhader&eacute;k</trd>
   <trd lng="id">korsase</trd>
+  <trdgrp lng="ja">
+    <trd>&#x80F4;&#x90E8;  <pr>&#x3069;&#x3046;&#x3076;</pr></trd>,
+    <trd>&#x8EAB;&#x3054;&#x308D;  <pr>&#x307F;&#x3054;&#x308D;</pr></trd>,
+    <trd>&#x80F4;&#x7740;  <pr>&#x3069;&#x3046;&#x304E;</pr></trd>,
+    <trd>&#x30B3;&#x30EB;&#x30B5;&#x30FC;&#x30B8;&#x30E5;</trd>,
+    <trd>&#x30DC;&#x30C7;&#x30A3;&#x30B9;</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>biustonosz</trd>,
     <trd>stanik</trd>,
@@ -95,10 +97,17 @@
     <trd>&c_k;&c_o;&c_r;&c_s;&c_a;&c_zh;</trd>,
     <trd>&c_l;&c_i;&c_f;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x80F8;&#x82B1; <pr>xi&#x14D;nghu&#x101;</pr></trd>,
+    <trd>&#x7D27;&#x8EAB;&#x80F8;&#x8863; <pr>j&#x1D0;nsh&#x113;nxi&#x14D;ngy&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.21 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
 versio 1.19 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -118,8 +127,5 @@ Revision 1.13  2009/06/29 18:05:24  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.12  2006/11/14 17:30:33  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2006/07/19 16:31:43  revo
 -->
 </vortaro>

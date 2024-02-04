@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kalcitr.xml,v 1.18 2022/03/21 17:51:56 revo Exp $">
+<art mrk="$Id: kalcitr.xml,v 1.24 2023/12/02 21:20:04 revo Exp $">
 <kap>
    <rad>kalcitr</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -31,17 +31,22 @@
         </fnt>;
       </ekz>
      </dif>
-    <refgrp tip="vid">
-      <ref cel="bat.hufo0i">hufobati</ref>,
-      <ref cel="stamf.0i">stamfi</ref>
-    </refgrp>
+     <ref tip="ant" cel="bauxm.0i.RAJ">ba&ubreve;mi<sncref/></ref>
+     <refgrp tip="vid">
+       <ref cel="bat.hufo0i">hufobati</ref>,
+       <ref cel="karako.0i">karakoli</ref>,
+       <ref cel="pranc.0i.RAJ">pranci</ref>,
+       <ref cel="stamf.0i">stamfi</ref>
+     </refgrp>
      <trd lng="be">&c_b;&c_r;&c_y;&c_k;&c_a;&c_c;&c_c;&c_a;</trd>
      <trd lng="ca">guitar</trd>
      <trdgrp lng="de">
-       <trd>sich <ind>aufb&auml;umen</ind></trd>,
-       <trd>steigen <klr>(Pferd)</klr></trd>,
-       <trd>sich auf die <ind>Hinterbeine</ind> stellen</trd>
+       <trd>bocken <klr>(Pferd)</klr></trd>,
+       <trd>buckeln <klr>(Pferd)</klr></trd>,
+       <trd>ausschlagen</trd>,
+       <trd>sich auf die <ind>Vorderbeine</ind> stellen</trd>
      </trdgrp>
+     <trd lng="en">buck</trd>
      <trd lng="es">cocear</trd>
      <trdgrp lng="fi">
        <trd>potkia<klr tip="amb"> (takajaloillaan)</klr></trd>,
@@ -95,7 +100,11 @@
        <trd>&c_o;&c_t;&c_b;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
        <trd>&c_o;&c_t;&c_b;&c_r;&c_y;&c_k;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
      </trdgrp>
-   </snc>
+     <trdgrp lng="zh">
+    <trd>&#x53DB;&#x9006;&#x7684; <pr>p&#xE0;nn&#xEC;de</pr></trd>,
+    <trd>&#x53DB;&#x9006; <pr>p&#xE0;nn&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>jan&ccaron;it</trd>,
     <trd>kopat</trd>,
@@ -107,6 +116,10 @@
      <trd>se <ind>rebiffer</ind></trd>,
      <trd>regimber</trd>,
      <trd>ruer dans les brancards</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5F8C;&#x811A;&#x3067;&#x8E74;&#x4E0A;&#x3052;&#x308B;  <pr>&#x306E;&#x3061;&#x3042;&#x3057;&#x3067;&#x3051;&#x3042;&#x3052;&#x308B;</pr></trd>,
+    <trd>&#x9811;&#x5F37;&#x306B;&#x62B5;&#x6297;&#x3059;&#x308B;  <pr>&#x304C;&#x3093;&#x304D;&#x3087;&#x3046;&#x306B;&#x3066;&#x3044;&#x3053;&#x3046;&#x3059;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
      <trd>krn&aogonek;brnym by&cacute;</trd>,
@@ -123,8 +136,8 @@
     <trd>vzoprie&tcaron; sa</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x440;&#x438;&#x43A;&#x430;&#x442;&#x438;(&#x441;&#x44F;)</trd>,
-    <trd>&#x445;&#x432;&#x438;&#x446;&#x430;&#x442;&#x438;(&#x441;&#x44F;)</trd>
+    <trd>&c_b;&c_r;&c_i;&c_k;&c_a;&c_t;&c_i;(&c_s;&c_ja;)</trd>,
+    <trd>&c_h;&c_v;&c_i;&c_c;&c_a;&c_t;&c_i;(&c_s;&c_ja;)</trd>
   </trdgrp>
 </drv>
 
@@ -135,12 +148,13 @@
        Ago <tld/>i.
      </dif>
    </snc>
+   <trd lng="be">&c_b;&c_r;&c_y;&c_k;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
    <trdgrp lng="ca">
      <trd>guitza</trd>,
      <trd>resist&egrave;ncia</trd>
    </trdgrp>
    <trdgrp lng="de">
-     <trd>Aub&auml;umen</trd>,
+     <trd>Bocken <klr>(Pferd)</klr></trd>,
      <trd>Auflehnung</trd>
    </trdgrp><trd lng="es">coz</trd>
    <trdgrp lng="fr">
@@ -148,7 +162,12 @@
      <trd>regimbement</trd>
    </trdgrp>
    <trd lng="hu">kir&uacute;g&aacute;s <klr tip="ind">(l&oacute;&eacute;)</klr></trd>
-   <trd lng="nl">schop achteruit</trd>
+   <trdgrp lng="ja">
+    <trd>&#x5F8C;&#x811A;&#x3067;&#x8E74;&#x4E0A;&#x3052;&#x308B;&#x3053;&#x3068;  <pr>&#x306E;&#x3061;&#x3042;&#x3057;&#x3067;&#x3051;&#x3042;&#x3052;&#x308B;&#x3053;&#x3068;</pr></trd>,
+    <trd>&#x9811;&#x5F37;&#x306A;&#x62B5;&#x6297;  <pr>&#x304C;&#x3093;&#x304D;&#x3087;&#x3046;&#x306A;&#x3066;&#x3044;&#x3053;&#x3046;</pr></trd>,
+    <trd>&#x53CD;&#x6297;  <pr>&#x306F;&#x3093;&#x3053;&#x3046;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">schop achteruit</trd>
    <trd lng="pl">wierzganie</trd>     
    <trd lng="ro">lovituri cu piciorul</trd>
    <trdgrp lng="ru">
@@ -156,13 +175,26 @@
      <trd>&c_l;&c_ja;&c_g;&c_a;&c_n;&c_i;&c_je;</trd>
    </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x440;&#x438;&#x43A;&#x430;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&#x445;&#x432;&#x438;&#x446;&#x430;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_b;&c_r;&c_i;&c_k;&c_a;&c_n;&c_n;&c_ja;</trd>,
+    <trd>&c_h;&c_v;&c_i;&c_c;&c_a;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
+  <trd lng="zh">&#x53DB;&#x4E71; <pr>p&#xE0;nlu&#xE0;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
+versio 1.21 2023/05/23 17:24:58
+Wolfram Diestel: ref-oj
+
+versio 1.20 2023/05/23 10:31:17
+Wolfram Diestel: kor. trd de
+
+versio 1.19 2023/04/11 07:24:26
+Dmitri Gabinski: + trd be
+
 versio 1.17 2022/02/05 08:25:52
 Wolfram Diestel: +ekz-oj, ref-oj, kor. trd de
 
@@ -173,17 +205,5 @@ Revision 1.14  2015/06/29 16:33:16  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.13  2014/03/04 19:10:20  revo
-Agustin Garcia Lopez: +trd (es) -o
-
-Revision 1.12  2012/09/01 07:10:18  revo
-Marc Rausell: + trd ca
-
-Revision 1.11  2010/06/12 16:30:45  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.10  2009/08/23 16:32:27  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.9  2007/07/12 16:30:39  revo
 -->
 </vortaro>

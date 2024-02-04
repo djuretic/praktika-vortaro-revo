@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sepult.xml,v 1.13 2022/05/13 05:52:05 revo Exp $">
+<art mrk="$Id: sepult.xml,v 1.18 2023/10/21 06:31:44 revo Exp $">
 <kap>
   <rad>sepult</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -10,12 +10,12 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="sepult.0i.FUN">
     <dif>
-      Prizorgi la kadavron de mortinto per 
+      Prizorgi la kadavron de mortinto per
       <ref tip="sin" cel="tomb.en0igi">entombigo</ref>, bruligo a&ubreve; alia
       mora procedo:
       <ekz>
-        la re&gcirc;ino <nom>Artemiza</nom> <tld/>is sian edzon <klr>[&#8230;]</klr> en tombon
-        <klr>[&#8230;]</klr> grandiozan
+        la re&gcirc;ino <nom>Artemiza</nom> <tld/>is sian edzon <klr>[&#x2026;]</klr> en tombon
+        <klr>[&#x2026;]</klr> grandiozan
         <fnt>
         <bib>DonKihxoto</bib>,
         <lok>parto 2a, &ccirc;apitro 8a, p. 438a</lok>
@@ -27,8 +27,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="https://www.monato.be/2014/011167.php"
-              >&Ccirc;erko&ccirc;are mono&scirc;pare</url></vrk>
+          <vrk><url ref="&Monato;/2014/011167.php">&Ccirc;erko&ccirc;are mono&scirc;pare</url></vrk>
           <lok>2014</lok>
         </fnt>;
       </ekz>
@@ -38,8 +37,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Steven K. Smith</aut>
-          <vrk><url ref="https://www.monato.be/2009/009659.php"
-              >La Helpanto</url></vrk>
+          <vrk><url ref="&Monato;/2009/009659.php">La Helpanto</url></vrk>
           <lok>2009</lok>
         </fnt>.
       </ekz>
@@ -58,8 +56,16 @@
     <trd>eltemet</trd>
   </trdgrp>
   <trdgrp lng="it">
-    <trd>seppellire<klr> (cer. funebre)</klr></trd>, 
+    <trd>seppellire<klr> (cer. funebre)</klr></trd>,
     <trd>cremare<klr> (cer. funebre)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x846C;&#x308B;  <pr>&#x307B;&#x3046;&#x3080;&#x308B;</pr></trd>,
+    <trd>&#x57CB;&#x846C;&#x3059;&#x308B;  <pr>&#x307E;&#x3044;&#x305D;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>chowa&cacute;</trd>,
+    <trd>grzeba&cacute;  <klr>(zmar&lstroke;ego)</klr></trd>
   </trdgrp>
   <trd lng="pt">sepultar</trd>
   <trdgrp lng="ru">
@@ -89,7 +95,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        pluvego <klr>[&#8230;]</klr> trafis &ccirc;e la urbolimo <tld/>oprocesion de eksi&gcirc;inta
+        pluvego <klr>[&#x2026;]</klr> trafis &ccirc;e la urbolimo <tld/>oprocesion de eksi&gcirc;inta
         brigadestro
         <fnt>
           <bib>LOdE</bib>
@@ -105,6 +111,12 @@
   <trd lng="fr">s&eacute;pulture<klr> (action)</klr></trd>
   <trd lng="hu">temet&eacute;s</trd>
   <trd lng="it">sepoltura</trd>
+  <trdgrp lng="ja">
+    <trd>&#x57CB;&#x846C;  <pr>&#x307E;&#x3044;&#x305D;&#x3046;</pr></trd>,
+    <trd>&#x846C;&#x9001;  <pr>&#x305D;&#x3046;&#x305D;&#x3046;</pr></trd>,
+    <trd>&#x846C;&#x5100;  <pr>&#x305D;&#x3046;&#x304E;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">pogrzeb</trd>
   <trd lng="pt">sepultamento</trd>
   <trd lng="ru">&c_p;&c_o;&c_g;&c_r;&c_je;&c_b;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">pohreb</trd>
@@ -116,13 +128,13 @@
     <dif>
       Loko por resta&jcirc;oj de mortintoj; <ref tip="sin" cel="tomb.0o">tombo</ref>:
       <ekz>
-        la sekvaj papoj <klr>[&#8230;]</klr> ofte vizitis la <tld/>ejon de la apostolo,
+        la sekvaj papoj <klr>[&#x2026;]</klr> ofte vizitis la <tld/>ejon de la apostolo,
         situanta en la <ref tip="sub" cel="kript.0o">kripto</ref> de loka katedralo
         <fnt>
-          <bib>Monato</bib>
           <aut>Rafaela Urue&ntilde;a</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006809.html"
-              >Hispanio: Vojoj al la sankta urbo</url></vrk>
+          <vrk><url ref="&Monato;/2000/006809.php">Vojoj al la sankta urbo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/03, p. 24</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -143,9 +155,14 @@
   <trd lng="fr">s&eacute;pulture<klr> (lieu)</klr></trd>
   <trd lng="hu">temetkez&eacute;si hely</trd>
   <trdgrp lng="it">
-    <trd>sepolcreto</trd>, 
+    <trd>sepolcreto</trd>,
     <trd>sepolcro</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5893;&#x5730;  <pr>&#x307C;&#x3061;</pr></trd>,
+    <trd>&#x5893;&#x6240;  <pr>&#x307C;&#x3057;&#x3087;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">cmentarz</trd>
   <trd lng="pt">sepultura</trd>
   <trd lng="ru">&c_m;&c_o;&c_g;&c_i;&c_l;&c_a;</trd>
   <trdgrp lng="sk">
@@ -160,6 +177,18 @@
 </art>
 <!--
 $Log$
+versio 1.18 2023/10/21 06:31:44
+revo: transskribo per <pr>
+
+versio 1.16 2023/08/13 18:28:04
+Vito Redsky: +trd pl 
+
+versio 1.15 2023/04/13 18:31:25
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.14 2023/04/11 18:56:02
+aktualigo Monato-URL
+
 versio 1.13 2022/05/13 05:52:05
 Wolfram Diestel: +ekz-oj, ref-oj, trd de
 
@@ -170,17 +199,5 @@ Revision 1.9  2010/07/10 16:30:30  revo
 Agustin Garcia Lopez: +trd es
 
 Revision 1.8  2009/10/29 17:31:01  revo
-Antonio Codazzi: +trd it
-
-Revision 1.7  2006/09/05 15:23:28  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.6  2005/07/29 19:28:58  revo
-Luiz Portella: +ezk +trd pt
-
-Revision 1.5  2005/06/23 16:31:55  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2005/01/15 17:32:25  revo
 -->
 </vortaro>

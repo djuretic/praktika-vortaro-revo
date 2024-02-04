@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: diskrim.xml,v 1.25 2022/04/26 17:11:48 revo Exp $">
+<art mrk="$Id: diskrim.xml,v 1.32 2023/11/04 14:29:02 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>diskriminaci</rad>/i <fnt><bib>PIV1</bib></fnt>
+  <ofc>9</ofc><rad>diskriminaci</rad>/i <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad var="n">diskrimin</rad>/i <fnt><bib>NePiv</bib></fnt></kap></var>
 </kap>
 <drv mrk="diskrim.0i">
-  <kap><ofc>9</ofc><tld/>i</kap>
+  <kap><ofc>9</ofc><tld/>i,
+    <var><kap><tld var="n"/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="diskrim.0i.POL">
     <uzo tip="fak">POL</uzo>
@@ -15,7 +17,7 @@
       oni rifuzas al parto el ili rajton, kiun oni donas al aliaj el ili:
       <ekz>
         <tld/>i eksterlandanojn, malplimulton
-        <fnt><bib>9OA</bib></fnt>;
+        <fnt><bib>OA9</bib></fnt>;
       </ekz>
       <ekz>
         oni min &ccirc;ikanas, <tld/>as, do anta&ubreve; mi staras serioza problemo: &ccirc;u entute mi
@@ -26,22 +28,33 @@
         </fnt>?
       </ekz>
       <ekz>
+        sur bazaro revenis al ni libereco mar&ccirc;andi kun vendistoj,
+        kiuj ne <tld var="n"/>is nin nur pro pli blanka ha&ubreve;to
+        <fnt>
+          <aut>Marzena</aut>,
+          <vrk><url ref="http://www.naszawyprawa.com/relacje_es.asp">
+          Voja&gcirc;raporto</url></vrk>,
+          <lok>Vjetnamio, 2004-11-19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         Danlando, onidire liberala lando, &jcirc;us pretigis novan le&gcirc;on, kiu eminente
         <tld/>os eksterlandanojn
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Stefan Maul</aut>
-          <lok><url ref="&Steloj;monato2/006915.html">&Steloj;monato2/006915.html</url></lok>
+        <fnt><aut>Stefan Maul</aut>,
+        <vrk><url ref="&Monato;/2000/006915.php">Kanonoj kontra&ubreve; paseroj</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/04, p. 5</lok>
         </fnt>;
       </ekz>
       <ekz>
         post la decido <klr>[&#x2026;]</klr>, ne plu <tld/>i anta&ubreve; Dio pri edzi&gcirc;oj geaj a&ubreve;
         gejaj, esti&gcirc;is sufi&ccirc;e forta diskutado precipe intereklezia
         <fnt>
-          <bib>Monato</bib>
           <aut>Gerrit Berveling</aut>
-          <vrk><url ref="&Steloj;monato2/007192.html">Edzi&gcirc;oj anka&ubreve; por samseksaj paroj</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007192.html">Edzi&gcirc;oj anka&ubreve; por samseksaj paroj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/12, p. 14</lok>
+          </fnt>;
       </ekz>
       <ekz>
         ne <tld/>u &ndash; &ccirc;i tiuj rajtoj apartenas al &ccirc;iu,
@@ -59,9 +72,10 @@
       <ref cel="trakt.mis0i">mistrakti</ref>,
       <ref cel="molest.0i">molesti</ref>,
       <ref cel="persek.0i.turmenti">persekuti<sncref/></ref>,
-<ref cel="prem.sub0i.tirane">subpremi<sncref/></ref>
+      <ref cel="prem.sub0i.tirane">subpremi<sncref/></ref>
     </refgrp>
   </snc>
+  <ref tip="hom" cel="diskrimin.0i.distingi">diskrimini (distingi)</ref>
   <trd lng="be">&c_d;&c_y;&c_s;&c_k;&c_r;&c_y;&c_m;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="ca">discriminar</trd>
   <trdgrp lng="de">
@@ -71,28 +85,48 @@
   <trd lng="en">discriminate</trd>
   <trd lng="es">discriminar</trd>
   <trd lng="fr">discriminer</trd>
+  <trd lng="ja">&#x5DEE;&#x5225;&#x3059;&#x308B;  <pr>&#x3055;&#x3079;&#x3064;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">discrimineren</trd>
   <trd lng="pl">dyskryminowa&cacute;</trd>
+  <trd lng="pt">discriminar</trd>
   <trd lng="sv">diskriminera</trd>
-  <trd lng="uk">&#x434;&#x438;&#x441;&#x43A;&#x440;&#x438;&#x43C;&#x456;&#x43D;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&c_k;&c_r;&c_i;&c_m;&c_ib;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6709;&#x8FA8;&#x8B58;&#x529B; <pr>y&#x1D2;ubi&#xE0;nsh&#xED;l&#xEC;</pr></trd>,
+    <trd>&#x6709;&#x504F;&#x5DEE; <pr>y&#x1D2;upi&#x101;nch&#x101;</pr></trd>,
+    <trd>&#x6709;&#x5DEE;&#x5225; <pr>y&#x1D2;uch&#x101;bi&#xE9;</pr></trd>,
+    <trd>&#x53D7;&#x6B67;&#x8996; <pr>sh&#xF2;uq&#xED;sh&#xEC;</pr></trd>,
+    <trd>&#x53D7;&#x5230;&#x4E8F;&#x5F85; <pr>sh&#xF2;ud&#xE0;oku&#x12B;d&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="diskrim.0o">
-  <kap><ofc>9</ofc><tld/>o <fnt><bib>PIV1</bib></fnt></kap>
+  <kap>
+    <ofc>9</ofc><tld/>o <fnt><bib>PIV1</bib></fnt>,
+    <var><kap><tld var="n"/>ado</kap></var>
+  </kap>
   <snc mrk="diskrim.0o.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
       Ago <tld/>i:
-    <ekz>
-      seksa <tld/>o <klr>(kontra&ubreve; personoj de iu sekso)</klr>
-      <fnt><bib>9OA</bib></fnt>;
-    </ekz>
-    <ekz>
-      <ind>rasa <tld/>o</ind>
-      <fnt><bib>9OA</bib></fnt>;
-      <trd lng="ca"><ind>discriminaci&oacute;</ind> racial</trd>
-      <trd lng="nl">rassendiscriminatie</trd>
-    </ekz>
+      <ekz>
+        seksa <tld/>o <klr>(kontra&ubreve; personoj de iu sekso)</klr>
+        <fnt><bib>OA9</bib></fnt>;
+      </ekz>
+      <ekz>
+        <ind>rasa <tld/>o</ind>
+        <fnt><bib>OA9</bib></fnt>;
+        <trd lng="ca"><ind>discriminaci&oacute;</ind> racial</trd>
+        <trd lng="nl">rassendiscriminatie</trd>
+      </ekz>
+      <ekz>
+        parlamentaj demandoj pri lingva <tld var="n"/>ado
+        <fnt>
+          <aut>-</aut>,
+          <lok><url ref="http://www.lingvo.org/bulteno/16.pdf">
+          E&ubreve;ropa Bulteno, 2001-08-23, numero 16a</url></lok>
+        </fnt>;
+      </ekz>
       <ekz>
         internaciaj organizoj tre insistas pri tio, ke nenia etna <tld/>o a&ubreve; netoleremo
         aperu en ties personaro
@@ -132,7 +166,7 @@
       <ekz>
         <ind>pozitiva <tld/>o</ind> <klr>(donanta helpon a&ubreve;
         avanta&gcirc;on al viktimoj de <tld/>o)</klr>;
-        <fnt><bib>9OA</bib></fnt>;
+        <fnt><bib>OA9</bib></fnt>;
         <trd lng="ca"><ind>discriminaci&oacute;</ind> positiva</trd>
         <trd lng="fr">discrimination positive</trd>
         <trd lng="nl">positieve <ind>discriminatie</ind></trd>
@@ -168,6 +202,10 @@
     (diszkrimin&aacute;ci&oacute;)</klr></trd>,
     <trd>diszkrimin&aacute;ci&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5DEE;&#x5225;  <pr>&#x3055;&#x3079;&#x3064;</pr></trd>,
+    <trd>&#x5DEE;&#x5225;&#x5F85;&#x9047;  <pr>&#x3055;&#x3079;&#x3064;&#x305F;&#x3044;&#x3050;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>discriminatie</trd>,
     <trd>achterstelling</trd>
@@ -177,11 +215,30 @@
   <trd lng="ru">&c_d;&c_i;&c_s;&c_k;&c_r;&c_i;&c_m;&c_i;&c_n;&c_a;&c_c;&c_i;&c_ja;</trd>
   <trd lng="sk">diskrimin&aacute;cia</trd>
   <trd lng="sv">diskriminering</trd>
-  <trd lng="uk">&#x434;&#x438;&#x441;&#x43A;&#x440;&#x438;&#x43C;&#x456;&#x43D;&#x430;&#x446;&#x456;&#x44F;</trd>
+  <trd lng="uk">&c_d;&c_i;&c_s;&c_k;&c_r;&c_i;&c_m;&c_ib;&c_n;&c_a;&c_c;&c_ib;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x516C;&#x5E73; <pr>b&#xF9;g&#x14D;ngp&#xED;ng</pr></trd>,
+    <trd>&#x4E0D;&#x516C;&#x6B63; <pr>b&#xF9;g&#x14D;ngzh&#xE8;ng</pr></trd>,
+    <trd>&#x6B67;&#x8996; <pr>q&#xED;sh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2023/11/04 09:21:22
+Wolfram Diestel: +var diskrimini/diskriminado
+
+versio 1.30 2023/10/14 11:26:54
+revo: transskribo per <pr>
+
+versio 1.29 2023/10/08 18:33:35
+revo: transskribo per <pr>
+
+versio 1.27 2023/04/30 06:30:31
+Paul Peeraerts: Steloj -> monato
+
+versio 1.26 2023/04/26 14:28:24
+
 versio 1.25 2022/04/26 17:11:48
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -190,19 +247,5 @@ Wolfram Diestel: ekz-oj, ref-oj, trd de
 
 versio 1.22 2021/05/03 08:57:19
 Dmitri Gabinski: +trd be
-
-Revision 1.20  2018/08/07 22:10:22  revo
-Michel Cantigneaux: aperas unue en PIV1 (1970), oficialaj en 9OA (2007)
-
-Revision 1.19  2012/08/10 14:11:09  revo
-Marc Rausell: + trd ca
-
-Revision 1.18  2010/11/10 17:30:38  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.17  2009/09/23 17:26:11  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2009/06/19 05:10:19  revo
 -->
 </vortaro>

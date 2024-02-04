@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bet.xml,v 1.40 2022/04/26 15:00:33 revo Exp $">
+<art mrk="$Id: bet.xml,v 1.46 2023/10/29 19:11:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bet</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,23 +12,25 @@
     <uzo tip="fak">BOT</uzo>
     <dif>
       Planto kun man&gcirc;eblaj folioj kaj dika radiko kultivata en
-      mezvarmaj landoj, <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">genro</ref> 
+      mezvarmaj landoj, <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">genro</ref>
       el familio amarantacoj (<trd lng="la">Beta</trd>):
       <ekz>
         la origino de blanka biero estas &ccirc;irka&ubreve; la 14a jarcento en Orienta Brabanto,
         tritiko, aveno kaj <tld/>oj estas de plej frua epoko tie kultivataj
         <fnt>
+          <aut>Lode van de Velde</aut>
+          <vrk><url ref="&Monato;/2001/007144.html">Tradicioj &dash; Bierlando Belgio</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato">Tradicioj &dash; Bierlando Belgio</url></vrk>
+          <lok>2001/01, p. 18</lok>
         </fnt>;
       </ekz>
       <ekz>
         geosmino <klr>[&#x2026;]</klr> donas al ru&gcirc;aj <tld/>oj ilian teran guston
         <fnt>
-          <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
           <vrk><url ref="&Monato;/2015/011480.php">Pluveraj veroj</url></vrk>
-          <lok>2015</lok>
+          <bib>Monato</bib>
+          <lok>2015/11, p. 22</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -59,7 +61,8 @@
     <trd lng="sk">repa</trd>
     <trd lng="sv">beta</trd>
     <trd lng="tr">pancar</trd>
-  </snc>
+    <trd lng="zh">&#x751C;&#x83DC; <pr>ti&#xE1;nc&#xE0;i</pr></trd>
+</snc>
   <snc mrk="bet.0o.radiko">
     <uzo tip="fak">BOT</uzo>
     <dif>
@@ -74,6 +77,7 @@
     <trd lng="en">beet</trd>
     <trd lng="es">remolacha</trd>
     <trd lng="hu">r&eacute;pa</trd>
+    <trd lng="id">bit</trd>
     <trd lng="nl">biet</trd>
     <trd lng="pl">burak</trd>
     <trd lng="pt">beterraba</trd>
@@ -85,11 +89,24 @@
       PIV1
       konas tian sencon nur por "ru&gcirc;a beto". <aut>MB</aut>
     </adm>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8451; <pr>f&#x113;ng</pr></trd>,
+    <trd>&#x8513;&#x83C1; <pr>m&#xE1;njing</pr></trd>,
+    <trd>&#x829C;&#x83C1; <pr>w&#xFA;j&#x12B;ng</pr></trd>,
+    <trd>&#x751C;&#x83DC;&#x6839; <pr>ti&#xE1;nc&#xE0;ig&#x113;n</pr></trd>,
+    <trd>&#x751C;&#x83DC; <pr>ti&#xE1;nc&#xE0;i</pr></trd>,
+    <trd>&#x539A;&#x984F;&#x7121;&#x6065; <pr>h&#xF2;uy&#xE1;nw&#xFA;ch&#x1D0;</pr></trd>
+  </trdgrp>
+</snc>
   <ref tip="hom" cel="bet1.0o">beto (greka litero)</ref>
   <trd lng="bo">&#xF63;&#xF0B;&#xF55;&#xF74;&#xF42;&#xF0B;</trd>
   <trd lng="he">&samekh;&lamed;&qof; </trd>
-  <trd lng="uk">&#x431;&#x443;&#x440;&#x44F;&#x43A;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30D3;&#x30FC;&#x30C8;  <pr>&#x3073;&#x30FC;&#x3068;</pr></trd>,
+    <trd>&#x30C6;&#x30F3;&#x30B5;&#x30A4;</trd>,
+    <trd>&#x30B5;&#x30C8;&#x30A6;&#x30C0;&#x30A4;&#x30B3;&#x30F3;</trd>
+  </trdgrp>
+  <trd lng="uk">&c_b;&c_u;&c_r;&#x44F;&#x43A;</trd>
 </drv>
 
 <drv mrk="bet.foli0o">
@@ -113,7 +130,12 @@
           <lok><url ref="&WCW;/File:Gelber_und_roter_Mangold.JPG">&WCW;/File:Gelber_und_roter_Mangold.JPG</url></lok>
         </fnt>
     </bld>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x539A;&#x76AE;&#x83DC; <pr>h&#xF2;up&#xED;c&#xE0;i</pr></trd>,
+    <trd>&#x8399;&#x8359;&#x83DC; <pr>j&#x16B;nd&#xE1;c&#xE0;i</pr></trd>,
+    <trd>&#x7CD6;&#x83B4;&#x82E3; <pr>t&#xE1;ngw&#x14D;j&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>cvikla</trd>,
     <trd>mangold</trd>
@@ -124,11 +146,16 @@
     <trd>bette</trd>,
     <trd>blette</trd>
   </trdgrp>
+  <trd lng="id"><ind>bit</ind> daun</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30D5;&#x30C0;&#x30F3;&#x30BD;&#x30A6;</trd>,
+    <trd>&#x30C8;&#x30A6;&#x30C2;&#x30B7;&#x30E3;</trd>
+  </trdgrp>
   <trd lng="pl">bo&cacute;wina</trd>
   <trd lng="sk">cvikla</trd>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x443;&#x440;&#x44F;&#x43A; &#x43B;&#x438;&#x441;&#x442;&#x43A;&#x43E;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x43C;&#x430;&#x43D;&#x491;&#x43E;&#x43B;&#x44C;&#x434;</trd>
+    <trd>&c_b;&c_u;&c_r;&#x44F;&#x43A; &#x43B;&c_i;&c_s;&c_t;&#x43A;&#x43E;&c_v;&c_i;&c_j;</trd>,
+    <trd>&#x43C;&c_a;&#x43D;&c_gu;&#x43E;&#x43B;&#x44C;&c_d;</trd>
   </trdgrp>
 </drv>
 
@@ -137,11 +164,11 @@
   <snc mrk="bet.furagx0o.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
-      <ref tip="super" cel="bet.0o.genro"><tld lit="B"/>o</ref> el 
+      <ref tip="super" cel="bet.0o.genro"><tld lit="B"/>o</ref> el
       specoj uzataj por nutri brutojn (<trd lng="la">Beta
       vulgaris</trd>):
       <ekz>
-        ekde la oka jaro de mia vivo mi devis multe helpi en la 
+        ekde la oka jaro de mia vivo mi devis multe helpi en la
         rikoltado de la terpomoj kaj fura&gcirc;<tld/>oj sur la bieno de
         mia onklo
         <fnt>
@@ -157,7 +184,7 @@
     <trd lng="fr">bettrave fourrag&egrave;re</trd>
     <trd lng="pl">burak pastewny</trd>
   </snc>
-  <trd lng="uk">&#x43A;&#x43E;&#x440;&#x43C;&#x43E;&#x432;&#x438;&#x439; &#x431;&#x443;&#x440;&#x44F;&#x43A;</trd>
+  <trd lng="uk">&#x43A;&#x43E;&c_r;&#x43C;&#x43E;&c_v;&c_i;&c_j; &c_b;&c_u;&c_r;&#x44F;&#x43A;</trd>
 </drv>
 
 <drv mrk="bet.rugxa0o">
@@ -168,7 +195,7 @@
       Speco de <ref tip="super" cel="bet.0o.genro"><tld/>o</ref> kun
       malhele ru&gcirc;a radiko man&gcirc;ebla post kuirado:
       <ekz>
-        <ref tip="malprt" cel="barcx.0o">bar&ccirc;o</ref> <klr>[&#x2026;]</klr> estas kuirata 
+        <ref tip="malprt" cel="barcx.0o">bar&ccirc;o</ref> <klr>[&#x2026;]</klr> estas kuirata
         el ru&gcirc;a <tld/>o, brasiko, cepo, karoto kaj diversaj specoj de viando
         <fnt>
           <bib>Viki</bib>
@@ -176,11 +203,14 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trd lng="zh">&#x751C;&#x83DC;&#x6839; <pr>ti&#xE1;nc&#xE0;ig&#x113;n</pr></trd>
+</snc>
   <trd lng="br">beterabezenn ruz</trd>
   <trd lng="de">Rote Bete</trd>
   <trd lng="hu">c&eacute;kla</trd>
   <trd lng="fr">betterave rouge</trd>
+  <trd lng="id"><ind>bit</ind> merah</trd>
+  <trd lng="ja">&#x8D64;&#x304B;&#x3076;  <pr>&#x3042;&#x304B;&#x304B;&#x3076;</pr></trd>
   <trd lng="nl">rode <ind>biet</ind></trd>
   <trd lng="pl">burak<klr> czerwony</klr></trd>
   <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja;
@@ -192,13 +222,13 @@
   <snc mrk="bet.suker0o.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
-      <ref tip="super" cel="bet.0o.genro"><tld lit="B"/>o</ref> kun 
+      <ref tip="super" cel="bet.0o.genro"><tld lit="B"/>o</ref> kun
       sukerri&ccirc;a radiko, uzata por industrie produkti <ref tip="prt" cel="suker.0o">sukero</ref>n:
       <ekz>
         pulpo de suker<tld/>oj
         <fnt>
           <aut>Akademio de Esperanto</aut>,
-          <vrk><url ref="http://akademio-de-esperanto.org/oficialaj_informoj/oficialaj_informoj_8_2007.html">
+          <vrk><url ref="&AdE;/oficialaj_informoj/oficialaj_informoj_8_2007.html">
           Oficialaj informoj, 8</url></vrk>,
           <lok>2007-03-10</lok>
         </fnt>;
@@ -213,7 +243,11 @@
       </ekz>
     </dif>
     <ref tip="vid" cel="kan.suker0o">sukerkano</ref>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x83FE; <pr>ti&#xE1;n</pr></trd>,
+    <trd>&#x751C;&#x83DC; <pr>ti&#xE1;nc&#xE0;i</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_c;&c_u;&c_k;&c_r;&c_o;&c_v;&c_y;
   &c_b;&c_u;&c_r;&c_a;&c_k;</trd>
   <trd lng="br">beterabezenn sukr</trd>
@@ -221,6 +255,8 @@
   <trd lng="de">Zuckerr&uuml;be</trd>
   <trd lng="fr">betterave sucri&egrave;re</trd>
   <trd lng="hu">cukorr&eacute;pa</trd>
+  <trd lng="id"><ind>bit</ind> gula</trd>
+  <trd lng="ja">&#x30B5;&#x30C8;&#x30A6;&#x30C0;&#x30A4;&#x30B3;&#x30F3;</trd>
   <trd lng="nl">suikerbiet</trd>
   <trd lng="pl">burak cukrowy</trd>
   <trd lng="ru">&c_s;&c_a;&c_h;&c_a;&c_r;&c_n;&c_a;&c_ja;
@@ -232,6 +268,18 @@
 <!--
 
 $Log$
+versio 1.45 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.44 2023/09/15 02:31:05
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.42 2023/05/19 15:26:22
+Paul Peeraerts: + aut, url,  lok
+
+versio 1.41 2023/05/03 16:39:00
+revo: aktualigo URL-unuoj
+
 versio 1.40 2022/04/26 15:00:33
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -242,18 +290,6 @@ Revision 1.32  2016/02/03 23:10:18  revo
 Filip van Laenen: +trd(nl,no)
 
 Revision 1.31  2016/01/31 11:10:18  revo
-Alain Gerard: +rim
-
-Revision 1.30  2015/12/31 14:10:15  revo
-Alain Gerard: +snc (~o) +fnt
-
-Revision 1.29  2015/10/05 04:10:19  revo
-Evandro Avellar: +trd pt
-
-Revision 1.28  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.27  2015/06/29 16:29:35  revo
 -->
 
 </vortaro>

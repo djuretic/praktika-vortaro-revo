@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: hispan.xml,v 1.22 2022/04/30 08:42:41 revo Exp $">
+<art mrk="$Id: hispan.xml,v 1.26 2023/11/15 17:08:01 revo Exp $">
 <kap>
   <ofc>*</ofc><ofc>7</ofc>
   <rad>hispan</rad>/o
@@ -48,12 +48,17 @@
   <trd lng="es">espa&ntilde;ol</trd>
   <trd lng="fr">Espagnol<klr> (subst.)</klr></trd>
   <trd lng="it">spagnolo<klr> (sost.)</klr></trd>
+  <trd lng="ja">&#x30B9;&#x30DA;&#x30A4;&#x30F3;&#x4EBA;  <pr>&#x30B9;&#x30DA;&#x30A4;&#x30F3;&#x3058;&#x3093;</pr></trd>
   <trd lng="nl">Spanjaard</trd>
   <trd lng="no">spanjol</trd>
   <trd lng="pl">Hiszpan</trd>
   <trd lng="pt">espanhol <klr tip="ind"> (subst.)</klr></trd>
   <trd lng="sk">&scaron;paniel</trd>
   <trd lng="uk">&c_ib;&c_s;&#x43F;&c_a;&#x43D;&c_je;&c_c;&#x44C;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x897F;&#x73ED;&#x7259;&#x4EBA; <pr>X&#x12B;b&#x101;ny&#xE1;r&#xE9;n</pr></trd>,
+    <trd>&#x897F;&#x73ED;&#x7259;&#x4EBA; <pr>x&#x12B;b&#x101;ny&#xE1;r&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="hispan.0a">
@@ -92,7 +97,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        ili dancadis pro sia propra plezuro <klr>[&#8230;]</klr> en 
+        ili dancadis pro sia propra plezuro <klr>[&#x2026;]</klr> en 
         la stilo hispana, kiu, kiel oni diras, estas stilo libera kaj vigla
         <fnt>
           <bib>BdV</bib>
@@ -119,22 +124,28 @@
       <ekz>
         irlandanoj, kiuj komprenis lingvojn kiel la francan, la germanan a&ubreve; la <tld/>an
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007071.html">Irlando:
-          Radio por unu mondo</url></vrk>
-        </fnt>.
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007071.php">Radio por unu mondo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 12</lok>
+          </fnt>.
       </ekz>
     </dif>
     <trd lng="fr">espagnol<klr> (langue)</klr></trd>
     <trd lng="en">Spanish (language)</trd>
-  </snc>  
+    <trdgrp lng="zh">
+    <trd>&#x897F;&#x8A9E; <pr>x&#x12B;y&#x1D4;</pr></trd>,
+    <trd>&#x897F;&#x73ED;&#x7259;&#x8A9E; <pr>X&#x12B;b&#x101;ny&#xE1;y&#x1D4;</pr></trd>,
+    <trd>&#x897F;&#x6587; <pr>X&#x12B;w&#xE9;n</pr></trd>
+  </trdgrp>
+</snc>  
   <trd lng="be">&c_ib;&c_s;&c_p;&c_a;&c_n;&c_s;&c_k;&c_ib;</trd>
   <trd lng="bg">&c_i;&c_s;&c_p;&c_a;&c_n;&c_s;&c_k;&c_i;</trd>
   <trd lng="bo">&#xF66;&#xF7A;&#xF0B;&#xF54;&#xF53;&#xF0B;&#xF66;&#xF90;&#xF51;&#xF0B;</trd>
   <trd lng="cs">&scaron;pan&ecaron;lsk&yacute;</trd>
   <trd lng="de">spanisch</trd>
   <trd lng="it">spagnolo<klr> (agg.)</klr></trd>
+  <trd lng="ja">&#x30B9;&#x30DA;&#x30A4;&#x30F3;&#x306E;  <pr>&#x3059;&#x307A;&#x3044;&#x3093;&#x306E;</pr></trd>
   <trd lng="nl">Spaans</trd>
   <trd lng="no">spansk</trd>
   <trd lng="pl">hiszpa&nacute;ski</trd>
@@ -205,11 +216,22 @@
   <trd lng="no">Spania</trd>
   <trd lng="pl">Hiszpania</trd>
   <trd lng="pt">Espanha</trd>
+  <trdgrp lng="zh">
+    <trd>&#x897F;&#x73ED;&#x7259; <pr>X&#x12B;b&#x101;ny&#xE1;</pr></trd>,
+    <trd>&#x65E5;&#x65AF;&#x5DF4;&#x5C3C;&#x4E9E; <pr>r&#xEC;s&#x12B;b&#x101;n&#xED;y&#xE0;</pr></trd>,
+    <trd>&#x65E5;&#x56FD; <pr>r&#xEC;gu&#xF3;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.25 2023/10/16 05:55:37
+revo: transskribo per <pr>
+
+versio 1.23 2023/04/30 12:42:26
+Paul Peeraerts: Steloj -> monato
+
 versio 1.22 2022/04/30 08:42:41
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -226,11 +248,5 @@ Akademio.
 Revision 1.15  2017/12/23 15:10:19  revo
 Robin van der Vliet: Jam estas en hispani.xml
 
-Revision 1.14  2017/12/12 21:10:13  revo
-Michel Cantigneaux: pli bona prezentajxo de Hispanujo &amp; Hispanio
-
-Revision 1.13  2017/12/12 14:10:14  revo
-Michel Cantigneaux: Rimarko el la Akademia Listo de Rekomendataj
-Landnomoj pri -i/o aux -i-o
 -->
 </vortaro>

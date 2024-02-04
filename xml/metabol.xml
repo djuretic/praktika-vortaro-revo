@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: metabol.xml,v 1.16 2022/06/29 13:48:51 revo Exp $">
+<art mrk="$Id: metabol.xml,v 1.19 2024/01/25 20:10:36 revo Exp $">
 <kap>
 <rad>metabol</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -34,7 +34,7 @@
         la&ubreve; opinio de la a&ubreve;toro, por ke la <tld/>o de la malgrandaj &hcirc;emiaj molekuloj
         alkonduku al la apero de vivaj sistemoj, estas necesaj difinitaj kondi&ccirc;oj:
         devas esti limo inter la loko de la reto de malgrandaj molekuloj kaj la
-        &ccirc;irka&ubreve;anta medio, necesas konstanta alfluo de energio <klr>[&#8230;]</klr>
+        &ccirc;irka&ubreve;anta medio, necesas konstanta alfluo de energio <klr>[&#x2026;]</klr>
         <fnt>
           <bib>Monato</bib>
           <aut>Vladimir Lemelev</aut>
@@ -67,6 +67,10 @@
   </trdgrp>
   <trd lng="fr">m&eacute;tabolisme</trd>
   <trd lng="hu">anyagcsere</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7269;&#x8CEA;&#x4EE3;&#x8B1D;  <pr>&#x3076;&#x3063;&#x3057;&#x3064;&#x305F;&#x3044;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x7269;&#x8CEA;&#x4EA4;&#x4EE3;  <pr>&#x3076;&#x3063;&#x3057;&#x3064;&#x3053;&#x3046;&#x305F;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">metabolisme</trd>
   <trd lng="pt">metabolismo</trd>
   <trdgrp lng="ru">
@@ -82,11 +86,20 @@
     <trd>&c_m;&c_je;&c_t;&c_a;&c_b;&c_o;&c_l;&c_ib;&c_z;&c_m;</trd>,
     <trd>&c_o;&c_b;&c_m;&c_ib;&c_n; &c_r;&c_je;&c_ch;&c_o;&c_v;&c_i;&c_n;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EE3;&#x8B1D; <pr>d&#xE0;ixi&#xE8;</pr></trd>,
+    <trd>&#x4EE3;&#x8C22; <pr>d&#xE0;ixi&#xE8;</pr></trd>,
+    <trd>&#x65B0;&#x9648;&#x4EE3;&#x8C22; <pr>x&#x12B;nch&#xE9;nd&#xE0;ixi&#xE8;</pr></trd>,
+    <trd>&#x65B0;&#x9673;&#x4EE3;&#x8B1D; <pr>x&#x12B;nch&#xE9;nd&#xE0;ixi&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.18 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
 versio 1.16 2022/06/29 13:48:51
 Wolfram Diestel: +ref
 
@@ -106,8 +119,5 @@ Revision 1.9  2006/08/01 16:32:16  revo
 Tulio Flores: +tr pt
 
 Revision 1.8  2005/04/24 16:33:10  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.7  2004/02/23 18:18:06  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: spec.xml,v 1.113 2022/05/15 07:27:38 revo Exp $">
+<art mrk="$Id: spec.xml,v 1.120 2024/01/05 01:35:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>spec</rad>/o <fnt><bib>PV</bib></fnt>
@@ -98,18 +98,25 @@
       <trd>kind</trd>,
       <trd>sort</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>jenis</trd>,
+      <trd>macam</trd>,
+      <trd>ragam</trd>,
+      <trd>rupa</trd>,
+      <trd>tipe</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_v;&c_i;&c_d;</trd>,
       <trd>&c_r;&c_a;&c_z;&c_n;&c_o;&c_v;&c_i;&c_d;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
       <trd>&c_s;&c_o;&c_r;&c_t;</trd>,
       <trd>&c_p;&c_o;&c_r;&c_o;&c_d;&c_a;</trd>
     </trdgrp>
-    <trd lng="th">&#3594;&#3609;&#3636;&#3604;</trd>
+    <trd lng="th">&#xE0A;&#xE19;&#xE34;&#xE14;</trd>
   </snc>
   <snc mrk="spec.0o.similajxo">
     <dif>
-      <klr>(evitante precizan difinon per indiko de 
-      karakteriza&jcirc;o a&ubreve; simila&jcirc;o)</klr> 
+      <klr>(evitante precizan difinon per indiko de
+      karakteriza&jcirc;o a&ubreve; simila&jcirc;o)</klr>
       &leftquot;io simila, komparebla al&rightquot;, &leftquot;reprezentanto de&rightquot;:
       <ekz>
         &gcirc;i havis en si ian <tld/>on de flartabako
@@ -180,6 +187,10 @@
       <trd>Auspr&auml;gung</trd>
     </trdgrp>
     <trd lng="en">a <ind>kind</ind> <klr>(of)</klr></trd>
+  <trdgrp lng="id">
+    <trd><baz>jenis</baz>sejenis</trd>,
+    <trd><baz>macam</baz>semacam</trd>
+  </trdgrp>
   </snc>
 
 <!--
@@ -239,8 +250,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Oliver Kim</aut>
-          <vrk><url ref="https://www.monato.be/2014/011359.php"
-              >Rekorda konkulo</url></vrk>
+          <vrk><url ref="&Monato;/2014/011359.php">Rekorda konkulo</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
@@ -249,14 +259,15 @@
     <trd lng="de">Art <klr>(Spezies)</klr></trd>
     <trd lng="en">species</trd>
     <trd lng="es">especie</trd>
+    <trd lng="id">spesies</trd>
     <trd lng="ru">&c_v;&c_i;&c_d;</trd>
-    <trd lng="th">&#3626;&#3611;&#3637;&#3594;&#3637;&#3626;&#3660;</trd>
+    <trd lng="th">&#xE2A;&#xE1B;&#xE35;&#xE0A;&#xE35;&#xE2A;&#xE4C;</trd>
   </snc>
   <trd lng="af">soort</trd>
-  <trd lng="am">&#4848;&#4877;</trd>
+  <trd lng="am">&#x12F0;&#x130D;</trd>
   <trd lng="ar">&a_n;&a_w;&a_ayn;</trd>
   <trd lng="az">c&uuml;r</trd>
-  <trd lng="bn">&#2471;&#2480;&#2472;&#2503;&#2480;</trd>
+  <trd lng="bn">&#x9A7;&#x9B0;&#x9A8;&#x9C7;&#x9B0;</trd>
   <trd lng="bs">vrste</trd>
   <trd lng="ca">esp&egrave;cie</trd>
   <trd lng="co">curtisi</trd>
@@ -276,7 +287,7 @@
   <trd lng="ga">chine&aacute;l</trd>
   <trd lng="gd">se&ograve;rsa</trd>
   <trd lng="gl">tipo</trd>
-  <trd lng="gu">&#2730;&#2765;&#2736;&#2709;&#2750;&#2736;&#2728;&#2752;</trd>
+  <trd lng="gu">&#xAAA;&#xACD;&#xAB0;&#xA95;&#xABE;&#xAB0;&#xAA8;&#xAC0;</trd>
   <trd lng="ha">irin</trd>
   <trd lng="hi">&#2340;&#2352;&#2361;</trd>
   <trd lng="hmn">zoo</trd>
@@ -287,38 +298,38 @@
     <trd>nem <klr tip="amb">(f&eacute;les&eacute;g)</klr></trd>,
     <trd>f&eacute;les&eacute;g</trd>
   </trdgrp>
-  <trd lng="hy">&#1378;&#1377;&#1408;&#1387;</trd>
-  <trd lng="ig">&#7909;d&#7883;</trd>
-  <trd lng="is">g&oacute;ður</trd>
-  <trd lng="ja">&#31278;&#39006;</trd>
+  <trd lng="hy">&#1378;&#1377;&#1408;&#x56B;</trd>
+  <trd lng="ig">&#x1EE5;d&#x1ECB;</trd>
+  <trd lng="is">g&oacute;&#xF0;ur</trd>
+  <trd lng="ja">&#x7A2E;&#x985E;<pr>&#12375;&#12421;&#x308B;&#12356;</pr></trd>
   <trd lng="jv">jenis</trd>
-  <trd lng="ka">&#4321;&#4304;&#4334;&#4312;&#4321;</trd>
+  <trd lng="ka">&#x10E1;&#x10D0;&#x10EE;&#x10D8;&#x10E1;</trd>
   <trd lng="kk">&c_m;&c_je;&c_j;&c_ib;&c_r;&c_ib;&c_m;&c_d;&c_ib;</trd>
-  <trd lng="km">&#6036;&#6098;&#6042;&#6039;&#6081;&#6033;</trd>
-  <trd lng="kn">&#3248;&#3264;&#3236;&#3263;&#3247;</trd>
-  <trd lng="ko">&#51333;&#47448;</trd>
+  <trd lng="km">&#6036;&#x17D2;&#x179A;&#6039;&#x17C1;&#6033;</trd>
+  <trd lng="kn">&#xCB0;&#xCC0;&#xCA4;&#xCBF;&#xCAF;</trd>
+  <trd lng="ko">&#xC885;&#xB958;</trd>
   <trd lng="ku">hevalbend</trd>
-  <trd lng="ky">&c_t;&#1199;&c_r;</trd>
+  <trd lng="ky">&c_t;&#x4AF;&c_r;</trd>
   <trd lng="lat">quaedam</trd>
-  <trd lng="lo">&#3739;&#3760;&#3776;&#3742;&#3732;</trd>
-  <trd lng="lt">nat&#363;ra</trd>
+  <trd lng="lo">&#xE9B;&#xEB0;&#xEC0;&#xE9E;&#xE94;</trd>
+  <trd lng="lt">nat&#x163B;ra</trd>
   <trd lng="lv">veids</trd>
   <trd lng="mg">tsara fanahy</trd>
   <trd lng="mi">atawhai</trd>
   <trd lng="mk">&c_v;&c_i;&c_d;</trd>
-  <trd lng="ml">&#3364;&#3376;&#3330;</trd>
-  <trd lng="mn">&c_t;&#1257;&c_r;&#1257;&c_l;</trd>
-  <trd lng="mr">&#2346;&#2381;&#2352;&#2325;&#2366;&#2352;&#2330;&#2368;</trd>
+  <trd lng="ml">&#xD24;&#xD30;&#xD02;</trd>
+  <trd lng="mn">&c_t;&#x4E9;&c_r;&#x4E9;&c_l;</trd>
+  <trd lng="mr">&#x92A;&#x94D;&#2352;&#2325;&#x93E;&#2352;&#x91A;&#2368;</trd>
   <trd lng="mt">tip</trd>
-  <trd lng="my">&#4129;&#4121;&#4155;&#4141;&#4143;&#4152;&#4129;&#4101;&#4140;&#4152;</trd>
-  <trd lng="ne">&#2342;&#2351;&#2366;&#2354;&#2369;</trd>
+  <trd lng="my">&#4129;&#4121;&#x103B;&#x102D;&#x102F;&#4152;&#4129;&#4101;&#x102C;&#4152;</trd>
+  <trd lng="ne">&#2342;&#x92F;&#x93E;&#2354;&#2369;</trd>
   <trd lng="nl">soort</trd>
   <trd lng="ny">mtundu</trd>
-  <trd lng="pa">&#2598;&#2623;&#2566;&#2610;&#2626;</trd>
+  <trd lng="pa">&#xA26;&#xA3F;&#xA06;&#xA32;&#xA42;</trd>
   <trd lng="ps">&#1673;&a_w;&a_l;</trd>
   <trd lng="rw">ubwoko</trd>
   <trd lng="sd">&a_q;&a_s;&a_m;</trd>
-  <trd lng="si">&#3482;&#3535;&#3515;&#3540;&#3499;&#3538;&#3482;</trd>
+  <trd lng="si">&#xD9A;&#xDCF;&#xDBB;&#xDD4;&#xDAB;&#xDD2;&#xD9A;</trd>
   <trdgrp lng="sk">
     <trd>druh <klr>(tovaru)</klr></trd>,
     <trd>sorta</trd>
@@ -331,16 +342,16 @@
   <trd lng="st">mofuta ofe</trd>
   <trd lng="su">macem</trd>
   <trd lng="sw">aina</trd>
-  <trd lng="ta">&#2997;&#2965;&#3016;&#2991;&#3006;&#2985;</trd>
-  <trd lng="te">&#3120;&#3093;&#3074;</trd>
+  <trd lng="ta">&#xBB5;&#xB95;&#xBC8;&#xBAF;&#xBBE;&#xBA9;</trd>
+  <trd lng="te">&#xC30;&#xC15;&#xC02;</trd>
   <trd lng="tg">&c_n;&c_a;&c_v;&c_malmol;</trd>
-  
+
   <trd lng="tl">uri</trd>
   <trd lng="tt">&c_i;&c_g;&c_je;&c_l;&c_je;&c_k;&c_l;&c_je;</trd>
   <trd lng="uk">&c_v;&c_i;&c_d;</trd>
   <trd lng="ur">&a_q;&a_s;&a_m;</trd>
   <trd lng="uz">rahmdil</trd>
-  <trd lng="vi">lo&#7841;i</trd>
+  <trd lng="vi">lo&#x1EA1;i</trd>
   <trd lng="xh">uhlobo</trd>
   <trd lng="yi">&mem;&yod;&fnun;</trd>
   <trd lng="yo">iru</trd>
@@ -377,6 +388,16 @@
     <trd>oszt&aacute;lyoz</trd>,
     <trd>szort&iacute;roz</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>kategori</baz>mengategorikan</trd>,
+    <trd><baz>klasifikasi</baz>mengklasifikasi</trd>,
+    <trd><baz>klasifikasi</baz>mengklasifikasikan</trd>,
+    <trd><baz>golong</baz>menggolongkan</trd>,
+    <trd><baz>pilah</baz>memilah</trd>,
+    <trd><baz>sortir</baz>menyortir</trd>,
+    <trd><baz>urut</baz>mengurutkan</trd>
+  </trdgrp>
+  <trd lng="ja">&#20998;&#x985E;&#12377;&#x308B;  <pr>&#12406;&#12435;&#x308B;&#12356;&#12377;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>uitzoeken</trd>,
     <trd>sorteren</trd>
@@ -418,7 +439,7 @@
         homgrupi&gcirc;oj, &ccirc;u teritoriaj, &ccirc;u profesiaj,
         &ccirc;u ali<tld/>aj
         <fnt>
-          <bib>Lanti</bib>, 
+          <bib>Lanti</bib>,
           <lok>&leftquot;Liberiga Stelo&rightquot; al la Verdru&gcirc;uloj, celo kaj rimedoj</lok>
         </fnt>.
       </ekz>
@@ -439,6 +460,10 @@
   <trd lng="fr">diff&eacute;rent<klr tip="amb"> (d'une autre
       sorte)</klr></trd>
   <trd lng="hu">m&aacute;sfajta</trd>
+  <trdgrp lng="ja">
+    <trd>&#30064;&#x7A2E;&#x306E;  <pr>&#12356;&#12375;&#12421;&#x306E;</pr></trd>,
+    <trd>&#21029;&#x7A2E;&#x306E;  <pr>&#12409;&#12387;&#12375;&#12421;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">van een andere <ind>soort</ind></trd>
   <trdgrp lng="sk">
     <trd>druh&yacute;</trd>,
@@ -497,7 +522,8 @@
   <kap>&ccirc;ia<tld/>a</kap>
   <snc mrk="spec.cxia0a.KOMUNE">
     <dif>
-      <ref tip="vid" cel="cxia.0">&Ccirc;ia</ref>, tre <ref tip="vid" cel="divers.0a.kelkaj">diversa</ref> la&ubreve; <tld/>oj:
+      <ref tip="vid" cel="cxia.0">&Ccirc;ia</ref>, tre <ref tip="vid" cel="divers.0a.kelkaj">diversa</ref>
+      la&ubreve; <tld/>oj:
       <ekz>
         la popoloj de la lando venigos la komerca&jcirc;ojn a&ubreve;
         &ccirc;ia<tld/>an grenon
@@ -522,6 +548,7 @@
     <trd>mindenf&eacute;le</trd>,
     <trd>mindenfajta</trd>
   </trdgrp>
+  <trd lng="ja">&#12354;&#12425;&#12422;&#x308B;&#x7A2E;&#x985E;&#x306E;  <pr>&#12354;&#12425;&#12422;&#x308B;&#12375;&#12421;&#x308B;&#12356;&#x306E;</pr></trd>
   <trd lng="nl">van iedere <ind>soort</ind></trd>
 </drv>
 
@@ -531,9 +558,9 @@
     <dif>
       Tipa <tld/>o de homo, de tipa karaktero:
       <ekz>
-        tiuepoke, por mi, la mondo estis dividita en du 
+        tiuepoke, por mi, la mondo estis dividita en du
         hom<tld/>oj, la bonaj kaj la a&ccirc;aj
-        <fnt><aut>C. Piron</aut>, <vrk>&Ccirc;u li 
+        <fnt><aut>C. Piron</aut>, <vrk>&Ccirc;u li
         venis trakosme?</vrk>, <lok>1980</lok></fnt>;
       </ekz>
       <ekz>
@@ -554,6 +581,10 @@
     <trd>genre de personnalit&eacute;</trd>,
     <trd>type de personne</trd>
   </trdgrp>
+<trdgrp lng="id">
+  <trd><baz>tipe</baz> manusia</trd>,
+  <trd><baz>tipe</baz> orang</trd>
+</trdgrp>
 </drv>
 
 <drv mrk="spec.mikso0a">
@@ -593,11 +624,83 @@
     <trd>k&uuml;l&ouml;nb&ouml;z&odblac;
     <ind>fajt&aacute;j&uacute;</ind></trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>hibrida</trd>,
+    <trd><baz>campur</baz>campuran</trd>,
+    <trd>bastar</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7A2E;&#x985E;&#x306E;&#x6DF7;&#12374;&#12387;&#x305F; 
+  <pr>&#12375;&#12421;&#x308B;&#12356;&#x306E;&#x307E;&#12374;&#12387;&#x305F;</pr></trd>
   <trdgrp lng="nl">
     <trd>gemengd</trd>,
     <trd>van verschillende <ind>soort</ind></trd>
   </trdgrp>
   <trd lng="sk">zmie&scaron;an&yacute;</trd>
+</drv>
+
+<drv mrk="spec.multe0a">
+  <kap>multe<tld/>a,
+      <var><kap>mult<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Prezentanta multajn <tld/>ojn:
+      <ekz>
+        per longa kaj multe<tld/>a uzado e&ccirc; la plej sova&gcirc;a idiomo de la
+        plej barbara gento iom post iom fari&gcirc;as ri&ccirc;a
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sepa Kongreso Esperantista en Antwerpen
+          en la 21a de a&ubreve;gusto 1911</vrk>
+        </fnt>;
+      </ekz><ekz>
+        oleo kaj kemia&jcirc;oj en mult<tld/>aj konteneroj kaj ujoj poluados
+        marbordojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="&Monato;/2012/010800.php">Alflosa&jcirc;oj trans
+          la oceano</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        mult<tld/>aj problemoj, precipe la manko de registara helpo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2014/011214.php">2013:
+          dek donacoj al la posteuloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_sh;&c_m;&c_a;&c_t;&c_b;&c_a;&c_k;&c_o;&c_v;&c_y;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_n;&c_a;&c_s;&c_t;&c_a;&c_j;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trd lng="cs">r&uring;zn&yacute;</trd>
+  <trd lng="de">vielf&auml;ltig</trd>
+  <trd lng="en">manifold</trd>
+  <trdgrp lng="hu">
+    <trd>sokf&eacute;le</trd>,
+    <trd>sokfajta</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>macam</baz>bermacam-macam</trd>,
+    <trd><baz>ragam</baz>beragam</trd>,
+    <trd><baz>aneka</baz>beraneka <klr>(ragam)</klr></trd>
+  </trdgrp>
+  <trd lng="ja">&#x591A;&#x7A2E;&#x985E;&#x306E;  <pr>&#x305F;&#12375;&#12421;&#x308B;&#12356;&#x306E;</pr></trd>
+  <trd lng="nl">veelvoudig</trd>
+  <trdgrp lng="pl">
+    <trd>r&oacute;&zdot;norodny</trd>,
+    <trd>wieloraki</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>divers</trd>,
+    <trd>amestecat</trd>
+  </trdgrp>
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_n;&c_y;&c_h; &c_v;&c_i;&c_d;&c_o;&c_v;</trd>
+  <trd lng="sk">r&ocirc;zny</trd>
 </drv>
 
 <drv mrk="spec.sam0ulo">
@@ -606,7 +709,7 @@
     <dif>
       Ulo de sama <tld/>o:
       <ekz>
-        estas en la naturo de homo, la&ubreve; ili, agrable rilati 
+        estas en la naturo de homo, la&ubreve; ili, agrable rilati
         kun la sam<tld/>uloj
         <fnt>
           <aut>C. Piron</aut>,
@@ -689,6 +792,10 @@
     <trd>saj&aacute;tos</trd>,
     <trd>k&uuml;l&ouml;nleges</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x72EC;&#29305;&#x306E;  <pr>&#12393;&#x304F;&#12392;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#29305;&#26377;&#x306E;  <pr>&#12392;&#x304F;&#12422;&#12358;&#x306E;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>dergelijk</trd>,
     <trd>in zijn/haar <ind>soort</ind></trd>
@@ -709,17 +816,18 @@
         <fnt>
           <bib>Monato</bib>
           <aut>AMik</aut>
-          <vrk><url ref="https://www.monato.be/2012/010439.php"
-              >Svingante la &scirc;tatan flagon</url></vrk>
+          <vrk><url ref="&Monato;/2012/010439.php">Svingante la &scirc;tatan flagon</url></vrk>
           <lok>2012</lok>
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="id">subtipe</trd>
   </snc>
   <snc mrk="spec.sub0o.BIO">
     <uzo tip="fak">BIO</uzo>
     <ref tip="dif" cel="speci.sub0o">subspecio</ref>
   <trd lng="de">&Uuml;berart</trd>
+  <trd lng="id">subspesies</trd>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_d;&c_v;&c_ib;&c_d;</trd>
   <trd lng="ca">subesp&egrave;cie</trd>
@@ -734,6 +842,7 @@
     <trd>vari&eacute;t&eacute;<klr> (biol.)</klr></trd>
   </trdgrp>
   <trd lng="hu">alfaj</trd>
+  <trd lng="ja">&#x4E9C;&#x7A2E;  <pr>&#12354;&#12375;&#12421;</pr></trd>
   <trd lng="nl">ondersoort</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_v;&c_i;&c_d;</trd>
   <trdgrp lng="sk">
@@ -753,6 +862,10 @@
   <trd lng="ca">g&egrave;nere <klr>(taxon.)</klr></trd>
   <trd lng="fr">genre<klr> (biol.)</klr></trd>
   <trd lng="hu">nem <klr tip="amb">(biol&oacute;giai)</klr></trd>
+  <trdgrp lng="id">
+    <trd>genus</trd>,
+    <trd>marga <klr>(biologi)</klr></trd>
+  </trdgrp>
   <trd lng="ru">&c_r;&c_o;&c_d;</trd>
 </drv>
 
@@ -820,6 +933,7 @@
     <trd>ilyenfajta</trd>,
     <trd>ilyesf&eacute;le</trd>
   </trdgrp>
+  <trd lng="ja">&#x305D;&#12358;&#12356;&#12358;&#x7A2E;&#x985E;&#x306E;  <pr>&#x305D;&#12358;&#12356;&#12358;&#12375;&#12421;&#x308B;&#12356;&#x306E;</pr></trd>
   <trdgrp lng="sk">
     <trd>analogick&yacute;</trd>,
     <trd>podobn&yacute;</trd>,
@@ -846,10 +960,10 @@
       <ekz>
         la interpunkcio <klr>[&#8230;]</klr> funkcias sendepende de vort<tld/>oj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Christian Declerck</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006843.html"
-              >Kiun vojon?</url></vrk>
+	<aut>Christian Declerck</aut>
+	<vrk><url ref="&Monato;/2000/006843.php">Kiun vojon?</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -865,7 +979,7 @@
         <ctl>unu homon</ctl> &#8208; <ctl>milionon da homoj</ctl>).
       </ekz>
     </dif>
-    <trd lng="th">&#3594;&#3609;&#3636;&#3604;&#3586;&#3629;&#3591;&#3588;&#3635;</trd>
+    <trd lng="th">&#xE0A;&#xE19;&#xE34;&#xE14;&#xE02;&#xE2D;&#xE07;&#xE04;&#xE33;</trd>
   </snc>
   <trd lng="ca">categoria l&egrave;xica</trd>
   <trd lng="cs">slovn&iacute; druh</trd>
@@ -873,6 +987,8 @@
   <trd lng="en">part of speech</trd>
   <trd lng="fr">classe lexicale</trd>
   <trd lng="hu">sz&oacute;faj</trd>
+  <trd lng="id"><ind>kelas</ind> kata</trd>
+  <trd lng="ja">&#x54C1;&#x8A5E;  <pr>&#12402;&#12435;&#12375;</pr></trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_r;&c_ja;&c_d;
   &c_s;&c_l;&c_o;&c_v;</trd>
   <trd lng="sk">slovn&yacute; druh</trd>
@@ -881,27 +997,27 @@
 </art>
 <!--
 $Log$
+versio 1.120 2024/01/05 01:35:41
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.119 2023/10/21 07:46:48
+revo: transskribo per <pr>
+
+versio 1.117 2023/08/29 16:34:15
+Wolfram Diestel: ja: prononco
+
+versio 1.116 2023/05/14 19:47:02
+revo: movu drv mult.0especa al spec/
+
+versio 1.115 2023/04/23 08:29:32
+Paul Peeraerts: &Steloj -> monato.be
+
+versio 1.114 2023/04/11 18:56:02
+aktualigo Monato-URL
+
 versio 1.113 2022/05/15 07:27:38
-Wolfram Diestel: ĉia~a..vort~o: +ekz-oj, ref-oj, trd de
+Wolfram Diestel: &ccirc;ia~a..vort~o: +ekz-oj, ref-oj, trd de
 
 versio 1.112 2022/05/14 16:43:45
-Wolfram Diestel: ~o: -dubinda snc 2, +snc "simila&jcirc;o", ekz-oj, ref-oj; ali~a, bon~a: +ekz, ref, trd de
-
-versio 1.111 2022/05/05 14:43:48
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.105 2021/12/12 17:41:15
-Warut Bunprasert: red th
-
-Revision 1.29  2017/01/28 13:10:16  revo
-Adam Eng: + trd
-
-Revision 1.28  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.27  2015/06/29 16:33:24  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.26  2014/01/18 02:10:18  revo
 -->
 </vortaro>

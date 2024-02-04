@@ -1,22 +1,28 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: peleri.xml,v 1.20 2022/07/06 08:37:42 revo Exp $">
+<art mrk="$Id: peleri.xml,v 1.23 2024/02/03 15:20:03 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>pelerin</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="peleri.0o">
   <kap><tld/>o</kap>
   <snc mrk="peleri.0o.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      Pli malpli mallonga, pendanta, sur&scirc;ultra, senmanika mantelo
-      kovranta
-      dorson kaj bruston:
+      Pli malpli mallonga, pendanta, sur&scirc;ultra, senmanika <ref cel="mantel.0o.senmanika">mantelo</ref>
+      kovranta dorson kaj bruston:
       <ekz>
-        ili <klr>...</klr> portas <tld/>etojn kiel veraj leterportistoj
+        <nom>Agripina</nom> tiris sian <tld/>on pli firme &ccirc;irka&ubreve; siaj &scirc;ultroj
+        <fnt>
+          <bib>MJA</bib>
+          <lok>Parto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <klr>[&#8230;]</klr> portas <tld/>etojn kiel veraj leterportistoj
         <fnt>
         <aut>Karel &Ccaron;apek, trad. Josef Vondrou&scaron;ek</aut>,
         <vrk><url ref="http://mujweb.cz/Kultura/malovec/naufabel.htm">Na&ubreve;
@@ -25,6 +31,21 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="palt.duon0o">duonpalto</ref>,
+      <ref cel="poncx.0o">pon&ccirc;o</ref>,
+      <ref cel="sxal.0o">&scirc;alo</ref>,
+      <ref cel="vest.super0o">supervesto</ref>
+    </refgrp>
+    <bld
+      lok="&WCU;/thumb/0/0f/Pelerine1911.jpg/330px-Pelerine1911.jpg"
+      prm="CC BY-SA 2.0"
+      ><tld/>o
+        <fnt>
+          <lok><url ref="&WCW;/File:Pelerine1911.jpg"
+              >https://commons.wikimedia.org/wiki/File:Pelerine1911.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_l;&c_ja;&c_r;&c_y;&c_n;&c_a;</trd>
   <trdgrp lng="ca">
@@ -44,6 +65,11 @@
     <trd>pelerin</trd>,
     <trd>k&ouml;rgall&eacute;r</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12465;&#12540;&#12503;</trd>,
+    <trd>&#30701;&#12510;&#12531;&#12488;  <pr>&#12383;&#12435;&#12414;&#12435;&#12392;</pr></trd>,
+    <trd>&#12506;&#12523;&#12522;&#12540;&#12492;</trd>
+  </trdgrp>
   <trd lng="nl">pelerine</trd>
   <trd lng="pl">peleryna</trd>
   <trd lng="pt">pelerine</trd>
@@ -53,11 +79,17 @@
     <trd>pl&aacute;&scaron;&tcaron; bez ruk&aacute;vov</trd>
   </trdgrp>
   <trd lng="sv">pelerin</trd>
-  <trd lng="uk">&#x43F;&c_je;&#x43B;&c_je;&c_r;&c_i;&#x43D;&c_a;</trd>
+  <trd lng="uk">&c_p;&c_je;&c_l;&c_je;&c_r;&c_i;&c_n;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2024/02/03 15:20:03
+Wolfram Diestel: +ekz, ref, bld
+
+versio 1.22 2023/10/20 14:25:20
+revo: transskribo per <pr>
+
 versio 1.20 2022/07/06 08:37:42
 Dmitri Gabinski: + trd be
 
@@ -74,11 +106,5 @@ Revision 1.14  2010/11/01 17:30:18  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.13  2006/05/08 16:32:09  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.12 2006/02/27 17:33:23 revo
-Tulio Flores: +tr pt
-
-Revision 1.11 2005/04/24 16:33:23 revo
 -->
 </vortaro>

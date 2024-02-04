@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: marks.xml,v 1.20 2022/03/23 14:01:05 revo Exp $">
+<art mrk="$Id: marks.xml,v 1.23 2024/01/25 20:10:34 revo Exp $">
 <kap>
   <rad>Marks</rad>/o
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="marks.0o">
   <kap><tld/>o</kap>
@@ -11,7 +12,8 @@
   <uzo tip="fak">PERS</uzo>
     <dif>
       Germane <trd lng="de">Karl <ind>Marx</ind></trd> (1818-1883),
-      pensulo kaj socia aganto, <ref tip="lst" lst="voko:historiaj_personoj" cel="fond.0into">fondinto</ref> de <ref cel="marks.m0ismo" tip="vid"><tld lit="m"/>ismo</ref>:
+      filozofo, ekonomiisto kaj socia aganto, <ref tip="lst" lst="voko:historiaj_personoj" cel="fond.0into">fondinto</ref>
+      de <ref cel="marks.m0ismo" tip="vid"><tld lit="m"/>ismo</ref>:
       <ekz>
         <tld/>o ellaboris principojn de materiisma kompreno de la
         historio
@@ -42,7 +44,7 @@
   <trd lng="fr">Karl <ind>Marx</ind></trd>
   <trd lng="hu">Marx K&aacute;roly</trd>
   <trd lng="it">Marx</trd>
-  <trd lng="ja">&#x30DE;&#x30EB;&#x30AF;&#x30B9; [<ind>&#x307E;&#x308B;&#x304F;&#x3059;</ind>]</trd>
+  <trd lng="ja">&#x30DE;&#x30EB;&#x30AF;&#x30B9; <pr>&#x307E;&#x308B;&#x304F;&#x3059;</pr></trd>
   <trd lng="nl">Karl <ind>Marx</ind></trd>
   <trd lng="pl">Karol <ind>Marks</ind></trd>
   <trd lng="pt">Karl <ind>Marx</ind></trd>
@@ -52,19 +54,23 @@
     <trd>K. Marx</trd>,
     <trd>Marx</trd>
   </trdgrp>
-  <trd lng="uk">&#x41C;&#x430;&#x440;&#x43A;&#x441; (&#x444;&#x456;&#x43B;&#x43E;&#x441;&#x43E;&#x444;)</trd>
+  <trd lng="uk">&c_M;&c_a;&c_r;&c_k;&c_s; (&c_f;&c_ib;&c_l;&c_o;&c_s;&c_o;&c_f;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#x99AC;&#x514B;&#x601D; <pr>M&#x1CE;k&#xE8;s&#x12B;</pr></trd>,
+    <trd>&#x9A6C;&#x514B;&#x601D; <pr>M&#x1CE;k&#xE8;s&#x12B;</pr></trd>,
+    <trd>&#x5361;&#x5C14;&#xB7;&#x9A6C;&#x514B;&#x601D; <pr>K&#x1CE;&#x11B;r&#xB7;M&#x1CE;k&#xE8;s&#x12B;</pr></trd>,
+    <trd>&#x5361;&#x723E;&#xB7;&#x99AC;&#x514B;&#x601D; <pr>K&#x1CE;&#x11B;r&#xB7;M&#x1CE;k&#xE8;s&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="marks.m0ismo">
   <kap><tld lit="m"/>ismo</kap>
   <snc>
-  <uzo tip="fak">MAH</uzo>
   <uzo tip="fak">FIL</uzo>
-  <uzo tip="fak">EKON</uzo>
   <uzo tip="fak">POL</uzo>
     <dif>
-      Socia, politika, filozofia kaj ekonomika instruo,
-      kies fondintoj estis K. <tld/>o kaj Frederiko <nom>Engels</nom>:
+      Socipolitika ideologio, fondita de K. <tld/>o kaj Frederiko <nom>Engels</nom>,
+      celanta revolucie estigi senklasan socion:
       <ekz>
         historie, la malbona flanko de <tld lit="m"/>ismo estas
         stalinismo, sed estas
@@ -88,10 +94,10 @@
         al kiu <tld lit="m"/>ismo sin dedi&ccirc;as por pravigi siajn tezojn
         <fnt>
           <aut>Stefano Gilson, trad. A. Broise</aut>
-          <vrk><url ref="http://www.esperokatolika.org/ek19661970/ek1967_10.htm">Ne Nur Opio &#x2010; Pri la libro de Garaudy: de anatemo al
+          <vrk><url ref="http://www.esperokatolika.org/ek19661970/ek1967_10.htm">Ne Nur Opio &ndash; Pri la libro de Garaudy: de anatemo al
               dialogo</url></vrk>
         </fnt>.
-      </ekz>      
+      </ekz>
     </dif>
     <refgrp tip="malprt">
       <ref cel="social.0ismo">socialismo</ref>,
@@ -107,18 +113,28 @@
   <trd lng="hu">marxizmus</trd>
   <trd lng="it">marxismo</trd>
   <trd lng="ja">&#x30DE;&#x30EB;&#x30AF;&#x30B9;&#x4E3B;&#x7FA9;
-  [<ind>&#x307E;&#x308B;&#x304F;&#x3059;&#x3057;&#x3085;&#x304E;</ind>]</trd>
+  <pr>&#x307E;&#x308B;&#x304F;&#x3059;&#x3057;&#x3085;&#x304E;</pr></trd>
   <trd lng="nl">marxisme</trd>
   <trd lng="pl">marksizm</trd>
   <trd lng="pt">marxismo</trd>
   <trd lng="ro">marxism</trd>
   <trd lng="ru">&c_m;&c_a;&c_r;&c_k;&c_s;&c_i;&c_z;&c_m;</trd>
   <trd lng="sk">marxizmus</trd>
+  <trdgrp lng="zh">
+    <trd>&#x99AC;&#x514B;&#x601D;&#x4E3B;&#x7FA9; <pr>M&#x1CE;k&#xE8;s&#x12B;zh&#x1D4;y&#xEC;</pr></trd>,
+    <trd>&#x9A6C;&#x514B;&#x601D;&#x4E3B;&#x4E49; <pr>M&#x1CE;k&#xE8;s&#x12B;zh&#x1D4;y&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.22 2023/12/18 21:21:49
+Wolfram Diestel: koncizigo
+
+versio 1.21 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
 versio 1.19 2020/06/15 22:10:36
 Vito Redsky: +trd pl +trd ro
 
@@ -135,11 +151,5 @@ Revision 1.14  2012/08/19 15:10:27  revo
 Marc Rausell: + trd ca
 
 Revision 1.13  2009/11/28 17:31:19  revo
-Antonio Codazzi: +trd it
-
-Revision 1.12  2009/06/20 18:00:31  revo
-Russ Williams: +trd en
-
-Revision 1.11  2008/09/21 18:54:24  revo
 -->
 </vortaro>

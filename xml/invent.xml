@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: invent.xml,v 1.94 2022/04/30 08:42:42 revo Exp $">
+<art mrk="$Id: invent.xml,v 1.103 2023/11/19 10:22:14 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>invent</rad>/i <fnt><bib>PV</bib></fnt>
@@ -12,20 +12,55 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Krei, elpensi ion novan en la kampo de te&hcirc;niko
-      per la forto de la spirito:
+      <ref tip="super" cel="kre.0i.fondi">Krei</ref>, <ref cel="pens.el0i">elpensi</ref> ion
+      novan en la kampo de te&hcirc;niko per la forto de la spirito:
       <ekz>
-        <tld/>i ma&scirc;inon, novan metodon, procedon, modon, kombinon.
+        <tld/>i ma&scirc;inon, novan metodon, procedon, modon, kombinon;
+      </ekz>
+      <ekz>
+        li <tld/>is iujn specialajn fajrosendan&gcirc;erajn vandojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is <klr>(false elpensis)</klr> la faktojn por pravigi
+        siajn teoriajn asertojn
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        e&ubreve;ropanoj <klr>[&#x2026;]</klr> <tld/>is &ccirc;aspafilon, motorboaton, kuir- kaj
+        kudroma&scirc;inojn, gramofonon
+        <fnt>
+          <bib>&Ccirc;uk&ccirc;oj</bib>
+          <lok>4. La fatala sa&gcirc;eco.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Mozart</nom> <tld/>is originalan manieron de modulado (intertonala transiro)
+        <fnt>
+          <bib>KFl</bib>
+          <lok>III. Atomoj de evoluo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi povas <tld/>i <klr>[&#x2026;]</klr> rimitan frazon
+        <fnt>
+          <bib>KrB</bib>
+          <lok>Specimene</lok>
+        </fnt>?
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="pens.el0i">elpensi</ref>,
-      <ref cel="trov.el0i">eltrovi</ref>.
+      <ref cel="trov.el0i">eltrovi</ref>
     </refgrp>
   </snc>
   <trd lng="af">bedink</trd>
   <trd lng="am">&#x1348;&#x1320;&#x122B;</trd>
-  <trd lng="ar">&a_A;&#x62E;&#x62A;&a_r;&a_A;&a_ayn;</trd>
+  <trd lng="ar">&a_A;&a_kh;&a_t;&a_r;&a_A;&a_ayn;</trd>
   <trd lng="az">icad</trd>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_n;&c_a;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>,
@@ -37,14 +72,17 @@
   <trd lng="cs">vynal&eacute;zat</trd>
   <trd lng="cy">dyfeisio</trd>
   <trd lng="da">opfinde</trd>
-  <trd lng="de">erfinden</trd>
+  <trdgrp lng="de">
+    <trd>erfinden</trd>,
+    <trd>ausdenken</trd>
+  </trdgrp>
   <trd lng="en">invent</trd>
   <trd lng="es">inventar</trd>
   <trd lng="et">leiutada</trd>
   <trd lng="eu">asmatuko</trd>
   <trd lng="fr">inventer<klr tip="ind"> (proc&eacute;d&eacute;,
   dispositif)</klr></trd>
-  <trd lng="fy">&#xFA;tfine</trd>
+  <trd lng="fy">&uacute;tfine</trd>
   <trd lng="ga">chumadh</trd>
   <trd lng="gd">fheadhainn</trd>
   <trd lng="gl">inventar</trd>
@@ -58,24 +96,24 @@
   <trd lng="hy">&#x570;&#x576;&#x561;&#x580;&#x565;&#x56C;</trd>
   <trd lng="ig">d&#x1ECB;r&#x1ECB;</trd>
   <trd lng="is">finna</trd>
-  <trd lng="ja">&#x767A;&#x660E;&#x3059;&#x308B;</trd>
+  <trd lng="ja">&#x767A;&#x660E;&#x3059;&#x308B; <pr>&#x306F;&#x3064;&#x3081;&#x3044;&#x3059;&#x308B;</pr></trd>
   <trd lng="jv">makna</trd>
   <trd lng="ka">&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10D2;&#x10DD;&#x10DC;&#x10D4;&#x10D1;&#x10D0;</trd>
-  <trd lng="kk">&#x43E;&c_j;&#x43B;&c_a;&#x43F;</trd>
+  <trd lng="kk">&c_o;&c_j;&c_l;&c_a;&c_p;</trd>
   <trd lng="km">&#x1794;&#x17D2;&#x179A;&#x178C;&#x17B7;&#x178F;</trd>
   <trd lng="kn">&#xC86;&#xCB5;&#xCBF;&#xCB7;&#xCCD;&#xC95;&#xCBE;&#xCB0;</trd>
   <trd lng="ko">&#xBC1C;&#xBA85;&#xD558;&#xB2E4;</trd>
   <trd lng="ku">neafirandiye</trd>
-  <trd lng="ky">&#x43E;&c_j;&#x43B;&#x43E;&#x43F;</trd>
+  <trd lng="ky">&c_o;&c_j;&c_l;&c_o;&c_p;</trd>
   <trd lng="lat">confingunt</trd>
   <trd lng="lo">&#xEC4;&#xE94;&#xEC9;&#xE9B;&#xEB1;&#xEC9;&#xE99;</trd>
   <trd lng="lt">sugalvoti</trd>
   <trd lng="lv">izgudrot</trd>
   <trd lng="mg">mamorona</trd>
   <trd lng="mi">whakaaroa</trd>
-  <trd lng="mk">&c_i;&c_z;&#x43C;&c_i;&c_s;&#x43B;&c_a;&c_t;</trd>
+  <trd lng="mk">&c_i;&c_z;&c_m;&c_i;&c_s;&c_l;&c_a;&c_t;</trd>
   <trd lng="ml">&#xD15;&#xD46;&#xD1F;&#xD4D;&#xD1F;&#xD3F;&#xD2F;&#xD41;&#xD23;&#xD4D;&#xD1F;&#xD3E;&#xD15;&#xD4D;&#xD15;&#xD41;&#xD15;&#xD2F;&#xD41;&#xD2E;&#xD3E;&#xD23;&#xD4D;</trd>
-  <trd lng="mn">&c_z;&#x43E;&c_h;&c_i;&#x43E;&#x43D; &c_b;&#x4AF;&c_t;&#x44D;&#x44D;&c_h;</trd>
+  <trd lng="mn">&c_z;&c_o;&c_h;&c_i;&c_o;&c_n; &c_b;&#x4AF;&c_t;&c_e;&c_e;&c_h;</trd>
   <trd lng="mr">&#x928;&#x935;&#x940;&#x928; &#x936;&#x94B;&#x927; &#x932;&#x93E;&#x935;&#x923;&#x947;</trd>
   <trd lng="ms">mengada-adakan</trd>
   <trd lng="mt">nivvintaw</trd>
@@ -84,14 +122,16 @@
   <trd lng="nl">uitvinden</trd>
   <trd lng="ny">kuyambitsa</trd>
   <trd lng="pa">&#xA15;&#xA3E;&#xA22;</trd>
-  <trd lng="ps">&a_A;&#x62E;&#x62A;&a_r;&a_A;&a_ayn;</trd>
+  <trd lng="pl">wynale&zacute;&cacute;</trd>
+  <trd lng="ps">&a_A;&a_kh;&a_t;&a_r;&a_A;&a_ayn;</trd>
   <trd lng="pt">inventar</trd>
+  <trd lng="ro">inventa</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_z;&c_o;&c_b;&c_r;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_z;&c_o;&c_b;&c_r;&c_je;&c_s;&c_t;&c_i;</trd>
   </trdgrp>
   <trd lng="rw">guhanga</trd>
-  <trd lng="sd">&#x67A;&a_A;&#x6BE; &#x67A;&a_A;&#x6BE;&#x64A;&a_n;&#x62F;&a_A;</trd>
+  <trd lng="sd">&#x67A;&a_A;&#x6BE; &#x67A;&a_A;&#x6BE;&a_y;&a_n;&a_d;&a_A;</trd>
   <trd lng="si">&#xDB1;&#xDD2;&#xDBB;&#xDCA;&#xDB8;&#xDCF;&#xDAB;&#xDBA;</trd>
   <trdgrp lng="sk">
     <trd>objavi&tcaron;</trd>,
@@ -106,17 +146,25 @@
   <trd lng="sw">mzulia</trd>
   <trd lng="ta">&#xB95;&#xBA3;&#xBCD;&#xB9F;&#xBC1;&#xBAA;&#xBBF;&#xB9F;&#xBBF;&#xBA4;&#xBCD;&#xBA4;&#xBB2;&#xBCD;</trd>
   <trd lng="te">&#xC15;&#xC28;&#xC41;&#xC17;&#xC4A;&#xC28;&#xC21;&#xC2E;&#xC47;</trd>
-  <trd lng="tg">&#x43C;&c_je;&c_b;&#x43E;&c_f;&c_t;&c_a;&c_a;&#x43D;&c_d;,</trd>
+  <trd lng="tg">&c_m;&c_je;&c_b;&c_o;&c_f;&c_t;&c_a;&c_a;&c_n;&c_d;,</trd>
   <trd lng="th">&#xE04;&#xE34;&#xE14;&#xE04;&#xE49;&#xE19;</trd>
   <trd lng="tl">imbentuhin</trd>
-  <trd lng="tt">&c_u;&c_j;&#x43B;&c_a;&#x43F; &c_t;&c_a;&c_b;&c_u;</trd>
-  <trd lng="uk">&c_v;&c_i;&#x43D;&c_a;&c_j;&c_t;&c_i;</trd>
-  <trd lng="ur">&a_A;&#x6CC;&#x62C;&a_A;&#x62F;</trd>
+  <trd lng="tt">&c_u;&c_j;&c_l;&c_a;&c_p; &c_t;&c_a;&c_b;&c_u;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_n;&c_a;&c_j;&c_t;&c_i;</trd>
+  <trd lng="ur">&a_A;&f_y;&a_j;&a_A;&a_d;</trd>
   <trd lng="uz">to&#x2019;qirlar</trd>
-  <trd lng="vi">ph&#xE1;t minh</trd>
+  <trd lng="vi">ph&aacute;t minh</trd>
   <trd lng="xh">abaliqulunqa</trd>
-  <trd lng="yi">&#x5D0;&#x5D5;&#x5D9;&#x5E1;&#x5D8;&#x5E8;&#x5D0;&#x5B7;&#x5DB;&#x5D8;&#x5DF;</trd>
+  <trd lng="yi">&alef;&vav;&yod;&samekh;&tet;&resh;&alef;&#x5B7;&kaf;&tet;&fnun;</trd>
   <trd lng="yo">o pil&#x1EB9;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53D1;&#x660E;&#x521B;&#x9020; <pr>f&#x101;m&#xED;ngchu&#xE0;ngz&#xE0;o</pr></trd>,
+    <trd>&#x53D1;&#x660E; <pr>f&#x101;m&#xED;ng</pr></trd>,
+    <trd>&#x865A;&#x6784; <pr>x&#x16B;g&#xF2;u</pr></trd>,
+    <trd>&#x9020; <pr>z&#xE0;o</pr></trd>,
+    <trd>&#x60F3;&#x51FA; <pr>xi&#x1CE;ngch&#x16B;</pr></trd>,
+    <trd>&#x8FFD;&#x53CA; <pr>zhu&#x12B;j&#xED;</pr></trd>
+  </trdgrp>
   <trd lng="zu">usungula</trd>
 </drv>
 
@@ -124,12 +172,37 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Ago <tld/>i:
+      Ago <tld/>i; rezulto de tiu ago:
       <ekz>
-        <tld/>o de la presado;
+        la <tld/>o de la presma&scirc;ino
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ref cel="patent.0o">patento</ref> pri <tld/>o.
+        <ref cel="patent.0o">patento</ref> por la <tld/>o
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        markas <klr>[&#x2026;]</klr> la komenci&gcirc;on de la historio homa <klr>[&#x2026;]</klr> la
+        <tld/>o de la mano &ndash; se oni povas tion diri &ndash; kaj tiu de la lingvo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; la <tld/>o de la armena alfabeto la popolo dum jarmiloj uzis kojnoformajn
+        skriba&jcirc;ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lida Elbakjan</aut>
+          <vrk><url ref="&Monato;/2003/007590.html">Armenio festis 1700 jarojn da kristanismo</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -143,9 +216,22 @@
   <trd lng="es">invenci&oacute;n</trd>
   <trd lng="fr">invention<klr tip="ind"> (action)</klr></trd>
   <trd lng="hu">feltal&aacute;l&aacute;s</trd>
+  <trd lng="ja">&#x767A;&#x660E;  <pr>&#x306F;&#x3064;&#x3081;&#x3044;</pr></trd>
   <trd lng="nl">het <ind>uitvinden</ind></trd>
+  <trdgrp lng="pl">
+    <trd>wynalazek</trd>,
+    <trd>pomys&lstroke;</trd>
+  </trdgrp>
   <trd lng="pt">inven&ccedil;&atilde;o<klr tip="amb"> (a&ccedil;&atilde;o)</klr></trd>
+  <trdgrp lng="ro">
+    <trd>inven&#x21B;ie</trd>,
+    <trd>cugetare</trd>
+  </trdgrp>
   <trd lng="sk">vyn&aacute;lez</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53D1;&#x660E; <pr>f&#x101;m&#xED;ng</pr></trd>,
+    <trd>&#x53D1;&#x660E;&#x6784;&#x601D; <pr>f&#x101;m&#xED;ngg&#xF2;us&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="invent.0ajxo">
@@ -153,8 +239,51 @@
   <uzo tip="fak">TEK</uzo>
   <snc>
     <dif>
-      Io <tld/>ita.
+      Io <tld/>ita:
+      <ekz>
+        artisma prozrekreo de fantaziaj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili a&ccirc;etas akciojn <klr>[&#x2026;]</klr> <klr>[&#x2026;]</klr> alia grandioza <tld/>a&jcirc;o de la
+        homa cerbo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvara &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu nova tendenco <klr>[&#x2026;]</klr> ne estis <tld/>a&jcirc;o de laboristoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        po&scirc;lanterno ekflamas, <klr>[&#x2026;]</klr> plia <tld/>a&jcirc;o de Satano, kiun oni vidas
+        &ccirc;iufoje nur tiam, kiam &gcirc;i trovi&gcirc;as proksime anta&ubreve; la okuloj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la fifamaj <tld/>a&jcirc;oj de tiuj markuiristoj apartenas &leftquot;<nac>the potage</nac>&rightquot;, la
+        kunkuirado de la man&gcirc;restoj el pluraj tagoj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 29</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="fantaz.0ajxo">fantazia&jcirc;o</ref>,
+      <ref cel="ide.0o">ideo</ref>,
+      <ref cel="kre.0ajxo.KOMUNE">krea&jcirc;o<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_n;&c_a;&c_h;&c_o;&c_d;&c_z;&c_t;&c_v;&c_a;</trd>,
@@ -169,17 +298,44 @@
   <trd lng="fr">invention<klr tip="ind"> (proc&eacute;d&eacute;,
   dispositif)</klr></trd>
   <trd lng="hu">tal&aacute;lm&aacute;ny</trd>
+  <trd lng="ja">&#x767A;&#x660E;&#x54C1;  <pr>&#x306F;&#x3064;&#x3081;&#x3044;&#x3072;&#x3093;</pr></trd>
   <trd lng="nl">uitvinding</trd>
+  <trd lng="pl">wynalazek</trd>
   <trd lng="pt">inven&ccedil;&atilde;o<klr tip="amb"> (coisa inventada)</klr></trd>
+  <trd lng="ro">inven&#x21B;ie</trd>
   <trd lng="ru">&c_i;&c_z;&c_o;&c_b;&c_r;&c_je;&c_t;&c_je;&c_n;&c_i;&c_je;</trd>
-  <trd lng="uk">&#x432;&#x438;&#x43D;&#x430;&#x445;&#x456;&#x434;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_n;&c_a;&c_h;&c_ib;&c_d;</trd>
+  <trd lng="zh">&#x53D1;&#x660E; <pr>f&#x101;m&#xED;ng</pr></trd>
 </drv>
 
 <drv mrk="invent.0isto">
   <kap><tld/>isto</kap>
   <snc>
     <dif>
-      Homo, kiu sin okupas pri elpensado de novaj <tld/>a&jcirc;oj.
+      Homo, kiu sin okupas pri elpensado de novaj <tld/>a&jcirc;oj:
+      <ekz>
+        li havis konojn pri mekaniko kaj kapablon fari&gcirc;i granda <tld/>isto
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en ekspozicio de l&#x2019; <tld/>oj de&jcirc;oras la <tld/>istoj mem
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la germana fizikisto kaj <tld/>isto <nom>Wernher von Siemens</nom> fondis la firmaon
+        <nom>Siemens</nom> Akcia Kompanio en 1847
+       <fnt>
+	<aut>Walter Klag</aut>
+	<vrk><url ref="&Monato;/2000/007112.php">Virbovo-tirpovo</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/11, p. 14</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -195,39 +351,47 @@
   <trd lng="es">inventor</trd>
   <trd lng="fr">inventeur</trd>
   <trd lng="hu">feltal&aacute;l&oacute;</trd>
+  <trd lng="ja">&#x767A;&#x660E;&#x5BB6;  <pr>&#x306F;&#x3064;&#x3081;&#x3044;&#x304B;</pr></trd>
   <trd lng="nl">uitvinder</trd>
+  <trd lng="pl">wynalazca</trd>
   <trd lng="pt">inventor</trd>
+  <trd lng="ro">inventator</trd>
   <trd lng="ru">&c_i;&c_z;&c_o;&c_b;&c_r;&c_je;&c_t;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>objavite&lcaron;</trd>,
     <trd>vyn&aacute;lezca</trd>
   </trdgrp>
-  <trd lng="uk">&#x432;&#x438;&#x43D;&#x430;&#x445;&#x456;&#x434;&#x43D;&#x438;&#x43A;</trd>
+  <trd lng="uk">&c_v;&c_i;&c_n;&c_a;&c_h;&c_ib;&c_d;&c_n;&c_i;&c_k;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53D1;&#x660E;&#x5BB6; <pr>f&#x101;m&#xED;ngji&#x101;</pr></trd>,
+    <trd>&#x53D1;&#x660E;&#x8005; <pr>f&#x101;m&#xED;ngzh&#x11B;</pr></trd>,
+    <trd>&#x53D1;&#x660E;&#x4EBA; <pr>f&#x101;m&#xED;ngr&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.102 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.100 2023/08/29 20:26:39
+Wolfram Diestel: ja: prononco
+
+versio 1.99 2023/04/23 11:22:04
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.98 2023/04/11 16:10:36
+aktualigo Monato-URL
+
+versio 1.97 2023/01/31 14:28:29
+Vito Redsky: +trd pl + trd ro
+
+versio 1.96 2023/01/30 20:27:34
+Wolfram Diestel: +ekz-oj, ref-oj
+
+versio 1.95 2023/01/29 01:57:21
+Ella Strug: trd+ pl
+
 versio 1.94 2022/04/30 08:42:42
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.92 2022/03/01 08:44:50
-Dmitri Gabinski: + trd be
-
-Revision 1.16  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/29 16:33:16  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.14  2005/12/06 17:32:18  revo
-Luiz Portella: +trd pt
-
-Revision 1.13  2004/09/06 16:36:52  revo
-Marc Bavant: +trd fr, +uzo TEK; ~i: mod dif, +ref al elpensi; ~ajxo: kor
-kap, kor ekz
-
-Revision 1.12 2004/03/30 16:32:43 revo
-Dmitri Gabinski: +trd be
-
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekvino.xml,v 1.24 2022/04/27 14:38:53 revo Exp $">
+<art mrk="$Id: ekvino.xml,v 1.28 2023/11/07 19:22:37 revo Exp $">
 <kap>
   <rad>ekvinoks</rad>/o
 </kap>
@@ -11,7 +11,8 @@
   <uzo tip="fak">KAL</uzo>
   <snc mrk="ekvino.0o.AST">
     <dif>
-      La tempo de la jaro, kiam okazas egaleco de la nokto kun la tago:
+      La <ref tip="super" cel="temp.0o.KAL">tempo</ref> de la jaro, kiam okazas egaleco 
+      de la nokto kun la tago:
       <ekz>
         la tempo de la printempa <tld/>o &gcirc;is la a&ubreve;tuna estas pli longa ol tiu de la
         a&ubreve;tuna &gcirc;is la printempa
@@ -19,20 +20,37 @@
           <bib>Monato</bib>
           <aut>Andy Pepperdine</aut>
           <vrk><url ref="&Monato;/2015/011488.php">Kalendaroj (1)</url></vrk>
-        </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kunveno okazu je la <tld/>a festo
+        <fnt>
+          <bib>SkandalJozef</bib>
+          <lok>Konfeso de la Potifar-edzino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la lasta septembro, la granda <tld/>a maralfluo estis terura
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Oka</lok>
+        </fnt>;
       </ekz>
     </dif>
     <ref tip="sin" cel="egal.tagnokt0eco">tagnoktegaleco</ref>
+    <ref tip="ant" cel="solsti.0o">solstico</ref>
   </snc>
   <snc mrk="ekvino.0o.punkto">
     <dif>
       <tld lit="E"/>a punkto:
       <ekz>
-        la precesio de la <tld/>oj
+        la a&ubreve;toro dronos en longaj klarigoj pri la ekliptika ebeno, pri la precesio de
+        la <tld/>oj
         <fnt>
           <bib>Monato</bib>
           <aut>Anna kaj Mati Pentus</aut>
-          <vrk><url ref="&Monato;/2003/008070.html">Franda&jcirc;o por scivolemuloj</url></vrk>
+          <vrk><url ref="https://www.monato.be/2003/008070.html">Franda&jcirc;o por scivolemuloj</url></vrk>
+          <lok>2003</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -54,6 +72,10 @@
   <trd lng="fr">&eacute;quinoxe</trd>
   <trd lng="hu">nap&eacute;jegyenl&odblac;s&eacute;g</trd>
   <trd lng="it">equinozio</trd>
+  <trdgrp lng="ja">
+    <trd>&#x663C;&#x591C;&#x5E73;&#x5206;&#x6642;  <pr>&#x3061;&#x3085;&#x3046;&#x3084;&#x3072;&#x3089;&#x3075;&#x3093;&#x3058;</pr></trd>,
+    <trd>&#x5F7C;&#x5CB8;&#x306E;&#x4E2D;&#x65E5;  <pr>&#x3072;&#x304C;&#x3093;&#x306E;&#x306A;&#x304B;&#x3073;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>dag-en-nachtevening</trd>,
     <trd>equinox</trd>
@@ -70,7 +92,8 @@
     <trd>ekinoks</trd>,
     <trd>g&uuml;n gece e&scedil;itli&gbreve;i</trd>
   </trdgrp>
-  <trd lng="uk">&#x440;&#x456;&#x432;&#x43D;&#x43E;&#x434;&#x435;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_r;&c_ib;&c_v;&c_n;&c_o;&c_d;&c_je;&c_n;&c_n;&c_ja;</trd>
+  <trd lng="zh">&#x6625;&#x5206;&#x6216;&#x79CB;&#x5206; <pr>ch&#x16B;nf&#x113;nhu&#xF2;qi&#x16B;f&#x113;n</pr></trd>
 </drv>
 
 <drv mrk="ekvino.0apunkto">
@@ -97,10 +120,17 @@
     <trd lng="pl">punkt <ind>r&oacute;wnonocy</ind></trd>
     <trd lng="pt">ponto equinocial</trd>
   </snc>
+  <trd lng="ja">&#x663C;&#x591C;&#x5E73;&#x5206;&#x70B9;  <pr>&#x3061;&#x3085;&#x3046;&#x3084;&#x3072;&#x3089;&#x3076;&#x3093;&#x3066;&#x3093;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/14 15:34:42
+revo: transskribo per <pr>
+
+versio 1.25 2023/05/30 06:28:19
+Wolfram Diestel: +ekz, ref
+
 versio 1.24 2022/04/27 14:38:53
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -117,11 +147,5 @@ Revision 1.18  2010/01/18 17:31:00  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.17  2009/07/07 16:30:44  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.16  2009/06/19 05:10:07  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.15  2006/04/24 19:06:17  revo
 -->
 </vortaro>

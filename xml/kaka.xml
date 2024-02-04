@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kaka.xml,v 1.34 2022/04/10 14:27:22 revo Exp $">
+<art mrk="$Id: kaka.xml,v 1.37 2023/12/02 21:20:04 revo Exp $">
 <kap><ofc>1</ofc>
 <rad>kaka</rad>/o</kap>
 <drv mrk="kaka.0o">
@@ -31,7 +31,11 @@
      <trd lng="pt">cacau</trd>
      <trd lng="ru">&c_k;&c_a;&c_k;&c_a;&c_o;-&c_b;&c_o;&c_b;&c_y;</trd>
      <trd lng="tr">kakao</trd>
-   </snc>
+     <trdgrp lng="zh">
+    <trd>&#x53EF;&#x53EF; <pr>k&#x11B;k&#x11B;</pr></trd>,
+    <trd>&#x53EF;&#x53EF;&#x8C46; <pr>k&#x11B;k&#x11B;d&#xF2;u</pr></trd>
+  </trdgrp>
+</snc>
    <snc mrk="kaka.0o.KOMUNE">
      <dif>
        <ref tip="super" cel="produk.0ajxo">Produkta&jcirc;o</ref>, 
@@ -68,7 +72,8 @@
      <trd lng="nl">cacao</trd>
      <trd lng="pl">kakao</trd>
      <trd lng="ru">&c_k;&c_a;&c_k;&c_a;&c_o;</trd>
-   </snc>
+     <trd lng="zh">&#x53EF;&#x53EF;&#x7C89; <pr>k&#x11B;k&#x11B;f&#x11B;n</pr></trd>
+</snc>
    <snc mrk="kaka.0o.KUI">
      <dif>
        <ref tip="lst" lst="voko:trinka&jcirc;oj" cel="trink.0ajxo">Trinka&jcirc;o</ref>,
@@ -107,8 +112,13 @@
        <trd>&c_sh;&c_o;&c_k;&c_o;&c_l;&c_a;&c_d;<klr tip="amb">
        (&c_n;&c_a;&c_p;&c_i;&c_t;&c_o;&c_k;)</klr></trd>
      </trdgrp>
-   </snc>
+     <trd lng="zh">&#x5DE7;&#x514B;&#x529B; <pr>qi&#x1CE;ok&#xE8;l&#xEC;</pr></trd>
+</snc>
   <trd lng="cs">kakao</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30AB;&#x30AB;&#x30AA;</trd>,
+    <trd>&#x30B3;&#x30B3;&#x30A2;  <pr>&#x3053;&#x3053;&#x3042;</pr></trd>
+  </trdgrp>
   <trd lng="ro">cacao</trd>
   <trd lng="sk">kakao</trd>
   <trd lng="uk">&#x43A;&c_a;&#x43A;&c_a;&#x43E;</trd>
@@ -119,8 +129,7 @@
    <uzo tip="fak">BOT</uzo>
    <snc>
      <dif>
-       <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">Genro</ref> el la familio <ref
-       tip="malprt" cel="malvac.0oj">malvacoj</ref>
+       <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">Genro</ref> el la familio <ref tip="malprt" cel="malvac.0oj">malvacoj</ref>
        (<trd lng="la">Theobroma</trd>),
        <ref tip="lst" cel="arb.0o" lst="voko:malvoparencoj">arbo</ref>
        nature kreskanta en tropika Mez- kaj Sudameriko.
@@ -137,6 +146,10 @@
      <trd>cacaotier</trd>
    </trdgrp>
   <trd lng="hu">kaka&oacute;fa</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7C89;&#x672B;&#x30B3;&#x30B3;&#x30A2;&#x5BB9;&#x5668;  <pr>&#x3075;&#x3093;&#x307E;&#x3064;&#x3053;&#x3053;&#x3042;&#x3088;&#x3046;&#x304D;</pr></trd>,
+    <trd>&#x30AB;&#x30AB;&#x30AA;&#x306E;&#x6728;  <pr>&#x304B;&#x304B;&#x304A;&#x306E;&#x304D;</pr></trd>
+  </trdgrp>
   <trd lng="nl">cacaoboom</trd>
   <trd lng="pl">kakaowiec</trd>
   <trd lng="pt">cacaueiro</trd>
@@ -147,6 +160,7 @@
     <trd>&#x43A;&c_a;&#x43A;&c_a;&#x43E;</trd>,
     <trd>&c_sh;&#x43E;&#x43A;&#x43E;&#x43B;&c_a;&c_d;&#x43D;&c_je; &c_d;&c_je;&c_r;&c_je;&c_v;&#x43E;</trd>
   </trdgrp>
+  <trd lng="zh">&#x53EF;&#x53EF;&#x6811; <pr>k&#x11B;k&#x11B;sh&#xF9;</pr></trd>
 </drv>
 
 <drv mrk="kaka.0arbo">
@@ -170,6 +184,7 @@
      <trd lng="tr">kakao</trd>
    </snc>
   <trd lng="cs">kakaovn&iacute;k</trd>
+  <trd lng="ja">&#x30AB;&#x30AB;&#x30AA;&#x306E;&#x6728;  <pr>&#x304B;&#x304B;&#x304A;&#x306E;&#x304D;</pr></trd>
   <trd lng="sk">kakaovn&iacute;k</trd>
   <trdgrp lng="uk">
     <trd>&#x43A;&c_a;&#x43A;&c_a;&#x43E;</trd>,
@@ -183,6 +198,9 @@
 </art>
 <!--
 $Log$
+versio 1.36 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
 versio 1.34 2022/04/10 14:27:22
 Ulrich Fellmann: kakao: + 2 pliaj DE trd
 
@@ -202,8 +220,5 @@ Revision 1.27  2013/08/29 13:10:23  revo
 Wolfram Diestel: referenco al listo bot genroj
 
 Revision 1.26  2013/07/15 05:10:11  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.25  2012/10/23 00:12:03  revo
 -->
 </vortaro>

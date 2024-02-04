@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: balbut.xml,v 1.32 2022/06/28 14:28:45 revo Exp $">
+<art mrk="$Id: balbut.xml,v 1.36 2023/10/29 19:11:00 revo Exp $">
 <kap>
 <ofc>*</ofc>
   <rad>balbut</rad>/i <fnt><bib>PV</bib></fnt>
@@ -47,12 +47,13 @@
        <trd>balbutier</trd>,
        <trd>bredouiller</trd></trdgrp>
     <trd lng="hu">motyog</trd>
+    <trd lng="nl">stamelen</trd>
     <trdgrp lng="pl">
       <trd>be&lstroke;kota&cacute;</trd>,
       <trd>mamrota&cacute;</trd>
     </trdgrp>
-    <trd lng="nl">stamelen</trd>
     <trd lng="pt">balbuciar</trd>
+    <trd lng="ro">b&acirc;lb&acirc;i</trd>
     <trdgrp lng="ru">
        <trd>&c_b;&c_o;&c_r;&c_m;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>,
        <trd>&c_l;&c_je;&c_p;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
@@ -88,13 +89,19 @@
       <trd>j&aogonek;ka&cacute; si&eogonek;</trd>,
       <trd>zacina&cacute; si&eogonek;<klr> (pot.)</klr></trd>
     </trdgrp>
+    <trd lng="ro">b&acirc;lb&acirc;i</trd>
     <trdgrp lng="ru">
        <trd>&c_z;&c_a;&c_i;&c_k;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
        <trd>&c_z;&c_a;&c_p;&c_i;&c_n;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
-  </snc>
-  <trd
-  lng="bo">&#xF41;&#xF0B;&#xF51;&#xF72;&#xF42;&#xF0B;&#xF51;&#xF72;&#xF42;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
+    <trdgrp lng="zh">
+    <trd>&#x53E3;&#x5403; <pr>k&#x1D2;uch&#x12B;</pr></trd>,
+    <trd>&#x55EB;&#x5685; <pr>ni&#xE8;r&#xFA;</pr></trd>,
+    <trd>&#x5DF4;&#x5DF4;&#x7D50;&#x7D50; <pr>b&#x101;bajiejie</pr></trd>,
+    <trd>&#x7D50;&#x5DF4; <pr>ji&#x113;ba</pr></trd>
+  </trdgrp>
+</snc>
+  <trd lng="bo">&#xF41;&#xF0B;&#xF51;&#xF72;&#xF42;&#xF0B;&#xF51;&#xF72;&#xF42;&#xF0B;&#xF56;&#xFB1;&#xF7A;&#xF51;&#xF0B;</trd>
   <trdgrp lng="cs">
     <trd>zadrh&aacute;vat</trd>,
     <trd>zaj&iacute;kat se v &rcaron;e&ccaron;i</trd>
@@ -104,6 +111,7 @@
     <trd>stammer</trd>
   </trdgrp>
   <trd lng="he">&#x5DC;&#x5B0;&#x5D2;&#x5B7;&#x5DE;&#x5D2;&#x5B5;&#x5DD;</trd>
+  <trd lng="ja">&#x3069;&#x3082;&#x308B;</trd>
   <trd lng="sk">kokta&tcaron;</trd>
   <trd lng="sv">stamma</trd>
   <trdgrp lng="uk">
@@ -142,8 +150,13 @@
   <trd lng="fr">b&egrave;gue</trd>
   <trd lng="he">&#x5DE;&#x5D2;&#x5DE;&#x5D2;&#x5DD;</trd>
   <trd lng="hu">dadog&oacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x3069;&#x3082;&#x308A;</trd>,
+    <trd>&#x5403;&#x97F3;&#x8005;  <pr>&#x304D;&#x3064;&#x304A;&#x3093;&#x3057;&#x3083;</pr></trd>
+  </trdgrp>
   <trd lng="nl">stotteraar</trd>
   <trd lng="pl">j&aogonek;ka&lstroke;a</trd>
+  <trd lng="ro">b&acirc;lb&acirc;it</trd>
   <trd lng="ru">&c_z;&c_a;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">koktav&yacute; &ccaron;lovek</trd>
   <trdgrp lng="uk">
@@ -154,6 +167,12 @@
 </art>
 <!--
 $Log$
+versio 1.35 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.33 2023/02/13 22:31:33
+Vito Redsky: +trd pl + trd ro
+
 versio 1.32 2022/06/28 14:28:45
 Dmitri Gabinski: + trd be
 
@@ -170,11 +189,5 @@ Revision 1.24  2012/09/19 09:10:21  revo
 Marc Rausell: + trd ca
 
 Revision 1.23  2011/02/24 23:10:08  revo
-Jeromo Vasxe: - num + mrk
-
-Revision 1.22  2009/08/23 16:31:12  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.21  2009/02/23 17:30:35  revo
 -->
 </vortaro>

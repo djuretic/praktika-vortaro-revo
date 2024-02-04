@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: posten.xml,v 1.28 2022/05/04 18:30:33 revo Exp $">
+<art mrk="$Id: posten.xml,v 1.35 2023/12/29 07:23:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>posten</rad>/o
@@ -14,16 +14,20 @@
       plenumas
       sian taskon:
       <ekz>
-        la pastroj staris sur siaj <tld/>oj, kaj <klr>[&#x2026;]</klr> trumpetis
+        la pastroj staris sur siaj <tld/>oj, kaj <klr>[&#8230;]</klr> trumpetis
         <fnt><bib>MT</bib> <lok>&Kr2; 7:6</lok></fnt>;
       </ekz><ekz>
-        la re&gcirc;o donis al la altrangulo <klr>[&#x2026;]</klr> <tld/>on &ccirc;e la pordego
+        la re&gcirc;o donis al la altrangulo <klr>[&#8230;]</klr> <tld/>on &ccirc;e la pordego
         <fnt><bib>MT</bib> <lok>&Re2; 7:17</lok></fnt>;
       </ekz><ekz>
         ili iris kun li sur <tld/>on kaj longe atendis, sed &ccirc;asa&jcirc;o ne venis
         <fnt><bib>ElektFab</bib> <lok>Du fratoj</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_o;&c_s;&c_t;</trd>,
+      <trd>&c_v;&c_a;&c_r;&c_t;&c_a;</trd>
+    </trdgrp>
     <trd lng="ru"><ofc>*</ofc>&c_p;&c_o;&c_s;&c_t;<klr> (&c_d;&c_je;&c_zh;&c_u;&c_r;&c_n;&c_y;&c_j;)</klr></trd>
   </snc>
   <snc mrk="posten.0o.MIL">
@@ -32,8 +36,8 @@
       <ref tip="super" cel="lok.0o.spaca">Loko</ref> okupita per unu
       a&ubreve; pluraj soldatoj por garda celo:
       <ekz>
-        Francisko staras sur la <tld/>o, Bernardo venas: 
-        <klr>[&#x2026;]</klr> &mdash; halt&#x2019;! respondu: kiu iras?
+        Francisko staras sur la <tld/>o, Bernardo venas:
+        <klr>[&#8230;]</klr> &mdash; halt&#8217;! respondu: kiu iras?
         <fnt><bib>Hamlet</bib></fnt>;
       </ekz><ekz>
         trapasinte la unuan <tld/>on kaj la duan, ili venis al la fera
@@ -54,7 +58,7 @@
       dum gardan ta&ccirc;menton (kaj metonimie ties pozicion) oni nomas
       <ref cel="piked.0o.MIL">pikedo<sncref/></ref>; tio koncepte
       koheras kun la unuopulaj
-      <tld/>o<sncref ref="posten.0o.GXENERALE"/> kaj 
+      <tld/>o<sncref ref="posten.0o.GXENERALE"/> kaj
       <tld/>o<sncref ref="posten.0o.ofico"/>. Tamen PV kaj PIV
       preferas malpli koheran tradicion, allasantan plursentinelajn
       <tld/>ojn.
@@ -81,6 +85,7 @@
     </trdgrp>
     <trd lng="ru"><ofc>*</ofc>&c_p;&c_o;&c_s;&c_t;<klr> (&c_k;&c_a;&c_r;&c_a;&c_u;&c_l;&c_mol;&c_n;&c_y;&c_j;)</klr></trd>
   </snc>
+
   <snc mrk="posten.0o.ofico">
     <dif>
       Iom grava administra <ref tip="super" cel="ofic.0o">ofico</ref>:
@@ -140,13 +145,30 @@
   <trd lng="de"><ofc>*</ofc>Posten</trd>
   <trd lng="en"><ofc>*</ofc>post</trd>
   <trd lng="fr"><ofc>*</ofc>poste</trd>
+  <trdgrp lng="ja">
+    <trd>&#25345;&#12385;&#22580;  <pr>&#12418;&#12385;&#12400;</pr></trd>,
+    <trd>&#x90E8;&#x7F72;  <pr>&#12406;&#12375;&#12423;</pr></trd>,
+    <trd>&#22320;&#x4F4D;  <pr>&#12385;&#12356;</pr></trd>,
+    <trd>&#x5F79;&#32887;  <pr>&#12420;&#x304F;&#12375;&#12423;&#x304F;</pr></trd>,
+    <trd>&#x30DD;&#x30B9;&#x30C8;  <pr>&#x307D;&#12377;&#12392;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>posada</trd>,
+    <trd>stanowisko  <klr>(urz&eogonek;dowe)</klr></trd>,
+    <trd>pozycja</trd>
+  </trdgrp>
   <trd lng="pt">posto<klr>(ocupa&ccedil;&atilde;o, fun&ccedil;&atilde;o)</klr></trd>
+  <trdgrp lng="ro">
+    <trd>post</trd>,
+    <trd>func&#x21B;ie</trd>,
+    <trd>pozi&#x21B;ie</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>post</trd>,
     <trd>poz&iacute;cia</trd>,
     <trd>stanovisko</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x43E;&#x441;&#x442;</trd>
+  <trd lng="uk">&#x43F;&#x43E;&c_s;&c_t;</trd>
 </drv>
 
 <drv mrk="posten.0i">
@@ -154,37 +176,39 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="posten.0i.stari">
     <dif>
-      <tld lit="P"/>e <ref tip="super" cel="star.0i.senmove">stari</ref>; 
+      <tld lit="P"/>e <ref tip="super" cel="star.0i.senmove">stari</ref>;
       pri<ref tip="super" cel="gard.0i.protekti">gardi</ref> &ccirc;e <tld/>o:
       <ekz>
-        an&gcirc;elo de la Eternulo <tld/>as &ccirc;irka&ubreve; tiuj, 
+        an&gcirc;elo de la Eternulo <tld/>as &ccirc;irka&ubreve; tiuj,
         kiuj Lin timas, kaj Li ilin savas
         <fnt>
           <bib>MT</bib>
           <lok>Psalmaro 34:7</lok>
         </fnt>;
       </ekz><ekz>
-        militistaro <klr>[&#x2026;]</klr> <tld/>as en la sankta silento de la arbaroj
+        militistaro <klr>[&#8230;]</klr> <tld/>as en la sankta silento de la arbaroj
         <fnt>
           <bib>Rabistoj</bib>
           <lok>Akto Unua</lok>
         </fnt>;
       </ekz><ekz>
-        Nero havis <klr>[&#x2026;]</klr> tridek legiojn, <tld/>antajn 
+        Nero havis <klr>[&#8230;]</klr> tridek legiojn, <tld/>antajn
         &ccirc;e la limoj de la &scirc;tato
         <fnt>
           <bib>QuV</bib>
         </fnt>;
       </ekz><ekz>
-        eksvarmis <klr>[&#x2026;]</klr> pretoriaj soldatoj, garde <tld/>antaj en la palaco
+        eksvarmis <klr>[&#8230;]</klr> pretoriaj soldatoj, garde <tld/>antaj en la palaco
         <fnt>
           <bib>QuV</bib>
         </fnt>;
       </ekz><ekz>
-        dungitino <klr>[&#x2026;]</klr> malsupreniris &scirc;tuparon por <tld/>i la vendotablon
+        dungitino <klr>[&#8230;]</klr> malsupreniris &scirc;tuparon por <tld/>i la vendotablon
         <fnt>
+       <aut>Thomas Eccardt</aut>
+          <vrk><url ref="&Monato;/2000/006859.php">Urbeto a&ubreve; sendependa lando?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006859.html">Seborgo: Urbeto a&ubreve; sendependa lando?</url></vrk>
+          <lok>2000/05, p. 8</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -192,7 +216,11 @@
       <ref cel="gard.0i.KOMUNE">gardi<sncref/></ref>,
       <ref cel="gvat.0i.dejxore">gvati<sncref/></ref>,
       <ref cel="vacx.0i">va&ccirc;i</ref>
-    </refgrp>  
+    </refgrp>
+          <trdgrp lng="be">
+        <trd>&c_s;&c_t;&c_a;&c_ja;&c_c;&c_mol; &c_n;&c_a; <ind>&c_p;&c_a;&c_s;&c_t;&c_u;</ind></trd>,
+        <trd>&c_s;&c_t;&c_a;&c_ja;&c_c;&c_mol; &c_n;&c_a; <ind>&c_v;&c_a;&c_r;&c_c;&c_je;</ind></trd>
+      </trdgrp>
     <trdgrp lng="cs">
       <trd>hl&iacute;dkovat</trd>,
       <trd>p&uring;sobit</trd>
@@ -210,6 +238,14 @@
       <trd>stare di <ind>posta</ind></trd>
     </trdgrp>
     <trd lng="nl">op <ind>post</ind> staan</trd>
+    <trdgrp lng="pl">
+      <trd>mianowa&cacute; na stanowisko</trd>,
+      <trd>zatrudni&cacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>numi &icirc;n func&#x21B;ie</trd>,
+      <trd>angaja</trd>
+    </trdgrp>
     <trd lng="ru">&c_s;&c_t;&c_o;&c_ja;&c_t;&c_mol; &c_n;&c_a; &c_p;&c_o;&c_s;&c_t;&c_u;</trd>
     <trdgrp lng="sk">
       <trd>hliadkova&tcaron;</trd>,
@@ -218,7 +254,7 @@
   </snc>
   <snc mrk="posten.0o.ofici">
     <dif>
-      <ref tip="super" cel="ofic.0i">Ofici</ref> en 
+      <ref tip="super" cel="ofic.0i">Ofici</ref> en
       <ref cel="posten.0o.ofico"><tld/>o<sncref/></ref>:
       <ekz>
         tiu plej alte <tld/>anta ambiciulo nomas sin faraono
@@ -226,18 +262,25 @@
           <bib>SkandalJozef</bib>
         </fnt>;
       </ekz><ekz>
-        <nom>Auld</nom> <klr>[&#x2026;]</klr> <tld/>as movade, instruas, verkas
+        <nom>Auld</nom> <klr>[&#8230;]</klr> <tld/>as movade, instruas, verkas
         <fnt>
           <bib>LOdE</bib>
           <lok> 1999, No 11 (61)</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_mol; <ind>&c_p;&c_a;&c_s;&c_a;&c_d;&c_u;</ind></trd>
     <trd lng="de">einen <ind>Posten</ind> innehaben</trd>
+    <trd lng="pl">urz&eogonek;dowa&cacute;</trd>
+    <trd lng="ro">oficia</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#25345;&#12385;&#22580;&#x306B;&#12388;&#12356;&#12390;&#12356;&#x308B;  <pr>&#12418;&#12385;&#12400;&#x306B;&#12388;&#12356;&#12390;&#12356;&#x308B;</pr></trd>,
+    <trd>&#x90E8;&#x7F72;&#12434;&#x5B88;&#x308B;  <pr>&#12406;&#12375;&#12423;&#12434;&#x307E;&#12418;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x442;&#x43E;&#x44F;&#x442;&#x438; &#x43D;&#x430; &#x43F;&#x43E;&#x441;&#x442;&#x443;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x431;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43D;&#x430; &#x43F;&#x43E;&#x441;&#x442;&#x443;</trd>
+    <trd>&c_s;&c_t;&#x43E;&#x44F;&c_t;&c_i; &#x43D;&c_a; &#x43F;&#x43E;&c_s;&c_t;&c_u;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&c_b;&c_u;&c_v;&c_a;&c_t;&c_i; &#x43D;&c_a; &#x43F;&#x43E;&c_s;&c_t;&c_u;</trd>
   </trdgrp>
 </drv>
 
@@ -247,7 +290,7 @@
     <dif>
       <ref tip="super" cel="star.0igi.vertikala">Starigi</ref> sur <tld/>o:
       <ekz>
-        kvar soldatoj, <tld/>igitaj vid-al-vide tiu homo 
+        kvar soldatoj, <tld/>igitaj vid-al-vide tiu homo
         tute trankvile pafis al li po tri kuglojn en la kranion
         <fnt>
           <bib>Kandid</bib>
@@ -259,7 +302,7 @@
           <bib>QuV</bib>
         </fnt>;
       </ekz><ekz>
-        la legiestro raportis, ke la sebasteanoj estas 
+        la legiestro raportis, ke la sebasteanoj estas
         <tld/>igitaj &ccirc;irka&ubreve; la placo &ccirc;e la hipodromo
         <fnt>
           <bib>MkM</bib>
@@ -269,6 +312,10 @@
     <refgrp tip="sin">
       <ref cel="embusk">embuski</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_mol; &c_n;&c_a; <ind>&c_p;&c_o;&c_s;&c_t;</ind></trd>,
+      <trd>&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_mol; &c_n;&c_a; <ind>&c_v;&c_a;&c_r;&c_t;&c_u;</ind></trd>
+    </trdgrp>
     <trdgrp lng="cs">
       <trd>odd&aacute;lit</trd>,
       <trd>p&rcaron;id&ecaron;lit stanovi&scaron;t&ecaron;</trd>,
@@ -294,26 +341,41 @@
     <dif>
       Taski per <tld/>o:
       <ekz>
-        li estas <tld/>igata sur la krozo&scirc;ipon Invincible 
+        li estas <tld/>igata sur la krozo&scirc;ipon Invincible
         kaj ekiras al &Scirc;anghajo por defendi la kulturon
         <fnt>
           <bib>VaK</bib>
         </fnt>;
       </ekz><ekz>
-        mi <tld/>igis vin kiel kortegan &ccirc;efmetiiston, &ccirc;ar 
+        mi <tld/>igis vin kiel kortegan &ccirc;efmetiiston, &ccirc;ar
         mi konis vin lerta majstro de &ccirc;iuj metioj
         <fnt>
           <bib>SatirRak</bib>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_c;&c_mol; &c_n;&c_a; &c_p;&c_a;&c_s;&c_a;&c_d;&c_u;</trd>,
+      <trd>&c_d;&c_a;&c_r;&c_u;&c_ch;&c_a;&c_c;&c_mol; <klr>(&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je; &c_a;&c_b;&c_a;&c_v;&c_ja;&c_z;&c_k;&c_a;&c_w;)</klr></trd>
+    </trdgrp>
   <trd lng="de">anstellen <klr>(Posten)</klr></trd>
   </snc>
   <ref tip="hom" cel="post.0enigi">post&middot;e&middot;n&middot;ig&middot;i</ref>
+  <trd lng="ja">&#25345;&#12385;&#22580;&#x306B;&#12388;&#x304B;&#x305B;&#x308B; 
+  <pr>&#12418;&#12385;&#12400;&#x306B;&#12388;&#x304B;&#x305B;&#x308B;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>powierza&cacute;</trd>,
+    <trd>przydziela&cacute;</trd>,
+    <trd>zatrudni&cacute; na stanowisku</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>numi &icirc;n func&#x21B;ie</trd>,
+    <trd>pune pe cineva &icirc;n pozi&#x21B;ie</trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x432;&#x438;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x438; &#x43F;&#x43E;&#x441;&#x442;(&#x438;)</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x437;&#x43D;&#x430;&#x447;&#x430;&#x442;&#x438; &#x43D;&#x430; &#x43F;&#x43E;&#x441;&#x442;</trd>
+    <trd>&c_v;&c_i;&c_s;&c_t;&c_a;&c_v;&#x43B;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_s;&c_t;&c_a;&c_v;&#x43B;&#x44F;&c_t;&c_i; &#x43F;&#x43E;&c_s;&c_t;(&c_i;)</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_z;&#x43D;&c_a;&c_ch;&c_a;&c_t;&c_i; &#x43D;&c_a; &#x43F;&#x43E;&c_s;&c_t;</trd>
   </trdgrp>
 </drv>
 
@@ -323,13 +385,14 @@
     <dif>
       Asigni <ref cel="posten.0o.ofico"><tld/>on<sncref/></ref> al iu:
       <ekz>
-        administrantoj estas en<tld/>igitaj la&ubreve; politika koloro, 
+        administrantoj estas en<tld/>igitaj la&ubreve; politika koloro,
         kaj ne la&ubreve; kapabloj
         <fnt>
-          <bib>Monato</bib>
           <aut>Christian Fabossou</aut>
-          <vrk><url ref="&Steloj;monato2/007042.html">Afriko: &Scirc;an&gcirc;oj &#x2010; ankora&ubreve; ne sufi&ccirc;aj</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007042.php">&Scirc;an&gcirc;oj -- ankora&ubreve; ne sufi&ccirc;aj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/08, p. 7</lok>
+          </fnt>;
       </ekz><ekz>
         la vicministro pri edukado nuligis la konkurson kaj en<tld/>igis novan
         komisionon por prepari fre&scirc;an ekzamenon
@@ -347,12 +410,25 @@
     </refgrp>
   <trd lng="de">in ein Amt <ind>einf&uuml;hren</ind></trd>
   </snc>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_c;&c_mol; &c_n;&c_a; &c_p;&c_a;&c_s;&c_a;&c_d;&c_u;</trd>
   <trdgrp lng="es">
     <trd>colocar<klr> (dar trabajo)</klr></trd>
   </trdgrp>
   <trdgrp lng="it">
     <trd>collocare<klr> (dare lavoro)</klr></trd>,
     <trd>sistemare<klr> (dare lavoro)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#22320;&#x4F4D;&#x306B;&#12388;&#12369;&#x308B;  <pr>&#12385;&#12356;&#x306B;&#12388;&#12369;&#x308B;</pr></trd>,
+    <trd>&#x5F79;&#32887;&#x306B;&#12388;&#12369;&#x308B;  <pr>&#12420;&#x304F;&#12375;&#12423;&#x304F;&#x306B;&#12388;&#12369;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wprowadzi&cacute; na <ind>urz&aogonek;d</ind></trd>,
+    <trd>mianowa&cacute; na <ind>posad&eogonek;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>introduce &icirc;n <ind>pozi&#x21B;ie</ind></trd>,
+    <trd>numi &icirc;n <ind>func&#x21B;ie</ind></trd>
   </trdgrp>
   <trd lng="sk">dosadi&tcaron; <klr>(niekoho niekde)</klr></trd>
 </drv>
@@ -365,10 +441,11 @@
       <ekz>
         jam en<tld/>i&gcirc;is aparta komisiono por identigi &ccirc;iujn eblecojn
         <fnt>
+          <aut>Pa&ubreve;lo Gubbins</aut>
+          <vrk><url ref="&Monato;/1994/A940601.php">Revivi&gcirc;as la fantomoj -- de 1944</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9405-britio.txt">Britio</url></vrk>
-          <lok>94/05</lok>
-        </fnt>;
+          <lok>1994/06, p. 11</lok>
+        </fnt>.
       </ekz><ekz>
         &ccirc;e la muzeo de Si&ccirc;uano pasintjare en<tld/>i&gcirc;is ok, sed elposteni&gcirc;is dek
         muzeologoj
@@ -388,13 +465,22 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>  
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol; <ind>&c_p;&c_a;&c_s;&c_a;&c_d;&c_u;</ind></trd>,
+    <trd>&c_b;&c_y;&c_c;&c_mol; <ind>&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_ch;&c_a;&c_n;&c_y;&c_m;</ind> &c_n;&c_a; &c_p;&c_a;&c_s;&c_a;&c_d;&c_u;</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>colocarse<klr> (conseguir trabajo)</klr></trd>
   </trdgrp>
   <trdgrp lng="it">
     <trd>collocarsi<klr> (ottenere lavoro)</klr></trd>,
     <trd>sistemarsi<klr> (ottenere lavoro)</klr></trd>
+  </trdgrp>
+  <trd lng="pl">zatrudni&cacute; si&eogonek; na <ind>stanowisku</ind></trd>
+  <trdgrp lng="ro">
+    <trd>fi numit &icirc;n <ind>func&#x21B;ie</ind></trd>,
+    <trd>fi angajat &icirc;n <ind>pozi&#x21B;ie</ind></trd>
   </trdgrp>
 </drv>
 
@@ -413,37 +499,45 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_z;&c_b;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_p;&c_a;&c_s;&c_a;&c_d;&c_y;</ind></trd>,
+    <trd>&c_z;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_ja;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="de">eines <ind>Posten</ind>s entheben</trd>
+  <trdgrp lng="pl">
+    <trd>usun&aogonek;&cacute; z <ind>posady</ind></trd>,
+    <trd>zwolni&cacute; z <ind>pracy</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>elibera din <ind>pozi&#x21B;ie</ind></trd>,
+    <trd>concedia</trd>
+  </trdgrp>
 </drv>
-
-
-
-
 
 </art>
 <!--
 $Log$
+versio 1.35 2023/12/29 07:23:38
+Dmitri Gabinski: + trd be
+
+versio 1.34 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.32 2023/05/01 08:31:22
+Paul Peeraerts: Steloj -> monato
+
+versio 1.31 2023/04/24 16:34:49
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.30 2023/04/12 13:30:35
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.29 2023/02/23 19:24:36
+Vito Redsky: +trd pl + trd ro
+
 versio 1.28 2022/05/04 18:30:33
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.26 2022/01/22 14:26:11
-Wolfram Diestel: +ref
-
-versio 1.25 2022/01/22 07:41:16
-Sergio Pokrovskij: - tajpaeraroj
-
-versio 1.24 2022/01/20 09:40:26
-Sergio Pokrovskij: +dif, TEZ, trd ru
-
-versio 1.23 2021/12/18 09:28:59
-Wolfram Diestel: kor. vortigon, mrk
-
-versio 1.22 2021/12/15 17:35:26
-Wolfram Diestel: ~igi..: ekz-oj, ref-oj, trd de, +sen~igi
-
-versio 1.21 2021/12/15 14:27:05
-Wolfram Diestel: ~o, ~i: ekz-oj, ref-oj; +~i snc ofici
-
-versio 1.20 2021/06/16 06:38:32
 -->
 </vortaro>

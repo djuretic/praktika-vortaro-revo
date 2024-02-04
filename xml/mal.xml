@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mal.xml,v 1.20 2022/03/23 14:01:05 revo Exp $">
+<art mrk="$Id: mal.xml,v 1.24 2024/01/25 20:10:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mal</rad>-
@@ -33,6 +33,7 @@
       ideon.
     </rim>
     </snc>
+    <trd lng="be">&c_p;&c_r;&c_e;&c_f;&c_ib;&c_k;&c_s;, &c_ja;&c_k;&c_ib; &c_n;&c_a;&c_d;&c_a;&c_je; &c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_mol;&c_l;&c_je;&c_g;&c_l;&c_a;&c_je; &c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_je;</trd>
     <trd lng="es">prefijo formador de <ind>ant&oacute;nimos</ind></trd>
     <trd lng="io">des-</trd>
     <trd lng="nl">on-</trd>
@@ -69,14 +70,27 @@ Samsignifa memstara vortero.
           <trd>ellent&eacute;te</trd>,
           <trd>ellentettje</trd>
         </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6B63;&#x53CD;&#x5BFE;  <pr>&#x305B;&#x3044;&#x306F;&#x3093;&#x305F;&#x3044;</pr></trd>,
+    <trd>&#x9006;  <pr>&#x3055;&#x304B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">tegengestelde<klr tip="ind"> (zn.)</klr></trd>
   <trd lng="pl">przeciwie&nacute;stwo</trd>
   <trd lng="ro">contrar</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">opak</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x43B;&#x435;&#x436;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x43B;&#x435;&#x436;&#x43D;&#x435;</trd>
+    <trd>&#x43F;&c_r;&#x43E;&c_t;&c_i;&#x43B;&c_je;&c_zh;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_t;&c_i;&#x43B;&c_je;&c_zh;&#x43D;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76F8;&#x53CD; <pr>xi&#x101;ngf&#x1CE;n</pr></trd>,
+    <trd>&#x76F8;&#x80CC; <pr>xi&#x101;ngb&#xE8;i</pr></trd>,
+    <trd>&#x53CD;&#x4E49;&#x5B57; <pr>f&#x1CE;ny&#xEC;z&#xEC;</pr></trd>,
+    <trd>&#x53CD;&#x7FA9;&#x5B57; <pr>f&#x1CE;ny&#xEC;z&#xEC;</pr></trd>,
+    <trd>&#x6070;&#x6070;&#x76F8;&#x53CD; <pr>qi&#xE0;qi&#xE0;xi&#x101;ngf&#x1CE;n</pr></trd>,
+    <trd>&#x5BF9;&#x7ACB;&#x9762; <pr>du&#xEC;l&#xEC;mi&#xE0;n</pr></trd>,
+    <trd>&#x5C0D;&#x7ACB;&#x9762; <pr>du&#xEC;l&#xEC;mi&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -102,13 +116,17 @@ Samsignifa memstara vortero.
     <trd>ellenkez&odblac;</trd>,
     <trd>ellent&eacute;tes</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6B63;&#x53CD;&#x5BFE;&#x306E;  <pr>&#x305B;&#x3044;&#x306F;&#x3093;&#x305F;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x9006;&#x306E;  <pr>&#x304E;&#x3083;&#x304F;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">tegengestelde<klr tip="ind"> (bn.)</klr></trd>
   <trdgrp lng="pl">
     <trd>przeciwny</trd>,
-    <trd>przeciwstawny</trd>,    
+    <trd>przeciwstawny</trd>,
     <trd>odwrotny</trd>,
     <trd>opaczny</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>contr&aacute;rio <klr>(subst.)</klr></trd>,
     <trd>ant&ocirc;nimo</trd>
@@ -121,9 +139,13 @@ Samsignifa memstara vortero.
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">opa&ccaron;n&yacute;</trd>
-  <trd lng="uk">&#x43F;&#x440;&#x43E;&#x442;&#x438;&#x43B;&#x435;&#x436;&#x43D;&#x438;&#x439;</trd>
+  <trd lng="uk">&#x43F;&c_r;&#x43E;&c_t;&c_i;&#x43B;&c_je;&c_zh;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x76F8;&#x53CD; <pr>xi&#x101;ngf&#x1CE;n</pr></trd>,
+    <trd>&#x76F8;&#x80CC; <pr>xi&#x101;ngb&#xE8;i</pr></trd>
+  </trdgrp>
 </drv>
-   
+
 <drv mrk="mal.0e">
   <kap><tld/>e</kap>
   <snc>
@@ -150,19 +172,23 @@ Samsignifa memstara vortero.
     <trd>ellent&eacute;tesen</trd>,
     <trd>ellent&eacute;tben</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x53CD;&#x5BFE;&#x306B;  <pr>&#x306F;&#x3093;&#x305F;&#x3044;&#x306B;</pr></trd>,
+    <trd>&#x9006;&#x306B;  <pr>&#x304E;&#x3083;&#x304F;&#x306B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">integendeel</trd>
   <trdgrp lng="pl">
     <trd>natomiast</trd>,
     <trd>przeciwnie</trd>,
     <trd>za&sacute;</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>ao <ind>contr&aacute;rio</ind></trd>,
     <trd>contrariamente</trd>
   </trdgrp>
   <trdgrp lng="ro">
     <trd>&icirc;n timp ce</trd>,
-    <trd>contrar</trd>,  
+    <trd>contrar</trd>,
     <trd>&#x219;i</trd>,
     <trd>iar</trd>
   </trdgrp>
@@ -174,18 +200,28 @@ Samsignifa memstara vortero.
     <trd>naopak</trd>,
     <trd>opa&ccaron;ne</trd>
   </trdgrp>
-  <trd lng="uk">&#x43D;&#x430;&#x432;&#x43F;&#x430;&#x43A;&#x438;</trd>
+  <trd lng="uk">&#x43D;&c_a;&c_v;&#x43F;&c_a;&#x43A;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CD;&#x5012; <pr>f&#x1CE;nd&#xE0;o</pr></trd>,
+    <trd>&#x53CD;&#x4E4B; <pr>f&#x1CE;nzh&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 </subart>
 </art>
 
 <!--
 $Log$
+versio 1.23 2023/12/04 08:32:23
+Dmitri Gabinski: + trd be
+
+versio 1.22 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
 versio 1.19 2021/05/12 14:51:33
 Wolfram Diestel: kor. ref-cel
 
 versio 1.18 2020/10/22 21:11:01
-Vito Redsky: +trd pl  + trd ro 
+Vito Redsky: +trd pl  + trd ro
 
 Revision 1.16  2016/11/22 23:10:29  revo
 Robin van der Vliet: +trd
@@ -197,11 +233,5 @@ Revision 1.14  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.13  2014/11/26 09:10:20  revo
-Damien Brucker: +ekz
-
-Revision 1.12  2014/02/05 21:10:15  revo
-Damien Brucker: +trd fr
-
-Revision 1.11  2014/02/05 15:10:17  revo
 -->
 </vortaro>

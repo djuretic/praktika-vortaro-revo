@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cens.xml,v 1.11 2022/03/14 15:25:39 revo Exp $">
+<art mrk="$Id: cens.xml,v 1.14 2023/10/31 13:37:03 revo Exp $">
 <kap>
 <rad>cens</rad>/i
 </kap>
@@ -69,23 +69,31 @@
       </ekz>
     </dif>
     <trd lng="de">Volksz&auml;hlung</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x53E3;&#x8ABF;&#x67E5; <pr>r&#xE9;nk&#x1D2;udi&#xE0;och&#xE1;</pr></trd>,
+    <trd>&#x4EBA;&#x53E3;&#x666E;&#x67E5; <pr>r&#xE9;nk&#x1D2;up&#x1D4;ch&#xE1;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>statistika</trd>,
     <trd>s&ccaron;&iacute;t&aacute;n&iacute; lidu</trd>
   </trdgrp>
-  
+    <trdgrp lng="be">
+    <trd>&c_c;&c_e;&c_n;&c_z;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_p;&c_ib;&c_s; <klr tip="amb">(&c_n;&c_a;&c_s;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_c;&c_t;&c_v;&c_a;)</klr></trd>
+  </trdgrp>
   <trd lng="de">Zensus</trd>
   <trd lng="he">&mem;&pe;&qof;&dalet; &alef;&vav;&kaf;&lamed;&vav;&samekh;&yod;&fnun;</trd>
   <trd lng="it">censo</trd>
+  <trd lng="ja">&#x30B1;&#x30F3;&#x30B9;&#x30B9;</trd>
   <trd lng="nl">belastbaar <ind>vermogen</ind></trd>
   <trdgrp lng="sk">
     <trd>cenzus</trd>,
     <trd>s&ccaron;&iacute;tanie</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x446;&#x435;&#x43D;&#x437;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x43F;&#x438;&#x441;</trd>
+    <trd>&c_c;&c_je;&#x43D;&c_z;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&#x43F;&c_i;&c_s;</trd>
   </trdgrp>
 </drv>
 
@@ -109,6 +117,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_e;&c_n;&c_z;&c_a;&c_r;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_p;&c_ib;&c_s;&c_ch;&c_y;&c_k; <klr tip="amb">(&c_n;&c_a;&c_s;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_c;&c_t;&c_v;&c_a;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>censor</trd>,
     <trd>cenzor</trd>
@@ -118,12 +130,15 @@
   <trd lng="it">censitore</trd>
   <trd lng="nl">censor</trd>
   <trd lng="sk">&scaron;tatistik</trd>
-  <trd lng="uk">&#x446;&#x435;&#x43D;&#x437;&#x43E;&#x440;</trd>
+  <trd lng="uk">&c_c;&c_je;&#x43D;&c_z;&#x43E;&c_r;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.12 2023/01/03 10:31:02
+Dmitri Gabinski: + trd be
+
 versio 1.10 2021/12/18 09:28:59
 Wolfram Diestel: kor. vortigon
 
@@ -143,8 +158,5 @@ Revision 1.3  2009/07/07 16:30:47  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.2  2008/11/02 17:30:24  revo
-Peter Hauser: aldoni germanan tradukon
-
-Revision 1.1  2008/09/04 19:08:01  revo
 -->
 </vortaro>

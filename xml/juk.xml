@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: juk.xml,v 1.32 2022/04/30 08:42:43 revo Exp $">
+<art mrk="$Id: juk.xml,v 1.36 2023/12/03 07:09:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>juk</rad>/i <fnt><bib>PV</bib></fnt>
@@ -169,6 +169,11 @@
   <trd lng="hu">viszket</trd>
   <trd lng="id">gatal</trd>
   <trd lng="it">prudere</trd>
+  <trdgrp lng="ja">
+    <trd>&#x304B;&#x3086;&#x304C;&#x3089;&#x305B;&#x308B;</trd>,
+    <trd>&#x3080;&#x305A;&#x3080;&#x305A;&#x3055;&#x305B;&#x308B;</trd>,
+    <trd>&#x304B;&#x3086;&#x3044;</trd>
+  </trdgrp>
   <trd lng="nl">jeuken</trd>
   <trdgrp lng="pl">
     <trd>sw&eogonek;dzi&cacute;</trd>,
@@ -183,7 +188,14 @@
     <trd>&c_z;&c_u;&c_d;&c_je;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">svrbie&tcaron;</trd>
-  <trd lng="uk">&#x441;&#x432;&#x435;&#x440;&#x431;&#x456;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_s;&c_v;&c_je;&c_r;&c_b;&c_ib;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7619;&#x75D2; <pr>s&#xE0;oy&#x1CE;ng</pr></trd>,
+    <trd>&#x75D2; <pr>y&#x1CE;ng</pr></trd>,
+    <trd>&#x75D2;&#x75D2; <pr>y&#x1CE;ngyang</pr></trd>,
+    <trd>&#x60F3;&#x53BB;&#x6293;&#x75D2; <pr>xi&#x1CE;ngq&#xF9;zhu&#x101;y&#x1CE;ng</pr></trd>,
+    <trd>&#x6293;&#x75D2; <pr>zhu&#x101;y&#x1CE;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="juk.0a">
@@ -221,7 +233,16 @@
       <ref cel="tikl.0a">tikla</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_ja;&c_k;&c_ib; <ind>&c_s;&c_mol;&c_v;&c_ja;&c_r;&c_b;&c_ib;&c_c;&c_mol;</ind></trd>
   <trd lng="cs">sv&ecaron;div&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>juckend</trd>,
+    <trd>kratzig</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>itchy</trd>,
+    <trd>itching</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>qui <ind>d&eacute;mange</ind></trd>,
     <trd>prurigineux</trd>
@@ -233,7 +254,8 @@
   <kap><tld/>o</kap>
   <snc mrk="juk.0o.KOMUNE">
     <dif>
-      <ref tip="super" cel="sent.0o.impreso">Sento</ref> de piketoj en la ha&ubreve;to, ka&ubreve;zanta deziron sin
+      <ref tip="super" cel="sent.0o.impreso">Sento</ref> de piketoj en la ha&ubreve;to, ka&ubreve;zanta deziron
+      sin
       grati:
       <ekz>
         de pluraj tagoj li sentas malagrablan <tld/>on &ccirc;e sia vira organo
@@ -270,6 +292,7 @@
   <trd lng="hu">viszket&eacute;s</trd>
   <trd lng="id">gatal</trd>
   <trd lng="it">prurito</trd>
+  <trd lng="ja">&#x304B;&#x3086;&#x307F;</trd>
   <trd lng="nl">jeuk</trd>
   <trdgrp lng="pl">
     <trd>sw&eogonek;dzenie</trd>,
@@ -284,10 +307,17 @@
     <trd>svrab</trd>,
     <trd>svrbenie</trd>
   </trdgrp>
+  <trd lng="zh">&#x7619;&#x75D2; <pr>s&#xE0;oy&#x1CE;ng</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2023/05/02 09:25:46
+Dmitri Gabinski: + trd be
+
+versio 1.33 2023/05/01 12:41:37
+Christian Siefkes: +trd de, en
+
 versio 1.32 2022/04/30 08:42:43
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -304,11 +334,5 @@ Revision 1.25  2014/02/07 02:10:19  revo
 Jeromo Vasxe: + ~a, ~i snc/subsnc
 
 Revision 1.24  2009/08/26 16:30:58  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.23  2009/03/18 17:31:39  revo
-Antonio Codazzi: +trd it
-
-Revision 1.22  2008/12/12 17:57:41  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lorn.xml,v 1.21 2022/03/22 18:26:51 revo Exp $">
+<art mrk="$Id: lorn.xml,v 1.26 2024/01/15 19:32:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lorn</rad>/o
@@ -11,23 +11,64 @@
   <snc mrk="lorn.0o.FOT">
     <uzo tip="fak">FOT</uzo>
     <dif>
-      Optika tuba instrumento, kiu ebligas vidi malproksimajn objektojn,
+      Optika tuba <ref tip="super" cel="instru2.0o">instrumento</ref>, kiu ebligas vidi malproksimajn objektojn,
       malpliigante ilian &scirc;ajnan distancon:
       <ekz>
         anta&ubreve; ili hodia&ubreve; montri&gcirc;is kvar &scirc;ipoj,
-        kaj &scirc;ajnis al li, ke
-        inter
-        ili li rimarkas per la <tld/>o la &leftquot;Karen
-        Bronne&rightquot;
-        <fnt><bib>Fab4</bib>, <lok>historio el la dunoj</lok></fnt>.
+        kaj &scirc;ajnis al li, ke inter ili li rimarkas 
+        per la <tld/>o la &leftquot;<nom>Karen Bronne</nom>&rightquot;
+        <fnt><bib>Fab4</bib>, <lok>historio el la dunoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu prenas sian <tld/>on, oni ekvidas du &scirc;ipojn, kiuj interbatalas je trimejla
+        distanco
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; la truo staris malgranda <tld/>o sur <tld/>ingo el radikligno
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Geermitoj</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="telesk.0o">teleskopo</ref>
+  <trd lng="de">Fernrohr</trd>
   </snc>
+  <snc mrk="lorn.0o.malgranda">
+    <dif>
+      Samfunkcia malgranda instrumento por unu okulo a&ubreve; para, 
+      kian oni uzas ekzemple en teatro:
+      <ekz>
+        sidi&gcirc;ante en apogse&gcirc;oj ili tra perlamotaj <tld/>oj estis fikse rigardantaj la
+        vesta&jcirc;ojn de la publiko
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="binokl.0o">binoklo</ref>,
+      <ref cel="lorn.0eto">lorneto</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Fernglas</trd>,
+      <trd>Theaterglas</trd>,
+      <trd>Feldstecher</trd>
+    </trdgrp>
+    <trdgrp lng="zh">
+    <trd>&#x53CC;&#x773C;&#x671B;&#x8FDC;&#x955C; <pr>shu&#x101;ngy&#x1CE;nw&#xE0;ngyu&#x1CE;nj&#xEC;ng</pr></trd>,
+    <trd>&#x96D9;&#x773C;&#x671B;&#x9060;&#x93E1; <pr>shu&#x101;ngy&#x1CE;nw&#xE0;ngyu&#x1CE;nj&#xEC;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_p;&c_a;&c_d;&c_z;&c_o;&c_r;&c_n;&c_a;&c_ja; &c_t;&c_r;&c_u;&c_b;&c_a;</trd>
   <trd lng="bg">&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_n;&c_a; &c_t;&c_r;&c_malmol;&c_b;&c_a;</trd>
   <trd lng="br">lunedenn</trd>
   <trd lng="cs">dalekohled</trd>
-  <trd lng="de">Fernrohr</trd>
   <trd lng="el">&my;&omikron;&ny;&ypsilon_ton;&epsilon;&lambda;&omikron;&sigma_fina;</trd>
   <trdgrp lng="en">
     <trd>spyglass</trd>,
@@ -41,13 +82,17 @@
     <trd>t&aacute;vcs&odblac;</trd>,
     <trd>messzel&aacute;t&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x671B;&#x9060;&#x93E1;  <pr>&#x307C;&#x3046;&#x3048;&#x3093;&#x304D;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x9060;&#x3081;&#x304C;&#x306D;  <pr>&#x3068;&#x304A;&#x3081;&#x304C;&#x306D;</pr></trd>
+  </trdgrp>
   <trd lng="nl">enkele <ind>verrekijker</ind></trd>
   <trd lng="pl">luneta</trd>
   <trd lng="pt">luneta</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_z;&c_o;&c_r;&c_n;&c_a;&c_ja;
   &c_t;&c_r;&c_u;&c_b;&c_a;</trd>
   <trd lng="sk">&dcaron;alekoh&lcaron;ad</trd>
-  <trd lng="uk">&#x43F;&#x456;&#x434;&#x437;&#x43E;&#x440;&#x43D;&#x430; &#x442;&#x440;&#x443;&#x431;&#x430;</trd>
+  <trd lng="uk">&c_p;&c_ib;&c_d;&c_z;&c_o;&c_r;&c_n;&c_a; &c_t;&c_r;&c_u;&c_b;&c_a;</trd>
 </drv>
 
 <drv mrk="lorn.0eto">
@@ -58,10 +103,23 @@
       Malgranda, facile kunportebla <ref tip="super" cel="lorn.0o.FOT">lorno</ref>:
       <ekz>
         mi direktis al &scirc;i mian <tld/>eton kaj rimarkis, ke
-        &scirc;i ridetis
-        al
-        lia rigardo
-        <fnt><bib>Mary</bib></fnt>.
+        &scirc;i ridetis al lia rigardo
+        <fnt><bib>Mary</bib></fnt>;
+      </ekz>
+      <ekz>
+        Mi vidis ilin &ccirc;e l' marbordo &parsl; En bankostumo, sen rembur', <klr>[&#x2026;]</klr> &parsl; Kaj
+        se mi fidas al <tld/>eto <klr>[&#x2026;]</klr>
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Homoj &Ccirc;e L' Marbordo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ege mirante pri sceno <klr>[&#x2026;]</klr>, li aliris, haltadis, frotis la <tld/>eton
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro III.</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="bg">&c_l;&c_o;&c_r;&c_n;&c_je;&c_t;</trd>
@@ -74,9 +132,11 @@
     <trd>kuk&aacute;tko <klr>(divad.)</klr></trd>,
     <trd>lornet</trd>
   </trdgrp>
+  <trd lng="de">Theaterglas</trd>
   <trd lng="en">monocular</trd>
+  <trd lng="ja">&#x30AA;&#x30DA;&#x30E9;&#x30B0;&#x30E9;&#x30B9;</trd>
   <trd lng="sk">lornet</trd>
-  <trd lng="uk">&#x43B;&#x43E;&#x440;&#x43D;&#x435;&#x442;</trd>
+  <trd lng="uk">&c_l;&c_o;&c_r;&c_n;&c_je;&c_t;</trd>
 </drv>
 
 <drv mrk="lorn.du0eto">
@@ -88,7 +148,10 @@
   <trd lng="be">&c_b;&c_ib;&c_n;&c_o;&c_k;&c_l;&c_mol;</trd>
   <trd lng="bg">&c_b;&c_i;&c_n;&c_o;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_je;&c_n;</trd>
   <trd lng="cs">triedr</trd>
-  <trd lng="de">Fernglas</trd>
+  <trdgrp lng="de">
+    <trd>Theaterglas</trd>,
+    <trd>Binokel</trd>
+  </trdgrp>
   <trd lng="el">&kappa;&ypsilon;&alfa_ton;&lambda;&jota;&alfa;</trd>
   <trd lng="en">binoculars</trd>
   <trdgrp lng="es">
@@ -102,6 +165,7 @@
     <trd>l&aacute;tcs&odblac;</trd>,
     <trd>binokul&aacute;r</trd>
   </trdgrp>
+  <trd lng="ja">&#x53CC;&#x773C;&#x93E1;  <pr>&#x305D;&#x3046;&#x304C;&#x3093;&#x304D;&#x3087;&#x3046;</pr></trd>
   <trd lng="nl">dubbele <ind>verrekijker</ind></trd>
   <trdgrp lng="pl">
     <trd>lorneta</trd>,
@@ -110,11 +174,24 @@
   <trd lng="pt">bin&oacute;culo</trd>
   <trd lng="ru">&c_b;&c_i;&c_n;&c_o;&c_k;&c_l;&c_mol;</trd>
   <trd lng="sk">trieder</trd>
-  <trd lng="uk">&#x431;&#x456;&#x43D;&#x43E;&#x43A;&#x43B;&#x44C;</trd>
+  <trd lng="uk">&c_b;&c_ib;&c_n;&c_o;&c_k;&c_l;&c_mol;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CC;&#x7B52;&#x671B;&#x8FDC;&#x955C; <pr>shu&#x101;ngt&#x1D2;ngw&#xE0;ngyu&#x1CE;nj&#xEC;ng</pr></trd>,
+    <trd>&#x96D9;&#x7B52;&#x671B;&#x9060;&#x93E1; <pr>shu&#x101;ngt&#x1D2;ngw&#xE0;ngyu&#x1CE;nj&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/19 14:32:17
+revo: transskribo per <pr>
+
+versio 1.23 2023/03/25 22:25:43
+Wolfram Diestel: +ekz-oj, apartigo du snc
+
+versio 1.22 2022/12/10 01:49:58
+Ulrich Fellmann: lorno: +2 DE trdj
+
 versio 1.20 2022/02/11 11:41:17
 Noam Mohr: +trd en lorneto
 
@@ -128,14 +205,5 @@ Revision 1.16  2014/01/24 14:10:14  revo
 Joop Eggen: +trd bg
 
 Revision 1.15  2009/07/11 16:31:42  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.14  2009/03/12 17:31:03  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2009/02/19 20:27:15  revo
-Russ Williams: +trd en
-
-Revision 1.12  2006/01/17 17:31:37  revo
 -->
 </vortaro>

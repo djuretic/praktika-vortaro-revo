@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kompre.xml,v 1.54 2022/06/22 09:30:36 revo Exp $">
+<art mrk="$Id: kompre.xml,v 1.63 2023/12/03 09:58:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kompren</rad>/i <fnt><bib>PV</bib></fnt>
@@ -53,7 +53,7 @@
         &aacute;b&eacute;c&eacute;hez</trd>
       </ekz>
       <ekz>
-        mi ne <tld/>as vian Bornholman paroladon
+        mi ne <tld/>as vian <nom>Bornholm</nom>an paroladon
         <klr>(parolmanieron)</klr>
         <fnt><bib>Fab1</bib><lok>Galo&scirc;oj de feli&ccirc;o</lok></fnt>;
       </ekz>
@@ -169,7 +169,7 @@
           <trd>compreender</trd>,
           <trd>entender</trd>,
           <trd>perceber</trd>,
-          <trd>apreender</trd>,        
+          <trd>apreender</trd>,
           <trd>alcan&ccedil;ar</trd>
         </trdgrp>
       </dif>
@@ -180,7 +180,7 @@
     <dif>
       <ref tip="dif" cel="kompet.0i">Kompetenti</ref>:
       <ekz>
-        Knut beda&ubreve;rinde ne multe <tld/>is en muziko,
+        <nom>Knut</nom> beda&ubreve;rinde ne multe <tld/>is en muziko,
         sed li almena&ubreve; <tld/>is
         <klr>(<sncref ref="kompre.0i.koni_signifon"/>)</klr> la vortojn
         <fnt><bib>Fab3</bib><lok>Sub la saliko</lok></fnt>;
@@ -227,7 +227,7 @@
     <trd>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_c;&c_mol;</trd>,
     <trd>&c_z;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="bo">&#xF67;&#xF0B;&#xF42;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&t_ha;&t_tsheg;&t_ga;&t_naro;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>ch&aacute;pat</trd>,
     <trd>kap&iacute;rovat</trd>,
@@ -253,9 +253,16 @@
   </trdgrp>
   <trd lng="hu">(meg)<ind>&eacute;rt</ind></trd>
   <trdgrp lng="id">
-    <trd><baz>erti</baz> mengerti</trd>,
+    <trd>meng<ind>erti</ind></trd>,
     <trd>paham</trd>,
-    <trd><baz>paham</baz> memahami</trd>
+    <trd><baz>paham</baz>memahami</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x3059;&#x308B;  <pr>&#x308A;&#x304B;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x308F;&#x304B;&#x308B;</trd>,
+    <trd>&#x4E86;&#x89E3;&#x3059;&#x308B;  <pr>&#x308A;&#x3087;&#x3046;&#x304B;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x7D0D;&#x5F97;&#x3059;&#x308B;  <pr>&#x306A;&#x3063;&#x3068;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x7CBE;&#x901A;&#x3057;&#x3066;&#x3044;&#x308B;  <pr>&#x305B;&#x3044;&#x3064;&#x3046;&#x3057;&#x3066;&#x3044;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">begrijpen</trd>
   <trdgrp lng="pl">
@@ -263,8 +270,8 @@
     <trd>pojmowa&cacute;</trd>
     <trd>czai&cacute; <klr> (pot)</klr></trd>,
     <trd>kuma&cacute; <klr> (pot)</klr></trd>
-  </trdgrp> 
-  <trd lng="ro">&icirc;n&tcedil;elege</trd>
+  </trdgrp>
+  <trd lng="ro">&icirc;n&#x21B;elege</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</trd>
@@ -278,7 +285,7 @@
     <trd>f&ouml;rst&aring;</trd>,
     <trd>begripa</trd>
   </trdgrp>
-  <trd lng="uk">&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i;</trd>
   <trd lng="zh">&#x660E;&#x767D;<klr> [m&iacute;ngb&aacute;i]</klr></trd>
 </drv>
 
@@ -318,15 +325,28 @@
     <trd>intelligence<klr tip="ind"> (compr&eacute;hension)</klr></trd>
   </trdgrp>
   <trd lng="hu">meg&eacute;rt&eacute;s</trd>
+  <trdgrp lng="id">
+    <trd>peng<ind>erti</ind>an</trd>,
+    <trd><baz>paham</baz>pemahaman</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;  <pr>&#x308A;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x4E86;&#x89E3;  <pr>&#x308A;&#x3087;&#x3046;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x7D0D;&#x5F97;  <pr>&#x306A;&#x3063;&#x3068;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">begrip</trd>
-  <trd lng="pl">zrozumienie</trd>     
-  <trd lng="ro">&icirc;n&tcedil;elegere</trd>
+  <trd lng="pl">zrozumienie</trd>
+  <trd lng="ro">&icirc;n&#x21B;elegere</trd>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>pochopenie</trd>,
     <trd>porozumenie</trd>
   </trdgrp>
-  <trd lng="uk">&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_n;&c_n;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E86;&#x89E3; <pr>li&#x1CE;oji&#x11B;</pr></trd>,
+    <trd>&#x7406;&#x89E3;&#x529B; <pr>l&#x1D0;ji&#x11B;l&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompre.0ajxo">
@@ -344,14 +364,18 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_n;&c_ja;&c_c;&c_mol;&c_c;&c_je;</trd>
+  <trd lng="de">Begriff</trd>
   <trd lng="es">noci&oacute;n</trd>
   <trd lng="fr">notion</trd>
   <trd lng="hu">fogalom</trd>
+  <trd lng="id"><ind>gagas</ind>an</trd>
+  <trd lng="ja">&#x6982;&#x5FF5;  <pr>&#x304C;&#x3044;&#x306D;&#x3093;</pr></trd>
   <trd lng="nl">notie</trd>
-  <trd lng="pl">poj&eogonek;cie</trd>     
+  <trd lng="pl">poj&eogonek;cie</trd>
   <trd lng="ro">concept</trd>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_i;&c_je;</trd>
-  <trd lng="uk">&#x43F;&#x43E;&#x43D;&#x44F;&c_t;&c_t;&#x44F;</trd>
+  <trd lng="uk">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_t;&c_ja;</trd>
+  <trd lng="zh">&#x6982;&#x5FF5; <pr>g&#xE0;ini&#xE0;n</pr></trd>
 </drv>
 
 <drv mrk="kompre.0ebla">
@@ -402,6 +426,15 @@
     <trd>pardonnable</trd>,
     <trd>saisissable<klr tip="ind"> (par l'esprit)</klr></trd>.
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>dapat dimeng<ind>erti</ind></trd>,
+    <trd>dapat di<ind>paham</ind>i</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x3067;&#x304D;&#x308B;  <pr>&#x308A;&#x304B;&#x3044;&#x3067;&#x304D;&#x308B;</pr></trd>,
+    <trd>&#x308F;&#x304B;&#x308B;</trd>,
+    <trd>&#x3082;&#x3063;&#x3068;&#x3082;&#x306A;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>begrijpelijk</trd>,
     <trd>bevattelijk</trd>,
@@ -412,19 +445,25 @@
     <trd>zrozumia&lstroke;y</trd>,
     <trd>oczywisty</trd>,
     <trd>mo&zdot;liwy do zrozumienia</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>inteligibil</trd>,
     <trd>clar</trd>,
     <trd>posibil de &icirc;n&#x21B;eles</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_n;&c_y;&c_j;</trd>
   <trdgrp lng="sk">
     <trd>pochopite&lcaron;n&yacute;</trd>,
     <trd>zrejm&yacute;</trd>,
     <trd>zrozumite&lcaron;n&yacute;</trd>
   </trdgrp>
-  <trd lng="uk">&c_z;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43B;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_z;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_l;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x61AD; <pr>li&#x1CE;o</pr></trd>,
+    <trd>&#x660E;&#x4E86; <pr>m&#xED;ngli&#x1CE;o</pr></trd>,
+    <trd>&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x7684; <pr>k&#x11B;y&#x1D0;l&#x1D0;ji&#x11B;de</pr></trd>,
+    <trd>&#x6613;&#x61C2; <pr>y&#xEC;d&#x1D2;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompre.0eble">
@@ -451,6 +490,7 @@
       <trd>nat&uuml;rlich</trd>,
       <trd>verst&auml;ndlich</trd>
     </trdgrp>
+    <trd lng="en">understandably</trd>
     <trdgrp lng="es">
     <trd>por supuesto</trd>,
     <trd>por descontado</trd>,
@@ -461,13 +501,14 @@
       <trd>intelligiblement</trd>
     </trdgrp>
     <trd lng="hu">&eacute;rthet&odblac;en</trd>
-    <trd lng="id"><ind>tentu</ind> saja</trd>
     <trdgrp lng="nl">
       <trd>verstaanbaar</trd>,
       <trd>duidelijk<klr tip="ind"> (verstaanbaar)</klr></trd>
     </trdgrp>
+    <trd lng="pl">zrozumiale</trd>
     <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_n;&c_o;</trd>
-  </snc>
+    <trd lng="zh">&#x660E;&#x4E86; <pr>m&#xED;ngli&#x1CE;o</pr></trd>
+</snc>
   <snc mrk="kompre.0eble.mem">
     <dif>
       <ref tip="dif" cel="kompre.mem0eble">Mem<tld/>eble</ref>:
@@ -497,6 +538,7 @@
       <trd>nat&uuml;rlich</trd>,
       <trd>selbstverst&auml;ndlich</trd>
     </trdgrp>
+    <trd lng="en">of course</trd>
     <trdgrp lng="es">
       <trd>evidentemente</trd>,
       <trd>inevitablemente</trd>,
@@ -516,6 +558,7 @@
       <trd>sans aucune <ind>doute</ind></trd>
     </trdgrp>
     <trd lng="hu">term&eacute;szetesen</trd>
+    <trd lng="id"><ind>tentu</ind> saja</trd>
     <trdgrp lng="nl">
       <trd>vanzelfsprekend</trd>,
       <trd>natuurlijk<klr tip="ind"> (vanzelfsprekend)</klr></trd>
@@ -525,7 +568,7 @@
       <trd>rozumie  si&eogonek;</trd>,
       <trd>zrozumiale</trd>,
       <trd>ma si&eogonek; rozumie&cacute;</trd>
-    </trdgrp> 
+    </trdgrp>
     <trd lng="ro">medie</trd>
     <trdgrp lng="ru">
       <trd>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_je;&c_t;&c_s;&c_ja;</trd>,
@@ -538,12 +581,16 @@
     <trd>srozumiteln&ecaron;</trd>,
     <trd>zajist&eacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x3082;&#x3061;&#x308D;&#x3093;</trd>,
+    <trd>&#x308F;&#x304B;&#x308A;&#x3084;&#x3059;&#x304F;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>pochopite&lcaron;ne</trd>,
     <trd>samozrejme</trd>,
     <trd>zrozumite&lcaron;ne</trd>
   </trdgrp>
-  <trd lng="uk">&c_z;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43B;&#x43E;</trd>
+  <trd lng="uk">&c_z;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_l;&c_o;</trd>
 </drv>
 
 <drv mrk="kompre.0ema">
@@ -647,8 +694,7 @@
         <fnt>
         <aut>&Ccirc;ina Radio Internacia</aut>
         <vrk>Leterkesto-050110</vrk>
-        <lok><url
-        ref="http://es.chinabroadcast.cn/1/2005/01/12/1@19699.htm">http://es.chinabroadcast.cn/1/2005/01/12/1@19699.htm</url></lok>
+        <lok><url ref="http://es.chinabroadcast.cn/1/2005/01/12/1@19699.htm">http://es.chinabroadcast.cn/1/2005/01/12/1@19699.htm</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -672,18 +718,34 @@
     </trdgrp>
     <trd lng="hu">meg&eacute;rt&odblac;</trd>
     <trd lng="nl">begripsvol</trd>
-    <trd lng="pl">poj&eogonek;tny</trd>     
+    <trd lng="pl">poj&eogonek;tny</trd>
     <trd lng="ro">docil</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>,
       <trd>&c_b;&c_l;&c_a;&c_g;&c_o;&c_zh;&c_je;&c_l;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>verst&auml;ndnisvoll</trd>,
+    <trd>verst&auml;ndig</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x529B;&#x306E;&#x3042;&#x308B; 
+    <pr>&#x308A;&#x304B;&#x3044;&#x3061;&#x304B;&#x3089;&#x306E;&#x3042;&#x308B;</pr></trd>,
+    <trd>&#x7406;&#x89E3;&#x304C;&#x3042;&#x308B;  <pr>&#x308A;&#x304B;&#x3044;&#x304C;&#x3042;&#x308B;</pr></trd>,
+    <trd>&#x601D;&#x3044;&#x3084;&#x308A;&#x306E;&#x3042;&#x308B; 
+    <pr>&#x304A;&#x3082;&#x3044;&#x3084;&#x308A;&#x306E;&#x3042;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_t;&#x44F;&#x43C;&c_u;&c_shch;&c_i;&c_j;</trd>,
-    <trd>&c_t;&#x44F;&#x43C;&#x43A;&c_i;&c_j;</trd>,
-    <trd>&c_t;&#x44F;&#x43C;&#x43E;&c_v;&c_i;&c_t;&c_i;&c_j;</trd>,
-    <trd>&#x43A;&#x43C;&c_ib;&c_t;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>
+    <trd>&c_t;&c_ja;&c_m;&c_u;&c_shch;&c_i;&c_j;</trd>,
+    <trd>&c_t;&c_ja;&c_m;&c_k;&c_i;&c_j;</trd>,
+    <trd>&c_t;&c_ja;&c_m;&c_o;&c_v;&c_i;&c_t;&c_i;&c_j;</trd>,
+    <trd>&c_k;&c_m;&c_ib;&c_t;&c_l;&c_i;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x660E;&#x7406; <pr>m&#xED;ngl&#x1D0;</pr></trd>,
+    <trd>&#x5145;&#x5206;&#x7406;&#x89E3; <pr>ch&#x14D;ngf&#xE8;nl&#x1D0;ji&#x11B;</pr></trd>,
+    <trd>&#x660E;&#x667A; <pr>m&#xED;ngzh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -762,8 +824,7 @@
       <fnt>
       <aut>&Ccirc;ina E-Ligo</aut>
       <vrk>Dumkongresaj ekskursoj</vrk>
-      <lok><url
-      ref="http://www.espero.com.cn/uk2004/e03-3-10.htm">http://www.espero.com.cn/uk2004/e03-3-10.htm</url></lok>
+      <lok><url ref="http://www.espero.com.cn/uk2004/e03-3-10.htm">http://www.espero.com.cn/uk2004/e03-3-10.htm</url></lok>
       </fnt>.
     </ekz>
     <ref tip="vid" cel="indulg.0ema">indulgemo</ref>
@@ -786,8 +847,8 @@
       <trd>j&oacute;indulat</trd>
     </trdgrp>
     <trd lng="nl">begrip</trd>
-    <trd lng="pl">zrozumienie</trd>     
-    <trd lng="ro">&icirc;n&tcedil;elegere</trd>
+    <trd lng="pl">zrozumienie</trd>
+    <trd lng="ro">&icirc;n&#x21B;elegere</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_b;&c_l;&c_a;&c_g;&c_o;&c_zh;&c_je;&c_l;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
@@ -798,7 +859,14 @@
     <trd>ch&aacute;pavost</trd>,
     <trd>komprehenzivnost</trd>
   </trdgrp>
+  <trd lng="de">Verst&auml;ndnis</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x529B;  <pr>&#x308A;&#x304B;&#x3044;&#x308A;&#x3087;&#x304F;</pr></trd>,
+    <trd>&#x7406;&#x89E3;  <pr>&#x308A;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x601D;&#x3044;&#x3084;&#x308A;  <pr>&#x304A;&#x3082;&#x3044;&#x3084;&#x308A;</pr></trd>
+  </trdgrp>
   <trd lng="sk">ch&aacute;pavos&tcaron;</trd>
+  <trd lng="zh">&#x609F;&#x6027; <pr>w&#xF9;x&#xEC;ng</pr></trd>
 </drv>
 
 <drv mrk="kompre.0eti">
@@ -847,8 +915,9 @@
     <trd>kapisk&aacute;l</trd>,
     <trd>kicsit <ind>&eacute;rt</ind></trd>
   </trdgrp>
+  <trd lng="ja">&#x63A8;&#x5BDF;&#x3059;&#x308B;  <pr>&#x3059;&#x3044;&#x3055;&#x3064;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">half en half <ind>begrijpen</ind></trd>
-  <trd lng="pl">przewidzie&cacute;</trd>     
+  <trd lng="pl">przewidzie&cacute;</trd>
   <trd lng="ro">prezice</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_u;&c_t;&c_n;&c_o; <ind>&c_o;&c_s;&c_o;&c_z;&c_n;&c_a;&c_v;&c_a;&c_t;&c_mol;</ind></trd>,
@@ -857,9 +926,14 @@
   </trdgrp>
   <trd lng="sk">dom&yacute;&scaron;&lcaron;a&tcaron; si</trd>
   <trdgrp lng="uk">
-    <trd>&#x43D;&c_a;&#x43F;&#x43E;&#x43B;&#x43E;&c_v;&c_i;&#x43D;&c_u; &c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&c_t;&c_i;</trd>,
-    <trd>&c_t;&c_r;&#x43E;&c_h;&c_i; &c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&c_t;&c_i;</trd>,
-    <trd>&c_z;&c_d;&#x43E;&c_g;&c_a;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+    <trd>&c_n;&c_a;&c_p;&c_o;&c_l;&c_o;&c_v;&c_i;&c_n;&c_u; &c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i;</trd>,
+    <trd>&c_t;&c_r;&c_o;&c_h;&c_i; &c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_d;&c_o;&c_g;&c_a;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x731C; <pr>c&#x101;i</pr></trd>,
+    <trd>&#x731C;&#x60F3; <pr>c&#x101;ixi&#x1CE;ng</pr></trd>,
+    <trd>&#x731C;&#x6D4B; <pr>c&#x101;ic&#xE8;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -869,7 +943,7 @@
     <dif>
       Igi <tld/>i:
       <ekz>
-        ho Daniel, nun mi eliris, por <tld/>igi al vi la aferon
+        ho <nom>Daniel</nom>, nun mi eliris, por <tld/>igi al vi la aferon
         <fnt><bib>MT</bib><lok>&Dan; 9:22</lok></fnt>;
       </ekz>
       <ekz>
@@ -905,12 +979,18 @@
   <trd lng="es">hacer <ind>entender</ind></trd>
   <trd lng="fr">faire <ind>comprendre</ind></trd>
   <trd lng="hu">meg&eacute;rtet</trd>
+  <trd lng="id"><baz>paham</baz>memahamkan</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x3055;&#x305B;&#x308B;  <pr>&#x308A;&#x304B;&#x3044;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x308F;&#x304B;&#x3089;&#x305B;&#x308B;</trd>,
+    <trd>&#x8AAC;&#x660E;&#x3059;&#x308B;  <pr>&#x305B;&#x3064;&#x3081;&#x3044;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>uitleggen</trd>,
     <trd>toelichten</trd>,
     <trd>doen <ind>begrijpen</ind></trd>
   </trdgrp>
-  <trd lng="pl">interpretowa&cacute;</trd>     
+  <trd lng="pl">interpretowa&cacute;</trd>
   <trd lng="ro">interpreta</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_malmol;&c_ja;&c_s;&c_n;&c_i;&c_t;&c_mol;</trd>,
@@ -922,10 +1002,10 @@
     <trd>vysvetli&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_z;&c_r;&#x43E;&c_b;&c_i;&c_t;&c_i; &c_z;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43B;&c_i;&#x43C;</trd>,
-    <trd>&c_r;&#x43E;&c_z;&c_t;&#x43B;&c_u;&#x43C;&c_a;&c_ch;&c_i;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&#x43E;&#x44F;&c_s;&#x43D;&c_i;&c_t;&c_i;</trd>,
-    <trd>&c_d;&c_a;&c_t;&c_i; &c_z;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&c_t;&c_i;</trd>
+    <trd>&c_z;&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_z;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_l;&c_i;&c_m;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_t;&c_l;&c_u;&c_m;&c_a;&c_ch;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_o;&c_ja;&c_s;&c_n;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_a;&c_t;&c_i; &c_z;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -952,11 +1032,11 @@
         Rusio
         <fnt>
         <vrk>Moskva &Scirc;tata Universitato</vrk>
-        <lok><url
-        ref="http://universitato.narod.ru/historio/moskva_universitato.01.htm">http://universitato.narod.ru/historio/moskva_universitato.01.htm</url></lok>
+        <lok><url ref="http://universitato.narod.ru/historio/moskva_universitato.01.htm">http://universitato.narod.ru/historio/moskva_universitato.01.htm</url></lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de"><ind>verstanden</ind> werden</trd>
     <trdgrp lng="fr">
       <trd>se <ind>comprendre</ind><klr tip="ind"> (&ecirc;tre
       compr&eacute;hensible)</klr></trd>
@@ -1002,6 +1082,7 @@
       <trd>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_c;&c_mol; &c_a;&c_d;&c_z;&c_ib;&c_n; &c_a;&c_d;&c_n;&c_a;&c_g;&c_o;</trd>,
       <trd>&c_p;&c_a;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_c;&c_c;&c_a;</trd>
     </trdgrp>
+    <trd lng="de">sich <ind>verst&auml;ndigen</ind></trd>
     <trdgrp lng="fr">
       <trd>se <ind>comprendre</ind><klr tip="ind"> (l'un
       l'autre)</klr></trd>,
@@ -1009,7 +1090,7 @@
     </trdgrp>
     <trd lng="hu">meg&eacute;rtik egym&aacute;st</trd>
     <trd lng="nl">elkaar <ind>begrijpen</ind></trd>
-    <trd lng="pl">porozumie&cacute; si&eogonek;</trd>     
+    <trd lng="pl">porozumie&cacute; si&eogonek;</trd>
     <trd lng="ro">comunica</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol; &c_d;&c_r;&c_u;&c_g; &c_d;&c_r;&c_u;&c_g;&c_a;</trd>,
@@ -1017,6 +1098,7 @@
       <ind>&c_v;&c_z;&c_a;&c_i;&c_m;&c_o;&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_ja;</ind></trd>
     </trdgrp>
   </snc>
+  <trd lng="ja">&#x7406;&#x89E3;&#x3055;&#x308C;&#x308B;  <pr>&#x308A;&#x304B;&#x3044;&#x3055;&#x308C;&#x308B;</pr></trd>
 </drv>
 
 <drv mrk="kompre.0ilo0igxilo">
@@ -1027,8 +1109,8 @@
       Rimedo por inter<tld/>i&gcirc;i:
       <ekz>
         la esperantismo celas nur al tio, ke ia ta&ubreve;ga kaj vivipova
-        <tld/>ilo inter la popoloj ekzistu, 
-        sed ke la formo de tiu <tld/>ilo estas por ni <klr>[&#8230;]</klr>
+        <tld/>ilo inter la popoloj ekzistu,
+        sed ke la formo de tiu <tld/>ilo estas por ni <klr>[&#x2026;]</klr>
         tute indiferenta
         <fnt>
           <bib>Paroloj</bib>
@@ -1038,7 +1120,7 @@
       </ekz>
       <ekz>
         vidi en Esperanto nur lingvon simplan, malvarman internacian
-        <tld/>i&gcirc;ilon, 
+        <tld/>i&gcirc;ilon,
         similan al la mara signaro, kvankam pli perfektan
         <fnt>
           <bib>Paroloj</bib>
@@ -1053,10 +1135,15 @@
     <trd>meg&eacute;rt&eacute;s eszk&ouml;ze</trd>,
     <trd>&eacute;rintkez&eacute;si eszk&ouml;z</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x76F8;&#x4E92;&#x7406;&#x89E3;&#x3092;&#x9032;&#x3081;&#x308B;&#x624B;&#x6BB5; 
+    <pr>&#x305D;&#x3046;&#x3054;&#x308A;&#x304B;&#x3044;&#x3092;&#x3059;&#x3059;&#x3081;&#x308B;&#x3057;&#x3085;&#x3060;&#x3093;</pr></trd>,
+    <trd>&#x5171;&#x901A;&#x8A9E;  <pr>&#x304D;&#x3087;&#x3046;&#x3064;&#x3046;&#x3054;</pr></trd>
+  </trdgrp>
   <trd lng="nl">communicatiemiddel</trd>
-  <trd lng="pl">&sacute;rodek komunikacji</trd> 
+  <trd lng="pl">&sacute;rodek komunikacji</trd>
   <trd lng="ru">&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o; &c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_ja;</trd>
-  <trd lng="uk">&c_z;&c_a;&c_s;&c_ib;&c_b; &#x43F;&#x43E;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_z;&c_a;&c_s;&c_ib;&c_b; &c_p;&c_o;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="kompre.cxio0a">
@@ -1065,16 +1152,21 @@
     <dif>
       &Ccirc;ion <tld/>anta:
       <ekz>
-        la Eternulo <klr>[...]</klr> donis al la re&gcirc;o David
+        la Eternulo <klr>[...]</klr> donis al la re&gcirc;o <nom>David</nom>
         filon sa&gcirc;an, kleran, kaj &ccirc;io<tld/>an
         <fnt><bib>MT</bib><lok>&Kr2; 2:12</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">allwissend</trd>
   <trd lng="id"><ind>maha</ind>tahu</trd>
   <trd lng="nl">alles <ind>begrijpend</ind></trd>
   <trd lng="pl">wszystko rozumiej&aogonek;cy</trd>
   <trd lng="ru">&c_v;&c_s;&c_jo; <ind>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_ju;&c_shch;&c_i;&c_j;</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x5168;&#x77E5; <pr>qu&#xE1;nzh&#x12B;</pr></trd>,
+    <trd>&#x65E0;&#x6240;&#x4E0D;&#x77E5; <pr>w&#xFA;su&#x1D2;b&#xF9;zh&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompre.duon0i">
@@ -1095,7 +1187,16 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="diven.0i">diveni</ref>,
+      <ref cel="konjek.0i">konjekti</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="de">
+    <trd>ansatzweise <ind>verstehen</ind></trd>,
+    <trd>deuten</trd>,
+    <trd>erahnen</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>comprendre confus&eacute;ment</trd>,
     <trd>comprendre &agrave; moiti&eacute;</trd>,
@@ -1112,12 +1213,17 @@
     <trd>f&eacute;lig <ind>&eacute;rt</ind></trd>
   </trdgrp>
   <trd lng="nl">half en half <ind>begrijpen</ind></trd>
-  <trd lng="pl">zrozumie&cacute; po&lstroke;ow&eogonek;</trd>     
-  <trd lng="ro">s&abreve; &icirc;n&tcedil;eleag&abreve; jum&abreve;tate</trd>
+  <trd lng="pl">zrozumie&cacute; po&lstroke;ow&eogonek;</trd>
+  <trd lng="ro">s&abreve; &icirc;n&#x21B;eleag&abreve; jum&abreve;tate</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_u;&c_t;&c_n;&c_o; <ind>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</ind></trd>,
     <trd>&c_o;&c_t;&c_ch;&c_a;&c_s;&c_t;&c_i; <ind>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</ind></trd>,
     <trd>&c_ch;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_o; <ind>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8A6E;&#x91CB; <pr>qu&#xE1;nsh&#xEC;</pr></trd>,
+    <trd>&#x731C;&#x60F3; <pr>c&#x101;ixi&#x1CE;ng</pr></trd>,
+    <trd>&#x731C;&#x6D4B; <pr>c&#x101;ic&#xE8;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1147,6 +1253,11 @@
     <trd>pochopit</trd>,
     <trd>porozum&ecaron;t <klr>(n&ecaron;&ccaron;emu)</klr></trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>erkennen</trd>,
+    <trd>eine <ind>Eingebung</ind> haben</trd>,
+    <trd>pl&ouml;tzlich <ind>verstehen</ind></trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>empezar a <ind>entender</ind></trd>,
     <trd>entrever</trd>,
@@ -1163,8 +1274,8 @@
     <trd>kezd <ind>felfogni</ind></trd>
   </trdgrp>
   <trd lng="nl">beginnen te <ind>begrijpen</ind></trd>
-  <trd lng="pl">zrozumie&cacute;</trd>     
-  <trd lng="ro">&icirc;n&tcedil;elege</trd>
+  <trd lng="pl">zrozumie&cacute;</trd>
+  <trd lng="ro">&icirc;n&#x21B;elege</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_ch;&c_a;&c_t;&c_mol; <ind>&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</ind></trd>,
     <trd>&c_d;&c_o;&c_g;&c_a;&c_d;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
@@ -1173,6 +1284,13 @@
   <trdgrp lng="sk">
     <trd>dovt&iacute;pi&tcaron; sa</trd>,
     <trd>porozumie&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x89BA;&#x9192; <pr>ju&#xE9;x&#x1D0;ng</pr></trd>,
+    <trd>&#x89E3;&#x51FA; <pr>ji&#x11B;ch&#x16B;</pr></trd>,
+    <trd>&#x9192;&#x609F; <pr>x&#x1D0;ngw&#xF9;</pr></trd>,
+    <trd>&#x8A8D;&#x51FA; <pr>r&#xE8;nch&#x16B;</pr></trd>,
+    <trd>&#x9EBB;&#x9EBB;&#x4EAE; <pr>m&#x101;mali&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1211,15 +1329,23 @@
   </trdgrp>
   <trd lng="de">sich (gegenseitig) <ind>verstehen</ind></trd>
   <trd lng="hu">meg&eacute;rtik egym&aacute;st</trd>
+  <trdgrp lng="id">
+    <trd>saling meng<ind>erti</ind></trd>,
+    <trd><baz>paham</baz>saling memahami</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x3057;&#x5408;&#x3046;  <pr>&#x308A;&#x304B;&#x3044;&#x3057;&#x3042;&#x3046;</pr></trd>,
+    <trd>&#x4E86;&#x89E3;&#x3057;&#x5408;&#x3046;  <pr>&#x308A;&#x3087;&#x3046;&#x304B;&#x3044;&#x3057;&#x3042;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">elkaar <ind>begrijpen</ind></trd>
   <trdgrp lng="pl">
     <trd>dogada&cacute; si&eogonek;</trd>,
     <trd>porozumie&cacute; si&eogonek;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
-    <trd>merge&tcedil;i mai departe</trd>,
+    <trd>merge&#x21B;i mai departe</trd>,
     <trd>comunica</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_j;&c_t;&c_i; &c_k;
     <ind>&c_v;&c_z;&c_a;&c_i;&c_m;&c_o;&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_ju;</ind></trd>,
@@ -1247,18 +1373,23 @@
     </dif>
   </snc>
   <trd lng="cs">nedorozum&ecaron;n&iacute;</trd>
+  <trdgrp lng="de">
+    <trd>Unverst&auml;ndnis</trd>,
+    <trd>Nichtverstehen</trd>
+  </trdgrp>
   <trd lng="fr">incompr&eacute;hension</trd>
   <trdgrp lng="hu">
     <trd>meg nem <ind>&eacute;rt&eacute;s</ind></trd>,
     <trd>&eacute;rtetlens&eacute;g</trd>
   </trdgrp>
   <trd lng="id">ketidak<ind>paham</ind>an</trd>
+  <trd lng="ja">&#x7121;&#x7406;&#x89E3;  <pr>&#x3080;&#x308A;&#x304B;&#x3044;</pr></trd>
   <trd lng="nl">onbegrip</trd>
-  <trd lng="pl">niezrozumienie</trd>     
-  <trd lng="ro">lips&abreve; de &icirc;n&tcedil;elegere</trd>
+  <trd lng="pl">niezrozumienie</trd>
+  <trd lng="ro">lips&abreve; de &icirc;n&#x21B;elegere</trd>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">nedorozumenie</trd>
-  <trd lng="uk">&#x43D;&c_je;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43D;&#x43D;&#x44F;</trd>
+  <trd lng="uk">&c_n;&c_je;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_n;&c_n;&c_ja;</trd>
 </drv>
 
 <drv mrk="kompre.mal0o">
@@ -1286,6 +1417,7 @@
     </refgrp>
     </snc>
   <trd lng="cs">nedorozum&ecaron;n&iacute;</trd>
+  <trd lng="de">Unverst&auml;ndnis</trd>
   <trdgrp lng="fr">
     <trd>m&eacute;sentente</trd>,
     <trd>m&eacute;sintelligence</trd>,
@@ -1294,13 +1426,14 @@
   <trd lng="hu">f&eacute;lre&eacute;rt&eacute;s</trd>
   <trd lng="id">ketidak<ind>paham</ind>an</trd>
   <trd lng="nl">misverstand</trd>
-  <trd lng="pl">nieporozumienie</trd>     
+  <trd lng="pl">nieporozumienie</trd>
   <trd lng="ro">ne&icirc;n&#x21B;elegere</trd>
   <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>nepochopenie</trd>,
     <trd>neporozumenie</trd>
   </trdgrp>
+  <trd lng="zh">&#x4E0D;&#x53EF;&#x7406;&#x89E3; <pr>b&#xF9;k&#x11B;l&#x1D0;ji&#x11B;</pr></trd>
 </drv>
 
 <drv mrk="kompre.ne0ebla">
@@ -1310,7 +1443,7 @@
       Ne <ref tip="ant" cel="kompre.0ebla"><tld/>ebla</ref>:
       <ekz>
         ne al popolo kun ne<tld/>ebla lingvo kaj malfacila parolado
-        vi estas sendata, sed al la domo de Izrael
+        vi estas sendata, sed al la domo de <nom>Izrael</nom>
         <fnt><bib>MT</bib><lok>&Jeh; 3:5</lok></fnt>;
       </ekz>
       <ekz>
@@ -1324,22 +1457,33 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">unverst&auml;ndlich</trd>
   <trdgrp lng="fr">
     <trd>incompr&eacute;hensible</trd>,
     <trd>inintelligible</trd>
   </trdgrp>
     <trd lng="hu">&eacute;rthetetlen</trd>
-    <trd lng="nl">onbegrijpelijk</trd>
+    <trdgrp lng="ja">
+    <trd>&#x7406;&#x89E3;&#x3067;&#x304D;&#x306A;&#x3044;  <pr>&#x308A;&#x304B;&#x3044;&#x3067;&#x304D;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x308F;&#x304B;&#x3089;&#x306A;&#x3044;</trd>,
+    <trd>&#x5408;&#x70B9;&#x306E;&#x3044;&#x304B;&#x306A;&#x3044; 
+    <pr>&#x304C;&#x3066;&#x3093;&#x306E;&#x3044;&#x304B;&#x306A;&#x3044;</pr></trd>
+  </trdgrp>
+  <trd lng="nl">onbegrijpelijk</trd>
   <trdgrp lng="pl">
     <trd>niepoj&eogonek;ty</trd>,
     <trd>niezrozumia&lstroke;y</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>neconceput</trd>,
-    <trd>de ne&icirc;n&tcedil;eles</trd>
-  </trdgrp>   
+    <trd>de ne&icirc;n&#x21B;eles</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_n;&c_ja;&c_t;&c_n;&c_y;&c_j;</trd>
-  <trd lng="uk">&#x43D;&c_je;&c_z;&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&#x43B;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_n;&c_je;&c_z;&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_l;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x77E5;&#x6240;&#x8B02; <pr>b&#xF9;zh&#x12B;su&#x1D2;w&#xE8;i</pr></trd>,
+    <trd>&#x65E0;&#x6CD5;&#x7406;&#x89E3; <pr>w&#xFA;f&#x1CE;l&#x1D0;ji&#x11B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompre.mal0ebla">
@@ -1349,7 +1493,7 @@
     <dif>
       Mal&gcirc;uste a&ubreve; tute ne <ref tip="ant" cel="kompre.0ebla"><tld/>ebla</ref>:
       <ekz>
-        Same anstata&ubreve; la kelkfoje renkonteblaj formoj: 
+        same anstata&ubreve; la kelkfoje renkonteblaj formoj:
         malebla, malkomprenebla, malvidebla, mallegebla k.t.p. pli
         &gcirc;ustaj estas:
         neebla, nekomprenebla, nevidebla, nelegebla k.t.p.
@@ -1373,6 +1517,7 @@
       <ref cel="kompre.ne0ebla">ne<tld/>ebla</ref>.
     </refgrp>
   </snc>
+  <trd lng="de">unverst&auml;ndlich</trd>
   <trdgrp lng="fr">
     <trd>inexplicable</trd>,
     <trd>inintelligible</trd>
@@ -1385,14 +1530,152 @@
   <trdgrp lng="pl">
     <trd>niewyt&lstroke;umaczalny</trd>,
     <trd>niezrozumia&lstroke;y</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>inexplicabil</trd>,
     <trd>neinteligibil</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_s;&c_t;&c_i;&c_zh;&c_i;&c_m;&c_y;&c_j;</trd>
+  <trd lng="zh">&#x65E0;&#x6CD5;&#x7406;&#x89E3; <pr>w&#xFA;f&#x1CE;l&#x1D0;ji&#x11B;</pr></trd>
 </drv>
 
+<drv mrk="kompre.mem0ebla">
+  <kap>mem<tld/>ebla</kap>
+  <snc>
+    <dif>
+      Evidenta, facile <tld/>ebla, e&ccirc; sen klarigoj:
+      <ekz>
+        mia subkonscio elvomis la solvon de mia problemeto<klr>[:]</klr>
+        vere simplan kaj mem<tld/>eblan solvon, vitro-klaran, tutsimple
+        prapuran
+        <fnt><bib>&Scirc;talrato</bib><lok>&ccirc;ap. 6</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_ib;&c_d;&c_a;&c_v;&c_o;&c_ch;&c_n;&c_y;</trd>,
+    <trd>&c_ja;&c_w;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trd lng="de">selbstverst&auml;ndlich</trd>
+  <trdgrp lng="es">
+    <trd>autocomprensible</trd>,
+    <trd>comprensible por s&iacute; mismo</trd>
+  </trdgrp>
+  <trdgrp lng="fi">
+    <trd>itsest&auml;&auml;n ymm&auml;rrett&auml;v&auml;</trd>,
+    <trd>luonnollinen</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;vident</trd>,
+    <trd>qui va de <ind>soi</ind></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>nyilv&aacute;nval&oacute;</trd>,
+    <trd>mag&aacute;t&oacute;l &eacute;rtet&odblac;d&odblac;</trd>,
+    <trd>term&eacute;szetes</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x81EA;&#x660E;&#x306E;  <pr>&#x3058;&#x3081;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x308F;&#x304B;&#x308A;&#x304D;&#x3063;&#x305F;</trd>
+  </trdgrp>
+  <trd lng="nl">vanzelfsprekend<klr tip="ind"> (bn.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>samo przez si&eogonek; zrozumia&lstroke;y</trd>
+    <trd>oczywisty</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>auto-explicativ</trd>,
+    <trd>clar</trd>,
+    <trd>evident</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_ch;&c_je;&c_v;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_s;&c_a;&c_m;&c_o; &c_s;&c_o;&c_b;&c_o;&c_j; <ind>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja;</ind></trd>
+  </trdgrp>
+  <trd lng="sv">sj&auml;lvklar</trd>
+  <trdgrp lng="zh">
+    <trd>&#x663E;&#x7136; <pr>xi&#x1CE;nr&#xE1;n</pr></trd>,
+    <trd>&#x660E;&#x663E; <pr>m&#xED;ngxi&#x1CE;n</pr></trd>,
+    <trd>&#x5F70; <pr>zh&#x101;ng</pr></trd>,
+    <trd>&#x5F70;&#x660E; <pr>zh&#x101;ngm&#xED;ng</pr></trd>,
+    <trd>&#x660E;&#x6446;&#x7740; <pr>m&#xED;ngb&#x1CE;izhe</pr></trd>,
+    <trd>&#x662D; <pr>zh&#x101;o</pr></trd>,
+    <trd>&#x6D45;&#x663E; <pr>qi&#x1CE;nxi&#x1CE;n</pr></trd>,
+    <trd>&#x4E0D;&#x8A00;&#x800C;&#x55BB; <pr>b&#xF9;y&#xE1;n&#xE9;ry&#xF9;</pr></trd>,
+    <trd>&#x7406;&#x6240;&#x5F53;&#x7136; <pr>l&#x1D0;su&#x1D2;d&#x101;ngr&#xE1;n</pr></trd>,
+    <trd>&#x5F53;&#x7136;&#x6709; <pr>d&#x101;ngr&#xE1;ny&#x1D2;u</pr></trd>,
+    <trd>&#x9806;&#x7406;&#x6210;&#x7AE0; <pr>sh&#xF9;nl&#x1D0;ch&#xE9;ngzh&#x101;ng</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kompre.mem0eble">
+  <kap>mem<tld/>eble</kap>
+  <snc>
+    <dif>
+      Konforme al la kutima, natura, atendebla sinsekvo de eventoj
+      a&ubreve; ideoj:
+      <ekz>
+        mem<tld/>eble la konfuzeco de la poemo (a&ubreve; kiel mia poeta
+        amiko esprimis, &gcirc;ia <ctl>ditiramba intermitado</ctl>)
+        okazigis du preserarojn
+        <fnt>
+        <aut>Szathmari</aut>: <vrk>Liriko</vrk>.
+        <lok><url ref="http://www.esperanto.mv.ru/Szathmari/">Satiraj rakontoj</url>.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_l;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_n;&c_je;&c_ch;&c_n;&c_je;</trd>,
+    <trd>&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>pochopiteln&ecaron;</trd>,
+    <trd>samoz&rcaron;ejm&ecaron;</trd>,
+    <trd>srozumiteln&ecaron;</trd>,
+    <trd>zajist&eacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>nat&uuml;rlich</trd>,
+    <trd>selbstverst&auml;ndlich</trd>
+  </trdgrp>
+  <trd lng="en">of course</trd>
+  <trdgrp lng="fr">
+    <trd>&eacute;videmment</trd>,
+    <trd>&agrave; l'<ind>&eacute;vidence</ind></trd>,
+    <trd>bien <ind>entendu</ind></trd>,
+    <trd>bien <ind>s&ucirc;r</ind></trd>,
+    <trd>il va de <ind>soi</ind> que</trd>,
+    <trd>in&eacute;vitablement</trd>,
+    <trd>naturellement<klr tip="ind"> (&eacute;videmment)</klr></trd>,
+    <trd>sans <ind>conteste</ind></trd>,
+    <trd>sans <ind>contredit</ind></trd>,
+    <trd>sans aucune <ind>doute</ind></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>nyilv&aacute;n</trd>,
+    <trd>mag&aacute;t&oacute;l <ind>&eacute;rtet&odblac;d&odblac;en</ind></trd>
+  </trdgrp>
+  <trd lng="ja">&#x81EA;&#x660E;&#x306E;&#x3088;&#x3046;&#x306B;  <pr>&#x3058;&#x3081;&#x3044;&#x306E;&#x3088;&#x3046;&#x306B;</pr></trd>
+  <trd lng="nl">vanzelfsprekend<klr tip="ind"> (bw.)</klr></trd>
+  <trd lng="pl">naturalnie</trd>
+  <trd lng="ro">natural</trd>
+  <trdgrp lng="ru">
+    <trd>&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_je;&c_t;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pochopite&lcaron;ne</trd>,
+    <trd>samozrejme</trd>,
+    <trd>zrozumite&lcaron;ne</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6562;&#x60C5; <pr>g&#x1CE;nqing</pr></trd>,
+    <trd>&#x5F53;&#x7136;&#x6709; <pr>d&#x101;ngr&#xE1;ny&#x1D2;u</pr></trd>,
+    <trd>&#x90A3;&#x662F; <pr>n&#xE0;shi</pr></trd>
+  </trdgrp>
+</drv>
 
 <drv mrk="kompre.mis0i">
   <kap>mis<tld/>i</kap>
@@ -1418,11 +1701,12 @@
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_ja;&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_a; &c_z;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_c;&c_mol;</trd>
-  <trd lng="bo">&#xF53;&#xF7C;&#xF62;&#xF0B;</trd>
+  <trd lng="bo">&t_na;&t_naro;&t_ra;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>neporozum&ecaron;t</trd>,
     <trd>nespr&aacute;vn&ecaron; rozum&ecaron;t</trd>
   </trdgrp>
+  <trd lng="de">missverstehen</trd>
   <trd lng="es">malinterpretar</trd>
   <trdgrp lng="fr">
     <trd>m&eacute;comprendre</trd>,
@@ -1431,14 +1715,103 @@
   </trdgrp>
   <trd lng="hu">f&eacute;lre&eacute;rt&eacute;s</trd>
   <trd lng="id"><ind>salah</ind> paham</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8AA4;&#x89E3;&#x3059;&#x308B;  <pr>&#x3054;&#x304B;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x53D6;&#x308A;&#x9055;&#x3048;&#x308B;  <pr>&#x3068;&#x308A;&#x3061;&#x304C;&#x3048;&#x308B;</pr></trd>,
+    <trd>&#x601D;&#x3044;&#x9055;&#x3044;&#x3092;&#x3059;&#x308B;  <pr>&#x304A;&#x3082;&#x3044;&#x3061;&#x304C;&#x3044;&#x3092;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verkeerd <ind>begrijpen</ind></trd>
-  <trd lng="pl">rozumie&cacute; &zacute;le</trd>     
-  <trd lng="ro">&icirc;n&tcedil;elege&tcedil;i prost</trd>
+  <trd lng="pl">rozumie&cacute; &zacute;le</trd>
+  <trd lng="ro">&icirc;n&#x21B;elege&#x21B;i prost</trd>
   <trd lng="ru">&c_n;&c_je;&c_v;&c_je;&c_r;&c_n;&c_o; &c_p;&c_o;&c_n;&c_ja;&c_t;&c_mol;</trd>
   <trd lng="sk">nespr&aacute;vne ch&aacute;pa&tcaron;</trd>
-  <trd
-  lng="uk">&#x43D;&c_je;&#x43F;&c_r;&c_a;&c_v;&c_i;&#x43B;&#x44C;&#x43D;&#x43E;/&#x43F;&#x43E;&#x43C;&c_i;&#x43B;&#x43A;&#x43E;&c_v;&#x43E;
-  (&c_z;)&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&c_t;&c_i;</trd>
+  <trd lng="uk">&c_n;&c_je;&c_p;&c_r;&c_a;&c_v;&c_i;&c_l;&c_mol;&c_n;&c_o;/&c_p;&c_o;&c_m;&c_i;&c_l;&c_k;&c_o;&c_v;&c_o;
+  (&c_z;)&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8AA4;&#x6703; <pr>w&#xF9;hu&#xEC;</pr></trd>,
+    <trd>&#x4F1A;&#x9519;&#x610F; <pr>hu&#xEC;cu&#xF2;y&#xEC;</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kompre.mis0o">
+  <kap>
+    mis<tld/>o
+  </kap>
+  <snc mrk="kompre.mis0o.nekapablo">
+    <dif>
+      Nekapablo de &gcirc;usta <tld/>o:
+      <ekz>
+        viza&gcirc;o de <nom>Reingold</nom> deformi&gcirc;as, <klr>[&#x2026;]</klr> &ccirc;u la redakcio de
+        &leftquot;<nom>Vorw&auml;rts</nom>&rightquot; tiel
+        &scirc;an&gcirc;is sian politikon? en vo&ccirc;o de la juna oficiro sonas sincera mis<tld/>o
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter li kaj <nom>Ligia</nom> kaj inter iliaj ideoj, <klr>[&#x2026;]</klr> ekzistas ia diferenco,
+        ia mis<tld/>o, profunda, kiel abismo
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+  <trd lng="de">Unverst&auml;ndnis</trd>
+    <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x7406;&#x89E3; <pr>b&#xF9;l&#x1D0;ji&#x11B;</pr></trd>,
+    <trd>&#x8AAA;&#x5DEE;&#x4E86; <pr>shu&#x14D;ch&#x101;le</pr></trd>
+  </trdgrp>
+</snc>
+  <snc mrk="kompre.mis0o.okazo">
+    <dif>
+      Unuopa <ref tip="super" cel="okaz.0o.travivajxo">okazo</ref> de erara inter<tld/>i&gcirc;o:
+      <ekz>
+        oni kelkfoje povas eviti konfuzon kaj mis<tld/>ojn, <klr>[&#x2026;]</klr> se oni faras
+        tute, tute malgrandan pa&ubreve;zeton inter la &ccirc;efelemento kaj la flankelemento
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu parolas malbone la lingvon, &gcirc;enas la a&ubreve;skultantojn, riskas mis<tld/>ojn
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        verdire, tiu respondo min surprizas, <klr>[&#x2026;]</klr> mi timas ke okazis mis<tld/>o
+        <fnt>
+          <bib>MkM</bib>
+          <lok>2</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Missverst&auml;ndnis</trd>
+    <trd lng="en">misunderstanding</trd>
+    <trd lng="hu">f&eacute;lre&eacute;rt&eacute;s</trd>
+    <trd lng="id">ke<ind>salah</ind>pahaman</trd>
+    <trd lng="nl">misverstand</trd>
+    <trdgrp lng="pl">
+      <trd>nieporozumienie</trd>,
+      <trd>scysja</trd>,
+      <trd>niesnaska</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>confuzie</trd>,
+      <trd>ne&icirc;n&#x21B;elegere</trd>,
+      <trd>ceart&abreve;</trd>,
+      <trd>diferend</trd>
+    </trdgrp>
+    <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_n;&c_i;&c_je;</trd>
+  </snc>
+  <trdgrp lng="ja">
+    <trd>&#x8AA4;&#x89E3;  <pr>&#x3054;&#x304B;&#x3044;</pr></trd>,
+    <trd>&#x601D;&#x3044;&#x9055;&#x3044;  <pr>&#x304A;&#x3082;&#x3044;&#x3061;&#x304C;&#x3044;</pr></trd>,
+    <trd>&#x9593;&#x9055;&#x3044;  <pr>&#x307E;&#x3061;&#x304C;&#x3044;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompre.sen0a">
@@ -1454,6 +1827,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">verst&auml;ndnislos</trd>
   <trdgrp lng="fr">
     <trd>bouch&eacute;<klr tip="ind"> (obtus)</klr></trd>,
     <trd>b&ecirc;te<klr tip="ind"> (obtus)</klr></trd>,
@@ -1472,11 +1846,11 @@
   <trdgrp lng="pl">
     <trd>niezrozumia&lstroke;y</trd>,
     <trd>g&lstroke;upi</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>nu &icirc;n&#x21B;elegere</trd>,
     <trd>prost</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ru">&c_t;&c_u;&c_p;&c_o;&c_j;</trd>
 </drv>
 
@@ -1535,6 +1909,12 @@
     <trd>bele&eacute;rt</trd>,
     <trd>hozz&aacute;gondol</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8A00;&#x5916;&#x306E;&#x610F;&#x5473;&#x3092;&#x5BDF;&#x3059;&#x308B; 
+    <pr>&#x3052;&#x3093;&#x304C;&#x3044;&#x306E;&#x3044;&#x307F;&#x3092;&#x3055;&#x3063;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x7701;&#x7565;&#x3059;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x308A;&#x3083;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">domy&sacute;la&cacute; si&eogonek;</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">vyrozumie&tcaron; <klr>(nepovedan&eacute;, nenap&iacute;san&eacute;)</klr></trd>
   <trdgrp lng="cs">
@@ -1543,14 +1923,14 @@
     <trd>vytu&scaron;it</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&c_a;&c_t;&c_i; &#x43D;&c_a; &c_u;&c_v;&c_a;&c_z;&c_ib;</trd>,
-    <trd>&#x43C;&c_a;&c_t;&c_i; &#x43D;&c_a; &c_d;&c_u;&#x43C;&c_c;&c_ib;</trd>,
-    <trd>&c_r;&#x43E;&c_z;&c_u;&#x43C;&c_ib;&c_t;&c_i; (&#x43F;&c_ib;&c_d; &#x43A;&c_i;&#x43C;</trd>,
-    <trd>&c_ch;&c_i;&#x43C;)</trd>,
-    <trd>&#x43C;&c_a;&c_t;&c_i; &#x43D;&c_a; &c_u;&c_v;&c_a;&c_z;&c_ib;</trd>,
-    <trd>&#x43C;&c_a;&c_t;&c_i; &#x43D;&c_a; &c_d;&c_u;&#x43C;&c_c;&c_ib;</trd>,
-    <trd>&c_d;&#x43E;&#x43C;&c_i;&c_s;&#x43B;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&#x43F;&c_u;&c_s;&#x43A;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_n;&c_a; &c_u;&c_v;&c_a;&c_z;&c_ib;</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_n;&c_a; &c_d;&c_u;&c_m;&c_c;&c_ib;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_u;&c_m;&c_ib;&c_t;&c_i; (&c_p;&c_ib;&c_d; &c_k;&c_i;&c_m;</trd>,
+    <trd>&c_ch;&c_i;&c_m;)</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_n;&c_a; &c_u;&c_v;&c_a;&c_z;&c_ib;</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_n;&c_a; &c_d;&c_u;&c_m;&c_c;&c_ib;</trd>,
+    <trd>&c_d;&c_o;&c_m;&c_i;&c_s;&c_l;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_p;&c_u;&c_s;&c_k;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -1574,6 +1954,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">implizieren</trd>
   <trdgrp lng="fr">
     <trd>sous-entendre<klr tip="ind"> (insinuer)</klr></trd>,
     <trd>insinuer<klr tip="ind"> (sugg&eacute;rer)</klr></trd>,
@@ -1582,15 +1963,20 @@
     <trd>vouloir <ind>dire</ind></trd>
   </trdgrp>
   <trd lng="hu">c&eacute;loz <klr tip="ind">(vmire)</klr></trd>
-  <trd lng="pl">sugerowa&cacute;</trd>  
+  <trd lng="pl">sugerowa&cacute;</trd>
   <trdgrp lng="ro">
     <trd>&icirc;nsemna</trd>,
     <trd>implica</trd>,
     <trd>sugera</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_m;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_d;&c_a;&c_t;&c_mol; <ind>&c_p;&c_o;&c_n;&c_ja;&c_t;&c_mol;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x610F;&#x5473;&#x7740; <pr>y&#xEC;w&#xE8;izhe</pr></trd>,
+    <trd>&#x6697;&#x793A; <pr>&#xE0;nsh&#xEC;</pr></trd>,
+    <trd>&#x610F;&#x5473; <pr>y&#xEC;w&#xE8;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1601,6 +1987,10 @@
     <ref tip="dif" cel="kompre.mis0i">mis<tld/>i</ref>
   </snc>
   <trd lng="be">&c_n;&c_ja;&c_p;&c_r;&c_a;&c_v;&c_ib;&c_l;&c_mol;&c_n;&c_a; &c_z;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>falsch <ind>verstehen</ind></trd>,
+    <trd>missverstehen</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>m&eacute;comprendre</trd>,
     <trd>comprendre de travers</trd>,
@@ -1608,105 +1998,13 @@
   </trdgrp>
   <trd lng="hu">f&eacute;lre&eacute;rt</trd>
   <trd lng="id"><ind>salah</ind> paham</trd>
-  <trd lng="pl">rozumie&cacute; b&lstroke;&eogonek;dnie </trd>     
-  <trd lng="ro">&icirc;n&tcedil;eleas&abreve; incorect</trd>
+  <trd lng="pl">rozumie&cacute; b&lstroke;&eogonek;dnie </trd>
+  <trd lng="ro">&icirc;n&#x21B;eleas&abreve; incorect</trd>
   <trd lng="ru">&c_n;&c_je;&c_v;&c_je;&c_r;&c_n;&c_o; &c_p;&c_o;&c_n;&c_ja;&c_t;&c_mol;</trd>
-</drv>
-
-<drv mrk="kompre.mem0ebla">
-  <kap>mem<tld/>ebla</kap>
-  <snc>
-    <dif>
-      Evidenta, facile <tld/>ebla, e&ccirc; sen klarigoj:
-      <ekz>
-        mia subkonscio elvomis la solvon de mia problemeto<klr>[:]</klr>
-        vere simplan kaj mem<tld/>eblan solvon, vitro-klaran, tutsimple
-        prapuran
-        <fnt><bib>&Scirc;talrato</bib><lok>&ccirc;ap. 6</lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_v;&c_ib;&c_d;&c_a;&c_v;&c_o;&c_ch;&c_n;&c_y;</trd>,
-    <trd>&c_ja;&c_w;&c_n;&c_y;</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>&eacute;vident</trd>,
-    <trd>qui va de <ind>soi</ind></trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>nyilv&aacute;nval&oacute;</trd>,
-    <trd>mag&aacute;t&oacute;l &eacute;rtet&odblac;d&odblac;</trd>
-  </trdgrp>
-  <trd lng="nl">vanzelfsprekend<klr tip="ind"> (bn.)</klr></trd>
-  <trd lng="pl">oczywisty</trd>     
-  <trd lng="ro">clar</trd>
-  <trdgrp lng="ru">
-    <trd>&c_o;&c_ch;&c_je;&c_v;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>,
-    <trd>&c_s;&c_a;&c_m;&c_o; &c_s;&c_o;&c_b;&c_o;&c_j; <ind>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja;</ind></trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="kompre.mem0eble">
-  <kap>mem<tld/>eble</kap>
-  <snc>
-    <dif>
-      Konforme al la kutima, natura, atendebla sinsekvo de eventoj
-      a&ubreve; ideoj:
-      <ekz>
-        mem<tld/>eble la konfuzeco de la poemo (a&ubreve; kiel mia poeta
-        amiko esprimis, &gcirc;ia <ctl>ditiramba intermitado</ctl>)
-        okazigis du preserarojn
-        <fnt>
-        <aut>Szathmari</aut>: <vrk>Liriko</vrk>.
-        <lok><url ref="http://www.esperanto.mv.ru/Szathmari/">Satiraj rakontoj</url>.</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_z;&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_l;&c_a;</trd>,
-    <trd>&c_k;&c_a;&c_n;&c_je;&c_ch;&c_n;&c_je;</trd>,
-    <trd>&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;</trd>
-  </trdgrp>
-  <trdgrp lng="cs">
-    <trd>pochopiteln&ecaron;</trd>,
-    <trd>samoz&rcaron;ejm&ecaron;</trd>,
-    <trd>srozumiteln&ecaron;</trd>,
-    <trd>zajist&eacute;</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>nat&uuml;rlich</trd>,
-    <trd>selbstverst&auml;ndlich</trd>
-  </trdgrp>
-  <trd lng="en">of course</trd>
-  <trdgrp lng="fr">
-    <trd>&eacute;videmment</trd>,
-    <trd>&agrave; l'<ind>&eacute;vidence</ind></trd>,
-    <trd>bien <ind>entendu</ind></trd>,
-    <trd>bien <ind>s&ucirc;r</ind></trd>,
-    <trd>il va de <ind>soi</ind> que</trd>,
-    <trd>in&eacute;vitablement</trd>,
-    <trd>naturellement<klr tip="ind"> (&eacute;videmment)</klr></trd>,
-    <trd>sans <ind>conteste</ind></trd>,
-    <trd>sans <ind>contredit</ind></trd>,
-    <trd>sans aucune <ind>doute</ind></trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>nyilv&aacute;n</trd>,
-    <trd>mag&aacute;t&oacute;l <ind>&eacute;rtet&odblac;d&odblac;en</ind></trd>
-  </trdgrp>
-  <trd lng="nl">vanzelfsprekend<klr tip="ind"> (bw.)</klr></trd>
-  <trd lng="pl">naturalnie</trd>     
-  <trd lng="ro">natural</trd>
-  <trdgrp lng="ru">
-    <trd>&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;</trd>,
-    <trd>&c_r;&c_a;&c_z;&c_u;&c_m;&c_je;&c_je;&c_t;&c_s;&c_ja;</trd>
-  </trdgrp>
-  <trdgrp lng="sk">
-    <trd>pochopite&lcaron;ne</trd>,
-    <trd>samozrejme</trd>,
-    <trd>zrozumite&lcaron;ne</trd>
+  <trdgrp lng="zh">
+    <trd>&#x508E; <pr>di&#x101;n</pr></trd>,
+    <trd>&#x8A27; <pr>y&#xF3;u</pr></trd>,
+    <trd>&#x8AA4;&#x89E3; <pr>w&#xF9;ji&#x11B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1717,7 +2015,7 @@
       <ref tip="dif" cel="inteli.0o">Inteligento</ref>:
       <ekz>
         ili estas ordinare alkonformigitaj al la a&gcirc;o kaj al la
-        <tld/>kapablo de la <klr>[&#8230;]</klr>idoj
+        <tld/>kapablo de la <klr>[&#x2026;]</klr>idoj
         <fnt>
           <bib>Fab4</bib>
           <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
@@ -1760,12 +2058,13 @@
   <trdgrp lng="pl">
     <trd>inteligencja</trd>,
     <trd>intelekt</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="ro">
-    <trd>inteligen&tcedil;&abreve;</trd>,
+    <trd>inteligen&#x21B;&abreve;</trd>,
     <trd>intelect</trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_l;&c_i;&c_v;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="zh">&#x667A;&#x6167; <pr>zh&#xEC;hu&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="kompre.0povo">
@@ -1794,45 +2093,50 @@
     <trd>ke<ind>cerdas</ind>an</trd>,
     <trd>inteligensi</trd>
   </trdgrp>
+  <trd lng="ja">&#x7406;&#x89E3;&#x529B;  <pr>&#x308A;&#x304B;&#x3044;&#x308A;&#x3087;&#x304F;</pr></trd>
   <trdgrp lng="nl">
     <trd>begripsvermogen</trd>,
     <trd>bevattingsvermogen</trd>
   </trdgrp>
-  <trd lng="pl">inteligencja</trd>     
-  <trd lng="ro">inteligen&tcedil;&abreve;</trd>
+  <trd lng="pl">inteligencja</trd>
+  <trd lng="ro">inteligen&#x21B;&abreve;</trd>
   <trd lng="ru">&c_p;&c_o;&c_n;&c_ja;&c_t;&c_l;&c_i;&c_v;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">ch&aacute;pavos&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&c_t;&#x44F;&#x43C;&c_u;&c_ch;&c_ib;&c_s;&c_t;&#x44C;</trd>,
-    <trd>&c_t;&#x44F;&#x43C;&c_u;&c_shch;&c_ib;&c_s;&c_t;&#x44C;</trd>,
-    <trd>&c_t;&#x44F;&#x43C;&#x43A;&c_ib;&c_s;&c_t;&#x44C;</trd>,
-    <trd>&#x43A;&#x43C;&c_ib;&c_t;&#x43B;&c_i;&c_v;&c_ib;&c_s;&c_t;&#x44C;</trd>
+    <trd>&c_t;&c_ja;&c_m;&c_u;&c_ch;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_t;&c_ja;&c_m;&c_u;&c_shch;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_t;&c_ja;&c_m;&c_k;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_k;&c_m;&c_ib;&c_t;&c_l;&c_i;&c_v;&c_ib;&c_s;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7406;&#x89E3;&#x529B; <pr>l&#x1D0;ji&#x11B;l&#xEC;</pr></trd>,
+    <trd>&#x609F;&#x6027; <pr>w&#xF9;x&#xEC;ng</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.62 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.61 2023/09/20 14:28:07
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
+versio 1.59 2023/07/11 23:27:44
+Vito Redsky: +trd pl 
+
+versio 1.58 2023/03/09 03:00:56
+Robert Baruch: +trd: en
+
+versio 1.57 2023/01/13 19:23:20
+Wolfram Diestel: mem~ebla: +trdj el mem/
+
+versio 1.56 2022/12/28 16:35:05
+Wolfram Diestel: mis~o: +trdj
+
+versio 1.55 2022/12/28 15:26:19
+Wolfram Diestel: +ref, trd de; +mis~o
+
 versio 1.54 2022/06/22 09:30:36
-Dmitri Gabinski: + trd be
-
-versio 1.53 2022/06/16 16:48:07
-Wolfram Diestel: ~i: koncizigo pri ekz-j
-
-versio 1.52 2022/05/01 08:09:24
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.46 2020/05/01 10:10:35
-Eko Nur Syah Hidayat: korekteto
-
-Revision 1.45  2020/03/14 10:59:08  revo
-adaptis URL de Ondo
-
-Revision 1.44  2019/07/02 09:10:18  revo
-Aleks Andre: zh: kompreni
-
-Revision 1.43  2019/06/30 18:21:03  revo
-adaptis URL de Monato
-
-Revision 1.42  2018/09/16 19:10:13  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: promes.xml,v 1.26 2022/05/04 18:30:34 revo Exp $">
+<art mrk="$Id: promes.xml,v 1.32 2023/10/20 16:38:17 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>promes</rad>/i
@@ -181,7 +181,18 @@
   <trd lng="es">prometer</trd>
   <trd lng="fr">promettre</trd>
   <trd lng="hu">&iacute;g&eacute;r</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D04;&#x675F;&#x3059;&#x308B;  <pr>&#x3084;&#x304F;&#x305D;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x4E0E;&#x3048;&#x308B;&#x3053;&#x3068;&#x3092;&#x7D04;&#x675F;&#x3059;&#x308B;  <pr>&#x3042;&#x305F;&#x3048;&#x308B;&#x3053;&#x3068;&#x3092;&#x3084;&#x304F;&#x305D;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x671F;&#x5F85;&#x3055;&#x305B;&#x308B;  <pr>&#x304D;&#x305F;&#x3044;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x8ACB;&#x3051;&#x5408;&#x3046;  <pr>&#x3046;&#x3051;&#x3042;&#x3046;</pr></trd>,
+    <trd>&#x4E88;&#x60F3;&#x3055;&#x305B;&#x308B;  <pr>&#x3088;&#x305D;&#x3046;&#x3055;&#x305B;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">beloven</trd>
+  <trdgrp lng="pl">
+    <trd>obieca&cacute;</trd>,
+    <trd>przyrzeka&cacute;</trd>
+  </trdgrp>
   <trd lng="pt">prometer</trd>
   <trdgrp lng="ru">
      <trd>&c_o;&c_b;&c_je;&c_shch;&c_a;&c_t;&c_mol;</trd>,
@@ -193,10 +204,10 @@
   </trdgrp>
   <trd lng="sv">lova</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x431;&#x456;&#x446;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x43E;&#x431;&#x43E;&#x432;&#x2019;&#x44F;&#x437;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x432;&#x456;&#x449;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x430;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43E;&c_b;&c_ib;&c_c;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&c_z;&#x43E;&c_b;&#x43E;&c_v;&#x2019;&#x44F;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&#x43F;&c_r;&#x43E;&c_v;&c_ib;&c_shch;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&#x43F;&#x43E;&c_v;&c_ib;&c_d;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -211,17 +222,19 @@
       <ekz>
         ekzistas diversaj pli a&ubreve; malpli sukces<tld/>aj trukoj solvi la problemon
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/006813.html">Sa&gcirc;a kapo duonvorton komprenas</url></vrk>
+	<aut>Pejno Simono</aut>
+	<vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/06, p. 33</lok>
         </fnt>;
       </ekz>
       <ekz>
         plej <tld/>a &scirc;anco por eviti homfarotajn konfliktojn estas do profilaktiko
         <fnt>
+       <aut>Werner Schad</aut>
+          <vrk><url ref="&Monato;/2000/006953.php">Bezonata: nova &leftquot;fremdula legio&#x201D;</url></vrk>
           <bib>Monato</bib>
-          <aut>PGubbins</aut>
-          <vrk><url ref="&Steloj;monato2/006953.html">Opinio: Bezonata: nova "fremdula legio"</url></vrk>
+          <lok>2000/07, p. 27</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -242,14 +255,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_b;&c_ja;&c_c;&c_a;&c_ju;&c_ch;&c_y;</trd>,
+    <trd>&c_p;&c_e;&c_r;&c_s;&c_p;&c_e;&c_k;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="de">erfolgversprechend</trd>
   <trd lng="en">promising</trd>
+  <trdgrp lng="pl">
+    <trd>obiecany</trd>,
+    <trd>obiecuj&aogonek;cy sukces</trd>
+  </trdgrp>
 </drv>
-
-
-
-
-
 
 <drv mrk="promes.0o">
   <kap><tld/>o</kap>
@@ -362,16 +378,19 @@
    </trdgrp>
   <trd lng="fr">promesse</trd>
   <trd lng="hu">&iacute;g&eacute;ret</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7D04;&#x675F;  <pr>&#x3084;&#x304F;&#x305D;&#x304F;</pr></trd>,
+    <trd>&#x898B;&#x8FBC;&#x307F;  <pr>&#x307F;&#x3053;&#x307F;</pr></trd>,
+    <trd>&#x671F;&#x5F85;  <pr>&#x304D;&#x305F;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">belofte</trd>
+  <trd lng="pl">obietnica</trd>
   <trd lng="pt">promessa</trd>
   <trd lng="ru">&c_o;&c_b;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_je;</trd>
   <trd lng="sk">s&lcaron;ub</trd>
   <trd lng="sv">l&ouml;fte</trd>
-  <trd lng="uk">&#x43E;&#x431;&#x456;&#x446;&#x44F;&#x43D;&#x43A;&#x430;</trd>
+  <trd lng="uk">&#x43E;&c_b;&c_ib;&c_c;&#x44F;&#x43D;&#x43A;&c_a;</trd>
 </drv>
-
-
-
 
 <drv mrk="promes.0plena">
   <kap>
@@ -440,7 +459,16 @@
     <trd>vielversprechend</trd>,
     <trd>verhei&szlig;ungsvoll</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6709;&#x671B;&#x306A;  <pr>&#x3086;&#x3046;&#x307C;&#x3046;&#x306A;</pr></trd>,
+    <trd>&#x898B;&#x8FBC;&#x307F;&#x306E;&#x3042;&#x308B;  <pr>&#x307F;&#x3053;&#x307F;&#x306E;&#x3042;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>pe&lstroke;en  <ind>obietnic</ind></trd>,
+    <trd>obiecuj&aogonek;cy</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="promes.mult0a">
   <kap>
     mult<tld/>a,
@@ -467,15 +495,37 @@
   <trdgrp lng="de">
     <trd>vielversprechend</trd>
   </trdgrp>
+  <trd lng="be">&c_sh;&c_m;&c_a;&c_t;&c_a;&c_b;&c_ja;&c_c;&c_a;&c_ju;&c_ch;&c_y;</trd>
   <trd lng="en">much <ind>promising</ind></trd>
-  <trd lng="uk">&#x431;&#x430;&#x433;&#x430;&#x442;&#x43E;&#x43E;&#x431;&#x456;&#x446;&#x44F;&#x44E;&#x447;&#x438;&#x439;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6709;&#x671B;&#x306A;  <pr>&#x3086;&#x3046;&#x307C;&#x3046;&#x306A;</pr></trd>,
+    <trd>&#x898B;&#x8FBC;&#x307F;&#x306E;&#x3042;&#x308B;  <pr>&#x307F;&#x3053;&#x307F;&#x306E;&#x3042;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wiele  <ind>obiecuj&aogonek;cy</ind></trd>,
+    <trd>wielce  <ind>obiecuj&aogonek;cy</ind></trd>
+  </trdgrp>
+  <trd lng="uk">&c_b;&c_a;&c_g;&c_a;&c_t;&#x43E;&#x43E;&c_b;&c_ib;&c_c;&#x44F;&#x44E;&c_ch;&c_i;&c_j;</trd>
 </drv>
-
-
 
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.30 2023/05/05 22:27:57
+Vito Redsky: +trd pl 
+
+versio 1.29 2023/04/24 10:31:39
+Paul Peeraerts: @Sxteloj -> @Monato
+
+versio 1.28 2023/04/22 15:25:53
+Paul Peeraerts: &steloj -> monato.be
+
+versio 1.27 2023/02/10 08:34:15
+Dmitri Gabinski: + trd be
+
 versio 1.26 2022/05/04 18:30:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -483,20 +533,5 @@ versio 1.24 2022/02/08 19:22:39
 Wolfram Diestel: +~a, sukces~a; bon~a; mult(e)~a
 
 versio 1.23 2022/02/08 18:30:22
-Wolfram Diestel: ~o: ekz-oj, ref-oj; +~plena
-
-versio 1.22 2022/02/08 07:25:43
-Wolfram Diestel: ~i: ekz-oj, ref-oj, trd de
-
-versio 1.21 2022/02/07 19:23:19
-Wolfram Diestel: +snc-mrk
-
-versio 1.19 2020/03/28 20:10:23
-James Rezende Piton: +trd pt
-
-Revision 1.18  2015/07/04 08:37:42  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.17  2015/06/29 16:40:19  revo
 -->
 </vortaro>

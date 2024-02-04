@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: ident.xml,v 1.31 2022/03/21 15:27:48 revo Exp $">
+<art mrk="$Id: ident.xml,v 1.48 2023/11/19 10:22:02 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ident</rad>/a
@@ -9,120 +9,248 @@
 
 <drv mrk="ident.0a">
   <kap><tld/>a</kap>
+  <snc mrk="ident.0a.tia_sama">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      &Ccirc;iurilate <ref tip="sin" cel="egal.0a">egala</ref>,
+      tia <ref tip="sin" cel="sam.0a.tia">sama<sncref/></ref>;
+      havanta ekzakte la samajn trajtojn:
+      <ekz>
+        kelke da dekoj de tute <tld/>aj <klr>(t.e. samaspektaj)</klr>
+        duonnudaj knabinoj komencis kolektivan dancon
+        <fnt><bib>Metrop</bib></fnt>;
+      </ekz><ekz>
+        &ccirc;iuj domoj estas <tld/>aj, en &ccirc;iu estas kvin eta&gcirc;oj, en &ccirc;iu gisa pordego kaj
+        asfalta la&ubreve;tsona korto
+        <fnt><bib>Metrop</bib></fnt>;
+      </ekz><ekz>
+        &ccirc;iutage oni vidas du individuojn, kiuj havas nenion komunan, kaj tamen kiuj
+        prezentas fizionomion kaj skribmanieron preska&ubreve; <tld/>ajn
+        <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Sesa</lok></fnt>;
+      </ekz>
+      <!--ekz>
+        la rakonto farita de la patro konformi&gcirc;as la&ubreve; tute <tld/>a maniero kun la
+        rakonto prezentita de la filo
+        <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Na&ubreve;a</lok></fnt>;
+        (fu&scirc;a ekzemplo: maniero <tld/>a kun kio? - Sergio)
+      </ekz-->
+      <ekz>
+        se tia vorto kiel ekzemple &leftquot;redaktejo&rightquot;, estus tute <tld/>a
+        <klr>(la&ubreve; signifo)</klr> kun la vorto &leftquot;redakcio&rightquot; kaj povus &gcirc;in
+        perfekte anstata&ubreve;i, certe neniu el ni plendus, se la vorto
+        &leftquot;redakcio&rightquot; balda&ubreve; malaperus el nia lingvo
+        <fnt><bib>LR</bib> <lok>Unua Parto &ndash; Leksikologio</lok></fnt>;
+      </ekz><ekz>
+        liaj vortoj kaj agoj estis <tld/>aj 
+        <klr>(tute <ref cel="konfor.0a">konforma</ref>j unu al alia)</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ji&rcaron;&iacute; Patera</aut>
+          <vrk><url ref="&Monato;/2000/007031.php">Katolikismo:
+           Johano Hus &ndash; &ccirc;u ne plu herezulo?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="distin.ne0ebla">nedistingebla</ref>
+    <refgrp tip="vid">
+      <ref cel="akord.0a.konveneco">akorda<sncref/></ref>,
+      <ref cel="konfor.0a.samforma">konforma<sncref/></ref>
+    </refgrp>
+    <trd lng="hu">azonos</trd>
+    <trdgrp lng="ru">
+      <trd>&c_o;&c_d;&c_i;&c_n;&c_a;&c_k;&c_o;&c_v;&c_y;&c_j;</trd>,
+      <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="ident.0a.tiu_sama">
     <dif>
       Tiu unika kaj ne alia ol tiu, pri kiu temas,
       tiu <ref tip="sin" cel="sam.0a.tiu">sama<sncref/></ref>:
+      <!--ekz>
+        Amalio, se nia amo estis perfekte <tld/>a, &mdash; <klr>[&#8230;]</klr>, kiel do povas
+        diferenci la amantoj?
+        <fnt><bib>Rabistoj</bib> <lok>Akto Unua</lok></fnt>;
+        (ekster la kunteksto &ccirc;i tiu ekzemplo estas malklara kaj
+        miskomprenebla - Sergio)
+      </ekz-->
       <ekz>
         &ccirc;io, kio estas super tiu interna ideo de Esperanto estas
         nur privata&jcirc;o, kiu povas eble esti bazita sur tiu ideo sed
         neniam devas esti rigardata kiel <tld/>a kun &gcirc;i
         <fnt>
           <bib>Paroloj</bib>
-          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en
-          la 11a de a&ubreve;gusto 1912</vrk>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">identisch</trd>
-    <trd lng="hu">ugyanaz</trd>
-  </snc>
-  <snc mrk="ident.0a.tia_sama">
-    <uzo tip="stl">EVI</uzo>
-    <dif>
-      <ref tip="sin" cel="egal.0a">Egala</ref>,
-      tia <ref tip="sin" cel="sam.0a.tia">sama<sncref/></ref>:
-      <ekz>
-        la du kongresoj prenis <tld/>ajn decidojn;
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista</vrk>
+          <lok>Krakovo, 1912-08-11</lok>
+        </fnt>;
       </ekz><ekz>
-        la moralaj ecoj ne estas <tld/>aj &ccirc;e &ccirc;iuj homoj;
-      </ekz>
-      <ekz>
-        liaj vortoj kaj agoj estis identaj
+        <nom>P. Stojan</nom> konsideras tiun a&ubreve;toron <tld/>a kun
+        <nom>A. de Vertus</nom>, vicprezidanto de la historia kaj
+        arkeologia societo en <nom>Chateau-Thierry</nom>
         <fnt>
-          <bib>Monato</bib>
-          <aut>Gerrit BERVELING</aut>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007031.html">KATOLIKISMO:
-          
-           Johano Hus &#x2010; &ccirc;u ne plu herezulo?</url></vrk>
+          <aut>E. Drezen, tr. N. Hohlov kaj N. Nekrasov</aut>:
+          <vrk>Mondolingvo: Tri jarcentoj da ser&ccirc;ado</vrk>.
+          <lok>Leipzig: EKRELO, 1931</lok>
+        </fnt>;
+      </ekz><ekz>
+        nek individuaj lernantoj povas porti tiun &scirc;ar&gcirc;on, ellerni krom
+        sia denaska lingvo (ne &ccirc;iam <tld/>a kun regiona) anka&ubreve; la
+        tutlandan kaj fine la anglan
+        <fnt>
+          <aut>Victor Sadler</aut>: <vrk>Azia Strategio</vrk>.
+          <lok>Esperanto, 1963, januaro (6)</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">identisch</trd>
-    <trd lng="hu">azonos</trd>
+    <trd lng="hu">ugyanaz</trd>
+    <trd lng="ru"><ofc>1</ofc>&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
   <ref tip="vid" cel="kongru.0a">kongrua</ref>
   <trdgrp lng="be">
-        <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>,
-        <trd>&c_t;&c_o;&c_je;&c_s;&c_n;&c_y;</trd>
-      </trdgrp>
+    <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>,
+    <trd>&c_t;&c_o;&c_je;&c_s;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="bg">&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_je;&c_n;</trd>
   <trdgrp lng="cs">
     <trd>identick&yacute;</trd>,
     <trd>toto&zcaron;n&yacute;</trd>
   </trdgrp>
-  <trd lng="en">identical</trd>
+  <trd lng="de"><ofc>1</ofc>identisch</trd>
+  <trd lng="en"><ofc>1</ofc>identical</trd>
   <trd lng="es">id&eacute;ntico<klr tip="ind"> (adj.)</klr></trd>
-  <trd lng="fr">identique</trd>
+  <trd lng="fr"><ofc>1</ofc>identique</trd>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x4E00;&#x306E;  <pr>&#x3069;&#x3046;&#x3044;&#x3064;&#x306E;</pr></trd>,
+    <trd>&#x540C;&#x69D8;&#x306E;  <pr>&#x3069;&#x3046;&#x3088;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x305D;&#x3063;&#x304F;&#x308A;&#x540C;&#x3058;&#x306E;  <pr>&#x305D;&#x3063;&#x304F;&#x308A;&#x304A;&#x306A;&#x3058;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">identiek</trd>
   <trd lng="pt">id&ecirc;ntico<klr tip="ind"> (adj.)</klr></trd>
-  <trdgrp lng="ru">
-        <trd>&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
-        <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
-      </trdgrp>
   <trdgrp lng="sk">
     <trd>identick&yacute;</trd>,
     <trd>toto&zcaron;n&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x43E;&#x442;&#x43E;&#x436;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x442;&#x430;&#x43A;&#x438;&#x439; &#x441;&#x430;&#x43C;&#x438;&#x439;</trd>,
-    <trd>&#x43E;&#x434;&#x43D;&#x430;&#x43A;&#x43E;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x456;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_t;&c_o;&c_t;&c_o;&c_zh;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_t;&c_a;&c_k;&c_i;&c_j; &c_s;&c_a;&c_m;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_d;&c_n;&c_a;&c_k;&c_o;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x540C;&#x4E00; <pr>t&#xF3;ngy&#x12B;</pr></trd>,
+    <trd>&#x76F8;&#x540C; <pr>xi&#x101;ngt&#xF3;ng</pr></trd>,
+    <trd>&#x6046;&#x7B49; <pr>h&#xE9;ngd&#x11B;ng</pr></trd>,
+    <trd>&#x5168;&#x540C; <pr>qu&#xE1;nt&#xF3;ng</pr></trd>,
+    <trd>&#x96F7;&#x540C; <pr>l&#xE9;it&#xF3;ng</pr></trd>
   </trdgrp>
 </drv>
 
 <drv mrk="ident.0o">
   <kap><tld/>o</kap>
-  <snc mrk="ident.0o.bildigo">
-    <uzo tip="fak">MAT</uzo>
+  <snc mrk="ident.0o.rilato">
     <dif>
-      <ref tip="dif" cel="bild.idento0igo"><tld lit="I"/>o-bildigo</ref>:
+      Tia rilato, fakto, konstato en kiu pluraj aferoj montri&gcirc;as <tld/>aj:
+    </dif>
+    <subsnc mrk="ident.0o.bildigo">
+      <uzo tip="fak">MAT</uzo>
+      <dif>
+        <ref tip="dif" cel="bild.idento0igo"><tld lit="I"/>o-bildigo</ref>:
+        <ekz>
+          ilia geometria simetria grupo havas du erojn, la <tld/>on
+          kaj reflekton je linio paralela al la lateroj de la kvadratoj
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=321296">8-kvadrato</url></lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="cs">identick&eacute; zobrazen&iacute;</trd>
+      <trd lng="en">identity<klr> (geometric similarity)</klr></trd>
+      <trd lng="sk">identick&eacute; zobrazenie</trd>
+    </subsnc>
+    <subsnc mrk="ident.0o.egalajxo">
+      <dif>
+        <ref tip="super" cel="egal.0ajxo">Egala&jcirc;o</ref> vera:
+        <ekz>
+          la e&ubreve;lera <tld/>o estas la <tld/>o <frm am="e^(i pi)+1=0"><k>e</k><sup>i&pi;</sup> + 1 =
+          0</frm>
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=265282">E&ubreve;lera
+            idento</url></lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="en">identity<klr> (mathematical equality)</klr></trd>
+    </subsnc>
+    <subsnc mrk="ident.0o.JUR">
+      <uzo tip="fak">JUR</uzo>
+      <dif>
+        <ref tip="dif" cel="ident.0eco.JUR">Identeco<sncref/></ref>:
+        <ekz>
+          la <tld/>o de la kulpulo estas ne divenebla &gcirc;is la fino de la libro
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Donald Broadribb</aut>
+            <vrk><url ref="&Monato;/2007/009132.php">Nova krimromano el A&ubreve;stralio</url></vrk>
+            <lok>2007</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">Identit&auml;t</trd>
+      <trd lng="en">identity</trd>
+    </subsnc>
+  </snc>
+  <snc mrk="ident.0o.memdifino">
+    <dif>
+      <ref tip="dif" cel="ident.0eco.identigho">Identeco<sncref/></ref>:
       <ekz>
-        ilia geometria simetria grupo havas du erojn,
-        la <tld/>on kaj reflekton je linio paralela al
-        la lateroj de la kvadratoj
+        ili ekser&ccirc;as sian esperantistan <tld/>on
         <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=321296">8-kvadrato</url></lok>
+          <bib>LOdE</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto&amp;uzistreketojn=0&amp;tipo=&amp;sekcio=LOdE-1999-5&amp;serchesprimo=idento">Frazoj</url></vrk>
+          <lok>1999 (No. 5)</lok>
+        </fnt>;
+      </ekz><ekz>
+        oni komencas detrui la <tld/>o-senton de la subjekto
+        <fnt>
+          <bib>MD05</bib>
+          <aut>John Berger</aut>
+          <vrk><url ref="&Mondediplo;article1273.html">&Ccirc;u forvi&scirc;i la pasintecon?</url></vrk>
+          <lok>1 A&ubreve;g 2007</lok>
+        </fnt>;
+      </ekz><ekz>
+        grupo bezonas gardi koheron, <tld/>on &ndash; sed tio malhelpas kreskon
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#x2116; 2 (100)</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trd lng="cs">identick&eacute; zobrazen&iacute;</trd>
-    <trd lng="sk">identick&eacute; zobrazenie</trd>
-  </snc>
-  <snc mrk="ident.0o.egalajxo">
-    <dif>
-      <ref tip="super" cel="egal.0ajxo">Egala&jcirc;o</ref> vera:
-      <ekz>
-        la e&ubreve;lera <tld/>o estas la <tld/>o <frm am="e^(i pi)+1=0"><k>e</k><sup>i&pi;</sup> + 1 =
-        0</frm>
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=265282">E&ubreve;lera
-          idento</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
+    <trdgrp lng="de">
+      <trd>Selbstverst&auml;ndnis</trd>,
+      <trd>Identit&auml;t <klr>(Selbstverst&auml;ndnis)</klr></trd>
+    </trdgrp>
+    <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
+    <trd lng="zh">&#x5FC3;&#x795E; <pr>x&#x12B;nsh&#xE9;n</pr></trd>
+</snc>
+
 </drv>
 
 <drv mrk="ident.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="ident.0ajxo.KOMUNE">
     <dif>
-      Io <tld/>a.
+      Io <tld/>a:
+      <ekz>
+        la medio, en kiu ili vivas, estas konsiderinda kiel <tld/>a&jcirc;o
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dektria</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="en">identity<klr> (instance of something identical)</klr></trd>
     <trd lng="hu">azonos dolog</trd>
   </snc>
   <snc mrk="ident.0ajxo.MAT">
@@ -135,8 +263,7 @@
       <ekz>
         <frm am="(a+b)^2=a^2+2ab+b^2">(<k>a</k>+<k>b</k>)<sup>2</sup> = 
           <k>a</k><sup>2</sup>+2<k>a</k><k>b</k>+<k>b</k><sup>2</sup></frm>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la funkcio de <nom>Euler</nom> rilatas al la funkcio eta
         de <nom>Dedekind</nom> per <tld/>a&jcirc;o de <nom>Ramanujan</nom>
         <fnt>
@@ -147,31 +274,34 @@
       </ekz>
     </dif>
     <trd lng="de">Identit&auml;t</trd>
-    <trd lng="en">identity</trd>
+    <trd lng="en">identity<klr> (mathematical equality)</klr></trd>
     <trd lng="es">identidad<klr tip="amb"> (matem&aacute;tica)</klr></trd>
     <trd lng="fr">identit&eacute;<klr tip="ind"> (math.)</klr></trd>
     <trd lng="hu">azonoss&aacute;g</trd>
     <trd lng="nl">identiteit</trd>
-    <trd lng="pt">identidade<klr tip="amb">
-    (matem&aacute;tica)</klr></trd>
+    <trd lng="pt">identidade<klr tip="amb"> (matem&aacute;tica)</klr></trd>
     <trdgrp lng="pl">
       <trd>r&oacute;wno&sacute;&cacute; identyczno&sacute;ciowa</trd>,
       <trd>identyczno&sacute;&cacute;</trd></trdgrp> 
     <trd lng="ru">&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6620;&#x4E0A;&#x6620;&#x5C04; <pr>y&#xEC;ngsh&#xE0;ngy&#xEC;ngsh&#xE8;</pr></trd>,
+    <trd>&#x5355;&#x4F4D;&#x7B97;&#x7B26; <pr>d&#x101;nw&#xE8;isu&#xE0;nf&#xFA;</pr></trd>,
+    <trd>&#x6046;&#x7B49;&#x5F0F; <pr>h&#xE9;ngd&#x11B;ngsh&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
 </drv>
 
 <drv mrk="ident.0eco">
   <kap><tld/>eco</kap>
   <snc mrk="ident.0eco.egalo">
     <dif>
-      Plena simileco; sameco:
+      La fakto, ke io estas <tld/>a kun io alia; nedistingebla egaleco, sameco:
       <ekz>
-        la <tld/>eco de amba&ubreve; projektoj estas evidenta;
+        la&ubreve; lia opinio, inter burokratismo kaj <nom>Mos&hcirc;ozupr</nom>
+        oni povas meti signon de l&#x2019; <tld/>eco!
+        <fnt><bib>Metrop</bib></fnt>;
       </ekz><ekz>
-        <tld/>eco pri la ideoj;
-      </ekz>
-      <ekz>
         li kro&ccirc;is sin al la penso, ke tiu <tld/>eco
         kun lia propra historio eble tamen estas nur freneza hazardo
         <fnt>
@@ -187,6 +317,7 @@
     </trdgrp>
     <trd lng="bg">&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;</trd>
     <trd lng="de">Identit&auml;t</trd>
+    <trd lng="en">identity<klr> (extreme similarity)</klr></trd>
     <trd lng="fr">identit&eacute;<klr tip="ind">
         (&eacute;galit&eacute;)</klr></trd>
     <trdgrp lng="hu">
@@ -202,19 +333,24 @@
   <snc mrk="ident.0eco.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      <refgrp tip="sin">
-        <ref cel="mem.0eco">Memeco</ref>,
-        <ref cel="person.0eco">personeco</ref>
-      </refgrp>
-      (eco de persono, kiu estas vere ne alia ol
-      li asertas esti a&ubreve; ol oni kredas, ke li estas):
+      La tuto de oficialaj <ref tip="prt" cel="atribu1.0o.KOMUNE">atributo</ref>j 
+      kiel nomo, gepatroj, &scirc;tataneco, kiuj distingas individuon de aliaj:
       <ekz>
-        determini la <tld/>econ de akuzito;
+        &ccirc;u tiu malfeli&ccirc;ulo ne portas sur si paperojn, kiuj povus al ni konigi lian
+        <tld/>econ
+        <fnt><bib>ChL</bib> <lok>&Ccirc;apitro Kvara</lok></fnt>;
       </ekz><ekz>
-        pruvi sian <tld/>econ.
+        li ne konjektis, ke lia <tld/>eco estas protestebla kaj estos protestita
+        <fnt><bib>KPr</bib> <lok>&Ccirc;apitro Dekoka</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="legiti">legitimado</ref>
+    <refgrp tip="vid">
+      <ref cel="indivi.0o.KOMUNE">individuo<sncref/></ref>,
+      <ref cel="legiti.0ajxo">legitima&jcirc;o</ref>,
+      <ref cel="person.0o.homo">persono<sncref/></ref>,
+      <ref cel="status.0o">statuso</ref>,
+      <ref cel="subjek.0o.FIL">subjekto<sncref/></ref>
+    </refgrp>
     <rim>
       Tiu senco estas iom internacia, kvankam &gcirc;i estas senrilata
       al la &ccirc;efsenco de la radiko.
@@ -222,60 +358,97 @@
     </rim>
     <trd lng="be">&c_a;&c_s;&c_o;&c_b;&c_a;</trd>
     <trd lng="de">Identit&auml;t</trd>
+    <trd lng="en">identity<klr> (the fact of who a person is)</klr></trd>
     <trd lng="es">identidad<klr tip="ind"> (subst.)</klr></trd>
-    <trd lng="fr">identit&eacute;<klr tip="ind"> (d'une
-    personne)</klr></trd>
+    <trd lng="fr">identit&eacute;<klr tip="ind"> (d'une personne)</klr></trd>
     <trd lng="hu">szem&eacute;lyazonoss&aacute;g</trd>
     <trd lng="nl">identiteit</trd>
     <trd lng="pt">identidade<klr tip="ind"> (subst.)</klr></trd>
     <trd lng="ru">&c_l;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8EAB;&#x4EFD; <pr>sh&#x113;nf&#xE8;n</pr></trd>,
+    <trd>&#x5FC3;&#x795E; <pr>x&#x12B;nsh&#xE9;n</pr></trd>,
+    <trd>&#x4EE5;&#x540C;&#x611F; <pr>y&#x1D0;t&#xF3;ngg&#x1CE;n</pr></trd>,
+    <trd>&#x4E2A;&#x4EBA;&#x7684;&#x8EAB;&#x4EFD; <pr>g&#xE8;r&#xE9;ndesh&#x113;nf&#xE8;n</pr></trd>,
+    <trd>&#x6587;&#x5316;&#x8A8D;&#x540C; <pr>w&#xE9;nhu&#xE0;r&#xE8;nt&#xF3;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="ident.0eco.identigho">
     <dif>
-      Identi&gcirc;o; sameco de kulturo, kredoj, ideologio kun grupo, al kiu
-      iu apartenas:
+      La tuto de <ref tip="prt" cel="trajt.0o.karakteriza">trajtoj</ref>, 
+      per kiuj iu difinas sin mem, ekzemple aparteno al grupo, kredo ktp;
+      <ref cel="aparte.0o">aparten</ref>sento al kulturo, kredoj, ideologio:
       <ekz>
         politikistoj pli klare montru sian vidpunkton kaj <tld/>econ
         rilate al sociaj problemoj
         <fnt>
           <bib>Monato</bib>
           <aut>Guido VAN DAMME</aut>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/006921.html">BELGIO:
+          <vrk><url ref="&Monato;/2000/006921.php">BELGIO:
           Malvuali nigran fantomon</url></vrk>
+          <lok>2000/04, p. 8</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
+        li malpermesis ke ni havu propran tombejon, kaj la albanaro tion sentis kiel
+        rifuzon al la propra <tld/>eco
+        <fnt>
+          <bib>ChB</bib>
+          <lok>9</lok>
+        </fnt>;
+      </ekz><ekz>
         ni ne komplete perdu nian kulturan <tld/>econ
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007174.html">Kiel savi la
+          <aut>Stefan Maul</aut>          
+          <vrk><url ref="&Monato;/2000/007174.php">Kiel savi la
           germanan kulturon</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/11, p. 30</lok>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="mem.0o">memo</ref>
+    <refgrp tip="vid">
+      <ref cel="konsci.0o.cirkonstanca">konscio<sncref/></ref>,
+      <ref cel="bild.mem0o">membildo</ref>,
+      <ref cel="mem.0eco">memeco</ref>,
+      <ref cel="person.0eco">personeco</ref>,
+      <ref cel="propr.0eco.KOMUNE">propreco<sncref/></ref>,
+      <ref cel="trajt.0aro">trajtaro</ref>
+    </refgrp>
     <trd lng="be">&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    <trd lng="en">identity<klr> (set of characteristics)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_a;&c_m;&c_o;&c_b;&c_y;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
+      <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </trdgrp>
   </snc>
-  <trd lng="bo">&#xF44;&#xF7C;&#xF0B;&#xF66;&#xFA4;&#xFB2;&#xF7C;&#xF51;&#xF0B;</trd>
+  <trd lng="bo">&t_nga;&t_naro;&t_tsheg;&t_sa;&t_pata;&t_rata;&t_naro;&t_da;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>identita</trd>,
     <trd>rovnost</trd>,
     <trd>toto&zcaron;nost</trd>
   </trdgrp>
-  <trd lng="en">identity</trd>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x4E00;&#x6027;  <pr>&#x3069;&#x3046;&#x3044;&#x3064;&#x305B;&#x3044;</pr></trd>,
+    <trd>&#x4E00;&#x81F4;  <pr>&#x3044;&#x3063;&#x3061;</pr></trd>,
+    <trd>&#x8EAB;&#x5143;  <pr>&#x307F;&#x3082;&#x3068;</pr></trd>,
+    <trd>&#x672C;&#x4EBA;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;  <pr>&#x307B;&#x3093;&#x306B;&#x3093;&#x3067;&#x3042;&#x308B;&#x3053;&#x3068;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>identita</trd>,
     <trd>toto&zcaron;nos&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x43E;&#x442;&#x43E;&#x436;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>,
-    <trd>&#x456;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x447;&#x43D;&#x456;&#x441;&#x442;&#x44C;</trd>,
-    <trd>&#x43E;&#x434;&#x43D;&#x430;&#x43A;&#x43E;&#x432;&#x456;&#x441;&#x442;&#x44C;</trd>
+    <trd>&c_t;&c_o;&c_t;&c_o;&c_zh;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_ch;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>,
+    <trd>&c_o;&c_d;&c_n;&c_a;&c_k;&c_o;&c_v;&c_ib;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="ident.0igi">
   <kap><tld/>igi</kap>
   <snc mrk="ident.0igi.egaligi">
+    <fnt><bib>VdE</bib></fnt>
     <dif>
       Igi a&ubreve; opinii ion <tld/>a kun alia:
       <ekz>
@@ -283,35 +456,23 @@
         mem<fnt>B</fnt>;
       </ekz><ekz>
         la aktoro devas <tld/>igi sin kun la persono, kiun li ludas;
-      </ekz>
-      <ekz>
-        ne <tld/>igante <klr>[...]</klr> la liberkredon speciale kun
-        ateismo
-        <fnt>
-          <bib>Homaranismo</bib>
-          <vrk>Homaranismo</vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
+        mi devas <klr>[&#x2026;]</klr> nomi min &leftquot;liberkreda&rightquot;, ne <tld/>igante tamen la
+        liberkredon speciale kun ateismo, sed rezervante al mia kredado plenan
+        liberecon
+        <fnt><bib>Homaranismo</bib></fnt>;
+      </ekz><ekz>
         multaj personoj eble <tld/>igos la homaranismon kun Esperanto 
         a&ubreve; kun la tiel nomata &leftquot;interna ideo de esperantismo&rightquot;
-        &#x2010; tio tamen estus eraro
-        <fnt>
-          <bib>Homaranismo</bib>
-          <vrk>Homaranismo</vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
+        &ndash; tio tamen estus eraro
+        <fnt><bib>Homaranismo</bib></fnt>;
+      </ekz><ekz>
         la <tld/>igadon de la interesoj de lando kun la interesoj de 
         tiu a&ubreve; alia gento a&ubreve; religio kaj la pretekstadon de iaj
         historiaj rajtoj 
         <klr>[...]</klr> mi rigardas kiel resta&jcirc;on el la tempoj
-        barbaraj, 
-        kiam ekzistis nur rajto de pugno kaj glavo
-        <fnt>
-          <bib>Homaranismo</bib>
-          <vrk>Homaranismo</vrk>
-        </fnt>.
+        barbaraj, kiam ekzistis nur rajto de pugno kaj glavo
+        <fnt><bib>Homaranismo</bib></fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -322,16 +483,84 @@
     <trd lng="ru">&c_o;&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="ident.0igi.rekoni">
+    <fnt><bib>PV</bib></fnt>
     <dif>
       <ref tip="dif" cel="kon.re0i.retrovi">Rekoni<sncref/></ref>
-      iun a&ubreve; ion:
+      iun a&ubreve; ion,
+      <ref tip="sub" cel="sci.ek0i">ekscii</ref> kio estas iu a&ubreve; io:
       <ekz>
-        <tld/>igi krimulon, kadavron;
-      </ekz><ekz>
         <tld/>igi antikvan loknomon
         <klr>(trovi la respondan nomon nunan)</klr>.
       </ekz>
     </dif>
+    <subsnc mrk="ident.0igi.JUR">
+      <uzo tip="fak">JUR</uzo>
+      <dif>
+        Ekscii a&ubreve; pruvi <ref cel="ident.0eco.JUR"><tld/>econ<sncref/></ref> de iu:
+        <ekz>
+          <tld/>igi krimulon, kadavron;
+        </ekz><ekz>
+          La registaro decidis starigi komisionon por trovi &ccirc;iujn
+          tombejojn kaj <tld/>igi la viktimojn
+          <fnt><aut>Bardhyl SELIMI</aut>: <vrk>Sekretoj eltombigitaj</vrk>
+            <bib>Monato</bib></fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="ru">
+        <trd>&c_o;&c_p;&c_o;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_i;&c_t;&c_mol; &c_l;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="ident.0igi.SCI">
+      <uzo tip="fak">SCI</uzo>
+      <dif>
+        Klasi ion a&ubreve; iun:
+        <ekz>
+          Esploristoj de la universitato Tulane en Usono sukcese
+          <tld/>igis novan specion de malgranda &scirc;arko, kiu &ccirc;asas iom
+          nekutime
+          <fnt><aut>Julius HAUSER</aut>: <vrk>Memluma &scirc;arketo</vrk>
+            <bib>Monato</bib>, <lok>&#x2116;012533</lok></fnt>;
+        </ekz><ekz>
+          iom pli ol 8000 linioj de la diserta&jcirc;o (el 16325) estis
+          <tld/>igitaj kiel plagiata&jcirc;oj
+          <fnt><aut>Reinhard FOESSMEIER</aut>:
+            <vrk>PLAGIATO. Fino de ministreco: kroniko</vrk>.
+            <bib>Monato</bib></fnt>;
+        </ekz><ekz>
+          kultura statuso, kiu <tld/>igas lin kun grupo da kiun la
+          amaso ne komprenas
+            <fnt>
+              <aut>Humphrey Tonkin</aut>:
+              <vrk>Shakespeare &mdash; interlingvisto</vrk>,
+              <lok><url ref="http://ourworld.compuserve.com/homepages/profcon/m_shake.htm">En: De A al B: Festlibro por Andr&eacute; Albault.
+                Saarbr&uuml;cken: Iltis&gt;</url></lok>
+            </fnt>;
+        </ekz>
+      </dif>
+      <trdgrp lng="ru">
+        <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_k;&c_l;&c_a;&c_s;&c_s;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+        <trd>&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="ident.0igi.apartigi">
+      <dif>
+        Apartigi per esploro kaj analizo:
+        <ekz>
+          Tamen, la proponoj kaj sugestoj de PAG sukcesas <tld/>igi
+          interesan problemaron
+          <fnt>
+            <aut>Jouko Lindstedt</aut>:
+            <vrk><url ref="http://www.helsinki.fi/~jslindst/pag_rec.html">Recenzo de Plena Analiza Gramatiko</url></vrk>
+            </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_y;&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>,
+        <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+      </trdgrp>
+    </subsnc>
     <trdgrp lng="be">
       <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_a;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -340,11 +569,23 @@
     <trd lng="es">identificar</trd>
     <trd lng="nl">identificeren</trd>
     <trd lng="pt">identificar</trd>
-    <trdgrp lng="ru">
-      <trd>&c_o;&c_p;&c_o;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
-      <trd>&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </trdgrp>
   </snc>
+  <rim mrk="ident.0igi.RIM">
+    La signifo de <tld/>igi<sncref ref="ident.0igi.egaligi"/> estas
+    tute regula; dum <tld/>igi<sncref ref="ident.0igi.rekoni"/> estas
+    kontra&ubreve;regula escepto, en kiu la sufikso -ig uzurpas la rolon de
+    la sufikso -um. Tia pli regula formo sporade aperas:
+    <ekz>
+      Tion klarigas kompreneble eksteraj bremsoj <klr>(&#x2026;)</klr> sed
+      anka&ubreve; internaj limoj, kiun ni devas <tld/>umi por agi kontra&ubreve; ili
+      <fnt><aut>Christophe Chazarein</aut>:
+        <vrk>Instrui Esperanton: niaj defioj</vrk>.
+        <lok><url ref="https://www.ins-eo.org/instrui-esperanton-defioj/">Esperanto-info</url>, &#x2116;112, 2015-03-22</lok></fnt>
+    </ekz>
+    (kp <tld/>igi<sncref ref="ident.0igi.apartigi"/>).
+    Alia solvo estus enkonduki sensufiksan neologismon &leftquot;identifi&rightquot;.
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
   <trd lng="bg">&c_i;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_a;&c_n;&c_je;</trd>
   <trdgrp lng="cs">
     <trd>identifikovat</trd>,
@@ -354,13 +595,27 @@
   <trd lng="en">identify</trd>
   <trd lng="fr">identifier</trd>
   <trd lng="hu">azonos&iacute;t</trd>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x4E00;&#x8996;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3044;&#x3064;&#x3057;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x540C;&#x4E00;&#x5316;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3072;&#x3068;&#x304B;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8EAB;&#x5143;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;  <pr>&#x307F;&#x3082;&#x3068;&#x3092;&#x304B;&#x304F;&#x306B;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x540C;&#x5B9A;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3066;&#x3044;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x9451;&#x5B9A;&#x3059;&#x308B;  <pr>&#x304B;&#x3093;&#x3066;&#x3044;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>overi&tcaron;</trd>,
     <trd>overova&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x442;&#x43E;&#x442;&#x43E;&#x436;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x456;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x456;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_o;&c_t;&c_o;&c_t;&c_o;&c_zh;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8FA8;&#x8B58; <pr>bi&#xE0;nsh&#xED;</pr></trd>,
+    <trd>&#x76F8;&#x8A8D; <pr>xi&#x101;ngr&#xE8;n</pr></trd>,
+    <trd>&#x8FA8;&#x8A8D; <pr>bi&#xE0;nr&#xE8;n</pr></trd>,
+    <trd>&#x9A57;&#x660E;&#x6B63;&#x8EAB; <pr>y&#xE0;nm&#xED;ngzh&#xE8;ngsh&#x113;n</pr></trd>,
+    <trd>&#x8A8D;&#x540C; <pr>r&#xE8;nt&#xF3;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -370,20 +625,35 @@
     <uzo tip="fak">JUR</uzo>
     <dif>
       <ref cel="legiti.0ajxo.JUR">Legitimilo</ref>
-      kiu atestas la identecon de iu a&ubreve; io:
+      kiu atestas la <tld/>econ<sncref ref="ident.0eco.JUR"/> de iu a&ubreve; io:
       <ekz>
+        &leftquot;bonvolu montri <tld/>igilon&rightquot;, li petis
+        <fnt><bib>ChB</bib> <lok>15</lok></fnt>;
+      </ekz><ekz>
         neniu povas a&ccirc;eti bileton por longdistancaj
         busoj ne montrinte anta&ubreve;e validan <tld/>igilon
         <fnt>
-          <aut>K. Kniivil&auml;</aut>
-          <vrk>Homoj de Putin</vrk>
+          <aut>K. Kniivil&auml;</aut>: <vrk>Homoj de Putin</vrk>
           <lok>2016</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="indik.0ilo">indikilo</ref>,
+      <ref cel="mark.0o.signo">marko<sncref/></ref>,
+      <ref cel="signatur.0o">signaturo</ref>
+    </refgrp>
     <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je; &c_a;&c_s;&c_o;&c_b;&c_y;</trd>
+    <trd lng="de">Ausweis</trd>
+    <trd lng="en">identification<klr> (item which identifies a person)</klr></trd>
     <trd lng="fr">pi&egrave;ce d'identit&eacute;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8B49;&#x660E;&#x6587;&#x4EF6; <pr>zh&#xE8;ngm&#xED;ngw&#xE9;nji&#xE0;n</pr></trd>,
+    <trd>&#x8EAB;&#x4EFD;&#x8B49;&#x660E; <pr>sh&#x113;nf&#xE8;nzh&#xE8;ngm&#xED;ng</pr></trd>,
+    <trd>&#x8EAB;&#x4EFD;&#x8B49; <pr>sh&#x113;nf&#xE8;nzh&#xE8;ng</pr></trd>,
+    <trd>&#x7D50;&#x55AE; <pr>ji&#xE9;d&#x101;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="ident.0igilo.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
@@ -401,12 +671,31 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="nom.0o.de_io">nomo<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_a;&c_r;</trd>
+    <trdgrp lng="de">
+      <trd>Kennzeichen</trd>,
+      <trd>Kennung</trd>,
+      <trd>ID</trd>
+    </trdgrp>
+    <trd lng="en"><klr>unique </klr>identity</trd>
     <trd lng="fr">identifiant</trd>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="kon.re0ilo.karakterizajxo">rekonilo<sncref/></ref>,
+    <ref cel="difere.0igilo">diferencigilo</ref>,
+    <ref cel="distin.0ilo">distingilo</ref>,
+    <ref cel="trajt.0o.karakteriza">trajto<sncref/></ref>
+  </refgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8EAB;&#x5206;&#x8A3C;&#x660E;&#x66F8;  <pr>&#x307F;&#x3076;&#x3093;&#x3057;&#x3087;&#x3046;&#x3081;&#x3044;&#x3057;&#x3087;</pr></trd>,
+    <trd>&#x9451;&#x5B9A;&#x66F8;  <pr>&#x304B;&#x3093;&#x3066;&#x3044;&#x3057;&#x3087;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x456;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x456;&#x43A;&#x430;&#x446;&#x456;&#x439;&#x43D;&#x438;&#x439; &#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;</trd>,
-    <trd>&#x456;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x456;&#x43A;&#x430;&#x442;&#x43E;&#x440;</trd>
+    <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_ib;&c_j;&c_n;&c_i;&c_j; &c_d;&c_o;&c_k;&c_u;&c_m;&c_je;&c_n;&c_t;</trd>,
+    <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_o;&c_r;</trd>
   </trdgrp>
 </drv>
 
@@ -417,23 +706,21 @@
       I&gcirc;i <tld/>a kun iu a&ubreve; io:
       <ekz>
         <tld/>i&gcirc;i kun sia modelo, rolo;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         lia vivo preska&ubreve; <tld/>i&gcirc;is kun tiu granda entrepreno;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         &ccirc;ar la man&ccirc;uroj vivis kune kun la &ccirc;efgento <nom>Han</nom>
         de &Ccirc;inio tiom longe, iom post iom ili 
         preska&ubreve; <tld/>i&gcirc;is al la hanoj en vivstilo, moroj
         kaj precipe en parollingvo
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007025.html">
-          La Man&ccirc;ura: formortanta lingvo de malplimulto en
-          &Ccirc;inio</url></vrk>
+         
+          <vrk><url ref="&Monato;/2001/007025.php">LA MAN&Ccirc;URA: Formortanta lingvo
+          de malplimulto en &Ccirc;inio</url></vrk>
+<bib>Monato</bib>
+          <lok>2001/01, p. 22</lok>
         </fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la termo &leftquot;taja lingvo&rightquot; povas <tld/>i&gcirc;i kun taja lingvaro
         enhavanta 
         isanan lingvon <klr>[...]</klr>, la la&ubreve;an <klr>[...]</klr>,
@@ -447,42 +734,48 @@
     </dif>
     <trd lng="de">sich <ind>identifizieren</ind></trd>
   </snc>
+  <trd lng="en">identified<klr> with (associated with)</klr></trd>
   <trd lng="es">identificar-se</trd>
   <trd lng="fr">s'<ind>identifier</ind></trd>
   <trd lng="hu">azonosul</trd>
+  <trdgrp lng="ja">
+    <trd>&#x540C;&#x4E00;&#x5316;&#x3059;&#x308B;  <pr>&#x3069;&#x3046;&#x3072;&#x3068;&#x304B;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x4E00;&#x4F53;&#x5316;&#x3059;&#x308B;  <pr>&#x3044;&#x3063;&#x305F;&#x3044;&#x304B;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8EAB;&#x5143;&#x304C;&#x5224;&#x660E;&#x3059;&#x308B;  <pr>&#x307F;&#x3082;&#x3068;&#x304C;&#x306F;&#x3093;&#x3081;&#x3044;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">zich <ind>identificeren</ind></trd>
   <trd lng="pt">identificar-se</trd>
   <trd lng="ru">&c_o;&c_t;&c_o;&c_zh;&c_d;&c_je;&c_s;&c_t;&c_v;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43E;&#x442;&#x43E;&#x442;&#x43E;&#x436;&#x43D;&#x44E;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x456;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x456;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>
+    <trd>&c_o;&c_t;&c_o;&c_t;&c_o;&c_zh;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_ib;&c_d;&c_je;&c_n;&c_t;&c_i;&c_f;&c_ib;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
   </trdgrp>
 </drv>
   
 </art>
   <!--
   $Log$
-versio 1.30 2021/11/23 09:31:34
-Dmitri Gabinski: + trd be
+versio 1.47 2023/10/17 16:45:19
+revo: transskribo per <pr>
 
-versio 1.28 2020/02/15 00:10:28
-Wolfram Diestel: formuloj per am
+versio 1.45 2023/05/07 10:28:59
+Sergio Pokrovskij: RIM pri ~igi
 
-  Revision 1.27  2019/07/27 17:10:14  revo
-  Jeromo Vasxe: + ~igilo
+versio 1.44 2023/05/07 07:23:55
+Wolfram Diestel: Cxiurilate..., +ref-oj
 
-  Revision 1.26  2017/07/06 19:10:13  revo
-  Wolfram Diestel: kor. mrk, +~o 2, ~eco 3, ekz-oj
+versio 1.43 2023/05/07 06:30:55
+Sergio Pokrovskij: ~igi subsnc
 
-  Revision 1.25  2015/07/04 08:37:36  revo
-  aldono de trd cs per skripto de M. von Laer
+versio 1.42 2023/05/06 14:26:00
+Sergio Pokrovskij: for Rabistoj-ekz; + aliaj ekz
 
-  Revision 1.24  2015/06/29 16:33:15  revo
-  aldono de trd sk per skripto de M. von Laer
+versio 1.41 2023/05/06 02:38:33
+Sergio Pokrovskij: kelkaj trd=ru
 
-  Revision 1.23  2014/08/11 15:10:10  revo
-  Guillermo Molleda Jimena: Hispana tradukado
+versio 1.40 2023/05/04 19:19:19
+Wolfram Diestel: snc "nedistingebla" unu, EVI->KOMUNE
 
-  Revision 1.22  2013/07/26 01:10:21  revo
+versio 1.39 2023/05/04 16:53:13
 -->
 </vortaro>

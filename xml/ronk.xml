@@ -1,17 +1,69 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ronk.xml,v 1.19 2022/03/26 19:19:20 revo Exp $">
+<art mrk="$Id: ronk.xml,v 1.25 2023/12/21 13:32:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ronk</rad>/i
 </kap>
+
+<drv mrk="ronk.0">
+  <kap><tld/></kap>
+  <gra><vspec>sonimito</vspec></gra>
+  <snc mrk="ronk.0.SON">
+    <dif>
+      Bruo de forta, embarasata spirado:
+      <ekz>
+        &leftquot;<tld/>, <tld/>&rightquot; ronkis Sinjorino Urso, &leftquot;<tld/>, <tld/>, <tld/>&rightquot;
+        &leftquot;Ho, ne!&rightquot; diris Sinjoro Urso, &leftquot;mi ne povas toleri tion.&rightquot;
+        <fnt>
+           <aut>J. Murphy, trad. Nikola kaj Martin Markarian</aut>
+          <vrk><url ref="http://www.phys.ens.fr/~jacobsen/infanlibroj/Ursoj.pdf">
+          Paco .. finfine</url></vrk>
+          <lok>[vidita en 2023]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_g;&c_r;-&c_r;-&c_r;!</trd>
+  <trd lng="fr">ron<klr> (ronflement)</klr></trd>
+</drv>
+
 <drv mrk="ronk.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="ronk.0i.FIZL">
     <dif>
-      Eligi bruon spirante dum la dormo.
+      Eligi bruon <ref tip="vid" cel="spir.0i.FIZL">spirante</ref> dum la dormo:
+      <ekz>
+        a&ubreve;skultu <klr>[&#8230;]</klr> vi povas <tld/>i, <tld/>i la tutan nokton, sed mi ne
+        povas dormi e&ccirc; horkvaronon
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tie ku&scirc;is la lupo sub arbo kaj <tld/>is tiel, ke la bran&ccirc;oj tremis
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La sep kapridoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i eka&ubreve;dis kvaza&ubreve; en dormo <tld/>an, nehaltigeblan tusadon
+        <klr>(kp <ref cel="sterto.0o">stertoro</ref>)</klr>
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la maristo dume <tld/>etadis tute ne turmentante sian cerbon pri filozofiaj tezoj
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_h;&c_r;&c_a;&c_p;&c_c;&c_ib;</trd>
     <trdgrp lng="ca">
@@ -23,20 +75,77 @@
     <trdgrp lng="es">
       <trd>roncar</trd>
     </trdgrp>
-    <trd lng="hu">horkol</trd>    
+    <trd lng="hu">horkol</trd>
     <trd lng="nl">snurken</trd>
+    <trd lng="pl">chrapa&cacute;</trd>
     <trd lng="pt">roncar</trd>
+    <trd lng="ro">sfor&abreve;i</trd>
     <trd lng="ru">&c_h;&c_r;&c_a;&c_p;&c_je;&c_t;&c_mol;</trd>
     <trd lng="sv">snarka</trd>
   </snc>
-  <snc>
+  <snc mrk="ronk.0i.SON">
     <dif>
-      Eligi bruon similantan al <tld/>ado;
-      <ref tip="sin" cel="grunt.0i">grunti</ref>:
+      Eligi bruon similantan al <tld/>ado:
       <ekz>
-        li <tld/>is kiel porko, kiel kolera leonido<fnt>B</fnt>.
+        <klr>[li]</klr> eka&ubreve;dis <tld/>adon de &ccirc;evalo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ser&ccirc;os ilin eksplodis la princo, li kuris en la &ccirc;ambro kaj <tld/>is, kiel
+        kolera leonido
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>adoj de la flamado sonorigis la atmosferon
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la blekegantaj ondegoj, enprofundi&gcirc;ante en la kavernon <klr>[&#8230;]</klr> naskis
+        senpa&ubreve;zan <tld/>adon, kiu supreniris el la teraj interna&jcirc;oj
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Deka</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eta gramofono alte levi&gcirc;as en la aero kaj <tld/>e a&ubreve;digas malkompreneblajn sonojn
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vapor&scirc;ipeto maldiligente siblis <klr>[&#8230;]</klr>, <tld/>e fajfinte, fine
+        albordi&gcirc;is,
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio estas tor&ccirc;oj!
+        kaj li turnis sin al la sklavoj:
+        atentu, ke la muloj ne <tld/>u!
+        <fnt>
+          <aut>H. Sienkiewicz, trad. Lidja Zamenhof</aut>
+          <vrk>Quo Vadis</vrk>
+          <lok>1933</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="anhel.0i">anheli</ref>,
+      <ref cel="grunt.0i">grunti</ref>,
+      <ref cel="ror.0i">rori</ref>,
+      <ref cel="snuf.0egi">snufegi</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_r;&c_o;&c_h;&c_k;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_r;&c_y;&c_k;&c_a;&c_c;&c_mol;</trd>,
@@ -47,7 +156,14 @@
       <trd>roncar</trd>,
       <trd>remorejar</trd>
     </trdgrp>
-    <trd lng="en">grunt</trd>
+    <trdgrp lng="de">
+      <trd>schnauben</trd>,
+      <trd>r&ouml;cheln</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>grunt</trd>,
+      <trd>snort</trd>
+    </trdgrp>
     <trdgrp lng="es">
       <trd>roncar</trd>
     </trdgrp>
@@ -60,6 +176,8 @@
       <trd>knorren</trd>,
       <trd>grommen</trd>
     </trdgrp>
+    <trd lng="pl">chrapa&cacute;</trd>
+    <trd lng="ro">sfor&abreve;i</trd>
     <trdgrp lng="ru">
       <trd>&c_h;&c_r;&c_ju;&c_k;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_f;&c_y;&c_r;&c_k;&c_a;&c_t;&c_mol;</trd>,
@@ -72,20 +190,42 @@
     <trd>frkat <klr>(k&uring;&ncaron;)</klr></trd>
   </trdgrp>
   <trd lng="de">schnarchen</trd>
-  <trd lng="fr">ronfler</trd>
+  <trdgrp lng="fr">
+    <trd>ren&acirc;cler</trd>,
+    <trd>ronfler</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#12356;&#12403;&#12365;&#12434;&#12363;&#12367;</trd>,
+    <trd>&#12372;&#12358;&#12372;&#12358;&#12358;&#12394;&#12427;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>chrochta&tcaron;</trd>,
     <trd>chr&aacute;pa&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x445;&#x440;&#x43E;&#x43F;&#x442;&#x438;</trd>,
-    <trd>&#x445;&#x440;&#x44E;&#x43A;&#x430;&#x442;&#x438; (&#x43F;&#x440;&#x43E; &#x441;&#x432;&#x438;&#x43D;&#x44E;)</trd>,
-    <trd>&#x444;&#x438;&#x440;&#x43A;&#x430;&#x442;&#x438; (&#x43F;&#x440;&#x43E; &#x43A;&#x43E;&#x43D;&#x44F;)</trd>
+    <trd>&c_h;&c_r;&c_o;&c_p;&c_t;&c_i;</trd>,
+    <trd>&c_h;&c_r;&c_ju;&c_k;&c_a;&c_t;&c_i; (&c_p;&c_r;&c_o; &c_s;&c_v;&c_i;&c_n;&c_ju;)</trd>,
+    <trd>&c_f;&c_i;&c_r;&c_k;&c_a;&c_t;&c_i; (&c_p;&c_r;&c_o; &c_k;&c_o;&c_n;&c_ja;)</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/12/21 13:32:29
+Dmitri Gabinski: + trd be
+
+versio 1.24 2023/09/28 06:28:21
+Wolfram Diestel: +ekz-oj, ref-oj, trd de
+
+versio 1.23 2023/09/26 12:44:19
+Wolfram Diestel: +trd de
+
+versio 1.22 2023/09/08 21:21:52
+Jeromo Vasxe: + ~. + kk ekz
+
+versio 1.20 2023/01/14 14:26:10
+Vito Redsky: +trd pl + trd ro
+
 Revision 1.17  2015/07/04 08:37:43  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -93,17 +233,5 @@ Revision 1.16  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.15  2006/02/24 17:32:38  revo
-Tulio Flores: +trd pt
-
-Revision 1.14  2005/04/18 16:33:13  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.13  2004/09/14 16:31:18  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2004/05/25 16:34:31  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/01/31 17:32:19  revo
 -->
 </vortaro>

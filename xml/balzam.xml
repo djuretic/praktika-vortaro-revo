@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: balzam.xml,v 1.32 2022/08/09 07:29:14 revo Exp $">
+<art mrk="$Id: balzam.xml,v 1.38 2024/01/09 07:24:19 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>balzam</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>balzam</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 
 <drv mrk="balzam.0o">
   <kap><tld/>o</kap>
   <snc mrk="balzam.0o.PAR">
     <dif>
-      Bonodora miksa&jcirc;o de <ref tip="super" cel="rezin.0o.BOT">rezino</ref> kaj oleo, 
-      sekreciata vegeta&jcirc;oj el la genro <nom>Burseraceae</nom> k.a.:
+      Bonodora miksa&jcirc;o de <ref tip="super" cel="rezin.0o.BOT">rezino</ref> kaj oleo,
+      sekreciata de vegeta&jcirc;oj el la genro <nom>Burseraceae</nom> k.a.:
       <ekz>
         iliaj kameloj portas aroma&jcirc;ojn kaj <tld/>on kaj mirhon
         <fnt><bib>MT</bib>, <lok>&Gen; 37:25</lok></fnt>.
@@ -24,6 +24,11 @@
       <ref cel="stirak.0o">stirako</ref>
     </refgrp>
     <trd lng="pl">balsam</trd>
+    <trdgrp lng="zh">
+    <trd>&#39321;&#33167; <pr>xi&amacron;ngg&amacron;o</pr></trd>,
+      <trd>&#33647;&#27700; <pr>y&agrave;oshu&#464;</pr></trd>,
+      <trd>&#39321;&#33026; <pr>xi&amacron;ngzh&imacron;</pr></trd>
+    </trdgrp>
   </snc>
   <snc mrk="balzam.0o.MED">
     <uzo tip="fak">MED</uzo>
@@ -39,6 +44,16 @@
           <bib>QuV</bib>
           <lok>&Ccirc;apitro L</lok>
         </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;miro de <ind>postraza <tld/>o</ind> sur la ankora&ubreve; humidan ha&ubreve;ton finis la matenan riton
+        <fnt>
+          <aut>Jesper Jacobsen</aut>
+          <vrk><url ref="https://books.google.de/books?id=dFkbAgAAQBAJ&amp;lpg=PA14&amp;ots=mgi1DC7wgt&amp;pg=PA14#v=onepage"
+              >La Pun&ccirc;blovo de la diablo</url></vrk>
+          <lok>Belarta rikolto 2013</lok>
+        </fnt>;
+        <trd lng="de">Aftershave-Balsam</trd>
       </ekz>
       <ekz>
         la pastro aplikis al ni la saman <tld/>on, per kiu oni &scirc;miras infanojn, kiujn
@@ -89,6 +104,13 @@
   <trd lng="fr">baume</trd>
   <trd lng="he">&bet;&shin;&mem;&tav;</trd>
   <trd lng="hu">balzsam</trd>
+  <trdgrp lng="ja">
+    <trd>&#12496;&#12523;&#12469;&#12512;</trd>,
+    <trd>&#37806;&#30171;&#21092;  <pr>&#12385;&#12435;&#12388;&#12358;&#12374;&#12356;</pr></trd>,
+    <trd>&#24944;&#12417;  <pr>&#12394;&#12368;&#12373;&#12417;</pr></trd>,
+    <trd>&#33510;&#30171;&#12434;&#21644;&#12425;&#12370;&#12427;&#12418;&#12398;
+    <pr>&#12367;&#12388;&#12358;&#12434;&#12420;&#12431;&#12425;&#12370;&#12427;&#12418;&#12398;</pr></trd>
+  </trdgrp>
   <trd lng="nl">balsem</trd>
   <trd lng="ru">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;</trd>
   <trd lng="sk">balzam</trd>
@@ -147,8 +169,16 @@
     <trd>balmy</trd>
   </trdgrp>
   <trd lng="fr">balsamique</trd>
+  <trdgrp lng="ja">
+    <trd>&#12496;&#12523;&#12469;&#12512;&#12434;&#21547;&#12416;
+    <pr>&#12496;&#12523;&#12469;&#12512;&#12434;&#12405;&#12367;&#12416;</pr></trd>,
+    <trd>&#33459;&#39321;&#24615;&#12398;  <pr>&#12411;&#12358;&#12371;&#12358;&#12379;&#12356;&#12398;</pr></trd>,
+    <trd>&#12363;&#12368;&#12431;&#12375;&#12356;</trd>,
+    <trd>&#33510;&#30171;&#12434;&#21644;&#12425;&#12370;&#12427;  <pr>&#12367;&#12388;&#12358;&#12434;&#12420;&#12431;&#12425;&#12370;&#12427;</pr></trd>
+  </trdgrp>
   <trd lng="nl">balsem-</trd>
   <trd lng="pl">balsamiczny</trd>
+  <trd lng="ru">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="sk">balzamov&yacute;</trd>
   <trd lng="uk">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_ib;&c_ch;&c_n;&c_i;&c_j;</trd>
 </drv>
@@ -182,6 +212,8 @@
   <trd lng="be">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   <trd lng="de">Einbalsamieren</trd>
   <trd lng="fr">enbaumement</trd>
+  <trd lng="ru">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+
 </drv>
 
 <drv mrk="balzam.0isto">
@@ -238,8 +270,13 @@
       <trd>&c_n;&c_a;&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="sk">balzamova&tcaron;</trd>
-  </snc>
+    <trd lng="zh">&#20351;&#27704;&#23384; <pr>sh&#464;y&#466;ngc&uacute;n</pr></trd>
+</snc>
   <trd lng="he">&lamed;&het;&nun;&vav;&tet;</trd>
+  <trdgrp lng="ja">
+    <trd/>,
+    <trd>&#33459;&#39321;&#12434;&#28155;&#12360;&#12427;  <pr>&#12411;&#12358;&#12371;&#12358;&#12434;&#12381;&#12360;&#12427;</pr></trd>
+  </trdgrp>
   <trd lng="uk">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
@@ -266,6 +303,18 @@
 </art>
 <!--
 $Log$
+versio 1.38 2024/01/09 07:24:19
+Wolfram Diestel: +ekz
+
+versio 1.37 2024/01/09 06:32:00
+Wolfram Diestel: fnt JED
+
+versio 1.36 2024/01/08 14:30:28
+Sergio Pokrovskij: mankanta "de"
+
+versio 1.34 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
 versio 1.32 2022/08/09 07:29:14
 Dmitri Gabinski: + trd be
 
@@ -276,17 +325,5 @@ Revision 1.26  2015/07/04 08:37:31  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.25  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.24  2014/03/20 02:10:18  revo
-Jeromo Vasxe: + mrk, + ~ado
-
-Revision 1.23  2014/03/19 10:10:14  revo
-Damien Brucker: -eraro cxe ref
-
-Revision 1.22  2012/08/25 10:10:14  revo
-Marc Rausell: + trd ca
-
-Revision 1.21  2009/02/24 17:30:27  revo
 -->
 </vortaro>

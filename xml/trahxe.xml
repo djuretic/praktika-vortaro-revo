@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trahxe.xml,v 1.28 2022/03/28 14:44:12 revo Exp $">
+<art mrk="$Id: trahxe.xml,v 1.31 2023/10/21 14:37:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tra&hcirc;e</rad>/o <fnt><bib>PV</bib></fnt>
@@ -70,10 +70,14 @@
   </snc>
   <trd lng="ca">tr&agrave;quea</trd>
   <trd lng="it">trachea</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6C17;&#x7BA1;  <pr>&#x304D;&#x304B;&#x3093;</pr></trd>,
+    <trd>&#x5C0E;&#x7BA1;  <pr>&#x3069;&#x3046;&#x304B;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x440;&#x430;&#x445;&#x435;&#x44F;</trd>,
-    <trd>&#x434;&#x438;&#x445;&#x430;&#x43B;&#x44C;&#x43D;&#x435; &#x433;&#x43E;&#x440;&#x43B;&#x43E;</trd>,
-    <trd>&#x441;&#x443;&#x434;&#x438;&#x43D;&#x430;</trd>
+    <trd>&c_t;&c_r;&c_a;&c_h;&c_je;&#x44F;</trd>,
+    <trd>&c_d;&c_i;&c_h;&c_a;&#x43B;&#x44C;&#x43D;&c_je; &c_g;&#x43E;&c_r;&#x43B;&#x43E;</trd>,
+    <trd>&c_s;&c_u;&c_d;&c_i;&#x43D;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -82,7 +86,7 @@
   <snc mrk="trahxe.0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Tradicia <ref tip="lst" cel="grup.0o.BIO" lst="voko:zoologiaj_grupoj">grupo</ref> 
+      Tradicia <ref tip="lst" cel="grup.0o.BIO" lst="voko:zoologiaj_grupoj">grupo</ref>
       ampleksanta multpiedulojn kaj sespiedulojn;
       <ref tip="malprt" cel="artik.0uloj.ZOO">artikuloj</ref>,
       spirantaj per <tld/>oj kaj plejparte vivantaj
@@ -91,6 +95,10 @@
       (<trd lng="la">Tracheata</trd>).
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_t;&c_r;&c_a;&c_h;&c_je;&c_j;&c_n;&c_a;&c_d;&c_y;&c_h;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_ja; <klr>(&c_p;&c_a;&c_d;&c_t;&c_y;&c_p;)</klr></trd>,
+    <trd>&c_n;&c_je;&c_p;&c_a;&c_w;&c_n;&c_a;&c_v;&c_u;&c_s;&c_y;&c_ja; <klr>(&c_p;&c_a;&c_d;&c_t;&c_y;&c_p;)</klr></trd>
+  </trdgrp>
   <trd lng="de"> Tracheentiere</trd>
   <trdgrp lng="it">
     <trd>tracheati<klr> (zool.)</klr></trd>,
@@ -105,6 +113,12 @@
 </art>
 <!--
 $Log$
+versio 1.31 2023/10/21 14:37:42
+revo: transskribo per <pr>
+
+versio 1.29 2023/08/22 15:26:21
+Dmitri Gabinski: + trd be
+
 versio 1.27 2021/05/16 13:55:59
 Wolfram Diestel: kor. ref-cel
 
@@ -121,11 +135,5 @@ Revision 1.22  2012/08/14 12:10:38  revo
 Marc Rausell: ++ trd ca
 
 Revision 1.21  2010/12/16 17:30:25  revo
-Antonio Codazzi: +trd it
-
-Revision 1.20  2010/06/23 16:30:40  revo
-Jeromo Vasxe: - 2 sendifinaj kap, - 1 netauxga drv, + 1 trd fr, - kk x
-
-Revision 1.19  2009/05/17 16:31:45  revo
 -->
 </vortaro>

@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: motiv.xml,v 1.26 2022/09/09 13:04:38 revo Exp $">
+<art mrk="$Id: motiv.xml,v 1.34 2024/01/26 19:05:53 revo Exp $">
 <kap>
    <ofc>1</ofc>
-   <rad>motiv</rad>/o <fnt><bib>Fab1</bib></fnt>
+   <rad>motiv</rad>/o
+   <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="motiv.0o">
    <kap><tld/>o</kap>
    <snc mrk="motiv.0o.kialo">
      <dif>
-       Tio, kio igas iun agi a&ubreve; opinii iamaniere; kialo:
+      Tio, kio igas iun agi a&ubreve; opinii iamaniere; <ref tip="super" cel="kial.0o">kialo</ref> de
+      agado:
       <ekz>
         ni havas neniun <tld/>on montri al li nian dankemon
         <fnt>
@@ -47,7 +49,7 @@
          plendmotivon dum sia gardostarado;
          <fnt><bib>Fab1</bib>, <lok>Cikonioj</lok></fnt>
       </ekz><ekz>
-        <klr>[&scirc;i]</klr> sciigis <klr>[&#8230;]</klr>, pro kia <tld/>o &scirc;i tu&scirc;is lin
+        <klr>[&scirc;i]</klr> sciigis <klr>[&#x2026;]</klr>, pro kia <tld/>o &scirc;i tu&scirc;is lin
         <fnt>
           <bib>NT</bib>
           <lok>Luko 8:47</lok>
@@ -78,7 +80,7 @@
      </dif>
      <trdgrp lng="de">
        <trd>Motivation</trd>,
-       <trd>Grund</trd>,
+       <trd>Beweggrund</trd>,
        <trd>Antrieb</trd>
      </trdgrp>
      <trdgrp lng="en">
@@ -107,7 +109,7 @@
             <lok>2008</lok>
           </fnt>;
         </ekz><ekz>
-          <tld/>e dominas la stoika idealo de konstanteco <klr>[&#8230;]</klr> kaj la samtempa
+          <tld/>e dominas la stoika idealo de konstanteco <klr>[&#x2026;]</klr> kaj la samtempa
           <tld/>o de <nac>Vanitas</nac>, la efemereco de la monda feli&ccirc;o
           <fnt>
             <bib>Viki</bib>
@@ -128,7 +130,7 @@
      <trd lng="en">motif</trd>
    </snc>
   <trd lng="be">&c_m;&c_a;&c_t;&c_y;&c_w;</trd>
-  <trd lng="bo">&#xF66;&#xF90;&#xF74;&#xF63;&#xF0B;&#xF66;&#xFB3;&#xF7C;&#xF44;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_kata;&t_shabchu;&t_la;&t_tsheg;&t_sa;&t_lata;&t_naro;&t_nga;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>d&uring;vod</trd>,
     <trd>motiv</trd>,
@@ -136,6 +138,13 @@
   </trdgrp>
   <trd lng="en">motive</trd>
   <trd lng="fr">motif</trd>
+  <trdgrp lng="ja">
+    <trd>&#x52D5;&#x6A5F;  <pr>&#x3069;&#x3046;&#x304D;</pr></trd>,
+    <trd>&#x7406;&#x7531;  <pr>&#x308A;&#x3086;&#x3046;</pr></trd>,
+    <trd>&#x6839;&#x62E0;  <pr>&#x3053;&#x3093;&#x304D;&#x3087;</pr></trd>,
+    <trd>&#x30E2;&#x30C1;&#x30FC;&#x30D5;</trd>,
+    <trd>&#x4E3B;&#x984C;  <pr>&#x3057;&#x3085;&#x3060;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">motief</trd>
   <trdgrp lng="pl">
     <trd>motyw</trd>,
@@ -153,8 +162,17 @@
     <trd>popud</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x43E;&c_t;&c_i;&c_v;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&c_v;&c_ib;&c_d;</trd>
+    <trd>&c_m;&c_o;&c_t;&c_i;&c_v;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_v;&c_ib;&c_d;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5FC3;&#x8DEF; <pr>x&#x12B;nl&#xF9;</pr></trd>,
+    <trd>&#x8D77;&#x898B; <pr>q&#x1D0;ji&#xE0;n</pr></trd>,
+    <trd>&#x8D77;&#x89C1; <pr>q&#x1D0;ji&#xE0;n</pr></trd>,
+    <trd>&#x52A8;&#x673A; <pr>d&#xF2;ngj&#x12B;</pr></trd>,
+    <trd>&#x52D5;&#x6A5F; <pr>d&#xF2;ngj&#x12B;</pr></trd>,
+    <trd>&#x52A8;&#x56E0; <pr>d&#xF2;ngy&#x12B;n</pr></trd>,
+    <trd>&#x52D5;&#x56E0; <pr>d&#xF2;ngy&#x12B;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -172,14 +190,13 @@
           diversaj punktoj
           <fnt>
             <aut>&Z;</aut>
-            <vrk><url
-            ref="https://tekstaro.com/t?nomo=reformoj-esperanto&amp;id=cc60&amp;serchesprimo=motivi&amp;tuj=1#cc60">Pri
+            <vrk><url ref="&Tekstaro;?nomo=reformoj-esperanto&amp;id=cc60&amp;serchesprimo=motivi&amp;tuj=1#cc60">Pri
             Reformoj en Esperanto</url></vrk>
             <lok>1894</lok>
           </fnt>.
         </ekz>
      </dif>
-     <trd lng="be">&c_m;&c_a;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+     <trd lng="be">&c_s;&c_l;&c_u;&c_zh;&c_y;&c_c;&c_mol; <ind>&c_m;&c_a;&c_t;&c_y;&c_v;&c_a;&c_m;</ind></trd>
      <trd lng="de">ein Motiv haben</trd>
      <trd lng="en">motivate</trd>
      <trd lng="fr">motiver<klr> (&ecirc;tre le motif de)</klr></trd>
@@ -208,6 +225,13 @@
           </fnt>.
         </ekz>
      </dif>
+     <trdgrp lng="be">
+       <trd>&c_m;&c_a;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+       <trd>&c_a;&c_b;&c_g;&c_r;&c_u;&c_n;&c_t;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+       <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_v;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol; &c_m;&c_a;&c_t;&c_y;&c_w;)</klr></trd>
+     </trdgrp>
+     <trd lng="de">rechtfertigen</trd>
+     <trd lng="en">justify</trd>
      <trd lng="fr">motiver<klr> (justifier par des motifs)</klr></trd>
    </snc>
   <trdgrp lng="cs">
@@ -215,6 +239,10 @@
     <trd>motivovat</trd>,
     <trd>od&uring;vodnit</trd>,
     <trd>zd&uring;vodnit</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x52D5;&#x6A5F;&#x4ED8;&#x3051;&#x308B;  <pr>&#x3069;&#x3046;&#x304D;&#x3064;&#x3051;&#x308B;</pr></trd>,
+    <trd>&#x7406;&#x7531;&#x4ED8;&#x3051;&#x308B;  <pr>&#x308A;&#x3086;&#x3046;&#x3064;&#x3051;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>argumentowa&cacute;</trd>,
@@ -232,10 +260,10 @@
     <trd>zd&ocirc;vodni&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x43E;&c_t;&c_i;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&#x43E;&#x44F;&c_s;&#x43D;&#x44E;&c_v;&c_a;&c_t;&c_i; &#x43F;&c_r;&c_i;&c_ch;&c_i;&#x43D;&c_u;</trd>,
-    <trd>&#x43F;&c_r;&c_i;&c_v;&c_ib;&c_d;</trd>,
-    <trd>&#x43E;&c_b;&c_gu;&c_r;&c_u;&#x43D;&c_t;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+    <trd>&c_m;&c_o;&c_t;&c_i;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_o;&c_ja;&c_s;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i; &c_p;&c_r;&c_i;&c_ch;&c_i;&c_n;&c_u;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_v;&c_ib;&c_d;</trd>,
+    <trd>&c_o;&c_b;&c_gu;&c_r;&c_u;&c_n;&c_t;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -248,7 +276,7 @@
        <ekz>
          plene <tld/>igita plendo;
        </ekz><ekz>
-        li per persista demandado kaj analizo <klr>[&#8230;]</klr> de homaj rilatoj kaj
+        li per persista demandado kaj analizo <klr>[&#x2026;]</klr> de homaj rilatoj kaj
         <tld/>igoj, faras siajn hipotezojn kaj konkludojn
         <fnt>
           <bib>Monato</bib>
@@ -269,7 +297,11 @@
        </ekz>
      </dif>
    </snc>
-  <trd lng="be">&c_m;&c_a;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+     <trdgrp lng="be">
+       <trd>&c_m;&c_a;&c_t;&c_y;&c_v;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+       <trd>&c_a;&c_b;&c_g;&c_r;&c_u;&c_n;&c_t;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
+       <trd>&c_a;&c_p;&c_r;&c_a;&c_w;&c_d;&c_v;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol; &c_m;&c_a;&c_t;&c_y;&c_w;)</klr></trd>
+     </trdgrp>
   <trdgrp lng="cs">
     <trd>motivovat</trd>,
     <trd>od&uring;vodnit</trd>
@@ -277,6 +309,10 @@
   <trd lng="de">rechtfertigen</trd>
   <trd lng="en">justify</trd>
   <trd lng="fr">motiver<klr> (justifier par des motifs)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x52D5;&#x6A5F;&#x4ED8;&#x3051;&#x308B;  <pr>&#x3069;&#x3046;&#x304D;&#x3064;&#x3051;&#x308B;</pr></trd>,
+    <trd>&#x7406;&#x7531;&#x4ED8;&#x3051;&#x308B;  <pr>&#x308A;&#x3086;&#x3046;&#x3064;&#x3051;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">motiveren</trd>
   <trdgrp lng="pl">
     <trd>uzasadnia&cacute;</trd>,
@@ -292,6 +328,12 @@
     <trd>od&ocirc;vodni&tcaron;</trd>,
     <trd>zd&ocirc;vodni&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x8F9C;&#x8CA0; <pr>b&#xF9;g&#x16B;f&#xF9;</pr></trd>,
+    <trd>&#x4E0D;&#x8F9C;&#x8D1F; <pr>b&#xF9;g&#x16B;f&#xF9;</pr></trd>,
+    <trd>&#x8868;&#x660E;&#x81EA;&#x5DF1;&#x662F;&#x6B63;&#x786E; <pr>bi&#x1CE;om&#xED;ngz&#xEC;j&#x1D0;sh&#xEC;zh&#xE8;ngqu&#xE8;</pr></trd>,
+    <trd>&#x8868;&#x660E;&#x81EA;&#x5DF1;&#x662F;&#x6B63;&#x78BA; <pr>bi&#x1CE;om&#xED;ngz&#xEC;j&#x1D0;sh&#xEC;zh&#xE8;ngqu&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="motiv.cxef0o">
@@ -303,6 +345,7 @@
        asociata kun rolulo, rememoro, teraviva&jcirc;o a&ubreve; abstakta nocio,
        ripetata &ccirc;e ties apero sur la sceno a&ubreve; mencio.
      </dif>
+     <trd lng="be">&c_l;&c_je;&c_j;&c_t;&c_m;&c_a;&c_t;&c_y;&c_w;</trd>
    </snc>
    <snc mrk="motiv.cxef0o.FIG">
      <uzo tip="stl">FIG</uzo>
@@ -310,45 +353,56 @@
      <dif>
        La &ccirc;efa ideo, la baza penso, multfoje ripetata kaj emfazata:
        <ekz>
-         Amo estas la &ccirc;ef<tld/>o, kiu regas en tiuj &ccirc;i fabeloj
+         amo estas la &ccirc;ef<tld/>o, kiu regas en tiuj &ccirc;i fabeloj
          <fnt><aut>Totsche</aut>.
-           <lok>Literatura Mondo, 1932, p. 96</lok></fnt>;
+         <lok>Literatura Mondo, 1932, p. 96</lok></fnt>;
        </ekz><ekz>
-         La 200-jara jubileo de la alveno de la katolikismo en Koreo
-         estas la &ccirc;ef<tld/>o de la papa voja&gcirc;o en tiun landon  
+         la 200-jara jubileo de la alveno de la katolikismo en Koreo
+         estas la &ccirc;ef<tld/>o de la papa voja&gcirc;o en tiun landon
          <fnt><lok>Espero Katolika, 1984:4</lok></fnt>.
        </ekz>
-     </dif>
-   </snc>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="sujxet.0o">su&jcirc;eto</ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_l;&c_je;&c_j;&c_t;&c_m;&c_a;&c_t;&c_y;&c_w;</trd>,
+      <trd>&c_k;&c_ib;&c_r;&c_a;&c_w;&c_n;&c_ib;&c_ch;&c_a;&c_ja; &c_d;&c_u;&c_m;&c_k;&c_a;</trd>
+    </trdgrp>
+  </snc>
   <trd lng="de">Leitmotiv</trd>
   <trd lng="en">leitmotif</trd>
   <trd lng="ru">&c_l;&c_je;&c_j;&c_t;&c_m;&c_o;&c_t;&c_i;&c_v;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E3B;&#x5BFC;&#x52A8;&#x673A; <pr>zh&#x1D4;d&#x1CE;od&#xF2;ngj&#x12B;</pr></trd>,
+    <trd>&#x4E3B;&#x5C0E;&#x52D5;&#x6A5F; <pr>zh&#x1D4;d&#x1CE;od&#xF2;ngj&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.33 2024/01/24 21:22:28
+Wolfram Diestel: fnt JED, trd de
+
+versio 1.32 2023/10/19 18:36:53
+revo: transskribo per <pr>
+
+versio 1.31 2023/10/08 17:25:05
+Wolfram Diestel: +ref
+
+versio 1.29 2023/05/05 17:57:59
+revo: aktualigo URL-unuoj
+
+versio 1.28 2023/05/02 07:24:30
+Dmitri Gabinski: + trd be
+
+versio 1.27 2023/05/01 11:20:27
+Christian Siefkes: +trd de, en
+
 versio 1.26 2022/09/09 13:04:38
 Ulrich Fellmann: motivi, motivigi: po +1 DE trd
 
 versio 1.25 2022/05/01 12:05:12
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.23 2021/07/11 05:26:19
-Sergio Pokrovskij: +cxef~o
-
-versio 1.21 2021/04/04 18:19:55
-Vito Redsky: +trd pl +trd ro
-
-versio 1.20 2020/02/25 19:11:25
-Wolfram Diestel: +ekz-oj, gxeneraligis snc arta
-
-Revision 1.19  2020/02/22 13:10:19  revo
-Wolfram Diestel: +2ekz
-
-Revision 1.18  2020/02/19 09:10:18  revo
-Wolfram Diestel: ~o: ekz-oj
-
-Revision 1.17  2015/07/04 08:37:39  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ekspre.xml,v 1.24 2022/04/27 14:38:53 revo Exp $">
+<art mrk="$Id: ekspre.xml,v 1.28 2023/11/07 19:22:36 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>ekspres</rad>/o
@@ -42,7 +42,12 @@
     <trd lng="pt">expresso</trd>
     <trd lng="ru">&c_n;&c_a;&c_r;&c_o;&c_ch;&c_n;&c_y;&c_j;<klr>
 (&c_s;&c_u;&c_shch;.)</klr></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x9001;&#x5FEB;&#x4FE1;&#x7684;&#x4EBA; <pr>s&#xF2;ngku&#xE0;ix&#xEC;nder&#xE9;n</pr></trd>,
+    <trd>&#x4F20;&#x9012;&#x6025;&#x4FE1;&#x7684;&#x4FE1;&#x5DEE; <pr>chu&#xE1;nd&#xEC;j&#xED;x&#xEC;ndex&#xEC;nch&#x101;i</pr></trd>,
+    <trd>&#x5831;&#x4FE1;&#x8005; <pr>b&#xE0;ox&#xEC;nzh&#x11B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="ekspre.0o.FER">
     <uzo tip="fak">FER</uzo>
     <dif>
@@ -79,18 +84,27 @@
     <trd lng="pl">ekspres</trd>
     <trd lng="pt">expresso</trd>
     <trd lng="ru">&c_e;&c_k;&c_s;&c_p;&c_r;&c_je;&c_s;&c_s;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x76F4;&#x901A;&#x5217;&#x8F66; <pr>zh&#xED;d&#xE1;li&#xE8;ch&#x113;</pr></trd>,
+    <trd>&#x7279;&#x5FEB;&#x5217;&#x8ECA; <pr>t&#xE8;ku&#xE0;ili&#xE8;ch&#x113;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="ca">expr&eacute;s<klr> (subst.)</klr></trd>
   <trd lng="cs">expres <klr>(rychl&iacute;k| rychl&yacute; posel| sp&ecaron;&scaron;n&aacute; z&aacute;silka)</klr></trd>
   <trd lng="he">&alef;&#x5B6;&qof;&#x5B0;&samekh;&#x5B0;&pe;&#x5BC;&resh;&#x5B6;&samekh;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6025;&#x884C;&#x5217;&#x8ECA;  <pr>&#x304D;&#x3085;&#x3046;&#x3053;&#x3046;&#x308C;&#x3063;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x901F;&#x9054;  <pr>&#x305D;&#x304F;&#x305F;&#x3064;</pr></trd>,
+    <trd>&#x6025;&#x4F7F;  <pr>&#x304D;&#x3085;&#x3046;&#x3057;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>expres <klr>(vlak)</klr></trd>,
     <trd>po&scaron;tov&aacute; z&aacute;sielka</trd>,
     <trd>r&yacute;chly posol</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x435;&#x43A;&#x441;&#x43F;&#x440;&#x435;&#x441;</trd>,
-    <trd>&#x448;&#x432;&#x438;&#x434;&#x43A;&#x438;&#x439; &#x43F;&#x43E;&#x457;&#x437;&#x434;</trd>
+    <trd>&c_je;&#x43A;&c_s;&#x43F;&c_r;&c_je;&c_s;</trd>,
+    <trd>&c_sh;&c_v;&c_i;&c_d;&#x43A;&c_i;&c_j; &#x43F;&#x43E;&c_ji;&c_z;&c_d;</trd>
   </trdgrp>
 </drv>
 
@@ -114,9 +128,11 @@
       <ekz>
         oni simple kun&jcirc;etis la dosierojn de iuj hazarde alliveritaj disketoj kaj kvaza&ubreve;
         <tld/>-presis la tutan mikspoton
-        <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006942.html">Porke la kesto sciu pri digipetroj kaj sizopoj!</url></vrk>
+        <fnt><aut>Pejno Simono</aut>,
+        <vrk><url ref="&Monato;/2000/006942.php">Porke la kesto sciu pri digipetroj kaj
+        sizopoj!</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/09, p. 23</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -146,7 +162,8 @@
       <trd>&c_s;&c_k;&c_o;&c_r;&c_y;&c_j;</trd>,
       <trd>&c_k;&c_u;&c_r;&c_mol;&c_je;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x5F88;&#x5FEB; <pr>h&#x11B;nku&#xE0;i</pr></trd>
+</snc>
 <!--
   <snc mrk="ekspre.0a.POSX">
     <uzo tip="fak">POSX</uzo>
@@ -186,16 +203,26 @@
     <trd>expressz-</trd>,
     <trd>gyors-</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x6025;&#x884C;&#x306E;  <pr>&#x304D;&#x3085;&#x3046;&#x3053;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x901F;&#x9054;&#x306E;  <pr>&#x305D;&#x304F;&#x305F;&#x3064;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="sk">expresn&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x442;&#x435;&#x440;&#x43C;&#x456;&#x43D;&#x43E;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x448;&#x432;&#x438;&#x434;&#x43A;&#x438;&#x439;</trd>
+    <trd>&c_t;&c_je;&c_r;&#x43C;&c_ib;&#x43D;&#x43E;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_sh;&c_v;&c_i;&c_d;&#x43A;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
   </art>
   <!--
   $Log$
+versio 1.27 2023/10/14 15:34:42
+revo: transskribo per <pr>
+
+versio 1.25 2023/04/27 08:31:00
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.24 2022/04/27 14:38:53
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -212,11 +239,5 @@ Wolfram Diestel: ~o unue; ekz-oj, ref-oj
   Russ Williams: +trd en
 
   Revision 1.16  2008/05/19 16:30:52  revo
-  Sergio Pokrovskij: kor ofc, +trd-ru
-
-  Revision 1.15  2008/05/12 17:55:36  revo
-  Sebastian Cyprych: kor trd pl
-
-  Revision 1.14  2007/06/23 16:31:08  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: endivi.xml,v 1.19 2022/04/27 14:38:54 revo Exp $">
+<art mrk="$Id: endivi.xml,v 1.22 2023/12/06 10:33:04 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>endivi</rad>/o
@@ -13,9 +13,10 @@
     <dif>
       <ref tip="lst" lst="voko:botanikaj_specioj" cel="speci.0o.BIO">Specio</ref>
       de <ref tip="super" cel="cikori.0o">cikorio</ref>
-      (<trd lng="la">Cichorium endivia</trd>), uzata kiel salato:
+      (<trd lng="la">Cichorium endivia</trd>), uzata kiel <ref tip="malprt"
+      cel="salat.0o">salato</ref>:
       <ekz>
-        endivio <klr>[&#x2026;]</klr> ekzistas kun malsamaj formoj kaj gustoj, Tutfolia <tld/>o
+        endivio <klr>[&#8230;]</klr> ekzistas kun malsamaj formoj kaj gustoj, Tutfolia <tld/>o
         estas konata pro lar&gcirc;aj krem-koloraj amaraj folioj, Krispa <tld/>o havas
         verdajn krispajn foliojn
         <fnt>
@@ -24,13 +25,16 @@
         </fnt>.
       </ekz>
     </dif>
-    <bld lok="&WCU;/thumb/f/f7/Cichorium_endivia_J3.jpg/640px-Cichorium_endivia_J3.jpg" prm="CC BY-SA 3.0"><tld/>o (Cichorium endivia), sur kampo en Belgujo
+    <bld lok="&WCU;/thumb/f/f7/Cichorium_endivia_J3.jpg/640px-Cichorium_endivia_J3.jpg" prm="CC    
+    BY-SA 3.0"><tld/>o (Cichorium endivia), sur kampo en Belgujo
         <fnt>
           <aut>Jamain, propra verko</aut>
-          <lok><url ref="&WCW;/File:Cichorium_endivia_J3.jpg">&WCW;/File:Cichorium_endivia_J3.jpg</url></lok>
+          <lok><url
+          ref="&WCW;/File:Cichorium_endivia_J3.jpg">&WCW;/File:Cichorium_endivia_J3.jpg</url></lok>
         </fnt>
     </bld>
   </snc>
+  <trd lng="be">&c_c;&c_y;&c_k;&c_o;&c_r;&c_y;&c_ja; &c_s;&c_a;&c_l;&c_ja;&c_t;&c_n;&c_a;&c_ja;</trd>
   <trd lng="bg">&c_je;&c_n;&c_d;&c_i;&c_v;&c_i;&c_ja;</trd>
   <trd lng="ca">end&iacute;via</trd>
   <trdgrp lng="cs">
@@ -41,6 +45,10 @@
   <trd lng="en">endive</trd>
   <trd lng="es">endibia</trd>
   <trd lng="fr">endive</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30AD;&#x30AF;&#x30C2;&#x30B7;&#x30E3;</trd>,
+    <trd>&#x30A8;&#x30F3;&#x30C0;&#x30A4;&#x30D6;</trd>
+  </trdgrp>
   <trd lng="nl">andijvie</trd>
   <trd lng="pl">endywia</trd>
   <trdgrp lng="pt">
@@ -52,13 +60,19 @@
   <trd lng="ru">&c_e;&c_n;&c_d;&c_i;&c_v;&c_i;&c_j;</trd>
   <trd lng="sk">&ccaron;akanka</trd>
   <trdgrp lng="uk">
-    <trd>&#x446;&#x438;&#x43A;&#x43E;&#x440;&#x456;&#x439; &#x441;&#x43F;&#x440;&#x430;&#x432;&#x436;&#x43D;&#x456;&#x439;</trd>,
-    <trd>&#x435;&#x43D;&#x434;&#x438;&#x432;&#x456;&#x439;</trd>
+    <trd>&c_c;&c_i;&#x43A;&#x43E;&c_r;&c_ib;&c_j; &c_s;&#x43F;&c_r;&c_a;&c_v;&c_zh;&#x43D;&c_ib;&c_j;</trd>,
+    <trd>&c_je;&#x43D;&c_d;&c_i;&c_v;&c_ib;&c_j;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/12/06 10:33:04
+Dmitri Gabinski: + trd be
+
+versio 1.20 2023/05/04 16:43:04
+Wolfram Diestel: +ref
+
 versio 1.19 2022/04/27 14:38:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -75,11 +89,5 @@ Revision 1.13  2010/02/01 17:30:28  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2007/06/28 16:31:54  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2005/04/05 16:33:43  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2001/11/21 17:34:42  revo
 -->
 </vortaro>

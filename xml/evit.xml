@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: evit.xml,v 1.28 2022/07/01 05:40:48 revo Exp $">
+<art mrk="$Id: evit.xml,v 1.33 2023/11/07 20:34:12 revo Exp $">
 <kap>
 <ofc>*</ofc>
   <rad>evit</rad>/i <fnt><bib>PV</bib></fnt>
@@ -34,7 +34,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        kelke da personoj <klr>[&#8230;]</klr> okupas la tutan lar&gcirc;on de la trotuaro, <tld/>i
+        kelke da personoj <klr>[&#x2026;]</klr> okupas la tutan lar&gcirc;on de la trotuaro, <tld/>i
         ilin ne estas eble
         <fnt>
           <bib>Marta</bib>
@@ -84,6 +84,28 @@
         </fnt>;
       </ekz>
       <ekz>
+        por <tld/>i &ccirc;ian malkompreni&gcirc;on, mi tuj en la komenco atentigas vin, ke mia parolo
+        ne estas io oficiala
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Tria Kongreso Esperantista en Cambridge en la 12a de a&ubreve;gusto
+          1907</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi vidis, ke vi penas <tld/>i miajn demandojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la grafino <klr>[&#x2026;]</klr> <tld/>is ke Valento trovi&gcirc;u en &scirc;ia &ccirc;eesto
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la du fratoj <tld/>as sin montri kune
         <fnt>
           <bib>ChL</bib>
@@ -96,17 +118,27 @@
         </fnt>;
       </ekz>
       <ekz>
-        por <tld/>i &ccirc;iuspecan akcidenton, mi estis metinta la lulilon malproksime de l&#8217;
+        por <tld/>i &ccirc;iuspecan akcidenton, mi estis metinta la lulilon malproksime de l&#x2019;
         kameno
         <fnt>
           <bib>ChL</bib>
         </fnt>;
       </ekz>
       <ekz>
+        por <tld/>i ke oni entute devu cerbumi pri tio, <klr>[&#x2026;]</klr> redaktoroj tuj
+        konfirmu la alvenon de manuskripto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2011/010436.php">&Scirc;topi&gcirc;oj</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         mi konas vin, <ind>labor<tld/>ulo</ind>
         <fnt>
           <bib>LOdE</bib>
-          <lok>2003, &#8470; 7 (105)</lok>
+          <lok>2003, &#x2116; 7 (105)</lok>
         </fnt>;
         <trd lng="de">Arbeitsscheuer</trd>
       </ekz>
@@ -176,6 +208,10 @@
      <trd>ker&uuml;l</trd>,
      <trd>elker&uuml;l</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x907F;&#x3051;&#x308B;  <pr>&#x3055;&#x3051;&#x308B;</pr></trd>,
+    <trd>&#x56DE;&#x907F;&#x3059;&#x308B;  <pr>&#x304B;&#x3044;&#x3072;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>evitar</trd>,
     <trd>evadir</trd>,
@@ -201,6 +237,13 @@
     <trd>&c_t;&c_r;&c_i;&c_m;&c_a;&c_t;&c_i;&c_s;&c_ja; &c_o;&c_s;&c_t;&c_o;&c_r;&c_o;&c_n;&c_mol;</trd>,
     <trd>&c_u;&c_t;&c_r;&c_i;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
     <trd>&c_u;&c_h;&c_i;&c_l;&c_ja;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8FF4;&#x907F; <pr>hu&#xED;b&#xEC;</pr></trd>,
+    <trd>&#x514D; <pr>mi&#x1CE;n</pr></trd>,
+    <trd>&#x8F9F; <pr>b&#xEC;</pr></trd>,
+    <trd>&#x898F;&#x907F; <pr>gu&#x12B;b&#xEC;</pr></trd>,
+    <trd>&#x907F;&#x514D; <pr>b&#xEC;mi&#x1CE;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -243,7 +286,7 @@
   <trd lng="be">&c_u;&c_h;&c_ib;&c_l;&c_ib;&c_s;&c_t;&c_y;</trd>
   <trd lng="cs">vyh&yacute;bav&yacute;</trd>
   <trd lng="de">ausweichend</trd>
-  <trd lng="fa">&a_m;&a_sh;&f_k;&a_l;&zwnj;&f_g;&a_r;&f_y;&a_z;</trd>
+  <trd lng="fa">&a_m;&a_sh;&f_k;&a_l;&#x200C;&f_g;&a_r;&f_y;&a_z;</trd>
   <trdgrp lng="fr">
     <trd>&eacute;vasif</trd>,
     <trd>fuyant</trd>
@@ -252,6 +295,7 @@
     <trd>kit&eacute;r&odblac;</trd>,
     <trd>elker&uuml;l&odblac;</trd>
   </trdgrp>
+  <trd lng="ja">&#x9003;&#x3052;&#x8170;&#x306E;  <pr>&#x306B;&#x3052;&#x3054;&#x3057;&#x306E;</pr></trd>
   <trd lng="pl">wymijaj&aogonek;cy</trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_k;&c_l;&c_o;&c_n;&c_ch;&c_i;&c_v;&c_y;&c_j;</trd>,
@@ -299,9 +343,10 @@
   </snc>
   <trd lng="de">vermeidbar</trd>
   <trd lng="es">evitable</trd>
-  <trd lng="fa">&a_A;&a_j;&a_t;&a_n;&a_A;&a_b;&zwnj;&f_p;&a_dh;&f_y;&a_r;</trd>
+  <trd lng="fa">&a_A;&a_j;&a_t;&a_n;&a_A;&a_b;&#x200C;&f_p;&a_dh;&f_y;&a_r;</trd>
   <trd lng="fr">&eacute;vitable</trd>
   <trd lng="hu">elker&uuml;lhet&odblac;</trd>
+  <trd lng="ja">&#x907F;&#x3051;&#x5F97;&#x308B;  <pr>&#x3055;&#x3051;&#x3048;&#x308B;</pr></trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_s;&c_t;&c_r;&c_a;&c_n;&c_i;&c_m;&c_y;&c_j;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_d;&c_o;&c_t;&c_v;&c_r;&c_a;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>,
@@ -310,6 +355,13 @@
   <trdgrp lng="uk">
     <trd>&c_t;&c_a;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_shch;&c_o; &c_j;&c_o;&c_g;&c_o; &c_m;&c_o;&c_zh;&c_n;&c_a; &c_u;&c_n;&c_i;&c_k;&c_n;&c_u;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x53EF;&#x9632;&#x6B62; <pr>k&#x11B;f&#xE1;ngzh&#x1D0;</pr></trd>,
+    <trd>&#x53EF;&#x907F;&#x514D; <pr>k&#x11B;b&#xEC;mi&#x1CE;n</pr></trd>,
+    <trd>&#x53EF;&#x898F;&#x907F; <pr>k&#x11B;gu&#x12B;b&#xEC;</pr></trd>,
+    <trd>&#x53EF;&#x9003;&#x907F; <pr>k&#x11B;t&#xE1;ob&#xEC;</pr></trd>,
+    <trd>&#x53EF;&#x9810;&#x9632; <pr>k&#x11B;y&#xF9;f&#xE1;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -336,7 +388,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la&ubreve; sciencistoj la industri&scirc;tatoj devas redukti sian CO2-emisiadon je 80&#8239;% &gcirc;is
+        la&ubreve; sciencistoj la industri&scirc;tatoj devas redukti sian CO2-emisiadon je 80&#x202F;% &gcirc;is
         la jaro 2050 por <tld/>igi klimatkolapson
         <fnt>
           <bib>Monato</bib>
@@ -369,6 +421,10 @@
     <trd>meg&oacute;v</trd>,
     <trd>megk&iacute;m&eacute;l</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x907F;&#x3051;&#x3055;&#x305B;&#x308B;  <pr>&#x3055;&#x3051;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x514D;&#x308C;&#x3055;&#x305B;&#x308B;  <pr>&#x307E;&#x306C;&#x304C;&#x308C;&#x3055;&#x305B;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>odvr&aacute;ti&tcaron;</trd>,
     <trd>pred&iacute;s&tcaron;</trd>,
@@ -398,7 +454,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la senvola ekmovo de returneniro <klr>[&#8230;]</klr> lin savis 
+        la senvola ekmovo de returneniro <klr>[&#x2026;]</klr> lin savis
         de <klr>(preska&ubreve;)</klr> ne<tld/>ebla morto
         <fnt>
           <bib>KPr</bib>
@@ -411,7 +467,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        kvaza&ubreve; &gcirc;i estus natura ne<tld/>ebla&jcirc;o, la junulino toleris la fatalon de l&#8217; amo
+        kvaza&ubreve; &gcirc;i estus natura ne<tld/>ebla&jcirc;o, la junulino toleris la fatalon de l&#x2019; amo
         <fnt>
           <bib>ChL</bib>
         </fnt>;
@@ -438,7 +494,7 @@
        <trd>unvermeidlich</trd>
     </trdgrp>
     <trd lng="es">inevitable</trd>
-    <trd lng="fa">&a_A;&a_j;&a_t;&a_n;&a_A;&a_b;&zwnj;&a_n;&a_A;&f_p;&a_dh;&f_y;&a_r;</trd>
+    <trd lng="fa">&a_A;&a_j;&a_t;&a_n;&a_A;&a_b;&#x200C;&a_n;&a_A;&f_p;&a_dh;&f_y;&a_r;</trd>
     <trdgrp lng="fr">
       <trd>in&eacute;luctable</trd>,
       <trd>in&eacute;vitable</trd></trdgrp>
@@ -449,10 +505,22 @@
       <trd>nieunikniony</trd>
     </trdgrp>
     <trd lng="ru">&c_n;&c_je;&c_i;&c_z;&c_b;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x514D;&#x4E0D;&#x4E86; <pr>mi&#x1CE;nbuli&#x1CE;o</pr></trd>,
+    <trd>&#x4E0D;&#x53EF;&#x907F;&#x514D;&#x5730; <pr>b&#xF9;k&#x11B;b&#xEC;mi&#x1CE;nde</pr></trd>,
+    <trd>&#x5728;&#x6240;&#x96BE;&#x514D; <pr>z&#xE0;isu&#x1D2;n&#xE1;nmi&#x1CE;n</pr></trd>,
+    <trd>&#x4E0D;&#x80FD;&#x907F;&#x514D; <pr>b&#xF9;n&#xE9;ngb&#xEC;mi&#x1CE;n</pr></trd>,
+    <trd>&#x9003;&#x4E0D;&#x6389; <pr>t&#xE1;ob&#xF9;di&#xE0;o</pr></trd>,
+    <trd>&#x4E0D;&#x53EF;&#x7F3A;&#x5C11; <pr>b&#xF9;k&#x11B;qu&#x113;sh&#x1CE;o</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="cs">
     <trd>neodvratn&yacute;</trd>,
     <trd>nevyhnuteln&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x907F;&#x3051;&#x3089;&#x308C;&#x306A;&#x3044;  <pr>&#x3055;&#x3051;&#x3089;&#x308C;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x4E0D;&#x53EF;&#x907F;&#x306E;  <pr>&#x3075;&#x304B;&#x3072;&#x306E;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>neodvratn&yacute;</trd>,
@@ -481,7 +549,7 @@
       </ekz>
       <ekz>
         konsiderante la ne<tld/>eblon de ideali&gcirc;o, provu solvi jenan taskon pri la sama
-        &leftquot;<nom>Hamlet</nom>&rightquot; <klr>[&#8230;]</klr>
+        &leftquot;<nom>Hamlet</nom>&rightquot; <klr>[&#x2026;]</klr>
         <fnt>
           <bib>KFl</bib>
           <lok>VI. Trigonometrio de arto</lok>
@@ -496,14 +564,13 @@
         </fnt>;
       </ekz>
       <ekz>
-        fakuloj <klr>[&#8230;]</klr> publike agnoskas, ke nun venas tempo de da&ubreve;re multekosta
-        nafto, <klr>[&#8230;]</klr> raporto de la franca registaro unuafoje asertis la
+        fakuloj <klr>[&#x2026;]</klr> publike agnoskas, ke nun venas tempo de da&ubreve;re multekosta
+        nafto, <klr>[&#x2026;]</klr> raporto de la franca registaro unuafoje asertis la
         ne<tld/>eblon de evoluo tia
         <fnt>
           <bib>Monato</bib>
           <aut>Pierre Bertrand</aut>
-          <vrk><url ref="https://www.monato.be/2006/008926.php"
-              >La fino de malmultekosta energio</url></vrk>
+          <vrk><url ref="&Monato;/2006/008926.php">La fino de malmultekosta energio</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
@@ -515,19 +582,18 @@
     </refgrp>
   </snc>
   <trd lng="de">Unvermeidlichkeit</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x53EF;&#x9003;&#x907F; <pr>b&#xF9;k&#x11B;t&#xE1;ob&#xEC;</pr></trd>,
+    <trd>&#x65E0;&#x6CD5;&#x9003;&#x907F;&#x4E4B;&#x4E8B; <pr>w&#xFA;f&#x1CE;t&#xE1;ob&#xEC;zh&#x12B;sh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
-
-
-
-
-
 
 <drv mrk="evit.mal0i">
   <kap>mal<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="evit.mal0i.KOMUNE">
     <dif>
-      <ref tip="sin" cel="front.al0i">Alfronti</ref>, <ref tip="sin" cel="spit.0i">spiti</ref>, 
+      <ref tip="sin" cel="front.al0i">Alfronti</ref>, <ref tip="sin" cel="spit.0i">spiti</ref>,
       kontra&ubreve;iri:
       <ekz>
         ek do, mi mal<tld/>u la aventuron
@@ -549,7 +615,8 @@
     <trd>sich hinein<ind>st&uuml;rzen</ind></trd>,
     <trd>eine Herausforderung <ind>annehmen</ind></trd>,
     <trd>trotzen</trd>
-  </trdgrp></snc>
+  </trdgrp>  <trd lng="zh">&#x95D6; <pr>chu&#x1CE;ng</pr></trd>
+</snc>
   <trd lng="cs">narazit na n&ecaron;co</trd>
   <trd lng="fa">&a_r;&a_w;&f_y;&a_A;&a_r;&a_w;&f_y;&f_y;
   &a_j;&a_s;&a_t;&a_n;</trd>
@@ -559,6 +626,7 @@
     <trd>provoquer<klr tip="ind"> (d&eacute;fier)</klr></trd>
   </trdgrp>
   <trd lng="hu">szembesz&aacute;ll</trd>
+  <trd lng="ja">&#x7ACB;&#x3061;&#x5411;&#x304B;&#x3046;  <pr>&#x305F;&#x3061;&#x3080;&#x304B;&#x3046;</pr></trd>
   <trdgrp lng="pl">
     <trd>stawia&cacute; <ind>czo&lstroke;a</ind><klr> (czemu&sacute;,
     komu&sacute;)</klr></trd>
@@ -581,6 +649,15 @@
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/14 15:49:05
+revo: transskribo per <pr>
+
+versio 1.30 2023/06/18 07:23:59
+Wolfram Diestel: +ekz
+
+versio 1.29 2023/04/11 14:37:22
+aktualigo Monato-URL
+
 versio 1.28 2022/07/01 05:40:48
 Wolfram Diestel: +ne~ebleco
 
@@ -594,14 +671,5 @@ versio 1.22 2021/12/30 10:32:12
 Wolfram Diestel: ekz-oj, ref-oj, trd de
 
 Revision 1.20  2015/06/29 16:29:38  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.19  2011/06/22 18:10:32  revo
-Jeromo Vasxe: - num + mrk, + memstar. ~igi
-
-Revision 1.18  2010/04/09 16:31:44  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.17  2009/06/16 16:30:48  revo
 -->
 </vortaro>

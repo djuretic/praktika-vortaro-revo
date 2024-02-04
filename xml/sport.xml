@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sport.xml,v 1.31 2022/05/05 14:43:48 revo Exp $">
+<art mrk="$Id: sport.xml,v 1.39 2023/10/21 07:46:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>sport</rad>/o
@@ -10,7 +10,7 @@
 <drv mrk="sport.0o">
   <kap><tld/>o</kap>
   <snc mrk="sport.0o.SPO">
-    <tezrad fak="SPO"/>	      
+    <tezrad fak="SPO"/>
     <uzo tip="fak">SPO</uzo>
     <dif>
       Korpaj a&ubreve; mensaj ekzercoj a&ubreve; ludoj celantaj disvolvon de fizika lerteco
@@ -61,10 +61,10 @@
       <ekz>
         <tld/>konkurso
         <fnt>
-          <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007151.html">900
-          km tra montbicikla paradizo</url></vrk>
+          <vrk><url ref="&Monato;/2000/007151.php">900 km tra montbicikla paradizo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/12, p. 20</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -77,24 +77,28 @@
       <ekz>
         <tld/>centro
         <fnt>
+          <aut>Hamza Baksi&cacute;</aut>
+          <vrk><url ref="&Monato;/1993/A931001.php">La fino de la mondo komenci&gcirc;as en
+          Sarajevo</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9310-sarajevo.txt">La 
-          fino de la mondo komenci&gcirc;as en Sarajevo</url></vrk>
+          <lok>1993/10, p. 8</lok>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>halo
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007062.html">E&ubreve;karistia kongreso: pre&gcirc;o
-          kaj dancoj</url></vrk>
-        </fnt>;
+          <aut>Laimius Stra&zcaron;nickas</aut>
+            <vrk><url ref="&Monato;/2000/007062.php">E&ubreve;karistia kongreso: pre&gcirc;o kaj
+            dancoj</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 21</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <tld/>aj kluboj
         <fnt>
           <bib>Monato</bib>
-          <aut>Karlo JUH&aacute;SZ</aut>
+          <aut>Karlo Juh&aacute;sz</aut>
           <vrk><url ref="&Monato;/2003/007718.html">&Ccirc;u komerco helpas?</url></vrk>
         </fnt>;
       </ekz>
@@ -109,19 +113,20 @@
       </ekz>
       <ekz>
         <tld/>aj institucioj
-        <fnt>
-          <bib>Monato</bib>
-          <aut>MU Binghua</aut>
-          <vrk><url ref="&Steloj;monato2/006920.html">Loterioj</url></vrk>
+        <fnt><aut>Mu Binghua</aut>,
+        <vrk><url ref="&Monato;/2000/006920.php">Loterioj</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/06, p. 13</lok>
         </fnt>;
       </ekz>
       <ekz>
         la arkitekto stiris sian novan <tld/>-a&ubreve;ton je 200 km/h
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007134.html">Malbona investo</url></vrk>
-        </fnt>.
+          <aut>Garbhan MacAoidh/pg</aut>
+            <vrk><url ref="&Monato;/2000/007134.php">Malbona investo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/11, p. 12</lok>
+          </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -135,11 +140,15 @@
   <trd lng="fa">&a_w;&a_r;&a_z;&a_sh;</trd>
   <trd lng="fr">sport</trd>
   <trd lng="hu">sport</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B9;&#x30DD;&#x30FC;&#x30C4;  <pr>&#12377;&#x307D;&#x30FC;&#12388;</pr></trd>,
+    <trd>&#x904B;&#x52D5;&#x7AF6;&#25216;  <pr>&#12358;&#12435;&#12393;&#12358;&#x304D;&#12423;&#12358;&#x304E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">sport</trd>
   <trd lng="pl">sport</trd>
   <trd lng="ru">&c_s;&c_p;&c_o;&c_r;&c_t;</trd>
   <trd lng="sk">&scaron;port</trd>
-  <trd lng="uk">&#x441;&#x43F;&#x43E;&#x440;&#x442;</trd>
+  <trd lng="uk">&c_s;&#x43F;&#x43E;&c_r;&c_t;</trd>
 </drv>
 
 <drv mrk="sport.0i">
@@ -154,7 +163,8 @@
         nenion
         <fnt>
           <aut>J.-M. Leresche</aut>,
-          <vrk><url ref="http://leresche-esperanto-es.blogspot.com/">leresche-esperanto-es</url></vrk>,
+          <vrk><url
+          ref="http://leresche-esperanto-es.blogspot.com/">leresche-esperanto-es</url></vrk>,
           <lok>2006-03-06</lok>
         </fnt>;
       </ekz>
@@ -177,10 +187,10 @@
       <ekz>
         <tld/>emaj montbiciklistoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007151.html">900 km tra montbicikla
-          paradizo</url></vrk>
+          <vrk><url ref="&Monato;/2000/007151.php">900 km tra montbicikla paradizo</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/12, p. 20</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -208,7 +218,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        kial <nom>Pamela</nom> <klr>[&#x2026;]</klr> ne elektis, ni diru,
+        kial <nom>Pamela</nom> <klr>[&#8230;]</klr> ne elektis, ni diru,
         pla&ccirc;e frizi al si la hararon, a&ubreve;
         iomete <tld/>umi, maldiki&gcirc;i &ccirc;e la talio, a&ubreve; io
         simila
@@ -231,6 +241,7 @@
     <trd>pratiquer un <ind>sport</ind></trd>
   </trdgrp>
   <trd lng="hu">sportol</trd>
+  <trd lng="pl">uprawia&cacute;  <ind>sport</ind></trd>
   <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja; &c_s;&c_p;&c_o;&c_r;&c_t;&c_o;&c_m;</trd>
   <trd lng="sk">&scaron;portova&tcaron;</trd>
 </drv>
@@ -251,7 +262,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        nove konstruita glaci<tld/>ejo 
+        nove konstruita glaci<tld/>ejo
         <fnt>
           <bib>Monato</bib>
           <aut>Jomo Ipfelkofer</aut>
@@ -291,6 +302,15 @@
     <trd>terrain de sport</trd>
   </trdgrp>
   <trd lng="hu">sportp&aacute;lya</trd>
+  <trdgrp lng="ja">
+    <trd>&#x904B;&#x52D5;&#22580;  <pr>&#12358;&#12435;&#12393;&#12358;&#12376;&#12423;&#12358;</pr></trd>,
+    <trd>&#x904B;&#x52D5;&#x7AF6;&#25216;&#22580;  <pr>&#12358;&#12435;&#12393;&#12358;&#x304D;&#12423;&#12358;&#x304E;&#12376;&#12423;&#12358;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>stadion</trd>,
+    <trd>boisko  <ind>sportowe</ind></trd>,
+    <trd>teren  <ind>sportowy</ind></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_p;&c_l;&c_o;&c_shch;&c_a;&c_d;&c_k;&c_a;</trd>,
     <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_z;&c_a;&c_l;</trd>,
@@ -301,9 +321,9 @@
     <trd>&scaron;portov&yacute; &scaron;tadi&oacute;n</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x442;&#x430;&#x434;&#x456;&#x43E;&#x43D;</trd>,
-    <trd>&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x439; &#x437;&#x430;&#x43B;</trd>,
-    <trd>&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x439; &#x43C;&#x430;&#x439;&#x434;&#x430;&#x43D;&#x447;&#x438;&#x43A;</trd>
+    <trd>&c_s;&c_t;&c_a;&c_d;&c_ib;&#x43E;&#x43D;</trd>,
+    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j; &c_z;&c_a;&#x43B;</trd>,
+    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j; &#x43C;&c_a;&c_j;&c_d;&c_a;&#x43D;&c_ch;&c_i;&#x43A;</trd>
   </trdgrp>
 </drv>
 
@@ -314,7 +334,7 @@
     <dif>
       Profesia a&ubreve; kutima praktikanto de iu <tld/>o:
       <ekz>
-        fortaj penegoj <klr>[&#x2026;]</klr> faras la sukcesplenan
+        fortaj penegoj <klr>[&#8230;]</klr> faras la sukcesplenan
         <tld/>iston, mariston a&ubreve; soldaton
         <fnt><bib>Munchhausen</bib>, <lok>&ccirc;apitro 5a</lok></fnt>.
       </ekz>
@@ -350,11 +370,13 @@
     <trd>sportif<klr> (subst.)</klr></trd>
   </trdgrp>
   <trd lng="hu">sportol&oacute;</trd>
+  <trd lng="ja">&#x30B9;&#x30DD;&#x30FC;&#x30C4;&#x30DE;&#x30F3;</trd>
+  <trd lng="pl">sportowiec</trd>
   <trd lng="ru">&c_s;&c_p;&c_o;&c_r;&c_t;&c_s;&c_m;&c_je;&c_n;</trd>
   <trd lng="sk">&scaron;portovec</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x441;&#x43C;&#x435;&#x43D;</trd>,
-    <trd>&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43E;&#x432;&#x435;&#x446;&#x44C;</trd>
+    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&c_s;&#x43C;&c_je;&#x43D;</trd>,
+    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&#x43E;&c_v;&c_je;&c_c;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -374,7 +396,9 @@
         ebligi vintran <tld/>on sen grandskala uzo de ne&gcirc;okanono
         <fnt>
           <aut>[A. Oberndorfer]</aut>
-          <vrk><url ref="http://esperantaretradio.blogspot.com/2017/02/cu-minacas-la-fino-de-la-vintra-sporto.html">&Ccirc;u minacas la fino de la vintra sporto?</url></vrk>
+          <vrk><url
+          ref="http://esperantaretradio.blogspot.com/2017/02/cu-minacas-la-fino-de-la-vintra-sporto.html">&Ccirc;u
+          minacas la fino de la vintra sporto?</url></vrk>
           <lok>Esperanta Retradio, 2017-02-21</lok>
         </fnt>;
       </ekz>
@@ -383,84 +407,40 @@
         mem volas provi tiajn <tld/>ojn
         <fnt>
           <aut>&Gcirc;oja</aut>
-          <vrk><url ref="&CRI;recomended1/3841/20220222/737186.html">Pro ne&gcirc;glaciaj sportoj mi estas juna por &ccirc;iam</url></vrk>
+          <vrk><url ref="&CRI;recomended1/3841/20220222/737186.html">Pro ne&gcirc;glaciaj sportoj mi estas
+          juna por &ccirc;iam</url></vrk>
           <lok>&Ccirc;ina Radio Internacia, 2022-02-22</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="fr">sport d'hiver</trd>
-</drv>
-
-<drv mrk="sport.0ludo">
-  <kap><tld/>ludo</kap>
-  <snc>
-    <uzo tip="fak">SPO</uzo>
-    <dif>
-      Ludforma <ref tip="super" cel="konkur.0ado">konkuro</ref>
-      en kiu la partoprenantoj strebas per konvencia ludilo
-      (plej ofte, <ref cel="pilk.0o">pilko</ref>) trafi
-      konvencian celon (ekz-e <ref cel="gol.0ejo">golejon</ref>):
-      <ekz>
-        el la <tld/>ludoj, plej popularaj en Ruslando estas la
-        pilkoludoj, precipe la piedpilko;
-      </ekz>
-      <ekz>
-        li festis kun kamaradoj venkon en <tld/>ludo
-        <fnt>
-          <bib>Monato</bib>
-          <aut>L. Sz.</aut>
-          <vrk><url ref="&Monato;/2011/010534.php">Kie la kulpo?</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-         la plejparto de la glit&scirc;tonludantoj lo&gcirc;as en Kanado, kie multaj opinias ke &gcirc;i estas la
-         nacia <tld/>ludo
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=18869">Glit&scirc;tonludo</url></lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        ringo estas pola <tld/>ludo <klr>[&#x2026;]</klr>, en kiu oni &jcirc;etas guman ringon kaj celas trafi
-        kontra&ubreve;an kampon
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=205268">Ringo (ludo)</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <ref tip="super" cel="sport.0o"><tld/>o</ref>
-  <trd lng="be">&c_s;&c_p;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a;&c_ja; &c_g;&c_u;&c_l;&c_mol;&c_n;&c_ja;</trd>
-  <trd lng="de">Sportspiel</trd>
-  <trd lng="fa">&a_b;&a_A;&a_z;&f_y; <ind>&a_w;&a_r;&a_z;&a_sh;&f_y;</ind></trd>
-  <trd lng="ru">&c_s;&c_p;&c_o;&c_r;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja; &c_i;&c_g;&c_r;&c_a;</trd>
+  <trd lng="pl">sport zimowy</trd>
 </drv>
 </art>
   <!--
   $Log$
+versio 1.39 2023/10/21 07:46:48
+revo: transskribo per <pr>
+
+versio 1.38 2023/10/03 20:24:53
+Vito Redsky: +trd pl 
+
+versio 1.36 2023/05/14 14:19:27
+revo: movu drv sport.0ludo al/sub lud.seks0ilo
+
+versio 1.35 2023/05/01 14:27:50
+Paul Peeraerts: Steloj -> monato
+
+versio 1.34 2023/04/26 16:34:30
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.33 2023/04/14 14:27:25
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.32 2023/04/11 09:27:13
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.31 2022/05/05 14:43:48
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.29 2022/03/03 19:27:18
-Jeromo Vasxe: + vintra ~o
-
-versio 1.28 2021/08/16 08:33:52
-Dmitri Gabinski: + trd be
-
-  Revision 1.25  2019/06/30 07:43:29  revo
-  adaptis URL de Monato
-
-  Revision 1.24  2018/06/23 12:10:13  revo
-  Wolfram Diestel: aldonis ceterajn ekz-ojn
-
-  Revision 1.23  2018/06/23 09:10:13  revo
-  Wolfram Diestel: prilaboris ekz-ojn
-
-  Revision 1.22  2015/07/04 08:37:44  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.21  2015/06/29 16:33:24  revo
 -->
 </vortaro>

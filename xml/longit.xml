@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: longit.xml,v 1.20 2022/05/01 12:04:34 revo Exp $">
+<art mrk="$Id: longit.xml,v 1.23 2024/01/15 19:32:00 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>longitud</rad>/o <fnt><bib>PV</bib></fnt>
@@ -30,7 +30,11 @@
       <trd>L&auml;nge <klr>(Geog.)</klr></trd>,
       <trd>geographische L&auml;nge</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7D93;&#x5EA6; <pr>j&#x12B;ngd&#xF9;</pr></trd>,
+    <trd>&#x7ECF;&#x5EA6; <pr>j&#x12B;ngd&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="longit.0o.AST">
     <uzo tip="fak">AST</uzo>
     <dif>
@@ -52,7 +56,11 @@
       <trd>L&auml;nge <klr>(Astr.)</klr></trd>,
       <trd>astronomische L&auml;nge</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7D93;&#x7DDA; <pr>j&#x12B;ngxi&#xE0;n</pr></trd>,
+    <trd>&#x7ECF;&#x7EBF; <pr>j&#x12B;ngxi&#xE0;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="longit.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
@@ -87,6 +95,7 @@
   <trd lng="ca">longitud</trd>
   <trd lng="es">longitud</trd>
   <trd lng="hu">hossz&uacute;s&aacute;gi fok</trd>
+  <trd lng="ja">&#x7D4C;&#x5EA6;  <pr>&#x3051;&#x3044;&#x3069;</pr></trd>
   <trd lng="nl">lengte</trd>
   <trd lng="pt">longitude</trd>
   <trd lng="ru">&c_d;&c_o;&c_l;&c_g;&c_o;&c_t;&c_a;</trd>
@@ -95,6 +104,9 @@
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/19 14:32:17
+revo: transskribo per <pr>
+
 versio 1.20 2022/05/01 12:04:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -114,8 +126,5 @@ Revision 1.14  2003/05/13 16:33:25  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.13  2003/01/13 17:34:11  revo
-Marc Bavant: ~o MAT: +trd de/en
-
-Revision 1.12  2002/11/30 17:36:05  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: azil.xml,v 1.24 2022/09/28 13:06:56 revo Exp $">
+<art mrk="$Id: azil.xml,v 1.30 2023/10/28 08:33:11 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>azil</rad>/o <fnt><bib>PV</bib></fnt>
@@ -26,7 +26,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[li]</klr> rifu&gcirc;is <klr>[&#8230;]</klr> en Turkion
+        <klr>[li]</klr> rifu&gcirc;is <klr>[&#x2026;]</klr> en Turkion
         <klr>[ricevante]</klr> tri ormonerojn potage en la <tld/>o
         <fnt>
           <bib>Kandid</bib>
@@ -48,7 +48,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la religia kredo <klr>[&#8230;]</klr> konsolas kaj donas <tld/>on kontra&ubreve; la sortbatoj
+        la religia kredo <klr>[&#x2026;]</klr> konsolas kaj donas <tld/>on kontra&ubreve; la sortbatoj
         <fnt>
           <bib>VaK</bib>
           <lok>Kvina &Ccirc;apitro</lok>
@@ -63,10 +63,10 @@
       <ekz>
         samlandanoj, kiuj esperas atingi politikan <tld/>on
         <fnt>
-          <bib>Monato</bib>
-          <aut>Laimius Straznickas</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006830.html"
-              >Litovio &ndash; Britio: Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<aut>Laimius Stra&zcaron;nickas</aut>
+	<vrk><url ref="&Monato;/2000/006830.php">Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/04, p. 13</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -75,8 +75,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Bardhyl Selimi</aut>
-          <vrk><url ref="https://www.monato.be/2006/008974.php"
-              >Protestas &Ccirc;inio</url></vrk>
+          <vrk><url ref="&Monato;/2006/008974.php">Protestas &Ccirc;inio</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
@@ -127,6 +126,10 @@
     <trd>mened&eacute;k</trd>
   </trdgrp>
   <trd lng="it">asilo<klr> (rifugio)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x907F;&#x96E3;&#x6240;  <pr>&#x3072;&#x306A;&#x3093;&#x3058;&#x3087;</pr></trd>,
+    <trd>&#x793E;&#x4F1A;&#x798F;&#x7949;&#x65BD;&#x8A2D;  <pr>&#x3057;&#x3083;&#x304B;&#x3044;&#x3075;&#x304F;&#x3057;&#x3057;&#x305B;&#x3064;</pr></trd>
+  </trdgrp>
   <trd lng="nl">aziel</trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_b;&c_je;&c_zh;&c_i;&c_shch;&c_je;</trd>,
@@ -172,6 +175,10 @@
     <trd>unter seine <ind>Fittich</ind>e nehmen</trd>
   </trdgrp>
   <trd lng="fr">donner <ind>asile</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x5E87;&#x62A4; <pr>b&#xEC;h&#xF9;</pr></trd>,
+    <trd>&#x5E87;&#x8B77; <pr>b&#xEC;h&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="azil.0ejo">
@@ -188,28 +195,43 @@
       </ekz>
       <ekz>
         panike reagis la <tld/>-administracio, kiu decidis 
-        <klr>[&#8230;]</klr> fermi la <tld/>ejon
+        <klr>[&#x2026;]</klr> fermi la <tld/>ejon
         <fnt>
-          <aut>G. Van Damme</aut>,
+          <aut>Guido van Damme</aut>,
+          
+          <vrk><url ref="&Monato;/2001/006338.html">
+          Nekongrua sed kohera</url></vrk>,
           <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/006338.html">
-          Sep en unu bato</url></vrk>,
-          <lok>1999</lok>
+          <lok>1999/06, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
-        Anglio, lumturo de demokratio inter la nacioj, <klr>[&#8230;]</klr> rifu&gcirc;ejo kaj
+        Anglio, lumturo de demokratio inter la nacioj, <klr>[&#x2026;]</klr> rifu&gcirc;ejo kaj
         <tld/>ejo por milionoj da persekutitoj kaj fu&gcirc;intoj
         <fnt>
-          <bib>Monato</bib>
+          
           <aut>Paul Blaskowicz</aut>
-          <vrk><url ref="https://www.monato.be/2005/008694.php"
-              >Amuza Gubbins</url></vrk>
-          <lok>2005</lok>
+          <vrk><url ref="&Monato;/2005/008694.php">Amuza Gubbins</url></vrk>
+              <bib>Monato</bib>
+          <lok>2005/09.p. 6</lok>
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <refgrp tip="vid">
+      <ref cel="sxirm.0ejo">&scirc;irmejo</ref>,
+      <ref cel="protek.0ejo">protektejo</ref>,
+      <ref cel="rifugx.0ejo">rifu&gcirc;ejo</ref>
+    </refgrp>
+    <trdgrp lng="zh">
+    <trd>&#x6536;&#x5BB9;&#x6240; <pr>sh&#x14D;ur&#xF3;ngsu&#x1D2;</pr></trd>,
+    <trd>&#x517B;&#x80B2;&#x9662; <pr>y&#x1CE;ngy&#xF9;yu&#xE0;n</pr></trd>,
+    <trd>&#x990A;&#x80B2;&#x9662; <pr>y&#x1CE;ngy&#xF9;yu&#xE0;n</pr></trd>,
+    <trd>&#x9690;&#x85CF;&#x6240; <pr>y&#x1D0;nc&#xE1;ngsu&#x1D2;</pr></trd>,
+    <trd>&#x96B1;&#x85CF;&#x6240; <pr>y&#x1D0;nc&#xE1;ngsu&#x1D2;</pr></trd>,
+    <trd>&#x6551;&#x6D4E;&#x9662; <pr>ji&#xF9;j&#xEC;yu&#xE0;n</pr></trd>,
+    <trd>&#x6551;&#x6FDF;&#x9662; <pr>ji&#xF9;j&#xEC;yu&#xE0;n</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_t;&c_u;&c_l;&c_a;&c_k;</trd>
   <trd lng="de">Asyl</trd>
   <trd lng="fr">asile</trd>
@@ -217,6 +239,18 @@
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.27 2023/04/23 15:25:48
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.26 2023/03/29 15:07:20
+Paul Peeraerts: &Monato;
+
+versio 1.25 2022/12/17 08:30:34
+Wolfram Diestel: +ref
+
 versio 1.24 2022/09/28 13:06:56
 Dmitri Gabinski: + trd be
 
@@ -227,17 +261,5 @@ Revision 1.19  2015/07/04 08:37:31  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.18  2015/06/28 12:03:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2013/08/30 20:10:15  revo
-Joop Eggen: +trd bg
-
-Revision 1.16  2012/07/30 13:10:21  revo
-Marc Rausell: + trd ca
-
-Revision 1.15  2011/09/30 13:10:11  revo
-Antonio Codazzi: +trd it
-
-Revision 1.14  2002/09/24 16:31:52  revo
 -->
 </vortaro>

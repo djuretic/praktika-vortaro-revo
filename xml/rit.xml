@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rit.xml,v 1.27 2022/05/04 19:19:16 revo Exp $">
+<art mrk="$Id: rit.xml,v 1.31 2023/10/21 05:38:07 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>rit</rad>/o <fnt><bib>PV</bib></fnt>
@@ -38,7 +38,7 @@
       per kiu bestoj starigas interrilaton:
       pari&gcirc;on, submeti&gcirc;on, man&gcirc;opeton...:
       <ekz>
-        hienaj hundoj <klr>[&#8230;]</klr> dum renkontoj prezentas
+        hienaj hundoj <klr>[&#x2026;]</klr> dum renkontoj prezentas
         specialan salutan <tld/>aron
         <fnt>
           <aut>J. &Scirc;uvajev</aut>,
@@ -75,10 +75,19 @@
     <trd>r&iacute;tus</trd>,
     <trd>szertart&aacute;s</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x796D;&#x5F0F;  <pr>&#x3055;&#x3044;&#x3057;&#x304D;</pr></trd>,
+    <trd>&#x5178;&#x793C;  <pr>&#x3066;&#x3093;&#x308C;&#x3044;</pr></trd>,
+    <trd>&#x5100;&#x5F0F;  <pr>&#x304E;&#x3057;&#x304D;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>rite</trd>,
     <trd>ritus</trd>,
     <trd>ritueel</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>obrz&eogonek;d</trd>,
+    <trd>ryt</trd>
   </trdgrp>
   <trd lng="pt">rito</trd>
   <trdgrp lng="ru">
@@ -119,7 +128,7 @@
       <ekz>
         <ind>judisma <tld/>aro</ind>;
         <trd lng="de">mosaischer <ind>Ritus</ind></trd>
-        <trd lng="hu">zsid&oacute; <ind>szertart&aacute;s</ind></trd>	    
+        <trd lng="hu">zsid&oacute; <ind>szertart&aacute;s</ind></trd>
         <trd lng="ru">&c_i;&c_u;&c_d;&c_je;&c_j;&c_s;&c_k;&c_a;&c_ja;
         &c_o;&c_b;&c_r;&c_ja;&c_d;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
       </ekz>
@@ -151,7 +160,15 @@
     <trd>ritu&aacute;l&eacute;</trd>,
     <trd>szertart&aacute;srend</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5178;&#x793C;&#x5B9A;&#x5F0F;&#x66F8;  <pr>&#x3066;&#x3093;&#x308C;&#x3044;&#x3066;&#x3044;&#x3057;&#x304D;&#x3057;&#x3087;</pr></trd>,
+    <trd>&#x796D;&#x5F0F;&#x6B21;&#x7B2C;  <pr>&#x3055;&#x3044;&#x3057;&#x304D;&#x3057;&#x3060;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">rituaal<klr tip="ind"> (ritueel)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>rytua&lstroke;</trd>,
+    <trd>obrz&aogonek;dek</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_r;&c_ja;&c_d;</trd>,
     <trd>&c_o;&c_b;&c_r;&c_ja;&c_d;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
@@ -183,9 +200,7 @@
         negocistoj-malnov<tld/>anoj &scirc;atis teojn el tilio, frambo, karoto
         <fnt>
           <aut>S. Belov</aut>
-          <vrk><url
-          ref="http://stanobelov.blogspot.com/2021/08/siberiaj-negocistoj-reguloj-kaj.html"
-              >Siberiaj negocistoj &ndash; reguloj kaj tradicioj</url></vrk>
+          <vrk><url ref="http://stanobelov.blogspot.com/2021/08/siberiaj-negocistoj-reguloj-kaj.html">Siberiaj negocistoj &ndash; reguloj kaj tradicioj</url></vrk>
           <lok>2021-08-15</lok>
         </fnt>.
       </ekz>
@@ -196,6 +211,7 @@
     <trd>Old Ritualists</trd>
   </trdgrp>
   <trd lng="fr">vieux-croyant</trd>
+  <trd lng="pl">staroobrz&eogonek;dowiec</trd>
 </drv>
 
 <drv mrk="rit.0libro">
@@ -203,12 +219,11 @@
   <snc>
    <uzo tip="fak">REL</uzo>
     <dif>
-      Libro entenata pre&gcirc;ojn kaj formulojn uzendajn &ccirc;e diversaj
+      Libro entenata <ref tip="vid" cel="pregx.0o">pre&gcirc;ojn</ref> kaj formulojn uzendajn &ccirc;e diversaj
       ritoj.
     </dif>
   </snc>
-  <ref tip="vid" cel="pregx.0olibro">pre&gcirc;olibro</ref>
-  <trdgrp lng="en">
+    <trdgrp lng="en">
     <trd>ritual</trd>,
     <trd>formulary</trd>,
     <trd>book of devotions</trd>
@@ -216,12 +231,22 @@
   <trd lng="fr">rituel<klr> (livre)</klr></trd>
   <trd lng="es">libro <ind>ritual</ind></trd>
   <trd lng="hu">szertart&aacute;sk&ouml;nyv</trd>
-  <trd lng="nl">rituaal<klr tip="ind"> (boek)</klr></trd>	 
+  <trd lng="nl">rituaal<klr tip="ind"> (boek)</klr></trd>
+  <trd lng="pl">rytua&lstroke;&oacute;w ksi&eogonek;ga</trd>
   <trd lng="ru">&c_t;&c_r;&c_je;&c_b;&c_n;&c_i;&c_k;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.31 2023/10/21 05:38:07
+revo: transskribo per <pr>
+
+versio 1.29 2023/07/04 22:33:15
+Vito Redsky: +trd pl 
+
+versio 1.28 2023/06/05 09:26:09
+Damien Brucker: -eraro cxe cel en ref
+
 versio 1.27 2022/05/04 19:19:16
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -235,14 +260,5 @@ Revision 1.21  2015/06/29 16:33:22  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.20  2014/10/04 16:10:32  revo
-Jeromo Vasxe: + snc etol
-
-Revision 1.19  2013/01/03 17:10:11  revo
-Jeromo Vasxe: + ref
-
-Revision 1.18  2011/12/03 01:10:07  revo
-Eduardo Navas: +trad es
-
-Revision 1.17  2009/09/20 16:30:33  revo
 -->
 </vortaro>

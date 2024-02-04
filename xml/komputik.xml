@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: komputik.xml,v 1.19 2022/03/22 15:44:12 revo Exp $">
+<art mrk="$Id: komputik.xml,v 1.23 2023/12/03 09:58:54 revo Exp $">
 <kap>
   <rad>komputik</rad>/o <fnt><bib>SPIV</bib></fnt>
 </kap>
@@ -45,11 +45,12 @@
     <trd>informatique<klr tip="ind"> (subst., discipline)</klr></trd>
   </trdgrp>
   <trd lng="hu">sz&aacute;m&iacute;t&aacute;stechnika</trd>
+  <trd lng="ja">&#x8A08;&#x7B97;&#x6A5F;&#x79D1;&#x5B66;  <pr>&#x3051;&#x3044;&#x3055;&#x3093;&#x304D;&#x304B;&#x304C;&#x304F;</pr></trd>
   <trd lng="nl">informatica</trd>
   <trd lng="pl">informatyka</trd>
   <trdgrp lng="pt">
     <trd>computa&ccedil;&atilde;o</trd>,
-    <trd>ci&ecirc;ncias da <ind>computa&ccedil;&atilde;o</ind></trd>,    
+    <trd>ci&ecirc;ncias da <ind>computa&ccedil;&atilde;o</ind></trd>,
     <trd>inform&aacute;tica</trd>
   </trdgrp>
   <trdgrp lng="ru">
@@ -61,8 +62,14 @@
   </trdgrp>
   <trd lng="sk">po&ccaron;&iacute;ta&ccaron;ov&aacute; technika</trd>
   <trdgrp lng="uk">
-    <trd>&#x456;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x438;&#x43A;&#x430;</trd>,
-    <trd>&#x43E;&#x431;&#x447;&#x438;&#x441;&#x43B;&#x44E;&#x432;&#x430;&#x43B;&#x44C;&#x43D;&#x430; &#x442;&#x435;&#x445;&#x43D;&#x456;&#x43A;&#x430;</trd>
+    <trd>&c_ib;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_t;&c_i;&c_k;&c_a;</trd>,
+    <trd>&c_o;&c_b;&c_ch;&c_i;&c_s;&c_l;&c_ju;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_a; &c_t;&c_je;&c_h;&c_n;&c_ib;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8A08;&#x7B97;&#x6A5F;&#x79D1;&#x5B78; <pr>j&#xEC;su&#xE0;nj&#x12B;k&#x113;xu&#xE9;</pr></trd>,
+    <trd>&#x4FE1;&#x606F;&#x5B66; <pr>x&#xEC;nx&#x12B;xu&#xE9;</pr></trd>,
+    <trd>&#x4FE1;&#x606F;&#x6280;&#x672F; <pr>x&#xEC;nx&#x12B;j&#xEC;sh&#xF9;</pr></trd>,
+    <trd>&#x6328;&#x8E22; <pr>&#x101;it&#x12B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -85,12 +92,16 @@
   <trd lng="be">&c_k;&c_a;&c_m;&c_p;&c_u;&c_t;&c_a;&c_r;&c_n;&c_y;</trd>
   <trd lng="ca">inform&agrave;tic</trd>
   <trd lng="de">Informatik-</trd>
+  <trdgrp lng="en">
+    <trd>computer</trd>,
+    <trd>IT</trd>
+  </trdgrp>
   <trd lng="es">inform&aacute;tico</trd>
   <trdgrp lng="fr">
     <trd>informatique<klr tip="ind"> (adj.)</klr></trd>
   </trdgrp>
   <trd lng="hu">sz&aacute;m&iacute;t&aacute;stechnikai</trd>
-  <trd lng="nl">computer-</trd>  
+  <trd lng="nl">computer-</trd>
   <trd lng="pl">informatyczny</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_mol;&c_ju;&c_t;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>,
@@ -101,6 +112,12 @@
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.20 2023/07/01 16:32:17
+Christian Siefkes: +trd en
+
 versio 1.18 2022/02/08 07:28:24
 Dmitri Gabinski: + trd be
 
@@ -117,11 +134,5 @@ Revision 1.13  2009/08/21 16:30:53  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.12  2007/01/01 19:47:48  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2006/09/05 15:23:25  revo
-Jeromo Vasxe: + komp
-
-Revision 1.10  2005/08/13 16:33:20  revo
 -->
 </vortaro>

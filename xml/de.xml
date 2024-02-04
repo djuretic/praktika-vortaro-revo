@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: de.xml,v 1.154 2022/04/26 17:11:48 revo Exp $">
+<art mrk="$Id: de.xml,v 1.160 2023/10/14 11:26:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>de</rad> 
+  <rad>de</rad>
 </kap>
 <subart mrk="de.0.prepozicio">
   <drv mrk="de.0">
@@ -79,6 +79,7 @@
       <trdgrp lng="de">
         <trd>von</trd>,
         <trd>von ... her</trd>,
+        <trd>von ... herab</trd>,
         <trd>aus</trd>
       </trdgrp>
       <trdgrp lng="hu">
@@ -309,6 +310,15 @@
         <trd>vor</trd>,
         <trd>aus</trd>
       </trdgrp>
+      <trdgrp lng="de">
+        <trd>von</trd>,
+        <trd>vor</trd>,
+        <trd>aus</trd>,
+        <trd>aufgrund</trd>,
+        <trd>durch</trd>,
+        <trd>wegen</trd>,
+        <trd>mit</trd>
+      </trdgrp>
       <trdgrp lng="hu">
         <trd>-<ind>t&oacute;l</ind></trd>,
         <trd>-<ind>t&odblac;l</ind></trd>,
@@ -388,7 +398,7 @@
         La sinonimoj estas utilaj ekz-e por verboj, kiuj akceptas
         lokan komplementon:
         <ekz>
-          esti venigata <tld/> iu loko fare de iu</ekz>, 
+          esti venigata <tld/> iu loko fare de iu</ekz>,
         a&ubreve; por agaj substantivoj, kiam necesas esprimi
         anka&ubreve; la objekton:
         <ekz>
@@ -400,15 +410,15 @@
         participo riskas estigi ambiguecon, se &gcirc;i ne montras al la
         aganto, kaj oni tiam preferu alternativajn solvojn, kiel
         <em>disde</em>, <em>el</em>, <em>jam de</em> k.s: Z. klarigas,
-        ke anstata&ubreve; la frazo 
+        ke anstata&ubreve; la frazo
         <ekz>lia propra po&scirc;horlo&gcirc;o estis &scirc;telita
            <tld/> la hoko [...]
-        </ekz> 
-        estus pli bone diri 
+        </ekz>
+        estus pli bone diri
         <ekz>
-          <em>for <tld/></em> la hoko</ekz>, 
-        anstata&ubreve; 
-        <ekz>&scirc;i trovi&gcirc;is &scirc;irmata for <tld/> liaj entreprenoj</ekz> 
+          <em>for <tld/></em> la hoko</ekz>,
+        anstata&ubreve;
+        <ekz>&scirc;i trovi&gcirc;is &scirc;irmata for <tld/> liaj entreprenoj</ekz>
         mi konsilus diri <ekz><em>kontra&ubreve;</em> liaj entreprenoj</ekz>
         <fnt><bib>LR</bib>, <lok>Respondo 34, La Revuo, 1908,
           Majo</lok></fnt>.
@@ -416,7 +426,7 @@
       <trdgrp lng="de">
         <trd>von</trd>,
         <trd>des</trd>,
-        <trd>der</trd>
+        <trd>durch</trd>
       </trdgrp>
       <trdgrp lng="hu">
         <trd>&aacute;ltal</trd>,
@@ -545,7 +555,8 @@
         kun tempa adverbo (jam, tuj) a&ubreve; tempa prepozicio (post).
       </rim>
       <trd lng="bg">&c_o;&c_t;</trd>
-      <trdgrp lng="de">
+      <trdgrp lng="de">,
+        <trd>ab</trd>
         <trd>von ... an</trd>,
         <trd>seit</trd>
       </trdgrp>
@@ -653,7 +664,7 @@
       </rim>
       <trd lng="bg">&c_n;&c_a;</trd>
       <trdgrp lng="de">
-        <trd>von</trd>,
+        <trd>f&uuml;r</trd>,
         <trd>des</trd>,
         <trd>dessen</trd>,
         <trd>der</trd>,
@@ -881,7 +892,8 @@
         ta&ubreve;ga prepozicio, eventuale pro nacilingva influo.
       </rim>
       <trdgrp lng="de">
-        <trd>von</trd>,
+        <trd>aus</trd>,
+        <trd>&uuml;ber</trd>,
         <trd>des</trd>,
         <trd>der</trd>
       </trdgrp>
@@ -941,7 +953,7 @@
   <trd lng="ar">&a_m;&a_n;</trd>
   <trd lng="az">v&#601;</trd>
   <trd lng="bn">&#x98F;&#x9B0;</trd>
-  <trd lng="bo">&#xF53;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_na;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">od</trd>
   <trd lng="co">di</trd>
   <trd lng="cy">yr</trd>
@@ -960,7 +972,7 @@
   <trd lng="gl">de</trd>
   <trd lng="gu">&#xAA8;&#xABE;</trd>
   <trd lng="ha">daga</trd>
-  <trd lng="he">&#x5E9;&#x5C1;&#x5B6;&#x5DC;</trd>
+  <trd lng="he">&shin;&#x5C1;&#x5B6;&lamed;</trd>
   <trd lng="hi">&#2325;&#2368;</trd>
   <trd lng="hmn">ntawm</trd>
   <trd lng="hr">od</trd>
@@ -972,21 +984,21 @@
   <trd lng="jv">saka</trd>
   <trd
   lng="ka">&#x10E1;&#x10D0;&#x10E5;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D4;&#x10DA;&#x10DD;&#x10E1;</trd>
-  <trd lng="kk">&c_t;&c_u;&c_r;&c_a;&#x43B;&#x44B;</trd>
+  <trd lng="kk">&c_t;&c_u;&c_r;&c_a;&c_l;&c_y;</trd>
   <trd lng="km">&#6035;&#x17C3;</trd>
   <trd lng="kn">&#xCA8;</trd>
   <trd lng="ko">&#xC758;</trd>
   <trd lng="ku">ji</trd>
-  <trd lng="ky">&c_b;&#x43E;&#x44E;&#x43D;&c_ch;&c_a;</trd>
+  <trd lng="ky">&c_b;&c_o;&c_ju;&c_n;&c_ch;&c_a;</trd>
   <trd lng="lat">de</trd>
   <trd lng="lo">&#xE82;&#xEAD;&#xE87;</trd>
   <trd lng="lt">i&scaron;</trd>
   <trd lng="lv">no</trd>
   <trd lng="mg">ny</trd>
   <trd lng="mi">o</trd>
-  <trd lng="mk">&#x43D;&c_a;</trd>
+  <trd lng="mk">&c_n;&c_a;</trd>
   <trd lng="ml">&#xD12;&#xD30;&#xD41;</trd>
-  <trd lng="mn">&c_i;&c_j;&#x43D;</trd>
+  <trd lng="mn">&c_i;&c_j;&c_n;</trd>
   <trd lng="mr">&#x91A;&#x94D;&#x92F;&#x93E;</trd>
   <trd lng="ms">daripada</trd>
   <trd lng="mt">tal</trd>
@@ -994,7 +1006,7 @@
   <trd lng="ne">&#2325;&#x94B;</trd>
   <trd lng="ny">a</trd>
   <trd lng="pa">&#xA26;&#xA47;</trd>
-  <trd lng="ps">&#x62F;</trd>
+  <trd lng="ps">&a_d;</trd>
   <trdgrp lng="pt">
       <trd>de</trd>,
       <trd>por</trd>,
@@ -1006,7 +1018,7 @@
       <trd>de</trd>
     </trdgrp>
     <trd lng="rw">bya</trd>
-  <trd lng="sd">&#x62C;&#x64A;</trd>
+  <trd lng="sd">&a_j;&a_y;</trd>
   <trd lng="si">&#xDB4;&#xDD2;&#xDC5;&#xDD2;&#xDB6;&#xDB3;</trd>
   <trd lng="sk">od</trd>
     <trd lng="sl">od</trd>
@@ -1027,13 +1039,13 @@
   <trd lng="tg">&c_a;&c_z;</trd>
   <trd lng="th">&#xE02;&#xE2D;&#xE07;</trd>
   <trd lng="tl">ng</trd>
-  <trd lng="tt">&#x4BB;&#x4D9;&#x43C;</trd>
+  <trd lng="tt">&#x4BB;&#x4D9;&c_m;</trd>
   <trd lng="uk">&c_i;</trd>
-  <trd lng="ur">&#x6A9;&#x6D2;</trd>
+  <trd lng="ur">&f_k;&#x6D2;</trd>
   <trd lng="uz">ning</trd>
   <trd lng="vi">c&#x1EE7;a</trd>
   <trd lng="xh">ye</trd>
-  <trd lng="yi">&#x5E4;&#x5D5;&#x5DF;</trd>
+  <trd lng="yi">&pe;&vav;&fnun;</trd>
   <trd lng="yo">ti aw&#x1ECD;n</trd>
 </drv>
 
@@ -1117,9 +1129,10 @@
       <trd>d'avec<klr tip="ind"> (s&eacute;paration)</klr></trd>
     </trdgrp>
   <trdgrp lng="he">
-    <trd>&#x5DE;&#x5E2;&#x5DD;</trd>,
-    <trd>&#x5D1;&#x5D4;&#x5E4;&#x5E8;&#x5D9;&#x5D3; &#x5DE;</trd>
+    <trd>&mem;&ayin;&fmem;</trd>,
+    <trd>&bet;&he;&pe;&resh;&yod;&dalet; &mem;</trd>
   </trdgrp>
+  <trd lng="ja">&#xFF5E;<ind>&#x304B;&#12425;</ind></trd>
   <trd lng="ru">&c_o;&c_t;</trd>
   <trdgrp lng="sk">
     <trd>od</trd>,
@@ -1138,7 +1151,7 @@
           &ccirc;ar sciis li ek<tld/> mateno,
           Ke li kun multaj gastoj sidos &ccirc;e l&#8217; festeno
           <fnt>
-            <aut>A. Mickiewicz, tr. A. Grabowski</aut>: 
+            <aut>A. Mickiewicz, tr. A. Grabowski</aut>:
             <vrk>Sinjoro Tadeo</vrk>, <lok>Lib. I, v. 158</lok>
           </fnt>;
         </ekz><ekz>
@@ -1161,6 +1174,12 @@
       <trd>&c_s;<klr tip="amb"> (&c_o; &c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_i;)</klr></trd>,
       <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>seit<klr> [gestern, jetzt]</klr></trd>,
+      <trd>ab<klr> [jetzt, morgen]</klr></trd>,
+      <trd>von ... ab</trd>,
+      <trd>von ... an</trd>
+    </trdgrp>
   </snc>
   <snc mrk="de.ek0.loke">
     <uzo tip="stl">RAR</uzo>
@@ -1180,6 +1199,12 @@
     <trdgrp lng="ru">
       <trd>&c_o;&c_t;</trd>,
       <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>ab</trd>,
+      <trd>von</trd>,
+      <trd>von ... ab</trd>,
+      <trd>von ... weg</trd>
     </trdgrp>
   </snc>
   <snc mrk="de.ek0.diverse">
@@ -1209,6 +1234,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>vom</trd>,
+      <trd>vom ... ab</trd>,
+      <trd>von</trd>
+      <trd>von ... ab</trd>
+    </trdgrp>
     </snc>
     <refgrp tip="vid">
       <ref cel="ek.0ede">eke de</ref>
@@ -1218,15 +1249,15 @@
   <trd lng="ar">&a_m;&a_n;&a_dh;</trd>
   <trd lng="az">ild&#601;n</trd>
   <trd lng="bn">&#2454;&#x9AC;&#x9B0;</trd>
-  <trd lng="bo">&#xF53;&#xF66;&#xF0B;</trd>
+  <trd lng="bo">&t_na;&t_sa;&t_tsheg;</trd>
   <trd lng="bs">s obzirom</trd>
   <trd lng="co">siccomu</trd>
   <trd lng="cy">ers</trd>
   <trd lng="da">siden</trd>
   <trd lng="et">alates</trd>
   <trd lng="eu">geroztik</trd>
-  <trd lng="fy">s&#xFB;nt</trd>
-  <trd lng="ga">&#xF3;s rud &#xE9;</trd>
+  <trd lng="fy">s&ucirc;nt</trd>
+  <trd lng="ga">&oacute;s rud &eacute;</trd>
   <trd lng="gd">bho</trd>
   <trd lng="gl">desde</trd>
   <trd lng="gu">&#xA95;&#xABE;&#xAB0;&#xAA3;</trd>
@@ -1237,14 +1268,14 @@
   <trd lng="ht">depi</trd>
   <trd lng="hy">&#1392;&#1381;&#x57F;&#1400;</trd>
   <trd lng="ig">ebe</trd>
-  <trd lng="is">s&#xED;&#xF0;an</trd>
-  <trd lng="ja">&#x4EE5;&#26469;</trd>
+  <trd lng="is">s&iacute;&#xF0;an</trd>
+  <trd lng="ja">&#x4EE5;&#26469; <pr>&#12356;&#12425;&#12356;</pr></trd>
   <trd lng="jv">wiwit</trd>
   <trdgrp lng="ka">
     <trd>&#x10DB;&#x10D0;&#x10E1; &#x10E8;&#x10D4;&#x10DB;&#x10D3;&#x10D4;&#x10D2;</trd>,
     <trd>&#x10E0;&#x10D0;&#x10EA;</trd>
   </trdgrp>
-  <trd lng="kk">&c_b;&c_a;&c_s;&c_t;&c_a;&#x43F;</trd>
+  <trd lng="kk">&c_b;&c_a;&c_s;&c_t;&c_a;&c_p;</trd>
   <trd lng="km">&#6021;&#x17B6;&#6036;&#x17CB;&#x178F;&#x17B6;&#x17C6;&#6020;&#6038;&#x17B8;</trd>
   <trd lng="kn">&#xCB0;&#xCBF;&#xC82;&#xCA6;</trd>
   <trd lng="ko">&#xC774;&#xD6C4;</trd>
@@ -1256,9 +1287,9 @@
   <trd lng="lv">kop&scaron;</trd>
   <trd lng="mg">satria</trd>
   <trd lng="mi">mai</trd>
-  <trd lng="mk">&#x43E;&c_d;</trd>
+  <trd lng="mk">&c_o;&c_d;</trd>
   <trd lng="ml">&#xD2A;&#xD3F;&#xD28;&#xD4D;&#xD28;&#xD40;&#xD1F;&#xD4D;</trd>
-  <trd lng="mn">&c_U;&c_ch;&c_i;&c_r; &#x43D;&#x44C;</trd>
+  <trd lng="mn">&c_U;&c_ch;&c_i;&c_r; &c_n;&c_mol;</trd>
   <trd lng="mr">&#x92A;&#x93E;&#2360;&#2370;&#2344;</trd>
   <trd lng="ms">sejak</trd>
   <trd lng="mt">peress</trd>
@@ -1267,7 +1298,7 @@
   <trd lng="ny">popeza</trd>
   <trd lng="pa">&#xA26;&#xA47; &#xA2C;&#xA3E;&#xA05;&#xA26;</trd>
   <trd lng="pl">od</trd>
-    <trd lng="ps">&a_r;&a_A;&a_h;&#x6CC;&a_s;&#x6D0;</trd>
+    <trd lng="ps">&a_r;&a_A;&a_h;&f_y;&a_s;&#x6D0;</trd>
   <trdgrp lng="ru">
       <trd>&c_o;&c_t;</trd>,
       <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_ja; &c_s;</trd>
@@ -1296,7 +1327,7 @@
   </trdgrp>
   <trd lng="oc">a <ind>partir</ind> de</trd>
   <trd lng="rw">kuva</trd>
-  <trd lng="sd">&#x6A9;&a_A;&a_n;</trd>
+  <trd lng="sd">&f_k;&a_A;&a_n;</trd>
   <trd lng="si">&#xDC3;&#xDD2;&#xDA7;</trd>
   <trd lng="sk">od za&ccaron;iatku</trd>
   <trdgrp lng="cs">
@@ -1304,26 +1335,27 @@
     <trd>hned po ,, z</trd>,
     <trd>od</trd>
   </trdgrp>
+  <trd lng="en"><klr>starting </klr><ind>from</ind><klr> (prep)</klr></trd>
   <trd lng="sl">saj</trd>
   <trd lng="sm">talu</trd>
   <trd lng="sn">kubva</trd>
   <trd lng="so">tan</trd>
-  <trd lng="sq">q&#xEB; prej</trd>
+  <trd lng="sq">q&euml; prej</trd>
   <trd lng="st">ho tloha ka</trd>
   <trd lng="su">ti mimiti</trd>
   <trd lng="sw">tangu</trd>
   <trd lng="ta">&#xBAE;&#xBC1;&#xBA4;&#xBB2;&#xBCD;</trd>
   <trd lng="te">&#xC28;&#xC41;&#xC02;&#xC21;&#xC3F;</trd>
-  <trd lng="tg">&c_z;&c_je;&c_r;&#x43E;</trd>
+  <trd lng="tg">&c_z;&c_je;&c_r;&c_o;</trd>
   <trd lng="th">&#xE15;&#xE31;&#xE49;&#xE07;&#xE41;&#xE15;&#xE48;</trd>
   <trd lng="tl">mula noong</trd>
-  <trd lng="tt">&c_sh;&c_u;&#x43D;&#x43D;&c_a;&#x43D;</trd>
-  <trd lng="uk">&c_d;&#x43E;</trd>
+  <trd lng="tt">&c_sh;&c_u;&c_n;&c_n;&c_a;&c_n;</trd>
+  <trd lng="uk">&c_d;&c_o;</trd>
   <trd lng="ur">&a_s;&#x6D2;</trd>
   <trd lng="uz">chunki</trd>
   <trd lng="vi">t&#x1EEB;</trd>
   <trd lng="xh">ukususela</trd>
-  <trd lng="yi">&#x5D6;&#x5D9;&#x5E0;&#x5D8;</trd>
+  <trd lng="yi">&zayin;&yod;&nun;&tet;</trd>
   <trd lng="yo">niwon</trd>
   <trd lng="zu">kusukela</trd>
 </drv>
@@ -1503,8 +1535,8 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      <ref tip="sin" cel="met.de0i"><tld lit="D"/>meti</ref>, 
-      <ref tip="sin" cel="apart.0igi">apartigi</ref>, 
+      <ref tip="sin" cel="met.de0i"><tld lit="D"/>meti</ref>,
+      <ref tip="sin" cel="apart.0igi">apartigi</ref>,
       <ref tip="sin" cel="dis.0igi">disigi</ref>:
       <ekz>
         sur pinto de la raketo sidas solidpela&jcirc;a savraketo, kiu povas
@@ -1546,6 +1578,7 @@
       <trd>lev&aacute;laszt</trd>,
       <trd>elk&uuml;l&ouml;n&iacute;t</trd>
     </trdgrp>
+  <trd lng="ja">&#x96E2;&#12377;  <pr>&#x306F;&#x306A;&#12377;</pr></trd>
   <trdgrp lng="pl">
       <trd>rozdziela&cacute;</trd>,
       <trd>roz&lstroke;&aogonek;cza&cacute;</trd>,
@@ -1576,7 +1609,7 @@
       </ekz>
       <ekz>
         &gcirc;i portas la raketon dum la 126-sekunda brulda&ubreve;ro en alton de &ccirc;.
-        50 km, en tiu alto, la unua &scirc;tupo <tld/>i&gcirc;as 
+        50 km, en tiu alto, la unua &scirc;tupo <tld/>i&gcirc;as
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=306645">Ares
@@ -1598,6 +1631,7 @@
     <trd>lev&aacute;lik</trd>,
     <trd>elk&uuml;l&ouml;n&uuml;l</trd>
   </trdgrp>
+  <trd lng="ja">&#x96E2;&#x308C;&#x308B;  <pr>&#x306F;&#x306A;&#x308C;&#x308B;</pr></trd>
   <trdgrp lng="pl">
     <trd>rozdziela&cacute; si&eogonek;</trd>,
     <trd>roz&lstroke;&aogonek;cza&cacute; si&eogonek;</trd>,
@@ -1778,6 +1812,21 @@
 </art>
 <!--
 $Log$
+versio 1.160 2023/10/14 11:26:53
+revo: transskribo per <pr>
+
+versio 1.159 2023/09/05 06:31:04
+Wolfram Diestel: kor. ja ind.
+
+versio 1.158 2023/09/04 01:25:39
+Ulrich Fellmann: (1) de: +8 pliaj DE trdj, 2 sxangxoj. (2) ekde: +9 DE trdj
+
+versio 1.156 2023/08/29 09:26:31
+Wolfram Diestel: ja: +prononco
+
+versio 1.155 2023/04/23 17:23:37
+Robert Baruch: +trd: en
+
 versio 1.154 2022/04/26 17:11:48
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -1785,20 +1834,5 @@ versio 1.153 2021/08/08 17:33:22
 Damien Brucker: -eraro cxe cel en ref
 
 versio 1.75 2021/05/24 11:02:17
-Wolfram Diestel: -ref
-
-versio 1.73 2020/05/05 15:10:17
-Damien Brucker: -eraro cxe cel en ref
-
-versio 1.72 2020/04/26 08:10:19
-Sergio Pokrovskij: +ekz [G]
-
-versio 1.71 2020/04/13 18:10:59
-Peter Garami: aldono de slovenaj tradokajhoj
-
-versio 1.70 2020/03/10 00:10:27
-Robin van der Vliet: ligilo riparita
-
-Revision 1.69  2019/09/14 17:10:15  revo
 -->
 </vortaro>

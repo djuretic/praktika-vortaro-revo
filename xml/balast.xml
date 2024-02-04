@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: balast.xml,v 1.27 2022/07/01 17:32:14 revo Exp $">
+<art mrk="$Id: balast.xml,v 1.36 2024/02/03 15:22:07 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>balast</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="balast.0o">
   <kap><tld/>o</kap>
@@ -20,7 +21,7 @@
       <ekz>
 	ni ne ricevis kargon, kaj oni ordonis, ke ni veturu hejmen kun
 	<tld/>o
-	<fnt><bib>Mortul&Scirc;ip</bib>, <lok>unua libro, &ccirc;apitro
+	<fnt><bib>Mortul&Scirc;ip</bib> <lok>unua libro, &ccirc;apitro
 	1a</lok></fnt>.
       </ekz>
     </dif>
@@ -31,31 +32,48 @@
       <trd>holts&uacute;ly</trd>
     </trdgrp>
     <trd lng="pl">balast</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x538B;&#x8F7D; <pr>y&amacron;z&#xE0;i</pr></trd>,
+    <trd>&#x93AE;&#x5B9A; <pr>zh&#xE8;nd&#xEC;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="balast.0o.FER">
     <uzo tip="fak">FER</uzo>
     <dif>
       Samspeca &scirc;ar&gcirc;a&jcirc;o &scirc;utita sur fervoja
-      grundo, por firmigi la transversajn trabojn.
+      grundo, por firmigi la transversajn trabojn:
+      <ekz>
+        niaj fervojlinioj havas <tld/>on el <ref tip="prt" cel="sxotr.0o">&scirc;otro</ref> <klr>[&#8230;]</klr>
+        pli granda ol 25 mm-oj,
+        kaj malpli granda ol 65 mm-oj
+        <fnt>
+          <aut>Jozefo Hal&aacute;sz</aut>
+          <vrk><url ref="http://www.eventoj.hu/steb/ingxenierado/trafiko/fervojo/la-balasto.pdf"
+              >La Balasto</url></vrk>
+          <lok>3. La materialo de la balasto</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
-      <trd>Schotter</trd>,
-      <trd>Sch&uuml;ttung</trd>,
-      <trd>Bettung</trd>
+      <trd>Schotterbett</trd>,
+      <trd>Gleisbett</trd>,
+      <trd>Bettung</trd>,
+      <trd>Sch&uuml;ttung</trd>
     </trdgrp>
     <trd lng="es">balasto</trd>
     <trd lng="hu">kavics&aacute;gyazat</trd>
-  </snc>
+    <trd lng="zh">&#36947;&#x6E23; <pr>d&#xE0;ozh&amacron;</pr></trd>
+</snc>
   <snc mrk="balast.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Senutila superflua&jcirc;o, superflua malfacila&jcirc;o:
+      Senutila <ref cel="flu.super0a">superflua&jcirc;o</ref>, superflua <ref tip="super"
+      cel="facil.mal0ajxo">malfacila&jcirc;o</ref>:
       <ekz>
         kelkaj formoj, kiuj &scirc;ajnis al mi ri&ccirc;a&jcirc;o, montri&gcirc;is nun en la praktiko senbezona
         <tld/>o
         <fnt>
           <bib>VivZam</bib>
-          <lok>Vivo de Zamenhof</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -63,7 +81,7 @@
         la nuda logiko
         <fnt>
           <bib>EE</bib>
-          <lok>I</lok>
+          <lok>1</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -71,7 +89,7 @@
         la movado
         <fnt>
           <bib>LOdE</bib>
-          <lok>2001, &#8470;10</lok>
+          <lok>2001:10</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -113,8 +131,13 @@
     <trd>pl&eacute;thore</trd>
   </trdgrp>
   <trdgrp lng="he">
-    <trd>&nun;&#1461;&tet;&#1462;&lamed;</trd>,
+    <trd>&nun;&#x5B5;&tet;&#x5B6;&lamed;</trd>,
     <trd>&mem;&shin;&qof;&vav;&lamed;&tav;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30D0;&#x30E9;&#x30B9;&#x30C8;</trd>,
+    <trd>&#x5E95;&#33655;  <pr>&#x305D;&#12371;&#x306B;</pr></trd>,
+    <trd>&#x4F59;&#x8A08;&#x306A;&#33655;&#29289;  <pr>&#12424;&#12369;&#12356;&#x306A;&#x306B;&#12418;&#12388;</pr></trd>
   </trdgrp>
   <trd lng="nl">ballast</trd>
   <trd lng="ru">&c_b;&c_a;&c_l;&c_l;&c_a;&c_s;&c_t;</trd>
@@ -129,10 +152,11 @@
   <kap>
     <tld/>a
   </kap>
-  <snc>
+  <snc mrk="balast.0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      <ref tip="dif" cel="flu.super0a">Superflua</ref>, <ref tip="dif" cel="neces.mal0a">malnecesa</ref>:
+      <ref tip="dif" cel="flu.super0a">Superflua</ref>, <ref tip="dif"
+      cel="neces.mal0a">malnecesa</ref>:
       <ekz>
         estas necese ordigi kaj sistemigi tiun internacian lingvomaterialon kaj liberigi
         &gcirc;in de <tld/>aj akcesora&jcirc;oj kaj absurda&jcirc;oj
@@ -154,8 +178,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2012/010885.php"
-              >Vo&ccirc;o de ripro&ccirc;o</url></vrk>
+          <vrk><url ref="&Monato;/2012/010885.php">Vo&ccirc;o de ripro&ccirc;o</url></vrk>
           <lok>2012</lok>
         </fnt>?
       </ekz>
@@ -165,17 +188,16 @@
       <ref cel="ted.0a">teda</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_p;&c_a;&c_t;&c_r;&c_e;&c_b;&c_n;&c_y;</trd>,
+    <trd>&c_b;&c_je;&c_s;&c_k;&c_a;&c_r;&c_y;&c_s;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>&uuml;berfl&uuml;ssig</trd>,
     <trd>l&auml;stig</trd>,
     <trd>belastend</trd>
   </trdgrp>
 </drv>
-
-
-
-
-
 
 <drv mrk="balast.0i">
   <kap><tld/>i</kap>
@@ -198,8 +220,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Franz-Georg R&ouml;ssler</aut>
-          <vrk><url ref="https://www.monato.be/2012/010844.php"
-              >Sunelektraj kamparanoj</url></vrk>
+          <vrk><url ref="&Monato;/2012/010844.php">Sunelektraj kamparanoj</url></vrk>
           <lok>2012</lok>
         </fnt>;
       </ekz>
@@ -209,13 +230,13 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2015/011569.php"
-              >Revuon redakti ... kaj ranoj</url></vrk>
+          <vrk><url ref="&Monato;/2015/011569.php">Revuon redakti ... kaj ranoj</url></vrk>
           <lok>2015</lok>
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trd lng="zh">&#x8F09;&#x91CD; <pr>z&#xE0;izh&#xF2;ng</pr></trd>
+</snc>
   <trd lng="be">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_ib;&c_c;&c_mol;
   <ind>&c_b;&c_a;&c_l;&c_ja;&c_s;&c_t;</ind></trd>
   <trd lng="ca">llastar</trd>
@@ -242,6 +263,8 @@
   </trdgrp>
   <trd lng="he">&lamed;&he;&vav;&samekh;&yod;&fpe; &mem;&shin;&qof;&vav;&lamed;&tav;</trd>
   <trd lng="hu">holts&uacute;llyal <ind>terhel</ind></trd>
+  <trd lng="ja">&#x30D0;&#x30E9;&#x30B9;&#x30C8;&#12434;&#x7A4D;&#12416;
+  <pr>&#x30D0;&#x30E9;&#x30B9;&#x30C8;&#12434;&#12388;&#12416;</pr></trd>
   <trd lng="nl">ballasten</trd>
   <trd lng="pl">obci&aogonek;&zdot;a&cacute; <ind>balastem</ind></trd>
   <trd lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_i;&c_t;&c_mol;
@@ -285,7 +308,8 @@
       <ref cel="pez">malpezigi</ref>,
       <ref cel="sxargx.mal0i">mal&scirc;ar&gcirc;i</ref>
     </refgrp>
-  </snc>
+    <trd lng="zh">&#x8CD1; <pr>zh&#xE8;n</pr></trd>
+</snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_k;&c_ib;&c_n;&c_u;&c_c;&c_mol;
     <ind>&c_b;&c_a;&c_l;&c_ja;&c_s;&c_t;</ind></trd>,
@@ -315,6 +339,12 @@
   </trdgrp>
   <trd lng="hu">felesleges tehert&odblac;l <ind>megszabad&iacute;t</ind>
   </trd>
+  <trdgrp lng="ja">
+    <trd>&#x30D0;&#x30E9;&#x30B9;&#x30C8;&#12434;&#25448;&#12390;&#x308B;
+    <pr>&#x30D0;&#x30E9;&#x30B9;&#x30C8;&#12434;&#12377;&#12390;&#x308B;</pr></trd>,
+    <trd>&#xFF5E;<ind>&#x304B;&#12425;&#33655;&#12434;&#x964D;&#x308D;&#12377;
+    </ind><pr>&#x304B;&#12425;&#x306B;&#12434;&#x304A;&#x308D;&#12377;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>zdj&aogonek;&cacute; <ind>balast</ind></trd>,
     <trd>pozbawi&cacute; <ind>balastu</ind></trd>,
@@ -329,6 +359,27 @@
     <trd>u&lcaron;avi&tcaron;</trd>,
     <trd>zbavi&tcaron; z&aacute;&tcaron;a&zcaron;e</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="balast.sen0igxi">
+  <kap>sen<tld/>i&gcirc;i</kap>
+  <snc>
+    <dif>
+      Seni&gcirc;i je <tld/>o, forigi peza&jcirc;on, embarasa&jcirc;on;
+      <ref tip="vid" cel="pez.mal0igxi">malpezi&gcirc;i</ref>:
+      <ekz>
+        viro rakontas pri utopio, insulo <nom>Kla&ubreve;stralio</nom>,
+        en kiu la socio sen<tld/>i&gcirc;is je kelkaj &gcirc;ena&jcirc;oj
+        <fnt>
+          <aut>MHD</aut>
+          <vrk><url ref="http://lego-klubo.blogspot.com/2007/08/klastralio.html">
+          Kla&ubreve;stralio [recenzo]</url></vrk>
+          <lok>Lego-klubo de Kvinpetalo, 2007-08-07</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se d&eacute;barasser<klr> (de)</klr></trd>
 </drv>
 
 <drv mrk="balast.lastesedne0e">
@@ -349,8 +400,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Paul Gubbins</aut>
-          <vrk><url ref="https://www.monato.be/2012/010885.php"
-              >Vo&ccirc;o de ripro&ccirc;o</url></vrk>
+          <vrk><url ref="&Monato;/2012/010885.php">Vo&ccirc;o de ripro&ccirc;o</url></vrk>
           <lok>2012</lok>
         </fnt>;
       </ekz>
@@ -380,27 +430,27 @@
 </art>
 <!--
 $Log$
+versio 1.36 2024/02/03 15:22:07
+Jeromo Vasxe: + sen~igxi
+
+versio 1.35 2024/01/19 06:30:27
+Wolfram Diestel: +trd de
+
+versio 1.34 2024/01/18 21:22:59
+Wolfram Diestel: fnt JED, ekz, ref
+
+versio 1.32 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.31 2023/09/05 06:31:03
+Wolfram Diestel: kor. ja ind.
+
+versio 1.29 2023/04/11 05:36:20
+aktualigo Monato-URL
+
+versio 1.28 2023/02/22 06:35:19
+Dmitri Gabinski: + trd be
+
 versio 1.27 2022/07/01 17:32:14
-Wolfram Diestel: +ekz-oj, ref-oj; +~a
-
-Revision 1.23  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2015/01/30 12:10:17  revo
-Alain Gerard: +trd (fr)
-
-Revision 1.21  2014/05/01 08:10:38  revo
-Carlos Garcia: +trd es -o -i
-
-Revision 1.20  2012/08/25 10:10:12  revo
-Marc Rausell: + trd ca
-
-Revision 1.19  2008/11/14 17:31:34  revo
-Wieland Pusch: +trd de
-
-Revision 1.18  2008/05/12 17:55:33  revo
-Sebastian Cyprych: kor trd pl
-
-Revision 1.17  2006/05/20 16:31:09  revo
 -->
 </vortaro>

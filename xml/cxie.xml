@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxie.xml,v 1.31 2022/07/07 07:30:21 revo Exp $">
+<art mrk="$Id: cxie.xml,v 1.35 2023/10/31 13:37:03 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;ie</rad> <fnt><bib>PV</bib></fnt>
@@ -31,6 +31,10 @@
   <trd lng="bo">&#xF42;&#xF0B;&#xF66;&#xF0B;&#xF42;&#xF0B;&#xF63;&#xF0B;</trd>
   <trd lng="de">&uuml;berall</trd>
   <trd lng="he">&#x5D1;&#x5DB;&#x5DC; &#x5DE;&#x5E7;&#x5D5;&#x5DD;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x3044;&#x305F;&#x308B;&#x6240;&#x306B;  <pr>&#x3044;&#x305F;&#x308B;&#x3068;&#x3053;&#x308D;&#x306B;</pr></trd>,
+    <trd>&#x3069;&#x3053;&#x3067;&#x3082;</trd>
+  </trdgrp>
   <trd lng="nl">overal</trd>
   <trd lng="en">everywhere</trd>
   <trdgrp lng="es">
@@ -55,11 +59,22 @@
   </trdgrp>
   <trd lng="sk">v&scaron;ade</trd>
   <trd lng="sv">&ouml;verallt</trd>
+  <trdgrp lng="sw">
+    <trd>kila mahali</trd>,
+    <trd>popote</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_s;&#x43A;&c_r;&c_ib;&c_z;&#x44C;</trd>,
     <trd>&c_u;&c_s;&#x44E;&c_d;&c_i;</trd>
   </trdgrp>
   <trd lng="vo">&uuml;bal</trd>
+  <trdgrp lng="zh">
+    <trd>&#x516B;&#x4E0B;&#x91CC; <pr>b&#x101;xi&#xE0;l&#x1D0;</pr></trd>,
+    <trd>&#x4E94;&#x6D32; <pr>w&#x1D4;zh&#x14D;u</pr></trd>,
+    <trd>&#x5404;&#x5904; <pr>g&#xE8;ch&#xF9;</pr></trd>,
+    <trd>&#x4E16;&#x754C;&#x5404;&#x5904; <pr>sh&#xEC;ji&#xE8;g&#xE8;ch&#xF9;</pr></trd>,
+    <trd>&#x4E16;&#x754C;&#x5404;&#x5730; <pr>sh&#xEC;ji&#xE8;g&#xE8;d&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cxie.0n">
@@ -72,6 +87,7 @@
   <trd lng="be">&c_u;&c_s;&c_ju;&c_d;&c_y; <klr>(&c_k;&c_u;&c_d;&c_y;)</klr></trd>
   <trd lng="de">&uuml;berallhin</trd>
   <trd lng="he">&#x5DC;&#x5DB;&#x5DC; &#x5DE;&#x5E7;&#x5D5;&#x5DD;</trd>
+  <trd lng="ja">&#x3044;&#x305F;&#x308B;&#x6240;&#x3078;  <pr>&#x3044;&#x305F;&#x308B;&#x3068;&#x3053;&#x308D;&#x3078;</pr></trd>
   <trd lng="nl">overal heen</trd>
 </drv>
 
@@ -92,6 +108,7 @@
   </snc>
   <trd lng="be">&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_n;&c_y;</trd>
   <trd lng="en">ubiquitous</trd>
+  <trd lng="ja">&#x3044;&#x305F;&#x308B;&#x6240;&#x306E;  <pr>&#x3044;&#x305F;&#x308B;&#x3068;&#x3053;&#x308D;&#x306E;</pr></trd>
   <trd lng="ru">&c_p;&c_o;&c_v;&c_s;&c_je;&c_m;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
 </drv>
 
@@ -102,7 +119,7 @@
   <snc>
     <dif>
       <ref cel="funkci.0o.MATEM">Funkcio<sncref/></ref>
-      <frm am="f: X -&gt; Y">f: X&#8594;Y</frm> estas <tld/>a funkcio super
+      <frm am="f: X -&gt; Y">f: X&#x2192;Y</frm> estas <tld/>a funkcio super
       <frm am="X">X</frm>, se
       &gcirc;i estas difinita (konver&gcirc;as) por &ccirc;iu <frm am="x">x</frm>
       el <frm am="X">X</frm>:
@@ -110,8 +127,7 @@
         problemo: &ccirc;u ekzistas <tld/>a komputebla funkcio, kiu ne estas
         primitive rekursia funkcio
         <fnt><bib>KompLeks</bib>,
-           <lok>art. &leftquot;<url
-           ref="http://bertilow.com/div/komputada_leksikono/DI.html#DIAGONALADO">diagonalado</url>&rightquot;</lok></fnt>.
+           <lok>art. &leftquot;<url ref="http://bertilow.com/div/komputada_leksikono/DI.html#DIAGONALADO">diagonalado</url>&rightquot;</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -155,6 +171,9 @@
 </art>
 <!--
 $Log$
+versio 1.34 2023/10/14 11:10:02
+revo: transskribo per <pr>
+
 versio 1.31 2022/07/07 07:30:21
 Dmitri Gabinski: + trd be
 
@@ -174,8 +193,5 @@ Revision 1.23  2017/01/28 13:10:18  revo
 Adam Eng: + trd
 
 Revision 1.22  2016/03/18 19:10:39  revo
-Jeromo Vasxe: vspec adverbo
-
-Revision 1.21  2015/10/11 15:10:14  revo
 -->
 </vortaro>

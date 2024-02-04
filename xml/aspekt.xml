@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aspekt.xml,v 1.38 2022/11/28 06:35:26 revo Exp $">
+<art mrk="$Id: aspekt.xml,v 1.44 2023/10/28 08:33:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>aspekt</rad>/i <fnt><bib>PV</bib></fnt>
@@ -51,7 +51,11 @@
       <ref cel="montr.0igxi">montri&gcirc;i</ref>,
       <ref cel="sxajn.0i">&scirc;ajni</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E00;&#x6478;&#x4E00;&#x6837; <pr>y&#x12B;m&#x14D;y&#x12B;y&#xE0;ng</pr></trd>,
+    <trd>&#x4E00;&#x6478;&#x4E00;&#x6A23; <pr>y&#x12B;m&#x14D;y&#x12B;y&#xE0;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_c;&c_mol;</trd>, 
     <trd>&c_m;&c_je;&c_c;&c_mol; &c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;</trd>
@@ -71,9 +75,9 @@
     <trd>erscheinen</trd>
   </trdgrp>
   <trdgrp lng="en">
-    <trd>appear</trd>,
-    <trd>look</trd>,
-    <trd>seem</trd>
+    <trd>appear<klr> (vi, seem)</klr></trd>,
+    <trd>look<klr> (vi, seem)</klr></trd>,
+    <trd>seem<klr> (vi)</klr></trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>tener aspecto</trd>,
@@ -93,6 +97,7 @@
     <trd>sembrare</trd>, 
     <trd>apparire<klr> (sembrare)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#x898B;&#x3048;&#x308B;  <pr>&#x307E;&#x307F;&#x3048;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>er <ind>uitzien</ind></trd>,
     <trd>het <ind>uiterlijk</ind> hebben van</trd>,
@@ -110,6 +115,10 @@
   <trdgrp lng="pt">
     <trd>ter aspecto de</trd>,
     <trd>ter apar&ecirc;ncia</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>p&abreve;rea</trd>,
+    <trd>s&abreve; aib&abreve; aspect</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;&c_je;&c_t;&c_mol;</trd>,
@@ -138,7 +147,7 @@
         kaj flavaj kvadratoj
         <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 1</lok></fnt>;
       </ekz><ekz>
-        la infekta&jcirc;o ne &scirc;an&gcirc;is sian <tld/>on kaj <klr>[&#8230;]</klr> ne disvasti&gcirc;is
+        la infekta&jcirc;o ne &scirc;an&gcirc;is sian <tld/>on kaj <klr>[&#x2026;]</klr> ne disvasti&gcirc;is
         <fnt>
           <bib>MT</bib>
           <lok>Levidoj 13:55</lok>
@@ -157,14 +166,14 @@
         Memfiso havis <tld/>on kvaza&ubreve; en festo
         <fnt><bib>Far3</bib>, <lok>&ccirc;ap. 16</lok></fnt>.
       </ekz><ekz>
-        <klr>[la]</klr> fenestro de magazeno <klr>[&#8230;]</klr> &ccirc;e la arta
+        <klr>[la]</klr> fenestro de magazeno <klr>[&#x2026;]</klr> &ccirc;e la arta
         &ccirc;irka&ubreve;lumado havis <tld/>on de sor&ccirc;a palaco
         <fnt><bib>Marta</bib></fnt>;
       </ekz><ekz>
         la interno de la domo prezentis iom strangan <tld/>on
         <fnt><bib>MrA</bib> <lok>&Ccirc;apitro VII</lok></fnt>;
       </ekz><ekz>
-        li faros malka&scirc;ojn, kiuj eble &scirc;an&gcirc;os la <tld/>on de l&#8217; afero
+        li faros malka&scirc;ojn, kiuj eble &scirc;an&gcirc;os la <tld/>on de l&#x2019; afero
         <fnt><bib>ChL</bib> <lok>&Ccirc;apitro 11a</lok></fnt>.
       </ekz>
     </dif>
@@ -193,9 +202,9 @@
     </trdgrp>
     <trdgrp lng="en">
       <trd>appearance</trd>,
-      <trd>look</trd>,
+      <trd>look<klr> (n)</klr></trd>,
       <trd>aspect</trd>,
-      <trd>sight</trd>
+      <trd>sight<klr> (n, appearance)</klr></trd>
     </trdgrp>
     <trdgrp lng="es">
       <trd>aspecto</trd>,
@@ -222,7 +231,16 @@
     </trdgrp>
     <trd lng="nl">aanblik</trd>
     <trd lng="no">syn</trd>
-    <trd lng="pl">wygl&aogonek;d</trd>
+    <trdgrp lng="pl">
+      <trd>wygl&aogonek;d</trd>,
+      <trd>aspekt</trd>,
+      <trd>posta&cacute;</trd>,
+      <trd>prezencja</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>aspect</trd>,
+      <trd>&icirc;nf&abreve;&#x21B;i&#x219;are</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_v;&c_i;&c_d;</trd>,
       <trd>&c_v;&c_n;&c_je;&c_sh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
@@ -240,11 +258,16 @@
       <trd>&c_a;&c_s;&c_p;&c_je;&c_k;&c_t;</trd>,
       <trd>&c_v;&c_i;&c_d;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4EEA;&#x5BB9; <pr>y&#xED;r&#xF3;ng</pr></trd>,
+    <trd>&#x5100;&#x5BB9; <pr>y&#xED;r&#xF3;ng</pr></trd>,
+    <trd>&#x5916;&#x5F62; <pr>w&#xE0;ix&#xED;ng</pr></trd>,
+    <trd>&#x5916;&#x8C8C; <pr>w&#xE0;im&#xE0;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="aspekt.0o.perspektivo">
     <dif>
-      La <ref cel="trajt.0aro">trajtaro</ref> de io rigardata el difinita <ref
-      cel="punkt.vid0o.FIG">vidpunkto</ref>:
+      La <ref cel="trajt.0aro">trajtaro</ref> de io rigardata el difinita <ref cel="punkt.vid0o.FIG">vidpunkto</ref>:
       <ekz>
         Enciklopedieto Japana <klr>[estas]</klr> altvalora trezorejo
         de informoj pri la kultura, historia kaj etnologia <tld/>oj de
@@ -252,7 +275,7 @@
         <fnt><bib>EeP</bib> <lok>Dua Parto</lok></fnt>;
       </ekz><ekz>
         pri la biologia <tld/>o de la insuloj Tajvano kaj <nom>Jaejama</nom> aperis la verko
-        <klr>[&#8230;]</klr> La Voja&gcirc;o al Sudaj Insuloj
+        <klr>[&#x2026;]</klr> La Voja&gcirc;o al Sudaj Insuloj
         <fnt><bib>EeP</bib> <lok>Dua Parto</lok></fnt>;
       </ekz><ekz>
         li verve priskribis plej diversajn <tld/>ojn de la vivo
@@ -291,7 +314,7 @@
         rilataj semantikaj kategorioj, kiun ruslingvaj esperantistoj
         perceptas kaj uzas tute nature dum por alilingvanoj &gcirc;i &scirc;ajnas
         enigma kaj stranga speciala&jcirc;o       
-        <fnt><bib>LOdE</bib> <lok>2001, &#8470;6</lok></fnt>.
+        <fnt><bib>LOdE</bib> <lok>2001, &#x2116;6</lok></fnt>.
       </ekz>
     </dif>
     <rim>
@@ -309,6 +332,10 @@
       <trd>&c_p;&c_a;&c_r;&c_o;&c_d;&c_a; <klr tip="amb">(&c_g;&c_r;&c_a;&c_m;.)</klr></trd>
     </trdgrp>
     </snc>
+  <trdgrp lng="ja">
+    <trd>&#x5916;&#x89B3;  <pr>&#x304C;&#x3044;&#x304B;&#x3093;</pr></trd>,
+    <trd>&#x898B;&#x304B;&#x3051;  <pr>&#x307F;&#x304B;&#x3051;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aspekt.0e">
@@ -348,7 +375,11 @@
     <refgrp tip="vid">
       <ref cel="sxajn.0e">&scirc;ajne</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4EFF;&#x5F7F; <pr>f&#x1CE;ngf&#xFA;</pr></trd>,
+    <trd>&#x4F3C;&#x4E4E; <pr>s&#xEC;h&#x16B;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_n;&c_a; &c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;</trd>
   <trdgrp lng="ca">
     <trd>en <ind>aparen&ccedil;a</ind></trd>,
@@ -374,9 +405,14 @@
     <trd>kin&eacute;zetre</trd>
   </trdgrp>
   <trd lng="it">apparentemente</trd>
+  <trd lng="ja">&#x5916;&#x898B;&#x4E0A;  <pr>&#x304C;&#x3044;&#x3051;&#x3093;&#x3058;&#x3087;&#x3046;</pr></trd>
   <trdgrp lng="pl">
     <trd>z <ind>wygl&aogonek;du</ind></trd>,
     <trd>na <ind>poz&oacute;r</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>din  <ind>aspect</ind></trd>,
+    <trd>aparent</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s; &c_v;&c_i;&c_d;&c_u;</trd>,
@@ -418,9 +454,10 @@
       <trd>aspectisme</trd>
     </trdgrp>
     <trd lng="it">itismo</trd>
+    <trd lng="pl">aspektyzm</trd>
+    <trd lng="ro">aspectism</trd>
   </snc>
 </drv>
-
 
 <drv mrk="aspekt.plur0e">
   <kap>
@@ -434,7 +471,7 @@
         &ccirc;io estas tiel mult<tld/>e interligita niatempe
         <fnt><bib>ChV</bib> <lok>2</lok></fnt>;
       </ekz><ekz>
-        poeto <klr>[&#8230;]</klr> mult<tld/>e interesa
+        poeto <klr>[&#x2026;]</klr> mult<tld/>e interesa
         <fnt><bib>EeP</bib> <lok>Dua Parto</lok></fnt>;
       </ekz><ekz>
         <klr>[mi]</klr> agadis en Brazilo plur<tld/>e
@@ -448,6 +485,15 @@
   </snc>
   <trd lng="be">&c_u; &c_r;&c_o;&c_z;&c_n;&c_y;&c_h; <ind>&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_ja;&c_h;</ind></trd>
   <trd lng="de">in mehrerer <ind>Hinsicht</ind></trd>
+  <trd lng="en">multifaceted</trd>
+  <trdgrp lng="pl">
+    <trd>wielop&lstroke;aszczyznowo</trd>,
+    <trd>wielostronnie</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>&icirc;n form&abreve;  <ind>multipla</ind></trd>,
+    <trd>&icirc;n mod  <ind>multilateral</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aspekt.sam0a">
@@ -466,8 +512,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Yves Nicolas</aut>
-          <vrk><url ref="https://www.monato.be/2012/010650.php"
-              >Laborista memoro</url></vrk>
+          <vrk><url ref="&Monato;/2012/010650.php">Laborista memoro</url></vrk>
           <lok>2012</lok>
         </fnt>.
       </ekz>
@@ -479,11 +524,26 @@
   </snc>
   <trd lng="be">&c_a;&c_d;&c_n;&c_o;&c_l;&c_mol;&c_k;&c_a;&c_v;&c_y; &c_n;&c_a; &c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;</trd>
   <trd lng="de">gleichaussehend</trd>
+  <trd lng="en">look-alike<klr> (adj)</klr></trd>
+  <trd lng="pl">jednolity</trd>
+  <trd lng="ro">omogen&abreve;</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.43 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.41 2023/04/15 17:23:13
+Robert Baruch: +trd: en
+
+versio 1.40 2023/04/10 18:22:01
+aktualigo Monato-URL
+
+versio 1.39 2023/02/09 23:30:24
+Vito Redsky: +trd pl + trd ro
+
 versio 1.38 2022/11/28 06:35:26
 Sergio Pokrovskij: dif GRA, +rim
 
@@ -494,17 +554,5 @@ versio 1.36 2022/08/16 20:29:46
 Wolfram Diestel: +sam~a
 
 versio 1.35 2022/07/04 05:38:10
-Wolfram Diestel: +trd de, ref
-
-versio 1.34 2022/07/03 20:28:12
-Wolfram Diestel: +~o GRA, +X-~e, ekz-oj
-
-versio 1.33 2022/07/03 12:46:44
-Wolfram Diestel: ~o: +ekz-oj, +snc "perspektivo"
-
-versio 1.32 2022/04/25 15:11:00
-aktualigo ligvokodoj kaj URL-unuoj
-
-versio 1.31 2022/03/16 15:39:04
 -->
 </vortaro>

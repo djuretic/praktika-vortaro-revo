@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: regxis.xml,v 1.19 2022/05/04 19:19:16 revo Exp $">
+<art mrk="$Id: regxis.xml,v 1.23 2023/10/20 19:20:37 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>re&gcirc;isor</rad>/o <fnt>Z</fnt>
   <fnt> <bib>PV</bib></fnt>
@@ -15,24 +15,29 @@
       &Ccirc;efa oficisto komisiita por aran&gcirc;i kaj direkti tion,
       kio koncernas la scenejon: lumon, sonon, dekoracion:
       <ekz>
-        la <tld/>o iras al la kapelestro &mdash; sinjoro kapelestro, mi devas diri al vi, ke la &hcirc;oroj estis hodia&ubreve; ekstreme malbonaj
+        la <tld/>o iras al la kapelestro &mdash; sinjoro kapelestro, mi devas diri al vi, ke la &hcirc;oroj
+        estis hodia&ubreve; ekstreme malbonaj
         <fnt>
           <bib>FK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        la 28-jara&gcirc;a <tld/>o sukcese kreas suspenson ekde la unua sceno, kiu ade plistre&ccirc;i&gcirc;as &gcirc;is la lasta
+        la 28-jara&gcirc;a <tld/>o sukcese kreas suspenson ekde la unua sceno, kiu ade plistre&ccirc;i&gcirc;as &gcirc;is la
+        lasta
         <fnt>
+       <aut>Marteno Ecott</aut>
+          <vrk><url ref="&Monato;/2000/006838.html">Inkubo en kubo</url></vrk>
           <bib>Monato</bib>
-          <aut>Marteno Ecott</aut>
-          <vrk><url ref="&Steloj;monato2/006838.html">Kinarto: Inkubo en kubo</url></vrk>
+          <lok>2000/03, p. 17</lok>
         </fnt>;
       </ekz>
       <ekz>
         Ros mem estis malbona <tld/>o de sia vivo
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007215.html">La peko de Ros</url></vrk>
+	<aut>Julian Modest</aut>
+	<vrk><url ref="&Monato;/2001/007215.php">La peko de Ros</url></vrk>
+	<bib>Monato</bib>
+	<lok>2001/01, p. 24</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -58,15 +63,29 @@
     <trd>r&eacute;gisseur</trd>
   </trdgrp>
   <trd lng="hu">rendez&odblac;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6F14;&#x51FA;&#x5BB6;  <pr>&#x3048;&#x3093;&#x3057;&#x3085;&#x3064;&#x304B;</pr></trd>,
+    <trd/>,
+    <trd>&#x6620;&#x753B;&#x76E3;&#x7763;  <pr>&#x3048;&#x3044;&#x304C;&#x304B;&#x3093;&#x3068;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">regisseur</trd>
   <trd lng="pl">re&zdot;yser</trd>
   <trd lng="pt">contra-regra</trd>
   <trd lng="ru">&c_r;&c_je;&c_zh;&c_i;&c_s;&c_s;&c_jo;&c_r;</trd>
-  <trd lng="uk">&#x440;&#x435;&#x436;&#x438;&#x441;&#x435;&#x440;</trd>
+  <trd lng="uk">&c_r;&c_je;&c_zh;&c_i;&c_s;&c_je;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.23 2023/10/20 19:20:37
+revo: transskribo per <pr>
+
+versio 1.21 2023/04/24 14:28:27
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.20 2023/04/23 14:27:10
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.19 2022/05/04 19:19:16
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -80,14 +99,5 @@ Revision 1.14  2008/09/04 19:07:49  revo
 Jeromo Vasxe: + 1 ekz + 1 trd fr
 
 Revision 1.13  2008/04/18 16:30:18  revo
-Carlos Garcia: +trd "es" -o
-
-Revision 1.12  2007/06/21 16:30:50  revo
-Russ Williams: +en
-
-Revision 1.11  2006/02/19 17:32:02  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2004/02/18 17:38:04  revo
 -->
 </vortaro>

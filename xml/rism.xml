@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rism.xml,v 1.16 2022/11/30 20:30:06 revo Exp $">
+<art mrk="$Id: rism.xml,v 1.19 2023/10/21 05:38:06 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>rism</rad>/o
@@ -21,7 +21,7 @@
         </fnt>.
       </ekz>
       <ekz>
-        mia <klr>[&#8230;]</klr> edzino transdonis al mi <tld/>on da artikoloj,
+        mia <klr>[&#x2026;]</klr> edzino transdonis al mi <tld/>on da artikoloj,
         fiktiva&jcirc;oj kaj eseoj por Literatura Verniso
         <fnt>
           <bib>MMa</bib>
@@ -30,11 +30,19 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_e;&c_z;</trd>,
+    <trd>&c_r;&c_e;&c_z;&c_a; <klr>(&c_p;&c_a;&c_p;&c_je;&c_r;&c_y;)</klr></trd>
+  </trdgrp>
   <trd lng="cs">rys pap&iacute;ru</trd>
   <trd lng="de">Ries</trd>
   <trd lng="en">ream</trd>
   <trd lng="fr">ramette</trd>
   <trd lng="hu">rizsma <klr tip="amb">(ezer &iacute;v)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x30EA;&#x30FC;&#x30E0;</trd>,
+    <trd>&#x9023;  <pr>&#x3080;&#x3089;&#x3058;</pr></trd>
+  </trdgrp>
   <trd lng="nl">riem<klr tip="ind"> (papier)</klr></trd>
   <trd lng="pl">ryza</trd>
   <trd lng="pt">resma</trd>
@@ -49,6 +57,12 @@
 </art>
 <!--
 $Log$
+versio 1.19 2023/10/21 05:38:06
+revo: transskribo per <pr>
+
+versio 1.17 2023/06/26 10:35:37
+Dmitri Gabinski: + trd be
+
 versio 1.16 2022/11/30 20:30:06
 Vito Redsky: +trd pl + trd ro
 
@@ -65,11 +79,5 @@ Revision 1.10  2006/02/21 17:33:01  revo
 Tulio Flores: +trd pt
 
 Revision 1.9  2005/03/14 18:36:43  revo
-Jeromo Vasxe: + fak tip, + ekz, + trd fr
-
-Revision 1.8 2004/09/16 16:32:34 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7 2002/01/29 17:34:11 revo
 -->
 </vortaro>

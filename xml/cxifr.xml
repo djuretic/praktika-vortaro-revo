@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: cxifr.xml,v 1.24 2022/04/26 16:27:52 revo Exp $">
+<art mrk="$Id: cxifr.xml,v 1.29 2023/10/31 13:37:03 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>&ccirc;ifr</rad>/o
@@ -31,10 +31,11 @@
         pli kutima, ili bazi&gcirc;as sur la angla tiusence ke la alfabeta ordo de la
         <tld/>ovortoj kongruas kun la alfabeta ordo de la anglaj esprimoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Fieder Weigold</aut>
-          <vrk><url ref="&Steloj;monato2/007268.html">Morti miskomprene (3)</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007268.php">Morti miskomprene (3)</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/12, p. 4</lok>
+          </fnt>;
       </ekz>
       <ekz>
         <tld/>o<ref cel="sxlos.0ilo">&scirc;losilo</ref> <klr>[estas]</klr> parametro de <tld/>ado, 
@@ -73,6 +74,7 @@
     <trd>titkos&iacute;r&aacute;s</trd>
   </trdgrp>
   <trd lng="it">cifra<klr> (di codice segreto)</klr></trd>
+  <trd lng="ja">&#x6697;&#x53F7;  <pr>&#x3042;&#x3093;&#x3054;&#x3046;</pr></trd>
   <trd lng="nl">sleutel<klr tip="ind"> (v.code)</klr></trd>
   <trdgrp lng="pl">
     <trd>szyfr</trd>,
@@ -86,9 +88,13 @@
   <trd lng="sk">&scaron;ifra</trd>
   <trd lng="sv">chiffer</trd>
   <trdgrp lng="uk">
-    <trd>&#x448;&#x438;&#x444;&#x440;</trd>,
-    <trd>&#x43A;&#x43E;&#x434;</trd>,
-    <trd>&#x442;&#x430;&#x439;&#x43D;&#x43E;&#x43F;&#x438;&#x441;</trd>
+    <trd>&c_sh;&c_i;&c_f;&c_r;</trd>,
+    <trd>&#x43A;&#x43E;&c_d;</trd>,
+    <trd>&c_t;&c_a;&c_j;&#x43D;&#x43E;&#x43F;&c_i;&c_s;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6697;&#x7801; <pr>&#xE0;nm&#x1CE;</pr></trd>,
+    <trd>&#x7565;&#x7801; <pr>l&#xFC;&#xE8;m&#x1CE;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -100,7 +106,8 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      <ref tip="super" cel="skrib.trans0i.alisisteme">Transskribi</ref> ion, ekz-e tekston, en <tld/>on:
+      <ref tip="super" cel="skrib.trans0i.alisisteme">Transskribi</ref> ion, ekz-e tekston, en
+      <tld/>on:
       <ekz>
         la Sistemo <tld/>ada kaj telegrafada de <nom>A. Walter</nom> 
         <klr>[&#x2026;]</klr> en maniero de sekreta skribado prezentas &ccirc;iujn necesajn ideojn
@@ -122,7 +129,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Rob Ebenau</aut>
-          <vrk><url ref="&Monato;/2005/008528.php">Kiel protekti kontra&ubreve; perdo kaj &scirc;telo?</url></vrk>
+          <vrk><url ref="&Monato;/2005/008528.php">Kiel protekti kontra&ubreve; perdo kaj
+          &scirc;telo?</url></vrk>
           <lok>2005</lok>
         </fnt>.
       </ekz>
@@ -153,6 +161,7 @@
     <trd>k&oacute;dol</trd>
   </trdgrp>
   <trd lng="it">cifrare</trd>
+  <trd lng="ja">&#x6697;&#x53F7;&#x5316;&#x3059;&#x308B;  <pr>&#x3042;&#x3093;&#x3054;&#x3046;&#x304B;&#x3059;&#x308B;</pr></trd>
   <trdgrp lng="nl">
     <trd>versleutelen</trd>,
     <trd>encrypteren</trd>
@@ -169,7 +178,14 @@
   <trd lng="ru">&c_sh;&c_i;&c_f;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">&scaron;ifrova&tcaron;</trd>
   <trd lng="sv">chiffrera</trd>
-  <trd lng="uk">&#x448;&#x438;&#x444;&#x440;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_sh;&c_i;&c_f;&c_r;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x52A0;&#x5BC6;&#x7801; <pr>ji&#x101;m&#xEC;m&#x1CE;</pr></trd>,
+    <trd>&#x7DE8;&#x8B6F;&#x904E; <pr>bi&#x101;ny&#xEC;gu&#xF2;</pr></trd>,
+    <trd>&#x52A0;&#x5BC6;&#x4E86; <pr>ji&#x101;m&#xEC;li&#x1CE;o</pr></trd>,
+    <trd>&#x52A0;&#x5BC6; <pr>ji&#x101;m&#xEC;</pr></trd>,
+    <trd>&#x52A0;&#x5BC6;&#x540E;&#x7684; <pr>ji&#x101;m&#xEC;h&#xF2;ude</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cxifr.mal0i">
@@ -180,7 +196,8 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      <ref tip="super" cel="skrib.trans0i.alisisteme">Transskribi</ref> ion de <tld/>o en klaran lingvon:
+      <ref tip="super" cel="skrib.trans0i.alisisteme">Transskribi</ref> ion de <tld/>o en klaran
+      lingvon:
       <ekz>
         la anonco promesas plurtavolan lega&jcirc;on, kiun oni povas mal<tld/>i diversmaniere
         <fnt>
@@ -195,9 +212,10 @@
         potencialon i&gcirc;i anka&ubreve; esperanta idioma&jcirc;o, rezulte &gcirc;i internacie ne plu estos
         mal&ccirc;ifrebla de &ccirc;iu
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/006813.html">Sa&gcirc;a kapo duonvorton komprenas</url></vrk>
+	<aut>Pejno Simono</aut>
+	<vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/06, p. 33</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -206,10 +224,11 @@
         fondi eklezion disde judismo, sendube tiu ne tute mal&ccirc;ifrebla lia aserto
         trovas ankora&ubreve; subtenantojn
         <fnt>
-          <bib>Monato</bib>
-          <aut>Pastro Duilio Magnani</aut>
-          <vrk><url ref="&Steloj;monato2/007299.html">Fondi eklezion?</url></vrk>
-        </fnt>.
+          <aut>Duilio MAGNANI</aut>
+            <vrk><url ref="&Monato;/2001/007299.php">Fondi eklezion?</url></vrk>
+            <bib>Monato</bib>
+            <lok>2001/01, p. 4</lok>
+          </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -239,6 +258,10 @@
     <trd>desifr&iacute;roz</trd>
   </trdgrp>
   <trd lng="it">decifrare</trd>
+  <trdgrp lng="ja">
+    <trd/>,
+    <trd>&#x89E3;&#x8AAD;&#x3059;&#x308B;  <pr>&#x304B;&#x3044;&#x3069;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>deszyfrowa&cacute;</trd>,
     <trd>dekodowa&cacute;</trd>
@@ -256,10 +279,23 @@
     <trd>de&scaron;ifrova&tcaron;</trd>,
     <trd>l&uacute;&scaron;ti&tcaron; <klr>(&scaron;ifru)</klr></trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7834;&#x8B6F; <pr>p&#xF2;y&#xEC;</pr></trd>,
+    <trd>&#x89E3;&#x8B80; <pr>ji&#x11B;d&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/14 11:10:02
+revo: transskribo per <pr>
+
+versio 1.26 2023/04/29 18:29:22
+Paul Peeraerts: Steloj -> monato
+
+versio 1.25 2023/04/24 08:32:24
+Paul Peeraerts: @Sxteloj -> @Monato
+
 versio 1.24 2022/04/26 16:27:52
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -273,14 +309,5 @@ Revision 1.18  2009/07/11 16:30:59  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.17  2009/04/27 16:31:28  revo
-Sebastian Cyprych: +trd pl +ref kod.
-
-Revision 1.16  2009/04/17 19:48:49  revo
-Antonio Codazzi: +trd it
-
-Revision 1.15  2004/09/16 16:32:11  revo
-Juergen Brandt: +trd de
-
-Revision 1.14  2003/12/08 17:32:00  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: artik.xml,v 1.52 2022/11/23 08:35:16 revo Exp $">
+<art mrk="$Id: artik.xml,v 1.57 2023/10/28 08:33:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>artik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -19,7 +19,7 @@
         <trd lng="br">mell an ufern</trd>
       </ekz>
       <ekz>
-        la tendeno <klr>[&#8230;]</klr> sur la <tld/>o de la femuro
+        la tendeno <klr>[&#x2026;]</klr> sur la <tld/>o de la femuro
         <fnt>
           <bib>MT</bib>
           <lok>Genezo 32:32</lok>
@@ -44,10 +44,11 @@
       </ekz>
       <ekz>
         eleganta piedo, kies <tld/>o estas volvita de blanka banda&gcirc;o
-        <fnt>
+         <fnt>
+          <aut>Shi Chengtai</aut>
+          <vrk><url ref="&Monato;/1995/A950601.php">La kompensa kiso</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9506-kiso.txt">de Shi Chengtai</url></vrk>
-          <lok>95/06</lok>
+          <lok>1995/06, p. 27</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -63,11 +64,16 @@
     </trdgrp>
     <trd lng="pl">staw</trd>
     <trd lng="pt">articula&ccedil;&atilde;o</trd>
+    <trd lng="ro">articula&#x21B;ie</trd>
     <trdgrp lng="ru">
       <trd>&c_s;&c_u;&c_s;&c_t;&c_a;&c_v;</trd>,
       <trd>&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6D3B;&#x7BC0; <pr>hu&#xF3;ji&#xE9;</pr></trd>,
+    <trd>&#x6D3B;&#x8282; <pr>hu&#xF3;ji&#xE9;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="artik.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
@@ -91,7 +97,15 @@
       <trd>zawiasa</trd>,
       <trd>przegub</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="ro">
+      <trd>balama</trd>,
+      <trd>&#x219;arnier&abreve;</trd>
+    </trdgrp>
+    <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x5DE5;&#x5173;&#x8282; <pr>r&#xE9;ng&#x14D;nggu&#x101;nji&#xE9;</pr></trd>,
+    <trd>&#x4EBA;&#x5DE5;&#x95DC;&#x7BC0; <pr>r&#xE9;ng&#x14D;nggu&#x101;nji&#xE9;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_u;&c_s;&c_t;&c_a;&c_w;</trd>,
     <trd>&c_s;&c_u;&c_ch;&c_l;&c_ja;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
@@ -118,9 +132,12 @@
     <trd>&#x5E4;&#x5E8;&#x5E7;</trd>
   </trdgrp>
   <trd lng="hu">csukl&oacute;</trd>
-  <trdgrp lng="pl">
-    <trd>kolanko<klr> (BOT)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x95A2;&#x7BC0;  <pr>&#x304B;&#x3093;&#x305B;&#x3064;</pr></trd>,
+    <trd>&#x7D99;&#x624B;  <pr>&#x3064;&#x304E;&#x3066;</pr></trd>
   </trdgrp>
+  <trd lng="pl">kolanko<klr> (BOT)</klr></trd>
+  <trd lng="ro">genunchi</trd>
   <trdgrp lng="ru">
     <trd>&c_sh;&c_a;&c_r;&c_n;&c_i;&c_r;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_je;&c_n;&c_o;</trd>,
@@ -136,7 +153,7 @@
   <trdgrp lng="uk">
     <trd>&c_s;&c_u;&c_g;&#x43B;&#x43E;&c_b;</trd>,
     <trd>&c_z;&c_ch;&#x43B;&c_je;&#x43D;&c_u;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
-    <trd>&c_z;&#8217;&c_jeu;&c_d;&#x43D;&c_a;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_z;&#x2019;&c_jeu;&c_d;&#x43D;&c_a;&#x43D;&#x43D;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -157,6 +174,8 @@
       <trd>csukl&oacute;san k&ouml;t</trd>,
       <trd>csukl&oacute;san illeszt</trd>
     </trdgrp>
+    <trd lng="pl">&lstroke;&aogonek;czy&cacute; na zawiasy</trd>
+    <trd lng="ro">s&abreve; se conecteze la pendul</trd>
     <trd lng="ru">&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_ja;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="artik.0igi.FON">
@@ -191,9 +210,8 @@
       <trd>artikul&aacute;l</trd>,
       <trd>tagol</trd>
     </trdgrp>
-    <trdgrp lng="pl">
-      <trd>artyku&lstroke;owa&cacute;</trd>
-    </trdgrp>
+    <trd lng="pl">artyku&lstroke;owa&cacute;</trd>
+    <trd lng="ro">pronun&#x21B;a</trd>
     <trd lng="ru">&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trdgrp lng="cs">
@@ -202,10 +220,14 @@
   </trdgrp>
   <trd lng="fr">articuler</trd>
   <trd lng="it">articolare</trd>
+  <trdgrp lng="ja">
+    <trd>&#x95A2;&#x7BC0;&#x3067;&#x3064;&#x306A;&#x3050;  <pr>&#x304B;&#x3093;&#x305B;&#x3064;&#x3067;&#x3064;&#x306A;&#x3050;</pr></trd>,
+    <trd>&#x5206;&#x7BC0;&#x3059;&#x308B;  <pr>&#x3076;&#x3093;&#x305B;&#x3064;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="sk">spoji&tcaron; k&lacute;bom</trd>
   <trdgrp lng="uk">
     <trd>&c_z;&c_ch;&#x43B;&c_je;&#x43D;&#x43E;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
-    <trd>&c_z;&#8217;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+    <trd>&c_z;&#x2019;&c_jeu;&c_d;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -233,7 +255,13 @@
         <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 7a</lok></fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7BC0;&#x80A2;&#x52D5;&#x7269; <pr>ji&#xE9;zh&#x12B;d&#xF2;ngw&#xF9;</pr></trd>,
+    <trd>&#x8282;&#x80A2;&#x52A8;&#x7269; <pr>ji&#xE9;zh&#x12B;d&#xF2;ngw&#xF9;</pr></trd>,
+    <trd>&#x7BC0;&#x652F;&#x52D5;&#x7269; <pr>ji&#xE9;zh&#x12B;d&#xF2;ngw&#xF9;</pr></trd>,
+    <trd>&#x8282;&#x652F;&#x52A8;&#x7269; <pr>ji&#xE9;zh&#x12B;d&#xF2;ngw&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_s;&c_u;&c_s;&c_t;&c_a;&c_v;&c_a;&c_n;&c_o;&c_g;&c_ib;&c_ja;</trd>
   <trd lng="br">artropoded</trd>
   <trd lng="ca">artr&ograve;podes</trd>
@@ -244,6 +272,7 @@
   <trd lng="hu">&iacute;zeltl&aacute;b&uacute;ak</trd>
   <trd lng="it">artropodi</trd>
   <trd lng="pl">stawonogi</trd>
+  <trd lng="ro">artropode</trd>
   <trdgrp lng="ru">
     <trd>&c_a;&c_r;&c_t;&c_r;&c_o;&c_p;&c_o;&c_d;&c_y;</trd>,
     <trd>&c_ch;&c_l;&c_je;&c_n;&c_i;&c_s;&c_t;&c_o;&c_n;&c_o;&c_g;&c_i;&c_je;</trd>
@@ -290,10 +319,9 @@
   <trdgrp lng="it">
      <trd>disarticolare</trd>,
      <trd>lussare</trd>
-   </trdgrp>
-  <trdgrp lng="pl">
-    <trd>nastawia&cacute; ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
   </trdgrp>
+  <trd lng="pl">nastawia&cacute; ko&sacute;ci</trd>
+  <trd lng="ro">a&#x219;eza&#x21B;i oasele</trd>
   <trd lng="sk">vyvrtn&uacute;&tcaron;</trd>
   <trd lng="uk">&c_v;&c_i;&c_v;&c_i;&c_h;&#x43D;&c_u;&c_t;&c_i;</trd>
 </drv>
@@ -332,6 +360,7 @@
      <trd>lussarsi</trd>
    </trdgrp>
     <trd lng="pl">zwichn&aogonek;&cacute;</trd>  
+    <trd lng="ro">entors&abreve;</trd>
 </drv>
 
 <drv mrk="artik.krom0uloj">
@@ -350,7 +379,11 @@
       <ref cel="bradip.0o">bradipo</ref>,
       <ref cel="mangx.formik0ulo">formikman&gcirc;ulo</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8CA7;&#x9F52;&#x76EE; <pr>p&#xED;nch&#x1D0;m&#xF9;</pr></trd>,
+    <trd>&#x8D2B;&#x9F7F;&#x76EE; <pr>p&#xED;nch&#x1D0;m&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_n;&c_ja;&c_p;&c_o;&c_w;&c_n;&c_a;&c_z;&c_u;&c_b;&c_y;&c_ja; &c_n;&c_o;&c_v;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_t;&c_n;&c_y;&c_ja;</trd>
   <trd lng="ca">xenartres</trd>
   <trdgrp lng="de">
@@ -364,6 +397,8 @@
     <trd>xenartri</trd>,
     <trd>edentati</trd>
   </trdgrp>
+  <trd lng="pl">szczerbaki</trd>
+  <trd lng="ro">Xenarthra</trd>
   <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_l;&c_n;&c_o;&c_z;&c_u;&c_b;&c_y;&c_je;</trd>
 </drv>
 
@@ -383,14 +418,19 @@
       </ekz>
       <ekz>
         Umea nezorge tordis al si la piedon, e&ccirc; pied<tld/>o rompi&gcirc;is
-        <fnt>
+         <fnt>
+          <aut>Shi Chengtai</aut>
+          <vrk><url ref="&Monato;/1995/A950601.php">La kompensa kiso</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9506-kiso.txt">de Shi Chengtai</url></vrk>
-          <lok>95/06</lok>
+          <lok>1995/06, p. 27</lok>
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x811A;&#x8116;&#x5B50; <pr>ji&#x1CE;ob&#xF3;zi</pr></trd>,
+    <trd>&#x8173;&#x8116;&#x5B50; <pr>ji&#x1CE;ob&#xF3;zi</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_sh;&c_ch;&c_y;&c_k;&c_a;&c_l;&c_a;&c_t;&c_k;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_s;&c_t;&c_a;&c_ch;&c_k;&c_a; <klr>(&c_s;&c_t;&c_u;&c_p;&c_n;&c_ib;)</klr></trd>
@@ -401,6 +441,9 @@
   </trdgrp>
   <trd lng="en">ankle</trd>
   <trd lng="fr">cheville</trd>
+  <trd lng="ja">&#x8DB3;&#x9996;  <pr>&#x3042;&#x3057;&#x304F;&#x3073;</pr></trd>
+  <trd lng="pl">staw skokowy</trd>
+  <trd lng="ro">glezn&abreve;</trd>
   <trdgrp lng="uk">
     <trd>&c_g;&#x43E;&#x43C;&c_ib;&#x43B;&#x43A;&#x43E;&c_v;&#x43E;&c_s;&c_t;&#x43E;&#x43F;&#x43D;&c_i;&c_j;
     &c_s;&c_u;&c_g;&#x43B;&#x43E;&c_b;</trd>,
@@ -427,12 +470,22 @@
   <trd lng="it">luogo di <ind>articolazione</ind><klr>
   (fon.)</klr></trd>
   <trd lng="pl">miejsce artykulacji</trd>
+  <trd lng="ro">locul de articulare</trd>
   <trd lng="ru">&c_m;&c_je;&c_s;&c_t;&c_o; &c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_c;&c_i;&c_i;</trd>
   <trd lng="sk">artikula&ccaron;n&eacute; miesto v &uacute;stach</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.56 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.54 2023/04/12 16:34:30
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.53 2023/02/02 22:29:17
+Vito Redsky: +trd pl + trd ro
+
 versio 1.52 2022/11/23 08:35:16
 Dmitri Gabinski: + trd be
 
@@ -446,14 +499,5 @@ Revision 1.43  2016/01/21 08:10:16  revo
 Alain Gerard: +pied~o
 
 Revision 1.42  2015/09/17 03:10:22  revo
-Evandro Avellar: +trd pt
-
-Revision 1.41  2015/07/04 08:37:30  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.40  2015/06/28 12:03:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.39  2013/09/01 10:10:16  revo
 -->
 </vortaro>

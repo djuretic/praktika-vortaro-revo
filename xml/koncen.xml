@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: koncen.xml,v 1.31 2021/11/04 07:29:22 revo Exp $">
+<art mrk="$Id: koncen.xml,v 1.37 2023/12/03 09:58:54 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>koncentr</rad>/i <fnt><bib>PV</bib></fnt>
@@ -108,8 +107,7 @@
       <trd>r&eacute;duire<klr tip="ind"> (tr., cuis.)</klr></trd>
     </trdgrp>
   </snc>
-  <trd
-  lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>koncentrovat</trd>,
     <trd>soust&rcaron;edit</trd>
@@ -121,6 +119,11 @@
     <trd>&ouml;sszpontos&iacute;t</trd>,
     <trd>koncentr&aacute;l</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x4E2D;&#x3055;&#x305B;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x3061;&#x3085;&#x3046;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x96C6;&#x7D50;&#x3055;&#x305B;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x3051;&#x3064;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x6FC3;&#x7E2E;&#x3059;&#x308B;  <pr>&#x306E;&#x3046;&#x3057;&#x3085;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">concentreren</trd>
   <trdgrp lng="pl">
     <trd>koncentrowa&cacute;</trd>,
@@ -128,7 +131,7 @@
     <trd>zag&eogonek;szcza&cacute;</trd>,
     <trd>ze&sacute;rodkowa&cacute;</trd>,
     <trd>zogniskowa&cacute;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="pt">concentrar</trd>
   <trd lng="ro">concentra</trd>
   <trdgrp lng="ru">
@@ -138,6 +141,10 @@
   <trdgrp lng="sk">
     <trd>koncentrova&tcaron;</trd>,
     <trd>s&uacute;stredi&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6CE8; <pr>zh&#xF9;</pr></trd>,
+    <trd>&#x96C6;&#x4E2D; <pr>j&#xED;zh&#x14D;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -167,17 +174,24 @@
     <trd>&c_z;&c_a;&c_s;&c_ja;&c_r;&c_o;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_s;&c_k;&c_u;&c_p;&c_ch;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
+  <trd lng="de">sich konzentrieren</trd>
+  <trd lng="en">concentrate</trd>
   <trd lng="es">concentrarse<klr> (esfuerzo intelectual)</klr></trd>
   <trdgrp lng="fr">
     <trd>se <ind>concentrer</ind></trd>,
     <trd>s'<ind>appliquer</ind></trd>
   </trdgrp>
   <trd lng="nl">zich <ind>concentreren</ind></trd>
-  <trd lng="pl">skupia&cacute; si&eogonek; na sobie</trd>     
+  <trd lng="pl">skupia&cacute; si&eogonek; na sobie</trd>
   <trd lng="ro">se concentreaz&abreve; pe sine</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_s;&c_r;&c_je;&c_d;&c_o;&c_t;&c_o;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8FD0;&#x795E; <pr>y&#xF9;nsh&#xE9;n</pr></trd>,
+    <trd>&#x96C6;&#x4E2D; <pr>j&#xED;zh&#x14D;ng</pr></trd>,
+    <trd>&#x51DD;&#x795E; <pr>n&#xED;ngsh&#xE9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -188,6 +202,7 @@
       Ago <ref cel="koncen.0i"><tld/>i</ref>
       a&ubreve; <ref cel="koncen.0igxi"><tld/>i&gcirc;i</ref>.
     </dif>
+  <trd lng="de">Fokussierung</trd>
   </snc>
   <snc mrk="koncen.0o.iteco">
     <dif>
@@ -196,9 +211,8 @@
         impona verko malgra&ubreve; la simpligoj kaj pro la forta <tld/>o
         <fnt>
         <aut>Poul THORSEN</aut>:
-        <vrk>La oceano kaj ni &#8208; La arto de Mikines</vrk>.
-        <lok><url
-        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5603/mikinesu.html">Norda
+        <vrk>La oceano kaj ni &#x2010; La arto de Mikines</vrk>.
+        <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/np/np5603/mikinesu.html">Norda
         Prismo, 1956:3</url></lok>
         </fnt>;
       </ekz>
@@ -209,8 +223,7 @@
         <fnt>
         <aut>V. Gor&scirc;kov</aut>
         <vrk>La strategio de elvivado</vrk>
-        <lok><url
-        ref="http://www.esperanto.mv.ru/Arkivoj/Ekologio/elviv.html">http://www.esperanto.mv.ru/Arkivoj/Ekologio/elviv.html</url></lok>
+        <lok><url ref="http://www.esperanto.mv.ru/Arkivoj/Ekologio/elviv.html">http://www.esperanto.mv.ru/Arkivoj/Ekologio/elviv.html</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -218,12 +231,18 @@
       La unua ekzemplo ne aspektas klara.
       <aut>MB</aut>
     </adm>
+  <trdgrp lng="de">
+    <trd>Konzentriertheit</trd>,
+    <trd>Konzentriertsein</trd>
+  </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_a;&c_s;&c_ja;&c_r;&c_o;&c_d;&c_zh;&c_v;&c_a;&c_n;&c_n;&c_je;</trd>,
     <trd>&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_c;&c_y;&c_ja;</trd>
   </trdgrp>
+  <trd lng="de">Konzentration</trd>
+  <trd lng="en">concentration</trd>
   <trd lng="fr">concentration</trd>
   <trdgrp lng="hu">
     <trd>koncentr&aacute;ci&oacute;</trd>,
@@ -231,10 +250,9 @@
     <trd>&ouml;sszpontosul&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">concentratie</trd>
-  <trd lng="pl">koncentracja</trd>     
+  <trd lng="pl">koncentracja</trd>
   <trd lng="ro">concentrare</trd>
-  <trd
-  lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
 </drv>
 
 <drv mrk="koncen.0a">
@@ -263,18 +281,33 @@
     </adm>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_c;&c_y;&c_j;&c_n;&c_y;</trd>
+  <trdgrp lng="de">
+    <trd>konzentriert</trd>,
+    <trd>Konzentrations-</trd>
+  </trdgrp>
+  <trd lng="en">concentrated</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszpontos&iacute;t&oacute;</trd>,
     <trd>koncentr&aacute;l&oacute;</trd>
   </trdgrp>
   <trd lng="fr">de <ind>concentration</ind></trd>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x4E2D;&#x7684;&#x306A;  <pr>&#x3057;&#x3085;&#x3046;&#x3061;&#x3085;&#x3046;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x6FC3;&#x539A;&#x306A;  <pr>&#x306E;&#x3046;&#x3053;&#x3046;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">concentrerend</trd>
   <trdgrp lng="pl">
     <trd>koncentryczny</trd>,
     <trd>wsp&oacute;&lstroke;&sacute;rodkowy</trd>
-  </trdgrp>   
+  </trdgrp>
   <trd lng="ro">concentric</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E13;&#x5FC3; <pr>zhu&#x101;nx&#x12B;n</pr></trd>,
+    <trd>&#x96C6;&#x4E2D; <pr>j&#xED;zh&#x14D;ng</pr></trd>,
+    <trd>&#x4E13; <pr>zhu&#x101;n</pr></trd>,
+    <trd>&#x6F5B;&#x5FC3; <pr>qi&#xE1;nx&#x12B;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="koncen.0ado">
@@ -335,12 +368,23 @@
     <trd>koncentrace</trd>,
     <trd>soust&rcaron;e&dcaron;ov&aacute;n&iacute;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Konzentration</trd>,
+    <trd>Fokussierung</trd>
+  </trdgrp>
+  <trd lng="en">concentration</trd>
   <trd lng="fr">concentration</trd>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x4E2D;  <pr>&#x3057;&#x3085;&#x3046;&#x3061;&#x3085;&#x3046;</pr></trd>,
+    <trd>&#x96C6;&#x7D50;  <pr>&#x3057;&#x3085;&#x3046;&#x3051;&#x3064;</pr></trd>,
+    <trd>&#x6FC3;&#x7E2E;  <pr>&#x306E;&#x3046;&#x3057;&#x3085;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">concentratie</trd>
-  <trd lng="pl">koncentracja</trd>     
+  <trd lng="pl">koncentracja</trd>
   <trd lng="ro">concentrare</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
   <trd lng="sk">koncentr&aacute;cia</trd>
+  <trd lng="zh">&#x4E13;&#x5FC3; <pr>zhu&#x101;nx&#x12B;n</pr></trd>
 </drv>
 
 <drv mrk="koncen.0ejo">
@@ -375,6 +419,10 @@
   <trd lng="es">campo de <ind>concentraci&oacute;n</ind></trd>
   <trd lng="fr">camp de <ind>concentration</ind></trd>
   <trd lng="hu">koncentr&aacute;ci&oacute;s t&aacute;bor</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5F37;&#x5236;&#x53CE;&#x5BB9;&#x6240;  <pr>&#x304D;&#x3087;&#x3046;&#x305B;&#x3044;&#x3057;&#x3085;&#x3046;&#x3088;&#x3046;&#x3058;&#x3087;</pr></trd>,
+    <trd>&#x6355;&#x865C;&#x53CE;&#x5BB9;&#x6240;  <pr>&#x307B;&#x308A;&#x3087;&#x3057;&#x3085;&#x3046;&#x3088;&#x3046;&#x3058;&#x3087;</pr></trd>
+  </trdgrp>
   <trd lng="nl">concentratiekamp</trd>
   <trd lng="pl">koncentracyjny <klr> (ob&oacute;z)</klr></trd>
   <trd lng="pt">campo de <ind>concentra&ccedil;&atilde;o</ind></trd>
@@ -385,6 +433,7 @@
     <trd>&c_k;&c_o;&c_n;&c_c;&c_l;&c_a;&c_g;&c_je;&c_r;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">koncentra&ccaron;n&yacute; t&aacute;bor</trd>
+  <trd lng="zh">&#x96C6;&#x4E2D;&#x71DF; <pr>j&#xED;zh&#x14D;ngy&#xED;ng</pr></trd>
 </drv>
 
 <drv mrk="koncen.0igi">
@@ -399,10 +448,15 @@
       <klr>(samcentrigi)</klr>.
     </rim>
   </snc>
+  <trd lng="be">&c_v;&c_y;&c_k;&c_l;&c_ib;&c_k;&c_a;&c_c;&c_mol; <ind>&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
+  <trd lng="de">konzentrieren</trd>
+  <trdgrp lng="en">
+    <trd>concentrate</trd>,
+    <trd>make concentrated</trd>
+  </trdgrp>
   <trd lng="pl">centralizowa&cacute; <klr> (koncentrowa&cacute;)</klr></trd>
-  <trd lng="ro">centraliza&#539;i <klr> (focaliza&#539;i)</klr></trd>
-  <trd
-  lng="ru">&c_s;&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="ro">centraliza&#x21B;i <klr> (focaliza&#x21B;i)</klr></trd>
+  <trd lng="ru">&c_s;&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="koncen.0igxi">
@@ -418,8 +472,7 @@
         <fnt>
         <aut>E. Vivancos</aut>
         <vrk>50-a datreveno de la Hispana Revolucio</vrk>
-        <lok><url
-        ref="http://satenhispanio.eresmas.com/artik25.htm">http://satenhispanio.eresmas.com/artik25.htm</url></lok>
+        <lok><url ref="http://satenhispanio.eresmas.com/artik25.htm">http://satenhispanio.eresmas.com/artik25.htm</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -436,8 +489,7 @@
         <fnt>
         <aut>M. Malovec</aut>
         <vrk>La &ccirc;e&hcirc;a p&rcaron;emyslida &scirc;tato</vrk>
-        <lok><url
-        ref="http://members.chello.cz/malovec/HPREMISL.HTM">http://members.chello.cz/malovec/HPREMISL.HTM</url></lok>
+        <lok><url ref="http://members.chello.cz/malovec/HPREMISL.HTM">http://members.chello.cz/malovec/HPREMISL.HTM</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -445,9 +497,12 @@
         "sova&gcirc;aj gistoj" en la aero, kiel <ctl>Brettanomyces
         lambicus</ctl>, kiuj interalie mildigas la acidan guston
         <klr>[de biero]</klr>
-        <fnt><aut>L. Van de Velde</aut><vrk>Bierlando
-        Belgio</vrk><lok><url
-        ref="http://www.esperanto.be/fel/mon/007144.html">Monato</url></lok></fnt>;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode van de Velde</aut>
+          <vrk><url ref="&Monato;/2001/007144.html">Bierlando
+          Belgio</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         &ccirc;iu teknologio sur &ccirc;i tiu mondo <tld/>i&gcirc;is
@@ -492,18 +547,29 @@
     <trd>&ouml;sszpontosul</trd>,
     <trd>koncentr&aacute;l&oacute;dik</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x96C6;&#x4E2D;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x3061;&#x3085;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x6FC3;&#x7E2E;&#x3055;&#x308C;&#x308B;  <pr>&#x306E;&#x3046;&#x3057;&#x3085;&#x304F;&#x3055;&#x308C;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>koncentrowa&cacute; si&eogonek;</trd>,
     <trd>skupia&cacute; si&eogonek;</trd>,
     <trd>skupi&cacute; uwag&eogonek;</trd>
-  </trdgrp>   
+  </trdgrp>
   <trdgrp lng="ro">
     <trd>concentra</trd>,
-    <trd>aten&#539;ia focaliza</trd>
-  </trdgrp>   
+    <trd>aten&#x21B;ia focaliza</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x51DD; <pr>n&#xED;ng</pr></trd>,
+    <trd>&#x8FD0;&#x795E; <pr>y&#xF9;nsh&#xE9;n</pr></trd>,
+    <trd>&#x4E3B;&#x6293; <pr>zh&#x1D4;zhu&#x101;</pr></trd>,
+    <trd>&#x96C6;&#x4E2D; <pr>j&#xED;zh&#x14D;ng</pr></trd>,
+    <trd>&#x51DD;&#x795E; <pr>n&#xED;ngsh&#xE9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -522,6 +588,11 @@
       sur la strecxita vizagxo" k.s.?
       <aut>MB</aut>
     </adm>
+  <trdgrp lng="de">
+    <trd>Konzentriertheit</trd>,
+    <trd>Konzentriertsein</trd>
+  </trdgrp>
+  <trd lng="en">being focused</trd>
   </snc>
   <snc mrk="koncen.0iteco.KEM">
     <uzo tip="fak">KEM</uzo>
@@ -532,13 +603,12 @@
         <frm>2 g/l</frm> <klr>(legu: du gramoj en litro)</klr>;
       </ekz>
       <ekz>
-        sulfata akvo &#8208; akvo kun pliigita <tld/>iteco
+        sulfata akvo &#x2010; akvo kun pliigita <tld/>iteco
         de solveblaj sulfatoj
         <fnt>
         <aut>J. Werner</aut>
         <vrk>Terminaro de betono</vrk>
-        <lok><url
-        ref="http://mujweb.cz/Kultura/malovec/BETONO.HTM">http://mujweb.cz/Kultura/malovec/BETONO.HTM</url></lok>
+        <lok><url ref="http://mujweb.cz/Kultura/malovec/BETONO.HTM">http://mujweb.cz/Kultura/malovec/BETONO.HTM</url></lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -548,8 +618,7 @@
         <fnt>
         <aut>Tr. Gabor Lazar</aut>:
         <vrk>Fumado kaj la metabolo de kelkaj medikamentoj</vrk>.
-        <lok><url ref="http://www.eventoj.hu/arkivo/eve-207.htm"
-        >Eventoj, n-ro 207</url></lok>
+        <lok><url ref="http://www.eventoj.hu/arkivo/eve-207.htm">Eventoj, n-ro 207</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -558,6 +627,11 @@
       Al la sama familio apartenas ankaux "titro" (PIV1), ne en REVO.
       <aut>MB</aut>
     </adm>
+    <trd lng="de">Titer</trd>
+    <trdgrp lng="en">
+      <trd>titer</trd>,
+      <trd>titre</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>concentration<klr tip="ind"> (teneur)</klr></trd>,
       <trd>teneur<klr tip="ind"> (quantit&eacute;,
@@ -566,12 +640,19 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_n;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="de">Konzentration</trd>
+  <trd lng="en">concentration</trd>
   <trd lng="hu">koncentr&aacute;ci&oacute;</trd>
+  <trd lng="ja">&#x6FC3;&#x5EA6;  <pr>&#x306E;&#x3046;&#x3069;</pr></trd>
   <trd lng="nl">concentratie</trd>
-  <trd lng="pl">koncentracja</trd>     
+  <trd lng="pl">koncentracja</trd>
   <trd lng="ro">concentrare</trd>
-  <trd
-  lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="ru">&c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E13;&#x5FC3; <pr>zhu&#x101;nx&#x12B;n</pr></trd>,
+    <trd>&#x6D53;&#x5EA6; <pr>n&#xF3;ngd&#xF9;</pr></trd>,
+    <trd>&#x4E13;&#x6CE8; <pr>zhu&#x101;nzh&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="koncen.mal0i">
@@ -586,9 +667,7 @@
         mal<tld/>i &gcirc;in aparte por &ccirc;iu el ili
         <fnt>
         <aut>Wei Guoxiong</aut>: <vrk>Trafikreto en Guan&gcirc;i</vrk>
-        <lok><url
-        ref="http://mf1.iist.unu.edu/china/ElPopolaCxinio/bd98-12-19.html"
-        >EP&Ccirc;</url></lok></fnt>.
+        <lok><url ref="http://mf1.iist.unu.edu/china/ElPopolaCxinio/bd98-12-19.html">EP&Ccirc;</url></lok></fnt>.
       </ekz>
     </dif>
     <ref tip="ant" cel="koncen.0i"><tld/>i</ref>
@@ -599,6 +678,8 @@
     <trd>&c_r;&c_a;&c_z;&c_b;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="cs">roz&rcaron;edit</trd>
+  <trd lng="de">verd&uuml;nnen</trd>
+  <trd lng="en">dilute</trd>
   <trdgrp lng="es">
     <trd>desconcentrar</trd>,
     <trd>dispersar</trd>,
@@ -617,11 +698,15 @@
     <trd>fellaz&iacute;t</trd>,
     <trd>felh&iacute;g&iacute;t</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5206;&#x6563;&#x3055;&#x305B;&#x308B;  <pr>&#x3076;&#x3093;&#x3055;&#x3093;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5E0C;&#x91C8;&#x3059;&#x308B;  <pr>&#x304D;&#x3057;&#x3083;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>deconcentreren</trd>,
     <trd>verdunnen</trd>
   </trdgrp>
-  <trd lng="pl">dekoncentrowa&cacute;</trd>     
+  <trd lng="pl">dekoncentrowa&cacute;</trd>
   <trd lng="ro">z&abreve;p&abreve;cit</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_s;&c_s;&c_r;&c_je;&c_d;&c_o;&c_t;&c_o;&c_ch;&c_i;&c_t;&c_mol;</trd>,
@@ -629,6 +714,14 @@
     &c_k;&c_o;&c_n;&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_c;&c_i;&c_ju;</trd>
   </trdgrp>
   <trd lng="sk">zriedi&tcaron;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x51B2;&#x6DE1; <pr>ch&#x14D;ngd&#xE0;n</pr></trd>,
+    <trd>&#x7A00;&#x91CA; <pr>x&#x12B;sh&#xEC;</pr></trd>,
+    <trd>&#x53D8;&#x5C16; <pr>bi&#xE0;nji&#x101;n</pr></trd>,
+    <trd>&#x53D8;&#x7EC6; <pr>bi&#xE0;nx&#xEC;</pr></trd>,
+    <trd>&#x63BA;&#x6C34; <pr>ch&#x101;nshu&#x1D0;</pr></trd>,
+    <trd>&#x6400;&#x6742; <pr>ch&#x101;nz&#xE1;</pr></trd>
+  </trdgrp>
 </drv>
 <rim>
   La radiko estis difinita en la 1a OA kiel adjektiva, kun la
@@ -660,6 +753,18 @@
 </art>
 <!--
 $Log$
+versio 1.36 2023/10/18 17:23:24
+revo: transskribo per <pr>
+
+versio 1.35 2023/09/20 10:29:44
+Dmitri Gabinski: + trd be
+
+versio 1.33 2023/05/06 15:22:44
+Christian Siefkes: +trd de, en
+
+versio 1.32 2023/03/27 08:33:39
+Paul Peeraerts: &Monato;
+
 versio 1.31 2021/11/04 07:29:22
 Dmitri Gabinski: + trd be
 
@@ -670,17 +775,5 @@ versio 1.29 2021/05/27 18:19:24
 Wolfram Diestel: -rim@mrk
 
 versio 1.28 2021/05/13 13:13:05
-Wolfram Diestel: kor. rim@mrk
-
-Revision 1.26  2018/08/06 20:10:38  revo
-Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
-
-Revision 1.25  2018/03/20 23:13:00  revo
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.24  2017/10/31 17:10:13  revo
-Wolfram Diestel: dif chirkau dif-ref, ekz-oj
-
-Revision 1.23  2016/08/12 08:10:26  revo
 -->
 </vortaro>

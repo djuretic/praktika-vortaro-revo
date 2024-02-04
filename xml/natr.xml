@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: natr.xml,v 1.24 2022/10/20 05:51:39 revo Exp $">
+  <art mrk="$Id: natr.xml,v 1.31 2024/01/29 15:21:35 revo Exp $">
 <kap>
-  <rad>natr</rad>/o 
-  <fnt><bib>PV</bib></fnt>
+  <rad>natr</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 
 <drv mrk="natr.0o">
@@ -14,16 +14,16 @@
     <uzo tip="fak">KEM</uzo>
     <dif>
       Senkolora <ref tip="super" cel="alkal.0o">alkalo</ref>, <ref cel="natri.0o">natria</ref>
-      <ref tip="super" cel="hidroksid.0o">hidroksido</ref> uzata por multaj industriaj celoj; <frm>NaOH</frm>:
+      <ref tip="super" cel="hidroksid.0o">hidroksido</ref> uzata por multaj industriaj celoj;
+      <frm>NaOH</frm>:
       <ekz>
         kune kun fero, kiu donas la belan ru&gcirc;an koloron, estas enmarigataj <tld/>o
-        (NaOH), <klr>[&#8230;]</klr> kadmio, hidrargo, arseno kaj aliaj
+        (<frm><k>NaOH</k></frm>), <klr>[&#x2026;]</klr> kadmio, hidrargo, arseno kaj aliaj
         pezaj metaloj, dan&gcirc;eraj por la sano
         <fnt>
           <bib>Monato</bib>
           <aut>Ren&eacute;e Triolle</aut>
-          <vrk><url ref="https://www.monato.be/2015/011584.php"
-              >Ru&gcirc;aj &scirc;limoj en Mediteraneo</url></vrk>
+          <vrk><url ref="&Monato;/2015/011584.php">Ru&gcirc;aj &scirc;limoj en Mediteraneo</url></vrk>
           <lok>2015</lok>
         </fnt>.
       </ekz>
@@ -32,7 +32,8 @@
       <ref cel="sod.0o">sodo</ref>
     </refgrp>
     <rim>
-      &Ccirc;i tiu signifo estas la sola kiun prezentas PIV; PIV2 &gcirc;in ne
+      &Ccirc;i tiu signifo estas la sola kiun prezentas <fnt><bib>PIV1</bib></fnt>;
+      <fnt><bib>PIV2</bib></fnt> &gcirc;in ne
       plu konas.
     </rim>
     <trdgrp lng="be">
@@ -64,7 +65,15 @@
       <trd>kaustiksoda</trd>,
       <trd>natriumhydroxid</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x82DB;&#x6027;&#x9209; <pr>k&#x113;x&#xEC;ngn&#xE0;</pr></trd>,
+    <trd>&#x82DB;&#x6027;&#x94A0; <pr>k&#x113;x&#xEC;ngn&#xE0;</pr></trd>,
+    <trd>&#x6C22;&#x6C27;&#x5316;&#x94A0; <pr>q&#x12B;ngy&#x1CE;nghu&#xE0;n&#xE0;</pr></trd>,
+    <trd>&#x6C2B;&#x6C27;&#x5316;&#x9209; <pr>q&#x12B;ngy&#x1CE;nghu&#xE0;n&#xE0;</pr></trd>,
+    <trd>&#x70E7;&#x78B1; <pr>sh&#x101;oji&#x1CE;n</pr></trd>,
+    <trd>&#x71D2;&#x9E7C; <pr>sh&#x101;oji&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="natr.0o.sodo">
     <uzo tip="fak">BIB</uzo>
     <dif>
@@ -91,6 +100,7 @@
       evidente, tiu <tld/>o grave vundas onian ha&ubreve;ton, &gcirc;uste
       kiel la <em>ka&ubreve;stika</em> sodo <frm>NaOH</frm>.
     </rim>
+    <trd lng="be">&c_sh;&c_ch;&c_o;&c_l;&c_a;&c_k;</trd>
     <trd lng="de">Natron</trd>
     <trd lng="en">nitre</trd>
     <trd lng="fr">soude</trd>
@@ -102,6 +112,10 @@
     <trd lng="sv">natriumkarbonat</trd>
   </snc>
   <trd lng="cs">natron</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30CA;&#x30C8;&#x30ED;&#x30F3;</trd>,
+    <trd>&#x30BD;&#x30FC;&#x30C0;&#x77F3;  <pr>&#x30BD;&#x30FC;&#x30C0;&#x3044;&#x3057;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>natron</trd>,
     <trd>s&oacute;da</trd>,
@@ -117,27 +131,27 @@
   </art>
   <!--
   $Log$
+versio 1.30 2024/01/04 19:21:47
+Wolfram Diestel: -ekz
+
+versio 1.29 2024/01/03 20:25:12
+Wolfram Diestel: fnt JED, +~obulko
+
+versio 1.28 2023/10/19 20:12:29
+revo: transskribo per <pr>
+
+versio 1.26 2023/06/27 06:35:52
+Dmitri Gabinski: + trd be
+
+versio 1.25 2023/04/11 17:15:20
+aktualigo Monato-URL
+
 versio 1.24 2022/10/20 05:51:39
 Wolfram Diestel: +ekz, ref
 
 versio 1.22 2020/12/31 22:10:58
-Vito Redsky: +trd pl +trd ro 
+Vito Redsky: +trd pl +trd ro
 
   Revision 1.20  2015/06/29 16:33:20  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.19  2012/06/20 12:10:09  revo
-  Sergio Pokrovskij: kor fnt
-
-  Revision 1.18  2012/06/16 06:10:09  revo
-  Sergio Pokrovskij: +rim
-
-  Revision 1.17  2012/06/16 04:10:07  revo
-  Sergio Pokrovskij: +ekz, rim
-
-  Revision 1.16  2012/06/01 04:10:10  revo
-  Sergio Pokrovskij: snc-mrk
-
-  Revision 1.15  2010/06/16 16:30:55  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: gnom.xml,v 1.24 2022/03/19 19:18:23 revo Exp $">
+<art mrk="$Id: gnom.xml,v 1.28 2023/11/11 11:36:35 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>gnom</rad>/o
@@ -58,6 +58,7 @@
     <trd>gn&oacute;m</trd>
   </trdgrp>
   <trd lng="it">gnomo</trd>
+  <trd lng="ja">&#x5730;&#x306E;&#x7CBE;  <pr>&#x3061;&#x306E;&#x305B;&#x3044;</pr></trd>
   <trdgrp lng="nl">
     <trd>gnoom</trd>,
     <trd>berggeest</trd>,
@@ -75,8 +76,12 @@
   </trdgrp>
   <trd lng="tr">c&uuml;ce</trd>
   <trdgrp lng="uk">
-    <trd>&#x491;&#x43D;&#x43E;&#x43C;</trd>,
-    <trd>&#x433;&#x43D;&#x43E;&#x43C;&#x430;</trd>
+    <trd>&c_gu;&#x43D;&#x43E;&#x43C;</trd>,
+    <trd>&c_g;&#x43D;&#x43E;&#x43C;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x571F;&#x5730;&#x795E; <pr>t&#x1D4;d&#xEC;sh&#xE9;n</pr></trd>,
+    <trd>&#x4F8F;&#x5112; <pr>zh&#x16B;r&#xFA;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -94,6 +99,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_je;&c_l;&c_mol;&c_m;&c_ib; <ind>&c_m;&c_a;&c_l;&c_y;</ind></trd>,
+    <trd>&c_k;&c_a;&c_r;&c_l;&c_ib;&c_k;&c_a;&c_v;&c_y;</trd>
+  </trdgrp>
   <trd lng="ca">gn&ograve;mic</trd>
   <trdgrp lng="de">
     <trd>gnomenhaft</trd>,
@@ -111,10 +120,17 @@
     <trd>mikry</trd>,
     <trd>maciupki</trd>
   </trdgrp>
+  <trd lng="zh">&#x77EE;&#x77EE;&#x7684; <pr>&#x1CE;i&#x1CE;ide</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2023/10/15 18:38:19
+revo: transskribo per <pr>
+
+versio 1.25 2023/07/30 18:28:40
+Dmitri Gabinski: + trd be
+
 Revision 1.22  2015/07/04 08:37:35  revo
 aldono de trd cs per skripto de M. von Laer
 
@@ -131,8 +147,5 @@ Revision 1.18  2012/08/19 00:10:40  revo
 Marc Rausell: + trd ca
 
 Revision 1.17  2009/08/24 16:32:32  revo
-Emmanuel Debanne: +kor tr
-
-Revision 1.16  2009/06/27 16:31:10  revo
 -->
 </vortaro>

@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-
 <vortaro>
-<art mrk="$Id: korpus.xml,v 1.21 2022/05/01 08:09:25 revo Exp $">
+<art mrk="$Id: korpus.xml,v 1.24 2023/12/03 09:58:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>korpus</rad>/o
@@ -26,8 +25,8 @@
       </ekz>
       <ekz>
         sepdek-ok, pleje ruinigitaj butikistoj, forpelitaj
-        magistroj kaj skribistoj <klr>[&#8230;]</klr>, &gcirc;i estas ja <tld/>o da
-        bravuloj, <klr>[&#8230;]</klr> ravaj homoj, mi al vi diras
+        magistroj kaj skribistoj <klr>[&#x2026;]</klr>, &gcirc;i estas ja <tld/>o da
+        bravuloj, <klr>[&#x2026;]</klr> ravaj homoj, mi al vi diras
         <fnt>
           <bib>Rabistoj</bib>
           <lok>Akto Dua</lok>
@@ -88,20 +87,20 @@
       iu temo, en iu lingvo, de iu a&ubreve;toro, uzata kiel materialo de
       studo a&ubreve; argumentado:
       <ekz>
-        la Proverbaro Esperanta <klr>[&#8230;]</klr> konsistigas tre gravan parton de la
+        la Proverbaro Esperanta <klr>[&#x2026;]</klr> konsistigas tre gravan parton de la
         teksta <tld/>o, kiun la a&ubreve;torino esploris
         <fnt>
-          <bib>Monato</bib>
-          <aut>Boris Kolker</aut>
-          <vrk><url ref="&Steloj;monato2/006813.html">Sa&gcirc;a kapo duonvorton
-          komprenas</url></vrk>
+	<aut>Pejno Simono</aut>
+	<vrk><url ref="&Monato;/2000/006813.php">Plansprache und Phraseologie</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/06, p. 33</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la traktato &leftquot;Pri la sepoj&rightquot; <klr>[&#8230;]</klr> trovi&gcirc;as en la hipokrata <tld/>o
+        la traktato &leftquot;Pri la sepoj&rightquot; <klr>[&#x2026;]</klr> trovi&gcirc;as en la hipokrata <tld/>o
         <fnt>
           <bib>Monato</bib>
-          <aut>D-ro Winfried Schumacher</aut>
+          <aut>Winfried Schumacher</aut>
           <vrk><url ref="&Monato;/2012/010605.php">Filozofio metio
           ideologio</url></vrk>
           <lok>2012</lok>
@@ -115,8 +114,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="&Monato;/2014/011357.php"
-              >Kio estas la kipra silabaro?</url></vrk>
+          <vrk><url ref="&Monato;/2014/011357.php">Kio estas la kipra silabaro?</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
@@ -132,7 +130,11 @@
     <trd lng="it">corpus</trd>
     <trd lng="nl">corpus</trd>
     <trd lng="pl">korpus</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5175;&#x56E2; <pr>b&#x12B;ngtu&#xE1;n</pr></trd>,
+    <trd>&#x8A9E;&#x6599;&#x5EAB; <pr>y&#x1D4;li&#xE0;ok&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_k;&c_o;&c_r;&c_p;&c_u;&c_s;</trd>
   <trdgrp lng="cs">
     <trd>celek</trd>,
@@ -140,6 +142,7 @@
     <trd>korpus</trd>,
     <trd>sb&iacute;rka</trd>
   </trdgrp>
+  <trd lng="ja">&#x30B3;&#x30FC;&#x30D1;&#x30B9;</trd>
   <trdgrp lng="pt">
     <trd>corpus</trd>,
     <trd>colet&acirc;nea</trd>,
@@ -155,6 +158,9 @@
   </art>
   <!--
   $Log$
+versio 1.22 2023/04/24 09:26:29
+Paul Peeraerts: @Sxteloj -> @Monato
+
 versio 1.21 2022/05/01 08:09:25
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -174,8 +180,5 @@ Wolfram Diestel: +snc ordeno, ekz-oj
   aldono de trd sk per skripto de M. von Laer
 
   Revision 1.14  2014/05/29 15:10:32  revo
-  Damien Brucker: +trd fr
-
-  Revision 1.13  2010/06/15 16:30:48  revo
 -->
 </vortaro>

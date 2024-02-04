@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: barome.xml,v 1.25 2022/04/26 15:00:32 revo Exp $">
+<art mrk="$Id: barome.xml,v 1.30 2023/10/14 08:39:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>barometr</rad>/o
@@ -12,7 +12,7 @@
   <uzo tip="fak">MET</uzo>
   <snc>
    <dif>
-     Instrumento por mezuri aerpremon:
+     Instrumento por mezuri <ref cel="prem.aer0o.FIZ">aerpremo</ref>n:
       <ekz>
         pla&ccirc;is al li la lernado de kompleksaj aferoj kiel la e&ubreve;klida geometrio, 
         kiun instruis al li privata instruisto a&ubreve; la funkciado de <tld/>o,
@@ -29,6 +29,29 @@
           <bib>Monato</bib>
           <aut>Jomo Ipfelkofer</aut>
           <vrk><url ref="&Monato;/2010/010199.php">Volo de la popolo</url></vrk>
+        </fnt>;
+      </ekz>      
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        &ccirc;i tiu haveno estas <tld/>o <klr>(<ref cel="indik.0ilo">indikilo</ref>, <ref tip="super" cel="mezur.0ilo.TEK">mezurilo</ref>)</klr> 
+        de la ekonomia dinamismo de la regiono
+        <fnt>
+          <bib>MD11</bib>
+          <aut>Tristan Coloma</aut>
+          <vrk><url ref="&Mondediplo;article1930.html">Atendante la havenon , kiu savos Kenjon</url></vrk>
+          <lok>1 Apr 2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la enspezo je unu pasa&gcirc;era kilometro <klr>[estas]</klr> la <tld/>o kiun la industrio plej
+        atenteme
+        kontrolas
+        <fnt>
+          <bib>MD11</bib>
+          <aut>Jean-Pierre S&eacute;r&eacute;ni</aut>
+          <vrk><url ref="&Mondediplo;article1686.html">Emirates volas relan&ccirc;i Dubajon</url></vrk>
+          <lok>1 Mov 2010</lok>
         </fnt>.
       </ekz>
    </dif>
@@ -47,11 +70,12 @@
   <trd lng="en">barometer</trd>
   <trd lng="es">bar&oacute;metro</trd>
   <trd lng="fr">barom&egrave;tre</trd>
-  <trd lng="he">&#x5D1;&#x5BC;&#x5B8;&#x5E8;&#x5D5;&#x5B9;&#x5DE;&#x5B6;&#x5D8;&#x5B6;&#x5E8;</trd>
+  <trd lng="he">&bet;&#x5BC;&#x5B8;&resh;&vav;&#x5B9;&mem;&#x5B6;&tet;&#x5B6;&resh;</trd>
   <trdgrp lng="hu">
    <trd>nyom&aacute;sm&eacute;r&odblac;</trd>,
    <trd>barom&eacute;ter</trd>
   </trdgrp>
+  <trd lng="ja">&#x6C17;&#x5727;&#x8A08;  <pr>&#x304D;&#x3042;&#x3064;&#x3051;&#x3044;</pr></trd>
   <trd lng="nl">barometer</trd>
   <trd lng="pl">barometr</trd>
   <trd lng="ru">&c_b;&c_a;&c_r;&c_o;&c_m;&c_je;&c_t;&c_r;</trd>
@@ -63,11 +87,23 @@
    <trd>bas&inodot;n&ccedil;&ouml;l&ccedil;er</trd>,
    <trd>barometre</trd>
   </trdgrp>
-  <trd lng="uk">&#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;</trd>
+  <trd lng="uk">&c_b;&c_a;&c_r;&c_o;&c_m;&c_je;&c_t;&c_r;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.30 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
+versio 1.28 2023/05/08 16:34:04
+Wolfram Diestel: +ref-oj, fnt FIG subordigitaj
+
+versio 1.27 2023/05/06 17:35:35
+revo: aktualigo URL-unuoj
+
+versio 1.26 2023/05/05 20:24:16
+Robert Baruch: +snc
+
 versio 1.25 2022/04/26 15:00:32
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -78,17 +114,5 @@ Revision 1.20  2018/11/17 17:10:19  revo
 Michel Cantigneaux: barometr/o ne estas radiko de U.V., sed de 1a OA
 
 Revision 1.19  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.18  2015/06/29 16:29:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.17  2013/12/15 18:10:35  revo
-Joop Eggen: +trd bg
-
-Revision 1.16  2008/05/27 16:30:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2005/02/24 17:33:03  revo
 -->
 </vortaro>

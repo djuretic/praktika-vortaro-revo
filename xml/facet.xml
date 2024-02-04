@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: facet.xml,v 1.21 2022/03/18 13:01:59 revo Exp $">
+<art mrk="$Id: facet.xml,v 1.27 2024/01/21 13:00:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>facet</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="facet.0o">
@@ -12,16 +13,67 @@
   <snc mrk="facet.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Malgranda ebena surfaco:
+      Malgranda ebena <ref tip="super" cel="surfac.0o">surfaco</ref>:
       <ekz>
-        <tld/>o de brilianto, de kristaloj, de prismo...
+        <tld/>o de brilianto, de kristaloj, de prismo;
+      </ekz>
+      <ekz>
+        la brilianto havas multajn <tld/>ojn: &ccirc;iu <tld/>o kontribuas al la blindiga
+        beleco de la &scirc;tono, &ccirc;iu <tld/>o ricevas sian nuancan belecon de la komuna
+        brilo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
       </ekz>
     </dif>
     <rim>
       <ctl><tld lit="F"/>o</ctl> la&ubreve;sence povas esti konsiderata
-      deriva&jcirc;o de <ctl>faco</ctl>, sed historie pli &gcirc;usta
+      deriva&jcirc;o de &leftquot;<ref cel="fac.0o">faco</ref>&rightquot;, sed historie pli &gcirc;usta
       estas la aserto, ke la dua estas malderiva&jcirc;o de la unua.
     </rim>
+  </snc>
+  <snc mrk="facet.0o.FIG">
+    <dif>
+      <ref tip="dif" cel="aspekt.0o.perspektivo">Aspekto<sncref/></ref>,
+      <ref cel="perspe.0o.FIG">perspektivo</ref>, <ref cel="flank.0o.faco">flanko</ref>
+      la&ubreve; kiu oni rigardas iun aferon:
+      <ekz>
+        la problemo havas multajn <tld/>ojn, kies komuna fono estas la malfacileco plene
+        ekregi kiun ajn nacian lingvon
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili, &ccirc;efe pro manko de tutecaj perspektivoj, insistas pri nur unu el la
+        multnombraj <tld/>oj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ke laboro estas la &ccirc;efa fonto de digno <klr>[&#8230;]</klr>, mi konsiderus tion plej
+        normala <tld/>o de la homa vivo
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Inter riskoj kaj timoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lian poetan <tld/>on li tamen apena&ubreve; montris &gcirc;is nun
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Antonio Val&eacute;n</aut>
+          <vrk><url ref="&Monato;/2005/008499.php"
+              >&Ccirc;u Ertl provizore stilekzercas?</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Aspekt</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_r;&c_a;&c_n;&c_mol;</trd>,
@@ -31,7 +83,7 @@
   <trd lng="cs">faceta</trd>
   <trdgrp lng="de">
     <trd>Facette</trd>,
-    <trd>Schliff</trd>
+    <trd>Schliff <klr>(Edelstein)</klr></trd>
   </trdgrp>
   <trd lng="en">facet</trd>
   <trd lng="es">faceta<klr tip="amb"> (de un brillante o
@@ -40,6 +92,12 @@
   <trdgrp lng="hu">
     <trd>lap<klr tip="ind"> (dr&aacute;gak&odblac;)</klr></trd>,
     <trd>faszetta</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#20999;&#12426;&#23376;&#38754;  <pr>&#12365;&#12426;&#12371;&#12362;&#12418;&#12390;</pr></trd>,
+    <trd>&#23567;&#38754;  <pr>&#12375;&#12423;&#12358;&#12417;&#12435;</pr></trd>,
+    <trd>&#23616;&#38754;  <pr>&#12365;&#12423;&#12367;&#12417;&#12435;</pr></trd>,
+    <trd>&#27096;&#30456;  <pr>&#12424;&#12358;&#12381;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="nl">facet<klr tip="ind"> (v.edelsteen)</klr></trd>
   <trdgrp lng="pl">
@@ -51,14 +109,21 @@
     <trd>&c_g;&c_r;&c_a;&c_n;&c_mol;</trd>,
     <trd>&c_f;&c_a;&c_s;&c_je;&c_t;</trd>
   </trdgrp>
-  <trd lng="sk">drobn&#xE1; pl&#xF4;&#x161;ka na oku hmyzu</trd>
+  <trd lng="sk">drobn&aacute; pl&ocirc;&scaron;ka na oku hmyzu</trd>
   <trdgrp lng="uk">
-    <trd>&#x433;&#x440;&#x430;&#x43D;&#x44C;</trd>,
-    <trd>&#x444;&#x430;&#x441;&#x43A;&#x430;</trd>,
-    <trd>&#x444;&#x430;&#x441;&#x435;&#x442;</trd>,
-    <trd>&#x444;&#x430;&#x441;&#x435;&#x442;&#x43A;&#x430;</trd>,
-    <trd>&#x43F;&#x440;&#x43E;&#x441;&#x442;&#x435; &#x432;&#x456;&#x447;&#x43A;&#x43E;</trd>,
-    <trd>&#x447;&#x430;&#x441;&#x442;&#x438;&#x43D;&#x430; &#x441;&#x43A;&#x43B;&#x430;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x43A;&#x430; &#x43A;&#x43E;&#x43C;&#x430;&#x445;&#x438;</trd>
+    <trd>&c_g;&c_r;&c_a;&c_n;&c_mol;</trd>,
+    <trd>&c_f;&c_a;&c_s;&c_k;&c_a;</trd>,
+    <trd>&c_f;&c_a;&c_s;&c_je;&c_t;</trd>,
+    <trd>&c_f;&c_a;&c_s;&c_je;&c_t;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_je; &c_v;&c_ib;&c_ch;&c_k;&c_o;</trd>,
+    <trd>&c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a; &c_s;&c_k;&c_l;&c_a;&c_d;&c_n;&c_o;&c_g;&c_o; &c_o;&c_k;&c_a;
+    &c_k;&c_o;&c_m;&c_a;&c_h;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21051;&#38754; <pr>k&egrave;mi&agrave;n</pr></trd>,
+    <trd>&#23567;&#24179;&#38754; <pr>xi&#462;op&iacute;ngmi&agrave;n</pr></trd>,
+    <trd>&#27927;&#28860; <pr>x&#464;li&agrave;n</pr></trd>,
+    <trd>&#30952;&#23633; <pr>m&oacute;xi&egrave;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -69,13 +134,24 @@
     <dif>
       Fari <tld/>ojn sur:
       <ekz>
-        <tld/>i diamantojn.
+        ili <tld/>is kaj <ref cel="polur.0i.KOMUNE">poluri</ref>s multekostajn &scirc;tonojn de diversa grandeco
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_n;&c_ib;&c_c;&c_mol;</trd>
   <trd lng="ca">facetar</trd>
-  <trd lng="cs">brousit plo&#x161;ky <klr>(na drah&#xE9;m kameni| sklu| diamantu)</klr></trd>
-  <trd lng="de">schleifen</trd>
+  <trd lng="cs">brousit plo&scaron;ky <klr>(na drah&eacute;m kameni| sklu| diamantu)</klr></trd>
+  <trdgrp lng="de">
+    <trd>schleifen <klr>(Edelstein)</klr></trd>,
+    <trd>facettieren</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>facet</trd>,
+    <trd>cut a facet into<klr> (e.g. a gemstone)</klr></trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>hacer facetas</trd>,
     <trd>tallar<klr tip="amb"> (una joya)</klr></trd>
@@ -88,13 +164,14 @@
     <trd>csiszol<klr tip="ind"> (dr&aacute;gak&odblac;vet)</klr></trd>,
     <trd>metsz<klr tip="ind"> (dr&aacute;gak&odblac;vet)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#20999;&#12426;&#23376;&#38754;&#12434;&#21051;&#12416;  <pr>&#12365;&#12426;&#12371;&#12362;&#12418;&#12390;&#12434;&#12365;&#12374;&#12416;</pr></trd>
   <trd lng="nl">slijpen<klr tip="ind"> (v.diamant)</klr></trd>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>br&#xFA;si&#x165; <klr>(sklo, diamant)</klr></trd>,
-    <trd>br&#xFA;si&#x165; <klr>(sklo| diamant)</klr></trd>
+    <trd>br&uacute;si&tcaron; <klr>(sklo, diamant)</klr></trd>,
+    <trd>br&uacute;si&tcaron; <klr>(sklo| diamant)</klr></trd>
   </trdgrp>
-  <trd lng="uk">&#x433;&#x440;&#x430;&#x43D;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
 </drv>
 
 <drv mrk="facet.mult0a">
@@ -110,22 +187,78 @@
         <vrk>Reagoj</vrk>,
         <lok><url ref="http://www.eventoj.hu/arkivo/eve-041.htm">Eventoj,
         1993-09, numero 41a</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mult<tld/>a albumo, farita de bonaj muzikistoj
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>Kim J. Henriksen - Amplifiki denove kune!</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> formas la vastan organizan kadron, en kiu kaj tra kiu estas
+        realigata la mult<tld/>a agado
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="direkt.divers0a">diversdirekta</ref>,
+      <ref cel="ricx.0a.abunda">ri&ccirc;a<sncref/></ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_n;&c_a;&c_g;&c_a;&c_g;&c_r;&c_a;&c_n;&c_n;&c_y;</trd>,
+    <trd>&c_m;&c_n;&c_a;&c_g;&c_a;&c_g;&c_r;&c_a;&c_n;&c_je;&c_v;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>polifac&egrave;tic</trd>,
     <trd>divers</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>vielseitig</trd>,
+    <trd>vielf&auml;ltig</trd>,
+    <trd>facettenreich</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>multifaceted</trd>,
+    <trd>versatile</trd>,
+    <trd>variegated</trd>,
+    <trd>diverse</trd>,
+    <trd>manifold</trd>,
+    <trd>multifarious</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>divers<klr> (vari&eacute;)</klr></trd>,
     <trd>multiple et vari&eacute;</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#22810;&#24425;&#12394;  <pr>&#12383;&#12373;&#12356;&#12394;</pr></trd>,
+    <trd>&#22810;&#27096;&#12394;  <pr>&#12383;&#12424;&#12358;&#12394;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#22810;&#26041;&#20301; <pr>du&omacron;f&amacron;ngw&egrave;i</pr></trd>,
+    <trd>&#33457;&#21736; <pr>hu&amacron;shao</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2024/01/21 13:00:11
+Wolfram Diestel: +ekz-oj; +snc FIG
+
+versio 1.25 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
+versio 1.23 2023/05/21 12:38:50
+Christian Siefkes: +trd de, en
+
+versio 1.22 2023/05/16 12:48:46
+Dmitri Gabinski: + trd be
+
 Revision 1.19  2015/06/29 16:39:29  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -136,23 +269,5 @@ Revision 1.17  2012/08/29 16:10:12  revo
 Marc Rausell: + trd ca
 
 Revision 1.16  2010/06/17 16:30:34  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.15  2010/04/09 16:31:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.14  2006/05/01 18:12:09  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2006/04/17 16:34:03  revo
-Jeromo Vasxe: + mult~a
-
-Revision 1.12 2004/07/25 21:01:15 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2003/09/17 16:31:27 revo
-Yury Finkel: kor mrk
-
-Revision 1.10 2003/09/12 16:32:07 revo
 -->
 </vortaro>

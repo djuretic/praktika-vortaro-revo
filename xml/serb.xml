@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: serb.xml,v 1.16 2022/08/05 10:33:41 revo Exp $">
+<art mrk="$Id: serb.xml,v 1.22 2023/10/21 06:31:44 revo Exp $">
 <kap>
   <rad>serb</rad>/o
   <fnt><bib>FK</bib></fnt>
@@ -32,19 +32,19 @@
         diverseco kaj kuna
         vivo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Paul Gubbins</aut>
-          <vrk><url ref="&Steloj;monato2/006811.html">Reago:
-          Nekredeblaj malveroj</url></vrk>
+	<aut>Zlatko Ti&scaron;ljar</aut>
+	<vrk><url ref="&Monato;/2000/006811.php">Nekredeblaj malveroj</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/03, p. 12-13</lok>
         </fnt>;
       </ekz>
       <ekz>
         la <tld/>okroata lingvo
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/006815.html">Opinio:
-          &Ccirc;u nova &scirc;anco por malfortaj lingvoj?</url></vrk>
+	<aut>Garbhan MacAoidh</aut>
+	<vrk><url ref="&Monato;/2000/006815.php">&Ccirc;u nova &scirc;anco por malfortaj lingvoj?</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/03, p. 23</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -54,7 +54,9 @@
   <trd lng="de">Serbe</trd>
   <trd lng="en">Serbian</trd>
   <trd lng="fr">Serbe<klr> (subst.)</klr></trd>
+  <trd lng="ja">&#x30BB;&#x30EB;&#x30D3;&#x30A2;&#x4EBA;  <pr>&#x30BB;&#x30EB;&#x30D3;&#x30A2;&#x3058;&#x3093;</pr></trd>
   <trd lng="nl">Servi&euml;r</trd>
+  <trd lng="pl">Serb</trd>
   <trd lng="pt">s&eacute;rvio <klr tip="ind"> (subst.)</klr></trd>
   <trd lng="sk">Srb</trd>
   <trd lng="uk">&c_s;&c_je;&c_r;&c_b;</trd>
@@ -68,9 +70,10 @@
       <ekz>
         <tld/>aj terora&jcirc;oj en Kosovo
         <fnt>
+       <aut>Douglas Draper</aut>
+          <vrk><url ref="&Monato;/2000/006834.php">Ne&ubreve;trala</url></vrk>
           <bib>Monato</bib>
-          <aut>Douglas Draper</aut>
-          <vrk><url ref="&Steloj;monato2/006834.html">Ne&ubreve;trala</url></vrk>
+          <lok>2000/03, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -80,10 +83,10 @@
         kaj traktataj
         kiel apartaj lingvoj
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/006815.html">Opinio:
-          &Ccirc;u nova &scirc;anco por malfortaj lingvoj?</url></vrk>
+	<aut>Garbhan MacAoidh</aut>
+	<vrk><url ref="&Monato;/2000/006815.php">&Ccirc;u nova &scirc;anco por malfortaj lingvoj?</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/03, p. 23</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -94,6 +97,7 @@
   <trd lng="en">Serbian</trd>
   <trd lng="fr">serbe<klr> (adj.)</klr></trd>
   <trd lng="nl">Servisch</trd>
+  <trd lng="pl">serbski</trd>
   <trd lng="pt">s&eacute;rvio <klr tip="ind"> (adj.)</klr></trd>
   <trd lng="sk">srbsk&yacute;</trd>
   <trd lng="uk">&c_s;&c_je;&c_r;&c_b;&c_s;&#x44C;&#x43A;&c_i;&c_j;</trd>
@@ -153,11 +157,25 @@
     </trdgrp>
     <trd lng="pt">S&eacute;rvia</trd>
 </drv>
-
 </art>
 
 <!--
 $Log$
+versio 1.22 2023/10/21 06:31:44
+revo: transskribo per <pr>
+
+versio 1.20 2023/08/08 21:24:56
+Vito Redsky: +trd pl 
+
+versio 1.19 2023/04/24 14:28:30
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.18 2023/04/24 10:31:45
+Paul Peeraerts: @Sxteloj -> @Monato
+
+versio 1.17 2023/04/23 18:29:38
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.16 2022/08/05 10:33:41
 Dmitri Gabinski: + trd be
 
@@ -165,20 +183,5 @@ versio 1.15 2022/05/05 05:09:56
 aktualigo lingvokodoj kaj URL-unuoj
 
 Revision 1.12  2018/12/12 17:10:19  revo
-Wolfram Diestel: +ekz-oj, germ. trd-oj
-
-Revision 1.11  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.10  2015/06/29 16:33:23  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.9  2014/06/14 03:10:28  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.8  2014/04/15 10:10:17  revo
-Damien Brucker: +trd fr
-
-Revision 1.7  2011/02/16 17:10:11  revo
 -->
 </vortaro>

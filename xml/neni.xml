@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: neni.xml,v 1.113 2022/05/01 16:20:54 revo Exp $">
+<art mrk="$Id: neni.xml,v 1.118 2024/01/29 15:21:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>neni</rad>/o
@@ -204,7 +204,15 @@
     <trd lng="en">nothing</trd>
     <trd lng="hu">semmis&eacute;g</trd>
     <trd lng="nl">waardeloos ding</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x65E0;&#x7269; <pr>w&#xFA;w&#xF9;</pr></trd>,
+    <trd>&#x7121;&#x7269; <pr>w&#xFA;w&#xF9;</pr></trd>,
+    <trd>&#x8511; <pr>mi&#xE8;</pr></trd>,
+    <trd>&#x58C1;&#x7ACB; <pr>b&#xEC;l&#xEC;</pr></trd>,
+    <trd>&#x6C92;&#x6709;&#x751A;&#x9EBC; <pr>m&#xE9;iy&#x1D2;ush&#xE9;nme</pr></trd>,
+    <trd>&#x6CA1;&#x6709;&#x4EC0;&#x4E48; <pr>m&#xE9;iy&#x1D2;ush&#xE9;nme</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="af">niks</trd>
   <trd lng="am">&#x1218;&#x1290;&#x121D;</trd>
   <trd lng="ar">&a_l;&a_A; &a_sh;&a_y;&a_hamza;</trd>
@@ -233,7 +241,7 @@
   <trd lng="hy">&#x578;&#x579;&#x56B;&#x576;&#x579;</trd>
   <trd lng="ig">ihe</trd>
   <trd lng="is">ekkert</trd>
-  <trd lng="ja">&#x4F55;&#x3082;</trd>
+  <trd lng="ja">&#x4F55;&#x3082; <pr>&#x306A;&#x306B;&#x3082;</pr></trd>
   <trd lng="jv">boten</trd>
   <trd lng="ka">&#x10D0;&#x10E0;&#x10D0;&#x10E4;&#x10D4;&#x10E0;&#x10D8;</trd>
   <trd lng="kk">&c_je;&c_sh;&c_t;&c_je;&#x4A3;&c_je;</trd>
@@ -334,17 +342,29 @@
     <trd>nullit&eacute;</trd>
   </trdgrp>
   <trd lng="hu">semmiss&eacute;g</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7121;  <pr>&#x3076;</pr></trd>,
+    <trd>&#x7A7A;&#x865A;  <pr>&#x304F;&#x3046;&#x304D;&#x3087;</pr></trd>
+  </trdgrp>
   <trd lng="nl">nietigheid</trd>
   <trdgrp lng="pl">
     <trd>nico&sacute;&cacute;</trd>,
     <trd>pr&oacute;&zdot;no&sacute;&cacute;</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
     <trd>ni&ccaron;ota</trd>,
     <trd>ni&ccaron;otnos&tcaron;</trd>
   </trdgrp>
-  <trd lng="uk">&#x43D;&#x435;&#x431;&#x443;&#x442;&#x442;&#x44F;</trd>
+  <trd lng="uk">&#x43D;&c_je;&c_b;&c_u;&c_t;&c_t;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x65E0;&#x76CA; <pr>w&#xFA;y&#xEC;</pr></trd>,
+    <trd>&#x7121;&#x76CA; <pr>w&#xFA;y&#xEC;</pr></trd>,
+    <trd>&#x865A;&#x65E0; <pr>x&#x16B;w&#xFA;</pr></trd>,
+    <trd>&#x865B;&#x7121; <pr>x&#x16B;w&#xFA;</pr></trd>,
+    <trd>&#x7410;&#x4E8B; <pr>su&#x1D2;sh&#xEC;</pr></trd>,
+    <trd>&#x7463;&#x4E8B; <pr>su&#x1D2;sh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="neni.0igi">
@@ -389,7 +409,7 @@
       </ekz>
     </dif>
      <trd lng="de">vernichten</trd>
-    <trd lng="en">to annihilate</trd>
+    <trd lng="en">annihilate</trd>
   </snc>
   <snc mrk="neni.0igi.senefikigi">
     <dif>
@@ -419,7 +439,7 @@
         <fnt>
           <bib>Ifigenio</bib>
         </fnt>.
-      </ekz> 
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="fum.0o">fumo</ref>,
@@ -428,7 +448,7 @@
     </refgrp>
     <trd lng="de">entwerten</trd>
     <trdgrp lng="en">
-      <trd>to annul</trd>,
+      <trd>annul</trd>,
       <trd>invalidate</trd>, <trd>void</trd>
     </trdgrp>
   </snc>
@@ -452,6 +472,7 @@
     <trd>annihiler</trd>
   </trdgrp>
   <trd lng="hu">megsemmis&iacute;t</trd>
+  <trd lng="ja">&#x7121;&#x306B;&#x3059;&#x308B;  <pr>&#x3080;&#x306B;&#x3059;&#x308B;</pr></trd>
   <trd lng="nl">vernietigen</trd>
   <trdgrp lng="pl">
     <trd>anihilowa&cacute;</trd>,
@@ -479,15 +500,39 @@
     <trd>zni&ccaron;it</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x438;&#x449;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x43D;&#x438;&#x449;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x443;&#x439;&#x43D;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x443;&#x431;&#x438;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43D;&c_i;&c_shch;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_z;&#x43D;&c_i;&c_shch;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_r;&c_u;&c_j;&#x43D;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_u;&c_b;&c_i;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6EC5;&#x7D55; <pr>mi&#xE8;ju&#xE9;</pr></trd>,
+    <trd>&#x706D;&#x7EDD; <pr>mi&#xE8;ju&#xE9;</pr></trd>,
+    <trd>&#x6B7C; <pr>ji&#x101;n</pr></trd>,
+    <trd>&#x6BB2; <pr>ji&#x101;n</pr></trd>,
+    <trd>&#x89E3;&#x9664; <pr>ji&#x11B;ch&#xFA;</pr></trd>,
+    <trd>&#x53D6;&#x6D88; <pr>q&#x1D4;xi&#x101;o</pr></trd>,
+    <trd>&#x6B7C;&#x706D; <pr>ji&#x101;nmi&#xE8;</pr></trd>,
+    <trd>&#x6BB2;&#x6EC5; <pr>ji&#x101;nmi&#xE8;</pr></trd>,
+    <trd>&#x6BC0;&#x6EC5; <pr>hu&#x1D0;mi&#xE8;</pr></trd>,
+    <trd>&#x6BC1;&#x706D; <pr>hu&#x1D0;mi&#xE8;</pr></trd>,
+    <trd>&#x6EC5;&#x4EA1; <pr>mi&#xE8;w&#xE1;ng</pr></trd>,
+    <trd>&#x706D;&#x4EA1; <pr>mi&#xE8;w&#xE1;ng</pr></trd>,
+    <trd>&#x89E3;&#x6563; <pr>ji&#x11B;s&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.117 2023/10/19 20:12:37
+revo: transskribo per <pr>
+
+versio 1.115 2023/08/29 12:44:35
+Wolfram Diestel: ja: +prononco
+
+versio 1.114 2023/07/24 01:49:53
+Mahaer Mahmud: redaktis anglajn tradukojn
+
 versio 1.113 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -501,14 +546,5 @@ Revision 1.34  2020/03/28 11:10:17  revo
 Wolfram Diestel: ~o, ~eco: ekz-oj
 
 Revision 1.33  2017/11/04 20:10:15  revo
-Vito Redsky: +trd ro +trd pl
-
-Revision 1.32  2015/10/15 12:10:21  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.31  2015/07/04 08:37:40  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.30  2015/06/29 16:33:21  revo
 -->
 </vortaro>

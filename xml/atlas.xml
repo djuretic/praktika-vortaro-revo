@@ -1,66 +1,84 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: atlas.xml,v 1.41 2022/03/12 15:33:56 revo Exp $">
+<art mrk="$Id: atlas.xml,v 1.48 2023/10/28 08:33:10 revo Exp $">
 <kap>
-  <ofc>2</ofc> <ofc>8</ofc>
+  <ofc>8</ofc>
   <rad>atlas</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="atlas.0o">
   <kap><tld/>o</kap>
-  <snc mrk="atlas.0o.TEKS">
-    <uzo tip="fak">TEKS</uzo>
+  <snc mrk="atlas.0o.maparo">
+    <uzo tip="fak">TIP</uzo>
     <dif>
-      Luksa, dol&ccirc;e mola, brila kaj glata &scirc;tofo, silka
-      <ref tip="super" cel="saten.0o.cxia">sateno</ref>:
+      Libroforma kolekto de mapoj, desegna&jcirc;oj, bildoj, fotoj ktp. 
+      pri aparta temo; <ref tip="dif" cel="map.0aro">Maparo</ref>: 
       <ekz>
-        ho! mi metus sur &scirc;in vestojn el <tld/>o, veluro, oro...
-        <fnt><bib>Marta</bib></fnt>;
-      </ekz><ekz>
-        da puntoj, rubandoj, tuloj, gazoj, ka&scirc;miroj, <tld/>oj
-        multe estis en la &scirc;rankoj kaj komodoj, plenigantaj
-        kelke da &ccirc;ambroj de la vasta kaj bele aran&gcirc;ita
-        somerdomo de sinjorino Evelino
+        geografia, historia, anatomia, moda <tld/>o;
+      </ekz>
+      <ekz>
+        malmultaj <tld/>oj mencias Seborgon
         <fnt>
-          <aut>E. Orzeszko, trad. Kabe</aut>,
-          <vrk>La bona sinjorino</vrk>
+       <aut>Thomas Eccardt</aut>
+          <vrk><url ref="&Monato;/2000/006859.php">Urbeto a&ubreve; sendependa lando?</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000/05, p. 8</lok>
         </fnt>;
-      </ekz><ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>a ha&ubreve;to.
+      </ekz>
+      <ekz>
+        Medicina Bildaro Fotogra&jcirc;a: <tld lit="A"/>o pri Elefantiazo kaj Filariazo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Po&scirc;-<tld/>o de Monda Turismo
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#x2116;2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;La historia atlaso de Esperantio&rightquot;
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#x2116; 5 (103)</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="be">
-      <trd>&c_a;&c_t;&c_l;&c_a;&c_s; <klr tip="amb">(&c_t;&c_k;&c_a;&c_n;&c_ib;&c_n;&c_a;)</klr></trd>,
-      <trd>&c_s;&c_a;&c_c;&c_ib;&c_n;</trd>
-    </trdgrp>
+    <refgrp tip="vid">
+      <ref cel="album.0o">albumo</ref>,
+      <ref cel="libr.bildo0o">bildolibro</ref>,
+      <ref cel="vort.bild0aro.LIN">bildvortaro</ref>
+    </refgrp>
+    <trd lng="be">&c_a;&c_t;&c_l;&c_ja;&c_s; <klr tip="amb">(&c_z;&c_b;&c_o;&c_r;&c_n;&c_ib;&c_k; &c_m;&c_a;&c_p;&c_a;&c_w;)</klr></trd>
     <trdgrp lng="de">
-      <trd>Satin</trd>,
-      <trd>Atlasseide</trd>
+      <trd><ofc>8</ofc>Atlas</trd>,
+      <trd><ofc>8</ofc>Kartensammlung</trd>,
+      <trd>Kartenwerk</trd>
     </trdgrp>
-    <trd lng="en">satin</trd>
-    <trdgrp lng="fr">
-      <trd>satin</trd>,
-      <trd>atlas (tissu)</trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>atlasz (kelme)</trd>,
-      <trd>szat&eacute;n</trd>
-    </trdgrp>
-    <trd lng="it">satin</trd>
-    <trdgrp lng="nl">
-      <trd>atlas</trd>,
-      <trd>satijn</trd>
-    </trdgrp>
-    <trd lng="pl">at&lstroke;as</trd>
-    <trd lng="pt">cetim</trd>
-    <trd lng="ru">&c_a;&c_t;&c_l;&c_a;&c_s;<klr tip="amb"> [&c_a;&c_t;&c_l;&aacute;&c_s;]</klr></trd>
-    <trdgrp lng="sv">
-      <trd>sat&auml;ng</trd>,
-      <trd>satin</trd>
-    </trdgrp>
-  </snc>
+    <trd lng="en"><ofc>8</ofc>atlas</trd>
+    <trd lng="es"><ofc>8</ofc>atlas</trd>
+    <trd lng="fr"><ofc>8</ofc>atlas</trd>
+    <trd lng="nl">atlas<klr tip="ind"> (kaarten)</klr></trd>
+    <trd lng="hu">(f&ouml;ldrajzi) <ind>atlasz</ind></trd>
+    <trd lng="it"><ofc>8</ofc>atlante<klr> (libro)</klr></trd>
+    <trd lng="pl">atlas</trd>
+    <trd lng="pt"><ofc>8</ofc>atlas</trd>
+    <trd lng="ru">&c_a;&c_t;&c_l;&c_a;&c_s;<klr tip="amb"> [&aacute;&c_t;&c_l;&c_a;&c_s;]</klr></trd>
+    <trd lng="sk">atlas</trd>
+    <trd lng="sv">atlas</trd>
+    <trdgrp lng="zh">
+    <trd>&#x5730;&#x56FE;&#x518C; <pr>d&#xEC;t&#xFA;c&#xE8;</pr></trd>,
+    <trd>&#x5730;&#x5716;&#x518C; <pr>d&#xEC;t&#xFA;c&#xE8;</pr></trd>,
+    <trd>&#x5927;&#x5730;&#x56FE; <pr>d&#xE0;d&#xEC;t&#xFA;</pr></trd>,
+    <trd>&#x5927;&#x5730;&#x5716; <pr>d&#xE0;d&#xEC;t&#xFA;</pr></trd>,
+    <trd>&#x56FE;&#x8868;&#x96C6; <pr>t&#xFA;bi&#x1CE;oj&#xED;</pr></trd>,
+    <trd>&#x5716;&#x8868;&#x96C6; <pr>t&#xFA;bi&#x1CE;oj&#xED;</pr></trd>
+  </trdgrp>
+</snc>  
   <snc mrk="atlas.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
@@ -85,41 +103,21 @@
     <trd lng="pl">atlas</trd>
     <trd lng="ru">&c_a;&c_t;&c_l;&c_a;&c_n;&c_t;<klr tip="amb">
 (&c_p;&c_o;&c_z;&c_v;&c_o;&c_n;&c_o;&c_k;)</klr></trd>
-  </snc>      
-  <snc mrk="atlas.0o.maparo">
-    <ref tip="dif" cel="map.0aro">maparo</ref>
-    <refgrp tip="vid">
-      <ref cel="album.0o">albumo</ref>,
-      <ref cel="libr.bildo0o">bildolibro</ref>,
-      <ref cel="vort.bild0aro.LIN">bildvortaro</ref>
-    </refgrp>
-    <trd lng="be">&c_a;&c_t;&c_l;&c_ja;&c_s; <klr tip="amb">(&c_z;&c_b;&c_o;&c_r;&c_n;&c_ib;&c_k; &c_m;&c_a;&c_p;&c_a;&c_w;)</klr></trd>
-    <trdgrp lng="de">
-      <trd>Atlas</trd>,
-      <trd>Kartenwerk</trd>
-    </trdgrp>
-    <trd lng="en">atlas</trd>
-    <trd lng="es">atlas</trd>
-    <trd lng="fr">atlas</trd>
-    <trd lng="nl">atlas<klr tip="ind"> (kaarten)</klr></trd>
-    <trd lng="hu">(f&ouml;ldrajzi) <ind>atlasz</ind></trd>
-    <trd lng="it">atlante<klr> (libro)</klr></trd>
-    <trd lng="pl">atlas</trd>
-    <trd lng="pt">atlas</trd>
-    <trd lng="ru">&c_a;&c_t;&c_l;&c_a;&c_s;<klr tip="amb"> [&aacute;&c_t;&c_l;&c_a;&c_s;]</klr></trd>
-    <trd lng="sk">atlas</trd>
-    <trd lng="sv">atlas</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x9838;&#x90E8;&#x7B2C;&#x4E00;&#x690E;&#x9AA8; <pr>j&#x1D0;ngb&#xF9;d&#xEC;y&#x12B;zhu&#x12B;g&#x1D4;</pr></trd>,
+    <trd>&#x9888;&#x90E8;&#x7B2C;&#x4E00;&#x690E;&#x9AA8; <pr>j&#x1D0;ngb&#xF9;d&#xEC;y&#x12B;zhu&#x12B;g&#x1D4;</pr></trd>
+  </trdgrp>
+</snc>      
   <rim>
+    <fnt>OA8</fnt> notas sub  <em>Paralelaj formoj</em>:
+    &leftquot;Estas oficialigitaj sateno (ia &scirc;tofo) kaj atlaso (kolekto de kartoj, k.t.p.), malgra&ubreve; la jama
+    oficialeco de 
+    <ref tip="hom" cel="atlas1.0o">atlaso</ref> (= sateno).&rightquot;
     La senco tekstila venas el araba vorto (kiu signifas
-    <ctl>glata</ctl>); la ceteraj sencoj devenas el la mita
+    <ctl>glata</ctl>);  la ceteraj sencoj devenas el la mita
     (ekz-e la senco <ctl>maparo</ctl> estas &scirc;uldata al bildo de
     la titano subportanta la mondon, kiu ornamis iujn malnovajn
     maparojn).  Do, temas pri homonimoj.
-
-    La oficialeco n-ro 2 rilatas al la senco tekstila; kion
-    oficialigis la 8a Aldono, mi ne scias.
-    <aut>Sergio Pokrovskij</aut>
   </rim>
   <trdgrp lng="cs">
     <trd>atlas</trd>,
@@ -143,11 +141,18 @@
       en la nordokcidenta parto de
       <ref tip="prt" cel="afrik.A0o">Afriko</ref>:
       <ekz>
-        Oni venigadis <klr>&#x2026;</klr> leonojn el <tld lit="A"/>o
-       <fnt>
+        oni venigadis <klr>&#x2026;</klr> leonojn el <tld lit="A"/>o
+        <fnt>
          <aut>H. Sienkewicz, tr. Lidia Zamenhof</aut>:
          <vrk>Quo vadis</vrk>, <lok>&Ccirc;ap. 52&#xAA;</lok>
-       </fnt>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni persekutis en <tld lit="A"/>aj fa&ubreve;koj la panteron kaj la leonon
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_A;&c_t;&c_l;&c_a;&c_s; <klr tip="amb">(&c_g;&c_o;&c_r;&c_y;)</klr></trd>
@@ -163,7 +168,25 @@
   </snc>
   <snc mrk="atlas.A0o.titano">
     <uzo tip="fak">MIT</uzo>
-    <ref tip="dif" cel="atlant2.A0o">Atlanto</ref>
+    <dif>
+      <ref tip="dif" cel="atlant2.A0o">Atlanto</ref>:
+      <ekz>
+        la mondon portas sur la &scirc;ultroj ne <tld lit="A"/>o, sed virino, kaj iafoje ludas
+        per &gcirc;i, kiel per pilko
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komparante lin tre favore kun Herkuleso, Samsono kaj <tld lit="A"/>o, kiuj faris
+        siajn heroa&jcirc;ojn per la forto de la korpo
+        <fnt>
+          <bib>TAA</bib>
+          <lok>&Ccirc;apitro VII.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <trd lng="be">&c_A;&c_t;&c_l;&c_ja;&c_n;&c_t;</trd>
     <trd lng="de">Atlas</trd>
     <trd lng="fr">Atlas</trd>
@@ -178,7 +201,11 @@
     <trd>tabulek a vyobrazen&iacute; <klr>(anatomick&yacute;, historick&yacute;,
     m&oacute;dn&iacute;)</klr></trd>
   </trdgrp>
-  <trd lng="he">&#x5D0;&#x5B7;&#x5D8;&#x5B0;&#x5DC;&#x5B8;&#x5E1;</trd>
+  <trd lng="he">&alef;&#x5B7;&tet;&#x5B0;&lamed;&#x5B8;&samekh;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5730;&#x56F3;&#x5E33;  <pr>&#x3061;&#x305A;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x56F3;&#x8868;&#x96C6;  <pr>&#x305A;&#x3072;&#x3087;&#x3046;&#x3057;&#x3085;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>atlas</trd>,
     <trd>s&uacute;bor m&aacute;p</trd>,
@@ -186,14 +213,29 @@
     <trd>vyobrazen&iacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x442;&#x43B;&#x430;&#x441;</trd>,
-    <trd>&#x441;&#x430;&#x442;&#x438;&#x43D;</trd>
+    <trd>&c_a;&c_t;&c_l;&c_a;&c_s;</trd>,
+    <trd>&c_s;&c_a;&c_t;&c_i;&c_n;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.47 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.45 2023/04/24 16:34:34
+Paul Peeraerts: @Steloj -> @Monato
+
+versio 1.44 2023/03/08 07:24:55
+Wolfram Diestel: +ekz
+
+versio 1.43 2023/03/07 19:22:33
+Wolfram Diestel: pli &gcirc;enerala dif el OA8; +ekz-oj
+
+versio 1.42 2023/03/07 17:30:22
+Wolfram Diestel: apartigis ~o TEKS (OA2) al aparta artikolo; snc maparo (OA8) nun en unua loko
+
 versio 1.40 2021/08/05 07:27:09
 Sergio Pokrovskij: +ekz
 
@@ -201,19 +243,5 @@ versio 1.39 2021/05/24 11:02:18
 Wolfram Diestel: kor. ref-cel
 
 Revision 1.36  2017/03/29 15:10:14  revo
-Ludoviko Francisco: +trd fr
-
-Revision 1.35  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.34  2015/06/28 12:03:36  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.33  2013/11/21 02:10:26  revo
-Jeromo Vasxe: kor ref
-
-Revision 1.32  2013/08/23 11:10:14  revo
-Wolfram Diestel: referencoj al listo montaroj, apartigis majusklajn
-snc-ojn
 -->
 </vortaro>

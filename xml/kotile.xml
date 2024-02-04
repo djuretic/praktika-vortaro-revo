@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kotile.xml,v 1.20 2019/08/18 19:10:21 revo Exp $">
+<art mrk="$Id: kotile.xml,v 1.23 2023/12/03 09:58:59 revo Exp $">
 <kap>
   <rad>kotiledon</rad>/o
 </kap>
@@ -13,8 +13,7 @@
   <snc>
     <dif>
       Unua folio &ccirc;e la floroplantoj, formita jam en
-      la <ref tip="malprt"
-cel="grajn.sem0o">semgrajno</ref>;
+      la <ref tip="malprt" cel="grajn.sem0o">semgrajno</ref>;
       &gcirc;ermfolio:
       <ekz>
         la koniferoplantoj havas plurajn <tld/>ojn.
@@ -28,12 +27,20 @@ cel="grajn.sem0o">semgrajno</ref>;
   <trd lng="fa">&a_l;&f_p;&a_h;</trd>
   <trd lng="fr">cotyl&eacute;don</trd>
   <trd lng="hu">sziklev&eacute;l</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5B50;&#x8449;  <pr>&#x3057;&#x3088;&#x3046;</pr></trd>,
+    <trd>&#x80CE;&#x76E4;&#x8449;  <pr>&#x305F;&#x3044;&#x3070;&#x3093;&#x306F;</pr></trd>
+  </trdgrp>
   <trd lng="la">cotyledon</trd>
   <trd lng="pl">li&sacute;cie&nacute;</trd>
   <trd lng="pt">cotil&eacute;done</trd>
   <trd lng="ro">cotiledon</trd>
   <trd lng="ru">&c_s;&c_je;&c_m;&c_ja;&c_d;&c_o;&c_l;&c_ja;</trd>
   <trd lng="sv">hj&auml;rtblad</trd>
+  <trdgrp lng="zh">
+    <trd>&#x80DA;&#x5C42; <pr>p&#x113;ic&#xE9;ng</pr></trd>,
+    <trd>&#x5B50;&#x53F6; <pr>z&#x1D0;y&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kotile.unu0aj">
@@ -43,9 +50,7 @@ cel="grajn.sem0o">semgrajno</ref>;
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      <ref tip="lst" cel="grup.0o.BIO"
-      lst="voko:botanikaj_grupoj">Grupo</ref> de <ref tip="malprt"
-      cel="magnoli.0oj">magnolioj</ref>
+      <ref tip="lst" cel="grup.0o.BIO" lst="voko:botanikaj_grupoj">Grupo</ref> de <ref tip="malprt" cel="magnoli.0oj">magnolioj</ref>
       (<trd lng="la">Monocotelydoneae</trd>), havantaj
       nur unu <tld/>on.
     </dif>
@@ -65,6 +70,7 @@ cel="grajn.sem0o">semgrajno</ref>;
   <trd lng="ro">monocotiledonate</trd>
   <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_je;</trd>
   <trd lng="sv">enhj&auml;rtbladiga</trd>
+  <trd lng="zh">&#x5355;&#x5B50;&#x53F6;&#x690D;&#x7269;&#x7EB2; <pr>d&#x101;nziy&#xE8;zh&#xED;w&#xF9;g&#x101;ng</pr></trd>
 </drv>
 
 <drv mrk="kotile.du0aj">
@@ -74,8 +80,7 @@ cel="grajn.sem0o">semgrajno</ref>;
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Kontraste al unu<tld/>aj, du grupoj de <ref tip="malprt"
-      cel="magnoli.0oj">magnolioj</ref>, unusulkpolenaj
+      Kontraste al unu<tld/>aj, du grupoj de <ref tip="malprt" cel="magnoli.0oj">magnolioj</ref>, unusulkpolenaj
       (<trd lng="la">Magnoliopsida</trd>) kaj trisulkpolenaj
       (<trd lng="la">Rosopsida</trd>) havantaj
       du <tld/>ojn.
@@ -93,10 +98,18 @@ cel="grajn.sem0o">semgrajno</ref>;
   <trd lng="ro">dicotiledonate</trd>
   <trd lng="ru">&c_d;&c_v;&c_u;&c_d;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_je;</trd>
   <trd lng="sv">tv&aring;hj&auml;rtbladiga</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53CC;&#x5B50;&#x53F6; <pr>shu&#x101;ngz&#x1D0;y&#xE8;</pr></trd>,
+    <trd>&#x53CC;&#x5B50;&#x53F6;&#x690D;&#x7269; <pr>shu&#x101;ngz&#x1D0;y&#xE8;zh&#xED;w&#xF9;</pr></trd>,
+    <trd>&#x53CC;&#x5B50;&#x53F6;&#x690D;&#x7269;&#x7EB2; <pr>shu&#x101;ngz&#x1D0;y&#xE8;zh&#xED;w&#xF9;g&#x101;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
 Revision 1.19  2013/08/30 14:10:30  revo
 Wolfram Diestel: kore. kapvorton
 

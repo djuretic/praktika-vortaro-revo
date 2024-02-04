@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: masx.xml,v 1.21 2022/03/23 14:01:06 revo Exp $">
+<art mrk="$Id: masx.xml,v 1.25 2024/01/25 20:10:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ma&scirc;</rad>/o
@@ -108,6 +108,11 @@
   <trd lng="fr">maille</trd>
   <trd lng="hu">hurok</trd>
   <trd lng="es">nodo</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7DE8;&#x307F;&#x76EE;  <pr>&#x3042;&#x307F;&#x3081;</pr></trd>,
+    <trd>&#x76EE;  <pr>&#x3082;&#x304F;</pr></trd>,
+    <trd>&#x8179;  <pr>&#x306F;&#x3089;</pr></trd>
+  </trdgrp>
   <trd lng="nl">steek<klr tip="ind"> (v.weefsel)</klr></trd>
   <trdgrp lng="pl">
     <trd>oczko <klr>(w siatce)</klr></trd>
@@ -121,18 +126,22 @@
   </trdgrp>
   <trdgrp lng="ro">
     <trd>ochi</trd>
-    <trd>la&tcedil;</trd>
+    <trd>la&#x21B;</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_je;&c_t;&c_l;&c_ja;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x435;&#x442;&#x43B;&#x44F;</trd>,
-    <trd>&#x43A;&#x43B;&#x456;&#x442;&#x438;&#x43D;&#x43A;&#x430; (&#x43C;&#x435;&#x440;&#x435;&#x436;&#x438;&#x432;&#x430;</trd>,
-    <trd>&#x441;&#x456;&#x442;&#x43A;&#x438;)</trd>,
-    <trd>&#x43A;&#x456;&#x43B;&#x44C;&#x446;&#x435;</trd>,
-    <trd>&#x43A;&#x43E;&#x43B;&#x435;&#x447;&#x43A;&#x43E; (&#x43A;&#x43E;&#x43B;&#x44C;&#x447;&#x443;&#x433;&#x438;)</trd>,
-    <trd>&#x43B;&#x430;&#x43D;&#x43A;&#x430; (&#x43B;&#x430;&#x43D;&#x446;&#x44E;&#x433;&#x430;)</trd>,
-    <trd>&#x43B;&#x430;&#x441;&#x43E;</trd>,
-    <trd>&#x430;&#x440;&#x43A;&#x430;&#x43D;</trd>
+    <trd>&#x43F;&c_je;&c_t;&#x43B;&#x44F;</trd>,
+    <trd>&#x43A;&#x43B;&c_ib;&c_t;&c_i;&#x43D;&#x43A;&c_a; (&#x43C;&c_je;&c_r;&c_je;&c_zh;&c_i;&c_v;&c_a;</trd>,
+    <trd>&c_s;&c_ib;&c_t;&#x43A;&c_i;)</trd>,
+    <trd>&#x43A;&c_ib;&#x43B;&#x44C;&c_c;&c_je;</trd>,
+    <trd>&#x43A;&#x43E;&#x43B;&c_je;&c_ch;&#x43A;&#x43E; (&#x43A;&#x43E;&#x43B;&#x44C;&c_ch;&c_u;&c_g;&c_i;)</trd>,
+    <trd>&#x43B;&c_a;&#x43D;&#x43A;&c_a; (&#x43B;&c_a;&#x43D;&c_c;&#x44E;&c_g;&c_a;)</trd>,
+    <trd>&#x43B;&c_a;&c_s;&#x43E;</trd>,
+    <trd>&c_a;&c_r;&#x43A;&c_a;&#x43D;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7DB2;&#x773C; <pr>w&#x1CE;ngy&#x1CE;n</pr></trd>,
+    <trd>&#x7F51;&#x773C; <pr>w&#x1CE;ngy&#x1CE;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -167,11 +176,25 @@
   </trdgrp>
   <trd lng="fr">maillage</trd>
   <trd lng="hu">h&aacute;l&oacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7DB2;  <pr>&#x3082;&#x3046;</pr></trd>,
+    <trd>&#x30CD;&#x30C3;&#x30C8;&#x30EF;&#x30FC;&#x30AF;  <pr>&#x306D;&#x3063;&#x3068;&#x308F;&#x30FC;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">net</trd>
   <trd lng="pl">siatka <klr>(z oczek)</klr></trd>
   <trd lng="ro">plas&abreve;</trd>
   <trd lng="ru">&c_s;&c_je;&c_t;&c_mol;</trd>
-  <trd lng="uk">&#x43C;&#x435;&#x440;&#x435;&#x436;&#x430;</trd>
+  <trd lng="uk">&#x43C;&c_je;&c_r;&c_je;&c_zh;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7F57;&#x7F51; <pr>lu&#xF3;w&#x1CE;ng</pr></trd>,
+    <trd>&#x7F85;&#x7DB2; <pr>lu&#xF3;w&#x1CE;ng</pr></trd>,
+    <trd>&#x7DB2;&#x773C; <pr>w&#x1CE;ngy&#x1CE;n</pr></trd>,
+    <trd>&#x7F51;&#x773C; <pr>w&#x1CE;ngy&#x1CE;n</pr></trd>,
+    <trd>&#x4E92;&#x8054;&#x7F51;&#x7EDC; <pr>h&#xF9;li&#xE1;nw&#x1CE;nglu&#xF2;</pr></trd>,
+    <trd>&#x4E92;&#x806F;&#x7DB2;&#x7D61; <pr>h&#xF9;li&#xE1;nw&#x1CE;nglu&#xF2;</pr></trd>,
+    <trd>&#x5E7F;&#x64AD;&#x7F51; <pr>gu&#x1CE;ngb&#x14D;w&#x1CE;ng</pr></trd>,
+    <trd>&#x5EE3;&#x64AD;&#x7DB2; <pr>gu&#x1CE;ngb&#x14D;w&#x1CE;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="masx.dis0igi">
@@ -184,6 +207,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_r;&c_a;&c_s;&c_p;&c_u;&c_s;&c_k;&c_a;&c_c;&c_mol; <ind>&c_p;&c_je;&c_t;&c_l;&c_ib;</ind></trd>
   <trd lng="de">auftr&ouml;seln</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;mailler</trd>,
@@ -200,19 +224,27 @@
     <trd>felbont <klr tip="ind">(k&ouml;t&eacute;st)</klr></trd>,
     <trd>sz&eacute;tbont <klr tip="ind">(hurkot)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#x7DE8;&#x307F;&#x76EE;&#x3092;&#x307B;&#x3069;&#x304F;  <pr>&#x3042;&#x307F;&#x3081;&#x3092;&#x307B;&#x3069;&#x304F;</pr></trd>
   <trd lng="pl">oczka likwidowa&cacute;</trd>
   <trd lng="ro">&icirc;ndep&abreve;rta&#x21B;i ochiurile</trd>
   <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_mol;<klr tip="amb"> (&c_p;&c_je;&c_t;&c_l;&c_i;
   &c_ch;&c_je;&c_g;&c_o;-&c_l;.)</klr></trd>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x43E;&#x437;&#x434;&#x435;&#x440;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x43F;&#x43E;&#x440;&#x43E;&#x442;&#x438;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x456;&#x440;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x435;&#x442;&#x43B;&#x44E; (&#x43D;&#x430; &#x43F;&#x430;&#x43D;&#x447;&#x43E;&#x441;&#x456; &#x456; &#x442;.&#x43F;.)</trd>
+    <trd>&c_r;&#x43E;&c_z;&c_d;&c_je;&c_r;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&#x43F;&#x43E;&c_r;&#x43E;&c_t;&c_i;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_ib;&c_r;&c_v;&c_a;&c_t;&c_i; &#x43F;&c_je;&c_t;&#x43B;&#x44E; (&#x43D;&c_a; &#x43F;&c_a;&#x43D;&c_ch;&#x43E;&c_s;&c_ib; &c_ib;
+    &c_t;.&#x43F;.)</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/19 15:13:16
+revo: transskribo per <pr>
+
+versio 1.22 2023/06/28 12:54:08
+Dmitri Gabinski: + trd be
+
 versio 1.20 2020/12/16 22:10:32
 Vito Redsky: +trd pl +trd ro
 
@@ -229,10 +261,5 @@ Revision 1.15  2006/01/09 17:32:25  revo
 Jeromo Vasxe: - ~kiraso -> kiras.xml, ~o + fak teks + ekz, dis~igi + trd
 fr
 
-Revision 1.14 2005/07/07 16:33:10 revo
-Alan ar Gall: +trd br
-
-Revision 1.13 2005/05/04 16:31:52 revo
-Yury Finkel: +trd ru
 -->
 </vortaro>

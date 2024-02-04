@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: situ.xml,v 1.20 2022/05/05 05:09:57 revo Exp $">
+<art mrk="$Id: situ.xml,v 1.25 2023/11/23 15:27:45 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>situ</rad>/o <fnt><bib>PV</bib></fnt>
@@ -16,11 +16,11 @@
         la&ubreve; sia geografia <tld/>o <klr>[la provinco]</klr> estas konsiderata tropika
         regiono
         <fnt>
-          <bib>Monato</bib>
           <aut>Hose Marques</aut>
-          <vrk><url ref="&Steloj;monato2/007055.html">Argentino: Voja&gcirc;o al la
-          provinco Tukumano</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007055.php">Voja&gcirc;o al la provinco Tukumano</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/12, p. 22</lok>
+          </fnt>;
       </ekz>
       <ekz>
         pro specifaj <tld/>o kaj klimato tie formi&gcirc;is mirindaj vidinda&jcirc;oj, konsistantaj
@@ -79,7 +79,13 @@
     <trd>helyzet</trd>,
     <trd>fekv&eacute;s</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4F4D;&#x7F6E;  <pr>&#12356;&#12385;</pr></trd>,
+    <trd>&#22580;&#25152;  <pr>&#12400;&#12375;&#12423;</pr></trd>,
+    <trd>&#x7ACB;&#22320;  <pr>&#x308A;&#12387;&#12385;</pr></trd>
+  </trdgrp>
   <trd lng="nl">ligging</trd>
+  <trd lng="pl">po&lstroke;o&zdot;enie geograficzne</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>lokaliz&aacute;cia</trd>,
@@ -131,11 +137,24 @@
       <ref cel="trov.0igxi.ie">trovi&gcirc;i<sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_z;&c_mol;&c_m;&c_ja;&c_sh;&c_ch;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_n;&c_a;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_b;&c_y;&c_c;&c_mol; <klr>(&c_u; &c_p;&c_e;&c_w;&c_n;&c_y;&c_m; &c_m;&c_je;&c_s;&c_c;&c_y;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>liegen<klr> (geographisch)</klr></trd>,
     <trd>befinden (sich)<klr> (&ouml;rtlich)</klr></trd>
   </trdgrp>
   <trd lng="fr">&ecirc;tre situ&eacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4F4D;&#x7F6E;&#12377;&#x308B;  <pr>&#12356;&#12385;&#12377;&#x308B;</pr></trd>,
+    <trd>&#22580;&#25152;&#x306B;&#12354;&#x308B;  <pr>&#12400;&#12375;&#12423;&#x306B;&#12354;&#x308B;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>po&lstroke;o&zdot;onym by&cacute;</trd>,
+    <trd>znajdowa&cacute; si&eogonek;</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_b;&c_u;&c_t;&c_i; &c_r;&#x43E;&c_z;&c_t;&c_a;&c_sh;&#x43E;&c_v;&c_a;&#x43D;&c_i;&#x43C;</trd>,
     <trd>&#x43C;&c_ib;&c_s;&c_t;&c_i;&c_t;&c_i;&c_s;&#x44F;</trd>
@@ -144,6 +163,18 @@
 </art>
 <!--
 $Log$
+versio 1.25 2023/11/23 15:27:45
+Dmitri Gabinski: + trd be
+
+versio 1.24 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.22 2023/09/02 21:21:30
+Vito Redsky: +trd pl
+
+versio 1.21 2023/05/01 14:27:32
+Paul Peeraerts: Steloj -> monato
+
 versio 1.20 2022/05/05 05:09:57
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -154,17 +185,5 @@ versio 1.17 2021/09/14 06:33:09
 Wolfram Diestel: +ekz-oj, ref-oj
 
 Revision 1.15  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.14  2015/06/29 16:33:23  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.13  2015/03/12 10:10:17  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.12  2006/07/19 16:32:41  revo
-Jeromo Vasxe: + trd fr
-
-Revision 1.11 2004/10/13 16:33:20 revo
 -->
 </vortaro>

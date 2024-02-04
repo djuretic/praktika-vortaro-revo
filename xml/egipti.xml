@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: egipti.xml,v 1.10 2022/04/27 14:38:53 revo Exp $">
+<art mrk="$Id: egipti.xml,v 1.15 2023/11/07 19:22:22 revo Exp $">
 <kap>
   <rad>Egipti</rad>/o
   <fnt><bib>RLN</bib></fnt>
@@ -20,9 +20,11 @@
         de 1930 &gcirc;is 1960 <klr>[&#x2026;]</klr> revigli&gcirc;is la kultura vivo, &ccirc;efe en <tld/>o,
         post la longa turka okupado
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007063.html">Um Keltum'</url></vrk>
-        </fnt>;
+          <aut>Konrad Hinsen</aut>
+            <vrk><url ref="&Monato;/2000/007063.php">Um Keltum'</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 15</lok>
+          </fnt>;
       </ekz>
       <ekz>
         dum posta pli sukcesa intertraktado, <tld/>o ne repostulis Gazaon en 1979
@@ -35,18 +37,19 @@
       <ekz>
         en la 3a jarcento post Kristo la ermitoj iris en la dezerton, &ccirc;efe en <tld/>o
         <fnt>
-          <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/007113.html">Ser&ccirc;i la perditan paradizon</url></vrk>
-        </fnt>;
+            <vrk><url ref="&Monato;/2000/007113.php">Ser&ccirc;i la perditan paradizon</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 20</lok>
+          </fnt>;
       </ekz>
       <ekz>
         dum la eliro el <tld/>o Moseo demandas al Dio kion fari, &ccirc;ar la homoj grumblas
         pro manko de akvo
-        <fnt>
+        <fnt><aut>Bo Sandelin</aut>: 
+          <vrk><url ref="&Monato;/2001/007279.php">Anta&ubreve;merkantilisma ekonomia pensado</url></vrk>,
           <bib>Monato</bib>
-          <aut>Roland Rotsaert</aut>
-          <vrk><url ref="&Steloj;monato2/007279.html">Anta&ubreve;merkantilisma ekonomia pensado</url></vrk>
+          <lok>2001/02, p. 16</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -54,7 +57,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Nikolao Gudskov</aut>
-          <vrk><url ref="&Monato;/2003/007814.html">Malnova biblia epizodo en modernaj vestoj</url></vrk>
+          <vrk><url ref="&Monato;/2003/007814.html">Malnova biblia epizodo en modernaj
+          vestoj</url></vrk>
         </fnt>.
       </ekz>
     </dif>
@@ -65,16 +69,27 @@
   <trd lng="en">Egypt</trd>
   <trd lng="id">Mesir</trd>
   <trd lng="fr">Egypte</trd>
+  <trd lng="ja">&#x30A8;&#x30B8;&#x30D7;&#x30C8;  <pr>&#x3048;&#x3058;&#x3077;&#x3068;</pr></trd>
   <trdgrp lng="pl">
     <trd>Egipt</trd>
   </trdgrp>
-  <trd lng="uk">&#x404;&#x433;&#x438;&#x43F;&#x435;&#x442;</trd>
+  <trd lng="uk">&c_Jeu;&c_g;&c_i;&#x43F;&c_je;&c_t;</trd>
+  <trd lng="zh">&#x57C3;&#x53CA; <pr>&#x101;ij&#xED;</pr></trd>
 </drv>
 
 </art>
 
 <!--
 $Log$
+versio 1.14 2023/10/14 15:34:33
+revo: transskribo per <pr>
+
+versio 1.12 2023/04/30 06:30:49
+Paul Peeraerts: Steloj -> monato
+
+versio 1.11 2023/04/18 13:30:52
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.10 2022/04/27 14:38:53
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -88,14 +103,5 @@ Revision 1.5  2014/06/17 16:10:12  revo
 Damien Brucker: +ref
 
 Revision 1.4  2014/06/04 16:10:37  revo
-Eko Nur Syah Hidayat: +id
-
-Revision 1.3  2013/12/01 15:10:17  revo
-Damien Brucker: +trd fr
-
-Revision 1.2  2009/05/18 16:30:45  revo
-Wieland Pusch: +trd bg,de,en
-
-Revision 1.1  2009/05/17 16:30:49  revo
 -->
 </vortaro>

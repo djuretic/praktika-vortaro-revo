@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kvik.xml,v 1.8 2022/08/07 19:25:30 revo Exp $">
+<art mrk="$Id: kvik.xml,v 1.11 2023/12/03 09:59:05 revo Exp $">
 <kap>
   <rad>kvik</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,16 +10,37 @@
   <snc mrk="kvik.0i.ZOO">
     <dif>
       Eligi akutajn krietojn, <ref tip="super" cel="blek.0i.beste">bleki</ref> kiel iuj birdoj,
-      ratoj,
-      musteledoj:
+      ratoj, musteledoj:
       <ekz>
         la apikeco de l' deklivo <klr>...</klr> ne timigis &scirc;in, kvankam
-        la
-        aliaj sinjorinoj <tld/>is kaj fermis la okulojn
-        <fnt><bib>Mary</bib></fnt>.
+        la aliaj sinjorinoj <tld/>is kaj fermis la okulojn
+        <fnt><bib>Mary</bib></fnt>;
+      </ekz>
+      <ekz>
+        la birdkapa fantomo <tld/>is al ni
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deksesa &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        elinter iliaj grincantaj dentoj <tld/>is la frenezo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekkvara &Ccirc;apitro</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kricx.0i">kri&ccirc;i</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_v;&c_y;&c_r;&c_k;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_c;&c_ib;&c_w;&c_k;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_mol;&c_v;&c_je;&c_r;&c_g;&c_a;&c_t;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_c;&c_y;&c_r;&c_y;&c_k;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>cvrlikat</trd>,
     <trd>kvi&ccaron;et</trd>
@@ -27,20 +48,30 @@
   <trd lng="de">quieken</trd>
   <trd lng="fr">couiner</trd>
   <trd lng="nl">piepen</trd>
-  <trd lng="pl">kwicze&cacute;</trd> 
+  <trd lng="pl">kwicze&cacute;</trd>
   <trd lng="pt">piar</trd>
   <trd lng="ro">sc&acirc;nci</trd>
   <trd lng="sk">kvi&ccaron;a&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&c_c;&c_v;&c_ib;&c_r;&c_ib;&#x43D;&#x44C;&#x43A;&c_a;&c_t;&c_i;</trd>,
-    <trd>&#x43F;&c_i;&c_shch;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_c;&c_v;&c_ib;&c_r;&c_ib;&c_n;&c_mol;&c_k;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_p;&c_i;&c_shch;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_shch;&c_je;&c_b;&c_je;&c_t;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x53D1;&#x51FA;&#x5431;&#x5431;&#x53EB;&#x58F0; <pr>f&#x101;ch&#x16B;z&#x12B;z&#x12B;ji&#xE0;osh&#x113;ng</pr></trd>,
+    <trd>&#x767C;&#x51FA;&#x5431;&#x5431;&#x53EB;&#x8072; <pr>f&#x101;ch&#x16B;z&#x12B;z&#x12B;ji&#xE0;osh&#x113;ng</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.10 2023/07/07 08:34:35
+Dmitri Gabinski: + trd be
+
+versio 1.9 2023/03/01 18:32:52
+Wolfram Diestel: +ekz-oj, ref
+
 versio 1.8 2022/08/07 19:25:30
 Ulrich Fellmann: kviki: + 1 DE trd
 
@@ -57,6 +88,5 @@ Revision 1.2  2006/09/22 12:27:21  revo
 Tulio Flores: +tr pt
 
 Revision 1.1  2006/01/19 17:31:10  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

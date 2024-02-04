@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kon.xml,v 1.65 2022/09/24 15:33:07 revo Exp $">
+<art mrk="$Id: kon.xml,v 1.78 2023/12/03 09:58:57 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kon</rad>/i <fnt><bib>PV</bib></fnt>
@@ -58,9 +58,7 @@
         <fnt><bib>MT</bib> <lok>Sentencoj 27:23</lok> </fnt>;
       </ekz><ekz>
         mi <tld/>as lin proksime
-        <fnt><bib>Marta</bib></fnt>,
-      </ekz><ekz>
-        intime;
+        <fnt><bib>Marta</bib></fnt> <klr>(a&ubreve; intime)</klr>;
       </ekz><ekz>
         ek<tld/>i <klr>(sekse rilati kun)</klr> virinon
         <fnt><bib>NT</bib> <lok>Mateo 1:25</lok></fnt>
@@ -168,7 +166,7 @@
         <ref cel="sci.0i">scii</ref>,
         <ref cel="sci.povo0i0povi">scipovi</ref>
       </refgrp>.
-      En PIV2 &gcirc;i simple malestas sub <tld/>i &#8208; la&ubreve;
+      En PIV2 &gcirc;i simple malestas sub <tld/>i &#x2010; la&ubreve;
       mi, tute prave.
       <aut>Sergio Pokrovskij</aut>
     </rim>
@@ -216,13 +214,24 @@
   <trd lng="es">conocer</trd>
   <trd lng="fr">connaitre</trd>
   <trd lng="hu">ismer</trd>
+  <trdgrp lng="id">
+    <trd>kenal</trd>,
+    <trd><baz>kenal</baz>mengenal</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x3063;&#x3066;&#x3044;&#x308B;  <pr>&#x3057;&#x3063;&#x3066;&#x3044;&#x308B;</pr></trd>,
+    <trd>&#x77E5;&#x308A;&#x5408;&#x3044;&#x3067;&#x3042;&#x308B;  <pr>&#x3057;&#x308A;&#x3042;&#x3044;&#x3067;&#x3042;&#x308B;</pr></trd>,
+    <trd>&#x9762;&#x8B58;&#x304C;&#x3042;&#x308B;  <pr>&#x3081;&#x3093;&#x3057;&#x304D;&#x304C;&#x3042;&#x308B;</pr></trd>,
+    <trd>&#x7CBE;&#x901A;&#x3057;&#x3066;&#x3044;&#x308B;  <pr>&#x305B;&#x3044;&#x3064;&#x3046;&#x3057;&#x3066;&#x3044;&#x308B;</pr></trd>,
+    <trd>&#x7D4C;&#x9A13;&#x3059;&#x308B;  <pr>&#x3051;&#x3044;&#x3051;&#x3093;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kennen</trd>
   <trd lng="pl">zna&cacute;</trd>
   <trdgrp lng="pt">
     <trd>conhecer</trd>,
     <trd>saber</trd>
   </trdgrp>
-  <trd lng="ro">cunoa&scedil;te</trd>
+  <trd lng="ro">cunoa&#x219;te</trd>
   <trdgrp lng="ru">
     <trd>&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_b;&c_y;&c_t;&c_mol;
@@ -238,7 +247,7 @@
     <trd>pozn&aacute;vat</trd>,
     <trd>v&ecaron;d&ecaron;t</trd>
   </trdgrp>
-  <trd lng="zh">&#35748;&#35782;</trd>
+  <trd lng="zh">&#x8BA4;&#x8BC6;</trd>
 </drv>
 
 <drv mrk="kon.0ato">
@@ -249,7 +258,7 @@
       <ekz>
         li estas mia malnova <tld/>ato;
       </ekz><ekz>
-        ili <klr>[&#8230;]</klr> ser&ccirc;is lin inter siaj parencoj kaj <tld/>atoj
+        ili <klr>[&#x2026;]</klr> ser&ccirc;is lin inter siaj parencoj kaj <tld/>atoj
         <fnt>
           <bib>NT</bib>
           <lok>Luko 2:44</lok>
@@ -302,6 +311,11 @@
   <trd lng="es">conocido</trd>
   <trd lng="fr">connaissance<klr> (personne)</klr></trd>
   <trd lng="hu">ismer&odblac;s</trd>
+  <trd lng="id"><ind>kenal</ind>an</trd>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x4EBA;  <pr>&#x3061;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x77E5;&#x308A;&#x5408;&#x3044;  <pr>&#x3057;&#x308A;&#x3042;&#x3044;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>kennis</trd>,
     <trd>bekende</trd>
@@ -311,6 +325,14 @@
   <trd lng="ru">&c_z;&c_n;&c_a;&c_k;&c_o;&c_m;&c_y;&c_j;<klr>
   (&c_s;&c_u;&c_shch;.)</klr></trd>
   <trd lng="sk">zn&aacute;my &ccaron;lovek</trd>
+  <trdgrp lng="zh">
+    <trd>&#x719F;&#x4EBA; <pr>sh&#xFA;r&#xE9;n</pr></trd>,
+    <trd>&#x597D;&#x53CB; <pr>h&#x1CE;oy&#x1D2;u</pr></trd>,
+    <trd>&#x76F8;&#x8B58; <pr>xi&#x101;ngsh&#xED;</pr></trd>,
+    <trd>&#x53CB;&#x4EBA; <pr>y&#x1D2;ur&#xE9;n</pr></trd>,
+    <trd>&#x54E5;&#x4EEC; <pr>g&#x113;m&#xE9;n</pr></trd>,
+    <trd>&#x76F8;&#x719F; <pr>xi&#x101;ngsh&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.0ataro">
@@ -328,6 +350,10 @@
       </ekz>
     </dif>
     <trd lng="de">Bekanntschaft <klr>(Gruppe)</klr></trd>
+    <trdgrp lng="be">
+      <trd>&c_z;&c_n;&c_a;&c_jo;&c_m;&c_y;&c_ja; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>,
+      <trd>&c_k;&c_o;&c_l;&c_a; &c_z;&c_n;&c_a;&c_jo;&c_m;&c_y;&c_h;</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="es">
     <trd>red de <ind>relaciones</ind></trd>,
@@ -338,7 +364,9 @@
     <trd>cercle de <ind>relations</ind></trd>,
     <trd>r&eacute;seau social</trd>
   </trdgrp>
+  <trd lng="id"><ind>lingkar</ind>an sosial</trd>
   <trd lng="pl">kr&aogonek;g <klr>(znajomych)</klr></trd>
+  <trd lng="zh">&#x5708;&#x5B50; <pr>qu&#x101;nzi</pr></trd>
 </drv>
 
 <drv mrk="kon.0ateco">
@@ -401,11 +429,25 @@
     <trd>ismerts&eacute;g</trd>,
     <trd>ismerets&eacute;g</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>nama</ind> baik</trd>,
+    <trd>reputasi</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8457;&#x540D;  <pr>&#x3061;&#x3087;&#x3081;&#x3044;</pr></trd>,
+    <trd>&#x77E5;&#x540D;&#x5EA6;  <pr>&#x3061;&#x3081;&#x3044;&#x3069;</pr></trd>,
+    <trd>&#x77E5;&#x308A;&#x5408;&#x3044;  <pr>&#x3057;&#x308A;&#x3042;&#x3044;</pr></trd>,
+    <trd>&#x4EA4;&#x53CB;&#x95A2;&#x4FC2;  <pr>&#x3053;&#x3046;&#x3086;&#x3046;&#x304B;&#x3093;&#x3051;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kennis</trd>
-  <trd lng="pl">znajomo&sacute;&cacute;</trd>     
-  <trd lng="ro">cuno&scedil;tin&tcedil;e</trd>
+  <trd lng="pl">znajomo&sacute;&cacute;</trd>
+  <trd lng="ro">cuno&#x219;tin&#x21B;e</trd>
   <trd lng="ru">&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">zn&aacute;mos&tcaron;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4EA4;&#x5F80; <pr>ji&#x101;ow&#x1CE;ng</pr></trd>,
+    <trd>&#x76F8;&#x719F; <pr>xi&#x101;ngsh&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.0atigi">
@@ -424,7 +466,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Jesuo <klr>[&#8230;]</klr> admonis ilin, ke ili ne <tld/>atigu lin
+        Jesuo <klr>[&#x2026;]</klr> admonis ilin, ke ili ne <tld/>atigu lin
         <fnt>
           <bib>NT</bib>
           <lok>Mateo 12:16</lok>
@@ -456,19 +498,17 @@
       <ref cel="prezen1.0i.konatigi">prezenti<sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_n;&c_a;&c_jo;&c_m;&c_ib;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_e;&c_z;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd><ind>bekannt</ind> machen <klr>(vorstellen)</klr></trd>,
     <trd><klr>(jmd.) </klr>vorstellen</trd>
   </trdgrp>
+  <trd lng="id">memper<ind>kenal</ind>kan</trd>
+  <trd lng="zh">&#x77E5;&#x6653; <pr>zh&#x12B;xi&#x1CE;o</pr></trd>
 </drv>
-
-
-
-
-
-
-
-
 
 <drv mrk="kon.0atigxi">
   <kap><tld/>ati&gcirc;i</kap>
@@ -484,9 +524,18 @@
         </fnt>
       </ekz>
     </dif>
-    <trd lng="es"><ind>conocer</ind>se</trd>  
-    <trd lng="fr">se faire <ind>connaitre</ind></trd>  
-  </snc>
+    <trdgrp lng="de">
+      <trd>kennenlernen</trd>,
+      <trd>bekannt werden mit</trd>
+    </trdgrp>
+    <trd lng="es"><ind>conocer</ind>se</trd>
+    <trd lng="fr">se faire <ind>connaitre</ind></trd>
+    <trdgrp lng="zh">
+    <trd>&#x51FA;&#x7089; <pr>ch&#x16B;l&#xFA;</pr></trd>,
+    <trd>&#x8B00;&#x9762; <pr>m&#xF3;umi&#xE0;n</pr></trd>,
+    <trd>&#x4E86;&#x89E3; <pr>li&#x1CE;oji&#x11B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc>
     <dif>
       I&gcirc;i <tld/>anto de io:
@@ -517,22 +566,31 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>kennenlernen</trd>,
+      <trd>vertraut werden mit</trd>
+    </trdgrp>
     <trd lng="es">familiarizarse</trd>
     <trd lng="fr">prendre connaissance</trd>
+    <trd lng="id">ber<ind>kenal</ind>an</trd>
     <trdgrp lng="pl">
       <trd>da&cacute; si&eogonek; pozna&cacute;</trd>,
       <trd>zaznajomi&cacute; si&eogonek;</trd>
     </trdgrp>
-    <trd lng="ro">familiariza&#539;i-v&abreve;</trd>
+    <trd lng="ro">familiariza&#x21B;i-v&abreve;</trd>
   </snc>
-  <rim>
-  &Z; klarigis, ke <ctl>ni uzas ordinare la formon "<tld/>ati&gcirc;i"
-  (=fari&gcirc;i
-  <tld/>ato kun
-  iu), sed anka&ubreve; la formo "<tld/>i&gcirc;i" estas tute bona
-  (=fari sin <tld/>i
-  ion)</ctl><fnt><bib>LR</bib></fnt>.
-  </rim>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_n;&c_a;&c_jo;&c_m;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_a;&c_z;&c_n;&c_a;&c_jo;&c_m;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_jo;&c_m;&c_ib;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <adm>
+    &Z; klarigis, ke "ni uzas ordinare la formon '~ati&gcirc;i'
+    (=fari&gcirc;i ~ato kuniu), sed anka&ubreve; la formo '~i&gcirc;i' estas tute bona
+    (=fari sin ~i ion)" [LR].
+  </adm>
+  <trd lng="ja">&#x77E5;&#x308A;&#x5408;&#x3044;&#x306B;&#x306A;&#x308B;
+  <pr>&#x3057;&#x308A;&#x3042;&#x3044;&#x306B;&#x306A;&#x308B;</pr></trd>
 </drv>
 
 <drv mrk="kon.0igi">
@@ -578,7 +636,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        mi esperas, ke ci <klr>[&#8230;]</klr> al ni <tld/>igos la ka&ubreve;zon de tia skandalo
+        mi esperas, ke ci <klr>[&#x2026;]</klr> al ni <tld/>igos la ka&ubreve;zon de tia skandalo
         <fnt>
           <bib>ChL</bib>
           <lok>&Ccirc;apitro Dua</lok>
@@ -652,6 +710,11 @@
     <trd>ismertet</trd>,
     <trd>tudat</trd>
   </trdgrp>
+  <trd lng="id">memper<ind>kenal</ind>kan</trd>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x3089;&#x305B;&#x308B;  <pr>&#x3057;&#x3089;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x7D39;&#x4ECB;&#x3059;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x304B;&#x3044;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">doen <ind>kennen</ind></trd>
   <trdgrp lng="pl">
     <trd>ujawnia&cacute;</trd>,
@@ -671,10 +734,19 @@
     <trd>rozch&yacute;ri&tcaron;</trd>,
     <trd>rozhl&aacute;si&tcaron;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5F20;&#x626C; <pr>zh&#x101;ngy&#xE1;ng</pr></trd>,
+    <trd>&#x4F20;&#x8FBE; <pr>chu&#xE1;nd&#xE1;</pr></trd>,
+    <trd>&#x626C; <pr>y&#xE1;ng</pr></trd>,
+    <trd>&#x8F49;&#x544A; <pr>zhu&#x1CE;ng&#xE0;o</pr></trd>,
+    <trd>&#x77E5;&#x6653; <pr>zh&#x12B;xi&#x1CE;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.0igilo">
-  <kap><tld/>igilo<fnt><bib>PIV3</bib></fnt></kap>
+  <kap><tld/>igilo
+    <fnt><bib>PIV3</bib></fnt>
+  </kap>
   <snc mrk="kon.0igilo.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
@@ -689,6 +761,10 @@
       <ref cel="indeks.0o.TIP">indekso<sncref/></ref>,
       <ref cel="etiked.0o.KOMP">etikedo</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_l;&c_ju;&c_ch; <klr>(&c_u; &c_b;&c_a;&c_z;&c_a;&c_h; &c_d;&c_a;&c_n;&c_ib;&c_h;)</klr></trd>,
+      <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_a;&c_r; <klr>(&c_n;&c_a;&c_p;&c_r;. &c_z;&c_a;&c_p;&c_ib;&c_s;&c_u;)</klr></trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Kennung</trd>,
       <trd>Schl&uuml;ssel <klr>(Kennung)</klr></trd>,
@@ -699,7 +775,13 @@
       <trd>identificador</trd>
     </trdgrp>
     <trd lng="pl">klucz</trd>
-  </snc>
+    <trd lng="zh">&#x8B58;&#x5225;&#x4FE1;&#x865F; <pr>sh&#xED;bi&#xE9;x&#xEC;nh&#xE0;o</pr></trd>
+</snc>
+  <trd lng="id">ID</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30AD;&#x30FC;  <pr>&#x304D;&#x30FC;</pr></trd>,
+    <trd>&#x8B58;&#x5225;&#x5B50;  <pr>&#x3057;&#x304D;&#x3079;&#x3064;&#x3057;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.0igxi">
@@ -744,8 +826,14 @@
     <trd>megismerkedik</trd>,
     <trd>megismerszik</trd>
   </trdgrp>
+  <trd lng="id">di<ind>kenal</ind>i</trd>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x308C;&#x308B;  <pr>&#x3057;&#x308C;&#x308B;</pr></trd>,
+    <trd>&#x77E5;&#x3089;&#x308C;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308B;
+    <pr>&#x3057;&#x3089;&#x308C;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kenbaar zijn</trd>
-  <trd lng="pl">zapoznawa&cacute; si&eogonek;</trd>  
+  <trd lng="pl">zapoznawa&cacute; si&eogonek;</trd>
   <trd lng="ru">&c_s;&c_t;&c_a;&c_t;&c_mol; <ind>&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_m;</ind></trd>
 </drv>
 
@@ -798,13 +886,14 @@
     <trd>ismer&eacute;s</trd>
   </trdgrp>
   <trd lng="nl">kennis</trd>
-  <trd lng="pl">znajomo&sacute;&cacute;</trd>     
-  <trd lng="ro">cuno&scedil;tin&tcedil;e</trd>
+  <trd lng="pl">znajomo&sacute;&cacute;</trd>
+  <trd lng="ro">cuno&#x219;tin&#x21B;e</trd>
   <trd lng="ru">&c_z;&c_n;&c_a;&c_n;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>poznanie</trd>,
     <trd>vedenie</trd>
   </trdgrp>
+  <trd lng="zh">&#x77E5;&#x8B58; <pr>zh&#x12B;shi</pr></trd>
 </drv>
 
 <drv mrk="kon.dis0igi">
@@ -821,7 +910,7 @@
           <bib>VivZam</bib>
         </fnt>;
       </ekz><ekz>
-        iam vi revenos al la scienco <klr>[&#8230;]</klr> por pliperfektigi
+        iam vi revenos al la scienco <klr>[&#x2026;]</klr> por pliperfektigi
         kaj diskonigi miajn eltrovojn
         <fnt>
           <bib>Far3</bib>
@@ -841,6 +930,10 @@
     <refgrp tip="vid">
       <ref cel="propag.0i.KOMUNE">propagandi</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_n;&c_a;&c_p;&c_r;. &c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_k;&c_ib;)</klr></trd>,
+      <trd>&c_r;&c_a;&c_z;&c_g;&c_a;&c_l;&c_a;&c_sh;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="cs">
     <trd>rozhl&aacute;sit</trd>,
@@ -852,11 +945,28 @@
     <trd>anunciar</trd>
   </trdgrp>
   <trd lng="fr">diffuser<klr> (nouvelle, savoir...)</klr></trd>
-  <trd lng="pl">rozg&lstroke;asza&cacute;</trd>     
+  <trdgrp lng="id">
+    <trd><baz>sebar</baz>menyebarkan</trd>,
+    <trd>meng<ind>umum</ind>kan</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x308C;&#x308F;&#x305F;&#x3089;&#x305B;&#x308B;
+    <pr>&#x3057;&#x308C;&#x308F;&#x305F;&#x3089;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5468;&#x77E5;&#x3055;&#x305B;&#x308B;  <pr>&#x3057;&#x3085;&#x3046;&#x3061;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5E83;&#x3081;&#x308B;  <pr>&#x3072;&#x308D;&#x3081;&#x308B;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">rozg&lstroke;asza&cacute;</trd>
   <trd lng="ro">difuzare</trd>
   <trdgrp lng="sk">
     <trd>rozch&yacute;ri&tcaron;</trd>,
     <trd>rozhl&aacute;si&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4F1D; <pr>y&#xFA;n</pr></trd>,
+    <trd>&#x4F20;&#x64AD; <pr>chu&#xE1;nb&#x14D;</pr></trd>,
+    <trd>&#x5BA3;&#x4F20; <pr>xu&#x101;nchu&#xE1;n</pr></trd>,
+    <trd>&#x5E7F;&#x64AD; <pr>gu&#x1CE;ngb&#x14D;</pr></trd>,
+    <trd>&#x64AD; <pr>b&#x14D;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -876,6 +986,7 @@
         </fnt>
       </ekz>
     </dif>
+    <trd lng="be">&c_v;&c_a;&c_r;&c_t;&c_y; <ind>&c_r;&c_a;&c_s;&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_zh;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</ind> <klr>(&c_a;&c_b; &c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_k;&c_a;&c_h;, &c_v;&c_je;&c_d;&c_a;&c_h;)</klr></trd>
   </snc>
   <trd lng="es">divulgable</trd>
   <trd lng="fr">&agrave; diffuser</trd>
@@ -896,6 +1007,7 @@
         </fnt>
       </ekz>
     </dif>
+    <trd lng="be">&c_s;&c_r;&c_o;&c_d;&c_a;&c_k; <ind>&c_r;&c_a;&c_s;&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_zh;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</ind> <klr>(&c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_a;&c_k;)</klr></trd>
   </snc>
   <trd lng="es">recurso promocional</trd>
 </drv>
@@ -917,6 +1029,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_z;&c_mol;&c_n;&c_je;&c_s;&c_mol;&c_c;&c_ib;&c_s;&c_ja;</trd>,
+    <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_w;&c_s;&c_ju;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_c;&c_mol; <ind>&c_v;&c_ja;&c_d;&c_o;&c_m;&c_y;&c_m;</ind></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_s;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_s;&c_t;&c_a;&c_t;&c_mol; &c_sh;&c_i;&c_r;&c_o;&c_k;&c_o; <ind>&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_m;</ind></trd>
@@ -959,7 +1076,7 @@
       </ekz><ekz>
         agi sen ek<tld/>o <klr>(trafe maltrafe)</klr>.
       </ekz>
-    </dif>  
+    </dif>
     <trdgrp lng="be">
       <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>,
@@ -984,8 +1101,8 @@
       <trd>poznawa&cacute;</trd>
     </trdgrp>
     <trdgrp lng="ro">
-      <trd>pentru a cunoa&#537;te</trd>,
-      <trd>&scedil;ti</trd>
+      <trd>pentru a cunoa&#x219;te</trd>,
+      <trd>&#x219;ti</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
@@ -1016,6 +1133,12 @@
     </dif>
     <trd lng="de">erkennen <klr>(Bibel)</klr></trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x77E5;&#x308B;  <pr>&#x3057;&#x308B;</pr></trd>,
+    <trd>&#x8A8D;&#x8B58;&#x3059;&#x308B;  <pr>&#x306B;&#x3093;&#x3057;&#x304D;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x77E5;&#x308A;&#x5408;&#x3046;  <pr>&#x3057;&#x308A;&#x3042;&#x3046;</pr></trd>,
+    <trd>&#x8B58;&#x5225;&#x3059;&#x308B;  <pr>&#x3057;&#x304D;&#x3079;&#x3064;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.ek0teorio">
@@ -1027,7 +1150,7 @@
       kiu studas la eblon, kondi&ccirc;ojn kaj principojn de ekkono,
       precipe de la scienca ekkono:
       <ekz>
-        la homa kono &#8208; la&ubreve; Komenio &#8208; estas interagado de
+        la homa kono &#x2010; la&ubreve; Komenio &#x2010; estas interagado de
         spirita ena strukturo (<nac>ego cogitans</nac>) kaj de ties ideoj
         kun la realeca strukturo: tio estas certe la plej
         grava aserto ene de la komenia ek<tld/>teorio
@@ -1043,6 +1166,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_e;&c_o;&c_r;&c_y;&c_ja; <ind>&c_p;&c_a;&c_z;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_ja;</ind></trd>
   <trd lng="cs">teorie pozn&aacute;n&iacute;</trd>
   <trd lng="de">Erkentnistheorie</trd>
   <trdgrp lng="en">
@@ -1061,19 +1185,26 @@
     <trd>gnoszeol&oacute;gia</trd>,
     <trd>episztemol&oacute;gia</trd>
   </trdgrp>
+  <trd lng="id">epistemologi</trd>
+  <trd lng="ja">&#x8A8D;&#x8B58;&#x8AD6;  <pr>&#x306B;&#x3093;&#x3057;&#x304D;&#x308D;&#x3093;</pr></trd>
   <trdgrp lng="nl">
     <trd>epistemologie</trd>,
     <trd>kennistheorie</trd>,
     <trd>kennisleer</trd>
     <trd>kenleer</trd>
   </trdgrp>
-  <trd lng="pl">teoria poznania</trd>     
-  <trd lng="ro">teoria cunoa&#537;terii</trd>
+  <trd lng="pl">teoria poznania</trd>
+  <trd lng="ro">teoria cunoa&#x219;terii</trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_n;&c_o;&c_s;&c_je;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>,
     <trd>&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja; &c_p;&c_o;&c_z;&c_n;&c_a;&c_n;&c_i;&c_ja;</trd>
   </trdgrp>
   <trd lng="sk">te&oacute;ria poznania</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8A8D;&#x8B58;&#x8AD6; <pr>r&#xE8;nshil&#xF9;n</pr></trd>,
+    <trd>&#x77E5;&#x8B58;&#x8AD6; <pr>zh&#x12B;sh&#xED;l&#xF9;n</pr></trd>,
+    <trd>&#x77E5;&#x8B58;&#x8AD6; <pr>zh&#x12B;sh&#xEC;l&#xF9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.inter0atigxi">
@@ -1087,17 +1218,23 @@
       <ekz>
         ankora&ubreve; ili ne havis okazon por inter<tld/>ati&gcirc;i
         <fnt><aut>J. S&aacute;rk&ouml;zi</aut>,
-          <vrk><url ref="http://mek.niif.hu/04100/04194/04194.htm"/>Filmo por 
-        pli ol 16 jaruloj kaj aliaj noveloj</vrk>, 
-        <lok>1995</lok></fnt>. 
+          <vrk><url ref="http://mek.niif.hu/04100/04194/04194.htm"/>Filmo por
+        pli ol 16 jaruloj kaj aliaj noveloj</vrk>,
+        <lok>1995</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_jo;&c_m;&c_ib;&c_c;&c_c;&c_a; <klr>(&c_m;&c_ib;&c_zh;&c_s;&c_o;&c_b;&c_k;&c_u;)</klr></trd>,
+    <trd>&c_s;&c_t;&c_a;&c_c;&c_mol; <ind>&c_z;&c_n;&c_a;&c_jo;&c_m;&c_y;&c_m;&c_ib;</ind></trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>familiarizarse</trd>,
     <trd><ind>conocer</ind>se</trd>
-  </trdgrp>    
+  </trdgrp>
   <trd lng="fr">faire connaissance</trd>
+  <trd lng="ja">&#x77E5;&#x308A;&#x5408;&#x3044;&#x306B;&#x306A;&#x308B;
+  <pr>&#x3057;&#x308A;&#x3042;&#x3044;&#x306B;&#x306A;&#x308B;</pr></trd>
   <trd lng="nl">kennismaken</trd>
   <trdgrp lng="pl">
     <trd>pozna&cacute; si&eogonek;</trd>,
@@ -1135,7 +1272,13 @@
       <trd>&c_n;&c_je;&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;<klr tip="amb">
       (&c_s;&c_u;&c_shch;.)</klr></trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x964C;&#x751F;&#x4EBA; <pr>m&#xF2;sh&#x113;ngr&#xE9;n</pr></trd>,
+    <trd>&#x751F;&#x4EBA; <pr>sh&#x113;ngr&#xE9;n</pr></trd>,
+    <trd>&#x964C;&#x8DEF; <pr>m&#xF2;l&#xF9;</pr></trd>,
+    <trd>&#x672A;&#x8A73; <pr>w&#xE8;ixi&#xE1;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kon.ne0ato.ekvacio">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib>, <lok>p. 15</lok></fnt>
@@ -1168,10 +1311,15 @@
     <trd lng="hu">ismeretlen<klr tip="ind"> (matematikai)</klr></trd>
     <trd lng="pl">niewiadoma</trd>
     <trd lng="ru">&c_n;&c_je;&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_o;&c_je;</trd>
-  </snc>
+    <trd lng="zh">&#x672A;&#x77E5;&#x6570; <pr>w&#xE8;izh&#x12B;sh&#xF9;</pr></trd>
+</snc>
   <trd lng="cs">nezn&aacute;m&yacute; &ccaron;lov&ecaron;k</trd>
+  <trdgrp lng="ja">
+    <trd>&#x898B;&#x77E5;&#x3089;&#x306C;&#x4EBA;  <pr>&#x307F;&#x3057;&#x3089;&#x306C;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x672A;&#x77E5;&#x6570;  <pr>&#x307F;&#x3061;&#x3059;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="nl">onbekende</trd>
-  <trd lng="pl">nieznajomy</trd>     
+  <trd lng="pl">nieznajomy</trd>
   <trd lng="ro">str&abreve;in</trd>
   <trd lng="sk">nezn&aacute;my &ccaron;lovek</trd>
 </drv>
@@ -1257,6 +1405,7 @@
       <trd>felismer</trd>,
       <trd>r&aacute;ismer</trd>
     </trdgrp>
+    <trd lng="id"><baz>kenal</baz>mengenali</trd>
     <trd lng="nl">herkennen</trd>
     <trdgrp lng="ru">
       <trd>&c_u;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>,
@@ -1267,7 +1416,7 @@
     <dif>
       <ref tip="dif" cel="agnosk.0i">Agnoski</ref>:
       <ekz>
-        la valora helpo, kiun multaj personoj donis <klr>[&#8230;]</klr>, estas danke
+        la valora helpo, kiun multaj personoj donis <klr>[&#x2026;]</klr>, estas danke
         re<tld/>ita en la Anta&ubreve;parolo
         <fnt>
           <bib>EeP</bib>
@@ -1289,8 +1438,11 @@
       </ekz>
     </dif>
     <trd lng="be">&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="de">anerkennen</trd>
+    <trd lng="en">acknowledge</trd>
     <trd lng="es">reconocer</trd>
     <trd lng="hu">elismer</trd>
+    <trd lng="id">meng<ind>aku</ind>i</trd>
     <trd lng="nl">erkennen</trd>
     <trd lng="ru">&c_p;&c_r;&c_i;&c_z;&c_n;&c_a;&c_t;&c_mol;</trd>
   </snc>
@@ -1301,18 +1453,33 @@
     <trd>rozpoznat</trd>,
     <trd>uznat</trd>
   </trdgrp>
+  <trdgrp lng="en">
+  <trd>recognize</trd>
+  <trd>recognise</trd>
+  </trdgrp>
   <trd lng="fr">reconnaitre</trd>
+  <trdgrp lng="ja">
+    <trd>&#x899A;&#x3048;&#x3066;&#x3044;&#x308B;  <pr>&#x304A;&#x307C;&#x3048;&#x3066;&#x3044;&#x308B;</pr></trd>,
+    <trd>&#x898B;&#x5206;&#x3051;&#x308B;  <pr>&#x307F;&#x308F;&#x3051;&#x308B;</pr></trd>,
+    <trd>&#x8A8D;&#x3081;&#x308B;  <pr>&#x307F;&#x3068;&#x3081;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>potwierdza&cacute;</trd>,
     <trd>rozpozna&cacute;</trd>
   </trdgrp>
   <trdgrp lng="ro">
     <trd>confirma</trd>,
-    <trd>recunoa&#537;te</trd>
+    <trd>recunoa&#x219;te</trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>spozn&aacute;va&tcaron;</trd>,
     <trd>uzna&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8A8D;&#x51FA; <pr>r&#xE8;nch&#x16B;</pr></trd>,
+    <trd>&#x627F;&#x8A8D; <pr>ch&#xE9;ngr&#xE8;n</pr></trd>,
+    <trd>&#x76F8;&#x8A8D; <pr>xi&#x101;ngr&#xE8;n</pr></trd>,
+    <trd>&#x8A8D; <pr>r&#xE8;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1332,7 +1499,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Valdemaro <nom>Doe</nom> volis konstrui multekostan &scirc;ipon <klr>[&#8230;]</klr> kaj tial la arbaro
+        Valdemaro <nom>Doe</nom> volis konstrui multekostan &scirc;ipon <klr>[&#x2026;]</klr> kaj tial la arbaro
         estis elhakata, la re<tld/>ilo de la maristoj
         <fnt>
           <bib>Fab4</bib>
@@ -1341,7 +1508,7 @@
       </ekz>
       <ekz>
         la ringo de <nom>Je&scirc;ua</nom> havis unu entran&ccirc;on, la ringo de <nom>Dismas</nom>, du
-        <klr>[&#8230;]</klr> 
+        <klr>[&#x2026;]</klr>
         Tolmajo scias la re<tld/>ilon
         <fnt>
           <bib>MkM</bib>
@@ -1354,8 +1521,8 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Otto Prytz</aut>
-          <vrk><url ref="https://www.monato.be/2014/011276.php"
-              >&Ccirc;u la angla ne devenas de la praangla?</url></vrk>
+          <vrk><url ref="&Monato;/2014/011276.php">&Ccirc;u la angla ne devenas de la
+          praangla?</url></vrk>
           <lok>2014</lok>
         </fnt>.
       </ekz>
@@ -1367,6 +1534,13 @@
       <ref cel="trajt.0o.karakteriza">trajto<sncref/></ref>,
       <ref cel="tip.0a">tipa</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_a;&c_r;&c_y;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>,
+      <trd>&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_e;&c_r;&c_n;&c_a;&c_ja; &c_r;&c_y;&c_s;&c_a;</trd>,
+      <trd>&c_t;&c_o;&c_je;, &c_sh;&c_t;&c_o; &c_d;&c_a;&c_z;&c_v;&c_a;&c_l;&c_ja;&c_je; <ind>&c_p;&c_a;&c_z;&c_n;&c_a;&c_c;&c_mol;</ind></trd>,
+      <trd>&c_ib;&c_d;&c_e;&c_n;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_t;&c_a;&c_r;</trd>,
+      <trd>&c_s;&c_y;&c_g;&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Erkennungsmerkmal</trd>,
       <trd>Erkennungszeichen</trd>,
@@ -1377,34 +1551,36 @@
       <trd>signature</trd>
     </trdgrp>
     <trd lng="fr">caract&eacute;ristique d'identification</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7279;&#x70B9; <pr>t&#xE8;di&#x1CE;n</pr></trd>,
+    <trd>&#x7B7E;&#x7AE0; <pr>qi&#x101;nzh&#x101;ng</pr></trd>,
+    <trd>&#x6807;&#x8BC6;&#x7269; <pr>bi&#x101;ozh&#xEC;w&#xF9;</pr></trd>,
+    <trd>&#x8B58;&#x5225;&#x78BC; <pr>sh&#xED;bi&#xE9;m&#x1CE;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kon.re0ilo.legilo">
     <uzo tip="fak">KOMP</uzo>
     <dif>
-      Aparato a&ubreve; <ref tip="super" cel="aplik.0ajxo">aplika&jcirc;o</ref> kapabla re<tld/>i simbolojn, 
+      Aparato a&ubreve; <ref tip="super" cel="aplik.0ajxo">aplika&jcirc;o</ref> kapabla re<tld/>i simbolojn,
       t.e. legi skriba&jcirc;on:
       <ekz>
         la optika re<tld/>ilo <nom>Recognita Plus</nom>
         <fnt>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="&Monato;/1995/004514.php">Por lingvemaj
+          komputilemuloj ...</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9506-lingvema.txt"
-              >Por lingvemaj komputilemuloj...</url></vrk>
-          <lok>95/06</lok>
+          <lok>1995/06, p. 22</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_a;&c_p;&c_a;&c_r;&c_a;&c_t; &c_a;&c_b;&c_o; &c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_a; &c_d;&c_l;&c_ja; <ind>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</ind> &c_s;&c_y;&c_m;&c_b;&c_a;&c_l;&c_ja;&c_w;</trd>
     <trd lng="de">Texterkennung <klr>(OCR)</klr></trd>
     <trd lng="en">character recognition</trd>
+    <trd lng="id">OCR</trd>
+    <trd lng="nl">tekstherkenning</trd>
   </snc>
 </drv>
-
-
-
-
-
-
-
-
 
 <drv mrk="kon.re0ado">
   <kap>re<tld/>ado</kap>
@@ -1434,6 +1610,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>pozn&aacute;v&aacute;n&iacute;</trd>,
     <trd>rozpozn&aacute;v&aacute;n&iacute;</trd>,
@@ -1441,8 +1621,8 @@
   </trdgrp>
   <trd lng="es">reconocimiento</trd>
   <trd lng="nl">erkennen<klr tip="ind"> (zn.)</klr></trd>
-  <trd lng="pl">rozpoznawanie</trd>     
-  <trd lng="ro">recunoa&#537;tere</trd>
+  <trd lng="pl">rozpoznawanie</trd>
+  <trd lng="ro">recunoa&#x219;tere</trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_p;&c_o;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
@@ -1515,7 +1695,7 @@
         <trd lng="hu">mintafelismer&eacute;s</trd>
         <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_o;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_i;&c_je; &c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;</trd>
       </ekz>
-    </dif>  
+    </dif>
     <trdgrp lng="be">
       <trd>&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
       <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
@@ -1532,8 +1712,8 @@
       <trd>elismer&eacute;s</trd>
     </trdgrp>
     <trd lng="nl">erkenning</trd>
-    <trd lng="pl">rozpoznanie</trd>     
-    <trd lng="ro">recunoa&#537;tere</trd>
+    <trd lng="pl">rozpoznanie</trd>
+    <trd lng="ro">recunoa&#x219;tere</trd>
     <trdgrp lng="ru">
       <trd>&c_u;&c_z;&c_n;&c_a;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_p;&c_r;&c_i;&c_z;&c_n;&c_a;&c_n;&c_i;&c_je;</trd>
@@ -1543,19 +1723,23 @@
       <trd>rozpoznanie</trd>,
       <trd>uznanie</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8A8D;&#x51FA; <pr>r&#xE8;nch&#x16B;</pr></trd>,
+    <trd>&#x627F;&#x8A8D; <pr>ch&#xE9;ngr&#xE8;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kon.re0o.agnosko">
     <dif>
       <ref tip="super" cel="agnosk.0o">Agnosko</ref>:
       <ekz>
-        oni prave povas postuli de la lingvistoj, <klr>[&#8230;]</klr> <tld/>i Esperanton kaj
+        oni prave povas postuli de la lingvistoj, <klr>[&#x2026;]</klr> <tld/>i Esperanton kaj
         re<tld/>i &gcirc;in kiel socian fakton kun &ccirc;iuj sekvoj de tiu re<tld/>o
         <fnt>
           <bib>Ret</bib>
         </fnt>;
       </ekz>
       <ekz>
-        la rezolucio estis <klr>[&#8230;]</klr> la unua oficiala re<tld/>o de Esperanto, kiel
+        la rezolucio estis <klr>[&#x2026;]</klr> la unua oficiala re<tld/>o de Esperanto, kiel
         funkcianta lingvo
         <fnt>
           <bib>EeP</bib>
@@ -1568,25 +1752,34 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[ili]</klr> sopiras <klr>[&#8230;]</klr> al re<tld/>o kiel aparta etno
+        <klr>[ili]</klr> sopiras <klr>[&#x2026;]</klr> al re<tld/>o kiel aparta etno
         <fnt>
+       <aut>IRL</aut>
+          <vrk><url ref="&Monato;/2000/006826.php">&Ccirc;u pa&scirc;oj al paco?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/006826.html"
-              >Irlando: &Ccirc;u pa&scirc;oj al paco?</url></vrk>
+          <lok>2000/06, p. 7</lok>
         </fnt>;
       </ekz>
       <ekz>
         re<tld/>o de la &gcirc;eneralaj valoroj de E&ubreve;ropa Unio
         <fnt>
+       <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2000/006884.php">&Ccirc;u veneno en Vieno?</url></vrk>
           <bib>Monato</bib>
-          <aut>Evgeni Georgiev</aut>
-          <vrk><url ref="&Steloj;monato2/006884.html"
-              >A&ubreve;strio: &Ccirc;u veneno en Vieno?</url></vrk>
+          <lok>2000/03, p. 6</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
     <trd lng="de">Anerkennung</trd>
+    <trd lng="id">peng<ind>aku</ind>an</trd>
   </snc>
+  <trdgrp lng="ja">
+    <trd>&#x518D;&#x8A8D;  <pr>&#x3055;&#x3044;&#x8A8D;</pr></trd>,
+    <trd>&#x8B58;&#x5225;  <pr>&#x3057;&#x304D;&#x3079;&#x3064;</pr></trd>,
+    <trd>&#x8A8D;&#x77E5;  <pr>&#x306B;&#x3093;&#x3061;</pr></trd>,
+    <trd>&#x627F;&#x8A8D;  <pr>&#x3057;&#x3087;&#x3046;&#x306B;&#x3093;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kon.misre0i">
@@ -1603,7 +1796,7 @@
 	  <aut>Harry Harrison, tr. R. Fossmeier k.a.</aut>:
           <vrk>Naski&gcirc;o de la Rustimuna &Scirc;talrato</vrk>.
           <lok>Jekaterinburg: Sezonoj, 1996. &Ccirc;ap. 10.</lok>
-        </fnt>;          
+        </fnt>;
       </ekz><ekz>
         &ccirc;ar &gcirc;i ne misre<tld/>us du objektojn kaj kredus ke ili estas unu
 	<fnt>
@@ -1612,6 +1805,10 @@
 	</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_je;&c_r;&c_a;&c_b;&c_l;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_p;&c_r;&c_y;&c_n;&c_ja;&c_c;&c_mol; &c_z;&c_a; <ind>&c_ib;&c_n;&c_sh;&c_a;&c_je;</ind></trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_o;&c_b;&c_o;&c_z;&c_n;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
       <trd>&c_p;&c_r;&c_i;&c_n;&c_ja;&c_t;&c_mol; &c_z;&c_a; &c_d;&c_r;&c_u;&c_g;&c_o;&c_g;&c_o;</trd>
@@ -1624,17 +1821,21 @@
         <ref cel="taks.sub0i">Subtaksi</ref>,
         <ref cel="ignor.0i">ignori</ref>,
         <ref cel="agnosk.mal0i">malagnoski</ref>:
-      </refgrp>  
+      </refgrp>
       <ekz>
-        temo, kiun la Papo reproponis sen&ccirc;ese <klr>&#8230;</klr>, kiam la
+        temo, kiun la Papo reproponis sen&ccirc;ese <klr>&#x2026;</klr>, kiam la
         naski&gcirc;anta e&ubreve;ropa Konstitucio &scirc;ajne volis misre<tld/>i la
         kontribuon de kristanismo por la formado de E&ubreve;ropo
         <fnt><vrk>
-          <url ref="http://www.ikue.org/papoj/johanopaulodua/biografio.htm"
-               >Papo Johano Pa&ubreve;lo la 2a (1978-2005)</url></vrk>.
+          <url ref="http://www.ikue.org/papoj/johanopaulodua/biografio.htm">Papo Johano Pa&ubreve;lo la 2a
+          (1978-2005)</url></vrk>.
           <lok>IKUE. La Papoj</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_d;&c_r;&c_y;&c_n;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_n;&c_je; <ind>&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</ind></trd>
+    </trdgrp>
   </snc>
   <trd lng="fr">m&eacute;conna&icirc;tre</trd>
 </drv>
@@ -1663,6 +1864,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_s;&c_u;&c_m;&c_n;&c_je;&c_n;&c_n;&c_y;</trd>,
+    <trd>&c_ja;&c_w;&c_n;&c_y;</trd>,
+    <trd>&c_ja;&c_k;&c_o;&c_g;&c_a; &c_n;&c_je;&c_m;&c_a;&c_g;&c_ch;&c_y;&c_m;&c_a; <ind>&c_p;&c_je;&c_r;&c_a;&c_b;&c_l;&c_y;&c_t;&c_a;&c_c;&c_mol;</ind></trd>
+  </trdgrp>
   <trd lng="en">unmistakable</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_s;&c_o;&c_m;&c_n;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
@@ -1674,27 +1880,27 @@
 </art>
 <!--
 $Log$
-versio 1.65 2022/09/24 15:33:07
-Wolfram Diestel: +~atigi; ~igi: +ekz-oj, ref-oj
+versio 1.77 2023/10/18 17:23:25
+revo: transskribo per <pr>
 
-versio 1.64 2022/09/21 11:31:56
-Wolfram Diestel: +kor. +KOMP
+versio 1.76 2023/10/02 12:42:42
+Wolfram Diestel: +trd de
 
-versio 1.63 2022/09/21 05:42:15
-Wolfram Diestel: +re~ilo
+versio 1.75 2023/09/25 03:24:52
+Eko Nur Syah Hidayat: +trd id
 
-versio 1.62 2022/05/01 08:09:25
-aktualigo lingvokodoj kaj URL-unuoj
+versio 1.73 2023/08/25 15:24:17
+Wolfram Diestel: rim->adm, sintaksaj adaptetoj
 
-versio 1.61 2022/01/10 07:28:53
-Wolfram Diestel: ~i, ~o 2 (agnoski): ekz-oj
+versio 1.72 2023/08/23 17:27:25
+Mahaer Mahmud: aldonis anglajn tradukojn
 
-versio 1.60 2021/10/27 16:45:54
-Wolfram Diestel: +ek~i BIB
+versio 1.71 2023/06/30 09:28:06
+Dmitri Gabinski: + trd be
 
-versio 1.59 2021/08/29 15:32:05
-Sergio Pokrovskij: +TEZ
+versio 1.70 2023/04/25 14:28:44
+Paul Peeraerts: @Steloj -> @Monato
 
-versio 1.58 2021/08/29 09:29:17
+versio 1.69 2023/04/20 06:33:33
 -->
 </vortaro>

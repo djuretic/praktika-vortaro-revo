@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akadem.xml,v 1.36 2022/05/24 09:33:05 revo Exp $">
+<art mrk="$Id: akadem.xml,v 1.40 2023/10/28 08:33:03 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>akademi</rad>/o <fnt><bib>PV</bib></fnt> 
@@ -76,8 +76,7 @@
   </snc>
   <trd lng="be">&c_a;&c_k;&c_a;&c_d;&c_e;&c_m;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_a;&c_k;&c_a;&c_d;&c_je;&c_m;&c_i;&c_ja;</trd>
-  <trd
-  lng="bo">&#xF66;&#xFB3;&#xF7C;&#xF56;&#xF0B;&#xF42;&#xFB2;&#xFAD;&#xF0B;&#xF46;&#xF7A;&#xF53;&#xF0B;&#xF58;&#xF7C;&#xF0B;</trd>
+  <trd lng="bo">&#xF66;&#xFB3;&#xF7C;&#xF56;&#xF0B;&#xF42;&#xFB2;&#xFAD;&#xF0B;&#xF46;&#xF7A;&#xF53;&#xF0B;&#xF58;&#xF7C;&#xF0B;</trd>
   <trd lng="ca">acad&egrave;mia</trd>
   <trdgrp lng="cs">
     <trd>akademie</trd>,
@@ -88,15 +87,19 @@
   </trdgrp>
   <trd lng="en">academy</trd>
   <trd lng="es">academia</trd>
-  <trd lng="he">&#x5D0;&#x5B2;&#x5E7;&#x5B8;&#x5D3;&#x5B6;&#x5DE;&#x5B4;&#x5D9;&#x5B8;&#x5D4;</trd>
+  <trd lng="he">&alef;&#x5B2;&qof;&#x5B8;&dalet;&#x5B6;&mem;&#x5B4;&yod;&#x5B8;&he;</trd>
   <trd lng="ia">academia</trd>
   <trd lng="ie">academie</trd>
   <trd lng="it">accademia</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5B66;&#x58EB;&#x9662;  <pr>&#x304C;&#x304F;&#x3057;&#x3044;&#x3093;</pr></trd>,
+    <trd>&#x30A2;&#x30AB;&#x30C7;&#x30DF;&#x30FC;  <pr>&#x3042;&#x304B;&#x3067;&#x307F;&#x30FC;</pr></trd>
+  </trdgrp>
   <trd lng="pl">akademia</trd>
   <trd lng="pt">universidade</trd>
   <trd lng="ru">&c_a;&c_k;&c_a;&c_d;&c_je;&c_m;&c_i;&c_ja;</trd>
   <trd lng="sv">akademi</trd>
-  <trd lng="uk">&c_a;&#x43A;&c_a;&c_d;&c_je;&#x43C;&c_ib;&#x44F;</trd>
+  <trd lng="uk">&c_a;&c_k;&c_a;&c_d;&c_je;&c_m;&c_ib;&c_ja;</trd>
   <trd lng="vo">kadem</trd>
   <trd lng="ms">akedemi</trd>
 </drv>
@@ -132,7 +135,19 @@
     <trd lng="pt">acad&ecirc;mico</trd>
     <trd lng="ru">&c_a;&c_k;&c_a;&c_d;&c_je;&c_m;&c_i;&c_k;</trd>
     <trd lng="sk">akademik</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5B66;&#x4F1A;&#x4F1A;&#x5458; <pr>xu&#xE9;hu&#xEC;hu&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x5B78;&#x6703;&#x6703;&#x54E1; <pr>xu&#xE9;hu&#xEC;hu&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x53D7;&#x8FC7;&#x9AD8;&#x7B49;&#x6559;&#x80B2;&#x8005; <pr>sh&#xF2;ugu&#xF2;g&#x101;od&#x11B;ngji&#xE0;oy&#xF9;zh&#x11B;</pr></trd>,
+    <trd>&#x53D7;&#x904E;&#x9AD8;&#x7B49;&#x6559;&#x80B2;&#x8005; <pr>sh&#xF2;ugu&#xF2;g&#x101;od&#x11B;ngji&#xE0;oy&#xF9;zh&#x11B;</pr></trd>,
+    <trd>&#x5927;&#x5B66;&#x5B66;&#x751F; <pr>d&#xE0;xu&#xE9;xu&#xE9;sheng</pr></trd>,
+    <trd>&#x5927;&#x5B78;&#x5B78;&#x751F; <pr>d&#xE0;xu&#xE9;xu&#xE9;sheng</pr></trd>,
+    <trd>&#x5927;&#x5B66;&#x8001;&#x5E08; <pr>d&#xE0;xu&#xE9;l&#x1CE;osh&#x12B;</pr></trd>,
+    <trd>&#x5927;&#x5B78;&#x8001;&#x5E2B; <pr>d&#xE0;xu&#xE9;l&#x1CE;osh&#x12B;</pr></trd>,
+    <trd>&#x5B66;&#x8005; <pr>xu&#xE9;zh&#x11B;</pr></trd>,
+    <trd>&#x5B78;&#x8005; <pr>xu&#xE9;zh&#x11B;</pr></trd>
+  </trdgrp>
+</snc>
   <snc>
     <uzo tip="stl">EVI</uzo>
     <dif>
@@ -151,7 +166,8 @@
   </snc>
   <trd lng="cs">&ccaron;len Akademio de Esperanto</trd>
   <trd lng="en">academian</trd>
-  <trd lng="he">&#x5D0;&#x5E7;&#x5D3;&#x5DE;&#x5D0;&#x5D9;</trd>
+  <trd lng="he">&alef;&qof;&dalet;&mem;&alef;&yod;</trd>
+  <trd lng="ja">&#x30A2;&#x30AB;&#x30C7;&#x30DF;&#x30FC;&#x4F1A;&#x54E1;  <pr>&#x3042;&#x304B;&#x3067;&#x307F;&#x30FC;&#x304B;&#x3044;&#x3044;&#x3093;</pr></trd>
   <trd lng="sk">&ccaron;len Akademio de Esperanto</trd>
 </drv>
 
@@ -179,11 +195,18 @@
     </dif>
   </snc>
   <trd lng="be">&c_A;&c_k;&c_a;&c_d;&c_e;&c_m;&c_ib;&c_ja; &c_e;&c_s;&c_p;&c_e;&c_r;&c_a;&c_n;&c_t;&c_a;</trd>
+  <trd lng="de">Akademie des Esperanto</trd>
   <trd lng="fr">Acad&eacute;mie de l'Esp&eacute;ranto</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.39 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.37 2023/05/20 14:32:36
+Wolfram Diestel: +trd de
+
 versio 1.36 2022/05/24 09:33:05
 Dmitri Gabinski: + trd be
 
@@ -200,11 +223,5 @@ Revision 1.28  2015/06/28 12:03:35  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.27  2014/05/11 19:10:12  revo
-Damien Brucker: +ekz (dauxrigo)
-
-Revision 1.26  2014/05/08 18:11:13  revo
-Damien Brucker: +ekz
-
-Revision 1.25  2008/08/23 16:30:45  revo
 -->
 </vortaro>

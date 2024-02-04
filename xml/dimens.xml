@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dimens.xml,v 1.49 2022/04/26 17:11:48 revo Exp $">
+<art mrk="$Id: dimens.xml,v 1.53 2023/11/04 14:29:02 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>dimensi</rad>/o <fnt><bib>PV</bib></fnt>
@@ -47,7 +47,11 @@
     <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_r; <klr>(&c_p;&c_o;
     &c_k;&c_a;&c_zh;&c_d;&c_o;&c_m;&c_u;
     &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ju;)</klr></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7DAD;&#x6578; <pr>w&#xE9;ish&#xF9;</pr></trd>,
+    <trd>&#x91CF;&#x7DB1; <pr>li&#xE0;ngg&#x101;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="dimens.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="dimens.0o.direkta">
@@ -162,7 +166,7 @@
       derivita grando:
       <ekz>
         la <tld/>oj de la energio estas
-        <frm am="kg xx m^2//s^2">kg&#215;m&quadrat;/s&quadrat;</frm> a&ubreve; pli
+        <frm am="kg xx m^2//s^2">kg&#xD7;m&quadrat;/s&quadrat;</frm> a&ubreve; pli
         &gcirc;enerale <frm am="ML^2T^-2">ML<sup>2</sup>T<sup>-2</sup></frm>
         (kie <frm am="M">M</frm>, <frm am="L">L</frm>, <frm am="T">T</frm> respektive simbolas
         mason, longon kaj tempon);
@@ -203,6 +207,11 @@
     </trdgrp>
     <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_m;&c_je;&c_r;</trd>,
+    <trd>&c_v;&c_y;&c_m;&c_je;&c_r;</trd>,
+    <trd>&c_v;&c_y;&c_m;&c_je;&c_r;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>dimenze</trd>,
     <trd>rozm&ecaron;r</trd>,
@@ -218,7 +227,13 @@
     <trd>dimension</trd>,
     <trd>taille</trd>
   </trdgrp>
-  <trd lng="he">&mem;&#1461;&mem;&#1463;&dalet;</trd>
+  <trd lng="he">&mem;&#x5B5;&mem;&#x5B7;&dalet;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5BF8;&#x6CD5;  <pr>&#x3059;&#x3093;&#x307D;&#x3046;</pr></trd>,
+    <trd>&#x6B21;&#x5143;  <pr>&#x3058;&#x3052;&#x3093;</pr></trd>,
+    <trd>&#x898F;&#x6A21;  <pr>&#x304D;&#x307C;</pr></trd>,
+    <trd>&#x5E83;&#x304C;&#x308A;  <pr>&#x3072;&#x308D;&#x304C;&#x308A;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>rozmiar</trd>,
     <trd>wymiar</trd>
@@ -254,6 +269,7 @@
       <ref cel="grafik.0a.BELA">grafika</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_d;&c_v;&c_u;&c_h;&c_v;&c_y;&c_m;&c_je;&c_r;&c_n;&c_y;</trd>
   <trd lng="cs">dvourozm&ecaron;rn&yacute;</trd>
   <trd lng="en">two-dimensional</trd>
   <trdgrp lng="es">
@@ -265,7 +281,12 @@
     <trd>en <ind>deux dimensions</ind></trd>
   </trdgrp>
   <trd lng="he">&dalet;&vav;-&mem;&yod;&mem;&dalet;&yod;</trd>
+  <trd lng="ja">&#x4E8C;&#x6B21;&#x5143;&#x306E;  <pr>&#x3075;&#x305F;&#x3058;&#x3052;&#x3093;&#x306E;</pr></trd>
   <trd lng="sk">dvojrozmern&yacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E24;&#x79CD;&#x5C3A;&#x5BF8; <pr>li&#x1CE;ngzh&#x1D2;ngch&#xED;cun</pr></trd>,
+    <trd>&#x4E8C;&#x7DAD; <pr>&#xE8;rw&#xE9;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dimens.n0a">
@@ -310,8 +331,7 @@
         <trd lng="hu">v&eacute;gtelen <ind>dimenzi&oacute;s</ind></trd>
         <trd lng="pl"><klr tip="amb">(przestrze&nacute;)
         </klr>niesko&nacute;czenie <ind>wymiarowa</ind></trd>
-        <trd
-        lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
+        <trd lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
       </ekz>
       <ekz>
         tri<tld/>a kurbo <klr>(neebena kurbo)</klr>.
@@ -361,10 +381,11 @@
       <ref cel="stereo4.0.TEK">stereo-</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_t;&c_r;&c_o;&c_h;&c_v;&c_y;&c_m;&c_je;&c_r;&c_n;&c_y;</trd>
   <trd lng="cs">trojrozm&ecaron;rn&yacute;</trd>
   <trdgrp lng="en">
     <trd>three-dimensional space</trd>,
-    <trd>three&#8208;dimensional</trd>
+    <trd>three&#x2010;dimensional</trd>
   </trdgrp>
   <trdgrp lng="es">
     <trd>tridimensional</trd>,
@@ -374,7 +395,12 @@
     <trd>tridimensionnel</trd>,
     <trd>en <ind>trois dimensions</ind></trd>
   </trdgrp>
+  <trd lng="ja">&#x4E09;&#x6B21;&#x5143;&#x306E;  <pr>&#x307F;&#x3063;&#x3058;&#x3052;&#x3093;&#x306E;</pr></trd>
   <trd lng="sk">trojrozmern&yacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E09;&#x7DAD; <pr>s&#x101;nw&#xE9;i</pr></trd>,
+    <trd>&#x7ACB;&#x4F53; <pr>l&#xEC;t&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dimens.0nombro">
@@ -405,6 +431,7 @@
     <trd lng="ru">
     &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_m;&c_je;&c_r;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trdgrp lng="cs">
     <trd>dimenze</trd>,
     <trd>rozm&ecaron;r</trd>
@@ -418,6 +445,12 @@
 </art>
 <!--
 $Log$
+versio 1.52 2023/10/14 11:26:53
+revo: transskribo per <pr>
+
+versio 1.50 2023/06/29 10:34:35
+Dmitri Gabinski: + trd be
+
 versio 1.49 2022/04/26 17:11:48
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -434,11 +467,5 @@ Revision 1.43  2015/06/29 16:29:36  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.42  2015/03/13 11:10:16  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.41  2015/01/30 23:10:15  revo
-Alain Gerard: +trd (fr)
-
-Revision 1.40  2011/01/18 23:10:35  revo
 -->
 </vortaro>

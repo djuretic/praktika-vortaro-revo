@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: enoter1.xml,v 1.8 2022/03/24 15:12:05 revo Exp $">
+<art mrk="$Id: enoter1.xml,v 1.11 2023/10/28 11:28:29 revo Exp $">
 <kap>
   <rad>enoterac</rad>/oj,
+  <var><kap><rad var="o">onagrac</rad>/oj</kap></var>
 </kap>
 <drv mrk="enoter1.0oj">
   <kap>
     <tld/>oj,
-    <var><kap>onagracoj</kap></var>
+    <var><kap><tld var="o"/>oj</kap></var>
   </kap>
   <uzo tip="fak">BOT</uzo>
   <snc>
@@ -25,7 +26,8 @@
       florfundo tubforma a&ubreve; kalikforma, ofte okulfrape kolorigita;
       du, kvar a&ubreve; okstamenoj; kapsuloj a&ubreve; nuksoj:
       <ekz>
-        la <tld/>oj (<klr>[...]</klr> a&ubreve; onagracoj <klr>[...]</klr>) kreskas en la subtropika kaj kontinenta zono
+        la <tld/>oj (<klr>[...]</klr> a&ubreve; onagracoj <klr>[...]</klr>) kreskas en la subtropika kaj
+        kontinenta zono
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=20156">Enoteracoj</url></lok>
@@ -37,10 +39,14 @@
       <ref cel="epilob.0o">epilobio</ref>,
       <ref cel="enoter.0o">enotero</ref>
     </refgrp>
-    <rim>La manova latina nomo estas &leftquot;Oenotheraceae&rightquot;, la&ubreve; la nova nomo oni povus 
+    <rim>La manova latina nomo estas &leftquot;Oenotheraceae&rightquot;, la&ubreve; la nova nomo oni povus
       nomi la familion anka&ubreve; &leftquot;onagracoj&rightquot;.
     </rim>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_k;&c_r;&c_y;&c_p;&c_n;&c_jo;&c_v;&c_y;&c_ja; <klr>(&c_s;&c_ja;&c_m;&#x2019;&c_ja;)</klr></trd>,
+    <trd>&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_mol;&c_n;&c_ib;&c_k;&c_a;&c_v;&c_y;&c_ja; <klr>(&c_s;&c_ja;&c_m;&#x2019;&c_ja;)</klr></trd>
+  </trdgrp>
   <trd lng="de">Nachtkerzengew&auml;chse</trd>
   <trd lng="fr">&oelig;noth&eacute;rac&eacute;es</trd>
   <trd lng="la">Oenotheraceae</trd>
@@ -49,11 +55,21 @@
     <trd>&c_k;&c_i;&c_p;&c_r;&c_je;&c_j;&c_n;&c_y;&c_je; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>,
     <trd>&c_o;&c_s;&c_l;&c_i;&c_n;&c_n;&c_i;&c_k;&c_o;&c_v;&c_y;&c_je; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
   </trdgrp>
-  <trd lng="uk">&#x43E;&#x43D;&#x430;&#x433;&#x440;&#x43E;&#x432;&#x456;</trd>
+  <trd lng="uk">&#x43E;&#x43D;&c_a;&c_g;&c_r;&#x43E;&c_v;&c_ib;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x67F3;&#x53F6;&#x83DC;&#x79D1; <pr>li&#x1D4;y&#xE8;c&#xE0;ik&#x113;</pr></trd>,
+    <trd>&#x67F3;&#x8449;&#x83DC;&#x79D1; <pr>li&#x1D4;y&#xE8;c&#xE0;ik&#x113;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.10 2023/09/20 08:30:11
+Dmitri Gabinski: + trd be
+
+versio 1.9 2023/01/05 18:33:38
+Wolfram Diestel: gxustigis sintakson (var)
+
 Revision 1.6  2013/08/25 14:10:16  revo
 Wolfram Diestel: referencoj al listo bot familioj
 
@@ -68,6 +84,5 @@ Yury Finkel: +trd ru
 
 Revision 1.2  2001/06/26 18:11:40  revo
 Marc Bavant: +trd fr
-
 -->
 </vortaro>

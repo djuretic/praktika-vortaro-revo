@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kvitan.xml,v 1.25 2022/03/22 15:44:14 revo Exp $">
+<art mrk="$Id: kvitan.xml,v 1.28 2023/12/03 09:59:05 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kvitanc</rad>/o <fnt><bib>PV</bib></fnt>
@@ -47,6 +47,10 @@
   <trd lng="es">recibo</trd>
   <trd lng="fr">quittance</trd>
   <trd lng="hu">nyugta</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9818;&#x53CE;&#x66F8;  <pr>&#x308A;&#x3087;&#x3046;&#x3057;&#x3085;&#x3046;&#x3057;&#x3087;</pr></trd>,
+    <trd>&#x53D7;&#x9818;&#x66F8;  <pr>&#x3058;&#x3085;&#x308A;&#x3087;&#x3046;&#x3057;&#x3087;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>bonnetje<klr tip="ind"> (kwitantie)</klr></trd>,
     <trd>kwitantie</trd>,
@@ -60,12 +64,18 @@
     <trd>recibo <klr tip="ind">(documento)</klr></trd>,
     <trd>quita&ccedil;&atilde;o</trd>
   </trdgrp>
-  <trd lng="ro">chitan&tcedil;&abreve;</trd>
+  <trd lng="ro">chitan&#x21B;&abreve;</trd>
   <trd lng="ru">&c_k;&c_v;&c_i;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
   <trd lng="sv">kvitto</trd>
   <trdgrp lng="uk">
     <trd>&#x43A;&#x432;&#x438;&#x442;&#x430;&#x43D;&#x446;&#x456;&#x44F;</trd>,
     <trd>&#x440;&#x43E;&#x437;&#x43F;&#x438;&#x441;&#x43A;&#x430; </trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x56DE;&#x6761; <pr>hu&#xED;ti&#xE1;o</pr></trd>,
+    <trd>&#x56DE;&#x689D; <pr>hu&#xED;ti&#xE1;o</pr></trd>,
+    <trd>&#x56DE;&#x57F7; <pr>hu&#xED;zh&#xED;</pr></trd>,
+    <trd>&#x56DE;&#x6267; <pr>hu&#xED;zh&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -116,6 +126,10 @@
     <trd>nyugt&aacute;z</trd>,
     <trd>nyugt&aacute;t ad</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9818;&#x53CE;&#x66F8;&#x3092;&#x51FA;&#x3059;  <pr>&#x308A;&#x3087;&#x3046;&#x3057;&#x3085;&#x3046;&#x3057;&#x3087;&#x3092;&#x3060;&#x3059;</pr></trd>,
+    <trd>&#x53D7;&#x9818;&#x66F8;&#x3092;&#x51FA;&#x3059;  <pr>&#x3058;&#x3085;&#x308A;&#x3087;&#x3046;&#x3057;&#x3087;&#x3092;&#x3060;&#x3059;</pr></trd>
+  </trdgrp>
   <trd lng="nl">kwijten</trd>
   <trdgrp lng="pl">
     <trd>kwitowa&cacute;</trd>,
@@ -137,7 +151,10 @@
 </drv>
 </art>
 <!--
-$Log: kvitan.xml,v $
+$Log$
+versio 1.27 2023/10/18 17:23:25
+revo: transskribo per <pr>
+
 versio 1.23 2020/03/09 02:10:19
 Sam Penter: +trd nl
 
@@ -157,8 +174,5 @@ Revision 1.18  2009/09/22 17:17:41  revo
 Paul Peeraerts: +nl
 
 Revision 1.17  2009/08/11 16:30:34  revo
-Wieland Pusch: +trd bg
-
-Revision 1.16  2009/08/08 16:34:27  revo
 -->
 </vortaro>

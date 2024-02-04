@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: baskul.xml,v 1.22 2022/03/12 18:54:13 revo Exp $">
+<art mrk="$Id: baskul.xml,v 1.25 2023/10/29 19:11:00 revo Exp $">
 <kap>
   <ofc>9</ofc>
   <rad>baskul</rad>/o <fnt><bib>SPV</bib></fnt>
@@ -66,7 +66,8 @@
       <trd>&c_v;&c_je;&c_s;&c_y;
       <klr>(&c_r;&c_y;&c_ch;&c_a;&c_zh;&c_n;&c_y;&c_je;)</klr></trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x6446;&#x52A8;&#x6746; <pr>b&#x1CE;id&#xF2;ngg&#x101;n</pr></trd>
+</snc>
   <snc mrk="baskul.0o.ludilo">
     <uzo tip="fak">SPO</uzo>
     <fnt><bib>KrED</bib> </fnt>
@@ -106,7 +107,8 @@
     </trdgrp>
     <trd lng="pl">hu&sacute;tawka</trd>
     <trd lng="ru">&c_k;&c_a;&c_ch;&c_je;&c_l;&c_i;</trd>
-  </snc>
+    <trd lng="zh">&#x8DF7;&#x8DF7;&#x677F; <pr>qi&#x101;oqi&#x101;ob&#x1CE;n</pr></trd>
+</snc>
   <snc mrk="baskul.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <fnt>(<lok><url ref="&KompLeks;/B.html#BASKULO">KompLeks</url></lok>)</fnt>
@@ -126,7 +128,8 @@
     </trdgrp>
     <trd lng="pl">prze&lstroke;&aogonek;cznik</trd>
     <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
-  </snc>
+    <trd lng="zh">&#x5F00;&#x5173; <pr>k&#x101;igu&#x101;n</pr></trd>
+</snc>
   <snc mrk="baskul.0o.ELE">
     <uzo tip="fak">KOMP</uzo>
     <uzo tip="fak">ELE</uzo>
@@ -162,9 +165,16 @@
     </trdgrp>
     <trd lng="pl">prze&lstroke;&aogonek;cznik</trd>
     <trd lng="ru">&c_t;&c_r;&c_i;&c_g;&c_g;&c_je;&c_r;</trd>
-  </snc>
+    <trd lng="zh">&#x7FFB;&#x8F49;&#x958B;&#x95DC; <pr>f&#x101;nzhu&#x1CE;nk&#x101;igu&#x101;n</pr></trd>
+</snc>
   <trd lng="fr">bascule</trd>
   <trd lng="he">&nun;&#x5B7;&dalet;&nun;&#x5B5;&dalet;&#x5B8;&he;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30B7;&#x30FC;&#x30BD;&#x30FC;</trd>,
+    <trd/>,
+    <trd>&#x306F;&#x306D;&#x69CB;&#x3048;  <pr>&#x306F;&#x306D;&#x304B;&#x307E;&#x3048;</pr></trd>,
+    <trd>&#x306F;&#x306D;&#x677F;  <pr>&#x306F;&#x306D;&#x3044;&#x305F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&#x432;&#x430;&#x436;&#x456;&#x43B;&#x44C;</trd>,
     <trd>&#x43A;&#x43E;&#x440;&#x43E;&#x43C;&#x438;&#x441;&#x43B;&#x43E;</trd>,
@@ -220,12 +230,16 @@
     <trd>ingadozik</trd>,
     <trd>libik&oacute;k&aacute;zik</trd>
   </trdgrp>
+  <trd lng="ja">&#x4E0A;&#x4E0B;&#x3059;&#x308B;  <pr>&#x3058;&#x3087;&#x3046;&#x3052;&#x3059;&#x308B;</pr></trd>
   <trd lng="sk">h&uacute;pa&tcaron; sa</trd>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/14 08:39:48
+revo: transskribo per <pr>
+
 versio 1.21 2021/09/26 13:29:45
 Wolfram Diestel: +ekz-oj, ref-oj
 
@@ -245,8 +259,5 @@ Revision 1.14  2012/07/14 18:10:10  revo
 Marc Rausell: + trd ca
 
 Revision 1.13  2009/03/03 17:30:43  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2008/11/16 17:31:09  revo
 -->
 </vortaro>

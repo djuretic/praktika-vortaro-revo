@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tuf.xml,v 1.22 2022/03/28 14:44:12 revo Exp $">
+<art mrk="$Id: tuf.xml,v 1.28 2023/10/21 14:37:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tuf</rad>/o
@@ -30,14 +30,14 @@
         </fnt>;
       </ekz>
       <ekz>
-        sur la malnova komodo <klr>[&#x2026;]</klr> staris granda rezeda <tld/>o 
+        sur la malnova komodo <klr>[&#8230;]</klr> staris granda rezeda <tld/>o
         <klr>(<ref cel="buked.0o">bukedo</ref>)</klr> en glaso
         <fnt>
           <bib>IK</bib>
         </fnt>;
       </ekz>
       <ekz>
-        sub la <klr>[&#x2026;]</klr> brako &scirc;i havis <tld/>on de sekigitaj plantoj
+        sub la <klr>[&#8230;]</klr> brako &scirc;i havis <tld/>on de sekigitaj plantoj
         <fnt>
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
@@ -93,6 +93,10 @@
     <trd>csom&oacute;<klr> (nyal&aacute;b)</klr></trd>,
     <trd>nyal&aacute;b</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x675F;  <pr>&#x305D;&#x304F;</pr></trd>,
+    <trd>&#x623F;  <pr>&#x307C;&#12358;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>bosje</trd>,
     <trd>plok</trd>,
@@ -114,13 +118,13 @@
     <trd>chum&aacute;&ccaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x430;&#x441;&#x43C;&#x43E; (&#x432;&#x43E;&#x43B;&#x43E;&#x441;&#x441;&#x44F;)</trd>,
-    <trd>&#x447;&#x443;&#x431;</trd>,
-    <trd>&#x447;&#x443;&#x43F;&#x440;&#x438;&#x43D;&#x430;</trd>,
-    <trd>&#x432;&#x438;&#x445;&#x43E;&#x440;</trd>,
-    <trd>&#x43F;&#x43B;&#x44E;&#x43C;&#x430;&#x436;</trd>,
-    <trd>&#x43F;&#x443;&#x447;&#x43E;&#x43A;</trd>,
-    <trd>&#x432;&#x2019;&#x44F;&#x437;&#x43A;&#x430;</trd>
+    <trd>&#x43F;&c_a;&c_s;&#x43C;&#x43E; (&c_v;&#x43E;&#x43B;&#x43E;&c_s;&c_s;&#x44F;)</trd>,
+    <trd>&c_ch;&c_u;&c_b;</trd>,
+    <trd>&c_ch;&c_u;&#x43F;&c_r;&c_i;&#x43D;&c_a;</trd>,
+    <trd>&c_v;&c_i;&c_h;&#x43E;&c_r;</trd>,
+    <trd>&#x43F;&#x43B;&#x44E;&#x43C;&c_a;&c_zh;</trd>,
+    <trd>&#x43F;&c_u;&c_ch;&#x43E;&#x43A;</trd>,
+    <trd>&c_v;&#8217;&#x44F;&c_z;&#x43A;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -140,9 +144,11 @@
       <ekz>
         el &scirc;ia nekombita hararo pendas <tld/>etoj &ccirc;irka&ubreve; &scirc;ia ronda viza&gcirc;o
         <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=artikoloj-el-monato-2012-2018">Novelo &dash;
+        <aut>Laure Patas d'Illiers</aut>
+          <vrk><url ref="&Monato;/2018/012290.php">Novelo &dash;
           Sentabaka mateno</url></vrk>
+          <bib>Monato</bib>
+          <lok>2018/08, p. 36</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -152,17 +158,20 @@
        <ref cel="vat.0o">vato</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_s;&c_m;&c_a;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_ch;&c_u;&c_b;&c_o;&c_k;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>B&uuml;schelchen</trd>,
     <trd>Fussel</trd>
   </trdgrp>
 <trd lng="en">bit of lint</trd>
   <trdgrp lng="uk">
-    <trd>&#x447;&#x443;&#x431;&#x447;&#x438;&#x43A;</trd>,
-    <trd>&#x43F;&#x443;&#x447;&#x435;&#x447;&#x43E;&#x43A;</trd>
+    <trd>&c_ch;&c_u;&c_b;&c_ch;&c_i;&#x43A;</trd>,
+    <trd>&#x43F;&c_u;&c_ch;&c_je;&c_ch;&#x43E;&#x43A;</trd>
   </trdgrp>
 </drv>
-
 
 <drv mrk="tuf.har0o">
   <kap>har<tld/>o</kap>
@@ -193,6 +202,11 @@
        <ref cel="har.0plektajxo">harplekta&jcirc;o</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_ch;&c_u;&c_b;&c_o;&c_k;</trd>,
+    <trd>&c_h;&c_o;&c_h;&c_l;&c_ib;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_s;&c_m;&c_a;&c_ch;&c_k;&c_a;</trd>
+  </trdgrp>
   <trd lng="ca">cua de cavall</trd>
   <trdgrp lng="cs">
     <trd>chom&aacute;&ccaron; vlas&uring;</trd>,
@@ -210,6 +224,8 @@
     <trd>&uuml;st&ouml;k</trd>,
     <trd>hajcsom&oacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x6BDB;&#x30FB;&#x9AEA;&#x306E;&#x623F; 
+  <pr>&#12369;&#x30FB;&#x304B;&#x307F;&#x306E;&#12405;&#12373;</pr></trd>
   <trdgrp lng="pl">
     <trd>kosmyk</trd>,
     <trd>czupryna</trd>,
@@ -222,10 +238,10 @@
     <trd>&scaron;tica</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x447;&#x443;&#x431;</trd>,
-    <trd>&#x447;&#x443;&#x431;&#x447;&#x438;&#x43A;</trd>,
-    <trd>&#x447;&#x443;&#x43F;&#x440;&#x438;&#x43D;&#x430;</trd>,
-    <trd>&#x43E;&#x441;&#x435;&#x43B;&#x435;&#x434;&#x435;&#x446;&#x44C;</trd>
+    <trd>&c_ch;&c_u;&c_b;</trd>,
+    <trd>&c_ch;&c_u;&c_b;&c_ch;&c_i;&#x43A;</trd>,
+    <trd>&c_ch;&c_u;&#x43F;&c_r;&c_i;&#x43D;&c_a;</trd>,
+    <trd>&#x43E;&c_s;&c_je;&#x43B;&c_je;&c_d;&c_je;&c_c;&#x44C;</trd>
   </trdgrp>
 </drv>
 
@@ -234,6 +250,10 @@
   <snc>
     <ref tip="dif" cel="egret.0o">egreto</ref>
   </snc>
+     <trdgrp lng="be">
+      <trd>&c_ch;&c_u;&c_b;&c_o;&c_k;</trd>,
+      <trd>&c_s;&c_u;&c_l;&c_t;&c_a;&c_n; <klr tip="amb">(&c_z;&c_mol; &c_p;&c_je;&c_r;'&c_ja;)</klr></trd>
+    </trdgrp>
   <trd lng="ca">plomall</trd>
   <trdgrp lng="cs">
     <trd>p&eacute;&rcaron;ov&yacute; chochol</trd>,
@@ -245,6 +265,10 @@
   </trdgrp>
   <trd lng="fr">aigrette<klr tip="ind"> (touffe de plumes)</klr></trd>
   <trd lng="hu">b&oacute;bita</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7FBD;&#x98FE;  <pr>&#x306F;&#x306D;&#x304B;&#12374;</pr></trd>,
+    <trd>&#x51A0;&#x7FBD;  <pr>&#x304B;&#12435;&#12358;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>pi&oacute;ropusz</trd>,
     <trd>czub</trd>
@@ -256,11 +280,26 @@
     &c_p;&c_je;&c_r;&c_mol;&c_je;&c_v;)</klr></trd>
   </trdgrp>
   <trd lng="sk">chochol z peria</trd>
-  <trd lng="uk">&#x447;&#x443;&#x431;&#x447;&#x438;&#x43A;</trd>
+  <trd lng="uk">&c_ch;&c_u;&c_b;&c_ch;&c_i;&#x43A;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/21 14:37:42
+revo: transskribo per <pr>
+
+versio 1.27 2023/10/16 09:26:03
+Dmitri Gabinski: + trd be
+
+versio 1.25 2023/07/28 15:27:30
+Dmitri Gabinski: + trd be
+
+versio 1.24 2023/05/13 07:22:53
+Paul Peeraerts: kor de erara url
+
+versio 1.23 2023/05/06 15:11:57
+revo: aktualigo URL-unuoj
+
 versio 1.19 2021/06/19 09:31:51
 Wolfram Diestel: +ref
 
@@ -268,20 +307,5 @@ versio 1.18 2021/06/18 12:43:56
 Wolfram Diestel: +~eto; ekz-oj, ref-oj
 
 Revision 1.16  2015/06/29 16:40:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.15  2011/12/10 18:10:13  revo
-Marc Rausell: +trd ca
-
-Revision 1.14  2009/01/29 17:30:28  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2008/10/30 19:25:32  revo
-Russ Williams: +trd en
-
-Revision 1.12  2008/07/23 16:30:31  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2004/05/17 16:32:19  revo
 -->
 </vortaro>

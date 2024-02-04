@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: minoritat.xml,v 1.9 2022/05/01 12:05:12 revo Exp $">
+<art mrk="$Id: minoritat.xml,v 1.14 2024/01/26 17:40:06 revo Exp $">
 <kap>
   <rad>minoritat</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -15,17 +15,20 @@
       <ekz>
         diskriminacio de naciaj <tld/>oj
         <fnt>
+          <aut>Sylvia Brylska</aut>
+          <vrk><url ref="&Monato;/1993/A930801.php">&Ccirc;u reiri al naciaj
+          radikoj?</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9308-naciaj-radikoj.txt">&Ccirc;u reiri al naciaj radikoj?</url></vrk>
-          <lok>93/08</lok>
+          <lok>1993/08, p. 12</lok>
         </fnt>;
       </ekz>
       <ekz>
         <tld/>a registaro
         <fnt>
-          <bib>Monato</bib>
-          <aut>Donald Rogers</aut>
-          <vrk><url ref="&Steloj;monato2/006819.html">Nov-Zelando: Laborema koalicio</url></vrk>
+	<aut>Donald Rogers</aut>
+	<vrk><url ref="&Monato;/2000/006819.php">Laborema koalicio</url></vrk>
+	<bib>Monato</bib>
+	<lok>2000/03, p. 11</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -58,6 +61,10 @@
   <trd lng="es">minor&iacute;a</trd>
   <trd lng="fr">minorit&eacute;</trd>
   <trd lng="hu">kisebbs&eacute;g</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C11;&#x6570;&#x6D3E;  <pr>&#x3057;&#x3087;&#x3046;&#x3059;&#x3046;&#x306F;</pr></trd>,
+    <trd>&#x30DE;&#x30A4;&#x30CE;&#x30EA;&#x30C6;&#x30A3;&#x30FC;</trd>
+  </trdgrp>
   <trd lng="nl">minderheid<klr tip="ind"> (ontr.)</klr></trd>
   <trd lng="pl">mniejszo&sacute;&cacute;</trd>
   <trd lng="ru">&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_i;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -70,14 +77,35 @@
     <trd>minorita</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43C;&#x435;&#x43D;&#x448;&#x456;&#x441;&#x442;&#x44C;</trd>,
-    <trd>&#x43C;&#x435;&#x43D;&#x448;&#x438;&#x43D;&#x430;</trd>
+    <trd>&#x43C;&c_je;&#x43D;&c_sh;&c_ib;&c_s;&c_t;&#x44C;</trd>,
+    <trd>&#x43C;&c_je;&#x43D;&c_sh;&c_i;&#x43D;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5C11;&#x6570; <pr>sh&#x1CE;osh&#xF9;</pr></trd>,
+    <trd>&#x5C11;&#x6578; <pr>sh&#x1CE;osh&#xF9;</pr></trd>,
+    <trd>&#x5C11;&#x6570;&#x6C11;&#x65CF; <pr>sh&#x1CE;osh&#xF9;m&#xED;nz&#xFA;</pr></trd>,
+    <trd>&#x5C11;&#x6578;&#x6C11;&#x65CF; <pr>sh&#x1CE;osh&#xF9;m&#xED;nz&#xFA;</pr></trd>,
+    <trd>&#x5C11;&#x6570;&#x65CF;&#x7FA4; <pr>sh&#x1CE;osh&#xF9;z&#xFA;q&#xFA;n</pr></trd>,
+    <trd>&#x5C11;&#x6578;&#x65CF;&#x7FA4; <pr>sh&#x1CE;osh&#xF9;z&#xFA;q&#xFA;n</pr></trd>,
+    <trd>&#x5C11;&#x6570;&#x6D3E; <pr>sh&#x1CE;osh&#xF9;p&#xE0;i</pr></trd>,
+    <trd>&#x5C11;&#x6578;&#x6D3E; <pr>sh&#x1CE;osh&#xF9;p&#xE0;i</pr></trd>,
+    <trd>&#x5C11;&#x6570;&#x515A; <pr>sh&#x1CE;osh&#xF9;d&#x1CE;ng</pr></trd>,
+    <trd>&#x5C11;&#x6578;&#x9EE8; <pr>sh&#x1CE;osh&#xF9;d&#x1CE;ng</pr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.13 2023/10/19 16:45:37
+revo: transskribo per <pr>
+
+versio 1.11 2023/04/24 06:32:40
+Paul Peeraerts: &Steloj -> &Monato
+
+versio 1.10 2023/04/11 14:27:39
+Paul Peeraerts: Steloj -> monato.be
+
 versio 1.9 2022/05/01 12:05:12
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -91,12 +119,5 @@ Revision 1.4  2013/08/09 08:10:11  revo
 Joop Eggen: +trd bg k.a.
 
 Revision 1.3  2013/04/04 18:10:10  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.2  2009/10/09 16:30:47  revo
-Paul Peeraerts: +nl +ref
-
-Revision 1.1  2009/08/08 16:34:17  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

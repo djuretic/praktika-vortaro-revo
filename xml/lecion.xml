@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: lecion.xml,v 1.29 2022/05/01 12:04:34 revo Exp $">
+<art mrk="$Id: lecion.xml,v 1.34 2024/01/15 16:14:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>lecion</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>lecion</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="lecion.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -14,10 +14,10 @@
       <ref tip="vid" cel="instru.0ajxo">Instrua&jcirc;o</ref>
       kiu estas parto de
       <ref tip="malprt" cel="kurs.0o.lerna">kurso</ref>.
-    </dif>  
+    </dif>
     <subsnc mrk="lecion.0o.kuna">
       <dif>
-        Tio, kion instruisto lernigas al lernanto:   
+        Tio, kion instruisto lernigas al lernanto:
         <ekz>
           doni <tld/>ojn de muziko kaj de franca lingvo
           <fnt>
@@ -80,7 +80,7 @@
         </ekz>
         <ekz>
           <ind>doni <tld/>on de moroj</ind><fnt><bib>PrV</bib></fnt>
-          <klr>(severe ripro&ccirc;i; vd 
+          <klr>(severe ripro&ccirc;i; vd
             <refgrp tip="vid">
               <ref cel="lav">lavo</ref>,
               <ref cel="kap.0o">kapo</ref>
@@ -200,15 +200,25 @@
   <trd lng="en">lesson</trd>
   <trd lng="es">lecci&oacute;n</trd>
   <trd lng="fr">le&ccedil;on</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6388;&#x696D;  <pr>&#x3058;&#x3085;&#x304E;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x3051;&#x3044;&#x3053;</trd>,
+    <trd>&#x30EC;&#x30C3;&#x30B9;&#x30F3;  <pr>&#x308C;&#x3063;&#x3059;&#x3093;</pr></trd>,
+    <trd>&#x5B66;&#x8AB2;  <pr>&#x304C;&#x3063;&#x304B;</pr></trd>,
+    <trd>&#x8AB2;&#x696D;  <pr>&#x304B;&#x304E;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x8AB2;  <pr>&#x304B;</pr></trd>,
+    <trd>&#x6559;&#x8A13;  <pr>&#x304D;&#x3087;&#x3046;&#x304F;&#x3093;</pr></trd>,
+    <trd>&#x6212;&#x3081;  <pr>&#x3044;&#x307E;&#x3057;&#x3081;</pr></trd>
+  </trdgrp>
   <trd lng="nl">les</trd>
   <trdgrp lng="pl">
     <trd>lekcja</trd>,
     <trd>pogadanka</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="pt">
    <trd>li&ccedil;&atilde;o</trd>,
    <trd>aula</trd>,
-   <trd>ensinamento</trd>    
+   <trd>ensinamento</trd>
   </trdgrp>
   <trdgrp lng="ro">
     <trd>lec&#x21B;ie</trd>,
@@ -220,9 +230,17 @@
     <trd>&uacute;loha; pou&ccaron;enie</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x443;&#x440;&#x43E;&#x43A;</trd>,
-    <trd>&#x43B;&#x435;&#x43A;&#x446;&#x456;&#x44F;</trd>,
-    <trd>&#x437;&#x430;&#x43D;&#x44F;&#x442;&#x442;&#x44F;</trd>
+    <trd>&c_u;&c_r;&#x43E;&#x43A;</trd>,
+    <trd>&#x43B;&c_je;&#x43A;&c_c;&c_ib;&#x44F;</trd>,
+    <trd>&c_z;&c_a;&#x43D;&#x44F;&c_t;&c_t;&#x44F;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6559;&#x8A13; <pr>ji&#xE0;oxun</pr></trd>,
+    <trd>&#x6559;&#x8BAD; <pr>ji&#xE0;oxun</pr></trd>,
+    <trd>&#x529F;&#x8AB2; <pr>g&#x14D;ngk&#xE8;</pr></trd>,
+    <trd>&#x529F;&#x8BFE; <pr>g&#x14D;ngk&#xE8;</pr></trd>,
+    <trd>&#x8AB2;&#x696D; <pr>k&#xE8;y&#xE8;</pr></trd>,
+    <trd>&#x8BFE;&#x4E1A; <pr>k&#xE8;y&#xE8;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -230,7 +248,7 @@
   <kap><tld/>i</kap>
   <snc mrk="lecion.0i.PED">
     <dif>
-      Prezenti, instrui <tld/>on:
+      Prezenti, <ref tip="super" cel="instru.0i">instrui</ref> <tld/>on:
       <ekz>
         al vi mi <tld/>os vane a&ubreve; mise
         <fnt>
@@ -252,6 +270,7 @@
     </dif>
     <ref tip="super" cel="instru.0i">instrui</ref>
   </snc>
+  <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol; <ind>&c_l;&c_je;&c_k;&c_c;&c_y;&c_ju;</ind></trd>
   <trdgrp lng="de">
     <trd>lehren</trd>,
     <trd>unterrichten</trd>,
@@ -259,12 +278,30 @@
   </trdgrp>
   <trd lng="es">hacer los <ind>deberes</ind></trd>
   <trd lng="fr">faire la <ind>le&ccedil;on</ind></trd>
-  <trd lng="pl">lekcj&eogonek; prowadzi&cacute;</trd>     
+  <trd lng="pl">lekcj&eogonek; prowadzi&cacute;</trd>
   <trd lng="ro">lec&#x21B;ii de plumb</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E8B;&#x5148;&#x544A;&#x77E5; <pr>sh&#xEC;xi&#x101;ng&#xE0;ozh&#x12B;</pr></trd>,
+    <trd>&#x8B1B;&#x6388; <pr>ji&#x1CE;ngsh&#xF2;u</pr></trd>,
+    <trd>&#x8BB2;&#x6388; <pr>ji&#x1CE;ngsh&#xF2;u</pr></trd>,
+    <trd>&#x5F00;&#x8BFE; <pr>k&#x101;ik&#xE8;</pr></trd>,
+    <trd>&#x958B;&#x8AB2; <pr>k&#x101;ik&#xE8;</pr></trd>,
+    <trd>&#x6559;&#x5BFC; <pr>ji&#xE0;od&#x1CE;o</pr></trd>,
+    <trd>&#x6559;&#x5C0E; <pr>ji&#xE0;od&#x1CE;o</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2024/01/13 11:22:42
+Wolfram Diestel: +ref
+
+versio 1.32 2023/10/19 05:15:34
+revo: transskribo per <pr>
+
+versio 1.30 2023/03/17 07:26:27
+Dmitri Gabinski: + trd be
+
 versio 1.29 2022/05/01 12:04:34
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -278,14 +315,5 @@ Revision 1.23  2015/06/29 16:33:19  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2015/05/05 18:10:16  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.21  2014/03/26 02:10:17  revo
-Jeromo Vasxe: snc/subsnc, + ~i
-
-Revision 1.20  2006/09/01 18:30:17  revo
-Tulio Flores: +tr pt
-
-Revision 1.19  2005/06/01 16:31:02  revo
 -->
 </vortaro>

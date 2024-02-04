@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: paradi1.xml,v 1.28 2022/05/01 17:51:19 revo Exp $">
+<art mrk="$Id: paradi1.xml,v 1.33 2023/10/20 14:25:19 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>paradiz</rad>/o
 </kap>
@@ -71,12 +71,18 @@
   <trd lng="cs">r&aacute;j</trd>
   <trd lng="de">Paradies</trd>
   <trd lng="fr">paradis</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5929;&#x56FD;  <pr>&#x3066;&#x3093;&#x3054;&#x304F;</pr></trd>,
+    <trd/>,
+    <trd>&#x6975;&#x697D;  <pr>&#x3054;&#x304F;&#x3089;&#x304F;</pr></trd>,
+    <trd>&#x697D;&#x5712;  <pr>&#x3089;&#x304F;&#x3048;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">paradijs</trd>
   <trd lng="ru">&c_r;&c_a;&c_j;</trd>
   <trd lng="sk">raj</trd>
   <trd lng="sv">paradis</trd>
-  <trd lng="uk">&#x440;&#x430;&#x439;</trd>
-  <trd lng="zh">&#x5929;&#x5802;<klr> [ti&amacron;nt&aacute;ng]</klr></trd>
+  <trd lng="uk">&c_r;&c_a;&c_j;</trd>
+  <trd lng="zh">&#x5929;&#x5802;<klr> [ti&#x15D1;nt&aacute;ng]</klr></trd>
 </drv>
 
 <drv mrk="paradi1.impost0o">
@@ -120,16 +126,18 @@
         mi rimarkigis al &scirc;i, ke la plankokaheloj memorigas min pri
         la
         <tld/>ludo, kaj tiel ekis konversacio pri infanludoj.
-        <fnt><aut>Garbhan Macaoidh</aut>,
-        <vrk><url ref="&Monato;/007517.html">Perdita
+        <fnt>
+        <aut>Garbhan MacAoidh</aut>,
+        <vrk><url ref="&Monato;/2001/007517.html">Perdita
         paradizo</url></vrk>,
         <bib>Monato</bib>,
-        <lok>2001-10</lok>
+        <lok>2001/10, p. 13</lok>
         </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="fak.0saltaludo">fakslata ludo</ref>
   </snc>
+  <trd lng="be">&c_k;&c_l;&c_ja;&c_s;&c_y;&c_k;&c_ib; <klr>(&c_g;&c_u;&c_l;&c_mol;&c_n;&c_ja;)</klr></trd>
   <trd lng="br">troadig-kamm</trd>
   <trdgrp lng="ca">
     <trd>xarranca</trd>,
@@ -141,6 +149,7 @@
   <trd lng="es">coxcojilla</trd>
   <trd lng="fr">marelle</trd>
   <trd lng="hu">ugr&oacute;iskola</trd>
+  <trd lng="ja">&#x77F3;&#x3051;&#x308A;  <pr>&#x3044;&#x3057;&#x3051;&#x308A;</pr></trd>
   <trd lng="nl">hinkelspel</trd>
   <trd lng="pl">gra w <ind>klasy</ind></trd>
   <trdgrp lng="pt">
@@ -149,13 +158,25 @@
   <trd lng="ru">&c_k;&c_l;&c_a;&c_s;&c_s;&c_i;&c_k;&c_i; <klr tip="amb">(&c_i;&c_g;&c_r;&c_a;)</klr></trd>
   <trd lng="sk">pan&aacute;k</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43B;&#x430;&#x441;&#x438;</trd>,
-    <trd>&#x43D;&#x435;&#x431;&#x43E;</trd>
+    <trd>&#x43A;&#x43B;&c_a;&c_s;&c_i;</trd>,
+    <trd>&#x43D;&c_je;&c_b;&#x43E;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/20 14:25:19
+revo: transskribo per <pr>
+
+versio 1.31 2023/05/26 14:27:19
+Paul Peeraerts: + lok 
+
+versio 1.30 2023/04/10 08:30:35
+Paul Peeraerts: korekto de erara Monato-ref
+
+versio 1.29 2023/01/24 09:27:46
+Dmitri Gabinski: + trd be
+
 versio 1.28 2022/05/01 17:51:19
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -166,17 +187,5 @@ Revision 1.24  2015/07/04 08:37:41  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.23  2015/06/29 16:40:17  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.22  2012/08/04 07:10:28  revo
-Marc Rausell: + trd ca
-
-Revision 1.21  2010/04/09 16:32:08  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.20  2008/02/11 17:30:35  revo
-Wieland Pusch: +trd de+bg
-
-Revision 1.19  2006/03/31 10:23:39  revo
 -->
 </vortaro>

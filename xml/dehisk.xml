@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dehisk.xml,v 1.19 2022/03/15 15:50:54 revo Exp $">
+<art mrk="$Id: dehisk.xml,v 1.23 2023/11/04 13:16:26 revo Exp $">
 <kap>
   <rad>dehisk</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,7 +11,8 @@
   <snc mrk="dehisk.0i.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      <klr>(<ref cel="perika1.0o">perikarpo</ref>)</klr> Malfermi&gcirc;i per la natura disi&gcirc;o de la valvoj:
+      <klr>(<ref cel="perika1.0o">perikarpo</ref>)</klr> Malfermi&gcirc;i per la natura disi&gcirc;o de la
+      valvoj:
       <ekz>
         <ind><tld/>a</ind> frukto;
         <trd lng="ca">dehiscent</trd>
@@ -33,6 +34,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_s;&c_k;&c_r;&c_y;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_l;&c_u;&c_s;&c_n;&c_u;&c_c;&c_mol;</trd>,
+    <trd>&c_r;&c_e;&c_p;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trd lng="ca">obrir-se naturalment</trd>
   <trd lng="cs">puknout <klr>(bot.)</klr></trd>
   <trdgrp lng="de">
@@ -46,6 +52,7 @@
        <trd>kipattan<klr tip="ind"> (pl. r&uuml;gy)</klr></trd>,
        <trd>kifakad<klr tip="ind"> (pl. r&uuml;gy)</klr></trd>
     </trdgrp>
+  <trd lng="ja">&#x88C2;&#x958B;&#x3059;&#x308B;  <pr>&#x3055;&#x3042;&#x3059;&#x308B;</pr></trd>
   <trd lng="pl">p&eogonek;ka&cacute;</trd>
   <trd lng="pt">apresentar <ind>deisc&ecirc;ncia</ind></trd>
   <trdgrp lng="ru">
@@ -55,9 +62,10 @@
     </trdgrp>
   <trd lng="sk">roztvori&tcaron; sa</trd>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x43E;&#x437;&#x43A;&#x440;&#x438;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x442;&#x440;&#x456;&#x441;&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44F; (&#x43F;&#x440;&#x43E; &#x43F;&#x43B;&#x43E;&#x434;&#x438;)</trd>
+    <trd>&c_r;&#x43E;&c_z;&#x43A;&c_r;&c_i;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>,
+    <trd>&c_r;&#x43E;&c_z;&c_t;&c_r;&c_ib;&c_s;&#x43A;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F; (&#x43F;&c_r;&#x43E; &#x43F;&#x43B;&#x43E;&c_d;&c_i;)</trd>
   </trdgrp>
+  <trd lng="zh">&#x577C; <pr>ch&#xE8;</pr></trd>
 </drv>
 
 <drv mrk="dehisk.0ado">
@@ -77,6 +85,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_r;&c_a;&c_s;&c_k;&c_r;&c_y;&c_c;&c_mol;&c_c;&c_jo; <klr>(&c_p;&c_l;&c_o;&c_d;&c_a;, &c_k;&c_v;&c_je;&c_t;&c_k;&c_ib;)</klr></trd>
   <trd lng="ca">dehisc&egrave;ncia</trd>
   <trdgrp lng="cs">
     <trd>puknut&iacute; <klr>(plodu)</klr></trd>,
@@ -89,6 +98,7 @@
   <trd lng="en">dehiscence</trd>
   <trd lng="fr">d&eacute;hiscence</trd>
   <trd lng="he">&he;&tav;&bet;&qof;&ayin;&vav;&tav;</trd>
+  <trd lng="ja">&#x88C2;&#x958B;  <pr>&#x308C;&#x3063;&#x304B;&#x3044;</pr></trd>
   <trd lng="pt">deisc&ecirc;ncia</trd>
   <trdgrp lng="sk">
     <trd>pukanie <klr>(plodu)</klr></trd>,
@@ -98,6 +108,12 @@
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/14 11:26:53
+revo: transskribo per <pr>
+
+versio 1.20 2022/12/08 08:33:42
+Dmitri Gabinski: + trd be
+
 versio 1.18 2021/08/20 17:32:52
 Wolfram Diestel: +ekz
 
@@ -114,11 +130,5 @@ Revision 1.12  2009/07/08 16:31:06  revo
 Wieland Pusch: +ref
 
 Revision 1.11  2009/07/07 16:30:59  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.10  2007/07/19 16:31:03  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2003/04/11 16:32:05  revo
 -->
 </vortaro>

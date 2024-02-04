@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: palm.xml,v 1.34 2022/06/11 16:40:00 revo Exp $">
+<art mrk="$Id: palm.xml,v 1.39 2023/10/20 14:25:19 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>palm</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -59,6 +59,10 @@
   <trd lng="fr">palmier</trd>
   <trd lng="hu">p&aacute;lma</trd>
   <trd lng="id">palem</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30E4;&#x30B7;</trd>,
+    <trd>&#x30B7;&#x30E5;&#x30ED;</trd>
+  </trdgrp>
   <trd lng="nl">palm</trd>
   <trd lng="pl">palma</trd>
   <trd lng="pt">palmeira</trd>
@@ -73,7 +77,7 @@
   <snc mrk="palm.0oj.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Plej ofte tropikaj arboj kun senbran&ccirc;a trunko kaj densa krono da longaj &ccirc;iamverdaj folivicoj, 
+      Plej ofte tropikaj arboj kun senbran&ccirc;a trunko kaj densa krono da longaj &ccirc;iamverdaj folivicoj,
       <ref tip="lst" lst="voko:botanikaj_familioj" cel="famili.0o.BIO">familio</ref>
        de <ref tip="malprt" cel="kotile.unu0aj">unukotiledonaj</ref> vegeta&jcirc;oj (<trd
        lng="la">Arecaceae</trd>) kun botanika nomo <ref tip="sin" cel="arekac.0oj">arekacoj</ref>.
@@ -136,6 +140,7 @@
   <trd lng="en">palm frond</trd>
   <trd lng="fr">palme</trd>
   <trd lng="hu">p&aacute;lma&aacute;g</trd>
+  <trd lng="ja">&#x30E4;&#x30B7;&#x306E;&#33865;  <pr>&#12420;&#12375;&#x306E;&#x306F;</pr></trd>
   <trd lng="nl">palmtak</trd>
   <trdgrp lng="pl">
     <trd>li&sacute;&cacute;  <ind>palmowy</ind></trd>,
@@ -156,14 +161,14 @@
     <uzo tip="fak">KRI</uzo>
     <dif>
       <ref tip="lst" cel="fest.0o" lst="voko:festoj">Festo</ref>
-      memoriganta la eniron de Jesuo en Jerusalemon sub 
+      memoriganta la eniron de Jesuo en Jerusalemon sub
       honore svingataj bran&ccirc;oj de <tld/>oj:
       <ekz>
         en la Moskva Regno la patriarko je la <tld lit="P"/>odiman&ccirc;o venadis rajdante
         sur azeno kiun piede kondukis la caro
         <fnt>
           <bib>LOdE</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">La tri epokfaraj
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">La tri epokfaraj
           eltrovoj</url></vrk>
         </fnt>.
       </ekz>
@@ -178,6 +183,8 @@
   <trd lng="fr">dimanche des rameaux</trd>
   <trd lng="hu">vir&aacute;gvas&aacute;rnap</trd>
   <trd lng="id"><ind>Minggu</ind> Palma</trd>
+  <trd lng="ja">&#x68D5;&#x6ADA;&#x306E;&#32854;&#x65E5; 
+  <pr>&#12375;&#12421;&#x308D;&#x306E;&#12402;&#12376;&#x308A;&#x306B;&#12385;</pr></trd>
   <trd lng="nl">Palmzondag</trd>
   <trd lng="pl">Niedziela  <ind>Palmowa</ind></trd>
   <trd lng="ro">Duminica Floriilor</trd>
@@ -200,10 +207,11 @@
         &ccirc;apojn kaj blankajn <tld/>opied-similajn tol&scirc;uojn: kiel sencerbaj anasoj ili
         aspektas
         <fnt>
-          <bib>Monato</bib>
-          <aut>Garbhan Macaoidh</aut>
-          <vrk><url ref="&Steloj;monato2/007076.html">Ho, tempoj! Ho, moroj!</url></vrk>
-        </fnt>;
+          <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2000/007076.php">Ho, tempoj! Ho, moroj!</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 19</lok>
+          </fnt>;
       </ekz>
       <ekz>
         ili ne tute estis korvoj, nek talpoj, <klr>[&#8230;]</klr>, ili lame kaj neegale
@@ -225,6 +233,11 @@
   <trd lng="es">palm&iacute;pedo</trd>
   <trd lng="fr">palmip&egrave;de<klr> (adj.)</klr></trd>
   <trd lng="hu">&uacute;sz&oacute;l&aacute;b&uacute;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6C34;&#x304B;&#x304D;&#x306E;&#12354;&#x308B; 
+    <pr>&#x307F;&#x305A;&#x304B;&#x304D;&#x306E;&#12354;&#x308B;</pr></trd>,
+    <trd>&#x8E7C;&#x8DB3;&#x306E; <pr>&#12412;&#12367;&#12381;&#12367;&#12398;</pr></trd>
+  </trdgrp>
   <trd lng="nl">met <ind>zwemvliezen</ind></trd>
   <trd lng="pl">z palcami po&lstroke;&aogonek;czonymi b&lstroke;on&aogonek; p&lstroke;awn&aogonek;</trd>
   <trd lng="ro">cu degetele conectate printr-o membran&abreve;</trd>
@@ -234,8 +247,20 @@
 </art>
 <!--
 $Log$
+versio 1.39 2023/10/20 14:25:19
+revo: transskribo per <pr>
+
+versio 1.38 2023/09/13 18:30:38
+Wolfram Diestel: pr. ja
+
+versio 1.36 2023/05/06 14:26:03
+revo: aktualigo URL-unuoj
+
+versio 1.35 2023/05/01 07:25:21
+Paul Peeraerts: Steloj -> monato
+
 versio 1.34 2022/06/11 16:40:00
-Vito Redsky: + trd pl + trd ro 
+Vito Redsky: + trd pl + trd ro
 
 versio 1.33 2022/06/03 06:36:35
 Dmitri Gabinski: + trd be
@@ -244,17 +269,5 @@ versio 1.32 2022/05/01 17:51:18
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.30 2021/10/25 16:45:41
-Wolfram Diestel: +ekz-oj, ref-sin
-
-Revision 1.27  2016/03/07 19:10:25  revo
-Warut Bunprasert: +trd th
-
-Revision 1.26  2015/04/02 05:10:17  revo
-Carlos Garcia: +trd es -o -festo -pieda
-
-Revision 1.25  2013/09/08 15:10:50  revo
-Wolfram Diestel: ref al listo festoj
-
-Revision 1.24  2013/08/25 14:10:31  revo
 -->
 </vortaro>

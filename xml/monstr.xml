@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: monstr.xml,v 1.21 2022/03/23 14:02:26 revo Exp $">
+<art mrk="$Id: monstr.xml,v 1.25 2024/01/26 19:05:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>monstr</rad>/o
@@ -12,7 +12,8 @@
     <uzo tip="fak">BIO</uzo>
     <uzo tip="fak">MIT</uzo>
     <dif>
-      <ref tip="super" cel="viv.0ajxo">Viva&jcirc;o</ref> besta a&ubreve; vegeta kun nenormala formo kaj strukturo:
+      <ref tip="super" cel="viv.0ajxo">Viva&jcirc;o</ref> besta a&ubreve; vegeta kun nenormala formo kaj
+      strukturo:
       <ekz>
         &ccirc;u mi estas <klr>[&#x2026;]</klr> mara <tld/>o, ke Vi starigis gardon por mi?
         <fnt>
@@ -52,7 +53,7 @@
   <snc mrk="monstr.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      <ref tip="super" cel="est.0ajxo.ulo">Esta&jcirc;o</ref>, kiu mirigas a&ubreve; timigas 
+      <ref tip="super" cel="est.0ajxo.ulo">Esta&jcirc;o</ref>, kiu mirigas a&ubreve; timigas
       pro siaj ekscesaj, nenormalaj ecoj:
       <ekz>
         la lar&gcirc;a bu&scirc;o de la <tld/>o kuntiri&gcirc;is kaj fari&gcirc;is malgranda kaj ru&gcirc;a
@@ -130,8 +131,17 @@
     <trd>Monster</trd>,
     <trd>Ungeheuer</trd>
   </trdgrp>
+  <trd lng="en">monster</trd>
   <trd lng="es">monstruo</trd>
   <trd lng="fr">monstre</trd>
+  <trdgrp lng="ja">
+    <trd>&#x602A;&#x7269;  <pr>&#x304B;&#x3044;&#x3076;&#x3064;</pr></trd>,
+    <trd>&#x5316;&#x3051;&#x7269;  <pr>&#x3070;&#x3051;&#x3082;&#x306E;</pr></trd>,
+    <trd>&#x602A;&#x7363;  <pr>&#x304B;&#x3044;&#x3058;&#x3085;&#x3046;</pr></trd>,
+    <trd>&#x6B8B;&#x5FCD;&#x306A;&#x4EBA;  <pr>&#x3056;&#x3093;&#x306B;&#x3093;&#x306A;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x6975;&#x60AA;&#x4EBA;  <pr>&#x3054;&#x304F;&#x3042;&#x304F;&#x306B;&#x3093;</pr></trd>,
+    <trd>&#x4EBA;&#x975E;&#x4EBA;  <pr>&#x306B;&#x3093;&#x3074;&#x306B;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">monster</trd>
   <trd lng="pt">monstro</trd>
   <trdgrp lng="sk">
@@ -143,9 +153,20 @@
   </trdgrp>
   <trd lng="sv">monster</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x442;&#x432;&#x43E;&#x440;&#x430;</trd>,
-    <trd>&#x447;&#x443;&#x434;&#x43E;&#x432;&#x438;&#x441;&#x44C;&#x43A;&#x43E;</trd>,
-    <trd>&#x43C;&#x43E;&#x43D;&#x441;&#x442;&#x440;</trd>
+    <trd>&#x43F;&#x43E;&c_t;&c_v;&#x43E;&c_r;&c_a;</trd>,
+    <trd>&c_ch;&c_u;&c_d;&#x43E;&c_v;&c_i;&c_s;&#x44C;&#x43A;&#x43E;</trd>,
+    <trd>&#x43C;&#x43E;&#x43D;&c_s;&c_t;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x602A;&#x517D; <pr>gu&#xE0;ish&#xF2;u</pr></trd>,
+    <trd>&#x602A;&#x7378; <pr>gu&#xE0;ish&#xF2;u</pr></trd>,
+    <trd>&#x5996;&#x602A; <pr>y&#x101;ogu&#xE0;i</pr></trd>,
+    <trd>&#x602A; <pr>gu&#xE0;i</pr></trd>,
+    <trd>&#x7075;&#x5F02; <pr>l&#xED;ngy&#xEC;</pr></trd>,
+    <trd>&#x9748;&#x7570; <pr>l&#xED;ngy&#xEC;</pr></trd>,
+    <trd>&#x9B54;&#x5934; <pr>m&#xF3;t&#xF3;u</pr></trd>,
+    <trd>&#x9B54;&#x982D; <pr>m&#xF3;t&#xF3;u</pr></trd>,
+    <trd>&#x602A;&#x7269;&#x4F3C; <pr>gu&#xE0;iw&#xF9;s&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -169,7 +190,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="anomal.0a">anomalia</ref>
-    </refgrp>   
+    </refgrp>
     <trdgrp lng="hu">
       <trd>torz</trd>,
       <trd>elfajzott</trd>,
@@ -214,7 +235,7 @@
           <bib>Rabistoj</bib>
           <lok>Akto Kvara</lok>
         </fnt>.
-      </ekz>  
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="terur.0a.FIG">terura<sncref/></ref>
@@ -241,8 +262,15 @@
     <trd>ungeheuer</trd>,
     <trd>abscheulich</trd>
   </trdgrp>
+  <trd lng="en">monstrous</trd>
   <trd lng="es">monstruoso</trd>
   <trd lng="fr">monstrueux</trd>
+  <trdgrp lng="ja">
+    <trd>&#x602A;&#x7269;&#x306E;  <pr>&#x304B;&#x3044;&#x3076;&#x3064;&#x306E;</pr></trd>,
+    <trd>&#x5947;&#x602A;&#x306A;  <pr>&#x304D;&#x304B;&#x3044;&#x306A;</pr></trd>,
+    <trd>&#x919C;&#x60AA;&#x306A;  <pr>&#x3057;&#x3085;&#x3046;&#x3042;&#x304F;&#x306A;</pr></trd>,
+    <trd>&#x6050;&#x308B;&#x3079;&#x304D;  <pr>&#x304A;&#x305D;&#x308B;&#x3079;&#x304D;</pr></trd>
+  </trdgrp>
   <trd lng="nl">monsterachtig</trd>
   <trd lng="ru">&c_ch;&c_u;&c_d;&c_o;&c_v;&c_i;&c_shch;&c_n;&c_y;&c_j;
   </trd>
@@ -253,14 +281,25 @@
     <trd>pr&iacute;&scaron;ern&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x434;&#x438;&#x432;&#x43E;&#x432;&#x438;&#x436;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43E;&#x442;&#x432;&#x43E;&#x440;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x441;&#x442;&#x440;&#x430;&#x445;&#x456;&#x442;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>
+    <trd>&c_d;&c_i;&c_v;&#x43E;&c_v;&c_i;&c_zh;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43E;&c_t;&c_v;&#x43E;&c_r;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_a;&c_h;&c_ib;&c_t;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x602A;&#x5F02; <pr>gu&#xE0;iy&#xEC;</pr></trd>,
+    <trd>&#x602A;&#x7570; <pr>gu&#xE0;iy&#xEC;</pr></trd>,
+    <trd>&#x53EF;&#x6015; <pr>k&#x11B;p&#xE0;</pr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.24 2023/10/19 18:36:53
+revo: transskribo per <pr>
+
+versio 1.22 2023/07/24 01:49:54
+Mahaer Mahmud: aldonis anglajn tradukojn
+
 versio 1.20 2021/12/09 18:35:05
 Wolfram Diestel: ekz-oj, ref-oj, trd de
 
@@ -277,11 +316,5 @@ Revision 1.15  2008/11/24 17:30:53  revo
 Wieland Pusch: +trd bg
 
 Revision 1.14  2007/11/06 18:57:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2006/08/30 15:11:37  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2006/08/29 16:41:32  revo
 -->
 </vortaro>

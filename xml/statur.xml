@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: statur.xml,v 1.25 2022/10/07 10:42:44 revo Exp $">
+<art mrk="$Id: statur.xml,v 1.28 2023/10/21 07:46:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>statur</rad>/o <fnt><bib>VdE</bib></fnt>
@@ -45,7 +45,10 @@
         <lok>Vieno:IEM, 1997</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="kompleksi.0o">kompleksio</ref>
+    <refgrp tip="vid">
+      <ref cel="kompleksi.0o">kompleksio</ref>,
+      <ref cel="ten.sin0o">sinteno</ref>
+    </refgrp>
     <trdgrp lng="ru">
       <trd><ofc>1</ofc>&c_o;&c_s;&c_a;&c_n;&c_k;&c_a;</trd>,
       <trd><ofc>1</ofc>&c_s;&c_t;&c_a;&c_n;</trd>,
@@ -54,20 +57,22 @@
     </trdgrp>
   </snc>
   <snc mrk="statur.0o.alto">
-    <refgrp tip="dif">
-      <ref cel="alt.0eco.kresko">alteco<sncref/></ref>,
-      <ref cel="kresk.0o.KOMUNE">kresko<sncref/></ref>:
-    </refgrp>
-    <ekz>
-      aldoni unu ulnon al sia <tld/>o
-      <fnt><bib>NT</bib> <lok>&Mat; 6:27</lok></fnt>;
-    </ekz><ekz>
-      Jesuo progresis en sa&gcirc;eco kaj <tld/>o
-      <fnt><bib>NT</bib> <lok>&Luk; 2:52</lok></fnt>;
-    </ekz><ekz>
-      li estis malgranda je <tld/>o
-      <fnt><bib>NT</bib> <lok>&Luk; 19:3</lok></fnt>.
-    </ekz>
+    <dif>
+      <refgrp tip="dif">
+        <ref cel="alt.0eco.kresko">Alteco<sncref/></ref>,
+        <ref cel="kresk.0o.KOMUNE">kresko<sncref/></ref>
+      </refgrp>:
+      <ekz>
+        aldoni unu ulnon al sia <tld/>o
+        <fnt><bib>NT</bib> <lok>&Mat; 6:27</lok></fnt>;
+      </ekz><ekz>
+        Jesuo progresis en sa&gcirc;eco kaj <tld/>o
+        <fnt><bib>NT</bib> <lok>&Luk; 2:52</lok></fnt>;
+      </ekz><ekz>
+        li estis malgranda je <tld/>o
+        <fnt><bib>NT</bib> <lok>&Luk; 19:3</lok></fnt>.
+      </ekz>
+    </dif>
     <trd lng="ru">&c_r;&c_o;&c_s;&c_t;</trd>
   </snc>
   <snc mrk="statur.0o.FIG">
@@ -110,6 +115,10 @@
     <trd><ofc>1</ofc>stature</trd>
   </trdgrp>
   <trd lng="hu">termet</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8EAB;&#x9577;  <pr>&#x3057;&#x3093;&#x3061;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x80CC;&#x4E08;  <pr>&#x305B;&#x305F;&#x3051;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>postuur</trd>,
     <trd>lichaamsbouw</trd>
@@ -162,12 +171,19 @@
     <trd>d&eacute;lceg</trd>,
     <trd>sz&eacute;p <ind>termet&udblac;</ind>&gt;</trd>
   </trdgrp>
+  <trd lng="ja">&#x3059;&#x3089;&#x308A;&#x3068;&#x80CC;&#x306E;&#x9AD8;&#x3044;  <pr>&#x3059;&#x3089;&#x308A;&#x3068;&#x305B;&#x306E;&#x305F;&#x304B;&#x3044;</pr></trd>
   <trd lng="ru">&c_s;&c_t;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">kr&aacute;snej postavy</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.28 2023/10/21 07:46:48
+revo: transskribo per <pr>
+
+versio 1.26 2023/03/10 07:27:41
+Wolfram Diestel: +ref
+
 versio 1.25 2022/10/07 10:42:44
 Sergio Pokrovskij: +sncref
 
@@ -184,11 +200,5 @@ versio 1.21 2022/10/03 13:08:40
 Sergio Pokrovskij: +trd=ru, +ekz
 
 versio 1.20 2022/10/03 08:48:48
-Sergio Pokrovskij: -tajperaro +ekz
-
-versio 1.19 2022/10/03 07:42:00
-Sergio Pokrovskij: +ofc
-
-versio 1.18 2022/05/04 08:37:13
 -->
 </vortaro>

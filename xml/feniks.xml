@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: feniks.xml,v 1.25 2022/09/19 14:04:17 revo Exp $">
+<art mrk="$Id: feniks.xml,v 1.30 2023/11/14 06:34:00 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>feniks</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 
 <drv mrk="feniks.0o">
@@ -14,11 +15,22 @@
     <dif>
       Fabela birdo renaski&gcirc;anta el sia cindro:
       <ekz>
-        la maljuna birdo <tld/>o fari&gcirc;is cindro; sed &gcirc;ia ovo
+        la maljuna birdo <tld/>o fari&gcirc;is cindro, sed &gcirc;ia ovo
         ku&scirc;is ru&gcirc;e ardante en la fajro, &gcirc;i krevis kun
         granda krako, kaj la ido elflugis
         <fnt>
           <bib>Fab1</bib>, <lok>&gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        de la morto de <nom>Julia</nom> &scirc;i <klr>[&#8230;]</klr> aspektas, kvaza&ubreve; &scirc;i estus jam dumvive
+        pa&scirc;anta sur kampo, surkreskita de asfodeloj, plie, &scirc;i estas <nac>univira</nac>, do inter
+        niaj virinoj, eksedzini&gcirc;antoj kvar- a&ubreve; kvinfoje, &scirc;i estas samtempe <tld/>o
+        <klr>(virtulino)</klr>
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro I</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -30,6 +42,37 @@
     <trd lng="pt">f&ecirc;nix</trd>
     <trd lng="ro">fenix</trd>
     <trd lng="ru">&c_f;&c_je;&c_n;&c_i;&c_k;&c_s;</trd>
+    <trdgrp lng="zh">
+      <trd>&#19981;&#27515;&#40165; <pr>b&ugrave;s&#464;ni&#462;o</pr></trd>,
+      <trd>&#20025;&#40165; <pr>d&amacron;nni&#462;o</pr></trd>,
+      <trd>&#40415; <pr>zhu&oacute;</pr></trd>,
+      <trd>&#28779;&#40479; <pr>hu&#466;ni&#462;o</pr></trd>,
+      <trd>&#28779;&#40165; <pr>hu&#466;ni&#462;o</pr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="feniks.0o.cxina">
+    <uzo tip="fak">MIT</uzo>
+    <dif>
+      Birdo de la &ccirc;ina mitologio, simbolo de feli&ccirc;o:
+      <ekz>
+        oni povas vidi kajtojn en la formo de papilio, libelo, milvo, <tld/>o, granda
+        skolopendro, drako
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Shang Xiao-han</aut>
+          <vrk><url ref="&Monato;/2013/010994.php"
+              >Kajtoj de Vejfango</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Fenghuang</trd>
+    <trd lng="en">Fenghuang</trd>
+    <trd lng="fr">Fenghuang</trd>
+    <trdgrp lng="zh">
+      <trd>&#20964;&#20976; <pr>f&egrave;nghu&aacute;ng </pr></trd>,
+      <trd>&#40179;&#20976; <pr>f&egrave;nghu&aacute;ng </pr></trd>
+    </trdgrp>
   </snc>
   <snc mrk="feniks.0o.FIG">
     <uzo tip="stl">EVI</uzo>
@@ -52,12 +95,14 @@
       (vd ekzemplojn sub <tld/>a<sncref ref="feniks.0a.FIG"/>).
       <aut>Sergio Pokrovskij</aut>
     </rim>
+    <!-- ne tredauku EVI
     <trd lng="de">K&auml;psele [sudgerm.]</trd>
     <trdgrp lng="fr">
       <trd>as<klr tip="ind"> (g&eacute;nie)</klr></trd>,
       <trd>g&eacute;nie<klr tip="ind"> (ph&eacute;nix)</klr></trd>,
       <trd>lumi&egrave;re<klr tip="ind"> (g&eacute;nie)</klr></trd>
     </trdgrp>
+    -->
   </snc>
   <trdgrp lng="cs">
     <trd>f&eacute;nix</trd>,
@@ -94,9 +139,15 @@
   <trd lng="be">&c_F;&c_e;&c_n;&c_ib;&c_k;&c_s; <klr>(&c_s;&c_u;&c_z;&c_o;&c_r;&#8217;&c_je;)</klr></trd>
   <trd lng="en">Phoenix</trd>
   <trd lng="fr">Ph&eacute;nix <klr tip="ind"> (constellation)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#19981;&#27515;&#40165;  <pr>&#12405;&#12375;&#12385;&#12423;&#12358;</pr></trd>,
+    <trd>&#12501;&#12455;&#12491;&#12483;&#12463;&#12473;</trd>,
+    <trd>&#40179;&#20976;  <pr>&#12411;&#12358;&#12362;&#12358;</pr></trd>,
+    <trd>&#31532;&#19968;&#20154;&#32773;  <pr>&#12384;&#12356;&#12356;&#12385;&#12395;&#12435;&#12375;&#12419;</pr></trd>
+  </trdgrp>
   <trd lng="pl">Feniks  <klr>(gwiazdozbi&oacute;r)</klr></trd>
   <trd lng="ro">Phoenix  <klr>(constela&#539;ie)</klr></trd>
-  <trd lng="uk">&c_F;&c_je;&#x43D;&c_ib;&#x43A;&c_s;</trd>
+  <trd lng="uk">&c_F;&c_je;&c_n;&c_ib;&c_k;&c_s;</trd>
 </drv>
 
 <drv mrk="feniks.0a">
@@ -124,12 +175,23 @@
       Tia, ke &gcirc;i revivi&gcirc;as simile al
       <tld/>o<sncref ref="feniks.0o.MIT"/>:
       <ekz>
+        tiu rubriko &ccirc;i-numere post longa pa&ubreve;zo <tld/>e revenis
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Peeraerts</aut>
+          <vrk><url ref="&Monato;/2003/008183.html"
+              >Sobig-F</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <tld lit="F"/>a <ctl>Esperantologio</ctl>
         <klr>(artikoltitolo pri reapero de &ccirc;esigita revuo)</klr>
         <fnt>
-          <aut>gmck-j</aut>. <bib>Monato</bib>
+          <aut>gmck-j </aut>, <bib>Monato</bib>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         &gcirc;uste anta&ubreve; dek jaroj <ctl>La Ondo de Esperanto</ctl>
         <tld/>e renaski&gcirc;is
         <fnt>
@@ -137,6 +199,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">wie <ind>Ph&ouml;nix</ind> aus der Asche</trd>
     <trd lng="pl">jak  <ind>feniks</ind></trd>
     <trd lng="ro"> &icirc;n form&abreve; de  <ind>fenix</ind></trd>
     <trdgrp lng="ru">
@@ -149,8 +212,17 @@
 </art>
   <!--
   $Log$
+versio 1.30 2023/11/14 06:34:00
+Wolfram Diestel: adapteto
+
+versio 1.29 2023/11/13 21:22:13
+Wolfram Diestel: +snc &ccirc;ina, +ekz
+
+versio 1.27 2023/10/14 18:06:40
+revo: transskribo per <pr>
+
 versio 1.25 2022/09/19 14:04:17
-Vito Redsky:  + trd ro  
+Vito Redsky:  + trd ro
 
 versio 1.24 2022/04/13 08:45:59
 Dmitri Gabinski: + trd be
@@ -162,14 +234,5 @@ Wolfram Diestel: ref-hom
   Ludoviko Francisco: +drv
 
   Revision 1.19  2015/07/04 08:37:34  revo
-  aldono de trd cs per skripto de M. von Laer
-
-  Revision 1.18  2015/06/29 16:29:38  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.17  2009/12/28 17:30:18  revo
-  Sergio Pokrovskij: -tajperaro
-
-  Revision 1.16  2009/12/27 17:30:29  revo
 -->
 </vortaro>

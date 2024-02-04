@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: johan.xml,v 1.26 2022/03/21 17:23:46 revo Exp $">
+<art mrk="$Id: johan.xml,v 1.30 2023/12/03 07:09:18 revo Exp $">
 <kap>
   <ofc>*</ofc><ofc>7</ofc>
   <rad>Johan</rad>/o <fnt><bib>PIV1</bib></fnt>
@@ -103,6 +103,11 @@
     <trd>Jehan</trd>
   </trdgrp>
   <trd lng="it">Giovanni</trd>
+  <trdgrp lng="ja">
+    <trd>&#x30E8;&#x30CF;&#x30F3;</trd>,
+    <trd>&#x30E8;&#x30CF;&#x30CD;</trd>,
+    <trd>&#x30B8;&#x30E7;&#x30F3;  <pr>&#x3058;&#x3087;&#x3093;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>Jan</trd>,
     <trd>Johan</trd>
@@ -121,9 +126,13 @@
     <trd>Johannes</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x406;&#x432;&#x430;&#x43D;</trd>,
-    <trd>&#x419;&#x43E;&#x430;&#x43D;</trd>,
-    <trd>&#x406;&#x43E;&#x430;&#x43D;</trd>
+    <trd>&c_Ib;&c_v;&c_a;&#x43D;</trd>,
+    <trd>&c_J;&#x43E;&c_a;&#x43D;</trd>,
+    <trd>&c_Ib;&#x43E;&c_a;&#x43D;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7D04;&#x7FF0; <pr>Yu&#x113;h&#xE0;n</pr></trd>,
+    <trd>&#x82E5;&#x671B; <pr>Ru&#xF2;w&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -150,12 +159,13 @@
     <trd>Jeannot</trd>
     <trd>Johnny</trd>
   </trdgrp>
+  <trd lng="nl">Jantje</trd>
   <trdgrp lng="uk">
-    <trd>&#x406;&#x432;&#x430;&#x441;&#x44C;</trd>,
-    <trd>&#x406;&#x432;&#x430;&#x441;&#x438;&#x43A;</trd>,
-    <trd>&#x406;&#x432;&#x430;&#x43D;&#x43A;&#x43E;</trd>,
-    <trd>&#x419;&#x43E;&#x441;&#x44C;&#x43A;&#x43E;</trd>,
-    <trd>&#x42E;&#x437;&#x438;&#x43A;</trd>
+    <trd>&c_Ib;&c_v;&c_a;&c_s;&#x44C;</trd>,
+    <trd>&c_Ib;&c_v;&c_a;&c_s;&c_i;&#x43A;</trd>,
+    <trd>&c_Ib;&c_v;&c_a;&#x43D;&#x43A;&#x43E;</trd>,
+    <trd>&c_J;&#x43E;&c_s;&#x44C;&#x43A;&#x43E;</trd>,
+    <trd>&#x42E;&c_z;&c_i;&#x43A;</trd>
   </trdgrp>
 </drv>
 
@@ -208,8 +218,8 @@
   <trd lng="sk">Jana</trd>
   <trd lng="sv">Johanna</trd>
   <trdgrp lng="uk">
-    <trd>&#x406;&#x432;&#x430;&#x43D;&#x43D;&#x430;</trd>,
-    <trd>&#x42F;&#x43D;&#x456;&#x43D;&#x430;</trd>
+    <trd>&c_Ib;&c_v;&c_a;&#x43D;&#x43D;&c_a;</trd>,
+    <trd>&#x42F;&#x43D;&c_ib;&#x43D;&c_a;</trd>
   </trdgrp>
 </drv>
     <rim> La 7a OA klarigas la fundamentecon de la radiko &leftquot;Johan&rightquot;
@@ -220,6 +230,12 @@
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/18 05:26:26
+revo: transskribo per <pr>
+
+versio 1.27 2023/05/23 10:31:17
+Paul Peeraerts: + trd nl
+
 Revision 1.23  2018/09/02 20:10:41  revo
 Michel Cantigneaux: teknika ripareto de indikiloj
 
@@ -236,8 +252,5 @@ Revision 1.19  2015/02/22 23:10:13  revo
 Wolfram Diestel: ~o: listo persnom
 
 Revision 1.18  2010/09/23 16:30:18  revo
-Jeromo Vasxe: kor. fusx. fnt
-
-Revision 1.17  2009/10/31 17:31:14  revo
 -->
 </vortaro>

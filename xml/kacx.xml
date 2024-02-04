@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kacx.xml,v 1.42 2022/11/09 09:32:04 revo Exp $">
+<art mrk="$Id: kacx.xml,v 1.45 2023/12/02 21:20:03 revo Exp $">
 <kap>
     <ofc>*</ofc>
     <rad>ka&ccirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -83,7 +83,15 @@
         <trd>&c_k;&c_a;&c_sh;&c_a;</trd>,
         <trd>&c_p;&c_ju;&c_r;&c_je;</trd>
       </trdgrp>
-    </snc>
+      <trdgrp lng="zh">
+    <trd>&#x7CA5; <pr>zh&#x14D;u</pr></trd>,
+    <trd>&#x7CCA;&#x7CCA; <pr>h&#xFA;hu</pr></trd>,
+    <trd>&#x7A00;&#x98EF; <pr>x&#x12B;f&#xE0;n</pr></trd>,
+    <trd>&#x7A48; <pr>m&#xE9;n</pr></trd>,
+    <trd>&#x9EAE; <pr>q&#xF9;</pr></trd>,
+    <trd>&#x6D53;&#x6C64; <pr>n&#xF3;ngt&#x101;ng</pr></trd>
+  </trdgrp>
+</snc>
 
     <snc mrk="kacx.0o.konfuzo">
       <uzo tip="stl">FIG</uzo>
@@ -150,7 +158,11 @@
       </trdgrp>
       <trd lng="nl">zootje</trd>
       <trd lng="ru">&c_k;&c_a;&c_sh;&c_a;</trd>
-    </snc>
+      <trdgrp lng="zh">
+    <trd>&#x7CFE;&#x845B; <pr>ji&#x16B;g&#xE9;</pr></trd>,
+    <trd>&#x6563;&#x4E71; <pr>s&#x1CE;nlu&#xE0;n</pr></trd>
+  </trdgrp>
+</snc>
 
     <snc mrk="kacx.0o.maso">
       <uzo tip="stl">FIG</uzo>
@@ -187,7 +199,12 @@
         <trd>&c_k;&c_a;&c_sh;&c_a;</trd>,
         <trd>&c_k;&c_a;&c_sh;&c_i;&c_c;&c_a;</trd>
       </trdgrp>
-    </snc>
+      <trdgrp lng="zh">
+    <trd>&#x6CE5; <pr>n&#xED;</pr></trd>,
+    <trd>&#x6DD6; <pr>n&#xE0;o</pr></trd>,
+    <trd>&#x6E74; <pr>b&#xE0;n</pr></trd>
+  </trdgrp>
+</snc>
     <trdgrp lng="fr">
       <trd>pur&eacute;e</trd>,
       <trd>embrouillamini</trd>,
@@ -205,7 +222,14 @@
       <trd>&pe;&yod;&resh;&he;</trd>
     </trdgrp>
     <trd lng="id">bubur</trd>
-    <trdgrp lng="pl">
+    <trdgrp lng="ja">
+    <trd>&#x304B;&#x3086;</trd>,
+    <trd>&#x30D4;&#x30E5;&#x30FC;&#x30EC;</trd>,
+    <trd>&#x304B;&#x3086;&#x72B6;&#x306E;&#x98DF;&#x7269;  <pr>&#x304B;&#x3086;&#x3058;&#x3087;&#x3046;&#x306E;&#x3057;&#x3087;&#x304F;&#x3082;&#x3064;</pr></trd>,
+    <trd>&#x307E;&#x305A;&#x3044;&#x98DF;&#x7269;  <pr>&#x307E;&#x305A;&#x3044;&#x3057;&#x3087;&#x304F;&#x3082;&#x3064;</pr></trd>,
+    <trd>&#x304B;&#x3086;&#x72B6;&#x306E;&#x7269;  <pr>&#x304B;&#x3086;&#x3058;&#x3087;&#x3046;&#x306E;&#x3076;&#x3064;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
       <trd>kleik</trd>,
       <trd>papka</trd>
     </trdgrp>   
@@ -263,7 +287,8 @@ brava peltisto</url></vrk>,
     <trd lng="es">polenta</trd>
     <trd lng="fr">polenta</trd>
     <trd lng="it">polenta</trd>
-    <trdgrp lng="nl">
+    <trd lng="ja">&#x30DD;&#x30EC;&#x30F3;&#x30BF;</trd>
+  <trdgrp lng="nl">
       <trd>maisbrij</trd>,
       <trd>polenta</trd>
     </trdgrp>
@@ -284,6 +309,9 @@ brava peltisto</url></vrk>,
 </art>
 <!--
 $Log$
+versio 1.44 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
 versio 1.42 2022/11/09 09:32:04
 Dmitri Gabinski: + trd be
 
@@ -303,8 +331,5 @@ Revision 1.33  2012/08/30 09:10:23  revo
 Marc Rausell: + trd ca
 
 Revision 1.32  2011/11/28 18:10:10  revo
-Eduardo Navas: +trad es
-
-Revision 1.31  2009/07/08 16:30:54  revo
 -->
 </vortaro>

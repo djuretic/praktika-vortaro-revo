@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akciz.xml,v 1.27 2022/05/21 12:48:28 revo Exp $">
+<art mrk="$Id: akciz.xml,v 1.32 2024/01/22 21:20:22 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>akciz</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="akciz.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="akciz.0o.imposto">
     <dif>
       <ref tip="super" cel="impost.0o">Imposto</ref>, kiun oni devas
       pagi por man&gcirc;a&jcirc;oj, trinka&jcirc;oj, materialoj, a&ubreve; por diversaj &scirc;tataj
@@ -18,10 +19,10 @@
         ekde la 17a jarcento bierfarejoj kaj distilejoj fondi&gcirc;is en &leftquot;Liberaj urboj&rightquot;
         <klr>[&#8230;]</klr>, kie oni ne devis pagi <tld/>ojn
         <fnt>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="&Monato;/2001/007144.php">Bierlando Belgio</url></vrk>
           <bib>Monato</bib>
-          <aut>Lode Van De Velde</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007144.html"
-              >Bierlando Belgio</url></vrk>
+          <lok>2001/01, p. 18</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -29,8 +30,7 @@
         kaj <tld/>oj
         <fnt>
           <bib>Monato</bib>
-          <vrk><url ref="https://www.monato.be/2003/008041.html"
-              >La aristarka raporto de Albisturo Kvinke</url></vrk>
+          <vrk><url ref="&Monato;/2003/008041.html">La aristarka raporto de Albisturo Kvinke</url></vrk>
           <lok>2003</lok>
         </fnt>;
       </ekz>
@@ -40,8 +40,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Isikawa Takasi</aut>
-          <vrk><url ref="https://www.monato.be/2012/010776.php"
-              >Konkurado al &scirc;tata paneo</url></vrk>
+          <vrk><url ref="&Monato;/2012/010776.php">Konkurado al &scirc;tata paneo</url></vrk>
           <lok>2012</lok>
         </fnt>.
       </ekz>
@@ -68,6 +67,10 @@
     <trd>taxe</trd>
   </trdgrp>
   <trd lng="he">&mem;&samekh; &bet;&lamed;&vav;</trd>
+  <trdgrp lng="ja">
+    <trd>&#29289;&#21697;&#31246;  <pr>&#12406;&#12387;&#12404;&#12435;&#12380;&#12356;</pr></trd>,
+    <trd>&#28040;&#36027;&#31246;  <pr>&#12375;&#12423;&#12358;&#12402;&#12380;&#12356;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>accijns</trd>
     <trd>cijns</trd>,
@@ -107,6 +110,7 @@
   <trdgrp lng="fr">
     <trd>taxer<klr> (soumettre &agrave; une taxe)</klr></trd>
   </trdgrp>
+  <trd lng="ja">&#28040;&#36027;&#31246;&#12434;&#35506;&#12377;  <pr>&#12375;&#12423;&#12358;&#12402;&#12380;&#12356;&#12434;&#12363;&#12377;</pr></trd>
   <trd lng="nl"><ind>accijns</ind> heffen op</trd>
   <trdgrp lng="pl">
     <trd>ok&lstroke;ada&cacute; <ind>akcyz&aogonek;</ind></trd>,
@@ -138,6 +142,7 @@
     <trd>accisien</trd>,
     <trd>collecteur d'imp&ocirc;ts</trd>
   </trdgrp>
+  <trd lng="ja">&#28040;&#36027;&#31246;&#21454;&#31246;&#21519;  <pr>&#12375;&#12423;&#12358;&#12402;&#12380;&#12356;&#12375;&#12421;&#12358;&#12380;&#12356;&#12426;</pr></trd>
   <trd lng="nl"><ind><klr tip="ind">accijns:</klr></ind> ambtenaar der
   accijnzen</trd>
   <trd lng="ru">&c_s;&c_b;&c_o;&c_r;&c_shch;&c_i;&c_k; &c_n;&c_a;&c_l;&c_o;&c_g;&c_o;&c_v;</trd>
@@ -170,6 +175,18 @@
 </art>
 <!--
 $Log$
+versio 1.32 2024/01/22 21:20:22
+Wolfram Diestel: fnt JED, ja-pr
+
+versio 1.31 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.29 2023/04/14 05:27:07
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.28 2023/04/10 18:22:01
+aktualigo Monato-URL
+
 versio 1.27 2022/05/21 12:48:28
 Wolfram Diestel: +ekz-oj, ref, trd de
 
@@ -180,17 +197,5 @@ Revision 1.22  2014/09/22 12:10:16  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.21  2010/07/19 16:30:30  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.20  2009/09/22 17:17:26  revo
-Paul Peeraerts: +nl
-
-Revision 1.19  2009/08/28 16:31:13  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.18  2004/03/21 17:30:54  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2003/08/28 06:15:46  revo
 -->
 </vortaro>

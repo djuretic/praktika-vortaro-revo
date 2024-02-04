@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: nask.xml,v 1.86 2022/05/01 16:20:54 revo Exp $">
+  <art mrk="$Id: nask.xml,v 1.91 2024/01/29 15:21:35 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>nask</rad>/i
@@ -28,7 +28,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <nom>Adam</nom> ekkonis <nom>Eva</nom>n, sian edzinon, 
+        <nom>Adam</nom> ekkonis <nom>Eva</nom>n, sian edzinon,
         kaj &scirc;i gravedi&gcirc;is, kaj &scirc;i <tld/>is Kainon
         <fnt>
           <bib>MT</bib>
@@ -36,7 +36,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Georgo Va&scirc;ingtono estis <tld/>ita la dudek duan 
+        Georgo Va&scirc;ingtono estis <tld/>ita la dudek duan
         Februaron de l' jaro mil sepcent tridek dua
         <fnt>
           <bib>DL</bib>
@@ -81,7 +81,8 @@
       <trd>gerar</trd>
     </trdgrp>
     <trd lng="hu">sz&uuml;l</trd>
-    <trd lng="ro">na&scedil;te</trd>
+    <trd lng="id"><baz>lahir</baz>melahirkan</trd>
+    <trd lng="ro">na&#x219;te</trd>
     <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="nask.0i.estigi">
@@ -123,6 +124,10 @@
     <trdgrp lng="hu">
       <trd>sz&uuml;l</trd>,
       <trd>kelt</trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd><baz>lahir</baz>melahirkan</trd>,
+      <trd><baz>hasil</baz>menghasilkan</trd>
     </trdgrp>
     <trd lng="nl">teweegbrengen</trd>
     <trdgrp lng="pt">
@@ -171,7 +176,7 @@
     <rim>
       La indikita fonto uzas la terminon en geometria kunteksto
       (<ekz>punkto naskas linion</ekz>,
-       <ekz>linio naskas surfacon</ekz>), 
+       <ekz>linio naskas surfacon</ekz>),
       kiu supozigas <ctl>movon</ctl> de la koncerna objekto.
     </rim>
     <trdgrp lng="de">
@@ -229,8 +234,14 @@
     <trd>susciter</trd>,
     <trd>mettre au <ind>monde</ind></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x751F;&#x3080;  <pr>&#x3046;&#x3080;</pr></trd>,
+    <trd>&#x51FA;&#x7523;&#x3059;&#x308B;  <pr>&#x3057;&#x3085;&#x3063;&#x3055;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x751F;&#x307F;&#x51FA;&#x3059;  <pr>&#x3046;&#x307F;&#x3060;&#x3059;</pr></trd>,
+    <trd>&#x751F;&#x3058;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x3058;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">rodzi&cacute;</trd>
-  <trd lng="ro">na&scedil;te</trd>
+  <trd lng="ro">na&#x219;te</trd>
   <trdgrp lng="sk">
     <trd>plodi&tcaron;</trd>,
     <trd>porodi&tcaron;</trd>,
@@ -239,12 +250,19 @@
     <trd>tvori&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x440;&#x43E;&#x434;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x43D;&#x430;&#x440;&#x43E;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x441;&#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x436;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x442;&#x432;&#x43E;&#x440;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x443;&#x442;&#x432;&#x43E;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438;</trd>
+    <trd>&c_r;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&#x43D;&c_a;&c_r;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&#x43F;&#x43E;&c_r;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_s;&#x43F;&#x43E;&c_r;&#x43E;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_t;&c_v;&#x43E;&c_r;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_u;&c_t;&c_v;&#x43E;&c_r;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x751F;&#x80B2; <pr>sh&#x113;ngy&#xF9;</pr></trd>,
+    <trd>&#x4EA7; <pr>ch&#x1CE;n</pr></trd>,
+    <trd>&#x7522; <pr>ch&#x1CE;n</pr></trd>,
+    <trd>&#x751F;&#x5B69;&#x5B50; <pr>sh&#x113;ngh&#xE1;izi</pr></trd>,
+    <trd>&#x5A29; <pr>mi&#x1CE;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -291,11 +309,10 @@
       </ekz>
       <ekz>
         la sen&ccirc;esa rondo de <tld/>o kaj morto
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Guido Van Damme</aut>
-          <vrk><url ref="&Steloj;monato2/006958.html">Psiko sen
-          karno</url></vrk>
+        <fnt><aut>Elson Snow</aut>,
+        <vrk><url ref="&Monato;/2000/006958.php">Psiko sen karno</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/06, p. 4</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -336,13 +353,19 @@
   </trdgrp>
   <trd lng="es">nacimiento</trd>
   <trd lng="fr">naissance</trd>
+  <trd lng="id"><baz>lahir</baz>kelahiran</trd>
+  <trd lng="ja">&#x51FA;&#x7523;  <pr>&#x3057;&#x3085;&#x3063;&#x3055;&#x3093;</pr></trd>
   <trd lng="pl">por&oacute;d</trd>
-  <trd lng="ro">na&scedil;tere</trd>
+  <trd lng="ro">na&#x219;tere</trd>
   <trdgrp lng="sk">
     <trd>p&ocirc;rod zviera&tcaron;a</trd>,
     <trd>vrh</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&#x43E;&#x43B;&#x43E;&#x433;&#x438;</trd>
+  <trd lng="uk">&#x43F;&#x43E;&#x43B;&#x43E;&c_g;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8A95; <pr>d&#xE0;n</pr></trd>,
+    <trd>&#x8BDE; <pr>d&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nask.0antino">
@@ -381,14 +404,20 @@
   <trd lng="es">parturienta</trd>
   <trd lng="fr">parturiente</trd>
   <trd lng="hu">sz&uuml;l&odblac;</trd>
+  <trdgrp lng="id">
+    <trd><ind>wanita</ind> hamil</trd>,
+    <trd><ind>ibu</ind> hamil</trd>,
+    <trd><ind>perempuan</ind> hamil</trd>
+  </trdgrp>
+  <trd lng="ja">&#x7523;&#x5A66;  <pr>&#x3055;&#x3093;&#x3077;</pr></trd>
   <trd lng="nl">barende vrouw</trd>
   <trd lng="pl">rodz&aogonek;ca</trd>
-  <trd lng="ro">d&acirc;nd na&scedil;tere</trd>
+  <trd lng="ro">d&acirc;nd na&#x219;tere</trd>
   <trd lng="ru">&c_r;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="sk">rodi&ccaron;ka</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x456;&#x43B;&#x43B;&#x44F;</trd>,
-    <trd>&#x440;&#x43E;&#x434;&#x456;&#x43B;&#x43B;&#x44F;</trd>
+    <trd>&#x43F;&#x43E;&c_r;&#x43E;&c_d;&c_ib;&#x43B;&#x43B;&#x44F;</trd>,
+    <trd>&c_r;&#x43E;&c_d;&c_ib;&#x43B;&#x43B;&#x44F;</trd>
   </trdgrp>
 </drv>
 
@@ -453,7 +482,7 @@
       <trd lng="pl">tworz&aogonek;ca<klr tip="ind">
           (powierzchni)</klr></trd>
       <trd lng="ro">formare<klr tip="ind">
-          (suprafa&#x21B;&abreve;)</klr></trd>   
+          (suprafa&#x21B;&abreve;)</klr></trd>
       <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_z;&c_u;&c_ju;&c_shch;&c_a;&c_ja;</trd>
     </subsnc>
   </snc>
@@ -512,6 +541,8 @@
     <trd>tr&egrave;s <ind>f&eacute;cond</ind></trd>
   </trdgrp>
   <trd lng="hu">term&eacute;keny</trd>
+  <trd lng="id">subur <klr>(ttg wanita)</klr></trd>
+  <trd lng="ja">&#x591A;&#x7523;&#x306E;  <pr>&#x305F;&#x3055;&#x3093;&#x306E;</pr></trd>
   <trd lng="nl">vruchtbaar</trd>
   <trd lng="pl">p&lstroke;odna</trd>
   <trd lng="ro">fertil</trd>
@@ -521,8 +552,15 @@
     <trd>plodn&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43B;&#x43E;&#x434;&#x43E;&#x432;&#x438;&#x442;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x43B;&#x456;&#x434;&#x43D;&#x438;&#x439;</trd>
+    <trd>&#x43F;&#x43B;&#x43E;&c_d;&#x43E;&c_v;&c_i;&c_t;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&#x43B;&c_ib;&c_d;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x591A;&#x4EA7; <pr>du&#x14D;ch&#x1CE;n</pr></trd>,
+    <trd>&#x591A;&#x7522; <pr>du&#x14D;ch&#x1CE;n</pr></trd>,
+    <trd>&#x5BCC;&#x9952; <pr>f&#xF9;r&#xE1;o</pr></trd>,
+    <trd>&#x5BCC;&#x9976; <pr>f&#xF9;r&#xE1;o</pr></trd>,
+    <trd>&#x80A5;&#x6C83; <pr>f&#xE9;iw&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -546,6 +584,10 @@
       </ekz>
     </dif>
     <trd lng="hu">nemz</trd>
+  <trdgrp lng="id">
+    <trd><baz>anak</baz>memperanakkan</trd>,
+    <trd><baz>turun</baz>menurunkan</trd>
+  </trdgrp>
   </snc>
   <snc mrk="nask.0igi.estigi">
     <uzo tip="stl">FIG</uzo>
@@ -566,6 +608,10 @@
       <trd>napvil&aacute;gra hoz</trd>,
       <trd>elind&iacute;t <klr tip="ind">(&aacute;tv.)</klr></trd>
     </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>lahir</baz>melahirkan</trd>,
+    <trd><baz>hasil</baz>menghasilkan</trd>
+  </trdgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_a;&c_d;&c_zh;&c_a;&c_c;&c_mol;</trd>
   <trd lng="br">engehenta&ntilde;</trd>
@@ -586,15 +632,19 @@
     <trd>procr&eacute;er</trd>,
     <trd>engendrer<klr tip="ind"> (en p. d'un m&acirc;le)</klr></trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x751F;&#x307E;&#x305B;&#x308B;  <pr>&#x3046;&#x307E;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x751F;&#x3058;&#x3055;&#x305B;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x3058;&#x3055;&#x305B;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">verwekken</trd>
   <trd lng="pl">p&lstroke;odzi&cacute;</trd>
   <trd lng="ro">procrea</trd>
   <trd lng="ru">&c_p;&c_o;&c_r;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">splodi&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x43E;&#x440;&#x43E;&#x434;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x43E;&#x447;&#x430;&#x442;&#x43E;&#x43A;</trd>,
-    <trd>&#x442;&#x432;&#x43E;&#x440;&#x438;&#x442;&#x438;</trd>
+    <trd>&#x43F;&#x43E;&c_r;&#x43E;&c_d;&c_i;&c_t;&c_i;</trd>,
+    <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &#x43F;&#x43E;&c_ch;&c_a;&c_t;&#x43E;&#x43A;</trd>,
+    <trd>&c_t;&c_v;&#x43E;&c_r;&c_i;&c_t;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -635,6 +685,11 @@
     </dif>
     <trd lng="de">geboren werden</trd>
     <trd lng="hu">sz&uuml;letik</trd>
+    <trdgrp lng="id">
+      <trd>lahir</trd>,
+      <trd><baz>lahir</baz>terlahir</trd>,
+      <trd><baz>lahir</baz>dilahirkan</trd>
+    </trdgrp>
     <trd lng="nl">geboren worden</trd>
     <trd lng="pl">urodzi&cacute; si&eogonek;</trd>
     <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
@@ -673,9 +728,9 @@
         </fnt>;
       </ekz>
       <ekz>
-        li suferis konstante doloron de kapo <klr>[&#x2026;]</klr> 
-         <klr>[tiu]</klr> doloro <tld/>i&gcirc;is <klr>[&#x2026;]</klr> &ccirc;ar 
-         li trinkadis &ccirc;iam grandan kvanton da <klr>[&#x2026;]</klr> 
+        li suferis konstante doloron de kapo <klr>[&#x2026;]</klr>
+         <klr>[tiu]</klr> doloro <tld/>i&gcirc;is <klr>[&#x2026;]</klr> &ccirc;ar
+         li trinkadis &ccirc;iam grandan kvanton da <klr>[&#x2026;]</klr>
          vino en la nokto
         <fnt>
           <bib>FK</bib>
@@ -709,6 +764,11 @@
       <trd>t&aacute;mad <klr tip="ind">(l&eacute;trej&ouml;n)</klr></trd>,
       <trd>keletkezik</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>lahir</trd>,
+      <trd>muncul</trd>,
+      <trd>timbul</trd>
+    </trdgrp>
     <trd lng="nl">ontstaan</trd>
     <trd lng="ru">&c_z;&c_a;&c_r;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
@@ -722,10 +782,22 @@
   <trd lng="en">be born</trd>
   <trd lng="es">nacer</trd>
   <trd lng="fr">naitre</trd>
+  <trdgrp lng="ja">
+    <trd>&#x751F;&#x307E;&#x308C;&#x308B;  <pr>&#x3046;&#x307E;&#x308C;&#x308B;</pr></trd>,
+    <trd>&#x751F;&#x3058;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x3058;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="pl">urodzi&cacute; si&eogonek;</trd>
   <trd lng="pt">nascer</trd>
-  <trd lng="ro">se na&scedil;te</trd>
-  <trd lng="uk">&#x43D;&#x430;&#x440;&#x43E;&#x434;&#x438;&#x442;&#x438;&#x441;&#x44F;</trd>
+  <trd lng="ro">se na&#x219;te</trd>
+  <trd lng="uk">&#x43D;&c_a;&c_r;&#x43E;&c_d;&c_i;&c_t;&c_i;&c_s;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8A95;&#x751F; <pr>d&#xE0;nsh&#x113;ng</pr></trd>,
+    <trd>&#x8BDE;&#x751F; <pr>d&#xE0;nsh&#x113;ng</pr></trd>,
+    <trd>&#x964D;&#x751F; <pr>ji&#xE0;ngsh&#x113;ng</pr></trd>,
+    <trd>&#x4E0B;&#x5730; <pr>xi&#xE0;d&#xEC;</pr></trd>,
+    <trd>&#x51FA;&#x4E16; <pr>ch&#x16B;sh&#xEC;</pr></trd>,
+    <trd>&#x964D;&#x4E16; <pr>ji&#xE0;ngsh&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nask.0ito">
@@ -758,6 +830,7 @@
     <trd>Nachkomme</trd>
   </trdgrp>
   <trd lng="es">nacido</trd>
+  <trd lng="id"><ind>anak</ind> kandung</trd>
   <trd lng="nl">geborene</trd>
   <trd lng="pl">potomek</trd>
   <trd lng="ro">urma&#x219; </trd>
@@ -767,8 +840,15 @@
     <trd>narodenec</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x430;&#x449;&#x430;&#x434;&#x43E;&#x43A;</trd>,
-    <trd>&#x43F;&#x43E;&#x442;&#x43E;&#x43C;&#x43E;&#x43A;</trd>
+    <trd>&#x43D;&c_a;&c_shch;&c_a;&c_d;&#x43E;&#x43A;</trd>,
+    <trd>&#x43F;&#x43E;&c_t;&#x43E;&#x43C;&#x43E;&#x43A;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5B50;&#x5B59; <pr>z&#x1D0;s&#x16B;n</pr></trd>,
+    <trd>&#x5B50;&#x5B6B; <pr>z&#x1D0;s&#x16B;n</pr></trd>,
+    <trd>&#x5B50;&#x4EE3; <pr>z&#x1D0;d&#xE0;i</pr></trd>,
+    <trd>&#x540E;&#x55E3; <pr>h&#xF2;us&#xEC;</pr></trd>,
+    <trd>&#x5F8C;&#x55E3; <pr>h&#xF2;us&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -780,7 +860,7 @@
       <ref tip="dif" cel="id.0aro">Idaro</ref>:
       <ekz>
         grandnombra estas via idaro kaj via <tld/>itaro estas kiel la
-        herbo de la tero  
+        herbo de la tero
         <fnt>
           <bib>MT</bib>
           <lok>Ijob 5:25</lok>
@@ -814,6 +894,8 @@
     <trd>ivad&eacute;kok</trd>,
     <trd>ut&oacute;dok</trd>
   </trdgrp>
+  <trd lng="id"><baz>turun</baz>keturunan</trd>
+  <trd lng="ja">&#x5B50;&#x5B6B;  <pr>&#x3057;&#x305D;&#x3093;</pr></trd>
   <trd lng="nl">nageslacht</trd>
   <trd lng="pl">potomstwo</trd>
   <trdgrp lng="ro">
@@ -823,8 +905,16 @@
   <trd lng="ru">&c_p;&c_o;&c_t;&c_o;&c_m;&c_s;&c_t;&c_v;&c_o;</trd>
   <trd lng="sk">potomstvo</trd>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x430;&#x449;&#x430;&#x434;&#x43A;&#x438;</trd>,
-    <trd>&#x43F;&#x43E;&#x442;&#x43E;&#x43C;&#x441;&#x442;&#x432;&#x43E;</trd>
+    <trd>&#x43D;&c_a;&c_shch;&c_a;&c_d;&#x43A;&c_i;</trd>,
+    <trd>&#x43F;&#x43E;&c_t;&#x43E;&#x43C;&c_s;&c_t;&c_v;&#x43E;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x540E; <pr>h&#xF2;u</pr></trd>,
+    <trd>&#x5F8C; <pr>h&#xF2;u</pr></trd>,
+    <trd>&#x540E;&#x4EE3; <pr>h&#xF2;ud&#xE0;i</pr></trd>,
+    <trd>&#x5F8C;&#x4EE3; <pr>h&#xF2;ud&#xE0;i</pr></trd>,
+    <trd>&#x5B50;&#x5B59; <pr>z&#x1D0;s&#x16B;n</pr></trd>,
+    <trd>&#x5B50;&#x5B6B; <pr>z&#x1D0;s&#x16B;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -884,7 +974,7 @@
       </ekz>
       <ekz>
         mi samopinias kun miaj infanoj, kiuj estas 14- kaj 16-jaraj
-        de<tld/>aj 
+        de<tld/>aj
         esperantistoj, ke tiu &ccirc;i libreto estas &leftquot;&ccirc;arma kaj genia&#x201D;
         <fnt>
           <bib>Monato</bib>
@@ -909,17 +999,38 @@
     <trd>de nacimiento</trd>,
     <trd>nativo</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x751F;&#x6765;&#x306E;  <pr>&#x305B;&#x3044;&#x3089;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x751F;&#x307E;&#x308C;&#x306A;&#x304C;&#x3089;&#x306E; 
+    <pr>&#x3046;&#x307E;&#x308C;&#x306A;&#x304C;&#x3089;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="nl">aangeboren</trd>
   <trd lng="fr">inn&eacute;</trd>
+  <trdgrp lng="id">
+    <trd>sejak <ind>lahir</ind></trd>,
+    <trd>dari <ind>lahir</ind></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>od <ind>urodzenia</ind></trd>,
     <trd>wrodzony</trd>
   </trdgrp>
   <trd lng="ro">&icirc;nn&abreve;scut</trd>
   <trdgrp lng="uk">
-    <trd>&#x443;&#x440;&#x43E;&#x434;&#x436;&#x435;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43F;&#x440;&#x438;&#x440;&#x43E;&#x434;&#x436;&#x435;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x443;&#x441;&#x43F;&#x430;&#x434;&#x43A;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_u;&c_r;&#x43E;&c_d;&c_zh;&c_je;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&#x43F;&c_r;&c_i;&c_r;&#x43E;&c_d;&c_zh;&c_je;&#x43D;&c_i;&c_j;</trd>,
+    <trd>&c_u;&c_s;&#x43F;&c_a;&c_d;&#x43A;&#x43E;&c_v;&c_a;&#x43D;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5148;&#x5929; <pr>xi&#x101;nti&#x101;n</pr></trd>,
+    <trd>&#x5929;&#x751F; <pr>ti&#x101;nsh&#x113;ng</pr></trd>,
+    <trd>&#x5929;&#x8CE6; <pr>ti&#x101;nf&#xF9;</pr></trd>,
+    <trd>&#x5929;&#x8D4B; <pr>ti&#x101;nf&#xF9;</pr></trd>,
+    <trd>&#x5929;&#x6027; <pr>ti&#x101;nx&#xEC;ng</pr></trd>,
+    <trd>&#x751F;&#x4F86; <pr>sh&#x113;ngl&#xE1;i</pr></trd>,
+    <trd>&#x751F;&#x6765; <pr>sh&#x113;ngl&#xE1;i</pr></trd>,
+    <trd>&#x5929;&#x751F;&#x7684; <pr>ti&#x101;nsh&#x113;ngde</pr></trd>,
+    <trd>&#x5148;&#x5929; <pr>xi&#x101;nti&#x101;n</pr></trd>,
+    <trd>&#x5929;&#x751F; <pr>ti&#x101;nsh&#x113;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -942,8 +1053,8 @@
       <dif>
         Homo, kiu lernis Esperanton infana&gcirc;e en hejma medio:
         <ekz>
-          inter aliaj lingvoj, kiujn mi uzas &ccirc;iutage, Esperanto estas 
-          certe plej natura: mi estas patro de du de<tld/>uloj, 
+          inter aliaj lingvoj, kiujn mi uzas &ccirc;iutage, Esperanto estas
+          certe plej natura: mi estas patro de du de<tld/>uloj,
           kiuj nun mem instruas Esperanton
           <fnt>
             <bib>Monato</bib>
@@ -972,6 +1083,10 @@
   <trdgrp lng="ro">
     <trd>autohton</trd>,
     <trd>nativ</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x64CD;&#x6BCD;&#x8A9E;&#x7684;&#x4EBA; <pr>c&#x101;om&#x1D4;y&#x1D4;der&#xE9;n</pr></trd>,
+    <trd>&#x64CD;&#x6BCD;&#x8BED;&#x7684;&#x4EBA; <pr>c&#x101;om&#x1D4;y&#x1D4;der&#xE9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1006,20 +1121,57 @@
       <ekz>
         <ind>tri<tld/>ito</ind>,
         <trd lng="fr">tripl&eacute;<klr tip="ind"> (enfant)</klr></trd>
+        <trdgrp lng="id">
+          <trd>triplet</trd>,
+          <trd><ind>kembar</ind> tiga</trd>
+        </trdgrp>
       </ekz><ekz>
         <ind>kvar<tld/>ito</ind>,
         <trd lng="fr">quadrupl&eacute;<klr tip="ind"> (enfant)</klr></trd>
+        <trdgrp lng="id">
+          <trd>kuadruplet</trd>,
+          <trd><ind>kembar</ind> empat</trd>
+        </trdgrp>
       </ekz><ekz>
         <ind>kvin<tld/>ito</ind>,
         <trd lng="fr">quintupl&eacute;<klr tip="ind"> (enfant)</klr></trd>
+        <trdgrp lng="id">
+          <trd>kuintuplet</trd>,
+          <trd><ind>kembar</ind> lima</trd>
+        </trdgrp>
       </ekz><ekz>
         <ind>ses<tld/>ito</ind>...
         <trd lng="fr">sextupl&eacute;<klr tip="ind"> (enfant)</klr></trd>
+        <trdgrp lng="id">
+          <trd>sekstuplet</trd>,
+          <trd><ind>kembar</ind> enam</trd>
+        </trdgrp>
       </ekz>
     </dif>
     <ref tip="sin" cel="gxemel.0o.dunaskito">&gcirc;emelo</ref>
     <trd lng="de">Zwilling</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x53CC;&#x751F; <pr>shu&#x101;ngsh&#x113;ng</pr></trd>,
+    <trd>&#x96D9;&#x751F; <pr>shu&#x101;ngsh&#x113;ng</pr></trd>,
+    <trd>&#x53CC;&#x80CE; <pr>shu&#x101;ngt&#x101;i</pr></trd>,
+    <trd>&#x96D9;&#x80CE; <pr>shu&#x101;ngt&#x101;i</pr></trd>,
+    <trd>&#x53CC;&#x80DE; <pr>shu&#x101;ngb&#x101;o</pr></trd>,
+    <trd>&#x96D9;&#x80DE; <pr>shu&#x101;ngb&#x101;o</pr></trd>,
+    <trd>&#x53CC;&#x5B50; <pr>shu&#x101;ngz&#x1D0;</pr></trd>,
+    <trd>&#x96D9;&#x5B50; <pr>shu&#x101;ngz&#x1D0;</pr></trd>,
+    <trd>&#x53CC;&#x80DE;&#x80CE; <pr>shu&#x101;ngb&#x101;ot&#x101;i</pr></trd>,
+    <trd>&#x96D9;&#x80DE;&#x80CE; <pr>shu&#x101;ngb&#x101;ot&#x101;i</pr></trd>,
+    <trd>&#x5B56; <pr>z&#x12B;</pr></trd>,
+    <trd>&#x5B6A; <pr>lu&#xE1;n</pr></trd>,
+    <trd>&#x5B7F; <pr>lu&#xE1;n</pr></trd>,
+    <trd>&#x53CC;&#x751F;&#x80CE; <pr>shu&#x101;ngsh&#x113;ngt&#x101;i</pr></trd>,
+    <trd>&#x96D9;&#x751F;&#x80CE; <pr>shu&#x101;ngsh&#x113;ngt&#x101;i</pr></trd>,
+    <trd>&#x53CC;&#x6676; <pr>shu&#x101;ngj&#x12B;ng</pr></trd>,
+    <trd>&#x96D9;&#x6676; <pr>shu&#x101;ngj&#x12B;ng</pr></trd>,
+    <trd>&#x53CC;&#x7B52;&#x67AA; <pr>shu&#x101;ngt&#x1D2;ngqi&#x101;ng</pr></trd>,
+    <trd>&#x96D9;&#x7B52;&#x69CD; <pr>shu&#x101;ngt&#x1D2;ngqi&#x101;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="cs">dvoj&ccaron;e</trd>
   <trdgrp lng="es">
     <trd>gemelo</trd>,
@@ -1029,11 +1181,12 @@
     <trd>jumeau<klr tip="ind"> (subst., enfant)</klr></trd>,
     <trd>besson</trd>
   </trdgrp>
+  <trd lng="id">kembar <klr>(dua)</klr></trd>
   <trd lng="pl">bli&zacute;niak</trd>
   <trd lng="ro">geam&abreve;n</trd>
   <trd lng="ru">&c_d;&c_v;&c_o;&c_j;&c_n;&c_ja;&c_sh;&c_k;&c_a;</trd>
   <trd lng="sk">dvoj&ccaron;a</trd>
-  <trd lng="uk">&#x431;&#x43B;&#x438;&#x437;&#x43D;&#x44E;&#x43A;</trd>
+  <trd lng="uk">&c_b;&#x43B;&c_i;&c_z;&#x43D;&#x44E;&#x43A;</trd>
 </drv>
 
 <drv mrk="nask.due0ito">
@@ -1070,6 +1223,10 @@
     <trd>puin&eacute;<klr tip="ind"> (subst.)</klr></trd>,
     <trd>cadet<klr tip="ind"> (subst., pu&icirc;n&eacute;)</klr></trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>anak</ind> kedua</trd>,
+    <trd><ind>anak</ind> tengah</trd>
+  </trdgrp>
   <trd lng="pl">drugi  <ind>urodzony</ind></trd>
   <trd lng="ro">al doilea n&abreve;scut</trd>
   <trd lng="ru">&c_v;&c_t;&c_o;&c_r;&c_o;&c_j;<klr> (&c_s;&c_u;&c_shch;., &c_o; &c_r;&c_je;&c_b;&c_jo;&c_n;&c_k;&c_je; &c_v;
@@ -1085,7 +1242,7 @@
       semajno de gravedeco:
       <ekz>
         oni uzas mampumpilon <klr>[&#x2026;]</klr>
-        se pro iaj kialoj la bebo ne povas su&ccirc;i rekte 
+        se pro iaj kialoj la bebo ne povas su&ccirc;i rekte
         &ccirc;e la mamo (fru<tld/>ito, fizika problemo, ktp.)
         <fnt>
           <bib>Viki</bib>
@@ -1105,6 +1262,11 @@
     <trd>pr&eacute;matur&eacute;<klr tip="ind"> (subst.)</klr></trd>
   </trdgrp>
   <trd lng="hu">korasz&uuml;l&ouml;tt</trd>
+  <trdgrp lng="id">
+    <trd><ind>anak</ind> prematur</trd>,
+    <trd><ind>anak</ind> pradini</trd>
+  </trdgrp>
+  <trd lng="ja">&#x65E9;&#x7523;&#x5150;  <pr>&#x305D;&#x3046;&#x3056;&#x3093;&#x3058;</pr></trd>
   <trd lng="nl">prematuurtje</trd>
   <trd lng="pl">wcze&sacute;niak</trd>
   <trdgrp lng="ro">
@@ -1117,8 +1279,8 @@
   </trdgrp>
   <trd lng="sk">pred&ccaron;asne naroden&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x434;&#x447;&#x430;&#x441;&#x43D;&#x43E; &#x43D;&#x430;&#x440;&#x43E;&#x434;&#x436;&#x435;&#x43D;&#x430; &#x434;&#x438;&#x442;&#x438;&#x43D;&#x430;</trd>,
-    <trd>&#x43F;&#x435;&#x440;&#x435;&#x434;&#x447;&#x430;&#x441;&#x43D;&#x43E; &#x43D;&#x430;&#x440;&#x43E;&#x434;&#x436;&#x435;&#x43D;&#x438;&#x439; (&#x456;&#x43C;.)</trd>
+    <trd>&#x43F;&c_je;&c_r;&c_je;&c_d;&c_ch;&c_a;&c_s;&#x43D;&#x43E; &#x43D;&c_a;&c_r;&#x43E;&c_d;&c_zh;&c_je;&#x43D;&c_a; &c_d;&c_i;&c_t;&c_i;&#x43D;&c_a;</trd>,
+    <trd>&#x43F;&c_je;&c_r;&c_je;&c_d;&c_ch;&c_a;&c_s;&#x43D;&#x43E; &#x43D;&c_a;&c_r;&#x43E;&c_d;&c_zh;&c_je;&#x43D;&c_i;&c_j; (&c_ib;&#x43C;.)</trd>
   </trdgrp>
 </drv>
 
@@ -1156,12 +1318,20 @@
     <trd>nourrisson</trd>,
     <trd>poupon<klr tip="ind"> (nouveau-n&eacute;)</klr></trd>
   </trdgrp>
+  <trd lng="id"><ind>bayi</ind> baru lahir</trd>
+  <trd lng="ja">&#x65B0;&#x751F;&#x5150;  <pr>&#x3057;&#x3093;&#x305B;&#x3044;&#x3058;</pr></trd>
   <trd lng="nl">pasgeborene</trd>
   <trd lng="pl">noworodek</trd>
   <trd lng="ro">nou-n&abreve;scut</trd>
   <trd lng="ru">&c_n;&c_o;&c_v;&c_o;&c_r;&c_o;&c_zh;&c_d;&c_je;&c_n;&c_n;&c_y;&c_j;<klr>
       (&c_s;&c_u;&c_shch;.)</klr></trd>
   <trd lng="sk">novorodenec</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5A74;&#x513F; <pr>y&#x12B;ng&#xE9;r</pr></trd>,
+    <trd>&#x5B30;&#x5152; <pr>y&#x12B;ng&#xE9;r</pr></trd>,
+    <trd>&#x65B0;&#x751F;&#x513F; <pr>x&#x12B;nsh&#x113;ng&#xE9;r</pr></trd>,
+    <trd>&#x65B0;&#x751F;&#x5152; <pr>x&#x12B;nsh&#x113;ng&#xE9;r</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nask.pek0ito">
@@ -1198,6 +1368,13 @@
     <trd>enfant ill&eacute;gitime</trd>,
     <trd>enfant du p&eacute;ch&eacute;</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>anak</ind> haram</trd>,
+    <trd><ind>anak</ind> jadah</trd>,
+    <trd><ind>anak</ind> zadah</trd>,
+    <trd><ind>haram</ind> jadah</trd>,
+    <trd><ind>haram</ind> zadah</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>bastaard</trd>,
     <trd>buitenechtelijk <ind>kind</ind></trd>,
@@ -1213,6 +1390,12 @@
     <trd>copil natural</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_b;&c_l;&c_ju;&c_d;&c_o;&c_k;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x91CE;&#x79CD; <pr>y&#x11B;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x91CE;&#x7A2E; <pr>y&#x11B;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x79C1;&#x5B69;&#x5B50; <pr>s&#x12B;h&#xE1;iz&#x1D0;</pr></trd>,
+    <trd>&#x5EB6;&#x51FA; <pr>sh&#xF9;ch&#x16B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nask.re0igxo">
@@ -1244,7 +1427,16 @@
       <trd>&c_r;&c_je;&c_n;&c_je;&c_s;&c_s;&c_a;&c_n;&c_s;</trd>,
       <trd>&c_V;&c_o;&c_z;&c_r;&c_o;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6587;&#x827A;&#x590D;&#x5174; <pr>W&#xE9;ny&#xEC;f&#xF9;x&#x12B;ng</pr></trd>,
+    <trd>&#x6587;&#x85DD;&#x5FA9;&#x8208; <pr>W&#xE9;ny&#xEC;f&#xF9;x&#x12B;ng</pr></trd>,
+    <trd>&#x6587;&#x827A;&#x590D;&#x5174;&#x65F6;&#x671F; <pr>w&#xE9;ny&#xEC;f&#xF9;x&#x12B;ngsh&#xED;q&#x12B;</pr></trd>,
+    <trd>&#x6587;&#x85DD;&#x5FA9;&#x8208;&#x6642;&#x671F; <pr>w&#xE9;ny&#xEC;f&#xF9;x&#x12B;ngsh&#xED;q&#x12B;</pr></trd>,
+    <trd>&#x590D;&#x5174;&#x65F6;&#x4EE3; <pr>F&#xF9;x&#x12B;ngSh&#xED;d&#xE0;i</pr></trd>,
+    <trd>&#x5FA9;&#x8208;&#x6642;&#x4EE3; <pr>F&#xF9;x&#x12B;ngSh&#xED;d&#xE0;i</pr></trd>
+  </trdgrp>
+</snc>
+<trd lng="id"><baz>lahir</baz>kelahiran kembali</trd>
 </drv>
 
 <drv mrk="nask.sole0ito">
@@ -1275,6 +1467,11 @@
     <trd>hijo &uacute;nico</trd>
   </trdgrp>
   <trd lng="fr">enfant unique</trd>
+  <trdgrp lng="id">
+    <trd><ind>anak</ind> tunggal</trd>,
+    <trd><ind>anak</ind> satu-satunya</trd>,
+    <trd><ind>anak</ind> semata wayang</trd>
+  </trdgrp>
   <trd lng="nl">eniggeboren <ind>kind</ind></trd>
   <trd lng="pl">jedynak</trd>
   <trd lng="ro">copil unic</trd>
@@ -1332,6 +1529,11 @@
     <trd>ain&eacute;<klr tip="ind"> (subst.)</klr></trd>,
     <trd>premier-n&eacute;</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>anak</ind> pertama</trd>,
+    <trd><ind>anak</ind> tua</trd>
+  </trdgrp>
+  <trd lng="ja">&#x9577;&#x5B50;  <pr>&#x3061;&#x3087;&#x3046;&#x3057;</pr></trd>
   <trd lng="nl">eerstgeborene</trd>
   <trd lng="pl">pierworodny</trd>
   <trd lng="ro">primul n&abreve;scut </trd>
@@ -1347,8 +1549,8 @@
       (Pri <ref cel="fet.0o">feto</ref>) kiu estas malviva &ccirc;e
       <tld/>i&gcirc;o:
       <ekz>
-        &ccirc;ar tiuj &ccirc;i provoj estis fonditaj sur la naiva espero, 
-        ke la mondo renkontos ilin kun &gcirc;ojo <klr>[... ili]</klr> 
+        &ccirc;ar tiuj &ccirc;i provoj estis fonditaj sur la naiva espero,
+        ke la mondo renkontos ilin kun &gcirc;ojo <klr>[... ili]</klr>
         montri&gcirc;is malvive naskita<klr>[j]</klr>.
         <fnt>
           <bib>FK</bib>
@@ -1397,10 +1599,20 @@
   <trd lng="en">stillborn</trd>
   <trd lng="es">mortinato</trd>
   <trd lng="fr">mort-n&eacute;</trd>
+  <trd lng="id"><ind>lahir</ind> mati</trd>
+  <trdgrp lng="ja">
+    <trd>&#x6B7B;&#x3093;&#x3067;&#x751F;&#x307E;&#x308C;&#x305F;  <pr>&#x3057;&#x3093;&#x3067;&#x3046;&#x307E;&#x308C;&#x305F;</pr></trd>,
+    <trd>&#x6B7B;&#x7523;&#x306E;  <pr>&#x3057;&#x3056;&#x3093;&#x306E;</pr></trd>
+  </trdgrp>
   <trd lng="pl">urodzony martwy</trd>
   <trd lng="ro">n&abreve;scut mort</trd>
   <trd lng="ru">&c_m;&c_je;&c_r;&c_t;&c_v;&c_o;&c_r;&c_o;&c_zh;&c_d;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">m&racute;tvo naroden&yacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x3C69; <pr>d&#xFA;</pr></trd>,
+    <trd>&#x6BB0; <pr>d&#xFA;</pr></trd>,
+    <trd>&#x6BB0; <pr>d&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nask.morte0ita">
@@ -1428,8 +1640,9 @@
       kaj <ctl>morta</ctl> estas evitinda kaj kontra&ubreve;fundamenta.
     </rim>
     <trd lng="es"><klr>(expresi&oacute;n err&oacute;nea, debe ser malvive y no
-    morte)</klr></trd>     
+    morte)</klr></trd>
   </snc>
+  <trd lng="id"><ind>lahir</ind> mati</trd>
   <trd lng="pl">poroniony</trd>
   <trd lng="ro">avort</trd>
 </drv>
@@ -1437,6 +1650,15 @@
   </art>
   <!--
   $Log$
+versio 1.90 2023/10/28 15:26:47
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.89 2023/10/19 20:12:29
+revo: transskribo per <pr>
+
+versio 1.87 2023/04/27 10:31:22
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.86 2022/05/01 16:20:54
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -1450,14 +1672,5 @@ Aleks Andre: +trd bo, en
   Wolfram Diestel: formuloj per am
 
   Revision 1.79  2019/09/25 20:10:18  revo
-  Wolfram Diestel: sintakso
-
-  Revision 1.78  2019/09/24 14:10:14  revo
-  Guillermo Molleda Jimena: trd es
-
-  Revision 1.77  2019/09/24 11:10:17  revo
-  Guillermo Molleda Jimena: trd es
-
-  Revision 1.76  2019/06/30 18:21:48  revo
 -->
 </vortaro>

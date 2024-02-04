@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: aspir.xml,v 1.29 2022/05/06 15:47:03 revo Exp $">
+<art mrk="$Id: aspir.xml,v 1.34 2023/10/28 08:33:09 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>aspir</rad>/i <fnt><bib>PV</bib></fnt>
@@ -21,7 +21,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        <klr>[li]</klr> havas la permeson <tld/>i pri edzi&gcirc;o kun &scirc;i <klr>[&#8230;]</klr>, sed
+        <klr>[li]</klr> havas la permeson <tld/>i pri edzi&gcirc;o kun &scirc;i <klr>[&#x2026;]</klr>, sed
         li devas diveni tri aferojn, pri kiuj &scirc;i demandas
         <fnt>
           <bib>Fab1</bib>
@@ -58,7 +58,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        oni <klr>[&#8230;]</klr> sciigis min, ke multaj <tld/>as la postenon kaj ke la firmao
+        oni <klr>[&#x2026;]</klr> sciigis min, ke multaj <tld/>as la postenon kaj ke la firmao
         donos al mi respondon la sekvontan tagon
         <fnt>
           <bib>KrM</bib>
@@ -80,14 +80,14 @@
         </fnt>;
       </ekz>
       <ekz>
-        konkurantoj <klr>[&#8230;]</klr> <tld/>is fari procesorojn ne multe malpli rapidajn ol
+        konkurantoj <klr>[&#x2026;]</klr> <tld/>is fari procesorojn ne multe malpli rapidajn ol
         tiuj de <nom>Intel</nom>
         <fnt>
-          <bib>Monato</bib>
-          <aut>Franck Arnaud</aut>
-          <vrk><url ref="&Steloj;monato2/007114.html"
-              >Intel alfrontas konkurencon</url></vrk>
-        </fnt>;
+          <aut>Franck ARNAUD</aut>
+            <vrk><url ref="&Monato;/2000/007114.html">Intel alfrontas konkurencon</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/10, p. 16</lok>
+          </fnt>;
       </ekz>
       <ekz>
         rigardi kaj <tld/>i ne devigas akiri
@@ -161,14 +161,23 @@
     <trd>aspirare<klr> (anelare)</klr></trd>,
     <trd>anelare</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x71B1;&#x671B;&#x3059;&#x308B;  <pr>&#x306D;&#x3064;&#x307C;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x3042;&#x3053;&#x304C;&#x308C;&#x308B;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd><ind>streven</ind> naar</trd>,
     <trd>nastreven</trd>
   </trdgrp>
   <trdgrp lng="pl">
-    <trd>mie&cacute; <ind>aspiracje</ind></trd>,
+    <trd>aspirowa&cacute;</trd>,
     <trd>d&aogonek;&zdot;y&cacute; <klr>do upragnionego celu</klr></trd>,
-    <trd>prgn&aogonek;&cacute; <klr>czego&sacute;</klr></trd>
+    <trd>pragn&aogonek;&cacute; <klr>czego&sacute;</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>dori</trd>,
+    <trd>urm&abreve;re&#x219;te scopul dorit</trd>,
+    <trd>s&abreve; doresc ceva</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_t;&c_r;&c_je;&c_m;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
@@ -182,6 +191,17 @@
     <trd>&c_p;&c_r;&c_a;&c_g;&c_n;&c_u;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_o;&c_r;&c_i;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
     <trd>&c_b;&c_a;&c_zh;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x52AA; <pr>n&#x1D4;</pr></trd>,
+    <trd>&#x529B;&#x6C42; <pr>l&#xEC;qi&#xFA;</pr></trd>,
+    <trd>&#x6112; <pr>k&#xE0;i</pr></trd>,
+    <trd>&#x55DC;&#x597D; <pr>sh&#xEC;h&#xE0;o</pr></trd>,
+    <trd>&#x610F;&#x613F; <pr>y&#xEC;yu&#xE0;n</pr></trd>,
+    <trd>&#x610F;&#x9858; <pr>y&#xEC;yu&#xE0;n</pr></trd>,
+    <trd>&#x5E94;&#x8058; <pr>y&#xEC;ngp&#xEC;n</pr></trd>,
+    <trd>&#x61C9;&#x8058; <pr>y&#xEC;ngp&#xEC;n</pr></trd>,
+    <trd>&#x627E;&#x5DE5;&#x4F5C; <pr>zh&#x1CE;og&#x14D;ngzu&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -211,7 +231,8 @@
         amikoj, kiujn ligas la sama ideo, la samaj <tld/>oj kaj esperoj
         <fnt>
           <bib>Paroloj</bib>
-          <vrk>Parolado anta&ubreve; la Kvina Kongreso Esperantista en Barcelona en la 6a de septembro 1909</vrk>
+          <vrk>Parolado anta&ubreve; la Kvina Kongreso Esperantista en Barcelona en la 6a de septembro
+          1909</vrk>
         </fnt>;
       </ekz>
       <ekz>
@@ -231,11 +252,11 @@
       <ekz>
         iel utopia <tld/>o kelkfoje pelas homojn al fanatikaj ekscesoj
         <fnt>
-          <bib>Monato</bib>
           <aut>Werner Schad</aut>
-          <vrk><url ref="&Steloj;monato2/007074.html"
-              >Al pli justa mondo</url></vrk>
-        </fnt>.
+            <vrk><url ref="&Monato;/2000/007074.php">Al pli justa mondo</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/09, p. 7</lok>
+          </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -257,6 +278,18 @@
     <trd>Ziel <klr>(ideell)</klr></trd>
   </trdgrp>
   <trd lng="fr">aspiration</trd>
+  <trdgrp lng="ja">
+    <trd>&#x71B1;&#x671B;  <pr>&#x306D;&#x3064;&#x307C;&#x3046;</pr></trd>,
+    <trd>&#x5FD7;&#x9858;  <pr>&#x3057;&#x304C;&#x3093;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>aspiracja</trd>,
+    <trd>d&aogonek;&zdot;enie</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>dorin&#x21B;a</trd>,
+    <trd>tentativ&abreve;</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>a&scaron;pir&aacute;cia</trd>,
     <trd>&uacute;silie</trd>
@@ -270,6 +303,15 @@
 </art>
 <!--
 $Log$
+versio 1.33 2023/10/13 17:08:38
+revo: transskribo per <pr>
+
+versio 1.31 2023/04/29 16:32:00
+Paul Peeraerts: Steloj -> monato
+
+versio 1.30 2023/02/10 19:24:24
+Vito Redsky: +trd pl + trd ro
+
 versio 1.29 2022/05/06 15:47:03
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -283,14 +325,5 @@ Revision 1.23  2015/06/28 12:03:36  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.22  2015/02/20 21:10:16  revo
-Jeromo Vasxe: + ~o
-
-Revision 1.21  2013/08/02 16:10:11  revo
-Joop Eggen: +trd bg nl
-
-Revision 1.20  2013/04/17 05:10:10  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2012/01/31 18:10:37  revo
 -->
 </vortaro>

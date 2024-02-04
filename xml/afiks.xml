@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: afiks.xml,v 1.34 2022/04/26 14:57:17 revo Exp $">
+<art mrk="$Id: afiks.xml,v 1.40 2023/10/28 08:32:44 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>afiks</rad>/o <fnt><bib>LR</bib></fnt>
@@ -51,11 +51,12 @@
         pro kiu diabla ka&ubreve;zo devas havi Esperanto simplan
         <tld/>o-sistemon, se neniu alia havas
         <fnt>
-          <bib>Monato</bib>
-          <aut>Yamasaki Seik&ocirc;</aut>
-          <vrk><url ref="&Steloj;monato2/006803.html">Reago:
-          Supersignoj, pro kiu diabla ka&ubreve;zo?</url></vrk>
-        </fnt>?
+          <aut>Ott&oacute; Haszpra</aut>
+          <vrk><url ref="&Monato;/2000/006803.php">REAGO: 
+            Supersignoj, pro kiu diabla ka&ubreve;zo?</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/03, p. 27</lok>
+        </fnt>;
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -67,6 +68,7 @@
   </snc>
   <trd lng="be">&c_a;&c_f;&c_ib;&c_k;&c_s;</trd>
   <trd lng="he">&qof;&yod;&dalet;&vav;&mem;&tav; &alef;&vav; &samekh;&yod;&vav;&mem;&tav;</trd>
+  <trd lng="ja">&#x63A5;&#x8F9E;  <pr>&#x305B;&#x3064;&#x3058;</pr></trd>
   <trd lng="ms">imbuhan</trd>
   <trdgrp lng="bg">
     <trd>&c_a;&c_f;&c_i;&c_k;&c_s;</trd>,
@@ -100,6 +102,7 @@
     <trd>zrostek</trd>
   </trdgrp>
   <trd lng="pt">afixo</trd>
+  <trd lng="ro">afix</trd>
   <trd lng="ru">&c_a;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
   <trdgrp lng="sk">
     <trd>afix</trd>,
@@ -111,8 +114,8 @@
     <trd>till&auml;ggsstavelse</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x430;&#x444;&#x456;&#x43A;&#x441;</trd>,
-    <trd>&#x441;&#x43B;&#x43E;&#x432;&#x43E;&#x442;&#x432;&#x43E;&#x440;&#x447;&#x430; &#x447;&#x430;&#x441;&#x442;&#x43A;&#x430;</trd>
+    <trd>&c_a;&c_f;&c_ib;&#x43A;&c_s;</trd>,
+    <trd>&c_s;&#x43B;&#x43E;&c_v;&#x43E;&c_t;&c_v;&#x43E;&c_r;&c_ch;&c_a; &c_ch;&c_a;&c_s;&c_t;&#x43A;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -132,7 +135,12 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x524D;&#x7DB4; <pr>qi&#xE1;nzhu&#xEC;</pr></trd>,
+    <trd>&#x524D;&#x7F00; <pr>qi&#xE1;nzhu&#xEC;</pr></trd>,
+    <trd>&#x5B57;&#x9996; <pr>z&#xEC;sh&#x1D2;u</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
 	<trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_w;&c_k;&c_a;</trd>,
 	<trd>&c_p;&c_r;&c_e;&c_f;&c_ib;&c_k;&c_s;</trd>
@@ -168,6 +176,7 @@
     <trd>przedrostek</trd>
   </trdgrp>
   <trd lng="pt">prefixo</trd>
+  <trd lng="ro">prefix</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
 </drv>
 
@@ -191,9 +200,19 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_y;&c_r;&c_k;&c_u;&c_m;&c_f;&c_ib;&c_k;&c_s;</trd>,
+    <trd>&c_k;&c_o;&c_n;&c_f;&c_ib;&c_k;&c_s;</trd>,
+    <trd>&c_b;&c_ib;&c_m;&c_a;&c_r;&c_f;&c_e;&c_m;&c_a;</trd>
+  </trdgrp>
   <trd lng="en">circumfix</trd>
   <trd lng="fr">circonfixe</trd>
   <trd lng="it">circonfisso</trd>
+  <trdgrp lng="pl">
+    <trd>oko&lstroke;orostek</trd>,
+    <trd>cyrkumfiks</trd>
+  </trdgrp>
+  <trd lng="ro">circumfix</trd>
 </drv>
 
 <drv mrk="afiks.en0o">
@@ -214,6 +233,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_ib;&c_n;&c_f;&c_ib;&c_k;&c_s;</trd>
   <trd lng="bg">&c_i;&c_n;&c_f;&c_i;&c_k;&c_s;</trd>
   <trd lng="de">Infix</trd>
   <trd lng="en">infix</trd>
@@ -228,6 +248,7 @@
     <trd>infiks</trd>,
     <trd>wrostek</trd>
   </trdgrp>
+  <trd lng="ro">&icirc;nfix</trd>
 </drv>
 
 <drv mrk="afiks.post0o">
@@ -248,7 +269,11 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E0B;&#x6807; <pr>xi&#xE0;bi&#x101;o</pr></trd>,
+    <trd>&#x4E0B;&#x6A19; <pr>xi&#xE0;bi&#x101;o</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_s;&c_u;&c_f;&c_ib;&c_k;&c_s;</trd>
   <trdgrp lng="bg">
     <trd>&c_s;&c_u;&c_f;&c_i;&c_k;&c_s;</trd>,
@@ -283,6 +308,7 @@
     <trd>sufiks</trd>,
     <trd>przyrostek</trd>
   </trdgrp>
+  <trd lng="ro">sufix</trd>
   <trd lng="ru">&c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
   <trd lng="sk">pr&iacute;pona</trd>
 </drv>
@@ -308,10 +334,24 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="pl">afiks pozorny</trd>
+  <trd lng="ro">afix aparent</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.39 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.37 2023/05/10 12:44:32
+Dmitri Gabinski: + trd be
+
+versio 1.36 2023/04/07 16:34:33
+Paul Peeraerts: &Monato;/
+
+versio 1.35 2023/01/15 19:22:56
+Vito Redsky: +trd pl + trd ro
+
 versio 1.34 2022/04/26 14:57:17
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -322,17 +362,5 @@ versio 1.31 2022/03/02 21:29:07
 Jeromo Vasxe: + cxirkaux~o
 
 versio 1.30 2022/03/01 20:34:03
-Jeromo Vasxe: + sxajn~o
-
-Revision 1.26  2017/01/28 12:10:20  revo
-Adam Eng: + trd
-
-Revision 1.25  2015/07/04 08:37:29  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.24  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.23  2015/05/27 17:10:15  revo
 -->
 </vortaro>

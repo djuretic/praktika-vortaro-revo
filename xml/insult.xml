@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: insult.xml,v 1.29 2022/03/21 15:27:49 revo Exp $">
+<art mrk="$Id: insult.xml,v 1.33 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>insult</rad>/i
@@ -49,7 +49,7 @@
   <trdgrp lng="cs">
     <trd>inzultovat</trd>,
     <trd>nad&#xE1;vat</trd>,
-    <trd>obo&#x159;it se</trd>,
+    <trd>obo&rcaron;it se</trd>,
     <trd>slovn&#x11B; napadnout</trd>,
     <trd>sp&#xED;lat</trd>,
     <trd>tupit</trd>,
@@ -82,6 +82,11 @@
     <trd>insultare</trd>,
     <trd>inveire</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4FAE;&#x8FB1;&#x3059;&#x308B;  <pr>&#x3076;&#x3058;&#x3087;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x306E;&#x306E;&#x3057;&#x308B;</trd>,
+    <trd>&#x60AA;&#x53E3;&#x3092;&#x8A00;&#x3046;  <pr>&#x308F;&#x308B;&#x3050;&#x3061;&#x3092;&#x3044;&#x3046;</pr></trd>
+  </trdgrp>
   <trd lng="ku">&ccedil;&ecirc;r kirin</trd>
   <trdgrp lng="nl">
     <trd>beledigen</trd>,
@@ -90,16 +95,25 @@
   <trd lng="pt">insultar</trd>
   <trd lng="ru">&c_o;&c_s;&c_k;&c_o;&c_r;&c_b;&c_l;&c_ja;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
-    <trd>nad&#xE1;va&#x165;</trd>,
-    <trd>obori&#x165; sa</trd>,
-    <trd>tupi&#x165;</trd>,
-    <trd>ur&#xE1;&#x17E;a&#x165;</trd>
+    <trd>nad&#xE1;va&tcaron;</trd>,
+    <trd>obori&tcaron; sa</trd>,
+    <trd>tupi&tcaron;</trd>,
+    <trd>ur&#xE1;&#x17E;a&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">f&ouml;rol&auml;mpa</trd>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x430;&#x44F;&#x442;&#x438;</trd>,
-    <trd>&#x441;&#x432;&#x430;&#x440;&#x438;&#x442;&#x438;</trd>,
-    <trd>&#x43E;&#x431;&#x440;&#x430;&#x436;&#x430;&#x442;&#x438;</trd>
+    <trd>&#x43B;&c_a;&#x44F;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_v;&c_a;&c_r;&c_i;&c_t;&c_i;</trd>,
+    <trd>&#x43E;&c_b;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8FB1;&#x7F75; <pr>r&#x1D4;m&#xE0;</pr></trd>,
+    <trd>&#x4FAE; <pr>w&#x1D4;</pr></trd>,
+    <trd>&#x50C7; <pr>l&#xF9;</pr></trd>,
+    <trd>&#x50DD; <pr>ch&#xE1;n</pr></trd>,
+    <trd>&#x4FAE;&#x8FB1; <pr>w&#x1D4;r&#x1D4;</pr></trd>,
+    <trd>&#x85C9; <pr>j&#xED;</pr></trd>,
+    <trd>&#x7F75;&#x4EBA; <pr>m&#xE0;r&#xE9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -160,6 +174,11 @@
     <trd>ingiuria</trd>,
     <trd>insulto</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x306E;&#x306E;&#x3057;&#x308A;</trd>,
+    <trd>&#x60AA;&#x53E3;  <pr>&#x308F;&#x308B;&#x3050;&#x3061;</pr></trd>,
+    <trd>&#x66B4;&#x8A00;  <pr>&#x307C;&#x3046;&#x3052;&#x3093;</pr></trd>
+  </trdgrp>
   <trd lng="nl">belediging</trd>
   <trd lng="pt">insulto</trd>
   <trd lng="ru">&c_o;&c_s;&c_k;&c_o;&c_r;&c_b;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -169,9 +188,9 @@
   </trdgrp>
   <trd lng="sv">f&ouml;rol&auml;mpning</trd>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x430;&#x439;&#x43A;&#x430;</trd>,
-    <trd>&#x441;&#x432;&#x430;&#x440;&#x43A;&#x430;</trd>,
-    <trd>&#x43E;&#x431;&#x440;&#x430;&#x437;&#x430;</trd>
+    <trd>&#x43B;&c_a;&c_j;&#x43A;&c_a;</trd>,
+    <trd>&c_s;&c_v;&c_a;&c_r;&#x43A;&c_a;</trd>,
+    <trd>&#x43E;&c_b;&c_r;&c_a;&c_z;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -187,12 +206,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_b;&c_r;&c_a;&c_zh;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_a;&c_b;&#x2019;&c_je;&c_k;&c_t; <ind>&c_a;&c_b;&c_r;&c_a;&c_z;&c_y;</ind></trd>
+  </trdgrp>
   <trd lng="fa">&a_A_madda;&a_m;&a_A;&a_j; &a_d;&a_sh;&a_n;&a_A;&a_m;</trd>
   <trdgrp lng="fr">
     <trd>insult&eacute;<klr tip="ind"> (objet d'insultes)</klr></trd>
     <trd>objet d'<ind>insultes</ind></trd>
   </trdgrp>
   <trd lng="hu">s&eacute;rteget&eacute;s t&aacute;rgya</trd>
+  <trd lng="zh">&#x51CC;&#x8FB1; <pr>l&#xED;ngr&#x1D4;</pr></trd>
 </drv>
 
 <drv mrk="insult.0ema">
@@ -202,10 +226,15 @@
       Volonte <tld/>anta.
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_b;&c_r;&c_a;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_z;&c_v;&c_a;&c_d;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_g;&c_r;&c_y;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>
+  </trdgrp>
   <trd lng="cs">ur&#xE1;&#x17E;liv&#xFD;</trd>
   <trdgrp lng="fa">
     <trd>&a_f;&a_H;&a_A;&a_sh;</trd>,
-    <trd>&a_d;&a_sh;&a_n;&a_A;&a_m;&zwnj;&f_g;&a_w;</trd>
+    <trd>&a_d;&a_sh;&a_n;&a_A;&a_m;&#x200C;&f_g;&a_w;</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>grossier<klr tip="ind"> (en paroles)</klr></trd>,
@@ -213,16 +242,26 @@
     <trd>insultant<klr tip="ind"> (port&eacute; &agrave; l'insulte)</klr></trd>
   </trdgrp>
   <trd lng="hu">goromba</trd>
+  <trdgrp lng="ja">
+    <trd>&#x7121;&#x793C;&#x306A;  <pr>&#x3076;&#x308C;&#x3044;&#x306A;</pr></trd>,
+    <trd>&#x53E3;&#x306E;&#x60AA;&#x3044;  <pr>&#x304F;&#x3061;&#x306E;&#x308F;&#x308B;&#x3044;</pr></trd>
+  </trdgrp>
   <trd lng="pt">insultante</trd>
   <trd lng="sk">ur&#xE1;&#x17E;liv&#xFD;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43B;&#x430;&#x439;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>,
-    <trd>&#x441;&#x432;&#x430;&#x440;&#x43B;&#x438;&#x432;&#x438;&#x439;</trd>
+    <trd>&#x43B;&c_a;&c_j;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_v;&c_a;&c_r;&#x43B;&c_i;&c_v;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2023/10/20 09:24:09
+Dmitri Gabinski: + trd be
+
+versio 1.31 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
 Revision 1.26  2015/06/29 16:33:15  revo
 aldono de trd sk per skripto de M. von Laer
 
@@ -239,14 +278,5 @@ Revision 1.22  2009/08/27 16:33:01  revo
 Emmanuel Debanne: +trd ku
 
 Revision 1.21  2006/07/11 16:31:15  revo
-Jeromo Vasxe: + mrk, kor 1 ref
-
-Revision 1.20  2005/11/03 17:32:08  revo
-Luiz Portella: +trd pt
-
-Revision 1.19  2004/08/31 16:32:50  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.18  2004/02/09 17:30:55  revo
 -->
 </vortaro>

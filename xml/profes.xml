@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: profes.xml,v 1.29 2022/05/16 06:43:51 revo Exp $">
-<kap><ofc>*</ofc>
-<rad>profesi</rad>/o</kap>
+<art mrk="$Id: profes.xml,v 1.35 2023/10/20 16:38:17 revo Exp $">
+<kap><ofc>*</ofc><rad>profesi</rad>/o</kap>
 <drv mrk="profes.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="profes.0o.KOMUNE">
     <dif>
       &Ccirc;iu <ref tip="super" cel="okup.0o">okupo</ref>, per kiu oni akiras 
       <ref cel="rimed.viv0o">vivrimedo</ref>jn:
@@ -14,7 +13,7 @@
         se vi vidas homon lertan en sia <tld/>o, li staros anta&ubreve; re&gcirc;oj
         <fnt>
           <bib>MT</bib>
-          <lok>Sentencoj 22:29</lok>
+          <lok>&Sen; 22:29</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -32,7 +31,7 @@
         </fnt>!
       </ekz>
       <ekz>
-        malri&ccirc;a fi&scirc;kaptisto <klr>[&#8230;]</klr> tute kaj plene estis okupita de sia <tld/>o
+        malri&ccirc;a fi&scirc;kaptisto <klr>[&#x2026;]</klr> tute kaj plene estis okupita de sia <tld/>o
         <fnt>
           <bib>Fab2</bib>
           <lok>La najtingalo</lok>
@@ -40,7 +39,7 @@
       </ekz>
       <ekz>
         lia <tld/>o metadis lin ofte en la anta&ubreve;on de la plej respektindaj homoj de la
-        urbo <klr>[&#8230;]</klr> kun plena rajto kaj plena kompetenteco, li <klr>[&#8230;]</klr>
+        urbo <klr>[&#x2026;]</klr> kun plena rajto kaj plena kompetenteco, li <klr>[&#x2026;]</klr>
         estis ko&ccirc;ero de funebra veturilo
         <fnt>
           <bib>Fab3</bib>
@@ -78,37 +77,41 @@
     <trd>profese</trd>
   </trdgrp>
   <trd lng="de">Beruf</trd>
-  <trd lng="en">profession</trd>
+  <trd lng="en">profession<klr> (noun, job)</klr></trd>
   <trd lng="es">profesi&oacute;n</trd>
   <trd lng="fr">profession</trd>
   <trdgrp lng="hu">
     <trd>foglalkoz&aacute;s</trd>,
     <trd>szakmai</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8077;&#x696D;  <pr>&#x3057;&#x3087;&#x304F;&#x304E;&#x3087;&#x3046;</pr></trd>,
+    <trd>&#x672C;&#x8077;  <pr>&#x307B;&#x3093;&#x3057;&#x3087;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">beroep</trd>
   <trd lng="no">yrke</trd>
   <trdgrp lng="pl">
     <trd>zaw&oacute;d</trd>,
+    <trd>fach</trd>,
     <trd>profesja</trd>
   </trdgrp>
   <trd lng="pt">profiss&atilde;o</trd>
+  <trd lng="ro">profesie</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_s;&c_i;&c_ja;</trd>
   <trd lng="sk">povolanie</trd>
   <trd lng="sv">yrke</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_f;&c_je;&c_s;&c_ib;&#x44F;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_ib;&c_ja;</trd>,
     <trd>&c_f;&c_a;&c_h;</trd>,
-    <trd>&c_s;&#x43F;&c_je;&c_c;&c_ib;&c_a;&#x43B;&#x44C;&#x43D;&c_ib;&c_s;&c_t;&#x44C;</trd>
+    <trd>&c_s;&c_p;&c_je;&c_c;&c_ib;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="vo">cal</trd>
 </drv>
 
-
-
 <drv mrk="profes.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="profes.0i.KOMUNE">
     <dif>
       <ref tip="super" cel="prakti.0i">Praktiki</ref> <tld/>on:
       <ekz>
@@ -118,12 +121,14 @@
         </fnt>;
       </ekz>
       <ekz>
-        oni transiris anka&ubreve; en la eldonejo, kie mi <tld/>as, de &leftquot;antikva&rightquot; al moderna
+        oni transiris anka&ubreve; en la eldonejo, kie mi <tld/>as, de &leftquot;antikva&#x201D; al moderna
         redaktoprogramo
         <fnt>
-          <bib>Monato</bib>
-          <lok><url ref="&Steloj;monato2/007058.html">&Steloj;monato2/007058.html</url></lok>
-        </fnt>;
+          <aut>Stefan Maul</aut>
+            <vrk><url ref="&Monato;/2000/007058.php">Estimataj gelegantoj,</url></vrk>
+            <bib>Monato</bib>
+            <lok>2000/07, p. 3</lok>
+          </fnt>;
       </ekz>
       <ekz>
         granda estas la prerogativo, kiun entenas la migranta kavaliraro, &ccirc;iu tiu, kiu
@@ -140,26 +145,35 @@
   </snc>
   <trd lng="be">&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_c;&c_a; <klr>(&c_n;&c_je;&c_j;&c_k;&c_a;&c_j; &c_s;&c_p;&c_r;&c_a;&c_v;&c_a;&c_j; &c_p;&c_r;&c_a;&c_f;&c_e;&c_s;&c_ib;&c_j;&c_n;&c_a;)</klr></trd>
   <trd lng="de">praktizieren</trd>
-  <trd lng="en">practice</trd>
+  <trd lng="en">practice<klr> (vt)</klr></trd>
   <trd lng="fr">exercer (une profession)</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8077;&#x696D;&#x3068;&#x3059;&#x308B;  <pr>&#x3057;&#x3087;&#x304F;&#x304E;&#x3087;&#x3046;&#x3068;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x672C;&#x8077;&#x3068;&#x3059;&#x308B;  <pr>&#x307B;&#x3093;&#x3057;&#x3087;&#x304F;&#x3068;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">een <ind>beroep</ind> uitoefenen</trd>
   <trdgrp lng="hu">
     <trd>(szakm&aacute;t) <ind>gyakorol</ind></trd>,
     <trd>(foglalkoz&aacute;st) <ind>folytat</ind></trd>
   </trdgrp>
   <trd lng="pl">uprawia&cacute; <ind>zaw&oacute;d</ind></trd>
-  <trd lng="uk">&c_z;&c_a;&c_j;&#x43C;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+  <trdgrp lng="ro">
+    <trd>s&abreve; cultiv&abreve;m</trd>,
+    <trd>profesa</trd>
+  </trdgrp>
+  <trd lng="uk">&c_z;&c_a;&c_j;&c_m;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
   <trd lng="vo">cal&ouml;n</trd>
 </drv>
+
 <drv mrk="profes.0a">
   <kap>
     <tld/>a
   </kap>
-  <snc>
+  <snc mrk="profes.0a.KOMUNE">
     <dif>
       Rilata al <tld/>o; de, la&ubreve; <tld/>o ktp:
       <ekz>
-        la konfirmitoj kunkantis <klr>[&#8230;]</klr> ja 
+        la konfirmitoj kunkantis <klr>[&#x2026;]</klr> ja 
         ankora&ubreve; neniaj <tld/>aj zorgoj ilin
         premis
         <fnt>
@@ -204,23 +218,36 @@
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_f;&c_e;&c_s;&c_ib;&c_j;&c_n;&c_y;</trd>
   <trd lng="de">beruflich</trd>
-  <trd lng="en">professional</trd>
+  <trd lng="en">professional<klr> (adj)</klr></trd>
+  <trd lng="fr">professionnel<klr> (adj.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x8077;&#x696D;&#x306E;  <pr>&#x3057;&#x3087;&#x304F;&#x304E;&#x3087;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x8077;&#x696D;&#x4E0A;&#x306E;  <pr>&#x3057;&#x3087;&#x304F;&#x304E;&#x3087;&#x3046;&#x3058;&#x3087;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x8077;&#x696D;&#x7684;&#x306A;  <pr>&#x3057;&#x3087;&#x304F;&#x304E;&#x3087;&#x3046;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x672C;&#x8077;&#x306E;  <pr>&#x307B;&#x3093;&#x3057;&#x3087;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x30D7;&#x30ED;&#x306E;  <pr>&#x3077;&#x308D;&#x306E;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>zawodowy</trd>,
+    <trd>profesjonalny</trd>
+  </trdgrp>
+  <trd lng="ro">profesional</trd>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_f;&c_je;&c_s;&c_ib;&c_j;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&c_f;&c_a;&c_h;&#x43E;&c_v;&c_i;&c_j;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_ib;&c_j;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_f;&c_a;&c_h;&c_o;&c_v;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 
-
-
 <drv mrk="profes.0isto">
-  <kap><tld/>isto, <var><kap><tld/>ulo</kap></var></kap>
-  <snc>
+  <kap>
+    <tld/>isto, <var><kap><tld/>ulo</kap></var>
+  </kap>
+  <snc mrk="profes.0isto.KOMUNE">
     <dif>
       Homo, kiu praktikas okupon por gajni vivrimedojn:
       <ekz>
         la plej malklera <tld/>isto kreas sian bezonatan vorton bone, dum la plej
-        a&ubreve;toritata <klr>[&#8230;]</klr> filologo kreus &gcirc;in sensence
+        a&ubreve;toritata <klr>[&#x2026;]</klr> filologo kreus &gcirc;in sensence
         <fnt>
           <bib>LR</bib>
           <lok>Unua Parto &ndash; Leksikologio</lok>
@@ -270,17 +297,27 @@
     <trd>profik <klr>(hovor.)</klr></trd>
   </trdgrp>
   <trd lng="de">Professioneller</trd>
-  <trd lng="en">professional</trd>
-  <trd lng="fr">professionnel</trd>
+  <trd lng="en">professional<klr> (noun)</klr></trd>
+  <trd lng="fr">professionnel<klr> (subst.)</klr></trd>
   <trdgrp lng="hu">
     <trd>szakember</trd>,
     <trd>szakmabeli</trd>,
     <trd>profi</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8077;&#x696D;&#x4EBA;  <pr>&#x3057;&#x3087;&#x304F;&#x304E;&#x3087;&#x3046;&#x3058;&#x3093;</pr></trd>,
+    <trd>&#x5C02;&#x9580;&#x5BB6;  <pr>&#x305B;&#x3093;&#x3082;&#x3093;&#x304B;</pr></trd>,
+    <trd>&#x30D7;&#x30ED;  <pr>&#x3077;&#x308D;</pr></trd>,
+    <trd>&#x7384;&#x4EBA;  <pr>&#x304F;&#x308D;&#x3046;&#x3068;</pr></trd>
+  </trdgrp>
   <trd lng="nl">beroeps<klr tip="ind"> (z..nw.)</klr></trd>
   <trdgrp lng="pl">
     <trd>profesjonalista</trd>,
     <trd>fachowiec</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>profesionist</trd>,
+    <trd>expert</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_s;&c_i;&c_o;&c_n;&c_a;&c_l;</trd>
   <trdgrp lng="sk">
@@ -288,10 +325,51 @@
     <trd>profesion&aacute;l</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_r;&#x43E;&c_f;&c_je;&c_s;&c_ib;&#x43E;&#x43D;&c_a;&#x43B;</trd>,
-    <trd>&c_f;&c_a;&c_h;&c_ib;&c_v;&c_je;&c_c;&#x44C;</trd>
+    <trd>&c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_ib;&c_o;&c_n;&c_a;&c_l;</trd>,
+    <trd>&c_f;&c_a;&c_h;&c_ib;&c_v;&c_je;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="vo">calel</trd>
+</drv>
+
+<drv mrk="profes.sam0ulo">
+  <kap>
+    sam<tld/>ulo,
+    <var><kap>sam<tld/>ano</kap></var>
+  </kap>
+  <snc mrk="profes.sam0ulo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Tiu, kiu havas saman <tld/>on, kiel alia homo:
+      <ekz>
+        ili certe opinius, ke tio estas <klr>[&#x2026;]</klr> artifika&jcirc;o, kiun miaj
+        sam<tld/>anoj, juvelistoj, ofte faras; ili ka&scirc;as la komerca&jcirc;on, kaj
+        disvastigas famon, ke oni &gcirc;in for&scirc;telis &ccirc;e ili
+        <fnt>
+          <aut>&Scirc;. Alej&hcirc;em, trad. I. Mu&ccirc;nik</aut>
+          <vrk>Ne estas feli&ccirc;o</vrk>
+          <lok>en: Hebreaj rakontoj, 1923</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li iris ien al festeneto kun aro da sam<tld/>uloj
+        <fnt>
+          <aut>H. Luyken</aut>
+          <vrk>Mirinda amo</vrk>
+          <lok>1913</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+      Oni pli ofte uzas la vorton
+      &#x201A;<ref tip="vid" cel="koleg.0o.samprofesia">kolego<sncref/></ref>&#x2018;
+      pri konata homo, ekzemple el sama firmao,
+      e&ccirc; se li havas iom alian okupon. &#x201A;Samprofesiulo&#x2018; havas saman okupon, sed
+      povas esti fremdulo laboranta en alia loko a&ubreve; medio.
+      <aut>&jcirc;v</aut>
+  </rim>
+  <trd lng="fr">coll&egrave;gue</trd>
+  <trd lng="ja">&#x540C;&#x696D;&#x8005;  <pr>&#x3069;&#x3046;&#x304E;&#x3087;&#x3046;&#x3057;&#x3083;</pr></trd>
 </drv>
 
 <drv mrk="profes.libera0o">
@@ -328,10 +406,10 @@
     <trd lng="hu">szabad m&udblac;v&eacute;szet</trd>
     <trd lng="nl">vrij beroep</trd>
     <trd lng="no">fritt yrke</trd>
-    <trd lng="pt">profiss&atilde;o liberal</trd>
-    <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_a;&c_ja;
-    &c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_s;&c_i;&c_ja;</trd>
     <trd lng="pl">wolny <ind>zaw&oacute;d</ind></trd>
+    <trd lng="pt">profiss&atilde;o liberal</trd>
+    <trd lng="ro">profesii liberale</trd>
+    <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_f;&c_je;&c_s;&c_s;&c_i;&c_ja;</trd>
   </snc>
   <snc mrk="profes.0o.memstara">
     <uzo tip="fak">JUR</uzo>
@@ -345,7 +423,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la Fonduso insistis por ke ni <klr>[&#8230;]</klr> forigu la sekurecojn kiuj protektas
+        la Fonduso insistis por ke ni <klr>[&#x2026;]</klr> forigu la sekurecojn kiuj protektas
         la liberajn <tld/>ojn
         <fnt>
           <bib>MD14</bib>
@@ -359,6 +437,21 @@
 </art>
 <!--
 $Log$
+versio 1.35 2023/10/20 16:38:17
+revo: transskribo per <pr>
+
+versio 1.33 2023/05/01 08:31:39
+Paul Peeraerts: Steloj -> monato
+
+versio 1.32 2023/04/22 14:23:48
+Jeromo Vasxe: + sam~ulo
+
+versio 1.31 2023/03/17 21:23:29
+Robert Baruch: +trd: en
+
+versio 1.30 2023/03/09 23:30:52
+Vito Redsky: +trd pl + trd ro
+
 versio 1.29 2022/05/16 06:43:51
 Dmitri Gabinski: + trd be
 
@@ -366,20 +459,5 @@ versio 1.28 2022/05/04 18:30:34
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.26 2021/12/18 14:25:42
-Wolfram Diestel: +~a
-
-versio 1.25 2021/12/18 11:25:09
-Wolfram Diestel: +ekz-oj, ref-oj; libera ~o: + moderna snc
-
-Revision 1.23  2015/10/27 11:10:32  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2015/10/05 13:10:16  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.21  2015/07/04 08:37:42  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.20  2015/06/29 16:40:18  revo
 -->
 </vortaro>

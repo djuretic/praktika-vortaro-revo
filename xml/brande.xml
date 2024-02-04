@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: brande.xml,v 1.13 2022/04/26 15:00:33 revo Exp $">
+<art mrk="$Id: brande.xml,v 1.16 2023/10/29 19:11:03 revo Exp $">
 <kap>
 <rad>Brandenburg</rad>/o
 </kap>
@@ -15,15 +15,16 @@
         en Berlino fine de januaro 500 novnazioj manifestaciis, kun flagoj kaj
         Hitler-saluto, &ccirc;e la <tld/>a Pordego 
         <klr>(iama urbopordego &ccirc;e la strato kondukanta al la urbo <tld/>o)</klr>
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Maul Stefan</aut>
-          <vrk><url ref="&Steloj;monato2/006929.html">Germanio: Brutalaj dekstruloj</url></vrk>
+        <fnt><aut>Stefan Maul</aut>,
+        <vrk><url ref="&Monato;/2000/006929.php">Brutalaj dekstruloj</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/04, p. 6</lok>
         </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_B;&c_r;&c_a;&c_n;&c_d;&c_e;&c_n;&c_b;&c_u;&c_r;&c_g;</trd>
-  </snc>
+    <trd lng="zh">&#x54C8;&#x5F17;&#x5C14;&#x6CB3;&#x7554;&#x52C3;&#x5170;&#x767B;&#x5821;&#x5E02; <pr>h&#x101;f&#xFA;&#x11B;rh&#xE9;p&#xE0;nb&#xF3;l&#xE1;nd&#x113;ngb&#x1CE;osh&#xEC;</pr></trd>
+</snc>
   <snc mrk="brande.0o.lando">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
@@ -33,32 +34,37 @@
       situanta en la orienta parto kun regurbo estas <ref cel="pocdam.0o">Pocdamo</ref>.
     </dif>
     <rim>
-      Por distingi la federacian landon de la urbo, PIV kaj Vikipedio nomas la landon
-      Brandenburgio.
+      Por distingi la federacian landon de la urbo, PIV kaj Vikipedio mencias anka&ubreve; la landon
+      Brandenburgio. PIV tamen plusendas al Brandenburgo, kun la mencio "prefere".
     </rim>
     <trd lng="be">&c_B;&c_r;&c_a;&c_n;&c_d;&c_e;&c_n;&c_b;&c_u;&c_r;&c_g;</trd>
     <trd lng="de">Brandenburg</trd>
     <trd lng="es">Brandeburgo</trd>
     <trd lng="fr">Brandebourg</trd>
     <trd lng="hu">Brandeburg</trd>
+    <trd lng="nl">Brandenburg</trd>
     <trd lng="pl">Brandenburgia</trd>
     <trd lng="pt">Brandemburgo</trd>
     <trd lng="ru">&c_B;&c_r;&c_a;&c_n;&c_d;&c_je;&c_n;&c_b;&c_u;&c_r;&c_g;</trd>
-  </snc>
-  <trd lng="uk">&#x411;&#x440;&#x430;&#x43D;&#x434;&#x435;&#x43D;&#x431;&#x443;&#x440;&#x491;</trd>
+    <trd lng="uk">&c_B;&c_r;&c_a;&#x43D;&c_d;&c_je;&#x43D;&c_b;&c_u;&c_r;&c_gu;</trd>
+    <trd lng="zh">&#x52C3;&#x5170;&#x767B;&#x5821; <pr>b&#xF3;l&#xE1;nd&#x113;ngb&#x1CE;o</pr></trd>
+</snc>
+  
+  <trd lng="ja">&#x30D6;&#x30E9;&#x30F3;&#x30C7;&#x30F3;&#x30D6;&#x30EB;&#x30AF;</trd>
 </drv>
 
 <drv mrk="brande.0ano">
   <kap><tld lit="b"/>ano</kap>
   <snc>
     <dif>
-      Civitano de Brandenburgo.
+      Civitano de <tld/>o.
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_r;&c_a;&c_n;&c_d;&c_e;&c_n;&c_b;&c_u;&c_r;&c_zh;&c_a;&c_c;</trd>
   <trd lng="de">Brandenburger</trd>
   <trd lng="fr">Brandebourgeois</trd>
   <trd lng="hu">brandeburgi</trd>
+  <trd lng="nl">Brandenburger</trd>
   <trd lng="pl">Brandenburczyk</trd>
   <trd lng="pt">Brandemburguense</trd>
   <trd lng="ru">&c_b;&c_r;&c_a;&c_n;&c_d;&c_je;&c_n;&c_b;&c_u;&c_r;&c_zh;&c_je;&c_c;</trd>
@@ -66,6 +72,9 @@
 </art>
 <!--
 $Log$
+versio 1.14 2023/04/27 05:27:56
+Paul Peeraerts: &Steloj -> &Monato
+
 versio 1.13 2022/04/26 15:00:33
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -85,8 +94,5 @@ Revision 1.6  2003/01/24 17:31:00  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.5  2002/10/20 16:31:38  revo
-Jose Martin del Pozo: ald es trd
-
-Revision 1.4  2002/07/16 18:50:08  revo
 -->
 </vortaro>

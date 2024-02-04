@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ing.xml,v 1.25 2022/09/28 20:38:07 revo Exp $">
+<art mrk="$Id: ing.xml,v 1.30 2023/11/19 10:22:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   -<rad>ing</rad>/ <fnt><bib>PV</bib></fnt>
@@ -45,7 +45,7 @@
           <ref cel="tibi.0ingo">tibi<tld/>o</ref>...
         </refgrp>
       </ekz>
-    </dif>  
+    </dif>
     <refgrp tip="vid">
        <ref cel="baz.0o.postamento">bazo<sncref/></ref>,
        <ref cel="ten.sub0ilo">subtenilo</ref>,
@@ -110,6 +110,7 @@
   <trdgrp lng="de">
     <trd>H&uuml;lse</trd>,
     <trd>Halter</trd>,
+    <trd>Fassung</trd>,
     <trd>Scheide</trd>
   </trdgrp>
   <trdgrp lng="es">
@@ -131,6 +132,10 @@
     <trd>tart&oacute;</trd>,
     <trd>tok</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x9798;  <pr>&#x3055;&#x3084;</pr></trd>,
+    <trd>&#x8EF8;&#x53D7;&#x3051;  <pr>&#x3058;&#x304F;&#x3046;&#x3051;</pr></trd>
+  </trdgrp>
   <trd lng="nl">foedraal</trd>
   <trd lng="pt">bainha</trd>
   <trdgrp lng="sk">
@@ -145,8 +150,11 @@
     <trd>&#x43A;&#x43E;&c_v;&#x43F;&c_a;&#x43A;</trd>,
     <trd>&#x43A;&#x43E;&c_v;&#x43F;&c_a;&c_ch;&#x43E;&#x43A;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x979E; <pr>b&#x1D0;ng</pr></trd>,
+    <trd>&#x9798; <pr>qi&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="ing.0ita">
   <kap>
@@ -164,7 +172,7 @@
         </fnt>;
         <trd lng="de">auf <ind>Samt</ind> gebettet</trd>
       </ekz>
-      <ekz>        
+      <ekz>
         programo kun <tld/>ita iteracio
         <fnt>
           <vrk><url ref="https://www.bertilow.com/div/komputada_leksikono/KRESTOM.html">Komputada
@@ -176,7 +184,7 @@
         la romanpersonoj
         <fnt>
           <bib>LOdE</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Sincere kaj fre&scirc;e, kiel
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">Sincere kaj fre&scirc;e, kiel
           anta&ubreve; 101 jaroj</url></vrk>
         </fnt>.
       </ekz>
@@ -197,8 +205,16 @@
   <trdgrp lng="fr">
     <trd>embo&icirc;tement</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x5165;&#x308C;&#x5B50;&#x306E;  <pr>&#x3044;&#x308C;&#x3053;&#x306E;</pr></trd>,
+    <trd>&#x30CD;&#x30B9;&#x30C8;&#x3055;&#x308C;&#x305F;</trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="uk">&c_v;&#x43A;&#x43B;&c_a;&c_d;&c_je;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5D4C;&#x8FDB; <pr>qi&#xE0;nj&#xEC;n</pr></trd>,
+    <trd>&#x5D4C;&#x5165;&#x6027; <pr>qi&#xE0;nr&#xF9;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ing.en0igi">
@@ -207,7 +223,7 @@
     <dif>
       Meti ion en <tld/>on:
       <ekz>
-        li <klr>[&#8230;]</klr> en<tld/>igis la tran&ccirc;ilon
+        li <klr>[&#x2026;]</klr> en<tld/>igis la tran&ccirc;ilon
         <fnt>
           <aut>P. Haanp&auml;&auml;, trad. B. Lehtinen</aut>,
           <vrk><url ref="&LOdE;Tl-finn2.htm">
@@ -216,11 +232,11 @@
         </fnt>;
       </ekz>
       <ekz>
-        en la supro estas farita truo, ulnon profunda <klr>[&#8230;]</klr> kaj en &gcirc;in estis
+        en la supro estas farita truo, ulnon profunda <klr>[&#x2026;]</klr> kaj en &gcirc;in estis
         en<tld/>igita la kruco de la Sinjoro
         <fnt>
           <bib>LOdE</bib>
-          <vrk><url ref="https://tekstaro.com/t?nomo=ondo-de-esperanto">Pri la centra loko de la
+          <vrk><url ref="&Tekstaro;?nomo=ondo-de-esperanto">Pri la centra loko de la
           Tero, kie Kristo estis krucumita</url></vrk>
         </fnt>.
       </ekz>
@@ -234,7 +250,11 @@
     <trd>d&aacute; do pochvy</trd>,
     <trd>d&aacute;t do pouzdra</trd>
   </trdgrp>
-  <trd lng="de">einstecken</trd>
+  <trdgrp lng="de">
+    <trd>einstecken</trd>,
+    <trd>einfassen</trd>,
+    <trd>fassen <klr>(einstecken)</klr></trd>,
+  </trdgrp>
   <trdgrp lng="es">
     <trd>envainar</trd>,
     <trd>enfundar</trd>,
@@ -249,6 +269,7 @@
     <trd>bedug</trd>,
     <trd>becs&uacute;sztat</trd>
   </trdgrp>
+  <trd lng="ja">&#x5DEE;&#x3057;&#x8FBC;&#x3080;  <pr>&#x3055;&#x3057;&#x3053;&#x3080;</pr></trd>
   <trd lng="nl">in de <ind>schede</ind> steken</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
@@ -257,6 +278,10 @@
   <trdgrp lng="sk">
     <trd>po&scaron;vy</trd>,
     <trd>zastr&ccaron;i&tcaron; do dr&zcaron;iaka</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5957;&#x5165; <pr>t&#xE0;or&#xF9;</pr></trd>,
+    <trd>&#x8FDB;&#x884C;&#x914D;&#x5408; <pr>j&#xEC;nx&#xED;ngp&#xE8;ih&#xE9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -311,6 +336,7 @@
     <trd>kih&uacute;z</trd>,
     <trd>kivon</trd>
   </trdgrp>
+  <trd lng="ja">&#x629C;&#x304F;  <pr>&#x306C;&#x304F;</pr></trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_t;&c_a;&c_shch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_n;&c_u;&c_t;&c_mol;</trd>
@@ -318,6 +344,10 @@
   <trdgrp lng="sk">
     <trd>vybra&tcaron;</trd>,
     <trd>vytiahnu&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x62BD; <pr>ch&#x14D;u</pr></trd>,
+    <trd>&#x51FA;&#x9798; <pr>ch&#x16B;qi&#xE0;o</pr></trd>
   </trdgrp>
 </drv>
 </subart>
@@ -329,6 +359,15 @@
 </art>
 <!--
 $Log$
+versio 1.29 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.27 2023/08/26 12:40:02
+Wolfram Diestel: +trd de
+
+versio 1.26 2023/05/04 16:53:13
+revo: aktualigo URL-unuoj
+
 versio 1.25 2022/09/28 20:38:07
 Ulrich Fellmann: ingo: sxangxo de 1 DE trd, forigo de klr
 
@@ -342,14 +381,5 @@ versio 1.21 2021/07/02 06:33:05
 Wolfram Diestel: kor. trd, ref-cel
 
 versio 1.20 2021/07/01 20:31:31
-Wolfram Diestel: ~i -> ~ita
-
-versio 1.19 2021/07/01 19:24:36
-Wolfram Diestel: ekz->ref, +ref-oj, ekz, trd de
-
-versio 1.18 2021/07/01 17:35:25
-Wolfram Diestel: ~: iomete rearanghita; ekz-oj, ref-oj, trd de; +~i
-
-Revision 1.16  2015/07/04 08:37:36  revo
 -->
 </vortaro>

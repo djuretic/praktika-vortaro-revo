@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: abon.xml,v 1.62 2022/03/16 15:54:20 revo Exp $">
+<art mrk="$Id: abon.xml,v 1.69 2023/10/27 12:51:04 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>abon</rad>/i
@@ -12,7 +12,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="abon.0i.ricevadi">
     <dif>
-      Ricevi, la&ubreve; kontrakto, gazeton a&ubreve; servon:
+      Ricevadi, la&ubreve; kontrakto, gazeton a&ubreve; servon:
       <ekz>
         mi de du jaroj <tld/>as la revuon;
       </ekz><ekz>
@@ -20,28 +20,27 @@
         <trd lng="bg">&c_a;&c_b;&c_o;&c_n;&c_a;&c_t;</trd>
         <trd lng="ca">abonat</trd>
         <trd lng="de">Abbonent</trd>
-        <trd lng="fr">abonn&eacute;</trd>
         <trd lng="es">abonado</trd>
+        <trd lng="fr">abonn&eacute;</trd>
         <trd lng="hu">el&odblac;fizet&odblac;</trd>
+        <trdgrp lng="ru">
+          <trd>&c_p;&c_o;&c_d;&c_p;&c_i;&c_s;&c_ch;&c_i;&c_k;</trd>,
+          <trd>&c_a;&c_b;&c_o;&c_n;&c_je;&c_n;&c_t;</trd>
+        </trdgrp>
       </ekz><ekz>
         plue <tld/>i la Gazeton de Anoncoj
-        <fnt>
-          <bib>Fab3</bib>
-          <lok>Bona humoro</lok>
-        </fnt>;
+        <fnt><bib>Fab3</bib> <lok>Bona humoro</lok></fnt>;
       </ekz><ekz>
-        tiuj, kiuj <tld/>is la magazinon, estis tre kontentaj pri la
-        enhavo kaj la formo
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=10971">Monato
-          (gazeto)</url></lok>
-        </fnt>;
+        Dum kelkaj jaroj mi abonis la &jcirc;urnalon <ctl>Ruslanda Esperantisto</ctl>
+        <fnt><bib>LOdE</bib> <lok>1999:3 (53)</lok></fnt>;
+      </ekz><ekz>
+        Petu senpagan ekzempleron, <klr>&#x2026;</klr> sendigu specimenan ekzempleron
+        al viaj ne-<tld/>antaj amikoj
+        <fnt><lok>Biblia Revuo, &#x2116;2, 1968.</lok></fnt>;
       </ekz>
     </dif>
     <trd lng="be">&c_v;&c_y;&c_p;&c_ib;&c_s;&c_v;&c_a;&c_c;&c_mol;</trd>
-    <trd lng="bg">&c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_a;&c_m;
-    &c_s;&c_je;</trd>
+    <trd lng="bg">&c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_a;&c_m; &c_s;&c_je;</trd>
     <trd lng="ca"><ind>estar abonat</ind> (a)</trd>
     <trdgrp lng="es">
       <trd>estar abonado a</trd>,
@@ -59,8 +58,7 @@
     <trd lng="pt">assinar</trd>
     <trdgrp lng="ru">
       <trd>&c_v;&c_y;&c_p;&c_i;&c_s;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
-      <trd>
-      &c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+      <trd>&c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="sk">odobera&tcaron;</trd>
     <trd lng="sl">naro&ccaron;ati</trd>
@@ -81,15 +79,15 @@
       <ekz>
         la revuo havas multajn <tld/>intojn;
       </ekz><ekz>
-        ili ne havis la rimedojn por <tld/>i gazeton
+        La direktor-edzino estas <tld/>inta lo&gcirc;ion en la teatro
         <fnt>
-          <bib>Fab4</bib>
-          <lok>Infana babilado</lok>
+	  <aut>A. &Ccirc;e&hcirc;ov, tr. M.Luka&scirc;</aut>: <vrk>Enujulo</vrk>,
+	  <lok>La Nica literatura revuo, 3:1</lok>
         </fnt>.
       </ekz>
     </dif>
     <rim>
-      Kvankam &ccirc;i tiu senco estas la nura, kiu aperas en
+      Kvankam &ccirc;i tiu senco estas la sola, kiu aperas en
       la Fundamento, &gcirc;i preska&ubreve; plene malaperis. &Gcirc;in tamen implicas la
       deriva&jcirc;o <ref tip="ant" cel="abon.mal0i">mal<tld/>i</ref>.
     </rim>
@@ -115,13 +113,18 @@
     <trd lng="pt">assinar</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_d;&c_p;&c_i;&c_s;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+      <trd><ofc>*</ofc>&c_p;&c_o;&c_d;&c_p;&c_i;&c_s;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
       <trd>&c_a;&c_b;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
     <trd lng="sk">predplati&tcaron; (si)</trd>
     <trd lng="sl">naro&ccaron;iti</trd>
     <trd lng="sv">teckna ett <ind>abonnemang</ind>
     <klr>(p&aring;)</klr></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x8A02;&#x95B1;&#x5831;&#x7D19; <pr>d&#xEC;ngyu&#xE8;b&#xE0;ozh&#x1D0;</pr></trd>,
+    <trd>&#x8BA2;&#x9605;&#x62A5;&#x7EB8; <pr>d&#xEC;ngyu&#xE8;b&#xE0;ozh&#x1D0;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="abon.0i.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
@@ -159,10 +162,7 @@
       <trd>suscribirse a</trd>.
     </trdgrp>
     <trd lng="nl">zich <ind>inschrijven</ind> op</trd>
-    <trd lng="ru">&c_p;&c_o;&c_d;&c_p;&c_i;&c_s;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr>
-     (&c_n;&c_a;
-     &c_t;&c_je;&c_l;&c_je;&c_k;&c_o;&c_n;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_ju;
-     &c_i; &c_t;.&c_p;.)</klr></trd>
+    <trd lng="ru">&c_p;&c_o;&c_d;&c_p;&c_i;&c_s;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr> (&c_n;&c_a; &c_t;&c_je;&c_l;&c_je;&c_k;&c_o;&c_n;&c_f;&c_je;&c_r;&c_je;&c_n;&c_c;&c_i;&c_ju; &c_i; &c_t;.&c_p;.)</klr></trd>
   </snc>
   <trdgrp lng="cs">
     <trd>abonovat</trd>,
@@ -170,8 +170,7 @@
     <trd>odeb&iacute;rat</trd>,
     <trd>p&rcaron;edplatit <klr>(&ccaron;sp.)</klr></trd>
   </trdgrp>
-  <trd lng="da">abonnere
-</trd>
+  <trd lng="da">abonnere</trd>
   <trd lng="de">abonnieren</trd>
   <trd lng="en">subscribe</trd>
   <trdgrp lng="fa">
@@ -182,12 +181,16 @@
   </trdgrp>
   <trd lng="he">&#x5DC;&#x5D4;&#x5D9;&#x5E8;&#x5E9;&#x5DD; &#x5DB;&#x5DE;&#x5E0;&#x5D5;&#x5D9;</trd>
   <trd lng="it">abbonarsi <klr>(a)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E88;&#x7D04;&#x3059;&#x308B;  <pr>&#x3088;&#x3084;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x8CFC;&#x8AAD;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3069;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>abonova&tcaron;</trd>,
     <trd>plati&tcaron; predplatn&eacute;</trd>,
     <trd>prihl&aacute;si&tcaron; sa</trd>
   </trdgrp>
-  <trd lng="uk">&#x43F;&c_je;&c_r;&c_je;&c_d;&#x43F;&#x43B;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_zh;&c_u;&c_r;&#x43D;&c_a;&#x43B; &c_ib; &c_t;.&#x43F;.)</trd>
+  <trd lng="uk">&c_p;&c_je;&c_r;&c_je;&c_d;&c_p;&c_l;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_zh;&c_u;&c_r;&c_n;&c_a;&c_l; &c_ib; &c_t;.&c_p;.)</trd>
 </drv>
 
 <drv mrk="abon.0o">
@@ -203,9 +206,11 @@
       </ekz><ekz>
         premii per <tld/>o
         <fnt>
+          <aut>Gbeglo Koffi</aut>
+          <vrk><url ref="&Monato;/2000/007009.php">Donace
+          subteni ...</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="http://www.esperanto.be/fel/mon/007009.html">Donace
-          subteni...</url></vrk>
+          <lok>2000/06, p. 2</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -239,6 +244,12 @@
   <trd lng="he">&#x5DE;&#x5B4;&#x5E0;&#x5D5;&#x5BC;&#x5D9;</trd>
   <trd lng="hu">el&odblac;fizet&eacute;s</trd>
   <trd lng="it">abbonamento</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E88;&#x7D04;  <pr>&#x3088;&#x3084;&#x304F;</pr></trd>,
+    <trd>&#x8CFC;&#x8AAD;  <pr>&#x3053;&#x3046;&#x3069;&#x304F;</pr></trd>,
+    <trd>&#x5B9A;&#x671F;&#x5238;&#x8CFC;&#x5165;  <pr>&#x3066;&#x3044;&#x304D;&#x3051;&#x3093;&#x3053;&#x3046;&#x306B;&#x3085;&#x3046;</pr></trd>,
+    <trd>&#x5B9A;&#x671F;&#x5229;&#x7528;&#x5951;&#x7D04;  <pr>&#x3066;&#x3044;&#x304D;&#x308A;&#x3088;&#x3046;&#x3051;&#x3044;&#x3084;&#x304F;</pr></trd>
+  </trdgrp>
   <trd lng="nl">abonnement</trd>
   <trdgrp lng="pl">
     <trd>abonament</trd>,
@@ -256,10 +267,10 @@
     <trd>prenumeration</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&c_je;&c_r;&c_je;&c_d;&#x43F;&#x43B;&c_a;&c_t;&c_a;</trd>,
-    <trd>&c_a;&c_b;&#x43E;&#x43D;&c_je;&#x43C;&c_je;&#x43D;&c_t; <klr>(&#x43F;&c_r;&c_a;&c_v;&#x43E;
-    &#x43A;&#x43E;&c_r;&c_i;&c_s;&c_t;&c_u;&c_v;&c_a;&#x43D;&#x43D;&#x44F;)</klr></trd>,
-    <trd>&#x43F;&c_ib;&c_d;&#x43F;&c_i;&c_s;&#x43A;&c_a;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_d;&c_p;&c_l;&c_a;&c_t;&c_a;</trd>,
+    <trd>&c_a;&c_b;&c_o;&c_n;&c_je;&c_m;&c_je;&c_n;&c_t; <klr>(&c_p;&c_r;&c_a;&c_v;&c_o;
+    &c_k;&c_o;&c_r;&c_i;&c_s;&c_t;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;)</klr></trd>,
+    <trd>&c_p;&c_ib;&c_d;&c_p;&c_i;&c_s;&c_k;&c_a;</trd>
   </trdgrp>
 </drv>
 
@@ -362,6 +373,10 @@
     <trd>p&rcaron;edplatn&iacute; l&iacute;stek</trd>
   </trdgrp>
   <trd lng="he">&#x5D8;&#x5D5;&#x5E4;&#x5E1; &#x5D4;&#x5E8;&#x5E9;&#x5DE;&#x5D4;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x4E88;&#x7D04;&#x7533;&#x8FBC;&#x66F8;  <pr>&#x3088;&#x3084;&#x304F;&#x3082;&#x3046;&#x3057;&#x3053;&#x307F;&#x3057;&#x3087;</pr></trd>,
+    <trd>&#x8CFC;&#x8AAD;&#x7533;&#x8FBC;&#x66F8;  <pr>&#x3053;&#x3046;&#x3069;&#x304F;&#x3082;&#x3046;&#x3057;&#x3053;&#x307F;&#x3057;&#x3087;</pr></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>abonentka</trd>,
     <trd>predplatn&yacute; l&iacute;stok</trd>
@@ -399,6 +414,10 @@
     <trd>souscrire un <ind>abonnement</ind> (&agrave;)</trd>.
   </trdgrp>
   <trd lng="hu">megrendel</trd>
+  <trdgrp lng="ja">
+    <trd>&#x8CFC;&#x8AAD;&#x3092;&#x59CB;&#x3081;&#x308B;  <pr>&#x3053;&#x3046;&#x3069;&#x304F;&#x3092;&#x306F;&#x3058;&#x3081;&#x308B;</pr></trd>,
+    <trd>&#x8CFC;&#x8AAD;&#x5951;&#x7D04;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3069;&#x304F;&#x3051;&#x3044;&#x3084;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">een <ind>abonnement</ind> nemen</trd>
   <trdgrp lng="pl">
     <trd>zaabonowa&cacute;</trd>,
@@ -413,8 +432,8 @@
   </trdgrp>
   <trd lng="sk">predplati&tcaron; si</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x43F;&#x43B;&#x430;&#x442;&#x443;</trd>,
-    <trd>&#x441;&#x442;&#x430;&#x442;&#x438; &#x430;&#x431;&#x43E;&#x43D;&#x435;&#x43D;&#x442;&#x43E;&#x43C;</trd>
+    <trd>&c_z;&c_r;&c_o;&c_b;&c_i;&c_t;&c_i; &c_p;&c_je;&c_r;&c_je;&c_d;&c_p;&c_l;&c_a;&c_t;&c_u;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_t;&c_i; &c_a;&c_b;&c_o;&c_n;&c_je;&c_n;&c_t;&c_o;&c_m;</trd>
   </trdgrp>
 </drv>
 
@@ -473,11 +492,30 @@
     </trdgrp>
     <trd lng="sk">odhl&aacute;si&tcaron;</trd>
   </snc>
-<trd lng="th">&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23;</trd>
+<trdgrp lng="ja">
+    <trd>&#x53D6;&#x6D88;&#x3059;  <pr>&#x3068;&#x308A;&#x3051;&#x3059;</pr></trd>,
+    <trd>&#x89E3;&#x7D04;&#x3059;&#x308B;  <pr>&#x304B;&#x3044;&#x3084;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
+  <trd lng="th">&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.68 2023/10/12 16:57:42
+revo: transskribo per <pr>
+
+versio 1.66 2023/05/12 18:30:20
+Paul Peeraerts: kor de url
+
+versio 1.65 2023/04/05 03:26:52
+Sergio Pokrovskij: ricevADi
+
+versio 1.64 2023/03/29 11:24:51
+Paul Peeraerts: &Monato;
+
+versio 1.63 2023/03/18 17:26:47
+Paul Peeraerts: nura -> sola
+
 versio 1.61 2022/03/11 12:48:07
 Wolfram Diestel: trd
 
@@ -485,21 +523,6 @@ versio 1.58 2020/06/24 09:10:48
 Wolfram Diestel: kor. ref-cel
 
 versio 1.57 2020/06/24 07:10:38
-Damien Brucker: -eraro cxe cel en ref
-
-Revision 1.54  2018/11/13 13:10:15  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.53  2018/09/05 04:10:13  revo
-Sergio Pokrovskij: rim
-
-Revision 1.52  2016/11/19 23:10:14  revo
-Wolfram Diestel: ekz-oj
-
-Revision 1.51  2016/10/30 15:10:13  revo
-Lars Raarup Knudsen: aldono de danaj tradukoj
-
-Revision 1.50  2016/03/18 19:10:37  revo
 -->
 
 </vortaro>

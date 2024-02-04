@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sinopt.xml,v 1.17 2022/03/27 17:06:35 revo Exp $">
+<art mrk="$Id: sinopt.xml,v 1.22 2023/10/21 07:46:47 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>sinoptik</rad>/a <fnt><bib>PV</bib></fnt>
@@ -17,22 +17,51 @@
           <aut>Ba Jin, trad. Li Shijun</aut>,
           <vrk>A&ubreve;tuno en la Printempo</vrk>,
           <lok>1980</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o pri la UEA-afero de <klr>[&#x2026;]</klr> pasinta direktoro
+        <fnt>
+          <aut>C. C. Goldsmith</aut>
+          <vrk><url ref="https://bulteno.esperanto-usa.org/a/1936/20/00-pdf/bulteno.pdf">Amerika Esperantisto</url></vrk>
+          <lok>vol. 50, n-ro 1, Nov. 1936</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="kompar.0o.ago">komparo</ref>,
+      <ref cel="kompen.0o">kompendio</ref>,
+      <ref cel="resum.0o">resumo</ref>,
+      <ref cel="skript.0o">skripto</ref>,
+      <ref cel="rigard.super0o.KOMUNE">superrigardo</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_v;&c_o;&c_d;&c_k;&c_a; <klr tip="amb">(&c_z;&c_mol;&c_v;&c_je;&c_s;&c_t;&c_a;&c_k;)</klr></trd>,
+    <trd>&c_a;&c_g;&c_l;&c_ja;&c_d;</trd>
+  </trdgrp>
+  <trd lng="de">Synopse</trd>
   <trd lng="en">synopsis</trd>
   <trd lng="cs">kniha uspo&rcaron;&aacute;dan&aacute; synopticky</trd>
+  <trdgrp lng="de">
+    <trd>Synopse</trd>,
+    <trd>Gegen&uuml;berstellung</trd>,
+    <trd>Gesamtschau</trd>
+  </trdgrp>
   <trd lng="fr">synoptique<klr> (subst.)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x8981;&#x89A7;  <pr>&#x3088;&#x3046;&#x3089;&#x3093;</pr></trd>,
+    <trd>&#x6982;&#x8981;  <pr>&#x304C;&#x3044;&#x3088;&#x3046;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>synopsis</trd>,
     <trd>synopsa</trd>
   </trdgrp>
   <trd lng="sk">kniha usporiadan&aacute; synopticky</trd>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x438;&#x43D;&#x43E;&#x43F;&#x441;&#x438;&#x441;</trd>,
-    <trd>&#x437;&#x430;&#x433;&#x430;&#x43B;&#x44C;&#x43D;&#x438;&#x439; &#x43E;&#x433;&#x43B;&#x44F;&#x434;</trd>,
-    <trd>&#x437;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x43D;&#x44F;</trd>
+    <trd>&c_s;&c_i;&c_n;&c_o;&c_p;&c_s;&c_i;&c_s;</trd>,
+    <trd>&c_z;&c_a;&c_g;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_o;&c_g;&c_l;&c_ja;&c_d;</trd>,
+    <trd>&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_n;&c_ja;</trd>
   </trdgrp>
 </drv>
 
@@ -48,11 +77,16 @@
       <ekz>
         <ind><tld/>aj evangelioj</ind>
         <klr>(de Mateo, Marko kaj Luko)</klr>.
+        <trd lng="de">synoptische Evangelien</trd>
         <trd lng="hu">szinoptikus evang&eacute;liumok</trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="skem.0a">skema</ref>.
+      <ref cel="flank.0al0e">flankalflanka</ref>,
+      <ref cel="integr.0a.kohera">integra</ref>,
+      <ref cel="kompar.0i">kompara</ref>,
+      <ref cel="est.kun0i">kunesta</ref>,
+      <ref cel="skem.0a">skema</ref>
     </refgrp>
   </snc>
   <trd lng="en">synoptic</trd>
@@ -72,6 +106,10 @@
   <trdgrp lng="hu">
     <trd>szinoptikus</trd>,
     <trd>egyszerre &aacute;ttekinthet&odblac;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x4E00;&#x89A7;&#x7528;&#x306E;  <pr>&#x3044;&#x3061;&#x3089;&#x3093;&#x3088;&#x3046;&#x306E;</pr></trd>,
+    <trd>&#x6982;&#x89B3;&#x7684;&#x306A;  <pr>&#x304C;&#x3044;&#x304B;&#x3093;&#x3066;&#x304D;&#x306A;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>synoptisch</trd>,
@@ -93,14 +131,26 @@
     <trd>synoptick&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x441;&#x438;&#x43D;&#x43E;&#x43F;&#x442;&#x438;&#x447;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x437;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43E;&#x433;&#x43B;&#x44F;&#x434;&#x43E;&#x432;&#x438;&#x439;</trd>
+    <trd>&c_s;&c_i;&c_n;&c_o;&c_p;&c_t;&c_i;&c_ch;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_o;&c_g;&c_l;&c_ja;&c_d;&c_o;&c_v;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2023/10/21 07:46:47
+revo: transskribo per <pr>
+
+versio 1.20 2023/05/26 21:21:22
+Wolfram Diestel: ~o: +ekz, ref-oj, trd de
+
+versio 1.19 2023/05/26 19:21:37
+Wolfram Diestel: +ref, trd de
+
+versio 1.18 2023/04/18 06:31:35
+Dmitri Gabinski: + trd be; kor de uk
+
 Revision 1.15  2015/09/13 14:10:17  revo
 Cindy Moon McKee: +trd en
 
@@ -111,14 +161,5 @@ Revision 1.13  2015/06/29 16:33:23  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.12  2014/08/21 01:10:14  revo
-Jeromo Vasxe: + ~o
-
-Revision 1.11  2014/04/11 15:10:15  revo
-Damien Brucker: +trd fr
-
-Revision 1.10  2012/07/15 10:10:18  revo
-Marc Rausell: + trd ca
-
-Revision 1.9  2004/10/13 16:32:34  revo
 -->
 </vortaro>

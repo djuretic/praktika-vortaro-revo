@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rigid.xml,v 1.22 2022/08/15 07:29:44 revo Exp $">
+<art mrk="$Id: rigid.xml,v 1.25 2023/10/21 05:38:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rigid</rad>/a
@@ -26,7 +26,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        predikistoj <klr>[&#8230;]</klr> kun la <tld/>aj kolumoj kaj longaj nigraj roboj
+        predikistoj <klr>[&#x2026;]</klr> kun la <tld/>aj kolumoj kaj longaj nigraj roboj
         <fnt>
           <bib>Fab2</bib>
           <lok>Ru&gcirc;aj &scirc;uoj</lok>
@@ -48,7 +48,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &scirc;i <klr>[&#8230;]</klr> sidi&gcirc;is en la apogse&gcirc;o malproksime de la tor&ccirc;o kaj pasigis
+        &scirc;i <klr>[&#x2026;]</klr> sidi&gcirc;is en la apogse&gcirc;o malproksime de la tor&ccirc;o kaj pasigis
         kelke da horoj en duondorma <tld/>eco
         <fnt>
           <bib>Far2</bib>
@@ -134,9 +134,20 @@
     <trd>merev</trd>,
     <trd>rugalmatlan</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x786C;&#x76F4;&#x3057;&#x305F;  <pr>&#x3053;&#x3046;&#x3061;&#x3087;&#x304F;&#x3057;&#x305F;</pr></trd>,
+    <trd>&#x3053;&#x308F;&#x3070;&#x3063;&#x305F;</trd>,
+    <trd>&#x878D;&#x901A;&#x306E;&#x304D;&#x304B;&#x306A;&#x3044;  <pr>&#x3086;&#x3046;&#x305A;&#x3046;&#x306E;&#x304D;&#x304B;&#x306A;&#x3044;</pr></trd>,
+    <trd>&#x5805;&#x82E6;&#x3057;&#x3044;  <pr>&#x304B;&#x305F;&#x304F;&#x308B;&#x3057;&#x3044;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>stug</trd>,
     <trd>stijf</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>dr&eogonek;twy</trd>,
+    <trd>sztywny</trd>,
+    <trd>zdr&eogonek;twia&lstroke;y</trd>
   </trdgrp>
   <trd lng="pt">r&iacute;gido</trd>
   <trdgrp lng="ru">
@@ -177,7 +188,7 @@
     <dif>
       En fiksa, necedema maniero:
       <ekz>
-        tie sidis hundo <klr>[&#8230;]</klr> kaj <tld/>e lin rigardis
+        tie sidis hundo <klr>[&#x2026;]</klr> kaj <tld/>e lin rigardis
         <fnt>
           <bib>Fab1</bib>
           <lok>Fajrilo</lok>
@@ -216,8 +227,15 @@
     <trd>&c_c;&c_mol;&c_v;&c_jo;&c_r;&c_d;&c_a;</trd>,
     </trdgrp>
   <trd lng="de">starr</trd>
+  <trdgrp lng="ja">
+    <trd>&#x786C;&#x76F4;&#x3057;&#x3066;  <pr>&#x3053;&#x3046;&#x3061;&#x3087;&#x304F;&#x3057;&#x3066;</pr></trd>,
+    <trd>&#x3058;&#x3063;&#x3068;</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sztywno</trd>,
+    <trd>uparcie</trd>
+  </trdgrp>
 </drv>
-
 
 <drv mrk="rigid.0igxi">
   <kap><tld/>i&gcirc;i</kap>
@@ -271,7 +289,7 @@
     <dif>
       <ref cel="persis.0i">Persisti</ref> en sia necedemo:
       <ekz>
-        en la decid&#8217; kruela <tld/>i&gcirc;is
+        en la decid&#x2019; kruela <tld/>i&gcirc;is
         <fnt>
           <bib>Ifigenio</bib>
         </fnt>;
@@ -302,6 +320,15 @@
   <trdgrp lng="fr">
     <trd>se <ind>figer</ind></trd>,
     <trd>se <ind>raidir</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x786C;&#x76F4;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3061;&#x3087;&#x304F;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x3053;&#x308F;&#x3070;&#x308B;</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>cierpn&aogonek;&cacute;</trd>,
+    <trd>dr&eogonek;twie&cacute;</trd>,
+    <trd>kostnie&cacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_z;&c_a;&c_t;&c_v;&c_je;&c_r;&c_d;&c_ib;&c_t;&c_i;</trd>,
@@ -335,6 +362,7 @@
     <trd>se <ind>cramponner</ind></trd>,
     <trd>se <ind>crisper</ind></trd>
   </trdgrp>
+  <trd lng="pl">zdr&eogonek;twie&cacute;</trd>
   <trd lng="ru">&c_s;&c_u;&c_d;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_o; <ind>&c_v;&c_c;&c_je;&c_p;&c_i;&c_t;&c_mol;&c_s;&c_ja;</ind></trd>
 </drv>
 
@@ -342,10 +370,10 @@
   <kap>mal<tld/>a</kap>
   <snc>
     <dif>
-      <ref tip="dif" cel="fleks.0ebla">Fleksebla</ref>, 
+      <ref tip="dif" cel="fleks.0ebla">Fleksebla</ref>,
       <ref tip="sin" cel="elast.0a">elasta</ref>:
       <ekz>
-        junkoj <klr>[&#8230;]</klr> ekstreme <klr>[&#8230;]</klr> mal<tld/>aj
+        junkoj <klr>[&#x2026;]</klr> ekstreme <klr>[&#x2026;]</klr> mal<tld/>aj
         <fnt>
           <aut>Michael Ende, trad. Wolfram Diestel</aut>
           <vrk>La Sen&ccirc;esa Rakonto</vrk>
@@ -383,10 +411,19 @@
     <trd>rugalms</trd>,
     <trd>hajl&eacute;kony</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x67D4;&#x8EDF;&#x306A;  <pr>&#x3058;&#x3085;&#x3046;&#x306A;&#x3093;&#x306A;</pr></trd>,
+    <trd>&#x878D;&#x901A;&#x306E;&#x304D;&#x304F;  <pr>&#x3086;&#x3046;&#x305A;&#x3046;&#x306E;&#x304D;&#x304F;</pr></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>buigzaam</trd>,
     <trd>flexibel</trd>,
     <trd>elastisch</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>elastyczny</trd>,
+    <trd>gi&eogonek;tki</trd>,
+    <trd>wiotki</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_g;&c_i;&c_b;&c_k;&c_i;&c_j;</trd>,
@@ -412,11 +449,18 @@
     <trd>izomzsugorod&aacute;s</trd>,
     <trd>kontrakt&uacute;ra</trd>
   </trdgrp>
+  <trd lng="pl">kontraktura</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_t;&c_r;&c_a;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/21 05:38:06
+revo: transskribo per <pr>
+
+versio 1.23 2023/07/18 18:33:57
+Vito Redsky: +trd pl 
+
 versio 1.22 2022/08/15 07:29:44
 Dmitri Gabinski: + trd be
 
@@ -433,11 +477,5 @@ Revision 1.16  2012/01/05 14:10:27  revo
 Marc Rausell: +trd ca
 
 Revision 1.15  2006/02/21 17:32:13  revo
-Tulio Flores: +trd pt
-
-Revision 1.14  2005/05/19 16:31:07  revo
-Yury Finkel: +trd ru
-
-Revision 1.13  2004/10/06 16:31:05  revo
 -->
 </vortaro>

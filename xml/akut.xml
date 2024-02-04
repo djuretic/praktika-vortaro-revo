@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akut.xml,v 1.36 2022/04/18 20:31:39 revo Exp $">
+<art mrk="$Id: akut.xml,v 1.41 2023/10/28 08:33:04 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>akut</rad>/a <fnt><bib>PV</bib></fnt>
@@ -16,13 +16,32 @@
       <klr>(pri <ref cel="angul.0o.figuro">angulo</ref>)</klr>
       Malpli granda ol <ref cel="ort.0o">orto</ref>:
       <ekz>
-        ajna triangulo havas almena&ubreve; du <tld/>ajn angulojn.
+        ajna triangulo havas almena&ubreve; du <tld/>ajn angulojn;
+      </ekz>
+      <ekz>
+        la finna stilo prezenti&gcirc;as per rektaj linioj, <tld/>aj anguloj
+        <fnt>
+          <bib>KFl</bib>
+          <lok>V. Pri unueco kaj lukto, kaj anka&ubreve; pri
+          &leftquot;tipeco de l&#x2019; disdivido&rightquot;</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;tante al Monto Baruna <klr>[&#x2026;]</klr>,
+        la rubo kiu okupas la tutan &scirc;oseon
+        devigas iri la&ubreve; angulo tiel <tld/>a, pli ol
+        harpingla, fakte, ke oni devas
+        multe manovri
+        <fnt>
+          <bib>ChB</bib>
+          <lok>30</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="akr.0a.akuta">akra<sncref/></ref>
     <refgrp tip="ant">
       <ref cel="obtuz.0a.angulo">obtuza</ref>,
-      <ref cel="akut.mal0a.angulo">mal<tld/>a</ref>.
+      <ref cel="akut.mal0a.angulo">mal<tld/>a</ref>
     </refgrp>
     <trd lng="be">&c_v;&c_o;&c_s;&c_t;&c_r;&c_y;</trd>
     <trd lng="de">spitz</trd>
@@ -33,19 +52,51 @@
     <trd lng="nl">scherp</trd>
     <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>ostry</trd>
     <trd lng="pt">agudo</trd>
+    <trd lng="ro">unghiul de ascu&#x21B;ire</trd>
     <trd lng="ru">&c_o;&c_s;&c_t;&c_r;&c_y;&c_j;</trd>
     <trd lng="sk">ostr&yacute;</trd>
-  </snc>
+    <trd lng="zh">&#x516B;&#x5B57;&#x5F62; <pr>b&#x101;z&#xEC;x&#xED;ng</pr></trd>
+</snc>
   <snc mrk="akut.0a.malsano">
     <uzo tip="fak">MED</uzo>
     <uzo tip="klr">(pri malsano)</uzo>
     <dif>
       Prezentanta fortajn simptomojn, rapide gravi&gcirc;anta:
       <ekz>
-        li suferas <tld/>an ftizon.
+        li suferas <tld/>an ftizon;
+      </ekz>
+      <ekz>
+        tiu <klr>[malsano]</klr> neniam eksplodus per <tld/>aj
+        simptomoj sen malutilaj
+        perfortagoj
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dekunua &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Sever-<tld lit="A"/>a Respira Sindromo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2003/008129.html">Propagando dan&gcirc;era</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;haaaa!&rightquot;, kriis la usonano, sentante <tld/>an
+        doloron &ccirc;e la maleolo
+        <fnt>
+          <bib>CKv</bib>
+          <lok>19</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="akr.0a.vigla">akra<sncref/></ref>
+    <ref tip="ant" cel="kronik.0a">kronika</ref>
+    <refgrp tip="vid">
+      <ref cel="akr.0a.vigla">akra<sncref/></ref>,
+      <ref cel="subit.0a">subita</ref>
+    </refgrp>
     <trd lng="be">&c_v;&c_o;&c_s;&c_t;&c_r;&c_y;</trd>
     <trd lng="de">akut</trd>
     <trd lng="en">acute</trd>
@@ -59,10 +110,13 @@
       <trd>akut</trd>
     </trdgrp>
     <trd lng="nl">acuut</trd>
+    <trd lng="pl">ostry</trd>
     <trd lng="pt">agudo</trd>
+    <trd lng="ro">ascu&#x21B;it</trd>
     <trd lng="ru">&c_o;&c_s;&c_t;&c_r;&c_y;&c_j;</trd>
     <trd lng="sk">ak&uacute;tny</trd>
-  </snc>
+    <trd lng="zh">&#x6025; <pr>j&#xED;</pr></trd>
+</snc>
   <snc mrk="akut.0a.FON">
     <uzo tip="fak">FON</uzo>
     <dif>
@@ -102,7 +156,9 @@
     <trd lng="fr">aigu</trd>
     <trd lng="hu">&eacute;les</trd>
     <trd lng="nl">scherp</trd>
+    <trd lng="pl">ostry</trd>
     <trd lng="pt">agudo</trd>
+    <trd lng="ro">ascu&#x21B;it</trd>
     <trd lng="ru">&c_a;&c_k;&c_u;&c_t;&c_o;&c_v;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="akut.0a.penetranta">
@@ -111,19 +167,35 @@
     <dif>
       <ref tip="dif" cel="akr.0a.penetranta">Akra<sncref/></ref>:
       <ekz>
-        <tld/>a observado.
+        <tld/>aj krioj de la anoncistoj
+        <fnt>
+          <bib>MkM</bib>
+          <lok>16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la policano &ccirc;uis, kun <tld/>a atento al la
+        viza&gcirc;esprimo de la alia
+        <fnt>
+          <bib>ChB</bib>
+          <lok>5</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <!-- sencon evitindan prefere ne traduku -->
+    <ref tip="vid" cel="penetr.0a.PSI">penetra<sncref/></ref>
+    <!-- sencon evitindan prefere ne traduku
     <trd lng="be">&c_v;&c_o;&c_s;&c_t;&c_r;&c_y;</trd>
     <trd lng="es">agudo</trd>
     <trd lng="hu">&eacute;les<klr tip="ind"> (&aacute;tv.)</klr></trd>
     <trd lng="nl">scherp</trd>
+    <trd lng="pl">ostry</trd>
     <trd lng="pt">agu&ccedil;ado</trd>
+    <trd lng="ro">ascu&#539;it</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_r;&c_o;&c_n;&c_i;&c_c;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_o;&c_s;&c_t;&c_r;&c_y;&c_j;</trd>
     </trdgrp>
+    -->
   </snc>
   <trdgrp lng="cs">
     <trd>akutn&iacute;</trd>,
@@ -131,15 +203,20 @@
     <trd>prudk&yacute;</trd>
   </trdgrp>
   <trdgrp lng="he">
-    <trd>&#x5D7;&#x5D3;</trd>,
-    <trd>&#x5D7;&#x5DE;&#x5D5;&#x5E8;</trd>,
-    <trd>&#x5D7;&#x5E8;&#x5D9;&#x5E3;</trd>
+    <trd>&het;&dalet;</trd>,
+    <trd>&het;&mem;&vav;&resh;</trd>,
+    <trd>&het;&resh;&yod;&fpe;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x92ED;&#x89D2;&#x306E;  <pr>&#x3048;&#x3044;&#x304B;&#x304F;&#x306E;</pr></trd>,
+    <trd>&#x6025;&#x6027;&#x306E;  <pr>&#x304D;&#x3085;&#x3046;&#x305B;&#x3044;&#x306E;</pr></trd>,
+    <trd>&#x9AD8;&#x97F3;&#x306E;  <pr>&#x3053;&#x3046;&#x304A;&#x3093;&#x306E;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>ostr&yacute;, prudk&yacute;, ak&uacute;tny</trd>,
     <trd>prudk&yacute;</trd>
   </trdgrp>
-  <trd lng="uk">&c_g;&#x43E;&c_s;&c_t;&c_r;&c_i;&c_j;</trd>
+  <trd lng="uk">&c_g;&c_o;&c_s;&c_t;&c_r;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="akut.mal0a">
@@ -147,7 +224,7 @@
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib><lok>p. 26</lok></fnt>
   <snc mrk="akut.mal0a.angulo">
-    <ref tip="dif" cel="obtuz.0a.angulo">obtuza.</ref>
+    <ref tip="dif" cel="obtuz.0a.angulo">obtuza</ref>
     <trd lng="be">&c_t;&c_u;&c_p;&c_y;</trd>
     <trd lng="de">stumpf</trd>
     <trd lng="en">obtuse</trd>
@@ -156,8 +233,13 @@
     <trd lng="nl">stomp</trd>
     <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>rozwarty</trd>
     <trd lng="pt">obtuso</trd>
+    <trd lng="ro">unghi  <ind>obtuz</ind></trd>
     <trd lng="ru">&c_t;&c_u;&c_p;&c_o;&c_j;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x5C16; <pr>b&#xF9;ji&#x101;n</pr></trd>,
+    <trd>&#x4E0D;&#x5229; <pr>b&#xF9;l&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="fr">
     <trd>&eacute;mouss&eacute;</trd>,
     <trd>obtus</trd>
@@ -167,19 +249,29 @@
     <trd>nez&rcaron;eteln&yacute;</trd>,
     <trd>tup&yacute;</trd>
   </trdgrp>
+  <trd lng="ja">&#x920D;&#x89D2;&#x306E;  <pr>&#x3069;&#x3093;&#x304B;&#x304F;&#x306E;</pr></trd>
   <trdgrp lng="sk">
     <trd>nejasn&yacute;</trd>,
     <trd>nezrete&lcaron;n&yacute;</trd>,
     <trd>tup&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_t;&c_u;&#x43F;&c_i;&c_j; <klr>(&#x43F;&c_r;&#x43E; &#x43A;&c_u;&c_t;)</klr></trd>
-    <trd>&c_g;&#x43B;&c_u;&c_h;&c_i;&c_j; <klr>(&#x43F;&c_r;&#x43E; &c_z;&c_v;&c_u;&#x43A; &c_ib; &c_t;.&#x43F;.)</klr></trd>
+    <trd>&c_t;&c_u;&c_p;&c_i;&c_j; <klr>(&c_p;&c_r;&c_o; &c_k;&c_u;&c_t;)</klr></trd>
+    <trd>&c_g;&c_l;&c_u;&c_h;&c_i;&c_j; <klr>(&c_p;&c_r;&c_o; &c_z;&c_v;&c_u;&c_k; &c_ib; &c_t;.&c_p;.)</klr></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.40 2023/10/12 16:57:43
+revo: transskribo per <pr>
+
+versio 1.38 2023/07/12 12:51:49
+Wolfram Diestel: +ekz-oj, ref
+
+versio 1.37 2023/01/27 19:23:05
+Vito Redsky: +trd pl + trd ro
+
 versio 1.36 2022/04/18 20:31:39
 Ulrich Fellmann: akuta (3): korekto de DE trd
 
@@ -193,14 +285,5 @@ Revision 1.29  2015/06/29 16:39:29  revo
 aldono de trd sk per skripto de M. von Laer
 
 Revision 1.28  2015/06/28 12:03:35  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.27  2008/09/26 16:30:26  revo
-Sergio Pokrovskij: dif; rim; TEZ
-
-Revision 1.26  2005/07/07 16:32:51  revo
-Yury Finkel: +trd ru, sncref
-
-Revision 1.25  2004/05/18 16:32:10  revo
 -->
 </vortaro>

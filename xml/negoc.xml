@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: negoc.xml,v 1.30 2022/06/29 08:39:53 revo Exp $">
+<art mrk="$Id: negoc.xml,v 1.34 2024/01/29 15:21:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>negoc</rad>/o <fnt><bib>PV</bib></fnt>
@@ -33,12 +33,18 @@
         <fnt><aut>S. Szathmari</aut>, <vrk>Pythagoras</vrk></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="firm1.0o">firm(a)o</ref>,
+      <ref cel="komerc.0ejo">komercejo</ref>,
+      <ref cel="kompan.0o.afero">kompanio<sncref/></ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_s;&c_p;&c_r;&c_a;&c_v;&c_a; <klr>(&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_j;&c_n;&c_a;&c_ja;)</klr></trd>,
       <trd>&c_b;&c_ib;&c_z;&c_n;&c_e;&c_s;</trd>,
       <trd>&c_z;&c_a;&c_n;&c_ja;&c_t;&c_a;&c_k; <klr>(&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_j;&c_n;&c_y;)</klr></trd>,
       <trd>&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_ja;</trd>
     </trdgrp>
+    <trd lng="de">Handlung <klr>(Gesch&auml;ft)</klr></trd>
     <trd lng="en">business</trd>
     <trd lng="nl">handelszaak</trd>
     <trdgrp lng="ru">
@@ -49,11 +55,10 @@
   <snc mrk="negoc.0o.transakcio">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Aparta komerca afero de a&ccirc;eto a&ubreve; vendo;
-      <ref tip="vid" cel="operac.0o.EKON">operacio<sncref/></ref>,
-      <ref tip="vid" cel="transa.0o">transakcio</ref>:
+      Aparta komerca afero de <ref cel="acxet.0o">a&ccirc;eto</ref> 
+      a&ubreve; <ref cel="vend.0o">vendo</ref>:
       <ekz>
-        nenio malhelpas a&ccirc;etanton iri rekte al la <klr>[&#8230;]</klr>
+        nenio malhelpas a&ccirc;etanton iri rekte al la <klr>[&#x2026;]</klr>
         fabrikanto, tiel ke la retservo ricevas nenion el la <tld/>o
         <fnt>
           <aut>E. Grimley Evans</aut>, <vrk>Interreto
@@ -62,16 +67,21 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="operac.0o.EKON">operacio<sncref/></ref>,
+      <ref cel="transa.0o">transakcio</ref>
+      </refgrp>
     <trdgrp lng="be">
       <trd>&c_z;&c_mol;&c_d;&c_z;&c_je;&c_l;&c_k;&c_a;</trd>,
       <trd>&c_u;&c_g;&c_o;&c_d;&c_a;</trd>,
       <trd>&c_a;&c_p;&c_e;&c_r;&c_a;&c_c;&c_y;&c_ja; <klr>(&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_j;&c_n;&c_a;&c_ja;)</klr></trd>,
       <trd>&c_t;&c_r;&c_a;&c_n;&c_z;&c_a;&c_k;&c_c;&c_y;&c_ja; <klr>(&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_j;&c_n;&c_a;&c_ja;)</klr></trd>
     </trdgrp>
-     <trdgrp lng="nl">
-    <trd>handelstransactie</trd>,
-    <trd>transactie<klr tip="ind"> (handel)</klr></trd>
-  </trdgrp>
+    <trd lng="de">Handel <klr>(Gesch&auml;ft)</klr></trd>
+    <trdgrp lng="nl">
+      <trd>handelstransactie</trd>,
+      <trd>transactie<klr tip="ind"> (handel)</klr></trd>
+    </trdgrp>
     <trd lng="ru">&c_s;&c_d;&c_je;&c_l;&c_k;&c_a;</trd>
   </snc>
   <trdgrp lng="cs">
@@ -87,6 +97,12 @@
       <trd>n&eacute;goce</trd>
     </trdgrp>
   <trd lng="hu">&uuml;zlet<klr tip="ind"> (business)</klr></trd>
+  <trdgrp lng="ja">
+    <trd>&#x53D6;&#x5F15;  <pr>&#x3068;&#x308A;&#x3072;&#x304D;</pr></trd>,
+    <trd>&#x5546;&#x8AC7;  <pr>&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;</pr></trd>,
+    <trd>&#x5546;&#x58F2;  <pr>&#x3057;&#x3087;&#x3046;&#x3070;&#x3044;</pr></trd>,
+    <trd>&#x30D3;&#x30B8;&#x30CD;&#x30B9;  <pr>&#x3073;&#x3058;&#x306D;&#x3059;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>interes</trd>,
     <trd>sprawa</trd>,
@@ -100,8 +116,17 @@
   </trdgrp>
   <trd lng="sk">obchodn&eacute; jednanie</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x43C;&c_je;&c_r;&c_c;&c_ib;&c_j;&#x43D;&c_a; &c_s;&#x43F;&c_r;&c_a;&c_v;&c_a;</trd>,
-    <trd>&c_b;&c_ib;&c_z;&#x43D;&c_je;&c_s;</trd>
+    <trd>&c_k;&c_o;&c_m;&c_je;&c_r;&c_c;&c_ib;&c_j;&c_n;&c_a; &c_s;&c_p;&c_r;&c_a;&c_v;&c_a;</trd>,
+    <trd>&c_b;&c_ib;&c_z;&c_n;&c_je;&c_s;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EA4;&#x6613; <pr>ji&#x101;oy&#xEC;</pr></trd>,
+    <trd>&#x8B70;&#x50F9; <pr>y&#xEC;ji&#xE0;</pr></trd>,
+    <trd>&#x8BAE;&#x4EF7; <pr>y&#xEC;ji&#xE0;</pr></trd>,
+    <trd>&#x5546;&#x52A1; <pr>sh&#x101;ngw&#xF9;</pr></trd>,
+    <trd>&#x5546;&#x52D9; <pr>sh&#x101;ngw&#xF9;</pr></trd>,
+    <trd>&#x5546;&#x4E1A;&#x6D3B;&#x52A8; <pr>sh&#x101;ngy&#xE8;hu&#xF3;d&#xF2;ng</pr></trd>,
+    <trd>&#x5546;&#x696D;&#x6D3B;&#x52D5; <pr>sh&#x101;ngy&#xE8;hu&#xF3;d&#xF2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -146,6 +171,9 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="komerc.0a">komerca</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_j;&c_n;&c_y;</trd>,
@@ -164,6 +192,12 @@
       <trd>commercial<klr> (adj.)</klr></trd>
     </trdgrp>
   <trd lng="hu">&uuml;zleti</trd>
+  <trdgrp lng="ja">
+    <trd>&#x53D6;&#x5F15;&#x306E;  <pr>&#x3068;&#x308A;&#x3072;&#x304D;&#x306E;</pr></trd>,
+    <trd>&#x5546;&#x8AC7;&#x306E;  <pr>&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;&#x306E;</pr></trd>,
+    <trd>&#x5B9F;&#x52D9;&#x7684;&#x306A;  <pr>&#x3058;&#x3064;&#x3080;&#x3066;&#x304D;&#x306A;</pr></trd>,
+    <trd>&#x30D3;&#x30B8;&#x30CD;&#x30B9;&#x30E9;&#x30A4;&#x30AF;&#x306A;  <pr>&#x3073;&#x3058;&#x306D;&#x3059;&#x3089;&#x3044;&#x304F;&#x306A;</pr></trd>
+  </trdgrp>
   <trd lng="nl">zakelijk</trd>
   <trdgrp lng="pl">
     <trd>konkretny</trd>,
@@ -180,8 +214,12 @@
     </trdgrp>
   <trd lng="sk">obchodn&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x43E;&#x43C;&c_je;&c_r;&c_c;&c_ib;&c_j;&#x43D;&c_i;&c_j;</trd>,
-    <trd>&c_b;&c_ib;&c_z;&#x43D;&c_je;&c_s;&#x43E;&c_v;&c_i;&c_j;</trd>
+    <trd>&c_k;&c_o;&c_m;&c_je;&c_r;&c_c;&c_ib;&c_j;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_b;&c_ib;&c_z;&c_n;&c_je;&c_s;&c_o;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x751F;&#x610F; <pr>sh&#x113;ngyi</pr></trd>,
+    <trd>&#x56E0;&#x516C; <pr>y&#x12B;ng&#x14D;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -200,7 +238,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        apud la blankaj muroj <klr>[&#8230;]</klr> <tld/>is je krucetoj kaj helkolorigitaj
+        apud la blankaj muroj <klr>[&#x2026;]</klr> <tld/>is je krucetoj kaj helkolorigitaj
         sanktaj bildoj maljunulinoj
         <fnt>
           <bib>Metrop</bib>
@@ -216,6 +254,11 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="trakt.inter0i">intertrakti</ref>,
+      <ref cel="kontra3.0i">kontrakti</ref>,
+      <ref cel="marcxa.0i">mar&ccirc;andi</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_c;&c_a; <ind>&c_b;&c_ib;&c_z;&c_n;&c_e;&c_s;&c_a;&c_m;</ind></trd>,
@@ -227,10 +270,10 @@
   <trd>zab&yacute;vat se obchodem</trd>
   </trdgrp>
   <trdgrp lng="de">
-      <trd>handeln</trd>,
-      <trd>Handel treiben</trd>,
-      <trd>Gesch&auml;fte machen</trd>
-    </trdgrp>
+    <trd>handeln</trd>,
+    <trd><ind>Handel</ind> treiben</trd>,
+    <trd><ind>Gesch&auml;ft</ind>e machen</trd>
+  </trdgrp>
   <trdgrp lng="en">
       <trd>trade</trd>,
       <trd>do business</trd>
@@ -241,6 +284,11 @@
       <trd>n&eacute;gocier<klr> (commercialement)</klr></trd>
     </trdgrp>
   <trd lng="hu">&uuml;zletel</trd>
+  <trdgrp lng="ja">
+    <trd>&#x53D6;&#x5F15;&#x3059;&#x308B;  <pr>&#x3068;&#x308A;&#x3072;&#x304D;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x5546;&#x8AC7;&#x3059;&#x308B;  <pr>&#x3057;&#x3087;&#x3046;&#x3060;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x4EA4;&#x6E09;&#x3059;&#x308B;  <pr>&#x3053;&#x3046;&#x3057;&#x3087;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl"><ind>handel</ind> drijven</trd>
   <trdgrp lng="pl">
     <trd>negocjowa&cacute; w interesach</trd>,
@@ -253,9 +301,17 @@
     </trd>
   <trd lng="sk">obchodova&tcaron;</trd>
   <trdgrp lng="uk">
-    <trd>&c_v;&c_je;&c_s;&c_t;&c_i; &#x43A;&#x43E;&#x43C;&c_je;&c_r;&c_c;&c_ib;&c_j;&#x43D;&c_u; &c_s;&#x43F;&c_r;&c_a;&c_v;&c_u;</trd>,
-    <trd>&c_z;&c_a;&c_j;&#x43C;&c_a;&c_t;&c_i;&c_s;&#x44F; &c_t;&#x43E;&c_r;&c_g;&c_ib;&c_v;&#x43B;&c_je;&#x44E;</trd>,
-    <trd>&c_b;&c_ib;&c_z;&#x43D;&c_je;&c_s;&#x43E;&#x43C;</trd>
+    <trd>&c_v;&c_je;&c_s;&c_t;&c_i; &c_k;&c_o;&c_m;&c_je;&c_r;&c_c;&c_ib;&c_j;&c_n;&c_u; &c_s;&c_p;&c_r;&c_a;&c_v;&c_u;</trd>,
+    <trd>&c_z;&c_a;&c_j;&c_m;&c_a;&c_t;&c_i;&c_s;&c_ja; &c_t;&c_o;&c_r;&c_g;&c_ib;&c_v;&c_l;&c_je;&c_ju;</trd>,
+    <trd>&c_b;&c_ib;&c_z;&c_n;&c_je;&c_s;&c_o;&c_m;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EA4;&#x6613; <pr>ji&#x101;oy&#xEC;</pr></trd>,
+    <trd>&#x505A;&#x751F;&#x610F; <pr>zu&#xF2;sh&#x113;ngy&#xEC;</pr></trd>,
+    <trd>&#x71DF;&#x696D; <pr>y&#xED;ngy&#xE8;</pr></trd>,
+    <trd>&#x8425;&#x4E1A; <pr>y&#xED;ngy&#xE8;</pr></trd>,
+    <trd>&#x505A;&#x4E70;&#x5356; <pr>zu&#xF2;m&#x1CE;im&#xE0;i</pr></trd>,
+    <trd>&#x505A;&#x8CB7;&#x8CE3; <pr>zu&#xF2;m&#x1CE;im&#xE0;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -267,7 +323,7 @@
       <ref tip="dif" cel="komerc.0isto">Komercisto</ref>,
       kiu mar&ccirc;andas, proponas, akiras a&ubreve; revendas varojn:
       <ekz>
-        sescent sesdek ses kikaroj da oro <klr>[&#8230;]</klr> venis de la butikistoj kaj de
+        sescent sesdek ses kikaroj da oro <klr>[&#x2026;]</klr> venis de la butikistoj kaj de
         la komerco de <tld/>istoj
         <fnt>
           <bib>MT</bib>
@@ -316,6 +372,11 @@
       <trd>n&eacute;gociant</trd>
     </trdgrp>
   <trd lng="hu">&uuml;zletember</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5378;&#x58F2;&#x5546;&#x4EBA;  <pr>&#x304A;&#x308D;&#x3057;&#x3046;&#x308A;&#x3057;&#x3087;&#x3046;&#x306B;&#x3093;</pr></trd>,
+    <trd>&#x4EF2;&#x8CB7;&#x696D;&#x8005;  <pr>&#x306A;&#x304B;&#x304C;&#x3044;&#x304E;&#x3087;&#x3046;&#x3057;&#x3083;</pr></trd>,
+    <trd>&#x30D3;&#x30B8;&#x30CD;&#x30B9;&#x30DE;&#x30F3;</trd>
+  </trdgrp>
   <trdgrp lng="nl">
       <trd>koopman</trd>,
       <trd>handelaar</trd>
@@ -341,14 +402,31 @@
   <trd>obchodn&yacute; jednate&lcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&c_je;&c_gu;&#x43E;&c_c;&c_ib;&c_a;&#x43D;&c_t;</trd>,
-    <trd>&#x43A;&#x43E;&#x43C;&c_je;&c_r;&c_s;&c_a;&#x43D;&c_t;</trd>,
-    <trd>&c_b;&c_ib;&c_z;&#x43D;&c_je;&c_s;&#x43C;&c_je;&#x43D;</trd>
+    <trd>&c_n;&c_je;&c_gu;&c_o;&c_c;&c_ib;&c_a;&c_n;&c_t;</trd>,
+    <trd>&c_k;&c_o;&c_m;&c_je;&c_r;&c_s;&c_a;&c_n;&c_t;</trd>,
+    <trd>&c_b;&c_ib;&c_z;&c_n;&c_je;&c_s;&c_m;&c_je;&c_n;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5546;&#x6236; <pr>sh&#x101;ngh&#xF9;</pr></trd>,
+    <trd>&#x5546;&#x6237; <pr>sh&#x101;ngh&#xF9;</pr></trd>,
+    <trd>&#x5546;&#x4EBA; <pr>sh&#x101;ngr&#xE9;n</pr></trd>,
+    <trd>&#x4EA4;&#x6613;&#x5458; <pr>ji&#x101;oy&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x4EA4;&#x6613;&#x54E1; <pr>ji&#x101;oy&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x60DF;&#x5229;&#x662F;&#x56FE;&#x7684;&#x5546;&#x4EBA; <pr>w&#xE9;il&#xEC;sh&#xEC;t&#xFA;desh&#x101;ngr&#xE9;n</pr></trd>,
+    <trd>&#x60DF;&#x5229;&#x662F;&#x5716;&#x7684;&#x5546;&#x4EBA; <pr>w&#xE9;il&#xEC;sh&#xEC;t&#xFA;desh&#x101;ngr&#xE9;n</pr></trd>,
+    <trd>&#x4E1A;&#x8005; <pr>y&#xE8;zh&#x11B;</pr></trd>,
+    <trd>&#x696D;&#x8005; <pr>y&#xE8;zh&#x11B;</pr></trd>
   </trdgrp>
 </drv>
   </art>
   <!--
   $Log$
+versio 1.33 2023/10/19 20:12:37
+revo: transskribo per <pr>
+
+versio 1.31 2022/12/15 06:31:20
+Wolfram Diestel: +ref, trd de
+
 versio 1.30 2022/06/29 08:39:53
 Dmitri Gabinski: + trd be
 
@@ -365,11 +443,5 @@ Vito Redsky: +trd pl +trd ro
   aldono de trd cs per skripto de M. von Laer
 
   Revision 1.23  2015/06/29 16:33:21  revo
-  aldono de trd sk per skripto de M. von Laer
-
-  Revision 1.22  2010/07/02 16:30:24  revo
-  Agustin Garcia Lopez: +trd es (-i, -isto)
-
-  Revision 1.21  2009/10/15 16:31:18  revo
 -->
 </vortaro>

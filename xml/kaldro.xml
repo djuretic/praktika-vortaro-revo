@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kaldro.xml,v 1.36 2022/05/01 08:09:23 revo Exp $">
+<art mrk="$Id: kaldro.xml,v 1.42 2023/12/02 21:20:04 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>kaldron</rad>/o
@@ -151,10 +151,12 @@
         <klr>[&#x2026;]</klr> 
         tra okcident-<tld/>valo, tra la Lhotse-muro &gcirc;is la 
         suda selo kaj de tie tra la sudsupro &gcirc;is la &ccirc;efsupro
-        <fnt>
-          <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato2/007116.html">Sir
-          Edmund Hillary: Vivo dedi&ccirc;e al la &scirc;erpoj</url></vrk>
+        <fnt><aut>E. Georgiev</aut>,
+        <vrk><url ref="&Monato;/2000/007116.html">Sir Edmund Hillary: Vivo
+        dedi&ccirc;e al
+        la &scirc;erpoj</url></vrk>,
+        <bib>Monato</bib>,
+        <lok>2000/10, p. 18-19</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -193,6 +195,12 @@
     <trd>kotl&iacute;k</trd>
   </trdgrp>
   <trd lng="de">Kessel</trd>
+  <trdgrp lng="ja">
+    <trd>&#x304B;&#x307E;</trd>,
+    <trd>&#x5927;&#x306A;&#x3079;  <pr>&#x3060;&#x3044;&#x306A;&#x3079;</pr></trd>,
+    <trd>&#x30AB;&#x30EB;&#x30C7;&#x30E9;</trd>,
+    <trd>&#x91DC;&#x72B6;&#x9665;&#x6CA1;  <pr>&#x304B;&#x307E;&#x3058;&#x3087;&#x3046;&#x304B;&#x3093;&#x307C;&#x3064;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>bojler</trd>,
     <trd>kad&zacute;</trd>,
@@ -204,8 +212,14 @@
   </trdgrp> 
   <trd lng="sk">kotlina</trd>
   <trdgrp lng="uk">
-    <trd>&#x43A;&#x430;&#x437;&#x430;&#x43D;</trd>,
-    <trd>&#x431;&#x430;&#x43A;</trd>
+    <trd>&c_k;&c_a;&c_z;&c_a;&c_n;</trd>,
+    <trd>&c_b;&c_a;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x70E7;&#x6C34;&#x58F6; <pr>sh&#x101;oshu&#x1D0;h&#xFA;</pr></trd>,
+    <trd>&#x934B; <pr>gu&#x14D;</pr></trd>,
+    <trd>&#x944A; <pr>hu&#xF2;</pr></trd>,
+    <trd>&#x9B35; <pr>qi&#xE1;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -239,6 +253,7 @@ formon kaj i&gcirc;is
   <trd lng="fi">(h&ouml;yrykoneen) <ind>kattila</ind></trd>
   <trd lng="fr">chaudi&egrave;re</trd>
   <trd lng="hu">kaz&aacute;n</trd>
+  <trd lng="ja">&#x30DC;&#x30A4;&#x30E9;&#x30FC;</trd>
   <trd lng="nl">stoomketel</trd>
   <trdgrp lng="pl">
     <trd>bojler</trd>,
@@ -253,7 +268,11 @@ formon kaj i&gcirc;is
 <klr>(&c_p;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j; 
 &c_m;&c_a;&c_sh;&c_i;&c_n;&c_y; &c_i; &c_t;.&c_p;.)</klr></trd>
   <trd lng="sk">ve&lcaron;k&yacute; kotol</trd>
-  <trd lng="uk">(&#x43F;&#x430;&#x440;&#x43E;&#x432;&#x438;&#x439;) &#x43A;&#x43E;&#x442;&#x435;&#x43B;</trd>
+  <trd lng="uk">(&c_p;&c_a;&c_r;&c_o;&c_v;&c_i;&c_j;) &c_k;&c_o;&c_t;&c_je;&c_l;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x934B;&#x7210; <pr>gu&#x14D;l&#xFA;</pr></trd>,
+    <trd>&#x91DC; <pr>f&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kaldro.vapor0o">
@@ -274,6 +293,7 @@ formon kaj i&gcirc;is
          <trd lng="fr">chaufferie</trd>
        </ekz>
      </dif>
+   <trd lng="en">steam generator</trd>
    </snc>
   <trd lng="be">&c_k;&c_a;&c_c;&c_jo;&c_l; 
 <klr>(&c_m;&c_a;&c_sh;&c_y;&c_n;&c_y;)</klr></trd>
@@ -281,19 +301,33 @@ formon kaj i&gcirc;is
   <trd lng="ca">caldera</trd>
   <trd lng="cs">parn&iacute; kotel</trd>
   <trd lng="de">Dampfkessel</trd>
+  <trd lng="en">(steam) <ind>boiler</ind></trd>
   <trd lng="fi">h&ouml;yrykattila<klr> (tekn.)</klr></trd>
   <trd lng="fr">chaudi&egrave;re</trd>
+  <trd lng="ja">&#x84B8;&#x6C17;&#x30DC;&#x30A4;&#x30E9;&#x30FC;  <pr>&#x3058;&#x3087;&#x3046;&#x304D;&#x307C;&#x3044;&#x3089;&#x30FC;</pr></trd>
   <trd lng="nl">stoomketel</trd>
   <trd lng="pl">kocio&lstroke; parowy</trd>     
   <trd lng="ro">generator de abur</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j; 
 <ind>&c_k;&c_o;&c_t;&c_jo;&c_l;</ind></trd>
   <trd lng="sk">parn&yacute; kotol</trd>
-  <trd lng="uk">&#x43F;&#x430;&#x440;&#x43E;&#x432;&#x438;&#x439; &#x43A;&#x43E;&#x442;&#x435;&#x43B;</trd>
+  <trd lng="uk">&c_p;&c_a;&c_r;&c_o;&c_v;&c_i;&c_j; &c_k;&c_o;&c_t;&c_je;&c_l;</trd>
+  <trd lng="zh">&#x934B;&#x7210; <pr>gu&#x14D;l&#xFA;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.41 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
+versio 1.39 2023/05/20 09:21:23
+Christian Siefkes: +trd en
+
+versio 1.38 2023/05/18 14:24:42
+Christian Siefkes: +trd en
+
+versio 1.37 2023/04/26 12:45:54
+
 versio 1.36 2022/05/01 08:09:23
 aktualigo lingvokodoj kaj URL-unuoj
 
@@ -305,16 +339,5 @@ Vito Redsky: +trd pl +trd ro
 
 Revision 1.30  2017/08/22 18:10:21  revo
 Wolfram Diestel: precizigo de dif bier~o
-
-Revision 1.29  2017/08/21 20:10:28  revo
-Wolfram Diestel: prilaboris ekz-ojn, +subsnc 1a, 1b
-
-Revision 1.28  2017/05/31 00:10:14  revo
-Warut Bunprasert: +trd th
-
-Revision 1.27  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.26  2015/06/29 16:33:16  revo
 -->
 </vortaro>

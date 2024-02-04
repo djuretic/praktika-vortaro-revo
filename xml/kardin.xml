@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kardin.xml,v 1.25 2022/03/21 17:51:57 revo Exp $">
+<art mrk="$Id: kardin.xml,v 1.29 2023/12/03 08:00:23 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>kardinal</rad>/o
@@ -40,7 +40,11 @@
     <trd lng="pl">kardyna&lstroke;</trd>
     <trd lng="pt">cardinal</trd>
     <trd lng="ru">&c_k;&c_a;&c_r;&c_d;&c_i;&c_n;&c_a;&c_l;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x67A2;&#x673A; <pr>sh&#x16B;j&#x12B;</pr></trd>,
+    <trd>&#x7D05;&#x8863;&#x4E3B;&#x6559; <pr>h&#xF3;ngy&#x12B;zh&#x1D4;ji&#xE0;o</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kardin.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
@@ -52,7 +56,7 @@
       kvanto de &gcirc;iaj elementoj:
       <ekz>
         la <tld/>on de aro <frm am="bb E"><g>E</g></frm> oni signas per
-        <frm am="&quot;kard&quot; bb E&quot;">kard <g>E</g></frm> a&ubreve; 
+        <frm am="&quot;kard&quot; bb E&quot;">kard <g>E</g></frm> a&ubreve;
         <frm am="|bb E|">|<g>E</g>|</frm>;
       </ekz>
       <ekz>
@@ -71,6 +75,7 @@
       nombro</ctl>, kiel en <fnt><bib>MatTerm</bib>, <lok>p.
       18</lok></fnt>.
     </rim>
+    <trd lng="be">&c_l;&c_ib;&c_k; &c_k;&c_a;&c_r;&c_d;&c_y;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
     <trd lng="ca">cardinalitat</trd>
     <trdgrp lng="de">
       <trd>Kardinalzahl</trd>,
@@ -108,12 +113,19 @@
     </trdgrp>
   </snc>
   <trd lng="cs">kardin&aacute;ln&iacute; &ccaron;&iacute;slo</trd>
+  <trd lng="ja">&#x67A2;&#x6A5F;&#x537F;  <pr>&#x3059;&#x3046;&#x304D;&#x304D;&#x3087;&#x3046;</pr></trd>
   <trd lng="sk">kardin&aacute;lne &ccaron;&iacute;slo</trd>
-  <trd lng="uk">&#x43A;&#x430;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x43B;</trd>
+  <trd lng="uk">&#x43A;&c_a;&c_r;&c_d;&c_i;&#x43D;&c_a;&#x43B;</trd>
 </drv>
 </art>
 <!--
-$Log: kardin.xml,v $
+$Log$
+versio 1.28 2023/10/18 14:48:10
+revo: transskribo per <pr>
+
+versio 1.26 2023/08/22 09:26:10
+Dmitri Gabinski: + trd be
+
 versio 1.24 2020/02/15 10:10:20
 Wolfram Diestel: formuloj per am
 
@@ -130,11 +142,5 @@ Revision 1.20  2010/10/27 16:30:25  revo
 Antonio Codazzi: korek. trd it kaj ++trd it (mat.)
 
 Revision 1.19  2008/05/16 16:31:03  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2006/02/27 17:32:48  revo
-Jeromo Vasxe: snc kat - "70" en dif, + ekz
-
-Revision 1.17 2006/01/12 21:52:42 revo
 -->
 </vortaro>

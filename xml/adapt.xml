@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: adapt.xml,v 1.37 2022/04/24 16:40:27 revo Exp $">
+<art mrk="$Id: adapt.xml,v 1.42 2023/10/27 13:42:09 revo Exp $">
 <kap>
   <ofc>3</ofc><rad>adapt</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -9,18 +9,69 @@
 <drv mrk="adapt.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="adapt.0i.TEK">
-    <uzo tip="fak">TEK</uzo>
+  <snc mrk="adapt.0i.fornme">
     <dif>
-      Ta&ubreve;ge, &gcirc;uste kunigi ion materian al io:
+      <ref tip="super" cel="sxangx.0i.modifi">&Scirc;an&gcirc;i</ref>, 
+      <ref tip="super" cel="korekt.0i">korekti</ref> la formon a&ubreve; enhavon 
+      de io tiel, ke &gcirc;i konformas al io alia:
       <ekz>
-        <tld/>i tenilon al vazo, seruron al pordo.
+        <tld/>i robon al la figuro;
+      </ekz>
+      <ekz>
+        <tld/>i seruron al pordo;      
+      </ekz>
+      <ekz>
+        oni starigis eta&gcirc;aldonojn kaj kioskojn a&ubreve; <tld/>is ejojn por vendejoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007205.html">Kosovo: Voja&gcirc;impresoj, somero 2000</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> <tld/>is la grekan alfabeton al la necesoj de la slava
+        fonologio, por traduki la Biblion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2011/010261.php">Estis iam alfabeto ...</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        programoj por <tld/>i litertipojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9506-lingvema.txt">Por lingvemaj komputilemuloj...</url></vrk>
+          <lok>95/06</lok>
+        </fnt>.
+      </ekz>
+      <ekz>
+        la teksto ne estis verkita por movadanoj, kaj <klr>[&#x2026;]</klr> la a&ubreve;toro tre bone
+        konsciis tion, kaj lerte <tld/>is sian tekston
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="https://www.monato.be/2007/009145.php">Politika historio de la ne&ubreve;trala UEA</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="far.al0i">alfari</ref>,
+      <ref cel="gxust.al0igi">al&gcirc;ustigi</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="konven.0i.alsituacio">konvenigi</ref>
+    </refgrp>
     <trdgrp lng="ca">
       <trd>incorporar</trd>,
       <trd>incloure</trd>,
       <trd>ajustar</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>einpassen</trd>,
+      <trd>zuschneiden</trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>adapt</trd>,
@@ -36,15 +87,101 @@
   <snc mrk="adapt.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Konformigi por specialaj celoj a&ubreve; kondi&ccirc;oj:
+      <ref tip="super" cel="konfor.0igi">Alkonformigi</ref> sintenon, konduton, procedon, 
+      organizon ktp tiel, ke &gcirc;i akordas kun iu a&ubreve; io:
       <ekz>
-        oni devas
-        <tld/>i sian parolon al la cirkonstancoj;
+        Doroteo jam mirige sin <tld/>as al sia nova situacio
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        tiuj versoj estas malbone <tld/>itaj al la muziko.
+        finfine oni devas <tld/>i sin al tio, kio estas necesa
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni koni&gcirc;is en Pambo, ekvivis amike, <tld/>is sin unu al la alia kaj estas
+        kontentaj
+        <fnt>
+          <bib>FdO</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vidu, oni devas pli malpli <tld/>i sin al la &gcirc;eneralaj vidpunktoj de la homoj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i ne nur la rapidecon kaj la intensecon, sed anka&ubreve; la altecon de sia vo&ccirc;o
+        al la enhavo de la frazo
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li nepre devas <tld/>i sian paroladon al la intelekta kapacito de la publiko
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i &gcirc;ian subjektivan sintenon al la objektivaj kondi&ccirc;oj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i la kongresojn al la postulatoj de la moderna vivo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i sian strategion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007334.html">Belgio: Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ur&gcirc;e necesas <tld/>i la iamajn interkonsentojn al la aktualaj problemoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2010/010051.php">Monda akvo fluas en malbonaj direktoj</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne eblas, kiel en profesiaj programoj, <tld/>i tiun programon al la personaj
+        preferoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2005/008659.php">OpenOffice: senpaga alternativo por Microsoft Office</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="akord.0igi">akordigi</ref>,
+      <ref cel="akomod.0i">akomodi</ref>,
+      <ref cel="harmon1.0igi">harmoniigi</ref>
+    </refgrp>
+    <refgrp tip="vid">
+      <ref cel="agord.0i">agordi</ref>
+    </refgrp>
     <trd lng="ca">adaptar</trd>
     <trdgrp lng="en">
       <trd>adapt</trd>,
@@ -52,12 +189,15 @@
     </trdgrp>
     <trd lng="sk">prisp&ocirc;sobi&tcaron;</trd>
     <trd lng="sv">anpassa</trd>
-  </snc>
-  <refgrp tip="vid">
-    <ref cel="far.al0i">alfari</ref>,
-    <ref cel="gxust.al0igi">al&gcirc;ustigi</ref>,
-    <ref cel="akomod.0i">akomodi</ref>.
-  </refgrp>
+    <trdgrp lng="zh">
+    <trd>&#x5165;&#x5883;&#x554F;&#x4FD7; <pr>r&#xF9;j&#xEC;ngw&#xE8;ns&#xFA;</pr></trd>,
+    <trd>&#x5165;&#x5883;&#x95EE;&#x4FD7; <pr>r&#xF9;j&#xEC;ngw&#xE8;ns&#xFA;</pr></trd>,
+    <trd>&#x5165;&#x4E61;&#x968F;&#x4FD7; <pr>r&#xF9;xi&#x101;ngsu&#xED;s&#xFA;</pr></trd>,
+    <trd>&#x5165;&#x9109;&#x96A8;&#x4FD7; <pr>r&#xF9;xi&#x101;ngsu&#xED;s&#xFA;</pr></trd>,
+    <trd>&#x56E0;&#x5730;&#x5236;&#x5B9C; <pr>y&#x12B;nd&#xEC;zh&#xEC;y&#xED;</pr></trd>,
+    <trd>&#x5752; <pr>b&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -72,13 +212,19 @@
     <trd>assortir</trd>,
     <trd>conformer</trd>
   </trdgrp>
-  <trd lng="he">&lamed;&#1456;&he;&#1460;&samekh;&#1456;&tav;&#1464;&gimel;&#1461;&lamed;</trd>
+  <trd lng="he">&lamed;&#x5B0;&he;&#x5B4;&samekh;&#x5B0;&tav;&#x5B8;&gimel;&#x5B5;&lamed;</trd>
   <trdgrp lng="hu">
     <trd>adapt&aacute;l</trd>,
     <trd>alkalmass&aacute; tesz</trd>,
     <trd>hozz&aacute;igaz&iacute;t</trd>
   </trdgrp>
   <trd lng="it">adattare</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9069;&#x5408;&#x3055;&#x305B;&#x308B;  <pr>&#x3066;&#x304D;&#x3054;&#x3046;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x9069;&#x5FDC;&#x3055;&#x305B;&#x308B;  <pr>&#x3066;&#x304D;&#x304A;&#x3046;&#x3055;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x5408;&#x308F;&#x305B;&#x308B;  <pr>&#x3042;&#x308F;&#x305B;&#x308B;</pr></trd>,
+    <trd>&#x811A;&#x8272;&#x3059;&#x308B;  <pr>&#x304D;&#x3083;&#x304F;&#x3057;&#x3087;&#x304F;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">aanpassen</trd>
   <trdgrp lng="pl">
     <trd>adaptowa&cacute;</trd>,
@@ -111,6 +257,122 @@
   </trdgrp>
 </drv>
 
+<drv mrk="adapt.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Ago <tld/>i; rezulto de tiu ago:
+      <ekz>
+        povanta plu da&ubreve;ri nur per propra <tld/>o
+        <fnt>
+          <bib>BonaLingvo</bib>
+          <lok>6. Ies Malfido, Fido Mia</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konkretigo de revo &ccirc;iam postulas <tld/>on al la limoj, kiujn &gcirc;i trudas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Claude Piron</aut>
+          <vrk><url ref="https://www.monato.be/2004/008264.html">Funkcio kreas organon</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        traduka&jcirc;o-<tld/>o el Ezopo
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nova versio estas <tld/>o de la 6a eldono de la vortaro 
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://www.monato.be/2012/000010.php">La nova granda Bildvortaro en Esperanto jam furoras</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu parto bezonos plenan re<tld/>on por &ccirc;iu aparta nacia eldono
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#x2116; 8-9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        le&gcirc;o, kiu kun etaj <tld/>oj pli malpli &gcirc;is hodia&ubreve; estas uzata
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Wolfram Rohloff</aut>
+          <vrk><url ref="https://www.monato.be/2006/008776.php">Abortigo kaj la biblio (2)</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Anpassung</trd>,
+    <trd>Adaption</trd>,
+    <trd>&Uuml;berarbeitung</trd>
+  </trdgrp>
+  <trd lng="en">adaptation</trd>
+  <trd lng="fr">ajustement</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9069;&#x5408;  <pr>&#x3066;&#x304D;&#x3054;&#x3046;</pr></trd>,
+    <trd>&#x9069;&#x5FDC;  <pr>&#x3066;&#x304D;&#x304A;&#x3046;</pr></trd>,
+    <trd>&#x811A;&#x8272;  <pr>&#x304D;&#x3083;&#x304F;&#x3057;&#x3087;&#x304F;</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="adapt.0ebla">
+  <kap>
+    <tld/>ebla
+  </kap>
+  <snc>
+    <dif>
+      Tia, ke oni povas <tld/>i &gcirc;in, tie, ke oni anta&ubreve;zorgis la eblecon <tld/>i:
+      <ekz>
+        <klr>[la]</klr> teleskopa &ccirc;efspegulo estas ekipita kun <tld/>ebla optika sistemo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Oliver Kim</aut>
+          <vrk><url ref="https://www.monato.be/2006/008796.php">Unua fotografa&jcirc;o de ekstersunsistema planedo</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konservi en la Statuto la fundamentajn principojn kaj transigi la detalojn kaj
+        precizigojn en la &Gcirc;eneralan kaj Kongresan Regularojn, kiuj estas pli facile
+        <klr>[&#x2026;]</klr> <tld/>eblaj al la &scirc;an&gcirc;i&gcirc;antaj cirkonstancoj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Kvara Parto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">anpassbar</trd>
+</drv>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <drv mrk="adapt.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
@@ -119,14 +381,32 @@
       Akordi&gcirc;i al io, konformi&gcirc;i al premo, al 
       cirkonstanco:
       <ekz>
-        pri sia bofrato Elias havis la impreson, ke li estas tre agema 
-        kaj rapide komprenanta homo, kiu scipovas <tld/>i&gcirc;i al la 
-        cirkonstancoj
+        estas mirige, kiel li <tld/>i&gcirc;is al la novaj cirkonstancoj
         <fnt>
-          <aut>P. Kuusberg, trad. A. Lekko</aut>,
-          <vrk><url ref="http://miresperanto.narod.ru/biblioteko/somermeze.htm">
-          Somermeze</url></vrk>,
-          <lok>1981</lok>
+          <bib>HsT</bib>
+          <lok>Disaj vojoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> <tld/>i&gcirc;is al alia profesio, tamen li ankora&ubreve; ne klare scias,
+        kion li volas
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Disaj vojoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lingvo <klr>[&#x2026;]</klr> devas adapti&gcirc;i al <klr>[&#x2026;]</klr> novaj bezonoj
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Unua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la titolado devas <tld/>i&gcirc;i al la karaktero de la parolado
+        <fnt>
+          <bib>Ret</bib>
+          <lok>Dua Parto</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -134,18 +414,30 @@
       <ref cel="akomod.0igxi.KOMUNE">akomodi&gcirc;i</ref>,
       <ref cel="kongru.0i.KOMUNE">kongrui</ref>
     </refgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5165;&#x5883;&#x554F;&#x4FD7; <pr>r&#xF9;j&#xEC;ngw&#xE8;ns&#xFA;</pr></trd>,
+    <trd>&#x5165;&#x5883;&#x95EE;&#x4FD7; <pr>r&#xF9;j&#xEC;ngw&#xE8;ns&#xFA;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_d;&c_a;&c_p;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_s;&c_o;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
   <trd lng="ca"><ind>adaptar</ind>-se</trd>
+  <trdgrp lng="de">
+    <trd>sich <ind>anpassen</ind></trd>,
+    <trd>sich <ind>einstellen</ind> auf</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>adapt</trd>,
     <trd>adjust</trd>
   </trdgrp>
   <trd lng="fr">s'<ind>adapter</ind></trd>
   <trd lng="he">&lamed;&he;&samekh;&tav;&gimel;&lamed;</trd>
+  <trdgrp lng="ja">
+    <trd>&#x9069;&#x5408;&#x3059;&#x308B;  <pr>&#x3066;&#x304D;&#x3054;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x9069;&#x5FDC;&#x3059;&#x308B;  <pr>&#x3066;&#x304D;&#x304A;&#x3046;&#x3059;&#x308B;</pr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>adaptowa&cacute; si&eogonek;</trd>,
     <trd>przystosowa&cacute; si&eogonek;</trd>
@@ -167,7 +459,17 @@
       cirkvitoj, <ref cel="organ.0o.TEK">organoj</ref> de
       ma&scirc;ino a&ubreve; komputilo ktp:
       <ekz>
-        ekrana <tld/>ilo SVGA.
+        ekrana <tld/>ilo <nom>SVGA</nom>;
+      </ekz>
+      <ekz>
+        <klr>[la aplika&jcirc;o]</klr> enhavos datumbazon kaj <tld/>ilon por konverti
+        dokumentojn de <nom>WordPerfect</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2005/008659.php">OpenOffice: senpaga alternativo por Microsoft Office</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -185,22 +487,26 @@
     <trd>&c_k;&c_a;&c_n;&c_t;&c_r;&c_o;&c_l;&c_je;&c_r;</trd>
   </trdgrp>
   <trd lng="bg">&c_a;&c_d;&c_a;&c_p;&c_t;&c_o;&c_r;</trd>
-  <trd lng="bo">&#3906;&#4019;&#3964;&#3906;&#3851;&#3940;&#3956;&#3906;&#3942;&#3851;&#3926;&#3909;&#3964;&#3906;&#3851;&#3937;&#3906;&#3851;</trd>
+  <trd lng="bo">&t_ga;&t_lata;&t_naro;&t_ga;&t_tsheg;&t_sha;&t_shabchu;&t_ga;&t_sa;&t_tsheg;&t_ba;&t_ca;&t_naro;&t_ga;&t_tsheg;&t_ya;&t_ga;&t_tsheg;</trd>
   <trd lng="ca">adaptador</trd>
   <trdgrp lng="cs">
     <trd>adapt&eacute;r</trd>,
     <trd>p&rcaron;izp&uring;sobovac&iacute; za&rcaron;&iacute;zen&iacute;</trd>,
     <trd>redukce</trd>
   </trdgrp>
-  <trd lng="de">Adapter</trd>
+  <trdgrp lng="de">
+    <trd>Adapter</trd>,
+    <trd>Konverter</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>adapter</trd>,
     <trd>controller</trd>
   </trdgrp>
   <trd lng="es">adaptador</trd>
   <trd lng="fr">adaptateur<klr tip="ind"> (dispositif)</klr></trd>
-  <trd lng="he">&mem;&#1463;&tav;&alef;&#1461;&fmem;</trd>
+  <trd lng="he">&mem;&#x5B7;&tav;&alef;&#x5B5;&fmem;</trd>
   <trd lng="hu">adapter</trd>
+  <trd lng="ja">&#x30A2;&#x30C0;&#x30D7;&#x30BF;&#x30FC;</trd>
   <trd lng="nl">adapter</trd>
   <trdgrp lng="pl">
     <trd>adapter</trd>,
@@ -224,6 +530,15 @@
 </art>
 <!--
 $Log$
+versio 1.41 2023/10/12 16:57:42
+revo: transskribo per <pr>
+
+versio 1.39 2023/05/31 10:27:48
+Wolfram Diestel: +~o, ~ebla
+
+versio 1.38 2023/05/30 20:24:03
+Wolfram Diestel: dif-precizigo, +ekzemploj, ref-oj, trd de
+
 versio 1.37 2022/04/24 16:40:27
 Noam Mohr: +trd en adapt-
 
@@ -237,14 +552,5 @@ Revision 1.30  2012/09/03 08:10:12  revo
 Sebastian Cyprych: =trd pl
 
 Revision 1.29  2012/08/22 16:10:22  revo
-Marc Rausell: + trd ca
-
-Revision 1.28  2011/05/06 16:10:11  revo
-Jeromo Vasxe: +~igxi
-
-Revision 1.27  2007/11/22 17:30:29  revo
-Wieland Pusch: +trd bg
-
-Revision 1.26  2007/05/19 17:02:47  revo
 -->
 </vortaro>

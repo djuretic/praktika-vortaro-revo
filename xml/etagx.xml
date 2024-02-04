@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: etagx.xml,v 1.32 2022/08/29 16:44:51 revo Exp $">
+<art mrk="$Id: etagx.xml,v 1.38 2023/11/07 20:34:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>eta&gcirc;</rad>/o
@@ -23,7 +23,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        junulo <klr>[&#8230;]</klr> venkite de la dormo, falis malsupren de la tria <tld/>o
+        junulo <klr>[&#x2026;]</klr> venkite de la dormo, falis malsupren de la tria <tld/>o
         <fnt>
           <bib>NT</bib>
           <lok>La agoj 20:9</lok>
@@ -61,7 +61,8 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        mi vere komencas kredi, sinjoro <nom>Felson</nom>, ke via supra <tld/>o <klr>(kapo)</klr> anka&ubreve; estas iom en
+        mi vere komencas kredi, sinjoro <nom>Felson</nom>, ke via supra <tld/>o <klr>(kapo)</klr>
+        anka&ubreve; estas iom en
         malordo
         <fnt>
           <bib>FK</bib>
@@ -87,7 +88,12 @@
     <trd>Stock <klr>(Etage)</klr></trd>,
     <trd>Geschoss</trd>
   </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x697C;&#x677F; <pr>l&#xF3;ub&#x1CE;n</pr></trd>,
+    <trd>&#x697C;&#x9762; <pr>l&#xF3;umi&#xE0;n</pr></trd>,
+    <trd>&#x697C; <pr>l&#xF3;u</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="etagx.0o.nivelo">
     <dif>
       Unu el pluraj samaltaj <ref cel="nivel.0o.ebeno">nivelo</ref>j:
@@ -115,18 +121,20 @@
         </fnt>;
       </ekz>
       <ekz>
-        la groto <klr>[&#8230;]</klr> konsistas el tri <tld/>oj
-        <fnt>
+        la groto <klr>[&#x2026;]</klr> konsistas el tri <tld/>oj
+        <fnt><aut>Bardhyl Selimi</aut>: 
+          <vrk><url ref="&Monato;/2001/007205.html">Voja&gcirc;impresoj, somero 2000</url></vrk>,
           <bib>Monato</bib>
-          <aut>Roland Rotsaert</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/007205.html"
-              >Kosovo: Voja&gcirc;impresoj, somero 2000</url></vrk>
-        </fnt>.
+          <lok>2001/01, p. 26</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        raketo kun tri <tld/>oj.
       </ekz>
     </dif>
     <ref tip="vid" cel="teras.0o.ebeno">teraso<sncref/></ref>
     <trdgrp lng="de">
-      <trd>Stufe</trd>,
+      <trd>Stufe <klr>(Gel&auml;nde, Rakete)</klr></trd>,
       <trd>Terasse</trd>,
       <trd>Ebene</trd>
     </trdgrp>
@@ -150,6 +158,7 @@
     <trd>emelet</trd>,
     <trd>szint</trd>
   </trdgrp>
+  <trd lng="ja">&#x968E;  <pr>&#x304D;&#x3056;&#x306F;&#x3057;</pr></trd>
   <trd lng="nl">verdieping</trd>
   <trdgrp lng="pt">
     <trd>andar <klr tip="amb">(de edif&iacute;cio ou casa)</klr></trd>,
@@ -213,6 +222,7 @@
     <trd>l&eacute;pcs&odblac;z</trd>,
     <trd>szintek szerint <ind>rendez</ind></trd>
   </trdgrp>
+  <trd lng="ja">&#x6BB5;&#x72B6;&#x306B;&#x91CD;&#x306D;&#x308B;  <pr>&#x3060;&#x3093;&#x3058;&#x3087;&#x3046;&#x306B;&#x304B;&#x3055;&#x306D;&#x308B;</pr></trd>
   <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol; &c_ja;&c_r;&c_u;&c_s;&c_a;&c_m;&c_i;</trd>
   <trdgrp lng="uk">
     <trd>&c_z;&c_g;&c_r;&c_o;&c_m;&c_a;&c_d;&c_zh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
@@ -247,12 +257,14 @@
   <trd lng="es">planta principal</trd>
   <trd lng="fr">bel &eacute;tage</trd>
   <trd lng="hu">els&odblac; <ind>emelet</ind></trd>
+  <trd lng="ja">&#x4E3B;&#x968E;  <pr>&#x3042;&#x308B;&#x3058;&#x304B;&#x3044;</pr></trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_je;&c_r;&c_v;&c_y;&c_j; <ind>&c_e;&c_t;&c_a;&c_zh;</ind></trd>,
     <trd>&c_n;&c_i;&c_zh;&c_n;&c_i;&c_j; <ind>&c_e;&c_t;&c_a;&c_zh;</ind></trd>,
     <trd>&c_c;&c_o;&c_k;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_e;&c_t;&c_a;&c_zh;</ind></trd>
   </trdgrp>
   <trd lng="uk">&c_b;&c_je;&c_l;&c_mol;&c_je;&c_t;&c_a;&c_zh;</trd>
+  <trd lng="zh">&#x4E8C;&#x697C; <pr>&#xE8;rl&#xF3;u</pr></trd>
 </drv>
 
 <drv mrk="etagx.inter0o">
@@ -263,18 +275,16 @@
       <tld lit="E"/>o inter la &ccirc;efaj, ofte inter la ter<tld/>o kaj unua <tld/>o:
       <ekz>
         verkistoj prezentis al eta &ccirc;eestantaro, en la inter<tld/>o apud la libroservo
-        <klr>[&#8230;]</klr> siajn verkojn
+        <klr>[&#x2026;]</klr> siajn verkojn
         <fnt>
-          <vrk><url ref="http://www.esperanto-sumoo.pl/recenzosep2018.html"
-              >Recenzoj - septembro 2018</url></vrk>
+          <vrk><url ref="http://www.esperanto-sumoo.pl/recenzosep2018.html">Recenzoj - septembro 2018</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         sonorilturo en la duon<tld/>o
         <fnt>
           <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=588828"
-              >Sonorilo Sigismondo</url></lok>
+          <lok><url ref="https://eo.wikipedia.org/?curid=588828">Sonorilo Sigismondo</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -287,9 +297,10 @@
   <trd lng="en">mezzanine</trd>
   <trd lng="es">entreplanta</trd>
   <trd lng="fr">entresol</trd>
-  <trd lng="he">&qof;&vav;&#1465;&mem;&#1463;&tav;
-  &bet;&#1468;&#1461;&yod;&nun;&#1463;&yod;&#1460;&fmem;</trd>
+  <trd lng="he">&qof;&vav;&#x5B9;&mem;&#x5B7;&tav;
+  &bet;&#x5BC;&#x5B5;&yod;&nun;&#x5B7;&yod;&#x5B4;&fmem;</trd>
   <trd lng="hu">f&eacute;lemelet</trd>
+  <trd lng="ja">&#x4E2D;&#x4E8C;&#x968E;  <pr>&#x3061;&#x3085;&#x3046;&#x306B;&#x304B;&#x3044;</pr></trd>
   <trd lng="nl">tussenverdieping</trd>
   <trd lng="pl">p&oacute;&lstroke;pi&eogonek;tro</trd>
   <trdgrp lng="ru">
@@ -297,6 +308,16 @@
     <trd>&c_a;&c_n;&c_t;&c_r;&c_je;&c_s;&c_o;&c_l;&c_mol;</trd>
   </trdgrp>
   <trd lng="uk">&c_m;&c_je;&c_z;&c_o;&c_n;&c_ib;&c_n;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E2D;&#x5C42;&#x697C; <pr>zh&#x14D;ngc&#xE9;ngl&#xF3;u</pr></trd>,
+    <trd>&#x821E;&#x53F0;&#x4E0B;&#x9762; <pr>w&#x1D4;t&#xE1;ixi&#xE0;mian</pr></trd>,
+    <trd>&#x5939;&#x697C; <pr>ji&#x101;l&#xF3;u</pr></trd>,
+    <trd>&#x620F;&#x9662;&#x6700;&#x5E95;&#x5C42;&#x697C;&#x5385; <pr>x&#xEC;yu&#xE0;nzu&#xEC;d&#x1D0;c&#xE9;ngl&#xF3;ut&#x12B;ng</pr></trd>,
+    <trd>&#x4E2D;&#x5C42;&#x697C; <pr>zh&#x14D;ngc&#xE9;ngl&#xF3;u</pr></trd>,
+    <trd>&#x821E;&#x53F0;&#x4E0B;&#x9762; <pr>w&#x1D4;t&#xE1;ixi&#xE0;mian</pr></trd>,
+    <trd>&#x5939;&#x697C; <pr>ji&#x101;l&#xF3;u</pr></trd>,
+    <trd>&#x620F;&#x9662;&#x6700;&#x5E95;&#x5C42;&#x697C;&#x5385; <pr>x&#xEC;yu&#xE0;nzu&#xEC;d&#x1D0;c&#xE9;ngl&#xF3;ut&#x12B;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="etagx.subter0o">
@@ -319,13 +340,12 @@
         </fnt>;
       </ekz>
       <ekz>
-        sur la placo anka&ubreve; estas Muzeo pri Belartoj, <klr>[&#8230;]</klr> en ties kel<tld/>o
+        sur la placo anka&ubreve; estas Muzeo pri Belartoj, <klr>[&#x2026;]</klr> en ties kel<tld/>o
         videblas la fundamentoj de fortika&jcirc;oj
         <fnt>
           <bib>Monato</bib>
           <aut>Roland Rotsaert</aut>
-          <vrk><url ref="https://www.monato.be/2006/008899.php"
-              >Vizito al Novarto-urbo Nancy</url></vrk>
+          <vrk><url ref="&Monato;/2006/008899.php">Vizito al Novarto-urbo Nancy</url></vrk>
           <lok>2006</lok>
         </fnt>.
       </ekz>
@@ -347,6 +367,7 @@
     <trd>alagsor</trd>,
     <trd>szuter&eacute;n</trd>
   </trdgrp>
+  <trd lng="ja">&#x5730;&#x968E;  <pr>&#x3061;&#x304B;&#x3044;</pr></trd>
   <trdgrp lng="nl">
     <trd>kelder</trd>,
     <trd>kelderverdieping</trd>
@@ -364,6 +385,10 @@
   <trdgrp lng="uk">
     <trd>&c_n;&c_a;&c_p;&c_ib;&c_v;&c_p;&c_ib;&c_d;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_p;&c_o;&c_v;&c_je;&c_r;&c_h;</trd>,
     <trd>&c_c;&c_o;&c_k;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_j; &c_p;&c_o;&c_v;&c_je;&c_r;&c_h;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7AA8; <pr>y&#xEC;n</pr></trd>,
+    <trd>&#x7AA8; <pr>y&#xEC;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -402,6 +427,7 @@
   <trd lng="fr">rez-de-chauss&eacute;e</trd>
   <trd lng="he">&qof;&vav;&mem;&tav; &qof;&resh;&qof;&ayin;</trd>
   <trd lng="hu">f&ouml;ldszint</trd>
+  <trd lng="ja">&#x4E00;&#x968E;  <pr>&#x3044;&#x3063;&#x304B;&#x3044;</pr></trd>
   <trdgrp lng="nl">
     <trd>begane <ind>grond</ind></trd>,
     <trd>benedenverdieping</trd>
@@ -414,10 +440,27 @@
   </trdgrp>
   <trd lng="tr">zemin kat</trd>
   <trd lng="uk">&c_p;&c_a;&c_r;&c_t;&c_je;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E00;&#x697C; <pr>y&#x12B;l&#xF3;u</pr></trd>,
+    <trd>&#x5E95;&#x697C; <pr>d&#x1D0;l&#xF3;u</pr></trd>,
+    <trd>&#x4E00;&#x5C42; <pr>y&#x12B;c&#xE9;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.37 2023/10/14 15:49:05
+revo: transskribo per <pr>
+
+versio 1.35 2023/04/18 11:23:30
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.34 2023/04/11 14:37:21
+aktualigo Monato-URL
+
+versio 1.33 2023/01/09 07:24:12
+Wolfram Diestel: +ekz
+
 versio 1.32 2022/08/29 16:44:51
 Wolfram Diestel: +ekz-oj, ref-oj; +snc 2 (nivelo de io)
 
@@ -428,17 +471,5 @@ Revision 1.22  2019/02/17 11:10:19  revo
 Wolfram Diestel: + ~areto
 
 Revision 1.21  2015/05/10 17:10:16  revo
-Guillermo Molleda Jimena: trd es
-
-Revision 1.20  2010/04/09 16:30:56  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2007/11/19 17:31:18  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2007/07/09 16:30:46  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2004/10/23 16:31:41  revo
 -->
 </vortaro>

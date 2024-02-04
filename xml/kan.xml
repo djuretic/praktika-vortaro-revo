@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kan.xml,v 1.32 2022/03/29 14:19:26 revo Exp $">
+<art mrk="$Id: kan.xml,v 1.35 2023/12/02 21:20:06 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kan</rad>/o <fnt><bib>PV</bib></fnt>
@@ -42,7 +42,11 @@
       <trd>junco</trd>
     </trdgrp>
     <trd lng="ru">&c_t;&c_r;&c_o;&c_s;&c_t;&c_n;&c_i;&c_k;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x82C7; <pr>w&#x11B;i</pr></trd>,
+    <trd>&#x82A6;&#x82C7; <pr>l&#xFA;w&#x11B;i</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="kan.0o.ilo">
     <dif>
       Trunketo de <tld/>o <sncref ref="kan.0o.BOT"/>, uzata kiel
@@ -121,6 +125,18 @@
     <trd>r&aacute;kos</trd>,
     <trd>t&rcaron;tina</trd>
   </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x30A2;&#x30B7;</trd>,
+    <trd>&#x30E8;&#x30B7;</trd>,
+    <trd>&#x30C8;&#x30A6;</trd>,
+    <trd>&#x30B5;&#x30C8;&#x30A6;&#x30AD;&#x30D3;&#x306E;&#x985E;  <pr>&#x3055;&#x3068;&#x3046;&#x304D;&#x3073;&#x306E;&#x308B;&#x3044;</pr></trd>,
+    <trd/>,
+    <trd>&#x830E;  <pr>&#x306A;&#x304B;&#x3054;</pr></trd>,
+    <trd>&#x68D2;  <pr>&#x307C;&#x3046;</pr></trd>,
+    <trd>&#x3064;&#x3048;</trd>,
+    <trd>&#x3055;&#x304A;</trd>,
+    <trd>&#x3080;&#x3061;</trd>
+  </trdgrp>
   <trd lng="sk">trs&tcaron; oby&ccaron;ajn&aacute;</trd>
   <trdgrp lng="uk">
     <trd>&#x442;&#x440;&#x43E;&#x441;&#x442;&#x438;&#x43D;&#x430;</trd>,
@@ -157,16 +173,24 @@
   <trd lng="es">ca&ntilde;a de az&uacute;car</trd>
   <trd lng="fr">canne &agrave; sucre</trd>
   <trd lng="hu">cukorn&aacute;d</trd>
+  <trd lng="ja">&#x30B5;&#x30C8;&#x30A6;&#x30AD;&#x30D3;</trd>
   <trd lng="nl">suikerriet</trd>
   <trd lng="pl">cukier <ind>trzcinowy</ind></trd>
   <trd lng="pt">cana-de-a&ccedil;&uacute;car</trd>
   <trd lng="ru">&c_s;&c_a;&c_h;&c_a;&c_r;&c_n;&c_y;&c_j; &c_t;&c_r;&c_o;&c_s;&c_t;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">cukrov&aacute; trstina</trd>
   <trd lng="uk">&#x446;&#x443;&#x43A;&#x440;&#x43E;&#x432;&#x430; &#x442;&#x440;&#x43E;&#x441;&#x442;&#x438;&#x43D;&#x430;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8517; <pr>zh&#xE8;</pr></trd>,
+    <trd>&#x7518;&#x8517; <pr>g&#x101;nzhe</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.34 2023/10/18 14:48:09
+revo: transskribo per <pr>
+
 versio 1.30 2020/09/15 22:32:22
 Jeromo Vasxe: ~o + subsnc, suker~o + ekz
 
@@ -186,8 +210,5 @@ Revision 1.24  2013/08/28 16:10:28  revo
 Wolfram Diestel: -tajperaro
 
 Revision 1.23  2013/08/28 15:10:21  revo
-Wolfram Diestel: referencoj al bot genroj
-
-Revision 1.22  2012/08/03 13:10:29  revo
 -->
 </vortaro>

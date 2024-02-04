@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: intenc.xml,v 1.27 2022/03/23 14:00:58 revo Exp $">
+<art mrk="$Id: intenc.xml,v 1.36 2023/11/27 03:27:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>intenc</rad>/i
@@ -11,40 +11,81 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="intenc.0i.KOMUNE">
     <dif>
-      Konscie kaj klare ekvoli fari ion en nedifinita tempo:
+      Konscie kaj klare <ref tip="super" cel="vol.ek0i">ekvoli</ref> fari ion en nedifinita tempo:
       <ekz>
-        <tld/>i fari ion<fnt>Z</fnt>;
+        el tiu knabo li <tld/>is fari famulon, &ccirc;u advokaton, &ccirc;u kuraciston
+        <fnt>
+          <bib>IdO</bib>
+          <lok>Tria Parto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        li <tld/>is plibonigi sian konduton, sed lia volo estas tro
-        malforta;
+        la finan formon mi <tld/>is doni al la &leftquot;Lingvo Internacia&rightquot; ne pli frue ol en la
+        fino de l' jaro 1888
+        <fnt>
+          <bib>DL</bib>
+          <lok>Dua Libro de l' Lingvo Internacia</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i malbonon<fnt>Z</fnt>,
-        malicon<fnt>Z</fnt>,
-        ian fripona&jcirc;on;
+        ne e&ccirc; dum unu sola minuto li <tld/>is kulpigi Beatricon, kiu estis nur la
+        senkulpa viktimo
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Dekkvina</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        jam de longe mi <tld/>as viziti vin, sed mi nescias, &ccirc;u mi
-        povos
-        dum tiu &ccirc;i monato.
+        poste, li <tld/>as viziti Romon kaj Parizon
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> foriris de ni kun mieno de persono, kiu <tld/>as ian fripona&jcirc;on
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> <tld/>as malicon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 16:30</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi <tld/>is fari al mi malbonon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 50:20</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="cel.0i">celi</ref>,
       <ref cel="plan.0i">plani</ref>,
-      <ref cel="projek1.0i.plani">projekti <sncref/></ref>,
+      <ref cel="projek1.0i.plani">projekti<sncref/></ref>,
       <ref cel="propon">proponi al si</ref>,
+      <ref cel="streb.0i.KOMUNE">strebi</ref>,
       <ref cel="vol.0i">voli</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_je;&c_c;&c_mol; <ind>&c_n;&c_a;&c_m;&c_je;&c_r;</ind></trd>,
+    <trd>&c_n;&c_a;&c_m;&c_je;&c_r;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_d;&c_u;&c_m;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>m&iacute;t v &uacute;myslu</trd>,
     <trd>zam&yacute;&scaron;let</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>beabsichtigen</trd>,
-    <trd>intendieren</trd>
+    <trd>intendieren</trd>,
+    <trd>vorhaben</trd>
   </trdgrp>
   <trd lng="en">intend</trd>
   <trdgrp lng="es">
@@ -57,6 +98,12 @@
     <trd>viser &agrave;</trd>
   </trdgrp>
   <trd lng="hu">sz&aacute;nd&eacute;kozik</trd>
+  <trdgrp lng="ja">
+    <trd>&#x610F;&#x56F3;&#12377;&#x308B;  <pr>&#12356;&#12392;&#12377;&#x308B;</pr></trd>,
+    <trd>&#12418;&#x304F;&#x308D;&#12416;</trd>,
+    <trd>&#x4F01;&#12390;&#x308B;  <pr>&#x304F;&#x308F;&#12384;&#12390;&#x308B;</pr></trd>,
+    <trd>&#xFF5E;<ind>&#12377;&#x308B;&#12388;&#12418;&#x308A;&#12391;&#12354;&#x308B;</ind></trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>beogen</trd>,
     <trd>van zins zijn</trd>,
@@ -83,12 +130,21 @@
     <trd>zam&yacute;&scaron;&lcaron;a&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x430;&#x43C;&#x456;&#x440;&#x44F;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x43C;&#x430;&#x442;&#x438; &#x43D;&#x430;&#x43C;&#x456;&#x440;</trd>,
-    <trd>&#x437;&#x431;&#x438;&#x440;&#x430;&#x442;&#x438;&#x441;&#x44F;</trd>,
-    <trd>&#x440;&#x43E;&#x437;&#x440;&#x430;&#x445;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x430;&#x434;&#x443;&#x43C;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x437;&#x430;&#x43C;&#x438;&#x448;&#x43B;&#x44F;&#x442;&#x438;</trd>
+    <trd>&c_n;&c_a;&c_m;&c_ib;&c_r;&c_ja;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_m;&c_a;&c_t;&c_i; &c_n;&c_a;&c_m;&c_ib;&c_r;</trd>,
+    <trd>&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_r;&c_a;&c_h;&c_o;&c_v;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_d;&c_u;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_z;&c_a;&c_m;&c_i;&c_sh;&c_l;&c_ja;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#26377;&#x5FC3; <pr>y&#x1D2;ux&#x12B;n</pr></trd>,
+    <trd>&#x610F;&#x6B32; <pr>y&#xEC;y&#xF9;</pr></trd>,
+    <trd>&#26377;&#x610F; <pr>y&#x1D2;uy&#xEC;</pr></trd>,
+    <trd>&#30596; <pr>mi&#xE1;o</pr></trd>,
+    <trd>&#30596;&#x51C6; <pr>mi&#xE1;ozh&#x1D4;n</pr></trd>,
+    <trd>&#x91DD;&#x5C0D; <pr>zh&emacron;ndu&#xEC;</pr></trd>,
+    <trd>&#x62DF; <pr>n&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -96,36 +152,62 @@
   <kap><tld/>o</kap>
   <snc mrk="intenc.0o.KOMUNE">
     <dif>
-      Konscia movo de la volo celanta ion:
+      Konscia movo de la <ref cel="vol.0o">volo</ref> celanta ion:
+      <ekz>
+        <klr>[&scirc;i]</klr> faris &ccirc;iujn necesajn preparojn por efektivigi sian <tld/>on
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>David</nom> havis la <tld/>on konstrui domon
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 8:17</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <tld/>o en la koro de homo estas profunda akvo, sed homo
-        sa&gcirc;a
-        &gcirc;in el&ccirc;erpos
+        sa&gcirc;a &gcirc;in el&ccirc;erpos
         <fnt><bib>MT</bib>, <lok>&Sen; 20:5</lok></fnt>;
       </ekz>
       <ekz>
-        havi<fnt>Z</fnt>,
+        <klr>[lia]</klr> koro preparas malbonfarajn <tld/>ojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 6:18</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        prepari<fnt>Z</fnt>
-      </ekz>
-      <ekz>
-        bonajn, malbonfarajn <tld/>ojn<fnt>Z</fnt>;
+        li malka&scirc;is sian <tld/>on
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <tld/>oj fortiki&gcirc;as per konsilo
         <fnt><bib>MT</bib>, <lok>&Sen; 20:18</lok></fnt>;
       </ekz>
       <ekz>
-        malka&scirc;i sian <tld/>on al amiko;
-      </ekz>
-      <ekz>
-        <ind>estas for de mi tia <tld/>o</ind>.
-        <trd lng="fr">loin de moi cette intention</trd>
+        <ind>tia <tld/>o estas malproksime de li</ind>
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Deksepa &Ccirc;apitro</lok>
+        </fnt>.
+        <trd lng="de">das liegt ihm fern</trd>
+        <trd lng="fr">c'est loin de son intention</trd>
       </ekz>
     </dif>
   </snc>
-  <trd lng="bo">&#xF60;&#xF56;&#xF7A;&#xF53;&#xF0B;</trd>
+ <trd lng="en">intention</trd>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_m;&c_je;&c_r;</trd>,
+    <trd>&c_z;&c_a;&c_d;&c_u;&c_m;&c_a;</trd>,
+    <trd>&c_ib;&c_n;&c_t;&c_e;&c_n;&c_c;&c_y;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="bo">&t_-a;&t_ba;&t_drengbu;&t_na;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>intence</trd>,
     <trd>pl&aacute;n</trd>,
@@ -135,7 +217,8 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>Absicht</trd>,
-    <trd>Intension</trd>
+    <trd>Intension</trd>,
+    <trd>Vorhaben</trd>
   </trdgrp>
   <trdgrp lng="es">
      <trd>intenci&oacute;n</trd>,
@@ -152,6 +235,12 @@
   <trdgrp lng="hu">
     <trd>sz&aacute;nd&eacute;k</trd>,
     <trd>intenci&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x610F;&#x56F3;  <pr>&#12356;&#12392;</pr></trd>,
+    <trd>&#x610F;&#21521;  <pr>&#12356;&#12371;&#12358;</pr></trd>,
+    <trd>&#12418;&#x304F;&#x308D;&#x307F;</trd>,
+    <trd>&#25925;&#x610F;  <pr>&#12371;&#12356;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>doel</trd>,
@@ -183,9 +272,15 @@
     <trd>&uacute;mysel</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x430;&#x43C;&#x456;&#x440;</trd>,
-    <trd>&#x437;&#x430;&#x434;&#x443;&#x43C;</trd>,
-    <trd>&#x456;&#x43D;&#x442;&#x435;&#x43D;&#x446;&#x456;&#x44F;</trd>
+    <trd>&c_n;&c_a;&c_m;&c_ib;&c_r;</trd>,
+    <trd>&c_z;&c_a;&c_d;&c_u;&c_m;</trd>,
+    <trd>&c_ib;&c_n;&c_t;&c_je;&c_n;&c_c;&c_ib;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#26631;&#30340; <pr>bi&amacron;od&#xEC;</pr></trd>,
+    <trd>&#x610F;&#x56FE; <pr>y&#xEC;t&#xFA;</pr></trd>,
+    <trd>&#x65E8; <pr>zh&#x1D0;</pr></trd>,
+    <trd>&#x5B97;&#x65E8; <pr>z&#x14D;ngzh&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -211,6 +306,12 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">intentional</trd>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_w;&c_m;&c_y;&c_s;&c_n;&c_y;</trd>,
+    <trd>&c_s;&c_u;&c_m;&c_y;&c_s;&c_n;&c_y;</trd>,
+    <trd>&c_u;&c_m;&c_y;&c_s;&c_n;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>intencion&aacute;ln&iacute;</trd>,
     <trd>inten&ccaron;n&iacute;</trd>,
@@ -229,6 +330,11 @@
   <trdgrp lng="hu">
     <trd>sz&aacute;nd&eacute;kos</trd>,
     <trd>akaratlagos</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#25925;&#x610F;&#x306E;  <pr>&#12371;&#12356;&#x306E;</pr></trd>,
+    <trd>&#x305F;&#x304F;&#12425;&#12435;&#12384;</trd>,
+    <trd>&#x610F;&#x56F3;&#30340;&#x306A;  <pr>&#12356;&#12392;&#12390;&#x304D;&#x306A;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>gewild</trd>,
@@ -253,10 +359,18 @@
     <trd>&uacute;myseln&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x430;&#x432;&#x43C;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x443;&#x43C;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x437;&#x443;&#x43C;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x430;&#x440;&#x43E;&#x447;&#x438;&#x442;&#x438;&#x439;</trd>
+    <trd>&c_n;&c_a;&c_v;&c_m;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_u;&c_m;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_z;&c_u;&c_m;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_a;&c_r;&c_o;&c_ch;&c_i;&c_t;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#26377;&#x610F; <pr>y&#x1D2;uy&#xEC;</pr></trd>,
+    <trd>&#25104;&#x5FC3; <pr>ch&#xE9;ngx&#x12B;n</pr></trd>,
+    <trd>&#x84C4;&#x610F; <pr>x&#xF9;y&#xEC;</pr></trd>,
+    <trd>&#x610F;&#x56FE; <pr>y&#xEC;t&#xFA;</pr></trd>,
+    <trd>&#25925;&#x610F;&#22320; <pr>g&#xF9;y&#xEC;de</pr></trd>,
+    <trd>&#x6DF1;&#x601D;&#x719F;&#x616E;&#x904E; <pr>sh&emacron;ns&#x12B;sh&#xFA;l&#xFC;gu&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -267,31 +381,69 @@
   </kap>
   <snc mrk="intenc.0e.KOMUNE">
     <dif>
-      Vole, celinte la efektivan rezulton:
+      Vole, celante la efektivan rezulton:
       <ekz>
-        Sed tute ne ekzistas ia deziro iel trompi la ekzamenatojn
-        a&ubreve; <tld/>e
-        enkonduki malfacila&jcirc;ojn
-        <fnt>ILEI ekzamenoj - opiniop de Maxey</fnt>;
+        ili <tld/>e ne rigardas al li por montri al li sian mal&scirc;aton
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        Ni <tld/>e ne &gcirc;isdatigis la tekston.  Kiuj komentoj estas
-        jam iom
-        malaktualaj?
-        <fnt>Energi-formoj. Respondoj.</fnt>;
+        Akcidente, &dash; ne <tld/>e, &dash; &#x2AFD; Mi sur vian &scirc;uon pa&scirc;is
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Ne Intence</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun okuloj pro indigno brilantaj &scirc;i ekkriis, la&ubreve;tegante <tld/>e la vo&ccirc;on
+        <fnt>
+          <bib>ChL</bib>
+          <lok>&Ccirc;apitro Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>e sin dronigis
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        parenc' al parenco ne malhelpas <tld/>e
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
+<trdgrp lng="en">
+  <trd>intentionally</trd>,
+  <trd>on purpose</trd>
+</trdgrp>
     <trdgrp lng="pl">
       <trd>celowo</trd>,
       <trd>umy&sacute;lnie</trd>,
       <trd>naumy&sacute;lnie</trd>,
-      <trd>z <ind>premedytacj&aogonek;</ind></trd> 
+      <trd>z <ind>premedytacj&aogonek;</ind></trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_w;&c_m;&c_y;&c_s;&c_n;&c_a;</trd>,
+    <trd>&c_s;&c_u;&c_m;&c_y;&c_s;&c_n;&c_a;</trd>,
+    <trd>&c_u;&c_m;&c_y;&c_s;&c_n;&c_a;</trd>,
+    <trd>&c_z; <ind>&c_n;&c_a;&c_m;&c_je;&c_r;&c_a;&c_m;</ind></trd>
+  </trdgrp>
+  <trd lng="de">absichtlich</trd>
   <trdgrp lng="fr">
     <trd>volontairement</trd>,
     <trd>&agrave; dessein</trd>,
     <trd>intentionnellement</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x610F;&#x56F3;&#30340;&#x306B;  <pr>&#12356;&#12392;&#12390;&#x304D;&#x306B;</pr></trd>,
+    <trd>&#x308F;&#12374;&#12392;</trd>,
+    <trd>&#25925;&#x610F;&#x306B;  <pr>&#12371;&#12356;&#x306B;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>expres</trd>,
@@ -301,10 +453,14 @@
     <trd>opzettelijk</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x430;&#x432;&#x43C;&#x438;&#x441;&#x43D;&#x435;</trd>,
-    <trd>&#x437;&#x443;&#x43C;&#x438;&#x441;&#x43D;&#x43E;</trd>,
-    <trd>&#x437;&#x443;&#x43C;&#x438;&#x441;&#x43D;&#x435;</trd>,
-    <trd>&#x43D;&#x430;&#x440;&#x43E;&#x447;&#x438;&#x442;&#x43E;</trd>
+    <trd>&c_n;&c_a;&c_v;&c_m;&c_i;&c_s;&c_n;&c_je;</trd>,
+    <trd>&c_z;&c_u;&c_m;&c_i;&c_s;&c_n;&c_o;</trd>,
+    <trd>&c_z;&c_u;&c_m;&c_i;&c_s;&c_n;&c_je;</trd>,
+    <trd>&c_n;&c_a;&c_r;&c_o;&c_ch;&c_i;&c_t;&c_o;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#29305;&#x610F; <pr>t&#xE8;y&#xEC;</pr></trd>,
+    <trd>&#x6DF1;&#x601D;&#x719F;&#x616E;&#x904E; <pr>sh&emacron;ns&#x12B;sh&#xFA;l&#xFC;gu&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -314,13 +470,48 @@
     <dif>
       Havanta bonan <tld/>on:
       <ekz>
-        <ind>bon<tld/>a</ind> sed vana klopodo.
+        tiu estas politike bon<tld/>a, mi povas certigi al vi
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fluganta kofro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu kredo allogis ne malmultajn, bon<tld/>ajn virojn, al kiuj na&ubreve;zis la
+        neesprimeble malpura idolkulto de ilia tempo
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;balda&ubreve; li malsani&gcirc;os, se li da&ubreve;ras plu!&rightquot; tiel babilis konsilantoj bon<tld/>aj
+        <fnt>
+          <bib>VivZam</bib>
+          <lok>Vivo de Zamenhof</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la konsilo, kiun ni donis al vi, estis bon<tld/>a &dash; sed stulta
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Kunvoja&gcirc;antoj</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_a;&c_n;&c_a;&c_m;&c_je;&c_r;&c_n;&c_y;</trd>
   <trd lng="cs">dob&rcaron;e m&iacute;n&ecaron;n&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>gutwillig</trd>,
+    <trd>gutm&uuml;tig</trd>,
+    <trd>wohlmeinend</trd>
+  </trdgrp>
+  <trd lng="en">good intentioned</trd>
   <trd lng="fr">bien <ind>intentionn&eacute;</ind></trd>
   <trd lng="hu">j&oacute; <ind>akarat&uacute;</ind></trd>
+  <trd lng="ja">&#21892;&#x610F;&#x306E;  <pr>&#x305C;&#12435;&#12356;&#x306E;</pr></trd>
   <trd lng="nl">welgemeend</trd>
   <trdgrp lng="pl">
     <trd>z dobrymi <ind>ch&eogonek;ciami</ind></trd>,
@@ -340,9 +531,10 @@
     <trd>dobroprajn&yacute;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x431;&#x43B;&#x430;&#x433;&#x43E;&#x43D;&#x430;&#x43C;&#x456;&#x440;&#x435;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x437; &#x434;&#x43E;&#x431;&#x440;&#x438;&#x43C;&#x438; &#x43D;&#x430;&#x43C;&#x456;&#x440;&#x430;&#x43C;&#x438;</trd>
+    <trd>&c_b;&c_l;&c_a;&c_g;&c_o;&c_n;&c_a;&c_m;&c_ib;&c_r;&c_je;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_z; &c_d;&c_o;&c_b;&c_r;&c_i;&c_m;&c_i; &c_n;&c_a;&c_m;&c_ib;&c_r;&c_a;&c_m;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x597D;&#x610F; <pr>h&#x1CE;oy&#xEC;</pr></trd>
 </drv>
 
 <drv mrk="intenc.bon0o">
@@ -351,13 +543,34 @@
     <dif>
       Deziro helpi, bone agi:
       <ekz>
-        li <klr>...</klr> atestadas sian fratecan bon<tld/>on, por
+        en iliaj okuloj mi vidis nenion krom la objektiva bon<tld/>o
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dua &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u oni povas klarigi per bon<tld/>oj de l&#8217; komunistoj, ke ili igas apena&ubreve;
+        vestitajn virinojn kun su&ccirc;infanoj sur la brakoj staradi dum frostoj anta&ubreve; la
+        kooperativoj
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> atestadas sian fratecan bon<tld/>on, por
         forturni la atenton pri siaj malamikaj ka&scirc;intencoj
         <fnt><bib>SatirRak</bib>, <lok>Kain kaj Abel</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">good intention</trd>
+  <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_y; <ind>&c_n;&c_a;&c_m;&c_je;&c_r;</ind></trd>
   <trd lng="cs">dobr&yacute; &uacute;mysl</trd>
+  <trdgrp lng="de">
+    <trd>gute <ind>Absicht</ind></trd>,
+    <trd>guter <ind>Wille</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>bonne disposition</trd>,
     <trd>bonne intention</trd>,
@@ -381,18 +594,37 @@
     &c_p;&c_o;&c_m;&c_o;&c_ch;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">dobr&yacute; &uacute;mysel</trd>
+  <trdgrp lng="zh">
+    <trd>&#x597D;&#x610F; <pr>h&#x1CE;oy&#xEC;</pr></trd>,
+    <trd>&#21892;&#x610F; <pr>sh&#xE0;ny&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="intenc.kiel0e">
-  <kap>kiel <tld/>e</kap>
+  <kap>kiel <tld/>e, <var><kap>kvaza&ubreve; <tld/>e</kap></var></kap>
   <uzo tip="stl">FRAZ</uzo>
   <snc mrk="intenc.kiel0e.KOMUNE">
     <dif>
-      Malprobable kaj tamen reale, kvaza&ubreve; iu intence farus:
+      Malprobable kaj tamen reale, kvaza&ubreve; iu <tld/>e farus:
       <ekz>
-        kiel mi timis, ke vi venos dum mia foresto! Kaj, kiel <tld/>e, 
+        kia &ccirc;agreno! kvaza&ubreve; <tld/>e neniu sin montras
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto tria</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        kvaza&ubreve; <tld/>e &ccirc;iuj renkontataj kamparanoj havis mizeran aspekton kaj rajdis
+        malgrasajn &ccirc;evala&ccirc;ojn
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel mi timis, ke vi venos dum mia foresto! kaj, kiel <tld/>e,
         tio &ccirc;i okazis &gcirc;uste tiel
-        <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>, 
+        <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>,
         <lok>&ccirc;apitro 40a</lok></fnt>.
       </ekz>
     </dif>
@@ -400,6 +632,12 @@
       <ref cel="koinci.0o">koincido</ref>
     </refgrp>
   </snc>
+  <trd lng="en">seemingly on purpose</trd>
+  <trd lng="be">&c_b;&c_y;&c_c;&c_c;&c_a;&c_m; <ind>&c_n;&c_a;&c_w;&c_m;&c_y;&c_s;&c_n;&c_a;</ind></trd>
+  <trdgrp lng="de">
+    <trd>gleichsam <ind>absichtlich</ind></trd>,
+    <trd>als ob es <ind>Absicht</ind> w&auml;re</trd>
+  </trdgrp>
   <trd lng="fr">comme par un fait expr&egrave;s</trd>
 </drv>
 
@@ -424,11 +662,16 @@
   <trd lng="be">&c_z;&c_l;&c_a;&c_m;&c_y;&c_s;&c_n;&c_y;</trd>
   <trd lng="cs">maj&iacute;c&iacute; &scaron;patn&eacute; &uacute;mysly <klr>(adj.)</klr></trd>
   <trd lng="de">b&ouml;swillig</trd>
+<trdgrp lng="en">
+  <trd>malicious</trd>,
+  <trd>malevolent</trd>
+</trdgrp>
   <trdgrp lng="fr">
     <trd>mal <ind>intentionn&eacute;</ind></trd>,
     <trd>malintentionn&eacute;</trd>
   </trdgrp>
   <trd lng="hu">rossz <ind>akarat&uacute;</ind></trd>
+  <trd lng="ja">&#x60AA;&#x610F;&#x306E;  <pr>&#12354;&#x304F;&#12356;&#x306E;</pr></trd>
   <trdgrp lng="nl">
     <trd>kwaadgezind</trd>,
     <trd>kwaadwillig</trd>
@@ -443,8 +686,8 @@
   <trd lng="ru">&c_z;&c_l;&c_o;&c_n;&c_a;&c_m;&c_je;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">zlomyse&lcaron;n&yacute;</trd>
   <trdgrp lng="uk">
-    <trd>&#x437;&#x43B;&#x43E;&#x432;&#x43C;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x437;&#x456; &#x437;&#x43B;&#x438;&#x43C;&#x438; &#x43D;&#x430;&#x43C;&#x456;&#x440;&#x430;&#x43C;&#x438;</trd>
+    <trd>&c_z;&c_l;&c_o;&c_v;&c_m;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_z;&c_ib; &c_z;&c_l;&c_i;&c_m;&c_i; &c_n;&c_a;&c_m;&c_ib;&c_r;&c_a;&c_m;&c_i;</trd>
   </trdgrp>
 </drv>
 
@@ -455,14 +698,23 @@
       Deziro estigi mison a&ubreve; malfeli&ccirc;on:
       <ekz>
         li &jcirc;etis sur lin ian objekton <ind>sen malbon<tld/>o</ind>
-        <fnt><bib>MT</bib>, <lok>&Nom; 35:22</lok></fnt>;
+        <fnt><bib>MT</bib>, <lok>&Nom; 35:22</lok></fnt>.
         <trd lng="fr">sans penser &agrave; <ind>mal</ind></trd>
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_l;&c_a;&c_m;&c_y;&c_s;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_z;&c_l;&c_y; <ind>&c_n;&c_a;&c_m;&c_je;&c_r;</ind></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>dolus</trd>,
     <trd>zl&yacute; &uacute;mysl</trd>
+  </trdgrp>
+  <trd lng="de">b&ouml;ser <ind>Wille</ind></trd>
+  <trdgrp lng="en">
+    <trd>ill will</trd>,
+    <trd>malevolence</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>d&eacute;sir de nuire</trd>,
@@ -483,26 +735,61 @@
     <trd>&c_z;&c_l;&c_o;&c_j; &c_u;&c_m;&c_y;&c_s;&c_je;&c_l;</trd>
   </trdgrp>
   <trd lng="sk">zl&yacute; &uacute;mysel</trd>
+  <trdgrp lng="zh">
+    <trd>&#24694;&#x610F; <pr>&#xE8;y&#xEC;</pr></trd>,
+    <trd>&#x9ED1;&#x5FC3; <pr>h&emacron;ix&#x12B;n</pr></trd>,
+    <trd>&#x574F;&#x610F; <pr>hu&#xE0;iy&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="intenc.sen0a">
   <kap>sen<tld/>a</kap>
   <snc mrk="intenc.sen0a.KOMUNE">
     <dif>
-      Nekonscie, nevole farita:
+      Aganta sen konkreta <tld/>o:
       <ekz>
-        sen<tld/>a mortigo;
+        sen<tld/>a forgeso
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 5 (55)</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mi devas <ind>&scirc;ajni sen<tld/>a</ind><fnt>Z</fnt>
+        mi devas <ind>&scirc;ajni sen<tld/>a</ind>
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
         <trd lng="fr">avoir l'air de rien</trd>
         <klr>(aganta sen<tld/>e)</klr>.
       </ekz>
+      <ekz>
+        poste li faris similajn, &scirc;ajne same sen<tld/>ajn demandojn pri la aliaj
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="cel.sen0a">sencela</ref>,
+      <ref cel="konsci.sen0a">senkonscia</ref>,
+      <ref cel="vol.sen0a.senintenca">senvola<sncref/></ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_w;&c_m;&c_y;&c_s;&c_n;&c_y;</trd>,
+    <trd>&c_m;&c_ib;&c_m;&c_a;&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>,
+    <trd>&c_v;&c_y;&c_p;&c_a;&c_d;&c_k;&c_o;&c_v;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>unbeabsichtigt</trd>,
-    <trd>unabsichtlich</trd>
+    <trd>unabsichtlich</trd>,
+    <trd>absichtslos</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>involuntary</trd>,
+    <trd>unintentional</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>involontaire</trd>,
@@ -511,6 +798,11 @@
   <trdgrp lng="hu">
     <trd>akaratlan</trd>,
     <trd>nem <ind>sz&aacute;nd&eacute;kos</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x610F;&#x56F3;&#12375;&#x306A;&#12356;  <pr>&#12356;&#12392;&#12375;&#x306A;&#12356;</pr></trd>,
+    <trd>&#25925;&#x610F;&#12391;&#x306A;&#12356;  <pr>&#12371;&#12356;&#12391;&#x306A;&#12356;</pr></trd>,
+    <trd>&#28961;&#x610F;&#x8B58;&#x306E;  <pr>&#12416;&#12356;&#12375;&#x304D;&#x306E;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>ongewild</trd>,
@@ -528,8 +820,20 @@
     <trd>&c_n;&c_je;&c_u;&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x43D;&#x430;&#x432;&#x43C;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>,
-    <trd>&#x43D;&#x435;&#x443;&#x43C;&#x438;&#x441;&#x43D;&#x438;&#x439;</trd>
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_v;&c_m;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_u;&c_m;&c_i;&c_s;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x65E0;&#x5FC3; <pr>w&#xFA;x&#x12B;n</pr></trd>,
+    <trd>&#x65E0;&#x610F;&#x4E2D; <pr>w&#xFA;y&#xEC;zh&#x14D;ng</pr></trd>,
+    <trd>&#x4E0D;&#x6CE8;&#x610F;&#22320; <pr>b&#xF9;zh&#xF9;y&#xEC;de</pr></trd>,
+    <trd>&#x6C92;&#26377;&#x8A08;&#21123; <pr>m&#xE9;iy&#x1D2;uj&#xEC;hu&#xE0;</pr></trd>,
+    <trd>&#x65E0;&#x610F;&#x95F4; <pr>w&#xFA;y&#xEC;ji&amacron;n</pr></trd>,
+    <trd>&#x4E0D;&#x6CE8;&#x610F; <pr>b&#xF9;zh&#xF9;y&#xEC;</pr></trd>,
+    <trd>&#x975E;&#x5B58;&#x5FC3; <pr>f&emacron;ic&#xFA;nx&#x12B;n</pr></trd>,
+    <trd>&#x975E;&#25925;&#x610F; <pr>f&emacron;ig&#xF9;y&#xEC;</pr></trd>,
+    <trd>&#x4E0D;&#x662F;&#25925;&#x610F; <pr>b&#xFA;sh&#xEC;g&#xF9;y&#xEC;</pr></trd>,
+    <trd>&#x65E0;&#x610F;&#x8BC6; <pr>w&#xFA;y&#xEC;sh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -543,15 +847,47 @@
         <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>;
       </ekz>
       <ekz>
-        pardonu, ke mi pu&scirc;is vin, &ccirc;ar mi tion faris tute
-        <ind>sen<tld/>e</ind>.
+        kvaza&ubreve; kamarade kaj sen<tld/>e li metis sian brakon sur &scirc;iajn &scirc;ultrojn
+        <fnt>
+          <bib>InfanTorent2</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum li atendis, li sencele kaj sen<tld/>e iradis tien kaj reen en la parko,
+        <klr>[&#8230;]</klr> pelate de interna maltrankvilo
+        <fnt>
+          <bib>Tor</bib>
+          <lok>II.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kien povas forkuri mortiginto, kiu mortigis homon sen<tld/>e
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 35:11</lok>
+        </fnt>?
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_w;&c_m;&c_y;&c_s;&c_n;&c_a;</trd>,
+    <trd>&c_m;&c_ib;&c_m;&c_a;&c_v;&c_o;&c_l;&c_mol;&c_n;&c_a;</trd>,
+    <trd>&c_v;&c_y;&c_p;&c_a;&c_d;&c_k;&c_o;&c_v;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>mimovoln&ecaron;</trd>,
     <trd>necht&ecaron;n&ecaron;</trd>,
     <trd>ne&uacute;mysln&ecaron;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>unbeabsichtigt</trd>,
+    <trd>unabsichtlich</trd>,
+    <trd>absichtslos</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>unintentionally</trd>,
+    <trd>not on purpose</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>involontairement</trd>,
@@ -560,6 +896,11 @@
   <trdgrp lng="hu">
     <trd>akaratlanul</trd>,
     <trd>nem <ind>sz&aacute;nd&eacute;kosan</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x601D;&#x308F;&#x305A;  <pr>&#x304A;&#12418;&#x308F;&#x305A;</pr></trd>,
+    <trd>&#12388;&#12356;&#12358;&#12387;&#x304B;&#x308A;</trd>,
+    <trd>&#28961;&#x610F;&#x8B58;&#x306B;  <pr>&#12416;&#12356;&#12375;&#x304D;&#x306B;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>onopzettelijk</trd>,
@@ -585,37 +926,37 @@
     <trd>ne&uacute;myselne</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43D;&#x435;&#x43D;&#x430;&#x432;&#x43C;&#x438;&#x441;&#x43D;&#x43E;</trd>,
-    <trd>&#x43D;&#x435;&#x443;&#x43C;&#x438;&#x441;&#x43D;&#x43E;</trd>,
-    <trd>&#x43D;&#x435; &#x445;&#x43E;&#x442;&#x44F;&#x447;&#x438;</trd>,
-    <trd>&#x43C;&#x438;&#x43C;&#x43E;&#x432;&#x43E;&#x43B;&#x456;</trd>
+    <trd>&c_n;&c_je;&c_n;&c_a;&c_v;&c_m;&c_i;&c_s;&c_n;&c_o;</trd>,
+    <trd>&c_n;&c_je;&c_u;&c_m;&c_i;&c_s;&c_n;&c_o;</trd>,
+    <trd>&c_n;&c_je; &c_h;&c_o;&c_t;&c_ja;&c_ch;&c_i;</trd>,
+    <trd>&c_m;&c_i;&c_m;&c_o;&c_v;&c_o;&c_l;&c_ib;</trd>
   </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.36 2023/11/27 03:27:36
+Matt Brooks: + en tradukojn
+
+versio 1.34 2023/10/17 16:46:14
+revo: transskribo per <pr>
+
+versio 1.33 2023/09/08 14:27:02
+Wolfram Diestel: kor. ja ind.
+
+versio 1.31 2023/03/22 18:29:47
+Wolfram Diestel: ~e..kiel ~e: +ekz-oj; +var kvaza&ubreve; ~e
+
+versio 1.30 2023/03/22 06:30:04
+Wolfram Diestel: trdj de, sen*: +ekz-oj, ref
+
+versio 1.29 2023/03/20 18:32:12
+Wolfram Diestel: ~i, ~o: +ekz-oj
+
+versio 1.28 2023/01/27 08:33:00
+Dmitri Gabinski: + trd be
+
 versio 1.23 2021/01/26 15:11:02
-Bart Demeyere: +trd nl
-
-Revision 1.21  2015/07/04 08:37:36  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.20  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.19  2011/06/14 05:10:09  revo
-Sebastian Cyprych: +~e +trd pl
-
-Revision 1.18  2010/06/28 17:53:26  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.17  2006/07/02 16:31:28  revo
-Jeromo Vasxe: + kiel ~e, + kk mrk
-
-Revision 1.16 2005/11/14 17:31:37 revo
-Luiz Portella: +trd pt
-
-Revision 1.15 2005/06/22 16:32:22 revo
 -->
 </vortaro>

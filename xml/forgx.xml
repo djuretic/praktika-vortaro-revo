@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: forgx.xml,v 1.23 2022/03/22 15:44:04 revo Exp $">
+<art mrk="$Id: forgx.xml,v 1.26 2023/11/09 20:48:34 revo Exp $">
 <kap><ofc>*</ofc>
 <rad>for&gcirc;</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -90,6 +90,12 @@
   <trd lng="es">forjar</trd>
   <trd lng="fr">forger</trd>
   <trd lng="hu">kov&aacute;csol</trd>
+  <trdgrp lng="ja">
+    <trd>&#x935B;&#x3048;&#x308B;  <pr>&#x304D;&#x305F;&#x3048;&#x308B;</pr></trd>,
+    <trd>&#x935B;&#x9020;&#x3059;&#x308B;  <pr>&#x305F;&#x3093;&#x305E;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x935B;&#x932C;&#x3059;&#x308B;  <pr>&#x305F;&#x3093;&#x308C;&#x3093;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x935B;&#x3048;&#x4E0A;&#x3052;&#x308B;  <pr>&#x304D;&#x305F;&#x3048;&#x3042;&#x3052;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">smeden</trd>
   <trdgrp lng="pt">
     <trd>forjar</trd>,
@@ -97,6 +103,11 @@
   </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="uk">&#x43A;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x935B; <pr>du&#xE0;n</pr></trd>,
+    <trd>&#x935B;&#x9020; <pr>du&#xE0;nz&#xE0;o</pr></trd>,
+    <trd>&#x9318;&#x6253; <pr>chu&#xED;d&#x1CE;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="forgx.0ejo">
@@ -134,6 +145,7 @@
   <trd lng="be">&c_k;&c_u;&c_z;&c_mol;&c_n;&c_ja;</trd>
   <trd lng="de">Schmiede</trd>
   <trd lng="fr">forge</trd>
+  <trd lng="ja">&#x935B;&#x51B6;&#x5C4B;  <pr>&#x304B;&#x3058;&#x3084;</pr></trd>
   <trd lng="uk">&#x43A;&#x443;&#x437;&#x43D;&#x44F;</trd>
 </drv>
 
@@ -174,7 +186,9 @@
     <trd>ferronnier</trd>,
     <trd>forgeron</trd>
   </trdgrp>
+  <trd lng="ja">&#x935B;&#x51B6;&#x5C4B;  <pr>&#x304B;&#x3058;&#x3084;</pr></trd>
   <trd lng="uk">&#x43A;&#x43E;&#x432;&#x430;&#x43B;&#x44C;</trd>
+  <trd lng="zh">&#x9435;&#x5320; <pr>ti&#x11B;jiang</pr></trd>
 </drv>
 
 <drv mrk="forgx.al0i">
@@ -271,6 +285,7 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="ja">&#x304B;&#x3057;&#x3081;&#x308B;</trd>
   <trd lng="nl">vastsmeden</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="uk">&#x43F;&#x440;&#x438;&#x43A;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438; (&#x442;&#x436; &#x43F;&#x435;&#x440;&#x435;&#x43D;.)</trd>
@@ -303,13 +318,22 @@
   <trd lng="be">&c_s;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="de">zusammenschmieden</trd>
   <trd lng="hu">&ouml;sszekov&aacute;csol</trd>
+  <trdgrp lng="ja">
+    <trd>&#x935B;&#x63A5;&#x3059;&#x308B;  <pr>&#x305F;&#x3093;&#x305B;&#x3064;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x305F;&#x305F;&#x3044;&#x3066;&#x63A5;&#x5408;&#x3059;&#x308B;  <pr>&#x305F;&#x305F;&#x3044;&#x3066;&#x305B;&#x3064;&#x3054;&#x3046;&#x3059;&#x308B;</pr></trd>,
+    <trd>&#x56FA;&#x304F;&#x7D50;&#x3073;&#x3064;&#x3051;&#x308B;  <pr>&#x304B;&#x305F;&#x304F;&#x3080;&#x3059;&#x3073;&#x3064;&#x3051;&#x308B;</pr></trd>
+  </trdgrp>
   <trd lng="nl">samensmeden</trd>
   <trd lng="ru">&c_s;&c_k;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   <trd lng="uk">&#x441;&#x43A;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>
+  <trd lng="zh">&#x4F7F;&#x7D50;&#x5408; <pr>sh&#x1D0;ji&#xE9;h&#xE9;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.25 2023/10/14 19:15:45
+revo: transskribo per <pr>
+
 versio 1.20 2021/09/17 19:22:00
 Wolfram Diestel: pliaj ekz-oj, ref-oj, trd de
 
@@ -329,8 +353,5 @@ Revision 1.14  2004/01/04 17:31:49  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.13  2003/09/30 16:30:31  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2002/12/16 17:31:14  revo
 -->
 </vortaro>

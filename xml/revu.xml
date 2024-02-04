@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: revu.xml,v 1.25 2022/11/08 22:33:34 revo Exp $">
+<art mrk="$Id: revu.xml,v 1.31 2023/10/20 19:20:37 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>revu</rad>/o <fnt><bib>PV</bib></fnt>
@@ -87,7 +87,7 @@
   </snc>
   <snc mrk="revu.0o.INF_gazeto">
     <dif>
-      Perioda, sed ne &ccirc;iutaga <ref tip="super" cel="pres.0ajxo">presa&jcirc;o</ref> 
+      Perioda, sed ne &ccirc;iutaga <ref tip="super" cel="pres.0ajxo">presa&jcirc;o</ref>
       en formo de <ref tip="super" cel="gazet.0o">gazeto</ref> a&ubreve; bro&scirc;uro kaj
       speciale dedi&ccirc;ita al iu aparta fako:
       <ekz>
@@ -108,10 +108,11 @@
       </ekz>
       <ekz>
         pedagogia <tld/>o, eldonita de la flandra ministrejo pri edukado
-        <fnt>
+         <fnt>
+          <aut>Guido van Damme</aut>
+          <vrk><url ref="&Monato;/1995/A950102.php">Gejunula seksumado</url></vrk>
           <bib>Monato</bib>
-          <vrk><url ref="&Steloj;monato1/monato-9501-seksaj-rilatoj.txt">Seksaj Rilatoj</url></vrk>
-          <lok>95/01</lok>
+          <lok>1995/01, p. 10</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -123,9 +124,9 @@
     <trd lng="ca">magaz&iacute;n</trd>
     <trdgrp lng="de">
       <trd>Zeitschrift</trd>,
-      <trd>Umschau<ind> [ark]</ind></trd>,
-      <trd>Rundschau</trd>,
-      <trd>Revue<ind> [ark]</ind></trd>
+      <trd>Umschau <klr>(Zeitschrift)</klr></trd>,
+      <trd>Rundschau <klr>(Zeitschrift)</klr></trd>,
+      <trd>Revue  <klr>(Zeitschrift)</klr></trd>
     </trdgrp>
     <trd lng="hu">foly&oacute;irat</trd>
     <trd lng="nl">tijdschrift</trd>
@@ -134,7 +135,7 @@
   <snc mrk="revu.0o.TEA">
     <uzo tip="fak">TEA</uzo>
     <dif>
-      <ref tip="super" cel="teatr.0ajxo">Teatra&jcirc;o</ref> temanta pri aktuala&jcirc;oj 
+      <ref tip="super" cel="teatr.0ajxo">Teatra&jcirc;o</ref> temanta pri aktuala&jcirc;oj
       prezentataj en fantazia kaj &scirc;erca maniero:
       <ekz>
         fama svedlanda &jcirc;azkapelo el Stokholmo, la nesuperebla <tld/>o <klr>[&#8230;]</klr> kun
@@ -179,6 +180,15 @@
   <trd lng="en">review</trd>
   <trd lng="es">revista</trd>
   <trd lng="fr">revue</trd>
+  <trdgrp lng="ja">
+    <trd>&#x5C02;&#38272;&#x96D1;&#x8A8C;  <pr>&#x305B;&#12435;&#12418;&#12435;&#12374;&#12387;&#12375;</pr></trd>,
+    <trd>&#x8A55;&#x8AD6;&#x96D1;&#x8A8C;  <pr>&#12402;&#12423;&#12358;&#x308D;&#12435;&#12374;&#12387;&#12375;</pr></trd>,
+    <trd>&#x8A55;&#x8AD6;  <pr>&#12402;&#12423;&#12358;&#x308D;&#12435;</pr></trd>,
+    <trd>&#x95B2;&#20853;  <pr>&#12360;&#12387;&#x307A;&#12356;</pr></trd>,
+    <trd>&#x95B2;&#20853;&#x5F0F;  <pr>&#12360;&#12387;&#12410;&#12356;&#12375;&#12365;</pr></trd>,
+    <trd>&#x30EC;&#x30D3;&#x30E5;&#x30FC;  <pr>&#x308C;&#12403;&#12421;&#x30FC;</pr></trd>,
+    <trd>&#x98A8;&#x523A;&#21127;  <pr>&#12405;&#12358;&#12375;&#12370;&#x304D;</pr></trd>
+  </trdgrp>
   <trd lng="nl">revue</trd>
   <trdgrp lng="pl">
     <trd>przegl&aogonek;d</trd>,
@@ -229,13 +239,23 @@
     <trd>passar revista</trd>
   </trdgrp>
   <trd lng="cs">p&rcaron;ehl&iacute;&zcaron;et</trd>
-  <trd lng="de">&uuml;berpr&uuml;fen</trd>
+    <trdgrp lng="de">
+      <trd>&uuml;berpr&uuml;fen</trd>,
+      <trd>nachpr&uuml;fen</trd>,
+      <trd>nachsehen</trd>,
+      <trd>inspizieren</trd>,
+      <trd>mustern</trd>
+    </trdgrp>
   <trd lng="es">pasar revista</trd>
   <trd lng="fr">passer en revue</trd>
   <trdgrp lng="hu">
     <trd>megszeml&eacute;l</trd>,
     <trd>szeml&eacute;z</trd>,
     <trd>&aacute;ttekint</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x8A55;&#x8AD6;&#12377;&#x308B;  <pr>&#12402;&#12423;&#12358;&#x308D;&#12435;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x95B2;&#20853;&#12377;&#x308B; <pr>&#12360;&#12387;&#12410;&#12356;&#12377;&#12427;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>een <ind>parade</ind> afnemen</trd>,
@@ -264,6 +284,21 @@
 </art>
 <!--
 $Log$
+versio 1.31 2023/10/20 19:20:37
+revo: transskribo per <pr>
+
+versio 1.30 2023/09/10 12:37:54
+Wolfram Diestel: ja transskribo
+
+versio 1.28 2023/05/24 13:29:55
+Wolfram Diestel: kor. trd de
+
+versio 1.27 2023/04/12 09:25:52
+Paul Peeraerts: Steloj -> monato.be
+
+versio 1.26 2023/03/09 21:28:37
+Ulrich Fellmann: revui: +4 DE trdj
+
 versio 1.25 2022/11/08 22:33:34
 Vito Redsky: +trd pl + trd ro
 
@@ -271,20 +306,5 @@ versio 1.24 2022/07/12 11:37:17
 Ulrich Fellmann: revuo: translokigo de DE trd al revuo4
 
 versio 1.23 2022/07/11 21:38:10
-Ulrich Fellmann: revuo: +8 pliaj DE trdj
-
-versio 1.22 2022/05/04 19:19:16
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.20 2021/01/21 21:08:05
-Wolfram Diestel: +ekz-oj, ref-oj
-
-versio 1.19 2021/01/04 16:11:05
-Paulo Rodrigo Barros: +trd pt
-
-Revision 1.17  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.16  2011/12/04 23:10:38  revo
 -->
 </vortaro>
