@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxvit.xml,v 1.40 2024/01/03 19:22:00 revo Exp $">
+<art mrk="$Id: sxvit.xml,v 1.43 2024/10/19 13:29:10 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>&scirc;vit</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>&scirc;vit</rad>/i <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="sxvit.0i">
@@ -31,16 +31,26 @@
         </fnt>!
       </ekz>
       <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la ventkoko <klr>[&#8230;]</klr> <tld/>as per verdigro
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Korta koko kaj ventkoko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         pli bone estas <tld/>i ol tremi
         <fnt>
           <bib>PrV</bib>
         </fnt>.
       </ekz>
     </dif>
-   <trd lng="id">ber<ind>keringat</ind></trd>
-   <trd lng="it">sudare</trd>
-   <trd lng="pl">poci&cacute; si&eogonek;</trd>
+    <ref tip="super" cel="sekrec.0i">sekrecii</ref>
+    <trd lng="id">ber<ind>keringat</ind></trd>
+    <trd lng="it">sudare</trd>
+    <trd lng="pl">poci&cacute; si&eogonek;</trd>
   </snc>
+  <!-- tiu uzo ne estas apena&ubreve; konstatebla, se trovi&gcirc;os cita&jcirc;oj ni povus realdoni
   <snc mrk="sxvit.0i.KOMUNE">
     <dif>
       Eligi malrapide kaj gutete flua&jcirc;on el si:
@@ -53,21 +63,21 @@
       <ekz>
         la vundita arbo <tld/>as per rezino.
       </ekz>
-
     </dif>
     <refgrp tip="vid">
       <ref cel="lik.0i">liki</ref>
     </refgrp>
-   <trd lng="de">transpirieren</trd>
-   <trdgrp lng="it">
-    <trd>gocciolare</trd>,
-    <trd>trasudare</trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>potnie&cacute;</trd>,
-    <trd>przesi&aogonek;ka&cacute;</trd>
-  </trdgrp>
+    <trd lng="de">transpirieren</trd>
+    <trdgrp lng="it">
+      <trd>gocciolare</trd>,
+      <trd>trasudare</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>potnie&cacute;</trd>,
+      <trd>przesi&aogonek;ka&cacute;</trd>
+    </trdgrp>
   </snc>
+  -->
   <snc mrk="sxvit.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -136,6 +146,10 @@
     <trd>&c_p;&c_o;&c_k;&c_r;&c_i;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja; &c_p;&c_o;&c_t;&c_o;&c_m;</trd>,
     <trd>&c_p;&c_r;&c_ib;&c_t;&c_i;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#20986;&#27735; <pr>ch&umacron;h&agrave;n</pr></trd>,
+    <trd>&#27969;&#27735; <pr>li&uacute;h&agrave;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxvit.0o">
@@ -198,6 +212,13 @@
     <trd>&c_p;&c_ib;&c_t;</trd>,
     <trd>&c_v;&c_i;&c_p;&c_o;&c_t;&c_i;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#27735; <pr>h&agrave;n</pr></trd>,
+    <trd>&#27735;&#27700; <pr>h&agrave;nshu&#464;</pr></trd>,
+    <trd>&#27941; <pr>j&imacron;n</pr></trd>,
+    <trd>&#27735;&#28173; <pr>h&agrave;nz&igrave;</pr></trd>,
+    <trd>&#27735;&#28460; <pr>h&agrave;nz&igrave;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxvit.0ero">
@@ -231,6 +252,10 @@
   <trd lng="fr">goutte de sueur</trd>
   <trd lng="ja">&#27735;&#12398;&#12375;&#12378;&#12367;  <pr>&#12354;&#12379;&#12398;&#12375;&#12378;&#12367;</pr></trd>
   <trd lng="pl">kropla  <ind>potu</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#27735;&#29664; <pr>h&agrave;nzh&umacron;</pr></trd>,
+    <trd>&#27735;&#31890; <pr>h&agrave;nl&igrave;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxvit.0igxi">
@@ -280,11 +305,41 @@
   </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
+
+<drv mrk="sxvit.el0i">
+  <kap>
+    el<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Eligi <tld/>on a&ubreve; ion similan:
+      <ekz>
+        la domoj el<tld/>is odoron jen muskecan jen iom &scirc;iman
+        <fnt>
+          <bib>ChB</bib>
+          <lok>9</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+      <ref cel="eksud.0i.elsxviti">eksudi<sncref/></ref>,
+      <ref cel="haladz.0i">haladzi</ref>
+    </refgrp>
+  <trd lng="de">ausschwitzen</trd>
+</drv>
+
 </art>
 <!--
 $Log$
+versio 1.43 2024/10/19 13:29:10
+Wolfram Diestel: +ref
+
+versio 1.42 2024/10/19 07:26:12
+Wolfram Diestel: +el~i, forkomentis apartan snc FIG "eligi"
+
 versio 1.40 2024/01/03 19:22:00
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.39 2023/11/14 15:26:17
 David Dichelle: +trd en
@@ -299,9 +354,5 @@ versio 1.35 2022/03/30 16:42:24
 Wolfram Diestel: kor. trd uk
 
 versio 1.33 2021/07/09 07:27:19
-Dmitri Gabinski: + trd be
-
-versio 1.31 2020/05/03 05:10:29
-Eko Nur Syah Hidayat: korekteto
 -->
 </vortaro>

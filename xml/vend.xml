@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vend.xml,v 1.140 2023/12/12 20:10:29 revo Exp $">
+<art mrk="$Id: vend.xml,v 1.143 2024/07/14 18:43:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vend</rad>/i
@@ -86,6 +86,11 @@
   <trd lng="ht">vann</trd>
   <trd lng="hu">elad</trd>
   <trd lng="hy">&#x57E;&#1377;&#1395;&#1377;&#x57C;&#1381;&#x56C;</trd>
+  <trdgrp lng="id">
+    <trd><baz>dagang</baz>mendagangkan</trd>,
+    <trd><baz>dagang</baz>memperdagangkan</trd>,
+    <trd><baz>jual</baz>menjual</trd>
+  </trdgrp>
   <trd lng="ig">ere</trd>
   <trd lng="is">selja</trd>
   <trd lng="ja">&#x58F2;&#x308B; <pr>&#12358;&#x308B;</pr></trd>
@@ -100,7 +105,7 @@
   <trd lng="lat">vende</trd>
   <trd lng="lo">&#xE82;&#xEB2;&#xE8D;</trd>
   <trd lng="lt">parduoti</trd>
-  <trd lng="lv">p&#257;rdot</trd>
+  <trd lng="lv">p&amacron;rdot</trd>
   <trd lng="mg">mivarotra</trd>
   <trd lng="mi">hoko</trd>
   <trd lng="mk">&c_p;&c_r;&c_o;&c_d;&c_a;&c_d;&c_je;</trd>
@@ -114,6 +119,10 @@
   <trd lng="nl">verkopen</trd>
   <trd lng="ny">kugulitsa</trd>
   <trd lng="pa">&#xA35;&#xA47;&#xA1A;&#xA23;</trd>
+  <trdgrp lng="pl">
+    <trd>sprzeda&cacute;</trd>,
+    <trd>zbywa&cacute;</trd>
+  </trdgrp>
   <trd lng="ps">&a_w;&f_p;&a_l;&a_w;&a_r;&a_y;</trd>
   <trd lng="pt">vender</trd>
   <trdgrp lng="ru">
@@ -196,6 +205,7 @@
           <bib>VivZam</bib>
         </fnt>;
         <trd lng="de">Markt</trd>
+        <trd lng="id">pasar</trd>
       </ekz><ekz>
         <ind><tld/>objekto</ind>
         <klr>(vd <ref cel="var.0o">varo</ref>)</klr>
@@ -203,6 +213,7 @@
           <bib>FK</bib>
         </fnt>;
         <trd lng="de">Ware</trd>
+        <trd lng="id"><ind>barang</ind> dagangan</trd>
       </ekz><ekz>
         pro la alta prezo <klr>[&#8230;]</klr> oni ne anta&ubreve;vidas
         grandajn <ind><tld/>oj</ind>n
@@ -226,10 +237,12 @@
     <trd>vente</trd>
   </trdgrp>
   <trd lng="hu">elad&aacute;s</trd>
+  <trd lng="id"><baz>jual</baz>penjualan</trd>
   <trdgrp lng="ja">
     <trd>&#x58F2;&#21364;  <pr>&#12400;&#12356;&#x304D;&#12419;&#x304F;</pr></trd>,
-    <trd>&#x58F2;&#x6E21;&#12375; <pr>&#12358;&#12426;&#12431;&#12383;&#12375;</pr></trd>
+    <trd>&#x58F2;&#x6E21;&#12375; <pr>&#12358;&#x308A;&#x308F;&#x305F;&#12375;</pr></trd>
   </trdgrp>
+  <trd lng="pl">sprzeda&zdot;</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_d;&c_a;&c_zh;&c_a;</trd>
   <trdgrp lng="sk">
     <trd>predaj</trd>,
@@ -237,6 +250,16 @@
   </trdgrp>
   <trd lng="tr">sat&inodot;&scedil;</trd>
   <trd lng="uk">&c_p;&c_r;&c_o;&c_d;&c_a;&c_zh;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x92B7;&#x8DEF; <pr>xi&amacron;ol&#xF9;</pr></trd>,
+    <trd>&#38144;&#x8DEF; <pr>xi&amacron;ol&#xF9;</pr></trd>,
+    <trd>&#x71DF;&#x696D;&#x90E8; <pr>y&#xED;ngy&#xE8;b&#xF9;</pr></trd>,
+    <trd>&#33829;&#x4E1A;&#x90E8; <pr>y&#xED;ngy&#xE8;b&#xF9;</pr></trd>,
+    <trd>&#x92B7;&#x552E;&#x90E8; <pr>xi&amacron;osh&#xF2;ub&#xF9;</pr></trd>,
+    <trd>&#38144;&#x552E;&#x90E8; <pr>xi&amacron;osh&#xF2;ub&#xF9;</pr></trd>,
+    <trd>&#x92B7;&#x552E; <pr>xi&amacron;osh&#xF2;u</pr></trd>,
+    <trd>&#38144;&#x552E; <pr>xi&amacron;osh&#xF2;u</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vend.0ado">
@@ -297,7 +320,15 @@
     <trd>Handel</trd>
   </trdgrp>
   <trd lng="en">selling</trd>
+  <trd lng="id"><baz>jual</baz>penjualan</trd>
   <trd lng="ja">&#x8CA9;&#x58F2;  <pr>&#x306F;&#12435;&#12400;&#12356;</pr></trd>
+  <trd lng="pl">sprzedawanie</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7D93;&#x8CBF; <pr>j&#x12B;ngm&#xE0;o</pr></trd>,
+    <trd>&#x7ECF;&#x8D38; <pr>j&#x12B;ngm&#xE0;o</pr></trd>,
+    <trd>&#x8CBF; <pr>m&#xE0;o</pr></trd>,
+    <trd>&#x8D38; <pr>m&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vend.0ejo">
@@ -407,6 +438,12 @@
     <trd>bolt</trd>
   </trdgrp>
   <trd lng="hy">&#x56D;&#1377;&#1398;&#1400;&#1410;&#1385;</trd>
+  <trdgrp lng="id">
+    <trd>kedai</trd>,
+    <trd>lepau</trd>,
+    <trd>toko</trd>,
+    <trd>warung</trd>
+  </trdgrp>
   <trd lng="ig">&#x1EE5;l&#x1ECD; ah&#x1ECB;a</trd>
   <trd lng="is">b&uacute;&#xF0;</trd>
   <trd lng="ja">&#x30B7;&#x30E7;&#x30C3;&#x30D7;</trd>
@@ -434,6 +471,11 @@
   <trd lng="nl">winkel</trd>
   <trd lng="ny">shopu</trd>
   <trd lng="pa">&#xA26;&#xA41;&#xA15;&#xA3E;&#xA28;</trd>
+  <trdgrp lng="pl">
+    <trd>delikatesy</trd>,
+    <trd>rynek</trd>,
+    <trd>sklep</trd>
+  </trdgrp>
   <trd lng="ps">&a_d;&a_w;&f_k;&a_A;&a_n;</trd>
   <trd lng="pt">loja</trd>
   <trd lng="ru">&c_m;&c_a;&c_g;&c_a;&c_z;&c_i;&c_n;</trd>
@@ -468,7 +510,7 @@ yer)</klr></trd>
   <trd lng="yo">itaja</trd>
   <trdgrp lng="zh">
     <trd>&#x5E97; <pr>di&agrave;n</pr></trd>
-    <trd>&#21830;&#x5E97; <pr>sh&#257;ng di&agrave;n</pr></trd>
+    <trd>&#21830;&#x5E97; <pr>sh&amacron;ng di&agrave;n</pr></trd>
   </trdgrp>
   <trd lng="zu">esitolo</trd>
 </drv>
@@ -559,9 +601,20 @@ yer)</klr></trd>
     <trd>boltos</trd>,
     <trd>&eacute;rt&eacute;kes&iacute;t&odblac;</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>dagang</baz>pedagang</trd>,
+    <trd><baz>jual</baz>penjual</trd>,
+    <trd>vendor</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x5E97;&#x54E1;  <pr>&#12390;&#12435;&#12356;&#12435;</pr></trd>,
     <trd>&#x8CA9;&#x58F2;&#x54E1;  <pr>&#x306F;&#12435;&#12400;&#12356;&#12356;&#12435;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ekspedient</trd>,
+    <trd>ekspedytor</trd>,
+    <trd>sklepikarz</trd>,
+    <trd>sprzedawca</trd>
   </trdgrp>
   <trdgrp lng="pt">
    <trd>vendedor</trd>
@@ -575,6 +628,24 @@ yer)</klr></trd>
   <trdgrp lng="uk">
     <trd>&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_je;&c_c;&c_mol;</trd>,
     <trd>&c_k;&c_r;&c_a;&c_m;&c_a;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21334;&#x5BB6; <pr>m&#xE0;iji&amacron;</pr></trd>,
+    <trd>&#x8CE3;&#x5BB6; <pr>m&#xE0;iji&amacron;</pr></trd>,
+    <trd>&#x63A8;&#x92B7;&#x54E1; <pr>tu&#x12B;xi&amacron;oyu&#xE1;n</pr></trd>,
+    <trd>&#x63A8;&#38144;&#21592; <pr>tu&#x12B;xi&amacron;oyu&#xE1;n</pr></trd>,
+    <trd>&#x71DF;&#x696D;&#x54E1; <pr>y&#xED;ngy&#xE8;yu&#xE1;n</pr></trd>,
+    <trd>&#33829;&#x4E1A;&#21592; <pr>y&#xED;ngy&#xE8;yu&#xE1;n</pr></trd>,
+    <trd>&#21334;&#x4E3B; <pr>m&#xE0;izh&#x1D4;</pr></trd>,
+    <trd>&#x8CE3;&#x4E3B; <pr>m&#xE0;izh&#x1D4;</pr></trd>,
+    <trd>&#x92B7;&#x552E;&#x54E1; <pr>xi&amacron;osh&#xF2;uyu&#xE1;n</pr></trd>,
+    <trd>&#38144;&#x552E;&#21592; <pr>xi&amacron;osh&#xF2;uyu&#xE1;n</pr></trd>,
+    <trd>&#x552E;&#x8CA8;&#x54E1; <pr>sh&#xF2;uhu&#xF2;yu&#xE1;n</pr></trd>,
+    <trd>&#x552E;&#x8D27;&#21592; <pr>sh&#xF2;uhu&#xF2;yu&#xE1;n</pr></trd>,
+    <trd>&#21334;&#x65B9; <pr>m&#xE0;if&amacron;ng</pr></trd>,
+    <trd>&#x8CE3;&#x65B9; <pr>m&#xE0;if&amacron;ng</pr></trd>,
+    <trd>&#x5E97;&#21592; <pr>di&#xE0;nyu&#xE1;n</pr></trd>,
+    <trd>&#x5E97;&#x54E1; <pr>di&#xE0;nyu&#xE1;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -635,9 +706,33 @@ yer)</klr></trd>
     <trd>vegyeskeresked&eacute;s</trd>,
     <trd>vegyesbolt</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>mal</trd>,
+    <trd>pasaraya</trd>,
+    <trd>supermarket</trd>,
+    <trd>toserba</trd>,
+    <trd><ind>toko</ind> serba ada</trd>
+  </trdgrp>
   <trd lng="ja">&#x767E;&#x8CA8;&#x5E97;  <pr>&#12402;&#12419;&#12387;&#x304B;&#12390;&#12435;</pr></trd>
   <trd lng="nl">supermarkt</trd>
+  <trdgrp lng="pl">
+    <trd>bazar</trd>,
+    <trd>kiermasz</trd>,
+    <trd>rynek</trd>
+  </trdgrp>
   <trd lng="ru">&c_u;&c_n;&c_i;&c_v;&c_je;&c_r;&c_m;&c_a;&c_g;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x767E;&#x8CA8;&#x5E97; <pr>b&#x1CE;ihu&#xF2;di&#xE0;n</pr></trd>,
+    <trd>&#x767E;&#x8D27;&#x5E97; <pr>b&#x1CE;ihu&#xF2;di&#xE0;n</pr></trd>,
+    <trd>&#21830;&#x573A; <pr>sh&amacron;ngch&#x1CE;ng</pr></trd>,
+    <trd>&#21830;&#22580; <pr>sh&amacron;ngch&#x1CE;ng</pr></trd>,
+    <trd>&#x767E;&#x8CA8;&#x516C;&#x53F8; <pr>b&#x1CE;ihu&#xF2;g&#x14D;ngs&#x12B;</pr></trd>,
+    <trd>&#x767E;&#x8D27;&#x516C;&#x53F8; <pr>b&#x1CE;ihu&#xF2;g&#x14D;ngs&#x12B;</pr></trd>,
+    <trd>&#x767E;&#x8CA8;&#21830;&#x5E97; <pr>b&#x1CE;ihu&#xF2;sh&amacron;ngdi&#xE0;n</pr></trd>,
+    <trd>&#x767E;&#x8D27;&#21830;&#x5E97; <pr>b&#x1CE;ihu&#xF2;sh&amacron;ngdi&#xE0;n</pr></trd>,
+    <trd>&#x767E;&#x8CA8;&#22823;&#x6A13; <pr>b&#x1CE;ihu&#xF2;d&#xE0;l&#xF3;u</pr></trd>,
+    <trd>&#x767E;&#x8D27;&#22823;&#x697C; <pr>b&#x1CE;ihu&#xF2;d&#xE0;l&#xF3;u</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vend.dis0i">
@@ -716,7 +811,17 @@ yer)</klr></trd>
     <trd>ausverkaufen</trd>
   </trdgrp>
   <trd lng="en">sell off</trd>
+  <trdgrp lng="id">
+    <trd><baz>cuci</baz>mencuci gudang</trd>,
+    <trd><baz>obral</baz>mengobral</trd>
+  </trdgrp>
   <trd lng="ja">&#x58F2;&#x308A;&#12373;&#12400;&#x304F;  <pr>&#12358;&#x308A;&#12373;&#12400;&#x304F;</pr></trd>
+  <trd lng="pl">rozsprzeda&cacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x552E;&#x5B8C; <pr>sh&#xF2;uw&#xE1;n</pr></trd>,
+    <trd>&#21334;&#x5B8C; <pr>m&#xE0;iw&#xE1;n</pr></trd>,
+    <trd>&#x8CE3;&#x5B8C; <pr>m&#xE0;iw&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vend.for0i">
@@ -821,11 +926,16 @@ yer)</klr></trd>
     <trd>ki&aacute;rus&iacute;t</trd>,
     <trd>p&eacute;nzz&eacute; tesz</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>jual</baz>menjual habis</trd>,
+    <trd><baz>cuci</baz>mencuci gudang</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x58F2;&#x308A;&#25173;&#12358;  <pr>&#12358;&#x308A;&#x306F;&#12425;&#12358;</pr></trd>,
     <trd>&#x58F2;&#x308A;&#12392;&#12400;&#12377;  <pr>&#12358;&#x308A;&#12392;&#12400;&#12377;</pr></trd>
   </trdgrp>
   <trd lng="nl">verkopen</trd>
+  <trd lng="pl">wyprzeda&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_d;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_p;&c_r;&c_o;&c_d;&c_a;&c_t;&c_mol;</trd>
@@ -835,6 +945,10 @@ yer)</klr></trd>
   <trdgrp lng="uk">
     <trd>&c_s;&c_p;&c_r;&c_o;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_s;&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21334;&#25481; <pr>m&#xE0;idi&#xE0;o</pr></trd>,
+    <trd>&#x8CE3;&#25481; <pr>m&#xE0;idi&#xE0;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -884,6 +998,7 @@ yer)</klr></trd>
     <trd>&uacute;jra elad</trd>,
     <trd>&uacute;jra &eacute;rt&eacute;kes&iacute;t</trd>
   </trdgrp>
+  <trd lng="id"><baz>jual</baz>menjual kembali</trd>
   <trdgrp lng="ja">
     <trd>&#x8EE2;&#x58F2;&#12377;&#x308B;  <pr>&#12390;&#12435;&#12400;&#12356;&#12377;&#x308B;</pr></trd>,
     <trd>&#x53D6;&#x6B21;&#x8CA9;&#x58F2;&#12377;&#x308B;
@@ -891,6 +1006,10 @@ yer)</klr></trd>
     <trd>&#x58F2;&#x308A;&#x623B;&#12377;  <pr>&#12358;&#x308A;&#12418;&#12393;&#12377;</pr></trd>
   </trdgrp>
   <trd lng="nl">herverkopen</trd>
+  <trdgrp lng="pl">
+    <trd>odprzeda&cacute;</trd>,
+    <trd>odsprzedawa&cacute;</trd>
+  </trdgrp>
   <trd lng="pt">revender</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_p;&c_r;&c_o;&c_d;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">kupova&tcaron; z druhej ruky</trd>
@@ -898,6 +1017,12 @@ yer)</klr></trd>
   <trdgrp lng="uk">
     <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_r;&c_o;&c_d;&c_a;&c_v;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_r;&c_o;&c_d;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8F49;&#x624B; <pr>zhu&#x1CE;nsh&#x1D2;u</pr></trd>,
+    <trd>&#x8F6C;&#x624B; <pr>zhu&#x1CE;nsh&#x1D2;u</pr></trd>,
+    <trd>&#x8F49;&#x8CE3; <pr>zhu&#x1CE;nm&#xE0;i</pr></trd>,
+    <trd>&#x8F6C;&#21334; <pr>zhu&#x1CE;nm&#xE0;i</pr></trd>
   </trdgrp>
 </drv>
 
@@ -950,9 +1075,21 @@ yer)</klr></trd>
   <trd lng="en">supermarket</trd>
   <trd lng="fr">supermarch&eacute;</trd>
   <trd lng="hu">szpermarket</trd>
+  <trd lng="id">supermarket</trd>
   <trd lng="ja">&#x30B9;&#x30FC;&#x30D1;&#x30FC;&#x30DE;&#x30FC;&#x30B1;&#x30C3;&#x30C8;</trd>
   <trd lng="nl">supermarkt</trd>
+  <trdgrp lng="pl">
+    <trd>centrum handlowe</trd>,
+    <trd>supermarket</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_u;&c_p;&c_je;&c_r;&c_m;&c_a;&c_r;&c_k;&c_je;&c_t;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8D85;&#x5E02; <pr>ch&amacron;osh&#xEC;</pr></trd>,
+    <trd>&#x8D85;&#x7D1A;&#x5E02;&#22580; <pr>ch&amacron;oj&#xED;sh&#xEC;ch&#x1CE;ng</pr></trd>,
+    <trd>&#x8D85;&#x7EA7;&#x5E02;&#x573A; <pr>ch&amacron;oj&#xED;sh&#xEC;ch&#x1CE;ng</pr></trd>,
+    <trd>&#x81EA;&#36873;&#21830;&#x573A; <pr>z&#xEC;xu&#x1CE;nsh&amacron;ngch&#x1CE;ng</pr></trd>,
+    <trd>&#x81EA;&#36984;&#21830;&#22580; <pr>z&#xEC;xu&#x1CE;nsh&amacron;ngch&#x1CE;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vend.detal0isto">
@@ -971,10 +1108,28 @@ yer)</klr></trd>
   <trd lng="en">retailer<klr> (n, as opposed to wholesaler)</klr></trd>
   <trd lng="fr">d&eacute;taillant</trd>
   <trd lng="hu">kiskeresked&odblac;</trd>
+  <trdgrp lng="id">
+    <trd><baz>dagang</baz>pedagang eceran</trd>,
+    <trd><baz>ecer</baz>pengecer</trd>,
+    <trd><baz>jual</baz>penjual eceran</trd>,
+    <trd><baz>keteng</baz>pengeteng</trd>
+  </trdgrp>
   <trd lng="nl">kleinhandelaar</trd>
+  <trd lng="pl">detalista</trd>
   <trd lng="ru">&c_r;&c_o;&c_z;&c_n;&c_i;&c_ch;&c_n;&c_y;&c_j;
 &c_t;&c_o;&c_r;&c_g;&c_o;&c_v;&c_je;&c_c;</trd>
   <trd lng="sk">maloobchodn&iacute;k</trd>
+  <trdgrp lng="zh">
+    <trd>&#x96F6;&#x552E;&#21830; <pr>l&#xED;ngsh&#xF2;ush&amacron;ng</pr></trd>,
+    <trd>&#20998;&#x92B7;&#21830; <pr>f&emacron;nxi&amacron;osh&amacron;ng</pr></trd>,
+    <trd>&#20998;&#38144;&#21830; <pr>f&emacron;nxi&amacron;osh&amacron;ng</pr></trd>,
+    <trd>&#x4E2A;&#x4F53;&#21830;&#x5E97; <pr>g&#xE8;t&#x1D0;sh&amacron;ngdi&#xE0;n</pr></trd>,
+    <trd>&#x500B;&#x9AD4;&#21830;&#x5E97; <pr>g&#xE8;t&#x1D0;sh&amacron;ngdi&#xE0;n</pr></trd>,
+    <trd>&#x96F6;&#x552E;&#x8CBF;&#26131;&#x552E;&#x8CA8;&#x54E1;
+    <pr>l&#xED;ngsh&#xF2;um&#xE0;oy&#xEC;sh&#xF2;uhu&#xF2;yu&#xE1;n</pr></trd>,
+    <trd>&#x96F6;&#x552E;&#x8D38;&#26131;&#x552E;&#x8D27;&#21592;
+    <pr>l&#xED;ngsh&#xF2;um&#xE0;oy&#xEC;sh&#xF2;uhu&#xF2;yu&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vend.rabat0i">
@@ -1020,11 +1175,24 @@ yer)</klr></trd>
     <trd>eine <ind>Rabattaktion</ind> durchf&uuml;hren</trd>
   </trdgrp>
   <trd lng="en">sell off</trd>
+  <trdgrp lng="id">
+    <trd><baz>obral</baz>mengobral</trd>,
+    <trd><baz>jual</baz>menjual murah</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sprzedawa&cacute; z rabatem</trd>,
+    <trd>sprzedawa&cacute; z upustem</trd>
+  </trdgrp>
 </drv>
-
 </art>
 <!--
 $Log$
+versio 1.143 2024/07/14 18:43:12
+Vito Redsky: + trd pl
+
+versio 1.141 2024/03/12 15:23:36
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.140 2023/12/12 20:10:29
 revo: kor. lat. transskribo/latvaj literoj
 
@@ -1041,11 +1209,5 @@ versio 1.136 2023/09/10 15:34:10
 revo: korekto de transskribo
 
 versio 1.134 2023/08/29 20:26:36
-Wolfram Diestel: ja: prononco
-
-versio 1.133 2023/06/24 16:34:42
-Wolfram Diestel: +~ado
-
-versio 1.132 2023/06/24 15:27:07
 -->
 </vortaro>

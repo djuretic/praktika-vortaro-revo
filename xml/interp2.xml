@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: interp2.xml,v 1.37 2023/12/22 06:31:30 revo Exp $">
+<art mrk="$Id: interp2.xml,v 1.39 2024/08/26 18:36:09 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>interpret</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>interpret</rad>/i <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="interp2.0i">
   <kap><tld/>i</kap>
@@ -213,6 +213,8 @@
   </trdgrp>
   <trd lng="en"><ofc>1</ofc>interpret</trd>
   <trd lng="fr"><ofc>1</ofc>interpr&eacute;ter</trd>
+  <trd lng="ils"
+  kod="M525x582S2ff00482x483S15d39488x545S20500485x537S2e004504x554S15d41496x537"></trd>
   <trdgrp lng="ja">
     <trd>&#x901A;&#x8A33;&#12377;&#x308B;  <pr>&#12388;&#12358;&#12420;&#x304F;&#12377;&#x308B;</pr></trd>,
     <trd>&#x89E3;&#x91C8;&#12377;&#x308B;  <pr>&#x304B;&#12356;&#12375;&#12419;&#x304F;&#12377;&#x308B;</pr></trd>,
@@ -220,7 +222,13 @@
     <trd>&#x81EA;&#x5DF1;&#x306E;&#x89E3;&#x91C8;&#x306B;&#x57FA;&#12389;&#12356;&#12390;&#x6F14;&#12376;&#x308B;
     <pr>&#12376;&#12371;&#x306E;&#x304B;&#12356;&#12375;&#12419;&#x304F;&#x306B;&#12418;&#12392;&#12389;&#12356;&#12390;&#12360;&#12435;&#12376;&#x308B;</pr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>interpretowa&cacute;</trd>,
+    <trd>t&lstroke;umaczy&cacute; s&lstroke;ownie</trd>
+  </trdgrp>
   <trd lng="pt">interpretar</trd>
+  <trd lng="sgn"
+  kod="M530x518S2ff00483x483S36d00479x498S10e48484x445S10e40501x445S26502515x430S26516470x430S2fb00492x429">v@35-</trd>
   <trdgrp lng="sk">
     <trd>tlmo&ccaron;i&tcaron;</trd>,
     <trd>vylo&zcaron;i&tcaron;</trd>,
@@ -308,6 +316,11 @@
     <trd>&#x8AAC;&#x660E;  <pr>&#x305B;&#12388;&#12417;&#12356;</pr></trd>
   </trdgrp>
   <trd lng="nl">interpretatie</trd>
+  <trdgrp lng="pl">
+    <trd>interpretacja</trd>,
+    <trd>przek&lstroke;ad</trd>,
+    <trd>t&lstroke;umaczenie</trd>
+  </trdgrp>
   <trd lng="pt">interpreta&ccedil;&atilde;o</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_t;&c_je;&c_r;&c_p;&c_r;&c_je;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>,
@@ -372,6 +385,7 @@
   <trd lng="hu">&eacute;rtelmez&odblac; <klr tip="amb">(program)</klr></trd>
   <trd lng="ja">&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30D7;&#x30EA;&#x30BF;</trd>
   <trd lng="nl">interpreter</trd>
+  <trd lng="pl">interpreter<klr>  (program)</klr></trd>
   <trd lng="ru">&c_i;&c_n;&c_t;&c_je;&c_r;&c_p;&c_r;&c_je;&c_t;&c_a;&c_t;&c_o;&c_r;</trd>
   <trdgrp lng="sk">
     <trd>dekod&eacute;r</trd>,
@@ -441,6 +455,11 @@
   <trd lng="hu">tolm&aacute;cs</trd>
   <trd lng="ja">&#x901A;&#x8A33;&#32773;  <pr>&#12388;&#12358;&#12420;&#x304F;&#12375;&#12419;</pr></trd>
   <trd lng="nl">tolk</trd>
+  <trdgrp lng="pl">
+    <trd>interpretator</trd>,
+    <trd>t&lstroke;umacz</trd>,
+    <trd>wykonawca</trd>
+  </trdgrp>
   <trd lng="pt">int&eacute;rprete</trd>
   <trdgrp lng="ru">
     <trd>&c_t;&c_o;&c_l;&c_m;&c_a;&c_ch;</trd>,
@@ -468,6 +487,12 @@
 </art>
 <!--
 $Log$
+versio 1.39 2024/08/26 18:36:09
+Wolfram Diestel: +trd ils, sgn
+
+versio 1.38 2024/03/01 21:22:27
+Vito Redsky: +trd pl
+
 versio 1.37 2023/12/22 06:31:30
 Wolfram Diestel: kor. ref
 
@@ -484,11 +509,5 @@ versio 1.31 2023/04/09 09:23:52
 Paul Peeraerts: &Monato;/
 
 versio 1.30 2023/02/09 18:32:53
-Wolfram Diestel: +kelkaj ekz, sintaksaj korektoj
-
-versio 1.29 2022/07/03 13:36:21
-Sergio Pokrovskij: + ~i.geste, +~i.KOMP
-
-versio 1.28 2022/06/29 16:02:30
 -->
 </vortaro>

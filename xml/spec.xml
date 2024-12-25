@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: spec.xml,v 1.120 2024/01/05 01:35:41 revo Exp $">
+<art mrk="$Id: spec.xml,v 1.123 2024/05/24 20:26:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>spec</rad>/o <fnt><bib>PV</bib></fnt>
@@ -85,7 +85,6 @@
       <trd>&c_r;&c_a;&c_z;&c_n;&c_a;&c_v;&c_ib;&c_d;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
       <trd>&c_p;&c_a;&c_r;&c_o;&c_d;&c_a;</trd>
     </trdgrp>
-    <trd lng="ms">semua jenis</trd>
     <trdgrp lng="ca">
       <trd>tipus</trd>,
       <trd>classe</trd>
@@ -104,6 +103,13 @@
       <trd>ragam</trd>,
       <trd>rupa</trd>,
       <trd>tipe</trd>
+    </trdgrp>
+    <trd lng="ms">semua jenis</trd>
+    <trdgrp lng="pl">
+      <trd>gatunek</trd>,
+      <trd>rodzaj</trd>,
+      <trd>rz&aogonek;d</trd>,
+      <trd>odmiana</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_v;&c_i;&c_d;</trd>,
@@ -312,7 +318,7 @@
   <trd lng="ky">&c_t;&#x4AF;&c_r;</trd>
   <trd lng="lat">quaedam</trd>
   <trd lng="lo">&#xE9B;&#xEB0;&#xEC0;&#xE9E;&#xE94;</trd>
-  <trd lng="lt">nat&#x163B;ra</trd>
+  <trd lng="lt">nat&umacron;ra</trd>
   <trd lng="lv">veids</trd>
   <trd lng="mg">tsara fanahy</trd>
   <trd lng="mi">atawhai</trd>
@@ -326,6 +332,7 @@
   <trd lng="nl">soort</trd>
   <trd lng="ny">mtundu</trd>
   <trd lng="pa">&#xA26;&#xA3F;&#xA06;&#xA32;&#xA42;</trd>
+  <trd lng="pl">gatunek</trd>
   <trd lng="ps">&#1673;&a_w;&a_l;</trd>
   <trd lng="rw">ubwoko</trd>
   <trd lng="sd">&a_q;&a_s;&a_m;</trd>
@@ -345,7 +352,6 @@
   <trd lng="ta">&#xBB5;&#xB95;&#xBC8;&#xBAF;&#xBBE;&#xBA9;</trd>
   <trd lng="te">&#xC30;&#xC15;&#xC02;</trd>
   <trd lng="tg">&c_n;&c_a;&c_v;&c_malmol;</trd>
-
   <trd lng="tl">uri</trd>
   <trd lng="tt">&c_i;&c_g;&c_je;&c_l;&c_je;&c_k;&c_l;&c_je;</trd>
   <trd lng="uk">&c_v;&c_i;&c_d;</trd>
@@ -355,6 +361,21 @@
   <trd lng="xh">uhlobo</trd>
   <trd lng="yi">&mem;&yod;&fnun;</trd>
   <trd lng="yo">iru</trd>
+  <trdgrp lng="zh">
+    <trd>&#26679; <pr>y&#xE0;ng</pr></trd>,
+    <trd>&#x6A23; <pr>y&#xE0;ng</pr></trd>,
+    <trd>&#x79CD; <pr>zh&#x1D2;ng</pr></trd>,
+    <trd>&#x7A2E; <pr>zh&#x1D2;ng</pr></trd>,
+    <trd>&#x54C1;&#x79CD; <pr>p&#x1D0;nzh&#x1D2;ng</pr></trd>,
+    <trd>&#x54C1;&#x7A2E; <pr>p&#x1D0;nzh&#x1D2;ng</pr></trd>,
+    <trd>&#29289;&#x79CD; <pr>w&#xF9;zh&#x1D2;ng</pr></trd>,
+    <trd>&#29289;&#x7A2E; <pr>w&#xF9;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x79CD;&#x7C7B; <pr>zh&#x1D2;ngl&#xE8;i</pr></trd>,
+    <trd>&#x7A2E;&#x985E; <pr>zh&#x1D2;ngl&#xE8;i</pr></trd>,
+    <trd>&#x822C; <pr>b&amacron;n</pr></trd>,
+    <trd>&#x7C7B; <pr>l&#xE8;i</pr></trd>,
+    <trd>&#x985E; <pr>l&#xE8;i</pr></trd>
+  </trdgrp>
   <trd lng="zu">uhlobo</trd>
 </drv>
 
@@ -402,8 +423,22 @@
     <trd>uitzoeken</trd>,
     <trd>sorteren</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sortowa&cacute;</trd>,
+    <trd>uk&lstroke;ada&cacute;</trd>
+  </trdgrp>
   <trd lng="sk">zoradi&tcaron; pod&lcaron;a druhov</trd>
   <trd lng="uk">&c_s;&c_o;&c_r;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62E3;&#36873; <pr>ji&#x1CE;nxu&#x1CE;n</pr></trd>,
+    <trd>&#x63C0;&#36984; <pr>ji&#x1CE;nxu&#x1CE;n</pr></trd>,
+    <trd>&#20998;&#x7C7B;&#25972;&#29702; <pr>f&emacron;nl&#xE8;izh&#x11B;ngl&#x1D0;</pr></trd>,
+    <trd>&#20998;&#x985E;&#25972;&#29702; <pr>f&emacron;nl&#xE8;izh&#x11B;ngl&#x1D0;</pr></trd>,
+    <trd>&#20998;&#x7D1A; <pr>f&emacron;nj&#xED;</pr></trd>,
+    <trd>&#20998;&#x7EA7; <pr>f&emacron;nj&#xED;</pr></trd>,
+    <trd>&#x914D;&#x9F4A; <pr>p&#xE8;iq&#xED;</pr></trd>,
+    <trd>&#x914D;&#x9F50; <pr>p&#xE8;iq&#xED;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spec.ali0a">
@@ -465,11 +500,21 @@
     <trd>&#21029;&#x7A2E;&#x306E;  <pr>&#12409;&#12387;&#12375;&#12421;&#x306E;</pr></trd>
   </trdgrp>
   <trd lng="nl">van een andere <ind>soort</ind></trd>
+  <trdgrp lng="pl">
+    <trd>innego  <ind>gatunku</ind></trd>,
+    <trd>innego  <ind>rodzaju</ind></trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>druh&yacute;</trd>,
     <trd>inak&scaron;&iacute;</trd>,
     <trd>in&yacute;</trd>,
     <trd>onak&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x76F8;&#x5DEE; <pr>xi&amacron;ngch&#xE0;</pr></trd>,
+    <trd>&#x4E0D;&#x540C; <pr>b&#xF9;t&#xF3;ng</pr></trd>,
+    <trd>&#x5F02;&#26679; <pr>y&#xEC;y&#xE0;ng</pr></trd>,
+    <trd>&#30064;&#x6A23; <pr>y&#xEC;y&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -515,7 +560,28 @@
   <trd lng="fr">de bonne <ind>qualit&eacute;</ind></trd>
   <trd lng="hu">j&oacute;fajta</trd>
   <trd lng="nl">van goede <ind>kwaliteit</ind></trd>
+  <trdgrp lng="pl">
+    <trd>dobrego  <ind>gatunku</ind></trd>,
+    <trd>dobrego  <ind>rodzaju</ind></trd>,
+    <trd>dobrej  <ind>jako&sacute;ci</ind></trd>
+  </trdgrp>
   <trd lng="uk">&c_d;&c_o;&c_b;&c_r;&c_o;&c_ja;&c_k;&c_ib;&c_s;&c_n;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4F18;&#x8D28; <pr>y&#x14D;uzh&#xEC;</pr></trd>,
+    <trd>&#x512A;&#x8CEA; <pr>y&#x14D;uzh&#xEC;</pr></trd>,
+    <trd>&#x9AD8;&#x7D1A; <pr>g&amacron;oj&#xED;</pr></trd>,
+    <trd>&#x9AD8;&#x7EA7; <pr>g&amacron;oj&#xED;</pr></trd>,
+    <trd>&#x9AD8;&#x54C1;&#x8CEA; <pr>g&amacron;op&#x1D0;nzh&#xEC;</pr></trd>,
+    <trd>&#x9AD8;&#x54C1;&#x8D28; <pr>g&amacron;op&#x1D0;nzh&#xEC;</pr></trd>,
+    <trd>&#x9AD8;&#x8CEA;&#x91CF; <pr>g&amacron;ozh&#xEC;li&#xE0;ng</pr></trd>,
+    <trd>&#x9AD8;&#x8D28;&#x91CF; <pr>g&amacron;ozh&#xEC;li&#xE0;ng</pr></trd>,
+    <trd>&#x9AD8;&#x54C1;&#x4F4D; <pr>g&amacron;op&#x1D0;nw&#xE8;i</pr></trd>,
+    <trd>&#x9AD8;&#x8CEA; <pr>g&amacron;ozh&#xEC;</pr></trd>,
+    <trd>&#x9AD8;&#x8D28; <pr>g&amacron;ozh&#xEC;</pr></trd>,
+    <trd>&#x9AD8;&#x7CBE; <pr>g&amacron;oj&#x12B;ng</pr></trd>,
+    <trd>&#x9AD8;&#x5C42; <pr>g&amacron;oc&#xE9;ng</pr></trd>,
+    <trd>&#x9AD8;&#x5C64; <pr>g&amacron;oc&#xE9;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spec.cxia0a">
@@ -550,6 +616,24 @@
   </trdgrp>
   <trd lng="ja">&#12354;&#12425;&#12422;&#x308B;&#x7A2E;&#x985E;&#x306E;  <pr>&#12354;&#12425;&#12422;&#x308B;&#12375;&#12421;&#x308B;&#12356;&#x306E;</pr></trd>
   <trd lng="nl">van iedere <ind>soort</ind></trd>
+  <trdgrp lng="pl">
+    <trd>wszelkiego <ind>gatunku</ind></trd>,
+    <trd>wszelkiego <ind>rodzaju</ind></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E94;&#x82B1;&#x516B;&#38272; <pr>w&#x1D4;hu&amacron;b&amacron;m&#xE9;n</pr></trd>,
+    <trd>&#x4E94;&#x82B1;&#x516B;&#x95E8; <pr>w&#x1D4;hu&amacron;b&amacron;m&#xE9;n</pr></trd>,
+    <trd>&#x5F62;&#x5F62;&#33394;&#33394; <pr>x&#xED;ngx&#xED;ngs&#xE8;s&#xE8;</pr></trd>,
+    <trd>&#x79CD;&#x79CD; <pr>zh&#x1D2;ngzh&#x1D2;ng</pr></trd>,
+    <trd>&#x7A2E;&#x7A2E; <pr>zh&#x1D2;ngzh&#x1D2;ng</pr></trd>,
+    <trd>&#21508;&#x5F0F;&#21508;&#26679; <pr>g&#xE8;sh&#xEC;g&#xE8;y&#xE0;ng</pr></trd>,
+    <trd>&#21508;&#x5F0F;&#21508;&#x6A23; <pr>g&#xE8;sh&#xEC;g&#xE8;y&#xE0;ng</pr></trd>,
+    <trd>&#21508;&#33394; <pr>g&#xE8;s&#xE8;</pr></trd>,
+    <trd>&#21508;&#x79CD; <pr>g&#xE8;zh&#x1D2;ng</pr></trd>,
+    <trd>&#21508;&#x7A2E; <pr>g&#xE8;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x4E07;&#x822C; <pr>w&#xE0;nb&amacron;n</pr></trd>,
+    <trd>&#x842C;&#x822C; <pr>w&#xE0;nb&amacron;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spec.hom0o">
@@ -581,10 +665,11 @@
     <trd>genre de personnalit&eacute;</trd>,
     <trd>type de personne</trd>
   </trdgrp>
-<trdgrp lng="id">
-  <trd><baz>tipe</baz> manusia</trd>,
-  <trd><baz>tipe</baz> orang</trd>
-</trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>tipe</baz> manusia</trd>,
+    <trd><baz>tipe</baz> orang</trd>
+  </trdgrp>
+  <trd lng="pl">typ cz&lstroke;owieka</trd>
 </drv>
 
 <drv mrk="spec.mikso0a">
@@ -629,13 +714,21 @@
     <trd><baz>campur</baz>campuran</trd>,
     <trd>bastar</trd>
   </trdgrp>
-  <trd lng="ja">&#x7A2E;&#x985E;&#x306E;&#x6DF7;&#12374;&#12387;&#x305F; 
+  <trd lng="ja">&#x7A2E;&#x985E;&#x306E;&#x6DF7;&#12374;&#12387;&#x305F;
   <pr>&#12375;&#12421;&#x308B;&#12356;&#x306E;&#x307E;&#12374;&#12387;&#x305F;</pr></trd>
   <trdgrp lng="nl">
     <trd>gemengd</trd>,
     <trd>van verschillende <ind>soort</ind></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>mieszanego  <ind>rodzaju</ind></trd>,
+    <trd>mieszanego  <ind>gatunku</ind></trd>
+  </trdgrp>
   <trd lng="sk">zmie&scaron;an&yacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#26434; <pr>z&#xE1;</pr></trd>,
+    <trd>&#x96DC; <pr>z&#xE1;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spec.multe0a">
@@ -701,6 +794,14 @@
   </trdgrp>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_n;&c_y;&c_h; &c_v;&c_i;&c_d;&c_o;&c_v;</trd>
   <trd lng="sk">r&ocirc;zny</trd>
+  <trdgrp lng="zh">
+    <trd>&#x591A;&#26679; <pr>du&#x14D;y&#xE0;ng</pr></trd>,
+    <trd>&#x591A;&#x6A23; <pr>du&#x14D;y&#xE0;ng</pr></trd>,
+    <trd>&#x591A;&#x79CD;&#x591A;&#26679; <pr>du&#x14D;zh&#x1D2;ngdu&#x14D;y&#xE0;ng</pr></trd>,
+    <trd>&#x591A;&#x7A2E;&#x591A;&#x6A23; <pr>du&#x14D;zh&#x1D2;ngdu&#x14D;y&#xE0;ng</pr></trd>,
+    <trd>&#21508;&#x5F0F;&#21508;&#26679; <pr>g&#xE8;sh&#xEC;g&#xE8;y&#xE0;ng</pr></trd>,
+    <trd>&#21508;&#x5F0F;&#21508;&#x6A23; <pr>g&#xE8;sh&#xEC;g&#xE8;y&#xE0;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spec.sam0ulo">
@@ -742,6 +843,7 @@
     <trd><ind>Vertreter</ind> der gleichen Art</trd>
   </trdgrp>
   <trd lng="fr">individu de m&ecirc;me esp&egrave;ce</trd>
+  <trd lng="pl">osoba tego samego rodzaju</trd>
 </drv>
 
 <drv mrk="spec.sia0a">
@@ -800,8 +902,19 @@
     <trd>dergelijk</trd>,
     <trd>in zijn/haar <ind>soort</ind></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>swego  <ind>gatunku</ind></trd>,
+    <trd>swego  <ind>rodzaju</ind></trd>
+  </trdgrp>
   <trd lng="sk">svojho druhu</trd>
   <trd lng="uk">&c_s;&c_v;&c_o;&c_jeu;&c_r;&c_ib;&c_d;&c_n;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#29305;&#x6B8A; <pr>t&#xE8;sh&#x16B;</pr></trd>,
+    <trd>&#x72EC;&#29305; <pr>d&#xFA;t&#xE8;</pr></trd>,
+    <trd>&#29544;&#29305; <pr>d&#xFA;t&#xE8;</pr></trd>,
+    <trd>&#x4E2A;&#x522B; <pr>g&#xE8;bi&#xE9;</pr></trd>,
+    <trd>&#x500B;&#21029; <pr>g&#xE8;bi&#xE9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spec.sub0o">
@@ -844,10 +957,21 @@
   <trd lng="hu">alfaj</trd>
   <trd lng="ja">&#x4E9C;&#x7A2E;  <pr>&#12354;&#12375;&#12421;</pr></trd>
   <trd lng="nl">ondersoort</trd>
+  <trd lng="pl">podgatunek</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_v;&c_i;&c_d;</trd>
   <trdgrp lng="sk">
     <trd>odroda</trd>,
     <trd>poddruh</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E9A;&#x578B; <pr>y&#xE0;x&#xED;ng</pr></trd>,
+    <trd>&#x4E9E;&#x578B; <pr>y&#xE0;x&#xED;ng</pr></trd>,
+    <trd>&#x4E9A;&#x7C7B; <pr>y&#xE0;l&#xE8;i</pr></trd>,
+    <trd>&#x4E9E;&#x985E; <pr>y&#xE0;l&#xE8;i</pr></trd>,
+    <trd>&#x4E9A;&#x5C5E; <pr>y&#xE0;sh&#x1D4;</pr></trd>,
+    <trd>&#x4E9E;&#x5C6C; <pr>y&#xE0;sh&#x1D4;</pr></trd>,
+    <trd>&#x4E9A;&#x79CD; <pr>y&#xE0;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x4E9E;&#x7A2E; <pr>y&#xE0;zh&#x1D2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -866,6 +990,7 @@
     <trd>genus</trd>,
     <trd>marga <klr>(biologi)</klr></trd>
   </trdgrp>
+  <trd lng="pl">rodzaj</trd>
   <trd lng="ru">&c_r;&c_o;&c_d;</trd>
 </drv>
 
@@ -934,6 +1059,7 @@
     <trd>ilyesf&eacute;le</trd>
   </trdgrp>
   <trd lng="ja">&#x305D;&#12358;&#12356;&#12358;&#x7A2E;&#x985E;&#x306E;  <pr>&#x305D;&#12358;&#12356;&#12358;&#12375;&#12421;&#x308B;&#12356;&#x306E;</pr></trd>
+  <trd lng="pl">takiego <ind>rodzaju</ind></trd>
   <trdgrp lng="sk">
     <trd>analogick&yacute;</trd>,
     <trd>podobn&yacute;</trd>,
@@ -943,6 +1069,14 @@
     <trd>&c_t;&c_a;&c_k;&c_o;&c_g;&c_o; &c_r;&c_o;&c_d;&c_u;</trd>,
     <trd>&c_a;&c_n;&c_a;&c_l;&c_o;&c_g;&c_ib;&c_ch;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_ib;&c_b;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6B64;&#x7C7B; <pr>c&#x1D0;l&#xE8;i</pr></trd>,
+    <trd>&#x6B64;&#x985E; <pr>c&#x1D0;l&#xE8;i</pr></trd>,
+    <trd>&#x8FD9;&#x79CD; <pr>zh&#xE8;zh&#x1D2;ng</pr></trd>,
+    <trd>&#36889;&#x7A2E; <pr>zh&#xE8;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x90A3;&#x79CD; <pr>n&#xE0;zh&#x1D2;ng</pr></trd>,
+    <trd>&#x90A3;&#x7A2E; <pr>n&#xE0;zh&#x1D2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -989,14 +1123,27 @@
   <trd lng="hu">sz&oacute;faj</trd>
   <trd lng="id"><ind>kelas</ind> kata</trd>
   <trd lng="ja">&#x54C1;&#x8A5E;  <pr>&#12402;&#12435;&#12375;</pr></trd>
-  <trd lng="ru">&c_r;&c_a;&c_z;&c_r;&c_ja;&c_d;
-  &c_s;&c_l;&c_o;&c_v;</trd>
+  <trdgrp lng="pl">
+    <trd>rodzaj wyrazu</trd>,
+    <trd>cz&eogonek;&sacute;&cacute; mowy</trd>
+  </trdgrp>
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_r;&c_ja;&c_d; &c_s;&c_l;&c_o;&c_v;</trd>
   <trd lng="sk">slovn&yacute; druh</trd>
   <trd lng="uk">&c_ch;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a; &c_m;&c_o;&c_v;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8A5E;&#24615; <pr>c&#xED;x&#xEC;ng</pr></trd>,
+    <trd>&#x8BCD;&#24615; <pr>c&#xED;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.123 2024/05/24 20:26:40
+Vito Redsky: +trd pl
+
+versio 1.122 2024/05/20 11:07:22
+revo: kor. lat. transskribo/latvaj literoj
+
 versio 1.120 2024/01/05 01:35:41
 Eko Nur Syah Hidayat: +trd id
 
@@ -1013,11 +1160,5 @@ versio 1.115 2023/04/23 08:29:32
 Paul Peeraerts: &Steloj -> monato.be
 
 versio 1.114 2023/04/11 18:56:02
-aktualigo Monato-URL
-
-versio 1.113 2022/05/15 07:27:38
-Wolfram Diestel: &ccirc;ia~a..vort~o: +ekz-oj, ref-oj, trd de
-
-versio 1.112 2022/05/14 16:43:45
 -->
 </vortaro>

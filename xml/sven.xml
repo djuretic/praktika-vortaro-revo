@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sven.xml,v 1.32 2023/12/28 22:28:51 revo Exp $">
+<art mrk="$Id: sven.xml,v 1.35 2024/11/18 12:55:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sven</rad>/i
@@ -115,7 +115,12 @@
       <ind>&c_o;&c_b;&c_m;&c_o;&c_r;&c_o;&c_k;</ind></trd>
     </trdgrp>
     <trd lng="sv">svimma</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x53A5; <pr>ju&#xE9;</pr></trd>,
+    <trd>&#26197; <pr>y&#x16B;n</pr></trd>,
+    <trd>&#26248; <pr>y&#x16B;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="sven.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <ref tip="dif" cel="sven.for0i.KOMUNE">for<tld/>i</ref>
@@ -260,7 +265,22 @@
       <trd>&c_p;&c_o;&c_t;&c_je;&c_r;&c_ja;
       &c_s;&c_o;&c_z;&c_n;&c_a;&c_n;&c_i;&c_ja;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#30505;&#26197; <pr>xu&#xE0;ny&#xF9;n</pr></trd>,
+    <trd>&#30505;&#26248; <pr>xu&#xE0;ny&#xF9;n</pr></trd>,
+    <trd>&#x660F;&#20498; <pr>h&#x16B;nd&#x1CE;o</pr></trd>,
+    <trd>&#26197;&#x53A5; <pr>y&#x16B;nju&#xE9;</pr></trd>,
+    <trd>&#26248;&#x53A5; <pr>y&#x16B;nju&#xE9;</pr></trd>,
+    <trd>&#26197;&#20498; <pr>y&#x16B;nd&#x1CE;o</pr></trd>,
+    <trd>&#26248;&#20498; <pr>y&#x16B;nd&#x1CE;o</pr></trd>,
+    <trd>&#22833;&#x53BB;&#x77E5;&#x89BA; <pr>sh&#x12B;q&#xF9;zh&#x12B;ju&#xE9;</pr></trd>,
+    <trd>&#22833;&#x53BB;&#x77E5;&#x89C9; <pr>sh&#x12B;q&#xF9;zh&#x12B;ju&#xE9;</pr></trd>,
+    <trd>&#x660F;&#x53A5; <pr>h&#x16B;nju&#xE9;</pr></trd>,
+    <trd>&#x4E2D;&#30053; <pr>zh&#x14D;ngl&#xFC;&#xE8;</pr></trd>,
+    <trd>&#26197; <pr>y&#x16B;n</pr></trd>,
+    <trd>&#26248; <pr>y&#x16B;n</pr></trd>
+  </trdgrp>
+</snc>
 <!-- ne trovis tian uzon...
     <uzo tip="stl">FIG</uzo>
     <trd lng="be">&c_z;&c_mol;&c_n;&c_ib;&c_k;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
@@ -442,7 +462,11 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_z;&c_mol;&c_n;&c_ib;&c_k;&c_n;&c_u;&c_c;&c_mol;</trd>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_mol;&c_n;&c_ib;&c_k;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_ch;&c_e;&c_z;&c_n;&c_u;&c_c;&c_mol;</trd>,
+    <trd>&c_b;&c_l;&c_ja;&c_d;&c_n;&c_je;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="bg">&c_i;&c_z;&c_ch;&c_je;&c_z;&c_v;&c_a;&c_m;</trd>
   <trdgrp lng="de">
     <trd>verschwinden</trd>,
@@ -479,6 +503,7 @@
     <trd>&c_r;&c_a;&c_s;&c_s;&c_je;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_z;&c_a;&c_m;&c_je;&c_r;&c_je;&c_t;&c_mol; <klr tip="amb">(&c_o; &c_z;&c_v;&c_u;&c_k;&c_je;)</klr></trd>
   </trdgrp>
+  <trd lng="zh">&#x6D88;&#22833; <pr>xi&amacron;osh&#x12B;</pr></trd>
 </drv>
 
 <!-- &ccirc;u vere uzata a&ubreve; francismo? mi ne trovis cita&jcirc;ojn...
@@ -506,8 +531,14 @@
 </art>
 <!--
 $Log$
+versio 1.35 2024/11/18 12:55:33
+Dmitri Gabinski: + trd be
+
+versio 1.34 2024/08/26 09:29:28
+Dmitri Gabinski: + trd be
+
 versio 1.32 2023/12/28 22:28:51
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.31 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -522,11 +553,5 @@ Revision 1.25  2018/06/29 19:10:13  revo
 Wolfram Diestel: ekzoj, germ trd-oj, elkomentis neuzatajn snc/drv
 
 Revision 1.24  2017/09/12 16:10:15  revo
-Jeromo Vasxe: + ~ema
-
-Revision 1.23  2017/01/20 08:10:17  revo
-Lyubomir Vasilev: +trd bg
-
-Revision 1.22  2016/08/22 02:10:20  revo
 -->
 </vortaro>

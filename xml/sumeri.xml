@@ -2,12 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sumeri.xml,v 1.4 2023/11/21 21:25:43 revo Exp $">
+<art mrk="$Id: sumeri.xml,v 1.10 2024/10/31 10:34:34 revo Exp $">
 <kap>
-  <rad>Sumeri</rad>/o
+  <rad>Sumeri</rad>/o,
+  <var><kap><ofc>10</ofc><rad var="r">Sumer</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="sumeri.S0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld var="r"/>o</kap></var></kap>
   <snc mrk="sumeri.S0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">HIS</uzo>
@@ -17,6 +18,16 @@
         la astrologio naski&gcirc;is en <tld/>o
         <fnt><bib>Viki</bib>, <lok>artikolo &leftquot;Okcidenta astrologio&rightquot;,
         2006-03-26</lok></fnt>;
+      </ekz>
+      <ekz>
+        el la regiono de <tld var="r"/>o eliris anka&ubreve; Abrahamo kun sia tribo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ji&rcaron;&iacute; Laube</aut>
+          <vrk><url ref="&Monato;/2003/007734.html"
+              >La rolo de lingvoj &ccirc;e la pensado</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <nom>Han Riner</nom> kaj lia tradukanto Valo pentras kolore al ni la
@@ -30,7 +41,11 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_Sh;&c_u;&c_m;&c_e;&c_r;</trd>
+  <refgrp tip="hom">
+    <ref cel="sum.0ero">sum&middot;er&middot;o</ref>,
+    <ref cel="sumer.0o">sumero (antikvulo)</ref>
+  </refgrp>
+  <trd lng="be">&c_Sh;&c_u;&c_m;&c_e;&c_r; <klr>(&c_r;&c_e;&c_g;&c_ib;&c_jo;&c_n;)</klr></trd>
   <trd lng="de">Sumer</trd>
   <trd lng="en">Sumer</trd>
   <trd lng="es">Sumeria</trd>
@@ -39,17 +54,65 @@
   <trd lng="pl">Sumer</trd>
   <trd lng="ru">&c_Sh;&c_u;&c_m;&c_je;&c_r;</trd>
 </drv>
+
+<drv mrk="sumeri.0ano">
+  <kap>
+    <tld lit="s"/>ano, <var><kap><ofc>10</ofc><tld  lit="s" var="r"/>ano</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Ano de <tld/>o:
+      <ekz>
+        la <tld var="r"/>anoj, &ccirc;inoj, inkaoj kaj la
+        egiptoj &ccirc;iuj havis sian sunan a&ubreve; lunan kalendaron
+        <fnt>
+          <bib>Kon11</bib>
+          <lok>&Ccirc;efartikolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kojnoforma skribo, kiun oni skribis sur argilaj tabeloj kaj kiun uzis &gcirc;is la
+        fino de la unua jarcento de nia erao la <tld var="r"/>anoj, la akadanoj, la
+        asiranoj kaj la babilonanoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Thomas Genty</aut>
+          <vrk><url ref="&Monato;/2014/011245.php"
+              >Emesal: &ccirc;u la plej antikva planlingvo?</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_sh;&c_u;&c_m;&c_e;&c_r; <klr>(&c_n;&c_a;&c_r;&c_o;&c_d;)</klr></trd>
+  <trd lng="de">Sumerer</trd>
+</drv>
+
 </art>
 
 <!--
 $Log$
+versio 1.10 2024/10/31 10:34:34
+Dmitri Gabinski: + trd be
+
+versio 1.9 2024/10/14 19:23:57
+Wolfram Diestel: +ref-hom
+
+versio 1.8 2024/10/12 07:26:17
+Wolfram Diestel: +ref hom
+
+versio 1.7 2024/10/06 13:28:35
+Wolfram Diestel: +~ano
+
+versio 1.6 2024/10/06 11:22:48
+Wolfram Diestel: +ekz
+
+versio 1.5 2024/10/06 11:09:58
+Wolfram Diestel: var Sumero
+
 versio 1.4 2023/11/21 21:25:43
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 Revision 1.2  2011/02/15 18:10:29  revo
-Luiz Portella: kor. ref k mrk
-
-Revision 1.1  2006/06/18 16:33:10  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

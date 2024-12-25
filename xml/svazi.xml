@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: svazi.xml,v 1.20 2023/11/29 01:36:33 revo Exp $">
-<kap>
+<art mrk="$Id: svazi.xml,v 1.23 2024/10/06 13:28:35 revo Exp $">
+<kap><ofc>10</ofc>
   <rad>svazi</rad>/o
 </kap>
 
 <drv mrk="svazi.0o">
   <kap>
-    <tld/>o
+    <ofc>10</ofc><tld/>o
   </kap>
   <snc>
     <dif>
@@ -27,12 +27,31 @@
   </snc>
   <trd lng="be">&c_s;&c_v;&c_a;&c_z;&c_ib;</trd>
   <trd lng="de">Swazi</trd>
-  <trd lng="ja">&#x30B9;&#x30EF;&#x30B8;&#x4EBA;  <pr>&#x30B9;&#x30EF;&#x30B8;&#12376;&#12435;</pr></trd>
+  <trd lng="ja">&#12473;&#12527;&#12472;&#20154;  <pr>&#12473;&#12527;&#12472;&#12376;&#12435;</pr></trd>
   <trd lng="pl">Suazyjczyk</trd>
 </drv>
 
-<drv mrk="svazi.S0lando">
+<drv mrk="svazi.0a">
   <kap>
+    <ofc>10</ofc> <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Rilata al <tld/>oj, ilia lingvo kaj lando:
+      <ekz>
+        la konstitucio de 1993 agnoskas kiel egalajn la lingvojn afrikansan, anglan,
+        congan, cvanan, khosan, ndebelean, pedian, sotan, <tld/>an, vendaan kaj zuluan
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 3 (101)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="svazi.S0lando">
+  <kap><ofc>10</ofc>
     <tld lit="S"/>lando <fnt><bib>RLN</bib></fnt>,
     <var><kap><tld lit="S"/>ujo</kap></var>
   </kap>
@@ -48,7 +67,7 @@
       kaj <ref tip="vid" cel="afrik.SudA0o.GEOG">Sud-Afriko</ref>:
       <ekz>
         la pleja disvasti&gcirc;o de HIV/aidoso en la mondo estis observita en <tld lit="S"/>lando, kun
-        15&#x202F;816 malsani&gcirc;oj je 100&#x202F;000 personoj
+        15&#8239;816 malsani&gcirc;oj je 100&#8239;000 personoj
         <fnt>
           <bib>Monato</bib>
           <aut>Evgeni Georgiev</aut>
@@ -74,6 +93,12 @@
     <trd>Kr&oacute;lestwo <ind>Suazi</ind></trd>
   </trdgrp>
   <trd lng="pt">Suazil&acirc;ndia</trd>
+  <trdgrp lng="zh">
+    <trd>&#21490;&#29926;&#27982;&#20848; <pr>Sh&#464;w&#462;j&igrave;l&aacute;n</pr></trd>,
+    <trd>&#21490;&#29926;&#28639;&#34349; <pr>Sh&#464;w&#462;j&igrave;l&aacute;n</pr></trd>,
+    <trd>&#26031;&#23041;&#22763;&#20848; <pr>s&imacron;w&emacron;ish&igrave;l&aacute;n</pr></trd>,
+    <trd>&#26031;&#23041;&#22763;&#34349; <pr>s&imacron;w&emacron;ish&igrave;l&aacute;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <!-- jen temas pri aparte radiko kaj bezonus aparta artikolon...
@@ -97,8 +122,11 @@
 
 <!--
 $Log$
+versio 1.23 2024/10/06 13:28:35
+Wolfram Diestel: +~a
+
 versio 1.20 2023/11/29 01:36:33
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.19 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -116,8 +144,5 @@ Revision 1.13  2014/06/22 08:10:14  revo
 Damien Brucker: +~io
 
 Revision 1.12  2014/06/19 19:10:09  revo
-Damien Brucker: +~ujo
-
-Revision 1.11  2014/05/15 12:10:42  revo
 -->
 </vortaro>

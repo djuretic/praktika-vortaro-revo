@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vak.xml,v 1.26 2023/10/21 16:50:35 revo Exp $">
+<art mrk="$Id: vak.xml,v 1.28 2024/05/19 11:18:30 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>vak</rad>/i <fnt><bib>PV</bib></fnt>
@@ -12,7 +12,7 @@
   <snc mrk="vak.0i.KOMUNE">
     <uzo tip="klr">(pri loko, ofico ktp)</uzo>
     <dif>
-      Esti ne okupata, esti <ref tip="sin" cel="liber.0a.vaka">libera</ref>, 
+      Esti ne okupata, esti <ref tip="sin" cel="liber.0a.vaka">libera</ref>,
       <ref tip="sin" cel="dispon.0ebla">disponebla</ref>:
       <ekz>
         la apartamento <klr>[&#x2026;]</klr> estos <tld/>anta por la venonta lutempo
@@ -104,6 +104,10 @@
     <trd>vrij zijn</trd>,
     <trd>vacant zijn</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wakowa&cacute;</trd>,
+    <trd>by&cacute; nieobsadzonym</trd>
+  </trdgrp>
   <trd lng="pt">estar vago</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_n;&c_je;
@@ -192,7 +196,8 @@
     <trd>unbesetzt</trd>,
     <trd>vakant</trd>,
     <trd>leer</trd>
-  </trdgrp><trdgrp lng="fr">
+  </trdgrp>
+  <trdgrp lng="fr">
     <trd>inoccup&eacute;</trd>,
     <trd>vacant</trd>
   </trdgrp>
@@ -204,6 +209,10 @@
     <trd>&#x3046;&#x3064;&#x308D;&#x306A;</trd>,
     <trd>&#x307C;&#x3093;&#x3084;&#x308A;&#x3057;&#x305F;</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wakuj&aogonek;cy</trd>,
+    <trd>niezaj&eogonek;ty</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>neobsaden&yacute;</trd>,
     <trd>pr&aacute;zdny</trd>,
@@ -214,10 +223,19 @@
     <trd>&#x43D;&c_je; &c_z;&c_a;&c_j;&#x43D;&#x44F;&c_t;&c_i;&c_j;</trd>,
     <trd>&c_v;&c_ib;&#x43B;&#x44C;&#x43D;&c_i;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7A7A; <pr>k&#xF2;ng</pr></trd>,
+    <trd>&#x9592; <pr>xi&#xE1;n</pr></trd>,
+    <trd>&#x6C92;&#x4EBA;&#x4F4F; <pr>m&#xE9;ir&#xE9;nzh&#xF9;</pr></trd>,
+    <trd>&#x6CA1;&#x4EBA;&#x4F4F; <pr>m&#xE9;ir&#xE9;nzh&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2024/04/11 22:24:58
+Vito Redsky: +trd pl 
+
 versio 1.26 2023/10/21 16:50:35
 revo: transskribo per <pr>
 
@@ -237,8 +255,5 @@ Revision 1.18  2015/01/24 20:10:16  revo
 Jeromo Vasxe: + ~a
 
 Revision 1.17  2012/08/11 17:10:23  revo
-Marc Rausell: + trd ca
-
-Revision 1.16  2008/11/23 19:12:44  revo
 -->
 </vortaro>

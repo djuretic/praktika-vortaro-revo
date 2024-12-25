@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: korido.xml,v 1.41 2023/12/03 09:58:58 revo Exp $">
+<art mrk="$Id: korido.xml,v 1.43 2024/09/16 12:11:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>koridor</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>koridor</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="korido.0o">
   <kap><tld/>o</kap>
@@ -46,6 +46,10 @@
        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 5a</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>corredor</trd>,
+      <trd>passad&iacute;s</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Gang</trd>,
       <trd>Flur</trd>,
@@ -69,8 +73,8 @@
      <trd>gang</trd>
     </trdgrp>
     <trd lng="it">corridoio</trd>
-    <trd lng="pl">korytarz</trd> 
-    <trd lng="pt">corredor</trd>  
+    <trd lng="pl">korytarz</trd>
+    <trd lng="pt">corredor</trd>
     <trdgrp lng="ro">
      <trd>coridor</trd>,
      <trd>culoar</trd>,
@@ -80,7 +84,7 @@
   <snc mrk="korido.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Horizontala pasejo, nelar&gcirc;a longa spacparto,
+      Horizontala <ref tip="super" cel="pas.0ejo">pasejo</ref>, nelar&gcirc;a longa spacparto,
       komunikiganta iojn:
       <ekz>
        okcidente la delikataj sed nudaj deklivoj de Libiaj montoj,
@@ -116,6 +120,7 @@
           </fnt>.
         </ekz>
       </dif>
+      <trd lng="ca">carril</trd>
       <trd lng="de">Fahrspur</trd>
       <trd lng="en">lane</trd>
       <trd lng="es">carril</trd>
@@ -123,9 +128,12 @@
       <trd lng="nl">wegvak</trd>
       <trd lng="pl">pas ruchu</trd>
       <trdgrp lng="ru">
-        <trd>&c_r;&c_ja;&c_d;<klr tip="amb">(&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_mol;&c_n;&c_o;&c_g;&c_o; &c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>,
-        <trd>&c_p;&c_o;&c_l;&c_o;&c_s;&c_a;<klr tip="amb">(&c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
-      </trdgrp>   
+        <trd>&c_r;&c_ja;&c_d;<klr
+        tip="amb">(&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_mol;&c_n;&c_o;&c_g;&c_o;
+        &c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>,
+        <trd>&c_p;&c_o;&c_l;&c_o;&c_s;&c_a;<klr
+        tip="amb">(&c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
+      </trdgrp>
     </subsnc>
     <subsnc mrk="korido.0o.AVI">
      <uzo tip="fak">AVI</uzo>
@@ -139,11 +147,13 @@
           </fnt>.
         </ekz>
      </dif>
+     <trd lng="ca">corredor <klr>aeri</klr></trd>
      <trd lng="en"><klr>air </klr>corridor</trd>
      <trd lng="it">corridoio<klr> (aereo)</klr></trd>
      <trd lng="nl">luchtcorridor</trd>
      <trd lng="pl">korytarz powietrzny</trd>
-     <trd lng="ru">&c_v;&c_o;&c_z;&c_d;&c_u;&c_sh;&c_n;&c_y;&c_j; &c_k;&c_o;&c_r;&c_i;&c_d;&c_o;&c_r;</trd>
+     <trd lng="ru">&c_v;&c_o;&c_z;&c_d;&c_u;&c_sh;&c_n;&c_y;&c_j;
+     &c_k;&c_o;&c_r;&c_i;&c_d;&c_o;&c_r;</trd>
     </subsnc>
     <subsnc mrk="korido.0o.EKOL">
       <uzo tip="fak">EKOL</uzo>
@@ -151,21 +161,22 @@
        Strio de tero, liganta naturterenojn, kiun bezonas sova&gcirc;aj
        vegeta&jcirc;oj kaj bestoj por disvasti&gcirc;i.
       </dif>
+      <trd lng="ca">corredor ecol&ograve;gic</trd>
       <trd lng="de">Wildtierkorridor</trd>
         <trd lng="en">wildlife corridor</trd>
       <trd lng="hu">&eacute;l&odblac;folyos&oacute;</trd>
-      <trd lng="it">corridoio</trd>  
+      <trd lng="it">corridoio</trd>
       <trd lng="nl">corridor</trd>
     </subsnc>
     <subsnc mrk="korido.0o.POL">
       <uzo tip="fak">POL</uzo>
       <dif>
-       Strio de teritorio, kiu trairas la teritorion de
+       Strio de <ref tip="super" cel="terito.0o">teritorio</ref>, kiu trairas la teritorion de
        alia &scirc;tato, ordinare por ebligi trairon al la maro:
         <ekz>
           <nom>Rail Baltica</nom> estas parto de la internacia transporta <tld/>o <nom>North
-          Sea-Baltic</nom>, 
-          kiu kunligos la landojn de Benelukso, Germanion, Pollandon kaj Litovion, kaj 
+          Sea-Baltic</nom>,
+          kiu kunligos la landojn de Benelukso, Germanion, Pollandon kaj Litovion, kaj
           sekve Latvion, Estonion kaj Finnlandon
           <fnt>
             <bib>Monato</bib>
@@ -174,7 +185,7 @@
           </fnt>;
         </ekz>
         <ekz>
-          en 2003 la tiamaj registaroj de la du landoj atingis interkonsenton pri 
+          en 2003 la tiamaj registaroj de la du landoj atingis interkonsenton pri
           mar<tld/>o (interkonsento <nom>Drnov&scaron;ek&ndash;Ra&ccaron;an</nom>)
           <fnt>
             <bib>Monato</bib>
@@ -183,6 +194,7 @@
           </fnt>.
         </ekz>
       </dif>
+      <trd lng="ca">corredor</trd>
       <trd lng="en">corridor</trd>
       <trd lng="de">Korridor</trd>
       <trd lng="es">corredor</trd>
@@ -274,11 +286,11 @@
   </trdgrp>
   <trd lng="fr">couloir</trd>
   <trdgrp lng="ja">
-    <trd>&#x5ECA;&#x4E0B;  <pr>&#x308D;&#x3046;&#x304B;</pr></trd>,
-    <trd>&#x901A;&#x5ECA;  <pr>&#x3064;&#x3046;&#x5ECA;</pr></trd>,
-    <trd>&#x56DE;&#x5ECA;  <pr>&#x304B;&#x3044;&#x308D;&#x3046;</pr></trd>,
-    <trd>&#x56DE;&#x5ECA;&#x5730;&#x5E2F;  <pr>&#x304B;&#x3044;&#x308D;&#x3046;&#x3061;&#x305F;&#x3044;</pr></trd>,
-    <trd>&#x8ECA;&#x7DDA;  <pr>&#x3057;&#x3083;&#x305B;&#x3093;</pr></trd>
+    <trd>&#24266;&#19979; <pr>&#12429;&#12358;&#12363;</pr></trd>,
+    <trd>&#36890;&#24266; <pr>&#12388;&#12358;&#12429;&#12358;</pr></trd>,
+    <trd>&#22238;&#24266; <pr>&#12363;&#12356;&#12429;&#12358;</pr></trd>,
+    <trd>&#22238;&#24266;&#22320;&#24111; <pr>&#12363;&#12356;&#12429;&#12358;&#12385;&#12383;&#12356;</pr></trd>,
+    <trd>&#36554;&#32218; <pr>&#12375;&#12419;&#12379;&#12435;</pr></trd>
   </trdgrp>
   <trdgrp lng="sk">
     <trd>chodba</trd>,
@@ -286,10 +298,10 @@
     <trd>&uacute;zemn&yacute; p&aacute;s</trd>
   </trdgrp>
   <trdgrp lng="zh">
-    <trd>&#x752C;&#x9053; <pr>y&#x1D2;ngd&#xE0;o</pr></trd>,
-    <trd>&#x8D70;&#x5ECA; <pr>z&#x1D2;ul&#xE1;ng</pr></trd>,
-    <trd>&#x901A;&#x9053; <pr>t&#x14D;ngd&#xE0;o</pr></trd>,
-    <trd>&#x8FC7;&#x9053; <pr>gu&#xF2;d&#xE0;o</pr></trd>
+    <trd>&#29996;&#36947; <pr>y&#466;ngd&agrave;o</pr></trd>,
+    <trd>&#36208;&#24266; <pr>z&#466;ul&aacute;ng</pr></trd>,
+    <trd>&#36890;&#36947; <pr>t&omacron;ngd&agrave;o</pr></trd>,
+    <trd>&#36807;&#36947; <pr>gu&ograve;d&agrave;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -303,7 +315,7 @@
       Mallar&gcirc;a kaj malalta longa parto da aerspaco, disponigita al avio
       por flugi al &gcirc;ia celloko:
       <ekz>
-        ili krome decidis flugi la&ubreve;longe de la federacia flug<tld/>o 
+        ili krome decidis flugi la&ubreve;longe de la federacia flug<tld/>o
         &leftquot;<nom>Victor 23</nom>&rightquot;
         <fnt>
           <bib>Viki</bib>,
@@ -312,7 +324,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        kontra&ubreve;e al la surteraj vojoj al Berlino, ekzistis kontrakto pri la aer<tld/>oj 
+        kontra&ubreve;e al la surteraj vojoj al Berlino, ekzistis kontrakto pri la aer<tld/>oj
         de Berlino, kiu garantiis al la aliancanoj ties liberan uzon
         <fnt>
           <bib>Viki</bib>
@@ -322,6 +334,7 @@
     </dif>
     <trd lng="de">Luftkorridor</trd>
   </snc>
+  <trd lng="ca">corredor aeri</trd>
   <trdgrp lng="fr">
     <trd>couloir a&eacute;rien</trd>,
     <trd>voie a&eacute;rienne</trd>
@@ -343,7 +356,8 @@
         kaj trenis lin sur trotuaro direkte al la hejmo
         <fnt>
           <aut>J. Ha&scaron;ek, trad. V. V&aacute;&ncaron;a</aut>,
-          <vrk><url ref="http://i-espero.info/files/elibroj/eo%20-%20hasek,%20jaroslav%20-%20la%20brava%20soldato%20svejk%201.pdf">
+          <vrk><url
+          ref="http://i-espero.info/files/elibroj/eo%20-%20hasek,%20jaroslav%20-%20la%20brava%20soldato%20svejk%201.pdf">
           La brava soldato &Scirc;vejk</url></vrk>,
           <lok>2001</lok>
         </fnt>.
@@ -352,11 +366,12 @@
     <trd lng="de">Fahrspur</trd>
     <trd lng="en">lane</trd>
     <trdgrp lng="zh">
-    <trd>&#x5C0F;&#x8DEF; <pr>xi&#x1CE;ol&#xF9;</pr></trd>,
-    <trd>&#x5DF7; <pr>xi&#xE0;ng</pr></trd>,
-    <trd>&#x884C;&#x8ECA;&#x8ECC;&#x8DE1; <pr>x&#xED;ngch&#x113;gu&#x1D0;j&#xEC;</pr></trd>
+    <trd>&#23567;&#36335; <pr>xi&#462;ol&ugrave;</pr></trd>,
+    <trd>&#24055; <pr>xi&agrave;ng</pr></trd>,
+    <trd>&#34892;&#36554;&#36556;&#36321; <pr>x&iacute;ngch&emacron;gu&#464;j&igrave;</pr></trd>
   </trdgrp>
 </snc>
+  <trd lng="ca">carril</trd>
   <trd lng="cs">pr&uring;jezd</trd>
   <trd lng="fr">voie<klr> (partie de chauss&eacute;e)</klr></trd>
   <trd lng="pl">pas <ind>ruchu</ind></trd>
@@ -365,6 +380,12 @@
 </art>
 <!--
 $Log$
+versio 1.43 2024/09/16 12:11:17
+Hector Alos i Font: +trd ca
+
+versio 1.42 2024/08/18 12:44:52
+Wolfram Diestel: fnt JED, +ref, ja pr
+
 versio 1.40 2023/10/18 17:23:25
 revo: transskribo per <pr>
 
@@ -381,11 +402,5 @@ Revision 1.34  2017/11/16 21:10:14  revo
 Wolfram Diestel: prilaboris ekz-ojn, + germ trd-oj
 
 Revision 1.33  2016/02/27 21:10:17  revo
-Alain Gerard: +trd fr
-
-Revision 1.32  2015/07/04 08:37:38  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.31  2015/06/29 16:33:18  revo
 -->
 </vortaro>

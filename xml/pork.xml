@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pork.xml,v 1.41 2023/10/20 16:38:17 revo Exp $">
+<art mrk="$Id: pork.xml,v 1.44 2024/08/30 09:30:07 revo Exp $">
   <kap>
     <ofc>*</ofc>
     <rad>pork</rad>/o
@@ -32,7 +32,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        sur la &scirc;ranko staris la &scirc;parmonujo, kiu <klr>[&#x2026;]</klr> havis la formon de
+        sur la &scirc;ranko staris la &scirc;parmonujo, kiu <klr>[&#8230;]</klr> havis la formon de
         <tld/>o
         <fnt>
           <bib>Fab3</bib>
@@ -151,6 +151,11 @@
     <trd>o&scaron;&iacute;pan&aacute;</trd>,
     <trd>prasa</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x732A; <pr>zh&#x16B;</pr></trd>,
+    <trd>&#x8C6C; <pr>zh&#x16B;</pr></trd>,
+    <trd>&#x8C68; <pr>x&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pork.0ajxo">
@@ -191,6 +196,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_s;&c_mol;&c_v;&c_ib;&c_n;&c_ib;&c_n;&c_a;</trd>
     <trd lng="bo">&t_pha;&t_ga;&t_tsheg;&t_sha;&t_tsheg;</trd>
     <trd lng="ca">carn de porc</trd>
     <trd lng="de">Schweinefleisch</trd>
@@ -201,14 +207,20 @@
       <trd>embutido</trd>
     </trdgrp>
     <trd lng="fr">porc<klr> (viande)</klr></trd>
+    <trd lng="id"><ind>daging</ind> babi</trd>
     <trd lng="pl">wieprzowina</trd>
     <trdgrp lng="uk">
       <trd>&c_s;&c_v;&c_i;&c_n;&c_i;&c_n;&c_a;</trd>,
-      <trd>&c_s;&c_v;&c_i;&c_n;&c_ja;&c_ch;&c_je; &c_m;&#x2019;&c_ja;&c_s;&c_o;</trd>,
+      <trd>&c_s;&c_v;&c_i;&c_n;&c_ja;&c_ch;&c_je; &c_m;&#8217;&c_ja;&c_s;&c_o;</trd>,
       <trd>&c_s;&c_v;&c_i;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
     </trdgrp>
     <trd lng="vo">svinamit</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x732A;&#32905; <pr>zh&#x16B;r&#xF2;u</pr></trd>,
+    <trd>&#x8C6C;&#32905; <pr>zh&#x16B;r&#xF2;u</pr></trd>,
+    <trd>&#22823;&#32905; <pr>d&#xE0;r&#xF2;u</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="pork.0ajxo.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -231,6 +243,10 @@
         </fnt>!
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_mol;&c_v;&c_ib;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>,
+      <trd>&c_b;&c_r;&c_y;&c_d;&c_o;&c_t;&c_a;</trd>
+    </trdgrp>
     <trd lng="de">Schweinerei</trd>
     <trdgrp lng="es">
       <trd>marranada</trd>,
@@ -239,9 +255,9 @@
     </trdgrp>
   </snc>
   <trdgrp lng="ja">
-    <trd>&#x8C5A;&#x8089;  <pr>&#x3076;&#x305F;&#x306B;&#x304F;</pr></trd>,
-    <trd>&#x8C5A;&#x8089;&#x6599;&#x7406;  <pr>&#x3076;&#x305F;&#x306B;&#x304F;&#x308A;&#x3087;&#x3046;&#x308A;</pr></trd>,
-    <trd>&#x8C5A;&#x8089;&#x88FD;&#x54C1;  <pr>&#x3076;&#x305F;&#x306B;&#x304F;&#x305B;&#x3044;&#x3072;&#x3093;</pr></trd>
+    <trd>&#x8C5A;&#32905;  <pr>&#12406;&#x305F;&#x306B;&#x304F;</pr></trd>,
+    <trd>&#x8C5A;&#32905;&#26009;&#29702;  <pr>&#12406;&#x305F;&#x306B;&#x304F;&#x308A;&#12423;&#12358;&#x308A;</pr></trd>,
+    <trd>&#x8C5A;&#32905;&#x88FD;&#x54C1;  <pr>&#12406;&#x305F;&#x306B;&#x304F;&#x305B;&#12356;&#12402;&#12435;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -262,6 +278,7 @@
     </dif>
     <ref tip="super" cel="greg.0o.ZOO">grego</ref>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_v;&c_ib;&c_n;&c_y; &c_s;&c_t;&c_a;&c_t;&c_a;&c_k;</trd>
   <trdgrp lng="de">
     <trd>Schweineherde</trd>,
     <trd>Rotte <klr>(Schweine)</klr></trd>
@@ -299,11 +316,20 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_v;&c_ib;&c_n;&c_a;&c_r;&c_n;&c_ib;&c_k;</trd>
   <trd lng="de">Schweinestall</trd>
   <trd lng="es">pocilga</trd>
+  <trd lng="id"><ind>kandang</ind> babi</trd>
   <trdgrp lng="ja">
-    <trd>&#x8C5A;&#x5C0F;&#x5C4B;  <pr>&#x3076;&#x305F;&#x3054;&#x3084;</pr></trd>,
-    <trd>&#x990A;&#x8C5A;&#x5834;  <pr>&#x3088;&#x3046;&#x3068;&#x3093;&#x3058;&#x3087;&#x3046;</pr></trd>
+    <trd>&#x8C5A;&#x5C0F;&#x5C4B;  <pr>&#12406;&#x305F;&#12372;&#12420;</pr></trd>,
+    <trd>&#x990A;&#x8C5A;&#22580;  <pr>&#12424;&#12358;&#12392;&#12435;&#12376;&#12423;&#12358;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x732A;&#x820D; <pr>zh&#x16B;sh&#xE8;</pr></trd>,
+    <trd>&#x8C6C;&#x820D; <pr>zh&#x16B;sh&#xE8;</pr></trd>,
+    <trd>&#22274; <pr>h&#xF9;n</pr></trd>,
+    <trd>&#x570A; <pr>q&#x12B;ng</pr></trd>,
+    <trd>&#x82D9; <pr>l&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -316,7 +342,7 @@
     <dif>
       Inseksa <tld/>o:
       <ekz>
-        <tld/>ino lavita <klr>[&#x2026;]</klr> en koto
+        <tld/>ino lavita <klr>[&#8230;]</klr> en koto
         <fnt>
           <bib>NT</bib>
           <lok>II. Petro 2:22</lok>
@@ -339,6 +365,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_v;&c_ib;&c_n;&c_ja; <klr>(&c_s;&c_a;&c_m;&c_ib;&c_c;&c_a;)</klr></trd>
   <trd lng="ca">truja</trd>
   <trdgrp lng="de">
     <trd>Sau</trd>,
@@ -352,6 +379,7 @@
     <trd>cochina</trd>
   </trdgrp>
   <trd lng="fr">truie</trd>
+  <trd lng="id"><ind>babi</ind> betina</trd>
   <trd lng="io">porkino</trd>
   <trdgrp lng="pl">
     <trd>locha</trd>,
@@ -362,6 +390,10 @@
   <trd>&c_s;&c_v;&c_i;&c_n;&c_ja;-&c_s;&c_a;&c_m;&c_i;&c_c;&c_ja;</trd>
   </trdgrp>
   <trd lng="vo">jisvin</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6BCD;&#x732A; <pr>m&#x1D4;zh&#x16B;</pr></trd>,
+    <trd>&#x6BCD;&#x8C6C; <pr>m&#x1D4;zh&#x16B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pork.0ido">
@@ -385,18 +417,23 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Werner Schad</aut>
-          <vrk><url ref="http://steloj.de/esperanto/monato2/006868.html">Venezuelo: Inter maro kaj arbarego</url></vrk>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006868.html">Venezuelo: Inter maro kaj
+          arbarego</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         la &ccirc;efpremio estis bakita <tld/>ido
         <fnt>
           <bib>LOdE</bib>
-          <lok>2001, &#x2116;2</lok>
+          <lok>2001, &#8470;2</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_a;&c_r;&c_a;&c_s;&c_ja;</trd>,
+      <trd>&c_p;&c_a;&c_r;&c_a;&c_s;&c_jo;</trd>
+    </trdgrp>
     <trdgrp lng="ca">
       <trd>porcell</trd>,
       <trd>garr&iacute;</trd>
@@ -411,12 +448,18 @@
       <trd>cerdito</trd>
     </trdgrp>
     <trd lng="fr">porcelet</trd>
-    <trd lng="ja">&#x5B50;&#x8C5A;  <pr>&#x3053;&#x3076;&#x305F;</pr></trd>
+    <trd lng="id"><ind>anak</ind> babi</trd>
+    <trd lng="ja">&#x5B50;&#x8C5A;  <pr>&#12371;&#12406;&#x305F;</pr></trd>
   <trdgrp lng="pl">
       <trd>warchlak</trd>
       <trd>prosi&eogonek;</trd>
     </trdgrp>
     <trd lng="uk">&c_p;&c_o;&c_r;&c_o;&c_s;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4ED4;&#x732A; <pr>z&#x1D0;zh&#x16B;</pr></trd>,
+    <trd>&#x4ED4;&#x8C6C; <pr>z&#x1D0;zh&#x16B;</pr></trd>,
+    <trd>&#x8C5A; <pr>t&#xFA;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pork.vir0o">
@@ -445,6 +488,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_b;&c_a;&c_n;</trd>,
+    <trd>&c_p;&c_a;&c_r;&c_s;&c_ju;&c_k;</trd>,
+    <trd>&c_v;&c_ja;&c_p;&c_r;&c_u;&c_k;</trd>
+  </trdgrp>
   <trd lng="ca">verro</trd>
   <trdgrp lng="de">
     <trd>Eber</trd>,
@@ -453,6 +501,7 @@
   <trd lng="en">boar</trd>
   <trd lng="es">verraco</trd>
   <trd lng="fr">verrat</trd>
+  <trd lng="id"><ind>babi</ind> jantan</trd>
   <trd lng="io">porkulo</trd>
   <trdgrp lng="pl">
     <trd>knur <klr>(rozp&lstroke;odowy)</klr></trd>,
@@ -460,11 +509,22 @@
   </trdgrp>
   <trd lng="uk">&c_k;&c_n;&c_u;&c_r;</trd>
 <trd lng="vo">hisvin</trd>
+  <trdgrp lng="zh">
+    <trd>&#x516C;&#x732A; <pr>g&#x14D;ngzh&#x16B;</pr></trd>,
+    <trd>&#x516C;&#x8C6C; <pr>g&#x14D;ngzh&#x16B;</pr></trd>,
+    <trd>&#x8C6D; <pr>ji&amacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.44 2024/08/30 09:30:07
+Dmitri Gabinski: + trd be
+
+versio 1.43 2024/05/03 10:27:11
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.41 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
@@ -481,11 +541,5 @@ versio 1.34 2021/01/03 08:10:34
 Aleks Andre: +trd bo, fr
 
 Revision 1.32  2015/10/24 17:10:16  revo
-Cindy Moon McKee: +trd en
-
-Revision 1.31  2015/09/02 19:10:15  revo
-Agustin Garcia Lopez: +trd(es)
-
-Revision 1.30  2015/08/21 12:10:27  revo
 -->
 </vortaro>

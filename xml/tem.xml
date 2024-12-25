@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: tem.xml,v 1.117 2023/12/12 20:10:29 revo Exp $">
+<art mrk="$Id: tem.xml,v 1.119 2024/05/26 01:42:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tem</rad>/o
@@ -256,7 +256,7 @@
   <trd lng="lat">materia</trd>
   <trd lng="lo">&#xEC0;&#xEA5;&#xEB7;&#xEC8;&#xEAD;&#xE87;</trd>
   <trd lng="lt">nesvarbu</trd>
-  <trd lng="lv">jaut&#257;jums</trd>
+  <trd lng="lv">jaut&amacron;jums</trd>
   <trd lng="mg">zavatra</trd>
   <trd lng="mi">mea</trd>
   <trd lng="mk">&#x43F;&c_r;&c_a;&c_sh;&c_a;&#x45A;&c_je;</trd>
@@ -309,6 +309,23 @@
   <trd lng="xh">umcimbi</trd>
   <trd lng="yi">&#x5E2;&#x5E0;&#x5D9;&#x5DF;</trd>
   <trd lng="yo">&#x1ECD;r&#x1ECD;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E3B;&#x984C; <pr>zh&#x1D4;t&#xED;</pr></trd>,
+    <trd>&#x4E3B;&#39064; <pr>zh&#x1D4;t&#xED;</pr></trd>,
+    <trd>&#x984C;&#x76EE; <pr>t&#xED;m&#xF9;</pr></trd>,
+    <trd>&#39064;&#x76EE; <pr>t&#xED;m&#xF9;</pr></trd>,
+    <trd>&#x8B70;&#x984C; <pr>y&#xEC;t&#xED;</pr></trd>,
+    <trd>&#x8BAE;&#39064; <pr>y&#xEC;t&#xED;</pr></trd>,
+    <trd>&#x4E8B;&#30001; <pr>sh&#xEC;y&#xF3;u</pr></trd>,
+    <trd>&#x5B66;&#x79D1; <pr>xu&#xE9;k&emacron;</pr></trd>,
+    <trd>&#x5B78;&#x79D1; <pr>xu&#xE9;k&emacron;</pr></trd>,
+    <trd>&#x8AB2;&#x984C; <pr>k&#xE8;t&#xED;</pr></trd>,
+    <trd>&#x8BFE;&#39064; <pr>k&#xE8;t&#xED;</pr></trd>,
+    <trd>&#20851;&#x4E8E; <pr>gu&amacron;ny&#xFA;</pr></trd>,
+    <trd>&#x95DC;&#x65BC; <pr>gu&amacron;ny&#xFA;</pr></trd>,
+    <trd>&#x6BCD;&#x984C; <pr>m&#x1D4;t&#xED;</pr></trd>,
+    <trd>&#x6BCD;&#39064; <pr>m&#x1D4;t&#xED;</pr></trd>
+  </trdgrp>
   <trd lng="zu">udaba</trd>
 </drv>
 
@@ -435,7 +452,7 @@
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#xFF5E;<ind>&#12434;&#x4E3B;&#x984C;&#12392;&#12375;&#12390;&#12356;&#x308B;  </ind><pr>&#12434;&#12375;&#12421;&#12384;&#12356;&#12392;&#12375;&#12390;&#12356;&#x308B;</pr></trd>,
-    <trd>&#x554F;&#x984C;&#x306F;&#xFF5E;&#12391;&#12354;&#x308B; 
+    <trd>&#x554F;&#x984C;&#x306F;&#xFF5E;&#12391;&#12354;&#x308B;
     <pr>&#12418;&#12435;&#12384;&#12356;&#x306F;&#xFF5E;&#12391;&#12354;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
@@ -502,7 +519,13 @@
       <trd>Themenkomplex</trd>,
       <trd>Thematik</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E3B;&#x984C; <pr>zh&#x1D4;t&#xED;</pr></trd>,
+    <trd>&#x4E3B;&#39064; <pr>zh&#x1D4;t&#xED;</pr></trd>,
+    <trd>&#x8B70;&#x984C; <pr>y&#xEC;t&#xED;</pr></trd>,
+    <trd>&#x8BAE;&#39064; <pr>y&#xEC;t&#xED;</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="be">&c_t;&c_e;&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;</trd>
   <trdgrp lng="cs">
     <trd>soubor n&aacute;m&ecaron;t&uring;</trd>,
@@ -577,7 +600,7 @@
     <trd>inadapt&eacute;<klr tip="amb"> (hors sujet)</klr></trd>
   </trdgrp>
   <trd lng="id"><ind>keluar</ind> topik</trd>
-  <trd lng="ja">&#x672C;&#x984C;&#12434;&#22806;&#x308C;&#x305F; 
+  <trd lng="ja">&#x672C;&#x984C;&#12434;&#22806;&#x308C;&#x305F;
   <pr>&#x307B;&#12435;&#12384;&#12356;&#12434;&#x306F;&#x305A;&#x308C;&#x305F;</pr></trd>
   <trdgrp lng="nl">
     <trd>buiten het thema</trd>,
@@ -594,6 +617,10 @@
     <trd>&#x44F;&#x43A;&c_i;&c_j; &#x43D;&c_je; &c_s;&c_t;&#x43E;&c_s;&c_u;&c_jeu;&c_t;&#x44C;&c_s;&#x44F; &c_t;&c_je;&#x43C;&c_i;</trd>,
     <trd>&#x43D;&c_je; &c_z;&c_a; &c_t;&c_je;&#x43C;&#x43E;&#x44E;</trd>,
     <trd>&#x43F;&#x43E;&c_z;&c_a; &c_t;&c_je;&#x43C;&#x43E;&#x44E;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x65E0;&#20851;&#x5B8F;&#x65E8; <pr>w&#xFA;gu&amacron;nh&#xF3;ngzh&#x1D0;</pr></trd>,
+    <trd>&#28961;&#x95DC;&#x5B8F;&#x65E8; <pr>w&#xFA;gu&amacron;nh&#xF3;ngzh&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -653,6 +680,16 @@
   </trdgrp>
   <trd lng="id">ber<ind>tema</ind>kan</trd>
   <trd lng="nl">betreffen</trd>
+  <trd lng="pl">mie&cacute; za <ind>temat</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E8B;&#20851; <pr>sh&#xEC;gu&amacron;n</pr></trd>,
+    <trd>&#x4E8B;&#x95DC; <pr>sh&#xEC;gu&amacron;n</pr></trd>,
+    <trd>&#26377;&#20851; <pr>y&#x1D2;ugu&amacron;n</pr></trd>,
+    <trd>&#26377;&#x95DC; <pr>y&#x1D2;ugu&amacron;n</pr></trd>,
+    <trd>&#x6D89;&#x53CA; <pr>sh&#xE8;j&#xED;</pr></trd>,
+    <trd>&#20851;&#x7CFB; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#x95DC;&#x4FC2; <pr>gu&amacron;nxi</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tem.0o_kun_variajxoj">
@@ -703,6 +740,9 @@
 </art>
 <!--
 $Log$
+versio 1.119 2024/05/26 01:42:30
+Vito Redsky: +trd pl
+
 versio 1.117 2023/12/12 20:10:29
 revo: kor. lat. transskribo/latvaj literoj
 
@@ -722,8 +762,5 @@ versio 1.111 2022/05/05 17:08:11
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.109 2021/07/08 13:38:17
-Dmitri Gabinski: + trd be
-
-versio 1.33 2020/05/06 14:10:29
 -->
 </vortaro>

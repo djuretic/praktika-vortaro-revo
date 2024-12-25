@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: trezor.xml,v 1.33 2023/10/21 14:37:42 revo Exp $">
+<art mrk="$Id: trezor.xml,v 1.35 2024/05/10 10:43:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>trezor</rad>/o
@@ -46,6 +46,7 @@
           la <ind>&scirc;tata <tld/>o</ind>
           <klr>(anka&ubreve; <ctl>&scirc;tatkaso</ctl>)</klr>.
           <trd lng="hu">&aacute;llamkincst&aacute;r</trd>
+          <trd lng="pl">skarb pa&nacute;stwa</trd>
           <trd lng="ru">&c_k;&c_a;&c_z;&c_n;&c_a;</trd>
         </ekz>
       </dif>
@@ -63,7 +64,7 @@
         </ekz>
         <ekz>
           la regno de la &ccirc;ielo similas al ka&scirc;ita en kampo
-          <tld/>o, kiun viro trovis kaj ka&scirc;is, kaj pro &gcirc;ojo li  
+          <tld/>o, kiun viro trovis kaj ka&scirc;is, kaj pro &gcirc;ojo li
           iras kaj vendas &ccirc;ion, kion li posedas, kaj a&ccirc;etas tiun kampon
           <fnt><bib>NT</bib>, <lok>&Mat; 13:44</lok></fnt>;
         </ekz><ekz>
@@ -83,12 +84,12 @@
       <ekz>
         <uzo tip="stl">FRAZ</uzo>
         <ind>amiko fidela estas <tld/>o plej bela</ind>
-        <trd lng="hu">a j&oacute; bar&aacute;t dr&aacute;g&aacute;bb az  
+        <trd lng="hu">a j&oacute; bar&aacute;t dr&aacute;g&aacute;bb az
           aranyn&aacute;l</trd>
+        <trd lng="pl">wierny przyjaciel to najpi&eogonek;kniejszy skarb</trd>
         <fnt><bib>PrV</bib></fnt>.
         <trd lng="ru">&c_n;&c_je; &c_i;&c_m;&c_je;&c_j;
-          <ind>&c_s;&c_t;&c_o; &c_r;&c_u;&c_b;&c_l;&c_je;&c_j;</ind>, &c_a;
-          &c_i;&c_m;&c_je;&c_j; &c_s;&c_t;&c_o; &c_d;&c_r;&c_u;&c_z;&c_je;&c_j;</trd>
+          <ind>&c_s;&c_t;&c_o; &c_r;&c_u;&c_b;&c_l;&c_je;&c_j;</ind>, &c_a; &c_i;&c_m;&c_je;&c_j; &c_s;&c_t;&c_o; &c_d;&c_r;&c_u;&c_z;&c_je;&c_j;</trd>
       </ekz>
     </dif>
     <subsnc mrk="trezor.0o.karulo">
@@ -179,10 +180,24 @@
     <trd>dr&aacute;gas&aacute;g</trd>
   </trdgrp>
   <trd lng="nl">schat</trd>
+  <trdgrp lng="pl">
+    <trd>skarb</trd>,
+    <trd>bogactwo</trd>
+  </trdgrp>
   <trd lng="pt">tesouro</trd>
   <trd lng="ru">&c_s;&c_o;&c_k;&c_r;&c_o;&c_v;&c_i;&c_shch;&c_je;</trd>
   <trd lng="sk">poklad</trd>
   <trd lng="uk">&c_s;&#x43A;&c_a;&c_r;&c_b;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5B9D;&#x85CF; <pr>b&#x1CE;oz&#xE0;ng</pr></trd>,
+    <trd>&#x5BF6;&#x85CF; <pr>b&#x1CE;oz&#xE0;ng</pr></trd>,
+    <trd>&#x923A; <pr>y&#xF9;</pr></trd>,
+    <trd>&#x94B0; <pr>y&#xF9;</pr></trd>,
+    <trd>&#x73CD;&#x5B9D; <pr>zh&#x113;nb&#x1CE;o</pr></trd>,
+    <trd>&#x73CD;&#x5BF6; <pr>zh&#x113;nb&#x1CE;o</pr></trd>,
+    <trd>&#x5B9D; <pr>b&#x1CE;o</pr></trd>,
+    <trd>&#x5BF6; <pr>b&#x1CE;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="trezor.0ejo">
@@ -260,11 +275,17 @@
   <trd lng="es">c&aacute;mara del tesoro</trd>
   <trd lng="hu">kincst&aacute;r</trd>
   <trd lng="nl">schatkamer</trd>
+  <trd lng="pl">skarbiec</trd>
   <trdgrp lng="sk">
     <trd>pokladnica</trd>,
     <trd>trezor</trd>
   </trdgrp>
   <trd lng="uk">&c_s;&#x43A;&c_a;&c_r;&c_b;&#x43D;&c_i;&c_c;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5B9D;&#x5E93; <pr>b&#x1CE;ok&#xF9;</pr></trd>,
+    <trd>&#x5BF6;&#x5EAB; <pr>b&#x1CE;ok&#xF9;</pr></trd>,
+    <trd>&#x96C6;&#x8403; <pr>j&#xED;cu&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="trezor.0isto">
@@ -300,13 +321,21 @@
     <trd>&#x8CA1;&#x52D9;&#x5B98;  <pr>&#x3056;&#x3044;&#x3080;&#x304B;&#x3093;</pr></trd>,
     <trd>&#x4F1A;&#x8A08;&#x5B98;  <pr>&#x304B;&#x3044;&#x3051;&#x3044;&#x304B;&#x3093;</pr></trd>
   </trdgrp>
+  <trd lng="pl">skarbnik</trd>
   <trd lng="ru">&c_k;&c_a;&c_z;&c_n;&c_a;&c_ch;&c_je;&c_j;</trd>
   <trd lng="sk">pokladn&iacute;k</trd>
   <trd lng="uk">&c_s;&#x43A;&c_a;&c_r;&c_b;&#x43D;&c_i;&#x43A;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5E10;&#x623F; <pr>zh&#xE0;ngf&#xE1;ng</pr></trd>,
+    <trd>&#x8CEC;&#x623F; <pr>zh&#xE0;ngf&#xE1;ng</pr></trd>
+  </trdgrp>
 </drv>
   </art>
   <!--
   $Log$
+versio 1.34 2024/02/08 21:21:53
+Vito Redsky: +trd pl 
+
 versio 1.33 2023/10/21 14:37:42
 revo: transskribo per <pr>
 
@@ -326,8 +355,5 @@ Ulrich Fellmann: trezorejo: +3 pliaj DE trdj
   Sergio Pokrovskij: +ekz, +TEZ
 
   Revision 1.24  2008/01/24 20:09:55  revo
-  korektis fusxitajn kaj-signojn
-
-  Revision 1.23  2008/01/20 19:35:56  revo
 -->
 </vortaro>

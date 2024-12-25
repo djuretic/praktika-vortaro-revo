@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pied.xml,v 1.157 2023/12/12 20:10:26 revo Exp $">
+<art mrk="$Id: pied.xml,v 1.163 2024/11/29 10:33:18 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>pied</rad>/o
+   <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="pied.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -121,14 +122,45 @@
        <ref cel="bat.pied0i">piedbati</ref>,
        <ref cel="prem.pied0i">piedpremi</ref>
      </refgrp>
-    <bld lok="&WCU;/thumb/2/20/Asia_feet_3.jpg/360px-Asia_feet_3.jpg" prm="CC0">piedoj de homa
-    virino
+    <bld
+      lok="&WCU;/thumb/5/58/Right_Foot_of_Male_human_38_years_old_side_view.png/360px-Right_Foot_of_Male_human_38_years_old_side_view.png"
+      prm="CC BY-SA 4.0"
+      >rentgena bildo de vira dekstra piedo
         <fnt>
-          <aut>Mu zl</aut>
-          <lok><url
-          ref="&WCW;/File:Asia_feet_3.jpg">https://commons.wikimedia.org/wiki/File:Asia_feet_3.jpg</url></lok>
+          <aut>Gang65, propra verko</aut>
+          <lok><url ref="&WCW;/File:Right_Foot_of_Male_human_38_years_old_side_view.png"
+              >https://commons.wikimedia.org/wiki/File:Right_Foot_of_Male_human_38_years_old_side_view.png</url></lok>
         </fnt>
+        <mrk stl="top:75%;left:75%;color:lightgreen" cel="kalkan.0o">kalkano</mrk>
+        <mrk stl="top:25%;left:70%;width:20%;color:lightgreen">anta&ubreve;- plando</mrk>
+        <mrk stl="top:55%;left:75%;color:lightgreen" cel="pland.0o">plando</mrk>
+        <mrk stl="top:77%;left:3%;color:lightgreen" cel="maleol.0o">maleolo</mrk>
+        <mrk stl="top:42%;left:5%;width:25%;color:lightgreen">pieddorso (instepo)</mrk>
+        <mrk stl="top:2%;left:35%;color:lightgreen" cel="fingr.pied0o">piedfingroj</mrk>
+
+        <mrk
+
+        stl="top:13%;left:29%;color:darkblue;text-decoration:underline;background:none;font-size:120%"
+              cel="falang.0o.ANA">falangoj</mrk>
+        <mrk
+        stl="top:36%;left:30%;color:darkblue;text-decoration:underline;background:none;font-size:120%"
+              cel="metata.0o">metatarso</mrk>
+        <mrk
+        stl="top:66%;left:40%;color:darkblue;text-decoration:underline;background:none;font-size:120%"
+              cel="tars.0o.de_piedo">tarso</mrk>
+        <mrk stl="top:50%;left:25%;color:darkblue">kojnaj ostoj</mrk>
+        <mrk stl="top:56%;left:50%;color:darkblue">kuboido</mrk>
+        <mrk stl="top:58%;left:20%;color:darkblue">navikularo</mrk>
+        <mrk stl="top:70%;left:25%;color:darkblue">talo</mrk>
+        <mrk stl="top:80%;left:55%;color:darkblue" cel="kalkan1.0o">kalkaneo</mrk>
+        <mrk stl="top:85%;left:16%;color:darkblue" cel="tibi.0o.ANA">tibio</mrk>
+        <mrk stl="top:90%;left:32%;color:darkblue" cel="fibul.0o.ANA">fibulo</mrk>
+
     </bld>
+     <trdgrp lng="be">
+       <trd>&c_n;&c_a;&c_g;&c_a;</trd>,
+       <trd>&c_s;&c_t;&c_u;&c_p;&c_n;&c_ja;</trd>
+     </trdgrp>
      <trd lng="bg">&c_s;&c_t;&c_malmol;&c_p;&c_a;&c_l;&c_o;</trd>
      <trd lng="ca">peu</trd>
      <trd lng="de">Fu&szlig;</trd>
@@ -178,6 +210,7 @@
        skulptita parto de mebla kruro). Komparu anka&ubreve; kun
        <ctl>brakse&gcirc;o</ctl>, kiu havas brak-, ne man-apogilojn.
      </rim>
+     <trd lng="be">&c_n;&c_o;&c_zh;&c_k;&c_a; <klr>(&c_m;&c_e;&c_b;&c_l;&c_ib;)</klr></trd>
      <trd lng="ca">petge</trd>
      <trd lng="en">leg (furniture)</trd>
     <trd lng="es">pie</trd>
@@ -241,12 +274,14 @@
           kurso</url></vrk>
            <bib>Monato</bib>
           <lok>2001/08, p. 25</lok>
-        </fnt>;
+        </fnt>.
       </ekz>
-      <ekz>
-         <ref tip="vid" cel="not.pied0o">piednoto</ref>.
-       </ekz>
      </dif>
+     <ref tip="vid" cel="not.pied0o">piednoto</ref>
+     <trdgrp lng="be">
+       <trd>&c_p;&c_a;&c_d;&c_e;&c_sh;&c_v;&c_a; <klr>(&c_n;&c_a;&c_p;&c_r;. &c_g;&c_a;&c_r;&c_y;)</klr></trd>,
+       <trd>&c_a;&c_s;&c_n;&c_o;&c_v;&c_a;</trd>
+     </trdgrp>
      <trdgrp lng="ca">
        <trd>base</trd>,
        <trd>cossol</trd>
@@ -298,18 +333,19 @@
      </dif>
      <refgrp tip="sub">
        Dusilabaj piedoj:
-       <ref cel="jamb.0o">jambo</ref>,
-       <ref cel="pirik.0o">piriko</ref>,
-       <ref cel="sponde.0o">spondeo</ref>,
-       <ref cel="troke.0o">trokeo</ref>;
+       <ref cel="jamb.0o">jambo</ref> /&ypsilon;&#8208;/,
+       <ref cel="pirik.0o">piriko</ref> /&ypsilon;&ypsilon;/,
+       <ref cel="sponde.0o">spondeo</ref> /&#8208;&#8208;/,
+       <ref cel="troke.0o">trokeo</ref> /&#8208;&ypsilon;/;
        trisilabaj piedoj:
-       <ref cel="amfibr.0o">amfibra&hcirc;o</ref>,
-       <ref cel="anapes.0o">anapesto</ref>,
-       <ref cel="daktil1.0o.POE">daktilo</ref>,
-       <ref cel="tribra.0o">tribrako</ref>;
+       <ref cel="amfibr.0o">amfibra&hcirc;o</ref> /&ypsilon;&#8208;&ypsilon;/,
+       <ref cel="anapes.0o">anapesto</ref> /&ypsilon;&ypsilon;&#8208;/,
+       <ref cel="daktil1.0o.POE">daktilo</ref> /&#8208;&ypsilon;&ypsilon;/,
+       <ref cel="tribra.0o">tribrako</ref> /&ypsilon;&ypsilon;&ypsilon;/;
        kvarsilaba piedo:
-       <ref cel="jamb.hxor0o">&hcirc;orjambo</ref>.
+       <ref cel="jamb.hxor0o">&hcirc;orjambo</ref> /&#8208;&ypsilon;&ypsilon;&#8208;/.
      </refgrp>
+     <trd lng="be">&c_s;&c_t;&c_o;&c_p;&c_a; <klr>(&c_v;&c_je;&c_r;&c_sh;&c_a;)</klr></trd>
      <trd lng="ca">peu <klr>(po&egrave;tica)</klr></trd>
      <trd lng="en">metrical foot</trd>
      <trd lng="es">pie <klr>(poes&iacute;a)</klr></trd>
@@ -334,6 +370,7 @@
          estas ties <ref cel="mez.0o.punkto">mezo</ref>.
        </ekz>
      </dif>
+     <trd lng="be">&c_a;&c_s;&c_n;&c_o;&c_v;&c_a; <klr>(&c_p;&c_e;&c_r;&c_p;&c_e;&c_n;&c_d;&c_y;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_a;)</klr></trd>
      <trd lng="ca">peu d'una perpendicular</trd>
      <trd lng="de">Lotfu&szlig;punkt</trd>
      <trd lng="en">foot<klr tip="ind"> (of a perpendicular)</klr></trd>
@@ -346,10 +383,10 @@
 (&c_p;&c_je;&c_r;&c_p;&c_je;&c_n;&c_d;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_a;)</klr></trd>
    </snc>
   <trd lng="af">voet</trd>
-  <trd lng="am">&#x12A5;&#x130D;&#x122D;</trd>
+  <trd lng="am">&#4773;&#4877;&#4653;</trd>
   <trd lng="ar">&a_A;&a_l;&a_q;&a_d;&a_m;</trd>
   <trd lng="az">ayaq</trd>
-  <trd lng="bn">&#x9AA;&#x9BE;</trd>
+  <trd lng="bn">&#2474;&#2494;</trd>
   <trd lng="bo">&t_ra;&t_kata;&t_nga;&t_tsheg;&t_pa;&t_tsheg;</trd>
   <trd lng="br">troad</trd>
   <trd lng="bs">stopala</trd>
@@ -373,48 +410,48 @@
   <trd lng="ga">cos</trd>
   <trd lng="gd">bonn</trd>
   <trd lng="gl">p&eacute;</trd>
-  <trd lng="gu">&#xAAA;&#xA97;</trd>
+  <trd lng="gu">&#2730;&#2711;</trd>
   <trd lng="ha">kafa</trd>
-  <trd lng="hi">&#x92A;&#2376;&#2352;</trd>
+  <trd lng="hi">&#2346;&#2376;&#2352;</trd>
   <trd lng="hmn">ko taw</trd>
   <trd lng="hr">stopala</trd>
   <trd lng="ht">pye</trd>
   <trd lng="hu">l&aacute;b</trd>
-  <trd lng="hy">&#1400;&#x57F;&#1412;&#1400;&#x57E;</trd>
+  <trd lng="hy">&#1400;&#1407;&#1412;&#1400;&#1406;</trd>
   <trd lng="id">kaki</trd>
-  <trd lng="ig">&#x1EE5;kw&#x1EE5;</trd>
+  <trd lng="ig">&#7909;kw&#7909;</trd>
   <trd lng="is">f&oacute;tur</trd>
   <trd lng="it">piede</trd>
-  <trd lng="ja">&#x8DB3; <pr>&#x305D;&#x304F;</pr></trd>
+  <trd lng="ja">&#36275; <pr>&#12381;&#12367;</pr></trd>
   <trd lng="jv">mlaku</trd>
-  <trd lng="ka">&#x10E4;&#x10D4;&#x10EE;&#x10D8;&#x10D7;</trd>
-  <trd lng="kk">&c_a;&c_ja;&#x49B;</trd>
-  <trd lng="km">&#6023;&#x17BE;&#6020;</trd>
-  <trd lng="kn">&#xC95;&#xCBE;&#xCB2;&#xCC1;</trd>
-  <trd lng="ko">&#xBC1C;</trd>
+  <trd lng="ka">&#4324;&#4308;&#4334;&#4312;&#4311;</trd>
+  <trd lng="kk">&c_a;&c_ja;&#1179;</trd>
+  <trd lng="km">&#6023;&#6078;&#6020;</trd>
+  <trd lng="kn">&#3221;&#3262;&#3250;&#3265;</trd>
+  <trd lng="ko">&#48156;</trd>
   <trd lng="ky">&c_t;&c_a;&c_m;&c_a;&c_n;</trd>
   <trd lng="lat">pede</trd>
-  <trd lng="lo">&#xE95;&#xEB5;&#xE99;</trd>
+  <trd lng="lo">&#3733;&#3765;&#3737;</trd>
   <trd lng="lt">p&#279;da</trd>
-  <trd lng="lv">k&#257;ju</trd>
+  <trd lng="lv">k&amacron;ju</trd>
   <trd lng="mg">tongotra</trd>
   <trd lng="mi">waewae</trd>
   <trd lng="mk">&c_n;&c_o;&c_g;&c_a;</trd>
-  <trd lng="ml">&#xD2A;&#xD3E;&#xD26;&#xD02;</trd>
-  <trd lng="mn">&c_h;&#x4E9;&c_l;</trd>
-  <trd lng="mr">&#x92A;&#x93E;&#x90A;&#2354;</trd>
+  <trd lng="ml">&#3370;&#3390;&#3366;&#3330;</trd>
+  <trd lng="mn">&c_h;&#1257;&c_l;</trd>
+  <trd lng="mr">&#2346;&#2366;&#2314;&#2354;</trd>
   <trd lng="ms">kaki</trd>
   <trd lng="mt">sieq</trd>
-  <trd lng="my">&#4097;&#x103C;&#4145;&#x101C;&#x103B;&#4100;&#x103A;</trd>
-  <trd lng="ne">&#2326;&#2369;&#x91F;&#x94D;&#x91F;&#x93E;</trd>
+  <trd lng="my">&#4097;&#4156;&#4145;&#4124;&#4155;&#4100;&#4154;</trd>
+  <trd lng="ne">&#2326;&#2369;&#2335;&#2381;&#2335;&#2366;</trd>
   <trd lng="ny">phazi</trd>
-  <trd lng="pa">&#xA2A;&#xA48;&#xA30;</trd>
+  <trd lng="pa">&#2602;&#2632;&#2608;</trd>
   <trd lng="pl">stopa</trd>
-  <trd lng="ps">&f_p;&#x69A;&a_h;</trd>
+  <trd lng="ps">&f_p;&#1690;&a_h;</trd>
   <trd lng="ro">picior</trd>
    <trd lng="rw">ikirenge</trd>
   <trd lng="sd">&a_d;&a_A;&a_m;&a_n;</trd>
-  <trd lng="si">&#xD85;&#xDA9;&#xDD2;</trd>
+  <trd lng="si">&#3461;&#3497;&#3538;</trd>
   <trdgrp lng="sk">
     <trd>koniec</trd>,
     <trd>stopa</trd>
@@ -426,20 +463,24 @@
   <trd lng="st">maoto a</trd>
   <trd lng="su">sampean</trd>
   <trd lng="sw">mguu</trd>
-  <trd lng="ta">&#xB95;&#xBBE;&#xBB2;&#xBCD;</trd>
-  <trd lng="te">&#xC05;&#xC21;&#xC41;&#xC17;&#xC41;</trd>
+  <trd lng="ta">&#2965;&#3006;&#2994;&#3021;</trd>
+  <trd lng="te">&#3077;&#3105;&#3137;&#3095;&#3137;</trd>
   <trd lng="tg">&c_p;&c_o;</trd>
-  <trd lng="th">&#xE40;&#xE17;&#xE49;&#xE32;</trd>
+  <trd lng="th">&#3648;&#3607;&#3657;&#3634;</trd>
   <trd lng="tl">paa</trd>
   <trd lng="tt">&c_a;&c_ja;&c_k;</trd>
   <trd lng="uk">&c_f;&c_u;&c_t;</trd>
-  <trd lng="ur">&f_p;&a_A;&a_w_hamza;&#x6BA;</trd>
+  <trd lng="ur">&f_p;&a_A;&a_w_hamza;&#1722;</trd>
   <trd lng="uz">oyoq</trd>
   <trd lng="vi">ch&acirc;n</trd>
   <trd lng="vo">fut</trd>
   <trd lng="xh">unyawo</trd>
-  <trd lng="yi">&pe;&#x5BF;&yod;&samekh;</trd>
-  <trd lng="yo">&#x1EB9;s&#x1EB9;</trd>
+  <trd lng="yi">&pe;&#1471;&yod;&samekh;</trd>
+  <trd lng="yo">&#7865;s&#7865;</trd>
+  <trdgrp lng="zh">
+    <trd>&#33050; <pr>ji&#462;o</pr></trd>,
+    <trd>&#33139; <pr>ji&#462;o</pr></trd>
+  </trdgrp>
   <trd lng="zu">ngezinyawo</trd>
 </drv>
 
@@ -492,13 +533,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_zh;&c_n;&c_y;</trd>,
+    <trd>&c_p;&c_je;&c_sh;&c_y;</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>foot</trd>,
     <trd>paw</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x8DB3;&#x306E;  <pr>&#12354;&#12375;&#x306E;</pr></trd>,
-    <trd>&#x4E0B;&#x90E8;&#x306E;  <pr>&#x304B;&#12406;&#x306E;</pr></trd>
+    <trd>&#36275;&#12398;  <pr>&#12354;&#12375;&#12398;</pr></trd>,
+    <trd>&#19979;&#37096;&#12398;  <pr>&#12363;&#12406;&#12398;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>pieszy</trd>,
@@ -549,6 +594,7 @@
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_p;&c_je;&c_sh;&c_k;&c_ib;</trd>
     <trd lng="br">war droad</trd>
     <trdgrp lng="ca">
        <trd>a peu</trd>,
@@ -592,6 +638,7 @@
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="be">&c_n;&c_a; <ind>&c_n;&c_a;&c_g;&c_a;&c_h;</ind></trd>
   </snc>
   <trd lng="cs">p&ecaron;&scaron;ky</trd>
   <trdgrp lng="en">
@@ -600,10 +647,10 @@
     <trd>by the feet</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x8DB3;&#12391;  <pr>&#12354;&#12375;&#12391;</pr></trd>,
-    <trd>&#x6B69;&#12356;&#12390;  <pr>&#12354;&#x308B;&#12356;&#12390;</pr></trd>,
-    <trd>&#x8DB3;&#20803;&#x306B;  <pr>&#12354;&#12375;&#12418;&#12392;&#x306B;</pr></trd>,
-    <trd>&#x4E0B;&#x90E8;&#x306B;  <pr>&#x304B;&#12406;&#x306B;</pr></trd>
+    <trd>&#36275;&#12391;  <pr>&#12354;&#12375;&#12391;</pr></trd>,
+    <trd>&#27497;&#12356;&#12390;  <pr>&#12354;&#12427;&#12356;&#12390;</pr></trd>,
+    <trd>&#36275;&#20803;&#12395;  <pr>&#12354;&#12375;&#12418;&#12392;&#12395;</pr></trd>,
+    <trd>&#19979;&#37096;&#12395;  <pr>&#12363;&#12406;&#12395;</pr></trd>
   </trdgrp>
   <trd lng="pl">u do&lstroke;u</trd>
   <trd lng="ro">pe jos</trd>
@@ -613,6 +660,445 @@
     <trd>pe&scaron;o</trd>
   </trdgrp>
   <trd lng="uk">&c_p;&c_ib;&c_sh;&c_k;&c_i;</trd>
+  <trd lng="zh">&#27493;&#34892; <pr>b&ugrave;x&iacute;ng</pr></trd>
+</drv>
+
+<drv mrk="pied.0ingo">
+  <kap>
+    <ofc>*</ofc><tld/>ingo
+  </kap>
+  <snc mrk="pied.0ingo.RAJ">
+    <dif>
+      Pli malpli ringforma subtenilo por la piedo de rajdanto, pendanta de la selo:
+      <ekz>
+        starante sur siaj <tld/>ingoj, sin klinante anta&ubreve;en por ke la rapideco de la
+        kurado ne lin sufoku, Viktoro penadis trafi
+        <fnt>
+          <bib>KPr</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li defalas, restas alkro&ccirc;ita per <tld/>o en la <tld/>ingo,
+        kaj la furioze forrapidanta &ccirc;evalo posttrenas lin sur la &scirc;tona
+        tera&jcirc;o
+        <fnt>
+          <aut>Bertha von Suttner, trad. Armand Caumont</aut>
+          <vrk>For la batalilojn!</vrk>
+	  <lok>kvara libro</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_t;&c_r;&c_e;&c_m;&c_ja;</trd>,
+    <trd>&c_s;&c_t;&c_r;&c_a;&c_m;&c_ja;&c_n;&c_o;</trd>
+  </trdgrp>
+  <trd lng="br">stleug</trd>
+  <trd lng="ca">estrep</trd>
+  <trd lng="cs">t&rcaron;men sedla</trd>
+  <trd lng="de">Steigb&uuml;gel</trd>
+  <trdgrp lng="en">
+     <trd>stirrup <klr>(horse)</klr></trd>,
+     <trd>toe-clip <klr>(bicycle)</klr></trd>
+   </trdgrp>
+  <trd lng="es">estribo<klr> (de la silla de montar)</klr></trd>
+  <trd lng="fr">&eacute;trier</trd>
+  <trd lng="hu">kengyel</trd>
+  <trdgrp lng="it">
+     <trd>staffa<klr> (equitazione)</klr></trd>,
+     <trd>puntapiede<klr> (bicicletta)</klr></trd>
+   </trdgrp>
+  <trd lng="ja">&#12354;&#12406;&#12415;</trd>
+  <trd lng="nl">stijgbeugel</trd>
+  <trd lng="pl">strzemi&eogonek;</trd>
+  <trd lng="ro">sc&abreve;ri&#539;a</trd>
+  <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_m;&c_ja;</trd>
+  <trd lng="sk">strme&ncaron;</trd>
+  <trd lng="sv">stigbygel</trd>
+  <trd lng="uk">&c_s;&c_t;&c_r;&c_je;&c_m;&c_je;&c_n;&c_o;</trd>
+  <trdgrp lng="zh">
+    <trd>&#37913; <pr>d&egrave;ng</pr></trd>,
+    <trd>&#38251; <pr>d&egrave;ng</pr></trd>,
+    <trd>&#39340;&#37913; <pr>m&#462;d&egrave;ng</pr></trd>,
+    <trd>&#39532;&#38251; <pr>m&#462;d&egrave;ng</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pied.0umi">
+  <kap><tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pied.0umi.KOMUNE">
+    <dif>
+      Vole a&ubreve; nevole tu&scirc;i, premi, bateti per la <tld/>o:
+      <ekz>
+        li kriegis kaj blasfemis &ccirc;iutage al la infanoj, <klr>[&#8230;]</klr> tiradis iliajn
+        orelojn, <tld/>umis ilin
+        <fnt>
+          <bib>VRA</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lasi ilin <tld/>umi sub pordo kun la katido
+        <fnt>
+          <vrk><url
+          ref="https://medium.com/@builderofthecake/kiel-adopti-senhejman-katidon-e04f24078c05">Alvoku
+          vian bestkuraciston kaj enhorarigi renkonti&gcirc;on por la katido.</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Dunkan</nom> <klr>[&#8230;]</klr> stre&ccirc;is la krurojn, tamen zorge, por ne
+        <tld/>umi iujn el la homfiguroj kiuj ku&scirc;e-side apogis sin
+        kontra&ubreve; la muro
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_t;&c_a;&c_p;&c_t;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_t;&c_u;&c_p;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_u;&c_p;&c_a;&c_c;&c_mol; <klr>(&c_z;&c_mol;&c_v;&c_je;&c_r;&c_h;&c_u; &c_n;&c_a; &c_sh;&c_t;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>mit dem Fu&szlig; <ind>sto&szlig;en</ind></trd>,
+    <trd>f&uuml;&szlig;eln</trd>
+  </trdgrp>
+  <trd lng="en">tread on, trample underfoot</trd>
+  <trd lng="fr">fouler aux pieds</trd>
+  <trdgrp lng="pl">
+    <trd>depta&cacute;</trd>,
+    <trd>tupa&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>c&abreve;lca</trd>,
+    <trd>pa&#537;i de step</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pied.sur0igi">
+  <kap>
+    sur<tld/>igi
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pied.sur0igi.TEKS">
+    <dif>
+      Sur&scirc;ovi, <ref cel="met.sur0i.veston">surmeti<sncref/></ref> sur piedon:
+      <ekz>
+        ili <klr>[&#8230;]</klr> sur<tld/>igis molajn &scirc;uojn
+        <fnt>
+          <aut>J. R. R. Tolkien, trad. C. Gledhill</aut>
+          <vrk>La Hobito</vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malri&ccirc;aj poetoj, kiuj ne havis &scirc;uojn por sur<tld/>igi,
+        &ccirc;ar sian solan paron ili fordonis por ripari
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_a;&c_b;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="en">put on the feet</trd>
+  <trd lng="fr">chausser</trd>
+  <trd lng="pl">za&lstroke;o&zdot;y&cacute; na nogi</trd>
+  <trd lng="ro">pune pe picioare</trd>
+</drv>
+
+<drv mrk="pied.sur0igxi">
+   <kap>sur<tld/>i&gcirc;i</kap>
+   <gra><vspec>ntr</vspec></gra>
+   <snc mrk="pied.sur0igxi.KOMUNE">
+     <dif>
+       <ref tip="super" cel="star.ek0i.KOMUNE">Ekstari</ref> sur siaj
+       <tld/>oj:
+       <ekz>
+         <nom>Maksim</nom> facilmove sur<tld/>i&gcirc;is
+         <fnt>
+           <aut>V. &Scirc;uk&scirc;in, trad. N. Lozga&ccirc;ev</aut>,
+           <vrk>Simbolo de kredo</vrk>,
+           <bib>LOdE</bib>,
+           <lok>1994:3-4</lok>
+         </fnt>;
+       </ekz>
+      <ekz>
+        li haltigis sian mulon, sur<tld/>i&gcirc;is kaj ligis &gcirc;in al la pordega ringo
+        <fnt>
+          <bib>MkM</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kruroj de <nom>Nevil</nom> liberi&gcirc;is kaj li sur<tld/>i&gcirc;is skui&gcirc;ante
+        <fnt>
+          <vrk><url ref="https://www.rulit.me/books/hari-potter-kaj-la-read-374478-43.html">Hari
+          Potter kaj la &Scirc;tono de la...</url></vrk>
+        </fnt>.
+      </ekz>
+     </dif>
+      <trd lng="de">auf die <ind>F&uuml;&szlig;e</ind> kommen</trd>
+   </snc>
+   <trdgrp lng="be">
+     <trd>&c_u;&c_s;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol; &c_n;&c_a; &c_n;&c_o;&c_g;&c_ib;</trd>,
+     <trd>&c_s;&c_t;&c_a;&c_n;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a; &c_n;&c_a; &c_n;&c_o;&c_g;&c_ib;</trd>
+   </trdgrp>
+   <trdgrp lng="ca">
+     <trd>estar-se dret</trd>,
+     <trd>dre&ccedil;ar-se</trd>
+   </trdgrp>
+   <trdgrp lng="en">
+     <trd>stand up</trd>,
+     <trd>get on one's feet</trd>
+   </trdgrp>
+   <trdgrp lng="es">
+     <trd><ind>erguir</ind>se</trd>,
+     <trd>ponerse de pie</trd>
+   </trdgrp>
+   <trdgrp lng="fr">
+     <trd>se <ind>mettre sur pieds</ind></trd>,
+     <trd>se lever<klr> (sur ses pieds)</klr></trd>
+   </trdgrp>
+   <trdgrp lng="it">
+     <trd>mettersi in <ind>piedi</ind></trd>,
+     <trd>alzarsi in <ind>piedi</ind></trd>
+   </trdgrp>
+   <trdgrp lng="pl">
+     <trd>stan&aogonek;&cacute; na nogi</trd>,
+     <trd>wsta&cacute;  <klr>(na nogi)</klr></trd>
+   </trdgrp>
+   <trdgrp lng="ro">
+     <trd>stai pe picioare</trd>,
+     <trd>ridic&abreve;-te  <klr>(&icirc;n picioare)</klr></trd>
+   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#31435;&#36523; <pr>l&igrave;sh&emacron;n</pr></trd>,
+    <trd>&#36215;&#31435; <pr>q&#464;l&igrave;</pr></trd>,
+    <trd>&#36215;&#20358; <pr>q&#464;lai</pr></trd>,
+    <trd>&#36215;&#26469; <pr>q&#464;lai</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pied.du0ulo">
+   <kap>du<tld/>ulo</kap>
+   <snc mrk="pied.du0ulo.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="super" cel="animal.0o">Animalo</ref>, iranta sur du
+      <tld/>oj:
+      <ekz>
+        ni, du<tld/>uloj, vetura&ccirc;is kun malpli da spaco, malpli da bazaj komfortoj, ol
+        kvar<tld/>uloj protektataj de diversaj bestorajtaj le&gcirc;oj
+        <fnt>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2011/010541.php">Grincantaj genuoj ... kaj
+          &gcirc;entileco</url></vrk>
+          <bib>Monato</bib>
+          <lok>2011/12, p. 7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         mi opinias, ke du<tld/>ulo sen homaj virtoj ne estas reala
+         homo
+         <fnt>
+           <aut>Fanny Alving, trad. John Lundgren</aut>
+           <vrk>Uzino 2</vrk>
+           <lok>Trans la rozkrado</lok>
+         </fnt>.
+      </ekz>
+    </dif>
+      <trd lng="de">Zweibeiner</trd>
+   </snc>
+   <trd lng="be">&c_d;&c_v;&c_u;&c_h;&c_n;&c_o;&c_g;&c_a;&c_ja; &c_ib;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
+   <trd lng="br">daoudroadeg</trd>
+   <trd lng="ca">b&iacute;pede</trd>
+   <trd lng="en">biped</trd>
+   <trd lng="es">b&iacute;pedo</trd>
+   <trd lng="fr">bip&egrave;de<klr tip="ind"> (subst.)</klr></trd>
+   <trd lng="id">(hewan) ber<ind>kaki</ind> dua</trd>
+   <trd lng="it">bipede</trd>
+   <trdgrp lng="pl">
+     <trd>dw&oacute;jn&oacute;g</trd>,
+     <trd>zwierz&eogonek; <ind>dwuno&zdot;ne</ind></trd>
+   </trdgrp>
+   <trdgrp lng="ro">
+     <trd>biped</trd>,
+     <trd>animal biped</trd>
+   </trdgrp>
+   <trd lng="ru">&c_d;&c_v;&c_u;&c_n;&c_o;&c_g;&c_o;&c_je;
+&c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+</drv>
+
+<drv mrk="pied.kvar0ulo">
+   <kap>kvar<tld/>ulo</kap>
+   <snc mrk="pied.kvar0ulo.ZOO">
+     <uzo tip="fak">ZOO</uzo>
+     <dif>
+       <ref tip="super" cel="animal.0o">Animalo</ref>, iranta sur kvar
+       <tld/>oj:
+      <ekz>
+        la kvar<tld/>ulo estis &scirc;losita sen nutra&jcirc;o kaj akvo dum 17 tagnoktoj kaj tamen
+        restis viva
+        <fnt>
+          <aut>AMik</aut>
+          <vrk><url ref="&Monato;/2007/009134.php">Delikate ...</url></vrk>
+          <bib>Monato</bib>
+          <lok>2007/02, p. 11</lok>
+        </fnt>;
+      </ekz>
+       <ekz>
+         oni sur &gcirc;in ku&scirc;igis la vunditan kvar<tld/>ulon
+         <fnt>
+           <aut>Henri Vallienne</aut>
+           <vrk>Kastelo de Prelongo</vrk>
+           <lok>&ccirc;apitro 4a</lok>
+         </fnt>.
+       </ekz>
+     </dif>
+      <trd lng="de">Vierbeiner</trd>
+   </snc>
+   <trd lng="be">&c_ch;&c_a;&c_t;&c_y;&c_r;&c_o;&c_h;&c_n;&c_o;&c_g;&c_a;&c_ja; &c_ib;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
+   <trd lng="br">pevarzroadeg</trd>
+   <trd lng="ca">quadr&uacute;pede</trd>
+   <trd lng="en">quadruped</trd>
+   <trd lng="es">cuadr&uacute;pedo</trd>
+   <trd lng="fr">quadrup&egrave;de</trd>
+   <trd lng="id">(hewan) ber<ind>kaki</ind> empat</trd>
+   <trd lng="it">quadrupede</trd>
+   <trd lng="ja">&#22235;&#36275;&#21205;&#29289;  <pr>&#12375;&#12381;&#12367;&#12393;&#12358;&#12406;&#12388;</pr></trd>
+  <trd lng="pl">czworon&oacute;g</trd>
+   <trd lng="ro">patruped</trd>
+   <trd lng="ru">&c_ch;&c_je;&c_t;&c_v;&c_je;&c_r;&c_o;&c_n;&c_o;&c_g;&c_o;&c_je; &c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+</drv>
+
+<!-- neniu cita&jcirc;oj trovitaj!
+<drv mrk="pied.kapo0e">
+   <kap>kapo<tld/>e</kap>
+   <snc mrk="pied.kapo0e.KOMUNE">
+     <dif>
+       Starante duope tiel, ke &ccirc;iu havas la kapon en la loko, en
+       kiu la alia havas la <tld/>ojn.
+     </dif>
+      <trd lng="de">Kopf-bei-Fu&szlig;</trd>
+   </snc>
+  <trdgrp lng="en">
+     <trd>end-to-end</trd>,
+     <trd>head-to-toe</trd>
+   </trdgrp>
+  <trd lng="fr">t&ecirc;te-b&ecirc;che</trd>
+  <trd lng="hu">fejt&odblac;l-l&aacute;bt&oacute;l</trd>
+  <trd lng="nl">kop-aan-staart</trd>
+  <trd lng="pl">pozycja 69</trd>
+  <trd lng="ru">&c_v;&c_a;&c_l;&c_je;&c_t;&c_o;&c_m;</trd>
+  <trd lng="sk">hore nohami</trd>
+</drv>
+-->
+
+<drv mrk="pied.kapo0uloj">
+  <kap>kapo<tld/>uloj</kap>
+  <uzo tip="stl">KOMUNE</uzo>
+  <snc mrk="pied.kapo0uloj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="dif" cel="cefalo.0oj">Cefalopodoj</ref>:
+      <ekz>
+        li estas okupata dismeti siajn kap<tld/>ulojn en la suno, kiam ili estas sekaj,
+        li vendos ilin kiel loga&jcirc;ojn por skombroj
+        <fnt>
+          <bib>MD14</bib>
+          <vrk>Allogi la membrojn de la diasporo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amonito estis kapo<tld/>ulo, kiu vivis de malfrua Devonio &gcirc;is malfrua Kretaceo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=36146">Amonito</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Kopff&uuml;&szlig;er</trd>
+  </snc>
+  <trd lng="be">&c_g;&c_a;&c_l;&c_a;&c_v;&c_a;&c_n;&c_o;&c_g;&c_ib;&c_ja;</trd>
+  <trd lng="br">penntroadeged</trd>
+  <trd lng="ca">cefal&ograve;podes</trd>
+  <trd lng="cs">hlavono&zcaron;ci</trd>
+  <trd lng="en">cephalopods</trd>
+  <trd lng="es">cefal&oacute;podos</trd>
+  <trd lng="fr">c&eacute;phalopodes</trd>
+  <trd lng="hu">l&aacute;basfej&udblac;ek</trd>
+  <trd lng="id">sefalopoda</trd>
+  <trd lng="it">cefalopodi</trd>
+  <trd lng="pl">g&lstroke;owonogi</trd>
+  <trdgrp lng="ro">
+     <trd>cephalopoda</trd>,
+     <trd>cefalopoda</trd>
+   </trdgrp>
+   <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_v;&c_o;&c_n;&c_o;&c_g;&c_i;&c_je;</trd>
+  <trd lng="sk">hlavono&zcaron;ce</trd>
+  <trdgrp lng="uk">
+    <trd>&c_c;&c_je;&c_f;&c_a;&c_l;&c_o;&c_p;&c_o;&c_d;&c_i;</trd>,
+    <trd>&c_g;&c_o;&c_l;&c_o;&c_v;&c_o;&c_n;&c_o;&c_g;&c_ib; &c_m;&c_o;&c_l;&c_ju;&c_s;&c_k;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#22836;&#36275;&#32434; <pr>t&oacute;uz&uacute;g&amacron;ng</pr></trd>,
+    <trd>&#38957;&#36275;&#32177; <pr>t&oacute;uz&uacute;g&amacron;ng</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pied.mult0uloj">
+   <kap>mult<tld/>uloj</kap>
+   <uzo tip="stl">KOMUNE</uzo>
+   <snc mrk="pied.mult0uloj.ZOO">
+     <uzo tip="fak">ZOO</uzo>
+     <dif>
+       <ref tip="dif" cel="miriap.0oj.ZOO">Miriapodoj</ref>:
+       <ekz>
+         mult<tld/>ulo <klr>[&#8230;]</klr> artikulo kun multaj <tld/>oj
+         <fnt>
+         <aut>T. Jansson, trad. S. Johansson</aut>,
+         <vrk><url ref="http://www.geocities.com/muminvalo">Muminvalo</url></vrk>,
+         <lok>Glosaro</lok>
+         </fnt>.
+       </ekz>
+     </dif>
+   </snc>
+   <trd lng="be">&c_m;&c_n;&c_a;&c_g;&c_a;&c_n;&c_o;&c_zh;&c_k;&c_ib;
+   <klr tip="amb">(&c_k;&c_l;&c_ja;&c_s;)</klr></trd>
+   <trd lng="ca">miri&agrave;podes</trd>
+   <trd lng="de">Tausendf&uuml;&szlig;er</trd>
+   <trd lng="en">myriapods</trd>
+   <trdgrp lng="es">
+     <trd>miri&aacute;podos</trd>,
+     <trd>miri&oacute;podos</trd>
+   </trdgrp>
+   <trd lng="fr">myriapodes</trd>
+   <trd lng="hu">sokl&aacute;b&uacute;ak</trd>
+   <trdgrp lng="id">
+     <trd>miriapod</trd>,
+     <trd>(hewan) ber<ind>kaki</ind> banyak</trd>
+   </trdgrp>
+   <trd lng="it">miriapodi</trd>
+   <trd lng="nl">duizendpoten</trd>
+   <trdgrp lng="pl">
+     <trd>krocion&oacute;&zdot;ki</trd>,
+     <trd>wije</trd>
+   </trdgrp>
+   <trdgrp lng="ro">
+     <trd>milipede</trd>,
+     <trd>miriapode</trd>
+   </trdgrp>
+   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_n;&c_o;&c_zh;&c_k;&c_i;
+   <klr tip="amb">(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#22810;&#36275;&#31867; <pr>du&omacron;z&uacute;l&egrave;i</pr></trd>,
+    <trd>&#22810;&#36275;&#39006; <pr>du&omacron;z&uacute;l&egrave;i</pr></trd>,
+    <trd>&#34568; <pr>w&uacute;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pied.nud0e">
@@ -661,23 +1147,208 @@
      </trdgrp>
      <trd lng="fr">&agrave; pieds nus</trd>
    </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_a;&c_s;&c_a;&c_n;&c_o;&c_zh;</trd>,
+    <trd>&c_b;&c_o;&c_s;&c_a;</trd>
+  </trdgrp>
   <trd lng="cs">bos</trd>
   <trd lng="en">barefoot</trd>
   <trdgrp lng="id">
     <trd><ind>telanjang</ind> kaki</trd>,
     <trd>nyeker</trd>
   </trdgrp>
-  <trd lng="ja">&#x88F8;&#x8DB3;&#12391;  <pr>&#x306F;&#12384;&#12375;&#12391;</pr></trd>
+  <trd lng="ja">&#35064;&#36275;&#12391;  <pr>&#12399;&#12384;&#12375;&#12391;</pr></trd>
   <trd lng="nl">blootsvoets</trd>
   <trdgrp lng="pl">
     <trd>boso</trd>,
     <trd>na bosaka</trd>
   </trdgrp>
-  <trd lng="ro">descul&#x21B;</trd>
+  <trd lng="ro">descul&#539;</trd>
    <trdgrp lng="sk">
     <trd>bosky</trd>,
     <trd>naboso</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#36196;&#36275; <pr>ch&igrave;z&uacute;</pr></trd>,
+    <trd>&#36196;&#33050; <pr>ch&igrave;ji&#462;o</pr></trd>,
+    <trd>&#36196;&#33139; <pr>ch&igrave;ji&#462;o</pr></trd>,
+    <trd>&#36323; <pr>xi&#462;n</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pied.sxajn0o">
+  <kap>&scirc;ajn<tld/>o</kap>
+  <snc mrk="pied.sxajn0o.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <fnt><bib>OA9</bib></fnt>
+    <dif>
+      Lobo a&ubreve; fadeno de &ccirc;elinterna substanco, servanta
+      al iuj <ref cel="cxel.0o.BIO">&ccirc;eloj</ref> por enkorpigi
+      al si eksteran materialon, a&ubreve; por movi&gcirc;i:
+      <ekz>
+        <klr>[&ccirc;e]</klr> protistoj <klr>[&#8230;]</klr> la anta&ubreve;en-movi&gcirc;o okazas ofte na&gcirc;ante
+        per flageloj a&ubreve; cilioj a&ubreve; per <klr>[&#8230;]</klr> &scirc;ajn<tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=21302">Protistoj</url></lok>
+        </fnt>.
+      </ekz>
+     </dif>
+     <ref tip="vid" cel="ameb.0o">amebo</ref>
+      <trd lng="de">Scheinf&uuml;&szlig;chen</trd>
+  </snc>
+   <trd lng="be">&c_ib;&c_l;&c_zh;&c_e;&c_n;&c_o;&c_zh;&c_k;&c_a;</trd>
+   <trd lng="ca">pseudopodi</trd>
+   <trd lng="en">pseudopod</trd>
+   <trdgrp lng="es">
+     <trd>pseud&oacute;podo</trd>,
+     <trd>seud&oacute;podo</trd>
+   </trdgrp>
+   <trd lng="fr">pseudopode</trd>
+   <trdgrp lng="id">
+     <trd>pseudopodia</trd>,
+     <trd><ind>kaki</ind> semu</trd>
+   </trdgrp>
+   <trd lng="it">pseudopodo</trd>
+   <trd lng="pl">nibyn&oacute;&zdot;ka</trd>
+   <trd lng="ro">pseudopod</trd>
+</drv>
+
+<drv mrk="pied.tri0o">
+  <kap>tri<tld/>o</kap>
+  <snc mrk="pied.tri0o.pendigilo">
+    <dif>
+      Piramidforma instala&jcirc;o el tri stangoj uzata ekz. por pendigi poton super fajro:
+      <ekz>
+        <klr>[ili]</klr> fandigis oron &ccirc;e malgrandaj flamoj super feraj tri<tld/>oj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se vi scius, kian banujon sendis la princo hodia&ubreve;, kupran banujon!... kaj kian
+        tri<tld/>on por la fajrujo, kiajn potojn <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="stativ.0o">stativo</ref>
+  <trdgrp lng="be">
+    <trd>&c_t;&c_r;&c_y;&c_n;&c_o;&c_g;&c_a;</trd>,
+    <trd>&c_t;&c_r;&c_y;&c_n;&c_o;&c_zh;&c_n;&c_ib;&c_k;</trd>
+  </trdgrp>
+  </snc>
+   <snc mrk="pied.tri0o.KOMUNE">
+     <dif>
+       Tablo, se&gcirc;o a&ubreve; subtenilo kun tri <tld/>oj:
+       <ekz>
+         <nom>Vinicius</nom> sidis sur tri<tld/>o
+         <fnt>
+           <aut>H. Sienkiewicz trad. L. &Z;</aut>
+           <vrk>Quo vadis?</vrk>
+           <lok>&ccirc;apitro 51a</lok>
+         </fnt>;
+       </ekz>
+       <ekz>
+         la fidela servistino metis la skribilaron sur kanapon kaj la
+         incensilon sur tri<tld/>on
+         <fnt>
+           <bib>I&scirc;tar</bib>
+           <lok>&ccirc;apitro 22a</lok>
+         </fnt>.
+       </ekz>
+     </dif>
+     <rim>
+       &leftquot;Tri<em>krura</em> se&gcirc;o&rightquot; estus pli trafa kaj klara.
+     </rim>
+     <adm>
+       &Ccirc;i rimarko estas &gcirc;usta, sed eble ne tre utila.
+       &Gcirc;i povus apliki&gcirc;i al &ccirc;iuj deriva&jcirc;oj de la tipo
+       "n-xo":
+       "triangula figuro" estas pli klara ol "triangulo",
+       "&ccirc;irka&ubreve;mana ornama&jcirc;o" pli ol
+       "&ccirc;irka&ubreve;mano", kaj multaj
+       similaj. <aut>MB</aut>
+     </adm>
+     <adm>
+       La rimarko celas ne tiom la strukturon de la kunmetajxo, kiom
+       la misan radikon: koncerna segxo povas tute ne havi piedojn
+       (iel apartajn, ekz-e pli dikajn, skulptitajn malsupran
+       ekstremajxojn), sed gxi nepre havas "krurojn" (aux
+       "gambojn").  Angle mi nomus ilin "legs"
+       (a tripod is a three-LEGGED object), ne "feet".
+       <aut>Sergio</aut>
+     </adm>
+   <trd lng="be">&c_s;&c_t;&c_o;&c_l; &c_n;&c_a; &c_t;&c_r;&c_o;&c_h; &c_n;&c_o;&c_zh;&c_k;&c_a;&c_h;</trd>
+   </snc>
+  <trd lng="ca">tr&iacute;pode</trd>
+  <trd lng="cs">trojno&zcaron;ka</trd>
+  <trd lng="de">Dreibein</trd>
+  <trd lng="en">tripod</trd>
+  <trd lng="es">tr&iacute;pode</trd>
+  <trd lng="fr">tr&eacute;pied</trd>
+  <trd lng="id">tripod</trd>
+  <trd lng="it">treppiede</trd>
+  <trdgrp lng="ja">
+    <trd>&#19977;&#33050;&#12356;&#12377;  <pr>&#12373;&#12435;&#12365;&#12419;&#12367;&#12356;&#12377;</pr></trd>,
+    <trd>&#19977;&#33050;&#21488;  <pr>&#12373;&#12435;&#12365;&#12419;&#12367;&#12384;&#12356;</pr></trd>,
+    <trd>&#19977;&#33050;  <pr>&#12373;&#12435;&#12365;&#12419;&#12367;</pr></trd>
+  </trdgrp>
+  <trd lng="pl">tr&oacute;jn&oacute;g</trd>
+  <trd lng="ro">trepied</trd>
+  <trdgrp lng="ru">
+     <trd>&c_t;&c_r;&c_je;&c_n;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>,
+     <trd>&c_t;&c_r;&c_je;&c_n;&c_o;&c_g;&c_a;</trd>
+   </trdgrp>
+  <trd lng="sk">trojno&zcaron;ka</trd>
+  <trd lng="sv">trefot</trd>
+  <trdgrp lng="uk">
+    <trd>&c_t;&c_r;&c_i;&c_n;&c_ib;&c_zh;&c_o;&c_k;</trd>,
+    <trd>&c_s;&c_t;&c_o;&c_l;&c_i;&c_k; &c_n;&c_a; &c_t;&c_r;&c_mol;&c_o;&c_h; &c_n;&c_ib;&c_zh;&c_k;&c_a;&c_h;</trd>,
+    <trd>&c_s;&c_t;&c_ib;&c_l;&c_je;&c_c;&c_mol; &c_n;&c_a; &c_t;&c_r;&c_mol;&c_o;&c_h; &c_n;&c_ib;&c_zh;&c_k;&c_a;&c_h;</trd>,
+    <trd>&c_t;&c_r;&c_i;&c_n;&c_o;&c_g;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#19977;&#33050;&#26550; <pr>s&amacron;nji&#462;oji&agrave;</pr></trd>,
+    <trd>&#19977;&#33139;&#26550; <pr>s&amacron;nji&#462;oji&agrave;</pr></trd>,
+    <trd>&#40722; <pr>z&imacron;</pr></trd>
+  </trdgrp>
+</drv>
+<drv mrk="pied.vers0o">
+   <kap>vers<tld/>o</kap>
+   <snc mrk="pied.vers0o.POE">
+     <uzo tip="fak">POE</uzo>
+     <dif>
+       <ref tip="dif" cel="pied.0o.POE"><tld lit="P"/>o<sncref ref="pied.0o.POE"/></ref>:
+       <ekz>
+         kalkulas la poeto sur la fingroj / vers<tld/>nombrojn
+         <fnt><bib>PGl</bib> <lok>p. 99</lok></fnt>;
+       </ekz>
+      <ekz>
+        viraj rimoj principe kaj precipe esti&gcirc;as &ccirc;e la uzo de jamboj, de tiu
+        vers<tld/>o, kiu transiras de neakcenta al akcenta silabo
+        <fnt>
+          <vrk><url ref="https://lernu.net/fi/forumo/temo/1242">L'vorto / La vorto? / Neuvontapaikka
+          / Foorumi - lernu.net</url></vrk>
+        </fnt>.
+      </ekz>
+     </dif>
+      <trd lng="de">Versfu&szlig;</trd>
+   </snc>
+   <trd lng="be">&c_s;&c_t;&c_o;&c_p;&c_a; <klr>(&c_v;&c_je;&c_r;&c_sh;&c_a;)</klr></trd>
+   <trd lng="ca">peu <klr>(po&egrave;tica)</klr></trd>
+   <trd lng="en">foot <klr>(poetry)</klr></trd>
+   <trd lng="es">pie <klr>(poes&iacute;a)</klr></trd>
+   <trd lng="fr">pied<klr tip="ind"> (po&eacute;sie)</klr></trd>
+   <trd lng="hu">versl&aacute;b</trd>
+   <trd lng="it">piede<klr> (poes.)</klr></trd>
+   <trd lng="ja">&#35433;&#33050;  <pr>&#12375;&#12354;&#12375;</pr></trd>
+  <trd lng="pl">stopa <klr>(wierszowa)</klr></trd>
+   <trd lng="ro">picior de vers</trd>
+   <trd lng="ru">&c_s;&c_t;&c_o;&c_p;&c_a;<klr tip="amb">
+   (&c_s;&c_t;&c_i;&c_h;&c_o;&c_t;&c_v;&c_o;&c_r;&c_n;&c_a;&c_ja;)</klr></trd>
 </drv>
 
 <drv mrk="pied.0e_de">
@@ -759,581 +1430,36 @@
      <trd lng="ro">&icirc;n partea de jos</trd>
      <trd lng="ru">&c_u;  <ind>&c_p;&c_o;&c_d;&c_n;&c_o;&c_zh;&c_i;&c_ja;</ind></trd>
    </snc>
+   <trdgrp lng="be">
+     <trd>&c_u; <ind>&c_n;&c_a;&c_g;&c_a;&c_h;</ind></trd>,
+     <trd>&c_l;&c_ja; <ind>&c_p;&c_a;&c_d;&c_n;&c_o;&c_zh;&c_zh;&c_a;</ind></trd>,
+     <trd>&c_l;&c_ja; <ind>&c_a;&c_s;&c_n;&c_o;&c_v;&c_y;</ind></trd>
+   </trdgrp>
    <trdgrp lng="en">
      <trd>at the foot of</trd>,
      <trd>below</trd>
    </trdgrp>
    <trd lng="it">ai <ind>piedi</ind> di</trd>
-</drv>
-
-<drv mrk="pied.0ingo">
-  <kap>
-    <ofc>*</ofc><tld/>ingo
-    <fnt><bib>F</bib>, <lok>Universala Vortaro,
-    <url ref="&AdE;/fundamento/universala_vortaro.html#av-5158">pied'ing'</url></lok></fnt>
-  </kap>
-  <snc mrk="pied.0ingo.RAJ">
-    <dif>
-      Pli malpli ringforma subtenilo por la piedo de rajdanto, pendanta de la selo:
-      <ekz>
-        starante sur siaj <tld/>ingoj, sin klinante anta&ubreve;en por ke la rapideco de la
-        kurado ne lin sufoku, Viktoro penadis trafi
-        <fnt>
-          <bib>KPr</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        li defalas, restas alkro&ccirc;ita per <tld/>o en la <tld/>ingo,
-        kaj la furioze forrapidanta &ccirc;evalo posttrenas lin sur la &scirc;tona
-        tera&jcirc;o
-        <fnt>
-          <aut>Bertha von Suttner, trad. Armand Caumont</aut>
-          <vrk>For la batalilojn!</vrk>
-	  <lok>kvara libro</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="br">stleug</trd>
-  <trd lng="ca">estrep</trd>
-  <trd lng="cs">t&rcaron;men sedla</trd>
-  <trd lng="de">Steigb&uuml;gel</trd>
-  <trdgrp lng="en">
-     <trd>stirrup <klr>(horse)</klr></trd>,
-     <trd>toe-clip <klr>(bicycle)</klr></trd>
-   </trdgrp>
-  <trd lng="es">estribo<klr> (de la silla de montar)</klr></trd>
-  <trd lng="fr">&eacute;trier</trd>
-  <trd lng="hu">kengyel</trd>
-  <trdgrp lng="it">
-     <trd>staffa<klr> (equitazione)</klr></trd>,
-     <trd>puntapiede<klr> (bicicletta)</klr></trd>
-   </trdgrp>
-  <trd lng="ja">&#12354;&#12406;&#x307F;</trd>
-  <trd lng="nl">stijgbeugel</trd>
-  <trd lng="pl">strzemi&eogonek;</trd>
-  <trd lng="ro">sc&abreve;ri&#x21B;a</trd>
-  <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_m;&c_ja;</trd>
-  <trd lng="sk">strme&ncaron;</trd>
-  <trd lng="sv">stigbygel</trd>
-  <trd lng="uk">&c_s;&c_t;&c_r;&c_je;&c_m;&c_je;&c_n;&c_o;</trd>
-</drv>
-
-<drv mrk="pied.0umi">
-  <kap><tld/>umi</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="pied.0umi.KOMUNE">
-    <dif>
-      Vole a&ubreve; nevole tu&scirc;i, premi, bateti per la <tld/>o:
-      <ekz>
-        li kriegis kaj blasfemis &ccirc;iutage al la infanoj, <klr>[&#8230;]</klr> tiradis iliajn
-        orelojn, <tld/>umis ilin
-        <fnt>
-          <bib>VRA</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        lasi ilin <tld/>umi sub pordo kun la katido
-        <fnt>
-          <vrk><url
-          ref="https://medium.com/@builderofthecake/kiel-adopti-senhejman-katidon-e04f24078c05">Alvoku
-          vian bestkuraciston kaj enhorarigi renkonti&gcirc;on por la katido.</url></vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <nom>Dunkan</nom> <klr>[&#8230;]</klr> stre&ccirc;is la krurojn, tamen zorge, por ne
-        <tld/>umi iujn el la homfiguroj kiuj ku&scirc;e-side apogis sin
-        kontra&ubreve; la muro
-        <fnt>
-          <aut>J. Francis</aut>,
-          <vrk>La Granda Kaldrono</vrk>,
-          <lok>1978</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>mit dem Fu&szlig; <ind>sto&szlig;en</ind></trd>,
-    <trd>f&uuml;&szlig;eln</trd>
-  </trdgrp>
-  <trd lng="en">tread on, trample underfoot</trd>
-  <trd lng="fr">fouler aux pieds</trd>
-  <trdgrp lng="pl">
-    <trd>depta&cacute;</trd>,
-    <trd>tupa&cacute;</trd>
-  </trdgrp>
-  <trdgrp lng="ro">
-    <trd>c&abreve;lca</trd>,
-    <trd>pa&#537;i de step</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="pied.du0ulo">
-   <kap>du<tld/>ulo</kap>
-   <snc mrk="pied.du0ulo.ZOO">
-    <uzo tip="fak">ZOO</uzo>
-    <dif>
-      <ref tip="super" cel="animal.0o">Animalo</ref>, iranta sur du
-      <tld/>oj:
-      <ekz>
-        ni, du<tld/>uloj, vetura&ccirc;is kun malpli da spaco, malpli da bazaj komfortoj, ol
-        kvar<tld/>uloj protektataj de diversaj bestorajtaj le&gcirc;oj
-        <fnt>
-          <aut>Paul Gubbins</aut>
-          <vrk><url ref="&Monato;/2011/010541.php">Grincantaj genuoj ... kaj
-          &gcirc;entileco</url></vrk>
-          <bib>Monato</bib>
-          <lok>2011/12, p. 7</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-         mi opinias, ke du<tld/>ulo sen homaj virtoj ne estas reala
-         homo
-         <fnt>
-           <aut>Fanny Alving, trad. John Lundgren</aut>
-           <vrk>Uzino 2</vrk>
-           <lok>Trans la rozkrado</lok>
-         </fnt>.
-      </ekz>
-    </dif>
-      <trd lng="de">Zweibeiner</trd>
-   </snc>
-   <trd lng="br">daoudroadeg</trd>
-   <trd lng="ca">b&iacute;pede</trd>
-   <trd lng="en">biped</trd>
-   <trd lng="es">b&iacute;pedo</trd>
-   <trd lng="fr">bip&egrave;de<klr tip="ind"> (subst.)</klr></trd>
-   <trd lng="id">(hewan) ber<ind>kaki</ind> dua</trd>
-   <trd lng="it">bipede</trd>
-   <trdgrp lng="pl">
-     <trd>dw&oacute;jn&oacute;g</trd>,
-     <trd>zwierz&eogonek; <ind>dwuno&zdot;ne</ind></trd>
-   </trdgrp>
-   <trdgrp lng="ro">
-     <trd>biped</trd>,
-     <trd>animal biped</trd>
-   </trdgrp>
-   <trd lng="ru">&c_d;&c_v;&c_u;&c_n;&c_o;&c_g;&c_o;&c_je;
-&c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-</drv>
-
-<drv mrk="pied.kvar0ulo">
-   <kap>kvar<tld/>ulo</kap>
-   <snc mrk="pied.kvar0ulo.ZOO">
-     <uzo tip="fak">ZOO</uzo>
-     <dif>
-       <ref tip="super" cel="animal.0o">Animalo</ref>, iranta sur kvar
-       <tld/>oj:
-      <ekz>
-        la kvar<tld/>ulo estis &scirc;losita sen nutra&jcirc;o kaj akvo dum 17 tagnoktoj kaj tamen
-        restis viva
-        <fnt>
-          <aut>AMik</aut>
-          <vrk><url ref="&Monato;/2007/009134.php">Delikate ...</url></vrk>
-          <bib>Monato</bib>
-          <lok>2007/02, p. 11</lok>
-        </fnt>;
-      </ekz>
-       <ekz>
-         oni sur &gcirc;in ku&scirc;igis la vunditan kvar<tld/>ulon
-         <fnt>
-           <aut>Henri Vallienne</aut>
-           <vrk>Kastelo de Prelongo</vrk>
-           <lok>&ccirc;apitro 4a</lok>
-         </fnt>.
-       </ekz>
-     </dif>
-      <trd lng="de">Vierbeiner</trd>
-   </snc>
-   <trd lng="br">pevarzroadeg</trd>
-   <trd lng="ca">quadr&uacute;pede</trd>
-   <trd lng="en">quadruped</trd>
-   <trd lng="es">cuadr&uacute;pedo</trd>
-   <trd lng="fr">quadrup&egrave;de</trd>
-   <trd lng="id">(hewan) ber<ind>kaki</ind> empat</trd>
-   <trd lng="it">quadrupede</trd>
-   <trd lng="ja">&#x56DB;&#x8DB3;&#x52D5;&#29289;  <pr>&#12375;&#x305D;&#x304F;&#12393;&#12358;&#12406;&#12388;</pr></trd>
-  <trd lng="pl">czworon&oacute;g</trd>
-   <trd lng="ro">patruped</trd>
-   <trd lng="ru">&c_ch;&c_je;&c_t;&c_v;&c_je;&c_r;&c_o;&c_n;&c_o;&c_g;&c_o;&c_je; &c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-</drv>
-
-<drv mrk="pied.tri0o">
-  <kap>tri<tld/>o</kap>
-  <snc mrk="pied.tri0o.pendigilo">
-    <dif>
-      Piramidforma instala&jcirc;o el tri stangoj uzata ekz. por pendigi poton super fajro:
-      <ekz>
-        <klr>[ili]</klr> fandigis oron &ccirc;e malgrandaj flamoj super feraj tri<tld/>oj
-        <fnt>
-          <bib>Marta</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        se vi scius, kian banujon sendis la princo hodia&ubreve;, kupran banujon!... kaj kian
-        tri<tld/>on por la fajrujo, kiajn potojn <klr>[&#8230;]</klr>
-        <fnt>
-          <bib>Far1</bib>
-          <lok>&Ccirc;apitro IX</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <ref tip="sub" cel="stativ.0o">stativo</ref>
-  </snc>
-   <snc mrk="pied.tri0o.KOMUNE">
-     <dif>
-       Tablo, se&gcirc;o a&ubreve; subtenilo kun tri <tld/>oj:
-       <ekz>
-         <nom>Vinicius</nom> sidis sur tri<tld/>o
-         <fnt>
-           <aut>H. Sienkiewicz trad. L. &Z;</aut>
-           <vrk>Quo vadis?</vrk>
-           <lok>&ccirc;apitro 51a</lok>
-         </fnt>;
-       </ekz>
-       <ekz>
-         la fidela servistino metis la skribilaron sur kanapon kaj la
-         incensilon sur tri<tld/>on
-         <fnt>
-           <bib>I&scirc;tar</bib>
-           <lok>&ccirc;apitro 22a</lok>
-         </fnt>.
-       </ekz>
-     </dif>
-     <rim>
-       &leftquot;Tri<em>krura</em> se&gcirc;o&rightquot; estus pli trafa kaj klara.
-     </rim>
-     <adm>
-       &Ccirc;i rimarko estas &gcirc;usta, sed eble ne tre utila.
-       &Gcirc;i povus apliki&gcirc;i al &ccirc;iuj deriva&jcirc;oj de la tipo
-       "n-xo":
-       "triangula figuro" estas pli klara ol "triangulo",
-       "&ccirc;irka&ubreve;mana ornama&jcirc;o" pli ol
-       "&ccirc;irka&ubreve;mano", kaj multaj
-       similaj. <aut>MB</aut>
-     </adm>
-     <adm>
-       La rimarko celas ne tiom la strukturon de la kunmetajxo, kiom
-       la misan radikon: koncerna segxo povas tute ne havi piedojn
-       (iel apartajn, ekz-e pli dikajn, skulptitajn malsupran
-       ekstremajxojn), sed gxi nepre havas "krurojn" (aux
-       "gambojn").  Angle mi nomus ilin "legs"
-       (a tripod is a three-LEGGED object), ne "feet".
-       <aut>Sergio</aut>
-     </adm>
-   </snc>
-  <trd lng="ca">tr&iacute;pode</trd>
-  <trd lng="cs">trojno&zcaron;ka</trd>
-  <trd lng="de">Dreibein</trd>
-  <trd lng="en">tripod</trd>
-  <trd lng="es">tr&iacute;pode</trd>
-  <trd lng="fr">tr&eacute;pied</trd>
-  <trd lng="id">tripod</trd>
-  <trd lng="it">treppiede</trd>
-  <trdgrp lng="ja">
-    <trd>&#x4E09;&#x811A;&#12356;&#12377;  <pr>&#12373;&#12435;&#x304D;&#12419;&#x304F;&#12356;&#12377;</pr></trd>,
-    <trd>&#x4E09;&#x811A;&#x53F0;  <pr>&#12373;&#12435;&#x304D;&#12419;&#x304F;&#12384;&#12356;</pr></trd>,
-    <trd>&#x4E09;&#x811A;  <pr>&#12373;&#12435;&#x304D;&#12419;&#x304F;</pr></trd>
-  </trdgrp>
-  <trd lng="pl">tr&oacute;jn&oacute;g</trd>
-  <trd lng="ro">trepied</trd>
-  <trdgrp lng="ru">
-     <trd>&c_t;&c_r;&c_je;&c_n;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>,
-     <trd>&c_t;&c_r;&c_je;&c_n;&c_o;&c_g;&c_a;</trd>
-   </trdgrp>
-  <trd lng="sk">trojno&zcaron;ka</trd>
-  <trd lng="sv">trefot</trd>
-  <trdgrp lng="uk">
-    <trd>&c_t;&c_r;&c_i;&c_n;&c_ib;&c_zh;&c_o;&c_k;</trd>,
-    <trd>&c_s;&c_t;&c_o;&c_l;&c_i;&c_k; &c_n;&c_a; &c_t;&c_r;&c_mol;&c_o;&c_h; &c_n;&c_ib;&c_zh;&c_k;&c_a;&c_h;</trd>,
-    <trd>&c_s;&c_t;&c_ib;&c_l;&c_je;&c_c;&c_mol; &c_n;&c_a; &c_t;&c_r;&c_mol;&c_o;&c_h; &c_n;&c_ib;&c_zh;&c_k;&c_a;&c_h;</trd>,
-    <trd>&c_t;&c_r;&c_i;&c_n;&c_o;&c_g;&c_a;</trd>
-  </trdgrp>
-</drv>
-
-<!-- neniu cita&jcirc;oj trovitaj!
-<drv mrk="pied.kapo0e">
-   <kap>kapo<tld/>e</kap>
-   <snc mrk="pied.kapo0e.KOMUNE">
-     <dif>
-       Starante duope tiel, ke &ccirc;iu havas la kapon en la loko, en
-       kiu la alia havas la <tld/>ojn.
-     </dif>
-      <trd lng="de">Kopf-bei-Fu&szlig;</trd>
-   </snc>
-  <trdgrp lng="en">
-     <trd>end-to-end</trd>,
-     <trd>head-to-toe</trd>
-   </trdgrp>
-  <trd lng="fr">t&ecirc;te-b&ecirc;che</trd>
-  <trd lng="hu">fejt&odblac;l-l&aacute;bt&oacute;l</trd>
-  <trd lng="nl">kop-aan-staart</trd>
-  <trd lng="pl">pozycja 69</trd>
-  <trd lng="ru">&c_v;&c_a;&c_l;&c_je;&c_t;&c_o;&c_m;</trd>
-  <trd lng="sk">hore nohami</trd>
-</drv>
--->
-
-<drv mrk="pied.kapo0uloj">
-  <kap>kapo<tld/>uloj</kap>
-  <uzo tip="stl">KOMUNE</uzo>
-  <snc mrk="pied.kapo0uloj.ZOO">
-    <uzo tip="fak">ZOO</uzo>
-    <dif>
-      <ref tip="dif" cel="cefalo.0oj">Cefalopodoj</ref>:
-      <ekz>
-        li estas okupata dismeti siajn kap<tld/>ulojn en la suno, kiam ili estas sekaj,
-        li vendos ilin kiel loga&jcirc;ojn por skombroj
-        <fnt>
-          <bib>MD14</bib>
-          <vrk>Allogi la membrojn de la diasporo</vrk>
-        </fnt>;
-      </ekz>
-      <ekz>
-        amonito estis kapo<tld/>ulo, kiu vivis de malfrua Devonio &gcirc;is malfrua Kretaceo
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=36146">Amonito</url></lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <trd lng="de">Kopff&uuml;&szlig;er</trd>
-  </snc>
-  <trd lng="br">penntroadeged</trd>
-  <trd lng="ca">cefal&ograve;podes</trd>
-  <trd lng="cs">hlavono&zcaron;ci</trd>
-  <trd lng="en">cephalopods</trd>
-  <trd lng="es">cefal&oacute;podos</trd>
-  <trd lng="fr">c&eacute;phalopodes</trd>
-  <trd lng="hu">l&aacute;basfej&udblac;ek</trd>
-  <trd lng="id">sefalopoda</trd>
-  <trd lng="it">cefalopodi</trd>
-  <trd lng="pl">g&lstroke;owonogi</trd>
-  <trdgrp lng="ro">
-     <trd>cephalopoda</trd>,
-     <trd>cefalopoda</trd>
-   </trdgrp>
-   <trd lng="ru">&c_g;&c_o;&c_l;&c_o;&c_v;&c_o;&c_n;&c_o;&c_g;&c_i;&c_je;</trd>
-  <trd lng="sk">hlavono&zcaron;ce</trd>
-  <trdgrp lng="uk">
-    <trd>&c_c;&c_je;&c_f;&c_a;&c_l;&c_o;&c_p;&c_o;&c_d;&c_i;</trd>,
-    <trd>&c_g;&c_o;&c_l;&c_o;&c_v;&c_o;&c_n;&c_o;&c_g;&c_ib; &c_m;&c_o;&c_l;&c_ju;&c_s;&c_k;&c_i;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="pied.mult0uloj">
-   <kap>mult<tld/>uloj</kap>
-   <uzo tip="stl">KOMUNE</uzo>
-   <snc mrk="pied.mult0uloj.ZOO">
-     <uzo tip="fak">ZOO</uzo>
-     <dif>
-       <ref tip="dif" cel="miriap.0oj.ZOO">Miriapodoj</ref>:
-       <ekz>
-         mult<tld/>ulo <klr>[&#8230;]</klr> artikulo kun multaj <tld/>oj
-         <fnt>
-         <aut>T. Jansson, trad. S. Johansson</aut>,
-         <vrk><url ref="http://www.geocities.com/muminvalo">Muminvalo</url></vrk>,
-         <lok>Glosaro</lok>
-         </fnt>.
-       </ekz>
-     </dif>
-   </snc>
-   <trd lng="be">&c_m;&c_n;&c_a;&c_g;&c_a;&c_n;&c_o;&c_zh;&c_k;&c_ib;
-   <klr tip="amb">(&c_k;&c_l;&c_ja;&c_s;)</klr></trd>
-   <trd lng="ca">miri&agrave;podes</trd>
-   <trd lng="de">Tausendf&uuml;&szlig;er</trd>
-   <trd lng="en">myriapods</trd>
-   <trdgrp lng="es">
-     <trd>miri&aacute;podos</trd>,
-     <trd>miri&oacute;podos</trd>
-   </trdgrp>
-   <trd lng="fr">myriapodes</trd>
-   <trd lng="hu">sokl&aacute;b&uacute;ak</trd>
-   <trdgrp lng="id">
-     <trd>miriapod</trd>,
-     <trd>(hewan) ber<ind>kaki</ind> banyak</trd>
-   </trdgrp>
-   <trd lng="it">miriapodi</trd>
-   <trd lng="nl">duizendpoten</trd>
-   <trdgrp lng="pl">
-     <trd>krocion&oacute;&zdot;ki</trd>,
-     <trd>wije</trd>
-   </trdgrp>
-   <trdgrp lng="ro">
-     <trd>milipede</trd>,
-     <trd>miriapode</trd>
-   </trdgrp>
-   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_n;&c_o;&c_zh;&c_k;&c_i;
-   <klr tip="amb">(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>
-</drv>
-
-<drv mrk="pied.sur0igi">
-  <kap>
-    sur<tld/>igi
-  </kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="pied.sur0igi.TEKS">
-    <dif>
-      Sur&scirc;ovi, <ref cel="met.sur0i.veston">surmeti<sncref/></ref> sur piedon:
-      <ekz>
-        ili <klr>[&#8230;]</klr> sur<tld/>igis molajn &scirc;uojn
-        <fnt>
-          <aut>J. R. R. Tolkien, trad. C. Gledhill</aut>
-          <vrk>La Hobito</vrk>
-          <lok>2005</lok>
-        </fnt>;
-      </ekz>
-      <ekz>
-        malri&ccirc;aj poetoj, kiuj ne havis &scirc;uojn por sur<tld/>igi,
-        &ccirc;ar sian solan paron ili fordonis por ripari
-        <fnt>
-          <bib>Rabistoj</bib>
-          <lok>Akto Dua</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="en">put on the feet</trd>
-  <trd lng="fr">chausser</trd>
-  <trd lng="pl">za&lstroke;o&zdot;y&cacute; na nogi</trd>
-  <trd lng="ro">pune pe picioare</trd>
-</drv>
-
-<drv mrk="pied.sur0igxi">
-   <kap>sur<tld/>i&gcirc;i</kap>
-   <gra><vspec>ntr</vspec></gra>
-   <snc mrk="pied.sur0igxi.KOMUNE">
-     <dif>
-       <ref tip="super" cel="star.ek0i.KOMUNE">Ekstari</ref> sur siaj
-       <tld/>oj:
-       <ekz>
-         <nom>Maksim</nom> facilmove sur<tld/>i&gcirc;is
-         <fnt>
-           <aut>V. &Scirc;uk&scirc;in, trad. N. Lozga&ccirc;ev</aut>,
-           <vrk>Simbolo de kredo</vrk>,
-           <bib>LOdE</bib>,
-           <lok>1994:3-4</lok>
-         </fnt>;
-       </ekz>
-      <ekz>
-        li haltigis sian mulon, sur<tld/>i&gcirc;is kaj ligis &gcirc;in al la pordega ringo
-        <fnt>
-          <bib>MkM</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        la kruroj de <nom>Nevil</nom> liberi&gcirc;is kaj li sur<tld/>i&gcirc;is skui&gcirc;ante
-        <fnt>
-          <vrk><url ref="https://www.rulit.me/books/hari-potter-kaj-la-read-374478-43.html">Hari
-          Potter kaj la &Scirc;tono de la...</url></vrk>
-        </fnt>.
-      </ekz>
-     </dif>
-      <trd lng="de">auf die <ind>F&uuml;&szlig;e</ind> kommen</trd>
-   </snc>
-   <trdgrp lng="ca">
-     <trd>estar-se dret</trd>,
-     <trd>dre&ccedil;ar-se</trd>
-   </trdgrp>
-   <trdgrp lng="en">
-     <trd>stand up</trd>,
-     <trd>get on one's feet</trd>
-   </trdgrp>
-   <trdgrp lng="es">
-     <trd><ind>erguir</ind>se</trd>,
-     <trd>ponerse de pie</trd>
-   </trdgrp>
-   <trdgrp lng="fr">
-     <trd>se <ind>mettre sur pieds</ind></trd>,
-     <trd>se lever<klr> (sur ses pieds)</klr></trd>
-   </trdgrp>
-   <trdgrp lng="it">
-     <trd>mettersi in <ind>piedi</ind></trd>,
-     <trd>alzarsi in <ind>piedi</ind></trd>
-   </trdgrp>
-   <trdgrp lng="pl">
-     <trd>stan&aogonek;&cacute; na nogi</trd>,
-     <trd>wsta&cacute;  <klr>(na nogi)</klr></trd>
-   </trdgrp>
-   <trdgrp lng="ro">
-     <trd>stai pe picioare</trd>,
-     <trd>ridic&abreve;-te  <klr>(&icirc;n picioare)</klr></trd>
-   </trdgrp>
-</drv>
-
-<drv mrk="pied.sxajn0o">
-  <kap>&scirc;ajn<tld/>o</kap>
-  <snc mrk="pied.sxajn0o.BIO">
-    <uzo tip="fak">BIO</uzo>
-    <fnt><bib>OA9</bib></fnt>
-    <dif>
-      Lobo a&ubreve; fadeno de &ccirc;elinterna substanco, servanta
-      al iuj <ref cel="cxel.0o.BIO">&ccirc;eloj</ref> por enkorpigi
-      al si eksteran materialon, a&ubreve; por movi&gcirc;i:
-      <ekz>
-        <klr>[&ccirc;e]</klr> protistoj <klr>[&#8230;]</klr> la anta&ubreve;en-movi&gcirc;o okazas ofte na&gcirc;ante
-        per flageloj a&ubreve; cilioj a&ubreve; per <klr>[&#8230;]</klr> &scirc;ajn<tld/>oj
-        <fnt>
-          <bib>Viki</bib>
-          <lok><url ref="https://eo.wikipedia.org/?curid=21302">Protistoj</url></lok>
-        </fnt>.
-      </ekz>
-     </dif>
-     <ref tip="vid" cel="ameb.0o">amebo</ref>
-      <trd lng="de">Scheinf&uuml;&szlig;chen</trd>
-  </snc>
-   <trd lng="ca">pseudopodi</trd>
-   <trd lng="en">pseudopod</trd>
-   <trdgrp lng="es">
-     <trd>pseud&oacute;podo</trd>,
-     <trd>seud&oacute;podo</trd>
-   </trdgrp>
-   <trd lng="fr">pseudopode</trd>
-   <trdgrp lng="id">
-     <trd>pseudopodia</trd>,
-     <trd><ind>kaki</ind> semu</trd>
-   </trdgrp>
-   <trd lng="it">pseudopodo</trd>
-   <trd lng="pl">nibyn&oacute;&zdot;ka</trd>
-   <trd lng="ro">pseudopod</trd>
-</drv>
-
-<drv mrk="pied.vers0o">
-   <kap>vers<tld/>o</kap>
-   <snc mrk="pied.vers0o.POE">
-     <uzo tip="fak">POE</uzo>
-     <dif>
-       <ref tip="dif" cel="pied.0o.POE"><tld lit="P"/>o<sncref ref="pied.0o.POE"/></ref>:
-       <ekz>
-         kalkulas la poeto sur la fingroj / vers<tld/>nombrojn
-         <fnt><bib>PGl</bib> <lok>p. 99</lok></fnt>;
-       </ekz>
-      <ekz>
-        viraj rimoj principe kaj precipe esti&gcirc;as &ccirc;e la uzo de jamboj, de tiu
-        vers<tld/>o, kiu transiras de neakcenta al akcenta silabo
-        <fnt>
-          <vrk><url ref="https://lernu.net/fi/forumo/temo/1242">L'vorto / La vorto? / Neuvontapaikka
-          / Foorumi - lernu.net</url></vrk>
-        </fnt>.
-      </ekz>
-     </dif>
-      <trd lng="de">Versfu&szlig;</trd>
-   </snc>
-   <trd lng="ca">peu <klr>(po&egrave;tica)</klr></trd>
-   <trd lng="en">foot <klr>(poetry)</klr></trd>
-   <trd lng="es">pie <klr>(poes&iacute;a)</klr></trd>
-   <trd lng="fr">pied<klr tip="ind"> (po&eacute;sie)</klr></trd>
-   <trd lng="hu">versl&aacute;b</trd>
-   <trd lng="it">piede<klr> (poes.)</klr></trd>
-   <trd lng="ja">&#x8A69;&#x811A;  <pr>&#12375;&#12354;&#12375;</pr></trd>
-  <trd lng="pl">stopa <klr>(wierszowa)</klr></trd>
-   <trd lng="ro">picior de vers</trd>
-   <trd lng="ru">&c_s;&c_t;&c_o;&c_p;&c_a;<klr tip="amb">
-   (&c_s;&c_t;&c_i;&c_h;&c_o;&c_t;&c_v;&c_o;&c_r;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trd lng="zh">&#40595; <pr>l&ugrave;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.163 2024/11/29 10:33:18
+Dmitri Gabinski: + trd be
+
+versio 1.162 2024/11/25 10:33:51
+Dmitri Gabinski: + trd be
+
+versio 1.161 2024/07/31 21:27:04
+Wolfram Diestel: ref
+
+versio 1.160 2024/07/31 15:27:02
+Wolfram Diestel: +bld kun piedpartoj k -ostoj
+
+versio 1.159 2024/02/17 21:20:31
+Wolfram Diestel: verspiedoj: +smbj; -bld; drv-ordo
+
 versio 1.157 2023/12/12 20:10:26
 revo: kor. lat. transskribo/latvaj literoj
 
@@ -1341,20 +1467,5 @@ versio 1.156 2023/10/20 16:38:16
 revo: transskribo per <pr>
 
 versio 1.155 2023/10/18 06:31:34
-Eko Nur Syah Hidayat: +trd id
-
-versio 1.154 2023/10/08 18:33:36
-revo: transskribo per <pr>
-
-versio 1.152 2023/08/29 17:27:18
-Wolfram Diestel: ja: prononco
-
-versio 1.151 2023/08/26 13:23:36
-Mahaer Mahmud: aldonis bildon
-
-versio 1.150 2023/05/15 18:30:15
-Wolfram Diestel: kor. lat. literon en trd ru
-
-versio 1.149 2023/05/14 17:26:55
 -->
 </vortaro>

@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: semajn.xml,v 1.119 2023/12/12 20:10:27 revo Exp $">
+<art mrk="$Id: semajn.xml,v 1.121 2024/08/24 18:32:59 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>semajn</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="semajn.0o">
@@ -134,6 +135,7 @@
     <trd>pekan</trd>
   </trdgrp>
   <trd lng="ig">izu</trd>
+  <trd lng="ils" kod="M541x547S2ff00482x483S1ec20485x528S26606511x530"></trd>
   <trd lng="is">viku</trd>
   <trd lng="it">settimana</trd>
   <trd lng="ja">&#36913; <pr>&#12375;&#12421;&#12358;</pr></trd>
@@ -147,7 +149,7 @@
   <trd lng="ky">&c_zh;&c_u;&c_m;&c_a;</trd>
   <trd lng="lo">&#xEAD;&#xEB2;&#xE97;&#xEB4;&#xE94;</trd>
   <trd lng="lt">savait&eogonek;</trd>
-  <trd lng="lv">ned&#275;&#316;a</trd>
+  <trd lng="lv">ned&emacron;&#x13C;a</trd>
   <trd lng="mg">herinandro</trd>
   <trd lng="mi">wiki</trd>
   <trd lng="mk">&c_n;&c_je;&c_d;&c_je;&c_l;&c_a;</trd>
@@ -169,6 +171,8 @@
   <trd lng="rw">icyumweru</trd>
   <trd lng="sd">&a_h;&a_f;&a_t;&a_w;</trd>
   <trd lng="si">&#xDC3;&#xDAD;&#xDD2;&#xDBA;&#xDDA;</trd>
+  <trd lng="sgn"
+  kod="M521x518S2ff00482x483S36d00479x499S14708472x459S20500480x449S1b042478x454">j@37*</trd>
   <trd lng="sk">t&yacute;&zcaron;de&ncaron;</trd>
   <trd lng="sl">teden</trd>
   <trd lng="sm">vaiaso</trd>
@@ -193,6 +197,11 @@
   <trd lng="xh">iveki</trd>
   <trd lng="yi">&vav;&vav;&alef;&#x5B8;&fkaf;</trd>
   <trd lng="yo">&#x1ECD;s&#x1EB9;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x661F;&#x671F; <pr>x&#x12B;ngq&#x12B;</pr></trd>,
+    <trd>&#x793C;&#x62DC; <pr>l&#x1D0;b&#xE0;i</pr></trd>,
+    <trd>&#x79AE;&#x62DC; <pr>l&#x1D0;b&#xE0;i</pr></trd>
+  </trdgrp>
   <trd lng="zu">ngesonto</trd>
 </drv>
 
@@ -257,6 +266,11 @@
     <trd>t&yacute;&zcaron;d&ncaron;ov&yacute;</trd>
   </trdgrp>
   <trd lng="uk">&c_t;&c_i;&c_zh;&c_n;&c_je;&c_v;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6BCF;&#x661F;&#x671F; <pr>m&#x11B;ix&#x12B;ngq&#x12B;</pr></trd>,
+    <trd>&#x6BCF;&#21608; <pr>m&#x11B;izh&#x14D;u</pr></trd>,
+    <trd>&#x6BCF;&#21608;&#x4E00;&#x6B21; <pr>m&#x11B;izh&#x14D;uy&#x12B;c&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="semajn.0fino">
@@ -313,11 +327,21 @@
     <trd>&c_v;&c_i;&c_h;&c_ib;&c_d;&c_n;&c_ib;</trd>,
     <trd>&c_u;&c_ji;&c_k;-&c_je;&c_n;&c_d;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21608;&#x672B; <pr>zh&#x14D;um&#xF2;</pr></trd>,
+    <trd>&#36913;&#x672B; <pr>zh&#x14D;um&#xF2;</pr></trd>,
+    <trd>&#21608;&#x672A; <pr>zh&#x14D;uw&#xE8;i</pr></trd>,
+    <trd>&#36913;&#x672A; <pr>zh&#x14D;uw&#xE8;i</pr></trd>,
+    <trd>&#36913;&#x672B; <pr>zh&#x14D;um&#xF2;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.121 2024/08/24 18:32:59
+Wolfram Diestel: +trd ils, sgn
+
 versio 1.119 2023/12/12 20:10:27
 revo: kor. lat. transskribo/latvaj literoj
 
@@ -337,8 +361,5 @@ versio 1.113 2023/04/11 18:56:02
 aktualigo Monato-URL
 
 versio 1.112 2022/11/09 07:29:10
-Wolfram Diestel: +ekz-oj
-
-versio 1.111 2022/05/05 05:09:56
 -->
 </vortaro>

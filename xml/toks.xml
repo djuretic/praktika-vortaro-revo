@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: toks.xml,v 1.12 2023/10/21 14:37:42 revo Exp $">
+  <art mrk="$Id: toks.xml,v 1.14 2024/05/10 10:43:45 revo Exp $">
     <kap>
       <rad>toks</rad>/a
     </kap>
@@ -26,7 +26,7 @@
       <ekz>
         tiuj dan&gcirc;eraj <tld/>aj materialoj dan&gcirc;erigas la la&ubreve;bordajn
         regionojn
-        <fnt><aut>Katalin Smid&eacute;liusz</aut>: 
+        <fnt><aut>Katalin Smid&eacute;liusz</aut>:
           <vrk><url ref="&Monato;/2000/006912.php">Cinike cianide -- &ccirc;u respondecas
           Okcidento?</url></vrk>,
           <bib>Monato</bib>
@@ -35,7 +35,7 @@
       </ekz>
       <ekz>
         multe da <tld/>aj gasoj povas deflui la&ubreve; la flanko de la vulkano
-        <fnt><aut>Evgeni Georgiev</aut>: 
+        <fnt><aut>Evgeni Georgiev</aut>:
           <vrk><url ref="&Monato;/2001/007234.html">Vulkanoj</url></vrk>,
           <bib>Monato</bib>
           <lok>2001/02, p. 22</lok>
@@ -50,10 +50,18 @@
     <trd lng="de">toxisch</trd>
     <trd lng="en">toxic</trd>
     <trd lng="fr">toxique</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6709;&#x6BD2; <pr>y&#x1D2;ud&#xFA;</pr></trd>,
+    <trd>&#x4E2D;&#x6BD2;&#x6027; <pr>zh&#xF2;ngd&#xFA;x&#xEC;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="ja">
     <trd>&#x6BD2;&#x306E;  <pr>&#x3069;&#x304F;&#x306E;</pr></trd>,
     <trd>&#x6709;&#x6BD2;&#x306A;  <pr>&#x3086;&#x3046;&#x3069;&#x304F;&#x306A;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>toksyczny</trd>,
+    <trd>truj&aogonek;cy</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_t;&#x43E;&#x43A;&c_s;&c_i;&c_ch;&#x43D;&c_i;&c_j;</trd>,
@@ -121,6 +129,15 @@
   <trd lng="de">Giftstoff</trd>
   <trd lng="fr">toxine</trd>
   <trd lng="ja">&#x6BD2;&#x7269;  <pr>&#x3069;&#x304F;&#x3076;&#x3064;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>trucizna</trd>,
+    <trd>narkotyk</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6709;&#x6BD2;&#x7269;&#x8CEA; <pr>y&#x1D2;ud&#xFA;w&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x6709;&#x6BD2;&#x7269;&#x8D28; <pr>y&#x1D2;ud&#xFA;w&#xF9;zh&#xEC;</pr></trd>,
+    <trd>&#x6BD2;&#x7D20; <pr>d&#xFA;s&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="toks.sen0igo">
@@ -159,13 +176,22 @@
   </trdgrp>
   <trd lng="en">detox</trd>
   <trd lng="fr">d&eacute;sintoxication</trd>
+  <trdgrp lng="pl">
+    <trd>odtruwanie</trd>,
+    <trd>detoksykacja</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6392;&#x6BD2; <pr>p&#xE1;id&#xFA;</pr></trd>,
+    <trd>&#x53BB;&#x6BD2; <pr>q&#xF9;d&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
-
-
   </art>
 
 <!--
 $Log$
+versio 1.13 2024/02/24 21:19:38
+Vito Redsky: +trd pl 
+
 versio 1.12 2023/10/21 14:37:42
 revo: transskribo per <pr>
 
@@ -185,8 +211,5 @@ versio 1.5 2021/11/23 08:35:10
 Dmitri Gabinski: + trd be
 
 versio 1.4 2020/05/15 11:34:10
-Wolfram Diestel: +var maltoksigo kun ekz, snc-mrk
-
-versio 1.3 2020/05/14 12:11:53
 -->
 </vortaro>

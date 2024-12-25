@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: mucila.xml,v 1.17 2023/10/19 18:36:53 revo Exp $">
+<art mrk="$Id: mucila.xml,v 1.19 2024/08/20 06:34:17 revo Exp $">
 <kap>
   <rad>mucilag</rad>/o
+  <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="mucila.0o">
   <kap><tld/>o</kap>
-
   <snc mrk="mucila.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
@@ -28,6 +28,9 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="gum.0o">gumo</ref>
+    </refgrp>
     <rim>
       Mucilagaj substancoj konsistas precipe el heteropolisa&hcirc;aridoj, ekz. pektinoj.
       Substancojn bestajn kun similaj ecoj sed alia &hcirc;emia konsisto (t.e. glikoproteinoj)
@@ -47,18 +50,13 @@
     <uzo tip="fak">KEM</uzo>
     <uzo tip="fak">MED</uzo>
     <dif>
-      Viskeca likva&jcirc;o, uzata en la farmacio kaj kiun oni ricevas
-      solvante
-      ian guma&jcirc;on en akvo.
+      Viskeca likva&jcirc;o, uzata en la farmacio, precipe en naturkuracado, kaj kiun oni ricevas
+      solvante ian guma&jcirc;on en akvo.
     </dif>
-    <adm>
-      &Ccirc;u tiu difino estas a&ubreve; estis iam aktuala. Mi ne trovis ekzemplon,
-      nek klarigojn ekz. en Vikipedio, pri kio fakte temas.
-      <aut>WD</aut>
-    </adm>
     <trdgrp lng="en"><trd>mucilage</trd>, <trd>gum</trd></trdgrp>
     <trd lng="hu">ny&aacute;lka<klr tip="ind"> (n&ouml;v&eacute;nyi)</klr></trd>
     <trd lng="be">&c_k;&c_l;&c_je;&c_j; &c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_n;&c_y;</trd>
+    <trd lng="de">Muzilaginosum</trd>
     <trdgrp lng="pl">
       <trd>mucilago</trd>,
       <trd>klej ro&sacute;linny</trd>
@@ -71,20 +69,26 @@
   </trdgrp>
   <trd lng="fr">mucilage</trd>
   <trdgrp lng="ja">
-    <trd>&#x7C98;&#x6DB2;  <pr>&#x306D;&#12435;&#12360;&#x304D;</pr></trd>,
-    <trd>&#x7C98;&#x6F3F;&#x85AC;  <pr>&#x306D;&#12400;&#x6F3F;&#x85AC;</pr></trd>
+    <trd>&#31896;&#28082; <pr>&#12397;&#12435;&#12360;&#12365;</pr></trd>,
+    <trd>&#31896;&#28479;&#34220; <pr>&#12397;&#12400;&#12388;&#12367;&#12426;&#65381;&#12415;&#12378;&#12420;&#12367;</pr></trd>
   </trdgrp>
   <trd lng="nl">slijm<klr tip="ind"> (v.gom of planten)</klr></trd>
   <trd lng="pt">mucilagem <klr tip="amb">(bot.)</klr></trd>
   <trd lng="sk">rastlinn&yacute; sliz</trd>
   <trdgrp lng="uk">
-    <trd>&c_r;&#x43E;&c_s;&#x43B;&c_i;&#x43D;&#x43D;&c_i;&c_j; &c_s;&#x43B;&c_i;&c_z;</trd>,
-    <trd>&c_r;&#x43E;&c_z;&c_ch;&c_i;&#x43D; &c_v;&#x43E;&c_d;&#x43D;&#x43E;&c_ji; &c_gu;&c_u;&#x43C;&c_i;</trd>
+    <trd>&c_r;&c_o;&c_s;&c_l;&c_i;&c_n;&c_n;&c_i;&c_j; &c_s;&c_l;&c_i;&c_z;</trd>,
+    <trd>&c_r;&c_o;&c_z;&c_ch;&c_i;&c_n; &c_v;&c_o;&c_d;&c_n;&c_o;&c_ji; &c_gu;&c_u;&c_m;&c_i;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.19 2024/08/20 06:34:17
+Wolfram Diestel: kor. trd de
+
+versio 1.18 2024/08/19 21:26:39
+Wolfram Diestel: fnt PVEF, ref, ja pr
+
 versio 1.17 2023/10/19 18:36:53
 revo: transskribo per <pr>
 
@@ -101,11 +105,5 @@ Revision 1.10  2015/09/12 20:10:19  revo
 Cindy Moon McKee: +trd en
 
 Revision 1.9  2015/07/04 08:37:39  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.8  2015/06/29 16:33:20  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.7  2006/08/16 19:53:15  revo
 -->
 </vortaro>

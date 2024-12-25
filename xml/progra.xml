@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: progra.xml,v 1.60 2023/10/20 16:38:17 revo Exp $">
+<art mrk="$Id: progra.xml,v 1.63 2024/11/28 08:36:55 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>program</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="progra.0o">
   <kap><tld/>o</kap>
@@ -241,15 +242,15 @@
   </trdgrp>
   <trd lng="io">programo</trd>
   <trdgrp lng="ja">
-    <trd>&#12503;&#12525;&#12464;&#12521;&#12512;  <pr>&#12407;&#12429;&#12368;&#12425;&#12416;</pr></trd>,
-    <trd>&#28436;&#30446;  <pr>&#12360;&#12435;&#12418;&#12367;</pr></trd>,
-    <trd>&#24335;&#27425;&#31532;  <pr>&#12375;&#12365;&#12375;&#12384;&#12356;</pr></trd>,
-    <trd>&#30058;&#32068;  <pr>&#12400;&#12435;&#12368;&#12415;</pr></trd>,
-    <trd>&#26085;&#31243;  <pr>&#12395;&#12387;&#12390;&#12356;</pr></trd>,
-    <trd>&#20104;&#23450;  <pr>&#12424;&#12390;&#12356;</pr></trd>,
-    <trd>&#23398;&#32722;&#35336;&#30011;  <pr>&#12364;&#12367;&#12375;&#12421;&#12358;&#12369;&#12356;&#12363;&#12367;</pr></trd>,
-    <trd>&#25480;&#26989;&#35336;&#30011;  <pr>&#12376;&#12421;&#12366;&#12423;&#12358;&#12369;&#12356;&#12363;&#12367;</pr></trd>,
-    <trd>&#32177;&#38936;  <pr>&#12371;&#12358;&#12426;&#12423;&#12358;</pr></trd>
+    <trd>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;  <pr>&#12407;&#x308D;&#12368;&#12425;&#12416;</pr></trd>,
+    <trd>&#x6F14;&#x76EE;  <pr>&#12360;&#12435;&#12418;&#x304F;</pr></trd>,
+    <trd>&#x5F0F;&#x6B21;&#x7B2C;  <pr>&#12375;&#x304D;&#12375;&#12384;&#12356;</pr></trd>,
+    <trd>&#x756A;&#x7D44;  <pr>&#12400;&#12435;&#12368;&#x307F;</pr></trd>,
+    <trd>&#x65E5;&#x7A0B;  <pr>&#x306B;&#12387;&#12390;&#12356;</pr></trd>,
+    <trd>&#x4E88;&#x5B9A;  <pr>&#12424;&#12390;&#12356;</pr></trd>,
+    <trd>&#x5B66;&#x7FD2;&#x8A08;&#x753B;  <pr>&#x304C;&#x304F;&#12375;&#12421;&#12358;&#12369;&#12356;&#x304B;&#x304F;</pr></trd>,
+    <trd>&#25480;&#x696D;&#x8A08;&#x753B;  <pr>&#12376;&#12421;&#x304E;&#12423;&#12358;&#12369;&#12356;&#x304B;&#x304F;</pr></trd>,
+    <trd>&#x7DB1;&#38936;  <pr>&#12371;&#12358;&#x308A;&#12423;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="nl">programma</trd>
   <trd lng="no">program</trd>
@@ -263,6 +264,20 @@
   <trd lng="sv">program</trd>
   <trd lng="uk">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_a;</trd>
   <trd lng="vo">program</trd>
+  <trdgrp lng="zh">
+    <trd>&#22823;&#x7DB1; <pr>d&#xE0;g&amacron;ng</pr></trd>,
+    <trd>&#22823;&#x7EB2; <pr>d&#xE0;g&amacron;ng</pr></trd>,
+    <trd>&#x7BC0;&#x76EE; <pr>ji&#xE9;m&#xF9;</pr></trd>,
+    <trd>&#33410;&#x76EE; <pr>ji&#xE9;m&#xF9;</pr></trd>,
+    <trd>&#x65B9;&#26696; <pr>f&amacron;ng&#xE0;n</pr></trd>,
+    <trd>&#x7A0B;&#x5E8F;&#24615; <pr>ch&#xE9;ngx&#xF9;x&#xEC;ng</pr></trd>,
+    <trd>&#x7DB1;&#38936; <pr>g&amacron;ngl&#x1D0;ng</pr></trd>,
+    <trd>&#x7EB2;&#39046; <pr>g&amacron;ngl&#x1D0;ng</pr></trd>,
+    <trd>&#x65E5;&#x7A0B; <pr>r&#xEC;ch&#xE9;ng</pr></trd>,
+    <trd>&#x7A0B;&#x5E8F; <pr>ch&#xE9;ngx&#xF9;</pr></trd>,
+    <trd>&#x515A;&#x7EB2; <pr>d&#x1CE;ngg&amacron;ng</pr></trd>,
+    <trd>&#x9EE8;&#x7DB1; <pr>d&#x1CE;ngg&amacron;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="progra.0i">
@@ -385,8 +400,8 @@
   <trd lng="fr">programmer</trd>
   <trd lng="hu">programoz</trd>
   <trdgrp lng="ja">
-    <trd>&#30058;&#32068;&#12434;&#32232;&#25104;&#12377;&#12427;  <pr>&#12400;&#12435;&#12368;&#12415;&#12434;&#12408;&#12435;&#12379;&#12356;&#12377;&#12427;</pr></trd>,
-    <trd>&#12503;&#12525;&#12464;&#12521;&#12512;&#12377;&#12427;  <pr>&#12407;&#12429;&#12368;&#12425;&#12416;&#12377;&#12427;</pr></trd>
+    <trd>&#x756A;&#x7D44;&#12434;&#x7DE8;&#25104;&#12377;&#x308B;  <pr>&#12400;&#12435;&#12368;&#x307F;&#12434;&#12408;&#12435;&#x305B;&#12356;&#12377;&#x308B;</pr></trd>,
+    <trd>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#12377;&#x308B;  <pr>&#12407;&#x308D;&#12368;&#12425;&#12416;&#12377;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">programmeren</trd>
   <trd lng="no">programmere</trd>
@@ -395,6 +410,13 @@
   <trd lng="sk">programova&tcaron;</trd>
   <trd lng="sv">programmera</trd>
   <trd lng="uk">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7DE8;&#x7A0B; <pr>bi&amacron;nch&#xE9;ng</pr></trd>,
+    <trd>&#x7F16;&#x7A0B; <pr>bi&amacron;nch&#xE9;ng</pr></trd>,
+    <trd>&#x7DB1;&#38936; <pr>g&amacron;ngl&#x1D0;ng</pr></trd>,
+    <trd>&#x7EB2;&#39046; <pr>g&amacron;ngl&#x1D0;ng</pr></trd>,
+    <trd>&#x7A0B;&#x5E8F;&#24615; <pr>ch&#xE9;ngx&#xF9;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="progra.0ado">
@@ -444,7 +466,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        &leftquot;katedralo&#8221; kaj &leftquot;bazaro&#8221; estas la nomoj por liaj modeloj de
+        &leftquot;katedralo&#x201D; kaj &leftquot;bazaro&#x201D; estas la nomoj por liaj modeloj de
         komerca kaj libera Programado, respektive
         <fnt>
           <bib>Monato</bib>
@@ -484,6 +506,12 @@
     <trd lng="pl">programowanie</trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
     <trd lng="sv">programmering</trd>
+    <trdgrp lng="zh">
+      <trd>&#x7DE8;&#x7A0B; <pr>bi&amacron;nch&#xE9;ng</pr></trd>,
+      <trd>&#x7F16;&#x7A0B; <pr>bi&amacron;nch&#xE9;ng</pr></trd>,
+      <trd>&#x7A0B;&#x5E8F;&#x8A2D;&#x8A08; <pr>ch&#xE9;ngx&#xF9;sh&#xE8;j&#xEC;</pr></trd>,
+      <trd>&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1; <pr>ch&#xE9;ngx&#xF9;sh&#xE8;j&#xEC;</pr></trd>
+    </trdgrp>
   </snc>
   <snc mrk="progra.0ado.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -517,8 +545,9 @@
   </snc>
   <trd lng="cs">programov&aacute;n&iacute; <klr>(po&ccaron;&iacute;ta&ccaron;e)</klr></trd>
   <trdgrp lng="ja">
-    <trd>&#30058;&#32068;&#32232;&#25104;  <pr>&#12400;&#12435;&#12368;&#12415;&#12408;&#12435;&#12379;&#12356;</pr></trd>,
-    <trd>&#12503;&#12525;&#12464;&#12521;&#12511;&#12531;&#12464;  <pr>&#12407;&#12429;&#12368;&#12425;&#12415;&#12435;&#12368;</pr></trd>
+    <trd>&#x756A;&#x7D44;&#x7DE8;&#25104;  <pr>&#12400;&#12435;&#12368;&#x307F;&#12408;&#12435;&#x305B;&#12356;</pr></trd>,
+    <trd>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;
+    <pr>&#12407;&#x308D;&#12368;&#12425;&#x307F;&#12435;&#12368;</pr></trd>
   </trdgrp>
   <trd lng="sk">programovanie <klr>(po&ccaron;&iacute;ta&ccaron;a)</klr></trd>
   <trd lng="uk">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
@@ -637,7 +666,7 @@
   <trd lng="es">programa inform&aacute;tico</trd>
   <trd lng="fr">logiciel</trd>
   <trd lng="hu">szoftver</trd>
-  <trd lng="ja">&#12477;&#12501;&#12488;&#12454;&#12455;&#12450;</trd>
+  <trd lng="ja">&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;</trd>
   <trdgrp lng="nl">
     <trd>software</trd>,
     <trd>programmatuur</trd>
@@ -657,6 +686,20 @@
   <trdgrp lng="uk">
     <trd>&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_n;&c_je; &c_z;&c_a;&c_b;&c_je;&c_z;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_n;&c_ja;</trd>,
     <trd>&c_s;&c_o;&c_f;&c_t;&c_v;&c_je;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8EDF;&#x9AD4; <pr>ru&#x1CE;nt&#x1D0;</pr></trd>,
+    <trd>&#x8F6F;&#x4F53; <pr>ru&#x1CE;nt&#x1D0;</pr></trd>,
+    <trd>&#x8EDF;&#x4EF6; <pr>ru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x8F6F;&#x4EF6; <pr>ru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#30005;&#33041;&#x8F6F;&#x4EF6; <pr>di&#xE0;nn&#x1CE;oru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x96FB;&#33126;&#x8EDF;&#x4EF6; <pr>di&#xE0;nn&#x1CE;oru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x8EDF;&#x4EF6;&#21253; <pr>ru&#x1CE;nji&#xE0;nb&amacron;o</pr></trd>,
+    <trd>&#x8F6F;&#x4EF6;&#21253; <pr>ru&#x1CE;nji&#xE0;nb&amacron;o</pr></trd>,
+    <trd>&#x8A08;&#x7B97;&#x6A5F;&#x8EDF;&#x4EF6;
+    <pr>j&#xEC;su&#xE0;nj&#x12B;ru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x8BA1;&#x7B97;&#x673A;&#x8F6F;&#x4EF6;
+    <pr>j&#xEC;su&#xE0;nj&#x12B;ru&#x1CE;nji&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -730,7 +773,12 @@
       </ekz>
     </dif>
     <trd lng="de">Programmpunkt</trd>
+    <trdgrp lng="zh">
+      <trd>&#x7BC0;&#x76EE;&#x6BB5; <pr>ji&#xE9;m&#xF9;du&#xE0;n</pr></trd>,
+      <trd>&#33410;&#x76EE;&#x6BB5; <pr>ji&#xE9;m&#xF9;du&#xE0;n</pr></trd>
+    </trdgrp>
   </snc>
+  <trd lng="be">&c_p;&c_u;&c_n;&c_k;&c_t; <ind>&c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_y;</ind></trd>
   <trdgrp lng="cs">
     <trd>bod programu</trd>,
     <trd>&ccaron;&iacute;slo programu</trd>
@@ -739,9 +787,9 @@
   <trd lng="es">elemento de programa</trd>
   <trd lng="fr">&eacute;l&eacute;ment de programme</trd>
   <trdgrp lng="ja">
-    <trd>&#20986;&#12375;&#29289;  <pr>&#12384;&#12375;&#12418;&#12398;</pr></trd>,
-    <trd>&#28436;&#30446;  <pr>&#12360;&#12435;&#12418;&#12367;</pr></trd>,
-    <trd>&#30058;&#32068;  <pr>&#12400;&#12435;&#12368;&#12415;</pr></trd>
+    <trd>&#x51FA;&#12375;&#29289;  <pr>&#12384;&#12375;&#12418;&#x306E;</pr></trd>,
+    <trd>&#x6F14;&#x76EE;  <pr>&#12360;&#12435;&#12418;&#x304F;</pr></trd>,
+    <trd>&#x756A;&#x7D44;  <pr>&#12400;&#12435;&#12368;&#x307F;</pr></trd>
   </trdgrp>
   <trd lng="nl">programmaonderdeel</trd>
   <trdgrp lng="pl">
@@ -751,6 +799,10 @@
   <trd lng="sk">bod programu</trd>
   <trd lng="sv">programpunkt</trd>
   <trd lng="uk">&c_n;&c_o;&c_m;&c_je;&c_r; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x620F;&#30721; <pr>x&#xEC;m&#x1CE;</pr></trd>,
+    <trd>&#25138;&#x78BC; <pr>x&#xEC;m&#x1CE;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="progra.0isto">
@@ -803,8 +855,8 @@
   <trd lng="hu">programoz&oacute;</trd>
   <trd lng="io">programifisto</trd>
   <trdgrp lng="ja">
-    <trd>&#30058;&#32068;&#32232;&#25104;&#32773;  <pr>&#12400;&#12435;&#12368;&#12415;&#12408;&#12435;&#12379;&#12356;&#12375;&#12419;</pr></trd>,
-    <trd>&#12503;&#12525;&#12464;&#12521;&#12510;</trd>
+    <trd>&#x756A;&#x7D44;&#x7DE8;&#25104;&#32773;  <pr>&#12400;&#12435;&#12368;&#x307F;&#12408;&#12435;&#x305B;&#12356;&#12375;&#12419;</pr></trd>,
+    <trd>&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DE;</trd>
   </trdgrp>
   <trd lng="nl">programmeur</trd>
   <trd lng="no">utvikler<ind> (data)</ind></trd>
@@ -814,6 +866,10 @@
   <trd lng="sv">programmerare</trd>
   <trd lng="uk">&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_ib;&c_s;&c_t;</trd>
   <trd lng="vo">programan</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7A0B;&#x5E8F;&#21592; <pr>ch&#xE9;ngx&#xF9;yu&#xE1;n</pr></trd>,
+    <trd>&#x7A0B;&#x5E8F;&#x54E1; <pr>ch&#xE9;ngx&#xF9;yu&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="progra.cel0o">
@@ -827,6 +883,7 @@
     </dif>
     <trd lng="de">Zielprogramm</trd>
   </snc>
+  <trd lng="be">&c_v;&c_y;&c_h;&c_o;&c_d;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_a;</ind></trd>
   <trdgrp lng="en">
     <trd>object program</trd>,
     <trd>target program</trd>
@@ -835,8 +892,9 @@
   <trd lng="fr">programme objet</trd>
   <trd lng="hu">c&eacute;lprogram</trd>
   <trdgrp lng="ja">
-    <trd>&#12458;&#12502;&#12472;&#12455;&#12463;&#12488;&#12503;&#12525;&#12464;&#12521;&#12512;</trd>,
-    <trd>&#30446;&#27161;&#12503;&#12525;&#12464;&#12521;&#12512;  <pr>&#12418;&#12367;&#12402;&#12423;&#12358;&#12503;&#12525;&#12464;&#12521;&#12512;</pr></trd>
+    <trd>&#x30AA;&#x30D6;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;</trd>,
+    <trd>&#x76EE;&#x6A19;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;
+    <pr>&#12418;&#x304F;&#12402;&#12423;&#12358;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;</pr></trd>
   </trdgrp>
   <trd lng="pl">program docelowy</trd>
   <trd lng="ru">&c_v;&c_y;&c_h;&c_o;&c_d;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;</trd>
@@ -853,7 +911,7 @@
       transformas en
       <ref tip="ant" cel="progra.cel0o">celprogramon</ref>:
       <ekz>
-        por esti vera &leftquot;libera programo&#8221; la font<tld/>o devas esti
+        por esti vera &leftquot;libera programo&#x201D; la font<tld/>o devas esti
         disdonata kun la ruleblaj programoj a&ubreve; esti alimaniere akirebla
         <fnt>
           <bib>Monato</bib>
@@ -867,14 +925,21 @@
       <trd>Quellprogramm</trd>,
       <trd>Quelle (Programm-)</trd>
     </trdgrp>
+    <trdgrp lng="zh">
+      <trd>&#x6E90;&#x4EE3;&#30721; <pr>yu&#xE1;nd&#xE0;im&#x1CE;</pr></trd>,
+      <trd>&#x6E90;&#x4EE3;&#x78BC; <pr>yu&#xE1;nd&#xE0;im&#x1CE;</pr></trd>,
+      <trd>&#x6E90;&#x7A0B;&#x5E8F; <pr>yu&#xE1;nch&#xE9;ngx&#xF9;</pr></trd>
+    </trdgrp>
   </snc>
+  <trd lng="be">&c_z;&c_y;&c_h;&c_o;&c_d;&c_n;&c_a;&c_ja; <ind>&c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_a;</ind></trd>
   <trd lng="en">source program</trd>
   <trd lng="es">c&oacute;digo fuente del programa</trd>
   <trd lng="fr">programme source</trd>
   <trd lng="hu">forr&aacute;sprogram</trd>
   <trdgrp lng="ja">
-    <trd>&#12477;&#12540;&#12473;&#12503;&#12525;&#12464;&#12521;&#12512;</trd>,
-    <trd>&#21407;&#22987;&#12503;&#12525;&#12464;&#12521;&#12512;  <pr>&#12370;&#12435;&#12375;&#12503;&#12525;&#12464;&#12521;&#12512;</pr></trd>
+    <trd>&#x30BD;&#x30FC;&#x30B9;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;</trd>,
+    <trd>&#x539F;&#x59CB;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;
+    <pr>&#12370;&#12435;&#12375;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;</pr></trd>
   </trdgrp>
   <trd lng="nl">bronprogramma</trd>
   <trd lng="pl">program &zacute;r&oacute;d&lstroke;owy</trd>
@@ -899,12 +964,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_d;&c_a;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_a;&c_ja; <ind>&c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_a;</ind></trd>,
+      <trd>&c_d;&c_a;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y;&c_ja; <ind>&c_m;&c_je;&c_r;&c_a;&c_p;&c_r;&c_y;&c_je;&c_m;&c_s;&c_t;&c_v;&c_y;</ind></trd>
+    </trdgrp>
     <trdgrp lng="de">
-      <trd>Zusatzprogramm</trd>,
-      <trd/>,
-      <trd/>
+      <trd>Zusatzprogramm</trd>
     </trdgrp>
     <trd lng="en">breakout session</trd>
+    <trd lng="zh">&#38468;&#x52A0;&#x7A0B;&#x5E8F; <pr>f&#xF9;ji&amacron;ch&#xE9;ngx&#xF9;</pr></trd>
   </snc>
   <snc mrk="progra.krom0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
@@ -931,16 +999,24 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_d;&c_a;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y; &c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_n;&c_y; <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</ind></trd>,
+      <trd>&c_p;&c_l;&c_a;&c_g;&c_ib;&c_n;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Programmerweiterung</trd>,
       <trd>Erweiterung (Software)</trd>,
       <trd>Programmzusatz</trd>
     </trdgrp>
-  <trdgrp lng="en">
-    <trd>add-on</trd>,
-    <trd>plug-in</trd>,
-    <trd>extension</trd>
-  </trdgrp>
+    <trdgrp lng="en">
+      <trd>add-on</trd>,
+      <trd>plug-in</trd>,
+      <trd>extension</trd>
+    </trdgrp>
+    <trdgrp lng="zh">
+      <trd>&#38468;&#x52A0;&#20803;&#x4EF6; <pr>f&#xF9;ji&amacron;yu&#xE1;nji&#xE0;n</pr></trd>,
+      <trd>&#22806;&#x52A0;&#38468;&#x4EF6; <pr>w&#xE0;iji&amacron;f&#xF9;ji&#xE0;n</pr></trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="es">
     <trd>extensi&oacute;n<klr> (de programa inform&aacute;tico)</klr></trd>,
@@ -950,7 +1026,7 @@
     <trd>extension<klr> (de programme informatique)</klr></trd>,
     <trd>plug-in</trd>
   </trdgrp>
-  <trd lng="ja">&#12503;&#12521;&#12464;&#12452;&#12531;</trd>
+  <trd lng="ja">&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;</trd>
   <trd lng="pl">wtyczka</trd>
 </drv>
 
@@ -980,15 +1056,14 @@
         </fnt>.
       </ekz>
     </dif>
-  <ref tip="sin" cel="operac.0umo">operaciumo</ref>
-  <refgrp tip="sub">
-  <ref cel="linuks.0o">Linukso</ref>,
-  <ref cel="uniks.0o">Unikso</ref>,
-  <ref cel="vindoz.0o">Vindozo</ref>
-  </refgrp>
+    <ref tip="sin" cel="operac.0umo">operaciumo</ref>
+    <refgrp tip="sub">
+      <ref cel="linuks.0o">Linukso</ref>,
+      <ref cel="uniks.0o">Unikso</ref>,
+      <ref cel="vindoz.0o">Vindozo</ref>
+    </refgrp>
   </snc>
-  <trd lng="be">&c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_n;&c_a;&c_je; &c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_n;&c_a;&c_je;
-  &c_z;&c_a;&c_b;&c_je;&c_s;&c_mol;&c_p;&c_ja;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd lng="be">&c_s;&c_y;&c_s;&c_t;&c_e;&c_m;&c_n;&c_a;&c_je; &c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_n;&c_a;&c_je;  <ind>&c_z;&c_a;&c_b;&c_je;&c_s;&c_mol;&c_p;&c_ja;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
   <trd lng="de">Systemsoftware</trd>
   <trd lng="en">system software</trd>
   <trd lng="hu">rendszerszoftver</trd>
@@ -996,6 +1071,10 @@
   <trd lng="pl">oprogramowanie systemowe</trd>
   <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_n;&c_o;&c_je; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_n;&c_o;&c_je;
   &c_o;&c_b;&c_je;&c_s;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7CFB;&#x7D71;&#x8EDF;&#x4EF6; <pr>x&#xEC;t&#x1D2;ngru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x7CFB;&#x7EDF;&#x8F6F;&#x4EF6; <pr>x&#xEC;t&#x1D2;ngru&#x1CE;nji&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="progra.aplika_0aro">
@@ -1029,11 +1108,12 @@
         </fnt>.
       </ekz>
     </dif>
-  <refgrp tip="sub">
-  <ref cel="skajp.0o">Skajpo</ref>,
-  <ref cel="muzaik.0o">Muzaiko</ref>
-  </refgrp>
+    <refgrp tip="sub">
+      <ref cel="skajp.0o">Skajpo</ref>,
+      <ref cel="muzaik.0o">Muzaiko</ref>
+    </refgrp>
   </snc>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_k;&c_l;&c_a;&c_d;&c_n;&c_o;&c_je; &c_p;&c_r;&c_a;&c_g;&c_r;&c_a;&c_m;&c_n;&c_a;&c_je; <ind>&c_z;&c_a;&c_b;&c_je;&c_s;&c_mol;&c_p;&c_ja;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
   <trd lng="de">Anwendungssoftware</trd>
   <trd lng="en">application software</trd>
   <trd lng="hu">alkalmaz&aacute;sszoftver</trd>
@@ -1041,10 +1121,32 @@
   <trd lng="pl">oprogramowanie aplikacyjne</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_k;&c_l;&c_a;&c_d;&c_n;&c_o;&c_je; &c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_n;&c_o;&c_je;
   &c_o;&c_b;&c_je;&c_s;&c_p;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5E94;&#29992;&#x8F6F;&#x4F53; <pr>y&#xEC;ngy&#xF2;ngru&#x1CE;nt&#x1D0;</pr></trd>,
+    <trd>&#x61C9;&#29992;&#x8EDF;&#x9AD4; <pr>y&#xEC;ngy&#xF2;ngru&#x1CE;nt&#x1D0;</pr></trd>,
+    <trd>&#x5E94;&#29992;&#x7A0B;&#x5E8F; <pr>y&#xEC;ngy&#xF2;ngch&#xE9;ngx&#xF9;</pr></trd>,
+    <trd>&#x61C9;&#29992;&#x7A0B;&#x5E8F; <pr>y&#xEC;ngy&#xF2;ngch&#xE9;ngx&#xF9;</pr></trd>,
+    <trd>&#x5E94;&#29992;&#x7A0B;&#x5F0F; <pr>y&#xEC;ngy&#xF2;ngch&#xE9;ngsh&#xEC;</pr></trd>,
+    <trd>&#x61C9;&#29992;&#x7A0B;&#x5F0F; <pr>y&#xEC;ngy&#xF2;ngch&#xE9;ngsh&#xEC;</pr></trd>,
+    <trd>&#x5E94;&#29992;&#x8F6F;&#x4EF6; <pr>y&#xEC;ngy&#xF2;ngru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x61C9;&#29992;&#x8EDF;&#x4EF6; <pr>y&#xEC;ngy&#xF2;ngru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x5E94;&#29992;&#x7A0B;&#x5E8F;&#21253; <pr>y&#xEC;ngy&#xF2;ngch&#xE9;ngx&#xF9;b&amacron;o</pr></trd>,
+    <trd>&#x61C9;&#29992;&#x7A0B;&#x5E8F;&#21253; <pr>y&#xEC;ngy&#xF2;ngch&#xE9;ngx&#xF9;b&amacron;o</pr></trd>,
+    <trd>&#x64CD;&#x4F5C;&#x8EDF;&#x4EF6; <pr>c&amacron;ozu&#xF2;ru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#x64CD;&#x4F5C;&#x8F6F;&#x4EF6; <pr>c&amacron;ozu&#xF2;ru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#29992;&#25142;&#x8EDF;&#x4EF6; <pr>y&#xF2;ngh&#xF9;ru&#x1CE;nji&#xE0;n</pr></trd>,
+    <trd>&#29992;&#25143;&#x8F6F;&#x4EF6; <pr>y&#xF2;ngh&#xF9;ru&#x1CE;nji&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.63 2024/11/28 08:36:55
+Dmitri Gabinski: + trd be
+
+versio 1.62 2024/06/17 07:25:21
+Wolfram Diestel: +fnt JED
+
 versio 1.60 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
@@ -1061,11 +1163,5 @@ versio 1.55 2023/05/01 08:31:43
 Paul Peeraerts: Steloj -> monato
 
 versio 1.54 2023/04/24 06:32:42
-
-versio 1.53 2023/04/14 15:26:11
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.52 2023/04/13 12:48:50
-Paul Peeraerts: Steloj -> monato.be
 -->
 </vortaro>

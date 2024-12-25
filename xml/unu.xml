@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: unu.xml,v 1.199 2024/01/10 07:24:46 revo Exp $">
+<art mrk="$Id: unu.xml,v 1.207 2024/12/04 18:39:55 revo Exp $">
   <kap>
     <ofc>*</ofc>
     <rad>unu</rad>
+    <fnt> <bib>UV</bib></fnt>
   </kap>
 
 <drv mrk="unu.0">
   <kap><ofc>*</ofc><tld/></kap>
-
   <snc mrk="unu.0.num">
     <mlg>1</mlg>
     <dif>unu
@@ -333,10 +333,12 @@
   <trd lng="ne">&#x90F;&#2325;</trd>
   <trd lng="nl">een</trd>
   <trdgrp lng="no">
-    <trd>en</trd>,<trd>ett</trd>
+    <trd>en</trd>,
+    <trd>ett</trd>
   </trdgrp>
   <trd lng="ny">mmodzi</trd>
   <trd lng="pa">&#xA07;&#xA71;&#xA15;</trd>
+  <trd lng="pl">jeden</trd>
   <trd lng="ps">&f_y;&a_w;</trd>
   <trd lng="pt">um</trd>
   <trd lng="qu">juk</trd>
@@ -513,7 +515,12 @@
   <trd lng="no">f&oslash;rste</trd>
   <trd lng="ny">yoyamba</trd>
   <trd lng="pa">&#xA2A;&#xA39;&#xA3F;&#xA32;&#xA40;</trd>
-  <trd lng="pl">pierwszy</trd>
+  <trdgrp lng="pl">
+    <trd>pierwszy</trd>,
+    <trd>pierwsza</trd>,
+    <trd>pierwsze</trd>,
+    <trd>pierwsi</trd>
+  </trdgrp>
   <trd lng="ps">&a_l;&a_w;&a_m;&#1683;&f_y;</trd>
   <trd lng="pt">primeiro</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_y;&c_j;</trd>
@@ -544,7 +551,7 @@
   <trd lng="xh">ekuqaleni</trd>
   <trd lng="yi">&ayin;&resh;&shin;&tet;&ayin;&resh;</trd>
   <trd lng="yo">ak&#x1ECD;k&#x1ECD;</trd>
-  <trd lng="zh">&#x7B2C;&#x4E00;<klr> [d&igrave;y&#x15FB;]</klr></trd>
+  <trd lng="zh">&#x7B2C;&#x4E00; <pr>d&igrave;y&#299;</pr></trd>
   <trd lng="zu">okokuqala</trd>
 </drv>
 
@@ -666,8 +673,9 @@
   </trdgrp>
   <trd lng="he">&resh;&alef;&shin;&yod;&tav;</trd>
   <trd lng="hu">el&odblac;sz&ouml;r <klr tip="ind">(sorrendben)</klr></trd>
-  <trdgrp lng="it"><trd>innanzitutto</trd>, <trd>per
-      <ind>primo</ind></trd>
+  <trdgrp lng="it">
+      <trd>innanzitutto</trd>,
+      <trd>per <ind>primo</ind></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>ten <ind>eerste</ind></trd>,
@@ -676,6 +684,11 @@
   <trdgrp lng="no">
     <trd><ind>f&oslash;rst</ind> <klr>(och fremst)</klr></trd>,
     <trd>for det <ind>f&oslash;rste</ind></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>po <ind>pierwsze</ind></trd>,
+    <trd>wpierw</trd>,
+    <trd>najpierw</trd>
   </trdgrp>
   <trdgrp lng="pt">
     <trd>primeiramente</trd>.
@@ -688,6 +701,19 @@
     <trd>f&ouml;r det <ind>f&ouml;rsta</ind></trd>
   </trdgrp>
   <trd lng="uk">&c_p;&c_o;-&c_p;&c_je;&c_r;&c_sh;&c_je;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8D77;&#x521D; <pr>q&#x1D0;ch&#x16B;</pr></trd>,
+    <trd>&#20808; <pr>xi&amacron;n</pr></trd>,
+    <trd>&#20854;&#x4E00; <pr>q&#xED;y&#x12B;</pr></trd>,
+    <trd>&#39318;&#x6B21; <pr>sh&#x1D2;uc&#xEC;</pr></trd>,
+    <trd>&#39318;&#20808; <pr>sh&#x1D2;uxi&amacron;n</pr></trd>,
+    <trd>&#x539F;&#x672C; <pr>yu&#xE1;nb&#x11B;n</pr></trd>,
+    <trd>&#29702;&#30001;&#x4E4B;&#x4E00;&#x662F; <pr>l&#x1D0;y&#xF3;uzh&#x12B;y&#x12B;sh&#xEC;</pr></trd>,
+    <trd>&#x8DD1;&#36947;&#22836;&#x6ED1;&#x884C;&#36947;
+    <pr>p&#x1CE;od&#xE0;ot&#xF3;uhu&#xE1;x&#xED;ngd&#xE0;o</pr></trd>,
+    <trd>&#x8DD1;&#36947;&#x982D;&#x6ED1;&#x884C;&#36947;
+    <pr>p&#x1CE;od&#xE0;ot&#xF3;uhu&#xE1;x&#xED;ngd&#xE0;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.0o">
@@ -714,6 +740,11 @@
       <trd>yksikk&ouml;</trd>
    </trdgrp>
     <trd lng="hu">egyes <klr tip="ind">(sz&aacute;m)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>jedynka</trd>,
+      <trd>jedno&sacute;&cacute;</trd>,
+      <trd>modu&lstroke;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="unu.0o.mezuro">
     <dif>
@@ -745,8 +776,7 @@
         <trd lng="no">SI-systemet</trd>
         <trdgrp lng="pl">
           <trd>SI</trd>,
-          <trd>Mi&eogonek;dzynarodowy Uk&lstroke;ad Jednostek
-          Miar</trd>
+          <trd>Mi&eogonek;dzynarodowy Uk&lstroke;ad Jednostek Miar</trd>
        </trdgrp>
         <trdgrp lng="ru">
           <trd>&c_S;&c_I;</trd>,
@@ -770,6 +800,7 @@
         <trd lng="id"><ind>satu</ind>an astronomi</trd>
         <trd lng="nl">astronomische eenheid</trd>
         <trd lng="no">astronomisk enhet</trd>
+        <trd lng="pl">jednostka astronomiczna</trd>
         <trd lng="ru">&c_a;&c_s;&c_t;&c_r;&c_o;&c_n;&c_o;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
           &c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;<klr> (&c_d;&c_l;&c_i;&c_n;&c_y;)</klr>
         </trd>
@@ -871,7 +902,7 @@
   <trd lng="lt">vienetas</trd>
   <trd lng="lv">vien&imacron;ba</trd>
   <trd lng="mg">vondrona</trd>
-  <trd lng="mi">k&#5661;wae</trd>
+  <trd lng="mi">k&omacron;wae</trd>
   <trd lng="mk">&c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="ml">&#xD18;&#xD1F;&#xD15;&#xD02;</trd>
   <trd lng="mn">&c_n;&c_e;&c_g;&c_zh;</trd>
@@ -907,6 +938,12 @@
   <trd lng="vi">&#273;&#x1A1;n v&#x1ECB;</trd>
   <trd lng="yi">&alef;&#x5B7;&pe;&#x5BC;&alef;&#x5B7;&resh;&alef;&#x5B7;&tet;</trd>
   <trd lng="yo">kuro</trd>
+  <trdgrp lng="zh">
+    <trd>&#21333;&#x4F4D; <pr>d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x55AE;&#x4F4D; <pr>d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x7D71;&#x4E00;&#24615; <pr>t&#x1D2;ngy&#x12B;x&#xEC;ng</pr></trd>,
+    <trd>&#x7EDF;&#x4E00;&#24615; <pr>t&#x1D2;ngy&#x12B;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.0ajxo">
@@ -943,13 +980,17 @@
     <trd>&c_c;&c_e;&c_l;&c_a;&c_je;</trd>,
     <trd>&c_a;&c_d;&c_n;&c_o; &c_c;&c_e;&c_l;&c_a;&c_je;</trd>
   </trdgrp>
-  <trd lng="de">Ganzes</trd>
+  <trdgrp lng="de">
+    <trd>Ganzes</trd>,
+    <trd>Einheit</trd>
+  </trdgrp>
   <trd lng="en">unit</trd>
   <trd lng="es">unidad<klr> (que engloba todo)</klr></trd>
   <trdgrp lng="ja">
     <trd>&#x4E00;&#x584A;  <pr>&#12356;&#12387;&#x304B;&#12356;</pr></trd>,
     <trd>&#x4E00;&#35201;&#x7D20;  <pr>&#12356;&#12385;&#12424;&#12358;&#x305D;</pr></trd>
   </trdgrp>
+  <trd lng="pl">ca&lstroke;o&sacute;&cacute;</trd>
   <trdgrp lng="uk">
     <trd>&c_jeu;&c_d;&c_i;&c_n;&c_je; &c_c;&c_ib;&c_l;&c_je;</trd>,
     <trd>&c_b;&c_l;&c_o;&c_k;</trd>,
@@ -974,6 +1015,7 @@
       <trd>egyed&uuml;lval&oacute;s&aacute;g</trd>
     </trdgrp>
     <trd lng="it">unicit&agrave;</trd>
+    <trd lng="pl">jedno&sacute;&cacute;</trd>
     <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="unu.0eco.kohero">
@@ -1043,6 +1085,14 @@
     <trd>jednotnos&tcaron;</trd>
   </trdgrp>
   <trd lng="uk">&c_jeu;&c_d;&c_n;&c_ib;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7D71;&#x4E00;&#24615; <pr>t&#x1D2;ngy&#x12B;x&#xEC;ng</pr></trd>,
+    <trd>&#x7EDF;&#x4E00;&#24615; <pr>t&#x1D2;ngy&#x12B;x&#xEC;ng</pr></trd>,
+    <trd>&#x56E2;&#x7ED3; <pr>tu&#xE1;nji&#xE9;</pr></trd>,
+    <trd>&#22296;&#x7D50; <pr>tu&#xE1;nji&#xE9;</pr></trd>,
+    <trd>&#26368;&#x5C0F;&#21333;&#x4F4D; <pr>zu&#xEC;xi&#x1CE;od&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#26368;&#x5C0F;&#x55AE;&#x4F4D; <pr>zu&#xEC;xi&#x1CE;od&amacron;nw&#xE8;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.0igi">
@@ -1138,6 +1188,13 @@
     <trd>eenmaken</trd>
   </trdgrp>
   <trd lng="no">forene</trd>
+  <trdgrp lng="pl">
+    <trd>jedna&cacute;</trd>,
+    <trd>jednoczy&cacute;</trd>,
+    <trd>zespoli&cacute;</trd>,
+    <trd>z&lstroke;&aogonek;czy&cacute;</trd>,
+    <trd>zrzesza&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_malmol;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_b;&c_malmol;&c_je;&c_d;&c_i;&c_n;&c_i;&c_t;&c_mol;</trd>
@@ -1152,6 +1209,18 @@
     <trd>&c_o;&c_b;&#8217;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_jeu;&c_d;&c_n;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_o;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x56E2;&#x7ED3; <pr>tu&#xE1;nji&#xE9;</pr></trd>,
+    <trd>&#22296;&#x7D50; <pr>tu&#xE1;nji&#xE9;</pr></trd>,
+    <trd>&#x62E7;&#25104;&#x4E00;&#x80A1;&#x7EF3;
+    <pr>n&#xED;ngch&#xE9;ngy&#x12B;g&#x1D4;sh&#xE9;ng</pr></trd>,
+    <trd>&#x64F0;&#25104;&#x4E00;&#x80A1;&#x7E69;
+    <pr>n&#xED;ngch&#xE9;ngy&#x12B;g&#x1D4;sh&#xE9;ng</pr></trd>,
+    <trd>&#x7D50;&#21512; <pr>ji&#xE9;h&#xE9;</pr></trd>,
+    <trd>&#x7ED3;&#21512; <pr>ji&#xE9;h&#xE9;</pr></trd>,
+    <trd>&#32852; <pr>li&#xE1;n</pr></trd>,
+    <trd>&#x806F; <pr>li&#xE1;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1252,6 +1321,10 @@
   </trdgrp>
   <trd lng="nl">zich <ind>verenigen</ind></trd>
   <trd lng="no">forene seg</trd>
+  <trdgrp lng="pl">
+    <trd>jednoczy&cacute; si&eogonek;</trd>,
+    <trd>&lstroke;&aogonek;czy&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_malmol;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_o;&c_b;&c_malmol;&c_je;&c_d;&c_i;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
@@ -1264,6 +1337,10 @@
     <trd>&c_jeu;&c_d;&c_n;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
     <trd>&c_p;&c_o;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
     <trd>&c_z;&#8217;&c_jeu;&c_d;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x56E2;&#x7ED3; <pr>tu&#xE1;nji&#xE9;</pr></trd>,
+    <trd>&#22296;&#x7D50; <pr>tu&#xE1;nji&#xE9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1367,6 +1444,11 @@
     </refgrp>
     <trd lng="en">union</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_b;&#8217;&c_ja;&c_d;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_z;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_o;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;</trd>
+  </trdgrp>
   <trd lng="de">Vereinigung</trd>
   <trd lng="en">unification</trd>
   <trdgrp lng="ja">
@@ -1376,6 +1458,7 @@
     <trd>&#36899;&#21512;  <pr>&#x308C;&#12435;&#12372;&#12358;</pr></trd>,
     <trd>&#x540C;&#x76DF;  <pr>&#12393;&#12358;&#12417;&#12356;</pr></trd>
   </trdgrp>
+  <trd lng="pl">blok<klr>  (zjednoczenie)</klr></trd>
 </drv>
 
 <drv mrk="unu.0aajxo">
@@ -1391,6 +1474,10 @@
      </ekz>
    </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_je;&c_r;&c_sh;&c_y; &c_p;&c_l;&c_o;&c_d;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_sh;&c_y; &c_p;&c_l;&c_jo;&c_n;</trd>
+  </trdgrp>
   <trd lng="ca">primeries</trd>
   <trd lng="en">first fruits</trd>
   <trd lng="es">primicias</trd>
@@ -1409,6 +1496,10 @@
     <trd>&#x521D;&#x7A42;  <pr>&#x306F;&#12388;&#x307B;</pr></trd>
   </trdgrp>
   <trd lng="nl">primeur<klr tip="ind"> (fruit b.v.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>pierwszy plon</trd>,
+    <trd>pierwocina</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_p;&c_je;&c_r;&c_sh;&c_i;&c_j; &c_p;&c_l;&c_ib;&c_d;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_sh;&c_i;&c_j; &c_p;&c_r;&c_i;&c_p;&c_l;&c_ib;&c_d;</trd>
@@ -1454,6 +1545,7 @@
     <trd>&#x7B2C;&#x4E00;&#x4F4D;  <pr>&#12384;&#12356;&#12356;&#12385;&#12356;</pr></trd>,
     <trd>&#x512A;&#20808;&#x6A29;  <pr>&#12422;&#12358;&#x305B;&#12435;&#12369;&#12435;</pr></trd>
   </trdgrp>
+  <trd lng="pl">pierwsze&nacute;stwo</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
   <trdgrp lng="sk">
     <trd>prednos&tcaron;</trd>,
@@ -1504,6 +1596,10 @@
   </trdgrp>
   <trd lng="ja">&#x7B2C;&#x4E00;&#x4EBA;&#32773;  <pr>&#12384;&#12356;&#12356;&#12385;&#x306B;&#12435;&#12375;&#12419;</pr></trd>
   <trd lng="nl">eersteling</trd>
+  <trdgrp lng="pl">
+    <trd>persona</trd>,
+    <trd>VIP</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_y;&c_j;<klr> (&c_v;
 &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.)</klr></trd>
   <trd lng="sk">popredn&aacute; osobnos&tcaron;</trd>
@@ -1542,6 +1638,7 @@
     <trd>&#x521D;&#29289;  <pr>&#x306F;&#12388;&#12418;&#x306E;</pr></trd>,
     <trd>&#x521D;&#x7A42;  <pr>&#x306F;&#12388;&#x307B;</pr></trd>
   </trdgrp>
+  <trd lng="pl">pierwiastek plon&oacute;w</trd>
   <trd lng="ru">&c_n;&c_a;&c_ch;&c_a;&c_t;&c_k;&c_i;</trd>
 </drv>
 
@@ -1598,6 +1695,12 @@
   </trdgrp>
   <trd lng="ru">&c_m;&c_n;&c_i;&c_m;&c_a;&c_ja; <ind>&c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;</ind></trd>
   <trd lng="sk">imagin&aacute;rna jednotka</trd>
+  <trdgrp lng="zh">
+    <trd>&#x865A;&#21333;&#x4F4D; <pr>x&#x16B;d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x865B;&#x55AE;&#x4F4D; <pr>x&#x16B;d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x865A;&#25968;&#21333;&#x4F4D; <pr>x&#x16B;sh&#xF9;d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x865B;&#25976;&#x55AE;&#x4F4D; <pr>x&#x16B;sh&#xF9;d&amacron;nw&#xE8;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.mal0eco">
@@ -1630,6 +1733,10 @@
     <trd>mescla</trd>,
   </trdgrp>
   <trd lng="cs">rozkol</trd>
+  <trdgrp lng="de">
+    <trd>Uneinigkeit</trd>,
+    <trd>Uneinheitlichkeit</trd>
+  </trdgrp>
   <trd lng="en">disunity</trd>
   <trdgrp lng="es">
     <trd>heterogeneidad</trd>,
@@ -1643,10 +1750,18 @@
   </trdgrp>
   <trd lng="nl">onenigheid</trd>
   <trd lng="no">uenighet</trd>
+  <trdgrp lng="pl">
+    <trd>roz&lstroke;am</trd>,
+    <trd>niezgoda</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>nejednotnos&tcaron;</trd>,
     <trd>nesvornos&tcaron;</trd>,
     <trd>rozkol</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E0D;&#x8ABF;&#x548C; <pr>b&#xF9;ti&#xE1;oh&#xE9;</pr></trd>,
+    <trd>&#x4E0D;&#x8C03;&#x548C; <pr>b&#xF9;ti&#xE1;oh&#xE9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1681,6 +1796,7 @@
     <trd>unitat de mesura</trd>
   </trdgrp>
   <trd lng="cs">m&ecaron;rn&aacute; jednotka</trd>
+  <trd lng="de">Ma&szlig;einheit</trd>
   <trd lng="en">unit of measurement</trd>
   <trdgrp lng="es">
     <trd>unidad de medida</trd>,
@@ -1698,6 +1814,10 @@
   <trd lng="sk">mern&aacute; jednotka</trd>
 <trd lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE27;&#xE31;&#xE14;</trd>
   <trd lng="uk">&c_o;&c_d;&c_i;&c_n;&c_i;&c_c;&c_ja; &c_v;&c_i;&c_m;&c_ib;&c_r;&c_u;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21333;&#x4F4D; <pr>d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x55AE;&#x4F4D; <pr>d&amacron;nw&#xE8;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.mon0o">
@@ -1742,6 +1862,7 @@
   <trd lng="br">unanenn voneiz</trd>
   <trd lng="ca">unitat monet&agrave;ria</trd>
   <trd lng="cs">m&ecaron;nov&aacute; jednotka</trd>
+  <trd lng="de">W&auml;hrungseinheit</trd>
   <trdgrp lng="en">
     <trd>currency unit</trd>,
     <trd>monetary unit</trd>
@@ -1758,12 +1879,17 @@
   </trdgrp>
   <trd lng="nl">munteenheid</trd>
   <trd lng="no">myntenhet</trd>
+  <trd lng="pl">jednostka monetarna</trd>
   <trd lng="ru">&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_a;&c_ja;
   &c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="sk">pe&ncaron;a&zcaron;n&aacute; jednotka</trd>
 <trd
 lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&#xE23;&#xE32;</trd>
   <trd lng="uk">&c_g;&c_r;&c_o;&c_sh;&c_o;&c_v;&c_a; &c_o;&c_d;&c_i;&c_n;&c_i;&c_c;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8CA8;&#x5E63; <pr>hu&#xF2;b&#xEC;</pr></trd>,
+    <trd>&#x8D27;&#x5E01; <pr>hu&#xF2;b&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.monasub0o">
@@ -1796,8 +1922,11 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
     <trd><ind>sottounit&agrave;</ind> monetaria</trd>,
     <trd>sottomultiplo<klr> (di unit&agrave; monetaria)</klr></trd>
   </trdgrp>
-  <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja;
-  &c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="pl">
+    <trd>podjednostka monetarna</trd>,
+    <trd>moneta zdawkowa</trd>
+  </trdgrp>
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_n;&c_n;&c_a;&c_ja; &c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
  </drv>
 
 <drv mrk="unu.pliol0">
@@ -1817,6 +1946,7 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   </trdgrp>
   <trd lng="ca">alguns</trd>
   <trd lng="cs">nejeden</trd>
+  <trd lng="de">mehr als eins</trd>
   <trdgrp lng="es">
     <trd>algunos</trd>,
     <trd>varios</trd>
@@ -1827,6 +1957,7 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   </trdgrp>
   <trd lng="fr">plus d'un</trd>
   <trd lng="it"><ind>pi&ugrave;</ind> d'uno</trd>
+  <trd lng="pl">niejeden</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_o;&c_l;&c_je;&c_je; &c_o;&c_d;&c_n;&c_o;&c_g;&c_o;</trd>,
     <trd>&c_n;&c_je;&c_s;&c_k;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>
@@ -1847,8 +1978,13 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_u;&c_b;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_d;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a;</ind></trd>
+  </trdgrp>
   <trd lng="br">isunanenn</trd>
   <trd lng="ca">subunitat</trd>
+  <trd lng="de">Untereinheit</trd>
   <trdgrp lng="fi">
     <trd>alayksikk&ouml;</trd>,
     <trd>kerrannaisyksikk&ouml; <klr tip="amb"> (yksik&ouml;n
@@ -1861,9 +1997,14 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   <trd lng="hu">alegys&eacute;g</trd>
   <trd lng="it">sottomultiplo<klr> (di misura)</klr></trd>
   <trd lng="nl">onderdeel</trd>
+  <trd lng="pl">podjednostka</trd>
   <trd lng="ru">&c_d;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;
   &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ja;</trd>
- </drv>
+   <trdgrp lng="zh">
+    <trd>&#x4E9A;&#21333;&#x4F4D; <pr>y&#xE0;d&amacron;nw&#xE8;i</pr></trd>,
+    <trd>&#x4E9E;&#x55AE;&#x4F4D; <pr>y&#xE0;d&amacron;nw&#xE8;i</pr></trd>
+  </trdgrp>
+</drv>
 
 <drv mrk="unu.super0o">
   <kap>super<tld/>o</kap>
@@ -1878,6 +2019,7 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   </snc>
   <trd lng="be">&c_k;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_a;&c_d;&c_z;&c_ib;&c_n;&c_k;&c_a; <klr>(&c_v;&c_y;&c_m;&c_ja;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_ja;)</klr></trd>
   <trd lng="ca">m&uacute;ltiple</trd>
+  <trd lng="de">&Uuml;bereinheit</trd>
   <trd lng="es">m&uacute;ltiplo<klr> (de unidad de medida)
   </klr></trd>
   <trdgrp lng="fi">
@@ -1886,6 +2028,7 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
   <trd lng="fr">multiple<klr> (d'unit&eacute; de mesure)</klr></trd>
   <trd lng="hu">t&ouml;bbsz&ouml;r&ouml;s egys&eacute;g</trd>
   <trd lng="it">multiplo<klr> (di misura)</klr></trd>
+  <trd lng="pl">jednostka wielokrotna</trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_n;&c_a;&c_ja; &c_je;&c_d;&c_i;&c_n;&c_i;&c_c;&c_a;
   &c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_ja;</trd>
 </drv>
@@ -1941,10 +2084,21 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
     <trd>&c_a;&c_d;&c_z;&c_ib;&c_n; &c_a;&c_d;&c_n;&c_a;&c_g;&c_o;</trd>,
     <trd>&c_a;&c_d;&c_z;&c_ib;&c_n; &c_a;&c_d;&c_n;&c_a;&c_m;&c_u;</trd>
   </trdgrp>
-  <trd lng="de">einadner</trd>
+  <trdgrp lng="de">
+    <trd>einander</trd>,
+    <trd>einer den Anderen</trd>
+  </trdgrp>
   <trd lng="en">each other</trd>
   <trd lng="fr">l'un l'autre</trd>
   <trd lng="ja">&#x304A;&#x4E92;&#12356;&#x306B;  <pr>&#x304A;&#x305F;&#x304C;&#12356;&#x306B;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>jeden drugiego</trd>,
+    <trd>nawzajem</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E92;&#x76F8; <pr>h&#xF9;xi&amacron;ng</pr></trd>,
+    <trd>&#x5F7C;&#x6B64; <pr>b&#x1D0;c&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="unu.0_post_la_alia">
@@ -1977,35 +2131,50 @@ lng="th">&#xE2B;&#xE19;&#xE48;&#xE27;&#xE22;&#xE40;&#xE07;&#xE34;&#xE19;&#xE15;&
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_z;&c_ib;&c_n; &c_z;&c_a; &c_a;&c_d;&c_n;&c_y;&c_m;</trd>
+  <trd lng="de">einer nach dem Anderen</trd>
   <trd lng="es">el uno despu&eacute;s del otro</trd>
   <trd lng="fr">l'un apr&egrave;s l'autre</trd>
   <trd lng="ja">&#x6B21;&#12293;&#x306B;  <pr>&#12388;&#x304E;&#12388;&#x304E;&#x306B;</pr></trd>
+  <trdgrp lng="pl">
+    <trd>rz&eogonek;dem</trd>,
+    <trd>jeden za drugim</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E00;&#36882;&#x4E00;&#x4E2A; <pr>y&#x12B;d&#xEC;y&#x12B;g&#xE8;</pr></trd>,
+    <trd>&#x4E00;&#x905E;&#x4E00;&#x500B; <pr>y&#x12B;d&#xEC;y&#x12B;g&#xE8;</pr></trd>,
+    <trd>&#x4F9D;&#x6B21; <pr>y&#x12B;c&#xEC;</pr></trd>,
+    <trd>&#20808;&#x540E; <pr>xi&amacron;nh&#xF2;u</pr></trd>,
+    <trd>&#20808;&#x5F8C; <pr>xi&amacron;nh&#xF2;u</pr></trd>,
+    <trd>&#36880;&#x4E2A; <pr>zh&#xFA;g&#xE8;</pr></trd>,
+    <trd>&#36880;&#x500B; <pr>zh&#xFA;g&#xE8;</pr></trd>,
+    <trd>&#x91CD;&#x91CD; <pr>ch&#xF3;ngch&#xF3;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
-versio 1.199 2024/01/10 07:24:46
+versio 1.207 2024/12/04 18:39:55
+Wolfram Diestel: -mislitero en pr zh
+
+versio 1.206 2024/06/24 07:26:11
 Dmitri Gabinski: + trd be
 
-versio 1.198 2023/12/12 20:10:29
+versio 1.205 2024/06/19 08:32:02
+Dmitri Gabinski: + trd be
+
+versio 1.204 2024/06/18 09:28:43
+Dmitri Gabinski: + trd be
+
+versio 1.203 2024/06/10 18:33:22
+Vito Redsky: +trd pl
+
+versio 1.202 2024/05/20 11:00:54
 revo: kor. lat. transskribo/latvaj literoj
 
-versio 1.197 2023/11/27 09:28:00
-Dmitri Gabinski: + trd be
+versio 1.200 2024/05/10 12:39:48
+Wolfram Diestel: trd de
 
-versio 1.196 2023/10/21 16:50:28
-revo: transskribo per <pr>
-
-versio 1.195 2023/09/10 15:34:10
-revo: korekto de transskribo
-
-versio 1.193 2023/08/29 15:27:53
-Wolfram Diestel: ja: prononco
-
-versio 1.192 2023/06/14 06:29:06
-Wolfram Diestel: +~i&gcirc;o
-
-versio 1.191 2023/06/03 08:25:49
+versio 1.199 2024/01/10 07:24:46
 -->
 </vortaro>

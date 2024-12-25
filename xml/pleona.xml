@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pleona.xml,v 1.25 2023/10/20 16:38:17 revo Exp $">
+<art mrk="$Id: pleona.xml,v 1.27 2024/04/08 16:29:31 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>pleonasm</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="pleona.0o">
   <kap><tld/>o</kap>
@@ -40,7 +41,7 @@
       </ekz>
     </dif>
     <refgrp tip="ant">
-      <ref cel="elips.0o.ellaso">elipso<sncref/></ref>,
+      <ref cel="elips1.0o.ellaso">elipso<sncref/></ref>,
       <ref cel="oksimor.0o">oksimoro</ref>
     </refgrp>
   </snc>
@@ -63,7 +64,7 @@
   <trd lng="hu">pleonazmus</trd>
   <trdgrp lng="ja">
     <trd>&#20887;&#x8A9E;&#x6CD5;  <pr>&#12376;&#12423;&#12358;&#12372;&#x307B;&#12358;</pr></trd>,
-    <trd>&#20887;&#38263;&#x306A;&#34920;&#x73FE;  <pr>&#12376;&#12423;&#12358;&#12385;&#12423;&#12358;&#12394;&#12402;&#12423;&#12358;&#12370;&#12435;</pr></trd>,
+    <trd>&#20887;&#38263;&#x306A;&#34920;&#x73FE;  <pr>&#12376;&#12423;&#12358;&#12385;&#12423;&#12358;&#x306A;&#12402;&#12423;&#12358;&#12370;&#12435;</pr></trd>,
     <trd>&#20887;&#x8A9E;  <pr>&#12376;&#12423;&#12358;&#12372;</pr></trd>
   </trdgrp>
   <trd lng="nl">pleonasme</trd>
@@ -73,10 +74,19 @@
   <trd lng="ru">&c_p;&c_l;&c_je;&c_o;&c_n;&c_a;&c_z;&c_m;</trd>
   <trd lng="sk">pleonazmus</trd>
   <trd lng="uk">&#x43F;&#x43B;&c_je;&#x43E;&#x43D;&c_a;&c_z;&#x43C;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8D05;&#x8A00; <pr>zhu&#xEC;y&#xE1;n</pr></trd>,
+    <trd>&#x8D58;&#x8A00; <pr>zhu&#xEC;y&#xE1;n</pr></trd>,
+    <trd>&#x8D05;&#x8A9E; <pr>zhu&#xEC;y&#x1D4;</pr></trd>,
+    <trd>&#x8D58;&#x8BED; <pr>zhu&#xEC;y&#x1D4;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.27 2024/04/08 16:29:31
+Wolfram Diestel: kor. ref-cel, fnt JED
+
 versio 1.25 2023/10/20 16:38:17
 revo: transskribo per <pr>
 
@@ -96,8 +106,5 @@ Revision 1.17  2018/11/27 19:10:15  revo
 Wolfram Diestel: +ekz
 
 Revision 1.16  2015/07/04 08:37:41  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.15  2015/06/29 16:40:18  revo
 -->
 </vortaro>

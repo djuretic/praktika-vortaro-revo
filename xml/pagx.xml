@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pagx.xml,v 1.118 2023/10/20 14:25:19 revo Exp $">
+<art mrk="$Id: pagx.xml,v 1.122 2024/07/18 05:52:02 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>pa&gcirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -167,7 +167,10 @@
   <trd lng="ht">paj</trd>
   <trd lng="hu">oldal</trd>
   <trd lng="hy">&#1383;&#x57B;</trd>
-  <trd lng="id">halaman</trd>
+  <trdgrp lng="id">
+    <trd>halaman</trd>,
+    <trd>pagina</trd>
+  </trdgrp>
   <trd lng="ig">peeji nke</trd>
   <trd lng="is">s&iacute;&#xF0;u</trd>
   <trd lng="ja">&#x30DA;&#x30FC;&#x30B8;</trd>
@@ -183,7 +186,7 @@
   <trd lng="lt">puslapis</trd>
   <trd lng="lv">lapa</trd>
   <trd lng="mg">pejy</trd>
-  <trd lng="mi">wh&#x15D1;rangi</trd>
+  <trd lng="mi">wh&amacron;rangi</trd>
   <trd lng="mk">&c_s;&c_t;&c_r;&c_a;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="ml">&#xD2A;&#xD47;&#xD1C;&#xD4D;</trd>
   <trd lng="mn">&c_h;&c_u;&c_u;&c_d;&c_a;&c_s;</trd>
@@ -227,6 +230,15 @@
   <trd lng="vi">trang</trd>
   <trd lng="xh">iphepha</trd>
   <trd lng="yo">iwe</trd>
+  <trdgrp lng="zh">
+    <trd>&#29256; <pr>b&#x1CE;n</pr></trd>,
+    <trd>&#38913;&#38754; <pr>y&#xE8;mi&#xE0;n</pr></trd>,
+    <trd>&#39029;&#38754; <pr>y&#xE8;mi&#xE0;n</pr></trd>,
+    <trd>&#x4E66;&#39029; <pr>sh&#x16B;y&#xE8;</pr></trd>,
+    <trd>&#x66F8;&#38913; <pr>sh&#x16B;y&#xE8;</pr></trd>,
+    <trd>&#38913; <pr>y&#xE8;</pr></trd>,
+    <trd>&#39029; <pr>y&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pagx.0aro">
@@ -318,13 +330,14 @@
   <trd lng="fr">mettre en page</trd>
   <trdgrp lng="ja">
     <trd>&#x7D44;&#x307F;&#x4ED8;&#12369;&#x308B;  <pr>&#x304F;&#x307F;&#12388;&#12369;&#x308B;</pr></trd>,
-    <trd>&#x30DA;&#x30FC;&#x30B8;&#x306B;&#x7D44;&#12416; 
+    <trd>&#x30DA;&#x30FC;&#x30B8;&#x306B;&#x7D44;&#12416;
     <pr>&#x307A;&#x30FC;&#12376;&#x306B;&#x304F;&#12416;</pr></trd>
   </trdgrp>
   <trd lng="pl">&lstroke;ama&cacute; szpalty druku</trd>
   <trd lng="pt">paginar<klr> (tipografia)</klr></trd>
   <trd lng="ro">sparge coloanele de tipar</trd>
   <trd lng="uk">&c_v;&c_je;&c_r;&c_s;&c_t;&c_a;&c_t;&c_i;</trd>
+  <trd lng="zh">&#25490;&#29256; <pr>p&#xE1;ib&#x1CE;n</pr></trd>
 </drv>
 
 <drv mrk="pagx.en0igo">
@@ -371,6 +384,10 @@
     <trd>aspect  <ind>pagin&abreve;</ind></trd>,
     <trd>&#537;ablon</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#29256;&#38754; <pr>b&#x1CE;nmi&#xE0;n</pr></trd>,
+    <trd>&#25490;&#29256; <pr>p&#xE1;ib&#x1CE;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pagx.flavaj0oj">
@@ -396,6 +413,7 @@
       anka&ubreve; pri  alispecaj adresaroj.
     </rim>
   </snc>
+  <trd lng="be">&c_zh;&c_o;&c_w;&c_t;&c_y;&c_ja; <ind>&c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_ib;</ind></trd>
   <trd lng="br">pajenno&ugrave; melen</trd>
   <trd lng="de">gelbe Seiten</trd>
   <trd lng="es">p&aacute;ginas amarillas <klr>(tel&eacute;fonos)</klr></trd>
@@ -412,6 +430,10 @@
   <trdgrp lng="ru">
     <trd>&c_zh;&c_jo;&c_l;&c_t;&c_y;&c_je; &c_s;&c_t;&c_r;&c_a;&c_n;&c_i;&c_c;&c_y;</trd>,
     <trd>&c_t;&c_je;&c_l;&c_je;&c_f;&c_o;&c_n;&c_n;&c_y;&c_j; &c_s;&c_p;&c_r;&c_a;&c_v;&c_o;&c_ch;&c_n;&c_i;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x9EC3;&#38913; <pr>hu&#xE1;ngy&#xE8;</pr></trd>,
+    <trd>&#x9EC4;&#39029; <pr>hu&#xE1;ngy&#xE8;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -454,8 +476,8 @@
     <trd lng="de">Homepage</trd>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_h;&c_a;&c_t;&c_n;&c_ja;&c_ja; &c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_a;</trd>,
-    <trd>&c_g;&c_a;&c_l;&c_o;&c_w;&c_n;&c_a;&c_ja; &c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_a;</trd>
+    <trd>&c_h;&c_a;&c_t;&c_n;&c_ja;&c_ja; <ind>&c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_a;</ind></trd>,
+    <trd>&c_g;&c_a;&c_l;&c_o;&c_w;&c_n;&c_a;&c_ja; <ind>&c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_a;</ind></trd>
   </trdgrp>
   <trd lng="en">home page</trd>
   <trd lng="es">p&aacute;gina principal <klr>(internet)</klr></trd>
@@ -469,6 +491,12 @@
   <trd lng="no">hjemmeside</trd>
   <trd lng="pl"><ind>strona</ind> domowa<klr> (internetowa)</klr></trd>
   <trd lng="ro">pagina de start  <klr>(site web)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#39318;&#38913; <pr>sh&#x1D2;uy&#xE8;</pr></trd>,
+    <trd>&#39318;&#39029; <pr>sh&#x1D2;uy&#xE8;</pr></trd>,
+    <trd>&#x4E3B;&#38913; <pr>zh&#x1D4;y&#xE8;</pr></trd>,
+    <trd>&#x4E3B;&#39029; <pr>zh&#x1D4;y&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pagx.ret0o">
@@ -537,6 +565,10 @@
   <trd lng="pl">strona internetowa</trd>
   <trd lng="pt">p&aacute;gina<klr> (na Internet)</klr></trd>
   <trd lng="ro">pagin&abreve; web</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7DB2;&#38913; <pr>w&#x1CE;ngy&#xE8;</pr></trd>,
+    <trd>&#x7F51;&#39029; <pr>w&#x1CE;ngy&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pagx.ret0aro">
@@ -618,6 +650,12 @@
     <trd>website</trd>
   </trdgrp>
   <trd lng="ro">retea mondiala de calculatoare  <klr>(www)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x7DB2;&#22336; <pr>w&#x1CE;ngzh&#x1D0;</pr></trd>,
+    <trd>&#x7F51;&#22336; <pr>w&#x1CE;ngzh&#x1D0;</pr></trd>,
+    <trd>&#x7DB2;&#38913; <pr>w&#x1CE;ngy&#xE8;</pr></trd>,
+    <trd>&#x7F51;&#39029; <pr>w&#x1CE;ngy&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pagx.titol0o">
@@ -667,7 +705,7 @@
     </dif>
     <trd lng="de">Titelseite</trd>
   </snc>
-  <trd lng="be">&c_t;&c_y;&c_t;&c_u;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_a;</trd>
+  <trd lng="be">&c_t;&c_y;&c_t;&c_u;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_k;&c_a;</ind></trd>
   <trd lng="en">title page</trd>
   <trd lng="es">portada <klr>(libro)</klr></trd>
   <trd lng="fr">page de titre</trd>
@@ -681,10 +719,25 @@
   <trd lng="pt">p&aacute;gina de rosto</trd>
   <trd lng="ro">prima  <ind>pagin&abreve;</ind></trd>
   <trd lng="uk">&c_t;&c_i;&c_t;&c_u;&#x43B;&#x44C;&#x43D;&c_a; &c_s;&c_t;&#x43E;&c_r;&c_ib;&#x43D;&#x43A;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#25161;&#38913; <pr>f&emacron;iy&#xE8;</pr></trd>,
+    <trd>&#25161;&#39029; <pr>f&emacron;iy&#xE8;</pr></trd>,
+    <trd>&#39318;&#38913; <pr>sh&#x1D2;uy&#xE8;</pr></trd>,
+    <trd>&#39318;&#39029; <pr>sh&#x1D2;uy&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.122 2024/07/18 05:52:02
+Dmitri Gabinski: + trd be
+
+versio 1.121 2024/05/20 11:00:52
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.120 2024/05/03 10:27:13
+Eko Nur Syah Hidayat: etaj korektoj
+
 versio 1.118 2023/10/20 14:25:19
 revo: transskribo per <pr>
 
@@ -698,14 +751,5 @@ versio 1.114 2023/05/01 07:25:17
 Paul Peeraerts: Steloj -> monato
 
 versio 1.113 2023/04/25 12:45:54
-Paul Peeraerts: @Steloj -> @Monato
-
-versio 1.112 2023/04/24 16:34:47
-Paul Peeraerts: @Steloj -> @Monato
-
-versio 1.111 2022/06/13 22:30:46
-Vito Redsky: + trd pl + trd ro
-
-versio 1.110 2022/05/01 17:51:18
 -->
 </vortaro>

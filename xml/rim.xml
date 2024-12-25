@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rim.xml,v 1.41 2024/01/09 07:26:12 revo Exp $">
+<art mrk="$Id: rim.xml,v 1.44 2024/04/20 18:25:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>rim</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>rim</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="rim.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="rim.0o.versparto">
     <uzo tip="fak">POE</uzo>
     <dif>
-      Fina parto de verso (a&ubreve; de vorto), kiu ripeti&gcirc;as en
+      Fina parto de <ref cel="vers.0o">verso</ref> (a&ubreve; de vorto), kiu ripeti&gcirc;as en
       aliaj versoj (a&ubreve; vortoj):
       <ekz>
         la <tld/>o devas enhavi la <ref cel="rim.0bazo"><tld/>bazon</ref>;
@@ -19,12 +19,27 @@
       <ekz>
         la nombro de <klr>[eblaj]</klr> <tld/>oj preska&ubreve; egalas
         al la nombro de inter<tld/>antaj radikoj
-        <fnt><bib>LSF</bib>, <lok>p. 92a</lok></fnt>.
+        <fnt><bib>LSF</bib>, <lok>p. 92a</lok></fnt>;
+      </ekz>
+      <ekz>
+        kun la sekvantaj rimoj, hazarde kolektitaj, limak- cel- atak- sitel- ofer-
+        somer- voj- &gcirc;oj- pri la &gcirc;enerala temo Somero ni kantos
+        <fnt>
+          <bib>LSB</bib>
+          <lok>Pri Somero</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum longa tempo li ser&ccirc;is rimon al la vorto <nac>cierge</nac> (kandelego)
+        <fnt>
+          <bib>KPr</bib>
+          <lok>&Ccirc;apitro Dekunua</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="in.0a.POE">ina</ref>,
-      <ref cel="vir.0a.POE">vira</ref>.
+      <ref cel="vir.0a.POE">vira</ref>
     </refgrp>
     <trd lng="de">Endreim</trd>
   </snc>
@@ -34,11 +49,29 @@
       Harmonia efekto, produktita de samsoneco de la finaj
       sonoj en du a&ubreve; pluraj versoj a&ubreve; vortoj:
       <ekz>
-        la <tld/>o ne devas devojigi la sencon.
+        la <tld/>o ne difektu la sencon
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Grabowski</nom> elstaris en la traduko de poezio: li povis tion fari majstre, kun
+        ritmoj abundaj kaj <tld/>oj ri&ccirc;aj kaj variaj
+        <fnt>
+          <bib>EeP</bib>
+          <lok>Dua Parto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kio akorde ne sonas, tio <tld/>on ne donas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="harmon1.0o.POE">harmonio</ref>.
+      <ref cel="harmon1.0o.POE">harmonio</ref>
     </refgrp>
     <trd lng="de">Reim</trd>
   </snc>
@@ -50,44 +83,116 @@
   <trd lng="he">&het;&resh;&vav;&zayin;</trd>
   <trd lng="hu">r&iacute;m</trd>
   <trdgrp lng="ja">
-    <trd>&#x97FB;  <pr>&#12356;&#12435;</pr></trd>,
-    <trd>&#x811A;&#x97FB;  <pr>&#x304D;&#12419;&#x304F;&#12356;&#12435;</pr></trd>
+    <trd>&#38907;  <pr>&#12356;&#12435;</pr></trd>,
+    <trd>&#33050;&#38907;  <pr>&#12365;&#12419;&#12367;&#12356;&#12435;</pr></trd>
   </trdgrp>
   <trd lng="nl">rijm</trd>
+  <trd lng="pl">rym</trd>
   <trd lng="pt">rima</trd>
   <trd lng="ru">&c_r;&c_i;&c_f;&c_m;&c_a;</trd>
   <trd lng="sk">r&yacute;m</trd>
   <trd lng="sv">rim</trd>
-  <trd lng="uk">&c_r;&c_i;&#x43C;&c_a;</trd>
+  <trd lng="uk">&c_r;&c_i;&c_m;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#38901; <pr>y&ugrave;n</pr></trd>,
+    <trd>&#38907; <pr>y&ugrave;n</pr></trd>,
+    <trd>&#23614;&#38901; <pr>w&ecaron;iy&ugrave;n</pr></trd>,
+    <trd>&#23614;&#38907; <pr>w&ecaron;iy&ugrave;n</pr></trd>,
+    <trd>&#38901;&#33050; <pr>y&ugrave;nji&#462;o</pr></trd>,
+    <trd>&#38907;&#33139; <pr>y&ugrave;nji&#462;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rim.0i">
   <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
   <snc mrk="rim.0i.POE">
+    <gra><vspec>tr</vspec></gra>
     <uzo tip="fak">POE</uzo>
     <dif>
       Harmoniigi du a&ubreve; plurajn vortojn a&ubreve; versojn per <tld/>o:
       <ekz>
-        <tld/>itaj versoj.
+        dialogaj idilioj bone verkitaj kaj <tld/>itaj
+        <fnt>
+          <bib>Kandid</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li foje <tld/>as nur per gramatikaj fina&jcirc;oj, liaj metaforoj estas iom banalaj
+        <fnt>
+          <bib>Plumamikoj</bib>
+          <lok>Esperanta poezio: mirakla rikolto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bone <tld/>itaj &gcirc;emoj, kiujn vi akompanadis per sonoj de liuto
+        <fnt>
+          <bib>RBa</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiom da brazilanoj tiom bone parolas, <tld/>as kaj kantas en la zamenhofa
+        lingvo, ke oni preska&ubreve; havas la impreson, ke ili naski&gcirc;is samtempe
+        esperantlingvanoj kaj portugallingvanoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2008/009404.php"
+              >Inspira antologio</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_r;&c_y;&c_f;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trdgrp lng="cs">
+      <trd>r&yacute;movat</trd>,
+      <trd>zr&yacute;movat</trd>
+    </trdgrp>
+    <trd lng="de">reimen</trd>
+    <trd lng="en">rhyme</trd>
+    <trd lng="es">rimar</trd>
+    <trd lng="fr">faire <ind>rimer</ind></trd>
+    <trd lng="he">&lamed;<ind>&het;&resh;&vav;&zayin;</ind></trd>
+    <trd lng="hu">r&iacute;meltet</trd>
+    <trd lng="ja">&#25276;&#38907;&#12377;&#12427;  <pr>&#12362;&#12358;&#12356;&#12435;&#12377;&#12427;</pr></trd>
+    <trd lng="nl">doen <ind>rijmen</ind></trd>
+    <trd lng="pl">rymowa&cacute;</trd>
+    <trd lng="ru">&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="sk">r&yacute;mova&tcaron;</trd>
+    <trdgrp lng="zh">
+      <trd>&#21387;&#38901; <pr>y&amacron;y&ugrave;n</pr></trd>,
+      <trd>&#22739;&#38907; <pr>y&amacron;y&ugrave;n</pr></trd>,
+      <trd>&#25276;&#38901; <pr>y&aacute;y&ugrave;n</pr></trd>,
+      <trd>&#25276;&#38907; <pr>y&aacute;y&ugrave;n</pr></trd>,
+      <trd>&#21327;&#38901; <pr>xi&eacute;y&ugrave;n</pr></trd>,
+      <trd>&#21332;&#38907; <pr>xi&eacute;y&ugrave;n</pr></trd>,
+      <trd>&#21494;&#38901; <pr>xi&eacute;y&ugrave;n</pr></trd>,
+      <trd>&#21494;&#38907; <pr>xi&eacute;y&ugrave;n</pr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="rim.0i.EVI">
+    <gra><vspec>ntr</vspec></gra>
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <tld lit="R"/>i&gcirc;i:
+      <ekz>
+        kun vero <tld/>as la sufero
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>1999, No 2 (52)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jo&ccirc;jo, &ccirc;u vi povas inventi alian rimitan frazon? &ndash; &leftquot;Ekpluvegis, kiam mi ludis
+        tenison, Kaj akvo atingis jam mian femuron&rightquot; &ndash; Sed &leftquot;femuron&rightquot; tute ne <tld/>as
+        <fnt>
+          <bib>KrB</bib>
+          <lok>Specimene</lok>
+        </fnt>!
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_r;&c_y;&c_f;&c_m;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trdgrp lng="cs">
-    <trd>r&yacute;movat</trd>,
-    <trd>zr&yacute;movat</trd>
-  </trdgrp>
-  <trd lng="de">reimen</trd>
-  <trd lng="en">rhyme</trd>
-  <trd lng="es">rimar</trd>
-  <trd lng="fr">faire <ind>rimer</ind></trd>
-  <trd lng="he">&lamed;<ind>&het;&resh;&vav;&zayin;</ind></trd>
-  <trd lng="hu">r&iacute;meltet</trd>
-  <trd lng="ja">&#x62BC;&#x97FB;&#12377;&#x308B;  <pr>&#x304A;&#12358;&#12356;&#12435;&#12377;&#x308B;</pr></trd>
-  <trd lng="nl">doen <ind>rijmen</ind></trd>
-  <trd lng="ru">&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">r&yacute;mova&tcaron;</trd>
 </drv>
 
 <drv mrk="rim.0ajxo">
@@ -96,13 +201,40 @@
     <dif>
       &Ccirc;ia vorta&jcirc;o enhavanta <tld/>ojn:
       <ekz>
-        &ccirc;u vere poemoj a&ubreve; nur <tld/>a&jcirc;oj?
+        facile parkerigeblaj <klr>[&#8230;]</klr> infanaj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Monato;/2003/008021.html"
+              >Suno kaj ombroj</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la poemo anka&ubreve; en tiu &ccirc;i modifita formo plu restas pli <tld/>a&jcirc;o, ol mondskua
+        poezia&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="&Monato;/2013/010449.php"
+              >Versa&jcirc;oj elver&scirc;itaj</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> kolektadis <klr>[&#8230;]</klr> anekdotojn, <tld/>a&jcirc;ojn, vortludojn,
+        fabelojn, proverbojn
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470; 10</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_r;&c_y;&c_f;&c_m;&c_a;&c_v;&c_a;&c_n;&c_a;&c_je; &c_s;&c_l;&c_o;&c_v;&c_a;</trd>
-  <trd lng="bo">&#xF66;&#xF99;&#xF53;&#xF0B;&#xF44;&#xF42;&#xF0B;</trd>
+  <trd lng="bo">&t_sa;&t_nyata;&t_na;&t_tsheg;&t_nga;&t_ga;&t_tsheg;</trd>
   <trd lng="fr">bout-rim&eacute;</trd>
+  <trd lng="pl">rymowanka</trd>
 </drv>
 
 <drv mrk="rim.0igxi">
@@ -139,12 +271,19 @@
   <trd lng="fr">rimer<klr tip="ind"> (pr&eacute;senter des rimes)</klr></trd>
   <trd lng="he">&lamed;<ind>&he;&tav;&het;&resh;&zayin;</ind></trd>
   <trd lng="hu">r&iacute;mel</trd>
-  <trd lng="ja">&#x97FB;&#12434;&#x8E0F;&#12416;  <pr>&#12356;&#12435;&#12434;&#12405;&#12416;</pr></trd>
+  <trd lng="ja">&#38907;&#12434;&#36367;&#12416;  <pr>&#12356;&#12435;&#12434;&#12405;&#12416;</pr></trd>
   <trd lng="nl">rijmen</trd>
+  <trd lng="pl">rymowa&cacute; si&eogonek;</trd>
   <trd lng="ru">&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trd lng="sk">r&yacute;mova&tcaron;</trd>
   <trd lng="sv">rimma</trd>
-  <trd lng="uk">&c_r;&c_i;&#x43C;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&#x44F;</trd>
+  <trd lng="uk">&c_r;&c_i;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21387;&#38901; <pr>y&amacron;y&ugrave;n</pr></trd>,
+    <trd>&#22739;&#38907; <pr>y&amacron;y&ugrave;n</pr></trd>,
+    <trd>&#38899;&#38901; <pr>y&imacron;ny&ugrave;n</pr></trd>,
+    <trd>&#38899;&#38907; <pr>y&imacron;ny&ugrave;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rim.0aro">
@@ -155,8 +294,7 @@
       Ordigita listo de <tld/>i&gcirc;antaj vortoj:
       <ekz>
         por certigi la kompletecon de tiu <tld/>aro, mi pedante
-        kontrolis
-        &gcirc;in per <ctl>Inversa Vortaro</ctl> de D-ro Schl&uuml;ter
+        kontrolis &gcirc;in per <ctl>Inversa Vortaro</ctl> de D-ro <nom>Schl&uuml;ter</nom>
         <fnt><bib>PGl</bib>, <lok>p. 111a</lok></fnt>.
       </ekz>
     </dif>
@@ -168,10 +306,15 @@
   <trd lng="fr">dictionnaire de rimes</trd>
   <trd lng="he">&mem;&yod;&lamed;&vav;&fnun; <ind>&het;&resh;&vav;&zayin;</ind>&yod;&fmem;</trd>
   <trd lng="hu">r&iacute;msz&oacute;t&aacute;r</trd>
-  <trd lng="ja">&#x811A;&#x97FB;&#x8F9E;&#20856;  <pr>&#12354;&#12375;&#12356;&#12435;&#12376;&#12390;&#12435;</pr></trd>
+  <trd lng="ja">&#33050;&#38907;&#36766;&#20856;  <pr>&#12354;&#12375;&#12356;&#12435;&#12376;&#12390;&#12435;</pr></trd>
   <trd lng="nl">rijmwoordenboek</trd>
+  <trd lng="pl">s&lstroke;ownik  <ind>rym&oacute;w</ind></trd>
   <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_a;&c_r;&c_mol; &c_r;&c_i;&c_f;&c_m;</trd>
   <trd lng="sk">slovn&iacute;k r&yacute;mov</trd>
+  <trdgrp lng="zh">
+    <trd>&#38901;&#20070; <pr>y&ugrave;nsh&umacron;</pr></trd>,
+    <trd>&#38907;&#26360; <pr>y&ugrave;nsh&umacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rim.aborta0o">
@@ -193,6 +336,7 @@
     <trd>abort&aacute;lt <ind>r&iacute;m</ind></trd>
   </trdgrp>
   <trd lng="nl">kreupelrijm</trd>
+  <trd lng="pl">rym &lstroke;amany</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_b;&c_l;&c_i;&c_z;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>
 </drv>
 
@@ -218,6 +362,7 @@
   </snc>
   <trd lng="be">&c_d;&c_z;&c_ib;&c_c;&c_ja;&c_ch;&c_y; &c_v;&c_je;&c_r;&c_sh;</trd>
   <trd lng="fr">po&egrave;me enfantin</trd>
+  <trd lng="pl">dzieci&eogonek;ca  <ind>rymowanka</ind></trd>
 </drv>
 
 <drv mrk="rim.interna0o">
@@ -244,6 +389,7 @@
   <trd lng="he"><ind>&het;&resh;&vav;&zayin;</ind> &pe;&nun;&yod;&mem;&yod;</trd>
   <trd lng="hu">bels&odblac; <ind>r&iacute;m</ind></trd>
   <trd lng="nl">binnenrijm</trd>
+  <trd lng="pl">rym wewn&eogonek;trzny</trd>
   <trd lng="ru">&c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_ja;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>
 </drv>
 
@@ -283,6 +429,7 @@
     <trd>nem tiszta <ind>r&iacute;m</ind></trd>,
     <trd>vegyes <ind>r&iacute;m</ind></trd>
   </trdgrp>
+  <trd lng="pl">rym nieczysty</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_p;&c_o;&c_l;&c_n;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>,
     <trd>&c_n;&c_je;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>
@@ -318,6 +465,10 @@
     <trd>true rhyme</trd>
   </trdgrp>
   <trd lng="hu">tiszta <ind>r&iacute;m</ind></trd>
+  <trdgrp lng="pl">
+    <trd>rym dok&lstroke;adny</trd>,
+    <trd>rym pe&lstroke;ny</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_n;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>,
     <trd>&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>
@@ -348,6 +499,7 @@
     <trd>t&ouml;bbsz&oacute;tagos <ind>r&iacute;m</ind></trd>
   </trdgrp>
   <trd lng="nl">rijk <ind>rijm</ind></trd>
+  <trd lng="pl">rym bogaty</trd>
   <trd lng="ru">&c_b;&c_o;&c_g;&c_a;&c_t;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>
 </drv>
 
@@ -377,6 +529,7 @@
     <trd>toldal&eacute;kr&iacute;m</trd>
   </trdgrp>
   <trd lng="nl">suffixrijm</trd>
+  <trd lng="pl">rym sufiksowy <klr>(cz&eogonek;stochowski)</klr></trd>
   <trd lng="ru">&c_o;&c_d;&c_n;&c_o;&c_r;&c_o;&c_d;&c_n;&c_a;&c_ja; &c_r;&c_i;&c_f;&c_m;&c_a;</trd>
 </drv>
 
@@ -416,6 +569,7 @@
   <trd lng="en">rhyme arrangement</trd>
   <trd lng="hu">r&iacute;mk&eacute;plet</trd>
   <trd lng="nl">rijmschema</trd>
+  <trd lng="pl">uk&lstroke;ad  <ind>rym&oacute;w</ind></trd>
   <trd lng="ru">&c_r;&c_i;&c_f;&c_m;&c_o;&c_v;&c_k;&c_a;</trd>
 </drv>
 
@@ -450,11 +604,18 @@
     <aut>MB</aut>
   </adm>
   <trd lng="hu">sorz&aacute;rlat</trd>
+  <trd lng="pl">klauzula  <klr>(poezja)</klr></trd>
   <trd lng="ru">&c_k;&c_l;&c_a;&c_u;&c_z;&c_u;&c_l;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.44 2024/04/20 18:25:54
+Wolfram Diestel: +ekz-oj
+
+versio 1.43 2024/04/18 21:20:52
+Vito Redsky: trd pl
+
 versio 1.41 2024/01/09 07:26:12
 Dmitri Gabinski: + trd be
 
@@ -471,11 +632,5 @@ Revision 1.33  2015/07/04 08:37:42  revo
 aldono de trd cs per skripto de M. von Laer
 
 Revision 1.32  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.31  2014/12/18 23:10:51  revo
-Jeromo Vasxe: + mrk, memstar ~ajxo, - malgxusta "afekti" en ekz
-
-Revision 1.30  2014/02/24 02:10:13  revo
 -->
 </vortaro>

@@ -2,21 +2,22 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akcelometr.xml,v 1.3 2023/05/06 17:35:34 afido Exp $">
+<art mrk="$Id: akcelometr.xml,v 1.6 2024/10/31 22:32:21 afido Exp $">
 <kap>
   <rad>akcelometr</rad>/o
 </kap>
 
 <drv mrk="akcelometr.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TEK</uzo>
-  <snc>
+  <snc mrk="akcelometr.0o.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      Instrumento por mezuri la akcelon dum movo:
+      <ref tip="dif" cel="mezur.akcelo0ilo.TEK">Akcelomezurilo</ref>:
       <ekz>
         dum sep tagoj <klr>[ili]</klr> portis &ccirc;e karpeo rubandojn kun enmuntita <tld/>o
         <fnt>
-          <vrk><url ref="https://pola-retradio.org/2017/02/la-senmova-vivstilo-akcelas-maljunigadon/"
+          <vrk><url
+          ref="https://pola-retradio.org/2017/02/la-senmova-vivstilo-akcelas-maljunigadon/"
               >La senmova vivstilo akcelas maljuni&gcirc;adon</url></vrk>
           <lok>Pola Retradio</lok>
         </fnt>;
@@ -25,14 +26,14 @@
         sur lango de unu &scirc;uo li estis instalinta <tld/>on kun la celo mezuri la fortojn
         <fnt>
           <bib>Monato</bib>
-          <aut>Roberto PIGRO</aut>
+          <aut>R. Pigro</aut>
           <vrk><url ref="&Monato;/2017/011999.php"
               >La &scirc;ula&ccirc;a problemo</url></vrk>
-          <lok>2017 n-ro 12</lok>
+          <lok>2017/12</lok>
         </fnt>.
       </ekz>
     </dif>
-<ref tip="vid" cel="girosk.0o">giroskopo</ref>
+    <ref tip="vid" cel="girosk.0o">giroskopo</ref>
     <trdgrp lng="de">
       <trd>Beschleunigungssensor</trd>,
       <trd>Beschleunigungsmesser</trd>
@@ -40,13 +41,26 @@
     <trd lng="en">accelerometer</trd>
     <trd lng="es">aceler&oacute;metro</trd>
     <trd lng="fr">acc&eacute;l&eacute;rom&egrave;tre</trd>
+    <trdgrp lng="pl">
+      <trd>akcelerometr</trd>,
+      <trd>miernik przy&sacute;pieszenia</trd>
+    </trdgrp>
   </snc>
+<trd lng="be">&c_a;&c_k;&c_s;&c_e;&c_l;&c_je;&c_r;&c_o;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
 </drv>
-
 </art>
 
 <!--
 $Log$
+versio 1.6 2024/10/31 22:32:21
+Jeromo Vasxe: ref dif
+
+versio 1.5 2024/08/19 01:46:43
+Vito Redsky: + trd pl
+
+versio 1.4 2024/06/12 07:25:29
+Dmitri Gabinski: + trd be
+
 versio 1.3 2023/05/06 17:35:34
 revo: aktualigo URL-unuoj
 
@@ -60,4 +74,3 @@ versio 1.1 2023/05/05 20:24:16
 Robert Baruch: nova artikolo
 -->
 </vortaro>
-

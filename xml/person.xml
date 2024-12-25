@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: person.xml,v 1.134 2023/12/05 07:24:43 revo Exp $">
+<art mrk="$Id: person.xml,v 1.140 2024/12/11 10:34:00 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>person</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="person.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -112,9 +113,17 @@
       <trd>Mensch</trd>,
       <trd>Individuum</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>pribadi</trd>,
+      <trd>orang</trd>,
+      <trd>sosok</trd>,
+      <trd>tokoh</trd>
+    </trdgrp>
+    <trd lng="ils" kod="M554x588S36d00479x525S1ed26535x526S22b04534x558S2ff00483x483"></trd>
     <trd lng="pl">osoba</trd>
     <trd lng="pt">pessoa</trd>
     <trd lng="ro">persoana</trd>
+    <trd lng="sgn" kod="M540x541S1e200518x515S2ff00482x476S36d00479x520">D@12*</trd>
     <trdgrp lng="ru">
       <trd>&c_l;&c_i;&c_c;&c_o;<klr>(&c_o;&c_s;&c_o;&c_b;&c_a;)</klr></trd>,
       <trd>&c_o;&c_s;&c_o;&c_b;&c_a;</trd>,
@@ -127,8 +136,8 @@
       a&ubreve; alia verko fikcia:
       <ekz>
         <tld/>oj:
-        Anton Antonovi&ccirc; Skvoznik-Dmu&hcirc;anonskij, urbestro,
-        Anna Andrejevna, lia edzino <klr>[&#8230;]</klr>
+        <nom>Anton Antonovi&ccirc; Skvoznik-Dmu&hcirc;anonskij</nom>, urbestro,
+        <nom>Anna Andrejevna</nom>, lia edzino <klr>[&#8230;]</klr>
         <fnt><bib>Revizoro</bib></fnt>;
       </ekz>
       <ekz>
@@ -169,10 +178,10 @@
     </trdgrp>
     <trd lng="en">character</trd>
     <trdgrp lng="id">
-      <trd>figur</trd>
+      <trd>figur</trd>,
       <trd>karakter</trd>,
       <trd>peran</trd>,
-      <trd>tokoh</trd>
+      <trd>tokoh<klr> (dlm film)</klr></trd>
     </trdgrp>
     <trd lng="ru">&c_p;&c_je;&c_r;&c_s;&c_o;&c_n;&c_a;&c_zh;</trd>
   </snc>
@@ -235,10 +244,10 @@
     (&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
   </snc>
   <trd lng="af">persoon</trd>
-  <trd lng="am">&#4656;&#4813;</trd>
+  <trd lng="am">&#4656;&#x12CD;</trd>
   <trd lng="ar">&a_sh;&a_kh;&a_S;</trd>
   <trd lng="az">&scedil;&#601;xs</trd>
-  <trd lng="bn">&#2476;&#2509;&#2479;&#2453;&#2509;&#2468;&#2495;</trd>
+  <trd lng="bn">&#x9AC;&#x9CD;&#x9AF;&#2453;&#x9CD;&#x9A4;&#x9BF;</trd>
   <trd lng="bo">&t_ma;&t_gigu;&t_tsheg;</trd>
   <trd lng="bs">osoba</trd>
   <trd lng="co">persona</trd>
@@ -259,53 +268,49 @@
   <trd lng="ga">duine</trd>
   <trd lng="gd">neach</trd>
   <trd lng="gl">persoa</trd>
-  <trd lng="gu">&#2741;&#2765;&#2735;&#2709;&#2765;&#2724;&#2751;</trd>
+  <trd lng="gu">&#xAB5;&#xACD;&#xAAF;&#xA95;&#xACD;&#xAA4;&#xABF;</trd>
   <trd lng="ha">mutum</trd>
-  <trd lng="hi">&#2357;&#2381;&#2351;&#2325;&#2381;&#2340;&#2367;</trd>
+  <trd lng="hi">&#2357;&#x94D;&#x92F;&#2325;&#x94D;&#2340;&#x93F;</trd>
   <trd lng="hmn">tus neeg</trd>
   <trd lng="hr">osoba</trd>
   <trd lng="ht">moun</trd>
   <trd lng="hu">szem&eacute;ly</trd>
   <trd lng="hy">&#1396;&#1377;&#1408;&#1380;</trd>
-  <trdgrp lng="id">
-    <trd>orang</trd>,
-    <trd>pribadi</trd>
-  </trdgrp>
   <trd lng="ig">onye</trd>
-  <trd lng="is">ma&#240;ur</trd>
-  <trd lng="ja">&#20154; <pr>&#12395;&#12435;</pr></trd>
+  <trd lng="is">ma&#xF0;ur</trd>
+  <trd lng="ja">&#x4EBA; <pr>&#x306B;&#12435;</pr></trd>
   <trd lng="jv">wong</trd>
-  <trd lng="ka">&#4318;&#4312;&#4320;&#4312;</trd>
+  <trd lng="ka">&#x10DE;&#x10D8;&#x10E0;&#x10D8;</trd>
   <trd lng="kk">&c_a;&c_d;&c_a;&c_m;</trd>
-  <trd lng="km">&#6040;&#6035;&#6075;&#6047;&#6098;&#6047;&#6040;&#6098;&#6035;&#6070;&#6016;&#6091;</trd>
-  <trd lng="kn">&#3253;&#3277;&#3247;&#3221;&#3277;&#3236;&#3263;</trd>
-  <trd lng="ko">&#49324;&#46988;</trd>
+  <trd lng="km">&#6040;&#6035;&#x17BB;&#x179F;&#x17D2;&#x179F;&#6040;&#x17D2;&#6035;&#x17B6;&#6016;&#x17CB;</trd>
+  <trd lng="kn">&#xCB5;&#xCCD;&#xCAF;&#xC95;&#xCCD;&#xCA4;&#xCBF;</trd>
+  <trd lng="ko">&#xC0AC;&#xB78C;</trd>
   <trd lng="ku">&scedil;exs</trd>
   <trd lng="ky">&c_a;&c_d;&c_a;&c_m;</trd>
   <trd lng="lat">aliquis</trd>
-  <trd lng="lo">&#3738;&#3768;&#3713;&#3716;&#3771;&#3737;</trd>
+  <trd lng="lo">&#xE9A;&#xEB8;&#xE81;&#xE84;&#xEBB;&#xE99;</trd>
   <trd lng="lt">asmuo</trd>
   <trd lng="lv">persona</trd>
   <trd lng="mg">olona</trd>
   <trd lng="mi">tangata</trd>
   <trd lng="mk">&c_l;&c_i;&c_c;&c_je;</trd>
-  <trd lng="ml">&#3381;&#3405;&#3375;&#3349;&#3405;&#3364;&#3391;</trd>
-  <trd lng="mn">&c_h;&#1199;&c_n;</trd>
-  <trd lng="mr">&#2357;&#2381;&#2351;&#2325;&#2381;&#2340;&#2368;</trd>
+  <trd lng="ml">&#xD35;&#xD4D;&#xD2F;&#xD15;&#xD4D;&#xD24;&#xD3F;</trd>
+  <trd lng="mn">&c_h;&#x4AF;&c_n;</trd>
+  <trd lng="mr">&#2357;&#x94D;&#x92F;&#2325;&#x94D;&#2340;&#2368;</trd>
   <trd lng="ms">orang</trd>
   <trd lng="mt">persuna</trd>
-  <trd lng="my">&#4124;&#4144;</trd>
-  <trd lng="ne">&#2357;&#2381;&#2351;&#2325;&#2381;&#2340;&#2367;</trd>
+  <trd lng="my">&#x101C;&#4144;</trd>
+  <trd lng="ne">&#2357;&#x94D;&#x92F;&#2325;&#x94D;&#2340;&#x93F;</trd>
   <trd lng="nl">persoon</trd>
   <trd lng="ny">munthu</trd>
-  <trd lng="pa">&#2613;&#2623;&#2565;&#2581;&#2596;&#2624; &#2600;&#2626;&#2672;</trd>
+  <trd lng="pa">&#xA35;&#xA3F;&#xA05;&#xA15;&#xA24;&#xA40; &#xA28;&#xA42;&#xA70;</trd>
   <trd lng="pl">osoba</trd>
   <trd lng="ps">&a_sh;&a_kh;&a_S;</trd>
   <trd lng="pt">pessoa</trd>
   <trd lng="ro">persoana</trd>
   <trd lng="rw">umuntu</trd>
-  <trd lng="sd">&a_m;&a_A;&#1723;&a_h;&a_w;</trd>
-  <trd lng="si">&#3508;&#3540;&#3503;&#3530;&#3484;&#3517;&#3514;&#3535;</trd>
+  <trd lng="sd">&a_m;&a_A;&#x6BB;&a_h;&a_w;</trd>
+  <trd lng="si">&#xDB4;&#xDD4;&#xDAF;&#xDCA;&#xD9C;&#xDBD;&#xDBA;&#xDCF;</trd>
   <trdgrp lng="sk">
     <trd>osobnos&tcaron;</trd>,
     <trd>zjav</trd>
@@ -318,10 +323,10 @@
   <trd lng="st">motho</trd>
   <trd lng="su">jelema</trd>
   <trd lng="sw">mtu</trd>
-  <trd lng="ta">&#2984;&#2986;&#2992;&#3021;</trd>
-  <trd lng="te">&#3125;&#3149;&#3119;&#3093;&#3149;&#3108;&#3135;</trd>
+  <trd lng="ta">&#xBA8;&#xBAA;&#xBB0;&#xBCD;</trd>
+  <trd lng="te">&#xC35;&#xC4D;&#xC2F;&#xC15;&#xC4D;&#xC24;&#xC3F;</trd>
   <trd lng="tg">&c_o;&c_d;&c_a;&c_m;</trd>
-  <trd lng="th">&#3588;&#3609;</trd>
+  <trd lng="th">&#xE04;&#xE19;</trd>
   <trd lng="tl">tao</trd>
   <trd lng="tok">jan</trd>
   <trd lng="tr">ki&scedil;i</trd>
@@ -329,10 +334,15 @@
   <trd lng="uk">&c_l;&c_ju;&c_d;&c_i;&c_n;&c_a;</trd>
   <trd lng="ur">&a_sh;&a_kh;&a_S;</trd>
   <trd lng="uz">shaxs</trd>
-  <trd lng="vi">ng&#432;&#7901;i</trd>
+  <trd lng="vi">ng&#x1B0;&#x1EDD;i</trd>
   <trd lng="xh">umntu</trd>
   <trd lng="yi">&mem;&ayin;&nun;&tet;&shin;</trd>
   <trd lng="yo">eniyan</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5E88; <pr>q&#xED;n</pr></trd>,
+    <trd>&#21592; <pr>yu&#xE1;n</pr></trd>,
+    <trd>&#x54E1; <pr>yu&#xE1;n</pr></trd>
+  </trdgrp>
   <trd lng="zu">umuntu</trd>
 </drv>
 
@@ -415,7 +425,7 @@
       <trd>peszon&aacute;l-</trd>
     </trdgrp>
     <trdgrp lng="id">
-      <trd>perse<ind>orang</ind>an</trd>,
+      <trd><baz>orang</baz>perseorangan</trd>,
       <trd>personal</trd>,
       <trd>pribadi</trd>
     </trdgrp>
@@ -449,12 +459,11 @@
     <trd lng="hu">szem&eacute;lyes n&eacute;vm&aacute;s</trd>
     <trd lng="nl">persoonlijk <ind>voornaamwoord</ind></trd>
   </snc>
-
   <trd lng="bo">&t_sa;&t_gata;&t_drengbu;&t_ra;&t_tsheg;</trd>
   <trd lng="fr">personnel<klr> (adj.)</klr></trd>
   <trdgrp lng="ja">
-    <trd>&#20491;&#20154;&#12398;  <pr>&#12371;&#12376;&#12435;&#12398;</pr></trd>,
-    <trd>&#20491;&#20154;&#30340;&#12394;  <pr>&#12371;&#12376;&#12435;&#12390;&#12365;&#12394;</pr></trd>
+    <trd>&#x500B;&#x4EBA;&#x306E;  <pr>&#12371;&#12376;&#12435;&#x306E;</pr></trd>,
+    <trd>&#x500B;&#x4EBA;&#30340;&#x306A;  <pr>&#12371;&#12376;&#12435;&#12390;&#x304D;&#x306A;</pr></trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_o;&c_s;&c_o;&c_b;&c_i;&c_s;&c_t;&c_i;&c_j;</trd>,
@@ -462,6 +471,14 @@
     <trd>&c_ib;&c_n;&c_d;&c_i;&c_v;&c_ib;&c_d;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_s;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_o;&c_s;&c_o;&c_b;&c_o;&c_v;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x81EA;&#x5DF1; <pr>z&#xEC;j&#x1D0;</pr></trd>,
+    <trd>&#x79C1; <pr>s&#x12B;</pr></trd>,
+    <trd>&#x79C1;&#x4EBA; <pr>s&#x12B;r&#xE9;n</pr></trd>,
+    <trd>&#x4EB2;&#x8EAB; <pr>q&#x12B;nsh&emacron;n</pr></trd>,
+    <trd>&#x89AA;&#x8EAB; <pr>q&#x12B;nsh&emacron;n</pr></trd>,
+    <trd>&#x4EBA;&#x8EAB; <pr>r&#xE9;nsh&emacron;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -523,15 +540,24 @@
     <trd>&c_a;&c_s;&c_a;&c_b;&c_o;&c_v;&c_a;</trd>
   </trdgrp>
   <trd lng="cs">osobn&ecaron;</trd>
-  <trd lng="de">pers&ouml;nlich</trd>
+  <trdgrp lng="de">
+    <trd>pers&ouml;nlich</trd>,
+    <trd>h&ouml;chstselbst</trd>
+  </trdgrp>
   <trd lng="en">personally</trd>
   <trd lng="fa">&a_sh;&a_kh;&a_S;&a_A;&a_fathatan;</trd>
   <trd lng="fr">personnellement</trd>
   <trd lng="hu">szem&eacute;lyesen</trd>
   <trdgrp lng="id">
-      <trd>secara perse<ind>orang</ind>an</trd>,
-      <trd>secara <ind>personal</ind></trd>,
-      <trd>secara <ind>pribadi</ind></trd>
+    <trd>secara <baz>orang</baz>perseorangan</trd>,
+    <trd>secara <ind>personal</ind></trd>,
+    <trd>secara <ind>pribadi</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#x500B;&#x4EBA;&#30340;&#x306B;  <pr>&#12371;&#12376;&#12435;&#12390;&#x304D;&#x306B;</pr></trd>,
+    <trd>&#x500B;&#x4EBA;&#12392;&#12375;&#12390;  <pr>&#12371;&#12376;&#12435;&#12392;&#12375;&#12390;</pr></trd>,
+    <trd>&#x81EA;&#20998;&#x81EA;&#x8EAB;&#12391;  <pr>&#12376;&#12406;&#12435;&#12376;&#12375;&#12435;&#12391;</pr></trd>,
+    <trd>&#x81EA;&#12425;  <pr>&#x307F;&#x305A;&#x304B;&#12425;</pr></trd>
   </trdgrp>
   <trd lng="nl">persoonlijk<klr tip="ind"> (bw.)</klr></trd>
   <trd lng="pl">osobi&sacute;cie</trd>
@@ -542,15 +568,24 @@
     <trd>&scedil;ahsen</trd>,
     <trd>&scedil;ahsi olarak</trd>
   </trdgrp>
+  <trdgrp lng="uk">
+    <trd>&c_o;&c_s;&c_o;&c_b;&c_i;&c_s;&c_t;&c_o;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_s;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EB2;&#x81EA; <pr>q&#x12B;nz&#xEC;</pr></trd>,
+    <trd>&#x89AA;&#x81EA; <pr>q&#x12B;nz&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="person.P0e">
   <kap>
     <tld lit="P"/>e
   </kap>
-  <snc>
+  <snc mrk="person.P0e.triopo">
     <dif>
-      Sveda muzika triopo, fondita 1986 por la unua Kultura Esperanto-Festivalo:
+      Sveda muzika <ref cel="tri.0opo">triopo</ref>, fondita 1986 por la unua Kultura
+      Esperanto-Festivalo:
       <ekz>
         li pensigas pri neniu alia ol ... &leftquot;<tld lit="P"/>e&rightquot;
         <fnt>
@@ -569,20 +604,10 @@
       </ekz>
     </dif>
   </snc>
-<trdgrp lng="de">
-    <trd>pers&ouml;nlich</trd>,
-    <trd>h&ouml;chstselbst</trd>
-  </trdgrp>
-  <trdgrp lng="ja">
-    <trd>&#20491;&#20154;&#30340;&#12395;  <pr>&#12371;&#12376;&#12435;&#12390;&#12365;&#12395;</pr></trd>,
-    <trd>&#20491;&#20154;&#12392;&#12375;&#12390;  <pr>&#12371;&#12376;&#12435;&#12392;&#12375;&#12390;</pr></trd>,
-    <trd>&#33258;&#20998;&#33258;&#36523;&#12391;  <pr>&#12376;&#12406;&#12435;&#12376;&#12375;&#12435;&#12391;</pr></trd>,
-    <trd>&#33258;&#12425;  <pr>&#12415;&#12378;&#12363;&#12425;</pr></trd>
-  </trdgrp>
-  <trdgrp lng="uk">
-    <trd>&c_o;&c_s;&c_o;&c_b;&c_i;&c_s;&c_t;&c_o;</trd>,
-    <trd>&c_p;&c_je;&c_r;&c_s;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;</trd>
-  </trdgrp>
+  <trd lng="be">&c_P;&c_e;&c_r;&c_s;&c_o;&c_n;&c_e; <klr>(&c_m;&c_u;&c_z;&c_y;&c_ch;&c_n;&c_y; &c_g;&c_u;&c_r;&c_t;)</klr></trd>
+  <trd lng="de">Persone <klr>(schwed. Band)</klr></trd>
+  <trd lng="id">Persone<klr> (grup musik Esperanto)</klr></trd>
+  <trd lng="pl">Persone  <klr>(szwedzki zesp&oacute;&lstroke; muzyczny)</klr></trd>
 </drv>
 
 <drv mrk="person.0ajxo">
@@ -628,7 +653,13 @@
       <trd>&c_o;&c_s;&c_o;&c_b;&c_a;&c_ja; &c_p;&c_r;&c_i;&c_m;&c_je;&c_t;&c_a;</trd>,
       <trd>&c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_n;&c_a;&c_ja; &c_ch;&c_je;&c_r;&c_t;&c_a;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6C14;&#x8D28; <pr>q&#xEC;zh&#xEC;</pr></trd>,
+    <trd>&#x6C23;&#x8CEA; <pr>q&#xEC;zh&#xEC;</pr></trd>,
+    <trd>&#29305;&#x8CEA; <pr>t&#xE8;zh&#xEC;</pr></trd>,
+    <trd>&#29305;&#x8D28; <pr>t&#xE8;zh&#xEC;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="person.0ajxo.fikcia">
     <uzo tip="stl">EVI</uzo>
     <dif>
@@ -642,7 +673,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        la Maskita Kukumo estas bildstria <tld/>a&jcirc;o kreita de Mandryka
+        la Maskita Kukumo estas bildstria <tld/>a&jcirc;o kreita de <nom>Mandryka</nom>
         <fnt>
           <bib>Viki</bib>
           <lok><url ref="https://eo.wikipedia.org/?curid=30772">Maskita Kukumo</url></lok>
@@ -650,6 +681,12 @@
       </ekz>
     </dif>
     <!-- ne traduku evitindajn vortojn:
+      <trdgrp lng="id">
+        <trd>figur</trd>,
+        <trd>karakter</trd>,
+        <trd>peran</trd>,
+        <trd>tokoh<klr> (dlm film)</klr></trd>
+      </trdgrp>
       <trd lng="nl">personage<klr tip="ind"> (ontr.)</klr></trd>
     -->
   </snc>
@@ -713,6 +750,7 @@
         <trd>personnel<klr tip="ind"> (ensemble des employ&eacute;s)</klr></trd>,
         <trd>effectif<klr tip="ind"> (ensemble des employ&eacute;s)</klr></trd>
       </trdgrp>
+    <trd lng="id">staf</trd>
     </subsnc>
     <subsnc mrk="person.0aro.KIN">
       <uzo tip="fak">KIN</uzo>
@@ -729,6 +767,10 @@
       <trdgrp lng="fr">
         <trd>casting</trd>,
         <trd>distribution<klr tip="ind"> (ensembles des interpr&egrave;tes)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="id">
+        <trd><baz>main</baz>pemain<klr> (film dsb.)</klr></trd>,
+        <trd><baz>peran</baz>pemeran</trd>
       </trdgrp>
       <trd lng="pl">obsada</trd>
     </subsnc>
@@ -753,12 +795,12 @@
       <trd>groupe de <ind>personnes</ind></trd>
     </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#32887;&#21729;  <pr>&#12375;&#12423;&#12367;&#12356;&#12435;</pr></trd>,
-    <trd>&#24467;&#26989;&#21729;  <pr>&#12376;&#12421;&#12358;&#12366;&#12423;&#12358;&#12356;&#12435;</pr></trd>,
-    <trd>&#35201;&#21729;  <pr>&#12424;&#12358;&#12356;&#12435;</pr></trd>,
-    <trd>&#12473;&#12479;&#12483;&#12501;  <pr>&#12377;&#12383;&#12387;&#12405;</pr></trd>,
-    <trd>&#37197;&#24441;  <pr>&#12399;&#12356;&#12420;&#12367;</pr></trd>,
-    <trd>&#30331;&#22580;&#20154;&#29289;  <pr>&#12392;&#12358;&#12376;&#12423;&#12358;&#12376;&#12435;&#12406;&#12388;</pr></trd>
+    <trd>&#32887;&#x54E1;  <pr>&#12375;&#12423;&#x304F;&#12356;&#12435;</pr></trd>,
+    <trd>&#x5F93;&#x696D;&#x54E1;  <pr>&#12376;&#12421;&#12358;&#x304E;&#12423;&#12358;&#12356;&#12435;</pr></trd>,
+    <trd>&#35201;&#x54E1;  <pr>&#12424;&#12358;&#12356;&#12435;</pr></trd>,
+    <trd>&#x30B9;&#x30BF;&#x30C3;&#x30D5;  <pr>&#12377;&#x305F;&#12387;&#12405;</pr></trd>,
+    <trd>&#x914D;&#x5F79;  <pr>&#x306F;&#12356;&#12420;&#x304F;</pr></trd>,
+    <trd>&#x767B;&#22580;&#x4EBA;&#29289;  <pr>&#12392;&#12358;&#12376;&#12423;&#12358;&#12376;&#12435;&#12406;&#12388;</pr></trd>
   </trdgrp>
   <trd lng="nl">groep personen</trd>
   <trdgrp lng="pl">
@@ -777,6 +819,7 @@
     <trd>&c_s;&c_k;&c_l;&c_a;&c_d; &c_d;&c_ib;&c_ju;&c_ch;&c_i;&c_h; &c_o;&c_s;&c_ib;&c_b;</trd>,
     <trd>&c_d;&c_ib;&c_ju;&c_ch;&c_ib; &c_o;&c_s;&c_o;&c_b;&c_i;</trd>
   </trdgrp>
+  <trd lng="zh">&#x4E00;&#x7FA4;&#x4EBA; <pr>y&#x12B;q&#xFA;nr&#xE9;n</pr></trd>
 </drv>
 
 <drv mrk="person.0eco">
@@ -815,7 +858,7 @@
       </ekz>
       <ekz>
         la &ccirc;efa merito de granda romanisto estas la potenco krei <tld/>ecojn,
-        kaj Becky Sharp, la protagonistino de la romano, estas inter la plej
+        kaj <nom>Becky Sharp</nom>, la protagonistino de la romano, estas inter la plej
         superaj krea&jcirc;oj de la angla literaturo
         <fnt>
           <bib>Monato</bib>
@@ -841,13 +884,15 @@
   <trd lng="hu">szem&eacute;lyis&eacute;g</trd>
   <trdgrp lng="id">
     <trd>personalitas</trd>,
-    <trd>ke<ind>pribadi</ind>an</trd>
+    <trd><baz>pribadi</baz>kepribadian</trd>,
+    <trd>sifat</trd>,
+    <trd>watak</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#20491;&#24615;  <pr>&#12371;&#12379;&#12356;</pr></trd>,
-    <trd>&#12497;&#12540;&#12477;&#12490;&#12522;&#12486;&#12451;</trd>,
-    <trd>&#20154;&#26564;  <pr>&#12402;&#12392;&#12364;&#12425;</pr></trd>,
-    <trd>&#20154;&#26684;  <pr>&#12376;&#12435;&#12363;&#12367;</pr></trd>
+    <trd>&#x500B;&#24615;  <pr>&#12371;&#x305B;&#12356;</pr></trd>,
+    <trd>&#x30D1;&#x30FC;&#x30BD;&#x30CA;&#x30EA;&#x30C6;&#x30A3;</trd>,
+    <trd>&#x4EBA;&#x67C4;  <pr>&#12402;&#12392;&#x304C;&#12425;</pr></trd>,
+    <trd>&#x4EBA;&#x683C;  <pr>&#12376;&#12435;&#x304B;&#x304F;</pr></trd>
   </trdgrp>
   <trd lng="nl">persoonlijkheid</trd>
   <trd lng="pl">osobowo&sacute;&cacute;</trd>
@@ -859,6 +904,12 @@
     <trd>&scedil;ahsiyet</trd>
   </trdgrp>
   <trd lng="uk">&c_o;&c_s;&c_o;&c_b;&c_i;&c_s;&c_t;&c_ib;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x58EB; <pr>r&#xE9;nsh&#xEC;</pr></trd>,
+    <trd>&#x4E2A;&#24615; <pr>g&#xE8;x&#xEC;ng</pr></trd>,
+    <trd>&#x500B;&#24615; <pr>g&#xE8;x&#xEC;ng</pr></trd>,
+    <trd>&#x4EBA;&#x683C; <pr>r&#xE9;ng&#xE9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="person.0igo">
@@ -902,7 +953,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        A. Tolstoj <klr>[&#8230;]</klr> neordinare uzas <tld/>igon:
+        <nom>A. Tolstoj</nom> <klr>[&#8230;]</klr> neordinare uzas <tld/>igon:
         <ctl>La historio estis spronita, la historio ekgalopis, kaj
         sub &gcirc;iaj oraj hufoj ektintis la kranioj de la
         stultuloj</ctl>
@@ -939,11 +990,11 @@
       <trd>prosopopeia</trd>,
       <trd>personificatie</trd>
     </trdgrp>
-    <trd lng="pt">prosopop&eacute;ia</trd>
     <trdgrp lng="pl">
       <trd>uosobienie</trd>,
       <trd>personifikacja</trd>
     </trdgrp>
+    <trd lng="pt">prosopop&eacute;ia</trd>
     <trd lng="ro">&icirc;ntruchiparea</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_r;&c_o;&c_z;&c_o;&c_p;&c_o;&c_p;&c_je;&c_ja;</trd>,
@@ -972,15 +1023,19 @@
   <trd lng="cs">personifikace</trd>
   <trd lng="de">Personifizierung</trd>
   <trdgrp lng="ja">
-    <trd>&#20154;&#26684;&#21270;  <pr>&#12376;&#12435;&#12363;&#12367;&#12363;</pr></trd>,
-    <trd>&#25836;&#20154;&#21270;  <pr>&#12366;&#12376;&#12435;&#12363;</pr></trd>,
-    <trd>&#25836;&#20154;&#27861;  <pr>&#12366;&#12375;&#12435;&#12411;&#12358;</pr></trd>
+    <trd>&#x4EBA;&#x683C;&#21270;  <pr>&#12376;&#12435;&#x304B;&#x304F;&#x304B;</pr></trd>,
+    <trd>&#x64EC;&#x4EBA;&#21270;  <pr>&#x304E;&#12376;&#12435;&#x304B;</pr></trd>,
+    <trd>&#x64EC;&#x4EBA;&#x6CD5;  <pr>&#x304E;&#12375;&#12435;&#x307B;&#12358;</pr></trd>
   </trdgrp>
   <trd lng="sk">personifik&aacute;cia</trd>
   <trdgrp lng="uk">
     <trd>&c_p;&c_je;&c_r;&c_s;&c_o;&c_n;&c_ib;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_ib;&c_ja;</trd>,
     <trd>&c_u;&c_o;&c_s;&c_o;&c_b;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>,
     <trd>&c_v;&c_t;&c_ib;&c_l;&c_je;&c_n;&c_n;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x62DF;&#x4EBA; <pr>n&#x1D0;r&#xE9;n</pr></trd>,
+    <trd>&#x64EC;&#x4EBA; <pr>n&#x1D0;r&#xE9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -990,7 +1045,8 @@
   <ref tip="dif" cel="person.natura0o">natura <tld/>o</ref>
   <trd lng="be">&c_f;&c_ib;&c_z;&c_y;&c_ch;&c_n;&c_a;&c_ja; &c_a;&c_s;&c_o;&c_b;&c_a;</trd>
   <trd lng="id">natuurlijk persoon</trd>
-  <trd lng="ja">&#20491;&#20154;  <pr>&#12371;&#12376;&#12435;</pr></trd>
+  <trd lng="ja">&#x500B;&#x4EBA;  <pr>&#12371;&#12376;&#12435;</pr></trd>
+  <trd lng="pl">osoba fizyczna</trd>
   <trd lng="sk">fyzick&aacute; osoba</trd>
   <trd lng="cs">fyzick&aacute; osoba</trd>
 </drv>
@@ -1004,7 +1060,7 @@
       posedanta civiljurajn rajtojn kaj devojn, simile al
       <ref cel="person.natura0o">natura <tld/>o</ref>:
       <ekz>
-        LEJL havas rajtojn de jura <tld/>o, sian bilancon,
+        <nom>LEJL</nom> havas rajtojn de jura <tld/>o, sian bilancon,
         sigelon, &ccirc;ek- kaj &scirc;parkonton en banko
         <fnt>
         <vrk>Statuto de la Litova esperantista junulara ligo</vrk>,
@@ -1012,7 +1068,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        JEI <klr>(Japana Esperanto-Instituto)</klr>
+        <nom>JEI</nom> <klr>(Japana Esperanto-Instituto)</klr>
         akiris al si la kvalifikon de fondusa jura <tld/>o
         <fnt><lok><url ref="http://www2s.biglobe.ne.jp/~jei/hp/esp.htm">Hejmpa&gcirc;o de
         JEI</url></lok></fnt>;
@@ -1050,14 +1106,21 @@
   </trdgrp>
   <trd lng="hu">jogi szem&eacute;ly</trd>
   <trdgrp lng="id">
-    <trd>badan hukum</trd>,
+    <trd><ind>badan</ind> hukum</trd>,
     <trd>rechts persoon</trd>
   </trdgrp>
-  <trd lng="ja">&#27861;&#20154;  <pr>&#12411;&#12358;&#12376;&#12435;</pr></trd>
+  <trd lng="ja">&#x6CD5;&#x4EBA;  <pr>&#x307B;&#12358;&#12376;&#12435;</pr></trd>
   <trd lng="pl">osoba prawna</trd>
   <trd lng="ro">persoan&abreve; juridic&abreve;</trd>
   <trd lng="ru">&c_ju;&c_r;&c_i;&c_d;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_l;&c_i;&c_c;&c_o;</trd>
   <trd lng="sk">pr&aacute;vnick&aacute; osoba</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6CD5;&#x4EBA; <pr>f&#x1CE;r&#xE9;n</pr></trd>,
+    <trd>&#x4F01;&#x4E1A;&#x6CD5;&#x4EBA; <pr>q&#xEC;y&#xE8;f&#x1CE;r&#xE9;n</pr></trd>,
+    <trd>&#x4F01;&#x696D;&#x6CD5;&#x4EBA; <pr>q&#xEC;y&#xE8;f&#x1CE;r&#xE9;n</pr></trd>,
+    <trd>&#x6CD5;&#x4EBA;&#x5B9E;&#x4F53; <pr>f&#x1CE;r&#xE9;nsh&#xED;t&#x1D0;</pr></trd>,
+    <trd>&#x6CD5;&#x4EBA;&#x5BE6;&#x9AD4; <pr>f&#x1CE;r&#xE9;nsh&#xED;t&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="person.natura0o">
@@ -1102,10 +1165,26 @@
   <trd lng="ru">&c_f;&c_i;&c_z;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_l;&c_i;&c_c;&c_o;</trd>
   <trd lng="sk">fyzick&aacute; osoba</trd>
   <trd lng="cs">fyzick&aacute; osoba</trd>
+  <trd lng="zh">&#x81EA;&#28982;&#x4EBA; <pr>z&#xEC;r&#xE1;nr&#xE9;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.140 2024/12/11 10:34:00
+Dmitri Gabinski: + trd be
+
+versio 1.139 2024/08/24 18:33:01
+Wolfram Diestel: +trd ils, sgn
+
+versio 1.138 2024/03/14 12:39:26
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
+versio 1.137 2024/03/14 01:22:18
+Vito Redsky: +trd pl
+
+versio 1.135 2024/02/09 18:25:26
+Wolfram Diestel: fnt UV, ~e, P~e: &gcirc;ustigis trd-ojn
+
 versio 1.134 2023/12/05 07:24:43
 Dmitri Gabinski: + trd be
 
@@ -1113,20 +1192,5 @@ versio 1.133 2023/11/11 18:27:40
 Mahaer Mahmud: aldonis sinonimon
 
 versio 1.132 2023/10/20 14:25:20
-revo: transskribo per <pr>
-
-versio 1.131 2023/10/17 01:25:19
-Eko Nur Syah Hidayat: +trd id
-
-versio 1.129 2023/08/29 16:35:07
-Wolfram Diestel: ja: prononco
-
-versio 1.128 2023/05/06 14:26:03
-revo: aktualigo URL-unuoj
-
-versio 1.127 2023/04/17 12:46:26
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.126 2023/01/15 23:28:14
 -->
 </vortaro>

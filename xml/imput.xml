@@ -1,14 +1,73 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: imput.xml,v 1.18 2023/11/19 10:22:12 revo Exp $">
+<art mrk="$Id: imput.xml,v 1.22 2024/12/24 08:33:34 revo Exp $">
 <kap>
   <rad>imput</rad>/i
-  <fnt><bib>PV</bib></fnt>
+  <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="imput.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
+  <snc mrk="imput.0i.kulpigi">
+    <dif>
+      <ref tip="super" cel="atribu.0i">Atribui</ref> al iu a&ubreve; io la respondecon
+      (la kulpon...) pri io:
+      <ekz>
+        al iliaj influoj oni ja atribuis la freneza&jcirc;ojn de Nero, al iliaj inspiroj oni
+        <tld/>is &ccirc;iujn krimojn, kiujn li plenumis
+        <fnt>
+          <bib>QuV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        majeste aspektantaj genioj <klr>[&#8230;]</klr> kies speciala, <tld/>ita devo estis
+        forteni malbonajn spiritojn for de la re&gcirc;a lo&gcirc;ejo
+        <fnt>
+          <bib>I&scirc;tar</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[tio]</klr> kondukas en la kriminala proceso al mistakso de la datumoj kaj
+        faktoj kaj al senbazeco de la <tld/>ado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos i Font</aut>
+          <vrk><url ref="&Monato;/2010/010065.php">Maljusta justico</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <!-- (senpruve) <ref cel="akuz.0i">akuzi</ref>, -->
+      <ref cel="skrib.al0i.atribui">alskribi<sncref/></ref>,
+      <ref cel="implic.0i">implici</ref>,
+      (mis)<ref cel="kulp.0igi">kulpigi</ref>,
+      <ref cel="supoz.0i">supozi</ref>,
+      (senbaze) <ref cel="suspek.0i.supozi">suspekti</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd><klr>(jmd. etwas)</klr> unterstellen</trd>,
+      <trd><klr>(jmd. etwas)</klr> anlasten</trd>,
+      <trd><klr>(jmd. etwas)</klr> zur <ind>Last</ind> legen</trd>,
+      <trd><klr>(etwas)</klr> die <ind>Schuld</ind> geben f&uuml;r</trd>,
+      <trd><ind>verantwortlich</ind> machen f&uuml;r</trd>,
+      <trd>imputieren</trd>,
+      <trd>nachsagen</trd>,
+      <trd>andichten</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>insinuate</trd>,
+      <trd>impute</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>tulajdon&iacute;t<klr tip="amb"> (vkinek vmit)</klr></trd>,
+      <trd>rov&aacute;s&aacute;ra &iacute;r</trd>,
+      <trd>betud<klr tip="amb"> (vkinek vmit)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">wijten</trd>
+    <trd lng="ru">&c_v;&c_m;&c_je;&c_n;&c_ja;&c_t;&c_mol; &c_v; &c_v;&c_i;&c_n;&c_u;</trd>
+  </snc>
   <snc mrk="imput.0i.al_konto">
     <uzo tip="fak">EKON</uzo>
     <dif>
@@ -47,7 +106,7 @@
     <dif>
       Atribui ion al la dividparto de iu:
       <ekz>
-        <tld/>i meblojn, pentra&jcirc;on, domon en la heredan parton de iu
+        <tld/>i meblojn, pentra&jcirc;on, domon en la heredan parton de iu.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -65,50 +124,11 @@
     <trd lng="nl">toeschrijven</trd>
     <trd lng="ru">&c_n;&c_a;&c_z;&c_n;&c_a;&c_ch;&c_i;&c_t;&c_mol; <klr>(&c_i;&c_m;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o; &c_v; &c_ch;&c_mol;&c_jo;-&c_l;. &c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
   </snc>
-  <snc mrk="imput.0i.kulpigi">
-    <dif>
-      <ref tip="super" cel="atribu.0i">Atribui</ref> al iu la prirespondecon de io:
-      <ekz>
-        al iliaj influoj oni ja atribuis la freneza&jcirc;ojn de Nero, al iliaj inspiroj oni
-        <tld/>is &ccirc;iujn krimojn, kiujn li plenumis
-        <fnt>
-          <bib>QuV</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        majeste aspektantaj genioj <klr>[&#x2026;]</klr> kies speciala, <tld/>ita devo estis
-        forteni malbonajn spiritojn for de la re&gcirc;a lo&gcirc;ejo
-        <fnt>
-          <bib>I&scirc;tar</bib>
-        </fnt>;
-      </ekz>
-      <ekz>
-        <klr>[tio]</klr> kondukas en la kriminala proceso al mistakso de la datumoj kaj
-        faktoj kaj al senbazeco de la <tld/>ado
-        <fnt>
-          <bib>Monato</bib>
-          <aut>Hektor Alos i Font</aut>
-          <vrk><url ref="&Monato;/2010/010065.php">Maljusta justico</url></vrk>
-          <lok>2010</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="kulp.0igi">kulpigi</ref>
-    </refgrp>
-    <trdgrp lng="de">
-      <trd>bezichtigen</trd>,
-      <trd>unterstellen</trd>,
-      <trd>zuschreiben</trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>tulajdon&iacute;t<klr tip="amb"> (vkinek vmit)</klr></trd>,
-      <trd>rov&aacute;s&aacute;ra &iacute;r</trd>,
-      <trd>betud<klr tip="amb"> (vkinek vmit)</klr></trd>
-    </trdgrp>
-    <trd lng="nl">wijten</trd>
-    <trd lng="ru">&c_v;&c_m;&c_je;&c_n;&c_ja;&c_t;&c_mol; &c_v; &c_v;&c_i;&c_n;&c_u;</trd>
-  </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_p;&c_ib;&c_s;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_n;&c_a; &c_r;&c_a;&c_h;&c_u;&c_n;&c_a;&c_k;)</klr></trd>,
+    <trd>&c_p;&c_r;&c_y;&c_p;&c_ib;&c_s;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_d;&c_n;&c_o;&c_s;&c_ib;&c_c;&c_mol; <klr>(&c_d;&c_a; &c_ch;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>imputovat</trd>,
     <trd>nepr&aacute;vem p&rcaron;i&ccaron;&iacute;tat</trd>,
@@ -123,10 +143,11 @@
     <trd>attribuer</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x8A08;&#x4E0A;&#x3059;&#x308B;  <pr>&#x3051;&#x3044;&#x3058;&#x3087;&#x3046;&#x3059;&#x308B;</pr></trd>,
-    <trd>&#x7E70;&#x308A;&#x5165;&#x308C;&#x308B;  <pr>&#x304F;&#x308A;&#x3044;&#x308C;&#x308B;</pr></trd>,
-    <trd>&#x8CAC;&#x4EFB;&#x3092;&#x8CA0;&#x308F;&#x305B;&#x308B;  <pr>&#x305B;&#x304D;&#x306B;&#x3093;&#x3092;&#x304A;&#x308F;&#x305B;&#x308B;</pr></trd>,
-    <trd>&#x305B;&#x3044;&#x306B;&#x3059;&#x308B;</trd>
+    <trd>&#35336;&#19978;&#12377;&#12427;  <pr>&#12369;&#12356;&#12376;&#12423;&#12358;&#12377;&#12427;</pr></trd>,
+    <trd>&#32368;&#12426;&#20837;&#12428;&#12427;  <pr>&#12367;&#12426;&#12356;&#12428;&#12427;</pr></trd>,
+    <trd>&#36012;&#20219;&#12434;&#36000;&#12431;&#12379;&#12427;
+    <pr>&#12379;&#12365;&#12395;&#12435;&#12434;&#12362;&#12431;&#12379;&#12427;</pr></trd>,
+    <trd>&#12379;&#12356;&#12395;&#12377;&#12427;</trd>
   </trdgrp>
   <trd lng="pt">imputar</trd>
   <trdgrp lng="sk">
@@ -135,17 +156,29 @@
     <trd>pris&uacute;di&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&#x43F;&#x440;&#x438;&#x43F;&#x438;&#x441;&#x443;&#x432;&#x430;&#x442;&#x438;</trd>,
-    <trd>&#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x438; &#x437;&#x430; &#x43F;&#x440;&#x43E;&#x432;&#x438;&#x43D;&#x443;</trd>,
-    <trd>&#x432;&#x456;&#x434;&#x440;&#x430;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438; &#x437;..</trd>,
-    <trd>&#x43D;&#x430;&#x440;&#x430;&#x445;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43D;&#x430;..</trd>,
-    <trd>&#x432;&#x456;&#x434;&#x43D;&#x435;&#x441;&#x442;&#x438; &#x43D;&#x430; &#x440;&#x430;&#x445;&#x443;&#x43D;&#x43E;&#x43A; &#x432;&#x438;&#x434;&#x430;&#x442;&#x43A;&#x456;&#x432; &#x437;&#x2026;</trd>
+    <trd>&c_p;&c_r;&c_i;&c_p;&c_i;&c_s;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_i; &c_z;&c_a; &c_p;&c_r;&c_o;&c_v;&c_i;&c_n;&c_u;</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_r;&c_a;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i; &c_z;..</trd>,
+    <trd>&c_n;&c_a;&c_r;&c_a;&c_h;&c_u;&c_v;&c_a;&c_t;&c_i; &c_n;&c_a;..</trd>,
+    <trd>&c_v;&c_ib;&c_d;&c_n;&c_je;&c_s;&c_t;&c_i; &c_n;&c_a; &c_r;&c_a;&c_h;&c_u;&c_n;&c_o;&c_k; &c_v;&c_i;&c_d;&c_a;&c_t;&c_k;&c_ib;&c_v; &c_z;&#8230;</trd>
   </trdgrp>
-  <trd lng="zh">&#x5F52;&#x56E0; <pr>gu&#x12B;y&#x12B;n</pr></trd>
+  <trd lng="zh">&#24402;&#22240; <pr>gu&imacron;y&imacron;n</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.22 2024/12/24 08:33:34
+Wolfram Diestel: trd en, ref
+
+versio 1.21 2024/12/23 16:31:05
+Wolfram Diestel: drv-ordo, ref, trd de
+
+versio 1.20 2024/12/23 12:51:31
+Wolfram Diestel: JED, trd de
+
+versio 1.19 2024/08/23 09:28:34
+Dmitri Gabinski: + trd be
+
 versio 1.17 2023/10/17 16:46:14
 revo: transskribo per <pr>
 
@@ -156,17 +189,5 @@ versio 1.13 2021/12/06 19:22:57
 Wolfram Diestel: +ekz-oj
 
 Revision 1.11  2015/06/29 16:33:15  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.10  2005/10/26 16:32:15  revo
-Luiz Portella: +trd pt
-
-Revision 1.9  2004/01/19 17:30:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2003/01/16 17:32:15  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.7  2002/07/29 18:14:16  revo
 -->
 </vortaro>

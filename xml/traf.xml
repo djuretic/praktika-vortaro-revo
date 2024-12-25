@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: traf.xml,v 1.99 2024/01/30 21:22:39 revo Exp $">
+<art mrk="$Id: traf.xml,v 1.105 2024/08/06 06:36:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>traf</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>traf</rad>/i <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="traf.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -53,6 +53,11 @@
         <ind><tld/>i du celojn per unu &scirc;tono</ind>
         <fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">k&eacute;t legyet &uuml;t egy csap&aacute;sra</trd>
+        <trd lng="pl">upiec dwie pieczenie na jednym ogniu</trd>
+        <trdgrp lng="id">
+            <trd>sekali dayung dua tiga pulau terlampaui</trd>,
+            <trd>sambil menyelam minum air</trd>
+        </trdgrp>
         <trd lng="pt">acertar</trd>
       </ekz>
       <ekz>
@@ -78,6 +83,11 @@
     <trdgrp lng="hu">
       <trd>tal&aacute;l</trd>,
       <trd>eltal&aacute;l</trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd>kena</trd>,
+      <trd><baz>kena</baz>mengena<klr> (sasaran dsb.)</klr></trd>,
+      <trd><baz>kena</baz>mengenai<klr> (sasaran dsb.)</klr></trd>
     </trdgrp>
     <trd lng="pl">trafia&cacute;</trd>
     <trd lng="ru">&c_p;&c_o;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>
@@ -157,9 +167,13 @@
       <trd>encontrar</trd>
     </trdgrp>
     <trd lng="hu">&eacute;r <klr tip="ind">(hat r&aacute;)</klr></trd>
+    <trdgrp lng="id">
+      <trd><baz>capai</baz>mencapai</trd>,
+      <trd><baz>dapat</baz>mendapati</trd>
+    </trdgrp>
     <trdgrp lng="pl">
-      <trd>przyda&zdot;a&cacute;<klr> si&eogonek;</klr></trd>,
-      <trd>spotyka&cacute;<klr> (co&sacute; - kogo&sacute;)</klr></trd>
+      <trd>przydarza&cacute;<klr> si&eogonek;</klr></trd>,
+      <trd>spotyka&cacute;<klr> (co&sacute;-kogo&sacute;)</klr></trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_r;&c_a;&c_z;&c_i;&c_t;&c_mol;</trd>,
@@ -231,8 +245,7 @@
       <trd>trafia&cacute;<klr> na/w co&sacute;</klr></trd>,
       <trd>natrafia&cacute;<klr> na co&sacute;</klr></trd>,
       <trd>natyka&cacute; si&eogonek;<klr> na co&sacute;</klr></trd>,
-      <trd>natkn&aogonek;&cacute; si&eogonek;<klr> na
-      co&sacute;</klr></trd>
+      <trd>natkn&aogonek;&cacute; si&eogonek;<klr> na co&sacute;</klr></trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>,
@@ -281,8 +294,7 @@
     <trdgrp lng="pl">
       <trd>trafia&cacute; si&eogonek;</trd>,
       <trd>przytrafia&cacute; si&eogonek;</trd>,
-      <trd>spotyka&cacute; si&eogonek;<klr> (z
-      czym&sacute;)</klr></trd>,
+      <trd>spotyka&cacute; si&eogonek;<klr> (z czym&sacute;)</klr></trd>,
       <trd>doznawa&cacute;</trd>
     </trdgrp>
     <trd lng="ru">&c_p;&c_o;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>
@@ -292,7 +304,8 @@
   <trd lng="ar">&a_D;&a_r;&a_b;</trd>
   <trdgrp lng="be">
     <trd>&c_t;&c_r;&c_a;&c_p;&c_l;&c_ja;&c_c;&c_mol;</trd>,
-    <trd>&c_p;&c_a;&c_r;&c_a;&c_zh;&c_a;&c_c;&c_mol; <klr>(&c_m;&c_e;&c_t;&c_u;)</klr></trd>
+    <trd>&c_p;&c_a;&c_r;&c_a;&c_zh;&c_a;&c_c;&c_mol; <klr>(&c_m;&c_e;&c_t;&c_u;)</klr></trd>,
+    <trd>&c_l;&c_u;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="bn">&#2438;&#2456;&#x9BE;&#x9A4;</trd>
   <trd lng="bo">&t_ga;&t_zha;&t_shabchu;&t_sa;&t_tsheg;&t_pa;&t_tsheg;</trd>
@@ -358,6 +371,7 @@
   </trdgrp>
   <trd lng="ny">anagunda</trd>
   <trd lng="pa">&#xA39;&#xA3F;&#xA71;&#xA1F;</trd>
+  <trd lng="pl">trafi&cacute;</trd>
   <trd lng="ps">&a_w;&a_sh;&a_w;&a_h;</trd>
   <trd lng="sd">&a_A;&f_ch;&a_y; &a_w;&a_y;&a_w;</trd>
   <trd lng="si">&#xD9D;&#xDCF;&#xDAD;&#xD9A;&#xDBA;&#xDCF;</trd>
@@ -368,7 +382,7 @@
     <trd>zasiahnu&tcaron;</trd>
   </trdgrp>
   <trd lng="sl">udaril</trd>
-  <trd lng="sm">t&#x15D1;</trd>
+  <trd lng="sm">t&amacron;</trd>
   <trd lng="sn">rova</trd>
   <trd lng="so">dhuftey</trd>
   <trd lng="sq">goditje </trd>
@@ -387,6 +401,26 @@
   <trd lng="xh">betha</trd>
   <trd lng="yi">&shin;&lamed;&alef;&#x5B8;&gimel;&fnun;</trd>
   <trd lng="yo">lu</trd>
+  <trdgrp lng="zh">
+    <trd>&#25634; <pr>j&#xEC;n</pr></trd>,
+    <trd>&#x76F8;&#36898; <pr>xi&amacron;ngf&#xE9;ng</pr></trd>,
+    <trd>&#20598;&#36935; <pr>&#x1D2;uy&#xF9;</pr></trd>,
+    <trd>&#x521C; <pr>f&#xFA;</pr></trd>,
+    <trd>&#25719; <pr>ji&#x1CE;o</pr></trd>,
+    <trd>&#x4E0D;&#x671F;&#x800C;&#36935; <pr>b&#xF9;q&#x12B;&#xE9;ry&#xF9;</pr></trd>,
+    <trd>&#x4E2D; <pr>zh&#xF2;ng</pr></trd>,
+    <trd>&#21040;&#x4E00;&#x8D77; <pr>d&#xE0;oy&#xEC;q&#x1D0;</pr></trd>,
+    <trd>&#24609;&#28982; <pr>y&#xED;r&#xE1;n</pr></trd>,
+    <trd>&#x6B63;&#x4E2D;&#35201;&#x5BB3; <pr>zh&#xE8;ngzh&#x14D;ngy&#xE0;oh&#xE0;i</pr></trd>,
+    <trd>&#x731C;&#x4E2D; <pr>c&amacron;izh&#x14D;ng</pr></trd>,
+    <trd>&#30528;&#x8FB9; <pr>zh&#xE1;obi&amacron;n</pr></trd>,
+    <trd>&#33879;&#x908A; <pr>zh&#xE1;obi&amacron;n</pr></trd>,
+    <trd>&#x88AB;&#x4FAE;&#x8FB1; <pr>b&#xE8;iw&#x1D4;r&#xF9;</pr></trd>,
+    <trd>&#x88AB;&#20882;&#x72AF; <pr>b&#xE8;im&#xE0;of&#xE0;n</pr></trd>,
+    <trd>&#36935;&#x4E0A; <pr>y&#xF9;sh&#xE0;ng</pr></trd>,
+    <trd>&#x4F1A;&#26212; <pr>hu&#xEC;w&#xF9;</pr></trd>,
+    <trd>&#26371;&#26212; <pr>hu&#xEC;w&#xF9;</pr></trd>
+  </trdgrp>
   <trd lng="zu">shaya</trd>
 </drv>
 
@@ -448,6 +482,10 @@
   </trdgrp>
   <trd lng="fr">qui fait <ind>mouche</ind></trd>
   <trd lng="hu">tal&aacute;l&oacute;</trd>
+  <trdgrp lng="id">
+    <trd><ind>tepat</ind> sasaran</trd>,
+    <trd><baz>kena</baz>mengena</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#30340;&#12434;&#x5C04;&#x305F;  <pr>&#x307E;&#12392;&#12434;&#12356;&#x305F;</pr></trd>,
     <trd>&#30340;&#x78BA;&#x306A;  <pr>&#12390;&#x304D;&#x304B;&#x304F;&#x306A;</pr></trd>
@@ -470,6 +508,13 @@
   <trdgrp lng="uk">
     <trd>&c_v;&c_l;&c_u;&c_ch;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_v;&c_d;&c_a;&c_l;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#24688;&#x5F53; <pr>qi&#xE0;d&#xE0;ng</pr></trd>,
+    <trd>&#24688;&#30070; <pr>qi&#xE0;d&#xE0;ng</pr></trd>,
+    <trd>&#x4E2D;&#x80AF; <pr>zh&#xF2;ngk&#x11B;n</pr></trd>,
+    <trd>&#x786E;&#20999; <pr>qu&#xE8;qi&#xE8;</pr></trd>,
+    <trd>&#x78BA;&#20999; <pr>qu&#xE8;qi&#xE8;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -579,7 +624,10 @@
       <ref cel="koinci.0o">koincido</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_p;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_u; &c_m;&c_e;&c_t;&c_u;)</klr></trd>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_p;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_u; &c_m;&c_e;&c_t;&c_u;)</klr></trd>,
+    <trd>&c_l;&c_u;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
   <trd lng="de">Treffer</trd>
   <trdgrp lng="en">
     <trd>strike<klr> (noun, a goal)</klr></trd>,
@@ -592,10 +640,22 @@
     <trd>&#x547D;&#x4E2D;  <pr>&#12417;&#12356;&#12385;&#12421;&#12358;</pr></trd>,
     <trd>&#x5F53;&#x305F;&#x308A;  <pr>&#12354;&#x305F;&#x308A;</pr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>trafienie</trd>,
+    <trd>zdarzenie</trd>,
+    <trd>traf</trd>,
+    <trd>fuks</trd>
+  </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_p;&c_o;&c_p;&c_a;&c_d;&c_a;&c_n;&c_n;&c_ja;</trd>,
     <trd>&c_v;&c_l;&c_u;&c_ch;&c_a;&c_n;&c_n;&c_ja;</trd>,
     <trd>&c_p;&c_o;&c_t;&c_r;&c_a;&c_p;&c_l;&c_ja;&c_n;&c_n;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x70B9;&#x51FB;&#25968; <pr>di&#x1CE;nj&#x12B;sh&#xF9;</pr></trd>,
+    <trd>&#x9EDE;&#x64CA;&#25976; <pr>di&#x1CE;nj&#x12B;sh&#xF9;</pr></trd>,
+    <trd>&#20598;&#36935; <pr>&#x1D2;uy&#xF9;</pr></trd>,
+    <trd>&#36994;&#36869; <pr>xi&#xE8;h&#xF2;u</pr></trd>
   </trdgrp>
 </drv>
 
@@ -629,11 +689,15 @@
   </snc>
   <trd lng="be">&c_n;&c_a;&c_w;&c_z;&c_d;&c_a;&c_g;&c_a;&c_d;</trd>
   <trd lng="cs">nam&aacute;tkou</trd>
+  <trd lng="de">auf gut <ind>Gl&uuml;ck</ind></trd>
   <trd lng="fr">au petit bonheur la chance</trd>
   <trd lng="hu">tal&aacute;lomra</trd>
   <trd lng="ja">&#12354;&#12390;&#x305A;&#12387;&#x307D;&#12358;&#x306B;</trd>
   <trd lng="nl">lukraak</trd>
-  <trd lng="pl">na <ind>chybi&lstroke;-trafi&lstroke;</ind></trd>
+  <trdgrp lng="pl">
+    <trd>na <ind>chybi&lstroke;-trafi&lstroke;</ind></trd>,
+    <trd>na los <ind>szcz&eogonek;&sacute;cia</ind></trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_u;&c_g;&c_a;&c_d;</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;hodne</trd>,
@@ -690,6 +754,16 @@
     <trd>Genauigkeit</trd>
   </trdgrp>
   <trd lng="fr">justesse</trd>
+  <trd lng="id"><baz>tepat</baz>ketepatan</trd>
+  <trd lng="pl">trafno&sacute;&cacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7CBE;&#x5BC6;&#x5EA6; <pr>j&#x12B;ngm&#xEC;d&#xF9;</pr></trd>,
+    <trd>&#x7CBE;&#x5EA6; <pr>j&#x12B;ngd&#xF9;</pr></trd>,
+    <trd>&#x7CBE;&#x786E;&#x5EA6; <pr>j&#x12B;ngqu&#xE8;d&#xF9;</pr></trd>,
+    <trd>&#x7CBE;&#x78BA;&#x5EA6; <pr>j&#x12B;ngqu&#xE8;d&#xF9;</pr></trd>,
+    <trd>&#x7CBE;&#x786E;&#24615; <pr>j&#x12B;ngqu&#xE8;x&#xEC;ng</pr></trd>,
+    <trd>&#x7CBE;&#x78BA;&#24615; <pr>j&#x12B;ngqu&#xE8;x&#xEC;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="traf.0igxi">
@@ -708,7 +782,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_s;&c_t;&c_a;&c_n;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a; <ind>&c_m;&c_e;&c_t;&c_a;&c_j;</ind></trd>
+  <trd lng="de"><ind>getroffen</ind> werden</trd>
   <trd lng="fr">&ecirc;tre touch&eacute; <klr>(atteint)</klr> par</trd>
+  <trd lng="id"><baz>kena</baz>terkena</trd>
+  <trd lng="pl">by&cacute;<ind> trafionym</ind></trd>
 </drv>
 
 <drv mrk="traf.mal0i">
@@ -802,6 +880,13 @@
     <trd>elv&eacute;t</trd>,
     <trd>mell&eacute;tal&aacute;l</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>leset</baz>meleset</trd>,
+    <trd><baz>lewat</baz>melewatkan</trd>,
+    <trd><baz>lewat</baz>kelewatan</trd>,
+    <trd><baz>tinggal</baz>ketinggalan</trd>,
+    <trd><ind>tidak</ind> kena<klr> (sasaran)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x306F;&#x305A;&#x308C;&#x308B;</trd>,
     <trd>&#x305D;&#x308C;&#x308B;</trd>
@@ -823,6 +908,13 @@
     <trd>&c_z;&c_a;&c_z;&c_n;&c_a;&c_t;&c_i; &c_n;&c_je;&c_v;&c_d;&c_a;&c_ch;&c_ib;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_i; (&c_n;&c_a;&c_g;&c_o;&c_d;&c_u;</trd>,
     <trd>&c_p;&c_o;&c_ji;&c_z;&c_d; &c_ib; &c_t;.&c_p;.)</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8E49; <pr>cu&#x14D;</pr></trd>,
+    <trd>&#22833;&#x7D04; <pr>sh&#x12B;yu&emacron;</pr></trd>,
+    <trd>&#22833;&#x7EA6; <pr>sh&#x12B;yu&emacron;</pr></trd>,
+    <trd>&#x843D;&#x7A7A; <pr>lu&#xF2;k&#x14D;ng</pr></trd>,
+    <trd>&#x843D;&#x7A7A; <pr>lu&#xF2;k&#xF2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -858,20 +950,38 @@
     <trd>hat&oacute;t&aacute;v</trd>,
     <trd>hat&oacute;sug&aacute;r</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>jangkau</baz>jangkauan</trd>,
+    <trd>radius</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x5C04;&#x7A0B;  <pr>&#12375;&#12419;&#12390;&#12356;</pr></trd>,
     <trd>&#21040;&#36948;&#x7BC4;&#x56F2;  <pr>&#12392;&#12358;&#x305F;&#12388;&#x306F;&#12435;&#12356;</pr></trd>
   </trdgrp>
   <trd lng="nl">reikwijdte</trd>
-  <trdgrp lng="pl">
-    <trd>zasi&eogonek;g</trd>
-  </trdgrp>
+  <trd lng="pl">zasi&eogonek;g</trd>
   <trd lng="ru">&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_b;&c_o;&c_j;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">dostrel</trd>
+  <trd lng="zh">&#26377;&#25928;&#x5C04;&#x7A0B; <pr>y&#x1D2;uxi&#xE0;osh&#xE8;ch&#xE9;ng</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.105 2024/08/06 06:36:47
+Eko Nur Syah Hidayat: +trd id
+
+versio 1.104 2024/07/19 09:27:45
+Dmitri Gabinski: + trd be
+
+versio 1.103 2024/05/20 11:00:54
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.101 2024/05/08 21:23:45
+Wolfram Diestel: +trd de
+
+versio 1.100 2024/03/25 03:28:40
+Vito Redsky: +trd pl
+
 versio 1.99 2024/01/30 21:22:39
 Jeromo Vasxe: + ~igxi
 
@@ -879,20 +989,5 @@ versio 1.98 2023/10/21 14:37:42
 revo: transskribo per <pr>
 
 versio 1.96 2023/05/01 12:44:50
-Paul Peeraerts: Steloj -> monato
-
-versio 1.95 2023/02/19 21:23:13
-Robert Baruch: +trd: en
-
-versio 1.94 2022/05/05 17:08:11
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.93 2022/03/29 06:34:09
-Wolfram Diestel: +snc-mrk
-
-versio 1.91 2021/12/06 08:36:36
-Dmitri Gabinski: + trd be
-
-versio 1.90 2021/11/20 08:32:44
 -->
 </vortaro>

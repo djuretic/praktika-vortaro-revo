@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-  <art mrk="$Id: plen.xml,v 1.134 2023/10/24 09:25:57 revo Exp $">
+  <art mrk="$Id: plen.xml,v 1.145 2024/12/24 08:33:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>plen</rad>/a
@@ -95,6 +95,8 @@
         dudek kvar horoj faras unu <tld/>tagon
         <fnt><bib>DL</bib></fnt>.
       </ekz>
+      Preferinda &scirc;ajnas tamen la inversa ordo kun &leftquot;<tld/>o&rightquot; kiel &ccirc;efa vorto, vd.
+      <ref cel="plen.0o.mezuro"><tld/>o, rim.</ref>
     </rim>
     <trd lng="ca">ple</trd>
     <trd lng="en">full</trd>
@@ -256,7 +258,7 @@
     <refgrp tip="vid">
       <ref cel="sat.0a">sata</ref>,
       <ref cel="satur">saturita</ref>,
-      <ref cel="suficx.0a">sufi&ccirc;a</ref>.
+      <ref cel="suficx.0a">sufi&ccirc;a</ref>
     </refgrp>
     <trd lng="en">full</trd>
     <trd lng="es">lleno</trd>
@@ -402,6 +404,18 @@
   <trd lng="xh">ngokupheleleyo</trd>
   <trd lng="yi">&pe;&vav;&lamed;</trd>
   <trd lng="yo">ni kikun</trd>
+  <trdgrp lng="zh">
+    <trd>&#31259; <pr>k&#468;n</pr></trd>,
+    <trd>&#20805;&#20998; <pr>ch&omacron;ngf&egrave;n</pr></trd>,
+    <trd>&#28385; <pr>m&#462;n</pr></trd>,
+    <trd>&#28415; <pr>m&#462;n</pr></trd>,
+    <trd>&#30408; <pr>y&iacute;ng</pr></trd>,
+    <trd>&#39165;&#28415; <pr>b&#462;om&#462;n</pr></trd>,
+    <trd>&#39281;&#28385; <pr>b&#462;om&#462;n</pr></trd>,
+    <trd>&#19968;&#32922;&#30382; <pr>y&imacron;d&ugrave;p&iacute;</pr></trd>,
+    <trd>&#39147; <pr>y&ugrave;</pr></trd>,
+    <trd>&#39275; <pr>y&ugrave;</pr></trd>
+  </trdgrp>
   <trd lng="zu">egcwele</trd>
 </drv>
 
@@ -411,16 +425,25 @@
     <dif>
       La tuta, kompleta <ref tip="super" cel="hav.en0o">enhavo</ref> de io:
       <ekz>
-        En brusto kura&gcirc;o kaj forto bolanta, // Espero kaj kredo en <tld/>o
+        En brusto kura&gcirc;o kaj forto bolanta, &#11005; Espero kaj kredo en <tld/>o
         <fnt><bib>FK</bib></fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
         mi ne povas postuli de unu eldona&jcirc;o, ke &gcirc;i prezentu la
         <tld/>on de la vivo
         <fnt>
           <aut>Alen Kris</aut>: <vrk>Redakcie</vrk>.
           <bib>LOdE</bib>, <lok>2002:1</lok>
         </fnt>;
-      </ekz><ekz>
+      </ekz>
+      <ekz>
+        kelkaj <klr>[&#8230;]</klr> pentrilmovoj sentigas al ni la esper<tld/>on de la vivo
+        <fnt>
+          <bib>SatirRak</bib>
+          <lok>Liriko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la pa&gcirc;oj en interreto ofte estas valoraj, sed en <tld/>o ne plu travideblaj, ne
         el&ccirc;erpe utiligeblaj
         <fnt>
@@ -444,6 +467,64 @@
       <ref cel="cxio.0">&ccirc;io</ref>,
       <ref cel="komple2.0o.KOMUNE">kompleto<sncref/></ref>
     </refgrp>
+    <rim mrk="plen.0o.mezuro">
+      En tiu senco oni uzas la vorton kunmetitan per &ccirc;ia ujo por indiki mezuron la&ubreve;
+      tiu:
+      <ekz>
+        &scirc;i rapide enspiris pulmo<tld/>on da aero
+        <fnt>
+          <bib>ChM</bib>
+          <lok>13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>pipo<tld/>on da tabako</ind> mi ja ne doma&gcirc;as
+        <fnt>
+          <bib>MMa</bib>
+          <lok>&Ccirc;apitro 8</lok>
+        </fnt>;
+        <trd lng="de">eine <ind>Pfeife</ind> voll Tabak</trd>
+      </ekz>
+      <ekz>
+        mi postlasis e&ccirc; ne <ind>forkpint<tld/>o</ind>n
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 14</lok>
+        </fnt>;
+        <trd lng="de">eine <ind>Gabelspitze</ind> voll</trd>
+      </ekz>
+      <ekz>
+        <klr>[oni]</klr> elprenis <ind>kuleret<tld/>o</ind>n, por
+        doni nubeton al la teo
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 27</lok>
+        </fnt>;
+        <trd lng="de">ein <ind>Teel&ouml;ffel</ind> voll</trd>
+      </ekz>
+      <ekz>
+        sur&jcirc;eti <klr>[&#8230;]</klr> en la fajron <klr>[&#8230;]</klr>
+        &scirc;ovelil<tld/>on da karboj
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li revenis kun tuta brak<tld/>o da malnovaj skribovolva&jcirc;oj
+        <fnt>
+          <bib>MJA</bib>
+          <lok>Parto Sesa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        naiva idealisto sendis &ccirc;erko<tld/>on da mono
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2003, &#8470; 7 (105)</lok>
+        </fnt>.
+      </ekz>
+    </rim>
     <trdgrp lng="be">
       <trd>&c_p;&c_a;&c_w;&c_n;&c_a;&c_t;&c_a;</trd>,
       <trd>&c_p;&c_o;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
@@ -453,9 +534,9 @@
       <trd>G&auml;nze</trd>
     </trdgrp>
     <trdgrp lng="id">
-      <trd>ke<ind>genap</ind>an</trd>,
-      <trd>ke<ind>komplet</ind>an</trd>,
-      <trd>ke<ind>lengkap</ind>an</trd>
+      <trd><baz>genap</baz>kegenapan</trd>,
+      <trd><baz>komplet</baz>kekompletan</trd>,
+      <trd><baz>lengkap</baz>kelengkapan</trd>
     </trdgrp>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_o;&c_t;&c_a;</trd>
   </snc>
@@ -720,7 +801,7 @@
     <trd>zapl&ncaron;ova&tcaron;</trd>
   </trdgrp>
   <trd lng="sl">zapolnijo</trd>
-  <trd lng="sm">faa&#699;ain&#5585;ina</trd>
+  <trd lng="sm">faa&#699;ain&amacron;ina</trd>
   <trd lng="sn">vazadze</trd>
   <trd lng="so">dad</trd>
   <trd lng="sq">populloj</trd>
@@ -740,6 +821,24 @@
   <trd lng="xh">bazalise</trd>
   <trd lng="yi">&bet;&alef;&#1463;&pe;&ayin;&lamed;&qof;&ayin;&resh;&fnun;</trd>
   <trd lng="yo">bado</trd>
+  <trdgrp lng="zh">
+    <trd>&#31009; <pr>b&oacute;</pr></trd>,
+    <trd>&#31028; <pr>b&oacute;</pr></trd>,
+    <trd>&#28385; <pr>m&#462;n</pr></trd>,
+    <trd>&#28415; <pr>m&#462;n</pr></trd>,
+    <trd>&#28748; <pr>gu&agrave;n</pr></trd>,
+    <trd>&#20805; <pr>ch&omacron;ng</pr></trd>,
+    <trd>&#22635;&#20889; <pr>ti&aacute;nxi&ecaron;</pr></trd>,
+    <trd>&#22635;&#23531; <pr>ti&aacute;nxi&ecaron;</pr></trd>,
+    <trd>&#35013;&#28385; <pr>zhu&amacron;ngm&#462;n</pr></trd>,
+    <trd>&#35037;&#28415; <pr>zhu&amacron;ngm&#462;n</pr></trd>,
+    <trd>&#38352; <pr>ti&aacute;n</pr></trd>,
+    <trd>&#38423; <pr>ti&aacute;n</pr></trd>,
+    <trd>&#28155;&#34917; <pr>ti&amacron;nbu</pr></trd>,
+    <trd>&#28155;&#35036; <pr>ti&amacron;nbu</pr></trd>,
+    <trd>&#22635;&#34917; <pr>ti&aacute;nb&#468;</pr></trd>,
+    <trd>&#22635;&#35036; <pr>ti&aacute;nb&#468;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.0umi">
@@ -796,7 +895,11 @@
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="real.0igi">realigi</ref>
+    <refgrp tip="sin">
+      <ref cel="efekti.0igi">efektivigi</ref>,
+      <ref cel="real.0igi">realigi</ref>
+    </refgrp>
+    <ref tip="vid" cel="far.el0i">elfari</ref>
     <trdgrp lng="be">
       <trd>&c_v;&c_y;&c_k;&c_o;&c_n;&c_v;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_v;&c_y;&c_k;&c_a;&c_n;&c_a;&c_c;&c_mol;</trd>,
@@ -819,6 +922,7 @@
       <trd>leisten</trd>,
       <trd>erf&uuml;llen</trd>,
       <trd>umsetzen</trd>,
+      <trd>durchf&uuml;hren</trd>,
       <trd><ind>Gen&uuml;ge</ind> tun</trd>
     </trdgrp>
     <trdgrp lng="en">
@@ -844,7 +948,7 @@
       <trd>wype&lstroke;nia&cacute;</trd>
     </trdgrp>
     <trdgrp lng="ro">
-      <trd>reu&scomma;i</trd>,
+      <trd>reu&#537;i</trd>,
       <trd>p&abreve;stra</trd>,
       <trd>executa</trd>,
       <trd>&icirc;ndeplini</trd>
@@ -898,7 +1002,13 @@
       <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_i;&c_s;&c_p;&c_o;&c_l;&c_n;&c_ja;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#22519;&#34892; <pr>zh&iacute;x&iacute;ng</pr></trd>,
+    <trd>&#25191;&#34892; <pr>zh&iacute;x&iacute;ng</pr></trd>,
+    <trd>&#36827;&#34892; <pr>j&igrave;nx&iacute;ng</pr></trd>,
+    <trd>&#36914;&#34892; <pr>j&igrave;nx&iacute;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="ja">
     <trd>&#26524;&#12383;&#12377;  <pr>&#12399;&#12383;&#12377;</pr></trd>,
     <trd>&#36930;&#34892;&#12377;&#12427;  <pr>&#12377;&#12356;&#12371;&#12358;&#12377;&#12427;</pr></trd>,
@@ -954,7 +1064,7 @@
     <trd>teljes&uuml;l</trd>,
     <trd>megval&oacute;sul</trd>
   </trdgrp>
-  <trd lng="id">ter<ind>penuh</ind>i</trd>
+  <trd lng="id"><baz>penuh</baz>terpenuhi</trd>
   <trdgrp lng="ja">
     <trd>&#26524;&#12383;&#12373;&#12428;&#12427;  <pr>&#12399;&#12383;&#12373;&#12428;&#12427;</pr></trd>,
     <trd>&#12363;&#12394;&#12358;</trd>,
@@ -1108,6 +1218,24 @@
     <trd>&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_ib;&c_j;</trd>,
     <trd>&c_p;&c_u;&c_s;&c_t;&c_i;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#31354; <pr>k&ograve;ng</pr></trd>,
+    <trd>&#26549; <pr>xi&amacron;o</pr></trd>,
+    <trd>&#32921; <pr>yu&amacron;n</pr></trd>,
+    <trd>&#34394; <pr>x&umacron;</pr></trd>,
+    <trd>&#34395; <pr>x&umacron;</pr></trd>,
+    <trd>&#31354;&#33633;&#33633; <pr>k&omacron;ngd&agrave;ngd&agrave;ng</pr></trd>,
+    <trd>&#31354;&#34153;&#34153; <pr>k&omacron;ngd&agrave;ngd&agrave;ng</pr></trd>,
+    <trd>&#31354;&#34394; <pr>k&omacron;ngx&umacron;</pr></trd>,
+    <trd>&#31354;&#34395; <pr>k&omacron;ngx&umacron;</pr></trd>,
+    <trd>&#31354;&#31354; <pr>k&omacron;ngk&omacron;ng</pr></trd>,
+    <trd>&#34394;&#31354; <pr>x&umacron;k&omacron;ng</pr></trd>,
+    <trd>&#34395;&#31354; <pr>x&umacron;k&omacron;ng</pr></trd>,
+    <trd>&#31354;&#33853;&#33853; <pr>k&omacron;nglu&ograve;lu&ograve;</pr></trd>,
+    <trd>&#23525; <pr>li&aacute;o</pr></trd>,
+    <trd>&#30250; <pr>bi&ecaron;</pr></trd>,
+    <trd>&#30303; <pr>bi&ecaron;</pr></trd>
+  </trdgrp>
 </drv>
 <drv mrk="plen.mal0ajxo">
   <kap>
@@ -1171,6 +1299,20 @@
     <trd>Leerstelle</trd>,
     <trd>Fehlstelle</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#38553; <pr>x&igrave;</pr></trd>,
+    <trd>&#31354;&#20301; <pr>k&ograve;ngw&egrave;i</pr></trd>,
+    <trd>&#31354;&#30333;&#20301;&#32622; <pr>k&ograve;ngb&aacute;iw&egrave;izhi</pr></trd>,
+    <trd>&#26723; <pr>d&agrave;ng</pr></trd>,
+    <trd>&#27284; <pr>d&agrave;ng</pr></trd>,
+    <trd>&#27597;&#38899;&#36830;&#32493; <pr>m&#468;y&imacron;nli&aacute;nx&ugrave;</pr></trd>,
+    <trd>&#27597;&#38899;&#36899;&#32396; <pr>m&#468;y&imacron;nli&aacute;nx&ugrave;</pr></trd>,
+    <trd>&#31354;&#32570;&#38989; <pr>k&omacron;ngqu&emacron;&eacute;</pr></trd>,
+    <trd>&#31354;&#32570;&#39069; <pr>k&omacron;ngqu&emacron;&eacute;</pr></trd>,
+    <trd>&#38646;&#25955;&#31354;&#22320; <pr>l&iacute;ngs&agrave;nk&omacron;ngd&igrave;</pr></trd>,
+    <trd>&#32299;&#38553; <pr>f&egrave;ngx&igrave;</pr></trd>,
+    <trd>&#32541;&#38553; <pr>f&egrave;ngx&igrave;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.mal0o">
@@ -1215,7 +1357,7 @@
   <trd lng="de">Leere</trd>
   <trd lng="en">emptiness</trd>
   <trd lng="fr">vide<klr> (subst.)</klr></trd>
-  <trd lng="id">ke<ind>kosong</ind>an</trd>
+  <trd lng="id"><baz>kosong</baz>kekosongan</trd>
   <trdgrp lng="ja">
     <trd>&#12363;&#12425;&#12387;&#12413;</trd>,
     <trd>&#31354;&#34394;  <pr>&#12367;&#12358;&#12365;&#12423;</pr></trd>
@@ -1231,6 +1373,13 @@
   <trdgrp lng="uk">
     <trd>&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_je;&c_ch;&c_a;</trd>,
     <trd>&c_p;&c_u;&c_s;&c_t;&c_o;&c_t;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#31354;&#30333; <pr>k&ograve;ngb&aacute;i</pr></trd>,
+    <trd>&#31354;&#24615; <pr>k&omacron;ngx&igrave;ng</pr></trd>,
+    <trd>&#31354;&#34394; <pr>k&omacron;ngx&umacron;</pr></trd>,
+    <trd>&#31354;&#34395; <pr>k&omacron;ngx&umacron;</pr></trd>,
+    <trd>&#26549; <pr>xi&amacron;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1292,6 +1441,12 @@
     <trd>&c_s;&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_ja;&c_t;&c_i;</trd>,
     <trd>&c_s;&c_p;&c_u;&c_s;&c_t;&c_o;&c_sh;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#28165;&#31354; <pr>q&imacron;ngk&omacron;ng</pr></trd>,
+    <trd>&#31354; <pr>k&ograve;ng</pr></trd>,
+    <trd>&#27794;&#29992;&#36942; <pr>m&eacute;iy&ograve;nggu&ograve;</pr></trd>,
+    <trd>&#27809;&#29992;&#36807; <pr>m&eacute;iy&ograve;nggu&ograve;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.mal0umi">
@@ -1343,7 +1498,7 @@
     <trd>n&eacute;gliger<klr> (une chose &agrave; faire)</klr></trd>
   </trdgrp>
   <trd lng="hu">nem <ind>teljes&iacute;t</ind></trd>
-  <trd lng="id">meng<ind>abai</ind>kan</trd>
+  <trd lng="id"><baz>abai</baz>mengabaikan</trd>
   <trdgrp lng="ja">
     <trd>&#32972;&#12367;  <pr>&#12381;&#12416;&#12367;</pr></trd>,
     <trd>&#36949;&#21453;&#12377;&#12427;  <pr>&#12356;&#12399;&#12435;&#12377;&#12427;</pr></trd>
@@ -1356,7 +1511,7 @@
   <trdgrp lng="ro">
     <trd>incomplet</trd>,
     <trd>nu umple</trd>,
-    <trd>nu completa&tcomma;i</trd>
+    <trd>nu completa&#539;i</trd>
   </trdgrp>
   <trd lng="ru">&c_n;&c_je; <ind>&c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_mol;</ind></trd>
   <trdgrp lng="sk">
@@ -1364,6 +1519,13 @@
     <trd>poru&scaron;i&tcaron;</trd>
   </trdgrp>
   <trd lng="uk">&c_n;&c_je; <ind>&c_v;&c_i;&c_k;&c_o;&c_n;&c_u;&c_v;&c_a;&c_t;&c_i;</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#36829;&#32972;&#20154;&#30340;&#36131;&#20219;
+    <pr>w&eacute;ib&egrave;ir&eacute;ndez&eacute;r&egrave;n</pr></trd>,
+    <trd>&#36949;&#32972;&#20154;&#30340;&#36012;&#20219;
+    <pr>w&eacute;ib&egrave;ir&eacute;ndez&eacute;r&egrave;n</pr></trd>,
+    <trd>&#24573;&#30053; <pr>h&umacron;lu:&egrave;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plen.ne0umebla">
@@ -1415,11 +1577,163 @@
     <trd>unfeasible</trd>
   </trdgrp>
   <trd lng="fr">impossible (&agrave; accomplir)</trd>
+  <trd lng="id"><ind>tak</ind> terpenuhi</trd>
   <trd lng="pl">niewykonalny</trd>
   <trd lng="ro">impracticabil</trd>
   <trdgrp lng="uk">
     <trd>&c_n;&c_je;&c_z;&c_d;&c_ib;&c_j;&c_s;&c_n;&c_je;&c_n;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_n;&c_je;&c_z;&c_d;&c_ib;&c_j;&c_s;&c_n;&c_i;&c_m;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21150;&#19981;&#21040; <pr>b&agrave;nbud&agrave;o</pr></trd>,
+    <trd>&#36774;&#19981;&#21040; <pr>b&agrave;nbud&agrave;o</pr></trd>,
+    <trd>&#19981;&#33021;&#23454;&#29616; <pr>b&ugrave;n&eacute;ngsh&iacute;xi&agrave;n</pr></trd>,
+    <trd>&#19981;&#33021;&#23526;&#29694; <pr>b&ugrave;n&eacute;ngsh&iacute;xi&agrave;n</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="plen.busx0o">
+  <kap>
+    bu&scirc;<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Tiom, kiom povas enteni la bu&scirc;o:
+      <ekz>
+        envenas e&ccirc; ne bu&scirc;<tld/>o da aero en la kaldronegon
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 43</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        denove alvenis tia bu&scirc;<tld/>o, kaj poste tia franda&jcirc;o, tiam denove tia kandizita
+        frukto kaj plia tia krema&jcirc;o
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+          <lok>&Ccirc;apitro 14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Pina</nom> haste englutis bu&scirc;<tld/>on da paste&ccirc;o
+        <fnt>
+          <bib>MJA</bib>
+          <lok>Parto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mankos e&ccirc; unu bu&scirc;<tld/>o por man&gcirc;i, kaj via stomako grumblos kiel &scirc;tono
+        <fnt>
+          <bib>StU</bib>
+          <lok>Britujo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="busx.plen0o">plenbu&scirc;o</ref>
+  </snc>
+  <trd lng="be">&c_p;&c_o;&c_w;&c_n;&c_y; <ind>&c_r;&c_o;&c_t;</ind></trd>
+  <trd lng="br">genaouad</trd>
+  <trdgrp lng="de">
+    <trd>Mundvoll</trd>,
+    <trd>Schluck</trd>,
+    <trd>H&auml;ppchen</trd>
+  </trdgrp>
+  <trd lng="en">mouthful</trd>
+  <trdgrp lng="fa">
+    <trd>&a_l;&a_q;&a_m;&a_h;</trd>,
+    <trd>&a_j;&a_r;&a_ayn;&a_h;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>bouch&eacute;e</trd>,
+    <trd>lamp&eacute;e</trd>
+  </trdgrp>
+  <trd lng="he">&mem;&lamed;&vav;&alef; &he;&pe;&he;</trd>
+  <trd lng="hu">falat</trd>
+  <trd lng="id"><ind>suap</ind>(an)</trd>
+  <trd lng="it">boccata</trd>
+  <trd lng="ja">&#21475;&#19968;&#26479;  <pr>&#12371;&#12358;&#12356;&#12387;&#12401;&#12356;</pr></trd>
+  <trd lng="nl">mondvol</trd>
+  <trdgrp lng="pl">
+    <trd>k&eogonek;s</trd>,
+    <trd>&lstroke;yk</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_o;&c_l;&c_n;&c_y;&c_j; &c_r;&c_o;&c_t;<klr tip="amb">
+    (&c_ch;&c_je;&c_g;&c_o;-&c_l;.)</klr></trd>,
+    <trd>&c_k;&c_u;&c_s;&c_o;&c_k;</trd>,
+    <trd>&c_g;&c_l;&c_o;&c_t;&c_o;&c_k;</trd>
+  </trdgrp>
+  <trd lng="uk">&c_k;&c_o;&c_v;&c_t;&c_o;&c_k;</trd>
+</drv>
+
+<drv mrk="plen.esprim0a">
+  <kap>
+    esprim<tld/>a, <var><kap>esprimo<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Prezentanta fortajn kaj abundajn esprimojn; <ref tip="sin"
+      cel="ricx.esprimo0a">esprimori&ccirc;a</ref>:
+      <ekz>
+        sur la esprim<tld/>a viza&gcirc;o de l' kronprinco estis videbla febra maltrankvilo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per amba&ubreve; manoj li faris esprim<tld/>an geston
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[de la portreto]</klr> trajtoj aperas nebulaj en komparo kun la
+        esprimo<tld/>eco, kiun donis al &gcirc;i la lerta kaj sperta desegnisto
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el liaj esprimo<tld/>aj, malhelaj okuloj brilis tia trankvila certeco
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li deprenas &ccirc;iujn esprim<tld/>ajn vortojn kaj &jcirc;etas ilin flanken
+        <fnt>
+          <bib>KrM</bib>
+          <lok>13. Son&gcirc;o Teruras, Son&gcirc;o Forkuras.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el &ccirc;io &ccirc;i esti&gcirc;is la mirinde esprimo<tld/>aj lingvo, literaturo, muziko kaj
+        danco de Brazilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2008/009404.php"
+              >Inspira antologio</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="suk.0a.FIG">suka<sncref/></ref>,
+      <ref cel="vigl.0a">vigla</ref>,
+      <ref cel="viv.0a.vigla">viva</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_y;&c_r;&c_a;&c_z;&c_n;&c_y;</trd>,
+    <trd>&c_k;&c_r;&c_a;&c_s;&c_a;&c_m;&c_o;&c_w;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>ausdrucksvoll</trd>,
+    <trd>ausdrucksstark</trd>,
+    <trd>lebhaft</trd>
   </trdgrp>
 </drv>
 
@@ -1513,31 +1827,109 @@
     <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_o;&c_v;&c_n;&c_je;&c_n;&c_i;&c_j;</trd>,
     <trd>&c_p;&c_o;&c_v;&c_n;&c_ib;&c_s;&c_ib;&c_n;&c_mol;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25317;&#25380; <pr>y&omacron;ngj&#464;</pr></trd>,
+    <trd>&#25793;&#25824; <pr>y&omacron;ngj&#464;</pr></trd>,
+    <trd>&#28385;&#28385; <pr>m&#462;nm&#462;n</pr></trd>,
+    <trd>&#28415;&#28415; <pr>m&#462;nm&#462;n</pr></trd>,
+    <trd>&#30408; <pr>y&iacute;ng</pr></trd>,
+    <trd>&#28001; <pr>b&oacute;</pr></trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="plen.vivo0a">
+  <kap>
+    viv<tld/>a, <var><kap>vivo<tld/>a</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="vigl.0a.rapidmova">Vigla<sncref/></ref>,
+      <ref tip="dif" cel="energi.0a.posedantaEnergion">energia<sncref/></ref>,
+      <ref cel="mov.0igxema">movi&gcirc;ema</ref> kaj <ref cel="inicia.0emo">iniciatema</ref>:
+      <ekz>
+        li levi&gcirc;is kaj parolis kun viv<tld/>aj gestoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur lia viv<tld/>a viza&gcirc;o oni vidis senfortan koleron
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        knabo, bela kaj rondvanga, kun viv<tld/>aj okuloj
+        <fnt>
+          <bib>IK</bib>
+          <lok>&Ccirc;aptiro III</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="entuzi.0a">entuziasma</ref>,
+      <ref cel="ricx.esprimo0a">esprimri&ccirc;a</ref>,
+      <ref cel="fervor.0a">fervora</ref>
+    </refgrp>
+    <trd lng="de">bewegt</trd>
+  </snc>
+  <snc mrk="plen.vivo0a.svarma">
+    <dif>
+      <tld lit="P"/>a de vivo kaj aktiveco:
+      <ekz>
+        tio estas la Orienta strato! kiel agrable hele kaj vivo<tld/>e
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        la sentoj de la junulo ensorbis la sonojn, odorojn kaj kolorojn de la viv<tld/>a
+        naturo
+        <fnt>
+          <bib>Tor</bib>
+          <lok>I.</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_o;&c_w;&c_n;&c_y; <ind>&c_zh;&c_y;&c_c;&c_mol;&c_c;&c_ja;</ind></trd>,
+    <trd>&c_zh;&c_y;&c_c;&c_mol;&c_c;&c_ja;&c_r;&c_a;&c_d;&c_a;&c_s;&c_n;&c_y;</trd>,
+    <trd>&c_e;&c_n;&c_e;&c_r;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>lebendig</trd>,
+    <trd>lebhaft</trd>
+  </trdgrp>
+</drv>
+
 </art>
   <!--
   $Log$
-versio 1.134 2023/10/24 09:25:57
+versio 1.145 2024/12/24 08:33:35
 Dmitri Gabinski: + trd be
 
-versio 1.133 2023/10/20 16:38:17
-revo: transskribo per <pr>
+versio 1.144 2024/11/28 08:34:41
+Wolfram Diestel: +viv~a
 
-versio 1.132 2023/10/14 12:35:49
-Wolfram Diestel: +mal~a&jcirc;o
+versio 1.143 2024/10/27 20:28:13
+Wolfram Diestel: +rim
 
-versio 1.131 2023/09/14 04:28:12
-Eko Nur Syah Hidayat: +trd id
+versio 1.142 2024/10/21 05:30:53
+Wolfram Diestel: +bu&scirc;~o
 
-versio 1.129 2023/08/29 18:31:02
-Wolfram Diestel: ja: prononco
-
-versio 1.128 2022/12/27 09:26:58
+versio 1.141 2024/09/25 09:42:02
 Dmitri Gabinski: + trd be
 
-versio 1.127 2022/12/11 22:27:10
-Vito Redsky: +trd pl + trd ro
+versio 1.140 2024/07/04 05:31:18
+Wolfram Diestel: +ref, trd de
 
-versio 1.126 2022/09/07 16:49:20
+versio 1.139 2024/05/20 11:00:52
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.138 2024/03/29 12:41:44
 -->
 </vortaro>

@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxat.xml,v 1.56 2023/12/31 01:39:18 revo Exp $">
+<art mrk="$Id: sxat.xml,v 1.59 2024/08/26 18:36:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;at</rad>/i
+  <fnt><bib>UV</bib></fnt>
 </kap>
 
 <drv mrk="sxat.0i">
@@ -135,7 +136,7 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="estim.0i">estimi</ref>,
-      <ref cel="taks.0i">taksi</ref>.
+      <ref cel="taks.0i">taksi</ref>
     </refgrp>
     <trd lng="cs">v&aacute;&zcaron;it si</trd>
     <trdgrp lng="en">
@@ -144,11 +145,22 @@
       <trd>appreciate</trd>,
       <trd>think well of</trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>sch&auml;tzen</trd>,
+      <trd>wertsch&auml;tzen</trd>
+    </trdgrp>
     <trd lng="fr">appr&eacute;cier</trd>
     <trdgrp lng="hu">
       <trd>kedvel</trd>,
       <trd>szeret <klr tip="ind"> (kedvel)</klr></trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd><baz>apresiasi</baz>mengapresiasi</trd>,
+      <trd><baz>harga</baz>menghargai</trd>,
+      <trd><baz>puji</baz>memuji</trd>,
+      <trd><baz>simpati</baz>bersimpati</trd>
+    </trdgrp>
+    <trd lng="ils" kod="M534x518S2ff00482x483S20320492x499S26500520x499"></trd>
     <trdgrp lng="nl">
       <trd>houden van</trd>,
       <trd>aardig vinden</trd>,
@@ -160,11 +172,9 @@
       <trd>lubi&cacute;</trd>
     </trdgrp>
     <trd lng="ru">&c_c;&c_je;&c_n;&c_i;&c_t;&c_mol;</trd>
+    <trd lng="sgn"
+    kod="M521x561S2ff00481x483S36d00479x527S20002479x546S20500473x537S26506498x546">m@45-</trd>
     <trd lng="tr">takdir etmek</trd>
-    <trdgrp lng="de">
-      <trd>sch&auml;tzen</trd>,
-      <trd>wertsch&auml;tzen</trd>
-    </trdgrp>
   </snc>
   <snc mrk="sxat.0i.ami">
     <dif>
@@ -204,10 +214,25 @@
     <trd lng="en">like</trd>
     <trd lng="fr">aimer</trd>
     <trd lng="hu">szeret<klr>tip="ind"&gt; (kedvel)</klr></trd>
+    <trdgrp lng="id">
+      <trd>gemar</trd>,
+      <trd><baz>gemar</baz>menggemari</trd>,
+      <trd>suka</trd>,
+      <trd><baz>suka</baz>menyukai</trd>
+    </trdgrp>
     <trd lng="oc">agradar</trd>
     <trd lng="ru">&c_l;&c_ju;&c_b;&c_i;&c_t;&c_mol;</trd>
     <trd lng="tr">sevmek</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x559C;&#x597D; <pr>x&#x1D0;h&#xE0;o</pr></trd>,
+    <trd>&#x60C5;&#x613F; <pr>q&#xED;ngyu&#xE0;n</pr></trd>,
+    <trd>&#x60C5;&#39000; <pr>q&#xED;ngyu&#xE0;n</pr></trd>,
+    <trd>&#x5F85;&#x898B; <pr>d&#xE0;ijian</pr></trd>,
+    <trd>&#x5F85;&#x89C1; <pr>d&#xE0;ijian</pr></trd>,
+    <trd>&#x559C;&#x611B; <pr>x&#x1D0;&#xE0;i</pr></trd>,
+    <trd>&#x559C;&#29233; <pr>x&#x1D0;&#xE0;i</pr></trd>
+  </trdgrp>
+</snc>
   <rim>
     En la tradicia lingvouzo (tiu de <nom>Zamenhof</nom> kaj PIV)
     <ctl>&scirc;ati</ctl> indikas pli altan estimon ol <ctl>ami</ctl>;
@@ -234,7 +259,7 @@
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x4FA1;&#20516;&#12434;&#x8A8D;&#12417;&#x308B;  <pr>&#x304B;&#12385;&#12434;&#x307F;&#12392;&#12417;&#x308B;</pr></trd>,
-    <trd>&#x9AD8;&#x304F;&#x8A55;&#x4FA1;&#12377;&#x308B; 
+    <trd>&#x9AD8;&#x304F;&#x8A55;&#x4FA1;&#12377;&#x308B;
     <pr>&#x305F;&#x304B;&#x304F;&#12402;&#12423;&#12358;&#x304B;&#12377;&#x308B;</pr></trd>,
     <trd>&#x5C0A;&#x91CD;&#12377;&#x308B;  <pr>&#x305D;&#12435;&#12385;&#12423;&#12358;&#12377;&#x308B;</pr></trd>,
     <trd>&#x597D;&#12416;  <pr>&#12371;&#x306E;&#12416;</pr></trd>,
@@ -292,6 +317,12 @@
       </ekz>
     </dif>
     <trd lng="hu">kedvel&eacute;s</trd>
+  <trdgrp lng="id">
+    <trd>apresiasi</trd>,
+    <trd><baz>harga</baz>penghargaan</trd>,
+    <trd><baz>puji</baz>pujian</trd>,
+    <trd>simpati</trd>
+  </trdgrp>
   </snc>
   <snc mrk="sxat.0o.ateco">
     <dif>
@@ -306,6 +337,10 @@
       </ekz>
     </dif>
     <trd lng="hu">kedvelts&eacute;g</trd>
+  <trdgrp lng="id">
+    <trd><baz>suka</baz>kesukaan</trd>,
+    <trd><baz>gemar</baz>kegemaran</trd>
+  </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_ja;&c_z;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
@@ -343,6 +378,10 @@
     <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_ja;&c_z;&c_n;&c_mol;</trd>,
     <trd>&c_v;&c_i;&c_s;&c_o;&c_k;&c_a; &c_o;&c_c;&c_ib;&c_n;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8CDE;&#x8B58; <pr>sh&#x1CE;ngsh&#xED;</pr></trd>,
+    <trd>&#x8D4F;&#x8BC6; <pr>sh&#x1CE;ngsh&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -386,6 +425,13 @@
     <trd>Verehrung</trd>
   </trdgrp>
   <trd lng="fr">faveur</trd>
+  <trdgrp lng="id">
+    <trd>apresiasi</trd>,
+    <trd><baz>harga</baz>penghargaan</trd>,
+    <trd><baz>hormat</baz>penghormatan</trd>,
+    <trd><baz>puji</baz>pujian</trd>,
+    <trd>simpati</trd>
+  </trdgrp>
   <trd lng="ja">&#x5C0A;&#x91CD;  <pr>&#x305D;&#12435;&#12385;&#12423;&#12358;</pr></trd>
   <trdgrp lng="pl">
     <trd>powaga</trd>,
@@ -395,6 +441,15 @@
   <trdgrp lng="uk">
     <trd>&c_p;&c_o;&c_c;&c_ib;&c_n;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>,
     <trd>&c_p;&c_o;&c_sh;&c_a;&c_n;&c_u;&c_v;&c_a;&c_n;&c_n;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x671B; <pr>r&#xE9;nw&#xE0;ng</pr></trd>,
+    <trd>&#x540D;&#x6C14; <pr>m&#xED;ngq&#xEC;</pr></trd>,
+    <trd>&#x540D;&#x6C23; <pr>m&#xED;ngq&#xEC;</pr></trd>,
+    <trd>&#x540D;&#x58F0; <pr>m&#xED;ngsh&emacron;ng</pr></trd>,
+    <trd>&#x540D;&#32882; <pr>m&#xED;ngsh&emacron;ng</pr></trd>,
+    <trd>&#x58F0;&#x671B; <pr>sh&emacron;ngw&#xE0;ng</pr></trd>,
+    <trd>&#32882;&#x671B; <pr>sh&emacron;ngw&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -444,6 +499,12 @@
     <trd>agr&eacute;able</trd>,
     <trd>appr&eacute;ciable</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>patut</ind> diapresiasi</trd>,
+    <trd><ind>patut</ind> dihargai</trd>,
+    <trd><ind>patut</ind> dipuji</trd>,
+    <trd><ind>patut</ind> disukai</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x5C0A;&#x91CD;&#x306B;&#20516;&#12377;&#x308B;  <pr>&#x305D;&#12435;&#12385;&#12423;&#12358;&#x306B;&#12354;&#x305F;&#12356;&#12377;&#x308B;</pr></trd>,
     <trd>&#x5C0A;&#x656C;&#12377;&#12409;&#x304D;  <pr>&#x305D;&#12435;&#12369;&#12356;&#12377;&#12409;&#x304D;</pr></trd>
@@ -458,6 +519,11 @@
     <trd>&c_z;&c_a;&c_s;&c_l;&c_u;&c_g;&c_o;&c_v;&c_u;&c_ju;&c_ch;&c_i;&c_j; &c_v;&c_i;&c_s;&c_o;&c_k;&c_o;&c_ji; &c_o;&c_c;&c_ib;&c_n;&c_k;&c_i;</trd>,
     <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;&c_ib;</trd>,
     <trd>&c_p;&c_o;&c_v;&c_a;&c_g;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5B9C;&#x4EBA; <pr>y&#xED;r&#xE9;n</pr></trd>,
+    <trd>&#20516;&#x5F97;&#x91CD;&#35222; <pr>zh&#xED;dezh&#xF2;ngsh&#xEC;</pr></trd>,
+    <trd>&#x503C;&#x5F97;&#x91CD;&#x89C6; <pr>zh&#xED;dezh&#xF2;ngsh&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -539,6 +605,10 @@
     <trd>Steckenpferd</trd>,
     <trd>Hobby</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>hobi</trd>,
+    <trd><baz>gemar</baz>kegemaran</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>hobby</trd>,
     <trd>ulubione zaj&eogonek;cie</trd>
@@ -550,6 +620,22 @@
   <trdgrp lng="uk">
     <trd>&c_u;&c_l;&c_ju;&c_b;&c_l;&c_je;&c_n;&c_je; &c_z;&c_a;&c_n;&c_ja;&c_t;&c_t;&c_ja;</trd>,
     <trd>&c_g;&c_o;&c_b;&c_ib;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x611B;&#x597D; <pr>&#xE0;ih&#xE0;o</pr></trd>,
+    <trd>&#29233;&#x597D; <pr>&#xE0;ih&#xE0;o</pr></trd>,
+    <trd>&#30294;&#x597D; <pr>p&#x1D0;h&#xE0;o</pr></trd>,
+    <trd>&#x55DC;&#x597D; <pr>sh&#xEC;h&#xE0;o</pr></trd>,
+    <trd>&#26368;&#x611B;&#x5E79;&#30340;&#x4E8B; <pr>zu&#xEC;&#xE0;ig&#xE0;ndesh&#xEC;</pr></trd>,
+    <trd>&#26368;&#29233;&#x5E72;&#30340;&#x4E8B; <pr>zu&#xEC;&#xE0;ig&#xE0;ndesh&#xEC;</pr></trd>,
+    <trd>&#x4E1A;&#x4F59;&#29233;&#x597D; <pr>y&#xE8;y&#xFA;&#xE0;ih&#x1CE;o</pr></trd>,
+    <trd>&#x696D;&#x4F59;&#x611B;&#x597D; <pr>y&#xE8;y&#xFA;&#xE0;ih&#x1CE;o</pr></trd>,
+    <trd>&#x4E1A;&#x4F59;&#x751F;&#x6D3B;&#29233;&#x597D;
+    <pr>y&#xE8;y&#xFA;sh&emacron;nghu&#xF3;&#xE0;ih&#x1CE;o</pr></trd>,
+    <trd>&#x696D;&#x4F59;&#x751F;&#x6D3B;&#x611B;&#x597D;
+    <pr>y&#xE8;y&#xFA;sh&emacron;nghu&#xF3;&#xE0;ih&#x1CE;o</pr></trd>,
+    <trd>&#20852;&#x8DA3; <pr>x&#xEC;ngq&#xF9;</pr></trd>,
+    <trd>&#33288;&#x8DA3; <pr>x&#xEC;ngq&#xF9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -640,6 +726,15 @@
   <trd lng="en">dislike</trd>
   <trd lng="es">despreciar</trd>
   <trd lng="fr">d&eacute;tester</trd>
+  <trdgrp lng="id">
+    <trd><baz>anggap</baz>menganggap remeh</trd>,
+    <trd><baz>benci</baz>membenci</trd>,
+    <trd><baz>hina</baz>menghina</trd>,
+    <trd><baz>remeh</baz>meremehkan</trd>,
+    <trd><baz>rendah</baz>merendahkan</trd>
+  </trdgrp>
+  <trd lng="ils"
+  kod="M560x557S30126482x476S30e30488x498S10020522x527S26b06542x530S20320492x511S26500507x511"></trd>
   <trdgrp lng="it">
     <trd>disprezzare</trd>,
     <trd>sdegnare</trd>,
@@ -650,7 +745,7 @@
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x8EFD;&#35222;&#12377;&#x308B;  <pr>&#12369;&#12356;&#12375;&#12377;&#x308B;</pr></trd>,
-    <trd>&#x4F4E;&#x304F;&#x8A55;&#x4FA1;&#12377;&#x308B; 
+    <trd>&#x4F4E;&#x304F;&#x8A55;&#x4FA1;&#12377;&#x308B;
     <pr>&#12402;&#x304F;&#x304F;&#12402;&#12423;&#12358;&#x304B;&#12377;&#x308B;</pr></trd>,
     <trd>&#x304D;&#12425;&#12358;</trd>,
     <trd>&#x5ACC;&#x60AA;&#12377;&#x308B;  <pr>&#12369;&#12435;&#x304A;&#12377;&#x308B;</pr></trd>
@@ -674,6 +769,11 @@
     &c_z;&c_n;&c_je;&c_v;&c_a;&c_g;&c_o;&c_ju;</trd>,
     <trd>&c_n;&c_i;&c_z;&c_mol;&c_k;&c_o; &c_o;&c_c;&c_ib;&c_n;&c_ju;&c_v;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_n;&c_je; &c_l;&c_ju;&c_b;&c_i;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x619D; <pr>du&#xEC;</pr></trd>,
+    <trd>&#x5ACC; <pr>xi&#xE1;n</pr></trd>,
+    <trd>&#x770B;&#x4E0D;&#x8D77; <pr>k&#xE0;nbuq&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -704,6 +804,10 @@
   </trdgrp>
   <trd lng="fr">rebut</trd>
   <trd lng="hu">ut&aacute;latoss&aacute;g</trd>
+  <trdgrp lng="id">
+    <trd>hina</trd>,
+    <trd>sampah</trd>
+  </trdgrp>
   <trd lng="it">fesseria<klr> (indegno di stima o considerazione)</klr></trd>
   <trd lng="ja">&#28961;&#x4FA1;&#20516;&#x306A;&#12418;&#x306E;  <pr>&#12416;&#x304B;&#12385;&#x306A;&#12418;&#x306E;</pr></trd>
   <trdgrp lng="pl">
@@ -736,12 +840,19 @@
     </trdgrp>
     <trd lng="pl">samouwielbienie</trd>
   </snc>
+<trd lng="id"><ind>cinta</ind> diri</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.59 2024/08/26 18:36:14
+Wolfram Diestel: +trd ils, sgn
+
+versio 1.58 2024/08/06 06:36:45
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.56 2023/12/31 01:39:18
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.55 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -756,11 +867,5 @@ versio 1.51 2023/05/01 12:44:26
 Paul Peeraerts: Steloj -> monato
 
 versio 1.50 2023/04/18 11:23:25
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.49 2023/04/17 15:28:30
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.48 2023/04/15 11:22:44
 -->
 </vortaro>

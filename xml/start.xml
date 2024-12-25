@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: start.xml,v 1.34 2023/10/21 07:46:48 revo Exp $">
+<art mrk="$Id: start.xml,v 1.37 2024/07/26 09:28:01 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>start</rad>/i <fnt><bib>PV</bib></fnt>
@@ -73,7 +73,10 @@
   </snc>
   <trd lng="be">&c_s;&c_t;&c_a;&c_r;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="cs">zah&aacute;jit <klr>(ofenz&iacute;vu| z&aacute;vod| chod stroje)</klr></trd>
-  <trd lng="de">starten</trd>
+  <trdgrp lng="de">
+    <trd>starten <klr>(aufbrechen)</klr></trd>,
+    <trd>aufbrechen</trd>
+  </trdgrp>
   <trd lng="en">start</trd>
   <trdgrp lng="es">
     <trd>empezar</trd>,
@@ -104,6 +107,10 @@
     <trd>&c_r;&c_u;&c_sh;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_r;&c_u;&c_sh;&c_a;&c_t;&c_i; &c_z; &#x43C;&c_ib;&c_s;&c_c;&#x44F;</trd>,
     <trd>&c_z;&#x43B;&c_ib;&c_t;&c_a;&c_t;&c_i; <klr>(&#x43F;&c_r;&#x43E; &#x43B;&c_ib;&c_t;&c_a;&#x43A;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x542F;&#x52A8; <pr>q&#x1D0;d&#xF2;ng</pr></trd>,
+    <trd>&#x555F;&#x52D5; <pr>q&#x1D0;d&#xF2;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -179,7 +186,16 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">Start</trd>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_t;&c_a;&c_r;&c_t;</trd>,
+    <trd>&c_p;&c_u;&c_s;&c_k;</trd>,
+    <trd>&c_z;&c_a;&c_p;&c_u;&c_s;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_ch;&c_a;&c_t;&c_a;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Start</trd>,
+    <trd>Aufbruch</trd>
+  </trdgrp>
   <trd lng="en">start</trd>
   <trd lng="es">comienzo</trd>
   <trdgrp lng="ja">
@@ -197,6 +213,14 @@
     <trd>&c_v;&c_ib;&c_d;&#x43F;&c_r;&c_a;&c_v;&#x43B;&c_je;&#x43D;&#x43D;&#x44F;</trd>,
     <trd>&#x43D;&c_a;&c_ch;&c_a;&#x43B;&#x43E;</trd>,
     <trd>&c_z;&#x43B;&c_ib;&c_t; <klr>(&#x43B;&c_ib;&c_t;&c_a;&#x43A;&c_a;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8D77;&#x70B9; <pr>q&#x1D0;di&#x1CE;n</pr></trd>,
+    <trd>&#x8D77;&#x9EDE; <pr>q&#x1D0;di&#x1CE;n</pr></trd>,
+    <trd>&#x7AEF; <pr>du&amacron;n</pr></trd>,
+    <trd>&#32785; <pr>du&amacron;n</pr></trd>,
+    <trd>&#x5F00;&#x7AEF; <pr>k&amacron;idu&amacron;n</pr></trd>,
+    <trd>&#x958B;&#x7AEF; <pr>k&amacron;idu&amacron;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -217,6 +241,7 @@
     </dif>
     <ref tip="vid" cel="komenc.0anto">komencanto</ref>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_ch;&c_a;&c_t;&c_k;&c_o;&c_v;&c_je;&c_c;</trd>
   <trd lng="de">Starter</trd>
   <trd lng="en">starter</trd>
   <trd lng="es">principiante</trd>
@@ -267,6 +292,10 @@
       <ref cel="sxalt.0i">&scirc;alti</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_p;&c_u;&c_s;&c_k;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_y;&c_v;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol; &c_u; <ind>&c_r;&c_u;&c_h;</ind></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>nastartovat</trd>,
     <trd>nat&aacute;&ccaron;et <klr>(motor)</klr></trd>,
@@ -274,7 +303,8 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd><ind>starten</ind> lassen</trd>,
-    <trd>z&uuml;nden <klr>(Motor)</klr></trd>
+    <trd>z&uuml;nden <klr>(Motor)</klr></trd>,
+    <trd>anlassen</trd>
   </trdgrp>
   <trd lng="en">start</trd>
   <trdgrp lng="es">
@@ -289,7 +319,7 @@
     <trd>mettre en route</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#12373;&#x305B;&#x308B; 
+    <trd>&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#12373;&#x305B;&#x308B;
     <pr>&#12377;&#x305F;&#x30FC;&#12392;&#12373;&#x305B;&#x308B;</pr></trd>,
     <trd>&#x59CB;&#x52D5;&#12373;&#x305B;&#x308B;  <pr>&#12375;&#12393;&#12358;&#12373;&#x305B;&#x308B;</pr></trd>,
     <trd>&#x8D77;&#x52D5;&#12377;&#x308B;  <pr>&#x304D;&#12393;&#12358;&#12377;&#x308B;</pr></trd>,
@@ -305,15 +335,27 @@
     <trd>spusti&tcaron; motor</trd>
   </trdgrp>
   <trd lng="uk">&c_z;&c_a;&#x43F;&c_u;&c_s;&#x43A;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8D77;&#x52A8; <pr>q&#x1D0;d&#xF2;ng</pr></trd>,
+    <trd>&#x8D77;&#x52D5; <pr>q&#x1D0;d&#xF2;ng</pr></trd>,
+    <trd>&#x5F00;&#x8F66; <pr>k&amacron;ich&emacron;</pr></trd>,
+    <trd>&#x958B;&#x8ECA; <pr>k&amacron;ich&emacron;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.37 2024/07/26 09:28:01
+Dmitri Gabinski: + trd be
+
+versio 1.35 2024/03/17 15:23:26
+Wolfram Diestel: +trd de
+
 versio 1.34 2023/10/21 07:46:48
 revo: transskribo per <pr>
 
 versio 1.33 2023/10/15 01:30:07
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.31 2023/05/06 14:26:05
 revo: aktualigo URL-unuoj
@@ -325,11 +367,5 @@ versio 1.29 2023/04/24 12:46:36
 Paul Peeraerts: @Steloj -> @Monato
 
 versio 1.28 2023/04/18 17:24:56
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.27 2023/04/17 15:28:29
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.26 2023/04/15 12:43:24
 -->
 </vortaro>

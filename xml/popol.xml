@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: popol.xml,v 1.34 2024/01/24 06:31:10 revo Exp $">
+<art mrk="$Id: popol.xml,v 1.36 2024/08/24 21:25:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>popol</rad>/o
+  <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="popol.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -156,6 +157,8 @@
   <trd lng="en">people</trd>
   <trd lng="hu">n&eacute;p</trd>
   <trd lng="id">rakyat</trd>
+  <trd lng="ils"
+  kod="M546x595S36d00479x525S1ed26514x534S22b04512x565S2ff00483x483S22b04530x565S1ed2e468x535S22b14474x565S22b14456x565S2fd00490x573"></trd>
   <trdgrp lng="ja">
     <trd>&#x4EBA;&#x6C11;  <pr>&#x304A;&#x304A;&#x307F;&#x305F;&#x304B;&#12425;</pr></trd>,
     <trd>&#x56FD;&#x6C11;  <pr>&#x304F;&#x306B;&#x305F;&#x307F;</pr></trd>,
@@ -166,12 +169,24 @@
   <trd lng="pt">povo</trd>
   <trd lng="ro">popor</trd>
   <trd lng="ru">&c_n;&c_a;&c_r;&c_o;&c_d;</trd>
+  <trd lng="sgn" kod="M536x518S2ff00482x483S36d00478x498S1e250514x468S1e258464x468">D@24*</trd>
   <trdgrp lng="sk">
     <trd>n&aacute;rod</trd>,
     <trd>pospolitos&tcaron;</trd>,
     <trd>&lcaron;ud</trd>
   </trdgrp>
   <trd lng="uk">&c_n;&c_a;&c_r;&c_o;&c_d;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x4EEC; <pr>r&#xE9;nmen</pr></trd>,
+    <trd>&#x4EBA;&#20497; <pr>r&#xE9;nmen</pr></trd>,
+    <trd>&#x4EBA;&#x53E3; <pr>r&#xE9;nk&#x1D2;u</pr></trd>,
+    <trd>&#x5B50;&#x6C11; <pr>z&#x1D0;m&#xED;n</pr></trd>,
+    <trd>&#x70DD;&#x6C11; <pr>zh&emacron;ngm&#xED;n</pr></trd>,
+    <trd>&#x70DD;&#x9ECE; <pr>zh&emacron;ngl&#xED;</pr></trd>,
+    <trd>&#x4EBA;&#x6C11; <pr>r&#xE9;nm&#xED;n</pr></trd>,
+    <trd>&#x56FD;&#x65CF; <pr>gu&#xF3;z&#xFA;</pr></trd>,
+    <trd>&#x570B;&#x65CF; <pr>gu&#xF3;z&#xFA;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="popol.0a">
@@ -289,6 +304,10 @@
     <trd>&#x4EBA;&#x6C11;&#x306E;  <pr>&#12376;&#12435;&#x307F;&#12435;&#x306E;</pr></trd>,
     <trd>&#x6C11;&#34886;&#x306E;  <pr>&#x307F;&#12435;&#12375;&#12421;&#12358;&#x306E;</pr></trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x56FD;&#x7ACB; <pr>gu&#xF3;l&#xEC;</pr></trd>,
+    <trd>&#x570B;&#x7ACB; <pr>gu&#xF3;l&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="popol.0acxo">
@@ -334,6 +353,7 @@
     <trd>Plebs</trd>
   </trdgrp>
   <trd lng="ja">&#x4E0B;&#x5C64;&#x6C11;  <pr>&#x304B;&#x305D;&#12358;&#x305F;&#x307F;</pr></trd>
+  <trd lng="zh">&#x767D;&#x4E01; <pr>b&#xE1;id&#x12B;ng</pr></trd>
 </drv>
 
 <drv mrk="popol.0aro">
@@ -447,6 +467,7 @@
     <trd>Volksgruppe</trd>,
     <trd>ethnische <ind>Gruppe</ind></trd>
   </trdgrp>
+  <trd lng="zh">&#x65CF;&#x7FA4; <pr>z&#xFA;q&#xFA;n</pr></trd>
 </drv>
 
 <drv mrk="popol.0ismo">
@@ -495,6 +516,10 @@
   </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_p;&c_u;&c_l;&c_i;&c_z;&c_m;</trd>
   <trd lng="uk">&c_p;&c_o;&c_p;&c_u;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x6C11;&#x7CB9;&#x4E3B;&#x4E49; <pr>m&#xED;ncu&#xEC;zh&#x1D4;y&#xEC;</pr></trd>,
+    <trd>&#x6C11;&#x7CB9;&#x4E3B;&#x7FA9; <pr>m&#xED;ncu&#xEC;zh&#x1D4;y&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="popol.0isto">
@@ -594,6 +619,9 @@
 </art>
 <!--
 $Log$
+versio 1.36 2024/08/24 21:25:18
+Wolfram Diestel: +trd ils, sgn
+
 versio 1.34 2024/01/24 06:31:10
 Dmitri Gabinski: + trd be
 
@@ -613,8 +641,5 @@ versio 1.28 2023/02/27 19:22:51
 Wolfram Diestel: +~a, inter~a
 
 versio 1.27 2023/02/26 14:25:31
-Wolfram Diestel: +~aro, ~eto
-
-versio 1.26 2023/02/24 21:23:44
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rilat.xml,v 1.87 2023/10/21 05:38:06 revo Exp $">
+<art mrk="$Id: rilat.xml,v 1.89 2024/04/30 07:22:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rilat</rad>/i
@@ -144,6 +144,10 @@
     <trd lng="hu">ar&aacute;nylik</trd>
     <trd lng="nl">in <ind>verhouding</ind> staan tot</trd>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_n;&c_o;&c_s;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_v;&c_ib;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>m&iacute;t vztah</trd>,
     <trd>obcovat</trd>,
@@ -180,6 +184,12 @@
     <trd>&c_s;&c_t;&c_o;&c_s;&c_u;&c_v;&c_a;&c_t;&c_i;&c_s;&c_ja;</trd>,
     <trd>&c_m;&c_a;&c_t;&c_i; &c_v;&c_ib;&c_d;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_n;&c_ja;</trd>,
     <trd>&c_v;&c_ib;&c_d;&c_n;&c_o;&c_s;&c_i;&c_t;&c_i;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#29301;&#x8FDE; <pr>qi&amacron;nli&#xE1;n</pr></trd>,
+    <trd>&#x727D;&#36899; <pr>qi&amacron;nli&#xE1;n</pr></trd>,
+    <trd>&#20851;&#x7CFB;&#21040; <pr>gu&amacron;nx&#xEC;d&#xE0;o</pr></trd>,
+    <trd>&#x95DC;&#x4FC2;&#21040; <pr>gu&amacron;nx&#xEC;d&#xE0;o</pr></trd>
   </trdgrp>
 </drv>
 
@@ -238,7 +248,8 @@
       <trd>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_s;&c_v;&c_ja;&c_z;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trd lng="zh">&#x74DC;&#x845B; <pr>gu&amacron;g&#xE9;</pr></trd>
+</snc>
   <snc mrk="rilat.0o.interligo">
     <dif>
       Ia ajn ligiteco a&ubreve; interefiko inter du a&ubreve; pluraj aferoj:
@@ -284,7 +295,14 @@
       <trd>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_s;&c_v;&c_ja;&c_z;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4EBA;&#x60C5; <pr>r&#xE9;nq&#xED;ng</pr></trd>,
+    <trd>&#20851;&#x7CFB; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#x95DC;&#x4FC2; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#x5F80;&#x4F86; <pr>w&#x1CE;ngl&#xE1;i</pr></trd>,
+    <trd>&#x5F80;&#26469; <pr>w&#x1CE;ngl&#xE1;i</pr></trd>
+  </trdgrp>
+</snc>
   <snc>
     <dif>
       Ju&gcirc;maniero de iu pri io; vidpunkto:
@@ -468,6 +486,12 @@
       </refgrp>
     </subsnc>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_n;&c_o;&c_s;&c_ib;&c_n;&c_y;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_s;&c_u;&c_n;&c_a;&c_k;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
   <trd lng="bo">&t_-a;&t_ba;&t_rata;&t_drengbu;&t_la;&t_tsheg;&t_ba;&t_tsheg;</trd>
   <trdgrp lng="cs">
     <trd>pom&ecaron;r</trd>,
@@ -502,6 +526,11 @@
     <trd>&c_z;&c_v;&#8217;&c_ja;&c_z;&c_o;&c_k;</trd>,
     <trd><klr>(&c_u; &c_m;&c_n;. &c_shch;&c_je;)</klr> &c_v;&c_ib;&c_d;&c_n;&c_o;&c_s;&c_i;&c_n;&c_i;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_p;&c_o;&c_r;&c_c;&c_ib;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5BF9;&#x6BD4; <pr>du&#xEC;b&#x1D0;</pr></trd>,
+    <trd>&#x5C0D;&#x6BD4; <pr>du&#xEC;b&#x1D0;</pr></trd>,
+    <trd>&#x4E4B;&#x6BD4; <pr>zh&#x12B;b&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -603,6 +632,7 @@
       <ref cel="simil.0a">simila</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_d;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
   <trd lng="ca">respecte a</trd>
   <trdgrp lng="cs">
     <trd>rela&ccaron;n&iacute;</trd>,
@@ -632,6 +662,18 @@
   <trd lng="pl">dotycz&aogonek;cy</trd>
   <trd lng="sk">vz&tcaron;a&zcaron;n&yacute;</trd>
   <trd lng="uk">&c_s;&c_t;&c_o;&c_s;&c_o;&c_v;&c_n;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#20851;&#x7CFB; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#x95DC;&#x4FC2; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#26377;&#20851; <pr>y&#x1D2;ugu&amacron;n</pr></trd>,
+    <trd>&#26377;&#x95DC; <pr>y&#x1D2;ugu&amacron;n</pr></trd>,
+    <trd>&#26377;&#20851;&#x7CFB; <pr>y&#x1D2;ugu&amacron;nxi</pr></trd>,
+    <trd>&#26377;&#x95DC;&#x4FC2; <pr>y&#x1D2;ugu&amacron;nxi</pr></trd>,
+    <trd>&#x5BF9;&#x4E8E; <pr>du&#xEC;y&#xFA;</pr></trd>,
+    <trd>&#x5C0D;&#x65BC; <pr>du&#xEC;y&#xFA;</pr></trd>,
+    <trd>&#20851;&#x4E4E; <pr>gu&amacron;nh&#x16B;</pr></trd>,
+    <trd>&#x95DC;&#x4E4E; <pr>gu&amacron;nh&#x16B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rilat.0eal">
@@ -675,6 +717,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_u; <ind>&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_ib;</ind></trd>
   <trd lng="de">bez&uuml;glich</trd>
   <trd lng="en">in terms of</trd>
   <trdgrp lng="fr">
@@ -703,6 +746,11 @@
     <trd>&c_v; &c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_i;</trd>,
     <trd>&c_o;&c_t;&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;<klr tip="amb"> (&c_ch;&c_je;&c_g;&c_o;-&c_l;.)</klr></trd>,
     <trd>&c_p;&c_o; &c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_ju;<klr tip="amb"> (&c_k; &c_ch;&c_je;&c_m;&c_u;-&c_l;.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#20851;&#x4E8E; <pr>gu&amacron;ny&#xFA;</pr></trd>,
+    <trd>&#x95DC;&#x65BC; <pr>gu&amacron;ny&#xFA;</pr></trd>,
+    <trd>&#x6D89;&#x53CA; <pr>sh&#xE8;j&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -757,6 +805,10 @@
       <ref cel="refere.0i">referenci</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_u;&c_a;&c_d;&c_n;&c_o;&c_s;&c_ib;&c_c;&c_mol;</trd>,
+    <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>beziehen <klr>(auf)</klr></trd>,
     <trd>in <ind>Bezug</ind> setzen <klr>(zu)</klr></trd>,
@@ -778,6 +830,13 @@
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_o;&c_t;&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_o;&c_o;&c_t;&c_n;&c_je;&c_s;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4F7F;&#32852;&#x7CFB; <pr>sh&#x1D0;li&#xE1;nx&#xEC;</pr></trd>,
+    <trd>&#x4F7F;&#x806F;&#x7E6B; <pr>sh&#x1D0;li&#xE1;nx&#xEC;</pr></trd>,
+    <trd>&#29301;&#x8FDE; <pr>qi&amacron;nli&#xE1;n</pr></trd>,
+    <trd>&#x727D;&#36899; <pr>qi&amacron;nli&#xE1;n</pr></trd>,
+    <trd>&#x6D89;&#x53CA; <pr>sh&#xE8;j&#xED;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -804,9 +863,11 @@
       <ref cel="proksi.0ulo.KOMUNE">proksimulo</ref>
     </refgrp>
   </snc>
+  <trd lng="be">&c_z;&c_n;&c_a;&c_jo;&c_m;&c_y; <klr>(&c_n;&c_a;&c_z;.)</klr></trd>
   <trd lng="de">Bekannte(r)</trd>
   <trd lng="fr">relation<klr> (personne)</klr></trd>
   <trd lng="pl">znajomy</trd>
+  <trd lng="zh">&#x719F;&#x4EBA; <pr>sh&#xFA;r&#xE9;n</pr></trd>
 </drv>
 
 <drv mrk="rilat.0umo">
@@ -834,6 +895,10 @@
       <ref cel="propor.0o.MAT">proporcio<sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_u;&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je; <klr>(&c_m;&c_a;&c_t;.)</klr></trd>,
+    <trd>&c_s;&c_t;&c_a;&c_s;&c_u;&c_n;&c_a;&c_k;</trd>
+  </trdgrp>
   <trd lng="de">Verh&auml;ltnis</trd>
   <trd lng="en">ratio</trd>
   <trd lng="fr">rapport<klr> (math.)</klr></trd>
@@ -845,6 +910,15 @@
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr> (&c_m;&c_a;&c_t;.)</klr></trd>,
     <trd>&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;<klr> (&c_p;&c_r;&c_o;&c_p;&c_o;&c_r;&c_c;&c_i;&c_ja;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6BD4; <pr>b&#x1D0;</pr></trd>,
+    <trd>&#x5BF9;&#x6BD4; <pr>du&#xEC;b&#x1D0;</pr></trd>,
+    <trd>&#x5C0D;&#x6BD4; <pr>du&#xEC;b&#x1D0;</pr></trd>,
+    <trd>&#20851;&#x7CFB; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#x95DC;&#x4FC2; <pr>gu&amacron;nxi</pr></trd>,
+    <trd>&#x666F;&#x51B5; <pr>j&#x1D0;ngku&#xE0;ng</pr></trd>,
+    <trd>&#x666F;&#x6CC1; <pr>j&#x1D0;ngku&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -878,6 +952,12 @@
     <trd>zwi&aogonek;zek romantyczny</trd>
   </trdgrp>
   <trd lng="ru">&c_l;&c_ju;&c_b;&c_o;&c_v;&c_n;&c_a;&c_ja; <ind>&c_s;&c_v;&c_ja;&c_z;&c_mol;</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#x66A7;&#26151;&#20851;&#x7CFB; <pr>&#xE0;im&#xE8;igu&amacron;nx&#xEC;</pr></trd>,
+    <trd>&#x66D6;&#26151;&#x95DC;&#x4FC2; <pr>&#xE0;im&#xE8;igu&amacron;nx&#xEC;</pr></trd>,
+    <trd>&#x604B;&#29233; <pr>li&#xE0;n&#xE0;i</pr></trd>,
+    <trd>&#25088;&#x611B; <pr>li&#xE0;n&#xE0;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rilat.ia0e">
@@ -906,7 +986,18 @@
       <trd>irgendwie</trd>,
       <trd>gewisserma&szlig;en</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#22312;&#x67D0;&#x79CD;&#x610F;&#x4E49;&#x4E0A;
+    <pr>z&#xE0;im&#x1D2;uzh&#x1D2;ngy&#xEC;y&#xEC;sh&#xE0;ng</pr></trd>,
+    <trd>&#22312;&#x67D0;&#x7A2E;&#x610F;&#x7FA9;&#x4E0A;
+    <pr>z&#xE0;im&#x1D2;uzh&#x1D2;ngy&#xEC;y&#xEC;sh&#xE0;ng</pr></trd>,
+    <trd>&#x591A;&#x591A;&#x5C11;&#x5C11; <pr>du&#x14D;du&#x14D;sh&#x1CE;osh&#x1CE;o</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="be">
+    <trd>&c_u; &c_p;&c_e;&c_w;&c_n;&c_y;&c_m; <ind>&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_ib;</ind></trd>,
+    <trd>&c_u; &c_p;&c_e;&c_w;&c_n;&c_y;&c_m; <ind>&c_s;&c_e;&c_n;&c_mol;&c_s;&c_je;</ind></trd>
+  </trdgrp>
   <trd lng="fr">en quelque sorte</trd>
   <trd lng="pl">w pewnym  <ind>sensie</ind></trd>
 </drv>
@@ -953,6 +1044,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_u;&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_s;&c_t;&c_a;&c_s;&c_u;&c_n;&c_a;&c_k; <klr>(&c_u;&c_z;&c_a;&c_je;&c_m;&c_n;&c_y;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>souvislost</trd>,
     <trd>styk</trd>,
@@ -1024,6 +1119,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_t;&c_v;&c_a;&c_r;&c_a;&c_c;&c_mol; <ind>&c_s;&c_u;&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
+  </trdgrp>
   <trd lng="fr">mettre en <ind>relation</ind></trd>
   <trdgrp lng="pl">
     <trd>powi&aogonek;za&cacute;</trd>,
@@ -1067,6 +1166,10 @@
 -->
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_v;&c_a;&c_r;&c_a;&c_c;&c_mol; <ind>&c_s;&c_u;&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</ind> <klr>(&c_p;&c_a;&c_m;&c_ib;&c_zh;&c_s;&c_o;&c_b;&c_k;&c_u;)</klr></trd>
+  </trdgrp>
   <trd lng="fr">se mettre en <ind>relation</ind></trd>
   <trd lng="pl">odnosi&cacute; si&eogonek;</trd>
 </drv>
@@ -1101,6 +1204,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_z;&c_mol;&c_v;&c_ja;&c_z;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_d;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_d;&c_a;&c_r;&c_e;&c_ch;&c_n;&c_y;</trd>
+  </trdgrp>
   <trd lng="fr">non concern&eacute;</trd>
   <trd lng="pl">niezwi&aogonek;zany</trd>
 </drv>
@@ -1124,6 +1232,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_b;&c_je;&c_z; <ind>&c_d;&c_a;&c_ch;&c_y;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_ja;</ind> &c_d;&c_a;</trd>
   <trd lng="fr">sans lien avec</trd>
   <trd lng="pl">bez  <ind>zwi&aogonek;zku</ind></trd>
 </drv>
@@ -1164,6 +1273,12 @@
     </trdgrp>
     <trd lng="ru">&c_o;&c_t;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je; &c_e;&c_k;&c_v;&c_i;&c_v;&c_a;&c_l;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
   </snc>
+  <trdgrp lng="zh">
+    <trd>&#x7B49;&#x4EF7;&#20851;&#x7CFB; <pr>d&#x11B;ngji&#xE0;gu&amacron;nxi</pr></trd>,
+    <trd>&#x7B49;&#x50F9;&#x95DC;&#x4FC2; <pr>d&#x11B;ngji&#xE0;gu&amacron;nxi</pr></trd>,
+    <trd>&#x7B49;&#x4EF7;&#20851;&#x7CFB; <pr>d&#x11B;ngji&#xE0;gu&amacron;nx&#xEC;</pr></trd>,
+    <trd>&#x7B49;&#x50F9;&#x95DC;&#x4FC2; <pr>d&#x11B;ngji&#xE0;gu&amacron;nx&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rilat.idento0o">
@@ -1388,6 +1503,9 @@
 </art>
 <!--
 $Log$
+versio 1.89 2024/04/30 07:22:34
+Dmitri Gabinski: + trd be
+
 versio 1.87 2023/10/21 05:38:06
 revo: transskribo per <pr>
 
@@ -1407,8 +1525,5 @@ versio 1.81 2023/04/07 16:34:05
 Paul Peeraerts: &Monato;/
 
 versio 1.80 2023/02/18 14:26:59
-Wolfram Diestel: +trd de
-
-versio 1.79 2023/02/16 04:34:23
 -->
 </vortaro>

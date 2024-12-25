@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: te.xml,v 1.47 2023/10/21 13:02:26 revo Exp $">
+<art mrk="$Id: te.xml,v 1.50 2024/12/11 08:37:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>te</rad>/o <fnt><bib>PV</bib></fnt>
@@ -156,7 +156,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_b;&c_je;&c_l;&c_a;&c_ja; <ind>&c_g;&c_a;&c_r;&c_b;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="fr">th&eacute; blanc</trd>
+  <trd lng="pl">herbata bia&lstroke;a</trd>
 </drv>
 
 <drv mrk="te.nigra0o">
@@ -194,7 +196,16 @@
     Tial en internacia uzo &leftquot;nigra <tld/>o&rightquot; povas esti malklara.
     <aut>&jcirc;v</aut>
   </rim>
+  <trd lng="be">&c_ch;&c_o;&c_r;&c_n;&c_a;&c_ja; <ind>&c_g;&c_a;&c_r;&c_b;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="fr">th&eacute; noir</trd>
+  <trdgrp lng="pl">
+    <trd>herbata czarna</trd>,
+    <trd>herbata czerwona</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7D05;&#33590; <pr>h&#xF3;ngch&#xE1;</pr></trd>,
+    <trd>&#x7EA2;&#33590; <pr>h&#xF3;ngch&#xE1;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="te.verda0o">
@@ -216,7 +227,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_z;&c_ja;&c_l;&c_jo;&c_n;&c_a;&c_ja; <ind>&c_g;&c_a;&c_r;&c_b;&c_a;&c_t;&c_a;</ind></trd>
   <trd lng="fr">th&eacute; vert</trd>
+  <trd lng="pl">herbata zielona</trd>
+  <trd lng="zh">&#x6E05;&#33590; <pr>q&#x12B;ngch&#xE1;</pr></trd>
 </drv>
 
 <drv mrk="te.0arbo">
@@ -251,12 +265,18 @@
     <trd lng="fr">th&eacute;ier</trd>
     <trd lng="hu">k&iacute;nai teacserje</trd>
     <trd lng="nl">theestruik</trd>
+    <trd lng="pl">krzew herbaciany</trd>
     <trdgrp lng="pt">
      <trd>ch&aacute;</trd>
     </trdgrp>
     <trd lng="ru">&c_ch;&c_a;&c_j; <klr tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
     <trd lng="tr">&ccedil;ay</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#33590;&#26641; <pr>ch&#xE1;sh&#xF9;</pr></trd>,
+    <trd>&#33590;&#x6A39; <pr>ch&#xE1;sh&#xF9;</pr></trd>,
+    <trd>&#x6A9F; <pr>ji&#x1CE;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="te.0arbo.australia">
     <uzo tip="fak">BOT</uzo>
     <dif>
@@ -286,7 +306,19 @@
         </fnt>
     </bld>
     <trd lng="de">Teebaum</trd>
-  </snc>
+    <trdgrp lng="pl">
+      <trd>drzewo <ind>herbaciane</ind></trd>,
+      <trd>melaleuka skr&eogonek;tolistna</trd>
+    </trdgrp>
+    <trdgrp lng="zh">
+    <trd>&#21315;&#x5C42;&#26641; <pr>qi&amacron;nc&#xE9;ngsh&#xF9;</pr></trd>,
+    <trd>&#21315;&#x5C64;&#x6A39; <pr>qi&amacron;nc&#xE9;ngsh&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
+  <trdgrp lng="be">
+    <trd>&c_ch;&c_a;&c_j;&c_n;&c_a;&c_je; <ind>&c_d;&c_r;&c_e;&c_v;&c_a;</ind></trd>,
+    <trd>&c_ch;&c_a;&c_j;&c_n;&c_y; <ind>&c_k;&c_u;&c_s;&c_t;</ind></trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x30C1;&#x30E3;</trd>,
     <trd>&#33590;&#x306E;&#26408;  <pr>&#12385;&#12419;&#x306E;&#x304D;</pr></trd>
@@ -296,6 +328,12 @@
 </art>
 <!--
 $Log$
+versio 1.50 2024/12/11 08:37:47
+Dmitri Gabinski: + trd be
+
+versio 1.48 2024/02/07 01:21:16
+Vito Redsky: +trd pl
+
 versio 1.47 2023/10/21 13:02:26
 revo: transskribo per <pr>
 
@@ -312,11 +350,5 @@ versio 1.42 2022/04/12 11:28:47
 Ulrich Fellmann: teo: +5 pliaj DE tradukoj
 
 versio 1.40 2021/07/03 15:33:08
-Wolfram Diestel: ekz-oj, bld-oj
-
-versio 1.39 2021/06/26 15:36:22
-Wolfram Diestel: anst. drv ~masxino nur ref al masxin/ (jam estis tie difinita)
-
-versio 1.38 2020/12/29 08:10:48
 -->
 </vortaro>

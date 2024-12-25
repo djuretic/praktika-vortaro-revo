@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxtat.xml,v 1.45 2023/12/22 23:27:53 revo Exp $">
+<art mrk="$Id: sxtat.xml,v 1.48 2024/11/13 23:25:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&scirc;tat</rad>/o <fnt><bib>PV</bib></fnt>
@@ -38,6 +38,7 @@
   <trd lng="es">estado</trd>
   <trd lng="fr">&Eacute;tat</trd>
   <trd lng="hu">&aacute;llam</trd>
+  <trd lng="id">negara</trd>
   <trd lng="it">stato<klr> (pol.)</klr></trd>
   <trdgrp lng="ja">
     <trd>&#x56FD;&#x5BB6;  <pr>&#12371;&#12387;&#x304B;</pr></trd>,
@@ -54,6 +55,11 @@
   <trd lng="sv">stat</trd>
   <trd lng="tr">devlet</trd>
   <trd lng="uk">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_v;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x793E;&#x7A37; <pr>sh&#xE8;j&#xEC;</pr></trd>,
+    <trd>&#x56FD;&#x5EA6; <pr>gu&#xF3;d&#xF9;</pr></trd>,
+    <trd>&#x570B;&#x5EA6; <pr>gu&#xF3;d&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxtat.0a">
@@ -61,7 +67,17 @@
   <snc mrk="sxtat.0a.POL">
     <dif>
       Apartenanta al la <tld/>o, administrata de la <tld/>o,
-      rilata al la <tld/>o.
+      rilata al la <tld/>o:
+      <ekz>
+        kelkaj grandsinjoroj polaj <klr>[&#8230;]</klr> konspiris, por nuligi &ccirc;i tiun tre liberalan
+        <tld/>an reformon
+        <fnt>
+          <bib></bib>
+          <aut>Antoni Grabowski</aut>
+          <vrk>Noto en: Sinjoro Tadeo</vrk>
+          <lok>1918</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="ca">estatal</trd>
@@ -70,12 +86,13 @@
   <trd lng="es">estatal</trd>
   <trdgrp lng="fr">
     <trd>&eacute;tatique</trd>,
-    <trd>nationale<klr> (&eacute;tatique)</klr></trd>
+    <trd>national<klr> (&eacute;tatique)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>&aacute;llami</trd>,
     <trd>&aacute;llam-</trd>
   </trdgrp>
+  <trd lng="id"><baz>negara</baz>kenegaraan</trd>
   <trd lng="it">statale</trd>
   <trdgrp lng="ja">
     <trd>&#x56FD;&#x5BB6;&#x306E;  <pr>&#12371;&#12387;&#x304B;&#x306E;</pr></trd>,
@@ -88,6 +105,12 @@
   <trd lng="ru">&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sv">statlig</trd>
   <trd lng="uk">&c_d;&c_je;&c_r;&c_zh;&c_a;&c_v;&#x43D;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x56FD;&#33829; <pr>gu&#xF3;y&#xED;ng</pr></trd>,
+    <trd>&#x570B;&#x71DF; <pr>gu&#xF3;y&#xED;ng</pr></trd>,
+    <trd>&#x56FD;&#x7ACB; <pr>gu&#xF3;l&#xEC;</pr></trd>,
+    <trd>&#x570B;&#x7ACB; <pr>gu&#xF3;l&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxtat.0ano">
@@ -100,7 +123,7 @@
         <ref tip="sub" cel="civit.0ano">civitano</ref>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="reg.0ato">regato</ref>
+    <ref tip="vid" cel="reg.0ato">regato</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_r;&c_a;&c_m;&c_a;&c_d;&c_z;&c_ja;&c_n;&c_ib;&c_n;</trd>,
@@ -116,6 +139,7 @@
     <trd>ressortissant</trd>
   </trdgrp>
   <trd lng="hu">&aacute;llampolg&aacute;r</trd>
+  <trd lng="id"><ind>warga</ind> negara</trd>
   <trd lng="it">cittadino<klr> (di stato)</klr></trd>
   <trdgrp lng="nl">
     <trd>staatsburger</trd>,
@@ -127,6 +151,11 @@
     <trd>&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_i;&c_n;</trd>
   </trdgrp>
   <trd lng="uk">&c_g;&c_r;&#x43E;&#x43C;&c_a;&c_d;&#x44F;&#x43D;&c_i;&#x43D;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x56FD;&#x6C11; <pr>gu&#xF3;m&#xED;n</pr></trd>,
+    <trd>&#x570B;&#x6C11; <pr>gu&#xF3;m&#xED;n</pr></trd>,
+    <trd>&#x516C;&#x6C11; <pr>g&#x14D;ngm&#xED;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxtat.0eto">
@@ -149,8 +178,7 @@
       </ekz>
       <ekz>
         &leftquot;mikro&scirc;tatoj&rightquot; &#8208; per tiu termino mi celas la sepdekon da <tld/>etoj, kies
-        areo
-        estas malpli ol milo da kvadrataj kilometroj
+        areo estas malpli ol milo da kvadrataj kilometroj
         <fnt>
           <aut>Garvan Makaj'</aut>
           <vrk><url ref="&Monato;/2008/009581.php">Viziti mikro&scirc;tatojn</url></vrk>
@@ -164,6 +192,10 @@
     <trd lng="de">Mikrostaat</trd>
     <trd lng="en">microstate</trd>
     <trd lng="fr">micro-&Eacute;tat</trd>
+  <trdgrp lng="id">
+    <trd><ind>negara</ind> mikro</trd>,
+    <trd><ind>negara</ind> mini</trd>
+  </trdgrp>
   </snc>
   <snc mrk="sxtat.0eto.subsxtato">
     <dif>
@@ -190,6 +222,7 @@
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="id"><ind>daerah</ind> tingkat 1</trd>
   </snc>
     <trd lng="be">&c_sh;&c_t;&c_a;&c_t; <klr tip="amb">(&c_u; &c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_v;&c_je;)</klr></trd>
     <trd lng="de">Gliedstaat</trd>
@@ -217,6 +250,10 @@
   <trd lng="de">Etatismus</trd>
   <trd lng="fr">&eacute;tatisme</trd>
   <trd lng="hu">etatizmus</trd>
+  <trdgrp lng="id">
+    <trd>etatisme</trd>,
+    <trd>statisme</trd>
+  </trdgrp>
   <trd lng="it">statalismo</trd>
   <trdgrp lng="ja">
     <trd>&#x56FD;&#x5BB6;&#x4E3B;&#x7FA9;  <pr>&#12371;&#12387;&#x304B;&#12375;&#12421;&#x304E;</pr></trd>,
@@ -228,6 +265,12 @@
     <trd>&c_je;&c_t;&c_a;&c_t;&c_i;&c_z;&#x43C;</trd>,
     <trd>&c_u;&c_ch;&c_a;&c_s;&c_t;&#x44C; &c_d;&c_je;&c_r;&c_zh;&c_a;&c_v;&c_i; &c_v; &c_u;&#x43F;&c_r;&c_a;&c_v;&#x43B;&c_ib;&#x43D;&#x43D;&c_ib;
     &c_je;&#x43A;&#x43E;&#x43D;&#x43E;&#x43C;&c_ib;&#x43A;&#x43E;&#x44E;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4E2D;&#x592E;&#x96C6;&#26435;&#x4E3B;&#x4E49;
+    <pr>zh&#x14D;ngy&amacron;ngj&#xED;qu&#xE1;nzh&#x1D4;y&#xEC;</pr></trd>,
+    <trd>&#x4E2D;&#x592E;&#x96C6;&#x6B0A;&#x4E3B;&#x7FA9;
+    <pr>zh&#x14D;ngy&amacron;ngj&#xED;qu&#xE1;nzh&#x1D4;y&#xEC;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -255,6 +298,10 @@
   <trd lng="be">&c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_w;&c_n;&c_ib;&c_k;</trd>
   <trd lng="ca">estadista</trd>
   <trd lng="fr">homme d'&Eacute;tat</trd>
+  <trdgrp lng="id">
+    <trd>negarawan</trd>,
+    <trd><ind>ahli</ind> kenegaraan</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x653F;&#x6CBB;&#x5BB6;  <pr>&#x305B;&#12356;&#12376;&#x304B;</pr></trd>,
     <trd>&#x56FD;&#x5BB6;&#x4E3B;&#x7FA9;&#32773;  <pr>&#12371;&#12387;&#x304B;&#12375;&#12421;&#x304E;&#12375;&#12419;</pr></trd>
@@ -264,6 +311,7 @@
     <trd>&#x43F;&c_r;&c_i;&c_h;&c_i;&#x43B;&#x44C;&#x43D;&c_i;&#x43A; &c_je;&c_t;&c_a;&c_t;&c_i;&c_z;&#x43C;&c_u;</trd>,
     <trd>&c_d;&c_je;&c_r;&c_zh;&c_a;&c_v;&#x43D;&c_i;&c_j; &#x43C;&c_u;&c_zh;</trd>
   </trdgrp>
+  <trd lng="zh">&#x653F;&#x6CBB;&#x5BB6; <pr>zh&#xE8;ngzh&#xEC;ji&amacron;</pr></trd>
 </drv>
 
 <drv mrk="sxtat.al0igo">
@@ -272,7 +320,17 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       Transmeto de io el privata en <tld/>an posedon
-      a&ubreve; administradon.
+      a&ubreve; administradon:
+      <ekz>
+        en 1929, dum al<tld/>igo de la kolektoj de akad. N.P. Li&hcirc;a&ccirc;ov,
+        prof. A.S. Orlov erare klasis pergamenan psalmaron etiopan kiel manuskripton glagolican
+        <fnt>
+          <aut>Sergio Pokrovskij</aut>
+          <vrk><url ref="https://kovro.heliohost.org/eo/artikoloj/Slavonaj_skriboj.pdf">Slavonaj
+          skriboj</url></vrk>
+          <lok>La Ondo de Esperanto, 1998:12 kaj 1999:1&ndash;4</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="ant" cel="sxtat.de0igo.POL">de<tld/>igo</ref>
   </snc>
@@ -285,12 +343,20 @@
   <trd lng="es">nacionalizaci&oacute;n</trd>
   <trd lng="fr">nationalisation</trd>
   <trd lng="hu">&aacute;llamos&iacute;t</trd>
+  <trdgrp lng="id">
+    <trd><baz>nasional</baz>penasionalan</trd>,
+    <trd>nasionalisasi</trd>
+  </trdgrp>
   <trd lng="it">nazionalizzazione</trd>
   <trd lng="nl">nationalisatie</trd>
   <trd lng="pl">nacjonalizacja</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_i;&c_z;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_o;&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x56FD;&#26377;&#21270; <pr>gu&#xF3;y&#x1D2;uhu&#xE0;</pr></trd>,
+    <trd>&#x570B;&#26377;&#21270; <pr>gu&#xF3;y&#x1D2;uhu&#xE0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -316,6 +382,7 @@
   <trd lng="be">&c_b;&c_u;&c_f;&c_e;&c_r;&c_n;&c_a;&c_ja; <ind>&c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_v;&c_a;</ind></trd>
   <trd lng="ca">estat coix&iacute;</trd>
   <trd lng="fr">&Eacute;tat tampon</trd>
+  <trd lng="id"><ind>negara</ind> penyangga</trd>
   <trd lng="it">stato<klr> cuscinetto</klr></trd>
   <trd lng="ja">&#x7DE9;&#x885D;&#x56FD;  <pr>&#x304B;&#12435;&#12375;&#12423;&#12358;&#12371;&#x304F;</pr></trd>
   <trd lng="pl">pa&nacute;stwo buforowe</trd>
@@ -353,6 +420,12 @@
     <trd>mag&aacute;nos&iacute;t&aacute;s</trd>,
     <trd>privatiz&aacute;l&aacute;s</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>swasta</baz>penswastaan</trd>,
+    <trd>swastanisasi</trd>,
+    <trd>denasionalisasi</trd>,
+    <trd>privatisasi</trd>
+  </trdgrp>
   <trd lng="it">privatizzazione<klr> (di beni dello stato)</klr></trd>
   <trd lng="ja">&#x975E;&#x56FD;&#26377;&#21270;  <pr>&#12402;&#12371;&#x304F;&#12422;&#12358;&#x304B;</pr></trd>
   <trd lng="nl">denationalisatie</trd>
@@ -363,6 +436,11 @@
   <trdgrp lng="ru">
     <trd>&c_d;&c_je;&c_n;&c_a;&c_c;&c_i;&c_o;&c_n;&c_a;&c_l;&c_i;&c_z;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x79C1;&#26377;&#21270; <pr>s&#x12B;y&#x1D2;uhu&#xE0;</pr></trd>,
+    <trd>&#x6C11;&#x71DF;&#21270; <pr>m&#xED;ny&#xED;nghu&#xE0;</pr></trd>,
+    <trd>&#x6C11;&#33829;&#21270; <pr>m&#xED;ny&#xED;nghu&#xE0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -411,6 +489,10 @@
   <trd lng="en">international</trd>
   <trd lng="fr">international</trd>
   <trd lng="hu">&aacute;llamk&ouml;zi</trd>
+  <trdgrp lng="id">
+    <trd>internasional</trd>,
+    <trd>antarbangsa</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>sovranazionale</trd>,
     <trd>internazionale</trd>
@@ -421,6 +503,14 @@
   <trdgrp lng="ru">
     <trd>&c_m;&c_je;&c_zh;&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_m;&c_je;&c_zh;&c_d;&c_u;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x56FD;&#38469;&#24615; <pr>gu&#xF3;j&#xEC;x&#xEC;ng</pr></trd>,
+    <trd>&#x570B;&#x969B;&#24615; <pr>gu&#xF3;j&#xEC;x&#xEC;ng</pr></trd>,
+    <trd>&#x56FD;&#38469; <pr>gu&#xF3;j&#xEC;</pr></trd>,
+    <trd>&#x570B;&#x969B; <pr>gu&#xF3;j&#xEC;</pr></trd>,
+    <trd>&#x56FD;&#38469;&#x4E0A; <pr>gu&#xF3;j&#xEC;sh&#xE0;ng</pr></trd>,
+    <trd>&#x570B;&#x969B;&#x4E0A; <pr>gu&#xF3;j&#xEC;sh&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -453,6 +543,7 @@
   <trd lng="de">Mitgliedsstaat</trd>
   <trd lng="fr">&Eacute;tat membre<klr> (d'une organisation)</klr></trd>
   <trd lng="hu">tag&aacute;llam</trd>
+  <trd lng="id"><ind>negara</ind> anggota</trd>
   <trd lng="ja">&#x52A0;&#x76DF;&#x56FD;  <pr>&#x304B;&#12417;&#12356;&#12371;&#x304F;</pr></trd>
   <trd lng="nl">lidstaat</trd>
   <trd lng="pl">pa&nacute;stwo cz&lstroke;onkowskie</trd>
@@ -460,6 +551,47 @@
     <trd>&c_s;&c_t;&c_r;&c_a;&c_n;&c_a;-&c_u;&c_ch;&c_a;&c_s;&c_t;&c_n;&c_i;&c_c;&c_a;</trd>,
     <trd>&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;-&c_ch;&c_l;&c_je;&c_n;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25104;&#21592;&#x56FD; <pr>ch&#xE9;ngyu&#xE1;ngu&#xF3;</pr></trd>,
+    <trd>&#25104;&#x54E1;&#x570B; <pr>ch&#xE9;ngyu&#xE1;ngu&#xF3;</pr></trd>,
+    <trd>&#x4F1A;&#21592;&#x56FD; <pr>hu&#xEC;yu&#xE1;ngu&#xF3;</pr></trd>,
+    <trd>&#26371;&#x54E1;&#x570B; <pr>hu&#xEC;yu&#xE1;ngu&#xF3;</pr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="sxtat.sen0ulo">
+  <kap>sen<tld/>ulo,
+  <var><kap>sen<tld/>ano</kap> <uzo tip="stl">EVI</uzo></var></kap>
+  <snc mrk="sxtat.sen0ulo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Tiu, kiu ne havas <tld/>anecon, ne estas rajtigita civitano de iu &scirc;tato:
+      <ekz>
+        la ordeno celas honori la rusojn, alilandanojn kaj sen<tld/>ulojn
+        kiuj faris kontribuon al la Granda Patriota Milito de Sovetunio
+        <fnt>
+          <aut>Xie Ruifeng</aut>
+          <vrk><url ref="http://esperanto.china.org.cn/2015-04/16/content_35340515.htm">
+          Rusio honoris 32 &ccirc;inojn per la Ordeno de la Granda Patriota Milito</url></vrk>
+          <lok>China.org.cn, 2015-04-16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        esti sen<tld/>ano ofte signifas, ke vi ne povas malfermi bankkonton,
+        registri poseda&jcirc;on, geedzi&gcirc;i, registri infanon en lernejo
+        <fnt>
+          <aut>A. Pestova, trad. H. Deke&ubreve;nink</aut>
+          <vrk><url ref="https://eo.globalvoices.org/2024/11/14840/">
+          Kiam ne ekzistas patrio: sen&scirc;tatanoj de la eksa Sovetunio</url></vrk>
+          <lok>Global Voices, 2024-11-07</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="paspor.sen0ulo.POL">senpasportulo</ref>
+  </refgrp>
+  <trd lng="fr">apatride<klr> (subst.)</klr></trd>
 </drv>
 
 <drv mrk="sxtat.sub0o">
@@ -479,11 +611,19 @@
   </trdgrp>
   <trd lng="fr">&Eacute;tat<klr> (d'une f&eacute;d&eacute;ration)</klr></trd>
   <trd lng="hu">sz&ouml;vets&eacute;gi &aacute;llam</trd>
+  <trd lng="id"><ind>daerah</ind> tingkat 1</trd>
   <trd lng="it">stato<klr> (di confederazione)</klr></trd>
   <trd lng="ja">&#x5DDE;  <pr>&#12377;</pr></trd>
   <trd lng="pl">stan</trd>
   <trd lng="pt">ente federativo</trd>
   <trd lng="ru">&c_sh;&c_t;&c_a;&c_t;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5FB7;&#x56FD;&#32852;&#x90A6;&#x5DDE; <pr>d&#xE9;gu&#xF3;li&#xE1;nb&amacron;ngzh&#x14D;u</pr></trd>,
+    <trd>&#x5FB7;&#x570B;&#x806F;&#x90A6;&#x5DDE;
+    <pr>d&#xE9;gu&#xF3;li&#xE1;nb&amacron;ngzh&#x14D;u</pr></trd>,
+    <trd>&#32852;&#x90A6;&#x5DDE; <pr>li&#xE1;nb&amacron;ngzh&#x14D;u</pr></trd>,
+    <trd>&#x806F;&#x90A6;&#x5DDE; <pr>li&#xE1;nb&amacron;ngzh&#x14D;u</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxtat.urbo0o">
@@ -533,7 +673,10 @@
   </trdgrp>
   <trd lng="en">polis</trd>
   <trd lng="fr">polis</trd>
-  <trd lng="id">polis</trd>
+  <trdgrp lng="id">
+    <trd>polis</trd>,
+    <trd><ind>negara</ind> kota</trd>
+  </trdgrp>
   <trd lng="pl">miasto-pa&nacute;stwo</trd>
   <trd lng="ru">&c_p;&c_o;&#769;&c_l;&c_i;&c_s;</trd>
 </drv>
@@ -541,8 +684,14 @@
 </art>
 <!--
 $Log$
+versio 1.48 2024/11/13 23:25:43
+Jeromo Vasxe: + sen~ul/ano, + kk ekz
+
+versio 1.47 2024/05/04 10:25:14
+Eko Nur Syah Hidayat: +trd id
+
 versio 1.45 2023/12/22 23:27:53
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.44 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -557,11 +706,5 @@ versio 1.40 2023/05/02 21:23:58
 Paul Peeraerts: esperanto.be -> &Monato;
 
 versio 1.39 2023/04/20 06:33:36
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.38 2023/04/18 15:30:49
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.37 2023/04/10 11:22:24
 -->
 </vortaro>

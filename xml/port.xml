@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: port.xml,v 1.135 2023/12/12 20:10:26 revo Exp $">
+<art mrk="$Id: port.xml,v 1.140 2024/08/07 18:34:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>port</rad>/i
@@ -66,7 +66,14 @@
         <trd>llevar</trd>,
         <trd>cargar con <klr tip="amb">(peso)</klr></trd>
       </trdgrp>
-      <trd lng="id">mem<ind>bawa</ind></trd>
+      <trdgrp lng="id">
+        <trd><baz>bopong</baz>membopong</trd>,
+        <trd><baz>gandar</baz>menggandar</trd>,
+        <trd><baz>gendong</baz>menggendong</trd>,
+        <trd><baz>julang</baz>menjulang</trd>,
+        <trd><baz>panggul</baz>memanggul</trd>,
+        <trd><baz>pikul</baz>memikul</trd>
+      </trdgrp>
       <trdgrp lng="ru">
         <trd>&c_n;&c_je;&c_s;&c_t;&c_i;</trd>,
         <trd>&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
@@ -92,6 +99,10 @@
         </fnt>.
       </ekz>
       </dif>
+    <trdgrp lng="id">
+      <trd><baz>kena</baz>mengenakan</trd>,
+      <trd><baz>pakai</baz>memakai</trd>
+    </trdgrp>
     </subsnc>
     <ref tip="sin" cel="port.kun0i.kun_si">kun<tld/>i<sncref/></ref>
     <trdgrp lng="de">
@@ -99,10 +110,7 @@
       <trd>tragen</trd>
     </trdgrp>
     <trd lng="es">llevar <klr tip="amb">(consigo o puesto)</klr></trd>
-    <trdgrp lng="id">
-      <trd><baz>pakai</baz>memakai</trd>,
-      <trd><baz>kena</baz>mengenakan</trd>
-    </trdgrp>
+    <trd lng="id"><baz>bawa</baz>membawa</trd>
     <trdgrp lng="ru">
       <trd>&c_n;&c_je;&c_s;&c_t;&c_i;</trd>,
       <trd>&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
@@ -143,8 +151,8 @@
       <trd>traer</trd>
     </trdgrp>
     <trdgrp lng="id">
-      <trd>meng<ind>antar</ind></trd>,
-      <trd>mem<ind>bawa</ind>kan</trd>
+      <trd><baz>antar</baz>mengantar</trd>,
+      <trd><baz>bawa</baz>membawakan</trd>
     </trdgrp>
     <trd lng="ru">&c_n;&c_je;&c_s;&c_t;&c_i;</trd>
   </snc>
@@ -309,7 +317,7 @@
   <trd lng="lat">ferte</trd>
   <trd lng="lo">&#xE9B;&#xEB0;&#xE95;&#xEB4;&#xE9A;&#xEB1;&#xE94;&#xE81;&#xEB2;&#xE99;</trd>
   <trd lng="lt">vykdyti</trd>
-  <trd lng="lv">p&#257;rvad&#x15D1;t</trd>
+  <trd lng="lv">p&amacron;rvad&amacron;t</trd>
   <trd lng="mg">mitondra</trd>
   <trd lng="mi">kawe</trd>
   <trd lng="mk">&c_n;&c_o;&c_s;&c_a;&c_t;</trd>
@@ -362,6 +370,17 @@
   <trd lng="xh">ukwenza</trd>
   <trd lng="yi">&pe;&yod;&resh;&fnun;</trd>
   <trd lng="yo">gbe</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4F69;&#x5E26; <pr>p&#xE8;id&#xE0;i</pr></trd>,
+    <trd>&#x4F69;&#x5E36; <pr>p&#xE8;id&#xE0;i</pr></trd>,
+    <trd>&#x4F57; <pr>tu&#xF3;</pr></trd>,
+    <trd>&#x4F69;&#25140; <pr>p&#xE8;id&#xE0;i</pr></trd>,
+    <trd>&#x510B; <pr>d&amacron;n</pr></trd>,
+    <trd>&#x5B73; <pr>z&#x12B;</pr></trd>,
+    <trd>&#24905; <pr>x&#xF9;</pr></trd>,
+    <trd>&#x627F; <pr>ch&#xE9;ng</pr></trd>,
+    <trd>&#x627F;&#x53D7; <pr>ch&#xE9;ngsh&#xF2;u</pr></trd>
+  </trdgrp>
   <trd lng="zu">athwale</trd>
 </drv>
 
@@ -402,17 +421,29 @@
   </trdgrp>
   <trd lng="fr">charge<klr> (port&eacute;e)</klr></trd>
   <trdgrp lng="id">
-    <trd><ind>bawa</ind>an</trd>,
+    <trd><baz>bawa</baz>bawaan</trd>,
     <trd>beban</trd>,
-    <trd><ind>muat</ind>an</trd>,
-    <trd><ind>tanggung</ind>an</trd>
+    <trd><baz>muat</baz>muatan</trd>,
+    <trd><baz>tanggung</baz>tanggungan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x643A;&#x884C;&#x54C1;  <pr>&#12369;&#12356;&#12371;&#12358;&#12375;&#x306A;</pr></trd>,
     <trd>&#x643A;&#x5E2F;&#x54C1;  <pr>&#12369;&#12356;&#x305F;&#12356;&#12402;&#12435;</pr></trd>,
     <trd>&#33655;&#29289;  <pr>&#x306B;&#12418;&#12388;</pr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>&lstroke;adunek</trd>,
+    <trd>ci&eogonek;&zdot;ar</trd>
+  </trdgrp>
   <trd lng="uk">&c_n;&c_o;&c_sh;&c_a;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21253;&#x88B1; <pr>b&amacron;ofu</pr></trd>,
+    <trd>&#x8CA0;&#33655; <pr>f&#xF9;h&#xE8;</pr></trd>,
+    <trd>&#x8D1F;&#33655; <pr>f&#xF9;h&#xE8;</pr></trd>,
+    <trd>&#33655; <pr>h&#xE8;</pr></trd>,
+    <trd>&#x8CA0;&#x64D4; <pr>f&#xF9;d&amacron;n</pr></trd>,
+    <trd>&#x8D1F;&#x62C5; <pr>f&#xF9;d&amacron;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.0igxi">
@@ -468,7 +499,7 @@
     <trd>flotter</trd>
   </trdgrp>
   <trd lng="hu">sodr&oacute;dik</trd>
-  <trd lng="id">ter<ind>bawa</ind></trd>
+  <trd lng="id"><baz>bawa</baz>terbawa</trd>
   <trdgrp lng="ja">
     <trd>&#x6F02;&#12358;  <pr>&#x305F;&#12384;&#12424;&#12358;</pr></trd>,
     <trd>&#x6D6E;&#x304F;  <pr>&#12358;&#x304F;</pr></trd>
@@ -478,6 +509,14 @@
   <trdgrp lng="ru">
     <trd>&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_n;&c_je;&c_s;&c_t;&c_i;&c_s;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x98C4;&#x52D5; <pr>pi&amacron;od&#xF2;ng</pr></trd>,
+    <trd>&#x98D8;&#x52A8; <pr>pi&amacron;od&#xF2;ng</pr></trd>,
+    <trd>&#x98BB; <pr>y&#xE1;o</pr></trd>,
+    <trd>&#x98D6; <pr>y&#xE1;o</pr></trd>,
+    <trd>&#33633;&#x6F3E; <pr>d&#xE0;ngy&#xE0;ng</pr></trd>,
+    <trd>&#34153;&#x6F3E; <pr>d&#xE0;ngy&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -566,9 +605,9 @@
     <trd>gyaloghint&oacute;</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>pem<ind>bawa</ind></trd>,
-    <trd>tandu</trd>
-    <trd><ind>usung</ind>an</trd>
+    <trd><baz>bawa</baz>pembawa</trd>,
+    <trd>tandu</trd>,
+    <trd><baz>usung</baz>usungan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x904B;&#x642C;&#20855;  <pr>&#12358;&#12435;&#12401;&#12435;&#12368;</pr></trd>,
@@ -584,6 +623,16 @@
   <trd lng="ru">&c_n;&c_o;&c_s;&c_i;&c_l;&c_k;&c_i;</trd>
   <trd lng="sk">nosidlo</trd>
   <trd lng="uk">&c_n;&c_o;&c_s;&c_i;&c_l;&c_k;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62C5;&#x67B6; <pr>d&amacron;nji&#xE0;</pr></trd>,
+    <trd>&#x64D4;&#x67B6; <pr>d&amacron;nji&#xE0;</pr></trd>,
+    <trd>&#x8F4E; <pr>ji&#xE0;o</pr></trd>,
+    <trd>&#x8F7F; <pr>ji&#xE0;o</pr></trd>,
+    <trd>&#x8F4E;&#x5B50; <pr>ji&#xE0;ozi</pr></trd>,
+    <trd>&#x8F7F;&#x5B50; <pr>ji&#xE0;ozi</pr></trd>,
+    <trd>&#x6B65;&#x8F26; <pr>b&#xF9;ni&#x1CE;n</pr></trd>,
+    <trd>&#x6B65;&#x8F87; <pr>b&#xF9;ni&#x1CE;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.0isto">
@@ -664,8 +713,8 @@
     <trd>sz&aacute;ll&iacute;t&oacute;munk&aacute;s</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>peng<ind>antar</ind> (barang)</trd>,
-    <trd>pem<ind>bawa</ind></trd>,
+    <trd><baz>antar</baz>pengantar<klr> (barang)</klr></trd>,
+    <trd><baz>bawa</baz>pembawa</trd>,
     <trd>porter</trd>,
     <trd>pramuantar</trd>,
     <trd>pramubarang</trd>
@@ -687,6 +736,13 @@
   <trdgrp lng="uk">
     <trd>&c_n;&c_o;&c_s;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_n;&c_o;&c_s;&c_ib;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25361;&#x592B; <pr>ti&amacron;of&#x16B;</pr></trd>,
+    <trd>&#x642C;&#x8FD0;&#x5DE5; <pr>b&amacron;ny&#xF9;ng&#x14D;ng</pr></trd>,
+    <trd>&#x642C;&#x904B;&#x5DE5; <pr>b&amacron;ny&#xF9;ng&#x14D;ng</pr></trd>,
+    <trd>&#x811A;&#x592B; <pr>ji&#x1CE;of&#x16B;</pr></trd>,
+    <trd>&#33139;&#x592B; <pr>ji&#x1CE;of&#x16B;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -759,6 +815,7 @@
         <ind>unu hirundo printempon ne al<tld/>as</ind>
         <trd lng="fr">une hirondelle ne fait pas le printemps</trd>
         <trd lng="hu">egy fecske nem csin&aacute;l nyarat</trd>
+        <trd lng="pl">jedna jask&oacute;&lstroke;ka wiosny nie czyni</trd>
         <trd lng="tr">bir &ccedil;i&ccedil;ekle bahar gelmez</trd>
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
@@ -876,9 +933,10 @@
   <trd lng="ht">pote</trd>
   <trd lng="hy">&#1378;&#1381;&#1408;&#1381;&#x56C;</trd>
   <trdgrp lng="id">
-    <trd>meng<ind>antar</ind>(kan)</trd>,
-    <trd>mem<ind>bawa</ind>kan</trd>,
-    <trd>men<ind>datang</ind>kan</trd>
+    <trd><baz>antar</baz>mengantar</trd>,
+    <trd><baz>antar</baz>mengantarkan</trd>,
+    <trd><baz>bawa</baz>membawakan</trd>,
+    <trd><baz>datang</baz>mendatangkan</trd>
   </trdgrp>
   <trd lng="ig">eme</trd>
   <trd lng="is">koma</trd>
@@ -912,8 +970,12 @@
   </trdgrp>
   <trd lng="ny">kubweretsa</trd>
   <trd lng="pa">&#xA32;&#xA3F;&#xA06;&#xA09;&#xA23;</trd>
-  <trd lng="pl">zanosi&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>przynie&sacute;&cacute;</trd>,
+    <trd>zanosi&cacute;</trd>
+  </trdgrp>
   <trd lng="ps">&a_r;&a_A;&a_w;&a_l;&a_y;</trd>
+  <trd lng="ro">aduce</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_n;&c_je;&c_s;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
@@ -947,6 +1009,12 @@
   <trd lng="xh">zizisa</trd>
   <trd lng="yi">&bet;&resh;&ayin;&nun;&gimel;&ayin;&fnun;</trd>
   <trd lng="yo">mu</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5E26;&#26469; <pr>d&#xE0;il&#xE1;i</pr></trd>,
+    <trd>&#x5E36;&#x4F86; <pr>d&#xE0;il&#xE1;i</pr></trd>,
+    <trd>&#x62FF;&#x4F86; <pr>n&#xE1;l&#xE1;i</pr></trd>,
+    <trd>&#x62FF;&#26469; <pr>n&#xE1;l&#xE1;i</pr></trd>
+  </trdgrp>
   <trd lng="zu">ukuletha</trd>
 </drv>
 
@@ -979,6 +1047,7 @@
     <trd>k&ouml;rbevisz</trd>,
     <trd>k&ouml;rbehordoz</trd>
   </trdgrp>
+  <trd lng="id"><baz>usung</baz>mengusung</trd>
   <trd lng="pl">obnosi&cacute;</trd>
 </drv>
 
@@ -1048,9 +1117,9 @@
     <trd>sz&eacute;thord</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>meng<ind>antar</ind>kan</trd>,
-    <trd>mem<ind>bagi</ind>kan</trd>,
-    <trd>men<ind>distribusi</ind>kan</trd>
+    <trd><baz>antar</baz>mengantarkan</trd>,
+    <trd><baz>bagi</baz>membagikan</trd>,
+    <trd><baz>distribusi</baz>mendistribusikan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x914D;&#x308B;  <pr>&#x304F;&#12400;&#x308B;</pr></trd>,
@@ -1068,6 +1137,14 @@
     <trd>da&gbreve;&inodot;tmak</trd>
   </trdgrp>
   <trd lng="uk">&c_r;&c_o;&c_z;&c_n;&c_o;&c_s;&c_i;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x53D1;&#x884C; <pr>f&amacron;x&#xED;ng</pr></trd>,
+    <trd>&#x767C;&#x884C; <pr>f&amacron;x&#xED;ng</pr></trd>,
+    <trd>&#x4FF5; <pr>bi&#x1CE;o</pr></trd>,
+    <trd>&#20998;&#x914D; <pr>f&emacron;np&#xE8;i</pr></trd>,
+    <trd>&#x7D93;&#x92B7; <pr>j&#x12B;ngxi&amacron;o</pr></trd>,
+    <trd>&#x7ECF;&#38144; <pr>j&#x12B;ngxi&amacron;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.el0i">
@@ -1124,7 +1201,7 @@
       <trd>kihord</trd>
     </trdgrp>
     <trdgrp lng="id">
-      <trd>meng<ind>ekspor</ind></trd>,
+      <trd><baz>ekspor</baz>mengekspor</trd>,
       <trd><baz>keluar</baz>mengeluarkan</trd>
     </trdgrp>
   </snc>
@@ -1175,7 +1252,13 @@
       <trd><baz>tanggung</baz>menanggung</trd>
     </trdgrp>
     <trd lng="nl">uithouden</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5FCD; <pr>r&#x11B;n</pr></trd>,
+    <trd>&#31105; <pr>j&#x12B;n</pr></trd>,
+    <trd>&#x5FCD;&#x53D7; <pr>r&#x11B;nsh&#xF2;u</pr></trd>,
+    <trd>&#x627F;&#x53D7; <pr>ch&#xE9;ngsh&#xF2;u</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="af">dra</trd>
   <trd lng="am">&#x12F5;&#4709;</trd>
   <trd lng="ar">&a_t;&a_H;&a_m;&a_l;</trd>
@@ -1216,7 +1299,7 @@
   <trd lng="ky">&c_k;&#x4E9;&c_t;&#x4E9;&c_r;&#x4AF;&#x4AF;</trd>
   <trd lng="lat">ferre</trd>
   <trd lng="lo">&#xEAE;&#xEB1;&#xE9A;&#xE9C;&#xEB4;&#xE94;&#xE8A;&#xEAD;&#xE9A;</trd>
-  <trd lng="lt">b&#x163B;ti</trd>
+  <trd lng="lt">b&umacron;ti</trd>
   <trd lng="lv">nest</trd>
   <trd lng="mg">mijoro ho</trd>
   <trd lng="mi">e mau</trd>
@@ -1334,8 +1417,8 @@
     <trd>behord</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>meng<ind>impor</ind></trd>,
-    <trd>me<ind>masuk</ind>kan</trd>
+    <trd><baz>impor</baz>mengimpor</trd>,
+    <trd><baz>masuk</baz>memasukkan</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#25345;&#12385;&#x8FBC;&#12416;  <pr>&#12418;&#12385;&#12371;&#12416;</pr></trd>,
@@ -1415,7 +1498,7 @@
     <trd>elhoz</trd>,
     <trd>elhord</trd>
   </trdgrp>
-  <trd lng="id">mem<ind>bawa</ind> pergi</trd>
+  <trd lng="id"><baz>bawa</baz>membawa pergi</trd>
   <trdgrp lng="ja">
     <trd>&#25345;&#12385;&#x53BB;&#x308B;  <pr>&#12418;&#12385;&#12373;&#x308B;</pr></trd>,
     <trd>&#x904B;&#12403;&#x53BB;&#x308B;  <pr>&#x306F;&#12371;&#12403;&#12373;&#x308B;</pr></trd>
@@ -1437,6 +1520,10 @@
   <trdgrp lng="uk">
     <trd>&c_v;&c_i;&c_n;&c_o;&c_s;&c_i;&c_t;&c_i;</trd>,
     <trd>&c_z;&c_a;&c_b;&c_i;&c_r;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5E26;&#x8D70; <pr>d&#xE0;iz&#x1D2;u</pr></trd>,
+    <trd>&#x5E36;&#x8D70; <pr>d&#xE0;iz&#x1D2;u</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1496,7 +1583,18 @@
     <trd lng="pl">nosi&cacute; ze sob&aogonek;</trd>
     <trd lng="ru">&c_n;&c_je;&c_s;&c_t;&c_i; &c_s; &c_s;&c_o;&c_b;&c_o;&c_j;</trd>
     <trd lng="tr">beraberinde ta&scedil;&inodot;mak</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x643A; <pr>xi&#xE9;</pr></trd>,
+    <trd>&#x651C; <pr>xi&#xE9;</pr></trd>,
+    <trd>&#x5E26;&#26469; <pr>d&#xE0;il&#xE1;i</pr></trd>,
+    <trd>&#x5E36;&#x4F86; <pr>d&#xE0;il&#xE1;i</pr></trd>,
+    <trd>&#25185; <pr>ch&#x1D0;</pr></trd>,
+    <trd>&#x634E;&#x4F86; <pr>sh&amacron;ol&#xE1;i</pr></trd>,
+    <trd>&#x634E;&#26469; <pr>sh&amacron;ol&#xE1;i</pr></trd>,
+    <trd>&#25352;&#x5E26; <pr>qi&#xE8;d&#xE0;i</pr></trd>,
+    <trd>&#25352;&#x5E36; <pr>qi&#xE8;d&#xE0;i</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="port.kun0i.kunigi">
     <dif>
       <tld lit="P"/>i kunen, kunigi, amasigi plurajn objektojn:
@@ -1538,7 +1636,15 @@
       <trd>&c_s;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol; &c_v;&c_m;&c_je;&c_s;&c_t;&c_je;</trd>,
       <trd>&c_s;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol; &c_v;&c_m;&c_je;&c_s;&c_t;&c_je;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x641C;&#x7F57; <pr>s&#x14D;ulu&#xF3;</pr></trd>,
+    <trd>&#x641C;&#x7F85; <pr>s&#x14D;ulu&#xF3;</pr></trd>,
+    <trd>&#x5F59;&#x7E3D; <pr>hu&#xEC;z&#x1D2;ng</pr></trd>,
+    <trd>&#x6C47;&#x603B; <pr>hu&#xEC;z&#x1D2;ng</pr></trd>,
+    <trd>&#x914D;&#38913; <pr>p&#xE8;iy&#xE8;</pr></trd>,
+    <trd>&#x914D;&#39029; <pr>p&#xE8;iy&#xE8;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="port.kun0i.kune">
     <dif>
       <tld lit="P"/>i kune kun aliaj personoj:
@@ -1576,6 +1682,7 @@
     <trd>bring along</trd>,
     <trd>take along</trd>
   </trdgrp>
+  <trd lng="id"><baz>bawa</baz>membawa<klr> (bersama)</klr></trd>
   <trdgrp lng="ja">
     <trd>&#25345;&#x53C2;&#12377;&#x308B;  <pr>&#12376;&#12373;&#12435;&#12377;&#x308B;</pr></trd>,
     <trd>&#x643A;&#x5E2F;&#12377;&#x308B;  <pr>&#12369;&#12356;&#x305F;&#12356;&#12377;&#x308B;</pr></trd>,
@@ -1654,6 +1761,11 @@
     <trd>&c_p;&c_r;&c_i;&c_n;&c_o;&c_s;&c_i;&c_t;&c_i; &c_n;&c_a;&c_z;&c_a;&c_d;</trd>,
     <trd>&c_p;&c_o;&c_v;&c_je;&c_r;&c_t;&c_a;&c_t;&c_i;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#36865;&#x56DE; <pr>s&#xF2;nghu&#xED;</pr></trd>,
+    <trd>&#x5E26;&#x56DE;&#x5BB6; <pr>d&#xE0;ihu&#xED;ji&amacron;</pr></trd>,
+    <trd>&#x5E36;&#x56DE;&#x5BB6; <pr>d&#xE0;ihu&#xED;ji&amacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.sub0i">
@@ -1700,7 +1812,7 @@
     <trd>hordoz <klr tip="amb">(terhel&eacute;st)</klr></trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>men<ind>dukung</ind></trd>,
+    <trd><baz>dukung</baz>mendukung</trd>,
     <trd><baz>sokong</baz>menyokong</trd>,
     <trd><baz>topang</baz>menopang</trd>,
     <trd><baz>tunjang</baz>menunjang</trd>
@@ -1717,6 +1829,14 @@
   </trdgrp>
   <trd lng="tr">desteklemek<klr>(fiziksel olarak)</klr></trd>
   <trd lng="uk">&c_p;&c_ib;&c_d;&c_t;&c_r;&c_i;&c_m;&c_u;&c_v;&c_a;&c_t;&c_i; (&c_n;&c_a; &c_s;&c_o;&c_b;&c_ib;)</trd>
+  <trdgrp lng="zh">
+    <trd>&#25744; <pr>ch&emacron;ng</pr></trd>,
+    <trd>&#25745; <pr>ch&emacron;ng</pr></trd>,
+    <trd>&#x652F;&#25345; <pr>zh&#x12B;ch&#xED;</pr></trd>,
+    <trd>&#x652F;&#x627F; <pr>zh&#x12B;ch&#xE9;ng</pr></trd>,
+    <trd>&#25624; <pr>zh&#x12B;</pr></trd>,
+    <trd>&#x726E; <pr>ji&#xE0;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.trans0i">
@@ -1811,8 +1931,8 @@
     <trd>sz&aacute;ll&iacute;t</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>meng<ind>angkut</ind></trd>,
-    <trd>men<ind>transpor</ind></trd>
+    <trd><baz>angkut</baz>mengangkut</trd>,
+    <trd><baz>transpor</baz>mentranspor</trd>
   </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x8F38;&#36865;&#12377;&#x308B;  <pr>&#12422;&#x305D;&#12358;&#12377;&#x308B;</pr></trd>,
@@ -1840,6 +1960,19 @@
     <trd>&c_p;&c_je;&c_r;&c_je;&c_n;&c_o;&c_s;&c_i;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_z;&c_i;&c_t;&c_i;</trd>,
     <trd>&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x8F09;&#x8CA8; <pr>z&#xE0;ihu&#xF2;</pr></trd>,
+    <trd>&#x8F7D;&#x8D27; <pr>z&#xE0;ihu&#xF2;</pr></trd>,
+    <trd>&#x642C;&#x8FD0; <pr>b&amacron;ny&#xF9;n</pr></trd>,
+    <trd>&#x642C;&#x904B; <pr>b&amacron;ny&#xF9;n</pr></trd>,
+    <trd>&#x8FD0;&#36865; <pr>y&#xF9;ns&#xF2;ng</pr></trd>,
+    <trd>&#x904B;&#36865; <pr>y&#xF9;ns&#xF2;ng</pr></trd>,
+    <trd>&#25689; <pr>li&#x1CE;n</pr></trd>,
+    <trd>&#x8FD0;&#x8F93; <pr>y&#xF9;nsh&#x16B;</pr></trd>,
+    <trd>&#x904B;&#x8F38; <pr>y&#xF9;nsh&#x16B;</pr></trd>,
+    <trd>&#x8FD0; <pr>y&#xF9;n</pr></trd>,
+    <trd>&#x904B; <pr>y&#xF9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1928,6 +2061,10 @@
     <trd>&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;&c_n;&c_i;&c_j; &c_z;&c_a;&c_s;&c_ib;&c_b;</trd>,
     <trd>&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;&c_i;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4EE3;&#x6B65; <pr>d&#xE0;ib&#xF9;</pr></trd>,
+    <trd>&#x4EA4;&#x901A;&#x5DE5;&#20855; <pr>ji&amacron;ot&#x14D;ngg&#x14D;ngj&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.trans0isto">
@@ -1987,7 +2124,7 @@
     <trd>sz&aacute;ll&iacute;t&oacute;</trd>,
     <trd>fuvaroz&oacute;</trd>
   </trdgrp>
-  <trd lng="id">peng<ind>angkut</ind></trd>
+  <trd lng="id"><baz>angkut</baz>pengangkut</trd>
   <trd lng="ja">&#x904B;&#36865;&#x696D;&#32773;  <pr>&#12358;&#12435;&#x305D;&#12358;&#x304E;&#12423;&#12358;&#12375;&#12419;</pr></trd>
   <trdgrp lng="pl">
     <trd>przewo&zacute;nik</trd>,
@@ -2067,6 +2204,10 @@
     &c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;</trd>
   </trdgrp>
   <trd lng="sk">leteck&aacute; doprava</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7A7A;&#x8FD0; <pr>k&#x14D;ngy&#xF9;n</pr></trd>,
+    <trd>&#x7A7A;&#x904B; <pr>k&#x14D;ngy&#xF9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="port.leter0isto">
@@ -2117,11 +2258,11 @@
     <trd>lev&eacute;lpost&aacute;s</trd>
   </trdgrp>
   <trdgrp lng="id">
-    <trd>pem<ind>bawa</ind> surat</trd>,
-    <trd>pe<ind>kerja</ind> pos</trd>,
+    <trd><baz>bawa</baz>pembawa surat</trd>,
+    <trd><baz>kerja</baz>pekerja pos</trd>,
     <trd><ind>tukang</ind> pos</trd>
   </trdgrp>
-  <trd lng="ja">&#x90F5;&#x4FBF;&#x914D;&#36948;&#x4EBA; 
+  <trd lng="ja">&#x90F5;&#x4FBF;&#x914D;&#36948;&#x4EBA;
   <pr>&#12422;&#12358;&#12403;&#12435;&#x306F;&#12356;&#x305F;&#12388;&#x306B;&#12435;</pr></trd>
   <trd lng="pl">listonosz</trd>
   <trdgrp lng="ru">
@@ -2137,10 +2278,30 @@
     <trd>&c_l;&c_i;&c_s;&c_t;&c_o;&c_n;&c_o;&c_sh;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_sh;&c_t;&c_a;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25237;&#36882;&#21592; <pr>t&#xF3;ud&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#25237;&#x905E;&#x54E1; <pr>t&#xF3;ud&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x90AE;&#x52A1;&#x58EB; <pr>y&#xF3;uw&#xF9;sh&#xEC;</pr></trd>,
+    <trd>&#x90F5;&#x52D9;&#x58EB; <pr>y&#xF3;uw&#xF9;sh&#xEC;</pr></trd>,
+    <trd>&#x90AE;&#36882;&#21592; <pr>y&#xF3;ud&#xEC;yu&#xE1;n</pr></trd>,
+    <trd>&#x90F5;&#x905E;&#x54E1; <pr>y&#xF3;ud&#xEC;yu&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.140 2024/08/07 18:34:43
+Vito Redsky: + trd pl
+
+versio 1.139 2024/05/20 11:07:21
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.138 2024/05/20 11:00:52
+revo: kor. lat. transskribo/latvaj literoj
+
+versio 1.137 2024/03/13 03:25:31
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
 versio 1.135 2023/12/12 20:10:26
 revo: kor. lat. transskribo/latvaj literoj
 
@@ -2151,17 +2312,5 @@ versio 1.133 2023/09/27 05:25:58
 Eko Nur Syah Hidayat: +trd id
 
 versio 1.131 2023/08/29 16:33:52
-Wolfram Diestel: ja: prononco
-
-versio 1.130 2023/08/29 10:31:35
-Wolfram Diestel: ja: +prononco
-
-versio 1.129 2023/04/25 11:23:20
-Paul Peeraerts: @Steloj -> @Monato
-
-versio 1.128 2022/05/16 09:42:25
-Wolfram Diestel: el~i: -3 malgxustaj trd
-
-versio 1.127 2022/05/16 08:45:00
 -->
 </vortaro>

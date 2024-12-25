@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: radi.xml,v 1.121 2023/10/20 19:20:10 revo Exp $">
+<art mrk="$Id: radi.xml,v 1.123 2024/04/13 20:15:51 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>radi</rad>/o
@@ -78,8 +78,8 @@
     <trd lng="de">Strahl</trd>
     <trd lng="es">rayo</trd>
     <trd lng="fr">rayon<klr tip="ind"> (p.ex. lumineux)</klr></trd>
-    <trd lng="hu">sug&aacute;r</trd> 
-    <trd lng="id">radiasi</trd>   
+    <trd lng="hu">sug&aacute;r</trd>
+    <trd lng="id">radiasi</trd>
     <trd lng="nl">straal</trd>
     <trd lng="pl">promie&nacute;</trd>
     <trd lng="pt">raio</trd>
@@ -200,6 +200,7 @@
       <trd>Rundfunkger&auml;t</trd>,
       <trd>Rundfunkempf&auml;nger</trd>
     </trdgrp>
+    <trd lng="en">radio</trd>
     <trd lng="es">radio</trd>
     <trd lng="fr">radio</trd>
     <trdgrp lng="hu">
@@ -210,7 +211,23 @@
     <trd lng="nl">radio</trd>
     <trd lng="pl">radio</trd>
     <trd lng="ru">&c_r;&c_a;&c_d;&c_i;&c_o;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5E7F;&#x64AD; <pr>gu&#x1CE;ngb&#x14D;</pr></trd>,
+    <trd>&#x5EE3;&#x64AD; <pr>gu&#x1CE;ngb&#x14D;</pr></trd>,
+    <trd>&#x6536;&#x97F3;&#x673A; <pr>sh&#x14D;uy&#x12B;nj&#x12B;</pr></trd>,
+    <trd>&#x6536;&#x97F3;&#x6A5F; <pr>sh&#x14D;uy&#x12B;nj&#x12B;</pr></trd>,
+    <trd>&#x65E0;&#x7EBF;&#x7535;&#x6536;&#x53D1;&#x8BBE;&#x5907; <pr>w&#xFA;xi&#xE0;ndi&#xE0;nsh&#x14D;uf&#x101;sh&#xE8;b&#xE8;i</pr></trd>,
+    <trd>&#x7121;&#x7DDA;&#x96FB;&#x6536;&#x767C;&#x8A2D;&#x5099; <pr>w&#xFA;xi&#xE0;ndi&#xE0;nsh&#x14D;uf&#x101;sh&#xE8;b&#xE8;i</pr></trd>,
+    <trd>&#x65E0;&#x7EBF;&#x7535;&#x5E7F;&#x64AD; <pr>w&#xFA;xi&#xE0;ndi&#xE0;ngu&#x1CE;ngb&#x14D;</pr></trd>,
+    <trd>&#x7121;&#x7DDA;&#x96FB;&#x5EE3;&#x64AD; <pr>w&#xFA;xi&#xE0;ndi&#xE0;ngu&#x1CE;ngb&#x14D;</pr></trd>,
+    <trd>&#x7535;&#x53F0; <pr>di&#xE0;nt&#xE1;i</pr></trd>,
+    <trd>&#x96FB;&#x81FA; <pr>di&#xE0;nt&#xE1;i</pr></trd>,
+    <trd>&#x65E0;&#x7EBF;&#x7535;&#x63A5;&#x6536;&#x673A; <pr>w&#xFA;xi&#xE0;ndi&#xE0;nji&#x113;sh&#x14D;uj&#x12B;</pr></trd>,
+    <trd>&#x7121;&#x7DDA;&#x96FB;&#x63A5;&#x6536;&#x6A5F; <pr>w&#xFA;xi&#xE0;ndi&#xE0;nji&#x113;sh&#x14D;uj&#x12B;</pr></trd>,
+    <trd>&#x7535;&#x53F0; <pr>di&#xE0;nt&#xE1;i</pr></trd>,
+    <trd>&#x96FB;&#x53F0; <pr>di&#xE0;nt&#xE1;i</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="radi.0o.discelanta">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -269,18 +286,22 @@
     <trd lng="bg">&c_l;&c_malmol;&c_ch;</trd>
     <trd lng="de">Strahl</trd>
     <trd lng="es">rayo</trd>
-    <trd lng="hu">sug&aacute;r</trd>   
+    <trd lng="hu">sug&aacute;r</trd>
     <trdgrp lng="id">
       <trd>jari-jari</trd>,
       <trd>radius</trd>
-    </trdgrp> 
+    </trdgrp>
     <trd lng="nl">spaak</trd>
     <trdgrp lng="ru">
       <trd>&c_l;&c_u;&c_ch;</trd>,
       <trd>&c_r;&c_a;&c_d;&c_i;&c_u;&c_s;</trd>,
       <trd>&c_s;&c_p;&c_i;&c_c;&c_a;<klr tip="amb"> (&c_v; &c_k;&c_o;&c_l;&c_je;&c_s;&c_je;)</klr></trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5149;&#x4EAE;&#x5EA6; <pr>gu&#x101;ngli&#xE0;ngd&#xF9;</pr></trd>,
+    <trd>&#x6874; <pr>f&#xFA;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="radi.0o.brila">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -313,11 +334,12 @@
     <trd lng="bg">&c_l;&c_malmol;&c_ch;</trd>
     <trd lng="de">Strahlen</trd>
     <trd lng="fr">rayon<klr tip="ind"> (p.ex. de bonheur)</klr></trd>
-    <trd lng="hu">sug&aacute;r <klr tip="ind">(&aacute;tv.)</klr></trd>    
+    <trd lng="hu">sug&aacute;r <klr tip="ind">(&aacute;tv.)</klr></trd>
     <trd lng="nl">straal</trd>
     <trd lng="pl">blask</trd>
     <trd lng="ru">&c_l;&c_u;&c_ch;</trd>
-  </snc>
+    <trd lng="zh">&#x5149;&#x8292; <pr>gu&#x101;ngm&#xE1;ng</pr></trd>
+</snc>
   <snc mrk="radi.0o.radiuso">
     <uzo tip="fak">MAT</uzo>
     <uzo tip="stl">ARK</uzo>
@@ -352,7 +374,7 @@
     <trd lng="bg">&c_r;&c_a;&c_d;&c_i;&c_u;&c_s;</trd>
     <trd lng="de">Radius</trd>
     <trd lng="es">radio</trd>
-    <trd lng="hu">sug&aacute;r <klr tip="ind">(f&eacute;l &aacute;tm&eacute;r&odblac;)</klr></trd>    
+    <trd lng="hu">sug&aacute;r <klr tip="ind">(f&eacute;l &aacute;tm&eacute;r&odblac;)</klr></trd>
     <trd lng="nl">radius</trd>
     <trd lng="pl">promie&nacute;</trd>
     <trd lng="ru">&c_r;&c_a;&c_d;&c_i;&c_u;&c_s;</trd>
@@ -365,11 +387,15 @@
     <trd lng="bg">&c_l;&c_malmol;&c_ch;</trd>
     <trd lng="de">Halbgerade</trd>
     <trd lng="es">semirrecta</trd>
-    <trd lng="hu">f&eacute;legyenes</trd>    
+    <trd lng="hu">f&eacute;legyenes</trd>
     <trd lng="nl">halfrechte</trd>
     <trd lng="pl">p&oacute;&lstroke;prosta</trd>
     <trd lng="ru">&c_l;&c_u;&c_ch;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x5C04;&#x7DDA; <pr>sh&#xE8;xi&#xE0;n</pr></trd>,
+    <trd>&#x5C04;&#x7EBF; <pr>sh&#xE8;xi&#xE0;n</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="af">radio</trd>
   <trd lng="am">&#x122C;&#x12F2;&#x12EE;</trd>
   <trd lng="ar">&a_r;&a_A;&a_d;&a_y;&a_w;</trd>
@@ -538,7 +564,11 @@
       <trd>&c_i;&c_z;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_s;&c_i;&c_ja;&c_t;&c_mol;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7CB2; <pr>c&#xE0;n</pr></trd>,
+    <trd>&#x653E;&#x5C04; <pr>f&#xE0;ngsh&#xE8;</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="radi.0i.disiri">
     <gra><vspec>ntr</vspec></gra>
     <dif>
@@ -593,7 +623,14 @@
     <trd lng="fr">rayonner</trd>
     <trd lng="pl">rozchodzi&cacute; si&eogonek; <klr>(promieni&sacute;cie)</klr></trd>
     <trd lng="ru">&c_i;&c_s;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x653E;&#x5C04; <pr>f&#xE0;ngsh&#xE8;</pr></trd>,
+    <trd>&#x53D1;&#x4EAE; <pr>f&#x101;li&#xE0;ng</pr></trd>,
+    <trd>&#x767C;&#x4EAE; <pr>f&#x101;li&#xE0;ng</pr></trd>,
+    <trd>&#x53D1;&#x5149; <pr>f&#x101;gu&#x101;ng</pr></trd>,
+    <trd>&#x767C;&#x5149; <pr>f&#x101;gu&#x101;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="radi.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -667,7 +704,11 @@
       <trd>&c_s;&c_i;&c_ja;&c_t;&c_mol;</trd>,
       <trd>&c_l;&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x7CB2; <pr>c&#xE0;n</pr></trd>,
+    <trd>&#x559C;&#x6D0B;&#x6D0B; <pr>x&#x1D0;y&#xE1;ngy&#xE1;ng</pr></trd>
+  </trdgrp>
+</snc>
 
 <!-- mi ne trovis tian uzon...
   <snc>
@@ -701,7 +742,8 @@
   <trdgrp lng="ja">
     <trd>&#x653E;&#x5C04;&#x3059;&#x308B;  <pr>&#x307B;&#x3046;&#x3057;&#x3083;&#x3059;&#x308B;</pr></trd>,
     <trd>&#x5149;&#x308A;&#x8F1D;&#x304F;  <pr>&#x3072;&#x304B;&#x308A;&#x304B;&#x304C;&#x3084;&#x304F;</pr></trd>,
-    <trd>&#x653E;&#x5C04;&#x72B6;&#x306B;&#x5E83;&#x304C;&#x308B;  <pr>&#x307B;&#x3046;&#x3057;&#x3083;&#x3058;&#x3087;&#x3046;&#x306B;&#x3072;&#x308D;&#x304C;&#x308B;</pr></trd>,
+    <trd>&#x653E;&#x5C04;&#x72B6;&#x306B;&#x5E83;&#x304C;&#x308B; 
+    <pr>&#x307B;&#x3046;&#x3057;&#x3083;&#x3058;&#x3087;&#x3046;&#x306B;&#x3072;&#x308D;&#x304C;&#x308B;</pr></trd>,
     <trd>&#x8F1D;&#x304F;  <pr>&#x304B;&#x304C;&#x3084;&#x304F;</pr></trd>,
     <trd>&#x767A;&#x6563;&#x3059;&#x308B;  <pr>&#x306F;&#x3063;&#x3055;&#x3093;&#x3059;&#x308B;</pr></trd>
   </trdgrp>
@@ -816,18 +858,24 @@
     <trd>&c_v;&c_i;&#x43F;&c_r;&#x43E;&#x43C;&c_ib;&#x43D;&#x44E;&c_v;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
     <trd>&c_r;&c_a;&c_d;&c_ib;&c_a;&c_c;&c_ib;&#x44F;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x65E5;&#x5C04; <pr>r&#xEC;sh&#xE8;</pr></trd>,
+    <trd>&#x8F3B;&#x5C04; <pr>f&#xFA;sh&#xE8;</pr></trd>,
+    <trd>&#x8F90;&#x5C04; <pr>f&#xFA;sh&#xE8;</pr></trd>
+  </trdgrp>
 </drv>
-
-
 
 </art>
 <!--
 $Log$
+versio 1.122 2024/02/20 01:21:46
+Matt Brooks: + en tradukojn
+
 versio 1.121 2023/10/20 19:20:10
 revo: transskribo per <pr>
 
 versio 1.119 2023/05/09 23:26:36
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.118 2023/05/01 11:23:16
 Paul Peeraerts: Steloj -> monato
@@ -842,8 +890,5 @@ versio 1.115 2023/04/11 14:27:41
 Paul Peeraerts: Steloj -> monato.be
 
 versio 1.114 2023/04/11 12:45:30
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.113 2022/05/24 09:33:01
 -->
 </vortaro>

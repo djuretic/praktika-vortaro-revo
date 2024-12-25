@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: reklamaci.xml,v 1.12 2023/10/20 19:20:37 revo Exp $">
+<art mrk="$Id: reklamaci.xml,v 1.14 2024/04/13 20:15:52 revo Exp $">
 <kap>
   <rad>reklamaci</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -9,7 +9,7 @@
   <kap><tld/>i</kap>
   <snc mrk="reklamaci.0i.JUR">
     <dif>
-      <ref tip="super" cel="protes.0i.JUR">Protesti</ref> petante 
+      <ref tip="super" cel="protes.0i.JUR">Protesti</ref> petante
       re&gcirc;ustigon a&ubreve; kompenson pro io &scirc;uldata:
       <ekz>
         <tld/>u kontra&ubreve; ilia ofenda agado
@@ -39,6 +39,7 @@
       Ne konfuzu kun <ref tip="hom" cel="reklam.0i.EKON">reklami<sncref/></ref>.
     </rim>
   </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol; <ind>&c_r;&c_e;&c_k;&c_l;&c_ja;&c_m;&c_a;&c_c;&c_y;&c_ju;</ind></trd>
   <trd lng="cs">prov&aacute;d&ecaron;t reklamaci</trd>
   <trdgrp lng="de">
     <trd>reklamieren</trd>,
@@ -63,6 +64,10 @@
     <trd>&c_v;&c_i;&c_s;&c_t;&c_u;&#x43F;&c_a;&c_t;&c_i; &c_z; &c_v;&c_i;&#x43C;&#x43E;&c_g;&#x43E;&#x44E;</trd>,
     <trd>&#x43F;&c_r;&c_je;&c_t;&c_je;&#x43D;&c_z;&c_ib;&c_jeu;&#x44E;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7D22;&#x8CE0; <pr>su&#x1D2;p&#xE9;i</pr></trd>,
+    <trd>&#x7D22;&#x8D54; <pr>su&#x1D2;p&#xE9;i</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="reklamaci.0o">
@@ -81,15 +86,16 @@
         </fnt>;
       </ekz>
       <ekz>
-        la laboristoj redaktis liston de unuanimaj <tld/>oj sed pasis 
-        multa tempo anta&ubreve; ol povis oficiale informi al la 
+        la laboristoj redaktis liston de unuanimaj <tld/>oj sed pasis
+        multa tempo anta&ubreve; ol povis oficiale informi al la
         banan-kompanio
         <fnt><aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>,
-        <vrk>Cent 
+        <vrk>Cent
         Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_r;&c_e;&c_k;&c_l;&c_ja;&c_m;&c_a;&c_c;&c_y;&c_ja;</trd>
   <trdgrp lng="cs">
     <trd>upom&iacute;nka</trd>,
     <trd>urgence</trd>
@@ -120,16 +126,25 @@
     <trd>&c_v;&c_i;&#x43C;&#x43E;&c_g;&c_a;</trd>,
     <trd>&#x43F;&c_r;&c_je;&c_t;&c_je;&#x43D;&c_z;&c_ib;&#x44F;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7D22;&#x8CE0; <pr>su&#x1D2;p&#xE9;i</pr></trd>,
+    <trd>&#x7D22;&#x8D54; <pr>su&#x1D2;p&#xE9;i</pr></trd>,
+    <trd>&#x6295;&#x8A34; <pr>t&#xF3;us&#xF9;</pr></trd>,
+    <trd>&#x6295;&#x8BC9; <pr>t&#xF3;us&#xF9;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.13 2024/03/13 15:24:42
+Dmitri Gabinski: + trd be
+
 versio 1.12 2023/10/20 19:20:37
 revo: transskribo per <pr>
 
 versio 1.10 2023/06/27 21:26:42
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.9 2023/04/24 16:34:51
 Paul Peeraerts: @Steloj -> @Monato
@@ -144,8 +159,5 @@ versio 1.5 2020/09/30 16:34:31
 Wolfram Diestel: +ekz, germ trd, ref pretendi, +rim reklami
 
 Revision 1.3  2015/06/29 16:33:22  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.2  2009/09/27 16:30:33  revo
 -->
 </vortaro>

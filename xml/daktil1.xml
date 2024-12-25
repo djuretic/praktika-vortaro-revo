@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: daktil1.xml,v 1.10 2023/10/14 11:26:53 revo Exp $">
+<art mrk="$Id: daktil1.xml,v 1.12 2024/07/25 12:46:40 revo Exp $">
 <kap>
-  <rad>daktil</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>daktil</rad>/o <fnt><bib>PVEF</bib></fnt>
 </kap>
 <drv mrk="daktil1.0o">
   <kap><tld/>o</kap>
@@ -13,9 +13,19 @@
       <ref tip="super" cel="pied.vers0o">Verspiedo</ref> konsistanta
       el tri silaboj, el kiuj la unua estas longa a&ubreve; akcenta, kaj
       la du ceteraj estas mallongaj a&ubreve; senakcentaj;
-      simbole /&#x2010;&ypsilon;&ypsilon;/:
+      simbole <frm>/&#8208;&ypsilon;&ypsilon;/</frm>:
       <ekz>
-        &leftquot;tiu &ccirc;i&rightquot; konsistigas <tld/>on.
+        &leftquot;tiu &ccirc;i&rightquot; konsistigas <tld/>on;
+      </ekz><ekz>
+        la tria verso konsistas el kvar jamboj plus lasta mallonga silabo, kaj la lasta
+        verso el du <tld/>oj kaj du spondeoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Monato;/2012/010377.php"
+              >Nuntempo en antikva vesto</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim mrk="daktil1.0o.RIM">
@@ -26,8 +36,8 @@
   <trd lng="be">&c_d;&c_a;&c_k;&c_t;&c_y;&c_l;&c_mol;</trd>
   <trd lng="ca">d&agrave;ctil</trd>
   <trdgrp lng="cs">
-    <trd>daktyl</trd>,
-    <trd>datle <klr>(plod)</klr></trd>
+    <trd>daktyl</trd>
+    <!--trd>datle <klr>(plod)</klr></trd-->
   </trdgrp>
   <trd lng="da">daktyl</trd>
   <trd lng="de">Daktylus</trd>
@@ -35,14 +45,14 @@
   <trd lng="en">dactyl</trd>
   <trd lng="fr">dactyle<klr tip="ind"> (m&eacute;trique)</klr></trd>
   <trdgrp lng="he">
-    <trd>&#x5D3;&#x5E7;&#x5DC;</trd>,
-    <trd>&#x5EA;&#x5DE;&#x5E8;</trd>
+    <trd>&dalet;&qof;&lamed;</trd>,
+    <trd>&tav;&mem;&resh;</trd>
   </trdgrp>
   <trd lng="hu">daktilus</trd>
   <trdgrp lng="ja">
-    <trd>&#x30CA;&#x30C4;&#x30E1;&#x30E4;&#x30B7;</trd>,
-    <trd>&#x9577;&#x77ED;&#x77ED;&#x683C;  <pr>&#x3061;&#x3087;&#x3046;&#x77ED;&#x77ED;&#x683C;</pr></trd>,
-    <trd>&#x5F37;&#x5F31;&#x5F31;&#x683C;  <pr>&#x304D;&#x3087;&#x3046;&#x5F31;&#x5F31;&#x683C;</pr></trd>
+    <trd>&#12490;&#12484;&#12513;&#12516;&#12471;</trd>,
+    <trd>&#38263;&#30701;&#30701;&#26684;  <pr>&#12385;&#12423;&#12358;&#12383;&#12435;&#12383;&#12435;&#12363;&#12367;</pr></trd>,
+    <trd>&#24375;&#24369;&#24369;&#26684;  <pr>&#12365;&#12423;&#12358;&#12376;&#12419;&#12367;&#12376;&#12419;&#12367;&#12363;&#12367;</pr></trd>
   </trdgrp>
   <trd lng="nl">dactylus</trd>
   <trd lng="pl">daktyl <klr>(stopa wierszowa)</klr></trd>
@@ -51,14 +61,39 @@
   <trd lng="ru">&c_d;&c_a;&c_k;&c_t;&c_i;&c_l;&c_mol;</trd>
   <trd lng="sk">dat&lcaron;a</trd>
   <trdgrp lng="uk">
-    <trd>&c_f;&c_ib;&#x43D;&c_ib;&#x43A;</trd>,
-    <trd>&c_d;&c_a;&#x43A;&c_t;&c_i;&#x43B;&#x44C;</trd>
+    <!--trd>&c_f;&c_ib;&c_n;&c_ib;&c_k;</trd-->
+    <trd>&c_d;&c_a;&c_k;&c_t;&c_i;&c_l;&c_mol;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="daktil1.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="daktil1.0a.POE">
+    <uzo tip="fak">POE</uzo>
+    <dif>
+      Rilata al <ref cel="daktil1.0o.POE"><tld/>o</ref>:
+      <ekz>
+        Ah &mdash; kial Esperanto ne havas la <tld/>ajn,
+        Dorlotajn rusajn rimojn &mdash; simbolojn de la am',
+        Kolorajn rusajn vortojn, rubenajn kaj berilajn,
+        Karesajn en la kanto, kortu&scirc;ajn en deklam'!
+        <fnt><aut>N. Hohlov</aut>: <vrk>Plendo</vrk></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">dactylic</trd>
+  <trd lng="ru">&c_d;&c_a;&c_k;&c_t;&c_i;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.12 2024/07/25 12:46:40
+Sergio Pokrovskij: +~a
+
+versio 1.11 2024/05/27 19:20:19
+Wolfram Diestel: fnt PVEF, +ekz
+
 versio 1.10 2023/10/14 11:26:53
 revo: transskribo per <pr>
 
@@ -75,6 +110,5 @@ Revision 1.2  2012/08/27 14:10:26  revo
 Marc Rausell: + trd ca
 
 Revision 1.1  2010/03/03 17:30:44  revo
-Jeromo Vasxe: nova artikolo
 -->
 </vortaro>

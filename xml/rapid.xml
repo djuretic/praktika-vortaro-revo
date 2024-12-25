@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rapid.xml,v 1.139 2023/12/12 20:10:26 revo Exp $">
+<art mrk="$Id: rapid.xml,v 1.141 2024/04/29 09:25:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rapid</rad>/a <fnt><bib>PV</bib></fnt>
@@ -245,7 +245,12 @@
     <trd>sebes</trd>
   </trdgrp>
   <trd lng="hy">&#1377;&#1408;&#1377;&#1379;</trd>
-  <trd lng="id">cepat</trd>
+  <trdgrp lng="id">
+    <trd>cepat</trd>,
+    <trd>segera</trd>,
+    <trd>lekas</trd>,
+    <trd>bangat</trd>
+  </trdgrp>
   <trd lng="ig">ngwa-ngwa</trd>
   <trd lng="is">hratt</trd>
   <trd lng="ja">&#x901F;&#12356; <pr>&#x306F;&#12420;&#12356;</pr></trd>
@@ -260,7 +265,7 @@
   <trd lng="lat">ieiunium</trd>
   <trd lng="lo">&#xEC4;&#xEA7;</trd>
   <trd lng="lt">greitai</trd>
-  <trd lng="lv">&#257;trs</trd>
+  <trd lng="lv">&amacron;trs</trd>
   <trd lng="mg">fifadian-kanina</trd>
   <trd lng="mi">nohopuku</trd>
   <trd lng="mk">&c_b;&c_r;&c_z;&c_o;</trd>
@@ -323,6 +328,17 @@
   <trd lng="xh">ngokukhawuleza</trd>
   <trd lng="yi">&pe;&ayin;&samekh;&tet;</trd>
   <trd lng="yo">sare</trd>
+  <trdgrp lng="zh">
+    <trd>&#x901F; <pr>s&#xF9;</pr></trd>,
+    <trd>&#x8FC5; <pr>x&#xF9;n</pr></trd>,
+    <trd>&#x8FC5;&#x901F; <pr>x&#xF9;ns&#xF9;</pr></trd>,
+    <trd>&#24613;&#x9A5F; <pr>j&#xED;zh&#xF2;u</pr></trd>,
+    <trd>&#24613;&#x9AA4; <pr>j&#xED;zh&#xF2;u</pr></trd>,
+    <trd>&#25463; <pr>ji&#xE9;</pr></trd>,
+    <trd>&#x906B; <pr>s&#xF9;</pr></trd>,
+    <trd>&#x907D; <pr>j&#xF9;</pr></trd>,
+    <trd>&#24613;&#x901F; <pr>j&#xED;s&#xF9;</pr></trd>
+  </trdgrp>
   <trd lng="zu">bambelela</trd>
 </drv>
 
@@ -404,6 +420,7 @@
     <trd>velozmente</trd>,
     <trd>aprisa</trd>
   </trdgrp>
+  <trd lng="id"><ind>dengan</ind> cepat</trd>
   <trdgrp lng="ja">
     <trd>&#x901F;&#x304F;  <pr>&#x306F;&#12420;&#x304F;</pr></trd>,
     <trd>&#12377;&#12400;&#12420;&#x304F;</trd>,
@@ -422,6 +439,10 @@
     <trd>&c_sh;&c_v;&c_i;&c_d;&#x43A;&#x43E;</trd>,
     <trd>&c_s;&#x43A;&#x43E;&c_r;&#x43E;</trd>,
     <trd>&c_h;&c_u;&c_t;&#x43A;&#x43E;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x98DB;&#x901F; <pr>f&emacron;is&#xF9;</pr></trd>,
+    <trd>&#x98DE;&#x901F; <pr>f&emacron;is&#xF9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -517,6 +538,7 @@
       <trd>vitesse<klr tip="ind"> (grandeur physique)</klr></trd>
     </trdgrp>
     <trd lng="hu">sebess&eacute;g</trd>
+    <trd lng="id">velositas</trd>
     <trd lng="nl">snelheid</trd>
   </snc>
   <trd lng="af">spoed</trd>
@@ -544,7 +566,7 @@
   <trd lng="hr">brzina</trd>
   <trd lng="ht">vit&egrave;s</trd>
   <trd lng="hy">&#1377;&#1408;&#1377;&#1379;&#1400;&#1410;&#1385;&#1397;&#1400;&#1410;&#1398;</trd>
-  <trd lng="id">ke<ind>cepat</ind>an</trd>
+  <trd lng="id"><baz>cepat</baz>kecepatan</trd>
   <trd lng="ig">&#x1ECD;s&#x1ECD;</trd>
   <trd lng="is">hra&#xF0;a</trd>
   <trd lng="ja">&#x30B9;&#x30D4;&#x30FC;&#x30C9;</trd>
@@ -559,7 +581,7 @@
   <trd lng="lat">celeritate</trd>
   <trd lng="lo">&#xE84;&#xEA7;&#xEB2;&#xEA1;&#xEC4;&#xEA7;</trd>
   <trd lng="lt">greitis</trd>
-  <trd lng="lv">&#257;trums</trd>
+  <trd lng="lv">&amacron;trums</trd>
   <trd lng="mg">hafainganam-pandeha</trd>
   <trd lng="mi">tere</trd>
   <trd lng="mk">&c_b;&c_r;&c_z;&c_i;&c_n;&c_a;</trd>
@@ -601,6 +623,7 @@
   <trd lng="xh">isantya</trd>
   <trd lng="yi">&gimel;&yod;&kaf;&qof;&yod;&yod;&#x5B7;&tet;</trd>
   <trd lng="yo">iyara</trd>
+  <trd lng="zh">&#x901F;&#x5EA6; <pr>s&#xF9;d&#xF9;</pr></trd>
   <trd lng="zu">isivinini</trd>
 </drv>
 
@@ -760,6 +783,12 @@
   <trd lng="ht">prese</trd>
   <trd lng="hu">siet</trd>
   <trd lng="hy">&#1399;&#x57F;&#1377;&#x57A;&#1381;&#x56C;</trd>
+  <trdgrp lng="id">
+    <trd><baz>segera</baz>bersegera</trd>,
+    <trd><baz>gegas</baz>bergegas</trd>,
+    <trd><ind>cepat</ind>-cepat</trd>,
+    <trd><ind>lekas</ind>-lekas</trd>
+  </trdgrp>
   <trd lng="ig">&#x1ECD;s&#x1ECD; &#x1ECD;s&#x1ECD;</trd>
   <trd lng="is">dr&iacute;fa</trd>
   <trd lng="ja">&#24613;&#12368; <pr>&#12356;&#x305D;&#12368;</pr></trd>
@@ -774,7 +803,7 @@
   <trd lng="lat">festinate</trd>
   <trd lng="lo">&#xEC4;&#xE94;&#xEC9;</trd>
   <trd lng="lt">skub&#279;ti</trd>
-  <trd lng="lv">steig&#257;</trd>
+  <trd lng="lv">steig&amacron;</trd>
   <trd lng="mg">faingana</trd>
   <trd lng="mi">hohoro</trd>
   <trd lng="mk">&c_b;&c_r;&c_z;&c_a;</trd>
@@ -822,6 +851,18 @@
   <trd lng="xh">khawuleza</trd>
   <trd lng="yi">&yod;&yod;&#x5B7;&lamed;&fnun;</trd>
   <trd lng="yo">nsoro</trd>
+  <trdgrp lng="zh">
+    <trd>&#x8D76; <pr>g&#x1CE;n</pr></trd>,
+    <trd>&#x8D95; <pr>g&#x1CE;n</pr></trd>,
+    <trd>&#x8D76;&#x7D27; <pr>g&#x1CE;nj&#x1D0;n</pr></trd>,
+    <trd>&#x8D95;&#x7DCA; <pr>g&#x1CE;nj&#x1D0;n</pr></trd>,
+    <trd>&#x8D76;&#x8D74; <pr>g&#x1CE;nf&#xF9;</pr></trd>,
+    <trd>&#x8D95;&#x8D74; <pr>g&#x1CE;nf&#xF9;</pr></trd>,
+    <trd>&#x8D76;&#x8DEF; <pr>g&#x1CE;nl&#xF9;</pr></trd>,
+    <trd>&#x8D95;&#x8DEF; <pr>g&#x1CE;nl&#xF9;</pr></trd>,
+    <trd>&#x8D8B; <pr>q&#x16B;</pr></trd>,
+    <trd>&#x8DA8; <pr>q&#x16B;</pr></trd>
+  </trdgrp>
   <trd lng="zu">shesha</trd>
 </drv>
 
@@ -890,7 +931,7 @@
   </trdgrp>
   <trd lng="fr">rapidit&eacute;</trd>
   <trd lng="hu">gyorsas&aacute;g</trd>
-  <trd lng="id">ke<ind>cepat</ind>an</trd>
+  <trd lng="id"><baz>cepat</baz>kecepatan</trd>
   <trdgrp lng="ja">
     <trd>&#x901F;&#12373;  <pr>&#x306F;&#12420;&#12373;</pr></trd>,
     <trd>&#12377;&#12400;&#12420;&#12373;</trd>
@@ -909,6 +950,13 @@
   <trdgrp lng="uk">
     <trd>&c_sh;&c_v;&c_i;&c_d;&#x43A;&c_ib;&c_s;&c_t;&#x44C;</trd>,
     <trd>&#x43F;&#x43E;&c_s;&#x43F;&c_ib;&c_h;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5FEB; <pr>ku&#xE0;i</pr></trd>,
+    <trd>&#x901F; <pr>s&#xF9;</pr></trd>,
+    <trd>&#x5FEB;&#x901F; <pr>ku&#xE0;is&#xF9;</pr></trd>,
+    <trd>&#x5FEB;&#24930; <pr>ku&#xE0;im&#xE0;n</pr></trd>,
+    <trd>&#x901F;&#x5EA6; <pr>s&#xF9;d&#xF9;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -986,7 +1034,7 @@
     <trd>felgyors&iacute;t</trd>,
     <trd>meggyors&iacute;t</trd>
   </trdgrp>
-  <trd lng="id">memper<ind>cepat</ind></trd>
+  <trd lng="id"><baz>cepat</baz>mempercepat</trd>
   <trdgrp lng="ja">
     <trd>&#24613;&#x304C;&#x305B;&#x308B;  <pr>&#12356;&#x305D;&#x304C;&#x305B;&#x308B;</pr></trd>,
     <trd>&#x52A0;&#x901F;&#12377;&#x308B;  <pr>&#x304B;&#x305D;&#x304F;&#12377;&#x308B;</pr></trd>,
@@ -1005,6 +1053,14 @@
     <trd>&#x43F;&c_r;&c_i;&c_s;&#x43A;&#x43E;&c_r;&#x44E;&c_v;&c_a;&c_t;&c_i;</trd>,
     <trd>&#x43A;&c_v;&c_a;&#x43F;&c_i;&c_t;&c_i;</trd>,
     <trd>&#x43F;&c_ib;&c_d;&c_g;&c_a;&#x43D;&#x44F;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x52A0;&#x5FEB; <pr>ji&amacron;ku&#xE0;i</pr></trd>,
+    <trd>&#x52A0;&#x7D27; <pr>ji&amacron;j&#x1D0;n</pr></trd>,
+    <trd>&#x52A0;&#x7DCA; <pr>ji&amacron;j&#x1D0;n</pr></trd>,
+    <trd>&#x63D0;&#x901F; <pr>t&#xED;s&#xF9;</pr></trd>,
+    <trd>&#x9A45;&#x4F7F; <pr>q&#x16B;sh&#x1D0;</pr></trd>,
+    <trd>&#x9A71;&#x4F7F; <pr>q&#x16B;sh&#x1D0;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1059,8 +1115,8 @@
     <trd>acelerarse</trd>,
     <trd>hacerse m&aacute;s y m&aacute;s r&aacute;pido</trd>
   </trdgrp>
-  <trd lng="id">men<ind>cepat</ind></trd>
-  <trd lng="ja">&#x901F;&#x304F;&#x306A;&#x308B; 
+  <trd lng="id"><baz>cepat</baz>mencepat</trd>
+  <trd lng="ja">&#x901F;&#x304F;&#x306A;&#x308B;
   <pr>&#x306F;&#12420;&#x304F;&#x306A;&#x308B;</pr></trd>
   <trd lng="nl">versnellen<klr tip="ind"> (intr.)</klr></trd>
   <trdgrp lng="pl">
@@ -1127,8 +1183,8 @@
     <trd>vitesse<klr tip="ind"> (rapport)</klr></trd>
   </trdgrp>
   <trd lng="hu">sebess&eacute;gfokozat</trd>
-  <trd lng="id"><ind>gigi</ind> (kendaraan)</trd>
-  <trd lng="ja">&#x56DE;&#x8EE2;&#x901F;&#x5EA6;&#x6BD4; 
+  <trd lng="id">gigi<klr> (kendaraan)</klr></trd>
+  <trd lng="ja">&#x56DE;&#x8EE2;&#x901F;&#x5EA6;&#x6BD4;
   <pr>&#x304B;&#12356;&#12390;&#12435;&#x305D;&#x304F;&#12393;&#12402;</pr></trd>
   <trdgrp lng="nl">
     <trd>versnelling</trd>,
@@ -1142,6 +1198,10 @@
   <trdgrp lng="uk">
     <trd>&c_sh;&c_v;&c_i;&c_d;&#x43A;&c_ib;&c_s;&c_t;&#x44C;</trd>,
     <trd>&c_s;&c_t;&c_u;&#x43F;&c_ib;&#x43D;&#x44C; &#x43F;&c_je;&c_r;&c_je;&c_d;&c_a;&c_ch;&c_ib;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25490;&#26723; <pr>p&#xE1;id&#x1CE;ng</pr></trd>,
+    <trd>&#25490;&#x6A94; <pr>p&#xE1;id&#x1CE;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -1231,7 +1291,7 @@
   <trd lng="lat">tardus</trd>
   <trd lng="lo">&#xE8A;&#xEC9;&#xEB2;</trd>
   <trd lng="lt">l&#279;tai</trd>
-  <trd lng="lv">l&#275;ni</trd>
+  <trd lng="lv">l&emacron;ni</trd>
   <trd lng="mg">miadana</trd>
   <trd lng="mi">puhoi</trd>
   <trd lng="mk">&c_b;&c_a;&c_v;&c_je;&c_n;</trd>
@@ -1278,6 +1338,18 @@
   <trd lng="xh">olucothayo</trd>
   <trd lng="yi">&pe;&#x5BC;&alef;&#x5B7;&mem;&ayin;&lamed;&ayin;&fkaf;</trd>
   <trd lng="yo">o l&#x1ECD;ra</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7DE9; <pr>hu&#x1CE;n</pr></trd>,
+    <trd>&#x7F13; <pr>hu&#x1CE;n</pr></trd>,
+    <trd>&#x7DE9;&#24930; <pr>hu&#x1CE;nm&#xE0;n</pr></trd>,
+    <trd>&#x7F13;&#24930; <pr>hu&#x1CE;nm&#xE0;n</pr></trd>,
+    <trd>&#x5F90; <pr>x&#xFA;</pr></trd>,
+    <trd>&#x8A25; <pr>n&#xE8;</pr></trd>,
+    <trd>&#x8BB7; <pr>n&#xE8;</pr></trd>,
+    <trd>&#x7E35; <pr>m&#xE0;n</pr></trd>,
+    <trd>&#x7F26; <pr>m&#xE0;n</pr></trd>,
+    <trd>&#24930;&#24930; <pr>m&#xE0;nm&#xE0;n</pr></trd>
+  </trdgrp>
   <trd lng="zu">wephuza</trd>
 </drv>
 
@@ -1330,9 +1402,13 @@
     <trd>&ecirc;tre <ind>lent</ind></trd>,
     <trd>trainer<klr> (&ecirc;tre lent)</klr></trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>lambat</baz>berlambat-lambat</trd>,
+    <trd><baz>lama</baz>berlama-lama</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#12422;&#12387;&#x304F;&#x308A;&#36914;&#12416;  <pr>&#12422;&#12387;&#x304F;&#x308A;&#12377;&#12377;&#12416;</pr></trd>,
-    <trd>&#x306E;&#x308D;&#x306E;&#x308D;&#x884C;&#x304F; 
+    <trd>&#x306E;&#x308D;&#x306E;&#x308D;&#x884C;&#x304F;
     <pr>&#x306E;&#x308D;&#x306E;&#x308D;&#12356;&#x304F;</pr></trd>,
     <trd>&#38263;&#x5F15;&#x304F;  <pr>&#x306A;&#x304C;&#12403;&#x304F;</pr></trd>,
     <trd>&#36933;&#x308C;&#x308B;  <pr>&#x304A;&#x304F;&#x308C;&#x308B;</pr></trd>,
@@ -1432,7 +1508,19 @@
       <trd>rasend <ind>schnell</ind></trd>,
       <trd>wie im <ind>Flug</ind>e</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x500F;&#28982; <pr>sh&#xF9;r&#xE1;n</pr></trd>,
+    <trd>&#x500F;&#x5FFD; <pr>sh&#xF9;h&#x16B;</pr></trd>,
+    <trd>&#x5FFD;&#x5FFD; <pr>h&#x16B;h&#x16B;</pr></trd>,
+    <trd>&#x98A8;&#x99B3;&#x96FB;&#x63A3;&#x822C;&#22320;
+    <pr>f&emacron;ngch&#xED;di&#xE0;nch&#xE8;b&amacron;nd&#xEC;</pr></trd>,
+    <trd>&#x98CE;&#x9A70;&#30005;&#x63A3;&#x822C;&#22320; <pr>f&emacron;ngch&#xED;di&#xE0;nch&#xE8;b&amacron;nd&#xEC;</pr></trd>,
+    <trd>&#x7ACB;&#21363; <pr>l&#xEC;j&#xED;</pr></trd>,
+    <trd>&#38275;&#x96FB;&#x822C; <pr>sh&#x1CE;ndi&#xE0;nb&amacron;n</pr></trd>,
+    <trd>&#x95EA;&#30005;&#x822C; <pr>sh&#x1CE;ndi&#xE0;nb&amacron;n</pr></trd>,
+    <trd>&#x795E;&#x901F; <pr>sh&#xE9;ns&#xF9;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_je;&c_l;&c_mol;&c_m;&c_ib; <ind>&c_h;&c_u;&c_t;&c_k;&c_ib;</ind></trd>,
     <trd>&c_m;&c_a;&c_l;&c_a;&c_n;&c_k;&c_a;&c_v;&c_y;</trd>,
@@ -1440,6 +1528,11 @@
     <trd>&c_b;&c_l;&c_ib;&c_s;&c_k;&c_a;&c_v;&c_ib;&c_ch;&c_n;&c_y;</trd>
   </trdgrp>
   <trd lng="fr">foudroyant<klr> (tr&egrave;s rapide)</klr></trd>
+  <trdgrp lng="id">
+    <trd><ind>sangat</ind> cepat</trd>,
+    <trd><ind>amat</ind> cepat</trd>,
+    <trd><ind>cepat</ind> sekali</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x96FB;&#20809;&#x77F3;&#x706B;&#x306E;  <pr>&#12391;&#12435;&#12371;&#12358;&#x305B;&#12387;&#x304B;&#x306E;</pr></trd>,
     <trd>&#x77AC;&#26178;&#x306E;  <pr>&#12375;&#12421;&#12435;&#12376;&#x306E;</pr></trd>,
@@ -1484,7 +1577,7 @@
   <trd lng="de">Lichtgeschwindigkeit</trd>
   <trd lng="en">velocity of light</trd>
   <trd lng="fr">vitesse de la lumi&eacute;re</trd>
-  <trd lng="id">ke<ind>cepat</ind>an cahaya</trd>
+  <trd lng="id"><baz>cepat</baz>kecepatan cahaya</trd>
   <trd lng="it">velocit&aacute; della luce</trd>
   <trd lng="ja">&#20809;&#x901F;&#x5EA6;  <pr>&#12371;&#12358;&#x305D;&#x304F;&#12393;</pr></trd>
   <trd lng="nl">lichtsnelheid</trd>
@@ -1494,10 +1587,14 @@
   <trd lng="sk">r&yacute;chlos&tcaron; svetla</trd>
   <trd lng="tr">&inodot;&scedil;&inodot;k h&inodot;z&inodot;</trd>
   <trd lng="uk">&c_sh;&c_v;&c_i;&c_d;&#x43A;&c_ib;&c_s;&c_t;&#x44C; &c_s;&c_v;&c_ib;&c_t;&#x43B;&c_a;</trd>
+  <trd lng="zh">&#20809;&#x901F; <pr>gu&amacron;ngs&#xF9;</pr></trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.141 2024/04/29 09:25:21
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
 versio 1.139 2023/12/12 20:10:26
 revo: kor. lat. transskribo/latvaj literoj
 
@@ -1517,8 +1614,5 @@ versio 1.133 2023/08/29 13:30:14
 Wolfram Diestel: ja: +prononco
 
 versio 1.132 2023/07/26 08:30:35
-Dmitri Gabinski: + trd be
-
-versio 1.131 2023/07/04 20:31:22
 -->
 </vortaro>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: rezin.xml,v 1.25 2023/12/15 07:24:35 revo Exp $">
+<art mrk="$Id: rezin.xml,v 1.27 2024/11/14 08:33:07 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>rezin</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>rezin</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="rezin.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -13,13 +13,51 @@
     <dif>
       Glueca brulema suko de kelkaj arboj, precipe de koniferoj:
       <ekz>
-        la juna picearo <klr>...</klr> elspiris
+        pecetoj da ligno <klr>[&#8230;]</klr> gluitaj inter si kredeble per <tld/>o
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ricevis <klr>[&#8230;]</klr> <tld/>e odoretantan vinon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is <klr>(per <ref cel="kolofo.0o">kolofono</ref>)</klr> la malnovan ar&ccirc;on,
+        metis la violonon sub la mentonon kaj dum interna
+        tremo ektu&scirc;is la kordojn
+        <fnt>
+          <bib>HsT</bib>
+          <lok>La nepo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la juna picearo <klr>[&#8230;]</klr> elspiris
         spican aromon de <tld/>o
         <fnt>
           <aut>S. Bubeni&ccaron;</aut>,
           <vrk>Sub Cirkotendo</vrk>,
           <lok>1969</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam li strie sen&scirc;eligis la trunkojn, la <tld/>o fluis kvaza&ubreve; maldensa suko kaj
+        alglui&gcirc;is al la manoj
+        <fnt>
+          <bib>Tor</bib>
+          <lok>II.</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        flami&gcirc;ema kiel ligno<ind> <tld/>a</ind>
+        <fnt>
+          <bib>PrV</bib>
         </fnt>.
+        <trd lng="de">harzig</trd>
       </ekz>
     </dif>
   </snc>
@@ -57,7 +95,7 @@
   <trd lng="es">resina</trd>
   <trd lng="fr">r&eacute;sine</trd>
   <trd lng="hu">gyanta</trd>
-  <trd lng="ja">&#x6A39;&#33026;  <pr>&#12376;&#12421;&#12375;</pr></trd>
+  <trd lng="ja">&#27193;&#33026;  <pr>&#12376;&#12421;&#12375;</pr></trd>
   <trd lng="nl">hars</trd>
   <trdgrp lng="no">
     <trd>harpiks</trd>,
@@ -74,25 +112,30 @@
     <trd>&c_zh;&c_i;&c_v;&c_i;&c_c;&c_ja;</trd>,
     <trd>&c_d;&c_je;&c_r;&c_je;&c_v;&c_n;&c_a; &c_s;&c_m;&c_o;&c_l;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#26641;&#33026; <pr>sh&ugrave;zh&imacron;</pr></trd>,
+    <trd>&#27193;&#33026; <pr>sh&ugrave;zh&imacron;</pr></trd>,
+    <trd>&#26641;&#33014; <pr>sh&ugrave;ji&amacron;o</pr></trd>,
+    <trd>&#27193;&#33184; <pr>sh&ugrave;ji&amacron;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rezin.epoksi0o">
-  <kap>epoksi<tld/>o</kap>
+  <kap>epoksi<tld/>o, <var><kap>epoks<tld/>o</kap></var></kap>
   <snc>
     <uzo tip="fak">KEM</uzo>
     <dif>
       <ref tip="dif" cel="rezin.0o.KEM">Rezino <sncref/></ref>,
       konsistanta el homo- a&ubreve; hetero-polimero de epoksihava(j)
-    molekulo(j), industrie uzata por gluoj, en <ref tip="dif"
-    cel="elektronik.0o.ELE">elektroniko</ref> kaj en
+    molekulo(j), industrie uzata por gluoj, en <ref tip="dif" cel="elektronik.0o.ELE">elektroniko</ref> kaj en
       elektrotekniko:
       <ekz>
         la impregnaj materioj povas esti produkta&jcirc;oj de mineraloleo,
         vaksoj, epoksi-<tld/>o
         <fnt>
           <vrk><url ref="http://espleono.uw.hu/kondensiloj.pdf">Kondensiloj</url>
-          </vrk>.
-        </fnt>
+          </vrk>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="kart.cirkvit0o">cirkvitkarto</ref>
@@ -101,6 +144,10 @@
   <trd lng="de">Epoxidharz</trd>
   <trd lng="fr">r&eacute;sine d'&eacute;poxy</trd>
 <trd lng="pl">&zdot;ywica epoksydowa</trd>
+  <trdgrp lng="zh">
+    <trd>&#29615;&#27687;&#26641;&#33026; <pr>hu&aacute;ny&#462;ngsh&ugrave;zh&imacron;</pr></trd>,
+    <trd>&#29872;&#27687;&#27193;&#33026; <pr>hu&aacute;ny&#462;ngsh&ugrave;zh&imacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rezin.arta0o">
@@ -108,7 +155,7 @@
   <snc mrk="rezin.arta0o.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      <ref tip="dif" cel="rezin.0o.KEM">Rezino <sncref/></ref>:
+      <ref tip="dif" cel="rezin.0o.KEM"><tld lit="R"/>o<sncref/></ref>:
       <ekz>
         bakelito kaj aliaj sintezaj <tld/>oj
         <fnt><bib>Viki</bib>, <lok>artikolo &leftquot;amoniako&rightquot;,
@@ -126,14 +173,22 @@
   </trdgrp>
   <trd lng="de">Kunstharz</trd>
   <trd lng="fr">r&eacute;sine synth&eacute;tique</trd>
-  <trd lng="ja">&#21512;&#25104;&#x6A39;&#33026;  <pr>&#12372;&#12358;&#x305B;&#12356;&#12376;&#12421;&#12375;</pr></trd>
+  <trd lng="ja">&#21512;&#25104;&#27193;&#33026;  <pr>&#12372;&#12358;&#12379;&#12356;&#12376;&#12421;&#12375;</pr></trd>
   <trd lng="pl">&zdot;ywica syntetyczna</trd>
   <trd lng="sk">umel&aacute; &zcaron;ivica</trd>
+  <trdgrp lng="zh">
+    <trd>&#20154;&#36896;&#26494;&#39321; <pr>r&eacute;nz&agrave;os&omacron;ngxi&amacron;ng</pr></trd>,
+    <trd>&#21512;&#25104;&#26641;&#33026; <pr>h&eacute;ch&eacute;ngsh&ugrave;zh&imacron;</pr></trd>,
+    <trd>&#21512;&#25104;&#27193;&#33026; <pr>h&eacute;ch&eacute;ngsh&ugrave;zh&imacron;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.27 2024/11/14 08:33:07
+Wolfram Diestel: +ekz-oj
+
 versio 1.25 2023/12/15 07:24:35
 Dmitri Gabinski: + trd be
 
@@ -153,8 +208,5 @@ Revision 1.17  2015/04/14 22:10:16  revo
 Filip van Laenen: +trd(no)
 
 Revision 1.16  2014/01/10 11:10:17  revo
-Damien Brucker: +epoksirezino
-
-Revision 1.15  2013/08/12 19:10:11  revo
 -->
 </vortaro>

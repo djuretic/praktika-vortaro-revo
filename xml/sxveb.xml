@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sxveb.xml,v 1.35 2024/02/01 01:26:59 revo Exp $">
+<art mrk="$Id: sxveb.xml,v 1.37 2024/09/19 09:30:38 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>&scirc;veb</rad>/i <fnt><bib>PV</bib></fnt>
@@ -174,7 +174,7 @@
     <trd>&#12377;&#12409;&#x308B;&#12424;&#12358;&#x306B;&#x52D5;&#x304F;  <pr>&#12377;&#12409;&#x308B;&#12424;&#12358;&#x306B;&#12358;&#12372;&#x304F;</pr></trd>,
     <trd>&#x6F02;&#12358;  <pr>&#x305F;&#12384;&#12424;&#12358;</pr></trd>,
     <trd/>,
-    <trd>&#x5B99;&#12389;&#x308A;&#x306B;&#x306A;&#12387;&#12390;&#12356;&#x308B; 
+    <trd>&#x5B99;&#12389;&#x308A;&#x306B;&#x306A;&#12387;&#12390;&#12356;&#x308B;
     <pr>&#12385;&#12421;&#12358;&#12389;&#x308A;&#x306B;&#x306A;&#12387;&#12390;&#12356;&#x308B;</pr></trd>
   </trdgrp>
   <trd lng="nl">zweven</trd>
@@ -194,6 +194,12 @@
     <trd>&c_v;&c_i;&c_t;&c_a;&c_t;&c_i;</trd>,
     <trd>&c_v;&c_i;&c_s;&c_ib;&c_t;&c_i; &c_v; &#x43F;&#x43E;&c_v;&c_ib;&c_t;&c_r;&c_ib;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x98BB; <pr>y&#xE1;o</pr></trd>,
+    <trd>&#x98D6; <pr>y&#xE1;o</pr></trd>,
+    <trd>&#x98C4; <pr>pi&amacron;o</pr></trd>,
+    <trd>&#x98D8; <pr>pi&amacron;o</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxveb.0o">
@@ -202,6 +208,7 @@
     <dif>
       Restado en aero.
     </dif>
+    <trd lng="be">&c_l;&c_u;&c_n;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
     <trd lng="de">Schweben</trd>
   <trd lng="es">planeo</trd>
   <trd lng="fr">flottement</trd>
@@ -217,7 +224,11 @@
     <trd>pairo</trd>,
     <trd>adejo</trd>
   </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x6D6E;&#x6E38; <pr>f&#xFA;y&#xF3;u</pr></trd>,
+    <trd>&#x6D6E;&#x904A; <pr>f&#xFA;y&#xF3;u</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="sxveb.0o.licenco">
     <uzo tip="fak">POE</uzo>
     <dif>
@@ -258,6 +269,7 @@
       tute
       alia senco.
     </rim>
+  <trd lng="be">&c_p;&c_a;&c_e;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_v;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>
   </snc>
 </drv>
 
@@ -280,6 +292,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_r;&c_u;&c_zh;&c_y;&c_c;&c_mol; <klr>(&c_v;&c_a;&c_k;&c_o;&c_l; &c_ch;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>,
+    <trd>&c_l;&c_jo;&c_t;&c_a;&c_c;&c_mol; <klr>(&c_v;&c_a;&c_k;&c_o;&c_l; &c_ch;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+  </trdgrp>
   <trd lng="de">umschweben</trd>
   <trdgrp lng="it">
     <trd>volteggiare<klr> (volare)</klr></trd>,
@@ -314,6 +330,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_z;&c_mol;&c_v;&c_je;&c_j;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_r;&c_a;&c_s;&c_mol;&c_s;&c_je;&c_j;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&eacute;maner</trd>,
     <trd>s'<ind>exhaler</ind></trd>
@@ -326,8 +346,11 @@
 </art>
 <!--
 $Log$
+versio 1.37 2024/09/19 09:30:38
+Dmitri Gabinski: + trd be
+
 versio 1.35 2024/02/01 01:26:59
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.34 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -345,8 +368,5 @@ Revision 1.27  2014/11/24 00:10:34  revo
 Neil Roberts: +trd en
 
 Revision 1.26  2012/08/22 08:10:09  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.25  2010/03/19 17:30:41  revo
 -->
 </vortaro>

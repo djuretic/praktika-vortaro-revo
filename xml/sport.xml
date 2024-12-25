@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sport.xml,v 1.39 2023/10/21 07:46:48 revo Exp $">
+<art mrk="$Id: sport.xml,v 1.43 2024/08/28 12:50:34 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>sport</rad>/o
+  <fnt><bib>JED</bib></fnt>
 </kap>
 
 <drv mrk="sport.0o">
@@ -140,15 +141,23 @@
   <trd lng="fa">&a_w;&a_r;&a_z;&a_sh;</trd>
   <trd lng="fr">sport</trd>
   <trd lng="hu">sport</trd>
+  <trd lng="ils"
+  kod="M529x590S30e00482x483S1f510503x538S1f61a487x529S26b00502x557S26b10472x557S2fc00493x579"></trd>
   <trdgrp lng="ja">
-    <trd>&#x30B9;&#x30DD;&#x30FC;&#x30C4;  <pr>&#12377;&#x307D;&#x30FC;&#12388;</pr></trd>,
-    <trd>&#x904B;&#x52D5;&#x7AF6;&#25216;  <pr>&#12358;&#12435;&#12393;&#12358;&#x304D;&#12423;&#12358;&#x304E;</pr></trd>
+    <trd>&#12473;&#12509;&#12540;&#12484;  <pr>&#12377;&#12413;&#12540;&#12388;</pr></trd>,
+    <trd>&#36939;&#21205;&#31478;&#25216;  <pr>&#12358;&#12435;&#12393;&#12358;&#12365;&#12423;&#12358;&#12366;</pr></trd>
   </trdgrp>
   <trd lng="nl">sport</trd>
   <trd lng="pl">sport</trd>
   <trd lng="ru">&c_s;&c_p;&c_o;&c_r;&c_t;</trd>
   <trd lng="sk">&scaron;port</trd>
-  <trd lng="uk">&c_s;&#x43F;&#x43E;&c_r;&c_t;</trd>
+  <trd lng="sgn"
+  kod="M521x518S2ff00483x483S36d00479x498S1f548484x452S1f540503x452S20500496x448">G@35*</trd>
+  <trd lng="uk">&c_s;&c_p;&c_o;&c_r;&c_t;</trd>
+  <trdgrp lng="zh">
+    <trd>&#20307;&#32946;&#27963;&#21160; <pr>t&#464;y&ugrave;hu&oacute;d&ograve;ng</pr></trd>,
+    <trd>&#39636;&#32946;&#27963;&#21205; <pr>t&#464;y&ugrave;hu&oacute;d&ograve;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sport.0i">
@@ -238,12 +247,17 @@
   <trd lng="es">practicar un deporte</trd>
   <trd lng="fa">&a_w;&a_r;&a_z;&a_sh; &f_k;&a_r;&a_d;&a_n;</trd>
   <trdgrp lng="fr">
+    <trd>faire du <ind>sport</ind></trd>,
     <trd>pratiquer un <ind>sport</ind></trd>
   </trdgrp>
   <trd lng="hu">sportol</trd>
   <trd lng="pl">uprawia&cacute;  <ind>sport</ind></trd>
   <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja; &c_s;&c_p;&c_o;&c_r;&c_t;&c_o;&c_m;</trd>
   <trd lng="sk">&scaron;portova&tcaron;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21442;&#21152;&#20307;&#32946;&#27963;&#21160; <pr>c&amacron;nji&amacron;t&#464;y&ugrave;hu&oacute;d&ograve;ng</pr></trd>,
+    <trd>&#21443;&#21152;&#39636;&#32946;&#27963;&#21205; <pr>c&amacron;nji&amacron;t&#464;y&ugrave;hu&oacute;d&ograve;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sport.0ejo">
@@ -299,12 +313,13 @@
   </trdgrp>
   <trdgrp lng="fr">
     <trd>complexe sportif</trd>,
-    <trd>terrain de sport</trd>
-  </trdgrp>
+    <trd>terrain de sport</trd>,
+    <trd>salle de sport</trd>
+    </trdgrp>
   <trd lng="hu">sportp&aacute;lya</trd>
   <trdgrp lng="ja">
-    <trd>&#x904B;&#x52D5;&#22580;  <pr>&#12358;&#12435;&#12393;&#12358;&#12376;&#12423;&#12358;</pr></trd>,
-    <trd>&#x904B;&#x52D5;&#x7AF6;&#25216;&#22580;  <pr>&#12358;&#12435;&#12393;&#12358;&#x304D;&#12423;&#12358;&#x304E;&#12376;&#12423;&#12358;</pr></trd>
+    <trd>&#36939;&#21205;&#22580;  <pr>&#12358;&#12435;&#12393;&#12358;&#12376;&#12423;&#12358;</pr></trd>,
+    <trd>&#36939;&#21205;&#31478;&#25216;&#22580;  <pr>&#12358;&#12435;&#12393;&#12358;&#12365;&#12423;&#12358;&#12366;&#12376;&#12423;&#12358;</pr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>stadion</trd>,
@@ -321,9 +336,17 @@
     <trd>&scaron;portov&yacute; &scaron;tadi&oacute;n</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_s;&c_t;&c_a;&c_d;&c_ib;&#x43E;&#x43D;</trd>,
-    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j; &c_z;&c_a;&#x43B;</trd>,
-    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&c_i;&c_v;&#x43D;&c_i;&c_j; &#x43C;&c_a;&c_j;&c_d;&c_a;&#x43D;&c_ch;&c_i;&#x43A;</trd>
+    <trd>&c_s;&c_t;&c_a;&c_d;&c_ib;&c_o;&c_n;</trd>,
+    <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_i;&c_v;&c_n;&c_i;&c_j; &c_z;&c_a;&c_l;</trd>,
+    <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_i;&c_v;&c_n;&c_i;&c_j; &c_m;&c_a;&c_j;&c_d;&c_a;&c_n;&c_ch;&c_i;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#29699;&#22330; <pr>qi&uacute;ch&#462;ng</pr></trd>,
+    <trd>&#29699;&#22580; <pr>qi&uacute;ch&#462;ng</pr></trd>,
+    <trd>&#25805;&#22330; <pr>c&amacron;och&#462;ng</pr></trd>,
+    <trd>&#25805;&#22580; <pr>c&amacron;och&#462;ng</pr></trd>,
+    <trd>&#36816;&#21160;&#22330; <pr>y&ugrave;nd&ograve;ngch&#462;ng</pr></trd>,
+    <trd>&#36939;&#21205;&#22580; <pr>y&ugrave;nd&ograve;ngch&#462;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -370,13 +393,19 @@
     <trd>sportif<klr> (subst.)</klr></trd>
   </trdgrp>
   <trd lng="hu">sportol&oacute;</trd>
-  <trd lng="ja">&#x30B9;&#x30DD;&#x30FC;&#x30C4;&#x30DE;&#x30F3;</trd>
+  <trd lng="ja">&#12473;&#12509;&#12540;&#12484;&#12510;&#12531;</trd>
   <trd lng="pl">sportowiec</trd>
   <trd lng="ru">&c_s;&c_p;&c_o;&c_r;&c_t;&c_s;&c_m;&c_je;&c_n;</trd>
   <trd lng="sk">&scaron;portovec</trd>
   <trdgrp lng="uk">
-    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&c_s;&#x43C;&c_je;&#x43D;</trd>,
-    <trd>&c_s;&#x43F;&#x43E;&c_r;&c_t;&#x43E;&c_v;&c_je;&c_c;&#x44C;</trd>
+    <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_s;&c_m;&c_je;&c_n;</trd>,
+    <trd>&c_s;&c_p;&c_o;&c_r;&c_t;&c_o;&c_v;&c_je;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#36816;&#21160;&#21592; <pr>y&ugrave;nd&ograve;ngyu&aacute;n</pr></trd>,
+    <trd>&#36939;&#21205;&#21729; <pr>y&ugrave;nd&ograve;ngyu&aacute;n</pr></trd>,
+    <trd>&#36816;&#21160;&#23478; <pr>y&ugrave;nd&ograve;ngji&amacron;</pr></trd>,
+    <trd>&#36939;&#21205;&#23478; <pr>y&ugrave;nd&ograve;ngji&amacron;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -414,17 +443,30 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_ib;&c_m;&c_o;&c_v;&c_y; <ind>&c_s;&c_p;&c_o;&c_r;&c_t;</ind></trd>,
+    <trd>&c_z;&c_ib;&c_m;&c_o;&c_v;&c_y; <ind>&c_v;&c_ib;&c_d;</ind> &c_s;&c_p;&c_o;&c_r;&c_t;&c_u;</trd>
+  </trdgrp>
   <trd lng="fr">sport d'hiver</trd>
   <trd lng="pl">sport zimowy</trd>
 </drv>
 </art>
   <!--
   $Log$
+versio 1.43 2024/08/28 12:50:34
+Wolfram Diestel: ~o: +trd ils, sgn
+
+versio 1.42 2024/05/27 19:20:19
+Alain Gerard: + trd fr
+
+versio 1.40 2024/02/13 12:37:25
+Dmitri Gabinski: + trd be
+
 versio 1.39 2023/10/21 07:46:48
 revo: transskribo per <pr>
 
 versio 1.38 2023/10/03 20:24:53
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.36 2023/05/14 14:19:27
 revo: movu drv sport.0ludo al/sub lud.seks0ilo
@@ -433,14 +475,5 @@ versio 1.35 2023/05/01 14:27:50
 Paul Peeraerts: Steloj -> monato
 
 versio 1.34 2023/04/26 16:34:30
-Paul Peeraerts: &Steloj -> &Monato
-
-versio 1.33 2023/04/14 14:27:25
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.32 2023/04/11 09:27:13
-Paul Peeraerts: Steloj -> monato.be
-
-versio 1.31 2022/05/05 14:43:48
 -->
 </vortaro>

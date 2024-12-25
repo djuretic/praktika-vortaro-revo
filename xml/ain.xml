@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ain.xml,v 1.18 2023/10/28 08:32:44 revo Exp $">
+<art mrk="$Id: ain.xml,v 1.20 2024/08/19 01:46:40 revo Exp $">
 <kap>
   <rad>ajnu</rad>o <fnt><bib>PIV2</bib></fnt>,
   <var><kap><rad var="i">ain</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
@@ -20,7 +20,8 @@
         Hokajdo anta&ubreve; la Japana konkero de la 19-a jarcento
         <fnt>
           <aut>Philippe Pataut C&eacute;l&eacute;rier trad. Thierry Tailhades</aut>
-          <vrk><url ref="&Mondediplo;article2598.html">En Fukushima, banaligita katastrofo</url></vrk>
+          <vrk><url ref="&Mondediplo;article2598.html">En Fukushima, banaligita
+          katastrofo</url></vrk>
           <lok>Le monde diplomatique, 2018-04-01</lok>
         </fnt>;
       </ekz>
@@ -36,10 +37,11 @@
       </ekz>
     </dif>
     <trdgrp lng="zh">
-    <trd>&#x611B;&#x52AA;&#x65CF; <pr>&#xE0;in&#x1D4;z&#xFA;</pr></trd>,
-    <trd>&#x7231;&#x52AA;&#x65CF; <pr>&#xE0;in&#x1D4;z&#xFA;</pr></trd>
-  </trdgrp>
+      <trd>&#x611B;&#x52AA;&#x65CF; <pr>&#xE0;in&#x1D4;z&#xFA;</pr></trd>,
+      <trd>&#29233;&#x52AA;&#x65CF; <pr>&#xE0;in&#x1D4;z&#xFA;</pr></trd>
+    </trdgrp>
 </snc>
+  <trd lng="be">&c_a;&c_j;&c_n;</trd>
   <trd lng="ca">ainu<klr> (subst.)</klr></trd>
   <trd lng="cs">Aino</trd>
   <trd lng="de">Ainu</trd>
@@ -47,11 +49,15 @@
   <trd lng="fr">A&iuml;nou<klr> (subst.)</klr></trd>
   <trd lng="id">Ainu</trd>
   <trd lng="it">Ainu</trd>
-  <trd lng="ja">&#x30A2;&#x30A4;&#x30CC; <pr>&#x3042;&#x3044;&#x306C;</pr></trd>
+  <trd lng="ja">&#x30A2;&#x30A4;&#x30CC; <pr>&#12354;&#12356;&#x306C;</pr></trd>
   <trdgrp lng="nl">
     <trd>Aino</trd>,
     <trd>Ainoe</trd>,
     <trd>Ainu</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>Ajnus</trd>,
+    <trd>Ajnos</trd>
   </trdgrp>
   <trd lng="sk">Aino</trd>
   <trd lng="uk">&c_a;&c_j;&c_n;</trd>
@@ -72,7 +78,7 @@
     <trd lng="ca">ainu<klr> (adj.)</klr></trd>
     <trd lng="de">Ainu-</trd>
     <trd lng="fr">a&iuml;nou<klr> (adj.)</klr></trd>
-    <trd lng="ja">&#x30A2;&#x30A4;&#x30CC;&#x306E; <pr>&#x3042;&#x3044;&#x306C;&#x306E;</pr></trd>
+    <trd lng="ja">&#x30A2;&#x30A4;&#x30CC;&#x306E; <pr>&#12354;&#12356;&#x306C;&#x306E;</pr></trd>
   </snc>
   <snc mrk="ain.0a.lingvo">
     <dif>
@@ -90,21 +96,31 @@
         <lok>2001:12</lok>
       </fnt>
     </ekz>
-    <trd lng="ja">&#x30A2;&#x30A4;&#x30CC;&#x8A9E; <pr>&#x3042;&#x3044;&#x306C;&#x3054;</pr></trd>
+    <trd lng="ja">&#x30A2;&#x30A4;&#x30CC;&#x8A9E; <pr>&#12354;&#12356;&#x306C;&#12372;</pr></trd>
     <trdgrp lng="nl">
       <trd>Aino<klr tip="ind"> (taal)</klr></trd>,
       <trd>Ainoe<klr tip="ind"> (taal)</klr></trd>,
       <trd>Ainu<klr tip="ind"> (taal)</klr></trd>
     </trdgrp>
   </snc>
+  <trd lng="be">&c_a;&c_j;&c_n;&c_s;&c_k;&c_ib;</trd>
   <trd lng="en">Ainu<klr tip="ind"> (language)</klr></trd>
   <trd lng="it">ainu</trd>
+  <trdgrp lng="pl">
+    <trd>ajnuski</trd>,
+    <trd>ajnoski</trd>
+  </trdgrp>
 </drv>
-
 </art>
 
 <!--
 $Log$
+versio 1.20 2024/08/19 01:46:40
+Vito Redsky: + trd pl
+
+versio 1.19 2024/06/12 07:25:31
+Dmitri Gabinski: + trd be
+
 versio 1.17 2023/10/12 16:57:43
 revo: transskribo per <pr>
 
@@ -121,11 +137,5 @@ versio 1.12 2020/09/09 18:10:39
 Wolfram Diestel: +tld-var
 
 versio 1.11 2020/05/25 18:10:51
-Sam Penter: +var ajnuo, +snc la ajnua, +ekz-oj, +trd-oj
-
-Revision 1.9  2015/07/04 08:37:29  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.8  2015/06/28 12:03:35  revo
 -->
 </vortaro>

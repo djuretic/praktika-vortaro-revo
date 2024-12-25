@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sonor.xml,v 1.113 2023/12/11 09:27:35 revo Exp $">
+<art mrk="$Id: sonor.xml,v 1.116 2024/05/22 19:22:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sonor</rad>/i <fnt><bib>PV</bib></fnt>
@@ -137,8 +137,8 @@
   </trdgrp>
   <trd lng="hy">&#1396;&#1377;&#x57F;&#1377;&#1398;&#x56B;</trd>
   <trdgrp lng="id">
-    <trd>ber<ind>dering</ind></trd>,
-    <trd>ber<ind>dentang</ind></trd>
+    <trd><baz>dering</baz>berdering</trd>,
+    <trd><baz>dentang</baz>berdentang</trd>
   </trdgrp>
   <trd lng="ig">mgbanaka</trd>
   <trd lng="is">hringur</trd>
@@ -170,6 +170,10 @@
   </trdgrp>
   <trd lng="ny">mphete</trd>
   <trd lng="pa">&#xA30;&#xA3F;&#xA70;&#xA17;</trd>
+  <trdgrp lng="pl">
+    <trd>dzwoni&cacute;</trd>,
+    <trd>og&lstroke;asza&cacute;</trd>
+  </trdgrp>
   <trd lng="ps">&a_H;&a_l;&a_q;&a_w;&a_y;</trd>
   <trd lng="ru">&c_z;&c_v;&c_je;&c_n;&c_je;&c_t;&c_mol;</trd>
   <trd lng="rw">impeta</trd>
@@ -200,6 +204,17 @@
   <trd lng="xh">umsesane</trd>
   <trd lng="yi">&resh;&yod;&nun;&#8503;</trd>
   <trd lng="yo">iw&#x1ECD;n</trd>
+  <trdgrp lng="zh">
+    <trd>&#x7BEE;&#22280; <pr>l&#xE1;nqu&amacron;n</pr></trd>,
+    <trd>&#x7C43;&#22280; <pr>l&#xE1;nqu&amacron;n</pr></trd>,
+    <trd>&#25106;&#x5B50; <pr>ji&#xE8;zi</pr></trd>,
+    <trd>&#20849;&#x9CF4; <pr>g&#xF2;ngm&#xED;ng</pr></trd>,
+    <trd>&#20849;&#x9E23; <pr>g&#xF2;ngm&#xED;ng</pr></trd>,
+    <trd>&#x53EE;&#37428; <pr>d&#x12B;ngl&#xED;ng</pr></trd>,
+    <trd>&#x53EE;&#x94C3; <pr>d&#x12B;ngl&#xED;ng</pr></trd>,
+    <trd>&#x54CD;&#x5F7B; <pr>xi&#x1CE;ngch&#xE8;</pr></trd>,
+    <trd>&#x97FF;&#x5FB9; <pr>xi&#x1CE;ngch&#xE8;</pr></trd>
+  </trdgrp>
   <trd lng="zu">nkeneza</trd>
 </drv>
 
@@ -265,10 +280,18 @@
     <trd>ringing</trd>
   </trdgrp>
   <trd lng="fr">sonore</trd>
+  <trdgrp lng="id">
+    <trd>nyaring</trd>,
+    <trd>lantang</trd>
+  </trdgrp>
   <trdgrp lng="ja">
     <trd>&#x97FF;&#x304D;&#x306E;&#12354;&#x308B;  <pr>&#12402;&#12403;&#x304D;&#x306E;&#12354;&#x308B;</pr></trd>,
     <trd>&#12424;&#x304F;&#x97FF;&#x304F;  <pr>&#12424;&#x304F;&#12402;&#12403;&#x304F;</pr></trd>,
     <trd>&#26391;&#26391;&#12392;&#12375;&#x305F;  <pr>&#x308D;&#12358;&#x308D;&#12358;&#12392;&#12375;&#x305F;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>d&zacute;wi&eogonek;czny</trd>,
+    <trd>dono&sacute;ny</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_v;&c_o;&c_n;&c_k;&c_i;&c_j;</trd>,
@@ -281,6 +304,14 @@
   <trdgrp lng="uk">
     <trd>&c_d;&c_z;&c_v;&c_ib;&c_n;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_s;&c_o;&c_n;&c_o;&c_r;&c_n;&c_i;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x597D;&#x542C; <pr>h&#x1CE;ot&#x12B;ng</pr></trd>,
+    <trd>&#x597D;&#x807D; <pr>h&#x1CE;ot&#x12B;ng</pr></trd>,
+    <trd>&#26377;&#x58F0; <pr>y&#x1D2;ush&emacron;ng</pr></trd>,
+    <trd>&#26377;&#32882; <pr>y&#x1D2;ush&emacron;ng</pr></trd>,
+    <trd>&#x6D2A;&#x4EAE; <pr>h&#xF3;ngli&#xE0;ng</pr></trd>,
+    <trd>&#x5B8F;&#x4EAE; <pr>h&#xF3;ngli&#xE0;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -346,14 +377,28 @@
       <trd>z&uacute;g&aacute;s</trd>,
       <trd>b&uacute;g&aacute;s</trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd><baz>dentang</baz>dentangan</trd>,
+      <trd><baz>dering</baz>deringan</trd>
+    </trdgrp>
+    <trd lng="pl">d&zacute;wi&eogonek;k</trd>
     <trd lng="ru">&c_z;&c_v;&c_o;&c_n;</trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x58F0;&#x54CD; <pr>sh&emacron;ngxi&#x1CE;ng</pr></trd>,
+    <trd>&#32882;&#x97FF; <pr>sh&emacron;ngxi&#x1CE;ng</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="sonor.0o.FON">
     <uzo tip="fak">FON</uzo>
     <fnt><bib>PV</bib></fnt>
     <uzo tip="stl">ARK</uzo>
     <ref tip="dif" cel="sonor.0anto.FON"><tld/>anto</ref>
     <trd lng="be">&c_s;&c_a;&c_n;&c_o;&c_r;&c_n;&c_y; &c_g;&c_u;&c_k;</trd>
+  <trdgrp lng="id">
+    <trd>konsonan bersuara</trd>,
+    <trd>sonoran</trd>,
+    <trd>resonan</trd>
+  </trdgrp>
   </snc>
   <trd lng="bo">&t_sa;&t_gata;&t_rata;&t_tsheg;</trd>
   <trd lng="cs">zvon&ecaron;n&iacute;</trd>
@@ -399,12 +444,25 @@
     <trd lng="de">Sonorant</trd>
     <trd lng="en">sonorant</trd>
     <trd lng="hu">z&ouml;nge</trd>
+    <trdgrp lng="id">
+       <trd>konsonan bersuara</trd>,
+       <trd>sonoran</trd>,
+       <trd>resonan</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>sonorant</trd>,
+      <trd>sp&oacute;&lstroke;g&lstroke;oska zwarto-otwarta</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_o;&c_n;&c_a;&c_n;&c_t;</trd>,
       <trd>&c_s;&c_o;&c_n;&c_o;&c_r;&c_n;&c_y;&c_j;
       &c_s;&c_o;&c_g;&c_l;&c_a;&c_s;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x54CD;&#x97F3; <pr>xi&#x1CE;ngy&#x12B;n</pr></trd>,
+    <trd>&#x97FF;&#x97F3; <pr>xi&#x1CE;ngy&#x12B;n</pr></trd>
+  </trdgrp>
+</snc>
 </drv>
 
 <drv mrk="sonor.0etigi">
@@ -423,8 +481,10 @@
   </snc>
   <trd lng="be">&c_ch;&c_o;&c_k;&c_a;&c_c;&c_c;&c_a;</trd>
   <trd lng="hu">koccint</trd>
+  <trd lng="id"><baz>sulang</baz>bersulang</trd>
   <trd lng="ja">&#x304B;&#12385;&#12435;&#12392;&#x9CF4;&#12425;&#12377;  <pr>&#x304B;&#12385;&#12435;&#12392;&#x306A;&#12425;&#12377;</pr></trd>
   <trd lng="nl">klinken</trd>
+  <trd lng="pl">toastowa&cacute;</trd>
   <trd lng="ru">&c_ch;&c_o;&c_k;&c_n;&c_u;&c_t;&c_mol;&c_s;&c_ja; <klr tip="amb">(&c_b;&c_o;&c_k;&c_a;&c_l;&c_a;&c_m;&c_i;)</klr></trd>
 </drv>
 
@@ -494,10 +554,18 @@
     <trd>csenget</trd>,
     <trd>harangozik</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd><baz>dering</baz>menderingkan</trd>,
+    <trd><baz>dentang</baz>mendentangkan</trd>
+  </trdgrp>
   <trd lng="ja">&#x9CF4;&#12425;&#12377;  <pr>&#x306A;&#12425;&#12377;</pr></trd>
   <trdgrp lng="nl">
     <trd>bellen</trd>,
     <trd>aanbellen</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>dzwoni&cacute;</trd>,
+    <trd>zadzwoni&cacute;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_v;&c_o;&c_n;&c_i;&c_t;&c_mol;</trd>,
@@ -533,9 +601,17 @@
   <trd lng="hu">harangoz&oacute;</trd>
   <trd lng="ja">&#37912;&#12388;&#x304D;  <pr>&#x304B;&#x306D;&#12388;&#x304D;</pr></trd>
   <trd lng="nl">klokkenluider</trd>
+  <trdgrp lng="pl">
+    <trd>dzwonnik</trd>,
+    <trd>zakrystian</trd>
+  </trdgrp>
   <trd lng="ru">&c_z;&c_v;&c_o;&c_n;&c_a;&c_r;&c_mol;</trd>
   <trd lng="sk">zvon&aacute;r <klr>(ktor&yacute; zvon&iacute;)</klr></trd>
   <trd lng="uk">&c_d;&c_z;&c_v;&c_o;&c_n;&c_a;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#25970;&#x937E;&#x4EBA; <pr>qi&amacron;ozh&#x14D;ngr&#xE9;n</pr></trd>,
+    <trd>&#25970;&#x949F;&#x4EBA; <pr>qi&amacron;ozh&#x14D;ngr&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sonor.0ilaro">
@@ -569,12 +645,22 @@
     <trd>harangj&aacute;t&eacute;k</trd>,
     <trd>campanelli</trd>
   </trdgrp>
+  <trd lng="id">carillon</trd>
   <trdgrp lng="ja">
     <trd>&#x7D44;&#x307F;&#37912;  <pr>&#x304F;&#x307F;&#x304B;&#x306D;</pr></trd>,
     <trd>&#x30C1;&#x30E3;&#x30A4;&#x30E0;</trd>,
     <trd>&#x30AB;&#x30EA;&#x30E8;&#x30F3;</trd>
   </trdgrp>
+  <trd lng="pl">dzwony {pl}</trd>
   <trd lng="sk">zvonkohra</trd>
+  <trdgrp lng="zh">
+    <trd>&#25490;&#37912; <pr>p&#xE1;izh&#x14D;ng</pr></trd>,
+    <trd>&#25490;&#x949F; <pr>p&#xE1;izh&#x14D;ng</pr></trd>,
+    <trd>&#37912;&#x6A02;&#22120; <pr>zh&#x14D;ngyu&#xE8;q&#xEC;</pr></trd>,
+    <trd>&#x949F;&#x4E50;&#22120; <pr>zh&#x14D;ngyu&#xE8;q&#xEC;</pr></trd>,
+    <trd>&#37912;&#29748; <pr>zh&#x14D;ngq&#xED;n</pr></trd>,
+    <trd>&#x949F;&#29748; <pr>zh&#x14D;ngq&#xED;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sonor.0ilego">
@@ -611,6 +697,19 @@
   </trdgrp>
   <trd lng="en">big bell</trd>
   <trd lng="fr">tocsin</trd>
+  <trdgrp lng="id">
+    <trd><ind>bel</ind> besar</trd>,
+    <trd><ind>bel</ind> raksasa</trd>,
+    <trd><ind>lonceng</ind> besar</trd>,
+    <trd><ind>lonceng</ind> raksasa</trd>
+  </trdgrp>
+  <trd lng="pl">dzwon wielki</trd>
+  <trdgrp lng="zh">
+    <trd>&#37912; <pr>zh&#x14D;ng</pr></trd>,
+    <trd>&#x949F; <pr>zh&#x14D;ng</pr></trd>,
+    <trd>&#37912;&#x72C0;&#30340;&#26481;&#x897F; <pr>zh&#x14D;ngzhu&#xE0;ngded&#x14D;ngxi</pr></trd>,
+    <trd>&#x949F;&#x72B6;&#30340;&#x4E1C;&#x897F; <pr>zh&#x14D;ngzhu&#xE0;ngded&#x14D;ngxi</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sonor.0ilejo">
@@ -652,9 +751,14 @@
   <trd lng="id"><ind>menara</ind> lonceng</trd>
   <trd lng="ja">&#37912;&#x697C;  <pr>&#12375;&#12423;&#12358;&#x308D;&#12358;</pr></trd>
   <trd lng="nl">klokkentoren</trd>
+  <trd lng="pl">dzwonnica</trd>
   <trd lng="ru">&c_z;&c_v;&c_o;&c_n;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="sk">zvonica</trd>
   <trd lng="uk">&c_d;&c_z;&c_v;&c_ib;&c_n;&c_i;&c_c;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#37912;&#x6A13; <pr>zh&#x14D;ngl&#xF3;u</pr></trd>,
+    <trd>&#x949F;&#x697C; <pr>zh&#x14D;ngl&#xF3;u</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sonor.0ilo">
@@ -810,7 +914,9 @@
   </trdgrp>
   <trd lng="ny">belu</trd>
   <trd lng="pa">&#xA18;&#xA70;&#xA1F;&#xA40;</trd>
+  <trd lng="pl">dzwon</trd>
   <trd lng="ps">&a_z;&a_n;&#x6AB;</trd>
+  <trd lng="ro">clopot</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_l;&c_o;&c_k;&c_o;&c_l;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_o;&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_i;&c_k;</trd>
@@ -839,11 +945,25 @@
   <trd lng="xh">intsimbi</trd>
   <trd lng="yi">&#8503;&lamed;&alef;&#x5B8;&qof;</trd>
   <trd lng="yo">belii</trd>
+  <trdgrp lng="zh">
+    <trd>&#x93A4; <pr>hu&#x1CE;ng</pr></trd>,
+    <trd>&#x924C; <pr>h&#xE9;</pr></trd>,
+    <trd>&#37428; <pr>l&#xED;ng</pr></trd>,
+    <trd>&#x94C3; <pr>l&#xED;ng</pr></trd>,
+    <trd>&#37704; <pr>y&#x12B;ng</pr></trd>,
+    <trd>&#38195; <pr>y&#x12B;ng</pr></trd>
+  </trdgrp>
   <trd lng="zu">insimbi</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.116 2024/05/22 19:22:22
+Vito Redsky: +trd pl
+
+versio 1.115 2024/05/06 07:23:52
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
 versio 1.113 2023/12/11 09:27:35
 Dmitri Gabinski: + trd be
 
@@ -860,11 +980,5 @@ versio 1.108 2022/05/05 14:43:48
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.107 2022/04/13 06:40:28
-Noam Mohr: +trd en sonor-
-
-versio 1.105 2022/03/18 16:48:06
-Wolfram Diestel: ekz-oj, ref, trd de
-
-versio 1.104 2021/08/22 20:28:28
 -->
 </vortaro>

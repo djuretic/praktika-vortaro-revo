@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: brik.xml,v 1.30 2023/11/18 09:22:07 revo Exp $">
+<art mrk="$Id: brik.xml,v 1.33 2024/09/08 12:47:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>brik</rad>/o <fnt><bib>UV</bib></fnt>
@@ -37,6 +37,11 @@
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>ma&oacute;</trd>,
+      <trd>rajola</trd>,
+      <trd>totxo</trd>
+    </trdgrp>
     <trd lng="be">&c_c;&c_a;&c_g;&c_l;&c_ib;&c_n;&c_a;</trd>
     <trd lng="de">Ziegel</trd>
     <trd lng="en">brick</trd>
@@ -52,15 +57,15 @@
     <trd lng="ru">&c_k;&c_i;&c_r;&c_p;&c_i;&c_ch;</trd>
     <trd lng="sk">tehla</trd>
     <trdgrp lng="zh">
-      <trd>&#24314;&#31569;&#29992;&#30742; <pr>ji&agrave;nzh&ugrave;y&ograve;ngzhu&#257;n</pr></trd>,
-      <trd>&#32784;&#28779;&#30742; <pr>n&agrave;ihu&#466;zhu&#257;n</pr></trd>,
-      <trd>&#30732;&#30742; <pr>q&igrave;zhu&#257;n</pr></trd>
+      <trd>&#24314;&#31569;&#29992;&#30742; <pr>ji&agrave;nzh&ugrave;y&ograve;ngzhu&amacron;n</pr></trd>,
+      <trd>&#32784;&#28779;&#30742; <pr>n&agrave;ihu&#466;zhu&amacron;n</pr></trd>,
+      <trd>&#30732;&#30742; <pr>q&igrave;zhu&amacron;n</pr></trd>
     </trdgrp>
   </snc>
   <snc mrk="brik.0o.FIG_elemento">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Baza <ref tip="vid" cel="elemen.0o.KOMUNE">elemento</ref> de tuto:
+      Baza <ref tip="super" cel="elemen.0o.de_sistemo">elemento</ref> de tuto:
       <ekz>
         oni devas malkombini <klr>[proteinon]</klr> per hidrolizo,
         &gcirc;is la &leftquot;konstru<tld/>oj&rightquot;, aminoacidoj
@@ -73,6 +78,12 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>pe&ccedil;a</trd>,
+      <trd>element</trd>
+    </trdgrp>
+  <trd lng="be">&c_a;&c_s;&c_n;&c_o;&c_v;&c_a;</trd>
+  <trd lng="de">Baustein</trd>
   </snc>
   <snc mrk="brik.0o.formo">
     <uzo tip="stl">FIG</uzo>
@@ -102,9 +113,21 @@
       <ref cel="sxton.0o">&scirc;tono</ref>,
       <ref cel="tegol.0o">tegolo</ref>
     </refgrp>
+    <trdgrp lng="ca">
+      <trd>pastilla<klr tip="ind"> (de sab&oacute;)</klr></trd>,
+      <trd>riell<klr tip="ind"> (d'or)</klr></trd>,
+      <trd>barrell<klr tip="ind"> (d'or)</klr></trd>,
+      <trd>rajola<klr tip="ind"> (de xocolata)</klr></trd>,
+      <trd>taula<klr tip="ind"> (de xocolata)</klr></trd>
+    </trdgrp>
     <trdgrp lng="be">
       <trd>&c_k;&c_a;&c_v;&c_a;&c_l;&c_a;&c_k;</trd>,
       <trd>&c_b;&c_r;&c_u;&c_s;&c_o;&c_k;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Quader</trd>,
+      <trd>Barren</trd>,
+      <trd>Block</trd>
     </trdgrp>
     <trd lng="en">block</trd>
     <trd lng="es">ladrillo</trd>
@@ -199,6 +222,15 @@
 </art>
 <!--
 $Log$
+versio 1.33 2024/09/08 12:47:22
+Hector Alos i Font: korekto ca
+
+versio 1.32 2024/04/27 20:22:28
+Wolfram Diestel: kor. ref, trd de
+
+versio 1.31 2024/03/05 12:38:55
+Dmitri Gabinski: + trd be
+
 versio 1.30 2023/11/18 09:22:07
 Wolfram Diestel: +ekz, ref, fnt
 
@@ -212,14 +244,5 @@ Revision 1.22  2015/10/06 11:10:17  revo
 Evandro Avellar: +trd pt
 
 Revision 1.21  2015/07/04 08:37:31  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.20  2014/10/24 14:10:16  revo
-Eko Nur Syah Hidayat: +trd id
-
-Revision 1.19  2011/12/29 16:10:09  revo
-Jeromo Vasxe: + snc elemento
-
-Revision 1.18  2010/07/06 16:30:14  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: se.xml,v 1.120 2023/10/17 09:24:35 revo Exp $">
+<art mrk="$Id: se.xml,v 1.123 2024/11/06 09:33:47 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>se</rad>
@@ -23,23 +23,17 @@
         <fnt><bib>PrV</bib></fnt>;
       </ekz><ekz>
         <tld/> malri&ccirc;ulo sukcesas, li &ccirc;ion forgesas
-        <fnt>
-          <bib>PrV</bib>
-        </fnt>;
-        <trd lng="hu">szeg&eacute;nyb&odblac;l lett gazdag hamar elhiszi
-        mag&aacute;t</trd>
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="hu">szeg&eacute;nyb&odblac;l lett gazdag hamar elhiszi mag&aacute;t</trd>
       </ekz><ekz>
         <ind><tld/> Pe&ccirc;jo ne semos, Petro ne rikoltos</ind>
         <fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">ha Jancsi nem vet, J&aacute;nos nem arat</trd>
       </ekz><ekz>
         <tld/> vi havos okazon, ne forgesu al mi skribi
-        <fnt>
-          <bib>Hamlet</bib>
-        </fnt>;
+        <fnt><bib>Hamlet</bib></fnt>;
       </ekz><ekz>
-        <tld/> la projekto estos bona, &gcirc;i ja certe estos
-        akceptita;
+        <tld/> la projekto estos bona, &gcirc;i ja certe estos akceptita;
       </ekz><ekz>
         mi povus sveni, <tld/> mi restos sola;
       </ekz><ekz>
@@ -47,16 +41,11 @@
         la ceteraj nacioj komencos;
       </ekz><ekz>
         <tld/> mi estus sana, mi estus feli&ccirc;a
-        <fnt>
-          <bib>F</bib>
-          <lok>&FE; 20</lok>
-        </fnt>;
+        <fnt><bib>F</bib> <lok>&FE; 20</lok></fnt>;
       </ekz><ekz>
         mi ne povus tion kredi, <tld/> mi ne vidus &gcirc;in per miaj
         propraj okuloj
-        <fnt>
-          <bib>Hamlet</bib>
-        </fnt>;
+        <fnt><bib>Hamlet</bib></fnt>;
       </ekz><ekz>
         <tld/> tiu homo ne estus naskita, estus bone por li
         <fnt><bib>NT</bib>, <lok>&Mar; 14:21</lok></fnt>;
@@ -64,10 +53,7 @@
         <ind>ho, <tld/> mi havus</ind>
         <klr>(kiom deziras havi!)</klr>
         rifu&gcirc;ejon
-        <fnt>
-          <bib>MT</bib>
-          <lok>Jeremia 9:2</lok>
-        </fnt>
+        <fnt><bib>MT</bib> <lok>&Jer; 9:2</lok></fnt>
         <klr>(vd <ref tip="vid" cel="optati.0o">optativo</ref>)</klr>
         <trd lng="fi">olisipa minulla</trd>!
       </ekz><ekz>
@@ -107,19 +93,31 @@
   </snc>
   <snc mrk="se.0.MAT">
     <uzo tip="fak">MAT</uzo>
-    <fnt><bib>PIV2</bib>, <lok>kreskanta</lok></fnt>
     <dif>
       Konjunkcio signifanta, ke la
       <ref cel="implic.0o.logika">implico</ref>
       de du <ref cel="propoz.0o.aserto">propozicioj</ref> estas vera:
       <ekz>
+        <klr>(pri kreskanta funkcio:)</klr>
+        <frm>f(x) &#8804; f(y)</frm>, <tld/> <frm>x &#8804; y</frm>
+        <fnt><bib>PIV2</bib>, <lok>kreskanta</lok></fnt>
+      </ekz><ekz>
         <tld/> nombro estas dividebla per <frm>4</frm>, &gcirc;i estas
         dividebla per <frm>2</frm> <klr>(&leftquot;dividebla per
-        <frm>4</frm>&rightquot; implicas &leftquot;dividebla per
-        <frm>2</frm>&rightquot;)</klr>.
+        <frm>4</frm>&rightquot; implicas &leftquot;dividebla per <frm>2</frm>&rightquot;)</klr>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="kondic1.suficxa0o">sufi&ccirc;a kondi&ccirc;o.</ref>
+    <refgrp tip="vid">
+      <ref cel="kondic1.suficxa0o">sufi&ccirc;a kondi&ccirc;o</ref>,
+      <ref cel="se.0o.KOMP">seo<sncref/></ref>
+    </refgrp>
+    <rim>
+      En formalaj lingvoj tiusenca &#8249;se&#8250; estas parto de pluropa (duopa
+      a&ubreve; triopa) konjunkcio, kies aliaj termoj estas
+      <ref cel="tiam.0.se">tiam<sncref/></ref> kaj
+      <ref cel="ali.0e.kontraue">alie<sncref/></ref>; vd
+      <ref cel="se.0o.KOMP">seo<sncref/></ref>.
+    </rim>
     <trd lng="de">wenn</trd>
     <trd lng="hu">ha</trd>
     <trd lng="pl">je&sacute;li</trd>
@@ -224,6 +222,24 @@
   <trd lng="xh">ukuba</trd>
   <trd lng="yi">&#x5D0;&#x5D5;&#x5D9;&#x5D1;</trd>
   <trd lng="yo">ti o ba ti</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4E00;&#x65E6; <pr>y&#x12B;d&#xE0;n</pr></trd>,
+    <trd>&#20551;&#22914; <pr>ji&#x1CE;r&#xFA;</pr></trd>,
+    <trd>&#20551;&#x82E5; <pr>ji&#x1CE;ru&#xF2;</pr></trd>,
+    <trd>&#x50A5; <pr>t&#x1CE;ng</pr></trd>,
+    <trd>&#x513B; <pr>t&#x1CE;ng</pr></trd>,
+    <trd>&#22914;&#x679C; <pr>r&#xFA;gu&#x1D2;</pr></trd>,
+    <trd>&#22914;&#x82E5; <pr>r&#xFA;ru&#xF2;</pr></trd>,
+    <trd>&#x679C;&#x82E5; <pr>gu&#x1D2;ru&#xF2;</pr></trd>,
+    <trd>&#x82E5; <pr>ru&#xF2;</pr></trd>,
+    <trd>&#x82E5;&#x662F; <pr>ru&#xF2;sh&#xEC;</pr></trd>,
+    <trd>&#35201;&#x662F; <pr>y&#xE0;oshi</pr></trd>,
+    <trd>&#20504; <pr>t&#x1CE;ng</pr></trd>,
+    <trd>&#20504;&#22914; <pr>t&#x1CE;ngr&#xFA;</pr></trd>,
+    <trd>&#20504;&#x82E5; <pr>t&#x1CE;ngru&#xF2;</pr></trd>,
+    <trd>&#20551; <pr>ji&#x1CE;</pr></trd>,
+    <trd>&#20551;&#x800C; <pr>ji&#x1CE;&#xE9;r</pr></trd>
+  </trdgrp>
   <trd lng="zu">uma</trd>
 </drv>
 
@@ -265,6 +281,11 @@
     <trd>chocia&zdot;by</trd>,
     <trd>gdyby nawet</trd>,
     <trd>je&sacute;li nawet</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x54EA;&#24597; <pr>n&#x1CE;p&#xE0;</pr></trd>,
+    <trd>&#x5C31;&#x4F7F; <pr>ji&#xF9;sh&#x1D0;</pr></trd>,
+    <trd>&#21363;&#x4FBF; <pr>j&#xED;bi&#xE0;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -322,6 +343,10 @@
    </trdgrp>
   <trd lng="sk">len ak</trd>
   <trd lng="sv">endast om</trd>
+  <trdgrp lng="zh">
+    <trd>&#38500;&#x975E; <pr>ch&#xFA;f&emacron;i</pr></trd>,
+    <trd>&#x53EA;&#26377; <pr>zh&#x1D0;y&#x1D2;u</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="se.0kajnur0">
@@ -371,11 +396,17 @@
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_t;&c_o;&c_g;&c_d;&c_a; &c_i; &c_t;&c_o;&c_l;&c_mol;&c_k;&c_o; &c_t;&c_o;&c_g;&c_d;&c_a;</trd>,
-    <trd>&c_je;&c_s;&c_l;&c_i; &c_i; &c_t;&c_o;&c_l;&c_mol;&c_k;&c_o; &c_je;&c_s;&c_l;&c_i;</trd>
+    <trd>&c_je;&c_s;&c_l;&c_i; &c_i; &c_t;&c_o;&c_l;&c_mol;&c_k;&c_o; &c_je;&c_s;&c_l;&c_i;</trd>,
+    <trd>&c_t;&c_t;&c_o;&c_g;&c_d;&c_a;, &c_k;&c_o;&c_g;&c_d;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="sv">
     <trd>om och endast om</trd>,
     <trd>omm</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x5F53;&#x4E14;&#x4EC5;&#x5F53; <pr>d&amacron;ngqi&#x11B;j&#x1D0;nd&amacron;ng</pr></trd>,
+    <trd>&#30070;&#x4E14;&#x50C5;&#30070; <pr>d&amacron;ngqi&#x11B;j&#x1D0;nd&amacron;ng</pr></trd>,
+    <trd>&#x82E5;&#x4E14;&#x552F;&#x82E5; <pr>ru&#xF2;qi&#x11B;w&#xE9;iru&#xF2;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -404,6 +435,7 @@
               <lok><url ref="&LOdE;R-eo2000.htm">1998. &#8470;10 (48)</url>.</lok></fnt>.
        </ekz>
     </dif>
+    <trd lng="be">&c_u;&c_m;&c_o;&c_v;&c_a;</trd>
     <trd lng="pl">warunek</trd>
   </snc>
   <snc mrk="se.0o.KOMP">
@@ -416,6 +448,7 @@
       <em>bran&ccirc;o, alternativo</em>) estkiel agon, per kiu da&ubreve;ri&gcirc;u la
       programplenumo.
     </dif>
+    <trd lng="be">&c_u;&c_m;&c_o;&c_w;&c_n;&c_y; <ind>&c_a;&c_p;&c_e;&c_r;&c_a;&c_t;&c_a;&c_r;</ind></trd>
     <trdgrp lng="en">
       <trd>IF statement</trd>,
       <trd>conditional statement</trd>
@@ -430,6 +463,12 @@
 </art>
 <!--
 $Log$
+versio 1.123 2024/11/06 09:33:47
+Dmitri Gabinski: + trd be
+
+versio 1.122 2024/05/14 03:27:00
+Sergio Pokrovskij: TEZ, +rim
+
 versio 1.120 2023/10/17 09:24:35
 Dmitri Gabinski: + trd be
 
@@ -446,11 +485,5 @@ versio 1.40 2021/05/20 07:05:27
 Wolfram Diestel: kor. ref-cel
 
 Revision 1.38  2018/05/21 18:10:13  revo
-Wolfram Diestel: fnt-oj de ekz-oj
-
-Revision 1.37  2015/08/20 22:10:16  revo
-Jeromo Vasxe: konjukcio -> konjunkcio, + kk ref, memstar ~ ecx
-
-Revision 1.36  2015/07/04 08:37:43  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: surf.xml,v 1.20 2023/11/26 01:39:22 revo Exp $">
+<art mrk="$Id: surf.xml,v 1.22 2024/04/12 09:24:24 revo Exp $">
 <kap>
   <rad>surf</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -46,6 +46,7 @@
     </dif>
   </snc>
   <ref tip="vid" cel="plauxd.0ejo.GEOG">pla&ubreve;dejo</ref>
+  <trd lng="be">&c_p;&c_r;&c_y;&c_b;&c_o;&c_j;</trd>
   <trdgrp lng="bg">
     <trd>&c_m;&c_o;&c_r;&c_s;&c_k;&c_a; &c_p;&c_ja;&c_n;&c_a;</trd>,
     <trd>&c_p;&c_l;&c_i;&c_s;&c_k;&c_a;&c_shch;&c_i; &c_s;&c_je; &c_v;&c_malmol;&c_l;&c_n;&c_i;</trd>
@@ -65,7 +66,7 @@
     <trd>rouleau<klr> (vague)</klr></trd>
   </trdgrp>
   <trd lng="hu">hull&aacute;mver&eacute;s</trd>
-  <trd lng="ja">&#x5BC4;&#x305B;&#12390;&#30741;&#12369;&#x308B;&#x6CE2; 
+  <trd lng="ja">&#x5BC4;&#x305B;&#12390;&#30741;&#12369;&#x308B;&#x6CE2;
   <pr>&#12424;&#x305B;&#12390;&#x304F;&#12384;&#12369;&#x308B;&#x306A;&#x307F;</pr></trd>
   <trd lng="nl">zich brekende <ind>golf</ind></trd>
   <trd lng="pl">przyb&oacute;j <klr>(o wodzie morskiej)</klr></trd>
@@ -80,6 +81,7 @@
     <trd>&c_g;&c_r;&c_je;&c_b;&c_ib;&#x43D;&#x44C; &c_h;&c_v;&c_i;&#x43B;&c_ib;</trd>,
     <trd>&c_b;&c_u;&c_r;&c_u;&#x43D;</trd>
   </trdgrp>
+  <trd lng="zh">&#22823;&#x6D6A; <pr>d&#xE0;l&#xE0;ng</pr></trd>
 </drv>
 
 <drv mrk="surf.0i">
@@ -115,6 +117,7 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_z;&c_a;&c_j;&c_m;&c_a;&c_c;&c_c;&c_a; <ind>&c_s;&c_e;&c_r;&c_f;&c_ib;&c_n;&c_g;&c_a;&c_m;</ind></trd>
     <trd lng="ca">fer surf</trd>
     <trdgrp lng="de">
       <trd>surfen<klr> (Sport)</klr></trd>,
@@ -139,12 +142,17 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_s;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol; &c_u; <ind>&c_Ib;&c_n;&c_t;&c_e;&c_r;&c_n;&c_e;&c_c;&c_je;</ind></trd>
     <trd lng="ca">navegar per internet</trd>
     <trd lng="de">surfen<klr> (im Internet)</klr></trd>
     <trd lng="en">websurf</trd>
     <trd lng="it">navigare<klr> (internet)</klr></trd>
     <trd lng="nl">surfen<klr tip="ind"> (internet)</klr></trd>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#x4E0A;&#x7DB2; <pr>sh&#xE0;ngw&#x1CE;ng</pr></trd>,
+    <trd>&#x4E0A;&#x7F51; <pr>sh&#xE0;ngw&#x1CE;ng</pr></trd>
+  </trdgrp>
+</snc>
   <trd lng="bg">&c_s;&c_malmol;&c_r;&c_f;&c_i;&c_r;&c_a;&c_m;</trd>
   <trd lng="cs">plavit se na surfu</trd>
   <trd lng="de">surfen</trd>
@@ -152,7 +160,7 @@
   <trd lng="fr">surfer</trd>
   <trd lng="hu">sz&ouml;rf&ouml;zik</trd>
   <trdgrp lng="ja">
-    <trd>&#x6CE2;&#x4E57;&#x308A;&#12434;&#12377;&#x308B; 
+    <trd>&#x6CE2;&#x4E57;&#x308A;&#12434;&#12377;&#x308B;
     <pr>&#x306A;&#x307F;&#x306E;&#x308A;&#12434;&#12377;&#x308B;</pr></trd>,
     <trd>&#x30B5;&#x30FC;&#x30D5;&#x30A3;&#x30F3;&#12434;&#12377;&#x308B;  <pr>&#12373;&#x30FC;&#12405;&#12355;&#12435;&#12434;&#12377;&#x308B;</pr></trd>
   </trdgrp>
@@ -161,13 +169,20 @@
 <ind>&c_s;&c_je;&c_r;&c_f;&c_i;&c_n;&c_g;&c_o;&c_m;</ind></trd>
   <trd lng="sk">surfova&tcaron;</trd>
   <trd lng="uk">&c_z;&c_a;&c_j;&#x43C;&c_a;&c_t;&c_i;&c_s;&#x44F; &c_s;&c_je;&c_r;&c_f;&c_ib;&#x43D;&c_gu;&#x43E;&#x43C;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x51B2;&#x6D6A; <pr>ch&#x14D;ngl&#xE0;ng</pr></trd>,
+    <trd>&#x885D;&#x6D6A; <pr>ch&#x14D;ngl&#xE0;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log$
+versio 1.22 2024/04/12 09:24:24
+Dmitri Gabinski: + trd be
+
 versio 1.20 2023/11/26 01:39:22
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.19 2023/10/21 07:46:48
 revo: transskribo per <pr>
@@ -185,8 +200,5 @@ Revision 1.12  2011/12/05 15:10:15  revo
 Marc Rausell: kataluna traduko
 
 Revision 1.11  2009/10/25 17:31:50  revo
-Paul Peeraerts: kor en nl
-
-Revision 1.10  2009/10/08 16:31:49  revo
 -->
 </vortaro>

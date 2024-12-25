@@ -1,16 +1,66 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sort.xml,v 1.29 2023/10/21 07:46:47 revo Exp $">
+<art mrk="$Id: sort.xml,v 1.35 2024/09/21 15:30:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>sort</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>sort</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="sort.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="sort.0o.hazardo">
     <dif>
-      <ref tip="dif" cel="hazard.0o.forto">Hazardo <sncref/></ref>:
+      <ref tip="dif" cel="hazard.0o.forto">Hazardo<sncref/></ref> influanta ies vivon:
+      <ekz>
+        se lin favoros la <tld/>o, li povas trovi oficon, kiu ri&ccirc;igos lin
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;in tu&scirc;is la malmola mano de la <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        gardu &scirc;in kontra&ubreve; <tld/>o de almozulo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> atente a&ubreve;skultis la interparoladon, kiu estis decidonta pri &scirc;ia
+        <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        E&ccirc; la patrino ruzon ne divenos &#x2AFD; Kaj nomos &gcirc;in nur bato de la <tld/>o
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la maro, kiel sur la tero, la <tld/>o da&ubreve;rigas metadi al li malhelpojn
+        <fnt>
+          <bib>FK</bib>
+          <lok>Fundamenta Krestomatio de la lingvo Esperanto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ironio de la <tld/>o estis, ke la patro <klr>[&#8230;]</klr> ne estis murdita dum la
+        genocido mem, sed forpasis kurioze pro malsani&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Andreas K&uuml;nzli</aut>
+          <vrk><url ref="&Monato;/2013/011020.php">Atentinda memuaro</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         <ind>bone tiu sidas, al kiu la <tld/>o ridas</ind>
         <trd lng="hu">k&ouml;nny&udblac; annak, akire a szerencs mosolyog</trd>
@@ -19,53 +69,67 @@
       <ekz>
         <ind>se decidos la <tld/>o, helpos nenia forto</ind>
         <trd lng="hu">a sors ellen nem lehet hadakozni</trd>
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        lin tu&scirc;is la malmola mano de la <tld/>o<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        la <tld/>o favoris lin.
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="fatal.0o">fatalo</ref>,
-      <ref cel="fat.0o">fato</ref>.
+      <ref cel="felicx.0o.bonsxanco">feli&ccirc;o<sncref/></ref>,
+      <ref cel="fortun.0o">fortuno</ref>
     </refgrp>
   </snc>
   <snc mrk="sort.0o.destino">
     <dif>
-      Anta&ubreve;fiksita aparta destino de iu a&ubreve; io:
+      Anta&ubreve;fiksita aparta <ref tip="super" cel="destin.0o">destino</ref> de iu a&ubreve; io:
       <ekz>
-        esti kontenta je sia <tld/>o<fnt>B</fnt>;
+        esti <klr>[&#8230;]</klr> kontenta je sia sorto
+        <fnt>
+          <bib>DL</bib>
+          <lok>Dua Libro de l' Lingvo Internacia</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mizera <tld/>o lin atendas<fnt>B</fnt>;
+        kiam vi maljuni&gcirc;os, mizera <tld/>o atendas vin
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        anta&ubreve;diri la <tld/>on;
+        anta&ubreve;diri la <tld/>on
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        provi la <tld/>on de l' batalo<fnt>Z</fnt>;
+        mi estas preta &#x2AFD; Kun vi la <tld/>on provi de l&#8217; batalo
+        <fnt>
+          <bib>Ifigenio</bib>
+          <lok>Ifigenio en Ta&ubreve;rido</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        mizero estos via <tld/>o;
+        kunligi jam anta&ubreve;e la <tld/>on de l' lingvo internacia kun la estonta kongreso&ndash;
+        estus tre malprudenta
+        <fnt>
+          <bib>DL</bib>
+          <lok>Dua Libro de l' Lingvo Internacia</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kunligi la <tld/>on de l' lingvo kun la estonta kongreso estus
-        tre
-        malprudenta<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        &ccirc;iu opinias, ke li povas direkti la <tld/>on de la lingvo la&ubreve;
-        sia
-        kompreno<fnt>Z</fnt>.
+        &ccirc;iu opinias, ke li <klr>[povas]</klr> direkti la <tld/>on de la lingvo la&ubreve; sia
+        kompreno
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="sigel">sigeli&gcirc;i</ref>,
-      <ref cel="skrib">esti skribite</ref>.
+      <ref cel="fatal.0o">fatalo</ref>,
+      <ref cel="fat.0o">fato</ref>
     </refgrp>
+    <trd lng="de">Vorsehung</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_jo;&c_s;</trd>,
@@ -78,8 +142,8 @@
   </trdgrp>
   <trdgrp lng="de">
     <trd>Schicksal</trd>,
-    <trd>Los</trd>,
-    <trd>Geschick</trd>
+    <trd>Los <klr>(Schicksal)</klr></trd>,
+    <trd>F&uuml;gung</trd>
   </trdgrp>
   <trd lng="en">fate</trd>
   <trdgrp lng="es">
@@ -122,7 +186,7 @@
     <trd>&c_u;&c_ch;&c_a;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">osud</trd>
-  <trd lng="uk">&c_d;&#x43E;&#x43B;&#x44F;</trd>
+  <trd lng="uk">&c_d;&c_o;&c_l;&c_ja;</trd>
   <trd lng="zh">&#x547D;&#x8FD0;</trd>
 </drv>
 
@@ -130,7 +194,21 @@
   <kap>bon<tld/>o</kap>
   <snc mrk="sort.bon0o.KOMUNE">
     <dif>
-      Feli&ccirc;iga <tld/>o, kiu provizas prosperon:
+      Feli&ccirc;iga <tld/>o, kiu provizas <ref cel="prospe1.0o">prospero</ref>n:
+      <ekz>
+        vi imagas ke &scirc;af- a&ubreve; bov-pa&scirc;tistoj celas la bon<tld/>on de la &scirc;afoj a&ubreve; bovoj
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Unu</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas bon<tld/>a kaj ne tro fervora, kiam li plia&gcirc;i&gcirc;as
+        <fnt>
+          <bib>Rsp</bib>
+          <lok>Parto Ok</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         pasi sub la nobla Korano portas bon<tld/>on
         al voja&gcirc;antoj
@@ -142,16 +220,33 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="ben.0o.favoro">beno<sncref/></ref>,
+      <ref cel="sxanc.bon0o">bon&scirc;anco</ref>,
+      <ref cel="felicx.0o.bonsxanco">feli&ccirc;o<sncref/></ref>,
+      <ref cel="fortun.0o">fortuno</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_u;&c_d;&c_a;&c_ch;&c_a;</trd>,
     <trd>&c_u;&c_d;&c_a;&c_l;&c_y; &c_l;&c_jo;&c_s;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Gl&uuml;ckliche <ind>F&uuml;gung</ind></trd>,
+    <trd>Gl&uuml;ck <klr>(Schicksal)</klr></trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>chance<klr> (bonheur)</klr></trd>,
     <trd>fortune<klr> (chance)</klr></trd>
   </trdgrp>
   <trd lng="pl">szcz&eogonek;&sacute;liwo&sacute;&cacute;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x5E78;&#x8FD0; <pr>x&#xEC;ngy&#xF9;n</pr></trd>,
+    <trd>&#x5E78;&#x904B; <pr>x&#xEC;ngy&#xF9;n</pr></trd>,
+    <trd>&#x798F; <pr>f&#xFA;</pr></trd>,
+    <trd>&#x5F69;&#22836; <pr>c&#x1CE;it&#xF3;u</pr></trd>,
+    <trd>&#x5F69;&#x982D; <pr>c&#x1CE;it&#xF3;u</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sort.bon0ulo">
@@ -176,6 +271,7 @@
     <trd>&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_v;&c_je;&c_c;</trd>,
     <trd>&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_w;&c_sh;&c_ch;&c_y;&c_k;</trd>
   </trdgrp>
+  <trd lng="de">Gl&uuml;ckspilz</trd>
   <trdgrp lng="fr">
     <trd>chanceux<klr> (subst.)</klr></trd> ,
     <trd>veinard<klr> (subst.)</klr></trd>
@@ -189,17 +285,45 @@
     <dif>
       Malfeli&ccirc;iga, malfavora <tld/>o:
       <ekz>
+        <nom>Seneca</nom> <klr>[&#8230;]</klr> rekomendas veraman, paciencon en malbon<tld/>o, firmecon
+        en malfeli&ccirc;o
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;guro de malbon<tld/>a estonteco
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro XLIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kompatinda <nom>Adamson</nom> pli malbon<tld/>is
+        <fnt>
+          <bib>SatirRak</bib>
+          <lok>La barbaro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         laboremo malbon<tld/>on venkas
         <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep
         fratoj</vrk>, <lok>1947</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="ben.mal0o.malfavoro">malbeno<sncref/></ref>,
+      <ref cel="sxanc.malbon0o">malbon&scirc;anco</ref>,
+      <ref cel="felicx.mal0o.malbonsxanco">malfeli&ccirc;o<sncref/></ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_ja;&c_w;&c_d;&c_a;&c_ch;&c_a;</trd>,
     <trd>&c_n;&c_ja;&c_d;&c_o;&c_l;&c_ja;</trd>,
     <trd>&c_n;&c_ja;&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_c;&c_je;</trd>
   </trdgrp>
+  <trd lng="de">Pech <klr>(Schicksal)</klr></trd>
   <trdgrp lng="fr">
     <trd>adversit&eacute;</trd>,
     <trd>malchance</trd>
@@ -207,6 +331,15 @@
   <trdgrp lng="pl">
     <trd>niedola</trd>,
     <trd>nieszcz&eogonek;&sacute;cie</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21380;&#x8FD0; <pr>&#xE8;y&#xF9;n</pr></trd>,
+    <trd>&#21380;&#x904B; <pr>&#xE8;y&#xF9;n</pr></trd>,
+    <trd>&#x4E0D;&#x5E78; <pr>b&#xF9;x&#xEC;ng</pr></trd>,
+    <trd>&#x8E47;&#x8FD0; <pr>ji&#x1CE;ny&#xF9;n</pr></trd>,
+    <trd>&#x8E47;&#x904B; <pr>ji&#x1CE;ny&#xF9;n</pr></trd>,
+    <trd>&#38665;&#x8FD0; <pr>m&#xE9;iy&#xF9;n</pr></trd>,
+    <trd>&#38665;&#x904B; <pr>m&#xE9;iy&#xF9;n</pr></trd>
   </trdgrp>
 </drv>
 
@@ -221,10 +354,49 @@
         fratoj</vrk>, <lok>1947</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="sub" cel="sxlemil.0o">&scirc;lemilo</ref>
   </snc>
   <trd lng="be">&c_n;&c_je;&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_v;&c_je;&c_c;</trd>
+  <trd lng="de">Pechvogel</trd>
   <trd lng="fr">malchanceux<klr> (subst.)</klr></trd>
   <trd lng="pl">nieszcz&eogonek;&sacute;nik</trd>
+</drv>
+
+<drv mrk="sort.sam0a">
+  <kap>
+    sam<tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Havanta saman <tld/>on:
+      <ekz>
+        li jen staras kontra&ubreve; iamaniere sam<tld/>a partnero
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Fantomurbo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni &ccirc;iuj estas sam<tld/>aj kolegoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2004/008357.html">La unua nokto</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        du orientanoj renkonti&gcirc;is kaj sam<tld/>i&gcirc;is
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trd lng="be">&c_a;&c_d;&c_n;&c_a;&c_g;&c_o; <ind>&c_l;&c_jo;&c_s;&c_u;</ind></trd>
+<trd lng="de">im Schicksal <ind>verbunden</ind></trd>
 </drv>
 
 <drv mrk="sort.sam0ulo">
@@ -235,55 +407,68 @@
       Spertanto de sama <tld/>o, precipe de samaj malfeli&ccirc;a&jcirc;oj,
       kiel iu:
       <ekz>
-        mi kredas, ke Jens kaj mi estas sam<tld/>uloj
+        <klr>[&scirc;i]</klr> ekzamenis per la rigardo la grandanombran anaron de siaj
+        samlaborulinoj kaj sam<tld/>ulinoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi kredas, ke <nom>Jens</nom> kaj mi estas sam<tld/>uloj
         <fnt>
           <aut>S. S. Blicher, trad. H. J. Bulthuis</aut>,
           <vrk>Taglibro de Vila&gcirc;-pedelo</vrk>,
           <lok>1922</lok>
         </fnt>;
       </ekz>
-        <ekz>
-        &Scirc;ajnis al li, ke ili estas samsortanoj, same turmentitaj,...
+      <ekz>
+        &scirc;ajnis al li, ke ili estas sam<tld/>anoj, same turmentitaj
         <fnt><aut>Stellan Engholm</aut>: <vrk>Al Torento</vrk>,
-        <lok>&ccirc;apitro
-    IV, 1930</lok></fnt>.
+        <lok>&ccirc;apitro IV, 1930</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="koleg.0o.kunulo">kolego<sncref/></ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_a;&c_v;&c_a;&c_r;&c_y;&c_sh; &c_u; &c_n;&c_ja;&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
+  <trdgrp lng="de">
+    <trd>Schicksalsgenosse</trd>,
+    <trd>Leidensgenosse</trd>
+  </trdgrp>
   <trd lng="fr">compagnon d'infortune</trd>
-  <trd lng="ja">&#x904B;&#x547D;&#12434;&#20849;&#x306B;&#12377;&#x308B;&#x4EBA; 
+  <trd lng="ja">&#x904B;&#x547D;&#12434;&#20849;&#x306B;&#12377;&#x308B;&#x4EBA;
   <pr>&#12358;&#12435;&#12417;&#12356;&#12434;&#12392;&#12418;&#x306B;&#12377;&#x308B;&#12376;&#12435;</pr></trd>
   <trdgrp lng="pl">
     <trd>wsp&oacute;&lstroke;towarzysz losu</trd>,
     <trd>wsp&oacute;&lstroke;towarzysz doli</trd>
   </trdgrp>
-  <trd lng="uk">&c_t;&#x43E;&c_v;&c_a;&c_r;&c_i;&c_sh; &#x43F;&#x43E; &#x43D;&c_je;&c_shch;&c_a;&c_s;&c_t;&#x44E;</trd>
+  <trd lng="uk">&c_t;&c_o;&c_v;&c_a;&c_r;&c_i;&c_sh; &c_p;&c_o; &c_n;&c_je;&c_shch;&c_a;&c_s;&c_t;&c_ju;</trd>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.35 2024/09/21 15:30:27
+Wolfram Diestel: +ref
+
+versio 1.33 2024/03/20 12:38:44
+Dmitri Gabinski: + trd be
+
+versio 1.32 2024/03/10 21:20:03
+Wolfram Diestel: +trd de
+
+versio 1.31 2024/03/10 09:22:18
+Wolfram Diestel: +ekz-oj, ref-oj, trd de; +sam~a
+
+versio 1.30 2024/03/09 21:23:17
+Wolfram Diestel: +trd de
+
 versio 1.29 2023/10/21 07:46:47
 revo: transskribo per <pr>
 
 versio 1.28 2023/09/13 21:18:53
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.26 2022/04/15 08:36:04
-Dmitri Gabinski: + trd be
-
-versio 1.25 2022/04/14 08:36:43
-Dmitri Gabinski: + trd be
-
-Revision 1.22  2018/01/16 16:10:14  revo
-Michel Cantigneaux: samsortano sinonimo de samsortulo
-
-Revision 1.21  2016/11/13 07:10:21  revo
-Darcy Shen: + trd zh
-
-Revision 1.20  2015/07/04 08:37:43  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.19  2015/06/29 16:33:24  revo
 -->
 </vortaro>

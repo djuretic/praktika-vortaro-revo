@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: apog.xml,v 1.46 2024/01/05 07:22:13 revo Exp $">
+<art mrk="$Id: apog.xml,v 1.50 2024/11/22 18:37:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>apog</rad>/i <fnt><bib>UV</bib></fnt>
@@ -65,12 +65,13 @@
       <trd>appuyer</trd>,
       <trd>&eacute;tayer</trd>
     </trdgrp>
-    <trd lng="pl">podpiera&cacute;</trd>
-    <trd lng="pt">apoiar</trd>
-   <trdgrp lng="it">
+    <trdgrp lng="it">
       <trd>appoggiare</trd>,
       <trd>addossare</trd>
     </trdgrp>
+    <trd lng="pl">podpiera&cacute;</trd>
+    <trd lng="pt">apoiar</trd>
+    <trd lng="ro">sprijini</trd>
     <trdgrp lng="zh">
     <trd>&#22686;&#25588; <pr>z&emacron;ngyu&aacute;n</pr></trd>,
     <trd>&#21463;&#21040;&#25903;&#25345; <pr>sh&ograve;ud&agrave;ozh&imacron;ch&iacute;</pr></trd>
@@ -220,10 +221,18 @@
     <trd>&#20809;&#39038; <pr>gu&amacron;ngg&ugrave;</pr></trd>
   </trdgrp>
 </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_p;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_t;&c_r;&c_y;&c_m;&c_k;&c_a;</trd>
+  </trdgrp>
   <trd lng="he">&tav;&mem;&yod;&kaf;&he;</trd>
   <trdgrp lng="ja">
     <trd>&#25903;&#12360;  <pr>&#12388;&#12363;&#12360;</pr></trd>,
     <trd>&#35542;&#25312;  <pr>&#12429;&#12435;&#12365;&#12423;</pr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wsparcie</trd>,
+    <trd>poparcie</trd>
   </trdgrp>
   <trdgrp lng="uk">
     <trd>&c_o;&c_p;&c_o;&c_r;&c_a;; &c_p;&c_ib;&c_d;&c_t;&c_r;&c_i;&c_m;&c_k;&c_a;</trd>
@@ -278,12 +287,14 @@
     <trd>&#20208; <pr>y&#462;ng</pr></trd>
   </trdgrp>
 </snc>
+  <trd lng="be">&c_a;&c_b;&c_a;&c_p;&c_ib;&c_r;&c_a;&c_c;&c_c;&c_a;</trd>
   <trdgrp lng="fr">
     <trd>s'<ind>appuyer</ind> sur</trd>,
     <trd>prendre appui sur </trd>
     </trdgrp>
   <trd lng="it">appoggiarsi</trd>
   <trd lng="ja">&#12424;&#12426;&#12363;&#12363;&#12427;</trd>
+  <trd lng="pl">opiera&cacute; si&eogonek;</trd>
 </drv>
 
 <drv mrk="apog.0ilo">
@@ -344,6 +355,12 @@
     <trd>&#21449;&#29376;&#26550; <pr>ch&amacron;zhu&agrave;ngji&agrave;</pr></trd>
   </trdgrp>
 </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_p;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_a;&c_p;&c_ib;&c_r;&c_y;&c_sh;&c_ch;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_p;&c_o;&c_r;&c_a;</trd>,
+    <trd>&c_s;&c_t;&c_o;&c_j;&c_k;&c_a; <klr tip="amb">(&c_n;&c_ja;&c_s;&c_u;&c_ch;&c_a;&c_ja;)</klr></trd>
+  </trdgrp>
   <trd lng="br">skor</trd>
   <trdgrp lng="cs">
     <trd>h&uring;l</trd>,
@@ -455,7 +472,15 @@
     <trd>&#22999; <pr>sh&amacron;n</pr></trd>
   </trdgrp>
 </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_m;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol; &c_u; <ind>&c_p;&c_a;&c_d;&c_t;&c_r;&c_y;&c_m;&c_c;&c_y;</ind></trd>,
+    <trd>&c_a;&c_d;&c_r;&c_y;&c_n;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
   <trd lng="fr">r&eacute;prouver</trd>
+  <trdgrp lng="pl">
+    <trd>odrzuci&cacute;</trd>,
+    <trd>odmawia&cacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="apog.brak0ilo">
@@ -486,6 +511,7 @@
     <trd lng="de">Armlehne</trd>
     <trd lng="zh">&#33011;&#33218; <pr>g&emacron;b&igrave;</pr></trd>
 </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_l;&c_a;&c_k;&c_o;&c_t;&c_n;&c_ib;&c_k;</trd>
   <trd lng="cs">op&ecaron;radlo pa&zcaron;&iacute;</trd>
   <trdgrp lng="fr">
     <trd>accotoir</trd>,
@@ -527,6 +553,7 @@
     </dif>
     <trd lng="de">R&uuml;ckenlehne</trd>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_n;&c_k;&c_a; <klr tip="amb">(&c_k;&c_r;&c_e;&c_s;&c_l;&c_a;)</klr></trd>
   <trdgrp lng="cs">
     <trd>lenoch</trd>,
     <trd>op&ecaron;radlo zad</trd>
@@ -567,14 +594,79 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_l;&c_ja;&c_t;&c_a;&c_r;</trd>,
+    <trd>&c_h;&c_a;&c_d;&c_u;&c_n;&c_k;&c_ib; &c_n;&c_a; &c_k;&c_o;&c_l;&c_c;&c_a;&c_h;</trd>
+  </trdgrp>
   <trd lng="de">Rollator</trd>
   <trd lng="en">rollator</trd>
-  <trd lng="fr">&c_r;&c_o;&c_l;&c_ja;&c_t;&c_o;&c_r;</trd>
+  <trd lng="pl">chodzik na k&oacute;&lstroke;kach</trd>
+  <trd lng="ru">&c_r;&c_o;&c_l;&c_ja;&c_t;&c_o;&c_r;</trd>
 </drv>
 
+<drv mrk="apog.kontraux0ilo">
+  <kap>
+    kontra&ubreve;<tld/>ilo
+  </kap>
+  <snc>
+    <uzo tip="fak">KON</uzo>
+    <dif>
+      Konstruelemento klinita (trabo, stango, arko), kiu forkondukas fortojn de
+      vertikala a&ubreve; horizontala elemento:
+      <ekz>
+        starigi <klr>[&#8230;]</klr> fostojn kaj kontra&ubreve;<tld/>ilojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/011076.php"
+              >Tamen ne la plej alta ...</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro la funkcio <klr>[&#8230;]</klr> ne sufi&ccirc;as nomi &gcirc;in nur &scirc;trebo a&ubreve;
+        kontra&ubreve;<tld/>ilo, <klr>[sed]</klr> &gcirc;i estas &leftquot;vento&scirc;trebo&rightquot;
+        <fnt>
+          <aut>Jan Werner</aut>
+          <lok><url ref="http://fabien.galerio.org/kofo/cirkuleroj/kofo23.pdf"
+              >Konstru-Forumo, n-ro 23, jul 2010, p. 145</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="steg.0o">stego</ref>,
+      <ref cel="transv.0ajxo">transversa&jcirc;o</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_r;&c_a;&c_s;&c_p;&c_o;&c_r;&c_k;&c_a;</trd>
+  <trd lng="de">Strebe</trd>
+  <trdgrp lng="en">
+    <trd>strut</trd>,
+    <trd>stay</trd>,
+    <trd>stiffener</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>contrefort</trd>,
+    <trd>hauban</trd>,
+    <trd>entretoise</trd>
+  </trdgrp>
+  <trd lng="pl">podpora boczna</trd>
+</drv>
 </art>
 <!--
 $Log$
+versio 1.50 2024/11/22 18:37:40
+Vito Redsky: + trd pl ro
+
+versio 1.49 2024/04/08 07:23:59
+Dmitri Gabinski: + trd be
+
+versio 1.48 2024/03/25 13:25:17
+Damien Brucker: -eraro cxe cel en ref
+
+versio 1.47 2024/03/21 07:20:05
+Wolfram Diestel: +kontra&ubreve;~ilo
+
 versio 1.46 2024/01/05 07:22:13
 Wolfram Diestel: +rul~ilo
 
@@ -585,17 +677,5 @@ versio 1.43 2023/10/13 16:46:48
 revo: transskribo per <pr>
 
 versio 1.41 2023/05/12 15:26:00
-Paul Peeraerts: + lok
-
-versio 1.40 2023/04/26 11:24:07
-
-versio 1.39 2022/04/26 14:57:17
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.38 2022/04/25 15:10:59
-aktualigo ligvokodoj kaj URL-unuoj
-
-versio 1.36 2022/03/14 09:30:37
-Wolfram Diestel: kor. trd
 -->
 </vortaro>

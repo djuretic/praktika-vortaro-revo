@@ -1,33 +1,58 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: verm.xml,v 1.47 2023/10/21 16:50:36 revo Exp $">
+<art mrk="$Id: verm.xml,v 1.51 2024/07/03 23:28:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>verm</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>verm</rad>/o <fnt><bib>UV</bib></fnt>
 </kap>
 <drv mrk="verm.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="verm.0o.KOMUNE">
     <dif>
       Longforma, senvertebra, senpieda besteto, inklude de tiaformaj
-      larvoj:
+      <ref tip="sub" cel="larv.0o">larvo</ref>j:
+      <ekz>
+        vinon vi ne trinkos, nek enkolektos berojn, &ccirc;ar forman&gcirc;os ilin la <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 28:39</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         sub vi sterni&gcirc;os <tld/>oj, kaj <tld/>oj estos via kovrilo
         <fnt><bib>MT</bib>, <lok>Jesaja 14, 11</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>okonsumita <klr>(de tineolarvoj)</klr> &scirc;tofo;
+        kolekto da sa&gcirc;aj kavaliroj en formo de <tld/>oj venis nun al li kun vizito
+        <klr>(en tombo)</klr>
+        <fnt>
+          <bib>Hamlet</bib>
+          <lok>Hamleto</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        &ccirc;iu havas sian <tld/>on
-        <klr>(suferon)</klr>
-        <fnt><bib>PrV</bib></fnt>;
+        la mebloj estis pratempaj kaj <tld/>otruitaj
+        <fnt>
+          <bib>HsT</bib>
+          <lok>Feli&ccirc;a homo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        en lian cerbon en&scirc;teli&gcirc;as
-        la <tld/>o <klr>(konstanta &ccirc;agreno)</klr> de dubo.
+        ricevi pomon kun <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2014/011266.php">Vivi en mondo surogata</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        farun<tld/>oj <klr>(tineolarvoj)</klr>
+        <fnt>
+          <bib>KKr</bib>
+          <lok>I</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="hu">
@@ -42,6 +67,85 @@
     </dif>
     <trd lng="hu">f&eacute;reg</trd>
   </snc>
+  <snc mrk="verm.0o.gxeno">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Ia <ref tip="dif" cel="aflikt.0o">aflikto</ref>:
+      <ekz>
+        vi volas rabi de mi la lastan konsolon &ccirc;e la morto, ke la <tld/>o de la
+        konscienco ne permesu al mi fari mian lastan pre&gcirc;on
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        meze de &scirc;ia &gcirc;ojo ka&scirc;is sin unu <tld/>eto malkvietiga
+        <fnt>
+          <bib>MJA</bib>
+          <lok>Parto Sepa</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu havas sian <tld/>on
+        <klr>(suferon, &ccirc;agrenon)</klr>
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="verm.0o.senindulo">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="dif" cel="ind.sen0ulo">Senindulo</ref>:
+      <ekz>
+        ne ripro&ccirc;u min, sinjoro, ke tera <tld/>o <klr>[&#8230;]</klr> kiel mi, tiel strange
+        montras sian &gcirc;ojon pro via alveno
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Vi, <tld/>o, ordoni? al mi ordoni
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        sinjoro! mi estas mizera <tld/>o
+        <fnt>
+          <bib>QuV</bib>
+          <lok>&Ccirc;apitro LIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="verm.0o.programo">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Perturba komputila programo, kiu reproduktas sin mem en komputila reto:
+      <ekz>
+        fia <tld/>o <nom>Sasser</nom> penetris en mian komputilon, perturbis &ccirc;ion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2004/008342.html">Bela komputila mondo</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Mikrosofto devis pasintjare plurfoje konfesi sekurectruojn en IE, kaj fami&gcirc;intaj
+        virusoj kaj <tld/>oj misuzis la truojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2005/008483.php">Foliumiloj denove interbatalas</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_ch;&c_a;&c_r;&c_v;&c_ja;&c_k;</trd>
   <trd lng="bg">&c_ch;&c_je;&c_r;&c_v;&c_je;&c_j;</trd>
   <trdgrp lng="ca">
@@ -54,9 +158,9 @@
   <trd lng="fr">ver</trd>
   <trd lng="it">verme</trd>
   <trdgrp lng="ja">
-    <trd>&#x866B;  <pr>&#x3080;&#x3057;</pr></trd>,
-    <trd>&#x5E7C;&#x866B;  <pr>&#x3088;&#x3046;&#x3061;&#x3085;&#x3046;</pr></trd>,
-    <trd>&#x3046;&#x3058;&#x866B;  <pr>&#x3046;&#x3058;&#x3080;&#x3057;</pr></trd>
+    <trd>&#x866B;  <pr>&#12416;&#12375;</pr></trd>,
+    <trd>&#x5E7C;&#x866B;  <pr>&#12424;&#12358;&#12385;&#12421;&#12358;</pr></trd>,
+    <trd>&#12358;&#12376;&#x866B;  <pr>&#12358;&#12376;&#12416;&#12375;</pr></trd>
   </trdgrp>
   <trd lng="nl">worm</trd>
   <trd lng="pl">robak</trd>
@@ -72,7 +176,7 @@
     <trd>kurt</trd>
   </trdgrp>
   <trdgrp lng="uk">
-    <trd>&c_ch;&c_je;&c_r;&c_v;&#x2019;&c_ja;&c_k;</trd>,
+    <trd>&c_ch;&c_je;&c_r;&c_v;&#8217;&c_ja;&c_k;</trd>,
     <trd>&c_h;&c_r;&c_o;&c_b;&c_a;&c_k;</trd>,
     <trd>&c_r;&c_o;&c_b;&c_a;&c_k;</trd>
   </trdgrp>
@@ -107,6 +211,10 @@
   <trd lng="hu">f&eacute;rgek</trd>
   <trd lng="it">vermi</trd>
   <trd lng="nl">wormen</trd>
+  <trdgrp lng="pl">
+    <trd>helminty</trd>,
+    <trd>robaki</trd>
+  </trdgrp>
   <trd lng="pt">vermes</trd>
   <trd lng="ru">&c_ch;&c_je;&c_r;&c_v;&c_i;</trd>
   <trd lng="sv">maskar</trd>
@@ -135,11 +243,12 @@
     <trd>vers ronds</trd>
   </trdgrp>
    <trdgrp lng="it">
-    <trd>nematodi</trd>,  
+    <trd>nematodi</trd>,
     <trd>vermi cilindrici<klr> (classe)</klr></trd>
   </trdgrp>
   <trd lng="hu">fon&aacute;lf&eacute;rgek</trd>
   <trd lng="nl">spoelwormen</trd>
+  <trd lng="pl">nicienie</trd>
   <trdgrp lng="pt">
     <trd>nemat&oacute;deos</trd>,
     <trd>nematelm&iacute;dios</trd>,
@@ -152,6 +261,13 @@
   <trdgrp lng="uk">
     <trd>&c_n;&c_je;&c_m;&c_a;&c_t;&c_g;&c_je;&c_l;&c_mol;&c_m;&c_ib;&c_n;&c_t;&c_i;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_v;&c_i;&c_n;&c_n;&c_o;&c_p;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_i;&c_n;&c_n;&c_ib; &c_ch;&c_je;&c_r;&c_v;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x7DDA;&#x87F2;&#x52D5;&#29289;&#38272; <pr>xi&#xE0;nch&#xF3;ngd&#xF2;ngw&#xF9;m&#xE9;n</pr></trd>,
+    <trd>&#x7EBF;&#x866B;&#x52A8;&#29289;&#x95E8;
+    <pr>xi&#xE0;nch&#xF3;ngd&#xF2;ngw&#xF9;m&#xE9;n</pr></trd>,
+    <trd>&#x7DDA;&#x87F2; <pr>xi&#xE0;nch&#xF3;ng</pr></trd>,
+    <trd>&#x7EBF;&#x866B; <pr>xi&#xE0;nch&#xF3;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -175,8 +291,13 @@
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_n;&c_ib;&c_zh;&c_n;&c_y; <ind>&c_ch;&c_a;&c_r;&c_v;&c_ja;&c_k;</ind></trd>
+  <trdgrp lng="de">
+    <trd>B&uuml;cherwurm <klr>(Vielleser)</klr></trd>,
+    <trd>Leseratte</trd>
+  </trdgrp>
   <trd lng="es">rat&oacute;n de biblioteca</trd>
   <trd lng="fr">rat de biblioth&egrave;que</trd>
+  <trd lng="pl">m&oacute;l ksi&aogonek;&zdot;kowy</trd>
 </drv>
 
 <drv mrk="verm.ligno0o">
@@ -185,9 +306,9 @@
     <uzo tip="stl">KOMUNE</uzo>
     <uzo tip="fak">ZOO</uzo>
     <dif>
-       Eta koleoptero, kies larvo nutri&gcirc;as per borado
-       de ligno kaj tiel difektas meblojn
-       (<trd lng="la">Anobium punctatum</trd>):
+      Eta koleoptero, kies larvo nutri&gcirc;as per borado
+      de ligno kaj tiel difektas meblojn
+      (<trd lng="la">Anobium punctatum</trd>):
       <ekz>
         mi a&ubreve;das de fojo al fojo anka&ubreve; la &ccirc;irpadon de ligno<tld/>oj
         <fnt>
@@ -199,10 +320,12 @@
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_a;&c_ch;&c_y;&c_l;&c_mol;&c_sh;&c_ch;&c_y;&c_k; <klr tip="amb">(&c_ch;&c_a;&c_r;&c_v;&c_ja;&c_k;)</klr></trd>
+  <trd lng="de">Holzwurm</trd>
   <trdgrp lng="fr">
     <trd>vers de bois</trd>,
     <trd>petite <ind>vrillette</ind></trd>
   </trdgrp>
+  <trd lng="pl">ko&lstroke;atek domowy</trd>
 </drv>
 
 <drv mrk="verm.plat0oj">
@@ -210,7 +333,7 @@
   <snc mrk="verm.plat0oj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Vermoj kun iom plata korpo;
+      <tld lit="V"/>oj kun iom plata korpo;
       <ref tip="lst" cel="filum.0o.BIO" lst="voko:zoologiaj_grupoj">filumo</ref>
        de la <ref tip="malprt" cel="best.0oj">bestoj</ref>
       (<trd lng="la">Plathelminthes</trd> a&ubreve;
@@ -228,13 +351,13 @@
   <trd lng="hu">laposf&eacute;rgek</trd>
   <trdgrp lng="it">
     <trd>platelminti</trd>,
-    <trd>plathelmintes</trd>, 
-    <trd>platyhelmintes</trd>, 
+    <trd>plathelmintes</trd>,
+    <trd>platyhelmintes</trd>,
     <trd>vermi piatti</trd>
   </trdgrp>
   <trd lng="nl">platwormen</trd>
   <trdgrp lng="pl">
-    <trd>P&lstroke;azi&nacute;ce</trd>,
+    <trd>p&lstroke;azi&nacute;ce</trd>,
     <trd>robaki p&lstroke;askie</trd>,
   </trdgrp>
   <trdgrp lng="pt">
@@ -244,6 +367,12 @@
   </trdgrp>
   <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_je; <ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind> <klr tip="amb">(&c_t;&c_i;&c_p;)</klr></trd>
   <trd lng="uk">&c_p;&c_l;&c_o;&c_s;&c_k;&c_ib; &c_ch;&c_je;&c_r;&c_v;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#25153;&#x5F62;&#x52A8;&#29289; <pr>bi&#x1CE;nx&#xED;ngd&#xF2;ngw&#xF9;</pr></trd>,
+    <trd>&#25153;&#x5F62;&#x52D5;&#29289; <pr>bi&#x1CE;nx&#xED;ngd&#xF2;ngw&#xF9;</pr></trd>,
+    <trd>&#25153;&#x5F62;&#x52A8;&#29289;&#x95E8; <pr>pi&amacron;nx&#xED;ngd&#xF2;ngw&#xF9;m&#xE9;n</pr></trd>,
+    <trd>&#25153;&#x5F62;&#x52D5;&#29289;&#38272; <pr>pi&amacron;nx&#xED;ngd&#xF2;ngw&#xF9;m&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="verm.ringo0oj">
@@ -251,7 +380,7 @@
   <snc mrk="verm.ringo0oj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Vermoj kies korpo estas dividita en ringoformajn
+      <tld lit="V"/>oj kies korpo estas dividita en ringoformajn
       segmentojn;
       <ref tip="lst" cel="filum.0o.BIO" lst="voko:zoologiaj_grupoj">filumo</ref>
        de la <ref tip="malprt" cel="best.0oj">bestoj</ref>
@@ -267,10 +396,14 @@
   <trd lng="hu">gy&udblac;r&udblac;sf&eacute;rgek</trd>
   <trd lng="it">anellidi</trd>
   <trd lng="nl">ringwormen</trd>
-  <trd lng="pl">Pier&sacute;cienice</trd>
+  <trd lng="pl">pier&sacute;cienice</trd>
   <trd lng="pt">anel&iacute;deos</trd>
-  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_y;&c_je; <ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind> 
+  <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_y;&c_je; <ind>&c_ch;&c_je;&c_r;&c_v;&c_i;</ind>
   <klr tip="amb">(&c_t;&c_i;&c_p;)</klr></trd>
+  <trdgrp lng="zh">
+    <trd>&#x73AF;&#33410;&#x52A8;&#29289;&#x95E8; <pr>hu&#xE1;nji&#xE9;d&#xF2;ngw&#xF9;m&#xE9;n</pr></trd>,
+    <trd>&#x74B0;&#x7BC0;&#x52D5;&#29289;&#38272; <pr>hu&#xE1;nji&#xE9;d&#xF2;ngw&#xF9;m&#xE9;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="verm.rond0oj">
@@ -279,15 +412,14 @@
     <uzo tip="stl">ARK</uzo>
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Vermoj kun cilindra nedividita korpo;
-      <ref tip="lst" cel="filum.0o.BIO" lst="voko:zoologiaj_grupoj">filumo</ref>
-       de la <ref tip="malprt" cel="best.0oj">bestoj</ref>
-      (<trd lng="la">Aschelminthes</trd>).
+      <tld lit="V"/>oj kun cilindra nedividita korpo;
+      iama  <ref tip="lst" cel="filum.0o.BIO" lst="voko:zoologiaj_grupoj">filumo</ref>
+      <trd lng="la">Aschelminthes</trd>.
     </dif>
-  <rim mrk="verm.rond0oj.RIM_ARK">
-    En 2013 la taksono &scirc;ajne ne plu estas parto de valida sistematiko.
-    <aut>&jcirc;v</aut>
-  </rim>
+    <rim mrk="verm.rond0oj.RIM_ARK">
+      La taksono ne plu estas parto de valida sistematiko.
+      Nun oni alordigas la plej multajn el ili al grupo <nom>Cycloneuralia</nom>.
+    </rim>
   </snc>
   <trd lng="ca">nematohelmints</trd>
   <trdgrp lng="de">
@@ -302,7 +434,7 @@
     <trd>nemathelmintes</trd>
   </trdgrp>
   <trdgrp lng="pl">
-    <trd>Oble&nacute;ce</trd>,
+    <trd>oble&nacute;ce</trd>,
     <trd>robaki ob&lstroke;e</trd>,
   </trdgrp>
 </drv>
@@ -319,7 +451,7 @@
       genro <trd lng="la">Arenicola</trd>:
        <ekz>
         la sablo<tld/>o longas 10-20, malofte 25 centimetrojn, dikas 1-1,5 cm,
-        <klr>[&#x2026;]</klr> estas verd-flava a&ubreve; bruneta
+        <klr>[&#8230;]</klr> estas verd-flava a&ubreve; bruneta
         <fnt>
           <aut>-</aut>
           <vrk><url ref="&Viki;/Sablovermo">Sablovermo</url></vrk>
@@ -328,7 +460,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Wattwurm</trd>
   <trd lng="fr">vers de vase</trd>
+  <trd lng="pl">piask&oacute;wka</trd>
 </drv>
 
 <drv mrk="verm.ter0o">
@@ -339,12 +473,23 @@
     <dif>
       <ref tip="dif" cel="lumbri.0o">Lumbriko</ref>:
       <ekz>
-        ter<tld/>oj <klr>[&#x2026;]</klr> sin nutras per resta&jcirc;oj de &scirc;eloj, fruktopecoj,
+        ter<tld/>oj <klr>[&#8230;]</klr> sin nutras per resta&jcirc;oj de &scirc;eloj, fruktopecoj,
         ovo&scirc;eloj kaj sekaj folioj, kaj produktas tre nutrori&ccirc;an humon
         <fnt>
           <aut>P. S. Viana</aut>
-          <vrk><url ref="https://retradio.webnode.at/news/kulturi-tervermojn/">Kulturi tervermojn</url></vrk>
+          <vrk><url ref="https://retradio.webnode.at/news/kulturi-tervermojn/">Kulturi
+          tervermojn</url></vrk>
           <lok>esperanta retradio, 2012-09-05</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ter<tld/>oj jam povis diferenci la gradon de lumigado, &ccirc;e insektoj kaj
+        kankrosimiluloj aperis pli perfektaj, la facetaj okuloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2009/009787.php">Supervivo de plej ta&ubreve;ga teorio</url></vrk>
+          <lok>2009</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -358,6 +503,7 @@
     <trd>de&scaron;&tcaron;ovka</trd>,
     <trd>&zcaron;&iacute;&zcaron;ala</trd>
   </trdgrp>
+  <trd lng="de">Regenwurm</trd>
   <trd lng="es">lombriz</trd>
   <trd lng="fr">ver de terre</trd>
   <trd lng="hu">f&ouml;ldigiliszta</trd>
@@ -369,6 +515,10 @@
   <trd lng="sk">d&aacute;&zcaron;&dcaron;ovka</trd>
   <trd lng="tr">yer solucan&inodot;</trd>
   <trd lng="uk">&c_d;&c_o;&c_shch;&c_o;&c_v;&c_i;&c_k;</trd>
+  <trdgrp lng="zh">
+    <trd>&#34451; <pr>y&#x1D0;n</pr></trd>,
+    <trd>&#x87BE; <pr>y&#x1D0;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="verm.zono0oj">
@@ -377,8 +527,7 @@
     <uzo tip="fak">ZOO</uzo>
     <dif>
       <ref tip="lst" cel="klas.0o.BIO" lst="voko:zoologiaj_klasoj">Klaso</ref>
-       el la filumo
-      <ref tip="malprt" cel="verm.ringo0oj">ringo<tld/>oj</ref>
+      el la filumo <ref tip="malprt" cel="verm.ringo0oj">ringo<tld/>oj</ref>
       (<trd lng="la">Clitellata</trd>).
     </dif>
   </snc>
@@ -389,11 +538,25 @@
   <trd lng="hu">&ouml;vesf&eacute;rgek</trd>
   <trd lng="it">clitellata</trd>
   <trd lng="nl">gordelwormen</trd>
+  <trd lng="pl">siode&lstroke;kowce</trd>
   <trd lng="ru">&c_p;&c_o;&c_ja;&c_s;&c_k;&c_o;&c_v;&c_y;&c_je; &c_k;&c_o;&c_l;&c_mol;&c_ch;&c_je;&c_c;&c_y;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x86ED;&#x7DB1; <pr>zh&#xEC;g&amacron;ng</pr></trd>,
+    <trd>&#x86ED;&#x7EB2; <pr>zh&#xEC;g&amacron;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.51 2024/07/03 23:28:28
+Vito Redsky: +trd pl
+
+versio 1.49 2024/05/16 16:29:54
+Wolfram Diestel: +ekz, trd de
+
+versio 1.48 2024/05/15 06:30:23
+Wolfram Diestel: ~o: +snc FIG, KOMP; +ekz-oj
+
 versio 1.47 2023/10/21 16:50:36
 revo: transskribo per <pr>
 
@@ -407,14 +570,5 @@ versio 1.43 2022/06/19 14:24:23
 Jeromo Vasxe: ligno~o: + ekz, + sablo~o
 
 Revision 1.37  2019/01/31 18:10:17  revo
-Jeromo Vasxe: + ligno~o
-
-Revision 1.36  2015/07/04 08:37:45  revo
-aldono de trd cs per skripto de M. von Laer
-
-Revision 1.35  2015/06/28 12:03:50  revo
-aldono de trd sk per skripto de M. von Laer
-
-Revision 1.34  2015/04/18 15:10:17  revo
 -->
 </vortaro>

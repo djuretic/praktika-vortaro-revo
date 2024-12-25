@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: polus.xml,v 1.35 2024/01/09 21:22:28 revo Exp $">
+<art mrk="$Id: polus.xml,v 1.37 2024/03/14 06:28:58 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>polus</rad>/o <fnt><bib>UV</bib></fnt>
@@ -39,8 +39,7 @@
         <fnt>
           <bib>Monato</bib>
           <aut>Roberto Pigro</aut>
-          <vrk><url ref="&Monato;/2013/011067.php"
-              >Everesto mem blovospiras</url></vrk>
+          <vrk><url ref="&Monato;/2013/011067.php">Everesto mem blovospiras</url></vrk>
           <lok>2013</lok>
         </fnt>.
       </ekz>
@@ -72,7 +71,14 @@
       <trd>sarok</trd>,
       <trd>p&oacute;lus</trd>
     </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#26438;&#x5B50; <pr>g&amacron;nzi</pr></trd>,
+    <trd>&#26497; <pr>j&#xED;</pr></trd>,
+    <trd>&#26997; <pr>j&#xED;</pr></trd>,
+    <trd>&#26497;&#x70B9; <pr>j&#xED;di&#x1CE;n</pr></trd>,
+    <trd>&#26997;&#x9EDE; <pr>j&#xED;di&#x1CE;n</pr></trd>
+  </trdgrp>
+</snc>
   <snc mrk="polus.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -89,7 +95,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        la plej multaj <klr>[esperantistoj]</klr> elektas mezan pozicion inter la du <tld/>oj <klr>[ra&ubreve;mismo
+        la plej multaj <klr>[esperantistoj]</klr> elektas mezan pozicion inter la du <tld/>oj
+        <klr>[ra&ubreve;mismo
         kaj finvenkismo]</klr>
         <fnt>
           <bib>LOdE</bib>
@@ -143,12 +150,12 @@
   <trd lng="es">polo</trd>
   <trd lng="id">kutub</trd>
   <trdgrp lng="ja">
-    <trd>&#26997; <pr>&#12399;&#12383;&#12390;</pr></trd>,
-    <trd>&#38651;&#26997; <pr>&#12391;&#12435;&#12365;&#12423;&#12367;</pr></trd>,
-    <trd>&#30913;&#26997; <pr>&#12376;&#12365;&#12423;&#12367;</pr></trd>,
-    <trd>&#26997;&#28857; <pr>&#12365;&#12423;&#12367;&#12390;&#12435;</pr></trd>,
-    <trd>&#23550;&#26997; <pr>&#12383;&#12356;&#12365;&#12423;&#12367;</pr></trd>,
-    <trd>&#20013;&#24515; <pr>&#12394;&#12363;&#12372;</pr></trd>
+    <trd>&#26997; <pr>&#x306F;&#x305F;&#12390;</pr></trd>,
+    <trd>&#x96FB;&#26997; <pr>&#12391;&#12435;&#x304D;&#12423;&#x304F;</pr></trd>,
+    <trd>&#x78C1;&#26997; <pr>&#12376;&#x304D;&#12423;&#x304F;</pr></trd>,
+    <trd>&#26997;&#x70B9; <pr>&#x304D;&#12423;&#x304F;&#12390;&#12435;</pr></trd>,
+    <trd>&#x5BFE;&#26997; <pr>&#x305F;&#12356;&#x304D;&#12423;&#x304F;</pr></trd>,
+    <trd>&#x4E2D;&#x5FC3; <pr>&#x306A;&#x304B;&#12372;</pr></trd>
   </trdgrp>
   <trd lng="nl">pool</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
@@ -169,20 +176,34 @@
       <ekz>
         la tera magneta du<tld/>o
         <fnt>
-          <vrk><url ref="http://www.eventoj.hu/steb/miksitaj/iku2013.pdf"
-              >A&ubreve;roro &ndash; la nordia lumo</url></vrk>
+          <vrk><url ref="http://www.eventoj.hu/steb/miksitaj/iku2013.pdf">A&ubreve;roro &ndash; la nordia
+          lumo</url></vrk>
           <lok>Internacia Kongresa Universitato, 20-27 julio 2013, p. 99</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_d;&c_y;&c_p;&c_o;&c_l;&c_mol;</trd>
   <trd lng="de">Dipol</trd>
   <trd lng="en">dipole</trd>
+  <trdgrp lng="zh">
+    <trd>&#20598;&#26497; <pr>&#x1D2;uj&#xED;</pr></trd>,
+    <trd>&#20598;&#26997; <pr>&#x1D2;uj&#xED;</pr></trd>,
+    <trd>&#x53CC;&#26497; <pr>shu&amacron;ngj&#xED;</pr></trd>,
+    <trd>&#x96D9;&#26997; <pr>shu&amacron;ngj&#xED;</pr></trd>,
+    <trd>&#20598;&#26497;&#x5B50; <pr>&#x1D2;uj&#xED;z&#x1D0;</pr></trd>,
+    <trd>&#20598;&#26997;&#x5B50; <pr>&#x1D2;uj&#xED;z&#x1D0;</pr></trd>,
+    <trd>&#x53CC;&#26497;&#x5B50; <pr>shu&amacron;ngj&#xED;z&#x1D0;</pr></trd>,
+    <trd>&#x96D9;&#26997;&#x5B50; <pr>shu&amacron;ngj&#xED;z&#x1D0;</pr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log$
+versio 1.37 2024/03/14 06:28:58
+Dmitri Gabinski: + trd be
+
 versio 1.35 2024/01/09 21:22:28
 Wolfram Diestel: +du~o
 
@@ -202,8 +223,5 @@ Revision 1.26  2014/06/08 10:10:15  revo
 Eko Nur Syah Hidayat: +id
 
 Revision 1.25  2013/08/01 15:10:09  revo
-Joop Eggen: +trd bg
-
-Revision 1.24  2012/08/10 14:11:41  revo
 -->
 </vortaro>

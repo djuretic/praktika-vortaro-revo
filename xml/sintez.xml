@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: sintez.xml,v 1.30 2023/10/21 07:46:47 revo Exp $">
+<art mrk="$Id: sintez.xml,v 1.32 2024/08/01 18:35:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>sintez</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>sintez</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 
 <drv mrk="sintez.0o">
@@ -165,6 +165,17 @@
     <trd>synt&eacute;za</trd>
   </trdgrp>
   <trd lng="uk">&c_s;&c_i;&#x43D;&c_t;&c_je;&c_z;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21512;&#25104; <pr>h&#xE9;ch&#xE9;ng</pr></trd>,
+    <trd>&#x7D9C;&#21512; <pr>z&#x14D;ngh&#xE9;</pr></trd>,
+    <trd>&#x7EFC;&#21512; <pr>z&#x14D;ngh&#xE9;</pr></trd>,
+    <trd>&#x7D9C;&#21512;&#24615; <pr>z&#x14D;ngh&#xE9;x&#xEC;ng</pr></trd>,
+    <trd>&#x7EFC;&#21512;&#24615; <pr>z&#x14D;ngh&#xE9;x&#xEC;ng</pr></trd>,
+    <trd>&#x7D9C;&#21512;&#x6CD5; <pr>z&#x14D;ngh&#xE9;f&#x1CE;</pr></trd>,
+    <trd>&#x7EFC;&#21512;&#x6CD5; <pr>z&#x14D;ngh&#xE9;f&#x1CE;</pr></trd>,
+    <trd>&#x7D9C;&#26512; <pr>z&#x14D;ngx&#x12B;</pr></trd>,
+    <trd>&#x7EFC;&#26512; <pr>z&#x14D;ngx&#x12B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sintez.0i">
@@ -263,6 +274,13 @@
     <trd>zlu&ccaron;ova&tcaron;</trd>
   </trdgrp>
   <trd lng="uk">&c_s;&c_i;&#x43D;&c_t;&c_je;&c_z;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21512;&#25104; <pr>h&#xE9;ch&#xE9;ng</pr></trd>,
+    <trd>&#x7D9C;&#21512; <pr>z&#x14D;ngh&#xE9;</pr></trd>,
+    <trd>&#x7EFC;&#21512; <pr>z&#x14D;ngh&#xE9;</pr></trd>,
+    <trd>&#x7D9C; <pr>z&#x14D;ng</pr></trd>,
+    <trd>&#x7EFC; <pr>z&#x14D;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sintez.0ilo">
@@ -341,6 +359,10 @@
   <trd lng="ru">&c_s;&c_i;&c_n;&c_t;&c_je;&c_z;&c_a;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">syntetiz&aacute;tor</trd>
   <trd lng="uk">&c_s;&c_i;&#x43D;&c_t;&c_je;&c_z;&c_a;&c_t;&#x43E;&c_r;</trd>
+  <trdgrp lng="zh">
+    <trd>&#21512;&#25104;&#22120; <pr>h&#xE9;ch&#xE9;ngq&#xEC;</pr></trd>,
+    <trd>&#21512;&#25104;&#32773; <pr>h&#xE9;ch&#xE9;ngzh&#x11B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sintez.lum0o">
@@ -366,20 +388,32 @@
   </snc>
   <trd lng="be">&c_f;&c_o;&c_t;&c_a;&c_s;&c_y;&c_n;&c_t;&c_e;&c_z;</trd>
   <trd lng="cs">fotosynt&eacute;za</trd>
+  <trdgrp lng="de">
+    <trd>Fotosynthese</trd>,
+    <trd>Photosynthese</trd>
+  </trdgrp>
   <trd lng="fr">photosynth&egrave;se</trd>
   <trd lng="pl">fotosynteza</trd>
   <trd lng="pt">fotss&iacute;ntese</trd>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_s;&c_i;&c_n;&c_t;&c_je;&c_z;</trd>
   <trd lng="sk">fotosynt&eacute;za</trd>
+  <trdgrp lng="zh">
+    <trd>&#20809;&#21512; <pr>gu&amacron;ngh&#xE9;</pr></trd>,
+    <trd>&#20809;&#21512;&#x4F5C;&#29992; <pr>gu&amacron;ngh&#xE9;zu&#xF2;y&#xF2;ng</pr></trd>,
+    <trd>&#20809;&#x80FD;&#21512;&#25104; <pr>gu&amacron;ngn&#xE9;ngh&#xE9;ch&#xE9;ng</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.32 2024/08/01 18:35:15
+Wolfram Diestel: +JED, trd de
+
 versio 1.30 2023/10/21 07:46:47
 revo: transskribo per <pr>
 
 versio 1.29 2023/09/07 22:25:54
-Vito Redsky: +trd pl 
+Vito Redsky: +trd pl
 
 versio 1.27 2023/04/25 12:45:34
 Paul Peeraerts: @Steloj -> @Monato
@@ -394,8 +428,5 @@ versio 1.24 2023/03/26 21:23:23
 Paul Peeraerts: &Monato;
 
 versio 1.23 2022/05/05 05:09:56
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.21 2021/07/09 08:33:19
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: stimul.xml,v 1.27 2023/11/19 03:26:24 revo Exp $">
+<art mrk="$Id: stimul.xml,v 1.29 2024/05/13 21:22:28 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>stimul</rad>/i <fnt><bib>JED</bib></fnt>
@@ -104,9 +104,9 @@
     <trd>&ouml;szt&ouml;n&ouml;z</trd>
   </trdgrp>
   <trdgrp lng="ja">
-    <trd>&#x6FC0;&#x52B1;&#12377;&#x308B;  <pr>&#12370;&#x304D;&#x308C;&#12356;&#12377;&#x308B;</pr></trd>,
-    <trd>&#x52B1;&#x307E;&#12377;  <pr>&#x306F;&#12370;&#x307E;&#12377;</pr></trd>,
-    <trd>&#x523A;&#x6FC0;&#12377;&#x308B;  <pr>&#12375;&#12370;&#x304D;&#12377;&#x308B;</pr></trd>
+    <trd>&#28608;&#21169;&#12377;&#12427;  <pr>&#12370;&#12365;&#12428;&#12356;&#12377;&#12427;</pr></trd>,
+    <trd>&#21169;&#12414;&#12377;  <pr>&#12399;&#12370;&#12414;&#12377;</pr></trd>,
+    <trd>&#21050;&#28608;&#12377;&#12427;  <pr>&#12375;&#12370;&#12365;&#12377;&#12427;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>stimuleren</trd>,
@@ -132,6 +132,15 @@
     <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_i; &c_s;&c_t;&c_i;&c_m;&c_u;&c_l;</trd>,
     <trd>&c_p;&c_o;&c_sh;&c_t;&c_o;&c_v;&c_h;</trd>,
     <trd>&c_s;&c_p;&c_o;&c_n;&c_u;&c_k;&c_u;&c_v;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#21050;&#28608; <pr>c&igrave;j&imacron;</pr></trd>,
+    <trd>&#21206; <pr>x&ugrave;</pr></trd>,
+    <trd>&#21207; <pr>x&ugrave;</pr></trd>,
+    <trd>&#20351;&#20852;&#22859; <pr>sh&#464;x&imacron;ngf&egrave;n</pr></trd>,
+    <trd>&#20351;&#33288;&#22894; <pr>sh&#464;x&imacron;ngf&egrave;n</pr></trd>,
+    <trd>&#21796;&#36215; <pr>hu&agrave;nq&#464;</pr></trd>,
+    <trd>&#21914;&#36215; <pr>hu&agrave;nq&#464;</pr></trd>
   </trdgrp>
 </drv>
 
@@ -166,7 +175,7 @@
       </ekz>
     </dif>
 <trdgrp lng="en">
-  <trd>simulation</trd>,
+  <trd>stimulation</trd>,
   <trd>stimulus</trd>
 </trdgrp>
   <trdgrp lng="de">
@@ -209,7 +218,11 @@
     <trd>Stimulus</trd>,
     <trd>Stimulation</trd>
   </trdgrp>
-  </snc>
+    <trdgrp lng="zh">
+    <trd>&#21050;&#28608;&#21058; <pr>c&igrave;j&imacron;j&igrave;</pr></trd>,
+    <trd>&#21050;&#28608;&#21137; <pr>c&igrave;j&imacron;j&igrave;</pr></trd>
+  </trdgrp>
+</snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_y;&c_m;&c_u;&c_l;</trd>,
     <trd>&c_p;&c_a;&c_b;&c_u;&c_d;&c_zh;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
@@ -227,9 +240,9 @@
   </trdgrp>
   <trd lng="hu">&ouml;szt&ouml;nz&eacute;s</trd>
   <trdgrp lng="ja">
-    <trd>&#x6FC0;&#x52B1;  <pr>&#12370;&#x304D;&#x308C;&#12356;</pr></trd>,
-    <trd>&#x52B1;&#x307E;&#12375;  <pr>&#x306F;&#12370;&#x307E;&#12375;</pr></trd>,
-    <trd>&#x523A;&#x6FC0;  <pr>&#12375;&#12370;&#x304D;</pr></trd>
+    <trd>&#28608;&#21169;  <pr>&#12370;&#12365;&#12428;&#12356;</pr></trd>,
+    <trd>&#21169;&#12414;&#12375;  <pr>&#12399;&#12370;&#12414;&#12375;</pr></trd>,
+    <trd>&#21050;&#28608;  <pr>&#12375;&#12370;&#12365;</pr></trd>
   </trdgrp>
   <trd lng="pl">bodziec  <klr>(podnieta)</klr></trd>
   <trdgrp lng="sk">
@@ -284,6 +297,9 @@
 </art>
 <!--
 $Log$
+versio 1.29 2024/05/13 21:22:28
+Robert Baruch: (spelling) simulation -> stimulation
+
 versio 1.27 2023/11/19 03:26:24
 Matt Brooks: +en traduko
 
@@ -303,8 +319,5 @@ versio 1.21 2022/05/20 17:33:59
 Wolfram Diestel: +ekz-oj, ref-oj, trd de ; ~o snc KOMUNE
 
 versio 1.20 2022/05/05 14:43:48
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.18 2021/12/21 09:32:36
 -->
 </vortaro>

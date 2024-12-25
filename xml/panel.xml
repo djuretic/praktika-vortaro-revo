@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: panel.xml,v 1.34 2023/10/20 14:25:19 revo Exp $">
+<art mrk="$Id: panel.xml,v 1.36 2024/03/23 11:19:01 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>panel</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>panel</rad>/o <fnt><bib>JED</bib></fnt>
 </kap>
 <drv mrk="panel.0o">
   <kap><tld/>o</kap>
@@ -18,6 +18,10 @@
         insidoj</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Paneel</trd>,
+      <trd>T&auml;felung</trd>
+    </trdgrp>
     <trd lng="fr">panneau<klr> (ameublement)</klr></trd>
   </snc>
   <snc mrk="panel.0o.TEK">
@@ -47,6 +51,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Bedienfeld</trd>,
+      <trd>Konsole</trd>
+    </trdgrp>
     <trd lng="fr">panneau<klr> (de contr&ocirc;le etc.)</klr></trd>
   </snc>
   <snc mrk="panel.0o.grupo">
@@ -64,6 +72,15 @@
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="komisi1.0o">komisiono</ref>,
+      <ref cel="komita.0o">komitato</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Gremium</trd>,
+      <trd>Ausschuss</trd>,
+      <trd>Beirat</trd>
+    </trdgrp>
     <trd lng="fr">panel<klr> (de discussion)</klr></trd>
   </snc>
   <snc mrk="panel.0o.diskuto">
@@ -92,6 +109,7 @@
         </fnt>.
       </ekz>
     </dif>
+  <trd lng="de">Podium<klr>(sdiskussion)</klr></trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_n;&c_e;&c_l;&c_mol;</trd>,
@@ -105,10 +123,6 @@
   <trdgrp lng="cs">
     <trd>palubn&iacute; deska</trd>,
     <trd>p&rcaron;&iacute;strojov&aacute; deska</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Paneel</trd>,
-    <trd>T&auml;felung</trd>
   </trdgrp>
   <trd lng="en">panel</trd>
   <trd lng="es">panel</trd>
@@ -145,6 +159,13 @@
     <trd>&c_p;&c_a;&c_n;&c_je;&c_l;&c_mol;</trd>,
     <trd>&c_r;&c_o;&c_z;&c_p;&c_o;&c_d;&c_ib;&c_l;&c_mol;&c_n;&c_a; &c_d;&c_o;&c_sh;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x58C1;&#x677F; <pr>b&#xEC;b&#x1CE;n</pr></trd>,
+    <trd>&#x88C5;&#x4E0A;&#x58C1;&#x677F; <pr>zhu&amacron;ngsh&#xE0;ngb&#xEC;b&#x1CE;n</pr></trd>,
+    <trd>&#x88DD;&#x4E0A;&#x58C1;&#x677F; <pr>zhu&amacron;ngsh&#xE0;ngb&#xEC;b&#x1CE;n</pr></trd>,
+    <trd>&#38754;&#x677F; <pr>mi&#xE0;nb&#x1CE;n</pr></trd>,
+    <trd>&#x5D4C;&#x677F; <pr>qi&#xE0;nb&#x1CE;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="panel.kontrol0o">
@@ -173,11 +194,20 @@
   <trd lng="be">&c_p;&c_a;&c_n;&c_e;&c_l;&c_mol;
   &c_k;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_ja;</trd>
   <trd lng="bg">&c_p;&c_a;&c_n;&c_je;&c_l; &c_z;&c_a; &c_p;&c_r;&c_o;&c_v;&c_je;&c_r;&c_k;&c_a; &c_n;&c_a; &c_s;&c_malmol;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;&c_t;&c_o;</trd>
+  <trdgrp lng="de">
+    <trd>Instrumententafel</trd>,
+    <trd>Konsole</trd>,
+    <trd>Armaturenbrett</trd>
+  </trdgrp>
   <trd lng="en">dashboard</trd>
   <trd lng="es">panel de control</trd>
   <trd lng="fr">tableau de bord</trd>
   <trd lng="pl">panel kontrolny</trd>
   <trd lng="ro">panou de control</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4EEA;&#34920;&#x76D8; <pr>y&#xED;bi&#x1CE;op&#xE1;n</pr></trd>,
+    <trd>&#20736;&#34920;&#x76E4; <pr>y&#xED;bi&#x1CE;op&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="panel.reg0o">
@@ -225,6 +255,12 @@
     <trd>&c_k;&c_o;&c_n;&c_t;&c_r;&c_o;&c_l;&c_je;&c_n; &c_p;&c_a;&c_n;&c_je;&c_l;</trd>,
     <trd>&c_p;&c_u;&c_l;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Schalttafel</trd>,
+    <trd>Bedienfeld</trd>,
+    <trd>Konsole</trd>,
+    <trd>Steuerpult</trd>
+  </trdgrp>
   <trd lng="en">dashboard</trd>
   <trdgrp lng="es">
     <trd>panel de control</trd>,
@@ -237,6 +273,10 @@
   <trd lng="pl">panel sterowniczy</trd>
   <trd lng="ro">consola de comand&abreve;</trd>
   <trd lng="uk">&c_p;&c_a;&c_n;&c_je;&c_l;&c_mol; &c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ib;&c_n;&c_n;&c_ja;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x4EEA;&#34920;&#x76D8; <pr>y&#xED;bi&#x1CE;op&#xE1;n</pr></trd>,
+    <trd>&#20736;&#34920;&#x76E4; <pr>y&#xED;bi&#x1CE;op&#xE1;n</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="panel.sun0o">
@@ -267,13 +307,17 @@
     <trd>&c_s;&c_l;&c_malmol;&c_n;&c_ch;&c_je;&c_v; &c_p;&c_a;&c_n;&c_je;&c_l;</trd>,
     <trd>&c_s;&c_l;&c_malmol;&c_n;&c_ch;&c_je;&c_v;&c_a; &c_b;&c_a;&c_t;&c_je;&c_r;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Solarpaneel</trd>,
+    <trd>Photovoltaikmodul</trd>
+  </trdgrp>
   <trd lng="es">panel solar</trd>
   <trd lng="fr">panneau solaire</trd>
   <trdgrp lng="ja">
-    <trd>&#x592A;&#x967D;&#20809;&#x30D1;&#x30CD;&#x30EB; 
+    <trd>&#x592A;&#x967D;&#20809;&#x30D1;&#x30CD;&#x30EB;
     <pr>&#x305F;&#12356;&#12424;&#12358;&#12371;&#12358;&#x30D1;&#x30CD;&#x30EB;</pr></trd>,
     <trd>&#x30BD;&#x30FC;&#x30E9;&#x30FC;&#x30D1;&#x30CD;&#x30EB;</trd>,
-    <trd>&#x592A;&#x967D;&#x96FB;&#x6C60;&#x30D1;&#x30CD;&#x30EB; 
+    <trd>&#x592A;&#x967D;&#x96FB;&#x6C60;&#x30D1;&#x30CD;&#x30EB;
     <pr>&#x305F;&#12356;&#12424;&#12358;&#12391;&#12435;&#12385;&#x30D1;&#x30CD;&#x30EB;</pr></trd>
   </trdgrp>
   <trd lng="pl">ogniwo s&lstroke;oneczne</trd>
@@ -307,13 +351,21 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_n;&c_e;&c_l;&c_mol;&c_n;&c_a;&c_ja; <ind>&c_d;&c_y;&c_s;&c_k;&c_u;&c_s;&c_ib;&c_ja;</ind></trd>
+  <trd lng="de">Podiumsdiskussion</trd>
   <trd lng="en">panel discussion</trd>
   <trd lng="pl">dyskusja  <ind>panelowa</ind></trd>
   <trd lng="ro">discu&#x21B;iilor  <ind>panel</ind></trd>
+  <trdgrp lng="zh">
+    <trd>&#21512;&#x8B70; <pr>h&#xE9;y&#xEC;</pr></trd>,
+    <trd>&#21512;&#x8BAE; <pr>h&#xE9;y&#xEC;</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.36 2024/03/23 11:19:01
+Wolfram Diestel: fnt JED, +trd de, ref
+
 versio 1.34 2023/10/20 14:25:19
 revo: transskribo per <pr>
 
@@ -333,8 +385,5 @@ versio 1.28 2022/05/01 17:51:18
 aktualigo lingvokodoj kaj URL-unuoj
 
 versio 1.25 2021/03/13 22:11:14
-Robin van der Vliet: paneldiskuto aldonita, senco disigita
-
-versio 1.24 2021/03/10 12:10:56
 -->
 </vortaro>

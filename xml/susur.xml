@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: susur.xml,v 1.27 2023/11/11 09:24:20 revo Exp $">
+<art mrk="$Id: susur.xml,v 1.29 2024/05/24 21:25:15 revo Exp $">
 <kap>
   <ofc>6</ofc>
   <rad>susur</rad>/i
@@ -84,13 +84,14 @@
   <trd lng="it">mormorare</trd>
   <trdgrp lng="ja">
     <trd>&#12373;&#12425;&#12373;&#12425;&#x9CF4;&#x308B;  <pr>&#12373;&#12425;&#12373;&#12425;&#x306A;&#x308B;</pr></trd>,
-    <trd>&#x304B;&#12373;&#x304B;&#12373;&#x97F3;&#12434;&#x7ACB;&#12390;&#x308B; 
+    <trd>&#x304B;&#12373;&#x304B;&#12373;&#x97F3;&#12434;&#x7ACB;&#12390;&#x308B;
     <pr>&#x304B;&#12373;&#x304B;&#12373;&#x304A;&#12392;&#12434;&#x305F;&#12390;&#x308B;</pr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>ritselen</trd>,
     <trd>ruisen<klr tip="ind"> (werkw.)</klr></trd>
   </trdgrp>
+  <trd lng="pl">szele&sacute;ci&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_sh;&c_u;&c_r;&c_sh;&c_a;&c_t;&c_mol;</trd>
@@ -104,6 +105,14 @@
     <trd>&c_sh;&c_a;&c_r;&c_u;&c_d;&c_ib;&c_t;&c_i;</trd>,
     <trd>&c_d;&c_z;&c_i;&c_zh;&c_ch;&c_a;&c_t;&c_i; (&#x43F;&c_r;&#x43E; &#x43A;&#x43E;&#x43C;&c_a;&c_h;&c_u;)</trd>,
     <trd>&c_d;&c_z;&#x44E;&c_r;&c_ch;&c_a;&c_t;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x4F4E;&#x8A9E; <pr>d&#x12B;y&#x1D4;</pr></trd>,
+    <trd>&#x4F4E;&#x8BED; <pr>d&#x12B;y&#x1D4;</pr></trd>,
+    <trd>&#x6C99;&#x6C99; <pr>sh&amacron;sh&amacron;</pr></trd>,
+    <trd>&#22070;&#22070;&#x58F0; <pr>s&#x12B;s&#x12B;sh&emacron;ng</pr></trd>,
+    <trd>&#22070;&#22070;&#32882; <pr>s&#x12B;s&#x12B;sh&emacron;ng</pr></trd>,
+    <trd>&#x6DD9; <pr>c&#xF3;ng</pr></trd>
   </trdgrp>
 </drv>
 
@@ -193,6 +202,11 @@
     <trd>&#x304B;&#12373;&#12371;&#x305D;&#12392;&#12356;&#12358;&#x97F3;  <pr>&#x304B;&#12373;&#12371;&#x305D;&#12392;&#12356;&#12358;&#x304A;&#12392;</pr></trd>
   </trdgrp>
   <trd lng="nl">ruisen<klr tip="ind"> (subst.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>szelest</trd>,
+    <trd>szmer</trd>,
+    <trd>szum</trd>
+  </trdgrp>
   <trdgrp lng="sk">
     <trd>&scaron;elest</trd>,
     <trd>&scaron;um</trd>
@@ -205,10 +219,22 @@
     <trd>&c_d;&c_z;&c_i;&c_zh;&c_ch;&c_a;&#x43D;&#x43D;&#x44F;</trd>,
     <trd>&c_d;&c_z;&#x44E;&c_r;&#x43A;&c_ib;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#x6C99;&#x6C99; <pr>sh&amacron;sh&amacron;</pr></trd>,
+    <trd>&#x4F4E;&#x8A9E; <pr>d&#x12B;y&#x1D4;</pr></trd>,
+    <trd>&#x4F4E;&#x8BED; <pr>d&#x12B;y&#x1D4;</pr></trd>,
+    <trd>&#x677E;&#x6D9B; <pr>s&#x14D;ngt&#xE1;o</pr></trd>,
+    <trd>&#x677E;&#x6FE4; <pr>s&#x14D;ngt&#xE1;o</pr></trd>,
+    <trd>&#x55D6; <pr>s&#x14D;u</pr></trd>,
+    <trd>&#x55D6;&#x55D6; <pr>s&#x14D;us&#x14D;u</pr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log$
+versio 1.29 2024/05/24 21:25:15
+Vito Redsky: +trd pl
+
 versio 1.27 2023/11/11 09:24:20
 Dmitri Gabinski: + trd be
 
@@ -228,8 +254,5 @@ Revision 1.19  2011/12/28 19:10:08  revo
 Eduardo Navas: +trad es
 
 Revision 1.18  2009/10/08 16:31:02  revo
-Antonio Codazzi: +trd it
-
-Revision 1.17  2009/07/07 16:30:40  revo
 -->
 </vortaro>

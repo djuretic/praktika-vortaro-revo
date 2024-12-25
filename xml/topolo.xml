@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: topolo.xml,v 1.38 2022/12/14 09:27:09 revo Exp $">
+<art mrk="$Id: topolo.xml,v 1.40 2024/05/10 10:43:46 revo Exp $">
 <kap>
   <rad>topologi</rad>/o
 </kap>
@@ -65,7 +65,7 @@
         </trdgrp>
         <trd lng="fr">topologie grossi&egrave;re</trd>
         <trd lng="hu">trivi&aacute;lis <ind>topol&oacute;gia</ind></trd>
-
+        <trd lng="pl">przestrze&nacute; antydyskretna</trd>
         <trd lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         &c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
       </ekz>
@@ -81,10 +81,10 @@
       <ekz>
         <tld/>o super <frm am="bb E"><g>E</g></frm>,
         difinita per aro <frm am="bb A"><g>A</g></frm>
-        de subaroj de <frm am="bb E"><g>E</g></frm> 
+        de subaroj de <frm am="bb E"><g>E</g></frm>
         <klr>(<tld/>o, kies bazon konsistigas
         &ccirc;iuj finiaj komuna&jcirc;oj de elementoj en
-        <frm am="bb A uu {O/,bb E}"><g>A</g>&#x222A;{&#8709;,<g>E</g>}</frm>)</klr>;
+        <frm am="bb A uu {O/,bb E}"><g>A</g>&#x222A;{&#x2205;,<g>E</g>}</frm>)</klr>;
       </ekz>
       <ekz>
         <tld/>o super <frm><g>E</g></frm>, difinita per aro de bildigoj
@@ -119,12 +119,16 @@
   <trd lng="en">topology</trd>
   <trd lng="es">topolog&iacute;a</trd>
   <trd lng="fr">topologie</trd>
-  <trd lng="hu">topol&oacute;gia</trd>  
+  <trd lng="hu">topol&oacute;gia</trd>
   <trd lng="nl">topologie</trd>
   <trd lng="pl">topologia</trd>
   <trd lng="pt">topologia</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
   <trd lng="uk">&c_t;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&c_g;&c_ib;&#x44F;</trd>
+  <trdgrp lng="zh">
+    <trd>&#x62D3;&#x6251; <pr>tu&#xF2;p&#x16B;</pr></trd>,
+    <trd>&#x62D3;&#x64B2; <pr>tu&#xF2;p&#x16B;</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="topolo.0a">
@@ -154,7 +158,7 @@
         <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigo <frm am="x&#8224;y^-1"><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
+        la bildigo <frm am="x&#x2020;y^-1"><k>x</k>&#x2020;<k>y</k><sup>-1</sup></frm> estu
         <ref cel="kontin3.0a.cxie">kontinua</ref>.
       </dif>
     </subsnc>
@@ -163,8 +167,8 @@
         <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm am="x&#8224;(-y)"><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
-        <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm> estu
+        la bildigoj <frm am="x&#x2020;(-y)"><k>x</k>&#x2020;(-<k>y</k>)</frm> kaj
+        <frm am="x*y"><k>x</k>&#x2219;<k>y</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -175,11 +179,11 @@
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
         la bildigoj <frm am="x-y"><k>x</k>-<k>y</k></frm> kaj
-        <frm am="alpha*x">&alfa;&#8729;<k>x</k></frm> estu
+        <frm am="alpha*x">&alfa;&#x2219;<k>x</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
-    
+
     <trd lng="de">topologisch</trd>
     <trd lng="en">topological</trd>
     <trd lng="es">topol&oacute;gico</trd>
@@ -188,7 +192,7 @@
     <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   </snc>
   <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
-  <trd lng="hu">topologikus</trd>  
+  <trd lng="hu">topologikus</trd>
 </drv>
 
 <drv mrk="topolo.malforta0o">
@@ -227,7 +231,8 @@ tiu,
   <trd lng="de">schwache <ind>Topologie</ind></trd>
   <trd lng="en">weak <ind>topology</ind></trd>
   <trd lng="fr">topologie faible</trd>
-  <trd lng="hu">gyenge <ind>topol&oacute;gia</ind></trd>          
+  <trd lng="hu">gyenge <ind>topol&oacute;gia</ind></trd>
+  <trd lng="pl">s&lstroke;aba <ind>topologia</ind></trd>
   <trd lng="ru">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja;
   <ind>&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -243,8 +248,8 @@ tiu,
       La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
       difinita per la aro de &ccirc;iuj bildigoj
       <frm am="theta_x">&theta;<sub><k>x</k></sub></frm> (por
-      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
-      <frm am="phi">&phi;</frm> de la dualo al 
+      <frm am="x in bb E"><k>x</k>&#x2208;<g>E</g></frm>), kiuj &jcirc;etas elementon
+      <frm am="phi">&phi;</frm> de la dualo al
       <frm am="phi(x)">&phi;(<k>x</k>)</frm>:
       <ekz>
         la dualmalforta <tld/>o identas kun la <tld/>o de simpla
@@ -275,7 +280,8 @@ tiu,
     <trd>topologie *-faible</trd>,
     <trd>topologie faible *</trd>
   </trdgrp>
-  <trd lng="hu">gyenge *-<ind>topol&oacute;gia</ind></trd>  
+  <trd lng="hu">gyenge *-<ind>topol&oacute;gia</ind></trd>
+  <trd lng="pl">s&lstroke;aba <ind>topologia</ind></trd>
   <trd lng="ru">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja; *
   <ind>&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -297,7 +303,8 @@ tiu,
   <trd lng="en">topology of pointwise convergence</trd>
   <trd lng="fr">topologie de la convergence simple</trd>
   <trd lng="hu">pontonk&eacute;nti konvergencia
-<ind>topol&oacute;gi&aacute;ja</ind></trd>  
+<ind>topol&oacute;gi&aacute;ja</ind></trd>
+  <trd lng="pl">topologia zbie&zdot;no&sacute;ci punktowej</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;
   &c_p;&c_r;&c_o;&c_s;&c_t;&c_o;&c_j;
   &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
@@ -321,7 +328,8 @@ tiu,
   <trd lng="en">topology of uniform convergence</trd>
   <trd lng="fr">topologie de la convergence uniforme</trd>
   <trd lng="hu">egyenletes konvergencia
-<ind>topol&oacute;gi&aacute;ja</ind></trd>  
+<ind>topol&oacute;gi&aacute;ja</ind></trd>
+  <trd lng="pl">topologia jednorodnej zbie&zdot;no&sacute;ci</trd>
   <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;
   &c_r;&c_a;&c_v;&c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o;&c_j;
   &c_s;&c_h;&c_o;&c_d;&c_i;&c_m;&c_o;&c_s;&c_t;&c_i;</trd>
@@ -329,6 +337,9 @@ tiu,
 </art>
 <!--
 $Log$
+versio 1.39 2024/02/18 01:26:59
+Vito Redsky: +trd pl 
+
 versio 1.38 2022/12/14 09:27:09
 Dmitri Gabinski: + trd be
 
@@ -348,8 +359,5 @@ Revision 1.32  2013/06/17 05:10:13  revo
 Jozefo Horvath: kor. tr hu
 
 Revision 1.31  2012/10/23 00:14:03  revo
-Neil Roberts: aldonu la etikedon <var>
-
-Revision 1.30  2006/02/15 17:36:09  revo
 -->
 </vortaro>

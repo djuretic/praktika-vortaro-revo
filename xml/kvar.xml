@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: kvar.xml,v 1.135 2023/12/12 08:31:45 revo Exp $">
+<art mrk="$Id: kvar.xml,v 1.140 2024/08/21 12:44:56 revo Exp $">
  <kap>
   <ofc>*</ofc>
   <rad>kvar</rad>
@@ -304,7 +304,7 @@
   <trd lng="fi">nelj&auml;s</trd>
   <trd lng="fr">quatri&egrave;me</trd>
   <trd lng="hu">negyedik</trd>
-  <trd lng="id">ke<ind>empat</ind></trd>
+  <trd lng="id"><baz>empat</baz>keempat</trd>
   <trdgrp lng="ja">
     <trd>&#65300;&#30058;&#30446;&#12398; <pr>&#12424;&#12387;&#12400;&#12435;&#12417;&#12398;</pr></trd>,
     <trd>&#31532;&#22235;&#12398; <pr>&#12384;&#12356;&#12424;&#12387;&#12398;</pr></trd>
@@ -369,6 +369,7 @@
     <trd lng="fi">nelj&auml;nneksi</trd>
     <trd lng="fr">quatri&egrave;mement</trd>
     <trd lng="hu">negyedszer <klr tip="ind">(felsorol&aacute;sn&aacute;l)</klr></trd>
+    <trd lng="id"><baz>empat</baz>keempat</trd>
     <trdgrp lng="ja">
       <trd>&#65300;&#30058;&#30446;&#12395;  <pr>&#12424;&#12387;&#12400;&#12435;&#12417;&#12395;</pr></trd>,
       <trd>&#31532;&#22235;&#12395;  <pr>&#12384;&#12356;&#12424;&#12387;&#12395;</pr></trd>
@@ -394,80 +395,93 @@
     <trd lng="be">&c_a; <ind>&c_ch;&c_a;&c_c;&c_mol;&c_v;&c_jo;&c_r;&c_t;&c_a;&c_j;</ind> <klr>(&c_g;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_je;)</klr></trd>
     <trd lng="de">um Vier</trd>
     <trd lng="en">four o'clock</trd>
+  <trd lng="id"><ind>pukul</ind> empat</trd>
   </snc>
 </drv>
 
-<drv mrk="kvar.0angula">
-  <kap><tld/>angula</kap>
+<drv mrk="kvar.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="kvar.0o.nombro">
+    <dif>
+      La nombro <tld/>.
+    </dif>
+    <trd lng="be">&c_ch;&c_a;&c_t;&c_y;&c_r;&c_y;</trd>
+    <trd lng="de">Vier</trd>
+  </snc>
   <snc>
     <dif>
-      Havanta kvar angulojn:
+      <tld lit="K"/> aferoj kune:
       <ekz>
-        <tld/>angula estu la altaro
+        atutoj-<tld/>o
         <fnt>
-          <bib>MT</bib>
-          <lok>Eliro 27:1</lok>
+          <bib>SrT</bib>
+          <lok>Libro VII.</lok>
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>angula tablo
+        mi esprimas <klr>[&#8230;]</klr> nian koran kamaradan dankon al <klr>[&#8230;]</klr> nia
+        <tld lit="K"/>o por la Kvara, kiu prenis sur sin la malfacilan taskon, aran&gcirc;i
+        nian kongreson &gcirc;uste en &ccirc;i tiu jaro
         <fnt>
-          <bib>VaK</bib>
-          <lok>Dua &Ccirc;apitro</lok>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto
+          1908</vrk>
         </fnt>;
       </ekz>
       <ekz>
-        <tld/>angulaj kolonoj <klr>(la&ubreve; profilo)</klr> el granito
+        kvar <tld/>oj da soldatoj
         <fnt>
-          <bib>Far3</bib>
-          <lok>&Ccirc;apitro VIII</lok>
+          <bib>NT</bib>
+          <lok>La agoj 12:4</lok>
         </fnt>;
       </ekz>
       <ekz>
-        oni pritraktas ian geometrian figuron jen kiel rondan, jen kiel <tld/>angulan
+        ili iris proksimume po kvar en &ccirc;iu vico, sed malgra&ubreve; la krioj de la oficiroj
+        sen&ccirc;ese rompi&gcirc;is la ordo kaj la najbaraj <tld/>oj intermiksi&gcirc;is
         <fnt>
-          <bib>VaK</bib>
-          <lok>Kvara &Ccirc;apitro</lok>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
         </fnt>;
       </ekz>
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        lia <tld/>angula <klr>(kubsimila)</klr> kapo <klr>[&#8230;]</klr> malkonfideme balanci&gcirc;is
+        mi vidas nun tri virojn, &dash; a&ubreve; eble estas <tld/>o
         <fnt>
-          <bib>Metrop</bib>
+          <bib>LSB</bib>
+          <lok>Sibilla Orakolas</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vidante, ke la onklo sin okupas per ordigo de muzikaj kajeroj, li demandis gaje:
+        &ndash; &ccirc;u la <tld/>o ludos hodia&ubreve; vespere, onklo Silaso
+        <fnt>
+          <bib>MrA</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        li rigardis &#11005; Kura&gcirc;e per okuloj, kiuj fajre ardis &#11005; Egale &scirc;i rigardis: kaj
+        pupiloj-<tld/>o &#11005; Kontra&ubreve; si flamis, kiel frumes&#8217;-kandelaro
+        <fnt>
+          <bib>SrT</bib>
+          <lok>Libro I.</lok>
         </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
-      <ref cel="kvadra1.0a">kvadrata</ref>
+      <ref cel="kvar.0opo">kvaropo</ref>,
+      <ref cel="tercet.0o">terceto</ref>
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_ch;&c_a;&c_c;&c_mol;&c_v;&c_jo;&c_r;&c_k;&c_a;</trd>,
+      <trd>&c_ch;&c_a;&c_c;&c_v;&c_ja;&c_r;&c_y;&c_k;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Vierer</trd>,
+      <trd>Quartett</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_ch;&c_a;&c_t;&c_y;&c_r;&c_o;&c_h;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>,
-    <trd>&c_ch;&c_a;&c_t;&c_y;&c_r;&c_o;&c_h;&c_k;&c_u;&c_t;&c_n;&c_y;</trd>
-  </trdgrp>
-  <trd lng="br">pevarc'hornek</trd>
-  <trd lng="cs">&ccaron;ty&rcaron;&uacute;heln&iacute;kov&yacute;</trd>
-  <trd lng="de">viereckig</trd>
-  <trd lng="en">quadrangular</trd>
-  <trd lng="es">cuadrangular</trd>
-  <trd lng="fi">nelikulmainen</trd>
-  <trd lng="fr">quadrangulaire</trd>
-  <trd lng="he">&mem;&resh;&vav;&bet;&ayin;</trd>
-  <trd lng="hu">n&eacute;gysz&ouml;g&udblac;</trd>
-  <trd lng="nl">vierhoekig</trd>
-  <trd lng="pl">czterok&aogonek;tny</trd>
-  <trd lng="ro">patruunghiular</trd>
-  <trd lng="ru">&c_ch;&c_je;&c_t;&c_y;&c_r;&c_jo;&c_h;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">&scaron;tvoruho&lcaron;n&iacute;kov&yacute;</trd>
-  <trd lng="uk">&c_ch;&c_o;&c_t;&c_i;&c_r;&c_i;&c_k;&c_u;&c_t;&c_n;&c_i;&c_j;</trd>
-  <trdgrp lng="zh">
-    <trd>&#22235;&#35282; <pr>s&igrave;ji&#462;o</pr></trd>,
-    <trd>&#35211;&#26041; <pr>ji&agrave;nf&amacron;ng</pr></trd>,
-    <trd>&#35265;&#26041; <pr>ji&agrave;nf&amacron;ng</pr></trd>,
-    <trd>&#21475;&#23376;&#24418; <pr>k&#466;uzix&iacute;ng</pr></trd>,
-    <trd>&#26041; <pr>f&amacron;ng</pr></trd>
-  </trdgrp>
 </drv>
 
 <drv mrk="kvar.0ono">
@@ -536,7 +550,7 @@
   <trd lng="fr">quart</trd>
   <trd lng="he">&resh;&bet;&ayin;</trd>
   <trd lng="hu">negyed</trd>
-  <trd lng="id">per<ind>empat</ind></trd>
+  <trd lng="id"><baz>empat</baz>perempat</trd>
   <trdgrp lng="ja">
     <trd>&#22235;&#20998;&#12398;&#19968;  <pr>&#12424;&#12387;&#12405;&#12435;&#12398;&#12402;&#12392;</pr></trd>,
     <trd>&#22235;&#20998;&#38899;&#31526;  <pr>&#12375;&#12406;&#12362;&#12435;&#12407;</pr></trd>
@@ -557,6 +571,123 @@
   </trdgrp>
   <trd lng="uk">&c_ch;&c_v;&c_je;&c_r;&c_t;&c_mol;</trd>
   <trd lng="zh">&#22235;&#20998;&#20043;&#19968; <pr>s&igrave;f&emacron;nzh&imacron;y&imacron;</pr></trd>
+</drv>
+
+<drv mrk="kvar.0opo">
+  <kap>
+    <tld/>opo
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="K"/>o da personoj:
+      <ekz>
+        per poemaro <tld lit="K"/>opo startis Stafeto
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2002, &#8470;1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nova <tld/>opo konsistis el <nom>William Auld</nom>, <nom>John Dinwoodie</nom>, <nom>John
+        Francis</nom> kaj
+        <nom>Reto Rossetti</nom>
+        <fnt>
+          <bib>Plumamikoj</bib>
+          <lok>Esperanta poezio: mirakla rikolto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vespere anta&ubreve; la kunvenintoj koncertis korda <tld/>opo el la ka&ubreve;na filharmonio
+        <fnt>
+          <bib>LOdE</bib>
+          <lok>2004, &#8470; 1 (111)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu <tld/>opo unufoje semajne kuntrinki<klr>[s]</klr> tie aperitivon
+        <fnt>
+          <bib>ChB</bib>
+          <lok>26</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_v;&c_a;&c_r;&c_t;&c_e;&c_t;</trd>
+  <trd lng="de">Quartett <klr>(Personen)</klr></trd>
+</drv>
+
+<drv mrk="kvar.0angula">
+  <kap><tld/>angula</kap>
+  <snc>
+    <dif>
+      Havanta kvar angulojn:
+      <ekz>
+        <tld/>angula estu la altaro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 27:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>angula tablo
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Dua &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>angulaj kolonoj <klr>(la&ubreve; profilo)</klr> el granito
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni pritraktas ian geometrian figuron jen kiel rondan, jen kiel <tld/>angulan
+        <fnt>
+          <bib>VaK</bib>
+          <lok>Kvara &Ccirc;apitro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        lia <tld/>angula <klr>(kubsimila)</klr> kapo <klr>[&#8230;]</klr> malkonfideme balanci&gcirc;is
+        <fnt>
+          <bib>Metrop</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="kvadra1.0a">kvadrata</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_ch;&c_a;&c_t;&c_y;&c_r;&c_o;&c_h;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>,
+    <trd>&c_ch;&c_a;&c_t;&c_y;&c_r;&c_o;&c_h;&c_k;&c_u;&c_t;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trd lng="br">pevarc'hornek</trd>
+  <trd lng="cs">&ccaron;ty&rcaron;&uacute;heln&iacute;kov&yacute;</trd>
+  <trd lng="de">viereckig</trd>
+  <trd lng="en">quadrangular</trd>
+  <trd lng="es">cuadrangular</trd>
+  <trd lng="fi">nelikulmainen</trd>
+  <trd lng="fr">quadrangulaire</trd>
+  <trd lng="he">&mem;&resh;&vav;&bet;&ayin;</trd>
+  <trd lng="hu">n&eacute;gysz&ouml;g&udblac;</trd>
+  <trd lng="id"><ind>segi</ind> empat</trd>
+  <trd lng="nl">vierhoekig</trd>
+  <trd lng="pl">czterok&aogonek;tny</trd>
+  <trd lng="ro">patruunghiular</trd>
+  <trd lng="ru">&c_ch;&c_je;&c_t;&c_y;&c_r;&c_jo;&c_h;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">&scaron;tvoruho&lcaron;n&iacute;kov&yacute;</trd>
+  <trd lng="uk">&c_ch;&c_o;&c_t;&c_i;&c_r;&c_i;&c_k;&c_u;&c_t;&c_n;&c_i;&c_j;</trd>
+  <trdgrp lng="zh">
+    <trd>&#22235;&#35282; <pr>s&igrave;ji&#462;o</pr></trd>,
+    <trd>&#35211;&#26041; <pr>ji&agrave;nf&amacron;ng</pr></trd>,
+    <trd>&#35265;&#26041; <pr>ji&agrave;nf&amacron;ng</pr></trd>,
+    <trd>&#21475;&#23376;&#24418; <pr>k&#466;uzix&iacute;ng</pr></trd>,
+    <trd>&#26041; <pr>f&amacron;ng</pr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kvar.0onjaro">
@@ -594,13 +725,18 @@
   <snc mrk="kvar.0onjaro.numerita">
     <uzo tip="fak">KAL</uzo>
     <ref tip="dif" cel="kvar.jar0ono.KAL">jar<tld/>ono</ref>
+  <trdgrp lng="id">
+    <trd>triwulan</trd>,
+    <trd>trimester</trd>,
+    <trd>kuartal</trd>
+  </trdgrp>
   </snc>
   <trd lng="be">&c_k;&c_v;&c_a;&c_r;&c_t;&c_a;&c_l; <klr tip="amb">(&c_g;&c_o;&c_d;&c_a;)</klr></trd>
   <trdgrp lng="cs">
     <trd>kvart&aacute;l</trd>,
     <trd>&ccaron;tvrtlet&iacute;</trd>
   </trdgrp>
-  <trd lng="id">triwulan</trd>
+  <trd lng="de">Vierteljahr</trd>
   <trd lng="ja">&#22235;&#21322;&#26399;  <pr>&#12375;&#12399;&#12435;&#12365;</pr></trd>
   <trdgrp lng="nl">
     <trd>kwartaal</trd>,
@@ -668,6 +804,11 @@
   </trdgrp>
   <trd lng="fi">vuosinelj&auml;nnes</trd>
   <trd lng="fr">trimestre</trd>
+  <trdgrp lng="id">
+    <trd>triwulan</trd>,
+    <trd>trimester</trd>,
+    <trd>kuartal</trd>
+  </trdgrp>
   <trd lng="ja">&#22235;&#21322;&#26399;  <pr>&#12375;&#12399;&#12435;&#12365;</pr></trd>
   <trdgrp lng="nl">
     <trd>kwartaal</trd>,
@@ -685,6 +826,63 @@
     <trd>&#19977;&#20010;&#26376; <pr>s&amacron;ng&egrave;yu&egrave;</pr></trd>,
     <trd>&#19977;&#20491;&#26376; <pr>s&amacron;ng&egrave;yu&egrave;</pr></trd>
   </trdgrp>
+</drv>
+
+<drv mrk="kvar.vers0o">
+  <kap>
+    vers<tld/>o, <var><kap>vers<tld/>opo</kap></var>
+  </kap>
+  <snc mrk="kvar.vers0o.strofo">
+    <dif>
+      Strofo el <tld/> versoj:
+      <ekz>
+        Zee tradukas la kvinsilaban vers<tld/>on per alterno de versoj, 11 kaj 12,
+        respektive, &ccirc;iu kun 5 akcentoj, kaj la sepsilaban vers<tld/>on per kvaro da
+        13-silabaj versoj 6-akcentaj
+        <fnt>
+          <aut>Kikunobu Matuba</aut>
+          <vrk><url
+          ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Revuoj/nlr/nlr66/orientaj.html"
+              >Kalocsay en traduko de orientaj poezioj</url></vrk>
+          <lok>La Nica Literatura Revuo, 6/6 (n-ro 36) pa&gcirc;oj 225-236</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Prof. P. Christaller</nom> gajnis la unuan premion pro lia vers<tld/>o pri la Kvara
+        Kongreso
+        <fnt>
+          <vrk><url
+          ref="https://archive.org/details/britaesperantisto_1908_n045_sep/page/n13/mode/2up?view=theater"
+              >Libraro kaj Gazetaro, La Revuo</url></vrk>
+          <lok>La Brita Esperantisto (The British Esperantist) - Numero 045, Septembro (1908), p.
+          13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi elektis por la unua vers<tld/>opo en &ccirc;iu strofo sestrokeon kun alterna ina rimo
+        inter la versoj
+        <fnt>
+          <aut> Wim Jansen</aut>
+          <vrk><url
+          ref="https://books.google.de/books?id=2gyCDwAAQBAJ&amp;lpg=PA134&amp;ots=QOCI_4SjrM&amp;pg=PA134#v=onepage"
+              > La Juna E&ubreve;skino</url></vrk>
+          <lok> Beletra Almanako 32, p. 134</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_ch;&c_a;&c_t;&c_y;&c_r;&c_o;&c_h;&c_r;&c_a;&c_d;&c_k;&c_o;&c_w;&c_je;</trd>,
+    <trd>&c_k;&c_a;&c_t;&c_r;&c_e;&c_n;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Vierzeiler</trd>,
+    <trd>Quartine</trd>,
+    <trd>Quartett</trd>,
+    <trd>Tetrastichon</trd>
+  </trdgrp>
+  <trd lng="en">quatrain</trd>
+  <trd lng="fr">quatrain</trd>
 </drv>
 
 <drv mrk="kvar.0onjara">
@@ -763,6 +961,21 @@
 </art>
     <!--
     $Log$
+versio 1.140 2024/08/21 12:44:56
+Dmitri Gabinski: + trd be
+
+versio 1.139 2024/06/07 08:31:27
+Wolfram Diestel: trd de
+
+versio 1.138 2024/06/03 06:32:13
+Wolfram Diestel: +~o, ~opo
+
+versio 1.137 2024/05/28 14:29:15
+Eko Nur Syah Hidayat: +trd id 2 kaj kelkaj korektoj
+
+versio 1.136 2024/04/19 14:23:16
+Wolfram Diestel: +vers~(op)o
+
 versio 1.135 2023/12/12 08:31:45
 Dmitri Gabinski: + trd be
 
@@ -770,21 +983,6 @@ versio 1.134 2023/12/04 21:22:07
 Wolfram Diestel: +ekz-oj, ref
 
 versio 1.132 2023/10/18 17:23:25
-revo: transskribo per <pr>
-
-versio 1.131 2023/09/10 15:34:07
-revo: korekto de transskribo
-
-versio 1.129 2022/08/31 07:49:47
-Dmitri Gabinski: + trd be
-
-versio 1.128 2022/08/27 22:30:38
-Vito Redsky:  +trd pl  + kor trd ro
-
-versio 1.127 2022/05/01 08:09:26
-aktualigo lingvokodoj kaj URL-unuoj
-
-versio 1.124 2021/08/31 12:47:57
 -->
 
 </vortaro>
